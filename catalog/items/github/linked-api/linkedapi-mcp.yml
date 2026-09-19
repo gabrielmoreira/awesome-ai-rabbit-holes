@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__linked-api__linkedapi-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: Linked API
         extracted_url: https://github.com/linked-api/linkedapi-mcp
-        surrounding_text: "- **[Linked API](https://github.com/Linked-API/linkedapi-mcp.git)** - MCP server that lets AI assistants control LinkedIn accounts and retrieve real-time data with [Linked API](https://linkedapi.io)."
+        surrounding_text: >-
+          - **[Linked API](https://github.com/Linked-API/linkedapi-mcp.git)** - MCP server that lets AI assistants
+          control LinkedIn accounts and retrieve real-time data with [Linked API](https://linkedapi.io).
         confidence: high
 metadata:
   github:
@@ -29,8 +31,8 @@ metadata:
     archived: false
     full_name: Linked-API/linkedapi-mcp
     html_url: https://github.com/Linked-API/linkedapi-mcp
-    created_at: "2025-08-06T19:22:55Z"
-    pushed_at: "2026-07-23T08:30:08Z"
+    created_at: '2025-08-06T19:22:55Z'
+    pushed_at: '2026-07-23T08:30:08Z'
     description: MCP server that lets AI assistants control LinkedIn accounts and retrieve real-time data.
     homepage: https://linkedapi.io/mcp
     topics:
@@ -43,14 +45,20 @@ metadata:
       - mcp-server
       - sales-automation
       - social-selling
-    last_checked_at: "2026-07-30T05:06:06.270Z"
+    last_checked_at: '2026-07-30T05:06:06.270Z'
     readme:
-      fetched_at: "2026-07-30T05:06:06.270Z"
+      fetched_at: '2026-07-30T05:06:06.270Z'
       bytes: 2518
 insights:
-  summary: An MCP server that connects LinkedIn accounts to AI assistants like Claude and Cursor, enabling them to search leads, analyze profiles, and send messages via a cloud browser.
-  why_it_matters: It lets developers automate sales, recruitment, and market research workflows by giving coding assistants direct, structured access to LinkedIn data.
-  mental_damage: We have finally reached the point where your AI assistant can handle the soul-crushing part of sending LinkedIn cold outreach, leaving you free to ignore the responses manually.
+  summary: >-
+    An MCP server that connects LinkedIn accounts to AI assistants like Claude and Cursor, enabling them to search
+    leads, analyze profiles, and send messages via a cloud browser.
+  why_it_matters: >-
+    It lets developers automate sales, recruitment, and market research workflows by giving coding assistants direct,
+    structured access to LinkedIn data.
+  mental_damage: >-
+    We have finally reached the point where your AI assistant can handle the soul-crushing part of sending LinkedIn cold
+    outreach, leaving you free to ignore the responses manually.
   tags:
     - mcp
     - linkedin
@@ -60,35 +68,39 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server designed to give AI assistants access to LinkedIn-specific capabilities, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product's identity is an MCP server designed to give AI assistants access to LinkedIn-specific capabilities,
+    fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description explicitly states: 'MCP server that lets AI assistants control LinkedIn accounts and retrieve real-time data.'"
+    - >-
+      Repo description explicitly states: 'MCP server that lets AI assistants control LinkedIn accounts and retrieve
+      real-time data.'
     - Found in awesome-mcp-servers under the 'Official Servers' section.
     - README confirms integration with Claude, Cursor, and VS Code via the MCP protocol.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: '2026-05-06T22:12:15.627Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:06.270Z"
+    updated_at: '2026-07-30T05:06:06.270Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

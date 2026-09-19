@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__memebo-at__memeboat-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: memebo-at/memeboat-mcp
         extracted_url: https://github.com/memebo-at/memeboat-mcp
-        surrounding_text: "- [memebo-at/memeboat-mcp](https://github.com/memebo-at/memeboat-mcp) [![memebo-at/memeboat-mcp MCP server](https://glama.ai/mcp/servers/memebo-at/memeboat-mcp/badges/score.svg)](https://glama.ai/mcp/servers/memebo-at/memeboat-mcp) 🎖️ 📇 ☁️ 🏠 🍎 🪟 🐧 - Create real, shareable memes from 25,000+ templates on [memebo.at](https://memebo.at). Search the catalog, caption a template, get a live meme URL back. Free, anonymous, no API key. Remote server at `https://memebo.at/mcp` or `npx -y memeboat-mcp`."
+        surrounding_text: >-
+          - [memebo-at/memeboat-mcp](https://github.com/memebo-at/memeboat-mcp) [![memebo-at/memeboat-mcp MCP
+          server](https://glama.ai/mcp/servers/memebo-at/memeboat-mcp/badges/score.svg)](https://glama.ai/mcp/servers/memebo-at/memeboat-mcp)
+          🎖️ 📇 ☁️ 🏠 🍎 🪟 🐧 - Create real, shareable memes from 25,000+ templates on [memebo.at](https://memebo.at).
+          Search the catalog, caption a template, get a live meme URL back. Free, anonymous, no API key. Remote server
+          at `https://memebo.at/mcp` or `npx -y memeboat-mcp`.
         confidence: high
 metadata:
   github:
@@ -30,19 +35,27 @@ metadata:
     archived: false
     full_name: memebo-at/memeboat-mcp
     html_url: https://github.com/memebo-at/memeboat-mcp
-    created_at: "2026-07-04T22:40:22Z"
-    pushed_at: "2026-07-06T20:25:20Z"
-    description: MCP server for Memeboat — search 25,000+ meme templates and create memes from any AI assistant. Free, no API key. https://memebo.at
+    created_at: '2026-07-04T22:40:22Z'
+    pushed_at: '2026-07-06T20:25:20Z'
+    description: >-
+      MCP server for Memeboat — search 25,000+ meme templates and create memes from any AI assistant. Free, no API key.
+      https://memebo.at
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:16:59.701Z"
+    last_checked_at: '2026-08-03T05:16:59.701Z'
     readme:
-      fetched_at: "2026-08-03T05:16:59.701Z"
+      fetched_at: '2026-08-03T05:16:59.701Z'
       bytes: 3937
 insights:
-  summary: An MCP server that enables AI assistants to search a catalog of 25,000+ meme templates and generate shareable meme URLs.
-  why_it_matters: It provides a specialized tool for LLMs to bridge the gap between text-based reasoning and visual humor for social/internal communications.
-  mental_damage: Nothing says 'enior engineer' quite like prompting Claude to generate a Buzz Lightyear meme to explain a race condition.
+  summary: >-
+    An MCP server that enables AI assistants to search a catalog of 25,000+ meme templates and generate shareable meme
+    URLs.
+  why_it_matters: >-
+    It provides a specialized tool for LLMs to bridge the gap between text-based reasoning and visual humor for
+    social/internal communications.
+  mental_damage: >-
+    Nothing says 'enior engineer' quite like prompting Claude to generate a Buzz Lightyear meme to explain a race
+    condition.
   tags:
     - mcp
     - memes
@@ -58,24 +71,25 @@ curation:
     - Instructional focus is on connecting via Claude Desktop or Claude Code via MCP transport
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.715Z"
+    updated_at: '2026-07-16T05:04:46.715Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:59.701Z"
+    updated_at: '2026-08-03T05:16:59.701Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-16T05:20:10.629Z"
+    updated_at: '2026-07-16T05:20:10.629Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__chatterboxio__chatterboxio-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: OverQuotaAI/chatterboxio-mcp-server
         extracted_url: https://github.com/overquotaai/chatterboxio-mcp-server
-        surrounding_text: "- [OverQuotaAI/chatterboxio-mcp-server](https://github.com/OverQuotaAI/chatterboxio-mcp-server) 📇 ☁️ - MCP server implementation for ChatterBox.io, enabling AI agents to send bots to online meetings (Zoom, Google Meet) and obtain transcripts and recordings."
+        surrounding_text: >-
+          - [OverQuotaAI/chatterboxio-mcp-server](https://github.com/OverQuotaAI/chatterboxio-mcp-server) 📇 ☁️ - MCP
+          server implementation for ChatterBox.io, enabling AI agents to send bots to online meetings (Zoom, Google
+          Meet) and obtain transcripts and recordings.
         confidence: high
 metadata:
   github:
@@ -30,21 +33,25 @@ metadata:
     archived: false
     full_name: ChatterBoxIO/chatterboxio-mcp-server
     html_url: https://github.com/ChatterBoxIO/chatterboxio-mcp-server
-    created_at: "2025-05-01T01:59:30Z"
-    pushed_at: "2025-07-15T19:52:44Z"
-    description: A Model Context Protocol server implementation for ChatterBox, enabling AI agents to interact with online meetings and generate meeting summaries
+    created_at: '2025-05-01T01:59:30Z'
+    pushed_at: '2025-07-15T19:52:44Z'
+    description: >-
+      A Model Context Protocol server implementation for ChatterBox, enabling AI agents to interact with online meetings
+      and generate meeting summaries
     homepage: https://chatter-box.io
     topics:
       - gmeet-bot
       - mcp-server
       - zoom-bot
-    last_checked_at: "2026-09-07T04:13:43.981Z"
+    last_checked_at: '2026-09-07T04:13:43.981Z'
     readme:
-      fetched_at: "2026-09-07T04:13:43.981Z"
+      fetched_at: '2026-09-07T04:13:43.981Z'
       bytes: 3208
 insights:
   summary: An MCP server that lets AI agents join online meetings (Zoom, Google Meet, Teams) and generate meeting summaries.
-  why_it_matters: Developers can integrate live meeting participation and summarization into agent workflows without building the meeting bridge themselves.
+  why_it_matters: >-
+    Developers can integrate live meeting participation and summarization into agent workflows without building the
+    meeting bridge themselves.
   mental_damage: Now your AI can attend your standup and still understand less than you do.
   tags:
     - mcp-server
@@ -55,31 +62,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server for meeting interaction, not a compatibility footnote."
+  reason: 'MCP is the product identity: this is a dedicated MCP server for meeting interaction, not a compatibility footnote.'
   evidence:
     - Repo description explicitly states it is a Model Context Protocol server implementation
     - README details MCP server tools for joining meetings and generating summaries
     - Listed in awesome-mcp-servers under Server Implementations > Communication
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.607Z"
+    updated_at: '2026-05-06T22:12:15.607Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:43.981Z"
+    updated_at: '2026-09-07T04:13:43.981Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:41:20.347Z"
+    updated_at: '2026-07-21T15:41:20.347Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -92,7 +100,9 @@ processing:
       input_hash: sha256:7437e9207a7e755b8758d9cb679dafec8337bbfe27e5910a079a4fdb501eb9d2
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server for meeting interaction, not a compatibility footnote."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server for meeting interaction, not a compatibility
+        footnote.
       decision_evidence:
         - Repo description explicitly states it is a Model Context Protocol server implementation
         - README details MCP server tools for joining meetings and generating summaries
@@ -100,6 +110,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

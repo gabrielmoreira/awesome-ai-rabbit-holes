@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__choppaaahh__sendgrid-mcp-secure__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-09-14T04:13:20.171Z"
+      discovered_at: '2026-09-14T04:13:20.171Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: Choppaaahh/sendgrid-mcp-secure
         extracted_url: https://github.com/choppaaahh/sendgrid-mcp-secure
-        surrounding_text: "- [Choppaaahh/sendgrid-mcp-secure](https://github.com/Choppaaahh/sendgrid-mcp-secure) [![Choppaaahh/sendgrid-mcp-secure MCP server](https://glama.ai/mcp/servers/Choppaaahh/sendgrid-mcp-secure/badges/score.svg)](https://glama.ai/mcp/servers/Choppaaahh/sendgrid-mcp-secure) 🐍 🏠 - Security-first SendGrid MCP server: recipient/domain allowlists, send caps per time window, review-mode, audit log, and no silent BCC (off at the server, not a caller argument). Hardened against the postmark-mcp BCC-exfil incident class."
+        surrounding_text: >-
+          - [Choppaaahh/sendgrid-mcp-secure](https://github.com/Choppaaahh/sendgrid-mcp-secure)
+          [![Choppaaahh/sendgrid-mcp-secure MCP
+          server](https://glama.ai/mcp/servers/Choppaaahh/sendgrid-mcp-secure/badges/score.svg)](https://glama.ai/mcp/servers/Choppaaahh/sendgrid-mcp-secure)
+          🐍 🏠 - Security-first SendGrid MCP server: recipient/domain allowlists, send caps per time window,
+          review-mode, audit log, and no silent BCC (off at the server, not a caller argument). Hardened against the
+          postmark-mcp BCC-exfil incident class.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: Choppaaahh/sendgrid-mcp-secure
     html_url: https://github.com/Choppaaahh/sendgrid-mcp-secure
-    created_at: "2026-08-11T18:42:31Z"
-    pushed_at: "2026-09-02T13:03:43Z"
-    description: Security-first MCP server for SendGrid — recipient allowlists, send caps, review-mode, audit log, no silent BCC. Hardened against the postmark-mcp incident class.
+    created_at: '2026-08-11T18:42:31Z'
+    pushed_at: '2026-09-02T13:03:43Z'
+    description: >-
+      Security-first MCP server for SendGrid — recipient allowlists, send caps, review-mode, audit log, no silent BCC.
+      Hardened against the postmark-mcp incident class.
     homepage: null
     topics:
       - ai-safety
@@ -45,14 +53,20 @@ metadata:
       - model-context-protocol
       - security
       - sendgrid
-    last_checked_at: "2026-09-14T04:13:27.422Z"
+    last_checked_at: '2026-09-14T04:13:27.422Z'
     readme:
-      fetched_at: "2026-09-14T04:13:27.422Z"
+      fetched_at: '2026-09-14T04:13:27.422Z'
       bytes: 7071
 insights:
-  summary: A security-hardened MCP server for the SendGrid API that implements two-phase sending, recipient allowlisting, and audit logging.
-  why_it_matters: It provides a way to give AI agents transactional email capabilities while structurally preventing common exploits like silent BCC exfiltration or prompt-injected recipient manipulation.
-  mental_damage: Because we have reached the stage of the AI era where we need specialized security protocols just to ensure our LLM doesn't BCC a hacker on every email.
+  summary: >-
+    A security-hardened MCP server for the SendGrid API that implements two-phase sending, recipient allowlisting, and
+    audit logging.
+  why_it_matters: >-
+    It provides a way to give AI agents transactional email capabilities while structurally preventing common exploits
+    like silent BCC exfiltration or prompt-injected recipient manipulation.
+  mental_damage: >-
+    Because we have reached the stage of the AI era where we need specialized security protocols just to ensure our LLM
+    doesn't BCC a hacker on every email.
   tags:
     - mcp
     - sendgrid
@@ -68,24 +82,25 @@ curation:
     - README details specific MCP-centric security features like two-phase sends and dry-run modes
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-14T04:13:20.172Z"
+    updated_at: '2026-09-14T04:13:20.172Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:27.422Z"
+    updated_at: '2026-09-14T04:13:27.422Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-14T04:18:23.087Z"
+    updated_at: '2026-09-14T04:18:23.087Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -94,14 +109,18 @@ processing:
       input_hash: sha256:e42ad3b4f10e6b13cfecee0557dd80dbfbab6affc086a8684bdf4e94383ebb28
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is explicitly an MCP server implementation providing domain-specific (SendGrid) capabilities to agents.
+      decision_reason: >-
+        The project is explicitly an MCP server implementation providing domain-specific (SendGrid) capabilities to
+        agents.
       decision_evidence:
         - Repo description identifies it as a 'Security-first MCP server for SendGrid'
         - README details specific MCP-centric security features like two-phase sends and dry-run modes
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's primary identity is a Model Context Protocol server rather than a generic host integration or plugin.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool's primary identity is a Model Context Protocol server rather
+        than a generic host integration or plugin.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

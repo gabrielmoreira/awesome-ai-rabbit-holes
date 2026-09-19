@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__e2b__dev__docs__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Check out E2B - Code Interpreting for AI apps
         anchor_text: Code Interpreter SDK
         extracted_url: https://e2b.dev/docs
-        surrounding_text: "- Check out [Code Interpreter SDK](https://e2b.dev/docs?ref=awesome-sdk)"
+        surrounding_text: '- Check out [Code Interpreter SDK](https://e2b.dev/docs?ref=awesome-sdk)'
         confidence: high
 metadata:
   github:
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: E2B provides secure, isolated sandboxes for AI agents to execute code and interact with real-world tools.
-  why_it_matters: It solves the critical security and infrastructure challenge of allowing autonomous agents to run untrusted code in a controlled, ephemeral environment.
-  mental_damage: Because trusting an LLM with a shell is a recipe for disaster, you now need a dedicated infrastructure layer just to contain the chaos.
+  why_it_matters: >-
+    It solves the critical security and infrastructure challenge of allowing autonomous agents to run untrusted code in
+    a controlled, ephemeral environment.
+  mental_damage: >-
+    Because trusting an LLM with a shell is a recipe for disaster, you now need a dedicated infrastructure layer just to
+    contain the chaos.
   tags:
     - sandboxing
     - code-interpreting
@@ -46,25 +50,26 @@ insights:
     - security
   confidence: high
 curation:
-  status: included
-  reason: It is a code-first SDK and infrastructure provider used to build agentic workflows rather than a standalone assistant or orchestration platform.
+  status: pending
+  reason: 'Definitive manual audit: Documentation page of E2B, not a standalone product.'
   evidence:
-    - README describes it as 'isolated sandboxes that let agents safely execute code'
-    - SDKs provided for JavaScript and Python to integrate sandboxes into code
-    - Directly used by developers to build 'Frontier Agentic Workflows'
+    - Manual review, 2026-09-19
 placement:
-  primary_category: ai-frameworks
-  section: Provider / Model Abstractions
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -72,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:42:56.715Z"
+    updated_at: '2026-07-20T15:42:56.715Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -85,7 +90,9 @@ processing:
       input_hash: sha256:746597efbdb8c7ec54c3e4df1b5c1e472931452d63d94c8029a4889643f44136
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: It is a code-first SDK and infrastructure provider used to build agentic workflows rather than a standalone assistant or orchestration platform.
+      decision_reason: >-
+        It is a code-first SDK and infrastructure provider used to build agentic workflows rather than a standalone
+        assistant or orchestration platform.
       decision_evidence:
         - README describes it as 'isolated sandboxes that let agents safely execute code'
         - SDKs provided for JavaScript and Python to integrate sandboxes into code
@@ -93,6 +100,8 @@ processing:
       category_candidates:
         - ai-frameworks
         - agent-orchestration
-      contrastive_reason: Choose ai-frameworks over agent-orchestration because the primary developer interaction is via SDKs and APIs to build custom agent behaviors rather than through a managed control plane.
+      contrastive_reason: >-
+        Choose ai-frameworks over agent-orchestration because the primary developer interaction is via SDKs and APIs to
+        build custom agent behaviors rather than through a managed control plane.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__johannespettersson80__codesys-mcp-toolkit__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Codesys-mcp-toolkit
         extracted_url: https://github.com/johannespettersson80/codesys-mcp-toolkit
-        surrounding_text: "- **[Codesys-mcp-toolkit](https://github.com/johannesPettersson80/codesys-mcp-toolkit)** - A Model Context Protocol (MCP) server for CODESYS V3 programming environments."
+        surrounding_text: >-
+          - **[Codesys-mcp-toolkit](https://github.com/johannesPettersson80/codesys-mcp-toolkit)** - A Model Context
+          Protocol (MCP) server for CODESYS V3 programming environments.
         confidence: high
 metadata:
   github:
@@ -29,19 +31,23 @@ metadata:
     archived: false
     full_name: johannesPettersson80/codesys-mcp-toolkit
     html_url: https://github.com/johannesPettersson80/codesys-mcp-toolkit
-    created_at: "2025-04-23T07:33:19Z"
-    pushed_at: "2025-05-24T19:04:54Z"
+    created_at: '2025-04-23T07:33:19Z'
+    pushed_at: '2025-05-24T19:04:54Z'
     description: Model Context Protocol server for CODESYS automation platform
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:51.336Z"
+    last_checked_at: '2026-07-30T05:05:51.336Z'
     readme:
-      fetched_at: "2026-07-30T05:05:51.336Z"
+      fetched_at: '2026-07-30T05:05:51.336Z'
       bytes: 7937
 insights:
   summary: A Model Context Protocol (MCP) server that connects AI clients to the CODESYS automation platform.
-  why_it_matters: It allows LLMs to programmatically manage PLC projects, edit POU code, and trigger compilations in CODESYS via the Scripting Engine.
-  mental_damage: The dream of AI-driven industrial automation is now just one configuration error in a JSON file away from accidentally rewriting your factory floor logic.
+  why_it_matters: >-
+    It allows LLMs to programmatically manage PLC projects, edit POU code, and trigger compilations in CODESYS via the
+    Scripting Engine.
+  mental_damage: >-
+    The dream of AI-driven industrial automation is now just one configuration error in a JSON file away from
+    accidentally rewriting your factory floor logic.
   tags:
     - mcp
     - codesys
@@ -51,31 +57,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server designed to provide a specific domain (CODESYS) as a toolset for MCP clients.
+  reason: >-
+    The product is explicitly an MCP server designed to provide a specific domain (CODESYS) as a toolset for MCP
+    clients.
   evidence:
-    - "Repo description: 'Model Context Protocol server for CODESYS automation platform'"
+    - 'Repo description: ''Model Context Protocol server for CODESYS automation platform'''
     - README features specifically list MCP Resources and tools for project/POU management
     - Included in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.623Z"
+    updated_at: '2026-05-06T22:12:15.623Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:51.336Z"
+    updated_at: '2026-07-30T05:05:51.336Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:59.584Z"
+    updated_at: '2026-07-21T16:10:59.584Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,14 +97,18 @@ processing:
       input_hash: sha256:6bcfa02c9e37a78aa4694042df769d3e521cf1be25e6a6eb8b84c0325a20569a
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server designed to provide a specific domain (CODESYS) as a toolset for MCP clients.
+      decision_reason: >-
+        The product is explicitly an MCP server designed to provide a specific domain (CODESYS) as a toolset for MCP
+        clients.
       decision_evidence:
-        - "Repo description: 'Model Context Protocol server for CODESYS automation platform'"
+        - 'Repo description: ''Model Context Protocol server for CODESYS automation platform'''
         - README features specifically list MCP Resources and tools for project/POU management
         - Included in awesome-mcp-servers under Community Servers
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the project's primary identity is an MCP server implementation rather than a general IDE plugin or workflow add-on.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the project's primary identity is an MCP server implementation rather
+        than a general IDE plugin or workflow add-on.
       review_reason: null
       review_resume_lifecycle: null

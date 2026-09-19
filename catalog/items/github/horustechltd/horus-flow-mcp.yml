@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__horustechltd__horus-flow-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: horustechltd/horus-flow-mcp
         extracted_url: https://github.com/horustechltd/horus-flow-mcp
-        surrounding_text: "- [horustechltd/horus-flow-mcp](https://github.com/horustechltd/horus-flow-mcp) [![horustechltd/horus-flow-mcp MCP server](https://glama.ai/mcp/servers/horustechltd/horus-flow-mcp/badges/score.svg)](https://glama.ai/mcp/servers/horustechltd/horus-flow-mcp) 🐍 ☁️ - Institutional-grade crypto and US equity orderflow engine for real-time liquidity analysis and institutional alpha."
+        surrounding_text: >-
+          - [horustechltd/horus-flow-mcp](https://github.com/horustechltd/horus-flow-mcp) [![horustechltd/horus-flow-mcp
+          MCP
+          server](https://glama.ai/mcp/servers/horustechltd/horus-flow-mcp/badges/score.svg)](https://glama.ai/mcp/servers/horustechltd/horus-flow-mcp)
+          🐍 ☁️ - Institutional-grade crypto and US equity orderflow engine for real-time liquidity analysis and
+          institutional alpha.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: horustechltd/horus-flow-mcp
     html_url: https://github.com/horustechltd/horus-flow-mcp
-    created_at: "2026-04-17T09:36:39Z"
-    pushed_at: "2026-05-16T14:17:37Z"
-    description: "Official MCP server for Horus Flow Intelligence: Institutional-grade market microstructure and orderflow physics for AI trading agents."
+    created_at: '2026-04-17T09:36:39Z'
+    pushed_at: '2026-05-16T14:17:37Z'
+    description: >-
+      Official MCP server for Horus Flow Intelligence: Institutional-grade market microstructure and orderflow physics
+      for AI trading agents.
     homepage: https://flow.horustek.pro
     topics:
       - ai-agent
@@ -50,13 +57,15 @@ metadata:
       - python
       - quantitative-finance
       - trading
-    last_checked_at: "2026-07-30T05:05:38.597Z"
+    last_checked_at: '2026-07-30T05:05:38.597Z'
     readme:
-      fetched_at: "2026-07-30T05:05:38.597Z"
+      fetched_at: '2026-07-30T05:05:38.597Z'
       bytes: 10151
 insights:
   summary: MCP server providing institutional-grade market microstructure and orderflow data for AI trading agents.
-  why_it_matters: Gives AI trading agents real-time, physics-based market intelligence (e.g., orderbook depth, liquidity collapses) instead of lagging indicators.
+  why_it_matters: >-
+    Gives AI trading agents real-time, physics-based market intelligence (e.g., orderbook depth, liquidity collapses)
+    instead of lagging indicators.
   mental_damage: Now your AI trading agent can panic about liquidity collapses faster than you can.
   tags:
     - mcp-server
@@ -67,31 +76,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server for a specific domain (trading/market data)."
+  reason: 'MCP is the product identity: this is a dedicated MCP server for a specific domain (trading/market data).'
   evidence:
     - Repo description explicitly calls it an 'Official MCP server for Horus Flow Intelligence'
     - README emphasizes MCP readiness and integration as core value
     - Topics include 'mcp' and 'mcp-server'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.619Z"
+    updated_at: '2026-05-06T22:12:15.619Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:38.597Z"
+    updated_at: '2026-07-30T05:05:38.597Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:06:01.997Z"
+    updated_at: '2026-07-21T16:06:01.997Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,7 +114,7 @@ processing:
       input_hash: sha256:1268e538332ee3b34d5e1bd3dec214e3236b805177dc07030aa0e2cedbbe2b46
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server for a specific domain (trading/market data)."
+      decision_reason: 'MCP is the product identity: this is a dedicated MCP server for a specific domain (trading/market data).'
       decision_evidence:
         - Repo description explicitly calls it an 'Official MCP server for Horus Flow Intelligence'
         - README emphasizes MCP readiness and integration as core value
@@ -112,6 +122,8 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product is an MCP server (domain-specific infrastructure) rather than a code-first SDK or framework.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product is an MCP server (domain-specific infrastructure) rather than
+        a code-first SDK or framework.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bankless__onchain-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: bankless/onchain-mcp
         extracted_url: https://github.com/bankless/onchain-mcp
-        surrounding_text: "- [bankless/onchain-mcp](https://github.com/Bankless/onchain-mcp/) 📇 ☁️ - Bankless Onchain API to interact with smart contracts, query transaction and token information"
+        surrounding_text: >-
+          - [bankless/onchain-mcp](https://github.com/Bankless/onchain-mcp/) 📇 ☁️ - Bankless Onchain API to interact
+          with smart contracts, query transaction and token information
         confidence: high
     - id: discovery__github__bankless__onchain-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,10 +37,12 @@ provenance:
           - Official Servers
         anchor_text: Bankless Onchain
         extracted_url: https://github.com/bankless/onchain-mcp
-        surrounding_text: "- **[Bankless Onchain](https://github.com/bankless/onchain-mcp)** - Query Onchain data, like ERC20 tokens, transaction history, smart contract state."
+        surrounding_text: >-
+          - **[Bankless Onchain](https://github.com/bankless/onchain-mcp)** - Query Onchain data, like ERC20 tokens,
+          transaction history, smart contract state.
         confidence: high
     - id: discovery__github__bankless__onchain-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -50,7 +54,10 @@ provenance:
           - 💰 Finance & Fintech
         anchor_text: Bankless/onchain-mcp
         extracted_url: https://github.com/bankless/onchain-mcp
-        surrounding_text: "-   **[Bankless/onchain-mcp](https://github.com/Bankless/onchain-mcp/)** [![GitHub stars](https://img.shields.io/github/stars/Bankless/onchain-mcp?style=social)](https://github.com/Bankless/onchain-mcp): Uses Bankless Onchain API for smart contract interaction and querying transaction data."
+        surrounding_text: >-
+          -   **[Bankless/onchain-mcp](https://github.com/Bankless/onchain-mcp/)** [![GitHub
+          stars](https://img.shields.io/github/stars/Bankless/onchain-mcp?style=social)](https://github.com/Bankless/onchain-mcp):
+          Uses Bankless Onchain API for smart contract interaction and querying transaction data.
         confidence: high
 metadata:
   github:
@@ -60,18 +67,20 @@ metadata:
     archived: false
     full_name: Bankless/onchain-mcp
     html_url: https://github.com/Bankless/onchain-mcp
-    created_at: "2025-03-10T13:26:32Z"
-    pushed_at: "2026-05-05T11:48:39Z"
+    created_at: '2025-03-10T13:26:32Z'
+    pushed_at: '2026-05-05T11:48:39Z'
     description: Bringing the bankless onchain API to MCP
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:31.162Z"
+    last_checked_at: '2026-09-07T04:13:31.162Z'
     readme:
-      fetched_at: "2026-09-07T04:13:31.162Z"
+      fetched_at: '2026-09-07T04:13:31.162Z'
       bytes: 10439
 insights:
   summary: An MCP server that exposes the Bankless onchain API for AI models to interact with blockchain data.
-  why_it_matters: Lets AI assistants read contract state, fetch ABIs, decode events, and inspect transactions across EVM networks without custom tooling.
+  why_it_matters: >-
+    Lets AI assistants read contract state, fetch ABIs, decode events, and inspect transactions across EVM networks
+    without custom tooling.
   mental_damage: Now your AI can finally explain why your DeFi transaction reverted, but it still won’t fix your gas settings.
   tags:
     - mcp
@@ -82,31 +91,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: it is a server that brings a specific domain (onchain/finance) into the MCP ecosystem."
+  reason: 'MCP is the product identity: it is a server that brings a specific domain (onchain/finance) into the MCP ecosystem.'
   evidence:
     - Repo description explicitly states it is an MCP server for the Bankless onchain API
     - README details MCP tooling for contract reads, events, and transactions
     - Listed in multiple MCP server directories under Finance & Fintech
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.576Z"
+    updated_at: '2026-05-06T22:12:15.576Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:31.162Z"
+    updated_at: '2026-09-07T04:13:31.162Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:25:24.481Z"
+    updated_at: '2026-07-21T15:25:24.481Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -119,7 +129,9 @@ processing:
       input_hash: sha256:31aec5fa119d815e76d3b5ca04e8be952dd726f94b0616ed50de2a8387b5c8d0
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: it is a server that brings a specific domain (onchain/finance) into the MCP ecosystem."
+      decision_reason: >-
+        MCP is the product identity: it is a server that brings a specific domain (onchain/finance) into the MCP
+        ecosystem.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for the Bankless onchain API
         - README details MCP tooling for contract reads, events, and transactions
@@ -127,6 +139,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server exposing domain-specific tools, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server exposing domain-specific tools, not
+        an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

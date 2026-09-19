@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hyperaiteam__clitrigger__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,11 @@ provenance:
           - Session managers & parallel runners
         anchor_text: CLITrigger
         extracted_url: https://github.com/hyperaiteam/clitrigger
-        surrounding_text: "- **[CLITrigger](https://github.com/HyperAITeam/CLITrigger)** `⭐ 4` — Self-hosted web UI for orchestrating Claude Code, Codex, and Gemini CLIs in parallel git worktrees. Features multi-agent discussion mode (architect/developer/reviewer debate before implementation), cross-project Morning Review Queue, scheduled execution with rate-limit auto-recovery, and a built-in Git client. MIT."
+        surrounding_text: >-
+          - **[CLITrigger](https://github.com/HyperAITeam/CLITrigger)** `⭐ 4` — Self-hosted web UI for orchestrating
+          Claude Code, Codex, and Gemini CLIs in parallel git worktrees. Features multi-agent discussion mode
+          (architect/developer/reviewer debate before implementation), cross-project Morning Review Queue, scheduled
+          execution with rate-limit auto-recovery, and a built-in Git client. MIT.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: HyperAITeam/CLITrigger
     html_url: https://github.com/HyperAITeam/CLITrigger
-    created_at: "2026-03-24T13:03:53Z"
-    pushed_at: "2026-07-24T10:32:49Z"
+    created_at: '2026-03-24T13:03:53Z'
+    pushed_at: '2026-07-24T10:32:49Z'
     description: A command center for AI coding agents — run Claude, Gemini & Codex in parallel, each in its own git worktree
     homepage: https://www.npmjs.com/package/clitrigger
     topics:
@@ -47,14 +51,20 @@ metadata:
       - git-worktree
       - multi-agent
       - task-orchestration
-    last_checked_at: "2026-07-30T05:05:40.891Z"
+    last_checked_at: '2026-07-30T05:05:40.891Z'
     readme:
-      fetched_at: "2026-07-30T05:05:40.891Z"
+      fetched_at: '2026-07-30T05:05:40.891Z'
       bytes: 19703
 insights:
-  summary: A command center for running multiple AI coding agents (Claude, Gemini, Codex) in parallel across isolated git worktrees.
-  why_it_matters: Lets developers delegate multiple coding tasks simultaneously to different agents, then review and merge results the next day, maximizing token usage and parallelism.
-  mental_damage: Finally, a way to turn your token quota into a 24/7 coding sweatshop—because nothing says 'work-life balance' like waking up to 17 merge conflicts.
+  summary: >-
+    A command center for running multiple AI coding agents (Claude, Gemini, Codex) in parallel across isolated git
+    worktrees.
+  why_it_matters: >-
+    Lets developers delegate multiple coding tasks simultaneously to different agents, then review and merge results the
+    next day, maximizing token usage and parallelism.
+  mental_damage: >-
+    Finally, a way to turn your token quota into a 24/7 coding sweatshop—because nothing says 'work-life balance' like
+    waking up to 17 merge conflicts.
   tags:
     - multi-agent
     - parallel-execution
@@ -64,31 +74,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Core value is coordinating multiple coding agents in parallel worktrees, fitting the multi-agent runtime/orchestration identity.
+  reason: >-
+    Core value is coordinating multiple coding agents in parallel worktrees, fitting the multi-agent
+    runtime/orchestration identity.
   evidence:
-    - "Repo description: 'A command center for AI coding agents — run Claude, Gemini & Codex in parallel, each in its own git worktree'"
+    - >-
+      Repo description: 'A command center for AI coding agents — run Claude, Gemini & Codex in parallel, each in its own
+      git worktree'
     - README emphasizes parallel execution, worktree isolation, and multi-agent coordination as primary features
-    - "Source-list context: listed under 'Harnesses & orchestration > Session managers & parallel runners'"
+    - 'Source-list context: listed under ''Harnesses & orchestration > Session managers & parallel runners'''
 placement:
   primary_category: agent-orchestration
-  section: Multi-Agent Runtime Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.619Z"
+    updated_at: '2026-05-06T22:12:15.619Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:40.891Z"
+    updated_at: '2026-07-30T05:05:40.891Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:07:12.260Z"
+    updated_at: '2026-07-21T16:07:12.260Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -101,14 +116,20 @@ processing:
       input_hash: sha256:3758507ff1aa0ed4c9e6c1e78ce48bf692e0be82d62ac3647b0bf5fb7075059d
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: Core value is coordinating multiple coding agents in parallel worktrees, fitting the multi-agent runtime/orchestration identity.
+      decision_reason: >-
+        Core value is coordinating multiple coding agents in parallel worktrees, fitting the multi-agent
+        runtime/orchestration identity.
       decision_evidence:
-        - "Repo description: 'A command center for AI coding agents — run Claude, Gemini & Codex in parallel, each in its own git worktree'"
+        - >-
+          Repo description: 'A command center for AI coding agents — run Claude, Gemini & Codex in parallel, each in its
+          own git worktree'
         - README emphasizes parallel execution, worktree isolation, and multi-agent coordination as primary features
-        - "Source-list context: listed under 'Harnesses & orchestration > Session managers & parallel runners'"
+        - 'Source-list context: listed under ''Harnesses & orchestration > Session managers & parallel runners'''
       category_candidates:
         - agent-orchestration
         - ai-dev-extensions
-      contrastive_reason: Choose agent-orchestration over ai-dev-extensions because the product's main identity is a multi-agent runtime platform rather than an extension for a single host assistant.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-dev-extensions because the product's main identity is a multi-agent runtime
+        platform rather than an extension for a single host assistant.
       review_reason: null
       review_resume_lifecycle: null

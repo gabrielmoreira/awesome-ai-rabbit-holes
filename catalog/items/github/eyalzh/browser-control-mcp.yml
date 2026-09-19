@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__eyalzh__browser-control-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: eyalzh/browser-control-mcp
         extracted_url: https://github.com/eyalzh/browser-control-mcp
-        surrounding_text: "- [eyalzh/browser-control-mcp](https://github.com/eyalzh/browser-control-mcp) 📇 🏠 - An MCP server paired with a browser extension that enables LLM clients to control the user's browser (Firefox)."
+        surrounding_text: >-
+          - [eyalzh/browser-control-mcp](https://github.com/eyalzh/browser-control-mcp) 📇 🏠 - An MCP server paired
+          with a browser extension that enables LLM clients to control the user's browser (Firefox).
         confidence: high
 metadata:
   github:
@@ -30,22 +32,28 @@ metadata:
     archived: false
     full_name: eyalzh/browser-control-mcp
     html_url: https://github.com/eyalzh/browser-control-mcp
-    created_at: "2025-03-27T16:16:33Z"
-    pushed_at: "2026-08-23T18:44:48Z"
+    created_at: '2025-03-27T16:16:33Z'
+    pushed_at: '2026-08-23T18:44:48Z'
     description: MCP server paired with a browser extension that enables AI agents to control the user's browser.
-    homepage: ""
+    homepage: ''
     topics:
       - browser-extension
       - firefox
       - mcp
-    last_checked_at: "2026-08-27T09:23:27.279Z"
+    last_checked_at: '2026-08-27T09:23:27.279Z'
     readme:
-      fetched_at: "2026-08-27T09:23:27.279Z"
+      fetched_at: '2026-08-27T09:23:27.279Z'
       bytes: 6907
 insights:
-  summary: An MCP server and Firefox extension that allows AI assistants to manage tabs, search browsing history, and read webpage content.
-  why_it_matters: It bridges the gap between a coding assistant's context and the actual live web by allowing an agent to interact with your active browser session.
-  mental_damage: Nothing says 'peak developer productivity' quite like trusting a LLM to organize your 50 open research tabs into a color-coded group.
+  summary: >-
+    An MCP server and Firefox extension that allows AI assistants to manage tabs, search browsing history, and read
+    webpage content.
+  why_it_matters: >-
+    It bridges the gap between a coding assistant's context and the actual live web by allowing an agent to interact
+    with your active browser session.
+  mental_damage: >-
+    Nothing says 'peak developer productivity' quite like trusting a LLM to organize your 50 open research tabs into a
+    color-coded group.
   tags:
     - mcp
     - browser-automation
@@ -61,24 +69,25 @@ curation:
     - Purpose is to provide host capabilities to an AI assistant via the Model Context Protocol
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: promotion_candidate
   reason: Stars (278) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:27.279Z"
+    updated_at: '2026-08-27T09:23:27.279Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:54:38.321Z"
+    updated_at: '2026-07-21T15:54:38.321Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -99,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity and implementation method is the Model Context Protocol itself.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product identity and implementation method is the Model
+        Context Protocol itself.
       review_reason: null
       review_resume_lifecycle: null

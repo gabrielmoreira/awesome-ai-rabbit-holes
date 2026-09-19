@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__audioscrape__com__docs__integrations__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-20T16:42:15.363Z"
+      discovered_at: '2026-07-20T16:42:15.363Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,14 @@ provenance:
           - Official Servers
         anchor_text: Audioscrape
         extracted_url: https://audioscrape.com/docs/mcp
-        surrounding_text: "- **[Audioscrape](https://www.audioscrape.com/docs/mcp)** - Search 1M+ hours of podcasts, interviews, talks and your private audio uploads with speaker identification and timestamps. Official Remote MCP server (via https://mcp.audioscrape.com) enabling AI assistants to access and analyze audio content through semantic and text-based search."
+        surrounding_text: >-
+          - **[Audioscrape](https://www.audioscrape.com/docs/mcp)** - Search 1M+ hours of podcasts, interviews, talks
+          and your private audio uploads with speaker identification and timestamps. Official Remote MCP server (via
+          https://mcp.audioscrape.com) enabling AI assistants to access and analyze audio content through semantic and
+          text-based search.
         confidence: high
     - id: discovery__www__audioscrape__com__docs__integrations__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,7 +37,11 @@ provenance:
           - Official Servers
         anchor_text: Audioscrape
         extracted_url: https://www.audioscrape.com/docs/mcp
-        surrounding_text: "- **[Audioscrape](https://www.audioscrape.com/docs/mcp)** - Search 1M+ hours of podcasts, interviews, talks and your private audio uploads with speaker identification and timestamps. Official Remote MCP server (via https://mcp.audioscrape.com) enabling AI assistants to access and analyze audio content through semantic and text-based search."
+        surrounding_text: >-
+          - **[Audioscrape](https://www.audioscrape.com/docs/mcp)** - Search 1M+ hours of podcasts, interviews, talks
+          and your private audio uploads with speaker identification and timestamps. Official Remote MCP server (via
+          https://mcp.audioscrape.com) enabling AI assistants to access and analyze audio content through semantic and
+          text-based search.
         confidence: high
 metadata:
   github:
@@ -51,8 +59,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Audioscrape provides an MCP server that enables AI assistants to search and access transcribed audio content from podcasts, interviews, and other spoken media.
-  why_it_matters: Developers can integrate real-time audio content search and retrieval into their AI workflows, unlocking insights from millions of hours of spoken material.
+  summary: >-
+    Audioscrape provides an MCP server that enables AI assistants to search and access transcribed audio content from
+    podcasts, interviews, and other spoken media.
+  why_it_matters: >-
+    Developers can integrate real-time audio content search and retrieval into their AI workflows, unlocking insights
+    from millions of hours of spoken material.
   mental_damage: Now your AI can eavesdrop on every podcast ever recorded—because your codebase wasn’t already noisy enough.
   tags:
     - mcp
@@ -63,21 +75,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server providing domain-specific audio search and retrieval tools, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product's core identity is an MCP server providing domain-specific audio search and retrieval tools, fitting the
+    MCP Servers & Tooling category.
   evidence:
     - Explicitly described as an MCP server for audio content access
     - Listed in awesome-mcp-servers under Official Servers
     - Provides 15 MCP-compliant tools for audio search, transcription, and metadata retrieval
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:32:33.640Z"
+    updated_at: '2026-07-21T15:32:33.640Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -90,7 +105,9 @@ processing:
       input_hash: sha256:4d886eb31c7fbc5e472beb76f22bda869bc3023471b449d35ad665406d585cf7
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP server providing domain-specific audio search and retrieval tools, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product's core identity is an MCP server providing domain-specific audio search and retrieval tools, fitting
+        the MCP Servers & Tooling category.
       decision_evidence:
         - Explicitly described as an MCP server for audio content access
         - Listed in awesome-mcp-servers under Official Servers
@@ -98,12 +115,14 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product's primary identity is an MCP server (not just a retrieval system) with explicit MCP tooling and compliance.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the product's primary identity is an MCP server (not just a
+        retrieval system) with explicit MCP tooling and compliance.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T16:42:15.364Z"
+    updated_at: '2026-07-20T16:42:15.364Z'
     cause: null
     next_retry_at: null
   stars:

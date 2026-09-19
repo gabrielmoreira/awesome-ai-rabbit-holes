@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__littlebearapps__untether__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Agent infrastructure
         anchor_text: Untether
         extracted_url: https://github.com/littlebearapps/untether
-        surrounding_text: "- **[Untether](https://github.com/littlebearapps/untether)** `⭐ 44` — Telegram bridge for 6 CLI coding agents (Claude Code, Codex, OpenCode, Pi, Gemini CLI, Amp); remote task control via voice or text, progress streaming, interactive permissions, and cost tracking. MIT."
+        surrounding_text: >-
+          - **[Untether](https://github.com/littlebearapps/untether)** `⭐ 44` — Telegram bridge for 6 CLI coding agents
+          (Claude Code, Codex, OpenCode, Pi, Gemini CLI, Amp); remote task control via voice or text, progress
+          streaming, interactive permissions, and cost tracking. MIT.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: littlebearapps/untether
     html_url: https://github.com/littlebearapps/untether
-    created_at: "2026-02-07T09:17:30Z"
-    pushed_at: "2026-07-30T03:17:44Z"
-    description: Code from anywhere — Telegram bridge for AI coding agents (Claude Code, Codex, OpenCode, Pi, Gemini CLI, Amp). Stream progress, approve actions, and send tasks by voice from your phone.
+    created_at: '2026-02-07T09:17:30Z'
+    pushed_at: '2026-07-30T03:17:44Z'
+    description: >-
+      Code from anywhere — Telegram bridge for AI coding agents (Claude Code, Codex, OpenCode, Pi, Gemini CLI, Amp).
+      Stream progress, approve actions, and send tasks by voice from your phone.
     homepage: https://untether.cc
     topics:
       - ai-agents
@@ -51,14 +56,20 @@ metadata:
       - remote-development
       - telegram
       - telegram-bot
-    last_checked_at: "2026-07-30T05:06:06.708Z"
+    last_checked_at: '2026-07-30T05:06:06.708Z'
     readme:
-      fetched_at: "2026-07-30T05:06:06.708Z"
+      fetched_at: '2026-07-30T05:06:06.708Z'
       bytes: 23620
 insights:
-  summary: A Telegram bridge that lets developers send tasks by voice or text and approve actions for local AI coding agents like Claude Code, Codex, and Gemini CLI from their phone.
-  why_it_matters: It untethers agents from the terminal, letting developers kick off repo work, stream progress, and approve changes remotely without SSH or a desk.
-  mental_damage: Now you can review failing tests and approve destructive file edits while walking the dog, because apparently nowhere is safe from your CI pipeline.
+  summary: >-
+    A Telegram bridge that lets developers send tasks by voice or text and approve actions for local AI coding agents
+    like Claude Code, Codex, and Gemini CLI from their phone.
+  why_it_matters: >-
+    It untethers agents from the terminal, letting developers kick off repo work, stream progress, and approve changes
+    remotely without SSH or a desk.
+  mental_damage: >-
+    Now you can review failing tests and approve destructive file edits while walking the dog, because apparently
+    nowhere is safe from your CI pipeline.
   tags:
     - telegram
     - remote-control
@@ -68,35 +79,42 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a remote control surface and Telegram integration that augments existing coding agents rather than acting as a primary coding assistant itself.
+  reason: >-
+    The product is a remote control surface and Telegram integration that augments existing coding agents rather than
+    acting as a primary coding assistant itself.
   evidence:
-    - Repo description explicitly calls it a 'Telegram bridge for AI coding agents (Claude Code, Codex, OpenCode, Pi, Gemini CLI, Amp)'
-    - README states 'Untether just bridges them to Telegram' and supports multiple existing agents rather than being one itself
+    - >-
+      Repo description explicitly calls it a 'Telegram bridge for AI coding agents (Claude Code, Codex, OpenCode, Pi,
+      Gemini CLI, Amp)'
+    - >-
+      README states 'Untether just bridges them to Telegram' and supports multiple existing agents rather than being one
+      itself
     - Source list places it under 'Harnesses & orchestration > Agent infrastructure', aligning with its integration role
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: Claude Code & Agent Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: '2026-05-06T22:12:15.627Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:06.708Z"
+    updated_at: '2026-07-30T05:06:06.708Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

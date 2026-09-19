@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dicklesworthstone__ntm__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-18T05:26:15.344Z"
+      discovered_at: '2026-05-18T05:26:15.344Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Session managers & parallel runners
         anchor_text: ntm
         extracted_url: https://github.com/dicklesworthstone/ntm
-        surrounding_text: "- **[ntm](https://github.com/Dicklesworthstone/ntm)** `⭐ 313` — Named Tmux Manager — spawn, tile, and coordinate multiple AI coding agents (Claude, Codex, Gemini) across tmux panes with a TUI command palette."
+        surrounding_text: >-
+          - **[ntm](https://github.com/Dicklesworthstone/ntm)** `⭐ 313` — Named Tmux Manager — spawn, tile, and
+          coordinate multiple AI coding agents (Claude, Codex, Gemini) across tmux panes with a TUI command palette.
         confidence: high
 metadata:
   github:
@@ -30,9 +32,11 @@ metadata:
     archived: false
     full_name: Dicklesworthstone/ntm
     html_url: https://github.com/Dicklesworthstone/ntm
-    created_at: "2025-12-10T07:02:48Z"
-    pushed_at: "2026-09-14T00:19:50Z"
-    description: "Named Tmux Manager: spawn, tile, and coordinate multiple AI coding agents (Claude, Codex, Gemini) across tmux panes with a TUI command palette"
+    created_at: '2025-12-10T07:02:48Z'
+    pushed_at: '2026-09-14T00:19:50Z'
+    description: >-
+      Named Tmux Manager: spawn, tile, and coordinate multiple AI coding agents (Claude, Codex, Gemini) across tmux
+      panes with a TUI command palette
     homepage: null
     topics:
       - ai-agents
@@ -40,14 +44,20 @@ metadata:
       - developer-tools
       - go
       - tmux
-    last_checked_at: "2026-09-14T04:13:40.259Z"
+    last_checked_at: '2026-09-14T04:13:40.259Z'
     readme:
-      fetched_at: "2026-09-14T04:13:40.259Z"
+      fetched_at: '2026-09-14T04:13:40.259Z'
       bytes: 34450
 insights:
-  summary: NTM is a Go-based TUI tool that orchestrates multiple AI coding agents across tmux panes with session labeling, work triage, safety approvals, and robot surfaces.
-  why_it_matters: It turns tmux into a local control plane for running and coordinating parallel AI agents, reducing the friction of managing multi-agent workflows manually.
-  mental_damage: Finally, a way to feel like you're conducting an AI orchestra while actually just trying to stop three agents from editing the same file at once.
+  summary: >-
+    NTM is a Go-based TUI tool that orchestrates multiple AI coding agents across tmux panes with session labeling, work
+    triage, safety approvals, and robot surfaces.
+  why_it_matters: >-
+    It turns tmux into a local control plane for running and coordinating parallel AI agents, reducing the friction of
+    managing multi-agent workflows manually.
+  mental_damage: >-
+    Finally, a way to feel like you're conducting an AI orchestra while actually just trying to stop three agents from
+    editing the same file at once.
   tags:
     - tmux
     - ai-agents
@@ -57,31 +67,41 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: NTM is primarily a control plane for coordinating multiple AI coding agents, not a coding agent itself, making agent-orchestration the best fit over coding-agents or extensions.
+  reason: >-
+    NTM is primarily a control plane for coordinating multiple AI coding agents, not a coding agent itself, making
+    agent-orchestration the best fit over coding-agents or extensions.
   evidence:
-    - "Repo description: 'Named Tmux Manager: spawn, tile, and coordinate multiple AI coding agents (Claude, Codex, Gemini) across tmux panes with a TUI command palette'"
-    - "README: 'NTM turns tmux into a local control plane for multi-agent software development' and lists session orchestration, work intelligence, coordination, safety, durable operations, and automation surfaces as core features"
-    - "Source-list context: Included in awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers & parallel runners'"
+    - >-
+      Repo description: 'Named Tmux Manager: spawn, tile, and coordinate multiple AI coding agents (Claude, Codex,
+      Gemini) across tmux panes with a TUI command palette'
+    - >-
+      README: 'NTM turns tmux into a local control plane for multi-agent software development' and lists session
+      orchestration, work intelligence, coordination, safety, durable operations, and automation surfaces as core
+      features
+    - >-
+      Source-list context: Included in awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers &
+      parallel runners'
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (314) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-18T05:26:15.345Z"
+    updated_at: '2026-05-18T05:26:15.345Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:40.259Z"
+    updated_at: '2026-09-14T04:13:40.259Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-18T05:39:27.541Z"
+    updated_at: '2026-05-18T05:39:27.541Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

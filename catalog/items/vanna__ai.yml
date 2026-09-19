@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__vanna__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Vanna.AI
         anchor_text: Vanna.AI
         extracted_url: https://vanna.ai
-        surrounding_text: "## [Vanna.AI](https://vanna.ai/)"
+        surrounding_text: '## [Vanna.AI](https://vanna.ai/)'
         confidence: high
 metadata:
   github:
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A framework for building production-ready AI agents that enable natural language querying of databases with SQL generation.
-  why_it_matters: It lets developers deploy AI agents that allow non-technical users to query databases using natural language, reducing the need for manual SQL writing.
-  mental_damage: Now your analysts can ask the database anything, and you’ll spend the rest of your career explaining why 'show me all the money' doesn’t work.
+  summary: >-
+    A framework for building production-ready AI agents that enable natural language querying of databases with SQL
+    generation.
+  why_it_matters: >-
+    It lets developers deploy AI agents that allow non-technical users to query databases using natural language,
+    reducing the need for manual SQL writing.
+  mental_damage: >-
+    Now your analysts can ask the database anything, and you’ll spend the rest of your career explaining why 'show me
+    all the money' doesn’t work.
   tags:
     - sql-agent
     - database-query
@@ -48,24 +54,29 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is primarily a code-first framework (pip install vanna) and SDK for embedding text-to-SQL agents into applications, fitting the Frameworks & SDKs category.
+  reason: >-
+    The product is primarily a code-first framework (pip install vanna) and SDK for embedding text-to-SQL agents into
+    applications, fitting the Frameworks & SDKs category.
   evidence:
     - Scraped site context shows 'pip install vanna' and 'open source framework' as the primary getting-started path.
     - Focus is on letting developers build agents that query databases, not acting as a developer's coding assistant.
     - Listed in awesome-ai-agents as a production agent builder with user-scoped execution and UI components.
 placement:
   primary_category: ai-frameworks
-  section: null
+  secondary_categories: []
+  section: LLM & Agent SDKs
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'agent-orchestration'"
+  reason: 'Categorization review required: placement disagreement: retained ''ai-frameworks'', proposed ''agent-orchestration'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.666Z"
+    updated_at: '2026-05-06T22:12:15.666Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -73,7 +84,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:38:43.297Z"
+    updated_at: '2026-07-21T15:38:43.297Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -86,14 +97,20 @@ processing:
       input_hash: sha256:56e78738b91ecd2310335186d1b8706c545d9adebba34449c9469e0b6fecde08
       proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: Vanna AI is a platform for building and deploying AI agents that interact with databases, fitting the agent orchestration category as a workbench for agent deployment and management.
+      decision_reason: >-
+        Vanna AI is a platform for building and deploying AI agents that interact with databases, fitting the agent
+        orchestration category as a workbench for agent deployment and management.
       decision_evidence:
         - Described as 'Build AI agents that ship to production' with user-scoped execution and quota management
-        - Supports multi-database, multi-turn interactions with access control and admin features like observability and memory
+        - >-
+          Supports multi-database, multi-turn interactions with access control and admin features like observability and
+          memory
         - Positioned as a framework for deploying agents rather than a coding assistant or IDE plugin
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because the primary product is an operated workbench for deploying agents, not a code-first SDK or library.
-      review_reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'agent-orchestration'"
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because the primary product is an operated workbench for deploying
+        agents, not a code-first SDK or library.
+      review_reason: 'Categorization review required: placement disagreement: retained ''ai-frameworks'', proposed ''agent-orchestration'''
       review_resume_lifecycle: null

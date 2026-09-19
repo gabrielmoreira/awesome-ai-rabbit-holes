@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__geiserx__telegram-archive-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: GeiserX/telegram-archive-mcp
         extracted_url: https://github.com/geiserx/telegram-archive-mcp
-        surrounding_text: "- [GeiserX/telegram-archive-mcp](https://github.com/GeiserX/telegram-archive-mcp) [![GeiserX/telegram-archive-mcp MCP server](https://glama.ai/mcp/servers/GeiserX/telegram-archive-mcp/badges/score.svg)](https://glama.ai/mcp/servers/GeiserX/telegram-archive-mcp) 🏎️ ☁️ 🍎 🪟 🐧 - Go-based MCP server for Telegram Archive. Search and browse Telegram chat history, list chats, and retrieve messages with full-text search. Docker image available."
+        surrounding_text: >-
+          - [GeiserX/telegram-archive-mcp](https://github.com/GeiserX/telegram-archive-mcp)
+          [![GeiserX/telegram-archive-mcp MCP
+          server](https://glama.ai/mcp/servers/GeiserX/telegram-archive-mcp/badges/score.svg)](https://glama.ai/mcp/servers/GeiserX/telegram-archive-mcp)
+          🏎️ ☁️ 🍎 🪟 🐧 - Go-based MCP server for Telegram Archive. Search and browse Telegram chat history, list
+          chats, and retrieve messages with full-text search. Docker image available.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: GeiserX/telegram-archive-mcp
     html_url: https://github.com/GeiserX/telegram-archive-mcp
-    created_at: "2026-04-01T10:40:14Z"
-    pushed_at: "2026-09-02T21:45:57Z"
+    created_at: '2026-04-01T10:40:14Z'
+    pushed_at: '2026-09-02T21:45:57Z'
     description: MCP Server for Telegram-Archive — search messages, browse chats, and access archived Telegram history via MCP
     homepage: null
     topics:
@@ -55,13 +60,17 @@ metadata:
       - telegram
       - telegram-archive
       - telegram-bot
-    last_checked_at: "2026-09-03T05:16:47.378Z"
+    last_checked_at: '2026-09-03T05:16:47.378Z'
     readme:
-      fetched_at: "2026-09-03T05:16:47.378Z"
+      fetched_at: '2026-09-03T05:16:47.378Z'
       bytes: 8511
 insights:
-  summary: An MCP server that enables LLMs to search, browse, and access archived Telegram history via a Telegram-Archive instance.
-  why_it_matters: It allows AI agents to treat your chat archives as a structured knowledge source for searching messages and browsing chat history.
+  summary: >-
+    An MCP server that enables LLMs to search, browse, and access archived Telegram history via a Telegram-Archive
+    instance.
+  why_it_matters: >-
+    It allows AI agents to treat your chat archives as a structured knowledge source for searching messages and browsing
+    chat history.
   mental_damage: Because apparently, your LLM needs to know exactly what you were arguing about in a group chat three years ago.
   tags:
     - mcp
@@ -79,24 +88,25 @@ curation:
     - Implementation uses JSON-RPC over stdio/HTTP for MCP transport
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: '2026-05-06T22:12:15.615Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:47.378Z"
+    updated_at: '2026-09-03T05:16:47.378Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:01:21.562Z"
+    updated_at: '2026-07-21T16:01:21.562Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -117,6 +127,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's core identity and value proposition is providing an MCP interface for a specific data domain.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool's core identity and value proposition is providing an MCP
+        interface for a specific data domain.
       review_reason: null
       review_resume_lifecycle: null

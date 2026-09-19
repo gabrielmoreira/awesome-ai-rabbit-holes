@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__geiserx__atlassian-browser-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: GeiserX/atlassian-browser-mcp
         extracted_url: https://github.com/geiserx/atlassian-browser-mcp
-        surrounding_text: "- [GeiserX/atlassian-browser-mcp](https://github.com/GeiserX/atlassian-browser-mcp) [![GeiserX/atlassian-browser-mcp MCP server](https://glama.ai/mcp/servers/GeiserX/atlassian-browser-mcp/badges/score.svg)](https://glama.ai/mcp/servers/GeiserX/atlassian-browser-mcp) 🐍 ☁️ - Browser-backed MCP wrapper for mcp-atlassian with Playwright SSO auth. Enables AI tools to access Atlassian Server/Data Center instances behind corporate SSO (Okta, SAML, ADFS) where API tokens are not available."
+        surrounding_text: >-
+          - [GeiserX/atlassian-browser-mcp](https://github.com/GeiserX/atlassian-browser-mcp)
+          [![GeiserX/atlassian-browser-mcp MCP
+          server](https://glama.ai/mcp/servers/GeiserX/atlassian-browser-mcp/badges/score.svg)](https://glama.ai/mcp/servers/GeiserX/atlassian-browser-mcp)
+          🐍 ☁️ - Browser-backed MCP wrapper for mcp-atlassian with Playwright SSO auth. Enables AI tools to access
+          Atlassian Server/Data Center instances behind corporate SSO (Okta, SAML, ADFS) where API tokens are not
+          available.
         confidence: high
 metadata:
   github:
@@ -30,8 +36,8 @@ metadata:
     archived: false
     full_name: GeiserX/atlassian-browser-mcp
     html_url: https://github.com/GeiserX/atlassian-browser-mcp
-    created_at: "2026-04-06T12:02:55Z"
-    pushed_at: "2026-08-19T11:44:34Z"
+    created_at: '2026-04-06T12:02:55Z'
+    pushed_at: '2026-08-19T11:44:34Z'
     description: Browser-backed MCP server wrapping mcp-atlassian with Playwright SSO auth for Atlassian Server/Data Center
     homepage: null
     topics:
@@ -55,14 +61,18 @@ metadata:
       - self-hosted
       - server
       - sso
-    last_checked_at: "2026-09-03T05:16:46.921Z"
+    last_checked_at: '2026-09-03T05:16:46.921Z'
     readme:
-      fetched_at: "2026-09-03T05:16:46.921Z"
+      fetched_at: '2026-09-03T05:16:46.921Z'
       bytes: 7986
 insights:
   summary: An MCP server that uses Playwright to provide browser-based SSO authentication for the mcp-atlassian toolset.
-  why_it_matters: It enables AI agents to access Jira and Confluence instances protected by corporate SSO (Okta, SAML) where standard API tokens are unavailable.
-  mental_damage: "Finally, a way to let your LLM solve the most complex engineering challenge of 2026: successfully navigating a corporate SSO redirect."
+  why_it_matters: >-
+    It enables AI agents to access Jira and Confluence instances protected by corporate SSO (Okta, SAML) where standard
+    API tokens are unavailable.
+  mental_damage: >-
+    Finally, a way to let your LLM solve the most complex engineering challenge of 2026: successfully navigating a
+    corporate SSO redirect.
   tags:
     - mcp-server
     - atlassian
@@ -72,31 +82,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is an implementation of an MCP server specifically designed to bridge an existing toolset with a specific authentication requirement.
+  reason: >-
+    The project is an implementation of an MCP server specifically designed to bridge an existing toolset with a
+    specific authentication requirement.
   evidence:
     - README identifies as an MCP server wrapping mcp-atlassian
     - Uses Playwright for manual SSO/MFA session management
     - Provides 73 tools via the Model Context Protocol
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: '2026-05-06T22:12:15.615Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:46.921Z"
+    updated_at: '2026-09-03T05:16:46.921Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:01:06.233Z"
+    updated_at: '2026-07-21T16:01:06.233Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -109,7 +122,9 @@ processing:
       input_hash: sha256:979817e6876face78c1bd8a4904ad854938b7134a2fe94a96ae150fbcb5f8b1f
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is an implementation of an MCP server specifically designed to bridge an existing toolset with a specific authentication requirement.
+      decision_reason: >-
+        The project is an implementation of an MCP server specifically designed to bridge an existing toolset with a
+        specific authentication requirement.
       decision_evidence:
         - README identifies as an MCP server wrapping mcp-atlassian
         - Uses Playwright for manual SSO/MFA session management
@@ -117,6 +132,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the project's primary identity is an MCP server implementation rather than a general IDE integration.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the project's primary identity is an MCP server implementation rather
+        than a general IDE integration.
       review_reason: null
       review_resume_lifecycle: null

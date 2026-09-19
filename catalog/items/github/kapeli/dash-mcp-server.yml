@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kapeli__dash-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Kapeli/dash-mcp-server
         extracted_url: https://github.com/kapeli/dash-mcp-server
-        surrounding_text: "- [Kapeli/dash-mcp-server](https://github.com/Kapeli/dash-mcp-server) [![Kapeli/dash-mcp-server MCP server](https://glama.ai/mcp/servers/@Kapeli/dash-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/@Kapeli/dash-mcp-server) 🐍 🏠 🍎 - MCP server for [Dash](https://kapeli.com/dash), the macOS API documentation browser. Instant search over 200+ documentation sets."
+        surrounding_text: >-
+          - [Kapeli/dash-mcp-server](https://github.com/Kapeli/dash-mcp-server) [![Kapeli/dash-mcp-server MCP
+          server](https://glama.ai/mcp/servers/@Kapeli/dash-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/@Kapeli/dash-mcp-server)
+          🐍 🏠 🍎 - MCP server for [Dash](https://kapeli.com/dash), the macOS API documentation browser. Instant search
+          over 200+ documentation sets.
         confidence: high
 metadata:
   github:
@@ -30,18 +34,20 @@ metadata:
     archived: false
     full_name: Kapeli/dash-mcp-server
     html_url: https://github.com/Kapeli/dash-mcp-server
-    created_at: "2025-07-18T17:11:05Z"
-    pushed_at: "2026-05-11T18:42:49Z"
+    created_at: '2025-07-18T17:11:05Z'
+    pushed_at: '2026-05-11T18:42:49Z'
     description: MCP server for Dash, the macOS API documentation browser
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:05:54.638Z"
+    last_checked_at: '2026-07-30T05:05:54.638Z'
     readme:
-      fetched_at: "2026-07-30T05:05:54.638Z"
+      fetched_at: '2026-07-30T05:05:54.638Z'
       bytes: 1848
 insights:
   summary: An MCP server that enables AI assistants to interact with Dash, the macOS API documentation browser.
-  why_it_matters: Developers can now query Dash's installed docsets and documentation pages directly from their AI coding assistant, streamlining API reference lookups.
+  why_it_matters: >-
+    Developers can now query Dash's installed docsets and documentation pages directly from their AI coding assistant,
+    streamlining API reference lookups.
   mental_damage: Finally, a way to make your AI assistant stop pretending it remembers every framework's obscure method signatures.
   tags:
     - mcp-server
@@ -52,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose primary identity is providing Dash documentation access via MCP, fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is an MCP-first server whose primary identity is providing Dash documentation access via MCP, fitting the MCP
+    Servers & Tooling category.
   evidence:
     - Repo description explicitly states it is an MCP server for Dash
     - README details MCP tools for listing docsets, searching documentation, and loading pages
     - Already listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (164) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.623Z"
+    updated_at: '2026-05-06T22:12:15.623Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:54.638Z"
+    updated_at: '2026-07-30T05:05:54.638Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:11:55.697Z"
+    updated_at: '2026-07-21T16:11:55.697Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +98,9 @@ processing:
       input_hash: sha256:6947340790b67b1f1887866ed5a86973b899313d9d7cb3e7ae52ebc964cb72e6
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server whose primary identity is providing Dash documentation access via MCP, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is an MCP-first server whose primary identity is providing Dash documentation access via MCP, fitting the
+        MCP Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Dash
         - README details MCP tools for listing docsets, searching documentation, and loading pages
@@ -97,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

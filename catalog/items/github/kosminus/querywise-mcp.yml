@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kosminus__querywise-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: kosminus/querywise-mcp
         extracted_url: https://github.com/kosminus/querywise-mcp
-        surrounding_text: "- [kosminus/querywise-mcp](https://github.com/kosminus/querywise-mcp) [![kosminus/querywise-mcp MCP server](https://glama.ai/mcp/servers/kosminus/querywise-mcp/badges/score.svg)](https://glama.ai/mcp/servers/kosminus/querywise-mcp) 🐍 🏠 - Query SQL databases (SQLite, PostgreSQL, BigQuery, Databricks) in natural language through a business semantic layer — glossary, metrics, and a data dictionary grounded against your real schema."
+        surrounding_text: >-
+          - [kosminus/querywise-mcp](https://github.com/kosminus/querywise-mcp) [![kosminus/querywise-mcp MCP
+          server](https://glama.ai/mcp/servers/kosminus/querywise-mcp/badges/score.svg)](https://glama.ai/mcp/servers/kosminus/querywise-mcp)
+          🐍 🏠 - Query SQL databases (SQLite, PostgreSQL, BigQuery, Databricks) in natural language through a business
+          semantic layer — glossary, metrics, and a data dictionary grounded against your real schema.
         confidence: high
 metadata:
   github:
@@ -30,10 +34,13 @@ metadata:
     archived: false
     full_name: kosminus/querywise-mcp
     html_url: https://github.com/kosminus/querywise-mcp
-    created_at: "2026-05-23T11:47:22Z"
-    pushed_at: "2026-05-25T20:56:40Z"
-    description: An MCP server (and a CLI) that lets an LLM query your databases in natural language through a business semantic layer — glossary, metric definitions, data dictionary, knowledge base, and example queries — grounded against your real schema.
-    homepage: ""
+    created_at: '2026-05-23T11:47:22Z'
+    pushed_at: '2026-05-25T20:56:40Z'
+    description: >-
+      An MCP server (and a CLI) that lets an LLM query your databases in natural language through a business semantic
+      layer — glossary, metric definitions, data dictionary, knowledge base, and example queries — grounded against your
+      real schema.
+    homepage: ''
     topics:
       - agentic-ai
       - database-mcp-server
@@ -46,14 +53,20 @@ metadata:
       - sqlite
       - sqlite-vec
       - text-to-sql
-    last_checked_at: "2026-07-30T05:05:58.031Z"
+    last_checked_at: '2026-07-30T05:05:58.031Z'
     readme:
-      fetched_at: "2026-07-30T05:05:58.031Z"
+      fetched_at: '2026-07-30T05:05:58.031Z'
       bytes: 8290
 insights:
-  summary: An MCP server and CLI that allows LLMs to query databases using a business semantic layer of glossaries, metrics, and metadata.
-  why_it_matters: It provides the necessary semantic grounding to turn vague natural language questions into accurate, schema-aware SQL queries.
-  mental_damage: Another way to pretend your LLM understands your company's spaghetti SQL schema, provided you've spent enough time documenting the glossary.
+  summary: >-
+    An MCP server and CLI that allows LLMs to query databases using a business semantic layer of glossaries, metrics,
+    and metadata.
+  why_it_matters: >-
+    It provides the necessary semantic grounding to turn vague natural language questions into accurate, schema-aware
+    SQL queries.
+  mental_damage: >-
+    Another way to pretend your LLM understands your company's spaghetti SQL schema, provided you've spent enough time
+    documenting the glossary.
   tags:
     - mcp
     - sql
@@ -63,31 +76,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server designed to provide specialized database capabilities to host assistants.
+  reason: >-
+    The project's primary identity is an MCP server designed to provide specialized database capabilities to host
+    assistants.
   evidence:
     - Repo name and description explicitly identify it as an MCP server
     - Provides a specific MCP toolset for semantic context, SQL generation, and execution
     - Offers specialized connectors for SQLite, PostgreSQL, BigQuery, and Databricks
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.819Z"
+    updated_at: '2026-05-28T05:28:09.819Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:58.031Z"
+    updated_at: '2026-07-30T05:05:58.031Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-02T05:29:55.898Z"
+    updated_at: '2026-07-02T05:29:55.898Z'
     cause: null
     next_retry_at: null
     attempts: 1

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tommertom__awesome-ionic-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Tommertom/awesome-ionic-mcp
         extracted_url: https://github.com/tommertom/awesome-ionic-mcp
-        surrounding_text: "- [Tommertom/awesome-ionic-mcp](https://github.com/Tommertom/awesome-ionic-mcp) 📇 🏠 - Your Ionic coding buddy enabled via MCP – build awesome mobile apps using React/Angular/Vue or even Vanilla JS!"
+        surrounding_text: >-
+          - [Tommertom/awesome-ionic-mcp](https://github.com/Tommertom/awesome-ionic-mcp) 📇 🏠 - Your Ionic coding
+          buddy enabled via MCP – build awesome mobile apps using React/Angular/Vue or even Vanilla JS!
         confidence: high
 metadata:
   github:
@@ -30,19 +32,25 @@ metadata:
     archived: false
     full_name: Tommertom/awesome-ionic-mcp
     html_url: https://github.com/Tommertom/awesome-ionic-mcp
-    created_at: "2025-05-14T10:52:45Z"
-    pushed_at: "2026-01-04T10:51:14Z"
+    created_at: '2025-05-14T10:52:45Z'
+    pushed_at: '2026-01-04T10:51:14Z'
     description: An Awesome MCP Server to help building mobile apps in React/Vue/Angular/VanillaJS using Capacitor and Ionic
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-21T15:20:52.509Z"
+    last_checked_at: '2026-07-21T15:20:52.509Z'
     readme:
-      fetched_at: "2026-07-21T15:20:52.509Z"
+      fetched_at: '2026-07-21T15:20:52.509Z'
       bytes: 11533
 insights:
-  summary: An MCP server that provides AI assistants with real-time access to Ionic Framework components, Capacitor plugins, and CLI command execution for cross-platform mobile app development.
-  why_it_matters: It lets developers building with React, Angular, Vue, or VanillaJS offload component lookups, API documentation retrieval, and Ionic/Capacitor CLI workflows directly to their MCP-compatible coding assistant.
-  mental_damage: Another specialized MCP server so your agent can finally stop hallucinating Ionic component props and start running `ionic build` for you like a well-paid junior.
+  summary: >-
+    An MCP server that provides AI assistants with real-time access to Ionic Framework components, Capacitor plugins,
+    and CLI command execution for cross-platform mobile app development.
+  why_it_matters: >-
+    It lets developers building with React, Angular, Vue, or VanillaJS offload component lookups, API documentation
+    retrieval, and Ionic/Capacitor CLI workflows directly to their MCP-compatible coding assistant.
+  mental_damage: >-
+    Another specialized MCP server so your agent can finally stop hallucinating Ionic component props and start running
+    `ionic build` for you like a well-paid junior.
   tags:
     - mcp
     - ionic
@@ -52,35 +60,44 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server purpose-built to give assistants deep context and CLI access for the Ionic/Capacitor mobile development ecosystem, fitting cleanly as a domain-specific MCP server.
+  reason: >-
+    This is an MCP server purpose-built to give assistants deep context and CLI access for the Ionic/Capacitor mobile
+    development ecosystem, fitting cleanly as a domain-specific MCP server.
   evidence:
-    - Repo description explicitly states it is 'An Awesome MCP Server to help building mobile apps' with Ionic and Capacitor.
-    - README lists dozens of MCP tools spanning component definitions, plugin APIs, and direct ionic-cli/capacitor CLI command execution.
-    - Actively pushed as of 2026-01-04 and sourced from canonical Ionic/Capacitor ecosystems (ionicframework.com, capacitorjs.com, capawesome.io).
+    - >-
+      Repo description explicitly states it is 'An Awesome MCP Server to help building mobile apps' with Ionic and
+      Capacitor.
+    - >-
+      README lists dozens of MCP tools spanning component definitions, plugin APIs, and direct ionic-cli/capacitor CLI
+      command execution.
+    - >-
+      Actively pushed as of 2026-01-04 and sourced from canonical Ionic/Capacitor ecosystems (ionicframework.com,
+      capacitorjs.com, capawesome.io).
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.652Z"
+    updated_at: '2026-05-06T22:12:15.652Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:52.509Z"
+    updated_at: '2026-07-21T15:20:52.509Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

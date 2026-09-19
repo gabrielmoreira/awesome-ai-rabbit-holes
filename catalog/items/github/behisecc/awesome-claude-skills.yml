@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__behisecc__awesome-claude-skills__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -29,19 +29,23 @@ metadata:
     archived: false
     full_name: BehiSecc/awesome-claude-skills
     html_url: https://github.com/BehiSecc/awesome-claude-skills
-    created_at: "2025-10-17T15:05:35Z"
-    pushed_at: "2026-08-02T11:06:52Z"
+    created_at: '2025-10-17T15:05:35Z'
+    pushed_at: '2026-08-02T11:06:52Z'
     description: A curated list of Claude Skills.
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-07T04:13:32.327Z"
+    last_checked_at: '2026-09-07T04:13:32.327Z'
     readme:
-      fetched_at: "2026-09-07T04:13:32.327Z"
+      fetched_at: '2026-09-07T04:13:32.327Z'
       bytes: 40780
 insights:
   summary: A curated list of Claude Skills for various domains including development, code tools, data analysis, and more.
-  why_it_matters: Developers can discover and adopt reusable skill packs to extend Claude's capabilities for specific workflows like testing, debugging, or infrastructure automation.
-  mental_damage: Because nothing says 'productivity' like spending an hour curating skills to avoid spending two hours writing the same prompts repeatedly.
+  why_it_matters: >-
+    Developers can discover and adopt reusable skill packs to extend Claude's capabilities for specific workflows like
+    testing, debugging, or infrastructure automation.
+  mental_damage: >-
+    Because nothing says 'productivity' like spending an hour curating skills to avoid spending two hours writing the
+    same prompts repeatedly.
   tags:
     - claude
     - skills
@@ -51,31 +55,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a navigation aid and ecosystem map for Claude skills, fitting the 'Lists & Directories' category better than a product-specific category like 'Agent Skills'.
+  reason: >-
+    This is a navigation aid and ecosystem map for Claude skills, fitting the 'Lists & Directories' category better than
+    a product-specific category like 'Agent Skills'.
   evidence:
     - Repo description explicitly states 'A curated list of Claude Skills'.
-    - README is structured as a directory with Table of Contents linking to external skill repositories (e.g., anthropics/skills, obra/superpowers).
+    - >-
+      README is structured as a directory with Table of Contents linking to external skill repositories (e.g.,
+      anthropics/skills, obra/superpowers).
     - Seen in source lists under 'awesome-LLM-resources' specifically categorized as '技能 Skills' (Skills).
 placement:
-  primary_category: awesome-awesomes
-  section: null
+  primary_category: skills
+  secondary_categories: []
+  section: Skill Packs & Libraries
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'skills'"
+  reason: 'Categorization review required: placement disagreement: retained ''awesome-awesomes'', proposed ''skills'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:32.327Z"
+    updated_at: '2026-09-07T04:13:32.327Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:25:38.561Z"
+    updated_at: '2026-07-21T15:25:38.561Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -88,7 +97,9 @@ processing:
       input_hash: sha256:4a0954ce4fcd713f76d850516efc92d97657808f0c9371b966f3f311369802e1
       proposed_primary_category: skills
       disagreement: true
-      decision_reason: This is a curated directory of reusable skill packs for Claude, which fits the 'Agent Skills' category as a skill registry.
+      decision_reason: >-
+        This is a curated directory of reusable skill packs for Claude, which fits the 'Agent Skills' category as a
+        skill registry.
       decision_evidence:
         - Repo description explicitly states it is a curated list of Claude Skills
         - README shows a structured directory of skills across multiple domains including development and code tools
@@ -96,6 +107,8 @@ processing:
       category_candidates:
         - skills
         - awesome-awesomes
-      contrastive_reason: Choose skills over awesome-awesomes because the primary artifact is a reusable skill registry for a specific agent ecosystem rather than a general navigation aid.
-      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'skills'"
+      contrastive_reason: >-
+        Choose skills over awesome-awesomes because the primary artifact is a reusable skill registry for a specific
+        agent ecosystem rather than a general navigation aid.
+      review_reason: 'Categorization review required: placement disagreement: retained ''awesome-awesomes'', proposed ''skills'''
       review_resume_lifecycle: null

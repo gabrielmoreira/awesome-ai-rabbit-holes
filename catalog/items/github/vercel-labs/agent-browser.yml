@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__vercel-labs__agent-browser__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Agent infrastructure
         anchor_text: agent-browser
         extracted_url: https://github.com/vercel-labs/agent-browser
-        surrounding_text: "- **[agent-browser](https://github.com/vercel-labs/agent-browser)** `⭐ 31.6k` — Headless browser automation CLI for agents (useful as a tool plugin for coding agents)."
+        surrounding_text: >-
+          - **[agent-browser](https://github.com/vercel-labs/agent-browser)** `⭐ 31.6k` — Headless browser automation
+          CLI for agents (useful as a tool plugin for coding agents).
         confidence: high
 metadata:
   github:
@@ -30,19 +32,23 @@ metadata:
     archived: false
     full_name: vercel-labs/agent-browser
     html_url: https://github.com/vercel-labs/agent-browser
-    created_at: "2026-01-11T05:38:15Z"
-    pushed_at: "2026-07-21T04:35:54Z"
+    created_at: '2026-01-11T05:38:15Z'
+    pushed_at: '2026-07-21T04:35:54Z'
     description: Browser automation CLI for AI agents
     homepage: https://agent-browser.dev
     topics: []
-    last_checked_at: "2026-07-21T15:21:03.487Z"
+    last_checked_at: '2026-07-21T15:21:03.487Z'
     readme:
-      fetched_at: "2026-07-21T15:21:03.487Z"
+      fetched_at: '2026-07-21T15:21:03.487Z'
       bytes: 78171
 insights:
   summary: Browser automation CLI for AI agents.
-  why_it_matters: Enables AI agents to programmatically control browsers using native Rust performance without Node.js or Playwright dependencies.
-  mental_damage: Finally, a way to make your AI agent feel less like a confused intern and more like a browser-automating intern with Rust speed.
+  why_it_matters: >-
+    Enables AI agents to programmatically control browsers using native Rust performance without Node.js or Playwright
+    dependencies.
+  mental_damage: >-
+    Finally, a way to make your AI agent feel less like a confused intern and more like a browser-automating intern with
+    Rust speed.
   tags:
     - browser-automation
     - cli
@@ -50,31 +56,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Agent-browser is a CLI tool that extends AI agents with browser automation capabilities rather than acting as a standalone coding assistant, making it an integration layer rather than a primary agent.
+  reason: >-
+    Agent-browser is a CLI tool that extends AI agents with browser automation capabilities rather than acting as a
+    standalone coding assistant, making it an integration layer rather than a primary agent.
   evidence:
-    - "Repo description: 'Browser automation CLI for AI agents'"
+    - 'Repo description: ''Browser automation CLI for AI agents'''
     - README positions it as a tool for AI agents to control browsers via CLI commands
     - Primary use case is augmenting AI agents with browser interaction, not autonomous coding
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Browser & Computer-Use Agents
 lifecycle:
   status: promotion_candidate
   reason: Stars (32795) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.654Z"
+    updated_at: '2026-05-06T22:12:15.654Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:03.487Z"
+    updated_at: '2026-07-21T15:21:03.487Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:23:46.356Z"
+    updated_at: '2026-05-12T15:23:46.356Z'
     cause: null
     next_retry_at: null
     attempts: 1

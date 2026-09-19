@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__coingecko__com__docs__ai__agent__hub__mcp__server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,10 @@ provenance:
           - Official Servers
         anchor_text: CoinGecko
         extracted_url: https://docs.coingecko.com/reference/mcp-server
-        surrounding_text: "- **[CoinGecko](https://docs.coingecko.com/reference/mcp-server/)** - Official [CoinGecko API](https://www.coingecko.com/en/api) MCP Server for Crypto Price & Market Data, across 200+ blokchain networks and 8M+ tokens."
+        surrounding_text: >-
+          - **[CoinGecko](https://docs.coingecko.com/reference/mcp-server/)** - Official [CoinGecko
+          API](https://www.coingecko.com/en/api) MCP Server for Crypto Price & Market Data, across 200+ blokchain
+          networks and 8M+ tokens.
         confidence: high
 metadata:
   github:
@@ -36,9 +39,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An official Model Context Protocol (MCP) server that provides real-time cryptocurrency market data from CoinGecko to LLMs and AI agents.
-  why_it_matters: It allows developers to bridge the gap between static LLM knowledge and live financial data by enabling agents to query prices, market caps, and trending assets via a standardized protocol.
-  mental_damage: Finally, you can let an autonomous agent blow your entire hypothetical portfolio while you watch the execution trace in real-time.
+  summary: >-
+    An official Model Context Protocol (MCP) server that provides real-time cryptocurrency market data from CoinGecko to
+    LLMs and AI agents.
+  why_it_matters: >-
+    It allows developers to bridge the gap between static LLM knowledge and live financial data by enabling agents to
+    query prices, market caps, and trending assets via a standardized protocol.
+  mental_damage: >-
+    Finally, you can let an autonomous agent blow your entire hypothetical portfolio while you watch the execution trace
+    in real-time.
   tags:
     - mcp
     - crypto
@@ -48,21 +57,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly marketed as an MCP server designed to provide a specific domain of data (crypto) to MCP-compliant clients.
+  reason: >-
+    The product is explicitly marketed as an MCP server designed to provide a specific domain of data (crypto) to
+    MCP-compliant clients.
   evidence:
-    - "Title: CoinGecko MCP Server"
-    - "README explicitly states: 'The official CoinGecko MCP Server is now live'"
+    - 'Title: CoinGecko MCP Server'
+    - 'README explicitly states: ''The official CoinGecko MCP Server is now live'''
     - Provides tools for LLMs to fetch real-time market data via MCP
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.660Z"
+    updated_at: '2026-05-06T22:12:15.660Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +83,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:40:09.106Z"
+    updated_at: '2026-07-20T15:40:09.106Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,14 +96,18 @@ processing:
       input_hash: sha256:b2f277d897f2b0132a592175beae109f19ced5ac5605067dd8cbb4b646a22512
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly marketed as an MCP server designed to provide a specific domain of data (crypto) to MCP-compliant clients.
+      decision_reason: >-
+        The product is explicitly marketed as an MCP server designed to provide a specific domain of data (crypto) to
+        MCP-compliant clients.
       decision_evidence:
-        - "Title: CoinGecko MCP Server"
-        - "README explicitly states: 'The official CoinGecko MCP Server is now live'"
+        - 'Title: CoinGecko MCP Server'
+        - 'README explicitly states: ''The official CoinGecko MCP Server is now live'''
         - Provides tools for LLMs to fetch real-time market data via MCP
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's identity is a protocol-based server rather than an integration meant to augment a specific IDE or editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's identity is a protocol-based server rather than an
+        integration meant to augment a specific IDE or editor.
       review_reason: null
       review_resume_lifecycle: null

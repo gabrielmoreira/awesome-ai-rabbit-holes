@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hannesrudolph__imessage-query-fastmcp-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,15 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: hannesrudolph/imessage-query-fastmcp-mcp-server
         extracted_url: https://github.com/hannesrudolph/imessage-query-fastmcp-mcp-server
-        surrounding_text: "- [hannesrudolph/imessage-query-fastmcp-mcp-server](https://github.com/hannesrudolph/imessage-query-fastmcp-mcp-server) 🐍 🏠 🍎 - An MCP server that provides safe access to your iMessage database through Model Context Protocol (MCP), enabling LLMs to query and analyze iMessage conversations with proper phone number validation and attachment handling"
+        surrounding_text: >-
+          -
+          [hannesrudolph/imessage-query-fastmcp-mcp-server](https://github.com/hannesrudolph/imessage-query-fastmcp-mcp-server)
+          🐍 🏠 🍎 - An MCP server that provides safe access to your iMessage database through Model Context Protocol
+          (MCP), enabling LLMs to query and analyze iMessage conversations with proper phone number validation and
+          attachment handling
         confidence: high
     - id: discovery__github__hannesrudolph__imessage-query-fastmcp-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +40,12 @@ provenance:
           - 💬 Communication
         anchor_text: hannesrudolph/imessage-query-fastmcp-mcp-server
         extracted_url: https://github.com/hannesrudolph/imessage-query-fastmcp-mcp-server
-        surrounding_text: "-   **[hannesrudolph/imessage-query-fastmcp-mcp-server](https://github.com/hannesrudolph/imessage-query-fastmcp-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/hannesrudolph/imessage-query-fastmcp-mcp-server?style=social)](https://github.com/hannesrudolph/imessage-query-fastmcp-mcp-server): Safely queries and analyzes iMessage conversations, including attachments."
+        surrounding_text: >-
+          -  
+          **[hannesrudolph/imessage-query-fastmcp-mcp-server](https://github.com/hannesrudolph/imessage-query-fastmcp-mcp-server)**
+          [![GitHub
+          stars](https://img.shields.io/github/stars/hannesrudolph/imessage-query-fastmcp-mcp-server?style=social)](https://github.com/hannesrudolph/imessage-query-fastmcp-mcp-server):
+          Safely queries and analyzes iMessage conversations, including attachments.
         confidence: high
 metadata:
   github:
@@ -45,21 +55,26 @@ metadata:
     archived: false
     full_name: hannesrudolph/imessage-query-fastmcp-mcp-server
     html_url: https://github.com/hannesrudolph/imessage-query-fastmcp-mcp-server
-    created_at: "2024-12-15T07:00:12Z"
-    pushed_at: "2026-02-03T23:54:27Z"
-    description: An MCP server that provides safe access to your iMessage database through Model Context Protocol (MCP). This server is built with the FastMCP framework and the imessagedb library, enabling LLMs to query and analyze iMessage conversations with proper phone number validation and attachment handling.
-    homepage: ""
+    created_at: '2024-12-15T07:00:12Z'
+    pushed_at: '2026-02-03T23:54:27Z'
+    description: >-
+      An MCP server that provides safe access to your iMessage database through Model Context Protocol (MCP). This
+      server is built with the FastMCP framework and the imessagedb library, enabling LLMs to query and analyze iMessage
+      conversations with proper phone number validation and attachment handling.
+    homepage: ''
     topics:
       - llm
       - mcp
       - mcp-server
-    last_checked_at: "2026-09-03T05:16:57.612Z"
+    last_checked_at: '2026-09-03T05:16:57.612Z'
     readme:
-      fetched_at: "2026-09-03T05:16:57.612Z"
+      fetched_at: '2026-09-03T05:16:57.612Z'
       bytes: 3648
 insights:
   summary: An MCP server that provides read-only access to macOS iMessage databases for LLM querying and analysis.
-  why_it_matters: Lets developers expose iMessage conversations to AI assistants via MCP for safe, structured querying of message history and attachments.
+  why_it_matters: >-
+    Lets developers expose iMessage conversations to AI assistants via MCP for safe, structured querying of message
+    history and attachments.
   mental_damage: Now your AI can judge your group chats as harshly as your friends do.
   tags:
     - mcp-server
@@ -70,31 +85,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server for iMessage database access, not a compatibility footnote or extension."
+  reason: >-
+    MCP is the product identity: this is a dedicated MCP server for iMessage database access, not a compatibility
+    footnote or extension.
   evidence:
     - Repo description explicitly states it is an MCP server for iMessage database access
     - README details MCP tools like get_chat_transcript and installation via FastMCP
     - Listed in multiple MCP-focused awesome lists under Communication servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.586Z"
+    updated_at: '2026-05-06T22:12:15.586Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:57.612Z"
+    updated_at: '2026-09-03T05:16:57.612Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:04:49.964Z"
+    updated_at: '2026-07-21T16:04:49.964Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -107,7 +125,9 @@ processing:
       input_hash: sha256:de429a9a90807fdef35fafc784bf1fe1b777137f565c2575b5b22f96f8aaf264
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server for iMessage database access, not a compatibility footnote or extension."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server for iMessage database access, not a compatibility
+        footnote or extension.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for iMessage database access
         - README details MCP tools like get_chat_transcript and installation via FastMCP
@@ -115,6 +135,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension augmenting another assistant).
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension augmenting another
+        assistant).
       review_reason: null
       review_resume_lifecycle: null

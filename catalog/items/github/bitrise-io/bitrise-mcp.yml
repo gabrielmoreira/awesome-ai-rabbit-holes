@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bitrise-io__bitrise-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: bitrise-io/bitrise-mcp
         extracted_url: https://github.com/bitrise-io/bitrise-mcp
-        surrounding_text: "- [bitrise-io/bitrise-mcp](https://github.com/bitrise-io/bitrise-mcp) 🎖️ 🐍 ☁️ 🍎 🪟 🐧 - MCP Server for the [Bitrise](https://bitrise.io) API, enabling app management, build operations, artifact management and more."
+        surrounding_text: >-
+          - [bitrise-io/bitrise-mcp](https://github.com/bitrise-io/bitrise-mcp) 🎖️ 🐍 ☁️ 🍎 🪟 🐧 - MCP Server for the
+          [Bitrise](https://bitrise.io) API, enabling app management, build operations, artifact management and more.
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: bitrise-io/bitrise-mcp
     html_url: https://github.com/bitrise-io/bitrise-mcp
-    created_at: "2025-04-01T09:54:46Z"
-    pushed_at: "2026-08-14T07:52:09Z"
+    created_at: '2025-04-01T09:54:46Z'
+    pushed_at: '2026-08-14T07:52:09Z'
     description: MCP Server for the Bitrise API, enabling app management, build operations, artifact management and more.
     homepage: https://bitrise.io
     topics:
@@ -39,13 +41,15 @@ metadata:
       - mcp
       - mcp-server
       - mcp-servers
-    last_checked_at: "2026-09-07T04:13:34.505Z"
+    last_checked_at: '2026-09-07T04:13:34.505Z'
     readme:
-      fetched_at: "2026-09-07T04:13:34.505Z"
+      fetched_at: '2026-09-07T04:13:34.505Z'
       bytes: 1941
 insights:
   summary: MCP Server for the Bitrise API, enabling app management, build operations, and artifact management.
-  why_it_matters: Developers can integrate Bitrise CI/CD capabilities directly into MCP-compatible assistants for streamlined build and deployment workflows.
+  why_it_matters: >-
+    Developers can integrate Bitrise CI/CD capabilities directly into MCP-compatible assistants for streamlined build
+    and deployment workflows.
   mental_damage: Now your AI assistant can trigger builds while you pretend to understand the failure logs.
   tags:
     - mcp
@@ -62,24 +66,25 @@ curation:
     - Listed in awesome-mcp-servers under Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:34.505Z"
+    updated_at: '2026-09-07T04:13:34.505Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:26:06.062Z"
+    updated_at: '2026-07-21T15:26:06.062Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -100,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension layer for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension
+        layer for another assistant.
       review_reason: null
       review_resume_lifecycle: null

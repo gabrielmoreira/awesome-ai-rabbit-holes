@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kagan-sh__kagan__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: kagan-sh/kagan
         extracted_url: https://github.com/kagan-sh/kagan
-        surrounding_text: "- [kagan-sh/kagan](https://github.com/kagan-sh/kagan) [![kagan-sh/kagan MCP server](https://glama.ai/mcp/servers/kagan-sh/kagan/badges/score.svg)](https://glama.ai/mcp/servers/kagan-sh/kagan) 🐍 🏠 🍎 🪟 🐧 - AI-powered Kanban TUI and MCP server for autonomous development workflows. Orchestrates 14 coding agents across task tracking, isolated git worktrees, review, and merge."
+        surrounding_text: >-
+          - [kagan-sh/kagan](https://github.com/kagan-sh/kagan) [![kagan-sh/kagan MCP
+          server](https://glama.ai/mcp/servers/kagan-sh/kagan/badges/score.svg)](https://glama.ai/mcp/servers/kagan-sh/kagan)
+          🐍 🏠 🍎 🪟 🐧 - AI-powered Kanban TUI and MCP server for autonomous development workflows. Orchestrates 14
+          coding agents across task tracking, isolated git worktrees, review, and merge.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: kagan-sh/kagan
     html_url: https://github.com/kagan-sh/kagan
-    created_at: "2026-07-06T22:17:56Z"
-    pushed_at: "2026-07-28T11:07:01Z"
+    created_at: '2026-07-06T22:17:56Z'
+    pushed_at: '2026-07-28T11:07:01Z'
     description: OpenCode Plugin for supervised agentic software development on a Kanban board
     homepage: http://kagan.sh
     topics:
@@ -49,13 +53,15 @@ metadata:
       - opencode-ai
       - opencode-plugin
       - tui
-    last_checked_at: "2026-07-30T05:05:54.134Z"
+    last_checked_at: '2026-07-30T05:05:54.134Z'
     readme:
-      fetched_at: "2026-07-30T05:05:54.134Z"
+      fetched_at: '2026-07-30T05:05:54.134Z'
       bytes: 2346
 insights:
   summary: Kanban TUI for AI coding agents with a structural human review gate, enforcing explicit approval before merges.
-  why_it_matters: It introduces a workflow where AI agents operate in isolated git worktrees and require human approval before merging, adding governance to agentic development.
+  why_it_matters: >-
+    It introduces a workflow where AI agents operate in isolated git worktrees and require human approval before
+    merging, adding governance to agentic development.
   mental_damage: Finally, a way to make your AI agent wait for permission like a well-trained intern.
   tags:
     - kanban
@@ -66,31 +72,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a workbench for coordinating agent tasks with a structured review workflow, fitting the orchestration category better than a pure coding agent or extension.
+  reason: >-
+    The product is a workbench for coordinating agent tasks with a structured review workflow, fitting the orchestration
+    category better than a pure coding agent or extension.
   evidence:
-    - "Repo description: 'OpenCode Plugin for supervised agentic software development on a Kanban board'"
-    - "README: 'Kanban TUI for AI coding agents with a structural human review gate'"
+    - 'Repo description: ''OpenCode Plugin for supervised agentic software development on a Kanban board'''
+    - 'README: ''Kanban TUI for AI coding agents with a structural human review gate'''
     - Supports multiple agents (Claude Code, Codex, etc.) and enforces a state machine for task lifecycle
 placement:
   primary_category: agent-orchestration
-  section: Workbenches & Collaboration Surfaces
+  section: Visual Builders & Workbenches
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.623Z"
+    updated_at: '2026-05-06T22:12:15.623Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:54.134Z"
+    updated_at: '2026-07-30T05:05:54.134Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:11:45.042Z"
+    updated_at: '2026-07-21T16:11:45.042Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -103,14 +111,18 @@ processing:
       input_hash: sha256:104b1a176061a76b9c83a16b7575227b7a4cd78a870f2515785da855a12c52f5
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The product is a workbench for coordinating agent tasks with a structured review workflow, fitting the orchestration category better than a pure coding agent or extension.
+      decision_reason: >-
+        The product is a workbench for coordinating agent tasks with a structured review workflow, fitting the
+        orchestration category better than a pure coding agent or extension.
       decision_evidence:
-        - "Repo description: 'OpenCode Plugin for supervised agentic software development on a Kanban board'"
-        - "README: 'Kanban TUI for AI coding agents with a structural human review gate'"
+        - 'Repo description: ''OpenCode Plugin for supervised agentic software development on a Kanban board'''
+        - 'README: ''Kanban TUI for AI coding agents with a structural human review gate'''
         - Supports multiple agents (Claude Code, Codex, etc.) and enforces a state machine for task lifecycle
       category_candidates:
         - agent-orchestration
         - ai-dev-extensions
-      contrastive_reason: Choose agent-orchestration over ai-dev-extensions because the core value is the Kanban workflow and multi-agent coordination, not merely extending another assistant.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-dev-extensions because the core value is the Kanban workflow and multi-agent
+        coordination, not merely extending another assistant.
       review_reason: null
       review_resume_lifecycle: null

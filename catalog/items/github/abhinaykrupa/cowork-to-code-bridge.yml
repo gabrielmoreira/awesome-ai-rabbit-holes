@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__abhinaykrupa__cowork-to-code-bridge__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-07-02T05:22:20.470Z"
+      discovered_at: '2026-07-02T05:22:20.470Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,12 @@ provenance:
           - Agent infrastructure
         anchor_text: cowork-to-code-bridge
         extracted_url: https://github.com/abhinaykrupa/cowork-to-code-bridge
-        surrounding_text: "- **[cowork-to-code-bridge](https://github.com/abhinaykrupa/cowork-to-code-bridge)** `⭐ 7` — Async file-based bridge that lets a sandboxed/cloud agent (Claude Cowork, CrewAI, AutoGen, LlamaIndex) delegate work to Claude Code running on your real macOS/Linux machine. A local daemon picks tasks off a shared bind-mounted directory, runs them through `run_claude.sh` (per-task model routing + budget caps + permission scoping), and returns results — no inbound network, no HTTPS tunnel. Ships a Claude Code skill, MCP audit, and selfcheck. MIT."
+        surrounding_text: >-
+          - **[cowork-to-code-bridge](https://github.com/abhinaykrupa/cowork-to-code-bridge)** `⭐ 7` — Async file-based
+          bridge that lets a sandboxed/cloud agent (Claude Cowork, CrewAI, AutoGen, LlamaIndex) delegate work to Claude
+          Code running on your real macOS/Linux machine. A local daemon picks tasks off a shared bind-mounted directory,
+          runs them through `run_claude.sh` (per-task model routing + budget caps + permission scoping), and returns
+          results — no inbound network, no HTTPS tunnel. Ships a Claude Code skill, MCP audit, and selfcheck. MIT.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: abhinaykrupa/cowork-to-code-bridge
     html_url: https://github.com/abhinaykrupa/cowork-to-code-bridge
-    created_at: "2026-05-28T22:48:42Z"
-    pushed_at: "2026-09-05T17:01:11Z"
-    description: Let Claude run code on your real machine — safely — from any Claude chat. Bridges Claude Cowork to Claude Code on your Mac/Linux box. One command, idempotent, no open ports.
+    created_at: '2026-05-28T22:48:42Z'
+    pushed_at: '2026-09-05T17:01:11Z'
+    description: >-
+      Let Claude run code on your real machine — safely — from any Claude chat. Bridges Claude Cowork to Claude Code on
+      your Mac/Linux box. One command, idempotent, no open ports.
     homepage: https://github.com/abhinaykrupa/cowork-to-code-bridge#install--two-pastes-total
     topics:
       - ai-agents
@@ -55,14 +62,20 @@ metadata:
       - macos
       - mcp
       - mcp-server
-    last_checked_at: "2026-09-17T04:13:28.775Z"
+    last_checked_at: '2026-09-17T04:13:28.775Z'
     readme:
-      fetched_at: "2026-09-17T04:13:28.775Z"
+      fetched_at: '2026-09-17T04:13:28.775Z'
       bytes: 40662
 insights:
-  summary: A bridge that connects Claude Cowork (cloud-based) to Claude Code (local terminal) to allow web-based chats to execute commands on a local machine.
-  why_it_matters: It allows developers to leverage the planning capabilities of web-based Claude chats while granting them the ability to actually execute code and manage files in a local environment.
-  mental_damage: Nothing says 'odern developer workflow' like installing a bridge just so your browser can safely execute shell commands on your laptop.
+  summary: >-
+    A bridge that connects Claude Cowork (cloud-based) to Claude Code (local terminal) to allow web-based chats to
+    execute commands on a local machine.
+  why_it_matters: >-
+    It allows developers to leverage the planning capabilities of web-based Claude chats while granting them the ability
+    to actually execute code and manage files in a local environment.
+  mental_damage: >-
+    Nothing says 'odern developer workflow' like installing a bridge just so your browser can safely execute shell
+    commands on your laptop.
   tags:
     - claude-code
     - bridge
@@ -72,31 +85,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool acts as a bridge/integration that augments the existing Claude Code and Claude Cowork products rather than being a standalone coding assistant.
+  reason: >-
+    The tool acts as a bridge/integration that augments the existing Claude Code and Claude Cowork products rather than
+    being a standalone coding assistant.
   evidence:
     - README claims it 'Bridges Claude Cowork to Claude Code on your Mac/Linux box'
     - Primary function is connecting a cloud chat to a local agent
     - Provides host capabilities (shell, git, disk) to a remote chat
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: Claude Code & Agent Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-02T05:22:20.471Z"
+    updated_at: '2026-07-02T05:22:20.471Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:28.775Z"
+    updated_at: '2026-09-17T04:13:28.775Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-13T05:18:22.600Z"
+    updated_at: '2026-07-13T05:18:22.600Z'
     cause: null
     next_retry_at: null
     attempts: 4

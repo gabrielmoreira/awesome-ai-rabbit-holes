@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__kilo__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,9 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Kilo Code
         extracted_url: https://kilocode.ai
-        surrounding_text: "- **[Kilo Code](https://kilocode.ai)** – Open-source VS Code extension supporting 500+ models at zero API markup, a superset of Cline/Roo Code."
+        surrounding_text: >-
+          - **[Kilo Code](https://kilocode.ai)** – Open-source VS Code extension supporting 500+ models at zero API
+          markup, a superset of Cline/Roo Code.
         confidence: high
 metadata:
   github:
@@ -36,8 +38,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Kilo is an open source AI coding agent available in VS Code, JetBrains, CLI, and Cloud, offering access to 500+ models with zero markup and support for local models.
-  why_it_matters: It provides a unified, open-source agent experience across multiple IDEs and platforms, allowing developers to use their own API keys and maintain code privacy with local models.
+  summary: >-
+    Kilo is an open source AI coding agent available in VS Code, JetBrains, CLI, and Cloud, offering access to 500+
+    models with zero markup and support for local models.
+  why_it_matters: >-
+    It provides a unified, open-source agent experience across multiple IDEs and platforms, allowing developers to use
+    their own API keys and maintain code privacy with local models.
   mental_damage: Finally, an AI coding agent that doesn’t force you to choose between your wallet and your privacy.
   tags:
     - coding-agent
@@ -48,21 +54,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Kilo is a primary coding assistant that developers delegate repo work to across IDEs, CLI, and cloud, fitting the core definition of a coding agent.
+  reason: >-
+    Kilo is a primary coding assistant that developers delegate repo work to across IDEs, CLI, and cloud, fitting the
+    core definition of a coding agent.
   evidence:
     - Described as 'the open source AI coding agent for VS Code, JetBrains, CLI, and Cloud'
     - Offers specialized agent modes (Code, Architect, Debug, etc.) for direct coding tasks
     - Source-list context places it in 'Code Editors and Assistants' section of a curated AI coding tools list
 placement:
   primary_category: coding-agents
-  section: IDE-Native Assistants
+  secondary_categories: []
+  section: IDE-Native & Editor Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +80,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:53.448Z"
+    updated_at: '2026-07-21T15:28:53.448Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +93,9 @@ processing:
       input_hash: sha256:7e41eb8b29ce1b85b3575ca0bcf50aa06f2febf835b6cddb271a75b8c1dca347
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Kilo is a primary coding assistant that developers delegate repo work to across IDEs, CLI, and cloud, fitting the core definition of a coding agent.
+      decision_reason: >-
+        Kilo is a primary coding assistant that developers delegate repo work to across IDEs, CLI, and cloud, fitting
+        the core definition of a coding agent.
       decision_evidence:
         - Described as 'the open source AI coding agent for VS Code, JetBrains, CLI, and Cloud'
         - Offers specialized agent modes (Code, Architect, Debug, etc.) for direct coding tasks
@@ -92,6 +103,8 @@ processing:
       category_candidates:
         - coding-agents
         - ai-ides-editors
-      contrastive_reason: Choose coding-agents over ai-ides-editors because Kilo is a coding agent that operates across multiple IDEs rather than being a standalone IDE or editor itself.
+      contrastive_reason: >-
+        Choose coding-agents over ai-ides-editors because Kilo is a coding agent that operates across multiple IDEs
+        rather than being a standalone IDE or editor itself.
       review_reason: null
       review_resume_lifecycle: null

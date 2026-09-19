@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__shipstatic__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: shipstatic/mcp
         extracted_url: https://github.com/shipstatic/mcp
-        surrounding_text: "- [shipstatic/mcp](https://github.com/shipstatic/mcp) [![shipstatic MCP server](https://glama.ai/mcp/servers/shipstatic/shipstatic/badges/score.svg)](https://glama.ai/mcp/servers/shipstatic/shipstatic) 📇 ☁️ - Deploy and manage static sites from AI agents. A simpler alternative to Vercel and Netlify for static website hosting — upload files, get a URL, and connect custom domains."
+        surrounding_text: >-
+          - [shipstatic/mcp](https://github.com/shipstatic/mcp) [![shipstatic MCP
+          server](https://glama.ai/mcp/servers/shipstatic/shipstatic/badges/score.svg)](https://glama.ai/mcp/servers/shipstatic/shipstatic)
+          📇 ☁️ - Deploy and manage static sites from AI agents. A simpler alternative to Vercel and Netlify for static
+          website hosting — upload files, get a URL, and connect custom domains.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: shipstatic/mcp
     html_url: https://github.com/shipstatic/mcp
-    created_at: "2026-03-03T17:39:28Z"
-    pushed_at: "2026-05-15T13:30:07Z"
+    created_at: '2026-03-03T17:39:28Z'
+    pushed_at: '2026-05-15T13:30:07Z'
     description: MCP server for instant static site deploys from AI agents — free, no account needed
     homepage: https://www.shipstatic.com/mcp
     topics:
@@ -55,14 +59,20 @@ metadata:
       - vibe-coding
       - web-hosting
       - website
-    last_checked_at: "2026-07-20T16:42:56.300Z"
+    last_checked_at: '2026-07-20T16:42:56.300Z'
     readme:
-      fetched_at: "2026-07-20T16:42:56.300Z"
+      fetched_at: '2026-07-20T16:42:56.300Z'
       bytes: 4321
 insights:
-  summary: An MCP server that lets AI agents instantly deploy static sites and prototypes to *.shipstatic.com without accounts or API keys.
-  why_it_matters: It gives coding agents a zero-config deployment target, letting them ship landing pages and demos without leaving the chat or wiring up cloud credentials.
-  mental_damage: We have successfully rebuilt FTP as a model context protocol tool so your agent can deploy a three-file landing page while you architect the next microservice migration.
+  summary: >-
+    An MCP server that lets AI agents instantly deploy static sites and prototypes to *.shipstatic.com without accounts
+    or API keys.
+  why_it_matters: >-
+    It gives coding agents a zero-config deployment target, letting them ship landing pages and demos without leaving
+    the chat or wiring up cloud credentials.
+  mental_damage: >-
+    We have successfully rebuilt FTP as a model context protocol tool so your agent can deploy a three-file landing page
+    while you architect the next microservice migration.
   tags:
     - mcp
     - static-hosting
@@ -71,35 +81,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server that exposes deployment, domain, and account tools to MCP-compatible clients like Claude Code, Cursor, and Windsurf.
+  reason: >-
+    The product is an MCP server that exposes deployment, domain, and account tools to MCP-compatible clients like
+    Claude Code, Cursor, and Windsurf.
   evidence:
-    - "Repo description states: 'MCP server for instant static site deploys from AI agents — free, no account needed'"
+    - 'Repo description states: ''MCP server for instant static site deploys from AI agents — free, no account needed'''
     - README provides setup instructions for Claude Code, Cursor, Antigravity, Windsurf, and Zed as MCP clients
     - Listed in awesome-mcp-servers under 'Cloud Platforms' as a server implementation
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.647Z"
+    updated_at: '2026-05-06T22:12:15.647Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:56.300Z"
+    updated_at: '2026-07-20T16:42:56.300Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__zagmoai__public-google-drive__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,7 +19,10 @@ provenance:
           - Developer Productivity Tools
         anchor_text: Google Drive – Memyard
         extracted_url: https://github.com/zagmoai/public-google-drive
-        surrounding_text: "- **[Google Drive – Memyard](https://github.com/zagmoai/public-google-drive)** – Agent skill that lets AI coding agents create and edit Google Docs and Sheets without sign-in. Documents hosted on Memyard with shareable links."
+        surrounding_text: >-
+          - **[Google Drive – Memyard](https://github.com/zagmoai/public-google-drive)** – Agent skill that lets AI
+          coding agents create and edit Google Docs and Sheets without sign-in. Documents hosted on Memyard with
+          shareable links.
         confidence: high
 metadata:
   github:
@@ -29,17 +32,19 @@ metadata:
     archived: false
     full_name: zagmoai/public-google-drive
     html_url: https://github.com/zagmoai/public-google-drive
-    created_at: "2026-02-09T00:54:29Z"
-    pushed_at: "2026-03-03T03:46:14Z"
+    created_at: '2026-02-09T00:54:29Z'
+    pushed_at: '2026-03-03T03:46:14Z'
     description: Memyard Drive
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:21:24.386Z"
+    last_checked_at: '2026-07-21T15:21:24.386Z'
     readme:
-      fetched_at: "2026-07-21T15:21:24.386Z"
+      fetched_at: '2026-07-21T15:21:24.386Z'
       bytes: 4066
 insights:
-  summary: Public Google Drive is a skill pack that lets LLM coding agents create and edit Google Docs and Sheets on Memyard without Google sign-in.
+  summary: >-
+    Public Google Drive is a skill pack that lets LLM coding agents create and edit Google Docs and Sheets on Memyard
+    without Google sign-in.
   why_it_matters: It enables coding agents to persistently generate and edit shareable documents as part of automated workflows.
   mental_damage: Now your AI agent can write meeting notes you’ll never read — just like a real intern.
   tags:
@@ -49,13 +54,16 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is a reusable skill pack for coding agents to interact with Google Docs/Sheets via Memyard, fitting the Agent Skills category as a portable command bundle.
+  reason: >-
+    The project is a reusable skill pack for coding agents to interact with Google Docs/Sheets via Memyard, fitting the
+    Agent Skills category as a portable command bundle.
   evidence:
     - README describes it as 'an agent skill that lets LLM coding agents create and edit Google Docs and Sheets'
     - Installation instructions show cloning into agent skills folders (e.g., ~/.claude/skills/)
     - Primary artifact is a skill pack with plan/execute flow, not a standalone agent or framework
 placement:
   primary_category: skills
+  secondary_categories: []
   section: Skill Packs & Libraries
 lifecycle:
   status: incubating
@@ -63,17 +71,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.657Z"
+    updated_at: '2026-05-06T22:12:15.657Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:24.386Z"
+    updated_at: '2026-07-21T15:21:24.386Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:49:12.078Z"
+    updated_at: '2026-05-12T15:49:12.078Z'
     cause: null
     next_retry_at: null
     attempts: 1

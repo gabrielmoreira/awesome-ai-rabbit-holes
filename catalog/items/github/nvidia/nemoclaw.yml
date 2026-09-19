@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nvidia__nemoclaw__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Agent infrastructure
         anchor_text: NemoClaw
         extracted_url: https://github.com/nvidia/nemoclaw
-        surrounding_text: "- **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** `⭐ 20.1k` `[NVIDIA]` — CLI tool for securely provisioning and managing sandboxed OpenClaw agent environments; enforces network, filesystem, and process-level security policies via OpenShell runtime. Apache-2.0."
+        surrounding_text: >-
+          - **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** `⭐ 20.1k` `[NVIDIA]` — CLI tool for securely provisioning
+          and managing sandboxed OpenClaw agent environments; enforces network, filesystem, and process-level security
+          policies via OpenShell runtime. Apache-2.0.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: NVIDIA/NemoClaw
     html_url: https://github.com/NVIDIA/NemoClaw
-    created_at: "2026-03-15T17:04:09Z"
-    pushed_at: "2026-07-20T16:39:00Z"
-    description: Run agents like Hermes, LangChain Deep Agents, and OpenClaw more securely inside NVIDIA OpenShell with managed inference
+    created_at: '2026-03-15T17:04:09Z'
+    pushed_at: '2026-07-20T16:39:00Z'
+    description: >-
+      Run agents like Hermes, LangChain Deep Agents, and OpenClaw more securely inside NVIDIA OpenShell with managed
+      inference
     homepage: https://docs.nvidia.com/nemoclaw/latest/
     topics:
       - ai-agents
@@ -42,14 +47,20 @@ metadata:
       - openshell
       - sandboxing
       - typescript
-    last_checked_at: "2026-07-20T16:42:21.213Z"
+    last_checked_at: '2026-07-20T16:42:21.213Z'
     readme:
-      fetched_at: "2026-07-20T16:42:21.213Z"
+      fetched_at: '2026-07-20T16:42:21.213Z'
       bytes: 9415
 insights:
-  summary: NemoClaw is an open-source reference stack from NVIDIA that provides a hardened, sandboxed runtime for running OpenClaw always-on coding assistants inside NVIDIA OpenShell with managed inference and security policies.
-  why_it_matters: It gives developers a guided, hardened blueprint for safely running autonomous coding agents with state management, routed inference, and layered protection instead of raw, unsecured execution.
-  mental_damage: Now you can finally run your always-on AI agent with enterprise-grade sandboxing, provided you have 16 GB of RAM and the emotional bandwidth to debug a k3s cluster before your agent writes a single line of code.
+  summary: >-
+    NemoClaw is an open-source reference stack from NVIDIA that provides a hardened, sandboxed runtime for running
+    OpenClaw always-on coding assistants inside NVIDIA OpenShell with managed inference and security policies.
+  why_it_matters: >-
+    It gives developers a guided, hardened blueprint for safely running autonomous coding agents with state management,
+    routed inference, and layered protection instead of raw, unsecured execution.
+  mental_damage: >-
+    Now you can finally run your always-on AI agent with enterprise-grade sandboxing, provided you have 16 GB of RAM and
+    the emotional bandwidth to debug a k3s cluster before your agent writes a single line of code.
   tags:
     - openclaw
     - nvidia
@@ -59,35 +70,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core value is a hardened runtime, sandbox, and control plane for operating autonomous agents, which aligns with agent orchestration rather than being a coding assistant itself.
+  reason: >-
+    The core value is a hardened runtime, sandbox, and control plane for operating autonomous agents, which aligns with
+    agent orchestration rather than being a coding assistant itself.
   evidence:
     - Repo description states it 'simplifies running OpenClaw always-on assistants more safely' inside NVIDIA OpenShell.
-    - README describes it as a reference stack providing 'state management, OpenShell-managed channel messaging, routed inference, and layered protection'.
+    - >-
+      README describes it as a reference stack providing 'state management, OpenShell-managed channel messaging, routed
+      inference, and layered protection'.
     - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure'.
 placement:
   primary_category: agent-orchestration
-  section: Multi-Agent Runtime Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (20155) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.633Z"
+    updated_at: '2026-05-06T22:12:15.633Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:21.213Z"
+    updated_at: '2026-07-20T16:42:21.213Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

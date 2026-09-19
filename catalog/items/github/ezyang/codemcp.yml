@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ezyang__codemcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: ezyang/codemcp
         extracted_url: https://github.com/ezyang/codemcp
-        surrounding_text: "- [ezyang/codemcp](https://github.com/ezyang/codemcp) 🐍 🏠 - Coding agent with basic read, write and command line tools."
+        surrounding_text: >-
+          - [ezyang/codemcp](https://github.com/ezyang/codemcp) 🐍 🏠 - Coding agent with basic read, write and command
+          line tools.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: ezyang/codemcp
     html_url: https://github.com/ezyang/codemcp
-    created_at: "2025-03-09T03:58:34Z"
-    pushed_at: "2025-12-25T02:10:23Z"
+    created_at: '2025-03-09T03:58:34Z'
+    pushed_at: '2025-12-25T02:10:23Z'
     description: Coding assistant MCP for Claude Desktop
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-08-27T09:23:27.360Z"
+    last_checked_at: '2026-08-27T09:23:27.360Z'
     readme:
-      fetched_at: "2026-08-27T09:23:27.360Z"
+      fetched_at: '2026-08-27T09:23:27.360Z'
       bytes: 8454
 insights:
   summary: An MCP server that enables Claude Desktop to directly edit local files and run tests on your codebase.
-  why_it_matters: It turns the Claude Desktop interface into a functional pair programmer that can implement features and fix bugs directly in your local files.
+  why_it_matters: >-
+    It turns the Claude Desktop interface into a functional pair programmer that can implement features and fix bugs
+    directly in your local files.
   mental_damage: Finally, you can stop copy-pasting code and instead watch Claude make a mess of your git history in real-time.
   tags:
     - mcp
@@ -51,31 +55,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a standalone coding assistant that lets developers delegate repo work to Claude Desktop via MCP, fitting the primary coding agent definition.
+  reason: >-
+    It is a standalone coding assistant that lets developers delegate repo work to Claude Desktop via MCP, fitting the
+    primary coding agent definition.
   evidence:
-    - "Repo description explicitly states: 'Coding assistant MCP for Claude Desktop'"
-    - README claims it 'directly edit files and run tests' and offers similar functionality to Claude Code, Cursor, Cline, and Aider.
-    - Source list awesome-mcp-servers includes it under 'Coding Agents' with 1615 stars and active development (pushed 2025-12-25).
+    - 'Repo description explicitly states: ''Coding assistant MCP for Claude Desktop'''
+    - >-
+      README claims it 'directly edit files and run tests' and offers similar functionality to Claude Code, Cursor,
+      Cline, and Aider.
+    - >-
+      Source list awesome-mcp-servers includes it under 'Coding Agents' with 1615 stars and active development (pushed
+      2025-12-25).
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: mcp
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'mcp'"
+  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''mcp'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:27.360Z"
+    updated_at: '2026-08-27T09:23:27.360Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:54:47.003Z"
+    updated_at: '2026-07-21T15:54:47.003Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,6 +107,8 @@ processing:
       category_candidates:
         - mcp
         - coding-agents
-      contrastive_reason: Choose mcp over coding-agents because the tool's primary identity is an MCP server that augments Claude Desktop, rather than being a standalone coding assistant.
-      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'mcp'"
+      contrastive_reason: >-
+        Choose mcp over coding-agents because the tool's primary identity is an MCP server that augments Claude Desktop,
+        rather than being a standalone coding assistant.
+      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''mcp'''
       review_resume_lifecycle: null

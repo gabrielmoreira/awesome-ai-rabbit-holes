@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__minmaxflow__mini-kode__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Open Source
         anchor_text: Mini-Kode
         extracted_url: https://github.com/minmaxflow/mini-kode
-        surrounding_text: "- **[Mini-Kode](https://github.com/minmaxflow/mini-kode)** `⭐ 301` — An educational AI coding agent CLI, intended as a readable reference implementation."
+        surrounding_text: >-
+          - **[Mini-Kode](https://github.com/minmaxflow/mini-kode)** `⭐ 301` — An educational AI coding agent CLI,
+          intended as a readable reference implementation.
         confidence: high
 metadata:
   github:
@@ -30,10 +32,10 @@ metadata:
     archived: false
     full_name: minmaxflow/mini-kode
     html_url: https://github.com/minmaxflow/mini-kode
-    created_at: "2025-10-30T15:09:56Z"
-    pushed_at: "2025-11-04T08:38:52Z"
+    created_at: '2025-10-30T15:09:56Z'
+    pushed_at: '2025-11-04T08:38:52Z'
     description: An educational AI coding agent CLI
-    homepage: ""
+    homepage: ''
     topics:
       - ai
       - cli
@@ -42,14 +44,18 @@ metadata:
       - human-in-the-loop-ai
       - llm
       - tool-system
-    last_checked_at: "2026-08-03T05:17:04.386Z"
+    last_checked_at: '2026-08-03T05:17:04.386Z'
     readme:
-      fetched_at: "2026-08-03T05:17:04.386Z"
+      fetched_at: '2026-08-03T05:17:04.386Z'
       bytes: 4998
 insights:
   summary: An educational AI coding agent CLI designed to help developers understand modern coding assistant systems.
-  why_it_matters: It provides a readable, educational reference for how AI coding agents work under the hood, enabling developers to learn, modify, and build their own agent systems.
-  mental_damage: Another CLI agent to add to the pile of 'I’ll learn this someday' repos that collect dust while you wait for Cursor to fix your typo.
+  why_it_matters: >-
+    It provides a readable, educational reference for how AI coding agents work under the hood, enabling developers to
+    learn, modify, and build their own agent systems.
+  mental_damage: >-
+    Another CLI agent to add to the pile of 'I’ll learn this someday' repos that collect dust while you wait for Cursor
+    to fix your typo.
   tags:
     - cli
     - educational
@@ -59,13 +65,20 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Mini-Kode is a standalone CLI-based coding agent that performs core assistant functions like file editing, command execution, and LLM-driven planning, fitting the definition of a developer-facing coding assistant.
+  reason: >-
+    Mini-Kode is a standalone CLI-based coding agent that performs core assistant functions like file editing, command
+    execution, and LLM-driven planning, fitting the definition of a developer-facing coding assistant.
   evidence:
-    - "Repo description: 'An educational AI coding agent CLI'"
-    - "README: Describes a 'Complete Agent Loop' with 'LLM workflow', 'human-in-the-loop permission approval', and tool system for file operations, search, and command execution"
-    - Project structure includes src/agent/, src/tools/, src/llm/, and src/permissions/, indicating a full agent architecture
+    - 'Repo description: ''An educational AI coding agent CLI'''
+    - >-
+      README: Describes a 'Complete Agent Loop' with 'LLM workflow', 'human-in-the-loop permission approval', and tool
+      system for file operations, search, and command execution
+    - >-
+      Project structure includes src/agent/, src/tools/, src/llm/, and src/permissions/, indicating a full agent
+      architecture
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -73,17 +86,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.630Z"
+    updated_at: '2026-05-06T22:12:15.630Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:04.386Z"
+    updated_at: '2026-08-03T05:17:04.386Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:21:22.869Z"
+    updated_at: '2026-07-21T16:21:22.869Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,14 +109,23 @@ processing:
       input_hash: sha256:8972c8bce1206576b8e7d6be697fd836f69ada3ed8e6f9e5e42ad6ba70c8f9fb
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Mini-Kode is a standalone CLI-based coding agent that performs core assistant functions like file editing, command execution, and LLM-driven planning, fitting the definition of a developer-facing coding assistant.
+      decision_reason: >-
+        Mini-Kode is a standalone CLI-based coding agent that performs core assistant functions like file editing,
+        command execution, and LLM-driven planning, fitting the definition of a developer-facing coding assistant.
       decision_evidence:
-        - "Repo description: 'An educational AI coding agent CLI'"
-        - "README: Describes a 'Complete Agent Loop' with 'LLM workflow', 'human-in-the-loop permission approval', and tool system for file operations, search, and command execution"
-        - Project structure includes src/agent/, src/tools/, src/llm/, and src/permissions/, indicating a full agent architecture
+        - 'Repo description: ''An educational AI coding agent CLI'''
+        - >-
+          README: Describes a 'Complete Agent Loop' with 'LLM workflow', 'human-in-the-loop permission approval', and
+          tool system for file operations, search, and command execution
+        - >-
+          Project structure includes src/agent/, src/tools/, src/llm/, and src/permissions/, indicating a full agent
+          architecture
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because Mini-Kode is a standalone assistant that performs coding tasks directly, not an add-on that augments another agent or editor with integrations like debugger or browser access.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because Mini-Kode is a standalone assistant that performs coding
+        tasks directly, not an add-on that augments another agent or editor with integrations like debugger or browser
+        access.
       review_reason: null
       review_resume_lifecycle: null

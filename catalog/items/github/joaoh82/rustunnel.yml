@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__joaoh82__rustunnel__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: joaoh82/rustunnel
         extracted_url: https://github.com/joaoh82/rustunnel
-        surrounding_text: "- [joaoh82/rustunnel](https://github.com/joaoh82/rustunnel) [![joaoh82/rustunnel MCP server](https://glama.ai/mcp/servers/joaoh82/rustunnel/badges/score.svg)](https://glama.ai/mcp/servers/joaoh82/rustunnel) 🦀 🏠 ☁️ - MCP server that lets AI agents create and manage public tunnels to local services (webhooks, dev servers, sharing) — six tools covering HTTP/TCP/UDP tunnels, custom subdomains, regions, and load-balanced pools. Pairs with the rustunnel CLI; managed cloud or self-hosted (AGPL)."
+        surrounding_text: >-
+          - [joaoh82/rustunnel](https://github.com/joaoh82/rustunnel) [![joaoh82/rustunnel MCP
+          server](https://glama.ai/mcp/servers/joaoh82/rustunnel/badges/score.svg)](https://glama.ai/mcp/servers/joaoh82/rustunnel)
+          🦀 🏠 ☁️ - MCP server that lets AI agents create and manage public tunnels to local services (webhooks, dev
+          servers, sharing) — six tools covering HTTP/TCP/UDP tunnels, custom subdomains, regions, and load-balanced
+          pools. Pairs with the rustunnel CLI; managed cloud or self-hosted (AGPL).
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: joaoh82/rustunnel
     html_url: https://github.com/joaoh82/rustunnel
-    created_at: "2026-03-10T21:25:25Z"
-    pushed_at: "2026-07-26T06:53:11Z"
-    description: Self-hosted, secure tunnel server in Rust. Expose local HTTP/HTTPS/TCP/UDP services to the public internet via TLS-encrypted WebSocket. Open-source, pay-as-you-go managed option, MCP server for AI agents.
+    created_at: '2026-03-10T21:25:25Z'
+    pushed_at: '2026-07-26T06:53:11Z'
+    description: >-
+      Self-hosted, secure tunnel server in Rust. Expose local HTTP/HTTPS/TCP/UDP services to the public internet via
+      TLS-encrypted WebSocket. Open-source, pay-as-you-go managed option, MCP server for AI agents.
     homepage: https://rustunnel.com
     topics:
       - api-gateway
@@ -45,12 +52,14 @@ metadata:
       - tunnel
       - tunneling
       - webhook
-    last_checked_at: "2026-07-30T05:05:51.187Z"
+    last_checked_at: '2026-07-30T05:05:51.187Z'
     readme:
-      fetched_at: "2026-07-30T05:05:51.187Z"
+      fetched_at: '2026-07-30T05:05:51.187Z'
       bytes: 41213
 insights:
-  summary: A self-hosted, Rust-based tunneling service that includes an MCP server to expose local network services to AI agents.
+  summary: >-
+    A self-hosted, Rust-based tunneling service that includes an MCP server to expose local network services to AI
+    agents.
   why_it_matters: It allows AI agents to interact with, test, and trigger local webhooks and APIs through secure, encrypted tunnels.
   mental_damage: Because your agent definitely needs a TLS-encrypted tunnel to realize your localhost:3000 is throwing a 500 error.
   tags:
@@ -61,32 +70,31 @@ insights:
     - networking
   confidence: high
 curation:
-  status: included
-  reason: It augments AI agents with the capability to access local network services via an MCP integration.
+  status: pending
+  reason: 'Manual audit: Tunneling service; MCP is incidental.'
   evidence:
-    - Rust-based tunneling service for HTTP/TCP/UDP
-    - Includes an MCP server for agent integration
-    - Supports Cursor, Claude Code, and Windsurf
+    - Manual review of Jev Middleware & Generic audit, 2026-09-19
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (639) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-06-15T05:51:04.989Z"
+    updated_at: '2026-06-15T05:51:04.989Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:51.187Z"
+    updated_at: '2026-07-30T05:05:51.187Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-29T05:47:07.804Z"
+    updated_at: '2026-06-29T05:47:07.804Z'
     cause: null
     next_retry_at: null
     attempts: 1

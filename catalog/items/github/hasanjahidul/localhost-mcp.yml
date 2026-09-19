@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hasanjahidul__localhost-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-08T05:39:05.247Z"
+      discovered_at: '2026-06-08T05:39:05.247Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🖥️ <a name="command-line"></a>Command Line
         anchor_text: HasanJahidul/localhost-mcp
         extracted_url: https://github.com/hasanjahidul/localhost-mcp
-        surrounding_text: "- [HasanJahidul/localhost-mcp](https://github.com/HasanJahidul/localhost-mcp) [![localhost-mcp MCP server](https://glama.ai/mcp/servers/HasanJahidul/localhost-mcp/badges/score.svg)](https://glama.ai/mcp/servers/HasanJahidul/localhost-mcp) 📇 🏠 🍎 🪟 🐧 - Inspect, manage, and kill local dev servers. Lists what's listening on each port (pid, framework, project, uptime, memory, cpu), diagnoses port conflicts with free alternatives nearby, finds zombie processes, and kills by pid or port with a dry-run default."
+        surrounding_text: >-
+          - [HasanJahidul/localhost-mcp](https://github.com/HasanJahidul/localhost-mcp) [![localhost-mcp MCP
+          server](https://glama.ai/mcp/servers/HasanJahidul/localhost-mcp/badges/score.svg)](https://glama.ai/mcp/servers/HasanJahidul/localhost-mcp)
+          📇 🏠 🍎 🪟 🐧 - Inspect, manage, and kill local dev servers. Lists what's listening on each port (pid,
+          framework, project, uptime, memory, cpu), diagnoses port conflicts with free alternatives nearby, finds zombie
+          processes, and kills by pid or port with a dry-run default.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,9 @@ metadata:
     archived: false
     full_name: HasanJahidul/localhost-mcp
     html_url: https://github.com/HasanJahidul/localhost-mcp
-    created_at: "2026-05-09T12:41:58Z"
-    pushed_at: "2026-05-11T07:12:34Z"
-    description: "MCP server: inspect, manage, kill local dev servers. Stop guessing what's on :3000."
+    created_at: '2026-05-09T12:41:58Z'
+    pushed_at: '2026-05-11T07:12:34Z'
+    description: 'MCP server: inspect, manage, kill local dev servers. Stop guessing what''s on :3000.'
     homepage: null
     topics:
       - claude
@@ -43,14 +48,18 @@ metadata:
       - model-context-protocol
       - ports
       - typescript
-    last_checked_at: "2026-07-30T05:05:35.619Z"
+    last_checked_at: '2026-07-30T05:05:35.619Z'
     readme:
-      fetched_at: "2026-07-30T05:05:35.619Z"
+      fetched_at: '2026-07-30T05:05:35.619Z'
       bytes: 3361
 insights:
   summary: An MCP server that allows AI agents to inspect, manage, and kill local development servers.
-  why_it_matters: It eliminates the manual cycle of running lsof and kill -9 to resolve EADDRINUSE errors by giving the agent direct visibility into the local port landscape.
-  mental_damage: Now your agent can gaslight you by killing your dev server and claiming it was just a 'zombie process' eating your RAM.
+  why_it_matters: >-
+    It eliminates the manual cycle of running lsof and kill -9 to resolve EADDRINUSE errors by giving the agent direct
+    visibility into the local port landscape.
+  mental_damage: >-
+    Now your agent can gaslight you by killing your dev server and claiming it was just a 'zombie process' eating your
+    RAM.
   tags:
     - mcp
     - localhost
@@ -59,33 +68,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is explicitly and exclusively an MCP server designed to bridge a specific system capability to an AI client.
+  reason: >-
+    The product identity is explicitly and exclusively an MCP server designed to bridge a specific system capability to
+    an AI client.
   evidence:
-    - "Repo description: 'MCP server: inspect, manage, kill local dev servers'"
+    - 'Repo description: ''MCP server: inspect, manage, kill local dev servers'''
     - README describes it as an 'MCP server that runs as a stdio MCP server'
     - Listed in awesome-mcp-servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-08T05:39:05.248Z"
+    updated_at: '2026-06-08T05:39:05.248Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-03T05:16:58.952Z"
+    updated_at: '2026-09-03T05:16:58.952Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for hasanjahidul/localhost-mcp
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-08T05:43:07.534Z"
+    updated_at: '2026-06-08T05:43:07.534Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

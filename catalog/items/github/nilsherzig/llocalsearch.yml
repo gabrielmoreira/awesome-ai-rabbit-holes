@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nilsherzig__llocalsearch__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -19,7 +19,12 @@ provenance:
           - Other LLM Frameworks
         anchor_text: LLocalSearch
         extracted_url: https://github.com/nilsherzig/llocalsearch
-        surrounding_text: "- [LLocalSearch](https://github.com/nilsherzig/LLocalSearch): LLocalSearch is a completely locally running search aggregator using LLM Agents. The user can ask a question and the system will use a chain of LLMs to find the answer. The user can see the progress of the agents and the final answer. No OpenAI or Google API keys are needed. ![GitHub Repo stars](https://img.shields.io/github/stars/nilsherzig/LLocalSearch?style=social)"
+        surrounding_text: >-
+          - [LLocalSearch](https://github.com/nilsherzig/LLocalSearch): LLocalSearch is a completely locally running
+          search aggregator using LLM Agents. The user can ask a question and the system will use a chain of LLMs to
+          find the answer. The user can see the progress of the agents and the final answer. No OpenAI or Google API
+          keys are needed. ![GitHub Repo
+          stars](https://img.shields.io/github/stars/nilsherzig/LLocalSearch?style=social)
         confidence: high
 metadata:
   github:
@@ -29,21 +34,30 @@ metadata:
     archived: true
     full_name: nilsherzig/LLocalSearch
     html_url: https://github.com/nilsherzig/LLocalSearch
-    created_at: "2024-03-23T08:53:25Z"
-    pushed_at: "2026-03-24T09:58:01Z"
-    description: LLocalSearch is a completely locally running search aggregator using LLM Agents. The user can ask a question and the system will use a chain of LLMs to find the answer. The user can see the progress of the agents and the final answer. No OpenAI or Google API keys are needed.
-    homepage: ""
+    created_at: '2024-03-23T08:53:25Z'
+    pushed_at: '2026-03-24T09:58:01Z'
+    description: >-
+      LLocalSearch is a completely locally running search aggregator using LLM Agents. The user can ask a question and
+      the system will use a chain of LLMs to find the answer. The user can see the progress of the agents and the final
+      answer. No OpenAI or Google API keys are needed.
+    homepage: ''
     topics:
       - llm
       - search-engine
-    last_checked_at: "2026-07-20T15:12:04.563Z"
+    last_checked_at: '2026-07-20T15:12:04.563Z'
     readme:
-      fetched_at: "2026-07-20T15:12:04.563Z"
+      fetched_at: '2026-07-20T15:12:04.563Z'
       bytes: 3969
 insights:
-  summary: LLocalSearch is a self-hosted, local-first search assistant that chains local LLMs with web search tools to answer questions without external API keys.
-  why_it_matters: It lets developers run a privacy-respecting, ad-free research agent entirely on local hardware, avoiding cloud API dependencies and manipulated search rankings.
-  mental_damage: Another locally hosted agent you'll spend three hours setting up, only to realize you still have to chaperone it while it recursively searches the internet on a 300€ GPU.
+  summary: >-
+    LLocalSearch is a self-hosted, local-first search assistant that chains local LLMs with web search tools to answer
+    questions without external API keys.
+  why_it_matters: >-
+    It lets developers run a privacy-respecting, ad-free research agent entirely on local hardware, avoiding cloud API
+    dependencies and manipulated search rankings.
+  mental_damage: >-
+    Another locally hosted agent you'll spend three hours setting up, only to realize you still have to chaperone it
+    while it recursively searches the internet on a 300€ GPU.
   tags:
     - local-ai
     - search-agent
@@ -52,35 +66,44 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's core identity is a local-first desktop/search interface that runs entirely on your own hardware without cloud APIs, which fits the Local AI category perfectly.
+  reason: >-
+    The project's core identity is a local-first desktop/search interface that runs entirely on your own hardware
+    without cloud APIs, which fits the Local AI category perfectly.
   evidence:
-    - Repo description explicitly states it is a 'completely locally running search aggregator using LLM Agents' with 'no OpenAI or Google API keys needed'.
-    - "README emphasizes local execution: 'Completely local... Runs on low end hardware (the demo video uses a 300€ GPU)'."
-    - Active development indicated by pushed_at date of 2026-03-24T09:58:01Z and 5954 stars, despite the author noting a rewrite in progress.
+    - >-
+      Repo description explicitly states it is a 'completely locally running search aggregator using LLM Agents' with
+      'no OpenAI or Google API keys needed'.
+    - >-
+      README emphasizes local execution: 'Completely local... Runs on low end hardware (the demo video uses a 300€
+      GPU)'.
+    - >-
+      Active development indicated by pushed_at date of 2026-03-24T09:58:01Z and 5954 stars, despite the author noting a
+      rewrite in progress.
 placement:
   primary_category: local-ai
-  section: Desktop Chat / Interfaces
+  secondary_categories: []
+  section: Desktop Chat & UIs
 lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.632Z"
+    updated_at: '2026-05-06T22:12:15.632Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:12:04.563Z"
+    updated_at: '2026-07-20T15:12:04.563Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

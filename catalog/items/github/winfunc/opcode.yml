@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__winfunc__opcode__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -29,9 +29,11 @@ metadata:
     archived: false
     full_name: winfunc/opcode
     html_url: https://github.com/winfunc/opcode
-    created_at: "2025-06-19T13:53:26Z"
-    pushed_at: "2025-10-16T12:05:56Z"
-    description: A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.
+    created_at: '2025-06-19T13:53:26Z'
+    pushed_at: '2025-10-16T12:05:56Z'
+    description: >-
+      A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions,
+      run secure background agents, and more.
     homepage: https://opcode.sh
     topics:
       - anthropic
@@ -49,14 +51,20 @@ metadata:
       - llm-code
       - rust
       - tauri
-    last_checked_at: "2026-07-21T15:21:13.770Z"
+    last_checked_at: '2026-07-21T15:21:13.770Z'
     readme:
-      fetched_at: "2026-07-21T15:21:13.770Z"
+      fetched_at: '2026-07-21T15:21:13.770Z'
       bytes: 12944
 insights:
-  summary: opcode is a Tauri-based desktop GUI app and toolkit for managing Claude Code sessions, creating custom agents, and tracking usage.
-  why_it_matters: It provides a visual interface for Claude Code, making AI-assisted development more accessible and productive for developers who prefer GUIs over terminals.
-  mental_damage: Another layer of abstraction on top of an AI coding assistant that promises to make prompting less frustrating, while adding yet another app to your dock.
+  summary: >-
+    opcode is a Tauri-based desktop GUI app and toolkit for managing Claude Code sessions, creating custom agents, and
+    tracking usage.
+  why_it_matters: >-
+    It provides a visual interface for Claude Code, making AI-assisted development more accessible and productive for
+    developers who prefer GUIs over terminals.
+  mental_damage: >-
+    Another layer of abstraction on top of an AI coding assistant that promises to make prompting less frustrating,
+    while adding yet another app to your dock.
   tags:
     - claude-code
     - gui
@@ -65,31 +73,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: opcode is a GUI enhancement for Claude Code, not a standalone coding agent, so it belongs in Extensions & Integrations as a UI workflow add-on.
+  reason: >-
+    opcode is a GUI enhancement for Claude Code, not a standalone coding agent, so it belongs in Extensions &
+    Integrations as a UI workflow add-on.
   evidence:
-    - "Repo description: 'A powerful GUI app and Toolkit for Claude Code'"
-    - "README: 'Think of opcode as your command center for Claude Code - bridging the gap between the command-line tool and a visual experience'"
-    - Features focus on session management, agent creation, MCP server management, and usage analytics—augmenting Claude Code rather than replacing it
+    - 'Repo description: ''A powerful GUI app and Toolkit for Claude Code'''
+    - >-
+      README: 'Think of opcode as your command center for Claude Code - bridging the gap between the command-line tool
+      and a visual experience'
+    - >-
+      Features focus on session management, agent creation, MCP server management, and usage analytics—augmenting Claude
+      Code rather than replacing it
 placement:
-  primary_category: ai-dev-extensions
-  section: IDE / UI / Workflow Add-ons
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: Claude Code & Agent Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (21828) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.655Z"
+    updated_at: '2026-05-06T22:12:15.655Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:13.770Z"
+    updated_at: '2026-07-21T15:21:13.770Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:35:17.892Z"
+    updated_at: '2026-05-12T15:35:17.892Z'
     cause: null
     next_retry_at: null
     attempts: 1

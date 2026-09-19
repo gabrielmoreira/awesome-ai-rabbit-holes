@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jupyterlab__jupyter-ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,7 +19,9 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Jupyter AI
         extracted_url: https://jupyter-ai.readthedocs.io
-        surrounding_text: "- **[Jupyter AI](https://jupyter-ai.readthedocs.io/)** – AI extensions for Jupyter notebooks with natural language code generation."
+        surrounding_text: >-
+          - **[Jupyter AI](https://jupyter-ai.readthedocs.io/)** – AI extensions for Jupyter notebooks with natural
+          language code generation.
         confidence: high
 metadata:
   github:
@@ -29,8 +31,8 @@ metadata:
     archived: false
     full_name: jupyterlab/jupyter-ai
     html_url: https://github.com/jupyterlab/jupyter-ai
-    created_at: "2023-02-09T21:37:47Z"
-    pushed_at: "2026-07-30T02:18:05Z"
+    created_at: '2023-02-09T21:37:47Z'
+    pushed_at: '2026-07-30T02:18:05Z'
     description: An open source extension that connects AI agents to computational notebooks in JupyterLab.
     homepage: https://jupyter-ai.readthedocs.io/
     topics:
@@ -39,13 +41,15 @@ metadata:
       - jupyter
       - jupyterlab
       - jupyterlab-extension
-    last_checked_at: "2026-07-30T05:05:53.347Z"
+    last_checked_at: '2026-07-30T05:05:53.347Z'
     readme:
-      fetched_at: "2026-07-30T05:05:53.347Z"
+      fetched_at: '2026-07-30T05:05:53.347Z'
       bytes: 2433
 insights:
   summary: An open source JupyterLab extension that connects AI agents to computational notebooks via ACP and MCP.
-  why_it_matters: It brings multi-agent AI collaboration directly into JupyterLab, enabling developers to use agents like Claude or Copilot for notebook-centric workflows with guardrails and custom tooling.
+  why_it_matters: >-
+    It brings multi-agent AI collaboration directly into JupyterLab, enabling developers to use agents like Claude or
+    Copilot for notebook-centric workflows with guardrails and custom tooling.
   mental_damage: Now your notebooks can argue with each other about pandas syntax while you watch.
   tags:
     - jupyter
@@ -56,31 +60,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a developer-facing assistant environment that integrates multiple coding agents directly into the JupyterLab IDE to read, write, and execute code.
+  reason: >-
+    It is a developer-facing assistant environment that integrates multiple coding agents directly into the JupyterLab
+    IDE to read, write, and execute code.
   evidence:
     - Repo description states it 'connects AI agents to computational notebooks in JupyterLab.'
-    - README describes a 'native chat UI where you can collaborate with frontier AI agents' that can 'read and write files, run terminal commands, and interact with notebooks.'
+    - >-
+      README describes a 'native chat UI where you can collaborate with frontier AI agents' that can 'read and write
+      files, run terminal commands, and interact with notebooks.'
     - Source list 'awesome-ai-coding-tools' categorizes it under 'Code Editors and Assistants'.
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: IDE & Editor Add-ons
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-dev-extensions'"
+  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''ai-dev-extensions'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.623Z"
+    updated_at: '2026-05-06T22:12:15.623Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:53.348Z"
+    updated_at: '2026-07-30T05:05:53.348Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:11:33.552Z"
+    updated_at: '2026-07-21T16:11:33.552Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -93,14 +102,22 @@ processing:
       input_hash: sha256:59d99c3f82eac626dd13aa68d28efb7d9608b011e35cd314a91acc082a8b014c
       proposed_primary_category: ai-dev-extensions
       disagreement: true
-      decision_reason: It is primarily an extension that augments JupyterLab with AI agent capabilities rather than being a standalone coding assistant.
+      decision_reason: >-
+        It is primarily an extension that augments JupyterLab with AI agent capabilities rather than being a standalone
+        coding assistant.
       decision_evidence:
-        - "Repo description: 'An open source extension that connects AI agents to computational notebooks in JupyterLab.'"
-        - "README: 'Jupyter AI brings agentic AI to JupyterLab' with ACP/MCP integration and host-specific features like notebook interaction."
-        - "Source-list context: Listed under 'Code Editors and Assistants' in awesome-ai-coding-tools as a JupyterLab integration."
+        - 'Repo description: ''An open source extension that connects AI agents to computational notebooks in JupyterLab.'''
+        - >-
+          README: 'Jupyter AI brings agentic AI to JupyterLab' with ACP/MCP integration and host-specific features like
+          notebook interaction.
+        - >-
+          Source-list context: Listed under 'Code Editors and Assistants' in awesome-ai-coding-tools as a JupyterLab
+          integration.
       category_candidates:
         - ai-dev-extensions
         - coding-agents
-      contrastive_reason: Choose ai-dev-extensions over coding-agents because the product is an extension for JupyterLab rather than a primary coding assistant.
-      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-dev-extensions'"
+      contrastive_reason: >-
+        Choose ai-dev-extensions over coding-agents because the product is an extension for JupyterLab rather than a
+        primary coding assistant.
+      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''ai-dev-extensions'''
       review_resume_lifecycle: null

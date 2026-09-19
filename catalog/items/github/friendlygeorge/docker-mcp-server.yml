@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__friendlygeorge__docker-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-22T05:53:30.454Z"
+      discovered_at: '2026-06-22T05:53:30.454Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: friendlygeorge/docker-mcp-server
         extracted_url: https://github.com/friendlygeorge/docker-mcp-server
-        surrounding_text: "- [friendlygeorge/docker-mcp-server](https://github.com/friendlygeorge/docker-mcp-server) [![friendlygeorge/docker-mcp-server MCP server](https://glama.ai/mcp/servers/friendlygeorge/docker-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/friendlygeorge/docker-mcp-server) 📇 🏠 - Docker container management for AI agents — health checks, auto-restart, Compose lifecycle, and log streaming. 50+ tools for the agent operations loop."
+        surrounding_text: >-
+          - [friendlygeorge/docker-mcp-server](https://github.com/friendlygeorge/docker-mcp-server)
+          [![friendlygeorge/docker-mcp-server MCP
+          server](https://glama.ai/mcp/servers/friendlygeorge/docker-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/friendlygeorge/docker-mcp-server)
+          📇 🏠 - Docker container management for AI agents — health checks, auto-restart, Compose lifecycle, and log
+          streaming. 50+ tools for the agent operations loop.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: friendlygeorge/docker-mcp-server
     html_url: https://github.com/friendlygeorge/docker-mcp-server
-    created_at: "2026-06-10T14:36:45Z"
-    pushed_at: "2026-06-24T09:04:31Z"
-    description: Docker MCP server designed for agents that need their containers to stay running. Health checks, auto-restart, Compose lifecycle, log streaming.
+    created_at: '2026-06-10T14:36:45Z'
+    pushed_at: '2026-06-24T09:04:31Z'
+    description: >-
+      Docker MCP server designed for agents that need their containers to stay running. Health checks, auto-restart,
+      Compose lifecycle, log streaming.
     homepage: null
     topics:
       - ai-agent
@@ -45,14 +52,20 @@ metadata:
       - mcp
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-09-03T05:16:44.079Z"
+    last_checked_at: '2026-09-03T05:16:44.079Z'
     readme:
-      fetched_at: "2026-09-03T05:16:44.079Z"
+      fetched_at: '2026-09-03T05:16:44.079Z'
       bytes: 5741
 insights:
-  summary: An MCP server that provides AI agents with capabilities for Docker container health checks, auto-restart policies, Compose lifecycle management, and log streaming.
-  why_it_matters: It gives agents the operational awareness to not just deploy a container, but to monitor, debug, and self-heal the infrastructure they manage.
-  mental_damage: The peace of mind that comes from knowing your agent is the only thing awake at 3am to restart the database it accidentally broke.
+  summary: >-
+    An MCP server that provides AI agents with capabilities for Docker container health checks, auto-restart policies,
+    Compose lifecycle management, and log streaming.
+  why_it_matters: >-
+    It gives agents the operational awareness to not just deploy a container, but to monitor, debug, and self-heal the
+    infrastructure they manage.
+  mental_damage: >-
+    The peace of mind that comes from knowing your agent is the only thing awake at 3am to restart the database it
+    accidentally broke.
   tags:
     - mcp
     - docker
@@ -62,31 +75,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is explicitly that of an MCP server, providing a standardized interface for agents to interact with Docker.
+  reason: >-
+    The product identity is explicitly that of an MCP server, providing a standardized interface for agents to interact
+    with Docker.
   evidence:
     - Repo description explicitly identifies as 'Docker MCP server'
     - README highlights 'MCP-compatible' and 'Claude Desktop-compatible' badges
     - Included in 'awesome-mcp-servers' under Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-22T05:53:30.455Z"
+    updated_at: '2026-06-22T05:53:30.455Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:44.079Z"
+    updated_at: '2026-09-03T05:16:44.079Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-25T05:27:46.643Z"
+    updated_at: '2026-06-25T05:27:46.643Z'
     cause: null
     next_retry_at: null
     attempts: 1

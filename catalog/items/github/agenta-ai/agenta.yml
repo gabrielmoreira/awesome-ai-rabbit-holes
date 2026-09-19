@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agenta-ai__agenta__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -20,10 +20,10 @@ provenance:
           - Observability & Tracing
         anchor_text: Agenta
         extracted_url: https://github.com/agenta-ai/agenta
-        surrounding_text: "| [Agenta](https://github.com/agenta-ai/agenta) | LLMOps platform for prototyping |"
+        surrounding_text: '| [Agenta](https://github.com/agenta-ai/agenta) | LLMOps platform for prototyping |'
         confidence: high
     - id: discovery__github__agenta-ai__agenta__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -35,7 +35,11 @@ provenance:
           - LLMOps
         anchor_text: agenta
         extracted_url: https://github.com/agenta-ai/agenta
-        surrounding_text: "| [agenta](https://github.com/Agenta-AI/agenta)                      | The LLMOps platform to build robust LLM apps. Easily experiment and evaluate different prompts, models, and workflows to build robust apps.                                                                                                                                                                                                                                                             | ![GitHub Badge](https://img.shields.io/github/stars/Agenta-AI/agenta.svg?style=flat-square)               |"
+        surrounding_text: >-
+          | [agenta](https://github.com/Agenta-AI/agenta)                      | The LLMOps platform to build robust LLM
+          apps. Easily experiment and evaluate different prompts, models, and workflows to build robust
+          apps.                                                                                                                                                                                                                                                            
+          | ![GitHub Badge](https://img.shields.io/github/stars/Agenta-AI/agenta.svg?style=flat-square)               |
         confidence: high
 metadata:
   github:
@@ -45,8 +49,8 @@ metadata:
     archived: false
     full_name: Agenta-AI/agenta
     html_url: https://github.com/Agenta-AI/agenta
-    created_at: "2023-04-26T09:54:28Z"
-    pushed_at: "2026-09-16T23:40:41Z"
+    created_at: '2023-04-26T09:54:28Z'
+    pushed_at: '2026-09-16T23:40:41Z'
     description: Agenta is a workspace where you and your team build agents and automations.
     homepage: http://www.agenta.ai
     topics:
@@ -66,14 +70,20 @@ metadata:
       - open-source
       - self-hosted
       - workflow-automation
-    last_checked_at: "2026-09-17T04:13:31.741Z"
+    last_checked_at: '2026-09-17T04:13:31.741Z'
     readme:
-      fetched_at: "2026-09-17T04:13:31.741Z"
+      fetched_at: '2026-09-17T04:13:31.741Z'
       bytes: 44751
 insights:
-  summary: An open-source workspace for building, testing, and deploying AI agents with built-in observability and background task scheduling.
-  why_it_matters: It provides a centralized control plane to manage agent lifecycle, from chat-based prototyping and team collaboration to scheduled background execution.
-  mental_damage: Because nothing says 'productivity' like spending your afternoon debugging the orchestration logic of an agent that was supposed to automate your afternoon.
+  summary: >-
+    An open-source workspace for building, testing, and deploying AI agents with built-in observability and background
+    task scheduling.
+  why_it_matters: >-
+    It provides a centralized control plane to manage agent lifecycle, from chat-based prototyping and team
+    collaboration to scheduled background execution.
+  mental_damage: >-
+    Because nothing says 'productivity' like spending your afternoon debugging the orchestration logic of an agent that
+    was supposed to automate your afternoon.
   tags:
     - agent-orchestration
     - llm-ops
@@ -82,31 +92,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Agenta is primarily an evaluation, observability, and prompt management platform for LLM apps, which fits the Evals & Benchmarks category better than Agent Orchestration or Frameworks.
+  reason: >-
+    Agenta is primarily an evaluation, observability, and prompt management platform for LLM apps, which fits the Evals
+    & Benchmarks category better than Agent Orchestration or Frameworks.
   evidence:
-    - Repo description explicitly lists 'LLM evaluation' and 'LLM observability' as core features alongside prompt management.
-    - README states it helps teams 'build reliable LLM applications faster with integrated prompt management, evaluation, and observability.'
-    - GitHub topics include llm-evaluation, llm-observability, prompt-management, and llmoreps, reinforcing the eval/ops identity.
+    - >-
+      Repo description explicitly lists 'LLM evaluation' and 'LLM observability' as core features alongside prompt
+      management.
+    - >-
+      README states it helps teams 'build reliable LLM applications faster with integrated prompt management,
+      evaluation, and observability.'
+    - >-
+      GitHub topics include llm-evaluation, llm-observability, prompt-management, and llmoreps, reinforcing the eval/ops
+      identity.
 placement:
-  primary_category: evals
-  section: null
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'evals', proposed 'agent-orchestration'"
+  reason: 'Categorization review required: placement disagreement: retained ''evals'', proposed ''agent-orchestration'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.581Z"
+    updated_at: '2026-05-06T22:12:15.581Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:31.741Z"
+    updated_at: '2026-09-17T04:13:31.741Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:00:53.619Z"
+    updated_at: '2026-07-20T16:00:53.619Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -119,7 +138,9 @@ processing:
       input_hash: sha256:7aa9f71e7175f4ea86208fa3925ecf4dfbc84ee55ef192b259dfc85c8cee604f
       proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: The product acts as an operated workbench and control plane for managing the lifecycle and execution of multiple agents.
+      decision_reason: >-
+        The product acts as an operated workbench and control plane for managing the lifecycle and execution of multiple
+        agents.
       decision_evidence:
         - README describes it as a 'workspace for building and running agents'
         - Features include background agents on schedules, team access, and tracing
@@ -127,6 +148,8 @@ processing:
       category_candidates:
         - agent-orchestration
         - evals
-      contrastive_reason: Choose agent-orchestration over evals because the primary identity is a workspace for building and running agents, while observability is a secondary feature for making them reliable.
-      review_reason: "Categorization review required: placement disagreement: retained 'evals', proposed 'agent-orchestration'"
+      contrastive_reason: >-
+        Choose agent-orchestration over evals because the primary identity is a workspace for building and running
+        agents, while observability is a secondary feature for making them reliable.
+      review_reason: 'Categorization review required: placement disagreement: retained ''evals'', proposed ''agent-orchestration'''
       review_resume_lifecycle: null

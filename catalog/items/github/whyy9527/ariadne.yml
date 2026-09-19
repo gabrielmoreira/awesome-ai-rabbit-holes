@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__whyy9527__ariadne__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: whyy9527/ariadne
         extracted_url: https://github.com/whyy9527/ariadne
-        surrounding_text: "- [whyy9527/ariadne](https://github.com/whyy9527/ariadne) [![ariadne MCP server](https://glama.ai/mcp/servers/whyy9527/ariadne/badges/score.svg)](https://glama.ai/mcp/servers/whyy9527/ariadne) 🐍 🏠 - Cross-service API dependency graph for microservice codebases. Give it a business term or endpoint name; get back a ranked chain of GraphQL operations, REST endpoints, Kafka topics, and frontend queries across all services. Offline, local SQLite + TF-IDF + optional embeddings."
+        surrounding_text: >-
+          - [whyy9527/ariadne](https://github.com/whyy9527/ariadne) [![ariadne MCP
+          server](https://glama.ai/mcp/servers/whyy9527/ariadne/badges/score.svg)](https://glama.ai/mcp/servers/whyy9527/ariadne)
+          🐍 🏠 - Cross-service API dependency graph for microservice codebases. Give it a business term or endpoint
+          name; get back a ranked chain of GraphQL operations, REST endpoints, Kafka topics, and frontend queries across
+          all services. Offline, local SQLite + TF-IDF + optional embeddings.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: whyy9527/ariadne
     html_url: https://github.com/whyy9527/ariadne
-    created_at: "2026-04-14T07:32:09Z"
-    pushed_at: "2026-07-13T03:08:33Z"
-    description: Fast local MCP server for deterministic cross-service API-chain discovery across REST, GraphQL, Kafka, TypeScript, and FastAPI.
+    created_at: '2026-04-14T07:32:09Z'
+    pushed_at: '2026-07-13T03:08:33Z'
+    description: >-
+      Fast local MCP server for deterministic cross-service API-chain discovery across REST, GraphQL, Kafka, TypeScript,
+      and FastAPI.
     homepage: https://pypi.org/project/ariadne-mcp/
     topics:
       - apollo-graphql
@@ -49,14 +56,20 @@ metadata:
       - spring-boot
       - static-analysis
       - typescript
-    last_checked_at: "2026-07-21T15:21:13.383Z"
+    last_checked_at: '2026-07-21T15:21:13.383Z'
     readme:
-      fetched_at: "2026-07-21T15:21:13.383Z"
+      fetched_at: '2026-07-21T15:21:13.383Z'
       bytes: 5846
 insights:
-  summary: Ariadne is a CLI and MCP server that builds a cross-service API dependency graph for Spring Boot and TypeScript microservices via static analysis of GraphQL, REST, Kafka, and frontend queries.
-  why_it_matters: It reduces context window overload by surfacing only the contract layer of API calls across services, making AI-assisted debugging and navigation of distributed systems more precise.
-  mental_damage: Finally, a tool that understands your microservice sprawl is less a system and more a labyrinth where even the AI needs a thread to find the exit.
+  summary: >-
+    Ariadne is a CLI and MCP server that builds a cross-service API dependency graph for Spring Boot and TypeScript
+    microservices via static analysis of GraphQL, REST, Kafka, and frontend queries.
+  why_it_matters: >-
+    It reduces context window overload by surfacing only the contract layer of API calls across services, making
+    AI-assisted debugging and navigation of distributed systems more precise.
+  mental_damage: >-
+    Finally, a tool that understands your microservice sprawl is less a system and more a labyrinth where even the AI
+    needs a thread to find the exit.
   tags:
     - dependency-graph
     - static-analysis
@@ -66,31 +79,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Ariadne is an MCP stdio server whose core identity is providing API dependency graph data to AI coding assistants via the Model Context Protocol, making MCP the primary product identity rather than a mere compatibility feature.
+  reason: >-
+    Ariadne is an MCP stdio server whose core identity is providing API dependency graph data to AI coding assistants
+    via the Model Context Protocol, making MCP the primary product identity rather than a mere compatibility feature.
   evidence:
-    - "Repo description states: 'Cross-service API dependency graph for Spring Boot + TypeScript microservice stacks. CLI + MCP server for Claude Code, Cursor, Windsurf.'"
-    - "README emphasizes: 'MCP stdio server for AI coding assistants (Claude Code, Cursor, Windsurf), with a CLI twin.'"
-    - "Source-list context: listed in awesome-mcp-servers under Developer Tools > Server Implementations."
+    - >-
+      Repo description states: 'Cross-service API dependency graph for Spring Boot + TypeScript microservice stacks. CLI
+      + MCP server for Claude Code, Cursor, Windsurf.'
+    - 'README emphasizes: ''MCP stdio server for AI coding assistants (Claude Code, Cursor, Windsurf), with a CLI twin.'''
+    - 'Source-list context: listed in awesome-mcp-servers under Developer Tools > Server Implementations.'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.655Z"
+    updated_at: '2026-05-06T22:12:15.655Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:13.383Z"
+    updated_at: '2026-07-21T15:21:13.383Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:34:54.530Z"
+    updated_at: '2026-05-12T15:34:54.530Z'
     cause: null
     next_retry_at: null
     attempts: 1

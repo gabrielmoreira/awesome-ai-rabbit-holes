@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__davidlandais__ovh-api-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: davidlandais/ovh-api-mcp
         extracted_url: https://github.com/davidlandais/ovh-api-mcp
-        surrounding_text: "- [davidlandais/ovh-api-mcp](https://github.com/davidlandais/ovh-api-mcp) [![ovh-api-mcp MCP server](https://glama.ai/mcp/servers/davidlandais/ovh-api-mcp/badges/score.svg)](https://glama.ai/mcp/servers/davidlandais/ovh-api-mcp) 🦀 ☁️ - Code Mode MCP server for the entire OVH API. Two tools (search + execute) give LLMs access to all OVH endpoints via sandboxed JavaScript, using ~1,000 tokens instead of thousands of tool definitions."
+        surrounding_text: >-
+          - [davidlandais/ovh-api-mcp](https://github.com/davidlandais/ovh-api-mcp) [![ovh-api-mcp MCP
+          server](https://glama.ai/mcp/servers/davidlandais/ovh-api-mcp/badges/score.svg)](https://glama.ai/mcp/servers/davidlandais/ovh-api-mcp)
+          🦀 ☁️ - Code Mode MCP server for the entire OVH API. Two tools (search + execute) give LLMs access to all OVH
+          endpoints via sandboxed JavaScript, using ~1,000 tokens instead of thousands of tool definitions.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: davidlandais/ovh-api-mcp
     html_url: https://github.com/davidlandais/ovh-api-mcp
-    created_at: "2026-03-11T21:16:53Z"
-    pushed_at: "2026-06-15T03:06:57Z"
-    description: MCP server for the OVH API — explore and execute any OVH endpoint from Claude, Cursor, or any MCP-compatible LLM client. Built in Rust.
+    created_at: '2026-03-11T21:16:53Z'
+    pushed_at: '2026-06-15T03:06:57Z'
+    description: >-
+      MCP server for the OVH API — explore and execute any OVH endpoint from Claude, Cursor, or any MCP-compatible LLM
+      client. Built in Rust.
     homepage: https://modelcontextprotocol.io
     topics:
       - ai
@@ -55,9 +61,9 @@ metadata:
       - quickjs
       - rust
       - sandbox
-    last_checked_at: "2026-09-14T04:13:35.640Z"
+    last_checked_at: '2026-09-14T04:13:35.640Z'
     readme:
-      fetched_at: "2026-09-14T04:13:35.640Z"
+      fetched_at: '2026-09-14T04:13:35.640Z'
       bytes: 8292
 insights:
   summary: MCP server that provides access to the OVH API for LLM clients like Claude and Cursor.
@@ -79,24 +85,25 @@ curation:
     - Already listed in awesome-mcp-servers under Cloud Platforms
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.610Z"
+    updated_at: '2026-05-06T22:12:15.610Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:35.640Z"
+    updated_at: '2026-09-14T04:13:35.640Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:50:05.696Z"
+    updated_at: '2026-07-21T15:50:05.696Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -117,6 +124,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server rather than an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server rather than an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

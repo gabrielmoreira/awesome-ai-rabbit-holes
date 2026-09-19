@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__exa__ai__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,7 @@ provenance:
           - Official Servers
         anchor_text: Exa
         extracted_url: https://exa.ai
-        surrounding_text: "- **[Exa](https://github.com/exa-labs/exa-mcp-server)** - Search Engine made for AIs by [Exa](https://exa.ai)"
+        surrounding_text: '- **[Exa](https://github.com/exa-labs/exa-mcp-server)** - Search Engine made for AIs by [Exa](https://exa.ai)'
         confidence: high
 metadata:
   github:
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: A web search API designed to provide real-time, structured data and token-efficient context to AI agents.
-  why_it_matters: It enables agents to bypass training data cutoffs with high-accuracy retrieval and structured information that reduces context window bloat.
-  mental_damage: Your agent can now hallucinate about events that happened five minutes ago with unprecedented, high-fidelity precision.
+  why_it_matters: >-
+    It enables agents to bypass training data cutoffs with high-accuracy retrieval and structured information that
+    reduces context window bloat.
+  mental_damage: >-
+    Your agent can now hallucinate about events that happened five minutes ago with unprecedented, high-fidelity
+    precision.
   tags:
     - search-api
     - retrieval
@@ -48,21 +52,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Exa's primary identity is a specialized retrieval engine focused on providing high-quality, real-time context to AI agents.
+  reason: >-
+    Exa's primary identity is a specialized retrieval engine focused on providing high-quality, real-time context to AI
+    agents.
   evidence:
     - Offers a Search API built specifically for agentic workflows
     - Uses 'highlights' to provide token-efficient context excerpts
     - Provides structured data extraction from web content
 placement:
-  primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Retrieval & Fresh Docs
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +78,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-31T13:31:10.009Z"
+    updated_at: '2026-08-31T13:31:10.009Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +91,9 @@ processing:
       input_hash: sha256:bca2985948cc72ea5c92e796fcca0d960463427c840d6f51936c2822adf2a502
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: Exa's primary identity is a specialized retrieval engine focused on providing high-quality, real-time context to AI agents.
+      decision_reason: >-
+        Exa's primary identity is a specialized retrieval engine focused on providing high-quality, real-time context to
+        AI agents.
       decision_evidence:
         - Offers a Search API built specifically for agentic workflows
         - Uses 'highlights' to provide token-efficient context excerpts
@@ -92,6 +101,8 @@ processing:
       category_candidates:
         - context-engineering
         - ai-frameworks
-      contrastive_reason: Choose context-engineering over ai-frameworks because the product's core novelty is its specialized retrieval and context-shaping infrastructure rather than being a general-purpose programming library.
+      contrastive_reason: >-
+        Choose context-engineering over ai-frameworks because the product's core novelty is its specialized retrieval
+        and context-shaping infrastructure rather than being a general-purpose programming library.
       review_reason: null
       review_resume_lifecycle: null

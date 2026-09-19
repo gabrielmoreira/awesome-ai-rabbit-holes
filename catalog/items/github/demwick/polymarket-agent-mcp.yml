@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__demwick__polymarket-agent-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: demwick/polymarket-agent-mcp
         extracted_url: https://github.com/demwick/polymarket-agent-mcp
-        surrounding_text: "- [demwick/polymarket-agent-mcp](https://github.com/demwick/polymarket-agent-mcp) [![polymarket-agent-mcp MCP server](https://glama.ai/mcp/servers/demwick/polymarket-agent-mcp/badges/score.svg)](https://glama.ai/mcp/servers/demwick/polymarket-agent-mcp) 📇 🏠 - 49-tool Polymarket prediction market suite for AI agents. Direct trading, smart money flow detection, copy trading with auto-monitor, backtesting, arbitrage scanning, portfolio optimization, and real-time WebSocket price streaming. Preview mode for simulation, live mode for real orders."
+        surrounding_text: >-
+          - [demwick/polymarket-agent-mcp](https://github.com/demwick/polymarket-agent-mcp) [![polymarket-agent-mcp MCP
+          server](https://glama.ai/mcp/servers/demwick/polymarket-agent-mcp/badges/score.svg)](https://glama.ai/mcp/servers/demwick/polymarket-agent-mcp)
+          📇 🏠 - 49-tool Polymarket prediction market suite for AI agents. Direct trading, smart money flow detection,
+          copy trading with auto-monitor, backtesting, arbitrage scanning, portfolio optimization, and real-time
+          WebSocket price streaming. Preview mode for simulation, live mode for real orders.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,12 @@ metadata:
     archived: false
     full_name: demwick/polymarket-agent-mcp
     html_url: https://github.com/demwick/polymarket-agent-mcp
-    created_at: "2026-04-08T16:29:16Z"
-    pushed_at: "2026-09-10T01:35:54Z"
-    description: The most comprehensive MCP server for Polymarket — 48 tools spanning direct trading, market discovery, smart money tracking, copy trading, backtesting, risk management, and portfolio optimization. Works with Claude Code, Cursor, or any MCP-compatible client.
+    created_at: '2026-04-08T16:29:16Z'
+    pushed_at: '2026-09-10T01:35:54Z'
+    description: >-
+      The most comprehensive MCP server for Polymarket — 48 tools spanning direct trading, market discovery, smart money
+      tracking, copy trading, backtesting, risk management, and portfolio optimization. Works with Claude Code, Cursor,
+      or any MCP-compatible client.
     homepage: https://www.npmjs.com/package/polymarket-agent-mcp
     topics:
       - ai-agent
@@ -52,13 +60,17 @@ metadata:
       - trading
       - typescript
       - websocket
-    last_checked_at: "2026-09-14T04:13:38.925Z"
+    last_checked_at: '2026-09-14T04:13:38.925Z'
     readme:
-      fetched_at: "2026-09-14T04:13:38.925Z"
+      fetched_at: '2026-09-14T04:13:38.925Z'
       bytes: 12920
 insights:
-  summary: An MCP server providing 48 tools for interacting with Polymarket, including trading, market discovery, smart money tracking, copy trading, backtesting, risk management, and portfolio optimization.
-  why_it_matters: Developers can integrate Polymarket's prediction market capabilities directly into their AI workflows via MCP-compatible clients like Claude Code or Cursor.
+  summary: >-
+    An MCP server providing 48 tools for interacting with Polymarket, including trading, market discovery, smart money
+    tracking, copy trading, backtesting, risk management, and portfolio optimization.
+  why_it_matters: >-
+    Developers can integrate Polymarket's prediction market capabilities directly into their AI workflows via
+    MCP-compatible clients like Claude Code or Cursor.
   mental_damage: Now your AI can gamble on election outcomes while you pretend to work.
   tags:
     - mcp-server
@@ -69,31 +81,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server for Polymarket, fitting the MCP Servers & Tooling category where MCP is the primary adopted thing.
+  reason: >-
+    The product's core identity is an MCP server for Polymarket, fitting the MCP Servers & Tooling category where MCP is
+    the primary adopted thing.
   evidence:
     - Repo description explicitly states it is an MCP server for Polymarket with 48 tools
     - README confirms it works with Claude Code, Cursor, or any MCP-compatible client
     - Source-list context places it in awesome-mcp-servers under Finance & Fintech
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.610Z"
+    updated_at: '2026-05-06T22:12:15.610Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:38.925Z"
+    updated_at: '2026-09-14T04:13:38.925Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:03.414Z"
+    updated_at: '2026-07-21T15:51:03.414Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -106,7 +121,9 @@ processing:
       input_hash: sha256:b7cc0700fc6b87b2b878d45e1788aba58f7c6eee72b004c44ebc4e6bf4c3efb3
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP server for Polymarket, fitting the MCP Servers & Tooling category where MCP is the primary adopted thing.
+      decision_reason: >-
+        The product's core identity is an MCP server for Polymarket, fitting the MCP Servers & Tooling category where
+        MCP is the primary adopted thing.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Polymarket with 48 tools
         - README confirms it works with Claude Code, Cursor, or any MCP-compatible client
@@ -114,6 +131,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pranciskus__newsmcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -17,9 +17,13 @@ provenance:
         mode: parsed
         section_path:
           - 🔎 Search
-        anchor_text: "@newsmcp/server"
+        anchor_text: '@newsmcp/server'
         extracted_url: https://github.com/pranciskus/newsmcp
-        surrounding_text: "-   **[@newsmcp/server](https://github.com/pranciskus/newsmcp)** [![GitHub stars](https://img.shields.io/github/stars/pranciskus/newsmcp?style=social)](https://github.com/pranciskus/newsmcp): Real-time world news for AI agents — events clustered from hundreds of sources, classified by 12 topics and 30+ geographic regions, ranked by importance. Free, no API key required."
+        surrounding_text: >-
+          -   **[@newsmcp/server](https://github.com/pranciskus/newsmcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/pranciskus/newsmcp?style=social)](https://github.com/pranciskus/newsmcp):
+          Real-time world news for AI agents — events clustered from hundreds of sources, classified by 12 topics and
+          30+ geographic regions, ranked by importance. Free, no API key required.
         confidence: high
 metadata:
   github:
@@ -29,8 +33,8 @@ metadata:
     archived: false
     full_name: pranciskus/newsmcp
     html_url: https://github.com/pranciskus/newsmcp
-    created_at: "2026-03-03T13:24:10Z"
-    pushed_at: "2026-03-06T15:24:03Z"
+    created_at: '2026-03-03T13:24:10Z'
+    pushed_at: '2026-03-06T15:24:03Z'
     description: MCP server for real-time world news — free, no API key required
     homepage: null
     topics:
@@ -47,14 +51,20 @@ metadata:
       - openclaw
       - real-time-news
       - world-news
-    last_checked_at: "2026-07-20T16:42:36.768Z"
+    last_checked_at: '2026-07-20T16:42:36.768Z'
     readme:
-      fetched_at: "2026-07-20T16:42:36.768Z"
+      fetched_at: '2026-07-20T16:42:36.768Z'
       bytes: 10265
 insights:
-  summary: An MCP server that exposes real-time AI-clustered world news events as tools for AI coding assistants and agents, with no API key required.
-  why_it_matters: It lets coding agents and workflows pull fresh, categorized news directly into their context without leaving the IDE or wiring external APIs.
-  mental_damage: We have successfully reached the point where even our news consumption is being outsourced to an LLM, so your agent can panic about global events on your behalf while you debug a CSS margin.
+  summary: >-
+    An MCP server that exposes real-time AI-clustered world news events as tools for AI coding assistants and agents,
+    with no API key required.
+  why_it_matters: >-
+    It lets coding agents and workflows pull fresh, categorized news directly into their context without leaving the IDE
+    or wiring external APIs.
+  mental_damage: >-
+    We have successfully reached the point where even our news consumption is being outsourced to an LLM, so your agent
+    can panic about global events on your behalf while you debug a CSS margin.
   tags:
     - mcp
     - news
@@ -63,35 +73,39 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server providing news as a tool for AI agents, which fits cleanly as a domain-specific MCP server.
+  reason: >-
+    The product identity is an MCP server providing news as a tool for AI agents, which fits cleanly as a
+    domain-specific MCP server.
   evidence:
     - Repo description explicitly states 'MCP server for real-time world news'.
     - README documents MCP integration instructions for Claude, Cursor, Windsurf, Codex, Gemini CLI, and others.
-    - The core interface is four MCP tools (get_news, get_news_detail, get_topics, get_regions) delivered via @newsmcp/server.
+    - >-
+      The core interface is four MCP tools (get_news, get_news_detail, get_topics, get_regions) delivered via
+      @newsmcp/server.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.643Z"
+    updated_at: '2026-05-06T22:12:15.643Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:36.768Z"
+    updated_at: '2026-07-20T16:42:36.768Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__whylabs__langkit__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,10 +19,15 @@ provenance:
           - LLMOps
         anchor_text: LangKit
         extracted_url: https://github.com/whylabs/langkit
-        surrounding_text: "| [LangKit](https://github.com/whylabs/langkit)                      | Out-of-the-box LLM telemetry collection library that extracts features and profiles prompts, responses and metadata about how your LLM is performing over time to find problems at scale.                                                                                                                                                                                                               | ![GitHub Badge](https://img.shields.io/github/stars/whylabs/langkit.svg?style=flat-square)                |"
+        surrounding_text: >-
+          | [LangKit](https://github.com/whylabs/langkit)                      | Out-of-the-box LLM telemetry collection
+          library that extracts features and profiles prompts, responses and metadata about how your LLM is performing
+          over time to find problems at
+          scale.                                                                                                                                                                                                              
+          | ![GitHub Badge](https://img.shields.io/github/stars/whylabs/langkit.svg?style=flat-square)                |
         confidence: high
     - id: discovery__github__whylabs__langkit__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,7 +39,9 @@ provenance:
           - 数据 Data
         anchor_text: LangKit
         extracted_url: https://github.com/whylabs/langkit
-        surrounding_text: "30. [LangKit](https://github.com/whylabs/langkit): An open-source toolkit for monitoring Large Language Models (LLMs). Extracts signals from prompts & responses, ensuring safety & security."
+        surrounding_text: >-
+          30. [LangKit](https://github.com/whylabs/langkit): An open-source toolkit for monitoring Large Language Models
+          (LLMs). Extracts signals from prompts & responses, ensuring safety & security.
         confidence: high
 metadata:
   github:
@@ -44,9 +51,12 @@ metadata:
     archived: false
     full_name: whylabs/langkit
     html_url: https://github.com/whylabs/langkit
-    created_at: "2023-04-26T21:46:58Z"
-    pushed_at: "2024-11-22T20:02:14Z"
-    description: "🔍 LangKit: An open-source toolkit for monitoring Large Language Models (LLMs). 📚 Extracts signals from prompts & responses, ensuring safety & security. 🛡️ Features include text quality, relevance metrics, & sentiment analysis. 📊 A comprehensive tool for LLM observability. 👀"
+    created_at: '2023-04-26T21:46:58Z'
+    pushed_at: '2024-11-22T20:02:14Z'
+    description: >-
+      🔍 LangKit: An open-source toolkit for monitoring Large Language Models (LLMs). 📚 Extracts signals from prompts &
+      responses, ensuring safety & security. 🛡️ Features include text quality, relevance metrics, & sentiment analysis.
+      📊 A comprehensive tool for LLM observability. 👀
     homepage: https://whylabs.ai
     topics:
       - large-language-models
@@ -56,14 +66,20 @@ metadata:
       - observability
       - prompt-engineering
       - prompt-injection
-    last_checked_at: "2026-07-21T15:21:13.082Z"
+    last_checked_at: '2026-07-21T15:21:13.082Z'
     readme:
-      fetched_at: "2026-07-21T15:21:13.082Z"
+      fetched_at: '2026-07-21T15:21:13.082Z'
       bytes: 3946
 insights:
-  summary: LangKit is an open-source toolkit for monitoring LLMs by extracting signals from prompts and responses to assess quality, security, and sentiment.
-  why_it_matters: It gives developers observability into LLM behavior in production, helping detect issues like prompt injection or hallucinations before they cause harm.
-  mental_damage: Finally, a way to quantify the existential dread of deploying non-deterministic text generators into critical systems.
+  summary: >-
+    LangKit is an open-source toolkit for monitoring LLMs by extracting signals from prompts and responses to assess
+    quality, security, and sentiment.
+  why_it_matters: >-
+    It gives developers observability into LLM behavior in production, helping detect issues like prompt injection or
+    hallucinations before they cause harm.
+  mental_damage: >-
+    Finally, a way to quantify the existential dread of deploying non-deterministic text generators into critical
+    systems.
   tags:
     - llm-observability
     - ai-safety
@@ -71,31 +87,41 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: LangKit is an LLM observability toolkit focused on measuring and monitoring model outputs for safety and quality, aligning with the evals category's core purpose of assessing AI behavior rather than acting as a coding assistant or app builder.
+  reason: >-
+    LangKit is an LLM observability toolkit focused on measuring and monitoring model outputs for safety and quality,
+    aligning with the evals category's core purpose of assessing AI behavior rather than acting as a coding assistant or
+    app builder.
   evidence:
-    - "Repo description: 'LangKit: An open-source toolkit for monitoring Large Language Models (LLMs). Extracts signals from prompts & responses, ensuring safety & security.'"
-    - "README: 'Productionizing language models... comes with a range of risks... The unstructured nature of text poses a challenge in the ML observability space'."
-    - Features include text quality, relevance, security/privacy (jailbreaks, prompt injection, hallucinations), and sentiment/toxicity analysis — all evaluation metrics.
+    - >-
+      Repo description: 'LangKit: An open-source toolkit for monitoring Large Language Models (LLMs). Extracts signals
+      from prompts & responses, ensuring safety & security.'
+    - >-
+      README: 'Productionizing language models... comes with a range of risks... The unstructured nature of text poses a
+      challenge in the ML observability space'.
+    - >-
+      Features include text quality, relevance, security/privacy (jailbreaks, prompt injection, hallucinations), and
+      sentiment/toxicity analysis — all evaluation metrics.
 placement:
   primary_category: evals
-  section: Observability / Tracing / EvalOps
+  secondary_categories: []
+  section: Observability & Tracing
 lifecycle:
   status: promotion_candidate
   reason: Stars (985) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.595Z"
+    updated_at: '2026-05-06T22:12:15.595Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:13.082Z"
+    updated_at: '2026-07-21T15:21:13.082Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:34:41.835Z"
+    updated_at: '2026-05-12T15:34:41.835Z'
     cause: null
     next_retry_at: null
     attempts: 1

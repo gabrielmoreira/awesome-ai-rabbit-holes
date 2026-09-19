@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__nodecodestudio__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Community Servers
         anchor_text: NodeCodeStudio
         extracted_url: https://nodecodestudio.com
-        surrounding_text: "- **[NodeCodeStudio](https://nodecodestudio.com)** - Activate MCP services (Gmail, Calendar, WordPress, etc.) and run browser automation workflows via a Chrome extension with importable sequences"
+        surrounding_text: >-
+          - **[NodeCodeStudio](https://nodecodestudio.com)** - Activate MCP services (Gmail, Calendar, WordPress, etc.)
+          and run browser automation workflows via a Chrome extension with importable sequences
         confidence: high
 metadata:
   github:
@@ -37,7 +39,9 @@ metadata:
     readme: null
 insights:
   summary: A Chrome browser automation platform offering reusable workflows, shared templates, and real browser execution.
-  why_it_matters: Developers can automate browser-based tasks with reusable components, reducing repetitive manual testing or interaction workflows.
+  why_it_matters: >-
+    Developers can automate browser-based tasks with reusable components, reducing repetitive manual testing or
+    interaction workflows.
   mental_damage: Now you can automate your browser to automate your browser automation.
   tags:
     - browser-automation
@@ -47,20 +51,25 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly listed as an MCP server in the awesome-mcp-servers directory, and its core identity is browser automation via MCP.
+  reason: >-
+    The product is explicitly listed as an MCP server in the awesome-mcp-servers directory, and its core identity is
+    browser automation via MCP.
   evidence:
     - Listed in awesome-mcp-servers under 'Community Servers'
-    - Site describes it as 'Chrome browser automation with reusable workflows, shared templates, and real browser execution'
+    - >-
+      Site describes it as 'Chrome browser automation with reusable workflows, shared templates, and real browser
+      execution'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +78,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:11.451Z"
+    updated_at: '2026-07-21T15:30:11.451Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -82,13 +91,19 @@ processing:
       input_hash: sha256:5a045701d39a1d83c5d5f1f5694544c64232567bdc759357d8cc0e28705386bd
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly listed as an MCP server in the awesome-mcp-servers directory, and its core identity is browser automation via MCP.
+      decision_reason: >-
+        The product is explicitly listed as an MCP server in the awesome-mcp-servers directory, and its core identity is
+        browser automation via MCP.
       decision_evidence:
         - Listed in awesome-mcp-servers under 'Community Servers'
-        - Site describes it as 'Chrome browser automation with reusable workflows, shared templates, and real browser execution'
+        - >-
+          Site describes it as 'Chrome browser automation with reusable workflows, shared templates, and real browser
+          execution'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server for browser automation, not an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server for browser
+        automation, not an extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

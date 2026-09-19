@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cuthongthai-vn__vimo-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: cuthongthai-vn/vimo-mcp-server
         extracted_url: https://github.com/cuthongthai-vn/vimo-mcp-server
-        surrounding_text: "- [cuthongthai-vn/vimo-mcp-server](https://github.com/cuthongthai-vn/vimo-mcp-server) [![cuthongthai-vn/vimo-mcp-server MCP server](https://glama.ai/mcp/servers/cuthongthai-vn/vimo-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/cuthongthai-vn/vimo-mcp-server) 📇 ☁️ - Vietnam stock market intelligence — 35 tools: real-time SSI quotes, technical analysis, financial statements, stock screener (13 strategies), AI picks, foreign flow, macro indicators, and 13 investment playbook categories"
+        surrounding_text: >-
+          - [cuthongthai-vn/vimo-mcp-server](https://github.com/cuthongthai-vn/vimo-mcp-server)
+          [![cuthongthai-vn/vimo-mcp-server MCP
+          server](https://glama.ai/mcp/servers/cuthongthai-vn/vimo-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/cuthongthai-vn/vimo-mcp-server)
+          📇 ☁️ - Vietnam stock market intelligence — 35 tools: real-time SSI quotes, technical analysis, financial
+          statements, stock screener (13 strategies), AI picks, foreign flow, macro indicators, and 13 investment
+          playbook categories
         confidence: high
 metadata:
   github:
@@ -30,18 +36,20 @@ metadata:
     archived: false
     full_name: cuthongthai-vn/vimo-mcp-server
     html_url: https://github.com/cuthongthai-vn/vimo-mcp-server
-    created_at: "2026-04-21T01:27:31Z"
-    pushed_at: "2026-04-25T03:39:34Z"
+    created_at: '2026-04-21T01:27:31Z'
+    pushed_at: '2026-04-25T03:39:34Z'
     description: VIMO — Vietnam Financial Intelligence
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:32.160Z"
+    last_checked_at: '2026-09-14T04:13:32.160Z'
     readme:
-      fetched_at: "2026-09-14T04:13:32.160Z"
+      fetched_at: '2026-09-14T04:13:32.160Z'
       bytes: 6511
 insights:
   summary: An MCP server providing Vietnam-focused financial data and AI analysis tools for integration with coding assistants.
-  why_it_matters: Developers building finance-related AI workflows can access real-time Vietnamese stock data, technical analysis, and AI-driven insights directly through their coding assistant via MCP.
+  why_it_matters: >-
+    Developers building finance-related AI workflows can access real-time Vietnamese stock data, technical analysis, and
+    AI-driven insights directly through their coding assistant via MCP.
   mental_damage: Now your AI coding assistant can also tell you whether to YOLO into VCB stock while you debug.
   tags:
     - mcp-server
@@ -52,31 +60,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is as an MCP server providing domain-specific financial tools, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product's core identity is as an MCP server providing domain-specific financial tools, fitting the MCP Servers &
+    Tooling category.
   evidence:
     - Repo description identifies it as 'VIMO — Vietnam Financial Intelligence' with MCP in the README title
     - README explicitly shows MCP server integration instructions for Claude Desktop, Cursor, Windsurf, and Cline
     - Source-list context places it in 'awesome-mcp-servers' under Finance & Fintech
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.609Z"
+    updated_at: '2026-05-06T22:12:15.609Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:32.160Z"
+    updated_at: '2026-09-14T04:13:32.160Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:49:20.260Z"
+    updated_at: '2026-07-21T15:49:20.260Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +100,9 @@ processing:
       input_hash: sha256:e37241e56e367b55dd6f963388d545851dfebc2acf53f549dd022f937fe6f73a
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is as an MCP server providing domain-specific financial tools, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product's core identity is as an MCP server providing domain-specific financial tools, fitting the MCP
+        Servers & Tooling category.
       decision_evidence:
         - Repo description identifies it as 'VIMO — Vietnam Financial Intelligence' with MCP in the README title
         - README explicitly shows MCP server integration instructions for Claude Desktop, Cursor, Windsurf, and Cline
@@ -97,6 +110,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server (not an extension augmenting another assistant).
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server (not an extension
+        augmenting another assistant).
       review_reason: null
       review_resume_lifecycle: null

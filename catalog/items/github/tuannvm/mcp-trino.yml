@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tuannvm__mcp-trino__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: tuannvm/mcp-trino
         extracted_url: https://github.com/tuannvm/mcp-trino
-        surrounding_text: "- [tuannvm/mcp-trino](https://github.com/tuannvm/mcp-trino) 🏎️ ☁️ - A Go implementation of a Model Context Protocol (MCP) server for Trino"
+        surrounding_text: >-
+          - [tuannvm/mcp-trino](https://github.com/tuannvm/mcp-trino) 🏎️ ☁️ - A Go implementation of a Model Context
+          Protocol (MCP) server for Trino
         confidence: high
     - id: discovery__github__tuannvm__mcp-trino__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +37,10 @@ provenance:
           - Community Servers
         anchor_text: Trino MCP Server
         extracted_url: https://github.com/tuannvm/mcp-trino
-        surrounding_text: "- **[Trino MCP Server](https://github.com/tuannvm/mcp-trino)** - A Go implementation of a Model Context Protocol (MCP) server for Trino, enabling LLM models to query distributed SQL databases through standardized tools."
+        surrounding_text: >-
+          - **[Trino MCP Server](https://github.com/tuannvm/mcp-trino)** - A Go implementation of a Model Context
+          Protocol (MCP) server for Trino, enabling LLM models to query distributed SQL databases through standardized
+          tools.
         confidence: high
 metadata:
   github:
@@ -45,22 +50,26 @@ metadata:
     archived: false
     full_name: tuannvm/mcp-trino
     html_url: https://github.com/tuannvm/mcp-trino
-    created_at: "2025-04-09T14:10:52Z"
-    pushed_at: "2026-07-01T05:08:19Z"
+    created_at: '2025-04-09T14:10:52Z'
+    pushed_at: '2026-07-01T05:08:19Z'
     description: A high-performance Model Context Protocol (MCP) server for Trino implemented in Go.
     homepage: https://docs.tuannvm.com/mcp-trino
     topics:
       - mcp
       - mcp-server
       - trino
-    last_checked_at: "2026-07-21T15:20:56.869Z"
+    last_checked_at: '2026-07-21T15:20:56.869Z'
     readme:
-      fetched_at: "2026-07-21T15:20:56.869Z"
+      fetched_at: '2026-07-21T15:20:56.869Z'
       bytes: 14838
 insights:
   summary: A high-performance Model Context Protocol (MCP) server for Trino implemented in Go.
-  why_it_matters: Enables AI assistants to query Trino's distributed SQL engine via standardized MCP tools, connecting AI workflows to large-scale analytics data sources.
-  mental_damage: Yet another MCP server that turns your AI assistant into a SQL client, just in case you weren't already juggling enough abstraction layers.
+  why_it_matters: >-
+    Enables AI assistants to query Trino's distributed SQL engine via standardized MCP tools, connecting AI workflows to
+    large-scale analytics data sources.
+  mental_damage: >-
+    Yet another MCP server that turns your AI assistant into a SQL client, just in case you weren't already juggling
+    enough abstraction layers.
   tags:
     - mcp
     - trino
@@ -70,31 +79,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: mcp-trino is an MCP server implementation for Trino, making MCP the core product identity rather than an extension or compatibility layer.
+  reason: >-
+    mcp-trino is an MCP server implementation for Trino, making MCP the core product identity rather than an extension
+    or compatibility layer.
   evidence:
-    - "Repo description: 'A high-performance Model Context Protocol (MCP) server for Trino implemented in Go'"
-    - "README: Implements MCP tools like execute_query, list_catalogs, list_schemas for AI assistants to interact with Trino"
+    - 'Repo description: ''A high-performance Model Context Protocol (MCP) server for Trino implemented in Go'''
+    - >-
+      README: Implements MCP tools like execute_query, list_catalogs, list_schemas for AI assistants to interact with
+      Trino
     - Listed in awesome-mcp-servers under Server Implementations > Databases and Community Servers sections
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.594Z"
+    updated_at: '2026-05-06T22:12:15.594Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:56.869Z"
+    updated_at: '2026-07-21T15:20:56.869Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:15:21.709Z"
+    updated_at: '2026-05-12T15:15:21.709Z'
     cause: null
     next_retry_at: null
     attempts: 1

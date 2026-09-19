@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dataelement__clawith__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - OpenClaw ecosystem
         anchor_text: Clawith
         extracted_url: https://github.com/dataelement/clawith
-        surrounding_text: "- **[Clawith](https://github.com/dataelement/Clawith)** `⭐ 3.5k` — \"OpenClaw for Teams\" — multi-agent collaboration platform that scales OpenClaw to organizations. Apache-2.0."
+        surrounding_text: >-
+          - **[Clawith](https://github.com/dataelement/Clawith)** `⭐ 3.5k` — "OpenClaw for Teams" — multi-agent
+          collaboration platform that scales OpenClaw to organizations. Apache-2.0.
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: dataelement/Clawith
     html_url: https://github.com/dataelement/Clawith
-    created_at: "2026-03-03T04:58:21Z"
-    pushed_at: "2026-08-27T02:55:53Z"
+    created_at: '2026-03-03T04:58:21Z'
+    pushed_at: '2026-08-27T02:55:53Z'
     description: Your First AI Agents Company
     homepage: https://www.clawith.ai
     topics:
@@ -39,13 +41,17 @@ metadata:
       - llm
       - multiagent
       - openclaw
-    last_checked_at: "2026-09-14T04:13:34.813Z"
+    last_checked_at: '2026-09-14T04:13:34.813Z'
     readme:
-      fetched_at: "2026-09-14T04:13:34.813Z"
+      fetched_at: '2026-09-14T04:13:34.813Z'
       bytes: 13298
 insights:
-  summary: Clawith is an open-source multi-agent collaboration platform where AI agents have persistent identities, long-term memory, and workspaces to operate as a coordinated team.
-  why_it_matters: It enables developers to deploy digital employees that can autonomously manage tasks, share knowledge, and integrate with organizational workflows like Slack or CI/CD.
+  summary: >-
+    Clawith is an open-source multi-agent collaboration platform where AI agents have persistent identities, long-term
+    memory, and workspaces to operate as a coordinated team.
+  why_it_matters: >-
+    It enables developers to deploy digital employees that can autonomously manage tasks, share knowledge, and integrate
+    with organizational workflows like Slack or CI/CD.
   mental_damage: Now your agents can hold meetings without you, and you’ll still be the one blamed when they break production.
   tags:
     - multi-agent
@@ -56,31 +62,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product is a multi-agent coordination platform with persistent identities, memory, and organizational workflows, fitting the agent-orchestration category.
+  reason: >-
+    The core product is a multi-agent coordination platform with persistent identities, memory, and organizational
+    workflows, fitting the agent-orchestration category.
   evidence:
     - README describes it as a multi-agent collaboration platform with persistent identity, memory, and workspaces
     - Features include multi-tenant RBAC, channel integrations, and approval workflows for organizational control
-    - Source-list context places it in the OpenClaw ecosystem under terminal-native coding agents, but primary identity is orchestration
+    - >-
+      Source-list context places it in the OpenClaw ecosystem under terminal-native coding agents, but primary identity
+      is orchestration
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (3551) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.610Z"
+    updated_at: '2026-05-06T22:12:15.610Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:34.813Z"
+    updated_at: '2026-09-14T04:13:34.813Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:49:51.420Z"
+    updated_at: '2026-07-21T15:49:51.420Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -93,14 +104,20 @@ processing:
       input_hash: sha256:54a770eff4d1414de717f33926ecd71948533ab3453667d81a1a3c44003c85a7
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The core product is a multi-agent coordination platform with persistent identities, memory, and organizational workflows, fitting the agent-orchestration category.
+      decision_reason: >-
+        The core product is a multi-agent coordination platform with persistent identities, memory, and organizational
+        workflows, fitting the agent-orchestration category.
       decision_evidence:
         - README describes it as a multi-agent collaboration platform with persistent identity, memory, and workspaces
         - Features include multi-tenant RBAC, channel integrations, and approval workflows for organizational control
-        - Source-list context places it in the OpenClaw ecosystem under terminal-native coding agents, but primary identity is orchestration
+        - >-
+          Source-list context places it in the OpenClaw ecosystem under terminal-native coding agents, but primary
+          identity is orchestration
       category_candidates:
         - agent-orchestration
         - ai-dev-extensions
-      contrastive_reason: Choose agent-orchestration over ai-dev-extensions because the primary value is coordinating multiple agents with persistent identities and organizational workflows, not augmenting a single assistant.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-dev-extensions because the primary value is coordinating multiple agents with
+        persistent identities and organizational workflows, not augmenting a single assistant.
       review_reason: null
       review_resume_lifecycle: null

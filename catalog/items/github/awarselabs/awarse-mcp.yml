@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__awarselabs__awarse-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-09-10T04:12:32.934Z"
+      discovered_at: '2026-09-10T04:12:32.934Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: awarselabs/awarse-mcp
         extracted_url: https://github.com/awarselabs/awarse-mcp
-        surrounding_text: "- [awarselabs/awarse-mcp](https://github.com/awarselabs/awarse-mcp) [![awarselabs/awarse-mcp MCP server](https://glama.ai/mcp/servers/awarselabs/awarse-mcp/badges/score.svg)](https://glama.ai/mcp/servers/awarselabs/awarse-mcp) 📇 🏠 - Self-healing browser automation MCP server integrating Playwright with LLM-assisted locator repair."
+        surrounding_text: >-
+          - [awarselabs/awarse-mcp](https://github.com/awarselabs/awarse-mcp) [![awarselabs/awarse-mcp MCP
+          server](https://glama.ai/mcp/servers/awarselabs/awarse-mcp/badges/score.svg)](https://glama.ai/mcp/servers/awarselabs/awarse-mcp)
+          📇 🏠 - Self-healing browser automation MCP server integrating Playwright with LLM-assisted locator repair.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: awarselabs/awarse-mcp
     html_url: https://github.com/awarselabs/awarse-mcp
-    created_at: "2026-06-14T13:31:33Z"
-    pushed_at: "2026-09-09T12:17:21Z"
-    description: Model Context Protocol (MCP) server for automated test heal, Playwright orchestration, and AI-assisted QA workflows.
+    created_at: '2026-06-14T13:31:33Z'
+    pushed_at: '2026-09-09T12:17:21Z'
+    description: >-
+      Model Context Protocol (MCP) server for automated test heal, Playwright orchestration, and AI-assisted QA
+      workflows.
     homepage: https://awarselabs.com
     topics:
       - ai-agents
@@ -43,14 +48,18 @@ metadata:
       - qa-automation
       - test-automation
       - typescript
-    last_checked_at: "2026-09-10T04:13:00.131Z"
+    last_checked_at: '2026-09-10T04:13:00.131Z'
     readme:
-      fetched_at: "2026-09-10T04:13:00.131Z"
+      fetched_at: '2026-09-10T04:13:00.131Z'
       bytes: 7836
 insights:
   summary: A suite of MCP servers providing Playwright test self-healing and GitHub license management capabilities.
-  why_it_matters: It enables LLMs to autonomously repair broken end-to-end test locators and manage SaaS seat sprawl via the Model Context Protocol.
-  mental_damage: Because we've reached the point where the only way to keep a CI pipeline green is to let an LLM hot-fix your test code in real-time.
+  why_it_matters: >-
+    It enables LLMs to autonomously repair broken end-to-end test locators and manage SaaS seat sprawl via the Model
+    Context Protocol.
+  mental_damage: >-
+    Because we've reached the point where the only way to keep a CI pipeline green is to let an LLM hot-fix your test
+    code in real-time.
   tags:
     - mcp
     - playwright
@@ -60,31 +69,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is a collection of specialized MCP servers designed to extend LLM capabilities into QA automation and engineering FinOps.
+  reason: >-
+    The project is a collection of specialized MCP servers designed to extend LLM capabilities into QA automation and
+    engineering FinOps.
   evidence:
     - Repo description explicitly identifies it as an MCP server for Playwright orchestration and AI-assisted QA.
-    - "README details two distinct MCP server implementations: Healwright for test healing and SeatPrune for license reclamation."
+    - >-
+      README details two distinct MCP server implementations: Healwright for test healing and SeatPrune for license
+      reclamation.
     - The product identity is built entirely around the Model Context Protocol (MCP) as a delivery mechanism.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-10T04:12:32.936Z"
+    updated_at: '2026-09-10T04:12:32.936Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:13:00.131Z"
+    updated_at: '2026-09-10T04:13:00.131Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-10T04:16:56.969Z"
+    updated_at: '2026-09-10T04:16:56.969Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -93,15 +107,21 @@ processing:
       input_hash: sha256:e4f63c67fb846ff2434c9076621338546f3229b3c28625fd4c7c93331f2f0077
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is a collection of specialized MCP servers designed to extend LLM capabilities into QA automation and engineering FinOps.
+      decision_reason: >-
+        The project is a collection of specialized MCP servers designed to extend LLM capabilities into QA automation
+        and engineering FinOps.
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server for Playwright orchestration and AI-assisted QA.
-        - "README details two distinct MCP server implementations: Healwright for test healing and SeatPrune for license reclamation."
+        - >-
+          README details two distinct MCP server implementations: Healwright for test healing and SeatPrune for license
+          reclamation.
         - The product identity is built entirely around the Model Context Protocol (MCP) as a delivery mechanism.
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the project's primary identity is the implementation of protocol-specific server logic rather than a general host integration plugin.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the project's primary identity is the implementation of
+        protocol-specific server logic rather than a general host integration plugin.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__atla__ai__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Official Servers
         anchor_text: Atla API
         extracted_url: https://docs.atla-ai.com
-        surrounding_text: "- **[Atla](https://github.com/atla-ai/atla-mcp-server)** - Enable AI agents to interact with the [Atla API](https://docs.atla-ai.com/) for state-of-the-art LLMJ evaluation."
+        surrounding_text: >-
+          - **[Atla](https://github.com/atla-ai/atla-mcp-server)** - Enable AI agents to interact with the [Atla
+          API](https://docs.atla-ai.com/) for state-of-the-art LLMJ evaluation.
         confidence: high
 metadata:
   github:
@@ -37,8 +39,12 @@ metadata:
     readme: null
 insights:
   summary: Atla is an observability platform designed to trace, monitor, and debug the behavior of AI agents.
-  why_it_matters: It provides the visibility needed to debug agentic failure modes and iterate on performance through automated error detection and tracing.
-  mental_damage: Because watching your agent hallucinate in real-time is much better when you have a beautiful dashboard to document the exact moment it lost the plot.
+  why_it_matters: >-
+    It provides the visibility needed to debug agentic failure modes and iterate on performance through automated error
+    detection and tracing.
+  mental_damage: >-
+    Because watching your agent hallucinate in real-time is much better when you have a beautiful dashboard to document
+    the exact moment it lost the plot.
   tags:
     - observability
     - tracing
@@ -47,22 +53,21 @@ insights:
     - instrumentation
   confidence: high
 curation:
-  status: included
-  reason: The product's core identity is tracing and measuring agent behavior to improve performance, which falls squarely under the Evals category.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Claims to 'clarify the messiness of agent behaviour'
-    - Features tracing, custom metrics, and instrumentation
-    - Focuses on identifying failure modes and improving performance through iteration
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: evals
-  section: Observability / Tracing / EvalOps
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.660Z"
+    updated_at: '2026-05-06T22:12:15.660Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +76,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:39:17.738Z"
+    updated_at: '2026-07-20T15:39:17.738Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +89,9 @@ processing:
       input_hash: sha256:f223524163f749a97eaee7ffb0fdf237df3f1f10a961fcab5a78a6e0d30a38d2
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: The product's core identity is tracing and measuring agent behavior to improve performance, which falls squarely under the Evals category.
+      decision_reason: >-
+        The product's core identity is tracing and measuring agent behavior to improve performance, which falls squarely
+        under the Evals category.
       decision_evidence:
         - Claims to 'clarify the messiness of agent behaviour'
         - Features tracing, custom metrics, and instrumentation
@@ -92,6 +99,8 @@ processing:
       category_candidates:
         - evals
         - agent-orchestration
-      contrastive_reason: Choose evals over agent-orchestration because the product is a monitoring and debugging layer for existing agents rather than a platform for coordinating them.
+      contrastive_reason: >-
+        Choose evals over agent-orchestration because the product is a monitoring and debugging layer for existing
+        agents rather than a platform for coordinating them.
       review_reason: null
       review_resume_lifecycle: null

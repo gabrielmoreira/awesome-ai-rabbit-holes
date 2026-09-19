@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__builder__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - App Builders
         anchor_text: Builder.io Fusion
         extracted_url: https://www.builder.io
-        surrounding_text: "- **[Builder.io Fusion](https://www.builder.io/)** – AI-powered visual development platform."
+        surrounding_text: '- **[Builder.io Fusion](https://www.builder.io/)** – AI-powered visual development platform.'
         confidence: high
 metadata:
   github:
@@ -36,8 +36,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Builder.io is a collaborative platform for teams to build software with AI agents, enabling engineers, designers, PMs, and marketers to work from a single codebase.
-  why_it_matters: It allows cross-functional teams to prototype, develop, and ship product experiences without handoffs, using shared context and design systems.
+  summary: >-
+    Builder.io is a collaborative platform for teams to build software with AI agents, enabling engineers, designers,
+    PMs, and marketers to work from a single codebase.
+  why_it_matters: >-
+    It allows cross-functional teams to prototype, develop, and ship product experiences without handoffs, using shared
+    context and design systems.
   mental_damage: Finally, a tool that lets PMs and designers commit code directly—what could possibly go wrong.
   tags:
     - ai-platform
@@ -48,21 +52,28 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product turns prompts and collaborative workflows into production-ready apps, sites, and internal tools, fitting the prompt-to-app builder identity.
+  reason: >-
+    The core product turns prompts and collaborative workflows into production-ready apps, sites, and internal tools,
+    fitting the prompt-to-app builder identity.
   evidence:
-    - Primary page excerpt describes 'Build software with your team and agents' and 'Create real product experiences that stay on brand, in code, and ready to ship'
-    - Platform explicitly supports 'Fusion' for app/UI building and 'Publish' for content/experience management, both driven by AI agents
+    - >-
+      Primary page excerpt describes 'Build software with your team and agents' and 'Create real product experiences
+      that stay on brand, in code, and ready to ship'
+    - >-
+      Platform explicitly supports 'Fusion' for app/UI building and 'Publish' for content/experience management, both
+      driven by AI agents
     - Use cases include 'App development', 'Prototyping', and 'Marketing sites' with a focus on prompt-driven creation
 placement:
   primary_category: app-builders
-  section: Prompt-to-App Builders
+  secondary_categories: []
+  section: Full App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.667Z"
+    updated_at: '2026-05-06T22:12:15.667Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +82,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:39:18.588Z"
+    updated_at: '2026-07-21T15:39:18.588Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,14 +95,24 @@ processing:
       input_hash: sha256:0f9fec13b056d27b47ff62d29ead81c898ea081408392ac8fc4730589e250ebf
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The core product turns prompts and collaborative workflows into production-ready apps, sites, and internal tools, fitting the prompt-to-app builder identity.
+      decision_reason: >-
+        The core product turns prompts and collaborative workflows into production-ready apps, sites, and internal
+        tools, fitting the prompt-to-app builder identity.
       decision_evidence:
-        - Primary page excerpt describes 'Build software with your team and agents' and 'Create real product experiences that stay on brand, in code, and ready to ship'
-        - Platform explicitly supports 'Fusion' for app/UI building and 'Publish' for content/experience management, both driven by AI agents
-        - Use cases include 'App development', 'Prototyping', and 'Marketing sites' with a focus on prompt-driven creation
+        - >-
+          Primary page excerpt describes 'Build software with your team and agents' and 'Create real product experiences
+          that stay on brand, in code, and ready to ship'
+        - >-
+          Platform explicitly supports 'Fusion' for app/UI building and 'Publish' for content/experience management,
+          both driven by AI agents
+        - >-
+          Use cases include 'App development', 'Prototyping', and 'Marketing sites' with a focus on prompt-driven
+          creation
       category_candidates:
         - app-builders
         - agent-orchestration
-      contrastive_reason: Choose app-builders over agent-orchestration because the primary value is generating and shipping apps/sites from prompts, not coordinating multiple agents as a runtime platform.
+      contrastive_reason: >-
+        Choose app-builders over agent-orchestration because the primary value is generating and shipping apps/sites
+        from prompts, not coordinating multiple agents as a runtime platform.
       review_reason: null
       review_resume_lifecycle: null

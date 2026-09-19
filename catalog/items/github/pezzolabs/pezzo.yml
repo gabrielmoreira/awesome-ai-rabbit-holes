@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pezzolabs__pezzo__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,12 @@ provenance:
           - LLMOps
         anchor_text: Pezzo 🕹️
         extracted_url: https://github.com/pezzolabs/pezzo
-        surrounding_text: "| [Pezzo 🕹️](https://github.com/pezzolabs/pezzo)                     | Pezzo is the open-source LLMOps platform built for developers and teams. In just two lines of code, you can seamlessly troubleshoot your AI operations, collaborate and manage your prompts in one place, and instantly deploy changes to any environment.                                                                                                                                              | ![GitHub Badge](https://img.shields.io/github/stars/pezzolabs/pezzo.svg?style=flat-square)                |"
+        surrounding_text: >-
+          | [Pezzo 🕹️](https://github.com/pezzolabs/pezzo)                     | Pezzo is the open-source LLMOps
+          platform built for developers and teams. In just two lines of code, you can seamlessly troubleshoot your AI
+          operations, collaborate and manage your prompts in one place, and instantly deploy changes to any
+          environment.                                                                                                                                             
+          | ![GitHub Badge](https://img.shields.io/github/stars/pezzolabs/pezzo.svg?style=flat-square)                |
         confidence: high
 metadata:
   github:
@@ -29,9 +34,11 @@ metadata:
     archived: false
     full_name: pezzolabs/pezzo
     html_url: https://github.com/pezzolabs/pezzo
-    created_at: "2023-04-22T20:54:10Z"
-    pushed_at: "2026-03-31T02:03:01Z"
-    description: 🕹️ Open-source, developer-first LLMOps platform designed to streamline prompt design, version management, instant delivery, collaboration, troubleshooting, observability and more.
+    created_at: '2023-04-22T20:54:10Z'
+    pushed_at: '2026-03-31T02:03:01Z'
+    description: >-
+      🕹️ Open-source, developer-first LLMOps platform designed to streamline prompt design, version management, instant
+      delivery, collaboration, troubleshooting, observability and more.
     homepage: https://pezzo.ai
     topics:
       - ai
@@ -54,14 +61,20 @@ metadata:
       - prompt-management
       - python
       - typescript
-    last_checked_at: "2026-07-20T16:42:32.878Z"
+    last_checked_at: '2026-07-20T16:42:32.878Z'
     readme:
-      fetched_at: "2026-07-20T16:42:32.878Z"
+      fetched_at: '2026-07-20T16:42:32.878Z'
       bytes: 6079
 insights:
-  summary: Pezzo is an open-source LLMOps platform for managing prompts, monitoring AI operations, and tracking costs across Node.js, Python, and LangChain clients.
-  why_it_matters: It gives developers a centralized control plane to version prompts, observe LLM calls, and cut costs without wiring custom instrumentation into every app.
-  mental_damage: Yet another platform promising to solve the chaos of your prompt strings, as if the real problem was version control and not the fact that your carefully tuned system message breaks on the next model update.
+  summary: >-
+    Pezzo is an open-source LLMOps platform for managing prompts, monitoring AI operations, and tracking costs across
+    Node.js, Python, and LangChain clients.
+  why_it_matters: >-
+    It gives developers a centralized control plane to version prompts, observe LLM calls, and cut costs without wiring
+    custom instrumentation into every app.
+  mental_damage: >-
+    Yet another platform promising to solve the chaos of your prompt strings, as if the real problem was version control
+    and not the fact that your carefully tuned system message breaks on the next model update.
   tags:
     - llmops
     - prompt-management
@@ -71,35 +84,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core job is prompt management, versioning, and delivery rather than coding assistance, making Prompt & Context Engineering the best fit.
+  reason: >-
+    The core job is prompt management, versioning, and delivery rather than coding assistance, making Prompt & Context
+    Engineering the best fit.
   evidence:
     - Repo description explicitly calls it an LLMOps platform for 'prompt design, version management, instant delivery'.
-    - README highlights prompt management, observability, and caching as primary features across Node, Python, and LangChain clients.
+    - >-
+      README highlights prompt management, observability, and caching as primary features across Node, Python, and
+      LangChain clients.
     - Listed in Awesome-LLMOps under an LLMOps section, not as a coding agent or framework.
 placement:
-  primary_category: context-engineering
-  section: PromptOps / Prompt Management
+  primary_category: evals
+  secondary_categories: []
+  section: Observability & Tracing
 lifecycle:
   status: promotion_candidate
   reason: Stars (3233) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.642Z"
+    updated_at: '2026-05-06T22:12:15.642Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:32.878Z"
+    updated_at: '2026-07-20T16:42:32.878Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

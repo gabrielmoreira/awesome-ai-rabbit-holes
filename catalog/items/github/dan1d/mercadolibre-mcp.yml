@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dan1d__mercadolibre-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📊 <a name="data-platforms"></a>Data Platforms
         anchor_text: dan1d/mercadolibre-mcp
         extracted_url: https://github.com/dan1d/mercadolibre-mcp
-        surrounding_text: "- [dan1d/mercadolibre-mcp](https://github.com/dan1d/mercadolibre-mcp) [![mercadolibre-mcp MCP server](https://glama.ai/mcp/servers/dan1d/mercadolibre-mcp/badges/score.svg)](https://glama.ai/mcp/servers/dan1d/mercadolibre-mcp) 📇 ☁️ - MercadoLibre marketplace integration for AI agents. Search products, get item details, browse categories, track trends, and convert currencies across Latin America (Argentina, Brazil, Mexico, Chile, Colombia)."
+        surrounding_text: >-
+          - [dan1d/mercadolibre-mcp](https://github.com/dan1d/mercadolibre-mcp) [![mercadolibre-mcp MCP
+          server](https://glama.ai/mcp/servers/dan1d/mercadolibre-mcp/badges/score.svg)](https://glama.ai/mcp/servers/dan1d/mercadolibre-mcp)
+          📇 ☁️ - MercadoLibre marketplace integration for AI agents. Search products, get item details, browse
+          categories, track trends, and convert currencies across Latin America (Argentina, Brazil, Mexico, Chile,
+          Colombia).
         confidence: high
 metadata:
   github:
@@ -30,17 +35,19 @@ metadata:
     archived: false
     full_name: dan1d/mercadolibre-mcp
     html_url: https://github.com/dan1d/mercadolibre-mcp
-    created_at: "2026-03-08T21:36:21Z"
-    pushed_at: "2026-03-09T00:43:35Z"
+    created_at: '2026-03-08T21:36:21Z'
+    pushed_at: '2026-03-09T00:43:35Z'
     description: MercadoLibre MCP server for AI agents. Search products, browse categories, track trends across Latin America.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:33.543Z"
+    last_checked_at: '2026-09-14T04:13:33.543Z'
     readme:
-      fetched_at: "2026-09-14T04:13:33.543Z"
+      fetched_at: '2026-09-14T04:13:33.543Z'
       bytes: 5187
 insights:
-  summary: MCP server that connects AI agents to MercadoLibre's e-commerce platform for searching products, browsing categories, and tracking trends across Latin America.
+  summary: >-
+    MCP server that connects AI agents to MercadoLibre's e-commerce platform for searching products, browsing
+    categories, and tracking trends across Latin America.
   why_it_matters: Developers can integrate MercadoLibre's marketplace data into AI agent workflows without managing the API directly.
   mental_damage: Now your AI agent can obsess over Latin American e-commerce trends while you pretend to write tests.
   tags:
@@ -59,24 +66,25 @@ curation:
     - Already listed in awesome-mcp-servers under 'Server Implementations > Data Platforms'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.609Z"
+    updated_at: '2026-05-06T22:12:15.609Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:33.543Z"
+    updated_at: '2026-09-14T04:13:33.543Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:49:53.486Z"
+    updated_at: '2026-07-21T15:49:53.486Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,14 +97,20 @@ processing:
       input_hash: sha256:0fa0c6a3b371a44e8a1d39982b7a79d29e59ecf052b28f024b04b016513a413e
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a dedicated MCP server providing domain-specific tools for MercadoLibre, making MCP its primary identity.
+      decision_reason: >-
+        This is a dedicated MCP server providing domain-specific tools for MercadoLibre, making MCP its primary
+        identity.
       decision_evidence:
         - Repo description explicitly states it is a 'MercadoLibre MCP server for AI agents'
-        - README shows it implements MCP tools (search_items, get_item, etc.) and is installable via npx as an MCP server
+        - >-
+          README shows it implements MCP tools (search_items, get_item, etc.) and is installable via npx as an MCP
+          server
         - Already listed in awesome-mcp-servers under 'Server Implementations > Data Platforms'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

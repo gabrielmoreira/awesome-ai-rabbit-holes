@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bamwor-dev__bamwor-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🗺️ <a name="location-services"></a>Location Services
         anchor_text: bamwor-dev/bamwor-mcp-server
         extracted_url: https://github.com/bamwor-dev/bamwor-mcp-server
-        surrounding_text: "- [bamwor-dev/bamwor-mcp-server](https://github.com/bamwor-dev/bamwor-mcp-server) [![bamwor-mcp-server MCP server](https://glama.ai/mcp/servers/bamwor-dev/bamwor-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/bamwor-dev/bamwor-mcp-server) 📇 ☁️ - World geographic data for AI agents. 261 countries with 20+ statistics and 13.4M cities with population, coordinates, and timezone. Powered by Bamwor API."
+        surrounding_text: >-
+          - [bamwor-dev/bamwor-mcp-server](https://github.com/bamwor-dev/bamwor-mcp-server) [![bamwor-mcp-server MCP
+          server](https://glama.ai/mcp/servers/bamwor-dev/bamwor-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/bamwor-dev/bamwor-mcp-server)
+          📇 ☁️ - World geographic data for AI agents. 261 countries with 20+ statistics and 13.4M cities with
+          population, coordinates, and timezone. Powered by Bamwor API.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: bamwor-dev/bamwor-mcp-server
     html_url: https://github.com/bamwor-dev/bamwor-mcp-server
-    created_at: "2026-03-14T05:45:11Z"
-    pushed_at: "2026-06-02T14:44:34Z"
+    created_at: '2026-03-14T05:45:11Z'
+    pushed_at: '2026-06-02T14:44:34Z'
     description: MCP server for world geographic data. 261 countries, 13.4M cities.
     homepage: null
     topics:
@@ -44,12 +48,14 @@ metadata:
       - mcp
       - model-context-protocol
       - world-data
-    last_checked_at: "2026-09-07T04:13:31.103Z"
+    last_checked_at: '2026-09-07T04:13:31.103Z'
     readme:
-      fetched_at: "2026-09-07T04:13:31.103Z"
+      fetched_at: '2026-09-07T04:13:31.103Z'
       bytes: 3723
 insights:
-  summary: MCP server providing world geographic data (261 countries, 13.4M cities) for AI agents via Claude Desktop, Cursor, Windsurf, and other MCP-compatible clients.
+  summary: >-
+    MCP server providing world geographic data (261 countries, 13.4M cities) for AI agents via Claude Desktop, Cursor,
+    Windsurf, and other MCP-compatible clients.
   why_it_matters: Developers can connect AI agents to real-time country and city data without building custom integrations.
   mental_damage: Now your AI can finally settle the 'is it a country or a city?' debate at 3 AM.
   tags:
@@ -60,31 +66,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a domain-specific MCP server for geographic data, not a compatibility footnote."
+  reason: 'MCP is the product identity: this is a domain-specific MCP server for geographic data, not a compatibility footnote.'
   evidence:
     - Repo description explicitly states it is an MCP server for world geographic data
     - README shows it works with Claude Desktop, Cursor, Windsurf, and any MCP-compatible client
     - Provides 8 tools for country/city data access via MCP protocol
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.604Z"
+    updated_at: '2026-05-06T22:12:15.604Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:31.103Z"
+    updated_at: '2026-09-07T04:13:31.103Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:25:22.238Z"
+    updated_at: '2026-07-21T15:25:22.238Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -97,7 +104,9 @@ processing:
       input_hash: sha256:d072a1bdfa4e31364b9ce20d11b94a9e34ed68230b8a0cb8e993a7ef26196aa7
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a domain-specific MCP server for geographic data, not a compatibility footnote."
+      decision_reason: >-
+        MCP is the product identity: this is a domain-specific MCP server for geographic data, not a compatibility
+        footnote.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for world geographic data
         - README shows it works with Claude Desktop, Cursor, Windsurf, and any MCP-compatible client
@@ -105,6 +114,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server providing domain data, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server providing domain data, not an
+        extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

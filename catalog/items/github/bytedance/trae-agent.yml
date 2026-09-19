@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bytedance__trae-agent__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Open Source
         anchor_text: Trae Agent
         extracted_url: https://github.com/bytedance/trae-agent
-        surrounding_text: "- **[Trae Agent](https://github.com/bytedance/trae-agent)** `⭐ 11.5k` `[ByteDance]` — ByteDance's research-friendly CLI agent for software engineering tasks, with modular architecture and multi-LLM support. MIT."
+        surrounding_text: >-
+          - **[Trae Agent](https://github.com/bytedance/trae-agent)** `⭐ 11.5k` `[ByteDance]` — ByteDance's
+          research-friendly CLI agent for software engineering tasks, with modular architecture and multi-LLM support.
+          MIT.
         confidence: high
 metadata:
   github:
@@ -30,21 +33,25 @@ metadata:
     archived: false
     full_name: bytedance/trae-agent
     html_url: https://github.com/bytedance/trae-agent
-    created_at: "2025-06-13T12:05:15Z"
-    pushed_at: "2026-02-05T11:21:00Z"
+    created_at: '2025-06-13T12:05:15Z'
+    pushed_at: '2026-02-05T11:21:00Z'
     description: Trae Agent is an LLM-based agent for general purpose software engineering tasks.
     homepage: https://www.trae.ai/
     topics:
       - agent
       - llm
       - software-engineering
-    last_checked_at: "2026-09-07T04:13:39.629Z"
+    last_checked_at: '2026-09-07T04:13:39.629Z'
     readme:
-      fetched_at: "2026-09-07T04:13:39.629Z"
+      fetched_at: '2026-09-07T04:13:39.629Z'
       bytes: 10238
 insights:
-  summary: Trae Agent is an LLM-based CLI agent for general-purpose software engineering tasks with a modular, research-friendly architecture.
-  why_it_matters: It provides developers with a transparent, extensible framework for executing complex software workflows via natural language, while enabling academic and open-source communities to study and innovate on agent architectures.
+  summary: >-
+    Trae Agent is an LLM-based CLI agent for general-purpose software engineering tasks with a modular,
+    research-friendly architecture.
+  why_it_matters: >-
+    It provides developers with a transparent, extensible framework for executing complex software workflows via natural
+    language, while enabling academic and open-source communities to study and innovate on agent architectures.
   mental_damage: Finally, an agent that lets you debug the debugger.
   tags:
     - cli-agent
@@ -55,13 +62,16 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a primary coding assistant with a CLI interface that directly plans, executes, and debugs software engineering tasks, fitting the core definition of a coding agent.
+  reason: >-
+    It is a primary coding assistant with a CLI interface that directly plans, executes, and debugs software engineering
+    tasks, fitting the core definition of a coding agent.
   evidence:
     - Repo description explicitly states it is an LLM-based agent for general-purpose software engineering tasks
     - README highlights features like file editing, bash execution, and trajectory recording for debugging
     - Source-list context places it under 'Terminal-native coding agents > Open Source'
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -69,17 +79,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.606Z"
+    updated_at: '2026-05-06T22:12:15.606Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:39.629Z"
+    updated_at: '2026-09-07T04:13:39.629Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:40:12.281Z"
+    updated_at: '2026-07-21T15:40:12.281Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -92,7 +102,9 @@ processing:
       input_hash: sha256:23f3d96118f40aa780c52b572b95a6e19cd341208d108926a23f9a12961ea8cb
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: It is a primary coding assistant with a CLI interface that directly plans, executes, and debugs software engineering tasks, fitting the core definition of a coding agent.
+      decision_reason: >-
+        It is a primary coding assistant with a CLI interface that directly plans, executes, and debugs software
+        engineering tasks, fitting the core definition of a coding agent.
       decision_evidence:
         - Repo description explicitly states it is an LLM-based agent for general-purpose software engineering tasks
         - README highlights features like file editing, bash execution, and trajectory recording for debugging
@@ -100,6 +112,8 @@ processing:
       category_candidates:
         - coding-agents
         - ai-frameworks
-      contrastive_reason: Choose coding-agents over ai-frameworks because the primary product identity is a developer-facing coding assistant (CLI agent) rather than a code-first library or SDK.
+      contrastive_reason: >-
+        Choose coding-agents over ai-frameworks because the primary product identity is a developer-facing coding
+        assistant (CLI agent) rather than a code-first library or SDK.
       review_reason: null
       review_resume_lifecycle: null

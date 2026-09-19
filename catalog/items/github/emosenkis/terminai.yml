@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__emosenkis__terminai__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Agent infrastructure
         anchor_text: Terminai
         extracted_url: https://github.com/emosenkis/terminai
-        surrounding_text: "- **[Terminai](https://github.com/emosenkis/terminai)** `⭐ 6` — Makes your terminal of choice AI-enabled using your favorite CLI coding agent. Completely transparent until you activate the AI with Ctrl-Space, then runs your agent in an overlay with access to your terminal."
+        surrounding_text: >-
+          - **[Terminai](https://github.com/emosenkis/terminai)** `⭐ 6` — Makes your terminal of choice AI-enabled using
+          your favorite CLI coding agent. Completely transparent until you activate the AI with Ctrl-Space, then runs
+          your agent in an overlay with access to your terminal.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,20 @@ metadata:
     archived: false
     full_name: emosenkis/terminai
     html_url: https://github.com/emosenkis/terminai
-    created_at: "2025-10-23T06:10:17Z"
-    pushed_at: "2026-08-13T00:37:44Z"
+    created_at: '2025-10-23T06:10:17Z'
+    pushed_at: '2026-08-13T00:37:44Z'
     description: Make your coding AI available in your shell
     homepage: https://terminai.app
     topics: []
-    last_checked_at: "2026-08-27T09:23:23.766Z"
+    last_checked_at: '2026-08-27T09:23:23.766Z'
     readme:
-      fetched_at: "2026-08-27T09:23:23.766Z"
+      fetched_at: '2026-08-27T09:23:23.766Z'
       bytes: 12460
 insights:
   summary: A transparent terminal wrapper that provides an AI assistant overlay within your existing shell environment.
-  why_it_matters: It provides a seamless way to access CLI agents like Claude Code through a secure, context-aware UI without leaving your terminal.
+  why_it_matters: >-
+    It provides a seamless way to access CLI agents like Claude Code through a secure, context-aware UI without leaving
+    your terminal.
   mental_damage: Because apparently, having one AI in your terminal wasn't quite enough immersion for your workflow.
   tags:
     - terminal
@@ -58,27 +63,28 @@ curation:
     - Uses MCP to provide terminal context to an existing host agent
     - Primarily augments the shell workflow with an overlay UI
 placement:
-  primary_category: ai-dev-extensions
-  section: IDE / UI / Workflow Add-ons
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.714Z"
+    updated_at: '2026-07-16T05:04:46.714Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-14T04:13:49.045Z"
+    updated_at: '2026-09-14T04:13:49.045Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for emosenkis/terminai
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-16T05:15:20.541Z"
+    updated_at: '2026-07-16T05:15:20.541Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

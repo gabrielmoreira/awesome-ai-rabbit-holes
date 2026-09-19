@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pinecone-io__assistant-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: pinecone-io/assistant-mcp
         extracted_url: https://github.com/pinecone-io/assistant-mcp
-        surrounding_text: "- [pinecone-io/assistant-mcp](https://github.com/pinecone-io/assistant-mcp) 🎖️ 🦀 ☁️ - Connects to your Pinecone Assistant and gives the agent context from its knowledge engine."
+        surrounding_text: >-
+          - [pinecone-io/assistant-mcp](https://github.com/pinecone-io/assistant-mcp) 🎖️ 🦀 ☁️ - Connects to your
+          Pinecone Assistant and gives the agent context from its knowledge engine.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,25 @@ metadata:
     archived: false
     full_name: pinecone-io/assistant-mcp
     html_url: https://github.com/pinecone-io/assistant-mcp
-    created_at: "2025-02-28T07:30:56Z"
-    pushed_at: "2026-07-14T15:30:05Z"
+    created_at: '2025-02-28T07:30:56Z'
+    pushed_at: '2026-07-14T15:30:05Z'
     description: Pinecone Assistant MCP server
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:34.559Z"
+    last_checked_at: '2026-07-20T16:42:34.559Z'
     readme:
-      fetched_at: "2026-07-20T16:42:34.559Z"
+      fetched_at: '2026-07-20T16:42:34.559Z'
       bytes: 2421
 insights:
-  summary: A Rust-based MCP server that lets AI assistants like Claude Desktop retrieve information from a Pinecone Assistant instance.
-  why_it_matters: It acts as a bridge allowing AI coding tools to query Pinecone's managed knowledge bases directly within the assistant's context window.
-  mental_damage: Because setting up a Docker container to ask your LLM about vectors you already stored in the cloud is the exact kind of 'simple' integration that will definitely not eat your afternoon debugging environment variables.
+  summary: >-
+    A Rust-based MCP server that lets AI assistants like Claude Desktop retrieve information from a Pinecone Assistant
+    instance.
+  why_it_matters: >-
+    It acts as a bridge allowing AI coding tools to query Pinecone's managed knowledge bases directly within the
+    assistant's context window.
+  mental_damage: >-
+    Because setting up a Docker container to ask your LLM about vectors you already stored in the cloud is the exact
+    kind of 'simple' integration that will definitely not eat your afternoon debugging environment variables.
   tags:
     - mcp
     - pinecone
@@ -52,35 +60,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server implementation for Pinecone Assistant, fitting the MCP Servers & Tooling category as a domain-specific server.
+  reason: >-
+    The product is explicitly an MCP server implementation for Pinecone Assistant, fitting the MCP Servers & Tooling
+    category as a domain-specific server.
   evidence:
-    - "Repo description states: 'Pinecone Assistant MCP server'."
+    - 'Repo description states: ''Pinecone Assistant MCP server''.'
     - README confirms it is 'An MCP server implementation for retrieving information from Pinecone Assistant'.
     - Included in the 'awesome-mcp-servers' list under 'Knowledge & Memory' servers.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.642Z"
+    updated_at: '2026-05-06T22:12:15.642Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:34.559Z"
+    updated_at: '2026-07-20T16:42:34.559Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

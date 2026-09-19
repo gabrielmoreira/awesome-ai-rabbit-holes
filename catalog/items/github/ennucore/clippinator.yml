@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ennucore__clippinator__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,7 @@ provenance:
           - Clippy
         anchor_text: Clippy
         extracted_url: https://github.com/ennucore/clippy
-        surrounding_text: "## [Clippy](https://github.com/ennucore/clippy/)"
+        surrounding_text: '## [Clippy](https://github.com/ennucore/clippy/)'
         confidence: high
 metadata:
   github:
@@ -29,18 +29,20 @@ metadata:
     archived: false
     full_name: ennucore/clippinator
     html_url: https://github.com/ennucore/clippinator
-    created_at: "2023-04-17T10:25:15Z"
-    pushed_at: "2024-05-05T12:31:29Z"
+    created_at: '2023-04-17T10:25:15Z'
+    pushed_at: '2024-05-05T12:31:29Z'
     description: AI programming assistant
     homepage: null
     topics: []
-    last_checked_at: "2026-08-27T09:23:23.982Z"
+    last_checked_at: '2026-08-27T09:23:23.982Z'
     readme:
-      fetched_at: "2026-08-27T09:23:23.982Z"
+      fetched_at: '2026-08-27T09:23:23.982Z'
       bytes: 5842
 insights:
   summary: A multi-agent CLI code assistant that plans, writes, debugs, and tests projects autonomously using GPT-4.
-  why_it_matters: It automates end-to-end development workflows with specialized agents (Architect, Writer, QA, etc.) and tools like file I/O, terminal, browser, and linters.
+  why_it_matters: >-
+    It automates end-to-end development workflows with specialized agents (Architect, Writer, QA, etc.) and tools like
+    file I/O, terminal, browser, and linters.
   mental_damage: Finally, an AI that can write code faster than you can explain why it’s wrong.
   tags:
     - multi-agent
@@ -51,33 +53,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a primary coding assistant with autonomous repo-level capabilities, not merely an extension or integration layer.
+  reason: >-
+    It is a primary coding assistant with autonomous repo-level capabilities, not merely an extension or integration
+    layer.
   evidence:
-    - "Repo description: 'AI programming assistant'"
-    - "README: 'The purpose of Clippinator is to develop code for or with the user. It can plan, write, debug, and test some projects autonomously.'"
-    - Uses multiple specialized agents (Taskmaster, Architect, Writer, etc.) with tools like file I/O, terminal, and linters.
+    - 'Repo description: ''AI programming assistant'''
+    - >-
+      README: 'The purpose of Clippinator is to develop code for or with the user. It can plan, write, debug, and test
+      some projects autonomously.'
+    - >-
+      Uses multiple specialized agents (Taskmaster, Architect, Writer, etc.) with tools like file I/O, terminal, and
+      linters.
 placement:
   primary_category: coding-agents
-  section: Terminal & CLI Agents
+  secondary_categories: []
+  section: Autonomous & Multi-Agent Coding
 lifecycle:
   status: promotion_candidate
   reason: Stars (408) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.612Z"
+    updated_at: '2026-05-06T22:12:15.612Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-14T04:13:49.447Z"
+    updated_at: '2026-09-14T04:13:49.447Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for ennucore/clippinator
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:52:29.509Z"
+    updated_at: '2026-07-21T15:52:29.509Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -90,14 +99,22 @@ processing:
       input_hash: sha256:f752d42e13aee1c22b87f1b2b3949e234c76ed13898d773bf1fa00e3be04ee23
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: It is a primary coding assistant with autonomous repo-level capabilities, not merely an extension or integration layer.
+      decision_reason: >-
+        It is a primary coding assistant with autonomous repo-level capabilities, not merely an extension or integration
+        layer.
       decision_evidence:
-        - "Repo description: 'AI programming assistant'"
-        - "README: 'The purpose of Clippinator is to develop code for or with the user. It can plan, write, debug, and test some projects autonomously.'"
-        - Uses multiple specialized agents (Taskmaster, Architect, Writer, etc.) with tools like file I/O, terminal, and linters.
+        - 'Repo description: ''AI programming assistant'''
+        - >-
+          README: 'The purpose of Clippinator is to develop code for or with the user. It can plan, write, debug, and
+          test some projects autonomously.'
+        - >-
+          Uses multiple specialized agents (Taskmaster, Architect, Writer, etc.) with tools like file I/O, terminal, and
+          linters.
       category_candidates:
         - coding-agents
         - agent-orchestration
-      contrastive_reason: Choose coding-agents over agent-orchestration because the primary product identity is a developer-facing coding assistant, not a general multi-agent control plane.
+      contrastive_reason: >-
+        Choose coding-agents over agent-orchestration because the primary product identity is a developer-facing coding
+        assistant, not a general multi-agent control plane.
       review_reason: null
       review_resume_lifecycle: null

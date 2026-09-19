@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__freelexho__power-bi-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-08T05:39:05.247Z"
+      discovered_at: '2026-06-08T05:39:05.247Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📊 <a name="data-platforms"></a>Data Platforms
         anchor_text: FreelexHo/power-bi-mcp
         extracted_url: https://github.com/freelexho/power-bi-mcp
-        surrounding_text: "- [FreelexHo/power-bi-mcp](https://github.com/FreelexHo/power-bi-mcp) [![FreelexHo/power-bi-mcp MCP server](https://glama.ai/mcp/servers/FreelexHo/power-bi-mcp/badges/score.svg)](https://glama.ai/mcp/servers/FreelexHo/power-bi-mcp) 🐍 ☁️ 🪟 🍎 🐧 - Power BI MCP server with device code auth, enhanced refresh (table-level polling with retry), refresh diagnostics with root-cause error catalog, DAX queries with RLS simulation, PBIP source locating, and scheduled refresh reports."
+        surrounding_text: >-
+          - [FreelexHo/power-bi-mcp](https://github.com/FreelexHo/power-bi-mcp) [![FreelexHo/power-bi-mcp MCP
+          server](https://glama.ai/mcp/servers/FreelexHo/power-bi-mcp/badges/score.svg)](https://glama.ai/mcp/servers/FreelexHo/power-bi-mcp)
+          🐍 ☁️ 🪟 🍎 🐧 - Power BI MCP server with device code auth, enhanced refresh (table-level polling with retry),
+          refresh diagnostics with root-cause error catalog, DAX queries with RLS simulation, PBIP source locating, and
+          scheduled refresh reports.
         confidence: high
 metadata:
   github:
@@ -30,19 +35,25 @@ metadata:
     archived: false
     full_name: FreelexHo/power-bi-mcp
     html_url: https://github.com/FreelexHo/power-bi-mcp
-    created_at: "2026-05-31T16:27:52Z"
-    pushed_at: "2026-06-02T05:09:28Z"
+    created_at: '2026-05-31T16:27:52Z'
+    pushed_at: '2026-06-02T05:09:28Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:43.734Z"
+    last_checked_at: '2026-09-03T05:16:43.734Z'
     readme:
-      fetched_at: "2026-09-03T05:16:43.734Z"
+      fetched_at: '2026-09-03T05:16:43.734Z'
       bytes: 6965
 insights:
-  summary: An MCP server that enables AI agents to manage Power BI workspaces, datasets, and refresh schedules via natural language.
-  why_it_matters: It allows developers to automate the tedious operational overhead of Power BI management—like diagnosing refresh failures and executing DAX queries—directly from their AI-native IDE.
-  mental_damage: Now you can experience the existential dread of a failed Power BI dataset refresh without actually having to open the Power BI service UI.
+  summary: >-
+    An MCP server that enables AI agents to manage Power BI workspaces, datasets, and refresh schedules via natural
+    language.
+  why_it_matters: >-
+    It allows developers to automate the tedious operational overhead of Power BI management—like diagnosing refresh
+    failures and executing DAX queries—directly from their AI-native IDE.
+  mental_damage: >-
+    Now you can experience the existential dread of a failed Power BI dataset refresh without actually having to open
+    the Power BI service UI.
   tags:
     - mcp
     - power-bi
@@ -59,24 +70,25 @@ curation:
     - Included in awesome-mcp-servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-08T05:39:05.248Z"
+    updated_at: '2026-06-08T05:39:05.248Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:43.734Z"
+    updated_at: '2026-09-03T05:16:43.734Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-08T05:42:59.243Z"
+    updated_at: '2026-06-08T05:42:59.243Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__flexorch__flexorch-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 📊 <a name="data-platforms"></a>Data Platforms
         anchor_text: flexorch/flexorch-mcp
         extracted_url: https://github.com/flexorch/flexorch-mcp
-        surrounding_text: "- [flexorch/flexorch-mcp](https://github.com/flexorch/flexorch-mcp) [![flexorch/flexorch-mcp MCP server](https://glama.ai/mcp/servers/flexorch/flexorch-mcp/badges/score.svg)](https://glama.ai/mcp/servers/flexorch/flexorch-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Convert unstructured business documents (PDF, DOCX, invoices, contracts, payroll) into structured, LLM-ready datasets with automatic classification, field extraction, PII masking (10+ locales), and quality scoring. 6 async MCP tools covering the full pipeline: submit → poll → extract → build → export JSONL/RAG/CSV. Install: `pip install flexorch-mcp`."
+        surrounding_text: >-
+          - [flexorch/flexorch-mcp](https://github.com/flexorch/flexorch-mcp) [![flexorch/flexorch-mcp MCP
+          server](https://glama.ai/mcp/servers/flexorch/flexorch-mcp/badges/score.svg)](https://glama.ai/mcp/servers/flexorch/flexorch-mcp)
+          🐍 ☁️ 🏠 🍎 🪟 🐧 - Convert unstructured business documents (PDF, DOCX, invoices, contracts, payroll) into
+          structured, LLM-ready datasets with automatic classification, field extraction, PII masking (10+ locales), and
+          quality scoring. 6 async MCP tools covering the full pipeline: submit → poll → extract → build → export
+          JSONL/RAG/CSV. Install: `pip install flexorch-mcp`.
         confidence: high
 metadata:
   github:
@@ -30,19 +36,23 @@ metadata:
     archived: false
     full_name: flexorch/flexorch-mcp
     html_url: https://github.com/flexorch/flexorch-mcp
-    created_at: "2026-06-24T10:37:14Z"
-    pushed_at: "2026-08-26T15:04:59Z"
+    created_at: '2026-06-24T10:37:14Z'
+    pushed_at: '2026-08-26T15:04:59Z'
     description: MCP server for FlexOrch — SDK for machines
     homepage: null
     topics: []
-    last_checked_at: "2026-08-27T09:23:31.305Z"
+    last_checked_at: '2026-08-27T09:23:31.305Z'
     readme:
-      fetched_at: "2026-08-27T09:23:31.305Z"
+      fetched_at: '2026-08-27T09:23:31.305Z'
       bytes: 5237
 insights:
   summary: An MCP server that exposes the FlexOrch document intelligence API as tools for LLMs.
-  why_it_matters: It enables AI agents to autonomously process complex documents, extract structured data, and manage datasets via natural language tool calls.
-  mental_damage: Because now your Claude instance can handle your messy PDFs, so you no longer have a valid excuse for manual data entry.
+  why_it_matters: >-
+    It enables AI agents to autonomously process complex documents, extract structured data, and manage datasets via
+    natural language tool calls.
+  mental_damage: >-
+    Because now your Claude instance can handle your messy PDFs, so you no longer have a valid excuse for manual data
+    entry.
   tags:
     - mcp
     - document-intelligence
@@ -53,29 +63,30 @@ curation:
   status: included
   reason: The product's identity is explicitly an MCP server designed to bridge an external API to LLM agents.
   evidence:
-    - "Repo description: 'MCP server for FlexOrch'"
+    - 'Repo description: ''MCP server for FlexOrch'''
     - README explicitly defines tools for Claude, Cursor, and OpenAI Codex via MCP
     - Primary function is acting as a thin proxy/adapter for the FlexOrch API
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.714Z"
+    updated_at: '2026-07-16T05:04:46.714Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:31.305Z"
+    updated_at: '2026-08-27T09:23:31.305Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-16T05:16:08.065Z"
+    updated_at: '2026-07-16T05:16:08.065Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

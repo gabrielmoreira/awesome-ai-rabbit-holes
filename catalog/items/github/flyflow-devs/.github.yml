@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__flyflow-devs__.github__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - Foundation Model Fine Tuning
         anchor_text: Flyflow
         extracted_url: https://github.com/flyflow-devs
-        surrounding_text: "| [Flyflow](https://github.com/flyflow-devs)                                 | Open source, high performance fine tuning as a service for GPT4 quality models with 5x lower latency and 3x lower cost                                                                           | ![GitHub Badge](https://img.shields.io/github/stars/flyflow-devs/flyflow.svg?style=flat-square)            |"
+        surrounding_text: >-
+          | [Flyflow](https://github.com/flyflow-devs)                                 | Open source, high performance
+          fine tuning as a service for GPT4 quality models with 5x lower latency and 3x lower
+          cost                                                                           | ![GitHub
+          Badge](https://img.shields.io/github/stars/flyflow-devs/flyflow.svg?style=flat-square)            |
         confidence: high
 metadata:
   github:
@@ -30,19 +34,25 @@ metadata:
     archived: false
     full_name: flyflow-devs/.github
     html_url: https://github.com/flyflow-devs/.github
-    created_at: "2024-03-04T02:02:49Z"
-    pushed_at: "2024-09-19T04:55:09Z"
+    created_at: '2024-03-04T02:02:49Z'
+    pushed_at: '2024-09-19T04:55:09Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:42.132Z"
+    last_checked_at: '2026-09-03T05:16:42.132Z'
     readme:
-      fetched_at: "2026-09-03T05:16:42.132Z"
+      fetched_at: '2026-09-03T05:16:42.132Z'
       bytes: 534
 insights:
-  summary: Flyflow is an API middleware written in Go designed to optimize LLM application performance by improving response quality, latency, and reliability.
-  why_it_matters: It acts as a performance and security abstraction layer to help developers manage rate limits and token constraints when building production LLM apps.
-  mental_damage: Because apparently, we couldn't have enough middleware to manage the chaos of unpredictable LLM latency and token costs.
+  summary: >-
+    Flyflow is an API middleware written in Go designed to optimize LLM application performance by improving response
+    quality, latency, and reliability.
+  why_it_matters: >-
+    It acts as a performance and security abstraction layer to help developers manage rate limits and token constraints
+    when building production LLM apps.
+  mental_damage: >-
+    Because apparently, we couldn't have enough middleware to manage the chaos of unpredictable LLM latency and token
+    costs.
   tags:
     - middleware
     - llm-ops
@@ -52,31 +62,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Flyflow is a code-first middleware/SDK that developers integrate into their stack to manage LLM interactions, making it a Provider Abstraction.
+  reason: >-
+    Flyflow is a code-first middleware/SDK that developers integrate into their stack to manage LLM interactions, making
+    it a Provider Abstraction.
   evidence:
     - README describes it as 'API middleware to optimize LLM applications'
     - Built in Go for high performance and integration into developer codebases
     - Focuses on low-level metrics like latency and token limits
 placement:
   primary_category: ai-frameworks
-  section: Provider / Model Abstractions
+  secondary_categories: []
+  section: Provider & Model Abstractions
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.614Z"
+    updated_at: '2026-05-06T22:12:15.614Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:42.132Z"
+    updated_at: '2026-09-03T05:16:42.132Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:58:01.063Z"
+    updated_at: '2026-07-21T15:58:01.063Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +102,9 @@ processing:
       input_hash: sha256:3af5d00b0a3f0d459cc44008ff820cf37cff8254db28c8dc7d365661847783ef
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: Flyflow is a code-first middleware/SDK that developers integrate into their stack to manage LLM interactions, making it a Provider Abstraction.
+      decision_reason: >-
+        Flyflow is a code-first middleware/SDK that developers integrate into their stack to manage LLM interactions,
+        making it a Provider Abstraction.
       decision_evidence:
         - README describes it as 'API middleware to optimize LLM applications'
         - Built in Go for high performance and integration into developer codebases
@@ -97,6 +112,8 @@ processing:
       category_candidates:
         - ai-frameworks
         - agent-orchestration
-      contrastive_reason: Choose ai-frameworks over agent-orchestration because the product is described as a code-first middleware/SDK rather than an operated workbench or control plane for multiple agents.
+      contrastive_reason: >-
+        Choose ai-frameworks over agent-orchestration because the product is described as a code-first middleware/SDK
+        rather than an operated workbench or control plane for multiple agents.
       review_reason: null
       review_resume_lifecycle: null

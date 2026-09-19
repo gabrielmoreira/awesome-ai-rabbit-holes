@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__docspring__renamify__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,11 @@ provenance:
           - Community Servers
         anchor_text: Renamify
         extracted_url: https://docspring.github.io/renamify/mcp/overview
-        surrounding_text: "- **[Renamify](https://docspring.github.io/renamify/mcp/overview/)** - Smart, case-aware search & replace for codebases. Provides atomic renaming of symbols, files, and directories with full undo/redo. The MCP server lets AI assistants plan, preview, and apply rename operations safely, handling all naming conventions (snake_case, camelCase, PascalCase, etc.) automatically."
+        surrounding_text: >-
+          - **[Renamify](https://docspring.github.io/renamify/mcp/overview/)** - Smart, case-aware search & replace for
+          codebases. Provides atomic renaming of symbols, files, and directories with full undo/redo. The MCP server
+          lets AI assistants plan, preview, and apply rename operations safely, handling all naming conventions
+          (snake_case, camelCase, PascalCase, etc.) automatically.
         confidence: high
 metadata:
   github:
@@ -29,19 +33,25 @@ metadata:
     archived: false
     full_name: DocSpring/renamify
     html_url: https://github.com/DocSpring/renamify
-    created_at: "2025-08-11T05:44:16Z"
-    pushed_at: "2025-10-10T23:52:56Z"
+    created_at: '2025-08-11T05:44:16Z'
+    pushed_at: '2025-10-10T23:52:56Z'
     description: Smart search & replace for code and files with case-aware transformations and built-in undo/redo.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:42.403Z"
+    last_checked_at: '2026-09-14T04:13:42.403Z'
     readme:
-      fetched_at: "2026-09-14T04:13:42.403Z"
+      fetched_at: '2026-09-14T04:13:42.403Z'
       bytes: 8577
 insights:
-  summary: A CLI tool for smart search-and-replace across code and filenames with case-aware transformations, built-in undo/redo, and MCP server support.
-  why_it_matters: It automates large-scale renaming operations with safety features like preview, undo/redo, and ignore-file support, reducing manual refactoring errors.
-  mental_damage: Finally, a tool that lets you rename everything at once—because nothing says 'confidence' like rewriting your entire codebase in one command.
+  summary: >-
+    A CLI tool for smart search-and-replace across code and filenames with case-aware transformations, built-in
+    undo/redo, and MCP server support.
+  why_it_matters: >-
+    It automates large-scale renaming operations with safety features like preview, undo/redo, and ignore-file support,
+    reducing manual refactoring errors.
+  mental_damage: >-
+    Finally, a tool that lets you rename everything at once—because nothing says 'confidence' like rewriting your entire
+    codebase in one command.
   tags:
     - cli
     - refactoring
@@ -51,31 +61,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: While it is primarily a standalone CLI refactoring tool, its explicit identity as an MCP server for AI assistants (Claude, Cursor) and inclusion in awesome-mcp-servers makes it a strong fit for the MCP Servers & Tooling category.
+  reason: >-
+    While it is primarily a standalone CLI refactoring tool, its explicit identity as an MCP server for AI assistants
+    (Claude, Cursor) and inclusion in awesome-mcp-servers makes it a strong fit for the MCP Servers & Tooling category.
   evidence:
     - Repo description and README explicitly list 'MCP server' as a core feature for AI integrations.
     - Listed in the source-list 'awesome-mcp-servers' under Community Servers for AI assistant integration.
     - Provides concrete MCP integration docs for Claude and Cursor setup.
 placement:
   primary_category: mcp
-  section: null
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-dev-extensions'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.611Z"
+    updated_at: '2026-05-06T22:12:15.611Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:42.403Z"
+    updated_at: '2026-09-14T04:13:42.403Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:27.084Z"
+    updated_at: '2026-07-21T15:51:27.084Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,14 +101,20 @@ processing:
       input_hash: sha256:79dbb5107f1cfe4dfc3f2213850c145bd243c7bc58e87dc52ccccf707554bc7c
       proposed_primary_category: ai-dev-extensions
       disagreement: true
-      decision_reason: The primary identity is a standalone CLI tool for code refactoring, but its MCP server integration (explicitly marketed for AI assistants) makes it an extension for coding workflows rather than a core assistant.
+      decision_reason: >-
+        The primary identity is a standalone CLI tool for code refactoring, but its MCP server integration (explicitly
+        marketed for AI assistants) makes it an extension for coding workflows rather than a core assistant.
       decision_evidence:
-        - "Repo description: 'Smart search & replace for code and files with case-aware transformations and built-in undo/redo'"
+        - >-
+          Repo description: 'Smart search & replace for code and files with case-aware transformations and built-in
+          undo/redo'
         - README highlights MCP server support for Claude/Cursor and VS Code/Cursor extensions
-        - "Source-list context: listed in awesome-mcp-servers under 'Community Servers'"
+        - 'Source-list context: listed in awesome-mcp-servers under ''Community Servers'''
       category_candidates:
         - ai-dev-extensions
         - mcp
-      contrastive_reason: Choose ai-dev-extensions over mcp because the core product is a refactoring tool, with MCP as an integration layer rather than the primary identity.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+      contrastive_reason: >-
+        Choose ai-dev-extensions over mcp because the core product is a refactoring tool, with MCP as an integration
+        layer rather than the primary identity.
+      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-dev-extensions'''
       review_resume_lifecycle: null

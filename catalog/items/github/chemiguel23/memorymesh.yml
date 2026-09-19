@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__chemiguel23__memorymesh__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: CheMiguel23/MemoryMesh
         extracted_url: https://github.com/chemiguel23/memorymesh
-        surrounding_text: "- [CheMiguel23/MemoryMesh](https://github.com/CheMiguel23/MemoryMesh) 📇 🏠 - Enhanced graph-based memory with a focus on AI role-play and story generation"
+        surrounding_text: >-
+          - [CheMiguel23/MemoryMesh](https://github.com/CheMiguel23/MemoryMesh) 📇 🏠 - Enhanced graph-based memory with
+          a focus on AI role-play and story generation
         confidence: high
     - id: discovery__github__chemiguel23__memorymesh__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - 🧠 Knowledge & Memory
         anchor_text: CheMiguel23/MemoryMesh
         extracted_url: https://github.com/chemiguel23/memorymesh
-        surrounding_text: "-   **[CheMiguel23/MemoryMesh](https://github.com/CheMiguel23/MemoryMesh)** [![GitHub stars](https://img.shields.io/github/stars/CheMiguel23/MemoryMesh?style=social)](https://github.com/CheMiguel23/MemoryMesh): Provides enhanced graph-based memory focused on AI role-play."
+        surrounding_text: >-
+          -   **[CheMiguel23/MemoryMesh](https://github.com/CheMiguel23/MemoryMesh)** [![GitHub
+          stars](https://img.shields.io/github/stars/CheMiguel23/MemoryMesh?style=social)](https://github.com/CheMiguel23/MemoryMesh):
+          Provides enhanced graph-based memory focused on AI role-play.
         confidence: high
 metadata:
   github:
@@ -45,21 +50,29 @@ metadata:
     archived: false
     full_name: CheMiguel23/MemoryMesh
     html_url: https://github.com/CheMiguel23/MemoryMesh
-    created_at: "2024-12-06T00:50:19Z"
-    pushed_at: "2026-03-01T22:27:33Z"
-    description: A knowledge graph server that uses the Model Context Protocol (MCP) to provide structured memory persistence for AI models.
-    homepage: ""
+    created_at: '2024-12-06T00:50:19Z'
+    pushed_at: '2026-03-01T22:27:33Z'
+    description: >-
+      A knowledge graph server that uses the Model Context Protocol (MCP) to provide structured memory persistence for
+      AI models.
+    homepage: ''
     topics:
       - ai
       - mcp
-    last_checked_at: "2026-09-07T04:13:44.147Z"
+    last_checked_at: '2026-09-07T04:13:44.147Z'
     readme:
-      fetched_at: "2026-09-07T04:13:44.147Z"
+      fetched_at: '2026-09-07T04:13:44.147Z'
       bytes: 18156
 insights:
-  summary: A knowledge graph server using the Model Context Protocol (MCP) to provide structured memory persistence for AI models.
-  why_it_matters: Enables developers to build and manage structured, schema-driven knowledge graphs for AI models, particularly useful for text-based RPGs, interactive storytelling, or any application requiring consistent memory across conversations.
-  mental_damage: Finally, a way to make your AI remember that Aragorn owns Andúril, because nothing says 'structured memory' like manually defining node types and edges.
+  summary: >-
+    A knowledge graph server using the Model Context Protocol (MCP) to provide structured memory persistence for AI
+    models.
+  why_it_matters: >-
+    Enables developers to build and manage structured, schema-driven knowledge graphs for AI models, particularly useful
+    for text-based RPGs, interactive storytelling, or any application requiring consistent memory across conversations.
+  mental_damage: >-
+    Finally, a way to make your AI remember that Aragorn owns Andúril, because nothing says 'structured memory' like
+    manually defining node types and edges.
   tags:
     - mcp
     - knowledge-graph
@@ -76,24 +89,25 @@ curation:
     - Listed in awesome-mcp-list under 'Knowledge & Memory' section
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: promotion_candidate
   reason: Stars (340) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.583Z"
+    updated_at: '2026-05-06T22:12:15.583Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:44.147Z"
+    updated_at: '2026-09-07T04:13:44.147Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:41:29.797Z"
+    updated_at: '2026-07-21T15:41:29.797Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -106,7 +120,9 @@ processing:
       input_hash: sha256:dffdb0c6064e3b2657af852517adeb62b83a83c601f40058c1075508ff4556af
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the product identity, and the tool is explicitly a server providing structured memory persistence via MCP.
+      decision_reason: >-
+        MCP is the product identity, and the tool is explicitly a server providing structured memory persistence via
+        MCP.
       decision_evidence:
         - Repo description explicitly states it is a knowledge graph server using MCP
         - README confirms it is an MCP server with schema-driven tools for structured memory
@@ -114,6 +130,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product's primary identity is as an MCP server, not merely a memory or retrieval system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the product's primary identity is as an MCP server, not merely a
+        memory or retrieval system.
       review_reason: null
       review_resume_lifecycle: null

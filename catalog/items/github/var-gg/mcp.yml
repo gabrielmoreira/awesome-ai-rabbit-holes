@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__var-gg__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: var-gg/mcp
         extracted_url: https://github.com/var-gg/mcp
-        surrounding_text: "- [var-gg/mcp](https://github.com/var-gg/mcp) 📇 ☁️ - Enforces team naming consistency for AI-generated code via Cursor MCP integration. [Guide ↗](https://var.gg)"
+        surrounding_text: >-
+          - [var-gg/mcp](https://github.com/var-gg/mcp) 📇 ☁️ - Enforces team naming consistency for AI-generated code
+          via Cursor MCP integration. [Guide ↗](https://var.gg)
         confidence: high
 metadata:
   github:
@@ -30,19 +32,27 @@ metadata:
     archived: false
     full_name: var-gg/mcp
     html_url: https://github.com/var-gg/mcp
-    created_at: "2025-11-03T17:43:02Z"
-    pushed_at: "2025-11-04T03:36:09Z"
-    description: 🚀 Project Meta Management MCP - Manage standard variable names and constants per project and integrate with LLM through Model Context Protocol
+    created_at: '2025-11-03T17:43:02Z'
+    pushed_at: '2025-11-04T03:36:09Z'
+    description: >-
+      🚀 Project Meta Management MCP - Manage standard variable names and constants per project and integrate with LLM
+      through Model Context Protocol
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:21:01.158Z"
+    last_checked_at: '2026-07-21T15:21:01.158Z'
     readme:
-      fetched_at: "2026-07-21T15:21:01.158Z"
+      fetched_at: '2026-07-21T15:21:01.158Z'
       bytes: 10103
 insights:
-  summary: A Model Context Protocol server for managing project-specific variable names and constants to standardize terminology across teams and assist LLMs in generating code with consistent naming.
-  why_it_matters: It reduces naming inconsistencies and AI context loss by centralizing project terminology, making AI-assisted coding more reliable for multi-language and collaborative development.
-  mental_damage: Another protocol-layer dependency to chase just so your AI doesn’t call a variable 'userID' in one file and 'kundeIdentifikator' in the next.
+  summary: >-
+    A Model Context Protocol server for managing project-specific variable names and constants to standardize
+    terminology across teams and assist LLMs in generating code with consistent naming.
+  why_it_matters: >-
+    It reduces naming inconsistencies and AI context loss by centralizing project terminology, making AI-assisted coding
+    more reliable for multi-language and collaborative development.
+  mental_damage: >-
+    Another protocol-layer dependency to chase just so your AI doesn’t call a variable 'userID' in one file and
+    'kundeIdentifikator' in the next.
   tags:
     - mcp
     - naming-conventions
@@ -51,31 +61,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server implementation focused on project metadata management, making MCP its core identity rather than a compatibility feature.
+  reason: >-
+    The product is an MCP server implementation focused on project metadata management, making MCP its core identity
+    rather than a compatibility feature.
   evidence:
-    - "Repo description: 'Project Meta Management MCP - Manage standard variable names and constants per project and integrate with LLM through Model Context Protocol'"
-    - "README: Explicitly states it is a 'Model Context Protocol implementation' that enables integration with Cursor IDE via MCP"
-    - "Source-list context: Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'"
+    - >-
+      Repo description: 'Project Meta Management MCP - Manage standard variable names and constants per project and
+      integrate with LLM through Model Context Protocol'
+    - >-
+      README: Explicitly states it is a 'Model Context Protocol implementation' that enables integration with Cursor IDE
+      via MCP
+    - 'Source-list context: Listed in awesome-mcp-servers under ''Server Implementations > Developer Tools'''
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.654Z"
+    updated_at: '2026-05-06T22:12:15.654Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:01.158Z"
+    updated_at: '2026-07-21T15:21:01.158Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:21:46.771Z"
+    updated_at: '2026-05-12T15:21:46.771Z'
     cause: null
     next_retry_at: null
     attempts: 1

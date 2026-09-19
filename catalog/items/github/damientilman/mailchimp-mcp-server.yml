@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__damientilman__mailchimp-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: damientilman/mailchimp-mcp-server
         extracted_url: https://github.com/damientilman/mailchimp-mcp-server
-        surrounding_text: "- [damientilman/mailchimp-mcp-server](https://github.com/damientilman/mailchimp-mcp-server) [![mailchimp-mcp MCP server](https://glama.ai/mcp/servers/@damientilman/mailchimp-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@damientilman/mailchimp-mcp) 🐍 ☁️ - Mailchimp Marketing API integration with 53 tools for managing campaigns, audiences, reports, automations, landing pages, e-commerce data, and batch operations."
+        surrounding_text: >-
+          - [damientilman/mailchimp-mcp-server](https://github.com/damientilman/mailchimp-mcp-server) [![mailchimp-mcp
+          MCP
+          server](https://glama.ai/mcp/servers/@damientilman/mailchimp-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@damientilman/mailchimp-mcp)
+          🐍 ☁️ - Mailchimp Marketing API integration with 53 tools for managing campaigns, audiences, reports,
+          automations, landing pages, e-commerce data, and batch operations.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,12 @@ metadata:
     archived: false
     full_name: damientilman/mailchimp-mcp-server
     html_url: https://github.com/damientilman/mailchimp-mcp-server
-    created_at: "2026-03-06T23:46:36Z"
-    pushed_at: "2026-08-04T11:27:42Z"
-    description: "The most complete Mailchimp Marketing API MCP server: 227 tools across campaigns, audiences, reports, segments, automations and full e-commerce, with multi-account support and runtime-security guardrails (read-only, dry-run, audit, per-tool risk metadata)."
+    created_at: '2026-03-06T23:46:36Z'
+    pushed_at: '2026-08-04T11:27:42Z'
+    description: >-
+      The most complete Mailchimp Marketing API MCP server: 227 tools across campaigns, audiences, reports, segments,
+      automations and full e-commerce, with multi-account support and runtime-security guardrails (read-only, dry-run,
+      audit, per-tool risk metadata).
     homepage: https://www.tilman.marketing
     topics:
       - ai
@@ -48,13 +56,18 @@ metadata:
       - mcp-server
       - model-context-protocol
       - python
-    last_checked_at: "2026-09-14T04:13:33.542Z"
+    last_checked_at: '2026-09-14T04:13:33.542Z'
     readme:
-      fetched_at: "2026-09-14T04:13:33.542Z"
+      fetched_at: '2026-09-14T04:13:33.542Z'
       bytes: 32201
 insights:
-  summary: An MCP server providing 227 tools for interacting with the Mailchimp Marketing API, including campaigns, audiences, reports, and e-commerce, with safety features like read-only and dry-run modes.
-  why_it_matters: Developers can integrate Mailchimp's full marketing automation capabilities directly into their AI workflows via MCP, enabling programmatic access to email campaigns, audience management, and analytics without leaving their coding environment.
+  summary: >-
+    An MCP server providing 227 tools for interacting with the Mailchimp Marketing API, including campaigns, audiences,
+    reports, and e-commerce, with safety features like read-only and dry-run modes.
+  why_it_matters: >-
+    Developers can integrate Mailchimp's full marketing automation capabilities directly into their AI workflows via
+    MCP, enabling programmatic access to email campaigns, audience management, and analytics without leaving their
+    coding environment.
   mental_damage: Now your AI can argue with you about open rates while you’re trying to debug a segmentation fault.
   tags:
     - mcp-server
@@ -65,31 +78,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is as an MCP server for Mailchimp, fitting the MCP Servers & Tooling category where MCP is the primary adopted thing.
+  reason: >-
+    The product's core identity is as an MCP server for Mailchimp, fitting the MCP Servers & Tooling category where MCP
+    is the primary adopted thing.
   evidence:
     - Repo description explicitly identifies it as an MCP server for Mailchimp Marketing API
     - README details 227 tools spanning Mailchimp's API with MCP-specific configuration and safety modes
     - Topics include 'mcp', 'mcp-server', and 'model-context-protocol'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.609Z"
+    updated_at: '2026-05-06T22:12:15.609Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:33.542Z"
+    updated_at: '2026-09-14T04:13:33.542Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:49:31.027Z"
+    updated_at: '2026-07-21T15:49:31.027Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -102,7 +118,9 @@ processing:
       input_hash: sha256:51de3bb2995f2ff7322cc7ca92c2e0e627bb8f879d19198a690616e0bc5e59d9
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is as an MCP server for Mailchimp, fitting the MCP Servers & Tooling category where MCP is the primary adopted thing.
+      decision_reason: >-
+        The product's core identity is as an MCP server for Mailchimp, fitting the MCP Servers & Tooling category where
+        MCP is the primary adopted thing.
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server for Mailchimp Marketing API
         - README details 227 tools spanning Mailchimp's API with MCP-specific configuration and safety modes
@@ -110,6 +128,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary product identity is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary product identity is an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

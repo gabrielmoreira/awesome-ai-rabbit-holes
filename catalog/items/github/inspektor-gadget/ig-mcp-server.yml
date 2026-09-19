@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__inspektor-gadget__ig-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: Inspektor Gadget MCP server
         extracted_url: https://github.com/inspektor-gadget/ig-mcp-server
-        surrounding_text: "- **[Inspektor Gadget MCP server](https://github.com/inspektor-gadget/ig-mcp-server)** - Debug your Container and Kubernetes workloads with an AI interface powered by eBPF."
+        surrounding_text: >-
+          - **[Inspektor Gadget MCP server](https://github.com/inspektor-gadget/ig-mcp-server)** - Debug your Container
+          and Kubernetes workloads with an AI interface powered by eBPF.
         confidence: high
 metadata:
   github:
@@ -29,9 +31,9 @@ metadata:
     archived: false
     full_name: inspektor-gadget/ig-mcp-server
     html_url: https://github.com/inspektor-gadget/ig-mcp-server
-    created_at: "2025-04-09T16:52:17Z"
-    pushed_at: "2026-07-21T03:05:05Z"
-    description: "Debug your Container and Kubernetes workloads with an AI interface "
+    created_at: '2025-04-09T16:52:17Z'
+    pushed_at: '2026-07-21T03:05:05Z'
+    description: 'Debug your Container and Kubernetes workloads with an AI interface '
     homepage: https://inspektor-gadget.io
     topics:
       - ai
@@ -40,13 +42,17 @@ metadata:
       - kubernetes
       - linux
       - mcp-server
-    last_checked_at: "2026-07-30T05:05:43.779Z"
+    last_checked_at: '2026-07-30T05:05:43.779Z'
     readme:
-      fetched_at: "2026-07-30T05:05:43.779Z"
+      fetched_at: '2026-07-30T05:05:43.779Z'
       bytes: 11830
 insights:
-  summary: An MCP server that exposes Inspektor Gadget's eBPF-powered container/Kubernetes observability tools to AI agents via the Model Context Protocol.
-  why_it_matters: It lets developers use LLMs to autonomously select, run, and correlate low-level kernel telemetry gadgets for root cause analysis in containerized environments.
+  summary: >-
+    An MCP server that exposes Inspektor Gadget's eBPF-powered container/Kubernetes observability tools to AI agents via
+    the Model Context Protocol.
+  why_it_matters: >-
+    It lets developers use LLMs to autonomously select, run, and correlate low-level kernel telemetry gadgets for root
+    cause analysis in containerized environments.
   mental_damage: Now your AI can debug your DNS failures by reading the kernel’s mind, because apparently logs were too high-level.
   tags:
     - mcp-server
@@ -57,31 +63,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: it is a dedicated MCP server bridging Inspektor Gadget's telemetry tools to AI agents."
+  reason: >-
+    MCP is the product identity here: it is a dedicated MCP server bridging Inspektor Gadget's telemetry tools to AI
+    agents.
   evidence:
     - Repo description explicitly states it is an MCP server for debugging container/Kubernetes workloads
     - README details how it exposes Inspektor Gadget gadgets as MCP tools for LLM-driven analysis
     - Listed in awesome-mcp-servers under 'Official Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.620Z"
+    updated_at: '2026-05-06T22:12:15.620Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:43.779Z"
+    updated_at: '2026-07-30T05:05:43.779Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:08:27.728Z"
+    updated_at: '2026-07-21T16:08:27.728Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -94,7 +103,9 @@ processing:
       input_hash: sha256:ff67e653635cb0af67f5bf84e09f01e0f4b03c3164422a3b01016dfbd537cbb0
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: it is a dedicated MCP server bridging Inspektor Gadget's telemetry tools to AI agents."
+      decision_reason: >-
+        MCP is the product identity here: it is a dedicated MCP server bridging Inspektor Gadget's telemetry tools to AI
+        agents.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for debugging container/Kubernetes workloads
         - README details how it exposes Inspektor Gadget gadgets as MCP tools for LLM-driven analysis
@@ -102,6 +113,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server providing domain-specific tooling, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server providing domain-specific tooling,
+        not an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

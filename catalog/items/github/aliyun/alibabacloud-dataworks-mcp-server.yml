@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aliyun__alibabacloud-dataworks-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,11 @@ provenance:
           - Official Servers
         anchor_text: DataWorks
         extracted_url: https://github.com/aliyun/alibabacloud-dataworks-mcp-server
-        surrounding_text: "- **[DataWorks](https://github.com/aliyun/alibabacloud-dataworks-mcp-server)** - A Model Context Protocol (MCP) server that provides tools for AI, allowing it to interact with the DataWorks Open API through a standardized interface. This implementation is based on the Aliyun Open API and enables AI agents to perform cloud resources operations seamlessly."
+        surrounding_text: >-
+          - **[DataWorks](https://github.com/aliyun/alibabacloud-dataworks-mcp-server)** - A Model Context Protocol
+          (MCP) server that provides tools for AI, allowing it to interact with the DataWorks Open API through a
+          standardized interface. This implementation is based on the Aliyun Open API and enables AI agents to perform
+          cloud resources operations seamlessly.
         confidence: high
 metadata:
   github:
@@ -29,9 +33,12 @@ metadata:
     archived: false
     full_name: aliyun/alibabacloud-dataworks-mcp-server
     html_url: https://github.com/aliyun/alibabacloud-dataworks-mcp-server
-    created_at: "2025-03-26T09:20:49Z"
-    pushed_at: "2026-06-16T06:31:49Z"
-    description: A Model Context Protocol (MCP) server that provides tools for AI, allowing it to interact with the DataWorks Open API through a standardized interface. This implementation is based on the Aliyun Open API and enables AI agents to perform cloud resources operations seamlessly.
+    created_at: '2025-03-26T09:20:49Z'
+    pushed_at: '2026-06-16T06:31:49Z'
+    description: >-
+      A Model Context Protocol (MCP) server that provides tools for AI, allowing it to interact with the DataWorks Open
+      API through a standardized interface. This implementation is based on the Aliyun Open API and enables AI agents to
+      perform cloud resources operations seamlessly.
     homepage: https://www.aliyun.com/product/bigdata/ide
     topics:
       - ai
@@ -46,14 +53,20 @@ metadata:
       - modeling
       - scheduler
       - sql
-    last_checked_at: "2026-09-17T04:13:41.490Z"
+    last_checked_at: '2026-09-17T04:13:41.490Z'
     readme:
-      fetched_at: "2026-09-17T04:13:41.490Z"
+      fetched_at: '2026-09-17T04:13:41.490Z'
       bytes: 5917
 insights:
-  summary: An MCP server that enables AI agents to interact with Alibaba Cloud DataWorks Open API through a standardized interface.
-  why_it_matters: Developers can integrate DataWorks cloud resource operations into their AI workflows without custom API glue, reducing boilerplate for cloud-native agent tooling.
-  mental_damage: Now your AI can spin up DataWorks pipelines while you stare at the wall questioning if you're still a developer or just a YAML wrangler.
+  summary: >-
+    An MCP server that enables AI agents to interact with Alibaba Cloud DataWorks Open API through a standardized
+    interface.
+  why_it_matters: >-
+    Developers can integrate DataWorks cloud resource operations into their AI workflows without custom API glue,
+    reducing boilerplate for cloud-native agent tooling.
+  mental_damage: >-
+    Now your AI can spin up DataWorks pipelines while you stare at the wall questioning if you're still a developer or
+    just a YAML wrangler.
   tags:
     - mcp
     - alibaba-cloud
@@ -63,31 +76,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the product identity here—a server exposing DataWorks API tools via MCP protocol, not a secondary integration.
+  reason: >-
+    MCP is the product identity here—a server exposing DataWorks API tools via MCP protocol, not a secondary
+    integration.
   evidence:
     - Repo description explicitly states it is an MCP server for DataWorks Open API
     - README details MCP server configuration and tool exposure
     - Listed in awesome-mcp-servers under 'Official Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.601Z"
+    updated_at: '2026-05-06T22:12:15.601Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:41.490Z"
+    updated_at: '2026-09-17T04:13:41.490Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:22:16.577Z"
+    updated_at: '2026-07-21T15:22:16.577Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -100,7 +116,9 @@ processing:
       input_hash: sha256:3eb6c476dd742d557d1c9d853d91bece1c12a82694d51dd4e2d4ad2ac6c00a18
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the product identity here—a server exposing DataWorks API tools via MCP protocol, not a secondary integration.
+      decision_reason: >-
+        MCP is the product identity here—a server exposing DataWorks API tools via MCP protocol, not a secondary
+        integration.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for DataWorks Open API
         - README details MCP server configuration and tool exposure
@@ -108,6 +126,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

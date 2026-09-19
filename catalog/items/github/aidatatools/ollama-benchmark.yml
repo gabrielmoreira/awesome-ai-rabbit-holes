@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aidatatools__ollama-benchmark__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 评估 Evaluation
         anchor_text: Ollama Benchmark
         extracted_url: https://github.com/aidatatools/ollama-benchmark
-        surrounding_text: "8. [Ollama Benchmark](https://github.com/aidatatools/ollama-benchmark): LLM Benchmark for Throughput via Ollama (Local LLMs)."
+        surrounding_text: >-
+          8. [Ollama Benchmark](https://github.com/aidatatools/ollama-benchmark): LLM Benchmark for Throughput via
+          Ollama (Local LLMs).
         confidence: high
 metadata:
   github:
@@ -29,8 +31,8 @@ metadata:
     archived: false
     full_name: aidatatools/ollama-benchmark
     html_url: https://github.com/aidatatools/ollama-benchmark
-    created_at: "2024-01-18T06:24:37Z"
-    pushed_at: "2026-09-08T03:01:00Z"
+    created_at: '2024-01-18T06:24:37Z'
+    pushed_at: '2026-09-08T03:01:00Z'
     description: LLM Benchmark for Throughput via Ollama (Local LLMs)
     homepage: https://llm.aidatatools.com/
     topics:
@@ -39,13 +41,15 @@ metadata:
       - benchmark
       - llm
       - ollama
-    last_checked_at: "2026-09-17T04:13:35.663Z"
+    last_checked_at: '2026-09-17T04:13:35.663Z'
     readme:
-      fetched_at: "2026-09-17T04:13:35.663Z"
+      fetched_at: '2026-09-17T04:13:35.663Z'
       bytes: 3916
 insights:
   summary: A CLI tool for benchmarking the throughput and tokens-per-second performance of local LLMs running via Ollama.
-  why_it_matters: It allows developers to quantitatively measure the hardware performance and inference speed of local models across different RAM configurations.
+  why_it_matters: >-
+    It allows developers to quantitatively measure the hardware performance and inference speed of local models across
+    different RAM configurations.
   mental_damage: Nothing personal like watching your precious GPU cycles turn into a measurable sequence of tokens-per-second.
   tags:
     - ollama
@@ -56,31 +60,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's core function is measuring performance metrics (throughput/tokens per second), which falls directly under evaluation and benchmarking.
+  reason: >-
+    The tool's core function is measuring performance metrics (throughput/tokens per second), which falls directly under
+    evaluation and benchmarking.
   evidence:
     - README claims to 'Measure how fast your local LLMs really are'
     - Focuses on throughput and tokens-per-second truth
     - Includes custom benchmark model configuration via YAML
 placement:
   primary_category: evals
-  section: Agent Benchmarks
+  secondary_categories: []
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: promotion_candidate
   reason: Stars (359) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.600Z"
+    updated_at: '2026-05-06T22:12:15.600Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:35.663Z"
+    updated_at: '2026-09-17T04:13:35.663Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:09:29.220Z"
+    updated_at: '2026-07-20T16:09:29.220Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -93,7 +100,9 @@ processing:
       input_hash: sha256:13906df162392e58caf4c1ec827920cee2a83f2e91697f8cc9db12c67dbbaebc
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: The tool's core function is measuring performance metrics (throughput/tokens per second), which falls directly under evaluation and benchmarking.
+      decision_reason: >-
+        The tool's core function is measuring performance metrics (throughput/tokens per second), which falls directly
+        under evaluation and benchmarking.
       decision_evidence:
         - README claims to 'Measure how fast your local LLMs really are'
         - Focuses on throughput and tokens-per-second truth
@@ -101,6 +110,8 @@ processing:
       category_candidates:
         - evals
         - local-ai
-      contrastive_reason: Choose evals over local-ai because the primary utility is measuring model behavior and performance rather than providing a runtime or chat interface.
+      contrastive_reason: >-
+        Choose evals over local-ai because the primary utility is measuring model behavior and performance rather than
+        providing a runtime or chat interface.
       review_reason: null
       review_resume_lifecycle: null

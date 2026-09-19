@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mattijsdp__dbt-docs-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 📊 <a name="data-platforms"></a>Data Platforms
         anchor_text: mattijsdp/dbt-docs-mcp
         extracted_url: https://github.com/mattijsdp/dbt-docs-mcp
-        surrounding_text: "- [mattijsdp/dbt-docs-mcp](https://github.com/mattijsdp/dbt-docs-mcp) 🐍 🏠 - MCP server for dbt-core (OSS) users as the official dbt MCP only supports dbt Cloud. Supports project metadata, model and column-level lineage and dbt documentation."
+        surrounding_text: >-
+          - [mattijsdp/dbt-docs-mcp](https://github.com/mattijsdp/dbt-docs-mcp) 🐍 🏠 - MCP server for dbt-core (OSS)
+          users as the official dbt MCP only supports dbt Cloud. Supports project metadata, model and column-level
+          lineage and dbt documentation.
         confidence: high
     - id: discovery__github__mattijsdp__dbt-docs-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +38,10 @@ provenance:
           - Community Servers
         anchor_text: dbt-docs
         extracted_url: https://github.com/mattijsdp/dbt-docs-mcp
-        surrounding_text: "- **[dbt-docs](https://github.com/mattijsdp/dbt-docs-mcp)** - MCP server for dbt-core (OSS) users as the official dbt MCP only supports dbt Cloud. Supports project metadata, model and column-level lineage and dbt documentation."
+        surrounding_text: >-
+          - **[dbt-docs](https://github.com/mattijsdp/dbt-docs-mcp)** - MCP server for dbt-core (OSS) users as the
+          official dbt MCP only supports dbt Cloud. Supports project metadata, model and column-level lineage and dbt
+          documentation.
         confidence: high
 metadata:
   github:
@@ -45,19 +51,25 @@ metadata:
     archived: false
     full_name: mattijsdp/dbt-docs-mcp
     html_url: https://github.com/mattijsdp/dbt-docs-mcp
-    created_at: "2025-03-30T09:36:12Z"
-    pushed_at: "2025-08-19T20:35:15Z"
+    created_at: '2025-03-30T09:36:12Z'
+    pushed_at: '2025-08-19T20:35:15Z'
     description: MCP (model context protocol) server for interacting with dbt Docs
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:16:57.691Z"
+    last_checked_at: '2026-08-03T05:16:57.691Z'
     readme:
-      fetched_at: "2026-08-03T05:16:57.691Z"
+      fetched_at: '2026-08-03T05:16:57.691Z'
       bytes: 3402
 insights:
-  summary: An MCP server that exposes dbt project metadata, graph information, and column-level lineage from artifacts like manifest.json and catalog.json to AI coding assistants.
-  why_it_matters: It allows coding agents to understand complex data model dependencies and SQL lineage directly within their context, reducing the need to manually explain dbt projects.
-  mental_damage: We have successfully abstracted the job of reading JSON files into a protocol, so your AI can now pretend it understands your data warehouse without actually running the models.
+  summary: >-
+    An MCP server that exposes dbt project metadata, graph information, and column-level lineage from artifacts like
+    manifest.json and catalog.json to AI coding assistants.
+  why_it_matters: >-
+    It allows coding agents to understand complex data model dependencies and SQL lineage directly within their context,
+    reducing the need to manually explain dbt projects.
+  mental_damage: >-
+    We have successfully abstracted the job of reading JSON files into a protocol, so your AI can now pretend it
+    understands your data warehouse without actually running the models.
   tags:
     - mcp
     - dbt
@@ -67,35 +79,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server specifically for the dbt ecosystem, fitting the Domain Servers section of the MCP category.
+  reason: >-
+    The product's identity is an MCP server specifically for the dbt ecosystem, fitting the Domain Servers section of
+    the MCP category.
   evidence:
     - Repo description explicitly states 'MCP (model context protocol) server for interacting with dbt Docs'.
-    - README confirms it exposes dbt graph info, node details, and lineage as MCP tools (e.g., search_dbt_node_names, get_column_ancestors).
+    - >-
+      README confirms it exposes dbt graph info, node details, and lineage as MCP tools (e.g., search_dbt_node_names,
+      get_column_ancestors).
     - Listed in awesome-mcp-servers under 'Data Platforms' and 'Community Servers'.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.590Z"
+    updated_at: '2026-05-06T22:12:15.590Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:57.691Z"
+    updated_at: '2026-08-03T05:16:57.691Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

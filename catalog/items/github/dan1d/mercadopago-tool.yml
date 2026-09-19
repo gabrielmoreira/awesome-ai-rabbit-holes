@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dan1d__mercadopago-tool__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: dan1d/cobroya
         extracted_url: https://github.com/dan1d/mercadopago-tool
-        surrounding_text: "- [dan1d/cobroya](https://github.com/dan1d/mercadopago-tool) [![cobroya MCP server](https://glama.ai/mcp/servers/dan1d/cobroya/badges/score.svg)](https://glama.ai/mcp/servers/dan1d/cobroya) 📇 ☁️ 🍎 🪟 🐧 - Mercado Pago payments for AI agents — create payment links, search payments, and issue refunds. Built for LATAM merchants."
+        surrounding_text: >-
+          - [dan1d/cobroya](https://github.com/dan1d/mercadopago-tool) [![cobroya MCP
+          server](https://glama.ai/mcp/servers/dan1d/cobroya/badges/score.svg)](https://glama.ai/mcp/servers/dan1d/cobroya)
+          📇 ☁️ 🍎 🪟 🐧 - Mercado Pago payments for AI agents — create payment links, search payments, and issue
+          refunds. Built for LATAM merchants.
         confidence: high
 metadata:
   github:
@@ -30,18 +34,22 @@ metadata:
     archived: false
     full_name: dan1d/mercadopago-tool
     html_url: https://github.com/dan1d/mercadopago-tool
-    created_at: "2026-03-06T06:47:17Z"
-    pushed_at: "2026-03-11T13:11:33Z"
+    created_at: '2026-03-06T06:47:17Z'
+    pushed_at: '2026-03-11T13:11:33Z'
     description: Mercado Pago tool connector for AI agents, Telegram, WhatsApp and automation platforms
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:33.790Z"
+    last_checked_at: '2026-09-14T04:13:33.790Z'
     readme:
-      fetched_at: "2026-09-14T04:13:33.790Z"
+      fetched_at: '2026-09-14T04:13:33.790Z'
       bytes: 8595
 insights:
-  summary: An MCP server that exposes Mercado Pago payment tools (create links, search/refund payments) for AI agents, Telegram, WhatsApp, and automation platforms.
-  why_it_matters: Lets developers integrate Mercado Pago payments directly into AI agent workflows or chat bots without custom API plumbing.
+  summary: >-
+    An MCP server that exposes Mercado Pago payment tools (create links, search/refund payments) for AI agents,
+    Telegram, WhatsApp, and automation platforms.
+  why_it_matters: >-
+    Lets developers integrate Mercado Pago payments directly into AI agent workflows or chat bots without custom API
+    plumbing.
   mental_damage: Now your AI agent can invoice clients while it’s also writing the code they didn’t pay for.
   tags:
     - mcp-server
@@ -52,31 +60,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: it is a server exposing Mercado Pago tools via the Model Context Protocol."
+  reason: 'MCP is the product identity: it is a server exposing Mercado Pago tools via the Model Context Protocol.'
   evidence:
     - README explicitly states it is an MCP server with 5 tools for Mercado Pago
     - Source-list context lists it under MCP servers in Finance & Fintech
     - Repo description identifies it as a Mercado Pago tool connector for AI agents
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.609Z"
+    updated_at: '2026-05-06T22:12:15.609Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:33.790Z"
+    updated_at: '2026-09-14T04:13:33.790Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:49:31.310Z"
+    updated_at: '2026-07-21T15:49:31.310Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +98,7 @@ processing:
       input_hash: sha256:6a4b76fd8113a9dcf810eb39a03d7990767ce52fb2867abbaf4b48f2502b8dde
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: it is a server exposing Mercado Pago tools via the Model Context Protocol."
+      decision_reason: 'MCP is the product identity: it is a server exposing Mercado Pago tools via the Model Context Protocol.'
       decision_evidence:
         - README explicitly states it is an MCP server with 5 tools for Mercado Pago
         - Source-list context lists it under MCP servers in Finance & Fintech
@@ -97,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

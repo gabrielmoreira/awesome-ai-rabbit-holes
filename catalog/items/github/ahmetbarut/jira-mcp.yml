@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ahmetbarut__jira-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Community Servers
         anchor_text: Jira MCP Server
         extracted_url: https://github.com/ahmetbarut/jira-mcp
-        surrounding_text: "- **[Jira MCP Server](https://github.com/ahmetbarut/jira-mcp)** A modular and extensible MCP server designed to interact with Jira Cloud, providing tools to query boards, issues, and user data — ideal for integrating Jira with AI agents, bots, or automation systems"
+        surrounding_text: >-
+          - **[Jira MCP Server](https://github.com/ahmetbarut/jira-mcp)** A modular and extensible MCP server designed
+          to interact with Jira Cloud, providing tools to query boards, issues, and user data — ideal for integrating
+          Jira with AI agents, bots, or automation systems
         confidence: high
 metadata:
   github:
@@ -29,23 +32,27 @@ metadata:
     archived: false
     full_name: ahmetbarut/jira-mcp
     html_url: https://github.com/ahmetbarut/jira-mcp
-    created_at: "2025-06-05T23:01:38Z"
-    pushed_at: "2026-02-02T06:25:16Z"
+    created_at: '2025-06-05T23:01:38Z'
+    pushed_at: '2026-02-02T06:25:16Z'
     description: MCP server for using the Jira Cloud API
-    homepage: ""
+    homepage: ''
     topics:
       - cursor
       - jira
       - mcp
       - mcp-server
-    last_checked_at: "2026-09-17T04:13:34.659Z"
+    last_checked_at: '2026-09-17T04:13:34.659Z'
     readme:
-      fetched_at: "2026-09-17T04:13:34.659Z"
+      fetched_at: '2026-09-17T04:13:34.659Z'
       bytes: 4816
 insights:
   summary: An MCP server that enables AI agents to interact with the Jira Cloud API.
-  why_it_matters: It allows AI coding assistants to bridge the gap between code implementation and project management by querying boards and managing issues.
-  mental_damage: Finally, your AI assistant can confirm that the bug you just fixed was actually a 'high-priority feature request' in Jira.
+  why_it_matters: >-
+    It allows AI coding assistants to bridge the gap between code implementation and project management by querying
+    boards and managing issues.
+  mental_damage: >-
+    Finally, your AI assistant can confirm that the bug you just fixed was actually a 'high-priority feature request' in
+    Jira.
   tags:
     - mcp
     - jira
@@ -62,24 +69,25 @@ curation:
     - Included in 'awesome-mcp-servers' directory
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.600Z"
+    updated_at: '2026-05-06T22:12:15.600Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:34.659Z"
+    updated_at: '2026-09-17T04:13:34.659Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:05:27.033Z"
+    updated_at: '2026-07-20T16:05:27.033Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -100,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's primary identity is as a standalone MCP server rather than a host-level integration or plugin.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool's primary identity is as a standalone MCP server rather than
+        a host-level integration or plugin.
       review_reason: null
       review_resume_lifecycle: null

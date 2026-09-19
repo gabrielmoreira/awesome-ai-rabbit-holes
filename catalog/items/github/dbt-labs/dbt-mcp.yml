@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dbt-labs__dbt-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 📊 <a name="data-platforms"></a>Data Platforms
         anchor_text: dbt-labs/dbt-mcp
         extracted_url: https://github.com/dbt-labs/dbt-mcp
-        surrounding_text: "- [dbt-labs/dbt-mcp](https://github.com/dbt-labs/dbt-mcp) 🎖️ 🐍 🏠 ☁️ - Official MCP server for [dbt (data build tool)](https://www.getdbt.com/product/what-is-dbt) providing integration with dbt Core/Cloud CLI, project metadata discovery, model information, and semantic layer querying capabilities."
+        surrounding_text: >-
+          - [dbt-labs/dbt-mcp](https://github.com/dbt-labs/dbt-mcp) 🎖️ 🐍 🏠 ☁️ - Official MCP server for [dbt (data
+          build tool)](https://www.getdbt.com/product/what-is-dbt) providing integration with dbt Core/Cloud CLI,
+          project metadata discovery, model information, and semantic layer querying capabilities.
         confidence: high
     - id: discovery__github__dbt-labs__dbt-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +38,10 @@ provenance:
           - Official Servers
         anchor_text: dbt
         extracted_url: https://github.com/dbt-labs/dbt-mcp
-        surrounding_text: "- **[dbt](https://github.com/dbt-labs/dbt-mcp)** - Official MCP server for [dbt (data build tool)](https://www.getdbt.com/product/what-is-dbt) providing integration with dbt Core/Cloud CLI, project metadata discovery, model information, and semantic layer querying capabilities."
+        surrounding_text: >-
+          - **[dbt](https://github.com/dbt-labs/dbt-mcp)** - Official MCP server for [dbt (data build
+          tool)](https://www.getdbt.com/product/what-is-dbt) providing integration with dbt Core/Cloud CLI, project
+          metadata discovery, model information, and semantic layer querying capabilities.
         confidence: high
 metadata:
   github:
@@ -45,10 +51,10 @@ metadata:
     archived: false
     full_name: dbt-labs/dbt-mcp
     html_url: https://github.com/dbt-labs/dbt-mcp
-    created_at: "2025-03-12T20:13:12Z"
-    pushed_at: "2026-09-11T22:12:51Z"
+    created_at: '2025-03-12T20:13:12Z'
+    pushed_at: '2026-09-11T22:12:51Z'
     description: A MCP (Model Context Protocol) server for interacting with dbt.
-    homepage: ""
+    homepage: ''
     topics:
       - data-analytics
       - data-engineering
@@ -57,13 +63,17 @@ metadata:
       - mcp
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-09-14T04:13:36.564Z"
+    last_checked_at: '2026-09-14T04:13:36.564Z'
     readme:
-      fetched_at: "2026-09-14T04:13:36.564Z"
+      fetched_at: '2026-09-14T04:13:36.564Z'
       bytes: 8271
 insights:
-  summary: An MCP server that exposes dbt project context, SQL execution, semantic layer, discovery, CLI, and admin APIs to AI agents.
-  why_it_matters: Lets AI assistants query, generate, and act on dbt projects (models, metrics, lineage, jobs) without leaving the agent workflow.
+  summary: >-
+    An MCP server that exposes dbt project context, SQL execution, semantic layer, discovery, CLI, and admin APIs to AI
+    agents.
+  why_it_matters: >-
+    Lets AI assistants query, generate, and act on dbt projects (models, metrics, lineage, jobs) without leaving the
+    agent workflow.
   mental_damage: Now your AI can run `dbt test` while you’re still deciding whether your YAML is indented with spaces or tabs.
   tags:
     - mcp-server
@@ -74,31 +84,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server for dbt, not a compatibility footnote."
+  reason: 'MCP is the product identity: this is a dedicated MCP server for dbt, not a compatibility footnote.'
   evidence:
     - Repo description explicitly states it is a MCP server for interacting with dbt
     - README details extensive MCP tools for SQL, semantic layer, discovery, CLI, and admin APIs
     - Already listed in awesome-mcp-servers under Server Implementations > Data Platforms
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: promotion_candidate
   reason: Stars (556) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.584Z"
+    updated_at: '2026-05-06T22:12:15.584Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:36.564Z"
+    updated_at: '2026-09-14T04:13:36.564Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:50:10.574Z"
+    updated_at: '2026-07-21T15:50:10.574Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -111,7 +122,7 @@ processing:
       input_hash: sha256:904e97d62f6dd60f6e3bb126a70c00b92d5b6a0c29fdef2d8a4f552ad5408145
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server for dbt, not a compatibility footnote."
+      decision_reason: 'MCP is the product identity: this is a dedicated MCP server for dbt, not a compatibility footnote.'
       decision_evidence:
         - Repo description explicitly states it is a MCP server for interacting with dbt
         - README details extensive MCP tools for SQL, semantic layer, discovery, CLI, and admin APIs
@@ -119,6 +130,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing dbt capabilities, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server exposing dbt capabilities, not an
+        extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

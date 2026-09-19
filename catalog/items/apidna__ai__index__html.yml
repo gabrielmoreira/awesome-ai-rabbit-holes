@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__apidna__ai__index__html__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-20T16:42:15.363Z"
+      discovered_at: '2026-07-20T16:42:15.363Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - APIDNA
         anchor_text: APIDNA
         extracted_url: https://apidna.ai
-        surrounding_text: "## [APIDNA](https://apidna.ai/)"
+        surrounding_text: '## [APIDNA](https://apidna.ai/)'
         confidence: high
 metadata:
   github:
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: Vertically-trained agentic systems and an execution platform for automating complex enterprise workflows.
-  why_it_matters: It provides the orchestration and governance layer needed to move AI agents from simple prompt-response demos to reliable, multi-step execution across enterprise APIs and legacy systems.
-  mental_damage: Another platform promising to bridge the gap between 'cool AI demo' and 'production-ready enterprise operation' through the power of vertical training.
+  why_it_matters: >-
+    It provides the orchestration and governance layer needed to move AI agents from simple prompt-response demos to
+    reliable, multi-step execution across enterprise APIs and legacy systems.
+  mental_damage: >-
+    Another platform promising to bridge the gap between 'cool AI demo' and 'production-ready enterprise operation'
+    through the power of vertical training.
   tags:
     - agent-orchestration
     - enterprise-ai
@@ -47,20 +51,23 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It acts as an operated control plane and runtime platform designed to coordinate multiple specialized agents across complex enterprise systems.
+  reason: >-
+    It acts as an operated control plane and runtime platform designed to coordinate multiple specialized agents across
+    complex enterprise systems.
   evidence:
     - Describes itself as an 'execution layer' and 'platform' for coordinating specialized agents
     - Offers orchestration, state management, and human-in-the-loop governance for multi-step workflows
 placement:
   primary_category: agent-orchestration
-  section: Vertical Orchestration Platforms
+  secondary_categories: []
+  section: Domain & Enterprise Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-20T16:42:15.364Z"
+    updated_at: '2026-07-20T16:42:15.364Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +76,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:14:04.704Z"
+    updated_at: '2026-08-27T06:14:04.704Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -80,14 +87,18 @@ processing:
       input_hash: sha256:f33cbfaab20e3621597bf18f36053d46c2d3a5e56ae0193f611a08e67a64d878
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: It acts as an operated control plane and runtime platform designed to coordinate multiple specialized agents across complex enterprise systems.
+      decision_reason: >-
+        It acts as an operated control plane and runtime platform designed to coordinate multiple specialized agents
+        across complex enterprise systems.
       decision_evidence:
         - Describes itself as an 'execution layer' and 'platform' for coordinating specialized agents
         - Offers orchestration, state management, and human-in-the-loop governance for multi-step workflows
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is positioned as an operated platform and execution layer rather than a code-first SDK or library.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because the product is positioned as an operated platform and
+        execution layer rather than a code-first SDK or library.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

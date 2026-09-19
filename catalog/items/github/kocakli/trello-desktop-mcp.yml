@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kocakli__trello-desktop-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Community Servers
         anchor_text: Trello MCP
         extracted_url: https://github.com/kocakli/trello-desktop-mcp
-        surrounding_text: "- **[Trello MCP](https://github.com/kocakli/Trello-Desktop-MCP)** - Trello Desktop MCP server that enables Claude Desktop to interact with Trello boards, cards, lists, and team members through natural language commands."
+        surrounding_text: >-
+          - **[Trello MCP](https://github.com/kocakli/Trello-Desktop-MCP)** - Trello Desktop MCP server that enables
+          Claude Desktop to interact with Trello boards, cards, lists, and team members through natural language
+          commands.
         confidence: high
 metadata:
   github:
@@ -29,9 +32,11 @@ metadata:
     archived: false
     full_name: kocakli/Trello-Desktop-MCP
     html_url: https://github.com/kocakli/Trello-Desktop-MCP
-    created_at: "2025-06-12T09:59:40Z"
-    pushed_at: "2026-03-03T07:50:52Z"
-    description: Trello integration for Claude Desktop via Model Context Protocol (MCP) - 19 tools for comprehensive board, card, and list management
+    created_at: '2025-06-12T09:59:40Z'
+    pushed_at: '2026-03-03T07:50:52Z'
+    description: >-
+      Trello integration for Claude Desktop via Model Context Protocol (MCP) - 19 tools for comprehensive board, card,
+      and list management
     homepage: https://trello.mcplab.tr/
     topics:
       - antrophic
@@ -41,13 +46,17 @@ metadata:
       - openai
       - trello
       - typescript
-    last_checked_at: "2026-07-30T05:05:57.661Z"
+    last_checked_at: '2026-07-30T05:05:57.661Z'
     readme:
-      fetched_at: "2026-07-30T05:05:57.661Z"
+      fetched_at: '2026-07-30T05:05:57.661Z'
       bytes: 9438
 insights:
-  summary: An MCP server that provides Trello integration for AI assistants like Claude Desktop, enabling board, card, and list management via 19 tools.
-  why_it_matters: Developers can now delegate Trello workflow tasks (creating cards, moving lists, adding comments) directly to their AI coding assistants without leaving their IDE or terminal.
+  summary: >-
+    An MCP server that provides Trello integration for AI assistants like Claude Desktop, enabling board, card, and list
+    management via 19 tools.
+  why_it_matters: >-
+    Developers can now delegate Trello workflow tasks (creating cards, moving lists, adding comments) directly to their
+    AI coding assistants without leaving their IDE or terminal.
   mental_damage: Finally, your AI can move that 'Fix the build' card from 'In Progress' to 'Done' while you pretend you did it.
   tags:
     - mcp
@@ -58,31 +67,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server whose primary identity is providing Trello capabilities via the Model Context Protocol, fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is a dedicated MCP server whose primary identity is providing Trello capabilities via the Model Context
+    Protocol, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states it is a 'Trello integration for Claude Desktop via Model Context Protocol (MCP)'
+    - >-
+      Repo description explicitly states it is a 'Trello integration for Claude Desktop via Model Context Protocol
+      (MCP)'
     - README confirms it is an MCP server with 19 tools for Trello management
     - Listed in awesome-mcp-servers under 'Community Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.624Z"
+    updated_at: '2026-05-06T22:12:15.624Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:57.661Z"
+    updated_at: '2026-07-30T05:05:57.661Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:12:58.844Z"
+    updated_at: '2026-07-21T16:12:58.844Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -95,14 +109,20 @@ processing:
       input_hash: sha256:db5fe6d3dc4ba92d3ffe83b033c732d23e7cb676ed2df33e2a96859d4540a1f9
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a dedicated MCP server whose primary identity is providing Trello capabilities via the Model Context Protocol, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is a dedicated MCP server whose primary identity is providing Trello capabilities via the Model Context
+        Protocol, fitting the MCP Servers & Tooling category.
       decision_evidence:
-        - Repo description explicitly states it is a 'Trello integration for Claude Desktop via Model Context Protocol (MCP)'
+        - >-
+          Repo description explicitly states it is a 'Trello integration for Claude Desktop via Model Context Protocol
+          (MCP)'
         - README confirms it is an MCP server with 19 tools for Trello management
         - Listed in awesome-mcp-servers under 'Community Servers'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server (not just an extension for another assistant), and MCP is the primary adopted protocol here.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server (not just an extension
+        for another assistant), and MCP is the primary adopted protocol here.
       review_reason: null
       review_resume_lifecycle: null

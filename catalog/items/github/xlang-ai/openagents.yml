@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__xlang-ai__openagents__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,10 +19,10 @@ provenance:
           - OpenAgents
         anchor_text: OpenAgents
         extracted_url: https://github.com/xlang-ai/openagents
-        surrounding_text: "## [OpenAgents](https://github.com/xlang-ai/OpenAgents)"
+        surrounding_text: '## [OpenAgents](https://github.com/xlang-ai/OpenAgents)'
         confidence: high
     - id: discovery__github__xlang-ai__openagents__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -34,7 +34,7 @@ provenance:
           - Frameworks
         anchor_text: OpenAgents
         extracted_url: https://github.com/xlang-ai/openagents
-        surrounding_text: "- [OpenAgents](https://github.com/xlang-ai/OpenAgents) - Open platform for language"
+        surrounding_text: '- [OpenAgents](https://github.com/xlang-ai/OpenAgents) - Open platform for language'
         confidence: high
 metadata:
   github:
@@ -44,9 +44,9 @@ metadata:
     archived: false
     full_name: xlang-ai/OpenAgents
     html_url: https://github.com/xlang-ai/OpenAgents
-    created_at: "2023-08-08T09:15:28Z"
-    pushed_at: "2024-11-18T09:39:29Z"
-    description: "[COLM 2024] OpenAgents: An Open Platform for Language Agents in the Wild"
+    created_at: '2023-08-08T09:15:28Z'
+    pushed_at: '2024-11-18T09:39:29Z'
+    description: '[COLM 2024] OpenAgents: An Open Platform for Language Agents in the Wild'
     homepage: https://arxiv.org/abs/2310.10634
     topics:
       - agent
@@ -61,14 +61,20 @@ metadata:
       - semantic-parsing
       - tool-learning
       - ui
-    last_checked_at: "2026-07-21T15:21:18.045Z"
+    last_checked_at: '2026-07-21T15:21:18.045Z'
     readme:
-      fetched_at: "2026-07-21T15:21:18.045Z"
+      fetched_at: '2026-07-21T15:21:18.045Z'
       bytes: 22742
 insights:
-  summary: OpenAgents is an open platform for deploying and hosting language agents like Data, Plugins, and Web agents with a web UI and local setup support.
-  why_it_matters: It lets developers and researchers build, test, and run real-world language agents beyond proof-of-concept, with full-stack tooling for data analysis, web browsing, and plugin use.
-  mental_damage: Yet another ‘open platform’ promising AGI in the wild while you’re just trying to get your CSV parsed without hallucinating a pivot table.
+  summary: >-
+    OpenAgents is an open platform for deploying and hosting language agents like Data, Plugins, and Web agents with a
+    web UI and local setup support.
+  why_it_matters: >-
+    It lets developers and researchers build, test, and run real-world language agents beyond proof-of-concept, with
+    full-stack tooling for data analysis, web browsing, and plugin use.
+  mental_damage: >-
+    Yet another ‘open platform’ promising AGI in the wild while you’re just trying to get your CSV parsed without
+    hallucinating a pivot table.
   tags:
     - language-agents
     - agent-platform
@@ -76,31 +82,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: OpenAgents is a hosted platform for coordinating multiple specialized agents (Data, Plugins, Web) via a unified runtime and web UI, making it a control plane for agent workflows rather than a coding assistant or extension.
+  reason: >-
+    OpenAgents is a hosted platform for coordinating multiple specialized agents (Data, Plugins, Web) via a unified
+    runtime and web UI, making it a control plane for agent workflows rather than a coding assistant or extension.
   evidence:
-    - "Repo description: 'OpenAgents: An Open Platform for Language Agents in the Wild'"
-    - "README: 'We have now implemented three agents in OpenAgents... Data Agent for data analysis... Plugins Agent with 200+ daily tools... Web Agent for autonomous web browsing'"
-    - "README: 'OpenAgents enables general users to interact with agent functionalities through a web UI... offering developers and researchers a seamless deployment experience on local setups'"
+    - 'Repo description: ''OpenAgents: An Open Platform for Language Agents in the Wild'''
+    - >-
+      README: 'We have now implemented three agents in OpenAgents... Data Agent for data analysis... Plugins Agent with
+      200+ daily tools... Web Agent for autonomous web browsing'
+    - >-
+      README: 'OpenAgents enables general users to interact with agent functionalities through a web UI... offering
+      developers and researchers a seamless deployment experience on local setups'
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (4791) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.595Z"
+    updated_at: '2026-05-06T22:12:15.595Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:18.045Z"
+    updated_at: '2026-07-21T15:21:18.045Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:41:17.258Z"
+    updated_at: '2026-05-12T15:41:17.258Z'
     cause: null
     next_retry_at: null
     attempts: 1

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cvelasquez__mcp-sqlserver__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-09-14T04:13:20.171Z"
+      discovered_at: '2026-09-14T04:13:20.171Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: cvelasquez/mcp-sqlserver
         extracted_url: https://github.com/cvelasquez/mcp-sqlserver
-        surrounding_text: "- [cvelasquez/mcp-sqlserver](https://github.com/cvelasquez/mcp-sqlserver) [![cvelasquez/mcp-sqlserver MCP server](https://glama.ai/mcp/servers/cvelasquez/mcp-sqlserver/badges/score.svg)](https://glama.ai/mcp/servers/cvelasquez/mcp-sqlserver) 📇 🏠 ☁️ - Manage dozens of SQL Server instances from one config file, grouped by client or environment and hot-reloaded, with execution plans, index audits and stored-procedure analysis"
+        surrounding_text: >-
+          - [cvelasquez/mcp-sqlserver](https://github.com/cvelasquez/mcp-sqlserver) [![cvelasquez/mcp-sqlserver MCP
+          server](https://glama.ai/mcp/servers/cvelasquez/mcp-sqlserver/badges/score.svg)](https://glama.ai/mcp/servers/cvelasquez/mcp-sqlserver)
+          📇 🏠 ☁️ - Manage dozens of SQL Server instances from one config file, grouped by client or environment and
+          hot-reloaded, with execution plans, index audits and stored-procedure analysis
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: cvelasquez/mcp-sqlserver
     html_url: https://github.com/cvelasquez/mcp-sqlserver
-    created_at: "2025-10-06T16:57:28Z"
-    pushed_at: "2026-09-10T18:23:30Z"
-    description: One MCP server for every SQL Server you administer — grouped connections, execution plans, index audits, stored-procedure analysis
+    created_at: '2025-10-06T16:57:28Z'
+    pushed_at: '2026-09-10T18:23:30Z'
+    description: >-
+      One MCP server for every SQL Server you administer — grouped connections, execution plans, index audits,
+      stored-procedure analysis
     homepage: https://www.npmjs.com/package/@cevelas/mcp-sqlserver
     topics:
       - ai-agents
@@ -47,13 +53,17 @@ metadata:
       - query-optimization
       - sql-server
       - tsql
-    last_checked_at: "2026-09-14T04:13:32.172Z"
+    last_checked_at: '2026-09-14T04:13:32.172Z'
     readme:
-      fetched_at: "2026-09-14T04:13:32.172Z"
+      fetched_at: '2026-09-14T04:13:32.172Z'
       bytes: 12156
 insights:
-  summary: An MCP server that enables AI agents to manage and query multiple SQL Server instances through a centralized connection configuration.
-  why_it_matters: It allows DBAs and developers to delegate complex tasks like execution plan analysis and index auditing to AI agents across many different environments via a single configuration.
+  summary: >-
+    An MCP server that enables AI agents to manage and query multiple SQL Server instances through a centralized
+    connection configuration.
+  why_it_matters: >-
+    It allows DBAs and developers to delegate complex tasks like execution plan analysis and index auditing to AI agents
+    across many different environments via a single configuration.
   mental_damage: Because consolidating thirty database connections into one JSON file is definitely a productive use of your time.
   tags:
     - mcp
@@ -64,31 +74,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The tool's primary identity is a Model Context Protocol server providing domain-specific database capabilities to any compatible agent.
+  reason: >-
+    The tool's primary identity is a Model Context Protocol server providing domain-specific database capabilities to
+    any compatible agent.
   evidence:
     - Repo description identifies it as an MCP server for SQL Server administration
     - README highlights specialized capabilities like execution plan analysis and index audits
     - Explicitly designed to work via the Model Context Protocol configuration in agents like Claude Desktop and Cursor
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-14T04:13:20.173Z"
+    updated_at: '2026-09-14T04:13:20.173Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:32.172Z"
+    updated_at: '2026-09-14T04:13:32.172Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-14T04:19:09.852Z"
+    updated_at: '2026-09-14T04:19:09.852Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -97,15 +110,21 @@ processing:
       input_hash: sha256:a46337a8c42d13f4fe280664bbc67437b0df647ab3e73f4da09d347c588f1635
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The tool's primary identity is a Model Context Protocol server providing domain-specific database capabilities to any compatible agent.
+      decision_reason: >-
+        The tool's primary identity is a Model Context Protocol server providing domain-specific database capabilities
+        to any compatible agent.
       decision_evidence:
         - Repo description identifies it as an MCP server for SQL Server administration
         - README highlights specialized capabilities like execution plan analysis and index audits
-        - Explicitly designed to work via the Model Context Protocol configuration in agents like Claude Desktop and Cursor
+        - >-
+          Explicitly designed to work via the Model Context Protocol configuration in agents like Claude Desktop and
+          Cursor
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool is a standalone MCP server implementation rather than an integration designed for a specific editor or assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool is a standalone MCP server implementation rather than an
+        integration designed for a specific editor or assistant.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

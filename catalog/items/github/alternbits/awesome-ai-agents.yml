@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alternbits__awesome-ai-agents__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,7 +19,9 @@ provenance:
           - Related Lists
         anchor_text: Awesome AI Agents
         extracted_url: https://github.com/aylar-ghezelbash/awesome-ai-agents
-        surrounding_text: "- **[Awesome AI Agents](https://github.com/aylar-ghezelbash/awesome-ai-agents)** – AI agents for automation and development."
+        surrounding_text: >-
+          - **[Awesome AI Agents](https://github.com/aylar-ghezelbash/awesome-ai-agents)** – AI agents for automation
+          and development.
         confidence: high
 metadata:
   github:
@@ -29,10 +31,10 @@ metadata:
     archived: false
     full_name: alternbits/awesome-ai-agents
     html_url: https://github.com/alternbits/awesome-ai-agents
-    created_at: "2025-01-21T14:38:33Z"
-    pushed_at: "2026-02-02T13:48:07Z"
+    created_at: '2025-01-21T14:38:33Z'
+    pushed_at: '2026-02-02T13:48:07Z'
     description: A curated list of awesome top best AI Agents
-    homepage: ""
+    homepage: ''
     topics:
       - ai
       - ai-agent
@@ -44,13 +46,15 @@ metadata:
       - awesome-list
       - ml
       - mlops
-    last_checked_at: "2026-09-17T04:13:42.310Z"
+    last_checked_at: '2026-09-17T04:13:42.310Z'
     readme:
-      fetched_at: "2026-09-17T04:13:42.310Z"
+      fetched_at: '2026-09-17T04:13:42.310Z'
       bytes: 4720
 insights:
   summary: A curated list of AI agents, categorized into open-source and closed-source projects.
-  why_it_matters: Provides developers with a navigable directory of agent frameworks, tools, and platforms to explore or integrate into their workflows.
+  why_it_matters: >-
+    Provides developers with a navigable directory of agent frameworks, tools, and platforms to explore or integrate
+    into their workflows.
   mental_damage: Because nothing says 'productivity' like a list of 100 agent frameworks you’ll never have time to try.
   tags:
     - directory
@@ -59,32 +63,31 @@ insights:
     - awesome-list
   confidence: high
 curation:
-  status: included
-  reason: This is a curated directory of AI agents, which fits the 'Awesome Awesomes' category as a navigation aid for developers.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Repo description explicitly states it is a curated list of AI agents
-    - README confirms it is a categorized directory of open/closed-source agent projects
-    - Source-list context shows it is already included in 'awesome-ai-coding-tools' under 'Related Lists'
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.602Z"
+    updated_at: '2026-05-06T22:12:15.602Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:42.310Z"
+    updated_at: '2026-09-17T04:13:42.310Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:22:30.602Z"
+    updated_at: '2026-07-21T15:22:30.602Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -97,7 +100,9 @@ processing:
       input_hash: sha256:d9a92768a73598a31eb70c2ab9c7699755cac8085e8c6cae7637e543e0c9396a
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: This is a curated directory of AI agents, which fits the 'Awesome Awesomes' category as a navigation aid for developers.
+      decision_reason: >-
+        This is a curated directory of AI agents, which fits the 'Awesome Awesomes' category as a navigation aid for
+        developers.
       decision_evidence:
         - Repo description explicitly states it is a curated list of AI agents
         - README confirms it is a categorized directory of open/closed-source agent projects
@@ -105,6 +110,8 @@ processing:
       category_candidates:
         - awesome-awesomes
         - agent-orchestration
-      contrastive_reason: Choose awesome-awesomes over agent-orchestration because the primary value is discovery/navigation, not multi-agent coordination.
+      contrastive_reason: >-
+        Choose awesome-awesomes over agent-orchestration because the primary value is discovery/navigation, not
+        multi-agent coordination.
       review_reason: null
       review_resume_lifecycle: null

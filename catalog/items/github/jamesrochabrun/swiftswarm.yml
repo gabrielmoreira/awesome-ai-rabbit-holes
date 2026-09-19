@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jamesrochabrun__swiftswarm__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -20,7 +20,9 @@ provenance:
           - Swift, Ruby & Elixir Frameworks
         anchor_text: SwiftSwarm
         extracted_url: https://github.com/jamesrochabrun/swiftswarm
-        surrounding_text: "| [SwiftSwarm](https://github.com/jamesrochabrun/SwiftSwarm) | Swift framework for lightweight multi-agent orchestration | ![Stars](https://img.shields.io/github/stars/jamesrochabrun/SwiftSwarm) |"
+        surrounding_text: >-
+          | [SwiftSwarm](https://github.com/jamesrochabrun/SwiftSwarm) | Swift framework for lightweight multi-agent
+          orchestration | ![Stars](https://img.shields.io/github/stars/jamesrochabrun/SwiftSwarm) |
         confidence: high
 metadata:
   github:
@@ -30,14 +32,14 @@ metadata:
     archived: false
     full_name: jamesrochabrun/SwiftSwarm
     html_url: https://github.com/jamesrochabrun/SwiftSwarm
-    created_at: "2024-10-22T22:52:16Z"
-    pushed_at: "2025-07-07T18:40:28Z"
+    created_at: '2024-10-22T22:52:16Z'
+    pushed_at: '2025-07-07T18:40:28Z'
     description: Swift framework exploring ergonomic, lightweight multi-agent orchestration. Inspired by Swarm OpenAI library
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:05:47.474Z"
+    last_checked_at: '2026-07-30T05:05:47.474Z'
     readme:
-      fetched_at: "2026-07-30T05:05:47.474Z"
+      fetched_at: '2026-07-30T05:05:47.474Z'
       bytes: 11737
 insights:
   summary: Swift framework for lightweight multi-agent orchestration inspired by OpenAI's Swarm library.
@@ -51,31 +53,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a code-first framework (Swift library) for agent orchestration, not an operated platform or host integration.
+  reason: >-
+    The product is a code-first framework (Swift library) for agent orchestration, not an operated platform or host
+    integration.
   evidence:
-    - "Repo description: 'Swift framework exploring ergonomic, lightweight multi-agent orchestration'"
-    - "README: 'Swift framework... Its main use case is to enable seamless transitions between agents in a conversation'"
-    - "Source-list context: listed under 'Core Frameworks > Swift, Ruby & Elixir Frameworks' in awesome-agent-orchestration"
+    - 'Repo description: ''Swift framework exploring ergonomic, lightweight multi-agent orchestration'''
+    - 'README: ''Swift framework... Its main use case is to enable seamless transitions between agents in a conversation'''
+    - >-
+      Source-list context: listed under 'Core Frameworks > Swift, Ruby & Elixir Frameworks' in
+      awesome-agent-orchestration
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  secondary_categories: []
+  section: Multi-Agent Systems
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:47.474Z"
+    updated_at: '2026-07-30T05:05:47.474Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:09:53.736Z"
+    updated_at: '2026-07-21T16:09:53.736Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,14 +95,22 @@ processing:
       input_hash: sha256:a0ced44fb509caef2c46df05850f0fdf1bfa6aeeda5305f3679eafbfe9a3a076
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: The product is a code-first framework (Swift library) for agent orchestration, not an operated platform or host integration.
+      decision_reason: >-
+        The product is a code-first framework (Swift library) for agent orchestration, not an operated platform or host
+        integration.
       decision_evidence:
-        - "Repo description: 'Swift framework exploring ergonomic, lightweight multi-agent orchestration'"
-        - "README: 'Swift framework... Its main use case is to enable seamless transitions between agents in a conversation'"
-        - "Source-list context: listed under 'Core Frameworks > Swift, Ruby & Elixir Frameworks' in awesome-agent-orchestration"
+        - 'Repo description: ''Swift framework exploring ergonomic, lightweight multi-agent orchestration'''
+        - >-
+          README: 'Swift framework... Its main use case is to enable seamless transitions between agents in a
+          conversation'
+        - >-
+          Source-list context: listed under 'Core Frameworks > Swift, Ruby & Elixir Frameworks' in
+          awesome-agent-orchestration
       category_candidates:
         - ai-frameworks
         - agent-orchestration
-      contrastive_reason: Choose ai-frameworks over agent-orchestration because the primary identity is a code-first Swift library for developers to import and build with, not an operated workbench or control plane.
+      contrastive_reason: >-
+        Choose ai-frameworks over agent-orchestration because the primary identity is a code-first Swift library for
+        developers to import and build with, not an operated workbench or control plane.
       review_reason: null
       review_resume_lifecycle: null

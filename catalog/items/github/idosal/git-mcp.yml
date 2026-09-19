@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__idosal__git-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: idosal/git-mcp
         extracted_url: https://github.com/idosal/git-mcp
-        surrounding_text: "- [idosal/git-mcp](https://github.com/idosal/git-mcp) 📇 ☁️ - [gitmcp.io](https://gitmcp.io/) is a generic remote MCP server to connect to ANY [GitHub](https://www.github.com) repository or project for documentation"
+        surrounding_text: >-
+          - [idosal/git-mcp](https://github.com/idosal/git-mcp) 📇 ☁️ - [gitmcp.io](https://gitmcp.io/) is a generic
+          remote MCP server to connect to ANY [GitHub](https://www.github.com) repository or project for documentation
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: idosal/git-mcp
     html_url: https://github.com/idosal/git-mcp
-    created_at: "2025-03-29T00:44:19Z"
-    pushed_at: "2026-05-08T14:21:24Z"
+    created_at: '2025-03-29T00:44:19Z'
+    pushed_at: '2026-05-08T14:21:24Z'
     description: Put an end to code hallucinations! GitMCP is a free, open-source, remote MCP server for any GitHub project
     homepage: https://gitmcp.io
     topics:
@@ -44,14 +46,20 @@ metadata:
       - git
       - llm
       - mcp
-    last_checked_at: "2026-07-30T05:05:41.646Z"
+    last_checked_at: '2026-07-30T05:05:41.646Z'
     readme:
-      fetched_at: "2026-07-30T05:05:41.646Z"
+      fetched_at: '2026-07-30T05:05:41.646Z'
       bytes: 15886
 insights:
-  summary: GitMCP is a free, open-source remote MCP server that provides AI assistants with up-to-date access to GitHub repositories to reduce code hallucinations.
-  why_it_matters: It lets developers give their AI coding tools direct, real-time access to any GitHub project's docs and code, improving accuracy for niche or rapidly changing libraries.
-  mental_damage: Finally, a way to stop your AI from confidently inventing APIs that don’t exist—until it starts hallucinating the GitHub repo URL instead.
+  summary: >-
+    GitMCP is a free, open-source remote MCP server that provides AI assistants with up-to-date access to GitHub
+    repositories to reduce code hallucinations.
+  why_it_matters: >-
+    It lets developers give their AI coding tools direct, real-time access to any GitHub project's docs and code,
+    improving accuracy for niche or rapidly changing libraries.
+  mental_damage: >-
+    Finally, a way to stop your AI from confidently inventing APIs that don’t exist—until it starts hallucinating the
+    GitHub repo URL instead.
   tags:
     - mcp
     - github
@@ -61,31 +69,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the core product identity: it is explicitly a Model Context Protocol server for GitHub projects, not merely an MCP-compatible extension."
+  reason: >-
+    MCP is the core product identity: it is explicitly a Model Context Protocol server for GitHub projects, not merely
+    an MCP-compatible extension.
   evidence:
     - Repo description explicitly states it is a 'remote MCP server for any GitHub project'
     - README emphasizes its role as an MCP server transforming GitHub projects into documentation hubs
     - Already listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (8032) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.620Z"
+    updated_at: '2026-05-06T22:12:15.620Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:41.646Z"
+    updated_at: '2026-07-30T05:05:41.646Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:07:30.174Z"
+    updated_at: '2026-07-21T16:07:30.174Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -98,7 +109,9 @@ processing:
       input_hash: sha256:518530c365169dcacbd2e39086610cf5706d3801d9af679e2062619c057c7fb8
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the core product identity: it is explicitly a Model Context Protocol server for GitHub projects, not merely an MCP-compatible extension."
+      decision_reason: >-
+        MCP is the core product identity: it is explicitly a Model Context Protocol server for GitHub projects, not
+        merely an MCP-compatible extension.
       decision_evidence:
         - Repo description explicitly states it is a 'remote MCP server for any GitHub project'
         - README emphasizes its role as an MCP server transforming GitHub projects into documentation hubs
@@ -106,6 +119,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product's primary identity is as an MCP server, not a general context/retrieval system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the product's primary identity is as an MCP server, not a general
+        context/retrieval system.
       review_reason: null
       review_resume_lifecycle: null

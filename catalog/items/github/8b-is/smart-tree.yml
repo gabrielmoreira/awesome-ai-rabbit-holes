@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__8b-is__smart-tree__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 📂 <a name="file-systems"></a>File Systems
         anchor_text: 8b-is/smart-tree
         extracted_url: https://github.com/8b-is/smart-tree
-        surrounding_text: "- [8b-is/smart-tree](https://github.com/8b-is/smart-tree) 🦀 🏠 🍎 🪟 🐧 - AI-native directory visualization with semantic analysis, ultra-compressed formats for AI consumption, and 10x token reduction. Supports quantum-semantic mode with intelligent file categorization."
+        surrounding_text: >-
+          - [8b-is/smart-tree](https://github.com/8b-is/smart-tree) 🦀 🏠 🍎 🪟 🐧 - AI-native directory visualization
+          with semantic analysis, ultra-compressed formats for AI consumption, and 10x token reduction. Supports
+          quantum-semantic mode with intelligent file categorization.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,12 @@ metadata:
     archived: false
     full_name: 8b-is/smart-tree
     html_url: https://github.com/8b-is/smart-tree
-    created_at: "2025-06-19T05:50:03Z"
-    pushed_at: "2026-09-11T17:20:41Z"
-    description: "Smart Tree: not just a tree, a philosophy. A context-aware, AI-crafted replacement for 20+ tools with MEM8 quantum compression, semantic search, AST-smart editing, and partnership memory. Crafted with care by human + AI—accept no knock-offs."
+    created_at: '2025-06-19T05:50:03Z'
+    pushed_at: '2026-09-11T17:20:41Z'
+    description: >-
+      Smart Tree: not just a tree, a philosophy. A context-aware, AI-crafted replacement for 20+ tools with MEM8 quantum
+      compression, semantic search, AST-smart editing, and partnership memory. Crafted with care by human + AI—accept no
+      knock-offs.
     homepage: https://s.8b.is/q/3PNnlY6jT
     topics:
       - ai
@@ -53,14 +59,20 @@ metadata:
       - quantum-algorithms
       - rust
       - tree
-    last_checked_at: "2026-09-17T04:13:26.853Z"
+    last_checked_at: '2026-09-17T04:13:26.853Z'
     readme:
-      fetched_at: "2026-09-17T04:13:26.853Z"
+      fetched_at: '2026-09-17T04:13:26.853Z'
       bytes: 33217
 insights:
-  summary: A high-performance, AI-optimized directory visualization tool built in Rust that includes security scanning for AI integrations and an MCP server implementation.
-  why_it_matters: It provides AI assistants with compressed, semantic, and AST-aware codebase overviews to reduce token usage and improve contextual understanding.
-  mental_damage: Nothing says "modern workflow" like running a specialized security scan to ensure your AI assistant isn't secretly being hijacked by a malicious MCP server.
+  summary: >-
+    A high-performance, AI-optimized directory visualization tool built in Rust that includes security scanning for AI
+    integrations and an MCP server implementation.
+  why_it_matters: >-
+    It provides AI assistants with compressed, semantic, and AST-aware codebase overviews to reduce token usage and
+    improve contextual understanding.
+  mental_damage: >-
+    Nothing says "modern workflow" like running a specialized security scan to ensure your AI assistant isn't secretly
+    being hijacked by a malicious MCP server.
   tags:
     - rust
     - mcp
@@ -70,31 +82,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core novelty is context-shaping infrastructure—specifically AI-friendly directory visualization, token reduction via compression, and persistent memory—rather than acting as a primary coding agent or a simple host integration.
+  reason: >-
+    The core novelty is context-shaping infrastructure—specifically AI-friendly directory visualization, token reduction
+    via compression, and persistent memory—rather than acting as a primary coding agent or a simple host integration.
   evidence:
     - README claims '80% Token Reduction' and 'Persistent Memory' as core features for AI assistants.
     - Topics include context, compression, mcp, and claude-code, aligning with context engineering tooling.
-    - Description explicitly mentions 'context-aware' and 'quantum compression' as primary features over standard tree utilities.
+    - >-
+      Description explicitly mentions 'context-aware' and 'quantum compression' as primary features over standard tree
+      utilities.
 placement:
-  primary_category: context-engineering
-  section: null
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Compression & Token Optimization
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'mcp'"
+  reason: 'Categorization review required: placement disagreement: retained ''context-engineering'', proposed ''mcp'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.598Z"
+    updated_at: '2026-05-06T22:12:15.598Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:26.853Z"
+    updated_at: '2026-09-17T04:13:26.853Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:51:02.983Z"
+    updated_at: '2026-07-20T15:51:02.983Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -107,7 +124,9 @@ processing:
       input_hash: sha256:cdca3802a235439817e85045441ed6cb3d8ea3b11674fcb14de9665139bf3419
       proposed_primary_category: mcp
       disagreement: true
-      decision_reason: The tool's core value proposition is providing 30+ MCP tools and a specialized MCP server to give assistants structured filesystem access.
+      decision_reason: >-
+        The tool's core value proposition is providing 30+ MCP tools and a specialized MCP server to give assistants
+        structured filesystem access.
       decision_evidence:
         - README explicitly highlights '30+ MCP tools' and 'MCP Server' as core features
         - Includes security scanning specifically for MCP integrations and supply chain attacks
@@ -115,6 +134,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the tool's primary interface for users is through MCP server capabilities and tools rather than a standalone compression library.
-      review_reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'mcp'"
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the tool's primary interface for users is through MCP server
+        capabilities and tools rather than a standalone compression library.
+      review_reason: 'Categorization review required: placement disagreement: retained ''context-engineering'', proposed ''mcp'''
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__codex-data__codex-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: codex-data/codex-mcp
         extracted_url: https://github.com/codex-data/codex-mcp
-        surrounding_text: "- [codex-data/codex-mcp](https://github.com/Codex-Data/codex-mcp) 🎖️ 📇 ☁️ - [Codex API](https://www.codex.io) integration for real-time enriched blockchain and market data on 60+ networks"
+        surrounding_text: >-
+          - [codex-data/codex-mcp](https://github.com/Codex-Data/codex-mcp) 🎖️ 📇 ☁️ - [Codex
+          API](https://www.codex.io) integration for real-time enriched blockchain and market data on 60+ networks
         confidence: high
 metadata:
   github:
@@ -30,14 +32,14 @@ metadata:
     archived: false
     full_name: Codex-Data/codex-mcp
     html_url: https://github.com/Codex-Data/codex-mcp
-    created_at: "2025-03-31T00:17:57Z"
-    pushed_at: "2025-04-05T16:29:23Z"
+    created_at: '2025-03-31T00:17:57Z'
+    pushed_at: '2025-04-05T16:29:23Z'
     description: A Model Context Protocol server for the Codex API
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:49.464Z"
+    last_checked_at: '2026-09-07T04:13:49.464Z'
     readme:
-      fetched_at: "2026-09-07T04:13:49.464Z"
+      fetched_at: '2026-09-07T04:13:49.464Z'
       bytes: 1993
 insights:
   summary: An MCP server that provides enriched blockchain data from Codex for use with MCP-compatible clients.
@@ -51,31 +53,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a domain-specific MCP server whose primary identity is providing blockchain data via MCP, fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is a domain-specific MCP server whose primary identity is providing blockchain data via MCP, fitting the MCP
+    Servers & Tooling category.
   evidence:
     - Repo description explicitly states it is an MCP server for the Codex API
     - README confirms it is an MCP server for blockchain data integration
     - Already listed in awesome-mcp-servers under Finance & Fintech
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:49.464Z"
+    updated_at: '2026-09-07T04:13:49.464Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:44:59.627Z"
+    updated_at: '2026-07-21T15:44:59.627Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +93,9 @@ processing:
       input_hash: sha256:740d7d4b57c1492287378309d43766630d23865f7c9c1471c5bff1e2200a90dc
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a domain-specific MCP server whose primary identity is providing blockchain data via MCP, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is a domain-specific MCP server whose primary identity is providing blockchain data via MCP, fitting the
+        MCP Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for the Codex API
         - README confirms it is an MCP server for blockchain data integration
@@ -96,6 +103,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another tool.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an
+        extension for another tool.
       review_reason: null
       review_resume_lifecycle: null

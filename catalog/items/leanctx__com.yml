@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__leanctx__com__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-21T05:27:57.681Z"
+      discovered_at: '2026-05-21T05:27:57.681Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -18,7 +18,11 @@ provenance:
           - Optimizations
         anchor_text: Website
         extracted_url: https://leanctx.com
-        surrounding_text: "| [lean-ctx](https://github.com/yvgude/lean-ctx)                                    | Context runtime and MCP server that reduces AI coding agent token costs via session caching, AST-aware compression, and shell output patterns. [Website](https://leanctx.com) | ![GitHub Badge](https://img.shields.io/github/stars/yvgude/lean-ctx.svg?style=flat-square) |"
+        surrounding_text: >-
+          | [lean-ctx](https://github.com/yvgude/lean-ctx)                                    | Context runtime and MCP
+          server that reduces AI coding agent token costs via session caching, AST-aware compression, and shell output
+          patterns. [Website](https://leanctx.com) | ![GitHub
+          Badge](https://img.shields.io/github/stars/yvgude/lean-ctx.svg?style=flat-square) |
         confidence: high
 metadata:
   github:
@@ -34,9 +38,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: LeanCTX is an open-source Rust binary that sits between AI coding tools and codebases to visualize, compress, and control what context reaches the model.
-  why_it_matters: It cuts token costs and context bloat by stripping noise—like comments and whitespace—while preserving structure, and adds session memory and cross-agent context control across 29+ editors and assistants.
-  mental_damage: You now get a live dashboard to watch your AI context window fill up with garbage, because apparently 'please ignore the comments' was too ambiguous for a trillion-parameter model.
+  summary: >-
+    LeanCTX is an open-source Rust binary that sits between AI coding tools and codebases to visualize, compress, and
+    control what context reaches the model.
+  why_it_matters: >-
+    It cuts token costs and context bloat by stripping noise—like comments and whitespace—while preserving structure,
+    and adds session memory and cross-agent context control across 29+ editors and assistants.
+  mental_damage: >-
+    You now get a live dashboard to watch your AI context window fill up with garbage, because apparently 'please ignore
+    the comments' was too ambiguous for a trillion-parameter model.
   tags:
     - context-compression
     - context-window
@@ -46,21 +56,29 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's entire identity is context shaping—AST-based compression, visibility, session memory, and routing—making it a canonical fit for Prompt & Context Engineering rather than an extension of any specific editor or agent.
+  reason: >-
+    The product's entire identity is context shaping—AST-based compression, visibility, session memory, and
+    routing—making it a canonical fit for Prompt & Context Engineering rather than an extension of any specific editor
+    or agent.
   evidence:
-    - Site claims it 'sits between your AI and your codebase' with 10 read modes and Tree-sitter AST parsing to compress file reads by 60-99%.
+    - >-
+      Site claims it 'sits between your AI and your codebase' with 10 read modes and Tree-sitter AST parsing to compress
+      file reads by 60-99%.
     - Markets cross-session memory, knowledge graphs, and context checkpoints as core features, not side integrations.
-    - Works with 29+ AI tools (Cursor, Claude Code, Copilot) as a compatibility layer, but its substance is token distillation and context lifecycle management.
+    - >-
+      Works with 29+ AI tools (Cursor, Claude Code, Copilot) as a compatibility layer, but its substance is token
+      distillation and context lifecycle management.
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Compression & Token Optimization
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-21T05:27:57.684Z"
+    updated_at: '2026-05-21T05:27:57.684Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +87,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-25T05:38:14.447Z"
+    updated_at: '2026-05-25T05:38:14.447Z'
     cause: null
     next_retry_at: null
     attempts: 2

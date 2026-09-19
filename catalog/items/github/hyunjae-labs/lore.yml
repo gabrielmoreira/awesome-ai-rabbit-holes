@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hyunjae-labs__lore__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: hyunjae-labs/lore
         extracted_url: https://github.com/hyunjae-labs/lore
-        surrounding_text: "- [hyunjae-labs/lore](https://github.com/hyunjae-labs/lore) [![hyunjae-labs/lore MCP server](https://glama.ai/mcp/servers/hyunjae-labs/lore/badges/score.svg)](https://glama.ai/mcp/servers/hyunjae-labs/lore) 📇 🏠 🍎 🪟 🐧 - Semantic search across Claude Code conversations. Hybrid vector + keyword search with Reciprocal Rank Fusion, fully local, background indexing, project-selective."
+        surrounding_text: >-
+          - [hyunjae-labs/lore](https://github.com/hyunjae-labs/lore) [![hyunjae-labs/lore MCP
+          server](https://glama.ai/mcp/servers/hyunjae-labs/lore/badges/score.svg)](https://glama.ai/mcp/servers/hyunjae-labs/lore)
+          📇 🏠 🍎 🪟 🐧 - Semantic search across Claude Code conversations. Hybrid vector + keyword search with
+          Reciprocal Rank Fusion, fully local, background indexing, project-selective.
         confidence: high
 metadata:
   github:
@@ -30,19 +34,27 @@ metadata:
     archived: false
     full_name: hyunjae-labs/lore
     html_url: https://github.com/hyunjae-labs/lore
-    created_at: "2026-03-18T11:42:03Z"
-    pushed_at: "2026-05-13T04:37:54Z"
-    description: Semantic search MCP server for Claude Code conversations. Hybrid vector + keyword search across all your sessions, fully local.
+    created_at: '2026-03-18T11:42:03Z'
+    pushed_at: '2026-05-13T04:37:54Z'
+    description: >-
+      Semantic search MCP server for Claude Code conversations. Hybrid vector + keyword search across all your sessions,
+      fully local.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:41.295Z"
+    last_checked_at: '2026-07-30T05:05:41.295Z'
     readme:
-      fetched_at: "2026-07-30T05:05:41.295Z"
+      fetched_at: '2026-07-30T05:05:41.295Z'
       bytes: 7539
 insights:
-  summary: A fully local MCP server that enables semantic and keyword search across Claude Code and OpenAI Codex CLI conversation histories.
-  why_it_matters: Developers can instantly retrieve past discussions, decisions, and debugging sessions across all projects and agents without relying on cloud APIs or manual indexing.
-  mental_damage: Finally, a way to remember what you told the AI to do last week—because apparently, neither of you have that kind of memory.
+  summary: >-
+    A fully local MCP server that enables semantic and keyword search across Claude Code and OpenAI Codex CLI
+    conversation histories.
+  why_it_matters: >-
+    Developers can instantly retrieve past discussions, decisions, and debugging sessions across all projects and agents
+    without relying on cloud APIs or manual indexing.
+  mental_damage: >-
+    Finally, a way to remember what you told the AI to do last week—because apparently, neither of you have that kind of
+    memory.
   tags:
     - mcp-server
     - semantic-search
@@ -52,31 +64,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a purpose-built MCP server for conversation search, not a generic extension or framework."
+  reason: >-
+    MCP is the product identity: this is a purpose-built MCP server for conversation search, not a generic extension or
+    framework.
   evidence:
     - Repo description explicitly states it is a 'Semantic search MCP server for Claude Code conversations'
-    - README details MCP-specific integration (e.g., `claude mcp add`, `codex mcp add`) and MCP tooling (e.g., `index`, `search`, `get_context`)
-    - "Core functionality is MCP-first: hybrid search, local execution, and agent-agnostic conversation indexing"
+    - >-
+      README details MCP-specific integration (e.g., `claude mcp add`, `codex mcp add`) and MCP tooling (e.g., `index`,
+      `search`, `get_context`)
+    - 'Core functionality is MCP-first: hybrid search, local execution, and agent-agnostic conversation indexing'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.619Z"
+    updated_at: '2026-05-06T22:12:15.619Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:41.295Z"
+    updated_at: '2026-07-30T05:05:41.295Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:07:23.001Z"
+    updated_at: '2026-07-21T16:07:23.001Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,14 +106,20 @@ processing:
       input_hash: sha256:698f65e638169224deb1fd3eef041f2d0d1f53cad4f997368f887629c5a7e545
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a purpose-built MCP server for conversation search, not a generic extension or framework."
+      decision_reason: >-
+        MCP is the product identity: this is a purpose-built MCP server for conversation search, not a generic extension
+        or framework.
       decision_evidence:
         - Repo description explicitly states it is a 'Semantic search MCP server for Claude Code conversations'
-        - README details MCP-specific integration (e.g., `claude mcp add`, `codex mcp add`) and MCP tooling (e.g., `index`, `search`, `get_context`)
-        - "Core functionality is MCP-first: hybrid search, local execution, and agent-agnostic conversation indexing"
+        - >-
+          README details MCP-specific integration (e.g., `claude mcp add`, `codex mcp add`) and MCP tooling (e.g.,
+          `index`, `search`, `get_context`)
+        - 'Core functionality is MCP-first: hybrid search, local execution, and agent-agnostic conversation indexing'
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product is explicitly an MCP server (with MCP as the primary identity) rather than a standalone retrieval/memory system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the product is explicitly an MCP server (with MCP as the primary
+        identity) rather than a standalone retrieval/memory system.
       review_reason: null
       review_resume_lifecycle: null

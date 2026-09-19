@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__huggingface__peft__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -19,10 +19,12 @@ provenance:
           - Training
         anchor_text: PEFT
         extracted_url: https://github.com/huggingface/peft
-        surrounding_text: "- [PEFT](https://github.com/huggingface/peft) - Parameter efficient fine-tuning (LoRA, DoRA, model merger and more)"
+        surrounding_text: >-
+          - [PEFT](https://github.com/huggingface/peft) - Parameter efficient fine-tuning (LoRA, DoRA, model merger and
+          more)
         confidence: high
     - id: discovery__github__huggingface__peft__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -35,7 +37,11 @@ provenance:
           - Foundation Model Fine Tuning
         anchor_text: peft
         extracted_url: https://github.com/huggingface/peft
-        surrounding_text: "| [peft](https://github.com/huggingface/peft)                                | State-of-the-art Parameter-Efficient Fine-Tuning.                                                                                                                                                | ![GitHub Badge](https://img.shields.io/github/stars/huggingface/peft.svg?style=flat-square)                |"
+        surrounding_text: >-
+          | [peft](https://github.com/huggingface/peft)                                | State-of-the-art
+          Parameter-Efficient
+          Fine-Tuning.                                                                                                                                               
+          | ![GitHub Badge](https://img.shields.io/github/stars/huggingface/peft.svg?style=flat-square)                |
         confidence: high
 metadata:
   github:
@@ -45,9 +51,9 @@ metadata:
     archived: false
     full_name: huggingface/peft
     html_url: https://github.com/huggingface/peft
-    created_at: "2022-11-25T03:51:09Z"
-    pushed_at: "2026-07-28T13:35:09Z"
-    description: "🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning."
+    created_at: '2022-11-25T03:51:09Z'
+    pushed_at: '2026-07-28T13:35:09Z'
+    description: '🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning.'
     homepage: https://huggingface.co/docs/peft
     topics:
       - adapter
@@ -60,13 +66,17 @@ metadata:
       - python
       - pytorch
       - transformers
-    last_checked_at: "2026-07-30T05:05:39.776Z"
+    last_checked_at: '2026-07-30T05:05:39.776Z'
     readme:
-      fetched_at: "2026-07-30T05:05:39.776Z"
+      fetched_at: '2026-07-30T05:05:39.776Z'
       bytes: 12244
 insights:
-  summary: PEFT is a Python library for state-of-the-art Parameter-Efficient Fine-Tuning methods like LoRA, enabling adaptation of large pre-trained models with minimal computational and storage costs.
-  why_it_matters: It allows developers to fine-tune large models efficiently by only training a small subset of parameters, reducing resource requirements while maintaining performance.
+  summary: >-
+    PEFT is a Python library for state-of-the-art Parameter-Efficient Fine-Tuning methods like LoRA, enabling adaptation
+    of large pre-trained models with minimal computational and storage costs.
+  why_it_matters: >-
+    It allows developers to fine-tune large models efficiently by only training a small subset of parameters, reducing
+    resource requirements while maintaining performance.
   mental_damage: Now you can fine-tune that 70B parameter model on your laptop, or at least pretend you can until your GPU melts.
   tags:
     - fine-tuning
@@ -77,31 +87,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: PEFT is a code-first library/SDK for parameter-efficient fine-tuning, primarily used as a building block in Python code rather than as an operated platform or assistant.
+  reason: >-
+    PEFT is a code-first library/SDK for parameter-efficient fine-tuning, primarily used as a building block in Python
+    code rather than as an operated platform or assistant.
   evidence:
     - Repo description explicitly states it is a library for Parameter-Efficient Fine-Tuning
     - README shows it is integrated with Transformers, Diffusers, and Accelerate for model training/inference
     - Source-list context places it under Training > Foundation Model Fine Tuning in LLMOps tools
 placement:
-  primary_category: ai-frameworks
-  section: Provider / Model Abstractions
+  primary_category: local-ai
+  secondary_categories: []
+  section: Fine-tuning & Training
 lifecycle:
   status: promotion_candidate
   reason: Stars (21070) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.587Z"
+    updated_at: '2026-05-06T22:12:15.587Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:39.776Z"
+    updated_at: '2026-07-30T05:05:39.776Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:06:47.507Z"
+    updated_at: '2026-07-21T16:06:47.507Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -114,7 +127,9 @@ processing:
       input_hash: sha256:f80fb8f40be1b176a2f1dacd5541bfa361dbbe941ad24b61d7bc2d4cd647d2c4
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: PEFT is a code-first library/SDK for parameter-efficient fine-tuning, primarily used as a building block in Python code rather than as an operated platform or assistant.
+      decision_reason: >-
+        PEFT is a code-first library/SDK for parameter-efficient fine-tuning, primarily used as a building block in
+        Python code rather than as an operated platform or assistant.
       decision_evidence:
         - Repo description explicitly states it is a library for Parameter-Efficient Fine-Tuning
         - README shows it is integrated with Transformers, Diffusers, and Accelerate for model training/inference
@@ -122,6 +137,8 @@ processing:
       category_candidates:
         - ai-frameworks
         - local-ai
-      contrastive_reason: Choose ai-frameworks over local-ai because PEFT is a code-first library for fine-tuning rather than a local runtime or serving layer.
+      contrastive_reason: >-
+        Choose ai-frameworks over local-ai because PEFT is a code-first library for fine-tuning rather than a local
+        runtime or serving layer.
       review_reason: null
       review_resume_lifecycle: null

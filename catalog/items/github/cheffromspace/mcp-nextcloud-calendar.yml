@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cheffromspace__mcp-nextcloud-calendar__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Nextcloud Calendar
         extracted_url: https://github.com/cheffromspace/mcp-nextcloud-calendar
-        surrounding_text: "- **[Nextcloud Calendar](https://github.com/Cheffromspace/mcp-nextcloud-calendar)** - CalDAV Nectcloud calendar integration. Manage calendars, events, attendees, etc."
+        surrounding_text: >-
+          - **[Nextcloud Calendar](https://github.com/Cheffromspace/mcp-nextcloud-calendar)** - CalDAV Nectcloud
+          calendar integration. Manage calendars, events, attendees, etc.
         confidence: high
 metadata:
   github:
@@ -29,18 +31,20 @@ metadata:
     archived: false
     full_name: Cheffromspace/mcp-nextcloud-calendar
     html_url: https://github.com/Cheffromspace/mcp-nextcloud-calendar
-    created_at: "2025-04-15T22:17:45Z"
-    pushed_at: "2025-05-11T19:59:16Z"
+    created_at: '2025-04-15T22:17:45Z'
+    pushed_at: '2025-05-11T19:59:16Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:44.137Z"
+    last_checked_at: '2026-09-07T04:13:44.137Z'
     readme:
-      fetched_at: "2026-09-07T04:13:44.137Z"
+      fetched_at: '2026-09-07T04:13:44.137Z'
       bytes: 5286
 insights:
   summary: An MCP server that integrates Nextcloud Calendar with Model Context Protocol clients.
-  why_it_matters: Lets developers expose Nextcloud calendar data to MCP-compatible AI assistants for scheduling, event management, and context-aware workflows.
+  why_it_matters: >-
+    Lets developers expose Nextcloud calendar data to MCP-compatible AI assistants for scheduling, event management, and
+    context-aware workflows.
   mental_damage: Now your AI can finally judge you for your calendar hygiene in real time.
   tags:
     - mcp
@@ -57,24 +61,25 @@ curation:
     - Provides MCP tools for calendar/event management
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.607Z"
+    updated_at: '2026-05-06T22:12:15.607Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:44.137Z"
+    updated_at: '2026-09-07T04:13:44.137Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:41:23.502Z"
+    updated_at: '2026-07-21T15:41:23.502Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,7 +92,9 @@ processing:
       input_hash: sha256:04303918cb43288157866f1af30c9eb26979fdd53c0bf2413b4f3acef9076832
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a dedicated MCP server whose primary identity is providing Nextcloud Calendar integration via MCP protocol.
+      decision_reason: >-
+        This is a dedicated MCP server whose primary identity is providing Nextcloud Calendar integration via MCP
+        protocol.
       decision_evidence:
         - README explicitly describes it as an MCP server for Nextcloud Calendar
         - Source-list context shows it in awesome-mcp-servers under Community Servers
@@ -95,6 +102,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

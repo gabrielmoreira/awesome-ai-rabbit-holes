@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dahrkai__dahrk-node__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-08-27T06:08:24.604Z"
+      discovered_at: '2026-08-27T06:08:24.604Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,11 @@ provenance:
           - Orchestrators & autonomous loops
         anchor_text: Dahrk
         extracted_url: https://github.com/dahrkai/dahrk-node
-        surrounding_text: "- **[Dahrk](https://github.com/dahrkai/dahrk-node)** `⭐ 7` — Runs a deterministic multi-stage workflow per Linear issue on a node you own; each stage gets its own runtime (Claude Code, Codex, Pi), model, prompt, and git worktree, sequenced by plain TypeScript so no model picks the next step. Apache-2.0 node; the workflow hub is hosted and requires an account."
+        surrounding_text: >-
+          - **[Dahrk](https://github.com/dahrkai/dahrk-node)** `⭐ 7` — Runs a deterministic multi-stage workflow per
+          Linear issue on a node you own; each stage gets its own runtime (Claude Code, Codex, Pi), model, prompt, and
+          git worktree, sequenced by plain TypeScript so no model picks the next step. Apache-2.0 node; the workflow hub
+          is hosted and requires an account.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: dahrkai/dahrk-node
     html_url: https://github.com/dahrkai/dahrk-node
-    created_at: "2026-07-04T13:17:21Z"
-    pushed_at: "2026-09-07T10:43:20Z"
+    created_at: '2026-07-04T13:17:21Z'
+    pushed_at: '2026-09-07T10:43:20Z'
     description: Dahrk edge client - deliberate nodes that run deterministic multi-stage agent workflows per Linear issue
     homepage: https://dahrk.ai
     topics:
@@ -42,13 +46,17 @@ metadata:
       - linear
       - typescript
       - workflow-automation
-    last_checked_at: "2026-09-14T04:13:33.162Z"
+    last_checked_at: '2026-09-14T04:13:33.162Z'
     readme:
-      fetched_at: "2026-09-14T04:13:33.162Z"
+      fetched_at: '2026-09-14T04:13:33.162Z'
       bytes: 22125
 insights:
-  summary: Dahrk node is a self-hosted client that runs deterministic multi-stage agent workflows dispatched from a hosted hub per Linear issue.
-  why_it_matters: It lets developers run reproducible, hub-orchestrated agent pipelines on their own machine without sacrificing control over the execution environment.
+  summary: >-
+    Dahrk node is a self-hosted client that runs deterministic multi-stage agent workflows dispatched from a hosted hub
+    per Linear issue.
+  why_it_matters: >-
+    It lets developers run reproducible, hub-orchestrated agent pipelines on their own machine without sacrificing
+    control over the execution environment.
   mental_damage: Finally, a way to feel both in control and utterly dependent on a SaaS hub for your agent workflows to do anything.
   tags:
     - agent-workflows
@@ -57,31 +65,40 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The node executes staged workflows dispatched by a hosted hub, making it a runtime agent for orchestrated multi-stage pipelines rather than a standalone coding assistant.
+  reason: >-
+    The node executes staged workflows dispatched by a hosted hub, making it a runtime agent for orchestrated
+    multi-stage pipelines rather than a standalone coding assistant.
   evidence:
-    - "Repo description: 'Dahrk edge client - deliberate nodes that run deterministic multi-stage agent workflows per Linear issue'"
-    - "README: 'The engine that sequences stages is pure TypeScript and never lets a model decide control flow; inference happens only *inside* a stage'"
-    - "Source-list context: Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous loops'"
+    - >-
+      Repo description: 'Dahrk edge client - deliberate nodes that run deterministic multi-stage agent workflows per
+      Linear issue'
+    - >-
+      README: 'The engine that sequences stages is pure TypeScript and never lets a model decide control flow; inference
+      happens only *inside* a stage'
+    - >-
+      Source-list context: Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators &
+      autonomous loops'
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-08-27T06:08:24.606Z"
+    updated_at: '2026-08-27T06:08:24.606Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:33.162Z"
+    updated_at: '2026-09-14T04:13:33.162Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T09:25:25.432Z"
+    updated_at: '2026-08-27T09:25:25.432Z'
     cause: null
     next_retry_at: null
     classification:
@@ -91,15 +108,26 @@ processing:
       input_hash: sha256:07f103de859483d8fe85cc8e9e76da408d7a15cdf5182f5c56be950d8138e1a6
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The node executes staged workflows dispatched by a hosted hub, making it a runtime agent for orchestrated multi-stage pipelines rather than a standalone coding assistant.
+      decision_reason: >-
+        The node executes staged workflows dispatched by a hosted hub, making it a runtime agent for orchestrated
+        multi-stage pipelines rather than a standalone coding assistant.
       decision_evidence:
-        - "Repo description: 'Dahrk edge client - deliberate nodes that run deterministic multi-stage agent workflows per Linear issue'"
-        - "README: 'The engine that sequences stages is pure TypeScript and never lets a model decide control flow; inference happens only *inside* a stage'"
-        - "Source-list context: Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous loops'"
+        - >-
+          Repo description: 'Dahrk edge client - deliberate nodes that run deterministic multi-stage agent workflows per
+          Linear issue'
+        - >-
+          README: 'The engine that sequences stages is pure TypeScript and never lets a model decide control flow;
+          inference happens only *inside* a stage'
+        - >-
+          Source-list context: Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators &
+          autonomous loops'
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because the node does not plan or write code itself—it executes pre-defined workflow stages dispatched by a hub, making it an orchestration runtime rather than a primary coding assistant.
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because the node does not plan or write code itself—it executes
+        pre-defined workflow stages dispatched by a hub, making it an orchestration runtime rather than a primary coding
+        assistant.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

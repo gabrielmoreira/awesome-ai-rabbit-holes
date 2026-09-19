@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__altern__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Related Lists
         anchor_text: Altern
         extracted_url: https://altern.ai
-        surrounding_text: "- **[Altern](https://altern.ai)** – AI tool discovery platform."
+        surrounding_text: '- **[Altern](https://altern.ai)** – AI tool discovery platform.'
         confidence: high
 metadata:
   github:
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: A curated directory of AI tools, agents, and SDKs.
-  why_it_matters: It acts as a discovery layer for developers trying to navigate the rapidly shifting landscape of AI-powered development utilities.
-  mental_damage: Because choosing between 100 different 'top' tools is a much more efficient way to procrastinate than actually writing code.
+  why_it_matters: >-
+    It acts as a discovery layer for developers trying to navigate the rapidly shifting landscape of AI-powered
+    development utilities.
+  mental_damage: >-
+    Because choosing between 100 different 'top' tools is a much more efficient way to procrastinate than actually
+    writing code.
   tags:
     - directory
     - curation
@@ -46,21 +50,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a directory and map for discovering the AI ecosystem, which aligns with the core mission of the awesome-awesomes category.
+  reason: >-
+    The product is a directory and map for discovering the AI ecosystem, which aligns with the core mission of the
+    awesome-awesomes category.
   evidence:
     - Scraped site explicitly defines itself as an 'AI Tool Directory'
     - Lists 100+ tools across categories like IDE, App Builders, and Coding Agents
     - Provides collections and curated lists for navigation
 placement:
   primary_category: awesome-awesomes
-  section: Directories & Maps
+  secondary_categories: []
+  section: Awesome Lists & Directories
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.658Z"
+    updated_at: '2026-05-06T22:12:15.658Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +76,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:21:12.963Z"
+    updated_at: '2026-07-20T15:21:12.963Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -82,7 +89,9 @@ processing:
       input_hash: sha256:4b7e0624393d2b4010b4a0af0aca9661e80efdd16cc8d4fdc4d47777b2179058
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: The product is a directory and map for discovering the AI ecosystem, which aligns with the core mission of the awesome-awesomes category.
+      decision_reason: >-
+        The product is a directory and map for discovering the AI ecosystem, which aligns with the core mission of the
+        awesome-awesomes category.
       decision_evidence:
         - Scraped site explicitly defines itself as an 'AI Tool Directory'
         - Lists 100+ tools across categories like IDE, App Builders, and Coding Agents
@@ -90,6 +99,8 @@ processing:
       category_candidates:
         - awesome-awesomes
         - coding-agents
-      contrastive_reason: Choose awesome-awesomes over coding-agents because the product is a discovery index rather than a standalone coding assistant.
+      contrastive_reason: >-
+        Choose awesome-awesomes over coding-agents because the product is a discovery index rather than a standalone
+        coding assistant.
       review_reason: null
       review_resume_lifecycle: null

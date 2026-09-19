@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__crypto-trending-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/crypto-trending-mcp
         extracted_url: https://github.com/kukapay/crypto-trending-mcp
-        surrounding_text: "- [kukapay/crypto-trending-mcp](https://github.com/kukapay/crypto-trending-mcp) 🐍 ☁️ - Tracking the latest trending tokens on CoinGecko."
+        surrounding_text: >-
+          - [kukapay/crypto-trending-mcp](https://github.com/kukapay/crypto-trending-mcp) 🐍 ☁️ - Tracking the latest
+          trending tokens on CoinGecko.
         confidence: high
 metadata:
   github:
@@ -30,17 +32,19 @@ metadata:
     archived: false
     full_name: kukapay/crypto-trending-mcp
     html_url: https://github.com/kukapay/crypto-trending-mcp
-    created_at: "2025-04-17T17:21:23Z"
-    pushed_at: "2025-07-24T13:17:52Z"
+    created_at: '2025-04-17T17:21:23Z'
+    pushed_at: '2025-07-24T13:17:52Z'
     description: An MCP server that tracks and monitors the latest trending tokens on CoinGecko.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:59.906Z"
+    last_checked_at: '2026-07-30T05:05:59.906Z'
     readme:
-      fetched_at: "2026-07-30T05:05:59.906Z"
+      fetched_at: '2026-07-30T05:05:59.906Z'
       bytes: 4372
 insights:
-  summary: An MCP server that provides real-time trending cryptocurrency data from CoinGecko via tools and prompts for MCP clients.
+  summary: >-
+    An MCP server that provides real-time trending cryptocurrency data from CoinGecko via tools and prompts for MCP
+    clients.
   why_it_matters: Developers can integrate live crypto market data into their AI workflows without leaving their coding environment.
   mental_damage: Now your coding assistant can tell you which memecoin to YOLO into between debugging sessions.
   tags:
@@ -52,31 +56,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose primary identity is providing domain-specific (crypto) data via MCP tools and prompts.
+  reason: >-
+    This is an MCP-first server whose primary identity is providing domain-specific (crypto) data via MCP tools and
+    prompts.
   evidence:
     - Repo description explicitly states it is an MCP server for CoinGecko trending tokens
     - README details MCP tools (`get_trending_md_doc`) and prompts (`parse_trending_md_doc`) for MCP clients
     - Designed for integration with Claude Desktop via MCP protocol
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:59.906Z"
+    updated_at: '2026-07-30T05:05:59.906Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:51.294Z"
+    updated_at: '2026-07-21T16:13:51.294Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +96,9 @@ processing:
       input_hash: sha256:0e3986b7b4ea66870709f0f8dcd345e96d260200567fadc755dc70005a6dcc9a
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server whose primary identity is providing domain-specific (crypto) data via MCP tools and prompts.
+      decision_reason: >-
+        This is an MCP-first server whose primary identity is providing domain-specific (crypto) data via MCP tools and
+        prompts.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for CoinGecko trending tokens
         - README details MCP tools (`get_trending_md_doc`) and prompts (`parse_trending_md_doc`) for MCP clients
@@ -97,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server providing domain data, not as an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server providing domain data,
+        not as an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

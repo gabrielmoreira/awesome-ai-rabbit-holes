@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__inhiblabcore__mcp-image-compression__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: InhiblabCore/mcp-image-compression
         extracted_url: https://github.com/inhiblabcore/mcp-image-compression
-        surrounding_text: "- [InhiblabCore/mcp-image-compression](https://github.com/InhiblabCore/mcp-image-compression) 🐍 🏠 - MCP server for local compression of various image formats."
+        surrounding_text: >-
+          - [InhiblabCore/mcp-image-compression](https://github.com/InhiblabCore/mcp-image-compression) 🐍 🏠 - MCP
+          server for local compression of various image formats.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: InhiblabCore/mcp-image-compression
     html_url: https://github.com/InhiblabCore/mcp-image-compression
-    created_at: "2025-03-14T12:18:02Z"
-    pushed_at: "2025-06-14T01:39:27Z"
+    created_at: '2025-03-14T12:18:02Z'
+    pushed_at: '2025-06-14T01:39:27Z'
     description: A high-performance image compression microservice based on MCP (Modal Context Protocol)
     homepage: https://glama.ai/mcp/servers/@InhiblabCore/mcp-image-compression
     topics: []
-    last_checked_at: "2026-07-30T05:05:43.402Z"
+    last_checked_at: '2026-07-30T05:05:43.402Z'
     readme:
-      fetched_at: "2026-07-30T05:05:43.402Z"
+      fetched_at: '2026-07-30T05:05:43.402Z'
       bytes: 1966
 insights:
   summary: An MCP-based microservice for high-performance image compression supporting JPEG, PNG, WebP, and AVIF formats.
-  why_it_matters: Developers can integrate fast, offline image compression into their workflows via MCP, optimizing web assets without external dependencies.
+  why_it_matters: >-
+    Developers can integrate fast, offline image compression into their workflows via MCP, optimizing web assets without
+    external dependencies.
   mental_damage: Now you can compress images while pretending it’s part of your AI agent’s grand plan.
   tags:
     - mcp
@@ -58,24 +62,25 @@ curation:
     - Listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.620Z"
+    updated_at: '2026-05-06T22:12:15.620Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:43.402Z"
+    updated_at: '2026-07-30T05:05:43.402Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:08:06.704Z"
+    updated_at: '2026-07-21T16:08:06.704Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,6 +101,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server, not an extension augmenting
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

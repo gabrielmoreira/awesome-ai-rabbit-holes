@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__xzq-xu__jvm-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: xzq.xu/jvm-mcp-server
         extracted_url: https://github.com/xzq-xu/jvm-mcp-server
-        surrounding_text: "- [xzq.xu/jvm-mcp-server](https://github.com/xzq-xu/jvm-mcp-server) 📇 🏠  - An implementation project of a JVM-based MCP (Model Context Protocol) server."
+        surrounding_text: >-
+          - [xzq.xu/jvm-mcp-server](https://github.com/xzq-xu/jvm-mcp-server) 📇 🏠  - An implementation project of a
+          JVM-based MCP (Model Context Protocol) server.
         confidence: high
     - id: discovery__github__xzq-xu__jvm-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -33,9 +35,12 @@ provenance:
         mode: parsed
         section_path:
           - 💻 Developer Tools
-        anchor_text: "@xzq-xu/jvm-mcp-server"
+        anchor_text: '@xzq-xu/jvm-mcp-server'
         extracted_url: https://github.com/xzq-xu/jvm-mcp-server
-        surrounding_text: "-   **[@xzq-xu/jvm-mcp-server](https://github.com/xzq-xu/jvm-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/xzq-xu/jvm-mcp-server?style=social)](https://github.com/xzq-xu/jvm-mcp-server): Implements an MCP server for JVM-based environments."
+        surrounding_text: >-
+          -   **[@xzq-xu/jvm-mcp-server](https://github.com/xzq-xu/jvm-mcp-server)** [![GitHub
+          stars](https://img.shields.io/github/stars/xzq-xu/jvm-mcp-server?style=social)](https://github.com/xzq-xu/jvm-mcp-server):
+          Implements an MCP server for JVM-based environments.
         confidence: high
 metadata:
   github:
@@ -45,19 +50,28 @@ metadata:
     archived: false
     full_name: xzq-xu/jvm-mcp-server
     html_url: https://github.com/xzq-xu/jvm-mcp-server
-    created_at: "2025-03-10T18:55:52Z"
-    pushed_at: "2026-03-30T02:23:20Z"
-    description: This is an implementation project of a JVM-based MCP (Model Context Protocol) server. The project aims to provide a standardized MCP server implementation for the JVM platform, enabling AI models to better interact with the Java ecosystem.
-    homepage: ""
+    created_at: '2025-03-10T18:55:52Z'
+    pushed_at: '2026-03-30T02:23:20Z'
+    description: >-
+      This is an implementation project of a JVM-based MCP (Model Context Protocol) server. The project aims to provide
+      a standardized MCP server implementation for the JVM platform, enabling AI models to better interact with the Java
+      ecosystem.
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-21T15:21:18.882Z"
+    last_checked_at: '2026-07-21T15:21:18.882Z'
     readme:
-      fetched_at: "2026-07-21T15:21:18.882Z"
+      fetched_at: '2026-07-21T15:21:18.882Z'
       bytes: 7553
 insights:
-  summary: JVM MCP Server is a lightweight Java Virtual Machine monitoring and diagnostics server that exposes native JDK tools through the Model Context Protocol.
-  why_it_matters: It lets AI agents inspect and troubleshoot Java applications without installing heavyweight agents like Arthas, using only built-in JDK utilities.
-  mental_damage: Finally, a way to make your JVM feel observed without actually installing anything—because observability should be as lightweight as the guilt of leaving a debug flag on in prod.
+  summary: >-
+    JVM MCP Server is a lightweight Java Virtual Machine monitoring and diagnostics server that exposes native JDK tools
+    through the Model Context Protocol.
+  why_it_matters: >-
+    It lets AI agents inspect and troubleshoot Java applications without installing heavyweight agents like Arthas,
+    using only built-in JDK utilities.
+  mental_damage: >-
+    Finally, a way to make your JVM feel observed without actually installing anything—because observability should be
+    as lightweight as the guilt of leaving a debug flag on in prod.
   tags:
     - mcp
     - jvm
@@ -67,33 +81,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's core identity is an MCP server implementation for the JVM ecosystem, making MCP the primary product rather than an extension or framework.
+  reason: >-
+    The project's core identity is an MCP server implementation for the JVM ecosystem, making MCP the primary product
+    rather than an extension or framework.
   evidence:
     - Repo description explicitly states it is 'an implementation project of a JVM-based MCP server'
-    - README positions it as providing 'AI agents with powerful capabilities to monitor and analyze Java applications' via MCP
+    - >-
+      README positions it as providing 'AI agents with powerful capabilities to monitor and analyze Java applications'
+      via MCP
     - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
     - Tools expose JDK commands (jps, jstack, jmap, etc.) through MCP interface using FastMCP
-    - Not positioned as a coding agent, IDE extension, or framework—its value is in MCP-mediated access to JVM diagnostics
+    - >-
+      Not positioned as a coding agent, IDE extension, or framework—its value is in MCP-mediated access to JVM
+      diagnostics
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.596Z"
+    updated_at: '2026-05-06T22:12:15.596Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:18.882Z"
+    updated_at: '2026-07-21T15:21:18.882Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:42:26.717Z"
+    updated_at: '2026-05-12T15:42:26.717Z'
     cause: null
     next_retry_at: null
     attempts: 1

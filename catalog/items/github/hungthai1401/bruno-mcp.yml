@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hungthai1401__bruno-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: hungthai1401/bruno-mcp
         extracted_url: https://github.com/hungthai1401/bruno-mcp
-        surrounding_text: "- [hungthai1401/bruno-mcp](https://github.com/hungthai1401/bruno-mcp) 📇 🏠 - A MCP server for interacting with [Bruno API Client](https://www.usebruno.com/)."
+        surrounding_text: >-
+          - [hungthai1401/bruno-mcp](https://github.com/hungthai1401/bruno-mcp) 📇 🏠 - A MCP server for interacting
+          with [Bruno API Client](https://www.usebruno.com/).
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: hungthai1401/bruno-mcp
     html_url: https://github.com/hungthai1401/bruno-mcp
-    created_at: "2025-03-31T07:45:28Z"
-    pushed_at: "2025-08-16T04:24:12Z"
+    created_at: '2025-03-31T07:45:28Z'
+    pushed_at: '2025-08-16T04:24:12Z'
     description: MCP Server for running Bruno Collections
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:40.290Z"
+    last_checked_at: '2026-07-30T05:05:40.290Z'
     readme:
-      fetched_at: "2026-07-30T05:05:40.290Z"
+      fetched_at: '2026-07-30T05:05:40.290Z'
       bytes: 3113
 insights:
   summary: An MCP server that enables LLMs to execute and retrieve results from Bruno API test collections.
-  why_it_matters: Developers can now delegate API testing workflows to AI assistants by exposing Bruno collections as callable tools via MCP.
+  why_it_matters: >-
+    Developers can now delegate API testing workflows to AI assistants by exposing Bruno collections as callable tools
+    via MCP.
   mental_damage: Finally, a way to make your AI assistant care about your API tests as much as you pretend to.
   tags:
     - mcp
@@ -52,31 +56,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server that exposes Bruno collections as tools for LLMs, fitting the MCP-first tooling category.
+  reason: >-
+    The product's core identity is an MCP server that exposes Bruno collections as tools for LLMs, fitting the MCP-first
+    tooling category.
   evidence:
     - Repo description explicitly states it is an MCP server for running Bruno collections
     - README details MCP tooling, installation via Smithery, and Claude Desktop configuration
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.619Z"
+    updated_at: '2026-05-06T22:12:15.619Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:40.290Z"
+    updated_at: '2026-07-30T05:05:40.290Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:06:56.264Z"
+    updated_at: '2026-07-21T16:06:56.264Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +96,9 @@ processing:
       input_hash: sha256:60c68614541186d5645319810739fa9c091df95f69935ed2df48e2394227f6cf
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP server that exposes Bruno collections as tools for LLMs, fitting the MCP-first tooling category.
+      decision_reason: >-
+        The product's core identity is an MCP server that exposes Bruno collections as tools for LLMs, fitting the
+        MCP-first tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for running Bruno collections
         - README details MCP tooling, installation via Smithery, and Claude Desktop configuration
@@ -97,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary product identity is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary product identity is an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

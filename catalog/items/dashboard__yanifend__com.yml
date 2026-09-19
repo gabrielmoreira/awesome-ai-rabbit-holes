@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__dashboard__yanifend__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,12 @@ provenance:
           - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
         anchor_text: YaniFend
         extracted_url: https://yanifend.com
-        surrounding_text: "- [skippedaga/yanifend-mcp](https://github.com/skippedaga/yanifend-mcp) [![skippedaga/yanifend-mcp MCP server](https://glama.ai/mcp/servers/skippedaga/yanifend-mcp/badges/score.svg)](https://glama.ai/mcp/servers/skippedaga/yanifend-mcp) ☕ ☁️ - Hosted MCP server for [YaniFend](https://yanifend.com), a WordPress feedback widget — manage your questionary (list / create / update / delete questions and options) and read collected answers via natural language."
+        surrounding_text: >-
+          - [skippedaga/yanifend-mcp](https://github.com/skippedaga/yanifend-mcp) [![skippedaga/yanifend-mcp MCP
+          server](https://glama.ai/mcp/servers/skippedaga/yanifend-mcp/badges/score.svg)](https://glama.ai/mcp/servers/skippedaga/yanifend-mcp)
+          ☕ ☁️ - Hosted MCP server for [YaniFend](https://yanifend.com), a WordPress feedback widget — manage your
+          questionary (list / create / update / delete questions and options) and read collected answers via natural
+          language.
         confidence: high
 metadata:
   github:
@@ -36,8 +41,12 @@ metadata:
     readme: null
 insights:
   summary: An MCP server implementation for integrating Customer Data Platform (CDP) data into AI assistants.
-  why_it_matters: Allows developers to give their AI agents direct, standardized access to customer data and behavioral profiles via the Model Context Protocol.
-  mental_damage: Now your agent can hallucinate about a customer's churn risk using real-time data instead of just guessing based on the prompt.
+  why_it_matters: >-
+    Allows developers to give their AI agents direct, standardized access to customer data and behavioral profiles via
+    the Model Context Protocol.
+  mental_damage: >-
+    Now your agent can hallucinate about a customer's churn risk using real-time data instead of just guessing based on
+    the prompt.
   tags:
     - mcp
     - cdp
@@ -46,20 +55,23 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The project is explicitly curated as an MCP server implementation, making its core identity an MCP tool for a specific domain (Customer Data Platforms).
+  reason: >-
+    The project is explicitly curated as an MCP server implementation, making its core identity an MCP tool for a
+    specific domain (Customer Data Platforms).
   evidence:
     - Listed in awesome-mcp-servers under 'Server Implementations > Customer Data Platforms'
     - Product identity is focused on providing MCP connectivity to customer data
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-15T05:51:04.990Z"
+    updated_at: '2026-06-15T05:51:04.990Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +80,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-06-15T05:52:56.651Z"
+    updated_at: '2026-06-15T05:52:56.651Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

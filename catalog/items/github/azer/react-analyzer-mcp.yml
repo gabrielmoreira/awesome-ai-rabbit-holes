@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__azer__react-analyzer-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: azer/react-analyzer-mcp
         extracted_url: https://github.com/azer/react-analyzer-mcp
-        surrounding_text: "- [azer/react-analyzer-mcp](https://github.com/azer/react-analyzer-mcp) 📇 🏠 - Analyze React code locally, generate docs / llm.txt for whole project at once"
+        surrounding_text: >-
+          - [azer/react-analyzer-mcp](https://github.com/azer/react-analyzer-mcp) 📇 🏠 - Analyze React code locally,
+          generate docs / llm.txt for whole project at once
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: azer/react-analyzer-mcp
     html_url: https://github.com/azer/react-analyzer-mcp
-    created_at: "2025-04-09T20:19:09Z"
-    pushed_at: "2025-04-09T20:50:12Z"
+    created_at: '2025-04-09T20:19:09Z'
+    pushed_at: '2025-04-09T20:50:12Z'
     description: MCP server for analyzing & generating docs for React code locally
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-07T04:13:30.475Z"
+    last_checked_at: '2026-09-07T04:13:30.475Z'
     readme:
-      fetched_at: "2026-09-07T04:13:30.475Z"
+      fetched_at: '2026-09-07T04:13:30.475Z'
       bytes: 1822
 insights:
   summary: MCP server for analyzing and generating documentation for React code locally.
-  why_it_matters: Developers can use it to automatically extract component and prop information from React codebases via MCP-enabled assistants like Claude.
+  why_it_matters: >-
+    Developers can use it to automatically extract component and prop information from React codebases via MCP-enabled
+    assistants like Claude.
   mental_damage: Now your AI can finally understand your React props without pretending it already did.
   tags:
     - mcp
@@ -51,31 +55,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a server implementation for the Model Context Protocol focused on React code analysis."
+  reason: >-
+    MCP is the product identity: this is a server implementation for the Model Context Protocol focused on React code
+    analysis.
   evidence:
     - Repo description explicitly states it is an MCP server for React code analysis
     - README confirms it provides MCP tools (analyze-react, analyze-project, list-projects)
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.604Z"
+    updated_at: '2026-05-06T22:12:15.604Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:30.475Z"
+    updated_at: '2026-09-07T04:13:30.475Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:25:06.097Z"
+    updated_at: '2026-07-21T15:25:06.097Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -88,7 +95,9 @@ processing:
       input_hash: sha256:d9090f1fd796875f1cf2b90343fcb9745876af7abc88ee5986f94a785be6afc7
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a server implementation for the Model Context Protocol focused on React code analysis."
+      decision_reason: >-
+        MCP is the product identity: this is a server implementation for the Model Context Protocol focused on React
+        code analysis.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for React code analysis
         - README confirms it provides MCP tools (analyze-react, analyze-project, list-projects)
@@ -96,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server implementation, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server implementation, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

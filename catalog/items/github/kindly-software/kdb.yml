@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kindly-software__kdb__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: kindly-software/kdb
         extracted_url: https://github.com/kindly-software/kdb
-        surrounding_text: "- [kindly-software/kdb](https://github.com/kindly-software/kdb) 🦀 ☁️ - AI-powered time-travel debugger with bidirectional execution replay, audit-compliant hash-chain logging, and SIMD-accelerated stack unwinding. Free Hobby tier available."
+        surrounding_text: >-
+          - [kindly-software/kdb](https://github.com/kindly-software/kdb) 🦀 ☁️ - AI-powered time-travel debugger with
+          bidirectional execution replay, audit-compliant hash-chain logging, and SIMD-accelerated stack unwinding. Free
+          Hobby tier available.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,20 @@ metadata:
     archived: false
     full_name: Kindly-Software/kdb
     html_url: https://github.com/Kindly-Software/kdb
-    created_at: "2025-12-05T19:56:42Z"
-    pushed_at: "2025-12-12T14:30:26Z"
+    created_at: '2025-12-05T19:56:42Z'
+    pushed_at: '2025-12-12T14:30:26Z'
     description: Kindly Debugger - Time-Travel Debugging for AI Workflows
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:56.851Z"
+    last_checked_at: '2026-07-30T05:05:56.851Z'
     readme:
-      fetched_at: "2026-07-30T05:05:56.851Z"
+      fetched_at: '2026-07-30T05:05:56.851Z'
       bytes: 4031
 insights:
   summary: Kindly Debugger (kdb) is a time-travel debugging tool for AI workflows, exposed as an MCP server.
-  why_it_matters: It lets developers attach AI assistants to running processes, step forward/backward through execution, and diagnose crashes or logic errors with hardware-level breakpoints and stack traces.
+  why_it_matters: >-
+    It lets developers attach AI assistants to running processes, step forward/backward through execution, and diagnose
+    crashes or logic errors with hardware-level breakpoints and stack traces.
   mental_damage: Finally, a way to make your AI assistant blame the past instead of the present.
   tags:
     - debugging
@@ -51,31 +56,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server that exposes debugger tools (step backward/forward, breakpoints, stack traces) to hosts like Claude Code and Cursor.
+  reason: >-
+    The product's identity is an MCP server that exposes debugger tools (step backward/forward, breakpoints, stack
+    traces) to hosts like Claude Code and Cursor.
   evidence:
-    - Repo description explicitly states 'Time-Travel Debugging for AI Workflows' and the README shows MCP config for Claude Code/Cursor.
+    - >-
+      Repo description explicitly states 'Time-Travel Debugging for AI Workflows' and the README shows MCP config for
+      Claude Code/Cursor.
     - The README lists specific MCP tools like debugger_step_backward and debugger_attach as the core interface.
     - Included in awesome-mcp-servers under 'Developer Tools', aligning with its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-dev-extensions'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.624Z"
+    updated_at: '2026-05-06T22:12:15.624Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:56.851Z"
+    updated_at: '2026-07-30T05:05:56.851Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:12:32.445Z"
+    updated_at: '2026-07-21T16:12:32.445Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,14 +98,20 @@ processing:
       input_hash: sha256:0cff05cf61523e861b08d7b15ac2219d9f204f2db4a231fb288d763e7656b7a5
       proposed_primary_category: ai-dev-extensions
       disagreement: true
-      decision_reason: The tool is an MCP server that augments AI assistants (Claude Code, Cursor, etc.) with debugging capabilities rather than being a standalone coding agent.
+      decision_reason: >-
+        The tool is an MCP server that augments AI assistants (Claude Code, Cursor, etc.) with debugging capabilities
+        rather than being a standalone coding agent.
       decision_evidence:
-        - "Repo description: 'Kindly Debugger - Time-Travel Debugging for AI Workflows'"
-        - README explicitly positions it as an MCP server for AI assistants with tools like debugger_attach and debugger_step_backward
-        - "Source-list context: listed in awesome-mcp-servers under Developer Tools"
+        - 'Repo description: ''Kindly Debugger - Time-Travel Debugging for AI Workflows'''
+        - >-
+          README explicitly positions it as an MCP server for AI assistants with tools like debugger_attach and
+          debugger_step_backward
+        - 'Source-list context: listed in awesome-mcp-servers under Developer Tools'
       category_candidates:
         - ai-dev-extensions
         - mcp
-      contrastive_reason: Choose ai-dev-extensions over mcp because the core value is debugging augmentation for AI workflows, not MCP infrastructure itself.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+      contrastive_reason: >-
+        Choose ai-dev-extensions over mcp because the core value is debugging augmentation for AI workflows, not MCP
+        infrastructure itself.
+      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-dev-extensions'''
       review_resume_lifecycle: null

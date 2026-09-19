@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pzalutski-pixel__godotlens-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: pzalutski-pixel/godotlens-mcp
         extracted_url: https://github.com/pzalutski-pixel/godotlens-mcp
-        surrounding_text: "- [pzalutski-pixel/godotlens-mcp](https://github.com/pzalutski-pixel/godotlens-mcp) [![godotlens-mcp MCP server](https://glama.ai/mcp/servers/pzalutski-pixel/godotlens-mcp/badges/score.svg)](https://glama.ai/mcp/servers/pzalutski-pixel/godotlens-mcp) 🐍 🏠 - 15 semantic GDScript analysis tools via Godot's built-in LSP. Navigation, references, diagnostics, rename, and file sync for AI agents."
+        surrounding_text: >-
+          - [pzalutski-pixel/godotlens-mcp](https://github.com/pzalutski-pixel/godotlens-mcp) [![godotlens-mcp MCP
+          server](https://glama.ai/mcp/servers/pzalutski-pixel/godotlens-mcp/badges/score.svg)](https://glama.ai/mcp/servers/pzalutski-pixel/godotlens-mcp)
+          🐍 🏠 - 15 semantic GDScript analysis tools via Godot's built-in LSP. Navigation, references, diagnostics,
+          rename, and file sync for AI agents.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: pzalutski-pixel/godotlens-mcp
     html_url: https://github.com/pzalutski-pixel/godotlens-mcp
-    created_at: "2026-04-06T16:50:12Z"
-    pushed_at: "2026-04-15T14:38:56Z"
+    created_at: '2026-04-06T16:50:12Z'
+    pushed_at: '2026-04-15T14:38:56Z'
     description: MCP server for GDScript semantic analysis via Godot's built-in language server
     homepage: null
     topics:
@@ -46,14 +50,20 @@ metadata:
       - mcp
       - mcp-server
       - semantic-analysis
-    last_checked_at: "2026-07-20T16:42:39.831Z"
+    last_checked_at: '2026-07-20T16:42:39.831Z'
     readme:
-      fetched_at: "2026-07-20T16:42:39.831Z"
+      fetched_at: '2026-07-20T16:42:39.831Z'
       bytes: 6457
 insights:
-  summary: An MCP server that bridges AI coding agents to Godot's built-in Language Server to provide compiler-accurate semantic analysis for GDScript.
-  why_it_matters: It gives AI agents precise code intelligence for GDScript—such as go-to-definition and finding true references—eliminating the noise of text-based grep searches in game development workflows.
-  mental_damage: We have successfully abstracted the abstraction, requiring a running editor, a TCP LSP bridge, an MCP server, and a JSON-RPC protocol just to help an agent guess which function call is real.
+  summary: >-
+    An MCP server that bridges AI coding agents to Godot's built-in Language Server to provide compiler-accurate
+    semantic analysis for GDScript.
+  why_it_matters: >-
+    It gives AI agents precise code intelligence for GDScript—such as go-to-definition and finding true
+    references—eliminating the noise of text-based grep searches in game development workflows.
+  mental_damage: >-
+    We have successfully abstracted the abstraction, requiring a running editor, a TCP LSP bridge, an MCP server, and a
+    JSON-RPC protocol just to help an agent guess which function call is real.
   tags:
     - mcp
     - gdscript
@@ -63,35 +73,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server providing Godot LSP capabilities, fitting squarely into MCP Servers & Tooling as a domain-specific implementation.
+  reason: >-
+    The product identity is an MCP server providing Godot LSP capabilities, fitting squarely into MCP Servers & Tooling
+    as a domain-specific implementation.
   evidence:
-    - Repo description explicitly states 'MCP server for GDScript semantic analysis via Godot's built-in language server'.
+    - >-
+      Repo description explicitly states 'MCP server for GDScript semantic analysis via Godot's built-in language
+      server'.
     - README architecture diagram shows the product as a bridge between AI Agent (MCP) and Godot Editor LSP over TCP.
     - Listed in awesome-mcp-servers under 'Developer Tools' section, confirming ecosystem placement.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.643Z"
+    updated_at: '2026-05-06T22:12:15.643Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:39.831Z"
+    updated_at: '2026-07-20T16:42:39.831Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

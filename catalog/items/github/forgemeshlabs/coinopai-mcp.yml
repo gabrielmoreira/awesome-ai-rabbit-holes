@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__forgemeshlabs__coinopai-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-08T05:39:05.247Z"
+      discovered_at: '2026-06-08T05:39:05.247Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: forgemeshlabs/coinopai-mcp
         extracted_url: https://github.com/forgemeshlabs/coinopai-mcp
-        surrounding_text: "- [forgemeshlabs/coinopai-mcp](https://github.com/forgemeshlabs/coinopai-mcp) [![forgemeshlabs/coinopai-mcp MCP server](https://glama.ai/mcp/servers/forgemeshlabs/coinopai-mcp/badges/score.svg)](https://glama.ai/mcp/servers/forgemeshlabs/coinopai-mcp) 📇 - Local stdio MCP server for x402-powered paid crypto intelligence: preflight checks, trade decisions with `decision_id`, later audit against real prices, risk state, signal history, and agent automation search over USDC micropayments on Base."
+        surrounding_text: >-
+          - [forgemeshlabs/coinopai-mcp](https://github.com/forgemeshlabs/coinopai-mcp) [![forgemeshlabs/coinopai-mcp
+          MCP
+          server](https://glama.ai/mcp/servers/forgemeshlabs/coinopai-mcp/badges/score.svg)](https://glama.ai/mcp/servers/forgemeshlabs/coinopai-mcp)
+          📇 - Local stdio MCP server for x402-powered paid crypto intelligence: preflight checks, trade decisions with
+          `decision_id`, later audit against real prices, risk state, signal history, and agent automation search over
+          USDC micropayments on Base.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: forgemeshlabs/coinopai-mcp
     html_url: https://github.com/forgemeshlabs/coinopai-mcp
-    created_at: "2026-05-14T20:07:16Z"
-    pushed_at: "2026-09-01T18:41:19Z"
-    description: CoinOpAI MCP server for x402-powered crypto market intelligence, trade decision support, automation prompts, and paid agent workflows on Base.
+    created_at: '2026-05-14T20:07:16Z'
+    pushed_at: '2026-09-01T18:41:19Z'
+    description: >-
+      CoinOpAI MCP server for x402-powered crypto market intelligence, trade decision support, automation prompts, and
+      paid agent workflows on Base.
     homepage: https://x402.coinopai.com
     topics:
       - agent-commerce
@@ -47,14 +55,20 @@ metadata:
       - signals
       - usdc
       - x402
-    last_checked_at: "2026-09-03T05:16:42.951Z"
+    last_checked_at: '2026-09-03T05:16:42.951Z'
     readme:
-      fetched_at: "2026-09-03T05:16:42.951Z"
+      fetched_at: '2026-09-03T05:16:42.951Z'
       bytes: 14098
 insights:
-  summary: An MCP server that allows AI agents to purchase verified crypto market intelligence via x402 micropayments on the Base network.
-  why_it_matters: It enables agents to autonomously handle financial transactions for high-fidelity data, implementing a verification loop to audit predictions against real market outcomes.
-  mental_damage: We've reached the era where your coding agent can now independently gamble on BTC and pay for its own bad advice in USDC micropayments.
+  summary: >-
+    An MCP server that allows AI agents to purchase verified crypto market intelligence via x402 micropayments on the
+    Base network.
+  why_it_matters: >-
+    It enables agents to autonomously handle financial transactions for high-fidelity data, implementing a verification
+    loop to audit predictions against real market outcomes.
+  mental_damage: >-
+    We've reached the era where your coding agent can now independently gamble on BTC and pay for its own bad advice in
+    USDC micropayments.
   tags:
     - mcp
     - crypto
@@ -71,24 +85,25 @@ curation:
     - Included in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-08T05:39:05.248Z"
+    updated_at: '2026-06-08T05:39:05.248Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:42.951Z"
+    updated_at: '2026-09-03T05:16:42.951Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-08T05:42:50.768Z"
+    updated_at: '2026-06-08T05:42:50.768Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

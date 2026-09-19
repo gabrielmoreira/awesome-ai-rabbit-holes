@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ratnaditya-j__csvglow__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 📊 <a name="data-visualization"></a>Data Visualization
         anchor_text: Ratnaditya-J/csvglow
         extracted_url: https://github.com/ratnaditya-j/csvglow
-        surrounding_text: "- [Ratnaditya-J/csvglow](https://github.com/Ratnaditya-J/csvglow) [![csvglow MCP server](https://glama.ai/mcp/servers/Ratnaditya-J/csvglow/badges/score.svg)](https://glama.ai/mcp/servers/Ratnaditya-J/csvglow) 🐍 🏠 🍎 🪟 🐧 - Generate beautiful self-contained HTML dashboards from CSV/Excel files with interactive ECharts visualizations, dark gradient theme, and sortable data tables."
+        surrounding_text: >-
+          - [Ratnaditya-J/csvglow](https://github.com/Ratnaditya-J/csvglow) [![csvglow MCP
+          server](https://glama.ai/mcp/servers/Ratnaditya-J/csvglow/badges/score.svg)](https://glama.ai/mcp/servers/Ratnaditya-J/csvglow)
+          🐍 🏠 🍎 🪟 🐧 - Generate beautiful self-contained HTML dashboards from CSV/Excel files with interactive
+          ECharts visualizations, dark gradient theme, and sortable data tables.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: Ratnaditya-J/csvglow
     html_url: https://github.com/Ratnaditya-J/csvglow
-    created_at: "2026-03-01T18:31:56Z"
-    pushed_at: "2026-03-20T20:26:34Z"
+    created_at: '2026-03-01T18:31:56Z'
+    pushed_at: '2026-03-20T20:26:34Z'
     description: Generate beautiful interactive HTML dashboards from CSV/Excel files
     homepage: null
     topics:
@@ -45,14 +49,20 @@ metadata:
       - mcp
       - mcp-server
       - visualization
-    last_checked_at: "2026-07-20T16:42:43.573Z"
+    last_checked_at: '2026-07-20T16:42:43.573Z'
     readme:
-      fetched_at: "2026-07-20T16:42:43.573Z"
+      fetched_at: '2026-07-20T16:42:43.573Z'
       bytes: 3293
 insights:
-  summary: A CLI tool that generates self-contained interactive HTML dashboards from CSV and Excel files, with an optional MCP server mode for AI assistant integration.
-  why_it_matters: It lets developers turn raw data files into shareable, offline-capable dashboards with zero configuration, and allows AI assistants to trigger the generation via MCP.
-  mental_damage: We have finally invented a tool that turns a CSV into a dashboard so you can procrastinate building a real analytics pipeline with a single, beautiful HTML file.
+  summary: >-
+    A CLI tool that generates self-contained interactive HTML dashboards from CSV and Excel files, with an optional MCP
+    server mode for AI assistant integration.
+  why_it_matters: >-
+    It lets developers turn raw data files into shareable, offline-capable dashboards with zero configuration, and
+    allows AI assistants to trigger the generation via MCP.
+  mental_damage: >-
+    We have finally invented a tool that turns a CSV into a dashboard so you can procrastinate building a real analytics
+    pipeline with a single, beautiful HTML file.
   tags:
     - csv
     - dashboard
@@ -62,35 +72,40 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product's primary identity is a data visualization tool that exposes itself as an MCP server, fitting the Domain Servers section of the MCP category.
+  reason: >-
+    The product's primary identity is a data visualization tool that exposes itself as an MCP server, fitting the Domain
+    Servers section of the MCP category.
   evidence:
-    - "Repo description: 'Generate beautiful interactive HTML dashboards from CSV/Excel files'."
-    - "README details MCP server mode: 'csvglow works as an MCP tool in any MCP-compatible client... add csvglow to its MCP config file'."
+    - 'Repo description: ''Generate beautiful interactive HTML dashboards from CSV/Excel files''.'
+    - >-
+      README details MCP server mode: 'csvglow works as an MCP tool in any MCP-compatible client... add csvglow to its
+      MCP config file'.
     - Listed in awesome-mcp-servers under 'Data Visualization' section.
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: app-builders
+  secondary_categories: []
+  section: Internal Tools & Dashboards
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.644Z"
+    updated_at: '2026-05-06T22:12:15.644Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:43.573Z"
+    updated_at: '2026-07-20T16:42:43.573Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

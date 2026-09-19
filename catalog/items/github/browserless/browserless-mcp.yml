@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__browserless__browserless-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-08-27T06:08:24.604Z"
+      discovered_at: '2026-08-27T06:08:24.604Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: browserless/browserless-mcp
         extracted_url: https://github.com/browserless/browserless-mcp
-        surrounding_text: "- [browserless/browserless-mcp](https://github.com/browserless/browserless-mcp) [![browserless/browserless-mcp MCP server](https://glama.ai/mcp/servers/browserless/browserless-mcp/badges/score.svg)](https://glama.ai/mcp/servers/browserless/browserless-mcp) 🎖️ ☁️ - Headless browser automation and web scraping infrastructure. Exposes the Browserless smart scraper API to LLM clients over MCP."
+        surrounding_text: >-
+          - [browserless/browserless-mcp](https://github.com/browserless/browserless-mcp) [![browserless/browserless-mcp
+          MCP
+          server](https://glama.ai/mcp/servers/browserless/browserless-mcp/badges/score.svg)](https://glama.ai/mcp/servers/browserless/browserless-mcp)
+          🎖️ ☁️ - Headless browser automation and web scraping infrastructure. Exposes the Browserless smart scraper
+          API to LLM clients over MCP.
         confidence: high
 metadata:
   github:
@@ -30,18 +35,20 @@ metadata:
     archived: false
     full_name: browserless/browserless-mcp
     html_url: https://github.com/browserless/browserless-mcp
-    created_at: "2026-02-20T22:49:15Z"
-    pushed_at: "2026-09-06T16:42:13Z"
-    description: "Official MCP server for the Browserless.io "
-    homepage: ""
+    created_at: '2026-02-20T22:49:15Z'
+    pushed_at: '2026-09-06T16:42:13Z'
+    description: 'Official MCP server for the Browserless.io '
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-07T04:13:38.070Z"
+    last_checked_at: '2026-09-07T04:13:38.070Z'
     readme:
-      fetched_at: "2026-09-07T04:13:38.069Z"
+      fetched_at: '2026-09-07T04:13:38.069Z'
       bytes: 20257
 insights:
   summary: An MCP server that exposes Browserless.io's web scraping and automation APIs to LLM clients.
-  why_it_matters: Lets developers connect AI assistants to headless browser capabilities like scraping, crawling, and Lighthouse audits without managing infrastructure.
+  why_it_matters: >-
+    Lets developers connect AI assistants to headless browser capabilities like scraping, crawling, and Lighthouse
+    audits without managing infrastructure.
   mental_damage: Finally, a way to make your AI agent feel useful while it waits for Cloudflare to stop blocking it.
   tags:
     - mcp
@@ -50,31 +57,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core identity is exposing Browserless.io functionality via the Model Context Protocol, making MCP the primary product identity rather than a compatibility feature.
+  reason: >-
+    The product is an MCP server whose core identity is exposing Browserless.io functionality via the Model Context
+    Protocol, making MCP the primary product identity rather than a compatibility feature.
   evidence:
-    - "Repo description: 'Official MCP server for the Browserless.io'"
-    - "README title and first line: 'Browserless MCP Server' and 'MCP (Model Context Protocol) server for Browserless.io'"
-    - Lists tools like `browserless_smartscraper`, `browserless_crawl`, and `browserless_agent` that expose Browserless APIs through MCP
+    - 'Repo description: ''Official MCP server for the Browserless.io'''
+    - 'README title and first line: ''Browserless MCP Server'' and ''MCP (Model Context Protocol) server for Browserless.io'''
+    - >-
+      Lists tools like `browserless_smartscraper`, `browserless_crawl`, and `browserless_agent` that expose Browserless
+      APIs through MCP
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-08-27T06:08:24.606Z"
+    updated_at: '2026-08-27T06:08:24.606Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:38.070Z"
+    updated_at: '2026-09-07T04:13:38.070Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:25:40.092Z"
+    updated_at: '2026-08-27T06:25:40.092Z'
     cause: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
@@ -83,15 +95,23 @@ processing:
       input_hash: sha256:d1a7659f49f28fe534eaf2955806c8df609c529469a2be23a5f9c0838d85a785
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server whose core identity is exposing Browserless.io functionality via the Model Context Protocol, making MCP the primary product identity rather than a compatibility feature.
+      decision_reason: >-
+        The product is an MCP server whose core identity is exposing Browserless.io functionality via the Model Context
+        Protocol, making MCP the primary product identity rather than a compatibility feature.
       decision_evidence:
-        - "Repo description: 'Official MCP server for the Browserless.io'"
-        - "README title and first line: 'Browserless MCP Server' and 'MCP (Model Context Protocol) server for Browserless.io'"
-        - Lists tools like `browserless_smartscraper`, `browserless_crawl`, and `browserless_agent` that expose Browserless APIs through MCP
+        - 'Repo description: ''Official MCP server for the Browserless.io'''
+        - >-
+          README title and first line: 'Browserless MCP Server' and 'MCP (Model Context Protocol) server for
+          Browserless.io'
+        - >-
+          Lists tools like `browserless_smartscraper`, `browserless_crawl`, and `browserless_agent` that expose
+          Browserless APIs through MCP
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server as its primary identity, not an extension that augments another assistant with browser capabilities.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server as its primary identity, not an extension
+        that augments another assistant with browser capabilities.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

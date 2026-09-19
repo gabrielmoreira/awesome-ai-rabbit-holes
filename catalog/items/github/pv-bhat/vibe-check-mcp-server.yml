@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pv-bhat__vibe-check-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Community Servers
         anchor_text: Vibe Check
         extracted_url: https://github.com/pv-bhat/vibe-check-mcp-server
-        surrounding_text: "- **[Vibe Check](https://github.com/PV-Bhat/vibe-check-mcp-server)** - The definitive Vibe Coder's sanity check MCP server: Prevents cascading errors by calling a \"Vibe-check\" agent to ensure alignment and prevent scope creep"
+        surrounding_text: >-
+          - **[Vibe Check](https://github.com/PV-Bhat/vibe-check-mcp-server)** - The definitive Vibe Coder's sanity
+          check MCP server: Prevents cascading errors by calling a "Vibe-check" agent to ensure alignment and prevent
+          scope creep
         confidence: high
 metadata:
   github:
@@ -29,9 +32,12 @@ metadata:
     archived: false
     full_name: PV-Bhat/vibe-check-mcp-server
     html_url: https://github.com/PV-Bhat/vibe-check-mcp-server
-    created_at: "2025-03-22T09:33:08Z"
-    pushed_at: "2026-06-12T19:27:11Z"
-    description: "Vibe Check is a tool that provides mentor-like feedback to AI Agents, preventing tunnel-vision, over-engineering and reasoning lock-in for complex and long-horizon agent workflows. KISS your over-eager AI Agents goodbye! Effective for: Coding, Ambiguous Tasks, High-Risk tasks"
+    created_at: '2025-03-22T09:33:08Z'
+    pushed_at: '2026-06-12T19:27:11Z'
+    description: >-
+      Vibe Check is a tool that provides mentor-like feedback to AI Agents, preventing tunnel-vision, over-engineering
+      and reasoning lock-in for complex and long-horizon agent workflows. KISS your over-eager AI Agents goodbye!
+      Effective for: Coding, Ambiguous Tasks, High-Risk tasks
     homepage: https://pruthvibhat.com/
     topics:
       - agentic-ai
@@ -46,14 +52,20 @@ metadata:
       - rli
       - vibe-coding
       - workflow-automation
-    last_checked_at: "2026-07-20T16:42:38.990Z"
+    last_checked_at: '2026-07-20T16:42:38.990Z'
     readme:
-      fetched_at: "2026-07-20T16:42:38.990Z"
+      fetched_at: '2026-07-20T16:42:38.990Z'
       bytes: 18351
 insights:
-  summary: An MCP server that acts as a mentor layer for AI agents, interrupting long-horizon workflows to prevent over-engineering and reasoning lock-in.
-  why_it_matters: It provides a research-backed method to keep autonomous coding agents aligned with the minimal viable path, improving success rates by 27% in their study.
-  mental_damage: We have now reached the point where we need to install specialized middleware to stop our AI agents from hallucinating architectural masterpieces when we only asked for a hello world.
+  summary: >-
+    An MCP server that acts as a mentor layer for AI agents, interrupting long-horizon workflows to prevent
+    over-engineering and reasoning lock-in.
+  why_it_matters: >-
+    It provides a research-backed method to keep autonomous coding agents aligned with the minimal viable path,
+    improving success rates by 27% in their study.
+  mental_damage: >-
+    We have now reached the point where we need to install specialized middleware to stop our AI agents from
+    hallucinating architectural masterpieces when we only asked for a hello world.
   tags:
     - mcp
     - agent-oversight
@@ -63,35 +75,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is explicitly an MCP server designed to be plugged into MCP-aware clients like Claude Desktop and Cursor to provide agent oversight.
+  reason: >-
+    The product identity is explicitly an MCP server designed to be plugged into MCP-aware clients like Claude Desktop
+    and Cursor to provide agent oversight.
   evidence:
     - Repo description identifies it as a tool providing mentor-like feedback to AI Agents via MCP.
-    - README details npx commands for STDIO and HTTP transport specifically for MCP clients (Claude Desktop, Cursor, Windsurf).
+    - >-
+      README details npx commands for STDIO and HTTP transport specifically for MCP clients (Claude Desktop, Cursor,
+      Windsurf).
     - Listed in the awesome-mcp-servers list under 'Community Servers' and featured on PulseMCP and Smithery.
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: promotion_candidate
   reason: Stars (485) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.643Z"
+    updated_at: '2026-05-06T22:12:15.643Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:38.990Z"
+    updated_at: '2026-07-20T16:42:38.990Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

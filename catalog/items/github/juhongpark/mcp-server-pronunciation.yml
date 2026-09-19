@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__juhongpark__mcp-server-pronunciation__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🎓 <a name="education"></a>Education
         anchor_text: JuhongPark/mcp-server-pronunciation
         extracted_url: https://github.com/juhongpark/mcp-server-pronunciation
-        surrounding_text: "- [JuhongPark/mcp-server-pronunciation](https://github.com/JuhongPark/mcp-server-pronunciation) [![JuhongPark/mcp-server-pronunciation MCP server](https://glama.ai/mcp/servers/JuhongPark/mcp-server-pronunciation/badges/score.svg)](https://glama.ai/mcp/servers/JuhongPark/mcp-server-pronunciation) 🐍 🏠 🍎 🪟 🐧 - Local MCP voice coach with English pronunciation, grammar, fluency, phoneme-level feedback, practice drills, and learner-profile hints. Install via `uvx mcp-server-pronunciation@0.3.0`."
+        surrounding_text: >-
+          - [JuhongPark/mcp-server-pronunciation](https://github.com/JuhongPark/mcp-server-pronunciation)
+          [![JuhongPark/mcp-server-pronunciation MCP
+          server](https://glama.ai/mcp/servers/JuhongPark/mcp-server-pronunciation/badges/score.svg)](https://glama.ai/mcp/servers/JuhongPark/mcp-server-pronunciation)
+          🐍 🏠 🍎 🪟 🐧 - Local MCP voice coach with English pronunciation, grammar, fluency, phoneme-level feedback,
+          practice drills, and learner-profile hints. Install via `uvx mcp-server-pronunciation@0.3.0`.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: JuhongPark/mcp-server-pronunciation
     html_url: https://github.com/JuhongPark/mcp-server-pronunciation
-    created_at: "2026-04-11T20:21:43Z"
-    pushed_at: "2026-05-24T05:17:37Z"
+    created_at: '2026-04-11T20:21:43Z'
+    pushed_at: '2026-05-24T05:17:37Z'
     description: Local MCP voice coach with English pronunciation, grammar, and fluency feedback.
     homepage: null
     topics:
@@ -43,14 +48,20 @@ metadata:
       - speech
       - voice
       - whisper
-    last_checked_at: "2026-07-30T05:05:53.021Z"
+    last_checked_at: '2026-07-30T05:05:53.021Z'
     readme:
-      fetched_at: "2026-07-30T05:05:53.021Z"
+      fetched_at: '2026-07-30T05:05:53.021Z'
       bytes: 20331
 insights:
-  summary: A local MCP server that provides English pronunciation, grammar, and fluency feedback during voice interactions with MCP-enabled assistants.
-  why_it_matters: It turns text-only coding assistants into interactive voice tutors, allowing developers to practice spoken English hands-free within their existing IDE or CLI workflows.
-  mental_damage: Because nothing completes the modern developer experience quite like having your IDE critique your prosody while you're mid-way through a high-stakes debugging session.
+  summary: >-
+    A local MCP server that provides English pronunciation, grammar, and fluency feedback during voice interactions with
+    MCP-enabled assistants.
+  why_it_matters: >-
+    It turns text-only coding assistants into interactive voice tutors, allowing developers to practice spoken English
+    hands-free within their existing IDE or CLI workflows.
+  mental_damage: >-
+    Because nothing completes the modern developer experience quite like having your IDE critique your prosody while
+    you're mid-way through a high-stakes debugging session.
   tags:
     - mcp
     - voice-ai
@@ -60,31 +71,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server designed to provide a specific domain capability (language coaching) to MCP clients.
+  reason: >-
+    The project is explicitly an MCP server designed to provide a specific domain capability (language coaching) to MCP
+    clients.
   evidence:
     - Identifies explicitly as an MCP server in the README and repo description
     - Provides specialized domain functionality (English tutoring) via the Model Context Protocol
     - Designed to be integrated into MCP-ready environments like Claude Desktop and Cursor
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.819Z"
+    updated_at: '2026-05-28T05:28:09.819Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:53.021Z"
+    updated_at: '2026-07-30T05:05:53.021Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-02T05:26:35.788Z"
+    updated_at: '2026-07-02T05:26:35.788Z'
     cause: null
     next_retry_at: null
     attempts: 1

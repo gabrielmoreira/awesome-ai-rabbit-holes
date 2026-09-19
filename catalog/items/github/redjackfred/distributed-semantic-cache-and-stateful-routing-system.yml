@@ -6,8 +6,9 @@ identity:
   github_repo: redjackfred/distributed-semantic-cache-and-stateful-routing-system
 provenance:
   discoveries:
-    - id: discovery__github__redjackfred__distributed-semantic-cache-and-stateful-routing-system__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+    - id: >-
+        discovery__github__redjackfred__distributed-semantic-cache-and-stateful-routing-system__awesome-list__tensorchord__awesome-llmops
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +20,15 @@ provenance:
           - LLMOps
         anchor_text: Semantic Cache Router
         extracted_url: https://github.com/redjackfred/distributed-semantic-cache-and-stateful-routing-system
-        surrounding_text: "| [Semantic Cache Router](https://github.com/redjackfred/distributed-semantic-cache-and-stateful-routing-system) | Distributed semantic cache and stateful routing system that cuts LLM API costs by returning cached responses for semantically similar queries. Uses ANN vector search (cosine ≥ 0.8) and consistent hashing to pin requests to the same worker, achieving ~7× latency reduction on cache hits while scaling horizontally without cache thrash. | ![GitHub Badge](https://img.shields.io/github/stars/redjackfred/distributed-semantic-cache-and-stateful-routing-system.svg?style=flat-square) |"
+        surrounding_text: >-
+          | [Semantic Cache
+          Router](https://github.com/redjackfred/distributed-semantic-cache-and-stateful-routing-system) | Distributed
+          semantic cache and stateful routing system that cuts LLM API costs by returning cached responses for
+          semantically similar queries. Uses ANN vector search (cosine ≥ 0.8) and consistent hashing to pin requests to
+          the same worker, achieving ~7× latency reduction on cache hits while scaling horizontally without cache
+          thrash. | ![GitHub
+          Badge](https://img.shields.io/github/stars/redjackfred/distributed-semantic-cache-and-stateful-routing-system.svg?style=flat-square)
+          |
         confidence: high
 metadata:
   github:
@@ -29,19 +38,25 @@ metadata:
     archived: false
     full_name: redjackfred/distributed-semantic-cache-and-stateful-routing-system
     html_url: https://github.com/redjackfred/distributed-semantic-cache-and-stateful-routing-system
-    created_at: "2026-04-05T00:27:32Z"
-    pushed_at: "2026-04-05T04:34:22Z"
+    created_at: '2026-04-05T00:27:32Z'
+    pushed_at: '2026-04-05T04:34:22Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:44.635Z"
+    last_checked_at: '2026-07-20T16:42:44.635Z'
     readme:
-      fetched_at: "2026-07-20T16:42:44.635Z"
+      fetched_at: '2026-07-20T16:42:44.635Z'
       bytes: 11126
 insights:
-  summary: A self-hosted Go and Python system that uses consistent hashing and Redis vector search to cache semantically similar LLM responses and route requests to warm workers.
-  why_it_matters: It gives developers a drop-in infrastructure layer to reduce LLM API costs and latency by catching paraphrased queries before they ever hit a model.
-  mental_damage: Yet another reminder that the most impressive part of your AI stack is the glue you have to invent just to stop paying OpenAI for the same paraphrased question fifty times.
+  summary: >-
+    A self-hosted Go and Python system that uses consistent hashing and Redis vector search to cache semantically
+    similar LLM responses and route requests to warm workers.
+  why_it_matters: >-
+    It gives developers a drop-in infrastructure layer to reduce LLM API costs and latency by catching paraphrased
+    queries before they ever hit a model.
+  mental_damage: >-
+    Yet another reminder that the most impressive part of your AI stack is the glue you have to invent just to stop
+    paying OpenAI for the same paraphrased question fifty times.
   tags:
     - semantic-cache
     - llmops
@@ -51,35 +66,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The project is a code-first infrastructure stack that developers deploy and extend as building blocks for LLM caching and routing, fitting cleanly under memory and retrieval infrastructure.
+  reason: >-
+    The project is a code-first infrastructure stack that developers deploy and extend as building blocks for LLM
+    caching and routing, fitting cleanly under memory and retrieval infrastructure.
   evidence:
     - README describes a polyglot Go + Python system with Docker Compose that developers deploy as infrastructure.
     - Core functionality is semantic vector caching via Redis and consistent hashing for stateful routing.
     - Included in Awesome-LLMOps under LLMOps, reinforcing its infrastructure/ops tooling identity.
 placement:
   primary_category: ai-frameworks
-  section: Memory / Retrieval Infrastructure
+  secondary_categories: []
+  section: Memory & Retrieval Infrastructure
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.645Z"
+    updated_at: '2026-05-06T22:12:15.645Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:44.635Z"
+    updated_at: '2026-07-20T16:42:44.635Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

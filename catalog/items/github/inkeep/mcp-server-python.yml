@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__inkeep__mcp-server-python__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: Inkeep
         extracted_url: https://github.com/inkeep/mcp-server-python
-        surrounding_text: "- **[Inkeep](https://github.com/inkeep/mcp-server-python)** - RAG Search over your content powered by [Inkeep](https://inkeep.com)"
+        surrounding_text: >-
+          - **[Inkeep](https://github.com/inkeep/mcp-server-python)** - RAG Search over your content powered by
+          [Inkeep](https://inkeep.com)
         confidence: high
 metadata:
   github:
@@ -29,19 +31,23 @@ metadata:
     archived: false
     full_name: inkeep/mcp-server-python
     html_url: https://github.com/inkeep/mcp-server-python
-    created_at: "2025-03-13T02:02:51Z"
-    pushed_at: "2025-04-10T19:49:05Z"
+    created_at: '2025-03-13T02:02:51Z'
+    pushed_at: '2025-04-10T19:49:05Z'
     description: Inkeep MCP Server
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:43.507Z"
+    last_checked_at: '2026-07-30T05:05:43.507Z'
     readme:
-      fetched_at: "2026-07-30T05:05:43.507Z"
+      fetched_at: '2026-07-30T05:05:43.507Z'
       bytes: 2145
 insights:
   summary: An MCP server that connects Inkeep's RAG-powered documentation search to MCP-compatible clients like Claude Desktop.
-  why_it_matters: Developers can integrate Inkeep's product documentation search directly into their MCP-enabled workflows, enabling context-aware queries without leaving their coding environment.
-  mental_damage: Now your AI can read the docs you never will, but only if you first configure a path, an API key, and a JSON snippet that looks like a ritual incantation.
+  why_it_matters: >-
+    Developers can integrate Inkeep's product documentation search directly into their MCP-enabled workflows, enabling
+    context-aware queries without leaving their coding environment.
+  mental_damage: >-
+    Now your AI can read the docs you never will, but only if you first configure a path, an API key, and a JSON snippet
+    that looks like a ritual incantation.
   tags:
     - mcp
     - rag
@@ -51,31 +57,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose primary identity is providing Inkeep's RAG capabilities as an MCP-compatible tool, fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is an MCP-first server whose primary identity is providing Inkeep's RAG capabilities as an MCP-compatible tool,
+    fitting the MCP Servers & Tooling category.
   evidence:
     - Repo description explicitly labels it as an 'Inkeep MCP Server'
     - README details setup for MCP clients (Claude Desktop) and Inkeep API integration
     - Listed in awesome-mcp-servers under 'Official Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.620Z"
+    updated_at: '2026-05-06T22:12:15.620Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:43.507Z"
+    updated_at: '2026-07-30T05:05:43.507Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:08:11.087Z"
+    updated_at: '2026-07-21T16:08:11.087Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +97,9 @@ processing:
       input_hash: sha256:3af1594f460e488b6f6c9e8e832ce9f2b36d07e0212d72dee51c5f610963f97d
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server whose primary identity is providing Inkeep's RAG capabilities as an MCP-compatible tool, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is an MCP-first server whose primary identity is providing Inkeep's RAG capabilities as an MCP-compatible
+        tool, fitting the MCP Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly labels it as an 'Inkeep MCP Server'
         - README details setup for MCP clients (Claude Desktop) and Inkeep API integration
@@ -96,6 +107,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

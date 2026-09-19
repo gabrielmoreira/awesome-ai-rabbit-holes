@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__marker-inc-korea__autorag__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,10 +19,14 @@ provenance:
           - AutoML
         anchor_text: AutoRAG
         extracted_url: https://github.com/marker-inc-korea/autorag
-        surrounding_text: "| [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG)                       | AutoML tool for RAG - Boost your LLM app performance with your own data                                                                                                         | ![GitHub Badge](https://img.shields.io/github/stars/Marker-Inc-Korea/AutoRAG.svg?style=flat-square)        |"
+        surrounding_text: >-
+          | [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG)                       | AutoML tool for RAG - Boost
+          your LLM app performance with your own
+          data                                                                                                         |
+          ![GitHub Badge](https://img.shields.io/github/stars/Marker-Inc-Korea/AutoRAG.svg?style=flat-square)        |
         confidence: high
     - id: discovery__github__marker-inc-korea__autorag__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,7 +38,9 @@ provenance:
           - 知识库 RAG
         anchor_text: AutoRAG
         extracted_url: https://github.com/marker-inc-korea/autorag
-        surrounding_text: "23. [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG): RAG AutoML tool for automatically finding an optimal RAG pipeline for your data."
+        surrounding_text: >-
+          23. [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG): RAG AutoML tool for automatically finding an
+          optimal RAG pipeline for your data.
         confidence: high
 metadata:
   github:
@@ -44,9 +50,9 @@ metadata:
     archived: false
     full_name: Marker-Inc-Korea/AutoRAG
     html_url: https://github.com/Marker-Inc-Korea/AutoRAG
-    created_at: "2024-01-10T12:25:00Z"
-    pushed_at: "2026-08-01T03:36:07Z"
-    description: "AutoRAG: Now your agent can find anything in your computer. It gets smarter if you are using it frequently."
+    created_at: '2024-01-10T12:25:00Z'
+    pushed_at: '2026-08-01T03:36:07Z'
+    description: 'AutoRAG: Now your agent can find anything in your computer. It gets smarter if you are using it frequently.'
     homepage: https://marker-inc-korea.github.io/AutoRAG/
     topics:
       - analysis
@@ -67,14 +73,20 @@ metadata:
       - rag
       - rag-evaluation
       - retrieval-augmented-generation
-    last_checked_at: "2026-08-03T05:16:56.431Z"
+    last_checked_at: '2026-08-03T05:16:56.431Z'
     readme:
-      fetched_at: "2026-08-03T05:16:56.431Z"
+      fetched_at: '2026-08-03T05:16:56.431Z'
       bytes: 20430
 insights:
-  summary: An open-source RAG AutoML framework that automatically evaluates, benchmarks, and optimizes retrieval-augmented generation pipelines for your specific datasets.
-  why_it_matters: Developers building RAG applications can stop manually guessing which combination of parsers, chunkers, embeddings, and retrievers works best by letting AutoRAG run systematic experiments against their own data.
-  mental_damage: Another glorious framework promising to automate your RAG decisions so you can spend the time you saved fine-tuning the YAML file that configures the automation.
+  summary: >-
+    An open-source RAG AutoML framework that automatically evaluates, benchmarks, and optimizes retrieval-augmented
+    generation pipelines for your specific datasets.
+  why_it_matters: >-
+    Developers building RAG applications can stop manually guessing which combination of parsers, chunkers, embeddings,
+    and retrievers works best by letting AutoRAG run systematic experiments against their own data.
+  mental_damage: >-
+    Another glorious framework promising to automate your RAG decisions so you can spend the time you saved fine-tuning
+    the YAML file that configures the automation.
   tags:
     - rag
     - eval
@@ -84,35 +96,42 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core job of this product is evaluating, benchmarking, and optimizing RAG pipeline combinations, which aligns directly with the evals category's focus on measuring and comparing model/prompt/agent behavior.
+  reason: >-
+    The core job of this product is evaluating, benchmarking, and optimizing RAG pipeline combinations, which aligns
+    directly with the evals category's focus on measuring and comparing model/prompt/agent behavior.
   evidence:
     - Repo description explicitly states it is an 'RAG Evaluation & Optimization' tool with 'AutoML-Style Automation'.
-    - README states the tool's purpose is to 'evaluate various RAG modules automatically' and 'find the best RAG pipeline for your own use-case' using metrics and optimization.
-    - Topics include evaluation, benchmarking, and optimization, and it is listed in Awesome-LLMOps under the 'AutoML' section for evaluation purposes.
+    - >-
+      README states the tool's purpose is to 'evaluate various RAG modules automatically' and 'find the best RAG
+      pipeline for your own use-case' using metrics and optimization.
+    - >-
+      Topics include evaluation, benchmarking, and optimization, and it is listed in Awesome-LLMOps under the 'AutoML'
+      section for evaluation purposes.
 placement:
-  primary_category: evals
-  section: Prompt Regression & Experimentation
+  primary_category: ai-frameworks
+  secondary_categories: []
+  section: Memory & Retrieval Infrastructure
 lifecycle:
   status: promotion_candidate
   reason: Stars (4749) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.590Z"
+    updated_at: '2026-05-06T22:12:15.590Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:56.431Z"
+    updated_at: '2026-08-03T05:16:56.431Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

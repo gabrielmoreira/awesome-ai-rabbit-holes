@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__arpitbatra123__mcp-googletasks__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: arpitbatra123/mcp-googletasks
         extracted_url: https://github.com/arpitbatra123/mcp-googletasks
-        surrounding_text: "- [arpitbatra123/mcp-googletasks](https://github.com/arpitbatra123/mcp-googletasks) 📇 ☁️ - An MCP server to interface with the Google Tasks API"
+        surrounding_text: >-
+          - [arpitbatra123/mcp-googletasks](https://github.com/arpitbatra123/mcp-googletasks) 📇 ☁️ - An MCP server to
+          interface with the Google Tasks API
         confidence: high
     - id: discovery__github__arpitbatra123__mcp-googletasks__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - 💬 Communication
         anchor_text: arpitbatra123/mcp-googletasks
         extracted_url: https://github.com/arpitbatra123/mcp-googletasks
-        surrounding_text: "-   **[arpitbatra123/mcp-googletasks](https://github.com/arpitbatra123/mcp-googletasks)** [![GitHub stars](https://img.shields.io/github/stars/arpitbatra123/mcp-googletasks?style=social)](https://github.com/arpitbatra123/mcp-googletasks): Interfaces with the Google Tasks API for task management."
+        surrounding_text: >-
+          -   **[arpitbatra123/mcp-googletasks](https://github.com/arpitbatra123/mcp-googletasks)** [![GitHub
+          stars](https://img.shields.io/github/stars/arpitbatra123/mcp-googletasks?style=social)](https://github.com/arpitbatra123/mcp-googletasks):
+          Interfaces with the Google Tasks API for task management.
         confidence: high
 metadata:
   github:
@@ -45,17 +50,21 @@ metadata:
     archived: false
     full_name: arpitbatra123/mcp-googletasks
     html_url: https://github.com/arpitbatra123/mcp-googletasks
-    created_at: "2025-03-18T17:22:05Z"
-    pushed_at: "2026-04-22T17:04:54Z"
-    description: This Model Context Protocol (MCP) server provides a bridge between LLMs and Google Tasks, allowing you to manage your task lists and tasks directly through Claude.
-    homepage: ""
+    created_at: '2025-03-18T17:22:05Z'
+    pushed_at: '2026-04-22T17:04:54Z'
+    description: >-
+      This Model Context Protocol (MCP) server provides a bridge between LLMs and Google Tasks, allowing you to manage
+      your task lists and tasks directly through Claude.
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-10T04:12:59.362Z"
+    last_checked_at: '2026-09-10T04:12:59.362Z'
     readme:
-      fetched_at: "2026-09-10T04:12:59.362Z"
+      fetched_at: '2026-09-10T04:12:59.362Z'
       bytes: 5976
 insights:
-  summary: An MCP server that bridges LLMs with Google Tasks, enabling task management through clients like Claude Desktop, Cursor, and Codex.
+  summary: >-
+    An MCP server that bridges LLMs with Google Tasks, enabling task management through clients like Claude Desktop,
+    Cursor, and Codex.
   why_it_matters: Developers can now manage Google Tasks directly from their AI coding assistants without leaving their workflow.
   mental_damage: Because nothing says productivity like delegating your to-do list to the same AI that writes your code.
   tags:
@@ -66,31 +75,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server providing domain-specific (Google Tasks) integration, fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is an MCP-first server providing domain-specific (Google Tasks) integration, fitting the MCP Servers & Tooling
+    category.
   evidence:
     - Repo description explicitly identifies it as an MCP server for Google Tasks
     - README details MCP client integration (Claude Desktop, Cursor, Codex)
     - Listed in awesome-mcp-list and awesome-mcp-servers under Communication/Domain Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.582Z"
+    updated_at: '2026-05-06T22:12:15.582Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:12:59.362Z"
+    updated_at: '2026-09-10T04:12:59.362Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:24:09.953Z"
+    updated_at: '2026-07-21T15:24:09.953Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -103,7 +115,9 @@ processing:
       input_hash: sha256:8ac504e9bcff278b6b229651249e51674b4427f2226b7f9b223467ce16d9ef84
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server providing domain-specific (Google Tasks) integration, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is an MCP-first server providing domain-specific (Google Tasks) integration, fitting the MCP Servers &
+        Tooling category.
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server for Google Tasks
         - README details MCP client integration (Claude Desktop, Cursor, Codex)
@@ -111,6 +125,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, not merely an extension
+        for another assistant.
       review_reason: null
       review_resume_lifecycle: null

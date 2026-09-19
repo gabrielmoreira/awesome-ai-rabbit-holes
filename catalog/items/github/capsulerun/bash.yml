@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__capsulerun__bash__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🖥️ <a name="command-line"></a>Command Line
         anchor_text: capsulerun/bash
         extracted_url: https://github.com/capsulerun/bash
-        surrounding_text: "- [capsulerun/bash](https://github.com/capsulerun/bash/tree/main/packages/bash-mcp) [![Capsule Bash MCP server](https://glama.ai/mcp/servers/capsulerun/bash/badges/score.svg)](https://glama.ai/mcp/servers/capsulerun/bash) 📇 🏠 🍎 🪟 🐧 - Sandboxed bash for agents. Run untrusted commands in WebAssembly sandboxes with no setup required."
+        surrounding_text: >-
+          - [capsulerun/bash](https://github.com/capsulerun/bash/tree/main/packages/bash-mcp) [![Capsule Bash MCP
+          server](https://glama.ai/mcp/servers/capsulerun/bash/badges/score.svg)](https://glama.ai/mcp/servers/capsulerun/bash)
+          📇 🏠 🍎 🪟 🐧 - Sandboxed bash for agents. Run untrusted commands in WebAssembly sandboxes with no setup
+          required.
         confidence: high
 metadata:
   github:
@@ -30,10 +34,10 @@ metadata:
     archived: true
     full_name: capsulerun/bash
     html_url: https://github.com/capsulerun/bash
-    created_at: "2026-04-09T15:20:22Z"
-    pushed_at: "2026-05-16T10:07:00Z"
+    created_at: '2026-04-09T15:20:22Z'
+    pushed_at: '2026-05-16T10:07:00Z'
     description: Sandboxed bash for agents. Track changes on every command.
-    homepage: ""
+    homepage: ''
     topics:
       - ai-agents
       - bash
@@ -42,13 +46,15 @@ metadata:
       - mcp
       - sandbox
       - typescript
-    last_checked_at: "2026-09-07T04:13:41.542Z"
+    last_checked_at: '2026-09-07T04:13:41.542Z'
     readme:
-      fetched_at: "2026-09-07T04:13:41.542Z"
+      fetched_at: '2026-09-07T04:13:41.542Z'
       bytes: 6683
 insights:
   summary: A sandboxed bash execution environment for agents, provided via a TypeScript SDK and MCP server.
-  why_it_matters: It allows developers to grant AI agents safe, observable terminal access with Wasm-based isolation and structured filesystem diffs.
+  why_it_matters: >-
+    It allows developers to grant AI agents safe, observable terminal access with Wasm-based isolation and structured
+    filesystem diffs.
   mental_damage: Because providing an LLM with a shell is the ultimate test of whether your sandbox is actually a sandbox.
   tags:
     - sandbox
@@ -59,31 +65,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It functions as a capability provider that augments coding agents with the ability to safely execute terminal commands.
+  reason: >-
+    It functions as a capability provider that augments coding agents with the ability to safely execute terminal
+    commands.
   evidence:
     - TypeScript SDK for sandboxed command execution
     - Provides structured stdout, stderr, and filesystem diffs
     - Includes an MCP server implementation for agentic integration
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: mcp
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.818Z"
+    updated_at: '2026-05-28T05:28:09.818Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:41.542Z"
+    updated_at: '2026-09-07T04:13:41.542Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-28T05:36:57.997Z"
+    updated_at: '2026-05-28T05:36:57.997Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

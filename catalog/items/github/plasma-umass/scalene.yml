@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__plasma-umass__scalene__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - Profiling
         anchor_text: scalene
         extracted_url: https://github.com/plasma-umass/scalene
-        surrounding_text: "| [scalene](https://github.com/plasma-umass/scalene)         | a high-performance, high-precision CPU, GPU, and memory profiler for Python                                                                                                                                                         | ![GitHub Badge](https://img.shields.io/github/stars/plasma-umass/scalene.svg?style=flat-square)  |"
+        surrounding_text: >-
+          | [scalene](https://github.com/plasma-umass/scalene)         | a high-performance, high-precision CPU, GPU,
+          and memory profiler for
+          Python                                                                                                                                                        
+          | ![GitHub Badge](https://img.shields.io/github/stars/plasma-umass/scalene.svg?style=flat-square)  |
         confidence: high
 metadata:
   github:
@@ -30,10 +34,12 @@ metadata:
     archived: false
     full_name: plasma-umass/scalene
     html_url: https://github.com/plasma-umass/scalene
-    created_at: "2019-12-17T20:56:28Z"
-    pushed_at: "2026-07-05T18:37:56Z"
-    description: "Scalene: a high-performance, high-precision CPU, GPU, and memory profiler for Python with AI-powered optimization proposals"
-    homepage: ""
+    created_at: '2019-12-17T20:56:28Z'
+    pushed_at: '2026-07-05T18:37:56Z'
+    description: >-
+      Scalene: a high-performance, high-precision CPU, GPU, and memory profiler for Python with AI-powered optimization
+      proposals
+    homepage: ''
     topics:
       - cpu
       - cpu-profiling
@@ -49,14 +55,20 @@ metadata:
       - python
       - python-profilers
       - scalene
-    last_checked_at: "2026-07-20T16:42:35.413Z"
+    last_checked_at: '2026-07-20T16:42:35.413Z'
     readme:
-      fetched_at: "2026-07-20T16:42:35.413Z"
+      fetched_at: '2026-07-20T16:42:35.413Z'
       bytes: 28686
 insights:
-  summary: Scalene is a high-performance Python profiler for CPU, GPU, and memory that integrates AI providers to generate code optimization suggestions directly in the terminal and VS Code.
-  why_it_matters: It allows developers to pinpoint performance bottlenecks with high precision and receive actionable, AI-generated refactoring proposals without leaving their profiling workflow.
-  mental_damage: Now your profiler not only tells you that your code is slow, but uses a multi-billion parameter model to gently explain exactly how you failed at basic algorithmic efficiency.
+  summary: >-
+    Scalene is a high-performance Python profiler for CPU, GPU, and memory that integrates AI providers to generate code
+    optimization suggestions directly in the terminal and VS Code.
+  why_it_matters: >-
+    It allows developers to pinpoint performance bottlenecks with high precision and receive actionable, AI-generated
+    refactoring proposals without leaving their profiling workflow.
+  mental_damage: >-
+    Now your profiler not only tells you that your code is slow, but uses a multi-billion parameter model to gently
+    explain exactly how you failed at basic algorithmic efficiency.
   tags:
     - python
     - profiling
@@ -65,35 +77,42 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The primary product identity is a Python profiler; the AI feature is an integrated add-on that proposes optimizations within the tool's UI and extension, rather than acting as a standalone coding agent.
+  reason: >-
+    The primary product identity is a Python profiler; the AI feature is an integrated add-on that proposes
+    optimizations within the tool's UI and extension, rather than acting as a standalone coding agent.
   evidence:
-    - Repo description identifies it as a 'CPU, GPU, and memory profiler for Python' with 'AI-powered optimization proposals'.
-    - README details AI integration via OpenAI, Azure, Bedrock, and Ollama to generate suggestions via a lightning bolt icon in the UI.
+    - >-
+      Repo description identifies it as a 'CPU, GPU, and memory profiler for Python' with 'AI-powered optimization
+      proposals'.
+    - >-
+      README details AI integration via OpenAI, Azure, Bedrock, and Ollama to generate suggestions via a lightning bolt
+      icon in the UI.
     - Includes a Visual Studio Code extension that wraps the profiling and AI suggestion features into the editor.
 placement:
-  primary_category: ai-dev-extensions
-  section: IDE / UI / Workflow Add-ons
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: Testing & Code Quality
 lifecycle:
   status: promotion_candidate
   reason: Stars (13409) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.642Z"
+    updated_at: '2026-05-06T22:12:15.642Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:35.413Z"
+    updated_at: '2026-07-20T16:42:35.413Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

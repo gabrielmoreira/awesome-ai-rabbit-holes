@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jamesanz__medical-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - <a name="bio"></a>Biology, Medicine and Bioinformatics
         anchor_text: JamesANZ/medical-mcp
         extracted_url: https://github.com/jamesanz/medical-mcp
-        surrounding_text: "- [JamesANZ/medical-mcp](https://github.com/JamesANZ/medical-mcp) 📇 🏠 - An MCP server that provides access to medical information, drug databases, and healthcare resources. Enables AI assistants to query medical data, drug interactions, and clinical guidelines."
+        surrounding_text: >-
+          - [JamesANZ/medical-mcp](https://github.com/JamesANZ/medical-mcp) 📇 🏠 - An MCP server that provides access
+          to medical information, drug databases, and healthcare resources. Enables AI assistants to query medical data,
+          drug interactions, and clinical guidelines.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: JamesANZ/medical-mcp
     html_url: https://github.com/JamesANZ/medical-mcp
-    created_at: "2025-07-14T08:33:25Z"
-    pushed_at: "2026-06-04T02:40:19Z"
-    description: An MCP server that provides comprehensive medical information by querying multiple authoritative medical APIs including FDA, WHO, PubMed, Google Scholar, and RxNorm
+    created_at: '2025-07-14T08:33:25Z'
+    pushed_at: '2026-06-04T02:40:19Z'
+    description: >-
+      An MCP server that provides comprehensive medical information by querying multiple authoritative medical APIs
+      including FDA, WHO, PubMed, Google Scholar, and RxNorm
     homepage: https://glama.ai/mcp/servers/@JamesANZ/medical-mcp
     topics:
       - fda
@@ -42,13 +47,17 @@ metadata:
       - pubmed
       - rxnorm
       - who
-    last_checked_at: "2026-07-30T05:05:47.239Z"
+    last_checked_at: '2026-07-30T05:05:47.239Z'
     readme:
-      fetched_at: "2026-07-30T05:05:47.239Z"
+      fetched_at: '2026-07-30T05:05:47.239Z'
       bytes: 9453
 insights:
-  summary: An MCP server that provides access to authoritative medical APIs (FDA, WHO, PubMed, RxNorm, Google Scholar) for AI workflows.
-  why_it_matters: Developers building medical or health-adjacent AI tools can integrate trusted, up-to-date medical data directly into their coding environments without API keys or cloud dependencies.
+  summary: >-
+    An MCP server that provides access to authoritative medical APIs (FDA, WHO, PubMed, RxNorm, Google Scholar) for AI
+    workflows.
+  why_it_matters: >-
+    Developers building medical or health-adjacent AI tools can integrate trusted, up-to-date medical data directly into
+    their coding environments without API keys or cloud dependencies.
   mental_damage: Now your AI can argue with you about drug interactions while you’re trying to debug a segfault.
   tags:
     - mcp-server
@@ -58,31 +67,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose primary identity is serving medical data via the Model Context Protocol.
+  reason: >-
+    The product is explicitly an MCP server whose primary identity is serving medical data via the Model Context
+    Protocol.
   evidence:
     - Repo description identifies it as an MCP server for medical APIs
     - README emphasizes MCP integration with Cursor/Claude Desktop
     - Listed in awesome-mcp-servers under Biology/Medicine
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.621Z"
+    updated_at: '2026-05-06T22:12:15.621Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:47.239Z"
+    updated_at: '2026-07-30T05:05:47.239Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:09:40.419Z"
+    updated_at: '2026-07-21T16:09:40.419Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -95,7 +107,9 @@ processing:
       input_hash: sha256:0018d028a287e770f92721ed9ed3dfbab8e76a384118dd92a34b31841caf40e7
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server whose primary identity is serving medical data via the Model Context Protocol.
+      decision_reason: >-
+        The product is explicitly an MCP server whose primary identity is serving medical data via the Model Context
+        Protocol.
       decision_evidence:
         - Repo description identifies it as an MCP server for medical APIs
         - README emphasizes MCP integration with Cursor/Claude Desktop
@@ -103,6 +117,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

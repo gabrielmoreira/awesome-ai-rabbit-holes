@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__marcelroozekrans__memorylens-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: MarcelRoozekrans/memorylens-mcp
         extracted_url: https://github.com/marcelroozekrans/memorylens-mcp
-        surrounding_text: "- [MarcelRoozekrans/memorylens-mcp](https://github.com/MarcelRoozekrans/memorylens-mcp) [![memorylens-mcp MCP server](https://glama.ai/mcp/servers/MarcelRoozekrans/memorylens-mcp/badges/score.svg)](https://glama.ai/mcp/servers/MarcelRoozekrans/memorylens-mcp) #️⃣ 🏠 🪟 - On-demand .NET memory profiling MCP server. Wraps JetBrains dotMemory with a heuristic rule engine (10 rules) to detect memory leaks, LOH fragmentation, and anti-patterns, providing AI-actionable code fix suggestions."
+        surrounding_text: >-
+          - [MarcelRoozekrans/memorylens-mcp](https://github.com/MarcelRoozekrans/memorylens-mcp) [![memorylens-mcp MCP
+          server](https://glama.ai/mcp/servers/MarcelRoozekrans/memorylens-mcp/badges/score.svg)](https://glama.ai/mcp/servers/MarcelRoozekrans/memorylens-mcp)
+          #️⃣ 🏠 🪟 - On-demand .NET memory profiling MCP server. Wraps JetBrains dotMemory with a heuristic rule engine
+          (10 rules) to detect memory leaks, LOH fragmentation, and anti-patterns, providing AI-actionable code fix
+          suggestions.
         confidence: high
 metadata:
   github:
@@ -30,19 +35,25 @@ metadata:
     archived: false
     full_name: MarcelRoozekrans/memorylens-mcp
     html_url: https://github.com/MarcelRoozekrans/memorylens-mcp
-    created_at: "2026-03-09T07:18:05Z"
-    pushed_at: "2026-08-01T06:04:18Z"
+    created_at: '2026-03-09T07:18:05Z'
+    pushed_at: '2026-08-01T06:04:18Z'
     description: MCP server for .NET memory profiling with AI-actionable code fix suggestions, powered by JetBrains dotMemory
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:16:55.734Z"
+    last_checked_at: '2026-08-03T05:16:55.734Z'
     readme:
-      fetched_at: "2026-08-03T05:16:55.734Z"
+      fetched_at: '2026-08-03T05:16:55.734Z'
       bytes: 8214
 insights:
-  summary: MemoryLens MCP is an MCP server that wraps JetBrains dotMemory to provide .NET memory profiling with AI-actionable code fix suggestions.
-  why_it_matters: It turns raw .NET memory diagnostics into concrete, rule-based coding guidance that developers can act on directly in their IDE or terminal.
-  mental_damage: Finally, a tool that tells you not just that your app is leaking, but exactly which static collection to guilt-trip into behaving.
+  summary: >-
+    MemoryLens MCP is an MCP server that wraps JetBrains dotMemory to provide .NET memory profiling with AI-actionable
+    code fix suggestions.
+  why_it_matters: >-
+    It turns raw .NET memory diagnostics into concrete, rule-based coding guidance that developers can act on directly
+    in their IDE or terminal.
+  mental_damage: >-
+    Finally, a tool that tells you not just that your app is leaking, but exactly which static collection to guilt-trip
+    into behaving.
   tags:
     - mcp
     - .net
@@ -51,31 +62,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server as its core identity, providing .NET memory profiling via the Model Context Protocol, making MCP the primary product identity rather than a compatibility feature.
+  reason: >-
+    The product is an MCP server as its core identity, providing .NET memory profiling via the Model Context Protocol,
+    making MCP the primary product identity rather than a compatibility feature.
   evidence:
-    - "Repo description: 'MCP server for .NET memory profiling with AI-actionable code fix suggestions, powered by JetBrains dotMemory'"
-    - "README: 'MemoryLens MCP' header, hosted deployment via Glama.ai MCP server badge, and MCP tools like `snapshot`, `analyze`, and `ensure_dotmemory`"
-    - "Source-list context: included in awesome-mcp-servers under 'Server Implementations > Developer Tools'"
+    - >-
+      Repo description: 'MCP server for .NET memory profiling with AI-actionable code fix suggestions, powered by
+      JetBrains dotMemory'
+    - >-
+      README: 'MemoryLens MCP' header, hosted deployment via Glama.ai MCP server badge, and MCP tools like `snapshot`,
+      `analyze`, and `ensure_dotmemory`
+    - 'Source-list context: included in awesome-mcp-servers under ''Server Implementations > Developer Tools'''
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.628Z"
+    updated_at: '2026-05-06T22:12:15.628Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:55.734Z"
+    updated_at: '2026-08-03T05:16:55.734Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:18:13.861Z"
+    updated_at: '2026-07-21T16:18:13.861Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,14 +106,22 @@ processing:
       input_hash: sha256:8a958cec8899db0dfa954ff3492739fc6d44eb9de0b38acc997f43e35c346df0
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server as its core identity, providing .NET memory profiling via the Model Context Protocol, making MCP the primary product identity rather than a compatibility feature.
+      decision_reason: >-
+        The product is an MCP server as its core identity, providing .NET memory profiling via the Model Context
+        Protocol, making MCP the primary product identity rather than a compatibility feature.
       decision_evidence:
-        - "Repo description: 'MCP server for .NET memory profiling with AI-actionable code fix suggestions, powered by JetBrains dotMemory'"
-        - "README: 'MemoryLens MCP' header, hosted deployment via Glama.ai MCP server badge, and MCP tools like `snapshot`, `analyze`, and `ensure_dotmemory`"
-        - "Source-list context: included in awesome-mcp-servers under 'Server Implementations > Developer Tools'"
+        - >-
+          Repo description: 'MCP server for .NET memory profiling with AI-actionable code fix suggestions, powered by
+          JetBrains dotMemory'
+        - >-
+          README: 'MemoryLens MCP' header, hosted deployment via Glama.ai MCP server badge, and MCP tools like
+          `snapshot`, `analyze`, and `ensure_dotmemory`
+        - 'Source-list context: included in awesome-mcp-servers under ''Server Implementations > Developer Tools'''
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server whose main value is the MCP interface itself, not augmenting another assistant with host integrations.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server whose main value is the MCP interface
+        itself, not augmenting another assistant with host integrations.
       review_reason: null
       review_resume_lifecycle: null

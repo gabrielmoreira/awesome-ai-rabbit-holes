@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mlabonne__github__io__blog__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -46,13 +46,13 @@ insights:
     - education
   confidence: high
 curation:
-  status: included
-  reason: The site functions as a technical blog/publication providing ongoing educational media rather than a standalone tool or directory.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - The URL identifies the site as a personal GitHub Pages blog
-    - Source-list context in awesome-LLM-resources categorizes it as a tutorial (教程) resource
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: newsletters-and-feeds
+  primary_category: null
+  secondary_categories: []
   section: null
 lifecycle:
   status: incubating
@@ -60,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +69,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:12:33.669Z"
+    updated_at: '2026-08-27T06:12:33.669Z'
     cause: null
     next_retry_at: null
     attempts: 4
@@ -82,13 +82,17 @@ processing:
       input_hash: sha256:c6fdd287500c2975b3656e018622f47b7d68cf9f03937d45bf64dd57c39a8448
       proposed_primary_category: newsletters-and-feeds
       disagreement: false
-      decision_reason: The site functions as a technical blog/publication providing ongoing educational media rather than a standalone tool or directory.
+      decision_reason: >-
+        The site functions as a technical blog/publication providing ongoing educational media rather than a standalone
+        tool or directory.
       decision_evidence:
         - The URL identifies the site as a personal GitHub Pages blog
         - Source-list context in awesome-LLM-resources categorizes it as a tutorial (教程) resource
       category_candidates:
         - newsletters-and-feeds
         - awesome-awesomes
-      contrastive_reason: Choose newsletters-and-feeds over awesome-awesomes because the primary identity is a publication/media surface rather than a curated index of other tools.
+      contrastive_reason: >-
+        Choose newsletters-and-feeds over awesome-awesomes because the primary identity is a publication/media surface
+        rather than a curated index of other tools.
       review_reason: null
       review_resume_lifecycle: null

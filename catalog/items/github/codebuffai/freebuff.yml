@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__codebuffai__codebuff__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,12 @@ provenance:
           - Open Source
         anchor_text: Codebuff
         extracted_url: https://github.com/codebuffai/codebuff
-        surrounding_text: "- **[Codebuff](https://github.com/CodebuffAI/codebuff)** `⭐ 4.6k` — Multi-agent AI coding assistant with CLI support for collaborative coding workflows."
+        surrounding_text: >-
+          - **[Codebuff](https://github.com/CodebuffAI/codebuff)** `⭐ 4.6k` — Multi-agent AI coding assistant with CLI
+          support for collaborative coding workflows.
         confidence: high
     - id: discovery__github__codebuffai__freebuff__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-08-06T05:06:55.627Z"
+      discovered_at: '2026-08-06T05:06:55.627Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -36,7 +38,9 @@ provenance:
           - Open Source
         anchor_text: Codebuff
         extracted_url: https://github.com/codebuffai/codebuff
-        surrounding_text: "- **[Codebuff](https://github.com/CodebuffAI/codebuff)** `⭐ 8.2k` — Multi-agent AI coding assistant with CLI support for collaborative coding workflows."
+        surrounding_text: >-
+          - **[Codebuff](https://github.com/CodebuffAI/codebuff)** `⭐ 8.2k` — Multi-agent AI coding assistant with CLI
+          support for collaborative coding workflows.
         confidence: high
 metadata:
   github:
@@ -46,19 +50,23 @@ metadata:
     archived: false
     full_name: CodebuffAI/freebuff
     html_url: https://github.com/CodebuffAI/freebuff
-    created_at: "2024-07-09T21:21:56Z"
-    pushed_at: "2026-09-07T02:52:21Z"
+    created_at: '2024-07-09T21:21:56Z'
+    pushed_at: '2026-09-07T02:52:21Z'
     description: The free coding agent
     homepage: https://freebuff.com
     topics: []
-    last_checked_at: "2026-09-07T04:13:48.022Z"
+    last_checked_at: '2026-09-07T04:13:48.022Z'
     readme:
-      fetched_at: "2026-09-07T04:13:48.022Z"
+      fetched_at: '2026-09-07T04:13:48.022Z'
       bytes: 7169
 insights:
   summary: A suite of free, ad-supported AI coding agents accessible via CLI, desktop, web, and cloud interfaces.
-  why_it_matters: It provides developers with low-barrier access to high-end models and autonomous agentic workflows without the need for personal API keys or subscriptions.
-  mental_damage: The cognitive dissonance of being a professional software engineer while being served text ads in your terminal is a new kind of technical debt.
+  why_it_matters: >-
+    It provides developers with low-barrier access to high-end models and autonomous agentic workflows without the need
+    for personal API keys or subscriptions.
+  mental_damage: >-
+    The cognitive dissonance of being a professional software engineer while being served text ads in your terminal is a
+    new kind of technical debt.
   tags:
     - coding-agents
     - cli
@@ -68,21 +76,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool acts as a primary coding assistant that plans, edits, and runs code across multiple developer-facing interfaces.
+  reason: >-
+    The tool acts as a primary coding assistant that plans, edits, and runs code across multiple developer-facing
+    interfaces.
   evidence:
     - Repo description explicitly calls it 'The free coding agent'
     - README details specialized agents for codebase context, implementation, and research
     - Offers multiple modes including a CLI and a Desktop application for local agent execution
 placement:
   primary_category: coding-agents
-  section: Terminal & CLI Agents
+  secondary_categories: []
+  section: Autonomous & Multi-Agent Coding
 lifecycle:
   status: promotion_candidate
   reason: Stars (4624) exceeded threshold (150)
 processing:
   categorize:
     status: done
-    updated_at: "2026-08-27T06:22:07.306Z"
+    updated_at: '2026-08-27T06:22:07.306Z'
     cause: null
     next_retry_at: null
     attempts: 5
@@ -95,7 +106,9 @@ processing:
       input_hash: sha256:23a3ea9011f0745804f1889393393899399d2b231cb9fab135d6088e8e14ead3
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: The tool acts as a primary coding assistant that plans, edits, and runs code across multiple developer-facing interfaces.
+      decision_reason: >-
+        The tool acts as a primary coding assistant that plans, edits, and runs code across multiple developer-facing
+        interfaces.
       decision_evidence:
         - Repo description explicitly calls it 'The free coding agent'
         - README details specialized agents for codebase context, implementation, and research
@@ -103,16 +116,18 @@ processing:
       category_candidates:
         - coding-agents
         - app-builders
-      contrastive_reason: Choose coding-agents over app-builders because its core identity is an assistant for editing existing repositories, despite having a web-based 'prompt-to-app' component.
+      contrastive_reason: >-
+        Choose coding-agents over app-builders because its core identity is an assistant for editing existing
+        repositories, despite having a web-based 'prompt-to-app' component.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-08-06T05:06:55.629Z"
+    updated_at: '2026-08-06T05:06:55.629Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:48.022Z"
+    updated_at: '2026-09-07T04:13:48.022Z'
     cause: null
     next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__crystaldba__postgres-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: crystaldba/postgres-mcp
         extracted_url: https://github.com/crystaldba/postgres-mcp
-        surrounding_text: "- [crystaldba/postgres-mcp](https://github.com/crystaldba/postgres-mcp) 🐍 🏠 - All-in-one MCP server for Postgres development and operations, with tools for performance analysis, tuning, and health checks"
+        surrounding_text: >-
+          - [crystaldba/postgres-mcp](https://github.com/crystaldba/postgres-mcp) 🐍 🏠 - All-in-one MCP server for
+          Postgres development and operations, with tools for performance analysis, tuning, and health checks
         confidence: high
 metadata:
   github:
@@ -30,18 +32,22 @@ metadata:
     archived: false
     full_name: crystaldba/postgres-mcp
     html_url: https://github.com/crystaldba/postgres-mcp
-    created_at: "2025-03-24T18:28:53Z"
-    pushed_at: "2026-08-17T05:06:35Z"
+    created_at: '2025-03-24T18:28:53Z'
+    pushed_at: '2026-08-17T05:06:35Z'
     description: Postgres MCP Pro provides configurable read/write access and performance analysis for you and your AI agents.
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-14T04:13:31.544Z"
+    last_checked_at: '2026-09-14T04:13:31.544Z'
     readme:
-      fetched_at: "2026-09-14T04:13:31.544Z"
+      fetched_at: '2026-09-14T04:13:31.544Z'
       bytes: 37523
 insights:
-  summary: An MCP server providing configurable read/write access, performance analysis, and schema-aware SQL generation for Postgres databases.
-  why_it_matters: It lets AI agents and developers safely interact with Postgres databases, offering index tuning, query plan analysis, and health checks directly through the MCP protocol.
+  summary: >-
+    An MCP server providing configurable read/write access, performance analysis, and schema-aware SQL generation for
+    Postgres databases.
+  why_it_matters: >-
+    It lets AI agents and developers safely interact with Postgres databases, offering index tuning, query plan
+    analysis, and health checks directly through the MCP protocol.
   mental_damage: Now your AI agent can optimize your database indexes while you’re still trying to remember how JOINs work.
   tags:
     - mcp
@@ -55,28 +61,31 @@ curation:
   reason: The product is explicitly an MCP server for Postgres, with MCP as its primary identity and purpose.
   evidence:
     - Repo description states it is a Postgres MCP server with read/write access and performance analysis
-    - README explicitly positions it as an MCP server with features like index tuning, explain plans, and schema intelligence
+    - >-
+      README explicitly positions it as an MCP server with features like index tuning, explain plans, and schema
+      intelligence
     - Already listed in awesome-mcp-servers under Database servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: promotion_candidate
   reason: Stars (2693) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.609Z"
+    updated_at: '2026-05-06T22:12:15.609Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:31.544Z"
+    updated_at: '2026-09-14T04:13:31.544Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:49:06.099Z"
+    updated_at: '2026-07-21T15:49:06.099Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -92,11 +101,15 @@ processing:
       decision_reason: The product is explicitly an MCP server for Postgres, with MCP as its primary identity and purpose.
       decision_evidence:
         - Repo description states it is a Postgres MCP server with read/write access and performance analysis
-        - README explicitly positions it as an MCP server with features like index tuning, explain plans, and schema intelligence
+        - >-
+          README explicitly positions it as an MCP server with features like index tuning, explain plans, and schema
+          intelligence
         - Already listed in awesome-mcp-servers under Database servers
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server for Postgres, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server for Postgres, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

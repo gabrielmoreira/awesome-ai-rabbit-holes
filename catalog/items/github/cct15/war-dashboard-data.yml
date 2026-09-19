@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cct15__war-dashboard-data__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: cct15/war-dashboard-data
         extracted_url: https://github.com/cct15/war-dashboard-data
-        surrounding_text: "- [cct15/war-dashboard-data](https://github.com/cct15/war-dashboard-data) 🐍 ☁️ - Geopolitical conflict risk probabilities for AI agents. Covers 6 regions (Russia-Ukraine, Iran-Israel, China-Taiwan, etc.) with escalation/ceasefire/regime change probabilities at 1d/7d/30d horizons. Includes maritime chokepoint vessel data and political event probabilities. Updated daily."
+        surrounding_text: >-
+          - [cct15/war-dashboard-data](https://github.com/cct15/war-dashboard-data) 🐍 ☁️ - Geopolitical conflict risk
+          probabilities for AI agents. Covers 6 regions (Russia-Ukraine, Iran-Israel, China-Taiwan, etc.) with
+          escalation/ceasefire/regime change probabilities at 1d/7d/30d horizons. Includes maritime chokepoint vessel
+          data and political event probabilities. Updated daily.
         confidence: high
 metadata:
   github:
@@ -30,18 +34,20 @@ metadata:
     archived: false
     full_name: cct15/war-dashboard-data
     html_url: https://github.com/cct15/war-dashboard-data
-    created_at: "2026-03-23T16:17:17Z"
-    pushed_at: "2026-06-19T03:27:36Z"
+    created_at: '2026-03-23T16:17:17Z'
+    pushed_at: '2026-06-19T03:27:36Z'
     description: Futuristic Risk Intelligence — Geopolitical conflict risk data for AI agents (MCP/API)
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:42.293Z"
+    last_checked_at: '2026-09-07T04:13:42.293Z'
     readme:
-      fetched_at: "2026-09-07T04:13:42.293Z"
+      fetched_at: '2026-09-07T04:13:42.293Z'
       bytes: 5840
 insights:
   summary: MCP server providing geopolitical conflict risk data for AI agents via API and Model Context Protocol.
-  why_it_matters: Enables AI agents to access structured, daily-updated geopolitical risk data for trading, risk management, or research workflows.
+  why_it_matters: >-
+    Enables AI agents to access structured, daily-updated geopolitical risk data for trading, risk management, or
+    research workflows.
   mental_damage: Now your agent can panic about Taiwan Strait tensions while you’re just trying to debug a segfault.
   tags:
     - mcp-server
@@ -59,24 +65,25 @@ curation:
     - Listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.607Z"
+    updated_at: '2026-05-06T22:12:15.607Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:42.293Z"
+    updated_at: '2026-09-07T04:13:42.293Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:41:08.668Z"
+    updated_at: '2026-07-21T15:41:08.668Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -97,6 +104,8 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product is an MCP server (not a general SDK/framework) and MCP is its core identity.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product is an MCP server (not a general SDK/framework) and MCP is its
+        core identity.
       review_reason: null
       review_resume_lifecycle: null

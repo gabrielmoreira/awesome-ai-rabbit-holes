@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tufantunc__ssh-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: tufantunc/ssh-mcp
         extracted_url: https://github.com/tufantunc/ssh-mcp
-        surrounding_text: "- [tufantunc/ssh-mcp](https://github.com/tufantunc/ssh-mcp) 📇 🏠 🐧 🪟 - MCP server exposing SSH control for Linux and Windows servers via Model Context Protocol. Securely execute remote shell commands with password or SSH key authentication."
+        surrounding_text: >-
+          - [tufantunc/ssh-mcp](https://github.com/tufantunc/ssh-mcp) 📇 🏠 🐧 🪟 - MCP server exposing SSH control for
+          Linux and Windows servers via Model Context Protocol. Securely execute remote shell commands with password or
+          SSH key authentication.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,20 @@ metadata:
     archived: false
     full_name: tufantunc/ssh-mcp
     html_url: https://github.com/tufantunc/ssh-mcp
-    created_at: "2025-04-26T21:07:32Z"
-    pushed_at: "2026-01-03T19:21:40Z"
+    created_at: '2025-04-26T21:07:32Z'
+    pushed_at: '2026-01-03T19:21:40Z'
     description: MCP server exposing SSH control for Linux servers via Model Context Protocol.
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-21T15:20:56.896Z"
+    last_checked_at: '2026-07-21T15:20:56.896Z'
     readme:
-      fetched_at: "2026-07-21T15:20:56.896Z"
+      fetched_at: '2026-07-21T15:20:56.896Z'
       bytes: 7907
 insights:
   summary: MCP server exposing SSH control for Linux and Windows systems via the Model Context Protocol.
-  why_it_matters: Enables LLMs and MCP clients to securely execute shell commands on remote systems using natural language, bridging AI agents with infrastructure access.
+  why_it_matters: >-
+    Enables LLMs and MCP clients to securely execute shell commands on remote systems using natural language, bridging
+    AI agents with infrastructure access.
   mental_damage: Another MCP server that turns your LLM into a slightly more dangerous remote terminal wrapper.
   tags:
     - mcp
@@ -50,31 +55,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is an MCP-first server whose primary identity is exposing SSH capabilities via the Model Context Protocol, making it MCP infrastructure rather than an extension or agent.
+  reason: >-
+    It is an MCP-first server whose primary identity is exposing SSH capabilities via the Model Context Protocol, making
+    it MCP infrastructure rather than an extension or agent.
   evidence:
-    - "Repo description: 'MCP server exposing SSH control for Linux servers via Model Context Protocol'"
-    - "README: 'SSH MCP Server is a local Model Context Protocol (MCP) server that exposes SSH control for Linux and Windows systems'"
-    - "Source-list context: listed in awesome-mcp-servers under Server Implementations"
+    - 'Repo description: ''MCP server exposing SSH control for Linux servers via Model Context Protocol'''
+    - >-
+      README: 'SSH MCP Server is a local Model Context Protocol (MCP) server that exposes SSH control for Linux and
+      Windows systems'
+    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (453) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.653Z"
+    updated_at: '2026-05-06T22:12:15.653Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:56.896Z"
+    updated_at: '2026-07-21T15:20:56.896Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:15:29.661Z"
+    updated_at: '2026-05-12T15:15:29.661Z'
     cause: null
     next_retry_at: null
     attempts: 1

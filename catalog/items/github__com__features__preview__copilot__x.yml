@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__github__com__features__preview__copilot__x__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - GitHub Copilot X
         anchor_text: GitHub Copilot X
         extracted_url: https://github.com/features/preview/copilot-x
-        surrounding_text: "## [GitHub Copilot X](https://github.com/features/preview/copilot-x)"
+        surrounding_text: '## [GitHub Copilot X](https://github.com/features/preview/copilot-x)'
         confidence: high
 metadata:
   github:
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: GitHub's suite of agentic features for Copilot, integrating chat, CLI, and automated pull request workflows.
-  why_it_matters: It shifts the developer experience from simple code completion to proactive assistance capable of planning, debugging, and managing repo-wide tasks.
-  mental_damage: You will eventually find yourself spending more time reviewing the agent's pull requests than actually writing your own code.
+  why_it_matters: >-
+    It shifts the developer experience from simple code completion to proactive assistance capable of planning,
+    debugging, and managing repo-wide tasks.
+  mental_damage: >-
+    You will eventually find yourself spending more time reviewing the agent's pull requests than actually writing your
+    own code.
   tags:
     - github
     - copilot
@@ -54,14 +58,14 @@ curation:
     - Enables repo-wide planning, debugging, and workflow automation
 placement:
   primary_category: coding-agents
-  section: IDE-Native Assistants
+  section: IDE-Native & Editor Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.966Z"
+    updated_at: '2026-07-21T15:20:21.966Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +74,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:18:15.436Z"
+    updated_at: '2026-08-27T06:18:15.436Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -81,14 +85,18 @@ processing:
       input_hash: sha256:bc81e99c65f8de259c9cfd10a8753c19ddccff24b7f1d7aea03b1c51e7187ec1
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: It functions as a primary coding assistant that provides agentic capabilities across the IDE, CLI, and PR workflows.
+      decision_reason: >-
+        It functions as a primary coding assistant that provides agentic capabilities across the IDE, CLI, and PR
+        workflows.
       decision_evidence:
         - Includes multi-surface tools like Chat and CLI
         - Enables repo-wide planning, debugging, and workflow automation
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because Copilot X represents the core evolution of the assistant's agency rather than a third-party extension augmenting a separate assistant.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because Copilot X represents the core evolution of the assistant's
+        agency rather than a third-party extension augmenting a separate assistant.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

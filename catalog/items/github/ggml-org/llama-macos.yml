@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ggml-org__llama-macos__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-06-18T05:40:04.065Z"
+      discovered_at: '2026-06-18T05:40:04.065Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,10 +19,10 @@ provenance:
           - 推理 Inference
         anchor_text: LlamaBarn
         extracted_url: https://github.com/ggml-org/llamabarn
-        surrounding_text: "51. [LlamaBarn](https://github.com/ggml-org/LlamaBarn): Run local LLMs on your Mac with a simple menu bar app."
+        surrounding_text: '51. [LlamaBarn](https://github.com/ggml-org/LlamaBarn): Run local LLMs on your Mac with a simple menu bar app.'
         confidence: high
     - id: discovery__github__ggml-org__llamabarn__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,7 +34,7 @@ provenance:
           - 推理 Inference
         anchor_text: LlamaBarn
         extracted_url: https://github.com/ggml-org/llamabarn
-        surrounding_text: "51. [LlamaBarn](https://github.com/ggml-org/LlamaBarn): Run local LLMs on your Mac with a simple menu bar app."
+        surrounding_text: '51. [LlamaBarn](https://github.com/ggml-org/LlamaBarn): Run local LLMs on your Mac with a simple menu bar app.'
         confidence: high
 metadata:
   github:
@@ -44,24 +44,28 @@ metadata:
     archived: false
     full_name: ggml-org/Llama-macOS
     html_url: https://github.com/ggml-org/Llama-macOS
-    created_at: "2025-06-30T11:05:34Z"
-    pushed_at: "2026-09-02T11:50:57Z"
+    created_at: '2025-06-30T11:05:34Z'
+    pushed_at: '2026-09-02T11:50:57Z'
     description: A cosy home for your LLMs.
-    homepage: ""
+    homepage: ''
     topics:
       - ai
       - llama-cpp
       - llms
       - macos
       - swift
-    last_checked_at: "2026-09-03T05:16:49.431Z"
+    last_checked_at: '2026-09-03T05:16:49.431Z'
     readme:
-      fetched_at: "2026-09-03T05:16:49.431Z"
+      fetched_at: '2026-09-03T05:16:49.431Z'
       bytes: 4694
 insights:
   summary: A macOS menu bar application for running local LLMs via a background server.
-  why_it_matters: It provides a zero-config way to host an OpenAI-compatible API locally, enabling developers to plug local models into VS Code, Zed, and CLI agents without managing manual server setups.
-  mental_damage: The joy of discovering that your 'lightweight' menu bar app is actually just a very polite wrapper for the 12GB of RAM your local model is currently eating.
+  why_it_matters: >-
+    It provides a zero-config way to host an OpenAI-compatible API locally, enabling developers to plug local models
+    into VS Code, Zed, and CLI agents without managing manual server setups.
+  mental_damage: >-
+    The joy of discovering that your 'lightweight' menu bar app is actually just a very polite wrapper for the 12GB of
+    RAM your local model is currently eating.
   tags:
     - inference-server
     - llama-cpp
@@ -83,14 +87,15 @@ curation:
     - Native macOS menu bar app for local model management
 placement:
   primary_category: local-ai
-  section: Local Serving / APIs
+  secondary_categories: []
+  section: Local API Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (1348) exceeded threshold (150)
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T16:02:39.574Z"
+    updated_at: '2026-07-21T16:02:39.574Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -111,16 +116,18 @@ processing:
       category_candidates:
         - local-ai
         - ai-dev-extensions
-      contrastive_reason: Choose local-ai over ai-dev-extensions because the core identity is the local inference runtime and model management, rather than just augmenting an existing editor.
+      contrastive_reason: >-
+        Choose local-ai over ai-dev-extensions because the core identity is the local inference runtime and model
+        management, rather than just augmenting an existing editor.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-06-18T05:40:04.066Z"
+    updated_at: '2026-06-18T05:40:04.066Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:49.431Z"
+    updated_at: '2026-09-03T05:16:49.431Z'
     cause: null
     next_retry_at: null

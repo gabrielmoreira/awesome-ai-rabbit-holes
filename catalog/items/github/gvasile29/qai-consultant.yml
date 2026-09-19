@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gvasile29__qai-consultant__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-30T05:05:26.992Z"
+      discovered_at: '2026-07-30T05:05:26.992Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: gvasile29/qai-consultant
         extracted_url: https://github.com/gvasile29/qai-consultant
-        surrounding_text: "- [gvasile29/qai-consultant](https://github.com/gvasile29/qai-consultant) [![gvasile29/qai-consultant MCP server](https://glama.ai/mcp/servers/gvasile29/qai-consultant/badges/score.svg)](https://glama.ai/mcp/servers/gvasile29/qai-consultant) 🐍 🏠 🍎 🪟 🐧 - Keyless local MCP server bringing ISTQB / OWASP / IEEE / ISO / EU AI Act QA standards into your AI client: standards-grounded retrieval, deterministic QA effort estimation, and automated QA document quality review (0-100 rubric) plus JUnit/CSV test-results flakiness analysis. `uvx qai-consultant-mcp`"
+        surrounding_text: >-
+          - [gvasile29/qai-consultant](https://github.com/gvasile29/qai-consultant) [![gvasile29/qai-consultant MCP
+          server](https://glama.ai/mcp/servers/gvasile29/qai-consultant/badges/score.svg)](https://glama.ai/mcp/servers/gvasile29/qai-consultant)
+          🐍 🏠 🍎 🪟 🐧 - Keyless local MCP server bringing ISTQB / OWASP / IEEE / ISO / EU AI Act QA standards into
+          your AI client: standards-grounded retrieval, deterministic QA effort estimation, and automated QA document
+          quality review (0-100 rubric) plus JUnit/CSV test-results flakiness analysis. `uvx qai-consultant-mcp`
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: gvasile29/qai-consultant
     html_url: https://github.com/gvasile29/qai-consultant
-    created_at: "2026-02-19T09:23:29Z"
-    pushed_at: "2026-09-02T01:47:07Z"
-    description: AI-powered QA Architect agent — generates ISTQB/OWASP/IEEE/ISO-grounded Test Strategies, Risk Registers, Effort Estimates & Test Plans via RAG. Cloud-hosted (Mistral API + Pinecone).
+    created_at: '2026-02-19T09:23:29Z'
+    pushed_at: '2026-09-02T01:47:07Z'
+    description: >-
+      AI-powered QA Architect agent — generates ISTQB/OWASP/IEEE/ISO-grounded Test Strategies, Risk Registers, Effort
+      Estimates & Test Plans via RAG. Cloud-hosted (Mistral API + Pinecone).
     homepage: https://quality-ai-consultant.streamlit.app/
     topics:
       - ai
@@ -53,13 +60,17 @@ metadata:
       - streamlit
       - test-strategy
       - testing
-    last_checked_at: "2026-09-03T05:16:56.354Z"
+    last_checked_at: '2026-09-03T05:16:56.354Z'
     readme:
-      fetched_at: "2026-09-03T05:16:56.354Z"
+      fetched_at: '2026-09-03T05:16:56.354Z'
       bytes: 16822
 insights:
-  summary: An AI-powered QA architect agent that generates professional test strategies, risk registers, and effort estimates grounded in industry standards like ISTQB and OWASP.
-  why_it_matters: It automates the heavy lifting of creating formal, compliance-ready QA documentation that usually requires significant manual expertise.
+  summary: >-
+    An AI-powered QA architect agent that generates professional test strategies, risk registers, and effort estimates
+    grounded in industry standards like ISTQB and OWASP.
+  why_it_matters: >-
+    It automates the heavy lifting of creating formal, compliance-ready QA documentation that usually requires
+    significant manual expertise.
   mental_damage: Now you can prove your project is destined to fail using a perfectly formatted, ISO-compliant Risk Register.
   tags:
     - qa
@@ -77,24 +88,25 @@ curation:
     - Provides a standalone agent experience via Web UI and CLI, in addition to an MCP server.
 placement:
   primary_category: coding-agents
-  section: Review, Testing & Repair Agents
+  secondary_categories: []
+  section: Review, Testing & Repair
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-30T05:05:26.994Z"
+    updated_at: '2026-07-30T05:05:26.994Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:56.354Z"
+    updated_at: '2026-09-03T05:16:56.354Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-07T04:16:17.765Z"
+    updated_at: '2026-09-07T04:16:17.765Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -113,7 +125,9 @@ processing:
       category_candidates:
         - coding-agents
         - mcp
-      contrastive_reason: Choose coding-agents over mcp because the product's primary identity is a standalone QA agent, with MCP acting as a secondary integration layer to extend other assistants.
+      contrastive_reason: >-
+        Choose coding-agents over mcp because the product's primary identity is a standalone QA agent, with MCP acting
+        as a secondary integration layer to extend other assistants.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__samrothschild23__intelligence-api__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🛒 <a name="e-commerce"></a>E-Commerce
         anchor_text: samrothschild23/intelligence-api
         extracted_url: https://github.com/samrothschild23/intelligence-api
-        surrounding_text: "- [samrothschild23/intelligence-api](https://github.com/samrothschild23/intelligence-api) [![MCP Server](https://glama.ai/mcp/servers/samrothschild23/intelligence-api/badges/score.svg)](https://glama.ai/mcp/servers/samrothschild23/intelligence-api) 📇 ☁️ - E-commerce and business intelligence MCP server. Analyze any Shopify store, research Amazon products with Opportunity Score and FBA profitability estimates, and find qualified sales leads from Google Maps with Lead Quality Scoring. Pay-per-call via x402 (USDC on Base)."
+        surrounding_text: >-
+          - [samrothschild23/intelligence-api](https://github.com/samrothschild23/intelligence-api) [![MCP
+          Server](https://glama.ai/mcp/servers/samrothschild23/intelligence-api/badges/score.svg)](https://glama.ai/mcp/servers/samrothschild23/intelligence-api)
+          📇 ☁️ - E-commerce and business intelligence MCP server. Analyze any Shopify store, research Amazon products
+          with Opportunity Score and FBA profitability estimates, and find qualified sales leads from Google Maps with
+          Lead Quality Scoring. Pay-per-call via x402 (USDC on Base).
         confidence: high
 metadata:
   github:
@@ -30,19 +35,25 @@ metadata:
     archived: false
     full_name: samrothschild23/intelligence-api
     html_url: https://github.com/samrothschild23/intelligence-api
-    created_at: "2026-03-23T07:28:42Z"
-    pushed_at: "2026-04-03T02:38:44Z"
+    created_at: '2026-03-23T07:28:42Z'
+    pushed_at: '2026-04-03T02:38:44Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:50.622Z"
+    last_checked_at: '2026-07-20T16:42:50.622Z'
     readme:
-      fetched_at: "2026-07-20T16:42:50.622Z"
+      fetched_at: '2026-07-20T16:42:50.622Z'
       bytes: 7659
 insights:
-  summary: An x402-powered API server that provides Shopify, Amazon, and Google Maps intelligence endpoints, monetized via per-call USDC micropayments on Base.
-  why_it_matters: It offers AI agents a frictionless way to purchase structured e-commerce and lead data without API keys or human billing loops.
-  mental_damage: Your autonomous agent can now independently burn stablecoins to scrape Shopify themes and Amazon opportunity scores while you sleep.
+  summary: >-
+    An x402-powered API server that provides Shopify, Amazon, and Google Maps intelligence endpoints, monetized via
+    per-call USDC micropayments on Base.
+  why_it_matters: >-
+    It offers AI agents a frictionless way to purchase structured e-commerce and lead data without API keys or human
+    billing loops.
+  mental_damage: >-
+    Your autonomous agent can now independently burn stablecoins to scrape Shopify themes and Amazon opportunity scores
+    while you sleep.
   tags:
     - mcp
     - e-commerce
@@ -51,36 +62,35 @@ insights:
     - api
   confidence: medium
 curation:
-  status: included
-  reason: The project explicitly brands itself as an MCP server with an x402 payment protocol, providing commerce data endpoints for AI agents.
+  status: pending
+  reason: 'Manual audit: E-commerce data API monetized via x402, out of catalog scope.'
   evidence:
-    - Readme includes an MCP Server badge linking to Glama MCP servers.
-    - Source list context confirms inclusion in awesome-mcp-servers under E-Commerce.
-    - Endpoints return structured Shopify, Amazon, and Google Maps data designed for agent consumption.
+    - Manual review of Jev Middleware & Generic audit, 2026-09-19
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.646Z"
+    updated_at: '2026-05-06T22:12:15.646Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:50.622Z"
+    updated_at: '2026-07-20T16:42:50.622Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

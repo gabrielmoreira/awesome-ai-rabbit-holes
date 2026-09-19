@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__chatchat-space__langchain-chatchat__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 知识库 RAG
         anchor_text: Langchain-Chatchat
         extracted_url: https://github.com/chatchat-space/langchain-chatchat
-        surrounding_text: "6. [Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat): 基于 Langchain 与 ChatGLM 等不同大语言模型的本地知识库问答"
+        surrounding_text: >-
+          6. [Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat): 基于 Langchain 与 ChatGLM
+          等不同大语言模型的本地知识库问答
         confidence: high
 metadata:
   github:
@@ -29,10 +31,13 @@ metadata:
     archived: false
     full_name: chatchat-space/Langchain-Chatchat
     html_url: https://github.com/chatchat-space/Langchain-Chatchat
-    created_at: "2023-03-31T12:12:45Z"
-    pushed_at: "2025-11-10T09:27:42Z"
-    description: "Langchain-Chatchat（原Langchain-ChatGLM）基于 Langchain 与 ChatGLM, Qwen 与 Llama 等语言模型的 RAG 与 Agent 应用 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain "
-    homepage: ""
+    created_at: '2023-03-31T12:12:45Z'
+    pushed_at: '2025-11-10T09:27:42Z'
+    description: >-
+      Langchain-Chatchat（原Langchain-ChatGLM）基于 Langchain 与 ChatGLM, Qwen 与 Llama 等语言模型的 RAG 与 Agent 应用 |
+      Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and
+      Agent app with langchain 
+    homepage: ''
     topics:
       - chatbot
       - chatchat
@@ -54,13 +59,17 @@ metadata:
       - retrieval-augmented-generation
       - streamlit
       - xinference
-    last_checked_at: "2026-09-07T04:13:43.818Z"
+    last_checked_at: '2026-09-07T04:13:43.818Z'
     readme:
-      fetched_at: "2026-09-07T04:13:43.818Z"
+      fetched_at: '2026-09-07T04:13:43.818Z'
       bytes: 22275
 insights:
-  summary: Langchain-Chatchat is a local knowledge-based RAG and Agent application built with Langchain and compatible with models like ChatGLM, Qwen, and Llama.
-  why_it_matters: It enables developers to build retrieval-augmented generation and agent workflows with local or open-source LLMs, reducing dependency on closed APIs.
+  summary: >-
+    Langchain-Chatchat is a local knowledge-based RAG and Agent application built with Langchain and compatible with
+    models like ChatGLM, Qwen, and Llama.
+  why_it_matters: >-
+    It enables developers to build retrieval-augmented generation and agent workflows with local or open-source LLMs,
+    reducing dependency on closed APIs.
   mental_damage: Finally, a way to pretend your local LLM knows what it’s talking about—until it hallucinates the docs you fed it.
   tags:
     - rag
@@ -71,31 +80,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is a self-contained, offline-capable desktop/web interface for local LLMs and RAG, fitting the Local AI category better than a generic coding agent or framework label.
+  reason: >-
+    The project's primary identity is a self-contained, offline-capable desktop/web interface for local LLMs and RAG,
+    fitting the Local AI category better than a generic coding agent or framework label.
   evidence:
     - Repo description explicitly targets 'local knowledge based LLM' and 'offline private deployment'.
     - README states the goal is a 'local knowledge base Q&A solution' using Streamlit WebUI and FastAPI.
     - Featured in source lists under '知识库 RAG' (Knowledge Base RAG), not coding assistance.
 placement:
-  primary_category: local-ai
-  section: null
+  primary_category: ai-frameworks
+  secondary_categories: []
+  section: LLM & Agent SDKs
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'ai-frameworks'"
+  reason: 'Categorization review required: placement disagreement: retained ''local-ai'', proposed ''ai-frameworks'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.607Z"
+    updated_at: '2026-05-06T22:12:15.607Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:43.818Z"
+    updated_at: '2026-09-07T04:13:43.818Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:41:20.044Z"
+    updated_at: '2026-07-21T15:41:20.044Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -108,7 +120,9 @@ processing:
       input_hash: sha256:3d3d8c1c636d1766e752bb5295ddebab92930ee247d43856b3132b23f334de5c
       proposed_primary_category: ai-frameworks
       disagreement: true
-      decision_reason: The project is a code-first framework for building RAG and agent applications, aligning with the Frameworks & SDKs category.
+      decision_reason: >-
+        The project is a code-first framework for building RAG and agent applications, aligning with the Frameworks &
+        SDKs category.
       decision_evidence:
         - Repo description explicitly states it is a RAG and Agent app built with Langchain for local LLMs
         - Topics include langchain, rag, and llm, signaling a framework identity
@@ -116,6 +130,8 @@ processing:
       category_candidates:
         - ai-frameworks
         - agent-orchestration
-      contrastive_reason: Choose ai-frameworks over agent-orchestration because the primary identity is a code-first Langchain-based framework for RAG/agents, not an operated workbench or runtime platform.
-      review_reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'ai-frameworks'"
+      contrastive_reason: >-
+        Choose ai-frameworks over agent-orchestration because the primary identity is a code-first Langchain-based
+        framework for RAG/agents, not an operated workbench or runtime platform.
+      review_reason: 'Categorization review required: placement disagreement: retained ''local-ai'', proposed ''ai-frameworks'''
       review_resume_lifecycle: null

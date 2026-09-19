@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gabrielchasukjin__cloi__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,7 @@ provenance:
           - 代码 Coding
         anchor_text: Cloi CLI
         extracted_url: https://github.com/cloi-ai/cloi
-        surrounding_text: "1. [Cloi CLI](https://github.com/cloi-ai/cloi): Local debugging agent that runs in your terminal."
+        surrounding_text: '1. [Cloi CLI](https://github.com/cloi-ai/cloi): Local debugging agent that runs in your terminal.'
         confidence: high
 metadata:
   github:
@@ -29,19 +29,25 @@ metadata:
     archived: false
     full_name: gabrielchasukjin/cloi
     html_url: https://github.com/gabrielchasukjin/cloi
-    created_at: "2025-05-01T21:58:43Z"
-    pushed_at: "2026-08-11T00:32:23Z"
-    description: A local-first coding agent for the terminal, powered by Ollama. Reads, searches, edits and runs code on your machine — no API key, no data leaving the host.
+    created_at: '2025-05-01T21:58:43Z'
+    pushed_at: '2026-08-11T00:32:23Z'
+    description: >-
+      A local-first coding agent for the terminal, powered by Ollama. Reads, searches, edits and runs code on your
+      machine — no API key, no data leaving the host.
     homepage: http://www.cloi-ai.com
     topics: []
-    last_checked_at: "2026-09-03T05:16:45.681Z"
+    last_checked_at: '2026-09-03T05:16:45.681Z'
     readme:
-      fetched_at: "2026-09-03T05:16:45.681Z"
+      fetched_at: '2026-09-03T05:16:45.681Z'
       bytes: 6247
 insights:
   summary: A terminal-based debugging agent that uses local or cloud models to analyze errors and apply fixes to your codebase.
-  why_it_matters: It automates the tedious loop of error reproduction and patch application while keeping data private via local model support.
-  mental_damage: Nothing prepares you for the existential dread of watching a CLI agent automatically index your entire codebase to explain why your code is broken.
+  why_it_matters: >-
+    It automates the tedious loop of error reproduction and patch application while keeping data private via local model
+    support.
+  mental_damage: >-
+    Nothing prepares you for the existential dread of watching a CLI agent automatically index your entire codebase to
+    explain why your code is broken.
   tags:
     - cli
     - debugging
@@ -53,29 +59,30 @@ curation:
   status: included
   reason: The tool is a standalone terminal agent that directly reads code and applies fixes to repair failures.
   evidence:
-    - "Repo description: 'Local debugging agent that runs in your terminal'"
-    - "README: 'With your permission, Cloi can analyze errors and apply fixes directly to your codebase.'"
-    - "README: 'Automates debugging process... works with Ollama models'"
+    - 'Repo description: ''Local debugging agent that runs in your terminal'''
+    - 'README: ''With your permission, Cloi can analyze errors and apply fixes directly to your codebase.'''
+    - 'README: ''Automates debugging process... works with Ollama models'''
 placement:
   primary_category: coding-agents
-  section: Review, Testing & Repair Agents
+  secondary_categories: []
+  section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
   reason: Stars (395) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: '2026-05-06T22:12:15.615Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:45.681Z"
+    updated_at: '2026-09-03T05:16:45.681Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:00:25.528Z"
+    updated_at: '2026-07-21T16:00:25.528Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -90,12 +97,14 @@ processing:
       disagreement: false
       decision_reason: The tool is a standalone terminal agent that directly reads code and applies fixes to repair failures.
       decision_evidence:
-        - "Repo description: 'Local debugging agent that runs in your terminal'"
-        - "README: 'With your permission, Cloi can analyze errors and apply fixes directly to your codebase.'"
-        - "README: 'Automates debugging process... works with Ollama models'"
+        - 'Repo description: ''Local debugging agent that runs in your terminal'''
+        - 'README: ''With your permission, Cloi can analyze errors and apply fixes directly to your codebase.'''
+        - 'README: ''Automates debugging process... works with Ollama models'''
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because it acts as a primary terminal agent that performs end-to-end repair cycles rather than just augmenting an existing editor's capabilities.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because it acts as a primary terminal agent that performs end-to-end
+        repair cycles rather than just augmenting an existing editor's capabilities.
       review_reason: null
       review_resume_lifecycle: null

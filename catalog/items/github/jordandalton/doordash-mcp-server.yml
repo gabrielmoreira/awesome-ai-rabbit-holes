@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jordandalton__doordash-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🔒 <a name="delivery"></a>Delivery
         anchor_text: jordandalton/doordash-mcp-server
         extracted_url: https://github.com/jordandalton/doordash-mcp-server
-        surrounding_text: "- [jordandalton/doordash-mcp-server](https://github.com/JordanDalton/DoorDash-MCP-Server) 🐍 – DoorDash Delivery (Unofficial)"
+        surrounding_text: >-
+          - [jordandalton/doordash-mcp-server](https://github.com/JordanDalton/DoorDash-MCP-Server) 🐍 – DoorDash
+          Delivery (Unofficial)
         confidence: high
 metadata:
   github:
@@ -30,19 +32,23 @@ metadata:
     archived: false
     full_name: JordanDalton/DoorDash-MCP-Server
     html_url: https://github.com/JordanDalton/DoorDash-MCP-Server
-    created_at: "2025-04-11T16:48:36Z"
-    pushed_at: "2025-04-16T23:47:33Z"
+    created_at: '2025-04-11T16:48:36Z'
+    pushed_at: '2025-04-16T23:47:33Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:51.874Z"
+    last_checked_at: '2026-07-30T05:05:51.874Z'
     readme:
-      fetched_at: "2026-07-30T05:05:51.874Z"
+      fetched_at: '2026-07-30T05:05:51.874Z'
       bytes: 933
 insights:
   summary: An MCP server that provides DoorDash API access to MCP-compatible clients like Claude Desktop, Windsurf, or Cursor.
-  why_it_matters: Developers can integrate DoorDash delivery capabilities directly into their AI workflows via MCP, enabling programmatic access to delivery services within their coding environment.
-  mental_damage: Now your AI can order lunch for you while it debugs your code, because why not automate the one thing you still enjoyed doing manually.
+  why_it_matters: >-
+    Developers can integrate DoorDash delivery capabilities directly into their AI workflows via MCP, enabling
+    programmatic access to delivery services within their coding environment.
+  mental_damage: >-
+    Now your AI can order lunch for you while it debugs your code, because why not automate the one thing you still
+    enjoyed doing manually.
   tags:
     - mcp-server
     - door-dash
@@ -51,31 +57,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server implementation whose primary identity is providing DoorDash API access via the Model Context Protocol.
+  reason: >-
+    This is an MCP server implementation whose primary identity is providing DoorDash API access via the Model Context
+    Protocol.
   evidence:
     - README describes building an MCP server for DoorDash API integration
     - Output is a JSON config for MCP clients (Claude Desktop, Windsurf, Cursor)
     - Listed in awesome-mcp-servers under Server Implementations > Delivery
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.623Z"
+    updated_at: '2026-05-06T22:12:15.623Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:51.874Z"
+    updated_at: '2026-07-30T05:05:51.874Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:11:06.731Z"
+    updated_at: '2026-07-21T16:11:06.731Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +97,9 @@ processing:
       input_hash: sha256:8979175ef07c8b44c51f7d7a8f0ddba9fa6364e1d506b558991672afce5e7932
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP server implementation whose primary identity is providing DoorDash API access via the Model Context Protocol.
+      decision_reason: >-
+        This is an MCP server implementation whose primary identity is providing DoorDash API access via the Model
+        Context Protocol.
       decision_evidence:
         - README describes building an MCP server for DoorDash API integration
         - Output is a JSON config for MCP clients (Claude Desktop, Windsurf, Cursor)
@@ -96,6 +107,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

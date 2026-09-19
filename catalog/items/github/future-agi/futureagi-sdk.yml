@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__future-agi__futureagi-sdk__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - Observability
         anchor_text: Future AGI
         extracted_url: https://github.com/future-agi/futureagi-sdk
-        surrounding_text: "| [Future AGI](https://github.com/future-agi/futureagi-sdk)                    | Production-grade SDK for observability, automated evaluations and prompt management with sub-100ms guardrails for LLM/agent workflows.                                             | ![GitHub Badge](https://img.shields.io/github/stars/future-agi/futureagi-sdk?style=flat-square)                   |"
+        surrounding_text: >-
+          | [Future AGI](https://github.com/future-agi/futureagi-sdk)                    | Production-grade SDK for
+          observability, automated evaluations and prompt management with sub-100ms guardrails for LLM/agent
+          workflows.                                             | ![GitHub
+          Badge](https://img.shields.io/github/stars/future-agi/futureagi-sdk?style=flat-square)                   |
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: future-agi/futureagi-sdk
     html_url: https://github.com/future-agi/futureagi-sdk
-    created_at: "2024-08-03T13:22:28Z"
-    pushed_at: "2026-07-08T10:04:54Z"
-    description: Production-grade AI evaluation, prompt management & observability SDK. Automated evaluations with sub-100ms guardrails. No human-in-the-loop required. Python + TypeScript.
+    created_at: '2024-08-03T13:22:28Z'
+    pushed_at: '2026-07-08T10:04:54Z'
+    description: >-
+      Production-grade AI evaluation, prompt management & observability SDK. Automated evaluations with sub-100ms
+      guardrails. No human-in-the-loop required. Python + TypeScript.
     homepage: https://app.futureagi.com
     topics:
       - ai
@@ -45,14 +51,18 @@ metadata:
       - machine-learning
       - mlops
       - prompt-engineering
-    last_checked_at: "2026-09-03T05:16:45.040Z"
+    last_checked_at: '2026-09-03T05:16:45.040Z'
     readme:
-      fetched_at: "2026-09-03T05:16:45.040Z"
+      fetched_at: '2026-09-03T05:16:45.040Z'
       bytes: 14955
 insights:
   summary: An open-source SDK for AI evaluation, prompt management, and observability, supporting Python and TypeScript.
-  why_it_matters: It provides the necessary infrastructure to measure model performance, manage prompt versioning, and implement real-time guardrails in production agent workflows.
-  mental_damage: Because nothing says 'table production deployment' like running 50+ metrics and sub-100ms guardrails to catch the agent's inevitable hallucinations.
+  why_it_matters: >-
+    It provides the necessary infrastructure to measure model performance, manage prompt versioning, and implement
+    real-time guardrails in production agent workflows.
+  mental_damage: >-
+    Because nothing says 'table production deployment' like running 50+ metrics and sub-100ms guardrails to catch the
+    agent's inevitable hallucinations.
   tags:
     - evals
     - observability
@@ -62,31 +72,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core identity of the product is measuring and tracing model behavior through evaluations and observability metrics.
+  reason: >-
+    The core identity of the product is measuring and tracing model behavior through evaluations and observability
+    metrics.
   evidence:
     - Repo description explicitly identifies it as 'AI evaluation, prompt management & observability SDK'.
     - README features 'Evaluations', 'Guardrails', and 'Analytics' as core pillars.
     - Includes 'OpenTelemetry-native tracing' for observability.
 placement:
   primary_category: evals
-  section: Observability / Tracing / EvalOps
+  secondary_categories: []
+  section: Observability & Tracing
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: '2026-05-06T22:12:15.615Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:45.040Z"
+    updated_at: '2026-09-03T05:16:45.040Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:59:20.030Z"
+    updated_at: '2026-07-21T15:59:20.030Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -99,7 +112,9 @@ processing:
       input_hash: sha256:6417799f58f5d15873fd0dc2ccd439b16239b14e323824a97df9925da2682b10
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: The core identity of the product is measuring and tracing model behavior through evaluations and observability metrics.
+      decision_reason: >-
+        The core identity of the product is measuring and tracing model behavior through evaluations and observability
+        metrics.
       decision_evidence:
         - Repo description explicitly identifies it as 'AI evaluation, prompt management & observability SDK'.
         - README features 'Evaluations', 'Guardrails', and 'Analytics' as core pillars.
@@ -107,6 +122,8 @@ processing:
       category_candidates:
         - evals
         - ai-frameworks
-      contrastive_reason: Choose evals over ai-frameworks because the primary value proposition is measuring and scoring model behavior rather than providing general-purpose agent building blocks.
+      contrastive_reason: >-
+        Choose evals over ai-frameworks because the primary value proposition is measuring and scoring model behavior
+        rather than providing general-purpose agent building blocks.
       review_reason: null
       review_resume_lifecycle: null

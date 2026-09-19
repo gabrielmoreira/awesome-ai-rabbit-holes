@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__joepangallo__mcp-server-agentpay__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: joepangallo/mcp-server-agentpay
         extracted_url: https://github.com/joepangallo/mcp-server-agentpay
-        surrounding_text: "- [joepangallo/mcp-server-agentpay](https://github.com/joepangallo/mcp-server-agentpay) [![ict1p5dlrr MCP server](https://glama.ai/mcp/servers/ict1p5dlrr/badges/score.svg)](https://glama.ai/mcp/servers/ict1p5dlrr) 📇 ☁️ - Payment gateway for autonomous AI agents. Single gateway key for tool discovery, auto-provisioning, and pay-per-call metering. Supports Stripe and x402 USDC for fully autonomous wallet funding."
+        surrounding_text: >-
+          - [joepangallo/mcp-server-agentpay](https://github.com/joepangallo/mcp-server-agentpay) [![ict1p5dlrr MCP
+          server](https://glama.ai/mcp/servers/ict1p5dlrr/badges/score.svg)](https://glama.ai/mcp/servers/ict1p5dlrr) 📇
+          ☁️ - Payment gateway for autonomous AI agents. Single gateway key for tool discovery, auto-provisioning, and
+          pay-per-call metering. Supports Stripe and x402 USDC for fully autonomous wallet funding.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: joepangallo/mcp-server-agentpay
     html_url: https://github.com/joepangallo/mcp-server-agentpay
-    created_at: "2026-02-26T22:15:30Z"
-    pushed_at: "2026-03-21T04:11:53Z"
-    description: MCP server for AgentPay — payment gateway for autonomous AI agents. Discover, provision, and pay for MCP tool APIs.
+    created_at: '2026-02-26T22:15:30Z'
+    pushed_at: '2026-03-21T04:11:53Z'
+    description: >-
+      MCP server for AgentPay — payment gateway for autonomous AI agents. Discover, provision, and pay for MCP tool
+      APIs.
     homepage: null
     topics:
       - ai-agent
@@ -45,14 +51,20 @@ metadata:
       - tool-marketplace
       - usdc
       - x402
-    last_checked_at: "2026-07-20T15:11:25.814Z"
+    last_checked_at: '2026-07-20T15:11:25.814Z'
     readme:
-      fetched_at: "2026-07-20T15:11:25.814Z"
+      fetched_at: '2026-07-20T15:11:25.814Z'
       bytes: 3883
 insights:
-  summary: MCP server for AgentPay, a payment gateway enabling autonomous AI agents to discover, provision, and pay for MCP tool APIs.
-  why_it_matters: Developers can give their agents a single key to autonomously access and pay for third-party tools without manual intervention.
-  mental_damage: Now your AI agent can rack up a credit card bill while you sleep, because nothing says 'autonomy' like surprise invoices.
+  summary: >-
+    MCP server for AgentPay, a payment gateway enabling autonomous AI agents to discover, provision, and pay for MCP
+    tool APIs.
+  why_it_matters: >-
+    Developers can give their agents a single key to autonomously access and pay for third-party tools without manual
+    intervention.
+  mental_damage: >-
+    Now your AI agent can rack up a credit card bill while you sleep, because nothing says 'autonomy' like surprise
+    invoices.
   tags:
     - mcp
     - payment-gateway
@@ -62,33 +74,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: this is a dedicated MCP server for AgentPay's payment gateway, not a compatibility footnote."
+  reason: >-
+    MCP is the product identity here: this is a dedicated MCP server for AgentPay's payment gateway, not a compatibility
+    footnote.
   evidence:
     - Repo description explicitly states it is an MCP server for AgentPay
     - README details MCP server setup, tools, and integration with Claude Code
     - Topics include 'mcp-server' and 'model-context-protocol'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: "2026-08-03T05:16:52.109Z"
+    updated_at: '2026-08-03T05:16:52.109Z'
     cause:
       type: github_repo_missing
-      message: "GitHub repository not found: joepangallo/mcp-server-agentpay"
+      message: 'GitHub repository not found: joepangallo/mcp-server-agentpay'
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:54.353Z"
+    updated_at: '2026-07-21T16:10:54.353Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -101,7 +116,9 @@ processing:
       input_hash: sha256:ae27009674438bd4c4f63fe9c803bfc7cdadfb01ec39502a94d0476bf90c0ba9
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: this is a dedicated MCP server for AgentPay's payment gateway, not a compatibility footnote."
+      decision_reason: >-
+        MCP is the product identity here: this is a dedicated MCP server for AgentPay's payment gateway, not a
+        compatibility footnote.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for AgentPay
         - README details MCP server setup, tools, and integration with Claude Code
@@ -109,6 +126,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

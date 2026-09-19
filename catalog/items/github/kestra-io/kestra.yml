@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kestra-io__kestra__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: Kestra
         extracted_url: https://kestra.io
-        surrounding_text: "- [kestra-io/mcp-server-python](https://github.com/kestra-io/mcp-server-python) 🐍 ☁️ - Implementation of MCP server for [Kestra](https://kestra.io) workflow orchestration platform."
+        surrounding_text: >-
+          - [kestra-io/mcp-server-python](https://github.com/kestra-io/mcp-server-python) 🐍 ☁️ - Implementation of MCP
+          server for [Kestra](https://kestra.io) workflow orchestration platform.
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: kestra-io/kestra
     html_url: https://github.com/kestra-io/kestra
-    created_at: "2019-08-24T13:56:15Z"
-    pushed_at: "2026-07-29T16:28:08Z"
+    created_at: '2019-08-24T13:56:15Z'
+    pushed_at: '2026-07-29T16:28:08Z'
     description: Event Driven Orchestration & Scheduling Platform for Mission Critical Applications
     homepage: https://go.kestra.io/home
     topics:
@@ -55,13 +57,15 @@ metadata:
       - pipeline-as-code
       - scheduler
       - workflow
-    last_checked_at: "2026-07-30T05:05:55.979Z"
+    last_checked_at: '2026-07-30T05:05:55.979Z'
     readme:
-      fetched_at: "2026-07-30T05:05:55.979Z"
+      fetched_at: '2026-07-30T05:05:55.979Z'
       bytes: 13869
 insights:
   summary: Open-source event-driven orchestration and scheduling platform for workflows and data pipelines.
-  why_it_matters: Developers can declaratively define, version-control, and scale workflows with YAML, integrating hundreds of plugins for data extraction, transformation, and automation.
+  why_it_matters: >-
+    Developers can declaratively define, version-control, and scale workflows with YAML, integrating hundreds of plugins
+    for data extraction, transformation, and automation.
   mental_damage: Finally, a way to turn your YAML into a production incident at scale.
   tags:
     - orchestration
@@ -71,32 +75,31 @@ insights:
     - automation
   confidence: high
 curation:
-  status: included
-  reason: Kestra is a runtime platform for orchestrating workflows and pipelines, which aligns with multi-agent coordination and operated control planes rather than being a code-first framework or a single coding assistant.
+  status: pending
+  reason: 'Definitive manual audit: General-purpose workflow orchestrator without AI/agent identity.'
   evidence:
-    - "Repo description: 'Event Driven Orchestration & Scheduling Platform for Mission Critical Applications'"
-    - README emphasizes declarative YAML workflows, plugin ecosystem, and scalability as a platform
-    - Topics include orchestration, pipeline-as-code, and workflow automation
+    - Manual review, 2026-09-19
 placement:
-  primary_category: agent-orchestration
-  section: Multi-Agent Runtime Platforms
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (26793) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.624Z"
+    updated_at: '2026-05-06T22:12:15.624Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:55.979Z"
+    updated_at: '2026-07-30T05:05:55.979Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:12:20.986Z"
+    updated_at: '2026-07-21T16:12:20.986Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -109,14 +112,18 @@ processing:
       input_hash: sha256:f1392a2416864353c4602bdaabd82812d2f707d646e05e04d7ee013fb3cff87f
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: Kestra is a runtime platform for orchestrating workflows and pipelines, which aligns with multi-agent coordination and operated control planes rather than being a code-first framework or a single coding assistant.
+      decision_reason: >-
+        Kestra is a runtime platform for orchestrating workflows and pipelines, which aligns with multi-agent
+        coordination and operated control planes rather than being a code-first framework or a single coding assistant.
       decision_evidence:
-        - "Repo description: 'Event Driven Orchestration & Scheduling Platform for Mission Critical Applications'"
+        - 'Repo description: ''Event Driven Orchestration & Scheduling Platform for Mission Critical Applications'''
         - README emphasizes declarative YAML workflows, plugin ecosystem, and scalability as a platform
         - Topics include orchestration, pipeline-as-code, and workflow automation
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because Kestra is an operated platform for workflow orchestration rather than a code-first SDK or library.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because Kestra is an operated platform for workflow orchestration
+        rather than a code-first SDK or library.
       review_reason: null
       review_resume_lifecycle: null

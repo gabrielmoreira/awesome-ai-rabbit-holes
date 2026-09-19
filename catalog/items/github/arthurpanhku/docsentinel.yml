@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__arthurpanhku__docsentinel__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: arthurpanhku/Arthor-Agent
         extracted_url: https://github.com/arthurpanhku/arthor-agent
-        surrounding_text: "- [arthurpanhku/Arthor-Agent](https://github.com/arthurpanhku/Arthor-Agent) [![arthor-agent MCP server](https://glama.ai/mcp/servers/@arthurpanhku/arthor-agent/badges/score.svg)](https://glama.ai/mcp/servers/@arthurpanhku/arthor-agent) 🐍 🏠 ☁️ - ..."
+        surrounding_text: >-
+          - [arthurpanhku/Arthor-Agent](https://github.com/arthurpanhku/Arthor-Agent) [![arthor-agent MCP
+          server](https://glama.ai/mcp/servers/@arthurpanhku/arthor-agent/badges/score.svg)](https://glama.ai/mcp/servers/@arthurpanhku/arthor-agent)
+          🐍 🏠 ☁️ - ...
         confidence: high
 metadata:
   github:
@@ -30,10 +33,12 @@ metadata:
     archived: false
     full_name: arthurpanhku/DocSentinel
     html_url: https://github.com/arthurpanhku/DocSentinel
-    created_at: "2026-03-06T03:55:04Z"
-    pushed_at: "2026-09-04T05:22:10Z"
-    description: "MCP server for AI agent for cybersecurity: automate assessment of documents, questionnaires & reports. Multi-format parsing, RAG knowledge base,Risks, compliance gaps, remediations. "
-    homepage: ""
+    created_at: '2026-03-06T03:55:04Z'
+    pushed_at: '2026-09-04T05:22:10Z'
+    description: >-
+      MCP server for AI agent for cybersecurity: automate assessment of documents, questionnaires & reports.
+      Multi-format parsing, RAG knowledge base,Risks, compliance gaps, remediations. 
+    homepage: ''
     topics:
       - ai-agent
       - compliance
@@ -47,14 +52,20 @@ metadata:
       - rag
       - security
       - security-assessment
-    last_checked_at: "2026-09-10T04:12:59.411Z"
+    last_checked_at: '2026-09-10T04:12:59.411Z'
     readme:
-      fetched_at: "2026-09-10T04:12:59.411Z"
+      fetched_at: '2026-09-10T04:12:59.411Z'
       bytes: 41149
 insights:
-  summary: MCP server and AI-powered platform for automating security assessments across the entire SSDLC using LangGraph orchestration and RAG knowledge bases.
-  why_it_matters: It shifts security left by automating threat modeling, compliance checks, and remediation suggestions across all six SSDLC phases, reducing manual review bottlenecks.
-  mental_damage: Finally, a tool that turns your security team’s backlog of PDFs and Word docs into a LangGraph-powered compliance factory.
+  summary: >-
+    MCP server and AI-powered platform for automating security assessments across the entire SSDLC using LangGraph
+    orchestration and RAG knowledge bases.
+  why_it_matters: >-
+    It shifts security left by automating threat modeling, compliance checks, and remediation suggestions across all six
+    SSDLC phases, reducing manual review bottlenecks.
+  mental_damage: >-
+    Finally, a tool that turns your security team’s backlog of PDFs and Word docs into a LangGraph-powered compliance
+    factory.
   tags:
     - mcp-server
     - ssdlc
@@ -64,31 +75,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a multi-agent platform orchestrated by LangGraph specifically for the vertical SSDLC workflow, acting as a control plane for security agents rather than a generic coding assistant.
+  reason: >-
+    The product is a multi-agent platform orchestrated by LangGraph specifically for the vertical SSDLC workflow, acting
+    as a control plane for security agents rather than a generic coding assistant.
   evidence:
-    - README defines it as an 'AI-powered SSDLC platform' using 'LangGraph orchestration' with stateful, graph-based agent workflows.
-    - Product covers all 6 SSDLC phases (Requirements through Operations) with dedicated AI personas, not just code editing.
+    - >-
+      README defines it as an 'AI-powered SSDLC platform' using 'LangGraph orchestration' with stateful, graph-based
+      agent workflows.
+    - >-
+      Product covers all 6 SSDLC phases (Requirements through Operations) with dedicated AI personas, not just code
+      editing.
     - Built as a headless API + MCP service intended to integrate into CI/CD pipelines and existing security workflows.
 placement:
-  primary_category: agent-orchestration
-  section: null
+  primary_category: mcp
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'mcp'"
+  reason: 'Categorization review required: placement disagreement: retained ''agent-orchestration'', proposed ''mcp'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.603Z"
+    updated_at: '2026-05-06T22:12:15.603Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:12:59.411Z"
+    updated_at: '2026-09-10T04:12:59.411Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:24:05.525Z"
+    updated_at: '2026-07-21T15:24:05.525Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -101,7 +119,9 @@ processing:
       input_hash: sha256:c09f088edcfb123f23a31b3308802524273873e90dde3ea3fa02ede040f75123
       proposed_primary_category: mcp
       disagreement: true
-      decision_reason: "MCP is the product identity here: it is explicitly an MCP server for security assessment workflows, not just an MCP-compatible tool."
+      decision_reason: >-
+        MCP is the product identity here: it is explicitly an MCP server for security assessment workflows, not just an
+        MCP-compatible tool.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for AI agent cybersecurity workflows
         - README highlights MCP readiness and integration with AI agents (Claude Desktop, Cursor, OpenClaw)
@@ -109,6 +129,8 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product is explicitly an MCP server for security workflows, not a general-purpose framework or SDK.
-      review_reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'mcp'"
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product is explicitly an MCP server for security workflows, not a
+        general-purpose framework or SDK.
+      review_reason: 'Categorization review required: placement disagreement: retained ''agent-orchestration'', proposed ''mcp'''
       review_resume_lifecycle: null

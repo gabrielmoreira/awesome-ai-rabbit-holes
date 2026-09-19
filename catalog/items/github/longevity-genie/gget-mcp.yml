@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__longevity-genie__gget-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - <a name="bio"></a>Biology, Medicine and Bioinformatics
         anchor_text: longevity-genie/gget-mcp
         extracted_url: https://github.com/longevity-genie/gget-mcp
-        surrounding_text: "- [longevity-genie/gget-mcp](https://github.com/longevity-genie/gget-mcp) 🐍 🏠 ☁️ - MCP server providing a powerful bioinformatics toolkit for genomics queries and analysis, wrapping the popular `gget` library."
+        surrounding_text: >-
+          - [longevity-genie/gget-mcp](https://github.com/longevity-genie/gget-mcp) 🐍 🏠 ☁️ - MCP server providing a
+          powerful bioinformatics toolkit for genomics queries and analysis, wrapping the popular `gget` library.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,23 @@ metadata:
     archived: false
     full_name: longevity-genie/gget-mcp
     html_url: https://github.com/longevity-genie/gget-mcp
-    created_at: "2025-06-06T10:53:28Z"
-    pushed_at: "2025-10-27T14:48:14Z"
+    created_at: '2025-06-06T10:53:28Z'
+    pushed_at: '2025-10-27T14:48:14Z'
     description: Bioinformatic MCP server that wraps the most useful functions of the gget library
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:06:08.208Z"
+    last_checked_at: '2026-07-30T05:06:08.208Z'
     readme:
-      fetched_at: "2026-07-30T05:06:08.208Z"
+      fetched_at: '2026-07-30T05:06:08.208Z'
       bytes: 24339
 insights:
   summary: gget-mcp is an MCP server that exposes the gget bioinformatics library’s functions via the Model Context Protocol.
-  why_it_matters: It lets AI assistants query genomic databases and run bioinformatics tools through natural language, reducing the friction for developers working in genomics or bioinformatics.
-  mental_damage: Another niche MCP server promising to turn your AI coworker into a lab technician—just pray it doesn’t hallucinate a CRISPR edit.
+  why_it_matters: >-
+    It lets AI assistants query genomic databases and run bioinformatics tools through natural language, reducing the
+    friction for developers working in genomics or bioinformatics.
+  mental_damage: >-
+    Another niche MCP server promising to turn your AI coworker into a lab technician—just pray it doesn’t hallucinate a
+    CRISPR edit.
   tags:
     - mcp
     - bioinformatics
@@ -50,31 +56,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product’s core identity is an MCP server wrapping a domain-specific library, making it a clear fit for the MCP Servers & Tooling category.
+  reason: >-
+    The product’s core identity is an MCP server wrapping a domain-specific library, making it a clear fit for the MCP
+    Servers & Tooling category.
   evidence:
-    - "Repo description: 'Bioinformatic MCP server that wraps the most useful functions of the gget library'"
-    - "README: Explicitly states it is an 'MCP (Model Context Protocol) server for the gget bioinformatics library'"
-    - "Source-list context: Listed in awesome-mcp-servers under Biology, Medicine and Bioinformatics"
+    - 'Repo description: ''Bioinformatic MCP server that wraps the most useful functions of the gget library'''
+    - 'README: Explicitly states it is an ''MCP (Model Context Protocol) server for the gget bioinformatics library'''
+    - 'Source-list context: Listed in awesome-mcp-servers under Biology, Medicine and Bioinformatics'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: '2026-05-06T22:12:15.627Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:08.208Z"
+    updated_at: '2026-07-30T05:06:08.208Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:17:14.367Z"
+    updated_at: '2026-07-21T16:17:14.367Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,14 +96,18 @@ processing:
       input_hash: sha256:a3fbaf5bce966b68c1757d87073831fbb2f11160bedf919c144ad93ae6955b00
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product’s core identity is an MCP server wrapping a domain-specific library, making it a clear fit for the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product’s core identity is an MCP server wrapping a domain-specific library, making it a clear fit for the
+        MCP Servers & Tooling category.
       decision_evidence:
-        - "Repo description: 'Bioinformatic MCP server that wraps the most useful functions of the gget library'"
-        - "README: Explicitly states it is an 'MCP (Model Context Protocol) server for the gget bioinformatics library'"
-        - "Source-list context: Listed in awesome-mcp-servers under Biology, Medicine and Bioinformatics"
+        - 'Repo description: ''Bioinformatic MCP server that wraps the most useful functions of the gget library'''
+        - 'README: Explicitly states it is an ''MCP (Model Context Protocol) server for the gget bioinformatics library'''
+        - 'Source-list context: Listed in awesome-mcp-servers under Biology, Medicine and Bioinformatics'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an extension that adds capabilities to another assistant or editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an extension that adds
+        capabilities to another assistant or editor.
       review_reason: null
       review_resume_lifecycle: null

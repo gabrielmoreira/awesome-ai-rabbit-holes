@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cloud__baidu__com__product__s__qianfan__home__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,8 +36,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Baidu's enterprise-grade AI development platform providing a full-lifecycle toolchain for model and agent development.
-  why_it_matters: It offers a unified ecosystem for deploying enterprise agents, managing RAG workflows, and accessing a variety of proprietary and third-party models via API.
+  summary: >-
+    Baidu's enterprise-grade AI development platform providing a full-lifecycle toolchain for model and agent
+    development.
+  why_it_matters: >-
+    It offers a unified ecosystem for deploying enterprise agents, managing RAG workflows, and accessing a variety of
+    proprietary and third-party models via API.
   mental_damage: Another massive cloud provider entry to navigate when you just wanted to call a simple API.
   tags:
     - enterprise-ai
@@ -55,14 +59,15 @@ curation:
     - Includes built-in RAG and observability features.
 placement:
   primary_category: agent-orchestration
-  section: Multi-Agent Runtime Platforms
+  secondary_categories: []
+  section: Hosted Agent Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +76,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:30:22.882Z"
+    updated_at: '2026-07-20T15:30:22.882Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +89,9 @@ processing:
       input_hash: sha256:564c4aee7fdf03af602c39a46260f735868fc75c4036192a07eaaa98dd53d939
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: It is an operated workbench and control plane for orchestrating multi-agent workflows and managing model lifecycles.
+      decision_reason: >-
+        It is an operated workbench and control plane for orchestrating multi-agent workflows and managing model
+        lifecycles.
       decision_evidence:
         - Provides multi-agent coordination engines and DAG execution.
         - Offers a full toolchain for model and application development.
@@ -92,6 +99,8 @@ processing:
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is a managed, operated platform/workbench rather than a code-only SDK.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because the product is a managed, operated platform/workbench
+        rather than a code-only SDK.
       review_reason: null
       review_resume_lifecycle: null

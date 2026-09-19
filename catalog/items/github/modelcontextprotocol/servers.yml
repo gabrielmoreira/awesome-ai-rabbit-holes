@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__modelcontextprotocol__servers__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,10 +19,12 @@ provenance:
           - Reference Servers
         anchor_text: Everything
         extracted_url: https://github.com/modelcontextprotocol/servers
-        surrounding_text: "- **[Everything](https://github.com/modelcontextprotocol/servers/blob/main/src/everything)** - Reference / test server with prompts, resources, and tools"
+        surrounding_text: >-
+          - **[Everything](https://github.com/modelcontextprotocol/servers/blob/main/src/everything)** - Reference /
+          test server with prompts, resources, and tools
         confidence: high
     - id: discovery__github__modelcontextprotocol__servers__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -34,10 +36,15 @@ provenance:
           - 📂 Browser Control
         anchor_text: modelcontextprotocol/server-puppeteer
         extracted_url: https://github.com/modelcontextprotocol/servers
-        surrounding_text: "-   **[modelcontextprotocol/server-puppeteer](https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer)** [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=social)](https://github.com/modelcontextprotocol/servers): Automates web interactions and scraping using Puppeteer (part of the official servers collection)."
+        surrounding_text: >-
+          -  
+          **[modelcontextprotocol/server-puppeteer](https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer)**
+          [![GitHub
+          stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=social)](https://github.com/modelcontextprotocol/servers):
+          Automates web interactions and scraping using Puppeteer (part of the official servers collection).
         confidence: high
     - id: discovery__github__modelcontextprotocol__servers__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -59,19 +66,25 @@ metadata:
     archived: false
     full_name: modelcontextprotocol/servers
     html_url: https://github.com/modelcontextprotocol/servers
-    created_at: "2024-11-19T01:10:17Z"
-    pushed_at: "2026-08-03T02:57:08Z"
+    created_at: '2024-11-19T01:10:17Z'
+    pushed_at: '2026-08-03T02:57:08Z'
     description: Model Context Protocol Servers
     homepage: https://modelcontextprotocol.io
     topics: []
-    last_checked_at: "2026-08-03T05:17:06.085Z"
+    last_checked_at: '2026-08-03T05:17:06.085Z'
     readme:
-      fetched_at: "2026-08-03T05:17:06.085Z"
+      fetched_at: '2026-08-03T05:17:06.085Z'
       bytes: 8609
 insights:
-  summary: The official collection of Model Context Protocol reference server implementations and community server references maintained by the MCP steering group.
-  why_it_matters: Developers building MCP-compatible tools can study these servers as canonical examples of SDK usage and secure tool-data integration patterns for LLMs.
-  mental_damage: Yet another perfectly reasonable standard that will spawn 4,000 incompatible community forks before anyone agrees on what 'reference implementation' actually means.
+  summary: >-
+    The official collection of Model Context Protocol reference server implementations and community server references
+    maintained by the MCP steering group.
+  why_it_matters: >-
+    Developers building MCP-compatible tools can study these servers as canonical examples of SDK usage and secure
+    tool-data integration patterns for LLMs.
+  mental_damage: >-
+    Yet another perfectly reasonable standard that will spawn 4,000 incompatible community forks before anyone agrees on
+    what 'reference implementation' actually means.
   tags:
     - mcp
     - servers
@@ -81,35 +94,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is the canonical upstream repository for MCP reference servers, making it core MCP infrastructure rather than a generic framework or extension.
+  reason: >-
+    This is the canonical upstream repository for MCP reference servers, making it core MCP infrastructure rather than a
+    generic framework or extension.
   evidence:
     - Repo description explicitly states 'Model Context Protocol Servers'
-    - README describes it as 'a collection of reference implementations for the Model Context Protocol (MCP)' maintained by the MCP steering group
+    - >-
+      README describes it as 'a collection of reference implementations for the Model Context Protocol (MCP)' maintained
+      by the MCP steering group
     - Included in multiple awesome-mcp lists specifically as reference MCP servers
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (85153) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.578Z"
+    updated_at: '2026-05-06T22:12:15.578Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:06.085Z"
+    updated_at: '2026-08-03T05:17:06.085Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

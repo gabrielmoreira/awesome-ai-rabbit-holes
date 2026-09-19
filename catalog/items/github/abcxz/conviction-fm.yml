@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__abcxz__conviction-fm__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: conviction-fm/conviction-mcp
         extracted_url: https://github.com/abcxz/conviction-fm
-        surrounding_text: "- [conviction-fm/conviction-mcp](https://github.com/abcxz/conviction-fm) [![abcxz/conviction-fm MCP server](https://glama.ai/mcp/servers/abcxz/conviction-fm/badges/score.svg)](https://glama.ai/mcp/servers/abcxz/conviction-fm) 📇 ☁️ - The arena where AI agents compete for real returns. Prompt a strategy in plain English, get a funded agent that runs autonomously. Agents enter daily parimutuel pools and the conviction multiplier rewards being early and right over being late with size."
+        surrounding_text: >-
+          - [conviction-fm/conviction-mcp](https://github.com/abcxz/conviction-fm) [![abcxz/conviction-fm MCP
+          server](https://glama.ai/mcp/servers/abcxz/conviction-fm/badges/score.svg)](https://glama.ai/mcp/servers/abcxz/conviction-fm)
+          📇 ☁️ - The arena where AI agents compete for real returns. Prompt a strategy in plain English, get a funded
+          agent that runs autonomously. Agents enter daily parimutuel pools and the conviction multiplier rewards being
+          early and right over being late with size.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: abcxz/conviction-fm
     html_url: https://github.com/abcxz/conviction-fm
-    created_at: "2026-03-10T21:50:20Z"
-    pushed_at: "2026-03-23T16:06:03Z"
+    created_at: '2026-03-10T21:50:20Z'
+    pushed_at: '2026-03-23T16:06:03Z'
     description: Strategy competition for AI agents. MCP server + CLI for conviction.fm
     homepage: https://conviction.fm
     topics:
@@ -43,13 +48,17 @@ metadata:
       - model-context-protocol
       - solana
       - strategy
-    last_checked_at: "2026-09-17T04:13:28.386Z"
+    last_checked_at: '2026-09-17T04:13:28.386Z'
     readme:
-      fetched_at: "2026-09-17T04:13:28.386Z"
+      fetched_at: '2026-09-17T04:13:28.386Z'
       bytes: 3261
 insights:
-  summary: A strategy competition platform for AI agents that provides an MCP server and CLI to execute market-based strategy decisions.
-  why_it_matters: It allows developers to test and deploy agentic decision-making logic in a live, competitive financial environment via MCP or CLI.
+  summary: >-
+    A strategy competition platform for AI agents that provides an MCP server and CLI to execute market-based strategy
+    decisions.
+  why_it_matters: >-
+    It allows developers to test and deploy agentic decision-making logic in a live, competitive financial environment
+    via MCP or CLI.
   mental_damage: Finally, a way to automate your financial ruin using the same agents you use to debug your broken React hooks.
   tags:
     - mcp-server
@@ -60,31 +69,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is centered on providing MCP connectivity and a CLI to allow agents to interact with a specific financial protocol.
+  reason: >-
+    The product identity is centered on providing MCP connectivity and a CLI to allow agents to interact with a specific
+    financial protocol.
   evidence:
     - Repo description identifies it as an 'MCP server + CLI'
     - README highlights an MCP server for integration with Claude Code, Cursor, and Cline
     - Product purpose is an agentic competition platform requiring structured tool access
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.599Z"
+    updated_at: '2026-05-06T22:12:15.599Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:28.386Z"
+    updated_at: '2026-09-17T04:13:28.386Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:54:50.703Z"
+    updated_at: '2026-07-20T15:54:50.703Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -97,7 +109,9 @@ processing:
       input_hash: sha256:5b056c6f1173e928c735a92e7070940b5e9b7da6be4a855f546e24a9f00a1b81
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product identity is centered on providing MCP connectivity and a CLI to allow agents to interact with a specific financial protocol.
+      decision_reason: >-
+        The product identity is centered on providing MCP connectivity and a CLI to allow agents to interact with a
+        specific financial protocol.
       decision_evidence:
         - Repo description identifies it as an 'MCP server + CLI'
         - README highlights an MCP server for integration with Claude Code, Cursor, and Cline
@@ -105,6 +119,8 @@ processing:
       category_candidates:
         - mcp
         - coding-agents
-      contrastive_reason: Choose mcp over coding-agents because the core value proposition is providing a protocol-compliant interface for existing agents rather than acting as a standalone coding assistant.
+      contrastive_reason: >-
+        Choose mcp over coding-agents because the core value proposition is providing a protocol-compliant interface for
+        existing agents rather than acting as a standalone coding assistant.
       review_reason: null
       review_resume_lifecycle: null

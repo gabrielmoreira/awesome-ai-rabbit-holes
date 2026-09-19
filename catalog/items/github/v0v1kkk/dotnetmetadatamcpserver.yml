@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__v0v1kkk__dotnetmetadatamcpserver__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: V0v1kkk/DotNetMetadataMcpServer
         extracted_url: https://github.com/v0v1kkk/dotnetmetadatamcpserver
-        surrounding_text: "- [V0v1kkk/DotNetMetadataMcpServer](https://github.com/V0v1kkk/DotNetMetadataMcpServer) #️⃣ 🏠 🍎 🪟 🐧 - Provides AI agents with detailed type information from .NET projects including assembly exploration, namespace discovery, type reflection, and NuGet integration"
+        surrounding_text: >-
+          - [V0v1kkk/DotNetMetadataMcpServer](https://github.com/V0v1kkk/DotNetMetadataMcpServer) #️⃣ 🏠 🍎 🪟 🐧 -
+          Provides AI agents with detailed type information from .NET projects including assembly exploration, namespace
+          discovery, type reflection, and NuGet integration
         confidence: high
 metadata:
   github:
@@ -30,18 +33,24 @@ metadata:
     archived: false
     full_name: V0v1kkk/DotNetMetadataMcpServer
     html_url: https://github.com/V0v1kkk/DotNetMetadataMcpServer
-    created_at: "2025-03-07T10:39:01Z"
-    pushed_at: "2026-07-01T21:56:24Z"
-    description: A Model Context Protocol (MCP) server that provides detailed type information from .NET projects for AI coding agents.
+    created_at: '2025-03-07T10:39:01Z'
+    pushed_at: '2026-07-01T21:56:24Z'
+    description: >-
+      A Model Context Protocol (MCP) server that provides detailed type information from .NET projects for AI coding
+      agents.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:21:00.818Z"
+    last_checked_at: '2026-07-21T15:21:00.818Z'
     readme:
-      fetched_at: "2026-07-21T15:21:00.818Z"
+      fetched_at: '2026-07-21T15:21:00.818Z'
       bytes: 27170
 insights:
-  summary: A Model Context Protocol server that exposes .NET type information from assemblies and NuGet packages for AI coding agents.
-  why_it_matters: Helps AI coding agents generate accurate .NET code by providing structured type exploration without requiring a full build.
+  summary: >-
+    A Model Context Protocol server that exposes .NET type information from assemblies and NuGet packages for AI coding
+    agents.
+  why_it_matters: >-
+    Helps AI coding agents generate accurate .NET code by providing structured type exploration without requiring a full
+    build.
   mental_damage: Yet another MCP server to install before your AI assistant can stop suggesting System.Object everywhere.
   tags:
     - mcp
@@ -50,31 +59,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core identity is providing .NET type metadata via the Model Context Protocol, making it MCP infrastructure rather than a coding agent or extension.
+  reason: >-
+    The product is an MCP server whose core identity is providing .NET type metadata via the Model Context Protocol,
+    making it MCP infrastructure rather than a coding agent or extension.
   evidence:
-    - "Repo description: 'A Model Context Protocol (MCP) server that provides detailed type information from .NET projects for AI coding agents.'"
-    - "README: 'The .NET Types Explorer MCP Server is a powerful tool designed to help AI coding agents understand and work with .NET codebases.'"
+    - >-
+      Repo description: 'A Model Context Protocol (MCP) server that provides detailed type information from .NET
+      projects for AI coding agents.'
+    - >-
+      README: 'The .NET Types Explorer MCP Server is a powerful tool designed to help AI coding agents understand and
+      work with .NET codebases.'
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.654Z"
+    updated_at: '2026-05-06T22:12:15.654Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:00.818Z"
+    updated_at: '2026-07-21T15:21:00.818Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:21:11.695Z"
+    updated_at: '2026-05-12T15:21:11.695Z'
     cause: null
     next_retry_at: null
     attempts: 1

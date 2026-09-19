@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__khalidsaidi__ragmap__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: khalidsaidi/ragmap
         extracted_url: https://github.com/khalidsaidi/ragmap
-        surrounding_text: "- [khalidsaidi/ragmap](https://github.com/khalidsaidi/ragmap) 📇 ☁️ 🏠 🍎 🪟 🐧 - MapRag: RAG-focused subregistry + MCP server to discover and route to retrieval-capable MCP servers using structured constraints and explainable ranking."
+        surrounding_text: >-
+          - [khalidsaidi/ragmap](https://github.com/khalidsaidi/ragmap) 📇 ☁️ 🏠 🍎 🪟 🐧 - MapRag: RAG-focused
+          subregistry + MCP server to discover and route to retrieval-capable MCP servers using structured constraints
+          and explainable ranking.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,9 @@ metadata:
     archived: false
     full_name: khalidsaidi/ragmap
     html_url: https://github.com/khalidsaidi/ragmap
-    created_at: "2026-02-09T22:14:59Z"
-    pushed_at: "2026-06-01T18:40:49Z"
-    description: "RAG MCP Registry Finder (RAGMap): subregistry API + MCP server + Firestore ingestion"
+    created_at: '2026-02-09T22:14:59Z'
+    pushed_at: '2026-06-01T18:40:49Z'
+    description: 'RAG MCP Registry Finder (RAGMap): subregistry API + MCP server + Firestore ingestion'
     homepage: https://ragmap-api.web.app
     topics:
       - agent-tools
@@ -49,13 +52,15 @@ metadata:
       - retrieval-augmented-generation
       - semantic-search
       - subregistry
-    last_checked_at: "2026-07-30T05:05:56.244Z"
+    last_checked_at: '2026-07-30T05:05:56.244Z'
     readme:
-      fetched_at: "2026-07-30T05:05:56.244Z"
+      fetched_at: '2026-07-30T05:05:56.244Z'
       bytes: 9465
 insights:
   summary: A discovery layer and MCP server for finding and routing to RAG-related MCP servers.
-  why_it_matters: It enables AI agents to dynamically discover and select the most appropriate retrieval tool for a specific task based on constraints like reachability and score.
+  why_it_matters: >-
+    It enables AI agents to dynamically discover and select the most appropriate retrieval tool for a specific task
+    based on constraints like reachability and score.
   mental_damage: Another layer of abstraction to manage in the increasingly complex quest to help your agent find its own tools.
   tags:
     - mcp
@@ -66,13 +71,16 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project functions as a specialized registry and server for the Model Context Protocol, specifically focused on the RAG ecosystem.
+  reason: >-
+    The project functions as a specialized registry and server for the Model Context Protocol, specifically focused on
+    the RAG ecosystem.
   evidence:
     - Exposes an MCP server for agentic discovery via remote Streamable HTTP and local stdio
     - Acts as a subregistry API for RAG-related MCP servers
     - Provides tools like `rag_find_servers` and `rag_get_server` to facilitate discovery
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Registries & Discovery
 lifecycle:
   status: incubating
@@ -80,17 +88,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.624Z"
+    updated_at: '2026-05-06T22:12:15.624Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:56.244Z"
+    updated_at: '2026-07-30T05:05:56.244Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-02T05:29:03.257Z"
+    updated_at: '2026-07-02T05:29:03.257Z'
     cause: null
     next_retry_at: null
     attempts: 1

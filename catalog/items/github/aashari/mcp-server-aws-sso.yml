@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aashari__mcp-server-aws-sso__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: aashari/mcp-server-aws-sso
         extracted_url: https://github.com/aashari/mcp-server-aws-sso
-        surrounding_text: "- [aashari/mcp-server-aws-sso](https://github.com/aashari/mcp-server-aws-sso) 📇 ☁️ 🏠 - AWS Single Sign-On (SSO) integration enabling AI systems to securely interact with AWS resources by initiating SSO login, listing accounts/roles, and executing AWS CLI commands using temporary credentials."
+        surrounding_text: >-
+          - [aashari/mcp-server-aws-sso](https://github.com/aashari/mcp-server-aws-sso) 📇 ☁️ 🏠 - AWS Single Sign-On
+          (SSO) integration enabling AI systems to securely interact with AWS resources by initiating SSO login, listing
+          accounts/roles, and executing AWS CLI commands using temporary credentials.
         confidence: high
 metadata:
   github:
@@ -30,19 +33,28 @@ metadata:
     archived: false
     full_name: aashari/mcp-server-aws-sso
     html_url: https://github.com/aashari/mcp-server-aws-sso
-    created_at: "2025-03-29T11:04:59Z"
-    pushed_at: "2026-03-06T07:30:06Z"
-    description: Node.js/TypeScript MCP server for AWS Single Sign-On (SSO). Enables AI systems (LLMs) with tools to initiate SSO login (device auth flow), list accounts/roles, and securely execute AWS CLI commands using temporary credentials. Streamlines AI interaction with AWS resources.
+    created_at: '2025-03-29T11:04:59Z'
+    pushed_at: '2026-03-06T07:30:06Z'
+    description: >-
+      Node.js/TypeScript MCP server for AWS Single Sign-On (SSO). Enables AI systems (LLMs) with tools to initiate SSO
+      login (device auth flow), list accounts/roles, and securely execute AWS CLI commands using temporary credentials.
+      Streamlines AI interaction with AWS resources.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:28.123Z"
+    last_checked_at: '2026-09-17T04:13:28.123Z'
     readme:
-      fetched_at: "2026-09-17T04:13:28.123Z"
+      fetched_at: '2026-09-17T04:13:28.123Z'
       bytes: 23267
 insights:
-  summary: A Node.js/TypeScript MCP server that enables AI assistants to interact with AWS resources via IAM Identity Center (SSO).
-  why_it_matters: It allows developers to manage AWS accounts, list S3 buckets, and execute shell commands through natural language via AI assistants like Claude Desktop.
-  mental_damage: Nothing says "modern DevOps" like asking a chatbot to fix your production VPC while you pray it doesn't accidentally nuke your entire AWS organization.
+  summary: >-
+    A Node.js/TypeScript MCP server that enables AI assistants to interact with AWS resources via IAM Identity Center
+    (SSO).
+  why_it_matters: >-
+    It allows developers to manage AWS accounts, list S3 buckets, and execute shell commands through natural language
+    via AI assistants like Claude Desktop.
+  mental_damage: >-
+    Nothing says "modern DevOps" like asking a chatbot to fix your production VPC while you pray it doesn't accidentally
+    nuke your entire AWS organization.
   tags:
     - mcp
     - aws
@@ -59,24 +71,25 @@ curation:
     - Product identity is centered on the Model Context Protocol to bridge AI and AWS
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.599Z"
+    updated_at: '2026-05-06T22:12:15.599Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:28.123Z"
+    updated_at: '2026-09-17T04:13:28.123Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:54:16.306Z"
+    updated_at: '2026-07-20T15:54:16.306Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +102,9 @@ processing:
       input_hash: sha256:adc2ef2cad4a730dadb79bdf672cc322d3df447d395fe77d8f08860c5b7e5066
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is specifically built as an MCP server to provide a domain-specific capability (AWS) to host assistants.
+      decision_reason: >-
+        The project is specifically built as an MCP server to provide a domain-specific capability (AWS) to host
+        assistants.
       decision_evidence:
         - Repo description defines it explicitly as an 'MCP server for AWS Single Sign-On (SSO)'
         - README details configuration specifically for Claude Desktop's mcpServers setting
@@ -97,6 +112,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's primary identity is an implementation of the Model Context Protocol rather than a general integration for a specific editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool's primary identity is an implementation of the Model Context
+        Protocol rather than a general integration for a specific editor.
       review_reason: null
       review_resume_lifecycle: null

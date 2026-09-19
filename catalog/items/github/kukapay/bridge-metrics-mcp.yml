@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__bridge-metrics-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/bridge-metrics-mcp
         extracted_url: https://github.com/kukapay/bridge-metrics-mcp
-        surrounding_text: "- [kukapay/bridge-metrics-mcp](https://github.com/kukapay/bridge-metrics-mcp) 📇 ☁️ - Providing real-time cross-chain bridge metrics."
+        surrounding_text: >-
+          - [kukapay/bridge-metrics-mcp](https://github.com/kukapay/bridge-metrics-mcp) 📇 ☁️ - Providing real-time
+          cross-chain bridge metrics.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,22 @@ metadata:
     archived: false
     full_name: kukapay/bridge-metrics-mcp
     html_url: https://github.com/kukapay/bridge-metrics-mcp
-    created_at: "2025-09-12T03:34:58Z"
-    pushed_at: "2025-09-12T03:35:16Z"
+    created_at: '2025-09-12T03:34:58Z'
+    pushed_at: '2025-09-12T03:35:16Z'
     description: An MCP server that provides real-time cross-chain bridge metrics.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:59.040Z"
+    last_checked_at: '2026-07-30T05:05:59.040Z'
     readme:
-      fetched_at: "2026-07-30T05:05:59.040Z"
+      fetched_at: '2026-07-30T05:05:59.040Z'
       bytes: 8964
 insights:
-  summary: An MCP server that provides real-time cross-chain bridge metrics for AI agents to analyze blockchain liquidity and transaction flows.
-  why_it_matters: Developers building blockchain-aware AI agents can now query live bridge/chain data (TVL, volumes, transactions) directly through MCP, avoiding custom API integrations.
+  summary: >-
+    An MCP server that provides real-time cross-chain bridge metrics for AI agents to analyze blockchain liquidity and
+    transaction flows.
+  why_it_matters: >-
+    Developers building blockchain-aware AI agents can now query live bridge/chain data (TVL, volumes, transactions)
+    directly through MCP, avoiding custom API integrations.
   mental_damage: Finally, a way to make your AI agent care about DeFiLlama metrics instead of just hallucinating them.
   tags:
     - mcp
@@ -52,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a domain-specific MCP server exposing blockchain bridge metrics as tools for AI agents."
+  reason: >-
+    MCP is the product identity: this is a domain-specific MCP server exposing blockchain bridge metrics as tools for AI
+    agents.
   evidence:
     - Repo description explicitly states it is an MCP server
     - README details MCP tool endpoints (list_chains, list_bridges, etc.) and Claude Desktop installation
     - Core value is providing real-time blockchain metrics via MCP protocol
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:59.040Z"
+    updated_at: '2026-07-30T05:05:59.040Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:34.924Z"
+    updated_at: '2026-07-21T16:13:34.924Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +98,9 @@ processing:
       input_hash: sha256:525b25d12c5d66c354f8dbd30bc4afff43d6f9797366103535d05112e7cc78e2
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a domain-specific MCP server exposing blockchain bridge metrics as tools for AI agents."
+      decision_reason: >-
+        MCP is the product identity: this is a domain-specific MCP server exposing blockchain bridge metrics as tools
+        for AI agents.
       decision_evidence:
         - Repo description explicitly states it is an MCP server
         - README details MCP tool endpoints (list_chains, list_bridges, etc.) and Claude Desktop installation
@@ -97,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension
+        for another assistant.
       review_reason: null
       review_resume_lifecycle: null

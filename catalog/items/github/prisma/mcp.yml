@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__prisma__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: prisma/mcp
         extracted_url: https://github.com/prisma/mcp
-        surrounding_text: "- [prisma/mcp](https://github.com/prisma/mcp) 📇 ☁️ 🏠 - Gives LLMs the ability to manage Prisma Postgres databases (e.g. spin up new databases and run migrations or queries)."
+        surrounding_text: >-
+          - [prisma/mcp](https://github.com/prisma/mcp) 📇 ☁️ 🏠 - Gives LLMs the ability to manage Prisma Postgres
+          databases (e.g. spin up new databases and run migrations or queries).
         confidence: high
     - id: discovery__github__prisma__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +37,9 @@ provenance:
           - Official Servers
         anchor_text: Prisma Postgres
         extracted_url: https://github.com/prisma/mcp
-        surrounding_text: "- **[Prisma Postgres](https://github.com/prisma/mcp)** - Gives LLMs the ability to manage Prisma Postgres databases (e.g. spin up new databases and run migrations or queries)"
+        surrounding_text: >-
+          - **[Prisma Postgres](https://github.com/prisma/mcp)** - Gives LLMs the ability to manage Prisma Postgres
+          databases (e.g. spin up new databases and run migrations or queries)
         confidence: high
 metadata:
   github:
@@ -45,19 +49,25 @@ metadata:
     archived: false
     full_name: prisma/mcp
     html_url: https://github.com/prisma/mcp
-    created_at: "2025-06-20T15:46:43Z"
-    pushed_at: "2025-10-07T09:43:52Z"
+    created_at: '2025-06-20T15:46:43Z'
+    pushed_at: '2025-10-07T09:43:52Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:37.474Z"
+    last_checked_at: '2026-07-20T16:42:37.474Z'
     readme:
-      fetched_at: "2026-07-20T16:42:37.474Z"
+      fetched_at: '2026-07-20T16:42:37.474Z'
       bytes: 14871
 insights:
-  summary: Prisma provides local and remote MCP servers that expose database management, migration, and querying tools to AI agents and editor workflows.
-  why_it_matters: Developers can let agents handle Prisma Postgres database creation, migrations, and SQL execution directly from tools like VS Code agent mode or Cloudflare's AI Playground.
-  mental_damage: We have successfully abstracted database management so far that you now need a protocol server just to let your AI ask an AI to create a backup.
+  summary: >-
+    Prisma provides local and remote MCP servers that expose database management, migration, and querying tools to AI
+    agents and editor workflows.
+  why_it_matters: >-
+    Developers can let agents handle Prisma Postgres database creation, migrations, and SQL execution directly from
+    tools like VS Code agent mode or Cloudflare's AI Playground.
+  mental_damage: >-
+    We have successfully abstracted database management so far that you now need a protocol server just to let your AI
+    ask an AI to create a backup.
   tags:
     - mcp
     - database
@@ -67,35 +77,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a first-party MCP server implementation that exposes Prisma database capabilities to any MCP-compatible agent or editor.
+  reason: >-
+    The product is a first-party MCP server implementation that exposes Prisma database capabilities to any
+    MCP-compatible agent or editor.
   evidence:
     - README explicitly defines two MCP servers (local and remote) with JSON configs for MCP client integration.
     - Listed in awesome-mcp-servers under 'Server Implementations > Databases' and 'Official Servers'.
     - Tools include ExecuteSqlQueryTool, migrate-dev, and Create-Prisma-Postgres-Database, all exposed via MCP.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.592Z"
+    updated_at: '2026-05-06T22:12:15.592Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:37.474Z"
+    updated_at: '2026-07-20T16:42:37.474Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

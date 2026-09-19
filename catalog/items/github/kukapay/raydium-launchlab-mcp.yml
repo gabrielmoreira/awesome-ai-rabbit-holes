@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__raydium-launchlab-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/raydium-launchlab-mcp
         extracted_url: https://github.com/kukapay/raydium-launchlab-mcp
-        surrounding_text: "- [kukapay/raydium-launchlab-mcp](https://github.com/kukapay/raydium-launchlab-mcp) 🐍 ☁️ - An MCP server that enables AI agents to launch, buy, and sell tokens on the Raydium Launchpad(aka LaunchLab)."
+        surrounding_text: >-
+          - [kukapay/raydium-launchlab-mcp](https://github.com/kukapay/raydium-launchlab-mcp) 🐍 ☁️ - An MCP server that
+          enables AI agents to launch, buy, and sell tokens on the Raydium Launchpad(aka LaunchLab).
         confidence: high
 metadata:
   github:
@@ -30,18 +32,22 @@ metadata:
     archived: false
     full_name: kukapay/raydium-launchlab-mcp
     html_url: https://github.com/kukapay/raydium-launchlab-mcp
-    created_at: "2025-05-21T06:21:00Z"
-    pushed_at: "2025-05-21T06:22:24Z"
+    created_at: '2025-05-21T06:21:00Z'
+    pushed_at: '2025-05-21T06:22:24Z'
     description: An MCP server that enables AI agents to launch, buy, and sell tokens on the Raydium Launchpad(aka LaunchLab).
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:06:00.839Z"
+    last_checked_at: '2026-07-30T05:06:00.839Z'
     readme:
-      fetched_at: "2026-07-30T05:06:00.839Z"
+      fetched_at: '2026-07-30T05:06:00.839Z'
       bytes: 4490
 insights:
-  summary: An MCP server that enables AI agents to interact with Raydium Launchpad for token minting, buying, and selling on Solana.
-  why_it_matters: It allows developers to integrate blockchain token operations into AI agent workflows via MCP, bridging Solana DeFi and AI automation.
+  summary: >-
+    An MCP server that enables AI agents to interact with Raydium Launchpad for token minting, buying, and selling on
+    Solana.
+  why_it_matters: >-
+    It allows developers to integrate blockchain token operations into AI agent workflows via MCP, bridging Solana DeFi
+    and AI automation.
   mental_damage: Now your AI agent can mint tokens while you sleep, because why should humans have all the fun in crypto.
   tags:
     - mcp
@@ -59,24 +65,25 @@ curation:
     - MCP is the primary adopted protocol, not a compatibility footnote
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:00.840Z"
+    updated_at: '2026-07-30T05:06:00.840Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:14:07.804Z"
+    updated_at: '2026-07-21T16:14:07.804Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +96,9 @@ processing:
       input_hash: sha256:97bb32dde667369185f79f36810b04acb5cd10cef6474592e1e5dcce96fd6595
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is as an MCP server providing domain-specific tools for Raydium Launchpad interactions.
+      decision_reason: >-
+        The product's core identity is as an MCP server providing domain-specific tools for Raydium Launchpad
+        interactions.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Raydium Launchpad
         - README details MCP server setup and tools for token operations
@@ -97,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is fundamentally an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is fundamentally an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cogitatortech__binharic-cli__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Open Source
         anchor_text: Binharic
         extracted_url: https://github.com/cogitatortech/binharic-cli
-        surrounding_text: "- **[Binharic](https://github.com/CogitatorTech/binharic-cli)** `⭐ 16` — A multi-provider \"tech-priest persona\" coding agent CLI (stylized, tool-using)."
+        surrounding_text: >-
+          - **[Binharic](https://github.com/CogitatorTech/binharic-cli)** `⭐ 16` — A multi-provider "tech-priest
+          persona" coding agent CLI (stylized, tool-using).
         confidence: high
 metadata:
   github:
@@ -30,10 +32,10 @@ metadata:
     archived: false
     full_name: CogitatorTech/binharic-cli
     html_url: https://github.com/CogitatorTech/binharic-cli
-    created_at: "2025-08-16T20:22:48Z"
-    pushed_at: "2025-11-01T16:42:48Z"
+    created_at: '2025-08-16T20:22:48Z'
+    pushed_at: '2025-11-01T16:42:48Z'
     description: A multi-provider AI coding agent with the persona of a Tech-Priest
-    homepage: ""
+    homepage: ''
     topics:
       - agentic-ai
       - ai
@@ -43,13 +45,17 @@ metadata:
       - nodejs
       - rag-pipeline
       - typescript
-    last_checked_at: "2026-09-07T04:13:49.689Z"
+    last_checked_at: '2026-09-07T04:13:49.689Z'
     readme:
-      fetched_at: "2026-09-07T04:13:49.689Z"
+      fetched_at: '2026-09-07T04:13:49.689Z'
       bytes: 5193
 insights:
-  summary: A terminal-based AI coding agent with a Tech-Priest persona that supports multiple providers and includes built-in RAG, tools, and MCP integration.
-  why_it_matters: It offers developers a customizable, multi-provider CLI assistant for code analysis, testing, debugging, and review with extensible workflows.
+  summary: >-
+    A terminal-based AI coding agent with a Tech-Priest persona that supports multiple providers and includes built-in
+    RAG, tools, and MCP integration.
+  why_it_matters: >-
+    It offers developers a customizable, multi-provider CLI assistant for code analysis, testing, debugging, and review
+    with extensible workflows.
   mental_damage: Now you can debug your code while being judged by a Tech-Priest from the 41st millennium.
   tags:
     - cli
@@ -60,13 +66,18 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a standalone terminal-native coding assistant that directly reads, edits, and reviews code, fitting the primary identity of a coding agent.
+  reason: >-
+    It is a standalone terminal-native coding assistant that directly reads, edits, and reviews code, fitting the
+    primary identity of a coding agent.
   evidence:
-    - "Repo description: 'A multi-provider AI coding agent with the persona of a Tech-Priest'"
-    - "README: 'Binharic is a terminal-based AI coding assistant... with features like analyzing projects, running tests, finding bugs, and performing code review'"
-    - "Source-list context: Listed under 'Terminal-native coding agents > Open Source' in awesome-cli-coding-agents"
+    - 'Repo description: ''A multi-provider AI coding agent with the persona of a Tech-Priest'''
+    - >-
+      README: 'Binharic is a terminal-based AI coding assistant... with features like analyzing projects, running tests,
+      finding bugs, and performing code review'
+    - 'Source-list context: Listed under ''Terminal-native coding agents > Open Source'' in awesome-cli-coding-agents'
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: incubating
@@ -74,17 +85,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:49.689Z"
+    updated_at: '2026-09-07T04:13:49.689Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:45:07.526Z"
+    updated_at: '2026-07-21T15:45:07.526Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -97,14 +108,20 @@ processing:
       input_hash: sha256:34526a71aedb3cc35b05b60c557011357824566c141ce2e976206efb02d8dffd
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: It is a standalone terminal-native coding assistant that directly reads, edits, and reviews code, fitting the primary identity of a coding agent.
+      decision_reason: >-
+        It is a standalone terminal-native coding assistant that directly reads, edits, and reviews code, fitting the
+        primary identity of a coding agent.
       decision_evidence:
-        - "Repo description: 'A multi-provider AI coding agent with the persona of a Tech-Priest'"
-        - "README: 'Binharic is a terminal-based AI coding assistant... with features like analyzing projects, running tests, finding bugs, and performing code review'"
-        - "Source-list context: Listed under 'Terminal-native coding agents > Open Source' in awesome-cli-coding-agents"
+        - 'Repo description: ''A multi-provider AI coding agent with the persona of a Tech-Priest'''
+        - >-
+          README: 'Binharic is a terminal-based AI coding assistant... with features like analyzing projects, running
+          tests, finding bugs, and performing code review'
+        - 'Source-list context: Listed under ''Terminal-native coding agents > Open Source'' in awesome-cli-coding-agents'
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because the tool is a primary coding assistant, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because the tool is a primary coding assistant, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kurdin__github-repos-manager-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: GitHub Repos Manager MCP Server
         extracted_url: https://github.com/kurdin/github-repos-manager-mcp
-        surrounding_text: "- **[GitHub Repos Manager MCP Server](https://github.com/kurdin/github-repos-manager-mcp)** - Token-based GitHub automation management. No Docker, Flexible configuration, 80+ tools with direct API integration."
+        surrounding_text: >-
+          - **[GitHub Repos Manager MCP Server](https://github.com/kurdin/github-repos-manager-mcp)** - Token-based
+          GitHub automation management. No Docker, Flexible configuration, 80+ tools with direct API integration.
         confidence: high
 metadata:
   github:
@@ -29,18 +31,22 @@ metadata:
     archived: false
     full_name: kurdin/github-repos-manager-mcp
     html_url: https://github.com/kurdin/github-repos-manager-mcp
-    created_at: "2025-06-02T18:26:25Z"
-    pushed_at: "2025-09-25T19:48:51Z"
-    description: GitHub Repos Manager MCP Server that enables your MCP client (e.g., Claude Desktop, Roo Code, etc.) to interact with GitHub repositories using your GitHub personal access token.
+    created_at: '2025-06-02T18:26:25Z'
+    pushed_at: '2025-09-25T19:48:51Z'
+    description: >-
+      GitHub Repos Manager MCP Server that enables your MCP client (e.g., Claude Desktop, Roo Code, etc.) to interact
+      with GitHub repositories using your GitHub personal access token.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:06:01.531Z"
+    last_checked_at: '2026-07-30T05:06:01.531Z'
     readme:
-      fetched_at: "2026-07-30T05:06:01.531Z"
+      fetched_at: '2026-07-30T05:06:01.531Z'
       bytes: 42098
 insights:
   summary: An MCP server that enables MCP clients to interact with GitHub repositories using a personal access token.
-  why_it_matters: Developers can manage GitHub repositories, issues, PRs, and branches directly from their MCP-enabled coding assistant without switching contexts.
+  why_it_matters: >-
+    Developers can manage GitHub repositories, issues, PRs, and branches directly from their MCP-enabled coding
+    assistant without switching contexts.
   mental_damage: Now your AI assistant can open, close, and argue in GitHub issues faster than you can type 'LGTM'.
   tags:
     - mcp-server
@@ -50,31 +56,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose primary identity is providing GitHub repository management capabilities to MCP clients.
+  reason: >-
+    This is an MCP-first server whose primary identity is providing GitHub repository management capabilities to MCP
+    clients.
   evidence:
     - Repo description explicitly states it is a GitHub Repos Manager MCP Server
     - README confirms it is a Model Context Protocol server for GitHub API integration
     - Already listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:01.531Z"
+    updated_at: '2026-07-30T05:06:01.531Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:14:24.012Z"
+    updated_at: '2026-07-21T16:14:24.012Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,7 +96,9 @@ processing:
       input_hash: sha256:77102636c518ad33974acd16fd398f1701da579366b270cf49d1608df2f4b1f7
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server whose primary identity is providing GitHub repository management capabilities to MCP clients.
+      decision_reason: >-
+        This is an MCP-first server whose primary identity is providing GitHub repository management capabilities to MCP
+        clients.
       decision_evidence:
         - Repo description explicitly states it is a GitHub Repos Manager MCP Server
         - README confirms it is a Model Context Protocol server for GitHub API integration
@@ -95,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__prior__cg3__io__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,12 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: Website
         extracted_url: https://prior.cg3.io
-        surrounding_text: "- [cg3-llc/prior_mcp](https://github.com/cg3-llc/prior_mcp) [![cg3-llc/prior_mcp MCP server](https://glama.ai/mcp/servers/cg3-llc/prior_mcp/badges/score.svg)](https://glama.ai/mcp/servers/cg3-llc/prior_mcp) 📇 ☁️ - Shared knowledge base where AI agents exchange proven solutions — including failed approaches, so your agent skips the dead ends. Smaller models get instant access to frontier-model discoveries. Free to search indefinitely when feedback is provided on results. [Website](https://prior.cg3.io)"
+        surrounding_text: >-
+          - [cg3-llc/prior_mcp](https://github.com/cg3-llc/prior_mcp) [![cg3-llc/prior_mcp MCP
+          server](https://glama.ai/mcp/servers/cg3-llc/prior_mcp/badges/score.svg)](https://glama.ai/mcp/servers/cg3-llc/prior_mcp)
+          📇 ☁️ - Shared knowledge base where AI agents exchange proven solutions — including failed approaches, so your
+          agent skips the dead ends. Smaller models get instant access to frontier-model discoveries. Free to search
+          indefinitely when feedback is provided on results. [Website](https://prior.cg3.io)
         confidence: high
 metadata:
   github:
@@ -37,8 +42,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Prior is a knowledge exchange platform that lets AI agents search and reuse solutions discovered by other agents to avoid redundant work.
-  why_it_matters: It reduces token costs and iteration time for agents by surfacing prior solutions, dead ends, and fixes from a shared network.
+  summary: >-
+    Prior is a knowledge exchange platform that lets AI agents search and reuse solutions discovered by other agents to
+    avoid redundant work.
+  why_it_matters: >-
+    It reduces token costs and iteration time for agents by surfacing prior solutions, dead ends, and fixes from a
+    shared network.
   mental_damage: Now your agent can waste tokens on problems someone else already solved, but at least it’s someone else’s tokens.
   tags:
     - agent-memory
@@ -48,24 +57,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Prior is fundamentally an MCP server and middleware layer that provides shared knowledge retrieval to agents, with MCP being its primary product identity rather than a compatibility footnote.
+  reason: >-
+    Prior is fundamentally an MCP server and middleware layer that provides shared knowledge retrieval to agents, with
+    MCP being its primary product identity rather than a compatibility footnote.
   evidence:
-    - Scraped docs show 'MCP Server (Remote — Zero Install)' endpoint at https://api.cg3.io/mcp with full MCP setup instructions.
-    - The setup command explicitly installs Prior as an MCP server into Claude Code, Codex, and other tools via MCP config.
+    - >-
+      Scraped docs show 'MCP Server (Remote — Zero Install)' endpoint at https://api.cg3.io/mcp with full MCP setup
+      instructions.
+    - >-
+      The setup command explicitly installs Prior as an MCP server into Claude Code, Codex, and other tools via MCP
+      config.
     - Listed in awesome-mcp-servers under 'Knowledge & Memory' as a server implementation.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
+  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''context-engineering'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -73,7 +91,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:41.168Z"
+    updated_at: '2026-07-21T15:30:41.168Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -94,6 +112,8 @@ processing:
       category_candidates:
         - context-engineering
         - mcp
-      contrastive_reason: Choose context-engineering over mcp because the product identity is the knowledge exchange layer, not MCP infrastructure.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
+      contrastive_reason: >-
+        Choose context-engineering over mcp because the product identity is the knowledge exchange layer, not MCP
+        infrastructure.
+      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''context-engineering'''
       review_resume_lifecycle: null

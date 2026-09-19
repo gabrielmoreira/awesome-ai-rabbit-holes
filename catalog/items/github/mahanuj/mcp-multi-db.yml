@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mahanuj__mcp-multi-db__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-29T05:38:18.519Z"
+      discovered_at: '2026-06-29T05:38:18.519Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: mahAnuj/mcp-multi-db
         extracted_url: https://github.com/mahanuj/mcp-multi-db
-        surrounding_text: "- [mahAnuj/mcp-multi-db](https://github.com/mahAnuj/mcp-multi-db) [![mahAnuj/mcp-multi-db MCP server](https://glama.ai/mcp/servers/mahAnuj/mcp-multi-db/badges/score.svg)](https://glama.ai/mcp/servers/mahAnuj/mcp-multi-db) 📇 🏠 - One MCP server for PostgreSQL, MySQL, and SQLite. Unified read-only tools (`list_databases`, `list_tables`, `describe_table`, `run_query`) across all three engines with two-layer read-only enforcement (SQL-text guard + DB-level read-only transactions). Install: `npx -y mcp-multi-db`."
+        surrounding_text: >-
+          - [mahAnuj/mcp-multi-db](https://github.com/mahAnuj/mcp-multi-db) [![mahAnuj/mcp-multi-db MCP
+          server](https://glama.ai/mcp/servers/mahAnuj/mcp-multi-db/badges/score.svg)](https://glama.ai/mcp/servers/mahAnuj/mcp-multi-db)
+          📇 🏠 - One MCP server for PostgreSQL, MySQL, and SQLite. Unified read-only tools (`list_databases`,
+          `list_tables`, `describe_table`, `run_query`) across all three engines with two-layer read-only enforcement
+          (SQL-text guard + DB-level read-only transactions). Install: `npx -y mcp-multi-db`.
         confidence: high
 metadata:
   github:
@@ -30,19 +35,25 @@ metadata:
     archived: false
     full_name: mahAnuj/mcp-multi-db
     html_url: https://github.com/mahAnuj/mcp-multi-db
-    created_at: "2026-06-06T04:31:08Z"
-    pushed_at: "2026-06-21T08:57:23Z"
+    created_at: '2026-06-06T04:31:08Z'
+    pushed_at: '2026-06-21T08:57:23Z'
     description: Read-only MCP server for querying PostgreSQL, MySQL, and SQLite from AI agents — multi-database, safe by default.
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:16:54.508Z"
+    last_checked_at: '2026-08-03T05:16:54.508Z'
     readme:
-      fetched_at: "2026-08-03T05:16:54.508Z"
+      fetched_at: '2026-08-03T05:16:54.508Z'
       bytes: 8060
 insights:
-  summary: Read-only MCP server that lets AI agents query PostgreSQL, MySQL, and SQLite through a single stdio connection, enforcing safety via database-level read-only transactions and query guards.
-  why_it_matters: Developers can point Claude, Cursor, or any MCP client at multiple databases without deploying a separate server per engine or risking accidental writes.
-  mental_damage: Promising 'zero query language to learn' for database access is liberating until you realize the agent still needs someone to understand the schema, the joins, and why that 'read-only' query is timing out after 2.3 million rows.
+  summary: >-
+    Read-only MCP server that lets AI agents query PostgreSQL, MySQL, and SQLite through a single stdio connection,
+    enforcing safety via database-level read-only transactions and query guards.
+  why_it_matters: >-
+    Developers can point Claude, Cursor, or any MCP client at multiple databases without deploying a separate server per
+    engine or risking accidental writes.
+  mental_damage: >-
+    Promising 'zero query language to learn' for database access is liberating until you realize the agent still needs
+    someone to understand the schema, the joins, and why that 'read-only' query is timing out after 2.3 million rows.
   tags:
     - mcp
     - database
@@ -52,31 +63,40 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product is a purpose-built MCP server for multi-database querying; MCP is its entire identity rather than a compatibility layer or side feature.
+  reason: >-
+    The product is a purpose-built MCP server for multi-database querying; MCP is its entire identity rather than a
+    compatibility layer or side feature.
   evidence:
-    - Repo description and README frame it exclusively as a stdio MCP server serving database tools like `list_databases` and `run_query`.
-    - Source-list context places it in awesome-mcp-servers under Databases, confirming community categorization as MCP infrastructure.
-    - Provides concrete server tooling (SQL-text guard, read-only transactions, schema discovery) rather than acting as a generic framework or editor extension.
+    - >-
+      Repo description and README frame it exclusively as a stdio MCP server serving database tools like
+      `list_databases` and `run_query`.
+    - >-
+      Source-list context places it in awesome-mcp-servers under Databases, confirming community categorization as MCP
+      infrastructure.
+    - >-
+      Provides concrete server tooling (SQL-text guard, read-only transactions, schema discovery) rather than acting as
+      a generic framework or editor extension.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-29T05:38:18.520Z"
+    updated_at: '2026-06-29T05:38:18.520Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:54.508Z"
+    updated_at: '2026-08-03T05:16:54.508Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-06T05:34:28.001Z"
+    updated_at: '2026-07-06T05:34:28.001Z'
     cause: null
     next_retry_at: null
     attempts: 1

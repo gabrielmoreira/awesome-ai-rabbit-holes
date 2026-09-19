@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hwchase17__langchain-streamlit-template__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,7 +20,10 @@ provenance:
           - Templates
         anchor_text: Streamlit Template
         extracted_url: https://github.com/hwchase17/langchain-streamlit-template
-        surrounding_text: "- [Streamlit Template](https://github.com/hwchase17/langchain-streamlit-template): template for how to deploy a LangChain on Streamlit ![GitHub Repo stars](https://img.shields.io/github/stars/hwchase17/langchain-streamlit-template?style=social)"
+        surrounding_text: >-
+          - [Streamlit Template](https://github.com/hwchase17/langchain-streamlit-template): template for how to deploy
+          a LangChain on Streamlit ![GitHub Repo
+          stars](https://img.shields.io/github/stars/hwchase17/langchain-streamlit-template?style=social)
         confidence: high
 metadata:
   github:
@@ -30,18 +33,20 @@ metadata:
     archived: false
     full_name: hwchase17/langchain-streamlit-template
     html_url: https://github.com/hwchase17/langchain-streamlit-template
-    created_at: "2023-01-09T04:28:41Z"
-    pushed_at: "2025-01-11T03:25:35Z"
+    created_at: '2023-01-09T04:28:41Z'
+    pushed_at: '2025-01-11T03:25:35Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:40.634Z"
+    last_checked_at: '2026-07-30T05:05:40.634Z'
     readme:
-      fetched_at: "2026-07-30T05:05:40.634Z"
+      fetched_at: '2026-07-30T05:05:40.634Z'
       bytes: 1189
 insights:
   summary: A Streamlit template for deploying LangGraph agents as chatbots.
-  why_it_matters: Provides a ready-to-deploy scaffold for turning LangGraph agents into Streamlit web apps, reducing boilerplate for developers.
+  why_it_matters: >-
+    Provides a ready-to-deploy scaffold for turning LangGraph agents into Streamlit web apps, reducing boilerplate for
+    developers.
   mental_damage: Because nothing says 'production-ready' like a template that assumes you’ll hardcode your API key in secrets.
   tags:
     - streamlit
@@ -59,24 +64,25 @@ curation:
     - Source-list context (awesome-langchain) categorizes it under Templates
 placement:
   primary_category: app-builders
-  section: Local / Code-Scaffolding Builders
+  secondary_categories: []
+  section: Scaffolding & Boilerplate
 lifecycle:
   status: promotion_candidate
   reason: Stars (298) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.619Z"
+    updated_at: '2026-05-06T22:12:15.619Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:40.634Z"
+    updated_at: '2026-07-30T05:05:40.634Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:07:08.023Z"
+    updated_at: '2026-07-21T16:07:08.023Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -97,6 +103,8 @@ processing:
       category_candidates:
         - app-builders
         - ai-frameworks
-      contrastive_reason: Choose app-builders over ai-frameworks because the primary value is a deployable app scaffold, not a reusable code-first library.
+      contrastive_reason: >-
+        Choose app-builders over ai-frameworks because the primary value is a deployable app scaffold, not a reusable
+        code-first library.
       review_reason: null
       review_resume_lifecycle: null

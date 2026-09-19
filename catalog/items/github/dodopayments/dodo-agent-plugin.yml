@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dodopayments__dodo-agent-plugin__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: dodopayments/dodo-agent-plugin
         extracted_url: https://github.com/dodopayments/dodo-agent-plugin
-        surrounding_text: "- [dodopayments/dodo-agent-plugin](https://github.com/dodopayments/dodo-agent-plugin) [![dodopayments/dodo-agent-plugin MCP server](https://glama.ai/mcp/servers/dodopayments/dodo-agent-plugin/badges/score.svg)](https://glama.ai/mcp/servers/dodopayments/dodo-agent-plugin) 🎖️ 📇 ☁️ - Official Dodo Payments MCP servers — `dodopayments-api` for live payments, subscriptions, customers, products, refunds, license keys, and usage-based billing (browser OAuth, no API key needed) and `dodo-knowledge` for semantic search over Dodo Payments documentation."
+        surrounding_text: >-
+          - [dodopayments/dodo-agent-plugin](https://github.com/dodopayments/dodo-agent-plugin)
+          [![dodopayments/dodo-agent-plugin MCP
+          server](https://glama.ai/mcp/servers/dodopayments/dodo-agent-plugin/badges/score.svg)](https://glama.ai/mcp/servers/dodopayments/dodo-agent-plugin)
+          🎖️ 📇 ☁️ - Official Dodo Payments MCP servers — `dodopayments-api` for live payments, subscriptions,
+          customers, products, refunds, license keys, and usage-based billing (browser OAuth, no API key needed) and
+          `dodo-knowledge` for semantic search over Dodo Payments documentation.
         confidence: high
 metadata:
   github:
@@ -30,8 +36,8 @@ metadata:
     archived: false
     full_name: dodopayments/dodo-agent-plugin
     html_url: https://github.com/dodopayments/dodo-agent-plugin
-    created_at: "2026-04-21T13:23:40Z"
-    pushed_at: "2026-09-07T11:05:01Z"
+    created_at: '2026-04-21T13:23:40Z'
+    pushed_at: '2026-09-07T11:05:01Z'
     description: Official Dodo Payments Plugin for Claude Code, Codex, Cursor and Opencode
     homepage: https://docs.dodopayments.com/developer-resources/build-with-ai-coding-agents
     topics:
@@ -40,14 +46,20 @@ metadata:
       - dodopayments
       - opencode
       - plugin
-    last_checked_at: "2026-09-14T04:13:42.620Z"
+    last_checked_at: '2026-09-14T04:13:42.620Z'
     readme:
-      fetched_at: "2026-09-14T04:13:42.620Z"
+      fetched_at: '2026-09-14T04:13:42.620Z'
       bytes: 16719
 insights:
-  summary: An official plugin for Claude Code, Codex, Cursor, and OpenCode that provides MCP servers for API access and semantic documentation search for Dodo Payments.
-  why_it_matters: It allows coding agents to directly manage payments, subscriptions, and license keys without the developer manually copying API docs into the prompt.
-  mental_damage: We have reached the era where you don't just write code to integrate a payment gateway, you install a plugin so your agent can read the gateway's mind for you.
+  summary: >-
+    An official plugin for Claude Code, Codex, Cursor, and OpenCode that provides MCP servers for API access and
+    semantic documentation search for Dodo Payments.
+  why_it_matters: >-
+    It allows coding agents to directly manage payments, subscriptions, and license keys without the developer manually
+    copying API docs into the prompt.
+  mental_damage: >-
+    We have reached the era where you don't just write code to integrate a payment gateway, you install a plugin so your
+    agent can read the gateway's mind for you.
   tags:
     - mcp
     - payments
@@ -57,31 +69,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is providing MCP servers and skills to bridge a specific domain (payments) to multiple agent hosts.
+  reason: >-
+    The product's core identity is providing MCP servers and skills to bridge a specific domain (payments) to multiple
+    agent hosts.
   evidence:
-    - "Provides two specific MCP servers: `dodopayments-api` and `dodo-knowledge`."
+    - 'Provides two specific MCP servers: `dodopayments-api` and `dodo-knowledge`.'
     - Designed as a cross-platform plugin for Claude Code, Codex, Cursor, and OpenCode.
     - Included in 'awesome-mcp-servers' under Finance & Fintech.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-15T05:51:04.988Z"
+    updated_at: '2026-06-15T05:51:04.988Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:42.620Z"
+    updated_at: '2026-09-14T04:13:42.620Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-15T05:54:06.624Z"
+    updated_at: '2026-06-15T05:54:06.624Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

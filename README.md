@@ -13,17 +13,14 @@ Pick one rabbit hole, follow it until it becomes useful or emotionally dangerous
 
 ## Rabbit Holes
 
-- [Coding Agents](docs/rabbit-holes/coding-agents.md) — Assistants that directly plan, write, review, test, or debug code.
-- [IDEs & Editors](docs/rabbit-holes/ai-ides-editors.md) — Development environments built around coding assistance.
-- [Extensions & Integrations](docs/rabbit-holes/ai-dev-extensions.md) — Add-ons and host integrations that extend another coding tool rather than being the primary assistant.
-- [Agent Orchestration](docs/rabbit-holes/agent-orchestration.md) — Tools and platforms for coordinating multiple agents.
-- [App Builders](docs/rabbit-holes/ai-app-builders.md) — Products that generate, assemble, or deploy apps, sites, internal tools, or project scaffolds from prompts.
-- [Local AI](docs/rabbit-holes/local-ai.md) — Local runtimes, desktop apps, and tooling for running AI on your own hardware.
-- [Frameworks & SDKs](docs/rabbit-holes/ai-frameworks.md) — Code-first building blocks for embedding models, agents, or AI workflows into software.
-- [Evals & Benchmarks](docs/rabbit-holes/evals.md) — Frameworks and tooling for measuring model, prompt, or agent behavior.
-- [MCP Servers & Tooling](docs/rabbit-holes/mcp.md) — Servers, clients, registries, and tooling for the Model Context Protocol.
-- [Agent Skills](docs/rabbit-holes/skills.md) — Reusable skill packs, rules, commands, and skill directories for coding tools.
-- [Prompt & Context Engineering](docs/rabbit-holes/prompting-context-engineering.md) — Memory, retrieval, compression, and prompt-shaping systems for getting the right context in front of a model.
-- [Spec-Driven Development](docs/rabbit-holes/spec-driven-development.md) — Tooling where specifications are the primary artifact for planning, validation, repair, or governance.
-- [Awesome Awesomes](docs/rabbit-holes/awesome-awesomes.md) — Lists, maps, directories, and indexes for navigating AI tooling.
-- [Publications & Feeds](docs/rabbit-holes/newsletters-and-feeds.md) — Newsletters, podcasts, and feeds for staying current with AI.
+- [Coding Agents](docs/rabbit-holes/coding-agents.md) — Agents that directly act on code: planning, writing, editing, reviewing, testing, and repairing across a terminal, IDE, browser, or operating system.
+- [App Builders](docs/rabbit-holes/ai-app-builders.md) — Products that generate complete apps, websites, dashboards, or scaffolds from prompts — the user starts from zero and receives a deployable artifact.
+- [Extensions & Add-ons](docs/rabbit-holes/extensions-and-addons.md) — Plugins, integrations, and tools that extend a coding agent, editor, or development workflow rather than standing alone as a primary product.
+- [MCP Ecosystem](docs/rabbit-holes/mcp.md) — Servers, clients, registries, and infrastructure for the Model Context Protocol — the standard that lets AI agents talk to tools and data sources through a shared interface.
+- [Agent Orchestration](docs/rabbit-holes/agent-orchestration.md) — Platforms and runtimes for coordinating multiple agents: designing workflows, routing tasks between specialists, and deploying autonomous agent teams.
+- [Frameworks & SDKs](docs/rabbit-holes/ai-frameworks.md) — Code-first libraries, SDKs, and engines that developers import and program against to build AI-powered applications and agent systems.
+- [Evals & Benchmarks](docs/rabbit-holes/evals.md) — Frameworks, platforms, and tooling for measuring, tracing, comparing, and improving model, prompt, and agent behavior.
+- [Local & Self-hosted AI](docs/rabbit-holes/local-ai.md) — Runtimes, serving stacks, desktop apps, and tooling for running AI models on your own hardware or self-hosted infrastructure.
+- [Memory & Context](docs/rabbit-holes/memory-and-context.md) — Systems that improve what goes into the model: persistent agent memory, retrieval and RAG pipelines, context compression, and prompt management.
+- [Agent Skills](docs/rabbit-holes/skills.md) — Reusable skill packs, rules bundles, slash-command sets, and directories that install into a coding agent or assistant to extend its behavior.
+- [Curated Lists & Resources](docs/rabbit-holes/awesome-awesomes.md) — Awesome lists, curated directories, ecosystem maps, newsletters, and publications for discovering tools and staying current with AI development.

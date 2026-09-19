@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hegelai__prompttools__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,13 @@ provenance:
           - LLMOps
         anchor_text: prompttools
         extracted_url: https://github.com/hegelai/prompttools
-        surrounding_text: "| [prompttools](https://github.com/hegelai/prompttools)              | Open-source tools for testing and experimenting with prompts. The core idea is to enable developers to evaluate prompts using familiar interfaces like code and notebooks. In just a few lines of codes, you can test your prompts and parameters across different models (whether you are using OpenAI, Anthropic, or LLaMA models). You can even evaluate the retrieval accuracy of vector databases. | ![GitHub Badge](https://img.shields.io/github/stars/hegelai/prompttools.svg?style=flat-square)            |"
+        surrounding_text: >-
+          | [prompttools](https://github.com/hegelai/prompttools)              | Open-source tools for testing and
+          experimenting with prompts. The core idea is to enable developers to evaluate prompts using familiar
+          interfaces like code and notebooks. In just a few lines of codes, you can test your prompts and parameters
+          across different models (whether you are using OpenAI, Anthropic, or LLaMA models). You can even evaluate the
+          retrieval accuracy of vector databases. | ![GitHub
+          Badge](https://img.shields.io/github/stars/hegelai/prompttools.svg?style=flat-square)            |
         confidence: high
 metadata:
   github:
@@ -29,9 +35,11 @@ metadata:
     archived: false
     full_name: hegelai/prompttools
     html_url: https://github.com/hegelai/prompttools
-    created_at: "2023-06-25T19:33:00Z"
-    pushed_at: "2026-02-11T03:24:04Z"
-    description: Open-source tools for prompt testing and experimentation, with support for both LLMs (e.g. OpenAI, LLaMA) and vector databases (e.g. Chroma, Weaviate, LanceDB).
+    created_at: '2023-06-25T19:33:00Z'
+    pushed_at: '2026-02-11T03:24:04Z'
+    description: >-
+      Open-source tools for prompt testing and experimentation, with support for both LLMs (e.g. OpenAI, LLaMA) and
+      vector databases (e.g. Chroma, Weaviate, LanceDB).
     homepage: http://prompttools.readthedocs.io
     topics:
       - deep-learning
@@ -43,13 +51,15 @@ metadata:
       - prompt-engineering
       - python
       - vector-search
-    last_checked_at: "2026-07-30T05:05:36.233Z"
+    last_checked_at: '2026-07-30T05:05:36.233Z'
     readme:
-      fetched_at: "2026-07-30T05:05:36.233Z"
+      fetched_at: '2026-07-30T05:05:36.233Z'
       bytes: 6917
 insights:
   summary: Open-source Python library for testing, experimenting with, and evaluating prompts, LLMs, and vector databases.
-  why_it_matters: Developers can programmatically compare model outputs, parameters, and retrieval accuracy across providers like OpenAI, Anthropic, and LLaMA via a unified code interface.
+  why_it_matters: >-
+    Developers can programmatically compare model outputs, parameters, and retrieval accuracy across providers like
+    OpenAI, Anthropic, and LLaMA via a unified code interface.
   mental_damage: Finally, a way to A/B test your prompts without pretending you know what you're doing.
   tags:
     - prompt-testing
@@ -60,31 +70,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Core product is a code-first framework for measuring, comparing, and regressing prompt/model behavior, not a primary assistant or orchestration platform.
+  reason: >-
+    Core product is a code-first framework for measuring, comparing, and regressing prompt/model behavior, not a primary
+    assistant or orchestration platform.
   evidence:
     - Repo description explicitly states 'tools for prompt testing and experimentation'
     - README highlights running experiments across models and vector DBs with visualization
     - Source-list context (Awesome-LLMOps) places it under LLMOps, aligning with eval/benchmarking use cases
 placement:
   primary_category: evals
-  section: Prompt Regression & Experimentation
+  secondary_categories: []
+  section: Prompt Regression & Testing
 lifecycle:
   status: promotion_candidate
   reason: Stars (3039) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.618Z"
+    updated_at: '2026-05-06T22:12:15.618Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:36.233Z"
+    updated_at: '2026-07-30T05:05:36.233Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:05:25.592Z"
+    updated_at: '2026-07-21T16:05:25.592Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -97,7 +110,9 @@ processing:
       input_hash: sha256:5cf680a411cb9968aeeda491db45c0ff03225abb015c71d1fa6b651f2971a19f
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: Core product is a code-first framework for measuring, comparing, and regressing prompt/model behavior, not a primary assistant or orchestration platform.
+      decision_reason: >-
+        Core product is a code-first framework for measuring, comparing, and regressing prompt/model behavior, not a
+        primary assistant or orchestration platform.
       decision_evidence:
         - Repo description explicitly states 'tools for prompt testing and experimentation'
         - README highlights running experiments across models and vector DBs with visualization
@@ -105,6 +120,8 @@ processing:
       category_candidates:
         - evals
         - ai-frameworks
-      contrastive_reason: Choose evals over ai-frameworks because the primary job is prompt/model evaluation and regression testing rather than general-purpose workflow building.
+      contrastive_reason: >-
+        Choose evals over ai-frameworks because the primary job is prompt/model evaluation and regression testing rather
+        than general-purpose workflow building.
       review_reason: null
       review_resume_lifecycle: null

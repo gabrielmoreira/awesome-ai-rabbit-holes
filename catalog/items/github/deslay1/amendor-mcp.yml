@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__deslay1__amendor-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-25T05:24:49.456Z"
+      discovered_at: '2026-06-25T05:24:49.456Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🔒 <a name="delivery"></a>Delivery
         anchor_text: deslay1/amendor-mcp
         extracted_url: https://github.com/deslay1/amendor-mcp
-        surrounding_text: "- [deslay1/amendor-mcp](https://github.com/deslay1/amendor-mcp) [![deslay1/amendor-mcp MCP server](https://glama.ai/mcp/servers/deslay1/amendor-mcp/badges/score.svg)](https://glama.ai/mcp/servers/deslay1/amendor-mcp) 📇 ☁️ - Lets the non-technical people you build for request UI changes directly on your live site, then pulls each request (with the exact element and page) into your coding agent so it builds it on a branch and opens a pull request. Works with Claude Code, Cursor, Cline, Codex, and remote agents over HTTP. `npx -y amendor-mcp`"
+        surrounding_text: >-
+          - [deslay1/amendor-mcp](https://github.com/deslay1/amendor-mcp) [![deslay1/amendor-mcp MCP
+          server](https://glama.ai/mcp/servers/deslay1/amendor-mcp/badges/score.svg)](https://glama.ai/mcp/servers/deslay1/amendor-mcp)
+          📇 ☁️ - Lets the non-technical people you build for request UI changes directly on your live site, then pulls
+          each request (with the exact element and page) into your coding agent so it builds it on a branch and opens a
+          pull request. Works with Claude Code, Cursor, Cline, Codex, and remote agents over HTTP. `npx -y amendor-mcp`
         confidence: high
 metadata:
   github:
@@ -30,19 +35,23 @@ metadata:
     archived: false
     full_name: deslay1/amendor-mcp
     html_url: https://github.com/deslay1/amendor-mcp
-    created_at: "2026-06-21T12:40:11Z"
-    pushed_at: "2026-07-21T07:20:20Z"
+    created_at: '2026-06-21T12:40:11Z'
+    pushed_at: '2026-07-21T07:20:20Z'
     description: Connect your coding agent to Amendor. Pulls change requests into your agent so it builds them and opens PRs.
     homepage: https://amendor.site
     topics: []
-    last_checked_at: "2026-09-14T04:13:39.531Z"
+    last_checked_at: '2026-09-14T04:13:39.531Z'
     readme:
-      fetched_at: "2026-09-14T04:13:39.531Z"
+      fetched_at: '2026-09-14T04:13:39.531Z'
       bytes: 1639
 insights:
   summary: An MCP server that connects coding agents to Amendor to pull in user-requested changes and open pull requests.
-  why_it_matters: It closes the loop between non-technical user feedback on a live site and the AI agent's implementation workflow by automating the request-to-branch pipeline.
-  mental_damage: We've finally reached the point where the 'feedback loop' is just a chain of AI agents translating vague user complaints into PRs that another AI agent will then review.
+  why_it_matters: >-
+    It closes the loop between non-technical user feedback on a live site and the AI agent's implementation workflow by
+    automating the request-to-branch pipeline.
+  mental_damage: >-
+    We've finally reached the point where the 'feedback loop' is just a chain of AI agents translating vague user
+    complaints into PRs that another AI agent will then review.
   tags:
     - mcp
     - workflow-automation
@@ -51,31 +60,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is explicitly an MCP server designed to provide a specific set of tools to an existing agent host.
+  reason: >-
+    The product identity is explicitly an MCP server designed to provide a specific set of tools to an existing agent
+    host.
   evidence:
     - Repo name is 'amendor-mcp'
     - README provides a 'claude mcp add' command for installation
     - Defines specific MCP tools like 'list_change_requests' and 'ship_change'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-25T05:24:49.457Z"
+    updated_at: '2026-06-25T05:24:49.457Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:39.531Z"
+    updated_at: '2026-09-14T04:13:39.531Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-25T05:29:04.045Z"
+    updated_at: '2026-06-25T05:29:04.045Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

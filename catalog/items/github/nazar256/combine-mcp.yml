@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nazar256__combine-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: MCP Aggregator
         extracted_url: https://github.com/nazar256/combine-mcp
-        surrounding_text: "- **[MCP Aggregator](https://github.com/nazar256/combine-mcp)** - An MCP (Model Context Protocol) aggregator that allows you to combine multiple MCP servers into a single endpoint allowing to filter specific tools."
+        surrounding_text: >-
+          - **[MCP Aggregator](https://github.com/nazar256/combine-mcp)** - An MCP (Model Context Protocol) aggregator
+          that allows you to combine multiple MCP servers into a single endpoint allowing to filter specific tools.
         confidence: high
 metadata:
   github:
@@ -29,19 +31,25 @@ metadata:
     archived: false
     full_name: nazar256/combine-mcp
     html_url: https://github.com/nazar256/combine-mcp
-    created_at: "2025-03-28T21:11:11Z"
-    pushed_at: "2025-11-24T18:02:13Z"
+    created_at: '2025-03-28T21:11:11Z'
+    pushed_at: '2025-11-24T18:02:13Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T15:12:00.532Z"
+    last_checked_at: '2026-07-20T15:12:00.532Z'
     readme:
-      fetched_at: "2026-07-20T15:12:00.532Z"
+      fetched_at: '2026-07-20T15:12:00.532Z'
       bytes: 7525
 insights:
-  summary: An MCP aggregator that combines multiple MCP servers into a single interface with tool prefixing, filtering, and client compatibility layers for Cursor and other MCP clients.
-  why_it_matters: It lets developers work around MCP client limitations by centralizing server configs, secrets, and tool exposure through one unified adapter instead of duplicating setup per IDE or agent.
-  mental_damage: We have reached the point where the protocol meant to standardize tool access now requires its own middleware to hide the fact that our clients can barely handle two servers at once.
+  summary: >-
+    An MCP aggregator that combines multiple MCP servers into a single interface with tool prefixing, filtering, and
+    client compatibility layers for Cursor and other MCP clients.
+  why_it_matters: >-
+    It lets developers work around MCP client limitations by centralizing server configs, secrets, and tool exposure
+    through one unified adapter instead of duplicating setup per IDE or agent.
+  mental_damage: >-
+    We have reached the point where the protocol meant to standardize tool access now requires its own middleware to
+    hide the fact that our clients can barely handle two servers at once.
   tags:
     - mcp
     - cursor
@@ -50,35 +58,42 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is an MCP aggregator server and client middleware built specifically to unify and manage MCP server connections for MCP clients."
+  reason: >-
+    MCP is the product identity: this is an MCP aggregator server and client middleware built specifically to unify and
+    manage MCP server connections for MCP clients.
   evidence:
-    - README states it 'acts as a bridge between Cursor (or any other MCP client) and multiple MCP servers' and functions as both MCP server and MCP client.
-    - Source-list context shows inclusion in awesome-mcp-servers under 'Community Servers', aligning with its MCP infrastructure role.
+    - >-
+      README states it 'acts as a bridge between Cursor (or any other MCP client) and multiple MCP servers' and
+      functions as both MCP server and MCP client.
+    - >-
+      Source-list context shows inclusion in awesome-mcp-servers under 'Community Servers', aligning with its MCP
+      infrastructure role.
     - Recent activity (pushed 2025-11-24) and no archive flag confirm it is an active, usable MCP tool.
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.632Z"
+    updated_at: '2026-05-06T22:12:15.632Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:12:00.532Z"
+    updated_at: '2026-07-20T15:12:00.532Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

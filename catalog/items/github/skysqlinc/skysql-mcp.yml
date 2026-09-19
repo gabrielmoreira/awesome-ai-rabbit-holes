@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__skysqlinc__skysql-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: skysqlinc/skysql-mcp
         extracted_url: https://github.com/skysqlinc/skysql-mcp
-        surrounding_text: "- [skysqlinc/skysql-mcp](https://github.com/skysqlinc/skysql-mcp) 🎖️ ☁️ - Serverless MariaDB Cloud DB MCP server. Tools to launch, delete, execute SQL and work with DB level AI agents for accurate text-2-sql and conversations."
+        surrounding_text: >-
+          - [skysqlinc/skysql-mcp](https://github.com/skysqlinc/skysql-mcp) 🎖️ ☁️ - Serverless MariaDB Cloud DB MCP
+          server. Tools to launch, delete, execute SQL and work with DB level AI agents for accurate text-2-sql and
+          conversations.
         confidence: high
 metadata:
   github:
@@ -30,19 +33,25 @@ metadata:
     archived: false
     full_name: skysqlinc/skysql-mcp
     html_url: https://github.com/skysqlinc/skysql-mcp
-    created_at: "2025-04-04T22:43:45Z"
-    pushed_at: "2026-04-23T23:15:20Z"
+    created_at: '2025-04-04T22:43:45Z'
+    pushed_at: '2026-04-23T23:15:20Z'
     description: SkySQL MCP server and client repository.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:58.987Z"
+    last_checked_at: '2026-07-20T16:42:58.987Z'
     readme:
-      fetched_at: "2026-07-20T16:42:58.987Z"
+      fetched_at: '2026-07-20T16:42:58.987Z'
       bytes: 2480
 insights:
-  summary: An MCP server and client that lets AI agents and IDEs manage SkySQL MariaDB cloud instances, run SQL queries, and handle database credentials.
-  why_it_matters: It gives coding assistants direct, structured access to SkySQL database lifecycle operations without requiring manual cloud console hopping.
-  mental_damage: Yet another database adapter that lets your AI agent provision cloud infra at 2 a.m. while you are asleep, because apparently 'human in the loop' is merely a suggestion now.
+  summary: >-
+    An MCP server and client that lets AI agents and IDEs manage SkySQL MariaDB cloud instances, run SQL queries, and
+    handle database credentials.
+  why_it_matters: >-
+    It gives coding assistants direct, structured access to SkySQL database lifecycle operations without requiring
+    manual cloud console hopping.
+  mental_damage: >-
+    Yet another database adapter that lets your AI agent provision cloud infra at 2 a.m. while you are asleep, because
+    apparently 'human in the loop' is merely a suggestion now.
   tags:
     - mcp
     - database
@@ -52,35 +61,40 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product is an MCP server for SkySQL/MariaDB cloud, which fits cleanly as domain-specific MCP infrastructure rather than a generic framework or extension.
+  reason: >-
+    The product is an MCP server for SkySQL/MariaDB cloud, which fits cleanly as domain-specific MCP infrastructure
+    rather than a generic framework or extension.
   evidence:
-    - "Repo description states explicitly: 'SkySQL MCP server and client repository.'"
-    - README describes launching an MCP server to manage SkySQL instances and execute SQL from IDEs like Cursor and Windsurf.
+    - 'Repo description states explicitly: ''SkySQL MCP server and client repository.'''
+    - >-
+      README describes launching an MCP server to manage SkySQL instances and execute SQL from IDEs like Cursor and
+      Windsurf.
     - Listed in awesome-mcp-servers under Databases, confirming its identity as an MCP server implementation.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.648Z"
+    updated_at: '2026-05-06T22:12:15.648Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:58.987Z"
+    updated_at: '2026-07-20T16:42:58.987Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

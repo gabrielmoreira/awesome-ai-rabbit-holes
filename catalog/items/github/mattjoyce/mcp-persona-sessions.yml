@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mattjoyce__mcp-persona-sessions__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: mattjoyce/mcp-persona-sessions
         extracted_url: https://github.com/mattjoyce/mcp-persona-sessions
-        surrounding_text: "- [mattjoyce/mcp-persona-sessions](https://github.com/mattjoyce/mcp-persona-sessions) 🐍 🏠 - Enable AI assistants to conduct structured, persona-driven sessions including interview preparation, personal reflection, and coaching conversations. Built-in timer management and performance evaluation tools."
+        surrounding_text: >-
+          - [mattjoyce/mcp-persona-sessions](https://github.com/mattjoyce/mcp-persona-sessions) 🐍 🏠 - Enable AI
+          assistants to conduct structured, persona-driven sessions including interview preparation, personal
+          reflection, and coaching conversations. Built-in timer management and performance evaluation tools.
         confidence: high
 metadata:
   github:
@@ -30,19 +33,27 @@ metadata:
     archived: false
     full_name: mattjoyce/mcp-persona-sessions
     html_url: https://github.com/mattjoyce/mcp-persona-sessions
-    created_at: "2025-06-01T04:18:43Z"
-    pushed_at: "2026-03-02T06:52:43Z"
-    description: "MCP server for persona-driven AI sessions: practice interviews, conduct guided reflection, and role-play conversations with realistic personas"
+    created_at: '2025-06-01T04:18:43Z'
+    pushed_at: '2026-03-02T06:52:43Z'
+    description: >-
+      MCP server for persona-driven AI sessions: practice interviews, conduct guided reflection, and role-play
+      conversations with realistic personas
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:16:57.887Z"
+    last_checked_at: '2026-08-03T05:16:57.887Z'
     readme:
-      fetched_at: "2026-08-03T05:16:57.887Z"
+      fetched_at: '2026-08-03T05:16:57.887Z'
       bytes: 6389
 insights:
-  summary: MCP server that enables AI assistants to conduct structured, persona-driven sessions for interview practice, personal reflection, and guided conversations.
-  why_it_matters: Developers can use it to prepare for technical interviews or reflect on work through role-playing with AI personas, turning abstract soft-skill prep into repeatable, tool-assisted practice.
-  mental_damage: Another reminder that your AI can now coach you through the emotional labor of being a developer, because the code was the easy part.
+  summary: >-
+    MCP server that enables AI assistants to conduct structured, persona-driven sessions for interview practice,
+    personal reflection, and guided conversations.
+  why_it_matters: >-
+    Developers can use it to prepare for technical interviews or reflect on work through role-playing with AI personas,
+    turning abstract soft-skill prep into repeatable, tool-assisted practice.
+  mental_damage: >-
+    Another reminder that your AI can now coach you through the emotional labor of being a developer, because the code
+    was the easy part.
   tags:
     - mcp
     - persona
@@ -52,31 +63,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is an MCP server first and foremost, providing persona-driven session tools through the Model Context Protocol, making MCP its core identity rather than an extension or agent.
+  reason: >-
+    It is an MCP server first and foremost, providing persona-driven session tools through the Model Context Protocol,
+    making MCP its core identity rather than an extension or agent.
   evidence:
-    - "Repo description: 'MCP server for persona-driven AI sessions'"
-    - "README: 'A Model Context Protocol (MCP) server that enables AI assistants to conduct structured, persona-driven sessions'"
+    - 'Repo description: ''MCP server for persona-driven AI sessions'''
+    - >-
+      README: 'A Model Context Protocol (MCP) server that enables AI assistants to conduct structured, persona-driven
+      sessions'
     - Usage requires MCP client configuration (e.g., Claude Desktop)
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.629Z"
+    updated_at: '2026-05-06T22:12:15.629Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:57.887Z"
+    updated_at: '2026-08-03T05:16:57.887Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:19:09.995Z"
+    updated_at: '2026-07-21T16:19:09.995Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,14 +105,20 @@ processing:
       input_hash: sha256:a51efd7ec9ef8fd8829a90578449314a82158ce4c2da5f6da89038b1d588ee1c
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: It is an MCP server first and foremost, providing persona-driven session tools through the Model Context Protocol, making MCP its core identity rather than an extension or agent.
+      decision_reason: >-
+        It is an MCP server first and foremost, providing persona-driven session tools through the Model Context
+        Protocol, making MCP its core identity rather than an extension or agent.
       decision_evidence:
-        - "Repo description: 'MCP server for persona-driven AI sessions'"
-        - "README: 'A Model Context Protocol (MCP) server that enables AI assistants to conduct structured, persona-driven sessions'"
+        - 'Repo description: ''MCP server for persona-driven AI sessions'''
+        - >-
+          README: 'A Model Context Protocol (MCP) server that enables AI assistants to conduct structured,
+          persona-driven sessions'
         - Usage requires MCP client configuration (e.g., Claude Desktop)
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server providing core functionality via the MCP protocol, not merely an add-on that augments another assistant with host integrations.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server providing core functionality via the MCP
+        protocol, not merely an add-on that augments another assistant with host integrations.
       review_reason: null
       review_resume_lifecycle: null

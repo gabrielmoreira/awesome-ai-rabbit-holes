@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__victoriametrics__mcp-victorialogs__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: VictoriaMetrics-Community/mcp-victorialogs
         extracted_url: https://github.com/victoriametrics-community/mcp-victorialogs
-        surrounding_text: "- [VictoriaMetrics-Community/mcp-victorialogs](https://github.com/VictoriaMetrics-Community/mcp-victorialogs) 🎖️ 🏎️ 🏠 - Provides comprehensive integration with your [VictoriaLogs instance APIs](https://docs.victoriametrics.com/victorialogs/querying/#http-api) and [documentation](https://docs.victoriametrics.com/victorialogs/) for working with logs, investigating and debugging tasks related to your VictoriaLogs instances."
+        surrounding_text: >-
+          - [VictoriaMetrics-Community/mcp-victorialogs](https://github.com/VictoriaMetrics-Community/mcp-victorialogs)
+          🎖️ 🏎️ 🏠 - Provides comprehensive integration with your [VictoriaLogs instance
+          APIs](https://docs.victoriametrics.com/victorialogs/querying/#http-api) and
+          [documentation](https://docs.victoriametrics.com/victorialogs/) for working with logs, investigating and
+          debugging tasks related to your VictoriaLogs instances.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: VictoriaMetrics/mcp-victorialogs
     html_url: https://github.com/VictoriaMetrics/mcp-victorialogs
-    created_at: "2025-05-14T20:04:37Z"
-    pushed_at: "2026-07-15T17:23:22Z"
+    created_at: '2025-05-14T20:04:37Z'
+    pushed_at: '2026-07-15T17:23:22Z'
     description: The implementation of Model Context Protocol (MCP) server for VictoriaLogs.
     homepage: https://victoriametrics.com/
     topics:
@@ -43,14 +48,18 @@ metadata:
       - observability
       - victorialogs
       - victoriametrics
-    last_checked_at: "2026-07-21T15:21:04.850Z"
+    last_checked_at: '2026-07-21T15:21:04.850Z'
     readme:
-      fetched_at: "2026-07-21T15:21:04.850Z"
+      fetched_at: '2026-07-21T15:21:04.850Z'
       bytes: 22742
 insights:
-  summary: MCP server for VictoriaLogs providing read-only access to logs and observability data via the Model Context Protocol.
+  summary: >-
+    MCP server for VictoriaLogs providing read-only access to logs and observability data via the Model Context
+    Protocol.
   why_it_matters: Lets developers query logs and explore observability data from AI assistants using standardized MCP tooling.
-  mental_damage: Another MCP server to add to the growing list of 'just plug this into Claude and suddenly you can grep logs' integrations.
+  mental_damage: >-
+    Another MCP server to add to the growing list of 'just plug this into Claude and suddenly you can grep logs'
+    integrations.
   tags:
     - mcp
     - observability
@@ -59,31 +68,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server implementation for a specific observability system, making MCP its core identity rather than a compatibility feature.
+  reason: >-
+    The product is an MCP server implementation for a specific observability system, making MCP its core identity rather
+    than a compatibility feature.
   evidence:
-    - "Repo description: 'The implementation of Model Context Protocol (MCP) server for VictoriaLogs'"
-    - "README: 'This provides access to your VictoriaLogs instance and seamless integration with VictoriaLogs APIs'"
-    - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Databases"
+    - 'Repo description: ''The implementation of Model Context Protocol (MCP) server for VictoriaLogs'''
+    - 'README: ''This provides access to your VictoriaLogs instance and seamless integration with VictoriaLogs APIs'''
+    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Databases'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.654Z"
+    updated_at: '2026-05-06T22:12:15.654Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:04.850Z"
+    updated_at: '2026-07-21T15:21:04.850Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:24:56.411Z"
+    updated_at: '2026-05-12T15:24:56.411Z'
     cause: null
     next_retry_at: null
     attempts: 1

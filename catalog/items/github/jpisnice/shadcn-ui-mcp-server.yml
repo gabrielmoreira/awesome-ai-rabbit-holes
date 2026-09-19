@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jpisnice__shadcn-ui-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Jpisnice/shadcn-ui-mcp-server
         extracted_url: https://github.com/jpisnice/shadcn-ui-mcp-server
-        surrounding_text: "- [Jpisnice/shadcn-ui-mcp-server](https://github.com/Jpisnice/shadcn-ui-mcp-server) 📇 🏠 - MCP server that gives AI assistants seamless access to shadcn/ui v4 components, blocks, demos, and metadata."
+        surrounding_text: >-
+          - [Jpisnice/shadcn-ui-mcp-server](https://github.com/Jpisnice/shadcn-ui-mcp-server) 📇 🏠 - MCP server that
+          gives AI assistants seamless access to shadcn/ui v4 components, blocks, demos, and metadata.
         confidence: high
 metadata:
   github:
@@ -30,10 +32,12 @@ metadata:
     archived: false
     full_name: Jpisnice/shadcn-ui-mcp-server
     html_url: https://github.com/Jpisnice/shadcn-ui-mcp-server
-    created_at: "2025-04-07T13:10:12Z"
-    pushed_at: "2026-05-16T13:09:07Z"
-    description: A mcp server to allow LLMS gain context about shadcn ui component structure,usage and installation,compaitable with react,svelte 5,vue & React Native
-    homepage: ""
+    created_at: '2025-04-07T13:10:12Z'
+    pushed_at: '2026-05-16T13:09:07Z'
+    description: >-
+      A mcp server to allow LLMS gain context about shadcn ui component structure,usage and installation,compaitable
+      with react,svelte 5,vue & React Native
+    homepage: ''
     topics:
       - ai
       - expo
@@ -54,14 +58,20 @@ metadata:
       - vue
       - vuejs
       - webdev
-    last_checked_at: "2026-07-30T05:05:52.660Z"
+    last_checked_at: '2026-07-30T05:05:52.660Z'
     readme:
-      fetched_at: "2026-07-30T05:05:52.660Z"
+      fetched_at: '2026-07-30T05:05:52.660Z'
       bytes: 10659
 insights:
-  summary: An MCP server that provides AI assistants with access to shadcn/ui v4 components, blocks, demos, and metadata across React, Svelte, Vue, and React Native.
-  why_it_matters: Developers can now query and integrate shadcn/ui components directly into their AI-powered workflows without manual lookup or copy-pasting.
-  mental_damage: Finally, your AI can stop pretending it remembers the exact syntax for that one shadcn component you used once in a prototype.
+  summary: >-
+    An MCP server that provides AI assistants with access to shadcn/ui v4 components, blocks, demos, and metadata across
+    React, Svelte, Vue, and React Native.
+  why_it_matters: >-
+    Developers can now query and integrate shadcn/ui components directly into their AI-powered workflows without manual
+    lookup or copy-pasting.
+  mental_damage: >-
+    Finally, your AI can stop pretending it remembers the exact syntax for that one shadcn component you used once in a
+    prototype.
   tags:
     - mcp
     - shadcn-ui
@@ -71,31 +81,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose primary identity is providing domain-specific context (shadcn/ui components) to AI assistants via the Model Context Protocol.
+  reason: >-
+    This is an MCP-first server whose primary identity is providing domain-specific context (shadcn/ui components) to AI
+    assistants via the Model Context Protocol.
   evidence:
     - Repo description explicitly states it is an MCP server for shadcn/ui
     - README highlights MCP as the core integration mechanism with multi-framework support
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (2762) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.623Z"
+    updated_at: '2026-05-06T22:12:15.623Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:52.660Z"
+    updated_at: '2026-07-30T05:05:52.660Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:11:25.740Z"
+    updated_at: '2026-07-21T16:11:25.740Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -108,7 +121,9 @@ processing:
       input_hash: sha256:02b9bb5fef3216e3433bd7dc35e23e45b902dd637cfb39f19cc12cf9a6b84185
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server whose primary identity is providing domain-specific context (shadcn/ui components) to AI assistants via the Model Context Protocol.
+      decision_reason: >-
+        This is an MCP-first server whose primary identity is providing domain-specific context (shadcn/ui components)
+        to AI assistants via the Model Context Protocol.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for shadcn/ui
         - README highlights MCP as the core integration mechanism with multi-framework support
@@ -116,6 +131,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server providing domain-specific context, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server providing
+        domain-specific context, not merely an extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

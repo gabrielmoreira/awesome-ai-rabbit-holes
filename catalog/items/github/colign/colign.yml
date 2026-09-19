@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__colign__colign__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -19,7 +19,10 @@ provenance:
           - Development Frameworks
         anchor_text: colign
         extracted_url: https://github.com/colign/colign
-        surrounding_text: "- [colign](https://github.com/colign/colign) ![](https://img.shields.io/github/stars/colign/colign.svg) - Collaborative spec-driven development platform for teams to discuss, write, review, and implement specs with AI."
+        surrounding_text: >-
+          - [colign](https://github.com/colign/colign) ![](https://img.shields.io/github/stars/colign/colign.svg) -
+          Collaborative spec-driven development platform for teams to discuss, write, review, and implement specs with
+          AI.
         confidence: high
 metadata:
   github:
@@ -29,9 +32,11 @@ metadata:
     archived: false
     full_name: colign/colign
     html_url: https://github.com/colign/colign
-    created_at: "2026-03-19T07:44:09Z"
-    pushed_at: "2026-05-02T00:58:05Z"
-    description: AI-powered spec writing & team alignment platform — Spec-Driven Development for teams using Claude Code, Cursor, and other AI tools
+    created_at: '2026-03-19T07:44:09Z'
+    pushed_at: '2026-05-02T00:58:05Z'
+    description: >-
+      AI-powered spec writing & team alignment platform — Spec-Driven Development for teams using Claude Code, Cursor,
+      and other AI tools
     homepage: https://colign.co
     topics:
       - ai
@@ -53,14 +58,20 @@ metadata:
       - spec-writing
       - team-collaboration
       - workflow
-    last_checked_at: "2026-09-07T04:13:49.992Z"
+    last_checked_at: '2026-09-07T04:13:49.992Z'
     readme:
-      fetched_at: "2026-09-07T04:13:49.992Z"
+      fetched_at: '2026-09-07T04:13:49.992Z'
       bytes: 7228
 insights:
-  summary: An open-source platform for collaborative spec writing and team alignment before handing implementation to AI coding agents.
-  why_it_matters: It targets the upstream bottleneck where teams fail to agree on what to build before AI generates code, making structured specs the controlling artifact.
-  mental_damage: We automated code generation only to discover the real bottleneck was getting humans to agree on acceptance criteria, so now there is a kanban board for that.
+  summary: >-
+    An open-source platform for collaborative spec writing and team alignment before handing implementation to AI coding
+    agents.
+  why_it_matters: >-
+    It targets the upstream bottleneck where teams fail to agree on what to build before AI generates code, making
+    structured specs the controlling artifact.
+  mental_damage: >-
+    We automated code generation only to discover the real bottleneck was getting humans to agree on acceptance
+    criteria, so now there is a kanban board for that.
   tags:
     - spec-driven-development
     - ai-collaboration
@@ -70,31 +81,36 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product is explicitly built around a spec-first workflow where structured proposals and project memory drive AI implementation, fitting the spec-driven-development category precisely.
+  reason: >-
+    The product is explicitly built around a spec-first workflow where structured proposals and project memory drive AI
+    implementation, fitting the spec-driven-development category precisely.
   evidence:
     - Repo description brands it as an 'AI-powered spec writing & team alignment platform — Spec-Driven Development'.
-    - README centers on a two-layer spec architecture (Project Memory + Structured Proposal) with a Draft → Design → Review → Ready workflow before any AI implementation.
+    - >-
+      README centers on a two-layer spec architecture (Project Memory + Structured Proposal) with a Draft → Design →
+      Review → Ready workflow before any AI implementation.
     - Listed in awesome-spec-driven-development under Development Frameworks.
 placement:
-  primary_category: spec-driven-development
-  section: Spec-First Environments
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Spec-First & Plan-Execute
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:49.992Z"
+    updated_at: '2026-09-07T04:13:49.992Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:46:04.721Z"
+    updated_at: '2026-07-21T15:46:04.721Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -107,14 +123,23 @@ processing:
       input_hash: sha256:41939abf171bc3327fd641f8ea97349581439667154f79112b62ddf780b830ab
       proposed_primary_category: spec-driven-development
       disagreement: false
-      decision_reason: The product is explicitly built around a spec-first workflow where structured proposals and project memory drive AI implementation, fitting the spec-driven-development category precisely.
+      decision_reason: >-
+        The product is explicitly built around a spec-first workflow where structured proposals and project memory drive
+        AI implementation, fitting the spec-driven-development category precisely.
       decision_evidence:
-        - Repo description brands it as an 'AI-powered spec writing & team alignment platform — Spec-Driven Development'.
-        - README centers on a two-layer spec architecture (Project Memory + Structured Proposal) with a Draft → Design → Review → Ready workflow before any AI implementation.
+        - >-
+          Repo description brands it as an 'AI-powered spec writing & team alignment platform — Spec-Driven
+          Development'.
+        - >-
+          README centers on a two-layer spec architecture (Project Memory + Structured Proposal) with a Draft → Design →
+          Review → Ready workflow before any AI implementation.
         - Listed in awesome-spec-driven-development under Development Frameworks.
       category_candidates:
         - spec-driven-development
         - ai-dev-extensions
-      contrastive_reason: Choose spec-driven-development over ai-dev-extensions because the MCP server is merely an adapter for external AI tools to read and write specs, while the core product identity is a standalone team-facing spec platform and workflow environment.
+      contrastive_reason: >-
+        Choose spec-driven-development over ai-dev-extensions because the MCP server is merely an adapter for external
+        AI tools to read and write specs, while the core product identity is a standalone team-facing spec platform and
+        workflow environment.
       review_reason: null
       review_resume_lifecycle: null

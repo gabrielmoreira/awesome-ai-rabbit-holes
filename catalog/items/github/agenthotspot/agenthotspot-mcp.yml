@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agenthotspot__agenthotspot-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: AgentHotspot
         extracted_url: https://github.com/agenthotspot/agenthotspot-mcp
-        surrounding_text: "- [AgentHotspot](https://github.com/AgentHotspot/agenthotspot-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Search, integrate and monetize MCP connectors on the AgentHotspot MCP marketplace"
+        surrounding_text: >-
+          - [AgentHotspot](https://github.com/AgentHotspot/agenthotspot-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Search, integrate and
+          monetize MCP connectors on the AgentHotspot MCP marketplace
         confidence: high
 metadata:
   github:
@@ -30,18 +32,22 @@ metadata:
     archived: false
     full_name: agenthotspot/agenthotspot-mcp
     html_url: https://github.com/agenthotspot/agenthotspot-mcp
-    created_at: "2026-01-15T03:46:25Z"
-    pushed_at: "2026-01-21T14:12:57Z"
+    created_at: '2026-01-15T03:46:25Z'
+    pushed_at: '2026-01-21T14:12:57Z'
     description: 🔍 MCP server to search 6,000+ AI agent MCP connectors from AgentHotspot.com Marketplace
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:32.317Z"
+    last_checked_at: '2026-09-17T04:13:32.317Z'
     readme:
-      fetched_at: "2026-09-17T04:13:32.317Z"
+      fetched_at: '2026-09-17T04:13:32.317Z'
       bytes: 5381
 insights:
-  summary: An MCP server that allows AI agents to search and discover over 6,000 MCP connectors from the AgentHotspot marketplace.
-  why_it_matters: It provides a centralized discovery mechanism for agents to expand their capabilities via the Model Context Protocol.
+  summary: >-
+    An MCP server that allows AI agents to search and discover over 6,000 MCP connectors from the AgentHotspot
+    marketplace.
+  why_it_matters: >-
+    It provides a centralized discovery mechanism for agents to expand their capabilities via the Model Context
+    Protocol.
   mental_damage: Because searching for a tool to find more tools is the most honest abstraction of the current AI ecosystem.
   tags:
     - mcp
@@ -58,6 +64,7 @@ curation:
     - Product identity is built entirely around the Model Context Protocol
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Registries & Discovery
 lifecycle:
   status: incubating
@@ -65,17 +72,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.599Z"
+    updated_at: '2026-05-06T22:12:15.599Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:32.317Z"
+    updated_at: '2026-09-17T04:13:32.317Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:01:26.824Z"
+    updated_at: '2026-07-20T16:01:26.824Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -96,6 +103,8 @@ processing:
       category_candidates:
         - mcp
         - skills
-      contrastive_reason: Choose mcp over skills because the tool is a protocol-specific registry/search interface rather than a bundle of reusable executable skill packs.
+      contrastive_reason: >-
+        Choose mcp over skills because the tool is a protocol-specific registry/search interface rather than a bundle of
+        reusable executable skill packs.
       review_reason: null
       review_resume_lifecycle: null

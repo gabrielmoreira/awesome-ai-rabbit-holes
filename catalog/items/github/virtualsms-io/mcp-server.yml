@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__virtualsms-io__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,15 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: virtualsms-io/mcp-server
         extracted_url: https://github.com/virtualsms-io/mcp-server
-        surrounding_text: "- [virtualsms-io/mcp-server](https://github.com/virtualsms-io/mcp-server) [![virtualsms-io/mcp-server](https://glama.ai/mcp/servers/virtualsms-io/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/virtualsms-io/mcp-server) 📇 ☁️ - Receive SMS verification codes with AI agents. Get virtual phone numbers for WhatsApp, Telegram, Google, and 500+ services. Own modem infrastructure across 200+ countries with real-time WebSocket delivery. 12 tools for number discovery, purchase, and code extraction."
+        surrounding_text: >-
+          - [virtualsms-io/mcp-server](https://github.com/virtualsms-io/mcp-server)
+          [![virtualsms-io/mcp-server](https://glama.ai/mcp/servers/virtualsms-io/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/virtualsms-io/mcp-server)
+          📇 ☁️ - Receive SMS verification codes with AI agents. Get virtual phone numbers for WhatsApp, Telegram,
+          Google, and 500+ services. Own modem infrastructure across 200+ countries with real-time WebSocket delivery.
+          12 tools for number discovery, purchase, and code extraction.
         confidence: high
     - id: discovery__github__virtualsms-io__mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-09-17T04:13:23.413Z"
+      discovered_at: '2026-09-17T04:13:23.413Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -36,7 +41,11 @@ provenance:
           - 💬 Communication
         anchor_text: virtualsms-io/mcp-server
         extracted_url: https://github.com/virtualsms-io/mcp-server
-        surrounding_text: "-   **[virtualsms-io/mcp-server](https://github.com/virtualsms-io/mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/virtualsms-io/mcp-server?style=social)](https://github.com/virtualsms-io/mcp-server): Get real physical-SIM virtual phone numbers and receive SMS/OTP codes across 145+ countries and 700+ services. 12 MCP tools for number discovery, purchase, cancellation, and code extraction."
+        surrounding_text: >-
+          -   **[virtualsms-io/mcp-server](https://github.com/virtualsms-io/mcp-server)** [![GitHub
+          stars](https://img.shields.io/github/stars/virtualsms-io/mcp-server?style=social)](https://github.com/virtualsms-io/mcp-server):
+          Get real physical-SIM virtual phone numbers and receive SMS/OTP codes across 145+ countries and 700+ services.
+          12 MCP tools for number discovery, purchase, cancellation, and code extraction.
         confidence: high
 metadata:
   github:
@@ -46,9 +55,12 @@ metadata:
     archived: false
     full_name: virtualsms-io/mcp-server
     html_url: https://github.com/virtualsms-io/mcp-server
-    created_at: "2026-03-05T06:50:16Z"
-    pushed_at: "2026-07-19T07:07:45Z"
-    description: "MCP server for account verification: SMS verification, number rentals and matching-country proxies on carrier-issued mobile numbers. 40 tools, 2500+ services, 145+ countries. Works with Claude, Cursor, Codex, Windsurf, Cline, Zed, OpenClaw, Hermes and Continue."
+    created_at: '2026-03-05T06:50:16Z'
+    pushed_at: '2026-07-19T07:07:45Z'
+    description: >-
+      MCP server for account verification: SMS verification, number rentals and matching-country proxies on
+      carrier-issued mobile numbers. 40 tools, 2500+ services, 145+ countries. Works with Claude, Cursor, Codex,
+      Windsurf, Cline, Zed, OpenClaw, Hermes and Continue.
     homepage: https://virtualsms.io/mcp
     topics:
       - ai-agent
@@ -71,14 +83,18 @@ metadata:
       - virtual-phone-number
       - windsurf
       - zed
-    last_checked_at: "2026-07-21T15:21:06.327Z"
+    last_checked_at: '2026-07-21T15:21:06.327Z'
     readme:
-      fetched_at: "2026-07-21T15:21:06.327Z"
+      fetched_at: '2026-07-21T15:21:06.327Z'
       bytes: 31953
 insights:
   summary: MCP server providing real SIM-based phone numbers for SMS verification to AI agents via the Model Context Protocol.
-  why_it_matters: Enables AI agents to programmatically receive real OTP codes for account verification where VoIP numbers are blocked.
-  mental_damage: Lets your AI agent jump through the same annoying SMS hoops as a human, but now you pay for the privilege of automating the misery.
+  why_it_matters: >-
+    Enables AI agents to programmatically receive real OTP codes for account verification where VoIP numbers are
+    blocked.
+  mental_damage: >-
+    Lets your AI agent jump through the same annoying SMS hoops as a human, but now you pay for the privilege of
+    automating the misery.
   tags:
     - mcp
     - sms-verification
@@ -86,31 +102,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose primary identity is providing SMS verification capabilities via the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
+  reason: >-
+    This is an MCP-first server whose primary identity is providing SMS verification capabilities via the Model Context
+    Protocol, making it a clear fit for MCP Servers & Tooling.
   evidence:
-    - "Repo description: 'SMS verification MCP server — real SIM phone numbers across 145+ countries and 2000+ services for AI agents'"
-    - "README: 'Built on the Model Context Protocol' and 'One install, 18 tools, works with every major MCP client'"
-    - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Communication"
+    - >-
+      Repo description: 'SMS verification MCP server — real SIM phone numbers across 145+ countries and 2000+ services
+      for AI agents'
+    - 'README: ''Built on the Model Context Protocol'' and ''One install, 18 tools, works with every major MCP client'''
+    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Communication'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-17T04:13:23.415Z"
+    updated_at: '2026-09-17T04:13:23.415Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:06.327Z"
+    updated_at: '2026-07-21T15:21:06.327Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-14T05:27:28.414Z"
+    updated_at: '2026-05-14T05:27:28.414Z'
     cause: null
     next_retry_at: null
     attempts: 2

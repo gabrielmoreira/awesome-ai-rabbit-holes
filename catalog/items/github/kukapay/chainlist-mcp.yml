@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__chainlist-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/chainlist-mcp
         extracted_url: https://github.com/kukapay/chainlist-mcp
-        surrounding_text: "- [kukapay/chainlist-mcp](https://github.com/kukapay/chainlist-mcp) 📇 ☁️ -  An MCP server that gives AI agents fast access to verified EVM chain information, including RPC URLs, chain IDs, explorers, and native tokens."
+        surrounding_text: >-
+          - [kukapay/chainlist-mcp](https://github.com/kukapay/chainlist-mcp) 📇 ☁️ -  An MCP server that gives AI
+          agents fast access to verified EVM chain information, including RPC URLs, chain IDs, explorers, and native
+          tokens.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,24 @@ metadata:
     archived: false
     full_name: kukapay/chainlist-mcp
     html_url: https://github.com/kukapay/chainlist-mcp
-    created_at: "2025-05-31T22:18:10Z"
-    pushed_at: "2025-05-31T22:18:26Z"
-    description: An MCP server that gives AI agents fast access to verified EVM chain information, including RPC URLs, chain IDs, explorers, and native tokens.
+    created_at: '2025-05-31T22:18:10Z'
+    pushed_at: '2025-05-31T22:18:26Z'
+    description: >-
+      An MCP server that gives AI agents fast access to verified EVM chain information, including RPC URLs, chain IDs,
+      explorers, and native tokens.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:59.200Z"
+    last_checked_at: '2026-07-30T05:05:59.200Z'
     readme:
-      fetched_at: "2026-07-30T05:05:59.200Z"
+      fetched_at: '2026-07-30T05:05:59.200Z'
       bytes: 4507
 insights:
-  summary: An MCP server that provides AI agents with fast access to verified EVM chain information, including RPC URLs, chain IDs, explorers, and native tokens.
-  why_it_matters: Developers building blockchain-aware AI agents can quickly retrieve and integrate verified EVM chain data without manual API calls or data scraping.
+  summary: >-
+    An MCP server that provides AI agents with fast access to verified EVM chain information, including RPC URLs, chain
+    IDs, explorers, and native tokens.
+  why_it_matters: >-
+    Developers building blockchain-aware AI agents can quickly retrieve and integrate verified EVM chain data without
+    manual API calls or data scraping.
   mental_damage: Now your AI agent can argue about gas fees with the same authority as a Twitter thread.
   tags:
     - mcp
@@ -59,24 +68,25 @@ curation:
     - Project is actively maintained (created and pushed in May 2025, not archived)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:59.200Z"
+    updated_at: '2026-07-30T05:05:59.200Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:38.056Z"
+    updated_at: '2026-07-21T16:13:38.056Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -91,12 +101,16 @@ processing:
       disagreement: false
       decision_reason: The product is explicitly an MCP server whose primary identity is providing EVM chain data via the MCP protocol.
       decision_evidence:
-        - Repo description states it is 'An MCP server that gives AI agents fast access to verified EVM chain information'
+        - >-
+          Repo description states it is 'An MCP server that gives AI agents fast access to verified EVM chain
+          information'
         - README details MCP tools (`getChainById`, `getChainsByKeyword`) and installation as an MCP server
         - Project is actively maintained (created and pushed in May 2025, not archived)
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

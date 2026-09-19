@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hhhuang__cag__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,10 @@ provenance:
           - 知识库 RAG
         anchor_text: CAG
         extracted_url: https://github.com/hhhuang/cag
-        surrounding_text: "31. [CAG](https://github.com/hhhuang/CAG): CAG leverages the extended context windows of modern large language models (LLMs) by preloading all relevant resources into the model’s context and caching its runtime parameters."
+        surrounding_text: >-
+          31. [CAG](https://github.com/hhhuang/CAG): CAG leverages the extended context windows of modern large language
+          models (LLMs) by preloading all relevant resources into the model’s context and caching its runtime
+          parameters.
         confidence: high
 metadata:
   github:
@@ -29,22 +32,28 @@ metadata:
     archived: false
     full_name: hhhuang/CAG
     html_url: https://github.com/hhhuang/CAG
-    created_at: "2024-12-11T05:43:57Z"
-    pushed_at: "2025-05-26T21:00:42Z"
-    description: "Cache-Augmented Generation: A Simple, Efficient Alternative to RAG"
-    homepage: ""
+    created_at: '2024-12-11T05:43:57Z'
+    pushed_at: '2025-05-26T21:00:42Z'
+    description: 'Cache-Augmented Generation: A Simple, Efficient Alternative to RAG'
+    homepage: ''
     topics:
       - cag
       - llm
       - rag
-    last_checked_at: "2026-07-30T05:05:36.940Z"
+    last_checked_at: '2026-07-30T05:05:36.940Z'
     readme:
-      fetched_at: "2026-07-30T05:05:36.940Z"
+      fetched_at: '2026-07-30T05:05:36.940Z'
       bytes: 7834
 insights:
-  summary: Cache-Augmented Generation (CAG) is a retrieval-free alternative to RAG that preloads knowledge into a model's context and caches runtime parameters for faster, more reliable inference.
-  why_it_matters: It offers developers a simpler, lower-latency approach to augmenting LLMs with external knowledge by eliminating real-time retrieval steps while maintaining context relevance.
-  mental_damage: Finally, a way to avoid the existential dread of watching your RAG pipeline spin up another vector search just to answer a simple question.
+  summary: >-
+    Cache-Augmented Generation (CAG) is a retrieval-free alternative to RAG that preloads knowledge into a model's
+    context and caches runtime parameters for faster, more reliable inference.
+  why_it_matters: >-
+    It offers developers a simpler, lower-latency approach to augmenting LLMs with external knowledge by eliminating
+    real-time retrieval steps while maintaining context relevance.
+  mental_damage: >-
+    Finally, a way to avoid the existential dread of watching your RAG pipeline spin up another vector search just to
+    answer a simple question.
   tags:
     - cag
     - rag-alternative
@@ -53,31 +62,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core novelty is a context-augmentation technique (CAG) that replaces retrieval with preloaded context and KV-cache, fitting the Prompt & Context Engineering category.
+  reason: >-
+    The core novelty is a context-augmentation technique (CAG) that replaces retrieval with preloaded context and
+    KV-cache, fitting the Prompt & Context Engineering category.
   evidence:
     - Repo description explicitly positions CAG as a 'Simple, Efficient Alternative to RAG'
     - README details a retrieval-free paradigm leveraging extended context windows and cached runtime parameters
     - Source-list context places it under '知识库 RAG' (Knowledge Base RAG) in a curated LLM resources list
 placement:
-  primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  primary_category: memory-and-context
+  section: Retrieval & Fresh Docs
 lifecycle:
   status: promotion_candidate
   reason: Stars (1485) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.618Z"
+    updated_at: '2026-05-06T22:12:15.618Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:36.940Z"
+    updated_at: '2026-07-30T05:05:36.940Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:05:30.060Z"
+    updated_at: '2026-07-21T16:05:30.060Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -90,7 +101,9 @@ processing:
       input_hash: sha256:71cc0061e6284e5861dbed41455b7e2b95b1d88d7f14a751bf303906805a0ff6
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: The core novelty is a context-augmentation technique (CAG) that replaces retrieval with preloaded context and KV-cache, fitting the Prompt & Context Engineering category.
+      decision_reason: >-
+        The core novelty is a context-augmentation technique (CAG) that replaces retrieval with preloaded context and
+        KV-cache, fitting the Prompt & Context Engineering category.
       decision_evidence:
         - Repo description explicitly positions CAG as a 'Simple, Efficient Alternative to RAG'
         - README details a retrieval-free paradigm leveraging extended context windows and cached runtime parameters
@@ -98,6 +111,8 @@ processing:
       category_candidates:
         - context-engineering
         - ai-frameworks
-      contrastive_reason: Choose context-engineering over ai-frameworks because the primary value is the context-augmentation method itself, not a code-first SDK or library for building agents.
+      contrastive_reason: >-
+        Choose context-engineering over ai-frameworks because the primary value is the context-augmentation method
+        itself, not a code-first SDK or library for building agents.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__codeflash-ai__codeflash__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,7 +19,7 @@ provenance:
           - Testing and QA
         anchor_text: Codeflash
         extracted_url: https://www.codeflash.ai
-        surrounding_text: "- **[Codeflash](https://www.codeflash.ai/)** – AI-powered Python performance optimization and benchmarking."
+        surrounding_text: '- **[Codeflash](https://www.codeflash.ai/)** – AI-powered Python performance optimization and benchmarking.'
         confidence: high
 metadata:
   github:
@@ -29,19 +29,27 @@ metadata:
     archived: false
     full_name: codeflash-ai/codeflash
     html_url: https://github.com/codeflash-ai/codeflash
-    created_at: "2025-02-13T04:58:01Z"
-    pushed_at: "2026-09-03T01:14:50Z"
-    description: Coding super-intelligence to find the most optimized Python code. Use it to optimize existing codebases or new Pull requests as a GitHub Action or a VS Code Extension.
+    created_at: '2025-02-13T04:58:01Z'
+    pushed_at: '2026-09-03T01:14:50Z'
+    description: >-
+      Coding super-intelligence to find the most optimized Python code. Use it to optimize existing codebases or new
+      Pull requests as a GitHub Action or a VS Code Extension.
     homepage: https://www.codeflash.ai
     topics: []
-    last_checked_at: "2026-09-07T04:13:48.273Z"
+    last_checked_at: '2026-09-07T04:13:48.273Z'
     readme:
-      fetched_at: "2026-09-07T04:13:48.273Z"
+      fetched_at: '2026-09-07T04:13:48.273Z'
       bytes: 4560
 insights:
-  summary: A Python code optimizer that uses LLMs to generate performance improvements, validates correctness with tests, benchmarks alternatives, and opens merge-ready pull requests via CLI, GitHub Action, or VS Code Extension.
-  why_it_matters: It automates the tedious cycle of profiling, optimizing, and benchmarking Python code by delegating it to an agent that submits PRs, letting teams ship faster code without manual performance tuning.
-  mental_damage: Your linter already shamed your style; now an AI will shame your time complexity and open a pull request to prove it.
+  summary: >-
+    A Python code optimizer that uses LLMs to generate performance improvements, validates correctness with tests,
+    benchmarks alternatives, and opens merge-ready pull requests via CLI, GitHub Action, or VS Code Extension.
+  why_it_matters: >-
+    It automates the tedious cycle of profiling, optimizing, and benchmarking Python code by delegating it to an agent
+    that submits PRs, letting teams ship faster code without manual performance tuning.
+  mental_damage: >-
+    Your linter already shamed your style; now an AI will shame your time complexity and open a pull request to prove
+    it.
   tags:
     - python
     - performance
@@ -51,31 +59,36 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Codeflash is a standalone developer tool that delegates code optimization and correctness verification to an AI, fitting coding-agents under Review, Testing & Repair Agents rather than a mere IDE add-on.
+  reason: >-
+    Codeflash is a standalone developer tool that delegates code optimization and correctness verification to an AI,
+    fitting coding-agents under Review, Testing & Repair Agents rather than a mere IDE add-on.
   evidence:
     - Repo description presents it as a 'Coding super-intelligence' for optimizing Python and opening PRs.
-    - README shows it generates optimization ideas, tests correctness, benchmarks performance, and creates merge-ready pull requests as a primary workflow.
+    - >-
+      README shows it generates optimization ideas, tests correctness, benchmarks performance, and creates merge-ready
+      pull requests as a primary workflow.
     - Source list awesome-ai-coding-tools categorizes it under Testing and QA, aligning with review/repair agent work.
 placement:
   primary_category: coding-agents
-  section: Review, Testing & Repair Agents
+  secondary_categories: []
+  section: Review, Testing & Repair
 lifecycle:
   status: promotion_candidate
   reason: Stars (244) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:48.273Z"
+    updated_at: '2026-09-07T04:13:48.273Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:44:14.344Z"
+    updated_at: '2026-07-21T15:44:14.344Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,14 +101,23 @@ processing:
       input_hash: sha256:fa7d4fdce62a6eed19823f14b65ce7c5cf87e93463c3eaaaea55375ed4c8767b
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Codeflash is a standalone developer tool that delegates code optimization and correctness verification to an AI, fitting coding-agents under Review, Testing & Repair Agents rather than a mere IDE add-on.
+      decision_reason: >-
+        Codeflash is a standalone developer tool that delegates code optimization and correctness verification to an AI,
+        fitting coding-agents under Review, Testing & Repair Agents rather than a mere IDE add-on.
       decision_evidence:
         - Repo description presents it as a 'Coding super-intelligence' for optimizing Python and opening PRs.
-        - README shows it generates optimization ideas, tests correctness, benchmarks performance, and creates merge-ready pull requests as a primary workflow.
-        - Source list awesome-ai-coding-tools categorizes it under Testing and QA, aligning with review/repair agent work.
+        - >-
+          README shows it generates optimization ideas, tests correctness, benchmarks performance, and creates
+          merge-ready pull requests as a primary workflow.
+        - >-
+          Source list awesome-ai-coding-tools categorizes it under Testing and QA, aligning with review/repair agent
+          work.
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because Codeflash is a standalone optimization agent that developers invoke directly via CLI or GitHub Action to review and rewrite code, not a capability layer bolted onto another assistant or editor.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because Codeflash is a standalone optimization agent that developers
+        invoke directly via CLI or GitHub Action to review and rewrite code, not a capability layer bolted onto another
+        assistant or editor.
       review_reason: null
       review_resume_lifecycle: null

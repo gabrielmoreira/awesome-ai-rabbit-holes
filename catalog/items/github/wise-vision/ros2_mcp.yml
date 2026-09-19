@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wise-vision__ros2_mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: WiseVision/mcp_server_ros_2
         extracted_url: https://github.com/wise-vision/mcp_server_ros_2
-        surrounding_text: "- [WiseVision/mcp_server_ros_2](https://github.com/wise-vision/mcp_server_ros_2) 🐍 🤖 - MCP server for ROS2 enabling AI-driven robotics applications and services."
+        surrounding_text: >-
+          - [WiseVision/mcp_server_ros_2](https://github.com/wise-vision/mcp_server_ros_2) 🐍 🤖 - MCP server for ROS2
+          enabling AI-driven robotics applications and services.
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: wise-vision/ros2_mcp
     html_url: https://github.com/wise-vision/ros2_mcp
-    created_at: "2025-04-14T08:47:41Z"
-    pushed_at: "2026-07-16T12:21:04Z"
+    created_at: '2025-04-14T08:47:41Z'
+    pushed_at: '2026-07-16T12:21:04Z'
     description: Advanced MCP Server ROS 2 bridging AI agents straight into robotics
     homepage: https://www.wisevision.tech/
     topics:
@@ -41,13 +43,17 @@ metadata:
       - mcp-server-ros2
       - ros2
       - ros2-mcp-server
-    last_checked_at: "2026-07-21T15:21:13.862Z"
+    last_checked_at: '2026-07-21T15:21:13.862Z'
     readme:
-      fetched_at: "2026-07-21T15:21:13.862Z"
+      fetched_at: '2026-07-21T15:21:13.862Z'
       bytes: 12202
 insights:
-  summary: ROS2 MCP Server is a Python implementation of the Model Context Protocol that enables AI tooling to interact with ROS 2 nodes, topics, and services via stdio transport.
-  why_it_matters: It lets developers control robots, analyze sensor data, and debug ROS 2 systems using natural language through AI assistants, reducing manual command-line overhead.
+  summary: >-
+    ROS2 MCP Server is a Python implementation of the Model Context Protocol that enables AI tooling to interact with
+    ROS 2 nodes, topics, and services via stdio transport.
+  why_it_matters: >-
+    It lets developers control robots, analyze sensor data, and debug ROS 2 systems using natural language through AI
+    assistants, reducing manual command-line overhead.
   mental_damage: Finally, a way to yell 'make the robot stop spinning' at your AI instead of memorizing ros2 topic commands.
   tags:
     - mcp
@@ -57,31 +63,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server whose core identity is providing ROS 2 access via the Model Context Protocol, making MCP the primary product rather than an extension or agent.
+  reason: >-
+    The project is an MCP server whose core identity is providing ROS 2 access via the Model Context Protocol, making
+    MCP the primary product rather than an extension or agent.
   evidence:
-    - "Repo description: 'Advanced MCP Server ROS 2 bridging AI agents straight into robotics'"
-    - "README: 'A Python implementation of the Model Context Protocol (MCP) for ROS 2'"
+    - 'Repo description: ''Advanced MCP Server ROS 2 bridging AI agents straight into robotics'''
+    - 'README: ''A Python implementation of the Model Context Protocol (MCP) for ROS 2'''
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.655Z"
+    updated_at: '2026-05-06T22:12:15.655Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:13.862Z"
+    updated_at: '2026-07-21T15:21:13.862Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:35:32.200Z"
+    updated_at: '2026-05-12T15:35:32.200Z'
     cause: null
     next_retry_at: null
     attempts: 1

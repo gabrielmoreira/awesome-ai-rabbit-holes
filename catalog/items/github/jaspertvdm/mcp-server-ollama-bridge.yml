@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jaspertvdm__mcp-server-ollama-bridge__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: jaspertvdm/mcp-server-ollama-bridge
         extracted_url: https://github.com/jaspertvdm/mcp-server-ollama-bridge
-        surrounding_text: "- [jaspertvdm/mcp-server-ollama-bridge](https://github.com/jaspertvdm/mcp-server-ollama-bridge) 🐍 🏠 - Bridge to local Ollama LLM server. Run Llama, Mistral, Qwen and other local models through MCP."
+        surrounding_text: >-
+          - [jaspertvdm/mcp-server-ollama-bridge](https://github.com/jaspertvdm/mcp-server-ollama-bridge) 🐍 🏠 - Bridge
+          to local Ollama LLM server. Run Llama, Mistral, Qwen and other local models through MCP.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: jaspertvdm/mcp-server-ollama-bridge
     html_url: https://github.com/jaspertvdm/mcp-server-ollama-bridge
-    created_at: "2026-01-06T07:49:07Z"
-    pushed_at: "2026-06-10T06:03:25Z"
+    created_at: '2026-01-06T07:49:07Z'
+    pushed_at: '2026-06-10T06:03:25Z'
     description: MCP Server - Bridge to local Ollama LLM. Part of HumoticaOS/SymbAIon ecosystem.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:48.458Z"
+    last_checked_at: '2026-07-30T05:05:48.458Z'
     readme:
-      fetched_at: "2026-07-30T05:05:48.458Z"
+      fetched_at: '2026-07-30T05:05:48.458Z'
       bytes: 1737
 insights:
   summary: An MCP server that bridges local Ollama LLM instances to MCP clients like Claude Desktop.
-  why_it_matters: It enables developers to use locally hosted Ollama models as part of their MCP-enabled workflows without relying on cloud providers.
+  why_it_matters: >-
+    It enables developers to use locally hosted Ollama models as part of their MCP-enabled workflows without relying on
+    cloud providers.
   mental_damage: Now you can argue with your local model about why it keeps hallucinating your own codebase.
   tags:
     - mcp
@@ -52,31 +56,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: it is explicitly an MCP server bridging Ollama to MCP clients, fitting the MCP Servers & Tooling category."
+  reason: >-
+    MCP is the product identity here: it is explicitly an MCP server bridging Ollama to MCP clients, fitting the MCP
+    Servers & Tooling category.
   evidence:
     - Repo description explicitly states it is an MCP Server for Ollama
     - README shows it is used as an MCP server in Claude Desktop config
     - Source-list context lists it under MCP servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:48.458Z"
+    updated_at: '2026-07-30T05:05:48.458Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:03.584Z"
+    updated_at: '2026-07-21T16:10:03.584Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +96,9 @@ processing:
       input_hash: sha256:c3abb3cf1648e0bbf782ddae86fbd9851f14b4162110fe8415f62addf8d42482
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: it is explicitly an MCP server bridging Ollama to MCP clients, fitting the MCP Servers & Tooling category."
+      decision_reason: >-
+        MCP is the product identity here: it is explicitly an MCP server bridging Ollama to MCP clients, fitting the MCP
+        Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP Server for Ollama
         - README shows it is used as an MCP server in Claude Desktop config
@@ -97,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - local-ai
-      contrastive_reason: Choose mcp over local-ai because the product's primary identity is as an MCP server rather than a local AI runtime.
+      contrastive_reason: >-
+        Choose mcp over local-ai because the product's primary identity is as an MCP server rather than a local AI
+        runtime.
       review_reason: null
       review_resume_lifecycle: null

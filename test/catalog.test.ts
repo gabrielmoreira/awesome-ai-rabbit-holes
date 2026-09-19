@@ -2233,24 +2233,22 @@ describe("renderReadme: all category links stay visible", () => {
 });
 
 
-
-describe("Context Engineering page wording", () => {
+describe("Memory & Context page wording", () => {
   it("category description stays concise and grounded in config/categories.yml", () => {
     const yamlPath = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "config", "categories.yml");
     const yaml = fs.readFileSync(yamlPath, "utf8");
-    const m = yaml.match(/- id: context-engineering[\s\S]*?description: >([\s\S]*?)(?:\n- id:|\n*$)/);
-    expect(m, "context-engineering category not found").not.toBeNull();
+    const m = yaml.match(/- id: memory-and-context[\s\S]*?description: >\n((?:[ \t]+[^\n]*\n?)+)/);
+    expect(m, "memory-and-context category not found").not.toBeNull();
     const description = (m![1] ?? "").toLowerCase();
     expect(description).toContain("memory");
     expect(description).toContain("context");
-    expect(description).not.toMatch(/tokens?/);
   });
 
   it("renderRabbitHolePage emits the category description verbatim", () => {
     const ctx: Category = {
-      id: "context-engineering",
-      name: "Context Engineering",
-      slug: "prompting-context-engineering",
+      id: "memory-and-context",
+      name: "Memory & Context",
+      slug: "memory-and-context",
       description: "memory, retrieval, and prompt-shaping systems",
       prompt: {
         instructions: "The main job is improving what goes into the model.",
@@ -2261,7 +2259,7 @@ describe("Context Engineering page wording", () => {
       },
     };
     const item = makeItem({
-      placement: { primary_category: "context-engineering", section: null },
+      placement: { primary_category: "memory-and-context", section: null },
       lifecycle: { status: "curated" },
     });
     const page = renderRabbitHolePage(ctx, [item]);

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__1luvc0d3__metabase-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 📊 <a name="data-platforms"></a>Data Platforms
         anchor_text: 1luvc0d3/metabase-mcp
         extracted_url: https://github.com/1luvc0d3/metabase-mcp
-        surrounding_text: "- [1luvc0d3/metabase-mcp](https://github.com/1luvc0d3/metabase-mcp) [![1luvc0d3/metabase-mcp MCP server](https://glama.ai/mcp/servers/1luvc0d3/metabase-mcp/badges/score.svg)](https://glama.ai/mcp/servers/1luvc0d3/metabase-mcp) 📇 🏠 - MCP server connecting Claude to Metabase with 28 tools for natural language data analysis, dashboard management, SQL queries, and automated insights. Features SQL guardrails, rate limiting, and audit logging."
+        surrounding_text: >-
+          - [1luvc0d3/metabase-mcp](https://github.com/1luvc0d3/metabase-mcp) [![1luvc0d3/metabase-mcp MCP
+          server](https://glama.ai/mcp/servers/1luvc0d3/metabase-mcp/badges/score.svg)](https://glama.ai/mcp/servers/1luvc0d3/metabase-mcp)
+          📇 🏠 - MCP server connecting Claude to Metabase with 28 tools for natural language data analysis, dashboard
+          management, SQL queries, and automated insights. Features SQL guardrails, rate limiting, and audit logging.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: 1luvc0d3/metabase-mcp
     html_url: https://github.com/1luvc0d3/metabase-mcp
-    created_at: "2026-04-11T22:36:09Z"
-    pushed_at: "2026-08-08T00:34:51Z"
+    created_at: '2026-04-11T22:36:09Z'
+    pushed_at: '2026-08-08T00:34:51Z'
     description: MCP server connecting Claude to Metabase for natural language data analysis, dashboard management, and SQL queries
     homepage: https://www.npmjs.com/package/@ai-1luvc0d3/metabase-mcp
     topics:
@@ -43,14 +47,18 @@ metadata:
       - model-context-protocol
       - natural-language
       - sql
-    last_checked_at: "2026-09-17T04:13:25.468Z"
+    last_checked_at: '2026-09-17T04:13:25.468Z'
     readme:
-      fetched_at: "2026-09-17T04:13:25.468Z"
+      fetched_at: '2026-09-17T04:13:25.468Z'
       bytes: 21063
 insights:
   summary: A headless MCP server that connects AI agents to Metabase via API-key authentication.
-  why_it_matters: It enables autonomous agents and CI pipelines to perform data analysis and dashboard management in environments where OAuth browser flows are impossible.
-  mental_damage: Because apparently, having a dashboard is not enough; now you need an agent that can perform batch SQL operations on your behalf while you sleep.
+  why_it_matters: >-
+    It enables autonomous agents and CI pipelines to perform data analysis and dashboard management in environments
+    where OAuth browser flows are impossible.
+  mental_damage: >-
+    Because apparently, having a dashboard is not enough; now you need an agent that can perform batch SQL operations on
+    your behalf while you sleep.
   tags:
     - mcp
     - metabase
@@ -60,31 +68,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's primary identity is a specialized MCP server designed to bridge a specific data platform with LLM clients.
+  reason: >-
+    The tool's primary identity is a specialized MCP server designed to bridge a specific data platform with LLM
+    clients.
   evidence:
     - README describes it as a 'headless, AI-augmented MCP server for Metabase'
     - Provides specialized MCP tools for batch execution and workflow pipelines
     - Solves specific authentication and capability gaps in the official Metabase MCP
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.598Z"
+    updated_at: '2026-05-06T22:12:15.598Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:25.468Z"
+    updated_at: '2026-09-17T04:13:25.468Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:48:33.168Z"
+    updated_at: '2026-07-20T15:48:33.168Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -97,7 +108,9 @@ processing:
       input_hash: sha256:3017507d5dabdb2064a16e946c5cb305f18ebad9ab117271c36f22fba9731796
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The tool's primary identity is a specialized MCP server designed to bridge a specific data platform with LLM clients.
+      decision_reason: >-
+        The tool's primary identity is a specialized MCP server designed to bridge a specific data platform with LLM
+        clients.
       decision_evidence:
         - README describes it as a 'headless, AI-augmented MCP server for Metabase'
         - Provides specialized MCP tools for batch execution and workflow pipelines
@@ -105,6 +118,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is providing a protocol-compliant server interface rather than acting as an integration layer for an existing editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is providing a protocol-compliant server
+        interface rather than acting as an integration layer for an existing editor.
       review_reason: null
       review_resume_lifecycle: null

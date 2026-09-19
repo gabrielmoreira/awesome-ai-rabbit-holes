@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__akashgit__remote-factory__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-18T05:26:15.344Z"
+      discovered_at: '2026-05-18T05:26:15.344Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,11 @@ provenance:
           - Orchestrators & autonomous loops
         anchor_text: The Factory
         extracted_url: https://github.com/akashgit/remote-factory
-        surrounding_text: "- **[The Factory](https://github.com/akashgit/remote-factory)** `⭐ 24` — Self-evolving meta-harness for autonomous software dev and research; turns any codebase into an auto-research project, auto-discovers eval dimensions, generates scoring harness, and runs keep/revert experiment loops with monotonic-improvement guards. Multi-contributor. MIT."
+        surrounding_text: >-
+          - **[The Factory](https://github.com/akashgit/remote-factory)** `⭐ 24` — Self-evolving meta-harness for
+          autonomous software dev and research; turns any codebase into an auto-research project, auto-discovers eval
+          dimensions, generates scoring harness, and runs keep/revert experiment loops with monotonic-improvement
+          guards. Multi-contributor. MIT.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: akashgit/remote-factory
     html_url: https://github.com/akashgit/remote-factory
-    created_at: "2026-04-11T21:17:39Z"
-    pushed_at: "2026-09-16T23:45:32Z"
+    created_at: '2026-04-11T21:17:39Z'
+    pushed_at: '2026-09-16T23:45:32Z'
     description: Domain-agnostic multi-agent software design and evolution harness
     homepage: https://akashgit.github.io/remote-factory/
     topics:
@@ -40,14 +44,18 @@ metadata:
       - claude-code
       - code-generation
       - openai-codex
-    last_checked_at: "2026-09-17T04:13:37.310Z"
+    last_checked_at: '2026-09-17T04:13:37.310Z'
     readme:
-      fetched_at: "2026-09-17T04:13:37.310Z"
+      fetched_at: '2026-09-17T04:13:37.310Z'
       bytes: 21495
 insights:
   summary: A terminal-native, multi-agent harness for autonomous software design, building, and iterative evolution.
-  why_it_matters: It delegates entire build-test-improve loops to a local, stateful ensemble of specialist agents that research, plan, implement, and verify against specs or existing codebases.
-  mental_damage: You are now the sole human in an org chart where a CEO agent delegates your backlog to eight specialists who do not attend standup.
+  why_it_matters: >-
+    It delegates entire build-test-improve loops to a local, stateful ensemble of specialist agents that research, plan,
+    implement, and verify against specs or existing codebases.
+  mental_damage: >-
+    You are now the sole human in an org chart where a CEO agent delegates your backlog to eight specialists who do not
+    attend standup.
   tags:
     - multi-agent
     - cli
@@ -57,31 +65,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The developer-facing experience is a terminal-native delegate for repo-level coding work—invoked via CLI to build, test, and improve projects—even though it internally orchestrates multiple specialist agents.
+  reason: >-
+    The developer-facing experience is a terminal-native delegate for repo-level coding work—invoked via CLI to build,
+    test, and improve projects—even though it internally orchestrates multiple specialist agents.
   evidence:
     - Repo description positions it as a 'domain-agnostic multi-agent software design and evolution harness'.
-    - README centers on CLI commands (`uv run factory ceo ...`) that autonomously build from ideas, specs, or existing repos and run an iterative observe-hypothesize-build-review loop.
-    - Active within the last month (pushed 2026-05-25) and listed in awesome-cli-coding-agents under terminal-native harnesses.
+    - >-
+      README centers on CLI commands (`uv run factory ceo ...`) that autonomously build from ideas, specs, or existing
+      repos and run an iterative observe-hypothesize-build-review loop.
+    - >-
+      Active within the last month (pushed 2026-05-25) and listed in awesome-cli-coding-agents under terminal-native
+      harnesses.
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-18T05:26:15.345Z"
+    updated_at: '2026-05-18T05:26:15.345Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:37.310Z"
+    updated_at: '2026-09-17T04:13:37.310Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-25T05:37:38.303Z"
+    updated_at: '2026-05-25T05:37:38.303Z'
     cause: null
     next_retry_at: null
     attempts: 3

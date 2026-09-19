@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__uniswap-poolspy-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/uniswap-poolspy-mcp
         extracted_url: https://github.com/kukapay/uniswap-poolspy-mcp
-        surrounding_text: "- [kukapay/uniswap-poolspy-mcp](https://github.com/kukapay/uniswap-poolspy-mcp) 🐍 ☁️ -  An MCP server that tracks newly created liquidity pools on Uniswap across multiple blockchains."
+        surrounding_text: >-
+          - [kukapay/uniswap-poolspy-mcp](https://github.com/kukapay/uniswap-poolspy-mcp) 🐍 ☁️ -  An MCP server that
+          tracks newly created liquidity pools on Uniswap across multiple blockchains.
         confidence: high
     - id: discovery__github__kukapay__uniswap-poolspy-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - 💰 Finance & Fintech
         anchor_text: kukapay/uniswap-poolspy-mcp
         extracted_url: https://github.com/kukapay/uniswap-poolspy-mcp
-        surrounding_text: "-   **[kukapay/uniswap-poolspy-mcp](https://github.com/kukapay/uniswap-poolspy-mcp)** [![GitHub stars](https://img.shields.io/github/stars/kukapay/uniswap-poolspy-mcp?style=social)](https://github.com/kukapay/uniswap-poolspy-mcp): Tracks newly created liquidity pools on Uniswap."
+        surrounding_text: >-
+          -   **[kukapay/uniswap-poolspy-mcp](https://github.com/kukapay/uniswap-poolspy-mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/kukapay/uniswap-poolspy-mcp?style=social)](https://github.com/kukapay/uniswap-poolspy-mcp):
+          Tracks newly created liquidity pools on Uniswap.
         confidence: high
 metadata:
   github:
@@ -45,18 +50,20 @@ metadata:
     archived: false
     full_name: kukapay/uniswap-poolspy-mcp
     html_url: https://github.com/kukapay/uniswap-poolspy-mcp
-    created_at: "2025-03-18T23:14:43Z"
-    pushed_at: "2025-03-27T23:06:25Z"
+    created_at: '2025-03-18T23:14:43Z'
+    pushed_at: '2025-03-27T23:06:25Z'
     description: An MCP server that tracks newly created liquidity pools on Uniswap across nine blockchain networks.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:06:01.188Z"
+    last_checked_at: '2026-07-30T05:06:01.188Z'
     readme:
-      fetched_at: "2026-07-30T05:06:01.188Z"
+      fetched_at: '2026-07-30T05:06:01.188Z'
       bytes: 3531
 insights:
   summary: An MCP server that tracks newly created Uniswap liquidity pools across nine blockchain networks in real-time.
-  why_it_matters: DeFi developers and analysts can query new pool creations with customizable filters, sorted by metrics like volume or TVL, directly from MCP-compatible environments.
+  why_it_matters: >-
+    DeFi developers and analysts can query new pool creations with customizable filters, sorted by metrics like volume
+    or TVL, directly from MCP-compatible environments.
   mental_damage: Now you can ask your AI assistant about memecoin pools while pretending to work on your actual codebase.
   tags:
     - mcp
@@ -67,31 +74,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific (DeFi/Uniswap) data access."
+  reason: 'MCP is the product identity: this is a dedicated MCP server providing domain-specific (DeFi/Uniswap) data access.'
   evidence:
     - Repo description explicitly states it is an MCP server
     - README details MCP integration (Claude Desktop, MCP Inspector)
     - Listed in awesome-mcp-list under Finance & Fintech
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.589Z"
+    updated_at: '2026-05-06T22:12:15.589Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:01.188Z"
+    updated_at: '2026-07-30T05:06:01.188Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:14:14.295Z"
+    updated_at: '2026-07-21T16:14:14.295Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,7 +112,9 @@ processing:
       input_hash: sha256:617c5feee0cca95636be0ad8989f89b2e1717cbb479474a7c7b0f61b801283b2
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific (DeFi/Uniswap) data access."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server providing domain-specific (DeFi/Uniswap) data
+        access.
       decision_evidence:
         - Repo description explicitly states it is an MCP server
         - README details MCP integration (Claude Desktop, MCP Inspector)
@@ -112,6 +122,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

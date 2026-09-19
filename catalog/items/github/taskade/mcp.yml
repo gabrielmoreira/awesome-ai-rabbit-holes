@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__taskade__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,10 +19,12 @@ provenance:
           - Official Servers
         anchor_text: Taskade
         extracted_url: https://github.com/taskade/mcp
-        surrounding_text: "- **[Taskade](https://github.com/taskade/mcp)** – Connect to the [Taskade platform](https://www.taskade.com/) via MCP. Access tasks, projects, workflows, and AI agents in real-time through a unified workspace and API."
+        surrounding_text: >-
+          - **[Taskade](https://github.com/taskade/mcp)** – Connect to the [Taskade platform](https://www.taskade.com/)
+          via MCP. Access tasks, projects, workflows, and AI agents in real-time through a unified workspace and API.
         confidence: high
     - id: discovery__github__taskade__mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -32,9 +34,13 @@ provenance:
         mode: parsed
         section_path:
           - 💬 Communication
-        anchor_text: "@taskade/mcp"
+        anchor_text: '@taskade/mcp'
         extracted_url: https://github.com/taskade/mcp
-        surrounding_text: "-   **[@taskade/mcp](https://github.com/taskade/mcp)** [![GitHub stars](https://img.shields.io/github/stars/taskade/mcp?style=social)](https://github.com/taskade/mcp): Official Taskade MCP server with 50+ tools for managing workspaces, projects, tasks, custom AI agents, and workflow automations. Includes OpenAPI-to-MCP codegen."
+        surrounding_text: >-
+          -   **[@taskade/mcp](https://github.com/taskade/mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/taskade/mcp?style=social)](https://github.com/taskade/mcp):
+          Official Taskade MCP server with 50+ tools for managing workspaces, projects, tasks, custom AI agents, and
+          workflow automations. Includes OpenAPI-to-MCP codegen.
         confidence: high
 metadata:
   github:
@@ -44,9 +50,11 @@ metadata:
     archived: false
     full_name: taskade/mcp
     html_url: https://github.com/taskade/mcp
-    created_at: "2025-05-26T01:57:12Z"
-    pushed_at: "2026-06-28T14:55:15Z"
-    description: 🤖 Taskade MCP · Official MCP server and OpenAPI to MCP codegen. Build AI agent tools from any OpenAPI API and connect to Claude, Cursor, and more.
+    created_at: '2025-05-26T01:57:12Z'
+    pushed_at: '2026-06-28T14:55:15Z'
+    description: >-
+      🤖 Taskade MCP · Official MCP server and OpenAPI to MCP codegen. Build AI agent tools from any OpenAPI API and
+      connect to Claude, Cursor, and more.
     homepage: https://taskade.com/blog/mcp
     topics:
       - ai
@@ -69,14 +77,20 @@ metadata:
       - workflow
       - workflow-automation
       - workflows
-    last_checked_at: "2026-07-21T15:20:40.056Z"
+    last_checked_at: '2026-07-21T15:20:40.056Z'
     readme:
-      fetched_at: "2026-07-21T15:20:40.056Z"
+      fetched_at: '2026-07-21T15:20:40.056Z'
       bytes: 20989
 insights:
-  summary: The official Taskade MCP server and OpenAPI-to-MCP code generator, providing 50+ tools to connect AI assistants like Claude and Cursor to Taskade workspaces for managing tasks, projects, agents, and automations.
-  why_it_matters: Developers can manage entire Taskade workspaces—including AI agents and project automations—directly from their coding assistant via a standardized MCP interface.
-  mental_damage: Another day, another MCP server, because apparently we've decided that the best way to manage a task list is to ask a large language model to negotiate with a Node.js process via SSE.
+  summary: >-
+    The official Taskade MCP server and OpenAPI-to-MCP code generator, providing 50+ tools to connect AI assistants like
+    Claude and Cursor to Taskade workspaces for managing tasks, projects, agents, and automations.
+  why_it_matters: >-
+    Developers can manage entire Taskade workspaces—including AI agents and project automations—directly from their
+    coding assistant via a standardized MCP interface.
+  mental_damage: >-
+    Another day, another MCP server, because apparently we've decided that the best way to manage a task list is to ask
+    a large language model to negotiate with a Node.js process via SSE.
   tags:
     - mcp
     - taskade
@@ -86,35 +100,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server for Taskade, fitting cleanly into the MCP Servers & Tooling category with domain-specific tools.
+  reason: >-
+    The product's primary identity is an MCP server for Taskade, fitting cleanly into the MCP Servers & Tooling category
+    with domain-specific tools.
   evidence:
-    - "Repo description explicitly states: 'Official MCP server and OpenAPI to MCP codegen'"
+    - 'Repo description explicitly states: ''Official MCP server and OpenAPI to MCP codegen'''
     - README lists 50+ MCP tools for workspaces, projects, tasks, and AI agents
     - Created in May 2025 and actively pushed as of April 2026, with inclusion in awesome-mcp-servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: promotion_candidate
   reason: Stars (154) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.594Z"
+    updated_at: '2026-05-06T22:12:15.594Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:40.056Z"
+    updated_at: '2026-07-21T15:20:40.056Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jarvisassistantux__loopsense__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: jarvisassistantux/loopsense
         extracted_url: https://github.com/jarvisassistantux/loopsense
-        surrounding_text: "- [jarvisassistantux/loopsense](https://github.com/jarvisassistantux/loopsense) [![jarvisassistantux/loopsense MCP server](https://glama.ai/mcp/servers/jarvisassistantux/loopsense/badges/score.svg)](https://glama.ai/mcp/servers/jarvisassistantux/loopsense) 📇 🏠 - MCP server that closes the feedback loop for AI coding agents — CI monitoring, process watching, file changes, HTTP polling."
+        surrounding_text: >-
+          - [jarvisassistantux/loopsense](https://github.com/jarvisassistantux/loopsense) [![jarvisassistantux/loopsense
+          MCP
+          server](https://glama.ai/mcp/servers/jarvisassistantux/loopsense/badges/score.svg)](https://glama.ai/mcp/servers/jarvisassistantux/loopsense)
+          📇 🏠 - MCP server that closes the feedback loop for AI coding agents — CI monitoring, process watching, file
+          changes, HTTP polling.
         confidence: high
 metadata:
   github:
@@ -30,10 +35,12 @@ metadata:
     archived: false
     full_name: jarvisassistantux/loopsense
     html_url: https://github.com/jarvisassistantux/loopsense
-    created_at: "2026-03-23T02:48:04Z"
-    pushed_at: "2026-03-24T00:38:59Z"
-    description: "LoopSense is an open-source MCP server that closes the feedback loop for AI coding agents — giving them real-time visibility into CI results, deployments, test outcomes, and file system changes. "
-    homepage: ""
+    created_at: '2026-03-23T02:48:04Z'
+    pushed_at: '2026-03-24T00:38:59Z'
+    description: >-
+      LoopSense is an open-source MCP server that closes the feedback loop for AI coding agents — giving them real-time
+      visibility into CI results, deployments, test outcomes, and file system changes. 
+    homepage: ''
     topics:
       - ai-agent
       - ci-cd
@@ -42,13 +49,17 @@ metadata:
       - github-actions
       - mcp
       - mcp-server
-    last_checked_at: "2026-07-30T05:05:48.075Z"
+    last_checked_at: '2026-07-30T05:05:48.075Z'
     readme:
-      fetched_at: "2026-07-30T05:05:48.075Z"
+      fetched_at: '2026-07-30T05:05:48.075Z'
       bytes: 4065
 insights:
-  summary: LoopSense is an open-source MCP server that provides real-time feedback to AI coding agents by monitoring CI results, deployments, test outcomes, and file system changes.
-  why_it_matters: It closes the visibility gap for coding agents by surfacing downstream effects of their actions, enabling smarter follow-up decisions.
+  summary: >-
+    LoopSense is an open-source MCP server that provides real-time feedback to AI coding agents by monitoring CI
+    results, deployments, test outcomes, and file system changes.
+  why_it_matters: >-
+    It closes the visibility gap for coding agents by surfacing downstream effects of their actions, enabling smarter
+    follow-up decisions.
   mental_damage: Finally, your AI agent can stop pretending it knows what happened after it pressed 'deploy'.
   tags:
     - mcp-server
@@ -59,31 +70,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: it is explicitly an MCP server providing domain-specific tooling for developer workflows."
+  reason: >-
+    MCP is the product identity: it is explicitly an MCP server providing domain-specific tooling for developer
+    workflows.
   evidence:
     - Repo description explicitly states it is an MCP server
     - README details MCP configuration, tools, and resources
     - Listed in awesome-mcp-servers under Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:48.075Z"
+    updated_at: '2026-07-30T05:05:48.075Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:09:57.600Z"
+    updated_at: '2026-07-21T16:09:57.600Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,7 +110,9 @@ processing:
       input_hash: sha256:b0d4f9b07892d23d2b298ddaa2e416272f2ad0992a4192748aa84f76c8402a8a
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: it is explicitly an MCP server providing domain-specific tooling for developer workflows."
+      decision_reason: >-
+        MCP is the product identity: it is explicitly an MCP server providing domain-specific tooling for developer
+        workflows.
       decision_evidence:
         - Repo description explicitly states it is an MCP server
         - README details MCP configuration, tools, and resources
@@ -104,6 +120,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not merely an extension for another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

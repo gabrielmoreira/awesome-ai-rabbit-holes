@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__abi__screenshot-to-code__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,7 +19,9 @@ provenance:
           - App Builders
         anchor_text: Screenshot-to-Code
         extracted_url: https://github.com/abi/screenshot-to-code
-        surrounding_text: "- **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** – Convert screenshots and designs into clean HTML/React/Vue code using AI."
+        surrounding_text: >-
+          - **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** – Convert screenshots and designs into
+          clean HTML/React/Vue code using AI.
         confidence: high
 metadata:
   github:
@@ -29,19 +31,25 @@ metadata:
     archived: false
     full_name: abi/screenshot-to-code
     html_url: https://github.com/abi/screenshot-to-code
-    created_at: "2023-11-14T17:53:32Z"
-    pushed_at: "2026-09-09T17:27:34Z"
+    created_at: '2023-11-14T17:53:32Z'
+    pushed_at: '2026-09-09T17:27:34Z'
     description: Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)
     homepage: https://screenshottocode.com
     topics: []
-    last_checked_at: "2026-09-17T04:13:28.803Z"
+    last_checked_at: '2026-09-17T04:13:28.803Z'
     readme:
-      fetched_at: "2026-09-17T04:13:28.803Z"
+      fetched_at: '2026-09-17T04:13:28.803Z'
       bytes: 7484
 insights:
-  summary: An AI-powered tool that converts screenshots, mockups, and screen recordings into functional code in various web stacks.
-  why_it_matters: It accelerates the prototyping phase by turning visual designs directly into structured HTML, Tailwind, React, or Vue code.
-  mental_damage: It makes the distance between a napkin sketch and a deployed frontend so short it might actually trigger a crisis of purpose for UI designers.
+  summary: >-
+    An AI-powered tool that converts screenshots, mockups, and screen recordings into functional code in various web
+    stacks.
+  why_it_matters: >-
+    It accelerates the prototyping phase by turning visual designs directly into structured HTML, Tailwind, React, or
+    Vue code.
+  mental_damage: >-
+    It makes the distance between a napkin sketch and a deployed frontend so short it might actually trigger a crisis of
+    purpose for UI designers.
   tags:
     - prompt-to-app
     - frontend
@@ -51,31 +59,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's core identity is generating a new application scaffold/site from a visual input rather than editing an existing codebase.
+  reason: >-
+    The tool's core identity is generating a new application scaffold/site from a visual input rather than editing an
+    existing codebase.
   evidence:
     - README describes turning screenshots and mockups into functional code
     - Supports generating multiple stacks including React, Vue, and Tailwind
     - Included in awesome-ai-coding-tools under App Builders
 placement:
   primary_category: app-builders
-  section: Prompt-to-App Builders
+  secondary_categories: []
+  section: Full App Builders
 lifecycle:
   status: promotion_candidate
   reason: Stars (72452) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.599Z"
+    updated_at: '2026-05-06T22:12:15.599Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:28.803Z"
+    updated_at: '2026-09-17T04:13:28.803Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:55:50.768Z"
+    updated_at: '2026-07-20T15:55:50.768Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -88,7 +99,9 @@ processing:
       input_hash: sha256:0658dc58a0fac4616c9e3123519f6ab1a0cc52fa7ef0a66894398bb7a58538c8
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The tool's core identity is generating a new application scaffold/site from a visual input rather than editing an existing codebase.
+      decision_reason: >-
+        The tool's core identity is generating a new application scaffold/site from a visual input rather than editing
+        an existing codebase.
       decision_evidence:
         - README describes turning screenshots and mockups into functional code
         - Supports generating multiple stacks including React, Vue, and Tailwind
@@ -96,6 +109,8 @@ processing:
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: Choose app-builders over coding-agents because the primary user experience centers on generating a new app/site from a prompt-like visual input rather than helping a developer edit an existing repo.
+      contrastive_reason: >-
+        Choose app-builders over coding-agents because the primary user experience centers on generating a new app/site
+        from a prompt-like visual input rather than helping a developer edit an existing repo.
       review_reason: null
       review_resume_lifecycle: null

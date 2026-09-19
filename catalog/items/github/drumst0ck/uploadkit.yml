@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__drumst0ck__uploadkit__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: drumst0ck/uploadkit
         extracted_url: https://github.com/drumst0ck/uploadkit
-        surrounding_text: "- [drumst0ck/uploadkit](https://github.com/drumst0ck/uploadkit) [![drumst0ck/uploadkit MCP server](https://glama.ai/mcp/servers/drumst0ck/uploadkit/badges/score.svg)](https://glama.ai/mcp/servers/drumst0ck/uploadkit) 🎖️ 📇 🏠 🍎 🪟 🐧 – Official MCP server for [UploadKit](https://uploadkit.dev). Gives AI assistants first-class knowledge of 40+ React upload components, Next.js route handler scaffolds, BYOS setup (S3/R2/GCS/B2), and full-text search across 88+ docs pages. Runs locally via `npx -y @uploadkitdev/mcp`."
+        surrounding_text: >-
+          - [drumst0ck/uploadkit](https://github.com/drumst0ck/uploadkit) [![drumst0ck/uploadkit MCP
+          server](https://glama.ai/mcp/servers/drumst0ck/uploadkit/badges/score.svg)](https://glama.ai/mcp/servers/drumst0ck/uploadkit)
+          🎖️ 📇 🏠 🍎 🪟 🐧 – Official MCP server for [UploadKit](https://uploadkit.dev). Gives AI assistants
+          first-class knowledge of 40+ React upload components, Next.js route handler scaffolds, BYOS setup
+          (S3/R2/GCS/B2), and full-text search across 88+ docs pages. Runs locally via `npx -y @uploadkitdev/mcp`.
         confidence: high
 metadata:
   github:
@@ -30,18 +35,22 @@ metadata:
     archived: false
     full_name: drumst0ck/uploadkit
     html_url: https://github.com/drumst0ck/uploadkit
-    created_at: "2026-04-09T07:14:06Z"
-    pushed_at: "2026-07-06T10:57:40Z"
+    created_at: '2026-04-09T07:14:06Z'
+    pushed_at: '2026-07-06T10:57:40Z'
     description: File uploads for developers. Done right.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:44.713Z"
+    last_checked_at: '2026-09-14T04:13:44.713Z'
     readme:
-      fetched_at: "2026-09-14T04:13:44.713Z"
+      fetched_at: '2026-09-14T04:13:44.713Z'
       bytes: 7499
 insights:
-  summary: Open-source TypeScript SDK and React components for file uploads with managed or BYOS storage, plus an MCP server for AI assistant integration.
-  why_it_matters: Simplifies file upload workflows for developers with pre-built components and storage flexibility, while offering AI assistant integration via MCP.
+  summary: >-
+    Open-source TypeScript SDK and React components for file uploads with managed or BYOS storage, plus an MCP server
+    for AI assistant integration.
+  why_it_matters: >-
+    Simplifies file upload workflows for developers with pre-built components and storage flexibility, while offering AI
+    assistant integration via MCP.
   mental_damage: Because nothing says 'modern web dev' like spending a week choosing between 40 dropzone designs.
   tags:
     - file-uploads
@@ -52,31 +61,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is a core part of the product identity (dedicated MCP server package and integration guide), not just a compatibility feature.
+  reason: >-
+    MCP is a core part of the product identity (dedicated MCP server package and integration guide), not just a
+    compatibility feature.
   evidence:
     - README explicitly highlights MCP server package (`@uploadkitdev/mcp`) and integration with AI assistants
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
     - MCP server is a first-class offering with dedicated docs and npm package
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.612Z"
+    updated_at: '2026-05-06T22:12:15.612Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:44.713Z"
+    updated_at: '2026-09-14T04:13:44.713Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:44.388Z"
+    updated_at: '2026-07-21T15:51:44.388Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +101,9 @@ processing:
       input_hash: sha256:93e7b236b7eab5705044a1a677c29da54a6dfa64eae8b172126dfe2bdd379e77
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is a core part of the product identity (dedicated MCP server package and integration guide), not just a compatibility feature.
+      decision_reason: >-
+        MCP is a core part of the product identity (dedicated MCP server package and integration guide), not just a
+        compatibility feature.
       decision_evidence:
         - README explicitly highlights MCP server package (`@uploadkitdev/mcp`) and integration with AI assistants
         - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
@@ -97,6 +111,8 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product's core identity includes a dedicated MCP server for AI assistant integration, not just a code-first SDK.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product's core identity includes a dedicated MCP server for AI
+        assistant integration, not just a code-first SDK.
       review_reason: null
       review_resume_lifecycle: null

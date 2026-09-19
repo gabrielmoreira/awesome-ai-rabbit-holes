@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__composio-community__open-claude-cowork__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-12T15:06:19.300Z"
+      discovered_at: '2026-05-12T15:06:19.300Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,12 @@ provenance:
           - Agent infrastructure
         anchor_text: open-claude-cowork
         extracted_url: https://github.com/composiohq/open-claude-cowork
-        surrounding_text: "- **[open-claude-cowork](https://github.com/ComposioHQ/open-claude-cowork)** `⭐ 4.1k` — Open-source version of Claude Cowork with 500+ SaaS app integrations."
+        surrounding_text: >-
+          - **[open-claude-cowork](https://github.com/ComposioHQ/open-claude-cowork)** `⭐ 4.1k` — Open-source version of
+          Claude Cowork with 500+ SaaS app integrations.
         confidence: high
     - id: discovery__github__composiohq__open-claude-cowork__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -36,7 +38,9 @@ provenance:
           - Agent infrastructure
         anchor_text: open-claude-cowork
         extracted_url: https://github.com/composiohq/open-claude-cowork
-        surrounding_text: "- **[open-claude-cowork](https://github.com/ComposioHQ/open-claude-cowork)** `⭐ 4.1k` — Open-source version of Claude Cowork with 500+ SaaS app integrations."
+        surrounding_text: >-
+          - **[open-claude-cowork](https://github.com/ComposioHQ/open-claude-cowork)** `⭐ 4.1k` — Open-source version of
+          Claude Cowork with 500+ SaaS app integrations.
         confidence: high
 metadata:
   github:
@@ -46,10 +50,10 @@ metadata:
     archived: false
     full_name: composio-community/open-claude-cowork
     html_url: https://github.com/composio-community/open-claude-cowork
-    created_at: "2026-01-13T03:14:23Z"
-    pushed_at: "2026-05-23T11:52:19Z"
+    created_at: '2026-01-13T03:14:23Z'
+    pushed_at: '2026-05-23T11:52:19Z'
     description: Open Source version of Claude Cowork with 500+ SaaS app integrations
-    homepage: ""
+    homepage: ''
     topics:
       - aiagents
       - anthropic
@@ -59,14 +63,20 @@ metadata:
       - eclectron-app
       - opencode
       - workflow-automation
-    last_checked_at: "2026-09-14T04:13:28.016Z"
+    last_checked_at: '2026-09-14T04:13:28.016Z'
     readme:
-      fetched_at: "2026-09-14T04:13:28.016Z"
+      fetched_at: '2026-09-14T04:13:28.016Z'
       bytes: 6684
 insights:
-  summary: Open-source desktop chat application powered by Claude Agent SDK and Composio Tool Router, offering 500+ SaaS app integrations for work automation.
-  why_it_matters: It provides developers with a unified interface to automate workflows across desktop and SaaS apps using Claude's agent capabilities and Composio's tool ecosystem.
-  mental_damage: Because nothing says 'productivity' like juggling 500 integrations while your desktop app tries to remember which Slack channel you meant to post that GitHub issue to.
+  summary: >-
+    Open-source desktop chat application powered by Claude Agent SDK and Composio Tool Router, offering 500+ SaaS app
+    integrations for work automation.
+  why_it_matters: >-
+    It provides developers with a unified interface to automate workflows across desktop and SaaS apps using Claude's
+    agent capabilities and Composio's tool ecosystem.
+  mental_damage: >-
+    Because nothing says 'productivity' like juggling 500 integrations while your desktop app tries to remember which
+    Slack channel you meant to post that GitHub issue to.
   tags:
     - claude-agent-sdk
     - workflow-automation
@@ -76,21 +86,28 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a standalone desktop assistant that directly automates work across apps, fitting the coding-agents category as a primary assistant rather than an extension or framework.
+  reason: >-
+    The product is a standalone desktop assistant that directly automates work across apps, fitting the coding-agents
+    category as a primary assistant rather than an extension or framework.
   evidence:
-    - "Repo description: 'Open Source version of Claude Cowork with 500+ SaaS app integrations'"
-    - "README: 'An open-source desktop chat application powered by Claude Agent SDK and Composio Tool Router. Automate your work end-to-end across desktop and all your work apps in one place.'"
-    - "Includes two tools: Open Claude Cowork (desktop chat) and Secure Clawdbot (messaging bot), both with 500+ integrations"
+    - 'Repo description: ''Open Source version of Claude Cowork with 500+ SaaS app integrations'''
+    - >-
+      README: 'An open-source desktop chat application powered by Claude Agent SDK and Composio Tool Router. Automate
+      your work end-to-end across desktop and all your work apps in one place.'
+    - >-
+      Includes two tools: Open Claude Cowork (desktop chat) and Secure Clawdbot (messaging bot), both with 500+
+      integrations
 placement:
-  primary_category: coding-agents
-  section: Browser/Desktop/Computer-Use Agents
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (4142) exceeded threshold (150)
 processing:
   categorize:
     status: done
-    updated_at: "2026-08-27T06:09:05.740Z"
+    updated_at: '2026-08-27T06:09:05.740Z'
     cause: null
     next_retry_at: null
     classification:
@@ -100,15 +117,23 @@ processing:
       input_hash: sha256:3577f11a07a8fe0504310e20f79d3e56cc2490bc3362ff9400d6190d7d19e314
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: The product is a standalone desktop assistant that directly automates work across apps, fitting the coding-agents category as a primary assistant rather than an extension or framework.
+      decision_reason: >-
+        The product is a standalone desktop assistant that directly automates work across apps, fitting the
+        coding-agents category as a primary assistant rather than an extension or framework.
       decision_evidence:
-        - "Repo description: 'Open Source version of Claude Cowork with 500+ SaaS app integrations'"
-        - "README: 'An open-source desktop chat application powered by Claude Agent SDK and Composio Tool Router. Automate your work end-to-end across desktop and all your work apps in one place.'"
-        - "Includes two tools: Open Claude Cowork (desktop chat) and Secure Clawdbot (messaging bot), both with 500+ integrations"
+        - 'Repo description: ''Open Source version of Claude Cowork with 500+ SaaS app integrations'''
+        - >-
+          README: 'An open-source desktop chat application powered by Claude Agent SDK and Composio Tool Router.
+          Automate your work end-to-end across desktop and all your work apps in one place.'
+        - >-
+          Includes two tools: Open Claude Cowork (desktop chat) and Secure Clawdbot (messaging bot), both with 500+
+          integrations
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because the product is a primary desktop assistant (not merely augmenting another assistant) that directly automates workflows across apps.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because the product is a primary desktop assistant (not merely
+        augmenting another assistant) that directly automates workflows across apps.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1
@@ -116,11 +141,11 @@ processing:
     category_rules_version: 6cc474a86022
   discover:
     status: done
-    updated_at: "2026-05-12T15:06:19.301Z"
+    updated_at: '2026-05-12T15:06:19.301Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:28.016Z"
+    updated_at: '2026-09-14T04:13:28.016Z'
     cause: null
     next_retry_at: null

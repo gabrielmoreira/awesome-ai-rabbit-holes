@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__biegehydra__bifrostmcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: VSCode Devtools
         extracted_url: https://github.com/biegehydra/bifrostmcp
-        surrounding_text: "- [VSCode Devtools](https://github.com/biegehydra/BifrostMCP) 📇 - Connect to VSCode ide and use semantic tools like `find_usages`"
+        surrounding_text: >-
+          - [VSCode Devtools](https://github.com/biegehydra/BifrostMCP) 📇 - Connect to VSCode ide and use semantic
+          tools like `find_usages`
         confidence: high
 metadata:
   github:
@@ -30,10 +32,10 @@ metadata:
     archived: false
     full_name: biegehydra/BifrostMCP
     html_url: https://github.com/biegehydra/BifrostMCP
-    created_at: "2025-03-06T06:12:23Z"
-    pushed_at: "2026-03-27T04:49:41Z"
+    created_at: '2025-03-06T06:12:23Z'
+    pushed_at: '2026-03-27T04:49:41Z'
     description: VSCode Extension with an MCP server that exposes semantic tools like Find Usages and Rename to LLMs
-    homepage: ""
+    homepage: ''
     topics:
       - cline
       - cursor
@@ -44,13 +46,15 @@ metadata:
       - vscode
       - vscode-extension
       - windsurf
-    last_checked_at: "2026-09-07T04:13:33.511Z"
+    last_checked_at: '2026-09-07T04:13:33.511Z'
     readme:
-      fetched_at: "2026-09-07T04:13:33.511Z"
+      fetched_at: '2026-09-07T04:13:33.511Z'
       bytes: 9829
 insights:
   summary: VSCode extension that exposes VSCode's development tools and language features to AI assistants via an MCP server.
-  why_it_matters: It bridges AI coding assistants with VSCode's semantic tools like Find Usages and Rename, enabling deeper code navigation and manipulation.
+  why_it_matters: >-
+    It bridges AI coding assistants with VSCode's semantic tools like Find Usages and Rename, enabling deeper code
+    navigation and manipulation.
   mental_damage: Now your AI can finally rename symbols in your codebase without you having to explain what a symbol is.
   tags:
     - vscode
@@ -61,31 +65,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server specifically designed to expose developer tools (VSCode language features) to LLMs, fitting the 'MCP Servers & Tooling' category's 'Domain Servers' section.
+  reason: >-
+    The product is an MCP server specifically designed to expose developer tools (VSCode language features) to LLMs,
+    fitting the 'MCP Servers & Tooling' category's 'Domain Servers' section.
   evidence:
-    - "Repo description explicitly states: 'VSCode Extension with an MCP server that exposes semantic tools... to LLMs'."
-    - README confirms it 'provides a Model Context Protocol (MCP) server that exposes VSCode's powerful development tools'.
+    - 'Repo description explicitly states: ''VSCode Extension with an MCP server that exposes semantic tools... to LLMs''.'
+    - >-
+      README confirms it 'provides a Model Context Protocol (MCP) server that exposes VSCode's powerful development
+      tools'.
     - Listed in 'awesome-mcp-servers' under 'Developer Tools', reinforcing its identity as an MCP server implementation.
 placement:
   primary_category: mcp
-  section: null
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-dev-extensions'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:33.511Z"
+    updated_at: '2026-09-07T04:13:33.511Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:25:55.292Z"
+    updated_at: '2026-07-21T15:25:55.292Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -98,7 +107,9 @@ processing:
       input_hash: sha256:c7b3de31a8d65fb869463f71eb927193936f39f84642e6dd3599d45090db02c3
       proposed_primary_category: ai-dev-extensions
       disagreement: true
-      decision_reason: The tool is an extension that augments AI assistants with VSCode's capabilities rather than being a primary coding assistant itself.
+      decision_reason: >-
+        The tool is an extension that augments AI assistants with VSCode's capabilities rather than being a primary
+        coding assistant itself.
       decision_evidence:
         - Repo description explicitly states it is a VSCode extension with an MCP server
         - README highlights integration with AI assistants (Cursor, Cline, Roo Code) via MCP
@@ -106,6 +117,8 @@ processing:
       category_candidates:
         - ai-dev-extensions
         - mcp
-      contrastive_reason: Choose ai-dev-extensions over mcp because the primary identity is a VSCode extension that augments AI assistants, not MCP infrastructure itself.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+      contrastive_reason: >-
+        Choose ai-dev-extensions over mcp because the primary identity is a VSCode extension that augments AI
+        assistants, not MCP infrastructure itself.
+      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-dev-extensions'''
       review_resume_lifecycle: null

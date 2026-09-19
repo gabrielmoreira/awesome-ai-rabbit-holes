@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__amirrezasalimi__friday__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,7 @@ provenance:
           - Friday
         anchor_text: Friday
         extracted_url: https://github.com/amirrezasalimi/friday
-        surrounding_text: "## [Friday](https://github.com/amirrezasalimi/friday/)"
+        surrounding_text: '## [Friday](https://github.com/amirrezasalimi/friday/)'
         confidence: high
 metadata:
   github:
@@ -29,18 +29,20 @@ metadata:
     archived: false
     full_name: amirrezasalimi/friday
     html_url: https://github.com/amirrezasalimi/friday
-    created_at: "2023-05-20T15:05:51Z"
-    pushed_at: "2023-05-24T22:59:04Z"
+    created_at: '2023-05-20T15:05:51Z'
+    pushed_at: '2023-05-24T22:59:04Z'
     description: Friday is a developer assistant can make whole nodejs project for you with unlimited prompts
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:43.013Z"
+    last_checked_at: '2026-09-17T04:13:43.013Z'
     readme:
-      fetched_at: "2026-09-17T04:13:43.013Z"
+      fetched_at: '2026-09-17T04:13:43.013Z'
       bytes: 3220
 insights:
   summary: Friday is a developer assistant that generates whole Node.js projects from prompts using GPT-4.
-  why_it_matters: It lets developers scaffold and generate entire applications by describing app sections as prompts, reducing manual setup time.
+  why_it_matters: >-
+    It lets developers scaffold and generate entire applications by describing app sections as prompts, reducing manual
+    setup time.
   mental_damage: Finally, a tool that turns your vague app ideas into a folder full of Node.js files you’ll have to debug anyway.
   tags:
     - prompt-to-app
@@ -52,29 +54,32 @@ curation:
   status: included
   reason: The core product turns prompts into complete Node.js applications, fitting the prompt-to-app builder category.
   evidence:
-    - "Repo description: 'Friday is a developer assistant can make whole nodejs project for you with unlimited prompts'"
-    - "README: 'Friday is a developer agent that helps you quickly create applications with AI assistance' and 'allows you to add unlimited sections, each of which is a prompt representing a specific part of your app'"
+    - 'Repo description: ''Friday is a developer assistant can make whole nodejs project for you with unlimited prompts'''
+    - >-
+      README: 'Friday is a developer agent that helps you quickly create applications with AI assistance' and 'allows
+      you to add unlimited sections, each of which is a prompt representing a specific part of your app'
     - Canonical positives for app-builders include 'Friday'
 placement:
   primary_category: app-builders
-  section: Prompt-to-App Builders
+  secondary_categories: []
+  section: Scaffolding & Boilerplate
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.602Z"
+    updated_at: '2026-05-06T22:12:15.602Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:43.013Z"
+    updated_at: '2026-09-17T04:13:43.013Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:22:39.675Z"
+    updated_at: '2026-07-21T15:22:39.675Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,12 +94,18 @@ processing:
       disagreement: false
       decision_reason: The core product turns prompts into complete Node.js applications, fitting the prompt-to-app builder category.
       decision_evidence:
-        - "Repo description: 'Friday is a developer assistant can make whole nodejs project for you with unlimited prompts'"
-        - "README: 'Friday is a developer agent that helps you quickly create applications with AI assistance' and 'allows you to add unlimited sections, each of which is a prompt representing a specific part of your app'"
+        - >-
+          Repo description: 'Friday is a developer assistant can make whole nodejs project for you with unlimited
+          prompts'
+        - >-
+          README: 'Friday is a developer agent that helps you quickly create applications with AI assistance' and
+          'allows you to add unlimited sections, each of which is a prompt representing a specific part of your app'
         - Canonical positives for app-builders include 'Friday'
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: Choose app-builders over coding-agents because the primary workflow is generating new apps from prompts rather than editing existing repos.
+      contrastive_reason: >-
+        Choose app-builders over coding-agents because the primary workflow is generating new apps from prompts rather
+        than editing existing repos.
       review_reason: null
       review_resume_lifecycle: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__iunera__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,13 @@ provenance:
           - Community Servers
         anchor_text: iunera
         extracted_url: https://iunera.com
-        surrounding_text: "- **[Druid MCP Server](https://github.com/iunera/druid-mcp-server)** - STDIO/SEE MCP Server for Apache Druid by [iunera](https://www.iunera.com) that provides extensive tools, resources, and prompts for managing and analyzing Druid clusters."
+        surrounding_text: >-
+          - **[Druid MCP Server](https://github.com/iunera/druid-mcp-server)** - STDIO/SEE MCP Server for Apache Druid
+          by [iunera](https://www.iunera.com) that provides extensive tools, resources, and prompts for managing and
+          analyzing Druid clusters.
         confidence: high
     - id: discovery__www__iunera__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,7 +36,10 @@ provenance:
           - Community Servers
         anchor_text: iunera
         extracted_url: https://www.iunera.com
-        surrounding_text: "- **[Druid MCP Server](https://github.com/iunera/druid-mcp-server)** - STDIO/SEE MCP Server for Apache Druid by [iunera](https://www.iunera.com) that provides extensive tools, resources, and prompts for managing and analyzing Druid clusters."
+        surrounding_text: >-
+          - **[Druid MCP Server](https://github.com/iunera/druid-mcp-server)** - STDIO/SEE MCP Server for Apache Druid
+          by [iunera](https://www.iunera.com) that provides extensive tools, resources, and prompts for managing and
+          analyzing Druid clusters.
         confidence: high
 metadata:
   github:
@@ -53,7 +59,9 @@ metadata:
 insights:
   summary: A Model Context Protocol (MCP) server listed in the awesome-mcp-servers directory.
   why_it_matters: Provides MCP-based tooling or capabilities for developers integrating with the Model Context Protocol ecosystem.
-  mental_damage: Another MCP server to add to your ever-growing list of things to configure before you can finally ask the model to read a file.
+  mental_damage: >-
+    Another MCP server to add to your ever-growing list of things to configure before you can finally ask the model to
+    read a file.
   tags:
     - mcp
     - server
@@ -67,14 +75,15 @@ curation:
     - No repo description or README to contradict MCP server identity
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:35:04.839Z"
+    updated_at: '2026-07-21T15:35:04.839Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -99,7 +108,7 @@ processing:
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.966Z"
+    updated_at: '2026-07-21T15:20:21.966Z'
     cause: null
     next_retry_at: null
   stars:

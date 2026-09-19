@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aliyun__alibabacloud-devops-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: AlibabaCloud DevOps MCP
         extracted_url: https://github.com/aliyun/alibabacloud-devops-mcp-server
-        surrounding_text: "- **[AlibabaCloud DevOps MCP](https://github.com/aliyun/alibabacloud-devops-mcp-server)** - Yunxiao MCP Server provides AI assistants with the ability to interact with the [Yunxiao platform](https://devops.aliyun.com)."
+        surrounding_text: >-
+          - **[AlibabaCloud DevOps MCP](https://github.com/aliyun/alibabacloud-devops-mcp-server)** - Yunxiao MCP Server
+          provides AI assistants with the ability to interact with the [Yunxiao platform](https://devops.aliyun.com).
         confidence: high
 metadata:
   github:
@@ -29,20 +31,27 @@ metadata:
     archived: false
     full_name: aliyun/alibabacloud-devops-mcp-server
     html_url: https://github.com/aliyun/alibabacloud-devops-mcp-server
-    created_at: "2025-04-25T03:05:11Z"
-    pushed_at: "2026-09-15T11:48:43Z"
-    description: Yunxiao MCP Server provides AI assistants with the ability to interact with the Yunxiao platform. It provides a set of tools that interact with Yunxiao's API, allowing AI assistants to manage Codeup repository, Project, Pipeline, Packages etc.
+    created_at: '2025-04-25T03:05:11Z'
+    pushed_at: '2026-09-15T11:48:43Z'
+    description: >-
+      Yunxiao MCP Server provides AI assistants with the ability to interact with the Yunxiao platform. It provides a
+      set of tools that interact with Yunxiao's API, allowing AI assistants to manage Codeup repository, Project,
+      Pipeline, Packages etc.
     homepage: https://devops.aliyun.com
     topics:
       - alibabacloud-devops
       - devops-mcp
-    last_checked_at: "2026-09-17T04:13:41.548Z"
+    last_checked_at: '2026-09-17T04:13:41.548Z'
     readme:
-      fetched_at: "2026-09-17T04:13:41.548Z"
+      fetched_at: '2026-09-17T04:13:41.548Z'
       bytes: 24014
 insights:
-  summary: An MCP server that enables AI assistants to interact with Alibaba Cloud's Yunxiao DevOps platform for managing repositories, projects, pipelines, and more.
-  why_it_matters: Developers using MCP-compatible assistants can now automate and integrate DevOps workflows (code repos, CI/CD, task management) directly from their AI tooling.
+  summary: >-
+    An MCP server that enables AI assistants to interact with Alibaba Cloud's Yunxiao DevOps platform for managing
+    repositories, projects, pipelines, and more.
+  why_it_matters: >-
+    Developers using MCP-compatible assistants can now automate and integrate DevOps workflows (code repos, CI/CD, task
+    management) directly from their AI tooling.
   mental_damage: Finally, a way to let your AI assistant argue with your pipeline YAML instead of you.
   tags:
     - mcp-server
@@ -53,31 +62,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server providing domain-specific DevOps tooling for the Yunxiao platform, fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is an MCP-first server providing domain-specific DevOps tooling for the Yunxiao platform, fitting the MCP
+    Servers & Tooling category.
   evidence:
     - Repo description explicitly states it is an MCP Server for Yunxiao platform interaction
     - README details MCP server configuration and tool capabilities for DevOps workflows
     - Listed in awesome-mcp-servers under Official Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (151) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.601Z"
+    updated_at: '2026-05-06T22:12:15.601Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:41.548Z"
+    updated_at: '2026-09-17T04:13:41.548Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:22:20.835Z"
+    updated_at: '2026-07-21T15:22:20.835Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -90,7 +102,9 @@ processing:
       input_hash: sha256:17e6a15b1806a1460b345f9e69839bcf4d1c0c27063ab21a61f126c268f7e1e0
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server providing domain-specific DevOps tooling for the Yunxiao platform, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is an MCP-first server providing domain-specific DevOps tooling for the Yunxiao platform, fitting the MCP
+        Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP Server for Yunxiao platform interaction
         - README details MCP server configuration and tool capabilities for DevOps workflows
@@ -98,6 +112,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is an MCP server (not just an extension) and MCP is the primary adopted protocol.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is an MCP server (not just an extension) and MCP
+        is the primary adopted protocol.
       review_reason: null
       review_resume_lifecycle: null

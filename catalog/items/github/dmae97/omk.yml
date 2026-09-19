@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dmae97__omk__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-07-13T05:12:52.223Z"
+      discovered_at: '2026-07-13T05:12:52.223Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,12 @@ provenance:
           - Orchestrators & autonomous loops
         anchor_text: OMK
         extracted_url: https://github.com/dmae97/open-multi-agent-kit
-        surrounding_text: "- **[OMK](https://github.com/dmae97/open-multi-agent-kit)** `⭐ 120` — Provider-neutral CLI control plane for coding agents: routes runtimes, scopes MCP, runs DAG workers, and verifies evidence before completion. MIT."
+        surrounding_text: >-
+          - **[OMK](https://github.com/dmae97/open-multi-agent-kit)** `⭐ 120` — Provider-neutral CLI control plane for
+          coding agents: routes runtimes, scopes MCP, runs DAG workers, and verifies evidence before completion. MIT.
         confidence: high
     - id: discovery__github__dmae97__open-multi-agent-kit__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-06-18T05:40:04.065Z"
+      discovered_at: '2026-06-18T05:40:04.065Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -36,7 +38,9 @@ provenance:
           - Orchestrators & autonomous loops
         anchor_text: OMK
         extracted_url: https://github.com/dmae97/open-multi-agent-kit
-        surrounding_text: "- **[OMK](https://github.com/dmae97/open-multi-agent-kit)** `⭐ 84` — Provider-neutral CLI control plane for coding agents: routes runtimes, scopes MCP, runs DAG workers, and verifies evidence before completion. MIT."
+        surrounding_text: >-
+          - **[OMK](https://github.com/dmae97/open-multi-agent-kit)** `⭐ 84` — Provider-neutral CLI control plane for
+          coding agents: routes runtimes, scopes MCP, runs DAG workers, and verifies evidence before completion. MIT.
         confidence: high
 metadata:
   github:
@@ -46,10 +50,12 @@ metadata:
     archived: false
     full_name: dmae97/omk
     html_url: https://github.com/dmae97/omk
-    created_at: "2026-04-30T01:41:12Z"
-    pushed_at: "2026-09-13T14:45:01Z"
-    description: Evidence-gated runner for Codex, Claude Code, OpenCode, and local coding agents. Routes tasks into scoped DAG lanes with replayable artifacts.
-    homepage: ""
+    created_at: '2026-04-30T01:41:12Z'
+    pushed_at: '2026-09-13T14:45:01Z'
+    description: >-
+      Evidence-gated runner for Codex, Claude Code, OpenCode, and local coding agents. Routes tasks into scoped DAG
+      lanes with replayable artifacts.
+    homepage: ''
     topics:
       - agent-orchestration
       - agent-runtime
@@ -71,13 +77,17 @@ metadata:
       - software-engineering
       - typescript
       - workflow-automation
-    last_checked_at: "2026-09-14T04:13:41.500Z"
+    last_checked_at: '2026-09-14T04:13:41.500Z'
     readme:
-      fetched_at: "2026-09-14T04:13:41.500Z"
+      fetched_at: '2026-09-14T04:13:41.500Z'
       bytes: 29148
 insights:
-  summary: OMK is a CLI-based multi-agent control plane that scopes, routes, verifies, and replays coding agent tasks using bounded DAGs and evidence-gated workflows.
-  why_it_matters: It addresses the reliability gap in AI coding agents by enforcing verifiable outcomes through scoped execution lanes and fresh-evidence acceptance predicates.
+  summary: >-
+    OMK is a CLI-based multi-agent control plane that scopes, routes, verifies, and replays coding agent tasks using
+    bounded DAGs and evidence-gated workflows.
+  why_it_matters: >-
+    It addresses the reliability gap in AI coding agents by enforcing verifiable outcomes through scoped execution lanes
+    and fresh-evidence acceptance predicates.
   mental_damage: Finally, a tool that treats AI coding agents like interns who need close supervision before they break production.
   tags:
     - multi-agent
@@ -88,21 +98,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: OMK functions as a multi-agent workbench and control plane focused on coordinating agents via scoped DAGs and verifiable outcomes, not as a coding assistant itself.
+  reason: >-
+    OMK functions as a multi-agent workbench and control plane focused on coordinating agents via scoped DAGs and
+    verifiable outcomes, not as a coding assistant itself.
   evidence:
     - Routes tasks into scoped DAG lanes with replayable artifacts (repo description)
     - Provider-neutral coding-agent CLI and multi-agent control plane for Codex, Claude Code, and OpenCode (README)
     - Control loop involves Scope, Route, Verify, Replay steps with durable goals and session recovery (README)
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-08-27T09:26:37.343Z"
+    updated_at: '2026-08-27T09:26:37.343Z'
     cause: null
     next_retry_at: null
     classification:
@@ -112,7 +125,9 @@ processing:
       input_hash: sha256:273eb3fa0c9255f8752a808d9c5dcdc0bb4bdeb88a8a4a0a115389858dac6613
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: OMK functions as a multi-agent workbench and control plane focused on coordinating agents via scoped DAGs and verifiable outcomes, not as a coding assistant itself.
+      decision_reason: >-
+        OMK functions as a multi-agent workbench and control plane focused on coordinating agents via scoped DAGs and
+        verifiable outcomes, not as a coding assistant itself.
       decision_evidence:
         - Routes tasks into scoped DAG lanes with replayable artifacts (repo description)
         - Provider-neutral coding-agent CLI and multi-agent control plane for Codex, Claude Code, and OpenCode (README)
@@ -120,7 +135,9 @@ processing:
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because OMK does not directly write or edit code but instead orchestrates other coding agents through a verifiable control plane.
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because OMK does not directly write or edit code but instead
+        orchestrates other coding agents through a verifiable control plane.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1
@@ -128,11 +145,11 @@ processing:
     category_rules_version: 6cc474a86022
   discover:
     status: done
-    updated_at: "2026-07-13T05:12:52.225Z"
+    updated_at: '2026-07-13T05:12:52.225Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:41.500Z"
+    updated_at: '2026-09-14T04:13:41.500Z'
     cause: null
     next_retry_at: null

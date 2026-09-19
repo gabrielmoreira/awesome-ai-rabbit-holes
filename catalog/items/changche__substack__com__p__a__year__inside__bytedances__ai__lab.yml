@@ -5,8 +5,9 @@ canonical_url: https://changche.substack.com/p/a-year-inside-bytedances-ai-lab
 identity: {}
 provenance:
   discoveries:
-    - id: discovery__changche__substack__com__p__a__year__inside__bytedances__ai__lab__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+    - id: >-
+        discovery__changche__substack__com__p__a__year__inside__bytedances__ai__lab__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -17,9 +18,9 @@ provenance:
         section_path:
           - 推荐 Suggestion
           - Podcast
-        anchor_text: "张驰: A Year Inside ByteDance's AI Lab"
+        anchor_text: '张驰: A Year Inside ByteDance''s AI Lab'
         extracted_url: https://changche.substack.com/p/a-year-inside-bytedances-ai-lab
-        surrounding_text: "- [张驰: A Year Inside ByteDance's AI Lab](https://changche.substack.com/p/a-year-inside-bytedances-ai-lab)"
+        surrounding_text: '- [张驰: A Year Inside ByteDance''s AI Lab](https://changche.substack.com/p/a-year-inside-bytedances-ai-lab)'
         confidence: high
 metadata:
   github:
@@ -38,8 +39,12 @@ metadata:
     readme: null
 insights:
   summary: A Substack publication detailing ByteDance's AI laboratory operations and research insights over a one-year period.
-  why_it_matters: Provides high-signal technical context on how a major AI lab approaches model training, agents, and infra in production.
-  mental_damage: Another long-form essay to read while your local LLM is busy hallucinating a semi-working implementation of the very research described.
+  why_it_matters: >-
+    Provides high-signal technical context on how a major AI lab approaches model training, agents, and infra in
+    production.
+  mental_damage: >-
+    Another long-form essay to read while your local LLM is busy hallucinating a semi-working implementation of the very
+    research described.
   tags:
     - insights
     - research
@@ -47,13 +52,13 @@ insights:
     - case-study
   confidence: high
 curation:
-  status: included
-  reason: It is a periodic publication/media resource providing commentary and research insights rather than a functional developer tool.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Source URL is a Substack publication
-    - Source-list context identifies it as a 'Podcast/Summary' style resource
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: newsletters-and-feeds
+  primary_category: null
+  secondary_categories: []
   section: null
 lifecycle:
   status: incubating
@@ -61,7 +66,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +75,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:28:47.528Z"
+    updated_at: '2026-07-20T15:28:47.528Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -83,13 +88,17 @@ processing:
       input_hash: sha256:af1fe640817be91d8ac5d84e2ac87c0753156752f015000f2cdadf7300af14e3
       proposed_primary_category: newsletters-and-feeds
       disagreement: false
-      decision_reason: It is a periodic publication/media resource providing commentary and research insights rather than a functional developer tool.
+      decision_reason: >-
+        It is a periodic publication/media resource providing commentary and research insights rather than a functional
+        developer tool.
       decision_evidence:
         - Source URL is a Substack publication
         - Source-list context identifies it as a 'Podcast/Summary' style resource
       category_candidates:
         - newsletters-and-feeds
         - awesome-awesomes
-      contrastive_reason: Choose newsletters-and-feeds over awesome-awesomes because the primary value is ongoing commentary and research analysis rather than a curated directory of tools.
+      contrastive_reason: >-
+        Choose newsletters-and-feeds over awesome-awesomes because the primary value is ongoing commentary and research
+        analysis rather than a curated directory of tools.
       review_reason: null
       review_resume_lifecycle: null

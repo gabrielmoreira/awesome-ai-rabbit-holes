@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__shipitandpray__mcp-compress__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🧮 <a name="data-science-tools"></a>Data Science Tools
         anchor_text: ShipItAndPray/mcp-compress
         extracted_url: https://github.com/shipitandpray/mcp-compress
-        surrounding_text: "- [ShipItAndPray/mcp-compress](https://github.com/ShipItAndPray/mcp-compress) [![ShipItAndPray/mcp-compress MCP server](https://glama.ai/mcp/servers/ShipItAndPray/mcp-compress/badges/score.svg)](https://glama.ai/mcp/servers/ShipItAndPray/mcp-compress) 📇 🏠 ☁️ 🍎 🪟 🐧 - Data compression MCP server. 7 tools for gzip, brotli, deflate, and TurboQuant quantization. Auto-selects best algorithm. 60x compression on docs. Zero dependencies."
+        surrounding_text: >-
+          - [ShipItAndPray/mcp-compress](https://github.com/ShipItAndPray/mcp-compress) [![ShipItAndPray/mcp-compress
+          MCP
+          server](https://glama.ai/mcp/servers/ShipItAndPray/mcp-compress/badges/score.svg)](https://glama.ai/mcp/servers/ShipItAndPray/mcp-compress)
+          📇 🏠 ☁️ 🍎 🪟 🐧 - Data compression MCP server. 7 tools for gzip, brotli, deflate, and TurboQuant
+          quantization. Auto-selects best algorithm. 60x compression on docs. Zero dependencies.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: ShipItAndPray/mcp-compress
     html_url: https://github.com/ShipItAndPray/mcp-compress
-    created_at: "2026-03-25T17:23:04Z"
-    pushed_at: "2026-03-25T18:36:29Z"
-    description: First MCP server for data compression. 60x compression on docs, 30x on SQL, 20x on logs. Zero dependencies. Lossless. Auto-picks best algorithm. 7 tools for any AI agent.
+    created_at: '2026-03-25T17:23:04Z'
+    pushed_at: '2026-03-25T18:36:29Z'
+    description: >-
+      First MCP server for data compression. 60x compression on docs, 30x on SQL, 20x on logs. Zero dependencies.
+      Lossless. Auto-picks best algorithm. 7 tools for any AI agent.
     homepage: https://github.com/ShipItAndPray/mcp-compress#install
     topics:
       - ai-agents
@@ -45,14 +52,20 @@ metadata:
       - mcp
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-07-20T16:42:56.043Z"
+    last_checked_at: '2026-07-20T16:42:56.043Z'
     readme:
-      fetched_at: "2026-07-20T16:42:56.043Z"
+      fetched_at: '2026-07-20T16:42:56.043Z'
       bytes: 4128
 insights:
-  summary: An MCP server that provides 7 tools for compressing, decompressing, analyzing, and storing text, JSON, CSV, and log data using algorithms like brotli, gzip, and deflate, designed to reduce context window usage for AI agents.
-  why_it_matters: It lets agents shrink large API responses, logs, and docs before they hit the context window, potentially lowering token costs and fitting more data into limited space.
-  mental_damage: We have finally reached the point where our agents need dedicated lossless compression middleware so they can pretend to read 30KB of logs without actually reading 30KB of logs.
+  summary: >-
+    An MCP server that provides 7 tools for compressing, decompressing, analyzing, and storing text, JSON, CSV, and log
+    data using algorithms like brotli, gzip, and deflate, designed to reduce context window usage for AI agents.
+  why_it_matters: >-
+    It lets agents shrink large API responses, logs, and docs before they hit the context window, potentially lowering
+    token costs and fitting more data into limited space.
+  mental_damage: >-
+    We have finally reached the point where our agents need dedicated lossless compression middleware so they can
+    pretend to read 30KB of logs without actually reading 30KB of logs.
   tags:
     - mcp
     - compression
@@ -61,35 +74,42 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product identity is an MCP server that adds compression capabilities to any MCP-compatible agent, fitting cleanly as domain-specific MCP infrastructure rather than a framework or generic extension.
+  reason: >-
+    The product identity is an MCP server that adds compression capabilities to any MCP-compatible agent, fitting
+    cleanly as domain-specific MCP infrastructure rather than a framework or generic extension.
   evidence:
     - Repo description explicitly calls it 'First MCP server for data compression' with 7 tools for any AI agent.
-    - README states it 'Speaks MCP protocol over stdio. Works with any MCP-compatible AI agent' and is listed in awesome-mcp-servers under Server Implementations.
-    - Core tools are compress, decompress, analyze, store, retrieve, list, and stats, all centered on MCP-provided data compression.
+    - >-
+      README states it 'Speaks MCP protocol over stdio. Works with any MCP-compatible AI agent' and is listed in
+      awesome-mcp-servers under Server Implementations.
+    - >-
+      Core tools are compress, decompress, analyze, store, retrieve, list, and stats, all centered on MCP-provided data
+      compression.
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Compression & Token Optimization
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.647Z"
+    updated_at: '2026-05-06T22:12:15.647Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:56.043Z"
+    updated_at: '2026-07-20T16:42:56.043Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

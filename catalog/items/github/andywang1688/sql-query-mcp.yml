@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__andywang1688__sql-query-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: andyWang1688/sql-query-mcp
         extracted_url: https://github.com/andywang1688/sql-query-mcp
-        surrounding_text: "- [andyWang1688/sql-query-mcp](https://github.com/andyWang1688/sql-query-mcp) [![andyWang1688/sql-query-mcp MCP server](https://glama.ai/mcp/servers/andyWang1688/sql-query-mcp/badges/score.svg)](https://glama.ai/mcp/servers/andyWang1688/sql-query-mcp) 🐍 🏠 - A general-purpose MCP server that lets AI work with multiple databases within clear boundaries. Supports PostgreSQL and MySQL today with schema discovery, sampling, read-only queries, and query-plan inspection."
+        surrounding_text: >-
+          - [andyWang1688/sql-query-mcp](https://github.com/andyWang1688/sql-query-mcp) [![andyWang1688/sql-query-mcp
+          MCP
+          server](https://glama.ai/mcp/servers/andyWang1688/sql-query-mcp/badges/score.svg)](https://glama.ai/mcp/servers/andyWang1688/sql-query-mcp)
+          🐍 🏠 - A general-purpose MCP server that lets AI work with multiple databases within clear boundaries.
+          Supports PostgreSQL and MySQL today with schema discovery, sampling, read-only queries, and query-plan
+          inspection.
         confidence: high
 metadata:
   github:
@@ -30,10 +36,10 @@ metadata:
     archived: false
     full_name: andyWang1688/sql-query-mcp
     html_url: https://github.com/andyWang1688/sql-query-mcp
-    created_at: "2026-03-09T03:00:43Z"
-    pushed_at: "2026-06-26T07:20:18Z"
+    created_at: '2026-03-09T03:00:43Z'
+    pushed_at: '2026-06-26T07:20:18Z'
     description: A general-purpose MCP server that lets AI work with multiple databases within clear boundaries.
-    homepage: ""
+    homepage: ''
     topics:
       - chatgpt
       - codex
@@ -43,13 +49,17 @@ metadata:
       - mysql
       - postgresql
       - sql
-    last_checked_at: "2026-09-17T04:13:44.353Z"
+    last_checked_at: '2026-09-17T04:13:44.353Z'
     readme:
-      fetched_at: "2026-09-17T04:13:44.353Z"
+      fetched_at: '2026-09-17T04:13:44.353Z'
       bytes: 10244
 insights:
-  summary: An MCP server that enables AI clients to interact with PostgreSQL and MySQL databases through a controlled, read-only interface.
-  why_it_matters: It lets developers expose database schema, samples, and query analysis to AI assistants without sharing raw connection strings or flattening engine-specific concepts.
+  summary: >-
+    An MCP server that enables AI clients to interact with PostgreSQL and MySQL databases through a controlled,
+    read-only interface.
+  why_it_matters: >-
+    It lets developers expose database schema, samples, and query analysis to AI assistants without sharing raw
+    connection strings or flattening engine-specific concepts.
   mental_damage: Finally, a way to let your AI poke at production databases without immediately regretting it.
   tags:
     - mcp-server
@@ -60,31 +70,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is as an MCP server providing database access, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product's core identity is as an MCP server providing database access, fitting the MCP Servers & Tooling
+    category.
   evidence:
     - Repo description explicitly states it is a general-purpose MCP server for databases
     - README details its role as a controlled MCP interface for database discovery and read-only queries
     - Already listed in awesome-mcp-servers under Database servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.602Z"
+    updated_at: '2026-05-06T22:12:15.602Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:44.353Z"
+    updated_at: '2026-09-17T04:13:44.353Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:23:06.011Z"
+    updated_at: '2026-07-21T15:23:06.011Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -97,7 +110,9 @@ processing:
       input_hash: sha256:6f663d100af73110576da90565fcd1d1d7c9b42d606bf7370d4595099cb883d7
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is as an MCP server providing database access, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product's core identity is as an MCP server providing database access, fitting the MCP Servers & Tooling
+        category.
       decision_evidence:
         - Repo description explicitly states it is a general-purpose MCP server for databases
         - README details its role as a controlled MCP interface for database discovery and read-only queries
@@ -105,6 +120,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

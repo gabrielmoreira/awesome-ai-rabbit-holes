@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jkiley129__steam-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: jkiley129/steam-mcp
         extracted_url: https://github.com/jkiley129/steam-mcp
-        surrounding_text: "- [jkiley129/steam-mcp](https://github.com/jkiley129/steam-mcp) [![steam-mcp MCP server](https://glama.ai/mcp/servers/jkiley129/steam-mcp/badges/score.svg)](https://glama.ai/mcp/servers/jkiley129/steam-mcp) 📇 🏠 🍎 🪟 🐧 - Connect Claude to your Steam library. Query your games, playtime, recently played, and store metadata via natural language."
+        surrounding_text: >-
+          - [jkiley129/steam-mcp](https://github.com/jkiley129/steam-mcp) [![steam-mcp MCP
+          server](https://glama.ai/mcp/servers/jkiley129/steam-mcp/badges/score.svg)](https://glama.ai/mcp/servers/jkiley129/steam-mcp)
+          📇 🏠 🍎 🪟 🐧 - Connect Claude to your Steam library. Query your games, playtime, recently played, and store
+          metadata via natural language.
         confidence: high
 metadata:
   github:
@@ -30,18 +34,20 @@ metadata:
     archived: false
     full_name: jkiley129/steam-mcp
     html_url: https://github.com/jkiley129/steam-mcp
-    created_at: "2026-03-16T16:40:18Z"
-    pushed_at: "2026-03-23T15:07:29Z"
+    created_at: '2026-03-16T16:40:18Z'
+    pushed_at: '2026-03-23T15:07:29Z'
     description: MCP server that exposes your Steam library to Claude. Ask natural-language questions about your games.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:50.881Z"
+    last_checked_at: '2026-07-30T05:05:50.881Z'
     readme:
-      fetched_at: "2026-07-30T05:05:50.881Z"
+      fetched_at: '2026-07-30T05:05:50.881Z'
       bytes: 4553
 insights:
   summary: An MCP server that exposes a user's Steam library to Claude, enabling natural-language queries about their games.
-  why_it_matters: Developers can query their Steam library data directly through Claude without manual API calls, useful for game-related workflows or personal analytics.
+  why_it_matters: >-
+    Developers can query their Steam library data directly through Claude without manual API calls, useful for
+    game-related workflows or personal analytics.
   mental_damage: Now your AI can judge your Elden Ring playtime as harshly as your friends do.
   tags:
     - mcp
@@ -52,31 +58,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server with Steam library integration as its core identity, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product is explicitly an MCP server with Steam library integration as its core identity, fitting the MCP Servers
+    & Tooling category.
   evidence:
     - Repo description states it is an MCP server for Steam library access
     - README details tools for querying Steam data via MCP protocol
     - Project is actively maintained (pushed_at 2026-03-23)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:50.881Z"
+    updated_at: '2026-07-30T05:05:50.881Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:43.278Z"
+    updated_at: '2026-07-21T16:10:43.278Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +97,9 @@ processing:
       input_hash: sha256:001fab667547a56a6a97aaffbadbcfe7498dcf9d83234a55560200b723758ac3
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server with Steam library integration as its core identity, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product is explicitly an MCP server with Steam library integration as its core identity, fitting the MCP
+        Servers & Tooling category.
       decision_evidence:
         - Repo description states it is an MCP server for Steam library access
         - README details tools for querying Steam data via MCP protocol
@@ -97,6 +107,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

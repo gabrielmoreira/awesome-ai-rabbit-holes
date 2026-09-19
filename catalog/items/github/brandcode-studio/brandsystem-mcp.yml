@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__brandcode-studio__brandsystem-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,15 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: Brand-System/brandsystem-mcp
         extracted_url: https://github.com/brand-system/brandsystem-mcp
-        surrounding_text: "- [Brand-System/brandsystem-mcp](https://github.com/Brand-System/brandsystem-mcp) [![Brand-System/brandsystem-mcp MCP server](https://glama.ai/mcp/servers/Brand-System/brandsystem-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Brand-System/brandsystem-mcp) 📇 🏠 🍎 🪟 🐧 - Make your brand machine-readable. Extract brand identity (colors, fonts, logo, voice, visual rules) from any website via static CSS + rendered-page extraction, compile into DTCG tokens, brand runtime contracts, and interaction policies. 34 tools across 4 progressive sessions. Subscribable `brand://runtime` and `brand://policy` MCP resources. Content compliance scoring (0-100), pass/fail gate, and HTML/CSS preflight. Brandcode Studio connector for hosted brand sync."
+        surrounding_text: >-
+          - [Brand-System/brandsystem-mcp](https://github.com/Brand-System/brandsystem-mcp)
+          [![Brand-System/brandsystem-mcp MCP
+          server](https://glama.ai/mcp/servers/Brand-System/brandsystem-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Brand-System/brandsystem-mcp)
+          📇 🏠 🍎 🪟 🐧 - Make your brand machine-readable. Extract brand identity (colors, fonts, logo, voice, visual
+          rules) from any website via static CSS + rendered-page extraction, compile into DTCG tokens, brand runtime
+          contracts, and interaction policies. 34 tools across 4 progressive sessions. Subscribable `brand://runtime`
+          and `brand://policy` MCP resources. Content compliance scoring (0-100), pass/fail gate, and HTML/CSS
+          preflight. Brandcode Studio connector for hosted brand sync.
         confidence: high
 metadata:
   github:
@@ -30,8 +38,8 @@ metadata:
     archived: false
     full_name: Brandcode-Studio/brandsystem-mcp
     html_url: https://github.com/Brandcode-Studio/brandsystem-mcp
-    created_at: "2026-03-22T08:01:37Z"
-    pushed_at: "2026-09-03T07:55:47Z"
+    created_at: '2026-03-22T08:01:37Z'
+    pushed_at: '2026-09-03T07:55:47Z'
     description: Use existing brand guidelines with AI. Turn websites, PDFs, and Figma into a portable .brand runtime through MCP.
     homepage: https://www.brandcode.studio/
     topics:
@@ -46,14 +54,20 @@ metadata:
       - design-tokens
       - mcp
       - model-context-protocol
-    last_checked_at: "2026-09-07T04:13:37.405Z"
+    last_checked_at: '2026-09-07T04:13:37.405Z'
     readme:
-      fetched_at: "2026-09-07T04:13:37.405Z"
+      fetched_at: '2026-09-07T04:13:37.405Z'
       bytes: 40088
 insights:
-  summary: An MCP server that extracts brand guidelines from websites, PDFs, and Figma to create a portable `.brand` runtime for AI tools.
-  why_it_matters: It solves the 'correct but generic' AI output problem by giving coding assistants direct access to structured brand context (colors, fonts, voice rules, anti-patterns) without manual prompt engineering.
-  mental_damage: Finally, a way to stop your AI from generating yet another startup that looks like it was designed by a committee of midjourney prompts.
+  summary: >-
+    An MCP server that extracts brand guidelines from websites, PDFs, and Figma to create a portable `.brand` runtime
+    for AI tools.
+  why_it_matters: >-
+    It solves the 'correct but generic' AI output problem by giving coding assistants direct access to structured brand
+    context (colors, fonts, voice rules, anti-patterns) without manual prompt engineering.
+  mental_damage: >-
+    Finally, a way to stop your AI from generating yet another startup that looks like it was designed by a committee of
+    midjourney prompts.
   tags:
     - mcp
     - brand-guidelines
@@ -63,31 +77,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server for brand context extraction and runtime generation, not merely an MCP-compatible extension."
+  reason: >-
+    MCP is the product identity: this is a dedicated MCP server for brand context extraction and runtime generation, not
+    merely an MCP-compatible extension.
   evidence:
     - Repo description explicitly states it's an MCP server for brand guidelines
     - README details MCP server setup and `.brand/` runtime generation as core functionality
     - Topics include 'mcp' and 'model-context-protocol' as primary tags
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.606Z"
+    updated_at: '2026-05-06T22:12:15.606Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:37.405Z"
+    updated_at: '2026-09-07T04:13:37.405Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:26:51.184Z"
+    updated_at: '2026-07-21T15:26:51.184Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -100,7 +117,9 @@ processing:
       input_hash: sha256:68e8452cb5b4463395e4f9eb09bf18c6cbd67e0e5f4824e58c69e3c495d09ca1
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server for brand context extraction and runtime generation, not merely an MCP-compatible extension."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server for brand context extraction and runtime generation,
+        not merely an MCP-compatible extension.
       decision_evidence:
         - Repo description explicitly states it's an MCP server for brand guidelines
         - README details MCP server setup and `.brand/` runtime generation as core functionality
@@ -108,6 +127,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product's primary identity is as an MCP server (with its own command interface and runtime artifact) rather than a general context management system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the product's primary identity is as an MCP server (with its own
+        command interface and runtime artifact) rather than a general context management system.
       review_reason: null
       review_resume_lifecycle: null

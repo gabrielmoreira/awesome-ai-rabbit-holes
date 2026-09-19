@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tawandakembo__code-collator__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -19,7 +19,9 @@ provenance:
           - Developer tools
         anchor_text: code-collator
         extracted_url: https://github.com/tawanda-kembo/code-collator
-        surrounding_text: "- [code-collator](https://github.com/tawanda-kembo/code-collator): Creates a single markdown file that describes your entire codebase to language models."
+        surrounding_text: >-
+          - [code-collator](https://github.com/tawanda-kembo/code-collator): Creates a single markdown file that
+          describes your entire codebase to language models.
         confidence: high
 metadata:
   github:
@@ -29,19 +31,25 @@ metadata:
     archived: false
     full_name: tawandakembo/code-collator
     html_url: https://github.com/tawandakembo/code-collator
-    created_at: "2024-07-26T15:26:53Z"
-    pushed_at: "2024-10-09T18:34:32Z"
+    created_at: '2024-07-26T15:26:53Z'
+    pushed_at: '2024-10-09T18:34:32Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:20:41.260Z"
+    last_checked_at: '2026-07-21T15:20:41.260Z'
     readme:
-      fetched_at: "2026-07-21T15:20:41.260Z"
+      fetched_at: '2026-07-21T15:20:41.260Z'
       bytes: 1876
 insights:
-  summary: A CLI tool that aggregates an entire codebase into a single Markdown file for easy sharing with AI assistants like ChatGPT or Claude.
-  why_it_matters: It reduces the friction of pasting code into prompts by packaging repos into a format optimized for LLM context windows.
-  mental_damage: We have now automated the tedious human task of Ctrl+A, Ctrl+C, and Ctrl+V, proving that if a workflow is painful enough, someone will write a pip install to do it for you.
+  summary: >-
+    A CLI tool that aggregates an entire codebase into a single Markdown file for easy sharing with AI assistants like
+    ChatGPT or Claude.
+  why_it_matters: >-
+    It reduces the friction of pasting code into prompts by packaging repos into a format optimized for LLM context
+    windows.
+  mental_damage: >-
+    We have now automated the tedious human task of Ctrl+A, Ctrl+C, and Ctrl+V, proving that if a workflow is painful
+    enough, someone will write a pip install to do it for you.
   tags:
     - cli
     - context-packing
@@ -49,35 +57,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This tool's core novelty is context-shaping and packaging existing code into a single artifact for model consumption, fitting the Prompt & Context Engineering category.
+  reason: >-
+    This tool's core novelty is context-shaping and packaging existing code into a single artifact for model
+    consumption, fitting the Prompt & Context Engineering category.
   evidence:
     - README states it 'collates your entire codebase into a single, organised Markdown file' for AI analysis.
     - Use case focuses on providing a 'comprehensive overview of your codebase' to tools like ChatGPT or Claude.
     - It is a CLI tool (pip install code-collator) focused on outputting a 'collated-code.md' file.
 placement:
-  primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Context & Session Management
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.650Z"
+    updated_at: '2026-05-06T22:12:15.650Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:41.260Z"
+    updated_at: '2026-07-21T15:20:41.260Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

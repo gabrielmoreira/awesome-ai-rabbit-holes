@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__massive-com__mcp_massive__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: polygon-io/mcp_polygon)
         extracted_url: https://github.com/polygon-io/mcp_polygon
-        surrounding_text: "- [polygon-io/mcp_polygon)](https://github.com/polygon-io/mcp_polygon)) 🐍 ☁️ -  An MCP server that provides access to [Polygon.io](https://polygon.io/) financial market data APIs for stocks, indices, forex, options, and more."
+        surrounding_text: >-
+          - [polygon-io/mcp_polygon)](https://github.com/polygon-io/mcp_polygon)) 🐍 ☁️ -  An MCP server that provides
+          access to [Polygon.io](https://polygon.io/) financial market data APIs for stocks, indices, forex, options,
+          and more.
         confidence: high
 metadata:
   github:
@@ -30,10 +33,10 @@ metadata:
     archived: false
     full_name: massive-com/mcp_massive
     html_url: https://github.com/massive-com/mcp_massive
-    created_at: "2025-03-19T22:05:09Z"
-    pushed_at: "2026-06-11T16:25:26Z"
+    created_at: '2025-03-19T22:05:09Z'
+    pushed_at: '2026-06-11T16:25:26Z'
     description: An MCP server for Massive.com Financial Market Data
-    homepage: ""
+    homepage: ''
     topics:
       - cryptocurrency
       - fintech
@@ -43,14 +46,18 @@ metadata:
       - mcp-server
       - options
       - stocks
-    last_checked_at: "2026-08-03T05:16:57.290Z"
+    last_checked_at: '2026-08-03T05:16:57.290Z'
     readme:
-      fetched_at: "2026-08-03T05:16:57.290Z"
+      fetched_at: '2026-08-03T05:16:57.290Z'
       bytes: 10070
 insights:
   summary: An MCP server that exposes the Massive.com financial market data API via search, call, and query tools for LLMs.
-  why_it_matters: Lets developers use natural language to access real-time and historical financial data within LLM workflows without building custom API wrappers.
-  mental_damage: Another niche MCP server promising to turn your Claude Code into a Bloomberg terminal, if only your API key weren't rate-limited by noon.
+  why_it_matters: >-
+    Lets developers use natural language to access real-time and historical financial data within LLM workflows without
+    building custom API wrappers.
+  mental_damage: >-
+    Another niche MCP server promising to turn your Claude Code into a Bloomberg terminal, if only your API key weren't
+    rate-limited by noon.
   tags:
     - mcp
     - financial-data
@@ -58,31 +65,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server whose core identity is providing financial market data through the Model Context Protocol, making it a clear fit for the MCP Servers & Tooling category.
+  reason: >-
+    The project is an MCP server whose core identity is providing financial market data through the Model Context
+    Protocol, making it a clear fit for the MCP Servers & Tooling category.
   evidence:
-    - "Repo description: 'An MCP server for Massive.com Financial Market Data'"
-    - "README: 'A Model Context Protocol (MCP) server that provides access to the full Massive.com financial data API through an LLM-friendly interface'"
-    - Provides three composable MCP tools (search_endpoints, call_api, query_data) specifically for accessing Massive.com's API
+    - 'Repo description: ''An MCP server for Massive.com Financial Market Data'''
+    - >-
+      README: 'A Model Context Protocol (MCP) server that provides access to the full Massive.com financial data API
+      through an LLM-friendly interface'
+    - >-
+      Provides three composable MCP tools (search_endpoints, call_api, query_data) specifically for accessing
+      Massive.com's API
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: promotion_candidate
   reason: Stars (325) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.628Z"
+    updated_at: '2026-05-06T22:12:15.628Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:57.290Z"
+    updated_at: '2026-08-03T05:16:57.290Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:18:53.172Z"
+    updated_at: '2026-07-21T16:18:53.172Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -95,14 +109,22 @@ processing:
       input_hash: sha256:7ce35fb69cb6f6f189983df6a6385949f709d6356c9c3584c5cf46478ef83444
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is an MCP server whose core identity is providing financial market data through the Model Context Protocol, making it a clear fit for the MCP Servers & Tooling category.
+      decision_reason: >-
+        The project is an MCP server whose core identity is providing financial market data through the Model Context
+        Protocol, making it a clear fit for the MCP Servers & Tooling category.
       decision_evidence:
-        - "Repo description: 'An MCP server for Massive.com Financial Market Data'"
-        - "README: 'A Model Context Protocol (MCP) server that provides access to the full Massive.com financial data API through an LLM-friendly interface'"
-        - Provides three composable MCP tools (search_endpoints, call_api, query_data) specifically for accessing Massive.com's API
+        - 'Repo description: ''An MCP server for Massive.com Financial Market Data'''
+        - >-
+          README: 'A Model Context Protocol (MCP) server that provides access to the full Massive.com financial data API
+          through an LLM-friendly interface'
+        - >-
+          Provides three composable MCP tools (search_endpoints, call_api, query_data) specifically for accessing
+          Massive.com's API
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's main value is being an MCP server infrastructure rather than augmenting another assistant with host capabilities.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's main value is being an MCP server infrastructure rather
+        than augmenting another assistant with host capabilities.
       review_reason: null
       review_resume_lifecycle: null

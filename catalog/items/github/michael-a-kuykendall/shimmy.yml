@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__michael-a-kuykendall__shimmy__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,10 +20,13 @@ provenance:
           - Large Model Serving
         anchor_text: Shimmy
         extracted_url: https://github.com/michael-a-kuykendall/shimmy
-        surrounding_text: "| [Shimmy](https://github.com/Michael-A-Kuykendall/shimmy)                               | Python-free Rust inference server with OpenAI API compatibility and hot model swapping                        | ![GitHub Badge](https://img.shields.io/github/stars/Michael-A-Kuykendall/shimmy.svg?style=flat-square)        |"
+        surrounding_text: >-
+          | [Shimmy](https://github.com/Michael-A-Kuykendall/shimmy)                               | Python-free Rust
+          inference server with OpenAI API compatibility and hot model swapping                        | ![GitHub
+          Badge](https://img.shields.io/github/stars/Michael-A-Kuykendall/shimmy.svg?style=flat-square)        |
         confidence: high
     - id: discovery__github__michael-a-kuykendall__shimmy__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -35,7 +38,9 @@ provenance:
           - 推理 Inference
         anchor_text: Shimmy
         extracted_url: https://github.com/michael-a-kuykendall/shimmy
-        surrounding_text: "50. [Shimmy](https://github.com/Michael-A-Kuykendall/shimmy): Python-free Rust inference server — OpenAI-API compatible. GGUF + SafeTensors, hot model swap, auto-discovery, single binary."
+        surrounding_text: >-
+          50. [Shimmy](https://github.com/Michael-A-Kuykendall/shimmy): Python-free Rust inference server — OpenAI-API
+          compatible. GGUF + SafeTensors, hot model swap, auto-discovery, single binary.
         confidence: high
 metadata:
   github:
@@ -45,10 +50,12 @@ metadata:
     archived: false
     full_name: Michael-A-Kuykendall/shimmy
     html_url: https://github.com/Michael-A-Kuykendall/shimmy
-    created_at: "2025-08-28T22:55:46Z"
-    pushed_at: "2026-08-02T00:50:22Z"
-    description: ⚡ Pure-Rust WebGPU inference engine — OpenAI-API compatible, GGUF native, runs on any GPU. No Python. No llama.cpp. Single binary.
-    homepage: ""
+    created_at: '2025-08-28T22:55:46Z'
+    pushed_at: '2026-08-02T00:50:22Z'
+    description: >-
+      ⚡ Pure-Rust WebGPU inference engine — OpenAI-API compatible, GGUF native, runs on any GPU. No Python. No
+      llama.cpp. Single binary.
+    homepage: ''
     topics:
       - api-server
       - command-line-tool
@@ -70,14 +77,20 @@ metadata:
       - transformers
       - webgpu
       - webgpu-shaders
-    last_checked_at: "2026-08-03T05:17:01.062Z"
+    last_checked_at: '2026-08-03T05:17:01.062Z'
     readme:
-      fetched_at: "2026-08-03T05:17:01.062Z"
+      fetched_at: '2026-08-03T05:17:01.062Z'
       bytes: 12076
 insights:
-  summary: Shimmy is a single-binary OpenAI-compatible inference server for GGUF models running on WebGPU with no Python or llama.cpp dependencies.
-  why_it_matters: It lets developers run local LLMs with zero configuration using existing OpenAI SDKs and tools, preserving privacy and avoiding API costs.
-  mental_damage: Yet another locally-hosted inference server that promises drop-in compatibility, adding to the ever-growing list of 'just point your client here' tools that all require slightly different model formats.
+  summary: >-
+    Shimmy is a single-binary OpenAI-compatible inference server for GGUF models running on WebGPU with no Python or
+    llama.cpp dependencies.
+  why_it_matters: >-
+    It lets developers run local LLMs with zero configuration using existing OpenAI SDKs and tools, preserving privacy
+    and avoiding API costs.
+  mental_damage: >-
+    Yet another locally-hosted inference server that promises drop-in compatibility, adding to the ever-growing list of
+    'just point your client here' tools that all require slightly different model formats.
   tags:
     - local-ai
     - inference-server
@@ -87,31 +100,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Shimmy is a local runtime focused on self-hosted inference as its core purpose, matching the Local AI category's emphasis on private, on-device execution rather than being a coding agent or framework.
+  reason: >-
+    Shimmy is a local runtime focused on self-hosted inference as its core purpose, matching the Local AI category's
+    emphasis on private, on-device execution rather than being a coding agent or framework.
   evidence:
-    - "Repo description: 'Pure-Rust WebGPU inference engine — OpenAI-API compatible, GGUF native, runs on any GPU. No Python. No llama.cpp. Single binary.'"
-    - "README: 'Drop-in OpenAI API Replacement for Local LLMs' and 'Privacy: Your code never leaves your machine'"
-    - "Source-list context: Listed in 'Awesome-LLMOps' under 'Serving > Large Model Serving' and 'awesome-LLM-resources' under '推理 Inference'"
+    - >-
+      Repo description: 'Pure-Rust WebGPU inference engine — OpenAI-API compatible, GGUF native, runs on any GPU. No
+      Python. No llama.cpp. Single binary.'
+    - 'README: ''Drop-in OpenAI API Replacement for Local LLMs'' and ''Privacy: Your code never leaves your machine'''
+    - >-
+      Source-list context: Listed in 'Awesome-LLMOps' under 'Serving > Large Model Serving' and 'awesome-LLM-resources'
+      under '推理 Inference'
 placement:
   primary_category: local-ai
-  section: Local Serving / APIs
+  secondary_categories: []
+  section: Local API Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (4785) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.590Z"
+    updated_at: '2026-05-06T22:12:15.590Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:01.062Z"
+    updated_at: '2026-08-03T05:17:01.062Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:20:12.939Z"
+    updated_at: '2026-07-21T16:20:12.939Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -124,14 +144,22 @@ processing:
       input_hash: sha256:d072a938084fa06295bae00c5ae24c62fd066ca0a05140982814c055a290a59c
       proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: Shimmy is a local runtime focused on self-hosted inference as its core purpose, matching the Local AI category's emphasis on private, on-device execution rather than being a coding agent or framework.
+      decision_reason: >-
+        Shimmy is a local runtime focused on self-hosted inference as its core purpose, matching the Local AI category's
+        emphasis on private, on-device execution rather than being a coding agent or framework.
       decision_evidence:
-        - "Repo description: 'Pure-Rust WebGPU inference engine — OpenAI-API compatible, GGUF native, runs on any GPU. No Python. No llama.cpp. Single binary.'"
-        - "README: 'Drop-in OpenAI API Replacement for Local LLMs' and 'Privacy: Your code never leaves your machine'"
-        - "Source-list context: Listed in 'Awesome-LLMOps' under 'Serving > Large Model Serving' and 'awesome-LLM-resources' under '推理 Inference'"
+        - >-
+          Repo description: 'Pure-Rust WebGPU inference engine — OpenAI-API compatible, GGUF native, runs on any GPU. No
+          Python. No llama.cpp. Single binary.'
+        - 'README: ''Drop-in OpenAI API Replacement for Local LLMs'' and ''Privacy: Your code never leaves your machine'''
+        - >-
+          Source-list context: Listed in 'Awesome-LLMOps' under 'Serving > Large Model Serving' and
+          'awesome-LLM-resources' under '推理 Inference'
       category_candidates:
         - local-ai
         - ai-frameworks
-      contrastive_reason: Choose local-ai over ai-frameworks because Shimmy is primarily operated as a local serving runtime rather than imported as a code-first SDK or library.
+      contrastive_reason: >-
+        Choose local-ai over ai-frameworks because Shimmy is primarily operated as a local serving runtime rather than
+        imported as a code-first SDK or library.
       review_reason: null
       review_resume_lifecycle: null

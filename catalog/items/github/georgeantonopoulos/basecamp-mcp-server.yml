@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__georgeantonopoulos__basecamp-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Basecamp
         extracted_url: https://github.com/georgeantonopoulos/basecamp-mcp-server
-        surrounding_text: "- **[Basecamp](https://github.com/georgeantonopoulos/Basecamp-MCP-Server)** - Integration with Basecamp project management platform for managing projects, to-dos, card tables, documents, and team collaboration"
+        surrounding_text: >-
+          - **[Basecamp](https://github.com/georgeantonopoulos/Basecamp-MCP-Server)** - Integration with Basecamp
+          project management platform for managing projects, to-dos, card tables, documents, and team collaboration
         confidence: high
 metadata:
   github:
@@ -29,9 +31,11 @@ metadata:
     archived: false
     full_name: georgeantonopoulos/Basecamp-MCP-Server
     html_url: https://github.com/georgeantonopoulos/Basecamp-MCP-Server
-    created_at: "2025-03-09T16:54:05Z"
-    pushed_at: "2026-08-30T07:57:13Z"
-    description: MCP server for Basecamp 3 with OAuth, FastMCP, and 75 tools for projects, todos, messages, card tables, docs, uploads, and search.
+    created_at: '2025-03-09T16:54:05Z'
+    pushed_at: '2026-08-30T07:57:13Z'
+    description: >-
+      MCP server for Basecamp 3 with OAuth, FastMCP, and 75 tools for projects, todos, messages, card tables, docs,
+      uploads, and search.
     homepage: null
     topics:
       - basecamp
@@ -47,14 +51,18 @@ metadata:
       - productivity
       - project-management
       - python
-    last_checked_at: "2026-09-03T05:16:48.126Z"
+    last_checked_at: '2026-09-03T05:16:48.126Z'
     readme:
-      fetched_at: "2026-09-03T05:16:48.126Z"
+      fetched_at: '2026-09-03T05:16:48.126Z'
       bytes: 12222
 insights:
   summary: An MCP server that enables AI clients like Cursor and Claude Desktop to interact with Basecamp 3 via OAuth.
-  why_it_matters: It allows developers to manage project tasks, messages, and todos directly within their AI-powered coding environments using the Model Context Protocol.
-  mental_damage: Because nothing says 'flow state' like having your LLM autonomously scan your project management backlog while you're trying to refactor code.
+  why_it_matters: >-
+    It allows developers to manage project tasks, messages, and todos directly within their AI-powered coding
+    environments using the Model Context Protocol.
+  mental_damage: >-
+    Because nothing says 'flow state' like having your LLM autonomously scan your project management backlog while
+    you're trying to refactor code.
   tags:
     - mcp
     - basecamp
@@ -70,24 +78,25 @@ curation:
     - Implements the Model Context Protocol to provide 75 specific tools for Basecamp
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: '2026-05-06T22:12:15.615Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:48.126Z"
+    updated_at: '2026-09-03T05:16:48.126Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:01:57.321Z"
+    updated_at: '2026-07-21T16:01:57.321Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -108,6 +117,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity and implementation mechanism is the Model Context Protocol rather than a standard IDE plugin.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity and implementation mechanism is the
+        Model Context Protocol rather than a standard IDE plugin.
       review_reason: null
       review_resume_lifecycle: null

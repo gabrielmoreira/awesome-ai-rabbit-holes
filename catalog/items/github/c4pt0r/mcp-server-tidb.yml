@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__c4pt0r__mcp-server-tidb__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: c4pt0r/mcp-server-tidb
         extracted_url: https://github.com/c4pt0r/mcp-server-tidb
-        surrounding_text: "- [c4pt0r/mcp-server-tidb](https://github.com/c4pt0r/mcp-server-tidb) 🐍 ☁️ - TiDB database integration with schema inspection and query capabilities"
+        surrounding_text: >-
+          - [c4pt0r/mcp-server-tidb](https://github.com/c4pt0r/mcp-server-tidb) 🐍 ☁️ - TiDB database integration with
+          schema inspection and query capabilities
         confidence: high
     - id: discovery__github__c4pt0r__mcp-server-tidb__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - 🗄️ Databases
         anchor_text: c4pt0r/mcp-server-tidb
         extracted_url: https://github.com/c4pt0r/mcp-server-tidb
-        surrounding_text: "-   **[c4pt0r/mcp-server-tidb](https://github.com/c4pt0r/mcp-server-tidb)** [![GitHub stars](https://img.shields.io/github/stars/c4pt0r/mcp-server-tidb?style=social)](https://github.com/c4pt0r/mcp-server-tidb): Provides access to TiDB databases, including schema inspection and querying."
+        surrounding_text: >-
+          -   **[c4pt0r/mcp-server-tidb](https://github.com/c4pt0r/mcp-server-tidb)** [![GitHub
+          stars](https://img.shields.io/github/stars/c4pt0r/mcp-server-tidb?style=social)](https://github.com/c4pt0r/mcp-server-tidb):
+          Provides access to TiDB databases, including schema inspection and querying.
         confidence: high
 metadata:
   github:
@@ -45,18 +50,20 @@ metadata:
     archived: false
     full_name: c4pt0r/mcp-server-tidb
     html_url: https://github.com/c4pt0r/mcp-server-tidb
-    created_at: "2025-03-06T06:53:44Z"
-    pushed_at: "2025-04-15T08:34:55Z"
+    created_at: '2025-03-06T06:53:44Z'
+    pushed_at: '2025-04-15T08:34:55Z'
     description: mcp server for tidb
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:40.101Z"
+    last_checked_at: '2026-09-07T04:13:40.101Z'
     readme:
-      fetched_at: "2026-09-07T04:13:40.101Z"
+      fetched_at: '2026-09-07T04:13:40.101Z'
       bytes: 1500
 insights:
   summary: An MCP server implementation that enables AI assistants to interact with TiDB serverless databases.
-  why_it_matters: It allows LLM-based agents and tools like Claude Desktop to query, manage, and perform database operations on TiDB clusters through the Model Context Protocol.
+  why_it_matters: >-
+    It allows LLM-based agents and tools like Claude Desktop to query, manage, and perform database operations on TiDB
+    clusters through the Model Context Protocol.
   mental_damage: One more specialized protocol bridge to add to your growing collection of 'seamless' AI integration middleware.
   tags:
     - mcp
@@ -74,24 +81,25 @@ curation:
     - It is categorized under 'Databases' in established MCP directories
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.583Z"
+    updated_at: '2026-05-06T22:12:15.583Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:40.101Z"
+    updated_at: '2026-09-07T04:13:40.101Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:40:59.621Z"
+    updated_at: '2026-07-21T15:40:59.621Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -112,6 +120,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the project's primary identity is a protocol server implementation rather than an IDE-resident plugin.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the project's primary identity is a protocol server implementation
+        rather than an IDE-resident plugin.
       review_reason: null
       review_resume_lifecycle: null

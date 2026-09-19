@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__waystation-ai__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: WayStation-ai/mcp
         extracted_url: https://github.com/waystation-ai/mcp
-        surrounding_text: "- [WayStation-ai/mcp](https://github.com/waystation-ai/mcp) ☁️ 🍎 🪟 - Seamlessly and securely connect Claude Desktop and other MCP hosts to your favorite apps (Notion, Slack, Monday, Airtable, etc.). Takes less than 90 secs."
+        surrounding_text: >-
+          - [WayStation-ai/mcp](https://github.com/waystation-ai/mcp) ☁️ 🍎 🪟 - Seamlessly and securely connect Claude
+          Desktop and other MCP hosts to your favorite apps (Notion, Slack, Monday, Airtable, etc.). Takes less than 90
+          secs.
         confidence: high
 metadata:
   github:
@@ -30,14 +33,16 @@ metadata:
     archived: false
     full_name: waystation-ai/mcp
     html_url: https://github.com/waystation-ai/mcp
-    created_at: "2025-02-27T17:51:56Z"
-    pushed_at: "2025-09-10T06:42:53Z"
-    description: The only MCP Server you need. Connect any MCP host with the tools you use daily through our no-code, secure integration hub.
+    created_at: '2025-02-27T17:51:56Z'
+    pushed_at: '2025-09-10T06:42:53Z'
+    description: >-
+      The only MCP Server you need. Connect any MCP host with the tools you use daily through our no-code, secure
+      integration hub.
     homepage: https://waystation.ai
     topics: []
-    last_checked_at: "2026-07-21T15:21:10.209Z"
+    last_checked_at: '2026-07-21T15:21:10.209Z'
     readme:
-      fetched_at: "2026-07-21T15:21:10.209Z"
+      fetched_at: '2026-07-21T15:21:10.209Z'
       bytes: 4859
 insights:
   summary: WayStation is a remote MCP server that connects MCP hosts like Claude to productivity apps via no-code integrations.
@@ -50,31 +55,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: WayStation is an MCP server first and foremost, offering a hosted remote server that implements the Model Context Protocol to connect AI hosts with external tools, making MCP the core identity.
+  reason: >-
+    WayStation is an MCP server first and foremost, offering a hosted remote server that implements the Model Context
+    Protocol to connect AI hosts with external tools, making MCP the core identity.
   evidence:
-    - "Repo description: 'The only MCP Server you need. Connect any MCP host with the tools you use daily through our no-code, secure integration hub.'"
-    - "README: 'WayStation MCP server is a universal remote MCP server that seamlessly connects Claude (and other clients) to a broad range of productivity tools'."
-    - "Source-list: Included in awesome-mcp-servers under 'Aggregators' as an MCP server implementation."
+    - >-
+      Repo description: 'The only MCP Server you need. Connect any MCP host with the tools you use daily through our
+      no-code, secure integration hub.'
+    - >-
+      README: 'WayStation MCP server is a universal remote MCP server that seamlessly connects Claude (and other
+      clients) to a broad range of productivity tools'.
+    - 'Source-list: Included in awesome-mcp-servers under ''Aggregators'' as an MCP server implementation.'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.655Z"
+    updated_at: '2026-05-06T22:12:15.655Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:10.209Z"
+    updated_at: '2026-07-21T15:21:10.209Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:30:15.804Z"
+    updated_at: '2026-05-12T15:30:15.804Z'
     cause: null
     next_retry_at: null
     attempts: 1

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__x51xxx__copilot-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: x51xxx/copilot-mcp-server
         extracted_url: https://github.com/x51xxx/copilot-mcp-server
-        surrounding_text: "- [x51xxx/copilot-mcp-server](https://github.com/x51xxx/copilot-mcp-server) 📇 ☁️ - MCP server that connects your IDE or AI assistant to GitHub Copilot CLI for code analysis, review, and batch processing"
+        surrounding_text: >-
+          - [x51xxx/copilot-mcp-server](https://github.com/x51xxx/copilot-mcp-server) 📇 ☁️ - MCP server that connects
+          your IDE or AI assistant to GitHub Copilot CLI for code analysis, review, and batch processing
         confidence: high
 metadata:
   github:
@@ -30,19 +32,25 @@ metadata:
     archived: false
     full_name: x51xxx/copilot-mcp-server
     html_url: https://github.com/x51xxx/copilot-mcp-server
-    created_at: "2025-09-27T11:59:17Z"
-    pushed_at: "2025-12-02T00:24:29Z"
+    created_at: '2025-09-27T11:59:17Z'
+    pushed_at: '2025-12-02T00:24:29Z'
     description: MCP server for GitHub Copilot CLI integration
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:21:16.685Z"
+    last_checked_at: '2026-07-21T15:21:16.685Z'
     readme:
-      fetched_at: "2026-07-21T15:21:16.685Z"
+      fetched_at: '2026-07-21T15:21:16.685Z'
       bytes: 12242
 insights:
-  summary: Copilot MCP Server is an open-source MCP server that connects IDEs and AI assistants to the GitHub Copilot CLI for code analysis and automation.
-  why_it_matters: Enables non-interactive use of GitHub Copilot CLI from any MCP-compatible editor, unlocking automation for code review and refactoring.
-  mental_damage: Yet another MCP server promising seamless AI integration, adding yet another layer to the ever-growing stack of developer tooling abstractions.
+  summary: >-
+    Copilot MCP Server is an open-source MCP server that connects IDEs and AI assistants to the GitHub Copilot CLI for
+    code analysis and automation.
+  why_it_matters: >-
+    Enables non-interactive use of GitHub Copilot CLI from any MCP-compatible editor, unlocking automation for code
+    review and refactoring.
+  mental_damage: >-
+    Yet another MCP server promising seamless AI integration, adding yet another layer to the ever-growing stack of
+    developer tooling abstractions.
   tags:
     - mcp
     - copilot-cli
@@ -50,31 +58,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core identity is providing MCP infrastructure to connect GitHub Copilot CLI to MCP clients, making it a clear fit for the MCP Servers & Tooling category.
+  reason: >-
+    The product is an MCP server whose core identity is providing MCP infrastructure to connect GitHub Copilot CLI to
+    MCP clients, making it a clear fit for the MCP Servers & Tooling category.
   evidence:
-    - "Repo description: 'MCP server for GitHub Copilot CLI integration'"
-    - "README: 'Copilot MCP Tool is an open‑source Model Context Protocol (MCP) server that connects your IDE or AI assistant to GitHub Copilot CLI'"
-    - "Source-list context: listed in awesome-mcp-servers under Server Implementations"
+    - 'Repo description: ''MCP server for GitHub Copilot CLI integration'''
+    - >-
+      README: 'Copilot MCP Tool is an open‑source Model Context Protocol (MCP) server that connects your IDE or AI
+      assistant to GitHub Copilot CLI'
+    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.656Z"
+    updated_at: '2026-05-06T22:12:15.656Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:16.685Z"
+    updated_at: '2026-07-21T15:21:16.685Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-18T05:36:13.752Z"
+    updated_at: '2026-05-18T05:36:13.752Z'
     cause: null
     next_retry_at: null
     attempts: 3

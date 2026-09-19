@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cal__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,10 @@ provenance:
           - Community Servers
         anchor_text: Calcom
         extracted_url: https://cal.com
-        surrounding_text: "- **[Danielpeter-99/calcom-mcp](https://github.com/Danielpeter-99/calcom-mcp)** - MCP server for [Calcom](https://cal.com/) (Also known as [Cal.com](https://cal.com/)). Manage event types, create bookings, and access Cal.com scheduling data through LLMs."
+        surrounding_text: >-
+          - **[Danielpeter-99/calcom-mcp](https://github.com/Danielpeter-99/calcom-mcp)** - MCP server for
+          [Calcom](https://cal.com/) (Also known as [Cal.com](https://cal.com/)). Manage event types, create bookings,
+          and access Cal.com scheduling data through LLMs.
         confidence: high
 metadata:
   github:
@@ -37,8 +40,12 @@ metadata:
     readme: null
 insights:
   summary: Cal.com is an open-source scheduling infrastructure and API designed to handle complex booking workflows.
-  why_it_matters: It provides a developer-centric, extensible framework for integrating scheduling into apps, making it a likely target for MCP server implementation.
-  mental_damage: Another API to integrate, ensuring you'll spend more time handling webhook edge cases than actually scheduling your lunch.
+  why_it_matters: >-
+    It provides a developer-centric, extensible framework for integrating scheduling into apps, making it a likely
+    target for MCP server implementation.
+  mental_damage: >-
+    Another API to integrate, ensuring you'll spend more time handling webhook edge cases than actually scheduling your
+    lunch.
   tags:
     - scheduling
     - open-source
@@ -48,20 +55,23 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool is included because it is listed in 'awesome-mcp-servers' as a community server, making MCP its primary relevant identity within this catalog.
+  reason: >-
+    The tool is included because it is listed in 'awesome-mcp-servers' as a community server, making MCP its primary
+    relevant identity within this catalog.
   evidence:
     - Found in awesome-mcp-servers directory
     - Purpose is to provide MCP server functionality for scheduling
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +80,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:28:39.780Z"
+    updated_at: '2026-07-20T15:28:39.780Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -83,13 +93,17 @@ processing:
       input_hash: sha256:f3a27a1524a71c2c7baf1b1940d271923a6b34245b4514b930fa8dba98317649
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The tool is included because it is listed in 'awesome-mcp-servers' as a community server, making MCP its primary relevant identity within this catalog.
+      decision_reason: >-
+        The tool is included because it is listed in 'awesome-mcp-servers' as a community server, making MCP its primary
+        relevant identity within this catalog.
       decision_evidence:
         - Found in awesome-mcp-servers directory
         - Purpose is to provide MCP server functionality for scheduling
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool is explicitly curated as an MCP server for model access rather than a general workflow integration for a specific editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool is explicitly curated as an MCP server for model access
+        rather than a general workflow integration for a specific editor.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__open-compass__opencompass__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,10 @@ provenance:
           - 评估 Evaluation
         anchor_text: opencompass (`🔥`)
         extracted_url: https://github.com/open-compass/opencompass
-        surrounding_text: "2. [opencompass (`🔥`)](https://github.com/open-compass/opencompass): OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets."
+        surrounding_text: >-
+          2. [opencompass (`🔥`)](https://github.com/open-compass/opencompass): OpenCompass is an LLM evaluation
+          platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc)
+          over 100+ datasets.
         confidence: high
 metadata:
   github:
@@ -29,9 +32,11 @@ metadata:
     archived: false
     full_name: open-compass/opencompass
     html_url: https://github.com/open-compass/opencompass
-    created_at: "2023-06-15T12:42:58Z"
-    pushed_at: "2026-07-20T08:45:01Z"
-    description: OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets.
+    created_at: '2023-06-15T12:42:58Z'
+    pushed_at: '2026-07-20T08:45:01Z'
+    description: >-
+      OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral,
+      InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets.
     homepage: https://opencompass.org.cn/
     topics:
       - benchmark
@@ -42,14 +47,20 @@ metadata:
       - llama3
       - llm
       - openai
-    last_checked_at: "2026-07-20T16:42:24.767Z"
+    last_checked_at: '2026-07-20T16:42:24.767Z'
     readme:
-      fetched_at: "2026-07-20T16:42:24.767Z"
+      fetched_at: '2026-07-20T16:42:24.767Z'
       bytes: 25346
 insights:
-  summary: OpenCompass is an LLM evaluation platform supporting over 100+ datasets and a wide range of models to benchmark and compare model performance.
-  why_it_matters: It provides developers and researchers with a standardized CLI and configuration framework to objectively measure and compare LLM capabilities across custom or standard benchmarks.
-  mental_damage: Because nothing says 'I am shipping features' quite like spending three days configuring a YAML file to confirm that GPT-4 is, in fact, better at math than a random open-source checkpoint.
+  summary: >-
+    OpenCompass is an LLM evaluation platform supporting over 100+ datasets and a wide range of models to benchmark and
+    compare model performance.
+  why_it_matters: >-
+    It provides developers and researchers with a standardized CLI and configuration framework to objectively measure
+    and compare LLM capabilities across custom or standard benchmarks.
+  mental_damage: >-
+    Because nothing says 'I am shipping features' quite like spending three days configuring a YAML file to confirm that
+    GPT-4 is, in fact, better at math than a random open-source checkpoint.
   tags:
     - evals
     - benchmarking
@@ -59,35 +70,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core job of the project is measuring, scoring, and comparing model behavior across standard and custom benchmarks, fitting the Evals category perfectly.
+  reason: >-
+    The core job of the project is measuring, scoring, and comparing model behavior across standard and custom
+    benchmarks, fitting the Evals category perfectly.
   evidence:
     - Repo description explicitly identifies it as an 'LLM evaluation platform' over 100+ datasets.
-    - README highlights evaluation of specific models (DeepSeek-R1, Intern-S1) and features like 'CascadeEvaluator' and 'MATHVerifyEvaluator'.
+    - >-
+      README highlights evaluation of specific models (DeepSeek-R1, Intern-S1) and features like 'CascadeEvaluator' and
+      'MATHVerifyEvaluator'.
     - Listed in awesome-LLM-resources under the '评估 Evaluation' section.
 placement:
   primary_category: evals
-  section: Agent Benchmarks
+  secondary_categories: []
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: promotion_candidate
   reason: Stars (6967) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.640Z"
+    updated_at: '2026-05-06T22:12:15.640Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:24.767Z"
+    updated_at: '2026-07-20T16:42:24.767Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

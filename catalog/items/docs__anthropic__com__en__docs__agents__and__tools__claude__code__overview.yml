@@ -5,8 +5,9 @@ canonical_url: https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/o
 identity: {}
 provenance:
   discoveries:
-    - id: discovery__docs__anthropic__com__en__docs__agents__and__tools__claude__code__overview__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+    - id: >-
+        discovery__docs__anthropic__com__en__docs__agents__and__tools__claude__code__overview__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +19,9 @@ provenance:
           - Coding Agents
         anchor_text: Claude Code
         extracted_url: https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview
-        surrounding_text: "- **[Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview)** – Anthropic's agentic coding tool for the terminal with deep codebase understanding."
+        surrounding_text: >-
+          - **[Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview)** – Anthropic's
+          agentic coding tool for the terminal with deep codebase understanding.
         confidence: high
 metadata:
   github:
@@ -36,9 +39,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Claude Code is a command-line interface agent that can plan, edit, and execute code changes directly in your terminal.
-  why_it_matters: It provides a hands-free, agentic terminal experience that can execute commands and fix bugs within a repository using Claude's reasoning.
-  mental_damage: It's the ultimate step toward never having to touch your keyboard again, assuming you trust the agent not to accidentally `rm -rf` your hard drive.
+  summary: >-
+    Claude Code is a command-line interface agent that can plan, edit, and execute code changes directly in your
+    terminal.
+  why_it_matters: >-
+    It provides a hands-free, agentic terminal experience that can execute commands and fix bugs within a repository
+    using Claude's reasoning.
+  mental_damage: >-
+    It's the ultimate step toward never having to touch your keyboard again, assuming you trust the agent not to
+    accidentally `rm -rf` your hard drive.
   tags:
     - claude-code
     - cli-agent
@@ -47,22 +56,21 @@ insights:
     - coding-assistant
   confidence: high
 curation:
-  status: included
-  reason: Claude Code is a standalone terminal-based coding assistant that performs tasks across a repo rather than being an extension for another editor.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Product is described as a CLI tool for executing repo work
-    - Acts as a primary assistant that plans and edits files
-    - Included in awesome-ai-coding-tools under Coding Agents
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.660Z"
+    updated_at: '2026-05-06T22:12:15.660Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +79,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:39:09.409Z"
+    updated_at: '2026-07-20T15:39:09.409Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +92,9 @@ processing:
       input_hash: sha256:45fdc3ed2629cd66496a7966246c4f3a34b75fd736b97ba919da01f90cb6448b
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Claude Code is a standalone terminal-based coding assistant that performs tasks across a repo rather than being an extension for another editor.
+      decision_reason: >-
+        Claude Code is a standalone terminal-based coding assistant that performs tasks across a repo rather than being
+        an extension for another editor.
       decision_evidence:
         - Product is described as a CLI tool for executing repo work
         - Acts as a primary assistant that plans and edits files
@@ -92,6 +102,8 @@ processing:
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because Claude Code acts as the primary terminal-based assistant rather than just an integration layer for an existing editor.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because Claude Code acts as the primary terminal-based assistant
+        rather than just an integration layer for an existing editor.
       review_reason: null
       review_resume_lifecycle: null

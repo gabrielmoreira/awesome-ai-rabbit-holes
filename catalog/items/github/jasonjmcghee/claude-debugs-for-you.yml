@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jasonjmcghee__claude-debugs-for-you__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: jasonjmcghee/claude-debugs-for-you
         extracted_url: https://github.com/jasonjmcghee/claude-debugs-for-you
-        surrounding_text: "- [jasonjmcghee/claude-debugs-for-you](https://github.com/jasonjmcghee/claude-debugs-for-you) 📇 🏠 - An MCP Server and VS Code Extension which enables (language agnostic) automatic debugging via breakpoints and expression evaluation."
+        surrounding_text: >-
+          - [jasonjmcghee/claude-debugs-for-you](https://github.com/jasonjmcghee/claude-debugs-for-you) 📇 🏠 - An MCP
+          Server and VS Code Extension which enables (language agnostic) automatic debugging via breakpoints and
+          expression evaluation.
         confidence: high
     - id: discovery__github__jasonjmcghee__claude-debugs-for-you__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -33,9 +36,12 @@ provenance:
         mode: parsed
         section_path:
           - 💻 Developer Tools
-        anchor_text: "@jasonjmcghee/claude-debugs-for-you"
+        anchor_text: '@jasonjmcghee/claude-debugs-for-you'
         extracted_url: https://github.com/jasonjmcghee/claude-debugs-for-you
-        surrounding_text: "-   **[@jasonjmcghee/claude-debugs-for-you](https://github.com/jasonjmcghee/claude-debugs-for-you)** [![GitHub stars](https://img.shields.io/github/stars/jasonjmcghee/claude-debugs-for-you?style=social)](https://github.com/jasonjmcghee/claude-debugs-for-you): Enables automatic debugging via breakpoints and expression evaluation."
+        surrounding_text: >-
+          -   **[@jasonjmcghee/claude-debugs-for-you](https://github.com/jasonjmcghee/claude-debugs-for-you)** [![GitHub
+          stars](https://img.shields.io/github/stars/jasonjmcghee/claude-debugs-for-you?style=social)](https://github.com/jasonjmcghee/claude-debugs-for-you):
+          Enables automatic debugging via breakpoints and expression evaluation.
         confidence: high
 metadata:
   github:
@@ -45,8 +51,8 @@ metadata:
     archived: false
     full_name: jasonjmcghee/claude-debugs-for-you
     html_url: https://github.com/jasonjmcghee/claude-debugs-for-you
-    created_at: "2025-01-17T05:54:24Z"
-    pushed_at: "2025-12-20T01:43:03Z"
+    created_at: '2025-01-17T05:54:24Z'
+    pushed_at: '2025-12-20T01:43:03Z'
     description: Enable any LLM (e.g. Claude) to interactively debug any language for you via MCP and a VS Code Extension
     homepage: https://marketplace.visualstudio.com/items?itemName=JasonMcGhee.claude-debugs-for-you
     topics:
@@ -68,13 +74,15 @@ metadata:
       - vibe-debugging
       - vscode
       - vscode-extension
-    last_checked_at: "2026-07-30T05:05:48.214Z"
+    last_checked_at: '2026-07-30T05:05:48.214Z'
     readme:
-      fetched_at: "2026-07-30T05:05:48.214Z"
+      fetched_at: '2026-07-30T05:05:48.214Z'
       bytes: 6424
 insights:
   summary: A VS Code extension and MCP server that enables LLMs like Claude to interactively debug code via VS Code's debugger.
-  why_it_matters: It lets developers delegate debugging sessions to an LLM, using breakpoints and expression evaluation without manual intervention.
+  why_it_matters: >-
+    It lets developers delegate debugging sessions to an LLM, using breakpoints and expression evaluation without manual
+    intervention.
   mental_damage: Now your AI can step through your code while you step away from responsibility.
   tags:
     - debugging
@@ -84,31 +92,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool is primarily an extension that augments VS Code and MCP clients with debugging capabilities, rather than being a standalone coding assistant.
+  reason: >-
+    The tool is primarily an extension that augments VS Code and MCP clients with debugging capabilities, rather than
+    being a standalone coding assistant.
   evidence:
     - Repo description explicitly states it is an MCP server and VS Code extension for interactive debugging
     - README confirms it integrates with Claude Desktop, Continue, and Cursor via MCP
     - Source-list context places it under Developer Tools in MCP server lists
 placement:
-  primary_category: ai-dev-extensions
-  section: IDE / UI / Workflow Add-ons
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: IDE & Editor Add-ons
 lifecycle:
   status: promotion_candidate
   reason: Stars (508) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.588Z"
+    updated_at: '2026-05-06T22:12:15.588Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:48.214Z"
+    updated_at: '2026-07-30T05:05:48.214Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:06.218Z"
+    updated_at: '2026-07-21T16:10:06.218Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -121,7 +132,9 @@ processing:
       input_hash: sha256:489136fabe88233a93503cbac6f8be868d612dbe1745233ed08845646d6d5449
       proposed_primary_category: ai-dev-extensions
       disagreement: false
-      decision_reason: The tool is primarily an extension that augments VS Code and MCP clients with debugging capabilities, rather than being a standalone coding assistant.
+      decision_reason: >-
+        The tool is primarily an extension that augments VS Code and MCP clients with debugging capabilities, rather
+        than being a standalone coding assistant.
       decision_evidence:
         - Repo description explicitly states it is an MCP server and VS Code extension for interactive debugging
         - README confirms it integrates with Claude Desktop, Continue, and Cursor via MCP
@@ -129,6 +142,8 @@ processing:
       category_candidates:
         - ai-dev-extensions
         - mcp
-      contrastive_reason: Choose ai-dev-extensions over mcp because the core value is the VS Code debugging integration, not MCP infrastructure itself.
+      contrastive_reason: >-
+        Choose ai-dev-extensions over mcp because the core value is the VS Code debugging integration, not MCP
+        infrastructure itself.
       review_reason: null
       review_resume_lifecycle: null

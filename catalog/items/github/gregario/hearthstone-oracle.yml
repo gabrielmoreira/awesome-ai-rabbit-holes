@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gregario__hearthstone-oracle__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: gregario/hearthstone-oracle
         extracted_url: https://github.com/gregario/hearthstone-oracle
-        surrounding_text: "- [gregario/hearthstone-oracle](https://github.com/gregario/hearthstone-oracle) [![hearthstone-oracle MCP server](https://glama.ai/mcp/servers/gregario/hearthstone-oracle/badges/score.svg)](https://glama.ai/mcp/servers/gregario/hearthstone-oracle) 📇 🏠 - Hearthstone card search, deck analysis, and strategy coaching. 9 tools covering card lookup, deck decoding, archetype classification, class identities, matchup theory, and game concepts. HearthstoneJSON data."
+        surrounding_text: >-
+          - [gregario/hearthstone-oracle](https://github.com/gregario/hearthstone-oracle) [![hearthstone-oracle MCP
+          server](https://glama.ai/mcp/servers/gregario/hearthstone-oracle/badges/score.svg)](https://glama.ai/mcp/servers/gregario/hearthstone-oracle)
+          📇 🏠 - Hearthstone card search, deck analysis, and strategy coaching. 9 tools covering card lookup, deck
+          decoding, archetype classification, class identities, matchup theory, and game concepts. HearthstoneJSON data.
         confidence: high
 metadata:
   github:
@@ -30,18 +34,20 @@ metadata:
     archived: false
     full_name: gregario/hearthstone-oracle
     html_url: https://github.com/gregario/hearthstone-oracle
-    created_at: "2026-03-16T23:55:22Z"
-    pushed_at: "2026-05-02T19:55:05Z"
+    created_at: '2026-03-16T23:55:22Z'
+    pushed_at: '2026-05-02T19:55:05Z'
     description: Hearthstone MCP server with card search, deck analysis, and strategy coaching
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:54.430Z"
+    last_checked_at: '2026-09-03T05:16:54.430Z'
     readme:
-      fetched_at: "2026-09-03T05:16:54.430Z"
+      fetched_at: '2026-09-03T05:16:54.430Z'
       bytes: 3597
 insights:
   summary: An MCP server providing Hearthstone card search, deck analysis, and strategy coaching for LLMs.
-  why_it_matters: Developers integrating Hearthstone game data or strategy logic into AI workflows can use this as a pluggable context source.
+  why_it_matters: >-
+    Developers integrating Hearthstone game data or strategy logic into AI workflows can use this as a pluggable context
+    source.
   mental_damage: Now your AI can explain why your deck still loses to aggro.
   tags:
     - mcp-server
@@ -51,31 +57,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: a domain-specific server exposing Hearthstone tools to LLMs."
+  reason: 'MCP is the product identity here: a domain-specific server exposing Hearthstone tools to LLMs.'
   evidence:
     - Repo description explicitly labels it as a Hearthstone MCP server
     - README details 9 MCP tools for card/deck/strategy operations
     - MCP compatibility is a core feature (badges, config examples)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.617Z"
+    updated_at: '2026-05-06T22:12:15.617Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:54.430Z"
+    updated_at: '2026-09-03T05:16:54.430Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:04:28.838Z"
+    updated_at: '2026-07-21T16:04:28.838Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +95,7 @@ processing:
       input_hash: sha256:2841a6e129357e46c9ced877e7a29414145ab6ec7856b6b62682808cdfd6883b
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: a domain-specific server exposing Hearthstone tools to LLMs."
+      decision_reason: 'MCP is the product identity here: a domain-specific server exposing Hearthstone tools to LLMs.'
       decision_evidence:
         - Repo description explicitly labels it as a Hearthstone MCP server
         - README details 9 MCP tools for card/deck/strategy operations
@@ -96,6 +103,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is a standalone MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is a standalone MCP server, not an extension augmenting
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__buywhere__buywhere-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🛒 <a name="e-commerce"></a>E-Commerce
         anchor_text: BuyWhere/buywhere-mcp
         extracted_url: https://github.com/buywhere/buywhere-mcp
-        surrounding_text: "- [BuyWhere/buywhere-mcp](https://github.com/BuyWhere/buywhere-mcp) [![BuyWhere/buywhere-mcp MCP server](https://glama.ai/mcp/servers/BuyWhere/buywhere-mcp/badges/score.svg)](https://glama.ai/mcp/servers/BuyWhere/buywhere-mcp) 📇 ☁️ 🍎 🪟 🐧 - Cross-border e-commerce product catalog for AI agents. Search 3M+ products across Singapore, SEA, and US markets with price comparison and deal discovery. Install via `npx @buywhere/mcp-server`."
+        surrounding_text: >-
+          - [BuyWhere/buywhere-mcp](https://github.com/BuyWhere/buywhere-mcp) [![BuyWhere/buywhere-mcp MCP
+          server](https://glama.ai/mcp/servers/BuyWhere/buywhere-mcp/badges/score.svg)](https://glama.ai/mcp/servers/BuyWhere/buywhere-mcp)
+          📇 ☁️ 🍎 🪟 🐧 - Cross-border e-commerce product catalog for AI agents. Search 3M+ products across Singapore,
+          SEA, and US markets with price comparison and deal discovery. Install via `npx @buywhere/mcp-server`.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: BuyWhere/buywhere-mcp
     html_url: https://github.com/BuyWhere/buywhere-mcp
-    created_at: "2026-04-16T09:26:09Z"
-    pushed_at: "2026-09-04T12:24:34Z"
-    description: "BuyWhere MCP server — search 300M+ products across US, Singapore & SEA via Model Context Protocol. Agents self-register a free key in one POST (no email): api.buywhere.ai/v1/auth/register?verify=false"
+    created_at: '2026-04-16T09:26:09Z'
+    pushed_at: '2026-09-04T12:24:34Z'
+    description: >-
+      BuyWhere MCP server — search 300M+ products across US, Singapore & SEA via Model Context Protocol. Agents
+      self-register a free key in one POST (no email): api.buywhere.ai/v1/auth/register?verify=false
     homepage: https://buywhere.ai
     topics:
       - a2a
@@ -51,14 +57,20 @@ metadata:
       - shopping
       - singapore
       - us
-    last_checked_at: "2026-09-07T04:13:39.124Z"
+    last_checked_at: '2026-09-07T04:13:39.124Z'
     readme:
-      fetched_at: "2026-09-07T04:13:39.124Z"
+      fetched_at: '2026-09-07T04:13:39.124Z'
       bytes: 17175
 insights:
-  summary: An MCP server that provides real-time product search and price comparison across Singapore, Southeast Asia, and US markets.
-  why_it_matters: It gives AI agents the ability to perform cross-border e-commerce tasks, such as comparing prices and finding deals, through a standardized protocol.
-  mental_damage: Because the ultimate goal of agentic autonomy is clearly to automate our impulse shopping across multiple currencies and time zones.
+  summary: >-
+    An MCP server that provides real-time product search and price comparison across Singapore, Southeast Asia, and US
+    markets.
+  why_it_matters: >-
+    It gives AI agents the ability to perform cross-border e-commerce tasks, such as comparing prices and finding deals,
+    through a standardized protocol.
+  mental_damage: >-
+    Because the ultimate goal of agentic autonomy is clearly to automate our impulse shopping across multiple currencies
+    and time zones.
   tags:
     - mcp
     - ecommerce
@@ -67,31 +79,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose primary identity is providing domain-specific e-commerce tools to the MCP ecosystem.
+  reason: >-
+    The product is explicitly an MCP server whose primary identity is providing domain-specific e-commerce tools to the
+    MCP ecosystem.
   evidence:
     - Repo description defines it as a BuyWhere MCP server for cross-border e-commerce.
     - README details specific MCP tools like search_products and compare_prices.
     - Designed to work with any MCP-compatible client including Claude Desktop and Cursor.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.818Z"
+    updated_at: '2026-05-28T05:28:09.818Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:39.124Z"
+    updated_at: '2026-09-07T04:13:39.124Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-28T05:36:21.988Z"
+    updated_at: '2026-05-28T05:36:21.988Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

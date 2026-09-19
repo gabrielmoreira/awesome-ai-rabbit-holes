@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__garasegae__aiskillstore__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: garasegae/aiskillstore
         extracted_url: https://github.com/garasegae/aiskillstore
-        surrounding_text: "- [garasegae/aiskillstore](https://github.com/garasegae/aiskillstore) [![garasegae/aiskillstore MCP server](https://glama.ai/mcp/servers/garasegae/aiskillstore/badges/score.svg)](https://glama.ai/mcp/servers/garasegae/aiskillstore) ☁️ - Agent-first skill marketplace where AI agents discover, purchase, and integrate skills via MCP protocol. Supports 7+ platforms including Claude, hGPT, and Gemini."
+        surrounding_text: >-
+          - [garasegae/aiskillstore](https://github.com/garasegae/aiskillstore) [![garasegae/aiskillstore MCP
+          server](https://glama.ai/mcp/servers/garasegae/aiskillstore/badges/score.svg)](https://glama.ai/mcp/servers/garasegae/aiskillstore)
+          ☁️ - Agent-first skill marketplace where AI agents discover, purchase, and integrate skills via MCP protocol.
+          Supports 7+ platforms including Claude, hGPT, and Gemini.
         confidence: high
 metadata:
   github:
@@ -30,19 +34,25 @@ metadata:
     archived: false
     full_name: garasegae/aiskillstore
     html_url: https://github.com/garasegae/aiskillstore
-    created_at: "2026-04-17T06:54:03Z"
-    pushed_at: "2026-05-14T04:39:30Z"
+    created_at: '2026-04-17T06:54:03Z'
+    pushed_at: '2026-05-14T04:39:30Z'
     description: Agent-first skill marketplace with USK open standard — MCP server for AI agent skill discovery and installation
     homepage: https://aiskillstore.io
     topics: []
-    last_checked_at: "2026-09-03T05:16:46.001Z"
+    last_checked_at: '2026-09-03T05:16:46.001Z'
     readme:
-      fetched_at: "2026-09-03T05:16:46.001Z"
+      fetched_at: '2026-09-03T05:16:46.001Z'
       bytes: 4636
 insights:
-  summary: An agent-first skill marketplace and MCP server for the discovery and installation of cross-platform AI agent skills via the USK open standard.
-  why_it_matters: It enables agents to programmatically find, vet, and install their own capabilities across different runtimes (like Claude Code and Cursor) without manual human configuration.
-  mental_damage: We have reached the stage where AI agents are now shopping for their own plugins so they can better ignore our requests.
+  summary: >-
+    An agent-first skill marketplace and MCP server for the discovery and installation of cross-platform AI agent skills
+    via the USK open standard.
+  why_it_matters: >-
+    It enables agents to programmatically find, vet, and install their own capabilities across different runtimes (like
+    Claude Code and Cursor) without manual human configuration.
+  mental_damage: >-
+    We have reached the stage where AI agents are now shopping for their own plugins so they can better ignore our
+    requests.
   tags:
     - mcp
     - agent-skills
@@ -52,31 +62,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's core identity is an MCP server designed specifically for the discovery and installation of other MCP-compatible skills, making it a piece of MCP infrastructure.
+  reason: >-
+    The project's core identity is an MCP server designed specifically for the discovery and installation of other
+    MCP-compatible skills, making it a piece of MCP infrastructure.
   evidence:
     - Repo description explicitly defines it as an 'MCP server for AI agent skill discovery'
     - README lists a remote MCP endpoint (https://aiskillstore.io/mcp) and provides MCP server configuration
     - Included in awesome-mcp-servers under the 'Aggregators' section
 placement:
-  primary_category: mcp
-  section: Registries & Discovery
+  primary_category: skills
+  secondary_categories: []
+  section: Registries & Directories
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.819Z"
+    updated_at: '2026-05-28T05:28:09.819Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:46.001Z"
+    updated_at: '2026-09-03T05:16:46.001Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-08T05:41:10.325Z"
+    updated_at: '2026-06-08T05:41:10.325Z'
     cause: null
     next_retry_at: null
     attempts: 1

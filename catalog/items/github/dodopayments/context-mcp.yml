@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dodopayments__context-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: dodopayments/contextmcp
         extracted_url: https://github.com/dodopayments/context-mcp
-        surrounding_text: "- [dodopayments/contextmcp](https://github.com/dodopayments/context-mcp) 📇 ☁️ 🏠 - Self-hosted MCP server that indexes documentation from various sources and serves it to AI Agents with semantic search."
+        surrounding_text: >-
+          - [dodopayments/contextmcp](https://github.com/dodopayments/context-mcp) 📇 ☁️ 🏠 - Self-hosted MCP server
+          that indexes documentation from various sources and serves it to AI Agents with semantic search.
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: dodopayments/context-mcp
     html_url: https://github.com/dodopayments/context-mcp
-    created_at: "2025-12-03T10:30:02Z"
-    pushed_at: "2026-09-01T19:40:02Z"
+    created_at: '2025-12-03T10:30:02Z'
+    pushed_at: '2026-09-01T19:40:02Z'
     description: Self-hosted MCP server for your documentation
     homepage: https://contextmcp.ai
     topics:
@@ -44,13 +46,15 @@ metadata:
       - openai
       - pinecone
       - self-hosted
-    last_checked_at: "2026-09-14T04:13:42.508Z"
+    last_checked_at: '2026-09-14T04:13:42.508Z'
     readme:
-      fetched_at: "2026-09-14T04:13:42.508Z"
+      fetched_at: '2026-09-14T04:13:42.508Z'
       bytes: 3877
 insights:
   summary: Self-hosted MCP server that indexes documentation from multiple sources and serves it via MCP and REST API.
-  why_it_matters: Lets developers expose their docs, APIs, and READMEs to AI assistants through a standardized protocol, reducing context-switching and improving retrieval quality.
+  why_it_matters: >-
+    Lets developers expose their docs, APIs, and READMEs to AI assistants through a standardized protocol, reducing
+    context-switching and improving retrieval quality.
   mental_damage: Now you can finally make your AI assistant read the docs you wrote but nobody else did.
   tags:
     - mcp-server
@@ -61,31 +65,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: it is a dedicated MCP server for documentation retrieval, not a compatibility footnote or adapter."
+  reason: >-
+    MCP is the product identity: it is a dedicated MCP server for documentation retrieval, not a compatibility footnote
+    or adapter.
   evidence:
     - Repo description explicitly states 'Self-hosted MCP server for your documentation'
     - README details MCP as the primary interface for serving indexed docs
     - Topics include 'mcp', 'mcp-server', and 'context'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.611Z"
+    updated_at: '2026-05-06T22:12:15.611Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:42.508Z"
+    updated_at: '2026-09-14T04:13:42.508Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:22.170Z"
+    updated_at: '2026-07-21T15:51:22.170Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -98,7 +105,9 @@ processing:
       input_hash: sha256:4cac347820421b694a5c1f84ce0da5f47d1b420d9506579ce2d6b63515d4053e
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: it is a dedicated MCP server for documentation retrieval, not a compatibility footnote or adapter."
+      decision_reason: >-
+        MCP is the product identity: it is a dedicated MCP server for documentation retrieval, not a compatibility
+        footnote or adapter.
       decision_evidence:
         - Repo description explicitly states 'Self-hosted MCP server for your documentation'
         - README details MCP as the primary interface for serving indexed docs
@@ -106,6 +115,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product's core identity is as an MCP server, not a general context/retrieval system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the product's core identity is as an MCP server, not a general
+        context/retrieval system.
       review_reason: null
       review_resume_lifecycle: null

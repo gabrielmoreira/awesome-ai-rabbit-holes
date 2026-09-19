@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gregario__lego-oracle__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: gregario/lego-oracle
         extracted_url: https://github.com/gregario/lego-oracle
-        surrounding_text: "- [gregario/lego-oracle](https://github.com/gregario/lego-oracle) [![gregario/lego-oracle MCP server](https://glama.ai/mcp/servers/gregario/lego-oracle/badges/score.svg)](https://glama.ai/mcp/servers/gregario/lego-oracle) 📇 🏠 - LEGO sets, parts, minifigs, colours, and inventories from Rebrickable. 10 tools for searching sets, finding parts by colour, browsing themes, comparing sets, and discovering MOC alternate builds. 26k sets, 62k parts, 17k minifigs embedded."
+        surrounding_text: >-
+          - [gregario/lego-oracle](https://github.com/gregario/lego-oracle) [![gregario/lego-oracle MCP
+          server](https://glama.ai/mcp/servers/gregario/lego-oracle/badges/score.svg)](https://glama.ai/mcp/servers/gregario/lego-oracle)
+          📇 🏠 - LEGO sets, parts, minifigs, colours, and inventories from Rebrickable. 10 tools for searching sets,
+          finding parts by colour, browsing themes, comparing sets, and discovering MOC alternate builds. 26k sets, 62k
+          parts, 17k minifigs embedded.
         confidence: high
 metadata:
   github:
@@ -30,18 +35,20 @@ metadata:
     archived: false
     full_name: gregario/lego-oracle
     html_url: https://github.com/gregario/lego-oracle
-    created_at: "2026-03-15T21:25:13Z"
-    pushed_at: "2026-08-01T14:50:50Z"
+    created_at: '2026-03-15T21:25:13Z'
+    pushed_at: '2026-08-01T14:50:50Z'
     description: LEGO sets, parts, minifigs, and inventories as an MCP server
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:54.486Z"
+    last_checked_at: '2026-09-03T05:16:54.486Z'
     readme:
-      fetched_at: "2026-09-03T05:16:54.486Z"
+      fetched_at: '2026-09-03T05:16:54.486Z'
       bytes: 5081
 insights:
   summary: An MCP server providing LEGO sets, parts, minifigs, and inventories for AI assistants.
-  why_it_matters: Developers can query a comprehensive LEGO catalog (26k+ sets, 62k+ parts) directly from MCP-compatible IDEs or assistants without leaving their workflow.
+  why_it_matters: >-
+    Developers can query a comprehensive LEGO catalog (26k+ sets, 62k+ parts) directly from MCP-compatible IDEs or
+    assistants without leaving their workflow.
   mental_damage: Now your AI assistant can debate the merits of 2x4 vs. 2x3 bricks while you're trying to debug a segfault.
   tags:
     - mcp-server
@@ -51,31 +58,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a domain-specific MCP server exposing LEGO data as tools for AI assistants."
+  reason: 'MCP is the product identity: this is a domain-specific MCP server exposing LEGO data as tools for AI assistants.'
   evidence:
     - Repo description explicitly states it is an MCP server for LEGO data
     - README shows 10 MCP tools for querying sets/parts/minifigs with IDE integration examples
     - Listed on Glama MCP registry with server badges
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.617Z"
+    updated_at: '2026-05-06T22:12:15.617Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:54.486Z"
+    updated_at: '2026-09-03T05:16:54.486Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:04:14.662Z"
+    updated_at: '2026-07-21T16:04:14.662Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +96,7 @@ processing:
       input_hash: sha256:1f8c0bfb40d5d9d0883a7da54d1e3cfb723f4e0c8d44faa16785ddeeb23e2531
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a domain-specific MCP server exposing LEGO data as tools for AI assistants."
+      decision_reason: 'MCP is the product identity: this is a domain-specific MCP server exposing LEGO data as tools for AI assistants.'
       decision_evidence:
         - Repo description explicitly states it is an MCP server for LEGO data
         - README shows 10 MCP tools for querying sets/parts/minifigs with IDE integration examples
@@ -96,6 +104,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (domain data provider) rather than an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server (domain data provider) rather than
+        an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

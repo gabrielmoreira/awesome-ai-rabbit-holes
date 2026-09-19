@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__consiliency__pmcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,14 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: ViperJuice/mcp-gateway
         extracted_url: https://github.com/viperjuice/mcp-gateway
-        surrounding_text: "- [ViperJuice/mcp-gateway](https://github.com/ViperJuice/mcp-gateway) 🐍 🏠 🍎 🪟 🐧 - A meta-server for minimal Claude Code tool bloat with progressive disclosure and dynamic server provisioning. Exposes 9 stable meta-tools, auto-starts Playwright and Context7, and can dynamically provision 25+ MCP servers on-demand from a curated manifest."
+        surrounding_text: >-
+          - [ViperJuice/mcp-gateway](https://github.com/ViperJuice/mcp-gateway) 🐍 🏠 🍎 🪟 🐧 - A meta-server for
+          minimal Claude Code tool bloat with progressive disclosure and dynamic server provisioning. Exposes 9 stable
+          meta-tools, auto-starts Playwright and Context7, and can dynamically provision 25+ MCP servers on-demand from
+          a curated manifest.
         confidence: high
     - id: discovery__github__viperjuice__pmcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -36,7 +40,11 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: ViperJuice/mcp-gateway
         extracted_url: https://github.com/viperjuice/mcp-gateway
-        surrounding_text: "- [ViperJuice/mcp-gateway](https://github.com/ViperJuice/mcp-gateway) 🐍 🏠 🍎 🪟 🐧 - A meta-server for minimal Claude Code tool bloat with progressive disclosure and dynamic server provisioning. Exposes 9 stable meta-tools, auto-starts Playwright and Context7, and can dynamically provision 25+ MCP servers on-demand from a curated manifest."
+        surrounding_text: >-
+          - [ViperJuice/mcp-gateway](https://github.com/ViperJuice/mcp-gateway) 🐍 🏠 🍎 🪟 🐧 - A meta-server for
+          minimal Claude Code tool bloat with progressive disclosure and dynamic server provisioning. Exposes 9 stable
+          meta-tools, auto-starts Playwright and Context7, and can dynamically provision 25+ MCP servers on-demand from
+          a curated manifest.
         confidence: high
 metadata:
   github:
@@ -46,19 +54,25 @@ metadata:
     archived: false
     full_name: Consiliency/pmcp
     html_url: https://github.com/Consiliency/pmcp
-    created_at: "2025-12-27T23:27:30Z"
-    pushed_at: "2026-09-14T02:41:14Z"
+    created_at: '2025-12-27T23:27:30Z'
+    pushed_at: '2026-09-14T02:41:14Z'
     description: MCP Gateway - A meta-server for minimal Claude Code tool bloat with progressive disclosure
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:28.743Z"
+    last_checked_at: '2026-09-14T04:13:28.743Z'
     readme:
-      fetched_at: "2026-09-14T04:13:28.743Z"
+      fetched_at: '2026-09-14T04:13:28.743Z'
       bytes: 67733
 insights:
-  summary: An MCP meta-server that uses progressive disclosure to prevent context bloat by lazily provisioning downstream tools on demand.
-  why_it_matters: It prevents Claude Code and other MCP clients from being overwhelmed by dozens of tool schemas, saving tokens and reducing cognitive load.
-  mental_damage: Finally, a way to manage the existential dread of seeing a 50-tool JSON schema dump every time you ask a simple question.
+  summary: >-
+    An MCP meta-server that uses progressive disclosure to prevent context bloat by lazily provisioning downstream tools
+    on demand.
+  why_it_matters: >-
+    It prevents Claude Code and other MCP clients from being overwhelmed by dozens of tool schemas, saving tokens and
+    reducing cognitive load.
+  mental_damage: >-
+    Finally, a way to manage the existential dread of seeing a 50-tool JSON schema dump every time you ask a simple
+    question.
   tags:
     - claude-code
     - context-bloat
@@ -74,19 +88,22 @@ curation:
     - README describes it as an 'MCP Gateway' and a 'eta-server'
     - Purpose is to solve context bloat via progressive disclosure of tool schemas
     - Acts as a single intermediary between clients like Claude Code and downstream servers
-    - "Repo description: 'MCP Gateway - A meta-server for minimal Claude Code tool bloat with progressive disclosure'"
-    - "README: 'PMCP acts as a single MCP server that Claude Code connects to' and provides '26 stable meta-tools' instead of exposing 50+ underlying tools directly"
-    - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Aggregators"
+    - 'Repo description: ''MCP Gateway - A meta-server for minimal Claude Code tool bloat with progressive disclosure'''
+    - >-
+      README: 'PMCP acts as a single MCP server that Claude Code connects to' and provides '26 stable meta-tools'
+      instead of exposing 50+ underlying tools directly
+    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Aggregators'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-16T05:13:51.076Z"
+    updated_at: '2026-07-16T05:13:51.076Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
@@ -94,11 +111,11 @@ processing:
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.714Z"
+    updated_at: '2026-07-16T05:04:46.714Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:28.743Z"
+    updated_at: '2026-09-14T04:13:28.743Z'
     cause: null
     next_retry_at: null

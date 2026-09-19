@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ahnlabio__bicscan-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: ahnlabio/bicscan-mcp
         extracted_url: https://github.com/ahnlabio/bicscan-mcp
-        surrounding_text: "- [ahnlabio/bicscan-mcp](https://github.com/ahnlabio/bicscan-mcp) 🎖️ 🐍 ☁️ - Risk score / asset holdings of EVM blockchain address (EOA, CA, ENS) and even domain names."
+        surrounding_text: >-
+          - [ahnlabio/bicscan-mcp](https://github.com/ahnlabio/bicscan-mcp) 🎖️ 🐍 ☁️ - Risk score / asset holdings of
+          EVM blockchain address (EOA, CA, ENS) and even domain names.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,23 @@ metadata:
     archived: false
     full_name: ahnlabio/bicscan-mcp
     html_url: https://github.com/ahnlabio/bicscan-mcp
-    created_at: "2025-03-25T03:27:57Z"
-    pushed_at: "2026-02-17T01:35:00Z"
+    created_at: '2025-03-25T03:27:57Z'
+    pushed_at: '2026-02-17T01:35:00Z'
     description: BICScan MCP Server
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:34.834Z"
+    last_checked_at: '2026-09-17T04:13:34.834Z'
     readme:
-      fetched_at: "2026-09-17T04:13:34.834Z"
+      fetched_at: '2026-09-17T04:13:34.834Z'
       bytes: 3811
 insights:
   summary: An MCP server that provides blockchain address risk scoring and asset information via the BICScan API.
-  why_it_matters: It allows AI assistants to perform real-time security audits and asset lookups for blockchain entities directly within a chat interface.
-  mental_damage: Because knowing exactly how much a malicious wallet holds is the first step toward staring blankly at your terminal in existential dread.
+  why_it_matters: >-
+    It allows AI assistants to perform real-time security audits and asset lookups for blockchain entities directly
+    within a chat interface.
+  mental_damage: >-
+    Because knowing exactly how much a malicious wallet holds is the first step toward staring blankly at your terminal
+    in existential dread.
   tags:
     - mcp
     - blockchain
@@ -52,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is specifically an MCP server designed to provide domain-specific (blockchain) data to AI hosts.
+  reason: >-
+    The product's identity is specifically an MCP server designed to provide domain-specific (blockchain) data to AI
+    hosts.
   evidence:
     - Repo name and description explicitly identify it as an 'MCP Server'
     - README provides configuration instructions specifically for 'claude_desktop_config.json'
     - Functionality is centered on providing external API data (BICScan) as tool capabilities
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.600Z"
+    updated_at: '2026-05-06T22:12:15.600Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:34.834Z"
+    updated_at: '2026-09-17T04:13:34.834Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:06:05.533Z"
+    updated_at: '2026-07-20T16:06:05.533Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +98,9 @@ processing:
       input_hash: sha256:f8671c14771fb99d8f90db159992e3cc5732b166be8d18c6f4103cf679ea870a
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's identity is specifically an MCP server designed to provide domain-specific (blockchain) data to AI hosts.
+      decision_reason: >-
+        The product's identity is specifically an MCP server designed to provide domain-specific (blockchain) data to AI
+        hosts.
       decision_evidence:
         - Repo name and description explicitly identify it as an 'MCP Server'
         - README provides configuration instructions specifically for 'claude_desktop_config.json'
@@ -97,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's primary identity is a protocol-compliant server providing specific domain capabilities via MCP rather than a general workflow extension.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool's primary identity is a protocol-compliant server providing
+        specific domain capabilities via MCP rather than a general workflow extension.
       review_reason: null
       review_resume_lifecycle: null

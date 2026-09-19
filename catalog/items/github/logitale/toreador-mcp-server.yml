@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__logitale__toreador-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: Logitale/toreador-mcp-server
         extracted_url: https://github.com/logitale/toreador-mcp-server
-        surrounding_text: "- [Logitale/toreador-mcp-server](https://github.com/Logitale/toreador-mcp-server) [![Logitale/toreador-mcp-server MCP server](https://glama.ai/mcp/servers/Logitale/toreador-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/Logitale/toreador-mcp-server) 📇 🏠 🍎 🪟 🐧 - Generate crypto QR codes (BTC, ETH, SOL, USDC, USDT, EURC) and manage payment sessions from Claude Desktop or any MCP client. Non-custodial, free."
+        surrounding_text: >-
+          - [Logitale/toreador-mcp-server](https://github.com/Logitale/toreador-mcp-server)
+          [![Logitale/toreador-mcp-server MCP
+          server](https://glama.ai/mcp/servers/Logitale/toreador-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/Logitale/toreador-mcp-server)
+          📇 🏠 🍎 🪟 🐧 - Generate crypto QR codes (BTC, ETH, SOL, USDC, USDT, EURC) and manage payment sessions from
+          Claude Desktop or any MCP client. Non-custodial, free.
         confidence: high
 metadata:
   github:
@@ -30,18 +35,24 @@ metadata:
     archived: false
     full_name: Logitale/toreador-mcp-server
     html_url: https://github.com/Logitale/toreador-mcp-server
-    created_at: "2026-04-30T11:41:34Z"
-    pushed_at: "2026-06-06T06:19:00Z"
-    description: Official Model Context Protocol (MCP) server for Toreador — generate crypto QR codes and manage payment sessions from Claude Desktop, Cursor, ChatGPT and other MCP clients.
+    created_at: '2026-04-30T11:41:34Z'
+    pushed_at: '2026-06-06T06:19:00Z'
+    description: >-
+      Official Model Context Protocol (MCP) server for Toreador — generate crypto QR codes and manage payment sessions
+      from Claude Desktop, Cursor, ChatGPT and other MCP clients.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:06:07.806Z"
+    last_checked_at: '2026-07-30T05:06:07.806Z'
     readme:
-      fetched_at: "2026-07-30T05:06:07.806Z"
+      fetched_at: '2026-07-30T05:06:07.806Z'
       bytes: 3848
 insights:
-  summary: An MCP server that enables crypto QR code generation and payment session management via Toreador API from MCP-capable assistants.
-  why_it_matters: Lets developers trigger crypto payments and generate QR codes directly from their AI assistant without leaving the chat interface.
+  summary: >-
+    An MCP server that enables crypto QR code generation and payment session management via Toreador API from
+    MCP-capable assistants.
+  why_it_matters: >-
+    Lets developers trigger crypto payments and generate QR codes directly from their AI assistant without leaving the
+    chat interface.
   mental_damage: Finally, a way to pay for your AI’s overconfidence in real-time, on-chain.
   tags:
     - mcp
@@ -51,31 +62,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core identity and functionality are defined by exposing Toreador’s crypto payment tools over the Model Context Protocol, making it MCP infrastructure first and foremost.
+  reason: >-
+    The product is an MCP server whose core identity and functionality are defined by exposing Toreador’s crypto payment
+    tools over the Model Context Protocol, making it MCP infrastructure first and foremost.
   evidence:
-    - "Repo description: 'Official Model Context Protocol (MCP) server for Toreador'"
-    - "README: Exposes 5 MCP tools for generating crypto QR codes and managing payment sessions"
-    - "Source-list context: Listed in awesome-mcp-servers under Finance & Fintech"
+    - 'Repo description: ''Official Model Context Protocol (MCP) server for Toreador'''
+    - 'README: Exposes 5 MCP tools for generating crypto QR codes and managing payment sessions'
+    - 'Source-list context: Listed in awesome-mcp-servers under Finance & Fintech'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.819Z"
+    updated_at: '2026-05-28T05:28:09.819Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:07.806Z"
+    updated_at: '2026-07-30T05:06:07.806Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-02T05:31:32.830Z"
+    updated_at: '2026-07-02T05:31:32.830Z'
     cause: null
     next_retry_at: null
     attempts: 1

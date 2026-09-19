@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__meta-pytorch__torchtune__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,7 @@ provenance:
           - 微调 Fine-Tuning
         anchor_text: torchtune
         extracted_url: https://github.com/pytorch/torchtune
-        surrounding_text: "8. [torchtune](https://github.com/pytorch/torchtune): A Native-PyTorch Library for LLM Fine-tuning."
+        surrounding_text: '8. [torchtune](https://github.com/pytorch/torchtune): A Native-PyTorch Library for LLM Fine-tuning.'
         confidence: high
 metadata:
   github:
@@ -29,18 +29,20 @@ metadata:
     archived: false
     full_name: meta-pytorch/torchtune
     html_url: https://github.com/meta-pytorch/torchtune
-    created_at: "2023-10-20T21:10:49Z"
-    pushed_at: "2026-08-02T11:52:17Z"
+    created_at: '2023-10-20T21:10:49Z'
+    pushed_at: '2026-08-02T11:52:17Z'
     description: PyTorch native post-training library
     homepage: https://pytorch.org/torchtune/main/
     topics: []
-    last_checked_at: "2026-08-03T05:17:00.452Z"
+    last_checked_at: '2026-08-03T05:17:00.452Z'
     readme:
-      fetched_at: "2026-08-03T05:17:00.452Z"
+      fetched_at: '2026-08-03T05:17:00.452Z'
       bytes: 22988
 insights:
   summary: PyTorch native post-training library for large language model fine-tuning.
-  why_it_matters: Provides a streamlined, native PyTorch approach to LLM fine-tuning, reducing friction in model customization workflows.
+  why_it_matters: >-
+    Provides a streamlined, native PyTorch approach to LLM fine-tuning, reducing friction in model customization
+    workflows.
   mental_damage: Fine-tuning anxiety wrapped in another PyTorch abstraction layer.
   tags:
     - llm
@@ -49,31 +51,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: torchtune is a code-first library for LLM fine-tuning workflows, used programmatically rather than as a standalone assistant or orchestration platform, fitting the Frameworks & SDKs category.
+  reason: >-
+    torchtune is a code-first library for LLM fine-tuning workflows, used programmatically rather than as a standalone
+    assistant or orchestration platform, fitting the Frameworks & SDKs category.
   evidence:
-    - "Repo description: 'PyTorch native post-training library'"
-    - "Homepage: https://pytorch.org/torchtune/main/ positions it as a PyTorch-native toolkit"
-    - "Source-list context: listed under '微调 Fine-Tuning' in awesome-LLM-resources, indicating its role as a specialized ML toolkit"
+    - 'Repo description: ''PyTorch native post-training library'''
+    - 'Homepage: https://pytorch.org/torchtune/main/ positions it as a PyTorch-native toolkit'
+    - >-
+      Source-list context: listed under '微调 Fine-Tuning' in awesome-LLM-resources, indicating its role as a specialized
+      ML toolkit
 placement:
-  primary_category: ai-frameworks
-  section: Workflow / Graph Engines
+  primary_category: local-ai
+  secondary_categories: []
+  section: Fine-tuning & Training
 lifecycle:
   status: promotion_candidate
   reason: Stars (5749) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.629Z"
+    updated_at: '2026-05-06T22:12:15.629Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:00.452Z"
+    updated_at: '2026-08-03T05:17:00.452Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:20:15.145Z"
+    updated_at: '2026-07-21T16:20:15.145Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -86,14 +93,20 @@ processing:
       input_hash: sha256:382434e2daea49df620b171657aa903468467e2d64c2071c64b5c984e7d11ea2
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: torchtune is a code-first library for LLM fine-tuning workflows, used programmatically rather than as a standalone assistant or orchestration platform, fitting the Frameworks & SDKs category.
+      decision_reason: >-
+        torchtune is a code-first library for LLM fine-tuning workflows, used programmatically rather than as a
+        standalone assistant or orchestration platform, fitting the Frameworks & SDKs category.
       decision_evidence:
-        - "Repo description: 'PyTorch native post-training library'"
-        - "Homepage: https://pytorch.org/torchtune/main/ positions it as a PyTorch-native toolkit"
-        - "Source-list context: listed under '微调 Fine-Tuning' in awesome-LLM-resources, indicating its role as a specialized ML toolkit"
+        - 'Repo description: ''PyTorch native post-training library'''
+        - 'Homepage: https://pytorch.org/torchtune/main/ positions it as a PyTorch-native toolkit'
+        - >-
+          Source-list context: listed under '微调 Fine-Tuning' in awesome-LLM-resources, indicating its role as a
+          specialized ML toolkit
       category_candidates:
         - ai-frameworks
         - agent-orchestration
-      contrastive_reason: Choose ai-frameworks over agent-orchestration because torchtune is primarily imported and scripted as a library for fine-tuning workflows, not operated as a multi-agent control plane or runtime platform.
+      contrastive_reason: >-
+        Choose ai-frameworks over agent-orchestration because torchtune is primarily imported and scripted as a library
+        for fine-tuning workflows, not operated as a multi-agent control plane or runtime platform.
       review_reason: null
       review_resume_lifecycle: null

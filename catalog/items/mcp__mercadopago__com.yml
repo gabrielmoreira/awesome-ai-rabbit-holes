@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mcp__mercadopago__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Official Servers
         anchor_text: Mercado Pago
         extracted_url: https://mcp.mercadopago.com
-        surrounding_text: "- **[Mercado Pago](https://mcp.mercadopago.com/)** - Mercado Pago's official MCP server, offering tools to interact with our API, simplifying tasks and product integration."
+        surrounding_text: >-
+          - **[Mercado Pago](https://mcp.mercadopago.com/)** - Mercado Pago's official MCP server, offering tools to
+          interact with our API, simplifying tasks and product integration.
         confidence: high
 metadata:
   github:
@@ -37,7 +39,9 @@ metadata:
     readme: null
 insights:
   summary: An MCP server for MercadoPago's API and services.
-  why_it_matters: Allows AI assistants to interact with MercadoPago's payment and e-commerce infrastructure via the Model Context Protocol.
+  why_it_matters: >-
+    Allows AI assistants to interact with MercadoPago's payment and e-commerce infrastructure via the Model Context
+    Protocol.
   mental_damage: Now your AI can argue with Latin American payment gateways in real time.
   tags:
     - mcp
@@ -53,14 +57,15 @@ curation:
     - URL and naming convention (mcp.mercadopago.com) indicate MCP-first identity
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +74,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:29:43.748Z"
+    updated_at: '2026-07-21T15:29:43.748Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,6 +94,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another tool.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an
+        extension for another tool.
       review_reason: null
       review_resume_lifecycle: null

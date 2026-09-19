@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cursor__com__cli__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -19,7 +19,9 @@ provenance:
           - Closed Source
         anchor_text: Cursor CLI
         extracted_url: https://cursor.com/cli
-        surrounding_text: "- **[Cursor CLI](https://cursor.com/cli)** `[Cursor]` — Cursor's official command-line agent (`agent`) with shell mode, headless/CI support, parallel agents, and multi-model access."
+        surrounding_text: >-
+          - **[Cursor CLI](https://cursor.com/cli)** `[Cursor]` — Cursor's official command-line agent (`agent`) with
+          shell mode, headless/CI support, parallel agents, and multi-model access.
         confidence: high
 metadata:
   github:
@@ -38,7 +40,9 @@ metadata:
     readme: null
 insights:
   summary: A terminal-based interface that brings Cursor's agentic capabilities to any environment via the command line.
-  why_it_matters: It allows developers to run powerful, multi-model agents in CI/CD pipelines, shell scripts, and remote environments where a full IDE isn't available.
+  why_it_matters: >-
+    It allows developers to run powerful, multi-model agents in CI/CD pipelines, shell scripts, and remote environments
+    where a full IDE isn't available.
   mental_damage: Now you can watch an agent hallucinate in your terminal instead of just in your IDE.
   tags:
     - terminal
@@ -56,6 +60,7 @@ curation:
     - Provides a terminal-based chat interface for planning and building
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: incubating
@@ -63,7 +68,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.660Z"
+    updated_at: '2026-05-06T22:12:15.660Z'
     cause: null
     next_retry_at: null
   stars:
@@ -72,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:35:13.206Z"
+    updated_at: '2026-07-20T15:35:13.206Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -93,6 +98,8 @@ processing:
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because it functions as a primary autonomous agent capable of executing plans and running shell commands, rather than just an augmentation layer for an existing editor.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because it functions as a primary autonomous agent capable of
+        executing plans and running shell commands, rather than just an augmentation layer for an existing editor.
       review_reason: null
       review_resume_lifecycle: null

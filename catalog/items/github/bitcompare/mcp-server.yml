@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bitcompare__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-22T05:53:30.454Z"
+      discovered_at: '2026-06-22T05:53:30.454Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: bitcompare/mcp-server
         extracted_url: https://github.com/bitcompare/mcp-server
-        surrounding_text: "- [bitcompare/mcp-server](https://github.com/bitcompare/mcp-server) [![bitcompare/mcp-server MCP server](https://glama.ai/mcp/servers/bitcompare/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/bitcompare/mcp-server) 🎖️ 📇 ☁️ - Crypto rates (lending, staking, borrowing), coin metadata, aggregated prices, market stats, stablecoin peg-stability, and symbol resolution. 18 tools. Hosted at `api.bitcompare.net/mcp` or via `npx @bitcompare/mcp-server`."
+        surrounding_text: >-
+          - [bitcompare/mcp-server](https://github.com/bitcompare/mcp-server) [![bitcompare/mcp-server MCP
+          server](https://glama.ai/mcp/servers/bitcompare/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/bitcompare/mcp-server)
+          🎖️ 📇 ☁️ - Crypto rates (lending, staking, borrowing), coin metadata, aggregated prices, market stats,
+          stablecoin peg-stability, and symbol resolution. 18 tools. Hosted at `api.bitcompare.net/mcp` or via `npx
+          @bitcompare/mcp-server`.
         confidence: high
 metadata:
   github:
@@ -30,19 +35,25 @@ metadata:
     archived: false
     full_name: bitcompare/mcp-server
     html_url: https://github.com/bitcompare/mcp-server
-    created_at: "2026-06-15T04:00:18Z"
-    pushed_at: "2026-06-15T05:43:26Z"
+    created_at: '2026-06-15T04:00:18Z'
+    pushed_at: '2026-06-15T05:43:26Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:34.587Z"
+    last_checked_at: '2026-09-07T04:13:34.587Z'
     readme:
-      fetched_at: "2026-09-07T04:13:34.587Z"
+      fetched_at: '2026-09-07T04:13:34.587Z'
       bytes: 3598
 insights:
-  summary: An MCP server providing Claude and other compatible agents with live and historical crypto yield, pricing, and market metadata.
-  why_it_matters: Allows developers to build financial agents or integrate real-time DeFi and CeFi yield data directly into their AI coding environments without writing custom API wrappers.
-  mental_damage: Because nothing says 'developer productivity' like giving your IDE the ability to monitor the current yield on BTC while you're supposed to be fixing a bug.
+  summary: >-
+    An MCP server providing Claude and other compatible agents with live and historical crypto yield, pricing, and
+    market metadata.
+  why_it_matters: >-
+    Allows developers to build financial agents or integrate real-time DeFi and CeFi yield data directly into their AI
+    coding environments without writing custom API wrappers.
+  mental_damage: >-
+    Because nothing says 'developer productivity' like giving your IDE the ability to monitor the current yield on BTC
+    while you're supposed to be fixing a bug.
   tags:
     - mcp
     - crypto
@@ -52,31 +63,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's identity is explicitly an MCP server, serving as a bridge between a specific data domain (crypto yield) and MCP-compatible agents.
+  reason: >-
+    The project's identity is explicitly an MCP server, serving as a bridge between a specific data domain (crypto
+    yield) and MCP-compatible agents.
   evidence:
     - README describes itself as the 'official crypto yield data MCP server'
     - Implemented specifically for the Model Context Protocol (MCP)
     - Includes configuration guides for Claude Desktop and Claude Code MCP settings
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-22T05:53:30.455Z"
+    updated_at: '2026-06-22T05:53:30.455Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:34.587Z"
+    updated_at: '2026-09-07T04:13:34.587Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-22T05:56:18.880Z"
+    updated_at: '2026-06-22T05:56:18.880Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

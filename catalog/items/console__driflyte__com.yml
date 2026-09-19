@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__console__driflyte__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,10 @@ provenance:
           - Official Servers
         anchor_text: Driflyte
         extracted_url: https://console.driflyte.com
-        surrounding_text: "- **[Driflyte](https://github.com/serkan-ozal/driflyte-mcp-server)** - MCP Server for [Driflyte](https://console.driflyte.com). The Driflyte MCP Server exposes tools that allow AI assistants to query and retrieve topic-specific knowledge from recursively crawled and indexed web pages."
+        surrounding_text: >-
+          - **[Driflyte](https://github.com/serkan-ozal/driflyte-mcp-server)** - MCP Server for
+          [Driflyte](https://console.driflyte.com). The Driflyte MCP Server exposes tools that allow AI assistants to
+          query and retrieve topic-specific knowledge from recursively crawled and indexed web pages.
         confidence: high
 metadata:
   github:
@@ -37,7 +40,9 @@ metadata:
     readme: null
 insights:
   summary: A collection of Model Context Protocol (MCP) servers used to connect AI models to external data and tools.
-  why_it_matters: It provides standardized connectors that allow LLMs to interact with diverse local and remote services via a unified protocol.
+  why_it_matters: >-
+    It provides standardized connectors that allow LLMs to interact with diverse local and remote services via a unified
+    protocol.
   mental_damage: Another layer of abstraction to debug when the LLM suddenly starts hallucinating your database schema.
   tags:
     - mcp
@@ -47,20 +52,23 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly identified in source lists as an MCP server registry/collection, making MCP its primary identity.
+  reason: >-
+    The project is explicitly identified in source lists as an MCP server registry/collection, making MCP its primary
+    identity.
   evidence:
     - Found in 'awesome-mcp-servers' directory
     - Purpose is specifically providing MCP servers
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Registries & Discovery
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.660Z"
+    updated_at: '2026-05-06T22:12:15.660Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:33:54.635Z"
+    updated_at: '2026-07-20T15:33:54.635Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -82,13 +90,17 @@ processing:
       input_hash: sha256:a9945a761556adb30ad579f49aff946d70b5203a469b878e00484dfcca7f39bf
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is explicitly identified in source lists as an MCP server registry/collection, making MCP its primary identity.
+      decision_reason: >-
+        The project is explicitly identified in source lists as an MCP server registry/collection, making MCP its
+        primary identity.
       decision_evidence:
         - Found in 'awesome-mcp-servers' directory
         - Purpose is specifically providing MCP servers
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the project's core identity is the provision of protocol-compliant servers rather than augmenting a specific IDE or assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the project's core identity is the provision of protocol-compliant
+        servers rather than augmenting a specific IDE or assistant.
       review_reason: null
       review_resume_lifecycle: null

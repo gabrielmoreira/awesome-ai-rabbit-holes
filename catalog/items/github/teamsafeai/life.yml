@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__teamsafeai__life__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: TeamSafeAI/LIFE
         extracted_url: https://github.com/teamsafeai/life
-        surrounding_text: "- [TeamSafeAI/LIFE](https://github.com/TeamSafeAI/LIFE) 🐍 🏠 - Persistent identity architecture for AI agents. 16 MCP servers covering drives, emotional relationships, semantic memory with decay, working threads, learned patterns, journal, genesis (identity discovery), creative collision engine, forecasting, and voice. Zero dependencies beyond Python 3.8. Built across 938 conversations."
+        surrounding_text: >-
+          - [TeamSafeAI/LIFE](https://github.com/TeamSafeAI/LIFE) 🐍 🏠 - Persistent identity architecture for AI
+          agents. 16 MCP servers covering drives, emotional relationships, semantic memory with decay, working threads,
+          learned patterns, journal, genesis (identity discovery), creative collision engine, forecasting, and voice.
+          Zero dependencies beyond Python 3.8. Built across 938 conversations.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: TeamSafeAI/LIFE
     html_url: https://github.com/TeamSafeAI/LIFE
-    created_at: "2026-02-12T17:02:48Z"
-    pushed_at: "2026-02-16T17:31:11Z"
-    description: "LIFE — Persistent identity architecture for AI agents. 16 MCP servers: drives, heart, memory, patterns, journal, genesis, garden, vision, voice, and more. Zero dependencies. Built across 938 conversations."
+    created_at: '2026-02-12T17:02:48Z'
+    pushed_at: '2026-02-16T17:31:11Z'
+    description: >-
+      LIFE — Persistent identity architecture for AI agents. 16 MCP servers: drives, heart, memory, patterns, journal,
+      genesis, garden, vision, voice, and more. Zero dependencies. Built across 938 conversations.
     homepage: null
     topics:
       - agent-architecture
@@ -53,14 +59,20 @@ metadata:
       - python
       - semantic-memory
       - sqlite
-    last_checked_at: "2026-07-21T15:20:41.629Z"
+    last_checked_at: '2026-07-21T15:20:41.629Z'
     readme:
-      fetched_at: "2026-07-21T15:20:41.629Z"
+      fetched_at: '2026-07-21T15:20:41.629Z'
       bytes: 9447
 insights:
-  summary: LIFE is a persistent identity and memory architecture for AI agents, implemented as 16 MCP servers providing drives, emotional memory, semantic storage, and self-narrative tooling with zero dependencies.
-  why_it_matters: It gives developers a drop-in substrate for adding long-term memory, motivation modeling, and contextual continuity to local or hosted agents via standard MCP clients.
-  mental_damage: You can now provision an agent with existential drives, an emotional heart, and a 938-conversation origin story, yet it still cannot fix your failing CI pipeline.
+  summary: >-
+    LIFE is a persistent identity and memory architecture for AI agents, implemented as 16 MCP servers providing drives,
+    emotional memory, semantic storage, and self-narrative tooling with zero dependencies.
+  why_it_matters: >-
+    It gives developers a drop-in substrate for adding long-term memory, motivation modeling, and contextual continuity
+    to local or hosted agents via standard MCP clients.
+  mental_damage: >-
+    You can now provision an agent with existential drives, an emotional heart, and a 938-conversation origin story, yet
+    it still cannot fix your failing CI pipeline.
   tags:
     - mcp
     - agent-memory
@@ -70,35 +82,44 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product's core identity is a suite of MCP servers exposing memory, drives, journaling, and perception modules, making it a fit for MCP Servers & Tooling.
+  reason: >-
+    The product's core identity is a suite of MCP servers exposing memory, drives, journaling, and perception modules,
+    making it a fit for MCP Servers & Tooling.
   evidence:
-    - "Repo description explicitly states '16 MCP servers: drives, heart, memory, patterns, journal, genesis, garden, vision, voice, and more.'"
-    - README instructs users to 'copy mcp_config.json into your AI client's MCP server settings' so 'every module becomes a tool you can call.'
-    - Topics include 'mcp', 'mcp-server', and 'model-context-protocol', and it is listed in awesome-mcp-servers under Knowledge & Memory.
+    - >-
+      Repo description explicitly states '16 MCP servers: drives, heart, memory, patterns, journal, genesis, garden,
+      vision, voice, and more.'
+    - >-
+      README instructs users to 'copy mcp_config.json into your AI client's MCP server settings' so 'every module
+      becomes a tool you can call.'
+    - >-
+      Topics include 'mcp', 'mcp-server', and 'model-context-protocol', and it is listed in awesome-mcp-servers under
+      Knowledge & Memory.
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.650Z"
+    updated_at: '2026-05-06T22:12:15.650Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:41.629Z"
+    updated_at: '2026-07-21T15:20:41.629Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

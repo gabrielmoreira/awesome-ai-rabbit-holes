@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__luizedupp__rememb__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: LuizEduPP/rememb
         extracted_url: https://github.com/luizedupp/rememb
-        surrounding_text: "- [LuizEduPP/rememb](https://github.com/LuizEduPP/Rememb) [![rememb MCP server](https://glama.ai/mcp/servers/LuizEduPP/Rememb/badges/score.svg)](https://glama.ai/mcp/servers/LuizEduPP/Rememb) 🐍 🏠 🍎 🪟 🐧 - Persistent memory for AI agents with sectioned entries (project/user/context/etc), semantic search, CLI, and per-project scope. Local JSON, zero config, no server required."
+        surrounding_text: >-
+          - [LuizEduPP/rememb](https://github.com/LuizEduPP/Rememb) [![rememb MCP
+          server](https://glama.ai/mcp/servers/LuizEduPP/Rememb/badges/score.svg)](https://glama.ai/mcp/servers/LuizEduPP/Rememb)
+          🐍 🏠 🍎 🪟 🐧 - Persistent memory for AI agents with sectioned entries (project/user/context/etc), semantic
+          search, CLI, and per-project scope. Local JSON, zero config, no server required.
         confidence: high
 metadata:
   github:
@@ -30,10 +34,10 @@ metadata:
     archived: false
     full_name: LuizEduPP/Rememb
     html_url: https://github.com/LuizEduPP/Rememb
-    created_at: "2026-04-11T02:58:39Z"
-    pushed_at: "2026-06-25T23:31:36Z"
+    created_at: '2026-04-11T02:58:39Z'
+    pushed_at: '2026-06-25T23:31:36Z'
     description: Persistent memory for AI agents — local, portable, zero config. Works with Cursor, Windsurf, Claude via MCP.
-    homepage: ""
+    homepage: ''
     topics:
       - agent-memory
       - ai-agents
@@ -55,14 +59,20 @@ metadata:
       - moltbot
       - persistent-memory
       - windsurf
-    last_checked_at: "2026-07-30T05:06:09.066Z"
+    last_checked_at: '2026-07-30T05:06:09.066Z'
     readme:
-      fetched_at: "2026-07-30T05:06:09.066Z"
+      fetched_at: '2026-07-30T05:06:09.066Z'
       bytes: 10516
 insights:
-  summary: rememb is a local, zero-config persistent memory system for AI agents that stores project context in a .rememb/ directory and works via MCP with Cursor, Windsurf, and Claude.
-  why_it_matters: It solves the repetitive context reloading problem in AI-assisted development by giving agents project-scoped memory that survives sessions without requiring cloud services or API keys.
-  mental_damage: Finally, a way to make your AI agent remember your project’s auth strategy without manually re-pasting it every time you start a new chat — until you forget where you put the .rememb folder.
+  summary: >-
+    rememb is a local, zero-config persistent memory system for AI agents that stores project context in a .rememb/
+    directory and works via MCP with Cursor, Windsurf, and Claude.
+  why_it_matters: >-
+    It solves the repetitive context reloading problem in AI-assisted development by giving agents project-scoped memory
+    that survives sessions without requiring cloud services or API keys.
+  mental_damage: >-
+    Finally, a way to make your AI agent remember your project’s auth strategy without manually re-pasting it every time
+    you start a new chat — until you forget where you put the .rememb folder.
   tags:
     - memory
     - mcp
@@ -72,31 +82,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: rememb’s core value is persistent, local memory management for AI agents via structured JSON storage and semantic search, making it a context-shaping infrastructure rather than a coding agent or host extension.
+  reason: >-
+    rememb’s core value is persistent, local memory management for AI agents via structured JSON storage and semantic
+    search, making it a context-shaping infrastructure rather than a coding agent or host extension.
   evidence:
-    - "README states: 'rememb gives them persistent memory — local, portable, and works with any agent' and describes saving/loading project context like tech stack, auth location, and async patterns"
-    - Core functionality revolves around .rememb/ directory with entries.json, meta.json, and config.json for structured memory storage and retrieval
-    - Uses local semantic embeddings (paraphrase-MiniLM-L3-v2) for search without API calls, emphasizing on-device, zero-config memory persistence
+    - >-
+      README states: 'rememb gives them persistent memory — local, portable, and works with any agent' and describes
+      saving/loading project context like tech stack, auth location, and async patterns
+    - >-
+      Core functionality revolves around .rememb/ directory with entries.json, meta.json, and config.json for structured
+      memory storage and retrieval
+    - >-
+      Uses local semantic embeddings (paraphrase-MiniLM-L3-v2) for search without API calls, emphasizing on-device,
+      zero-config memory persistence
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: '2026-05-06T22:12:15.627Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:09.066Z"
+    updated_at: '2026-07-30T05:06:09.066Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:17:38.777Z"
+    updated_at: '2026-07-21T16:17:38.777Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -109,14 +128,25 @@ processing:
       input_hash: sha256:4c86f5c8ffe87c768a0e44015a22f7230c4806472a6b4384dace4ce5288b3eb5
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: rememb’s core value is persistent, local memory management for AI agents via structured JSON storage and semantic search, making it a context-shaping infrastructure rather than a coding agent or host extension.
+      decision_reason: >-
+        rememb’s core value is persistent, local memory management for AI agents via structured JSON storage and
+        semantic search, making it a context-shaping infrastructure rather than a coding agent or host extension.
       decision_evidence:
-        - "README states: 'rememb gives them persistent memory — local, portable, and works with any agent' and describes saving/loading project context like tech stack, auth location, and async patterns"
-        - Core functionality revolves around .rememb/ directory with entries.json, meta.json, and config.json for structured memory storage and retrieval
-        - Uses local semantic embeddings (paraphrase-MiniLM-L3-v2) for search without API calls, emphasizing on-device, zero-config memory persistence
+        - >-
+          README states: 'rememb gives them persistent memory — local, portable, and works with any agent' and describes
+          saving/loading project context like tech stack, auth location, and async patterns
+        - >-
+          Core functionality revolves around .rememb/ directory with entries.json, meta.json, and config.json for
+          structured memory storage and retrieval
+        - >-
+          Uses local semantic embeddings (paraphrase-MiniLM-L3-v2) for search without API calls, emphasizing on-device,
+          zero-config memory persistence
       category_candidates:
         - context-engineering
         - ai-dev-extensions
-      contrastive_reason: Choose context-engineering over ai-dev-extensions because the core novelty is memory storage, retrieval, and semantic search infrastructure rather than augmenting another assistant with host integrations like debugger or browser access.
+      contrastive_reason: >-
+        Choose context-engineering over ai-dev-extensions because the core novelty is memory storage, retrieval, and
+        semantic search infrastructure rather than augmenting another assistant with host integrations like debugger or
+        browser access.
       review_reason: null
       review_resume_lifecycle: null

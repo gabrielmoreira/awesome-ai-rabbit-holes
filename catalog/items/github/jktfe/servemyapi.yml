@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jktfe__servemyapi__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Jktfe/serveMyAPI
         extracted_url: https://github.com/jktfe/servemyapi
-        surrounding_text: "- [Jktfe/serveMyAPI](https://github.com/Jktfe/serveMyAPI) 📇 🏠 🍎 - A personal MCP (Model Context Protocol) server for securely storing and accessing API keys across projects using the macOS Keychain."
+        surrounding_text: >-
+          - [Jktfe/serveMyAPI](https://github.com/Jktfe/serveMyAPI) 📇 🏠 🍎 - A personal MCP (Model Context Protocol)
+          server for securely storing and accessing API keys across projects using the macOS Keychain.
         confidence: high
     - id: discovery__github__jktfe__servemyapi__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -33,9 +35,12 @@ provenance:
         mode: parsed
         section_path:
           - 💻 Developer Tools
-        anchor_text: "@Jktfe/serveMyAPI"
+        anchor_text: '@Jktfe/serveMyAPI'
         extracted_url: https://github.com/jktfe/servemyapi
-        surrounding_text: "-   **[@Jktfe/serveMyAPI](https://github.com/Jktfe/serveMyAPI)** [![GitHub stars](https://img.shields.io/github/stars/Jktfe/serveMyAPI?style=social)](https://github.com/Jktfe/serveMyAPI): Securely stores and accesses API keys across projects using the macOS Keychain."
+        surrounding_text: >-
+          -   **[@Jktfe/serveMyAPI](https://github.com/Jktfe/serveMyAPI)** [![GitHub
+          stars](https://img.shields.io/github/stars/Jktfe/serveMyAPI?style=social)](https://github.com/Jktfe/serveMyAPI):
+          Securely stores and accesses API keys across projects using the macOS Keychain.
         confidence: high
 metadata:
   github:
@@ -45,19 +50,23 @@ metadata:
     archived: false
     full_name: Jktfe/serveMyAPI
     html_url: https://github.com/Jktfe/serveMyAPI
-    created_at: "2025-03-14T11:39:12Z"
-    pushed_at: "2026-05-31T20:14:14Z"
+    created_at: '2025-03-14T11:39:12Z'
+    pushed_at: '2026-05-31T20:14:14Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:50.889Z"
+    last_checked_at: '2026-07-30T05:05:50.889Z'
     readme:
-      fetched_at: "2026-07-30T05:05:50.889Z"
+      fetched_at: '2026-07-30T05:05:50.889Z'
       bytes: 10460
 insights:
   summary: A macOS-specific MCP server for securely storing and accessing API keys via the macOS Keychain.
-  why_it_matters: It solves the 'hidden context' problem of .ENV files by letting AI assistants request API keys through natural language while keeping credentials secure and centralized.
-  mental_damage: Finally, a way to stop your LLM from pretending it can't see your .ENV files while also pretending it can read your mind.
+  why_it_matters: >-
+    It solves the 'hidden context' problem of .ENV files by letting AI assistants request API keys through natural
+    language while keeping credentials secure and centralized.
+  mental_damage: >-
+    Finally, a way to stop your LLM from pretending it can't see your .ENV files while also pretending it can read your
+    mind.
   tags:
     - mcp
     - api-keys
@@ -67,31 +76,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server for API key management, making it a clear fit for MCP Servers & Tooling.
+  reason: >-
+    The product's core identity is an MCP server for API key management, making it a clear fit for MCP Servers &
+    Tooling.
   evidence:
     - README explicitly describes it as a personal MCP server for API key storage/access
     - Listed in awesome-mcp-list and awesome-mcp-servers under Developer Tools
     - Supports stdio and HTTP/SSE transports for MCP clients
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.588Z"
+    updated_at: '2026-05-06T22:12:15.588Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:50.889Z"
+    updated_at: '2026-07-30T05:05:50.889Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:51.440Z"
+    updated_at: '2026-07-21T16:10:51.440Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,7 +116,9 @@ processing:
       input_hash: sha256:7a68f408fa0184007acde895a630240c8313a0b3dccddfd580bddaa63f76b3ef
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP server for API key management, making it a clear fit for MCP Servers & Tooling.
+      decision_reason: >-
+        The product's core identity is an MCP server for API key management, making it a clear fit for MCP Servers &
+        Tooling.
       decision_evidence:
         - README explicitly describes it as a personal MCP server for API key storage/access
         - Listed in awesome-mcp-list and awesome-mcp-servers under Developer Tools
@@ -112,6 +126,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary product identity is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary product identity is an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

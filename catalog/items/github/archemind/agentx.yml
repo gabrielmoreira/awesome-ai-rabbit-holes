@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__archemind__agentx__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-09-14T04:13:20.171Z"
+      discovered_at: '2026-09-14T04:13:20.171Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Session managers & parallel runners
         anchor_text: AgentX
         extracted_url: https://github.com/archemind/agentx
-        surrounding_text: "- **[AgentX](https://github.com/ArcheMind/agentx)** `⭐ 0` — Native-first runtime manager for Claude Code, Codex CLI, DeepSeek Harness, Gemini CLI, OpenCode, and Pi. Launch or resume each agent through its own CLI while preserving native configurations, credentials, and session stores. Go, MIT."
+        surrounding_text: >-
+          - **[AgentX](https://github.com/ArcheMind/agentx)** `⭐ 0` — Native-first runtime manager for Claude Code,
+          Codex CLI, DeepSeek Harness, Gemini CLI, OpenCode, and Pi. Launch or resume each agent through its own CLI
+          while preserving native configurations, credentials, and session stores. Go, MIT.
         confidence: high
 metadata:
   github:
@@ -30,10 +33,10 @@ metadata:
     archived: false
     full_name: ArcheMind/agentx
     html_url: https://github.com/ArcheMind/agentx
-    created_at: "2026-09-10T18:31:04Z"
-    pushed_at: "2026-09-13T11:12:49Z"
+    created_at: '2026-09-10T18:31:04Z'
+    pushed_at: '2026-09-13T11:12:49Z'
     description: Native-first runtime manager for discovering, installing, launching, and resuming AI coding-agent CLIs.
-    homepage: ""
+    homepage: ''
     topics:
       - ai-agents
       - claude-code
@@ -44,14 +47,20 @@ metadata:
       - gemini-cli
       - golang
       - opencode
-    last_checked_at: "2026-09-14T04:13:22.633Z"
+    last_checked_at: '2026-09-14T04:13:22.633Z'
     readme:
-      fetched_at: "2026-09-14T04:13:22.633Z"
+      fetched_at: '2026-09-14T04:13:22.633Z'
       bytes: 8703
 insights:
-  summary: A CLI runtime manager for discovering, installing, and resuming sessions across multiple AI coding agent executables.
-  why_it_matters: It provides a unified command-line interface to manage the fragmented workflows and disparate session stores of different coding agents like Claude Code and Gemini CLI.
-  mental_damage: It solves the specific anxiety of forgetting which terminal tab contains the session where your agent actually finished the task.
+  summary: >-
+    A CLI runtime manager for discovering, installing, and resuming sessions across multiple AI coding agent
+    executables.
+  why_it_matters: >-
+    It provides a unified command-line interface to manage the fragmented workflows and disparate session stores of
+    different coding agents like Claude Code and Gemini CLI.
+  mental_damage: >-
+    It solves the specific anxiety of forgetting which terminal tab contains the session where your agent actually
+    finished the task.
   tags:
     - cli
     - agent-orchestration
@@ -61,31 +70,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It serves as a centralized control plane for managing the lifecycle and sessions of multiple disparate coding agent CLIs rather than acting as a single assistant.
+  reason: >-
+    It serves as a centralized control plane for managing the lifecycle and sessions of multiple disparate coding agent
+    CLIs rather than acting as a single assistant.
   evidence:
     - README defines the tool as a 'native-first runtime manager' for various agents.
     - Provides unified commands for listing, installing, and resuming sessions across multiple specific tools.
     - Explicitly targets multiple existing runtimes including Claude Code, Codex CLI, and Gemini CLI.
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-14T04:13:20.172Z"
+    updated_at: '2026-09-14T04:13:20.172Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:22.633Z"
+    updated_at: '2026-09-14T04:13:22.633Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-17T04:14:18.524Z"
+    updated_at: '2026-09-17T04:14:18.524Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,7 +108,9 @@ processing:
       input_hash: sha256:44f671fa67ede352d0402e0a383bb624fc37c47dc2c7adfa122eebd7adac064a
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: It serves as a centralized control plane for managing the lifecycle and sessions of multiple disparate coding agent CLIs rather than acting as a single assistant.
+      decision_reason: >-
+        It serves as a centralized control plane for managing the lifecycle and sessions of multiple disparate coding
+        agent CLIs rather than acting as a single assistant.
       decision_evidence:
         - README defines the tool as a 'native-first runtime manager' for various agents.
         - Provides unified commands for listing, installing, and resuming sessions across multiple specific tools.
@@ -104,7 +118,9 @@ processing:
       category_candidates:
         - agent-orchestration
         - ai-dev-extensions
-      contrastive_reason: Choose agent-orchestration over ai-dev-extensions because its primary purpose is coordinating the lifecycle and sessions of multiple different agent runtimes rather than just augmenting a single host tool.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-dev-extensions because its primary purpose is coordinating the lifecycle and
+        sessions of multiple different agent runtimes rather than just augmenting a single host tool.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

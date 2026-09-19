@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__assafelovic__gpt-researcher__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,10 +19,10 @@ provenance:
           - GPT Researcher
         anchor_text: GPT Researcher
         extracted_url: https://github.com/assafelovic/gpt-researcher
-        surrounding_text: "## [GPT Researcher](https://github.com/assafelovic/gpt-researcher)"
+        surrounding_text: '## [GPT Researcher](https://github.com/assafelovic/gpt-researcher)'
         confidence: high
     - id: discovery__github__assafelovic__gpt-researcher__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -35,7 +35,10 @@ provenance:
           - Agents
         anchor_text: GPT Researcher
         extracted_url: https://github.com/assafelovic/gpt-researcher
-        surrounding_text: "- [GPT Researcher](https://github.com/assafelovic/gpt-researcher): GPT Researcher is an autonomous agent designed for comprehensive online research on a variety of tasks. ![GitHub Repo stars](https://img.shields.io/github/stars/assafelovic/gpt-researcher?style=social)"
+        surrounding_text: >-
+          - [GPT Researcher](https://github.com/assafelovic/gpt-researcher): GPT Researcher is an autonomous agent
+          designed for comprehensive online research on a variety of tasks. ![GitHub Repo
+          stars](https://img.shields.io/github/stars/assafelovic/gpt-researcher?style=social)
         confidence: high
 metadata:
   github:
@@ -45,8 +48,8 @@ metadata:
     archived: false
     full_name: assafelovic/gpt-researcher
     html_url: https://github.com/assafelovic/gpt-researcher
-    created_at: "2023-05-12T10:33:54Z"
-    pushed_at: "2026-08-27T19:34:56Z"
+    created_at: '2023-05-12T10:33:54Z'
+    pushed_at: '2026-08-27T19:34:56Z'
     description: An autonomous agent that conducts deep research on any data using any LLM providers
     homepage: https://gptr.dev
     topics:
@@ -61,13 +64,17 @@ metadata:
       - research
       - search
       - webscraping
-    last_checked_at: "2026-09-14T04:13:23.471Z"
+    last_checked_at: '2026-09-14T04:13:23.471Z'
     readme:
-      fetched_at: "2026-09-14T04:13:23.471Z"
+      fetched_at: '2026-09-14T04:13:23.471Z'
       bytes: 17797
 insights:
-  summary: An autonomous agent that conducts deep research on any data using any LLM providers, producing detailed, factual, and unbiased research reports with citations.
-  why_it_matters: Developers can offload time-consuming research tasks to an agent that aggregates and synthesizes information from multiple sources, reducing manual effort and bias.
+  summary: >-
+    An autonomous agent that conducts deep research on any data using any LLM providers, producing detailed, factual,
+    and unbiased research reports with citations.
+  why_it_matters: >-
+    Developers can offload time-consuming research tasks to an agent that aggregates and synthesizes information from
+    multiple sources, reducing manual effort and bias.
   mental_damage: Now you can spend hours debugging why the agent cited a Stack Overflow post from 2012 as 'cutting-edge research'.
   tags:
     - autonomous-agent
@@ -78,31 +85,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a standalone autonomous agent that developers run to plan, gather, and synthesize information across a task, fitting the coding-agent definition of a repo-delegated assistant.
+  reason: >-
+    It is a standalone autonomous agent that developers run to plan, gather, and synthesize information across a task,
+    fitting the coding-agent definition of a repo-delegated assistant.
   evidence:
-    - Repo description states it is 'an autonomous agent that conducts deep research on any data using any LLM providers'.
-    - README describes a 'planner' and 'execution' agent architecture that gathers information and generates research reports.
-    - Includes a CLI skill installation command (`npx skills add`) and is listed in awesome-ai-agents under the Agents section.
+    - >-
+      Repo description states it is 'an autonomous agent that conducts deep research on any data using any LLM
+      providers'.
+    - >-
+      README describes a 'planner' and 'execution' agent architecture that gathers information and generates research
+      reports.
+    - >-
+      Includes a CLI skill installation command (`npx skills add`) and is listed in awesome-ai-agents under the Agents
+      section.
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: ai-frameworks
+  secondary_categories: []
+  section: LLM & Agent SDKs
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.582Z"
+    updated_at: '2026-05-06T22:12:15.582Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:23.471Z"
+    updated_at: '2026-09-14T04:13:23.471Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:24:12.185Z"
+    updated_at: '2026-07-21T15:24:12.185Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -115,14 +131,18 @@ processing:
       input_hash: sha256:aef07b9a750c30916b4267ace99591309de5ef7bae09f41d75786b07655e4c9d
       proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: The product is a multi-agent system (planner + execution agents) designed for coordinated research workflows, fitting the orchestration category better than a single-purpose coding agent or extension.
+      decision_reason: >-
+        The product is a multi-agent system (planner + execution agents) designed for coordinated research workflows,
+        fitting the orchestration category better than a single-purpose coding agent or extension.
       decision_evidence:
-        - "Repo description: 'An autonomous agent that conducts deep research on any data using any LLM providers'"
-        - "README: 'The core idea is to utilize planner and execution agents' with parallelized agent work"
+        - 'Repo description: ''An autonomous agent that conducts deep research on any data using any LLM providers'''
+        - 'README: ''The core idea is to utilize planner and execution agents'' with parallelized agent work'
         - Topics include 'agent', 'automation', and 'mcp-server'
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated multi-agent runtime for research tasks rather than a code-first SDK or library.
-      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because the product is an operated multi-agent runtime for
+        research tasks rather than a code-first SDK or library.
+      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
       review_resume_lifecycle: null

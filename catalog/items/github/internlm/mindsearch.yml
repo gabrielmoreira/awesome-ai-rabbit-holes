@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__internlm__mindsearch__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -20,10 +20,12 @@ provenance:
           - Multi-Agent Orchestration Frameworks
         anchor_text: MindSearch
         extracted_url: https://github.com/internlm/mindsearch
-        surrounding_text: "| [MindSearch](https://github.com/InternLM/MindSearch) | LLM-based multi-agent framework for web search engine | ![Stars](https://img.shields.io/github/stars/InternLM/MindSearch) |"
+        surrounding_text: >-
+          | [MindSearch](https://github.com/InternLM/MindSearch) | LLM-based multi-agent framework for web search engine
+          | ![Stars](https://img.shields.io/github/stars/InternLM/MindSearch) |
         confidence: high
     - id: discovery__github__internlm__mindsearch__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -35,7 +37,9 @@ provenance:
           - 搜索 Search
         anchor_text: MindSearch
         extracted_url: https://github.com/internlm/mindsearch
-        surrounding_text: "2. [MindSearch](https://github.com/InternLM/MindSearch): An LLM-based Multi-agent Framework of Web Search Engine (like Perplexity.ai Pro and SearchGPT)."
+        surrounding_text: >-
+          2. [MindSearch](https://github.com/InternLM/MindSearch): An LLM-based Multi-agent Framework of Web Search
+          Engine (like Perplexity.ai Pro and SearchGPT).
         confidence: high
 metadata:
   github:
@@ -45,10 +49,10 @@ metadata:
     archived: false
     full_name: InternLM/MindSearch
     html_url: https://github.com/InternLM/MindSearch
-    created_at: "2024-07-28T03:54:50Z"
-    pushed_at: "2025-07-04T10:06:45Z"
+    created_at: '2024-07-28T03:54:50Z'
+    pushed_at: '2025-07-04T10:06:45Z'
     description: 🔍 An LLM-based Multi-agent Framework of Web Search Engine (like Perplexity.ai Pro and SearchGPT)
-    homepage: ""
+    homepage: ''
     topics:
       - ai-search-engine
       - gpt
@@ -60,13 +64,15 @@ metadata:
       - searchgpt
       - transformer
       - web-search
-    last_checked_at: "2026-07-30T05:05:44.375Z"
+    last_checked_at: '2026-07-30T05:05:44.375Z'
     readme:
-      fetched_at: "2026-07-30T05:05:44.375Z"
+      fetched_at: '2026-07-30T05:05:44.375Z'
       bytes: 5120
 insights:
   summary: An LLM-based multi-agent framework for building web search engines similar to Perplexity.ai Pro and SearchGPT.
-  why_it_matters: It enables developers to create AI-driven search workflows with configurable agents, search engines, and models, offering a customizable alternative to commercial search AI tools.
+  why_it_matters: >-
+    It enables developers to create AI-driven search workflows with configurable agents, search engines, and models,
+    offering a customizable alternative to commercial search AI tools.
   mental_damage: Because nothing says 'I trust AI' like letting multiple agents loose on the web to answer your questions.
   tags:
     - multi-agent
@@ -77,31 +83,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is a code-first library and backend server (FastAPI) that developers import and script against to build multi-agent search capabilities, fitting the Frameworks & SDKs definition over an orchestration platform.
+  reason: >-
+    The project is a code-first library and backend server (FastAPI) that developers import and script against to build
+    multi-agent search capabilities, fitting the Frameworks & SDKs definition over an orchestration platform.
   evidence:
     - Repo description explicitly calls it an 'LLM-based Multi-agent Framework'.
-    - Setup involves cloning the repo, installing Python requirements, and running a FastAPI server and React frontend locally.
+    - >-
+      Setup involves cloning the repo, installing Python requirements, and running a FastAPI server and React frontend
+      locally.
     - Listed in awesome-agent-orchestration under 'Core Frameworks > Multi-Agent Orchestration Frameworks'.
 placement:
   primary_category: ai-frameworks
-  section: null
+  secondary_categories: []
+  section: Multi-Agent Systems
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'agent-orchestration'"
+  reason: 'Categorization review required: placement disagreement: retained ''ai-frameworks'', proposed ''agent-orchestration'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.587Z"
+    updated_at: '2026-05-06T22:12:15.587Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:44.375Z"
+    updated_at: '2026-07-30T05:05:44.375Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:08:25.276Z"
+    updated_at: '2026-07-21T16:08:25.276Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -114,7 +125,9 @@ processing:
       input_hash: sha256:6fb67d6df225eb1b7a355f2f9ab06d76d678b2c7813855ac63325ed08ef91de2
       proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: The project is a multi-agent framework for coordinating web search workflows, fitting the agent orchestration category as a runtime platform for multiple agents.
+      decision_reason: >-
+        The project is a multi-agent framework for coordinating web search workflows, fitting the agent orchestration
+        category as a runtime platform for multiple agents.
       decision_evidence:
         - Repo description explicitly calls it an 'LLM-based Multi-agent Framework of Web Search Engine'
         - README details setup for multiple agents, search engines, and models
@@ -122,6 +135,8 @@ processing:
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because the primary value is coordinating multiple agents for search rather than being a code-first SDK.
-      review_reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'agent-orchestration'"
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because the primary value is coordinating multiple agents for
+        search rather than being a code-first SDK.
+      review_reason: 'Categorization review required: placement disagreement: retained ''ai-frameworks'', proposed ''agent-orchestration'''
       review_resume_lifecycle: null

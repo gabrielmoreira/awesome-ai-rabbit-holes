@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__csitte__mailwarden__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-27T05:20:52.308Z"
+      discovered_at: '2026-07-27T05:20:52.308Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: csitte/mailwarden
         extracted_url: https://github.com/csitte/mailwarden
-        surrounding_text: "- [csitte/mailwarden](https://github.com/csitte/mailwarden) [![csitte/mailwarden MCP server](https://glama.ai/mcp/servers/csitte/mailwarden/badges/score.svg)](https://glama.ai/mcp/servers/csitte/mailwarden) 📇 🏠 🍎 🪟 🐧 - Native Gmail MCP server with full mailbox control — search, read, label, archive, trash, download attachments, and the feature no other Gmail server ships: snooze threads until a date. Every call hits the live Gmail API (no synced index that silently misses mail). Install with `npx -y mailwarden`."
+        surrounding_text: >-
+          - [csitte/mailwarden](https://github.com/csitte/mailwarden) [![csitte/mailwarden MCP
+          server](https://glama.ai/mcp/servers/csitte/mailwarden/badges/score.svg)](https://glama.ai/mcp/servers/csitte/mailwarden)
+          📇 🏠 🍎 🪟 🐧 - Native Gmail MCP server with full mailbox control — search, read, label, archive, trash,
+          download attachments, and the feature no other Gmail server ships: snooze threads until a date. Every call
+          hits the live Gmail API (no synced index that silently misses mail). Install with `npx -y mailwarden`.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: csitte/mailwarden
     html_url: https://github.com/csitte/mailwarden
-    created_at: "2026-06-19T06:51:01Z"
-    pushed_at: "2026-09-12T09:27:17Z"
+    created_at: '2026-06-19T06:51:01Z'
+    pushed_at: '2026-09-12T09:27:17Z'
     description: A reliable, native Gmail MCP server with full mailbox control — including snooze.
     homepage: https://www.npmjs.com/package/mailwarden
     topics:
@@ -44,13 +49,15 @@ metadata:
       - model-context-protocol
       - snooze
       - typescript
-    last_checked_at: "2026-09-14T04:13:31.717Z"
+    last_checked_at: '2026-09-14T04:13:31.717Z'
     readme:
-      fetched_at: "2026-09-14T04:13:31.717Z"
+      fetched_at: '2026-09-14T04:13:31.717Z'
       bytes: 63378
 insights:
   summary: A native Gmail MCP server providing full mailbox control, including mailbox-side snooze, for AI assistants.
-  why_it_matters: Developers can integrate Gmail capabilities directly into AI workflows with reliable, live mailbox access and unique features like snooze.
+  why_it_matters: >-
+    Developers can integrate Gmail capabilities directly into AI workflows with reliable, live mailbox access and unique
+    features like snooze.
   mental_damage: Finally, an MCP server that lets your AI assistant snooze emails like a human who’s given up on inbox zero.
   tags:
     - mcp
@@ -68,24 +75,25 @@ curation:
     - Listed in awesome-mcp-servers under Server Implementations > Communication
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-27T05:20:52.309Z"
+    updated_at: '2026-07-27T05:20:52.309Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:31.717Z"
+    updated_at: '2026-09-14T04:13:31.717Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-01T14:32:17.387Z"
+    updated_at: '2026-09-01T14:32:17.387Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,7 +112,9 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension
+        for another assistant.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

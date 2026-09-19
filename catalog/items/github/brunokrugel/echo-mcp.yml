@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__brunokrugel__echo-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: BrunoKrugel/echo-mcp
         extracted_url: https://github.com/brunokrugel/echo-mcp
-        surrounding_text: "- [BrunoKrugel/echo-mcp](https://github.com/BrunoKrugel/echo-mcp) 🏎️ ☁️ 📟 🪟 🐧 🍎 - A zero-configuration Go library to automatically expose any existing Echo web framework APIs as MCP tools."
+        surrounding_text: >-
+          - [BrunoKrugel/echo-mcp](https://github.com/BrunoKrugel/echo-mcp) 🏎️ ☁️ 📟 🪟 🐧 🍎 - A zero-configuration Go
+          library to automatically expose any existing Echo web framework APIs as MCP tools.
         confidence: high
 metadata:
   github:
@@ -30,10 +32,10 @@ metadata:
     archived: false
     full_name: BrunoKrugel/echo-mcp
     html_url: https://github.com/BrunoKrugel/echo-mcp
-    created_at: "2025-10-06T14:20:30Z"
-    pushed_at: "2026-08-25T16:44:50Z"
-    description: "Enable AI assistants to interact with your Echo API "
-    homepage: ""
+    created_at: '2025-10-06T14:20:30Z'
+    pushed_at: '2026-08-25T16:44:50Z'
+    description: 'Enable AI assistants to interact with your Echo API '
+    homepage: ''
     topics:
       - claude
       - echo-framework
@@ -41,13 +43,17 @@ metadata:
       - golang
       - mcp
       - vscode
-    last_checked_at: "2026-09-07T04:13:38.270Z"
+    last_checked_at: '2026-09-07T04:13:38.270Z'
     readme:
-      fetched_at: "2026-09-07T04:13:38.270Z"
+      fetched_at: '2026-09-07T04:13:38.270Z'
       bytes: 6749
 insights:
-  summary: An MCP server that wraps any existing Echo Framework API to enable AI assistants to interact with it via the Model Context Protocol.
-  why_it_matters: Developers can expose their Echo APIs to AI agents without rewriting endpoints, enabling direct integration with MCP-compatible assistants.
+  summary: >-
+    An MCP server that wraps any existing Echo Framework API to enable AI assistants to interact with it via the Model
+    Context Protocol.
+  why_it_matters: >-
+    Developers can expose their Echo APIs to AI agents without rewriting endpoints, enabling direct integration with
+    MCP-compatible assistants.
   mental_damage: Now your Go API can finally explain itself to the AI, assuming the AI cares about your endpoints.
   tags:
     - mcp
@@ -58,31 +64,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the core product identity here—a server that bridges Echo APIs to MCP-compatible agents, fitting the MCP Servers & Tooling category.
+  reason: >-
+    MCP is the core product identity here—a server that bridges Echo APIs to MCP-compatible agents, fitting the MCP
+    Servers & Tooling category.
   evidence:
     - Repo description explicitly states it enables AI assistants to interact with Echo APIs via MCP
     - README details MCP server functionality, schema generation, and Echo integration
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.606Z"
+    updated_at: '2026-05-06T22:12:15.606Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:38.270Z"
+    updated_at: '2026-09-07T04:13:38.270Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:34:23.113Z"
+    updated_at: '2026-07-21T15:34:23.113Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -95,7 +104,9 @@ processing:
       input_hash: sha256:6c06bd51f4b2aa8e8b8fa2c02100a84a992a0e106b15fd3dccedb8df97a88a1d
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the core product identity here—a server that bridges Echo APIs to MCP-compatible agents, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        MCP is the core product identity here—a server that bridges Echo APIs to MCP-compatible agents, fitting the MCP
+        Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it enables AI assistants to interact with Echo APIs via MCP
         - README details MCP server functionality, schema generation, and Echo integration
@@ -103,6 +114,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server implementation, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server implementation, not merely an extension
+        for another assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__base44__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-02T05:22:20.470Z"
+      discovered_at: '2026-07-02T05:22:20.470Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - App Builders
         anchor_text: base44
         extracted_url: https://www.base44.com
-        surrounding_text: "- **[base44](https://www.base44.com/)** – AI-native software development OS for startups."
+        surrounding_text: '- **[base44](https://www.base44.com/)** – AI-native software development OS for startups.'
         confidence: high
     - id: discovery__www__base44__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - App Builders
         anchor_text: base44
         extracted_url: https://www.base44.com
-        surrounding_text: "- **[base44](https://www.base44.com/)** – AI-native software development OS for startups."
+        surrounding_text: '- **[base44](https://www.base44.com/)** – AI-native software development OS for startups.'
         confidence: high
 metadata:
   github:
@@ -52,8 +52,12 @@ metadata:
     readme: null
 insights:
   summary: Base44 is a no-code AI app builder that generates full-stack applications from natural language prompts.
-  why_it_matters: It lets developers and non-technical users rapidly prototype and deploy functional apps, internal tools, and AI-powered workflows without writing code.
-  mental_damage: The promise of 'just describe it' feels magical until you realize debugging AI-generated logic is just as painful as debugging hand-written spaghetti.
+  why_it_matters: >-
+    It lets developers and non-technical users rapidly prototype and deploy functional apps, internal tools, and
+    AI-powered workflows without writing code.
+  mental_damage: >-
+    The promise of 'just describe it' feels magical until you realize debugging AI-generated logic is just as painful as
+    debugging hand-written spaghetti.
   tags:
     - ai-platform
     - app-builder
@@ -64,23 +68,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Base44’s core function is turning natural language into full-stack applications with auto-generated backends, authentication, hosting, and integrations, fitting the app-builder pattern rather than a coding agent or IDE extension.
+  reason: >-
+    Base44’s core function is turning natural language into full-stack applications with auto-generated backends,
+    authentication, hosting, and integrations, fitting the app-builder pattern rather than a coding agent or IDE
+    extension.
   evidence:
     - Base44 lets you build fully-functional apps in minutes with just your words. No coding necessary.
-    - The AI creates a detailed plan, sets up logic and infrastructure (user logins, auth, storage, RBAC), and provides built-in hosting, analytics, and custom domains.
-    - "Listed in awesome-ai-coding-tools under the App Builders section with the description: 'Base44 is the fastest way to build production-ready AI applications. No coding required.'"
+    - >-
+      The AI creates a detailed plan, sets up logic and infrastructure (user logins, auth, storage, RBAC), and provides
+      built-in hosting, analytics, and custom domains.
+    - >-
+      Listed in awesome-ai-coding-tools under the App Builders section with the description: 'Base44 is the fastest way
+      to build production-ready AI applications. No coding required.'
     - Base44 is explicitly listed under 'App Builders' in the awesome-ai-coding-tools directory.
-    - The URL (www.base44.com) and product name align with the canonical positive example 'base44' listed for Prompt-to-App Builders.
+    - >-
+      The URL (www.base44.com) and product name align with the canonical positive example 'base44' listed for
+      Prompt-to-App Builders.
 placement:
   primary_category: app-builders
-  section: Prompt-to-App Builders
+  secondary_categories: []
+  section: Full App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-02T05:31:48.823Z"
+    updated_at: '2026-07-02T05:31:48.823Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
@@ -88,7 +102,7 @@ processing:
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-07-02T05:22:20.472Z"
+    updated_at: '2026-07-02T05:22:20.472Z'
     cause: null
     next_retry_at: null
   stars:

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huyenchip__com__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,7 +18,9 @@ provenance:
           - Lists
         anchor_text: Chip Huyen
         extracted_url: https://huyenchip.com
-        surrounding_text: "- [llama-police](https://huyenchip.com/llama-police.html) - A list of Open Source LLM Tools from [Chip Huyen](https://huyenchip.com)"
+        surrounding_text: >-
+          - [llama-police](https://huyenchip.com/llama-police.html) - A list of Open Source LLM Tools from [Chip
+          Huyen](https://huyenchip.com)
         confidence: high
 metadata:
   github:
@@ -38,7 +40,9 @@ metadata:
 insights:
   summary: Chip Huyen's personal website featuring AI system design writings, tools, and resources.
   why_it_matters: Offers curated insights and micro-tools for AI production workflows from a practicing ML engineer and author.
-  mental_damage: Another thought leader with a newsletter signup form and a 'Good AI List'—because the ecosystem wasn't fragmented enough.
+  mental_damage: >-
+    Another thought leader with a newsletter signup form and a 'Good AI List'—because the ecosystem wasn't fragmented
+    enough.
   tags:
     - ai-blog
     - mlops-resources
@@ -46,14 +50,13 @@ insights:
     - curated-tools
   confidence: high
 curation:
-  status: included
-  reason: Primary identity is a personal publication surface (blog, books, guides) with recurring commentary and educational content for developers.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Site describes itself as 'I work to bring AI into production. I write about AI system design.'
-    - Includes sections like 'Blog', 'Books', 'Events', 'AI Guide', 'List 100'
-    - Source-list context places it in 'Lists' section of awesome-local-ai, but core identity is publication
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: newsletters-and-feeds
+  primary_category: null
+  secondary_categories: []
   section: null
 lifecycle:
   status: incubating
@@ -61,10 +64,12 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.662Z"
+    updated_at: '2026-05-06T22:12:15.662Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -72,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:34.898Z"
+    updated_at: '2026-07-21T15:28:34.898Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -85,7 +90,9 @@ processing:
       input_hash: sha256:210c30691b4440656c9d55659362959fa6ee6209e9295b160082e363f669beef
       proposed_primary_category: newsletters-and-feeds
       disagreement: false
-      decision_reason: Primary identity is a personal publication surface (blog, books, guides) with recurring commentary and educational content for developers.
+      decision_reason: >-
+        Primary identity is a personal publication surface (blog, books, guides) with recurring commentary and
+        educational content for developers.
       decision_evidence:
         - Site describes itself as 'I work to bring AI into production. I write about AI system design.'
         - Includes sections like 'Blog', 'Books', 'Events', 'AI Guide', 'List 100'
@@ -93,6 +100,8 @@ processing:
       category_candidates:
         - newsletters-and-feeds
         - awesome-awesomes
-      contrastive_reason: Choose newsletters-and-feeds over awesome-awesomes because the primary value is recurring educational content and commentary rather than directory-style navigation.
+      contrastive_reason: >-
+        Choose newsletters-and-feeds over awesome-awesomes because the primary value is recurring educational content
+        and commentary rather than directory-style navigation.
       review_reason: null
       review_resume_lifecycle: null

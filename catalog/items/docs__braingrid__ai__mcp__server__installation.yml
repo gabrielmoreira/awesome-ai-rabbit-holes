@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__braingrid__ai__mcp__server__installation__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: BrainGrid MCP
         extracted_url: https://docs.braingrid.ai/mcp-server/installation
-        surrounding_text: "- [BrainGrid MCP](https://docs.braingrid.ai/mcp-server/installation) 🎖️☁️ - [BrainGrid](https://braingrid.ai) MCP is the Product Management Agent that writes your specs, plans your features, and creates engineering-grade tasks your coding tools can build reliably."
+        surrounding_text: >-
+          - [BrainGrid MCP](https://docs.braingrid.ai/mcp-server/installation) 🎖️☁️ - [BrainGrid](https://braingrid.ai)
+          MCP is the Product Management Agent that writes your specs, plans your features, and creates engineering-grade
+          tasks your coding tools can build reliably.
         confidence: high
 metadata:
   github:
@@ -37,8 +40,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An MCP server implementation that integrates BrainGrid's capabilities into AI assistants like Claude Code, Cursor, and Windsurf.
-  why_it_matters: It provides AI coding assistants with specialized ability to create and manage requirements and tasks via the Model Context Protocol.
+  summary: >-
+    An MCP server implementation that integrates BrainGrid's capabilities into AI assistants like Claude Code, Cursor,
+    and Windsurf.
+  why_it_matters: >-
+    It provides AI coding assistants with specialized ability to create and manage requirements and tasks via the Model
+    Context Protocol.
   mental_damage: Another layer of authentication to manage just so your IDE can finally understand your project's requirements.
   tags:
     - mcp
@@ -48,22 +55,21 @@ insights:
     - ai-integration
   confidence: high
 curation:
-  status: included
-  reason: The product identity is specifically an MCP server designed to bridge BrainGrid's task management with existing AI editors.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Documentation focuses exclusively on installing the BrainGrid MCP server
-    - Provides specific configuration blocks for MCP-enabled hosts like Claude Code, Cursor, and Windsurf
-    - Identified as an MCP server implementation in awesome-mcp-servers
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: mcp
-  section: Generic Servers & Middleware
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.660Z"
+    updated_at: '2026-05-06T22:12:15.660Z'
     cause: null
     next_retry_at: null
   stars:
@@ -72,7 +78,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:39:31.807Z"
+    updated_at: '2026-07-20T15:39:31.807Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -85,7 +91,9 @@ processing:
       input_hash: sha256:35ad81b725f75690789f7430d39a8640edda8f790cd477c79ba35fb2dc7b014c
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product identity is specifically an MCP server designed to bridge BrainGrid's task management with existing AI editors.
+      decision_reason: >-
+        The product identity is specifically an MCP server designed to bridge BrainGrid's task management with existing
+        AI editors.
       decision_evidence:
         - Documentation focuses exclusively on installing the BrainGrid MCP server
         - Provides specific configuration blocks for MCP-enabled hosts like Claude Code, Cursor, and Windsurf
@@ -93,6 +101,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's identity is defined by its role as an MCP server rather than a general IDE integration.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's identity is defined by its role as an MCP server rather
+        than a general IDE integration.
       review_reason: null
       review_resume_lifecycle: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__graphlit__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-20T15:10:47.684Z"
+      discovered_at: '2026-07-20T15:10:47.684Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Graphlit
         anchor_text: Graphlit
         extracted_url: https://graphlit.com
-        surrounding_text: "## [Graphlit](https://www.graphlit.com/)"
+        surrounding_text: '## [Graphlit](https://www.graphlit.com/)'
         confidence: high
     - id: discovery__graphlit__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-20T15:10:47.684Z"
+      discovered_at: '2026-07-20T15:10:47.684Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,10 +33,12 @@ provenance:
           - Official Servers
         anchor_text: Graphlit
         extracted_url: https://graphlit.com
-        surrounding_text: "- **[Graphlit](https://github.com/graphlit/graphlit-mcp-server)** - Ingest anything from Slack to Gmail to podcast feeds, in addition to web crawling, into a searchable [Graphlit](https://www.graphlit.com) project."
+        surrounding_text: >-
+          - **[Graphlit](https://github.com/graphlit/graphlit-mcp-server)** - Ingest anything from Slack to Gmail to
+          podcast feeds, in addition to web crawling, into a searchable [Graphlit](https://www.graphlit.com) project.
         confidence: high
     - id: discovery__www__graphlit__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -48,10 +50,10 @@ provenance:
           - Graphlit
         anchor_text: Graphlit
         extracted_url: https://www.graphlit.com
-        surrounding_text: "## [Graphlit](https://www.graphlit.com/)"
+        surrounding_text: '## [Graphlit](https://www.graphlit.com/)'
         confidence: high
     - id: discovery__www__graphlit__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -63,7 +65,9 @@ provenance:
           - Official Servers
         anchor_text: Graphlit
         extracted_url: https://www.graphlit.com
-        surrounding_text: "- **[Graphlit](https://github.com/graphlit/graphlit-mcp-server)** - Ingest anything from Slack to Gmail to podcast feeds, in addition to web crawling, into a searchable [Graphlit](https://www.graphlit.com) project."
+        surrounding_text: >-
+          - **[Graphlit](https://github.com/graphlit/graphlit-mcp-server)** - Ingest anything from Slack to Gmail to
+          podcast feeds, in addition to web crawling, into a searchable [Graphlit](https://www.graphlit.com) project.
         confidence: high
 metadata:
   github:
@@ -81,8 +85,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A context layer for AI agents that provides real-time sync across Slack, GitHub, Jira, and other sources with built-in semantic search.
-  why_it_matters: Developers can give their agents up-to-date, cross-platform context without managing separate integrations or search infrastructure.
+  summary: >-
+    A context layer for AI agents that provides real-time sync across Slack, GitHub, Jira, and other sources with
+    built-in semantic search.
+  why_it_matters: >-
+    Developers can give their agents up-to-date, cross-platform context without managing separate integrations or search
+    infrastructure.
   mental_damage: Finally, a way to make your agents stop hallucinating about the Jira ticket you closed three sprints ago.
   tags:
     - context-layer
@@ -92,20 +100,26 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product is a context system for agents, focusing on retrieval and real-time sync across external sources, which aligns with Prompt & Context Engineering.
+  reason: >-
+    The core product is a context system for agents, focusing on retrieval and real-time sync across external sources,
+    which aligns with Prompt & Context Engineering.
   evidence:
-    - "Site description: 'Give your agents context that actually works. Real-time sync across Slack, GitHub, Jira, and more. One API, zero ops, semantic search built-in.'"
-    - Listed in awesome-mcp-servers as an MCP server, but the primary identity is context provisioning, not MCP infrastructure.
+    - >-
+      Site description: 'Give your agents context that actually works. Real-time sync across Slack, GitHub, Jira, and
+      more. One API, zero ops, semantic search built-in.'
+    - >-
+      Listed in awesome-mcp-servers as an MCP server, but the primary identity is context provisioning, not MCP
+      infrastructure.
 placement:
-  primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  primary_category: memory-and-context
+  section: Retrieval & Fresh Docs
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:34:52.850Z"
+    updated_at: '2026-07-21T15:34:52.850Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -118,19 +132,27 @@ processing:
       input_hash: sha256:450964c707c4cd54bb90738cf7243150e822251c915361b35073b1660f552d42
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: The core product is a context system for agents, focusing on retrieval and real-time sync across external sources, which aligns with Prompt & Context Engineering.
+      decision_reason: >-
+        The core product is a context system for agents, focusing on retrieval and real-time sync across external
+        sources, which aligns with Prompt & Context Engineering.
       decision_evidence:
-        - "Site description: 'Give your agents context that actually works. Real-time sync across Slack, GitHub, Jira, and more. One API, zero ops, semantic search built-in.'"
-        - Listed in awesome-mcp-servers as an MCP server, but the primary identity is context provisioning, not MCP infrastructure.
+        - >-
+          Site description: 'Give your agents context that actually works. Real-time sync across Slack, GitHub, Jira,
+          and more. One API, zero ops, semantic search built-in.'
+        - >-
+          Listed in awesome-mcp-servers as an MCP server, but the primary identity is context provisioning, not MCP
+          infrastructure.
       category_candidates:
         - context-engineering
         - mcp
-      contrastive_reason: Choose context-engineering over mcp because the product's main value is context retrieval and sync, not MCP-specific infrastructure.
+      contrastive_reason: >-
+        Choose context-engineering over mcp because the product's main value is context retrieval and sync, not
+        MCP-specific infrastructure.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T15:10:47.687Z"
+    updated_at: '2026-07-20T15:10:47.687Z'
     cause: null
     next_retry_at: null
   stars:

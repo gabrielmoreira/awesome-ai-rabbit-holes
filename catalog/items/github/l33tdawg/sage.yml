@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__l33tdawg__sage__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: l33tdawg/sage
         extracted_url: https://github.com/l33tdawg/sage
-        surrounding_text: "- [l33tdawg/sage](https://github.com/l33tdawg/sage) [![s-age MCP server](https://glama.ai/mcp/servers/l33tdawg/s-age/badges/score.svg)](https://glama.ai/mcp/servers/l33tdawg/s-age) 🏎️ 🏠 🍎 🪟 🐧 - Institutional memory for AI agents with real BFT consensus. 4 application validators vote on every memory before it's committed — no more storing garbage. 13 MCP tools, runs locally, works with any MCP-compatible model. Backed by 4 published research papers."
+        surrounding_text: >-
+          - [l33tdawg/sage](https://github.com/l33tdawg/sage) [![s-age MCP
+          server](https://glama.ai/mcp/servers/l33tdawg/s-age/badges/score.svg)](https://glama.ai/mcp/servers/l33tdawg/s-age)
+          🏎️ 🏠 🍎 🪟 🐧 - Institutional memory for AI agents with real BFT consensus. 4 application validators vote on
+          every memory before it's committed — no more storing garbage. 13 MCP tools, runs locally, works with any
+          MCP-compatible model. Backed by 4 published research papers.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: l33tdawg/sage
     html_url: https://github.com/l33tdawg/sage
-    created_at: "2026-03-01T05:54:50Z"
-    pushed_at: "2026-07-30T00:33:27Z"
+    created_at: '2026-03-01T05:54:50Z'
+    pushed_at: '2026-07-30T00:33:27Z'
     description: (S)AGE - (Sovereign) Agent Governed Experience
     homepage: https://orcid.org/0009-0001-7248-2411
     topics:
@@ -41,13 +46,17 @@ metadata:
       - bft-network
       - distributed-systems
       - governance
-    last_checked_at: "2026-07-30T05:06:02.276Z"
+    last_checked_at: '2026-07-30T05:06:02.276Z'
     readme:
-      fetched_at: "2026-07-30T05:06:02.276Z"
+      fetched_at: '2026-07-30T05:06:02.276Z'
       bytes: 105373
 insights:
-  summary: SAGE is a persistent, consensus-validated memory infrastructure for AI agents, built on CometBFT consensus primitives.
-  why_it_matters: It gives AI agents institutional memory that persists across conversations, with BFT consensus validation, confidence scoring, and natural decay, addressing the problem of reliable, shared memory in multi-agent systems.
+  summary: >-
+    SAGE is a persistent, consensus-validated memory infrastructure for AI agents, built on CometBFT consensus
+    primitives.
+  why_it_matters: >-
+    It gives AI agents institutional memory that persists across conversations, with BFT consensus validation,
+    confidence scoring, and natural decay, addressing the problem of reliable, shared memory in multi-agent systems.
   mental_damage: Finally, a way for your agents to remember things without pretending a vector DB is a brain.
   tags:
     - memory-infrastructure
@@ -58,31 +67,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core novelty is memory infrastructure with consensus validation, which fits the context-engineering category's focus on memory, retrieval, and prompt-shaping systems.
+  reason: >-
+    The core novelty is memory infrastructure with consensus validation, which fits the context-engineering category's
+    focus on memory, retrieval, and prompt-shaping systems.
   evidence:
     - README explicitly describes it as 'persistent, consensus-validated memory infrastructure for AI agents'
     - Architecture centers on memory writes, BFT consensus, and confidence scoring
     - MCP server badge is present but secondary to the memory infrastructure identity
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: promotion_candidate
   reason: Stars (217) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.626Z"
+    updated_at: '2026-05-06T22:12:15.626Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:02.276Z"
+    updated_at: '2026-07-30T05:06:02.276Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:14:36.520Z"
+    updated_at: '2026-07-21T16:14:36.520Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -95,7 +107,9 @@ processing:
       input_hash: sha256:0f5a0cd6ae51f9a74f5d2b6e74fd94b16643f4dc311c5b8de3424367a5bad518
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: The core novelty is memory infrastructure with consensus validation, which fits the context-engineering category's focus on memory, retrieval, and prompt-shaping systems.
+      decision_reason: >-
+        The core novelty is memory infrastructure with consensus validation, which fits the context-engineering
+        category's focus on memory, retrieval, and prompt-shaping systems.
       decision_evidence:
         - README explicitly describes it as 'persistent, consensus-validated memory infrastructure for AI agents'
         - Architecture centers on memory writes, BFT consensus, and confidence scoring
@@ -103,6 +117,8 @@ processing:
       category_candidates:
         - context-engineering
         - mcp
-      contrastive_reason: Choose context-engineering over mcp because the primary product identity is memory infrastructure, not MCP tooling, even though it includes an MCP server.
+      contrastive_reason: >-
+        Choose context-engineering over mcp because the primary product identity is memory infrastructure, not MCP
+        tooling, even though it includes an MCP server.
       review_reason: null
       review_resume_lifecycle: null

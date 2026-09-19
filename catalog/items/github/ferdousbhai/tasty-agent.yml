@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ferdousbhai__tasty-agent__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: ferdousbhai/tasty-agent
         extracted_url: https://github.com/ferdousbhai/tasty-agent
-        surrounding_text: "- [ferdousbhai/tasty-agent](https://github.com/ferdousbhai/tasty-agent) 🐍 ☁️ - Tastyworks API integration to handle trading activities on Tastytrade"
+        surrounding_text: >-
+          - [ferdousbhai/tasty-agent](https://github.com/ferdousbhai/tasty-agent) 🐍 ☁️ - Tastyworks API integration to
+          handle trading activities on Tastytrade
         confidence: high
     - id: discovery__github__ferdousbhai__tasty-agent__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - 💰 Finance & Fintech
         anchor_text: ferdousbhai/tasty-agent
         extracted_url: https://github.com/ferdousbhai/tasty-agent
-        surrounding_text: "-   **[ferdousbhai/tasty-agent](https://github.com/ferdousbhai/tasty-agent)** [![GitHub stars](https://img.shields.io/github/stars/ferdousbhai/tasty-agent?style=social)](https://github.com/ferdousbhai/tasty-agent): Handles trading activities on Tastytrade via the Tastyworks API."
+        surrounding_text: >-
+          -   **[ferdousbhai/tasty-agent](https://github.com/ferdousbhai/tasty-agent)** [![GitHub
+          stars](https://img.shields.io/github/stars/ferdousbhai/tasty-agent?style=social)](https://github.com/ferdousbhai/tasty-agent):
+          Handles trading activities on Tastytrade via the Tastyworks API.
         confidence: high
 metadata:
   github:
@@ -45,10 +50,10 @@ metadata:
     archived: false
     full_name: ferdousbhai/tasty-agent
     html_url: https://github.com/ferdousbhai/tasty-agent
-    created_at: "2024-11-08T01:59:37Z"
-    pushed_at: "2026-08-14T10:38:42Z"
+    created_at: '2024-11-08T01:59:37Z'
+    pushed_at: '2026-08-14T10:38:42Z'
     description: Let Claude manage your tastytrade portfolio.
-    homepage: ""
+    homepage: ''
     topics:
       - finance
       - investing
@@ -56,14 +61,18 @@ metadata:
       - stocks
       - tastytrade
       - trading
-    last_checked_at: "2026-08-27T09:23:29.465Z"
+    last_checked_at: '2026-08-27T09:23:29.465Z'
     readme:
-      fetched_at: "2026-08-27T09:23:29.465Z"
+      fetched_at: '2026-08-27T09:23:29.465Z'
       bytes: 6879
 insights:
   summary: An MCP server that enables LLMs to interact with TastyTrade brokerage accounts for portfolio monitoring and trading.
-  why_it_matters: It allows developers to build or use AI agents that can perform real-world financial actions like analyzing Greeks, monitoring positions, and executing trades via the Model Context Protocol.
-  mental_damage: Nothing tests your prompt engineering skills quite like an LLM hallucinating a massive multi-leg options order during a period of high volatility.
+  why_it_matters: >-
+    It allows developers to build or use AI agents that can perform real-world financial actions like analyzing Greeks,
+    monitoring positions, and executing trades via the Model Context Protocol.
+  mental_damage: >-
+    Nothing tests your prompt engineering skills quite like an LLM hallucinating a massive multi-leg options order
+    during a period of high volatility.
   tags:
     - mcp
     - finance
@@ -80,24 +89,25 @@ curation:
     - Includes instructions for connecting to MCP clients like Claude Desktop
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.585Z"
+    updated_at: '2026-05-06T22:12:15.585Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:29.465Z"
+    updated_at: '2026-08-27T09:23:29.465Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:55:53.841Z"
+    updated_at: '2026-07-21T15:55:53.841Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -110,7 +120,9 @@ processing:
       input_hash: sha256:dad42c31f23f7f0989736d0eb21d3600275b16c9ad3ea4e455e49ae8ddb9ac32
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's identity is explicitly defined as an MCP server providing specialized financial tools to an LLM host.
+      decision_reason: >-
+        The project's identity is explicitly defined as an MCP server providing specialized financial tools to an LLM
+        host.
       decision_evidence:
         - README describes it as 'A TastyTrade MCP Server'
         - Provides specific MCP tools for account overview, market data, and order management
@@ -118,6 +130,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is the MCP server implementation rather than a plugin for a specific existing editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is the MCP server implementation rather
+        than a plugin for a specific existing editor.
       review_reason: null
       review_resume_lifecycle: null

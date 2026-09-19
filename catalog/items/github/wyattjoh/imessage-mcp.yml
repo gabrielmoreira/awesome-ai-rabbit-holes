@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wyattjoh__imessage-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: wyattjoh/imessage-mcp
         extracted_url: https://github.com/wyattjoh/imessage-mcp
-        surrounding_text: "- [wyattjoh/imessage-mcp](https://github.com/wyattjoh/imessage-mcp) 📇 🏠 🍎 - A Model Context Protocol server for reading iMessage data from macOS."
+        surrounding_text: >-
+          - [wyattjoh/imessage-mcp](https://github.com/wyattjoh/imessage-mcp) 📇 🏠 🍎 - A Model Context Protocol server
+          for reading iMessage data from macOS.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: wyattjoh/imessage-mcp
     html_url: https://github.com/wyattjoh/imessage-mcp
-    created_at: "2025-08-05T08:15:12Z"
-    pushed_at: "2026-03-02T04:20:11Z"
+    created_at: '2025-08-05T08:15:12Z'
+    pushed_at: '2026-03-02T04:20:11Z'
     description: A Model Context Protocol server for reading iMessage data from macOS.
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-21T15:21:16.061Z"
+    last_checked_at: '2026-07-21T15:21:16.061Z'
     readme:
-      fetched_at: "2026-07-21T15:21:16.061Z"
+      fetched_at: '2026-07-21T15:21:16.061Z'
       bytes: 6338
 insights:
   summary: A Deno-based Model Context Protocol server for reading iMessage data on macOS.
-  why_it_matters: Lets LLMs access local iMessage history and contacts via a standardized MCP interface, enabling context-aware AI workflows on macOS.
+  why_it_matters: >-
+    Lets LLMs access local iMessage history and contacts via a standardized MCP interface, enabling context-aware AI
+    workflows on macOS.
   mental_damage: Finally, an excuse to let your AI read your awkward group chats while pretending it’s for productivity.
   tags:
     - mcp
@@ -51,31 +55,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server as its core identity, providing iMessage data access through the Model Context Protocol, matching the MCP category's focus on MCP-first tooling.
+  reason: >-
+    The product is an MCP server as its core identity, providing iMessage data access through the Model Context
+    Protocol, matching the MCP category's focus on MCP-first tooling.
   evidence:
-    - "Repo description: 'A Model Context Protocol server for reading iMessage data from macOS'"
-    - "README: Explicitly markets '@wyattjoh/imessage-mcp' as 'Model Context Protocol (MCP) server for LLM integration'"
-    - "Source-list context: Included in awesome-mcp-servers under 'Server Implementations > Communication'"
+    - 'Repo description: ''A Model Context Protocol server for reading iMessage data from macOS'''
+    - 'README: Explicitly markets ''@wyattjoh/imessage-mcp'' as ''Model Context Protocol (MCP) server for LLM integration'''
+    - 'Source-list context: Included in awesome-mcp-servers under ''Server Implementations > Communication'''
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.656Z"
+    updated_at: '2026-05-06T22:12:15.656Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:16.061Z"
+    updated_at: '2026-07-21T15:21:16.061Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-18T05:36:04.019Z"
+    updated_at: '2026-05-18T05:36:04.019Z'
     cause: null
     next_retry_at: null
     attempts: 3

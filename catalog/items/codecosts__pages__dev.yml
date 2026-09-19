@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__codecosts__pages__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,9 @@ provenance:
           - Developer Productivity Tools
         anchor_text: CodeCosts
         extracted_url: https://codecosts.pages.dev
-        surrounding_text: "- **[CodeCosts](https://codecosts.pages.dev/)** – Compare pricing across AI coding tools with an interactive calculator."
+        surrounding_text: >-
+          - **[CodeCosts](https://codecosts.pages.dev/)** – Compare pricing across AI coding tools with an interactive
+          calculator.
         confidence: high
 metadata:
   github:
@@ -37,8 +39,12 @@ metadata:
     readme: null
 insights:
   summary: A comparison and cost calculation platform for AI coding assistants and IDEs.
-  why_it_matters: Helps developers and engineering managers navigate the shifting pricing tiers and feature sets of the rapidly evolving AI coding tool landscape.
-  mental_damage: Because nothing says 'developer productivity' like spending three hours calculating the ROI of a $20/month subscription.
+  why_it_matters: >-
+    Helps developers and engineering managers navigate the shifting pricing tiers and feature sets of the rapidly
+    evolving AI coding tool landscape.
+  mental_damage: >-
+    Because nothing says 'developer productivity' like spending three hours calculating the ROI of a $20/month
+    subscription.
   tags:
     - comparison
     - pricing
@@ -48,24 +54,29 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a curated directory/map designed to help users navigate the AI coding ecosystem, which fits the definition of an awesome list/index.
+  reason: >-
+    It is a curated directory/map designed to help users navigate the AI coding ecosystem, which fits the definition of
+    an awesome list/index.
   evidence:
     - Provides side-by-side comparisons of major AI tools like Copilot, Cursor, and Windsurf
     - Includes a cost calculator for team-wide deployment
     - Offers structured JSON data for tool pricing
 placement:
   primary_category: awesome-awesomes
-  section: Directories & Maps
+  secondary_categories: []
+  section: Ecosystem Maps & Landscapes
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -73,7 +84,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:31:28.110Z"
+    updated_at: '2026-07-20T15:31:28.110Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -86,7 +97,9 @@ processing:
       input_hash: sha256:dc30fdbdfe529a523cbffa5b8de2d1d3bbf95742aaf205d425ba8c1fba9a13d0
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: It is a curated directory/map designed to help users navigate the AI coding ecosystem, which fits the definition of an awesome list/index.
+      decision_reason: >-
+        It is a curated directory/map designed to help users navigate the AI coding ecosystem, which fits the definition
+        of an awesome list/index.
       decision_evidence:
         - Provides side-by-side comparisons of major AI tools like Copilot, Cursor, and Windsurf
         - Includes a cost calculator for team-wide deployment
@@ -94,6 +107,8 @@ processing:
       category_candidates:
         - awesome-awesomes
         - evals
-      contrastive_reason: Choose awesome-awesomes over evals because the tool's primary value is ecosystem navigation and comparison rather than the technical measurement of model/agent behavior.
+      contrastive_reason: >-
+        Choose awesome-awesomes over evals because the tool's primary value is ecosystem navigation and comparison
+        rather than the technical measurement of model/agent behavior.
       review_reason: null
       review_resume_lifecycle: null

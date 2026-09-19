@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mambalabsdev__mcp-icp-fit-scorer__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
         anchor_text: mambalabsdev/mcp-icp-fit-scorer
         extracted_url: https://github.com/mambalabsdev/mcp-icp-fit-scorer
-        surrounding_text: "- [mambalabsdev/mcp-icp-fit-scorer](https://github.com/mambalabsdev/mcp-icp-fit-scorer) [![mambalabsdev/mcp-icp-fit-scorer MCP server](https://glama.ai/mcp/servers/mambalabsdev/mcp-icp-fit-scorer/badges/score.svg)](https://glama.ai/mcp/servers/mambalabsdev/mcp-icp-fit-scorer) 📇 ☁️ - Scores a company against a weighted ideal customer profile, returning a 0-100 score, A/B/C tier, and per-signal breakdown."
+        surrounding_text: >-
+          - [mambalabsdev/mcp-icp-fit-scorer](https://github.com/mambalabsdev/mcp-icp-fit-scorer)
+          [![mambalabsdev/mcp-icp-fit-scorer MCP
+          server](https://glama.ai/mcp/servers/mambalabsdev/mcp-icp-fit-scorer/badges/score.svg)](https://glama.ai/mcp/servers/mambalabsdev/mcp-icp-fit-scorer)
+          📇 ☁️ - Scores a company against a weighted ideal customer profile, returning a 0-100 score, A/B/C tier, and
+          per-signal breakdown.
         confidence: high
 metadata:
   github:
@@ -30,19 +35,25 @@ metadata:
     archived: false
     full_name: mambalabsdev/mcp-icp-fit-scorer
     html_url: https://github.com/mambalabsdev/mcp-icp-fit-scorer
-    created_at: "2026-06-01T11:04:37Z"
-    pushed_at: "2026-07-28T11:54:10Z"
-    description: MCP server for ICP Fit Scorer. Scores a company against your ideal customer profile with weighted signals via Apify. Returns a 0 to 100 score, a tier, and a per-signal breakdown. Clay-ready output.
+    created_at: '2026-06-01T11:04:37Z'
+    pushed_at: '2026-07-28T11:54:10Z'
+    description: >-
+      MCP server for ICP Fit Scorer. Scores a company against your ideal customer profile with weighted signals via
+      Apify. Returns a 0 to 100 score, a tier, and a per-signal breakdown. Clay-ready output.
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:16:55.329Z"
+    last_checked_at: '2026-08-03T05:16:55.329Z'
     readme:
-      fetched_at: "2026-08-03T05:16:55.329Z"
+      fetched_at: '2026-08-03T05:16:55.329Z'
       bytes: 7206
 insights:
   summary: An MCP server that uses Apify to score companies against an ideal customer profile (ICP) using weighted signals.
-  why_it_matters: It allows developers to integrate specialized GTM (Go-To-Market) data and scoring logic directly into agentic workflows and LLM interfaces like Claude Desktop.
-  mental_damage: Because now your LLM can judge your sales leads with the same clinical detachment it uses to dismiss your pull requests.
+  why_it_matters: >-
+    It allows developers to integrate specialized GTM (Go-To-Market) data and scoring logic directly into agentic
+    workflows and LLM interfaces like Claude Desktop.
+  mental_damage: >-
+    Because now your LLM can judge your sales leads with the same clinical detachment it uses to dismiss your pull
+    requests.
   tags:
     - mcp
     - gtm
@@ -52,31 +63,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server implementation providing domain-specific scoring capabilities to agentic clients.
+  reason: >-
+    The project's primary identity is an MCP server implementation providing domain-specific scoring capabilities to
+    agentic clients.
   evidence:
     - Repo description explicitly defines it as an 'MCP server for ICP Fit Scorer'
     - README provides direct Claude Desktop MCP configuration instructions
     - Wraps a specific Apify actor to expose GTM data as MCP tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-15T05:51:04.989Z"
+    updated_at: '2026-06-15T05:51:04.989Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:55.329Z"
+    updated_at: '2026-08-03T05:16:55.329Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-06T05:39:21.204Z"
+    updated_at: '2026-07-06T05:39:21.204Z'
     cause: null
     next_retry_at: null
     attempts: 1

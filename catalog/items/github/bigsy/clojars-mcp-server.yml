@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bigsy__clojars-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Clojars
         extracted_url: https://github.com/bigsy/clojars-mcp-server
-        surrounding_text: "- **[Clojars](https://github.com/Bigsy/Clojars-MCP-Server)** - Obtains latest dependency details for Clojure libraries."
+        surrounding_text: >-
+          - **[Clojars](https://github.com/Bigsy/Clojars-MCP-Server)** - Obtains latest dependency details for Clojure
+          libraries.
         confidence: high
 metadata:
   github:
@@ -29,17 +31,21 @@ metadata:
     archived: false
     full_name: Bigsy/Clojars-MCP-Server
     html_url: https://github.com/Bigsy/Clojars-MCP-Server
-    created_at: "2024-12-14T20:21:55Z"
-    pushed_at: "2025-06-25T16:21:52Z"
-    description: A Model Context Protocol (MCP) server that provides tools for fetching dependency information from Clojars, the Clojure community's artifact repository.
+    created_at: '2024-12-14T20:21:55Z'
+    pushed_at: '2025-06-25T16:21:52Z'
+    description: >-
+      A Model Context Protocol (MCP) server that provides tools for fetching dependency information from Clojars, the
+      Clojure community's artifact repository.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:34.002Z"
+    last_checked_at: '2026-09-07T04:13:34.002Z'
     readme:
-      fetched_at: "2026-09-07T04:13:34.002Z"
+      fetched_at: '2026-09-07T04:13:34.002Z'
       bytes: 4880
 insights:
-  summary: An MCP server that exposes tools for fetching dependency information from Clojars, the Clojure community's artifact repository.
+  summary: >-
+    An MCP server that exposes tools for fetching dependency information from Clojars, the Clojure community's artifact
+    repository.
   why_it_matters: It lets AI assistants like Claude directly query Clojars for dependency versions and history without manual lookups.
   mental_damage: Now your AI can argue about Clojure dependency versions with the same confidence it reserves for JavaScript.
   tags:
@@ -50,31 +56,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: it is a dedicated MCP server providing domain-specific tools for Clojars integration."
+  reason: >-
+    MCP is the product identity here: it is a dedicated MCP server providing domain-specific tools for Clojars
+    integration.
   evidence:
     - Repo description explicitly states it is an MCP server for Clojars
     - README details MCP tool definitions and integration steps for Claude
     - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:34.002Z"
+    updated_at: '2026-09-07T04:13:34.002Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:26:00.533Z"
+    updated_at: '2026-07-21T15:26:00.533Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -87,7 +96,9 @@ processing:
       input_hash: sha256:df8c777340b72c5572718db927087ab18620c475538ce1b326fd284232e538e3
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: it is a dedicated MCP server providing domain-specific tools for Clojars integration."
+      decision_reason: >-
+        MCP is the product identity here: it is a dedicated MCP server providing domain-specific tools for Clojars
+        integration.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Clojars
         - README details MCP tool definitions and integration steps for Claude
@@ -95,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

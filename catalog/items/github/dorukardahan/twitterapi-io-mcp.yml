@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dorukardahan__twitterapi-io-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: dorukardahan/twitterapi-docs-mcp
         extracted_url: https://github.com/dorukardahan/twitterapi-docs-mcp
-        surrounding_text: "- [dorukardahan/twitterapi-docs-mcp](https://github.com/dorukardahan/twitterapi-docs-mcp) 📇 🏠 - Offline access to TwitterAPI.io documentation for AI assistants. 52 API endpoints, guides, pricing info, and authentication docs."
+        surrounding_text: >-
+          - [dorukardahan/twitterapi-docs-mcp](https://github.com/dorukardahan/twitterapi-docs-mcp) 📇 🏠 - Offline
+          access to TwitterAPI.io documentation for AI assistants. 52 API endpoints, guides, pricing info, and
+          authentication docs.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,9 @@ metadata:
     archived: false
     full_name: dorukardahan/twitterapi-io-mcp
     html_url: https://github.com/dorukardahan/twitterapi-io-mcp
-    created_at: "2025-12-05T07:02:30Z"
-    pushed_at: "2026-09-04T02:54:35Z"
-    description: "TwitterAPI.io MCP server: offline docs (endpoints, pages, blogs) for Claude and other AI assistants."
+    created_at: '2025-12-05T07:02:30Z'
+    pushed_at: '2026-09-04T02:54:35Z'
+    description: 'TwitterAPI.io MCP server: offline docs (endpoints, pages, blogs) for Claude and other AI assistants.'
     homepage: https://www.npmjs.com/package/twitterapi-io-mcp
     topics:
       - api-reference
@@ -47,13 +50,15 @@ metadata:
       - twitterapi-io
       - twitterapiio
       - x-api
-    last_checked_at: "2026-09-14T04:13:43.651Z"
+    last_checked_at: '2026-09-14T04:13:43.651Z'
     readme:
-      fetched_at: "2026-09-14T04:13:43.651Z"
+      fetched_at: '2026-09-14T04:13:43.651Z'
       bytes: 12096
 insights:
   summary: An MCP server providing offline TwitterAPI.io documentation for AI assistants like Claude.
-  why_it_matters: Developers integrating Twitter/X APIs can query complete, up-to-date endpoint docs, guides, and blog posts directly from their AI assistant without needing an API key.
+  why_it_matters: >-
+    Developers integrating Twitter/X APIs can query complete, up-to-date endpoint docs, guides, and blog posts directly
+    from their AI assistant without needing an API key.
   mental_damage: Now your AI assistant can argue with you about Twitter API rate limits using the same docs you’re too lazy to read.
   tags:
     - mcp-server
@@ -63,31 +68,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server whose primary identity is serving TwitterAPI.io documentation via the Model Context Protocol.
+  reason: >-
+    This is a dedicated MCP server whose primary identity is serving TwitterAPI.io documentation via the Model Context
+    Protocol.
   evidence:
     - Repo description explicitly states it is a 'TwitterAPI.io MCP server'
     - README confirms it is an MCP server for offline docs access in AI assistants
     - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.611Z"
+    updated_at: '2026-05-06T22:12:15.611Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:43.651Z"
+    updated_at: '2026-09-14T04:13:43.651Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:35.899Z"
+    updated_at: '2026-07-21T15:51:35.899Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -100,7 +108,9 @@ processing:
       input_hash: sha256:81001bafdcb9dd21a447efcb9b0a3d7cbba77470fadcfe42cad44734baff57ab
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a dedicated MCP server whose primary identity is serving TwitterAPI.io documentation via the Model Context Protocol.
+      decision_reason: >-
+        This is a dedicated MCP server whose primary identity is serving TwitterAPI.io documentation via the Model
+        Context Protocol.
       decision_evidence:
         - Repo description explicitly states it is a 'TwitterAPI.io MCP server'
         - README confirms it is an MCP server for offline docs access in AI assistants
@@ -108,6 +118,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, not merely an extension
+        for another assistant.
       review_reason: null
       review_resume_lifecycle: null

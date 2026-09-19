@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bruno-portfolio__agrobr-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 📊 <a name="data-platforms"></a>Data Platforms
         anchor_text: bruno-portfolio/agrobr-mcp
         extracted_url: https://github.com/bruno-portfolio/agrobr-mcp
-        surrounding_text: "- [bruno-portfolio/agrobr-mcp](https://github.com/bruno-portfolio/agrobr-mcp) 🐍 ☁️ - Brazilian agricultural data for LLMs — prices, crop estimates, climate, deforestation from 19 public sources via CEPEA, CONAB, IBGE, INPE and B3."
+        surrounding_text: >-
+          - [bruno-portfolio/agrobr-mcp](https://github.com/bruno-portfolio/agrobr-mcp) 🐍 ☁️ - Brazilian agricultural
+          data for LLMs — prices, crop estimates, climate, deforestation from 19 public sources via CEPEA, CONAB, IBGE,
+          INPE and B3.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,22 @@ metadata:
     archived: false
     full_name: bruno-portfolio/agrobr-mcp
     html_url: https://github.com/bruno-portfolio/agrobr-mcp
-    created_at: "2026-02-16T10:01:46Z"
-    pushed_at: "2026-03-12T22:28:58Z"
+    created_at: '2026-02-16T10:01:46Z'
+    pushed_at: '2026-03-12T22:28:58Z'
     description: MCP server for Brazilian agricultural data — connect LLMs to 10 public data sources via agrobr
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:38.259Z"
+    last_checked_at: '2026-09-07T04:13:38.259Z'
     readme:
-      fetched_at: "2026-09-07T04:13:38.259Z"
+      fetched_at: '2026-09-07T04:13:38.259Z'
       bytes: 5133
 insights:
-  summary: MCP server that provides LLMs access to real-time Brazilian agricultural data from 10 public sources via the agrobr library.
-  why_it_matters: Developers can integrate domain-specific agricultural data into their AI workflows without building custom API connectors.
+  summary: >-
+    MCP server that provides LLMs access to real-time Brazilian agricultural data from 10 public sources via the agrobr
+    library.
+  why_it_matters: >-
+    Developers can integrate domain-specific agricultural data into their AI workflows without building custom API
+    connectors.
   mental_damage: Now your LLM can debate soybean futures while you debug your actual code.
   tags:
     - mcp-server
@@ -59,24 +66,25 @@ curation:
     - Source-list context shows it is curated in awesome-mcp-servers under Data Platforms
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.606Z"
+    updated_at: '2026-05-06T22:12:15.606Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:38.259Z"
+    updated_at: '2026-09-07T04:13:38.259Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:34:22.697Z"
+    updated_at: '2026-07-21T15:34:22.697Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +97,9 @@ processing:
       input_hash: sha256:78a92cf2927da83e1ee9bc2b38b7ebf046213c9380bdeb2b8382a8913dac7c58
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server whose primary identity is exposing domain-specific data via the Model Context Protocol.
+      decision_reason: >-
+        This is an MCP-first server whose primary identity is exposing domain-specific data via the Model Context
+        Protocol.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Brazilian agricultural data
         - README details 10 tools exposing data from public sources via MCP
@@ -97,6 +107,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__openzeppelin__contracts-wizard__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: OpenZeppelin/contracts-wizard
         extracted_url: https://github.com/openzeppelin/contracts-wizard
-        surrounding_text: "- [OpenZeppelin/contracts-wizard](https://github.com/OpenZeppelin/contracts-wizard/tree/master/packages/mcp) - A Model Context Protocol (MCP) server that allows AI agents to generate secure smart contracts in multiples languages based on [OpenZeppelin Wizard templates](https://wizard.openzeppelin.com/)."
+        surrounding_text: >-
+          - [OpenZeppelin/contracts-wizard](https://github.com/OpenZeppelin/contracts-wizard/tree/master/packages/mcp) -
+          A Model Context Protocol (MCP) server that allows AI agents to generate secure smart contracts in multiples
+          languages based on [OpenZeppelin Wizard templates](https://wizard.openzeppelin.com/).
         confidence: high
 metadata:
   github:
@@ -30,19 +33,25 @@ metadata:
     archived: false
     full_name: OpenZeppelin/contracts-wizard
     html_url: https://github.com/OpenZeppelin/contracts-wizard
-    created_at: "2021-02-09T23:46:23Z"
-    pushed_at: "2026-07-19T09:48:38Z"
+    created_at: '2021-02-09T23:46:23Z'
+    pushed_at: '2026-07-19T09:48:38Z'
     description: Interactive smart contract generator based on OpenZeppelin Contracts.
     homepage: https://wizard.openzeppelin.com
     topics: []
-    last_checked_at: "2026-07-20T16:42:27.823Z"
+    last_checked_at: '2026-07-20T16:42:27.823Z'
     readme:
-      fetched_at: "2026-07-20T16:42:27.823Z"
+      fetched_at: '2026-07-20T16:42:27.823Z'
       bytes: 4018
 insights:
-  summary: An interactive web tool and CLI for generating smart contract code based on OpenZeppelin templates, with optional MCP integration for AI agents.
-  why_it_matters: It lets developers scaffold secure, standards-based smart contracts in Solidity, Cairo, and Stellar without memorizing OpenZeppelin APIs or copy-pasting boilerplate.
-  mental_damage: AI agents can now hallucinate your ERC-20 compliance via MCP, while you still carry the existential weight of mainnet deployment.
+  summary: >-
+    An interactive web tool and CLI for generating smart contract code based on OpenZeppelin templates, with optional
+    MCP integration for AI agents.
+  why_it_matters: >-
+    It lets developers scaffold secure, standards-based smart contracts in Solidity, Cairo, and Stellar without
+    memorizing OpenZeppelin APIs or copy-pasting boilerplate.
+  mental_damage: >-
+    AI agents can now hallucinate your ERC-20 compliance via MCP, while you still carry the existential weight of
+    mainnet deployment.
   tags:
     - smart-contracts
     - code-generation
@@ -52,35 +61,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a prompt- and form-driven code generator that produces new smart contract scaffolds rather than editing an existing repo as a primary coding assistant.
+  reason: >-
+    It is a prompt- and form-driven code generator that produces new smart contract scaffolds rather than editing an
+    existing repo as a primary coding assistant.
   evidence:
     - Repo description states it is an 'Interactive smart contract generator based on OpenZeppelin Contracts.'
     - README says it generates all necessary code from selected parameters and features, ready to compile or customize.
     - Includes a CLI and MCP server, but these are secondary interfaces to the core scaffolding product.
 placement:
   primary_category: app-builders
-  section: Local / Code-Scaffolding Builders
+  secondary_categories: []
+  section: Scaffolding & Boilerplate
 lifecycle:
   status: promotion_candidate
   reason: Stars (292) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.640Z"
+    updated_at: '2026-05-06T22:12:15.640Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:27.824Z"
+    updated_at: '2026-07-20T16:42:27.824Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

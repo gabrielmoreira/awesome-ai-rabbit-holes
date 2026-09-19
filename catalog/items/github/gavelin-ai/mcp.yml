@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gavelin-ai__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - ⚖️ <a name="legal"></a>Legal
         anchor_text: gavelin-ai/mcp
         extracted_url: https://github.com/gavelin-ai/mcp
-        surrounding_text: "- [gavelin-ai/mcp](https://github.com/gavelin-ai/mcp) [![gavelin-ai/mcp MCP server](https://glama.ai/mcp/servers/gavelin-ai/mcp/badges/score.svg)](https://glama.ai/mcp/servers/gavelin-ai/mcp) 📇 ☁️ - State legislative intelligence for AI agents. Speaker-attributed hearing transcripts, bills, votes, and AI-generated reports from US state legislatures. Remote server at mcp.gavelin.ai/mcp."
+        surrounding_text: >-
+          - [gavelin-ai/mcp](https://github.com/gavelin-ai/mcp) [![gavelin-ai/mcp MCP
+          server](https://glama.ai/mcp/servers/gavelin-ai/mcp/badges/score.svg)](https://glama.ai/mcp/servers/gavelin-ai/mcp)
+          📇 ☁️ - State legislative intelligence for AI agents. Speaker-attributed hearing transcripts, bills, votes,
+          and AI-generated reports from US state legislatures. Remote server at mcp.gavelin.ai/mcp.
         confidence: high
 metadata:
   github:
@@ -30,19 +34,25 @@ metadata:
     archived: false
     full_name: gavelin-ai/mcp
     html_url: https://github.com/gavelin-ai/mcp
-    created_at: "2026-03-24T23:21:36Z"
-    pushed_at: "2026-04-15T22:26:48Z"
+    created_at: '2026-03-24T23:21:36Z'
+    pushed_at: '2026-04-15T22:26:48Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:46.476Z"
+    last_checked_at: '2026-09-03T05:16:46.476Z'
     readme:
-      fetched_at: "2026-09-03T05:16:46.476Z"
+      fetched_at: '2026-09-03T05:16:46.476Z'
       bytes: 3972
 insights:
-  summary: An MCP server providing access to US state legislative intelligence, including bill searches and speaker-attributed hearing transcripts.
-  why_it_matters: It enables AI agents to perform deep policy research by retrieving structured, speaker-attributed legislative data across all 50 US states.
-  mental_damage: Because nothing says 'odern dev workflow' like debugging a RAG pipeline that has to parse US congressional hearing transcripts.
+  summary: >-
+    An MCP server providing access to US state legislative intelligence, including bill searches and speaker-attributed
+    hearing transcripts.
+  why_it_matters: >-
+    It enables AI agents to perform deep policy research by retrieving structured, speaker-attributed legislative data
+    across all 50 US states.
+  mental_damage: >-
+    Because nothing says 'odern dev workflow' like debugging a RAG pipeline that has to parse US congressional hearing
+    transcripts.
   tags:
     - mcp
     - legislative-data
@@ -51,31 +61,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is a specialized MCP server providing domain-specific data access to existing MCP clients.
+  reason: >-
+    The product's core identity is a specialized MCP server providing domain-specific data access to existing MCP
+    clients.
   evidence:
     - README explicitly identifies as 'Gavelin MCP Server'
     - Provides specific MCP tools like 'earch_bills' and 'get_hearing_transcript'
     - Designed for connection via Claude Desktop, Claude Code, or any MCP client
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: '2026-05-06T22:12:15.615Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:46.476Z"
+    updated_at: '2026-09-03T05:16:46.476Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:00:44.822Z"
+    updated_at: '2026-07-21T16:00:44.822Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +101,9 @@ processing:
       input_hash: sha256:37e2dbc9fa4758627e5fd3376d0a763289b727f1bf6b9ef35c1e944984afcb8e
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is a specialized MCP server providing domain-specific data access to existing MCP clients.
+      decision_reason: >-
+        The product's core identity is a specialized MCP server providing domain-specific data access to existing MCP
+        clients.
       decision_evidence:
         - README explicitly identifies as 'Gavelin MCP Server'
         - Provides specific MCP tools like 'earch_bills' and 'get_hearing_transcript'
@@ -96,6 +111,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity and delivery mechanism is an MCP server rather than a general extension for an editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity and delivery mechanism is an MCP server
+        rather than a general extension for an editor.
       review_reason: null
       review_resume_lifecycle: null

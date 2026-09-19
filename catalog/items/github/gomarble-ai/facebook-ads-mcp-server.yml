@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gomarble-ai__facebook-ads-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: gomarble-ai/facebook-ads-mcp-server
         extracted_url: https://github.com/gomarble-ai/facebook-ads-mcp-server
-        surrounding_text: "- [gomarble-ai/facebook-ads-mcp-server](https://github.com/gomarble-ai/facebook-ads-mcp-server) 🐍 ☁️ - MCP server acting as an interface to the Facebook Ads, enabling programmatic access to Facebook Ads data and management features."
+        surrounding_text: >-
+          - [gomarble-ai/facebook-ads-mcp-server](https://github.com/gomarble-ai/facebook-ads-mcp-server) 🐍 ☁️ - MCP
+          server acting as an interface to the Facebook Ads, enabling programmatic access to Facebook Ads data and
+          management features.
         confidence: high
     - id: discovery__github__gomarble-ai__facebook-ads-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +38,9 @@ provenance:
           - Community Servers
         anchor_text: Facebook Ads
         extracted_url: https://github.com/gomarble-ai/facebook-ads-mcp-server
-        surrounding_text: "- **[Facebook Ads](https://github.com/gomarble-ai/facebook-ads-mcp-server)** - MCP server acting as an interface to the Facebook Ads, enabling programmatic access to Facebook Ads data and management features."
+        surrounding_text: >-
+          - **[Facebook Ads](https://github.com/gomarble-ai/facebook-ads-mcp-server)** - MCP server acting as an
+          interface to the Facebook Ads, enabling programmatic access to Facebook Ads data and management features.
         confidence: high
 metadata:
   github:
@@ -45,18 +50,20 @@ metadata:
     archived: false
     full_name: gomarble-ai/facebook-ads-mcp-server
     html_url: https://github.com/gomarble-ai/facebook-ads-mcp-server
-    created_at: "2025-04-07T17:46:05Z"
-    pushed_at: "2026-08-05T09:45:30Z"
+    created_at: '2025-04-07T17:46:05Z'
+    pushed_at: '2026-08-05T09:45:30Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:51.438Z"
+    last_checked_at: '2026-09-03T05:16:51.438Z'
     readme:
-      fetched_at: "2026-09-03T05:16:51.438Z"
+      fetched_at: '2026-09-03T05:16:51.438Z'
       bytes: 7354
 insights:
   summary: An MCP server that provides programmatic access to Meta Ads data and management features.
-  why_it_matters: Developers can integrate Meta Ads capabilities into MCP-compatible clients like Cursor or Claude Desktop without manually handling authentication or token management.
+  why_it_matters: >-
+    Developers can integrate Meta Ads capabilities into MCP-compatible clients like Cursor or Claude Desktop without
+    manually handling authentication or token management.
   mental_damage: Now your AI assistant can spin up ad campaigns while you pretend to review its code.
   tags:
     - mcp-server
@@ -66,31 +73,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose primary identity is providing Meta Ads integration via the Model Context Protocol.
+  reason: >-
+    The product is explicitly an MCP server whose primary identity is providing Meta Ads integration via the Model
+    Context Protocol.
   evidence:
     - README explicitly describes it as an MCP server for Meta Ads
     - Listed in awesome-mcp-servers under Community Servers
     - Provides MCP tools for interacting with Meta Ads objects and data
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: promotion_candidate
   reason: Stars (321) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.586Z"
+    updated_at: '2026-05-06T22:12:15.586Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:51.438Z"
+    updated_at: '2026-09-03T05:16:51.438Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:03:28.318Z"
+    updated_at: '2026-07-21T16:03:28.318Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -103,7 +113,9 @@ processing:
       input_hash: sha256:0c4d9c45ff84999017de8bd495926cd8b54f7a0e1416c3b30e0e5b5866cbf257
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server whose primary identity is providing Meta Ads integration via the Model Context Protocol.
+      decision_reason: >-
+        The product is explicitly an MCP server whose primary identity is providing Meta Ads integration via the Model
+        Context Protocol.
       decision_evidence:
         - README explicitly describes it as an MCP server for Meta Ads
         - Listed in awesome-mcp-servers under Community Servers
@@ -111,6 +123,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

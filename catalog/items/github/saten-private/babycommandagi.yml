@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__saten-private__babycommandagi__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,7 @@ provenance:
           - BabyCommandAGI
         anchor_text: BabyCommandAGI
         extracted_url: https://github.com/saten-private/babycommandagi
-        surrounding_text: "## [BabyCommandAGI](https://github.com/saten-private/BabyCommandAGI)"
+        surrounding_text: '## [BabyCommandAGI](https://github.com/saten-private/BabyCommandAGI)'
         confidence: high
 metadata:
   github:
@@ -29,9 +29,12 @@ metadata:
     archived: false
     full_name: saten-private/BabyCommandAGI
     html_url: https://github.com/saten-private/BabyCommandAGI
-    created_at: "2023-05-16T20:15:32Z"
-    pushed_at: "2025-06-11T15:37:12Z"
-    description: BabyCommandAGI is designed to test what happens when you combine CLI and LLM, which are older computer interfaces than GUI. Based on BabyAGI, and using Latest LLM API. Imagine LLM and CLI having a conversation. It's exciting to think about what could happen. I hope you will all try it out.
+    created_at: '2023-05-16T20:15:32Z'
+    pushed_at: '2025-06-11T15:37:12Z'
+    description: >-
+      BabyCommandAGI is designed to test what happens when you combine CLI and LLM, which are older computer interfaces
+      than GUI. Based on BabyAGI, and using Latest LLM API. Imagine LLM and CLI having a conversation. It's exciting to
+      think about what could happen. I hope you will all try it out.
     homepage: https://x.com/saten_work/status/1791550524988490053
     topics:
       - ai
@@ -44,14 +47,20 @@ metadata:
       - openai
       - openai-api
       - python
-    last_checked_at: "2026-07-20T16:42:51.480Z"
+    last_checked_at: '2026-07-20T16:42:51.480Z'
     readme:
-      fetched_at: "2026-07-20T16:42:51.480Z"
+      fetched_at: '2026-07-20T16:42:51.480Z'
       bytes: 7291
 insights:
-  summary: BabyCommandAGI is a Python-based autonomous agent that executes a continuous loop of planning and CLI command execution to complete objectives using LLM APIs like Claude and GPT.
-  why_it_matters: It serves as a minimal, experimental reference for developers exploring how LLMs can directly drive shell environments to automate programming and system setup tasks.
-  mental_damage: Yet another BabyAGI variant proving that given enough API credits and a shell, an LLM will happily loop forever trying to build Snake while you watch your token budget evaporate.
+  summary: >-
+    BabyCommandAGI is a Python-based autonomous agent that executes a continuous loop of planning and CLI command
+    execution to complete objectives using LLM APIs like Claude and GPT.
+  why_it_matters: >-
+    It serves as a minimal, experimental reference for developers exploring how LLMs can directly drive shell
+    environments to automate programming and system setup tasks.
+  mental_damage: >-
+    Yet another BabyAGI variant proving that given enough API credits and a shell, an LLM will happily loop forever
+    trying to build Snake while you watch your token budget evaporate.
   tags:
     - cli-agent
     - autonomous-agents
@@ -61,13 +70,18 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The project is a standalone CLI-based autonomous agent that plans and executes coding tasks directly via the terminal, fitting the primary coding assistant definition for that section.
+  reason: >-
+    The project is a standalone CLI-based autonomous agent that plans and executes coding tasks directly via the
+    terminal, fitting the primary coding assistant definition for that section.
   evidence:
     - Repo description explicitly states it combines CLI and LLM to test automatic programming and environment setup.
-    - README demonstrates use cases for creating apps (Reversi, Snake) and installing environments (Flutter) via autonomous command execution.
+    - >-
+      README demonstrates use cases for creating apps (Reversi, Snake) and installing environments (Flutter) via
+      autonomous command execution.
     - Listed in awesome-ai-agents under the autonomous agents section, confirming its identity as a coding agent.
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: incubating
@@ -75,21 +89,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.646Z"
+    updated_at: '2026-05-06T22:12:15.646Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:51.480Z"
+    updated_at: '2026-07-20T16:42:51.480Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__metadrama__obscura-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: Metadrama/obscura-mcp
         extracted_url: https://github.com/metadrama/obscura-mcp
-        surrounding_text: "- [Metadrama/obscura-mcp](https://github.com/Metadrama/obscura-mcp) [![Metadrama/obscura-mcp MCP server](https://glama.ai/mcp/servers/Metadrama/obscura-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Metadrama/obscura-mcp) 📇 ☁️ 🐧 🪟 🍎 - MCP server adapter for the lightweight Rust headless browser Obscura — high-performance web scraping with anti-detection. Perfect for AI agent automation. Server can run [locally](https://github.com/Metadrama/obscura-mcp) or as [hosted endpoint](https://glama.ai/mcp/connectors)."
+        surrounding_text: >-
+          - [Metadrama/obscura-mcp](https://github.com/Metadrama/obscura-mcp) [![Metadrama/obscura-mcp MCP
+          server](https://glama.ai/mcp/servers/Metadrama/obscura-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Metadrama/obscura-mcp)
+          📇 ☁️ 🐧 🪟 🍎 - MCP server adapter for the lightweight Rust headless browser Obscura — high-performance web
+          scraping with anti-detection. Perfect for AI agent automation. Server can run
+          [locally](https://github.com/Metadrama/obscura-mcp) or as [hosted endpoint](https://glama.ai/mcp/connectors).
         confidence: high
 metadata:
   github:
@@ -30,19 +35,25 @@ metadata:
     archived: true
     full_name: Metadrama/obscura-mcp
     html_url: https://github.com/Metadrama/obscura-mcp
-    created_at: "2026-04-29T20:25:07Z"
-    pushed_at: "2026-05-17T11:58:18Z"
+    created_at: '2026-04-29T20:25:07Z'
+    pushed_at: '2026-05-17T11:58:18Z'
     description: MCP server adapter for Obscura headless browser — CDP automation without Chrome dependency
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:17:00.479Z"
+    last_checked_at: '2026-08-03T05:17:00.479Z'
     readme:
-      fetched_at: "2026-08-03T05:17:00.479Z"
+      fetched_at: '2026-08-03T05:17:00.479Z'
       bytes: 11146
 insights:
-  summary: An MCP server that exposes a lightweight Rust headless browser (Obscura) to AI agents for scraping, page reading, and interactive browser automation without a Chrome dependency.
-  why_it_matters: Developers can give their MCP-compatible coding assistants direct, no-Chrome browser automation and scraping capabilities through a clean stdio or HTTP interface.
-  mental_damage: We have successfully adopted a protocol so that our agents can now statistically hallucinate their way through the DOM, one headless browser at a time.
+  summary: >-
+    An MCP server that exposes a lightweight Rust headless browser (Obscura) to AI agents for scraping, page reading,
+    and interactive browser automation without a Chrome dependency.
+  why_it_matters: >-
+    Developers can give their MCP-compatible coding assistants direct, no-Chrome browser automation and scraping
+    capabilities through a clean stdio or HTTP interface.
+  mental_damage: >-
+    We have successfully adopted a protocol so that our agents can now statistically hallucinate their way through the
+    DOM, one headless browser at a time.
   tags:
     - mcp
     - browser-automation
@@ -52,35 +63,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server adapter for a headless browser, fitting cleanly into MCP Servers & Tooling as a domain-specific server for browser automation.
+  reason: >-
+    The product identity is an MCP server adapter for a headless browser, fitting cleanly into MCP Servers & Tooling as
+    a domain-specific server for browser automation.
   evidence:
-    - "README states: 'An MCP server adapter for Obscura... Exposes Obscura's native CDP capabilities through a clean MCP interface.'"
-    - "Source list context: listed in awesome-mcp-servers under Browser Automation."
+    - >-
+      README states: 'An MCP server adapter for Obscura... Exposes Obscura's native CDP capabilities through a clean MCP
+      interface.'
+    - 'Source list context: listed in awesome-mcp-servers under Browser Automation.'
     - Supports stdio and streamable-http transports for MCP clients like Claude Desktop and Cline.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.629Z"
+    updated_at: '2026-05-06T22:12:15.629Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:00.479Z"
+    updated_at: '2026-08-03T05:17:00.479Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__forcedreamai__forcedream-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-30T05:05:26.992Z"
+      discovered_at: '2026-07-30T05:05:26.992Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,14 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: forcedreamai/forcedream-mcp
         extracted_url: https://github.com/forcedreamai/forcedream-mcp
-        surrounding_text: "- [forcedreamai/forcedream-mcp](https://github.com/forcedreamai/forcedream-mcp) [![forcedreamai/forcedream-mcp MCP server](https://glama.ai/mcp/servers/forcedreamai/forcedream-mcp/badges/score.svg)](https://glama.ai/mcp/servers/forcedreamai/forcedream-mcp) 🎖️ 📇 ☁️ - Discover, invoke, and cryptographically verify AI agents on a paid agent marketplace. 13 tools spanning code generation (6-module engineering verification), security scanning (OSV.dev + GitGuardian), and lead scoring (8 real sources). Every result is Ed25519-signed and independently verifiable -- no trust in the platform required. Install: `npx -y @forcedream/mcp-server`."
+        surrounding_text: >-
+          - [forcedreamai/forcedream-mcp](https://github.com/forcedreamai/forcedream-mcp) [![forcedreamai/forcedream-mcp
+          MCP
+          server](https://glama.ai/mcp/servers/forcedreamai/forcedream-mcp/badges/score.svg)](https://glama.ai/mcp/servers/forcedreamai/forcedream-mcp)
+          🎖️ 📇 ☁️ - Discover, invoke, and cryptographically verify AI agents on a paid agent marketplace. 13 tools
+          spanning code generation (6-module engineering verification), security scanning (OSV.dev + GitGuardian), and
+          lead scoring (8 real sources). Every result is Ed25519-signed and independently verifiable -- no trust in the
+          platform required. Install: `npx -y @forcedream/mcp-server`.
         confidence: high
 metadata:
   github:
@@ -30,8 +37,8 @@ metadata:
     archived: false
     full_name: forcedreamai/forcedream-mcp
     html_url: https://github.com/forcedreamai/forcedream-mcp
-    created_at: "2026-07-10T15:55:13Z"
-    pushed_at: "2026-08-21T17:14:32Z"
+    created_at: '2026-07-10T15:55:13Z'
+    pushed_at: '2026-08-21T17:14:32Z'
     description: MCP server for ForceDream — discover, invoke, and trustlessly verify AI agents with cryptographic proofs.
     homepage: https://www.forcedream.com
     topics:
@@ -43,14 +50,20 @@ metadata:
       - mcp
       - model-context-protocol
       - typescript
-    last_checked_at: "2026-09-03T05:16:42.557Z"
+    last_checked_at: '2026-09-03T05:16:42.557Z'
     readme:
-      fetched_at: "2026-09-03T05:16:42.557Z"
+      fetched_at: '2026-09-03T05:16:42.557Z'
       bytes: 17495
 insights:
-  summary: An MCP server that enables discovery, invocation, and cryptographic verification of agents within the ForceDream marketplace.
-  why_it_matters: It brings a curated marketplace of specialized, verifiable agents directly into MCP-compatible hosts like Claude Desktop.
-  mental_damage: Because we've reached the point where we need Ed25519 cryptographic signatures to trust that an agent actually did its job.
+  summary: >-
+    An MCP server that enables discovery, invocation, and cryptographic verification of agents within the ForceDream
+    marketplace.
+  why_it_matters: >-
+    It brings a curated marketplace of specialized, verifiable agents directly into MCP-compatible hosts like Claude
+    Desktop.
+  mental_damage: >-
+    Because we've reached the point where we need Ed25519 cryptographic signatures to trust that an agent actually did
+    its job.
   tags:
     - mcp
     - ai-agents
@@ -65,24 +78,25 @@ curation:
     - README lists 17 specific tools for agent discovery, invocation, and verification.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Registries & Discovery
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-30T05:05:26.994Z"
+    updated_at: '2026-07-30T05:05:26.994Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:42.557Z"
+    updated_at: '2026-09-03T05:16:42.557Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-03T05:18:15.379Z"
+    updated_at: '2026-09-03T05:18:15.379Z'
     cause: null
     next_retry_at: null
     classification:
@@ -99,7 +113,9 @@ processing:
       category_candidates:
         - mcp
         - agent-orchestration
-      contrastive_reason: Choose mcp over agent-orchestration because the product's primary identity is an MCP server implementation rather than a standalone orchestration platform.
+      contrastive_reason: >-
+        Choose mcp over agent-orchestration because the product's primary identity is an MCP server implementation
+        rather than a standalone orchestration platform.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

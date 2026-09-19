@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__srush__llama2.rs__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -19,7 +19,10 @@ provenance:
           - Inference Engine
         anchor_text: llama2.rs
         extracted_url: https://github.com/srush/llama2.rs
-        surrounding_text: "| [llama2.rs](https://github.com/srush/llama2.rs)                 | - A fast llama2 decoder in pure Rust                                                 | GPTQ                    | CPU             | ❌  | Rust        | Text-Gen      |"
+        surrounding_text: >-
+          | [llama2.rs](https://github.com/srush/llama2.rs)                 | - A fast llama2 decoder in pure
+          Rust                                                 | GPTQ                    | CPU             | ❌  |
+          Rust        | Text-Gen      |
         confidence: high
 metadata:
   github:
@@ -29,19 +32,23 @@ metadata:
     archived: false
     full_name: srush/llama2.rs
     html_url: https://github.com/srush/llama2.rs
-    created_at: "2023-07-28T13:19:33Z"
-    pushed_at: "2023-11-30T00:00:48Z"
-    description: "A fast llama2 decoder in pure Rust. "
-    homepage: ""
+    created_at: '2023-07-28T13:19:33Z'
+    pushed_at: '2023-11-30T00:00:48Z'
+    description: 'A fast llama2 decoder in pure Rust. '
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-20T16:43:02.051Z"
+    last_checked_at: '2026-07-20T16:43:02.051Z'
     readme:
-      fetched_at: "2026-07-20T16:43:02.051Z"
+      fetched_at: '2026-07-20T16:43:02.051Z'
       bytes: 4307
 insights:
   summary: A fast, pure-Rust implementation of the Llama 2 inference decoder for running quantized models locally on CPU.
-  why_it_matters: It gives developers a lightweight, Python-callable way to run 70B models locally with SIMD and memory mapping without touching a GPU or a heavy framework.
-  mental_damage: Yet another reason to convince yourself that spending three hours compiling Rust nightly toolchains is a normal part of your AI inference stack.
+  why_it_matters: >-
+    It gives developers a lightweight, Python-callable way to run 70B models locally with SIMD and memory mapping
+    without touching a GPU or a heavy framework.
+  mental_damage: >-
+    Yet another reason to convince yourself that spending three hours compiling Rust nightly toolchains is a normal part
+    of your AI inference stack.
   tags:
     - rust
     - local-inference
@@ -51,35 +58,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is a local, CPU-based Llama 2 inference runtime written in Rust, matching the Local AI category’s focus on self-hosted execution tooling.
+  reason: >-
+    The project is a local, CPU-based Llama 2 inference runtime written in Rust, matching the Local AI category’s focus
+    on self-hosted execution tooling.
   evidence:
     - Repo description states it is 'A fast llama2 decoder in pure Rust.'
     - README emphasizes local CPU inference with SIMD, memory mapping, and 4-bit quantization for 70B models.
     - Included in the awesome-local-ai list under the Inference Engine section.
 placement:
   primary_category: local-ai
-  section: Local Runtimes
+  secondary_categories: []
+  section: Inference Engines
 lifecycle:
   status: promotion_candidate
   reason: Stars (1062) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.649Z"
+    updated_at: '2026-05-06T22:12:15.649Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:43:02.051Z"
+    updated_at: '2026-07-20T16:43:02.051Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

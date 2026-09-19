@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agpt__co__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - AutoGPT
         anchor_text: AutoGPT
         extracted_url: https://agpt.co
-        surrounding_text: "## [AutoGPT](https://agpt.co/?utm_source=awesome-ai-agents)"
+        surrounding_text: '## [AutoGPT](https://agpt.co/?utm_source=awesome-ai-agents)'
         confidence: high
 metadata:
   github:
@@ -36,8 +36,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A hosted and self-hostable platform for building, deploying, and running AI agents that automate digital workflows without writing code.
-  why_it_matters: Developers can offload repeatable tasks like research, monitoring, or content generation to autonomous agents that operate across apps and schedules.
+  summary: >-
+    A hosted and self-hostable platform for building, deploying, and running AI agents that automate digital workflows
+    without writing code.
+  why_it_matters: >-
+    Developers can offload repeatable tasks like research, monitoring, or content generation to autonomous agents that
+    operate across apps and schedules.
   mental_damage: Finally, a way to replace your interns with agents that won’t ask for a raise or complain about the coffee.
   tags:
     - agent-platform
@@ -48,21 +52,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a workbench/control plane for coordinating and running multiple AI agents end-to-end, not a code-first framework or a single coding assistant.
+  reason: >-
+    The product is a workbench/control plane for coordinating and running multiple AI agents end-to-end, not a
+    code-first framework or a single coding assistant.
   evidence:
     - Primary pitch is 'build, deploy, and run AI agents that automate workflows' with a visual builder and dashboard
     - Explicitly positions itself as an agent platform (not a coding assistant or IDE)
     - Offers hosted cloud and self-hosting options with marketplace and multi-agent management
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Hosted Agent Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.658Z"
+    updated_at: '2026-05-06T22:12:15.658Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +78,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-31T13:29:41.032Z"
+    updated_at: '2026-08-31T13:29:41.032Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -84,14 +91,20 @@ processing:
       input_hash: sha256:f273fc73dabe1469da6320bea9bfced6b8e63299e105c75f455a8649d7339ce7
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The product is a workbench/control plane for coordinating and running multiple AI agents end-to-end, not a code-first framework or a single coding assistant.
+      decision_reason: >-
+        The product is a workbench/control plane for coordinating and running multiple AI agents end-to-end, not a
+        code-first framework or a single coding assistant.
       decision_evidence:
-        - Primary pitch is 'build, deploy, and run AI agents that automate workflows' with a visual builder and dashboard
+        - >-
+          Primary pitch is 'build, deploy, and run AI agents that automate workflows' with a visual builder and
+          dashboard
         - Explicitly positions itself as an agent platform (not a coding assistant or IDE)
         - Offers hosted cloud and self-hosting options with marketplace and multi-agent management
       category_candidates:
         - agent-orchestration
         - app-builders
-      contrastive_reason: Choose agent-orchestration over app-builders because the core value is coordinating autonomous agents across workflows, not generating standalone apps from prompts.
+      contrastive_reason: >-
+        Choose agent-orchestration over app-builders because the core value is coordinating autonomous agents across
+        workflows, not generating standalone apps from prompts.
       review_reason: null
       review_resume_lifecycle: null

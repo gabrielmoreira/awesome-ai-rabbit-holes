@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__burningion__video-editing-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: burningion/video-editing-mcp
         extracted_url: https://github.com/burningion/video-editing-mcp
-        surrounding_text: "- [burningion/video-editing-mcp](https://github.com/burningion/video-editing-mcp) 🐍 - Add, Analyze, Search, and Generate Video Edits from your Video Jungle Collection"
+        surrounding_text: >-
+          - [burningion/video-editing-mcp](https://github.com/burningion/video-editing-mcp) 🐍 - Add, Analyze, Search,
+          and Generate Video Edits from your Video Jungle Collection
         confidence: high
     - id: discovery__github__burningion__video-editing-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - 🎨 Art & Culture
         anchor_text: burningion/video-editing-mcp
         extracted_url: https://github.com/burningion/video-editing-mcp
-        surrounding_text: "-   **[burningion/video-editing-mcp](https://github.com/burningion/video-editing-mcp)** [![GitHub stars](https://img.shields.io/github/stars/burningion/video-editing-mcp?style=social)](https://github.com/burningion/video-editing-mcp): Enables AI-driven video editing, analysis, and search within a video collection."
+        surrounding_text: >-
+          -   **[burningion/video-editing-mcp](https://github.com/burningion/video-editing-mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/burningion/video-editing-mcp?style=social)](https://github.com/burningion/video-editing-mcp):
+          Enables AI-driven video editing, analysis, and search within a video collection.
         confidence: high
 metadata:
   github:
@@ -45,18 +50,20 @@ metadata:
     archived: false
     full_name: burningion/video-editing-mcp
     html_url: https://github.com/burningion/video-editing-mcp
-    created_at: "2024-12-03T17:02:20Z"
-    pushed_at: "2025-10-09T03:27:58Z"
+    created_at: '2024-12-03T17:02:20Z'
+    pushed_at: '2025-10-09T03:27:58Z'
     description: MCP Interface for Video Jungle
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:39.141Z"
+    last_checked_at: '2026-09-07T04:13:39.141Z'
     readme:
-      fetched_at: "2026-09-07T04:13:39.141Z"
+      fetched_at: '2026-09-07T04:13:39.141Z'
       bytes: 7194
 insights:
   summary: An MCP server that integrates Video Jungle's video editing and generation capabilities with LLM workflows.
-  why_it_matters: Lets developers trigger video uploads, edits, searches, and generative edits directly from an LLM chat via MCP tools.
+  why_it_matters: >-
+    Lets developers trigger video uploads, edits, searches, and generative edits directly from an LLM chat via MCP
+    tools.
   mental_damage: Now your AI can edit videos while you pretend to understand OpenTimelineIO.
   tags:
     - mcp
@@ -66,31 +73,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a server exposing Video Jungle's video editing tools via MCP protocol."
+  reason: 'MCP is the product identity: this is a server exposing Video Jungle''s video editing tools via MCP protocol.'
   evidence:
     - Repo description explicitly states it is an MCP Interface for Video Jungle
     - README details MCP server tools like add-video, generate-edit-from-videos, search-videos
     - Listed in awesome-mcp-list and awesome-mcp-servers under MCP server sections
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: promotion_candidate
   reason: Stars (264) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.583Z"
+    updated_at: '2026-05-06T22:12:15.583Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:39.141Z"
+    updated_at: '2026-09-07T04:13:39.141Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:34:37.331Z"
+    updated_at: '2026-07-21T15:34:37.331Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -103,7 +111,7 @@ processing:
       input_hash: sha256:c0d5c34eb991cf97a66f64f0bbcf2338b64d47cb16bbed6092ccb1a8407eed21
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a server exposing Video Jungle's video editing tools via MCP protocol."
+      decision_reason: 'MCP is the product identity: this is a server exposing Video Jungle''s video editing tools via MCP protocol.'
       decision_evidence:
         - Repo description explicitly states it is an MCP Interface for Video Jungle
         - README details MCP server tools like add-video, generate-edit-from-videos, search-videos
@@ -111,6 +119,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary identity is an MCP server exposing domain-specific tools, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary identity is an MCP server exposing domain-specific tools,
+        not an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

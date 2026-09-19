@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__keepgoing-dev__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: keepgoing-dev/mcp-server
         extracted_url: https://github.com/keepgoing-dev/mcp-server
-        surrounding_text: "- [keepgoing-dev/mcp-server](https://github.com/keepgoing-dev/mcp-server) [![mcp-server MCP server](https://glama.ai/mcp/servers/keepgoing-dev/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/keepgoing-dev/mcp-server) 📇 🏠 🍎 🪟 🐧 - Project memory for AI coding sessions. Auto-captures checkpoints on git commits, branch switches, and inactivity, then provides re-entry briefings so AI assistants pick up where you left off. Local-first, no account required."
+        surrounding_text: >-
+          - [keepgoing-dev/mcp-server](https://github.com/keepgoing-dev/mcp-server) [![mcp-server MCP
+          server](https://glama.ai/mcp/servers/keepgoing-dev/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/keepgoing-dev/mcp-server)
+          📇 🏠 🍎 🪟 🐧 - Project memory for AI coding sessions. Auto-captures checkpoints on git commits, branch
+          switches, and inactivity, then provides re-entry briefings so AI assistants pick up where you left off.
+          Local-first, no account required.
         confidence: high
 metadata:
   github:
@@ -30,18 +35,22 @@ metadata:
     archived: false
     full_name: keepgoing-dev/mcp-server
     html_url: https://github.com/keepgoing-dev/mcp-server
-    created_at: "2026-03-11T00:43:06Z"
-    pushed_at: "2026-05-14T08:55:41Z"
+    created_at: '2026-03-11T00:43:06Z'
+    pushed_at: '2026-05-14T08:55:41Z'
     description: KeepGoing MCP server - Project memory for AI coding assistants
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:55.452Z"
+    last_checked_at: '2026-07-30T05:05:55.452Z'
     readme:
-      fetched_at: "2026-07-30T05:05:55.452Z"
+      fetched_at: '2026-07-30T05:05:55.452Z'
       bytes: 4166
 insights:
-  summary: An MCP server that provides project memory for AI coding assistants by auto-capturing and retrieving development checkpoints.
-  why_it_matters: It solves the pain of re-onboarding an AI assistant to a project after interruptions by preserving context like last actions, next steps, and blockers.
+  summary: >-
+    An MCP server that provides project memory for AI coding assistants by auto-capturing and retrieving development
+    checkpoints.
+  why_it_matters: >-
+    It solves the pain of re-onboarding an AI assistant to a project after interruptions by preserving context like last
+    actions, next steps, and blockers.
   mental_damage: Finally, an AI that remembers what you were doing before you got distracted by the 17th new AI tool announcement.
   tags:
     - mcp
@@ -58,24 +67,25 @@ curation:
     - Integration instructions are MCP-first (Claude Code, Cursor, etc.)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.624Z"
+    updated_at: '2026-05-06T22:12:15.624Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:55.452Z"
+    updated_at: '2026-07-30T05:05:55.452Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:12:16.155Z"
+    updated_at: '2026-07-21T16:12:16.155Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +98,9 @@ processing:
       input_hash: sha256:7e1b9515fe49c4d54680d9f2a3226a8c5e6e91c0028751cbd42b5be137d86552
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the product identity here—a server that exposes tools for project memory, not just a compatibility feature.
+      decision_reason: >-
+        MCP is the product identity here—a server that exposes tools for project memory, not just a compatibility
+        feature.
       decision_evidence:
         - Repo description explicitly calls it an MCP server
         - README details MCP server setup and tools like get_momentum and get_reentry_briefing
@@ -96,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product is an MCP server exposing memory tools, not a standalone context system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the product is an MCP server exposing memory tools, not a standalone
+        context system.
       review_reason: null
       review_resume_lifecycle: null

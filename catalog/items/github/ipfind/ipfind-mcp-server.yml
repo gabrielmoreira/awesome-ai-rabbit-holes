@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ipfind__ipfind-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🗺️ <a name="location-services"></a>Location Services
         anchor_text: ipfind/ipfind-mcp-server
         extracted_url: https://github.com/ipfind/ipfind-mcp-server
-        surrounding_text: "- [ipfind/ipfind-mcp-server](https://github.com/ipfind/ipfind-mcp-server) 🐍 ☁️ - IP Address location service using the [IP Find](https://ipfind.com) API"
+        surrounding_text: >-
+          - [ipfind/ipfind-mcp-server](https://github.com/ipfind/ipfind-mcp-server) 🐍 ☁️ - IP Address location service
+          using the [IP Find](https://ipfind.com) API
         confidence: high
 metadata:
   github:
@@ -30,14 +32,14 @@ metadata:
     archived: false
     full_name: ipfind/ipfind-mcp-server
     html_url: https://github.com/ipfind/ipfind-mcp-server
-    created_at: "2025-04-11T19:56:20Z"
-    pushed_at: "2025-07-07T19:53:49Z"
+    created_at: '2025-04-11T19:56:20Z'
+    pushed_at: '2025-07-07T19:53:49Z'
     description: IP Find MCP Server
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:44.673Z"
+    last_checked_at: '2026-07-30T05:05:44.673Z'
     readme:
-      fetched_at: "2026-07-30T05:05:44.673Z"
+      fetched_at: '2026-07-30T05:05:44.673Z'
       bytes: 911
 insights:
   summary: An MCP server that enables AI assistants to query IP Find's API for IP address location data.
@@ -50,31 +52,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server exposing IP Find's API to AI assistants."
+  reason: 'MCP is the product identity: this is a dedicated MCP server exposing IP Find''s API to AI assistants.'
   evidence:
     - Repo description explicitly states 'IP Find MCP Server'
     - README confirms it is a Model Context Protocol server for IP Find API access
     - Certified by MCPHub as an MCP server
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.621Z"
+    updated_at: '2026-05-06T22:12:15.621Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:44.673Z"
+    updated_at: '2026-07-30T05:05:44.673Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:08:43.657Z"
+    updated_at: '2026-07-21T16:08:43.657Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,7 +90,7 @@ processing:
       input_hash: sha256:5bf82618f6e7b94b40b815e0a6ccb84a9913612956d28c364343eb13b6f633b3
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing IP Find's API to AI assistants."
+      decision_reason: 'MCP is the product identity: this is a dedicated MCP server exposing IP Find''s API to AI assistants.'
       decision_evidence:
         - Repo description explicitly states 'IP Find MCP Server'
         - README confirms it is a Model Context Protocol server for IP Find API access
@@ -95,6 +98,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

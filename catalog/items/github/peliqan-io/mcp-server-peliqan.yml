@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__peliqan-io__mcp-server-peliqan__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Community Servers
         anchor_text: Peliqan
         extracted_url: https://github.com/peliqan-io/mcp-server-peliqan
-        surrounding_text: "- **[Peliqan](https://github.com/Peliqan-io/mcp-server-peliqan)** - Data platform with ETL and built-in data warehouse, access all business applications (ERP, CRM, Accounting etc.) via MCP and run queries on your business data."
+        surrounding_text: >-
+          - **[Peliqan](https://github.com/Peliqan-io/mcp-server-peliqan)** - Data platform with ETL and built-in data
+          warehouse, access all business applications (ERP, CRM, Accounting etc.) via MCP and run queries on your
+          business data.
         confidence: high
 metadata:
   github:
@@ -29,19 +32,25 @@ metadata:
     archived: false
     full_name: Peliqan-io/mcp-server-peliqan
     html_url: https://github.com/Peliqan-io/mcp-server-peliqan
-    created_at: "2025-06-08T20:14:31Z"
-    pushed_at: "2026-05-19T11:25:23Z"
+    created_at: '2025-06-08T20:14:31Z'
+    pushed_at: '2026-05-19T11:25:23Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:32.454Z"
+    last_checked_at: '2026-07-20T16:42:32.454Z'
     readme:
-      fetched_at: "2026-07-20T16:42:32.454Z"
+      fetched_at: '2026-07-20T16:42:32.454Z'
       bytes: 4124
 insights:
-  summary: A local MCP server that connects AI assistants like Claude Desktop to the Peliqan data platform, exposing connectors for hundreds of SaaS tools and databases as callable tools.
-  why_it_matters: Developers can let coding agents directly query, fetch from, and write back to business applications like Salesforce, HubSpot, and Snowflake without building custom integrations.
-  mental_damage: We have finally achieved the future where your coding agent can update a HubSpot deal and an Airtable base, provided you can keep your Peliqan API tokens straight across three config files.
+  summary: >-
+    A local MCP server that connects AI assistants like Claude Desktop to the Peliqan data platform, exposing connectors
+    for hundreds of SaaS tools and databases as callable tools.
+  why_it_matters: >-
+    Developers can let coding agents directly query, fetch from, and write back to business applications like
+    Salesforce, HubSpot, and Snowflake without building custom integrations.
+  mental_damage: >-
+    We have finally achieved the future where your coding agent can update a HubSpot deal and an Airtable base, provided
+    you can keep your Peliqan API tokens straight across three config files.
   tags:
     - mcp
     - integrations
@@ -50,35 +59,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server that bridges AI assistants to the Peliqan connector ecosystem, which fits clearly into MCP Servers & Tooling.
+  reason: >-
+    The product's identity is an MCP server that bridges AI assistants to the Peliqan connector ecosystem, which fits
+    clearly into MCP Servers & Tooling.
   evidence:
     - Repo name is 'mcp-server-peliqan' and README explicitly describes 'a local MCP Server' for Claude Desktop.
     - Listed in awesome-mcp-servers under the 'Community Servers' section.
     - Includes setup instructions for claude_desktop_config.json and exposes Peliqan connectors as MCP methods.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.642Z"
+    updated_at: '2026-05-06T22:12:15.642Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:32.454Z"
+    updated_at: '2026-07-20T16:42:32.454Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

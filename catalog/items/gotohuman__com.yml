@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__gotohuman__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-20T15:10:47.684Z"
+      discovered_at: '2026-07-20T15:10:47.684Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,12 @@ provenance:
           - Official Servers
         anchor_text: gotoHuman
         extracted_url: https://gotohuman.com
-        surrounding_text: "- **[gotoHuman](https://github.com/gotohuman/gotohuman-mcp-server)** - Human-in-the-loop platform - Allow AI agents and automations to send requests for approval to your [gotoHuman](https://www.gotohuman.com) inbox."
+        surrounding_text: >-
+          - **[gotoHuman](https://github.com/gotohuman/gotohuman-mcp-server)** - Human-in-the-loop platform - Allow AI
+          agents and automations to send requests for approval to your [gotoHuman](https://www.gotohuman.com) inbox.
         confidence: high
     - id: discovery__gotohuman__com__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-07-20T15:10:47.684Z"
+      discovered_at: '2026-07-20T15:10:47.684Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -33,10 +35,15 @@ provenance:
           - LLMOps
         anchor_text: gotoHuman
         extracted_url: https://gotohuman.com
-        surrounding_text: "| [gotoHuman](https://www.gotohuman.com)                             | Bring a **human into the loop** in your LLM-based and agentic workflows. Prompt users to approve actions, select next steps, or review and validate generated results.                                                                                                                                                                                                                                  |"
+        surrounding_text: >-
+          | [gotoHuman](https://www.gotohuman.com)                             | Bring a **human into the loop** in your
+          LLM-based and agentic workflows. Prompt users to approve actions, select next steps, or review and validate
+          generated
+          results.                                                                                                                                                                                                                                 
+          |
         confidence: high
     - id: discovery__www__gotohuman__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -48,10 +55,12 @@ provenance:
           - Official Servers
         anchor_text: gotoHuman
         extracted_url: https://www.gotohuman.com
-        surrounding_text: "- **[gotoHuman](https://github.com/gotohuman/gotohuman-mcp-server)** - Human-in-the-loop platform - Allow AI agents and automations to send requests for approval to your [gotoHuman](https://www.gotohuman.com) inbox."
+        surrounding_text: >-
+          - **[gotoHuman](https://github.com/gotohuman/gotohuman-mcp-server)** - Human-in-the-loop platform - Allow AI
+          agents and automations to send requests for approval to your [gotoHuman](https://www.gotohuman.com) inbox.
         confidence: high
     - id: discovery__www__gotohuman__com__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -63,7 +72,12 @@ provenance:
           - LLMOps
         anchor_text: gotoHuman
         extracted_url: https://www.gotohuman.com
-        surrounding_text: "| [gotoHuman](https://www.gotohuman.com)                             | Bring a **human into the loop** in your LLM-based and agentic workflows. Prompt users to approve actions, select next steps, or review and validate generated results.                                                                                                                                                                                                                                  |"
+        surrounding_text: >-
+          | [gotoHuman](https://www.gotohuman.com)                             | Bring a **human into the loop** in your
+          LLM-based and agentic workflows. Prompt users to approve actions, select next steps, or review and validate
+          generated
+          results.                                                                                                                                                                                                                                 
+          |
         confidence: high
 metadata:
   github:
@@ -81,9 +95,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A platform for adding human-in-the-loop supervision to AI agent workflows via review templates, notifications, and approvals.
-  why_it_matters: It lets developers insert human review checkpoints into automated AI workflows to validate, edit, or approve critical outputs before they propagate.
-  mental_damage: Finally, a way to make your AI agents pause and ask for permission before they embarrass you in front of the entire company.
+  summary: >-
+    A platform for adding human-in-the-loop supervision to AI agent workflows via review templates, notifications, and
+    approvals.
+  why_it_matters: >-
+    It lets developers insert human review checkpoints into automated AI workflows to validate, edit, or approve
+    critical outputs before they propagate.
+  mental_damage: >-
+    Finally, a way to make your AI agents pause and ask for permission before they embarrass you in front of the entire
+    company.
   tags:
     - human-in-the-loop
     - ai-workflows
@@ -93,21 +113,26 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a control plane for coordinating human supervision in multi-step AI workflows, not a coding assistant, framework, or extension.
+  reason: >-
+    The product is a control plane for coordinating human supervision in multi-step AI workflows, not a coding
+    assistant, framework, or extension.
   evidence:
-    - Primary page describes it as a platform for human supervision of AI agents with workflows, templates, and approvals
+    - >-
+      Primary page describes it as a platform for human supervision of AI agents with workflows, templates, and
+      approvals
     - Integrations include n8n, Make, SDKs, and an MCP server, positioning it as a coordination layer
     - Source lists categorize it under LLMOps and MCP servers, signaling orchestration/control-plane identity
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Hosted Agent Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:34:49.189Z"
+    updated_at: '2026-07-21T15:34:49.189Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -120,20 +145,26 @@ processing:
       input_hash: sha256:356ae0ab8b189c8a348f6160686ee21d61001491bcf67fad18bf193af2c90922
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The product is a control plane for coordinating human supervision in multi-step AI workflows, not a coding assistant, framework, or extension.
+      decision_reason: >-
+        The product is a control plane for coordinating human supervision in multi-step AI workflows, not a coding
+        assistant, framework, or extension.
       decision_evidence:
-        - Primary page describes it as a platform for human supervision of AI agents with workflows, templates, and approvals
+        - >-
+          Primary page describes it as a platform for human supervision of AI agents with workflows, templates, and
+          approvals
         - Integrations include n8n, Make, SDKs, and an MCP server, positioning it as a coordination layer
         - Source lists categorize it under LLMOps and MCP servers, signaling orchestration/control-plane identity
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated platform for human-in-the-loop workflows, not a code-first library or SDK.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because the product is an operated platform for human-in-the-loop
+        workflows, not a code-first library or SDK.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T15:10:47.687Z"
+    updated_at: '2026-07-20T15:10:47.687Z'
     cause: null
     next_retry_at: null
   stars:

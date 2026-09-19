@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ip2location__mcp-ip2location-io__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 🗺️ <a name="location-services"></a>Location Services
         anchor_text: ip2location/mcp-ip2location-io
         extracted_url: https://github.com/ip2location/mcp-ip2location-io
-        surrounding_text: "- [ip2location/mcp-ip2location-io](https://github.com/ip2location/mcp-ip2location-io) 🐍 ☁️  - Official IP2Location.io MCP server to obtain the geolocation, proxy and network information of an IP address utilizing IP2Location.io API."
+        surrounding_text: >-
+          - [ip2location/mcp-ip2location-io](https://github.com/ip2location/mcp-ip2location-io) 🐍 ☁️  - Official
+          IP2Location.io MCP server to obtain the geolocation, proxy and network information of an IP address utilizing
+          IP2Location.io API.
         confidence: high
     - id: discovery__github__ip2location__mcp-ip2location-io__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,10 +38,12 @@ provenance:
           - Official Servers
         anchor_text: IP2Location.io
         extracted_url: https://github.com/ip2location/mcp-ip2location-io
-        surrounding_text: "- **[IP2Location.io](https://github.com/ip2location/mcp-ip2location-io)** - IP2Location.io API integration to retrieve the geolocation information for an IP address."
+        surrounding_text: >-
+          - **[IP2Location.io](https://github.com/ip2location/mcp-ip2location-io)** - IP2Location.io API integration to
+          retrieve the geolocation information for an IP address.
         confidence: high
     - id: discovery__github__ip2location__mcp-ip2location-io__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-09-17T04:13:23.413Z"
+      discovered_at: '2026-09-17T04:13:23.413Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -51,7 +56,10 @@ provenance:
           - 🗺️ Location Services
         anchor_text: ip2location/mcp-ip2location-io
         extracted_url: https://github.com/ip2location/mcp-ip2location-io
-        surrounding_text: "-   **[ip2location/mcp-ip2location-io](https://github.com/ip2location/mcp-ip2location-io)** [![GitHub stars](https://img.shields.io/github/stars/ip2location/mcp-ip2location-io?style=social)](https://github.com/ip2location/mcp-ip2location-io): IP2Location.io API integration to retrieve geolocation information for an IP address."
+        surrounding_text: >-
+          -   **[ip2location/mcp-ip2location-io](https://github.com/ip2location/mcp-ip2location-io)** [![GitHub
+          stars](https://img.shields.io/github/stars/ip2location/mcp-ip2location-io?style=social)](https://github.com/ip2location/mcp-ip2location-io):
+          IP2Location.io API integration to retrieve geolocation information for an IP address.
         confidence: high
 metadata:
   github:
@@ -61,8 +69,8 @@ metadata:
     archived: false
     full_name: ip2location/mcp-ip2location-io
     html_url: https://github.com/ip2location/mcp-ip2location-io
-    created_at: "2025-06-22T23:48:40Z"
-    pushed_at: "2026-05-26T05:55:20Z"
+    created_at: '2025-06-22T23:48:40Z'
+    pushed_at: '2026-05-26T05:55:20Z'
     description: IP Geolocation MCP server using IP2Location.io API
     homepage: https://www.ip2location.io/
     topics:
@@ -74,13 +82,15 @@ metadata:
       - mcp
       - mcp-server
       - python
-    last_checked_at: "2026-07-30T05:05:44.595Z"
+    last_checked_at: '2026-07-30T05:05:44.595Z'
     readme:
-      fetched_at: "2026-07-30T05:05:44.595Z"
+      fetched_at: '2026-07-30T05:05:44.595Z'
       bytes: 7374
 insights:
   summary: An MCP server that provides IP geolocation data via the IP2Location.io API.
-  why_it_matters: Developers can integrate IP geolocation lookups directly into their MCP-enabled workflows, enabling context-aware tools without leaving their coding environment.
+  why_it_matters: >-
+    Developers can integrate IP geolocation lookups directly into their MCP-enabled workflows, enabling context-aware
+    tools without leaving their coding environment.
   mental_damage: Now your AI can tell you where your users are, because apparently knowing their timezone wasn’t enough.
   tags:
     - mcp
@@ -90,31 +100,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server whose primary identity is providing IP geolocation capabilities via the Model Context Protocol.
+  reason: >-
+    This is a dedicated MCP server whose primary identity is providing IP geolocation capabilities via the Model Context
+    Protocol.
   evidence:
     - Repo description explicitly states it is an 'IP Geolocation MCP server using IP2Location.io API'
     - README confirms it is a FastMCP-based server for Claude Desktop integration
     - Listed in awesome-mcp-servers under 'Official Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-17T04:13:23.415Z"
+    updated_at: '2026-09-17T04:13:23.415Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:44.595Z"
+    updated_at: '2026-07-30T05:05:44.595Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:08:31.867Z"
+    updated_at: '2026-07-21T16:08:31.867Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -127,7 +140,9 @@ processing:
       input_hash: sha256:48c4b7d912f4f13fb220dcb4c5b0c62fb16b872914a199c953376a52abddd111
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a dedicated MCP server whose primary identity is providing IP geolocation capabilities via the Model Context Protocol.
+      decision_reason: >-
+        This is a dedicated MCP server whose primary identity is providing IP geolocation capabilities via the Model
+        Context Protocol.
       decision_evidence:
         - Repo description explicitly states it is an 'IP Geolocation MCP server using IP2Location.io API'
         - README confirms it is a FastMCP-based server for Claude Desktop integration
@@ -135,6 +150,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

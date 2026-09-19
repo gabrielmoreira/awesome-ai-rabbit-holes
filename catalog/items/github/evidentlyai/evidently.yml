@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__evidentlyai__evidently__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,12 @@ provenance:
           - Observability
         anchor_text: Evidently
         extracted_url: https://github.com/evidentlyai/evidently
-        surrounding_text: "| [Evidently](https://github.com/evidentlyai/evidently)                          | An open-source framework to evaluate, test and monitor ML and LLM-powered systems.                                                                                                                                             | ![GitHub Badge](https://img.shields.io/github/stars/evidentlyai/evidently.svg?style=flat-square)                 |"
+        surrounding_text: >-
+          | [Evidently](https://github.com/evidentlyai/evidently)                          | An open-source framework to
+          evaluate, test and monitor ML and LLM-powered
+          systems.                                                                                                                                            
+          | ![GitHub
+          Badge](https://img.shields.io/github/stars/evidentlyai/evidently.svg?style=flat-square)                 |
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: evidentlyai/evidently
     html_url: https://github.com/evidentlyai/evidently
-    created_at: "2020-11-25T15:20:08Z"
-    pushed_at: "2026-08-05T16:29:57Z"
-    description: Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.
+    created_at: '2020-11-25T15:20:08Z'
+    pushed_at: '2026-08-05T16:29:57Z'
+    description: >-
+      Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered
+      system or data pipeline. From tabular data to Gen AI. 100+ metrics.
     homepage: https://discord.gg/xZjKRaNp8b
     topics:
       - data-drift
@@ -49,14 +56,20 @@ metadata:
       - mlops
       - model-monitoring
       - pandas-dataframe
-    last_checked_at: "2026-08-27T09:23:26.442Z"
+    last_checked_at: '2026-08-27T09:23:26.442Z'
     readme:
-      fetched_at: "2026-08-27T09:23:26.442Z"
+      fetched_at: '2026-08-27T09:23:26.442Z'
       bytes: 8484
 insights:
-  summary: An open-source observability framework for evaluating, testing, and monitoring machine learning and LLM-powered systems.
-  why_it_matters: It provides developers with the metrics and visualization needed to track model drift, data quality, and LLM performance from experimentation through production.
-  mental_damage: Nothing says 'peace of mind' like a dashboard confirming your LLM is hallucinating at a statistically significant rate.
+  summary: >-
+    An open-source observability framework for evaluating, testing, and monitoring machine learning and LLM-powered
+    systems.
+  why_it_matters: >-
+    It provides developers with the metrics and visualization needed to track model drift, data quality, and LLM
+    performance from experimentation through production.
+  mental_damage: >-
+    Nothing says 'peace of mind' like a dashboard confirming your LLM is hallucinating at a statistically significant
+    rate.
   tags:
     - mlops
     - llmops
@@ -73,24 +86,25 @@ curation:
     - Offers both offline evaluation and live monitoring capabilities
 placement:
   primary_category: evals
-  section: Observability / Tracing / EvalOps
+  secondary_categories: []
+  section: Observability & Tracing
 lifecycle:
   status: promotion_candidate
   reason: Stars (7456) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:26.442Z"
+    updated_at: '2026-08-27T09:23:26.442Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:54:12.972Z"
+    updated_at: '2026-07-21T15:54:12.972Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -111,6 +125,8 @@ processing:
       category_candidates:
         - evals
         - ai-frameworks
-      contrastive_reason: Choose evals over ai-frameworks because its core novelty and value proposition is the measurement and scoring of model behavior rather than providing the building blocks for the model itself.
+      contrastive_reason: >-
+        Choose evals over ai-frameworks because its core novelty and value proposition is the measurement and scoring of
+        model behavior rather than providing the building blocks for the model itself.
       review_reason: null
       review_resume_lifecycle: null

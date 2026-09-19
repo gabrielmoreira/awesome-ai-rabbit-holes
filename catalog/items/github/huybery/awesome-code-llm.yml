@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__huybery__awesome-code-llm__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,12 @@ provenance:
           - Awesome Lists
         anchor_text: Awesome-Code-LLM
         extracted_url: https://github.com/huybery/awesome-code-llm
-        surrounding_text: "| [Awesome-Code-LLM](https://github.com/huybery/Awesome-Code-LLM)                                         | 👨‍💻 An awesome and curated list of best code-LLM for research.                                                                     | ![GitHub Badge](https://img.shields.io/github/stars/huybery/Awesome-Code-LLM.svg?style=flat-square)                      |"
+        surrounding_text: >-
+          | [Awesome-Code-LLM](https://github.com/huybery/Awesome-Code-LLM)                                         |
+          👨‍💻 An awesome and curated list of best code-LLM for
+          research.                                                                     | ![GitHub
+          Badge](https://img.shields.io/github/stars/huybery/Awesome-Code-LLM.svg?style=flat-square)                     
+          |
         confidence: high
 metadata:
   github:
@@ -29,20 +34,22 @@ metadata:
     archived: false
     full_name: huybery/Awesome-Code-LLM
     html_url: https://github.com/huybery/Awesome-Code-LLM
-    created_at: "2023-07-05T06:42:09Z"
-    pushed_at: "2024-12-10T08:10:54Z"
+    created_at: '2023-07-05T06:42:09Z'
+    pushed_at: '2024-12-10T08:10:54Z'
     description: 👨‍💻 An awesome and curated list of best code-LLM for research.
-    homepage: ""
+    homepage: ''
     topics:
       - awesome
       - code-generation
       - large-language-models
-    last_checked_at: "2026-07-30T05:05:40.511Z"
+    last_checked_at: '2026-07-30T05:05:40.511Z'
     readme:
-      fetched_at: "2026-07-30T05:05:40.511Z"
+      fetched_at: '2026-07-30T05:05:40.511Z'
       bytes: 42539
 insights:
-  summary: A curated list of code-focused large language models, including leaderboards, evaluation toolkits, and research papers.
+  summary: >-
+    A curated list of code-focused large language models, including leaderboards, evaluation toolkits, and research
+    papers.
   why_it_matters: Helps developers and researchers quickly discover and compare top-performing code LLMs and their benchmarks.
   mental_damage: Because nothing says 'productivity' like spending an hour comparing HumanEval scores instead of writing code.
   tags:
@@ -52,32 +59,31 @@ insights:
     - research
   confidence: high
 curation:
-  status: included
-  reason: This is a curated directory of code LLMs and related resources, fitting the 'Awesome Awesomes' category as a navigation aid for developers.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Repo description explicitly calls it a 'curated list of best code-LLM for research'
-    - README includes leaderboards, evaluation toolkits, and categorized research papers
-    - Source-list context shows it's already included in Awesome-LLMOps under 'Awesome Lists'
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (1286) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.619Z"
+    updated_at: '2026-05-06T22:12:15.619Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:40.511Z"
+    updated_at: '2026-07-30T05:05:40.511Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:07:09.958Z"
+    updated_at: '2026-07-21T16:07:09.958Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -90,7 +96,9 @@ processing:
       input_hash: sha256:cbe36418457c138e6781ec7f86870024ddba6137c649ae157b77180e6891c0eb
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: This is a curated directory of code LLMs and related resources, fitting the 'Awesome Awesomes' category as a navigation aid for developers.
+      decision_reason: >-
+        This is a curated directory of code LLMs and related resources, fitting the 'Awesome Awesomes' category as a
+        navigation aid for developers.
       decision_evidence:
         - Repo description explicitly calls it a 'curated list of best code-LLM for research'
         - README includes leaderboards, evaluation toolkits, and categorized research papers
@@ -98,6 +106,8 @@ processing:
       category_candidates:
         - awesome-awesomes
         - evals
-      contrastive_reason: Choose awesome-awesomes over evals because the primary value is discovery/navigation of code LLMs rather than evaluation tooling itself.
+      contrastive_reason: >-
+        Choose awesome-awesomes over evals because the primary value is discovery/navigation of code LLMs rather than
+        evaluation tooling itself.
       review_reason: null
       review_resume_lifecycle: null

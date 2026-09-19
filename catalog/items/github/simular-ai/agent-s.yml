@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__simular-ai__agent-s__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 智能体 Agents
         anchor_text: Agent-S
         extracted_url: https://github.com/simular-ai/agent-s
-        surrounding_text: "27. [Agent-S](https://github.com/simular-ai/Agent-S): an open agentic framework that uses computers like a human."
+        surrounding_text: >-
+          27. [Agent-S](https://github.com/simular-ai/Agent-S): an open agentic framework that uses computers like a
+          human.
         confidence: high
 metadata:
   github:
@@ -29,9 +31,9 @@ metadata:
     archived: false
     full_name: simular-ai/Agent-S
     html_url: https://github.com/simular-ai/Agent-S
-    created_at: "2024-10-09T15:43:12Z"
-    pushed_at: "2026-05-13T07:28:44Z"
-    description: "Agent S: an open agentic framework that uses computers like a human"
+    created_at: '2024-10-09T15:43:12Z'
+    pushed_at: '2026-05-13T07:28:44Z'
+    description: 'Agent S: an open agentic framework that uses computers like a human'
     homepage: https://www.simular.ai
     topics:
       - agent-computer-interface
@@ -47,14 +49,20 @@ metadata:
       - mllm
       - planning
       - retrieval-augmented-generation
-    last_checked_at: "2026-07-20T16:42:58.062Z"
+    last_checked_at: '2026-07-20T16:42:58.062Z'
     readme:
-      fetched_at: "2026-07-20T16:42:58.062Z"
+      fetched_at: '2026-07-20T16:42:58.062Z'
       bytes: 16245
 insights:
-  summary: Agent S is an open-source computer-use agent framework that autonomously interacts with desktop GUIs across Windows, macOS, and Linux to perform complex tasks.
-  why_it_matters: It provides a state-of-the-art, reproducible baseline for building agents that can control applications via GUI rather than APIs, complete with benchmarks showing human-level performance on desktop tasks.
-  mental_damage: We have finally built an agent that can surpass human performance on OSWorld, meaning the bar for 'automating the boring stuff' has been raised so high that you can no longer blame the tools for your procrastination.
+  summary: >-
+    Agent S is an open-source computer-use agent framework that autonomously interacts with desktop GUIs across Windows,
+    macOS, and Linux to perform complex tasks.
+  why_it_matters: >-
+    It provides a state-of-the-art, reproducible baseline for building agents that can control applications via GUI
+    rather than APIs, complete with benchmarks showing human-level performance on desktop tasks.
+  mental_damage: >-
+    We have finally built an agent that can surpass human performance on OSWorld, meaning the bar for 'automating the
+    boring stuff' has been raised so high that you can no longer blame the tools for your procrastination.
   tags:
     - computer-use
     - gui-agents
@@ -64,35 +72,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is a developer-facing computer-use agent that autonomously interacts with desktop environments to perform tasks, fitting the 'Browser/Desktop/Computer-Use Agents' section of Coding Agents.
+  reason: >-
+    The project is a developer-facing computer-use agent that autonomously interacts with desktop environments to
+    perform tasks, fitting the 'Browser/Desktop/Computer-Use Agents' section of Coding Agents.
   evidence:
-    - "Repo description: 'Agent S: an open agentic framework that uses computers like a human'"
-    - "README: 'Agent S3 is the first to surpass human performance on OSWorld (72.60%)' using GUI automation."
+    - 'Repo description: ''Agent S: an open agentic framework that uses computers like a human'''
+    - 'README: ''Agent S3 is the first to surpass human performance on OSWorld (72.60%)'' using GUI automation.'
     - Topics include computer-use, gui-agents, and agent-computer-interface.
 placement:
   primary_category: coding-agents
-  section: Browser/Desktop/Computer-Use Agents
+  secondary_categories: []
+  section: Browser & Computer-Use Agents
 lifecycle:
   status: promotion_candidate
   reason: Stars (11134) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.648Z"
+    updated_at: '2026-05-06T22:12:15.648Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:58.062Z"
+    updated_at: '2026-07-20T16:42:58.062Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

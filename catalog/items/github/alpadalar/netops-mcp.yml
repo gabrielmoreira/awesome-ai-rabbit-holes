@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alpadalar__netops-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: alpadalar/netops-mcp
         extracted_url: https://github.com/alpadalar/netops-mcp
-        surrounding_text: "- [alpadalar/netops-mcp](https://github.com/alpadalar/netops-mcp) 🐍 🏠 - Comprehensive DevOps and networking MCP server providing standardized access to essential infrastructure tools. Features network monitoring, system diagnostics, automation workflows, and infrastructure management with AI-powered operational insights."
+        surrounding_text: >-
+          - [alpadalar/netops-mcp](https://github.com/alpadalar/netops-mcp) 🐍 🏠 - Comprehensive DevOps and networking
+          MCP server providing standardized access to essential infrastructure tools. Features network monitoring,
+          system diagnostics, automation workflows, and infrastructure management with AI-powered operational insights.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,24 @@ metadata:
     archived: false
     full_name: alpadalar/netops-mcp
     html_url: https://github.com/alpadalar/netops-mcp
-    created_at: "2025-08-19T15:21:22Z"
-    pushed_at: "2026-08-11T12:26:41Z"
-    description: A comprehensive  MCP server that provides access to essential DevOps and networking tools through a standardized interface.
+    created_at: '2025-08-19T15:21:22Z'
+    pushed_at: '2026-08-11T12:26:41Z'
+    description: >-
+      A comprehensive  MCP server that provides access to essential DevOps and networking tools through a standardized
+      interface.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:42.097Z"
+    last_checked_at: '2026-09-17T04:13:42.097Z'
     readme:
-      fetched_at: "2026-09-17T04:13:42.097Z"
+      fetched_at: '2026-09-17T04:13:42.097Z'
       bytes: 8766
 insights:
-  summary: An MCP server that exposes DevOps and networking tools (ping, traceroute, nmap, curl, etc.) through a standardized interface.
-  why_it_matters: Lets AI assistants or agents interact with network operations tools in a consistent way, enabling programmatic infrastructure checks and debugging.
+  summary: >-
+    An MCP server that exposes DevOps and networking tools (ping, traceroute, nmap, curl, etc.) through a standardized
+    interface.
+  why_it_matters: >-
+    Lets AI assistants or agents interact with network operations tools in a consistent way, enabling programmatic
+    infrastructure checks and debugging.
   mental_damage: Now your AI can ping your server and blame the network for you, all through the same protocol.
   tags:
     - mcp
@@ -52,31 +61,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server providing domain-specific (network operations) tools, making MCP its primary identity.
+  reason: >-
+    The product is explicitly an MCP server providing domain-specific (network operations) tools, making MCP its primary
+    identity.
   evidence:
-    - Repo description states it is a 'comprehensive MCP server that provides access to essential DevOps and networking tools'
+    - >-
+      Repo description states it is a 'comprehensive MCP server that provides access to essential DevOps and networking
+      tools'
     - README details extensive network/DevOps tooling exposed via MCP interface
     - Source-list context shows it in an MCP servers collection
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.601Z"
+    updated_at: '2026-05-06T22:12:15.601Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:42.097Z"
+    updated_at: '2026-09-17T04:13:42.097Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:22:25.809Z"
+    updated_at: '2026-07-21T15:22:25.809Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,14 +103,20 @@ processing:
       input_hash: sha256:cd02b8923c8b925005af64349655888bb05019fb1b0b5cf8ac2bcca8547cebcd
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server providing domain-specific (network operations) tools, making MCP its primary identity.
+      decision_reason: >-
+        The product is explicitly an MCP server providing domain-specific (network operations) tools, making MCP its
+        primary identity.
       decision_evidence:
-        - Repo description states it is a 'comprehensive MCP server that provides access to essential DevOps and networking tools'
+        - >-
+          Repo description states it is a 'comprehensive MCP server that provides access to essential DevOps and
+          networking tools'
         - README details extensive network/DevOps tooling exposed via MCP interface
         - Source-list context shows it in an MCP servers collection
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain tools, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain tools, not an
+        extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

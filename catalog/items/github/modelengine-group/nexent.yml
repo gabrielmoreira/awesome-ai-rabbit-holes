@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__modelengine-group__nexent__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 智能体 Agents
         anchor_text: Nexent
         extracted_url: https://github.com/modelengine-group/nexent
-        surrounding_text: "49. [Nexent](https://github.com/ModelEngine-Group/nexent): A zero-code platform for auto-generating agents — no orchestration, no complex drag-and-drop required, using pure language to develop any agent you want."
+        surrounding_text: >-
+          49. [Nexent](https://github.com/ModelEngine-Group/nexent): A zero-code platform for auto-generating agents —
+          no orchestration, no complex drag-and-drop required, using pure language to develop any agent you want.
         confidence: high
 metadata:
   github:
@@ -29,9 +31,11 @@ metadata:
     archived: false
     full_name: ModelEngine-Group/nexent
     html_url: https://github.com/ModelEngine-Group/nexent
-    created_at: "2025-04-28T10:44:33Z"
-    pushed_at: "2026-08-03T04:05:19Z"
-    description: Nexent is a zero-code platform for auto-generating production-grade AI agents using Harness Engineering principles — unified tools, skills, memory, and orchestration with built-in constraints, feedback loops, and control planes.
+    created_at: '2025-04-28T10:44:33Z'
+    pushed_at: '2026-08-03T04:05:19Z'
+    description: >-
+      Nexent is a zero-code platform for auto-generating production-grade AI agents using Harness Engineering principles
+      — unified tools, skills, memory, and orchestration with built-in constraints, feedback loops, and control planes.
     homepage: http://modelengine-group.github.io/nexent/
     topics:
       - agent
@@ -46,14 +50,20 @@ metadata:
       - mcp
       - multi-agent
       - rag
-    last_checked_at: "2026-08-03T05:17:06.273Z"
+    last_checked_at: '2026-08-03T05:17:06.273Z'
     readme:
-      fetched_at: "2026-08-03T05:17:06.273Z"
+      fetched_at: '2026-08-03T05:17:06.273Z'
       bytes: 10506
 insights:
-  summary: Nexent is a zero-code platform for auto-generating production-grade AI agents, featuring unified tools, skills, memory, and orchestration with built-in constraints and control planes.
-  why_it_matters: It allows developers to spin up multi-agent systems with memory and tool integration using natural language prompts instead of writing orchestration code.
-  mental_damage: Yet another 'zero-code' platform promising to automate away the complexity of agent engineering, right as we were all starting to enjoy writing YAML again.
+  summary: >-
+    Nexent is a zero-code platform for auto-generating production-grade AI agents, featuring unified tools, skills,
+    memory, and orchestration with built-in constraints and control planes.
+  why_it_matters: >-
+    It allows developers to spin up multi-agent systems with memory and tool integration using natural language prompts
+    instead of writing orchestration code.
+  mental_damage: >-
+    Yet another 'zero-code' platform promising to automate away the complexity of agent engineering, right as we were
+    all starting to enjoy writing YAML again.
   tags:
     - agents
     - orchestration
@@ -63,35 +73,45 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a zero-code platform and control plane for generating and managing production-grade AI agents with built-in orchestration, memory, and tools, fitting the agent orchestration category.
+  reason: >-
+    The product is a zero-code platform and control plane for generating and managing production-grade AI agents with
+    built-in orchestration, memory, and tools, fitting the agent orchestration category.
   evidence:
-    - Repo description describes it as a 'zero-code platform for auto-generating production-grade AI agents using Harness Engineering principles — unified tools, skills, memory, and orchestration with built-in constraints, feedback loops, and control planes.'
-    - README states it is a 'zero-code platform for auto-generating production-grade AI agents' and highlights features like control planes and multi-agent orchestration.
-    - Topics include agent, agentic-ai, agentic-framework, agentic-workflow, multi-agent, and mcp, reinforcing its orchestration identity.
+    - >-
+      Repo description describes it as a 'zero-code platform for auto-generating production-grade AI agents using
+      Harness Engineering principles — unified tools, skills, memory, and orchestration with built-in constraints,
+      feedback loops, and control planes.'
+    - >-
+      README states it is a 'zero-code platform for auto-generating production-grade AI agents' and highlights features
+      like control planes and multi-agent orchestration.
+    - >-
+      Topics include agent, agentic-ai, agentic-framework, agentic-workflow, multi-agent, and mcp, reinforcing its
+      orchestration identity.
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Visual Builders & Workbenches
 lifecycle:
   status: promotion_candidate
   reason: Stars (4392) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.631Z"
+    updated_at: '2026-05-06T22:12:15.631Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:06.273Z"
+    updated_at: '2026-08-03T05:17:06.273Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

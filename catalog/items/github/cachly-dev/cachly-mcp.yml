@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cachly-dev__cachly-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: cachly-dev/cachly-mcp
         extracted_url: https://github.com/cachly-dev/cachly-mcp
-        surrounding_text: "- [cachly-dev/cachly-mcp](https://github.com/cachly-dev/cachly-mcp) [![cachly-dev/cachly-mcp MCP server](https://glama.ai/mcp/servers/cachly-dev/cachly-mcp/badges/score.svg)](https://glama.ai/mcp/servers/cachly-dev/cachly-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Persistent AI memory brain for Claude Code, Cursor, Copilot, Windsurf, Cline & Zed. `session_start()` briefs your AI on last session, lessons, and open tasks in one call. 84 tools — Team Brain, semantic BM25+ search, Team Telepathy, Ambient Git Learning, Memory Crystals, Analytics, and managed Valkey/Redis. `npx @cachly-dev/init` — free tier, no credit card. [Website](https://cachly.dev)"
+        surrounding_text: >-
+          - [cachly-dev/cachly-mcp](https://github.com/cachly-dev/cachly-mcp) [![cachly-dev/cachly-mcp MCP
+          server](https://glama.ai/mcp/servers/cachly-dev/cachly-mcp/badges/score.svg)](https://glama.ai/mcp/servers/cachly-dev/cachly-mcp)
+          📇 ☁️ 🏠 🍎 🪟 🐧 - Persistent AI memory brain for Claude Code, Cursor, Copilot, Windsurf, Cline & Zed.
+          `session_start()` briefs your AI on last session, lessons, and open tasks in one call. 84 tools — Team Brain,
+          semantic BM25+ search, Team Telepathy, Ambient Git Learning, Memory Crystals, Analytics, and managed
+          Valkey/Redis. `npx @cachly-dev/init` — free tier, no credit card. [Website](https://cachly.dev)
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: cachly-dev/cachly-mcp
     html_url: https://github.com/cachly-dev/cachly-mcp
-    created_at: "2026-04-16T20:49:59Z"
-    pushed_at: "2026-09-05T13:23:04Z"
-    description: Persistent memory for Claude Code, Cursor, Copilot & Windsurf — your AI stops re-reading your codebase every morning. 120+ MCP tools, semantic search, shared Team Brain. Free tier, EU-hosted.
+    created_at: '2026-04-16T20:49:59Z'
+    pushed_at: '2026-09-05T13:23:04Z'
+    description: >-
+      Persistent memory for Claude Code, Cursor, Copilot & Windsurf — your AI stops re-reading your codebase every
+      morning. 120+ MCP tools, semantic search, shared Team Brain. Free tier, EU-hosted.
     homepage: https://cachly.dev/docs/mcp?utm_source=github-cachly-mvp
     topics:
       - ai
@@ -49,14 +57,20 @@ metadata:
       - rag
       - vector-search
       - windsurf
-    last_checked_at: "2026-09-07T04:13:40.229Z"
+    last_checked_at: '2026-09-07T04:13:40.229Z'
     readme:
-      fetched_at: "2026-09-07T04:13:40.229Z"
+      fetched_at: '2026-09-07T04:13:40.229Z'
       bytes: 33316
 insights:
-  summary: An MCP server that provides persistent memory and semantic search for AI coding assistants by indexing git history and session lessons.
-  why_it_matters: It automates the process of re-establishing context, preventing developers from having to re-explain architecture or past bug fixes to their AI every session.
-  mental_damage: Because the ultimate solution to AI amnesia is to build a permanent, searchable database of every single mistake you've ever made in a codebase.
+  summary: >-
+    An MCP server that provides persistent memory and semantic search for AI coding assistants by indexing git history
+    and session lessons.
+  why_it_matters: >-
+    It automates the process of re-establishing context, preventing developers from having to re-explain architecture or
+    past bug fixes to their AI every session.
+  mental_damage: >-
+    Because the ultimate solution to AI amnesia is to build a permanent, searchable database of every single mistake
+    you've ever made in a codebase.
   tags:
     - mcp
     - ai-memory
@@ -65,31 +79,36 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The tool's primary substance is providing memory and retrieval infrastructure to existing coding assistants via the Model Context Protocol.
+  reason: >-
+    The tool's primary substance is providing memory and retrieval infrastructure to existing coding assistants via the
+    Model Context Protocol.
   evidence:
-    - README describes the tool as an 'AI memory brain' that fixes the problem of AI forgetting context between sessions.
+    - >-
+      README describes the tool as an 'AI memory brain' that fixes the problem of AI forgetting context between
+      sessions.
     - Uses git history and semantic search to provide 'lessons learned' to tools like Claude Code and Cursor.
     - Functions as an MCP server to integrate this memory layer into existing developer workflows.
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.818Z"
+    updated_at: '2026-05-28T05:28:09.818Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:40.229Z"
+    updated_at: '2026-09-07T04:13:40.229Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-28T05:36:34.176Z"
+    updated_at: '2026-05-28T05:36:34.176Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

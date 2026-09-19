@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__openclaw__ai__zh__cn__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A self-hosted AI agent gateway that connects messaging channels like Discord, Slack, and WhatsApp to AI coding agents.
-  why_it_matters: It enables developers to interact with their coding agents through their existing communication tools, bridging the gap between chat apps and development workflows.
-  mental_damage: Because having your coding agent respond to a WhatsApp message is exactly how you accidentally deploy buggy code from a coffee shop.
+  summary: >-
+    A self-hosted AI agent gateway that connects messaging channels like Discord, Slack, and WhatsApp to AI coding
+    agents.
+  why_it_matters: >-
+    It enables developers to interact with their coding agents through their existing communication tools, bridging the
+    gap between chat apps and development workflows.
+  mental_damage: >-
+    Because having your coding agent respond to a WhatsApp message is exactly how you accidentally deploy buggy code
+    from a coffee shop.
   tags:
     - ai-agent
     - gateway
@@ -48,21 +54,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It acts as a host integration layer that augments existing messaging platforms with agentic capabilities rather than being the primary coding assistant itself.
+  reason: >-
+    It acts as a host integration layer that augments existing messaging platforms with agentic capabilities rather than
+    being the primary coding assistant itself.
   evidence:
     - README describes it as a 'Gateway' connecting messaging channels to AI coding agents
     - Primary value is routing messages from Discord, Slack, etc., to an agent
     - Provides mobile nodes for iOS/Android to interface with the gateway
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: API & Service Integrations
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +80,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:41:11.316Z"
+    updated_at: '2026-07-20T15:41:11.316Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +93,9 @@ processing:
       input_hash: sha256:bbb231868a2c2ad15faec217a7a1d4504e3f048659e3c026c7502be7b809345c
       proposed_primary_category: ai-dev-extensions
       disagreement: false
-      decision_reason: It acts as a host integration layer that augments existing messaging platforms with agentic capabilities rather than being the primary coding assistant itself.
+      decision_reason: >-
+        It acts as a host integration layer that augments existing messaging platforms with agentic capabilities rather
+        than being the primary coding assistant itself.
       decision_evidence:
         - README describes it as a 'Gateway' connecting messaging channels to AI coding agents
         - Primary value is routing messages from Discord, Slack, etc., to an agent
@@ -92,6 +103,8 @@ processing:
       category_candidates:
         - ai-dev-extensions
         - agent-orchestration
-      contrastive_reason: Choose ai-dev-extensions over agent-orchestration because the core product identity is a connectivity layer (Gateway) that augments existing communication hosts.
+      contrastive_reason: >-
+        Choose ai-dev-extensions over agent-orchestration because the core product identity is a connectivity layer
+        (Gateway) that augments existing communication hosts.
       review_reason: null
       review_resume_lifecycle: null

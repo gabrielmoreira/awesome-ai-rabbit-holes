@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ikoskela__wisepanel-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: ikoskela/wisepanel-mcp
         extracted_url: https://github.com/ikoskela/wisepanel-mcp
-        surrounding_text: "- [ikoskela/wisepanel-mcp](https://github.com/ikoskela/wisepanel-mcp) [![ikoskela/wisepanel-mcp MCP server](https://glama.ai/mcp/servers/ikoskela/wisepanel-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ikoskela/wisepanel-mcp) 📇 ☁️ 🍎 🪟 🐧 - Multi-agent deliberation with divergent context enhancement. Roles are dynamically generated to surround the question-space and maximize divergent dialog across ChatGPT, Claude, Gemini, and Perplexity."
+        surrounding_text: >-
+          - [ikoskela/wisepanel-mcp](https://github.com/ikoskela/wisepanel-mcp) [![ikoskela/wisepanel-mcp MCP
+          server](https://glama.ai/mcp/servers/ikoskela/wisepanel-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ikoskela/wisepanel-mcp)
+          📇 ☁️ 🍎 🪟 🐧 - Multi-agent deliberation with divergent context enhancement. Roles are dynamically generated
+          to surround the question-space and maximize divergent dialog across ChatGPT, Claude, Gemini, and Perplexity.
         confidence: high
 metadata:
   github:
@@ -30,18 +34,20 @@ metadata:
     archived: false
     full_name: ikoskela/wisepanel-mcp
     html_url: https://github.com/ikoskela/wisepanel-mcp
-    created_at: "2026-02-23T03:10:24Z"
-    pushed_at: "2026-05-30T14:56:20Z"
+    created_at: '2026-02-23T03:10:24Z'
+    pushed_at: '2026-05-30T14:56:20Z'
     description: MCP server for Wisepanel multi-agent deliberation platform
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:42.176Z"
+    last_checked_at: '2026-07-30T05:05:42.176Z'
     readme:
-      fetched_at: "2026-07-30T05:05:42.176Z"
+      fetched_at: '2026-07-30T05:05:42.176Z'
       bytes: 2797
 insights:
   summary: MCP server that connects Claude Code and other MCP clients to Wisepanel's multi-agent deliberation platform.
-  why_it_matters: Lets developers trigger and manage multi-agent debates across different LLM providers directly from their coding environment.
+  why_it_matters: >-
+    Lets developers trigger and manage multi-agent debates across different LLM providers directly from their coding
+    environment.
   mental_damage: Now your codebase can host a panel of AI models arguing about your architecture decisions in real-time.
   tags:
     - mcp-server
@@ -52,31 +58,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose primary identity is providing MCP-compatible access to Wisepanel's multi-agent platform.
+  reason: >-
+    This is an MCP-first server whose primary identity is providing MCP-compatible access to Wisepanel's multi-agent
+    platform.
   evidence:
     - Repo description explicitly states it is an MCP server for Wisepanel
     - README shows it exposes Wisepanel tools via MCP protocol for Claude Code and other clients
     - Listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.620Z"
+    updated_at: '2026-05-06T22:12:15.620Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:42.176Z"
+    updated_at: '2026-07-30T05:05:42.176Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:07:48.070Z"
+    updated_at: '2026-07-21T16:07:48.070Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +97,9 @@ processing:
       input_hash: sha256:0ad81ad7a7eae8d3d85c5e22e26e6e9cdd0f39fba093ae070468dfd5e28a98f7
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server whose primary identity is providing MCP-compatible access to Wisepanel's multi-agent platform.
+      decision_reason: >-
+        This is an MCP-first server whose primary identity is providing MCP-compatible access to Wisepanel's multi-agent
+        platform.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Wisepanel
         - README shows it exposes Wisepanel tools via MCP protocol for Claude Code and other clients
@@ -97,6 +107,8 @@ processing:
       category_candidates:
         - mcp
         - agent-orchestration
-      contrastive_reason: Choose mcp over agent-orchestration because the product's core identity is as an MCP server rather than a general multi-agent platform.
+      contrastive_reason: >-
+        Choose mcp over agent-orchestration because the product's core identity is as an MCP server rather than a
+        general multi-agent platform.
       review_reason: null
       review_resume_lifecycle: null

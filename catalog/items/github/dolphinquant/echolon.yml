@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dolphinquant__echolon__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: dolphinquant/echolon
         extracted_url: https://github.com/dolphinquant/echolon
-        surrounding_text: "- [dolphinquant/echolon](https://github.com/dolphinquant/echolon) [![dolphinquant/echolon MCP server](https://glama.ai/mcp/servers/dolphinquant/echolon/badges/score.svg)](https://glama.ai/mcp/servers/dolphinquant/echolon) 🐍 🏠 🍎 🪟 🐧 - LLM-agent-native backtest framework for SHFE daily futures research. 23 MCP tools (strategy validation, scaffolding, indicator catalog, error-code lookup), 22 in-package skills, 32 catalogued error codes, working strategy templates. `pip install echolon` then `claude mcp add -s user echolon -- echolon-mcp`."
+        surrounding_text: >-
+          - [dolphinquant/echolon](https://github.com/dolphinquant/echolon) [![dolphinquant/echolon MCP
+          server](https://glama.ai/mcp/servers/dolphinquant/echolon/badges/score.svg)](https://glama.ai/mcp/servers/dolphinquant/echolon)
+          🐍 🏠 🍎 🪟 🐧 - LLM-agent-native backtest framework for SHFE daily futures research. 23 MCP tools (strategy
+          validation, scaffolding, indicator catalog, error-code lookup), 22 in-package skills, 32 catalogued error
+          codes, working strategy templates. `pip install echolon` then `claude mcp add -s user echolon -- echolon-mcp`.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: DolphinQuant/echolon
     html_url: https://github.com/DolphinQuant/echolon
-    created_at: "2026-04-16T13:13:39Z"
-    pushed_at: "2026-07-27T06:01:01Z"
-    description: LLM-agent-native backtest framework for futures research — MCP server, in-package skills, catalogued error codes, typed Pydantic configs. Production engine inside Qorka @ DolphinQuant.
+    created_at: '2026-04-16T13:13:39Z'
+    pushed_at: '2026-07-27T06:01:01Z'
+    description: >-
+      LLM-agent-native backtest framework for futures research — MCP server, in-package skills, catalogued error codes,
+      typed Pydantic configs. Production engine inside Qorka @ DolphinQuant.
     homepage: https://dolphinquant.com
     topics:
       - agent-tools
@@ -47,14 +54,18 @@ metadata:
       - optuna
       - python
       - quantitative-trading
-    last_checked_at: "2026-08-13T04:39:36.146Z"
+    last_checked_at: '2026-08-13T04:39:36.146Z'
     readme:
-      fetched_at: "2026-08-13T04:39:36.146Z"
+      fetched_at: '2026-08-13T04:39:36.146Z'
       bytes: 7960
 insights:
   summary: An LLM-agent-native backtest framework designed for conducting quantitative futures research.
-  why_it_matters: It prevents agent hallucination in financial workflows by providing typed tools, structured error codes, and a catalog of technical indicators.
-  mental_damage: Because even the most sophisticated LLMs can't be trusted to remember the difference between a moving average and a fever dream in a trading terminal.
+  why_it_matters: >-
+    It prevents agent hallucination in financial workflows by providing typed tools, structured error codes, and a
+    catalog of technical indicators.
+  mental_damage: >-
+    Because even the most sophisticated LLMs can't be trusted to remember the difference between a moving average and a
+    fever dream in a trading terminal.
   tags:
     - quant-trading
     - mcp-server
@@ -64,33 +75,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product is a code-first backtesting framework for quantitative research that uses MCP as its primary interface for agentic interaction.
+  reason: >-
+    The core product is a code-first backtesting framework for quantitative research that uses MCP as its primary
+    interface for agentic interaction.
   evidence:
     - Repo description identifies it as an 'LLM-agent-native backtest framework'
     - README highlights features like typed Pydantic configs and catalogued error codes to assist agents
     - Provides a CLI and package structure for developers to scaffold and run research workflows
 placement:
-  primary_category: ai-frameworks
-  section: Agent Frameworks
+  primary_category: mcp
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.818Z"
+    updated_at: '2026-05-28T05:28:09.818Z'
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: "2026-09-14T04:13:42.972Z"
+    updated_at: '2026-09-14T04:13:42.972Z'
     cause:
       type: github_repo_missing
-      message: "GitHub repository not found: dolphinquant/echolon"
+      message: 'GitHub repository not found: dolphinquant/echolon'
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-28T05:39:20.043Z"
+    updated_at: '2026-05-28T05:39:20.043Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

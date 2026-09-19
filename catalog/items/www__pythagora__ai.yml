@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__pythagora__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Coding Agents
         anchor_text: Pythagora
         extracted_url: https://pythagora.ai
-        surrounding_text: "- **[Pythagora](https://pythagora.ai/)** – AI agent that builds apps through conversational interaction."
+        surrounding_text: '- **[Pythagora](https://pythagora.ai/)** – AI agent that builds apps through conversational interaction.'
         confidence: high
 metadata:
   github:
@@ -37,7 +37,9 @@ metadata:
     readme: null
 insights:
   summary: Pazi is an AI-powered platform for building and deploying applications from natural language descriptions.
-  why_it_matters: It enables developers to create functional apps or tools by describing what they want in plain language, reducing the need for manual coding.
+  why_it_matters: >-
+    It enables developers to create functional apps or tools by describing what they want in plain language, reducing
+    the need for manual coding.
   mental_damage: Finally, a way to turn your half-baked app ideas into fully-baked technical debt.
   tags:
     - app-builder
@@ -50,17 +52,20 @@ curation:
   evidence:
     - Site title and context indicate it is a platform named Pazi
     - Description implies a focus on building/deploying from natural language
-    - Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct code collaboration.
+    - >-
+      Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct code
+      collaboration.
 placement:
   primary_category: app-builders
-  section: Prompt-to-App Builders
+  secondary_categories: []
+  section: Full App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.669Z"
+    updated_at: '2026-05-06T22:12:15.669Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +74,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:39:23.287Z"
+    updated_at: '2026-07-21T15:39:23.287Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -82,14 +87,20 @@ processing:
       input_hash: sha256:5398fce2322730a0fc9465116dced7b5fb30dff1d0b8d2c2466482ee9aa627a4
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The product's core value is turning prompts into deployed applications, which aligns with the app-builders category.
+      decision_reason: >-
+        The product's core value is turning prompts into deployed applications, which aligns with the app-builders
+        category.
       decision_evidence:
         - Site title and context indicate it is a platform named Pazi
         - Description implies a focus on building/deploying from natural language
-        - Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct code collaboration.
+        - >-
+          Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct
+          code collaboration.
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: Choose app-builders over coding-agents because the primary workflow is prompt-to-app rather than repo editing or debugging.
+      contrastive_reason: >-
+        Choose app-builders over coding-agents because the primary workflow is prompt-to-app rather than repo editing or
+        debugging.
       review_reason: null
       review_resume_lifecycle: null

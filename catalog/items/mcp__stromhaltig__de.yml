@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mcp__stromhaltig__de__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Official Servers
         anchor_text: Willi MaKo Knowledge Service
         extracted_url: https://mcp.stromhaltig.de
-        surrounding_text: "- **[Willi MaKo Knowledge Service](https://mcp.stromhaltig.de)** - A knowledge service for Germany's complex Energy Market Communications (MaKo) regulations."
+        surrounding_text: >-
+          - **[Willi MaKo Knowledge Service](https://mcp.stromhaltig.de)** - A knowledge service for Germany's complex
+          Energy Market Communications (MaKo) regulations.
         confidence: high
 metadata:
   github:
@@ -47,20 +49,23 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a Model Context Protocol server focused on web search and crawling, fitting cleanly into the MCP Servers & Tooling category.
+  reason: >-
+    The product is a Model Context Protocol server focused on web search and crawling, fitting cleanly into the MCP
+    Servers & Tooling category.
   evidence:
     - Listed in the awesome-mcp-servers directory under the 'Official Servers' section.
     - The URL and name (mcp.stromhaltig.de) directly indicate an MCP server identity.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: awesome-awesomes
+  secondary_categories: []
+  section: Awesome Lists & Directories
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'awesome-awesomes'"
+  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''awesome-awesomes'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +74,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:29:44.046Z"
+    updated_at: '2026-07-21T15:29:44.046Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -82,13 +87,17 @@ processing:
       input_hash: sha256:2577e41330a45b9fa60961c6fea68ac6a81ed2836fea243b8ad7df0e23d72b71
       proposed_primary_category: awesome-awesomes
       disagreement: true
-      decision_reason: This is a curated directory of MCP servers, which fits the 'Awesome Awesomes' category as a navigation aid for developers.
+      decision_reason: >-
+        This is a curated directory of MCP servers, which fits the 'Awesome Awesomes' category as a navigation aid for
+        developers.
       decision_evidence:
         - Seen in source lists as a curated list of MCP servers under 'Official Servers'
         - Primary value is discovery and navigation of MCP servers
       category_candidates:
         - awesome-awesomes
         - mcp
-      contrastive_reason: Choose awesome-awesomes over mcp because the product is a directory of MCP servers rather than MCP infrastructure itself.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'awesome-awesomes'"
+      contrastive_reason: >-
+        Choose awesome-awesomes over mcp because the product is a directory of MCP servers rather than MCP
+        infrastructure itself.
+      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''awesome-awesomes'''
       review_resume_lifecycle: null

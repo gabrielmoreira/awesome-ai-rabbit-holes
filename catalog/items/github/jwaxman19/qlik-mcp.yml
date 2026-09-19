@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jwaxman19__qlik-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 📊 <a name="data-platforms"></a>Data Platforms
         anchor_text: jwaxman19/qlik-mcp
         extracted_url: https://github.com/jwaxman19/qlik-mcp
-        surrounding_text: "- [jwaxman19/qlik-mcp](https://github.com/jwaxman19/qlik-mcp) 📇 ☁️ - MCP Server for Qlik Cloud API that enables querying applications, sheets, and extracting data from visualizations with comprehensive authentication and rate limiting support."
+        surrounding_text: >-
+          - [jwaxman19/qlik-mcp](https://github.com/jwaxman19/qlik-mcp) 📇 ☁️ - MCP Server for Qlik Cloud API that
+          enables querying applications, sheets, and extracting data from visualizations with comprehensive
+          authentication and rate limiting support.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,22 @@ metadata:
     archived: false
     full_name: jwaxman19/qlik-mcp
     html_url: https://github.com/jwaxman19/qlik-mcp
-    created_at: "2025-04-04T00:53:01Z"
-    pushed_at: "2025-07-27T16:09:10Z"
+    created_at: '2025-04-04T00:53:01Z'
+    pushed_at: '2025-07-27T16:09:10Z'
     description: An MCP server to run qlik
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:53.796Z"
+    last_checked_at: '2026-07-30T05:05:53.796Z'
     readme:
-      fetched_at: "2026-07-30T05:05:53.796Z"
+      fetched_at: '2026-07-30T05:05:53.796Z'
       bytes: 5480
 insights:
-  summary: An MCP server that enables AI assistants to interact with Qlik Cloud applications and extract data from visualizations.
-  why_it_matters: Developers can now query Qlik applications, sheets, and charts directly from their coding assistants, integrating business intelligence data into AI workflows.
+  summary: >-
+    An MCP server that enables AI assistants to interact with Qlik Cloud applications and extract data from
+    visualizations.
+  why_it_matters: >-
+    Developers can now query Qlik applications, sheets, and charts directly from their coding assistants, integrating
+    business intelligence data into AI workflows.
   mental_damage: Finally, your AI can argue with your BI dashboards instead of just your code.
   tags:
     - mcp-server
@@ -51,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server that provides domain-specific access to Qlik Cloud APIs, fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is an MCP-first server that provides domain-specific access to Qlik Cloud APIs, fitting the MCP Servers &
+    Tooling category.
   evidence:
     - Repo description explicitly states it is an MCP server for Qlik
     - README details MCP server tools for Qlik Cloud API interaction
     - Already listed in awesome-mcp-servers under Data Platforms
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.623Z"
+    updated_at: '2026-05-06T22:12:15.623Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:53.796Z"
+    updated_at: '2026-07-30T05:05:53.796Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:11:40.999Z"
+    updated_at: '2026-07-21T16:11:40.999Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +98,9 @@ processing:
       input_hash: sha256:2b9e621a23d175adca8e5fe2357f0f4bfec7d2b70c1db1d660e28428d9839125
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server that provides domain-specific access to Qlik Cloud APIs, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is an MCP-first server that provides domain-specific access to Qlik Cloud APIs, fitting the MCP Servers &
+        Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Qlik
         - README details MCP server tools for Qlik Cloud API interaction
@@ -96,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary identity is an MCP server for Qlik integration, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary identity is an MCP server for Qlik integration, not an
+        extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

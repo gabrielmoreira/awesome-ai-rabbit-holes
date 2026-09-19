@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bishop81__imagedimensions-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Bishop81/imagedimensions-mcp
         extracted_url: https://github.com/bishop81/imagedimensions-mcp
-        surrounding_text: "- [Bishop81/imagedimensions-mcp](https://github.com/Bishop81/imagedimensions-mcp) [![Bishop81/imagedimensions-mcp MCP server](https://glama.ai/mcp/servers/Bishop81/imagedimensions-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Bishop81/imagedimensions-mcp) 📇 ☁️ - Audit the images on any web page: natural vs rendered dimensions, oversized-image detection, and format breakdown, so agents can check web-image performance. Calls the hosted imagedimensions.com API, so no local browser is required. `npx -y imagedimensions-mcp`"
+        surrounding_text: >-
+          - [Bishop81/imagedimensions-mcp](https://github.com/Bishop81/imagedimensions-mcp)
+          [![Bishop81/imagedimensions-mcp MCP
+          server](https://glama.ai/mcp/servers/Bishop81/imagedimensions-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Bishop81/imagedimensions-mcp)
+          📇 ☁️ - Audit the images on any web page: natural vs rendered dimensions, oversized-image detection, and
+          format breakdown, so agents can check web-image performance. Calls the hosted imagedimensions.com API, so no
+          local browser is required. `npx -y imagedimensions-mcp`
         confidence: high
 metadata:
   github:
@@ -30,19 +36,27 @@ metadata:
     archived: false
     full_name: Bishop81/imagedimensions-mcp
     html_url: https://github.com/Bishop81/imagedimensions-mcp
-    created_at: "2026-06-27T00:04:33Z"
-    pushed_at: "2026-08-14T14:28:26Z"
-    description: MCP server that audits images on any web page — natural vs rendered dimensions, oversized-image detection, and format breakdown. Powered by imagedimensions.com.
+    created_at: '2026-06-27T00:04:33Z'
+    pushed_at: '2026-08-14T14:28:26Z'
+    description: >-
+      MCP server that audits images on any web page — natural vs rendered dimensions, oversized-image detection, and
+      format breakdown. Powered by imagedimensions.com.
     homepage: https://imagedimensions.com
     topics: []
-    last_checked_at: "2026-09-07T04:13:34.230Z"
+    last_checked_at: '2026-09-07T04:13:34.230Z'
     readme:
-      fetched_at: "2026-09-07T04:13:34.230Z"
+      fetched_at: '2026-09-07T04:13:34.230Z'
       bytes: 1812
 insights:
-  summary: An MCP server that audits images on public web pages, comparing natural versus rendered dimensions, detecting oversized images, and breaking down formats.
-  why_it_matters: Gives AI agents like Claude, Cursor, and Windsurf a zero-install way to diagnose image bloat and web-performance issues during development.
-  mental_damage: We are now installing dedicated servers so our coding agents can tell us that someone uploaded a 4 MB PNG and called it a thumbnail.
+  summary: >-
+    An MCP server that audits images on public web pages, comparing natural versus rendered dimensions, detecting
+    oversized images, and breaking down formats.
+  why_it_matters: >-
+    Gives AI agents like Claude, Cursor, and Windsurf a zero-install way to diagnose image bloat and web-performance
+    issues during development.
+  mental_damage: >-
+    We are now installing dedicated servers so our coding agents can tell us that someone uploaded a 4 MB PNG and called
+    it a thumbnail.
   tags:
     - mcp
     - web-performance
@@ -52,31 +66,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The project is an MCP server whose sole purpose is exposing image-auditing capabilities to AI agents; MCP is the product identity, not an adapter or side feature.
+  reason: >-
+    The project is an MCP server whose sole purpose is exposing image-auditing capabilities to AI agents; MCP is the
+    product identity, not an adapter or side feature.
   evidence:
     - README explicitly brands the project as an MCP server for Claude, Cursor, and Windsurf with a single scan tool.
     - Repository description states it is an MCP server powered by imagedimensions.com.
     - Listed in awesome-mcp-servers under Developer Tools, confirming community categorization as MCP infrastructure.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.714Z"
+    updated_at: '2026-07-16T05:04:46.714Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:34.230Z"
+    updated_at: '2026-09-07T04:13:34.230Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T05:18:58.395Z"
+    updated_at: '2026-07-20T05:18:58.395Z'
     cause: null
     next_retry_at: null
     attempts: 2

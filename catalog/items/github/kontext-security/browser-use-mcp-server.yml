@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kontext-security__browser-use-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: co-browser/browser-use-mcp-server
         extracted_url: https://github.com/co-browser/browser-use-mcp-server
-        surrounding_text: "- [co-browser/browser-use-mcp-server](https://github.com/co-browser/browser-use-mcp-server) 🐍 - browser-use packaged as an MCP server with SSE transport. includes a dockerfile to run chromium in docker + a vnc server."
+        surrounding_text: >-
+          - [co-browser/browser-use-mcp-server](https://github.com/co-browser/browser-use-mcp-server) 🐍 - browser-use
+          packaged as an MCP server with SSE transport. includes a dockerfile to run chromium in docker + a vnc server.
         confidence: high
     - id: discovery__github__kontext-security__browser-use-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -33,9 +35,12 @@ provenance:
         mode: parsed
         section_path:
           - 📂 Browser Control
-        anchor_text: "@co-browser/browser-use-mcp-server"
+        anchor_text: '@co-browser/browser-use-mcp-server'
         extracted_url: https://github.com/co-browser/browser-use-mcp-server
-        surrounding_text: "-   **[@co-browser/browser-use-mcp-server](https://github.com/co-browser/browser-use-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/co-browser/browser-use-mcp-server?style=social)](https://github.com/co-browser/browser-use-mcp-server): Packages `browser-use` as an MCP server, with Docker support for Chromium and VNC."
+        surrounding_text: >-
+          -   **[@co-browser/browser-use-mcp-server](https://github.com/co-browser/browser-use-mcp-server)** [![GitHub
+          stars](https://img.shields.io/github/stars/co-browser/browser-use-mcp-server?style=social)](https://github.com/co-browser/browser-use-mcp-server):
+          Packages `browser-use` as an MCP server, with Docker support for Chromium and VNC.
         confidence: high
 metadata:
   github:
@@ -45,8 +50,8 @@ metadata:
     archived: false
     full_name: kontext-security/browser-use-mcp-server
     html_url: https://github.com/kontext-security/browser-use-mcp-server
-    created_at: "2025-03-06T09:47:03Z"
-    pushed_at: "2026-05-20T20:43:30Z"
+    created_at: '2025-03-06T09:47:03Z'
+    pushed_at: '2026-05-20T20:43:30Z'
     description: Browse the web, directly from Cursor etc.
     homepage: https://kontext.security
     topics:
@@ -56,9 +61,9 @@ metadata:
       - mcp
       - mcp-server
       - playwright
-    last_checked_at: "2026-07-30T05:05:57.850Z"
+    last_checked_at: '2026-07-30T05:05:57.850Z'
     readme:
-      fetched_at: "2026-07-30T05:05:57.850Z"
+      fetched_at: '2026-07-30T05:05:57.850Z'
       bytes: 6285
 insights:
   summary: An MCP server that enables AI agents to control web browsers using the browser-use library.
@@ -71,31 +76,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server focused on browser automation, making MCP the core identity rather than a compatibility feature.
+  reason: >-
+    The product is an MCP server focused on browser automation, making MCP the core identity rather than a compatibility
+    feature.
   evidence:
-    - "Repo description: 'Browse the web, directly from Cursor etc.'"
-    - "README: 'An MCP server that enables AI agents to control web browsers using browser-use'"
+    - 'Repo description: ''Browse the web, directly from Cursor etc.'''
+    - 'README: ''An MCP server that enables AI agents to control web browsers using browser-use'''
     - Listed in awesome-mcp-list and awesome-mcp-servers under Browser Control/Browser Automation sections
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: promotion_candidate
   reason: Stars (822) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.589Z"
+    updated_at: '2026-05-06T22:12:15.589Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:57.850Z"
+    updated_at: '2026-07-30T05:05:57.850Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:12:54.905Z"
+    updated_at: '2026-07-21T16:12:54.905Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -108,14 +116,18 @@ processing:
       input_hash: sha256:e7e3c25b10aefd11b99359ed21720d4d822a13b48cc1382c084c3460412d191f
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server focused on browser automation, making MCP the core identity rather than a compatibility feature.
+      decision_reason: >-
+        The product is an MCP server focused on browser automation, making MCP the core identity rather than a
+        compatibility feature.
       decision_evidence:
-        - "Repo description: 'Browse the web, directly from Cursor etc.'"
-        - "README: 'An MCP server that enables AI agents to control web browsers using browser-use'"
+        - 'Repo description: ''Browse the web, directly from Cursor etc.'''
+        - 'README: ''An MCP server that enables AI agents to control web browsers using browser-use'''
         - Listed in awesome-mcp-list and awesome-mcp-servers under Browser Control/Browser Automation sections
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server itself, not merely an extension that adds browser capabilities to another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server itself, not merely an extension that adds
+        browser capabilities to another assistant.
       review_reason: null
       review_resume_lifecycle: null

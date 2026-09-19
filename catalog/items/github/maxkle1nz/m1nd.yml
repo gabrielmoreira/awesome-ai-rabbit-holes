@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__maxkle1nz__m1nd__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,12 @@ provenance:
           - Agent infrastructure
         anchor_text: m1nd
         extracted_url: https://github.com/maxkle1nz/m1nd
-        surrounding_text: "- **[m1nd](https://github.com/maxkle1nz/m1nd)** `⭐ 21` — Local-first MCP server that gives a CLI coding agent a neuro-symbolic code graph over the repo: `impact`/`why`/change-reasoning across a call + cross-file-imports graph (10 languages), calibrated-trust retrieval that returns `abstain`/`insufficient_evidence` instead of guessing, and persistent agent memory. A SessionStart hook pre-orients the agent before its first turn. Works with Claude Code, Codex, Cursor, and any MCP client. Rust, MIT."
+        surrounding_text: >-
+          - **[m1nd](https://github.com/maxkle1nz/m1nd)** `⭐ 21` — Local-first MCP server that gives a CLI coding agent
+          a neuro-symbolic code graph over the repo: `impact`/`why`/change-reasoning across a call + cross-file-imports
+          graph (10 languages), calibrated-trust retrieval that returns `abstain`/`insufficient_evidence` instead of
+          guessing, and persistent agent memory. A SessionStart hook pre-orients the agent before its first turn. Works
+          with Claude Code, Codex, Cursor, and any MCP client. Rust, MIT.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: maxkle1nz/m1nd
     html_url: https://github.com/maxkle1nz/m1nd
-    created_at: "2026-03-12T15:11:14Z"
-    pushed_at: "2026-08-03T00:22:15Z"
-    description: "m1nd is a local-first context runtime for coding agents: an evidence-bound, continuously verified model of your code, memory, and change."
+    created_at: '2026-03-12T15:11:14Z'
+    pushed_at: '2026-08-03T00:22:15Z'
+    description: >-
+      m1nd is a local-first context runtime for coding agents: an evidence-bound, continuously verified model of your
+      code, memory, and change.
     homepage: https://m1nd.world
     topics:
       - ai-agents
@@ -47,14 +54,20 @@ metadata:
       - model-context-protocol
       - neuro-symbolic
       - rust
-    last_checked_at: "2026-08-03T05:16:58.131Z"
+    last_checked_at: '2026-08-03T05:16:58.131Z'
     readme:
-      fetched_at: "2026-08-03T05:16:58.131Z"
+      fetched_at: '2026-08-03T05:16:58.131Z'
       bytes: 32509
 insights:
-  summary: A neuro-symbolic code graph and shell that provides memory, trust, and reasoning capabilities to coding agents via MCP.
-  why_it_matters: It attempts to solve the 'blind agent' problem by providing a persistent, graph-based memory layer that helps AI assistants understand code relationships and changes over time.
-  mental_damage: Because why just let your agent guess when you can provide it with a high-fidelity neuro-symbolic graph of your entire codebase to hallucinate within?
+  summary: >-
+    A neuro-symbolic code graph and shell that provides memory, trust, and reasoning capabilities to coding agents via
+    MCP.
+  why_it_matters: >-
+    It attempts to solve the 'blind agent' problem by providing a persistent, graph-based memory layer that helps AI
+    assistants understand code relationships and changes over time.
+  mental_damage: >-
+    Because why just let your agent guess when you can provide it with a high-fidelity neuro-symbolic graph of your
+    entire codebase to hallucinate within?
   tags:
     - mcp
     - coding-agents
@@ -64,31 +77,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The tool's core novelty is the neuro-symbolic graph memory and context-shaping infrastructure used to improve agent performance.
+  reason: >-
+    The tool's core novelty is the neuro-symbolic graph memory and context-shaping infrastructure used to improve agent
+    performance.
   evidence:
     - README describes it as 'graph memory, trust, and change reasoning for agent hosts'
     - Product identity is a 'hell around your coding agent' focusing on memory and context
     - Claims to solve the problem of agents 'tarting blind' via code-to-graph mapping
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.715Z"
+    updated_at: '2026-07-16T05:04:46.715Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:58.131Z"
+    updated_at: '2026-08-03T05:16:58.131Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-16T05:19:42.941Z"
+    updated_at: '2026-07-16T05:19:42.941Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

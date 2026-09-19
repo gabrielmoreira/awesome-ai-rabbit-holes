@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pasympa__discord-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: PaSympa/discord-mcp
         extracted_url: https://github.com/pasympa/discord-mcp
-        surrounding_text: "- [PaSympa/discord-mcp](https://github.com/PaSympa/discord-mcp) [![PaSympa/discord-mcp MCP server](https://glama.ai/mcp/servers/PaSympa/discord-mcp/badges/score.svg)](https://glama.ai/mcp/servers/PaSympa/discord-mcp) 📇 🏠 🍎 🪟 🐧 - Lightweight multi-guild Discord MCP server with 60+ tools for messages, channels, roles, forums, webhooks, and moderation."
+        surrounding_text: >-
+          - [PaSympa/discord-mcp](https://github.com/PaSympa/discord-mcp) [![PaSympa/discord-mcp MCP
+          server](https://glama.ai/mcp/servers/PaSympa/discord-mcp/badges/score.svg)](https://glama.ai/mcp/servers/PaSympa/discord-mcp)
+          📇 🏠 🍎 🪟 🐧 - Lightweight multi-guild Discord MCP server with 60+ tools for messages, channels, roles,
+          forums, webhooks, and moderation.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: PaSympa/discord-mcp
     html_url: https://github.com/PaSympa/discord-mcp
-    created_at: "2026-03-16T22:55:38Z"
-    pushed_at: "2026-07-19T22:33:46Z"
+    created_at: '2026-03-16T22:55:38Z'
+    pushed_at: '2026-07-19T22:33:46Z'
     description: MCP server to control Discord — messages, channels, roles, permissions, members, and moderation
     homepage: null
     topics:
@@ -43,14 +47,20 @@ metadata:
       - mcp
       - model-context-protocol
       - typescript
-    last_checked_at: "2026-07-20T16:42:31.315Z"
+    last_checked_at: '2026-07-20T16:42:31.315Z'
     readme:
-      fetched_at: "2026-07-20T16:42:31.315Z"
+      fetched_at: '2026-07-20T16:42:31.315Z'
       bytes: 23525
 insights:
-  summary: A lightweight, multi-guild MCP server with 95+ tools for controlling Discord via natural language across Claude Desktop, Cursor, VS Code, and other MCP-compatible clients.
-  why_it_matters: It allows developers to manage messages, channels, roles, and moderation across multiple Discord servers directly through their coding assistant instead of the Discord UI.
-  mental_damage: We have successfully abstracted away the final remaining joy of manually clicking through server settings by turning Discord administration into a prompt engineering problem.
+  summary: >-
+    A lightweight, multi-guild MCP server with 95+ tools for controlling Discord via natural language across Claude
+    Desktop, Cursor, VS Code, and other MCP-compatible clients.
+  why_it_matters: >-
+    It allows developers to manage messages, channels, roles, and moderation across multiple Discord servers directly
+    through their coding assistant instead of the Discord UI.
+  mental_damage: >-
+    We have successfully abstracted away the final remaining joy of manually clicking through server settings by turning
+    Discord administration into a prompt engineering problem.
   tags:
     - mcp
     - discord
@@ -60,35 +70,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a domain-specific MCP server that exposes Discord capabilities to MCP-compatible clients, fitting the MCP Servers & Tooling category perfectly.
+  reason: >-
+    This is a domain-specific MCP server that exposes Discord capabilities to MCP-compatible clients, fitting the MCP
+    Servers & Tooling category perfectly.
   evidence:
     - Repo description explicitly states 'MCP server to control Discord' with 95+ tools per the README.
     - Listed in awesome-mcp-servers under 'Communication' section.
     - Supports Claude Desktop, Claude Code, Cursor, and VS Code Copilot as MCP clients per README.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.641Z"
+    updated_at: '2026-05-06T22:12:15.641Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:31.315Z"
+    updated_at: '2026-07-20T16:42:31.315Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

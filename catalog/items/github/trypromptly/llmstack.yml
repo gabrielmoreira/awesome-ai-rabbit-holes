@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__trypromptly__llmstack__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,10 +19,10 @@ provenance:
           - LLM Stack
         anchor_text: LLM Stack
         extracted_url: https://llmstack.ai
-        surrounding_text: "## [LLM Stack](https://llmstack.ai/)"
+        surrounding_text: '## [LLM Stack](https://llmstack.ai/)'
         confidence: high
     - id: discovery__github__trypromptly__llmstack__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -35,10 +35,12 @@ provenance:
           - Multi-Agent Orchestration Frameworks
         anchor_text: LLMStack
         extracted_url: https://github.com/trypromptly/llmstack
-        surrounding_text: "| [LLMStack](https://github.com/trypromptly/LLMStack) | No-code multi-agent framework for LLM agents and workflows | ![Stars](https://img.shields.io/github/stars/trypromptly/LLMStack) |"
+        surrounding_text: >-
+          | [LLMStack](https://github.com/trypromptly/LLMStack) | No-code multi-agent framework for LLM agents and
+          workflows | ![Stars](https://img.shields.io/github/stars/trypromptly/LLMStack) |
         confidence: high
     - id: discovery__github__trypromptly__llmstack__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -50,7 +52,9 @@ provenance:
           - Other LLM Frameworks
         anchor_text: LLMStack
         extracted_url: https://github.com/trypromptly/llmstack
-        surrounding_text: "- [LLMStack](https://github.com/trypromptly/LLMStack): No code platform for building LLM-powered applications with custom data. ![GitHub Repo stars](https://img.shields.io/github/stars/trypromptly/LLMStack?style=social)"
+        surrounding_text: >-
+          - [LLMStack](https://github.com/trypromptly/LLMStack): No code platform for building LLM-powered applications
+          with custom data. ![GitHub Repo stars](https://img.shields.io/github/stars/trypromptly/LLMStack?style=social)
         confidence: high
 metadata:
   github:
@@ -60,8 +64,8 @@ metadata:
     archived: false
     full_name: trypromptly/LLMStack
     html_url: https://github.com/trypromptly/LLMStack
-    created_at: "2023-08-06T00:39:25Z"
-    pushed_at: "2024-12-11T19:59:51Z"
+    created_at: '2023-08-06T00:39:25Z'
+    pushed_at: '2024-12-11T19:59:51Z'
     description: No-code multi-agent framework to build LLM Agents, workflows and applications with your data
     homepage: https://llmstack.trypromptly.com
     topics:
@@ -76,13 +80,17 @@ metadata:
       - llms
       - no-code-ai
       - platform
-    last_checked_at: "2026-07-21T15:20:56.122Z"
+    last_checked_at: '2026-07-21T15:20:56.122Z'
     readme:
-      fetched_at: "2026-07-21T15:20:56.122Z"
+      fetched_at: '2026-07-21T15:20:56.122Z'
       bytes: 7961
 insights:
-  summary: A no-code platform for building, deploying, and managing multi-agent workflows and generative AI applications with integrated data retrieval.
-  why_it_matters: It provides a managed control plane for orchestrating complex agentic chains and RAG pipelines without requiring manual implementation of the underlying infrastructure.
+  summary: >-
+    A no-code platform for building, deploying, and managing multi-agent workflows and generative AI applications with
+    integrated data retrieval.
+  why_it_matters: >-
+    It provides a managed control plane for orchestrating complex agentic chains and RAG pipelines without requiring
+    manual implementation of the underlying infrastructure.
   mental_damage: Another abstraction layer to master in the increasingly crowded race to replace the actual logic we used to write.
   tags:
     - agents
@@ -93,31 +101,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It functions as an operated workbench and control plane for multi-agent coordination, offering a no-code builder and multi-tenant deployment capabilities.
+  reason: >-
+    It functions as an operated workbench and control plane for multi-agent coordination, offering a no-code builder and
+    multi-tenant deployment capabilities.
   evidence:
     - README defines it as a no-code platform for building generative AI agents and workflows.
     - Supports multi-model chaining and connecting agents to internal data and business processes.
     - Includes deployment options for cloud or on-premise, indicating a platform/control plane identity.
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Visual Builders & Workbenches
 lifecycle:
   status: promotion_candidate
   reason: Stars (2296) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.580Z"
+    updated_at: '2026-05-06T22:12:15.580Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:56.122Z"
+    updated_at: '2026-07-21T15:20:56.122Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:13:41.651Z"
+    updated_at: '2026-05-12T15:13:41.651Z'
     cause: null
     next_retry_at: null
     attempts: 1

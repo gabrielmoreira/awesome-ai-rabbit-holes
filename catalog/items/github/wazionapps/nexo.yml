@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wazionapps__nexo__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: wazionapps/nexo
         extracted_url: https://github.com/wazionapps/nexo
-        surrounding_text: "- [wazionapps/nexo](https://github.com/wazionapps/nexo) [![wazionapps/nexo MCP server](https://glama.ai/mcp/servers/wazionapps/nexo/badges/score.svg)](https://glama.ai/mcp/servers/wazionapps/nexo) 🐍 🏠 - Cognitive memory for AI agents with Atkinson-Shiffrin memory model (STM/LTM/sensory register), semantic RAG, Ebbinghaus decay, trust scoring, and 76+ MCP tools."
+        surrounding_text: >-
+          - [wazionapps/nexo](https://github.com/wazionapps/nexo) [![wazionapps/nexo MCP
+          server](https://glama.ai/mcp/servers/wazionapps/nexo/badges/score.svg)](https://glama.ai/mcp/servers/wazionapps/nexo)
+          🐍 🏠 - Cognitive memory for AI agents with Atkinson-Shiffrin memory model (STM/LTM/sensory register),
+          semantic RAG, Ebbinghaus decay, trust scoring, and 76+ MCP tools.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,9 @@ metadata:
     archived: true
     full_name: wazionapps/nexo
     html_url: https://github.com/wazionapps/nexo
-    created_at: "2026-03-22T23:44:19Z"
-    pushed_at: "2026-07-03T18:20:00Z"
-    description: "NEXO runtime core for NEXO Desktop: local memory, automation, MCP tools and update-managed runtime."
+    created_at: '2026-03-22T23:44:19Z'
+    pushed_at: '2026-07-03T18:20:00Z'
+    description: 'NEXO runtime core for NEXO Desktop: local memory, automation, MCP tools and update-managed runtime.'
     homepage: https://nexo-desktop.com
     topics:
       - ai-memory
@@ -55,13 +59,17 @@ metadata:
       - shared-brain
       - trust-scoring
       - vector-search
-    last_checked_at: "2026-07-21T15:21:10.343Z"
+    last_checked_at: '2026-07-21T15:21:10.343Z'
     readme:
-      fetched_at: "2026-07-21T15:21:10.343Z"
+      fetched_at: '2026-07-21T15:21:10.343Z'
       bytes: 1469
 insights:
-  summary: NEXO Brain is a local, open-source shared memory system for AI agents with persistent storage, semantic RAG, and MCP tool integration.
-  why_it_matters: It gives AI coding agents long-term memory and context awareness, reducing repetitive prompting and improving continuity across sessions.
+  summary: >-
+    NEXO Brain is a local, open-source shared memory system for AI agents with persistent storage, semantic RAG, and MCP
+    tool integration.
+  why_it_matters: >-
+    It gives AI coding agents long-term memory and context awareness, reducing repetitive prompting and improving
+    continuity across sessions.
   mental_damage: Finally, an AI that remembers your codebase better than you do after three context switches and a coffee break.
   tags:
     - memory
@@ -71,31 +79,41 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: NEXO Brain’s core novelty is its persistent memory, semantic retrieval, and cognitive architecture—not acting as a coding assistant or host integration—making it a context-shaping infrastructure tool.
+  reason: >-
+    NEXO Brain’s core novelty is its persistent memory, semantic retrieval, and cognitive architecture—not acting as a
+    coding assistant or host integration—making it a context-shaping infrastructure tool.
   evidence:
-    - "Repo description: 'Shared brain for AI agents. Persistent memory, semantic RAG, natural forgetting, metacognitive guard, trust scoring, 150+ MCP tools.'"
-    - "README: 'Local cognitive runtime with a shared brain across Claude Code, Codex, Claude Desktop... transforms any MCP-compatible AI agent from a stateless assistant into a cognitive partner that remembers, learns, forgets, adapts...'"
-    - "Source-list context: Listed in awesome-mcp-servers under 'Knowledge & Memory', signaling its role as a memory layer, not an agent."
+    - >-
+      Repo description: 'Shared brain for AI agents. Persistent memory, semantic RAG, natural forgetting, metacognitive
+      guard, trust scoring, 150+ MCP tools.'
+    - >-
+      README: 'Local cognitive runtime with a shared brain across Claude Code, Codex, Claude Desktop... transforms any
+      MCP-compatible AI agent from a stateless assistant into a cognitive partner that remembers, learns, forgets,
+      adapts...'
+    - >-
+      Source-list context: Listed in awesome-mcp-servers under 'Knowledge & Memory', signaling its role as a memory
+      layer, not an agent.
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.655Z"
+    updated_at: '2026-05-06T22:12:15.655Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:10.343Z"
+    updated_at: '2026-07-21T15:21:10.343Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:30:47.662Z"
+    updated_at: '2026-05-12T15:30:47.662Z'
     cause: null
     next_retry_at: null
     attempts: 1

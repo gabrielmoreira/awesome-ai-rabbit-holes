@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__glama-ai__tool-definition-quality-score__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,7 @@ provenance:
           - Tutorials
         anchor_text: Tool Definition Quality Score (TDQS)
         extracted_url: https://github.com/glama-ai/tool-definition-quality-score
-        surrounding_text: "* [Tool Definition Quality Score (TDQS)](https://github.com/glama-ai/tool-definition-quality-score)"
+        surrounding_text: '* [Tool Definition Quality Score (TDQS)](https://github.com/glama-ai/tool-definition-quality-score)'
         confidence: high
 metadata:
   github:
@@ -29,20 +29,28 @@ metadata:
     archived: false
     full_name: glama-ai/tool-definition-quality-score
     html_url: https://github.com/glama-ai/tool-definition-quality-score
-    created_at: "2026-06-07T21:11:41Z"
-    pushed_at: "2026-09-01T18:38:37Z"
-    description: An open framework for scoring how well an MCP tool definition communicates to an AI agent – the Tool Definition Quality Score (TDQS).
+    created_at: '2026-06-07T21:11:41Z'
+    pushed_at: '2026-09-01T18:38:37Z'
+    description: >-
+      An open framework for scoring how well an MCP tool definition communicates to an AI agent – the Tool Definition
+      Quality Score (TDQS).
     homepage: https://tdqs.dev
     topics:
       - mcp
-    last_checked_at: "2026-09-03T05:16:50.829Z"
+    last_checked_at: '2026-09-03T05:16:50.829Z'
     readme:
-      fetched_at: "2026-09-03T05:16:50.829Z"
+      fetched_at: '2026-09-03T05:16:50.829Z'
       bytes: 61508
 insights:
-  summary: An open framework and rubric for scoring the quality of Model Context Protocol (MCP) tool definitions to ensure they are clearly communicable to AI agents.
-  why_it_matters: It provides a standardized way for developers to audit and improve their MCP server descriptions to increase the likelihood that an agent actually selects and uses the tool correctly.
-  mental_damage: We have now reached the era of writing meticulously crafted prompts just to convince an LLM that our other prompts are written well enough to be understood.
+  summary: >-
+    An open framework and rubric for scoring the quality of Model Context Protocol (MCP) tool definitions to ensure they
+    are clearly communicable to AI agents.
+  why_it_matters: >-
+    It provides a standardized way for developers to audit and improve their MCP server descriptions to increase the
+    likelihood that an agent actually selects and uses the tool correctly.
+  mental_damage: >-
+    We have now reached the era of writing meticulously crafted prompts just to convince an LLM that our other prompts
+    are written well enough to be understood.
   tags:
     - mcp
     - evals
@@ -51,31 +59,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's core purpose is to score, measure, and provide a rubric for the quality of tool definitions, which fits perfectly under the Evals category.
+  reason: >-
+    The project's core purpose is to score, measure, and provide a rubric for the quality of tool definitions, which
+    fits perfectly under the Evals category.
   evidence:
     - Repo description describes it as 'An open framework for scoring how well an MCP tool definition communicates'
-    - README explicitly mentions a 'scoring pipeline' including 'LLM rubric evaluation' and 'deterministic post-processing'
+    - >-
+      README explicitly mentions a 'scoring pipeline' including 'LLM rubric evaluation' and 'deterministic
+      post-processing'
     - The framework is used to generate public score pages and rankings for an MCP registry
 placement:
   primary_category: evals
-  section: Observability / Tracing / EvalOps
+  secondary_categories: []
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-15T05:51:04.989Z"
+    updated_at: '2026-06-15T05:51:04.989Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:50.829Z"
+    updated_at: '2026-09-03T05:16:50.829Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-25T05:28:37.744Z"
+    updated_at: '2026-06-25T05:28:37.744Z'
     cause: null
     next_retry_at: null
     attempts: 1

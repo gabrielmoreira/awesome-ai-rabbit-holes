@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__opgginc__opgg-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: opgginc/opgg-mcp
         extracted_url: https://github.com/opgginc/opgg-mcp
-        surrounding_text: "- [opgginc/opgg-mcp](https://github.com/opgginc/opgg-mcp) 📇 ☁️ - Access real-time gaming data across popular titles like League of Legends, TFT, and Valorant, offering champion analytics, esports schedules, meta compositions, and character statistics."
+        surrounding_text: >-
+          - [opgginc/opgg-mcp](https://github.com/opgginc/opgg-mcp) 📇 ☁️ - Access real-time gaming data across popular
+          titles like League of Legends, TFT, and Valorant, offering champion analytics, esports schedules, meta
+          compositions, and character statistics.
         confidence: high
     - id: discovery__github__opgginc__opgg-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +38,10 @@ provenance:
           - Official Servers
         anchor_text: OP.GG
         extracted_url: https://github.com/opgginc/opgg-mcp
-        surrounding_text: "- **[OP.GG](https://github.com/opgginc/opgg-mcp)** - Access real-time gaming data across popular titles like League of Legends, TFT, and Valorant, offering champion analytics, esports schedules, meta compositions, and character statistics."
+        surrounding_text: >-
+          - **[OP.GG](https://github.com/opgginc/opgg-mcp)** - Access real-time gaming data across popular titles like
+          League of Legends, TFT, and Valorant, offering champion analytics, esports schedules, meta compositions, and
+          character statistics.
         confidence: high
 metadata:
   github:
@@ -45,19 +51,25 @@ metadata:
     archived: false
     full_name: opgginc/opgg-mcp
     html_url: https://github.com/opgginc/opgg-mcp
-    created_at: "2025-04-08T21:44:27Z"
-    pushed_at: "2026-07-15T18:38:04Z"
+    created_at: '2025-04-08T21:44:27Z'
+    pushed_at: '2026-07-15T18:38:04Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:27.880Z"
+    last_checked_at: '2026-07-20T16:42:27.880Z'
     readme:
-      fetched_at: "2026-07-20T16:42:27.880Z"
+      fetched_at: '2026-07-20T16:42:27.880Z'
       bytes: 4378
 insights:
-  summary: An MCP server that exposes OP.GG game data for League of Legends, TFT, and Valorant to AI agents via a Streamable HTTP endpoint.
-  why_it_matters: It allows AI agents to query live game stats, meta builds, and match histories programmatically instead of scraping third-party sites.
-  mental_damage: We have mastered the art of exposing Riot Games metadata to LLMs before we have mastered the art of not feeding 40k tokens of champion lore to a context window.
+  summary: >-
+    An MCP server that exposes OP.GG game data for League of Legends, TFT, and Valorant to AI agents via a Streamable
+    HTTP endpoint.
+  why_it_matters: >-
+    It allows AI agents to query live game stats, meta builds, and match histories programmatically instead of scraping
+    third-party sites.
+  mental_damage: >-
+    We have mastered the art of exposing Riot Games metadata to LLMs before we have mastered the art of not feeding 40k
+    tokens of champion lore to a context window.
   tags:
     - mcp
     - gaming
@@ -66,35 +78,39 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a domain-specific MCP server whose primary identity is exposing game data via the Model Context Protocol.
+  reason: >-
+    The product is a domain-specific MCP server whose primary identity is exposing game data via the Model Context
+    Protocol.
   evidence:
-    - README describes it explicitly as 'A Model Context Protocol implementation that provides AI agents with access to OP.GG game data'.
+    - >-
+      README describes it explicitly as 'A Model Context Protocol implementation that provides AI agents with access to
+      OP.GG game data'.
     - Source lists place it in awesome-mcp-servers under 'Server Implementations > Gaming' and 'Official Servers'.
     - The server supports Streamable HTTP transport and provides structured tools for LoL, TFT, and Valorant data.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.592Z"
+    updated_at: '2026-05-06T22:12:15.592Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:27.880Z"
+    updated_at: '2026-07-20T16:42:27.880Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

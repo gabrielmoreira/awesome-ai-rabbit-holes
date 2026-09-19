@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__littlebearapps__outlook-assistant__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: littlebearapps/outlook-assistant
         extracted_url: https://github.com/littlebearapps/outlook-assistant
-        surrounding_text: "- [littlebearapps/outlook-assistant](https://github.com/littlebearapps/outlook-assistant) [![outlook-assistant MCP server](https://glama.ai/mcp/servers/@littlebearapps/outlook-assistant/badges/score.svg)](https://glama.ai/mcp/servers/@littlebearapps/outlook-assistant) 📇 ☁️ - Ask your AI assistant to search your inbox, send emails, schedule meetings, manage contacts, and configure mailbox settings — without leaving the conversation. Works with Claude, Cursor, Windsurf, and any MCP-compatible client."
+        surrounding_text: >-
+          - [littlebearapps/outlook-assistant](https://github.com/littlebearapps/outlook-assistant) [![outlook-assistant
+          MCP
+          server](https://glama.ai/mcp/servers/@littlebearapps/outlook-assistant/badges/score.svg)](https://glama.ai/mcp/servers/@littlebearapps/outlook-assistant)
+          📇 ☁️ - Ask your AI assistant to search your inbox, send emails, schedule meetings, manage contacts, and
+          configure mailbox settings — without leaving the conversation. Works with Claude, Cursor, Windsurf, and any
+          MCP-compatible client.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: littlebearapps/outlook-assistant
     html_url: https://github.com/littlebearapps/outlook-assistant
-    created_at: "2025-12-31T02:18:46Z"
-    pushed_at: "2026-07-27T12:25:24Z"
-    description: MCP server for Outlook email, calendar, and contacts — let your AI assistant manage your inbox directly from the conversation.
+    created_at: '2025-12-31T02:18:46Z'
+    pushed_at: '2026-07-27T12:25:24Z'
+    description: >-
+      MCP server for Outlook email, calendar, and contacts — let your AI assistant manage your inbox directly from the
+      conversation.
     homepage: https://littlebearapps.com/builds/outlook-assistant
     topics:
       - ai
@@ -55,13 +63,17 @@ metadata:
       - outlook
       - productivity
       - windsurf
-    last_checked_at: "2026-07-30T05:06:06.688Z"
+    last_checked_at: '2026-07-30T05:06:06.688Z'
     readme:
-      fetched_at: "2026-07-30T05:06:06.688Z"
+      fetched_at: '2026-07-30T05:06:06.688Z'
       bytes: 27072
 insights:
-  summary: MCP server for Outlook email, calendar, and contacts that lets AI assistants manage inbox data via the Model Context Protocol.
-  why_it_matters: Enables developers to integrate Outlook data directly into AI-assisted workflows without context-switching to the Outlook app.
+  summary: >-
+    MCP server for Outlook email, calendar, and contacts that lets AI assistants manage inbox data via the Model Context
+    Protocol.
+  why_it_matters: >-
+    Enables developers to integrate Outlook data directly into AI-assisted workflows without context-switching to the
+    Outlook app.
   mental_damage: Finally, a way to make your AI assistant feel as overwhelmed by your inbox as you are.
   tags:
     - mcp
@@ -72,31 +84,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server for Outlook, making MCP the primary category rather than an extension or agent.
+  reason: >-
+    The product's core identity is an MCP server for Outlook, making MCP the primary category rather than an extension
+    or agent.
   evidence:
-    - "Repo description: 'MCP server for Outlook email, calendar, and contacts'"
-    - "README: 'Outlook Assistant connects AI assistants to your Microsoft Outlook account through the Model Context Protocol'"
-    - "Source-list context: listed in awesome-mcp-servers under Server Implementations > Communication"
+    - 'Repo description: ''MCP server for Outlook email, calendar, and contacts'''
+    - >-
+      README: 'Outlook Assistant connects AI assistants to your Microsoft Outlook account through the Model Context
+      Protocol'
+    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations > Communication'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: '2026-05-06T22:12:15.627Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:06.688Z"
+    updated_at: '2026-07-30T05:06:06.688Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:16:49.615Z"
+    updated_at: '2026-07-21T16:16:49.615Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -109,14 +126,20 @@ processing:
       input_hash: sha256:58400278d89fdebdfc3265035ec9a6844462944209b85826fac732f733f70b0b
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP server for Outlook, making MCP the primary category rather than an extension or agent.
+      decision_reason: >-
+        The product's core identity is an MCP server for Outlook, making MCP the primary category rather than an
+        extension or agent.
       decision_evidence:
-        - "Repo description: 'MCP server for Outlook email, calendar, and contacts'"
-        - "README: 'Outlook Assistant connects AI assistants to your Microsoft Outlook account through the Model Context Protocol'"
-        - "Source-list context: listed in awesome-mcp-servers under Server Implementations > Communication"
+        - 'Repo description: ''MCP server for Outlook email, calendar, and contacts'''
+        - >-
+          README: 'Outlook Assistant connects AI assistants to your Microsoft Outlook account through the Model Context
+          Protocol'
+        - 'Source-list context: listed in awesome-mcp-servers under Server Implementations > Communication'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an extension that augments another assistant with Outlook capabilities.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an extension that augments
+        another assistant with Outlook capabilities.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__embeddedlayers__mcp-analytics__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
         anchor_text: embeddedlayers/mcp-analytics
         extracted_url: https://github.com/embeddedlayers/mcp-analytics
-        surrounding_text: "- [embeddedlayers/mcp-analytics](https://github.com/embeddedlayers/mcp-analytics) [![embeddedlayers/mcp-analytics MCP server](https://glama.ai/mcp/servers/embeddedlayers/mcp-analytics/badges/score.svg)](https://glama.ai/mcp/servers/embeddedlayers/mcp-analytics) 🐍 ☁️  - Statistical analysis, forecasting, and ML for business data (Shopify, Stripe, WooCommerce, eBay, GA4, Search Console). Upload a CSV or connect live data sources — ask a question in Claude or Cursor, get an interactive HTML report."
+        surrounding_text: >-
+          - [embeddedlayers/mcp-analytics](https://github.com/embeddedlayers/mcp-analytics)
+          [![embeddedlayers/mcp-analytics MCP
+          server](https://glama.ai/mcp/servers/embeddedlayers/mcp-analytics/badges/score.svg)](https://glama.ai/mcp/servers/embeddedlayers/mcp-analytics)
+          🐍 ☁️  - Statistical analysis, forecasting, and ML for business data (Shopify, Stripe, WooCommerce, eBay, GA4,
+          Search Console). Upload a CSV or connect live data sources — ask a question in Claude or Cursor, get an
+          interactive HTML report.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: embeddedlayers/mcp-analytics
     html_url: https://github.com/embeddedlayers/mcp-analytics
-    created_at: "2025-09-17T01:25:49Z"
-    pushed_at: "2026-08-24T14:28:51Z"
-    description: The statistical analyst in your AI chat — bring data and a question, own a citable, re-runnable analysis. Four depth tiers, from instant Snapshot to full Deck study. Works in Claude, Cursor, and any MCP client.
+    created_at: '2025-09-17T01:25:49Z'
+    pushed_at: '2026-08-24T14:28:51Z'
+    description: >-
+      The statistical analyst in your AI chat — bring data and a question, own a citable, re-runnable analysis. Four
+      depth tiers, from instant Snapshot to full Deck study. Works in Claude, Cursor, and any MCP client.
     homepage: https://mcpanalytics.ai
     topics:
       - ai-agents
@@ -55,13 +63,17 @@ metadata:
       - shopify-analytics
       - statistics
       - stripe-analytics
-    last_checked_at: "2026-08-27T09:23:23.507Z"
+    last_checked_at: '2026-08-27T09:23:23.507Z'
     readme:
-      fetched_at: "2026-08-27T09:23:23.507Z"
+      fetched_at: '2026-08-27T09:23:23.507Z'
       bytes: 18968
 insights:
-  summary: An MCP server that generates citable, reproducible data analysis modules from user-provided data and questions, queryable from MCP clients like Claude or Cursor.
-  why_it_matters: Developers can offload ad-hoc data analysis tasks to a specialized agent pipeline and own the resulting reusable, rerunnable modules.
+  summary: >-
+    An MCP server that generates citable, reproducible data analysis modules from user-provided data and questions,
+    queryable from MCP clients like Claude or Cursor.
+  why_it_matters: >-
+    Developers can offload ad-hoc data analysis tasks to a specialized agent pipeline and own the resulting reusable,
+    rerunnable modules.
   mental_damage: Now you can outsource your statistical guilt to an agent that will also write the methodology section for you.
   tags:
     - mcp-server
@@ -72,33 +84,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: it is a server that exposes analytics capabilities via the Model Context Protocol, not merely an MCP-compatible tool."
+  reason: >-
+    MCP is the product identity: it is a server that exposes analytics capabilities via the Model Context Protocol, not
+    merely an MCP-compatible tool.
   evidence:
     - Repo description explicitly states it works in Claude, Cursor, and any MCP client
     - README emphasizes MCP-native integration and private library queryable from MCP clients
     - Listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.612Z"
+    updated_at: '2026-05-06T22:12:15.612Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-14T04:13:49.061Z"
+    updated_at: '2026-09-14T04:13:49.061Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for embeddedlayers/mcp-analytics
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:52:20.193Z"
+    updated_at: '2026-07-21T15:52:20.193Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -111,7 +126,9 @@ processing:
       input_hash: sha256:a64d42afac4392c970dfa32245cee74a49b475cad5e0df24deed42d6b8678deb
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: it is a server that exposes analytics capabilities via the Model Context Protocol, not merely an MCP-compatible tool."
+      decision_reason: >-
+        MCP is the product identity: it is a server that exposes analytics capabilities via the Model Context Protocol,
+        not merely an MCP-compatible tool.
       decision_evidence:
         - Repo description explicitly states it works in Claude, Cursor, and any MCP client
         - README emphasizes MCP-native integration and private library queryable from MCP clients
@@ -119,6 +136,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server providing domain-specific analytics capabilities rather than an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server providing domain-specific analytics
+        capabilities rather than an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

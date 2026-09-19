@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dephelion__baya-cli__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-09-14T04:13:20.171Z"
+      discovered_at: '2026-09-14T04:13:20.171Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,11 @@ provenance:
           - Orchestrators & autonomous loops
         anchor_text: baya-cli
         extracted_url: https://github.com/dephelion/baya-cli
-        surrounding_text: "- **[baya-cli](https://github.com/dephelion/baya-cli)** `⭐ 5` — One command turns a plain-text task list (Markdown, `TODO.txt`, YAML) into an LLM-planned DAG and runs it across the coding-agent CLIs you already have (`codex`, `claude`, `copilot`, `opencode`, etc.) — parallel, model-per-task, with context handoff and checkpoint/resume. No API keys. MIT."
+        surrounding_text: >-
+          - **[baya-cli](https://github.com/dephelion/baya-cli)** `⭐ 5` — One command turns a plain-text task list
+          (Markdown, `TODO.txt`, YAML) into an LLM-planned DAG and runs it across the coding-agent CLIs you already have
+          (`codex`, `claude`, `copilot`, `opencode`, etc.) — parallel, model-per-task, with context handoff and
+          checkpoint/resume. No API keys. MIT.
         confidence: high
 metadata:
   github:
@@ -30,22 +34,30 @@ metadata:
     archived: false
     full_name: dephelion/baya-cli
     html_url: https://github.com/dephelion/baya-cli
-    created_at: "2026-08-28T19:40:10Z"
-    pushed_at: "2026-09-10T21:46:30Z"
-    description: "Local multi-provider CLI orchestrator: a plain-text task list to LLM-planned JSON DAG to parallel dispatch across local agent CLIs."
+    created_at: '2026-08-28T19:40:10Z'
+    pushed_at: '2026-09-10T21:46:30Z'
+    description: >-
+      Local multi-provider CLI orchestrator: a plain-text task list to LLM-planned JSON DAG to parallel dispatch across
+      local agent CLIs.
     homepage: https://baya-cli.depre.net/
     topics:
       - ai-agents
       - ai-coding
       - cli-tool
-    last_checked_at: "2026-09-14T04:13:39.236Z"
+    last_checked_at: '2026-09-14T04:13:39.236Z'
     readme:
-      fetched_at: "2026-09-14T04:13:39.236Z"
+      fetched_at: '2026-09-14T04:13:39.236Z'
       bytes: 6175
 insights:
-  summary: A CLI tool that converts plain-text task lists into dependency graphs to execute coding tasks across multiple existing AI agent CLIs in parallel.
-  why_it_matters: It allows developers to automate complex, multi-step workflows by routing specific sub-tasks to the specific models or agents they already have authenticated.
-  mental_damage: You can now experience the existential dread of a failing task graph across four different monthly subscriptions simultaneously.
+  summary: >-
+    A CLI tool that converts plain-text task lists into dependency graphs to execute coding tasks across multiple
+    existing AI agent CLIs in parallel.
+  why_it_matters: >-
+    It allows developers to automate complex, multi-step workflows by routing specific sub-tasks to the specific models
+    or agents they already have authenticated.
+  mental_damage: >-
+    You can now experience the existential dread of a failing task graph across four different monthly subscriptions
+    simultaneously.
   tags:
     - cli
     - orchestration
@@ -55,31 +67,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It serves as a coordination layer that manages task dependencies and parallel execution across multiple external agents rather than being a single assistant.
+  reason: >-
+    It serves as a coordination layer that manages task dependencies and parallel execution across multiple external
+    agents rather than being a single assistant.
   evidence:
     - README explicitly describes it as a 'command-line orchestrator' for existing AI agents.
     - Uses a JSON DAG to handle task dependencies and parallel dispatch.
     - Coordinates multiple external CLIs including codex, claude, copilot, and opencode.
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-14T04:13:20.173Z"
+    updated_at: '2026-09-14T04:13:20.173Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:39.236Z"
+    updated_at: '2026-09-14T04:13:39.236Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-14T04:20:09.230Z"
+    updated_at: '2026-09-14T04:20:09.230Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -88,7 +103,9 @@ processing:
       input_hash: sha256:83dadde697c6ad21a6cb5bb5de9d1240a2824376a16fcf30b5355573f1fa28c9
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: It serves as a coordination layer that manages task dependencies and parallel execution across multiple external agents rather than being a single assistant.
+      decision_reason: >-
+        It serves as a coordination layer that manages task dependencies and parallel execution across multiple external
+        agents rather than being a single assistant.
       decision_evidence:
         - README explicitly describes it as a 'command-line orchestrator' for existing AI agents.
         - Uses a JSON DAG to handle task dependencies and parallel dispatch.
@@ -96,7 +113,9 @@ processing:
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because its core novelty is the coordination and routing of tasks across multiple distinct agents rather than being a primary coding assistant itself.
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because its core novelty is the coordination and routing of tasks
+        across multiple distinct agents rather than being a primary coding assistant itself.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

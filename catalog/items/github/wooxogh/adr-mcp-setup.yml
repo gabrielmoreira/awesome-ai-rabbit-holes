@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wooxogh__adr-mcp-setup__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: wooxogh/adr-mcp-setup
         extracted_url: https://github.com/wooxogh/adr-mcp-setup
-        surrounding_text: "- [wooxogh/adr-mcp-setup](https://github.com/wooxogh/adr-mcp-setup) [![wooxogh/adr-mcp-setup MCP server](https://glama.ai/mcp/servers/wooxogh/adr-mcp-setup/badges/score.svg)](https://glama.ai/mcp/servers/wooxogh/adr-mcp-setup) 📇 🏠 - Automatically generates Architecture Decision Records (ADRs) from Claude Code conversations using Claude Opus. Features AI quality review, duplicate detection, dependency graph, and stale ADR alerts."
+        surrounding_text: >-
+          - [wooxogh/adr-mcp-setup](https://github.com/wooxogh/adr-mcp-setup) [![wooxogh/adr-mcp-setup MCP
+          server](https://glama.ai/mcp/servers/wooxogh/adr-mcp-setup/badges/score.svg)](https://glama.ai/mcp/servers/wooxogh/adr-mcp-setup)
+          📇 🏠 - Automatically generates Architecture Decision Records (ADRs) from Claude Code conversations using
+          Claude Opus. Features AI quality review, duplicate detection, dependency graph, and stale ADR alerts.
         confidence: high
 metadata:
   github:
@@ -30,17 +34,19 @@ metadata:
     archived: false
     full_name: wooxogh/adr-mcp-setup
     html_url: https://github.com/wooxogh/adr-mcp-setup
-    created_at: "2026-03-16T19:19:23Z"
-    pushed_at: "2026-03-17T10:50:40Z"
+    created_at: '2026-03-16T19:19:23Z'
+    pushed_at: '2026-03-17T10:50:40Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:21:15.303Z"
+    last_checked_at: '2026-07-21T15:21:15.303Z'
     readme:
-      fetched_at: "2026-07-21T15:21:15.303Z"
+      fetched_at: '2026-07-21T15:21:15.303Z'
       bytes: 7803
 insights:
-  summary: adr-mcp-setup is an MCP server that automatically captures Claude Code conversations and uses Claude Opus to generate Architecture Decision Records.
+  summary: >-
+    adr-mcp-setup is an MCP server that automatically captures Claude Code conversations and uses Claude Opus to
+    generate Architecture Decision Records.
   why_it_matters: It eliminates manual ADR writing by turning development conversations into structured, reviewable documentation.
   mental_damage: Finally, a way to feel guilty about undocumented decisions without actually having to write anything down.
   tags:
@@ -51,7 +57,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product is an MCP server that provides ADR generation as a service, making MCP the primary identity rather than a mere extension or coding agent.
+  reason: >-
+    The core product is an MCP server that provides ADR generation as a service, making MCP the primary identity rather
+    than a mere extension or coding agent.
   evidence:
     - README explicitly states it is an 'MCP server for Claude Code'
     - Tools are exposed via MCP protocol (9 total tools listed)
@@ -59,24 +67,25 @@ curation:
     - Source-list context appears in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.656Z"
+    updated_at: '2026-05-06T22:12:15.656Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:15.303Z"
+    updated_at: '2026-07-21T15:21:15.303Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-18T05:35:45.360Z"
+    updated_at: '2026-05-18T05:35:45.360Z'
     cause: null
     next_retry_at: null
     attempts: 3

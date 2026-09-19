@@ -5,8 +5,9 @@ canonical_url: https://apify.com/fantastic-jobs/career-site-job-listing-api/api/
 identity: {}
 provenance:
   discoveries:
-    - id: discovery__apify__com__fantastic__jobs__career__site__job__listing__api__api__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+    - id: >-
+        discovery__apify__com__fantastic__jobs__career__site__job__listing__api__api__mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Career Site Jobs
         extracted_url: https://apify.com/fantastic-jobs/career-site-job-listing-api/api/mcp
-        surrounding_text: "- **[Career Site Jobs](https://apify.com/fantastic-jobs/career-site-job-listing-api/api/mcp)** - A MCP server to retrieve up-to-date jobs from company career sites."
+        surrounding_text: >-
+          - **[Career Site Jobs](https://apify.com/fantastic-jobs/career-site-job-listing-api/api/mcp)** - A MCP server
+          to retrieve up-to-date jobs from company career sites.
         confidence: high
 metadata:
   github:
@@ -37,8 +40,12 @@ metadata:
     readme: null
 insights:
   summary: An MCP server that provides AI agents access to the Apify Career Site Job Listing API.
-  why_it_matters: It enables AI agents to programmatically query real-time job postings across hundreds of company career sites and ATS platforms.
-  mental_damage: Now your agent can autonomously hunt for jobs while you're still busy writing the code to fix the job search scraper.
+  why_it_matters: >-
+    It enables AI agents to programmatically query real-time job postings across hundreds of company career sites and
+    ATS platforms.
+  mental_damage: >-
+    Now your agent can autonomously hunt for jobs while you're still busy writing the code to fix the job search
+    scraper.
   tags:
     - mcp
     - job-search
@@ -55,14 +62,15 @@ curation:
     - Listed in 'awesome-mcp-servers' as a community server
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.658Z"
+    updated_at: '2026-05-06T22:12:15.658Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +79,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:22:19.296Z"
+    updated_at: '2026-07-20T15:22:19.296Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -92,6 +100,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's primary identity is the implementation of the Model Context Protocol rather than a general workflow extension.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool's primary identity is the implementation of the Model Context
+        Protocol rather than a general workflow extension.
       review_reason: null
       review_resume_lifecycle: null

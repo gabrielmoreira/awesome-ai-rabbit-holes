@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__video-db__agent-toolkit__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Official Servers
         anchor_text: VideoDB
         extracted_url: https://github.com/video-db/agent-toolkit
-        surrounding_text: "- **[VideoDB](https://github.com/video-db/agent-toolkit/tree/main/modelcontextprotocol)** - Server for advanced AI-driven video editing, semantic search, multilingual transcription, generative media, voice cloning, and content moderation."
+        surrounding_text: >-
+          - **[VideoDB](https://github.com/video-db/agent-toolkit/tree/main/modelcontextprotocol)** - Server for
+          advanced AI-driven video editing, semantic search, multilingual transcription, generative media, voice
+          cloning, and content moderation.
         confidence: high
 metadata:
   github:
@@ -29,9 +32,11 @@ metadata:
     archived: false
     full_name: video-db/agent-toolkit
     html_url: https://github.com/video-db/agent-toolkit
-    created_at: "2025-03-19T08:30:36Z"
-    pushed_at: "2026-03-26T11:05:28Z"
-    description: An open-source agent toolkit that auto-syncs SDK versions, docs, and examples—built for seamless integration with LLMs, and AI agents ( MCP compatible).
+    created_at: '2025-03-19T08:30:36Z'
+    pushed_at: '2026-03-26T11:05:28Z'
+    description: >-
+      An open-source agent toolkit that auto-syncs SDK versions, docs, and examples—built for seamless integration with
+      LLMs, and AI agents ( MCP compatible).
     homepage: https://docs.videodb.io
     topics:
       - agent
@@ -40,13 +45,17 @@ metadata:
       - mcp
       - mcpserver
       - videodb
-    last_checked_at: "2026-07-21T15:21:05.101Z"
+    last_checked_at: '2026-07-21T15:21:05.101Z'
     readme:
-      fetched_at: "2026-07-21T15:21:05.101Z"
+      fetched_at: '2026-07-21T15:21:05.101Z'
       bytes: 9453
 insights:
-  summary: An open-source agent toolkit that auto-syncs SDK versions, docs, and examples for LLMs and AI agents, with MCP and llms.txt integration for VideoDB.
-  why_it_matters: It reduces context drift in AI coding workflows by keeping LLM-facing documentation and SDK examples up to date automatically.
+  summary: >-
+    An open-source agent toolkit that auto-syncs SDK versions, docs, and examples for LLMs and AI agents, with MCP and
+    llms.txt integration for VideoDB.
+  why_it_matters: >-
+    It reduces context drift in AI coding workflows by keeping LLM-facing documentation and SDK examples up to date
+    automatically.
   mental_damage: Another tool to manage the metadata your AI agents need to not hallucinate about your own stack.
   tags:
     - mcp
@@ -56,31 +65,36 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The toolkit’s core function is generating and maintaining llms.txt and llms-full.txt context files for LLMs, which fits prompt and context engineering rather than being a coding agent or MCP server first.
+  reason: >-
+    The toolkit’s core function is generating and maintaining llms.txt and llms-full.txt context files for LLMs, which
+    fits prompt and context engineering rather than being a coding agent or MCP server first.
   evidence:
-    - "Repo description: auto-syncs SDK versions, docs, and examples for LLMs and AI agents"
-    - "README: llms-full.txt and llms.txt are presented as the primary offerings for LLM context"
-    - "Source-list: listed in awesome-mcp-servers under Official Servers, but MCP is a distribution channel, not the core identity"
+    - 'Repo description: auto-syncs SDK versions, docs, and examples for LLMs and AI agents'
+    - 'README: llms-full.txt and llms.txt are presented as the primary offerings for LLM context'
+    - >-
+      Source-list: listed in awesome-mcp-servers under Official Servers, but MCP is a distribution channel, not the core
+      identity
 placement:
-  primary_category: context-engineering
-  section: Prompt Assets & Templating
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Retrieval & Fresh Docs
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.654Z"
+    updated_at: '2026-05-06T22:12:15.654Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:05.101Z"
+    updated_at: '2026-07-21T15:21:05.101Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:25:25.656Z"
+    updated_at: '2026-05-12T15:25:25.656Z'
     cause: null
     next_retry_at: null
     attempts: 1

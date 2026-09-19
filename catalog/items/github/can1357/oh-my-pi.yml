@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__can1357__oh-my-pi__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Open Source
         anchor_text: OH-MY-PI
         extracted_url: https://github.com/can1357/oh-my-pi
-        surrounding_text: "- **[OH-MY-PI](https://github.com/can1357/oh-my-pi)** `⭐ 3.9k` — Terminal coding agent (\"Pi\") with a TypeScript/Rust monorepo and local-first ergonomics."
+        surrounding_text: >-
+          - **[OH-MY-PI](https://github.com/can1357/oh-my-pi)** `⭐ 3.9k` — Terminal coding agent ("Pi") with a
+          TypeScript/Rust monorepo and local-first ergonomics.
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: can1357/oh-my-pi
     html_url: https://github.com/can1357/oh-my-pi
-    created_at: "2025-12-31T14:01:28Z"
-    pushed_at: "2026-09-07T04:09:40Z"
+    created_at: '2025-12-31T14:01:28Z'
+    pushed_at: '2026-09-07T04:09:40Z'
     description: ⌥ Coding agent with the IDE wired in
     homepage: https://omp.sh
     topics:
@@ -50,13 +52,17 @@ metadata:
       - terminal
       - tui
       - typescript
-    last_checked_at: "2026-09-07T04:13:41.122Z"
+    last_checked_at: '2026-09-07T04:13:41.122Z'
     readme:
-      fetched_at: "2026-09-07T04:13:41.122Z"
+      fetched_at: '2026-09-07T04:13:41.122Z'
       bytes: 43986
 insights:
-  summary: Terminal-native AI coding agent with hash-anchored edits, LSP, Python, browser, subagents, and multi-provider support.
-  why_it_matters: Developers get a CLI-first coding assistant that integrates deeply with terminal workflows, offering features like session management, context compaction, and autonomous memory for repo-scale tasks.
+  summary: >-
+    Terminal-native AI coding agent with hash-anchored edits, LSP, Python, browser, subagents, and multi-provider
+    support.
+  why_it_matters: >-
+    Developers get a CLI-first coding assistant that integrates deeply with terminal workflows, offering features like
+    session management, context compaction, and autonomous memory for repo-scale tasks.
   mental_damage: Finally, a coding agent that remembers your bash history better than you do.
   tags:
     - terminal-ai
@@ -67,13 +73,16 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a standalone terminal-native coding assistant that directly plans, edits, and manages code workflows, fitting the core definition of a coding agent.
+  reason: >-
+    The product is a standalone terminal-native coding assistant that directly plans, edits, and manages code workflows,
+    fitting the core definition of a coding agent.
   evidence:
     - Repo description explicitly calls it an 'AI Coding agent for the terminal'
     - README highlights terminal setup, LSP, Python, browser, and subagents as core features
     - Source-list context places it under 'Terminal-native coding agents > Open Source'
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -81,17 +90,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.607Z"
+    updated_at: '2026-05-06T22:12:15.607Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:41.122Z"
+    updated_at: '2026-09-07T04:13:41.122Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:40:41.950Z"
+    updated_at: '2026-07-21T15:40:41.950Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,7 +113,9 @@ processing:
       input_hash: sha256:dabe89dc816bf584bd3d30bc8ac33a516e3f4155eff1db41398591bc7ecda8d1
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: The product is a standalone terminal-native coding assistant that directly plans, edits, and manages code workflows, fitting the core definition of a coding agent.
+      decision_reason: >-
+        The product is a standalone terminal-native coding assistant that directly plans, edits, and manages code
+        workflows, fitting the core definition of a coding agent.
       decision_evidence:
         - Repo description explicitly calls it an 'AI Coding agent for the terminal'
         - README highlights terminal setup, LSP, Python, browser, and subagents as core features
@@ -112,6 +123,8 @@ processing:
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because the primary identity is a standalone terminal coding assistant, not an extension augmenting another host.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because the primary identity is a standalone terminal coding
+        assistant, not an extension augmenting another host.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agentmodule__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: AgentModule/mcp
         extracted_url: https://github.com/agentmodule/mcp
-        surrounding_text: "- [AgentModule/mcp](https://github.com/AgentModule/mcp) [![AgentModule/mcp MCP server](https://glama.ai/mcp/servers/AgentModule/mcp/badges/score.svg)](https://glama.ai/mcp/servers/AgentModule/mcp) 📇 ☁️ - Agent-native knowledge infrastructure. Deterministic, vertical-specific knowledge bases engineered for autonomous agent consumption via MCP. Ethics module (22 modules, EU AI Act mapped) included with every membership. Free 24hr ethics trial."
+        surrounding_text: >-
+          - [AgentModule/mcp](https://github.com/AgentModule/mcp) [![AgentModule/mcp MCP
+          server](https://glama.ai/mcp/servers/AgentModule/mcp/badges/score.svg)](https://glama.ai/mcp/servers/AgentModule/mcp)
+          📇 ☁️ - Agent-native knowledge infrastructure. Deterministic, vertical-specific knowledge bases engineered for
+          autonomous agent consumption via MCP. Ethics module (22 modules, EU AI Act mapped) included with every
+          membership. Free 24hr ethics trial.
         confidence: high
 metadata:
   github:
@@ -30,18 +35,20 @@ metadata:
     archived: false
     full_name: AgentModule/mcp
     html_url: https://github.com/AgentModule/mcp
-    created_at: "2026-03-15T00:56:38Z"
-    pushed_at: "2026-04-04T02:42:50Z"
+    created_at: '2026-03-15T00:56:38Z'
+    pushed_at: '2026-04-04T02:42:50Z'
     description: Agent Module MCP Server — deterministic knowledge retrieval for autonomous agents
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:33.174Z"
+    last_checked_at: '2026-09-17T04:13:33.174Z'
     readme:
-      fetched_at: "2026-09-17T04:13:33.174Z"
+      fetched_at: '2026-09-17T04:13:33.174Z'
       bytes: 12640
 insights:
   summary: An MCP server providing deterministic knowledge retrieval for EU AI Act compliance logic.
-  why_it_matters: It allows autonomous agents to fetch structured, non-probabilistic compliance rules to ensure agent actions align with regulatory requirements during runtime.
+  why_it_matters: >-
+    It allows autonomous agents to fetch structured, non-probabilistic compliance rules to ensure agent actions align
+    with regulatory requirements during runtime.
   mental_damage: Finally, a way to ensure your agent's hallucinations are at least legally compliant with the EU AI Act.
   tags:
     - mcp
@@ -59,24 +66,25 @@ curation:
     - Designed to be integrated into Claude Desktop, Claude Code, and Cursor via mcpServers config
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.600Z"
+    updated_at: '2026-05-06T22:12:15.600Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:33.174Z"
+    updated_at: '2026-09-17T04:13:33.174Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:02:37.498Z"
+    updated_at: '2026-07-20T16:02:37.498Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -97,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - skills
-      contrastive_reason: Choose mcp over skills because the core identity is the implementation of the Model Context Protocol to deliver these rules, rather than just being a portable pack of prompts.
+      contrastive_reason: >-
+        Choose mcp over skills because the core identity is the implementation of the Model Context Protocol to deliver
+        these rules, rather than just being a portable pack of prompts.
       review_reason: null
       review_resume_lifecycle: null

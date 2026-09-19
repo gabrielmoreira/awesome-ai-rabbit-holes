@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__entire-vc__evc-spark-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: entire-vc/evc-spark-mcp
         extracted_url: https://github.com/entire-vc/evc-spark-mcp
-        surrounding_text: "- [entire-vc/evc-spark-mcp](https://github.com/entire-vc/evc-spark-mcp) [![evc-spark-mcp MCP server](https://glama.ai/mcp/servers/entire-vc/evc-spark-mcp/badges/score.svg)](https://glama.ai/mcp/servers/entire-vc/evc-spark-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Search and discover AI agents, skills, prompts, bundles and MCP connectors from a curated catalog of 4500+ assets."
+        surrounding_text: >-
+          - [entire-vc/evc-spark-mcp](https://github.com/entire-vc/evc-spark-mcp) [![evc-spark-mcp MCP
+          server](https://glama.ai/mcp/servers/entire-vc/evc-spark-mcp/badges/score.svg)](https://glama.ai/mcp/servers/entire-vc/evc-spark-mcp)
+          📇 ☁️ 🏠 🍎 🪟 🐧 - Search and discover AI agents, skills, prompts, bundles and MCP connectors from a curated
+          catalog of 4500+ assets.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: entire-vc/evc-spark-mcp
     html_url: https://github.com/entire-vc/evc-spark-mcp
-    created_at: "2026-02-19T13:19:02Z"
-    pushed_at: "2026-08-26T21:59:48Z"
+    created_at: '2026-02-19T13:19:02Z'
+    pushed_at: '2026-08-26T21:59:48Z'
     description: MCP server for the Spark workflow catalog. Use with Claude, ChatGPT, and other MCP clients
     homepage: https://spark.entire.vc
     topics:
@@ -44,13 +48,17 @@ metadata:
       - model-context-protocol
       - npm
       - workflow
-    last_checked_at: "2026-08-27T09:23:24.118Z"
+    last_checked_at: '2026-08-27T09:23:24.118Z'
     readme:
-      fetched_at: "2026-08-27T09:23:24.118Z"
+      fetched_at: '2026-08-27T09:23:24.118Z'
       bytes: 4056
 insights:
-  summary: MCP server that exposes the Spark workflow catalog (agents, skills, prompts, bundles, MCP connectors) to MCP-compatible clients like Claude, ChatGPT, and Cursor.
-  why_it_matters: Lets developers search and pull reusable AI workflow assets directly into their coding assistant sessions without leaving their editor or terminal.
+  summary: >-
+    MCP server that exposes the Spark workflow catalog (agents, skills, prompts, bundles, MCP connectors) to
+    MCP-compatible clients like Claude, ChatGPT, and Cursor.
+  why_it_matters: >-
+    Lets developers search and pull reusable AI workflow assets directly into their coding assistant sessions without
+    leaving their editor or terminal.
   mental_damage: Now you can recursively discover more MCP servers while already using an MCP server to discover MCP servers.
   tags:
     - mcp-server
@@ -61,33 +69,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server exposing a specific domain (Spark's catalog) to MCP clients."
+  reason: >-
+    MCP is the product identity: this is a dedicated MCP server exposing a specific domain (Spark's catalog) to MCP
+    clients.
   evidence:
     - Repo description explicitly states it is an MCP server for the Spark workflow catalog
     - README shows it is a standalone MCP server with tools for searching and retrieving catalog assets
     - Already listed in awesome-mcp-servers under Server Implementations > Aggregators
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Registries & Discovery
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.612Z"
+    updated_at: '2026-05-06T22:12:15.612Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-14T04:13:49.729Z"
+    updated_at: '2026-09-14T04:13:49.729Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for entire-vc/evc-spark-mcp
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:52:25.131Z"
+    updated_at: '2026-07-21T15:52:25.131Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -100,7 +111,9 @@ processing:
       input_hash: sha256:be01b1e38f7aef1106c2d8111e8a6197bd1b97c52f8304363ac75ec30c57d098
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing a specific domain (Spark's catalog) to MCP clients."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server exposing a specific domain (Spark's catalog) to MCP
+        clients.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for the Spark workflow catalog
         - README shows it is a standalone MCP server with tools for searching and retrieving catalog assets
@@ -108,6 +121,8 @@ processing:
       category_candidates:
         - mcp
         - awesome-awesomes
-      contrastive_reason: Choose mcp over awesome-awesomes because the primary product is an MCP server, not a directory or discovery index.
+      contrastive_reason: >-
+        Choose mcp over awesome-awesomes because the primary product is an MCP server, not a directory or discovery
+        index.
       review_reason: null
       review_resume_lifecycle: null

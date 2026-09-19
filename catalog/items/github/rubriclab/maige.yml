@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__rubriclab__maige__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,7 @@ provenance:
           - Maige
         anchor_text: Maige
         extracted_url: https://maige.app
-        surrounding_text: "## [Maige](https://maige.app)"
+        surrounding_text: '## [Maige](https://maige.app)'
         confidence: high
 metadata:
   github:
@@ -29,22 +29,28 @@ metadata:
     archived: false
     full_name: RubricLab/maige
     html_url: https://github.com/RubricLab/maige
-    created_at: "2023-03-10T19:01:53Z"
-    pushed_at: "2026-04-13T21:44:34Z"
+    created_at: '2023-03-10T19:01:53Z'
+    pushed_at: '2026-04-13T21:44:34Z'
     description: Open-source infrastructure for running natural language workflows on your codebase.
     homepage: https://maige.app
     topics:
       - ai
       - github
       - issues
-    last_checked_at: "2026-07-20T16:42:48.406Z"
+    last_checked_at: '2026-07-20T16:42:48.406Z'
     readme:
-      fetched_at: "2026-07-20T16:42:48.406Z"
+      fetched_at: '2026-07-20T16:42:48.406Z'
       bytes: 2265
 insights:
-  summary: Maige is an AI-powered GitHub App that automates repository maintenance tasks, such as managing issue labels and responding to natural language commands within issues and pull requests.
-  why_it_matters: It allows maintainers to offload routine repo management and triage directly to an AI agent that listens to GitHub events via webhooks.
-  mental_damage: Another opportunity to discover that your open-source workflow is now sufficiently complex to require an autonomous agent just to manage the issues you were pretending to fix.
+  summary: >-
+    Maige is an AI-powered GitHub App that automates repository maintenance tasks, such as managing issue labels and
+    responding to natural language commands within issues and pull requests.
+  why_it_matters: >-
+    It allows maintainers to offload routine repo management and triage directly to an AI agent that listens to GitHub
+    events via webhooks.
+  mental_damage: >-
+    Another opportunity to discover that your open-source workflow is now sufficiently complex to require an autonomous
+    agent just to manage the issues you were pretending to fix.
   tags:
     - github
     - automation
@@ -54,35 +60,41 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product is a GitHub App integration that adds automation capabilities to the repo/host layer rather than acting as a primary coding assistant that edits code.
+  reason: >-
+    The product is a GitHub App integration that adds automation capabilities to the repo/host layer rather than acting
+    as a primary coding assistant that edits code.
   evidence:
-    - Repo description states it is 'Open-source infrastructure for running natural language workflows on your codebase.'
-    - README demonstrates commands like 'maige assign me to this issue' and 'maige add the label...', focusing on issue/PR management rather than code editing.
-    - "GitHub App integration requires permissions only for 'Issue: Read & Write' and 'Pull Request: Read & Write'."
+    - >-
+      Repo description states it is 'Open-source infrastructure for running natural language workflows on your
+      codebase.'
+    - >-
+      README demonstrates commands like 'maige assign me to this issue' and 'maige add the label...', focusing on
+      issue/PR management rather than code editing.
+    - 'GitHub App integration requires permissions only for ''Issue: Read & Write'' and ''Pull Request: Read & Write''.'
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: extensions-and-addons
+  section: API & Service Integrations
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.646Z"
+    updated_at: '2026-05-06T22:12:15.646Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:48.406Z"
+    updated_at: '2026-07-20T16:42:48.406Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

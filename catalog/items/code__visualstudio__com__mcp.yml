@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__code__visualstudio__com__mcp__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - MCP Servers and Directories
         anchor_text: VS Code MCP Directory
         extracted_url: https://code.visualstudio.com/mcp
-        surrounding_text: "- **[VS Code MCP Directory](https://code.visualstudio.com/mcp)** – Official VS Code MCP directory."
+        surrounding_text: '- **[VS Code MCP Directory](https://code.visualstudio.com/mcp)** – Official VS Code MCP directory.'
         confidence: high
 metadata:
   github:
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: A centralized GitHub registry for discovering and integrating Model Context Protocol (MCP) servers.
-  why_it_matters: It provides a searchable directory of community-built tools that allow AI assistants to connect to external APIs, databases, and local filesystems.
-  mental_damage: Prepare to spend your afternoon installing twenty different servers just to give your LLM a slightly better sense of reality.
+  why_it_matters: >-
+    It provides a searchable directory of community-built tools that allow AI assistants to connect to external APIs,
+    databases, and local filesystems.
+  mental_damage: >-
+    Prepare to spend your afternoon installing twenty different servers just to give your LLM a slightly better sense of
+    reality.
   tags:
     - mcp
     - registry
@@ -55,6 +59,7 @@ curation:
     - Content consists of a searchable list of MCP servers from various providers
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Registries & Discovery
 lifecycle:
   status: incubating
@@ -62,7 +67,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +76,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:31:14.357Z"
+    updated_at: '2026-07-20T15:31:14.357Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -92,6 +97,8 @@ processing:
       category_candidates:
         - mcp
         - awesome-awesomes
-      contrastive_reason: Choose mcp over awesome-awesomes because the product is an operational registry for protocol tooling rather than a static curated list.
+      contrastive_reason: >-
+        Choose mcp over awesome-awesomes because the product is an operational registry for protocol tooling rather than
+        a static curated list.
       review_reason: null
       review_resume_lifecycle: null

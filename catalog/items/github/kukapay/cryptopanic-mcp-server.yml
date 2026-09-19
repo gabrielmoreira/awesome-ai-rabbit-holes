@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__cryptopanic-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/cryptopanic-mcp-server
         extracted_url: https://github.com/kukapay/cryptopanic-mcp-server
-        surrounding_text: "- [kukapay/cryptopanic-mcp-server](https://github.com/kukapay/cryptopanic-mcp-server) 🐍 ☁️ - Providing latest cryptocurrency news to AI agents, powered by CryptoPanic."
+        surrounding_text: >-
+          - [kukapay/cryptopanic-mcp-server](https://github.com/kukapay/cryptopanic-mcp-server) 🐍 ☁️ - Providing latest
+          cryptocurrency news to AI agents, powered by CryptoPanic.
         confidence: high
     - id: discovery__github__kukapay__cryptopanic-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - 💰 Finance & Fintech
         anchor_text: kukapay/cryptopanic-mcp-server
         extracted_url: https://github.com/kukapay/cryptopanic-mcp-server
-        surrounding_text: "-   **[kukapay/cryptopanic-mcp-server](https://github.com/kukapay/cryptopanic-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/kukapay/cryptopanic-mcp-server?style=social)](https://github.com/kukapay/cryptopanic-mcp-server): Delivers cryptocurrency news to AI agents via CryptoPanic."
+        surrounding_text: >-
+          -   **[kukapay/cryptopanic-mcp-server](https://github.com/kukapay/cryptopanic-mcp-server)** [![GitHub
+          stars](https://img.shields.io/github/stars/kukapay/cryptopanic-mcp-server?style=social)](https://github.com/kukapay/cryptopanic-mcp-server):
+          Delivers cryptocurrency news to AI agents via CryptoPanic.
         confidence: high
 metadata:
   github:
@@ -45,14 +50,14 @@ metadata:
     archived: false
     full_name: kukapay/cryptopanic-mcp-server
     html_url: https://github.com/kukapay/cryptopanic-mcp-server
-    created_at: "2025-03-10T23:37:16Z"
-    pushed_at: "2025-12-09T11:21:15Z"
+    created_at: '2025-03-10T23:37:16Z'
+    pushed_at: '2025-12-09T11:21:15Z'
     description: Provide latest cryptocurrency news to AI agents.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:59.917Z"
+    last_checked_at: '2026-07-30T05:05:59.917Z'
     readme:
-      fetched_at: "2026-07-30T05:05:59.917Z"
+      fetched_at: '2026-07-30T05:05:59.917Z'
       bytes: 1800
 insights:
   summary: An MCP server that provides cryptocurrency news to AI agents via the CryptoPanic API.
@@ -66,31 +71,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: it is a dedicated server exposing CryptoPanic news as a tool for AI agents."
+  reason: 'MCP is the product identity: it is a dedicated server exposing CryptoPanic news as a tool for AI agents.'
   evidence:
     - Repo description explicitly states it provides crypto news to AI agents
     - README shows it implements a single MCP tool (`get_crypto_news`)
     - Listed in awesome-mcp-list under Finance & Fintech
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.589Z"
+    updated_at: '2026-05-06T22:12:15.589Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:59.917Z"
+    updated_at: '2026-07-30T05:05:59.917Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:51.568Z"
+    updated_at: '2026-07-21T16:13:51.568Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -103,7 +109,7 @@ processing:
       input_hash: sha256:920e721f7278d8ae9b9e9268f1a377bd03c1d253689d1f3d06e6e75438d25e6d
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: it is a dedicated server exposing CryptoPanic news as a tool for AI agents."
+      decision_reason: 'MCP is the product identity: it is a dedicated server exposing CryptoPanic news as a tool for AI agents.'
       decision_evidence:
         - Repo description explicitly states it provides crypto news to AI agents
         - README shows it implements a single MCP tool (`get_crypto_news`)
@@ -111,6 +117,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the core identity is an MCP server, not a general context/retrieval system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the core identity is an MCP server, not a general context/retrieval
+        system.
       review_reason: null
       review_resume_lifecycle: null

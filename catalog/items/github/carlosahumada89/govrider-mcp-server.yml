@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__carlosahumada89__govrider-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: carlosahumada89/govrider-mcp-server
         extracted_url: https://github.com/carlosahumada89/govrider-mcp-server
-        surrounding_text: "-  [carlosahumada89/govrider-mcp-server](https://github.com/carlosahumada89/govrider-mcp-server) [![@carlosahumada89-govrider-mcp-server MCP server](https://glama.ai/mcp/servers/@carlosahumada89-govrider-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/@carlosahumada89-govrider-mcp-server) ☁️  📇 - Match your tech product or consulting service to thousands of live government tenders, RFPs, grants, and frameworks from 25+ official sources worldwide."
+        surrounding_text: >-
+          -  [carlosahumada89/govrider-mcp-server](https://github.com/carlosahumada89/govrider-mcp-server)
+          [![@carlosahumada89-govrider-mcp-server MCP
+          server](https://glama.ai/mcp/servers/@carlosahumada89-govrider-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/@carlosahumada89-govrider-mcp-server)
+          ☁️  📇 - Match your tech product or consulting service to thousands of live government tenders, RFPs, grants,
+          and frameworks from 25+ official sources worldwide.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: true
     full_name: carlosahumada89/govrider-mcp-server
     html_url: https://github.com/carlosahumada89/govrider-mcp-server
-    created_at: "2026-03-12T11:00:53Z"
-    pushed_at: "2026-03-12T22:59:03Z"
-    description: GovRider MCP Server - Match your tech product or consulting service to thousands of live government tenders, RFPs, grants, and frameworks from 25+ official sources worldwide
+    created_at: '2026-03-12T11:00:53Z'
+    pushed_at: '2026-03-12T22:59:03Z'
+    description: >-
+      GovRider MCP Server - Match your tech product or consulting service to thousands of live government tenders, RFPs,
+      grants, and frameworks from 25+ official sources worldwide
     homepage: https://www.govrider.ai
     topics:
       - ai-agents
@@ -44,13 +51,17 @@ metadata:
       - model-context-protocol
       - procurement
       - tenders
-    last_checked_at: "2026-09-07T04:13:41.560Z"
+    last_checked_at: '2026-09-07T04:13:41.560Z'
     readme:
-      fetched_at: "2026-09-07T04:13:41.560Z"
+      fetched_at: '2026-09-07T04:13:41.560Z'
       bytes: 7267
 insights:
-  summary: An MCP server that matches tech products or consulting services to live government tenders, RFPs, grants, and frameworks from 25+ official sources worldwide.
-  why_it_matters: Developers building or selling tech can quickly discover relevant government procurement opportunities without manual searching.
+  summary: >-
+    An MCP server that matches tech products or consulting services to live government tenders, RFPs, grants, and
+    frameworks from 25+ official sources worldwide.
+  why_it_matters: >-
+    Developers building or selling tech can quickly discover relevant government procurement opportunities without
+    manual searching.
   mental_damage: Now your AI agent can also be your government contract sales rep.
   tags:
     - mcp-server
@@ -61,31 +72,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose primary identity is providing domain-specific (government procurement) functionality via the Model Context Protocol.
+  reason: >-
+    The product is explicitly an MCP server whose primary identity is providing domain-specific (government procurement)
+    functionality via the Model Context Protocol.
   evidence:
     - Repo description identifies it as a GovRider MCP Server
     - README details MCP server installation and tools (search_opportunities, search_enriched, check_credits)
     - Listed in awesome-mcp-servers under Server Implementations > Aggregators
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.607Z"
+    updated_at: '2026-05-06T22:12:15.607Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:41.560Z"
+    updated_at: '2026-09-07T04:13:41.560Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:40:54.266Z"
+    updated_at: '2026-07-21T15:40:54.266Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -98,7 +111,9 @@ processing:
       input_hash: sha256:ba67901e1dc8a8e3b5bb5b8e7db4ddf85a13e21978681f8be98fbab5499a284f
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server whose primary identity is providing domain-specific (government procurement) functionality via the Model Context Protocol.
+      decision_reason: >-
+        The product is explicitly an MCP server whose primary identity is providing domain-specific (government
+        procurement) functionality via the Model Context Protocol.
       decision_evidence:
         - Repo description identifies it as a GovRider MCP Server
         - README details MCP server installation and tools (search_opportunities, search_enriched, check_credits)
@@ -106,6 +121,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server providing domain-specific data, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server providing domain-specific data, not
+        an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

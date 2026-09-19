@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__xmpuspus__cloudwright__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: xmpuspus/cloudwright
         extracted_url: https://github.com/xmpuspus/cloudwright
-        surrounding_text: "- [xmpuspus/cloudwright](https://github.com/xmpuspus/cloudwright) [![xmpuspus/cloudwright MCP server](https://glama.ai/mcp/servers/xmpuspus/cloudwright/badges/score.svg)](https://glama.ai/mcp/servers/xmpuspus/cloudwright) 🐍 ☁️ - Natural-language cloud architecture intelligence for AWS, GCP, Azure, and Databricks. 19 tools for architecture design, cost estimation, compliance validation (HIPAA, SOC 2, FedRAMP, GDPR, PCI-DSS, Well-Architected), security scanning, Terraform/CloudFormation export, and blast-radius analysis."
+        surrounding_text: >-
+          - [xmpuspus/cloudwright](https://github.com/xmpuspus/cloudwright) [![xmpuspus/cloudwright MCP
+          server](https://glama.ai/mcp/servers/xmpuspus/cloudwright/badges/score.svg)](https://glama.ai/mcp/servers/xmpuspus/cloudwright)
+          🐍 ☁️ - Natural-language cloud architecture intelligence for AWS, GCP, Azure, and Databricks. 19 tools for
+          architecture design, cost estimation, compliance validation (HIPAA, SOC 2, FedRAMP, GDPR, PCI-DSS,
+          Well-Architected), security scanning, Terraform/CloudFormation export, and blast-radius analysis.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: xmpuspus/cloudwright
     html_url: https://github.com/xmpuspus/cloudwright
-    created_at: "2026-02-28T09:31:01Z"
-    pushed_at: "2026-07-08T15:00:15Z"
-    description: AI-powered cloud architecture - describe infrastructure in natural language, get Terraform, cost estimates, and compliance reports
+    created_at: '2026-02-28T09:31:01Z'
+    pushed_at: '2026-07-08T15:00:15Z'
+    description: >-
+      AI-powered cloud architecture - describe infrastructure in natural language, get Terraform, cost estimates, and
+      compliance reports
     homepage: null
     topics:
       - ai
@@ -50,13 +57,17 @@ metadata:
       - natural-language
       - python
       - terraform
-    last_checked_at: "2026-07-21T15:21:18.205Z"
+    last_checked_at: '2026-07-21T15:21:18.205Z'
     readme:
-      fetched_at: "2026-07-21T15:21:18.205Z"
+      fetched_at: '2026-07-21T15:21:18.205Z'
       bytes: 21633
 insights:
-  summary: Cloudwright is a CLI tool that generates Terraform, cost estimates, and compliance reports from natural-language cloud architecture descriptions.
-  why_it_matters: It lets developers design and validate cloud infrastructure with a single prompt, reducing manual effort in IaC creation and compliance checks.
+  summary: >-
+    Cloudwright is a CLI tool that generates Terraform, cost estimates, and compliance reports from natural-language
+    cloud architecture descriptions.
+  why_it_matters: >-
+    It lets developers design and validate cloud infrastructure with a single prompt, reducing manual effort in IaC
+    creation and compliance checks.
   mental_damage: Finally, a way to outsource architecture anxiety to an LLM while still pretending you reviewed the Terraform output.
   tags:
     - cloud-architecture
@@ -66,31 +77,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Cloudwright turns natural-language prompts into deployable infrastructure code and diagrams, making it a prompt-to-infrastructure builder rather than a coding assistant or extension.
+  reason: >-
+    Cloudwright turns natural-language prompts into deployable infrastructure code and diagrams, making it a
+    prompt-to-infrastructure builder rather than a coding assistant or extension.
   evidence:
-    - "Repo description: 'AI-powered cloud architecture - describe infrastructure in natural language, get Terraform, cost estimates, and compliance reports'"
-    - "README: 'Prompt to spec, cost breakdown, compliance check, and Terraform in one pass' and 'cloudwright design \"HIPAA healthcare API on AWS with Postgres and Redis\"'"
+    - >-
+      Repo description: 'AI-powered cloud architecture - describe infrastructure in natural language, get Terraform,
+      cost estimates, and compliance reports'
+    - >-
+      README: 'Prompt to spec, cost breakdown, compliance check, and Terraform in one pass' and 'cloudwright design
+      "HIPAA healthcare API on AWS with Postgres and Redis"'
     - Generates Terraform, Pulumi, CloudFormation, diagrams, and compliance reports from a single CLI command
 placement:
-  primary_category: app-builders
-  section: Local / Code-Scaffolding Builders
+  primary_category: mcp
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.656Z"
+    updated_at: '2026-05-06T22:12:15.656Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:18.205Z"
+    updated_at: '2026-07-21T15:21:18.205Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-18T05:36:49.384Z"
+    updated_at: '2026-05-18T05:36:49.384Z'
     cause: null
     next_retry_at: null
     attempts: 3

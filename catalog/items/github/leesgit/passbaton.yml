@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__leesgit__claude-session-continuity-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: leesgit/claude-session-continuity-mcp
         extracted_url: https://github.com/leesgit/claude-session-continuity-mcp
-        surrounding_text: "- [leesgit/claude-session-continuity-mcp](https://github.com/leesgit/claude-session-continuity-mcp) [![claude-session-continuity-mcp MCP server](https://glama.ai/mcp/servers/leesgit/claude-session-continuity-mcp/badges/score.svg)](https://glama.ai/mcp/servers/leesgit/claude-session-continuity-mcp) 📇 🏠 🍎 🪟 🐧 - Zero-config session continuity for Claude Code. Auto-captures context via Claude Hooks, provides 25 tools for memory, tasks, solutions, and knowledge graph. Multilingual semantic search (94+ languages) with cross-language retrieval."
+        surrounding_text: >-
+          - [leesgit/claude-session-continuity-mcp](https://github.com/leesgit/claude-session-continuity-mcp)
+          [![claude-session-continuity-mcp MCP
+          server](https://glama.ai/mcp/servers/leesgit/claude-session-continuity-mcp/badges/score.svg)](https://glama.ai/mcp/servers/leesgit/claude-session-continuity-mcp)
+          📇 🏠 🍎 🪟 🐧 - Zero-config session continuity for Claude Code. Auto-captures context via Claude Hooks,
+          provides 25 tools for memory, tasks, solutions, and knowledge graph. Multilingual semantic search (94+
+          languages) with cross-language retrieval.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,12 @@ metadata:
     archived: false
     full_name: leesgit/passbaton
     html_url: https://github.com/leesgit/passbaton
-    created_at: "2026-01-26T07:45:27Z"
-    pushed_at: "2026-07-20T06:24:41Z"
-    description: "Session continuity for AI coding agents — your agent picks up where it left off. Persistent memory for Claude Code, OpenAI Codex CLI & Google Gemini CLI, sharing one local db: auto context injection, compaction handover, semantic search (KO/EN/JA), error→solution recall. 100% local, zero config, zero API cost."
+    created_at: '2026-01-26T07:45:27Z'
+    pushed_at: '2026-07-20T06:24:41Z'
+    description: >-
+      Session continuity for AI coding agents — your agent picks up where it left off. Persistent memory for Claude
+      Code, OpenAI Codex CLI & Google Gemini CLI, sharing one local db: auto context injection, compaction handover,
+      semantic search (KO/EN/JA), error→solution recall. 100% local, zero config, zero API cost.
     homepage: https://www.npmjs.com/package/passbaton
     topics:
       - agent-memory
@@ -55,14 +64,21 @@ metadata:
       - persistent-memory
       - session-continuity
       - sqlite
-    last_checked_at: "2026-07-30T05:06:04.584Z"
+    last_checked_at: '2026-07-30T05:06:04.584Z'
     readme:
-      fetched_at: "2026-07-30T05:06:04.584Z"
+      fetched_at: '2026-07-30T05:06:04.584Z'
       bytes: 30905
 insights:
-  summary: "Session continuity for AI coding agents — your agent picks up where it left off. Persistent memory for Claude Code, OpenAI Codex CLI & Google Gemini CLI, sharing one local db: auto context injection, compaction handover, semantic search (KO/EN/JA), error→solution recall."
-  why_it_matters: It reduces context loss between coding sessions, letting developers maintain persistent memory across agents without manual re-prompting or context rebuilding.
-  mental_damage: Finally, a way to feel less guilty about closing your terminal — until you realize your agent now remembers every dumb mistake you made last Tuesday.
+  summary: >-
+    Session continuity for AI coding agents — your agent picks up where it left off. Persistent memory for Claude Code,
+    OpenAI Codex CLI & Google Gemini CLI, sharing one local db: auto context injection, compaction handover, semantic
+    search (KO/EN/JA), error→solution recall.
+  why_it_matters: >-
+    It reduces context loss between coding sessions, letting developers maintain persistent memory across agents without
+    manual re-prompting or context rebuilding.
+  mental_damage: >-
+    Finally, a way to feel less guilty about closing your terminal — until you realize your agent now remembers every
+    dumb mistake you made last Tuesday.
   tags:
     - session-continuity
     - mcp
@@ -70,21 +86,30 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The core novelty is a context and memory system that captures, stores, and injects project state and error solutions into Claude Code sessions.
+  reason: >-
+    The core novelty is a context and memory system that captures, stores, and injects project state and error solutions
+    into Claude Code sessions.
   evidence:
-    - README explicitly positions it as automatic context capture, semantic search, and an error→solution pipeline for Claude Code.
-    - Architecture is an MCP server paired with Claude Hooks that track active files, decisions, commits, and error-fix pairs across the session lifecycle.
-    - Listed in awesome-mcp-servers under Knowledge & Memory, aligning with memory and context management rather than primary assistant or generic extension.
+    - >-
+      README explicitly positions it as automatic context capture, semantic search, and an error→solution pipeline for
+      Claude Code.
+    - >-
+      Architecture is an MCP server paired with Claude Hooks that track active files, decisions, commits, and error-fix
+      pairs across the session lifecycle.
+    - >-
+      Listed in awesome-mcp-servers under Knowledge & Memory, aligning with memory and context management rather than
+      primary assistant or generic extension.
 placement:
-  primary_category: context-engineering
-  section: null
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Context & Session Management
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'ai-dev-extensions'"
+  reason: 'Categorization review required: placement disagreement: retained ''context-engineering'', proposed ''ai-dev-extensions'''
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T16:15:26.426Z"
+    updated_at: '2026-07-21T16:15:26.426Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -97,24 +122,30 @@ processing:
       input_hash: sha256:df86c4566f21ef1cab0c12ee2b7d3e8f98c387b357d2a05bd5d13e1b5b39053a
       proposed_primary_category: ai-dev-extensions
       disagreement: true
-      decision_reason: It is primarily an integration layer that adds persistent memory and context injection to existing coding agents like Claude Code, Codex CLI, and Gemini CLI, rather than being a standalone coding assistant or framework.
+      decision_reason: >-
+        It is primarily an integration layer that adds persistent memory and context injection to existing coding agents
+        like Claude Code, Codex CLI, and Gemini CLI, rather than being a standalone coding assistant or framework.
       decision_evidence:
-        - "Repo description: 'Session continuity for AI coding agents — your agent picks up where it left off.'"
-        - "README: 'Persistent memory for Claude Code, OpenAI Codex CLI & Google Gemini CLI, sharing one local db.'"
-        - "Topics include: mcp, mcp-server, memory, context-injection, session-continuity"
+        - 'Repo description: ''Session continuity for AI coding agents — your agent picks up where it left off.'''
+        - 'README: ''Persistent memory for Claude Code, OpenAI Codex CLI & Google Gemini CLI, sharing one local db.'''
+        - 'Topics include: mcp, mcp-server, memory, context-injection, session-continuity'
       category_candidates:
         - ai-dev-extensions
         - context-engineering
-      contrastive_reason: Choose ai-dev-extensions over context-engineering because the main value is integrating with and augmenting existing coding agents via MCP, not inventing a novel memory or retrieval system.
-      review_reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'ai-dev-extensions'"
+      contrastive_reason: >-
+        Choose ai-dev-extensions over context-engineering because the main value is integrating with and augmenting
+        existing coding agents via MCP, not inventing a novel memory or retrieval system.
+      review_reason: >-
+        Categorization review required: placement disagreement: retained 'context-engineering', proposed
+        'ai-dev-extensions'
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.626Z"
+    updated_at: '2026-05-06T22:12:15.626Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:04.584Z"
+    updated_at: '2026-07-30T05:06:04.584Z'
     cause: null
     next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kiran1689__storyblok-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Community Servers
         anchor_text: Storyblok
         extracted_url: https://github.com/kiran1689/storyblok-mcp-server
-        surrounding_text: "- **[Storyblok](https://github.com/Kiran1689/storyblok-mcp-server)** - Storyblok MCP server enables your AI assistants to directly access and manage your Storyblok spaces, stories, components, assets, workflows, and more."
+        surrounding_text: >-
+          - **[Storyblok](https://github.com/Kiran1689/storyblok-mcp-server)** - Storyblok MCP server enables your AI
+          assistants to directly access and manage your Storyblok spaces, stories, components, assets, workflows, and
+          more.
         confidence: high
 metadata:
   github:
@@ -29,23 +32,29 @@ metadata:
     archived: false
     full_name: Kiran1689/storyblok-mcp-server
     html_url: https://github.com/Kiran1689/storyblok-mcp-server
-    created_at: "2025-06-21T13:13:50Z"
-    pushed_at: "2025-06-22T11:00:54Z"
-    description: A modular, extensible MCP Server for managing Storyblok spaces, stories, components, assets, workflows, and more via the Model Context Protocol (MCP).
-    homepage: ""
+    created_at: '2025-06-21T13:13:50Z'
+    pushed_at: '2025-06-22T11:00:54Z'
+    description: >-
+      A modular, extensible MCP Server for managing Storyblok spaces, stories, components, assets, workflows, and more
+      via the Model Context Protocol (MCP).
+    homepage: ''
     topics:
       - api
       - github
       - mcp
       - mcp-server
       - storyblok
-    last_checked_at: "2026-07-30T05:05:57.004Z"
+    last_checked_at: '2026-07-30T05:05:57.004Z'
     readme:
-      fetched_at: "2026-07-30T05:05:57.004Z"
+      fetched_at: '2026-07-30T05:05:57.004Z'
       bytes: 19048
 insights:
-  summary: An MCP server that enables AI assistants to manage Storyblok spaces, stories, components, assets, workflows, and more via the Model Context Protocol.
-  why_it_matters: Developers using Storyblok can now delegate CMS management tasks (CRUD operations on content, assets, workflows) directly to their AI assistants through MCP.
+  summary: >-
+    An MCP server that enables AI assistants to manage Storyblok spaces, stories, components, assets, workflows, and
+    more via the Model Context Protocol.
+  why_it_matters: >-
+    Developers using Storyblok can now delegate CMS management tasks (CRUD operations on content, assets, workflows)
+    directly to their AI assistants through MCP.
   mental_damage: Finally, a way to let your AI assistant argue with your content team about component schemas.
   tags:
     - mcp-server
@@ -56,31 +65,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server whose primary identity is exposing Storyblok's CMS capabilities through the Model Context Protocol.
+  reason: >-
+    This is a dedicated MCP server whose primary identity is exposing Storyblok's CMS capabilities through the Model
+    Context Protocol.
   evidence:
     - Repo description explicitly states it is an MCP Server for Storyblok
     - README details CRUD operations for Storyblok resources via MCP
     - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.624Z"
+    updated_at: '2026-05-06T22:12:15.624Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:57.004Z"
+    updated_at: '2026-07-30T05:05:57.004Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:12:40.549Z"
+    updated_at: '2026-07-21T16:12:40.549Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -93,7 +105,9 @@ processing:
       input_hash: sha256:fa8269b898575dd823b26a29fd0f9027f54a2f24b6ad3816fc579bd14930cffb
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a dedicated MCP server whose primary identity is exposing Storyblok's CMS capabilities through the Model Context Protocol.
+      decision_reason: >-
+        This is a dedicated MCP server whose primary identity is exposing Storyblok's CMS capabilities through the Model
+        Context Protocol.
       decision_evidence:
         - Repo description explicitly states it is an MCP Server for Storyblok
         - README details CRUD operations for Storyblok resources via MCP
@@ -101,6 +115,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gologinapp__gologin-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: GoLogin MCP server
         extracted_url: https://github.com/gologinapp/gologin-mcp
-        surrounding_text: "- **[GoLogin MCP server](https://github.com/gologinapp/gologin-mcp)** - Manage your GoLogin browser profiles and automation directly through AI conversations!"
+        surrounding_text: >-
+          - **[GoLogin MCP server](https://github.com/gologinapp/gologin-mcp)** - Manage your GoLogin browser profiles
+          and automation directly through AI conversations!
         confidence: high
 metadata:
   github:
@@ -29,19 +31,23 @@ metadata:
     archived: false
     full_name: gologinapp/gologin-mcp
     html_url: https://github.com/gologinapp/gologin-mcp
-    created_at: "2025-06-18T14:36:08Z"
-    pushed_at: "2026-06-19T11:39:47Z"
+    created_at: '2025-06-18T14:36:08Z'
+    pushed_at: '2026-06-19T11:39:47Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:51.352Z"
+    last_checked_at: '2026-09-03T05:16:51.352Z'
     readme:
-      fetched_at: "2026-09-03T05:16:51.352Z"
+      fetched_at: '2026-09-03T05:16:51.352Z'
       bytes: 4707
 insights:
   summary: An MCP server that lets AI assistants manage GoLogin browser profiles and automation via natural language.
-  why_it_matters: Developers can programmatically control browser profiles, proxies, and fingerprints through their AI assistant, enabling automated testing or workflows that require isolated browser sessions.
-  mental_damage: Now your AI can spin up disposable browser identities faster than you can explain to your PM why the login tests keep failing.
+  why_it_matters: >-
+    Developers can programmatically control browser profiles, proxies, and fingerprints through their AI assistant,
+    enabling automated testing or workflows that require isolated browser sessions.
+  mental_damage: >-
+    Now your AI can spin up disposable browser identities faster than you can explain to your PM why the login tests
+    keep failing.
   tags:
     - mcp
     - browser-automation
@@ -50,31 +56,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server exposing GoLogin's API as a context protocol tool."
+  reason: 'MCP is the product identity: this is a dedicated MCP server exposing GoLogin''s API as a context protocol tool.'
   evidence:
     - README explicitly describes it as an MCP server for GoLogin API
     - Configuration examples show MCP client integration (Claude Desktop, Cursor)
     - Listed in awesome-mcp-servers under Official Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.616Z"
+    updated_at: '2026-05-06T22:12:15.616Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:51.352Z"
+    updated_at: '2026-09-03T05:16:51.352Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:03:27.051Z"
+    updated_at: '2026-07-21T16:03:27.051Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,7 +94,7 @@ processing:
       input_hash: sha256:8b57a30aa6f8479dce8d8dedc26316078768fd73386610206dc8022e8d307196
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing GoLogin's API as a context protocol tool."
+      decision_reason: 'MCP is the product identity: this is a dedicated MCP server exposing GoLogin''s API as a context protocol tool.'
       decision_evidence:
         - README explicitly describes it as an MCP server for GoLogin API
         - Configuration examples show MCP client integration (Claude Desktop, Cursor)
@@ -95,6 +102,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

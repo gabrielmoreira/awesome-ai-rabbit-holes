@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agentscope-ai__openjudge__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,7 @@ provenance:
           - 微调 Fine-Tuning
         anchor_text: RM-Gallery
         extracted_url: https://github.com/modelscope/rm-gallery
-        surrounding_text: "44. [RM-Gallery](https://github.com/modelscope/RM-Gallery): A One-Stop Reward Model Platform."
+        surrounding_text: '44. [RM-Gallery](https://github.com/modelscope/RM-Gallery): A One-Stop Reward Model Platform.'
         confidence: high
 metadata:
   github:
@@ -29,9 +29,9 @@ metadata:
     archived: false
     full_name: agentscope-ai/OpenJudge
     html_url: https://github.com/agentscope-ai/OpenJudge
-    created_at: "2025-07-08T06:17:01Z"
-    pushed_at: "2026-09-11T07:11:09Z"
-    description: "OpenJudge: A Unified Framework for Holistic Evaluation and Quality Rewards"
+    created_at: '2025-07-08T06:17:01Z'
+    pushed_at: '2026-09-11T07:11:09Z'
+    description: 'OpenJudge: A Unified Framework for Holistic Evaluation and Quality Rewards'
     homepage: https://openjudge.me/
     topics:
       - agent
@@ -46,14 +46,20 @@ metadata:
       - rlhf
       - skill-md
       - skills
-    last_checked_at: "2026-09-17T04:13:33.451Z"
+    last_checked_at: '2026-09-17T04:13:33.451Z'
     readme:
-      fetched_at: "2026-09-17T04:13:33.451Z"
+      fetched_at: '2026-09-17T04:13:33.451Z'
       bytes: 22573
 insights:
-  summary: OpenJudge is an open-source evaluation framework designed to assess the quality of AI applications through automated graders and rubrics.
-  why_it_matters: It provides a structured way to move from 'vibes-based' testing to reproducible evaluation, allowing developers to turn grading results into reward signals for fine-tuning.
-  mental_damage: Nothing says professional development like moving from 'it feels like it works' to 'the automated grader says it's 72% compliant.'
+  summary: >-
+    OpenJudge is an open-source evaluation framework designed to assess the quality of AI applications through automated
+    graders and rubrics.
+  why_it_matters: >-
+    It provides a structured way to move from 'vibes-based' testing to reproducible evaluation, allowing developers to
+    turn grading results into reward signals for fine-tuning.
+  mental_damage: >-
+    Nothing says professional development like moving from 'it feels like it works' to 'the automated grader says it's
+    72% compliant.'
   tags:
     - evaluation
     - benchmarking
@@ -69,24 +75,25 @@ curation:
     - Includes specific benchmarks like 'PawBench' for agentic AI
 placement:
   primary_category: evals
-  section: Agent Benchmarks
+  secondary_categories: []
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: promotion_candidate
   reason: Stars (592) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.600Z"
+    updated_at: '2026-05-06T22:12:15.600Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:33.451Z"
+    updated_at: '2026-09-17T04:13:33.451Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:03:49.734Z"
+    updated_at: '2026-07-20T16:03:49.734Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -107,6 +114,8 @@ processing:
       category_candidates:
         - evals
         - ai-frameworks
-      contrastive_reason: Choose evals over ai-frameworks because the primary value proposition is measurement and scoring rather than providing general-purpose building blocks for application logic.
+      contrastive_reason: >-
+        Choose evals over ai-frameworks because the primary value proposition is measurement and scoring rather than
+        providing general-purpose building blocks for application logic.
       review_reason: null
       review_resume_lifecycle: null

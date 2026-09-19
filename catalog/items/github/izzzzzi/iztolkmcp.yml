@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__izzzzzi__iztolkmcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: izzzzzi/izTolkMcp
         extracted_url: https://github.com/izzzzzi/iztolkmcp
-        surrounding_text: "- [izzzzzi/izTolkMcp](https://github.com/izzzzzi/izTolkMcp) [![iz-tolk-mcp MCP server](https://glama.ai/mcp/servers/izzzzzi/iz-tolk-mcp/badges/score.svg)](https://glama.ai/mcp/servers/izzzzzi/iz-tolk-mcp) 📇 🏠 - MCP server for the Tolk smart contract compiler on TON blockchain. Compile, syntax-check, and generate deployment deeplinks for TON contracts directly from AI assistants."
+        surrounding_text: >-
+          - [izzzzzi/izTolkMcp](https://github.com/izzzzzi/izTolkMcp) [![iz-tolk-mcp MCP
+          server](https://glama.ai/mcp/servers/izzzzzi/iz-tolk-mcp/badges/score.svg)](https://glama.ai/mcp/servers/izzzzzi/iz-tolk-mcp)
+          📇 🏠 - MCP server for the Tolk smart contract compiler on TON blockchain. Compile, syntax-check, and generate
+          deployment deeplinks for TON contracts directly from AI assistants.
         confidence: high
 metadata:
   github:
@@ -30,18 +34,24 @@ metadata:
     archived: false
     full_name: izzzzzi/izTolkMcp
     html_url: https://github.com/izzzzzi/izTolkMcp
-    created_at: "2026-02-27T05:45:57Z"
-    pushed_at: "2026-06-19T22:42:57Z"
-    description: MCP server for Tolk smart contract compiler — compile, check, and deploy TON blockchain smart contracts from any MCP-compatible AI assistant
+    created_at: '2026-02-27T05:45:57Z'
+    pushed_at: '2026-06-19T22:42:57Z'
+    description: >-
+      MCP server for Tolk smart contract compiler — compile, check, and deploy TON blockchain smart contracts from any
+      MCP-compatible AI assistant
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:46.185Z"
+    last_checked_at: '2026-07-30T05:05:46.185Z'
     readme:
-      fetched_at: "2026-07-30T05:05:46.185Z"
+      fetched_at: '2026-07-30T05:05:46.185Z'
       bytes: 11084
 insights:
-  summary: MCP server that integrates the Tolk smart contract compiler for TON blockchain into AI assistants, enabling compile, check, and deploy workflows.
-  why_it_matters: Lets developers write, validate, and deploy TON smart contracts directly from MCP-compatible AI assistants without leaving the conversation.
+  summary: >-
+    MCP server that integrates the Tolk smart contract compiler for TON blockchain into AI assistants, enabling compile,
+    check, and deploy workflows.
+  why_it_matters: >-
+    Lets developers write, validate, and deploy TON smart contracts directly from MCP-compatible AI assistants without
+    leaving the conversation.
   mental_damage: Now your AI assistant can compile blockchain contracts while you pretend to understand the TON ecosystem.
   tags:
     - mcp
@@ -52,31 +62,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: a server that exposes Tolk compiler tools/resources to AI assistants via MCP."
+  reason: 'MCP is the product identity: a server that exposes Tolk compiler tools/resources to AI assistants via MCP.'
   evidence:
     - Repo description explicitly states it is an MCP server for Tolk compiler
     - README details 4 MCP tools, 6 resources, and 3 prompts for TON smart contract workflows
     - Listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.621Z"
+    updated_at: '2026-05-06T22:12:15.621Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:46.185Z"
+    updated_at: '2026-07-30T05:05:46.185Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:09:23.114Z"
+    updated_at: '2026-07-21T16:09:23.114Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +100,7 @@ processing:
       input_hash: sha256:ed076fa825c640d68cfab165b0fb37c940678f49490688f20a817198ab4424a8
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: a server that exposes Tolk compiler tools/resources to AI assistants via MCP."
+      decision_reason: 'MCP is the product identity: a server that exposes Tolk compiler tools/resources to AI assistants via MCP.'
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Tolk compiler
         - README details 4 MCP tools, 6 resources, and 3 prompts for TON smart contract workflows
@@ -97,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server exposing domain-specific compiler tools, not merely augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server exposing domain-specific compiler
+        tools, not merely augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

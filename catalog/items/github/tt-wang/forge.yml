@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tt-wang__forge__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,14 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: TT-Wang/forge
         extracted_url: https://github.com/tt-wang/forge
-        surrounding_text: "- [TT-Wang/forge](https://github.com/TT-Wang/forge) [![forge MCP server](https://glama.ai/mcp/servers/TT-Wang/forge/badges/score.svg)](https://glama.ai/mcp/servers/TT-Wang/forge) 📇 🏠 🍎 🪟 🐧 - Structured planning, parallel execution in git worktrees, and deep validation for Claude Code. Turns a one-line objective into a validated DAG of modules executed by worker agents, each self-checked and cross-module-reviewed before merge-back. 7 MCP tools: `validate`, `validate_plan`, `memory_recall`, `memory_save`, `iteration_state` (per-run scoped, with stagnation/velocity/oscillation detection), `forge_logs`, `session_state`. Stdio-only. Zero telemetry."
+        surrounding_text: >-
+          - [TT-Wang/forge](https://github.com/TT-Wang/forge) [![forge MCP
+          server](https://glama.ai/mcp/servers/TT-Wang/forge/badges/score.svg)](https://glama.ai/mcp/servers/TT-Wang/forge)
+          📇 🏠 🍎 🪟 🐧 - Structured planning, parallel execution in git worktrees, and deep validation for Claude
+          Code. Turns a one-line objective into a validated DAG of modules executed by worker agents, each self-checked
+          and cross-module-reviewed before merge-back. 7 MCP tools: `validate`, `validate_plan`, `memory_recall`,
+          `memory_save`, `iteration_state` (per-run scoped, with stagnation/velocity/oscillation detection),
+          `forge_logs`, `session_state`. Stdio-only. Zero telemetry.
         confidence: high
 metadata:
   github:
@@ -30,8 +37,8 @@ metadata:
     archived: false
     full_name: TT-Wang/forge
     html_url: https://github.com/TT-Wang/forge
-    created_at: "2026-03-31T17:14:22Z"
-    pushed_at: "2026-07-01T00:35:48Z"
+    created_at: '2026-03-31T17:14:22Z'
+    pushed_at: '2026-07-01T00:35:48Z'
     description: Turn Claude Code into a plan-execute-validate loop with parallel work, intelligent retry, and memory
     homepage: null
     topics:
@@ -50,14 +57,20 @@ metadata:
       - plugin
       - validation
       - workflow
-    last_checked_at: "2026-07-21T15:20:56.594Z"
+    last_checked_at: '2026-07-21T15:20:56.594Z'
     readme:
-      fetched_at: "2026-07-21T15:20:56.594Z"
+      fetched_at: '2026-07-21T15:20:56.594Z'
       bytes: 9390
 insights:
-  summary: A Claude Code plugin that wraps the assistant in a plan-execute-validate loop with parallel worktrees, intelligent retry, and cross-session memory.
-  why_it_matters: It turns open-ended prompting into a structured, resumable delivery workflow for multi-file features, with built-in validation and parallel execution so developers spend less time manually coordinating Claude Code.
-  mental_damage: Adding a project manager, QA loop, and institutional memory to a terminal chatbot is a sobering reminder of how quickly 'AI replaces developers' became 'developers babysit AI through Jira-like workstreams'.
+  summary: >-
+    A Claude Code plugin that wraps the assistant in a plan-execute-validate loop with parallel worktrees, intelligent
+    retry, and cross-session memory.
+  why_it_matters: >-
+    It turns open-ended prompting into a structured, resumable delivery workflow for multi-file features, with built-in
+    validation and parallel execution so developers spend less time manually coordinating Claude Code.
+  mental_damage: >-
+    Adding a project manager, QA loop, and institutional memory to a terminal chatbot is a sobering reminder of how
+    quickly 'AI replaces developers' became 'developers babysit AI through Jira-like workstreams'.
   tags:
     - claude-code
     - plugin
@@ -67,31 +80,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: It belongs as an extension because its entire identity is a workflow layer installed into Claude Code; it does not stand alone as the primary coding assistant.
+  reason: >-
+    It belongs as an extension because its entire identity is a workflow layer installed into Claude Code; it does not
+    stand alone as the primary coding assistant.
   evidence:
     - Repo description and README frame it as a Claude Code plugin installed via `claude plugin install`
-    - README states 'You still use Claude Code. Forge just adds structure around the hard parts.' showing it augments rather than replaces the host
-    - Core features are plan, parallel execution, validate, and retry workflows that augment the underlying assistant's existing capabilities
+    - >-
+      README states 'You still use Claude Code. Forge just adds structure around the hard parts.' showing it augments
+      rather than replaces the host
+    - >-
+      Core features are plan, parallel execution, validate, and retry workflows that augment the underlying assistant's
+      existing capabilities
 placement:
-  primary_category: ai-dev-extensions
-  section: IDE / UI / Workflow Add-ons
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: Claude Code & Agent Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.653Z"
+    updated_at: '2026-05-06T22:12:15.653Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:56.594Z"
+    updated_at: '2026-07-21T15:20:56.594Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-14T05:22:08.285Z"
+    updated_at: '2026-05-14T05:22:08.285Z'
     cause: null
     next_retry_at: null
     attempts: 2

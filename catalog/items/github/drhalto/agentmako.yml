@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__drhalto__agentmako__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: drhalto/agentmako
         extracted_url: https://github.com/drhalto/agentmako
-        surrounding_text: "- [drhalto/agentmako](https://github.com/drhalto/agentmako) [![drhalto/agentmako MCP server](https://glama.ai/mcp/servers/drhalto/agentmako/badges/score.svg)](https://glama.ai/mcp/servers/drhalto/agentmako) 📇 🏠 🍎 🪟 🐧 - Local-first codebase intelligence engine. Gives coding agents structured context packets, indexed code/schema facts, and diagnostics over MCP, backed by a local SQLite store — so agents stop rediscovering your repo with raw grep. Optional Postgres/Supabase awareness and a bundled Claude Code plugin."
+        surrounding_text: >-
+          - [drhalto/agentmako](https://github.com/drhalto/agentmako) [![drhalto/agentmako MCP
+          server](https://glama.ai/mcp/servers/drhalto/agentmako/badges/score.svg)](https://glama.ai/mcp/servers/drhalto/agentmako)
+          📇 🏠 🍎 🪟 🐧 - Local-first codebase intelligence engine. Gives coding agents structured context packets,
+          indexed code/schema facts, and diagnostics over MCP, backed by a local SQLite store — so agents stop
+          rediscovering your repo with raw grep. Optional Postgres/Supabase awareness and a bundled Claude Code plugin.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: drhalto/agentmako
     html_url: https://github.com/drhalto/agentmako
-    created_at: "2026-04-26T01:47:38Z"
-    pushed_at: "2026-07-26T21:36:48Z"
-    description: Local-first MCP server that gives coding agents structured context packets, code/schema facts, and diagnostics - backed by a local SQLite store.
+    created_at: '2026-04-26T01:47:38Z'
+    pushed_at: '2026-07-26T21:36:48Z'
+    description: >-
+      Local-first MCP server that gives coding agents structured context packets, code/schema facts, and diagnostics -
+      backed by a local SQLite store.
     homepage: https://agentmako.drhalto.com
     topics:
       - ai-coding
@@ -51,13 +58,17 @@ metadata:
       - sqlite
       - typescript
       - vibecoding
-    last_checked_at: "2026-09-14T04:13:44.473Z"
+    last_checked_at: '2026-09-14T04:13:44.473Z'
     readme:
-      fetched_at: "2026-09-14T04:13:44.473Z"
+      fetched_at: '2026-09-14T04:13:44.473Z'
       bytes: 10210
 insights:
-  summary: Local-first MCP server that provides coding agents with structured context packets, code/schema facts, and diagnostics via a local SQLite store.
-  why_it_matters: It accelerates coding agents by pre-indexing repos and serving relevant, typed context instead of forcing agents to rediscover everything via raw grep.
+  summary: >-
+    Local-first MCP server that provides coding agents with structured context packets, code/schema facts, and
+    diagnostics via a local SQLite store.
+  why_it_matters: >-
+    It accelerates coding agents by pre-indexing repos and serving relevant, typed context instead of forcing agents to
+    rediscover everything via raw grep.
   mental_damage: Finally, a tool that lets your AI assistant stop pretending it remembers your codebase between sessions.
   tags:
     - mcp-server
@@ -68,31 +79,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: it is a dedicated MCP server providing domain-specific (developer tools) capabilities."
+  reason: 'MCP is the product identity: it is a dedicated MCP server providing domain-specific (developer tools) capabilities.'
   evidence:
     - Repo description explicitly states it is a 'Local-first MCP server'
     - README emphasizes MCP toolset and server functionality as core offering
     - Already listed in awesome-mcp-servers under Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.612Z"
+    updated_at: '2026-05-06T22:12:15.612Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:44.473Z"
+    updated_at: '2026-09-14T04:13:44.473Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:41.940Z"
+    updated_at: '2026-07-21T15:51:41.940Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -105,7 +117,9 @@ processing:
       input_hash: sha256:cf8f4a25f08cd091e4093f10dff6fcd14a3f67747c6f60eb05e1940eac0af6e4
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: it is a dedicated MCP server providing domain-specific (developer tools) capabilities."
+      decision_reason: >-
+        MCP is the product identity: it is a dedicated MCP server providing domain-specific (developer tools)
+        capabilities.
       decision_evidence:
         - Repo description explicitly states it is a 'Local-first MCP server'
         - README emphasizes MCP toolset and server functionality as core offering
@@ -113,6 +127,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product's primary identity is as an MCP server, not just a context system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the product's primary identity is as an MCP server, not just a
+        context system.
       review_reason: null
       review_resume_lifecycle: null

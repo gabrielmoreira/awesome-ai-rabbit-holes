@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__migoxlab__dingo__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🧮 <a name="data-science-tools"></a>Data Science Tools
         anchor_text: DataEval/dingo
         extracted_url: https://github.com/dataeval/dingo
-        surrounding_text: "- [DataEval/dingo](https://github.com/DataEval/dingo) 🎖️ 🐍 🏠 🍎 🪟 🐧 - MCP server for the Dingo: a comprehensive data quality evaluation tool. Server Enables interaction with Dingo's rule-based and LLM-based evaluation capabilities and rules&prompts listing."
+        surrounding_text: >-
+          - [DataEval/dingo](https://github.com/DataEval/dingo) 🎖️ 🐍 🏠 🍎 🪟 🐧 - MCP server for the Dingo: a
+          comprehensive data quality evaluation tool. Server Enables interaction with Dingo's rule-based and LLM-based
+          evaluation capabilities and rules&prompts listing.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,9 @@ metadata:
     archived: false
     full_name: MigoXLab/dingo
     html_url: https://github.com/MigoXLab/dingo
-    created_at: "2024-12-24T05:59:24Z"
-    pushed_at: "2026-07-31T12:45:14Z"
-    description: "Dingo: A Comprehensive AI Data, Model and Application Quality Evaluation Tool"
+    created_at: '2024-12-24T05:59:24Z'
+    pushed_at: '2026-07-31T12:45:14Z'
+    description: 'Dingo: A Comprehensive AI Data, Model and Application Quality Evaluation Tool'
     homepage: https://dingo.openxlab.org.cn/
     topics:
       - agent-as-a-judge
@@ -55,14 +58,20 @@ metadata:
       - qwen
       - spark
       - vlm
-    last_checked_at: "2026-08-03T05:17:02.607Z"
+    last_checked_at: '2026-08-03T05:17:02.607Z'
     readme:
-      fetched_at: "2026-08-03T05:17:02.607Z"
+      fetched_at: '2026-08-03T05:17:02.607Z'
       bytes: 27377
 insights:
-  summary: Dingo is an open-source Python tool for evaluating AI data quality, model performance, and application reliability using LLM-as-a-judge and rule-based validation.
-  why_it_matters: It helps developers systematically detect hallucinations, validate training data, and assess RAG system quality before deployment.
-  mental_damage: Finally, a tool to quantify how much your AI is lying—now you can argue with stakeholders using metrics instead of gut feelings.
+  summary: >-
+    Dingo is an open-source Python tool for evaluating AI data quality, model performance, and application reliability
+    using LLM-as-a-judge and rule-based validation.
+  why_it_matters: >-
+    It helps developers systematically detect hallucinations, validate training data, and assess RAG system quality
+    before deployment.
+  mental_damage: >-
+    Finally, a tool to quantify how much your AI is lying—now you can argue with stakeholders using metrics instead of
+    gut feelings.
   tags:
     - data-quality
     - llm-as-judge
@@ -72,31 +81,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Dingo's core function is measuring and scoring data/model/application quality using LLMs and rules, making it an evaluation framework rather than a coding assistant or extension.
+  reason: >-
+    Dingo's core function is measuring and scoring data/model/application quality using LLMs and rules, making it an
+    evaluation framework rather than a coding assistant or extension.
   evidence:
-    - "Repo description: 'Dingo: A Comprehensive AI Data, Model and Application Quality Evaluation Tool'"
-    - "README: 'Comprehensive AI-powered data quality assessment platform for machine learning datasets, LLM training data validation, hallucination detection, and RAG system evaluation'"
-    - Features include LLM-as-a-judge, hallucination detection, RAG system assessment with academic metrics, and rule-based validation
+    - 'Repo description: ''Dingo: A Comprehensive AI Data, Model and Application Quality Evaluation Tool'''
+    - >-
+      README: 'Comprehensive AI-powered data quality assessment platform for machine learning datasets, LLM training
+      data validation, hallucination detection, and RAG system evaluation'
+    - >-
+      Features include LLM-as-a-judge, hallucination detection, RAG system assessment with academic metrics, and
+      rule-based validation
 placement:
   primary_category: evals
-  section: Safety / Fairness / Data Quality
+  secondary_categories: []
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: promotion_candidate
   reason: Stars (693) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.630Z"
+    updated_at: '2026-05-06T22:12:15.630Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:02.607Z"
+    updated_at: '2026-08-03T05:17:02.607Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:20:51.703Z"
+    updated_at: '2026-07-21T16:20:51.703Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -109,14 +125,22 @@ processing:
       input_hash: sha256:f5c44dc56cab3bee74e5d6aa9ec35b88948b392f44ce3aa8efd329e648d07516
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: Dingo's core function is measuring and scoring data/model/application quality using LLMs and rules, making it an evaluation framework rather than a coding assistant or extension.
+      decision_reason: >-
+        Dingo's core function is measuring and scoring data/model/application quality using LLMs and rules, making it an
+        evaluation framework rather than a coding assistant or extension.
       decision_evidence:
-        - "Repo description: 'Dingo: A Comprehensive AI Data, Model and Application Quality Evaluation Tool'"
-        - "README: 'Comprehensive AI-powered data quality assessment platform for machine learning datasets, LLM training data validation, hallucination detection, and RAG system evaluation'"
-        - Features include LLM-as-a-judge, hallucination detection, RAG system assessment with academic metrics, and rule-based validation
+        - 'Repo description: ''Dingo: A Comprehensive AI Data, Model and Application Quality Evaluation Tool'''
+        - >-
+          README: 'Comprehensive AI-powered data quality assessment platform for machine learning datasets, LLM training
+          data validation, hallucination detection, and RAG system evaluation'
+        - >-
+          Features include LLM-as-a-judge, hallucination detection, RAG system assessment with academic metrics, and
+          rule-based validation
       category_candidates:
         - evals
         - context-engineering
-      contrastive_reason: Choose evals over context-engineering because Dingo's primary job is measuring and scoring quality rather than shaping or retrieving context for models.
+      contrastive_reason: >-
+        Choose evals over context-engineering because Dingo's primary job is measuring and scoring quality rather than
+        shaping or retrieving context for models.
       review_reason: null
       review_resume_lifecycle: null

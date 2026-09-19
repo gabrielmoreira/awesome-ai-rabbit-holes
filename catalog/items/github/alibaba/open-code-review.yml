@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alibaba__open-code-review__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-08-20T04:18:00.401Z"
+      discovered_at: '2026-08-20T04:18:00.401Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,11 @@ provenance:
           - Agent infrastructure
         anchor_text: OpenCodeReview
         extracted_url: https://github.com/alibaba/open-code-review
-        surrounding_text: "- **[OpenCodeReview](https://github.com/alibaba/open-code-review)** `⭐ 20.6k` `[Alibaba]` — AI code review CLI (`ocr`) that runs on your local repo: reviews working-tree, branch, or commit diffs or scans whole files, with a tool-using agent that reads files and searches the codebase. Delegation mode hands the review to Claude Code, Codex, Cursor, or OpenCode instead of its own LLM. Go, Apache-2.0."
+        surrounding_text: >-
+          - **[OpenCodeReview](https://github.com/alibaba/open-code-review)** `⭐ 20.6k` `[Alibaba]` — AI code review CLI
+          (`ocr`) that runs on your local repo: reviews working-tree, branch, or commit diffs or scans whole files, with
+          a tool-using agent that reads files and searches the codebase. Delegation mode hands the review to Claude
+          Code, Codex, Cursor, or OpenCode instead of its own LLM. Go, Apache-2.0.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,12 @@ metadata:
     archived: false
     full_name: alibaba/open-code-review
     html_url: https://github.com/alibaba/open-code-review
-    created_at: "2026-05-18T02:16:36Z"
-    pushed_at: "2026-09-17T03:44:17Z"
-    description: "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible."
+    created_at: '2026-05-18T02:16:36Z'
+    pushed_at: '2026-09-17T03:44:17Z'
+    description: >-
+      Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines +
+      LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection),
+      OpenAI & Anthropic compatible.
     homepage: https://open-codereview.ai
     topics:
       - agent
@@ -41,14 +48,20 @@ metadata:
       - code-review-assistant
       - harness
       - repository-level-context
-    last_checked_at: "2026-09-17T04:13:40.702Z"
+    last_checked_at: '2026-09-17T04:13:40.702Z'
     readme:
-      fetched_at: "2026-09-17T04:13:40.702Z"
+      fetched_at: '2026-09-17T04:13:40.702Z'
       bytes: 13176
 insights:
-  summary: An AI-powered CLI tool that performs code reviews using a hybrid architecture of deterministic pipelines and LLM agents.
-  why_it_matters: It provides high-precision, line-level feedback and security vulnerability detection with significantly lower token consumption than general-purpose coding agents.
-  mental_damage: There is nothing quite like the feeling of a highly precise AI agent catching your thread-safety issues before your human colleagues can even finish their coffee.
+  summary: >-
+    An AI-powered CLI tool that performs code reviews using a hybrid architecture of deterministic pipelines and LLM
+    agents.
+  why_it_matters: >-
+    It provides high-precision, line-level feedback and security vulnerability detection with significantly lower token
+    consumption than general-purpose coding agents.
+  mental_damage: >-
+    There is nothing quite like the feeling of a highly precise AI agent catching your thread-safety issues before your
+    human colleagues can even finish their coffee.
   tags:
     - code-review
     - cli
@@ -58,31 +71,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a standalone CLI agent specialized for the code review workflow, performing automated analysis, security scanning, and line-level commenting.
+  reason: >-
+    It is a standalone CLI agent specialized for the code review workflow, performing automated analysis, security
+    scanning, and line-level commenting.
   evidence:
     - CLI tool that reads Git diffs and performs agentic reviews
     - Uses a hybrid architecture of deterministic rules and LLM agents
     - Claims higher precision and lower token usage than general-purpose agents like Claude Code
 placement:
   primary_category: coding-agents
-  section: Review, Testing & Repair Agents
+  secondary_categories: []
+  section: Review, Testing & Repair
 lifecycle:
   status: promotion_candidate
   reason: Stars (20896) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-08-20T04:18:00.403Z"
+    updated_at: '2026-08-20T04:18:00.403Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:40.702Z"
+    updated_at: '2026-09-17T04:13:40.702Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:24:48.252Z"
+    updated_at: '2026-08-27T06:24:48.252Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -91,7 +107,9 @@ processing:
       input_hash: sha256:591bebaf29931bb7581a2a110a3722927d079166984163eb64f10bc37483e64f
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: It is a standalone CLI agent specialized for the code review workflow, performing automated analysis, security scanning, and line-level commenting.
+      decision_reason: >-
+        It is a standalone CLI agent specialized for the code review workflow, performing automated analysis, security
+        scanning, and line-level commenting.
       decision_evidence:
         - CLI tool that reads Git diffs and performs agentic reviews
         - Uses a hybrid architecture of deterministic rules and LLM agents
@@ -99,7 +117,9 @@ processing:
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because the tool acts as a primary specialized agent for the review task rather than just an integration layer for another editor or assistant.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because the tool acts as a primary specialized agent for the review
+        task rather than just an integration layer for another editor or assistant.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

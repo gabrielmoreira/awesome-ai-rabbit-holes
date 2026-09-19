@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__blobcity__autoai__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,11 @@ provenance:
           - AutoML
         anchor_text: autoai
         extracted_url: https://github.com/blobcity/autoai
-        surrounding_text: "| [autoai](https://github.com/blobcity/autoai)                                 | A framework to find the best performing AI/ML model for any AI problem.                                                                                                         | ![GitHub Badge](https://img.shields.io/github/stars/blobcity/autoai.svg?style=flat-square)                 |"
+        surrounding_text: >-
+          | [autoai](https://github.com/blobcity/autoai)                                 | A framework to find the best
+          performing AI/ML model for any AI
+          problem.                                                                                                        
+          | ![GitHub Badge](https://img.shields.io/github/stars/blobcity/autoai.svg?style=flat-square)                 |
         confidence: high
 metadata:
   github:
@@ -29,10 +33,12 @@ metadata:
     archived: false
     full_name: blobcity/autoai
     html_url: https://github.com/blobcity/autoai
-    created_at: "2021-08-31T12:15:41Z"
-    pushed_at: "2025-03-25T01:40:10Z"
-    description: Python based framework for Automatic AI for Regression and Classification over numerical data. Performs model search, hyper-parameter tuning, and high-quality Jupyter Notebook code generation.
-    homepage: ""
+    created_at: '2021-08-31T12:15:41Z'
+    pushed_at: '2025-03-25T01:40:10Z'
+    description: >-
+      Python based framework for Automatic AI for Regression and Classification over numerical data. Performs model
+      search, hyper-parameter tuning, and high-quality Jupyter Notebook code generation.
+    homepage: ''
     topics:
       - ai
       - autoai
@@ -42,14 +48,20 @@ metadata:
       - machine-learning
       - ml
       - python
-    last_checked_at: "2026-09-07T04:13:35.792Z"
+    last_checked_at: '2026-09-07T04:13:35.792Z'
     readme:
-      fetched_at: "2026-09-07T04:13:35.792Z"
+      fetched_at: '2026-09-07T04:13:35.792Z'
       bytes: 8169
 insights:
-  summary: Python framework for AutoML that performs model search, hyper-parameter tuning, and generates Jupyter Notebook/Python code for regression and classification tasks on numerical data.
-  why_it_matters: It automates the end-to-end ML workflow for tabular data, including code generation, reducing the manual effort required for model selection and deployment.
-  mental_damage: Finally, a tool that writes your scikit-learn boilerplate so you can spend more time arguing about whether to use RandomForest or XGBoost.
+  summary: >-
+    Python framework for AutoML that performs model search, hyper-parameter tuning, and generates Jupyter
+    Notebook/Python code for regression and classification tasks on numerical data.
+  why_it_matters: >-
+    It automates the end-to-end ML workflow for tabular data, including code generation, reducing the manual effort
+    required for model selection and deployment.
+  mental_damage: >-
+    Finally, a tool that writes your scikit-learn boilerplate so you can spend more time arguing about whether to use
+    RandomForest or XGBoost.
   tags:
     - automl
     - code-generation
@@ -59,31 +71,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a code-first AutoML framework/SDK for developers to integrate into their workflows, not a primary coding assistant or hosted platform.
+  reason: >-
+    The product is a code-first AutoML framework/SDK for developers to integrate into their workflows, not a primary
+    coding assistant or hosted platform.
   evidence:
     - Repo description explicitly calls it a 'Python based framework for Automatic AI'
     - README emphasizes library usage (pip install, import blobcity) and code generation as core features
     - Source-list context places it in AutoML section of LLMOps tools
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  secondary_categories: []
+  section: LLM & Agent SDKs
 lifecycle:
   status: promotion_candidate
   reason: Stars (186) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:35.792Z"
+    updated_at: '2026-09-07T04:13:35.792Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:26:23.326Z"
+    updated_at: '2026-07-21T15:26:23.326Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -96,7 +111,9 @@ processing:
       input_hash: sha256:b53e566579519c4930385e50d14ca38595e7f6f7af20d0428a33b60cadbae2ba
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: The product is a code-first AutoML framework/SDK for developers to integrate into their workflows, not a primary coding assistant or hosted platform.
+      decision_reason: >-
+        The product is a code-first AutoML framework/SDK for developers to integrate into their workflows, not a primary
+        coding assistant or hosted platform.
       decision_evidence:
         - Repo description explicitly calls it a 'Python based framework for Automatic AI'
         - README emphasizes library usage (pip install, import blobcity) and code generation as core features
@@ -104,6 +121,8 @@ processing:
       category_candidates:
         - ai-frameworks
         - app-builders
-      contrastive_reason: Choose ai-frameworks over app-builders because the primary value is the ML framework/SDK for programmatic use, not prompt-to-app generation.
+      contrastive_reason: >-
+        Choose ai-frameworks over app-builders because the primary value is the ML framework/SDK for programmatic use,
+        not prompt-to-app generation.
       review_reason: null
       review_resume_lifecycle: null

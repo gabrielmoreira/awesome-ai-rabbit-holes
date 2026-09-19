@@ -5,8 +5,9 @@ canonical_url: https://microsoft.com/nl-nl/power-platform/products/power-apps
 identity: {}
 provenance:
   discoveries:
-    - id: discovery__microsoft__com__nl__nl__power__platform__products__power__apps__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-21T15:20:21.961Z"
+    - id: >-
+        discovery__microsoft__com__nl__nl__power__platform__products__power__apps__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +19,13 @@ provenance:
           - App Builders
         anchor_text: Microsoft Power Apps
         extracted_url: https://powerapps.microsoft.com
-        surrounding_text: "- **[Microsoft Power Apps](https://powerapps.microsoft.com/)** – Enterprise low-code platform with AI-powered app generation."
+        surrounding_text: >-
+          - **[Microsoft Power Apps](https://powerapps.microsoft.com/)** – Enterprise low-code platform with AI-powered
+          app generation.
         confidence: high
-    - id: discovery__www__microsoft__com__nl__nl__power__platform__products__power__apps__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+    - id: >-
+        discovery__www__microsoft__com__nl__nl__power__platform__products__power__apps__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +37,9 @@ provenance:
           - App Builders
         anchor_text: Microsoft Power Apps
         extracted_url: https://powerapps.microsoft.com
-        surrounding_text: "- **[Microsoft Power Apps](https://powerapps.microsoft.com/)** – Enterprise low-code platform with AI-powered app generation."
+        surrounding_text: >-
+          - **[Microsoft Power Apps](https://powerapps.microsoft.com/)** – Enterprise low-code platform with AI-powered
+          app generation.
         confidence: high
 metadata:
   github:
@@ -52,8 +58,12 @@ metadata:
     readme: null
 insights:
   summary: Microsoft Power Apps is a low-code platform for building custom business apps with AI assistance.
-  why_it_matters: It enables developers and non-developers to rapidly create enterprise apps using drag-and-drop, generative AI, or custom code.
-  mental_damage: The promise of turning natural language into enterprise apps collides with the reality of governance, connectors, and Dataverse.
+  why_it_matters: >-
+    It enables developers and non-developers to rapidly create enterprise apps using drag-and-drop, generative AI, or
+    custom code.
+  mental_damage: >-
+    The promise of turning natural language into enterprise apps collides with the reality of governance, connectors,
+    and Dataverse.
   tags:
     - low-code
     - enterprise
@@ -69,14 +79,15 @@ curation:
     - README excerpt emphasizes building apps via natural language, templates, and AI assistance
 placement:
   primary_category: app-builders
-  section: Prompt-to-App Builders
+  secondary_categories: []
+  section: Full App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:35:32.158Z"
+    updated_at: '2026-07-21T15:35:32.158Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +100,9 @@ processing:
       input_hash: sha256:967ebd701470f8bb93813339689905c95c72e7df75159bf597f4b26c2e8fac76
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The core product turns prompts and low-code tools into deployed business apps, fitting the App Builders category.
+      decision_reason: >-
+        The core product turns prompts and low-code tools into deployed business apps, fitting the App Builders
+        category.
       decision_evidence:
         - Source-list context places it in App Builders section of awesome-ai-coding-tools
         - Scraped site context describes it as a low-code AI app developer for custom business apps
@@ -97,12 +110,14 @@ processing:
       category_candidates:
         - app-builders
         - ai-frameworks
-      contrastive_reason: Choose app-builders over ai-frameworks because the primary surface is prompt-to-app generation rather than code-first SDK usage.
+      contrastive_reason: >-
+        Choose app-builders over ai-frameworks because the primary surface is prompt-to-app generation rather than
+        code-first SDK usage.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.967Z"
+    updated_at: '2026-07-21T15:20:21.967Z'
     cause: null
     next_retry_at: null
   stars:

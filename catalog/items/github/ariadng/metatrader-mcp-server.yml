@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ariadng__metatrader-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: ariadng/metatrader-mcp-server
         extracted_url: https://github.com/ariadng/metatrader-mcp-server
-        surrounding_text: "- [ariadng/metatrader-mcp-server](https://github.com/ariadng/metatrader-mcp-server) 🐍 🏠 🪟 - Enable AI LLMs to execute trades using MetaTrader 5 platform"
+        surrounding_text: >-
+          - [ariadng/metatrader-mcp-server](https://github.com/ariadng/metatrader-mcp-server) 🐍 🏠 🪟 - Enable AI LLMs
+          to execute trades using MetaTrader 5 platform
         confidence: high
 metadata:
   github:
@@ -30,10 +32,10 @@ metadata:
     archived: false
     full_name: ariadng/metatrader-mcp-server
     html_url: https://github.com/ariadng/metatrader-mcp-server
-    created_at: "2025-04-10T09:15:15Z"
-    pushed_at: "2026-03-28T18:39:29Z"
+    created_at: '2025-04-10T09:15:15Z'
+    pushed_at: '2026-03-28T18:39:29Z'
     description: Model Context Protocol (MCP) to enable AI LLMs to trade using MetaTrader platform
-    homepage: ""
+    homepage: ''
     topics:
       - ai
       - finance
@@ -43,13 +45,17 @@ metadata:
       - metatrader
       - quantitative-finance
       - trading
-    last_checked_at: "2026-09-10T04:12:58.292Z"
+    last_checked_at: '2026-09-10T04:12:58.292Z'
     readme:
-      fetched_at: "2026-09-10T04:12:58.292Z"
+      fetched_at: '2026-09-10T04:12:58.292Z'
       bytes: 23135
 insights:
-  summary: An MCP server that enables AI assistants to interact with the MetaTrader 5 trading platform for executing trades and retrieving market data.
-  why_it_matters: Developers and traders can automate trading workflows by delegating natural language commands to AI assistants, bridging AI capabilities with financial market operations.
+  summary: >-
+    An MCP server that enables AI assistants to interact with the MetaTrader 5 trading platform for executing trades and
+    retrieving market data.
+  why_it_matters: >-
+    Developers and traders can automate trading workflows by delegating natural language commands to AI assistants,
+    bridging AI capabilities with financial market operations.
   mental_damage: Now your AI can lose money for you in real-time, just like a human trader.
   tags:
     - mcp
@@ -60,31 +66,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is as an MCP server providing domain-specific (finance/trading) capabilities, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product's core identity is as an MCP server providing domain-specific (finance/trading) capabilities, fitting
+    the MCP Servers & Tooling category.
   evidence:
     - Repo description explicitly states it is an MCP server for MetaTrader
     - README confirms it connects AI assistants to MetaTrader 5 via MCP
     - Already listed in awesome-mcp-servers under Finance & Fintech
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: promotion_candidate
   reason: Stars (238) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.603Z"
+    updated_at: '2026-05-06T22:12:15.603Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:12:58.292Z"
+    updated_at: '2026-09-10T04:12:58.292Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:23:52.036Z"
+    updated_at: '2026-07-21T15:23:52.036Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -97,7 +106,9 @@ processing:
       input_hash: sha256:db8d0ae870e6d4a6303824746cb2b95a49348026be693b5ed29fd44a7a6b4bea
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is as an MCP server providing domain-specific (finance/trading) capabilities, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product's core identity is as an MCP server providing domain-specific (finance/trading) capabilities,
+        fitting the MCP Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for MetaTrader
         - README confirms it connects AI assistants to MetaTrader 5 via MCP
@@ -105,6 +116,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary product identity is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary product identity is an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

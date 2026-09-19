@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sharozdawa__ai-visibility__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: sharozdawa/ai-visibility
         extracted_url: https://github.com/sharozdawa/ai-visibility
-        surrounding_text: "- [sharozdawa/ai-visibility](https://github.com/sharozdawa/ai-visibility) [![ai-visibility MCP server](https://glama.ai/mcp/servers/sharozdawa/ai-visibility/badges/score.svg)](https://glama.ai/mcp/servers/sharozdawa/ai-visibility) 📇 🏠 - Track brand visibility across ChatGPT, Perplexity, Claude, and Gemini. Visibility scores, sentiment analysis, competitor detection, and trend charts."
+        surrounding_text: >-
+          - [sharozdawa/ai-visibility](https://github.com/sharozdawa/ai-visibility) [![ai-visibility MCP
+          server](https://glama.ai/mcp/servers/sharozdawa/ai-visibility/badges/score.svg)](https://glama.ai/mcp/servers/sharozdawa/ai-visibility)
+          📇 🏠 - Track brand visibility across ChatGPT, Perplexity, Claude, and Gemini. Visibility scores, sentiment
+          analysis, competitor detection, and trend charts.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: sharozdawa/ai-visibility
     html_url: https://github.com/sharozdawa/ai-visibility
-    created_at: "2026-03-21T12:40:50Z"
-    pushed_at: "2026-03-22T09:30:13Z"
-    description: Track your brand visibility across ChatGPT, Perplexity, Claude, and Gemini. Open source alternative to Otterly/AthenaHQ.
+    created_at: '2026-03-21T12:40:50Z'
+    pushed_at: '2026-03-22T09:30:13Z'
+    description: >-
+      Track your brand visibility across ChatGPT, Perplexity, Claude, and Gemini. Open source alternative to
+      Otterly/AthenaHQ.
     homepage: null
     topics:
       - aeo
@@ -45,14 +51,20 @@ metadata:
       - open-source
       - perplexity
       - seo
-    last_checked_at: "2026-07-20T16:42:55.429Z"
+    last_checked_at: '2026-07-20T16:42:55.429Z'
     readme:
-      fetched_at: "2026-07-20T16:42:55.429Z"
+      fetched_at: '2026-07-20T16:42:55.429Z'
       bytes: 6852
 insights:
-  summary: An open-source MCP server and web dashboard that tracks a brand's visibility, sentiment, and positioning across ChatGPT, Perplexity, Claude, and Gemini.
-  why_it_matters: Developers building AI-native products can quantitatively measure how LLMs perceive their brand and get actionable recommendations to improve their presence in model outputs.
-  mental_damage: We have officially entered the era where SEO has evolved into AEO, and now you need an npm package to find out if Claude thinks your startup is 'moderate' or 'very low'.
+  summary: >-
+    An open-source MCP server and web dashboard that tracks a brand's visibility, sentiment, and positioning across
+    ChatGPT, Perplexity, Claude, and Gemini.
+  why_it_matters: >-
+    Developers building AI-native products can quantitatively measure how LLMs perceive their brand and get actionable
+    recommendations to improve their presence in model outputs.
+  mental_damage: >-
+    We have officially entered the era where SEO has evolved into AEO, and now you need an npm package to find out if
+    Claude thinks your startup is 'moderate' or 'very low'.
   tags:
     - mcp
     - marketing
@@ -62,35 +74,41 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server (ai-visibility-mcp) that integrates with Claude Desktop and Cursor to provide brand tracking tools, fitting the Domain Servers section.
+  reason: >-
+    The product's primary identity is an MCP server (ai-visibility-mcp) that integrates with Claude Desktop and Cursor
+    to provide brand tracking tools, fitting the Domain Servers section.
   evidence:
-    - README explicitly provides MCP installation instructions for Claude Desktop and Cursor and lists MCP tools like `check_brand_visibility`.
-    - Repo description identifies it as an 'Open source alternative to Otterly/AthenaHQ' for tracking brands across AI platforms.
+    - >-
+      README explicitly provides MCP installation instructions for Claude Desktop and Cursor and lists MCP tools like
+      `check_brand_visibility`.
+    - >-
+      Repo description identifies it as an 'Open source alternative to Otterly/AthenaHQ' for tracking brands across AI
+      platforms.
     - Listed in awesome-mcp-servers under the 'Marketing' section, confirming its identity as an MCP server.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.647Z"
+    updated_at: '2026-05-06T22:12:15.647Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:55.429Z"
+    updated_at: '2026-07-20T16:42:55.429Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

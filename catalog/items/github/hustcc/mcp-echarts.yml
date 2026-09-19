@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hustcc__mcp-echarts__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
         anchor_text: hustcc/mcp-echarts
         extracted_url: https://github.com/hustcc/mcp-echarts
-        surrounding_text: "- [hustcc/mcp-echarts](https://github.com/hustcc/mcp-echarts) 📇 🏠 - Generate visual charts using [Apache ECharts](https://echarts.apache.org) with AI MCP dynamically."
+        surrounding_text: >-
+          - [hustcc/mcp-echarts](https://github.com/hustcc/mcp-echarts) 📇 🏠 - Generate visual charts using [Apache
+          ECharts](https://echarts.apache.org) with AI MCP dynamically.
         confidence: high
     - id: discovery__github__hustcc__mcp-echarts__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +37,9 @@ provenance:
           - Official Servers
         anchor_text: ECharts
         extracted_url: https://github.com/hustcc/mcp-echarts
-        surrounding_text: "- **[ECharts](https://github.com/hustcc/mcp-echarts)** - Generate visual charts using [ECharts](https://echarts.apache.org) with AI MCP dynamically, used for chart generation and data analysis."
+        surrounding_text: >-
+          - **[ECharts](https://github.com/hustcc/mcp-echarts)** - Generate visual charts using
+          [ECharts](https://echarts.apache.org) with AI MCP dynamically, used for chart generation and data analysis.
         confidence: high
 metadata:
   github:
@@ -45,8 +49,8 @@ metadata:
     archived: false
     full_name: hustcc/mcp-echarts
     html_url: https://github.com/hustcc/mcp-echarts
-    created_at: "2025-07-10T01:29:54Z"
-    pushed_at: "2026-01-30T15:36:37Z"
+    created_at: '2025-07-10T01:29:54Z'
+    pushed_at: '2026-01-30T15:36:37Z'
     description: 🧬 Generate visual charts using ECharts with AI MCP dynamically, used for chart generation and data analysis.
     homepage: https://github.com/hustcc/mcp-echarts
     topics:
@@ -54,13 +58,15 @@ metadata:
       - llm
       - mcp
       - mcp-server
-    last_checked_at: "2026-07-30T05:05:40.380Z"
+    last_checked_at: '2026-07-30T05:05:40.380Z'
     readme:
-      fetched_at: "2026-07-30T05:05:40.380Z"
+      fetched_at: '2026-07-30T05:05:40.380Z'
       bytes: 6986
 insights:
   summary: An MCP server that dynamically generates ECharts visualizations for chart generation and data analysis.
-  why_it_matters: Developers can integrate AI-driven chart creation into their workflows via MCP, enabling programmatic visualization without manual ECharts configuration.
+  why_it_matters: >-
+    Developers can integrate AI-driven chart creation into their workflows via MCP, enabling programmatic visualization
+    without manual ECharts configuration.
   mental_damage: Now your AI can generate charts you’ll spend hours tweaking anyway, but at least the first draft is free.
   tags:
     - mcp-server
@@ -70,31 +76,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server for ECharts visualization, fitting the MCP Servers & Tooling category where MCP is the primary adopted thing.
+  reason: >-
+    The product's core identity is an MCP server for ECharts visualization, fitting the MCP Servers & Tooling category
+    where MCP is the primary adopted thing.
   evidence:
     - Repo description explicitly states it is an MCP server for ECharts
     - README highlights MCP compatibility and usage with desktop apps (Claude, VSCode, etc.)
     - Listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: promotion_candidate
   reason: Stars (227) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.587Z"
+    updated_at: '2026-05-06T22:12:15.587Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:40.380Z"
+    updated_at: '2026-07-30T05:05:40.380Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:07:07.932Z"
+    updated_at: '2026-07-21T16:07:07.932Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -107,7 +115,9 @@ processing:
       input_hash: sha256:332db3fa8a323dc59fef662e965b218c6f3c9f3b7feca8b74ad70636a19bd500
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP server for ECharts visualization, fitting the MCP Servers & Tooling category where MCP is the primary adopted thing.
+      decision_reason: >-
+        The product's core identity is an MCP server for ECharts visualization, fitting the MCP Servers & Tooling
+        category where MCP is the primary adopted thing.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for ECharts
         - README highlights MCP compatibility and usage with desktop apps (Claude, VSCode, etc.)
@@ -115,6 +125,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary product identity is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary product identity is an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__uilicious__english-compiler__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,7 @@ provenance:
           - English Compiler
         anchor_text: English Compiler
         extracted_url: https://github.com/uilicious/english-compiler
-        surrounding_text: "## [English Compiler](https://github.com/uilicious/english-compiler)"
+        surrounding_text: '## [English Compiler](https://github.com/uilicious/english-compiler)'
         confidence: high
 metadata:
   github:
@@ -29,19 +29,25 @@ metadata:
     archived: false
     full_name: uilicious/english-compiler
     html_url: https://github.com/uilicious/english-compiler
-    created_at: "2023-02-17T09:48:14Z"
-    pushed_at: "2024-02-05T12:40:52Z"
+    created_at: '2023-02-17T09:48:14Z'
+    pushed_at: '2024-02-05T12:40:52Z'
     description: POC AI based Compiler, for converting english based markdown specs, into functional code
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:20:58.411Z"
+    last_checked_at: '2026-07-21T15:20:58.411Z'
     readme:
-      fetched_at: "2026-07-21T15:20:58.411Z"
+      fetched_at: '2026-07-21T15:20:58.411Z'
       bytes: 9497
 insights:
-  summary: English Compiler is a proof-of-concept CLI tool that compiles English-language Markdown specifications into functional code via chained AI prompts.
-  why_it_matters: It demonstrates a speculative workflow where developers delegate full code generation to AI based solely on natural-language specs, skipping manual coding.
-  mental_damage: It highlights the absurdity of trading readable, version-controlled code for brittle, slow, and opaque AI-generated output that requires re-prompting to fix.
+  summary: >-
+    English Compiler is a proof-of-concept CLI tool that compiles English-language Markdown specifications into
+    functional code via chained AI prompts.
+  why_it_matters: >-
+    It demonstrates a speculative workflow where developers delegate full code generation to AI based solely on
+    natural-language specs, skipping manual coding.
+  mental_damage: >-
+    It highlights the absurdity of trading readable, version-controlled code for brittle, slow, and opaque AI-generated
+    output that requires re-prompting to fix.
   tags:
     - spec-driven
     - code-generation
@@ -49,31 +55,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The tool treats English Markdown specs as the primary artifact driving code generation, fitting a spec-first development loop despite being a POC.
+  reason: >-
+    The tool treats English Markdown specs as the primary artifact driving code generation, fitting a spec-first
+    development loop despite being a POC.
   evidence:
-    - "Repo description: 'POC AI based Compiler, for converting english based markdown specs, into functional code'"
-    - "README: 'What if, instead of writing code from functional specs, we simply compile it directly to code?'"
+    - 'Repo description: ''POC AI based Compiler, for converting english based markdown specs, into functional code'''
+    - 'README: ''What if, instead of writing code from functional specs, we simply compile it directly to code?'''
     - Usage involves creating *.spec.md files and running `english-compiler build all` to generate code from specs
 placement:
-  primary_category: spec-driven-development
-  section: Spec-First Environments
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Spec-First & Plan-Execute
 lifecycle:
   status: promotion_candidate
   reason: Stars (296) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.653Z"
+    updated_at: '2026-05-06T22:12:15.653Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:58.411Z"
+    updated_at: '2026-07-21T15:20:58.411Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:18:00.624Z"
+    updated_at: '2026-05-12T15:18:00.624Z'
     cause: null
     next_retry_at: null
     attempts: 1

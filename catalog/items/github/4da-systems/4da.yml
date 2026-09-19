@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__4da-systems__4da__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-22T05:53:30.454Z"
+      discovered_at: '2026-06-22T05:53:30.454Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,14 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: runyourempire/4DA
         extracted_url: https://github.com/runyourempire/4da
-        surrounding_text: "- [runyourempire/4DA](https://github.com/runyourempire/4DA/tree/main/mcp-4da-server) [![runyourempire/4DA MCP server](https://glama.ai/mcp/servers/runyourempire/4DA/badges/score.svg)](https://glama.ai/mcp/servers/runyourempire/4DA) 📇 🏠 🍎 🪟 🐧 - Dependency intelligence for AI coding agents. Live CVE scanning, dependency health, upgrade planning, ecosystem news, and decision memory. 14 tools, zero config, privacy-first."
+        surrounding_text: >-
+          - [runyourempire/4DA](https://github.com/runyourempire/4DA/tree/main/mcp-4da-server) [![runyourempire/4DA MCP
+          server](https://glama.ai/mcp/servers/runyourempire/4DA/badges/score.svg)](https://glama.ai/mcp/servers/runyourempire/4DA)
+          📇 🏠 🍎 🪟 🐧 - Dependency intelligence for AI coding agents. Live CVE scanning, dependency health, upgrade
+          planning, ecosystem news, and decision memory. 14 tools, zero config, privacy-first.
         confidence: high
     - id: discovery__github__runyourempire__4da__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -36,7 +40,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: runyourempire/4DA
         extracted_url: https://github.com/runyourempire/4da
-        surrounding_text: "- [runyourempire/4DA](https://github.com/runyourempire/4DA/tree/main/mcp-4da-server) [![runyourempire/4DA MCP server](https://glama.ai/mcp/servers/runyourempire/4DA/badges/score.svg)](https://glama.ai/mcp/servers/runyourempire/4DA) 📇 🏠 🍎 🪟 🐧 - Dependency intelligence for AI coding agents. Live CVE scanning, dependency health, upgrade planning, ecosystem news, and decision memory. 14 tools, zero config, privacy-first."
+        surrounding_text: >-
+          - [runyourempire/4DA](https://github.com/runyourempire/4DA/tree/main/mcp-4da-server) [![runyourempire/4DA MCP
+          server](https://glama.ai/mcp/servers/runyourempire/4DA/badges/score.svg)](https://glama.ai/mcp/servers/runyourempire/4DA)
+          📇 🏠 🍎 🪟 🐧 - Dependency intelligence for AI coding agents. Live CVE scanning, dependency health, upgrade
+          planning, ecosystem news, and decision memory. 14 tools, zero config, privacy-first.
         confidence: high
 metadata:
   github:
@@ -46,8 +54,8 @@ metadata:
     archived: false
     full_name: 4DA-Systems/4DA
     html_url: https://github.com/4DA-Systems/4DA
-    created_at: "2026-01-19T15:40:48Z"
-    pushed_at: "2026-09-14T06:10:36Z"
+    created_at: '2026-01-19T15:40:48Z'
+    pushed_at: '2026-09-14T06:10:36Z'
     description: Privacy-first developer intelligence — surfaces what matters from the noise
     homepage: https://4da.ai
     topics:
@@ -65,13 +73,15 @@ metadata:
       - sqlite
       - tauri
       - typescript
-    last_checked_at: "2026-09-17T04:13:26.274Z"
+    last_checked_at: '2026-09-17T04:13:26.274Z'
     readme:
-      fetched_at: "2026-09-17T04:13:26.274Z"
+      fetched_at: '2026-09-17T04:13:26.274Z'
       bytes: 18161
 insights:
   summary: A privacy-first tool that filters internet technical news and advisories based on a local codebase.
-  why_it_matters: It surfaces only the security alerts, dependency updates, and technical news that are directly relevant to your specific project stack.
+  why_it_matters: >-
+    It surfaces only the security alerts, dependency updates, and technical news that are directly relevant to your
+    specific project stack.
   mental_damage: You'll eventually spend more time fine-tuning the relevance scoring than actually reading the signal it surfaces.
   tags:
     - privacy
@@ -82,21 +92,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It acts as a specialized retrieval and context-shaping layer that filters technical noise into stack-specific signal.
+  reason: >-
+    It acts as a specialized retrieval and context-shaping layer that filters technical noise into stack-specific
+    signal.
   evidence:
     - Scans local files like Cargo.toml and package.json to score content relevance
     - Uses an LLM layer to verify technical relevance against the user's specific dependency graph
     - Provides an MCP server to inject filtered ecosystem intelligence into assistants like Cursor or Claude Code
 placement:
-  primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  primary_category: mcp
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-08-27T06:15:40.603Z"
+    updated_at: '2026-08-27T06:15:40.603Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -107,7 +120,9 @@ processing:
       input_hash: sha256:b6e7aaf85455cf19399ae04f3d8bcb6ba447deb72cc9b08a037353eb6abeb071
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: It acts as a specialized retrieval and context-shaping layer that filters technical noise into stack-specific signal.
+      decision_reason: >-
+        It acts as a specialized retrieval and context-shaping layer that filters technical noise into stack-specific
+        signal.
       decision_evidence:
         - Scans local files like Cargo.toml and package.json to score content relevance
         - Uses an LLM layer to verify technical relevance against the user's specific dependency graph
@@ -115,18 +130,20 @@ processing:
       category_candidates:
         - context-engineering
         - mcp
-      contrastive_reason: Choose context-engineering over mcp because the primary innovation is the scoring engine used for contextual retrieval rather than the MCP protocol itself.
+      contrastive_reason: >-
+        Choose context-engineering over mcp because the primary innovation is the scoring engine used for contextual
+        retrieval rather than the MCP protocol itself.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
   discover:
     status: done
-    updated_at: "2026-06-22T05:53:30.455Z"
+    updated_at: '2026-06-22T05:53:30.455Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:26.274Z"
+    updated_at: '2026-09-17T04:13:26.274Z'
     cause: null
     next_retry_at: null

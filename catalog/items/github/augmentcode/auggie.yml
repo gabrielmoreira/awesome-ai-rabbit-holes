@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__augmentcode__auggie__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-08-20T04:18:00.401Z"
+      discovered_at: '2026-08-20T04:18:00.401Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Closed Source
         anchor_text: Auggie
         extracted_url: https://github.com/augmentcode/auggie
-        surrounding_text: "- **[Auggie](https://github.com/augmentcode/auggie)** `⭐ 270` `[Augment Code]` — Augment's agentic coding CLI; interactive terminal agent plus headless `--print` mode for CI, custom slash commands from `.augment/commands`, and official GitHub Actions for PR review. Proprietary; requires an active subscription."
+        surrounding_text: >-
+          - **[Auggie](https://github.com/augmentcode/auggie)** `⭐ 270` `[Augment Code]` — Augment's agentic coding CLI;
+          interactive terminal agent plus headless `--print` mode for CI, custom slash commands from
+          `.augment/commands`, and official GitHub Actions for PR review. Proprietary; requires an active subscription.
         confidence: high
 metadata:
   github:
@@ -30,19 +33,25 @@ metadata:
     archived: false
     full_name: augmentcode/auggie
     html_url: https://github.com/augmentcode/auggie
-    created_at: "2025-09-08T20:43:39Z"
-    pushed_at: "2026-09-04T22:22:04Z"
+    created_at: '2025-09-08T20:43:39Z'
+    pushed_at: '2026-09-04T22:22:04Z'
     description: An AI agent that brings Augment Code's power to the terminal.
     homepage: https://www.augmentcode.com/
     topics: []
-    last_checked_at: "2026-09-07T04:13:28.752Z"
+    last_checked_at: '2026-09-07T04:13:28.752Z'
     readme:
-      fetched_at: "2026-09-07T04:13:28.752Z"
+      fetched_at: '2026-09-07T04:13:28.752Z'
       bytes: 2872
 insights:
-  summary: Auggie is a terminal-based AI coding agent that analyzes code, makes edits, and automates tasks via natural language.
-  why_it_matters: It lets developers delegate coding work to an agent directly in the terminal, reducing context-switching and automating routine edits.
-  mental_damage: Yet another terminal agent promising to 'ship faster' while you still have to babysit its output and pray it doesn’t delete your main branch.
+  summary: >-
+    Auggie is a terminal-based AI coding agent that analyzes code, makes edits, and automates tasks via natural
+    language.
+  why_it_matters: >-
+    It lets developers delegate coding work to an agent directly in the terminal, reducing context-switching and
+    automating routine edits.
+  mental_damage: >-
+    Yet another terminal agent promising to 'ship faster' while you still have to babysit its output and pray it doesn’t
+    delete your main branch.
   tags:
     - terminal-agent
     - ai-coding
@@ -50,13 +59,20 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Auggie functions as a standalone coding assistant that reads code, plans changes, edits files, and runs commands via CLI, fitting the core definition of a coding agent rather than an extension or framework.
+  reason: >-
+    Auggie functions as a standalone coding assistant that reads code, plans changes, edits files, and runs commands via
+    CLI, fitting the core definition of a coding agent rather than an extension or framework.
   evidence:
-    - "Repo description: 'An AI agent that brings Augment Code's power to the terminal'"
-    - "README: 'Auggie is Augment’s agentic coding CLI that runs in your terminal. It understands your codebase and helps you ship faster by analyzing code, making safe edits, and automating routine tasks — all via natural language.'"
-    - Features include making safe edits, running in CI via `--print`, and custom slash commands for tasks like code review and bug fix
+    - 'Repo description: ''An AI agent that brings Augment Code''s power to the terminal'''
+    - >-
+      README: 'Auggie is Augment’s agentic coding CLI that runs in your terminal. It understands your codebase and helps
+      you ship faster by analyzing code, making safe edits, and automating routine tasks — all via natural language.'
+    - >-
+      Features include making safe edits, running in CI via `--print`, and custom slash commands for tasks like code
+      review and bug fix
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -64,17 +80,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-08-20T04:18:00.403Z"
+    updated_at: '2026-08-20T04:18:00.403Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:28.752Z"
+    updated_at: '2026-09-07T04:13:28.752Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T09:28:06.098Z"
+    updated_at: '2026-08-27T09:28:06.098Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -85,15 +101,25 @@ processing:
       input_hash: sha256:861e14147c57c7cae9ccce3d92ec17c15cd1ab7b7f457918a266429ae63eec69
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Auggie functions as a standalone coding assistant that reads code, plans changes, edits files, and runs commands via CLI, fitting the core definition of a coding agent rather than an extension or framework.
+      decision_reason: >-
+        Auggie functions as a standalone coding assistant that reads code, plans changes, edits files, and runs commands
+        via CLI, fitting the core definition of a coding agent rather than an extension or framework.
       decision_evidence:
-        - "Repo description: 'An AI agent that brings Augment Code's power to the terminal'"
-        - "README: 'Auggie is Augment’s agentic coding CLI that runs in your terminal. It understands your codebase and helps you ship faster by analyzing code, making safe edits, and automating routine tasks — all via natural language.'"
-        - Features include making safe edits, running in CI via `--print`, and custom slash commands for tasks like code review and bug fix
+        - 'Repo description: ''An AI agent that brings Augment Code''s power to the terminal'''
+        - >-
+          README: 'Auggie is Augment’s agentic coding CLI that runs in your terminal. It understands your codebase and
+          helps you ship faster by analyzing code, making safe edits, and automating routine tasks — all via natural
+          language.'
+        - >-
+          Features include making safe edits, running in CI via `--print`, and custom slash commands for tasks like code
+          review and bug fix
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because Auggie is a primary coding assistant that operates independently in the terminal, not an add-on that augments another editor or agent with host integrations like debugger or browser access.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because Auggie is a primary coding assistant that operates
+        independently in the terminal, not an add-on that augments another editor or agent with host integrations like
+        debugger or browser access.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

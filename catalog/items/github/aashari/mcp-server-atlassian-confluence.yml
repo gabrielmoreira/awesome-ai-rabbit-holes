@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aashari__mcp-server-atlassian-confluence__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: aashari/mcp-server-atlassian-confluence
         extracted_url: https://github.com/aashari/mcp-server-atlassian-confluence
-        surrounding_text: "- [aashari/mcp-server-atlassian-confluence](https://github.com/aashari/mcp-server-atlassian-confluence) 📇 ☁️ - Atlassian Confluence Cloud integration. Enables AI systems to interact with Confluence spaces, pages, and content with automatic ADF to Markdown conversion."
+        surrounding_text: >-
+          - [aashari/mcp-server-atlassian-confluence](https://github.com/aashari/mcp-server-atlassian-confluence) 📇 ☁️
+          - Atlassian Confluence Cloud integration. Enables AI systems to interact with Confluence spaces, pages, and
+          content with automatic ADF to Markdown conversion.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,12 @@ metadata:
     archived: false
     full_name: aashari/mcp-server-atlassian-confluence
     html_url: https://github.com/aashari/mcp-server-atlassian-confluence
-    created_at: "2025-03-23T03:06:24Z"
-    pushed_at: "2026-02-22T12:53:41Z"
-    description: Node.js/TypeScript MCP server for Atlassian Confluence. Provides tools enabling AI systems (LLMs) to list/get spaces & pages (content formatted as Markdown) and search via CQL. Connects AI seamlessly to Confluence knowledge bases using the standard MCP interface.
+    created_at: '2025-03-23T03:06:24Z'
+    pushed_at: '2026-02-22T12:53:41Z'
+    description: >-
+      Node.js/TypeScript MCP server for Atlassian Confluence. Provides tools enabling AI systems (LLMs) to list/get
+      spaces & pages (content formatted as Markdown) and search via CQL. Connects AI seamlessly to Confluence knowledge
+      bases using the standard MCP interface.
     homepage: null
     topics:
       - ai
@@ -52,14 +58,20 @@ metadata:
       - server
       - typescript
       - wiki
-    last_checked_at: "2026-09-17T04:13:28.089Z"
+    last_checked_at: '2026-09-17T04:13:28.089Z'
     readme:
-      fetched_at: "2026-09-17T04:13:28.089Z"
+      fetched_at: '2026-09-17T04:13:28.089Z'
       bytes: 21448
 insights:
-  summary: A Node.js/TypeScript MCP server that enables AI assistants to interact with Atlassian Confluence spaces, pages, and search via CQL.
-  why_it_matters: It bridges the gap between your team's unstructured documentation in Confluence and your AI assistant's ability to use that knowledge as context.
-  mental_damage: Because nothing says 'developer productivity' like having an LLM parse through your company's messy, outdated Confluence wiki.
+  summary: >-
+    A Node.js/TypeScript MCP server that enables AI assistants to interact with Atlassian Confluence spaces, pages, and
+    search via CQL.
+  why_it_matters: >-
+    It bridges the gap between your team's unstructured documentation in Confluence and your AI assistant's ability to
+    use that knowledge as context.
+  mental_damage: >-
+    Because nothing says 'developer productivity' like having an LLM parse through your company's messy, outdated
+    Confluence wiki.
   tags:
     - mcp
     - atlassian
@@ -69,31 +81,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is strictly a specialized MCP server designed to provide a specific domain's data to AI hosts.
+  reason: >-
+    The product's identity is strictly a specialized MCP server designed to provide a specific domain's data to AI
+    hosts.
   evidence:
     - Repo description explicitly defines it as an 'MCP server for Atlassian Confluence'
     - README focuses on connecting Claude and Cursor via the MCP interface
     - Provides tools for listing/getting spaces and searching via CQL
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.599Z"
+    updated_at: '2026-05-06T22:12:15.599Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:28.089Z"
+    updated_at: '2026-09-17T04:13:28.089Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:53:58.577Z"
+    updated_at: '2026-07-20T15:53:58.577Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -106,7 +121,9 @@ processing:
       input_hash: sha256:9568c185c58b1b11255a7561a8532a8c39b62466e346281a93ad3e9c7050738a
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's identity is strictly a specialized MCP server designed to provide a specific domain's data to AI hosts.
+      decision_reason: >-
+        The product's identity is strictly a specialized MCP server designed to provide a specific domain's data to AI
+        hosts.
       decision_evidence:
         - Repo description explicitly defines it as an 'MCP server for Atlassian Confluence'
         - README focuses on connecting Claude and Cursor via the MCP interface
@@ -114,6 +131,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is a standalone MCP server implementation rather than a plugin for a specific editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is a standalone MCP server implementation rather
+        than a plugin for a specific editor.
       review_reason: null
       review_resume_lifecycle: null

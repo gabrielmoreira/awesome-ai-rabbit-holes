@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__flipt-io__mcp-server-flipt__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: flipt-io/mcp-server-flipt
         extracted_url: https://github.com/flipt-io/mcp-server-flipt
-        surrounding_text: "- [flipt-io/mcp-server-flipt](https://github.com/flipt-io/mcp-server-flipt) 📇 🏠 - Enable AI assistants to interact with your feature flags in [Flipt](https://flipt.io)."
+        surrounding_text: >-
+          - [flipt-io/mcp-server-flipt](https://github.com/flipt-io/mcp-server-flipt) 📇 🏠 - Enable AI assistants to
+          interact with your feature flags in [Flipt](https://flipt.io).
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: flipt-io/mcp-server-flipt
     html_url: https://github.com/flipt-io/mcp-server-flipt
-    created_at: "2025-03-15T17:10:15Z"
-    pushed_at: "2026-07-23T14:26:42Z"
+    created_at: '2025-03-15T17:10:15Z'
+    pushed_at: '2026-07-23T14:26:42Z'
     description: null
     homepage: https://www.npmjs.com/package/@flipt-io/mcp-server-flipt
     topics: []
-    last_checked_at: "2026-08-27T09:23:31.575Z"
+    last_checked_at: '2026-08-27T09:23:31.575Z'
     readme:
-      fetched_at: "2026-08-27T09:23:31.575Z"
+      fetched_at: '2026-08-27T09:23:31.575Z'
       bytes: 2441
 insights:
   summary: An MCP server that enables AI assistants to interact with Flipt for feature flag management.
-  why_it_matters: Lets developers manage feature flags through natural language in MCP-compatible assistants, reducing context switching during development workflows.
+  why_it_matters: >-
+    Lets developers manage feature flags through natural language in MCP-compatible assistants, reducing context
+    switching during development workflows.
   mental_damage: Another MCP server that turns a simple toggle into a multi-step protocol negotiation just to flip a boolean.
   tags:
     - mcp
@@ -50,31 +54,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server as its primary identity, enabling AI assistants to interact with Flipt's feature flag system, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product is an MCP server as its primary identity, enabling AI assistants to interact with Flipt's feature flag
+    system, fitting the MCP Servers & Tooling category.
   evidence:
     - README describes it as a 'Model Context Protocol (MCP) server for Flipt'
     - Provides STDIO transport and registers tools/prompts for MCP communication
     - Listed in awesome-mcp-servers under Developer Tools > Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.614Z"
+    updated_at: '2026-05-06T22:12:15.614Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:31.575Z"
+    updated_at: '2026-08-27T09:23:31.575Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:57:21.004Z"
+    updated_at: '2026-07-21T15:57:21.004Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,7 +94,9 @@ processing:
       input_hash: sha256:c5b6e32c5bafe32aabadedb3fdb95d41d3b8dde0d911a5272048188fa8a41db6
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server as its primary identity, enabling AI assistants to interact with Flipt's feature flag system, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product is an MCP server as its primary identity, enabling AI assistants to interact with Flipt's feature
+        flag system, fitting the MCP Servers & Tooling category.
       decision_evidence:
         - README describes it as a 'Model Context Protocol (MCP) server for Flipt'
         - Provides STDIO transport and registers tools/prompts for MCP communication
@@ -95,6 +104,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool is an MCP server itself, not an extension that augments another assistant with host capabilities.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool is an MCP server itself, not an extension that augments
+        another assistant with host capabilities.
       review_reason: null
       review_resume_lifecycle: null

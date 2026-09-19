@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__teradata__teradata-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: Teradata
         extracted_url: https://github.com/teradata/teradata-mcp-server
-        surrounding_text: "- **[Teradata](https://github.com/Teradata/teradata-mcp-server)** - A collection of tools for managing the platform, addressing data quality and reading and writing to [Teradata](https://www.teradata.com/) Database."
+        surrounding_text: >-
+          - **[Teradata](https://github.com/Teradata/teradata-mcp-server)** - A collection of tools for managing the
+          platform, addressing data quality and reading and writing to [Teradata](https://www.teradata.com/) Database.
         confidence: high
 metadata:
   github:
@@ -29,19 +31,25 @@ metadata:
     archived: false
     full_name: Teradata/teradata-mcp-server
     html_url: https://github.com/Teradata/teradata-mcp-server
-    created_at: "2025-04-17T19:41:30Z"
-    pushed_at: "2026-07-17T20:23:49Z"
+    created_at: '2025-04-17T19:41:30Z'
+    pushed_at: '2026-07-17T20:23:49Z'
     description: The community development of a MCP server for a Teradata database
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-21T15:20:44.780Z"
+    last_checked_at: '2026-07-21T15:20:44.780Z'
     readme:
-      fetched_at: "2026-07-21T15:20:44.780Z"
+      fetched_at: '2026-07-21T15:20:44.780Z'
       bytes: 4946
 insights:
-  summary: An official MCP server from Teradata that exposes database tools, prompts, and resources for querying, analyzing, and managing Teradata data platforms via AI agents.
-  why_it_matters: It lets developers and AI agents directly interact with Teradata databases for querying, data quality checks, and feature store access without building custom integrations.
-  mental_damage: We have successfully abstracted SQL into prompts, meaning your Teradata DBA now has to worry about whether the LLM understands the semantic layer before it drops a production table.
+  summary: >-
+    An official MCP server from Teradata that exposes database tools, prompts, and resources for querying, analyzing,
+    and managing Teradata data platforms via AI agents.
+  why_it_matters: >-
+    It lets developers and AI agents directly interact with Teradata databases for querying, data quality checks, and
+    feature store access without building custom integrations.
+  mental_damage: >-
+    We have successfully abstracted SQL into prompts, meaning your Teradata DBA now has to worry about whether the LLM
+    understands the semantic layer before it drops a production table.
   tags:
     - mcp
     - database
@@ -51,35 +59,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server for the Teradata database platform, providing tools and prompts specifically over the Model Context Protocol.
+  reason: >-
+    The product's core identity is an MCP server for the Teradata database platform, providing tools and prompts
+    specifically over the Model Context Protocol.
   evidence:
     - Repo description explicitly states 'MCP server for a Teradata database'
-    - README emphasizes 'Model Context Protocol (MCP) server for Teradata' with tool modules for Query, Table, and DBA tasks
+    - >-
+      README emphasizes 'Model Context Protocol (MCP) server for Teradata' with tool modules for Query, Table, and DBA
+      tasks
     - Listed in awesome-mcp-servers under 'Official Servers' section
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.651Z"
+    updated_at: '2026-05-06T22:12:15.651Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:44.780Z"
+    updated_at: '2026-07-21T15:20:44.780Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

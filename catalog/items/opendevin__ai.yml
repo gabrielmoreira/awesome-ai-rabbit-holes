@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__opendevin__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,9 @@ provenance:
           - Coding Agents
         anchor_text: OpenHands (OpenDevin)
         extracted_url: https://opendevin.ai
-        surrounding_text: "- **[OpenHands (OpenDevin)](https://opendevin.ai/)** – Open-source AI software engineer for autonomous development."
+        surrounding_text: >-
+          - **[OpenHands (OpenDevin)](https://opendevin.ai/)** – Open-source AI software engineer for autonomous
+          development.
         confidence: high
 metadata:
   github:
@@ -37,8 +39,12 @@ metadata:
     readme: null
 insights:
   summary: OpenDevin is an AI-powered coding agent that autonomously plans, writes, and debugs code in a sandboxed environment.
-  why_it_matters: It allows developers to delegate end-to-end coding tasks to an autonomous agent that can handle complex workflows without constant human oversight.
-  mental_damage: Finally, an AI that can write code while you stare at your terminal wondering if it’s actually working or just generating infinite loops.
+  why_it_matters: >-
+    It allows developers to delegate end-to-end coding tasks to an autonomous agent that can handle complex workflows
+    without constant human oversight.
+  mental_damage: >-
+    Finally, an AI that can write code while you stare at your terminal wondering if it’s actually working or just
+    generating infinite loops.
   tags:
     - autonomous-coding
     - sandboxed-agents
@@ -46,20 +52,23 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: OpenDevin is a standalone coding agent that directly plans, writes, and debugs code, fitting the primary identity of a coding assistant rather than an extension or integration.
+  reason: >-
+    OpenDevin is a standalone coding agent that directly plans, writes, and debugs code, fitting the primary identity of
+    a coding assistant rather than an extension or integration.
   evidence:
     - Seen in source lists under 'Coding Agents' (awesome-ai-coding-tools)
     - Product identity aligns with autonomous coding agents like Claude Code or OpenCode
 placement:
   primary_category: coding-agents
-  section: Terminal & CLI Agents
+  secondary_categories: []
+  section: Autonomous & Multi-Agent Coding
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:19.920Z"
+    updated_at: '2026-07-21T15:30:19.920Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -81,13 +90,17 @@ processing:
       input_hash: sha256:be74600a91ddc8cd1831688e3949a669be2d999a1af77961e71295c83fce48a3
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: OpenDevin is a standalone coding agent that directly plans, writes, and debugs code, fitting the primary identity of a coding assistant rather than an extension or integration.
+      decision_reason: >-
+        OpenDevin is a standalone coding agent that directly plans, writes, and debugs code, fitting the primary
+        identity of a coding assistant rather than an extension or integration.
       decision_evidence:
         - Seen in source lists under 'Coding Agents' (awesome-ai-coding-tools)
         - Product identity aligns with autonomous coding agents like Claude Code or OpenCode
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because OpenDevin is a primary coding assistant, not an add-on for another tool.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because OpenDevin is a primary coding assistant, not an add-on for
+        another tool.
       review_reason: null
       review_resume_lifecycle: null

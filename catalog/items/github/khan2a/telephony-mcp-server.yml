@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__khan2a__telephony-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: khan2a/telephony-mcp-server
         extracted_url: https://github.com/khan2a/telephony-mcp-server
-        surrounding_text: "- [khan2a/telephony-mcp-server](https://github.com/khan2a/telephony-mcp-server) 🐍 💬 - MCP Telephony server for automating voice calls with Speech-to-Text and Speech Recognition to summarize call conversations. Send and receive SMS, detect voicemail, and integrate with Vonage APIs for advanced telephony workflows."
+        surrounding_text: >-
+          - [khan2a/telephony-mcp-server](https://github.com/khan2a/telephony-mcp-server) 🐍 💬 - MCP Telephony server
+          for automating voice calls with Speech-to-Text and Speech Recognition to summarize call conversations. Send
+          and receive SMS, detect voicemail, and integrate with Vonage APIs for advanced telephony workflows.
         confidence: high
 metadata:
   github:
@@ -30,10 +33,12 @@ metadata:
     archived: false
     full_name: khan2a/telephony-mcp-server
     html_url: https://github.com/khan2a/telephony-mcp-server
-    created_at: "2025-06-13T16:56:14Z"
-    pushed_at: "2026-06-07T14:00:23Z"
-    description: A very simple no-fuss minimalist MCP Server with telephony tools like voice call and sms. This MCP Server can be integrated with LLM applications. Vonage API is used for calls, SMS, Speech-to-Text and Speech Recognition.
-    homepage: ""
+    created_at: '2025-06-13T16:56:14Z'
+    pushed_at: '2026-06-07T14:00:23Z'
+    description: >-
+      A very simple no-fuss minimalist MCP Server with telephony tools like voice call and sms. This MCP Server can be
+      integrated with LLM applications. Vonage API is used for calls, SMS, Speech-to-Text and Speech Recognition.
+    homepage: ''
     topics:
       - mcp
       - mcp-server
@@ -41,13 +46,15 @@ metadata:
       - telephony
       - vonage
       - vonage-voice
-    last_checked_at: "2026-07-30T05:05:56.308Z"
+    last_checked_at: '2026-07-30T05:05:56.308Z'
     readme:
-      fetched_at: "2026-07-30T05:05:56.308Z"
+      fetched_at: '2026-07-30T05:05:56.308Z'
       bytes: 8593
 insights:
   summary: An MCP server providing telephony tools (voice calls, SMS) via Vonage API for LLM applications.
-  why_it_matters: Enables LLMs to initiate real-world telephony actions like calls and SMS, extending their utility beyond text generation.
+  why_it_matters: >-
+    Enables LLMs to initiate real-world telephony actions like calls and SMS, extending their utility beyond text
+    generation.
   mental_damage: Now your AI can cold-call your ex to explain why your PR was rejected.
   tags:
     - mcp
@@ -58,31 +65,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: a server exposing telephony tools for LLM integration, fitting the MCP Servers & Tooling category."
+  reason: >-
+    MCP is the product identity: a server exposing telephony tools for LLM integration, fitting the MCP Servers &
+    Tooling category.
   evidence:
     - Repo description explicitly states it is an MCP Server with telephony tools
     - README demonstrates integration with Claude Desktop and GitHub Copilot as MCP tools
     - Listed in awesome-mcp-servers under Communication servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.624Z"
+    updated_at: '2026-05-06T22:12:15.624Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:56.308Z"
+    updated_at: '2026-07-30T05:05:56.308Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:12:21.843Z"
+    updated_at: '2026-07-21T16:12:21.843Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -95,7 +105,9 @@ processing:
       input_hash: sha256:c27130573ee8cc9a18757d6f166bda81270d97b2f754aa53d02973197d6eff9d
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: a server exposing telephony tools for LLM integration, fitting the MCP Servers & Tooling category."
+      decision_reason: >-
+        MCP is the product identity: a server exposing telephony tools for LLM integration, fitting the MCP Servers &
+        Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP Server with telephony tools
         - README demonstrates integration with Claude Desktop and GitHub Copilot as MCP tools
@@ -103,6 +115,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing telephony capabilities, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server exposing telephony capabilities, not
+        an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cr7258__elasticsearch-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: cr7258/elasticsearch-mcp-server
         extracted_url: https://github.com/cr7258/elasticsearch-mcp-server
-        surrounding_text: "- [cr7258/elasticsearch-mcp-server](https://github.com/cr7258/elasticsearch-mcp-server) 🐍 🏠 - MCP Server implementation that provides Elasticsearch interaction"
+        surrounding_text: >-
+          - [cr7258/elasticsearch-mcp-server](https://github.com/cr7258/elasticsearch-mcp-server) 🐍 🏠 - MCP Server
+          implementation that provides Elasticsearch interaction
         confidence: high
     - id: discovery__github__cr7258__elasticsearch-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - 🗄️ Databases
         anchor_text: cr7258/elasticsearch-mcp-server
         extracted_url: https://github.com/cr7258/elasticsearch-mcp-server
-        surrounding_text: "-   **[cr7258/elasticsearch-mcp-server](https://github.com/cr7258/elasticsearch-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/cr7258/elasticsearch-mcp-server?style=social)](https://github.com/cr7258/elasticsearch-mcp-server): Enables interaction with Elasticsearch clusters."
+        surrounding_text: >-
+          -   **[cr7258/elasticsearch-mcp-server](https://github.com/cr7258/elasticsearch-mcp-server)** [![GitHub
+          stars](https://img.shields.io/github/stars/cr7258/elasticsearch-mcp-server?style=social)](https://github.com/cr7258/elasticsearch-mcp-server):
+          Enables interaction with Elasticsearch clusters.
         confidence: high
 metadata:
   github:
@@ -45,18 +50,22 @@ metadata:
     archived: false
     full_name: cr7258/elasticsearch-mcp-server
     html_url: https://github.com/cr7258/elasticsearch-mcp-server
-    created_at: "2025-01-09T04:20:03Z"
-    pushed_at: "2026-08-16T12:59:28Z"
+    created_at: '2025-01-09T04:20:03Z'
+    pushed_at: '2026-08-16T12:59:28Z'
     description: A Model Context Protocol (MCP) server implementation that provides Elasticsearch and OpenSearch interaction.
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-14T04:13:30.729Z"
+    last_checked_at: '2026-09-14T04:13:30.729Z'
     readme:
-      fetched_at: "2026-09-14T04:13:30.729Z"
+      fetched_at: '2026-09-14T04:13:30.729Z'
       bytes: 16254
 insights:
-  summary: An MCP server that enables Elasticsearch and OpenSearch interaction through a set of tools for searching, analyzing, and managing clusters.
-  why_it_matters: Developers can integrate Elasticsearch/OpenSearch capabilities directly into MCP-compatible assistants, enabling document search, index management, and cluster operations without custom API glue.
+  summary: >-
+    An MCP server that enables Elasticsearch and OpenSearch interaction through a set of tools for searching, analyzing,
+    and managing clusters.
+  why_it_matters: >-
+    Developers can integrate Elasticsearch/OpenSearch capabilities directly into MCP-compatible assistants, enabling
+    document search, index management, and cluster operations without custom API glue.
   mental_damage: Now your AI assistant can delete your Elasticsearch indices as easily as it can delete your code.
   tags:
     - mcp
@@ -67,31 +76,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server whose primary identity is providing Elasticsearch/OpenSearch integration via MCP, fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is a dedicated MCP server whose primary identity is providing Elasticsearch/OpenSearch integration via MCP,
+    fitting the MCP Servers & Tooling category.
   evidence:
     - Repo description explicitly states it is an MCP server for Elasticsearch/OpenSearch
     - README details MCP-specific tools and configuration for Elasticsearch/OpenSearch operations
     - Already listed in multiple MCP-focused directories under database servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: promotion_candidate
   reason: Stars (272) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.584Z"
+    updated_at: '2026-05-06T22:12:15.584Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:30.729Z"
+    updated_at: '2026-09-14T04:13:30.729Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:48:56.934Z"
+    updated_at: '2026-07-21T15:48:56.934Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,7 +116,9 @@ processing:
       input_hash: sha256:245b42b35dedd6489c4f97f8ae5488c0a60c0a2054f6e7a1b8a677d42cdc23eb
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a dedicated MCP server whose primary identity is providing Elasticsearch/OpenSearch integration via MCP, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is a dedicated MCP server whose primary identity is providing Elasticsearch/OpenSearch integration via MCP,
+        fitting the MCP Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Elasticsearch/OpenSearch
         - README details MCP-specific tools and configuration for Elasticsearch/OpenSearch operations
@@ -112,6 +126,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

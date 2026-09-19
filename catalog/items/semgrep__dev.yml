@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__semgrep__dev__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,12 @@ provenance:
           - Official Servers
         anchor_text: Semgrep
         extracted_url: https://semgrep.dev
-        surrounding_text: "- **[Semgrep](https://github.com/semgrep/mcp)** - Enable AI agents to secure code with [Semgrep](https://semgrep.dev/)."
+        surrounding_text: >-
+          - **[Semgrep](https://github.com/semgrep/mcp)** - Enable AI agents to secure code with
+          [Semgrep](https://semgrep.dev/).
         confidence: high
     - id: discovery__semgrep__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +35,7 @@ provenance:
           - Code Review and Refactoring
         anchor_text: Semgrep
         extracted_url: https://semgrep.dev
-        surrounding_text: "- **[Semgrep](https://semgrep.dev/)** – Static analysis for finding bugs and security issues."
+        surrounding_text: '- **[Semgrep](https://semgrep.dev/)** – Static analysis for finding bugs and security issues.'
         confidence: high
 metadata:
   github:
@@ -51,8 +53,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An extensible application security platform that scans source code for vulnerabilities using AI-assisted SAST, SCA, and secrets detection.
-  why_it_matters: It helps developers catch, flag, and fix real vulnerabilities before they ship, integrating with CI/CD, IDEs, and AI tools like Cursor and Replit via MCP.
+  summary: >-
+    An extensible application security platform that scans source code for vulnerabilities using AI-assisted SAST, SCA,
+    and secrets detection.
+  why_it_matters: >-
+    It helps developers catch, flag, and fix real vulnerabilities before they ship, integrating with CI/CD, IDEs, and AI
+    tools like Cursor and Replit via MCP.
   mental_damage: Now your AI coding assistant can ship insecure code faster, but at least Semgrep will catch it before it hits prod.
   tags:
     - security
@@ -63,21 +69,26 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Semgrep's core identity is a security scanning platform, but its MCP server integration positions it as an extension for AI coding tools, augmenting them with security capabilities rather than acting as a primary assistant.
+  reason: >-
+    Semgrep's core identity is a security scanning platform, but its MCP server integration positions it as an extension
+    for AI coding tools, augmenting them with security capabilities rather than acting as a primary assistant.
   evidence:
-    - Described as an 'extensible developer-friendly application security platform' with AI-assisted SAST, SCA, and secrets detection
+    - >-
+      Described as an 'extensible developer-friendly application security platform' with AI-assisted SAST, SCA, and
+      secrets detection
     - Explicitly offers MCP integrations for AI tools like Cursor and Replit
     - Listed in awesome-mcp-servers under 'Official Servers'
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: Security & DevSecOps
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.597Z"
+    updated_at: '2026-05-06T22:12:15.597Z'
     cause: null
     next_retry_at: null
   stars:
@@ -86,7 +97,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:28.880Z"
+    updated_at: '2026-07-21T15:31:28.880Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -99,14 +110,21 @@ processing:
       input_hash: sha256:ebd6b7dd37ab68fbc231ec9629e7b38177499baabfde94fb72ae84786283cfbc
       proposed_primary_category: ai-dev-extensions
       disagreement: false
-      decision_reason: Semgrep's core identity is a security scanning platform, but its MCP server integration positions it as an extension for AI coding tools, augmenting them with security capabilities rather than acting as a primary assistant.
+      decision_reason: >-
+        Semgrep's core identity is a security scanning platform, but its MCP server integration positions it as an
+        extension for AI coding tools, augmenting them with security capabilities rather than acting as a primary
+        assistant.
       decision_evidence:
-        - Described as an 'extensible developer-friendly application security platform' with AI-assisted SAST, SCA, and secrets detection
+        - >-
+          Described as an 'extensible developer-friendly application security platform' with AI-assisted SAST, SCA, and
+          secrets detection
         - Explicitly offers MCP integrations for AI tools like Cursor and Replit
         - Listed in awesome-mcp-servers under 'Official Servers'
       category_candidates:
         - ai-dev-extensions
         - mcp
-      contrastive_reason: Choose ai-dev-extensions over mcp because while Semgrep has an MCP server, its primary identity is a security platform that augments AI coding workflows rather than being MCP-first infrastructure.
+      contrastive_reason: >-
+        Choose ai-dev-extensions over mcp because while Semgrep has an MCP server, its primary identity is a security
+        platform that augments AI coding workflows rather than being MCP-first infrastructure.
       review_reason: null
       review_resume_lifecycle: null

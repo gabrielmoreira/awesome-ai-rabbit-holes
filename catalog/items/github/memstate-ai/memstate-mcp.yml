@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__memstate-ai__memstate-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: memstate-ai/memstate-mcp
         extracted_url: https://github.com/memstate-ai/memstate-mcp
-        surrounding_text: "- [memstate-ai/memstate-mcp](https://github.com/memstate-ai/memstate-mcp) [![memstate-mcp MCP server](https://glama.ai/mcp/servers/memstate-ai/memstate-mcp/badges/score.svg)](https://glama.ai/mcp/servers/memstate-ai/memstate-mcp) 📇 ☁️ - Versioned, structured memory for AI agents. Stores facts as keypaths with full version history, automatic conflict detection, and O(1) token retrieval."
+        surrounding_text: >-
+          - [memstate-ai/memstate-mcp](https://github.com/memstate-ai/memstate-mcp) [![memstate-mcp MCP
+          server](https://glama.ai/mcp/servers/memstate-ai/memstate-mcp/badges/score.svg)](https://glama.ai/mcp/servers/memstate-ai/memstate-mcp)
+          📇 ☁️ - Versioned, structured memory for AI agents. Stores facts as keypaths with full version history,
+          automatic conflict detection, and O(1) token retrieval.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: memstate-ai/memstate-mcp
     html_url: https://github.com/memstate-ai/memstate-mcp
-    created_at: "2026-03-02T00:08:22Z"
-    pushed_at: "2026-04-01T20:53:13Z"
+    created_at: '2026-03-02T00:08:22Z'
+    pushed_at: '2026-04-01T20:53:13Z'
     description: null
     homepage: null
     topics:
@@ -45,14 +49,18 @@ metadata:
       - memory-management
       - memstate
       - model-context-protocol
-    last_checked_at: "2026-08-03T05:16:59.835Z"
+    last_checked_at: '2026-08-03T05:16:59.835Z'
     readme:
-      fetched_at: "2026-08-03T05:16:59.835Z"
+      fetched_at: '2026-08-03T05:16:59.835Z'
       bytes: 9088
 insights:
   summary: Memstate MCP is a hosted Model Context Protocol server providing versioned key-value memory for AI agents.
-  why_it_matters: It reduces token usage and improves memory reliability for AI agents by offering deterministic, conflict-aware recall instead of embedding-based similarity search.
-  mental_damage: Another MCP server promising to fix agent memory, adding yet another hosted dependency to the growing stack of tools developers must wire together just to get an agent to remember what it did yesterday.
+  why_it_matters: >-
+    It reduces token usage and improves memory reliability for AI agents by offering deterministic, conflict-aware
+    recall instead of embedding-based similarity search.
+  mental_damage: >-
+    Another MCP server promising to fix agent memory, adding yet another hosted dependency to the growing stack of tools
+    developers must wire together just to get an agent to remember what it did yesterday.
   tags:
     - mcp
     - memory
@@ -61,31 +69,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core novelty is a memory and context-shaping system (versioned facts, conflict detection, token efficiency) exposed via MCP, which aligns with Prompt & Context Engineering rather than a generic extension or server category.
+  reason: >-
+    The core novelty is a memory and context-shaping system (versioned facts, conflict detection, token efficiency)
+    exposed via MCP, which aligns with Prompt & Context Engineering rather than a generic extension or server category.
   evidence:
     - README explicitly positions it as 'Versioned memory for AI agents' with structured, versioned key-value storage.
-    - Includes a benchmark suite comparing accuracy, conflict detection, and token efficiency against embedding-based systems like Mem0.
-    - Distributed as an MCP server package (@memstate/mcp) with integrations for Claude, Cursor, Cline, and other assistants.
+    - >-
+      Includes a benchmark suite comparing accuracy, conflict detection, and token efficiency against embedding-based
+      systems like Mem0.
+    - >-
+      Distributed as an MCP server package (@memstate/mcp) with integrations for Claude, Cursor, Cline, and other
+      assistants.
 placement:
-  primary_category: context-engineering
-  section: null
+  primary_category: mcp
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'mcp'"
+  reason: 'Categorization review required: placement disagreement: retained ''context-engineering'', proposed ''mcp'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.629Z"
+    updated_at: '2026-05-06T22:12:15.629Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:59.835Z"
+    updated_at: '2026-08-03T05:16:59.835Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:19:49.060Z"
+    updated_at: '2026-07-21T16:19:49.060Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -98,14 +113,24 @@ processing:
       input_hash: sha256:d16c80510a5d78faa3b99cedbedd1356331108bccc03a612c2c0ec595d47d151
       proposed_primary_category: mcp
       disagreement: true
-      decision_reason: The product is an MCP server as its core identity, exposing versioned memory via the Model Context Protocol, making it MCP infrastructure rather than a client, extension, or general tool.
+      decision_reason: >-
+        The product is an MCP server as its core identity, exposing versioned memory via the Model Context Protocol,
+        making it MCP infrastructure rather than a client, extension, or general tool.
       decision_evidence:
-        - The README positions it as a 'hosted MCP server' and provides MCP client configuration examples for Claude Desktop, Claude Code, and Cursor.
-        - It exposes versioned key-value memory with conflict detection and O(1) token scaling as its core functionality.
-        - The project is actively maintained, with recent pushes in April 2026 and a clear MCP-first identity in badges, docs, and usage instructions.
+        - >-
+          The README positions it as a 'hosted MCP server' and provides MCP client configuration examples for Claude
+          Desktop, Claude Code, and Cursor.
+        - >-
+          It exposes versioned key-value memory with conflict detection and O(1) token scaling as its core
+          functionality.
+        - >-
+          The project is actively maintained, with recent pushes in April 2026 and a clear MCP-first identity in badges,
+          docs, and usage instructions.
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product's primary identity is an MCP server delivering memory as a service via the Model Context Protocol, not a general-purpose memory or retrieval library.
-      review_reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'mcp'"
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the product's primary identity is an MCP server delivering memory as
+        a service via the Model Context Protocol, not a general-purpose memory or retrieval library.
+      review_reason: 'Categorization review required: placement disagreement: retained ''context-engineering'', proposed ''mcp'''
       review_resume_lifecycle: null

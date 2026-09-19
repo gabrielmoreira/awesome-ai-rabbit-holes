@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__beam__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Beam
         anchor_text: Beam
         extracted_url: https://beam.ai
-        surrounding_text: "## [Beam](https://beam.ai/)"
+        surrounding_text: '## [Beam](https://beam.ai/)'
         confidence: high
 metadata:
   github:
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: An autonomous AI agent designed for executing complex tasks and workflows.
-  why_it_matters: It promises to offload end-to-end task execution by acting as an autonomous worker rather than just a code completion engine.
-  mental_damage: Another autonomous agent to watch carefully while it decides whether to fix your bug or accidentally delete your production database.
+  why_it_matters: >-
+    It promises to offload end-to-end task execution by acting as an autonomous worker rather than just a code
+    completion engine.
+  mental_damage: >-
+    Another autonomous agent to watch carefully while it decides whether to fix your bug or accidentally delete your
+    production database.
   tags:
     - autonomous-agents
     - ai-workforce
@@ -46,20 +50,22 @@ insights:
   confidence: low
 curation:
   status: included
-  reason: The project is categorized as an autonomous agent capable of performing tasks, which aligns with the core identity of coding/tasking agents.
+  reason: >-
+    The project is categorized as an autonomous agent capable of performing tasks, which aligns with the core identity
+    of coding/tasking agents.
   evidence:
     - Listed in 'awesome-ai-agents' as an autonomous agent
     - Primary identity is an autonomous agent rather than a library or extension
 placement:
   primary_category: coding-agents
-  section: Browser/Desktop/Computer-Use Agents
+  section: Browser & Computer-Use Agents
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: low confidence"
+  reason: 'Categorization review required: low confidence'
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +74,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:25:50.470Z"
+    updated_at: '2026-07-20T15:25:50.470Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -81,13 +87,17 @@ processing:
       input_hash: sha256:4ed291ba1fe01957275a2d2968ef65bab518b9685bb2669929c3e2e18be79e94
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: The project is categorized as an autonomous agent capable of performing tasks, which aligns with the core identity of coding/tasking agents.
+      decision_reason: >-
+        The project is categorized as an autonomous agent capable of performing tasks, which aligns with the core
+        identity of coding/tasking agents.
       decision_evidence:
         - Listed in 'awesome-ai-agents' as an autonomous agent
         - Primary identity is an autonomous agent rather than a library or extension
       category_candidates:
         - coding-agents
         - agent-orchestration
-      contrastive_reason: Choose coding-agents over agent-orchestration because the source context identifies it as an autonomous agent rather than a multi-agent coordination framework.
-      review_reason: "Categorization review required: low confidence"
+      contrastive_reason: >-
+        Choose coding-agents over agent-orchestration because the source context identifies it as an autonomous agent
+        rather than a multi-agent coordination framework.
+      review_reason: 'Categorization review required: low confidence'
       review_resume_lifecycle: null

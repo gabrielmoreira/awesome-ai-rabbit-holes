@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__its-dart__dart-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: Dart
         extracted_url: https://github.com/its-dart/dart-mcp-server
-        surrounding_text: "- **[Dart](https://github.com/its-dart/dart-mcp-server)** - Interact with task, doc, and project data in [Dart](https://itsdart.com), an AI-native project management tool"
+        surrounding_text: >-
+          - **[Dart](https://github.com/its-dart/dart-mcp-server)** - Interact with task, doc, and project data in
+          [Dart](https://itsdart.com), an AI-native project management tool
         confidence: high
 metadata:
   github:
@@ -29,22 +31,24 @@ metadata:
     archived: false
     full_name: its-dart/dart-mcp-server
     html_url: https://github.com/its-dart/dart-mcp-server
-    created_at: "2025-02-22T02:29:56Z"
-    pushed_at: "2026-01-28T13:54:49Z"
+    created_at: '2025-02-22T02:29:56Z'
+    pushed_at: '2026-01-28T13:54:49Z'
     description: Dart AI Model Context Protocol (MCP) server
-    homepage: ""
+    homepage: ''
     topics:
       - ai
       - dart
       - mcp
       - server
-    last_checked_at: "2026-07-30T05:05:45.776Z"
+    last_checked_at: '2026-07-30T05:05:45.776Z'
     readme:
-      fetched_at: "2026-07-30T05:05:45.776Z"
+      fetched_at: '2026-07-30T05:05:45.776Z'
       bytes: 7347
 insights:
   summary: An MCP server for integrating Dart AI project management capabilities with MCP-compatible clients.
-  why_it_matters: Lets developers connect Dart's task and document management to AI assistants via MCP, enabling prompt-driven project operations.
+  why_it_matters: >-
+    Lets developers connect Dart's task and document management to AI assistants via MCP, enabling prompt-driven project
+    operations.
   mental_damage: Now your AI can create Jira tickets faster than you can explain why they’re needed.
   tags:
     - mcp
@@ -61,24 +65,25 @@ curation:
     - Listed in awesome-mcp-servers under Official Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.621Z"
+    updated_at: '2026-05-06T22:12:15.621Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:45.776Z"
+    updated_at: '2026-07-30T05:05:45.776Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:09:11.392Z"
+    updated_at: '2026-07-21T16:09:11.392Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -99,6 +104,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

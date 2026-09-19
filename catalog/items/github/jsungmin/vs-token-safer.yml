@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jsungmin__vs-token-safer__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-18T05:40:04.065Z"
+      discovered_at: '2026-06-18T05:40:04.065Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: JSungMin/vs-token-safer
         extracted_url: https://github.com/jsungmin/vs-token-safer
-        surrounding_text: "- [JSungMin/vs-token-safer](https://github.com/JSungMin/vs-token-safer) [![JSungMin/vs-token-safer MCP server](https://glama.ai/mcp/servers/JSungMin/vs-token-safer/badges/score.svg)](https://glama.ai/mcp/servers/JSungMin/vs-token-safer) 📇 🏠 🍎 🪟 🐧 - Routes an AI coding agent's code search through an official language-server index (clangd / Roslyn / tsserver / pyright) instead of grep, returning a token-capped `file:line` list with no source bodies — ~20× fewer tokens. Also symbol-level edit-by-name, a Bash-grep→indexed-query rewrite hook, and git/p4 output compaction. Local-only, no IDE. Claude Code plugin + `vts` CLI."
+        surrounding_text: >-
+          - [JSungMin/vs-token-safer](https://github.com/JSungMin/vs-token-safer) [![JSungMin/vs-token-safer MCP
+          server](https://glama.ai/mcp/servers/JSungMin/vs-token-safer/badges/score.svg)](https://glama.ai/mcp/servers/JSungMin/vs-token-safer)
+          📇 🏠 🍎 🪟 🐧 - Routes an AI coding agent's code search through an official language-server index (clangd /
+          Roslyn / tsserver / pyright) instead of grep, returning a token-capped `file:line` list with no source bodies
+          — ~20× fewer tokens. Also symbol-level edit-by-name, a Bash-grep→indexed-query rewrite hook, and git/p4 output
+          compaction. Local-only, no IDE. Claude Code plugin + `vts` CLI.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,12 @@ metadata:
     archived: false
     full_name: JSungMin/vs-token-safer
     html_url: https://github.com/JSungMin/vs-token-safer
-    created_at: "2026-06-10T03:53:19Z"
-    pushed_at: "2026-07-29T22:54:11Z"
-    description: Token-saving code search for AI coding agents — TypeScript, JavaScript & Python (zero setup), C#, C++, Go & 30+ more, via a language-server or tree-sitter index instead of grep. Local-only, no IDE. Claude Code plugin + MCP + CLI.
+    created_at: '2026-06-10T03:53:19Z'
+    pushed_at: '2026-07-29T22:54:11Z'
+    description: >-
+      Token-saving code search for AI coding agents — TypeScript, JavaScript & Python (zero setup), C#, C++, Go & 30+
+      more, via a language-server or tree-sitter index instead of grep. Local-only, no IDE. Claude Code plugin + MCP +
+      CLI.
     homepage: null
     topics:
       - clangd
@@ -52,14 +61,20 @@ metadata:
       - token-optimization
       - typescript
       - unreal-engine
-    last_checked_at: "2026-07-30T05:05:52.748Z"
+    last_checked_at: '2026-07-30T05:05:52.748Z'
     readme:
-      fetched_at: "2026-07-30T05:05:52.748Z"
+      fetched_at: '2026-07-30T05:05:52.748Z'
       bytes: 51033
 insights:
-  summary: A token-optimized code retrieval layer that uses language server indexes like clangd and Roslyn to provide semantic search for coding agents.
-  why_it_matters: It prevents coding agents from flooding their context windows with irrelevant code by replacing naive grep searches with precise, symbol-based lookups.
-  mental_damage: Because apparently, even the smartest LLMs can't be trusted to find a function without accidentally reading the entire monorepo.
+  summary: >-
+    A token-optimized code retrieval layer that uses language server indexes like clangd and Roslyn to provide semantic
+    search for coding agents.
+  why_it_matters: >-
+    It prevents coding agents from flooding their context windows with irrelevant code by replacing naive grep searches
+    with precise, symbol-based lookups.
+  mental_damage: >-
+    Because apparently, even the smartest LLMs can't be trusted to find a function without accidentally reading the
+    entire monorepo.
   tags:
     - mcp
     - context-engineering
@@ -69,31 +84,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's core novelty is the semantic retrieval and token reduction of code context, which is the primary focus of the Prompt & Context Engineering category.
+  reason: >-
+    The tool's core novelty is the semantic retrieval and token reduction of code context, which is the primary focus of
+    the Prompt & Context Engineering category.
   evidence:
     - Uses clangd, Roslyn, and tree-sitter for semantic, symbol-based indexing instead of raw text grep
     - Claims 97–99% token savings compared to traditional grep searches in large repos
     - Designed specifically to sit between large codebases and agents like Claude Code to manage context windows
 placement:
-  primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Retrieval & Fresh Docs
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-18T05:40:04.066Z"
+    updated_at: '2026-06-18T05:40:04.066Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:52.748Z"
+    updated_at: '2026-07-30T05:05:52.748Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-02T05:25:42.153Z"
+    updated_at: '2026-07-02T05:25:42.153Z'
     cause: null
     next_retry_at: null
     attempts: 1

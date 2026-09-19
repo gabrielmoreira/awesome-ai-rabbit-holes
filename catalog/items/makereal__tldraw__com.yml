@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__makereal__tldraw__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,9 @@ provenance:
           - UI Generators
         anchor_text: tldraw Make Real
         extracted_url: https://makereal.tldraw.com
-        surrounding_text: "- **[tldraw Make Real](https://makereal.tldraw.com/)** – Draw UI wireframes on a canvas and convert them to working HTML/CSS with AI."
+        surrounding_text: >-
+          - **[tldraw Make Real](https://makereal.tldraw.com/)** – Draw UI wireframes on a canvas and convert them to
+          working HTML/CSS with AI.
         confidence: high
 metadata:
   github:
@@ -53,14 +55,15 @@ curation:
     - Primary function is transforming sketches into deployable UI, not editing existing repos
 placement:
   primary_category: app-builders
-  section: Prompt-to-App Builders
+  secondary_categories: []
+  section: Full App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +72,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:29:24.214Z"
+    updated_at: '2026-07-21T15:29:24.214Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -90,6 +93,8 @@ processing:
       category_candidates:
         - app-builders
         - ai-dev-extensions
-      contrastive_reason: Choose app-builders over ai-dev-extensions because the main surface turns sketches into apps rather than augmenting another coding tool.
+      contrastive_reason: >-
+        Choose app-builders over ai-dev-extensions because the main surface turns sketches into apps rather than
+        augmenting another coding tool.
       review_reason: null
       review_resume_lifecycle: null

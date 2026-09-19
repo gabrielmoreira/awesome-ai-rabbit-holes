@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__nearby-search-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🗺️ <a name="location-services"></a>Location Services
         anchor_text: kukapay/nearby-search-mcp
         extracted_url: https://github.com/kukapay/nearby-search-mcp
-        surrounding_text: "- [kukapay/nearby-search-mcp](https://github.com/kukapay/nearby-search-mcp) 🐍 ☁️ - An MCP server for nearby place searches with IP-based location detection."
+        surrounding_text: >-
+          - [kukapay/nearby-search-mcp](https://github.com/kukapay/nearby-search-mcp) 🐍 ☁️ - An MCP server for nearby
+          place searches with IP-based location detection.
         confidence: high
     - id: discovery__github__kukapay__nearby-search-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - 🗺️ Location Services
         anchor_text: kukapay/nearby-search-mcp
         extracted_url: https://github.com/kukapay/nearby-search-mcp
-        surrounding_text: "-   **[kukapay/nearby-search-mcp](https://github.com/kukapay/nearby-search-mcp)** [![GitHub stars](https://img.shields.io/github/stars/kukapay/nearby-search-mcp?style=social)](https://github.com/kukapay/nearby-search-mcp): Enables nearby place searches using IP-based location detection."
+        surrounding_text: >-
+          -   **[kukapay/nearby-search-mcp](https://github.com/kukapay/nearby-search-mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/kukapay/nearby-search-mcp?style=social)](https://github.com/kukapay/nearby-search-mcp):
+          Enables nearby place searches using IP-based location detection.
         confidence: high
 metadata:
   github:
@@ -45,18 +50,20 @@ metadata:
     archived: false
     full_name: kukapay/nearby-search-mcp
     html_url: https://github.com/kukapay/nearby-search-mcp
-    created_at: "2025-03-16T22:33:20Z"
-    pushed_at: "2025-03-27T23:11:01Z"
+    created_at: '2025-03-16T22:33:20Z'
+    pushed_at: '2025-03-27T23:11:01Z'
     description: An MCP server for nearby place searches with IP-based location detection.
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:06:00.558Z"
+    last_checked_at: '2026-07-30T05:06:00.558Z'
     readme:
-      fetched_at: "2026-07-30T05:06:00.558Z"
+      fetched_at: '2026-07-30T05:06:00.558Z'
       bytes: 1959
 insights:
   summary: An MCP server that provides nearby place searches using IP-based location detection and Google Places API.
-  why_it_matters: Developers can integrate location-aware place search capabilities into their MCP-enabled workflows without building the infrastructure themselves.
+  why_it_matters: >-
+    Developers can integrate location-aware place search capabilities into their MCP-enabled workflows without building
+    the infrastructure themselves.
   mental_damage: Now your AI can tell you where to get coffee while you debug at 3 AM.
   tags:
     - mcp-server
@@ -66,31 +73,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server whose primary identity is providing location-based search capabilities via the Model Context Protocol.
+  reason: >-
+    This is a dedicated MCP server whose primary identity is providing location-based search capabilities via the Model
+    Context Protocol.
   evidence:
     - Repo description explicitly states it is an MCP server for nearby place searches
     - README confirms it implements MCP server functionality with Google Places integration
     - Already listed in awesome-mcp-list under Location Services
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.589Z"
+    updated_at: '2026-05-06T22:12:15.589Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:00.558Z"
+    updated_at: '2026-07-30T05:06:00.558Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:14:03.305Z"
+    updated_at: '2026-07-21T16:14:03.305Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -103,7 +113,9 @@ processing:
       input_hash: sha256:91f365604846419f62dcba2e885ae602383befe832492d3968192e1208c2658d
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a dedicated MCP server whose primary identity is providing location-based search capabilities via the Model Context Protocol.
+      decision_reason: >-
+        This is a dedicated MCP server whose primary identity is providing location-based search capabilities via the
+        Model Context Protocol.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for nearby place searches
         - README confirms it implements MCP server functionality with Google Places integration
@@ -111,6 +123,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server rather than an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server rather than an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

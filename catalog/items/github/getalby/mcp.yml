@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__getalby__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: getAlby/mcp
         extracted_url: https://github.com/getalby/mcp
-        surrounding_text: "- [getAlby/mcp](https://github.com/getAlby/mcp) 🎖️ 📇 ☁️ 🏠 - Connect any bitcoin lightning wallet to your agent to send and receive instant payments globally."
+        surrounding_text: >-
+          - [getAlby/mcp](https://github.com/getAlby/mcp) 🎖️ 📇 ☁️ 🏠 - Connect any bitcoin lightning wallet to your
+          agent to send and receive instant payments globally.
         confidence: high
     - id: discovery__github__getalby__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +37,9 @@ provenance:
           - Official Servers
         anchor_text: Alby Bitcoin Payments MCP
         extracted_url: https://github.com/getalby/mcp
-        surrounding_text: "- **[Alby Bitcoin Payments MCP](https://github.com/getAlby/mcp/)** - Connect any bitcoin lightning wallet to agents to send and receive payments instantly at low cost."
+        surrounding_text: >-
+          - **[Alby Bitcoin Payments MCP](https://github.com/getAlby/mcp/)** - Connect any bitcoin lightning wallet to
+          agents to send and receive payments instantly at low cost.
         confidence: high
 metadata:
   github:
@@ -45,19 +49,23 @@ metadata:
     archived: false
     full_name: getAlby/mcp
     html_url: https://github.com/getAlby/mcp
-    created_at: "2025-06-02T08:51:32Z"
-    pushed_at: "2026-08-25T21:21:04Z"
+    created_at: '2025-06-02T08:51:32Z'
+    pushed_at: '2026-08-25T21:21:04Z'
     description: Connect a bitcoin lightning wallet to your LLM using Nostr Wallet Connect and Model Context Protocol
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:48.411Z"
+    last_checked_at: '2026-09-03T05:16:48.411Z'
     readme:
-      fetched_at: "2026-09-03T05:16:48.411Z"
+      fetched_at: '2026-09-03T05:16:48.411Z'
       bytes: 7683
 insights:
   summary: An MCP server that connects Bitcoin Lightning wallets to LLMs using Nostr Wallet Connect (NWC).
-  why_it_matters: It enables AI agents to perform Bitcoin transactions via Lightning by using NWC as an authentication and capability layer.
-  mental_damage: Because nothing says 'eamless developer workflow' like explaining the complexities of L402 and NWC connection secrets to a chat interface.
+  why_it_matters: >-
+    It enables AI agents to perform Bitcoin transactions via Lightning by using NWC as an authentication and capability
+    layer.
+  mental_damage: >-
+    Because nothing says 'eamless developer workflow' like explaining the complexities of L402 and NWC connection
+    secrets to a chat interface.
   tags:
     - mcp
     - bitcoin
@@ -74,24 +82,25 @@ curation:
     - Provides connectivity for agents via SSE or STDIO transports
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.586Z"
+    updated_at: '2026-05-06T22:12:15.586Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:48.411Z"
+    updated_at: '2026-09-03T05:16:48.411Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:01:59.994Z"
+    updated_at: '2026-07-21T16:01:59.994Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,7 +113,9 @@ processing:
       input_hash: sha256:4c548ec2ea49606cfcfab2b92c4c7b0d0f4a75c9a80e9e3e0ca7f6d846e6be25
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product identity is explicitly an MCP server designed to provide specific financial capabilities to an MCP host.
+      decision_reason: >-
+        The product identity is explicitly an MCP server designed to provide specific financial capabilities to an MCP
+        host.
       decision_evidence:
         - README explicitly states it is an 'Alby Bitcoin Payments MCP Server'
         - Uses the official MCP TypeScript SDK
@@ -112,6 +123,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is the MCP server implementation itself, rather than a wrapper for a specific IDE.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product identity is the MCP server implementation itself,
+        rather than a wrapper for a specific IDE.
       review_reason: null
       review_resume_lifecycle: null

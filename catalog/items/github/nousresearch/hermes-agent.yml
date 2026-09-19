@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nousresearch__hermes-agent__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,13 @@ provenance:
           - Open Source
         anchor_text: Hermes Agent
         extracted_url: https://github.com/nousresearch/hermes-agent
-        surrounding_text: "- **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** `⭐ 132k` — Nous Research's self-improving CLI agent with persistent memory, automated skill creation, sandboxed code execution via Unix socket RPC, and multi-platform reach (Telegram/Slack/Discord/WhatsApp); supports 300+ models across multiple providers."
+        surrounding_text: >-
+          - **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** `⭐ 132k` — Nous Research's self-improving
+          CLI agent with persistent memory, automated skill creation, sandboxed code execution via Unix socket RPC, and
+          multi-platform reach (Telegram/Slack/Discord/WhatsApp); supports 300+ models across multiple providers.
         confidence: high
     - id: discovery__github__nousresearch__hermes-agent__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-09-17T04:13:23.413Z"
+      discovered_at: '2026-09-17T04:13:23.413Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -36,7 +39,15 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: Hermes Agent
         extracted_url: https://hermes-agent.nousresearch.com/docs
-        surrounding_text: "- [TheBlueHouse75/hermes-action-bridge](https://github.com/TheBlueHouse75/hermes-action-bridge) [![TheBlueHouse75/hermes-action-bridge MCP server](https://glama.ai/mcp/servers/TheBlueHouse75/hermes-action-bridge/badges/score.svg)](https://glama.ai/mcp/servers/TheBlueHouse75/hermes-action-bridge) 📇 🏠 🍎 🪟 🐧 - Delegate real-world actions from Claude Code, Codex, or any MCP client to [Hermes Agent](https://hermes-agent.nousresearch.com/docs) — research, browser workflows, messaging, scheduling, and Hermes skills/tools — instead of reimplementing them in the coding agent. Conservative safety policy downgrades risky `execute` to `request-approval`; small surface (`hermes_run`, `hermes_plan`, `hermes_presets`, `hermes_status`). MIT."
+        surrounding_text: >-
+          - [TheBlueHouse75/hermes-action-bridge](https://github.com/TheBlueHouse75/hermes-action-bridge)
+          [![TheBlueHouse75/hermes-action-bridge MCP
+          server](https://glama.ai/mcp/servers/TheBlueHouse75/hermes-action-bridge/badges/score.svg)](https://glama.ai/mcp/servers/TheBlueHouse75/hermes-action-bridge)
+          📇 🏠 🍎 🪟 🐧 - Delegate real-world actions from Claude Code, Codex, or any MCP client to [Hermes
+          Agent](https://hermes-agent.nousresearch.com/docs) — research, browser workflows, messaging, scheduling, and
+          Hermes skills/tools — instead of reimplementing them in the coding agent. Conservative safety policy
+          downgrades risky `execute` to `request-approval`; small surface (`hermes_run`, `hermes_plan`,
+          `hermes_presets`, `hermes_status`). MIT.
         confidence: high
 metadata:
   github:
@@ -46,8 +57,8 @@ metadata:
     archived: false
     full_name: NousResearch/hermes-agent
     html_url: https://github.com/NousResearch/hermes-agent
-    created_at: "2025-07-22T22:22:28Z"
-    pushed_at: "2026-07-20T15:02:46Z"
+    created_at: '2025-07-22T22:22:28Z'
+    pushed_at: '2026-07-20T15:02:46Z'
     description: The agent that grows with you
     homepage: https://hermes-agent.nousresearch.com
     topics:
@@ -67,14 +78,20 @@ metadata:
       - nous-research
       - openai
       - openclaw
-    last_checked_at: "2026-07-20T15:12:06.241Z"
+    last_checked_at: '2026-07-20T15:12:06.241Z'
     readme:
-      fetched_at: "2026-07-20T15:12:06.241Z"
+      fetched_at: '2026-07-20T15:12:06.241Z'
       bytes: 17670
 insights:
-  summary: A self-improving terminal-native AI agent by Nous Research that creates and refines its own skills, supports multi-platform messaging gateways, and runs on diverse infrastructure from $5 VPS to GPU clusters.
-  why_it_matters: Developers can delegate coding and operational tasks to an agent that learns from its own execution history and persists knowledge across sessions, while choosing from dozens of model providers without code changes.
-  mental_damage: Just when you thought your job was safe from AI, now the AI is getting promoted and writing its own performance reviews.
+  summary: >-
+    A self-improving terminal-native AI agent by Nous Research that creates and refines its own skills, supports
+    multi-platform messaging gateways, and runs on diverse infrastructure from $5 VPS to GPU clusters.
+  why_it_matters: >-
+    Developers can delegate coding and operational tasks to an agent that learns from its own execution history and
+    persists knowledge across sessions, while choosing from dozens of model providers without code changes.
+  mental_damage: >-
+    Just when you thought your job was safe from AI, now the AI is getting promoted and writing its own performance
+    reviews.
   tags:
     - coding-agent
     - cli
@@ -84,13 +101,18 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Hermes Agent is a standalone terminal-native coding assistant with its own learning loop, skill creation, and multi-platform gateway, making it a primary agent rather than an extension or integration layer.
+  reason: >-
+    Hermes Agent is a standalone terminal-native coding assistant with its own learning loop, skill creation, and
+    multi-platform gateway, making it a primary agent rather than an extension or integration layer.
   evidence:
-    - Repo description states 'The agent that grows with you' and README identifies it as 'The self-improving AI agent built by Nous Research'.
+    - >-
+      Repo description states 'The agent that grows with you' and README identifies it as 'The self-improving AI agent
+      built by Nous Research'.
     - Source list places it in 'Terminal-native coding agents > Open Source' alongside Pi, OpenCode, Aider, and Goose.
     - Active development with pushed_at 2026-05-06 and 135,819 stars indicates strong ecosystem traction.
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -98,21 +120,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-17T04:13:23.415Z"
+    updated_at: '2026-09-17T04:13:23.415Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:12:06.241Z"
+    updated_at: '2026-07-20T15:12:06.241Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

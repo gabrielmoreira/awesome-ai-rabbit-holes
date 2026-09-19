@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__arize-ai__text-to-graphql-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Text-To-GraphQL
         extracted_url: https://github.com/arize-ai/text-to-graphql-mcp
-        surrounding_text: "- **[Text-To-GraphQL](https://github.com/Arize-ai/text-to-graphql-mcp)** - MCP server for text-to-graphql, integrates with Claude Desktop and Cursor."
+        surrounding_text: >-
+          - **[Text-To-GraphQL](https://github.com/Arize-ai/text-to-graphql-mcp)** - MCP server for text-to-graphql,
+          integrates with Claude Desktop and Cursor.
         confidence: high
 metadata:
   github:
@@ -29,18 +31,22 @@ metadata:
     archived: false
     full_name: Arize-ai/text-to-graphql-mcp
     html_url: https://github.com/Arize-ai/text-to-graphql-mcp
-    created_at: "2025-06-04T15:09:33Z"
-    pushed_at: "2026-09-02T22:02:48Z"
+    created_at: '2025-06-04T15:09:33Z'
+    pushed_at: '2026-09-02T22:02:48Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-10T04:12:58.832Z"
+    last_checked_at: '2026-09-10T04:12:58.832Z'
     readme:
-      fetched_at: "2026-09-10T04:12:58.832Z"
+      fetched_at: '2026-09-10T04:12:58.832Z'
       bytes: 17004
 insights:
-  summary: An MCP server that converts natural language queries into valid GraphQL queries for use with AI assistants like Claude Desktop and Cursor.
-  why_it_matters: It bridges human language and GraphQL APIs, making database and API interactions more intuitive for developers and non-technical users.
+  summary: >-
+    An MCP server that converts natural language queries into valid GraphQL queries for use with AI assistants like
+    Claude Desktop and Cursor.
+  why_it_matters: >-
+    It bridges human language and GraphQL APIs, making database and API interactions more intuitive for developers and
+    non-technical users.
   mental_damage: Now you can finally ask your AI to 'get me all users created last week' without remembering GraphQL syntax.
   tags:
     - mcp-server
@@ -50,31 +56,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose primary identity is providing GraphQL translation capabilities via the MCP protocol.
+  reason: >-
+    The product is an MCP server whose primary identity is providing GraphQL translation capabilities via the MCP
+    protocol.
   evidence:
     - README explicitly describes it as an MCP server for converting natural language to GraphQL
     - Listed in awesome-mcp-servers under Community Servers
     - Designed for integration with MCP clients like Claude Desktop and Cursor
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.603Z"
+    updated_at: '2026-05-06T22:12:15.603Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:12:58.832Z"
+    updated_at: '2026-09-10T04:12:58.832Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:24:03.100Z"
+    updated_at: '2026-07-21T15:24:03.100Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -87,7 +96,9 @@ processing:
       input_hash: sha256:58cc07f318f2ccd5d9cbb0716702d3820dcaf033c8ca26bdcf00a28a6abafa79
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server whose primary identity is providing GraphQL translation capabilities via the MCP protocol.
+      decision_reason: >-
+        The product is an MCP server whose primary identity is providing GraphQL translation capabilities via the MCP
+        protocol.
       decision_evidence:
         - README explicitly describes it as an MCP server for converting natural language to GraphQL
         - Listed in awesome-mcp-servers under Community Servers
@@ -95,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

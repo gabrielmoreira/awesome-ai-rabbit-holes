@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__linxule__lotus-wisdom-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: linxule/lotus-wisdom-mcp
         extracted_url: https://github.com/linxule/lotus-wisdom-mcp
-        surrounding_text: "- [linxule/lotus-wisdom-mcp](https://github.com/linxule/lotus-wisdom-mcp) 📇 🏠 ☁️ - Contemplative problem-solving using the Lotus Sutra's wisdom framework. Multi-perspective reasoning with skillful means, non-dual recognition, and meditation pauses. Available as local stdio or remote Cloudflare Worker."
+        surrounding_text: >-
+          - [linxule/lotus-wisdom-mcp](https://github.com/linxule/lotus-wisdom-mcp) 📇 🏠 ☁️ - Contemplative
+          problem-solving using the Lotus Sutra's wisdom framework. Multi-perspective reasoning with skillful means,
+          non-dual recognition, and meditation pauses. Available as local stdio or remote Cloudflare Worker.
         confidence: high
 metadata:
   github:
@@ -30,22 +33,26 @@ metadata:
     archived: false
     full_name: linxule/lotus-wisdom-mcp
     html_url: https://github.com/linxule/lotus-wisdom-mcp
-    created_at: "2025-04-09T23:26:01Z"
-    pushed_at: "2026-07-28T10:18:25Z"
+    created_at: '2025-04-09T23:26:01Z'
+    pushed_at: '2026-07-28T10:18:25Z'
     description: Contemplative reasoning MCP server — Lotus Sutra wisdom framework with interactive ext-apps journey visualization.
-    homepage: ""
+    homepage: ''
     topics:
       - lotus-sutra
       - mcp
       - mcp-server
       - modelcontextprotocol
-    last_checked_at: "2026-07-30T05:06:06.514Z"
+    last_checked_at: '2026-07-30T05:06:06.514Z'
     readme:
-      fetched_at: "2026-07-30T05:06:06.514Z"
+      fetched_at: '2026-07-30T05:06:06.514Z'
       bytes: 20821
 insights:
-  summary: An MCP server that implements a Lotus Sutra-inspired wisdom framework for multi-faceted problem solving with interactive visualization.
-  why_it_matters: Offers a structured contemplative thinking process to improve problem-solving depth when using AI assistants via MCP tooling.
+  summary: >-
+    An MCP server that implements a Lotus Sutra-inspired wisdom framework for multi-faceted problem solving with
+    interactive visualization.
+  why_it_matters: >-
+    Offers a structured contemplative thinking process to improve problem-solving depth when using AI assistants via MCP
+    tooling.
   mental_damage: Another MCP server promising enlightenment through tag-based meditation, just what your CI pipeline was missing.
   tags:
     - mcp
@@ -54,31 +61,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The project is an MCP server as its core identity, providing a structured thinking tool via the Model Context Protocol, not primarily an extension or framework.
+  reason: >-
+    The project is an MCP server as its core identity, providing a structured thinking tool via the Model Context
+    Protocol, not primarily an extension or framework.
   evidence:
     - Repo description identifies it as a 'Contemplative reasoning MCP server'
     - README states it is 'An MCP server implementation' with tools exposed via MCP
-    - "Available at an MCP endpoint: https://lotus-wisdom-mcp.linxule.workers.dev/mcp"
+    - 'Available at an MCP endpoint: https://lotus-wisdom-mcp.linxule.workers.dev/mcp'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: '2026-05-06T22:12:15.627Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:06.514Z"
+    updated_at: '2026-07-30T05:06:06.514Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:16:22.340Z"
+    updated_at: '2026-07-21T16:16:22.340Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -91,14 +101,18 @@ processing:
       input_hash: sha256:474660863f49d1aeeb3ce637ecd6457eb89521bb6a64276b945ac14ee31e1859
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is an MCP server as its core identity, providing a structured thinking tool via the Model Context Protocol, not primarily an extension or framework.
+      decision_reason: >-
+        The project is an MCP server as its core identity, providing a structured thinking tool via the Model Context
+        Protocol, not primarily an extension or framework.
       decision_evidence:
         - Repo description identifies it as a 'Contemplative reasoning MCP server'
         - README states it is 'An MCP server implementation' with tools exposed via MCP
-        - "Available at an MCP endpoint: https://lotus-wisdom-mcp.linxule.workers.dev/mcp"
+        - 'Available at an MCP endpoint: https://lotus-wisdom-mcp.linxule.workers.dev/mcp'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server providing a thinking tool, not mainly augmenting another assistant with host capabilities like debugger or git.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server providing a thinking tool, not mainly
+        augmenting another assistant with host capabilities like debugger or git.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kael-bit__engram-rs__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: kael-bit/engram-rs
         extracted_url: https://github.com/kael-bit/engram-rs
-        surrounding_text: "- [kael-bit/engram-rs](https://github.com/kael-bit/engram-rs) [![engram-rs MCP server](https://glama.ai/mcp/servers/@kael-bit/engram-rs/badges/score.svg)](https://glama.ai/mcp/servers/@kael-bit/engram-rs) 📇 🏠 🍎 🪟 🐧 - Hierarchical memory engine for AI agents with automatic decay, promotion, semantic dedup, and self-organizing topic tree. Single Rust binary, zero external dependencies."
+        surrounding_text: >-
+          - [kael-bit/engram-rs](https://github.com/kael-bit/engram-rs) [![engram-rs MCP
+          server](https://glama.ai/mcp/servers/@kael-bit/engram-rs/badges/score.svg)](https://glama.ai/mcp/servers/@kael-bit/engram-rs)
+          📇 🏠 🍎 🪟 🐧 - Hierarchical memory engine for AI agents with automatic decay, promotion, semantic dedup, and
+          self-organizing topic tree. Single Rust binary, zero external dependencies.
         confidence: high
 metadata:
   github:
@@ -30,10 +34,12 @@ metadata:
     archived: false
     full_name: kael-bit/engram-rs
     html_url: https://github.com/kael-bit/engram-rs
-    created_at: "2026-02-24T12:48:56Z"
-    pushed_at: "2026-03-03T05:02:31Z"
-    description: Memory engine for AI agents — time axis (3-layer decay/promotion) + space axis (self-organizing topic tree). Hybrid search, LLM consolidation. Single Rust binary.
-    homepage: ""
+    created_at: '2026-02-24T12:48:56Z'
+    pushed_at: '2026-03-03T05:02:31Z'
+    description: >-
+      Memory engine for AI agents — time axis (3-layer decay/promotion) + space axis (self-organizing topic tree).
+      Hybrid search, LLM consolidation. Single Rust binary.
+    homepage: ''
     topics:
       - agents
       - ai
@@ -45,13 +51,17 @@ metadata:
       - openclaw
       - rust
       - sqlite
-    last_checked_at: "2026-07-30T05:05:54.056Z"
+    last_checked_at: '2026-07-30T05:05:54.056Z'
     readme:
-      fetched_at: "2026-07-30T05:05:54.056Z"
+      fetched_at: '2026-07-30T05:05:54.056Z'
       bytes: 11045
 insights:
-  summary: Memory engine for AI agents with time-based decay/promotion and self-organizing topic trees, implemented as a single Rust binary with SQLite storage.
-  why_it_matters: It solves the core problem of agent memory management by automatically surfacing important knowledge, forgetting noise, and organizing related context without manual tagging.
+  summary: >-
+    Memory engine for AI agents with time-based decay/promotion and self-organizing topic trees, implemented as a single
+    Rust binary with SQLite storage.
+  why_it_matters: >-
+    It solves the core problem of agent memory management by automatically surfacing important knowledge, forgetting
+    noise, and organizing related context without manual tagging.
   mental_damage: Finally, an agent memory system that remembers your deployment checklist but forgets your existential crisis.
   tags:
     - ai-memory
@@ -62,31 +72,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core novelty is the memory system itself (time/space axes, decay/promotion, topic trees) rather than host integration or orchestration.
+  reason: >-
+    The core novelty is the memory system itself (time/space axes, decay/promotion, topic trees) rather than host
+    integration or orchestration.
   evidence:
     - Repo description explicitly calls it a 'Memory engine for AI agents'
     - README details focus on memory lifecycle, decay, and retrieval mechanics
     - Topics include 'ai-memory' and 'mcp-server' but primary identity is memory infrastructure
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.623Z"
+    updated_at: '2026-05-06T22:12:15.623Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:54.056Z"
+    updated_at: '2026-07-30T05:05:54.056Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:11:46.752Z"
+    updated_at: '2026-07-21T16:11:46.752Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -99,7 +112,9 @@ processing:
       input_hash: sha256:6928586aa03ae2068f6a86705688cfe979c112e6a67c90c016dfc1deafc2c183
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: The core novelty is the memory system itself (time/space axes, decay/promotion, topic trees) rather than host integration or orchestration.
+      decision_reason: >-
+        The core novelty is the memory system itself (time/space axes, decay/promotion, topic trees) rather than host
+        integration or orchestration.
       decision_evidence:
         - Repo description explicitly calls it a 'Memory engine for AI agents'
         - README details focus on memory lifecycle, decay, and retrieval mechanics
@@ -107,6 +122,8 @@ processing:
       category_candidates:
         - context-engineering
         - mcp
-      contrastive_reason: Choose context-engineering over mcp because MCP compatibility is secondary to the memory engine's core functionality.
+      contrastive_reason: >-
+        Choose context-engineering over mcp because MCP compatibility is secondary to the memory engine's core
+        functionality.
       review_reason: null
       review_resume_lifecycle: null

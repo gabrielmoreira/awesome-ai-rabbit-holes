@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mcp__composio__dev__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -37,7 +37,9 @@ metadata:
     readme: null
 insights:
   summary: A directory or registry focused on Model Context Protocol (MCP) resources.
-  why_it_matters: Provides a centralized discovery point for MCP-related tools and servers, which are increasingly important for integrating AI assistants with external systems.
+  why_it_matters: >-
+    Provides a centralized discovery point for MCP-related tools and servers, which are increasingly important for
+    integrating AI assistants with external systems.
   mental_damage: Another registry to bookmark in the ever-expanding graveyard of AI tooling bookmarks.
   tags:
     - mcp
@@ -46,12 +48,15 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is explicitly MCP-focused, as evidenced by its domain and inclusion in an awesome list under the MCP section.
+  reason: >-
+    The product identity is explicitly MCP-focused, as evidenced by its domain and inclusion in an awesome list under
+    the MCP section.
   evidence:
     - URL is mcp.composio.dev, indicating MCP-centric purpose
     - Listed in awesome-LLM-resources under '模型上下文协议 MCP' (Model Context Protocol MCP)
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Registries & Discovery
 lifecycle:
   status: incubating
@@ -59,7 +64,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +73,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:29:32.501Z"
+    updated_at: '2026-07-21T15:29:32.501Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -81,7 +86,9 @@ processing:
       input_hash: sha256:79077090b9ea6458aff581802ea87673c95109157fe406ecd3fe773e856c9244
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product identity is explicitly MCP-focused, as evidenced by its domain and inclusion in an awesome list under the MCP section.
+      decision_reason: >-
+        The product identity is explicitly MCP-focused, as evidenced by its domain and inclusion in an awesome list
+        under the MCP section.
       decision_evidence:
         - URL is mcp.composio.dev, indicating MCP-centric purpose
         - Listed in awesome-LLM-resources under '模型上下文协议 MCP' (Model Context Protocol MCP)

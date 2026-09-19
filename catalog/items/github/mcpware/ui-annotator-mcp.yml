@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mcpware__ui-annotator-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: mcpware/ui-annotator-mcp
         extracted_url: https://github.com/mcpware/ui-annotator-mcp
-        surrounding_text: "- [mcpware/ui-annotator-mcp](https://github.com/mcpware/ui-annotator-mcp) [![mcpware/ui-annotator-mcp MCP server](https://glama.ai/mcp/servers/mcpware/ui-annotator-mcp/badges/score.svg)](https://glama.ai/mcp/servers/mcpware/ui-annotator-mcp) 📇 🏠 - Annotates any web page with hover labels for AI assistants — reverse proxy injection, zero browser extensions. `npx @mcpware/ui-annotator`"
+        surrounding_text: >-
+          - [mcpware/ui-annotator-mcp](https://github.com/mcpware/ui-annotator-mcp) [![mcpware/ui-annotator-mcp MCP
+          server](https://glama.ai/mcp/servers/mcpware/ui-annotator-mcp/badges/score.svg)](https://glama.ai/mcp/servers/mcpware/ui-annotator-mcp)
+          📇 🏠 - Annotates any web page with hover labels for AI assistants — reverse proxy injection, zero browser
+          extensions. `npx @mcpware/ui-annotator`
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: mcpware/ui-annotator-mcp
     html_url: https://github.com/mcpware/ui-annotator-mcp
-    created_at: "2026-03-19T19:51:55Z"
-    pushed_at: "2026-03-24T20:55:33Z"
+    created_at: '2026-03-19T19:51:55Z'
+    pushed_at: '2026-03-24T20:55:33Z'
     description: MCP server that annotates any web page with hover labels — zero extensions, works in any browser
     homepage: null
     topics:
@@ -55,13 +59,17 @@ metadata:
       - typescript
       - web-development
       - web-scraping
-    last_checked_at: "2026-08-03T05:16:58.882Z"
+    last_checked_at: '2026-08-03T05:16:58.882Z'
     readme:
-      fetched_at: "2026-08-03T05:16:58.882Z"
+      fetched_at: '2026-08-03T05:16:58.882Z'
       bytes: 9628
 insights:
-  summary: MCP server that injects hover labels onto web pages to enable AI assistants to reference UI elements by name via a reverse proxy.
-  why_it_matters: Reduces miscommunication between developers and AI when describing UI changes by giving both a shared vocabulary for page elements.
+  summary: >-
+    MCP server that injects hover labels onto web pages to enable AI assistants to reference UI elements by name via a
+    reverse proxy.
+  why_it_matters: >-
+    Reduces miscommunication between developers and AI when describing UI changes by giving both a shared vocabulary for
+    page elements.
   mental_damage: Finally, a way to stop playing charades with your AI over which button is 'the one on the left'.
   tags:
     - mcp
@@ -71,31 +79,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server that provides UI element annotation as an MCP tool, making MCP the primary product identity rather than a compatibility feature.
+  reason: >-
+    The product's core identity is an MCP server that provides UI element annotation as an MCP tool, making MCP the
+    primary product identity rather than a compatibility feature.
   evidence:
-    - "Repo description: 'MCP server that annotates any web page with hover labels'"
-    - "README: Describes MCP tools like `annotate(url)`, `get_elements()`, `highlight_element(name)` as the AI interface"
-    - "Source-list: Included in awesome-mcp-servers under Developer Tools section"
+    - 'Repo description: ''MCP server that annotates any web page with hover labels'''
+    - 'README: Describes MCP tools like `annotate(url)`, `get_elements()`, `highlight_element(name)` as the AI interface'
+    - 'Source-list: Included in awesome-mcp-servers under Developer Tools section'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.629Z"
+    updated_at: '2026-05-06T22:12:15.629Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:58.882Z"
+    updated_at: '2026-08-03T05:16:58.882Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:19:39.357Z"
+    updated_at: '2026-07-21T16:19:39.357Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -108,14 +119,20 @@ processing:
       input_hash: sha256:9eef79425acbe1784db3103c68842293594a7f693585844a1da73774e86f6256
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP server that provides UI element annotation as an MCP tool, making MCP the primary product identity rather than a compatibility feature.
+      decision_reason: >-
+        The product's core identity is an MCP server that provides UI element annotation as an MCP tool, making MCP the
+        primary product identity rather than a compatibility feature.
       decision_evidence:
-        - "Repo description: 'MCP server that annotates any web page with hover labels'"
-        - "README: Describes MCP tools like `annotate(url)`, `get_elements()`, `highlight_element(name)` as the AI interface"
-        - "Source-list: Included in awesome-mcp-servers under Developer Tools section"
+        - 'Repo description: ''MCP server that annotates any web page with hover labels'''
+        - >-
+          README: Describes MCP tools like `annotate(url)`, `get_elements()`, `highlight_element(name)` as the AI
+          interface
+        - 'Source-list: Included in awesome-mcp-servers under Developer Tools section'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool is itself an MCP server providing core functionality via MCP tools, not merely an extension that adds capabilities to another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool is itself an MCP server providing core functionality via MCP
+        tools, not merely an extension that adds capabilities to another assistant.
       review_reason: null
       review_resume_lifecycle: null

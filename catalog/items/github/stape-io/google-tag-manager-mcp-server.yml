@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__stape-io__google-tag-manager-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: stape-io/google-tag-manager-mcp-server
         extracted_url: https://github.com/stape-io/google-tag-manager-mcp-server
-        surrounding_text: "- [stape-io/google-tag-manager-mcp-server](https://github.com/stape-io/google-tag-manager-mcp-server) 📇 ☁️ – This server supports remote MCP connections, includes built-in Google OAuth, and provide an interface to the Google Tag Manager API."
+        surrounding_text: >-
+          - [stape-io/google-tag-manager-mcp-server](https://github.com/stape-io/google-tag-manager-mcp-server) 📇 ☁️ –
+          This server supports remote MCP connections, includes built-in Google OAuth, and provide an interface to the
+          Google Tag Manager API.
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: stape-io/google-tag-manager-mcp-server
     html_url: https://github.com/stape-io/google-tag-manager-mcp-server
-    created_at: "2025-04-16T11:54:41Z"
-    pushed_at: "2026-05-14T13:15:15Z"
+    created_at: '2025-04-16T11:54:41Z'
+    pushed_at: '2026-05-14T13:15:15Z'
     description: MCP server for Google Tag Manager
     homepage: https://stape.io
     topics:
@@ -40,14 +43,20 @@ metadata:
       - mcp
       - mcp-server
       - stape
-    last_checked_at: "2026-07-20T16:43:03.182Z"
+    last_checked_at: '2026-07-20T16:43:03.182Z'
     readme:
-      fetched_at: "2026-07-20T16:43:03.182Z"
+      fetched_at: '2026-07-20T16:43:03.182Z'
       bytes: 1843
 insights:
-  summary: An MCP server that provides an interface to the Google Tag Manager API with built-in Google OAuth, allowing LLM clients like Claude Desktop to manage GTM tags, triggers, and variables.
-  why_it_matters: Developers can manage marketing tags and GTM containers directly through AI chat interfaces instead of navigating the GTM UI or writing custom API scripts.
-  mental_damage: We have successfully abstracted Google Tag Manager so far away that you now need a large language model and an OAuth flow just to toggle a tracking pixel.
+  summary: >-
+    An MCP server that provides an interface to the Google Tag Manager API with built-in Google OAuth, allowing LLM
+    clients like Claude Desktop to manage GTM tags, triggers, and variables.
+  why_it_matters: >-
+    Developers can manage marketing tags and GTM containers directly through AI chat interfaces instead of navigating
+    the GTM UI or writing custom API scripts.
+  mental_damage: >-
+    We have successfully abstracted Google Tag Manager so far away that you now need a large language model and an OAuth
+    flow just to toggle a tracking pixel.
   tags:
     - mcp-server
     - google-tag-manager
@@ -56,35 +65,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server for a specific domain (Google Tag Manager), fitting cleanly into MCP Servers & Tooling as a domain-specific implementation.
+  reason: >-
+    The product is explicitly an MCP server for a specific domain (Google Tag Manager), fitting cleanly into MCP Servers
+    & Tooling as a domain-specific implementation.
   evidence:
-    - "Repo description states: 'MCP server for Google Tag Manager'."
+    - 'Repo description states: ''MCP server for Google Tag Manager''.'
     - README confirms it 'provides an interface to the Google Tag Manager API' for clients like Claude Desktop.
     - Listed in awesome-mcp-servers under 'Server Implementations > Marketing'.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: promotion_candidate
   reason: Stars (185) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.649Z"
+    updated_at: '2026-05-06T22:12:15.649Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:43:03.182Z"
+    updated_at: '2026-07-20T16:43:03.182Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

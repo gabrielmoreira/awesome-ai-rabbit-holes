@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__build-with-groq__groq-code-cli__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Open Source
         anchor_text: Groq Code CLI
         extracted_url: https://github.com/build-with-groq/groq-code-cli
-        surrounding_text: "- **[Groq Code CLI](https://github.com/build-with-groq/groq-code-cli)** `⭐ 726` — Customizable, lightweight CLI powered by Groq's ultra-fast inference; extensible tools/commands with multi-model support."
+        surrounding_text: >-
+          - **[Groq Code CLI](https://github.com/build-with-groq/groq-code-cli)** `⭐ 726` — Customizable, lightweight
+          CLI powered by Groq's ultra-fast inference; extensible tools/commands with multi-model support.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,21 @@ metadata:
     archived: false
     full_name: build-with-groq/groq-code-cli
     html_url: https://github.com/build-with-groq/groq-code-cli
-    created_at: "2025-07-30T00:07:27Z"
-    pushed_at: "2025-12-19T13:44:22Z"
+    created_at: '2025-07-30T00:07:27Z'
+    pushed_at: '2025-12-19T13:44:22Z'
     description: A highly customizable, lightweight, and open-source coding CLI powered by Groq for instant iteration.
-    homepage: ""
+    homepage: ''
     topics:
       - managed-by-terraform
-    last_checked_at: "2026-09-07T04:13:38.874Z"
+    last_checked_at: '2026-09-07T04:13:38.874Z'
     readme:
-      fetched_at: "2026-09-07T04:13:38.874Z"
+      fetched_at: '2026-09-07T04:13:38.874Z'
       bytes: 9224
 insights:
   summary: A highly customizable, lightweight, open-source coding CLI powered by Groq for instant iteration.
-  why_it_matters: It offers developers a minimal, hackable CLI coding assistant that prioritizes customization and speed over feature bloat.
+  why_it_matters: >-
+    It offers developers a minimal, hackable CLI coding assistant that prioritizes customization and speed over feature
+    bloat.
   mental_damage: Finally, a coding CLI that lets you add your own ASCII art instead of forcing you to memorize someone else’s.
   tags:
     - cli
@@ -53,13 +57,16 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a standalone terminal-native coding assistant that developers use as the primary assistant for repo work, not an extension or integration layer.
+  reason: >-
+    It is a standalone terminal-native coding assistant that developers use as the primary assistant for repo work, not
+    an extension or integration layer.
   evidence:
     - Repo description explicitly calls it a 'coding CLI'
     - README positions it as a primary coding assistant with customizable commands and workflows
     - Source-list context places it under 'Terminal-native coding agents > Open Source'
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -67,17 +74,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.606Z"
+    updated_at: '2026-05-06T22:12:15.606Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:38.874Z"
+    updated_at: '2026-09-07T04:13:38.874Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:34:33.747Z"
+    updated_at: '2026-07-21T15:34:33.747Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -90,7 +97,9 @@ processing:
       input_hash: sha256:8ef33b5c4ff144865c99391657e74aaa73cf94a15c4042c960d8aaab31220b69
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: It is a standalone terminal-native coding assistant that developers use as the primary assistant for repo work, not an extension or integration layer.
+      decision_reason: >-
+        It is a standalone terminal-native coding assistant that developers use as the primary assistant for repo work,
+        not an extension or integration layer.
       decision_evidence:
         - Repo description explicitly calls it a 'coding CLI'
         - README positions it as a primary coding assistant with customizable commands and workflows
@@ -98,6 +107,8 @@ processing:
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because it is a primary coding assistant rather than an augmentation layer for another tool.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because it is a primary coding assistant rather than an augmentation
+        layer for another tool.
       review_reason: null
       review_resume_lifecycle: null

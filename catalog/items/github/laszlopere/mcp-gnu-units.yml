@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__laszlopere__mcp-gnu-units__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-06T05:29:57.556Z"
+      discovered_at: '2026-07-06T05:29:57.556Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🧮 <a name="data-science-tools"></a>Data Science Tools
         anchor_text: laszlopere/mcp-gnu-units
         extracted_url: https://github.com/laszlopere/mcp-gnu-units
-        surrounding_text: "- [laszlopere/mcp-gnu-units](https://github.com/laszlopere/mcp-gnu-units) [![laszlopere/mcp-gnu-units MCP server](https://glama.ai/mcp/servers/laszlopere/mcp-gnu-units/badges/score.svg)](https://glama.ai/mcp/servers/laszlopere/mcp-gnu-units) 🐍 🏠 🐧 - Unit conversion and dimensional analysis backed by the bundled GNU units database (3000+ units, compound expressions, reduction to SI base units). Offline and deterministic. `uvx mcp-gnu-units`."
+        surrounding_text: >-
+          - [laszlopere/mcp-gnu-units](https://github.com/laszlopere/mcp-gnu-units) [![laszlopere/mcp-gnu-units MCP
+          server](https://glama.ai/mcp/servers/laszlopere/mcp-gnu-units/badges/score.svg)](https://glama.ai/mcp/servers/laszlopere/mcp-gnu-units)
+          🐍 🏠 🐧 - Unit conversion and dimensional analysis backed by the bundled GNU units database (3000+ units,
+          compound expressions, reduction to SI base units). Offline and deterministic. `uvx mcp-gnu-units`.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: laszlopere/mcp-gnu-units
     html_url: https://github.com/laszlopere/mcp-gnu-units
-    created_at: "2026-07-03T05:17:04Z"
-    pushed_at: "2026-07-03T07:35:19Z"
-    description: Unit converter for AI agents, powered by the GNU units database — convert 3000+ units of measurement, evaluate compound unit expressions, reduce to SI base units, dimensional analysis. Offline, deterministic.
+    created_at: '2026-07-03T05:17:04Z'
+    pushed_at: '2026-07-03T07:35:19Z'
+    description: >-
+      Unit converter for AI agents, powered by the GNU units database — convert 3000+ units of measurement, evaluate
+      compound unit expressions, reduce to SI base units, dimensional analysis. Offline, deterministic.
     homepage: https://pypi.org/project/mcp-gnu-units/
     topics:
       - gnu-units
@@ -42,14 +48,18 @@ metadata:
       - model-context-protocol
       - unit-conversion
       - units
-    last_checked_at: "2026-08-03T05:16:52.687Z"
+    last_checked_at: '2026-08-03T05:16:52.687Z'
     readme:
-      fetched_at: "2026-08-03T05:16:52.687Z"
+      fetched_at: '2026-08-03T05:16:52.687Z'
       bytes: 4351
 insights:
   summary: An MCP server that provides AI agents with deterministic unit conversion capabilities using the GNU units database.
-  why_it_matters: It solves the hallucination problem in LLM math by providing a reliable, offline, and dimension-aware tool for complex unit conversions.
-  mental_damage: Because apparently, we can no longer trust an LLM to know how many feet are in an acre without a dedicated middleware layer.
+  why_it_matters: >-
+    It solves the hallucination problem in LLM math by providing a reliable, offline, and dimension-aware tool for
+    complex unit conversions.
+  mental_damage: >-
+    Because apparently, we can no longer trust an LLM to know how many feet are in an acre without a dedicated
+    middleware layer.
   tags:
     - mcp
     - unit-conversion
@@ -59,31 +69,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's identity is explicitly an MCP server designed to provide specific domain knowledge (units) to model contexts.
+  reason: >-
+    The project's identity is explicitly an MCP server designed to provide specific domain knowledge (units) to model
+    contexts.
   evidence:
     - Repo description identifies it as a 'Unit converter for AI agents, powered by the GNU units database'
     - README describes it as an MCP server providing tools like 'convert' and 'define_unit'
     - Topics include 'cp' and 'cp-server'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-06T05:29:57.558Z"
+    updated_at: '2026-07-06T05:29:57.558Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:52.687Z"
+    updated_at: '2026-08-03T05:16:52.687Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-13T05:19:09.090Z"
+    updated_at: '2026-07-13T05:19:09.090Z'
     cause: null
     next_retry_at: null
     attempts: 3

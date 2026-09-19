@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__genwavellc__svgmaker-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: GenWaveLLC/svgmaker-mcp
         extracted_url: https://github.com/genwavellc/svgmaker-mcp
-        surrounding_text: "- [GenWaveLLC/svgmaker-mcp](https://github.com/GenWaveLLC/svgmaker-mcp) 📇 ☁️ - Provides AI-driven SVG generation and editing via natural language, with real-time updates and secure file handling."
+        surrounding_text: >-
+          - [GenWaveLLC/svgmaker-mcp](https://github.com/GenWaveLLC/svgmaker-mcp) 📇 ☁️ - Provides AI-driven SVG
+          generation and editing via natural language, with real-time updates and secure file handling.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,25 @@ metadata:
     archived: false
     full_name: GenWaveLLC/svgmaker-mcp
     html_url: https://github.com/GenWaveLLC/svgmaker-mcp
-    created_at: "2025-06-02T02:29:14Z"
-    pushed_at: "2026-08-13T08:08:55Z"
-    description: Model Context Protocol server for SVGMaker - AI-powered SVG generation and editing. Seamlessly integrate SVG creation into AI workflows.
+    created_at: '2025-06-02T02:29:14Z'
+    pushed_at: '2026-08-13T08:08:55Z'
+    description: >-
+      Model Context Protocol server for SVGMaker - AI-powered SVG generation and editing. Seamlessly integrate SVG
+      creation into AI workflows.
     homepage: https://svgmaker.io
     topics: []
-    last_checked_at: "2026-09-03T05:16:47.861Z"
+    last_checked_at: '2026-09-03T05:16:47.861Z'
     readme:
-      fetched_at: "2026-09-03T05:16:47.861Z"
+      fetched_at: '2026-09-03T05:16:47.861Z'
       bytes: 30863
 insights:
   summary: An MCP server that enables AI assistants to generate, edit, and convert SVG images via the SVGMaker API.
-  why_it_matters: It provides LLMs with a direct capability to handle vector graphics, allowing for seamless visual asset generation within conversational workflows like Claude Desktop or Cursor.
-  mental_damage: Because explaining SVG paths to a chatbot was hard enough, now you can just watch it hallucinate a minimalist mountain range in real-time.
+  why_it_matters: >-
+    It provides LLMs with a direct capability to handle vector graphics, allowing for seamless visual asset generation
+    within conversational workflows like Claude Desktop or Cursor.
+  mental_damage: >-
+    Because explaining SVG paths to a chatbot was hard enough, now you can just watch it hallucinate a minimalist
+    mountain range in real-time.
   tags:
     - mcp
     - svg
@@ -51,31 +59,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is explicitly an MCP server designed to provide specific domain capabilities (SVG manipulation) to host AI environments.
+  reason: >-
+    The product identity is explicitly an MCP server designed to provide specific domain capabilities (SVG manipulation)
+    to host AI environments.
   evidence:
     - Repo description explicitly identifies it as a 'Model Context Protocol server'
     - README highlights integration with Claude Desktop, Cursor, and VS Code via MCP
     - Primary functionality is providing tools (generate, edit, convert) to an LLM via MCP protocol
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: '2026-05-06T22:12:15.615Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:47.861Z"
+    updated_at: '2026-09-03T05:16:47.861Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:01:36.616Z"
+    updated_at: '2026-07-21T16:01:36.616Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +99,9 @@ processing:
       input_hash: sha256:6f1c4d45c4eb75961c5eadd2f0282131178f08d79ccb74bb9cff17e52fbe2943
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product identity is explicitly an MCP server designed to provide specific domain capabilities (SVG manipulation) to host AI environments.
+      decision_reason: >-
+        The product identity is explicitly an MCP server designed to provide specific domain capabilities (SVG
+        manipulation) to host AI environments.
       decision_evidence:
         - Repo description explicitly identifies it as a 'Model Context Protocol server'
         - README highlights integration with Claude Desktop, Cursor, and VS Code via MCP
@@ -96,6 +109,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is the MCP server implementation rather than a general editor plugin.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is the MCP server implementation rather
+        than a general editor plugin.
       review_reason: null
       review_resume_lifecycle: null

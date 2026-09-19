@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kevinelliott__agentmanager__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Agent infrastructure
         anchor_text: AgentManager
         extracted_url: https://github.com/kevinelliott/agentmanager
-        surrounding_text: "- **[AgentManager](https://github.com/kevinelliott/agentmanager)** `⭐ 24` — Lightweight CLI for managing multiple agent runs/sessions and workflows."
+        surrounding_text: >-
+          - **[AgentManager](https://github.com/kevinelliott/agentmanager)** `⭐ 24` — Lightweight CLI for managing
+          multiple agent runs/sessions and workflows.
         confidence: high
 metadata:
   github:
@@ -30,10 +32,10 @@ metadata:
     archived: false
     full_name: kevinelliott/agentmanager
     html_url: https://github.com/kevinelliott/agentmanager
-    created_at: "2026-01-08T17:37:01Z"
-    pushed_at: "2026-07-20T03:05:11Z"
+    created_at: '2026-01-08T17:37:01Z'
+    pushed_at: '2026-07-20T03:05:11Z'
     description: CLI/TUI app to easily detect, manage, install, and update AI Agent CLI tools
-    homepage: ""
+    homepage: ''
     topics:
       - agent
       - agentic-ai
@@ -48,13 +50,15 @@ metadata:
       - cli-tool
       - tui
       - tui-app
-    last_checked_at: "2026-07-30T05:05:56.109Z"
+    last_checked_at: '2026-07-30T05:05:56.109Z'
     readme:
-      fetched_at: "2026-07-30T05:05:56.109Z"
+      fetched_at: '2026-07-30T05:05:56.109Z'
       bytes: 17464
 insights:
   summary: CLI/TUI app to detect, manage, install, and update AI Agent CLI tools across platforms.
-  why_it_matters: It centralizes the fragmented ecosystem of AI coding agents into a single management interface, reducing the overhead of tracking and updating multiple tools.
+  why_it_matters: >-
+    It centralizes the fragmented ecosystem of AI coding agents into a single management interface, reducing the
+    overhead of tracking and updating multiple tools.
   mental_damage: Finally, a tool to manage the tools that were supposed to manage your tools.
   tags:
     - cli
@@ -65,31 +69,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It acts as a workflow utility that augments the developer's environment by managing the tools (agents) rather than being a coding agent itself.
+  reason: >-
+    It acts as a workflow utility that augments the developer's environment by managing the tools (agents) rather than
+    being a coding agent itself.
   evidence:
     - Repo description explicitly defines it as a tool to 'manage, install, and update AI Agent CLI tools'.
     - README lists detection and management for Claude Code, Aider, and Gemini CLI, confirming it wraps other agents.
-    - Source list 'awesome-cli-coding-agents' places it in 'Harnesses & orchestration > Agent infrastructure', supporting a tooling/utility identity.
+    - >-
+      Source list 'awesome-cli-coding-agents' places it in 'Harnesses & orchestration > Agent infrastructure',
+      supporting a tooling/utility identity.
 placement:
-  primary_category: ai-dev-extensions
-  section: null
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'agent-orchestration'"
+  reason: 'Categorization review required: placement disagreement: retained ''ai-dev-extensions'', proposed ''agent-orchestration'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.624Z"
+    updated_at: '2026-05-06T22:12:15.624Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:56.109Z"
+    updated_at: '2026-07-30T05:05:56.109Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:12:28.547Z"
+    updated_at: '2026-07-21T16:12:28.547Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -102,14 +111,24 @@ processing:
       input_hash: sha256:8502083b0420e1b55289ccfded10446cddf56e25f1d91b2405d4abc6b53d5a14
       proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: The tool's primary purpose is orchestrating and managing multiple AI agents (installation, updates, version checks), fitting the agent orchestration category despite its CLI/TUI form factor.
+      decision_reason: >-
+        The tool's primary purpose is orchestrating and managing multiple AI agents (installation, updates, version
+        checks), fitting the agent orchestration category despite its CLI/TUI form factor.
       decision_evidence:
-        - Repo description explicitly states it is for 'detecting, managing, installing, and updating AI Agent CLI tools'
-        - README highlights features like agent detection, version management, and parallel checks across multiple agents
+        - >-
+          Repo description explicitly states it is for 'detecting, managing, installing, and updating AI Agent CLI
+          tools'
+        - >-
+          README highlights features like agent detection, version management, and parallel checks across multiple
+          agents
         - Source-list context places it under 'Harnesses & orchestration > Agent infrastructure'
       category_candidates:
         - agent-orchestration
         - ai-dev-extensions
-      contrastive_reason: Choose agent-orchestration over ai-dev-extensions because the core value is multi-agent coordination and lifecycle management rather than augmenting a single host assistant.
-      review_reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'agent-orchestration'"
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-dev-extensions because the core value is multi-agent coordination and
+        lifecycle management rather than augmenting a single host assistant.
+      review_reason: >-
+        Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed
+        'agent-orchestration'
       review_resume_lifecycle: null

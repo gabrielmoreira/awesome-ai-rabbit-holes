@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__heilgar__shadcn-ui-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Community Servers
         anchor_text: shadcn-ui-mcp-server
         extracted_url: https://github.com/heilgar/shadcn-ui-mcp-server
-        surrounding_text: "- **[shadcn-ui-mcp-server](https://github.com/heilgar/shadcn-ui-mcp-server)** - A powerful and flexible MCP server designed to enhance the development experience with Shadcn UI components, providing tools for component management, documentation, and installation."
+        surrounding_text: >-
+          - **[shadcn-ui-mcp-server](https://github.com/heilgar/shadcn-ui-mcp-server)** - A powerful and flexible MCP
+          server designed to enhance the development experience with Shadcn UI components, providing tools for component
+          management, documentation, and installation.
         confidence: high
 metadata:
   github:
@@ -29,18 +32,20 @@ metadata:
     archived: false
     full_name: heilgar/shadcn-ui-mcp-server
     html_url: https://github.com/heilgar/shadcn-ui-mcp-server
-    created_at: "2025-05-15T20:23:42Z"
-    pushed_at: "2025-05-21T16:34:27Z"
+    created_at: '2025-05-15T20:23:42Z'
+    pushed_at: '2025-05-21T16:34:27Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:36.299Z"
+    last_checked_at: '2026-07-30T05:05:36.299Z'
     readme:
-      fetched_at: "2026-07-30T05:05:36.299Z"
+      fetched_at: '2026-07-30T05:05:36.299Z'
       bytes: 3659
 insights:
   summary: An MCP server that exposes shadcn/ui components and blocks as tools for AI assistants.
-  why_it_matters: Lets AI coding assistants directly list, read docs for, and install shadcn/ui components and blocks without leaving the assistant context.
+  why_it_matters: >-
+    Lets AI coding assistants directly list, read docs for, and install shadcn/ui components and blocks without leaving
+    the assistant context.
   mental_damage: Now your AI can argue with you about which shadcn component to use, in real time.
   tags:
     - mcp
@@ -50,31 +55,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server providing domain-specific tools for shadcn/ui, not a general assistant or extension.
+  reason: >-
+    The product's core identity is an MCP server providing domain-specific tools for shadcn/ui, not a general assistant
+    or extension.
   evidence:
     - README explicitly describes it as an MCP server with tools for shadcn/ui components/blocks
     - Listed in awesome-mcp-servers under Community Servers
     - Provides MCP-specific installation/config for Claude Desktop, Windsurf, Cursor
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.618Z"
+    updated_at: '2026-05-06T22:12:15.618Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:36.299Z"
+    updated_at: '2026-07-30T05:05:36.299Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:05:21.241Z"
+    updated_at: '2026-07-21T16:05:21.241Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,7 +95,9 @@ processing:
       input_hash: sha256:e3d700e1a68528c60ee16b54b6e5e46c667b85a452df1031d897752230d37c1b
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP server providing domain-specific tools for shadcn/ui, not a general assistant or extension.
+      decision_reason: >-
+        The product's core identity is an MCP server providing domain-specific tools for shadcn/ui, not a general
+        assistant or extension.
       decision_evidence:
         - README explicitly describes it as an MCP server with tools for shadcn/ui components/blocks
         - Listed in awesome-mcp-servers under Community Servers
@@ -95,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is fundamentally an MCP server (with domain-specific tools) rather than an extension layer for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is fundamentally an MCP server (with domain-specific
+        tools) rather than an extension layer for another assistant.
       review_reason: null
       review_resume_lifecycle: null

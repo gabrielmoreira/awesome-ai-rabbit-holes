@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mutable__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Mutable AI
         anchor_text: Mutable AI
         extracted_url: https://mutable.ai
-        surrounding_text: "## [Mutable AI](https://mutable.ai/)"
+        surrounding_text: '## [Mutable AI](https://mutable.ai/)'
         confidence: high
 metadata:
   github:
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: Mutable AI is a platform for AI-driven code generation and project scaffolding from natural language prompts.
-  why_it_matters: It enables developers to quickly generate, modify, or scaffold entire codebases or applications by describing what they want in plain language.
-  mental_damage: Now you can replace your carefully crafted architecture diagrams with a single prompt and hope the AI understands your edge cases.
+  why_it_matters: >-
+    It enables developers to quickly generate, modify, or scaffold entire codebases or applications by describing what
+    they want in plain language.
+  mental_damage: >-
+    Now you can replace your carefully crafted architecture diagrams with a single prompt and hope the AI understands
+    your edge cases.
   tags:
     - app-builder
     - code-generation
@@ -47,20 +51,23 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product identifies as an autonomous agent for code refactoring and repository management, fitting the coding-agents profile as a primary assistant.
+  reason: >-
+    The product identifies as an autonomous agent for code refactoring and repository management, fitting the
+    coding-agents profile as a primary assistant.
   evidence:
     - Included in the 'awesome-ai-agents' list under the specific section for Mutable AI.
     - Product identity is an AI agent that plans and executes changes on a codebase.
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: app-builders
+  secondary_categories: []
+  section: Scaffolding & Boilerplate
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'app-builders'"
+  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''app-builders'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +76,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:05.990Z"
+    updated_at: '2026-07-21T15:30:05.990Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -82,13 +89,17 @@ processing:
       input_hash: sha256:f7644dc14bc54007c778fb5cae075148e51aa93181e1b0b1bee086ff714574cc
       proposed_primary_category: app-builders
       disagreement: true
-      decision_reason: The product's core value is turning prompts into apps or codebases, which aligns with the app-builders category rather than being a primary coding assistant or extension.
+      decision_reason: >-
+        The product's core value is turning prompts into apps or codebases, which aligns with the app-builders category
+        rather than being a primary coding assistant or extension.
       decision_evidence:
         - Seen in awesome-ai-agents under 'Mutable AI' as an autonomous agent for code generation
         - Primary identity is prompt-to-app/codebase generation, not repo editing or host integration
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: Choose app-builders over coding-agents because the main surface is prompt-to-app generation rather than assisting with editing an existing repo.
-      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'app-builders'"
+      contrastive_reason: >-
+        Choose app-builders over coding-agents because the main surface is prompt-to-app generation rather than
+        assisting with editing an existing repo.
+      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''app-builders'''
       review_resume_lifecycle: null

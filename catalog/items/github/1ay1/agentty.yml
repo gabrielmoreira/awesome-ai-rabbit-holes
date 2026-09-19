@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__1ay1__agentty__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-07-30T05:05:26.992Z"
+      discovered_at: '2026-07-30T05:05:26.992Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,12 @@ provenance:
           - Open Source
         anchor_text: agentty
         extracted_url: https://github.com/1ay1/agentty
-        surrounding_text: "- **[agentty](https://github.com/1ay1/agentty)** `⭐ 164` — Native C++26 terminal coding agent and drop-in claude-code alternative; single ~13.6 MB static binary with sub-millisecond cold start and zero runtime deps (no Node/Python/Electron). Sandboxed by default (Bubblewrap/`sandbox-exec`), model-agnostic (Claude, OpenAI, Groq, OpenRouter, Together, Cerebras, local Ollama), runs inside Zed over ACP, and drives air-gapped hosts over SSH. Linux/macOS/Windows/Termux. MIT."
+        surrounding_text: >-
+          - **[agentty](https://github.com/1ay1/agentty)** `⭐ 164` — Native C++26 terminal coding agent and drop-in
+          claude-code alternative; single ~13.6 MB static binary with sub-millisecond cold start and zero runtime deps
+          (no Node/Python/Electron). Sandboxed by default (Bubblewrap/`sandbox-exec`), model-agnostic (Claude, OpenAI,
+          Groq, OpenRouter, Together, Cerebras, local Ollama), runs inside Zed over ACP, and drives air-gapped hosts
+          over SSH. Linux/macOS/Windows/Termux. MIT.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: 1ay1/agentty
     html_url: https://github.com/1ay1/agentty
-    created_at: "2026-04-17T12:44:40Z"
-    pushed_at: "2026-09-16T21:39:02Z"
+    created_at: '2026-04-17T12:44:40Z'
+    pushed_at: '2026-09-16T21:39:02Z'
     description: AI pair programming in your terminal — one static binary, sub-ms startup, any model
     homepage: https://agentty.org
     topics:
@@ -55,13 +60,15 @@ metadata:
       - static-binary
       - terminal
       - tui
-    last_checked_at: "2026-09-17T04:13:25.186Z"
+    last_checked_at: '2026-09-17T04:13:25.186Z'
     readme:
-      fetched_at: "2026-09-17T04:13:25.185Z"
+      fetched_at: '2026-09-17T04:13:25.185Z'
       bytes: 21561
 insights:
   summary: A terminal-native coding agent distributed as a single C++ static binary with low-latency startup.
-  why_it_matters: Provides a lightweight, model-agnostic alternative to heavy Node- or Python-based agents, featuring built-in local RAG and sandboxed execution.
+  why_it_matters: >-
+    Provides a lightweight, model-agnostic alternative to heavy Node- or Python-based agents, featuring built-in local
+    RAG and sandboxed execution.
   mental_damage: Because our terminal environments weren't already cluttered enough with competing, single-binary AI abstractions.
   tags:
     - terminal
@@ -79,6 +86,7 @@ curation:
     - Includes full autonomous tool suites for reading, writing, and executing shell commands
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -86,17 +94,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-07-30T05:05:26.994Z"
+    updated_at: '2026-07-30T05:05:26.994Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:25.186Z"
+    updated_at: '2026-09-17T04:13:25.186Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:22:15.488Z"
+    updated_at: '2026-08-27T06:22:15.488Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -113,7 +121,9 @@ processing:
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because the tool's primary identity is a standalone terminal agent rather than a plugin meant to augment an existing editor.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because the tool's primary identity is a standalone terminal agent
+        rather than a plugin meant to augment an existing editor.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__commit__dev__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Commit
         anchor_text: Commit
         extracted_url: https://commit.dev
-        surrounding_text: "## [Commit](https://commit.dev)"
+        surrounding_text: '## [Commit](https://commit.dev)'
         confidence: high
 metadata:
   github:
@@ -46,20 +46,23 @@ insights:
   confidence: low
 curation:
   status: included
-  reason: The project is categorized as an autonomous agent that handles repo-level tasks, making it a coding agent rather than just an extension.
+  reason: >-
+    The project is categorized as an autonomous agent that handles repo-level tasks, making it a coding agent rather
+    than just an extension.
   evidence:
     - Identified as an autonomous agent in awesome-ai-agents
     - Domain focus is 'Commit', implying direct repo manipulation
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: low confidence"
+  reason: 'Categorization review required: low confidence'
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.660Z"
+    updated_at: '2026-05-06T22:12:15.660Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +71,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:33:34.655Z"
+    updated_at: '2026-07-20T15:33:34.655Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -81,13 +84,17 @@ processing:
       input_hash: sha256:6dd0b4d4bb7377d86fdda1272ec3d976642cb8fb299d2f7117a1964aaea3dd2f
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: The project is categorized as an autonomous agent that handles repo-level tasks, making it a coding agent rather than just an extension.
+      decision_reason: >-
+        The project is categorized as an autonomous agent that handles repo-level tasks, making it a coding agent rather
+        than just an extension.
       decision_evidence:
         - Identified as an autonomous agent in awesome-ai-agents
         - Domain focus is 'Commit', implying direct repo manipulation
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because the source-list context identifies it as an autonomous agent rather than a simple integration for an existing editor.
-      review_reason: "Categorization review required: low confidence"
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because the source-list context identifies it as an autonomous agent
+        rather than a simple integration for an existing editor.
+      review_reason: 'Categorization review required: low confidence'
       review_resume_lifecycle: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__github__com__mcp__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-12T15:06:19.300Z"
+      discovered_at: '2026-05-12T15:06:19.300Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - MCP Servers and Directories
         anchor_text: VS Code MCP Directory
         extracted_url: https://code.visualstudio.com/mcp
-        surrounding_text: "- **[VS Code MCP Directory](https://code.visualstudio.com/mcp)** – Official VS Code MCP directory."
+        surrounding_text: '- **[VS Code MCP Directory](https://code.visualstudio.com/mcp)** – Official VS Code MCP directory.'
         confidence: high
 metadata:
   github:
@@ -34,9 +34,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The GitHub MCP Registry is a curated directory of Model Context Protocol servers for connecting AI assistants to external tools and data sources.
-  why_it_matters: It provides developers with a centralized discovery point for MCP servers that enable AI agents to interact with APIs, files, and services via natural language.
-  mental_damage: Another registry to bookmark and forget, adding to the growing pile of MCP tooling directories that all promise to be 'the central hub'.
+  summary: >-
+    The GitHub MCP Registry is a curated directory of Model Context Protocol servers for connecting AI assistants to
+    external tools and data sources.
+  why_it_matters: >-
+    It provides developers with a centralized discovery point for MCP servers that enable AI agents to interact with
+    APIs, files, and services via natural language.
+  mental_damage: >-
+    Another registry to bookmark and forget, adding to the growing pile of MCP tooling directories that all promise to
+    be 'the central hub'.
   tags:
     - mcp
     - registry
@@ -44,13 +50,23 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The MCP Registry is included because it is an MCP-first discovery tool for servers and tooling, matching the core identity of the MCP Servers & Tooling category.
+  reason: >-
+    The MCP Registry is included because it is an MCP-first discovery tool for servers and tooling, matching the core
+    identity of the MCP Servers & Tooling category.
   evidence:
-    - "The scraped site context identifies it as 'MCP Registry' with the description 'A faster, safer way to build with AI: the GitHub MCP Registry centralizes MCP servers for effortless discovery, integration, and open collaboration.'"
-    - It appears in the awesome-ai-coding-tools list under the section 'MCP Servers and Directories', confirming its role as a curated directory for MCP infrastructure.
-    - The registry lists and enables installation of MCP servers for GitHub, Chrome DevTools, Notion, databases, and other services, demonstrating its function as MCP infrastructure rather than a client or extension.
+    - >-
+      The scraped site context identifies it as 'MCP Registry' with the description 'A faster, safer way to build with
+      AI: the GitHub MCP Registry centralizes MCP servers for effortless discovery, integration, and open
+      collaboration.'
+    - >-
+      It appears in the awesome-ai-coding-tools list under the section 'MCP Servers and Directories', confirming its
+      role as a curated directory for MCP infrastructure.
+    - >-
+      The registry lists and enables installation of MCP servers for GitHub, Chrome DevTools, Notion, databases, and
+      other services, demonstrating its function as MCP infrastructure rather than a client or extension.
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Registries & Discovery
 lifecycle:
   status: incubating
@@ -58,10 +74,12 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-12T15:06:19.301Z"
+    updated_at: '2026-05-12T15:06:19.301Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -69,7 +87,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-12T16:00:18.213Z"
+    updated_at: '2026-05-12T16:00:18.213Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

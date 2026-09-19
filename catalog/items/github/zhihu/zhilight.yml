@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__zhihu__zhilight__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 推理 Inference
         anchor_text: ZhiLight
         extracted_url: https://github.com/zhihu/zhilight
-        surrounding_text: "42. [ZhiLight](https://github.com/zhihu/ZhiLight): A highly optimized inference acceleration engine for Llama and its variants."
+        surrounding_text: >-
+          42. [ZhiLight](https://github.com/zhihu/ZhiLight): A highly optimized inference acceleration engine for Llama
+          and its variants.
         confidence: high
 metadata:
   github:
@@ -29,10 +31,10 @@ metadata:
     archived: false
     full_name: zhihu/ZhiLight
     html_url: https://github.com/zhihu/ZhiLight
-    created_at: "2024-12-06T11:28:17Z"
-    pushed_at: "2026-03-18T02:47:55Z"
+    created_at: '2024-12-06T11:28:17Z'
+    pushed_at: '2026-03-18T02:47:55Z'
     description: A highly optimized LLM inference acceleration engine for Llama and its variants.
-    homepage: ""
+    homepage: ''
     topics:
       - cuda
       - deepseek-r1
@@ -44,14 +46,20 @@ metadata:
       - llm-serving
       - model-serving
       - pytorch
-    last_checked_at: "2026-07-21T15:21:27.016Z"
+    last_checked_at: '2026-07-21T15:21:27.016Z'
     readme:
-      fetched_at: "2026-07-21T15:21:27.016Z"
+      fetched_at: '2026-07-21T15:21:27.016Z'
       bytes: 6512
 insights:
-  summary: ZhiLight is a highly optimized LLM inference acceleration engine for Llama and its variants, focused on performance improvements for PCIe-based GPUs.
-  why_it_matters: It provides measurable QPS and latency gains over vLLM and SGLang on consumer and data-center GPUs, serving as a high-performance local inference runtime.
-  mental_damage: Another inference engine promising 2x speedup while you wait for model downloads to finish, adding to the paradox of choice in local LLM serving.
+  summary: >-
+    ZhiLight is a highly optimized LLM inference acceleration engine for Llama and its variants, focused on performance
+    improvements for PCIe-based GPUs.
+  why_it_matters: >-
+    It provides measurable QPS and latency gains over vLLM and SGLang on consumer and data-center GPUs, serving as a
+    high-performance local inference runtime.
+  mental_damage: >-
+    Another inference engine promising 2x speedup while you wait for model downloads to finish, adding to the paradox of
+    choice in local LLM serving.
   tags:
     - llm-inference
     - local-ai
@@ -61,31 +69,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: ZhiLight is a local inference serving stack optimized for Llama-family models on consumer and data-center GPUs, matching the Local AI category's focus on self-hosted execution as the main reason to use the product.
+  reason: >-
+    ZhiLight is a local inference serving stack optimized for Llama-family models on consumer and data-center GPUs,
+    matching the Local AI category's focus on self-hosted execution as the main reason to use the product.
   evidence:
-    - "Repo description: 'A highly optimized LLM inference acceleration engine for Llama and its variants.'"
-    - "README: 'Start OpenAI compatible server' via `python -m zhilight.server.openai.entrypoints.api_server` and provides Docker image for local deployment."
+    - 'Repo description: ''A highly optimized LLM inference acceleration engine for Llama and its variants.'''
+    - >-
+      README: 'Start OpenAI compatible server' via `python -m zhilight.server.openai.entrypoints.api_server` and
+      provides Docker image for local deployment.
     - Performance benchmarks compare QPS, TTFT, and TPOT against vLLM and SGLang on AD102 PCIe, A800, and H20 GPUs.
 placement:
   primary_category: local-ai
-  section: Local Serving / APIs
+  secondary_categories: []
+  section: Inference Engines
 lifecycle:
   status: promotion_candidate
   reason: Stars (906) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.657Z"
+    updated_at: '2026-05-06T22:12:15.657Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:27.016Z"
+    updated_at: '2026-07-21T15:21:27.016Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:52:46.203Z"
+    updated_at: '2026-05-12T15:52:46.203Z'
     cause: null
     next_retry_at: null
     attempts: 1

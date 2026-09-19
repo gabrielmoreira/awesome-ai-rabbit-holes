@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__grzgrzgrz3__pingwa-client__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-27T05:20:52.308Z"
+      discovered_at: '2026-07-27T05:20:52.308Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: grzgrzgrz3/pingwa-client
         extracted_url: https://github.com/grzgrzgrz3/pingwa-client
-        surrounding_text: "- [grzgrzgrz3/pingwa-client](https://github.com/grzgrzgrz3/pingwa-client) [![grzgrzgrz3/pingwa-client MCP server](https://glama.ai/mcp/servers/grzgrzgrz3/pingwa-client/badges/score.svg)](https://glama.ai/mcp/servers/grzgrzgrz3/pingwa-client) 🐍 ☁️ 🍎 🪟 🐧 - WhatsApp notifications for AI agents with zero setup — no Meta account, no templates, no dashboard: text \"join\", get an API key, send in 60 seconds (`uvx pingwa mcp` or remote at pingwa.dev/mcp). Two-way: `ask` with tap-to-answer buttons, `check_replies`. Official Meta Cloud API — won't ban your number."
+        surrounding_text: >-
+          - [grzgrzgrz3/pingwa-client](https://github.com/grzgrzgrz3/pingwa-client) [![grzgrzgrz3/pingwa-client MCP
+          server](https://glama.ai/mcp/servers/grzgrzgrz3/pingwa-client/badges/score.svg)](https://glama.ai/mcp/servers/grzgrzgrz3/pingwa-client)
+          🐍 ☁️ 🍎 🪟 🐧 - WhatsApp notifications for AI agents with zero setup — no Meta account, no templates, no
+          dashboard: text "join", get an API key, send in 60 seconds (`uvx pingwa mcp` or remote at pingwa.dev/mcp).
+          Two-way: `ask` with tap-to-answer buttons, `check_replies`. Official Meta Cloud API — won't ban your number.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: grzgrzgrz3/pingwa-client
     html_url: https://github.com/grzgrzgrz3/pingwa-client
-    created_at: "2026-07-14T15:10:24Z"
-    pushed_at: "2026-07-22T22:23:20Z"
+    created_at: '2026-07-14T15:10:24Z'
+    pushed_at: '2026-07-22T22:23:20Z'
     description: Text your phone from any agent, script or CI - and tap to reply. Python/CLI/MCP client for   pingwa.
     homepage: https://pingwa.dev
     topics:
@@ -44,14 +49,20 @@ metadata:
       - notifications
       - python
       - whatsapp
-    last_checked_at: "2026-09-03T05:16:55.465Z"
+    last_checked_at: '2026-09-03T05:16:55.465Z'
     readme:
-      fetched_at: "2026-09-03T05:16:55.465Z"
+      fetched_at: '2026-09-03T05:16:55.465Z'
       bytes: 4208
 insights:
-  summary: A Python CLI and MCP server that enables two-way WhatsApp notifications for AI agents and scripts to facilitate human-in-the-loop workflows.
-  why_it_matters: It provides a zero-setup way for autonomous agents to request human intervention or report status via a familiar messaging interface.
-  mental_damage: Because nothing says 'cutting-edge developer workflow' like getting a WhatsApp notification from a script to ask if it should deploy to production.
+  summary: >-
+    A Python CLI and MCP server that enables two-way WhatsApp notifications for AI agents and scripts to facilitate
+    human-in-the-loop workflows.
+  why_it_matters: >-
+    It provides a zero-setup way for autonomous agents to request human intervention or report status via a familiar
+    messaging interface.
+  mental_damage: >-
+    Because nothing says 'cutting-edge developer workflow' like getting a WhatsApp notification from a script to ask if
+    it should deploy to production.
   tags:
     - whatsapp
     - mcp
@@ -61,31 +72,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's primary purpose is to augment AI agents with human-in-the-loop workflow capabilities via a messaging interface.
+  reason: >-
+    The tool's primary purpose is to augment AI agents with human-in-the-loop workflow capabilities via a messaging
+    interface.
   evidence:
     - Enables two-way communication where agents can 'ask' and humans can 'tap to reply' via WhatsApp
     - Provides an MCP server implementation specifically for integration with tools like Claude Desktop and Claude Code
     - Functions as a CLI and Python client to extend the capabilities of existing scripts and agents
 placement:
-  primary_category: ai-dev-extensions
-  section: IDE / UI / Workflow Add-ons
+  primary_category: mcp
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-27T05:20:52.310Z"
+    updated_at: '2026-07-27T05:20:52.310Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:55.465Z"
+    updated_at: '2026-09-03T05:16:55.465Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-03T05:24:24.097Z"
+    updated_at: '2026-09-03T05:24:24.097Z'
     cause: null
     next_retry_at: null
     classification:
@@ -95,15 +109,21 @@ processing:
       input_hash: sha256:aef8dc70fbfc2d2287d7d1c66c02ac64e821f4771df7f5d05cdc7582c5ebb24c
       proposed_primary_category: ai-dev-extensions
       disagreement: false
-      decision_reason: The tool's primary purpose is to augment AI agents with human-in-the-loop workflow capabilities via a messaging interface.
+      decision_reason: >-
+        The tool's primary purpose is to augment AI agents with human-in-the-loop workflow capabilities via a messaging
+        interface.
       decision_evidence:
         - Enables two-way communication where agents can 'ask' and humans can 'tap to reply' via WhatsApp
-        - Provides an MCP server implementation specifically for integration with tools like Claude Desktop and Claude Code
+        - >-
+          Provides an MCP server implementation specifically for integration with tools like Claude Desktop and Claude
+          Code
         - Functions as a CLI and Python client to extend the capabilities of existing scripts and agents
       category_candidates:
         - ai-dev-extensions
         - mcp
-      contrastive_reason: Choose ai-dev-extensions over mcp because the tool's core identity is a workflow augmentation for agents, with MCP serving as the integration layer.
+      contrastive_reason: >-
+        Choose ai-dev-extensions over mcp because the tool's core identity is a workflow augmentation for agents, with
+        MCP serving as the integration layer.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

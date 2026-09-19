@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pipeboard-co__meta-ads-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: pipeboard-co/meta-ads-mcp
         extracted_url: https://github.com/pipeboard-co/meta-ads-mcp
-        surrounding_text: "- [pipeboard-co/meta-ads-mcp](https://github.com/pipeboard-co/meta-ads-mcp) 🐍 ☁️ 🏠 - Meta Ads automation that just works. Trusted by 10,000+ businesses to analyze performance, test creatives, optimize spend, and scale results — simply and reliably."
+        surrounding_text: >-
+          - [pipeboard-co/meta-ads-mcp](https://github.com/pipeboard-co/meta-ads-mcp) 🐍 ☁️ 🏠 - Meta Ads automation
+          that just works. Trusted by 10,000+ businesses to analyze performance, test creatives, optimize spend, and
+          scale results — simply and reliably.
         confidence: high
     - id: discovery__github__pipeboard-co__meta-ads-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +38,10 @@ provenance:
           - Community Servers
         anchor_text: Meta Ads Remote MCP
         extracted_url: https://github.com/pipeboard-co/meta-ads-mcp
-        surrounding_text: "- **[Meta Ads Remote MCP](https://github.com/pipeboard-co/meta-ads-mcp)** - Remote MCP server to interact with Meta Ads API - access, analyze, and manage Facebook, Instagram, and other Meta platforms advertising campaigns."
+        surrounding_text: >-
+          - **[Meta Ads Remote MCP](https://github.com/pipeboard-co/meta-ads-mcp)** - Remote MCP server to interact with
+          Meta Ads API - access, analyze, and manage Facebook, Instagram, and other Meta platforms advertising
+          campaigns.
         confidence: high
 metadata:
   github:
@@ -45,9 +51,12 @@ metadata:
     archived: false
     full_name: pipeboard-co/meta-ads-mcp
     html_url: https://github.com/pipeboard-co/meta-ads-mcp
-    created_at: "2025-04-11T20:53:47Z"
-    pushed_at: "2026-07-16T20:10:25Z"
-    description: Meta Ads (Facebook/Instagram) MCP server for Claude, ChatGPT, Perplexity & Cursor — the Meta node of Pipeboard’s 5-platform family (+ Google, TikTok, Snap, Reddit). Hosted remote MCP, badged Meta Business Partner, free plan — no self-hosting required.
+    created_at: '2025-04-11T20:53:47Z'
+    pushed_at: '2026-07-16T20:10:25Z'
+    description: >-
+      Meta Ads (Facebook/Instagram) MCP server for Claude, ChatGPT, Perplexity & Cursor — the Meta node of Pipeboard’s
+      5-platform family (+ Google, TikTok, Snap, Reddit). Hosted remote MCP, badged Meta Business Partner, free plan —
+      no self-hosting required.
     homepage: https://pipeboard.co
     topics:
       - advertising
@@ -60,14 +69,20 @@ metadata:
       - meta-ads
       - model-context-protocol
       - pipeboard
-    last_checked_at: "2026-07-20T16:42:34.494Z"
+    last_checked_at: '2026-07-20T16:42:34.494Z'
     readme:
-      fetched_at: "2026-07-20T16:42:34.494Z"
+      fetched_at: '2026-07-20T16:42:34.494Z'
       bytes: 31018
 insights:
-  summary: An MCP server that connects LLMs to Meta Ads, enabling AI interfaces to analyze, manage, and optimize Facebook and Instagram advertising campaigns.
-  why_it_matters: Developers building ad-tech automation or managing Meta campaigns can delegate performance analysis and optimization directly to their existing MCP-compatible coding assistants.
-  mental_damage: We have successfully abstracted away the last remaining human task that didn't require a CLI, turning the nuanced art of ad spend into a prompt in Cursor.
+  summary: >-
+    An MCP server that connects LLMs to Meta Ads, enabling AI interfaces to analyze, manage, and optimize Facebook and
+    Instagram advertising campaigns.
+  why_it_matters: >-
+    Developers building ad-tech automation or managing Meta campaigns can delegate performance analysis and optimization
+    directly to their existing MCP-compatible coding assistants.
+  mental_damage: >-
+    We have successfully abstracted away the last remaining human task that didn't require a CLI, turning the nuanced
+    art of ad spend into a prompt in Cursor.
   tags:
     - mcp
     - meta-ads
@@ -76,35 +91,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a canonical MCP server implementation designed to give AI assistants domain-specific access to Meta Ads, fitting perfectly under Domain Servers.
+  reason: >-
+    This is a canonical MCP server implementation designed to give AI assistants domain-specific access to Meta Ads,
+    fitting perfectly under Domain Servers.
   evidence:
-    - "Repo description explicitly states: 'MCP server to manage Facebook and Instagram Ads (Meta Ads)'."
-    - README positions it as a 'Model Context Protocol (MCP) server for interacting with Meta Ads' with setup guides for Claude and Cursor.
+    - 'Repo description explicitly states: ''MCP server to manage Facebook and Instagram Ads (Meta Ads)''.'
+    - >-
+      README positions it as a 'Model Context Protocol (MCP) server for interacting with Meta Ads' with setup guides for
+      Claude and Cursor.
     - Featured in 'awesome-mcp-servers' under 'Server Implementations > Marketing'.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: promotion_candidate
   reason: Stars (869) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.592Z"
+    updated_at: '2026-05-06T22:12:15.592Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:34.494Z"
+    updated_at: '2026-07-20T16:42:34.494Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

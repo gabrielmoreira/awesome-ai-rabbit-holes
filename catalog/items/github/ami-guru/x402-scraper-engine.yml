@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ami-guru__x402-scraper-engine__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-09-14T04:13:20.171Z"
+      discovered_at: '2026-09-14T04:13:20.171Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: ami-guru/x402-scraper-engine
         extracted_url: https://github.com/ami-guru/x402-scraper-engine
-        surrounding_text: "- [ami-guru/x402-scraper-engine](https://github.com/ami-guru/x402-scraper-engine) [![ami-guru/x402-scraper-engine MCP server](https://glama.ai/mcp/servers/ami-guru/x402-scraper-engine/badges/score.svg)](https://glama.ai/mcp/servers/ami-guru/x402-scraper-engine) 📇 ☁️ - Production HTTP 402 micropayment web scraper, Llama-3 digest, and Twitter intelligence engine for AI agents on Base L2. Zero API keys, pay-per-call in USDC."
+        surrounding_text: >-
+          - [ami-guru/x402-scraper-engine](https://github.com/ami-guru/x402-scraper-engine)
+          [![ami-guru/x402-scraper-engine MCP
+          server](https://glama.ai/mcp/servers/ami-guru/x402-scraper-engine/badges/score.svg)](https://glama.ai/mcp/servers/ami-guru/x402-scraper-engine)
+          📇 ☁️ - Production HTTP 402 micropayment web scraper, Llama-3 digest, and Twitter intelligence engine for AI
+          agents on Base L2. Zero API keys, pay-per-call in USDC.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: ami-guru/x402-scraper-engine
     html_url: https://github.com/ami-guru/x402-scraper-engine
-    created_at: "2026-09-02T14:14:10Z"
-    pushed_at: "2026-09-12T15:30:53Z"
-    description: HTTP 402 pay-per-call web scraper & Llama-3 digest engine for autonomous AI agents on Base L2. No API keys, no subscriptions.
+    created_at: '2026-09-02T14:14:10Z'
+    pushed_at: '2026-09-12T15:30:53Z'
+    description: >-
+      HTTP 402 pay-per-call web scraper & Llama-3 digest engine for autonomous AI agents on Base L2. No API keys, no
+      subscriptions.
     homepage: https://x402-scraper-engine.gejoe-tt.workers.dev
     topics:
       - agentkit
@@ -54,14 +61,18 @@ metadata:
       - usdc
       - web-scraper
       - web3
-    last_checked_at: "2026-09-14T04:13:22.282Z"
+    last_checked_at: '2026-09-14T04:13:22.282Z'
     readme:
-      fetched_at: "2026-09-14T04:13:22.282Z"
+      fetched_at: '2026-09-14T04:13:22.282Z'
       bytes: 6108
 insights:
   summary: A pay-per-call web scraping and Llama-3 context compression engine powered by HTTP 402 micro-settlements on Base L2.
-  why_it_matters: It provides agents with a subscription-free way to access real-time web data and token-dense, distilled context to reduce downstream LLM costs.
-  mental_damage: Because apparently, the only way to escape the monthly SaaS subscription trap is to move directly into the high-frequency micro-transaction era of agentic warfare.
+  why_it_matters: >-
+    It provides agents with a subscription-free way to access real-time web data and token-dense, distilled context to
+    reduce downstream LLM costs.
+  mental_damage: >-
+    Because apparently, the only way to escape the monthly SaaS subscription trap is to move directly into the
+    high-frequency micro-transaction era of agentic warfare.
   tags:
     - web-scraping
     - context-compression
@@ -71,31 +82,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Its core novelty is providing context-shaping and compression capabilities (scraping and distilling web content) via an API, even though it is also available as an MCP server.
+  reason: >-
+    Its core novelty is providing context-shaping and compression capabilities (scraping and distilling web content) via
+    an API, even though it is also available as an MCP server.
   evidence:
     - README claims 80%+ token savings through Edge LLM context synthesis/distillation.
     - Uses HTTP 402 micro-settlements via USDC on Base L2 to replace traditional API subscriptions.
     - Provides an MCP configuration to expose scraping and auditing tools to assistants like Claude and Cursor.
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: mcp
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-14T04:13:20.172Z"
+    updated_at: '2026-09-14T04:13:20.172Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:22.282Z"
+    updated_at: '2026-09-14T04:13:22.282Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-14T04:16:27.781Z"
+    updated_at: '2026-09-14T04:16:27.781Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -104,7 +118,9 @@ processing:
       input_hash: sha256:8541643d081132854412f4d989582a86296150f211654ee45e86a1b717b01e10
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: Its core novelty is providing context-shaping and compression capabilities (scraping and distilling web content) via an API, even though it is also available as an MCP server.
+      decision_reason: >-
+        Its core novelty is providing context-shaping and compression capabilities (scraping and distilling web content)
+        via an API, even though it is also available as an MCP server.
       decision_evidence:
         - README claims 80%+ token savings through Edge LLM context synthesis/distillation.
         - Uses HTTP 402 micro-settlements via USDC on Base L2 to replace traditional API subscriptions.
@@ -112,7 +128,9 @@ processing:
       category_candidates:
         - context-engineering
         - mcp
-      contrastive_reason: Choose context-engineering over mcp because the tool's primary value is the context compression and scraping engine, whereas MCP is the protocol used to expose its capabilities.
+      contrastive_reason: >-
+        Choose context-engineering over mcp because the tool's primary value is the context compression and scraping
+        engine, whereas MCP is the protocol used to expose its capabilities.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

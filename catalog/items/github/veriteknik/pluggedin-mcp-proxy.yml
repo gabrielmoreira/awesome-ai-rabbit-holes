@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__veriteknik__pluggedin-mcp-proxy__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,14 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: VeriTeknik/pluggedin-mcp-proxy
         extracted_url: https://github.com/veriteknik/pluggedin-mcp-proxy
-        surrounding_text: "- [VeriTeknik/pluggedin-mcp-proxy](https://github.com/VeriTeknik/pluggedin-mcp-proxy)  📇 🏠 - A comprehensive proxy server that combines multiple MCP servers into a single interface with extensive visibility features. It provides discovery and management of tools, prompts, resources, and templates across servers, plus a playground for debugging when building MCP servers."
+        surrounding_text: >-
+          - [VeriTeknik/pluggedin-mcp-proxy](https://github.com/VeriTeknik/pluggedin-mcp-proxy)  📇 🏠 - A comprehensive
+          proxy server that combines multiple MCP servers into a single interface with extensive visibility features. It
+          provides discovery and management of tools, prompts, resources, and templates across servers, plus a
+          playground for debugging when building MCP servers.
         confidence: high
     - id: discovery__github__veriteknik__pluggedin-mcp-proxy__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +39,10 @@ provenance:
           - Official Servers
         anchor_text: Plugged.in
         extracted_url: https://github.com/veriteknik/pluggedin-mcp-proxy
-        surrounding_text: "- **[Plugged.in](https://github.com/VeriTeknik/pluggedin-mcp-proxy)** - A comprehensive proxy that combines multiple MCP servers into a single MCP. It provides discovery and management of tools, prompts, resources, and templates across servers, plus a playground for debugging when building MCP servers."
+        surrounding_text: >-
+          - **[Plugged.in](https://github.com/VeriTeknik/pluggedin-mcp-proxy)** - A comprehensive proxy that combines
+          multiple MCP servers into a single MCP. It provides discovery and management of tools, prompts, resources, and
+          templates across servers, plus a playground for debugging when building MCP servers.
         confidence: high
 metadata:
   github:
@@ -45,19 +52,25 @@ metadata:
     archived: false
     full_name: VeriTeknik/pluggedin-mcp-proxy
     html_url: https://github.com/VeriTeknik/pluggedin-mcp-proxy
-    created_at: "2025-04-07T12:26:50Z"
-    pushed_at: "2026-05-10T20:39:02Z"
+    created_at: '2025-04-07T12:26:50Z'
+    pushed_at: '2026-05-10T20:39:02Z'
     description: Plugged.in MCP Server manages all your other MCPs in one MCP.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:21:03.785Z"
+    last_checked_at: '2026-07-21T15:21:03.785Z'
     readme:
-      fetched_at: "2026-07-21T15:21:03.785Z"
+      fetched_at: '2026-07-21T15:21:03.785Z'
       bytes: 31927
 insights:
-  summary: Plugged.in MCP Proxy aggregates multiple MCP servers into a single unified interface with knowledge, memory, and tool routing capabilities.
-  why_it_matters: It lets developers manage and test all MCP servers from one connection while enabling document-aware and memory-augmented workflows across AI clients.
-  mental_damage: Finally, a proxy that adds yet another layer to your MCP stack so you can debug why your agent forgot where it put the keys.
+  summary: >-
+    Plugged.in MCP Proxy aggregates multiple MCP servers into a single unified interface with knowledge, memory, and
+    tool routing capabilities.
+  why_it_matters: >-
+    It lets developers manage and test all MCP servers from one connection while enabling document-aware and
+    memory-augmented workflows across AI clients.
+  mental_damage: >-
+    Finally, a proxy that adds yet another layer to your MCP stack so you can debug why your agent forgot where it put
+    the keys.
   tags:
     - mcp
     - proxy
@@ -67,31 +80,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP-first middleware that aggregates and routes between MCP servers, making MCP infrastructure its core identity rather than a compatibility layer.
+  reason: >-
+    The product is an MCP-first middleware that aggregates and routes between MCP servers, making MCP infrastructure its
+    core identity rather than a compatibility layer.
   evidence:
-    - "Repo description: 'Plugged.in MCP Server manages all your other MCPs in one MCP.'"
-    - "README: 'aggregates multiple Model Context Protocol (MCP) servers into a single unified interface' and 'fetches tool, prompt, and resource configurations from the plugged.in App'"
-    - "Source-list context: listed in awesome-mcp-servers under 'Server Implementations > Aggregators' and 'Official Servers'"
+    - 'Repo description: ''Plugged.in MCP Server manages all your other MCPs in one MCP.'''
+    - >-
+      README: 'aggregates multiple Model Context Protocol (MCP) servers into a single unified interface' and 'fetches
+      tool, prompt, and resource configurations from the plugged.in App'
+    - >-
+      Source-list context: listed in awesome-mcp-servers under 'Server Implementations > Aggregators' and 'Official
+      Servers'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.595Z"
+    updated_at: '2026-05-06T22:12:15.595Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:03.785Z"
+    updated_at: '2026-07-21T15:21:03.785Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:24:05.247Z"
+    updated_at: '2026-05-12T15:24:05.247Z'
     cause: null
     next_retry_at: null
     attempts: 1

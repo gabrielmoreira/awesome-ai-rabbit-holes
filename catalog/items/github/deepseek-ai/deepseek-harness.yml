@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__deepseek-ai__deepseek-harness__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-08-20T04:18:00.401Z"
+      discovered_at: '2026-08-20T04:18:00.401Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -20,7 +20,7 @@ provenance:
           - Harness
         anchor_text: DeepSeek Harness
         extracted_url: https://github.com/deepseek-ai/deepseek-harness
-        surrounding_text: "2. [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness): Everything is a Plugin."
+        surrounding_text: '2. [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness): Everything is a Plugin.'
         confidence: high
 metadata:
   github:
@@ -30,23 +30,29 @@ metadata:
     archived: false
     full_name: deepseek-ai/deepseek-harness
     html_url: https://github.com/deepseek-ai/deepseek-harness
-    created_at: "2026-08-13T11:56:32Z"
-    pushed_at: "2026-09-11T03:06:25Z"
-    description: "DeepSeek Harness: Everything is a Plugin."
+    created_at: '2026-08-13T11:56:32Z'
+    pushed_at: '2026-09-11T03:06:25Z'
+    description: 'DeepSeek Harness: Everything is a Plugin.'
     homepage: https://deepseek.com/harness
     topics:
       - ai-agents
       - cordis
       - dsh
       - dsh-plugin
-    last_checked_at: "2026-09-14T04:13:38.077Z"
+    last_checked_at: '2026-09-14T04:13:38.077Z'
     readme:
-      fetched_at: "2026-09-14T04:13:38.077Z"
+      fetched_at: '2026-09-14T04:13:38.077Z'
       bytes: 2444
 insights:
-  summary: DeepSeek Harness is an open-source agent harness where everything is a plugin, built on Cordis for spatiotemporal composability.
-  why_it_matters: It provides a modular framework for developers to compose and extend AI agents via plugins, enabling customizable agent workflows.
-  mental_damage: Another 'everything is a plugin' framework that promises composability while you spend more time wiring plugins than coding.
+  summary: >-
+    DeepSeek Harness is an open-source agent harness where everything is a plugin, built on Cordis for spatiotemporal
+    composability.
+  why_it_matters: >-
+    It provides a modular framework for developers to compose and extend AI agents via plugins, enabling customizable
+    agent workflows.
+  mental_damage: >-
+    Another 'everything is a plugin' framework that promises composability while you spend more time wiring plugins than
+    coding.
   tags:
     - agent-harness
     - plugin-architecture
@@ -56,31 +62,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: DeepSeek Harness is a code-first framework/SDK for building agents via plugins, fitting Frameworks & SDKs as developers import and script against it rather than operate it as a control plane.
+  reason: >-
+    DeepSeek Harness is a code-first framework/SDK for building agents via plugins, fitting Frameworks & SDKs as
+    developers import and script against it rather than operate it as a control plane.
   evidence:
-    - "Repo description: 'DeepSeek Harness: Everything is a Plugin.'"
-    - "README: 'uses an architecture where everything is a plugin, and is powered by Cordis'"
+    - 'Repo description: ''DeepSeek Harness: Everything is a Plugin.'''
+    - 'README: ''uses an architecture where everything is a plugin, and is powered by Cordis'''
     - Installation via npm/pnpm and CLI usage (pnpm dsh web) indicates developer-facing toolkit
 placement:
-  primary_category: ai-frameworks
-  section: Agent Frameworks
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (199136) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-08-20T04:18:00.404Z"
+    updated_at: '2026-08-20T04:18:00.404Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:38.077Z"
+    updated_at: '2026-09-14T04:13:38.077Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T09:26:10.298Z"
+    updated_at: '2026-08-27T09:26:10.298Z'
     cause: null
     next_retry_at: null
     classification:
@@ -90,15 +99,19 @@ processing:
       input_hash: sha256:1e1bb4eb149b8e96ea6035478003762cd18992e1c2e248990594d45a5650824a
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: DeepSeek Harness is a code-first framework/SDK for building agents via plugins, fitting Frameworks & SDKs as developers import and script against it rather than operate it as a control plane.
+      decision_reason: >-
+        DeepSeek Harness is a code-first framework/SDK for building agents via plugins, fitting Frameworks & SDKs as
+        developers import and script against it rather than operate it as a control plane.
       decision_evidence:
-        - "Repo description: 'DeepSeek Harness: Everything is a Plugin.'"
-        - "README: 'uses an architecture where everything is a plugin, and is powered by Cordis'"
+        - 'Repo description: ''DeepSeek Harness: Everything is a Plugin.'''
+        - 'README: ''uses an architecture where everything is a plugin, and is powered by Cordis'''
         - Installation via npm/pnpm and CLI usage (pnpm dsh web) indicates developer-facing toolkit
       category_candidates:
         - ai-frameworks
         - agent-orchestration
-      contrastive_reason: Choose ai-frameworks over agent-orchestration because developers primarily import/script against the product as a framework/engine (via plugins and CLI) rather than operate it as an operated workbench or control plane.
+      contrastive_reason: >-
+        Choose ai-frameworks over agent-orchestration because developers primarily import/script against the product as
+        a framework/engine (via plugins and CLI) rather than operate it as an operated workbench or control plane.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

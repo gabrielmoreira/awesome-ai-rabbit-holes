@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__j-east__pixel-surgeon-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-08T05:39:05.247Z"
+      discovered_at: '2026-06-08T05:39:05.247Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: j-east/pixel-surgeon-mcp
         extracted_url: https://github.com/j-east/pixel-surgeon-mcp
-        surrounding_text: "- [j-east/pixel-surgeon-mcp](https://github.com/j-east/pixel-surgeon-mcp) [![j-east/pixel-surgeon-mcp MCP server](https://glama.ai/mcp/servers/j-east/pixel-surgeon-mcp/badges/score.svg)](https://glama.ai/mcp/servers/j-east/pixel-surgeon-mcp) 📇 🏠 🍎 🪟 🐧 - AI image and video generation, editing, and transplant-grade region repair. Multi-provider (Gemini 3.1 Flash Image, GPT Image 2, Grok Imagine, Veo 3), 9 tools, 4 style presets, grid-based and interactive crop repair. `npx pixel-surgeon-mcp`"
+        surrounding_text: >-
+          - [j-east/pixel-surgeon-mcp](https://github.com/j-east/pixel-surgeon-mcp) [![j-east/pixel-surgeon-mcp MCP
+          server](https://glama.ai/mcp/servers/j-east/pixel-surgeon-mcp/badges/score.svg)](https://glama.ai/mcp/servers/j-east/pixel-surgeon-mcp)
+          📇 🏠 🍎 🪟 🐧 - AI image and video generation, editing, and transplant-grade region repair. Multi-provider
+          (Gemini 3.1 Flash Image, GPT Image 2, Grok Imagine, Veo 3), 9 tools, 4 style presets, grid-based and
+          interactive crop repair. `npx pixel-surgeon-mcp`
         confidence: high
 metadata:
   github:
@@ -30,18 +35,22 @@ metadata:
     archived: false
     full_name: j-east/pixel-surgeon-mcp
     html_url: https://github.com/j-east/pixel-surgeon-mcp
-    created_at: "2026-04-01T15:31:24Z"
-    pushed_at: "2026-06-04T18:35:36Z"
-    description: MCP server for AI image generation via Google Gemini Flash Image. Style presets, interactive fix, multi-shot region repair.
+    created_at: '2026-04-01T15:31:24Z'
+    pushed_at: '2026-06-04T18:35:36Z'
+    description: >-
+      MCP server for AI image generation via Google Gemini Flash Image. Style presets, interactive fix, multi-shot
+      region repair.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:46.320Z"
+    last_checked_at: '2026-07-30T05:05:46.320Z'
     readme:
-      fetched_at: "2026-07-30T05:05:46.320Z"
+      fetched_at: '2026-07-30T05:05:46.320Z'
       bytes: 9474
 insights:
   summary: MCP server for AI image and video generation, editing, and targeted region repair.
-  why_it_matters: It enables developers to generate and manipulate high-fidelity visual assets and diagrams directly through an MCP-compatible LLM client.
+  why_it_matters: >-
+    It enables developers to generate and manipulate high-fidelity visual assets and diagrams directly through an
+    MCP-compatible LLM client.
   mental_damage: One more way to turn your text-based coding environment into a prompt-heavy visual production studio.
   tags:
     - mcp
@@ -52,31 +61,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly built as an MCP server providing a specific domain of capabilities (image and video manipulation) to LLM clients.
+  reason: >-
+    The project is explicitly built as an MCP server providing a specific domain of capabilities (image and video
+    manipulation) to LLM clients.
   evidence:
     - README identifies the product as an MCP server for image and video generation
     - Provides a specific suite of tools including generate_image, edit_image, and fix_region
     - Integrates multiple model providers like Gemini, OpenAI, and Grok
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-08T05:39:05.248Z"
+    updated_at: '2026-06-08T05:39:05.248Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:46.320Z"
+    updated_at: '2026-07-30T05:05:46.320Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-29T05:45:31.801Z"
+    updated_at: '2026-06-29T05:45:31.801Z'
     cause: null
     next_retry_at: null
     attempts: 1

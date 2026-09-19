@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__norman-finance__norman-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: Norman Finance
         extracted_url: https://github.com/norman-finance/norman-mcp-server
-        surrounding_text: "- **[Norman Finance](https://github.com/norman-finance/norman-mcp-server)** - MCP server for managing accounting and taxes with Norman Finance."
+        surrounding_text: >-
+          - **[Norman Finance](https://github.com/norman-finance/norman-mcp-server)** - MCP server for managing
+          accounting and taxes with Norman Finance.
         confidence: high
 metadata:
   github:
@@ -29,8 +31,8 @@ metadata:
     archived: false
     full_name: norman-finance/norman-mcp-server
     html_url: https://github.com/norman-finance/norman-mcp-server
-    created_at: "2025-04-16T19:06:55Z"
-    pushed_at: "2026-07-20T08:47:34Z"
+    created_at: '2025-04-16T19:06:55Z'
+    pushed_at: '2026-07-20T08:47:34Z'
     description: AI-powered bookkeeping and tax filing automation via MCP for entrepreneurs at the heart of the European economy
     homepage: https://norman.finance
     topics:
@@ -45,14 +47,20 @@ metadata:
       - norman
       - openai
       - vat-filing
-    last_checked_at: "2026-07-20T15:12:06.047Z"
+    last_checked_at: '2026-07-20T15:12:06.047Z'
     readme:
-      fetched_at: "2026-07-20T15:12:06.047Z"
+      fetched_at: '2026-07-20T15:12:06.047Z'
       bytes: 10081
 insights:
-  summary: An MCP server that connects accounting, invoicing, and VAT filing systems to AI assistants like Claude and Cursor for entrepreneurs in the European market.
-  why_it_matters: It lets developers automate financial workflows like invoice creation, transaction categorization, and tax filing directly from their AI coding environment instead of switching to separate bookkeeping tools.
-  mental_damage: Your AI assistant can now legally file your VAT return while you debug the code that broke the very Stripe integration it is reconciling.
+  summary: >-
+    An MCP server that connects accounting, invoicing, and VAT filing systems to AI assistants like Claude and Cursor
+    for entrepreneurs in the European market.
+  why_it_matters: >-
+    It lets developers automate financial workflows like invoice creation, transaction categorization, and tax filing
+    directly from their AI coding environment instead of switching to separate bookkeeping tools.
+  mental_damage: >-
+    Your AI assistant can now legally file your VAT return while you debug the code that broke the very Stripe
+    integration it is reconciling.
   tags:
     - mcp
     - bookkeeping
@@ -62,35 +70,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server that gives AI assistants access to a specific domain (European bookkeeping and tax filing), making it a clear fit for the MCP Domain Servers section.
+  reason: >-
+    The product identity is an MCP server that gives AI assistants access to a specific domain (European bookkeeping and
+    tax filing), making it a clear fit for the MCP Domain Servers section.
   evidence:
     - Repo description explicitly states 'AI-powered bookkeeping and tax filing automation via MCP'
     - README positions it as 'Norman MCP Server' connecting finances to 'Claude, Cursor, and any MCP-compatible AI'
     - Listed in awesome-mcp-servers under 'Official Servers' section with MCP-related topics
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.633Z"
+    updated_at: '2026-05-06T22:12:15.633Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:12:06.047Z"
+    updated_at: '2026-07-20T15:12:06.047Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

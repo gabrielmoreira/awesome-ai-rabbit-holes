@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__penfieldlabs__penfield-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: penfieldlabs/penfield-mcp
         extracted_url: https://github.com/penfieldlabs/penfield-mcp
-        surrounding_text: "- [penfieldlabs/penfield-mcp](https://github.com/penfieldlabs/penfield-mcp) [![penfield-mcp MCP server](https://glama.ai/mcp/servers/penfieldlabs/penfield-mcp/badges/score.svg)](https://glama.ai/mcp/servers/penfieldlabs/penfield-mcp) 🐍 ☁️ - - 🐍 ☁️ - Penfield: persistent memory with hybrid search (BM25 + vector + graph), 24 relationship types for knowledge graphs, context checkpoints for cognitive handoff, artifact storage, and personality system. Works across Claude, Cursor, Windsurf, and any MCP client."
+        surrounding_text: >-
+          - [penfieldlabs/penfield-mcp](https://github.com/penfieldlabs/penfield-mcp) [![penfield-mcp MCP
+          server](https://glama.ai/mcp/servers/penfieldlabs/penfield-mcp/badges/score.svg)](https://glama.ai/mcp/servers/penfieldlabs/penfield-mcp)
+          🐍 ☁️ - - 🐍 ☁️ - Penfield: persistent memory with hybrid search (BM25 + vector + graph), 24 relationship
+          types for knowledge graphs, context checkpoints for cognitive handoff, artifact storage, and personality
+          system. Works across Claude, Cursor, Windsurf, and any MCP client.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: penfieldlabs/penfield-mcp
     html_url: https://github.com/penfieldlabs/penfield-mcp
-    created_at: "2026-02-02T21:47:20Z"
-    pushed_at: "2026-04-04T13:16:53Z"
+    created_at: '2026-02-02T21:47:20Z'
+    pushed_at: '2026-04-04T13:16:53Z'
     description: 🧠 Persistent memory for AI Agents. Free trial → https://portal.penfield.app/sign-up
     homepage: https://penfield.app
     topics:
@@ -41,14 +46,20 @@ metadata:
       - mcp-server
       - penfield
       - persistent-memory
-    last_checked_at: "2026-07-20T16:42:32.604Z"
+    last_checked_at: '2026-07-20T16:42:32.604Z'
     readme:
-      fetched_at: "2026-07-20T16:42:32.604Z"
+      fetched_at: '2026-07-20T16:42:32.604Z'
       bytes: 5038
 insights:
-  summary: An MCP server that provides persistent memory, knowledge graphs, and context management for AI agents across sessions and tools like Claude, Cursor, and Windsurf.
-  why_it_matters: It lets developers maintain architectural decisions, investigation threads, and preferences across different AI coding tools without starting every session from zero.
-  mental_damage: You can now pay a subscription so your AI assistant remembers enough context to be disappointed in you all over again tomorrow.
+  summary: >-
+    An MCP server that provides persistent memory, knowledge graphs, and context management for AI agents across
+    sessions and tools like Claude, Cursor, and Windsurf.
+  why_it_matters: >-
+    It lets developers maintain architectural decisions, investigation threads, and preferences across different AI
+    coding tools without starting every session from zero.
+  mental_damage: >-
+    You can now pay a subscription so your AI assistant remembers enough context to be disappointed in you all over
+    again tomorrow.
   tags:
     - mcp
     - memory
@@ -58,35 +69,43 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The core novelty is a memory, retrieval, and context system (17 tools for storing, recalling, and graph-connecting memories) delivered as an MCP server, which aligns with Prompt & Context Engineering over extension or framework identities.
+  reason: >-
+    The core novelty is a memory, retrieval, and context system (17 tools for storing, recalling, and graph-connecting
+    memories) delivered as an MCP server, which aligns with Prompt & Context Engineering over extension or framework
+    identities.
   evidence:
-    - "Repo description states: 'Persistent memory for AI Agents' with MCP and knowledge-memory topics."
-    - README details 17 memory/knowledge-graph/context tools (store, recall, connect, awaken, reflect) and hybrid BM25+vector+graph search.
-    - Source list places it under 'knowledge & memory' in awesome-mcp-servers, and it connects to Claude, Cursor, Windsurf, Gemini CLI as an MCP server.
+    - 'Repo description states: ''Persistent memory for AI Agents'' with MCP and knowledge-memory topics.'
+    - >-
+      README details 17 memory/knowledge-graph/context tools (store, recall, connect, awaken, reflect) and hybrid
+      BM25+vector+graph search.
+    - >-
+      Source list places it under 'knowledge & memory' in awesome-mcp-servers, and it connects to Claude, Cursor,
+      Windsurf, Gemini CLI as an MCP server.
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.642Z"
+    updated_at: '2026-05-06T22:12:15.642Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:32.604Z"
+    updated_at: '2026-07-20T16:42:32.604Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

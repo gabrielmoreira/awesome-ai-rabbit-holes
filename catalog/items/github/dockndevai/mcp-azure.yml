@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dockndevai__mcp-azure__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-09-14T04:13:20.171Z"
+      discovered_at: '2026-09-14T04:13:20.171Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: dockndevai/mcp-azure
         extracted_url: https://github.com/dockndevai/mcp-azure
-        surrounding_text: "- [dockndevai/mcp-azure](https://github.com/dockndevai/mcp-azure) [![dockndevai/mcp-azure MCP server](https://glama.ai/mcp/servers/dockndevai/mcp-azure/badges/score.svg)](https://glama.ai/mcp/servers/dockndevai/mcp-azure) 📇 🏠 🍎 🪟 🐧 - Azure Resource Manager inventory, tags, VM power & lifecycle — governed with subscription/resource-group allowlists, protected groups, location allowlist, delete gating, and typed confirmation. `npx -y @dockndevai/mcp-azure`"
+        surrounding_text: >-
+          - [dockndevai/mcp-azure](https://github.com/dockndevai/mcp-azure) [![dockndevai/mcp-azure MCP
+          server](https://glama.ai/mcp/servers/dockndevai/mcp-azure/badges/score.svg)](https://glama.ai/mcp/servers/dockndevai/mcp-azure)
+          📇 🏠 🍎 🪟 🐧 - Azure Resource Manager inventory, tags, VM power & lifecycle — governed with
+          subscription/resource-group allowlists, protected groups, location allowlist, delete gating, and typed
+          confirmation. `npx -y @dockndevai/mcp-azure`
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: dockndevai/mcp-azure
     html_url: https://github.com/dockndevai/mcp-azure
-    created_at: "2026-08-23T16:08:48Z"
-    pushed_at: "2026-09-12T18:10:38Z"
-    description: MCP server for Azure (Resource Manager) — inventory, tags, VM power, lifecycle — with governance controls (scoping, protected groups, location allowlist, delete gating, confirmation).
+    created_at: '2026-08-23T16:08:48Z'
+    pushed_at: '2026-09-12T18:10:38Z'
+    description: >-
+      MCP server for Azure (Resource Manager) — inventory, tags, VM power, lifecycle — with governance controls
+      (scoping, protected groups, location allowlist, delete gating, confirmation).
     homepage: https://dockndevai.github.io/
     topics:
       - azure
@@ -41,13 +48,15 @@ metadata:
       - llm
       - mcp
       - model-context-protocol
-    last_checked_at: "2026-09-14T04:13:42.175Z"
+    last_checked_at: '2026-09-14T04:13:42.175Z'
     readme:
-      fetched_at: "2026-09-14T04:13:42.175Z"
+      fetched_at: '2026-09-14T04:13:42.175Z'
       bytes: 4702
 insights:
   summary: An MCP server that enables AI agents to inventory and manage Azure resources via the Azure Resource Manager API.
-  why_it_matters: It provides a governed, secure bridge for AI assistants to perform cloud infrastructure tasks like managing VMs and resource groups without manual portal intervention.
+  why_it_matters: >-
+    It provides a governed, secure bridge for AI assistants to perform cloud infrastructure tasks like managing VMs and
+    resource groups without manual portal intervention.
   mental_damage: Finally, a way to let an LLM deallocate your production environment through a strictly typed confirmation prompt.
   tags:
     - mcp
@@ -57,31 +66,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server designed to provide specific domain capabilities (Azure) to any compatible AI client.
+  reason: >-
+    The product's primary identity is an MCP server designed to provide specific domain capabilities (Azure) to any
+    compatible AI client.
   evidence:
     - README explicitly identifies as an 'MCP server for Azure'
     - Provides specific tools for Azure Resource Manager operations including inventory and lifecycle management
     - Includes a robust governance and security model tailored for agentic use
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-14T04:13:20.173Z"
+    updated_at: '2026-09-14T04:13:20.173Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:42.175Z"
+    updated_at: '2026-09-14T04:13:42.175Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-14T04:20:26.546Z"
+    updated_at: '2026-09-14T04:20:26.546Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -90,7 +102,9 @@ processing:
       input_hash: sha256:af5cd27cdb4bb02a9d5ed2523b6a5c9e9fa1ca21a9004fe572a4a8015c658558
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's primary identity is an MCP server designed to provide specific domain capabilities (Azure) to any compatible AI client.
+      decision_reason: >-
+        The product's primary identity is an MCP server designed to provide specific domain capabilities (Azure) to any
+        compatible AI client.
       decision_evidence:
         - README explicitly identifies as an 'MCP server for Azure'
         - Provides specific tools for Azure Resource Manager operations including inventory and lifecycle management
@@ -98,7 +112,9 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is a protocol-compliant server rather than a specific plugin for a single IDE or assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is a protocol-compliant server rather than a specific
+        plugin for a single IDE or assistant.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

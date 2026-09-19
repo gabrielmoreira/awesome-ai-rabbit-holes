@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__albaker-group__cloudprice-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-30T05:05:26.992Z"
+      discovered_at: '2026-07-30T05:05:26.992Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: Albaker-Group/cloudprice-mcp
         extracted_url: https://github.com/albaker-group/cloudprice-mcp
-        surrounding_text: "- [Albaker-Group/cloudprice-mcp](https://github.com/Albaker-Group/cloudprice-mcp) [![Albaker-Group/cloudprice-mcp MCP server](https://glama.ai/mcp/servers/Albaker-Group/cloudprice-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Albaker-Group/cloudprice-mcp) 🐍 ☁️ 🍎 🪟 🐧 - Compare on-demand compute, block/object storage, managed Postgres, egress & GPU pricing across AWS, Azure, GCP, and OCI, plus FinOps decision tools (RI/Savings Plan break-even, multi-cloud workload TCO, exit-cost migration analysis, and egress arbitrage). 25 tools."
+        surrounding_text: >-
+          - [Albaker-Group/cloudprice-mcp](https://github.com/Albaker-Group/cloudprice-mcp)
+          [![Albaker-Group/cloudprice-mcp MCP
+          server](https://glama.ai/mcp/servers/Albaker-Group/cloudprice-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Albaker-Group/cloudprice-mcp)
+          🐍 ☁️ 🍎 🪟 🐧 - Compare on-demand compute, block/object storage, managed Postgres, egress & GPU pricing
+          across AWS, Azure, GCP, and OCI, plus FinOps decision tools (RI/Savings Plan break-even, multi-cloud workload
+          TCO, exit-cost migration analysis, and egress arbitrage). 25 tools.
         confidence: high
 metadata:
   github:
@@ -30,8 +36,8 @@ metadata:
     archived: false
     full_name: Albaker-Group/cloudprice-mcp
     html_url: https://github.com/Albaker-Group/cloudprice-mcp
-    created_at: "2026-04-26T09:40:06Z"
-    pushed_at: "2026-09-15T21:35:52Z"
+    created_at: '2026-04-26T09:40:06Z'
+    pushed_at: '2026-09-15T21:35:52Z'
     description: MCP server that compares on-demand VM pricing across AWS, Azure, and GCP in real time
     homepage: https://pypi.org/project/cloudprice-mcp/
     topics:
@@ -48,14 +54,20 @@ metadata:
       - multi-cloud
       - pricing
       - python
-    last_checked_at: "2026-09-17T04:13:38.228Z"
+    last_checked_at: '2026-09-17T04:13:38.228Z'
     readme:
-      fetched_at: "2026-09-17T04:13:38.228Z"
+      fetched_at: '2026-09-17T04:13:38.228Z'
       bytes: 25604
 insights:
-  summary: An MCP server that provides real-time cloud pricing data and FinOps analysis primitives for AWS, Azure, GCP, and OCI.
-  why_it_matters: It enables AI coding assistants to perform complex multi-cloud cost comparisons and TCO analyses without the developer needing to manually switch between pricing calculators and spreadsheets.
-  mental_damage: Because your IDE definitely needed the added complexity of calculating multi-cloud egress arbitrage while you're still trying to debug a syntax error.
+  summary: >-
+    An MCP server that provides real-time cloud pricing data and FinOps analysis primitives for AWS, Azure, GCP, and
+    OCI.
+  why_it_matters: >-
+    It enables AI coding assistants to perform complex multi-cloud cost comparisons and TCO analyses without the
+    developer needing to manually switch between pricing calculators and spreadsheets.
+  mental_damage: >-
+    Because your IDE definitely needed the added complexity of calculating multi-cloud egress arbitrage while you're
+    still trying to debug a syntax error.
   tags:
     - mcp
     - finops
@@ -64,31 +76,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's primary identity is an MCP server that delivers a specific domain of data (cloud pricing) to AI assistants.
+  reason: >-
+    The tool's primary identity is an MCP server that delivers a specific domain of data (cloud pricing) to AI
+    assistants.
   evidence:
     - Repo description explicitly defines it as an MCP server
     - README details 25 tools for compute, storage, egress, and GPU pricing analysis
     - Provides structured data specifically for AI clients like Claude and Cursor via the Model Context Protocol
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-30T05:05:26.994Z"
+    updated_at: '2026-07-30T05:05:26.994Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:38.228Z"
+    updated_at: '2026-09-17T04:13:38.228Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:23:59.486Z"
+    updated_at: '2026-08-27T06:23:59.486Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -97,7 +112,9 @@ processing:
       input_hash: sha256:989216e31488a805175b420442bb6e56bfc8f042ae49b92378574c8fe661a56f
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The tool's primary identity is an MCP server that delivers a specific domain of data (cloud pricing) to AI assistants.
+      decision_reason: >-
+        The tool's primary identity is an MCP server that delivers a specific domain of data (cloud pricing) to AI
+        assistants.
       decision_evidence:
         - Repo description explicitly defines it as an MCP server
         - README details 25 tools for compute, storage, egress, and GPU pricing analysis
@@ -105,7 +122,9 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is the implementation of an MCP server providing a specialized domain dataset rather than just a generic host integration.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is the implementation of an MCP server
+        providing a specialized domain dataset rather than just a generic host integration.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

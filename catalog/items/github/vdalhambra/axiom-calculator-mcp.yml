@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__vdalhambra__axiom-calculator-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: vdalhambra/axiom-calculator-mcp
         extracted_url: https://github.com/vdalhambra/axiom-calculator-mcp
-        surrounding_text: "- [vdalhambra/axiom-calculator-mcp](https://github.com/vdalhambra/axiom-calculator-mcp) [![axiom-calculator-mcp MCP server](https://glama.ai/mcp/servers/vdalhambra/axiom-calculator-mcp/badges/score.svg)](https://glama.ai/mcp/servers/vdalhambra/axiom-calculator-mcp) 🐍 🏠 🍎 🪟 🐧 - Personal finance calculators — mortgage payments, compound interest, FIRE retirement number, loan comparison, true credit cost, and debt payoff. 8 tools, zero API keys, works with `uvx axiom-calculator-mcp`."
+        surrounding_text: >-
+          - [vdalhambra/axiom-calculator-mcp](https://github.com/vdalhambra/axiom-calculator-mcp)
+          [![axiom-calculator-mcp MCP
+          server](https://glama.ai/mcp/servers/vdalhambra/axiom-calculator-mcp/badges/score.svg)](https://glama.ai/mcp/servers/vdalhambra/axiom-calculator-mcp)
+          🐍 🏠 🍎 🪟 🐧 - Personal finance calculators — mortgage payments, compound interest, FIRE retirement number,
+          loan comparison, true credit cost, and debt payoff. 8 tools, zero API keys, works with `uvx
+          axiom-calculator-mcp`.
         confidence: high
 metadata:
   github:
@@ -30,18 +36,24 @@ metadata:
     archived: false
     full_name: vdalhambra/axiom-calculator-mcp
     html_url: https://github.com/vdalhambra/axiom-calculator-mcp
-    created_at: "2026-04-15T11:43:29Z"
-    pushed_at: "2026-04-15T23:08:51Z"
-    description: Personal finance calculators for Claude and AI agents — mortgage, compound interest, FIRE, loan comparison, debt payoff. Zero API keys.
+    created_at: '2026-04-15T11:43:29Z'
+    pushed_at: '2026-04-15T23:08:51Z'
+    description: >-
+      Personal finance calculators for Claude and AI agents — mortgage, compound interest, FIRE, loan comparison, debt
+      payoff. Zero API keys.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:21:01.568Z"
+    last_checked_at: '2026-07-21T15:21:01.568Z'
     readme:
-      fetched_at: "2026-07-21T15:21:01.568Z"
+      fetched_at: '2026-07-21T15:21:01.568Z'
       bytes: 2901
 insights:
-  summary: A personal finance calculator MCP server that exposes tools for mortgage, compound interest, FIRE, loan comparison, and debt payoff calculations via the Model Context Protocol.
-  why_it_matters: Lets developers and AI agents perform accurate financial calculations without API keys or external services, enabling reliable finance-aware AI workflows.
+  summary: >-
+    A personal finance calculator MCP server that exposes tools for mortgage, compound interest, FIRE, loan comparison,
+    and debt payoff calculations via the Model Context Protocol.
+  why_it_matters: >-
+    Lets developers and AI agents perform accurate financial calculations without API keys or external services,
+    enabling reliable finance-aware AI workflows.
   mental_damage: Another reminder that we’ve outsourced even basic arithmetic to AI agents, just to avoid opening a spreadsheet.
   tags:
     - finance
@@ -50,31 +62,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is an MCP-first toolkit providing domain-specific financial tools over stdio, matching the MCP Servers & Tooling category’s focus on MCP identity as the core product.
+  reason: >-
+    It is an MCP-first toolkit providing domain-specific financial tools over stdio, matching the MCP Servers & Tooling
+    category’s focus on MCP identity as the core product.
   evidence:
-    - Repo description and README position it as 'Personal finance calculators for Claude and AI agents' that works as an MCP server via stdio
+    - >-
+      Repo description and README position it as 'Personal finance calculators for Claude and AI agents' that works as
+      an MCP server via stdio
     - Installation and usage instructions are entirely MCP-configuration driven (uvx, mcpServers config)
     - Listed in awesome-mcp-servers under Finance & Fintech as an MCP server implementation
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.654Z"
+    updated_at: '2026-05-06T22:12:15.654Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:01.568Z"
+    updated_at: '2026-07-21T15:21:01.568Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:22:08.272Z"
+    updated_at: '2026-05-12T15:22:08.272Z'
     cause: null
     next_retry_at: null
     attempts: 1

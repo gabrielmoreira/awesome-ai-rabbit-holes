@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__neo1228__spring-boot-starter-swagger-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Neo1228/spring-boot-starter-swagger-mcp
         extracted_url: https://github.com/neo1228/spring-boot-starter-swagger-mcp
-        surrounding_text: "- [Neo1228/spring-boot-starter-swagger-mcp](https://github.com/Neo1228/spring-boot-starter-swagger-mcp) ☕ ☁️ 🏠 - Turn your Spring Boot application into an MCP server instantly by reusing existing Swagger/OpenAPI documentation."
+        surrounding_text: >-
+          - [Neo1228/spring-boot-starter-swagger-mcp](https://github.com/Neo1228/spring-boot-starter-swagger-mcp) ☕ ☁️
+          🏠 - Turn your Spring Boot application into an MCP server instantly by reusing existing Swagger/OpenAPI
+          documentation.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: Neo1228/spring-boot-starter-swagger-mcp
     html_url: https://github.com/Neo1228/spring-boot-starter-swagger-mcp
-    created_at: "2026-02-15T08:04:27Z"
-    pushed_at: "2026-06-28T11:02:57Z"
-    description: "Turn SpringDoc OpenAPI into production-ready MCP tools for Spring Boot: discovery, validation, workflows, and guardrails."
+    created_at: '2026-02-15T08:04:27Z'
+    pushed_at: '2026-06-28T11:02:57Z'
+    description: >-
+      Turn SpringDoc OpenAPI into production-ready MCP tools for Spring Boot: discovery, validation, workflows, and
+      guardrails.
     homepage: https://github.com/Neo1228/spring-boot-starter-swagger-mcp#readme
     topics:
       - api-gateway
@@ -49,14 +54,20 @@ metadata:
       - springdoc-openapi
       - swagger
       - workflow-orchestration
-    last_checked_at: "2026-07-20T15:12:01.773Z"
+    last_checked_at: '2026-07-20T15:12:01.773Z'
     readme:
-      fetched_at: "2026-07-20T15:12:01.773Z"
+      fetched_at: '2026-07-20T15:12:01.773Z'
       bytes: 14774
 insights:
-  summary: A Spring Boot starter that automatically discovers SpringDoc OpenAPI operations and publishes them as MCP tools with validation, workflow orchestration, and guardrails.
-  why_it_matters: Java developers can expose existing Spring Boot APIs to MCP clients with zero boilerplate, letting LLMs safely discover, validate, and orchestrate calls against running services.
-  mental_damage: We have successfully abstracted the abstraction of the abstraction, so your REST controller can now be consumed by an LLM through a protocol wrapper maintained by a two-star repo.
+  summary: >-
+    A Spring Boot starter that automatically discovers SpringDoc OpenAPI operations and publishes them as MCP tools with
+    validation, workflow orchestration, and guardrails.
+  why_it_matters: >-
+    Java developers can expose existing Spring Boot APIs to MCP clients with zero boilerplate, letting LLMs safely
+    discover, validate, and orchestrate calls against running services.
+  mental_damage: >-
+    We have successfully abstracted the abstraction of the abstraction, so your REST controller can now be consumed by
+    an LLM through a protocol wrapper maintained by a two-star repo.
   tags:
     - spring-boot
     - mcp
@@ -66,35 +77,40 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: This is an MCP server implementation that bridges Spring Boot APIs to MCP clients, and MCP is the core product identity rather than a side feature.
+  reason: >-
+    This is an MCP server implementation that bridges Spring Boot APIs to MCP clients, and MCP is the core product
+    identity rather than a side feature.
   evidence:
-    - "Repo description: 'Turn SpringDoc OpenAPI into production-ready MCP tools for Spring Boot'"
-    - "README: 'Turn any SpringDoc-powered Spring Boot API into a production-ready MCP gateway' with MCP tool registration and gateway tools"
+    - 'Repo description: ''Turn SpringDoc OpenAPI into production-ready MCP tools for Spring Boot'''
+    - >-
+      README: 'Turn any SpringDoc-powered Spring Boot API into a production-ready MCP gateway' with MCP tool
+      registration and gateway tools
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.632Z"
+    updated_at: '2026-05-06T22:12:15.632Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:12:01.773Z"
+    updated_at: '2026-07-20T15:12:01.773Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

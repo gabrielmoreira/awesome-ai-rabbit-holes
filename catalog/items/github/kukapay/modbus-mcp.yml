@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__modbus-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 📟 <a name="embedded-system"></a>Embedded System
         anchor_text: kukapay/modbus-mcp
         extracted_url: https://github.com/kukapay/modbus-mcp
-        surrounding_text: "- [kukapay/modbus-mcp](https://github.com/kukapay/modbus-mcp) 🐍 📟 - An MCP server that standardizes and contextualizes industrial Modbus data."
+        surrounding_text: >-
+          - [kukapay/modbus-mcp](https://github.com/kukapay/modbus-mcp) 🐍 📟 - An MCP server that standardizes and
+          contextualizes industrial Modbus data.
         confidence: high
 metadata:
   github:
@@ -30,14 +32,14 @@ metadata:
     archived: false
     full_name: kukapay/modbus-mcp
     html_url: https://github.com/kukapay/modbus-mcp
-    created_at: "2025-04-28T14:46:49Z"
-    pushed_at: "2025-05-12T07:11:37Z"
+    created_at: '2025-04-28T14:46:49Z'
+    pushed_at: '2025-05-12T07:11:37Z'
     description: An MCP server that standardizes and contextualizes industrial Modbus data.
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:06:00.510Z"
+    last_checked_at: '2026-07-30T05:06:00.510Z'
     readme:
-      fetched_at: "2026-07-30T05:06:00.510Z"
+      fetched_at: '2026-07-30T05:06:00.510Z'
       bytes: 5957
 insights:
   summary: An MCP server that exposes Modbus industrial IoT data as tools for AI agents.
@@ -51,31 +53,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: it is a server that exposes Modbus-specific tools via the Model Context Protocol."
+  reason: 'MCP is the product identity: it is a server that exposes Modbus-specific tools via the Model Context Protocol.'
   evidence:
     - Repo description explicitly states it is an MCP server for Modbus data
     - README details MCP tool definitions and usage with Claude Desktop
     - Listed in awesome-mcp-servers under Embedded System servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:00.510Z"
+    updated_at: '2026-07-30T05:06:00.510Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:14:03.840Z"
+    updated_at: '2026-07-21T16:14:03.840Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +91,7 @@ processing:
       input_hash: sha256:718b575fd70bc47109d2c9ac837e6a476c682395539f356d6d819241c7e29c68
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: it is a server that exposes Modbus-specific tools via the Model Context Protocol."
+      decision_reason: 'MCP is the product identity: it is a server that exposes Modbus-specific tools via the Model Context Protocol.'
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Modbus data
         - README details MCP tool definitions and usage with Claude Desktop
@@ -96,6 +99,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server providing domain-specific tools rather than an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server providing domain-specific tools
+        rather than an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

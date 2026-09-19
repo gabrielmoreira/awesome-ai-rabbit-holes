@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__vikramgorla__mcp-swiss__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 📊 <a name="data-platforms"></a>Data Platforms
         anchor_text: vikramgorla/mcp-swiss
         extracted_url: https://github.com/vikramgorla/mcp-swiss
-        surrounding_text: "- [vikramgorla/mcp-swiss](https://github.com/vikramgorla/mcp-swiss) [![mcp-swiss](https://glama.ai/mcp/servers/vikramgorla/mcp-swiss/badges/score.svg)](https://glama.ai/mcp/servers/vikramgorla/mcp-swiss) 📇 ☁️ - 68 tools for Swiss open data: transport, weather, geodata, companies, parliament, and more. Zero API keys required."
+        surrounding_text: >-
+          - [vikramgorla/mcp-swiss](https://github.com/vikramgorla/mcp-swiss)
+          [![mcp-swiss](https://glama.ai/mcp/servers/vikramgorla/mcp-swiss/badges/score.svg)](https://glama.ai/mcp/servers/vikramgorla/mcp-swiss)
+          📇 ☁️ - 68 tools for Swiss open data: transport, weather, geodata, companies, parliament, and more. Zero API
+          keys required.
         confidence: high
 metadata:
   github:
@@ -30,19 +34,25 @@ metadata:
     archived: false
     full_name: vikramgorla/mcp-swiss
     html_url: https://github.com/vikramgorla/mcp-swiss
-    created_at: "2026-03-07T17:47:04Z"
-    pushed_at: "2026-07-20T06:57:37Z"
+    created_at: '2026-03-07T17:47:04Z'
+    pushed_at: '2026-07-20T06:57:37Z'
     description: Swiss open data MCP server — transport, weather, geodata, companies, etc,. Zero API keys.
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-21T15:21:05.573Z"
+    last_checked_at: '2026-07-21T15:21:05.573Z'
     readme:
-      fetched_at: "2026-07-21T15:21:05.573Z"
+      fetched_at: '2026-07-21T15:21:05.573Z'
       bytes: 22455
 insights:
-  summary: mcp-swiss is an MCP server that provides zero-configuration access to Swiss open data via 76 tools for transport, weather, geodata, and more.
-  why_it_matters: It lets developers enrich AI assistants with live Swiss public data without API keys or setup, lowering friction for data-augmented agent workflows.
-  mental_damage: Another day, another MCP server promising to be the missing context layer — as if the real problem wasn’t having too many of them already.
+  summary: >-
+    mcp-swiss is an MCP server that provides zero-configuration access to Swiss open data via 76 tools for transport,
+    weather, geodata, and more.
+  why_it_matters: >-
+    It lets developers enrich AI assistants with live Swiss public data without API keys or setup, lowering friction for
+    data-augmented agent workflows.
+  mental_damage: >-
+    Another day, another MCP server promising to be the missing context layer — as if the real problem wasn’t having too
+    many of them already.
   tags:
     - mcp
     - swiss-data
@@ -50,31 +60,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: mcp-swiss is an MCP server whose core identity and value lie in exposing Swiss open data through the Model Context Protocol, making it a pure MCP infrastructure fit.
+  reason: >-
+    mcp-swiss is an MCP server whose core identity and value lie in exposing Swiss open data through the Model Context
+    Protocol, making it a pure MCP infrastructure fit.
   evidence:
-    - "Repo description: 'Swiss open data MCP server — transport, weather, geodata, companies, etc,. Zero API keys.'"
-    - "README: 'mcp-swiss is a Model Context Protocol server that gives any AI assistant direct access to Swiss open data' and lists 76 tools across domains."
-    - "Source-list context: included in awesome-mcp-servers under Server Implementations > Data Platforms."
+    - 'Repo description: ''Swiss open data MCP server — transport, weather, geodata, companies, etc,. Zero API keys.'''
+    - >-
+      README: 'mcp-swiss is a Model Context Protocol server that gives any AI assistant direct access to Swiss open
+      data' and lists 76 tools across domains.
+    - 'Source-list context: included in awesome-mcp-servers under Server Implementations > Data Platforms.'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.654Z"
+    updated_at: '2026-05-06T22:12:15.654Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:05.573Z"
+    updated_at: '2026-07-21T15:21:05.573Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:25:56.231Z"
+    updated_at: '2026-05-12T15:25:56.231Z'
     cause: null
     next_retry_at: null
     attempts: 1

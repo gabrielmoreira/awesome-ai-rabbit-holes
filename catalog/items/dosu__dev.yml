@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__dosu__dev__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Dosu
         anchor_text: Dosu
         extracted_url: https://dosu.dev
-        surrounding_text: "## [Dosu](https://dosu.dev/)"
+        surrounding_text: '## [Dosu](https://dosu.dev/)'
         confidence: high
 metadata:
   github:
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Dosu is a knowledge infrastructure layer that automatically captures and syncs team documentation to reduce token usage and improve agent performance.
-  why_it_matters: It aims to solve the problem of stale context by automatically maintaining project documentation (like AGENTS.md) through real-time observation of agent sessions and communication tools.
-  mental_damage: Finally, an automated way to ensure your agent's hallucination-inducing context window is filled with actual, up-to-date project truth.
+  summary: >-
+    Dosu is a knowledge infrastructure layer that automatically captures and syncs team documentation to reduce token
+    usage and improve agent performance.
+  why_it_matters: >-
+    It aims to solve the problem of stale context by automatically maintaining project documentation (like AGENTS.md)
+    through real-time observation of agent sessions and communication tools.
+  mental_damage: >-
+    Finally, an automated way to ensure your agent's hallucination-inducing context window is filled with actual,
+    up-to-date project truth.
   tags:
     - mcp
     - knowledge-base
@@ -48,21 +54,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core value proposition is providing automated, fresh context and memory to agents via an MCP server to optimize token usage.
+  reason: >-
+    The core value proposition is providing automated, fresh context and memory to agents via an MCP server to optimize
+    token usage.
   evidence:
     - Claims to reduce token costs by 50% via optimized context
     - Uses an MCP server to provide consistent, token-efficient context to agents
     - Automatically maintains documentation like AGENTS.md and CLAUDE.md
 placement:
-  primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Retrieval & Fresh Docs
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +80,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:42:23.212Z"
+    updated_at: '2026-07-20T15:42:23.212Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +93,9 @@ processing:
       input_hash: sha256:a4d16436baba67305ed0fa8d8363f6e207de7d638b7ef50e3a5299ef06fd67a8
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: The core value proposition is providing automated, fresh context and memory to agents via an MCP server to optimize token usage.
+      decision_reason: >-
+        The core value proposition is providing automated, fresh context and memory to agents via an MCP server to
+        optimize token usage.
       decision_evidence:
         - Claims to reduce token costs by 50% via optimized context
         - Uses an MCP server to provide consistent, token-efficient context to agents
@@ -92,6 +103,8 @@ processing:
       category_candidates:
         - context-engineering
         - mcp
-      contrastive_reason: Choose context-engineering over mcp because while it uses MCP as a delivery mechanism, its primary identity is the automated generation and management of high-quality context/memory.
+      contrastive_reason: >-
+        Choose context-engineering over mcp because while it uses MCP as a delivery mechanism, its primary identity is
+        the automated generation and management of high-quality context/memory.
       review_reason: null
       review_resume_lifecycle: null

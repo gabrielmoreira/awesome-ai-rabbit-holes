@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__airweave-ai__airweave__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-21T05:27:57.681Z"
+      discovered_at: '2026-05-21T05:27:57.681Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - Hybrid search
         anchor_text: Airweave
         extracted_url: https://github.com/airweave-ai/airweave
-        surrounding_text: "| [Airweave](https://github.com/airweave-ai/airweave)    | An easy way to turn any app into searchable data for LLMs.                                                                                                                                                                              | ![GitHub Badge](https://img.shields.io/github/stars/airweave-ai/airweave.svg?style=flat-square)    |"
+        surrounding_text: >-
+          | [Airweave](https://github.com/airweave-ai/airweave)    | An easy way to turn any app into searchable data
+          for
+          LLMs.                                                                                                                                                                             
+          | ![GitHub Badge](https://img.shields.io/github/stars/airweave-ai/airweave.svg?style=flat-square)    |
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: true
     full_name: airweave-ai/airweave
     html_url: https://github.com/airweave-ai/airweave
-    created_at: "2024-12-24T10:00:06Z"
-    pushed_at: "2026-06-05T09:52:19Z"
+    created_at: '2024-12-24T10:00:06Z'
+    pushed_at: '2026-06-05T09:52:19Z'
     description: Open-source context retrieval layer for AI agents
     homepage: https://airweave.ai
     topics:
@@ -55,14 +59,20 @@ metadata:
       - search
       - search-api
       - semantic-search
-    last_checked_at: "2026-09-17T04:13:36.682Z"
+    last_checked_at: '2026-09-17T04:13:36.682Z'
     readme:
-      fetched_at: "2026-09-17T04:13:36.682Z"
+      fetched_at: '2026-09-17T04:13:36.682Z'
       bytes: 11520
 insights:
-  summary: Open-source context retrieval layer that syncs data from 50+ sources into a unified, LLM-friendly search interface for AI agents and RAG systems.
-  why_it_matters: It spares developers from rebuilding fragile data-ingestion, indexing, and auth pipelines for every agent by offering shared retrieval infrastructure with native SDK and MCP access.
-  mental_damage: Because pointing agents directly at your database was too straightforward, you now get to maintain a separate retrieval service with fifty OAuth connectors and its own Docker Compose file.
+  summary: >-
+    Open-source context retrieval layer that syncs data from 50+ sources into a unified, LLM-friendly search interface
+    for AI agents and RAG systems.
+  why_it_matters: >-
+    It spares developers from rebuilding fragile data-ingestion, indexing, and auth pipelines for every agent by
+    offering shared retrieval infrastructure with native SDK and MCP access.
+  mental_damage: >-
+    Because pointing agents directly at your database was too straightforward, you now get to maintain a separate
+    retrieval service with fifty OAuth connectors and its own Docker Compose file.
   tags:
     - context-retrieval
     - rag-infrastructure
@@ -72,31 +82,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Its core identity is developer-facing context-shaping infrastructure—syncing, indexing, and serving grounded data to agents—which fits Prompt & Context Engineering.
+  reason: >-
+    Its core identity is developer-facing context-shaping infrastructure—syncing, indexing, and serving grounded data to
+    agents—which fits Prompt & Context Engineering.
   evidence:
     - Repo description calls it an 'open-source context retrieval layer for AI agents'.
-    - README positions it as 'shared retrieval infrastructure' handling authentication, ingestion, syncing, indexing, and retrieval.
+    - >-
+      README positions it as 'shared retrieval infrastructure' handling authentication, ingestion, syncing, indexing,
+      and retrieval.
     - 6,348 stars and actively pushed as of 2026-05-20 indicate healthy traction.
 placement:
-  primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  primary_category: ai-frameworks
+  secondary_categories: []
+  section: Memory & Retrieval Infrastructure
 lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
   discover:
     status: done
-    updated_at: "2026-05-21T05:27:57.683Z"
+    updated_at: '2026-05-21T05:27:57.683Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:36.682Z"
+    updated_at: '2026-09-17T04:13:36.682Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-21T05:31:08.318Z"
+    updated_at: '2026-05-21T05:31:08.318Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

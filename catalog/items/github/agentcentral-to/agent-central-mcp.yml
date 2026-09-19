@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agentcentral-to__agent-central-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🛒 <a name="e-commerce"></a>E-Commerce
         anchor_text: agentcentral-to/agent-central-mcp
         extracted_url: https://github.com/agentcentral-to/agent-central-mcp
-        surrounding_text: "- [agentcentral-to/agent-central-mcp](https://github.com/agentcentral-to/agent-central-mcp) [![agentcentral-to/agent-central-mcp MCP server](https://glama.ai/mcp/servers/agentcentral-to/agent-central-mcp/badges/score.svg)](https://glama.ai/mcp/servers/agentcentral-to/agent-central-mcp) 📇 ☁️ - Hosted Amazon Seller Central and Amazon Ads MCP server for Claude, ChatGPT, and other AI clients, exposing inventory, orders, catalog, finance, fulfillment, and advertising data through a remote MCP endpoint."
+        surrounding_text: >-
+          - [agentcentral-to/agent-central-mcp](https://github.com/agentcentral-to/agent-central-mcp)
+          [![agentcentral-to/agent-central-mcp MCP
+          server](https://glama.ai/mcp/servers/agentcentral-to/agent-central-mcp/badges/score.svg)](https://glama.ai/mcp/servers/agentcentral-to/agent-central-mcp)
+          📇 ☁️ - Hosted Amazon Seller Central and Amazon Ads MCP server for Claude, ChatGPT, and other AI clients,
+          exposing inventory, orders, catalog, finance, fulfillment, and advertising data through a remote MCP endpoint.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: agentcentral-to/agent-central-mcp
     html_url: https://github.com/agentcentral-to/agent-central-mcp
-    created_at: "2026-04-27T23:36:18Z"
-    pushed_at: "2026-06-01T02:41:02Z"
-    description: agentcentral hosted Amazon MCP server, Amazon Seller Central MCP server, and Amazon Ads MCP server metadata for Claude, ChatGPT, Cursor, and HTTP-capable MCP clients
+    created_at: '2026-04-27T23:36:18Z'
+    pushed_at: '2026-06-01T02:41:02Z'
+    description: >-
+      agentcentral hosted Amazon MCP server, Amazon Seller Central MCP server, and Amazon Ads MCP server metadata for
+      Claude, ChatGPT, Cursor, and HTTP-capable MCP clients
     homepage: https://agentcentral.to/amazon-seller-central-mcp
     topics:
       - ai-agents
@@ -54,14 +61,18 @@ metadata:
       - sp-api
       - sp-api-mcp
       - streamable-http
-    last_checked_at: "2026-09-17T04:13:32.082Z"
+    last_checked_at: '2026-09-17T04:13:32.082Z'
     readme:
-      fetched_at: "2026-09-17T04:13:32.082Z"
+      fetched_at: '2026-09-17T04:13:32.082Z'
       bytes: 4635
 insights:
   summary: A hosted MCP server providing AI agents with tools to access and manage Amazon Ads and Seller Central data.
-  why_it_matters: It enables developers to build specialized e-commerce agents that can analyze inventory, manage ad spend, and handle orders through natural language interfaces.
-  mental_damage: Because having an LLM with direct, write-enabled access to your Amazon advertising budget is the ultimate high-stakes prompt engineering test.
+  why_it_matters: >-
+    It enables developers to build specialized e-commerce agents that can analyze inventory, manage ad spend, and handle
+    orders through natural language interfaces.
+  mental_damage: >-
+    Because having an LLM with direct, write-enabled access to your Amazon advertising budget is the ultimate
+    high-stakes prompt engineering test.
   tags:
     - mcp
     - amazon
@@ -78,24 +89,25 @@ curation:
     - Designed for use with MCP-capable clients like Claude, ChatGPT, and Cursor
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.817Z"
+    updated_at: '2026-05-28T05:28:09.817Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:32.082Z"
+    updated_at: '2026-09-17T04:13:32.082Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-28T05:34:19.195Z"
+    updated_at: '2026-05-28T05:34:19.195Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

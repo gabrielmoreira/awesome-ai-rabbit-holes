@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__micl2e2__code-to-tree__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: micl2e2/code-to-tree
         extracted_url: https://github.com/micl2e2/code-to-tree
-        surrounding_text: "- [micl2e2/code-to-tree](https://github.com/micl2e2/code-to-tree) 🌊 🏠 📟 🐧 🪟 🍎 - A single-binary MCP server that converts source code into AST, regardless of language."
+        surrounding_text: >-
+          - [micl2e2/code-to-tree](https://github.com/micl2e2/code-to-tree) 🌊 🏠 📟 🐧 🪟 🍎 - A single-binary MCP
+          server that converts source code into AST, regardless of language.
         confidence: high
 metadata:
   github:
@@ -30,10 +32,10 @@ metadata:
     archived: false
     full_name: micl2e2/code-to-tree
     html_url: https://github.com/micl2e2/code-to-tree
-    created_at: "2025-05-17T09:55:01Z"
-    pushed_at: "2026-03-14T02:22:44Z"
+    created_at: '2025-05-17T09:55:01Z'
+    pushed_at: '2026-03-14T02:22:44Z'
     description: A runtime-free MCP server that converts source code into AST🌲, regardless of language.
-    homepage: ""
+    homepage: ''
     topics:
       - abstract-syntax-tree
       - agentic
@@ -49,9 +51,9 @@ metadata:
       - syntax-analysis
       - syntax-tree
       - tree-sitter
-    last_checked_at: "2026-08-03T05:17:01.448Z"
+    last_checked_at: '2026-08-03T05:17:01.448Z'
     readme:
-      fetched_at: "2026-08-03T05:17:01.448Z"
+      fetched_at: '2026-08-03T05:17:01.448Z'
       bytes: 5485
 insights:
   summary: A runtime-free MCP server that converts source code into language-agnostic AST trees using tree-sitter.
@@ -64,31 +66,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool is fundamentally an MCP server providing AST conversion as a service to MCP clients, making MCP its core identity rather than a coding agent or extension.
+  reason: >-
+    The tool is fundamentally an MCP server providing AST conversion as a service to MCP clients, making MCP its core
+    identity rather than a coding agent or extension.
   evidence:
-    - "Repo description: 'A runtime-free MCP server that converts source code into AST🌲, regardless of language.'"
-    - "README: Explicitly positions itself as an MCP server with goals to 'Give LLMs the capability of accurately converting source code into AST' and be a 'standalone binary' for MCP clients."
-    - "Source-list context: Listed in awesome-mcp-servers under 'Server Implementations > Coding Agents' section."
+    - 'Repo description: ''A runtime-free MCP server that converts source code into AST🌲, regardless of language.'''
+    - >-
+      README: Explicitly positions itself as an MCP server with goals to 'Give LLMs the capability of accurately
+      converting source code into AST' and be a 'standalone binary' for MCP clients.
+    - 'Source-list context: Listed in awesome-mcp-servers under ''Server Implementations > Coding Agents'' section.'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.629Z"
+    updated_at: '2026-05-06T22:12:15.629Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:01.448Z"
+    updated_at: '2026-08-03T05:17:01.448Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:20:22.202Z"
+    updated_at: '2026-07-21T16:20:22.202Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -101,14 +108,20 @@ processing:
       input_hash: sha256:1542ffd8a8b8bc20ca9c6f36c72d41872ca65197ec8cff06a60022f4bc07a1ad
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The tool is fundamentally an MCP server providing AST conversion as a service to MCP clients, making MCP its core identity rather than a coding agent or extension.
+      decision_reason: >-
+        The tool is fundamentally an MCP server providing AST conversion as a service to MCP clients, making MCP its
+        core identity rather than a coding agent or extension.
       decision_evidence:
-        - "Repo description: 'A runtime-free MCP server that converts source code into AST🌲, regardless of language.'"
-        - "README: Explicitly positions itself as an MCP server with goals to 'Give LLMs the capability of accurately converting source code into AST' and be a 'standalone binary' for MCP clients."
-        - "Source-list context: Listed in awesome-mcp-servers under 'Server Implementations > Coding Agents' section."
+        - 'Repo description: ''A runtime-free MCP server that converts source code into AST🌲, regardless of language.'''
+        - >-
+          README: Explicitly positions itself as an MCP server with goals to 'Give LLMs the capability of accurately
+          converting source code into AST' and be a 'standalone binary' for MCP clients.
+        - 'Source-list context: Listed in awesome-mcp-servers under ''Server Implementations > Coding Agents'' section.'
       category_candidates:
         - mcp
         - coding-agents
-      contrastive_reason: Choose mcp over coding-agents because the product's primary identity is providing AST conversion via MCP protocol, not acting as a standalone coding assistant that plans or edits code.
+      contrastive_reason: >-
+        Choose mcp over coding-agents because the product's primary identity is providing AST conversion via MCP
+        protocol, not acting as a standalone coding assistant that plans or edits code.
       review_reason: null
       review_resume_lifecycle: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__treescale__com__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -18,7 +18,13 @@ provenance:
           - LLMOps
         anchor_text: TreeScale
         extracted_url: https://treescale.com
-        surrounding_text: "| [TreeScale](https://treescale.com)                                 | All In One Dev Platform For LLM Apps. Deploy LLM-enhanced APIs seamlessly using tools for prompt optimization, semantic querying, version management, statistical evaluation, and performance tracking. As a part of the developer friendly API implementation TreeScale offers Elastic LLM product, which makes a unified API Endpoint for all major LLM providers and open source models.             |                                                                                                           |"
+        surrounding_text: >-
+          | [TreeScale](https://treescale.com)                                 | All In One Dev Platform For LLM Apps.
+          Deploy LLM-enhanced APIs seamlessly using tools for prompt optimization, semantic querying, version
+          management, statistical evaluation, and performance tracking. As a part of the developer friendly API
+          implementation TreeScale offers Elastic LLM product, which makes a unified API Endpoint for all major LLM
+          providers and open source models.            
+          |                                                                                                           |
         confidence: high
 metadata:
   github:
@@ -36,9 +42,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: TreeScale is a no-code platform for turning LLM prompts into deployable APIs with prompt chaining, context storage, and debugging.
-  why_it_matters: It lets developers create and integrate LLM-powered APIs without writing infrastructure code, focusing on prompt engineering and workflow assembly.
-  mental_damage: Finally, a way to turn your carefully crafted prompts into APIs—so you can stop pretending you’ll ever maintain them.
+  summary: >-
+    TreeScale is a no-code platform for turning LLM prompts into deployable APIs with prompt chaining, context storage,
+    and debugging.
+  why_it_matters: >-
+    It lets developers create and integrate LLM-powered APIs without writing infrastructure code, focusing on prompt
+    engineering and workflow assembly.
+  mental_damage: >-
+    Finally, a way to turn your carefully crafted prompts into APIs—so you can stop pretending you’ll ever maintain
+    them.
   tags:
     - no-code
     - llm-apis
@@ -47,21 +59,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product turns prompts into deployable APIs and apps, fitting the prompt-to-app builder pattern rather than editing existing repos or acting as a coding assistant.
+  reason: >-
+    The core product turns prompts into deployable APIs and apps, fitting the prompt-to-app builder pattern rather than
+    editing existing repos or acting as a coding assistant.
   evidence:
     - Described as a 'nocode platform to turn LLM Prompts into powerful integrate APIs'
     - Focuses on creating API endpoints from prompts, prompt chains, and data storage without coding
     - Source-list context places it in LLMOps as a platform for building LLM apps
 placement:
-  primary_category: app-builders
-  section: Prompt-to-App Builders
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Visual Builders & Workbenches
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.666Z"
+    updated_at: '2026-05-06T22:12:15.666Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +85,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:38:11.663Z"
+    updated_at: '2026-07-21T15:38:11.663Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -83,7 +98,9 @@ processing:
       input_hash: sha256:4e59220c04cba1b32b1c5f8bc66eacdefb41245196e78b20046bcb9d959d3f55
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The core product turns prompts into deployable APIs and apps, fitting the prompt-to-app builder pattern rather than editing existing repos or acting as a coding assistant.
+      decision_reason: >-
+        The core product turns prompts into deployable APIs and apps, fitting the prompt-to-app builder pattern rather
+        than editing existing repos or acting as a coding assistant.
       decision_evidence:
         - Described as a 'nocode platform to turn LLM Prompts into powerful integrate APIs'
         - Focuses on creating API endpoints from prompts, prompt chains, and data storage without coding
@@ -91,6 +108,8 @@ processing:
       category_candidates:
         - app-builders
         - agent-orchestration
-      contrastive_reason: Choose app-builders over agent-orchestration because the primary value is prompt-to-API/app generation rather than multi-agent coordination.
+      contrastive_reason: >-
+        Choose app-builders over agent-orchestration because the primary value is prompt-to-API/app generation rather
+        than multi-agent coordination.
       review_reason: null
       review_resume_lifecycle: null

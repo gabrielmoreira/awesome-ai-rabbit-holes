@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__yuchen20__memory-plus__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,11 @@ provenance:
           - Community Servers
         anchor_text: Memory-Plus
         extracted_url: https://github.com/yuchen20/memory-plus
-        surrounding_text: "- **[Memory-Plus](https://github.com/Yuchen20/Memory-Plus)** a lightweight, local RAG memory store to record, retrieve, update, delete, and visualize persistent \"memories\" across sessions—perfect for developers working with multiple AI coders (like Windsurf, Cursor, or Copilot) or anyone who wants their AI to actually remember them."
+        surrounding_text: >-
+          - **[Memory-Plus](https://github.com/Yuchen20/Memory-Plus)** a lightweight, local RAG memory store to record,
+          retrieve, update, delete, and visualize persistent "memories" across sessions—perfect for developers working
+          with multiple AI coders (like Windsurf, Cursor, or Copilot) or anyone who wants their AI to actually remember
+          them.
         confidence: high
 metadata:
   github:
@@ -29,9 +33,12 @@ metadata:
     archived: false
     full_name: Yuchen20/Memory-Plus
     html_url: https://github.com/Yuchen20/Memory-Plus
-    created_at: "2025-05-01T20:25:42Z"
-    pushed_at: "2025-05-25T16:26:32Z"
-    description: 🧠 𝑴𝒆𝒎𝒐𝒓𝒚-𝑷𝒍𝒖𝒔 is a lightweight, local RAG memory store for MCP agents. Easily record, retrieve, update, delete, and visualize persistent "memories" across sessions—perfect for developers working with multiple AI coders (like Windsurf, Cursor, or Copilot) or anyone who wants their AI to actually remember them.
+    created_at: '2025-05-01T20:25:42Z'
+    pushed_at: '2025-05-25T16:26:32Z'
+    description: >-
+      🧠 𝑴𝒆𝒎𝒐𝒓𝒚-𝑷𝒍𝒖𝒔 is a lightweight, local RAG memory store for MCP agents. Easily record, retrieve, update,
+      delete, and visualize persistent "memories" across sessions—perfect for developers working with multiple AI coders
+      (like Windsurf, Cursor, or Copilot) or anyone who wants their AI to actually remember them.
     homepage: https://memory-plus-viewer.vercel.app/
     topics:
       - agent
@@ -41,13 +48,17 @@ metadata:
       - memory
       - memory-store
       - model-context-protocol
-    last_checked_at: "2026-07-21T15:21:22.459Z"
+    last_checked_at: '2026-07-21T15:21:22.459Z'
     readme:
-      fetched_at: "2026-07-21T15:21:22.459Z"
+      fetched_at: '2026-07-21T15:21:22.459Z'
       bytes: 5903
 insights:
-  summary: Memory-Plus is a local RAG memory store that enables MCP agents to record, retrieve, update, and visualize persistent session memories.
-  why_it_matters: It gives developers a simple way to make AI coding assistants retain context across sessions, reducing repetitive re-explanation.
+  summary: >-
+    Memory-Plus is a local RAG memory store that enables MCP agents to record, retrieve, update, and visualize
+    persistent session memories.
+  why_it_matters: >-
+    It gives developers a simple way to make AI coding assistants retain context across sessions, reducing repetitive
+    re-explanation.
   mental_damage: Another tool promising your AI will finally remember you—until it forgets where it saved the memory.
   tags:
     - memory
@@ -57,31 +68,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Memory-Plus fits as a context engineering tool because its core novelty is a local memory and retrieval system for agents, not agent orchestration or extension functionality.
+  reason: >-
+    Memory-Plus fits as a context engineering tool because its core novelty is a local memory and retrieval system for
+    agents, not agent orchestration or extension functionality.
   evidence:
-    - "Repo description: 'lightweight, local RAG memory store for MCP agents'"
-    - "README: enables 'record, retrieve, update, delete, and visualize persistent memories'"
-    - "Source-list: listed in awesome-mcp-servers under Community Servers"
+    - 'Repo description: ''lightweight, local RAG memory store for MCP agents'''
+    - 'README: enables ''record, retrieve, update, delete, and visualize persistent memories'''
+    - 'Source-list: listed in awesome-mcp-servers under Community Servers'
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.657Z"
+    updated_at: '2026-05-06T22:12:15.657Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:22.459Z"
+    updated_at: '2026-07-21T15:21:22.459Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:47:02.161Z"
+    updated_at: '2026-05-12T15:47:02.161Z'
     cause: null
     next_retry_at: null
     attempts: 1

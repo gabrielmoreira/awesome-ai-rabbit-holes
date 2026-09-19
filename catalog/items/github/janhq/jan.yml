@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__janhq__jan__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -19,10 +19,12 @@ provenance:
           - README
         anchor_text: Jan Desktop
         extracted_url: https://github.com/janhq/jan
-        surrounding_text: If you tried [Jan Desktop](https://github.com/janhq/jan?tab=readme-ov-file#download) and liked it, please also check out the following **awesome collection of open source and/or local AI tools and solutions.**
+        surrounding_text: >-
+          If you tried [Jan Desktop](https://github.com/janhq/jan?tab=readme-ov-file#download) and liked it, please also
+          check out the following **awesome collection of open source and/or local AI tools and solutions.**
         confidence: high
     - id: discovery__github__janhq__jan__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,10 +36,12 @@ provenance:
           - 推理 Inference
         anchor_text: Jan
         extracted_url: https://github.com/janhq/jan
-        surrounding_text: "23. [Jan](https://github.com/janhq/jan): Jan is an open source alternative to ChatGPT that runs 100% offline on your computer. Multiple engine support (llama.cpp, TensorRT-LLM)."
+        surrounding_text: >-
+          23. [Jan](https://github.com/janhq/jan): Jan is an open source alternative to ChatGPT that runs 100% offline
+          on your computer. Multiple engine support (llama.cpp, TensorRT-LLM).
         confidence: high
     - id: discovery__github__janhq__jan__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-06-22T05:53:30.454Z"
+      discovered_at: '2026-06-22T05:53:30.454Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -49,7 +53,9 @@ provenance:
           - Local LLM Tools
         anchor_text: Jan
         extracted_url: https://jan.ai
-        surrounding_text: "- **[Jan](https://jan.ai/)** – Open-source, offline-first desktop app for running LLMs locally with a ChatGPT-like interface."
+        surrounding_text: >-
+          - **[Jan](https://jan.ai/)** – Open-source, offline-first desktop app for running LLMs locally with a
+          ChatGPT-like interface.
         confidence: high
 metadata:
   github:
@@ -59,8 +65,8 @@ metadata:
     archived: false
     full_name: janhq/jan
     html_url: https://github.com/janhq/jan
-    created_at: "2023-08-17T02:17:10Z"
-    pushed_at: "2026-07-30T03:18:56Z"
+    created_at: '2023-08-17T02:17:10Z'
+    pushed_at: '2026-07-30T03:18:56Z'
     description: Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.
     homepage: https://jan.ai/
     topics:
@@ -72,13 +78,17 @@ metadata:
       - open-source
       - self-hosted
       - tauri
-    last_checked_at: "2026-07-30T05:05:47.813Z"
+    last_checked_at: '2026-07-30T05:05:47.813Z'
     readme:
-      fetched_at: "2026-07-30T05:05:47.813Z"
+      fetched_at: '2026-07-30T05:05:47.813Z'
       bytes: 5755
 insights:
-  summary: Jan is an open-source, offline-first desktop application for running and interacting with LLMs locally or via cloud providers.
-  why_it_matters: Developers can run, fine-tune, and deploy LLMs on their own hardware with full privacy control, or integrate with cloud models via a unified interface.
+  summary: >-
+    Jan is an open-source, offline-first desktop application for running and interacting with LLMs locally or via cloud
+    providers.
+  why_it_matters: >-
+    Developers can run, fine-tune, and deploy LLMs on their own hardware with full privacy control, or integrate with
+    cloud models via a unified interface.
   mental_damage: Finally, a way to run LLMs locally without your laptop sounding like a jet engine—until you actually try it.
   tags:
     - local-ai
@@ -89,31 +99,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Jan's primary identity is a local/self-hosted AI runtime and desktop interface, not a coding agent, IDE, or orchestration platform.
+  reason: >-
+    Jan's primary identity is a local/self-hosted AI runtime and desktop interface, not a coding agent, IDE, or
+    orchestration platform.
   evidence:
-    - "Repo description: 'Jan is an open source alternative to ChatGPT that runs 100% offline on your computer'"
-    - "README highlights: local model execution, cloud integration, OpenAI-compatible API, and MCP support as secondary features"
-    - "Source-list context: included in awesome-local-ai and LLM inference directories"
+    - 'Repo description: ''Jan is an open source alternative to ChatGPT that runs 100% offline on your computer'''
+    - >-
+      README highlights: local model execution, cloud integration, OpenAI-compatible API, and MCP support as secondary
+      features
+    - 'Source-list context: included in awesome-local-ai and LLM inference directories'
 placement:
   primary_category: local-ai
-  section: Desktop Chat / Interfaces
+  secondary_categories: []
+  section: Desktop Chat & UIs
 lifecycle:
   status: promotion_candidate
   reason: Stars (42410) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-06-22T05:53:30.455Z"
+    updated_at: '2026-06-22T05:53:30.455Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:47.813Z"
+    updated_at: '2026-07-30T05:05:47.813Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:09:48.879Z"
+    updated_at: '2026-07-21T16:09:48.879Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -126,14 +141,20 @@ processing:
       input_hash: sha256:d5853698107a3ea526327d366c139cd7babf6e28c430ef555314bbdd6e1d71e2
       proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: Jan's primary identity is a local/self-hosted AI runtime and desktop interface, not a coding agent, IDE, or orchestration platform.
+      decision_reason: >-
+        Jan's primary identity is a local/self-hosted AI runtime and desktop interface, not a coding agent, IDE, or
+        orchestration platform.
       decision_evidence:
-        - "Repo description: 'Jan is an open source alternative to ChatGPT that runs 100% offline on your computer'"
-        - "README highlights: local model execution, cloud integration, OpenAI-compatible API, and MCP support as secondary features"
-        - "Source-list context: included in awesome-local-ai and LLM inference directories"
+        - 'Repo description: ''Jan is an open source alternative to ChatGPT that runs 100% offline on your computer'''
+        - >-
+          README highlights: local model execution, cloud integration, OpenAI-compatible API, and MCP support as
+          secondary features
+        - 'Source-list context: included in awesome-local-ai and LLM inference directories'
       category_candidates:
         - local-ai
         - ai-frameworks
-      contrastive_reason: Choose local-ai over ai-frameworks because Jan is primarily a desktop app/runtime for local inference, not a code-first SDK or library.
+      contrastive_reason: >-
+        Choose local-ai over ai-frameworks because Jan is primarily a desktop app/runtime for local inference, not a
+        code-first SDK or library.
       review_reason: null
       review_resume_lifecycle: null

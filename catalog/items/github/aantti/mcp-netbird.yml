@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aantti__mcp-netbird__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Netbird
         extracted_url: https://github.com/aantti/mcp-netbird
-        surrounding_text: "- **[Netbird](https://github.com/aantti/mcp-netbird)** - List and analyze Netbird network peers, groups, policies, and more."
+        surrounding_text: >-
+          - **[Netbird](https://github.com/aantti/mcp-netbird)** - List and analyze Netbird network peers, groups,
+          policies, and more.
         confidence: high
 metadata:
   github:
@@ -29,18 +31,20 @@ metadata:
     archived: false
     full_name: aantti/mcp-netbird
     html_url: https://github.com/aantti/mcp-netbird
-    created_at: "2025-03-24T19:21:55Z"
-    pushed_at: "2025-04-16T13:27:19Z"
+    created_at: '2025-03-24T19:21:55Z'
+    pushed_at: '2025-04-16T13:27:19Z'
     description: MCP Server for Netbird
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:27.638Z"
+    last_checked_at: '2026-09-17T04:13:27.638Z'
     readme:
-      fetched_at: "2026-09-17T04:13:27.638Z"
+      fetched_at: '2026-09-17T04:13:27.638Z'
       bytes: 6408
 insights:
   summary: An MCP server that provides LLMs with access to Netbird network resources via its API.
-  why_it_matters: It allows AI assistants to query and inspect network peers, groups, and security policies directly through the Model Context Protocol.
+  why_it_matters: >-
+    It allows AI assistants to query and inspect network peers, groups, and security policies directly through the Model
+    Context Protocol.
   mental_damage: Because nothing says 'odern infrastructure' like asking a chatbot to audit your zero-trust network policies.
   tags:
     - mcp
@@ -57,24 +61,25 @@ curation:
     - Provides read-only access to peers, groups, and policies via MCP
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.598Z"
+    updated_at: '2026-05-06T22:12:15.598Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:27.638Z"
+    updated_at: '2026-09-17T04:13:27.638Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:53:06.873Z"
+    updated_at: '2026-07-20T15:53:06.873Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -95,6 +100,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is a protocol server rather than a tool augmenting a specific editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is a protocol server rather than a tool
+        augmenting a specific editor.
       review_reason: null
       review_resume_lifecycle: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__capably__ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,7 +18,9 @@ provenance:
           - Agents
         anchor_text: AgentRunner.ai
         extracted_url: https://www.agentrunner.ai
-        surrounding_text: "- [AgentRunner.ai](https://www.agentrunner.ai) - Leverage the power of GPT-4 to create and train fully autonomous AI agents."
+        surrounding_text: >-
+          - [AgentRunner.ai](https://www.agentrunner.ai) - Leverage the power of GPT-4 to create and train fully
+          autonomous AI agents.
         confidence: high
 metadata:
   github:
@@ -37,7 +39,9 @@ metadata:
     readme: null
 insights:
   summary: Capably.ai is a platform for building and deploying AI agents that can perform tasks across web applications.
-  why_it_matters: It enables developers to create agents that automate workflows by interacting with web UIs, reducing manual repetitive tasks.
+  why_it_matters: >-
+    It enables developers to create agents that automate workflows by interacting with web UIs, reducing manual
+    repetitive tasks.
   mental_damage: Now you can automate the parts of your job that felt like the only parts you were still needed for.
   tags:
     - agent-orchestration
@@ -47,20 +51,25 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product is a platform for coordinating and deploying agents that interact with web applications, fitting the agent orchestration category.
+  reason: >-
+    The product is a platform for coordinating and deploying agents that interact with web applications, fitting the
+    agent orchestration category.
   evidence:
-    - The site describes Capably.ai as a platform for building and deploying AI agents that perform tasks across web applications
+    - >-
+      The site describes Capably.ai as a platform for building and deploying AI agents that perform tasks across web
+      applications
     - The primary value is multi-agent coordination and workflow automation rather than a single coding assistant or IDE
 placement:
   primary_category: agent-orchestration
-  section: Workbenches & Collaboration Surfaces
+  secondary_categories: []
+  section: Hosted Agent Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.667Z"
+    updated_at: '2026-05-06T22:12:15.667Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +78,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:39:17.314Z"
+    updated_at: '2026-07-21T15:39:17.314Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -82,13 +91,21 @@ processing:
       input_hash: sha256:42e8ebe0f7dd8ff0eafa7e13dc61472c61bf15e2c0d294f5bf1c7644d1232449
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The product is a platform for coordinating and deploying agents that interact with web applications, fitting the agent orchestration category.
+      decision_reason: >-
+        The product is a platform for coordinating and deploying agents that interact with web applications, fitting the
+        agent orchestration category.
       decision_evidence:
-        - The site describes Capably.ai as a platform for building and deploying AI agents that perform tasks across web applications
-        - The primary value is multi-agent coordination and workflow automation rather than a single coding assistant or IDE
+        - >-
+          The site describes Capably.ai as a platform for building and deploying AI agents that perform tasks across web
+          applications
+        - >-
+          The primary value is multi-agent coordination and workflow automation rather than a single coding assistant or
+          IDE
       category_candidates:
         - agent-orchestration
         - app-builders
-      contrastive_reason: Choose agent-orchestration over app-builders because the core product is coordinating agents to perform tasks across web apps, not generating standalone apps from prompts.
+      contrastive_reason: >-
+        Choose agent-orchestration over app-builders because the core product is coordinating agents to perform tasks
+        across web apps, not generating standalone apps from prompts.
       review_reason: null
       review_resume_lifecycle: null

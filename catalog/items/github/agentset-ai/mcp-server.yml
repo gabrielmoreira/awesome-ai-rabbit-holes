@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agentset-ai__mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Agentset
         extracted_url: https://github.com/agentset-ai/mcp-server
-        surrounding_text: "- **[Agentset](https://github.com/agentset-ai/mcp-server)** - RAG MCP for your [Agentset](https://agentset.ai/) data."
+        surrounding_text: >-
+          - **[Agentset](https://github.com/agentset-ai/mcp-server)** - RAG MCP for your
+          [Agentset](https://agentset.ai/) data.
         confidence: high
 metadata:
   github:
@@ -29,18 +31,20 @@ metadata:
     archived: false
     full_name: agentset-ai/mcp-server
     html_url: https://github.com/agentset-ai/mcp-server
-    created_at: "2025-04-03T14:05:38Z"
-    pushed_at: "2025-06-16T09:08:07Z"
+    created_at: '2025-04-03T14:05:38Z'
+    pushed_at: '2025-06-16T09:08:07Z'
     description: Agentset MCP Server - Build RAG with Agentic superpowers
     homepage: https://www.npmjs.com/package/@agentset/mcp
     topics: []
-    last_checked_at: "2026-09-17T04:13:33.728Z"
+    last_checked_at: '2026-09-17T04:13:33.728Z'
     readme:
-      fetched_at: "2026-09-17T04:13:33.728Z"
+      fetched_at: '2026-09-17T04:13:33.728Z'
       bytes: 2099
 insights:
   summary: An MCP server that enables agents to interact with the Agentset RAG platform.
-  why_it_matters: It allows AI assistants like Claude to perform document-based retrieval and reasoning using your custom RAG namespaces.
+  why_it_matters: >-
+    It allows AI assistants like Claude to perform document-based retrieval and reasoning using your custom RAG
+    namespaces.
   mental_damage: Another layer of abstraction to debug when your agent's memory suddenly develops amnesia.
   tags:
     - mcp
@@ -58,24 +62,25 @@ curation:
     - Core functionality is providing RAG capabilities via the Model Context Protocol
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.600Z"
+    updated_at: '2026-05-06T22:12:15.600Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:33.728Z"
+    updated_at: '2026-09-17T04:13:33.728Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:04:06.267Z"
+    updated_at: '2026-07-20T16:04:06.267Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -96,6 +101,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is the implementation of the Model Context Protocol itself.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is the implementation of the Model
+        Context Protocol itself.
       review_reason: null
       review_resume_lifecycle: null

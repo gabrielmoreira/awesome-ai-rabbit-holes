@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__botwallet-co__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: botwallet-co/mcp
         extracted_url: https://github.com/botwallet-co/mcp
-        surrounding_text: "- [botwallet-co/mcp](https://github.com/botwallet-co/mcp) [![botwallet-co/mcp MCP server](https://glama.ai/mcp/servers/botwallet-co/mcp/badges/score.svg)](https://glama.ai/mcp/servers/botwallet-co/mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Wallet for AI agents. Earn via invoices, spend on other agents and paid APIs, manage USDC on Solana with human-set spending limits and FROST 2-of-2 threshold signing."
+        surrounding_text: >-
+          - [botwallet-co/mcp](https://github.com/botwallet-co/mcp) [![botwallet-co/mcp MCP
+          server](https://glama.ai/mcp/servers/botwallet-co/mcp/badges/score.svg)](https://glama.ai/mcp/servers/botwallet-co/mcp)
+          📇 ☁️ 🏠 🍎 🪟 🐧 - Wallet for AI agents. Earn via invoices, spend on other agents and paid APIs, manage USDC
+          on Solana with human-set spending limits and FROST 2-of-2 threshold signing.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: botwallet-co/mcp
     html_url: https://github.com/botwallet-co/mcp
-    created_at: "2026-03-23T20:44:12Z"
-    pushed_at: "2026-04-08T22:04:18Z"
-    description: MCP server for Botwallet — Give any AI agent a wallet via Model Context Protocol. FROST threshold signing, x402 paid APIs, spending guard rails.
+    created_at: '2026-03-23T20:44:12Z'
+    pushed_at: '2026-04-08T22:04:18Z'
+    description: >-
+      MCP server for Botwallet — Give any AI agent a wallet via Model Context Protocol. FROST threshold signing, x402
+      paid APIs, spending guard rails.
     homepage: https://botwallet.co
     topics:
       - ai-agent
@@ -45,13 +51,17 @@ metadata:
       - payments
       - solana
       - wallet
-    last_checked_at: "2026-09-07T04:13:36.935Z"
+    last_checked_at: '2026-09-07T04:13:36.935Z'
     readme:
-      fetched_at: "2026-09-07T04:13:36.935Z"
+      fetched_at: '2026-09-07T04:13:36.935Z'
       bytes: 9416
 insights:
-  summary: MCP server that enables AI agents to manage USDC wallets with FROST threshold signing, x402 paid API access, and spending guardrails.
-  why_it_matters: Lets developers give AI agents financial autonomy (invoicing, API payments, wallet management) while retaining human oversight via spending limits and approval workflows.
+  summary: >-
+    MCP server that enables AI agents to manage USDC wallets with FROST threshold signing, x402 paid API access, and
+    spending guardrails.
+  why_it_matters: >-
+    Lets developers give AI agents financial autonomy (invoicing, API payments, wallet management) while retaining human
+    oversight via spending limits and approval workflows.
   mental_damage: Now your agent can pay for its own API calls, and you’ll only find out when it starts invoicing your clients.
   tags:
     - mcp
@@ -62,31 +72,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server for financial operations, not a compatibility footnote or broader platform."
+  reason: >-
+    MCP is the product identity: this is a dedicated MCP server for financial operations, not a compatibility footnote
+    or broader platform.
   evidence:
     - Repo description explicitly identifies it as an MCP server for Botwallet
     - README details MCP client configuration and server capabilities
     - Already listed in awesome-mcp-servers under Finance & Fintech
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.606Z"
+    updated_at: '2026-05-06T22:12:15.606Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:36.935Z"
+    updated_at: '2026-09-07T04:13:36.935Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:26:46.006Z"
+    updated_at: '2026-07-21T15:26:46.006Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -99,7 +112,9 @@ processing:
       input_hash: sha256:665fa5bebe1a0425e6231ecaeb1bd863cedaafa044eed7e4100a9f2583777e36
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server for financial operations, not a compatibility footnote or broader platform."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server for financial operations, not a compatibility
+        footnote or broader platform.
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server for Botwallet
         - README details MCP client configuration and server capabilities
@@ -107,6 +122,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (financial domain) rather than an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server (financial domain) rather than an
+        extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__codeurali__mcp-dataverse__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: codeurali/mcp-dataverse
         extracted_url: https://github.com/codeurali/mcp-dataverse
-        surrounding_text: "- [codeurali/mcp-dataverse](https://github.com/codeurali/mcp-dataverse) [![mcp-dataverse MCP server](https://glama.ai/mcp/servers/@codeurali/mcp-dataverse/badges/score.svg)](https://glama.ai/mcp/servers/@codeurali/mcp-dataverse) 📇 🏠 ☁️ - Microsoft Dataverse MCP server with 63 tools for entity CRUD, FetchXML/OData queries, metadata inspection, workflow execution, audit logs, and Power Platform integration. Zero-config device code authentication."
+        surrounding_text: >-
+          - [codeurali/mcp-dataverse](https://github.com/codeurali/mcp-dataverse) [![mcp-dataverse MCP
+          server](https://glama.ai/mcp/servers/@codeurali/mcp-dataverse/badges/score.svg)](https://glama.ai/mcp/servers/@codeurali/mcp-dataverse)
+          📇 🏠 ☁️ - Microsoft Dataverse MCP server with 63 tools for entity CRUD, FetchXML/OData queries, metadata
+          inspection, workflow execution, audit logs, and Power Platform integration. Zero-config device code
+          authentication.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: codeurali/mcp-dataverse
     html_url: https://github.com/codeurali/mcp-dataverse
-    created_at: "2026-02-21T21:41:54Z"
-    pushed_at: "2026-07-21T21:20:56Z"
+    created_at: '2026-02-21T21:41:54Z'
+    pushed_at: '2026-07-21T21:20:56Z'
     description: MCP server for Microsoft Dataverse Web API for devs !
     homepage: https://codeurali.github.io/mcp-dataverse/
     topics:
@@ -40,13 +45,15 @@ metadata:
       - microsoft-dataverse
       - model-context-protocol
       - power-platform
-    last_checked_at: "2026-09-07T04:13:49.322Z"
+    last_checked_at: '2026-09-07T04:13:49.322Z'
     readme:
-      fetched_at: "2026-09-07T04:13:49.322Z"
+      fetched_at: '2026-09-07T04:13:49.322Z'
       bytes: 8398
 insights:
   summary: An MCP server providing real-time access to Microsoft Dataverse Web API for AI agents.
-  why_it_matters: Eliminates schema hallucinations and broken OData queries by giving AI agents direct, structured access to Dataverse metadata, records, and operations.
+  why_it_matters: >-
+    Eliminates schema hallucinations and broken OData queries by giving AI agents direct, structured access to Dataverse
+    metadata, records, and operations.
   mental_damage: Finally, a way to stop your AI from inventing column names like it’s playing Mad Libs with your database.
   tags:
     - mcp-server
@@ -57,31 +64,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the core product identity, and the server provides domain-specific Dataverse integration as its primary function.
+  reason: >-
+    MCP is the core product identity, and the server provides domain-specific Dataverse integration as its primary
+    function.
   evidence:
     - Repo description explicitly states it is an MCP server for Microsoft Dataverse Web API
     - README emphasizes MCP as the protocol and lists 79 tools, 4 resources, and 10 workflows for Dataverse
     - Already curated in awesome-mcp-servers under Server Implementations > Databases
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:49.322Z"
+    updated_at: '2026-09-07T04:13:49.322Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:44:51.887Z"
+    updated_at: '2026-07-21T15:44:51.887Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -94,7 +104,9 @@ processing:
       input_hash: sha256:282e62c9f0aa4dca678ff60e9841339a16fbeb29e3980928b11ce73befadfc12
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the core product identity, and the server provides domain-specific Dataverse integration as its primary function.
+      decision_reason: >-
+        MCP is the core product identity, and the server provides domain-specific Dataverse integration as its primary
+        function.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Microsoft Dataverse Web API
         - README emphasizes MCP as the protocol and lists 79 tools, 4 resources, and 10 workflows for Dataverse
@@ -102,6 +114,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

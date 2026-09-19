@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jacksenechal__scan-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: scan-mcp
         extracted_url: https://github.com/jacksenechal/scan-mcp
-        surrounding_text: "- **[scan-mcp](https://github.com/jacksenechal/scan-mcp)** - Minimal MCP server for scanner capture (ADF/duplex/page-size); typed tools; JSON Schema–validated I/O; multipage assembly; Node 22 + SANE."
+        surrounding_text: >-
+          - **[scan-mcp](https://github.com/jacksenechal/scan-mcp)** - Minimal MCP server for scanner capture
+          (ADF/duplex/page-size); typed tools; JSON Schema–validated I/O; multipage assembly; Node 22 + SANE.
         confidence: high
 metadata:
   github:
@@ -29,10 +31,10 @@ metadata:
     archived: false
     full_name: jacksenechal/scan-mcp
     html_url: https://github.com/jacksenechal/scan-mcp
-    created_at: "2025-09-11T05:11:02Z"
-    pushed_at: "2026-07-23T06:14:56Z"
+    created_at: '2025-09-11T05:11:02Z'
+    pushed_at: '2026-07-23T06:14:56Z'
     description: MCP server for scanning (image capture/multipage assembly)
-    homepage: ""
+    homepage: ''
     topics:
       - documents
       - images
@@ -40,13 +42,15 @@ metadata:
       - mcp
       - sane
       - scanner
-    last_checked_at: "2026-07-30T05:05:46.630Z"
+    last_checked_at: '2026-07-30T05:05:46.630Z'
     readme:
-      fetched_at: "2026-07-30T05:05:46.630Z"
+      fetched_at: '2026-07-30T05:05:46.630Z'
       bytes: 6367
 insights:
   summary: MCP server for scanner capture, batching, and multipage document assembly on Linux SANE backends.
-  why_it_matters: Lets developers integrate physical document scanning workflows into MCP-based agent environments without leaving their existing toolchain.
+  why_it_matters: >-
+    Lets developers integrate physical document scanning workflows into MCP-based agent environments without leaving
+    their existing toolchain.
   mental_damage: Now your AI agent can finally judge your paper receipts as harshly as it judges your code.
   tags:
     - mcp
@@ -57,31 +61,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server exposing scanner hardware capabilities as tools."
+  reason: 'MCP is the product identity: this is a dedicated MCP server exposing scanner hardware capabilities as tools.'
   evidence:
     - Repo description explicitly states 'MCP server for scanning'
     - README details MCP server entry, tool registration, and stdio/HTTP transports
     - Already listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.621Z"
+    updated_at: '2026-05-06T22:12:15.621Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:46.630Z"
+    updated_at: '2026-07-30T05:05:46.630Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:09:35.102Z"
+    updated_at: '2026-07-21T16:09:35.102Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -94,7 +99,7 @@ processing:
       input_hash: sha256:c20c6d9d80f9cd9c8f00ffb4fbf47565e14a2aa5844a7731a1e6eb513a18abdf
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing scanner hardware capabilities as tools."
+      decision_reason: 'MCP is the product identity: this is a dedicated MCP server exposing scanner hardware capabilities as tools.'
       decision_evidence:
         - Repo description explicitly states 'MCP server for scanning'
         - README details MCP server entry, tool registration, and stdio/HTTP transports
@@ -102,6 +107,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing scanner tools, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server exposing scanner tools, not an
+        extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

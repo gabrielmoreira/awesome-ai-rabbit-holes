@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ivo-toby__contentful-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Contentful
         extracted_url: https://github.com/ivo-toby/contentful-mcp
-        surrounding_text: "- **[Contentful](https://github.com/ivo-toby/contentful-mcp)** - Interact with your content on the Contentful platform"
+        surrounding_text: >-
+          - **[Contentful](https://github.com/ivo-toby/contentful-mcp)** - Interact with your content on the Contentful
+          platform
         confidence: high
 metadata:
   github:
@@ -29,19 +31,25 @@ metadata:
     archived: false
     full_name: ivo-toby/contentful-mcp
     html_url: https://github.com/ivo-toby/contentful-mcp
-    created_at: "2024-12-04T18:27:09Z"
-    pushed_at: "2026-01-17T16:45:28Z"
+    created_at: '2024-12-04T18:27:09Z'
+    pushed_at: '2026-01-17T16:45:28Z'
     description: MCP (Model Context Protocol) server for the Contentful Management API
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:46.120Z"
+    last_checked_at: '2026-07-30T05:05:46.120Z'
     readme:
-      fetched_at: "2026-07-30T05:05:46.120Z"
+      fetched_at: '2026-07-30T05:05:46.120Z'
       bytes: 13228
 insights:
-  summary: An MCP server that integrates with Contentful's Content Management API to provide comprehensive content management capabilities.
-  why_it_matters: Developers can use this to interact with Contentful's CMS directly from MCP-compatible tools like Claude Desktop, enabling content management workflows without leaving their development environment.
-  mental_damage: Now your AI assistant can argue with your CMS about whether that blog post is really 'published' or just 'draft'—just like a real teammate.
+  summary: >-
+    An MCP server that integrates with Contentful's Content Management API to provide comprehensive content management
+    capabilities.
+  why_it_matters: >-
+    Developers can use this to interact with Contentful's CMS directly from MCP-compatible tools like Claude Desktop,
+    enabling content management workflows without leaving their development environment.
+  mental_damage: >-
+    Now your AI assistant can argue with your CMS about whether that blog post is really 'published' or just
+    'draft'—just like a real teammate.
   tags:
     - mcp-server
     - contentful
@@ -50,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server for Contentful's API, making MCP its primary identity rather than a compatibility feature.
+  reason: >-
+    This is a dedicated MCP server for Contentful's API, making MCP its primary identity rather than a compatibility
+    feature.
   evidence:
     - Repo description explicitly states it is an MCP server for Contentful Management API
     - README details extensive MCP tooling for Contentful operations (CRUD, comments, spaces, etc.)
     - Listed in awesome-mcp-servers under 'Community Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.621Z"
+    updated_at: '2026-05-06T22:12:15.621Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:46.120Z"
+    updated_at: '2026-07-30T05:05:46.120Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:09:20.711Z"
+    updated_at: '2026-07-21T16:09:20.711Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,7 +98,9 @@ processing:
       input_hash: sha256:c96acead406320f1c99466e9aab6bad22a55f4bc147e2109ec98134ae162c7c5
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a dedicated MCP server for Contentful's API, making MCP its primary identity rather than a compatibility feature.
+      decision_reason: >-
+        This is a dedicated MCP server for Contentful's API, making MCP its primary identity rather than a compatibility
+        feature.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Contentful Management API
         - README details extensive MCP tooling for Contentful operations (CRUD, comments, spaces, etc.)
@@ -95,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another tool.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an
+        extension for another tool.
       review_reason: null
       review_resume_lifecycle: null

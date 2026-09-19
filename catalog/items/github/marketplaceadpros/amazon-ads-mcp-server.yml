@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__marketplaceadpros__amazon-ads-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: marketplaceadpros/amazon-ads-mcp-server
         extracted_url: https://github.com/marketplaceadpros/amazon-ads-mcp-server
-        surrounding_text: "- [marketplaceadpros/amazon-ads-mcp-server](https://github.com/MarketplaceAdPros/amazon-ads-mcp-server) 📇 ☁️  - Enables tools to interact with Amazon Advertising, analyzing campaign metrics and configurations."
+        surrounding_text: >-
+          - [marketplaceadpros/amazon-ads-mcp-server](https://github.com/MarketplaceAdPros/amazon-ads-mcp-server) 📇 ☁️ 
+          - Enables tools to interact with Amazon Advertising, analyzing campaign metrics and configurations.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: MarketplaceAdPros/amazon-ads-mcp-server
     html_url: https://github.com/MarketplaceAdPros/amazon-ads-mcp-server
-    created_at: "2025-05-19T02:55:51Z"
-    pushed_at: "2025-05-21T06:33:00Z"
+    created_at: '2025-05-19T02:55:51Z'
+    pushed_at: '2025-05-21T06:33:00Z'
     description: MCP Server to interact with Amazon Ads
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-08-03T05:16:56.498Z"
+    last_checked_at: '2026-08-03T05:16:56.498Z'
     readme:
-      fetched_at: "2026-08-03T05:16:56.498Z"
+      fetched_at: '2026-08-03T05:16:56.498Z'
       bytes: 3005
 insights:
   summary: MCP Server to interact with Amazon Ads via the Model Context Protocol.
-  why_it_matters: Lets developers query Amazon Advertising data through natural language in MCP-compatible assistants like Claude Desktop.
+  why_it_matters: >-
+    Lets developers query Amazon Advertising data through natural language in MCP-compatible assistants like Claude
+    Desktop.
   mental_damage: Another MCP server for another SaaS platform, because every ad account now needs its own AI translator.
   tags:
     - mcp
@@ -50,31 +54,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is an MCP server whose core purpose is exposing Amazon Ads data through the Model Context Protocol, making MCP the product identity rather than a compatibility feature.
+  reason: >-
+    It is an MCP server whose core purpose is exposing Amazon Ads data through the Model Context Protocol, making MCP
+    the product identity rather than a compatibility feature.
   evidence:
-    - "Repo description: 'MCP Server to interact with Amazon Ads'"
+    - 'Repo description: ''MCP Server to interact with Amazon Ads'''
     - README provides MCP server configuration examples for Claude Desktop and LibreChat
     - Project offers both stdio and streamable-HTTP MCP server modes
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.628Z"
+    updated_at: '2026-05-06T22:12:15.628Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:56.498Z"
+    updated_at: '2026-08-03T05:16:56.498Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:18:28.856Z"
+    updated_at: '2026-07-21T16:18:28.856Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,14 +94,18 @@ processing:
       input_hash: sha256:2ca58ff7b23c07c08f1199e3354f7b56b9e678ad2a551f0b41b43a3ab82ba6f1
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: It is an MCP server whose core purpose is exposing Amazon Ads data through the Model Context Protocol, making MCP the product identity rather than a compatibility feature.
+      decision_reason: >-
+        It is an MCP server whose core purpose is exposing Amazon Ads data through the Model Context Protocol, making
+        MCP the product identity rather than a compatibility feature.
       decision_evidence:
-        - "Repo description: 'MCP Server to interact with Amazon Ads'"
+        - 'Repo description: ''MCP Server to interact with Amazon Ads'''
         - README provides MCP server configuration examples for Claude Desktop and LibreChat
         - Project offers both stdio and streamable-HTTP MCP server modes
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool is an MCP server itself, not an extension that adds capabilities to another coding assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool is an MCP server itself, not an extension that adds
+        capabilities to another coding assistant.
       review_reason: null
       review_resume_lifecycle: null

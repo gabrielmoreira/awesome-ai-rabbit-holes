@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__flytohub__flyto-core__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: flytohub/flyto-core
         extracted_url: https://github.com/flytohub/flyto-core
-        surrounding_text: "- [flytohub/flyto-core](https://github.com/flytohub/flyto-core) [![flyto-core MCP server](https://glama.ai/mcp/servers/@flytohub/flyto-core/badges/score.svg)](https://glama.ai/mcp/servers/@flytohub/flyto-core) 🐍 🏠 - Deterministic execution engine for AI agents with 412 modules across 78 categories (browser, file, Docker, data, crypto, scheduling). Features execution trace, evidence snapshots, replay from any step, and supports both STDIO and Streamable HTTP transport."
+        surrounding_text: >-
+          - [flytohub/flyto-core](https://github.com/flytohub/flyto-core) [![flyto-core MCP
+          server](https://glama.ai/mcp/servers/@flytohub/flyto-core/badges/score.svg)](https://glama.ai/mcp/servers/@flytohub/flyto-core)
+          🐍 🏠 - Deterministic execution engine for AI agents with 412 modules across 78 categories (browser, file,
+          Docker, data, crypto, scheduling). Features execution trace, evidence snapshots, replay from any step, and
+          supports both STDIO and Streamable HTTP transport.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: flytohub/flyto-core
     html_url: https://github.com/flytohub/flyto-core
-    created_at: "2025-12-04T08:50:27Z"
-    pushed_at: "2026-09-02T02:09:22Z"
+    created_at: '2025-12-04T08:50:27Z'
+    pushed_at: '2026-09-02T02:09:22Z'
     description: AI said it finished. Flyto2 shows the proof.
     homepage: https://flyto2.com
     topics:
@@ -42,14 +47,20 @@ metadata:
       - mcp-server
       - replay
       - workflow-engine
-    last_checked_at: "2026-09-03T05:16:42.229Z"
+    last_checked_at: '2026-09-03T05:16:42.229Z'
     readme:
-      fetched_at: "2026-09-03T05:16:42.229Z"
+      fetched_at: '2026-09-03T05:16:42.229Z'
       bytes: 21263
 insights:
-  summary: An open-source execution kernel for automating AI-agent workflows via YAML recipes, MCP-native transport, and debuggable step-by-step replay.
-  why_it_matters: It provides a structured, traceable way to build and debug complex browser and file automation tasks, solving the 'black box' problem of non-deterministic agentic steps.
-  mental_damage: Now you can finally watch your automation fail in high-definition, step-by-step, with per-step timing and screenshots.
+  summary: >-
+    An open-source execution kernel for automating AI-agent workflows via YAML recipes, MCP-native transport, and
+    debuggable step-by-step replay.
+  why_it_matters: >-
+    It provides a structured, traceable way to build and debug complex browser and file automation tasks, solving the
+    'black box' problem of non-deterministic agentic steps.
+  mental_damage: >-
+    Now you can finally watch your automation fail in high-definition, step-by-step, with per-step timing and
+    screenshots.
   tags:
     - automation
     - mcp
@@ -59,31 +70,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Flyto-core is a code-first SDK and execution engine that developers import via pip to programmatically define and run workflows.
+  reason: >-
+    Flyto-core is a code-first SDK and execution engine that developers import via pip to programmatically define and
+    run workflows.
   evidence:
     - PyPI package available for pip installation
     - Uses YAML-based recipe definitions for orchestration
     - Provides a core execution kernel rather than a standalone chat interface
 placement:
-  primary_category: ai-frameworks
-  section: Workflow / Graph Engines
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (269) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.614Z"
+    updated_at: '2026-05-06T22:12:15.614Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:42.229Z"
+    updated_at: '2026-09-03T05:16:42.229Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:57:56.728Z"
+    updated_at: '2026-07-21T15:57:56.728Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,7 +110,9 @@ processing:
       input_hash: sha256:6dc54cedb69a1ecf36e08850463bd8f8e005d918b4846f7eaad177863fe0edf8
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: Flyto-core is a code-first SDK and execution engine that developers import via pip to programmatically define and run workflows.
+      decision_reason: >-
+        Flyto-core is a code-first SDK and execution engine that developers import via pip to programmatically define
+        and run workflows.
       decision_evidence:
         - PyPI package available for pip installation
         - Uses YAML-based recipe definitions for orchestration
@@ -104,6 +120,8 @@ processing:
       category_candidates:
         - ai-frameworks
         - agent-orchestration
-      contrastive_reason: Choose ai-frameworks over agent-orchestration because the primary developer interaction is via a Python SDK and CLI to script workflows rather than using an operated control plane or workbench.
+      contrastive_reason: >-
+        Choose ai-frameworks over agent-orchestration because the primary developer interaction is via a Python SDK and
+        CLI to script workflows rather than using an operated control plane or workbench.
       review_reason: null
       review_resume_lifecycle: null

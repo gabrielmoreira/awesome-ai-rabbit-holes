@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__x402__tunedfor__ai__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -17,9 +17,16 @@ provenance:
         section_path:
           - Server Implementations
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
-        anchor_text: "`x402.tunedfor.ai`"
+        anchor_text: '`x402.tunedfor.ai`'
         extracted_url: https://x402.tunedfor.ai
-        surrounding_text: "- [tunedforai/x402-mcp](https://github.com/tunedforai/x402-mcp) [![tunedforai/x402-mcp MCP server](https://glama.ai/mcp/servers/tunedforai/x402-mcp/badges/score.svg)](https://glama.ai/mcp/servers/tunedforai/x402-mcp) 📇 ☁️ - Real-time crypto market structure for AI agents — orderflow across 20 exchanges, 24 tokens. 9 tools: price/funding/OI snapshots, cross-exchange CVD with whale activity, 7yr OHLCV history with buy/sell flow, on-chain address risk. Free via MCP ([`@tunedforai/x402-mcp`](https://www.npmjs.com/package/@tunedforai/x402-mcp) on npm) or pay-per-call in USDC on Base via x402 REST at [`x402.tunedfor.ai`](https://x402.tunedfor.ai) — no API key, no rate limits."
+        surrounding_text: >-
+          - [tunedforai/x402-mcp](https://github.com/tunedforai/x402-mcp) [![tunedforai/x402-mcp MCP
+          server](https://glama.ai/mcp/servers/tunedforai/x402-mcp/badges/score.svg)](https://glama.ai/mcp/servers/tunedforai/x402-mcp)
+          📇 ☁️ - Real-time crypto market structure for AI agents — orderflow across 20 exchanges, 24 tokens. 9 tools:
+          price/funding/OI snapshots, cross-exchange CVD with whale activity, 7yr OHLCV history with buy/sell flow,
+          on-chain address risk. Free via MCP
+          ([`@tunedforai/x402-mcp`](https://www.npmjs.com/package/@tunedforai/x402-mcp) on npm) or pay-per-call in USDC
+          on Base via x402 REST at [`x402.tunedfor.ai`](https://x402.tunedfor.ai) — no API key, no rate limits.
         confidence: high
 metadata:
   github:
@@ -38,8 +45,12 @@ metadata:
     readme: null
 insights:
   summary: A crypto market data API providing aggregated cross-exchange orderflow and macro metrics via REST or MCP.
-  why_it_matters: It enables AI agents to access complex, multi-exchange market structure and derived signals through a standardized protocol without manual data pipeline construction.
-  mental_damage: Because nothing says 'odern developer workflow' like paying for market signals in USDC to feed an agent that might just blow your wallet.
+  why_it_matters: >-
+    It enables AI agents to access complex, multi-exchange market structure and derived signals through a standardized
+    protocol without manual data pipeline construction.
+  mental_damage: >-
+    Because nothing says 'odern developer workflow' like paying for market signals in USDC to feed an agent that might
+    just blow your wallet.
   tags:
     - crypto
     - market-data
@@ -49,21 +60,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is centered on providing an MCP-compatible interface for domain-specific data (crypto market structure).
+  reason: >-
+    The product's identity is centered on providing an MCP-compatible interface for domain-specific data (crypto market
+    structure).
   evidence:
     - Explicitly offers MCP tier for Claude Desktop, Cursor, and Windsurf
     - Provides a dedicated MCP installation command via npx
     - Primary value is providing structured data/signals to agents
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.671Z"
+    updated_at: '2026-05-06T22:12:15.671Z'
     cause: null
     next_retry_at: null
   stars:
@@ -72,7 +86,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:40:02.633Z"
+    updated_at: '2026-07-21T15:40:02.633Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -85,7 +99,9 @@ processing:
       input_hash: sha256:cdbdc7b34cc81f47f4cedd67016473836ece8a9ccdea184b19c4c82cfc6b113c
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's identity is centered on providing an MCP-compatible interface for domain-specific data (crypto market structure).
+      decision_reason: >-
+        The product's identity is centered on providing an MCP-compatible interface for domain-specific data (crypto
+        market structure).
       decision_evidence:
         - Explicitly offers MCP tier for Claude Desktop, Cursor, and Windsurf
         - Provides a dedicated MCP installation command via npx
@@ -93,6 +109,8 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product identity is centered on the MCP server implementation for model context, rather than a general-purpose coding SDK.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product identity is centered on the MCP server implementation for
+        model context, rather than a general-purpose coding SDK.
       review_reason: null
       review_resume_lifecycle: null

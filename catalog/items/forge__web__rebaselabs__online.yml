@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__forge__web__rebaselabs__online__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,10 @@ provenance:
           - App Builders
         anchor_text: Forge
         extracted_url: https://forge-web.rebaselabs.online
-        surrounding_text: "- **[Forge](https://forge-web.rebaselabs.online)** – BYOK full-stack app creator — use your own API key (Anthropic, OpenAI, Google) with no markup. Multi-stage pipeline generates production-ready Next.js apps from natural language."
+        surrounding_text: >-
+          - **[Forge](https://forge-web.rebaselabs.online)** – BYOK full-stack app creator — use your own API key
+          (Anthropic, OpenAI, Google) with no markup. Multi-stage pipeline generates production-ready Next.js apps from
+          natural language.
         confidence: high
 metadata:
   github:
@@ -37,8 +40,12 @@ metadata:
     readme: null
 insights:
   summary: An AI-powered application builder for generating web-based applications from prompts.
-  why_it_matters: It accelerates the path from idea to functional web scaffold by automating the initial generation and deployment of site structures.
-  mental_damage: Another way to generate a functional frontend in thirty seconds, ensuring you spend the rest of your afternoon debugging the logic the AI hallucinated.
+  why_it_matters: >-
+    It accelerates the path from idea to functional web scaffold by automating the initial generation and deployment of
+    site structures.
+  mental_damage: >-
+    Another way to generate a functional frontend in thirty seconds, ensuring you spend the rest of your afternoon
+    debugging the logic the AI hallucinated.
   tags:
     - app-builders
     - prompt-to-app
@@ -47,20 +54,23 @@ insights:
   confidence: low
 curation:
   status: included
-  reason: The project's presence in an awesome list under 'App Builders' and its URL structure suggest it is a platform for turning prompts into deployed web apps.
+  reason: >-
+    The project's presence in an awesome list under 'App Builders' and its URL structure suggest it is a platform for
+    turning prompts into deployed web apps.
   evidence:
     - Included in awesome-ai-coding-tools under 'App Builders' section
     - URL indicates a hosted web application for generating content/apps
 placement:
   primary_category: app-builders
-  section: Prompt-to-App Builders
+  secondary_categories: []
+  section: Full App Builders
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: low confidence"
+  reason: 'Categorization review required: low confidence'
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +79,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:45:56.110Z"
+    updated_at: '2026-07-20T15:45:56.110Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -82,13 +92,17 @@ processing:
       input_hash: sha256:62e652e0c7e84195b6c6f8a89965282c294f4d9cf21d66f75f27909d62294b8b
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The project's presence in an awesome list under 'App Builders' and its URL structure suggest it is a platform for turning prompts into deployed web apps.
+      decision_reason: >-
+        The project's presence in an awesome list under 'App Builders' and its URL structure suggest it is a platform
+        for turning prompts into deployed web apps.
       decision_evidence:
         - Included in awesome-ai-coding-tools under 'App Builders' section
         - URL indicates a hosted web application for generating content/apps
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: Choose app-builders over coding-agents because the tool is categorized as a platform for creating new apps from prompts rather than an assistant for editing existing codebases.
-      review_reason: "Categorization review required: low confidence"
+      contrastive_reason: >-
+        Choose app-builders over coding-agents because the tool is categorized as a platform for creating new apps from
+        prompts rather than an assistant for editing existing codebases.
+      review_reason: 'Categorization review required: low confidence'
       review_resume_lifecycle: null

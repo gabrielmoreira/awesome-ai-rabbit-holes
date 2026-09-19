@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ionos-cloud__ionoscloud-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: ionos-cloud/ionoscloud-mcp
         extracted_url: https://github.com/ionos-cloud/ionoscloud-mcp
-        surrounding_text: "- [ionos-cloud/ionoscloud-mcp](https://github.com/ionos-cloud/ionoscloud-mcp) [![ionos-cloud/ionoscloud-mcp MCP server](https://glama.ai/mcp/servers/ionos-cloud/ionoscloud-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ionos-cloud/ionoscloud-mcp) 🏎️ ☁️ - Inspect and manage IONOS CLOUD infrastructure via MCP."
+        surrounding_text: >-
+          - [ionos-cloud/ionoscloud-mcp](https://github.com/ionos-cloud/ionoscloud-mcp) [![ionos-cloud/ionoscloud-mcp
+          MCP
+          server](https://glama.ai/mcp/servers/ionos-cloud/ionoscloud-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ionos-cloud/ionoscloud-mcp)
+          🏎️ ☁️ - Inspect and manage IONOS CLOUD infrastructure via MCP.
         confidence: high
 metadata:
   github:
@@ -30,22 +34,26 @@ metadata:
     archived: false
     full_name: ionos-cloud/ionoscloud-mcp
     html_url: https://github.com/ionos-cloud/ionoscloud-mcp
-    created_at: "2025-12-19T12:29:33Z"
-    pushed_at: "2026-07-29T13:24:23Z"
+    created_at: '2025-12-19T12:29:33Z'
+    pushed_at: '2026-07-29T13:24:23Z'
     description: This project implements an MCP server to interact with ionos cloud resources.
     homepage: null
     topics:
       - mcp
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-07-30T05:05:44.585Z"
+    last_checked_at: '2026-07-30T05:05:44.585Z'
     readme:
-      fetched_at: "2026-07-30T05:05:44.585Z"
+      fetched_at: '2026-07-30T05:05:44.585Z'
       bytes: 17854
 insights:
   summary: An MCP server that exposes IONOS CLOUD resources to AI assistants via the Model Context Protocol.
-  why_it_matters: It allows developers to inspect, audit, and query cloud infrastructure using natural language through MCP-compatible agents like Claude and Cursor.
-  mental_damage: Because navigating a cloud console is a chore, we can now add another layer of abstraction between the developer and their actual infrastructure.
+  why_it_matters: >-
+    It allows developers to inspect, audit, and query cloud infrastructure using natural language through MCP-compatible
+    agents like Claude and Cursor.
+  mental_damage: >-
+    Because navigating a cloud console is a chore, we can now add another layer of abstraction between the developer and
+    their actual infrastructure.
   tags:
     - mcp
     - cloud
@@ -55,31 +63,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's core identity is an MCP server implementation that provides specialized domain tools for cloud management.
+  reason: >-
+    The project's core identity is an MCP server implementation that provides specialized domain tools for cloud
+    management.
   evidence:
     - Repo description explicitly identifies it as an MCP server for IONOS cloud resources
     - Provides 118 tools across 7 IONOS CLOUD products for inspection and auditing
     - Designed specifically to interface with the Model Context Protocol
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-15T05:51:04.989Z"
+    updated_at: '2026-06-15T05:51:04.989Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:44.585Z"
+    updated_at: '2026-07-30T05:05:44.585Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-29T05:44:36.726Z"
+    updated_at: '2026-06-29T05:44:36.726Z'
     cause: null
     next_retry_at: null
     attempts: 1

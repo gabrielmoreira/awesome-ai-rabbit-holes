@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__andybrandt__mcp-simple-arxiv__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -19,7 +19,10 @@ provenance:
           - 🔎 Search
         anchor_text: andybrandt/mcp-simple-arxiv
         extracted_url: https://github.com/andybrandt/mcp-simple-arxiv
-        surrounding_text: "-   **[andybrandt/mcp-simple-arxiv](https://github.com/andybrandt/mcp-simple-arxiv)** [![GitHub stars](https://img.shields.io/github/stars/andybrandt/mcp-simple-arxiv?style=social)](https://github.com/andybrandt/mcp-simple-arxiv): Allows searching and reading papers from arXiv."
+        surrounding_text: >-
+          -   **[andybrandt/mcp-simple-arxiv](https://github.com/andybrandt/mcp-simple-arxiv)** [![GitHub
+          stars](https://img.shields.io/github/stars/andybrandt/mcp-simple-arxiv?style=social)](https://github.com/andybrandt/mcp-simple-arxiv):
+          Allows searching and reading papers from arXiv.
         confidence: high
 metadata:
   github:
@@ -29,19 +32,23 @@ metadata:
     archived: false
     full_name: andybrandt/mcp-simple-arxiv
     html_url: https://github.com/andybrandt/mcp-simple-arxiv
-    created_at: "2024-12-07T07:52:32Z"
-    pushed_at: "2026-02-19T10:18:35Z"
+    created_at: '2024-12-07T07:52:32Z'
+    pushed_at: '2026-02-19T10:18:35Z'
     description: Tool to  work with arXiv, provide LLM with ability to search and read papers from there
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:43.910Z"
+    last_checked_at: '2026-09-17T04:13:43.910Z'
     readme:
-      fetched_at: "2026-09-17T04:13:43.910Z"
+      fetched_at: '2026-09-17T04:13:43.910Z'
       bytes: 3781
 insights:
   summary: An MCP server that exposes arXiv search, paper metadata, and full-text PDF-to-Markdown retrieval to LLM clients.
-  why_it_matters: It plugs academic literature directly into the coding-assistant workflow, letting developers search and read papers without leaving their agent chat.
-  mental_damage: We have now protocolized the final link between 'I should read the paper' and 'Claude, just tell me if it's worth my weekend.'
+  why_it_matters: >-
+    It plugs academic literature directly into the coding-assistant workflow, letting developers search and read papers
+    without leaving their agent chat.
+  mental_damage: >-
+    We have now protocolized the final link between 'I should read the paper' and 'Claude, just tell me if it's worth my
+    weekend.'
   tags:
     - mcp
     - arxiv
@@ -50,31 +57,37 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The repository is explicitly an MCP server for arXiv access, fitting cleanly into the MCP Servers & Tooling category as a domain-specific server.
+  reason: >-
+    The repository is explicitly an MCP server for arXiv access, fitting cleanly into the MCP Servers & Tooling category
+    as a domain-specific server.
   evidence:
-    - Repository is named 'mcp-simple-arxiv' and README frames it entirely as an MCP server with arXiv search and PDF retrieval tools.
+    - >-
+      Repository is named 'mcp-simple-arxiv' and README frames it entirely as an MCP server with arXiv search and PDF
+      retrieval tools.
     - Curated in awesome-mcp-list under Search, confirming ecosystem recognition as MCP infrastructure.
-    - Installation and usage docs target Claude Desktop and other MCP clients, not a standalone app or generic IDE plugin.
+    - >-
+      Installation and usage docs target Claude Desktop and other MCP clients, not a standalone app or generic IDE
+      plugin.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: promotion_candidate
   reason: Stars (191) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.602Z"
+    updated_at: '2026-05-06T22:12:15.602Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:43.910Z"
+    updated_at: '2026-09-17T04:13:43.910Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-23T05:10:38.379Z"
+    updated_at: '2026-07-23T05:10:38.379Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -87,14 +100,23 @@ processing:
       input_hash: sha256:7f3c071eb720d2b6a709d12682d9b8d65f773de86854bea48be98b44c4e02a63
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The repository is explicitly an MCP server for arXiv access, fitting cleanly into the MCP Servers & Tooling category as a domain-specific server.
+      decision_reason: >-
+        The repository is explicitly an MCP server for arXiv access, fitting cleanly into the MCP Servers & Tooling
+        category as a domain-specific server.
       decision_evidence:
-        - Repository is named 'mcp-simple-arxiv' and README frames it entirely as an MCP server with arXiv search and PDF retrieval tools.
+        - >-
+          Repository is named 'mcp-simple-arxiv' and README frames it entirely as an MCP server with arXiv search and
+          PDF retrieval tools.
         - Curated in awesome-mcp-list under Search, confirming ecosystem recognition as MCP infrastructure.
-        - Installation and usage docs target Claude Desktop and other MCP clients, not a standalone app or generic IDE plugin.
+        - >-
+          Installation and usage docs target Claude Desktop and other MCP clients, not a standalone app or generic IDE
+          plugin.
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the repository is an MCP server first, distributing protocol infrastructure for arXiv access rather than augmenting a specific editor or assistant with general host capabilities.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the repository is an MCP server first, distributing protocol
+        infrastructure for arXiv access rather than augmenting a specific editor or assistant with general host
+        capabilities.
       review_reason: null
       review_resume_lifecycle: null

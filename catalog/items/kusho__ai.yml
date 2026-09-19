@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__kusho__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Kusho
         anchor_text: Kusho
         extracted_url: https://kusho.ai
-        surrounding_text: "## [Kusho](https://kusho.ai/)"
+        surrounding_text: '## [Kusho](https://kusho.ai/)'
         confidence: high
     - id: discovery__kusho__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - Testing and QA
         anchor_text: KushoAI
         extracted_url: https://kusho.ai
-        surrounding_text: "- **[KushoAI](https://kusho.ai/)** – AI-driven API testing."
+        surrounding_text: '- **[KushoAI](https://kusho.ai/)** – AI-driven API testing.'
         confidence: high
 metadata:
   github:
@@ -51,8 +51,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: KushoAI is a CI/CD-native platform that uses autonomous agents to handle API contract testing, security scanning, end-to-end workflow validation, and self-healing test infrastructure.
-  why_it_matters: It automates the generation, maintenance, and execution of tests across APIs, workflows, and UIs, reducing QA time and catching regressions before production.
+  summary: >-
+    KushoAI is a CI/CD-native platform that uses autonomous agents to handle API contract testing, security scanning,
+    end-to-end workflow validation, and self-healing test infrastructure.
+  why_it_matters: >-
+    It automates the generation, maintenance, and execution of tests across APIs, workflows, and UIs, reducing QA time
+    and catching regressions before production.
   mental_damage: Finally, a way to offload the soul-crushing task of keeping your test suite in sync with your ever-changing APIs.
   tags:
     - ci-cd
@@ -63,21 +67,26 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a control plane for autonomous agents that handle testing, healing, and monitoring continuously within the software maintenance lifecycle.
+  reason: >-
+    The product is a control plane for autonomous agents that handle testing, healing, and monitoring continuously
+    within the software maintenance lifecycle.
   evidence:
-    - Scraped site describes 'Autonomous agents that live in your CI/CD and handle testing, healing, and monitoring continuously.'
+    - >-
+      Scraped site describes 'Autonomous agents that live in your CI/CD and handle testing, healing, and monitoring
+      continuously.'
     - Positioned as a 'reliability layer' and 'control panel' rather than a simple script or library.
     - Listed in awesome-ai-agents under sections describing infrastructure for software maintenance.
 placement:
-  primary_category: agent-orchestration
-  section: null
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Review, Testing & Repair
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'coding-agents'"
+  reason: 'Categorization review required: placement disagreement: retained ''agent-orchestration'', proposed ''coding-agents'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.597Z"
+    updated_at: '2026-05-06T22:12:15.597Z'
     cause: null
     next_retry_at: null
   stars:
@@ -86,7 +95,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:55.316Z"
+    updated_at: '2026-07-21T15:28:55.316Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -99,14 +108,21 @@ processing:
       input_hash: sha256:b5117416d152327e2aafcb2bfd8cc2caec347db9c09250c68d02c50894b3606c
       proposed_primary_category: coding-agents
       disagreement: true
-      decision_reason: The product's core identity is autonomous agents that directly test, validate, and repair software artifacts (APIs, workflows, UIs) in CI/CD pipelines, fitting the 'Review, Testing & Repair Agents' section of Coding Agents.
+      decision_reason: >-
+        The product's core identity is autonomous agents that directly test, validate, and repair software artifacts
+        (APIs, workflows, UIs) in CI/CD pipelines, fitting the 'Review, Testing & Repair Agents' section of Coding
+        Agents.
       decision_evidence:
         - Described as 'AI-native infrastructure for software maintenance' with autonomous agents in CI/CD
-        - Core features include API contract testing, security scanning, E2E workflow validation, and self-healing test updates
+        - >-
+          Core features include API contract testing, security scanning, E2E workflow validation, and self-healing test
+          updates
         - Listed in 'Testing and QA' sections of curated AI coding tool directories
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because the primary product is the autonomous testing agent itself, not an extension augmenting another assistant.
-      review_reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'coding-agents'"
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because the primary product is the autonomous testing agent itself,
+        not an extension augmenting another assistant.
+      review_reason: 'Categorization review required: placement disagreement: retained ''agent-orchestration'', proposed ''coding-agents'''
       review_resume_lifecycle: null

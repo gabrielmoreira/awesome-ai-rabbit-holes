@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jetxu-llm__llama-github__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,7 +20,11 @@ provenance:
           - Services
         anchor_text: Llama-github
         extracted_url: https://github.com/jetxu-llm/llama-github
-        surrounding_text: "- [Llama-github](https://github.com/JetXu-LLM/llama-github): Llama-github is a python library which built with Langchain framework that helps you retrieve the most relevant code snippets, issues, and repository information from GitHub ![GitHub Repo stars](https://img.shields.io/github/stars/JetXu-LLM/llama-github?style=social)"
+        surrounding_text: >-
+          - [Llama-github](https://github.com/JetXu-LLM/llama-github): Llama-github is a python library which built with
+          Langchain framework that helps you retrieve the most relevant code snippets, issues, and repository
+          information from GitHub ![GitHub Repo
+          stars](https://img.shields.io/github/stars/JetXu-LLM/llama-github?style=social)
         confidence: high
 metadata:
   github:
@@ -30,9 +34,12 @@ metadata:
     archived: false
     full_name: JetXu-LLM/llama-github
     html_url: https://github.com/JetXu-LLM/llama-github
-    created_at: "2024-05-16T08:47:28Z"
-    pushed_at: "2026-07-19T21:28:17Z"
-    description: Llama-github is an open-source Python library that empowers LLM Chatbots, AI Agents, and Auto-dev Solutions to conduct Agentic RAG from actively selected GitHub public projects. It Augments through LLMs and Generates context for any coding question, in order to streamline the development of sophisticated AI-driven applications.
+    created_at: '2024-05-16T08:47:28Z'
+    pushed_at: '2026-07-19T21:28:17Z'
+    description: >-
+      Llama-github is an open-source Python library that empowers LLM Chatbots, AI Agents, and Auto-dev Solutions to
+      conduct Agentic RAG from actively selected GitHub public projects. It Augments through LLMs and Generates context
+      for any coding question, in order to streamline the development of sophisticated AI-driven applications.
     homepage: https://pypi.org/project/llama-github/
     topics:
       - ai-agent
@@ -47,13 +54,17 @@ metadata:
       - llm
       - python-library
       - retrieval-augmented-generation
-    last_checked_at: "2026-07-30T05:05:49.738Z"
+    last_checked_at: '2026-07-30T05:05:49.738Z'
     readme:
-      fetched_at: "2026-07-30T05:05:49.738Z"
+      fetched_at: '2026-07-30T05:05:49.738Z'
       bytes: 8576
 insights:
-  summary: llama-github is a Python library that enables LLM chatbots, AI agents, and auto-dev solutions to perform Agentic RAG by retrieving relevant code snippets, issues, and repository information from GitHub.
-  why_it_matters: It streamlines development by augmenting AI agents with context-rich GitHub data, reducing the time spent searching for relevant code examples or repository insights.
+  summary: >-
+    llama-github is a Python library that enables LLM chatbots, AI agents, and auto-dev solutions to perform Agentic RAG
+    by retrieving relevant code snippets, issues, and repository information from GitHub.
+  why_it_matters: >-
+    It streamlines development by augmenting AI agents with context-rich GitHub data, reducing the time spent searching
+    for relevant code examples or repository insights.
   mental_damage: Now your AI agent can drown in GitHub issues just like you do.
   tags:
     - python-library
@@ -64,31 +75,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product is a code-first library for retrieval-augmented generation (RAG) from GitHub, fitting the Frameworks & SDKs category as a reusable building block for AI workflows.
+  reason: >-
+    The core product is a code-first library for retrieval-augmented generation (RAG) from GitHub, fitting the
+    Frameworks & SDKs category as a reusable building block for AI workflows.
   evidence:
     - Repo description explicitly states it is a Python library for Agentic RAG from GitHub
-    - README emphasizes its role as a tool for LLM chatbots, AI agents, and auto-dev solutions to retrieve and generate context
+    - >-
+      README emphasizes its role as a tool for LLM chatbots, AI agents, and auto-dev solutions to retrieve and generate
+      context
     - Source-list context (awesome-langchain) places it under Tools > Services, aligning with framework/library usage
 placement:
-  primary_category: ai-frameworks
-  section: Memory / Retrieval Infrastructure
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Retrieval & Fresh Docs
 lifecycle:
   status: promotion_candidate
   reason: Stars (304) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:49.738Z"
+    updated_at: '2026-07-30T05:05:49.738Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:25.884Z"
+    updated_at: '2026-07-21T16:10:25.884Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -101,14 +117,22 @@ processing:
       input_hash: sha256:e6781942a6ec7328b756c846df5baf2b25868690e42cbf02886369ccae2f7f39
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: The core product is a code-first library for retrieval-augmented generation (RAG) from GitHub, fitting the Frameworks & SDKs category as a reusable building block for AI workflows.
+      decision_reason: >-
+        The core product is a code-first library for retrieval-augmented generation (RAG) from GitHub, fitting the
+        Frameworks & SDKs category as a reusable building block for AI workflows.
       decision_evidence:
         - Repo description explicitly states it is a Python library for Agentic RAG from GitHub
-        - README emphasizes its role as a tool for LLM chatbots, AI agents, and auto-dev solutions to retrieve and generate context
-        - Source-list context (awesome-langchain) places it under Tools > Services, aligning with framework/library usage
+        - >-
+          README emphasizes its role as a tool for LLM chatbots, AI agents, and auto-dev solutions to retrieve and
+          generate context
+        - >-
+          Source-list context (awesome-langchain) places it under Tools > Services, aligning with framework/library
+          usage
       category_candidates:
         - ai-frameworks
         - context-engineering
-      contrastive_reason: Choose ai-frameworks over context-engineering because the primary identity is a reusable Python library/SDK for GitHub RAG rather than a standalone context/memory system.
+      contrastive_reason: >-
+        Choose ai-frameworks over context-engineering because the primary identity is a reusable Python library/SDK for
+        GitHub RAG rather than a standalone context/memory system.
       review_reason: null
       review_resume_lifecycle: null

@@ -5,8 +5,9 @@ canonical_url: https://glama.ai/mcp/servers/DollhouseMCP/mcp-server/badge
 identity: {}
 provenance:
   discoveries:
-    - id: discovery__glama__ai__mcp__servers__dollhousemcp__mcp__server__badge__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+    - id: >-
+        discovery__glama__ai__mcp__servers__dollhousemcp__mcp__server__badge__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -17,9 +18,15 @@ provenance:
         section_path:
           - Server Implementations
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
-        anchor_text: "![DollhouseMCP MCP server"
+        anchor_text: '![DollhouseMCP MCP server'
         extracted_url: https://glama.ai/mcp/servers/DollhouseMCP/mcp-server/badge
-        surrounding_text: "- [DollhouseMCP/mcp-server](https://github.com/DollhouseMCP/mcp-server) [![DollhouseMCP MCP server](https://glama.ai/mcp/servers/DollhouseMCP/mcp-server/badge)](https://glama.ai/mcp/servers/DollhouseMCP/mcp-server) 📇 🏠 🍎 🪟 🐧 - One-line installable MCP server that adds reusable customization elements — personas, skills, templates, agents, memory, and ensembles (collected customization tools) — to any MCP Client application. Dynamic permissioning for safe AI operations, a robust validation architecture, versioning, and a public collection of shareable content. Install: `npx @dollhousemcp/mcp-server@latest --web`."
+        surrounding_text: >-
+          - [DollhouseMCP/mcp-server](https://github.com/DollhouseMCP/mcp-server) [![DollhouseMCP MCP
+          server](https://glama.ai/mcp/servers/DollhouseMCP/mcp-server/badge)](https://glama.ai/mcp/servers/DollhouseMCP/mcp-server)
+          📇 🏠 🍎 🪟 🐧 - One-line installable MCP server that adds reusable customization elements — personas, skills,
+          templates, agents, memory, and ensembles (collected customization tools) — to any MCP Client application.
+          Dynamic permissioning for safe AI operations, a robust validation architecture, versioning, and a public
+          collection of shareable content. Install: `npx @dollhousemcp/mcp-server@latest --web`.
         confidence: high
 metadata:
   github:
@@ -53,14 +60,15 @@ curation:
     - Product name and path ('badge') suggest it is a badge generation server
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:27:15.353Z"
+    updated_at: '2026-07-21T15:27:15.353Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,6 +97,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is an MCP server, not an extension for another tool.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is an MCP server, not an extension for another
+        tool.
       review_reason: null
       review_resume_lifecycle: null

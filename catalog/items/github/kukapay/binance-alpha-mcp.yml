@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__binance-alpha-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/binance-alpha-mcp
         extracted_url: https://github.com/kukapay/binance-alpha-mcp
-        surrounding_text: "- [kukapay/binance-alpha-mcp](https://github.com/kukapay/binance-alpha-mcp) 🐍 ☁️ - An MCP server for tracking Binance Alpha trades, helping AI agents optimize alpha point accumulation."
+        surrounding_text: >-
+          - [kukapay/binance-alpha-mcp](https://github.com/kukapay/binance-alpha-mcp) 🐍 ☁️ - An MCP server for tracking
+          Binance Alpha trades, helping AI agents optimize alpha point accumulation.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,22 @@ metadata:
     archived: false
     full_name: kukapay/binance-alpha-mcp
     html_url: https://github.com/kukapay/binance-alpha-mcp
-    created_at: "2025-05-14T09:59:08Z"
-    pushed_at: "2025-05-14T09:59:26Z"
+    created_at: '2025-05-14T09:59:08Z'
+    pushed_at: '2025-05-14T09:59:26Z'
     description: An MCP server for tracking Binance Alpha trades, helping AI agents optimize alpha point accumulation.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:58.855Z"
+    last_checked_at: '2026-07-30T05:05:58.855Z'
     readme:
-      fetched_at: "2026-07-30T05:05:58.855Z"
+      fetched_at: '2026-07-30T05:05:58.855Z'
       bytes: 4237
 insights:
-  summary: An MCP server that tracks Binance Alpha trades and provides tools for AI agents to optimize alpha point accumulation.
-  why_it_matters: Developers building AI agents for crypto trading can use this to monitor real-time trade activity and derive USD-based metrics for Binance Alpha tokens.
+  summary: >-
+    An MCP server that tracks Binance Alpha trades and provides tools for AI agents to optimize alpha point
+    accumulation.
+  why_it_matters: >-
+    Developers building AI agents for crypto trading can use this to monitor real-time trade activity and derive
+    USD-based metrics for Binance Alpha tokens.
   mental_damage: Now your AI agent can chase alpha points while you chase the dream of your agent actually making you money.
   tags:
     - mcp-server
@@ -52,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server with domain-specific tools for tracking Binance Alpha trades, making MCP its primary identity.
+  reason: >-
+    The product is explicitly an MCP server with domain-specific tools for tracking Binance Alpha trades, making MCP its
+    primary identity.
   evidence:
     - Repo description explicitly states it is an MCP server for tracking Binance Alpha trades
     - README details MCP tools like get_top_tokens and get_trade_stats
     - Project is actively maintained (created and pushed in May 2025)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:58.855Z"
+    updated_at: '2026-07-30T05:05:58.855Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:26.389Z"
+    updated_at: '2026-07-21T16:13:26.389Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +98,9 @@ processing:
       input_hash: sha256:a7b1143b1dd817969d8c1dc518d8cf8b1e20420731f16cde8bfb61283500032e
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server with domain-specific tools for tracking Binance Alpha trades, making MCP its primary identity.
+      decision_reason: >-
+        The product is explicitly an MCP server with domain-specific tools for tracking Binance Alpha trades, making MCP
+        its primary identity.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for tracking Binance Alpha trades
         - README details MCP tools like get_top_tokens and get_trade_stats
@@ -97,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server with domain-specific tools, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server with domain-specific tools, not an
+        extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

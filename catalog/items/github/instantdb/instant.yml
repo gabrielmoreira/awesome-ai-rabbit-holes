@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__instantdb__instant__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: InstantDB
         extracted_url: https://github.com/instantdb/instant
-        surrounding_text: "- **[InstantDB](https://github.com/instantdb/instant/tree/main/client/packages/mcp)** - Create, manage, and update applications on InstantDB, the modern Firebase."
+        surrounding_text: >-
+          - **[InstantDB](https://github.com/instantdb/instant/tree/main/client/packages/mcp)** - Create, manage, and
+          update applications on InstantDB, the modern Firebase.
         confidence: high
 metadata:
   github:
@@ -29,18 +31,24 @@ metadata:
     archived: false
     full_name: instantdb/instant
     html_url: https://github.com/instantdb/instant
-    created_at: "2024-08-19T21:53:42Z"
-    pushed_at: "2026-07-29T23:57:25Z"
-    description: Instant is the best backend for AI-coded apps.  You get auth, permissions, storage, presence, and streams — everything you need to ship apps your users will love.
+    created_at: '2024-08-19T21:53:42Z'
+    pushed_at: '2026-07-29T23:57:25Z'
+    description: >-
+      Instant is the best backend for AI-coded apps.  You get auth, permissions, storage, presence, and streams —
+      everything you need to ship apps your users will love.
     homepage: https://instantdb.com
     topics: []
-    last_checked_at: "2026-07-30T05:05:43.784Z"
+    last_checked_at: '2026-07-30T05:05:43.784Z'
     readme:
-      fetched_at: "2026-07-30T05:05:43.783Z"
+      fetched_at: '2026-07-30T05:05:43.783Z'
       bytes: 5899
 insights:
-  summary: Instant is a backend-as-a-service providing auth, permissions, storage, presence, and real-time streams for AI-coded apps.
-  why_it_matters: It eliminates the need to manually set up databases, caches, ORMs, and endpoints, letting developers focus on building UX with client-side queries and multiplayer sync.
+  summary: >-
+    Instant is a backend-as-a-service providing auth, permissions, storage, presence, and real-time streams for AI-coded
+    apps.
+  why_it_matters: >-
+    It eliminates the need to manually set up databases, caches, ORMs, and endpoints, letting developers focus on
+    building UX with client-side queries and multiplayer sync.
   mental_damage: Finally, a backend that lets you pretend the last 20 years of distributed systems papers never happened.
   tags:
     - backend-as-a-service
@@ -49,32 +57,31 @@ insights:
     - ai-app-infra
   confidence: high
 curation:
-  status: included
-  reason: Instant is a code-first SDK/framework for embedding backend capabilities into AI-coded apps, not a primary coding assistant, IDE, or orchestration platform.
+  status: pending
+  reason: 'Definitive manual audit: Backend-as-a-service platform; AI-adjacent marketing but not an AI tool.'
   evidence:
-    - "Repo description: 'Instant is the best backend for AI-coded apps. You get auth, permissions, storage, presence, and streams'"
-    - README emphasizes SDKs (JS/React/React Native) and client-side query engine as core value
-    - Architecture overview describes a sync server, query engine, and client-side triple store as the product's substance
+    - Manual review, 2026-09-19
 placement:
-  primary_category: ai-frameworks
-  section: Provider / Model Abstractions
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (10237) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.620Z"
+    updated_at: '2026-05-06T22:12:15.620Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:43.784Z"
+    updated_at: '2026-07-30T05:05:43.784Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:08:16.419Z"
+    updated_at: '2026-07-21T16:08:16.419Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,14 +94,22 @@ processing:
       input_hash: sha256:909e1b3a4f8341cd8277487febf6fcac38b8d5724e9c3a692f0fa9ab5abf70fa
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: Instant is a code-first SDK/framework for embedding backend capabilities into AI-coded apps, not a primary coding assistant, IDE, or orchestration platform.
+      decision_reason: >-
+        Instant is a code-first SDK/framework for embedding backend capabilities into AI-coded apps, not a primary
+        coding assistant, IDE, or orchestration platform.
       decision_evidence:
-        - "Repo description: 'Instant is the best backend for AI-coded apps. You get auth, permissions, storage, presence, and streams'"
+        - >-
+          Repo description: 'Instant is the best backend for AI-coded apps. You get auth, permissions, storage,
+          presence, and streams'
         - README emphasizes SDKs (JS/React/React Native) and client-side query engine as core value
-        - Architecture overview describes a sync server, query engine, and client-side triple store as the product's substance
+        - >-
+          Architecture overview describes a sync server, query engine, and client-side triple store as the product's
+          substance
       category_candidates:
         - ai-frameworks
         - app-builders
-      contrastive_reason: Choose ai-frameworks over app-builders because Instant is a backend SDK for building apps, not a prompt-to-app generator.
+      contrastive_reason: >-
+        Choose ai-frameworks over app-builders because Instant is a backend SDK for building apps, not a prompt-to-app
+        generator.
       review_reason: null
       review_resume_lifecycle: null

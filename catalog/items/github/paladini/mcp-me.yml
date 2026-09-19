@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__paladini__mcp-me__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: paladini/mcp-me
         extracted_url: https://github.com/paladini/mcp-me
-        surrounding_text: "- [paladini/mcp-me](https://github.com/paladini/mcp-me) [![paladini/mcp-me MCP server](https://glama.ai/mcp/servers/paladini/mcp-me/badges/score.svg)](https://glama.ai/mcp/servers/paladini/mcp-me) 📇 🏠 🍎 🪟 🐧 - Digital identity layer for AI — your bio, career, skills, interests, and projects always available to every AI tool. Auto-generates profile from 342+ public APIs (GitHub, Medium, Strava, Goodreads, etc.), 13 real-time plugins (Spotify, Last.fm, Steam), YAML-based profiles with privacy-first local storage. Works with Claude Desktop, Cursor, Windsurf, and any MCP client."
+        surrounding_text: >-
+          - [paladini/mcp-me](https://github.com/paladini/mcp-me) [![paladini/mcp-me MCP
+          server](https://glama.ai/mcp/servers/paladini/mcp-me/badges/score.svg)](https://glama.ai/mcp/servers/paladini/mcp-me)
+          📇 🏠 🍎 🪟 🐧 - Digital identity layer for AI — your bio, career, skills, interests, and projects always
+          available to every AI tool. Auto-generates profile from 342+ public APIs (GitHub, Medium, Strava, Goodreads,
+          etc.), 13 real-time plugins (Spotify, Last.fm, Steam), YAML-based profiles with privacy-first local storage.
+          Works with Claude Desktop, Cursor, Windsurf, and any MCP client.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: paladini/mcp-me
     html_url: https://github.com/paladini/mcp-me
-    created_at: "2026-03-17T17:22:27Z"
-    pushed_at: "2026-07-20T01:35:10Z"
-    description: "Your AI assistants don't know who you are. mcp-me fixes that: a local MCP server that gives any AI a full picture of who you are"
+    created_at: '2026-03-17T17:22:27Z'
+    pushed_at: '2026-07-20T01:35:10Z'
+    description: >-
+      Your AI assistants don't know who you are. mcp-me fixes that: a local MCP server that gives any AI a full picture
+      of who you are
     homepage: https://mcp-me.page/
     topics:
       - ai
@@ -50,14 +58,20 @@ metadata:
       - typescript
       - windsurf
       - yaml
-    last_checked_at: "2026-07-20T16:42:30.122Z"
+    last_checked_at: '2026-07-20T16:42:30.122Z'
     readme:
-      fetched_at: "2026-07-20T16:42:30.122Z"
+      fetched_at: '2026-07-20T16:42:30.122Z'
       bytes: 19519
 insights:
-  summary: A local MCP server and CLI tool that builds a structured personal profile from various data sources and exposes it to AI assistants via the Model Context Protocol.
-  why_it_matters: It allows developers to provide consistent, cross-tool context about their skills, career, and projects to any MCP-compatible assistant without manual repetition.
-  mental_damage: Because nothing says 'streamlined workflow' like maintaining a local YAML-based digital identity just so your AI can pretend it remembers your TypeScript expertise from last Tuesday.
+  summary: >-
+    A local MCP server and CLI tool that builds a structured personal profile from various data sources and exposes it
+    to AI assistants via the Model Context Protocol.
+  why_it_matters: >-
+    It allows developers to provide consistent, cross-tool context about their skills, career, and projects to any
+    MCP-compatible assistant without manual repetition.
+  mental_damage: >-
+    Because nothing says 'streamlined workflow' like maintaining a local YAML-based digital identity just so your AI can
+    pretend it remembers your TypeScript expertise from last Tuesday.
   tags:
     - mcp
     - context
@@ -67,35 +81,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server that provides a personal profile as a tool, fitting the MCP Servers & Tooling category more precisely than a generic extension.
+  reason: >-
+    The product identity is an MCP server that provides a personal profile as a tool, fitting the MCP Servers & Tooling
+    category more precisely than a generic extension.
   evidence:
     - Repo description explicitly states it is 'a local MCP server'.
     - Source list appearance in awesome-mcp-servers under 'Knowledge & Memory'.
     - README details a 'mcp-me serve' command that starts an MCP server for assistants like Claude and Cursor.
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.641Z"
+    updated_at: '2026-05-06T22:12:15.641Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:30.122Z"
+    updated_at: '2026-07-20T16:42:30.122Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

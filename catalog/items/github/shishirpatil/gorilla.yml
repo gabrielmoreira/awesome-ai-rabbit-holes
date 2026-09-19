@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__shishirpatil__gorilla__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,7 +20,9 @@ provenance:
           - Services
         anchor_text: Gorilla
         extracted_url: https://github.com/shishirpatil/gorilla
-        surrounding_text: "- [Gorilla](https://github.com/ShishirPatil/gorilla): An API store for LLMs ![GitHub Repo stars](https://img.shields.io/github/stars/ShishirPatil/gorilla?style=social)"
+        surrounding_text: >-
+          - [Gorilla](https://github.com/ShishirPatil/gorilla): An API store for LLMs ![GitHub Repo
+          stars](https://img.shields.io/github/stars/ShishirPatil/gorilla?style=social)
         confidence: high
 metadata:
   github:
@@ -30,9 +32,9 @@ metadata:
     archived: false
     full_name: ShishirPatil/gorilla
     html_url: https://github.com/ShishirPatil/gorilla
-    created_at: "2023-05-19T00:46:45Z"
-    pushed_at: "2026-04-13T03:19:45Z"
-    description: "Gorilla: Training and Evaluating LLMs for Function Calls (Tool Calls)"
+    created_at: '2023-05-19T00:46:45Z'
+    pushed_at: '2026-04-13T03:19:45Z'
+    description: 'Gorilla: Training and Evaluating LLMs for Function Calls (Tool Calls)'
     homepage: https://gorilla.cs.berkeley.edu/
     topics:
       - api
@@ -43,14 +45,20 @@ metadata:
       - llm
       - openai-api
       - openai-functions
-    last_checked_at: "2026-07-20T16:42:56.335Z"
+    last_checked_at: '2026-07-20T16:42:56.335Z'
     readme:
-      fetched_at: "2026-07-20T16:42:56.335Z"
+      fetched_at: '2026-07-20T16:42:56.335Z'
       bytes: 16591
 insights:
-  summary: Gorilla is a research project and benchmark suite focused on training and evaluating LLMs for accurate function and API calling, featuring the Berkeley Function-Calling Leaderboard (BFCL).
-  why_it_matters: It provides the industry-standard benchmarks (BFCL) and datasets developers need to rigorously evaluate and select models based on their ability to interact with external tools and APIs.
-  mental_damage: We have evolved from 'can the model write a for-loop?' to 'can the model correctly invoke a nested API call without hallucinating a parameter?', and we now need a leaderboard just to track the existential dread of tool integration.
+  summary: >-
+    Gorilla is a research project and benchmark suite focused on training and evaluating LLMs for accurate function and
+    API calling, featuring the Berkeley Function-Calling Leaderboard (BFCL).
+  why_it_matters: >-
+    It provides the industry-standard benchmarks (BFCL) and datasets developers need to rigorously evaluate and select
+    models based on their ability to interact with external tools and APIs.
+  mental_damage: >-
+    We have evolved from 'can the model write a for-loop?' to 'can the model correctly invoke a nested API call without
+    hallucinating a parameter?', and we now need a leaderboard just to track the existential dread of tool integration.
   tags:
     - function-calling
     - benchmarks
@@ -60,35 +68,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core identity of this repo is the Berkeley Function-Calling Leaderboard and associated evaluation datasets (BFCL V2/V3/V4) used to measure model tool-use capabilities, fitting the evals category perfectly.
+  reason: >-
+    The core identity of this repo is the Berkeley Function-Calling Leaderboard and associated evaluation datasets (BFCL
+    V2/V3/V4) used to measure model tool-use capabilities, fitting the evals category perfectly.
   evidence:
-    - "Repo description explicitly states: 'Training and Evaluating LLMs for Function Calls (Tool Calls)'."
+    - 'Repo description explicitly states: ''Training and Evaluating LLMs for Function Calls (Tool Calls)''.'
     - README highlights the 'Berkeley Function-Calling Leaderboard' (BFCL V4 Agentic) as the primary recent update.
     - The project includes specific eval datasets like APIBench and runtime evaluation tools like GoEx.
 placement:
   primary_category: evals
-  section: Agent Benchmarks
+  secondary_categories: []
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: promotion_candidate
   reason: Stars (12858) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.647Z"
+    updated_at: '2026-05-06T22:12:15.647Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:56.335Z"
+    updated_at: '2026-07-20T16:42:56.335Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

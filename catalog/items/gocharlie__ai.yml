@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__gocharlie__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - GoCharlie
         anchor_text: GoCharlie
         extracted_url: https://gocharlie.ai
-        surrounding_text: "## [GoCharlie](https://gocharlie.ai/)"
+        surrounding_text: '## [GoCharlie](https://gocharlie.ai/)'
         confidence: high
 metadata:
   github:
@@ -46,20 +46,23 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: GoCharlie is listed in awesome-ai-agents as a multi-agent coordination platform, fitting the agent orchestration category.
+  reason: >-
+    GoCharlie is listed in awesome-ai-agents as a multi-agent coordination platform, fitting the agent orchestration
+    category.
   evidence:
-    - "Seen in awesome-ai-agents under section: GoCharlie"
+    - 'Seen in awesome-ai-agents under section: GoCharlie'
     - Described as an AI autonomous agent in source-list context
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Hosted Agent Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +71,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:27:22.784Z"
+    updated_at: '2026-07-21T15:27:22.784Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -81,13 +84,17 @@ processing:
       input_hash: sha256:d83e3278b81f7eb82cddfe874825b39a3666cdc52846f7941da2cd82773b129e
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: GoCharlie is listed in awesome-ai-agents as a multi-agent coordination platform, fitting the agent orchestration category.
+      decision_reason: >-
+        GoCharlie is listed in awesome-ai-agents as a multi-agent coordination platform, fitting the agent orchestration
+        category.
       decision_evidence:
-        - "Seen in awesome-ai-agents under section: GoCharlie"
+        - 'Seen in awesome-ai-agents under section: GoCharlie'
         - Described as an AI autonomous agent in source-list context
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because the primary identity is multi-agent coordination rather than direct code editing.
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because the primary identity is multi-agent coordination rather
+        than direct code editing.
       review_reason: null
       review_resume_lifecycle: null

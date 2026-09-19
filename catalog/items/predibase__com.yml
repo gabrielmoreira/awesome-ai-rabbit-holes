@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__predibase__com__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,7 +18,7 @@ provenance:
           - Platforms / full solutions
         anchor_text: Predibase
         extracted_url: https://predibase.com
-        surrounding_text: "- [Predibase](https://predibase.com/) - Serverless LoRA Fine-Tuning and Serving for LLMs."
+        surrounding_text: '- [Predibase](https://predibase.com/) - Serverless LoRA Fine-Tuning and Serving for LLMs.'
         confidence: high
 metadata:
   github:
@@ -37,7 +37,9 @@ metadata:
     readme: null
 insights:
   summary: Enterprise control layer for monitoring, governing, and remediating AI agent behavior across deployments.
-  why_it_matters: Provides real-time observability, policy enforcement, and rollback capabilities for multi-agent AI systems in production environments.
+  why_it_matters: >-
+    Provides real-time observability, policy enforcement, and rollback capabilities for multi-agent AI systems in
+    production environments.
   mental_damage: Finally, a way to undo that time your agent decided to recursively delete your prod database.
   tags:
     - agent-ops
@@ -48,21 +50,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly positioned as an enterprise control layer for AI agents, focusing on monitoring, governance, and remediation of multi-agent deployments.
+  reason: >-
+    The product is explicitly positioned as an enterprise control layer for AI agents, focusing on monitoring,
+    governance, and remediation of multi-agent deployments.
   evidence:
     - Site describes it as 'AI Agent Operations Platform' with 'enterprise control layer for AI agents'
     - Core features include monitoring agent actions, governing behavior, and rewinding mistakes
     - Targeted at production environments with multi-agent coordination needs
 placement:
-  primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  primary_category: evals
+  secondary_categories: []
+  section: Observability & Tracing
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +76,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:39.479Z"
+    updated_at: '2026-07-21T15:30:39.479Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +89,9 @@ processing:
       input_hash: sha256:5dcd60ffceff29e6747a8b5e4eb86480e8ba3154feffe4cecad04d146bb64050
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The product is explicitly positioned as an enterprise control layer for AI agents, focusing on monitoring, governance, and remediation of multi-agent deployments.
+      decision_reason: >-
+        The product is explicitly positioned as an enterprise control layer for AI agents, focusing on monitoring,
+        governance, and remediation of multi-agent deployments.
       decision_evidence:
         - Site describes it as 'AI Agent Operations Platform' with 'enterprise control layer for AI agents'
         - Core features include monitoring agent actions, governing behavior, and rewinding mistakes
@@ -92,6 +99,8 @@ processing:
       category_candidates:
         - agent-orchestration
         - evals
-      contrastive_reason: Choose agent-orchestration over evals because the primary value is operational control of agents rather than measurement or scoring of model behavior.
+      contrastive_reason: >-
+        Choose agent-orchestration over evals because the primary value is operational control of agents rather than
+        measurement or scoring of model behavior.
       review_reason: null
       review_resume_lifecycle: null

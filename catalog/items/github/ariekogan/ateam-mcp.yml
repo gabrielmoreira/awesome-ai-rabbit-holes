@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ariekogan__ateam-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: ariekogan/ateam-mcp
         extracted_url: https://github.com/ariekogan/ateam-mcp
-        surrounding_text: "- [ariekogan/ateam-mcp](https://github.com/ariekogan/ateam-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Build, validate, and deploy multi-agent AI solutions on the ADAS platform. Design skills with tools, manage solution lifecycle, and connect from any AI environment via stdio or HTTP."
+        surrounding_text: >-
+          - [ariekogan/ateam-mcp](https://github.com/ariekogan/ateam-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Build, validate, and
+          deploy multi-agent AI solutions on the ADAS platform. Design skills with tools, manage solution lifecycle, and
+          connect from any AI environment via stdio or HTTP.
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: ariekogan/ateam-mcp
     html_url: https://github.com/ariekogan/ateam-mcp
-    created_at: "2026-02-17T17:38:11Z"
-    pushed_at: "2026-09-09T21:03:59Z"
+    created_at: '2026-02-17T17:38:11Z'
+    pushed_at: '2026-09-09T21:03:59Z'
     description: ADAS MCP Server — build, validate, and deploy multi-agent solutions from any AI environment
     homepage: null
     topics:
@@ -41,13 +44,17 @@ metadata:
       - mcp-server
       - model-context-protocol
       - multi-agent
-    last_checked_at: "2026-09-10T04:12:58.351Z"
+    last_checked_at: '2026-09-10T04:12:58.351Z'
     readme:
-      fetched_at: "2026-09-10T04:12:58.351Z"
+      fetched_at: '2026-09-10T04:12:58.351Z'
       bytes: 6910
 insights:
-  summary: An MCP server that connects AI assistants to the ADAS platform for building, validating, and deploying multi-agent systems.
-  why_it_matters: It lets developers use their existing AI assistants (Claude, ChatGPT, etc.) to manage the full lifecycle of multi-agent solutions via natural language, eliminating manual configuration and context switching.
+  summary: >-
+    An MCP server that connects AI assistants to the ADAS platform for building, validating, and deploying multi-agent
+    systems.
+  why_it_matters: >-
+    It lets developers use their existing AI assistants (Claude, ChatGPT, etc.) to manage the full lifecycle of
+    multi-agent solutions via natural language, eliminating manual configuration and context switching.
   mental_damage: Now your AI assistant can deploy agents while you wonder if you’re still the developer or just the prompt jockey.
   tags:
     - mcp-server
@@ -58,31 +65,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: it is explicitly an MCP server that exposes ADAS platform capabilities to MCP-compatible AI environments."
+  reason: >-
+    MCP is the product identity here: it is explicitly an MCP server that exposes ADAS platform capabilities to
+    MCP-compatible AI environments.
   evidence:
-    - "Repo description: 'ADAS MCP Server — build, validate, and deploy multi-agent solutions from any AI environment'"
-    - "README: 'This is an MCP server that connects AI assistants... directly to the ADAS platform'"
-    - "Source-list context: Listed in awesome-mcp-servers under 'Server Implementations > Aggregators'"
+    - 'Repo description: ''ADAS MCP Server — build, validate, and deploy multi-agent solutions from any AI environment'''
+    - 'README: ''This is an MCP server that connects AI assistants... directly to the ADAS platform'''
+    - 'Source-list context: Listed in awesome-mcp-servers under ''Server Implementations > Aggregators'''
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.603Z"
+    updated_at: '2026-05-06T22:12:15.603Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:12:58.351Z"
+    updated_at: '2026-09-10T04:12:58.351Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:23:56.791Z"
+    updated_at: '2026-07-21T15:23:56.791Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -95,14 +104,20 @@ processing:
       input_hash: sha256:4a874ee6c49c3f72bb0b05e90b4de0e5b2aa14d10a54e20e3eaddc93bc61a230
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: it is explicitly an MCP server that exposes ADAS platform capabilities to MCP-compatible AI environments."
+      decision_reason: >-
+        MCP is the product identity here: it is explicitly an MCP server that exposes ADAS platform capabilities to
+        MCP-compatible AI environments.
       decision_evidence:
-        - "Repo description: 'ADAS MCP Server — build, validate, and deploy multi-agent solutions from any AI environment'"
-        - "README: 'This is an MCP server that connects AI assistants... directly to the ADAS platform'"
-        - "Source-list context: Listed in awesome-mcp-servers under 'Server Implementations > Aggregators'"
+        - >-
+          Repo description: 'ADAS MCP Server — build, validate, and deploy multi-agent solutions from any AI
+          environment'
+        - 'README: ''This is an MCP server that connects AI assistants... directly to the ADAS platform'''
+        - 'Source-list context: Listed in awesome-mcp-servers under ''Server Implementations > Aggregators'''
       category_candidates:
         - mcp
         - agent-orchestration
-      contrastive_reason: Choose mcp over agent-orchestration because the product is an MCP server exposing ADAS capabilities, not a standalone orchestration platform.
+      contrastive_reason: >-
+        Choose mcp over agent-orchestration because the product is an MCP server exposing ADAS capabilities, not a
+        standalone orchestration platform.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__eirikb__any-cli-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: eirikb/any-cli-mcp-server
         extracted_url: https://github.com/eirikb/any-cli-mcp-server
-        surrounding_text: "- [eirikb/any-cli-mcp-server](https://github.com/eirikb/any-cli-mcp-server) 📇 🏠 - Universal MCP server that transforms any CLI tool into an MCP server. Works with any CLI that has `--help` output, supports caching for performance."
+        surrounding_text: >-
+          - [eirikb/any-cli-mcp-server](https://github.com/eirikb/any-cli-mcp-server) 📇 🏠 - Universal MCP server that
+          transforms any CLI tool into an MCP server. Works with any CLI that has `--help` output, supports caching for
+          performance.
         confidence: high
 metadata:
   github:
@@ -30,14 +33,14 @@ metadata:
     archived: false
     full_name: eirikb/any-cli-mcp-server
     html_url: https://github.com/eirikb/any-cli-mcp-server
-    created_at: "2025-07-01T13:27:57Z"
-    pushed_at: "2025-09-04T21:47:28Z"
+    created_at: '2025-07-01T13:27:57Z'
+    pushed_at: '2025-09-04T21:47:28Z'
     description: Convert any (whatever) CLI to proper MCP server with tools mapped based on CLI help
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:47.123Z"
+    last_checked_at: '2026-09-14T04:13:47.123Z'
     readme:
-      fetched_at: "2026-09-14T04:13:47.123Z"
+      fetched_at: '2026-09-14T04:13:47.123Z'
       bytes: 1531
 insights:
   summary: A tool that converts any CLI with --help output into an MCP server with auto-mapped tools.
@@ -51,31 +54,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: it is a server implementation that turns CLIs into MCP tools."
+  reason: 'MCP is the product identity: it is a server implementation that turns CLIs into MCP tools.'
   evidence:
-    - "Repo description: 'Convert any (whatever) CLI to proper MCP server with tools mapped based on CLI help'"
-    - "README: 'Turn any CLI tool into an MCP server. Uses the --help to build MCP tools.'"
-    - "Source-list context: listed in awesome-mcp-servers under Server Implementations"
+    - 'Repo description: ''Convert any (whatever) CLI to proper MCP server with tools mapped based on CLI help'''
+    - 'README: ''Turn any CLI tool into an MCP server. Uses the --help to build MCP tools.'''
+    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.612Z"
+    updated_at: '2026-05-06T22:12:15.612Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:47.123Z"
+    updated_at: '2026-09-14T04:13:47.123Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:52:06.411Z"
+    updated_at: '2026-07-21T15:52:06.411Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,14 +92,16 @@ processing:
       input_hash: sha256:6b6780b73b4bee4581789d99ab696d97be4cdc6c3e16ba443f7538713f04ec0d
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: it is a server implementation that turns CLIs into MCP tools."
+      decision_reason: 'MCP is the product identity: it is a server implementation that turns CLIs into MCP tools.'
       decision_evidence:
-        - "Repo description: 'Convert any (whatever) CLI to proper MCP server with tools mapped based on CLI help'"
-        - "README: 'Turn any CLI tool into an MCP server. Uses the --help to build MCP tools.'"
-        - "Source-list context: listed in awesome-mcp-servers under Server Implementations"
+        - 'Repo description: ''Convert any (whatever) CLI to proper MCP server with tools mapped based on CLI help'''
+        - 'README: ''Turn any CLI tool into an MCP server. Uses the --help to build MCP tools.'''
+        - 'Source-list context: listed in awesome-mcp-servers under Server Implementations'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server implementation, not an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server implementation, not an extension for
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

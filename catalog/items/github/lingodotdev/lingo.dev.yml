@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lingodotdev__lingo.dev__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: Lingo.dev
         extracted_url: https://github.com/lingodotdev/lingo.dev
-        surrounding_text: "- **[Lingo.dev](https://github.com/lingodotdev/lingo.dev/blob/main/mcp.md)** - Make your AI agent speak every language on the planet, using [Lingo.dev](https://lingo.dev) Localization Engine."
+        surrounding_text: >-
+          - **[Lingo.dev](https://github.com/lingodotdev/lingo.dev/blob/main/mcp.md)** - Make your AI agent speak every
+          language on the planet, using [Lingo.dev](https://lingo.dev) Localization Engine.
         confidence: high
 metadata:
   github:
@@ -29,9 +31,11 @@ metadata:
     archived: false
     full_name: lingodotdev/lingo.dev
     html_url: https://github.com/lingodotdev/lingo.dev
-    created_at: "2024-03-13T11:27:31Z"
-    pushed_at: "2026-07-28T09:56:58Z"
-    description: Open-source localization engineering tools. Connects to Lingo.dev localization engineering platform for consistent, quality translations.
+    created_at: '2024-03-13T11:27:31Z'
+    pushed_at: '2026-07-28T09:56:58Z'
+    description: >-
+      Open-source localization engineering tools. Connects to Lingo.dev localization engineering platform for
+      consistent, quality translations.
     homepage: https://lingo.dev
     topics:
       - i18n
@@ -39,14 +43,20 @@ metadata:
       - react
       - react-native
       - typescript
-    last_checked_at: "2026-07-30T05:06:06.177Z"
+    last_checked_at: '2026-07-30T05:06:06.177Z'
     readme:
-      fetched_at: "2026-07-30T05:06:06.177Z"
+      fetched_at: '2026-07-30T05:06:06.177Z'
       bytes: 7489
 insights:
-  summary: Lingo.dev is an open-source localization engineering toolkit with CLI, MCP server, GitHub Action, and compiler for React that connects to the Lingo.dev platform for consistent translations.
-  why_it_matters: It automates i18n workflows for React and other frameworks, reducing manual translation effort and terminology errors via AI-assisted setup and build-time extraction.
-  mental_damage: Another localization tool that promises to fix i18n hell—until you realize you now have to manage yet another platform lock-in just to translate a button label.
+  summary: >-
+    Lingo.dev is an open-source localization engineering toolkit with CLI, MCP server, GitHub Action, and compiler for
+    React that connects to the Lingo.dev platform for consistent translations.
+  why_it_matters: >-
+    It automates i18n workflows for React and other frameworks, reducing manual translation effort and terminology
+    errors via AI-assisted setup and build-time extraction.
+  mental_damage: >-
+    Another localization tool that promises to fix i18n hell—until you realize you now have to manage yet another
+    platform lock-in just to translate a button label.
   tags:
     - i18n
     - react
@@ -56,31 +66,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: While it is a full localization platform, its inclusion here is driven by the 'Lingo React MCP' which serves as a domain-specific MCP server giving AI assistants structured i18n knowledge.
+  reason: >-
+    While it is a full localization platform, its inclusion here is driven by the 'Lingo React MCP' which serves as a
+    domain-specific MCP server giving AI assistants structured i18n knowledge.
   evidence:
     - Repo description defines it as 'Open-source localization engineering tools' with an MCP component.
-    - README explicitly details 'Lingo React MCP' for Claude Code, Cursor, and Copilot with framework-specific i18n knowledge.
+    - >-
+      README explicitly details 'Lingo React MCP' for Claude Code, Cursor, and Copilot with framework-specific i18n
+      knowledge.
     - Listed in 'awesome-mcp-servers' under the 'Official Servers' section.
 placement:
   primary_category: mcp
-  section: null
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-dev-extensions'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: '2026-05-06T22:12:15.627Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:06.177Z"
+    updated_at: '2026-07-30T05:06:06.177Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:16:07.384Z"
+    updated_at: '2026-07-21T16:16:07.384Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -93,14 +108,23 @@ processing:
       input_hash: sha256:c39979c2954162253d185fd19cd35c6e46fa3df2798ed36fd072672fa063844d
       proposed_primary_category: ai-dev-extensions
       disagreement: true
-      decision_reason: Lingo.dev primarily acts as an MCP server and tooling that extends AI coding assistants like Claude Code and Cursor with i18n capabilities, making it an integration rather than a standalone coding assistant or app builder.
+      decision_reason: >-
+        Lingo.dev primarily acts as an MCP server and tooling that extends AI coding assistants like Claude Code and
+        Cursor with i18n capabilities, making it an integration rather than a standalone coding assistant or app
+        builder.
       decision_evidence:
-        - "Repo description: 'Open-source localization engineering tools. Connects to Lingo.dev localization engineering platform'"
-        - README highlights Lingo React MCP as giving 'AI assistants structured access to framework-specific i18n knowledge' for Claude Code, Cursor, etc.
-        - "Source-list context: listed in awesome-mcp-servers under Official Servers, indicating MCP identity"
+        - >-
+          Repo description: 'Open-source localization engineering tools. Connects to Lingo.dev localization engineering
+          platform'
+        - >-
+          README highlights Lingo React MCP as giving 'AI assistants structured access to framework-specific i18n
+          knowledge' for Claude Code, Cursor, etc.
+        - 'Source-list context: listed in awesome-mcp-servers under Official Servers, indicating MCP identity'
       category_candidates:
         - ai-dev-extensions
         - mcp
-      contrastive_reason: Choose ai-dev-extensions over mcp because while Lingo.dev provides an MCP server, its main value is extending AI coding assistants with i18n workflows rather than being MCP infrastructure first.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+      contrastive_reason: >-
+        Choose ai-dev-extensions over mcp because while Lingo.dev provides an MCP server, its main value is extending AI
+        coding assistants with i18n workflows rather than being MCP infrastructure first.
+      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-dev-extensions'''
       review_resume_lifecycle: null

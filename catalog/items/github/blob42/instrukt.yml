@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__blob42__instrukt__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,10 +19,10 @@ provenance:
           - Instrukt
         anchor_text: Instrukt
         extracted_url: https://github.com/blob42/instrukt
-        surrounding_text: "## [Instrukt](https://github.com/blob42/Instrukt)"
+        surrounding_text: '## [Instrukt](https://github.com/blob42/Instrukt)'
         confidence: high
     - id: discovery__github__blob42__instrukt__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -35,7 +35,9 @@ provenance:
           - Other / Chatbots
         anchor_text: Instrukt
         extracted_url: https://github.com/blob42/instrukt
-        surrounding_text: "- [Instrukt](https://github.com/blob42/Instrukt): A fully-fledged AI environment in the terminal. Build, test and instruct agents. ![GitHub Repo stars](https://img.shields.io/github/stars/blob42/Instrukt?style=social)"
+        surrounding_text: >-
+          - [Instrukt](https://github.com/blob42/Instrukt): A fully-fledged AI environment in the terminal. Build, test
+          and instruct agents. ![GitHub Repo stars](https://img.shields.io/github/stars/blob42/Instrukt?style=social)
         confidence: high
 metadata:
   github:
@@ -45,8 +47,8 @@ metadata:
     archived: false
     full_name: blob42/Instrukt
     html_url: https://github.com/blob42/Instrukt
-    created_at: "2023-04-05T01:29:31Z"
-    pushed_at: "2025-05-14T03:06:35Z"
+    created_at: '2023-04-05T01:29:31Z'
+    pushed_at: '2025-05-14T03:06:35Z'
     description: Integrated AI environment in the terminal. Build, test and instruct agents.
     homepage: https://blob42.github.io/Instrukt/
     topics:
@@ -61,13 +63,17 @@ metadata:
       - rag
       - terminal
       - tui
-    last_checked_at: "2026-09-07T04:13:35.694Z"
+    last_checked_at: '2026-09-07T04:13:35.694Z'
     readme:
-      fetched_at: "2026-09-07T04:13:35.694Z"
+      fetched_at: '2026-09-07T04:13:35.694Z'
       bytes: 7780
 insights:
-  summary: Terminal-based integrated AI environment for building, testing, and instructing modular agents with containerized execution.
-  why_it_matters: Developers can create, extend, and run custom AI agents directly in the terminal with secure sandboxing and RAG capabilities over codebases.
+  summary: >-
+    Terminal-based integrated AI environment for building, testing, and instructing modular agents with containerized
+    execution.
+  why_it_matters: >-
+    Developers can create, extend, and run custom AI agents directly in the terminal with secure sandboxing and RAG
+    capabilities over codebases.
   mental_damage: Now you can debug your agent’s existential crisis in the same pane where you debug your segfaults.
   tags:
     - terminal-ai
@@ -78,31 +84,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a standalone terminal agent environment where developers instruct and test coding agents and tools directly, fitting the primary coding assistant role in a CLI surface.
+  reason: >-
+    This is a standalone terminal agent environment where developers instruct and test coding agents and tools directly,
+    fitting the primary coding assistant role in a CLI surface.
   evidence:
     - Repo description states it is an 'Integrated AI environment in the terminal. Build, test and instruct agents.'
     - README highlights a 'Coding AI' default agent that indexes codebases for RAG-based assistance.
     - Last push was 2025-05-14, showing active development rather than an abandoned prototype.
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.583Z"
+    updated_at: '2026-05-06T22:12:15.583Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:35.694Z"
+    updated_at: '2026-09-07T04:13:35.694Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:26:23.045Z"
+    updated_at: '2026-07-21T15:26:23.045Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -115,14 +124,20 @@ processing:
       input_hash: sha256:7a3439234c735a96f03e539d54361614e98f0aaff39839d8815f6a4c89c44afc
       proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: The core product is a terminal workbench for coordinating modular agents, tools, and document indexes, fitting the multi-agent runtime platform identity.
+      decision_reason: >-
+        The core product is a terminal workbench for coordinating modular agents, tools, and document indexes, fitting
+        the multi-agent runtime platform identity.
       decision_evidence:
-        - "Repo description: 'Integrated AI environment in the terminal. Build, test and instruct agents.'"
-        - "README: 'Create and instruct modular AI agents', 'attach tools to any agent', 'run them inside secure containers'"
+        - 'Repo description: ''Integrated AI environment in the terminal. Build, test and instruct agents.'''
+        - >-
+          README: 'Create and instruct modular AI agents', 'attach tools to any agent', 'run them inside secure
+          containers'
         - Built on LangChain, Textual, Chroma; supports agent sharing as Python packages
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because the primary value is the modular agent workbench and runtime, not direct repo editing or coding assistance.
-      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because the primary value is the modular agent workbench and
+        runtime, not direct repo editing or coding assistance.
+      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
       review_resume_lifecycle: null

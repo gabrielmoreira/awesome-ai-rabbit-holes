@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hannesrudolph__mcp-ragdocs__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: hannesrudolph/mcp-ragdocs
         extracted_url: https://github.com/hannesrudolph/mcp-ragdocs
-        surrounding_text: "- [hannesrudolph/mcp-ragdocs](https://github.com/hannesrudolph/mcp-ragdocs) 🐍 🏠 - An MCP server implementation that provides tools for retrieving and processing documentation through vector search, enabling AI assistants to augment their responses with relevant documentation context"
+        surrounding_text: >-
+          - [hannesrudolph/mcp-ragdocs](https://github.com/hannesrudolph/mcp-ragdocs) 🐍 🏠 - An MCP server
+          implementation that provides tools for retrieving and processing documentation through vector search, enabling
+          AI assistants to augment their responses with relevant documentation context
         confidence: high
     - id: discovery__github__hannesrudolph__mcp-ragdocs__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -33,9 +36,12 @@ provenance:
         mode: parsed
         section_path:
           - 🧠 Knowledge & Memory
-        anchor_text: "@hannesrudolph/mcp-ragdocs"
+        anchor_text: '@hannesrudolph/mcp-ragdocs'
         extracted_url: https://github.com/hannesrudolph/mcp-ragdocs
-        surrounding_text: "-   **[@hannesrudolph/mcp-ragdocs](https://github.com/hannesrudolph/mcp-ragdocs)** [![GitHub stars](https://img.shields.io/github/stars/hannesrudolph/mcp-ragdocs?style=social)](https://github.com/hannesrudolph/mcp-ragdocs): Retrieves and processes documentation using vector search."
+        surrounding_text: >-
+          -   **[@hannesrudolph/mcp-ragdocs](https://github.com/hannesrudolph/mcp-ragdocs)** [![GitHub
+          stars](https://img.shields.io/github/stars/hannesrudolph/mcp-ragdocs?style=social)](https://github.com/hannesrudolph/mcp-ragdocs):
+          Retrieves and processes documentation using vector search.
         confidence: high
 metadata:
   github:
@@ -45,23 +51,29 @@ metadata:
     archived: false
     full_name: hannesrudolph/mcp-ragdocs
     html_url: https://github.com/hannesrudolph/mcp-ragdocs
-    created_at: "2024-12-13T22:40:03Z"
-    pushed_at: "2025-07-18T06:59:53Z"
-    description: An MCP server implementation that provides tools for retrieving and processing documentation through vector search, enabling AI assistants to augment their responses with relevant documentation context.
-    homepage: ""
+    created_at: '2024-12-13T22:40:03Z'
+    pushed_at: '2025-07-18T06:59:53Z'
+    description: >-
+      An MCP server implementation that provides tools for retrieving and processing documentation through vector
+      search, enabling AI assistants to augment their responses with relevant documentation context.
+    homepage: ''
     topics:
       - llm
       - mcp
       - mcp-servers
       - rag
       - vector-database
-    last_checked_at: "2026-09-03T05:16:57.679Z"
+    last_checked_at: '2026-09-03T05:16:57.679Z'
     readme:
-      fetched_at: "2026-09-03T05:16:57.679Z"
+      fetched_at: '2026-09-03T05:16:57.679Z'
       bytes: 4506
 insights:
-  summary: An MCP server that enables AI assistants to retrieve and process documentation via vector search for context augmentation.
-  why_it_matters: Developers can plug this into their AI workflows to give assistants real-time access to relevant documentation without manual prompt stuffing.
+  summary: >-
+    An MCP server that enables AI assistants to retrieve and process documentation via vector search for context
+    augmentation.
+  why_it_matters: >-
+    Developers can plug this into their AI workflows to give assistants real-time access to relevant documentation
+    without manual prompt stuffing.
   mental_damage: Now your AI can finally remember the docs you forgot to read, but only if you also remember to configure Qdrant.
   tags:
     - mcp
@@ -72,31 +84,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a server implementation for the Model Context Protocol, not a compatibility footnote."
+  reason: >-
+    MCP is the product identity: this is a server implementation for the Model Context Protocol, not a compatibility
+    footnote.
   evidence:
     - Repo description explicitly states it is an MCP server implementation
     - README details MCP-specific tools and configuration (e.g., Claude Desktop integration)
     - Source-list context places it in an MCP servers list under 'Knowledge & Memory'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: promotion_candidate
   reason: Stars (261) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.586Z"
+    updated_at: '2026-05-06T22:12:15.586Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:57.679Z"
+    updated_at: '2026-09-03T05:16:57.679Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:04:58.095Z"
+    updated_at: '2026-07-21T16:04:58.095Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -109,7 +124,9 @@ processing:
       input_hash: sha256:1e0c1129d9501dc5cb7b49061632deecbe2aeaa1df556a72c65132129c64bdc7
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a server implementation for the Model Context Protocol, not a compatibility footnote."
+      decision_reason: >-
+        MCP is the product identity: this is a server implementation for the Model Context Protocol, not a compatibility
+        footnote.
       decision_evidence:
         - Repo description explicitly states it is an MCP server implementation
         - README details MCP-specific tools and configuration (e.g., Claude Desktop integration)
@@ -117,6 +134,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the core product is an MCP server, not a standalone retrieval system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the core product is an MCP server, not a standalone retrieval
+        system.
       review_reason: null
       review_resume_lifecycle: null

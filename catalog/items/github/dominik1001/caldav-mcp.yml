@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dominik1001__caldav-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: CalDAV MCP
         extracted_url: https://github.com/dominik1001/caldav-mcp
-        surrounding_text: "- **[CalDAV MCP](https://github.com/dominik1001/caldav-mcp)** - A CalDAV MCP server to expose calendar operations as tools for AI assistants."
+        surrounding_text: >-
+          - **[CalDAV MCP](https://github.com/dominik1001/caldav-mcp)** - A CalDAV MCP server to expose calendar
+          operations as tools for AI assistants.
         confidence: high
 metadata:
   github:
@@ -29,22 +31,24 @@ metadata:
     archived: false
     full_name: dominik1001/caldav-mcp
     html_url: https://github.com/dominik1001/caldav-mcp
-    created_at: "2025-05-16T11:35:54Z"
-    pushed_at: "2026-09-14T00:48:12Z"
+    created_at: '2025-05-16T11:35:54Z'
+    pushed_at: '2026-09-14T00:48:12Z'
     description: 🗓️ A CalDAV Model Context Protocol (MCP) server to expose calendar operations as tools for AI assistants.
-    homepage: ""
+    homepage: ''
     topics:
       - caldav
       - mcp
       - mcp-server
       - typescript
-    last_checked_at: "2026-09-14T04:13:43.377Z"
+    last_checked_at: '2026-09-14T04:13:43.377Z'
     readme:
-      fetched_at: "2026-09-14T04:13:43.377Z"
+      fetched_at: '2026-09-14T04:13:43.377Z'
       bytes: 7610
 insights:
   summary: A CalDAV Model Context Protocol (MCP) server that exposes calendar operations as tools for AI assistants.
-  why_it_matters: It lets AI assistants read, create, update, and delete calendar events via CalDAV, enabling calendar-aware workflows in agent environments.
+  why_it_matters: >-
+    It lets AI assistants read, create, update, and delete calendar events via CalDAV, enabling calendar-aware workflows
+    in agent environments.
   mental_damage: Now your AI can schedule meetings for you, because apparently we’ve decided that’s a good idea.
   tags:
     - mcp
@@ -55,31 +59,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose primary identity is exposing CalDAV calendar operations as MCP tools for AI assistants.
+  reason: >-
+    This is an MCP-first server whose primary identity is exposing CalDAV calendar operations as MCP tools for AI
+    assistants.
   evidence:
     - Repo description explicitly states it is a CalDAV MCP server
     - README details MCP server setup and CalDAV-specific tools (list-events, create-event, etc.)
     - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.611Z"
+    updated_at: '2026-05-06T22:12:15.611Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:43.377Z"
+    updated_at: '2026-09-14T04:13:43.377Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:41.472Z"
+    updated_at: '2026-07-21T15:51:41.472Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -92,7 +99,9 @@ processing:
       input_hash: sha256:c0739ee1fa6fbd9cfaba334031155adc96573030249b53c9ed1362d6211f9669
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server whose primary identity is exposing CalDAV calendar operations as MCP tools for AI assistants.
+      decision_reason: >-
+        This is an MCP-first server whose primary identity is exposing CalDAV calendar operations as MCP tools for AI
+        assistants.
       decision_evidence:
         - Repo description explicitly states it is a CalDAV MCP server
         - README details MCP server setup and CalDAV-specific tools (list-events, create-event, etc.)
@@ -100,6 +109,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is an MCP server, not an extension augmenting
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

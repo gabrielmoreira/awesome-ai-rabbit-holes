@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__prompt__16x__engineer__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,9 @@ provenance:
           - Code Search and Navigation
         anchor_text: 16x Prompt
         extracted_url: https://prompt.16x.engineer
-        surrounding_text: "- **[16x Prompt](https://prompt.16x.engineer/)** – AI tool for enhanced code context and prompt-based navigation."
+        surrounding_text: >-
+          - **[16x Prompt](https://prompt.16x.engineer/)** – AI tool for enhanced code context and prompt-based
+          navigation.
         confidence: high
 metadata:
   github:
@@ -36,8 +38,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: 16x Prompt is a desktop application that helps developers compose and manage prompts with source code context for AI coding tasks.
-  why_it_matters: It streamlines prompt engineering for coding by organizing context, tracking tokens, and integrating with multiple LLM APIs, reducing manual copy-paste workflows.
+  summary: >-
+    16x Prompt is a desktop application that helps developers compose and manage prompts with source code context for AI
+    coding tasks.
+  why_it_matters: >-
+    It streamlines prompt engineering for coding by organizing context, tracking tokens, and integrating with multiple
+    LLM APIs, reducing manual copy-paste workflows.
   mental_damage: Finally, a tool that lets you spend more time crafting the perfect prompt than actually writing code.
   tags:
     - prompt-engineering
@@ -54,15 +60,16 @@ curation:
     - Focuses on prompt creation, context selection, and token tracking
     - Supports BYOK API integrations but is not itself an assistant
 placement:
-  primary_category: context-engineering
-  section: PromptOps / Prompt Management
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Prompt Engineering & Management
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +78,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:46.781Z"
+    updated_at: '2026-07-21T15:30:46.781Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -92,6 +99,8 @@ processing:
       category_candidates:
         - context-engineering
         - ai-dev-extensions
-      contrastive_reason: Choose context-engineering over ai-dev-extensions because the primary value is prompt/context management rather than augmenting another assistant.
+      contrastive_reason: >-
+        Choose context-engineering over ai-dev-extensions because the primary value is prompt/context management rather
+        than augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

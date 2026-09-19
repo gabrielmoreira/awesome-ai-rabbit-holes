@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__amineelkouhen__mcp-cockroachdb__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: amineelkouhen/mcp-cockroachdb
         extracted_url: https://github.com/amineelkouhen/mcp-cockroachdb
-        surrounding_text: "- [amineelkouhen/mcp-cockroachdb](https://github.com/amineelkouhen/mcp-cockroachdb) 🐍 ☁️ - A Model Context Protocol server for managing, monitoring, and querying data in [CockroachDB](https://cockroachlabs.com)."
+        surrounding_text: >-
+          - [amineelkouhen/mcp-cockroachdb](https://github.com/amineelkouhen/mcp-cockroachdb) 🐍 ☁️ - A Model Context
+          Protocol server for managing, monitoring, and querying data in [CockroachDB](https://cockroachlabs.com).
         confidence: high
     - id: discovery__github__amineelkouhen__mcp-cockroachdb__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +37,9 @@ provenance:
           - Community Servers
         anchor_text: CockroachDB
         extracted_url: https://github.com/amineelkouhen/mcp-cockroachdb
-        surrounding_text: "- **[CockroachDB](https://github.com/amineelkouhen/mcp-cockroachdb)** - A Model Context Protocol server for managing, monitoring, and querying data in [CockroachDB](https://cockroachlabs.com)."
+        surrounding_text: >-
+          - **[CockroachDB](https://github.com/amineelkouhen/mcp-cockroachdb)** - A Model Context Protocol server for
+          managing, monitoring, and querying data in [CockroachDB](https://cockroachlabs.com).
         confidence: high
 metadata:
   github:
@@ -45,10 +49,12 @@ metadata:
     archived: false
     full_name: amineelkouhen/mcp-cockroachdb
     html_url: https://github.com/amineelkouhen/mcp-cockroachdb
-    created_at: "2025-07-13T00:59:30Z"
-    pushed_at: "2026-07-16T21:33:23Z"
-    description: The CockroachDB MCP Server is a natural language interface designed for agentic applications to manage, monitor and query data in CockroachDB.
-    homepage: ""
+    created_at: '2025-07-13T00:59:30Z'
+    pushed_at: '2026-07-16T21:33:23Z'
+    description: >-
+      The CockroachDB MCP Server is a natural language interface designed for agentic applications to manage, monitor
+      and query data in CockroachDB.
+    homepage: ''
     topics:
       - cockroachdb
       - database
@@ -56,13 +62,17 @@ metadata:
       - llm
       - mcp
       - mcp-server
-    last_checked_at: "2026-09-17T04:13:43.020Z"
+    last_checked_at: '2026-09-17T04:13:43.020Z'
     readme:
-      fetched_at: "2026-09-17T04:13:43.020Z"
+      fetched_at: '2026-09-17T04:13:43.020Z'
       bytes: 31370
 insights:
-  summary: An MCP server that provides a natural language interface for agentic applications to manage, monitor, and query CockroachDB databases.
-  why_it_matters: It lets AI agents directly interact with CockroachDB clusters for operations like querying, monitoring, and schema management without manual SQL.
+  summary: >-
+    An MCP server that provides a natural language interface for agentic applications to manage, monitor, and query
+    CockroachDB databases.
+  why_it_matters: >-
+    It lets AI agents directly interact with CockroachDB clusters for operations like querying, monitoring, and schema
+    management without manual SQL.
   mental_damage: Now your AI can spin up a distributed database cluster and immediately start arguing with you about query plans.
   tags:
     - mcp
@@ -73,31 +83,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the core identity: this is a dedicated MCP server for CockroachDB, not a compatibility footnote or adapter."
+  reason: 'MCP is the core identity: this is a dedicated MCP server for CockroachDB, not a compatibility footnote or adapter.'
   evidence:
     - Repo description explicitly states it is a CockroachDB MCP Server
     - README emphasizes MCP integration as primary purpose
     - Listed in awesome-mcp-servers under Databases
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.581Z"
+    updated_at: '2026-05-06T22:12:15.581Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:43.020Z"
+    updated_at: '2026-09-17T04:13:43.020Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:22:35.603Z"
+    updated_at: '2026-07-21T15:22:35.603Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -110,7 +121,9 @@ processing:
       input_hash: sha256:2cb4d43fb1ce29a1bf9c860566fa9c6b35476a8867e7edfa633e4293e16f9f95
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the core identity: this is a dedicated MCP server for CockroachDB, not a compatibility footnote or adapter."
+      decision_reason: >-
+        MCP is the core identity: this is a dedicated MCP server for CockroachDB, not a compatibility footnote or
+        adapter.
       decision_evidence:
         - Repo description explicitly states it is a CockroachDB MCP Server
         - README emphasizes MCP integration as primary purpose
@@ -118,6 +131,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is a standalone MCP server for database operations, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is a standalone MCP server for database operations, not an
+        extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

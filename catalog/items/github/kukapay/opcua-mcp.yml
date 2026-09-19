@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__opcua-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 📟 <a name="embedded-system"></a>Embedded System
         anchor_text: kukapay/opcua-mcp
         extracted_url: https://github.com/kukapay/opcua-mcp
-        surrounding_text: "- [kukapay/opcua-mcp](https://github.com/kukapay/opcua-mcp) 🐍 📟 - An MCP server that connects to OPC UA-enabled industrial systems."
+        surrounding_text: >-
+          - [kukapay/opcua-mcp](https://github.com/kukapay/opcua-mcp) 🐍 📟 - An MCP server that connects to OPC
+          UA-enabled industrial systems.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,22 @@ metadata:
     archived: false
     full_name: kukapay/opcua-mcp
     html_url: https://github.com/kukapay/opcua-mcp
-    created_at: "2025-03-24T15:14:18Z"
-    pushed_at: "2025-10-29T23:52:25Z"
+    created_at: '2025-03-24T15:14:18Z'
+    pushed_at: '2025-10-29T23:52:25Z'
     description: An MCP server that connects to OPC UA-enabled industrial systems.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:06:00.670Z"
+    last_checked_at: '2026-07-30T05:06:00.670Z'
     readme:
-      fetched_at: "2026-07-30T05:06:00.670Z"
+      fetched_at: '2026-07-30T05:06:00.670Z'
       bytes: 2757
 insights:
-  summary: An MCP server that enables AI agents to interact with OPC UA-enabled industrial systems for real-time monitoring and control.
-  why_it_matters: It bridges AI workflows with industrial automation by allowing agents to read, write, and browse OPC UA nodes, making operational data actionable in real time.
+  summary: >-
+    An MCP server that enables AI agents to interact with OPC UA-enabled industrial systems for real-time monitoring and
+    control.
+  why_it_matters: >-
+    It bridges AI workflows with industrial automation by allowing agents to read, write, and browse OPC UA nodes,
+    making operational data actionable in real time.
   mental_damage: Now your AI can argue with a PLC about whether the temperature setpoint is *really* optimal.
   tags:
     - mcp
@@ -51,31 +57,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose primary identity is providing OPC UA integration via the Model Context Protocol.
+  reason: >-
+    The product is explicitly an MCP server whose primary identity is providing OPC UA integration via the Model Context
+    Protocol.
   evidence:
-    - "Repo description: 'An MCP server that connects to OPC UA-enabled industrial systems.'"
-    - "README: Exposes OPC UA tools (read/write/browse nodes) for MCP clients like Claude Desktop."
-    - "Source-list context: Listed in awesome-mcp-servers under 'Embedded System' servers."
+    - 'Repo description: ''An MCP server that connects to OPC UA-enabled industrial systems.'''
+    - 'README: Exposes OPC UA tools (read/write/browse nodes) for MCP clients like Claude Desktop.'
+    - 'Source-list context: Listed in awesome-mcp-servers under ''Embedded System'' servers.'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:00.670Z"
+    updated_at: '2026-07-30T05:06:00.670Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:14:03.926Z"
+    updated_at: '2026-07-21T16:14:03.926Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,14 +97,18 @@ processing:
       input_hash: sha256:f3f35f12e4d0a4a9b4060ac9be207e8810b22fa0d1efbeb5d92333f4c6e3a5cf
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server whose primary identity is providing OPC UA integration via the Model Context Protocol.
+      decision_reason: >-
+        The product is explicitly an MCP server whose primary identity is providing OPC UA integration via the Model
+        Context Protocol.
       decision_evidence:
-        - "Repo description: 'An MCP server that connects to OPC UA-enabled industrial systems.'"
-        - "README: Exposes OPC UA tools (read/write/browse nodes) for MCP clients like Claude Desktop."
-        - "Source-list context: Listed in awesome-mcp-servers under 'Embedded System' servers."
+        - 'Repo description: ''An MCP server that connects to OPC UA-enabled industrial systems.'''
+        - 'README: Exposes OPC UA tools (read/write/browse nodes) for MCP clients like Claude Desktop.'
+        - 'Source-list context: Listed in awesome-mcp-servers under ''Embedded System'' servers.'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

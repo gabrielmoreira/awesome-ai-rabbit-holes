@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dl4rce__flaiwheel__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: dl4rce/flaiwheel
         extracted_url: https://github.com/dl4rce/flaiwheel
-        surrounding_text: "- [dl4rce/flaiwheel](https://github.com/dl4rce/flaiwheel) [![flaiwheel MCP server](https://glama.ai/mcp/servers/dl4rce/flaiwheel/badges/score.svg)](https://glama.ai/mcp/servers/dl4rce/flaiwheel) 🐍 🏠 🍎 🪟 🐧 - Self-hosted memory and governance layer for AI coding agents. 28 MCP tools with structured knowledge capture, hybrid search (semantic + BM25 + cross-encoder reranking), behavioral documentation nudges, cold-start codebase analyzer, and git-native storage. Single Docker container, zero cloud dependencies."
+        surrounding_text: >-
+          - [dl4rce/flaiwheel](https://github.com/dl4rce/flaiwheel) [![flaiwheel MCP
+          server](https://glama.ai/mcp/servers/dl4rce/flaiwheel/badges/score.svg)](https://glama.ai/mcp/servers/dl4rce/flaiwheel)
+          🐍 🏠 🍎 🪟 🐧 - Self-hosted memory and governance layer for AI coding agents. 28 MCP tools with structured
+          knowledge capture, hybrid search (semantic + BM25 + cross-encoder reranking), behavioral documentation nudges,
+          cold-start codebase analyzer, and git-native storage. Single Docker container, zero cloud dependencies.
         confidence: high
 metadata:
   github:
@@ -30,19 +35,25 @@ metadata:
     archived: false
     full_name: dl4rce/flaiwheel
     html_url: https://github.com/dl4rce/flaiwheel
-    created_at: "2026-02-25T14:18:44Z"
-    pushed_at: "2026-09-11T20:15:08Z"
+    created_at: '2026-02-25T14:18:44Z'
+    pushed_at: '2026-09-11T20:15:08Z'
     description: MCP Docs Vector - Documentation vectorization and search via MCP
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:41.787Z"
+    last_checked_at: '2026-09-14T04:13:41.787Z'
     readme:
-      fetched_at: "2026-09-14T04:13:41.787Z"
+      fetched_at: '2026-09-14T04:13:41.787Z'
       bytes: 67815
 insights:
-  summary: Self-hosted memory and governance layer for AI coding agents that indexes documentation, enforces structured knowledge capture, and provides an MCP server for agent integration.
-  why_it_matters: It turns every bug fix and architectural decision into persistent, searchable knowledge that compounds over time, reducing repeated mistakes in team codebases.
-  mental_damage: Finally, a way to make your AI assistant remember why that one regex exists, instead of re-inventing it every Monday.
+  summary: >-
+    Self-hosted memory and governance layer for AI coding agents that indexes documentation, enforces structured
+    knowledge capture, and provides an MCP server for agent integration.
+  why_it_matters: >-
+    It turns every bug fix and architectural decision into persistent, searchable knowledge that compounds over time,
+    reducing repeated mistakes in team codebases.
+  mental_damage: >-
+    Finally, a way to make your AI assistant remember why that one regex exists, instead of re-inventing it every
+    Monday.
   tags:
     - mcp-server
     - self-hosted
@@ -52,31 +63,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core novelty is a persistent memory and governance system for AI agents, with retrieval, structured knowledge capture, and context-shaping as the primary value proposition.
+  reason: >-
+    The core novelty is a persistent memory and governance system for AI agents, with retrieval, structured knowledge
+    capture, and context-shaping as the primary value proposition.
   evidence:
     - README explicitly positions it as a 'self-hosted memory & governance layer for AI coding agents'
     - Provides hybrid search, reranking, and structured documentation tools for agents
     - MCP server is a delivery mechanism, not the primary identity
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.611Z"
+    updated_at: '2026-05-06T22:12:15.611Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:41.787Z"
+    updated_at: '2026-09-14T04:13:41.787Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:15.724Z"
+    updated_at: '2026-07-21T15:51:15.724Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +103,9 @@ processing:
       input_hash: sha256:a18a6188f5c81dea94b286186b9da62ebd7ddbc104240d38ac4560a36eaad88a
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: The core novelty is a persistent memory and governance system for AI agents, with retrieval, structured knowledge capture, and context-shaping as the primary value proposition.
+      decision_reason: >-
+        The core novelty is a persistent memory and governance system for AI agents, with retrieval, structured
+        knowledge capture, and context-shaping as the primary value proposition.
       decision_evidence:
         - README explicitly positions it as a 'self-hosted memory & governance layer for AI coding agents'
         - Provides hybrid search, reranking, and structured documentation tools for agents
@@ -97,6 +113,8 @@ processing:
       category_candidates:
         - context-engineering
         - mcp
-      contrastive_reason: Choose context-engineering over mcp because the product's main job is memory, retrieval, and governance for agents, with MCP as an integration layer rather than the core identity.
+      contrastive_reason: >-
+        Choose context-engineering over mcp because the product's main job is memory, retrieval, and governance for
+        agents, with MCP as an integration layer rather than the core identity.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__archie0125__osop-agent-rules__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,11 @@ provenance:
           - Agent infrastructure
         anchor_text: OSOP
         extracted_url: https://github.com/archie0125/osop-agent-rules
-        surrounding_text: "- **[OSOP](https://github.com/Archie0125/osop-agent-rules)** `⭐ 1` — Universal workflow logging protocol for CLI coding agents; produces `.osop` workflow definitions and `.osoplog.yaml` execution records. Supports Claude Code, Codex, Cursor, Windsurf, Aider, Cline, Roo Code, Devin, and OpenClaw. Includes a [visual editor](https://osop-editor.vercel.app) and [spec](https://github.com/Archie0125/osop-spec)."
+        surrounding_text: >-
+          - **[OSOP](https://github.com/Archie0125/osop-agent-rules)** `⭐ 1` — Universal workflow logging protocol for
+          CLI coding agents; produces `.osop` workflow definitions and `.osoplog.yaml` execution records. Supports
+          Claude Code, Codex, Cursor, Windsurf, Aider, Cline, Roo Code, Devin, and OpenClaw. Includes a [visual
+          editor](https://osop-editor.vercel.app) and [spec](https://github.com/Archie0125/osop-spec).
         confidence: high
 metadata:
   github:
@@ -30,18 +34,24 @@ metadata:
     archived: false
     full_name: Archie0125/osop-agent-rules
     html_url: https://github.com/Archie0125/osop-agent-rules
-    created_at: "2026-04-01T11:46:09Z"
-    pushed_at: "2026-04-14T12:27:02Z"
-    description: Drop-in OSOP session logging for every AI coding agent — Cursor, Codex, Windsurf, Aider, Cline, Roo Code, Devin, Continue.dev, Copilot
+    created_at: '2026-04-01T11:46:09Z'
+    pushed_at: '2026-04-14T12:27:02Z'
+    description: >-
+      Drop-in OSOP session logging for every AI coding agent — Cursor, Codex, Windsurf, Aider, Cline, Roo Code, Devin,
+      Continue.dev, Copilot
     homepage: null
     topics: []
-    last_checked_at: "2026-09-10T04:12:57.935Z"
+    last_checked_at: '2026-09-10T04:12:57.935Z'
     readme:
-      fetched_at: "2026-09-10T04:12:57.935Z"
+      fetched_at: '2026-09-10T04:12:57.935Z'
       bytes: 6096
 insights:
-  summary: Drop-in OSOP session logging rules for 18 AI coding agents, enabling structured execution records across platforms like Cursor, Codex, Windsurf, and Copilot.
-  why_it_matters: Developers can standardize session logging across disparate coding agents, making workflows auditable and portable without per-tool integration work.
+  summary: >-
+    Drop-in OSOP session logging rules for 18 AI coding agents, enabling structured execution records across platforms
+    like Cursor, Codex, Windsurf, and Copilot.
+  why_it_matters: >-
+    Developers can standardize session logging across disparate coding agents, making workflows auditable and portable
+    without per-tool integration work.
   mental_damage: Finally, a way to make your AI agents document their own chaos before you forget what they did.
   tags:
     - session-logging
@@ -52,31 +62,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is a reusable rules pack for multiple coding agents, fitting the 'Agent Skills' category as a portable skill/rules bundle rather than a standalone assistant or extension.
+  reason: >-
+    The primary artifact is a reusable rules pack for multiple coding agents, fitting the 'Agent Skills' category as a
+    portable skill/rules bundle rather than a standalone assistant or extension.
   evidence:
     - README explicitly describes it as 'Drop-in .osoplog generation for 18 AI coding platforms'
     - Project structure consists of platform-specific rule files (e.g., `.cursor/rules/`, `.continue/rules/`)
     - Source-list context places it under 'Agent infrastructure' in a curated directory of coding agents
 placement:
-  primary_category: skills
-  section: Rules, Commands & Prompts
+  primary_category: evals
+  secondary_categories: []
+  section: Observability & Tracing
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.603Z"
+    updated_at: '2026-05-06T22:12:15.603Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:12:57.935Z"
+    updated_at: '2026-09-10T04:12:57.935Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:23:52.156Z"
+    updated_at: '2026-07-21T15:23:52.156Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +102,9 @@ processing:
       input_hash: sha256:dad203a830784d14726f163d11ad8ce9d259e956b767b253c9cb3759333622d7
       proposed_primary_category: skills
       disagreement: false
-      decision_reason: The primary artifact is a reusable rules pack for multiple coding agents, fitting the 'Agent Skills' category as a portable skill/rules bundle rather than a standalone assistant or extension.
+      decision_reason: >-
+        The primary artifact is a reusable rules pack for multiple coding agents, fitting the 'Agent Skills' category as
+        a portable skill/rules bundle rather than a standalone assistant or extension.
       decision_evidence:
         - README explicitly describes it as 'Drop-in .osoplog generation for 18 AI coding platforms'
         - Project structure consists of platform-specific rule files (e.g., `.cursor/rules/`, `.continue/rules/`)
@@ -97,6 +112,8 @@ processing:
       category_candidates:
         - skills
         - ai-dev-extensions
-      contrastive_reason: Choose skills over ai-dev-extensions because the core value is the portable rules content itself, not a host integration layer or extension suite.
+      contrastive_reason: >-
+        Choose skills over ai-dev-extensions because the core value is the portable rules content itself, not a host
+        integration layer or extension suite.
       review_reason: null
       review_resume_lifecycle: null

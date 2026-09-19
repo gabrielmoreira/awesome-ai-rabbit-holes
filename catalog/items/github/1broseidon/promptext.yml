@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__1broseidon__promptext__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,10 @@ provenance:
           - Code AI
         anchor_text: promptext
         extracted_url: https://github.com/1broseidon/promptext
-        surrounding_text: "| [promptext](https://github.com/1broseidon/promptext) | Smart code context extractor for AI assistants with accurate token counting and budget management        | ![GitHub Badge](https://img.shields.io/github/stars/1broseidon/promptext.svg?style=flat-square) |"
+        surrounding_text: >-
+          | [promptext](https://github.com/1broseidon/promptext) | Smart code context extractor for AI assistants with
+          accurate token counting and budget management        | ![GitHub
+          Badge](https://img.shields.io/github/stars/1broseidon/promptext.svg?style=flat-square) |
         confidence: high
 metadata:
   github:
@@ -29,8 +32,8 @@ metadata:
     archived: false
     full_name: 1broseidon/promptext
     html_url: https://github.com/1broseidon/promptext
-    created_at: "2024-12-16T20:06:59Z"
-    pushed_at: "2026-04-12T20:05:25Z"
+    created_at: '2024-12-16T20:06:59Z'
+    pushed_at: '2026-04-12T20:05:25Z'
     description: Smart code context extractor for AI assistants
     homepage: https://chain.sh/promptext
     topics:
@@ -53,13 +56,15 @@ metadata:
       - prompt-engineering
       - prompt-generator
       - tokenizer
-    last_checked_at: "2026-09-17T04:13:25.408Z"
+    last_checked_at: '2026-09-17T04:13:25.408Z'
     readme:
-      fetched_at: "2026-09-17T04:13:25.408Z"
+      fetched_at: '2026-09-17T04:13:25.408Z'
       bytes: 16110
 insights:
   summary: A CLI tool that extracts and optimizes codebase context into token-efficient formats for LLMs.
-  why_it_matters: It solves the tedious process of manually selecting relevant files and managing token budgets when feeding large repositories into AI assistants.
+  why_it_matters: >-
+    It solves the tedious process of manually selecting relevant files and managing token budgets when feeding large
+    repositories into AI assistants.
   mental_damage: Finally, a way to precisely calculate exactly how much money you're wasting on context windows before you hit 'end'.
   tags:
     - cli
@@ -70,31 +75,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's core novelty is the intelligent compression and token-optimized packaging of code context to improve LLM performance.
+  reason: >-
+    The tool's core novelty is the intelligent compression and token-optimized packaging of code context to improve LLM
+    performance.
   evidence:
     - README claims 25-60% token reduction via custom formats like PTX
     - Focuses on relevance scoring and budget-aware context packing
     - Transforms codebase into optimized context for LLMs
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Compression & Token Optimization
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.598Z"
+    updated_at: '2026-05-06T22:12:15.598Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:25.408Z"
+    updated_at: '2026-09-17T04:13:25.408Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:48:09.527Z"
+    updated_at: '2026-07-20T15:48:09.527Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -107,7 +115,9 @@ processing:
       input_hash: sha256:a76397da938c32db553326bcb2bb93cb5ab27667c3e0be8a38fbc18a356144ca
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: The tool's core novelty is the intelligent compression and token-optimized packaging of code context to improve LLM performance.
+      decision_reason: >-
+        The tool's core novelty is the intelligent compression and token-optimized packaging of code context to improve
+        LLM performance.
       decision_evidence:
         - README claims 25-60% token reduction via custom formats like PTX
         - Focuses on relevance scoring and budget-aware context packing
@@ -115,6 +125,8 @@ processing:
       category_candidates:
         - context-engineering
         - ai-dev-extensions
-      contrastive_reason: Choose context-engineering over ai-dev-extensions because its core value proposition is the compression and management of context/tokens rather than serving as a host integration layer.
+      contrastive_reason: >-
+        Choose context-engineering over ai-dev-extensions because its core value proposition is the compression and
+        management of context/tokens rather than serving as a host integration layer.
       review_reason: null
       review_resume_lifecycle: null

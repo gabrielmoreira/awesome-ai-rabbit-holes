@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dataring-engineering__mcp-server-trino__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: Dataring-engineering/mcp-server-trino
         extracted_url: https://github.com/dataring-engineering/mcp-server-trino
-        surrounding_text: "- [Dataring-engineering/mcp-server-trino](https://github.com/Dataring-engineering/mcp-server-trino) 🐍 ☁️ - Trino MCP Server to query and access data from Trino Clusters."
+        surrounding_text: >-
+          - [Dataring-engineering/mcp-server-trino](https://github.com/Dataring-engineering/mcp-server-trino) 🐍 ☁️ -
+          Trino MCP Server to query and access data from Trino Clusters.
         confidence: high
     - id: discovery__github__dataring-engineering__mcp-server-trino__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,11 @@ provenance:
           - 🗄️ Databases
         anchor_text: Dataring-engineering/mcp-server-trino
         extracted_url: https://github.com/dataring-engineering/mcp-server-trino
-        surrounding_text: "-   **[Dataring-engineering/mcp-server-trino](https://github.com/Dataring-engineering/mcp-server-trino)** [![GitHub stars](https://img.shields.io/github/stars/Dataring-engineering/mcp-server-trino?style=social)](https://github.com/Dataring-engineering/mcp-server-trino): Connects to Trino Clusters for querying and data access."
+        surrounding_text: >-
+          -   **[Dataring-engineering/mcp-server-trino](https://github.com/Dataring-engineering/mcp-server-trino)**
+          [![GitHub
+          stars](https://img.shields.io/github/stars/Dataring-engineering/mcp-server-trino?style=social)](https://github.com/Dataring-engineering/mcp-server-trino):
+          Connects to Trino Clusters for querying and data access.
         confidence: high
 metadata:
   github:
@@ -45,18 +51,20 @@ metadata:
     archived: false
     full_name: Dataring-engineering/mcp-server-trino
     html_url: https://github.com/Dataring-engineering/mcp-server-trino
-    created_at: "2025-03-10T10:10:09Z"
-    pushed_at: "2025-04-22T08:27:47Z"
+    created_at: '2025-03-10T10:10:09Z'
+    pushed_at: '2025-04-22T08:27:47Z'
     description: MCP Server for Trino
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:35.081Z"
+    last_checked_at: '2026-09-14T04:13:35.081Z'
     readme:
-      fetched_at: "2026-09-14T04:13:35.081Z"
+      fetched_at: '2026-09-14T04:13:35.081Z'
       bytes: 2163
 insights:
   summary: An MCP server that exposes Trino database tables and SQL query execution as MCP resources and tools.
-  why_it_matters: Lets AI assistants interact with Trino databases directly through the Model Context Protocol, enabling query execution and table discovery without custom integration code.
+  why_it_matters: >-
+    Lets AI assistants interact with Trino databases directly through the Model Context Protocol, enabling query
+    execution and table discovery without custom integration code.
   mental_damage: Now your AI can join the distributed SQL party without RSVPing to the Trino docs.
   tags:
     - mcp
@@ -67,31 +75,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server implementation for Trino, making MCP the primary product identity rather than a compatibility feature.
+  reason: >-
+    This is a dedicated MCP server implementation for Trino, making MCP the primary product identity rather than a
+    compatibility feature.
   evidence:
     - Repo description explicitly states 'MCP Server for Trino'
     - README details MCP resources/tools for Trino table listing and SQL execution
     - Listed in multiple MCP server directories under Databases
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.584Z"
+    updated_at: '2026-05-06T22:12:15.584Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:35.081Z"
+    updated_at: '2026-09-14T04:13:35.081Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:50:05.373Z"
+    updated_at: '2026-07-21T15:50:05.373Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,7 +115,9 @@ processing:
       input_hash: sha256:58fe61103db3fa5e41cc6474c3dd01147f50de8f7d79fb3c05f588e544106771
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a dedicated MCP server implementation for Trino, making MCP the primary product identity rather than a compatibility feature.
+      decision_reason: >-
+        This is a dedicated MCP server implementation for Trino, making MCP the primary product identity rather than a
+        compatibility feature.
       decision_evidence:
         - Repo description explicitly states 'MCP Server for Trino'
         - README details MCP resources/tools for Trino table listing and SQL execution
@@ -112,6 +125,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server for Trino, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server for Trino, not an
+        extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

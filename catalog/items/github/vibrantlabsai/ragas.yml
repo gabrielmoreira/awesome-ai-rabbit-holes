@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__vibrantlabsai__ragas__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -20,10 +20,10 @@ provenance:
           - Evaluation & Benchmarking
         anchor_text: RAGAS
         extracted_url: https://github.com/explodinggradients/ragas
-        surrounding_text: "| [RAGAS](https://github.com/explodinggradients/ragas) | Evaluation framework for RAG systems |"
+        surrounding_text: '| [RAGAS](https://github.com/explodinggradients/ragas) | Evaluation framework for RAG systems |'
         confidence: high
     - id: discovery__github__vibrantlabsai__ragas__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -35,7 +35,9 @@ provenance:
           - 知识库 RAG
         anchor_text: ragas
         extracted_url: https://github.com/explodinggradients/ragas
-        surrounding_text: "17. [ragas](https://github.com/explodinggradients/ragas): Evaluation framework for your Retrieval Augmented Generation (RAG) pipelines."
+        surrounding_text: >-
+          17. [ragas](https://github.com/explodinggradients/ragas): Evaluation framework for your Retrieval Augmented
+          Generation (RAG) pipelines.
         confidence: high
 metadata:
   github:
@@ -45,21 +47,23 @@ metadata:
     archived: false
     full_name: vibrantlabsai/ragas
     html_url: https://github.com/vibrantlabsai/ragas
-    created_at: "2023-05-08T17:48:04Z"
-    pushed_at: "2026-02-24T07:47:19Z"
+    created_at: '2023-05-08T17:48:04Z'
+    pushed_at: '2026-02-24T07:47:19Z'
     description: Supercharge Your LLM Application Evaluations 🚀
     homepage: https://docs.ragas.io
     topics:
       - evaluation
       - llm
       - llmops
-    last_checked_at: "2026-07-21T15:21:04.870Z"
+    last_checked_at: '2026-07-21T15:21:04.870Z'
     readme:
-      fetched_at: "2026-07-21T15:21:04.870Z"
+      fetched_at: '2026-07-21T15:21:04.870Z'
       bytes: 6996
 insights:
   summary: Ragas is a Python library for evaluating LLM applications with objective metrics and test data generation.
-  why_it_matters: It gives developers a programmatic, data-driven way to measure and improve LLM app quality without relying on subjective assessments.
+  why_it_matters: >-
+    It gives developers a programmatic, data-driven way to measure and improve LLM app quality without relying on
+    subjective assessments.
   mental_damage: Finally, a way to quantify the vague guilt of shipping LLM features you can't actually verify.
   tags:
     - evals
@@ -70,31 +74,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Ragas is a dedicated evaluation framework for LLM applications, focusing on objective metrics, test generation, and feedback loops rather than acting as a coding assistant, orchestrator, or app builder.
+  reason: >-
+    Ragas is a dedicated evaluation framework for LLM applications, focusing on objective metrics, test generation, and
+    feedback loops rather than acting as a coding assistant, orchestrator, or app builder.
   evidence:
-    - "Repo description: 'Supercharge Your LLM Application Evaluations 🚀'"
-    - "README: 'Objective metrics, intelligent test generation, and data-driven insights for LLM apps'"
-    - "Source-list context: appears in awesome-agent-orchestration under 'Evaluation & Benchmarking' and awesome-LLM-resources under '知识库 RAG'"
+    - 'Repo description: ''Supercharge Your LLM Application Evaluations 🚀'''
+    - 'README: ''Objective metrics, intelligent test generation, and data-driven insights for LLM apps'''
+    - >-
+      Source-list context: appears in awesome-agent-orchestration under 'Evaluation & Benchmarking' and
+      awesome-LLM-resources under '知识库 RAG'
 placement:
   primary_category: evals
-  section: Observability / Tracing / EvalOps
+  secondary_categories: []
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: promotion_candidate
   reason: Stars (13882) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.595Z"
+    updated_at: '2026-05-06T22:12:15.595Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:04.870Z"
+    updated_at: '2026-07-21T15:21:04.870Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:25:20.010Z"
+    updated_at: '2026-05-12T15:25:20.010Z'
     cause: null
     next_retry_at: null
     attempts: 1

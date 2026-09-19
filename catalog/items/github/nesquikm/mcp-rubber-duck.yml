@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nesquikm__mcp-rubber-duck__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: nesquikm/mcp-rubber-duck
         extracted_url: https://github.com/nesquikm/mcp-rubber-duck
-        surrounding_text: "- [nesquikm/mcp-rubber-duck](https://github.com/nesquikm/mcp-rubber-duck) 📇 🏠 ☁️ - An MCP server that bridges to multiple OpenAI-compatible LLMs - your AI rubber duck debugging panel for explaining problems to various AI \"ducks\" and getting different perspectives"
+        surrounding_text: >-
+          - [nesquikm/mcp-rubber-duck](https://github.com/nesquikm/mcp-rubber-duck) 📇 🏠 ☁️ - An MCP server that
+          bridges to multiple OpenAI-compatible LLMs - your AI rubber duck debugging panel for explaining problems to
+          various AI "ducks" and getting different perspectives
         confidence: high
 metadata:
   github:
@@ -30,19 +33,28 @@ metadata:
     archived: false
     full_name: nesquikm/mcp-rubber-duck
     html_url: https://github.com/nesquikm/mcp-rubber-duck
-    created_at: "2025-08-27T15:55:07Z"
-    pushed_at: "2026-07-14T14:38:04Z"
-    description: An MCP server that acts as a bridge to query multiple OpenAI-compatible LLMs with MCP tool access. Just like rubber duck debugging, explain your problems to various AI "ducks" who can actually research and get different perspectives!
-    homepage: ""
+    created_at: '2025-08-27T15:55:07Z'
+    pushed_at: '2026-07-14T14:38:04Z'
+    description: >-
+      An MCP server that acts as a bridge to query multiple OpenAI-compatible LLMs with MCP tool access. Just like
+      rubber duck debugging, explain your problems to various AI "ducks" who can actually research and get different
+      perspectives!
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-20T15:12:02.089Z"
+    last_checked_at: '2026-07-20T15:12:02.089Z'
     readme:
-      fetched_at: "2026-07-20T15:12:02.089Z"
+      fetched_at: '2026-07-20T15:12:02.089Z'
       bytes: 12644
 insights:
-  summary: An MCP server that bridges multiple OpenAI-compatible LLMs and CLI coding agents to enable multi-model conversational debugging, consensus voting, and structured debates.
-  why_it_matters: It lets developers pipe a single problem into many models or CLI agents at once to compare perspectives, run consensus votes, and iteratively refine answers without switching contexts.
-  mental_damage: You now have an entire parliament of AI ducks to approve your fix, because one unreliable code reviewer was never enough.
+  summary: >-
+    An MCP server that bridges multiple OpenAI-compatible LLMs and CLI coding agents to enable multi-model
+    conversational debugging, consensus voting, and structured debates.
+  why_it_matters: >-
+    It lets developers pipe a single problem into many models or CLI agents at once to compare perspectives, run
+    consensus votes, and iteratively refine answers without switching contexts.
+  mental_damage: >-
+    You now have an entire parliament of AI ducks to approve your fix, because one unreliable code reviewer was never
+    enough.
   tags:
     - mcp
     - multi-agent
@@ -51,35 +63,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: it is explicitly an MCP server that bridges LLMs and CLI agents, and it is listed and positioned as MCP infrastructure in the ecosystem."
+  reason: >-
+    MCP is the product identity: it is explicitly an MCP server that bridges LLMs and CLI agents, and it is listed and
+    positioned as MCP infrastructure in the ecosystem.
   evidence:
-    - Repo description states it is 'An MCP server that acts as a bridge to query multiple OpenAI-compatible LLMs with MCP tool access.'
+    - >-
+      Repo description states it is 'An MCP server that acts as a bridge to query multiple OpenAI-compatible LLMs with
+      MCP tool access.'
     - README lists 'MCP Bridge' and 'MCP Prompts' as core features and links to the MCP Registry.
     - Seen in awesome-mcp-servers under 'Server Implementations', reinforcing its MCP infrastructure identity.
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: promotion_candidate
   reason: Stars (162) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.632Z"
+    updated_at: '2026-05-06T22:12:15.632Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:12:02.089Z"
+    updated_at: '2026-07-20T15:12:02.089Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

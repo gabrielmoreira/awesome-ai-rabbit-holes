@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__evalsone__mcp-connect__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Clients
         anchor_text: MCP-Connect
         extracted_url: https://github.com/evalsone/mcp-connect
-        surrounding_text: "- **[MCP-Connect](https://github.com/EvalsOne/mcp-connect)** A client that enables cloud-based AI services to access local Stdio based MCP servers by HTTP/HTTPS requests."
+        surrounding_text: >-
+          - **[MCP-Connect](https://github.com/EvalsOne/mcp-connect)** A client that enables cloud-based AI services to
+          access local Stdio based MCP servers by HTTP/HTTPS requests.
         confidence: high
 metadata:
   github:
@@ -29,19 +31,21 @@ metadata:
     archived: false
     full_name: EvalsOne/MCP-connect
     html_url: https://github.com/EvalsOne/MCP-connect
-    created_at: "2024-12-21T03:45:33Z"
-    pushed_at: "2026-03-18T20:50:34Z"
+    created_at: '2024-12-21T03:45:33Z'
+    pushed_at: '2026-03-18T20:50:34Z'
     description: Enables cloud-based AI services to access local Stdio based MCP servers via HTTP requests
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-08-27T09:23:26.179Z"
+    last_checked_at: '2026-08-27T09:23:26.179Z'
     readme:
-      fetched_at: "2026-08-27T09:23:26.179Z"
+      fetched_at: '2026-08-27T09:23:26.179Z'
       bytes: 9671
 insights:
   summary: An HTTP gateway that exposes local stdio-based MCP servers as streamable HTTP APIs or request/response bridges.
   why_it_matters: It allows cloud-hosted AI agents to interact with local development tools and data via the Model Context Protocol.
-  mental_damage: "Just what we needed: another layer of networking complexity to debug when your cloud LLM suddenly can't find your local filesystem."
+  mental_damage: >-
+    Just what we needed: another layer of networking complexity to debug when your cloud LLM suddenly can't find your
+    local filesystem.
   tags:
     - mcp
     - bridge
@@ -51,31 +55,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's core identity is providing infrastructure/middleware for the Model Context Protocol to enable remote access to local tools.
+  reason: >-
+    The tool's core identity is providing infrastructure/middleware for the Model Context Protocol to enable remote
+    access to local tools.
   evidence:
     - README describes it as a 'Lightweight bridge that exposes local MCP servers as HTTP APIs'
     - The product implements both Streamable HTTP and classic request/response bridge modes for MCP
     - Primary functionality is acting as an HTTP gateway for MCP
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Clients & Inspector Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (236) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:26.179Z"
+    updated_at: '2026-08-27T09:23:26.179Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:53:41.754Z"
+    updated_at: '2026-07-21T15:53:41.754Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +95,9 @@ processing:
       input_hash: sha256:4c3a6d14aa42e7836197e758e9fc7c377a09ca413bf86e3f335d8bda90df0f50
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The tool's core identity is providing infrastructure/middleware for the Model Context Protocol to enable remote access to local tools.
+      decision_reason: >-
+        The tool's core identity is providing infrastructure/middleware for the Model Context Protocol to enable remote
+        access to local tools.
       decision_evidence:
         - README describes it as a 'Lightweight bridge that exposes local MCP servers as HTTP APIs'
         - The product implements both Streamable HTTP and classic request/response bridge modes for MCP
@@ -96,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because its primary purpose is acting as MCP middleware/infrastructure rather than augmenting a specific coding assistant with new capabilities.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because its primary purpose is acting as MCP middleware/infrastructure rather
+        than augmenting a specific coding assistant with new capabilities.
       review_reason: null
       review_resume_lifecycle: null

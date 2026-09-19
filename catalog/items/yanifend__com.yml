@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__yanifend__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-22T05:53:30.454Z"
+      discovered_at: '2026-06-22T05:53:30.454Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,12 @@ provenance:
           - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
         anchor_text: YaniFend
         extracted_url: https://yanifend.com
-        surrounding_text: "- [skippedaga/yanifend-mcp](https://github.com/skippedaga/yanifend-mcp) [![skippedaga/yanifend-mcp MCP server](https://glama.ai/mcp/servers/skippedaga/yanifend-mcp/badges/score.svg)](https://glama.ai/mcp/servers/skippedaga/yanifend-mcp) ☕ ☁️ - Hosted MCP server for [YaniFend](https://yanifend.com), a WordPress feedback widget — manage your questionary (list / create / update / delete questions and options) and read collected answers via natural language."
+        surrounding_text: >-
+          - [skippedaga/yanifend-mcp](https://github.com/skippedaga/yanifend-mcp) [![skippedaga/yanifend-mcp MCP
+          server](https://glama.ai/mcp/servers/skippedaga/yanifend-mcp/badges/score.svg)](https://glama.ai/mcp/servers/skippedaga/yanifend-mcp)
+          ☕ ☁️ - Hosted MCP server for [YaniFend](https://yanifend.com), a WordPress feedback widget — manage your
+          questionary (list / create / update / delete questions and options) and read collected answers via natural
+          language.
         confidence: high
 metadata:
   github:
@@ -36,8 +41,12 @@ metadata:
     readme: null
 insights:
   summary: An MCP server that allows AI agents to interact with and retrieve data from Yanifend's platform.
-  why_it_matters: It enables coding assistants to access external platform data via the Model Context Protocol, reducing the need for manual copy-pasting into prompts.
-  mental_damage: We have now reached the stage where we are building standardized protocols just so our agents can talk to other agents' homepages.
+  why_it_matters: >-
+    It enables coding assistants to access external platform data via the Model Context Protocol, reducing the need for
+    manual copy-pasting into prompts.
+  mental_damage: >-
+    We have now reached the stage where we are building standardized protocols just so our agents can talk to other
+    agents' homepages.
   tags:
     - mcp
     - data-retrieval
@@ -45,20 +54,22 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's identity is specifically that of an MCP server, making it a fit for the MCP category rather than a general agent or extension.
+  reason: >-
+    The tool's identity is specifically that of an MCP server, making it a fit for the MCP category rather than a
+    general agent or extension.
   evidence:
     - Included in 'awesome-mcp-servers' list
     - Identified as an MCP server in the source-list context
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-22T05:53:30.456Z"
+    updated_at: '2026-06-22T05:53:30.456Z'
     cause: null
     next_retry_at: null
   stars:
@@ -67,7 +78,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-06-22T05:56:38.322Z"
+    updated_at: '2026-06-22T05:56:38.322Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

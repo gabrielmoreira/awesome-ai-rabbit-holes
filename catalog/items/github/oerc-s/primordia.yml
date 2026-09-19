@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__oerc-s__primordia__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: oerc-s/primordia
         extracted_url: https://github.com/oerc-s/primordia
-        surrounding_text: "- [oerc-s/primordia](https://github.com/oerc-s/primordia) 📇 ☁️ - AI agent economic settlement. Verify receipts, emit meters (FREE). Net settlements, credit lines, audit-grade balance sheets (PAID/402)."
+        surrounding_text: >-
+          - [oerc-s/primordia](https://github.com/oerc-s/primordia) 📇 ☁️ - AI agent economic settlement. Verify
+          receipts, emit meters (FREE). Net settlements, credit lines, audit-grade balance sheets (PAID/402).
         confidence: high
 metadata:
   github:
@@ -30,19 +32,25 @@ metadata:
     archived: false
     full_name: oerc-s/primordia
     html_url: https://github.com/oerc-s/primordia
-    created_at: "2025-12-27T18:49:09Z"
-    pushed_at: "2026-01-31T17:31:17Z"
+    created_at: '2025-12-27T18:49:09Z'
+    pushed_at: '2026-01-31T17:31:17Z'
     description: AI Agent Economic Settlement Infrastructure - Machine-to-Machine Clearing
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:22.637Z"
+    last_checked_at: '2026-07-20T16:42:22.637Z'
     readme:
-      fetched_at: "2026-07-20T16:42:22.637Z"
+      fetched_at: '2026-07-20T16:42:22.637Z'
       bytes: 4211
 insights:
-  summary: Primordia (Kaledge) provides financial infrastructure primitives and an MCP server for settling, netting, and tracking credit between AI agents transacting with one another.
-  why_it_matters: Developers building multi-agent systems that exchange value now have a dedicated clearing layer with cryptographic receipts, balance sheets, and default handling baked in.
-  mental_damage: Finally, your agents can go into debt just like the rest of the tech industry, complete with netting, credit lines, and automatic creditor waterfalls.
+  summary: >-
+    Primordia (Kaledge) provides financial infrastructure primitives and an MCP server for settling, netting, and
+    tracking credit between AI agents transacting with one another.
+  why_it_matters: >-
+    Developers building multi-agent systems that exchange value now have a dedicated clearing layer with cryptographic
+    receipts, balance sheets, and default handling baked in.
+  mental_damage: >-
+    Finally, your agents can go into debt just like the rest of the tech industry, complete with netting, credit lines,
+    and automatic creditor waterfalls.
   tags:
     - agent-economics
     - mcp
@@ -52,35 +60,43 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product's MCP server exposing settlement, netting, and balance-sheet tools to Claude, Cursor, and Windsurf is a first-class artifact alongside its SDK and runtime, making it a domain-specific MCP server rather than a generic fintech platform.
+  reason: >-
+    The product's MCP server exposing settlement, netting, and balance-sheet tools to Claude, Cursor, and Windsurf is a
+    first-class artifact alongside its SDK and runtime, making it a domain-specific MCP server rather than a generic
+    fintech platform.
   evidence:
-    - README explicitly publishes `npx @primordia1/mcp-server` with MCP config and lists tools like `verify_receipt` and `net_receipts`.
+    - >-
+      README explicitly publishes `npx @primordia1/mcp-server` with MCP config and lists tools like `verify_receipt` and
+      `net_receipts`.
     - Already listed in awesome-mcp-servers under Finance & Fintech, confirming community recognition as an MCP server.
-    - While it ships an SDK and kernel, the MCP adapter is a prominent, documented surface for developers using AI coding assistants.
+    - >-
+      While it ships an SDK and kernel, the MCP adapter is a prominent, documented surface for developers using AI
+      coding assistants.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.633Z"
+    updated_at: '2026-05-06T22:12:15.633Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:22.637Z"
+    updated_at: '2026-07-20T16:42:22.637Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

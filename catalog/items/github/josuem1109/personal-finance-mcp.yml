@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__josuem1109__personal-finance-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: JosueM1109/personal-finance-mcp
         extracted_url: https://github.com/josuem1109/personal-finance-mcp
-        surrounding_text: "- [JosueM1109/personal-finance-mcp](https://github.com/JosueM1109/personal-finance-mcp) [![JosueM1109/personal-finance-mcp MCP server](https://glama.ai/mcp/servers/JosueM1109/personal-finance-mcp/badges/score.svg)](https://glama.ai/mcp/servers/JosueM1109/personal-finance-mcp) 🐍 ☁️ 🏠 - Self-hosted, read-only MCP server that connects banks, credit cards, loans, and brokerage accounts via Plaid. 9 tools for balances, transactions, recurring charges, liabilities, and investment holdings."
+        surrounding_text: >-
+          - [JosueM1109/personal-finance-mcp](https://github.com/JosueM1109/personal-finance-mcp)
+          [![JosueM1109/personal-finance-mcp MCP
+          server](https://glama.ai/mcp/servers/JosueM1109/personal-finance-mcp/badges/score.svg)](https://glama.ai/mcp/servers/JosueM1109/personal-finance-mcp)
+          🐍 ☁️ 🏠 - Self-hosted, read-only MCP server that connects banks, credit cards, loans, and brokerage accounts
+          via Plaid. 9 tools for balances, transactions, recurring charges, liabilities, and investment holdings.
         confidence: high
 metadata:
   github:
@@ -30,10 +35,12 @@ metadata:
     archived: false
     full_name: JosueM1109/personal-finance-mcp
     html_url: https://github.com/JosueM1109/personal-finance-mcp
-    created_at: "2026-04-20T17:18:04Z"
-    pushed_at: "2026-04-20T21:11:25Z"
-    description: Self-hosted, read-only MCP server for personal finance. Connect your banks via Plaid and query them from Claude Code.
-    homepage: ""
+    created_at: '2026-04-20T17:18:04Z'
+    pushed_at: '2026-04-20T21:11:25Z'
+    description: >-
+      Self-hosted, read-only MCP server for personal finance. Connect your banks via Plaid and query them from Claude
+      Code.
+    homepage: ''
     topics:
       - claude
       - claude-code
@@ -46,13 +53,15 @@ metadata:
       - plaid-api
       - python
       - self-hosted
-    last_checked_at: "2026-07-30T05:05:52.484Z"
+    last_checked_at: '2026-07-30T05:05:52.484Z'
     readme:
-      fetched_at: "2026-07-30T05:05:52.484Z"
+      fetched_at: '2026-07-30T05:05:52.484Z'
       bytes: 6882
 insights:
   summary: Self-hosted, read-only MCP server that connects personal finance data via Plaid to MCP clients like Claude Code.
-  why_it_matters: Lets developers query their own banking, transaction, and investment data in plain English directly from their coding assistant.
+  why_it_matters: >-
+    Lets developers query their own banking, transaction, and investment data in plain English directly from their
+    coding assistant.
   mental_damage: Now your AI pair programmer can also judge your spending habits.
   tags:
     - mcp
@@ -63,31 +72,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server exposing domain-specific tools (finance) to MCP clients."
+  reason: 'MCP is the product identity: this is a dedicated MCP server exposing domain-specific tools (finance) to MCP clients.'
   evidence:
     - Repo description explicitly calls it an MCP server for personal finance
     - README details 9 read-only tools exposing Plaid data via MCP protocol
     - Integration is explicitly for MCP clients like Claude Code
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.623Z"
+    updated_at: '2026-05-06T22:12:15.623Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:52.484Z"
+    updated_at: '2026-07-30T05:05:52.484Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:11:19.644Z"
+    updated_at: '2026-07-21T16:11:19.644Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -100,7 +110,9 @@ processing:
       input_hash: sha256:8304d6880098bbb8fe4b7aa8626c231255c1c9674c0c135a285180f651a62c31
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing domain-specific tools (finance) to MCP clients."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server exposing domain-specific tools (finance) to MCP
+        clients.
       decision_evidence:
         - Repo description explicitly calls it an MCP server for personal finance
         - README details 9 read-only tools exposing Plaid data via MCP protocol
@@ -108,6 +120,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

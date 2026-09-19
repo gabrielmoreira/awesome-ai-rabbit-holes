@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gowinston-ai__winston-ai-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Official Servers
         anchor_text: Winston AI
         extracted_url: https://github.com/gowinston-ai/winston-ai-mcp-server
-        surrounding_text: "- **[Winston AI](https://github.com/gowinston-ai/winston-ai-mcp-server)** - AI detector MCP server with industry leading accuracy rates in detecting use of AI in text and images. The [Winston AI](https://gowinston.ai) MCP server also offers a robust plagiarism checker to help maintain integrity."
+        surrounding_text: >-
+          - **[Winston AI](https://github.com/gowinston-ai/winston-ai-mcp-server)** - AI detector MCP server with
+          industry leading accuracy rates in detecting use of AI in text and images. The [Winston
+          AI](https://gowinston.ai) MCP server also offers a robust plagiarism checker to help maintain integrity.
         confidence: high
 metadata:
   github:
@@ -29,8 +32,8 @@ metadata:
     archived: false
     full_name: gowinston-ai/winston-ai-mcp-server
     html_url: https://github.com/gowinston-ai/winston-ai-mcp-server
-    created_at: "2025-07-15T17:24:54Z"
-    pushed_at: "2026-09-01T21:11:21Z"
+    created_at: '2025-07-15T17:24:54Z'
+    pushed_at: '2026-09-01T21:11:21Z'
     description: Winston AI MCP Server
     homepage: https://dev.gowinston.ai
     topics:
@@ -38,14 +41,20 @@ metadata:
       - mcp-server
       - plagiarism-detection
       - text-compare
-    last_checked_at: "2026-09-03T05:16:53.011Z"
+    last_checked_at: '2026-09-03T05:16:53.011Z'
     readme:
-      fetched_at: "2026-09-03T05:16:53.011Z"
+      fetched_at: '2026-09-03T05:16:53.011Z'
       bytes: 7715
 insights:
-  summary: MCP server providing Winston AI's AI detection, plagiarism detection, and text comparison capabilities via the Model Context Protocol.
-  why_it_matters: Developers can integrate Winston AI's content verification tools directly into MCP-compatible assistants or workflows.
-  mental_damage: Now your AI assistant can tell you if your AI-generated code was written by AI, which is either deeply useful or deeply existential.
+  summary: >-
+    MCP server providing Winston AI's AI detection, plagiarism detection, and text comparison capabilities via the Model
+    Context Protocol.
+  why_it_matters: >-
+    Developers can integrate Winston AI's content verification tools directly into MCP-compatible assistants or
+    workflows.
+  mental_damage: >-
+    Now your AI assistant can tell you if your AI-generated code was written by AI, which is either deeply useful or
+    deeply existential.
   tags:
     - mcp-server
     - ai-detection
@@ -61,24 +70,25 @@ curation:
     - Listed in awesome-mcp-servers under 'Official Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.616Z"
+    updated_at: '2026-05-06T22:12:15.616Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:53.012Z"
+    updated_at: '2026-09-03T05:16:53.012Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:03:49.614Z"
+    updated_at: '2026-07-21T16:03:49.614Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -99,6 +109,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension
+        for another assistant.
       review_reason: null
       review_resume_lifecycle: null

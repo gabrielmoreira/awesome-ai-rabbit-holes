@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jagan-shanmugam__open-streetmap-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🗺️ <a name="location-services"></a>Location Services
         anchor_text: jagan-shanmugam/open-streetmap-mcp
         extracted_url: https://github.com/jagan-shanmugam/open-streetmap-mcp
-        surrounding_text: "- [jagan-shanmugam/open-streetmap-mcp](https://github.com/jagan-shanmugam/open-streetmap-mcp) 🐍 🏠 - An OpenStreetMap MCP server with location-based services and geospatial data."
+        surrounding_text: >-
+          - [jagan-shanmugam/open-streetmap-mcp](https://github.com/jagan-shanmugam/open-streetmap-mcp) 🐍 🏠 - An
+          OpenStreetMap MCP server with location-based services and geospatial data.
         confidence: high
 metadata:
   github:
@@ -30,23 +32,27 @@ metadata:
     archived: false
     full_name: jagan-shanmugam/open-streetmap-mcp
     html_url: https://github.com/jagan-shanmugam/open-streetmap-mcp
-    created_at: "2025-03-03T21:17:47Z"
-    pushed_at: "2025-07-12T21:55:20Z"
-    description: An OpenStreetMap MCP server implementation that enhances LLM capabilities with location-based services and geospatial data.
-    homepage: ""
+    created_at: '2025-03-03T21:17:47Z'
+    pushed_at: '2025-07-12T21:55:20Z'
+    description: >-
+      An OpenStreetMap MCP server implementation that enhances LLM capabilities with location-based services and
+      geospatial data.
+    homepage: ''
     topics:
       - anthropic-claude
       - llm
       - mcp
       - mcp-server
       - openstreetmap
-    last_checked_at: "2026-07-30T05:05:46.832Z"
+    last_checked_at: '2026-07-30T05:05:46.832Z'
     readme:
-      fetched_at: "2026-07-30T05:05:46.832Z"
+      fetched_at: '2026-07-30T05:05:46.832Z'
       bytes: 5559
 insights:
   summary: An MCP server that provides OpenStreetMap geospatial tools and resources to LLMs for location-based services.
-  why_it_matters: Developers can integrate real-time geospatial data and location-based tools into their AI workflows without building the infrastructure themselves.
+  why_it_matters: >-
+    Developers can integrate real-time geospatial data and location-based tools into their AI workflows without building
+    the infrastructure themselves.
   mental_damage: Now your AI can argue with you about the best meeting spot based on real-time parking data.
   tags:
     - mcp-server
@@ -56,31 +62,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose primary identity is providing OpenStreetMap geospatial capabilities to LLMs.
+  reason: >-
+    The product is explicitly an MCP server whose primary identity is providing OpenStreetMap geospatial capabilities to
+    LLMs.
   evidence:
     - Repo description explicitly states it is an OpenStreetMap MCP server
     - README details MCP server implementation with tools/resources for geospatial data
     - Topics include mcp, mcp-server, openstreetmap
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: promotion_candidate
   reason: Stars (188) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.621Z"
+    updated_at: '2026-05-06T22:12:15.621Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:46.832Z"
+    updated_at: '2026-07-30T05:05:46.832Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:09:32.221Z"
+    updated_at: '2026-07-21T16:09:32.221Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -93,7 +102,9 @@ processing:
       input_hash: sha256:aff54b97d1d0e5b06fd2c64921039fc7790aa4119b0518ee0dfe8ed2ab2b4872
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server whose primary identity is providing OpenStreetMap geospatial capabilities to LLMs.
+      decision_reason: >-
+        The product is explicitly an MCP server whose primary identity is providing OpenStreetMap geospatial
+        capabilities to LLMs.
       decision_evidence:
         - Repo description explicitly states it is an OpenStreetMap MCP server
         - README details MCP server implementation with tools/resources for geospatial data
@@ -101,6 +112,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server providing domain-specific tools, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server providing domain-specific tools, not
+        an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

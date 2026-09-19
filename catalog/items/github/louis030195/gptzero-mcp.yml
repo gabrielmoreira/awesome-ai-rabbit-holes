@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__louis030195__gptzero-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: louis030195/gptzero-mcp
         extracted_url: https://github.com/louis030195/gptzero-mcp
-        surrounding_text: "- [louis030195/gptzero-mcp](https://github.com/louis030195/gptzero-mcp) 📇 ☁️ 🍎 🪟 🐧 - AI detection for text content with GPTZero API. Detect AI-generated text, get confidence scores, multilingual support (French/Spanish), and detailed probability breakdowns."
+        surrounding_text: >-
+          - [louis030195/gptzero-mcp](https://github.com/louis030195/gptzero-mcp) 📇 ☁️ 🍎 🪟 🐧 - AI detection for text
+          content with GPTZero API. Detect AI-generated text, get confidence scores, multilingual support
+          (French/Spanish), and detailed probability breakdowns.
         confidence: high
 metadata:
   github:
@@ -30,19 +33,23 @@ metadata:
     archived: false
     full_name: louis030195/gptzero-mcp
     html_url: https://github.com/louis030195/gptzero-mcp
-    created_at: "2025-10-01T01:33:43Z"
-    pushed_at: "2025-10-06T20:20:46Z"
+    created_at: '2025-10-01T01:33:43Z'
+    pushed_at: '2025-10-06T20:20:46Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:06:08.616Z"
+    last_checked_at: '2026-07-30T05:06:08.616Z'
     readme:
-      fetched_at: "2026-07-30T05:06:08.616Z"
+      fetched_at: '2026-07-30T05:06:08.616Z'
       bytes: 2830
 insights:
   summary: An MCP server that exposes GPTZero's AI text detection API for use with MCP-compatible clients like Claude Desktop.
-  why_it_matters: Lets developers check for AI-generated text directly from their coding assistant workflow without leaving the chat interface.
-  mental_damage: Because nothing says 'I trust my AI pair programmer' like running its output through another AI to see if it’s lying.
+  why_it_matters: >-
+    Lets developers check for AI-generated text directly from their coding assistant workflow without leaving the chat
+    interface.
+  mental_damage: >-
+    Because nothing says 'I trust my AI pair programmer' like running its output through another AI to see if it’s
+    lying.
   tags:
     - mcp
     - ai-detection
@@ -50,31 +57,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server as its core identity, providing access to GPTZero's detection API via the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
+  reason: >-
+    The project is an MCP server as its core identity, providing access to GPTZero's detection API via the Model Context
+    Protocol, making it a clear fit for MCP Servers & Tooling.
   evidence:
     - README describes it as an 'MCP (Model Context Protocol) server for GPTZero AI detection API'
     - Provides installation and usage instructions specifically for MCP clients like Claude Desktop and Claude Code
     - Lists MCP-specific tools (`gptzero_detect`, `gptzero_model_versions`) as the main functionality
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: '2026-05-06T22:12:15.627Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:08.616Z"
+    updated_at: '2026-07-30T05:06:08.616Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:17:25.842Z"
+    updated_at: '2026-07-21T16:17:25.842Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,7 +97,9 @@ processing:
       input_hash: sha256:c3b63fa15528e144e8bd8adab7f1e440938537cd52fd2ea521ac9d06a7c470e2
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is an MCP server as its core identity, providing access to GPTZero's detection API via the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
+      decision_reason: >-
+        The project is an MCP server as its core identity, providing access to GPTZero's detection API via the Model
+        Context Protocol, making it a clear fit for MCP Servers & Tooling.
       decision_evidence:
         - README describes it as an 'MCP (Model Context Protocol) server for GPTZero AI detection API'
         - Provides installation and usage instructions specifically for MCP clients like Claude Desktop and Claude Code
@@ -95,6 +107,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server first and foremost, not an extension that augments another assistant with workflow capabilities.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server first and foremost, not an extension that
+        augments another assistant with workflow capabilities.
       review_reason: null
       review_resume_lifecycle: null

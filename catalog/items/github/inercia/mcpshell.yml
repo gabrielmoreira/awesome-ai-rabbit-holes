@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__inercia__mcpshell__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: MCP-CLI Adapter
         extracted_url: https://github.com/inercia/mcp-cli-adapter
-        surrounding_text: "- **[MCP-CLI Adapter](https://github.com/inercia/mcp-cli-adapter)** - Use command line tools in a secure fashion as MCP tools."
+        surrounding_text: >-
+          - **[MCP-CLI Adapter](https://github.com/inercia/mcp-cli-adapter)** - Use command line tools in a secure
+          fashion as MCP tools.
         confidence: high
 metadata:
   github:
@@ -29,18 +31,20 @@ metadata:
     archived: false
     full_name: inercia/MCPShell
     html_url: https://github.com/inercia/MCPShell
-    created_at: "2025-05-10T14:18:45Z"
-    pushed_at: "2026-07-27T05:55:45Z"
+    created_at: '2025-05-10T14:18:45Z'
+    pushed_at: '2026-07-27T05:55:45Z'
     description: Use shell scripts as MCP tools
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:05:42.903Z"
+    last_checked_at: '2026-07-30T05:05:42.903Z'
     readme:
-      fetched_at: "2026-07-30T05:05:42.903Z"
+      fetched_at: '2026-07-30T05:05:42.903Z'
       bytes: 5820
 insights:
   summary: A Model Context Protocol (MCP) server that enables LLMs to safely execute shell commands as MCP tools.
-  why_it_matters: It bridges LLMs with OS-level command execution through a secure, configurable MCP interface, enabling AI assistants to interact with system tools without direct shell access risks.
+  why_it_matters: >-
+    It bridges LLMs with OS-level command execution through a secure, configurable MCP interface, enabling AI assistants
+    to interact with system tools without direct shell access risks.
   mental_damage: Now your AI can finally run `rm -rf /` for you, but with YAML guardrails and a side of existential dread.
   tags:
     - mcp
@@ -51,31 +55,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the core product identity: it is a server that exposes shell commands as MCP tools, fitting the MCP Servers & Tooling category."
+  reason: >-
+    MCP is the core product identity: it is a server that exposes shell commands as MCP tools, fitting the MCP Servers &
+    Tooling category.
   evidence:
     - Repo description explicitly states it is for using shell scripts as MCP tools
     - README details MCP server functionality with YAML-based tool definitions and security constraints
     - Already listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.620Z"
+    updated_at: '2026-05-06T22:12:15.620Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:42.903Z"
+    updated_at: '2026-07-30T05:05:42.903Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:08:05.620Z"
+    updated_at: '2026-07-21T16:08:05.620Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +95,9 @@ processing:
       input_hash: sha256:a8743e55875566676e4f2f1a99cdc9813dd3a9619220bb634009653e86513746
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the core product identity: it is a server that exposes shell commands as MCP tools, fitting the MCP Servers & Tooling category."
+      decision_reason: >-
+        MCP is the core product identity: it is a server that exposes shell commands as MCP tools, fitting the MCP
+        Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is for using shell scripts as MCP tools
         - README details MCP server functionality with YAML-based tool definitions and security constraints
@@ -96,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary identity is an MCP server providing shell tool capabilities, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary identity is an MCP server providing shell tool
+        capabilities, not an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

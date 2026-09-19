@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kyurish__trading212-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: KyuRish/trading212-mcp-server
         extracted_url: https://github.com/kyurish/trading212-mcp-server
-        surrounding_text: "- [KyuRish/trading212-mcp-server](https://github.com/KyuRish/trading212-mcp-server) [![trading212-mcp-server MCP server](https://glama.ai/mcp/servers/@KyuRish/trading212-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/@KyuRish/trading212-mcp-server) 🐍 ☁️ - Trading 212 API integration with 28 tools for portfolio management, trading (market/limit/stop orders), pies, dividends, market data, and analytics. Built-in rate limiting."
+        surrounding_text: >-
+          - [KyuRish/trading212-mcp-server](https://github.com/KyuRish/trading212-mcp-server) [![trading212-mcp-server
+          MCP
+          server](https://glama.ai/mcp/servers/@KyuRish/trading212-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/@KyuRish/trading212-mcp-server)
+          🐍 ☁️ - Trading 212 API integration with 28 tools for portfolio management, trading (market/limit/stop
+          orders), pies, dividends, market data, and analytics. Built-in rate limiting.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: KyuRish/trading212-mcp-server
     html_url: https://github.com/KyuRish/trading212-mcp-server
-    created_at: "2026-02-03T19:18:37Z"
-    pushed_at: "2026-06-17T20:55:34Z"
-    description: MCP server for Trading 212 - portfolio analytics, order management, pies, dividends. Works with Claude, ChatGPT, Cursor, Windsurf.
+    created_at: '2026-02-03T19:18:37Z'
+    pushed_at: '2026-06-17T20:55:34Z'
+    description: >-
+      MCP server for Trading 212 - portfolio analytics, order management, pies, dividends. Works with Claude, ChatGPT,
+      Cursor, Windsurf.
     homepage: null
     topics:
       - ai-tools
@@ -48,13 +55,17 @@ metadata:
       - stocks
       - trading
       - trading212
-    last_checked_at: "2026-07-30T05:06:02.148Z"
+    last_checked_at: '2026-07-30T05:06:02.148Z'
     readme:
-      fetched_at: "2026-07-30T05:06:02.148Z"
+      fetched_at: '2026-07-30T05:06:02.148Z'
       bytes: 6988
 insights:
-  summary: An MCP server that connects AI assistants to Trading 212's brokerage API for portfolio analytics, order management, and dividend tracking.
-  why_it_matters: Developers can integrate their AI coding assistants with real-time trading data and actions, enabling natural language control over brokerage operations.
+  summary: >-
+    An MCP server that connects AI assistants to Trading 212's brokerage API for portfolio analytics, order management,
+    and dividend tracking.
+  why_it_matters: >-
+    Developers can integrate their AI coding assistants with real-time trading data and actions, enabling natural
+    language control over brokerage operations.
   mental_damage: Now your AI can day-trade your portfolio while you debug production incidents.
   tags:
     - mcp-server
@@ -65,31 +76,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a domain-specific MCP server whose primary identity is providing Trading 212 integration via the Model Context Protocol.
+  reason: >-
+    This is a domain-specific MCP server whose primary identity is providing Trading 212 integration via the Model
+    Context Protocol.
   evidence:
     - Repo description explicitly states it is an MCP server for Trading 212
     - README details 32 tools covering Trading 212 API with MCP compatibility
     - Works with multiple MCP-compatible clients (Claude, Cursor, etc.)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.626Z"
+    updated_at: '2026-05-06T22:12:15.626Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:02.148Z"
+    updated_at: '2026-07-30T05:06:02.148Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:14:31.702Z"
+    updated_at: '2026-07-21T16:14:31.702Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -102,7 +116,9 @@ processing:
       input_hash: sha256:17f24ab8121e256cdb615a4cbc71f94b674df5e4fbcff68150d9aea306fc9769
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a domain-specific MCP server whose primary identity is providing Trading 212 integration via the Model Context Protocol.
+      decision_reason: >-
+        This is a domain-specific MCP server whose primary identity is providing Trading 212 integration via the Model
+        Context Protocol.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Trading 212
         - README details 32 tools covering Trading 212 API with MCP compatibility
@@ -110,6 +126,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server for Trading 212, not merely an extension to another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server for Trading 212, not
+        merely an extension to another assistant.
       review_reason: null
       review_resume_lifecycle: null

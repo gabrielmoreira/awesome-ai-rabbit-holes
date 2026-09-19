@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__rdanieli__tentra-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,17 @@ provenance:
           - 📐 <a name="architecture-and-design"></a>Architecture & Design
         anchor_text: rdanieli/tentra-mcp
         extracted_url: https://github.com/rdanieli/tentra-mcp
-        surrounding_text: "- [rdanieli/tentra-mcp](https://github.com/rdanieli/tentra-mcp) [![rdanieli/tentra-mcp MCP server](https://glama.ai/mcp/servers/rdanieli/tentra-mcp/badges/score.svg)](https://glama.ai/mcp/servers/rdanieli/tentra-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - AI-native architecture platform for engineering teams. Describe a system in natural language (e.g. \"payment service with Stripe, Kafka, PostgreSQL\") → get an interactive typed diagram with 167 cloud components → export to 14 production frameworks (Java Spring Boot, Python FastAPI, Go chi, Rust Axum, .NET, Kotlin Ktor, Ruby Rails, Elixir Phoenix, Docker Compose, Terraform, Mermaid, ADR, and more). Drift detection (`sync_architecture`) scores saved diagrams against live code 0–100 with a structured diff. 9 quality-lint rules catch orphans, SPOFs, god services. Also includes a secondary persistent code-graph layer for AI coding agents (free offline via `npx tentra-mcp --local init`). Agent-as-LLM pattern — zero LLM cost on our side, zero API key on yours. 35 MCP tools. Works in Cursor, Claude Code, Codex, Windsurf."
+        surrounding_text: >-
+          - [rdanieli/tentra-mcp](https://github.com/rdanieli/tentra-mcp) [![rdanieli/tentra-mcp MCP
+          server](https://glama.ai/mcp/servers/rdanieli/tentra-mcp/badges/score.svg)](https://glama.ai/mcp/servers/rdanieli/tentra-mcp)
+          📇 ☁️ 🏠 🍎 🪟 🐧 - AI-native architecture platform for engineering teams. Describe a system in natural
+          language (e.g. "payment service with Stripe, Kafka, PostgreSQL") → get an interactive typed diagram with 167
+          cloud components → export to 14 production frameworks (Java Spring Boot, Python FastAPI, Go chi, Rust Axum,
+          .NET, Kotlin Ktor, Ruby Rails, Elixir Phoenix, Docker Compose, Terraform, Mermaid, ADR, and more). Drift
+          detection (`sync_architecture`) scores saved diagrams against live code 0–100 with a structured diff. 9
+          quality-lint rules catch orphans, SPOFs, god services. Also includes a secondary persistent code-graph layer
+          for AI coding agents (free offline via `npx tentra-mcp --local init`). Agent-as-LLM pattern — zero LLM cost on
+          our side, zero API key on yours. 35 MCP tools. Works in Cursor, Claude Code, Codex, Windsurf.
         confidence: high
 metadata:
   github:
@@ -30,9 +40,11 @@ metadata:
     archived: false
     full_name: rdanieli/tentra-mcp
     html_url: https://github.com/rdanieli/tentra-mcp
-    created_at: "2026-04-18T12:46:54Z"
-    pushed_at: "2026-06-11T18:48:42Z"
-    description: Tentra MCP — memory for AI coding agents. Persistent code graph + AI architecture diagrams. 32 MCP tools. Works in Cursor, Claude Code, Codex, Windsurf.
+    created_at: '2026-04-18T12:46:54Z'
+    pushed_at: '2026-06-11T18:48:42Z'
+    description: >-
+      Tentra MCP — memory for AI coding agents. Persistent code graph + AI architecture diagrams. 32 MCP tools. Works in
+      Cursor, Claude Code, Codex, Windsurf.
     homepage: https://trytentra.com
     topics:
       - agent-memory
@@ -50,13 +62,17 @@ metadata:
       - tree-sitter
       - typescript
       - windsurf
-    last_checked_at: "2026-07-20T16:42:44.264Z"
+    last_checked_at: '2026-07-20T16:42:44.264Z'
     readme:
-      fetched_at: "2026-07-20T16:42:44.264Z"
+      fetched_at: '2026-07-20T16:42:44.264Z'
       bytes: 7690
 insights:
-  summary: Tentra MCP is a memory server providing persistent code graphs and AI architecture diagrams via 32 MCP tools for AI coding agents.
-  why_it_matters: It gives coding agents long-term structural memory of codebases, reducing context loss and improving agent reasoning across sessions.
+  summary: >-
+    Tentra MCP is a memory server providing persistent code graphs and AI architecture diagrams via 32 MCP tools for AI
+    coding agents.
+  why_it_matters: >-
+    It gives coding agents long-term structural memory of codebases, reducing context loss and improving agent reasoning
+    across sessions.
   mental_damage: Another layer to bolt onto your agent stack so your AI can finally remember what it broke five minutes ago.
   tags:
     - mcp
@@ -65,31 +81,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Tentra MCP is an MCP server offering memory and code graph capabilities as its core product, making it MCP infrastructure rather than an extension or agent.
+  reason: >-
+    Tentra MCP is an MCP server offering memory and code graph capabilities as its core product, making it MCP
+    infrastructure rather than an extension or agent.
   evidence:
-    - "Repo description: 'Tentra MCP — memory for AI coding agents. Persistent code graph + AI architecture diagrams. 32 MCP tools.'"
+    - >-
+      Repo description: 'Tentra MCP — memory for AI coding agents. Persistent code graph + AI architecture diagrams. 32
+      MCP tools.'
     - Lists MCP, model-context-protocol, and persistent-context as topics.
-    - "Source-list context: listed in awesome-mcp-servers under Server Implementations > Architecture & Design."
+    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations > Architecture & Design.'
 placement:
-  primary_category: mcp
-  section: Generic Servers & Middleware
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.645Z"
+    updated_at: '2026-05-06T22:12:15.645Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:44.264Z"
+    updated_at: '2026-07-20T16:42:44.264Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:57:11.889Z"
+    updated_at: '2026-05-12T15:57:11.889Z'
     cause: null
     next_retry_at: null
     attempts: 2

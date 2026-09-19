@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dan1d__dolar-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: dan1d/dolar-mcp
         extracted_url: https://github.com/dan1d/dolar-mcp
-        surrounding_text: "- [dan1d/dolar-mcp](https://github.com/dan1d/dolar-mcp) [![dolar-mcp MCP server](https://glama.ai/mcp/servers/dan1d/dolar-mcp/badges/score.svg)](https://glama.ai/mcp/servers/dan1d/dolar-mcp) 📇 ☁️ - Argentine exchange rates for AI agents via DolarAPI. Dollar blue, oficial, MEP, CCL, crypto, tarjeta — plus currency conversion and spread calculator."
+        surrounding_text: >-
+          - [dan1d/dolar-mcp](https://github.com/dan1d/dolar-mcp) [![dolar-mcp MCP
+          server](https://glama.ai/mcp/servers/dan1d/dolar-mcp/badges/score.svg)](https://glama.ai/mcp/servers/dan1d/dolar-mcp)
+          📇 ☁️ - Argentine exchange rates for AI agents via DolarAPI. Dollar blue, oficial, MEP, CCL, crypto, tarjeta —
+          plus currency conversion and spread calculator.
         confidence: high
 metadata:
   github:
@@ -30,14 +34,14 @@ metadata:
     archived: false
     full_name: dan1d/dolar-mcp
     html_url: https://github.com/dan1d/dolar-mcp
-    created_at: "2026-03-08T21:36:25Z"
-    pushed_at: "2026-03-09T00:48:27Z"
+    created_at: '2026-03-08T21:36:25Z'
+    pushed_at: '2026-03-09T00:48:27Z'
     description: Argentine exchange rates MCP server. Dollar blue, oficial, CCL, crypto and all currencies via DolarAPI.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:33.549Z"
+    last_checked_at: '2026-09-14T04:13:33.549Z'
     readme:
-      fetched_at: "2026-09-14T04:13:33.549Z"
+      fetched_at: '2026-09-14T04:13:33.549Z'
       bytes: 3975
 insights:
   summary: An MCP server providing real-time Argentine exchange rates (DolarAPI) for AI agents.
@@ -59,24 +63,25 @@ curation:
     - Already listed in awesome-mcp-servers under Finance & Fintech
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.609Z"
+    updated_at: '2026-05-06T22:12:15.609Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:33.549Z"
+    updated_at: '2026-09-14T04:13:33.549Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:49:39.562Z"
+    updated_at: '2026-07-21T15:49:39.562Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +94,9 @@ processing:
       input_hash: sha256:f626351d9164996b2b3ad01db2cc96a821b9d14db8a7c202652362a264d6c752
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server providing domain-specific financial data, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is an MCP-first server providing domain-specific financial data, fitting the MCP Servers & Tooling
+        category.
       decision_evidence:
         - Repo description explicitly states it is an Argentine exchange rates MCP server
         - README confirms it is an MCP server with tools for currency conversion and rate queries
@@ -97,6 +104,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

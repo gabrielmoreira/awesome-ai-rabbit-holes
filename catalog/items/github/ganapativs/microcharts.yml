@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ganapativs__microcharts__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-30T05:05:26.992Z"
+      discovered_at: '2026-07-30T05:05:26.992Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 📊 <a name="data-visualization"></a>Data Visualization
         anchor_text: ganapativs/microcharts
         extracted_url: https://github.com/ganapativs/microcharts
-        surrounding_text: "- [ganapativs/microcharts](https://github.com/ganapativs/microcharts/tree/main/packages/mcp) [![ganapativs/microcharts MCP server](https://glama.ai/mcp/servers/ganapativs/microcharts/badges/score.svg)](https://glama.ai/mcp/servers/ganapativs/microcharts) 📇 🏠 🍎 🪟 🐧 - Word-sized charts (sparklines, bars, bullets — 106 types) rendered to self-contained SVG with generated alt text. Three tools: find the right chart for a question, get its wiring, render it. Works in chat surfaces that can't run React. Install via `npx -y @microcharts/mcp`."
+        surrounding_text: >-
+          - [ganapativs/microcharts](https://github.com/ganapativs/microcharts/tree/main/packages/mcp)
+          [![ganapativs/microcharts MCP
+          server](https://glama.ai/mcp/servers/ganapativs/microcharts/badges/score.svg)](https://glama.ai/mcp/servers/ganapativs/microcharts)
+          📇 🏠 🍎 🪟 🐧 - Word-sized charts (sparklines, bars, bullets — 106 types) rendered to self-contained SVG with
+          generated alt text. Three tools: find the right chart for a question, get its wiring, render it. Works in chat
+          surfaces that can't run React. Install via `npx -y @microcharts/mcp`.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: ganapativs/microcharts
     html_url: https://github.com/ganapativs/microcharts
-    created_at: "2026-07-06T12:44:33Z"
-    pushed_at: "2026-09-02T21:03:51Z"
-    description: Word-sized charts for React, made for LLMs and humans — 106 chart types, zero runtime dependencies, accessible by default, RSC-safe.
+    created_at: '2026-07-06T12:44:33Z'
+    pushed_at: '2026-09-02T21:03:51Z'
+    description: >-
+      Word-sized charts for React, made for LLMs and humans — 106 chart types, zero runtime dependencies, accessible by
+      default, RSC-safe.
     homepage: https://microcharts.dev
     topics:
       - accessible
@@ -55,14 +63,20 @@ metadata:
       - svg
       - tiny-charts
       - visualization
-    last_checked_at: "2026-09-03T05:16:45.870Z"
+    last_checked_at: '2026-09-03T05:16:45.870Z'
     readme:
-      fetched_at: "2026-09-03T05:16:45.870Z"
+      fetched_at: '2026-09-03T05:16:45.870Z'
       bytes: 10615
 insights:
-  summary: Microcharts is a React library providing 106 tiny, zero-dependency SVG chart components optimized for LLM-generated text and inline use.
-  why_it_matters: It enables developers to embed accessible, self-describing charts directly in AI-generated replies, UIs, or documents without runtime bloat.
-  mental_damage: Another SVG chart lib that makes you question whether your KPI cards need a 200-line Sparkline just to feel AI-native.
+  summary: >-
+    Microcharts is a React library providing 106 tiny, zero-dependency SVG chart components optimized for LLM-generated
+    text and inline use.
+  why_it_matters: >-
+    It enables developers to embed accessible, self-describing charts directly in AI-generated replies, UIs, or
+    documents without runtime bloat.
+  mental_damage: >-
+    Another SVG chart lib that makes you question whether your KPI cards need a 200-line Sparkline just to feel
+    AI-native.
   tags:
     - react
     - charts
@@ -71,32 +85,31 @@ insights:
     - accessible
   confidence: high
 curation:
-  status: included
-  reason: Microcharts is a code-first React SDK for embedding domain-specific chart components, making it a framework/SDK rather than an assistant, extension, or app builder.
+  status: pending
+  reason: 'Definitive manual audit: React SVG chart component library; not an AI tool.'
   evidence:
-    - "Repo description: 'Word-sized charts for React, made for LLMs and humans — 106 chart types, zero runtime dependencies'"
-    - "README: 'Every chart imports from its own subpath... you only ship what you use' and 'Import the stylesheet once at the root of your app'"
-    - Primary use is importing and scripting against the library as reusable UI components in React code
+    - Manual review, 2026-09-19
 placement:
-  primary_category: ai-frameworks
-  section: Workflow / Graph Engines
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (156) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-07-30T05:05:26.994Z"
+    updated_at: '2026-07-30T05:05:26.994Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:45.870Z"
+    updated_at: '2026-09-03T05:16:45.870Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-03T05:20:49.472Z"
+    updated_at: '2026-09-03T05:20:49.472Z'
     cause: null
     next_retry_at: null
     classification:
@@ -106,15 +119,23 @@ processing:
       input_hash: sha256:b065b46ff5400a0a5d3a5107a015d45bb61c5cb7bfc6d7fc1d186c00c19c5140
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: Microcharts is a code-first React SDK for embedding domain-specific chart components, making it a framework/SDK rather than an assistant, extension, or app builder.
+      decision_reason: >-
+        Microcharts is a code-first React SDK for embedding domain-specific chart components, making it a framework/SDK
+        rather than an assistant, extension, or app builder.
       decision_evidence:
-        - "Repo description: 'Word-sized charts for React, made for LLMs and humans — 106 chart types, zero runtime dependencies'"
-        - "README: 'Every chart imports from its own subpath... you only ship what you use' and 'Import the stylesheet once at the root of your app'"
+        - >-
+          Repo description: 'Word-sized charts for React, made for LLMs and humans — 106 chart types, zero runtime
+          dependencies'
+        - >-
+          README: 'Every chart imports from its own subpath... you only ship what you use' and 'Import the stylesheet
+          once at the root of your app'
         - Primary use is importing and scripting against the library as reusable UI components in React code
       category_candidates:
         - ai-frameworks
         - ai-dev-extensions
-      contrastive_reason: Choose ai-frameworks over ai-dev-extensions because developers import and script against Microcharts as a reusable UI library rather than using it to augment another coding assistant or editor with host capabilities.
+      contrastive_reason: >-
+        Choose ai-frameworks over ai-dev-extensions because developers import and script against Microcharts as a
+        reusable UI library rather than using it to augment another coding assistant or editor with host capabilities.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__firefly__ai__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,10 +19,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Firefly
         extracted_url: https://firefly.ai
-        surrounding_text: "- [gofireflyio/firefly-mcp](https://github.com/gofireflyio/firefly-mcp) 🎖️ 📇 ☁️ - Integrates, discovers, manages, and codifies cloud resources with [Firefly](https://firefly.ai)."
+        surrounding_text: >-
+          - [gofireflyio/firefly-mcp](https://github.com/gofireflyio/firefly-mcp) 🎖️ 📇 ☁️ - Integrates, discovers,
+          manages, and codifies cloud resources with [Firefly](https://firefly.ai).
         confidence: high
     - id: discovery__www__firefly__ai__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,7 +37,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Firefly
         extracted_url: https://firefly.ai
-        surrounding_text: "- [gofireflyio/firefly-mcp](https://github.com/gofireflyio/firefly-mcp) 🎖️ 📇 ☁️ - Integrates, discovers, manages, and codifies cloud resources with [Firefly](https://firefly.ai)."
+        surrounding_text: >-
+          - [gofireflyio/firefly-mcp](https://github.com/gofireflyio/firefly-mcp) 🎖️ 📇 ☁️ - Integrates, discovers,
+          manages, and codifies cloud resources with [Firefly](https://firefly.ai).
         confidence: high
 metadata:
   github:
@@ -53,8 +57,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-driven platform that automates cloud infrastructure-as-code (IaC), drift management, and disaster recovery through agentic workflows.
-  why_it_matters: It provides a way to manage complex cloud operations and achieve near-instant environment recovery using autonomous agents.
+  summary: >-
+    An AI-driven platform that automates cloud infrastructure-as-code (IaC), drift management, and disaster recovery
+    through agentic workflows.
+  why_it_matters: >-
+    It provides a way to manage complex cloud operations and achieve near-instant environment recovery using autonomous
+    agents.
   mental_damage: Now your primary defense against a rogue AI agent is simply a different, potentially more aggressive AI agent.
   tags:
     - cloud-ops
@@ -65,20 +73,23 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It operates as a control plane for coordinating AI agents to manage and recover cloud infrastructure via agentic workflows.
+  reason: >-
+    It operates as a control plane for coordinating AI agents to manage and recover cloud infrastructure via agentic
+    workflows.
   evidence:
     - The product describes using 'Agentic Workflows' to turn static automation into dynamic cloud operations.
     - It positions itself as an operated platform for managing cloud assets, drift, and disaster recovery.
 placement:
   primary_category: agent-orchestration
-  section: Vertical Orchestration Platforms
+  secondary_categories: []
+  section: Domain & Enterprise Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-08-27T06:11:05.348Z"
+    updated_at: '2026-08-27T06:11:05.348Z'
     cause: null
     next_retry_at: null
     attempts: 4
@@ -91,19 +102,23 @@ processing:
       input_hash: sha256:3bc7e0dbdc8bb84279fcd8d5fc01467eb496a6fa94a5a6bfb001b4627fa32c12
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: It operates as a control plane for coordinating AI agents to manage and recover cloud infrastructure via agentic workflows.
+      decision_reason: >-
+        It operates as a control plane for coordinating AI agents to manage and recover cloud infrastructure via agentic
+        workflows.
       decision_evidence:
         - The product describes using 'Agentic Workflows' to turn static automation into dynamic cloud operations.
         - It positions itself as an operated platform for managing cloud assets, drift, and disaster recovery.
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because its core identity is a control plane for cloud-wide operational workflows rather than a tool for editing application source code.
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because its core identity is a control plane for cloud-wide
+        operational workflows rather than a tool for editing application source code.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.965Z"
+    updated_at: '2026-07-21T15:20:21.965Z'
     cause: null
     next_retry_at: null
   stars:

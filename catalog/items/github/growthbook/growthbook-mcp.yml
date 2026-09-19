@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__growthbook__growthbook-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🧮 <a name="data-science-tools"></a>Data Science Tools
         anchor_text: growthbook/growthbook-mcp
         extracted_url: https://github.com/growthbook/growthbook-mcp
-        surrounding_text: "- [growthbook/growthbook-mcp](https://github.com/growthbook/growthbook-mcp) 🎖️ 📇 🏠 🪟 🐧 🍎 — Tools for creating and interacting with GrowthBook feature flags and experiments."
+        surrounding_text: >-
+          - [growthbook/growthbook-mcp](https://github.com/growthbook/growthbook-mcp) 🎖️ 📇 🏠 🪟 🐧 🍎 — Tools for
+          creating and interacting with GrowthBook feature flags and experiments.
         confidence: high
     - id: discovery__github__growthbook__growthbook-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +37,10 @@ provenance:
           - Official Servers
         anchor_text: GrowthBook
         extracted_url: https://github.com/growthbook/growthbook-mcp
-        surrounding_text: "- **[GrowthBook](https://github.com/growthbook/growthbook-mcp)** — Create and read feature flags, review experiments, generate flag types, search docs, and interact with GrowthBook's feature flagging and experimentation platform."
+        surrounding_text: >-
+          - **[GrowthBook](https://github.com/growthbook/growthbook-mcp)** — Create and read feature flags, review
+          experiments, generate flag types, search docs, and interact with GrowthBook's feature flagging and
+          experimentation platform.
         confidence: high
 metadata:
   github:
@@ -45,8 +50,8 @@ metadata:
     archived: false
     full_name: growthbook/growthbook-mcp
     html_url: https://github.com/growthbook/growthbook-mcp
-    created_at: "2025-05-01T16:35:36Z"
-    pushed_at: "2026-08-31T16:20:07Z"
+    created_at: '2025-05-01T16:35:36Z'
+    pushed_at: '2026-08-31T16:20:07Z'
     description: Official GrowthBook MCP server for creating flags, getting experiments, and more.
     homepage: https://docs.growthbook.io/integrations/mcp
     topics:
@@ -54,13 +59,15 @@ metadata:
       - feature-flags
       - mcp
       - mcp-server
-    last_checked_at: "2026-09-03T05:16:55.451Z"
+    last_checked_at: '2026-09-03T05:16:55.451Z'
     readme:
-      fetched_at: "2026-09-03T05:16:55.451Z"
+      fetched_at: '2026-09-03T05:16:55.451Z'
       bytes: 8837
 insights:
   summary: Official GrowthBook MCP server for interacting with feature flags and experiments via the Model Context Protocol.
-  why_it_matters: Lets developers query and manage GrowthBook feature flags and experiments directly from their LLM client or MCP-enabled tools.
+  why_it_matters: >-
+    Lets developers query and manage GrowthBook feature flags and experiments directly from their LLM client or
+    MCP-enabled tools.
   mental_damage: Now your AI can flip feature flags while you’re not looking, and you’ll only find out when production is on fire.
   tags:
     - mcp-server
@@ -71,31 +78,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose primary identity is providing GrowthBook integration via MCP, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product is explicitly an MCP server whose primary identity is providing GrowthBook integration via MCP, fitting
+    the MCP Servers & Tooling category.
   evidence:
     - Repo description states it is the 'Official GrowthBook MCP server'
     - README confirms it enables interaction with GrowthBook from LLM clients via MCP
     - Listed in awesome-mcp-servers under 'Official Servers' and 'Data Science Tools'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.586Z"
+    updated_at: '2026-05-06T22:12:15.586Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:55.451Z"
+    updated_at: '2026-09-03T05:16:55.451Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:04:26.140Z"
+    updated_at: '2026-07-21T16:04:26.140Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -108,7 +117,9 @@ processing:
       input_hash: sha256:f486147d5a7a35e222cb3bcc1bfbab6b5dd56c21b2b8b7b10472d1049650cef4
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server whose primary identity is providing GrowthBook integration via MCP, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product is explicitly an MCP server whose primary identity is providing GrowthBook integration via MCP,
+        fitting the MCP Servers & Tooling category.
       decision_evidence:
         - Repo description states it is the 'Official GrowthBook MCP server'
         - README confirms it enables interaction with GrowthBook from LLM clients via MCP
@@ -116,6 +127,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

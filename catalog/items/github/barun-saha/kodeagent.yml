@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__barun-saha__kodeagent__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-08-20T04:18:00.401Z"
+      discovered_at: '2026-08-20T04:18:00.401Z'
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -19,7 +19,9 @@ provenance:
           - Core Frameworks
         anchor_text: KodeAgent
         extracted_url: https://github.com/barun-saha/kodeagent
-        surrounding_text: "| [KodeAgent](https://github.com/barun-saha/kodeagent) | 39 | Python | Apache-2.0 | 2026-08 | Minimal agent engine, deliberately small |"
+        surrounding_text: >-
+          | [KodeAgent](https://github.com/barun-saha/kodeagent) | 39 | Python | Apache-2.0 | 2026-08 | Minimal agent
+          engine, deliberately small |
         confidence: high
 metadata:
   github:
@@ -29,8 +31,8 @@ metadata:
     archived: false
     full_name: barun-saha/kodeagent
     html_url: https://github.com/barun-saha/kodeagent
-    created_at: "2025-04-27T10:36:40Z"
-    pushed_at: "2026-08-01T12:17:57Z"
+    created_at: '2025-04-27T10:36:40Z'
+    pushed_at: '2026-08-01T12:17:57Z'
     description: The minimal AI agent engine
     homepage: https://kodeagent.readthedocs.io/en/latest/
     topics:
@@ -50,12 +52,14 @@ metadata:
       - planning
       - python
       - react-agent
-    last_checked_at: "2026-09-07T04:13:31.426Z"
+    last_checked_at: '2026-09-07T04:13:31.426Z'
     readme:
-      fetched_at: "2026-09-07T04:13:31.426Z"
+      fetched_at: '2026-09-07T04:13:31.426Z'
       bytes: 19129
 insights:
-  summary: KodeAgent is a minimal AI agent engine that provides a reasoning core with ReAct, CodeAct, and function calling support.
+  summary: >-
+    KodeAgent is a minimal AI agent engine that provides a reasoning core with ReAct, CodeAct, and function calling
+    support.
   why_it_matters: It lets developers build lightweight, LLM-agnostic agents without framework overhead.
   mental_damage: Yet another agent engine promising minimalism while quietly adding to the paralysis of choice in AI tooling.
   tags:
@@ -67,29 +71,30 @@ curation:
   status: included
   reason: KodeAgent is a code-first SDK for building AI agents, not a standalone assistant or orchestration platform.
   evidence:
-    - "Repo description: 'The minimal AI agent engine'"
-    - "README: 'KodeAgent is a frameworkless, minimalistic approach to building AI agents'"
+    - 'Repo description: ''The minimal AI agent engine'''
+    - 'README: ''KodeAgent is a frameworkless, minimalistic approach to building AI agents'''
     - Built on LiteLLM, designed to be imported and used as a reasoning core in larger systems
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  secondary_categories: []
+  section: LLM & Agent SDKs
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-08-20T04:18:00.403Z"
+    updated_at: '2026-08-20T04:18:00.403Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:31.426Z"
+    updated_at: '2026-09-07T04:13:31.426Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T09:28:09.065Z"
+    updated_at: '2026-08-27T09:28:09.065Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -102,13 +107,15 @@ processing:
       disagreement: false
       decision_reason: KodeAgent is a code-first SDK for building AI agents, not a standalone assistant or orchestration platform.
       decision_evidence:
-        - "Repo description: 'The minimal AI agent engine'"
-        - "README: 'KodeAgent is a frameworkless, minimalistic approach to building AI agents'"
+        - 'Repo description: ''The minimal AI agent engine'''
+        - 'README: ''KodeAgent is a frameworkless, minimalistic approach to building AI agents'''
         - Built on LiteLLM, designed to be imported and used as a reasoning core in larger systems
       category_candidates:
         - ai-frameworks
         - coding-agents
-      contrastive_reason: Choose ai-frameworks over coding-agents because KodeAgent is primarily imported as a library to build agents, not a direct coding assistant that edits code or repos.
+      contrastive_reason: >-
+        Choose ai-frameworks over coding-agents because KodeAgent is primarily imported as a library to build agents,
+        not a direct coding assistant that edits code or repos.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

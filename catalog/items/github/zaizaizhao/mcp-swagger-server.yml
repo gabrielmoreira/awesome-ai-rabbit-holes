@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__zaizaizhao__mcp-swagger-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: zaizaizhao/mcp-swagger-server
         extracted_url: https://github.com/zaizaizhao/mcp-swagger-server
-        surrounding_text: "- [zaizaizhao/mcp-swagger-server](https://github.com/zaizaizhao/mcp-swagger-server) 📇 ☁️ 🏠 - A Model Context Protocol (MCP) server that converts OpenAPI/Swagger specifications to MCP format, enabling AI assistants to interact with REST APIs through standardized protocol."
+        surrounding_text: >-
+          - [zaizaizhao/mcp-swagger-server](https://github.com/zaizaizhao/mcp-swagger-server) 📇 ☁️ 🏠 - A Model Context
+          Protocol (MCP) server that converts OpenAPI/Swagger specifications to MCP format, enabling AI assistants to
+          interact with REST APIs through standardized protocol.
         confidence: high
 metadata:
   github:
@@ -30,10 +33,10 @@ metadata:
     archived: false
     full_name: zaizaizhao/mcp-swagger-server
     html_url: https://github.com/zaizaizhao/mcp-swagger-server
-    created_at: "2025-06-15T12:43:01Z"
-    pushed_at: "2026-07-15T13:10:53Z"
+    created_at: '2025-06-15T12:43:01Z'
+    pushed_at: '2026-07-15T13:10:53Z'
     description: MCP Swagger Server 将任何符合 OpenAPI/Swagger 规范的 REST API 转换为 Model Context Protocol (MCP) 格式，让 AI 助手能够理解和调用您的 API。
-    homepage: ""
+    homepage: ''
     topics:
       - mcp
       - mcpserver
@@ -41,13 +44,17 @@ metadata:
       - openapi-mcp
       - swagger
       - swagger-mcp
-    last_checked_at: "2026-07-21T15:21:25.149Z"
+    last_checked_at: '2026-07-21T15:21:25.149Z'
     readme:
-      fetched_at: "2026-07-21T15:21:25.149Z"
+      fetched_at: '2026-07-21T15:21:25.149Z'
       bytes: 6473
 insights:
-  summary: MCP Swagger Server is a TypeScript CLI tool that converts OpenAPI/Swagger specifications into Model Context Protocol (MCP) servers to expose REST APIs as AI-callable tools.
-  why_it_matters: It lets developers quickly turn any documented REST API into an MCP-compatible service so AI assistants can discover and invoke endpoints without manual wrapper code.
+  summary: >-
+    MCP Swagger Server is a TypeScript CLI tool that converts OpenAPI/Swagger specifications into Model Context Protocol
+    (MCP) servers to expose REST APIs as AI-callable tools.
+  why_it_matters: >-
+    It lets developers quickly turn any documented REST API into an MCP-compatible service so AI assistants can discover
+    and invoke endpoints without manual wrapper code.
   mental_damage: Another layer of translation just to let an AI use your API—because direct HTTP calls were apparently too 2023.
   tags:
     - mcp
@@ -57,31 +64,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server implementation whose core function is protocol translation, making it MCP infrastructure rather than a coding assistant, extension, or framework.
+  reason: >-
+    The product is an MCP server implementation whose core function is protocol translation, making it MCP
+    infrastructure rather than a coding assistant, extension, or framework.
   evidence:
     - Repo description states it converts OpenAPI/Swagger REST APIs into MCP format for AI assistants
     - README positions it as a zero-config tool to turn REST APIs into AI-callable tools via MCP
     - Seen in awesome-mcp-servers under Developer Tools > Server Implementations
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.657Z"
+    updated_at: '2026-05-06T22:12:15.657Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:25.149Z"
+    updated_at: '2026-07-21T15:21:25.149Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:50:25.180Z"
+    updated_at: '2026-05-12T15:50:25.180Z'
     cause: null
     next_retry_at: null
     attempts: 1

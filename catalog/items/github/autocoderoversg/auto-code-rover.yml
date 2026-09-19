@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__autocoderoversg__auto-code-rover__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Open Source
         anchor_text: AutoCodeRover
         extracted_url: https://github.com/autocoderoversg/auto-code-rover
-        surrounding_text: "- **[AutoCodeRover](https://github.com/AutoCodeRoverSG/auto-code-rover)** `⭐ 3.1k` — Autonomous program improvement agent; patches real GitHub issues using code search and analysis."
+        surrounding_text: >-
+          - **[AutoCodeRover](https://github.com/AutoCodeRoverSG/auto-code-rover)** `⭐ 3.1k` — Autonomous program
+          improvement agent; patches real GitHub issues using code search and analysis.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,28 @@ metadata:
     archived: false
     full_name: AutoCodeRoverSG/auto-code-rover
     html_url: https://github.com/AutoCodeRoverSG/auto-code-rover
-    created_at: "2024-04-08T05:34:14Z"
-    pushed_at: "2025-04-24T07:58:24Z"
-    description: A project structure aware autonomous software engineer aiming for autonomous program improvement. Resolved 37.3% tasks (pass@1) in SWE-bench lite and 46.2% tasks (pass@1) in SWE-bench verified with each task costs less than $0.7.
-    homepage: ""
+    created_at: '2024-04-08T05:34:14Z'
+    pushed_at: '2025-04-24T07:58:24Z'
+    description: >-
+      A project structure aware autonomous software engineer aiming for autonomous program improvement. Resolved 37.3%
+      tasks (pass@1) in SWE-bench lite and 46.2% tasks (pass@1) in SWE-bench verified with each task costs less than
+      $0.7.
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-14T04:13:24.944Z"
+    last_checked_at: '2026-09-14T04:13:24.944Z'
     readme:
-      fetched_at: "2026-09-14T04:13:24.944Z"
+      fetched_at: '2026-09-14T04:13:24.944Z'
       bytes: 17836
 insights:
-  summary: An autonomous program improvement agent that resolves GitHub issues by combining LLMs with program structure-aware code search and statistical fault localization.
-  why_it_matters: It demonstrates state-of-the-art efficacy on SWE-bench benchmarks while keeping costs low, offering developers a practical path to automated bug fixing and feature addition.
-  mental_damage: Finally, an AI that can fix your bugs for less than the cost of a coffee—if only it could also explain why it broke them in the first place.
+  summary: >-
+    An autonomous program improvement agent that resolves GitHub issues by combining LLMs with program structure-aware
+    code search and statistical fault localization.
+  why_it_matters: >-
+    It demonstrates state-of-the-art efficacy on SWE-bench benchmarks while keeping costs low, offering developers a
+    practical path to automated bug fixing and feature addition.
+  mental_damage: >-
+    Finally, an AI that can fix your bugs for less than the cost of a coffee—if only it could also explain why it broke
+    them in the first place.
   tags:
     - autonomous-coding
     - bug-fixing
@@ -52,31 +63,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a primary coding assistant that directly reads, navigates, and patches codebases autonomously, fitting the core definition of a coding agent.
+  reason: >-
+    It is a primary coding assistant that directly reads, navigates, and patches codebases autonomously, fitting the
+    core definition of a coding agent.
   evidence:
     - Repo description explicitly calls it an 'autonomous software engineer' for program improvement
     - README highlights autonomous resolution of GitHub issues with concrete SWE-bench efficacy metrics
     - Source-list context places it in 'Terminal-native coding agents > Open Source'
 placement:
   primary_category: coding-agents
-  section: Terminal & CLI Agents
+  secondary_categories: []
+  section: Review, Testing & Repair
 lifecycle:
   status: promotion_candidate
   reason: Stars (3071) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.603Z"
+    updated_at: '2026-05-06T22:12:15.603Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:24.944Z"
+    updated_at: '2026-09-14T04:13:24.944Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:24:24.912Z"
+    updated_at: '2026-07-21T15:24:24.912Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +103,9 @@ processing:
       input_hash: sha256:434336e95e734e2be2f016d969ca131d748610d0eec0f622a711b3ff9c762a9e
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: It is a primary coding assistant that directly reads, navigates, and patches codebases autonomously, fitting the core definition of a coding agent.
+      decision_reason: >-
+        It is a primary coding assistant that directly reads, navigates, and patches codebases autonomously, fitting the
+        core definition of a coding agent.
       decision_evidence:
         - Repo description explicitly calls it an 'autonomous software engineer' for program improvement
         - README highlights autonomous resolution of GitHub issues with concrete SWE-bench efficacy metrics
@@ -97,6 +113,8 @@ processing:
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because the tool operates as a standalone autonomous agent for repo work rather than augmenting another assistant.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because the tool operates as a standalone autonomous agent for repo
+        work rather than augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

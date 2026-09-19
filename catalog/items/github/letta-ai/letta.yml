@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__letta-ai__letta__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,10 +19,10 @@ provenance:
           - MemGPT
         anchor_text: MemGPT
         extracted_url: https://github.com/cpacker/memgpt
-        surrounding_text: "## [MemGPT](https://github.com/cpacker/MemGPT)"
+        surrounding_text: '## [MemGPT](https://github.com/cpacker/MemGPT)'
         confidence: high
     - id: discovery__github__letta-ai__letta__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -34,10 +34,12 @@ provenance:
           - Other LLM Frameworks
         anchor_text: MemGPT
         extracted_url: https://github.com/cpacker/memgpt
-        surrounding_text: "- [MemGPT](https://github.com/cpacker/MemGPT): Teaching LLMs memory management for unbounded context ![GitHub Repo stars](https://img.shields.io/github/stars/cpacker/MemGPT?style=social)"
+        surrounding_text: >-
+          - [MemGPT](https://github.com/cpacker/MemGPT): Teaching LLMs memory management for unbounded context ![GitHub
+          Repo stars](https://img.shields.io/github/stars/cpacker/MemGPT?style=social)
         confidence: high
     - id: discovery__github__letta-ai__letta__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -49,7 +51,7 @@ provenance:
           - 推理 Inference
         anchor_text: MemGPT
         extracted_url: https://github.com/cpacker/memgpt
-        surrounding_text: "18. [MemGPT](https://github.com/cpacker/MemGPT): Create LLM agents with long-term memory and custom tools."
+        surrounding_text: '18. [MemGPT](https://github.com/cpacker/MemGPT): Create LLM agents with long-term memory and custom tools.'
         confidence: high
 metadata:
   github:
@@ -59,23 +61,29 @@ metadata:
     archived: false
     full_name: letta-ai/letta
     html_url: https://github.com/letta-ai/letta
-    created_at: "2023-10-11T07:38:37Z"
-    pushed_at: "2026-07-22T00:32:52Z"
-    description: "Platform for stateful agents: AI with advanced memory that can learn and self-improve over time."
+    created_at: '2023-10-11T07:38:37Z'
+    pushed_at: '2026-07-22T00:32:52Z'
+    description: 'Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.'
     homepage: https://docs.letta.com/
     topics:
       - ai
       - ai-agents
       - llm
       - llm-agent
-    last_checked_at: "2026-07-30T05:06:04.952Z"
+    last_checked_at: '2026-07-30T05:06:04.952Z'
     readme:
-      fetched_at: "2026-07-30T05:06:04.952Z"
+      fetched_at: '2026-07-30T05:06:04.952Z'
       bytes: 4715
 insights:
-  summary: Letta is an open-source platform and API for building stateful AI agents with advanced memory, self-improvement capabilities, and a local CLI tool for coding assistance.
-  why_it_matters: It provides developers with both a local CLI agent (Letta Code) for terminal-based coding and a full API/SDK to integrate stateful, memory-driven agents into custom applications.
-  mental_damage: Now you can worry about your local coding agent remembering past mistakes and 'self-improving' into a state of consciousness that judges your commit messages.
+  summary: >-
+    Letta is an open-source platform and API for building stateful AI agents with advanced memory, self-improvement
+    capabilities, and a local CLI tool for coding assistance.
+  why_it_matters: >-
+    It provides developers with both a local CLI agent (Letta Code) for terminal-based coding and a full API/SDK to
+    integrate stateful, memory-driven agents into custom applications.
+  mental_damage: >-
+    Now you can worry about your local coding agent remembering past mistakes and 'self-improving' into a state of
+    consciousness that judges your commit messages.
   tags:
     - agents
     - memory
@@ -85,35 +93,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The Letta Code CLI tool is positioned as a local terminal agent that helps you code and do tasks, fitting the Coding Agents category, while the broader API/SDK serves as infrastructure for building such agents.
+  reason: >-
+    The Letta Code CLI tool is positioned as a local terminal agent that helps you code and do tasks, fitting the Coding
+    Agents category, while the broader API/SDK serves as infrastructure for building such agents.
   evidence:
     - Repo description states it is a platform for building stateful agents with advanced memory.
     - README explicitly mentions 'Letta Code' CLI tool that 'help you code' and runs locally in the terminal.
     - Provides Python and TypeScript SDKs and an API for developers to build agents into applications.
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: ai-frameworks
+  secondary_categories: []
+  section: LLM & Agent SDKs
 lifecycle:
   status: promotion_candidate
   reason: Stars (22477) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.578Z"
+    updated_at: '2026-05-06T22:12:15.578Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:04.952Z"
+    updated_at: '2026-07-30T05:06:04.952Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

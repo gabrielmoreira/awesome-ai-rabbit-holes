@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__monkilabs__opencastle__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,11 @@ provenance:
           - Orchestrators & autonomous loops
         anchor_text: OpenCastle
         extracted_url: https://github.com/monkilabs/opencastle
-        surrounding_text: "- **[OpenCastle](https://github.com/monkilabs/opencastle)** `⭐ 42` — Multi-agent orchestration framework that turns AI coding assistants (Copilot, Cursor, Claude Code, OpenCode, Windsurf, Codex CLI) into 19 coordinated specialist agents. CLI-driven (`npx opencastle init`), with task decomposition, parallel work, and quality gates. MIT."
+        surrounding_text: >-
+          - **[OpenCastle](https://github.com/monkilabs/opencastle)** `⭐ 42` — Multi-agent orchestration framework that
+          turns AI coding assistants (Copilot, Cursor, Claude Code, OpenCode, Windsurf, Codex CLI) into 19 coordinated
+          specialist agents. CLI-driven (`npx opencastle init`), with task decomposition, parallel work, and quality
+          gates. MIT.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: monkilabs/opencastle
     html_url: https://github.com/monkilabs/opencastle
-    created_at: "2026-02-26T06:28:10Z"
-    pushed_at: "2026-07-30T23:41:31Z"
-    description: Multi agens orchestration setup for Github Copilot, Cursor, Claude Code, OpenCode, Windsurf, Codex and Antigravity.
+    created_at: '2026-02-26T06:28:10Z'
+    pushed_at: '2026-07-30T23:41:31Z'
+    description: >-
+      Multi agens orchestration setup for Github Copilot, Cursor, Claude Code, OpenCode, Windsurf, Codex and
+      Antigravity.
     homepage: http://www.opencastle.dev/
     topics:
       - ai
@@ -55,14 +61,20 @@ metadata:
       - orchestration-systems
       - vibe-coding
       - vibecoding
-    last_checked_at: "2026-08-03T05:17:07.139Z"
+    last_checked_at: '2026-08-03T05:17:07.139Z'
     readme:
-      fetched_at: "2026-08-03T05:17:07.139Z"
+      fetched_at: '2026-08-03T05:17:07.139Z'
       bytes: 6450
 insights:
-  summary: A CLI tool that sets up multi-agent orchestration by generating tailored agents, skills, and MCP server configurations for AI coding assistants including GitHub Copilot, Cursor, Claude Code, and others.
-  why_it_matters: It lets developers bootstrap a coordinated team of specialist agents inside their existing IDEs instead of relying on a single assistant to handle every task.
-  mental_damage: You now have the infrastructure to convene a panel of AI agents for a majority vote on your semicolon placement, which is definitely easier than just deciding yourself.
+  summary: >-
+    A CLI tool that sets up multi-agent orchestration by generating tailored agents, skills, and MCP server
+    configurations for AI coding assistants including GitHub Copilot, Cursor, Claude Code, and others.
+  why_it_matters: >-
+    It lets developers bootstrap a coordinated team of specialist agents inside their existing IDEs instead of relying
+    on a single assistant to handle every task.
+  mental_damage: >-
+    You now have the infrastructure to convene a panel of AI agents for a majority vote on your semicolon placement,
+    which is definitely easier than just deciding yourself.
   tags:
     - multi-agent
     - orchestration
@@ -72,35 +84,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is a runtime and CLI for coordinating multiple specialist agents across different IDEs, fitting the control-plane nature of agent orchestration.
+  reason: >-
+    The product's core identity is a runtime and CLI for coordinating multiple specialist agents across different IDEs,
+    fitting the control-plane nature of agent orchestration.
   evidence:
     - Repo description explicitly states 'Multi agents orchestration setup for Github Copilot, Cursor, Claude Code...'
     - README describes 'Convoy Engine' as a deterministic, crash-recoverable orchestrator for running agent teams.
     - Included in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous loops'.
 placement:
   primary_category: agent-orchestration
-  section: Multi-Agent Runtime Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.631Z"
+    updated_at: '2026-05-06T22:12:15.631Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:07.139Z"
+    updated_at: '2026-08-03T05:17:07.139Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

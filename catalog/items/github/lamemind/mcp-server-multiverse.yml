@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lamemind__mcp-server-multiverse__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: lamemind/mcp-server-multiverse
         extracted_url: https://github.com/lamemind/mcp-server-multiverse
-        surrounding_text: "- [lamemind/mcp-server-multiverse](https://github.com/lamemind/mcp-server-multiverse) 📇 🏠 🛠️ - A middleware server that enables multiple isolated instances of the same MCP servers to coexist independently with unique namespaces and configurations."
+        surrounding_text: >-
+          - [lamemind/mcp-server-multiverse](https://github.com/lamemind/mcp-server-multiverse) 📇 🏠 🛠️ - A middleware
+          server that enables multiple isolated instances of the same MCP servers to coexist independently with unique
+          namespaces and configurations.
         confidence: high
     - id: discovery__github__lamemind__mcp-server-multiverse__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -33,9 +36,12 @@ provenance:
         mode: parsed
         section_path:
           - 🛠️ Utilities
-        anchor_text: "@lamemind/mcp-server-multiverse"
+        anchor_text: '@lamemind/mcp-server-multiverse'
         extracted_url: https://github.com/lamemind/mcp-server-multiverse
-        surrounding_text: "-   **[@lamemind/mcp-server-multiverse](https://github.com/lamemind/mcp-server-multiverse)** [![GitHub stars](https://img.shields.io/github/stars/lamemind/mcp-server-multiverse?style=social)](https://github.com/lamemind/mcp-server-multiverse): Allows multiple isolated instances of MCP servers to coexist."
+        surrounding_text: >-
+          -   **[@lamemind/mcp-server-multiverse](https://github.com/lamemind/mcp-server-multiverse)** [![GitHub
+          stars](https://img.shields.io/github/stars/lamemind/mcp-server-multiverse?style=social)](https://github.com/lamemind/mcp-server-multiverse):
+          Allows multiple isolated instances of MCP servers to coexist.
         confidence: high
 metadata:
   github:
@@ -45,18 +51,24 @@ metadata:
     archived: false
     full_name: lamemind/mcp-server-multiverse
     html_url: https://github.com/lamemind/mcp-server-multiverse
-    created_at: "2025-01-29T15:22:06Z"
-    pushed_at: "2026-03-30T07:18:48Z"
-    description: A middleware server that enables multiple isolated instances of the same MCP servers to coexist independently with unique namespaces and configurations.
-    homepage: ""
+    created_at: '2025-01-29T15:22:06Z'
+    pushed_at: '2026-03-30T07:18:48Z'
+    description: >-
+      A middleware server that enables multiple isolated instances of the same MCP servers to coexist independently with
+      unique namespaces and configurations.
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:06:02.475Z"
+    last_checked_at: '2026-07-30T05:06:02.475Z'
     readme:
-      fetched_at: "2026-07-30T05:06:02.475Z"
+      fetched_at: '2026-07-30T05:06:02.475Z'
       bytes: 9216
 insights:
-  summary: A middleware server that enables multiple isolated instances of the same MCP servers to coexist independently with unique namespaces and configurations.
-  why_it_matters: Developers can run multiple instances of the same MCP server (e.g., MySQL, Git, filesystem) with separate configs, avoiding conflicts between projects or contexts.
+  summary: >-
+    A middleware server that enables multiple isolated instances of the same MCP servers to coexist independently with
+    unique namespaces and configurations.
+  why_it_matters: >-
+    Developers can run multiple instances of the same MCP server (e.g., MySQL, Git, filesystem) with separate configs,
+    avoiding conflicts between projects or contexts.
   mental_damage: Because one MCP server was never enough, but two might finally let you pretend you have your life together.
   tags:
     - mcp
@@ -67,31 +79,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the core product identity: this is a middleware server explicitly designed to manage MCP server instances, fitting the MCP Servers & Tooling category."
+  reason: >-
+    MCP is the core product identity: this is a middleware server explicitly designed to manage MCP server instances,
+    fitting the MCP Servers & Tooling category.
   evidence:
     - Repo description explicitly states it is a middleware server for MCP servers
     - README details features like isolated MCP server instances with unique namespaces/configs
     - Listed in awesome-mcp-list and awesome-mcp-servers under MCP-related sections
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.589Z"
+    updated_at: '2026-05-06T22:12:15.589Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:02.475Z"
+    updated_at: '2026-07-30T05:06:02.475Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:14:36.640Z"
+    updated_at: '2026-07-21T16:14:36.640Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,7 +119,9 @@ processing:
       input_hash: sha256:b38aadffc55440fa567e5e1f9e301b8324763817612a2896faffee046bdb759f
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the core product identity: this is a middleware server explicitly designed to manage MCP server instances, fitting the MCP Servers & Tooling category."
+      decision_reason: >-
+        MCP is the core product identity: this is a middleware server explicitly designed to manage MCP server
+        instances, fitting the MCP Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is a middleware server for MCP servers
         - README details features like isolated MCP server instances with unique namespaces/configs
@@ -112,6 +129,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is MCP middleware infrastructure, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is MCP middleware infrastructure, not
+        an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

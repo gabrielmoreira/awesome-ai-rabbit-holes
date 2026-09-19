@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__aws__amazon__com__q__developer__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,9 @@ provenance:
           - Code Completion
         anchor_text: Amazon Q Developer
         extracted_url: https://aws.amazon.com/q/developer
-        surrounding_text: "- **[Amazon Q Developer](https://aws.amazon.com/q/developer/)** – AI assistant for code completion, debugging, and AWS integration."
+        surrounding_text: >-
+          - **[Amazon Q Developer](https://aws.amazon.com/q/developer/)** – AI assistant for code completion, debugging,
+          and AWS integration.
         confidence: high
 metadata:
   github:
@@ -36,9 +38,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered coding assistant by AWS that provides code suggestions, chat, and agentic capabilities for software development tasks.
-  why_it_matters: It provides deep integration with AWS services and agentic capabilities for automating complex tasks like refactoring and software upgrades.
-  mental_damage: Because nothing says 'developer productivity' quite like delegating your entire software upgrade path to an AWS agent.
+  summary: >-
+    An AI-powered coding assistant by AWS that provides code suggestions, chat, and agentic capabilities for software
+    development tasks.
+  why_it_matters: >-
+    It provides deep integration with AWS services and agentic capabilities for automating complex tasks like
+    refactoring and software upgrades.
+  mental_damage: >-
+    Because nothing says 'developer productivity' quite like delegating your entire software upgrade path to an AWS
+    agent.
   tags:
     - aws
     - ide-extension
@@ -48,21 +56,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It functions as a standalone coding assistant with agentic capabilities that can read, write, and execute tasks, though it is primarily used via IDE extensions.
+  reason: >-
+    It functions as a standalone coding assistant with agentic capabilities that can read, write, and execute tasks,
+    though it is primarily used via IDE extensions.
   evidence:
     - Claims agentic capabilities for implementing features, documenting, testing, and refactoring code.
     - Available as plugins for JetBrains, VS Code, and Visual Studio.
     - Directly performs multi-step tasks like.NET porting and Java upgrades.
 placement:
   primary_category: coding-agents
-  section: null
+  secondary_categories: []
+  section: IDE-Native & Editor Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +82,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:25:30.114Z"
+    updated_at: '2026-07-20T15:25:30.114Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +95,9 @@ processing:
       input_hash: sha256:e39ea7c5dec50f4a3248c765a3c16d763d986d884d8a0ac5bd32aa32c8d8737a
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: It functions as a standalone coding assistant with agentic capabilities that can read, write, and execute tasks, though it is primarily used via IDE extensions.
+      decision_reason: >-
+        It functions as a standalone coding assistant with agentic capabilities that can read, write, and execute tasks,
+        though it is primarily used via IDE extensions.
       decision_evidence:
         - Claims agentic capabilities for implementing features, documenting, testing, and refactoring code.
         - Available as plugins for JetBrains, VS Code, and Visual Studio.
@@ -92,6 +105,9 @@ processing:
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because its core value proposition is the agentic ability to autonomously plan and execute complex, multi-step development tasks rather than just being a thin UI augmentation.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because its core value proposition is the agentic ability to
+        autonomously plan and execute complex, multi-step development tasks rather than just being a thin UI
+        augmentation.
       review_reason: null
       review_resume_lifecycle: null

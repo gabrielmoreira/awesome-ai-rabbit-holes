@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jo-inc__pi-mem__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-06-18T05:40:04.065Z"
+      discovered_at: '2026-06-18T05:40:04.065Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Agent infrastructure
         anchor_text: pi-mem
         extracted_url: https://github.com/jo-inc/pi-mem
-        surrounding_text: "- **[pi-mem](https://github.com/jo-inc/pi-mem)** `⭐ 62` — Plain-Markdown persistent memory for coding agents; long-term, daily, scratchpad, and searchable notes with zero dependencies on vector DBs. MIT."
+        surrounding_text: >-
+          - **[pi-mem](https://github.com/jo-inc/pi-mem)** `⭐ 62` — Plain-Markdown persistent memory for coding agents;
+          long-term, daily, scratchpad, and searchable notes with zero dependencies on vector DBs. MIT.
         confidence: high
 metadata:
   github:
@@ -30,9 +32,11 @@ metadata:
     archived: false
     full_name: jo-inc/pi-mem
     html_url: https://github.com/jo-inc/pi-mem
-    created_at: "2026-02-11T23:24:18Z"
-    pushed_at: "2026-07-21T17:26:10Z"
-    description: Plain-Markdown persistent memory for AI coding agents. Long-term facts, daily logs, scratchpad, and semantic search — works with pi, Claude Code, and any LLM agent.
+    created_at: '2026-02-11T23:24:18Z'
+    pushed_at: '2026-07-21T17:26:10Z'
+    description: >-
+      Plain-Markdown persistent memory for AI coding agents. Long-term facts, daily logs, scratchpad, and semantic
+      search — works with pi, Claude Code, and any LLM agent.
     homepage: https://www.npmjs.com/package/@jo-inc/pi-mem
     topics:
       - agent-memory
@@ -44,14 +48,20 @@ metadata:
       - memory
       - pi-coding-agent
       - typescript
-    last_checked_at: "2026-07-30T05:05:51.076Z"
+    last_checked_at: '2026-07-30T05:05:51.076Z'
     readme:
-      fetched_at: "2026-07-30T05:05:51.076Z"
+      fetched_at: '2026-07-30T05:05:51.076Z'
       bytes: 5181
 insights:
-  summary: A Markdown-based persistent memory system that provides long-term facts, daily logs, and semantic search for AI coding agents.
-  why_it_matters: It gives agents a durable, searchable memory layer to prevent context loss and maintain continuity across different coding sessions.
-  mental_damage: Because nothing says 'high-velocity developer' like managing a markdown-based diary for your autonomous coding agent.
+  summary: >-
+    A Markdown-based persistent memory system that provides long-term facts, daily logs, and semantic search for AI
+    coding agents.
+  why_it_matters: >-
+    It gives agents a durable, searchable memory layer to prevent context loss and maintain continuity across different
+    coding sessions.
+  mental_damage: >-
+    Because nothing says 'high-velocity developer' like managing a markdown-based diary for your autonomous coding
+    agent.
   tags:
     - memory
     - context-management
@@ -66,25 +76,26 @@ curation:
     - README specifies a structured memory layout (MEMORY.md, SCRATCHPAD.md, daily logs)
     - Designed specifically to inject context into agent system prompts
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-18T05:40:04.066Z"
+    updated_at: '2026-06-18T05:40:04.066Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:51.076Z"
+    updated_at: '2026-07-30T05:05:51.076Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-29T05:46:26.588Z"
+    updated_at: '2026-06-29T05:46:26.588Z'
     cause: null
     next_retry_at: null
     attempts: 1

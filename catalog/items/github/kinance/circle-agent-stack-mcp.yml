@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kinance__circle-agent-stack-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-08T05:39:05.247Z"
+      discovered_at: '2026-06-08T05:39:05.247Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kinance/circle-agent-stack-mcp
         extracted_url: https://github.com/kinance/circle-agent-stack-mcp
-        surrounding_text: "- [kinance/circle-agent-stack-mcp](https://github.com/kinance/circle-agent-stack-mcp) [![kinance/circle-agent-stack-mcp MCP server](https://glama.ai/mcp/servers/kinance/circle-agent-stack-mcp/badges/score.svg)](https://glama.ai/mcp/servers/kinance/circle-agent-stack-mcp) 📇 ☁️ - Circle Agent Stack for AI agents: create USDC wallets, set spend policies, send stablecoin, and pay x402-gated endpoints. Wraps the Circle CLI so auth stays out of the server. Six tools. `npx circle-agent-stack-mcp`"
+        surrounding_text: >-
+          - [kinance/circle-agent-stack-mcp](https://github.com/kinance/circle-agent-stack-mcp)
+          [![kinance/circle-agent-stack-mcp MCP
+          server](https://glama.ai/mcp/servers/kinance/circle-agent-stack-mcp/badges/score.svg)](https://glama.ai/mcp/servers/kinance/circle-agent-stack-mcp)
+          📇 ☁️ - Circle Agent Stack for AI agents: create USDC wallets, set spend policies, send stablecoin, and pay
+          x402-gated endpoints. Wraps the Circle CLI so auth stays out of the server. Six tools. `npx
+          circle-agent-stack-mcp`
         confidence: high
 metadata:
   github:
@@ -30,18 +36,22 @@ metadata:
     archived: false
     full_name: kinance/circle-agent-stack-mcp
     html_url: https://github.com/kinance/circle-agent-stack-mcp
-    created_at: "2026-05-31T09:02:45Z"
-    pushed_at: "2026-06-04T13:48:04Z"
+    created_at: '2026-05-31T09:02:45Z'
+    pushed_at: '2026-06-04T13:48:04Z'
     description: MCP server for Circle Agent Stack — wallet management, USDC transfers, and x402 nanopayments via tool calls
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:56.808Z"
+    last_checked_at: '2026-07-30T05:05:56.808Z'
     readme:
-      fetched_at: "2026-07-30T05:05:56.808Z"
+      fetched_at: '2026-07-30T05:05:56.808Z'
       bytes: 3136
 insights:
-  summary: An MCP server that enables AI agents to manage Circle wallets, transfer USDC, and execute x402 nanopayments via tool calls.
-  why_it_matters: It provides a way for agents to move beyond code manipulation and perform policy-governed, on-chain financial transactions.
+  summary: >-
+    An MCP server that enables AI agents to manage Circle wallets, transfer USDC, and execute x402 nanopayments via tool
+    calls.
+  why_it_matters: >-
+    It provides a way for agents to move beyond code manipulation and perform policy-governed, on-chain financial
+    transactions.
   mental_damage: Because now your coding assistant can actually run out of money if you forget to set a daily spend cap.
   tags:
     - mcp
@@ -52,31 +62,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server providing specific domain-driven tools (finance/crypto) to the Model Context Protocol ecosystem.
+  reason: >-
+    The product's primary identity is an MCP server providing specific domain-driven tools (finance/crypto) to the Model
+    Context Protocol ecosystem.
   evidence:
     - Repo description explicitly identifies it as an MCP server for Circle Agent Stack
     - README provides tool definitions for wallet creation, USDC transfers, and x402 payments
     - Configuration examples are provided specifically for MCP hosts like Claude Desktop and Claude Code
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-08T05:39:05.248Z"
+    updated_at: '2026-06-08T05:39:05.248Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:56.808Z"
+    updated_at: '2026-07-30T05:05:56.808Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-02T05:29:17.450Z"
+    updated_at: '2026-07-02T05:29:17.450Z'
     cause: null
     next_retry_at: null
     attempts: 1

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__corebasehq__coremcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: corebasehq/coremcp
         extracted_url: https://github.com/corebasehq/coremcp
-        surrounding_text: "- [corebasehq/coremcp](https://github.com/corebasehq/coremcp) [![coremcp](https://glama.ai/mcp/servers/CoreBaseHQ/coremcp/badges/score.svg)](https://glama.ai/mcp/servers/CoreBaseHQ/coremcp) 🏎️ ☁️ 🏠 - A secure, tunnel-native database bridge for AI agents. Connects localhost & on-premise databases (MSSQL, etc.) to LLMs with AST-based query safety and PII masking."
+        surrounding_text: >-
+          - [corebasehq/coremcp](https://github.com/corebasehq/coremcp)
+          [![coremcp](https://glama.ai/mcp/servers/CoreBaseHQ/coremcp/badges/score.svg)](https://glama.ai/mcp/servers/CoreBaseHQ/coremcp)
+          🏎️ ☁️ 🏠 - A secure, tunnel-native database bridge for AI agents. Connects localhost & on-premise databases
+          (MSSQL, etc.) to LLMs with AST-based query safety and PII masking.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: CoreBaseHQ/coremcp
     html_url: https://github.com/CoreBaseHQ/coremcp
-    created_at: "2026-02-11T18:06:13Z"
-    pushed_at: "2026-07-15T19:32:40Z"
-    description: "CoreMCP: Connect Legacy Databases to AI Agents via Model Context Protocol. Open-source bridge for LLM data analysis."
+    created_at: '2026-02-11T18:06:13Z'
+    pushed_at: '2026-07-15T19:32:40Z'
+    description: >-
+      CoreMCP: Connect Legacy Databases to AI Agents via Model Context Protocol. Open-source bridge for LLM data
+      analysis.
     homepage: https://corebasehq.com
     topics:
       - database-bridge
@@ -42,14 +48,20 @@ metadata:
       - mcp
       - mcp-server
       - mssql
-    last_checked_at: "2026-09-14T04:13:29.976Z"
+    last_checked_at: '2026-09-14T04:13:29.976Z'
     readme:
-      fetched_at: "2026-09-14T04:13:29.976Z"
+      fetched_at: '2026-09-14T04:13:29.976Z'
       bytes: 13872
 insights:
-  summary: CoreMCP is an open-source Model Context Protocol (MCP) server that bridges AI assistants with legacy databases like MSSQL.
-  why_it_matters: It lets developers securely expose database schemas and queries to AI agents via MCP, enabling read-only or controlled access to legacy systems without direct code changes.
-  mental_damage: Finally, a way to let your AI assistant query that 20-year-old MSSQL ERP without accidentally dropping the production table.
+  summary: >-
+    CoreMCP is an open-source Model Context Protocol (MCP) server that bridges AI assistants with legacy databases like
+    MSSQL.
+  why_it_matters: >-
+    It lets developers securely expose database schemas and queries to AI agents via MCP, enabling read-only or
+    controlled access to legacy systems without direct code changes.
+  mental_damage: >-
+    Finally, a way to let your AI assistant query that 20-year-old MSSQL ERP without accidentally dropping the
+    production table.
   tags:
     - mcp-server
     - database-bridge
@@ -59,31 +71,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: CoreMCP's primary identity is as an MCP server for database operations, fitting the MCP Servers & Tooling category where MCP is the product identity.
+  reason: >-
+    CoreMCP's primary identity is as an MCP server for database operations, fitting the MCP Servers & Tooling category
+    where MCP is the product identity.
   evidence:
     - Repo description explicitly states it is an MCP server for database operations
     - README highlights MCP-native design and database connectivity as core features
     - Already listed in awesome-mcp-servers under Databases section
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.609Z"
+    updated_at: '2026-05-06T22:12:15.609Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:29.977Z"
+    updated_at: '2026-09-14T04:13:29.977Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:48:12.812Z"
+    updated_at: '2026-07-21T15:48:12.812Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,7 +111,9 @@ processing:
       input_hash: sha256:46eb2ccbf540b0dedf543e9282fd663e47dd9bcd7a32131f2af5dc0926dd906a
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: CoreMCP's primary identity is as an MCP server for database operations, fitting the MCP Servers & Tooling category where MCP is the product identity.
+      decision_reason: >-
+        CoreMCP's primary identity is as an MCP server for database operations, fitting the MCP Servers & Tooling
+        category where MCP is the product identity.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for database operations
         - README highlights MCP-native design and database connectivity as core features
@@ -104,6 +121,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server for databases, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server for databases, not
+        merely an extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

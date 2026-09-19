@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jamesanz__evm-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: JamesANZ/evm-mcp
         extracted_url: https://github.com/jamesanz/evm-mcp
-        surrounding_text: "- [JamesANZ/evm-mcp](https://github.com/JamesANZ/evm-mcp) 📇 ☁️ - An MCP server that provides complete access to Ethereum Virtual Machine (EVM) JSON-RPC methods. Works with any EVM-compatible node provider including Infura, Alchemy, QuickNode, local nodes, and more."
+        surrounding_text: >-
+          - [JamesANZ/evm-mcp](https://github.com/JamesANZ/evm-mcp) 📇 ☁️ - An MCP server that provides complete access
+          to Ethereum Virtual Machine (EVM) JSON-RPC methods. Works with any EVM-compatible node provider including
+          Infura, Alchemy, QuickNode, local nodes, and more.
         confidence: high
 metadata:
   github:
@@ -30,21 +33,25 @@ metadata:
     archived: false
     full_name: JamesANZ/evm-mcp
     html_url: https://github.com/JamesANZ/evm-mcp
-    created_at: "2025-10-17T00:28:51Z"
-    pushed_at: "2026-07-18T11:00:00Z"
-    description: An MCP server that provides complete access to Ethereum Virtual Machine (EVM) JSON-RPC methods. Works with any EVM-compatible node provider including Infura, Alchemy, QuickNode, local nodes, and more.
+    created_at: '2025-10-17T00:28:51Z'
+    pushed_at: '2026-07-18T11:00:00Z'
+    description: >-
+      An MCP server that provides complete access to Ethereum Virtual Machine (EVM) JSON-RPC methods. Works with any
+      EVM-compatible node provider including Infura, Alchemy, QuickNode, local nodes, and more.
     homepage: https://glama.ai/mcp/servers/@JamesANZ/evm-mcp
     topics:
       - evm
       - llms
       - mcp-server
-    last_checked_at: "2026-07-30T05:05:47.223Z"
+    last_checked_at: '2026-07-30T05:05:47.223Z'
     readme:
-      fetched_at: "2026-07-30T05:05:47.223Z"
+      fetched_at: '2026-07-30T05:05:47.223Z'
       bytes: 13443
 insights:
   summary: An MCP server that exposes complete EVM JSON-RPC methods to AI coding environments like Cursor and Claude Desktop.
-  why_it_matters: Lets developers query any EVM-compatible network directly from their AI assistant, turning blockchain data into first-class context for coding workflows.
+  why_it_matters: >-
+    Lets developers query any EVM-compatible network directly from their AI assistant, turning blockchain data into
+    first-class context for coding workflows.
   mental_damage: Now your AI can ask Ethereum for gas prices while you’re still trying to remember how to spell 'nonce'.
   tags:
     - mcp-server
@@ -55,31 +62,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific (EVM) capabilities."
+  reason: 'MCP is the product identity: this is a dedicated MCP server providing domain-specific (EVM) capabilities.'
   evidence:
     - Repo description explicitly states it is an MCP server for EVM JSON-RPC methods
     - README positions it as an MCP server for AI coding environments (Cursor, Claude Desktop)
     - Topics include 'mcp-server' and 'evm'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.621Z"
+    updated_at: '2026-05-06T22:12:15.621Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:47.223Z"
+    updated_at: '2026-07-30T05:05:47.223Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:09:38.792Z"
+    updated_at: '2026-07-21T16:09:38.792Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -92,7 +100,7 @@ processing:
       input_hash: sha256:100017e74937b6eb3c7337d6010e094df1c4ffc0caef8465f4ead9e6cb97c3e8
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific (EVM) capabilities."
+      decision_reason: 'MCP is the product identity: this is a dedicated MCP server providing domain-specific (EVM) capabilities.'
       decision_evidence:
         - Repo description explicitly states it is an MCP server for EVM JSON-RPC methods
         - README positions it as an MCP server for AI coding environments (Cursor, Claude Desktop)
@@ -100,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension layer for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension layer for another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

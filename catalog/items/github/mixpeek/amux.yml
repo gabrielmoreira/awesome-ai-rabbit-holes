@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mixpeek__amux__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Session managers & parallel runners
         anchor_text: amux
         extracted_url: https://github.com/mixpeek/amux
-        surrounding_text: "- **[amux](https://github.com/mixpeek/amux)** `⭐ 157` — Agent multiplexer for running dozens of parallel Claude Code sessions with web dashboard, self-healing watchdog, kanban board, agent-to-agent REST API, and mobile PWA. Single Python file, Python 3 + tmux. MIT."
+        surrounding_text: >-
+          - **[amux](https://github.com/mixpeek/amux)** `⭐ 157` — Agent multiplexer for running dozens of parallel
+          Claude Code sessions with web dashboard, self-healing watchdog, kanban board, agent-to-agent REST API, and
+          mobile PWA. Single Python file, Python 3 + tmux. MIT.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: mixpeek/amux
     html_url: https://github.com/mixpeek/amux
-    created_at: "2026-02-18T14:30:56Z"
-    pushed_at: "2026-08-03T03:08:51Z"
-    description: Open-source control plane for AI coding agents — run, monitor & orchestrate dozens of parallel Claude Code, Codex & Gemini sessions from one web dashboard or your phone. Self-healing, single-file, tmux-native.
+    created_at: '2026-02-18T14:30:56Z'
+    pushed_at: '2026-08-03T03:08:51Z'
+    description: >-
+      Open-source control plane for AI coding agents — run, monitor & orchestrate dozens of parallel Claude Code, Codex
+      & Gemini sessions from one web dashboard or your phone. Self-healing, single-file, tmux-native.
     homepage: https://amux.io
     topics:
       - agent-orchestration
@@ -55,14 +60,20 @@ metadata:
       - python
       - self-hosted
       - tmux
-    last_checked_at: "2026-08-03T05:17:05.012Z"
+    last_checked_at: '2026-08-03T05:17:05.012Z'
     readme:
-      fetched_at: "2026-08-03T05:17:05.012Z"
+      fetched_at: '2026-08-03T05:17:05.012Z'
       bytes: 35110
 insights:
-  summary: An open-source agent control plane that runs and manages dozens of parallel Claude Code sessions in tmux, with a web dashboard, kanban board, and REST API for agent-to-agent coordination.
-  why_it_matters: It lets developers orchestrate multiple unattended coding agents from a single interface, adding self-healing, task claiming, and mobile control to long-running Claude Code workflows.
-  mental_damage: Now you can wake up at 3am to check your kanban board on your phone and watch twelve Claude sessions argue with each other in real time instead of just wondering why your single agent stopped working.
+  summary: >-
+    An open-source agent control plane that runs and manages dozens of parallel Claude Code sessions in tmux, with a web
+    dashboard, kanban board, and REST API for agent-to-agent coordination.
+  why_it_matters: >-
+    It lets developers orchestrate multiple unattended coding agents from a single interface, adding self-healing, task
+    claiming, and mobile control to long-running Claude Code workflows.
+  mental_damage: >-
+    Now you can wake up at 3am to check your kanban board on your phone and watch twelve Claude sessions argue with each
+    other in real time instead of just wondering why your single agent stopped working.
   tags:
     - agent-orchestration
     - claude-code
@@ -72,35 +83,42 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product’s primary identity is a control plane and runtime surface for coordinating multiple agents, with dashboards, scheduling, and agent-to-agent orchestration, not a standalone coding assistant.
+  reason: >-
+    The product’s primary identity is a control plane and runtime surface for coordinating multiple agents, with
+    dashboards, scheduling, and agent-to-agent orchestration, not a standalone coding assistant.
   evidence:
-    - Repo description explicitly calls it an 'open-source Claude Code agent multiplexer' for parallel unattended sessions.
-    - README positions it as 'The Agent Control Plane' with web dashboard, kanban, REST API orchestration, and self-healing watchdog.
+    - >-
+      Repo description explicitly calls it an 'open-source Claude Code agent multiplexer' for parallel unattended
+      sessions.
+    - >-
+      README positions it as 'The Agent Control Plane' with web dashboard, kanban, REST API orchestration, and
+      self-healing watchdog.
     - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers & parallel runners'.
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (158) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.630Z"
+    updated_at: '2026-05-06T22:12:15.630Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:05.012Z"
+    updated_at: '2026-08-03T05:17:05.012Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

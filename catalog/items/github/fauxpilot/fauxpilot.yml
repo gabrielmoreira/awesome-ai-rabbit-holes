@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__fauxpilot__fauxpilot__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,10 @@ provenance:
           - Code AI
         anchor_text: fauxpilot
         extracted_url: https://github.com/fauxpilot/fauxpilot
-        surrounding_text: "| [fauxpilot](https://github.com/fauxpilot/fauxpilot) | An open-source alternative to GitHub Copilot server                                                      | ![GitHub Badge](https://img.shields.io/github/stars/fauxpilot/fauxpilot.svg?style=flat-square)  |"
+        surrounding_text: >-
+          | [fauxpilot](https://github.com/fauxpilot/fauxpilot) | An open-source alternative to GitHub Copilot
+          server                                                      | ![GitHub
+          Badge](https://img.shields.io/github/stars/fauxpilot/fauxpilot.svg?style=flat-square)  |
         confidence: high
 metadata:
   github:
@@ -29,18 +32,20 @@ metadata:
     archived: false
     full_name: fauxpilot/fauxpilot
     html_url: https://github.com/fauxpilot/fauxpilot
-    created_at: "2022-08-03T02:14:22Z"
-    pushed_at: "2024-04-09T08:42:23Z"
+    created_at: '2022-08-03T02:14:22Z'
+    pushed_at: '2024-04-09T08:42:23Z'
     description: FauxPilot - an open-source alternative to GitHub Copilot server
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-08-27T09:23:28.603Z"
+    last_checked_at: '2026-08-27T09:23:28.603Z'
     readme:
-      fetched_at: "2026-08-27T09:23:28.603Z"
+      fetched_at: '2026-08-27T09:23:28.603Z'
       bytes: 2312
 insights:
   summary: FauxPilot is an open-source self-hosted alternative to GitHub Copilot that serves AI code completions model service.
-  why_it_matters: It lets developers run code completion locally without relying on GitHub’s cloud service, offering privacy and offline access to AI-assisted coding.
+  why_it_matters: >-
+    It lets developers run code completion locally without relying on GitHub’s cloud service, offering privacy and
+    offline access to AI-assisted coding.
   mental_damage: Now you get to worry about VRAM instead of subscription fees.
   tags:
     - local-ai
@@ -49,31 +54,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a local serving stack designed to run on developer hardware, fitting the 'Local AI' category better than a 'Coding Agent' because it is the backend infrastructure, not the editor-side assistant.
+  reason: >-
+    It is a local serving stack designed to run on developer hardware, fitting the 'Local AI' category better than a
+    'Coding Agent' because it is the backend infrastructure, not the editor-side assistant.
   evidence:
     - Repo description explicitly states it is an 'open-source alternative to GitHub Copilot server'.
     - README specifies it uses NVIDIA Triton Inference Server and requires local NVIDIA GPUs with sufficient VRAM.
     - Client configuration supports OpenAI API and Copilot Plugin standards to connect local models to editors.
 placement:
   primary_category: local-ai
-  section: null
+  secondary_categories: []
+  section: Local API Servers
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'coding-agents'"
+  reason: 'Categorization review required: placement disagreement: retained ''local-ai'', proposed ''coding-agents'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:28.603Z"
+    updated_at: '2026-08-27T09:23:28.603Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:55:42.348Z"
+    updated_at: '2026-07-21T15:55:42.348Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -86,14 +94,18 @@ processing:
       input_hash: sha256:6c3b218230fb818f455987e4a67950ffc4d5e16181f7155a2f1210708f6fde95
       proposed_primary_category: coding-agents
       disagreement: true
-      decision_reason: FauxPilot functions as a standalone coding assistant that provides AI-powered code completions via a self-hosted server, fitting the role of a developer-facing agent that edits code in IDEs or editors.
+      decision_reason: >-
+        FauxPilot functions as a standalone coding assistant that provides AI-powered code completions via a self-hosted
+        server, fitting the role of a developer-facing agent that edits code in IDEs or editors.
       decision_evidence:
-        - "Repo description: 'FauxPilot - an open-source alternative to GitHub Copilot server'"
-        - "README: Uses SalesForce CodeGen models in Triton Inference Server to provide Copilot-like code completions"
+        - 'Repo description: ''FauxPilot - an open-source alternative to GitHub Copilot server'''
+        - 'README: Uses SalesForce CodeGen models in Triton Inference Server to provide Copilot-like code completions'
         - Clients can be configured via OpenAI API, Copilot Plugin, or REST API to integrate with editors
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because FauxPilot acts as the primary coding assistant providing completions, not as an add-on that enhances another agent’s capabilities.
-      review_reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'coding-agents'"
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because FauxPilot acts as the primary coding assistant providing
+        completions, not as an add-on that enhances another agent’s capabilities.
+      review_reason: 'Categorization review required: placement disagreement: retained ''local-ai'', proposed ''coding-agents'''
       review_resume_lifecycle: null

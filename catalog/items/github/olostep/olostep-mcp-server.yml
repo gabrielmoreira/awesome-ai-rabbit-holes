@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__olostep__olostep-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: olostep/olostep-mcp-server
         extracted_url: https://github.com/olostep/olostep-mcp-server
-        surrounding_text: "- [olostep/olostep-mcp-server](https://github.com/olostep/olostep-mcp-server) 📇 ☁️ - Web scraping, crawling, and search API. Extract content in Markdown/JSON, batch process 10k URLs, and get AI-powered answers with citations."
+        surrounding_text: >-
+          - [olostep/olostep-mcp-server](https://github.com/olostep/olostep-mcp-server) 📇 ☁️ - Web scraping, crawling,
+          and search API. Extract content in Markdown/JSON, batch process 10k URLs, and get AI-powered answers with
+          citations.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: olostep/olostep-mcp-server
     html_url: https://github.com/olostep/olostep-mcp-server
-    created_at: "2025-03-11T08:47:26Z"
-    pushed_at: "2026-07-07T16:57:38Z"
-    description: MCP server for Olostep — the web scraping, crawling, and search infrastructure used by top AI companies. Gives any MCP-compatible AI agent the ability to scrape, crawl, batch-extract, and search the web in real time.
+    created_at: '2025-03-11T08:47:26Z'
+    pushed_at: '2026-07-07T16:57:38Z'
+    description: >-
+      MCP server for Olostep — the web scraping, crawling, and search infrastructure used by top AI companies. Gives any
+      MCP-compatible AI agent the ability to scrape, crawl, batch-extract, and search the web in real time.
     homepage: https://www.olostep.com/integrations/mcp-server
     topics:
       - ai
@@ -50,14 +55,20 @@ metadata:
       - web-crawling
       - web-scraping
       - web-search
-    last_checked_at: "2026-07-20T16:42:23.954Z"
+    last_checked_at: '2026-07-20T16:42:23.954Z'
     readme:
-      fetched_at: "2026-07-20T16:42:23.954Z"
+      fetched_at: '2026-07-20T16:42:23.954Z'
       bytes: 14931
 insights:
-  summary: An MCP server implementation that gives any MCP-compatible AI agent real-time web scraping, crawling, batch URL extraction, and search capabilities via the Olostep API.
-  why_it_matters: Developers can now plug structured web data, live search results, and site crawling into their local coding agents without building custom scrapers or wrestling with headless browsers.
-  mental_damage: Another indispensable MCP adapter that inches us closer to the day your coding agent spends more time scraping the web than touching your actual codebase.
+  summary: >-
+    An MCP server implementation that gives any MCP-compatible AI agent real-time web scraping, crawling, batch URL
+    extraction, and search capabilities via the Olostep API.
+  why_it_matters: >-
+    Developers can now plug structured web data, live search results, and site crawling into their local coding agents
+    without building custom scrapers or wrestling with headless browsers.
+  mental_damage: >-
+    Another indispensable MCP adapter that inches us closer to the day your coding agent spends more time scraping the
+    web than touching your actual codebase.
   tags:
     - mcp
     - web-scraping
@@ -67,35 +78,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server that exposes Olostep's web scraping and search infrastructure to MCP-compatible agents, making MCP its core identity rather than a side feature.
+  reason: >-
+    The product is an MCP server that exposes Olostep's web scraping and search infrastructure to MCP-compatible agents,
+    making MCP its core identity rather than a side feature.
   evidence:
     - Repo description explicitly states 'MCP server for Olostep' with web scraping, crawling, and search capabilities.
     - README details MCP integrations for Cursor, Claude Desktop, Claude Code, Windsurf, and VS Code.
     - Listed in awesome-mcp-servers under 'Browser Automation' server implementations.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.639Z"
+    updated_at: '2026-05-06T22:12:15.639Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:23.954Z"
+    updated_at: '2026-07-20T16:42:23.954Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

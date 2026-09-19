@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mintplex-labs__anything-llm__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,10 +20,13 @@ provenance:
           - Knowledge Management
         anchor_text: Anything LLM
         extracted_url: https://github.com/mintplex-labs/anything-llm
-        surrounding_text: "- [Anything LLM](https://github.com/Mintplex-Labs/anything-llm): A full-stack application that turns any documents into an intelligent chatbot with a sleek UI and easier way to manage your workspaces. ![GitHub Repo stars](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=social)"
+        surrounding_text: >-
+          - [Anything LLM](https://github.com/Mintplex-Labs/anything-llm): A full-stack application that turns any
+          documents into an intelligent chatbot with a sleek UI and easier way to manage your workspaces. ![GitHub Repo
+          stars](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=social)
         confidence: high
     - id: discovery__github__mintplex-labs__anything-llm__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -35,7 +38,9 @@ provenance:
           - 知识库 RAG
         anchor_text: AnythingLLM
         extracted_url: https://github.com/mintplex-labs/anything-llm
-        surrounding_text: "1. [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm): The all-in-one AI app for any LLM with full RAG and AI Agent capabilites."
+        surrounding_text: >-
+          1. [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm): The all-in-one AI app for any LLM with full
+          RAG and AI Agent capabilites.
         confidence: high
 metadata:
   github:
@@ -45,9 +50,11 @@ metadata:
     archived: false
     full_name: Mintplex-Labs/anything-llm
     html_url: https://github.com/Mintplex-Labs/anything-llm
-    created_at: "2023-06-04T02:29:14Z"
-    pushed_at: "2026-07-31T04:38:27Z"
-    description: "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience "
+    created_at: '2023-06-04T02:29:14Z'
+    pushed_at: '2026-07-31T04:38:27Z'
+    description: >-
+      Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent
+      experience 
     homepage: https://anythingllm.com
     topics:
       - agent-computer
@@ -66,14 +73,20 @@ metadata:
       - rag
       - self-hosted-ai
       - vector-database
-    last_checked_at: "2026-08-03T05:17:04.476Z"
+    last_checked_at: '2026-08-03T05:17:04.476Z'
     readme:
-      fetched_at: "2026-08-03T05:17:04.476Z"
+      fetched_at: '2026-08-03T05:17:04.476Z'
       bytes: 26243
 insights:
-  summary: AnythingLLM is an all-in-one local-first AI application for private document chatting, agent workflows, and multi-user LLM interaction with minimal setup.
-  why_it_matters: It lets developers run a self-hosted, privacy-preserving AI stack for document RAG and agent automation without managing infrastructure complexity.
-  mental_damage: Yet another 'private ChatGPT' wrapper that quietly hopes you don’t notice it’s just LangChain + a nice Electron shell.
+  summary: >-
+    AnythingLLM is an all-in-one local-first AI application for private document chatting, agent workflows, and
+    multi-user LLM interaction with minimal setup.
+  why_it_matters: >-
+    It lets developers run a self-hosted, privacy-preserving AI stack for document RAG and agent automation without
+    managing infrastructure complexity.
+  mental_damage: >-
+    Yet another 'private ChatGPT' wrapper that quietly hopes you don’t notice it’s just LangChain + a nice Electron
+    shell.
   tags:
     - local-ai
     - rag
@@ -82,31 +95,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is primarily a self-hosted desktop application enabling local LLM interaction with documents and agents, making local execution central to its identity rather than coding assistance or agent orchestration.
+  reason: >-
+    It is primarily a self-hosted desktop application enabling local LLM interaction with documents and agents, making
+    local execution central to its identity rather than coding assistance or agent orchestration.
   evidence:
-    - "Repo description: 'Everything you need for a powerful local-first agent experience'"
-    - "README: 'Chat with your docs... runs locally by default with zero setup friction' and 'Download Now' for Mac/Windows/Linux desktop"
-    - "Topics include: local-ai, localai, self-hosted-ai, vector-database, rag"
+    - 'Repo description: ''Everything you need for a powerful local-first agent experience'''
+    - >-
+      README: 'Chat with your docs... runs locally by default with zero setup friction' and 'Download Now' for
+      Mac/Windows/Linux desktop
+    - 'Topics include: local-ai, localai, self-hosted-ai, vector-database, rag'
 placement:
   primary_category: local-ai
-  section: Desktop Chat / Interfaces
+  secondary_categories: []
+  section: Desktop Chat & UIs
 lifecycle:
   status: promotion_candidate
   reason: Stars (59620) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.590Z"
+    updated_at: '2026-05-06T22:12:15.590Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:04.476Z"
+    updated_at: '2026-08-03T05:17:04.476Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:21:33.745Z"
+    updated_at: '2026-07-21T16:21:33.745Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -119,14 +137,20 @@ processing:
       input_hash: sha256:abeb74ecc8c3ae95df214cf76f43e2118be87c5d930f51472bf94282e1849f35
       proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: It is primarily a self-hosted desktop application enabling local LLM interaction with documents and agents, making local execution central to its identity rather than coding assistance or agent orchestration.
+      decision_reason: >-
+        It is primarily a self-hosted desktop application enabling local LLM interaction with documents and agents,
+        making local execution central to its identity rather than coding assistance or agent orchestration.
       decision_evidence:
-        - "Repo description: 'Everything you need for a powerful local-first agent experience'"
-        - "README: 'Chat with your docs... runs locally by default with zero setup friction' and 'Download Now' for Mac/Windows/Linux desktop"
-        - "Topics include: local-ai, localai, self-hosted-ai, vector-database, rag"
+        - 'Repo description: ''Everything you need for a powerful local-first agent experience'''
+        - >-
+          README: 'Chat with your docs... runs locally by default with zero setup friction' and 'Download Now' for
+          Mac/Windows/Linux desktop
+        - 'Topics include: local-ai, localai, self-hosted-ai, vector-database, rag'
       category_candidates:
         - local-ai
         - agent-orchestration
-      contrastive_reason: Choose local-ai over agent-orchestration because the product is a desktop chat interface for local LLM use rather than a multi-agent coordination workbench or control plane.
+      contrastive_reason: >-
+        Choose local-ai over agent-orchestration because the product is a desktop chat interface for local LLM use
+        rather than a multi-agent coordination workbench or control plane.
       review_reason: null
       review_resume_lifecycle: null

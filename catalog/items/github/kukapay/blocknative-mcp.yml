@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__blocknative-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/blocknative-mcp
         extracted_url: https://github.com/kukapay/blocknative-mcp
-        surrounding_text: "- [kukapay/blocknative-mcp](https://github.com/kukapay/blocknative-mcp) 🐍 ☁️ -  Providing real-time gas price predictions across multiple blockchains, powered by Blocknative."
+        surrounding_text: >-
+          - [kukapay/blocknative-mcp](https://github.com/kukapay/blocknative-mcp) 🐍 ☁️ -  Providing real-time gas price
+          predictions across multiple blockchains, powered by Blocknative.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,23 @@ metadata:
     archived: false
     full_name: kukapay/blocknative-mcp
     html_url: https://github.com/kukapay/blocknative-mcp
-    created_at: "2025-04-30T04:40:33Z"
-    pushed_at: "2025-04-30T13:13:39Z"
+    created_at: '2025-04-30T04:40:33Z'
+    pushed_at: '2025-04-30T13:13:39Z'
     description: An MCP server that provides real-time gas price predictions across multiple blockchains.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:59.052Z"
+    last_checked_at: '2026-07-30T05:05:59.052Z'
     readme:
-      fetched_at: "2026-07-30T05:05:59.052Z"
+      fetched_at: '2026-07-30T05:05:59.052Z'
       bytes: 4917
 insights:
   summary: An MCP server that provides real-time gas price predictions across multiple blockchains.
-  why_it_matters: Developers building blockchain applications can integrate this MCP server to fetch and estimate gas costs programmatically within their AI workflows.
-  mental_damage: Now your AI can worry about gas fees so you don’t have to—until it starts arguing with you about whether 90% confidence is worth the extra Gwei.
+  why_it_matters: >-
+    Developers building blockchain applications can integrate this MCP server to fetch and estimate gas costs
+    programmatically within their AI workflows.
+  mental_damage: >-
+    Now your AI can worry about gas fees so you don’t have to—until it starts arguing with you about whether 90%
+    confidence is worth the extra Gwei.
   tags:
     - mcp
     - blockchain
@@ -54,29 +60,34 @@ curation:
   status: included
   reason: The product is explicitly an MCP server providing blockchain-specific tools, making MCP its primary identity.
   evidence:
-    - Repo description states it is 'An MCP server that provides real-time gas price predictions across multiple blockchains'
-    - README details MCP tools (`predict_gas_price`, `estimate_gas_cost`, `get_supported_chains`) and integration with MCP Inspector/Claude Desktop
+    - >-
+      Repo description states it is 'An MCP server that provides real-time gas price predictions across multiple
+      blockchains'
+    - >-
+      README details MCP tools (`predict_gas_price`, `estimate_gas_cost`, `get_supported_chains`) and integration with
+      MCP Inspector/Claude Desktop
     - Project is built using FastMCP framework and exposes MCP-compatible endpoints
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:59.052Z"
+    updated_at: '2026-07-30T05:05:59.052Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:30.657Z"
+    updated_at: '2026-07-21T16:13:30.657Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -91,12 +102,18 @@ processing:
       disagreement: false
       decision_reason: The product is explicitly an MCP server providing blockchain-specific tools, making MCP its primary identity.
       decision_evidence:
-        - Repo description states it is 'An MCP server that provides real-time gas price predictions across multiple blockchains'
-        - README details MCP tools (`predict_gas_price`, `estimate_gas_cost`, `get_supported_chains`) and integration with MCP Inspector/Claude Desktop
+        - >-
+          Repo description states it is 'An MCP server that provides real-time gas price predictions across multiple
+          blockchains'
+        - >-
+          README details MCP tools (`predict_gas_price`, `estimate_gas_cost`, `get_supported_chains`) and integration
+          with MCP Inspector/Claude Desktop
         - Project is built using FastMCP framework and exposes MCP-compatible endpoints
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension for another assistant) and MCP is its primary identity.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension for another
+        assistant) and MCP is its primary identity.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__criteo__openapi-to-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 👨‍💻 <a name="code-execution"></a>Code Execution
         anchor_text: ouvreboite/openapi-to-mcp
         extracted_url: https://github.com/ouvreboite/openapi-to-mcp
-        surrounding_text: "- [ouvreboite/openapi-to-mcp](https://github.com/ouvreboite/openapi-to-mcp) #️⃣ ☁️ - Lightweight MCP server to access any API using their OpenAPI specification. Supports OAuth2 and full JSON schema parameters and request body."
+        surrounding_text: >-
+          - [ouvreboite/openapi-to-mcp](https://github.com/ouvreboite/openapi-to-mcp) #️⃣ ☁️ - Lightweight MCP server to
+          access any API using their OpenAPI specification. Supports OAuth2 and full JSON schema parameters and request
+          body.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,20 @@ metadata:
     archived: false
     full_name: criteo/openapi-to-mcp
     html_url: https://github.com/criteo/openapi-to-mcp
-    created_at: "2025-04-23T15:47:53Z"
-    pushed_at: "2025-07-15T11:21:08Z"
+    created_at: '2025-04-23T15:47:53Z'
+    pushed_at: '2025-07-15T11:21:08Z'
     description: An MCP server for your API
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:31.035Z"
+    last_checked_at: '2026-09-14T04:13:31.035Z'
     readme:
-      fetched_at: "2026-09-14T04:13:31.035Z"
+      fetched_at: '2026-09-14T04:13:31.035Z'
       bytes: 6935
 insights:
   summary: An MCP server that exposes OpenAPI endpoints as strongly typed tools for AI assistants.
-  why_it_matters: Lets developers turn any OpenAPI-described API into MCP tools, enabling AI assistants to interact with external services in a structured way.
+  why_it_matters: >-
+    Lets developers turn any OpenAPI-described API into MCP tools, enabling AI assistants to interact with external
+    services in a structured way.
   mental_damage: Now your AI can finally argue with your API’s rate limits instead of you.
   tags:
     - mcp
@@ -51,31 +56,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: it is a server that exposes OpenAPI endpoints as MCP tools."
+  reason: 'MCP is the product identity: it is a server that exposes OpenAPI endpoints as MCP tools.'
   evidence:
     - Repo description explicitly states it is 'An MCP server for your API'
     - README demonstrates usage as an MCP server with OpenAPI specs
     - Listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.609Z"
+    updated_at: '2026-05-06T22:12:15.609Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:31.035Z"
+    updated_at: '2026-09-14T04:13:31.035Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:48:55.366Z"
+    updated_at: '2026-07-21T15:48:55.366Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +94,7 @@ processing:
       input_hash: sha256:6fec2e07aa44fc68b920a4354de8be507ca74c3f617750c56681de0e01f953ce
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: it is a server that exposes OpenAPI endpoints as MCP tools."
+      decision_reason: 'MCP is the product identity: it is a server that exposes OpenAPI endpoints as MCP tools.'
       decision_evidence:
         - Repo description explicitly states it is 'An MCP server for your API'
         - README demonstrates usage as an MCP server with OpenAPI specs
@@ -96,6 +102,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

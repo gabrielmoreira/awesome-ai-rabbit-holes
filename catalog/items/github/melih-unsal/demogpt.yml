@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__melih-unsal__demogpt__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,10 +19,10 @@ provenance:
           - DemoGPT
         anchor_text: DemoGPT
         extracted_url: https://github.com/melih-unsal/demogpt
-        surrounding_text: "## [DemoGPT](https://github.com/melih-unsal/DemoGPT)"
+        surrounding_text: '## [DemoGPT](https://github.com/melih-unsal/DemoGPT)'
         confidence: high
     - id: discovery__github__melih-unsal__demogpt__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -35,7 +35,10 @@ provenance:
           - Agents
         anchor_text: DemoGPT
         extracted_url: https://github.com/melih-unsal/demogpt
-        surrounding_text: "- [DemoGPT](https://github.com/melih-unsal/DemoGPT): DemoGPT enables you to create quick demos by just using prompt. It applies ToT approach on Langchain documentation tree. ![GitHub Repo stars](https://img.shields.io/github/stars/melih-unsal/DemoGPT?style=social)"
+        surrounding_text: >-
+          - [DemoGPT](https://github.com/melih-unsal/DemoGPT): DemoGPT enables you to create quick demos by just using
+          prompt. It applies ToT approach on Langchain documentation tree. ![GitHub Repo
+          stars](https://img.shields.io/github/stars/melih-unsal/DemoGPT?style=social)
         confidence: high
 metadata:
   github:
@@ -45,10 +48,12 @@ metadata:
     archived: false
     full_name: melih-unsal/DemoGPT
     html_url: https://github.com/melih-unsal/DemoGPT
-    created_at: "2023-06-07T09:56:20Z"
-    pushed_at: "2026-04-01T12:30:12Z"
-    description: 🤖 Create LLM agents in a second with your prompts. Everything you need to create an LLM Agent - tools, prompts, frameworks, and models - all in one place.
-    homepage: ""
+    created_at: '2023-06-07T09:56:20Z'
+    pushed_at: '2026-04-01T12:30:12Z'
+    description: >-
+      🤖 Create LLM agents in a second with your prompts. Everything you need to create an LLM Agent - tools, prompts,
+      frameworks, and models - all in one place.
+    homepage: ''
     topics:
       - agent
       - agents
@@ -70,14 +75,20 @@ metadata:
       - python
       - streamlit
       - streamlit-application
-    last_checked_at: "2026-08-03T05:16:59.377Z"
+    last_checked_at: '2026-08-03T05:16:59.377Z'
     readme:
-      fetched_at: "2026-08-03T05:16:59.377Z"
+      fetched_at: '2026-08-03T05:16:59.377Z'
       bytes: 26787
 insights:
-  summary: A Python toolkit and Streamlit app for quickly generating LangChain agent pipelines, tools, and RAG setups from prompts.
-  why_it_matters: It gives developers a fast, batteries-included way to scaffold LangChain-based agents with built-in support for tools, vector databases, and knowledge graphs.
-  mental_damage: Another heroic abstraction layer promising to spin up an agent in seconds, just in time for you to spend the next three hours debugging why the RAG pipeline forgot everything you just indexed.
+  summary: >-
+    A Python toolkit and Streamlit app for quickly generating LangChain agent pipelines, tools, and RAG setups from
+    prompts.
+  why_it_matters: >-
+    It gives developers a fast, batteries-included way to scaffold LangChain-based agents with built-in support for
+    tools, vector databases, and knowledge graphs.
+  mental_damage: >-
+    Another heroic abstraction layer promising to spin up an agent in seconds, just in time for you to spend the next
+    three hours debugging why the RAG pipeline forgot everything you just indexed.
   tags:
     - langchain
     - agent-builder
@@ -87,35 +98,43 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a code-first toolkit and runtime for building LangChain agents, tools, and RAG pipelines, making it a classic framework used in Python scripts and apps rather than a primary coding assistant.
+  reason: >-
+    This is a code-first toolkit and runtime for building LangChain agents, tools, and RAG pipelines, making it a
+    classic framework used in Python scripts and apps rather than a primary coding assistant.
   evidence:
-    - "Repo description: 'Everything you need to create an LLM Agent - tools, prompts, frameworks, and models - all in one place.'"
-    - README positions it as a generative toolkit for LangChain pipelines, RAG, knowledge graphs, and vector databases with Python and Streamlit interfaces.
-    - Listed in awesome-langchain under Tools > Agents, reinforcing its identity as a LangChain building block rather than a standalone coding agent.
+    - >-
+      Repo description: 'Everything you need to create an LLM Agent - tools, prompts, frameworks, and models - all in
+      one place.'
+    - >-
+      README positions it as a generative toolkit for LangChain pipelines, RAG, knowledge graphs, and vector databases
+      with Python and Streamlit interfaces.
+    - >-
+      Listed in awesome-langchain under Tools > Agents, reinforcing its identity as a LangChain building block rather
+      than a standalone coding agent.
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  section: LLM & Agent SDKs
 lifecycle:
   status: promotion_candidate
   reason: Stars (1895) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.590Z"
+    updated_at: '2026-05-06T22:12:15.590Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:59.377Z"
+    updated_at: '2026-08-03T05:16:59.377Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

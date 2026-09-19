@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jigyasudham__veto__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-06T05:29:57.556Z"
+      discovered_at: '2026-07-06T05:29:57.556Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: jigyasudham/veto
         extracted_url: https://github.com/jigyasudham/veto
-        surrounding_text: "- [jigyasudham/veto](https://github.com/jigyasudham/veto) [![jigyasudham/veto MCP server](https://glama.ai/mcp/servers/jigyasudham/veto/badges/score.svg)](https://glama.ai/mcp/servers/jigyasudham/veto) 📇 🏠 🍎 🪟 🐧 - A council of 49 specialist agents + 93 tools for every major AI CLI (Claude Code, Codex, Gemini, Cursor, Windsurf). Deterministic agents that optionally upgrade to LLM, a self-learning router, cross-CLI memory, and guards for dependency hallucinations and decision drift. No API keys; zero extra cost on subscriptions."
+        surrounding_text: >-
+          - [jigyasudham/veto](https://github.com/jigyasudham/veto) [![jigyasudham/veto MCP
+          server](https://glama.ai/mcp/servers/jigyasudham/veto/badges/score.svg)](https://glama.ai/mcp/servers/jigyasudham/veto)
+          📇 🏠 🍎 🪟 🐧 - A council of 49 specialist agents + 93 tools for every major AI CLI (Claude Code, Codex,
+          Gemini, Cursor, Windsurf). Deterministic agents that optionally upgrade to LLM, a self-learning router,
+          cross-CLI memory, and guards for dependency hallucinations and decision drift. No API keys; zero extra cost on
+          subscriptions.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: jigyasudham/veto
     html_url: https://github.com/jigyasudham/veto
-    created_at: "2026-04-30T14:42:00Z"
-    pushed_at: "2026-07-10T18:34:19Z"
-    description: Veto MCP — gives every major AI CLI (Claude Code, Codex, Gemini, Cursor, Windsurf) a council of 49 specialist agents + 93 tools. Deterministic-first, self-learning, no API keys.
+    created_at: '2026-04-30T14:42:00Z'
+    pushed_at: '2026-07-10T18:34:19Z'
+    description: >-
+      Veto MCP — gives every major AI CLI (Claude Code, Codex, Gemini, Cursor, Windsurf) a council of 49 specialist
+      agents + 93 tools. Deterministic-first, self-learning, no API keys.
     homepage: https://www.npmjs.com/package/@jigyasudham/veto
     topics:
       - agentic-ai
@@ -46,14 +54,20 @@ metadata:
       - mcp-server
       - model-context-protocol
       - security-scanner
-    last_checked_at: "2026-08-03T05:16:52.029Z"
+    last_checked_at: '2026-08-03T05:16:52.029Z'
     readme:
-      fetched_at: "2026-08-03T05:16:52.029Z"
+      fetched_at: '2026-08-03T05:16:52.029Z'
       bytes: 37469
 insights:
-  summary: Veto is an MCP server that provides 49 specialist agents and 93 tools to augment AI CLIs like Claude Code and Codex with deterministic expert modules and optional LLM reasoning.
-  why_it_matters: It gives developers a self-updating, zero-cost way to inject structured expert behavior into their existing AI coding assistants without additional API costs.
-  mental_damage: The anxiety of realizing your AI coding assistant now has a 49-person internal bureaucracy it must consult before writing a single line of code.
+  summary: >-
+    Veto is an MCP server that provides 49 specialist agents and 93 tools to augment AI CLIs like Claude Code and Codex
+    with deterministic expert modules and optional LLM reasoning.
+  why_it_matters: >-
+    It gives developers a self-updating, zero-cost way to inject structured expert behavior into their existing AI
+    coding assistants without additional API costs.
+  mental_damage: >-
+    The anxiety of realizing your AI coding assistant now has a 49-person internal bureaucracy it must consult before
+    writing a single line of code.
   tags:
     - mcp
     - ai-agents
@@ -61,31 +75,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Veto is primarily an MCP server that exposes specialist agents via the Model Context Protocol, making MCP its core identity rather than a mere compatibility feature.
+  reason: >-
+    Veto is primarily an MCP server that exposes specialist agents via the Model Context Protocol, making MCP its core
+    identity rather than a mere compatibility feature.
   evidence:
-    - "Repo description: 'Veto MCP — gives every major AI CLI a council of 49 specialist agents + 93 tools'"
-    - "README: 'An MCP server that runs locally on your machine, plugs into Claude Code, Codex CLI, Gemini CLI...'"
-    - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Coding Agents"
+    - 'Repo description: ''Veto MCP — gives every major AI CLI a council of 49 specialist agents + 93 tools'''
+    - 'README: ''An MCP server that runs locally on your machine, plugs into Claude Code, Codex CLI, Gemini CLI...'''
+    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Coding Agents'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-06T05:29:57.558Z"
+    updated_at: '2026-07-06T05:29:57.558Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:52.029Z"
+    updated_at: '2026-08-03T05:16:52.029Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-06T06:00:06.071Z"
+    updated_at: '2026-07-06T06:00:06.071Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

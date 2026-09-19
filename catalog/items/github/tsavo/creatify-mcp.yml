@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tsavo__creatify-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Community Servers
         anchor_text: Creatify
         extracted_url: https://github.com/tsavo/creatify-mcp
-        surrounding_text: "- **[Creatify](https://github.com/TSavo/creatify-mcp)** - MCP Server that exposes Creatify AI API capabilities for AI video generation, including avatar videos, URL-to-video conversion, text-to-speech, and AI-powered editing tools."
+        surrounding_text: >-
+          - **[Creatify](https://github.com/TSavo/creatify-mcp)** - MCP Server that exposes Creatify AI API capabilities
+          for AI video generation, including avatar videos, URL-to-video conversion, text-to-speech, and AI-powered
+          editing tools.
         confidence: high
 metadata:
   github:
@@ -29,18 +32,23 @@ metadata:
     archived: false
     full_name: TSavo/creatify-mcp
     html_url: https://github.com/TSavo/creatify-mcp
-    created_at: "2025-05-26T04:50:01Z"
-    pushed_at: "2025-05-26T07:37:55Z"
-    description: "🎬 Enterprise-grade MCP Server for Creatify AI - 12 tools for AI video generation: avatar videos, URL-to-video, AI shorts, custom avatars, script generation, advanced lip-sync with emotion control. Complete API coverage with semantic versioning."
+    created_at: '2025-05-26T04:50:01Z'
+    pushed_at: '2025-05-26T07:37:55Z'
+    description: >-
+      🎬 Enterprise-grade MCP Server for Creatify AI - 12 tools for AI video generation: avatar videos, URL-to-video, AI
+      shorts, custom avatars, script generation, advanced lip-sync with emotion control. Complete API coverage with
+      semantic versioning.
     homepage: https://www.npmjs.com/package/@tsavo/creatify-mcp
     topics: []
-    last_checked_at: "2026-07-21T15:20:56.233Z"
+    last_checked_at: '2026-07-21T15:20:56.233Z'
     readme:
-      fetched_at: "2026-07-21T15:20:56.233Z"
+      fetched_at: '2026-07-21T15:20:56.233Z'
       bytes: 21043
 insights:
   summary: An MCP server that exposes Creatify AI's video generation capabilities to AI assistants and automation platforms.
-  why_it_matters: It allows developers to integrate complex video creation workflows, such as avatar generation and lip-syncing, directly into agentic workflows using the Model Context Protocol.
+  why_it_matters: >-
+    It allows developers to integrate complex video creation workflows, such as avatar generation and lip-syncing,
+    directly into agentic workflows using the Model Context Protocol.
   mental_damage: Because your AI agent's list of specialized external tools was clearly getting too short.
   tags:
     - mcp
@@ -50,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server that provides domain-specific tools (video generation) to a host assistant.
+  reason: >-
+    The project's primary identity is an MCP server that provides domain-specific tools (video generation) to a host
+    assistant.
   evidence:
     - Explicitly described as an MCP server for Creatify AI
     - Provides 12 tools for video, script, and avatar generation
     - Enables interaction with video workflows via MCP-compatible assistants like Claude Desktop
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.653Z"
+    updated_at: '2026-05-06T22:12:15.653Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:56.233Z"
+    updated_at: '2026-07-21T15:20:56.233Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:14:05.606Z"
+    updated_at: '2026-05-12T15:14:05.606Z'
     cause: null
     next_retry_at: null
     attempts: 1

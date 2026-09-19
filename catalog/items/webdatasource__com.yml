@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__webdatasource__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,13 @@ provenance:
           - Official Servers
         anchor_text: WebDataSource
         extracted_url: https://webdatasource.com/releases/latest/mcp/index.html
-        surrounding_text: "- **[WebDataSource](https://webdatasource.com/releases/latest/mcp/index.html)** - Web Crawler for AI Agents. Supercharge your AI agents with an MCP-ready web crawler that delivers real-time insights from the web and your private knowledge bases."
+        surrounding_text: >-
+          - **[WebDataSource](https://webdatasource.com/releases/latest/mcp/index.html)** - Web Crawler for AI Agents.
+          Supercharge your AI agents with an MCP-ready web crawler that delivers real-time insights from the web and
+          your private knowledge bases.
         confidence: high
     - id: discovery__www__webdatasource__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,7 +36,10 @@ provenance:
           - Official Servers
         anchor_text: WebDataSource
         extracted_url: https://webdatasource.com/releases/latest/mcp/index.html
-        surrounding_text: "- **[WebDataSource](https://webdatasource.com/releases/latest/mcp/index.html)** - Web Crawler for AI Agents. Supercharge your AI agents with an MCP-ready web crawler that delivers real-time insights from the web and your private knowledge bases."
+        surrounding_text: >-
+          - **[WebDataSource](https://webdatasource.com/releases/latest/mcp/index.html)** - Web Crawler for AI Agents.
+          Supercharge your AI agents with an MCP-ready web crawler that delivers real-time insights from the web and
+          your private knowledge bases.
         confidence: high
 metadata:
   github:
@@ -69,14 +75,15 @@ curation:
     - Listed in awesome-mcp-servers under 'Official Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:38:59.196Z"
+    updated_at: '2026-07-21T15:38:59.196Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -97,12 +104,14 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is primarily an MCP server with web crawling capabilities, not an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is primarily an MCP server with web crawling capabilities,
+        not an extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.971Z"
+    updated_at: '2026-07-21T15:20:21.971Z'
     cause: null
     next_retry_at: null
   stars:

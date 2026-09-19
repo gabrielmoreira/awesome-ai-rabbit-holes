@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bradagi__awesome-cli-coding-agents__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -29,14 +29,17 @@ metadata:
     archived: false
     full_name: bradAGI/awesome-cli-coding-agents
     html_url: https://github.com/bradAGI/awesome-cli-coding-agents
-    created_at: "2026-02-07T00:53:24Z"
-    pushed_at: "2026-08-31T15:42:07Z"
-    description: "Curated directory of terminal-native AI coding agents and the harnesses that orchestrate them. Covers open-source tools (Pi, OpenCode, Aider, Goose), platform agents (Claude Code, Codex, Gemini CLI), parallel runners, autonomous loops, and agent infrastructure. "
-    homepage: ""
+    created_at: '2026-02-07T00:53:24Z'
+    pushed_at: '2026-08-31T15:42:07Z'
+    description: >-
+      Curated directory of terminal-native AI coding agents and the harnesses that orchestrate them. Covers open-source
+      tools (Pi, OpenCode, Aider, Goose), platform agents (Claude Code, Codex, Gemini CLI), parallel runners, autonomous
+      loops, and agent infrastructure. 
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-07T04:13:37.124Z"
+    last_checked_at: '2026-09-07T04:13:37.124Z'
     readme:
-      fetched_at: "2026-09-07T04:13:37.124Z"
+      fetched_at: '2026-09-07T04:13:37.124Z'
       bytes: 101447
 insights:
   summary: Curated directory of terminal-native AI coding agents and their orchestration harnesses.
@@ -49,32 +52,31 @@ insights:
     - awesome-list
   confidence: high
 curation:
-  status: included
-  reason: This is a curated list/directory, not a standalone product, so it belongs in Awesome Awesomes as a navigation aid for developers.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Repo description explicitly calls it a 'curated directory'
-    - README confirms it is a 'curated list of 80+ CLI coding agents'
-    - Source-list context marks it as a direct awesome list
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (321) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.572Z"
+    updated_at: '2026-05-06T22:12:15.572Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:37.124Z"
+    updated_at: '2026-09-07T04:13:37.124Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:26:47.232Z"
+    updated_at: '2026-07-21T15:26:47.232Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -87,7 +89,9 @@ processing:
       input_hash: sha256:9eca6bb7b70c547d9589e27696754676f6e37fcece3834156e765470d1b9c537
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: This is a curated list/directory, not a standalone product, so it belongs in Awesome Awesomes as a navigation aid for developers.
+      decision_reason: >-
+        This is a curated list/directory, not a standalone product, so it belongs in Awesome Awesomes as a navigation
+        aid for developers.
       decision_evidence:
         - Repo description explicitly calls it a 'curated directory'
         - README confirms it is a 'curated list of 80+ CLI coding agents'
@@ -95,6 +99,8 @@ processing:
       category_candidates:
         - awesome-awesomes
         - coding-agents
-      contrastive_reason: Choose awesome-awesomes over coding-agents because the primary value is discovery/navigation rather than being a coding assistant itself.
+      contrastive_reason: >-
+        Choose awesome-awesomes over coding-agents because the primary value is discovery/navigation rather than being a
+        coding assistant itself.
       review_reason: null
       review_resume_lifecycle: null

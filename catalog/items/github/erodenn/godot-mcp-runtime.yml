@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__erodenn__godot-mcp-runtime__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: Erodenn/godot-mcp-runtime
         extracted_url: https://github.com/erodenn/godot-mcp-runtime
-        surrounding_text: "- [Erodenn/godot-mcp-runtime](https://github.com/Erodenn/godot-mcp-runtime) [![godot-runtime-mcp MCP server](https://glama.ai/mcp/servers/@Erodenn/godot-runtime-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@Erodenn/godot-runtime-mcp) 📇 🏠 🍎 🪟 🐧 - MCP server for Godot 4.x with runtime control via injected UDP bridge: input simulation, screenshots, UI discovery, and live GDScript execution while the game is running."
+        surrounding_text: >-
+          - [Erodenn/godot-mcp-runtime](https://github.com/Erodenn/godot-mcp-runtime) [![godot-runtime-mcp MCP
+          server](https://glama.ai/mcp/servers/@Erodenn/godot-runtime-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@Erodenn/godot-runtime-mcp)
+          📇 🏠 🍎 🪟 🐧 - MCP server for Godot 4.x with runtime control via injected UDP bridge: input simulation,
+          screenshots, UI discovery, and live GDScript execution while the game is running.
         confidence: high
 metadata:
   github:
@@ -30,19 +34,25 @@ metadata:
     archived: false
     full_name: Erodenn/godot-mcp-runtime
     html_url: https://github.com/Erodenn/godot-mcp-runtime
-    created_at: "2026-02-28T16:49:22Z"
-    pushed_at: "2026-08-07T16:29:16Z"
+    created_at: '2026-02-28T16:49:22Z'
+    pushed_at: '2026-08-07T16:29:16Z'
     description: A lightweight, zero-footprint TypeScript MCP server that lets AI assistants drive the Godot 4.x game engine.
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-08-27T09:23:25.195Z"
+    last_checked_at: '2026-08-27T09:23:25.195Z'
     readme:
-      fetched_at: "2026-08-27T09:23:25.195Z"
+      fetched_at: '2026-08-27T09:23:25.195Z'
       bytes: 14690
 insights:
-  summary: A TypeScript MCP server that provides AI assistants with runtime control over the Godot 4.x game engine via a lightweight TCP bridge.
-  why_it_matters: It enables AI agents to close the development loop by interacting with a running game—simulating input and verifying visual/logic state—rather than just editing scripts.
-  mental_damage: Finally, an agent that can actually check if your physics engine is broken instead of just confidently hallucinating that the code works.
+  summary: >-
+    A TypeScript MCP server that provides AI assistants with runtime control over the Godot 4.x game engine via a
+    lightweight TCP bridge.
+  why_it_matters: >-
+    It enables AI agents to close the development loop by interacting with a running game—simulating input and verifying
+    visual/logic state—rather than just editing scripts.
+  mental_damage: >-
+    Finally, an agent that can actually check if your physics engine is broken instead of just confidently hallucinating
+    that the code works.
   tags:
     - mcp
     - godot
@@ -52,31 +62,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is explicitly an MCP server designed to extend an assistant's capabilities into a specific domain (Godot runtime).
+  reason: >-
+    The product identity is explicitly an MCP server designed to extend an assistant's capabilities into a specific
+    domain (Godot runtime).
   evidence:
     - Description explicitly states it is a 'TypeScript MCP server'
     - README emphasizes the MCP implementation as the core delivery mechanism
     - Functionality focuses on providing tools (screenshots, input, UI discovery) to an external host
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:25.195Z"
+    updated_at: '2026-08-27T09:23:25.195Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:52:59.285Z"
+    updated_at: '2026-07-21T15:52:59.285Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +102,9 @@ processing:
       input_hash: sha256:5fc2fa31d4965fbaba1fc6edb33bc6a5a275b43d936e55248a0c27b8bb97279d
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product identity is explicitly an MCP server designed to extend an assistant's capabilities into a specific domain (Godot runtime).
+      decision_reason: >-
+        The product identity is explicitly an MCP server designed to extend an assistant's capabilities into a specific
+        domain (Godot runtime).
       decision_evidence:
         - Description explicitly states it is a 'TypeScript MCP server'
         - README emphasizes the MCP implementation as the core delivery mechanism
@@ -97,6 +112,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is specifically an MCP server designed to facilitate protocol-based tool use, rather than a general IDE/assistant integration.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is specifically an MCP server designed to
+        facilitate protocol-based tool use, rather than a general IDE/assistant integration.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__coollabsio__jean__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Session managers & parallel runners
         anchor_text: jean
         extracted_url: https://github.com/coollabsio/jean
-        surrounding_text: "- **[jean](https://github.com/coollabsio/jean)** `⭐ 893` — Administer multiple projects, worktrees, and sessions with Claude CLI."
+        surrounding_text: >-
+          - **[jean](https://github.com/coollabsio/jean)** `⭐ 893` — Administer multiple projects, worktrees, and
+          sessions with Claude CLI.
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: coollabsio/jean
     html_url: https://github.com/coollabsio/jean
-    created_at: "2026-01-23T07:59:41Z"
-    pushed_at: "2026-09-11T14:33:56Z"
+    created_at: '2026-01-23T07:59:41Z'
+    pushed_at: '2026-09-11T14:33:56Z'
     description: A dev environment for AI agents.
     homepage: https://jean.build
     topics:
@@ -41,14 +43,20 @@ metadata:
       - git
       - parallel
       - worktree
-    last_checked_at: "2026-09-14T04:13:29.471Z"
+    last_checked_at: '2026-09-14T04:13:29.471Z'
     readme:
-      fetched_at: "2026-09-14T04:13:29.471Z"
+      fetched_at: '2026-09-14T04:13:29.471Z'
       bytes: 10288
 insights:
-  summary: A desktop app for managing multiple AI coding agent sessions, worktrees, and projects across Claude CLI, Codex CLI, Cursor CLI, and OpenCode.
-  why_it_matters: It consolidates multi-agent workflows, git worktree automation, and cross-project context into a single interface, reducing the friction of switching between tools and repositories.
-  mental_damage: Finally, a way to juggle five different AI coding agents, twelve git worktrees, and your existential dread in one window.
+  summary: >-
+    A desktop app for managing multiple AI coding agent sessions, worktrees, and projects across Claude CLI, Codex CLI,
+    Cursor CLI, and OpenCode.
+  why_it_matters: >-
+    It consolidates multi-agent workflows, git worktree automation, and cross-project context into a single interface,
+    reducing the friction of switching between tools and repositories.
+  mental_damage: >-
+    Finally, a way to juggle five different AI coding agents, twelve git worktrees, and your existential dread in one
+    window.
   tags:
     - desktop
     - multi-agent
@@ -58,31 +66,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Jean is a UI shell and workflow manager that augments existing CLI coding agents with worktree automation, session management, and project integrations rather than acting as a primary coding assistant itself.
+  reason: >-
+    Jean is a UI shell and workflow manager that augments existing CLI coding agents with worktree automation, session
+    management, and project integrations rather than acting as a primary coding assistant itself.
   evidence:
-    - Repo description identifies it as 'A dev environment for AI agents', specifically a desktop UI for Claude CLI, Codex CLI, Cursor CLI, and OpenCode.
-    - README confirms it is an opinionated Tauri wrapper that adds worktree automation, session recap/digest, and GitHub/Linear integrations on top of installed CLI agents.
-    - Source list awesome-cli-coding-agents places it in 'Harnesses & orchestration > Session managers & parallel runners', reinforcing its identity as an orchestration UI rather than a standalone agent.
+    - >-
+      Repo description identifies it as 'A dev environment for AI agents', specifically a desktop UI for Claude CLI,
+      Codex CLI, Cursor CLI, and OpenCode.
+    - >-
+      README confirms it is an opinionated Tauri wrapper that adds worktree automation, session recap/digest, and
+      GitHub/Linear integrations on top of installed CLI agents.
+    - >-
+      Source list awesome-cli-coding-agents places it in 'Harnesses & orchestration > Session managers & parallel
+      runners', reinforcing its identity as an orchestration UI rather than a standalone agent.
 placement:
-  primary_category: ai-dev-extensions
-  section: null
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'agent-orchestration'"
+  reason: 'Categorization review required: placement disagreement: retained ''ai-dev-extensions'', proposed ''agent-orchestration'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.609Z"
+    updated_at: '2026-05-06T22:12:15.609Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:29.471Z"
+    updated_at: '2026-09-14T04:13:29.471Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:48:01.511Z"
+    updated_at: '2026-07-21T15:48:01.511Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -95,14 +112,22 @@ processing:
       input_hash: sha256:6bb056179c6b755bc0c75f398fc9ba08dc0e9a15ee6c19a5e4d463ba2d88da1c
       proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: Jean is a workbench for coordinating multiple coding agents (Claude CLI, Codex CLI, etc.) and their sessions/workflows, not a primary coding assistant itself.
+      decision_reason: >-
+        Jean is a workbench for coordinating multiple coding agents (Claude CLI, Codex CLI, etc.) and their
+        sessions/workflows, not a primary coding assistant itself.
       decision_evidence:
-        - "Repo description: 'A dev environment for AI agents'"
-        - "README: 'Jean is an opinionated native desktop app... for working with Claude CLI, Codex CLI, Cursor CLI, and OpenCode across multiple projects'"
-        - "Source-list context: Listed under 'Harnesses & orchestration > Session managers & parallel runners'"
+        - 'Repo description: ''A dev environment for AI agents'''
+        - >-
+          README: 'Jean is an opinionated native desktop app... for working with Claude CLI, Codex CLI, Cursor CLI, and
+          OpenCode across multiple projects'
+        - 'Source-list context: Listed under ''Harnesses & orchestration > Session managers & parallel runners'''
       category_candidates:
         - agent-orchestration
         - ai-dev-extensions
-      contrastive_reason: Choose agent-orchestration over ai-dev-extensions because Jean's core value is coordinating multiple agents and sessions, not merely extending a single host assistant.
-      review_reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'agent-orchestration'"
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-dev-extensions because Jean's core value is coordinating multiple agents and
+        sessions, not merely extending a single host assistant.
+      review_reason: >-
+        Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed
+        'agent-orchestration'
       review_resume_lifecycle: null

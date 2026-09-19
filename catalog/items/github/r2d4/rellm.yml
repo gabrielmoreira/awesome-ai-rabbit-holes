@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__r2d4__rellm__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -19,7 +19,9 @@ provenance:
           - Other LLM Frameworks
         anchor_text: ReLLM
         extracted_url: https://github.com/r2d4/rellm
-        surrounding_text: "- [ReLLM](https://github.com/r2d4/rellm): Regular Expressions for Language Model Completions. ![GitHub Repo stars](https://img.shields.io/github/stars/r2d4/rellm?style=social)"
+        surrounding_text: >-
+          - [ReLLM](https://github.com/r2d4/rellm): Regular Expressions for Language Model Completions. ![GitHub Repo
+          stars](https://img.shields.io/github/stars/r2d4/rellm?style=social)
         confidence: high
 metadata:
   github:
@@ -29,22 +31,28 @@ metadata:
     archived: false
     full_name: r2d4/rellm
     html_url: https://github.com/r2d4/rellm
-    created_at: "2023-05-05T03:51:56Z"
-    pushed_at: "2023-08-10T19:42:58Z"
+    created_at: '2023-05-05T03:51:56Z'
+    pushed_at: '2023-08-10T19:42:58Z'
     description: Exact structure out of any language model completion.
-    homepage: ""
+    homepage: ''
     topics:
       - huggingface-transformers
       - llm
       - transformers
-    last_checked_at: "2026-07-20T16:42:42.511Z"
+    last_checked_at: '2026-07-20T16:42:42.511Z'
     readme:
-      fetched_at: "2026-07-20T16:42:42.511Z"
+      fetched_at: '2026-07-20T16:42:42.511Z'
       bytes: 3977
 insights:
-  summary: A Python library that constrains LLM token generation in real-time using regular expressions to enforce exact output structure.
-  why_it_matters: It allows developers to reliably force small and local models to produce valid JSON, dates, or template strings without fragile post-processing parsing.
-  mental_damage: We have progressed from 'LLMs can't write accurate code' to 'we need regex to stop the LLM from hallucinating a date format,' which is surely the future we were promised.
+  summary: >-
+    A Python library that constrains LLM token generation in real-time using regular expressions to enforce exact output
+    structure.
+  why_it_matters: >-
+    It allows developers to reliably force small and local models to produce valid JSON, dates, or template strings
+    without fragile post-processing parsing.
+  mental_damage: >-
+    We have progressed from 'LLMs can't write accurate code' to 'we need regex to stop the LLM from hallucinating a date
+    format,' which is surely the future we were promised.
   tags:
     - regex
     - structured-output
@@ -54,35 +62,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a code-first library used to constrain model outputs via logit masking, fitting the Frameworks & SDKs category as a model abstraction tool.
+  reason: >-
+    This is a code-first library used to constrain model outputs via logit masking, fitting the Frameworks & SDKs
+    category as a model abstraction tool.
   evidence:
-    - "Repo description states: 'Exact structure out of any language model completion.'"
+    - 'Repo description states: ''Exact structure out of any language model completion.'''
     - README demonstrates usage as a Python library importing transformers and filtering tokens via regex patterns.
     - Listed in awesome-langchain under 'Other LLM Frameworks', confirming its identity as a building block.
 placement:
   primary_category: ai-frameworks
-  section: Provider / Model Abstractions
+  secondary_categories: []
+  section: LLM & Agent SDKs
 lifecycle:
   status: promotion_candidate
   reason: Stars (513) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.644Z"
+    updated_at: '2026-05-06T22:12:15.644Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:42.511Z"
+    updated_at: '2026-07-20T16:42:42.511Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

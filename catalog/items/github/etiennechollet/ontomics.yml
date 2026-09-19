@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__etiennechollet__ontomics__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: EtienneChollet/ontomics
         extracted_url: https://github.com/etiennechollet/ontomics
-        surrounding_text: "- [EtienneChollet/ontomics](https://github.com/EtienneChollet/ontomics) [![EtienneChollet/ontomics MCP server](https://glama.ai/mcp/servers/EtienneChollet/ontomics/badges/score.svg)](https://glama.ai/mcp/servers/EtienneChollet/ontomics) 🦀 🏠 🍎 🐧 - Semantic code index that extracts domain concepts, naming conventions, and behavioral similarity from codebases. One tool call instead of 19, ~20x fewer tokens for codebase understanding queries."
+        surrounding_text: >-
+          - [EtienneChollet/ontomics](https://github.com/EtienneChollet/ontomics) [![EtienneChollet/ontomics MCP
+          server](https://glama.ai/mcp/servers/EtienneChollet/ontomics/badges/score.svg)](https://glama.ai/mcp/servers/EtienneChollet/ontomics)
+          🦀 🏠 🍎 🐧 - Semantic code index that extracts domain concepts, naming conventions, and behavioral similarity
+          from codebases. One tool call instead of 19, ~20x fewer tokens for codebase understanding queries.
         confidence: high
 metadata:
   github:
@@ -30,10 +34,12 @@ metadata:
     archived: false
     full_name: EtienneChollet/ontomics
     html_url: https://github.com/EtienneChollet/ontomics
-    created_at: "2026-03-27T12:48:46Z"
-    pushed_at: "2026-04-17T01:21:28Z"
-    description: Extract domain knowledge from codebases to reduce LLM token consumption by 20x and time in agentic search by 10x — gathers and makes concepts, naming conventions, and vocabulary queryable via MCP.
-    homepage: ""
+    created_at: '2026-03-27T12:48:46Z'
+    pushed_at: '2026-04-17T01:21:28Z'
+    description: >-
+      Extract domain knowledge from codebases to reduce LLM token consumption by 20x and time in agentic search by 10x —
+      gathers and makes concepts, naming conventions, and vocabulary queryable via MCP.
+    homepage: ''
     topics:
       - agentic-coding
       - ai-coding
@@ -47,14 +53,20 @@ metadata:
       - rust
       - semantic-search
       - tree-sitter
-    last_checked_at: "2026-08-27T09:23:25.899Z"
+    last_checked_at: '2026-08-27T09:23:25.899Z'
     readme:
-      fetched_at: "2026-08-27T09:23:25.899Z"
+      fetched_at: '2026-08-27T09:23:25.899Z'
       bytes: 8615
 insights:
-  summary: An MCP server that indexes codebase domain knowledge, naming conventions, and behavioral similarities to optimize LLM context usage.
-  why_it_matters: It significantly reduces token consumption and latency by replacing dozens of generic search queries with a single, semantically-aware domain lookup.
-  mental_damage: Finally, a way to prove that your codebase's naming conventions are actually just accidental clusters of semantic similarity.
+  summary: >-
+    An MCP server that indexes codebase domain knowledge, naming conventions, and behavioral similarities to optimize
+    LLM context usage.
+  why_it_matters: >-
+    It significantly reduces token consumption and latency by replacing dozens of generic search queries with a single,
+    semantically-aware domain lookup.
+  mental_damage: >-
+    Finally, a way to prove that your codebase's naming conventions are actually just accidental clusters of semantic
+    similarity.
   tags:
     - mcp-server
     - context-engineering
@@ -64,31 +76,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core novelty is a semantic indexing and retrieval system that packs domain knowledge into the context window, fitting Prompt & Context Engineering even though it is delivered as an MCP server.
+  reason: >-
+    The core novelty is a semantic indexing and retrieval system that packs domain knowledge into the context window,
+    fitting Prompt & Context Engineering even though it is delivered as an MCP server.
   evidence:
-    - Repo description states it 'extract domain knowledge from codebases to reduce LLM token consumption by 20x' via MCP.
-    - README emphasizes semantic indexing, concept clustering, and behavioral similarity embedding rather than general MCP infrastructure.
+    - >-
+      Repo description states it 'extract domain knowledge from codebases to reduce LLM token consumption by 20x' via
+      MCP.
+    - >-
+      README emphasizes semantic indexing, concept clustering, and behavioral similarity embedding rather than general
+      MCP infrastructure.
     - Benchmark shows 1 tool call with ~3.7k tokens vs 19 calls with ~76k tokens for domain questions.
 placement:
-  primary_category: context-engineering
-  section: null
+  primary_category: mcp
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'mcp'"
+  reason: 'Categorization review required: placement disagreement: retained ''context-engineering'', proposed ''mcp'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:25.899Z"
+    updated_at: '2026-08-27T09:23:25.899Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:53:41.624Z"
+    updated_at: '2026-07-21T15:53:41.624Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -101,7 +120,9 @@ processing:
       input_hash: sha256:445e89724e087aa840484512bdd22b4887b991e5aaaeac5fb811e3559bac0989
       proposed_primary_category: mcp
       disagreement: true
-      decision_reason: The product's identity is centered on being an MCP server that provides specialized domain context to hosts like Claude Code.
+      decision_reason: >-
+        The product's identity is centered on being an MCP server that provides specialized domain context to hosts like
+        Claude Code.
       decision_evidence:
         - README explicitly provides installation instructions for MCP clients like Claude Code and Codex
         - Primary value proposition is a single MCP tool call replacing multiple standard search calls
@@ -109,6 +130,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the tool's primary interface and delivery mechanism is the Model Context Protocol.
-      review_reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'mcp'"
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the tool's primary interface and delivery mechanism is the Model
+        Context Protocol.
+      review_reason: 'Categorization review required: placement disagreement: retained ''context-engineering'', proposed ''mcp'''
       review_resume_lifecycle: null

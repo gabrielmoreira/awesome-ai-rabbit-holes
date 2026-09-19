@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__allvoicelab__allvoicelab-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: AllVoiceLab
         extracted_url: https://www.allvoicelab.com/mcp
-        surrounding_text: "- **[AllVoiceLab](https://www.allvoicelab.com/mcp)** - An AI voice toolkit with TTS, voice cloning, and video translation, now available as an MCP server for smarter agent integration."
+        surrounding_text: >-
+          - **[AllVoiceLab](https://www.allvoicelab.com/mcp)** - An AI voice toolkit with TTS, voice cloning, and video
+          translation, now available as an MCP server for smarter agent integration.
         confidence: high
 metadata:
   github:
@@ -29,9 +31,11 @@ metadata:
     archived: false
     full_name: allvoicelab/AllVoiceLab-MCP
     html_url: https://github.com/allvoicelab/AllVoiceLab-MCP
-    created_at: "2025-05-16T03:05:20Z"
-    pushed_at: "2025-08-05T09:22:36Z"
-    description: "Official AllVoiceLab Model Context Protocol (MCP) server, supporting interaction with powerful text-to-speech and video translation APIs. "
+    created_at: '2025-05-16T03:05:20Z'
+    pushed_at: '2025-08-05T09:22:36Z'
+    description: >-
+      Official AllVoiceLab Model Context Protocol (MCP) server, supporting interaction with powerful text-to-speech and
+      video translation APIs. 
     homepage: https://www.allvoicelab.com/mcp
     topics:
       - aivoice
@@ -45,13 +49,17 @@ metadata:
       - video-translation
       - voice-cloning
       - voice-generation
-    last_checked_at: "2026-09-17T04:13:41.993Z"
+    last_checked_at: '2026-09-17T04:13:41.993Z'
     readme:
-      fetched_at: "2026-09-17T04:13:41.993Z"
+      fetched_at: '2026-09-17T04:13:41.993Z'
       bytes: 7998
 insights:
-  summary: Official Model Context Protocol (MCP) server for AllVoiceLab, enabling MCP clients to interact with text-to-speech, voice cloning, and video translation APIs.
-  why_it_matters: Developers can integrate advanced audio and video localization capabilities directly into MCP-compatible assistants like Claude Desktop or Cursor.
+  summary: >-
+    Official Model Context Protocol (MCP) server for AllVoiceLab, enabling MCP clients to interact with text-to-speech,
+    voice cloning, and video translation APIs.
+  why_it_matters: >-
+    Developers can integrate advanced audio and video localization capabilities directly into MCP-compatible assistants
+    like Claude Desktop or Cursor.
   mental_damage: Now your coding assistant can also dub your cat videos into Klingon.
   tags:
     - mcp
@@ -69,24 +77,25 @@ curation:
     - Listed in awesome-mcp-servers under 'Official Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.601Z"
+    updated_at: '2026-05-06T22:12:15.601Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:41.993Z"
+    updated_at: '2026-09-17T04:13:41.993Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:22:23.729Z"
+    updated_at: '2026-07-21T15:22:23.729Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -99,7 +108,9 @@ processing:
       input_hash: sha256:25ee2f00ec251083f48bc1709986f2b4384baf608d957e0fb3fea7a1146ef568
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is as an MCP server providing domain-specific (audio/video) capabilities to MCP clients.
+      decision_reason: >-
+        The product's core identity is as an MCP server providing domain-specific (audio/video) capabilities to MCP
+        clients.
       decision_evidence:
         - Repo description explicitly states it is an 'Official AllVoiceLab Model Context Protocol (MCP) server'
         - README confirms it enables MCP clients (Claude Desktop, Cursor, etc.) to use AllVoiceLab's APIs
@@ -107,6 +118,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary product identity is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary product identity is an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

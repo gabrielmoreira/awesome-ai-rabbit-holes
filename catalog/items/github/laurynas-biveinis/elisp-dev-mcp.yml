@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__laurynas-biveinis__elisp-dev-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: elisp-dev-mcp
         extracted_url: https://github.com/laurynas-biveinis/elisp-dev-mcp
-        surrounding_text: "- **[elisp-dev-mcp](https://github.com/laurynas-biveinis/elisp-dev-mcp)** - elisp (Emacs Lisp) development support tools, running in Emacs."
+        surrounding_text: >-
+          - **[elisp-dev-mcp](https://github.com/laurynas-biveinis/elisp-dev-mcp)** - elisp (Emacs Lisp) development
+          support tools, running in Emacs.
         confidence: high
 metadata:
   github:
@@ -29,19 +31,25 @@ metadata:
     archived: false
     full_name: laurynas-biveinis/elisp-dev-mcp
     html_url: https://github.com/laurynas-biveinis/elisp-dev-mcp
-    created_at: "2025-04-30T12:35:55Z"
-    pushed_at: "2026-06-30T11:20:14Z"
+    created_at: '2025-04-30T12:35:55Z'
+    pushed_at: '2026-06-30T11:20:14Z'
     description: Dev tools in Emacs MCP for agentic Elisp development with LLMs
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:06:04.016Z"
+    last_checked_at: '2026-07-30T05:06:04.016Z'
     readme:
-      fetched_at: "2026-07-30T05:06:04.016Z"
+      fetched_at: '2026-07-30T05:06:04.016Z'
       bytes: 7561
 insights:
-  summary: An Emacs package that runs an MCP server to let AI agents retrieve Elisp function definitions, variable metadata, and Info documentation for agentic Emacs Lisp development.
-  why_it_matters: It gives coding agents structured, programmatic access to Emacs internals so they can reason about and edit Elisp code without guessing at docs or source locations.
-  mental_damage: You can now ask a model to refactor your .emacs.d while Emacs itself patiently serves up its own documentation like a helpful hostage.
+  summary: >-
+    An Emacs package that runs an MCP server to let AI agents retrieve Elisp function definitions, variable metadata,
+    and Info documentation for agentic Emacs Lisp development.
+  why_it_matters: >-
+    It gives coding agents structured, programmatic access to Emacs internals so they can reason about and edit Elisp
+    code without guessing at docs or source locations.
+  mental_damage: >-
+    You can now ask a model to refactor your .emacs.d while Emacs itself patiently serves up its own documentation like
+    a helpful hostage.
   tags:
     - emacs
     - elisp
@@ -50,35 +58,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product’s core identity is an MCP server that exposes Emacs/Elisp capabilities to agents, which fits MCP Servers & Tooling as a domain-specific server.
+  reason: >-
+    The product’s core identity is an MCP server that exposes Emacs/Elisp capabilities to agents, which fits MCP Servers
+    & Tooling as a domain-specific server.
   evidence:
-    - "Repo description: 'Dev tools in Emacs MCP for agentic Elisp development with LLMs'."
-    - "README: 'elisp-dev-mcp is an Emacs package that provides an MCP server for agentic Elisp development'."
+    - 'Repo description: ''Dev tools in Emacs MCP for agentic Elisp development with LLMs''.'
+    - 'README: ''elisp-dev-mcp is an Emacs package that provides an MCP server for agentic Elisp development''.'
     - Listed in awesome-mcp-servers under Community Servers, reinforcing the MCP server identity.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.626Z"
+    updated_at: '2026-05-06T22:12:15.626Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:04.016Z"
+    updated_at: '2026-07-30T05:06:04.016Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

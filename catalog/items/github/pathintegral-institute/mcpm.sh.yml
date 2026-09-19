@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pathintegral-institute__mcpm.sh__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -29,9 +29,11 @@ metadata:
     archived: false
     full_name: pathintegral-institute/mcpm.sh
     html_url: https://github.com/pathintegral-institute/mcpm.sh
-    created_at: "2025-03-21T10:16:41Z"
-    pushed_at: "2026-06-14T10:38:13Z"
-    description: CLI MCP package manager & registry for all platforms and all clients. Search & configure MCP servers. Advanced Router & Profile features.
+    created_at: '2025-03-21T10:16:41Z'
+    pushed_at: '2026-06-14T10:38:13Z'
+    description: >-
+      CLI MCP package manager & registry for all platforms and all clients. Search & configure MCP servers. Advanced
+      Router & Profile features.
     homepage: https://mcpm.sh/
     topics:
       - ai
@@ -52,14 +54,20 @@ metadata:
       - stdio
       - tools
       - windsurf
-    last_checked_at: "2026-07-20T16:42:31.489Z"
+    last_checked_at: '2026-07-20T16:42:31.489Z'
     readme:
-      fetched_at: "2026-07-20T16:42:31.489Z"
+      fetched_at: '2026-07-20T16:42:31.489Z'
       bytes: 14692
 insights:
-  summary: A CLI package manager and registry for discovering, configuring, and routing MCP servers across multiple AI coding clients like Claude Desktop, Cursor, and Windsurf.
-  why_it_matters: It centralizes the fragmented MCP ecosystem into a single global configuration, letting developers manage server profiles and client integrations without editing JSON files by hand.
-  mental_damage: Finally, a package manager for the protocol that manages the tools that manage the AI that manages to break your build—progress is a stack of indirection.
+  summary: >-
+    A CLI package manager and registry for discovering, configuring, and routing MCP servers across multiple AI coding
+    clients like Claude Desktop, Cursor, and Windsurf.
+  why_it_matters: >-
+    It centralizes the fragmented MCP ecosystem into a single global configuration, letting developers manage server
+    profiles and client integrations without editing JSON files by hand.
+  mental_damage: >-
+    Finally, a package manager for the protocol that manages the tools that manage the AI that manages to break your
+    build—progress is a stack of indirection.
   tags:
     - mcp
     - cli
@@ -69,13 +77,18 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "The product's identity is MCP infrastructure itself: a registry, CLI manager, and router for MCP servers, fitting squarely into MCP Servers & Tooling."
+  reason: >-
+    The product's identity is MCP infrastructure itself: a registry, CLI manager, and router for MCP servers, fitting
+    squarely into MCP Servers & Tooling.
   evidence:
-    - "Repo description explicitly states: 'CLI MCP package manager & registry for all platforms and all clients.'"
-    - README describes the tool as 'an open source CLI tool for managing MCP servers' with a 'central registry' and 'router' features.
+    - 'Repo description explicitly states: ''CLI MCP package manager & registry for all platforms and all clients.'''
+    - >-
+      README describes the tool as 'an open source CLI tool for managing MCP servers' with a 'central registry' and
+      'router' features.
     - Topics include 'mcp', 'package-manager', and covers integrations for Claude, Cursor, Windsurf, and Cline.
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Registries & Discovery
 lifecycle:
   status: promotion_candidate
@@ -83,21 +96,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.641Z"
+    updated_at: '2026-05-06T22:12:15.641Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:31.489Z"
+    updated_at: '2026-07-20T16:42:31.489Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

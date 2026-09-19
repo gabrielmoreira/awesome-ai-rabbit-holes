@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__datacharter__datacharter__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-30T05:05:26.992Z"
+      discovered_at: '2026-07-30T05:05:26.992Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: datacharter/datacharter
         extracted_url: https://github.com/datacharter/datacharter
-        surrounding_text: "- [datacharter/datacharter](https://github.com/datacharter/datacharter) [![datacharter/datacharter MCP server](https://glama.ai/mcp/servers/datacharter/datacharter/badges/score.svg)](https://glama.ai/mcp/servers/datacharter/datacharter) 🐍 🏠 - Local, contract-governed federation across files and databases (Postgres, Snowflake, BigQuery, DuckDB, Excel, and more) with read-only guards, PII masking, and per-column agent access."
+        surrounding_text: >-
+          - [datacharter/datacharter](https://github.com/datacharter/datacharter) [![datacharter/datacharter MCP
+          server](https://glama.ai/mcp/servers/datacharter/datacharter/badges/score.svg)](https://glama.ai/mcp/servers/datacharter/datacharter)
+          🐍 🏠 - Local, contract-governed federation across files and databases (Postgres, Snowflake, BigQuery, DuckDB,
+          Excel, and more) with read-only guards, PII masking, and per-column agent access.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: datacharter/datacharter
     html_url: https://github.com/datacharter/datacharter
-    created_at: "2026-07-24T05:50:16Z"
-    pushed_at: "2026-09-09T03:56:20Z"
-    description: Your data, explored locally — and your AI agents kept on a leash. A federated data explorer with governed agentic access.
+    created_at: '2026-07-24T05:50:16Z'
+    pushed_at: '2026-09-09T03:56:20Z'
+    description: >-
+      Your data, explored locally — and your AI agents kept on a leash. A federated data explorer with governed agentic
+      access.
     homepage: https://datacharter.dev
     topics:
       - data-catalog
@@ -52,14 +58,20 @@ metadata:
       - row-level-security
       - self-hosted
       - sql
-    last_checked_at: "2026-09-14T04:13:34.608Z"
+    last_checked_at: '2026-09-14T04:13:34.608Z'
     readme:
-      fetched_at: "2026-09-14T04:13:34.608Z"
+      fetched_at: '2026-09-14T04:13:34.608Z'
       bytes: 10817
 insights:
-  summary: DataCharter is a local federated data explorer that lets developers query files and databases with DuckDB and govern AI agent access via charter.yaml contracts.
-  why_it_matters: It enables developers to safely expose only the data they choose to AI agents, enforcing PII masking, access policies, and auditability locally.
-  mental_damage: Finally, a way to stop panicking every time you point an AI at your data warehouse and whisper 'please don’t leak SSNs'.
+  summary: >-
+    DataCharter is a local federated data explorer that lets developers query files and databases with DuckDB and govern
+    AI agent access via charter.yaml contracts.
+  why_it_matters: >-
+    It enables developers to safely expose only the data they choose to AI agents, enforcing PII masking, access
+    policies, and auditability locally.
+  mental_damage: >-
+    Finally, a way to stop panicking every time you point an AI at your data warehouse and whisper 'please don’t leak
+    SSNs'.
   tags:
     - data-governance
     - local-first
@@ -68,31 +80,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: DataCharter’s core is governed context delivery—masking, policy enforcement, and audit trails that shape what agents see—making it a context engineering tool, not a coding agent or MCP server alone.
+  reason: >-
+    DataCharter’s core is governed context delivery—masking, policy enforcement, and audit trails that shape what agents
+    see—making it a context engineering tool, not a coding agent or MCP server alone.
   evidence:
-    - README emphasizes 'governed data plane for AI agents' with PII masking, column-level access, and policies like 'aggregates only' enforced via query analysis
+    - >-
+      README emphasizes 'governed data plane for AI agents' with PII masking, column-level access, and policies like
+      'aggregates only' enforced via query analysis
     - Repo description and MCP server listing highlight federated local DuckDB access governed by charter.yaml contracts
-    - Features like `datacharter eval`, `access diff`, and redteam tooling focus on measuring and verifying what context agents receive, not writing code
+    - >-
+      Features like `datacharter eval`, `access diff`, and redteam tooling focus on measuring and verifying what context
+      agents receive, not writing code
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: mcp
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-30T05:05:26.994Z"
+    updated_at: '2026-07-30T05:05:26.994Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:34.608Z"
+    updated_at: '2026-09-14T04:13:34.608Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T09:25:43.185Z"
+    updated_at: '2026-08-27T09:25:43.185Z'
     cause: null
     next_retry_at: null
     classification:
@@ -102,15 +121,26 @@ processing:
       input_hash: sha256:39d2aa2b06755984a7e71db1733656d5ce9bccd8e93fd01bf2af2814b032f86a
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: DataCharter’s core is governed context delivery—masking, policy enforcement, and audit trails that shape what agents see—making it a context engineering tool, not a coding agent or MCP server alone.
+      decision_reason: >-
+        DataCharter’s core is governed context delivery—masking, policy enforcement, and audit trails that shape what
+        agents see—making it a context engineering tool, not a coding agent or MCP server alone.
       decision_evidence:
-        - README emphasizes 'governed data plane for AI agents' with PII masking, column-level access, and policies like 'aggregates only' enforced via query analysis
-        - Repo description and MCP server listing highlight federated local DuckDB access governed by charter.yaml contracts
-        - Features like `datacharter eval`, `access diff`, and redteam tooling focus on measuring and verifying what context agents receive, not writing code
+        - >-
+          README emphasizes 'governed data plane for AI agents' with PII masking, column-level access, and policies like
+          'aggregates only' enforced via query analysis
+        - >-
+          Repo description and MCP server listing highlight federated local DuckDB access governed by charter.yaml
+          contracts
+        - >-
+          Features like `datacharter eval`, `access diff`, and redteam tooling focus on measuring and verifying what
+          context agents receive, not writing code
       category_candidates:
         - context-engineering
         - mcp
-      contrastive_reason: Choose context-engineering over mcp because DataCharter’s primary value is shaping and governing the context (data access, masking, policies) presented to agents, not merely exposing an MCP server—MCP is a transport, not the core novelty.
+      contrastive_reason: >-
+        Choose context-engineering over mcp because DataCharter’s primary value is shaping and governing the context
+        (data access, masking, policies) presented to agents, not merely exposing an MCP server—MCP is a transport, not
+        the core novelty.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

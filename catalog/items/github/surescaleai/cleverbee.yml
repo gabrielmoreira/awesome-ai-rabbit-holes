@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__surescaleai__cleverbee__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -19,7 +19,9 @@ provenance:
           - Frameworks
         anchor_text: CleverBee
         extracted_url: https://github.com/surescaleai/cleverbee
-        surrounding_text: "- Developer-friendly SDK- [CleverBee](https://github.com/SureScaleAI/cleverbee) - Deep research assistant agent"
+        surrounding_text: >-
+          - Developer-friendly SDK- [CleverBee](https://github.com/SureScaleAI/cleverbee) - Deep research assistant
+          agent
         confidence: high
 metadata:
   github:
@@ -29,20 +31,26 @@ metadata:
     archived: false
     full_name: SureScaleAI/cleverbee
     html_url: https://github.com/SureScaleAI/cleverbee
-    created_at: "2025-04-20T07:34:27Z"
-    pushed_at: "2026-01-31T01:09:09Z"
+    created_at: '2025-04-20T07:34:27Z'
+    pushed_at: '2026-01-31T01:09:09Z'
     description: CleverBee - The Open Source Deep Researcher Tool
     homepage: https://cleverb.ee
     topics:
       - research
-    last_checked_at: "2026-07-21T15:20:37.316Z"
+    last_checked_at: '2026-07-21T15:20:37.316Z'
     readme:
-      fetched_at: "2026-07-21T15:20:37.316Z"
+      fetched_at: '2026-07-21T15:20:37.316Z'
       bytes: 3233
 insights:
-  summary: CleverBee is an open-source, Python-based research assistant that uses LLMs, Playwright, and Chainlit to automate web browsing, content extraction, and synthesis into research reports.
-  why_it_matters: It provides developers with a local, configurable agent to automate deep web research tasks, supporting multiple LLM providers and featuring built-in token tracking and cost estimation.
-  mental_damage: Yet another agent promising to read the internet for you, ensuring you can now hallucinate authoritative sources at machine speed instead of human speed.
+  summary: >-
+    CleverBee is an open-source, Python-based research assistant that uses LLMs, Playwright, and Chainlit to automate
+    web browsing, content extraction, and synthesis into research reports.
+  why_it_matters: >-
+    It provides developers with a local, configurable agent to automate deep web research tasks, supporting multiple LLM
+    providers and featuring built-in token tracking and cost estimation.
+  mental_damage: >-
+    Yet another agent promising to read the internet for you, ensuring you can now hallucinate authoritative sources at
+    machine speed instead of human speed.
   tags:
     - research-agent
     - langchain
@@ -52,35 +60,40 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The project is a standalone AI agent that autonomously plans, browses, and synthesizes information via a CLI and web UI, fitting the definition of a developer-facing agent, though its focus is research rather than code editing.
+  reason: >-
+    The project is a standalone AI agent that autonomously plans, browses, and synthesizes information via a CLI and web
+    UI, fitting the definition of a developer-facing agent, though its focus is research rather than code editing.
   evidence:
     - Repo description explicitly calls it an 'Open Source Deep Researcher Tool'.
-    - README states it is a 'Python-based research assistant agent' using LLMs, Playwright, and Chainlit for an interactive UI.
+    - >-
+      README states it is a 'Python-based research assistant agent' using LLMs, Playwright, and Chainlit for an
+      interactive UI.
     - Listed in 'awesome-llm-agents' under the section 'Frameworks'.
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: ai-frameworks
+  secondary_categories: []
+  section: LLM & Agent SDKs
 lifecycle:
   status: promotion_candidate
   reason: Stars (307) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.650Z"
+    updated_at: '2026-05-06T22:12:15.650Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:37.316Z"
+    updated_at: '2026-07-21T15:20:37.316Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

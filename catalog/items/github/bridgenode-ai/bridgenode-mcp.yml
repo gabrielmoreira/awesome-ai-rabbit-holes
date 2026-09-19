@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bridgenode-ai__bridgenode-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-09-10T04:12:32.934Z"
+      discovered_at: '2026-09-10T04:12:32.934Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: bridgenode-ai/bridgenode-mcp
         extracted_url: https://github.com/bridgenode-ai/bridgenode-mcp
-        surrounding_text: "- [bridgenode-ai/bridgenode-mcp](https://github.com/bridgenode-ai/bridgenode-mcp) [![bridgenode-ai/bridgenode-mcp MCP server](https://glama.ai/mcp/servers/bridgenode-ai/bridgenode-mcp/badges/score.svg)](https://glama.ai/mcp/servers/bridgenode-ai/bridgenode-mcp) 📇 ☁️ - Pay-per-request AI inference for agents: chat completions across any supported model via x402 with automatic Solana USDC payments. No API keys, no registration, fail-closed spending caps. `npx -y @bridgenode/mcp` or remote `https://bridgenode.cc/mcp`."
+        surrounding_text: >-
+          - [bridgenode-ai/bridgenode-mcp](https://github.com/bridgenode-ai/bridgenode-mcp)
+          [![bridgenode-ai/bridgenode-mcp MCP
+          server](https://glama.ai/mcp/servers/bridgenode-ai/bridgenode-mcp/badges/score.svg)](https://glama.ai/mcp/servers/bridgenode-ai/bridgenode-mcp)
+          📇 ☁️ - Pay-per-request AI inference for agents: chat completions across any supported model via x402 with
+          automatic Solana USDC payments. No API keys, no registration, fail-closed spending caps. `npx -y
+          @bridgenode/mcp` or remote `https://bridgenode.cc/mcp`.
         confidence: high
 metadata:
   github:
@@ -30,8 +36,8 @@ metadata:
     archived: false
     full_name: bridgenode-ai/bridgenode-mcp
     html_url: https://github.com/bridgenode-ai/bridgenode-mcp
-    created_at: "2026-08-15T16:02:46Z"
-    pushed_at: "2026-09-09T06:19:03Z"
+    created_at: '2026-08-15T16:02:46Z'
+    pushed_at: '2026-09-09T06:19:03Z'
     description: BridgeNode — x402 pay-per-request AI inference. MCP server for AI agents.
     homepage: https://bridgenode.cc
     topics:
@@ -55,14 +61,18 @@ metadata:
       - usdc
       - vision
       - x402
-    last_checked_at: "2026-09-10T04:13:00.889Z"
+    last_checked_at: '2026-09-10T04:13:00.889Z'
     readme:
-      fetched_at: "2026-09-10T04:13:00.889Z"
+      fetched_at: '2026-09-10T04:13:00.889Z'
       bytes: 3003
 insights:
   summary: An MCP server that provides pay-per-request AI inference using the x402 protocol and Solana USDC.
-  why_it_matters: It allows AI agents to access models via micro-payments, bypassing the need for traditional API keys or fixed monthly subscriptions.
-  mental_damage: Nothing signals the 'agentic future' quite like giving your coding assistant a Solana wallet and a spending policy for its own tokens.
+  why_it_matters: >-
+    It allows AI agents to access models via micro-payments, bypassing the need for traditional API keys or fixed
+    monthly subscriptions.
+  mental_damage: >-
+    Nothing signals the 'agentic future' quite like giving your coding assistant a Solana wallet and a spending policy
+    for its own tokens.
   tags:
     - mcp
     - ai-agents
@@ -79,24 +89,25 @@ curation:
     - Designed for direct installation into MCP clients like Claude Code and Cursor
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-10T04:12:32.936Z"
+    updated_at: '2026-09-10T04:12:32.936Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:13:00.889Z"
+    updated_at: '2026-09-10T04:13:00.889Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-10T04:17:39.532Z"
+    updated_at: '2026-09-10T04:17:39.532Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -113,7 +124,9 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is a protocol-specific server implementation rather than a general feature augmentation.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is a protocol-specific server
+        implementation rather than a general feature augmentation.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

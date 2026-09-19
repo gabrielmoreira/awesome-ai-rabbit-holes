@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kunwar-shah__claudex__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: kunwar-shah/claudex
         extracted_url: https://github.com/kunwar-shah/claudex
-        surrounding_text: "- [kunwar-shah/claudex](https://github.com/kunwar-shah/claudex) [![kunwar-shah/claudex MCP server](https://glama.ai/mcp/servers/kunwar-shah/claudex/badges/score.svg)](https://glama.ai/mcp/servers/kunwar-shah/claudex) 📇 🏠 🍎 🪟 🐧 - Persistent memory + FTS5 full-text search for Claude Code conversation history. Indexes `~/.claude/projects/` JSONL into SQLite, exposes 10 MCP tools (store/recall/"
+        surrounding_text: >-
+          - [kunwar-shah/claudex](https://github.com/kunwar-shah/claudex) [![kunwar-shah/claudex MCP
+          server](https://glama.ai/mcp/servers/kunwar-shah/claudex/badges/score.svg)](https://glama.ai/mcp/servers/kunwar-shah/claudex)
+          📇 🏠 🍎 🪟 🐧 - Persistent memory + FTS5 full-text search for Claude Code conversation history. Indexes
+          `~/.claude/projects/` JSONL into SQLite, exposes 10 MCP tools (store/recall/
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: kunwar-shah/claudex
     html_url: https://github.com/kunwar-shah/claudex
-    created_at: "2025-10-03T07:36:39Z"
-    pushed_at: "2026-06-20T20:02:44Z"
-    description: MCP server with persistent memory + FTS5 search for Claude Code conversation history. Index your ~/.claude/projects/, expose 10 MCP tools, browse via web UI. MIT-licensed.
+    created_at: '2025-10-03T07:36:39Z'
+    pushed_at: '2026-06-20T20:02:44Z'
+    description: >-
+      MCP server with persistent memory + FTS5 search for Claude Code conversation history. Index your
+      ~/.claude/projects/, expose 10 MCP tools, browse via web UI. MIT-licensed.
     homepage: https://kunwar-shah.github.io/claudex/
     topics:
       - agent-memory
@@ -53,14 +59,20 @@ metadata:
       - react
       - sqlite
       - typescript
-    last_checked_at: "2026-07-30T05:06:01.478Z"
+    last_checked_at: '2026-07-30T05:06:01.478Z'
     readme:
-      fetched_at: "2026-07-30T05:06:01.478Z"
+      fetched_at: '2026-07-30T05:06:01.478Z'
       bytes: 22782
 insights:
-  summary: Claudex is an MCP server with persistent memory and FTS5 search for Claude Code conversation history, providing a web UI to browse and search ~/.claude/projects/.
-  why_it_matters: It gives Claude Code long-term memory and searchable context across sessions, reducing repetitive explanations and helping developers retain project knowledge.
-  mental_damage: Another tool to install just so your AI remembers what you told it five minutes ago—welcome to the era of AI amnesia insurance.
+  summary: >-
+    Claudex is an MCP server with persistent memory and FTS5 search for Claude Code conversation history, providing a
+    web UI to browse and search ~/.claude/projects/.
+  why_it_matters: >-
+    It gives Claude Code long-term memory and searchable context across sessions, reducing repetitive explanations and
+    helping developers retain project knowledge.
+  mental_damage: >-
+    Another tool to install just so your AI remembers what you told it five minutes ago—welcome to the era of AI amnesia
+    insurance.
   tags:
     - mcp
     - memory
@@ -69,31 +81,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Claudex primarily augments Claude Code with persistent memory and search capabilities rather than acting as a standalone coding assistant, making it an extension focused on memory and context.
+  reason: >-
+    Claudex primarily augments Claude Code with persistent memory and search capabilities rather than acting as a
+    standalone coding assistant, making it an extension focused on memory and context.
   evidence:
-    - "Repo description: 'MCP server with persistent memory + FTS5 search for Claude Code conversation history'"
-    - "README: 'Give Claude Code persistent memory — conventions, architecture, decisions, and error patterns survive across sessions'"
+    - 'Repo description: ''MCP server with persistent memory + FTS5 search for Claude Code conversation history'''
+    - >-
+      README: 'Give Claude Code persistent memory — conventions, architecture, decisions, and error patterns survive
+      across sessions'
     - Features include MCP server with 10 tools for context management, not code generation or editing
 placement:
-  primary_category: ai-dev-extensions
-  section: Memory & Context Add-ons
+  primary_category: mcp
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.819Z"
+    updated_at: '2026-05-28T05:28:09.819Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:01.478Z"
+    updated_at: '2026-07-30T05:06:01.478Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-02T05:31:01.362Z"
+    updated_at: '2026-07-02T05:31:01.362Z'
     cause: null
     next_retry_at: null
     attempts: 1

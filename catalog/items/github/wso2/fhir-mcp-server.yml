@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wso2__fhir-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,14 @@ provenance:
           - <a name="bio"></a>Biology, Medicine and Bioinformatics
         anchor_text: wso2/fhir-mcp-server
         extracted_url: https://github.com/wso2/fhir-mcp-server
-        surrounding_text: "- [wso2/fhir-mcp-server](https://github.com/wso2/fhir-mcp-server) 🐍 🏠 ☁️ - Model Context Protocol server for Fast Healthcare Interoperability Resources (FHIR) APIs. Provides seamless integration with FHIR servers, enabling AI assistants to search, retrieve, create, update, and analyze clinical healthcare data with SMART-on-FHIR authentication support."
+        surrounding_text: >-
+          - [wso2/fhir-mcp-server](https://github.com/wso2/fhir-mcp-server) 🐍 🏠 ☁️ - Model Context Protocol server for
+          Fast Healthcare Interoperability Resources (FHIR) APIs. Provides seamless integration with FHIR servers,
+          enabling AI assistants to search, retrieve, create, update, and analyze clinical healthcare data with
+          SMART-on-FHIR authentication support.
         confidence: high
     - id: discovery__github__wso2__fhir-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +39,10 @@ provenance:
           - Official Servers
         anchor_text: FHIR
         extracted_url: https://github.com/wso2/fhir-mcp-server
-        surrounding_text: "- **[FHIR](https://github.com/wso2/fhir-mcp-server/)** - Model Context Protocol server for Fast Healthcare Interoperability Resources (FHIR) APIs, enabling seamless integration with healthcare data through SMART-on-FHIR authentication and comprehensive FHIR operations."
+        surrounding_text: >-
+          - **[FHIR](https://github.com/wso2/fhir-mcp-server/)** - Model Context Protocol server for Fast Healthcare
+          Interoperability Resources (FHIR) APIs, enabling seamless integration with healthcare data through
+          SMART-on-FHIR authentication and comprehensive FHIR operations.
         confidence: high
 metadata:
   github:
@@ -45,23 +52,25 @@ metadata:
     archived: false
     full_name: wso2/fhir-mcp-server
     html_url: https://github.com/wso2/fhir-mcp-server
-    created_at: "2025-06-18T12:57:58Z"
-    pushed_at: "2026-07-14T05:07:31Z"
+    created_at: '2025-06-18T12:57:58Z'
+    pushed_at: '2026-07-14T05:07:31Z'
     description: FHIR MCP Server – helping you expose any FHIR Server or API as a MCP Server.
-    homepage: ""
+    homepage: ''
     topics:
       - fhir
       - healthcare
       - mcp
       - mcp-server
       - modelcontextprotocol
-    last_checked_at: "2026-07-21T15:21:15.948Z"
+    last_checked_at: '2026-07-21T15:21:15.948Z'
     readme:
-      fetched_at: "2026-07-21T15:21:15.948Z"
+      fetched_at: '2026-07-21T15:21:15.948Z'
       bytes: 20581
 insights:
   summary: FHIR MCP Server exposes FHIR APIs as Model Context Protocol (MCP) servers for AI tool integration.
-  why_it_matters: Enables developers to connect healthcare FHIR data directly to AI assistants via standardized MCP, reducing custom integration work.
+  why_it_matters: >-
+    Enables developers to connect healthcare FHIR data directly to AI assistants via standardized MCP, reducing custom
+    integration work.
   mental_damage: Another layer of protocol translation just to ask an LLM for a patient's latest lab result.
   tags:
     - mcp
@@ -72,29 +81,32 @@ curation:
   status: included
   reason: The product is an MCP server as its core identity, fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description: 'FHIR MCP Server – helping you expose any FHIR Server or API as a MCP Server.'"
-    - "README: 'The FHIR MCP Server is a Model Context Protocol (MCP) server that provides seamless integration with FHIR APIs.'"
+    - 'Repo description: ''FHIR MCP Server – helping you expose any FHIR Server or API as a MCP Server.'''
+    - >-
+      README: 'The FHIR MCP Server is a Model Context Protocol (MCP) server that provides seamless integration with FHIR
+      APIs.'
     - Listed in awesome-mcp-servers under Biology, Medicine and Bioinformatics and Official Servers sections
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.595Z"
+    updated_at: '2026-05-06T22:12:15.595Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:15.948Z"
+    updated_at: '2026-07-21T15:21:15.948Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-14T05:29:54.137Z"
+    updated_at: '2026-05-14T05:29:54.137Z'
     cause: null
     next_retry_at: null
     attempts: 2

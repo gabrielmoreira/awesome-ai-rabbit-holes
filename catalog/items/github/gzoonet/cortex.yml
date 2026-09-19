@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gzoonet__cortex__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: gzoonet/cortex
         extracted_url: https://github.com/gzoonet/cortex
-        surrounding_text: "- [gzoonet/cortex](https://github.com/gzoonet/cortex) [![gzoo-cortex MCP server](https://glama.ai/mcp/servers/@gzoonet/gzoo-cortex/badges/score.svg)](https://glama.ai/mcp/servers/@gzoonet/gzoo-cortex) 📇 🏠 - Local-first knowledge graph for developers. Watches project files, extracts entities and relationships via LLMs, builds a queryable knowledge graph with web dashboard and CLI. Provides 4 MCP tools: get_status, list_projects, find_entity, query_cortex."
+        surrounding_text: >-
+          - [gzoonet/cortex](https://github.com/gzoonet/cortex) [![gzoo-cortex MCP
+          server](https://glama.ai/mcp/servers/@gzoonet/gzoo-cortex/badges/score.svg)](https://glama.ai/mcp/servers/@gzoonet/gzoo-cortex)
+          📇 🏠 - Local-first knowledge graph for developers. Watches project files, extracts entities and relationships
+          via LLMs, builds a queryable knowledge graph with web dashboard and CLI. Provides 4 MCP tools: get_status,
+          list_projects, find_entity, query_cortex.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: gzoonet/cortex
     html_url: https://github.com/gzoonet/cortex
-    created_at: "2026-03-02T23:21:14Z"
-    pushed_at: "2026-08-28T19:06:23Z"
-    description: Local-first knowledge graph for developers. Watches your files, builds a knowledge graph with LLMs, lets you query across projects.
+    created_at: '2026-03-02T23:21:14Z'
+    pushed_at: '2026-08-28T19:06:23Z'
+    description: >-
+      Local-first knowledge graph for developers. Watches your files, builds a knowledge graph with LLMs, lets you query
+      across projects.
     homepage: https://github.com/gzoonet/cortex
     topics:
       - cli
@@ -45,14 +52,20 @@ metadata:
       - ollama
       - sqlite
       - web-dashboard
-    last_checked_at: "2026-09-03T05:16:56.582Z"
+    last_checked_at: '2026-09-03T05:16:56.582Z'
     readme:
-      fetched_at: "2026-09-03T05:16:56.582Z"
+      fetched_at: '2026-09-03T05:16:56.582Z'
       bytes: 15680
 insights:
-  summary: Local-first knowledge graph for developers that watches project files, builds a knowledge graph with LLMs, and allows natural language queries across projects.
-  why_it_matters: It helps developers retrieve scattered decisions, patterns, and context across multiple projects without manually searching through files.
-  mental_damage: Now you can finally remember why you chose that caching strategy six months ago—assuming the LLM doesn’t hallucinate the answer.
+  summary: >-
+    Local-first knowledge graph for developers that watches project files, builds a knowledge graph with LLMs, and
+    allows natural language queries across projects.
+  why_it_matters: >-
+    It helps developers retrieve scattered decisions, patterns, and context across multiple projects without manually
+    searching through files.
+  mental_damage: >-
+    Now you can finally remember why you chose that caching strategy six months ago—assuming the LLM doesn’t hallucinate
+    the answer.
   tags:
     - knowledge-graph
     - local-first
@@ -62,31 +75,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core novelty is a local-first knowledge graph and retrieval system for developer context, not a primary coding assistant or host integration.
+  reason: >-
+    The core novelty is a local-first knowledge graph and retrieval system for developer context, not a primary coding
+    assistant or host integration.
   evidence:
-    - "Repo description: 'Local-first knowledge graph for developers. Watches your files, builds a knowledge graph with LLMs, lets you query across projects.'"
-    - README emphasizes entity extraction, relationship inference, and natural language querying with source citations as primary features.
+    - >-
+      Repo description: 'Local-first knowledge graph for developers. Watches your files, builds a knowledge graph with
+      LLMs, lets you query across projects.'
+    - >-
+      README emphasizes entity extraction, relationship inference, and natural language querying with source citations
+      as primary features.
     - MCP server is a secondary integration, not the product identity.
 placement:
-  primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.617Z"
+    updated_at: '2026-05-06T22:12:15.617Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:56.582Z"
+    updated_at: '2026-09-03T05:16:56.582Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:04:42.697Z"
+    updated_at: '2026-07-21T16:04:42.697Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -99,14 +119,22 @@ processing:
       input_hash: sha256:12ce1c3ca34983e76f28c1caa78ca4b5a444eca121bf302e506641f4a0e2aa11
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: The core novelty is a local-first knowledge graph and retrieval system for developer context, not a primary coding assistant or host integration.
+      decision_reason: >-
+        The core novelty is a local-first knowledge graph and retrieval system for developer context, not a primary
+        coding assistant or host integration.
       decision_evidence:
-        - "Repo description: 'Local-first knowledge graph for developers. Watches your files, builds a knowledge graph with LLMs, lets you query across projects.'"
-        - README emphasizes entity extraction, relationship inference, and natural language querying with source citations as primary features.
+        - >-
+          Repo description: 'Local-first knowledge graph for developers. Watches your files, builds a knowledge graph
+          with LLMs, lets you query across projects.'
+        - >-
+          README emphasizes entity extraction, relationship inference, and natural language querying with source
+          citations as primary features.
         - MCP server is a secondary integration, not the product identity.
       category_candidates:
         - context-engineering
         - mcp
-      contrastive_reason: Choose context-engineering over mcp because the product identity is the knowledge graph and retrieval system, not MCP infrastructure.
+      contrastive_reason: >-
+        Choose context-engineering over mcp because the product identity is the knowledge graph and retrieval system,
+        not MCP infrastructure.
       review_reason: null
       review_resume_lifecycle: null

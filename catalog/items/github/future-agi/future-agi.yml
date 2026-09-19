@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__future-agi__future-agi__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-21T05:27:57.681Z"
+      discovered_at: '2026-05-21T05:27:57.681Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,11 @@ provenance:
           - LLMOps
         anchor_text: future-agi
         extracted_url: https://github.com/future-agi/future-agi
-        surrounding_text: "| [future-agi](https://github.com/future-agi/future-agi) | Open-source self-hostable end-to-end agent engineering and optimization platform unifying tracing, evals, simulations, datasets, gateway, and guardrails for LLM and AI agent applications. | ![GitHub Badge](https://img.shields.io/github/stars/future-agi/future-agi?style=flat-square) |"
+        surrounding_text: >-
+          | [future-agi](https://github.com/future-agi/future-agi) | Open-source self-hostable end-to-end agent
+          engineering and optimization platform unifying tracing, evals, simulations, datasets, gateway, and guardrails
+          for LLM and AI agent applications. | ![GitHub
+          Badge](https://img.shields.io/github/stars/future-agi/future-agi?style=flat-square) |
         confidence: high
 metadata:
   github:
@@ -29,9 +33,11 @@ metadata:
     archived: false
     full_name: future-agi/future-agi
     html_url: https://github.com/future-agi/future-agi
-    created_at: "2026-04-23T14:11:31Z"
-    pushed_at: "2026-09-03T05:08:41Z"
-    description: Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0.
+    created_at: '2026-04-23T14:11:31Z'
+    pushed_at: '2026-09-03T05:08:41Z'
+    description: >-
+      Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing ·
+      Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0.
     homepage: https://futureagi.com
     topics:
       - ai-agents
@@ -54,14 +60,18 @@ metadata:
       - simulation
       - telemetry
       - tracing
-    last_checked_at: "2026-09-03T05:16:44.750Z"
+    last_checked_at: '2026-09-03T05:16:44.750Z'
     readme:
-      fetched_at: "2026-09-03T05:16:44.750Z"
+      fetched_at: '2026-09-03T05:16:44.750Z'
       bytes: 25121
 insights:
   summary: An open-source platform for evaluating, tracing, and optimizing AI agents to reduce hallucinations.
-  why_it_matters: It provides a unified loop for simulating edge cases and monitoring production traces to turn agent failures into actual improvement signal.
-  mental_damage: The realization that your 'autonomous' agent is just a fragile series of hallucinations that requires a Go-based gateway and a full observability stack to keep from crashing.
+  why_it_matters: >-
+    It provides a unified loop for simulating edge cases and monitoring production traces to turn agent failures into
+    actual improvement signal.
+  mental_damage: >-
+    The realization that your 'autonomous' agent is just a fragile series of hallucinations that requires a Go-based
+    gateway and a full observability stack to keep from crashing.
   tags:
     - llm-evals
     - observability
@@ -73,29 +83,30 @@ curation:
   status: included
   reason: The core product identity is centered on measuring, scoring, and tracing agent behavior to ensure reliability.
   evidence:
-    - "Repo description: 'One-line GitHub description: ...evaluating, tracing, and optimizing AI agents'"
-    - "README claim: 'Simulate edge cases before launch, evaluate what happens in production'"
+    - 'Repo description: ''One-line GitHub description: ...evaluating, tracing, and optimizing AI agents'''
+    - 'README claim: ''Simulate edge cases before launch, evaluate what happens in production'''
     - Provides a combination of evals, tracing, and guardrails in one platform
 placement:
   primary_category: evals
-  section: Observability / Tracing / EvalOps
+  secondary_categories: []
+  section: Observability & Tracing
 lifecycle:
   status: promotion_candidate
   reason: Stars (1117) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-21T05:27:57.683Z"
+    updated_at: '2026-05-21T05:27:57.683Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:44.750Z"
+    updated_at: '2026-09-03T05:16:44.750Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-08T05:41:00.484Z"
+    updated_at: '2026-06-08T05:41:00.484Z'
     cause: null
     next_retry_at: null
     attempts: 1

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wassengerhq__mcp-wassenger__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Wassenger
         extracted_url: https://github.com/wassengerhq/mcp-wassenger
-        surrounding_text: "- **[Wassenger](https://github.com/wassengerhq/mcp-wassenger)** - [Wassenger](https://wassenger.com) MCP server to chat, send messages and automate WhatsApp from any AI model client (free trial available)."
+        surrounding_text: >-
+          - **[Wassenger](https://github.com/wassengerhq/mcp-wassenger)** - [Wassenger](https://wassenger.com) MCP
+          server to chat, send messages and automate WhatsApp from any AI model client (free trial available).
         confidence: high
 metadata:
   github:
@@ -29,9 +31,11 @@ metadata:
     archived: false
     full_name: wassengerhq/mcp-wassenger
     html_url: https://github.com/wassengerhq/mcp-wassenger
-    created_at: "2025-06-24T10:12:21Z"
-    pushed_at: "2025-06-26T11:33:46Z"
-    description: "MCP connector for Wassenger WhatsApp API: Send messages, summarize conversations, automate anything on WhatsApp using text or voice from your favorite AI client like ChatGPT, Claude, Gemini, OpenAI and more  🎉"
+    created_at: '2025-06-24T10:12:21Z'
+    pushed_at: '2025-06-26T11:33:46Z'
+    description: >-
+      MCP connector for Wassenger WhatsApp API: Send messages, summarize conversations, automate anything on WhatsApp
+      using text or voice from your favorite AI client like ChatGPT, Claude, Gemini, OpenAI and more  🎉
     homepage: https://wassenger.com
     topics:
       - chatbot
@@ -43,14 +47,20 @@ metadata:
       - whastsapp
       - whatsapp-api
       - whatsapp-bot
-    last_checked_at: "2026-07-21T15:21:10.141Z"
+    last_checked_at: '2026-07-21T15:21:10.141Z'
     readme:
-      fetched_at: "2026-07-21T15:21:10.141Z"
+      fetched_at: '2026-07-21T15:21:10.141Z'
       bytes: 29151
 insights:
-  summary: MCP Wassenger is an MCP server that connects AI assistants to the Wassenger WhatsApp API for sending messages, analyzing chats, and automating WhatsApp workflows via natural language commands.
-  why_it_matters: It lets developers control WhatsApp business messaging through any MCP-compatible AI client, turning conversational prompts into automated messaging and analytics without custom integration code.
-  mental_damage: Yet another MCP server promising to make your AI assistant the ultimate WhatsApp intern—because delegating customer support chats to an LLM was clearly the missing piece in enterprise automation.
+  summary: >-
+    MCP Wassenger is an MCP server that connects AI assistants to the Wassenger WhatsApp API for sending messages,
+    analyzing chats, and automating WhatsApp workflows via natural language commands.
+  why_it_matters: >-
+    It lets developers control WhatsApp business messaging through any MCP-compatible AI client, turning conversational
+    prompts into automated messaging and analytics without custom integration code.
+  mental_damage: >-
+    Yet another MCP server promising to make your AI assistant the ultimate WhatsApp intern—because delegating customer
+    support chats to an LLM was clearly the missing piece in enterprise automation.
   tags:
     - mcp
     - whatsapp
@@ -58,31 +68,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core identity is providing WhatsApp API access through the Model Context Protocol, making MCP the primary product identity rather than a compatibility feature.
+  reason: >-
+    The product is an MCP server whose core identity is providing WhatsApp API access through the Model Context
+    Protocol, making MCP the primary product identity rather than a compatibility feature.
   evidence:
-    - "Repo description: 'MCP connector for Wassenger WhatsApp API: Send messages, summarize conversations, automate anything on WhatsApp using text or voice from your favorite AI client'"
-    - "README: Positioned as an MCP-powered tool that works with ChatGPT, Claude Desktop, Cursor, Windsurf and other MCP clients"
+    - >-
+      Repo description: 'MCP connector for Wassenger WhatsApp API: Send messages, summarize conversations, automate
+      anything on WhatsApp using text or voice from your favorite AI client'
+    - >-
+      README: Positioned as an MCP-powered tool that works with ChatGPT, Claude Desktop, Cursor, Windsurf and other MCP
+      clients
     - Listed in awesome-mcp-servers under 'Community Servers' section
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.655Z"
+    updated_at: '2026-05-06T22:12:15.655Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:10.141Z"
+    updated_at: '2026-07-21T15:21:10.141Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-14T05:28:16.612Z"
+    updated_at: '2026-05-14T05:28:16.612Z'
     cause: null
     next_retry_at: null
     attempts: 2

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aporthq__aport-agent-guardrails__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-08-20T04:18:00.401Z"
+      discovered_at: '2026-08-20T04:18:00.401Z'
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -19,7 +19,9 @@ provenance:
           - Safety, Security & Evaluation
         anchor_text: APort Guardrails
         extracted_url: https://github.com/aporthq/aport-agent-guardrails
-        surrounding_text: "| [APort Guardrails](https://github.com/aporthq/aport-agent-guardrails) | 25 | Shell | Other | 2026-08 | Pre-action authorization policy for agent calls |"
+        surrounding_text: >-
+          | [APort Guardrails](https://github.com/aporthq/aport-agent-guardrails) | 25 | Shell | Other | 2026-08 |
+          Pre-action authorization policy for agent calls |
         confidence: high
 metadata:
   github:
@@ -29,8 +31,8 @@ metadata:
     archived: false
     full_name: aporthq/aport-agent-guardrails
     html_url: https://github.com/aporthq/aport-agent-guardrails
-    created_at: "2026-02-14T21:40:02Z"
-    pushed_at: "2026-09-06T21:43:35Z"
+    created_at: '2026-02-14T21:40:02Z'
+    pushed_at: '2026-09-06T21:43:35Z'
     description: Pre-action authorization guardrails for AI agents - Works with OpenClaw, Claude Code, LandChain, CrewAI and others
     homepage: https://aport.io
     topics:
@@ -39,13 +41,15 @@ metadata:
       - ai-agents
       - ai-agents-framework
       - guardrails
-    last_checked_at: "2026-09-07T04:13:28.496Z"
+    last_checked_at: '2026-09-07T04:13:28.496Z'
     readme:
-      fetched_at: "2026-09-07T04:13:28.496Z"
+      fetched_at: '2026-09-07T04:13:28.496Z'
       bytes: 36187
 insights:
   summary: Pre-action authorization guardrails that intercept and validate AI agent tool calls against policy before execution.
-  why_it_matters: Blocks prompt injection and unsafe agent actions by enforcing deterministic policy checks at runtime, not via instructions.
+  why_it_matters: >-
+    Blocks prompt injection and unsafe agent actions by enforcing deterministic policy checks at runtime, not via
+    instructions.
   mental_damage: Finally, a way to stop trusting agents to follow rules they can't even read.
   tags:
     - ai-agent-safety
@@ -54,32 +58,37 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: APort Agent Guardrails is an integration layer that adds policy enforcement to existing agents like Claude Code and OpenClaw, acting as a pre-execution hook rather than a standalone coding assistant.
+  reason: >-
+    APort Agent Guardrails is an integration layer that adds policy enforcement to existing agents like Claude Code and
+    OpenClaw, acting as a pre-execution hook rather than a standalone coding assistant.
   evidence:
-    - "Repo description: 'Pre-action authorization guardrails for AI agents - Works with OpenClaw, Claude Code, LandChain, CrewAI and others'"
-    - "README: 'Deterministic pre-action authorization for AI agents. Guardrails run before tool execution'"
-    - "Installation: Framework-specific setup commands for claude-code, openclaw, langchain, etc."
-    - "Source-list context: Listed in awesome-llm-agents under 'Safety, Security & Evaluation'"
+    - >-
+      Repo description: 'Pre-action authorization guardrails for AI agents - Works with OpenClaw, Claude Code,
+      LandChain, CrewAI and others'
+    - 'README: ''Deterministic pre-action authorization for AI agents. Guardrails run before tool execution'''
+    - 'Installation: Framework-specific setup commands for claude-code, openclaw, langchain, etc.'
+    - 'Source-list context: Listed in awesome-llm-agents under ''Safety, Security & Evaluation'''
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: Security & DevSecOps
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-08-20T04:18:00.403Z"
+    updated_at: '2026-08-20T04:18:00.403Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:28.496Z"
+    updated_at: '2026-09-07T04:13:28.496Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:25:13.143Z"
+    updated_at: '2026-08-27T06:25:13.143Z'
     cause: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
@@ -88,16 +97,22 @@ processing:
       input_hash: sha256:7334b9e85697cceec5b4b5cf57b01a4b281a5f7147543247b9271fcf5a393870
       proposed_primary_category: ai-dev-extensions
       disagreement: false
-      decision_reason: APort Agent Guardrails is an integration layer that adds policy enforcement to existing agents like Claude Code and OpenClaw, acting as a pre-execution hook rather than a standalone coding assistant.
+      decision_reason: >-
+        APort Agent Guardrails is an integration layer that adds policy enforcement to existing agents like Claude Code
+        and OpenClaw, acting as a pre-execution hook rather than a standalone coding assistant.
       decision_evidence:
-        - "Repo description: 'Pre-action authorization guardrails for AI agents - Works with OpenClaw, Claude Code, LandChain, CrewAI and others'"
-        - "README: 'Deterministic pre-action authorization for AI agents. Guardrails run before tool execution'"
-        - "Installation: Framework-specific setup commands for claude-code, openclaw, langchain, etc."
-        - "Source-list context: Listed in awesome-llm-agents under 'Safety, Security & Evaluation'"
+        - >-
+          Repo description: 'Pre-action authorization guardrails for AI agents - Works with OpenClaw, Claude Code,
+          LandChain, CrewAI and others'
+        - 'README: ''Deterministic pre-action authorization for AI agents. Guardrails run before tool execution'''
+        - 'Installation: Framework-specific setup commands for claude-code, openclaw, langchain, etc.'
+        - 'Source-list context: Listed in awesome-llm-agents under ''Safety, Security & Evaluation'''
       category_candidates:
         - ai-dev-extensions
         - coding-agents
-      contrastive_reason: Choose ai-dev-extensions over coding-agents because APort Agent Guardrails primarily augments existing agents with policy checks rather than acting as a primary coding assistant that plans, writes, or edits code.
+      contrastive_reason: >-
+        Choose ai-dev-extensions over coding-agents because APort Agent Guardrails primarily augments existing agents
+        with policy checks rather than acting as a primary coding assistant that plans, writes, or edits code.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

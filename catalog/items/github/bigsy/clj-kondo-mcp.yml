@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bigsy__clj-kondo-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,7 @@ provenance:
           - Community Servers
         anchor_text: clj-kondo-MCP
         extracted_url: https://github.com/bigsy/clj-kondo-mcp
-        surrounding_text: "- **[clj-kondo-MCP](https://github.com/Bigsy/clj-kondo-MCP)** - Clojure linter"
+        surrounding_text: '- **[clj-kondo-MCP](https://github.com/Bigsy/clj-kondo-MCP)** - Clojure linter'
         confidence: high
 metadata:
   github:
@@ -29,18 +29,22 @@ metadata:
     archived: false
     full_name: Bigsy/clj-kondo-MCP
     html_url: https://github.com/Bigsy/clj-kondo-MCP
-    created_at: "2025-03-29T22:00:44Z"
-    pushed_at: "2025-04-04T08:04:16Z"
+    created_at: '2025-03-29T22:00:44Z'
+    pushed_at: '2025-04-04T08:04:16Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:34.156Z"
+    last_checked_at: '2026-09-07T04:13:34.156Z'
     readme:
-      fetched_at: "2026-09-07T04:13:34.156Z"
+      fetched_at: '2026-09-07T04:13:34.156Z'
       bytes: 3223
 insights:
-  summary: An MCP server that exposes clj-kondo linting capabilities for Clojure/ClojureScript/EDN files to AI assistants like Claude Code.
-  why_it_matters: Enables AI coding assistants to lint Clojure projects without built-in language support, filling a gap in their native tooling.
+  summary: >-
+    An MCP server that exposes clj-kondo linting capabilities for Clojure/ClojureScript/EDN files to AI assistants like
+    Claude Code.
+  why_it_matters: >-
+    Enables AI coding assistants to lint Clojure projects without built-in language support, filling a gap in their
+    native tooling.
   mental_damage: Now your AI assistant can finally stop pretending it understands your Clojure macros.
   tags:
     - mcp
@@ -51,31 +55,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose primary identity is providing clj-kondo linting via MCP tool calls, making it a clear fit for MCP Servers & Tooling.
+  reason: >-
+    This is an MCP-first server whose primary identity is providing clj-kondo linting via MCP tool calls, making it a
+    clear fit for MCP Servers & Tooling.
   evidence:
     - README explicitly describes it as an MCP server for clj-kondo linting
     - Provides a single MCP tool (`lint_clojure`) for Clojure file analysis
     - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:34.156Z"
+    updated_at: '2026-09-07T04:13:34.156Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:25:58.877Z"
+    updated_at: '2026-07-21T15:25:58.877Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -88,7 +95,9 @@ processing:
       input_hash: sha256:a4d984a47eff2663a94a8fe874a6b8f45a903fadd54a5b97a90dbbd3bd4c2440
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server whose primary identity is providing clj-kondo linting via MCP tool calls, making it a clear fit for MCP Servers & Tooling.
+      decision_reason: >-
+        This is an MCP-first server whose primary identity is providing clj-kondo linting via MCP tool calls, making it
+        a clear fit for MCP Servers & Tooling.
       decision_evidence:
         - README explicitly describes it as an MCP server for clj-kondo linting
         - Provides a single MCP tool (`lint_clojure`) for Clojure file analysis
@@ -96,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not just an extension for another assistant), and MCP is its primary identity.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server (not just an extension for another
+        assistant), and MCP is its primary identity.
       review_reason: null
       review_resume_lifecycle: null

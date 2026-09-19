@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__constantineb6__comfy-pilot__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: ConstantineB6/comfy-pilot
         extracted_url: https://github.com/constantineb6/comfy-pilot
-        surrounding_text: "- [ConstantineB6/comfy-pilot](https://github.com/ConstantineB6/comfy-pilot) 🐍 🏠 - MCP server for ComfyUI that lets AI agents view, edit, and run node-based image generation workflows with an embedded terminal."
+        surrounding_text: >-
+          - [ConstantineB6/comfy-pilot](https://github.com/ConstantineB6/comfy-pilot) 🐍 🏠 - MCP server for ComfyUI
+          that lets AI agents view, edit, and run node-based image generation workflows with an embedded terminal.
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: ConstantineB6/comfy-pilot
     html_url: https://github.com/ConstantineB6/comfy-pilot
-    created_at: "2026-01-28T05:38:18Z"
-    pushed_at: "2026-02-16T09:58:06Z"
+    created_at: '2026-01-28T05:38:18Z'
+    pushed_at: '2026-02-16T09:58:06Z'
     description: MCP server + embedded terminal that lets Claude Code see and edit your ComfyUI workflows
     homepage: null
     topics:
@@ -46,13 +48,15 @@ metadata:
       - model-context-protocol
       - stable-diffusion
       - workflow-automation
-    last_checked_at: "2026-09-14T04:13:28.851Z"
+    last_checked_at: '2026-09-14T04:13:28.851Z'
     readme:
-      fetched_at: "2026-09-14T04:13:28.851Z"
+      fetched_at: '2026-09-14T04:13:28.851Z'
       bytes: 7780
 insights:
   summary: MCP server and embedded terminal that enables Claude Code to view, edit, and run ComfyUI workflows.
-  why_it_matters: Lets developers control ComfyUI’s node-based image generation workflows via natural language instead of manual graph editing.
+  why_it_matters: >-
+    Lets developers control ComfyUI’s node-based image generation workflows via natural language instead of manual graph
+    editing.
   mental_damage: Now you can ask an AI to tweak your Stable Diffusion pipeline while you pretend to understand what a KSampler is.
   tags:
     - mcp
@@ -63,31 +67,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool is an MCP-based integration layer that augments Claude Code with ComfyUI-specific capabilities, not a standalone coding assistant.
+  reason: >-
+    The tool is an MCP-based integration layer that augments Claude Code with ComfyUI-specific capabilities, not a
+    standalone coding assistant.
   evidence:
-    - Repo description explicitly states it is an MCP server + terminal for Claude Code to interact with ComfyUI workflows
+    - >-
+      Repo description explicitly states it is an MCP server + terminal for Claude Code to interact with ComfyUI
+      workflows
     - README emphasizes integration with Claude Code as the primary host assistant
     - Source-list context places it under MCP Servers > Art & Culture
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: mcp
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: promotion_candidate
   reason: Stars (182) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.609Z"
+    updated_at: '2026-05-06T22:12:15.609Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:28.851Z"
+    updated_at: '2026-09-14T04:13:28.851Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:09:09.339Z"
+    updated_at: '2026-08-27T06:09:09.339Z'
     cause: null
     next_retry_at: null
     attempts: 4
@@ -100,14 +109,20 @@ processing:
       input_hash: sha256:37e188875b92cec58b9762b9dc4e32bfcd019d7f93b46bde747e062cf835a14f
       proposed_primary_category: ai-dev-extensions
       disagreement: false
-      decision_reason: The tool is an MCP-based integration layer that augments Claude Code with ComfyUI-specific capabilities, not a standalone coding assistant.
+      decision_reason: >-
+        The tool is an MCP-based integration layer that augments Claude Code with ComfyUI-specific capabilities, not a
+        standalone coding assistant.
       decision_evidence:
-        - Repo description explicitly states it is an MCP server + terminal for Claude Code to interact with ComfyUI workflows
+        - >-
+          Repo description explicitly states it is an MCP server + terminal for Claude Code to interact with ComfyUI
+          workflows
         - README emphasizes integration with Claude Code as the primary host assistant
         - Source-list context places it under MCP Servers > Art & Culture
       category_candidates:
         - ai-dev-extensions
         - mcp
-      contrastive_reason: Choose ai-dev-extensions over mcp because the core identity is a host integration for Claude Code rather than MCP infrastructure itself.
+      contrastive_reason: >-
+        Choose ai-dev-extensions over mcp because the core identity is a host integration for Claude Code rather than
+        MCP infrastructure itself.
       review_reason: null
       review_resume_lifecycle: null

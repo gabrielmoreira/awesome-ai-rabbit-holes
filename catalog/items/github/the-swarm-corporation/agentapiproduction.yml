@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__the-swarm-corporation__agentapiproduction__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -20,7 +20,9 @@ provenance:
           - Deployment & Infrastructure
         anchor_text: AgentAPIProduction
         extracted_url: https://github.com/the-swarm-corporation/agentapiproduction
-        surrounding_text: "| [AgentAPIProduction](https://github.com/The-Swarm-Corporation/AgentAPIProduction) | Production-ready agent API system |"
+        surrounding_text: >-
+          | [AgentAPIProduction](https://github.com/The-Swarm-Corporation/AgentAPIProduction) | Production-ready agent
+          API system |
         confidence: high
 metadata:
   github:
@@ -30,9 +32,11 @@ metadata:
     archived: false
     full_name: The-Swarm-Corporation/AgentAPIProduction
     html_url: https://github.com/The-Swarm-Corporation/AgentAPIProduction
-    created_at: "2025-01-02T09:08:21Z"
-    pushed_at: "2025-01-20T14:03:05Z"
-    description: A production-grade REST API for deploying and managing AI agents in the cloud. This API provides a scalable and secure way to create, manage, and interact with AI agents.
+    created_at: '2025-01-02T09:08:21Z'
+    pushed_at: '2025-01-20T14:03:05Z'
+    description: >-
+      A production-grade REST API for deploying and managing AI agents in the cloud. This API provides a scalable and
+      secure way to create, manage, and interact with AI agents.
     homepage: https://swarms.ai
     topics:
       - agents
@@ -43,14 +47,20 @@ metadata:
       - fastapi
       - ml
       - swarms
-    last_checked_at: "2026-07-21T15:20:45.753Z"
+    last_checked_at: '2026-07-21T15:20:45.753Z'
     readme:
-      fetched_at: "2026-07-21T15:20:45.753Z"
+      fetched_at: '2026-07-21T15:20:45.753Z'
       bytes: 5446
 insights:
-  summary: A FastAPI-based REST API for deploying, managing, and running multiple AI agents in the cloud with rate limiting and metrics tracking.
-  why_it_matters: Developers can spin up a containerized service to manage agent lifecycles and completions without building deployment infrastructure from scratch.
-  mental_damage: Deploying REST APIs to manage your agents so you can finally achieve production-grade orchestration anxiety at scale.
+  summary: >-
+    A FastAPI-based REST API for deploying, managing, and running multiple AI agents in the cloud with rate limiting and
+    metrics tracking.
+  why_it_matters: >-
+    Developers can spin up a containerized service to manage agent lifecycles and completions without building
+    deployment infrastructure from scratch.
+  mental_damage: >-
+    Deploying REST APIs to manage your agents so you can finally achieve production-grade orchestration anxiety at
+    scale.
   tags:
     - agents
     - fastapi
@@ -60,35 +70,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The project is a runtime platform and API server for managing multiple agents in production, which aligns with operated platforms for coordinating agents rather than a code-first framework.
+  reason: >-
+    The project is a runtime platform and API server for managing multiple agents in production, which aligns with
+    operated platforms for coordinating agents rather than a code-first framework.
   evidence:
     - Repo description states it is a 'production-grade REST API for deploying and managing AI agents in the cloud'
     - README shows endpoints for creating agents, processing completions, and tracking metrics as a running service
     - Listed in awesome-agent-orchestration under 'Tools & Infrastructure > Deployment & Infrastructure'
 placement:
   primary_category: agent-orchestration
-  section: Multi-Agent Runtime Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.651Z"
+    updated_at: '2026-05-06T22:12:15.651Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:45.753Z"
+    updated_at: '2026-07-21T15:20:45.753Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

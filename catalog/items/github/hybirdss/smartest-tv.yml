@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hybirdss__smartest-tv__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🏠 <a name="home-automation"></a>Home Automation
         anchor_text: Hybirdss/smartest-tv
         extracted_url: https://github.com/hybirdss/smartest-tv
-        surrounding_text: "- [Hybirdss/smartest-tv](https://github.com/Hybirdss/smartest-tv) [![Hybirdss/smartest-tv MCP server](https://glama.ai/mcp/servers/Hybirdss/smartest-tv/badges/score.svg)](https://glama.ai/mcp/servers/Hybirdss/smartest-tv) 🐍 🏠 🍎 🪟 🐧 - Control any smart TV with natural language. Play Netflix, YouTube, Spotify by name with deep linking, cast URLs, scene presets, multi-room audio, and multi-TV sync. Supports LG, Samsung, Android TV, Roku. 21 MCP tools, no cloud required."
+        surrounding_text: >-
+          - [Hybirdss/smartest-tv](https://github.com/Hybirdss/smartest-tv) [![Hybirdss/smartest-tv MCP
+          server](https://glama.ai/mcp/servers/Hybirdss/smartest-tv/badges/score.svg)](https://glama.ai/mcp/servers/Hybirdss/smartest-tv)
+          🐍 🏠 🍎 🪟 🐧 - Control any smart TV with natural language. Play Netflix, YouTube, Spotify by name with deep
+          linking, cast URLs, scene presets, multi-room audio, and multi-TV sync. Supports LG, Samsung, Android TV,
+          Roku. 21 MCP tools, no cloud required.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: Hybirdss/smartest-tv
     html_url: https://github.com/Hybirdss/smartest-tv
-    created_at: "2026-04-02T18:35:00Z"
-    pushed_at: "2026-05-26T05:51:20Z"
-    description: "📺 Control any smart TV with natural language. Play Netflix by name from your terminal. PyPI: stv · MCP server · LG/Samsung/Roku/Android"
+    created_at: '2026-04-02T18:35:00Z'
+    pushed_at: '2026-05-26T05:51:20Z'
+    description: >-
+      📺 Control any smart TV with natural language. Play Netflix by name from your terminal. PyPI: stv · MCP server ·
+      LG/Samsung/Roku/Android
     homepage: null
     topics:
       - ai-agent
@@ -50,13 +57,17 @@ metadata:
       - smart-tv
       - spotify
       - youtube
-    last_checked_at: "2026-07-30T05:05:40.673Z"
+    last_checked_at: '2026-07-30T05:05:40.673Z'
     readme:
-      fetched_at: "2026-07-30T05:05:40.673Z"
+      fetched_at: '2026-07-30T05:05:40.673Z'
       bytes: 16470
 insights:
-  summary: A CLI tool and MCP server to control smart TVs (LG, Samsung, Roku, Android) with natural language commands, including platform-specific content playback.
-  why_it_matters: Lets developers integrate TV control into their workflows or AI agent ecosystems via a programmatic interface, reducing friction for home automation or multi-device coordination.
+  summary: >-
+    A CLI tool and MCP server to control smart TVs (LG, Samsung, Roku, Android) with natural language commands,
+    including platform-specific content playback.
+  why_it_matters: >-
+    Lets developers integrate TV control into their workflows or AI agent ecosystems via a programmatic interface,
+    reducing friction for home automation or multi-device coordination.
   mental_damage: Now your AI agent can binge-watch Netflix while you debug at 3 AM, because why should you have all the fun.
   tags:
     - cli
@@ -66,32 +77,31 @@ insights:
     - natural-language
   confidence: high
 curation:
-  status: included
-  reason: MCP is the primary product identity here, as evidenced by the explicit MCP server branding, 21 MCP tools, and integration with MCP clients like Claude Code.
+  status: pending
+  reason: 'Manual audit: Smart TV control tool (IoT), out of catalog scope.'
   evidence:
-    - Repo description explicitly lists 'MCP server' as a core identity
-    - README highlights MCP tools (21) and MCP client compatibility (Claude Code, Codex, Antigravity)
-    - Listed in awesome-mcp-servers, reinforcing MCP-first identity
+    - Manual review of Jev Middleware & Generic audit, 2026-09-19
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.619Z"
+    updated_at: '2026-05-06T22:12:15.619Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:40.673Z"
+    updated_at: '2026-07-30T05:05:40.673Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:07:12.947Z"
+    updated_at: '2026-07-21T16:07:12.947Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,7 +114,9 @@ processing:
       input_hash: sha256:475d6137d872d5edd43fc834368a1e79570dc076544a7097330e1ccb1a478e0e
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the primary product identity here, as evidenced by the explicit MCP server branding, 21 MCP tools, and integration with MCP clients like Claude Code.
+      decision_reason: >-
+        MCP is the primary product identity here, as evidenced by the explicit MCP server branding, 21 MCP tools, and
+        integration with MCP clients like Claude Code.
       decision_evidence:
         - Repo description explicitly lists 'MCP server' as a core identity
         - README highlights MCP tools (21) and MCP client compatibility (Claude Code, Codex, Antigravity)
@@ -112,6 +124,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server with domain-specific tools, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server with domain-specific
+        tools, not merely an extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

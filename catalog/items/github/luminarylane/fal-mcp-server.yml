@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__luminarylane__fal-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-12T15:06:19.300Z"
+      discovered_at: '2026-05-12T15:06:19.300Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: raveenb/fal-mcp-server
         extracted_url: https://github.com/raveenb/fal-mcp-server
-        surrounding_text: "- [raveenb/fal-mcp-server](https://github.com/raveenb/fal-mcp-server) 🐍 ☁️ - Generate AI images, videos, and music using Fal.ai models (FLUX, Stable Diffusion, MusicGen) directly in Claude Desktop"
+        surrounding_text: >-
+          - [raveenb/fal-mcp-server](https://github.com/raveenb/fal-mcp-server) 🐍 ☁️ - Generate AI images, videos, and
+          music using Fal.ai models (FLUX, Stable Diffusion, MusicGen) directly in Claude Desktop
         confidence: high
     - id: discovery__github__raveenb__fal-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -36,7 +38,9 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: raveenb/fal-mcp-server
         extracted_url: https://github.com/raveenb/fal-mcp-server
-        surrounding_text: "- [raveenb/fal-mcp-server](https://github.com/raveenb/fal-mcp-server) 🐍 ☁️ - Generate AI images, videos, and music using Fal.ai models (FLUX, Stable Diffusion, MusicGen) directly in Claude Desktop"
+        surrounding_text: >-
+          - [raveenb/fal-mcp-server](https://github.com/raveenb/fal-mcp-server) 🐍 ☁️ - Generate AI images, videos, and
+          music using Fal.ai models (FLUX, Stable Diffusion, MusicGen) directly in Claude Desktop
         confidence: high
 metadata:
   github:
@@ -46,8 +50,8 @@ metadata:
     archived: false
     full_name: luminarylane/fal-mcp-server
     html_url: https://github.com/luminarylane/fal-mcp-server
-    created_at: "2025-08-28T03:59:40Z"
-    pushed_at: "2026-05-04T07:32:30Z"
+    created_at: '2025-08-28T03:59:40Z'
+    pushed_at: '2026-05-04T07:32:30Z'
     description: MCP server for Fal.ai - Generate images, videos, music and audio with Claude
     homepage: https://luminarylane.github.io/fal-mcp-server/
     topics:
@@ -58,14 +62,20 @@ metadata:
       - llm
       - mcp
       - model-context-protocol
-    last_checked_at: "2026-07-30T05:06:09.271Z"
+    last_checked_at: '2026-07-30T05:06:09.271Z'
     readme:
-      fetched_at: "2026-07-30T05:06:09.271Z"
+      fetched_at: '2026-07-30T05:06:09.271Z'
       bytes: 14832
 insights:
-  summary: An MCP server that exposes Fal.ai media generation models (image, video, music) to Claude Desktop and other MCP clients.
-  why_it_matters: It lets developers invoke Fal.ai's generative media APIs through natural language in MCP-enabled assistants like Claude, reducing context-switching for creative workflows.
-  mental_damage: Finally, a way to ask your AI assistant to make a meme video without leaving the chat—because switching tabs was the real bottleneck.
+  summary: >-
+    An MCP server that exposes Fal.ai media generation models (image, video, music) to Claude Desktop and other MCP
+    clients.
+  why_it_matters: >-
+    It lets developers invoke Fal.ai's generative media APIs through natural language in MCP-enabled assistants like
+    Claude, reducing context-switching for creative workflows.
+  mental_damage: >-
+    Finally, a way to ask your AI assistant to make a meme video without leaving the chat—because switching tabs was the
+    real bottleneck.
   tags:
     - claude
     - fal-ai
@@ -77,24 +87,29 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core identity is exposing Fal.ai's media generation models via the Model Context Protocol, making MCP the primary product identity rather than a compatibility feature.
+  reason: >-
+    The product is an MCP server whose core identity is exposing Fal.ai's media generation models via the Model Context
+    Protocol, making MCP the primary product identity rather than a compatibility feature.
   evidence:
-    - "Repo description: 'MCP server for Fal.ai - Generate images, videos, music and audio with Claude'"
-    - "README: 'A Model Context Protocol (MCP) server that enables Claude Desktop (and other MCP clients) to generate images, videos, music, and audio using [Fal.ai](https://fal.ai) models.'"
-    - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Art & Culture"
+    - 'Repo description: ''MCP server for Fal.ai - Generate images, videos, music and audio with Claude'''
+    - >-
+      README: 'A Model Context Protocol (MCP) server that enables Claude Desktop (and other MCP clients) to generate
+      images, videos, music, and audio using [Fal.ai](https://fal.ai) models.'
+    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Art & Culture'
     - Repo description explicitly states 'MCP server for Fal.ai' with MCP and fal-ai topics.
     - README centers on MCP transports (STDIO, HTTP/SSE), 18 MCP tools, and badges for MCP 1.0 and Glama MCP listing.
     - Listed in awesome-mcp-servers under Server Implementations > Art & Culture, reinforcing its MCP server identity.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-12T15:59:30.926Z"
+    updated_at: '2026-05-12T15:59:30.926Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
@@ -102,11 +117,11 @@ processing:
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-12T15:06:19.301Z"
+    updated_at: '2026-05-12T15:06:19.301Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:09.271Z"
+    updated_at: '2026-07-30T05:06:09.271Z'
     cause: null
     next_retry_at: null

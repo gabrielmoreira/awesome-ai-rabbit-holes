@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__0xzcov__omni-fun-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: omni-fun-mcp-server
         extracted_url: https://github.com/0xzcov/omni-fun-mcp-server
-        surrounding_text: "- [omni-fun-mcp-server](https://github.com/0xzcov/omni-fun-mcp-server) [![omni-fun-mcp-server MCP server](https://glama.ai/mcp/servers/0xzcov/omni-fun-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/0xzcov/omni-fun-mcp-server) 📇 ☁️ - Multichain memecoin launchpad across 8 chains (Base, Arb, OP, Polygon, BSC, ETH, Avax, Solana). Tokenize yourself as an oMeme — earn 0.5% creator fee forever + 50% Uniswap V3 LP fees after graduation, from a single LP. $69 bounties. First 100 agents FREE for 60 days. 8 tools: trending tokens, search, quotes, bonding curves, trade simulation, chain info."
+        surrounding_text: >-
+          - [omni-fun-mcp-server](https://github.com/0xzcov/omni-fun-mcp-server) [![omni-fun-mcp-server MCP
+          server](https://glama.ai/mcp/servers/0xzcov/omni-fun-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/0xzcov/omni-fun-mcp-server)
+          📇 ☁️ - Multichain memecoin launchpad across 8 chains (Base, Arb, OP, Polygon, BSC, ETH, Avax, Solana).
+          Tokenize yourself as an oMeme — earn 0.5% creator fee forever + 50% Uniswap V3 LP fees after graduation, from
+          a single LP. $69 bounties. First 100 agents FREE for 60 days. 8 tools: trending tokens, search, quotes,
+          bonding curves, trade simulation, chain info.
         confidence: high
 metadata:
   github:
@@ -30,19 +36,27 @@ metadata:
     archived: false
     full_name: 0xzcov/omni-fun-mcp-server
     html_url: https://github.com/0xzcov/omni-fun-mcp-server
-    created_at: "2026-03-15T12:40:54Z"
-    pushed_at: "2026-03-15T12:40:56Z"
-    description: "MCP server for omni.fun — multichain memecoin launchpad. 8 tools for AI agents: trending tokens, search, quotes, bonding curves, trade simulation, chain info."
+    created_at: '2026-03-15T12:40:54Z'
+    pushed_at: '2026-03-15T12:40:56Z'
+    description: >-
+      MCP server for omni.fun — multichain memecoin launchpad. 8 tools for AI agents: trending tokens, search, quotes,
+      bonding curves, trade simulation, chain info.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:25.225Z"
+    last_checked_at: '2026-09-17T04:13:25.225Z'
     readme:
-      fetched_at: "2026-09-17T04:13:25.225Z"
+      fetched_at: '2026-09-17T04:13:25.225Z'
       bytes: 2175
 insights:
-  summary: An MCP server that provides AI agents with tools to query token data, trading info, and bonding curves for the omni.fun launchpad.
-  why_it_matters: It enables LLM-powered agents to interact with specific memecoin market data and trading simulations across multiple chains.
-  mental_damage: Because nothing says 'productive developer workflow' like delegating your degens-mode crypto trading to a Claude instance.
+  summary: >-
+    An MCP server that provides AI agents with tools to query token data, trading info, and bonding curves for the
+    omni.fun launchpad.
+  why_it_matters: >-
+    It enables LLM-powered agents to interact with specific memecoin market data and trading simulations across multiple
+    chains.
+  mental_damage: >-
+    Because nothing says 'productive developer workflow' like delegating your degens-mode crypto trading to a Claude
+    instance.
   tags:
     - mcp
     - crypto
@@ -56,27 +70,28 @@ curation:
   evidence:
     - README explicitly defines itself as an 'MCP server for omni.fun'
     - Exposes 8 specialized tools (trending tokens, quotes, simulate_trade) via the Model Context Protocol
-    - "Directly addresses the MCP identity requirement: a server providing tool capabilities to a host"
+    - 'Directly addresses the MCP identity requirement: a server providing tool capabilities to a host'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.598Z"
+    updated_at: '2026-05-06T22:12:15.598Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:25.225Z"
+    updated_at: '2026-09-17T04:13:25.225Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:47:51.079Z"
+    updated_at: '2026-07-20T15:47:51.079Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -93,10 +108,12 @@ processing:
       decision_evidence:
         - README explicitly defines itself as an 'MCP server for omni.fun'
         - Exposes 8 specialized tools (trending tokens, quotes, simulate_trade) via the Model Context Protocol
-        - "Directly addresses the MCP identity requirement: a server providing tool capabilities to a host"
+        - 'Directly addresses the MCP identity requirement: a server providing tool capabilities to a host'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's identity is specifically a Model Context Protocol server rather than a general workflow extension for a specific IDE.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's identity is specifically a Model Context Protocol server
+        rather than a general workflow extension for a specific IDE.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bintocher__mcp-superset__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📊 <a name="data-platforms"></a>Data Platforms
         anchor_text: bintocher/mcp-superset
         extracted_url: https://github.com/bintocher/mcp-superset
-        surrounding_text: "- [bintocher/mcp-superset](https://github.com/bintocher/mcp-superset) [![mcp-superset MCP server](https://glama.ai/mcp/servers/bintocher/mcp-superset/badges/score.svg)](https://glama.ai/mcp/servers/bintocher/mcp-superset) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Full-featured Apache Superset MCP server with 135+ tools for dashboards, charts, datasets, SQL Lab, security (users, roles, RLS, groups), permissions audit, and 30+ built-in safety validations. Supports HTTP, SSE, and stdio transports."
+        surrounding_text: >-
+          - [bintocher/mcp-superset](https://github.com/bintocher/mcp-superset) [![mcp-superset MCP
+          server](https://glama.ai/mcp/servers/bintocher/mcp-superset/badges/score.svg)](https://glama.ai/mcp/servers/bintocher/mcp-superset)
+          🐍 ☁️ 🏠 🍎 🪟 🐧 - Full-featured Apache Superset MCP server with 135+ tools for dashboards, charts, datasets,
+          SQL Lab, security (users, roles, RLS, groups), permissions audit, and 30+ built-in safety validations.
+          Supports HTTP, SSE, and stdio transports.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: bintocher/mcp-superset
     html_url: https://github.com/bintocher/mcp-superset
-    created_at: "2026-03-10T20:27:46Z"
-    pushed_at: "2026-09-01T13:48:59Z"
+    created_at: '2026-03-10T20:27:46Z'
+    pushed_at: '2026-09-01T13:48:59Z'
     description: MCP server for managing Apache Superset — 128+ tools for dashboards, charts, datasets, SQL Lab, access control
     homepage: null
     topics:
@@ -44,13 +49,17 @@ metadata:
       - mcp-server
       - model-context-protocol
       - superset
-    last_checked_at: "2026-09-07T04:13:34.239Z"
+    last_checked_at: '2026-09-07T04:13:34.239Z'
     readme:
-      fetched_at: "2026-09-07T04:13:34.239Z"
+      fetched_at: '2026-09-07T04:13:34.239Z'
       bytes: 25576
 insights:
-  summary: MCP server providing 137 tools for managing Apache Superset, including dashboards, charts, datasets, SQL Lab, and access control.
-  why_it_matters: Enables AI assistants to programmatically control and automate Superset instances, from dashboard management to security and permissions.
+  summary: >-
+    MCP server providing 137 tools for managing Apache Superset, including dashboards, charts, datasets, SQL Lab, and
+    access control.
+  why_it_matters: >-
+    Enables AI assistants to programmatically control and automate Superset instances, from dashboard management to
+    security and permissions.
   mental_damage: Now your AI can spin up dashboards faster than you can explain why the last one was wrong.
   tags:
     - mcp
@@ -68,24 +77,25 @@ curation:
     - Listed in awesome-mcp-servers under Data Platforms
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:34.239Z"
+    updated_at: '2026-09-07T04:13:34.239Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:26:07.118Z"
+    updated_at: '2026-07-21T15:26:07.118Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -106,6 +116,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is a standalone MCP server with domain-specific functionality, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is a standalone MCP server with domain-specific
+        functionality, not an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

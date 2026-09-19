@@ -6,8 +6,9 @@ identity:
   github_repo: daedalusdevelopmentgroup/ddg-agent-payable-services
 provenance:
   discoveries:
-    - id: discovery__github__daedalusdevelopmentgroup__ddg-agent-payable-services__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-23T05:08:37.088Z"
+    - id: >-
+        discovery__github__daedalusdevelopmentgroup__ddg-agent-payable-services__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: '2026-07-23T05:08:37.088Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +21,15 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: daedalusdevelopmentgroup/ddg-agent-payable-services
         extracted_url: https://github.com/daedalusdevelopmentgroup/ddg-agent-payable-services
-        surrounding_text: "- [daedalusdevelopmentgroup/ddg-agent-payable-services](https://github.com/daedalusdevelopmentgroup/ddg-agent-payable-services) [![daedalusdevelopmentgroup/ddg-agent-payable-services MCP server](https://glama.ai/mcp/servers/daedalusdevelopmentgroup/ddg-agent-payable-services/badges/score.svg)](https://glama.ai/mcp/servers/daedalusdevelopmentgroup/ddg-agent-payable-services) 🐍 ☁️ - Pay-per-call x402 gateway: one MCP server for 90+ agent tools (utilities, DNS/WHOIS, blockchain RPC, market data, prediction markets, DEX data, security audits) plus an OpenAI-compatible LLM gateway. USDC on Base, free-trial calls per agent. `pip install ddg-agent-services-mcp` or remote `https://mcp.daedalusdevelopmentgroup.com/mcp`."
+        surrounding_text: >-
+          -
+          [daedalusdevelopmentgroup/ddg-agent-payable-services](https://github.com/daedalusdevelopmentgroup/ddg-agent-payable-services)
+          [![daedalusdevelopmentgroup/ddg-agent-payable-services MCP
+          server](https://glama.ai/mcp/servers/daedalusdevelopmentgroup/ddg-agent-payable-services/badges/score.svg)](https://glama.ai/mcp/servers/daedalusdevelopmentgroup/ddg-agent-payable-services)
+          🐍 ☁️ - Pay-per-call x402 gateway: one MCP server for 90+ agent tools (utilities, DNS/WHOIS, blockchain RPC,
+          market data, prediction markets, DEX data, security audits) plus an OpenAI-compatible LLM gateway. USDC on
+          Base, free-trial calls per agent. `pip install ddg-agent-services-mcp` or remote
+          `https://mcp.daedalusdevelopmentgroup.com/mcp`.
         confidence: high
 metadata:
   github:
@@ -30,9 +39,11 @@ metadata:
     archived: false
     full_name: daedalusdevelopmentgroup/ddg-agent-payable-services
     html_url: https://github.com/daedalusdevelopmentgroup/ddg-agent-payable-services
-    created_at: "2026-06-23T05:50:05Z"
-    pushed_at: "2026-08-17T10:36:20Z"
-    description: Pay-per-call x402 gateway for AI agents — MCP server + OpenAI-compatible API for agent tools, market data, RPC, and MCP security audits. Pay in USDC on Base, no account.
+    created_at: '2026-06-23T05:50:05Z'
+    pushed_at: '2026-08-17T10:36:20Z'
+    description: >-
+      Pay-per-call x402 gateway for AI agents — MCP server + OpenAI-compatible API for agent tools, market data, RPC,
+      and MCP security audits. Pay in USDC on Base, no account.
     homepage: null
     topics:
       - agent-commerce
@@ -50,14 +61,20 @@ metadata:
       - security
       - usdc
       - x402
-    last_checked_at: "2026-09-14T04:13:32.858Z"
+    last_checked_at: '2026-09-14T04:13:32.858Z'
     readme:
-      fetched_at: "2026-09-14T04:13:32.858Z"
+      fetched_at: '2026-09-14T04:13:32.858Z'
       bytes: 8997
 insights:
-  summary: Pay-per-call x402 gateway for AI agents with MCP server and OpenAI-compatible API for agent tools, market data, RPC, and MCP security audits.
-  why_it_matters: Enables AI agents to pay for and consume 124+ services (from utilities to financial/agent-infra) via crypto (USDC on Base) without human intervention, with MCP and OpenAI-compatible interfaces.
-  mental_damage: Now your agent can pay for its own DNS lookups and UUID generation, because nothing says 'automation' like microtransactions for trivialities.
+  summary: >-
+    Pay-per-call x402 gateway for AI agents with MCP server and OpenAI-compatible API for agent tools, market data, RPC,
+    and MCP security audits.
+  why_it_matters: >-
+    Enables AI agents to pay for and consume 124+ services (from utilities to financial/agent-infra) via crypto (USDC on
+    Base) without human intervention, with MCP and OpenAI-compatible interfaces.
+  mental_damage: >-
+    Now your agent can pay for its own DNS lookups and UUID generation, because nothing says 'automation' like
+    microtransactions for trivialities.
   tags:
     - mcp-server
     - agent-payments
@@ -67,31 +84,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the primary product identity: it is an MCP server providing agent-payable services, with MCP security audits and OpenAI-compatible API as core features."
+  reason: >-
+    MCP is the primary product identity: it is an MCP server providing agent-payable services, with MCP security audits
+    and OpenAI-compatible API as core features.
   evidence:
     - Repo description explicitly states it is an MCP server + OpenAI-compatible API for agent tools
     - README highlights MCP server functionality and x402/direct-crypto payment rails as core features
     - Listed in awesome-mcp-servers under Server Implementations > Aggregators
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-23T05:08:37.090Z"
+    updated_at: '2026-07-23T05:08:37.090Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:32.858Z"
+    updated_at: '2026-09-14T04:13:32.858Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T09:25:15.238Z"
+    updated_at: '2026-08-27T09:25:15.238Z'
     cause: null
     next_retry_at: null
     classification:
@@ -101,7 +121,9 @@ processing:
       input_hash: sha256:eda332a5f46ee5bb88a56b74c169dfe44961d9244d7c5777c8ac3a01c09c7610
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the primary product identity: it is an MCP server providing agent-payable services, with MCP security audits and OpenAI-compatible API as core features."
+      decision_reason: >-
+        MCP is the primary product identity: it is an MCP server providing agent-payable services, with MCP security
+        audits and OpenAI-compatible API as core features.
       decision_evidence:
         - Repo description explicitly states it is an MCP server + OpenAI-compatible API for agent tools
         - README highlights MCP server functionality and x402/direct-crypto payment rails as core features
@@ -109,7 +131,9 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product's core identity is as an MCP server (with payment rails and agent tooling) rather than a general-purpose SDK or framework.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product's core identity is as an MCP server (with payment rails and
+        agent tooling) rather than a general-purpose SDK or framework.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

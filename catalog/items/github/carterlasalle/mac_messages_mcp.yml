@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__carterlasalle__mac_messages_mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,14 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: carterlasalle/mac_messages_mcp
         extracted_url: https://github.com/carterlasalle/mac_messages_mcp
-        surrounding_text: "- [carterlasalle/mac_messages_mcp](https://github.com/carterlasalle/mac_messages_mcp) 🏠 🍎 🚀 - An MCP server that securely interfaces with your iMessage database via the Model Context Protocol (MCP), allowing LLMs to query and analyze iMessage conversations. It includes robust phone number validation, attachment processing, contact management, group chat handling, and full support for sending and receiving messages."
+        surrounding_text: >-
+          - [carterlasalle/mac_messages_mcp](https://github.com/carterlasalle/mac_messages_mcp) 🏠 🍎 🚀 - An MCP server
+          that securely interfaces with your iMessage database via the Model Context Protocol (MCP), allowing LLMs to
+          query and analyze iMessage conversations. It includes robust phone number validation, attachment processing,
+          contact management, group chat handling, and full support for sending and receiving messages.
         confidence: high
     - id: discovery__github__carterlasalle__mac_messages_mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +39,10 @@ provenance:
           - 💬 Communication
         anchor_text: carterlasalle/mac_messages_mcp
         extracted_url: https://github.com/carterlasalle/mac_messages_mcp
-        surrounding_text: "-   **[carterlasalle/mac_messages_mcp](https://github.com/carterlasalle/mac_messages_mcp)** [![GitHub stars](https://img.shields.io/github/stars/carterlasalle/mac_messages_mcp?style=social)](https://github.com/carterlasalle/mac_messages_mcp): Securely accesses, analyzes, sends, and receives iMessages on macOS."
+        surrounding_text: >-
+          -   **[carterlasalle/mac_messages_mcp](https://github.com/carterlasalle/mac_messages_mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/carterlasalle/mac_messages_mcp?style=social)](https://github.com/carterlasalle/mac_messages_mcp):
+          Securely accesses, analyzes, sends, and receives iMessages on macOS.
         confidence: high
 metadata:
   github:
@@ -45,9 +52,12 @@ metadata:
     archived: false
     full_name: carterlasalle/mac_messages_mcp
     html_url: https://github.com/carterlasalle/mac_messages_mcp
-    created_at: "2025-03-13T04:24:07Z"
-    pushed_at: "2026-09-03T00:39:26Z"
-    description: An MCP server that securely interfaces with your iMessage database via the Model Context Protocol (MCP), allowing LLMs to query and analyze iMessage conversations. It includes robust phone number validation, attachment processing, contact management, group chat handling, and full support for sending and receiving messages.
+    created_at: '2025-03-13T04:24:07Z'
+    pushed_at: '2026-09-03T00:39:26Z'
+    description: >-
+      An MCP server that securely interfaces with your iMessage database via the Model Context Protocol (MCP), allowing
+      LLMs to query and analyze iMessage conversations. It includes robust phone number validation, attachment
+      processing, contact management, group chat handling, and full support for sending and receiving messages.
     homepage: https://pypi.org/project/mac-messages-mcp/
     topics:
       - applescript
@@ -59,13 +69,15 @@ metadata:
       - macos
       - mcp
       - mcp-server
-    last_checked_at: "2026-09-07T04:13:41.819Z"
+    last_checked_at: '2026-09-07T04:13:41.819Z'
     readme:
-      fetched_at: "2026-09-07T04:13:41.819Z"
+      fetched_at: '2026-09-07T04:13:41.819Z'
       bytes: 17647
 insights:
   summary: An MCP server that enables LLMs to securely query, analyze, and send iMessage/SMS conversations on macOS.
-  why_it_matters: Developers can integrate iMessage capabilities into their AI workflows, allowing agents to interact with SMS/iMessage data for notifications, automation, or context enrichment.
+  why_it_matters: >-
+    Developers can integrate iMessage capabilities into their AI workflows, allowing agents to interact with
+    SMS/iMessage data for notifications, automation, or context enrichment.
   mental_damage: Now your AI can read your group chats and judge your texting habits in real time.
   tags:
     - mcp-server
@@ -76,31 +88,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the core product identity, and the server provides domain-specific (communication) functionality via the Model Context Protocol.
+  reason: >-
+    MCP is the core product identity, and the server provides domain-specific (communication) functionality via the
+    Model Context Protocol.
   evidence:
     - Repo description explicitly identifies it as an MCP server for iMessage
     - README details MCP integration with Cursor/Claude Desktop and PyPI distribution
     - Listed in multiple MCP-focused directories (awesome-mcp-list, awesome-mcp-servers)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: promotion_candidate
   reason: Stars (277) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.583Z"
+    updated_at: '2026-05-06T22:12:15.583Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:41.819Z"
+    updated_at: '2026-09-07T04:13:41.819Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:40:59.760Z"
+    updated_at: '2026-07-21T15:40:59.760Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -113,7 +128,9 @@ processing:
       input_hash: sha256:1eb7bcc2db86b779ecabf133d443af096d07a6181832823cf596eb6781abe6f9
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the core product identity, and the server provides domain-specific (communication) functionality via the Model Context Protocol.
+      decision_reason: >-
+        MCP is the core product identity, and the server provides domain-specific (communication) functionality via the
+        Model Context Protocol.
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server for iMessage
         - README details MCP integration with Cursor/Claude Desktop and PyPI distribution
@@ -121,6 +138,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary identity is an MCP server (not an extension for another assistant), and MCP is the adopted protocol, not a compatibility footnote.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary identity is an MCP server (not an extension for another
+        assistant), and MCP is the adopted protocol, not a compatibility footnote.
       review_reason: null
       review_resume_lifecycle: null

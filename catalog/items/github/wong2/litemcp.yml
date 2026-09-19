@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wong2__litemcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,7 @@ provenance:
           - Frameworks
         anchor_text: LiteMCP
         extracted_url: https://github.com/wong2/litemcp
-        surrounding_text: "- **[LiteMCP](https://github.com/wong2/litemcp)** - A TypeScript framework for building MCP servers elegantly"
+        surrounding_text: '- **[LiteMCP](https://github.com/wong2/litemcp)** - A TypeScript framework for building MCP servers elegantly'
         confidence: high
 metadata:
   github:
@@ -29,22 +29,24 @@ metadata:
     archived: false
     full_name: wong2/litemcp
     html_url: https://github.com/wong2/litemcp
-    created_at: "2024-12-09T10:25:06Z"
-    pushed_at: "2025-04-27T03:30:13Z"
+    created_at: '2024-12-09T10:25:06Z'
+    pushed_at: '2025-04-27T03:30:13Z'
     description: A TypeScript framework for building MCP servers elegantly
-    homepage: ""
+    homepage: ''
     topics:
       - mcp
       - model-context-protocol
       - typescript
       - typescript-library
-    last_checked_at: "2026-07-21T15:21:14.819Z"
+    last_checked_at: '2026-07-21T15:21:14.819Z'
     readme:
-      fetched_at: "2026-07-21T15:21:14.819Z"
+      fetched_at: '2026-07-21T15:21:14.819Z'
       bytes: 5196
 insights:
   summary: A TypeScript framework for building MCP servers elegantly.
-  why_it_matters: Simplifies creating Model Context Protocol servers with TypeScript, enabling developers to expose tools, resources, and prompts to AI clients.
+  why_it_matters: >-
+    Simplifies creating Model Context Protocol servers with TypeScript, enabling developers to expose tools, resources,
+    and prompts to AI clients.
   mental_damage: Another MCP abstraction layer to learn before the official SDK made this redundant.
   tags:
     - mcp
@@ -54,31 +56,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: litemcp is an MCP-first server framework, making it a clear fit for MCP Servers & Tooling as its core identity is building MCP servers, not extending another agent or providing general AI infrastructure.
+  reason: >-
+    litemcp is an MCP-first server framework, making it a clear fit for MCP Servers & Tooling as its core identity is
+    building MCP servers, not extending another agent or providing general AI infrastructure.
   evidence:
-    - "Repo description: 'A TypeScript framework for building MCP servers elegantly'"
+    - 'Repo description: ''A TypeScript framework for building MCP servers elegantly'''
     - README positions it as a framework for defining MCP Tools, Resources, and Prompts with TypeScript
-    - "Source-list context: listed in awesome-mcp-servers under Frameworks section"
+    - 'Source-list context: listed in awesome-mcp-servers under Frameworks section'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Clients & Inspector Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (185) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.655Z"
+    updated_at: '2026-05-06T22:12:15.655Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:14.819Z"
+    updated_at: '2026-07-21T15:21:14.819Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-18T05:35:36.107Z"
+    updated_at: '2026-05-18T05:35:36.107Z'
     cause: null
     next_retry_at: null
     attempts: 3

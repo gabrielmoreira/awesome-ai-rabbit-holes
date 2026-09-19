@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hmk__box-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 📂 <a name="file-systems"></a>File Systems
         anchor_text: hmk/box-mcp-server
         extracted_url: https://github.com/hmk/box-mcp-server
-        surrounding_text: "- [hmk/box-mcp-server](https://github.com/hmk/box-mcp-server) 📇 ☁️ - Box integration for listing, reading and searching files"
+        surrounding_text: >-
+          - [hmk/box-mcp-server](https://github.com/hmk/box-mcp-server) 📇 ☁️ - Box integration for listing, reading and
+          searching files
         confidence: high
     - id: discovery__github__hmk__box-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,10 +37,10 @@ provenance:
           - Community Servers
         anchor_text: Box
         extracted_url: https://github.com/hmk/box-mcp-server
-        surrounding_text: "- **[Box](https://github.com/hmk/box-mcp-server)** - File access and search for Box."
+        surrounding_text: '- **[Box](https://github.com/hmk/box-mcp-server)** - File access and search for Box.'
         confidence: high
     - id: discovery__github__hmk__box-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -50,7 +52,10 @@ provenance:
           - 📂 File Systems
         anchor_text: hmk/box-mcp-server
         extracted_url: https://github.com/hmk/box-mcp-server
-        surrounding_text: "-   **[hmk/box-mcp-server](https://github.com/hmk/box-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/hmk/box-mcp-server?style=social)](https://github.com/hmk/box-mcp-server): Provides listing, reading and searching files on Box."
+        surrounding_text: >-
+          -   **[hmk/box-mcp-server](https://github.com/hmk/box-mcp-server)** [![GitHub
+          stars](https://img.shields.io/github/stars/hmk/box-mcp-server?style=social)](https://github.com/hmk/box-mcp-server):
+          Provides listing, reading and searching files on Box.
         confidence: high
 metadata:
   github:
@@ -60,18 +65,20 @@ metadata:
     archived: false
     full_name: hmk/box-mcp-server
     html_url: https://github.com/hmk/box-mcp-server
-    created_at: "2024-12-31T00:49:10Z"
-    pushed_at: "2025-08-22T14:46:26Z"
+    created_at: '2024-12-31T00:49:10Z'
+    pushed_at: '2025-08-22T14:46:26Z'
     description: A Box model context protocol server to search, read and access files
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:05:38.193Z"
+    last_checked_at: '2026-07-30T05:05:38.193Z'
     readme:
-      fetched_at: "2026-07-30T05:05:38.193Z"
+      fetched_at: '2026-07-30T05:05:38.193Z'
       bytes: 3967
 insights:
   summary: An MCP server that enables search, read, and file access for Box cloud storage.
-  why_it_matters: Developers using MCP-compatible assistants can now directly interact with Box files as part of their workflow without manual downloads or API scripting.
+  why_it_matters: >-
+    Developers using MCP-compatible assistants can now directly interact with Box files as part of their workflow
+    without manual downloads or API scripting.
   mental_damage: Finally, a way to make your AI assistant care about your enterprise Box files as much as you pretend to.
   tags:
     - mcp-server
@@ -81,31 +88,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server whose primary identity is providing Box storage integration via the Model Context Protocol.
+  reason: >-
+    This is a dedicated MCP server whose primary identity is providing Box storage integration via the Model Context
+    Protocol.
   evidence:
     - Repo description explicitly states it is a Box MCP server for file operations
     - README details Box authentication and MCP server configuration for Claude Desktop
     - Listed in multiple MCP server directories under File Systems
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.577Z"
+    updated_at: '2026-05-06T22:12:15.577Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:38.193Z"
+    updated_at: '2026-07-30T05:05:38.193Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:05:59.916Z"
+    updated_at: '2026-07-21T16:05:59.916Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -118,7 +128,9 @@ processing:
       input_hash: sha256:b47cb02920a5a34489625032b9156e58cb18de84be19521c48406cbf94e7a6c1
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a dedicated MCP server whose primary identity is providing Box storage integration via the Model Context Protocol.
+      decision_reason: >-
+        This is a dedicated MCP server whose primary identity is providing Box storage integration via the Model Context
+        Protocol.
       decision_evidence:
         - Repo description explicitly states it is a Box MCP server for file operations
         - README details Box authentication and MCP server configuration for Claude Desktop
@@ -126,6 +138,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server rather than an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server rather than an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

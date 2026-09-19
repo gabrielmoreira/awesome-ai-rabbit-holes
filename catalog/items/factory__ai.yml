@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__factory__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Factory
         anchor_text: Factory
         extracted_url: https://www.factory.ai
-        surrounding_text: "## [Factory](https://www.factory.ai/)"
+        surrounding_text: '## [Factory](https://www.factory.ai/)'
         confidence: high
     - id: discovery__factory__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - Coding Agents
         anchor_text: Factory
         extracted_url: https://factory.ai
-        surrounding_text: "- **[Factory](https://factory.ai/)** – AI platform automating repetitive coding tasks at scale."
+        surrounding_text: '- **[Factory](https://factory.ai/)** – AI platform automating repetitive coding tasks at scale.'
         confidence: high
 metadata:
   github:
@@ -51,9 +51,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-native platform that automates software development life cycle (SDLC) tasks including coding, testing, and deployment.
-  why_it_matters: It targets the full development loop—from code generation to deployment—aiming to automate entire engineering workflows rather than just writing lines of code.
-  mental_damage: Finally, an automated system to replace the human stress of manual deployment and testing with the optimized stress of managing autonomous droids.
+  summary: >-
+    An AI-native platform that automates software development life cycle (SDLC) tasks including coding, testing, and
+    deployment.
+  why_it_matters: >-
+    It targets the full development loop—from code generation to deployment—aiming to automate entire engineering
+    workflows rather than just writing lines of code.
+  mental_damage: >-
+    Finally, an automated system to replace the human stress of manual deployment and testing with the optimized stress
+    of managing autonomous droids.
   tags:
     - coding-agents
     - sdlc-automation
@@ -62,21 +68,24 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product identity is a standalone agent-driven system designed to handle complex, multi-stage engineering tasks across the SDLC.
+  reason: >-
+    The product identity is a standalone agent-driven system designed to handle complex, multi-stage engineering tasks
+    across the SDLC.
   evidence:
     - Claims to automate coding, testing, and deployment via 'Droids'
     - Focuses on 'Agent-Native Software Development' across the entire SDLC
     - Positioned as a replacement/augmentation for the full development cycle
 placement:
   primary_category: coding-agents
-  section: Review, Testing & Repair Agents
+  secondary_categories: []
+  section: Autonomous & Multi-Agent Coding
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.596Z"
+    updated_at: '2026-05-06T22:12:15.596Z'
     cause: null
     next_retry_at: null
   stars:
@@ -85,7 +94,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:44:19.588Z"
+    updated_at: '2026-07-20T15:44:19.588Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -98,7 +107,9 @@ processing:
       input_hash: sha256:4c4053b6005fb7204fbc04109276a2ea7921cef4eec2241a8d2095ee08c5b56a
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: The product identity is a standalone agent-driven system designed to handle complex, multi-stage engineering tasks across the SDLC.
+      decision_reason: >-
+        The product identity is a standalone agent-driven system designed to handle complex, multi-stage engineering
+        tasks across the SDLC.
       decision_evidence:
         - Claims to automate coding, testing, and deployment via 'Droids'
         - Focuses on 'Agent-Native Software Development' across the entire SDLC
@@ -106,6 +117,9 @@ processing:
       category_candidates:
         - coding-agents
         - agent-orchestration
-      contrastive_reason: Choose coding-agents over agent-orchestration because the product's primary value is the autonomous execution of engineering tasks (coding/testing/deployment) rather than being a generic workbench for coordinating disparate agents.
+      contrastive_reason: >-
+        Choose coding-agents over agent-orchestration because the product's primary value is the autonomous execution of
+        engineering tasks (coding/testing/deployment) rather than being a generic workbench for coordinating disparate
+        agents.
       review_reason: null
       review_resume_lifecycle: null

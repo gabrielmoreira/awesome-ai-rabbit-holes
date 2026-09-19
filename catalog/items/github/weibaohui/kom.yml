@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__weibaohui__kom__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: weibaohui/kom
         extracted_url: https://github.com/weibaohui/kom
-        surrounding_text: "- [weibaohui/kom](https://github.com/weibaohui/kom) 🏎️ ☁️/🏠 - Provides MCP multi-cluster Kubernetes management and operations. It can be integrated as an SDK into your own project and includes nearly 50 built-in tools covering common DevOps and development scenarios. Supports both standard and CRD resources."
+        surrounding_text: >-
+          - [weibaohui/kom](https://github.com/weibaohui/kom) 🏎️ ☁️/🏠 - Provides MCP multi-cluster Kubernetes
+          management and operations. It can be integrated as an SDK into your own project and includes nearly 50
+          built-in tools covering common DevOps and development scenarios. Supports both standard and CRD resources.
         confidence: high
     - id: discovery__github__weibaohui__kom__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +38,10 @@ provenance:
           - Community Servers
         anchor_text: weibaohui/kom
         extracted_url: https://github.com/weibaohui/kom
-        surrounding_text: "- **[weibaohui/kom](https://github.com/weibaohui/kom)** Provides multi-cluster Kubernetes management and operations using MCP, It can be integrated as an SDK into your own project and includes nearly 50 built-in tools covering common DevOps and development scenarios. Supports both standard and CRD resources."
+        surrounding_text: >-
+          - **[weibaohui/kom](https://github.com/weibaohui/kom)** Provides multi-cluster Kubernetes management and
+          operations using MCP, It can be integrated as an SDK into your own project and includes nearly 50 built-in
+          tools covering common DevOps and development scenarios. Supports both standard and CRD resources.
         confidence: high
 metadata:
   github:
@@ -45,9 +51,12 @@ metadata:
     archived: false
     full_name: weibaohui/kom
     html_url: https://github.com/weibaohui/kom
-    created_at: "2024-10-21T12:24:05Z"
-    pushed_at: "2026-02-06T14:25:33Z"
-    description: kom 是一个用于 Kubernetes 操作的工具，SDK级的kubectl、client-go的使用封装。并且支持作为管理k8s 的 MCP server。 它提供了一系列功能来管理 Kubernetes 资源，包括创建、更新、删除和获取资源，甚至使用SQL查询k8s资源。这个项目支持多种 Kubernetes 资源类型的操作，并能够处理自定义资源定义（CRD）。 通过使用 kom，你可以轻松地进行资源的增删改查和日志获取以及操作POD内文件等动作。
+    created_at: '2024-10-21T12:24:05Z'
+    pushed_at: '2026-02-06T14:25:33Z'
+    description: >-
+      kom 是一个用于 Kubernetes 操作的工具，SDK级的kubectl、client-go的使用封装。并且支持作为管理k8s 的 MCP server。 它提供了一系列功能来管理 Kubernetes
+      资源，包括创建、更新、删除和获取资源，甚至使用SQL查询k8s资源。这个项目支持多种 Kubernetes 资源类型的操作，并能够处理自定义资源定义（CRD）。 通过使用
+      kom，你可以轻松地进行资源的增删改查和日志获取以及操作POD内文件等动作。
     homepage: https://github.com/weibaohui/kom
     topics:
       - client-go
@@ -59,14 +68,20 @@ metadata:
       - mcp
       - sdk
       - sql
-    last_checked_at: "2026-07-21T15:21:11.834Z"
+    last_checked_at: '2026-07-21T15:21:11.834Z'
     readme:
-      fetched_at: "2026-07-21T15:21:11.834Z"
+      fetched_at: '2026-07-21T15:21:11.834Z'
       bytes: 52820
 insights:
-  summary: kom is a Go SDK wrapper for Kubernetes operations that provides kubectl-like functionality with CRD support, SQL querying, and MCP server capabilities.
-  why_it_matters: It simplifies Kubernetes resource management for developers by offering a programmatic interface with advanced features like SQL queries and multi-cluster MCP support.
-  mental_damage: Another tool promising to replace kubectl while adding yet another layer to remember when your pod is crashing at 3 AM.
+  summary: >-
+    kom is a Go SDK wrapper for Kubernetes operations that provides kubectl-like functionality with CRD support, SQL
+    querying, and MCP server capabilities.
+  why_it_matters: >-
+    It simplifies Kubernetes resource management for developers by offering a programmatic interface with advanced
+    features like SQL queries and multi-cluster MCP support.
+  mental_damage: >-
+    Another tool promising to replace kubectl while adding yet another layer to remember when your pod is crashing at 3
+    AM.
   tags:
     - kubernetes
     - sdk
@@ -75,31 +90,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: kom is primarily a code-first SDK/library for Kubernetes operations that developers import and script against, making it a framework/SDK rather than an MCP server or coding agent.
+  reason: >-
+    kom is primarily a code-first SDK/library for Kubernetes operations that developers import and script against,
+    making it a framework/SDK rather than an MCP server or coding agent.
   evidence:
-    - Repo description describes kom as 'SDK级的kubectl、client-go的使用封装' (SDK-level encapsulation of kubectl/client-go usage)
-    - "README shows usage as Go imports: 'import (\"github.com/weibaohui/kom\")' and programmatic cluster registration"
-    - Core functionality is providing a library interface for Kubernetes operations (CRUD, SQL queries, POD file operations) that developers call from their code
+    - >-
+      Repo description describes kom as 'SDK级的kubectl、client-go的使用封装' (SDK-level encapsulation of kubectl/client-go
+      usage)
+    - 'README shows usage as Go imports: ''import ("github.com/weibaohui/kom")'' and programmatic cluster registration'
+    - >-
+      Core functionality is providing a library interface for Kubernetes operations (CRUD, SQL queries, POD file
+      operations) that developers call from their code
 placement:
-  primary_category: ai-frameworks
-  section: Agent Frameworks
+  primary_category: mcp
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.595Z"
+    updated_at: '2026-05-06T22:12:15.595Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:11.834Z"
+    updated_at: '2026-07-21T15:21:11.834Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:33:11.077Z"
+    updated_at: '2026-05-12T15:33:11.077Z'
     cause: null
     next_retry_at: null
     attempts: 1

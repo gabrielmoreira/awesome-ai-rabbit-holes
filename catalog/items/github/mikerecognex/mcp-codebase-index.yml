@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mikerecognex__mcp-codebase-index__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: MikeRecognex/mcp-codebase-index
         extracted_url: https://github.com/mikerecognex/mcp-codebase-index
-        surrounding_text: "- [MikeRecognex/mcp-codebase-index](https://github.com/MikeRecognex/mcp-codebase-index) 🐍 🏠 🍎 🪟 🐧 - Structural codebase indexer exposing 17 query tools (functions, classes, imports, dependency graphs, change impact) via MCP. Zero dependencies."
+        surrounding_text: >-
+          - [MikeRecognex/mcp-codebase-index](https://github.com/MikeRecognex/mcp-codebase-index) 🐍 🏠 🍎 🪟 🐧 -
+          Structural codebase indexer exposing 17 query tools (functions, classes, imports, dependency graphs, change
+          impact) via MCP. Zero dependencies.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: MikeRecognex/mcp-codebase-index
     html_url: https://github.com/MikeRecognex/mcp-codebase-index
-    created_at: "2026-02-15T15:13:54Z"
-    pushed_at: "2026-02-28T00:25:59Z"
-    description: 17 MCP query tools for codebase navigation — functions, classes, imports, dependency graphs, change impact. Zero dependencies. 87% token reduction.
+    created_at: '2026-02-15T15:13:54Z'
+    pushed_at: '2026-02-28T00:25:59Z'
+    description: >-
+      17 MCP query tools for codebase navigation — functions, classes, imports, dependency graphs, change impact. Zero
+      dependencies. 87% token reduction.
     homepage: null
     topics:
       - ai-coding
@@ -48,14 +53,20 @@ metadata:
       - python
       - symbol-table
       - typescript
-    last_checked_at: "2026-08-03T05:17:02.840Z"
+    last_checked_at: '2026-08-03T05:17:02.840Z'
     readme:
-      fetched_at: "2026-08-03T05:17:02.840Z"
+      fetched_at: '2026-08-03T05:17:02.840Z'
       bytes: 14883
 insights:
-  summary: A structural codebase indexer and MCP server that parses source files into metadata and exposes 17 query tools for functions, classes, imports, and dependency graphs with incremental re-indexing.
-  why_it_matters: It lets MCP clients like Claude Code navigate large codebases through targeted structural queries instead of brute-forcing entire files, claiming up to 87% token reduction.
-  mental_damage: We have successfully invented a tool to help our AI assistants pretend they understand the codebase without the existential cost of actually reading it.
+  summary: >-
+    A structural codebase indexer and MCP server that parses source files into metadata and exposes 17 query tools for
+    functions, classes, imports, and dependency graphs with incremental re-indexing.
+  why_it_matters: >-
+    It lets MCP clients like Claude Code navigate large codebases through targeted structural queries instead of
+    brute-forcing entire files, claiming up to 87% token reduction.
+  mental_damage: >-
+    We have successfully invented a tool to help our AI assistants pretend they understand the codebase without the
+    existential cost of actually reading it.
   tags:
     - mcp
     - codebase-indexer
@@ -64,35 +75,44 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server that indexes codebases and exposes structured query tools, fitting squarely into MCP Servers & Tooling as a domain-specific server.
+  reason: >-
+    The product's primary identity is an MCP server that indexes codebases and exposes structured query tools, fitting
+    squarely into MCP Servers & Tooling as a domain-specific server.
   evidence:
-    - Repo description explicitly states '17 MCP query tools for codebase navigation' and topics include 'mcp-server' and 'model-context-protocol'.
-    - README states it 'exposes 18 query tools via the Model Context Protocol, enabling Claude Code and other MCP clients to navigate codebases efficiently'.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools' confirming its role as an MCP server.
+    - >-
+      Repo description explicitly states '17 MCP query tools for codebase navigation' and topics include 'mcp-server'
+      and 'model-context-protocol'.
+    - >-
+      README states it 'exposes 18 query tools via the Model Context Protocol, enabling Claude Code and other MCP
+      clients to navigate codebases efficiently'.
+    - >-
+      Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools' confirming its role as an MCP
+      server.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.630Z"
+    updated_at: '2026-05-06T22:12:15.630Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:02.840Z"
+    updated_at: '2026-08-03T05:17:02.840Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

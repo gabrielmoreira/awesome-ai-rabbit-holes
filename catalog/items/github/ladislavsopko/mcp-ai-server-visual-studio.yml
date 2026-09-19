@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ladislavsopko__mcp-ai-server-visual-studio__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: LadislavSopko/mcp-ai-server-visual-studio
         extracted_url: https://github.com/ladislavsopko/mcp-ai-server-visual-studio
-        surrounding_text: "- [LadislavSopko/mcp-ai-server-visual-studio](https://github.com/LadislavSopko/mcp-ai-server-visual-studio) #️⃣ 🏠 🪟 - MCP AI Server for Visual Studio. 20 Roslyn-powered tools giving AI assistants semantic code navigation, symbol search, inheritance trees, call graphs, safe rename, build/test execution. Works with Claude, Codex, Gemini, Cursor, Copilot, Windsurf, Cline."
+        surrounding_text: >-
+          - [LadislavSopko/mcp-ai-server-visual-studio](https://github.com/LadislavSopko/mcp-ai-server-visual-studio)
+          #️⃣ 🏠 🪟 - MCP AI Server for Visual Studio. 20 Roslyn-powered tools giving AI assistants semantic code
+          navigation, symbol search, inheritance trees, call graphs, safe rename, build/test execution. Works with
+          Claude, Codex, Gemini, Cursor, Copilot, Windsurf, Cline.
         confidence: high
 metadata:
   github:
@@ -30,19 +34,25 @@ metadata:
     archived: false
     full_name: LadislavSopko/mcp-ai-server-visual-studio
     html_url: https://github.com/LadislavSopko/mcp-ai-server-visual-studio
-    created_at: "2026-02-18T10:47:12Z"
-    pushed_at: "2026-03-08T14:54:33Z"
+    created_at: '2026-02-18T10:47:12Z'
+    pushed_at: '2026-03-08T14:54:33Z'
     description: MCP AI Server - Roslyn-powered MCP server for Visual Studio. 20 tools for AI assistants.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:06:02.435Z"
+    last_checked_at: '2026-07-30T05:06:02.435Z'
     readme:
-      fetched_at: "2026-07-30T05:06:02.435Z"
+      fetched_at: '2026-07-30T05:06:02.435Z'
       bytes: 12336
 insights:
-  summary: MCP AI Server for Visual Studio is a Roslyn-powered MCP server extension that exposes Visual Studio's semantic code analysis and debugger tools to AI assistants.
-  why_it_matters: It bridges the gap between AI coding assistants and Visual Studio's deep code understanding, enabling precise semantic navigation, refactoring, and debugging capabilities.
-  mental_damage: Finally, your AI assistant can stop guessing at call graphs and start using the same compiler-powered intelligence you've been using for years.
+  summary: >-
+    MCP AI Server for Visual Studio is a Roslyn-powered MCP server extension that exposes Visual Studio's semantic code
+    analysis and debugger tools to AI assistants.
+  why_it_matters: >-
+    It bridges the gap between AI coding assistants and Visual Studio's deep code understanding, enabling precise
+    semantic navigation, refactoring, and debugging capabilities.
+  mental_damage: >-
+    Finally, your AI assistant can stop guessing at call graphs and start using the same compiler-powered intelligence
+    you've been using for years.
   tags:
     - mcp
     - visual-studio
@@ -52,31 +62,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the product identity here, as it is a dedicated MCP server exposing Visual Studio-specific tools to AI assistants.
+  reason: >-
+    MCP is the product identity here, as it is a dedicated MCP server exposing Visual Studio-specific tools to AI
+    assistants.
   evidence:
     - Repo description explicitly states it is an MCP server for Visual Studio
     - README emphasizes MCP tools (41 tools) and Roslyn/debugger integration
     - Already listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.626Z"
+    updated_at: '2026-05-06T22:12:15.626Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:02.435Z"
+    updated_at: '2026-07-30T05:06:02.435Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:14:38.778Z"
+    updated_at: '2026-07-21T16:14:38.778Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +102,9 @@ processing:
       input_hash: sha256:966bd6d9ec21dae9bb6711a1fb37bb35f72a8d4e61b8a86dd5b6b515625e90e7
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the product identity here, as it is a dedicated MCP server exposing Visual Studio-specific tools to AI assistants.
+      decision_reason: >-
+        MCP is the product identity here, as it is a dedicated MCP server exposing Visual Studio-specific tools to AI
+        assistants.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Visual Studio
         - README emphasizes MCP tools (41 tools) and Roslyn/debugger integration
@@ -97,6 +112,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific tools, not merely an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific tools, not
+        merely an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

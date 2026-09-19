@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__future-agi__agent-learning-kit__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-06-11T05:37:56.129Z"
+      discovered_at: '2026-06-11T05:37:56.129Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,10 +19,13 @@ provenance:
           - LLMOps
         anchor_text: ai-evaluation
         extracted_url: https://github.com/future-agi/ai-evaluation
-        surrounding_text: "| [ai-evaluation](https://github.com/future-agi/ai-evaluation) | Evaluation framework for automated, reproducible scoring of LLM, agent, and workflow performance. | ![GitHub Badge](https://img.shields.io/github/stars/future-agi/ai-evaluation?style=flat-square) |"
+        surrounding_text: >-
+          | [ai-evaluation](https://github.com/future-agi/ai-evaluation) | Evaluation framework for automated,
+          reproducible scoring of LLM, agent, and workflow performance. | ![GitHub
+          Badge](https://img.shields.io/github/stars/future-agi/ai-evaluation?style=flat-square) |
         confidence: high
     - id: discovery__github__future-agi__ai-evaluation__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -34,7 +37,10 @@ provenance:
           - LLMOps
         anchor_text: Future AGI
         extracted_url: https://github.com/future-agi/ai-evaluation
-        surrounding_text: "| [Future AGI](https://github.com/future-agi/ai-evaluation) | Evaluation framework for automated, reproducible scoring of LLM, agent, and workflow performance. | ![GitHub Badge](https://img.shields.io/github/stars/future-agi/ai-evaluation?style=flat-square) |"
+        surrounding_text: >-
+          | [Future AGI](https://github.com/future-agi/ai-evaluation) | Evaluation framework for automated, reproducible
+          scoring of LLM, agent, and workflow performance. | ![GitHub
+          Badge](https://img.shields.io/github/stars/future-agi/ai-evaluation?style=flat-square) |
         confidence: high
 metadata:
   github:
@@ -44,9 +50,9 @@ metadata:
     archived: false
     full_name: future-agi/agent-learning-kit
     html_url: https://github.com/future-agi/agent-learning-kit
-    created_at: "2025-06-11T10:34:59Z"
-    pushed_at: "2026-09-03T01:27:38Z"
-    description: "General Purpose Evaluation and Simulation Environment for all your AI related Workflows "
+    created_at: '2025-06-11T10:34:59Z'
+    pushed_at: '2026-09-03T01:27:38Z'
+    description: 'General Purpose Evaluation and Simulation Environment for all your AI related Workflows '
     homepage: https://futureagi.com
     topics:
       - agentic-ai
@@ -55,14 +61,20 @@ metadata:
       - cicd
       - evaluation
       - ml
-    last_checked_at: "2026-09-03T05:16:45.061Z"
+    last_checked_at: '2026-09-03T05:16:45.061Z'
     readme:
-      fetched_at: "2026-09-03T05:16:45.061Z"
+      fetched_at: '2026-09-03T05:16:45.061Z'
       bytes: 17928
 insights:
-  summary: An evaluation framework and SDK for scoring AI workflows using a mix of 72 local metrics and LLM-as-judge refinement.
-  why_it_matters: It provides a unified `evaluate()` API to catch hallucinations and safety violations before they hit production, with support for RAG, function calling, and agent trajectories.
-  mental_damage: The peace of mind knowing your LLM passed 72 local metrics right before it manages to hallucinate a new way to delete your production database.
+  summary: >-
+    An evaluation framework and SDK for scoring AI workflows using a mix of 72 local metrics and LLM-as-judge
+    refinement.
+  why_it_matters: >-
+    It provides a unified `evaluate()` API to catch hallucinations and safety violations before they hit production,
+    with support for RAG, function calling, and agent trajectories.
+  mental_damage: >-
+    The peace of mind knowing your LLM passed 72 local metrics right before it manages to hallucinate a new way to
+    delete your production database.
   tags:
     - ai-observability
     - benchmarking
@@ -86,14 +98,15 @@ curation:
     - Includes features for streaming assessment and OpenTelemetry integration
 placement:
   primary_category: evals
-  section: Observability / Tracing / EvalOps
+  secondary_categories: []
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:59:17.919Z"
+    updated_at: '2026-07-21T15:59:17.919Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -114,16 +127,18 @@ processing:
       category_candidates:
         - evals
         - ai-frameworks
-      contrastive_reason: Choose evals over ai-frameworks because the tool's primary purpose is measuring and scoring model behavior rather than serving as a general-purpose building block for AI workflows.
+      contrastive_reason: >-
+        Choose evals over ai-frameworks because the tool's primary purpose is measuring and scoring model behavior
+        rather than serving as a general-purpose building block for AI workflows.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-06-11T05:37:56.130Z"
+    updated_at: '2026-06-11T05:37:56.130Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:45.062Z"
+    updated_at: '2026-09-03T05:16:45.062Z'
     cause: null
     next_retry_at: null

@@ -6,8 +6,9 @@ identity:
   github_repo: formulahendry/mcp-server-spec-driven-development
 provenance:
   discoveries:
-    - id: discovery__github__formulahendry__mcp-server-spec-driven-development__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-06T22:12:15.572Z"
+    - id: >-
+        discovery__github__formulahendry__mcp-server-spec-driven-development__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -19,7 +20,10 @@ provenance:
           - MCP Servers
         anchor_text: mcp-server-spec-driven-development
         extracted_url: https://github.com/formulahendry/mcp-server-spec-driven-development
-        surrounding_text: "- [mcp-server-spec-driven-development](https://github.com/formulahendry/mcp-server-spec-driven-development) ![](https://img.shields.io/github/stars/formulahendry/mcp-server-spec-driven-development.svg) - MCP server providing structured prompts for requirements, design documents, and code generation."
+        surrounding_text: >-
+          - [mcp-server-spec-driven-development](https://github.com/formulahendry/mcp-server-spec-driven-development)
+          ![](https://img.shields.io/github/stars/formulahendry/mcp-server-spec-driven-development.svg) - MCP server
+          providing structured prompts for requirements, design documents, and code generation.
         confidence: high
 metadata:
   github:
@@ -29,8 +33,8 @@ metadata:
     archived: false
     full_name: formulahendry/mcp-server-spec-driven-development
     html_url: https://github.com/formulahendry/mcp-server-spec-driven-development
-    created_at: "2025-07-28T11:42:06Z"
-    pushed_at: "2025-09-26T06:50:18Z"
+    created_at: '2025-07-28T11:42:06Z'
+    pushed_at: '2025-09-26T06:50:18Z'
     description: Spec-Driven Development MCP Server, not just Vibe Coding
     homepage: https://www.npmjs.com/package/mcp-server-spec-driven-development
     topics:
@@ -38,14 +42,20 @@ metadata:
       - mcp-server
       - spec-driven-development
       - vibe-coding
-    last_checked_at: "2026-09-03T05:16:42.983Z"
+    last_checked_at: '2026-09-03T05:16:42.983Z'
     readme:
-      fetched_at: "2026-09-03T05:16:42.983Z"
+      fetched_at: '2026-09-03T05:16:42.983Z'
       bytes: 5449
 insights:
-  summary: MCP server that provides structured prompts for spec-driven development workflows from requirements to design to code generation.
-  why_it_matters: It offers developers a repeatable, spec-first process that reduces ambiguity and improves consistency when translating ideas into implementation.
-  mental_damage: Another MCP server promising to save you from vibe coding by adding yet another prompt layer to your already-overburdened AI-assisted workflow.
+  summary: >-
+    MCP server that provides structured prompts for spec-driven development workflows from requirements to design to
+    code generation.
+  why_it_matters: >-
+    It offers developers a repeatable, spec-first process that reduces ambiguity and improves consistency when
+    translating ideas into implementation.
+  mental_damage: >-
+    Another MCP server promising to save you from vibe coding by adding yet another prompt layer to your
+    already-overburdened AI-assisted workflow.
   tags:
     - mcp
     - spec-driven-development
@@ -53,31 +63,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is a tool that enforces a spec-first loop (requirements → design → code) via MCP, fitting the Spec-Driven Development category perfectly.
+  reason: >-
+    The product's core identity is a tool that enforces a spec-first loop (requirements → design → code) via MCP,
+    fitting the Spec-Driven Development category perfectly.
   evidence:
     - Repo description explicitly states 'Spec-Driven Development MCP Server'.
-    - README details a workflow progressing from 'generate-requirements' (EARS format) → 'generate-design' → 'generate-code'.
+    - >-
+      README details a workflow progressing from 'generate-requirements' (EARS format) → 'generate-design' →
+      'generate-code'.
     - Found in the 'awesome-spec-driven-development' list under the 'MCP Servers' section.
 placement:
-  primary_category: spec-driven-development
-  section: null
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Spec-First & Plan-Execute
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'spec-driven-development', proposed 'mcp'"
+  reason: 'Categorization review required: placement disagreement: retained ''spec-driven-development'', proposed ''mcp'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.614Z"
+    updated_at: '2026-05-06T22:12:15.614Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:42.983Z"
+    updated_at: '2026-09-03T05:16:42.983Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:58:00.875Z"
+    updated_at: '2026-07-21T15:58:00.875Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -90,14 +105,18 @@ processing:
       input_hash: sha256:d79829996ac0774fd20dc15d8edd3cc48fd4366b86d4edbaf97556cfbad90e73
       proposed_primary_category: mcp
       disagreement: true
-      decision_reason: The product is an MCP server whose primary identity and value proposition is providing spec-driven development prompts via the Model Context Protocol, making MCP Servers & Tooling the best fit.
+      decision_reason: >-
+        The product is an MCP server whose primary identity and value proposition is providing spec-driven development
+        prompts via the Model Context Protocol, making MCP Servers & Tooling the best fit.
       decision_evidence:
-        - "Repo description: 'Spec-Driven Development MCP Server, not just Vibe Coding'"
-        - "README: 'Model Context Protocol (MCP) server that facilitates spec-driven development workflows'"
-        - "Source-list context: Listed in awesome-spec-driven-development under 'MCP Servers' section"
+        - 'Repo description: ''Spec-Driven Development MCP Server, not just Vibe Coding'''
+        - 'README: ''Model Context Protocol (MCP) server that facilitates spec-driven development workflows'''
+        - 'Source-list context: Listed in awesome-spec-driven-development under ''MCP Servers'' section'
       category_candidates:
         - mcp
         - spec-driven-development
-      contrastive_reason: Choose mcp over spec-driven-development because the product is fundamentally an MCP server infrastructure rather than a standalone spec-first environment or loop.
-      review_reason: "Categorization review required: placement disagreement: retained 'spec-driven-development', proposed 'mcp'"
+      contrastive_reason: >-
+        Choose mcp over spec-driven-development because the product is fundamentally an MCP server infrastructure rather
+        than a standalone spec-first environment or loop.
+      review_reason: 'Categorization review required: placement disagreement: retained ''spec-driven-development'', proposed ''mcp'''
       review_resume_lifecycle: null

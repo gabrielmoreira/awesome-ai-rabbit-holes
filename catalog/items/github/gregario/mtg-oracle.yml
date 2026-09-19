@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gregario__mtg-oracle__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: gregario/mtg-oracle
         extracted_url: https://github.com/gregario/mtg-oracle
-        surrounding_text: "- [gregario/mtg-oracle](https://github.com/gregario/mtg-oracle) [![gregario/mtg-oracle MCP server](https://glama.ai/mcp/servers/gregario/mtg-oracle/badges/score.svg)](https://glama.ai/mcp/servers/gregario/mtg-oracle) 📇 🏠 - Magic: The Gathering card search, rules lookup, deck analysis, price data, and Commander intelligence. 14 tools, Scryfall + Academy Ruins + Commander Spellbook data."
+        surrounding_text: >-
+          - [gregario/mtg-oracle](https://github.com/gregario/mtg-oracle) [![gregario/mtg-oracle MCP
+          server](https://glama.ai/mcp/servers/gregario/mtg-oracle/badges/score.svg)](https://glama.ai/mcp/servers/gregario/mtg-oracle)
+          📇 🏠 - Magic: The Gathering card search, rules lookup, deck analysis, price data, and Commander intelligence.
+          14 tools, Scryfall + Academy Ruins + Commander Spellbook data.
         confidence: high
 metadata:
   github:
@@ -30,18 +34,22 @@ metadata:
     archived: false
     full_name: gregario/mtg-oracle
     html_url: https://github.com/gregario/mtg-oracle
-    created_at: "2026-03-15T14:39:27Z"
-    pushed_at: "2026-05-02T20:58:05Z"
-    description: "Magic: The Gathering MCP server with card search, rules lookup, deck analysis, and Commander intelligence"
+    created_at: '2026-03-15T14:39:27Z'
+    pushed_at: '2026-05-02T20:58:05Z'
+    description: 'Magic: The Gathering MCP server with card search, rules lookup, deck analysis, and Commander intelligence'
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:54.655Z"
+    last_checked_at: '2026-09-03T05:16:54.655Z'
     readme:
-      fetched_at: "2026-09-03T05:16:54.655Z"
+      fetched_at: '2026-09-03T05:16:54.655Z'
       bytes: 5109
 insights:
-  summary: "An MCP server providing Magic: The Gathering card search, rules lookup, deck analysis, and Commander intelligence for AI assistants."
-  why_it_matters: Developers integrating AI assistants into MTG-related workflows can leverage this to fetch structured card data, rules, and deck insights without external API calls.
+  summary: >-
+    An MCP server providing Magic: The Gathering card search, rules lookup, deck analysis, and Commander intelligence
+    for AI assistants.
+  why_it_matters: >-
+    Developers integrating AI assistants into MTG-related workflows can leverage this to fetch structured card data,
+    rules, and deck insights without external API calls.
   mental_damage: Now your AI can argue about Commander combos with the same confidence it debugs your code.
   tags:
     - mcp
@@ -51,31 +59,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a domain-specific MCP server exposing MTG tools to AI assistants."
+  reason: 'MCP is the product identity: this is a domain-specific MCP server exposing MTG tools to AI assistants.'
   evidence:
     - Repo description explicitly identifies it as an MCP server
     - README details 14 MCP tools for MTG data and analysis
     - MCP compatibility is central to its purpose (not a secondary feature)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.617Z"
+    updated_at: '2026-05-06T22:12:15.617Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:54.655Z"
+    updated_at: '2026-09-03T05:16:54.655Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:04:28.762Z"
+    updated_at: '2026-07-21T16:04:28.762Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +97,7 @@ processing:
       input_hash: sha256:46dd537a9bef990f6338d6d2478a22448bbdeb2551f6eeb48f5a4cd192cda9c0
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a domain-specific MCP server exposing MTG tools to AI assistants."
+      decision_reason: 'MCP is the product identity: this is a domain-specific MCP server exposing MTG tools to AI assistants.'
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server
         - README details 14 MCP tools for MTG data and analysis
@@ -96,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

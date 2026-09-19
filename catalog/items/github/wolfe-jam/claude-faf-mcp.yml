@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wolfe-jam__claude-faf-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Wolfe-Jam/claude-faf-mcp
         extracted_url: https://github.com/wolfe-jam/claude-faf-mcp
-        surrounding_text: "- [Wolfe-Jam/claude-faf-mcp](https://github.com/Wolfe-Jam/claude-faf-mcp) 📇 🏠 - First & only persistent project context MCP. Provides .faf (Foundational AI-context Format) Project DNA with 33+ tools, Podium scoring (0-100%), and format-driven architecture. Official Anthropic Registry. 10k+ npm downloads."
+        surrounding_text: >-
+          - [Wolfe-Jam/claude-faf-mcp](https://github.com/Wolfe-Jam/claude-faf-mcp) 📇 🏠 - First & only persistent
+          project context MCP. Provides .faf (Foundational AI-context Format) Project DNA with 33+ tools, Podium scoring
+          (0-100%), and format-driven architecture. Official Anthropic Registry. 10k+ npm downloads.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,9 @@ metadata:
     archived: false
     full_name: Wolfe-Jam/claude-faf-mcp
     html_url: https://github.com/Wolfe-Jam/claude-faf-mcp
-    created_at: "2025-09-14T21:59:33Z"
-    pushed_at: "2026-07-21T05:37:36Z"
-    description: "Persistent Project Context for Claude — IANA-registered .faf format · 32 tools + 1 prompt · MCP Registry #2759"
+    created_at: '2025-09-14T21:59:33Z'
+    pushed_at: '2026-07-21T05:37:36Z'
+    description: 'Persistent Project Context for Claude — IANA-registered .faf format · 32 tools + 1 prompt · MCP Registry #2759'
     homepage: https://faf.one
     topics:
       - agents-md
@@ -55,14 +58,20 @@ metadata:
       - project-dna
       - typescript
       - vscode
-    last_checked_at: "2026-07-21T15:21:14.250Z"
+    last_checked_at: '2026-07-21T15:21:14.250Z'
     readme:
-      fetched_at: "2026-07-21T15:21:14.250Z"
+      fetched_at: '2026-07-21T15:21:14.250Z'
       bytes: 19567
 insights:
-  summary: An MCP server that provides persistent project context for Claude Desktop via the IANA-registered .faf format and 32 tools.
-  why_it_matters: It gives Claude Desktop long-term memory of project goals and constraints, reducing repetitive context-setting in AI-assisted coding sessions.
-  mental_damage: Another layer of YAML to maintain so your AI doesn’t forget why it’s editing your code—because apparently, even LLMs need project charters now.
+  summary: >-
+    An MCP server that provides persistent project context for Claude Desktop via the IANA-registered .faf format and 32
+    tools.
+  why_it_matters: >-
+    It gives Claude Desktop long-term memory of project goals and constraints, reducing repetitive context-setting in
+    AI-assisted coding sessions.
+  mental_damage: >-
+    Another layer of YAML to maintain so your AI doesn’t forget why it’s editing your code—because apparently, even LLMs
+    need project charters now.
   tags:
     - mcp
     - context
@@ -70,31 +79,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core identity is providing persistent project context via the .faf format, making MCP the primary product identity rather than a compatibility feature.
+  reason: >-
+    The product is an MCP server whose core identity is providing persistent project context via the .faf format, making
+    MCP the primary product identity rather than a compatibility feature.
   evidence:
-    - "Repo description: 'Persistent Project Context for Claude — IANA-registered .faf format · 32 tools + 1 prompt · MCP Registry #2759'"
-    - "README: Explicitly positions itself as an MCP server for Claude Desktop with 32 tools and one prompt, installable via .mcpb or npm"
-    - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Developer Tools"
+    - >-
+      Repo description: 'Persistent Project Context for Claude — IANA-registered .faf format · 32 tools + 1 prompt · MCP
+      Registry #2759'
+    - >-
+      README: Explicitly positions itself as an MCP server for Claude Desktop with 32 tools and one prompt, installable
+      via .mcpb or npm
+    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Developer Tools'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.655Z"
+    updated_at: '2026-05-06T22:12:15.655Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:14.250Z"
+    updated_at: '2026-07-21T15:21:14.250Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:35:58.052Z"
+    updated_at: '2026-05-12T15:35:58.052Z'
     cause: null
     next_retry_at: null
     attempts: 1

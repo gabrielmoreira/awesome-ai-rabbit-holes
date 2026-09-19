@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__grahammccain__chart-library-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,14 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: grahammccain/chart-library-mcp
         extracted_url: https://github.com/grahammccain/chart-library-mcp
-        surrounding_text: "- [grahammccain/chart-library-mcp](https://github.com/grahammccain/chart-library-mcp) [![grahammccain/chart-library-mcp MCP server](https://glama.ai/mcp/servers/grahammccain/chart-library-mcp/badges/score.svg)](https://glama.ai/mcp/servers/grahammccain/chart-library-mcp) 🐍 ☁️ - Historical stock chart pattern intelligence for AI agents. 24M pre-computed embeddings across 15K stocks and 10 years of data. Search by ticker+date or screenshot to find the most similar historical patterns and see what happened next. 19 tools including pattern search, forward returns, regime analysis, and trade simulation. Install: `pip install chartlibrary-mcp`. Free tier: 200 calls/day."
+        surrounding_text: >-
+          - [grahammccain/chart-library-mcp](https://github.com/grahammccain/chart-library-mcp)
+          [![grahammccain/chart-library-mcp MCP
+          server](https://glama.ai/mcp/servers/grahammccain/chart-library-mcp/badges/score.svg)](https://glama.ai/mcp/servers/grahammccain/chart-library-mcp)
+          🐍 ☁️ - Historical stock chart pattern intelligence for AI agents. 24M pre-computed embeddings across 15K
+          stocks and 10 years of data. Search by ticker+date or screenshot to find the most similar historical patterns
+          and see what happened next. 19 tools including pattern search, forward returns, regime analysis, and trade
+          simulation. Install: `pip install chartlibrary-mcp`. Free tier: 200 calls/day.
         confidence: high
 metadata:
   github:
@@ -30,9 +37,11 @@ metadata:
     archived: false
     full_name: grahammccain/chart-library-mcp
     html_url: https://github.com/grahammccain/chart-library-mcp
-    created_at: "2026-03-25T02:11:51Z"
-    pushed_at: "2026-06-10T03:00:21Z"
-    description: MCP server for Chart Library — visual chart pattern search engine. Find similar historical stock charts and see what happened next.
+    created_at: '2026-03-25T02:11:51Z'
+    pushed_at: '2026-06-10T03:00:21Z'
+    description: >-
+      MCP server for Chart Library — visual chart pattern search engine. Find similar historical stock charts and see
+      what happened next.
     homepage: null
     topics:
       - ai-agents
@@ -48,14 +57,20 @@ metadata:
       - stocks
       - technical-analysis
       - trading
-    last_checked_at: "2026-09-03T05:16:53.689Z"
+    last_checked_at: '2026-09-03T05:16:53.689Z'
     readme:
-      fetched_at: "2026-09-03T05:16:53.689Z"
+      fetched_at: '2026-09-03T05:16:53.689Z'
       bytes: 17268
 insights:
-  summary: MCP server for Chart Library that enables AI agents to search historical stock chart patterns and retrieve empirical outcomes.
-  why_it_matters: Developers can integrate real-time financial pattern analysis into their AI workflows without hallucinated predictions, using 25M+ embeddings across 19K+ stocks.
-  mental_damage: Now your coding agent can tell you whether to hold TSLA based on historical analogs, because nothing says 'developer tooling' like stock tips from your IDE.
+  summary: >-
+    MCP server for Chart Library that enables AI agents to search historical stock chart patterns and retrieve empirical
+    outcomes.
+  why_it_matters: >-
+    Developers can integrate real-time financial pattern analysis into their AI workflows without hallucinated
+    predictions, using 25M+ embeddings across 19K+ stocks.
+  mental_damage: >-
+    Now your coding agent can tell you whether to hold TSLA based on historical analogs, because nothing says 'developer
+    tooling' like stock tips from your IDE.
   tags:
     - mcp-server
     - finance
@@ -65,31 +80,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific (finance) tooling for AI agents."
+  reason: >-
+    MCP is the product identity: this is a dedicated MCP server providing domain-specific (finance) tooling for AI
+    agents.
   evidence:
     - Repo description explicitly identifies it as an MCP server for Chart Library
     - README details MCP client integrations (Claude Desktop, Cursor, VS Code, etc.) and remote MCP endpoint
     - Source-list context places it in awesome-mcp-servers under Finance & Fintech
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.617Z"
+    updated_at: '2026-05-06T22:12:15.617Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:53.689Z"
+    updated_at: '2026-09-03T05:16:53.689Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:04:03.591Z"
+    updated_at: '2026-07-21T16:04:03.591Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -102,7 +120,9 @@ processing:
       input_hash: sha256:25cb9b05c7f0fd144c16a41088165a8a40715685910a0e1e728302aae4b5d92b
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific (finance) tooling for AI agents."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server providing domain-specific (finance) tooling for AI
+        agents.
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server for Chart Library
         - README details MCP client integrations (Claude Desktop, Cursor, VS Code, etc.) and remote MCP endpoint
@@ -110,6 +130,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server (not an extension augmenting another assistant).
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server (not an extension augmenting
+        another assistant).
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mobinx__awesome-mcp-list__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -29,19 +29,25 @@ metadata:
     archived: false
     full_name: MobinX/awesome-mcp-list
     html_url: https://github.com/MobinX/awesome-mcp-list
-    created_at: "2025-03-24T16:33:17Z"
-    pushed_at: "2026-03-11T04:45:11Z"
+    created_at: '2025-03-24T16:33:17Z'
+    pushed_at: '2026-03-11T04:45:11Z'
     description: A concise list for mcp servers
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:17:05.896Z"
+    last_checked_at: '2026-08-03T05:17:05.896Z'
     readme:
-      fetched_at: "2026-08-03T05:17:05.896Z"
+      fetched_at: '2026-08-03T05:17:05.896Z'
       bytes: 63331
 insights:
-  summary: A curated directory of Model Context Protocol (MCP) servers organized by domain, including browser control, art, cloud platforms, and other integrations.
-  why_it_matters: It serves as a centralized map for developers navigating the rapidly expanding ecosystem of MCP-compatible tools and servers.
-  mental_damage: We have now reached the stage of AI tooling where we need a dedicated list just to keep track of the lists that index the servers for the protocol that helps our assistants talk to the tools.
+  summary: >-
+    A curated directory of Model Context Protocol (MCP) servers organized by domain, including browser control, art,
+    cloud platforms, and other integrations.
+  why_it_matters: >-
+    It serves as a centralized map for developers navigating the rapidly expanding ecosystem of MCP-compatible tools and
+    servers.
+  mental_damage: >-
+    We have now reached the stage of AI tooling where we need a dedicated list just to keep track of the lists that
+    index the servers for the protocol that helps our assistants talk to the tools.
   tags:
     - mcp
     - directory
@@ -49,36 +55,35 @@ insights:
     - developer-tools
   confidence: high
 curation:
-  status: included
-  reason: This is a curated discovery list for MCP servers, fitting the 'Lists & Directories' category as a navigation aid for developers.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Repo description explicitly states 'A concise list for mcp servers'.
-    - README excerpt shows a categorized directory structure (Browser Control, Art & Culture, Cloud Platforms).
-    - Source-list context confirms placement in an LLM resources list under the 'MCP' section.
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (878) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.572Z"
+    updated_at: '2026-05-06T22:12:15.572Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:05.896Z"
+    updated_at: '2026-08-03T05:17:05.896Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

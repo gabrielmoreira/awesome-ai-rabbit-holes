@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__trilogy-group__aws-pricing-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: trilogy-group/aws-pricing-mcp
         extracted_url: https://github.com/trilogy-group/aws-pricing-mcp
-        surrounding_text: "- [trilogy-group/aws-pricing-mcp](https://github.com/trilogy-group/aws-pricing-mcp) 🏎️ ☁️/🏠 - Get up-to-date EC2 pricing information with one call. Fast. Powered by a pre-parsed AWS pricing catalogue."
+        surrounding_text: >-
+          - [trilogy-group/aws-pricing-mcp](https://github.com/trilogy-group/aws-pricing-mcp) 🏎️ ☁️/🏠 - Get up-to-date
+          EC2 pricing information with one call. Fast. Powered by a pre-parsed AWS pricing catalogue.
         confidence: high
     - id: discovery__github__trilogy-group__aws-pricing-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +37,9 @@ provenance:
           - Community Servers
         anchor_text: AWS EC2 Pricing
         extracted_url: https://github.com/trilogy-group/aws-pricing-mcp
-        surrounding_text: "- **[AWS EC2 Pricing](https://github.com/trilogy-group/aws-pricing-mcp)** - Get up-to-date EC2 pricing information with one call. Fast. Powered by a pre-parsed AWS pricing catalogue."
+        surrounding_text: >-
+          - **[AWS EC2 Pricing](https://github.com/trilogy-group/aws-pricing-mcp)** - Get up-to-date EC2 pricing
+          information with one call. Fast. Powered by a pre-parsed AWS pricing catalogue.
         confidence: high
 metadata:
   github:
@@ -45,19 +49,25 @@ metadata:
     archived: false
     full_name: trilogy-group/aws-pricing-mcp
     html_url: https://github.com/trilogy-group/aws-pricing-mcp
-    created_at: "2025-05-02T13:33:29Z"
-    pushed_at: "2025-07-24T14:38:51Z"
+    created_at: '2025-05-02T13:33:29Z'
+    pushed_at: '2025-07-24T14:38:51Z'
     description: An MCP server that exposes AWS EC2 pricing data with an option to search by CPU, RAM, networking
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:20:55.140Z"
+    last_checked_at: '2026-07-21T15:20:55.140Z'
     readme:
-      fetched_at: "2026-07-21T15:20:55.140Z"
+      fetched_at: '2026-07-21T15:20:55.140Z'
       bytes: 1459
 insights:
-  summary: An MCP server that exposes live AWS EC2 pricing data, supporting filtered searches by vCPU, RAM, networking, and region via traditional or serverless Lambda deployment.
-  why_it_matters: It surfaces real-time AWS infrastructure cost data directly inside MCP-enabled editors and agents, letting developers compare instance pricing without leaving their workflow.
-  mental_damage: Your coding assistant can now generate infrastructure cost estimates alongside your bugs, surfacing cloud billing anxiety directly in the context window.
+  summary: >-
+    An MCP server that exposes live AWS EC2 pricing data, supporting filtered searches by vCPU, RAM, networking, and
+    region via traditional or serverless Lambda deployment.
+  why_it_matters: >-
+    It surfaces real-time AWS infrastructure cost data directly inside MCP-enabled editors and agents, letting
+    developers compare instance pricing without leaving their workflow.
+  mental_damage: >-
+    Your coding assistant can now generate infrastructure cost estimates alongside your bugs, surfacing cloud billing
+    anxiety directly in the context window.
   tags:
     - mcp
     - aws
@@ -67,32 +77,39 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The project's entire identity is as a Model Context Protocol server for AWS EC2 pricing lookups, fitting squarely in the MCP Servers & Tooling category under Domain Servers.
+  reason: >-
+    The project's entire identity is as a Model Context Protocol server for AWS EC2 pricing lookups, fitting squarely in
+    the MCP Servers & Tooling category under Domain Servers.
   evidence:
-    - Repository name and description explicitly brand it as 'aws-pricing-mcp' and 'An MCP server that exposes AWS EC2 pricing data'.
-    - README centers on MCP protocol compliance, JSON-RPC 2.0, and deployment guides for the server rather than general library usage.
+    - >-
+      Repository name and description explicitly brand it as 'aws-pricing-mcp' and 'An MCP server that exposes AWS EC2
+      pricing data'.
+    - >-
+      README centers on MCP protocol compliance, JSON-RPC 2.0, and deployment guides for the server rather than general
+      library usage.
     - Listed in awesome-mcp-servers under Cloud Platforms, confirming community categorization as MCP infrastructure.
     - Active and unarchived with recent development push on 2025-07-24.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.594Z"
+    updated_at: '2026-05-06T22:12:15.594Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:55.140Z"
+    updated_at: '2026-07-21T15:20:55.140Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:08:35.817Z"
+    updated_at: '2026-05-12T15:08:35.817Z'
     cause: null
     next_retry_at: null
     attempts: 1

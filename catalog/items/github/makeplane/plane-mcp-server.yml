@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__makeplane__plane-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: Plane
         extracted_url: https://github.com/makeplane/plane-mcp-server
-        surrounding_text: "- **[Plane](https://github.com/makeplane/plane-mcp-server)** - The official Plane MCP server provides integration with Plane APIs, enabling full AI automation of Plane projects, work items, cycles and more."
+        surrounding_text: >-
+          - **[Plane](https://github.com/makeplane/plane-mcp-server)** - The official Plane MCP server provides
+          integration with Plane APIs, enabling full AI automation of Plane projects, work items, cycles and more.
         confidence: high
 metadata:
   github:
@@ -29,20 +31,24 @@ metadata:
     archived: false
     full_name: makeplane/plane-mcp-server
     html_url: https://github.com/makeplane/plane-mcp-server
-    created_at: "2025-04-08T00:13:08Z"
-    pushed_at: "2026-07-24T13:41:39Z"
+    created_at: '2025-04-08T00:13:08Z'
+    pushed_at: '2026-07-24T13:41:39Z'
     description: Plane's Official Model Context Protocol Server 🔌 ⌨️ 🔥
     homepage: https://plane.so
     topics:
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-08-03T05:16:54.989Z"
+    last_checked_at: '2026-08-03T05:16:54.989Z'
     readme:
-      fetched_at: "2026-08-03T05:16:54.989Z"
+      fetched_at: '2026-08-03T05:16:54.989Z'
       bytes: 14964
 insights:
-  summary: Plane's official MCP server that exposes Plane project management APIs as tools and resources for AI agents via stdio, SSE, and streamable HTTP transports.
-  why_it_matters: It lets coding agents and MCP-compatible clients directly read and manipulate Plane issues, cycles, and projects without leaving the agent context.
+  summary: >-
+    Plane's official MCP server that exposes Plane project management APIs as tools and resources for AI agents via
+    stdio, SSE, and streamable HTTP transports.
+  why_it_matters: >-
+    It lets coding agents and MCP-compatible clients directly read and manipulate Plane issues, cycles, and projects
+    without leaving the agent context.
   mental_damage: Yet another official MCP server so your agent can argue with your project board instead of just writing the code.
   tags:
     - mcp
@@ -52,35 +58,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "This is MCP infrastructure first: an official server that exposes Plane as an MCP endpoint, fitting cleanly as a domain-specific MCP server."
+  reason: >-
+    This is MCP infrastructure first: an official server that exposes Plane as an MCP endpoint, fitting cleanly as a
+    domain-specific MCP server.
   evidence:
-    - "Repo description: 'Plane's Official Model Context Protocol Server'"
-    - "README: provides MCP tools and resources for interacting with Plane through AI agents via stdio, SSE, and HTTP transports"
+    - 'Repo description: ''Plane''s Official Model Context Protocol Server'''
+    - >-
+      README: provides MCP tools and resources for interacting with Plane through AI agents via stdio, SSE, and HTTP
+      transports
     - Listed in awesome-mcp-servers under 'Official Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: promotion_candidate
   reason: Stars (212) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.628Z"
+    updated_at: '2026-05-06T22:12:15.628Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:54.989Z"
+    updated_at: '2026-08-03T05:16:54.989Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

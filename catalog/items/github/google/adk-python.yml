@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__google__adk-python__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -19,7 +19,7 @@ provenance:
           - Frameworks
         anchor_text: Google ADK
         extracted_url: https://github.com/google/adk-python
-        surrounding_text: "- [Google ADK](https://github.com/google/adk-python) - Agent Development Kit for"
+        surrounding_text: '- [Google ADK](https://github.com/google/adk-python) - Agent Development Kit for'
         confidence: high
 metadata:
   github:
@@ -29,9 +29,11 @@ metadata:
     archived: false
     full_name: google/adk-python
     html_url: https://github.com/google/adk-python
-    created_at: "2025-04-01T20:44:40Z"
-    pushed_at: "2026-09-03T04:37:34Z"
-    description: An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.
+    created_at: '2025-04-01T20:44:40Z'
+    pushed_at: '2026-09-03T04:37:34Z'
+    description: >-
+      An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with
+      flexibility and control.
     homepage: https://google.github.io/adk-docs/
     topics:
       - agent
@@ -50,13 +52,15 @@ metadata:
       - multi-agent-systems
       - multi-agents
       - multi-agents-collaboration
-    last_checked_at: "2026-09-03T05:16:51.837Z"
+    last_checked_at: '2026-09-03T05:16:51.837Z'
     readme:
-      fetched_at: "2026-09-03T05:16:51.837Z"
+      fetched_at: '2026-09-03T05:16:51.837Z'
       bytes: 9227
 insights:
   summary: An open-source, code-first Python framework for building, evaluating, and deploying AI agents.
-  why_it_matters: It lets developers create, test, and deploy agent workflows with modular tools, multi-agent systems, and flexible deployment options.
+  why_it_matters: >-
+    It lets developers create, test, and deploy agent workflows with modular tools, multi-agent systems, and flexible
+    deployment options.
   mental_damage: Finally, a way to turn your Python scripts into agents that can argue with each other about tabs vs. spaces.
   tags:
     - agent-framework
@@ -67,31 +71,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a code-first SDK/framework for building agents, not a primary assistant, IDE, or orchestration platform.
+  reason: >-
+    The product is a code-first SDK/framework for building agents, not a primary assistant, IDE, or orchestration
+    platform.
   evidence:
-    - "Repo description: 'An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents'"
-    - "README: 'code-first Python framework for building, evaluating, and deploying sophisticated AI agents'"
-    - "Source-list context: listed under 'Frameworks' in awesome-llm-agents"
+    - >-
+      Repo description: 'An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated
+      AI agents'
+    - 'README: ''code-first Python framework for building, evaluating, and deploying sophisticated AI agents'''
+    - 'Source-list context: listed under ''Frameworks'' in awesome-llm-agents'
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  secondary_categories: []
+  section: Multi-Agent Systems
 lifecycle:
   status: promotion_candidate
   reason: Stars (19480) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.616Z"
+    updated_at: '2026-05-06T22:12:15.616Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:51.837Z"
+    updated_at: '2026-09-03T05:16:51.837Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:03:42.857Z"
+    updated_at: '2026-07-21T16:03:42.857Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,14 +113,20 @@ processing:
       input_hash: sha256:28a75ee167820ea9569b3889ef87f81b592f99627545335869483e01d5fd5da1
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: The product is a code-first SDK/framework for building agents, not a primary assistant, IDE, or orchestration platform.
+      decision_reason: >-
+        The product is a code-first SDK/framework for building agents, not a primary assistant, IDE, or orchestration
+        platform.
       decision_evidence:
-        - "Repo description: 'An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents'"
-        - "README: 'code-first Python framework for building, evaluating, and deploying sophisticated AI agents'"
-        - "Source-list context: listed under 'Frameworks' in awesome-llm-agents"
+        - >-
+          Repo description: 'An open-source, code-first Python toolkit for building, evaluating, and deploying
+          sophisticated AI agents'
+        - 'README: ''code-first Python framework for building, evaluating, and deploying sophisticated AI agents'''
+        - 'Source-list context: listed under ''Frameworks'' in awesome-llm-agents'
       category_candidates:
         - ai-frameworks
         - agent-orchestration
-      contrastive_reason: Choose ai-frameworks over agent-orchestration because the primary identity is a code-first library/SDK rather than an operated workbench or runtime platform.
+      contrastive_reason: >-
+        Choose ai-frameworks over agent-orchestration because the primary identity is a code-first library/SDK rather
+        than an operated workbench or runtime platform.
       review_reason: null
       review_resume_lifecycle: null

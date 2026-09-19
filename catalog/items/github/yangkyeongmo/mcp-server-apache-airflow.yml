@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__yangkyeongmo__mcp-server-apache-airflow__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: yangkyeongmo@/mcp-server-apache-airflow
         extracted_url: https://github.com/yangkyeongmo/mcp-server-apache-airflow
-        surrounding_text: "- [yangkyeongmo@/mcp-server-apache-airflow](https://github.com/yangkyeongmo/mcp-server-apache-airflow) 🐍 🏠 - MCP server that connects to [Apache Airflow](https://airflow.apache.org/) using official client."
+        surrounding_text: >-
+          - [yangkyeongmo@/mcp-server-apache-airflow](https://github.com/yangkyeongmo/mcp-server-apache-airflow) 🐍 🏠 -
+          MCP server that connects to [Apache Airflow](https://airflow.apache.org/) using official client.
         confidence: high
     - id: discovery__github__yangkyeongmo__mcp-server-apache-airflow__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -33,9 +35,13 @@ provenance:
         mode: parsed
         section_path:
           - 💻 Developer Tools
-        anchor_text: "@yangkyeongmo/mcp-server-apache-airflow"
+        anchor_text: '@yangkyeongmo/mcp-server-apache-airflow'
         extracted_url: https://github.com/yangkyeongmo/mcp-server-apache-airflow
-        surrounding_text: "-   **[@yangkyeongmo/mcp-server-apache-airflow](https://github.com/yangkyeongmo/mcp-server-apache-airflow)** [![GitHub stars](https://img.shields.io/github/stars/yangkyeongmo/mcp-server-apache-airflow?style=social)](https://github.com/yangkyeongmo/mcp-server-apache-airflow): Connects to Apache Airflow using the official client."
+        surrounding_text: >-
+          -   **[@yangkyeongmo/mcp-server-apache-airflow](https://github.com/yangkyeongmo/mcp-server-apache-airflow)**
+          [![GitHub
+          stars](https://img.shields.io/github/stars/yangkyeongmo/mcp-server-apache-airflow?style=social)](https://github.com/yangkyeongmo/mcp-server-apache-airflow):
+          Connects to Apache Airflow using the official client.
         confidence: high
 metadata:
   github:
@@ -45,19 +51,25 @@ metadata:
     archived: false
     full_name: yangkyeongmo/mcp-server-apache-airflow
     html_url: https://github.com/yangkyeongmo/mcp-server-apache-airflow
-    created_at: "2025-02-13T04:09:06Z"
-    pushed_at: "2026-03-03T13:24:59Z"
+    created_at: '2025-02-13T04:09:06Z'
+    pushed_at: '2026-03-03T13:24:59Z'
     description: null
     homepage: https://pypi.org/project/mcp-server-apache-airflow/
     topics: []
-    last_checked_at: "2026-07-21T15:21:19.416Z"
+    last_checked_at: '2026-07-21T15:21:19.416Z'
     readme:
-      fetched_at: "2026-07-21T15:21:19.416Z"
+      fetched_at: '2026-07-21T15:21:19.416Z'
       bytes: 20141
 insights:
-  summary: mcp-server-apache-airflow is an MCP server that wraps Apache Airflow's REST API to enable MCP clients to manage DAGs, runs, tasks, and variables.
-  why_it_matters: It lets developers interact with Airflow through standardized MCP interfaces instead of custom API glue, simplifying orchestration tooling integration.
-  mental_damage: Yet another MCP server for another niche service—great if you enjoy stacking protocol layers just to trigger a DAG run.
+  summary: >-
+    mcp-server-apache-airflow is an MCP server that wraps Apache Airflow's REST API to enable MCP clients to manage
+    DAGs, runs, tasks, and variables.
+  why_it_matters: >-
+    It lets developers interact with Airflow through standardized MCP interfaces instead of custom API glue, simplifying
+    orchestration tooling integration.
+  mental_damage: >-
+    Yet another MCP server for another niche service—great if you enjoy stacking protocol layers just to trigger a DAG
+    run.
   tags:
     - mcp
     - airflow
@@ -65,31 +77,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is an MCP server implementation as its core identity, not an extension or agent, fitting the MCP Servers & Tooling category.
+  reason: >-
+    It is an MCP server implementation as its core identity, not an extension or agent, fitting the MCP Servers &
+    Tooling category.
   evidence:
-    - "README states: 'A Model Context Protocol (MCP) server implementation for Apache Airflow'"
+    - 'README states: ''A Model Context Protocol (MCP) server implementation for Apache Airflow'''
     - Provides MCP server functionality via PyPI package and Smithery registration
     - Listed in awesome-mcp-list and awesome-mcp-servers under Developer Tools and Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: promotion_candidate
   reason: Stars (164) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.596Z"
+    updated_at: '2026-05-06T22:12:15.596Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:19.416Z"
+    updated_at: '2026-07-21T15:21:19.416Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:42:58.415Z"
+    updated_at: '2026-05-12T15:42:58.415Z'
     cause: null
     next_retry_at: null
     attempts: 1

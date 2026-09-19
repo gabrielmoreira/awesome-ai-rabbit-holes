@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kimtth__mcp-aoai-web-browsing__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: kimtth/mcp-aoai-web-browsing
         extracted_url: https://github.com/kimtth/mcp-aoai-web-browsing
-        surrounding_text: "- [kimtth/mcp-aoai-web-browsing](https://github.com/kimtth/mcp-aoai-web-browsing) 🐍 🏠 - A `minimal` server/client MCP implementation using Azure OpenAI and Playwright."
+        surrounding_text: >-
+          - [kimtth/mcp-aoai-web-browsing](https://github.com/kimtth/mcp-aoai-web-browsing) 🐍 🏠 - A `minimal`
+          server/client MCP implementation using Azure OpenAI and Playwright.
         confidence: high
     - id: discovery__github__kimtth__mcp-aoai-web-browsing__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -33,9 +35,12 @@ provenance:
         mode: parsed
         section_path:
           - 📂 Browser Control
-        anchor_text: "@kimtth/mcp-aoai-web-browsing"
+        anchor_text: '@kimtth/mcp-aoai-web-browsing'
         extracted_url: https://github.com/kimtth/mcp-aoai-web-browsing
-        surrounding_text: "-   **[@kimtth/mcp-aoai-web-browsing](https://github.com/kimtth/mcp-aoai-web-browsing)** [![GitHub stars](https://img.shields.io/github/stars/kimtth/mcp-aoai-web-browsing?style=social)](https://github.com/kimtth/mcp-aoai-web-browsing): Implements minimal web browsing using Azure OpenAI and Playwright."
+        surrounding_text: >-
+          -   **[@kimtth/mcp-aoai-web-browsing](https://github.com/kimtth/mcp-aoai-web-browsing)** [![GitHub
+          stars](https://img.shields.io/github/stars/kimtth/mcp-aoai-web-browsing?style=social)](https://github.com/kimtth/mcp-aoai-web-browsing):
+          Implements minimal web browsing using Azure OpenAI and Playwright.
         confidence: high
 metadata:
   github:
@@ -45,10 +50,10 @@ metadata:
     archived: false
     full_name: kimtth/mcp-aoai-web-browsing
     html_url: https://github.com/kimtth/mcp-aoai-web-browsing
-    created_at: "2024-12-13T12:12:08Z"
-    pushed_at: "2026-07-16T03:07:59Z"
+    created_at: '2024-12-13T12:12:08Z'
+    pushed_at: '2026-07-16T03:07:59Z'
     description: A minimal Model Context Protocol 🖥️ server/client🧑‍💻with OpenAI and 🌐 web browser control via Playwright.
-    homepage: ""
+    homepage: ''
     topics:
       - azure-openai
       - mcp
@@ -57,13 +62,17 @@ metadata:
       - model-context-protocol
       - playwright
       - web-automation
-    last_checked_at: "2026-07-30T05:05:56.629Z"
+    last_checked_at: '2026-07-30T05:05:56.629Z'
     readme:
-      fetched_at: "2026-07-30T05:05:56.629Z"
+      fetched_at: '2026-07-30T05:05:56.629Z'
       bytes: 6895
 insights:
-  summary: A minimal Model Context Protocol (MCP) server and client that enables web browser control via Playwright with Azure OpenAI and OpenAI integration.
-  why_it_matters: It lets developers expose browser automation as MCP tools for AI assistants, bridging Playwright's capabilities with MCP-compatible clients like Claude Code or VS Code.
+  summary: >-
+    A minimal Model Context Protocol (MCP) server and client that enables web browser control via Playwright with Azure
+    OpenAI and OpenAI integration.
+  why_it_matters: >-
+    It lets developers expose browser automation as MCP tools for AI assistants, bridging Playwright's capabilities with
+    MCP-compatible clients like Claude Code or VS Code.
   mental_damage: Because nothing says 'modern development' like teaching your AI assistant to click buttons on your behalf.
   tags:
     - mcp
@@ -74,31 +83,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the core product identity here, with the server/client explicitly built around the Model Context Protocol to expose Playwright-based browser control as MCP tools.
+  reason: >-
+    MCP is the core product identity here, with the server/client explicitly built around the Model Context Protocol to
+    expose Playwright-based browser control as MCP tools.
   evidence:
     - Repo description explicitly states it is an MCP server/client
     - README details MCP server implementation with FastMCP and Playwright integration
     - Source lists (awesome-mcp-list, awesome-mcp-servers) categorize it under MCP browser automation
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.589Z"
+    updated_at: '2026-05-06T22:12:15.589Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:56.629Z"
+    updated_at: '2026-07-30T05:05:56.629Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:12:36.023Z"
+    updated_at: '2026-07-21T16:12:36.023Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -111,7 +123,9 @@ processing:
       input_hash: sha256:52d9456093eff122fa4009a55f7dc8cfc849dcbb6b0944601d237f441319e1c1
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the core product identity here, with the server/client explicitly built around the Model Context Protocol to expose Playwright-based browser control as MCP tools.
+      decision_reason: >-
+        MCP is the core product identity here, with the server/client explicitly built around the Model Context Protocol
+        to expose Playwright-based browser control as MCP tools.
       decision_evidence:
         - Repo description explicitly states it is an MCP server/client
         - README details MCP server implementation with FastMCP and Playwright integration
@@ -119,6 +133,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary identity is an MCP server/client for browser automation, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary identity is an MCP server/client for browser automation,
+        not merely an extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

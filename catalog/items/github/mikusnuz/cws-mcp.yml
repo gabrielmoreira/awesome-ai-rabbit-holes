@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mikusnuz__cws-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: mikusnuz/cws-mcp
         extracted_url: https://github.com/mikusnuz/cws-mcp
-        surrounding_text: "- [mikusnuz/cws-mcp](https://github.com/mikusnuz/cws-mcp) [![mikusnuz/cws-mcp MCP server](https://glama.ai/mcp/servers/mikusnuz/cws-mcp/badges/score.svg)](https://glama.ai/mcp/servers/mikusnuz/cws-mcp) 📇 ☁️ - MCP server for Chrome Web Store extension management — 8 tools for upload, publish, status, staged rollout, and metadata updates."
+        surrounding_text: >-
+          - [mikusnuz/cws-mcp](https://github.com/mikusnuz/cws-mcp) [![mikusnuz/cws-mcp MCP
+          server](https://glama.ai/mcp/servers/mikusnuz/cws-mcp/badges/score.svg)](https://glama.ai/mcp/servers/mikusnuz/cws-mcp)
+          📇 ☁️ - MCP server for Chrome Web Store extension management — 8 tools for upload, publish, status, staged
+          rollout, and metadata updates.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: mikusnuz/cws-mcp
     html_url: https://github.com/mikusnuz/cws-mcp
-    created_at: "2026-02-15T21:07:01Z"
-    pushed_at: "2026-04-13T19:52:46Z"
+    created_at: '2026-02-15T21:07:01Z'
+    pushed_at: '2026-04-13T19:52:46Z'
     description: MCP server for Chrome Web Store — upload, publish, status, metadata & Playwright-based UI automation
     homepage: null
     topics:
@@ -42,14 +46,20 @@ metadata:
       - mcp
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-08-03T05:17:03.098Z"
+    last_checked_at: '2026-08-03T05:17:03.098Z'
     readme:
-      fetched_at: "2026-08-03T05:17:03.098Z"
+      fetched_at: '2026-08-03T05:17:03.098Z'
       bytes: 6264
 insights:
-  summary: An MCP server that lets developers upload, publish, manage metadata, and check the status of Chrome Web Store extensions directly from AI coding assistants like Claude Code.
-  why_it_matters: It automates the tedious Chrome Web Store release workflow by exposing all CWS API v2 endpoints and Playwright-driven UI automation as tools for MCP-compatible clients.
-  mental_damage: We have successfully abstracted away the final remaining human step of opening a browser, turning extension publishing into a prompt that only requires debugging OAuth tokens instead.
+  summary: >-
+    An MCP server that lets developers upload, publish, manage metadata, and check the status of Chrome Web Store
+    extensions directly from AI coding assistants like Claude Code.
+  why_it_matters: >-
+    It automates the tedious Chrome Web Store release workflow by exposing all CWS API v2 endpoints and
+    Playwright-driven UI automation as tools for MCP-compatible clients.
+  mental_damage: >-
+    We have successfully abstracted away the final remaining human step of opening a browser, turning extension
+    publishing into a prompt that only requires debugging OAuth tokens instead.
   tags:
     - mcp-server
     - chrome-web-store
@@ -59,35 +69,43 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server for Chrome Web Store management, fitting cleanly into the MCP Servers & Tooling category as a domain-specific server.
+  reason: >-
+    The product's primary identity is an MCP server for Chrome Web Store management, fitting cleanly into the MCP
+    Servers & Tooling category as a domain-specific server.
   evidence:
-    - "Repo description explicitly states: 'MCP server for Chrome Web Store — upload, publish, status, metadata & Playwright-based UI automation'"
-    - "README positions it as: 'MCP server for Chrome Web Store extension management... directly from Claude Code or any MCP client'"
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools', confirming its MCP identity in the ecosystem
+    - >-
+      Repo description explicitly states: 'MCP server for Chrome Web Store — upload, publish, status, metadata &
+      Playwright-based UI automation'
+    - >-
+      README positions it as: 'MCP server for Chrome Web Store extension management... directly from Claude Code or any
+      MCP client'
+    - >-
+      Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools', confirming its MCP identity in the
+      ecosystem
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.630Z"
+    updated_at: '2026-05-06T22:12:15.630Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:03.098Z"
+    updated_at: '2026-08-03T05:17:03.098Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__entanglr__zettelkasten-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: entanglr/zettelkasten-mcp
         extracted_url: https://github.com/entanglr/zettelkasten-mcp
-        surrounding_text: "- [entanglr/zettelkasten-mcp](https://github.com/entanglr/zettelkasten-mcp) 🐍 🏠 - A Model Context Protocol (MCP) server that implements the Zettelkasten knowledge management methodology, allowing you to create, link, and search atomic notes through Claude and other MCP-compatible clients."
+        surrounding_text: >-
+          - [entanglr/zettelkasten-mcp](https://github.com/entanglr/zettelkasten-mcp) 🐍 🏠 - A Model Context Protocol
+          (MCP) server that implements the Zettelkasten knowledge management methodology, allowing you to create, link,
+          and search atomic notes through Claude and other MCP-compatible clients.
         confidence: high
 metadata:
   github:
@@ -30,10 +33,12 @@ metadata:
     archived: false
     full_name: entanglr/zettelkasten-mcp
     html_url: https://github.com/entanglr/zettelkasten-mcp
-    created_at: "2025-04-01T21:33:20Z"
-    pushed_at: "2025-04-25T08:11:20Z"
-    description: A Model Context Protocol (MCP) server that implements the Zettelkasten knowledge management methodology, allowing you to create, link, explore and synthesize atomic notes through Claude and other MCP-compatible clients.
-    homepage: ""
+    created_at: '2025-04-01T21:33:20Z'
+    pushed_at: '2025-04-25T08:11:20Z'
+    description: >-
+      A Model Context Protocol (MCP) server that implements the Zettelkasten knowledge management methodology, allowing
+      you to create, link, explore and synthesize atomic notes through Claude and other MCP-compatible clients.
+    homepage: ''
     topics:
       - claude
       - knowledge-graph
@@ -45,13 +50,17 @@ metadata:
       - obsidian
       - python
       - zettelkasten
-    last_checked_at: "2026-08-27T09:23:24.004Z"
+    last_checked_at: '2026-08-27T09:23:24.004Z'
     readme:
-      fetched_at: "2026-08-27T09:23:24.004Z"
+      fetched_at: '2026-08-27T09:23:24.004Z'
       bytes: 11736
 insights:
-  summary: An MCP server implementing the Zettelkasten knowledge management methodology for creating, linking, and synthesizing atomic notes via Claude and other MCP-compatible clients.
-  why_it_matters: Developers can integrate structured, linked knowledge management directly into their AI workflows, enabling better context and retrieval for long-term project understanding.
+  summary: >-
+    An MCP server implementing the Zettelkasten knowledge management methodology for creating, linking, and synthesizing
+    atomic notes via Claude and other MCP-compatible clients.
+  why_it_matters: >-
+    Developers can integrate structured, linked knowledge management directly into their AI workflows, enabling better
+    context and retrieval for long-term project understanding.
   mental_damage: Now your AI can build a second brain while you’re still trying to remember where you left your first one.
   tags:
     - mcp
@@ -62,33 +71,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the core product identity, and the server implements a specific knowledge management methodology as its primary function.
+  reason: >-
+    MCP is the core product identity, and the server implements a specific knowledge management methodology as its
+    primary function.
   evidence:
     - Repo description explicitly states it is an MCP server for Zettelkasten methodology
     - README details MCP integration with Claude and other clients as the main use case
     - Topics include 'mcp-server' and 'mcp' as primary identifiers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: promotion_candidate
   reason: Stars (151) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.612Z"
+    updated_at: '2026-05-06T22:12:15.612Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-14T04:13:49.601Z"
+    updated_at: '2026-09-14T04:13:49.601Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for entanglr/zettelkasten-mcp
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:52:23.212Z"
+    updated_at: '2026-07-21T15:52:23.212Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -101,7 +113,9 @@ processing:
       input_hash: sha256:d228eec47fd6a1b16d3f9ac0b7a2f540783a3e9879857f83d4f43de90e8b188e
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the core product identity, and the server implements a specific knowledge management methodology as its primary function.
+      decision_reason: >-
+        MCP is the core product identity, and the server implements a specific knowledge management methodology as its
+        primary function.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Zettelkasten methodology
         - README details MCP integration with Claude and other clients as the main use case
@@ -109,6 +123,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product's primary identity is as an MCP server, not a general context/retieval system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the product's primary identity is as an MCP server, not a general
+        context/retieval system.
       review_reason: null
       review_resume_lifecycle: null

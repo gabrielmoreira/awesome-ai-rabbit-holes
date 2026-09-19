@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bighippoman__intercept-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: bighippoman/intercept-mcp
         extracted_url: https://github.com/bighippoman/intercept-mcp
-        surrounding_text: "- [bighippoman/intercept-mcp](https://github.com/bighippoman/intercept-mcp) [![bighippoman/intercept-mcp MCP server](https://glama.ai/mcp/servers/bighippoman/intercept-mcp/badges/score.svg)](https://glama.ai/mcp/servers/bighippoman/intercept-mcp) 📇 🏠 - Multi-tier fallback chain for fetching web content as clean markdown. Handles tweets, YouTube, arXiv, PDFs, and regular pages with 9 fallback strategies."
+        surrounding_text: >-
+          - [bighippoman/intercept-mcp](https://github.com/bighippoman/intercept-mcp) [![bighippoman/intercept-mcp MCP
+          server](https://glama.ai/mcp/servers/bighippoman/intercept-mcp/badges/score.svg)](https://glama.ai/mcp/servers/bighippoman/intercept-mcp)
+          📇 🏠 - Multi-tier fallback chain for fetching web content as clean markdown. Handles tweets, YouTube, arXiv,
+          PDFs, and regular pages with 9 fallback strategies.
         confidence: high
 metadata:
   github:
@@ -30,18 +34,20 @@ metadata:
     archived: false
     full_name: bighippoman/intercept-mcp
     html_url: https://github.com/bighippoman/intercept-mcp
-    created_at: "2026-03-04T01:19:16Z"
-    pushed_at: "2026-08-02T00:29:56Z"
+    created_at: '2026-03-04T01:19:16Z'
+    pushed_at: '2026-08-02T00:29:56Z'
     description: MCP server with multi-tier fallback chain for fetching web content as clean markdown
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:33.807Z"
+    last_checked_at: '2026-09-07T04:13:33.807Z'
     readme:
-      fetched_at: "2026-09-07T04:13:33.807Z"
+      fetched_at: '2026-09-07T04:13:33.807Z'
       bytes: 20226
 insights:
   summary: MCP server that fetches web content as clean markdown with a multi-tier fallback chain.
-  why_it_matters: Developers can give their AI assistants reliable access to web content (tweets, YouTube, PDFs, etc.) without hitting paywalls, 403s, or raw HTML.
+  why_it_matters: >-
+    Developers can give their AI assistants reliable access to web content (tweets, YouTube, PDFs, etc.) without hitting
+    paywalls, 403s, or raw HTML.
   mental_damage: Finally, an MCP server that treats the web like a first-class data source instead of a hostile firehose of HTML.
   tags:
     - mcp-server
@@ -52,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a server that exposes web-fetching tools via MCP, with its own caching and fallback logic."
+  reason: >-
+    MCP is the product identity: this is a server that exposes web-fetching tools via MCP, with its own caching and
+    fallback logic.
   evidence:
     - Repo description explicitly identifies it as an MCP server
     - README details MCP client integration (Claude Code, Cursor, etc.) and MCP tooling (`fetch`, `search`)
     - Source-list context places it in an MCP servers directory under Browser Automation
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:33.807Z"
+    updated_at: '2026-09-07T04:13:33.807Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:26:04.832Z"
+    updated_at: '2026-07-21T15:26:04.832Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +98,9 @@ processing:
       input_hash: sha256:a6ff170ee4f688369fd2c246d2389431da01bc65bbb7cf8d4e61246a784beeb5
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a server that exposes web-fetching tools via MCP, with its own caching and fallback logic."
+      decision_reason: >-
+        MCP is the product identity: this is a server that exposes web-fetching tools via MCP, with its own caching and
+        fallback logic.
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server
         - README details MCP client integration (Claude Code, Cursor, etc.) and MCP tooling (`fetch`, `search`)
@@ -97,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server with its own tooling and identity, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server with its own tooling and identity,
+        not merely an extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

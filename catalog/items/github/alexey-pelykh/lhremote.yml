@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alexey-pelykh__lhremote__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: alexey-pelykh/lhremote
         extracted_url: https://github.com/alexey-pelykh/lhremote
-        surrounding_text: "- [alexey-pelykh/lhremote](https://github.com/alexey-pelykh/lhremote) 📇 🏠 - Open-source CLI and MCP server for LinkedHelper automation — 32 tools for campaign management, messaging, and profile queries via Chrome DevTools Protocol."
+        surrounding_text: >-
+          - [alexey-pelykh/lhremote](https://github.com/alexey-pelykh/lhremote) 📇 🏠 - Open-source CLI and MCP server
+          for LinkedHelper automation — 32 tools for campaign management, messaging, and profile queries via Chrome
+          DevTools Protocol.
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: alexey-pelykh/lhremote
     html_url: https://github.com/alexey-pelykh/lhremote
-    created_at: "2026-01-31T08:13:23Z"
-    pushed_at: "2026-09-10T05:09:43Z"
+    created_at: '2026-01-31T08:13:23Z'
+    pushed_at: '2026-09-10T05:09:43Z'
     description: CLI and MCP server for LinkedHelper automation — let AI assistants control LinkedIn outreach
     homepage: https://lhremote.org
     topics:
@@ -44,13 +47,15 @@ metadata:
       - mcp-server
       - model-context-protocol
       - typescript
-    last_checked_at: "2026-09-17T04:13:39.723Z"
+    last_checked_at: '2026-09-17T04:13:39.723Z'
     readme:
-      fetched_at: "2026-09-17T04:13:39.723Z"
+      fetched_at: '2026-09-17T04:13:39.723Z'
       bytes: 59966
 insights:
   summary: CLI and MCP server for controlling LinkedHelper to automate LinkedIn outreach tasks via AI assistants.
-  why_it_matters: Lets developers integrate LinkedIn automation workflows (campaigns, messaging, profile enrichment) into AI agent toolchains without manual UI interaction.
+  why_it_matters: >-
+    Lets developers integrate LinkedIn automation workflows (campaigns, messaging, profile enrichment) into AI agent
+    toolchains without manual UI interaction.
   mental_damage: Now your AI can cold-email recruiters on LinkedIn while you pretend to be in a meeting.
   tags:
     - mcp-server
@@ -61,31 +66,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: it is explicitly an MCP server for LinkedHelper automation, not just a compatibility feature."
+  reason: >-
+    MCP is the product identity: it is explicitly an MCP server for LinkedHelper automation, not just a compatibility
+    feature.
   evidence:
     - Repo description explicitly states 'CLI and MCP server for LinkedHelper automation'
     - README details 68+ MCP tools for LinkedIn control (campaigns, messaging, profile queries)
     - Claude Desktop integration example shows MCP server configuration
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.601Z"
+    updated_at: '2026-05-06T22:12:15.601Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:39.723Z"
+    updated_at: '2026-09-17T04:13:39.723Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:21:56.969Z"
+    updated_at: '2026-07-21T15:21:56.969Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -98,7 +106,9 @@ processing:
       input_hash: sha256:c479f9da118b7c828f9a373a93d74d911d51ba678185b63ecc64231aff9ce051
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: it is explicitly an MCP server for LinkedHelper automation, not just a compatibility feature."
+      decision_reason: >-
+        MCP is the product identity: it is explicitly an MCP server for LinkedHelper automation, not just a
+        compatibility feature.
       decision_evidence:
         - Repo description explicitly states 'CLI and MCP server for LinkedHelper automation'
         - README details 68+ MCP tools for LinkedIn control (campaigns, messaging, profile queries)
@@ -106,6 +116,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing LinkedHelper capabilities, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server exposing LinkedHelper capabilities,
+        not merely an extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

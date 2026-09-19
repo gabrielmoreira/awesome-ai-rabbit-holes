@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__yoelbassin__gr-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 📟 <a name="embedded-system"></a>Embedded System
         anchor_text: yoelbassin/gnuradioMCP
         extracted_url: https://github.com/yoelbassin/gnuradiomcp
-        surrounding_text: "- [yoelbassin/gnuradioMCP](https://github.com/yoelbassin/gnuradioMCP) 🐍 📟 🏠 - An MCP server for GNU Radio that enables LLMs to autonomously create and modify RF `.grc` flowcharts."
+        surrounding_text: >-
+          - [yoelbassin/gnuradioMCP](https://github.com/yoelbassin/gnuradioMCP) 🐍 📟 🏠 - An MCP server for GNU Radio
+          that enables LLMs to autonomously create and modify RF `.grc` flowcharts.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: yoelbassin/gr-mcp
     html_url: https://github.com/yoelbassin/gr-mcp
-    created_at: "2025-04-26T01:19:37Z"
-    pushed_at: "2026-06-14T12:40:28Z"
+    created_at: '2025-04-26T01:19:37Z'
+    pushed_at: '2026-06-14T12:40:28Z'
     description: MCP server for GNU Radio
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-21T15:21:21.664Z"
+    last_checked_at: '2026-07-21T15:21:21.664Z'
     readme:
-      fetched_at: "2026-07-21T15:21:21.664Z"
+      fetched_at: '2026-07-21T15:21:21.664Z'
       bytes: 1868
 insights:
   summary: gr-mcp is an MCP server that exposes GNU Radio flowgraph operations as tools for AI assistants.
-  why_it_matters: It lets AI assistants programmatically create, edit, and validate SDR workflows in GNU Radio via a standardized tool interface.
+  why_it_matters: >-
+    It lets AI assistants programmatically create, edit, and validate SDR workflows in GNU Radio via a standardized tool
+    interface.
   mental_damage: Finally, a way to ask your AI to debug your flowgraph without first explaining what a QT GUI sink is.
   tags:
     - mcp
@@ -50,31 +54,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: gr-mcp is an MCP server whose core identity is providing MCP tooling for GNU Radio, making it a domain-specific MCP server rather than a coding agent or extension.
+  reason: >-
+    gr-mcp is an MCP server whose core identity is providing MCP tooling for GNU Radio, making it a domain-specific MCP
+    server rather than a coding agent or extension.
   evidence:
-    - "Repo description: 'MCP server for GNU Radio'"
-    - "README: 'gr-mcp is an MCP server that exposes GNU Radio flowgraph operations as tools for AI assistants'"
-    - "Source-list: included in awesome-mcp-servers under Embedded System"
+    - 'Repo description: ''MCP server for GNU Radio'''
+    - 'README: ''gr-mcp is an MCP server that exposes GNU Radio flowgraph operations as tools for AI assistants'''
+    - 'Source-list: included in awesome-mcp-servers under Embedded System'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.656Z"
+    updated_at: '2026-05-06T22:12:15.656Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:21.664Z"
+    updated_at: '2026-07-21T15:21:21.664Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:45:40.648Z"
+    updated_at: '2026-05-12T15:45:40.648Z'
     cause: null
     next_retry_at: null
     attempts: 1

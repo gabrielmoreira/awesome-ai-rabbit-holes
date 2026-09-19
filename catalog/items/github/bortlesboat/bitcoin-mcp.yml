@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bortlesboat__bitcoin-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: Bortlesboat/bitcoin-mcp
         extracted_url: https://github.com/bortlesboat/bitcoin-mcp
-        surrounding_text: "- [Bortlesboat/bitcoin-mcp](https://github.com/Bortlesboat/bitcoin-mcp) [![bitcoin-mcp MCP server](https://glama.ai/mcp/servers/@Bortlesboat/bitcoin-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@Bortlesboat/bitcoin-mcp) 🐍 🏠 🍎 🪟 🐧 - Self-hosted Bitcoin Core MCP server — 43 tools, 6 prompts, and 7 resources. Fee intelligence with USD conversion and send-now-or-wait advice, mempool analysis, mining pool rankings, market sentiment, block/transaction inspection, and BTC price. Your local node or hosted via Satoshi API (zero install)."
+        surrounding_text: >-
+          - [Bortlesboat/bitcoin-mcp](https://github.com/Bortlesboat/bitcoin-mcp) [![bitcoin-mcp MCP
+          server](https://glama.ai/mcp/servers/@Bortlesboat/bitcoin-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@Bortlesboat/bitcoin-mcp)
+          🐍 🏠 🍎 🪟 🐧 - Self-hosted Bitcoin Core MCP server — 43 tools, 6 prompts, and 7 resources. Fee intelligence
+          with USD conversion and send-now-or-wait advice, mempool analysis, mining pool rankings, market sentiment,
+          block/transaction inspection, and BTC price. Your local node or hosted via Satoshi API (zero install).
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: Bortlesboat/bitcoin-mcp
     html_url: https://github.com/Bortlesboat/bitcoin-mcp
-    created_at: "2026-03-04T17:38:05Z"
-    pushed_at: "2026-08-07T00:34:30Z"
-    description: Bitcoin MCP server with 50 standard tools for fees, mempool, blocks, transactions, mining, price, and supply. Supports Bitcoin Core and compatible API backends.
+    created_at: '2026-03-04T17:38:05Z'
+    pushed_at: '2026-08-07T00:34:30Z'
+    description: >-
+      Bitcoin MCP server with 50 standard tools for fees, mempool, blocks, transactions, mining, price, and supply.
+      Supports Bitcoin Core and compatible API backends.
     homepage: https://github.com/Bortlesboat/bitcoin-mcp#readme
     topics:
       - ai-agents
@@ -55,14 +62,20 @@ metadata:
       - model-context-protocol
       - python
       - self-hosted
-    last_checked_at: "2026-09-07T04:13:36.773Z"
+    last_checked_at: '2026-09-07T04:13:36.773Z'
     readme:
-      fetched_at: "2026-09-07T04:13:36.773Z"
+      fetched_at: '2026-09-07T04:13:36.773Z'
       bytes: 13322
 insights:
-  summary: An MCP server providing 49 Bitcoin-related tools for AI agents, including fees, mempool, blocks, transactions, mining, price, and supply data.
-  why_it_matters: Developers can integrate Bitcoin blockchain intelligence into their AI agents without writing custom API code or managing node connections.
-  mental_damage: Now your AI agent can tell you the cheapest time to send Bitcoin while you’re still debugging why your MCP config won’t load.
+  summary: >-
+    An MCP server providing 49 Bitcoin-related tools for AI agents, including fees, mempool, blocks, transactions,
+    mining, price, and supply data.
+  why_it_matters: >-
+    Developers can integrate Bitcoin blockchain intelligence into their AI agents without writing custom API code or
+    managing node connections.
+  mental_damage: >-
+    Now your AI agent can tell you the cheapest time to send Bitcoin while you’re still debugging why your MCP config
+    won’t load.
   tags:
     - mcp-server
     - bitcoin
@@ -72,31 +85,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server with Bitcoin-specific tools as its core identity, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product is explicitly an MCP server with Bitcoin-specific tools as its core identity, fitting the MCP Servers &
+    Tooling category.
   evidence:
-    - "Repo description: 'The most comprehensive Bitcoin MCP server. 49 tools for AI agents'"
-    - "README: 'Give any AI agent Bitcoin superpowers — fee intelligence, mempool analysis, and 49 tools. Zero config, one command.'"
-    - "Source-list context: Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'"
+    - 'Repo description: ''The most comprehensive Bitcoin MCP server. 49 tools for AI agents'''
+    - >-
+      README: 'Give any AI agent Bitcoin superpowers — fee intelligence, mempool analysis, and 49 tools. Zero config,
+      one command.'
+    - 'Source-list context: Listed in awesome-mcp-servers under ''Server Implementations > Finance & Fintech'''
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.606Z"
+    updated_at: '2026-05-06T22:12:15.606Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:36.773Z"
+    updated_at: '2026-09-07T04:13:36.773Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:26:32.135Z"
+    updated_at: '2026-07-21T15:26:32.135Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -109,14 +127,20 @@ processing:
       input_hash: sha256:423c33be3275102d531910fab14eb25b0e7ad3ef8fadf5a1b9a32e7c339e741d
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server with Bitcoin-specific tools as its core identity, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product is explicitly an MCP server with Bitcoin-specific tools as its core identity, fitting the MCP
+        Servers & Tooling category.
       decision_evidence:
-        - "Repo description: 'The most comprehensive Bitcoin MCP server. 49 tools for AI agents'"
-        - "README: 'Give any AI agent Bitcoin superpowers — fee intelligence, mempool analysis, and 49 tools. Zero config, one command.'"
-        - "Source-list context: Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'"
+        - 'Repo description: ''The most comprehensive Bitcoin MCP server. 49 tools for AI agents'''
+        - >-
+          README: 'Give any AI agent Bitcoin superpowers — fee intelligence, mempool analysis, and 49 tools. Zero
+          config, one command.'
+        - 'Source-list context: Listed in awesome-mcp-servers under ''Server Implementations > Finance & Fintech'''
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__khromov__svelte-llm-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Svelte Documentation
         extracted_url: https://github.com/khromov/llmctx
-        surrounding_text: "- **[Svelte Documentation](https://github.com/khromov/llmctx)** - Remote server (SSE/Streamable) for the latest Svelte and SvelteKit documentation"
+        surrounding_text: >-
+          - **[Svelte Documentation](https://github.com/khromov/llmctx)** - Remote server (SSE/Streamable) for the
+          latest Svelte and SvelteKit documentation
         confidence: high
 metadata:
   github:
@@ -29,18 +31,20 @@ metadata:
     archived: false
     full_name: khromov/svelte-llm-mcp
     html_url: https://github.com/khromov/svelte-llm-mcp
-    created_at: "2024-11-25T21:45:39Z"
-    pushed_at: "2026-02-14T01:03:57Z"
+    created_at: '2024-11-25T21:45:39Z'
+    pushed_at: '2026-02-14T01:03:57Z'
     description: Svelte developer documentation as an MCP and in llms.txt format
     homepage: https://svelte-llm.stanislav.garden
     topics: []
-    last_checked_at: "2026-07-30T05:05:56.454Z"
+    last_checked_at: '2026-07-30T05:05:56.454Z'
     readme:
-      fetched_at: "2026-07-30T05:05:56.454Z"
+      fetched_at: '2026-07-30T05:05:56.454Z'
       bytes: 1384
 insights:
   summary: An MCP server providing Svelte 5 and SvelteKit developer documentation as a context source for AI assistants.
-  why_it_matters: Developers working with Svelte can give their AI assistants direct access to up-to-date framework docs without manual prompt stuffing.
+  why_it_matters: >-
+    Developers working with Svelte can give their AI assistants direct access to up-to-date framework docs without
+    manual prompt stuffing.
   mental_damage: Now your AI can argue with you about Svelte reactivity using the official docs as ammunition.
   tags:
     - mcp
@@ -50,31 +54,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server exposing Svelte documentation, making it a clear fit for MCP Servers & Tooling.
+  reason: >-
+    The product's core identity is an MCP server exposing Svelte documentation, making it a clear fit for MCP Servers &
+    Tooling.
   evidence:
     - Repo description explicitly states it is 'Svelte developer documentation as an MCP and in llms.txt format'
     - README details MCP endpoints and setup instructions for the server
     - Already listed in awesome-mcp-servers under 'Community Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: promotion_candidate
   reason: Stars (159) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.624Z"
+    updated_at: '2026-05-06T22:12:15.624Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:56.454Z"
+    updated_at: '2026-07-30T05:05:56.454Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:12:24.046Z"
+    updated_at: '2026-07-21T16:12:24.046Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,7 +93,9 @@ processing:
       input_hash: sha256:07e46b7caca1394b360c562e751dde3e6d9957a8363cb9d05decf35178da3fe1
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP server exposing Svelte documentation, making it a clear fit for MCP Servers & Tooling.
+      decision_reason: >-
+        The product's core identity is an MCP server exposing Svelte documentation, making it a clear fit for MCP
+        Servers & Tooling.
       decision_evidence:
         - Repo description explicitly states it is 'Svelte developer documentation as an MCP and in llms.txt format'
         - README details MCP endpoints and setup instructions for the server
@@ -95,6 +103,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the primary product identity is an MCP server, not a general context/retrieval system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the primary product identity is an MCP server, not a general
+        context/retrieval system.
       review_reason: null
       review_resume_lifecycle: null

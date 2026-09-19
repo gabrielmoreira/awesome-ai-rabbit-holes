@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__aifordevelopers__org__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,10 @@ provenance:
           - README
         anchor_text: AI For Developers
         extracted_url: https://aifordevelopers.org
-        surrounding_text: "**Reach thousands of developers building with AI by sponsoring this list, our [newsletter](https://aifordevelopers.substack.com/) and [AI For Developers](https://aifordevelopers.org/). Contact us at [aifordevelopers.org/advertise](https://aifordevelopers.org/advertise)**"
+        surrounding_text: >-
+          **Reach thousands of developers building with AI by sponsoring this list, our
+          [newsletter](https://aifordevelopers.substack.com/) and [AI For Developers](https://aifordevelopers.org/).
+          Contact us at [aifordevelopers.org/advertise](https://aifordevelopers.org/advertise)**
         confidence: high
 metadata:
   github:
@@ -38,7 +41,9 @@ metadata:
 insights:
   summary: A curated directory of AI coding tools, agents, and developer-focused infrastructure.
   why_it_matters: It helps developers cut through the noise of the exploding AI ecosystem to find practical, task-specific tooling.
-  mental_damage: Nothing cures terminal decision paralysis quite like scrolling through an endless list of tools that all claim to replace your entire workflow.
+  mental_damage: >-
+    Nothing cures terminal decision paralysis quite like scrolling through an endless list of tools that all claim to
+    replace your entire workflow.
   tags:
     - curated-list
     - ai-tools
@@ -46,21 +51,21 @@ insights:
     - directory
   confidence: high
 curation:
-  status: included
-  reason: It is a curated directory designed for navigating the AI developer ecosystem.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Scraped site context describes it as a 'curated list of AI coding tools'
-    - Main value proposition is discovery and navigation of AI tools and resources
+    - Jev classification confidence below inclusion threshold
 placement:
   primary_category: awesome-awesomes
-  section: Directories & Maps
+  secondary_categories: []
+  section: Awesome Lists & Directories
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.658Z"
+    updated_at: '2026-05-06T22:12:15.658Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +74,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:20:16.939Z"
+    updated_at: '2026-07-20T15:20:16.939Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,6 +94,8 @@ processing:
       category_candidates:
         - awesome-awesomes
         - newsletters-and-feeds
-      contrastive_reason: Choose awesome-awesomes over newsletters-and-feeds because the site functions primarily as a categorized index/directory of tools rather than a recurring media publication.
+      contrastive_reason: >-
+        Choose awesome-awesomes over newsletters-and-feeds because the site functions primarily as a categorized
+        index/directory of tools rather than a recurring media publication.
       review_reason: null
       review_resume_lifecycle: null

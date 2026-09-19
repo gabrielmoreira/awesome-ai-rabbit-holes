@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__langstream__langstream__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -19,7 +19,10 @@ provenance:
           - Other LLM Frameworks
         anchor_text: LangStream
         extracted_url: https://github.com/langstream/langstream
-        surrounding_text: "- [LangStream](https://github.com/LangStream/langstream): Framework for building and running event-driven LLM applications using no-code and Python (including LangChain-based) agents. ![GitHub Repo stars](https://img.shields.io/github/stars/LangStream/langstream?style=social)"
+        surrounding_text: >-
+          - [LangStream](https://github.com/LangStream/langstream): Framework for building and running event-driven LLM
+          applications using no-code and Python (including LangChain-based) agents. ![GitHub Repo
+          stars](https://img.shields.io/github/stars/LangStream/langstream?style=social)
         confidence: high
 metadata:
   github:
@@ -29,8 +32,8 @@ metadata:
     archived: false
     full_name: LangStream/langstream
     html_url: https://github.com/LangStream/langstream
-    created_at: "2023-06-28T14:56:51Z"
-    pushed_at: "2024-07-03T19:47:17Z"
+    created_at: '2023-06-28T14:56:51Z'
+    pushed_at: '2024-07-03T19:47:17Z'
     description: LangStream. Event-Driven Developer Platform for Building and Running LLM AI Apps. Powered by Kubernetes and Kafka.
     homepage: https://langstream.ai
     topics:
@@ -46,14 +49,20 @@ metadata:
       - openai
       - python
       - vectordb
-    last_checked_at: "2026-07-30T05:06:03.408Z"
+    last_checked_at: '2026-07-30T05:06:03.408Z'
     readme:
-      fetched_at: "2026-07-30T05:06:03.408Z"
+      fetched_at: '2026-07-30T05:06:03.408Z'
       bytes: 5917
 insights:
-  summary: LangStream is an event-driven developer platform for building and running LLM AI applications on Kubernetes and Kafka.
-  why_it_matters: It lets developers deploy AI apps as event-driven services using familiar cloud-native infrastructure instead of glue code.
-  mental_damage: Finally, a way to feel like you're doing real platform engineering while your LLM app still hallucinates in production.
+  summary: >-
+    LangStream is an event-driven developer platform for building and running LLM AI applications on Kubernetes and
+    Kafka.
+  why_it_matters: >-
+    It lets developers deploy AI apps as event-driven services using familiar cloud-native infrastructure instead of
+    glue code.
+  mental_damage: >-
+    Finally, a way to feel like you're doing real platform engineering while your LLM app still hallucinates in
+    production.
   tags:
     - event-driven
     - llm-platform
@@ -62,31 +71,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: LangStream is a code-first framework for building LLM apps via event-driven pipelines, not a coding agent or orchestration workbench.
+  reason: >-
+    LangStream is a code-first framework for building LLM apps via event-driven pipelines, not a coding agent or
+    orchestration workbench.
   evidence:
-    - "Repo description: 'Event-Driven Developer Platform for Building and Running LLM AI Apps. Powered by Kubernetes and Kafka.'"
-    - README emphasizes CLI, Helm charts, and Kubernetes deployment for running applications, not agent coordination or code editing.
-    - "Source-list context: listed under 'Other LLM Frameworks' in awesome-langchain."
+    - >-
+      Repo description: 'Event-Driven Developer Platform for Building and Running LLM AI Apps. Powered by Kubernetes and
+      Kafka.'
+    - >-
+      README emphasizes CLI, Helm charts, and Kubernetes deployment for running applications, not agent coordination or
+      code editing.
+    - 'Source-list context: listed under ''Other LLM Frameworks'' in awesome-langchain.'
 placement:
   primary_category: ai-frameworks
-  section: Workflow / Graph Engines
+  secondary_categories: []
+  section: LLM & Agent SDKs
 lifecycle:
   status: promotion_candidate
   reason: Stars (431) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.626Z"
+    updated_at: '2026-05-06T22:12:15.626Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:03.408Z"
+    updated_at: '2026-07-30T05:06:03.408Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:15:07.759Z"
+    updated_at: '2026-07-21T16:15:07.759Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -99,14 +115,22 @@ processing:
       input_hash: sha256:ccd639cc069fc930c7f5ae6cd58777cf72b0d139a2f7e38ec2f8097ef313f520
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: LangStream is a code-first framework for building LLM apps via event-driven pipelines, not a coding agent or orchestration workbench.
+      decision_reason: >-
+        LangStream is a code-first framework for building LLM apps via event-driven pipelines, not a coding agent or
+        orchestration workbench.
       decision_evidence:
-        - "Repo description: 'Event-Driven Developer Platform for Building and Running LLM AI Apps. Powered by Kubernetes and Kafka.'"
-        - README emphasizes CLI, Helm charts, and Kubernetes deployment for running applications, not agent coordination or code editing.
-        - "Source-list context: listed under 'Other LLM Frameworks' in awesome-langchain."
+        - >-
+          Repo description: 'Event-Driven Developer Platform for Building and Running LLM AI Apps. Powered by Kubernetes
+          and Kafka.'
+        - >-
+          README emphasizes CLI, Helm charts, and Kubernetes deployment for running applications, not agent coordination
+          or code editing.
+        - 'Source-list context: listed under ''Other LLM Frameworks'' in awesome-langchain.'
       category_candidates:
         - ai-frameworks
         - agent-orchestration
-      contrastive_reason: Choose ai-frameworks over agent-orchestration because LangStream is used as a library/SDK/platform CLI to build AI workflows in code, not as an operated control plane for coordinating multiple agents.
+      contrastive_reason: >-
+        Choose ai-frameworks over agent-orchestration because LangStream is used as a library/SDK/platform CLI to build
+        AI workflows in code, not as an operated control plane for coordinating multiple agents.
       review_reason: null
       review_resume_lifecycle: null

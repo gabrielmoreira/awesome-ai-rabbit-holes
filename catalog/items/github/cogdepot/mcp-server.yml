@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cogdepot__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-09-14T04:13:20.171Z"
+      discovered_at: '2026-09-14T04:13:20.171Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,17 @@ provenance:
           - 🤝 <a name="agreements--coordination"></a>Agreements & Coordination
         anchor_text: cogdepot/mcp-server
         extracted_url: https://github.com/cogdepot/mcp-server
-        surrounding_text: "- [cogdepot/mcp-server](https://github.com/cogdepot/mcp-server) [![cogdepot/mcp-server MCP server](https://glama.ai/mcp/servers/cogdepot/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/cogdepot/mcp-server) 🎖️ 📇 ☁️ 🍎 🪟 🐧 - Official server for [cogDepot](https://cogdepot.com), an anonymous broker where agents publish capability listings, negotiate terms, and form direct peer-to-peer deals backed by escrow and two-sided reputation. Five tools need no account at all - what the broker does and what it costs, how to get a key, a preview of the live board, any agent's public reputation record, and the marketplace's aggregate stats; with a key, read balance and escrow holds, negotiation threads, sealed deals and their reveal packages, and rate a counterparty. Prices come from the live discovery document at call time rather than being baked into the package, and an unreachable API is reported as stale rather than answered from a snapshot silently. Install via `npx -y @cogdepot/mcp-server`."
+        surrounding_text: >-
+          - [cogdepot/mcp-server](https://github.com/cogdepot/mcp-server) [![cogdepot/mcp-server MCP
+          server](https://glama.ai/mcp/servers/cogdepot/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/cogdepot/mcp-server)
+          🎖️ 📇 ☁️ 🍎 🪟 🐧 - Official server for [cogDepot](https://cogdepot.com), an anonymous broker where agents
+          publish capability listings, negotiate terms, and form direct peer-to-peer deals backed by escrow and
+          two-sided reputation. Five tools need no account at all - what the broker does and what it costs, how to get a
+          key, a preview of the live board, any agent's public reputation record, and the marketplace's aggregate stats;
+          with a key, read balance and escrow holds, negotiation threads, sealed deals and their reveal packages, and
+          rate a counterparty. Prices come from the live discovery document at call time rather than being baked into
+          the package, and an unreachable API is reported as stale rather than answered from a snapshot silently.
+          Install via `npx -y @cogdepot/mcp-server`.
         confidence: high
 metadata:
   github:
@@ -30,9 +40,12 @@ metadata:
     archived: false
     full_name: cogdepot/mcp-server
     html_url: https://github.com/cogdepot/mcp-server
-    created_at: "2026-08-09T16:31:45Z"
-    pushed_at: "2026-09-13T20:52:38Z"
-    description: MCP server for cogDepot, the anonymous broker where AI agents publish capabilities, negotiate, and form direct peer-to-peer deals. Keyless discovery, or the full trading loop with a key - post, browse, negotiate, seal, rate. Local via npx or the hosted remote server.
+    created_at: '2026-08-09T16:31:45Z'
+    pushed_at: '2026-09-13T20:52:38Z'
+    description: >-
+      MCP server for cogDepot, the anonymous broker where AI agents publish capabilities, negotiate, and form direct
+      peer-to-peer deals. Keyless discovery, or the full trading loop with a key - post, browse, negotiate, seal, rate.
+      Local via npx or the hosted remote server.
     homepage: https://cogdepot.com
     topics:
       - a2a
@@ -41,14 +54,20 @@ metadata:
       - cogdepot
       - mcp
       - model-context-protocol
-    last_checked_at: "2026-09-14T04:13:27.784Z"
+    last_checked_at: '2026-09-14T04:13:27.784Z'
     readme:
-      fetched_at: "2026-09-14T04:13:27.784Z"
+      fetched_at: '2026-09-14T04:13:27.784Z'
       bytes: 37552
 insights:
-  summary: An MCP server that connects AI agents to the cogDepot broker for anonymous capability discovery and peer-to-peer negotiation.
-  why_it_matters: It enables agents to autonomously find and transact with other specialized agents without manual human configuration or hardcoded integrations.
-  mental_damage: It is one step closer to a world where agents trade API credits in a dark pool while you're trying to debug a syntax error.
+  summary: >-
+    An MCP server that connects AI agents to the cogDepot broker for anonymous capability discovery and peer-to-peer
+    negotiation.
+  why_it_matters: >-
+    It enables agents to autonomously find and transact with other specialized agents without manual human configuration
+    or hardcoded integrations.
+  mental_damage: >-
+    It is one step closer to a world where agents trade API credits in a dark pool while you're trying to debug a syntax
+    error.
   tags:
     - mcp
     - agent-to-agent
@@ -57,31 +76,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The repository is explicitly an MCP server implementation intended to bridge AI agents to the cogDepot brokering service.
+  reason: >-
+    The repository is explicitly an MCP server implementation intended to bridge AI agents to the cogDepot brokering
+    service.
   evidence:
     - Repo name and description identify it specifically as an 'MCP server for cogDepot'
     - README provides configuration patterns for MCP-native clients like Claude Desktop and Cursor
-    - The core utility is providing an interface for agents to browse and negotiate capabilities via the Model Context Protocol
+    - >-
+      The core utility is providing an interface for agents to browse and negotiate capabilities via the Model Context
+      Protocol
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-14T04:13:20.173Z"
+    updated_at: '2026-09-14T04:13:20.173Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:27.784Z"
+    updated_at: '2026-09-14T04:13:27.784Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-14T04:18:42.436Z"
+    updated_at: '2026-09-14T04:18:42.436Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -90,15 +114,21 @@ processing:
       input_hash: sha256:6f90e3d99128a5c9289414488527895821c4661925bd164a6d4ee5fe7bd8b4c0
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The repository is explicitly an MCP server implementation intended to bridge AI agents to the cogDepot brokering service.
+      decision_reason: >-
+        The repository is explicitly an MCP server implementation intended to bridge AI agents to the cogDepot brokering
+        service.
       decision_evidence:
         - Repo name and description identify it specifically as an 'MCP server for cogDepot'
         - README provides configuration patterns for MCP-native clients like Claude Desktop and Cursor
-        - The core utility is providing an interface for agents to browse and negotiate capabilities via the Model Context Protocol
+        - >-
+          The core utility is providing an interface for agents to browse and negotiate capabilities via the Model
+          Context Protocol
       category_candidates:
         - mcp
         - agent-orchestration
-      contrastive_reason: Choose mcp over agent-orchestration because the repository's primary identity is the protocol implementation (the server) that enables access to the brokering service.
+      contrastive_reason: >-
+        Choose mcp over agent-orchestration because the repository's primary identity is the protocol implementation
+        (the server) that enables access to the brokering service.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__skillhub__cn__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -53,15 +53,16 @@ curation:
     - Curates Top 50 high-quality AI Skills with safety reviews and multi-dimensional evaluation
     - Listed in awesome-LLM-resources under 'Skills' section
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: skills
+  secondary_categories: []
+  section: Registries & Directories
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +71,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:32.441Z"
+    updated_at: '2026-07-21T15:31:32.441Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -91,6 +92,8 @@ processing:
       category_candidates:
         - awesome-awesomes
         - skills
-      contrastive_reason: Choose awesome-awesomes over skills because the primary value is discovery and navigation rather than distributing reusable skill packs.
+      contrastive_reason: >-
+        Choose awesome-awesomes over skills because the primary value is discovery and navigation rather than
+        distributing reusable skill packs.
       review_reason: null
       review_resume_lifecycle: null

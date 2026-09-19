@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__finmap-org__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: finmap-org/mcp-server
         extracted_url: https://github.com/finmap-org/mcp-server
-        surrounding_text: "- [finmap-org/mcp-server](https://github.com/finmap-org/mcp-server) - [finmap.org](https://finmap.org/) MCP server provides comprehensive historical data from the US, UK, Russian and Turkish stock exchanges. Access sectors, tickers, company profiles, market cap, volume, value, and trade counts, as well as treemap and histogram visualizations."
+        surrounding_text: >-
+          - [finmap-org/mcp-server](https://github.com/finmap-org/mcp-server) - [finmap.org](https://finmap.org/) MCP
+          server provides comprehensive historical data from the US, UK, Russian and Turkish stock exchanges. Access
+          sectors, tickers, company profiles, market cap, volume, value, and trade counts, as well as treemap and
+          histogram visualizations.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,12 @@ metadata:
     archived: false
     full_name: finmap-org/mcp-server
     html_url: https://github.com/finmap-org/mcp-server
-    created_at: "2025-08-20T00:09:57Z"
-    pushed_at: "2026-08-02T08:38:14Z"
-    description: The finmap.org MCP server provides comprehensive historical data from the US, UK, Russian and Turkish stock exchanges. Access sectors, tickers, company profiles, market cap, volume, value, and trade counts, as well as treemap and histogram visualizations
+    created_at: '2025-08-20T00:09:57Z'
+    pushed_at: '2026-08-02T08:38:14Z'
+    description: >-
+      The finmap.org MCP server provides comprehensive historical data from the US, UK, Russian and Turkish stock
+      exchanges. Access sectors, tickers, company profiles, market cap, volume, value, and trade counts, as well as
+      treemap and histogram visualizations
     homepage: https://npmjs.com/finmap-mcp
     topics:
       - agentic
@@ -55,14 +62,18 @@ metadata:
       - nyse
       - stock-exchange
       - stock-market
-    last_checked_at: "2026-08-27T09:23:30.708Z"
+    last_checked_at: '2026-08-27T09:23:30.708Z'
     readme:
-      fetched_at: "2026-08-27T09:23:30.708Z"
+      fetched_at: '2026-08-27T09:23:30.708Z'
       bytes: 16443
 insights:
   summary: An MCP server providing historical stock market data from US, UK, Russian, and Turkish exchanges.
-  why_it_matters: Enables LLMs to access real-time and historical financial datasets via the Model Context Protocol for automated financial analysis.
-  mental_damage: Another specialized data pipe to connect to your agent, ensuring your LLM can hallucinate market trends with high-fidelity historical data.
+  why_it_matters: >-
+    Enables LLMs to access real-time and historical financial datasets via the Model Context Protocol for automated
+    financial analysis.
+  mental_damage: >-
+    Another specialized data pipe to connect to your agent, ensuring your LLM can hallucinate market trends with
+    high-fidelity historical data.
   tags:
     - mcp
     - financial-data
@@ -79,24 +90,25 @@ curation:
     - Main identity is an MCP server provider, not a coding assistant or framework
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.614Z"
+    updated_at: '2026-05-06T22:12:15.614Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:30.708Z"
+    updated_at: '2026-08-27T09:23:30.708Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:56:46.705Z"
+    updated_at: '2026-07-21T15:56:46.705Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -117,6 +129,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is an MCP server implementation rather than an integration designed to augment a specific coding assistant's existing UI.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is an MCP server implementation rather
+        than an integration designed to augment a specific coding assistant's existing UI.
       review_reason: null
       review_resume_lifecycle: null

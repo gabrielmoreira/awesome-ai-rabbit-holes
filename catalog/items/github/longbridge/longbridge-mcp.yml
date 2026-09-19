@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__longbridge__longbridge-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: longbridge/longbridge-mcp
         extracted_url: https://github.com/longbridge/longbridge-mcp
-        surrounding_text: "- [longbridge/longbridge-mcp](https://github.com/longbridge/longbridge-mcp) [![longbridge/longbridge-mcp MCP server](https://glama.ai/mcp/servers/longbridge/longbridge-mcp/badges/score.svg)](https://glama.ai/mcp/servers/longbridge/longbridge-mcp) 🎖️ 🦀 ☁️ - Official Longbridge brokerage MCP — 110 tools for US/HK real-time quotes, options, trading, fundamentals, analyst ratings, calendars, price alerts, DCA plans, portfolio analytics and community sharelists. Hosted at `https://openapi.longbridge.com/mcp` with OAuth 2.1 via RFC 9728."
+        surrounding_text: >-
+          - [longbridge/longbridge-mcp](https://github.com/longbridge/longbridge-mcp) [![longbridge/longbridge-mcp MCP
+          server](https://glama.ai/mcp/servers/longbridge/longbridge-mcp/badges/score.svg)](https://glama.ai/mcp/servers/longbridge/longbridge-mcp)
+          🎖️ 🦀 ☁️ - Official Longbridge brokerage MCP — 110 tools for US/HK real-time quotes, options, trading,
+          fundamentals, analyst ratings, calendars, price alerts, DCA plans, portfolio analytics and community
+          sharelists. Hosted at `https://openapi.longbridge.com/mcp` with OAuth 2.1 via RFC 9728.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: longbridge/longbridge-mcp
     html_url: https://github.com/longbridge/longbridge-mcp
-    created_at: "2026-04-16T07:08:01Z"
-    pushed_at: "2026-07-30T02:34:31Z"
+    created_at: '2026-04-16T07:08:01Z'
+    pushed_at: '2026-07-30T02:34:31Z'
     description: null
     homepage: null
     topics:
@@ -41,14 +46,20 @@ metadata:
       - mcp-server
       - model-context-protocol
       - trading
-    last_checked_at: "2026-07-30T05:06:08.008Z"
+    last_checked_at: '2026-07-30T05:06:08.008Z'
     readme:
-      fetched_at: "2026-07-30T05:06:08.008Z"
+      fetched_at: '2026-07-30T05:06:08.008Z'
       bytes: 15261
 insights:
-  summary: Longbridge MCP Server is an official Model Context Protocol server providing 145 financial tools for US and HK markets via the Longbridge brokerage API.
-  why_it_matters: It lets developers access real-time trading data, order routing, and portfolio analytics through standardized MCP clients without custom API integration.
-  mental_damage: Another day, another brokerage wrapping its REST API in MCP so your AI can finally lose money with standardized tool calls.
+  summary: >-
+    Longbridge MCP Server is an official Model Context Protocol server providing 145 financial tools for US and HK
+    markets via the Longbridge brokerage API.
+  why_it_matters: >-
+    It lets developers access real-time trading data, order routing, and portfolio analytics through standardized MCP
+    clients without custom API integration.
+  mental_damage: >-
+    Another day, another brokerage wrapping its REST API in MCP so your AI can finally lose money with standardized tool
+    calls.
   tags:
     - mcp
     - finance
@@ -56,31 +67,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP-first server exposing financial data and trading tools via the Model Context Protocol, making MCP its core identity rather than an adapter or compatibility layer.
+  reason: >-
+    The product is an MCP-first server exposing financial data and trading tools via the Model Context Protocol, making
+    MCP its core identity rather than an adapter or compatibility layer.
   evidence:
-    - Official MCP server for the Longbridge brokerage with 145 tools across real-time quotes, options, order routing, and portfolio analytics
-    - Built with Rust using rmcp and axum, explicitly designed as MCP infrastructure with stateless architecture and OAuth 2.1 resource metadata compliance
-    - Connects via standard MCP clients (Claude Desktop, Claude Code, Zed, Cursor) using streamable-http transport and auto-discovered OAuth via RFC 9728
+    - >-
+      Official MCP server for the Longbridge brokerage with 145 tools across real-time quotes, options, order routing,
+      and portfolio analytics
+    - >-
+      Built with Rust using rmcp and axum, explicitly designed as MCP infrastructure with stateless architecture and
+      OAuth 2.1 resource metadata compliance
+    - >-
+      Connects via standard MCP clients (Claude Desktop, Claude Code, Zed, Cursor) using streamable-http transport and
+      auto-discovered OAuth via RFC 9728
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.819Z"
+    updated_at: '2026-05-28T05:28:09.819Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:08.008Z"
+    updated_at: '2026-07-30T05:06:08.008Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-02T05:31:40.009Z"
+    updated_at: '2026-07-02T05:31:40.009Z'
     cause: null
     next_retry_at: null
     attempts: 1

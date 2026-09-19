@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__goplausible__algorand-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Community Servers
         anchor_text: Algorand
         extracted_url: https://github.com/goplausible/algorand-mcp
-        surrounding_text: "- **[Algorand](https://github.com/GoPlausible/algorand-mcp)** - A comprehensive MCP server for tooling interactions(40+) and resource accessibility(60+) plus many useful prompts to interact with Algorand Blockchain."
+        surrounding_text: >-
+          - **[Algorand](https://github.com/GoPlausible/algorand-mcp)** - A comprehensive MCP server for tooling
+          interactions(40+) and resource accessibility(60+) plus many useful prompts to interact with Algorand
+          Blockchain.
         confidence: high
 metadata:
   github:
@@ -29,8 +32,8 @@ metadata:
     archived: false
     full_name: GoPlausible/algorand-mcp
     html_url: https://github.com/GoPlausible/algorand-mcp
-    created_at: "2025-03-10T15:09:14Z"
-    pushed_at: "2026-08-08T09:46:22Z"
+    created_at: '2025-03-10T15:09:14Z'
+    pushed_at: '2026-08-08T09:46:22Z'
     description: Algorand Local Model Context Protocol (Server & Client)
     homepage: https://GoPlausible.com
     topics:
@@ -39,14 +42,18 @@ metadata:
       - mcp-client
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-09-03T05:16:52.523Z"
+    last_checked_at: '2026-09-03T05:16:52.523Z'
     readme:
-      fetched_at: "2026-09-03T05:16:52.523Z"
+      fetched_at: '2026-09-03T05:16:52.523Z'
       bytes: 49813
 insights:
   summary: An MCP server and client that provides AI agents and LLMs with full access to the Algorand blockchain.
-  why_it_matters: Developers can integrate Algorand blockchain operations (transactions, smart contracts, DEX interactions) directly into AI workflows via MCP-compatible clients like Claude Desktop or Cursor.
-  mental_damage: Now your AI can trade crypto, compile TEAL, and argue with you about gas fees—all while you pretend to understand Algorand.
+  why_it_matters: >-
+    Developers can integrate Algorand blockchain operations (transactions, smart contracts, DEX interactions) directly
+    into AI workflows via MCP-compatible clients like Claude Desktop or Cursor.
+  mental_damage: >-
+    Now your AI can trade crypto, compile TEAL, and argue with you about gas fees—all while you pretend to understand
+    Algorand.
   tags:
     - mcp
     - blockchain
@@ -56,31 +63,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's core identity is an MCP server/client for Algorand, fitting the MCP Servers & Tooling category where MCP is the primary adopted protocol.
+  reason: >-
+    The project's core identity is an MCP server/client for Algorand, fitting the MCP Servers & Tooling category where
+    MCP is the primary adopted protocol.
   evidence:
     - Repo description explicitly states it is an 'Algorand Local Model Context Protocol (Server & Client)'
     - README details MCP tool exposure for Algorand blockchain operations
     - Listed in awesome-mcp-servers under 'Community Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.616Z"
+    updated_at: '2026-05-06T22:12:15.616Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:52.523Z"
+    updated_at: '2026-09-03T05:16:52.523Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:03:50.842Z"
+    updated_at: '2026-07-21T16:03:50.842Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -93,7 +103,9 @@ processing:
       input_hash: sha256:7c75a94a6fee32c0945d6bd1802c644d31414fefed425f5b8ccf861dfd516025
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's core identity is an MCP server/client for Algorand, fitting the MCP Servers & Tooling category where MCP is the primary adopted protocol.
+      decision_reason: >-
+        The project's core identity is an MCP server/client for Algorand, fitting the MCP Servers & Tooling category
+        where MCP is the primary adopted protocol.
       decision_evidence:
         - Repo description explicitly states it is an 'Algorand Local Model Context Protocol (Server & Client)'
         - README details MCP tool exposure for Algorand blockchain operations
@@ -101,6 +113,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is a dedicated MCP server/client for Algorand, not merely an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is a dedicated MCP server/client for Algorand, not merely
+        an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

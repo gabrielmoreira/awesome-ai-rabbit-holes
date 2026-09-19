@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__genkit-ai__genkit__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,7 @@ provenance:
           - Clients
         anchor_text: genkit
         extracted_url: https://github.com/firebase/genkit
-        surrounding_text: "- **[genkit](https://github.com/firebase/genkit)** agent and data transformation framework"
+        surrounding_text: '- **[genkit](https://github.com/firebase/genkit)** agent and data transformation framework'
         confidence: high
 metadata:
   github:
@@ -29,9 +29,11 @@ metadata:
     archived: false
     full_name: genkit-ai/genkit
     html_url: https://github.com/genkit-ai/genkit
-    created_at: "2024-04-29T22:04:42Z"
-    pushed_at: "2026-09-03T04:41:56Z"
-    description: Open-source framework for building agentic apps in JavaScript, Go, Dart, and Python, built and used in production by Google
+    created_at: '2024-04-29T22:04:42Z'
+    pushed_at: '2026-09-03T04:41:56Z'
+    description: >-
+      Open-source framework for building agentic apps in JavaScript, Go, Dart, and Python, built and used in production
+      by Google
     homepage: https://genkit.dev
     topics:
       - agents
@@ -42,13 +44,15 @@ metadata:
       - multimodal
       - rag
       - vector-database
-    last_checked_at: "2026-09-03T05:16:47.616Z"
+    last_checked_at: '2026-09-03T05:16:47.616Z'
     readme:
-      fetched_at: "2026-09-03T05:16:47.616Z"
+      fetched_at: '2026-09-03T05:16:47.616Z'
       bytes: 9534
 insights:
   summary: An open-source framework for building full-stack AI-powered applications in JavaScript, Go, and Python.
-  why_it_matters: It provides a unified SDK to integrate various LLM providers and handles complex tasks like structured output, tool calling, and RAG workflows.
+  why_it_matters: >-
+    It provides a unified SDK to integrate various LLM providers and handles complex tasks like structured output, tool
+    calling, and RAG workflows.
   mental_damage: It promises a 'unified interface' for an ecosystem that changes its preferred SDKs every Tuesday.
   tags:
     - frameworks
@@ -59,31 +63,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Genkit is a code-first SDK and framework used to build AI features into existing applications rather than an end-user tool.
+  reason: >-
+    Genkit is a code-first SDK and framework used to build AI features into existing applications rather than an
+    end-user tool.
   evidence:
     - Repo description defines it as an 'Open-source framework for building AI-powered apps'
     - README states it provides 'SDKs for multiple programming languages'
     - Core functionality centers on structured outputs, tool calling, and RAG via code
 placement:
   primary_category: ai-frameworks
-  section: Provider / Model Abstractions
+  secondary_categories: []
+  section: LLM & Agent SDKs
 lifecycle:
   status: promotion_candidate
   reason: Stars (5877) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: '2026-05-06T22:12:15.615Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:47.616Z"
+    updated_at: '2026-09-03T05:16:47.616Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:01:43.377Z"
+    updated_at: '2026-07-21T16:01:43.377Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,7 +103,9 @@ processing:
       input_hash: sha256:8e3242d7779985c4733fa913ce0714cf337c8decc6c73e20487f202136063acd
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: Genkit is a code-first SDK and framework used to build AI features into existing applications rather than an end-user tool.
+      decision_reason: >-
+        Genkit is a code-first SDK and framework used to build AI features into existing applications rather than an
+        end-user tool.
       decision_evidence:
         - Repo description defines it as an 'Open-source framework for building AI-powered apps'
         - README states it provides 'SDKs for multiple programming languages'
@@ -104,6 +113,8 @@ processing:
       category_candidates:
         - ai-frameworks
         - agent-orchestration
-      contrastive_reason: Choose ai-frameworks over agent-orchestration because developers primarily interact with it as a library or SDK to build their own applications rather than operating it as a standalone control plane.
+      contrastive_reason: >-
+        Choose ai-frameworks over agent-orchestration because developers primarily interact with it as a library or SDK
+        to build their own applications rather than operating it as a standalone control plane.
       review_reason: null
       review_resume_lifecycle: null

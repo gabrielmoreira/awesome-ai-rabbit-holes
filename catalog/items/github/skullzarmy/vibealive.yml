@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__skullzarmy__vibealive__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: skullzarmy/vibealive
         extracted_url: https://github.com/skullzarmy/vibealive
-        surrounding_text: "- [skullzarmy/vibealive](https://github.com/skullzarmy/vibealive) 📇 🏠 🍎 🪟 🐧 — Full-featured utility to test Next.js projects for unused files and APIs, with an MCP server that exposes project analysis tools to AI assistants."
+        surrounding_text: >-
+          - [skullzarmy/vibealive](https://github.com/skullzarmy/vibealive) 📇 🏠 🍎 🪟 🐧 — Full-featured utility to
+          test Next.js projects for unused files and APIs, with an MCP server that exposes project analysis tools to AI
+          assistants.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,9 @@ metadata:
     archived: false
     full_name: skullzarmy/vibealive
     html_url: https://github.com/skullzarmy/vibealive
-    created_at: "2025-07-01T17:15:21Z"
-    pushed_at: "2025-10-16T18:44:35Z"
-    description: "Full-featured utility to test Next.js projects for unused files and APIs + MCP server "
+    created_at: '2025-07-01T17:15:21Z'
+    pushed_at: '2025-10-16T18:44:35Z'
+    description: 'Full-featured utility to test Next.js projects for unused files and APIs + MCP server '
     homepage: https://www.npmjs.com/package/vibealive
     topics:
       - developer-tools
@@ -41,14 +44,20 @@ metadata:
       - nextjs
       - npm-package
       - tools
-    last_checked_at: "2026-07-20T16:42:58.741Z"
+    last_checked_at: '2026-07-20T16:42:58.741Z'
     readme:
-      fetched_at: "2026-07-20T16:42:58.741Z"
+      fetched_at: '2026-07-20T16:42:58.741Z'
       bytes: 2330
 insights:
-  summary: A framework-aware code analysis CLI and MCP server for Next.js projects that detects unused files, dead code, and redundant API endpoints.
-  why_it_matters: It helps Next.js developers keep their codebases clean and maintainable by automatically identifying dead code and unused APIs, with optional IDE integration via MCP.
-  mental_damage: Another indispensable utility proving that modern Next.js apps are so convoluted we now need AI-assisted tools just to figure out what’s actually being used.
+  summary: >-
+    A framework-aware code analysis CLI and MCP server for Next.js projects that detects unused files, dead code, and
+    redundant API endpoints.
+  why_it_matters: >-
+    It helps Next.js developers keep their codebases clean and maintainable by automatically identifying dead code and
+    unused APIs, with optional IDE integration via MCP.
+  mental_damage: >-
+    Another indispensable utility proving that modern Next.js apps are so convoluted we now need AI-assisted tools just
+    to figure out what’s actually being used.
   tags:
     - nextjs
     - code-analysis
@@ -58,35 +67,40 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product's core identity is a Next.js code analysis utility that explicitly ships a built-in MCP server for IDE/LLM integration, making it a domain-specific MCP tool.
+  reason: >-
+    The product's core identity is a Next.js code analysis utility that explicitly ships a built-in MCP server for
+    IDE/LLM integration, making it a domain-specific MCP tool.
   evidence:
-    - "Repo description states: 'Full-featured utility to test Next.js projects for unused files and APIs + MCP server'"
-    - "README features 'MCP Integration: Built-in Model Context Protocol server for IDE/LLM integration' as a headline feature"
+    - 'Repo description states: ''Full-featured utility to test Next.js projects for unused files and APIs + MCP server'''
+    - >-
+      README features 'MCP Integration: Built-in Model Context Protocol server for IDE/LLM integration' as a headline
+      feature
     - Included in awesome-mcp-servers under 'Developer Tools', aligning with its MCP-first utility identity
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.648Z"
+    updated_at: '2026-05-06T22:12:15.648Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:58.741Z"
+    updated_at: '2026-07-20T16:42:58.741Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

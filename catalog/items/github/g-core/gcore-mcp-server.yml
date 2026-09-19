@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__g-core__gcore-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,7 @@ provenance:
           - Official Servers
         anchor_text: Gcore Cloud
         extracted_url: https://github.com/g-core/gcore-mcp-server
-        surrounding_text: "- **[Gcore Cloud](https://github.com/G-Core/gcore-mcp-server)** - Gcore's Cloud Official MCP Server"
+        surrounding_text: '- **[Gcore Cloud](https://github.com/G-Core/gcore-mcp-server)** - Gcore''s Cloud Official MCP Server'
         confidence: high
 metadata:
   github:
@@ -29,19 +29,25 @@ metadata:
     archived: false
     full_name: G-Core/gcore-mcp-server
     html_url: https://github.com/G-Core/gcore-mcp-server
-    created_at: "2025-07-16T14:19:22Z"
-    pushed_at: "2026-08-31T09:23:04Z"
+    created_at: '2025-07-16T14:19:22Z'
+    pushed_at: '2026-08-31T09:23:04Z'
     description: Gcore official MCP server
     homepage: https://gcore.com
     topics: []
-    last_checked_at: "2026-09-03T05:16:45.534Z"
+    last_checked_at: '2026-09-03T05:16:45.534Z'
     readme:
-      fetched_at: "2026-09-03T05:16:45.534Z"
+      fetched_at: '2026-09-03T05:16:45.534Z'
       bytes: 8843
 insights:
-  summary: An official Model Context Protocol (MCP) server that provides LLM assistants with tools to interact with the Gcore Cloud API.
-  why_it_matters: It allows AI coding assistants like Claude Code or Cursor to manage cloud infrastructure, instances, and networking directly via natural language.
-  mental_damage: Because nothing says 'odern DevOps' like asking an LLM to provision a bare metal cluster and hoping it doesn't accidentally delete your production network.
+  summary: >-
+    An official Model Context Protocol (MCP) server that provides LLM assistants with tools to interact with the Gcore
+    Cloud API.
+  why_it_matters: >-
+    It allows AI coding assistants like Claude Code or Cursor to manage cloud infrastructure, instances, and networking
+    directly via natural language.
+  mental_damage: >-
+    Because nothing says 'odern DevOps' like asking an LLM to provision a bare metal cluster and hoping it doesn't
+    accidentally delete your production network.
   tags:
     - mcp
     - cloud-infrastructure
@@ -58,24 +64,25 @@ curation:
     - Included in 'awesome-mcp-servers' under Official Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: '2026-05-06T22:12:15.615Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:45.534Z"
+    updated_at: '2026-09-03T05:16:45.534Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:59:55.616Z"
+    updated_at: '2026-07-21T15:59:55.616Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +95,9 @@ processing:
       input_hash: sha256:add72930e1fcb0f3847ee6916de222452bd178087c4ac75b14175265beb3a223
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product identity is an MCP server providing specific domain-driven tools (cloud management) to an existing host.
+      decision_reason: >-
+        The product identity is an MCP server providing specific domain-driven tools (cloud management) to an existing
+        host.
       decision_evidence:
         - README identifies it explicitly as an 'MCP server for Gcore API'
         - Provides tools for interacting with Gcore Cloud API via LLM assistants
@@ -96,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's core identity is a protocol-standard server rather than a general IDE plugin.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool's core identity is a protocol-standard server rather than a
+        general IDE plugin.
       review_reason: null
       review_resume_lifecycle: null

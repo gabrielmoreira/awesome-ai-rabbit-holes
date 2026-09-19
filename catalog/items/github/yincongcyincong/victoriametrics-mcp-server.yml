@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__yincongcyincong__victoriametrics-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: yincongcyincong/VictoriaMetrics-mcp-server
         extracted_url: https://github.com/yincongcyincong/victoriametrics-mcp-server
-        surrounding_text: "- [yincongcyincong/VictoriaMetrics-mcp-server](https://github.com/yincongcyincong/VictoriaMetrics-mcp-server) 🐍 🏠 - An MCP server for interacting with VictoriaMetrics database."
+        surrounding_text: >-
+          - [yincongcyincong/VictoriaMetrics-mcp-server](https://github.com/yincongcyincong/VictoriaMetrics-mcp-server)
+          🐍 🏠 - An MCP server for interacting with VictoriaMetrics database.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,18 @@ metadata:
     archived: false
     full_name: yincongcyincong/VictoriaMetrics-mcp-server
     html_url: https://github.com/yincongcyincong/VictoriaMetrics-mcp-server
-    created_at: "2025-04-12T06:38:23Z"
-    pushed_at: "2025-11-13T08:47:47Z"
+    created_at: '2025-04-12T06:38:23Z'
+    pushed_at: '2025-11-13T08:47:47Z'
     description: MCP Server for the VictoriaMetrics.
-    homepage: ""
+    homepage: ''
     topics:
       - mcp
       - mcp-server
       - metrics
       - victoriametrics
-    last_checked_at: "2026-07-21T15:21:21.020Z"
+    last_checked_at: '2026-07-21T15:21:21.020Z'
     readme:
-      fetched_at: "2026-07-21T15:21:21.020Z"
+      fetched_at: '2026-07-21T15:21:21.020Z'
       bytes: 4003
 insights:
   summary: An MCP server that exposes VictoriaMetrics database operations as Model Context Protocol tools.
@@ -54,32 +56,35 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server providing database tooling, making MCP its core identity rather than an extension or agent.
+  reason: >-
+    The product is an MCP server providing database tooling, making MCP its core identity rather than an extension or
+    agent.
   evidence:
-    - "Repo description: 'MCP Server for the VictoriaMetrics.'"
+    - 'Repo description: ''MCP Server for the VictoriaMetrics.'''
     - README provides MCP server installation via Smithery and lists MCP tools like vm_query_range and vm_data_write.
     - Listed in awesome-mcp-servers under Server Implementations > Databases.
     - Primary functionality exposes VictoriaMetrics operations as MCP tools, not as a coding assistant or extension.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.656Z"
+    updated_at: '2026-05-06T22:12:15.656Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:21.020Z"
+    updated_at: '2026-07-21T15:21:21.020Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:45:01.671Z"
+    updated_at: '2026-05-12T15:45:01.671Z'
     cause: null
     next_retry_at: null
     attempts: 1

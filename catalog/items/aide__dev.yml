@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__aide__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Aide
         extracted_url: https://aide.dev
-        surrounding_text: "- **[Aide](https://aide.dev/)** – Open-source AI-native IDE with proactive agents, built on top of VS Code."
+        surrounding_text: '- **[Aide](https://aide.dev/)** – Open-source AI-native IDE with proactive agents, built on top of VS Code.'
         confidence: high
 metadata:
   github:
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Aide is an AI-native developer tools lab focused on using inference-time scaling and agentic systems to automate software engineering tasks.
-  why_it_matters: It attempts to solve complex engineering problems by scaling computation during inference to achieve higher accuracy on benchmarks like SWE-bench.
-  mental_damage: Because apparently, the only way to fix your code is to give the model significantly more time to think about how much it messed up.
+  summary: >-
+    Aide is an AI-native developer tools lab focused on using inference-time scaling and agentic systems to automate
+    software engineering tasks.
+  why_it_matters: >-
+    It attempts to solve complex engineering problems by scaling computation during inference to achieve higher accuracy
+    on benchmarks like SWE-bench.
+  mental_damage: >-
+    Because apparently, the only way to fix your code is to give the model significantly more time to think about how
+    much it messed up.
   tags:
     - ai-agents
     - software-engineering
@@ -47,21 +53,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool is described as an agentic system for writing, debugging, and maintaining code, making it a direct coding agent.
+  reason: >-
+    The tool is described as an agentic system for writing, debugging, and maintaining code, making it a direct coding
+    agent.
   evidence:
     - Claims to resolve 62.2% of issues on swe-bench-verified
     - Focuses on 'how agentic systems can reshape the way software is written, debugged, and maintained'
     - Uses scaling test-time inference with Sonnet 3.5
 placement:
   primary_category: coding-agents
-  section: Review, Testing & Repair Agents
+  secondary_categories: []
+  section: IDE-Native & Editor Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.658Z"
+    updated_at: '2026-05-06T22:12:15.658Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +79,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:19:56.735Z"
+    updated_at: '2026-07-20T15:19:56.735Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -83,7 +92,9 @@ processing:
       input_hash: sha256:5ea2e258e50b3b45c9213f1a678fc0b3d2d5f668f9f2a4ee10a95dc391aa5e9e
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: The tool is described as an agentic system for writing, debugging, and maintaining code, making it a direct coding agent.
+      decision_reason: >-
+        The tool is described as an agentic system for writing, debugging, and maintaining code, making it a direct
+        coding agent.
       decision_evidence:
         - Claims to resolve 62.2% of issues on swe-bench-verified
         - Focuses on 'how agentic systems can reshape the way software is written, debugged, and maintained'
@@ -91,6 +102,8 @@ processing:
       category_candidates:
         - coding-agents
         - spec-driven-development
-      contrastive_reason: Choose coding-agents over spec-driven-development because the core value proposition is the agentic resolution of engineering issues rather than a spec-first development loop.
+      contrastive_reason: >-
+        Choose coding-agents over spec-driven-development because the core value proposition is the agentic resolution
+        of engineering issues rather than a spec-first development loop.
       review_reason: null
       review_resume_lifecycle: null

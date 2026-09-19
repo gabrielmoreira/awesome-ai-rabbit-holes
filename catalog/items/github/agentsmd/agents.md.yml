@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agentsmd__agents.md__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -19,7 +19,10 @@ provenance:
           - Standards
         anchor_text: agents.md
         extracted_url: https://github.com/agentsmd/agents.md
-        surrounding_text: "- [agents.md](https://github.com/agentsmd/agents.md) ![](https://img.shields.io/github/stars/agentsmd/agents.md.svg) - Markdown-based specification format for defining AI agent behaviors and capabilities."
+        surrounding_text: >-
+          - [agents.md](https://github.com/agentsmd/agents.md)
+          ![](https://img.shields.io/github/stars/agentsmd/agents.md.svg) - Markdown-based specification format for
+          defining AI agent behaviors and capabilities.
         confidence: high
 metadata:
   github:
@@ -29,18 +32,22 @@ metadata:
     archived: false
     full_name: agentsmd/agents.md
     html_url: https://github.com/agentsmd/agents.md
-    created_at: "2025-08-19T17:22:54Z"
-    pushed_at: "2026-09-10T18:46:16Z"
+    created_at: '2025-08-19T17:22:54Z'
+    pushed_at: '2026-09-10T18:46:16Z'
     description: AGENTS.md — a simple, open format for guiding coding agents
     homepage: https://agents.md
     topics: []
-    last_checked_at: "2026-09-17T04:13:33.719Z"
+    last_checked_at: '2026-09-17T04:13:33.719Z'
     readme:
-      fetched_at: "2026-09-17T04:13:33.719Z"
+      fetched_at: '2026-09-17T04:13:33.719Z'
       bytes: 2015
 insights:
-  summary: AGENTS.md is an open file format designed to provide predictable context and instructions to AI coding agents within a repository.
-  why_it_matters: It attempts to standardize how developers communicate environment tips, testing requirements, and PR guidelines directly to autonomous agents.
+  summary: >-
+    AGENTS.md is an open file format designed to provide predictable context and instructions to AI coding agents within
+    a repository.
+  why_it_matters: >-
+    It attempts to standardize how developers communicate environment tips, testing requirements, and PR guidelines
+    directly to autonomous agents.
   mental_damage: Because nothing says 'future-proofing' like writing a README specifically for a non-human reader.
   tags:
     - coding-agents
@@ -56,25 +63,25 @@ curation:
     - Includes explicit instructions for testing, dev environment, and PR protocols
     - Indexed in awesome-spec-driven-development
 placement:
-  primary_category: spec-driven-development
-  section: Planning / Task Decomposition
+  primary_category: coding-agents
+  section: Spec-First & Plan-Execute
 lifecycle:
   status: promotion_candidate
   reason: Stars (21036) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.600Z"
+    updated_at: '2026-05-06T22:12:15.600Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:33.719Z"
+    updated_at: '2026-09-17T04:13:33.719Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:04:26.867Z"
+    updated_at: '2026-07-20T16:04:26.867Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -87,7 +94,9 @@ processing:
       input_hash: sha256:bc03f59db52f9e4f0c7688c4353989254f1d423b6ac2ceb60e57d2ad6fa5e900
       proposed_primary_category: spec-driven-development
       disagreement: false
-      decision_reason: The project proposes a structured, spec-first artifact (AGENTS.md) meant to govern and guide agent execution loops.
+      decision_reason: >-
+        The project proposes a structured, spec-first artifact (AGENTS.md) meant to govern and guide agent execution
+        loops.
       decision_evidence:
         - README defines it as a 'imple, open format for guiding coding agents'
         - Includes explicit instructions for testing, dev environment, and PR protocols
@@ -95,6 +104,8 @@ processing:
       category_candidates:
         - spec-driven-development
         - skills
-      contrastive_reason: Choose spec-driven-development over skills because the project aims to establish a governing standard/spec for agent behavior rather than just being a collection of reusable prompt snippets.
+      contrastive_reason: >-
+        Choose spec-driven-development over skills because the project aims to establish a governing standard/spec for
+        agent behavior rather than just being a collection of reusable prompt snippets.
       review_reason: null
       review_resume_lifecycle: null

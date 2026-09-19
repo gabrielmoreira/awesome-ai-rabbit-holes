@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__polymarket-predictions-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/polymarket-predictions-mcp
         extracted_url: https://github.com/kukapay/polymarket-predictions-mcp
-        surrounding_text: "- [kukapay/polymarket-predictions-mcp](https://github.com/kukapay/polymarket-predictions-mcp) 🐍 ☁️ - An MCP server that delivers real-time market odds from Polymarket."
+        surrounding_text: >-
+          - [kukapay/polymarket-predictions-mcp](https://github.com/kukapay/polymarket-predictions-mcp) 🐍 ☁️ - An MCP
+          server that delivers real-time market odds from Polymarket.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: kukapay/polymarket-predictions-mcp
     html_url: https://github.com/kukapay/polymarket-predictions-mcp
-    created_at: "2025-09-23T08:30:36Z"
-    pushed_at: "2025-09-23T08:30:54Z"
+    created_at: '2025-09-23T08:30:36Z'
+    pushed_at: '2025-09-23T08:30:54Z'
     description: An MCP server that delivers real-time market odds from Polymarket.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:06:00.677Z"
+    last_checked_at: '2026-07-30T05:06:00.677Z'
     readme:
-      fetched_at: "2026-07-30T05:06:00.677Z"
+      fetched_at: '2026-07-30T05:06:00.677Z'
       bytes: 8223
 insights:
   summary: An MCP server that provides real-time Polymarket prediction market odds and data to AI agents.
-  why_it_matters: Developers can integrate live decentralized prediction data into agent workflows without building custom API clients.
+  why_it_matters: >-
+    Developers can integrate live decentralized prediction data into agent workflows without building custom API
+    clients.
   mental_damage: Now your AI can bet on the election while it’s debugging your code.
   tags:
     - mcp-server
@@ -51,31 +55,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose primary identity is delivering Polymarket data via MCP tools, fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is an MCP-first server whose primary identity is delivering Polymarket data via MCP tools, fitting the MCP
+    Servers & Tooling category.
   evidence:
     - Repo description explicitly states it is an MCP server for Polymarket odds
     - README details MCP tools (get_events, get_markets) and installation via MCP CLI
     - Project is actively maintained (created and pushed same day, not archived)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:00.677Z"
+    updated_at: '2026-07-30T05:06:00.677Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:14:09.795Z"
+    updated_at: '2026-07-21T16:14:09.795Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +95,9 @@ processing:
       input_hash: sha256:69d8199b827ac3adc54ea2273607b86e77faa45bd5635f7f8f69f35d30b755f3
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server whose primary identity is delivering Polymarket data via MCP tools, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is an MCP-first server whose primary identity is delivering Polymarket data via MCP tools, fitting the MCP
+        Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Polymarket odds
         - README details MCP tools (get_events, get_markets) and installation via MCP CLI
@@ -96,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is an MCP server, not an extension augmenting
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

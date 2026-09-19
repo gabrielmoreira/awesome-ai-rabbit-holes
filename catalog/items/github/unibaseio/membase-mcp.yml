@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__unibaseio__membase-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: unibaseio/membase-mcp
         extracted_url: https://github.com/unibaseio/membase-mcp
-        surrounding_text: "- [unibaseio/membase-mcp](https://github.com/unibaseio/membase-mcp) 📇 ☁️ - Save and query your agent memory in distributed way by Membase"
+        surrounding_text: >-
+          - [unibaseio/membase-mcp](https://github.com/unibaseio/membase-mcp) 📇 ☁️ - Save and query your agent memory
+          in distributed way by Membase
         confidence: high
 metadata:
   github:
@@ -30,19 +32,27 @@ metadata:
     archived: false
     full_name: unibaseio/membase-mcp
     html_url: https://github.com/unibaseio/membase-mcp
-    created_at: "2025-03-31T03:54:26Z"
-    pushed_at: "2025-05-14T09:48:27Z"
-    description: A lightweight decentralized memory gateway that connects AI agents to Membase for persistent, verifiable multi-session memory.
+    created_at: '2025-03-31T03:54:26Z'
+    pushed_at: '2025-05-14T09:48:27Z'
+    description: >-
+      A lightweight decentralized memory gateway that connects AI agents to Membase for persistent, verifiable
+      multi-session memory.
     homepage: https://unibase.com
     topics: []
-    last_checked_at: "2026-07-21T15:20:58.706Z"
+    last_checked_at: '2026-07-21T15:20:58.706Z'
     readme:
-      fetched_at: "2026-07-21T15:20:58.706Z"
+      fetched_at: '2026-07-21T15:20:58.706Z'
       bytes: 1873
 insights:
-  summary: Membase MCP is a lightweight decentralized memory gateway that connects AI agents to the Membase protocol for persistent, verifiable multi-session memory.
-  why_it_matters: It gives AI agents persistent, tamper-evident memory across sessions using decentralized storage, enabling long-term context continuity without vendor lock-in.
-  mental_damage: Another MCP server promising agent memory continuity while developers still can’t get their IDE to remember where they left off yesterday.
+  summary: >-
+    Membase MCP is a lightweight decentralized memory gateway that connects AI agents to the Membase protocol for
+    persistent, verifiable multi-session memory.
+  why_it_matters: >-
+    It gives AI agents persistent, tamper-evident memory across sessions using decentralized storage, enabling long-term
+    context continuity without vendor lock-in.
+  mental_damage: >-
+    Another MCP server promising agent memory continuity while developers still can’t get their IDE to remember where
+    they left off yesterday.
   tags:
     - mcp
     - memory
@@ -50,31 +60,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Membase MCP is an MCP server whose core identity is providing Model Context Protocol access to a decentralized memory layer, making MCP the primary product rather than a compatibility feature.
+  reason: >-
+    Membase MCP is an MCP server whose core identity is providing Model Context Protocol access to a decentralized
+    memory layer, making MCP the primary product rather than a compatibility feature.
   evidence:
-    - "Repo description: 'A lightweight decentralized memory gateway that connects AI agents to Membase for persistent, verifiable multi-session memory.'"
-    - "README: Explicitly calls itself 'Membase mcp server' and provides MCP server functions like get_conversation_id, save_message, and get_messages."
-    - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory."
+    - >-
+      Repo description: 'A lightweight decentralized memory gateway that connects AI agents to Membase for persistent,
+      verifiable multi-session memory.'
+    - >-
+      README: Explicitly calls itself 'Membase mcp server' and provides MCP server functions like get_conversation_id,
+      save_message, and get_messages.
+    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory.'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.653Z"
+    updated_at: '2026-05-06T22:12:15.653Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:58.706Z"
+    updated_at: '2026-07-21T15:20:58.706Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:18:12.255Z"
+    updated_at: '2026-05-12T15:18:12.255Z'
     cause: null
     next_retry_at: null
     attempts: 1

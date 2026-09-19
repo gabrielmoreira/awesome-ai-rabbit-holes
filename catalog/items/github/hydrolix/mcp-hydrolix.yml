@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hydrolix__mcp-hydrolix__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: hydrolix/mcp-hydrolix
         extracted_url: https://github.com/hydrolix/mcp-hydrolix
-        surrounding_text: "- [hydrolix/mcp-hydrolix](https://github.com/hydrolix/mcp-hydrolix) 🎖️ 🐍 ☁️ - Hydrolix time-series datalake integration providing schema exploration and query capabilities to LLM-based workflows."
+        surrounding_text: >-
+          - [hydrolix/mcp-hydrolix](https://github.com/hydrolix/mcp-hydrolix) 🎖️ 🐍 ☁️ - Hydrolix time-series datalake
+          integration providing schema exploration and query capabilities to LLM-based workflows.
         confidence: high
     - id: discovery__github__hydrolix__mcp-hydrolix__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +37,9 @@ provenance:
           - Official Servers
         anchor_text: Hydrolix
         extracted_url: https://github.com/hydrolix/mcp-hydrolix
-        surrounding_text: "- **[Hydrolix](https://github.com/hydrolix/mcp-hydrolix)** - Hydrolix time-series datalake integration providing schema exploration and query capabilities to LLM-based workflows."
+        surrounding_text: >-
+          - **[Hydrolix](https://github.com/hydrolix/mcp-hydrolix)** - Hydrolix time-series datalake integration
+          providing schema exploration and query capabilities to LLM-based workflows.
         confidence: high
 metadata:
   github:
@@ -45,19 +49,23 @@ metadata:
     archived: false
     full_name: hydrolix/mcp-hydrolix
     html_url: https://github.com/hydrolix/mcp-hydrolix
-    created_at: "2025-04-08T00:12:00Z"
-    pushed_at: "2026-07-27T21:44:28Z"
+    created_at: '2025-04-08T00:12:00Z'
+    pushed_at: '2026-07-27T21:44:28Z'
     description: An MCP server for Hydrolix
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:40.830Z"
+    last_checked_at: '2026-07-30T05:05:40.830Z'
     readme:
-      fetched_at: "2026-07-30T05:05:40.829Z"
+      fetched_at: '2026-07-30T05:05:40.829Z'
       bytes: 16920
 insights:
   summary: An MCP server that exposes Hydrolix database operations as tools for AI assistants.
-  why_it_matters: Lets developers query and explore Hydrolix databases directly from Claude Desktop or Code via MCP, turning database interactions into conversational workflows.
-  mental_damage: Now your AI assistant can run SQL queries on your logs, which means you’ll finally have someone to blame when the query times out.
+  why_it_matters: >-
+    Lets developers query and explore Hydrolix databases directly from Claude Desktop or Code via MCP, turning database
+    interactions into conversational workflows.
+  mental_damage: >-
+    Now your AI assistant can run SQL queries on your logs, which means you’ll finally have someone to blame when the
+    query times out.
   tags:
     - mcp-server
     - database
@@ -67,31 +75,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: it is a dedicated server implementing the Model Context Protocol to expose Hydrolix database capabilities."
+  reason: >-
+    MCP is the product identity here: it is a dedicated server implementing the Model Context Protocol to expose
+    Hydrolix database capabilities.
   evidence:
     - Repo description explicitly states 'An MCP server for Hydrolix'
-    - README details MCP server setup for Claude Desktop/Code with Hydrolix-specific tools (list_databases, run_select_query, etc.)
+    - >-
+      README details MCP server setup for Claude Desktop/Code with Hydrolix-specific tools (list_databases,
+      run_select_query, etc.)
     - Already listed in awesome-mcp-servers under 'Server Implementations > Databases'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.587Z"
+    updated_at: '2026-05-06T22:12:15.587Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:40.830Z"
+    updated_at: '2026-07-30T05:05:40.830Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:07:11.896Z"
+    updated_at: '2026-07-21T16:07:11.896Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,14 +117,20 @@ processing:
       input_hash: sha256:42f9c3374fcfa4cd251d8b2a79c6cb2b4719f0c31adde29bb62985a49331d383
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: it is a dedicated server implementing the Model Context Protocol to expose Hydrolix database capabilities."
+      decision_reason: >-
+        MCP is the product identity here: it is a dedicated server implementing the Model Context Protocol to expose
+        Hydrolix database capabilities.
       decision_evidence:
         - Repo description explicitly states 'An MCP server for Hydrolix'
-        - README details MCP server setup for Claude Desktop/Code with Hydrolix-specific tools (list_databases, run_select_query, etc.)
+        - >-
+          README details MCP server setup for Claude Desktop/Code with Hydrolix-specific tools (list_databases,
+          run_select_query, etc.)
         - Already listed in awesome-mcp-servers under 'Server Implementations > Databases'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension augmenting another assistant), and MCP is its primary identity.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension augmenting another
+        assistant), and MCP is its primary identity.
       review_reason: null
       review_resume_lifecycle: null

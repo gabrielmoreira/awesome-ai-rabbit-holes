@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pazi__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-06-18T05:40:04.065Z"
+      discovered_at: '2026-06-18T05:40:04.065Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Coding Agents
         anchor_text: Pythagora
         extracted_url: https://pythagora.ai
-        surrounding_text: "- **[Pythagora](https://pythagora.ai/)** – AI agent that builds apps through conversational interaction."
+        surrounding_text: '- **[Pythagora](https://pythagora.ai/)** – AI agent that builds apps through conversational interaction.'
         confidence: high
 metadata:
   github:
@@ -35,8 +35,12 @@ metadata:
     readme: null
 insights:
   summary: An AI coding agent designed for automating software development tasks.
-  why_it_matters: It aims to streamline the development lifecycle by providing an autonomous agent capable of handling complex coding tasks.
-  mental_damage: Another agent to manage, because the only thing missing from my workflow was another black box that might accidentally rewrite my entire auth layer.
+  why_it_matters: >-
+    It aims to streamline the development lifecycle by providing an autonomous agent capable of handling complex coding
+    tasks.
+  mental_damage: >-
+    Another agent to manage, because the only thing missing from my workflow was another black box that might
+    accidentally rewrite my entire auth layer.
   tags:
     - coding-agent
     - automation
@@ -48,17 +52,20 @@ curation:
   evidence:
     - Included in awesome-ai-agents under 'Coding Agents'
     - Marketed as an AI agent for software development automation
-    - Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct code collaboration.
+    - >-
+      Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct code
+      collaboration.
 placement:
-  primary_category: app-builders
-  section: null
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Autonomous & Multi-Agent Coding
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-18T05:40:04.066Z"
+    updated_at: '2026-06-18T05:40:04.066Z'
     cause: null
     next_retry_at: null
   stars:
@@ -67,7 +74,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-06-18T05:43:07.057Z"
+    updated_at: '2026-06-18T05:43:07.057Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

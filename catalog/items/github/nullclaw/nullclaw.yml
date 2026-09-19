@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nullclaw__nullclaw__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - OpenClaw ecosystem
         anchor_text: NullClaw
         extracted_url: https://github.com/nullclaw/nullclaw
-        surrounding_text: "- **[NullClaw](https://github.com/nullclaw/nullclaw)** `⭐ 7.4k` — Fastest, smallest OpenClaw-compatible agent in Zig; 678KB static binary, ~1MB RAM, <2ms startup, 23+ providers, 18 channels. MIT."
+        surrounding_text: >-
+          - **[NullClaw](https://github.com/nullclaw/nullclaw)** `⭐ 7.4k` — Fastest, smallest OpenClaw-compatible agent
+          in Zig; 678KB static binary, ~1MB RAM, <2ms startup, 23+ providers, 18 channels. MIT.
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: nullclaw/nullclaw
     html_url: https://github.com/nullclaw/nullclaw
-    created_at: "2026-02-16T21:17:27Z"
-    pushed_at: "2026-07-19T04:20:06Z"
+    created_at: '2026-02-16T21:17:27Z'
+    pushed_at: '2026-07-19T04:20:06Z'
     description: Fastest, smallest, and fully autonomous AI assistant infrastructure written in Zig
     homepage: https://nullclaw.io
     topics:
@@ -39,14 +41,18 @@ metadata:
       - assistant
       - personal
       - zig
-    last_checked_at: "2026-07-20T16:42:20.931Z"
+    last_checked_at: '2026-07-20T16:42:20.931Z'
     readme:
-      fetched_at: "2026-07-20T16:42:20.931Z"
+      fetched_at: '2026-07-20T16:42:20.931Z'
       bytes: 42069
 insights:
   summary: A high-performance, autonomous AI assistant infrastructure written in Zig with a minimal memory footprint.
-  why_it_matters: It provides a lightweight, standalone binary for running autonomous AI agents on resource-constrained hardware and edge devices.
-  mental_damage: Now you can finally run an autonomous agent on a $5 board without the entire OS collapsing under the weight of a Python runtime.
+  why_it_matters: >-
+    It provides a lightweight, standalone binary for running autonomous AI agents on resource-constrained hardware and
+    edge devices.
+  mental_damage: >-
+    Now you can finally run an autonomous agent on a $5 board without the entire OS collapsing under the weight of a
+    Python runtime.
   tags:
     - zig
     - autonomous-agents
@@ -63,6 +69,7 @@ curation:
     - Provides a single static binary for terminal/CLI usage
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -70,17 +77,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.633Z"
+    updated_at: '2026-05-06T22:12:15.633Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:20.931Z"
+    updated_at: '2026-07-20T16:42:20.931Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:43:58.416Z"
+    updated_at: '2026-07-20T16:43:58.416Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -93,7 +100,9 @@ processing:
       input_hash: sha256:ff150a9eb6e48abc937e0d237a7341061a3778d661ab1a8129c399f69d91f5a1
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: It is a standalone, autonomous terminal-native assistant infrastructure rather than a mere integration or extension.
+      decision_reason: >-
+        It is a standalone, autonomous terminal-native assistant infrastructure rather than a mere integration or
+        extension.
       decision_evidence:
         - 7798 stars indicating significant ecosystem traction
         - Claims to be 'fully autonomous AI assistant infrastructure'
@@ -101,6 +110,8 @@ processing:
       category_candidates:
         - coding-agents
         - local-ai
-      contrastive_reason: Choose coding-agents over local-ai because the product identity is centered on autonomous assistant functionality and task execution rather than being a model serving runtime like Ollama.
+      contrastive_reason: >-
+        Choose coding-agents over local-ai because the product identity is centered on autonomous assistant
+        functionality and task execution rather than being a model serving runtime like Ollama.
       review_reason: null
       review_resume_lifecycle: null

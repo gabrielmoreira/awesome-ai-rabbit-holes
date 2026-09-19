@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__eliasfire617__crypto-market-data-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: eliasfire617/crypto-market-data-mcp
         extracted_url: https://github.com/eliasfire617/crypto-market-data-mcp
-        surrounding_text: "- [eliasfire617/crypto-market-data-mcp](https://github.com/eliasfire617/crypto-market-data-mcp) [![eliasfire617/crypto-market-data-mcp MCP server](https://glama.ai/mcp/servers/eliasfire617/crypto-market-data-mcp/badges/score.svg)](https://glama.ai/mcp/servers/eliasfire617/crypto-market-data-mcp) 🐍 ☁️ - Live crypto market data — price, funding rates, open interest, long/short ratio, order book, candles — across Bybit, Binance, OKX, Hyperliquid, Gate, KuCoin via CCXT, with funding-rate arbitrage comparison."
+        surrounding_text: >-
+          - [eliasfire617/crypto-market-data-mcp](https://github.com/eliasfire617/crypto-market-data-mcp)
+          [![eliasfire617/crypto-market-data-mcp MCP
+          server](https://glama.ai/mcp/servers/eliasfire617/crypto-market-data-mcp/badges/score.svg)](https://glama.ai/mcp/servers/eliasfire617/crypto-market-data-mcp)
+          🐍 ☁️ - Live crypto market data — price, funding rates, open interest, long/short ratio, order book, candles —
+          across Bybit, Binance, OKX, Hyperliquid, Gate, KuCoin via CCXT, with funding-rate arbitrage comparison.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: eliasfire617/crypto-market-data-mcp
     html_url: https://github.com/eliasfire617/crypto-market-data-mcp
-    created_at: "2026-06-09T20:43:00Z"
-    pushed_at: "2026-06-10T17:03:36Z"
-    description: Read-only crypto market data MCP server (price, funding rates, open interest, long/short, order book, candles) across major exchanges via CCXT.
+    created_at: '2026-06-09T20:43:00Z'
+    pushed_at: '2026-06-10T17:03:36Z'
+    description: >-
+      Read-only crypto market data MCP server (price, funding rates, open interest, long/short, order book, candles)
+      across major exchanges via CCXT.
     homepage: null
     topics:
       - ai-agents
@@ -43,14 +50,18 @@ metadata:
       - mcp
       - model-context-protocol
       - trading
-    last_checked_at: "2026-08-27T09:23:22.962Z"
+    last_checked_at: '2026-08-27T09:23:22.962Z'
     readme:
-      fetched_at: "2026-08-27T09:23:22.962Z"
+      fetched_at: '2026-08-27T09:23:22.962Z'
       bytes: 5540
 insights:
   summary: A read-only MCP server that provides real-time cryptocurrency market data across 100+ exchanges via CCXT.
-  why_it_matters: It allows AI agents to perform live market analysis and funding-rate arbitrage calculations without requiring the developer to write custom API glue code for every exchange.
-  mental_damage: The dream of automated arbitrage is now just one MCP server away from turning your coding agent into a high-frequency trading bot that loses your money in a more 'agentic' way.
+  why_it_matters: >-
+    It allows AI agents to perform live market analysis and funding-rate arbitrage calculations without requiring the
+    developer to write custom API glue code for every exchange.
+  mental_damage: >-
+    The dream of automated arbitrage is now just one MCP server away from turning your coding agent into a
+    high-frequency trading bot that loses your money in a more 'agentic' way.
   tags:
     - mcp
     - crypto
@@ -67,26 +78,27 @@ curation:
     - Included in 'awesome-mcp-servers' under Finance & Fintech
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-15T05:51:04.988Z"
+    updated_at: '2026-06-15T05:51:04.988Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-14T04:13:48.180Z"
+    updated_at: '2026-09-14T04:13:48.180Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for eliasfire617/crypto-market-data-mcp
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-25T05:26:47.253Z"
+    updated_at: '2026-06-25T05:26:47.253Z'
     cause: null
     next_retry_at: null
     attempts: 1

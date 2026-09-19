@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ndthanhdev__mcp-browser-kit__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: ndthanhdev/mcp-browser-kit
         extracted_url: https://github.com/ndthanhdev/mcp-browser-kit
-        surrounding_text: "- [ndthanhdev/mcp-browser-kit](https://github.com/ndthanhdev/mcp-browser-kit) 📇 🏠 - An MCP Server that enables AI assistants to interact with your local browsers."
+        surrounding_text: >-
+          - [ndthanhdev/mcp-browser-kit](https://github.com/ndthanhdev/mcp-browser-kit) 📇 🏠 - An MCP Server that
+          enables AI assistants to interact with your local browsers.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,25 @@ metadata:
     archived: false
     full_name: ndthanhdev/mcp-browser-kit
     html_url: https://github.com/ndthanhdev/mcp-browser-kit
-    created_at: "2025-04-01T21:37:58Z"
-    pushed_at: "2026-07-20T06:40:52Z"
+    created_at: '2025-04-01T21:37:58Z'
+    pushed_at: '2026-07-20T06:40:52Z'
     description: An MCP Server that enables AI assistants to interact with your local browsers.
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-20T15:12:01.077Z"
+    last_checked_at: '2026-07-20T15:12:01.077Z'
     readme:
-      fetched_at: "2026-07-20T15:12:01.077Z"
+      fetched_at: '2026-07-20T15:12:01.077Z'
       bytes: 4539
 insights:
-  summary: An MCP server combined with a browser extension that lets AI assistants control and interact with your local browsers via the Model Context Protocol.
-  why_it_matters: It gives coding agents and MCP clients direct access to browser automation without requiring developers to wire up separate Playwright or Selenium bridges.
-  mental_damage: Your AI can now star repositories and click through tabs on its own, which is either a massive productivity unlock or the opening scene of a very mundane sci-fi thriller.
+  summary: >-
+    An MCP server combined with a browser extension that lets AI assistants control and interact with your local
+    browsers via the Model Context Protocol.
+  why_it_matters: >-
+    It gives coding agents and MCP clients direct access to browser automation without requiring developers to wire up
+    separate Playwright or Selenium bridges.
+  mental_damage: >-
+    Your AI can now star repositories and click through tabs on its own, which is either a massive productivity unlock
+    or the opening scene of a very mundane sci-fi thriller.
   tags:
     - mcp
     - browser-automation
@@ -51,35 +59,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server with a companion browser extension, making it a textbook fit for the MCP Servers & Tooling category.
+  reason: >-
+    The product's core identity is an MCP server with a companion browser extension, making it a textbook fit for the
+    MCP Servers & Tooling category.
   evidence:
-    - "Repo description explicitly states: 'An MCP Server that enables AI assistants to interact with your local browsers.'"
+    - >-
+      Repo description explicitly states: 'An MCP Server that enables AI assistants to interact with your local
+      browsers.'
     - Listed in awesome-mcp-servers under 'Browser Automation' as a server implementation.
     - Usage instructions show adding it as an MCP server entry to an MCP client config.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.632Z"
+    updated_at: '2026-05-06T22:12:15.632Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:12:01.077Z"
+    updated_at: '2026-07-20T15:12:01.077Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

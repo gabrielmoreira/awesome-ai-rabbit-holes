@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gorosun__unified-diff-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: gorosun/unified-diff-mcp
         extracted_url: https://github.com/gorosun/unified-diff-mcp
-        surrounding_text: "- [gorosun/unified-diff-mcp](https://github.com/gorosun/unified-diff-mcp) 📇 🏠 - Generate and visualize unified diff comparisons with beautiful HTML/PNG output, supporting side-by-side and line-by-line views for filesystem dry-run integration"
+        surrounding_text: >-
+          - [gorosun/unified-diff-mcp](https://github.com/gorosun/unified-diff-mcp) 📇 🏠 - Generate and visualize
+          unified diff comparisons with beautiful HTML/PNG output, supporting side-by-side and line-by-line views for
+          filesystem dry-run integration
         confidence: high
     - id: discovery__github__gorosun__unified-diff-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +38,10 @@ provenance:
           - Community Servers
         anchor_text: Unified Diff MCP Server
         extracted_url: https://github.com/gorosun/unified-diff-mcp
-        surrounding_text: "- **[Unified Diff MCP Server](https://github.com/gorosun/unified-diff-mcp)** - Beautiful HTML and PNG diff visualization using diff2html, designed for filesystem edit_file dry-run output with high-performance Bun runtime."
+        surrounding_text: >-
+          - **[Unified Diff MCP Server](https://github.com/gorosun/unified-diff-mcp)** - Beautiful HTML and PNG diff
+          visualization using diff2html, designed for filesystem edit_file dry-run output with high-performance Bun
+          runtime.
         confidence: high
 metadata:
   github:
@@ -45,19 +51,23 @@ metadata:
     archived: false
     full_name: gorosun/unified-diff-mcp
     html_url: https://github.com/gorosun/unified-diff-mcp
-    created_at: "2025-05-25T06:45:00Z"
-    pushed_at: "2025-06-02T05:45:03Z"
+    created_at: '2025-05-25T06:45:00Z'
+    pushed_at: '2025-06-02T05:45:03Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:52.658Z"
+    last_checked_at: '2026-09-03T05:16:52.658Z'
     readme:
-      fetched_at: "2026-09-03T05:16:52.658Z"
+      fetched_at: '2026-09-03T05:16:52.658Z'
       bytes: 8658
 insights:
   summary: An MCP server that visualizes code diffs as HTML or images with GitHub Gist integration for Claude Desktop.
-  why_it_matters: Developers can instantly turn unified diffs into shareable, visually rich comparisons directly from their AI assistant workflow.
-  mental_damage: Now you can argue about code changes in full color, with auto-deleting gists that vanish before your PR review can catch up.
+  why_it_matters: >-
+    Developers can instantly turn unified diffs into shareable, visually rich comparisons directly from their AI
+    assistant workflow.
+  mental_damage: >-
+    Now you can argue about code changes in full color, with auto-deleting gists that vanish before your PR review can
+    catch up.
   tags:
     - mcp-server
     - diff-visualization
@@ -67,31 +77,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose core identity is providing diff visualization capabilities via the Model Context Protocol.
+  reason: >-
+    This is an MCP-first server whose core identity is providing diff visualization capabilities via the Model Context
+    Protocol.
   evidence:
     - README explicitly identifies it as an MCP server for Claude Desktop
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
     - Provides MCP tools like visualize_diff_html_content and visualize_diff_output_file
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.586Z"
+    updated_at: '2026-05-06T22:12:15.586Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:52.658Z"
+    updated_at: '2026-09-03T05:16:52.658Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:03:50.407Z"
+    updated_at: '2026-07-21T16:03:50.407Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,7 +117,9 @@ processing:
       input_hash: sha256:cbeee95a58b05dfecc5c827c6d7850602d81a9cd2bbc7e6bdeb7a2c8093fbdb1
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server whose core identity is providing diff visualization capabilities via the Model Context Protocol.
+      decision_reason: >-
+        This is an MCP-first server whose core identity is providing diff visualization capabilities via the Model
+        Context Protocol.
       decision_evidence:
         - README explicitly identifies it as an MCP server for Claude Desktop
         - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
@@ -112,6 +127,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server rather than a general extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server rather than a
+        general extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

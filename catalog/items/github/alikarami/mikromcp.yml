@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alikarami__mikromcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: AliKarami/MikroMCP
         extracted_url: https://github.com/alikarami/mikromcp
-        surrounding_text: "- [AliKarami/MikroMCP](https://github.com/AliKarami/MikroMCP) [![AliKarami/MikroMCP MCP server](https://glama.ai/mcp/servers/AliKarami/MikroMCP/badges/score.svg)](https://glama.ai/mcp/servers/AliKarami/MikroMCP) 📇 🏠 🍎 🪟 🐧 - Manage MikroTik RouterOS devices through AI assistants — interfaces, firewall rules, DHCP, DNS, routes, WireGuard, WiFi, BGP/OSPF, VLANs, and more. 77 tools with dry-run previews, idempotency checks, circuit breakers, RBAC, and rollback-aware change workflows."
+        surrounding_text: >-
+          - [AliKarami/MikroMCP](https://github.com/AliKarami/MikroMCP) [![AliKarami/MikroMCP MCP
+          server](https://glama.ai/mcp/servers/AliKarami/MikroMCP/badges/score.svg)](https://glama.ai/mcp/servers/AliKarami/MikroMCP)
+          📇 🏠 🍎 🪟 🐧 - Manage MikroTik RouterOS devices through AI assistants — interfaces, firewall rules, DHCP,
+          DNS, routes, WireGuard, WiFi, BGP/OSPF, VLANs, and more. 77 tools with dry-run previews, idempotency checks,
+          circuit breakers, RBAC, and rollback-aware change workflows.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: AliKarami/MikroMCP
     html_url: https://github.com/AliKarami/MikroMCP
-    created_at: "2026-04-21T20:13:26Z"
-    pushed_at: "2026-09-06T08:54:10Z"
+    created_at: '2026-04-21T20:13:26Z'
+    pushed_at: '2026-09-06T08:54:10Z'
     description: Production-grade MCP server for MikroTik RouterOS with secure AI-native network automation.
     homepage: https://mikromcp.com/
     topics:
@@ -53,14 +58,18 @@ metadata:
       - ros7
       - routeros
       - routeros7
-    last_checked_at: "2026-09-17T04:13:41.171Z"
+    last_checked_at: '2026-09-17T04:13:41.171Z'
     readme:
-      fetched_at: "2026-09-17T04:13:41.171Z"
+      fetched_at: '2026-09-17T04:13:41.171Z'
       bytes: 14253
 insights:
   summary: An MCP server that enables AI agents to inspect, diagnose, and manage MikroTik RouterOS network infrastructure.
-  why_it_matters: It provides a safe, schema-validated bridge for LLMs to automate network configuration and troubleshooting using features like dry-runs, rollbacks, and RBAC.
-  mental_damage: Giving an LLM the keys to your production network infrastructure is exactly the kind of high-stakes automation anxiety we've come to expect.
+  why_it_matters: >-
+    It provides a safe, schema-validated bridge for LLMs to automate network configuration and troubleshooting using
+    features like dry-runs, rollbacks, and RBAC.
+  mental_damage: >-
+    Giving an LLM the keys to your production network infrastructure is exactly the kind of high-stakes automation
+    anxiety we've come to expect.
   tags:
     - mcp
     - devops
@@ -70,31 +79,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is a domain-specific MCP server designed to expose network capabilities to AI assistants.
+  reason: >-
+    The project's primary identity is a domain-specific MCP server designed to expose network capabilities to AI
+    assistants.
   evidence:
     - Repo description defines it as a 'Production-grade MCP server for MikroTik RouterOS'.
-    - README explicitly states it exposes RouterOS as a Model Context Protocol server for Claude, Cursor, and other clients.
+    - >-
+      README explicitly states it exposes RouterOS as a Model Context Protocol server for Claude, Cursor, and other
+      clients.
     - Includes safety-oriented automation features like idempotent writes, dry-runs, and circuit breakers.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.818Z"
+    updated_at: '2026-05-28T05:28:09.818Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:41.171Z"
+    updated_at: '2026-09-17T04:13:41.171Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-28T05:35:14.586Z"
+    updated_at: '2026-05-28T05:35:14.586Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

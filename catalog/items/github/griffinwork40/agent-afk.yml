@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__griffinwork40__agent-afk__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-07-02T05:22:20.470Z"
+      discovered_at: '2026-07-02T05:22:20.470Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,13 @@ provenance:
           - Session managers & parallel runners
         anchor_text: Agent AFK
         extracted_url: https://github.com/griffinwork40/agent-afk
-        surrounding_text: "- **[Agent AFK](https://github.com/griffinwork40/agent-afk)** `⭐ 38` — Coding-agent harness built for unattended, away-from-keyboard runs across four surfaces sharing one session manager: one-shot CLI, REPL, cron-friendly headless daemon, and a Telegram bot. Editable agent loop (prompts, permission gates, model routing, explicit terminal states), MCP (stdio/HTTP/SSE + OAuth), lifecycle hooks, background subagents, plan mode, cross-session memory, and an append-only trace receipt (`afk trace show`). Works with Anthropic and any OpenAI-compatible endpoint (GPT, Codex, local MLX/llama.cpp/Ollama). npm `agent-afk`, Node ≥22. Apache-2.0."
+        surrounding_text: >-
+          - **[Agent AFK](https://github.com/griffinwork40/agent-afk)** `⭐ 38` — Coding-agent harness built for
+          unattended, away-from-keyboard runs across four surfaces sharing one session manager: one-shot CLI, REPL,
+          cron-friendly headless daemon, and a Telegram bot. Editable agent loop (prompts, permission gates, model
+          routing, explicit terminal states), MCP (stdio/HTTP/SSE + OAuth), lifecycle hooks, background subagents, plan
+          mode, cross-session memory, and an append-only trace receipt (`afk trace show`). Works with Anthropic and any
+          OpenAI-compatible endpoint (GPT, Codex, local MLX/llama.cpp/Ollama). npm `agent-afk`, Node ≥22. Apache-2.0.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: griffinwork40/agent-afk
     html_url: https://github.com/griffinwork40/agent-afk
-    created_at: "2026-06-05T10:42:23Z"
-    pushed_at: "2026-09-03T03:10:41Z"
-    description: Start a run in your terminal and walk away. Get pinged when it finishes, or needs you. Every step is a readable trace you check before anything ships.
+    created_at: '2026-06-05T10:42:23Z'
+    pushed_at: '2026-09-03T03:10:41Z'
+    description: >-
+      Start a run in your terminal and walk away. Get pinged when it finishes, or needs you. Every step is a readable
+      trace you check before anything ships.
     homepage: https://docs.agentafk.com
     topics:
       - afk
@@ -55,14 +63,20 @@ metadata:
       - subagent
       - telegram-bot
       - typescript
-    last_checked_at: "2026-09-03T05:16:55.163Z"
+    last_checked_at: '2026-09-03T05:16:55.163Z'
     readme:
-      fetched_at: "2026-09-03T05:16:55.163Z"
+      fetched_at: '2026-09-03T05:16:55.163Z'
       bytes: 15277
 insights:
-  summary: An open-source coding-agent harness that wraps existing agents like Claude Code to provide custom execution loops, background daemon modes, and persistent state.
-  why_it_matters: It allows developers to turn short-lived CLI sessions into long-running, auditable background processes with custom safety gates and external notifications.
-  mental_damage: Finally, a way to walk away from your desk while a terminal agent takes turns making expensive mistakes in the background.
+  summary: >-
+    An open-source coding-agent harness that wraps existing agents like Claude Code to provide custom execution loops,
+    background daemon modes, and persistent state.
+  why_it_matters: >-
+    It allows developers to turn short-lived CLI sessions into long-running, auditable background processes with custom
+    safety gates and external notifications.
+  mental_damage: >-
+    Finally, a way to walk away from your desk while a terminal agent takes turns making expensive mistakes in the
+    background.
   tags:
     - cli
     - coding-agents
@@ -72,31 +86,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It functions as a primary terminal-native coding assistant/harness that manages the execution loop of models like Claude Code.
+  reason: >-
+    It functions as a primary terminal-native coding assistant/harness that manages the execution loop of models like
+    Claude Code.
   evidence:
     - README describes it as an 'open-source coding-agent harness' with its own REPL and daemon modes
     - Provides full tool access (Bash, file ops, web fetch) and handles task decomposition via slash commands
     - Features a standalone CLI interface (`afk chat`, `afk daemon`)
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-02T05:22:20.471Z"
+    updated_at: '2026-07-02T05:22:20.471Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:55.163Z"
+    updated_at: '2026-09-03T05:16:55.163Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-13T05:15:56.013Z"
+    updated_at: '2026-07-13T05:15:56.013Z'
     cause: null
     next_retry_at: null
     attempts: 3

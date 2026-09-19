@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mudler__localai__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -19,10 +19,12 @@ provenance:
           - Inference UI
         anchor_text: LocalAI
         extracted_url: https://github.com/go-skynet/localai
-        surrounding_text: "- [LocalAI](https://github.com/go-skynet/LocalAI) - LocalAI is a drop-in replacement REST API that’s compatible with OpenAI API specifications for local inferencing."
+        surrounding_text: >-
+          - [LocalAI](https://github.com/go-skynet/LocalAI) - LocalAI is a drop-in replacement REST API that’s
+          compatible with OpenAI API specifications for local inferencing.
         confidence: high
     - id: discovery__github__mudler__localai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,10 +36,12 @@ provenance:
           - Local LLM Tools
         anchor_text: LocalAI
         extracted_url: https://localai.io
-        surrounding_text: "- **[LocalAI](https://localai.io/)** – Open-source OpenAI-compatible API for running models locally without GPU."
+        surrounding_text: >-
+          - **[LocalAI](https://localai.io/)** – Open-source OpenAI-compatible API for running models locally without
+          GPU.
         confidence: high
     - id: discovery__github__mudler__localai__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -49,7 +53,10 @@ provenance:
           - 推理 Inference
         anchor_text: LocalAI
         extracted_url: https://github.com/mudler/localai
-        surrounding_text: "44. [LocalAI](https://github.com/mudler/LocalAI): The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI, running on consumer-grade hardware. No GPU required."
+        surrounding_text: >-
+          44. [LocalAI](https://github.com/mudler/LocalAI): The free, Open Source alternative to OpenAI, Claude and
+          others. Self-hosted and local-first. Drop-in replacement for OpenAI, running on consumer-grade hardware. No
+          GPU required.
         confidence: high
 metadata:
   github:
@@ -59,9 +66,11 @@ metadata:
     archived: false
     full_name: mudler/LocalAI
     html_url: https://github.com/mudler/LocalAI
-    created_at: "2023-03-18T22:58:02Z"
-    pushed_at: "2026-08-03T04:12:19Z"
-    description: LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.
+    created_at: '2023-03-18T22:58:02Z'
+    pushed_at: '2026-08-03T04:12:19Z'
+    description: >-
+      LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU
+      required.
     homepage: https://localai.io
     topics:
       - agents
@@ -82,14 +91,20 @@ metadata:
       - stable-diffusion
       - text-generation
       - tts
-    last_checked_at: "2026-08-03T05:17:08.573Z"
+    last_checked_at: '2026-08-03T05:17:08.573Z'
     readme:
-      fetched_at: "2026-08-03T05:17:08.573Z"
+      fetched_at: '2026-08-03T05:17:08.573Z'
       bytes: 23723
 insights:
-  summary: LocalAI is an open-source local inference engine that runs LLMs, vision, voice, and image models on any hardware with drop-in OpenAI and Anthropic API compatibility.
-  why_it_matters: It lets developers run a private, local AI stack that behaves like OpenAI or Anthropic APIs, making it easy to test, build, and deploy without sending data to external providers.
-  mental_damage: Now you can spend your evening debugging llama.cpp backends and GPU layers just to replicate the same API you were already paying for.
+  summary: >-
+    LocalAI is an open-source local inference engine that runs LLMs, vision, voice, and image models on any hardware
+    with drop-in OpenAI and Anthropic API compatibility.
+  why_it_matters: >-
+    It lets developers run a private, local AI stack that behaves like OpenAI or Anthropic APIs, making it easy to test,
+    build, and deploy without sending data to external providers.
+  mental_damage: >-
+    Now you can spend your evening debugging llama.cpp backends and GPU layers just to replicate the same API you were
+    already paying for.
   tags:
     - local-ai
     - inference
@@ -99,35 +114,42 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product identity is a local, self-hosted inference and serving stack for running models privately, which is a canonical fit for the Local AI category.
+  reason: >-
+    The core product identity is a local, self-hosted inference and serving stack for running models privately, which is
+    a canonical fit for the Local AI category.
   evidence:
-    - "Repo description: 'LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.'"
+    - >-
+      Repo description: 'LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on
+      any hardware. No GPU required.'
     - README lists drop-in OpenAI/Anthropic API compatibility and 36+ backends as core features.
-    - Canonical positives for local-ai explicitly include LocalAI, and it appears in awesome lists under Local LLM Tools and Inference UI.
+    - >-
+      Canonical positives for local-ai explicitly include LocalAI, and it appears in awesome lists under Local LLM Tools
+      and Inference UI.
 placement:
   primary_category: local-ai
-  section: Local Serving / APIs
+  secondary_categories: []
+  section: Local API Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (46093) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.579Z"
+    updated_at: '2026-05-06T22:12:15.579Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:08.573Z"
+    updated_at: '2026-08-03T05:17:08.573Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

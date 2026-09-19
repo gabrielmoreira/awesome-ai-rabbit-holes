@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__erajasekar__ai-diagram-maker-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 📐 <a name="architecture-and-design"></a>Architecture & Design
         anchor_text: erajasekar/ai-diagram-maker-mcp
         extracted_url: https://github.com/erajasekar/ai-diagram-maker-mcp
-        surrounding_text: "- [erajasekar/ai-diagram-maker-mcp](https://github.com/erajasekar/ai-diagram-maker-mcp) [![erajasekar/ai-diagram-maker-mcp MCP server](https://glama.ai/mcp/servers/erajasekar/ai-diagram-maker-mcp/badges/score.svg)](https://glama.ai/mcp/servers/erajasekar/ai-diagram-maker-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - MCP server for AI Diagram Maker — generate flowcharts, sequence diagrams, ERDs, system/network architecture, UML, mindmap, and workflow from natural language, code, ASCII, images, or Mermaid. Inline rendering using MCP Apps UI and editable diagram URLs. Requires API key."
+        surrounding_text: >-
+          - [erajasekar/ai-diagram-maker-mcp](https://github.com/erajasekar/ai-diagram-maker-mcp)
+          [![erajasekar/ai-diagram-maker-mcp MCP
+          server](https://glama.ai/mcp/servers/erajasekar/ai-diagram-maker-mcp/badges/score.svg)](https://glama.ai/mcp/servers/erajasekar/ai-diagram-maker-mcp)
+          📇 ☁️ 🏠 🍎 🪟 🐧 - MCP server for AI Diagram Maker — generate flowcharts, sequence diagrams, ERDs,
+          system/network architecture, UML, mindmap, and workflow from natural language, code, ASCII, images, or
+          Mermaid. Inline rendering using MCP Apps UI and editable diagram URLs. Requires API key.
         confidence: high
 metadata:
   github:
@@ -30,18 +36,22 @@ metadata:
     archived: false
     full_name: erajasekar/ai-diagram-maker-mcp
     html_url: https://github.com/erajasekar/ai-diagram-maker-mcp
-    created_at: "2026-03-07T17:05:24Z"
-    pushed_at: "2026-05-04T04:45:33Z"
+    created_at: '2026-03-07T17:05:24Z'
+    pushed_at: '2026-05-04T04:45:33Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-08-27T09:23:24.556Z"
+    last_checked_at: '2026-08-27T09:23:24.556Z'
     readme:
-      fetched_at: "2026-08-27T09:23:24.556Z"
+      fetched_at: '2026-08-27T09:23:24.556Z'
       bytes: 9403
 insights:
-  summary: An MCP server that integrates AI Diagram Maker with MCP-compatible AI agents to generate software engineering diagrams from natural language, code, ASCII, images, or Mermaid.
-  why_it_matters: Developers can generate and embed professional diagrams directly in their AI agent workflows without leaving the chat interface.
+  summary: >-
+    An MCP server that integrates AI Diagram Maker with MCP-compatible AI agents to generate software engineering
+    diagrams from natural language, code, ASCII, images, or Mermaid.
+  why_it_matters: >-
+    Developers can generate and embed professional diagrams directly in their AI agent workflows without leaving the
+    chat interface.
   mental_damage: Now you can argue with your AI about UML instead of just code.
   tags:
     - mcp
@@ -52,31 +62,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose primary identity is providing diagram generation capabilities via MCP protocol to AI agents.
+  reason: >-
+    The product is explicitly an MCP server whose primary identity is providing diagram generation capabilities via MCP
+    protocol to AI agents.
   evidence:
     - README describes it as an MCP server for AI Diagram Maker
     - Supports stdio and HTTP/Streamable HTTP transports
     - Listed in awesome-mcp-servers under Architecture & Design
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:24.556Z"
+    updated_at: '2026-08-27T09:23:24.556Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:52:33.889Z"
+    updated_at: '2026-07-21T15:52:33.889Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +102,9 @@ processing:
       input_hash: sha256:42f313e63c3b73077aaf764a65e29da5b1ca7f5bc8524418406acc712608a859
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server whose primary identity is providing diagram generation capabilities via MCP protocol to AI agents.
+      decision_reason: >-
+        The product is explicitly an MCP server whose primary identity is providing diagram generation capabilities via
+        MCP protocol to AI agents.
       decision_evidence:
         - README describes it as an MCP server for AI Diagram Maker
         - Supports stdio and HTTP/Streamable HTTP transports
@@ -97,6 +112,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not merely an extension for another AI tool.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not merely an extension
+        for another AI tool.
       review_reason: null
       review_resume_lifecycle: null

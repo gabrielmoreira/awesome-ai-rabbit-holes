@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dust-tt__dust__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -19,7 +19,9 @@ provenance:
           - Other LLM Frameworks
         anchor_text: Dust
         extracted_url: https://github.com/dust-tt/dust
-        surrounding_text: "- [Dust](https://github.com/dust-tt/dust): Design and Deploy Large Language Model Apps ![GitHub Repo stars](https://img.shields.io/github/stars/dust-tt/dust?style=social)"
+        surrounding_text: >-
+          - [Dust](https://github.com/dust-tt/dust): Design and Deploy Large Language Model Apps ![GitHub Repo
+          stars](https://img.shields.io/github/stars/dust-tt/dust?style=social)
         confidence: high
 metadata:
   github:
@@ -29,8 +31,8 @@ metadata:
     archived: false
     full_name: dust-tt/dust
     html_url: https://github.com/dust-tt/dust
-    created_at: "2022-08-19T07:57:29Z"
-    pushed_at: "2026-09-14T00:25:37Z"
+    created_at: '2022-08-19T07:57:29Z'
+    pushed_at: '2026-09-14T00:25:37Z'
     description: Custom AI agent platform to speed up your work.
     homepage: https://dust.tt
     topics:
@@ -38,14 +40,16 @@ metadata:
       - large-language-models
       - llm
       - rust
-    last_checked_at: "2026-09-14T04:13:45.324Z"
+    last_checked_at: '2026-09-14T04:13:45.324Z'
     readme:
-      fetched_at: "2026-09-14T04:13:45.324Z"
+      fetched_at: '2026-09-14T04:13:45.324Z'
       bytes: 259
 insights:
   summary: Custom AI agent platform for building and deploying agents to speed up work.
   why_it_matters: Developers can create and run custom agents to automate or augment workflows beyond code editing.
-  mental_damage: Now you can replace your entire team with agents, except the part where you still have to explain to the agents what the team was supposed to do.
+  mental_damage: >-
+    Now you can replace your entire team with agents, except the part where you still have to explain to the agents what
+    the team was supposed to do.
   tags:
     - agent-platform
     - workflow-automation
@@ -54,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a platform for building and coordinating custom AI agents, fitting the agent orchestration category as a control plane/workforce platform.
+  reason: >-
+    The product is a platform for building and coordinating custom AI agents, fitting the agent orchestration category
+    as a control plane/workforce platform.
   evidence:
-    - "Repo description: 'Custom AI agent platform to speed up your work'"
-    - "README: 'Custom AI agent platform to speed up your work' with docs link"
-    - "Source-list context: listed under 'Other LLM Frameworks' in awesome-langchain"
+    - 'Repo description: ''Custom AI agent platform to speed up your work'''
+    - 'README: ''Custom AI agent platform to speed up your work'' with docs link'
+    - 'Source-list context: listed under ''Other LLM Frameworks'' in awesome-langchain'
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Hosted Agent Platforms
 lifecycle:
   status: promotion_candidate
   reason: Stars (1339) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.612Z"
+    updated_at: '2026-05-06T22:12:15.612Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:45.324Z"
+    updated_at: '2026-09-14T04:13:45.324Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:47.362Z"
+    updated_at: '2026-07-21T15:51:47.362Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -91,14 +98,18 @@ processing:
       input_hash: sha256:df4c7e3ba26eb8e93f548be4c7ecd109ce16a1fd9e1f8798bba4c275094aacc2
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The product is a platform for building and coordinating custom AI agents, fitting the agent orchestration category as a control plane/workforce platform.
+      decision_reason: >-
+        The product is a platform for building and coordinating custom AI agents, fitting the agent orchestration
+        category as a control plane/workforce platform.
       decision_evidence:
-        - "Repo description: 'Custom AI agent platform to speed up your work'"
-        - "README: 'Custom AI agent platform to speed up your work' with docs link"
-        - "Source-list context: listed under 'Other LLM Frameworks' in awesome-langchain"
+        - 'Repo description: ''Custom AI agent platform to speed up your work'''
+        - 'README: ''Custom AI agent platform to speed up your work'' with docs link'
+        - 'Source-list context: listed under ''Other LLM Frameworks'' in awesome-langchain'
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated platform for building/running agents rather than a code-first library.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because the product is an operated platform for building/running
+        agents rather than a code-first library.
       review_reason: null
       review_resume_lifecycle: null

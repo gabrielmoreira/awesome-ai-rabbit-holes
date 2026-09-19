@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__vkhanhqui__figma-mcp-go__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: vkhanhqui/figma-mcp-go
         extracted_url: https://github.com/vkhanhqui/figma-mcp-go
-        surrounding_text: "- [vkhanhqui/figma-mcp-go](https://github.com/vkhanhqui/figma-mcp-go) [![vkhanhqui/figma-mcp-go server](https://glama.ai/mcp/servers/vkhanhqui/figma-mcp-go/badges/score.svg)](https://glama.ai/mcp/servers/vkhanhqui/figma-mcp-go)  🏎️ 🏠 🍎 🪟 🐧 - Figma MCP server with full read/write access via plugin bridge — no API token, no rate limits. 58 tools for design automation: styles, variables, components, prototypes, and content."
+        surrounding_text: >-
+          - [vkhanhqui/figma-mcp-go](https://github.com/vkhanhqui/figma-mcp-go) [![vkhanhqui/figma-mcp-go
+          server](https://glama.ai/mcp/servers/vkhanhqui/figma-mcp-go/badges/score.svg)](https://glama.ai/mcp/servers/vkhanhqui/figma-mcp-go) 
+          🏎️ 🏠 🍎 🪟 🐧 - Figma MCP server with full read/write access via plugin bridge — no API token, no rate
+          limits. 58 tools for design automation: styles, variables, components, prototypes, and content.
         confidence: high
 metadata:
   github:
@@ -30,10 +34,10 @@ metadata:
     archived: false
     full_name: null
     html_url: null
-    created_at: "2026-03-26T11:06:26Z"
-    pushed_at: "2026-04-30T16:35:32Z"
+    created_at: '2026-03-26T11:06:26Z'
+    pushed_at: '2026-04-30T16:35:32Z'
     description: Figma MCP for free users — no rate limits, full read/write, text to designs, designs to code
-    homepage: ""
+    homepage: ''
     topics:
       - agent
       - ai
@@ -42,14 +46,21 @@ metadata:
       - figma
       - figma-plugin
       - mcp
-    last_checked_at: "2026-05-12T15:06:33.785Z"
+    last_checked_at: '2026-05-12T15:06:33.785Z'
     readme:
-      fetched_at: "2026-05-12T15:06:33.785Z"
+      fetched_at: '2026-05-12T15:06:33.785Z'
       bytes: 10959
 insights:
-  summary: figma-mcp-go is an open-source MCP server that provides full read/write access to live Figma data via a plugin bridge, enabling text-to-design and design-to-code workflows without using the Figma REST API or encountering rate limits.
-  why_it_matters: It lets developers use AI assistants like Claude Code or Cursor to directly read and manipulate Figma files and generate code from designs, bypassing API limitations that hinder experimentation.
-  mental_damage: Finally, a way to make your AI pair programmer feel useful while it redesigns your entire UI system in the time it takes to explain what a 'variant' is.
+  summary: >-
+    figma-mcp-go is an open-source MCP server that provides full read/write access to live Figma data via a plugin
+    bridge, enabling text-to-design and design-to-code workflows without using the Figma REST API or encountering rate
+    limits.
+  why_it_matters: >-
+    It lets developers use AI assistants like Claude Code or Cursor to directly read and manipulate Figma files and
+    generate code from designs, bypassing API limitations that hinder experimentation.
+  mental_damage: >-
+    Finally, a way to make your AI pair programmer feel useful while it redesigns your entire UI system in the time it
+    takes to explain what a 'variant' is.
   tags:
     - figma
     - mcp
@@ -58,33 +69,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: figma-mcp-go primarily extends existing AI coding assistants with Figma host capabilities rather than acting as a standalone coding assistant, making it an extension/integration.
+  reason: >-
+    figma-mcp-go primarily extends existing AI coding assistants with Figma host capabilities rather than acting as a
+    standalone coding assistant, making it an extension/integration.
   evidence:
     - README states it works with Cursor, Claude, GitHub Copilot, and any MCP-compatible AI tool as an add-on
     - Repo description positions it as 'Figma MCP for free users' focused on read/write access via plugin bridge
     - Installation shows it being added as an MCP server to existing tools like Claude Code and Cursor
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: API & Service Integrations
 lifecycle:
   status: promotion_candidate
   reason: Stars (838) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.654Z"
+    updated_at: '2026-05-06T22:12:15.654Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-07-21T15:21:07.197Z"
+    updated_at: '2026-07-21T15:21:07.197Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for vkhanhqui/figma-mcp-go
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:27:19.903Z"
+    updated_at: '2026-05-12T15:27:19.903Z'
     cause: null
     next_retry_at: null
     attempts: 1

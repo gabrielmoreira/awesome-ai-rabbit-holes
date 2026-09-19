@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__crypto-orderbook-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/crypto-orderbook-mcp
         extracted_url: https://github.com/kukapay/crypto-orderbook-mcp
-        surrounding_text: "- [kukapay/crypto-orderbook-mcp](https://github.com/kukapay/crypto-orderbook-mcp) 🐍 ☁️ - Analyzing order book depth and imbalance across major crypto exchanges."
+        surrounding_text: >-
+          - [kukapay/crypto-orderbook-mcp](https://github.com/kukapay/crypto-orderbook-mcp) 🐍 ☁️ - Analyzing order book
+          depth and imbalance across major crypto exchanges.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: kukapay/crypto-orderbook-mcp
     html_url: https://github.com/kukapay/crypto-orderbook-mcp
-    created_at: "2025-05-07T10:18:41Z"
-    pushed_at: "2025-05-07T10:18:58Z"
+    created_at: '2025-05-07T10:18:41Z'
+    pushed_at: '2025-05-07T10:18:58Z'
     description: An MCP server that analyzes order book depth and imbalance across major crypto exchanges.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:59.509Z"
+    last_checked_at: '2026-07-30T05:05:59.509Z'
     readme:
-      fetched_at: "2026-07-30T05:05:59.509Z"
+      fetched_at: '2026-07-30T05:05:59.509Z'
       bytes: 2600
 insights:
   summary: An MCP server that provides real-time order book depth and imbalance analysis across major crypto exchanges.
-  why_it_matters: Developers building AI trading agents or market analysis tools can integrate live exchange data without managing exchange APIs directly.
+  why_it_matters: >-
+    Developers building AI trading agents or market analysis tools can integrate live exchange data without managing
+    exchange APIs directly.
   mental_damage: Now your AI agent can obsess over bid-ask spreads while you obsess over whether it's actually making you money.
   tags:
     - mcp
@@ -52,31 +56,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose primary identity is providing domain-specific (crypto order book) capabilities via the Model Context Protocol.
+  reason: >-
+    The product is explicitly an MCP server whose primary identity is providing domain-specific (crypto order book)
+    capabilities via the Model Context Protocol.
   evidence:
-    - Repo description states it is 'An MCP server that analyzes order book depth and imbalance across major crypto exchanges'
+    - >-
+      Repo description states it is 'An MCP server that analyzes order book depth and imbalance across major crypto
+      exchanges'
     - README confirms it exposes MCP tools (`calculate_orderbook`, `compare_orderbook`) for AI agents
     - Installation and usage instructions are MCP-client-focused (e.g., Claude Desktop configuration)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:59.509Z"
+    updated_at: '2026-07-30T05:05:59.509Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:45.430Z"
+    updated_at: '2026-07-21T16:13:45.430Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,14 +98,20 @@ processing:
       input_hash: sha256:bbcf3a88835bdd93877408f86521b43c7d8d6f7d0653f93787fe2578c995ec18
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server whose primary identity is providing domain-specific (crypto order book) capabilities via the Model Context Protocol.
+      decision_reason: >-
+        The product is explicitly an MCP server whose primary identity is providing domain-specific (crypto order book)
+        capabilities via the Model Context Protocol.
       decision_evidence:
-        - Repo description states it is 'An MCP server that analyzes order book depth and imbalance across major crypto exchanges'
+        - >-
+          Repo description states it is 'An MCP server that analyzes order book depth and imbalance across major crypto
+          exchanges'
         - README confirms it exposes MCP tools (`calculate_orderbook`, `compare_orderbook`) for AI agents
         - Installation and usage instructions are MCP-client-focused (e.g., Claude Desktop configuration)
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product is an MCP server (protocol infrastructure) rather than a code-first SDK or library.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product is an MCP server (protocol infrastructure) rather than a
+        code-first SDK or library.
       review_reason: null
       review_resume_lifecycle: null

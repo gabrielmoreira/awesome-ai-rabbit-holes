@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__continuum-ai-corp__orcarouter-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-08T05:39:05.247Z"
+      discovered_at: '2026-06-08T05:39:05.247Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: Continuum-AI-Corp/orcarouter-mcp-server
         extracted_url: https://github.com/continuum-ai-corp/orcarouter-mcp-server
-        surrounding_text: "- [Continuum-AI-Corp/orcarouter-mcp-server](https://github.com/Continuum-AI-Corp/orcarouter-mcp-server) [![Continuum-AI-Corp/orcarouter-mcp-server MCP server](https://glama.ai/mcp/servers/Continuum-AI-Corp/orcarouter-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/Continuum-AI-Corp/orcarouter-mcp-server) 📇 ☁️ 🏠 🍎 🪟 🐧 - Browse 160+ LLM models (OpenAI, Anthropic, Google, Qwen, DeepSeek, …) with live pricing — no API key required for catalog tools. Routes chat completions through the OrcaRouter gateway with automatic fallback. `npx -y @orcarouter/mcp`."
+        surrounding_text: >-
+          - [Continuum-AI-Corp/orcarouter-mcp-server](https://github.com/Continuum-AI-Corp/orcarouter-mcp-server)
+          [![Continuum-AI-Corp/orcarouter-mcp-server MCP
+          server](https://glama.ai/mcp/servers/Continuum-AI-Corp/orcarouter-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/Continuum-AI-Corp/orcarouter-mcp-server)
+          📇 ☁️ 🏠 🍎 🪟 🐧 - Browse 160+ LLM models (OpenAI, Anthropic, Google, Qwen, DeepSeek, …) with live pricing —
+          no API key required for catalog tools. Routes chat completions through the OrcaRouter gateway with automatic
+          fallback. `npx -y @orcarouter/mcp`.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: Continuum-AI-Corp/orcarouter-mcp-server
     html_url: https://github.com/Continuum-AI-Corp/orcarouter-mcp-server
-    created_at: "2026-05-24T15:16:31Z"
-    pushed_at: "2026-05-26T19:28:40Z"
-    description: Official MCP server for OrcaRouter — the LLM gateway with auto-routing and fallback chains. Browse models and chat from Claude Desktop, Cursor, Windsurf, or any MCP client.
+    created_at: '2026-05-24T15:16:31Z'
+    pushed_at: '2026-05-26T19:28:40Z'
+    description: >-
+      Official MCP server for OrcaRouter — the LLM gateway with auto-routing and fallback chains. Browse models and chat
+      from Claude Desktop, Cursor, Windsurf, or any MCP client.
     homepage: https://www.orcarouter.ai
     topics:
       - ai-gateway
@@ -50,14 +58,20 @@ metadata:
       - openai
       - orcarouter
       - windsur
-    last_checked_at: "2026-09-14T04:13:29.309Z"
+    last_checked_at: '2026-09-14T04:13:29.309Z'
     readme:
-      fetched_at: "2026-09-14T04:13:29.309Z"
+      fetched_at: '2026-09-14T04:13:29.309Z'
       bytes: 6127
 insights:
-  summary: An MCP server that enables Model Context Protocol clients to browse the OrcaRouter model catalog and execute chat completions.
-  why_it_matters: It allows developers to swap models, compare pricing, and implement fallback chains directly from within their AI-native editor or CLI without leaving the workflow.
-  mental_damage: The joy of having a single config file that lets you oscillate between five different LLMs until you find the one that doesn't hallucinate your API keys.
+  summary: >-
+    An MCP server that enables Model Context Protocol clients to browse the OrcaRouter model catalog and execute chat
+    completions.
+  why_it_matters: >-
+    It allows developers to swap models, compare pricing, and implement fallback chains directly from within their
+    AI-native editor or CLI without leaving the workflow.
+  mental_damage: >-
+    The joy of having a single config file that lets you oscillate between five different LLMs until you find the one
+    that doesn't hallucinate your API keys.
   tags:
     - mcp
     - llm-gateway
@@ -67,31 +81,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server providing tools for model discovery and chat execution, making it a perfect fit for the MCP category.
+  reason: >-
+    The project's primary identity is an MCP server providing tools for model discovery and chat execution, making it a
+    perfect fit for the MCP category.
   evidence:
     - Repo description explicitly calls it an 'MCP server'
     - README focuses on integration with MCP clients like Claude Desktop and Cursor
-    - "Core functionality is implemented as a set of MCP tools: orcarouter_chat, orcarouter_models_list, etc."
+    - 'Core functionality is implemented as a set of MCP tools: orcarouter_chat, orcarouter_models_list, etc.'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-08T05:39:05.248Z"
+    updated_at: '2026-06-08T05:39:05.248Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:29.309Z"
+    updated_at: '2026-09-14T04:13:29.309Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-08T05:42:17.000Z"
+    updated_at: '2026-06-08T05:42:17.000Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

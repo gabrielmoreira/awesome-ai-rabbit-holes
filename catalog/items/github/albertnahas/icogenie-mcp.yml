@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__albertnahas__icogenie-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: albertnahas/icogenie-mcp
         extracted_url: https://github.com/albertnahas/icogenie-mcp
-        surrounding_text: "- [albertnahas/icogenie-mcp](https://github.com/albertnahas/icogenie-mcp) [![icogenie-mcp MCP server](https://glama.ai/mcp/servers/@albertnahas/icogenie-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@albertnahas/icogenie-mcp) 📇 ☁️ - AI-powered SVG icon generation MCP server. Generate production-ready SVG icons from text descriptions with customizable styles."
+        surrounding_text: >-
+          - [albertnahas/icogenie-mcp](https://github.com/albertnahas/icogenie-mcp) [![icogenie-mcp MCP
+          server](https://glama.ai/mcp/servers/@albertnahas/icogenie-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@albertnahas/icogenie-mcp)
+          📇 ☁️ - AI-powered SVG icon generation MCP server. Generate production-ready SVG icons from text descriptions
+          with customizable styles.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: albertnahas/icogenie-mcp
     html_url: https://github.com/albertnahas/icogenie-mcp
-    created_at: "2026-02-05T07:43:51Z"
-    pushed_at: "2026-03-06T08:23:16Z"
+    created_at: '2026-02-05T07:43:51Z'
+    pushed_at: '2026-03-06T08:23:16Z'
     description: MCP server for IcoGenie - Enable AI agents to generate SVG icons programmatically
     homepage: null
     topics:
@@ -44,13 +48,15 @@ metadata:
       - mcp-server
       - model-context-protocol
       - svg
-    last_checked_at: "2026-09-17T04:13:38.118Z"
+    last_checked_at: '2026-09-17T04:13:38.118Z'
     readme:
-      fetched_at: "2026-09-17T04:13:38.118Z"
+      fetched_at: '2026-09-17T04:13:38.118Z'
       bytes: 7679
 insights:
   summary: MCP server for IcoGenie that enables AI agents to generate SVG icons programmatically.
-  why_it_matters: Developers can integrate icon generation directly into their AI agent workflows without leaving their coding environment.
+  why_it_matters: >-
+    Developers can integrate icon generation directly into their AI agent workflows without leaving their coding
+    environment.
   mental_damage: Now your AI can argue about icon design while you’re just trying to fix a null pointer exception.
   tags:
     - mcp-server
@@ -61,31 +67,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose primary identity is providing icon generation capabilities via the Model Context Protocol.
+  reason: >-
+    This is an MCP-first server whose primary identity is providing icon generation capabilities via the Model Context
+    Protocol.
   evidence:
     - Repo description explicitly states it is an MCP server for IcoGenie
     - README details MCP server setup, tools, and workflows for AI agents
     - Listed in awesome-mcp-servers under Server Implementations > Art & Culture
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.601Z"
+    updated_at: '2026-05-06T22:12:15.601Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:38.118Z"
+    updated_at: '2026-09-17T04:13:38.118Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:21:53.294Z"
+    updated_at: '2026-07-21T15:21:53.294Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -98,7 +107,9 @@ processing:
       input_hash: sha256:fbd35ac75fd46483d1bf636644446f4dd2c27e42aa12abb3a713941cb8805753
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server whose primary identity is providing icon generation capabilities via the Model Context Protocol.
+      decision_reason: >-
+        This is an MCP-first server whose primary identity is providing icon generation capabilities via the Model
+        Context Protocol.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for IcoGenie
         - README details MCP server setup, tools, and workflows for AI agents
@@ -106,6 +117,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

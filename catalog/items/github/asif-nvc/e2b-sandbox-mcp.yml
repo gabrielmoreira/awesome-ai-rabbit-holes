@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__asif-nvc__e2b-sandbox-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 👨‍💻 <a name="code-execution"></a>Code Execution
         anchor_text: asif-nvc/e2b-sandbox-mcp
         extracted_url: https://github.com/asif-nvc/e2b-sandbox-mcp
-        surrounding_text: "- [asif-nvc/e2b-sandbox-mcp](https://github.com/asif-nvc/e2b-sandbox-mcp) [![asif-nvc/e2b-sandbox-mcp MCP server](https://glama.ai/mcp/servers/asif-nvc/e2b-sandbox-mcp/badges/score.svg)](https://glama.ai/mcp/servers/asif-nvc/e2b-sandbox-mcp) 📇 ☁️ 🍎 🪟 🐧 - Connect Claude Code with E2B cloud sandboxes — 29 tools for creating isolated Linux VMs, cloning repos, running commands, managing files, and performing git operations without touching the local machine."
+        surrounding_text: >-
+          - [asif-nvc/e2b-sandbox-mcp](https://github.com/asif-nvc/e2b-sandbox-mcp) [![asif-nvc/e2b-sandbox-mcp MCP
+          server](https://glama.ai/mcp/servers/asif-nvc/e2b-sandbox-mcp/badges/score.svg)](https://glama.ai/mcp/servers/asif-nvc/e2b-sandbox-mcp)
+          📇 ☁️ 🍎 🪟 🐧 - Connect Claude Code with E2B cloud sandboxes — 29 tools for creating isolated Linux VMs,
+          cloning repos, running commands, managing files, and performing git operations without touching the local
+          machine.
         confidence: high
 metadata:
   github:
@@ -30,14 +35,14 @@ metadata:
     archived: false
     full_name: asif-nvc/e2b-sandbox-mcp
     html_url: https://github.com/asif-nvc/e2b-sandbox-mcp
-    created_at: "2026-04-22T07:54:08Z"
-    pushed_at: "2026-04-24T07:29:38Z"
+    created_at: '2026-04-22T07:54:08Z'
+    pushed_at: '2026-04-24T07:29:38Z'
     description: MCP server connecting Claude Code with E2B cloud sandboxes for working on any GitHub repo
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:23.181Z"
+    last_checked_at: '2026-09-14T04:13:23.181Z'
     readme:
-      fetched_at: "2026-09-14T04:13:23.181Z"
+      fetched_at: '2026-09-14T04:13:23.181Z'
       bytes: 8677
 insights:
   summary: An MCP server that connects Claude Code with E2B cloud sandboxes for isolated GitHub repo work.
@@ -52,31 +57,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: a server providing sandbox tools to Claude Code via MCP."
+  reason: 'MCP is the product identity: a server providing sandbox tools to Claude Code via MCP.'
   evidence:
     - Repo description explicitly calls it an MCP server
     - README details 29 MCP tools for sandbox operations
     - Listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.603Z"
+    updated_at: '2026-05-06T22:12:15.603Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:23.181Z"
+    updated_at: '2026-09-14T04:13:23.181Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:24:08.552Z"
+    updated_at: '2026-07-21T15:24:08.552Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +95,7 @@ processing:
       input_hash: sha256:b876c09c26601bf1708596d7f2a643d601562072d0e041700d991f944cd78bfc
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: a server providing sandbox tools to Claude Code via MCP."
+      decision_reason: 'MCP is the product identity: a server providing sandbox tools to Claude Code via MCP.'
       decision_evidence:
         - Repo description explicitly calls it an MCP server
         - README details 29 MCP tools for sandbox operations

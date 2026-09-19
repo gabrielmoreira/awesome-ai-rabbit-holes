@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cscsoftware__aidex__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: CSCSoftware/AiDex
         extracted_url: https://github.com/cscsoftware/aidex
-        surrounding_text: "- [CSCSoftware/AiDex](https://github.com/CSCSoftware/AiDex) 📇 🏠 🍎 🪟 🐧 - Persistent code index MCP server using Tree-sitter for fast, precise code search. Replaces grep with ~50 token responses instead of 2000+. Supports 11 languages including C#, TypeScript, Python, Rust, and Go."
+        surrounding_text: >-
+          - [CSCSoftware/AiDex](https://github.com/CSCSoftware/AiDex) 📇 🏠 🍎 🪟 🐧 - Persistent code index MCP server
+          using Tree-sitter for fast, precise code search. Replaces grep with ~50 token responses instead of 2000+.
+          Supports 11 languages including C#, TypeScript, Python, Rust, and Go.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: CSCSoftware/AiDex
     html_url: https://github.com/CSCSoftware/AiDex
-    created_at: "2026-01-26T18:22:10Z"
-    pushed_at: "2026-08-05T22:48:37Z"
-    description: MCP Server for persistent code indexing. Gives AI assistants (Claude, Gemini, Copilot, Cursor) instant access to your codebase. 50x less context than grep.
+    created_at: '2026-01-26T18:22:10Z'
+    pushed_at: '2026-08-05T22:48:37Z'
+    description: >-
+      MCP Server for persistent code indexing. Gives AI assistants (Claude, Gemini, Copilot, Cursor) instant access to
+      your codebase. 50x less context than grep.
     homepage: https://www.npmjs.com/package/aidex-mcp
     topics:
       - ai-coding
@@ -51,13 +56,15 @@ metadata:
       - tree-sitter
       - vscode
       - windsurf
-    last_checked_at: "2026-09-14T04:13:31.464Z"
+    last_checked_at: '2026-09-14T04:13:31.464Z'
     readme:
-      fetched_at: "2026-09-14T04:13:31.464Z"
+      fetched_at: '2026-09-14T04:13:31.464Z'
       bytes: 48137
 insights:
   summary: MCP server providing persistent code indexing, semantic search, and memory for AI coding assistants.
-  why_it_matters: Reduces token usage by 50x compared to grep while giving AI assistants cross-session memory and efficient code retrieval.
+  why_it_matters: >-
+    Reduces token usage by 50x compared to grep while giving AI assistants cross-session memory and efficient code
+    retrieval.
   mental_damage: Finally, an MCP server that remembers your codebase better than you do.
   tags:
     - mcp-server
@@ -68,31 +75,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Its core novelty is a memory, retrieval, and context-shaping system for coding assistants rather than being a primary coding agent or a thin host integration.
+  reason: >-
+    Its core novelty is a memory, retrieval, and context-shaping system for coding assistants rather than being a
+    primary coding agent or a thin host integration.
   evidence:
-    - "Repo description: 'MCP Server for persistent code indexing. Gives AI assistants instant access to your codebase. 50x less context than grep.'"
-    - "README: 'The persistent brain for AI coding agents… Memory, semantic search, and live telemetry — local-first, model-agnostic.'"
+    - >-
+      Repo description: 'MCP Server for persistent code indexing. Gives AI assistants instant access to your codebase.
+      50x less context than grep.'
+    - >-
+      README: 'The persistent brain for AI coding agents… Memory, semantic search, and live telemetry — local-first,
+      model-agnostic.'
     - Found in awesome-mcp-servers under Developer Tools, reinforcing MCP infrastructure identity.
 placement:
-  primary_category: context-engineering
-  section: null
+  primary_category: mcp
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'mcp'"
+  reason: 'Categorization review required: placement disagreement: retained ''context-engineering'', proposed ''mcp'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.609Z"
+    updated_at: '2026-05-06T22:12:15.609Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:31.464Z"
+    updated_at: '2026-09-14T04:13:31.464Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:49:16.496Z"
+    updated_at: '2026-07-21T15:49:16.496Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -113,6 +127,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product's primary identity is as an MCP server, not just a context system.
-      review_reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'mcp'"
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the product's primary identity is as an MCP server, not just a
+        context system.
+      review_reason: 'Categorization review required: placement disagreement: retained ''context-engineering'', proposed ''mcp'''
       review_resume_lifecycle: null

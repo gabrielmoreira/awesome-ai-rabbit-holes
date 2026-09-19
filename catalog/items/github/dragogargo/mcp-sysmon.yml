@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dragogargo__mcp-sysmon__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 📊 <a name="monitoring"></a>Monitoring
         anchor_text: dragogargo/mcp-sysmon
         extracted_url: https://github.com/dragogargo/mcp-sysmon
-        surrounding_text: "- [dragogargo/mcp-sysmon](https://github.com/dragogargo/mcp-sysmon) [![dragogargo/mcp-sysmon MCP server](https://glama.ai/mcp/servers/dragogargo/mcp-sysmon/badges/score.svg)](https://glama.ai/mcp/servers/dragogargo/mcp-sysmon) 🐍 🏠 🍎 🐧 - Local system monitoring — CPU, memory, swap, disk, network, and process management. Find resource-hungry processes, diagnose performance issues, and kill processes via AI."
+        surrounding_text: >-
+          - [dragogargo/mcp-sysmon](https://github.com/dragogargo/mcp-sysmon) [![dragogargo/mcp-sysmon MCP
+          server](https://glama.ai/mcp/servers/dragogargo/mcp-sysmon/badges/score.svg)](https://glama.ai/mcp/servers/dragogargo/mcp-sysmon)
+          🐍 🏠 🍎 🐧 - Local system monitoring — CPU, memory, swap, disk, network, and process management. Find
+          resource-hungry processes, diagnose performance issues, and kill processes via AI.
         confidence: high
 metadata:
   github:
@@ -30,14 +34,14 @@ metadata:
     archived: false
     full_name: dragogargo/mcp-sysmon
     html_url: https://github.com/dragogargo/mcp-sysmon
-    created_at: "2026-04-28T00:38:10Z"
-    pushed_at: "2026-04-28T01:24:45Z"
+    created_at: '2026-04-28T00:38:10Z'
+    pushed_at: '2026-04-28T01:24:45Z'
     description: MCP server for system monitoring — CPU, memory, disk, network, and process management via Claude
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:44.141Z"
+    last_checked_at: '2026-09-14T04:13:44.141Z'
     readme:
-      fetched_at: "2026-09-14T04:13:44.141Z"
+      fetched_at: '2026-09-14T04:13:44.141Z'
       bytes: 1813
 insights:
   summary: MCP server for system monitoring, exposing CPU, memory, disk, network, and process management tools to Claude.
@@ -51,31 +55,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server providing system monitoring tools, not merely an adapter or compatibility feature."
+  reason: >-
+    MCP is the product identity: this is a dedicated MCP server providing system monitoring tools, not merely an adapter
+    or compatibility feature.
   evidence:
     - Repo description explicitly states it is an MCP server for system monitoring
     - README details MCP-specific installation and usage with Claude Desktop/Code
     - Tool list and example prompts are all framed as MCP tools for Claude
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.611Z"
+    updated_at: '2026-05-06T22:12:15.611Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:44.141Z"
+    updated_at: '2026-09-14T04:13:44.141Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:39.074Z"
+    updated_at: '2026-07-21T15:51:39.074Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +95,9 @@ processing:
       input_hash: sha256:54d83dece9347426078774f38d9fd36f4084ea5245cf8c01c358005f269c4f55
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server providing system monitoring tools, not merely an adapter or compatibility feature."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server providing system monitoring tools, not merely an
+        adapter or compatibility feature.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for system monitoring
         - README details MCP-specific installation and usage with Claude Desktop/Code
@@ -96,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server, not an extension layer augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server, not an extension layer augmenting
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

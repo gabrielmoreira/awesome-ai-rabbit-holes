@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pmptwiki__pmpt-cli__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: pmptwiki/pmpt-cli
         extracted_url: https://github.com/pmptwiki/pmpt-cli
-        surrounding_text: "- [pmptwiki/pmpt-cli](https://github.com/pmptwiki/pmpt-cli) [![pmpt-mcp MCP server](https://glama.ai/mcp/servers/@pmptwiki/pmpt-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@pmptwiki/pmpt-mcp) 📇 🏠 - Record and share your AI-driven development journey. Auto-saves project milestones with summaries, generates structured AI prompts via 5-question planning, and publishes to [pmptwiki.com](https://pmptwiki.com) community platform."
+        surrounding_text: >-
+          - [pmptwiki/pmpt-cli](https://github.com/pmptwiki/pmpt-cli) [![pmpt-mcp MCP
+          server](https://glama.ai/mcp/servers/@pmptwiki/pmpt-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@pmptwiki/pmpt-mcp)
+          📇 🏠 - Record and share your AI-driven development journey. Auto-saves project milestones with summaries,
+          generates structured AI prompts via 5-question planning, and publishes to [pmptwiki.com](https://pmptwiki.com)
+          community platform.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: pmptwiki/pmpt-cli
     html_url: https://github.com/pmptwiki/pmpt-cli
-    created_at: "2026-02-17T16:38:21Z"
-    pushed_at: "2026-03-08T10:35:06Z"
+    created_at: '2026-02-17T16:38:21Z'
+    pushed_at: '2026-03-08T10:35:06Z'
     description: Record and share your AI-driven product development journey
     homepage: https://pmptwiki.com
     topics:
@@ -43,14 +48,20 @@ metadata:
       - side-project
       - version-control
       - vibe-coding
-    last_checked_at: "2026-07-20T16:42:35.736Z"
+    last_checked_at: '2026-07-20T16:42:35.736Z'
     readme:
-      fetched_at: "2026-07-20T16:42:35.736Z"
+      fetched_at: '2026-07-20T16:42:35.736Z'
       bytes: 10672
 insights:
-  summary: A CLI tool that guides developers through five questions to generate structured AI prompts, then tracks, versions, and publishes the resulting product development journey.
-  why_it_matters: It standardizes the fragile transition from vague idea to actionable prompt and adds version control for the AI-driven build process itself.
-  mental_damage: We have now achieved version control for the hallucinations that build our apps, ensuring we can forever reproduce exactly how we lost three days to a misunderstood requirements prompt.
+  summary: >-
+    A CLI tool that guides developers through five questions to generate structured AI prompts, then tracks, versions,
+    and publishes the resulting product development journey.
+  why_it_matters: >-
+    It standardizes the fragile transition from vague idea to actionable prompt and adds version control for the
+    AI-driven build process itself.
+  mental_damage: >-
+    We have now achieved version control for the hallucinations that build our apps, ensuring we can forever reproduce
+    exactly how we lost three days to a misunderstood requirements prompt.
   tags:
     - cli
     - prompt-engineering
@@ -59,35 +70,42 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product centers on a structured spec-first loop (5 guided questions → structured prompt → tracked iterations) rather than acting as a coding agent or thin extension.
+  reason: >-
+    The product centers on a structured spec-first loop (5 guided questions → structured prompt → tracked iterations)
+    rather than acting as a coding agent or thin extension.
   evidence:
-    - "README: 'Answer 5 questions → AI prompt auto-generated' and commands like pmpt plan, pmpt save, pmpt history show a spec-first workflow."
-    - "Repo description: 'Record and share your AI-driven product development journey' positions it around process and specification, not direct coding."
-    - "Active project: created 2026-02-17 and pushed 2026-03-08, with an MIT license and not archived."
+    - >-
+      README: 'Answer 5 questions → AI prompt auto-generated' and commands like pmpt plan, pmpt save, pmpt history show
+      a spec-first workflow.
+    - >-
+      Repo description: 'Record and share your AI-driven product development journey' positions it around process and
+      specification, not direct coding.
+    - 'Active project: created 2026-02-17 and pushed 2026-03-08, with an MIT license and not archived.'
 placement:
-  primary_category: spec-driven-development
-  section: Spec-First Environments
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Prompt Engineering & Management
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.643Z"
+    updated_at: '2026-05-06T22:12:15.643Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:35.736Z"
+    updated_at: '2026-07-20T16:42:35.736Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

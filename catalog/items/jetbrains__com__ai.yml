@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jetbrains__com__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,12 @@ provenance:
           - Code Completion
         anchor_text: JetBrains AI
         extracted_url: https://jetbrains.com/ai
-        surrounding_text: "- **[JetBrains AI](https://www.jetbrains.com/ai/)** – Integrated AI for code completion and analysis in all JetBrains IDEs."
+        surrounding_text: >-
+          - **[JetBrains AI](https://www.jetbrains.com/ai/)** – Integrated AI for code completion and analysis in all
+          JetBrains IDEs.
         confidence: high
     - id: discovery__www__jetbrains__com__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +35,9 @@ provenance:
           - Code Completion
         anchor_text: JetBrains AI
         extracted_url: https://www.jetbrains.com/ai
-        surrounding_text: "- **[JetBrains AI](https://www.jetbrains.com/ai/)** – Integrated AI for code completion and analysis in all JetBrains IDEs."
+        surrounding_text: >-
+          - **[JetBrains AI](https://www.jetbrains.com/ai/)** – Integrated AI for code completion and analysis in all
+          JetBrains IDEs.
         confidence: high
 metadata:
   github:
@@ -62,21 +66,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The primary product identity is an AI-native IDE/editor surface (JetBrains' ecosystem) with integrated AI assistance, not a standalone agent or extension.
+  reason: >-
+    The primary product identity is an AI-native IDE/editor surface (JetBrains' ecosystem) with integrated AI
+    assistance, not a standalone agent or extension.
   evidence:
     - Source-list context places it under 'Code Completion' in a curated AI coding tools list
     - Scraped site describes it as 'integrated AI tools and software development expertise'
     - JetBrains is known for its IDE products, making this an IDE-native AI integration
 placement:
-  primary_category: ai-ides-editors
-  section: Full IDEs & Editors
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: IDE & Editor Add-ons
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:35:06.300Z"
+    updated_at: '2026-07-21T15:35:06.300Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +96,9 @@ processing:
       input_hash: sha256:249102900abba7a5f54cde09043c70f6032371faf4f31cd2193bcd6555d2cc8c
       proposed_primary_category: ai-ides-editors
       disagreement: false
-      decision_reason: The primary product identity is an AI-native IDE/editor surface (JetBrains' ecosystem) with integrated AI assistance, not a standalone agent or extension.
+      decision_reason: >-
+        The primary product identity is an AI-native IDE/editor surface (JetBrains' ecosystem) with integrated AI
+        assistance, not a standalone agent or extension.
       decision_evidence:
         - Source-list context places it under 'Code Completion' in a curated AI coding tools list
         - Scraped site describes it as 'integrated AI tools and software development expertise'
@@ -97,12 +106,14 @@ processing:
       category_candidates:
         - ai-ides-editors
         - coding-agents
-      contrastive_reason: Choose ai-ides-editors over coding-agents because the product is fundamentally an IDE with AI features rather than a standalone coding assistant.
+      contrastive_reason: >-
+        Choose ai-ides-editors over coding-agents because the product is fundamentally an IDE with AI features rather
+        than a standalone coding assistant.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.966Z"
+    updated_at: '2026-07-21T15:20:21.966Z'
     cause: null
     next_retry_at: null
   stars:

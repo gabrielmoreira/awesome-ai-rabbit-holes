@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__evan-moon__firma__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: evan-moon/firma
         extracted_url: https://github.com/evan-moon/firma
-        surrounding_text: "- [evan-moon/firma](https://github.com/evan-moon/firma) [![evan-moon/firma MCP server](https://glama.ai/mcp/servers/evan-moon/firma/badges/score.svg)](https://glama.ai/mcp/servers/evan-moon/firma) 📇 🏠 🍎 🪟 🐧 - Local-first CLI asset tracker for overseas stock investors with Claude Desktop MCP integration. 13 tools for portfolio tracking, net worth snapshots, cash flow analysis, and market research (earnings, insider trades, SEC filings) via Finnhub. Install: `npm install -g firma-app`."
+        surrounding_text: >-
+          - [evan-moon/firma](https://github.com/evan-moon/firma) [![evan-moon/firma MCP
+          server](https://glama.ai/mcp/servers/evan-moon/firma/badges/score.svg)](https://glama.ai/mcp/servers/evan-moon/firma)
+          📇 🏠 🍎 🪟 🐧 - Local-first CLI asset tracker for overseas stock investors with Claude Desktop MCP
+          integration. 13 tools for portfolio tracking, net worth snapshots, cash flow analysis, and market research
+          (earnings, insider trades, SEC filings) via Finnhub. Install: `npm install -g firma-app`.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: null
     html_url: null
-    created_at: "2026-04-24T22:37:39Z"
-    pushed_at: "2026-06-06T17:56:45Z"
+    created_at: '2026-04-24T22:37:39Z'
+    pushed_at: '2026-06-06T17:56:45Z'
     description: Local-first CLI portfolio tracker for overseas investors, with built-in MCP server for Claude
     homepage: https://firma-cli.vercel.app/
     topics:
@@ -45,14 +50,20 @@ metadata:
       - sqlite
       - stock
       - typescript
-    last_checked_at: "2026-06-08T05:39:14.713Z"
+    last_checked_at: '2026-06-08T05:39:14.713Z'
     readme:
-      fetched_at: "2026-06-08T05:39:14.713Z"
+      fetched_at: '2026-06-08T05:39:14.713Z'
       bytes: 8498
 insights:
-  summary: A local-first CLI and built-in MCP server that lets developers pipe trade history into Claude to analyze portfolios, net worth, and cash flow using a local SQLite database.
-  why_it_matters: It packages a complete local MCP server implementation with financial data tooling, giving developers a concrete, runnable example of how to build domain-specific tooling on top of Claude.
-  mental_damage: We have finally reached the point where tracking your TSLA addiction requires a local SQLite instance and an MCP server so your AI can gaslight you about your net worth volatility.
+  summary: >-
+    A local-first CLI and built-in MCP server that lets developers pipe trade history into Claude to analyze portfolios,
+    net worth, and cash flow using a local SQLite database.
+  why_it_matters: >-
+    It packages a complete local MCP server implementation with financial data tooling, giving developers a concrete,
+    runnable example of how to build domain-specific tooling on top of Claude.
+  mental_damage: >-
+    We have finally reached the point where tracking your TSLA addiction requires a local SQLite instance and an MCP
+    server so your AI can gaslight you about your net worth volatility.
   tags:
     - mcp
     - cli
@@ -62,37 +73,42 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is a domain-specific MCP server for financial portfolio tracking, explicitly built to integrate with Claude Desktop via `firma mcp install`.
+  reason: >-
+    The product's primary identity is a domain-specific MCP server for financial portfolio tracking, explicitly built to
+    integrate with Claude Desktop via `firma mcp install`.
   evidence:
-    - "Repo description states: 'Local-first CLI portfolio tracker for overseas investors, with built-in MCP server for Claude'"
+    - >-
+      Repo description states: 'Local-first CLI portfolio tracker for overseas investors, with built-in MCP server for
+      Claude'
     - README shows `firma mcp install` wires the tool into Claude Desktop as an MCP server.
     - Listed in awesome-mcp-servers under 'Finance & Fintech' as a Server Implementation.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: "2026-09-03T05:16:41.010Z"
+    updated_at: '2026-09-03T05:16:41.010Z'
     cause:
       type: github_repo_missing
-      message: "GitHub repository not found: evan-moon/firma"
+      message: 'GitHub repository not found: evan-moon/firma'
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

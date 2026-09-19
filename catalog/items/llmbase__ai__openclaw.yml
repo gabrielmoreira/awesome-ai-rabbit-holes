@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__llmbase__ai__openclaw__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -37,7 +37,9 @@ metadata:
     readme: null
 insights:
   summary: OpenClaw is a skill or capability layer referenced in a curated LLM resource list under the 'Skills' section.
-  why_it_matters: It appears to provide reusable skills or workflows for AI agents, potentially streamlining developer tasks through pre-built capabilities.
+  why_it_matters: >-
+    It appears to provide reusable skills or workflows for AI agents, potentially streamlining developer tasks through
+    pre-built capabilities.
   mental_damage: Another day, another abstraction layer between you and the code you’re paid to write.
   tags:
     - skills
@@ -46,20 +48,23 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The project is explicitly listed under 'Skills' in a curated LLM resource directory, aligning with the reusable skill packs or registries category.
+  reason: >-
+    The project is explicitly listed under 'Skills' in a curated LLM resource directory, aligning with the reusable
+    skill packs or registries category.
   evidence:
     - Seen in awesome-LLM-resources under section '技能 Skills'
     - No repo description or README to contradict the skills classification
 placement:
   primary_category: skills
-  section: Skill Registries & Directories
+  secondary_categories: []
+  section: Skill Packs & Libraries
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +73,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:29:16.601Z"
+    updated_at: '2026-07-21T15:29:16.601Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -81,13 +86,17 @@ processing:
       input_hash: sha256:8216d454e6808ade84b11757611f87e80e8c2e166572179d316bb07b8ae1cb1a
       proposed_primary_category: skills
       disagreement: false
-      decision_reason: The project is explicitly listed under 'Skills' in a curated LLM resource directory, aligning with the reusable skill packs or registries category.
+      decision_reason: >-
+        The project is explicitly listed under 'Skills' in a curated LLM resource directory, aligning with the reusable
+        skill packs or registries category.
       decision_evidence:
         - Seen in awesome-LLM-resources under section '技能 Skills'
         - No repo description or README to contradict the skills classification
       category_candidates:
         - skills
         - ai-dev-extensions
-      contrastive_reason: Choose skills over ai-dev-extensions because the source-list context identifies it as a skill/registry rather than a host integration.
+      contrastive_reason: >-
+        Choose skills over ai-dev-extensions because the source-list context identifies it as a skill/registry rather
+        than a host integration.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__codex-curator__studiomcphub__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,17 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: codex-curator/studiomcphub
         extracted_url: https://github.com/codex-curator/studiomcphub
-        surrounding_text: "- [Cifero74/mcp-apple-music](https://github.com/Cifero74/mcp-apple-music) [![mcp-apple-music MCP server](https://glama.ai/mcp/servers/@Cifero74/mcp-apple-music/badges/score.svg)](https://glama.ai/mcp/servers/@Cifero74/mcp-apple-music) 🐍 🏠 🍎 - Full Apple Music integration: search catalog, browse personal library, manage playlists, and get personalised recommendations.- [codex-curator/studiomcphub](https://github.com/codex-curator/studiomcphub) [![studio-mcp-hub MCP server](https://glama.ai/mcp/servers/@codex-curator/studio-mcp-hub/badges/score.svg)](https://glama.ai/mcp/servers/@codex-curator/studio-mcp-hub) 🐍 ☁️ - 32 creative AI tools (18 free) for autonomous agents: image generation (SD 3.5), ESRGAN upscaling, background removal, product mockups, CMYK conversion, print-ready PDF, SVG vectorization, invisible watermarking, AI metadata enrichment, provenance, Arweave storage, NFT minting, and 53K+ museum artworks. Pay per call via x402/Stripe/GCX."
+        surrounding_text: >-
+          - [Cifero74/mcp-apple-music](https://github.com/Cifero74/mcp-apple-music) [![mcp-apple-music MCP
+          server](https://glama.ai/mcp/servers/@Cifero74/mcp-apple-music/badges/score.svg)](https://glama.ai/mcp/servers/@Cifero74/mcp-apple-music)
+          🐍 🏠 🍎 - Full Apple Music integration: search catalog, browse personal library, manage playlists, and get
+          personalised recommendations.- [codex-curator/studiomcphub](https://github.com/codex-curator/studiomcphub)
+          [![studio-mcp-hub MCP
+          server](https://glama.ai/mcp/servers/@codex-curator/studio-mcp-hub/badges/score.svg)](https://glama.ai/mcp/servers/@codex-curator/studio-mcp-hub)
+          🐍 ☁️ - 32 creative AI tools (18 free) for autonomous agents: image generation (SD 3.5), ESRGAN upscaling,
+          background removal, product mockups, CMYK conversion, print-ready PDF, SVG vectorization, invisible
+          watermarking, AI metadata enrichment, provenance, Arweave storage, NFT minting, and 53K+ museum artworks. Pay
+          per call via x402/Stripe/GCX.
         confidence: high
 metadata:
   github:
@@ -30,9 +40,11 @@ metadata:
     archived: false
     full_name: codex-curator/studiomcphub
     html_url: https://github.com/codex-curator/studiomcphub
-    created_at: "2026-02-25T07:32:50Z"
-    pushed_at: "2026-09-06T05:35:55Z"
-    description: "Creative AI MCP server — 32 tools (18 free): image generation, upscaling, bg removal, mockups, CMYK, print-ready PDF, vectorization, watermarking, enrichment, provenance. Pay per call via x402/Stripe/GCX."
+    created_at: '2026-02-25T07:32:50Z'
+    pushed_at: '2026-09-06T05:35:55Z'
+    description: >-
+      Creative AI MCP server — 32 tools (18 free): image generation, upscaling, bg removal, mockups, CMYK, print-ready
+      PDF, vectorization, watermarking, enrichment, provenance. Pay per call via x402/Stripe/GCX.
     homepage: https://studiomcphub.com
     topics:
       - art
@@ -48,13 +60,17 @@ metadata:
       - provenance
       - stable-diffusion
       - x402
-    last_checked_at: "2026-09-07T04:13:49.279Z"
+    last_checked_at: '2026-09-07T04:13:49.279Z'
     readme:
-      fetched_at: "2026-09-07T04:13:49.279Z"
+      fetched_at: '2026-09-07T04:13:49.279Z'
       bytes: 5033
 insights:
-  summary: An MCP server providing 32 creative AI tools (18 free) for image generation, upscaling, provenance, and art dataset access, with pay-per-call pricing via x402/Stripe/GCX.
-  why_it_matters: Developers can integrate creative AI workflows (e.g., image generation, vectorization, or provenance tracking) into agentic systems without managing separate APIs or accounts.
+  summary: >-
+    An MCP server providing 32 creative AI tools (18 free) for image generation, upscaling, provenance, and art dataset
+    access, with pay-per-call pricing via x402/Stripe/GCX.
+  why_it_matters: >-
+    Developers can integrate creative AI workflows (e.g., image generation, vectorization, or provenance tracking) into
+    agentic systems without managing separate APIs or accounts.
   mental_damage: Now your agent can mint NFTs and charge you for it in the same breath.
   tags:
     - mcp-server
@@ -65,31 +81,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the core product identity: a streamable HTTP server exposing 32 tools under the MCP protocol, with explicit MCP discovery endpoints and integration guidance."
+  reason: >-
+    MCP is the core product identity: a streamable HTTP server exposing 32 tools under the MCP protocol, with explicit
+    MCP discovery endpoints and integration guidance.
   evidence:
     - Repo description explicitly labels it as a 'Creative AI MCP server'
     - README highlights MCP endpoints (e.g., `/mcp`, `/.well-known/mcp.json`) and one-click Cursor integration
     - Source-list context includes it under 'Server Implementations > Art & Culture' in awesome-mcp-servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:49.279Z"
+    updated_at: '2026-09-07T04:13:49.279Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:44:56.422Z"
+    updated_at: '2026-07-21T15:44:56.422Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -102,7 +121,9 @@ processing:
       input_hash: sha256:7503b1188c85235ce460e3cd6415a4481ffd1b423a081391b09b6b529caf5d5f
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the core product identity: a streamable HTTP server exposing 32 tools under the MCP protocol, with explicit MCP discovery endpoints and integration guidance."
+      decision_reason: >-
+        MCP is the core product identity: a streamable HTTP server exposing 32 tools under the MCP protocol, with
+        explicit MCP discovery endpoints and integration guidance.
       decision_evidence:
         - Repo description explicitly labels it as a 'Creative AI MCP server'
         - README highlights MCP endpoints (e.g., `/mcp`, `/.well-known/mcp.json`) and one-click Cursor integration
@@ -110,6 +131,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is a standalone MCP server with its own toolset and protocol identity, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is a standalone MCP server with its own toolset and
+        protocol identity, not merely an extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

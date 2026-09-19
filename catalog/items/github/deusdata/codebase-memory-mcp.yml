@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__deusdata__codebase-memory-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,14 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: DeusData/codebase-memory-mcp
         extracted_url: https://github.com/deusdata/codebase-memory-mcp
-        surrounding_text: "- [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) [![DeusData/codebase-memory-mcp MCP server](https://glama.ai/mcp/servers/DeusData/codebase-memory-mcp/badges/score.svg)](https://glama.ai/mcp/servers/DeusData/codebase-memory-mcp) 🌊 🏠 🍎 🪟 🐧 - Code-intelligence engine that indexes a repo into a persistent knowledge graph — functions, classes, call chains, HTTP routes, cross-service links. 159 languages via tree-sitter + Hybrid LSP, sub-ms structural queries, ~99% fewer tokens than grep. Single static binary, zero dependencies, 100% local. `npx codebase-memory-mcp`"
+        surrounding_text: >-
+          - [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)
+          [![DeusData/codebase-memory-mcp MCP
+          server](https://glama.ai/mcp/servers/DeusData/codebase-memory-mcp/badges/score.svg)](https://glama.ai/mcp/servers/DeusData/codebase-memory-mcp)
+          🌊 🏠 🍎 🪟 🐧 - Code-intelligence engine that indexes a repo into a persistent knowledge graph — functions,
+          classes, call chains, HTTP routes, cross-service links. 159 languages via tree-sitter + Hybrid LSP, sub-ms
+          structural queries, ~99% fewer tokens than grep. Single static binary, zero dependencies, 100% local. `npx
+          codebase-memory-mcp`
         confidence: high
 metadata:
   github:
@@ -30,9 +37,11 @@ metadata:
     archived: false
     full_name: DeusData/codebase-memory-mcp
     html_url: https://github.com/DeusData/codebase-memory-mcp
-    created_at: "2026-02-24T22:01:00Z"
-    pushed_at: "2026-09-14T04:11:04Z"
-    description: High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.
+    created_at: '2026-02-24T22:01:00Z'
+    pushed_at: '2026-09-14T04:11:04Z'
+    description: >-
+      High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo
+      in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.
     homepage: https://deusdata.github.io/codebase-memory-mcp/
     topics:
       - aider
@@ -55,14 +64,20 @@ metadata:
       - sqlite
       - tree-sitter
       - windsurf
-    last_checked_at: "2026-09-14T04:13:39.749Z"
+    last_checked_at: '2026-09-14T04:13:39.749Z'
     readme:
-      fetched_at: "2026-09-14T04:13:39.749Z"
+      fetched_at: '2026-09-14T04:13:39.749Z'
       bytes: 75222
 insights:
-  summary: A high-performance code intelligence engine that indexes repositories into persistent knowledge graphs using Tree-Sitter AST analysis.
-  why_it_matters: It drastically reduces token consumption and latency for AI agents by replacing linear file-by-file searches with millisecond-level structural queries.
-  mental_damage: The relief of 120x fewer tokens is almost eclipsed by the anxiety of seeing the Linux kernel indexed in three minutes on your local machine.
+  summary: >-
+    A high-performance code intelligence engine that indexes repositories into persistent knowledge graphs using
+    Tree-Sitter AST analysis.
+  why_it_matters: >-
+    It drastically reduces token consumption and latency for AI agents by replacing linear file-by-file searches with
+    millisecond-level structural queries.
+  mental_damage: >-
+    The relief of 120x fewer tokens is almost eclipsed by the anxiety of seeing the Linux kernel indexed in three
+    minutes on your local machine.
   tags:
     - mcp
     - tree-sitter
@@ -72,31 +87,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core novelty is the specialized indexing and retrieval infrastructure (knowledge graph) used to shape context for LLMs, which fits the 'context-engineering' definition over a simple integration.
+  reason: >-
+    The core novelty is the specialized indexing and retrieval infrastructure (knowledge graph) used to shape context
+    for LLMs, which fits the 'context-engineering' definition over a simple integration.
   evidence:
     - README claims '120x fewer tokens' and 'One graph query replaces dozens of grep/read cycles'
     - Core functionality is building a 'persistent knowledge graph of functions, classes, call chains'
     - Designed as a backend 'intelligence engine' that feeds multiple different coding agents
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: mcp
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (3511) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-06-15T05:51:04.988Z"
+    updated_at: '2026-06-15T05:51:04.988Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:39.749Z"
+    updated_at: '2026-09-14T04:13:39.749Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-15T05:53:54.922Z"
+    updated_at: '2026-06-15T05:53:54.922Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

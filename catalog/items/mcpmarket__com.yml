@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mcpmarket__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - MCP Servers and Directories
         anchor_text: MCP Market
         extracted_url: https://mcpmarket.com
-        surrounding_text: "- **[MCP Market](https://mcpmarket.com/)** – Marketplace for MCP tools and services."
+        surrounding_text: '- **[MCP Market](https://mcpmarket.com/)** – Marketplace for MCP tools and services.'
         confidence: high
 metadata:
   github:
@@ -38,7 +38,9 @@ metadata:
 insights:
   summary: A directory and marketplace for discovering Model Context Protocol (MCP) servers and related tooling.
   why_it_matters: It helps developers find and integrate MCP servers to extend their AI assistants with new capabilities.
-  mental_damage: Because nothing says 'modern development' like spending an afternoon shopping for the perfect MCP server to make your AI finally understand your legacy codebase.
+  mental_damage: >-
+    Because nothing says 'modern development' like spending an afternoon shopping for the perfect MCP server to make
+    your AI finally understand your legacy codebase.
   tags:
     - mcp
     - directory
@@ -47,21 +49,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The site is a discovery and navigation layer for MCP tooling, fitting the 'Lists & Directories' category as a map for developers rather than a standalone product.
+  reason: >-
+    The site is a discovery and navigation layer for MCP tooling, fitting the 'Lists & Directories' category as a map
+    for developers rather than a standalone product.
   evidence:
     - URL is mcpmarket.com, indicating a marketplace or directory specifically for MCP.
     - Found in awesome-ai-coding-tools under the section 'MCP Servers and Directories'.
     - No repo description, README, or code signals found; the identity is a directory/listing site.
 placement:
-  primary_category: awesome-awesomes
-  section: null
+  primary_category: mcp
+  secondary_categories: []
+  section: Registries & Discovery
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
+  reason: 'Categorization review required: placement disagreement: retained ''awesome-awesomes'', proposed ''mcp'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +75,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:29:42.335Z"
+    updated_at: '2026-07-21T15:29:42.335Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -83,13 +88,17 @@ processing:
       input_hash: sha256:5dc1526b0ef4b38915c91641cc9253faec9046b3d209490ca317791c7140b661
       proposed_primary_category: mcp
       disagreement: true
-      decision_reason: The product is explicitly a directory/marketplace for MCP servers, which aligns with the MCP Servers & Tooling category where MCP is the primary identity.
+      decision_reason: >-
+        The product is explicitly a directory/marketplace for MCP servers, which aligns with the MCP Servers & Tooling
+        category where MCP is the primary identity.
       decision_evidence:
         - Seen in awesome-ai-coding-tools under 'MCP Servers and Directories'
         - URL and name (mcpmarket.com) indicate a marketplace/directory focus for MCP
       category_candidates:
         - mcp
         - awesome-awesomes
-      contrastive_reason: Choose mcp over awesome-awesomes because the product's core identity is MCP-specific infrastructure (a registry/marketplace) rather than a general AI tooling directory.
-      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
+      contrastive_reason: >-
+        Choose mcp over awesome-awesomes because the product's core identity is MCP-specific infrastructure (a
+        registry/marketplace) rather than a general AI tooling directory.
+      review_reason: 'Categorization review required: placement disagreement: retained ''awesome-awesomes'', proposed ''mcp'''
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__yusuke710__nanoperplexityai__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 搜索 Search
         anchor_text: nanoPerplexityAI
         extracted_url: https://github.com/yusuke710/nanoperplexityai
-        surrounding_text: "3. [nanoPerplexityAI](https://github.com/Yusuke710/nanoPerplexityAI): The simplest open-source implementation of perplexity.ai."
+        surrounding_text: >-
+          3. [nanoPerplexityAI](https://github.com/Yusuke710/nanoPerplexityAI): The simplest open-source implementation
+          of perplexity.ai.
         confidence: high
 metadata:
   github:
@@ -29,8 +31,8 @@ metadata:
     archived: false
     full_name: Yusuke710/nanoPerplexityAI
     html_url: https://github.com/Yusuke710/nanoPerplexityAI
-    created_at: "2024-07-02T07:59:24Z"
-    pushed_at: "2025-01-24T11:25:25Z"
+    created_at: '2024-07-02T07:59:24Z'
+    pushed_at: '2025-01-24T11:25:25Z'
     description: The simplest open-source implementation of perplexity.ai
     homepage: https://youtu.be/8zBDTnSYSoc?si=WVepg1koE2APzUCu
     topics:
@@ -41,14 +43,18 @@ metadata:
       - perplexity-ai
       - search-engine
       - searchgpt
-    last_checked_at: "2026-07-21T15:21:23.437Z"
+    last_checked_at: '2026-07-21T15:21:23.437Z'
     readme:
-      fetched_at: "2026-07-21T15:21:23.437Z"
+      fetched_at: '2026-07-21T15:21:23.437Z'
       bytes: 2413
 insights:
-  summary: An open-source Python implementation of a Perplexity-like search experience that uses Google and an LLM to answer questions.
+  summary: >-
+    An open-source Python implementation of a Perplexity-like search experience that uses Google and an LLM to answer
+    questions.
   why_it_matters: It gives developers a minimal, hackable way to build or understand AI-powered search agents from ~200 lines of code.
-  mental_damage: Another clone of a commercial product that reinforces the idea that every AI feature must be reimplemented in under 300 lines to prove a point.
+  mental_damage: >-
+    Another clone of a commercial product that reinforces the idea that every AI feature must be reimplemented in under
+    300 lines to prove a point.
   tags:
     - ai-search
     - llm-agent
@@ -56,31 +62,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: It is a standalone terminal-based coding assistant that reads user queries, plans web searches, fetches content, and generates answers using an LLM, fitting the core behavior of a coding agent despite its search focus.
+  reason: >-
+    It is a standalone terminal-based coding assistant that reads user queries, plans web searches, fetches content, and
+    generates answers using an LLM, fitting the core behavior of a coding agent despite its search focus.
   evidence:
-    - "Repo description: 'The simplest open-source implementation of perplexity.ai'"
-    - "README: The script prompts for a question, executes Google search via LLM decision, builds prompts with fetched context, and streams LLM output to a markdown file"
-    - It operates as a self-contained Python script that developers run directly to perform AI-assisted information gathering and answer generation
+    - 'Repo description: ''The simplest open-source implementation of perplexity.ai'''
+    - >-
+      README: The script prompts for a question, executes Google search via LLM decision, builds prompts with fetched
+      context, and streams LLM output to a markdown file
+    - >-
+      It operates as a self-contained Python script that developers run directly to perform AI-assisted information
+      gathering and answer generation
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: ai-frameworks
+  secondary_categories: []
+  section: LLM & Agent SDKs
 lifecycle:
   status: promotion_candidate
   reason: Stars (334) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.657Z"
+    updated_at: '2026-05-06T22:12:15.657Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:23.437Z"
+    updated_at: '2026-07-21T15:21:23.437Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:48:18.316Z"
+    updated_at: '2026-05-12T15:48:18.316Z'
     cause: null
     next_retry_at: null
     attempts: 1

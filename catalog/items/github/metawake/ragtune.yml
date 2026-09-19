@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__metawake__ragtune__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,10 @@ provenance:
           - Observability
         anchor_text: RagTune
         extracted_url: https://github.com/metawake/ragtune
-        surrounding_text: "| [RagTune](https://github.com/metawake/ragtune) | CLI tool for debugging and benchmarking RAG retrieval. EXPLAIN ANALYZE for your retrieval layer. | ![GitHub Badge](https://img.shields.io/github/stars/metawake/ragtune.svg?style=flat-square) |"
+        surrounding_text: >-
+          | [RagTune](https://github.com/metawake/ragtune) | CLI tool for debugging and benchmarking RAG retrieval.
+          EXPLAIN ANALYZE for your retrieval layer. | ![GitHub
+          Badge](https://img.shields.io/github/stars/metawake/ragtune.svg?style=flat-square) |
         confidence: high
 metadata:
   github:
@@ -30,10 +33,10 @@ metadata:
     archived: false
     full_name: metawake/ragtune
     html_url: https://github.com/metawake/ragtune
-    created_at: "2025-12-23T12:12:17Z"
-    pushed_at: "2026-03-25T12:32:04Z"
+    created_at: '2025-12-23T12:12:17Z'
+    pushed_at: '2026-03-25T12:32:04Z'
     description: EXPLAIN ANALYZE for RAG retrieval — inspect, debug, benchmark, and tune your retrieval layer
-    homepage: ""
+    homepage: ''
     topics:
       - benchmarking
       - chroma
@@ -51,14 +54,18 @@ metadata:
       - retrieval-augmented-generation
       - vector-search
       - weaviate
-    last_checked_at: "2026-08-03T05:17:00.728Z"
+    last_checked_at: '2026-08-03T05:17:00.728Z'
     readme:
-      fetched_at: "2026-08-03T05:17:00.728Z"
+      fetched_at: '2026-08-03T05:17:00.728Z'
       bytes: 12745
 insights:
   summary: RagTune is a CLI tool for debugging, benchmarking, and evaluating RAG retrieval layers across vector stores.
-  why_it_matters: It helps developers diagnose and improve retrieval quality in RAG systems by exposing recall, latency, and needle-level coverage metrics.
-  mental_damage: Finally, a way to quantify how often your RAG retrieves the right doc but still misses the answer buried in the third paragraph.
+  why_it_matters: >-
+    It helps developers diagnose and improve retrieval quality in RAG systems by exposing recall, latency, and
+    needle-level coverage metrics.
+  mental_damage: >-
+    Finally, a way to quantify how often your RAG retrieves the right doc but still misses the answer buried in the
+    third paragraph.
   tags:
     - rag
     - evaluation
@@ -68,31 +75,37 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: RagTune is primarily a benchmarking and observability tool for RAG retrieval quality, fitting the evals category as its core job is measuring and comparing retrieval behavior rather than acting as a coding assistant or agent orchestrator.
+  reason: >-
+    RagTune is primarily a benchmarking and observability tool for RAG retrieval quality, fitting the evals category as
+    its core job is measuring and comparing retrieval behavior rather than acting as a coding assistant or agent
+    orchestrator.
   evidence:
-    - "Repo description: 'EXPLAIN ANALYZE for RAG retrieval — inspect, debug, benchmark, and tune your retrieval layer'"
+    - 'Repo description: ''EXPLAIN ANALYZE for RAG retrieval — inspect, debug, benchmark, and tune your retrieval layer'''
     - README emphasizes batch evaluation, recall@k, needle coverage, confidence intervals, and regression detection
-    - Commands like `simulate`, `explain`, and `compare` focus on benchmarking and diagnostics, not code generation or agent coordination
+    - >-
+      Commands like `simulate`, `explain`, and `compare` focus on benchmarking and diagnostics, not code generation or
+      agent coordination
 placement:
   primary_category: evals
-  section: Agent Benchmarks
+  secondary_categories: []
+  section: Observability & Tracing
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.629Z"
+    updated_at: '2026-05-06T22:12:15.629Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:00.728Z"
+    updated_at: '2026-08-03T05:17:00.728Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:20:15.540Z"
+    updated_at: '2026-07-21T16:20:15.540Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -105,14 +118,23 @@ processing:
       input_hash: sha256:bb400409129b207c722317e9372b94e9e1f5bf828d09119f71a686146d2a7c2a
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: RagTune is primarily a benchmarking and observability tool for RAG retrieval quality, fitting the evals category as its core job is measuring and comparing retrieval behavior rather than acting as a coding assistant or agent orchestrator.
+      decision_reason: >-
+        RagTune is primarily a benchmarking and observability tool for RAG retrieval quality, fitting the evals category
+        as its core job is measuring and comparing retrieval behavior rather than acting as a coding assistant or agent
+        orchestrator.
       decision_evidence:
-        - "Repo description: 'EXPLAIN ANALYZE for RAG retrieval — inspect, debug, benchmark, and tune your retrieval layer'"
+        - >-
+          Repo description: 'EXPLAIN ANALYZE for RAG retrieval — inspect, debug, benchmark, and tune your retrieval
+          layer'
         - README emphasizes batch evaluation, recall@k, needle coverage, confidence intervals, and regression detection
-        - Commands like `simulate`, `explain`, and `compare` focus on benchmarking and diagnostics, not code generation or agent coordination
+        - >-
+          Commands like `simulate`, `explain`, and `compare` focus on benchmarking and diagnostics, not code generation
+          or agent coordination
       category_candidates:
         - evals
         - context-engineering
-      contrastive_reason: Choose evals over context-engineering because RagTune's core function is measuring, scoring, and comparing retrieval behavior rather than building or managing context, memory, or prompt systems.
+      contrastive_reason: >-
+        Choose evals over context-engineering because RagTune's core function is measuring, scoring, and comparing
+        retrieval behavior rather than building or managing context, memory, or prompt systems.
       review_reason: null
       review_resume_lifecycle: null

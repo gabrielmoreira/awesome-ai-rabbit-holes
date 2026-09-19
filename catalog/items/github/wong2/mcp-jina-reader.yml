@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wong2__mcp-jina-reader__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Jina Reader
         extracted_url: https://github.com/wong2/mcp-jina-reader
-        surrounding_text: "- **[Jina Reader](https://github.com/wong2/mcp-jina-reader)** - Fetch the content of a remote URL as Markdown with Jina Reader."
+        surrounding_text: >-
+          - **[Jina Reader](https://github.com/wong2/mcp-jina-reader)** - Fetch the content of a remote URL as Markdown
+          with Jina Reader.
         confidence: high
 metadata:
   github:
@@ -29,14 +31,14 @@ metadata:
     archived: false
     full_name: wong2/mcp-jina-reader
     html_url: https://github.com/wong2/mcp-jina-reader
-    created_at: "2024-12-03T11:43:41Z"
-    pushed_at: "2024-12-11T08:10:52Z"
+    created_at: '2024-12-03T11:43:41Z'
+    pushed_at: '2024-12-11T08:10:52Z'
     description: Jina Reader MCP Server
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:21:15.032Z"
+    last_checked_at: '2026-07-21T15:21:15.032Z'
     readme:
-      fetched_at: "2026-07-21T15:21:15.032Z"
+      fetched_at: '2026-07-21T15:21:15.032Z'
       bytes: 89
 insights:
   summary: An MCP server that fetches remote URLs and returns their content as Markdown using Jina Reader.
@@ -49,31 +51,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is an MCP server whose core function is to serve web content via Jina Reader, making MCP the product identity rather than a compatibility layer.
+  reason: >-
+    It is an MCP server whose core function is to serve web content via Jina Reader, making MCP the product identity
+    rather than a compatibility layer.
   evidence:
-    - "Repo description: 'Jina Reader MCP Server'"
-    - "README: 'Fetch the content of a remote URL as Markdown with Jina Reader'"
+    - 'Repo description: ''Jina Reader MCP Server'''
+    - 'README: ''Fetch the content of a remote URL as Markdown with Jina Reader'''
     - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.656Z"
+    updated_at: '2026-05-06T22:12:15.656Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:15.032Z"
+    updated_at: '2026-07-21T15:21:15.032Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:36:48.139Z"
+    updated_at: '2026-05-12T15:36:48.139Z'
     cause: null
     next_retry_at: null
     attempts: 1

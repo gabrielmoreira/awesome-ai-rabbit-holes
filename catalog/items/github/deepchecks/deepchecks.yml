@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__deepchecks__deepchecks__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - Observability
         anchor_text: Deepchecks
         extracted_url: https://github.com/deepchecks/deepchecks
-        surrounding_text: "| [Deepchecks](https://github.com/deepchecks/deepchecks)                         | Tests for Continuous Validation of ML Models & Data. Deepchecks is a Python package for comprehensively validating your machine learning models and data with minimal effort.                                                  | ![GitHub Badge](https://img.shields.io/github/stars/deepchecks/deepchecks.svg?style=flat-square)                 |"
+        surrounding_text: >-
+          | [Deepchecks](https://github.com/deepchecks/deepchecks)                         | Tests for Continuous
+          Validation of ML Models & Data. Deepchecks is a Python package for comprehensively validating your machine
+          learning models and data with minimal effort.                                                  | ![GitHub
+          Badge](https://img.shields.io/github/stars/deepchecks/deepchecks.svg?style=flat-square)                 |
         confidence: high
 metadata:
   github:
@@ -30,9 +34,12 @@ metadata:
     archived: false
     full_name: deepchecks/deepchecks
     html_url: https://github.com/deepchecks/deepchecks
-    created_at: "2021-10-11T14:48:38Z"
-    pushed_at: "2025-12-28T12:07:44Z"
-    description: "Deepchecks: Tests for Continuous Validation of ML Models & Data. Deepchecks is a holistic open-source solution for all of your AI & ML validation needs, enabling to thoroughly test your data and models from research to production."
+    created_at: '2021-10-11T14:48:38Z'
+    pushed_at: '2025-12-28T12:07:44Z'
+    description: >-
+      Deepchecks: Tests for Continuous Validation of ML Models & Data. Deepchecks is a holistic open-source solution for
+      all of your AI & ML validation needs, enabling to thoroughly test your data and models from research to
+      production.
     homepage: https://docs.deepchecks.com/stable
     topics:
       - data-drift
@@ -49,13 +56,17 @@ metadata:
       - pandas-dataframe
       - python
       - pytorch
-    last_checked_at: "2026-09-14T04:13:37.992Z"
+    last_checked_at: '2026-09-14T04:13:37.992Z'
     readme:
-      fetched_at: "2026-09-14T04:13:37.992Z"
+      fetched_at: '2026-09-14T04:13:37.992Z'
       bytes: 31857
 insights:
-  summary: Deepchecks is an open-source solution for continuous validation of ML models and data, covering testing, CI, and monitoring.
-  why_it_matters: It helps developers validate AI/ML models and data pipelines from research to production, ensuring reliability and performance.
+  summary: >-
+    Deepchecks is an open-source solution for continuous validation of ML models and data, covering testing, CI, and
+    monitoring.
+  why_it_matters: >-
+    It helps developers validate AI/ML models and data pipelines from research to production, ensuring reliability and
+    performance.
   mental_damage: Because nothing says 'production-ready' like a model that passes all its tests until it doesn’t.
   tags:
     - ml-validation
@@ -66,31 +77,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core job is measuring, validating, and monitoring model/data behavior, which aligns with the evals category's focus on observability and validation.
+  reason: >-
+    The core job is measuring, validating, and monitoring model/data behavior, which aligns with the evals category's
+    focus on observability and validation.
   evidence:
     - Repo description explicitly states it is for 'Continuous Validation of ML Models & Data'
     - README highlights testing, CI, and monitoring as primary components
     - Source-list context places it under 'Security > Observability' in Awesome-LLMOps
 placement:
   primary_category: evals
-  section: Observability / Tracing / EvalOps
+  secondary_categories: []
+  section: Observability & Tracing
 lifecycle:
   status: promotion_candidate
   reason: Stars (4011) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.610Z"
+    updated_at: '2026-05-06T22:12:15.610Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:37.992Z"
+    updated_at: '2026-09-14T04:13:37.992Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:50:36.120Z"
+    updated_at: '2026-07-21T15:50:36.120Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -103,7 +117,9 @@ processing:
       input_hash: sha256:d6fc9718c47632a2af09937f6f8037c92cdc35a9cd23cbf82a415e7eacd0e457
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: The core job is measuring, validating, and monitoring model/data behavior, which aligns with the evals category's focus on observability and validation.
+      decision_reason: >-
+        The core job is measuring, validating, and monitoring model/data behavior, which aligns with the evals
+        category's focus on observability and validation.
       decision_evidence:
         - Repo description explicitly states it is for 'Continuous Validation of ML Models & Data'
         - README highlights testing, CI, and monitoring as primary components
@@ -111,6 +127,8 @@ processing:
       category_candidates:
         - evals
         - ai-frameworks
-      contrastive_reason: Choose evals over ai-frameworks because the product's main value is validation and observability rather than being a code-first building block.
+      contrastive_reason: >-
+        Choose evals over ai-frameworks because the product's main value is validation and observability rather than
+        being a code-first building block.
       review_reason: null
       review_resume_lifecycle: null

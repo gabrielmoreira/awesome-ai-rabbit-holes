@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dushyant30suthar__endiagram-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: endiagram/mcp
         extracted_url: https://github.com/dushyant30suthar/endiagram-mcp
-        surrounding_text: "- [endiagram/mcp](https://github.com/dushyant30suthar/endiagram-mcp) [![endiagram MCP server](https://glama.ai/mcp/servers/dushyant30suthar/endiagram-mcp/badges/score.svg)](https://glama.ai/mcp/servers/dushyant30suthar/endiagram-mcp) 📇 ☁️ - Structural analysis for any system — 12 deterministic graph tools (topology, bottlenecks, blast radius, trace, diff, centrality) from EN syntax descriptions. No AI inside the computation. Install: `npx @endiagram/mcp`"
+        surrounding_text: >-
+          - [endiagram/mcp](https://github.com/dushyant30suthar/endiagram-mcp) [![endiagram MCP
+          server](https://glama.ai/mcp/servers/dushyant30suthar/endiagram-mcp/badges/score.svg)](https://glama.ai/mcp/servers/dushyant30suthar/endiagram-mcp)
+          📇 ☁️ - Structural analysis for any system — 12 deterministic graph tools (topology, bottlenecks, blast
+          radius, trace, diff, centrality) from EN syntax descriptions. No AI inside the computation. Install: `npx
+          @endiagram/mcp`
         confidence: high
 metadata:
   github:
@@ -30,18 +35,20 @@ metadata:
     archived: false
     full_name: dushyant30suthar/endiagram-mcp
     html_url: https://github.com/dushyant30suthar/endiagram-mcp
-    created_at: "2026-03-19T18:47:35Z"
-    pushed_at: "2026-04-21T17:48:41Z"
-    description: "MCP server for EN Diagram — structural analysis for any system. Install: npx @endiagram/mcp"
+    created_at: '2026-03-19T18:47:35Z'
+    pushed_at: '2026-04-21T17:48:41Z'
+    description: 'MCP server for EN Diagram — structural analysis for any system. Install: npx @endiagram/mcp'
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:45.374Z"
+    last_checked_at: '2026-09-14T04:13:45.374Z'
     readme:
-      fetched_at: "2026-09-14T04:13:45.374Z"
+      fetched_at: '2026-09-14T04:13:45.374Z'
       bytes: 5471
 insights:
   summary: MCP server for EN Diagram that provides deterministic structural analysis of systems using graph theory.
-  why_it_matters: Developers can analyze system architectures, detect risks like deadlocks or single points of failure, and validate invariants without relying on AI-generated insights.
+  why_it_matters: >-
+    Developers can analyze system architectures, detect risks like deadlocks or single points of failure, and validate
+    invariants without relying on AI-generated insights.
   mental_damage: Finally, a tool that lets you prove your system won’t deadlock—just in time for your next 3 AM outage.
   tags:
     - mcp-server
@@ -52,31 +59,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server providing domain-specific structural analysis capabilities, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product's core identity is an MCP server providing domain-specific structural analysis capabilities, fitting the
+    MCP Servers & Tooling category.
   evidence:
     - Repo description explicitly states it is an MCP server for EN Diagram
     - README details MCP installation and integration with Claude Code, Cursor, and Smithery
     - Source-list context shows it is already curated in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.612Z"
+    updated_at: '2026-05-06T22:12:15.612Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:45.374Z"
+    updated_at: '2026-09-14T04:13:45.374Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:45.340Z"
+    updated_at: '2026-07-21T15:51:45.340Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +99,9 @@ processing:
       input_hash: sha256:9719e64f4f68ac2c475545d4a9a0f7fa8c03b671422e56764d602e540a9e7609
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP server providing domain-specific structural analysis capabilities, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product's core identity is an MCP server providing domain-specific structural analysis capabilities, fitting
+        the MCP Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for EN Diagram
         - README details MCP installation and integration with Claude Code, Cursor, and Smithery
@@ -97,6 +109,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary product identity is the MCP server itself, not an extension layer for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary product identity is the MCP server itself, not an
+        extension layer for another assistant.
       review_reason: null
       review_resume_lifecycle: null

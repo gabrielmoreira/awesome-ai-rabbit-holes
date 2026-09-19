@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hlydecker__ucsc-genome-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - <a name="bio"></a>Biology, Medicine and Bioinformatics
         anchor_text: hlydecker/ucsc-genome-mcp
         extracted_url: https://github.com/hlydecker/ucsc-genome-mcp
-        surrounding_text: "- [hlydecker/ucsc-genome-mcp](https://github.com/hlydecker/ucsc-genome-mcp) 🐍 ☁️ - MCP server to interact with the UCSC Genome Browser API, letting you find genomes, chromosomes, and more."
+        surrounding_text: >-
+          - [hlydecker/ucsc-genome-mcp](https://github.com/hlydecker/ucsc-genome-mcp) 🐍 ☁️ - MCP server to interact
+          with the UCSC Genome Browser API, letting you find genomes, chromosomes, and more.
         confidence: high
 metadata:
   github:
@@ -30,22 +32,24 @@ metadata:
     archived: false
     full_name: hlydecker/ucsc-genome-mcp
     html_url: https://github.com/hlydecker/ucsc-genome-mcp
-    created_at: "2025-11-13T03:09:05Z"
-    pushed_at: "2025-11-13T04:06:30Z"
+    created_at: '2025-11-13T03:09:05Z'
+    pushed_at: '2025-11-13T04:06:30Z'
     description: An MCP server to interact with the UCSC Genome Browser API
-    homepage: ""
+    homepage: ''
     topics:
       - bioinformatics
       - genetics
       - mcp
       - mcp-server
-    last_checked_at: "2026-07-30T05:05:38.139Z"
+    last_checked_at: '2026-07-30T05:05:38.139Z'
     readme:
-      fetched_at: "2026-07-30T05:05:38.139Z"
+      fetched_at: '2026-07-30T05:05:38.139Z'
       bytes: 6902
 insights:
   summary: An MCP server that provides access to the UCSC Genome Browser API for LLM applications.
-  why_it_matters: Enables developers to integrate genomic data queries (sequences, tracks, metadata) into AI workflows via the Model Context Protocol.
+  why_it_matters: >-
+    Enables developers to integrate genomic data queries (sequences, tracks, metadata) into AI workflows via the Model
+    Context Protocol.
   mental_damage: Now your AI can finally argue with you about gene annotations instead of just your code.
   tags:
     - mcp-server
@@ -62,24 +66,25 @@ curation:
     - Listed in awesome-mcp-servers under Biology/Bioinformatics
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.619Z"
+    updated_at: '2026-05-06T22:12:15.619Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:38.139Z"
+    updated_at: '2026-07-30T05:05:38.139Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:05:51.799Z"
+    updated_at: '2026-07-21T16:05:51.799Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -100,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension
+        for another assistant.
       review_reason: null
       review_resume_lifecycle: null

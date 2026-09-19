@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__foundationagents__openmanus__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -19,10 +19,10 @@ provenance:
           - Frameworks
         anchor_text: OpenManus
         extracted_url: https://github.com/foundationagents/openmanus
-        surrounding_text: "- [OpenManus](https://github.com/FoundationAgents/OpenManus) - Open-source AI agent"
+        surrounding_text: '- [OpenManus](https://github.com/FoundationAgents/OpenManus) - Open-source AI agent'
         confidence: high
     - id: discovery__github__foundationagents__openmanus__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,7 +34,9 @@ provenance:
           - 智能体 Agents
         anchor_text: OpenManus
         extracted_url: https://github.com/foundationagents/openmanus
-        surrounding_text: "38. [OpenManus](https://github.com/FoundationAgents/OpenManus): No fortress, purely open ground. OpenManus is Coming."
+        surrounding_text: >-
+          38. [OpenManus](https://github.com/FoundationAgents/OpenManus): No fortress, purely open ground. OpenManus is
+          Coming.
         confidence: high
 metadata:
   github:
@@ -44,19 +46,25 @@ metadata:
     archived: false
     full_name: FoundationAgents/OpenManus
     html_url: https://github.com/FoundationAgents/OpenManus
-    created_at: "2025-03-06T14:08:14Z"
-    pushed_at: "2026-08-22T07:53:07Z"
+    created_at: '2025-03-06T14:08:14Z'
+    pushed_at: '2026-08-22T07:53:07Z'
     description: No fortress, purely open ground.  OpenManus is Coming.
     homepage: https://openmanus.github.io/
     topics: []
-    last_checked_at: "2026-09-03T05:16:43.295Z"
+    last_checked_at: '2026-09-03T05:16:43.295Z'
     readme:
-      fetched_at: "2026-09-03T05:16:43.295Z"
+      fetched_at: '2026-09-03T05:16:43.295Z'
       bytes: 9139
 insights:
-  summary: OpenManus is an open-source implementation of a general-purpose AI agent designed to execute complex tasks autonomously.
-  why_it_matters: It provides a transparent, open-source alternative to proprietary general-purpose agents, allowing developers to run and inspect autonomous task execution locally.
-  mental_damage: Another autonomous agent to watch while you contemplate whether you're actually coding or just supervising a very expensive distraction.
+  summary: >-
+    OpenManus is an open-source implementation of a general-purpose AI agent designed to execute complex tasks
+    autonomously.
+  why_it_matters: >-
+    It provides a transparent, open-source alternative to proprietary general-purpose agents, allowing developers to run
+    and inspect autonomous task execution locally.
+  mental_damage: >-
+    Another autonomous agent to watch while you contemplate whether you're actually coding or just supervising a very
+    expensive distraction.
   tags:
     - agents
     - open-source
@@ -65,31 +73,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is a code-first library and runtime for building autonomous agents, intended to be imported and scripted against rather than operated as a primary coding assistant or control plane.
+  reason: >-
+    The project is a code-first library and runtime for building autonomous agents, intended to be imported and scripted
+    against rather than operated as a primary coding assistant or control plane.
   evidence:
-    - README describes it as a 'simple implementation' where users configure LLM APIs in a config.toml file and install via pip/uv.
+    - >-
+      README describes it as a 'simple implementation' where users configure LLM APIs in a config.toml file and install
+      via pip/uv.
     - Created by members of the MetaGPT team, positioning it as a library-style framework in the agent ecosystem.
-    - Included in 'awesome-llm-agents' under the 'Frameworks' section, reinforcing its identity as a developer building block.
+    - >-
+      Included in 'awesome-llm-agents' under the 'Frameworks' section, reinforcing its identity as a developer building
+      block.
 placement:
   primary_category: ai-frameworks
-  section: null
+  secondary_categories: []
+  section: LLM & Agent SDKs
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'coding-agents'"
+  reason: 'Categorization review required: placement disagreement: retained ''ai-frameworks'', proposed ''coding-agents'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.586Z"
+    updated_at: '2026-05-06T22:12:15.586Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:43.295Z"
+    updated_at: '2026-09-03T05:16:43.295Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:58:27.308Z"
+    updated_at: '2026-07-21T15:58:27.308Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -102,7 +117,9 @@ processing:
       input_hash: sha256:0ecf9d286281eea6fd646ab8ab24f0289f822aca8d817b7b2bd839f99ac8c593
       proposed_primary_category: coding-agents
       disagreement: true
-      decision_reason: It is a standalone autonomous agent capable of planning and executing complex workflows, rather than a library or an extension to another editor.
+      decision_reason: >-
+        It is a standalone autonomous agent capable of planning and executing complex workflows, rather than a library
+        or an extension to another editor.
       decision_evidence:
         - README describes it as an implementation of a general-purpose agent (Manus)
         - Capable of browser automation via Playwright
@@ -110,6 +127,8 @@ processing:
       category_candidates:
         - coding-agents
         - agent-orchestration
-      contrastive_reason: Choose coding-agents over agent-orchestration because the tool presents itself as a functional, end-user-facing autonomous agent rather than a developer-facing orchestration framework or library.
-      review_reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'coding-agents'"
+      contrastive_reason: >-
+        Choose coding-agents over agent-orchestration because the tool presents itself as a functional, end-user-facing
+        autonomous agent rather than a developer-facing orchestration framework or library.
+      review_reason: 'Categorization review required: placement disagreement: retained ''ai-frameworks'', proposed ''coding-agents'''
       review_resume_lifecycle: null

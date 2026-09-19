@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__indigoprotocol__indigo-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: IndigoProtocol/indigo-mcp
         extracted_url: https://github.com/indigoprotocol/indigo-mcp
-        surrounding_text: "- [IndigoProtocol/indigo-mcp](https://github.com/IndigoProtocol/indigo-mcp) [![indigo-mcp MCP server](https://glama.ai/mcp/servers/IndigoProtocol/indigo-mcp/badges/score.svg)](https://glama.ai/mcp/servers/IndigoProtocol/indigo-mcp) 📇 ☁️ 🏠 - MCP server for Indigo Protocol on Cardano — iAsset prices, CDP/loan analytics, stability pools, INDY staking, governance, and DEX data for LLM agents"
+        surrounding_text: >-
+          - [IndigoProtocol/indigo-mcp](https://github.com/IndigoProtocol/indigo-mcp) [![indigo-mcp MCP
+          server](https://glama.ai/mcp/servers/IndigoProtocol/indigo-mcp/badges/score.svg)](https://glama.ai/mcp/servers/IndigoProtocol/indigo-mcp)
+          📇 ☁️ 🏠 - MCP server for Indigo Protocol on Cardano — iAsset prices, CDP/loan analytics, stability pools,
+          INDY staking, governance, and DEX data for LLM agents
         confidence: high
 metadata:
   github:
@@ -30,18 +34,22 @@ metadata:
     archived: false
     full_name: IndigoProtocol/indigo-mcp
     html_url: https://github.com/IndigoProtocol/indigo-mcp
-    created_at: "2025-09-17T15:53:21Z"
-    pushed_at: "2026-06-10T17:35:06Z"
-    description: "MCP for connecting LLMs to Indigo Protocol data "
-    homepage: ""
+    created_at: '2025-09-17T15:53:21Z'
+    pushed_at: '2026-06-10T17:35:06Z'
+    description: 'MCP for connecting LLMs to Indigo Protocol data '
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:05:42.884Z"
+    last_checked_at: '2026-07-30T05:05:42.884Z'
     readme:
-      fetched_at: "2026-07-30T05:05:42.884Z"
+      fetched_at: '2026-07-30T05:05:42.884Z'
       bytes: 38203
 insights:
-  summary: MCP server that exposes Indigo Protocol's Cardano DeFi data (iAssets, prices, CDP/loan analytics) to LLM agents via the Model Context Protocol.
-  why_it_matters: Lets developers query real-time Cardano DeFi metrics and execute protocol operations directly from AI coding environments like Claude Desktop or Cursor.
+  summary: >-
+    MCP server that exposes Indigo Protocol's Cardano DeFi data (iAssets, prices, CDP/loan analytics) to LLM agents via
+    the Model Context Protocol.
+  why_it_matters: >-
+    Lets developers query real-time Cardano DeFi metrics and execute protocol operations directly from AI coding
+    environments like Claude Desktop or Cursor.
   mental_damage: Because nothing says 'productive' like debugging a liquidation risk calculation in your prompt.
   tags:
     - mcp
@@ -52,31 +60,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a domain-specific MCP server for Indigo Protocol data, not a compatibility footnote."
+  reason: >-
+    MCP is the product identity: this is a domain-specific MCP server for Indigo Protocol data, not a compatibility
+    footnote.
   evidence:
     - Repo description explicitly states 'MCP for connecting LLMs to Indigo Protocol data'
     - README details 63 MCP tools exposing DeFi data and operations
     - Supports automatic setup for Claude Desktop, Claude Code, Cursor, Windsurf
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.620Z"
+    updated_at: '2026-05-06T22:12:15.620Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:42.884Z"
+    updated_at: '2026-07-30T05:05:42.884Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:07:55.646Z"
+    updated_at: '2026-07-21T16:07:55.646Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +100,9 @@ processing:
       input_hash: sha256:faf16b451d9c3917c7378d372eb000c14cec5e77bc74f54ccec0de3d98ae1d48
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a domain-specific MCP server for Indigo Protocol data, not a compatibility footnote."
+      decision_reason: >-
+        MCP is the product identity: this is a domain-specific MCP server for Indigo Protocol data, not a compatibility
+        footnote.
       decision_evidence:
         - Repo description explicitly states 'MCP for connecting LLMs to Indigo Protocol data'
         - README details 63 MCP tools exposing DeFi data and operations
@@ -97,6 +110,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain data, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain data, not an
+        extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

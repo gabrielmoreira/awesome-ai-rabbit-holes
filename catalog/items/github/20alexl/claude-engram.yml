@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__20alexl__claude-engram__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: 20alexl/claude-engram
         extracted_url: https://github.com/20alexl/claude-engram
-        surrounding_text: "- [20alexl/claude-engram](https://github.com/20alexl/claude-engram) [![20alexl/claude-engram MCP server](https://glama.ai/mcp/servers/20alexl/claude-engram/badges/score.svg)](https://glama.ai/mcp/servers/20alexl/claude-engram) 🐍 🏠 - Persistent memory and session intelligence for Claude Code. Auto-tracks mistakes, decisions, and context via hooks. Mines session history for patterns and cross-session search. Loop detection, pre-edit warnings, context compaction survival. Runs locally with Ollama."
+        surrounding_text: >-
+          - [20alexl/claude-engram](https://github.com/20alexl/claude-engram) [![20alexl/claude-engram MCP
+          server](https://glama.ai/mcp/servers/20alexl/claude-engram/badges/score.svg)](https://glama.ai/mcp/servers/20alexl/claude-engram)
+          🐍 🏠 - Persistent memory and session intelligence for Claude Code. Auto-tracks mistakes, decisions, and
+          context via hooks. Mines session history for patterns and cross-session search. Loop detection, pre-edit
+          warnings, context compaction survival. Runs locally with Ollama.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,12 @@ metadata:
     archived: false
     full_name: 20alexl/claude-engram
     html_url: https://github.com/20alexl/claude-engram
-    created_at: "2026-01-20T03:07:03Z"
-    pushed_at: "2026-08-27T21:38:31Z"
-    description: "The flight recorder for Claude Code. Persistent memory across sessions, hook-level capture of every edit, error and decision, and a bracket around /goal so an unattended run cannot poll all night, lose its record, or die silently. Nothing self-reported: the run report is what the hooks saw."
+    created_at: '2026-01-20T03:07:03Z'
+    pushed_at: '2026-08-27T21:38:31Z'
+    description: >-
+      The flight recorder for Claude Code. Persistent memory across sessions, hook-level capture of every edit, error
+      and decision, and a bracket around /goal so an unattended run cannot poll all night, lose its record, or die
+      silently. Nothing self-reported: the run report is what the hooks saw.
     homepage: https://github.com/20alexl/claude-engram/blob/main/library-book/README.md
     topics:
       - agent-memory
@@ -49,14 +57,20 @@ metadata:
       - persistent-memory
       - python
       - session-recording
-    last_checked_at: "2026-09-17T04:13:25.683Z"
+    last_checked_at: '2026-09-17T04:13:25.683Z'
     readme:
-      fetched_at: "2026-09-17T04:13:25.683Z"
+      fetched_at: '2026-09-17T04:13:25.683Z'
       bytes: 7536
 insights:
-  summary: A persistent memory and session intelligence layer that tracks decisions, mistakes, and context via hooks for AI coding assistants like Claude Code.
-  why_it_matters: It solves the 'context amnesia' problem by automatically mining session histories to prevent repetitive mistakes and inject relevant past decisions into current coding tasks.
-  mental_damage: Finally, a tool to help you realize that 40% of your coding session was just you arguing with the LLM about the same typo.
+  summary: >-
+    A persistent memory and session intelligence layer that tracks decisions, mistakes, and context via hooks for AI
+    coding assistants like Claude Code.
+  why_it_matters: >-
+    It solves the 'context amnesia' problem by automatically mining session histories to prevent repetitive mistakes and
+    inject relevant past decisions into current coding tasks.
+  mental_damage: >-
+    Finally, a tool to help you realize that 40% of your coding session was just you arguing with the LLM about the same
+    typo.
   tags:
     - mcp-server
     - persistent-memory
@@ -66,31 +80,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core novelty is the management of memory, retrieval of past session patterns, and context injection rather than acting as the primary assistant itself.
+  reason: >-
+    The core novelty is the management of memory, retrieval of past session patterns, and context injection rather than
+    acting as the primary assistant itself.
   evidence:
     - README claims it 'automatically tracks mistakes, decisions, and context via hooks'
     - Primary functionality revolves around 'ession mining' and 'emory management'
     - Uses MCP to provide tools like 'emory' and 'ession_mine' to a host assistant
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.598Z"
+    updated_at: '2026-05-06T22:12:15.598Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:25.683Z"
+    updated_at: '2026-09-17T04:13:25.683Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:48:48.582Z"
+    updated_at: '2026-07-20T15:48:48.582Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -103,7 +120,9 @@ processing:
       input_hash: sha256:fd9abfec16f291c8e9fe898f924054576fd99fb3429bcf99bd32e0ccd53fbede
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: The core novelty is the management of memory, retrieval of past session patterns, and context injection rather than acting as the primary assistant itself.
+      decision_reason: >-
+        The core novelty is the management of memory, retrieval of past session patterns, and context injection rather
+        than acting as the primary assistant itself.
       decision_evidence:
         - README claims it 'automatically tracks mistakes, decisions, and context via hooks'
         - Primary functionality revolves around 'ession mining' and 'emory management'
@@ -111,6 +130,8 @@ processing:
       category_candidates:
         - context-engineering
         - ai-dev-extensions
-      contrastive_reason: Choose context-engineering over ai-dev-extensions because the primary innovation is the semantic indexing and management of session memory/context rather than just providing a generic workflow integration.
+      contrastive_reason: >-
+        Choose context-engineering over ai-dev-extensions because the primary innovation is the semantic indexing and
+        management of session memory/context rather than just providing a generic workflow integration.
       review_reason: null
       review_resume_lifecycle: null

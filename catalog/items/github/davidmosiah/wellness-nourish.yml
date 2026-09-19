@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__davidmosiah__wellness-nourish__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-09-01T14:31:13.862Z"
+      discovered_at: '2026-09-01T14:31:13.862Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - <a name="bio"></a>Biology, Medicine and Bioinformatics
         anchor_text: davidmosiah/wellness-nourish
         extracted_url: https://github.com/davidmosiah/wellness-nourish
-        surrounding_text: "- [davidmosiah/wellness-nourish](https://github.com/davidmosiah/wellness-nourish) [![Wellness Nourish MCP server](https://glama.ai/mcp/servers/davidmosiah/wellness-nourish/badges/score.svg)](https://glama.ai/mcp/servers/davidmosiah/wellness-nourish) 📇 🏠 🍎 🪟 🐧 - Zero-credential nutrition and hydration MCP server with food search, barcode lookup, meal estimation, intake logs and daily summaries."
+        surrounding_text: >-
+          - [davidmosiah/wellness-nourish](https://github.com/davidmosiah/wellness-nourish) [![Wellness Nourish MCP
+          server](https://glama.ai/mcp/servers/davidmosiah/wellness-nourish/badges/score.svg)](https://glama.ai/mcp/servers/davidmosiah/wellness-nourish)
+          📇 🏠 🍎 🪟 🐧 - Zero-credential nutrition and hydration MCP server with food search, barcode lookup, meal
+          estimation, intake logs and daily summaries.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,9 @@ metadata:
     archived: false
     full_name: davidmosiah/wellness-nourish
     html_url: https://github.com/davidmosiah/wellness-nourish
-    created_at: "2026-05-05T15:37:45Z"
-    pushed_at: "2026-08-29T10:35:53Z"
-    description: "Local-first nutrition MCP for Claude/Cursor: USDA food search, barcode + photo, meal logging"
+    created_at: '2026-05-05T15:37:45Z'
+    pushed_at: '2026-08-29T10:35:53Z'
+    description: 'Local-first nutrition MCP for Claude/Cursor: USDA food search, barcode + photo, meal logging'
     homepage: https://wellness.delx.ai/nutrition
     topics:
       - ai-agent-tools
@@ -55,14 +59,20 @@ metadata:
       - typescript
       - usda
       - wellness
-    last_checked_at: "2026-09-14T04:13:36.159Z"
+    last_checked_at: '2026-09-14T04:13:36.159Z'
     readme:
-      fetched_at: "2026-09-14T04:13:36.159Z"
+      fetched_at: '2026-09-14T04:13:36.159Z'
       bytes: 14873
 insights:
-  summary: A local-first MCP server that enables AI agents to perform food searches, barcode lookups, and nutritional intake logging.
-  why_it_matters: It allows developers to integrate personal wellness and nutrition data directly into their AI-augmented workflows via the Model Context Protocol.
-  mental_damage: Finally, a way to ensure your coding assistant can provide real-time feedback on your third energy drink of the afternoon.
+  summary: >-
+    A local-first MCP server that enables AI agents to perform food searches, barcode lookups, and nutritional intake
+    logging.
+  why_it_matters: >-
+    It allows developers to integrate personal wellness and nutrition data directly into their AI-augmented workflows
+    via the Model Context Protocol.
+  mental_damage: >-
+    Finally, a way to ensure your coding assistant can provide real-time feedback on your third energy drink of the
+    afternoon.
   tags:
     - mcp
     - nutrition
@@ -75,28 +85,29 @@ curation:
   reason: The product is a domain-specific MCP server designed to provide nutritional intelligence to AI agents.
   evidence:
     - Explicitly identifies as a 'Local-first nutrition MCP'
-    - "Provides specialized domain functionality: USDA food search, barcode lookup, and meal logging"
+    - 'Provides specialized domain functionality: USDA food search, barcode lookup, and meal logging'
     - Designed for integration with MCP clients like Claude Desktop and Cursor
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-01T14:31:13.864Z"
+    updated_at: '2026-09-01T14:31:13.864Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:36.159Z"
+    updated_at: '2026-09-14T04:13:36.159Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-03T05:18:03.183Z"
+    updated_at: '2026-09-03T05:18:03.183Z'
     cause: null
     next_retry_at: null
     classification:
@@ -109,12 +120,14 @@ processing:
       decision_reason: The product is a domain-specific MCP server designed to provide nutritional intelligence to AI agents.
       decision_evidence:
         - Explicitly identifies as a 'Local-first nutrition MCP'
-        - "Provides specialized domain functionality: USDA food search, barcode lookup, and meal logging"
+        - 'Provides specialized domain functionality: USDA food search, barcode lookup, and meal logging'
         - Designed for integration with MCP clients like Claude Desktop and Cursor
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's primary identity is a domain-specific MCP server rather than a general-purpose integration layer for an editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool's primary identity is a domain-specific MCP server rather
+        than a general-purpose integration layer for an editor.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

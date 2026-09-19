@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lc1332__luotuo-chinese-llm__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - Large Language Model
         anchor_text: Luotuo
         extracted_url: https://github.com/lc1332/luotuo-chinese-llm
-        surrounding_text: "| [Luotuo](https://github.com/LC1332/Luotuo-Chinese-LLM)                  | A Chinese LLM, Based on LLaMA and fine tune by Stanford Alpaca, Alpaca LoRA, Japanese-Alpaca-LoRA.                                                                                         | ![GitHub Badge](https://img.shields.io/github/stars/LC1332/Luotuo-Chinese-LLM.svg?style=flat-square)      |"
+        surrounding_text: >-
+          | [Luotuo](https://github.com/LC1332/Luotuo-Chinese-LLM)                  | A Chinese LLM, Based on LLaMA and
+          fine tune by Stanford Alpaca, Alpaca LoRA,
+          Japanese-Alpaca-LoRA.                                                                                        
+          | ![GitHub Badge](https://img.shields.io/github/stars/LC1332/Luotuo-Chinese-LLM.svg?style=flat-square)      |
         confidence: high
 metadata:
   github:
@@ -30,19 +34,23 @@ metadata:
     archived: false
     full_name: LC1332/Luotuo-Chinese-LLM
     html_url: https://github.com/LC1332/Luotuo-Chinese-LLM
-    created_at: "2023-03-21T02:43:12Z"
-    pushed_at: "2023-09-03T06:27:48Z"
-    description: "骆驼(Luotuo): Open Sourced Chinese Language Models. Developed by 陈启源 @ 华中师范大学 & 李鲁鲁 @ 商汤科技 & 冷子昂 @ 商汤科技"
-    homepage: ""
+    created_at: '2023-03-21T02:43:12Z'
+    pushed_at: '2023-09-03T06:27:48Z'
+    description: '骆驼(Luotuo): Open Sourced Chinese Language Models. Developed by 陈启源 @ 华中师范大学 & 李鲁鲁 @ 商汤科技 & 冷子昂 @ 商汤科技'
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:06:04.176Z"
+    last_checked_at: '2026-07-30T05:06:04.176Z'
     readme:
-      fetched_at: "2026-07-30T05:06:04.176Z"
+      fetched_at: '2026-07-30T05:06:04.176Z'
       bytes: 38707
 insights:
-  summary: Luotuo is an open-source Chinese large language model project that includes base models, embeddings, QA, and derivative applications.
+  summary: >-
+    Luotuo is an open-source Chinese large language model project that includes base models, embeddings, QA, and
+    derivative applications.
   why_it_matters: Provides developers with Chinese-language LLMs and related tooling for building or adapting Chinese AI applications.
-  mental_damage: Yet another Chinese LLM project where the real challenge is explaining why this isn’t just another Llama fork with a camel theme.
+  mental_damage: >-
+    Yet another Chinese LLM project where the real challenge is explaining why this isn’t just another Llama fork with a
+    camel theme.
   tags:
     - chinese-llm
     - open-source-model
@@ -50,31 +58,35 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Luotuo is primarily a collection of Chinese language models and local tooling (embeddings, QA, etc.) meant for self-hosted use, fitting the Local AI category as a runtime and model repository with clear developer-facing utility.
+  reason: >-
+    Luotuo is primarily a collection of Chinese language models and local tooling (embeddings, QA, etc.) meant for
+    self-hosted use, fitting the Local AI category as a runtime and model repository with clear developer-facing
+    utility.
   evidence:
-    - "Repo description: 'Open Sourced Chinese Language Models'"
-    - "README: Includes models, embeddings, QA, and derivative apps like Chat凉宫春日 and 驼嵌入"
-    - "Source-list context: Listed in Awesome-LLMOps under Model > Large Language Model"
+    - 'Repo description: ''Open Sourced Chinese Language Models'''
+    - 'README: Includes models, embeddings, QA, and derivative apps like Chat凉宫春日 and 驼嵌入'
+    - 'Source-list context: Listed in Awesome-LLMOps under Model > Large Language Model'
 placement:
   primary_category: local-ai
-  section: Local Runtimes
+  secondary_categories: []
+  section: Fine-tuning & Training
 lifecycle:
   status: promotion_candidate
   reason: Stars (3611) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.626Z"
+    updated_at: '2026-05-06T22:12:15.626Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:04.176Z"
+    updated_at: '2026-07-30T05:06:04.176Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:15:20.892Z"
+    updated_at: '2026-07-21T16:15:20.892Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,14 +99,19 @@ processing:
       input_hash: sha256:809a27de7344f15db0711c825328bf590adb86d4cc1c244032d1ead9009450af
       proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: Luotuo is primarily a collection of Chinese language models and local tooling (embeddings, QA, etc.) meant for self-hosted use, fitting the Local AI category as a runtime and model repository with clear developer-facing utility.
+      decision_reason: >-
+        Luotuo is primarily a collection of Chinese language models and local tooling (embeddings, QA, etc.) meant for
+        self-hosted use, fitting the Local AI category as a runtime and model repository with clear developer-facing
+        utility.
       decision_evidence:
-        - "Repo description: 'Open Sourced Chinese Language Models'"
-        - "README: Includes models, embeddings, QA, and derivative apps like Chat凉宫春日 and 驼嵌入"
-        - "Source-list context: Listed in Awesome-LLMOps under Model > Large Language Model"
+        - 'Repo description: ''Open Sourced Chinese Language Models'''
+        - 'README: Includes models, embeddings, QA, and derivative apps like Chat凉宫春日 and 驼嵌入'
+        - 'Source-list context: Listed in Awesome-LLMOps under Model > Large Language Model'
       category_candidates:
         - local-ai
         - ai-frameworks
-      contrastive_reason: Choose local-ai over ai-frameworks because Luotuo is primarily a model repository and local runtime toolkit, not a code-first framework or SDK for embedding AI into software.
+      contrastive_reason: >-
+        Choose local-ai over ai-frameworks because Luotuo is primarily a model repository and local runtime toolkit, not
+        a code-first framework or SDK for embedding AI into software.
       review_reason: null
       review_resume_lifecycle: null

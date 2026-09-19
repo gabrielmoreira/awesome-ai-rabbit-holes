@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__openlinksoftware__mcp-sqlalchemy-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: openlink/mcp-server-sqlalchemy
         extracted_url: https://github.com/openlinksoftware/mcp-sqlalchemy-server
-        surrounding_text: "- [openlink/mcp-server-sqlalchemy](https://github.com/OpenLinkSoftware/mcp-sqlalchemy-server) 🐍 🏠 - An MCP server for generic Database Management System (DBMS) Connectivity via SQLAlchemy using Python ODBC (pyodbc)"
+        surrounding_text: >-
+          - [openlink/mcp-server-sqlalchemy](https://github.com/OpenLinkSoftware/mcp-sqlalchemy-server) 🐍 🏠 - An MCP
+          server for generic Database Management System (DBMS) Connectivity via SQLAlchemy using Python ODBC (pyodbc)
         confidence: high
 metadata:
   github:
@@ -30,19 +32,25 @@ metadata:
     archived: false
     full_name: OpenLinkSoftware/mcp-sqlalchemy-server
     html_url: https://github.com/OpenLinkSoftware/mcp-sqlalchemy-server
-    created_at: "2025-03-21T23:22:23Z"
-    pushed_at: "2025-05-23T16:12:57Z"
+    created_at: '2025-03-21T23:22:23Z'
+    pushed_at: '2025-05-23T16:12:57Z'
     description: A simple MCP ODBC server using FastAPI, ODBC and SQLAlchemy.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:27.101Z"
+    last_checked_at: '2026-07-20T16:42:27.101Z'
     readme:
-      fetched_at: "2026-07-20T16:42:27.101Z"
+      fetched_at: '2026-07-20T16:42:27.101Z'
       bytes: 10641
 insights:
-  summary: A lightweight MCP server using FastAPI, SQLAlchemy, and pyodbc that exposes database schemas, tables, and querying capabilities to MCP-compatible clients like Claude Desktop.
-  why_it_matters: It allows developers to connect AI assistants directly to Virtuoso, PostgreSQL, MySQL, or SQLite databases via the Model Context Protocol for interactive data exploration.
-  mental_damage: We have successfully abstracted the ancient ritual of writing SQL into the slightly newer ritual of convincing an LLM to write SQL via a FastAPI wrapper.
+  summary: >-
+    A lightweight MCP server using FastAPI, SQLAlchemy, and pyodbc that exposes database schemas, tables, and querying
+    capabilities to MCP-compatible clients like Claude Desktop.
+  why_it_matters: >-
+    It allows developers to connect AI assistants directly to Virtuoso, PostgreSQL, MySQL, or SQLite databases via the
+    Model Context Protocol for interactive data exploration.
+  mental_damage: >-
+    We have successfully abstracted the ancient ritual of writing SQL into the slightly newer ritual of convincing an
+    LLM to write SQL via a FastAPI wrapper.
   tags:
     - mcp
     - database
@@ -52,35 +60,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server implementation for database access, fitting cleanly into the MCP Servers & Tooling category.
+  reason: >-
+    The project's primary identity is an MCP server implementation for database access, fitting cleanly into the MCP
+    Servers & Tooling category.
   evidence:
-    - "Repo description explicitly states: 'A simple MCP ODBC server using FastAPI, ODBC and SQLAlchemy.'"
+    - 'Repo description explicitly states: ''A simple MCP ODBC server using FastAPI, ODBC and SQLAlchemy.'''
     - README details MCP server features like 'Get Schemas', 'Execute Queries', and configuration for 'Claude Desktop'.
     - Listed in the 'awesome-mcp-servers' directory under 'Databases', confirming its protocol-centric identity.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.640Z"
+    updated_at: '2026-05-06T22:12:15.640Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:27.101Z"
+    updated_at: '2026-07-20T16:42:27.101Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

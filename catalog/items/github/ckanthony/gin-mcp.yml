@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ckanthony__gin-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: ckanthony/gin-mcp
         extracted_url: https://github.com/ckanthony/gin-mcp
-        surrounding_text: "- [ckanthony/gin-mcp](https://github.com/ckanthony/gin-mcp) 🏎️ ☁️ 📟 🪟 🐧 🍎 - A zero-configuration Go library to automatically expose existing Gin web framework APIs as MCP tools."
+        surrounding_text: >-
+          - [ckanthony/gin-mcp](https://github.com/ckanthony/gin-mcp) 🏎️ ☁️ 📟 🪟 🐧 🍎 - A zero-configuration Go
+          library to automatically expose existing Gin web framework APIs as MCP tools.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: ckanthony/gin-mcp
     html_url: https://github.com/ckanthony/gin-mcp
-    created_at: "2025-04-17T17:27:12Z"
-    pushed_at: "2026-08-11T20:25:02Z"
+    created_at: '2025-04-17T17:27:12Z'
+    pushed_at: '2026-08-11T20:25:02Z'
     description: Enable MCP features for any Gin API with a line of code
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:46.022Z"
+    last_checked_at: '2026-09-07T04:13:46.022Z'
     readme:
-      fetched_at: "2026-09-07T04:13:46.022Z"
+      fetched_at: '2026-09-07T04:13:46.022Z'
       bytes: 20797
 insights:
   summary: A zero-config Go library that exposes existing Gin API endpoints as MCP tools for use with MCP-compatible clients.
-  why_it_matters: Developers can instantly make their Gin APIs discoverable and callable by AI assistants like Cursor or Claude Desktop without writing MCP boilerplate.
+  why_it_matters: >-
+    Developers can instantly make their Gin APIs discoverable and callable by AI assistants like Cursor or Claude
+    Desktop without writing MCP boilerplate.
   mental_damage: Now your REST API can moonlight as an AI tool server, because why should your endpoints only serve humans?
   tags:
     - mcp
@@ -52,31 +56,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the core product identity: it is a library that turns Gin APIs into MCP servers, not just an adapter or compatibility feature."
+  reason: >-
+    MCP is the core product identity: it is a library that turns Gin APIs into MCP servers, not just an adapter or
+    compatibility feature.
   evidence:
     - Repo description explicitly states it enables MCP features for Gin APIs
     - README emphasizes zero-config MCP server creation for existing Gin routes
     - Already listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:46.022Z"
+    updated_at: '2026-09-07T04:13:46.022Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:43:47.261Z"
+    updated_at: '2026-07-21T15:43:47.261Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +96,9 @@ processing:
       input_hash: sha256:e79e7b9fedc764f9b2ee82b9d3edc2b8a47cdeaaf5b630bc9fe100cb21f54365
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the core product identity: it is a library that turns Gin APIs into MCP servers, not just an adapter or compatibility feature."
+      decision_reason: >-
+        MCP is the core product identity: it is a library that turns Gin APIs into MCP servers, not just an adapter or
+        compatibility feature.
       decision_evidence:
         - Repo description explicitly states it enables MCP features for Gin APIs
         - README emphasizes zero-config MCP server creation for existing Gin routes
@@ -97,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product's primary identity is MCP infrastructure (server bridge) rather than a general-purpose SDK.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product's primary identity is MCP infrastructure (server bridge)
+        rather than a general-purpose SDK.
       review_reason: null
       review_resume_lifecycle: null

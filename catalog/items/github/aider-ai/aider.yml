@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aider-ai__aider__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,12 @@ provenance:
           - Open Source
         anchor_text: Aider
         extracted_url: https://github.com/aider-ai/aider
-        surrounding_text: "- **[Aider](https://github.com/Aider-AI/aider)** `⭐ 44.3k` — Pair-programming agent for editing files via diffs/patches, with strong git and multi-file workflows."
+        surrounding_text: >-
+          - **[Aider](https://github.com/Aider-AI/aider)** `⭐ 44.3k` — Pair-programming agent for editing files via
+          diffs/patches, with strong git and multi-file workflows.
         confidence: high
     - id: discovery__github__aider-ai__aider__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -35,10 +37,10 @@ provenance:
           - Aider
         anchor_text: Aider
         extracted_url: https://github.com/paul-gauthier/aider
-        surrounding_text: "## [Aider](https://github.com/paul-gauthier/aider)"
+        surrounding_text: '## [Aider](https://github.com/paul-gauthier/aider)'
         confidence: high
     - id: discovery__github__aider-ai__aider__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -50,7 +52,9 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Aider
         extracted_url: https://aider.chat
-        surrounding_text: "- **[Aider](https://aider.chat)** – Terminal-based AI pair programming tool for editing code in local git repos."
+        surrounding_text: >-
+          - **[Aider](https://aider.chat)** – Terminal-based AI pair programming tool for editing code in local git
+          repos.
         confidence: high
 metadata:
   github:
@@ -60,8 +64,8 @@ metadata:
     archived: false
     full_name: Aider-AI/aider
     html_url: https://github.com/Aider-AI/aider
-    created_at: "2023-05-09T18:57:49Z"
-    pushed_at: "2026-05-22T14:02:20Z"
+    created_at: '2023-05-09T18:57:49Z'
+    pushed_at: '2026-05-22T14:02:20Z'
     description: aider is AI pair programming in your terminal
     homepage: https://aider.chat/
     topics:
@@ -78,13 +82,15 @@ metadata:
       - llama
       - openai
       - sonnet
-    last_checked_at: "2026-09-17T04:13:35.921Z"
+    last_checked_at: '2026-09-17T04:13:35.921Z'
     readme:
-      fetched_at: "2026-09-17T04:13:35.921Z"
+      fetched_at: '2026-09-17T04:13:35.921Z'
       bytes: 12406
 insights:
   summary: A terminal-based AI pair programmer that can edit code, manage git commits, and run tests.
-  why_it_matters: It allows developers to stay within their command-line workflow while delegating complex refactors, bug fixes, and feature implementations to LLMs.
+  why_it_matters: >-
+    It allows developers to stay within their command-line workflow while delegating complex refactors, bug fixes, and
+    feature implementations to LLMs.
   mental_damage: You'll spend less time typing and more time staring at a terminal waiting for a massive diff to finish generating.
   tags:
     - cli
@@ -94,13 +100,16 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Aider is a standalone coding assistant that performs high-level reasoning, file editing, and git management from the terminal.
+  reason: >-
+    Aider is a standalone coding assistant that performs high-level reasoning, file editing, and git management from the
+    terminal.
   evidence:
     - 47,522 stars on GitHub
     - README describes it as AI pair programming in your terminal
     - Directly modifies files and manages git commits automatically
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -108,17 +117,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.576Z"
+    updated_at: '2026-05-06T22:12:15.576Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:35.921Z"
+    updated_at: '2026-09-17T04:13:35.921Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:09:51.716Z"
+    updated_at: '2026-07-20T16:09:51.716Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -131,7 +140,9 @@ processing:
       input_hash: sha256:054c7eec62071846b28bcc57f3633dd747271a3b8905d78760044343a50f80bb
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Aider is a standalone coding assistant that performs high-level reasoning, file editing, and git management from the terminal.
+      decision_reason: >-
+        Aider is a standalone coding assistant that performs high-level reasoning, file editing, and git management from
+        the terminal.
       decision_evidence:
         - 47,522 stars on GitHub
         - README describes it as AI pair programming in your terminal
@@ -139,6 +150,8 @@ processing:
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because Aider acts as the primary agent driving development tasks rather than just a feature-adder for an existing editor.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because Aider acts as the primary agent driving development tasks
+        rather than just a feature-adder for an existing editor.
       review_reason: null
       review_resume_lifecycle: null

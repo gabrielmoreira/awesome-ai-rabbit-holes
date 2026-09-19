@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__claynsn__agent-discovery-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,17 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: Claynsn/agent-discovery-mcp
         extracted_url: https://github.com/claynsn/agent-discovery-mcp
-        surrounding_text: "- [Claynsn/agent-discovery-mcp](https://github.com/Claynsn/agent-discovery-mcp) [![Claynsn/agent-discovery-mcp MCP server](https://glama.ai/mcp/servers/Claynsn/agent-discovery-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Claynsn/agent-discovery-mcp) 📇 🏠 🍎 🪟 🐧 - Minimal MCP server (~250 lines TS) for ERC-8004 agent discovery + x402 payment. Three tools: `find_agents_by_skill` (via 8004scan public API), `get_agent_card`, `call_agent_with_payment` using Coinbase's official `x402-fetch`. Direct EOA signing — no smart account, no bundler, no relay. Works with Claude Code, OpenClaw, Cursor, Cline. USDC on Base/Ethereum + testnets, MIT."
+        surrounding_text: >-
+          - [Claynsn/agent-discovery-mcp](https://github.com/Claynsn/agent-discovery-mcp) [![Claynsn/agent-discovery-mcp
+          MCP
+          server](https://glama.ai/mcp/servers/Claynsn/agent-discovery-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Claynsn/agent-discovery-mcp)
+          📇 🏠 🍎 🪟 🐧 - Minimal MCP server (~250 lines TS) for ERC-8004 agent discovery + x402 payment. Three tools:
+          `find_agents_by_skill` (via 8004scan public API), `get_agent_card`, `call_agent_with_payment` using Coinbase's
+          official `x402-fetch`. Direct EOA signing — no smart account, no bundler, no relay. Works with Claude Code,
+          OpenClaw, Cursor, Cline. USDC on Base/Ethereum + testnets, MIT.
         confidence: high
     - id: discovery__github__clayytsai__agent-discovery-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-06T05:29:57.556Z"
+      discovered_at: '2026-07-06T05:29:57.556Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -36,7 +43,14 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: Claynsn/agent-discovery-mcp
         extracted_url: https://github.com/claynsn/agent-discovery-mcp
-        surrounding_text: "- [Claynsn/agent-discovery-mcp](https://github.com/Claynsn/agent-discovery-mcp) [![Claynsn/agent-discovery-mcp MCP server](https://glama.ai/mcp/servers/Claynsn/agent-discovery-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Claynsn/agent-discovery-mcp) 📇 🏠 🍎 🪟 🐧 - Minimal MCP server (~250 lines TS) for ERC-8004 agent discovery + x402 payment. Three tools: `find_agents_by_skill` (via 8004scan public API), `get_agent_card`, `call_agent_with_payment` using Coinbase's official `x402-fetch`. Direct EOA signing — no smart account, no bundler, no relay. Works with Claude Code, OpenClaw, Cursor, Cline. USDC on Base/Ethereum + testnets, MIT."
+        surrounding_text: >-
+          - [Claynsn/agent-discovery-mcp](https://github.com/Claynsn/agent-discovery-mcp) [![Claynsn/agent-discovery-mcp
+          MCP
+          server](https://glama.ai/mcp/servers/Claynsn/agent-discovery-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Claynsn/agent-discovery-mcp)
+          📇 🏠 🍎 🪟 🐧 - Minimal MCP server (~250 lines TS) for ERC-8004 agent discovery + x402 payment. Three tools:
+          `find_agents_by_skill` (via 8004scan public API), `get_agent_card`, `call_agent_with_payment` using Coinbase's
+          official `x402-fetch`. Direct EOA signing — no smart account, no bundler, no relay. Works with Claude Code,
+          OpenClaw, Cursor, Cline. USDC on Base/Ethereum + testnets, MIT.
         confidence: high
 metadata:
   github:
@@ -46,9 +60,11 @@ metadata:
     archived: false
     full_name: ClayYTsai/agent-discovery-mcp
     html_url: https://github.com/ClayYTsai/agent-discovery-mcp
-    created_at: "2026-05-11T14:49:16Z"
-    pushed_at: "2026-06-08T17:01:21Z"
-    description: MCP server for ERC-8004 agent discovery + x402 payment. No smart account, no relay — just EOA signing. Works with Claude Code, OpenClaw, Cursor, Cline.
+    created_at: '2026-05-11T14:49:16Z'
+    pushed_at: '2026-06-08T17:01:21Z'
+    description: >-
+      MCP server for ERC-8004 agent discovery + x402 payment. No smart account, no relay — just EOA signing. Works with
+      Claude Code, OpenClaw, Cursor, Cline.
     homepage: null
     topics:
       - agent
@@ -59,13 +75,17 @@ metadata:
       - mcp
       - model-context-protocol
       - x402
-    last_checked_at: "2026-09-07T04:13:46.807Z"
+    last_checked_at: '2026-09-07T04:13:46.807Z'
     readme:
-      fetched_at: "2026-09-07T04:13:46.807Z"
+      fetched_at: '2026-09-07T04:13:46.807Z'
       bytes: 9563
 insights:
-  summary: An MCP server that allows AI coding agents to discover on-chain agents via the ERC-8004 standard and pay them using the x402 protocol.
-  why_it_matters: It enables developers to integrate autonomous on-chain agents into existing AI coding workflows with automated discovery and payment.
+  summary: >-
+    An MCP server that allows AI coding agents to discover on-chain agents via the ERC-8004 standard and pay them using
+    the x402 protocol.
+  why_it_matters: >-
+    It enables developers to integrate autonomous on-chain agents into existing AI coding workflows with automated
+    discovery and payment.
   mental_damage: Because your coding assistant just gained the ability to hire other agents and spend your crypto without asking.
   tags:
     - mcp
@@ -79,18 +99,19 @@ curation:
   reason: The project is a domain-specific MCP server providing specialized capabilities for agent discovery and payment.
   evidence:
     - Explicitly identifies as an MCP server in the README and repo description
-    - "Provides specific domain tools: find_agents_by_skill, get_agent_card, and call_agent_with_payment"
+    - 'Provides specific domain tools: find_agents_by_skill, get_agent_card, and call_agent_with_payment'
     - Integrates specific protocols like ERC-8004 and x402 directly into the MCP toolset
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-08-27T06:21:55.130Z"
+    updated_at: '2026-08-27T06:21:55.130Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,23 +125,25 @@ processing:
       decision_reason: The project is a domain-specific MCP server providing specialized capabilities for agent discovery and payment.
       decision_evidence:
         - Explicitly identifies as an MCP server in the README and repo description
-        - "Provides specific domain tools: find_agents_by_skill, get_agent_card, and call_agent_with_payment"
+        - 'Provides specific domain tools: find_agents_by_skill, get_agent_card, and call_agent_with_payment'
         - Integrates specific protocols like ERC-8004 and x402 directly into the MCP toolset
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's core identity is a Model Context Protocol server providing specialized domain logic rather than a general integration layer for an editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool's core identity is a Model Context Protocol server providing
+        specialized domain logic rather than a general integration layer for an editor.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
   discover:
     status: done
-    updated_at: "2026-07-06T05:29:57.557Z"
+    updated_at: '2026-07-06T05:29:57.557Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:46.807Z"
+    updated_at: '2026-09-07T04:13:46.807Z'
     cause: null
     next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__microsoft__minference__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,7 @@ provenance:
           - 推理 Inference
         anchor_text: MInference
         extracted_url: https://github.com/microsoft/minference
-        surrounding_text: "26. [MInference](https://github.com/microsoft/MInference): About"
+        surrounding_text: '26. [MInference](https://github.com/microsoft/MInference): About'
         confidence: high
 metadata:
   github:
@@ -29,19 +29,28 @@ metadata:
     archived: false
     full_name: microsoft/MInference
     html_url: https://github.com/microsoft/MInference
-    created_at: "2024-05-22T12:59:47Z"
-    pushed_at: "2026-04-08T08:04:38Z"
-    description: "[NeurIPS'24 Spotlight, ICLR'25, ICML'25] To speed up Long-context LLMs' inference, approximate and dynamic sparse calculate the attention, which reduces inference latency by up to 10x for pre-filling on an A100 while maintaining accuracy."
+    created_at: '2024-05-22T12:59:47Z'
+    pushed_at: '2026-04-08T08:04:38Z'
+    description: >-
+      [NeurIPS'24 Spotlight, ICLR'25, ICML'25] To speed up Long-context LLMs' inference, approximate and dynamic sparse
+      calculate the attention, which reduces inference latency by up to 10x for pre-filling on an A100 while maintaining
+      accuracy.
     homepage: https://aka.ms/MInference
     topics: []
-    last_checked_at: "2026-08-03T05:17:01.987Z"
+    last_checked_at: '2026-08-03T05:17:01.987Z'
     readme:
-      fetched_at: "2026-08-03T05:17:01.987Z"
+      fetched_at: '2026-08-03T05:17:01.987Z'
       bytes: 23042
 insights:
-  summary: MInference is a Microsoft library that accelerates long-context LLM inference using dynamic sparse attention to reduce latency by up to 10x on hardware like A100 while preserving accuracy.
-  why_it_matters: It lets developers run long-context models faster and cheaper without sacrificing quality, improving throughput for RAG, agents, and code understanding workflows.
-  mental_damage: Another layer of optimization to chase before realizing your prompt engineering still can't fit the whole codebase in context.
+  summary: >-
+    MInference is a Microsoft library that accelerates long-context LLM inference using dynamic sparse attention to
+    reduce latency by up to 10x on hardware like A100 while preserving accuracy.
+  why_it_matters: >-
+    It lets developers run long-context models faster and cheaper without sacrificing quality, improving throughput for
+    RAG, agents, and code understanding workflows.
+  mental_damage: >-
+    Another layer of optimization to chase before realizing your prompt engineering still can't fit the whole codebase
+    in context.
   tags:
     - inference
     - optimization
@@ -49,31 +58,39 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MInference is a code-first library/SDK that developers import to accelerate attention computation in long-context LLMs, fitting the Frameworks & SDKs category as reusable infrastructure rather than a standalone assistant or app builder.
+  reason: >-
+    MInference is a code-first library/SDK that developers import to accelerate attention computation in long-context
+    LLMs, fitting the Frameworks & SDKs category as reusable infrastructure rather than a standalone assistant or app
+    builder.
   evidence:
-    - "Repo description: 'To speed up Long-context LLMs' inference, approximate and dynamic sparse calculate the attention, which reduces inference latency by up to 10x for pre-filling on an A100 while maintaining accuracy.'"
-    - "Created: 2024-05-22, pushed: 2026-04-08, stars: 1221, license: MIT — active and maintained open-source project."
-    - "Source-list context: included in awesome-LLM-resources under '推理 Inference', indicating recognition as an LLM inference optimization tool."
+    - >-
+      Repo description: 'To speed up Long-context LLMs' inference, approximate and dynamic sparse calculate the
+      attention, which reduces inference latency by up to 10x for pre-filling on an A100 while maintaining accuracy.'
+    - 'Created: 2024-05-22, pushed: 2026-04-08, stars: 1221, license: MIT — active and maintained open-source project.'
+    - >-
+      Source-list context: included in awesome-LLM-resources under '推理 Inference', indicating recognition as an LLM
+      inference optimization tool.
 placement:
-  primary_category: ai-frameworks
-  section: Memory / Retrieval Infrastructure
+  primary_category: local-ai
+  secondary_categories: []
+  section: Inference Engines
 lifecycle:
   status: promotion_candidate
   reason: Stars (1211) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.629Z"
+    updated_at: '2026-05-06T22:12:15.629Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:01.987Z"
+    updated_at: '2026-08-03T05:17:01.987Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:20:37.143Z"
+    updated_at: '2026-07-21T16:20:37.143Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -86,14 +103,26 @@ processing:
       input_hash: sha256:3e6c71d90fb7e30aff3a09da9a02eb5639331dee842a2209ad7eb6b98a3ce167
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: MInference is a code-first library/SDK that developers import to accelerate attention computation in long-context LLMs, fitting the Frameworks & SDKs category as reusable infrastructure rather than a standalone assistant or app builder.
+      decision_reason: >-
+        MInference is a code-first library/SDK that developers import to accelerate attention computation in
+        long-context LLMs, fitting the Frameworks & SDKs category as reusable infrastructure rather than a standalone
+        assistant or app builder.
       decision_evidence:
-        - "Repo description: 'To speed up Long-context LLMs' inference, approximate and dynamic sparse calculate the attention, which reduces inference latency by up to 10x for pre-filling on an A100 while maintaining accuracy.'"
-        - "Created: 2024-05-22, pushed: 2026-04-08, stars: 1221, license: MIT — active and maintained open-source project."
-        - "Source-list context: included in awesome-LLM-resources under '推理 Inference', indicating recognition as an LLM inference optimization tool."
+        - >-
+          Repo description: 'To speed up Long-context LLMs' inference, approximate and dynamic sparse calculate the
+          attention, which reduces inference latency by up to 10x for pre-filling on an A100 while maintaining
+          accuracy.'
+        - >-
+          Created: 2024-05-22, pushed: 2026-04-08, stars: 1221, license: MIT — active and maintained open-source
+          project.
+        - >-
+          Source-list context: included in awesome-LLM-resources under '推理 Inference', indicating recognition as an LLM
+          inference optimization tool.
       category_candidates:
         - ai-frameworks
         - local-ai
-      contrastive_reason: Choose ai-frameworks over local-ai because MInference is a library/SDK for optimizing LLM inference that developers import into their code, not a local runtime or desktop tool for running models on personal hardware.
+      contrastive_reason: >-
+        Choose ai-frameworks over local-ai because MInference is a library/SDK for optimizing LLM inference that
+        developers import into their code, not a local runtime or desktop tool for running models on personal hardware.
       review_reason: null
       review_resume_lifecycle: null

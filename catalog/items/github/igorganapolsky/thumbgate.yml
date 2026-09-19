@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__igorganapolsky__thumbgate__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: IgorGanapolsky/ThumbGate
         extracted_url: https://github.com/igorganapolsky/thumbgate
-        surrounding_text: "- [IgorGanapolsky/ThumbGate](https://github.com/IgorGanapolsky/ThumbGate) [![IgorGanapolsky/ThumbGate MCP server](https://glama.ai/mcp/servers/IgorGanapolsky/ThumbGate/badges/score.svg)](https://glama.ai/mcp/servers/IgorGanapolsky/ThumbGate) 📇 🏠 - MCP server that blocks AI coding agents from repeating mistakes — turns thumbs-up/down feedback into enforced pre-action gates via PreToolUse hooks. Install: `npx thumbgate`."
+        surrounding_text: >-
+          - [IgorGanapolsky/ThumbGate](https://github.com/IgorGanapolsky/ThumbGate) [![IgorGanapolsky/ThumbGate MCP
+          server](https://glama.ai/mcp/servers/IgorGanapolsky/ThumbGate/badges/score.svg)](https://glama.ai/mcp/servers/IgorGanapolsky/ThumbGate)
+          📇 🏠 - MCP server that blocks AI coding agents from repeating mistakes — turns thumbs-up/down feedback into
+          enforced pre-action gates via PreToolUse hooks. Install: `npx thumbgate`.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: IgorGanapolsky/ThumbGate
     html_url: https://github.com/IgorGanapolsky/ThumbGate
-    created_at: "2026-03-03T18:13:26Z"
-    pushed_at: "2026-07-29T21:32:43Z"
-    description: ThumbGate Pre-Action Checks self-improve from ranked lessons and repeated failures, hard-block detected secret leaks, and block matches in strict mode.
+    created_at: '2026-03-03T18:13:26Z'
+    pushed_at: '2026-07-29T21:32:43Z'
+    description: >-
+      ThumbGate Pre-Action Checks self-improve from ranked lessons and repeated failures, hard-block detected secret
+      leaks, and block matches in strict mode.
     homepage: https://thumbgate.ai
     topics:
       - agent-reliability
@@ -53,13 +59,17 @@ metadata:
       - self-improving-agents
       - thompson-sampling
       - thumbgate
-    last_checked_at: "2026-07-30T05:05:41.973Z"
+    last_checked_at: '2026-07-30T05:05:41.973Z'
     readme:
-      fetched_at: "2026-07-30T05:05:41.973Z"
+      fetched_at: '2026-07-30T05:05:41.973Z'
       bytes: 53263
 insights:
-  summary: ThumbGate is a tool that derives prevention rules from repeated AI agent failures to block risky tool calls and secret leaks across MCP-compatible agents.
-  why_it_matters: It stops developers from paying for the same AI mistakes repeatedly by intercepting and blocking known bad patterns before they reach the model.
+  summary: >-
+    ThumbGate is a tool that derives prevention rules from repeated AI agent failures to block risky tool calls and
+    secret leaks across MCP-compatible agents.
+  why_it_matters: >-
+    It stops developers from paying for the same AI mistakes repeatedly by intercepting and blocking known bad patterns
+    before they reach the model.
   mental_damage: Finally, a way to make your AI assistant remember the expensive lessons you already taught it.
   tags:
     - agent-safety
@@ -70,31 +80,37 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: ThumbGate primarily augments MCP-compatible agents (Claude Code, Cursor, etc.) with pre-action checks and governance, rather than being a standalone coding assistant or primary IDE.
+  reason: >-
+    ThumbGate primarily augments MCP-compatible agents (Claude Code, Cursor, etc.) with pre-action checks and
+    governance, rather than being a standalone coding assistant or primary IDE.
   evidence:
-    - Repo description explicitly states it 'derive[s] rules from repeated failures, flag[s] risky tool calls, hard-block[s] detected secret leaks' for MCP-compatible agents
-    - README positions it as a layer on top of existing agents ('Works with Claude Code, Cursor, Codex, Gemini CLI, Amp, Cline, OpenCode, and any MCP-compatible agent')
+    - >-
+      Repo description explicitly states it 'derive[s] rules from repeated failures, flag[s] risky tool calls,
+      hard-block[s] detected secret leaks' for MCP-compatible agents
+    - >-
+      README positions it as a layer on top of existing agents ('Works with Claude Code, Cursor, Codex, Gemini CLI, Amp,
+      Cline, OpenCode, and any MCP-compatible agent')
     - Source-list context places it in 'Server Implementations > Developer Tools' for MCP servers
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: extensions-and-addons
+  section: API & Service Integrations
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.620Z"
+    updated_at: '2026-05-06T22:12:15.620Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:41.973Z"
+    updated_at: '2026-07-30T05:05:41.973Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:07:44.720Z"
+    updated_at: '2026-07-21T16:07:44.720Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -107,14 +123,22 @@ processing:
       input_hash: sha256:8f3f1dcf4744dcd5de9420a7aaa9d4969dfa8b4e550f9d45a3560fd3223d6c31
       proposed_primary_category: ai-dev-extensions
       disagreement: false
-      decision_reason: ThumbGate primarily augments MCP-compatible agents (Claude Code, Cursor, etc.) with pre-action checks and governance, rather than being a standalone coding assistant or primary IDE.
+      decision_reason: >-
+        ThumbGate primarily augments MCP-compatible agents (Claude Code, Cursor, etc.) with pre-action checks and
+        governance, rather than being a standalone coding assistant or primary IDE.
       decision_evidence:
-        - Repo description explicitly states it 'derive[s] rules from repeated failures, flag[s] risky tool calls, hard-block[s] detected secret leaks' for MCP-compatible agents
-        - README positions it as a layer on top of existing agents ('Works with Claude Code, Cursor, Codex, Gemini CLI, Amp, Cline, OpenCode, and any MCP-compatible agent')
+        - >-
+          Repo description explicitly states it 'derive[s] rules from repeated failures, flag[s] risky tool calls,
+          hard-block[s] detected secret leaks' for MCP-compatible agents
+        - >-
+          README positions it as a layer on top of existing agents ('Works with Claude Code, Cursor, Codex, Gemini CLI,
+          Amp, Cline, OpenCode, and any MCP-compatible agent')
         - Source-list context places it in 'Server Implementations > Developer Tools' for MCP servers
       category_candidates:
         - ai-dev-extensions
         - context-engineering
-      contrastive_reason: Choose ai-dev-extensions over context-engineering because the core value is host integration (MCP agent augmentation) rather than memory/retrieval infrastructure.
+      contrastive_reason: >-
+        Choose ai-dev-extensions over context-engineering because the core value is host integration (MCP agent
+        augmentation) rather than memory/retrieval infrastructure.
       review_reason: null
       review_resume_lifecycle: null

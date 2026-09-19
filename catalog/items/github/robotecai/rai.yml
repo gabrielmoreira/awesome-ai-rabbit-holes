@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__robotecai__rai__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -19,7 +19,9 @@ provenance:
           - Frameworks
         anchor_text: RAI
         extracted_url: https://github.com/robotecai/rai
-        surrounding_text: "- Token tracking and cost estimation- [RAI](https://github.com/RobotecAI/rai) - Agentic framework for robotics using ROS 2"
+        surrounding_text: >-
+          - Token tracking and cost estimation- [RAI](https://github.com/RobotecAI/rai) - Agentic framework for robotics
+          using ROS 2
         confidence: high
 metadata:
   github:
@@ -29,10 +31,12 @@ metadata:
     archived: false
     full_name: RobotecAI/rai
     html_url: https://github.com/RobotecAI/rai
-    created_at: "2024-06-04T15:34:14Z"
-    pushed_at: "2026-06-19T12:47:28Z"
-    description: RAI is a vendor agnostic agentic framework for Physical AI robotics, utilizing ROS 2 tools to perform complex actions, defined scenarios, free interface execution, log summaries, voice interaction and more.
-    homepage: ""
+    created_at: '2024-06-04T15:34:14Z'
+    pushed_at: '2026-06-19T12:47:28Z'
+    description: >-
+      RAI is a vendor agnostic agentic framework for Physical AI robotics, utilizing ROS 2 tools to perform complex
+      actions, defined scenarios, free interface execution, log summaries, voice interaction and more.
+    homepage: ''
     topics:
       - ai
       - ai-agents-framework
@@ -50,14 +54,20 @@ metadata:
       - robotics
       - ros2
       - vlm
-    last_checked_at: "2026-07-20T16:42:46.893Z"
+    last_checked_at: '2026-07-20T16:42:46.893Z'
     readme:
-      fetched_at: "2026-07-20T16:42:46.893Z"
+      fetched_at: '2026-07-20T16:42:46.893Z'
       bytes: 6173
 insights:
-  summary: RAI is a vendor-agnostic agentic framework for Physical AI and robotics that integrates LLMs and multimodal models with ROS 2 to perform complex actions, scenarios, and human-robot interactions.
-  why_it_matters: It provides robotics developers with a structured SDK to build multi-agent systems that combine speech interaction, perception, and navigation without locking into a single AI provider.
-  mental_damage: Yet another reminder that while your CI pipeline struggles to lint a PR, embodied agents are already reasoning through tractor obstacles in virtual orchards.
+  summary: >-
+    RAI is a vendor-agnostic agentic framework for Physical AI and robotics that integrates LLMs and multimodal models
+    with ROS 2 to perform complex actions, scenarios, and human-robot interactions.
+  why_it_matters: >-
+    It provides robotics developers with a structured SDK to build multi-agent systems that combine speech interaction,
+    perception, and navigation without locking into a single AI provider.
+  mental_damage: >-
+    Yet another reminder that while your CI pipeline struggles to lint a PR, embodied agents are already reasoning
+    through tractor obstacles in virtual orchards.
   tags:
     - robotics
     - physical-ai
@@ -67,35 +77,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a code-first SDK and framework used by developers to build embodied AI agents in robotics, aligning with the Frameworks & SDKs category.
+  reason: >-
+    It is a code-first SDK and framework used by developers to build embodied AI agents in robotics, aligning with the
+    Frameworks & SDKs category.
   evidence:
     - Repo description explicitly calls it a 'vendor agnostic agentic framework for Physical AI robotics'.
-    - README details code-first modules like rai_core, rai_sim, and rai_bench intended for developers to import and build upon.
+    - >-
+      README details code-first modules like rai_core, rai_sim, and rai_bench intended for developers to import and
+      build upon.
     - Listed in awesome-llm-agents under the 'Frameworks' section, confirming its identity as a developer toolkit.
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  secondary_categories: []
+  section: Multi-Agent Systems
 lifecycle:
   status: promotion_candidate
   reason: Stars (502) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.645Z"
+    updated_at: '2026-05-06T22:12:15.645Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:46.893Z"
+    updated_at: '2026-07-20T16:42:46.893Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

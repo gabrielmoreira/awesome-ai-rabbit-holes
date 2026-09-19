@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kyurish__mcp-dashboards__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📊 <a name="data-visualization"></a>Data Visualization
         anchor_text: KyuRish/mcp-dashboards
         extracted_url: https://github.com/kyurish/mcp-dashboards
-        surrounding_text: "- [KyuRish/mcp-dashboards](https://github.com/KyuRish/mcp-dashboards) [![mcp-dashboards MCP server](https://glama.ai/mcp/servers/@KyuRish/mcp-dashboards/badges/score.svg)](https://glama.ai/mcp/servers/@KyuRish/mcp-dashboards) 📇 🏠 🍎 🪟 🐧 - 45+ interactive chart types (bar, line, pie, candlestick, sankey, geo, radar, funnel, treemap, and more), dashboards with KPI cards, drill-down navigation, live API polling, 20 themes, and export to PNG/PPT/A4. Built on MCP Apps."
+        surrounding_text: >-
+          - [KyuRish/mcp-dashboards](https://github.com/KyuRish/mcp-dashboards) [![mcp-dashboards MCP
+          server](https://glama.ai/mcp/servers/@KyuRish/mcp-dashboards/badges/score.svg)](https://glama.ai/mcp/servers/@KyuRish/mcp-dashboards)
+          📇 🏠 🍎 🪟 🐧 - 45+ interactive chart types (bar, line, pie, candlestick, sankey, geo, radar, funnel,
+          treemap, and more), dashboards with KPI cards, drill-down navigation, live API polling, 20 themes, and export
+          to PNG/PPT/A4. Built on MCP Apps.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: KyuRish/mcp-dashboards
     html_url: https://github.com/KyuRish/mcp-dashboards
-    created_at: "2026-02-23T19:19:27Z"
-    pushed_at: "2026-07-12T00:37:05Z"
+    created_at: '2026-02-23T19:19:27Z'
+    pushed_at: '2026-07-12T00:37:05Z'
     description: Turn your data into interactive dashboards inside any AI client - MCP Apps powered
     homepage: null
     topics:
@@ -51,13 +56,15 @@ metadata:
       - model-context-protocol
       - real-time
       - themes
-    last_checked_at: "2026-07-30T05:06:02.075Z"
+    last_checked_at: '2026-07-30T05:06:02.075Z'
     readme:
-      fetched_at: "2026-07-30T05:06:02.075Z"
+      fetched_at: '2026-07-30T05:06:02.075Z'
       bytes: 16928
 insights:
   summary: An MCP server that renders interactive charts, dashboards, and KPI widgets directly inside AI conversations.
-  why_it_matters: Developers can visualize data and build dashboards without leaving their AI client, eliminating context switching between analysis and visualization tools.
+  why_it_matters: >-
+    Developers can visualize data and build dashboards without leaving their AI client, eliminating context switching
+    between analysis and visualization tools.
   mental_damage: Finally, your AI can stop saying 'I can't render charts' and just do it.
   tags:
     - mcp
@@ -68,31 +75,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the core product identity, and the server provides domain-specific functionality (data visualization) as an MCP server.
+  reason: >-
+    MCP is the core product identity, and the server provides domain-specific functionality (data visualization) as an
+    MCP server.
   evidence:
     - Repo description explicitly states it is an MCP server for dashboards
     - README positions it as an MCP Apps-powered tool for rendering charts in AI clients
     - Already listed in awesome-mcp-servers under Data Visualization
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.626Z"
+    updated_at: '2026-05-06T22:12:15.626Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:02.075Z"
+    updated_at: '2026-07-30T05:06:02.075Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:14:30.378Z"
+    updated_at: '2026-07-21T16:14:30.378Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -105,7 +115,9 @@ processing:
       input_hash: sha256:4b46399caceb2d2e5e49dd8c8ee8821e9c1e972ff4d44ef6d11edca8d4739a60
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the core product identity, and the server provides domain-specific functionality (data visualization) as an MCP server.
+      decision_reason: >-
+        MCP is the core product identity, and the server provides domain-specific functionality (data visualization) as
+        an MCP server.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for dashboards
         - README positions it as an MCP Apps-powered tool for rendering charts in AI clients
@@ -113,6 +125,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server providing domain-specific visualization capabilities, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server providing
+        domain-specific visualization capabilities, not merely an extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

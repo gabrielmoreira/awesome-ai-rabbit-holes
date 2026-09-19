@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__firecrawl__firecrawl-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,10 +19,12 @@ provenance:
           - Official Servers
         anchor_text: Firecrawl
         extracted_url: https://github.com/mendableai/firecrawl-mcp-server
-        surrounding_text: "- **[Firecrawl](https://github.com/mendableai/firecrawl-mcp-server)** - Extract web data with [Firecrawl](https://firecrawl.dev)"
+        surrounding_text: >-
+          - **[Firecrawl](https://github.com/mendableai/firecrawl-mcp-server)** - Extract web data with
+          [Firecrawl](https://firecrawl.dev)
         confidence: high
     - id: discovery__github__firecrawl__firecrawl-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,7 +37,13 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: firecrawl/firecrawl-mcp-server
         extracted_url: https://github.com/firecrawl/firecrawl-mcp-server
-        surrounding_text: "- [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) [![firecrawl/firecrawl-mcp-server MCP server](https://glama.ai/mcp/servers/firecrawl/firecrawl-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/firecrawl/firecrawl-mcp-server) 🎖️ 📇 ☁️ 🏠 - Official Firecrawl server with live browser interaction (`firecrawl_interact`) — navigate, click, type, and scroll on a page before extraction, for JS-heavy or auth-gated sites. Also scrape, crawl, map, search, and extract."
+        surrounding_text: >-
+          - [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server)
+          [![firecrawl/firecrawl-mcp-server MCP
+          server](https://glama.ai/mcp/servers/firecrawl/firecrawl-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/firecrawl/firecrawl-mcp-server)
+          🎖️ 📇 ☁️ 🏠 - Official Firecrawl server with live browser interaction (`firecrawl_interact`) — navigate,
+          click, type, and scroll on a page before extraction, for JS-heavy or auth-gated sites. Also scrape, crawl,
+          map, search, and extract.
         confidence: high
 metadata:
   github:
@@ -45,9 +53,11 @@ metadata:
     archived: false
     full_name: firecrawl/firecrawl-mcp-server
     html_url: https://github.com/firecrawl/firecrawl-mcp-server
-    created_at: "2024-12-06T07:50:27Z"
-    pushed_at: "2026-08-26T19:49:10Z"
-    description: 🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM clients.
+    created_at: '2024-12-06T07:50:27Z'
+    pushed_at: '2026-08-26T19:49:10Z'
+    description: >-
+      🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM
+      clients.
     homepage: https://firecrawl.dev
     topics:
       - batch-processing
@@ -64,14 +74,20 @@ metadata:
       - search-api
       - web-crawler
       - web-scraping
-    last_checked_at: "2026-08-27T09:23:30.598Z"
+    last_checked_at: '2026-08-27T09:23:30.598Z'
     readme:
-      fetched_at: "2026-08-27T09:23:30.598Z"
+      fetched_at: '2026-08-27T09:23:30.598Z'
       bytes: 36679
 insights:
-  summary: An official MCP server implementation that enables LLM clients to perform web searching, scraping, and browser automation via Firecrawl.
-  why_it_matters: It bridges the gap between static LLM contexts and the live web, allowing agents to scrape structured data and interact with pages directly.
-  mental_damage: Nothing says "infinite context loop" quite like giving your coding agent the power to browse the entire internet while you watch helplessly.
+  summary: >-
+    An official MCP server implementation that enables LLM clients to perform web searching, scraping, and browser
+    automation via Firecrawl.
+  why_it_matters: >-
+    It bridges the gap between static LLM contexts and the live web, allowing agents to scrape structured data and
+    interact with pages directly.
+  mental_damage: >-
+    Nothing says "infinite context loop" quite like giving your coding agent the power to browse the entire internet
+    while you watch helplessly.
   tags:
     - mcp
     - web-scraping
@@ -81,31 +97,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server implementation designed to provide specific web-access capabilities to MCP-compliant hosts.
+  reason: >-
+    The product's primary identity is an MCP server implementation designed to provide specific web-access capabilities
+    to MCP-compliant hosts.
   evidence:
     - Repo description explicitly identifies it as an 'Official Firecrawl MCP Server'
     - README focuses on MCP installation and integration with Cursor, Claude, and Windsurf
     - Core functionality is serving web-scraping/searching tools via the Model Context Protocol
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: promotion_candidate
   reason: Stars (6229) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.713Z"
+    updated_at: '2026-07-16T05:04:46.713Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:30.598Z"
+    updated_at: '2026-08-27T09:23:30.598Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:56:49.919Z"
+    updated_at: '2026-07-21T15:56:49.919Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -118,7 +137,9 @@ processing:
       input_hash: sha256:7f67994ec83e36aedaeebbe67917be56b203d9794434986aea905fbaa31de0f2
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's primary identity is an MCP server implementation designed to provide specific web-access capabilities to MCP-compliant hosts.
+      decision_reason: >-
+        The product's primary identity is an MCP server implementation designed to provide specific web-access
+        capabilities to MCP-compliant hosts.
       decision_evidence:
         - Repo description explicitly identifies it as an 'Official Firecrawl MCP Server'
         - README focuses on MCP installation and integration with Cursor, Claude, and Windsurf
@@ -126,6 +147,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is specifically a protocol implementation (server) rather than just a workflow plugin for a single editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is specifically a protocol implementation (server) rather
+        than just a workflow plugin for a single editor.
       review_reason: null
       review_resume_lifecycle: null

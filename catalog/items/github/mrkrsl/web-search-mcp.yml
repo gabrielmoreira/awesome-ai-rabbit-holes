@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mrkrsl__web-search-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Web Search MCP
         extracted_url: https://github.com/mrkrsl/web-search-mcp
-        surrounding_text: "- **[Web Search MCP](https://github.com/mrkrsl/web-search-mcp)** - A server that provides local, full web search, summaries and page extration for use with Local LLMs."
+        surrounding_text: >-
+          - **[Web Search MCP](https://github.com/mrkrsl/web-search-mcp)** - A server that provides local, full web
+          search, summaries and page extration for use with Local LLMs.
         confidence: high
 metadata:
   github:
@@ -29,24 +31,30 @@ metadata:
     archived: false
     full_name: mrkrsl/web-search-mcp
     html_url: https://github.com/mrkrsl/web-search-mcp
-    created_at: "2025-06-27T08:38:50Z"
-    pushed_at: "2025-08-08T19:58:47Z"
+    created_at: '2025-06-27T08:38:50Z'
+    pushed_at: '2025-08-08T19:58:47Z'
     description: A simple, locally hosted Web Search MCP server for use with Local LLMs
-    homepage: ""
+    homepage: ''
     topics:
       - llm
       - lmstudio
       - local-llm
       - mcp
       - web-search
-    last_checked_at: "2026-08-03T05:17:07.997Z"
+    last_checked_at: '2026-08-03T05:17:07.997Z'
     readme:
-      fetched_at: "2026-08-03T05:17:07.997Z"
+      fetched_at: '2026-08-03T05:17:07.997Z'
       bytes: 10320
 insights:
-  summary: A locally hosted TypeScript MCP server that provides multi-engine web search and full-page content extraction tools for local LLMs via direct browser and HTTP connections.
-  why_it_matters: It gives local coding assistants the ability to fetch fresh documentation and search results without requiring external API keys or cloud dependencies.
-  mental_damage: We have reached the point where our local models need their own middleware just to argue with Bing and DuckDuckGo on our behalf.
+  summary: >-
+    A locally hosted TypeScript MCP server that provides multi-engine web search and full-page content extraction tools
+    for local LLMs via direct browser and HTTP connections.
+  why_it_matters: >-
+    It gives local coding assistants the ability to fetch fresh documentation and search results without requiring
+    external API keys or cloud dependencies.
+  mental_damage: >-
+    We have reached the point where our local models need their own middleware just to argue with Bing and DuckDuckGo on
+    our behalf.
   tags:
     - mcp
     - local-llm
@@ -56,35 +64,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server by identity, explicitly built to implement the Model Context Protocol for web search capabilities in local LLM clients.
+  reason: >-
+    This is an MCP server by identity, explicitly built to implement the Model Context Protocol for web search
+    capabilities in local LLM clients.
   evidence:
     - Repo description states it is 'A simple, locally hosted Web Search MCP server for use with Local LLMs'.
-    - README confirms it is a 'TypeScript MCP (Model Context Protocol) server' providing search tools for LM Studio and LibreChat.
+    - >-
+      README confirms it is a 'TypeScript MCP (Model Context Protocol) server' providing search tools for LM Studio and
+      LibreChat.
     - Listed in the awesome-mcp-servers directory under 'Community Servers', confirming its ecosystem identity.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: promotion_candidate
   reason: Stars (841) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.631Z"
+    updated_at: '2026-05-06T22:12:15.631Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:07.997Z"
+    updated_at: '2026-08-03T05:17:07.997Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

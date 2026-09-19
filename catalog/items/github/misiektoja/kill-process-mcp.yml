@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__misiektoja__kill-process-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: misiektoja/kill-process-mcp
         extracted_url: https://github.com/misiektoja/kill-process-mcp
-        surrounding_text: "- [misiektoja/kill-process-mcp](https://github.com/misiektoja/kill-process-mcp) 🐍 🏠 🍎 🪟 🐧 - List and terminate OS processes via natural language queries"
+        surrounding_text: >-
+          - [misiektoja/kill-process-mcp](https://github.com/misiektoja/kill-process-mcp) 🐍 🏠 🍎 🪟 🐧 - List and
+          terminate OS processes via natural language queries
         confidence: high
 metadata:
   github:
@@ -30,22 +32,26 @@ metadata:
     archived: false
     full_name: misiektoja/kill-process-mcp
     html_url: https://github.com/misiektoja/kill-process-mcp
-    created_at: "2025-07-01T00:03:48Z"
-    pushed_at: "2026-02-06T23:28:58Z"
-    description: AI-powered cross-platform MCP server exposing LLM-accessible tools to list and terminate OS processes via natural language queries
-    homepage: ""
+    created_at: '2025-07-01T00:03:48Z'
+    pushed_at: '2026-02-06T23:28:58Z'
+    description: >-
+      AI-powered cross-platform MCP server exposing LLM-accessible tools to list and terminate OS processes via natural
+      language queries
+    homepage: ''
     topics:
       - kill-process
       - llm
       - mcp
       - mcp-server
-    last_checked_at: "2026-08-03T05:17:04.583Z"
+    last_checked_at: '2026-08-03T05:17:04.583Z'
     readme:
-      fetched_at: "2026-08-03T05:17:04.583Z"
+      fetched_at: '2026-08-03T05:17:04.583Z'
       bytes: 7416
 insights:
   summary: kill-process-mcp is an MCP server that exposes natural language tools to list and terminate OS processes.
-  why_it_matters: It lets developers kill rogue processes via conversational commands in MCP clients like Claude Desktop or Cursor without dropping to the terminal.
+  why_it_matters: >-
+    It lets developers kill rogue processes via conversational commands in MCP clients like Claude Desktop or Cursor
+    without dropping to the terminal.
   mental_damage: Finally, an AI that can do what I’ve been screaming at my terminal to do for years.
   tags:
     - mcp
@@ -54,31 +60,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server first and foremost, with its core identity rooted in exposing process management via the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
+  reason: >-
+    The product is an MCP server first and foremost, with its core identity rooted in exposing process management via
+    the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
   evidence:
-    - "Repo description: 'AI-powered cross-platform MCP server exposing LLM-accessible tools to list and terminate OS processes via natural language queries'"
-    - "README: Explicitly positions itself as an MCP server with tools like `process_list` and `process_kill` for LLM clients"
+    - >-
+      Repo description: 'AI-powered cross-platform MCP server exposing LLM-accessible tools to list and terminate OS
+      processes via natural language queries'
+    - >-
+      README: Explicitly positions itself as an MCP server with tools like `process_list` and `process_kill` for LLM
+      clients
     - Listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.630Z"
+    updated_at: '2026-05-06T22:12:15.630Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:04.583Z"
+    updated_at: '2026-08-03T05:17:04.583Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:21:28.764Z"
+    updated_at: '2026-07-21T16:21:28.764Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -91,14 +104,22 @@ processing:
       input_hash: sha256:64770d9cbe5779fbed40fb417a77670d12cfa9cd9b0a38afeb959e178b1f9e37
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server first and foremost, with its core identity rooted in exposing process management via the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
+      decision_reason: >-
+        The product is an MCP server first and foremost, with its core identity rooted in exposing process management
+        via the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
       decision_evidence:
-        - "Repo description: 'AI-powered cross-platform MCP server exposing LLM-accessible tools to list and terminate OS processes via natural language queries'"
-        - "README: Explicitly positions itself as an MCP server with tools like `process_list` and `process_kill` for LLM clients"
+        - >-
+          Repo description: 'AI-powered cross-platform MCP server exposing LLM-accessible tools to list and terminate OS
+          processes via natural language queries'
+        - >-
+          README: Explicitly positions itself as an MCP server with tools like `process_list` and `process_kill` for LLM
+          clients
         - Listed in awesome-mcp-servers under Server Implementations
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product’s primary identity is as an MCP server infrastructure, not as an extension that augments another assistant’s capabilities.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product’s primary identity is as an MCP server infrastructure, not
+        as an extension that augments another assistant’s capabilities.
       review_reason: null
       review_resume_lifecycle: null

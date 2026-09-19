@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__factory-ai__factory__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Closed Source
         anchor_text: Droid
         extracted_url: https://github.com/factory-ai/factory
-        surrounding_text: "- **[Droid](https://github.com/Factory-AI/factory)** `⭐ 822` `[Factory]` — Factory's multi-model CLI coding agent; #1 on Terminal-Bench, specialized droids for different tasks, headless CI mode, and multi-interface support (CLI/IDE/Slack/Linear)."
+        surrounding_text: >-
+          - **[Droid](https://github.com/Factory-AI/factory)** `⭐ 822` `[Factory]` — Factory's multi-model CLI coding
+          agent; #1 on Terminal-Bench, specialized droids for different tasks, headless CI mode, and multi-interface
+          support (CLI/IDE/Slack/Linear).
         confidence: high
 metadata:
   github:
@@ -30,19 +33,23 @@ metadata:
     archived: false
     full_name: Factory-AI/factory
     html_url: https://github.com/Factory-AI/factory
-    created_at: "2026-07-29T00:10:23Z"
-    pushed_at: "2026-08-17T21:56:19Z"
+    created_at: '2026-07-29T00:10:23Z'
+    pushed_at: '2026-08-17T21:56:19Z'
     description: Factory - Agent-Native Software Development
     homepage: https://factory.ai
     topics: []
-    last_checked_at: "2026-08-27T09:23:27.711Z"
+    last_checked_at: '2026-08-27T09:23:27.711Z'
     readme:
-      fetched_at: "2026-08-27T09:23:27.711Z"
+      fetched_at: '2026-08-27T09:23:27.711Z'
       bytes: 1831
 insights:
   summary: An agent-native development platform that provides a terminal-based AI coding agent named Droid.
-  why_it_matters: It moves beyond simple autocomplete by providing a multi-interface agent (CLI, Web, Slack) capable of executing repo-wide tasks like code reviews and security scans.
-  mental_damage: Because clearly, the only thing missing from your terminal is another autonomous loop capable of deciding your PR descriptions for you.
+  why_it_matters: >-
+    It moves beyond simple autocomplete by providing a multi-interface agent (CLI, Web, Slack) capable of executing
+    repo-wide tasks like code reviews and security scans.
+  mental_damage: >-
+    Because clearly, the only thing missing from your terminal is another autonomous loop capable of deciding your PR
+    descriptions for you.
   tags:
     - coding-agents
     - terminal-cli
@@ -58,6 +65,7 @@ curation:
     - Includes SDKs and GitHub Actions for automated code reviews and security scans
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -65,17 +73,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:27.711Z"
+    updated_at: '2026-08-27T09:23:27.711Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:54:54.901Z"
+    updated_at: '2026-07-21T15:54:54.901Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +96,9 @@ processing:
       input_hash: sha256:b883e57a29350f6363b6cdcbd5ff9d012017aeccd91398b6a58a09378b7e4476
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Factory's core identity is its agent 'Droid' which acts as a standalone coding assistant through the CLI and IDEs.
+      decision_reason: >-
+        Factory's core identity is its agent 'Droid' which acts as a standalone coding assistant through the CLI and
+        IDEs.
       decision_evidence:
         - README describes Droid as a top-performing terminal-based agent
         - Offers a CLI installation via curl/npm that initiates a session in a project directory
@@ -96,6 +106,8 @@ processing:
       category_candidates:
         - coding-agents
         - agent-orchestration
-      contrastive_reason: Choose coding-agents over agent-orchestration because the primary user interaction is a direct coding assistant in the terminal rather than a multi-agent control plane.
+      contrastive_reason: >-
+        Choose coding-agents over agent-orchestration because the primary user interaction is a direct coding assistant
+        in the terminal rather than a multi-agent control plane.
       review_reason: null
       review_resume_lifecycle: null

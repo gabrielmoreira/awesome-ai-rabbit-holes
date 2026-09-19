@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__getnahook__nahook-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-18T05:40:04.065Z"
+      discovered_at: '2026-06-18T05:40:04.065Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: getnahook/nahook-mcp
         extracted_url: https://github.com/getnahook/nahook-mcp
-        surrounding_text: "- [getnahook/nahook-mcp](https://github.com/getnahook/nahook-mcp) [![getnahook/nahook-mcp MCP server](https://glama.ai/mcp/servers/getnahook/nahook-mcp/badges/score.svg)](https://glama.ai/mcp/servers/getnahook/nahook-mcp) 🎖️ 🏎️ ☁️ - \"The official MCP server for the Nahook webhook platform — trigger webhooks, inspect deliveries, retry failures, and manage endpoints from your AI assistant.\""
+        surrounding_text: >-
+          - [getnahook/nahook-mcp](https://github.com/getnahook/nahook-mcp) [![getnahook/nahook-mcp MCP
+          server](https://glama.ai/mcp/servers/getnahook/nahook-mcp/badges/score.svg)](https://glama.ai/mcp/servers/getnahook/nahook-mcp)
+          🎖️ 🏎️ ☁️ - "The official MCP server for the Nahook webhook platform — trigger webhooks, inspect deliveries,
+          retry failures, and manage endpoints from your AI assistant."
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: getnahook/nahook-mcp
     html_url: https://github.com/getnahook/nahook-mcp
-    created_at: "2026-06-01T09:47:44Z"
-    pushed_at: "2026-07-28T08:15:36Z"
-    description: The official Model Context Protocol server for Nahook — trigger webhooks, inspect deliveries, and debug failures from Claude Desktop, Cursor, Cline, and any MCP-compatible AI client
+    created_at: '2026-06-01T09:47:44Z'
+    pushed_at: '2026-07-28T08:15:36Z'
+    description: >-
+      The official Model Context Protocol server for Nahook — trigger webhooks, inspect deliveries, and debug failures
+      from Claude Desktop, Cursor, Cline, and any MCP-compatible AI client
     homepage: https://nahook.com
     topics:
       - ai-tools
@@ -43,14 +49,20 @@ metadata:
       - mcp-server
       - model-context-protocol
       - webhooks
-    last_checked_at: "2026-09-03T05:16:48.981Z"
+    last_checked_at: '2026-09-03T05:16:48.981Z'
     readme:
-      fetched_at: "2026-09-03T05:16:48.981Z"
+      fetched_at: '2026-09-03T05:16:48.981Z'
       bytes: 6981
 insights:
-  summary: The official Model Context Protocol server for Nahook, allowing AI clients to trigger webhooks, inspect deliveries, and debug failures.
-  why_it_matters: It enables developers to manage and debug webhook lifecycles—including retrying failed deliveries and triggering events—directly from their AI assistant's interface.
-  mental_damage: Now you can hallucinate a webhook trigger and accidentally DDOS your own production endpoint without ever leaving your IDE.
+  summary: >-
+    The official Model Context Protocol server for Nahook, allowing AI clients to trigger webhooks, inspect deliveries,
+    and debug failures.
+  why_it_matters: >-
+    It enables developers to manage and debug webhook lifecycles—including retrying failed deliveries and triggering
+    events—directly from their AI assistant's interface.
+  mental_damage: >-
+    Now you can hallucinate a webhook trigger and accidentally DDOS your own production endpoint without ever leaving
+    your IDE.
   tags:
     - mcp
     - webhooks
@@ -59,31 +71,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server providing a bridge to a specific domain (webhooks), fitting the definition of an MCP Domain Server.
+  reason: >-
+    The project's primary identity is an MCP server providing a bridge to a specific domain (webhooks), fitting the
+    definition of an MCP Domain Server.
   evidence:
     - Repo description explicitly identifies as 'The official Model Context Protocol server for Nahook'
     - README describes specific MCP tools like `list_deliveries` and `retry_delivery` for use in AI clients
     - Included in awesome-mcp-servers under 'Developer Tools'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-18T05:40:04.066Z"
+    updated_at: '2026-06-18T05:40:04.066Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:48.981Z"
+    updated_at: '2026-09-03T05:16:48.981Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-25T05:28:24.000Z"
+    updated_at: '2026-06-25T05:28:24.000Z'
     cause: null
     next_retry_at: null
     attempts: 1

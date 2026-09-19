@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__janswist__mcp-dexscreener__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: janswist/mcp-dexscreener
         extracted_url: https://github.com/janswist/mcp-dexscreener
-        surrounding_text: "- [janswist/mcp-dexscreener](https://github.com/janswist/mcp-dexscreener) 📇 ☁️ - Real-time on-chain market prices using open and free Dexscreener API"
+        surrounding_text: >-
+          - [janswist/mcp-dexscreener](https://github.com/janswist/mcp-dexscreener) 📇 ☁️ - Real-time on-chain market
+          prices using open and free Dexscreener API
         confidence: high
 metadata:
   github:
@@ -30,14 +32,14 @@ metadata:
     archived: false
     full_name: janswist/mcp-dexscreener
     html_url: https://github.com/janswist/mcp-dexscreener
-    created_at: "2025-04-07T13:02:51Z"
-    pushed_at: "2025-04-07T14:02:17Z"
+    created_at: '2025-04-07T13:02:51Z'
+    pushed_at: '2025-04-07T14:02:17Z'
     description: Dexscreener API's MCP server - let your AI agent check any on-chain price using Dexscreener's free and open API
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:05:48.003Z"
+    last_checked_at: '2026-07-30T05:05:48.003Z'
     readme:
-      fetched_at: "2026-07-30T05:05:48.003Z"
+      fetched_at: '2026-07-30T05:05:48.003Z'
       bytes: 1075
 insights:
   summary: An MCP server that provides access to the Dexscreener API for AI agents.
@@ -59,24 +61,25 @@ curation:
     - Product identity is the integration layer itself
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:48.003Z"
+    updated_at: '2026-07-30T05:05:48.003Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:01.230Z"
+    updated_at: '2026-07-21T16:10:01.230Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -97,6 +100,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity and distribution method is the Model Context Protocol rather than a general-purpose extension for an editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity and distribution method is the Model
+        Context Protocol rather than a general-purpose extension for an editor.
       review_reason: null
       review_resume_lifecycle: null

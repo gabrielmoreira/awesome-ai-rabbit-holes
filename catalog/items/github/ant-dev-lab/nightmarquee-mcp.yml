@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ant-dev-lab__nightmarquee-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-09-14T04:13:20.171Z"
+      discovered_at: '2026-09-14T04:13:20.171Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,15 @@ provenance:
           - 📐 <a name="architecture-and-design"></a>Architecture & Design
         anchor_text: ant-dev-lab/nightmarquee-mcp
         extracted_url: https://github.com/ant-dev-lab/nightmarquee-mcp
-        surrounding_text: "- [ant-dev-lab/nightmarquee-mcp](https://github.com/ant-dev-lab/nightmarquee-mcp) [![ant-dev-lab/nightmarquee-mcp MCP server](https://glama.ai/mcp/servers/ant-dev-lab/nightmarquee-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ant-dev-lab/nightmarquee-mcp) 🎖️ 📇 ☁️ 🍎 🪟 🐧 - Art-directed website prompts as slash commands: hero sections, landing pages, SaaS, portfolio, e-commerce and 3D/WebGL scenes. Every build is registered as a real MCP prompt, so it lands in the command palette instead of waiting for the model to think of it, and is written natively for the tool you are in (Lovable, Bolt, Cursor or Claude). Each one has a live demo you can scroll before spending a token. Free prompts need no account; sign in from the session to unlock the rest. Install via NPM: `npx -y nightmarquee`"
+        surrounding_text: >-
+          - [ant-dev-lab/nightmarquee-mcp](https://github.com/ant-dev-lab/nightmarquee-mcp)
+          [![ant-dev-lab/nightmarquee-mcp MCP
+          server](https://glama.ai/mcp/servers/ant-dev-lab/nightmarquee-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ant-dev-lab/nightmarquee-mcp)
+          🎖️ 📇 ☁️ 🍎 🪟 🐧 - Art-directed website prompts as slash commands: hero sections, landing pages, SaaS,
+          portfolio, e-commerce and 3D/WebGL scenes. Every build is registered as a real MCP prompt, so it lands in the
+          command palette instead of waiting for the model to think of it, and is written natively for the tool you are
+          in (Lovable, Bolt, Cursor or Claude). Each one has a live demo you can scroll before spending a token. Free
+          prompts need no account; sign in from the session to unlock the rest. Install via NPM: `npx -y nightmarquee`
         confidence: high
 metadata:
   github:
@@ -30,9 +38,11 @@ metadata:
     archived: false
     full_name: ant-dev-lab/nightmarquee-mcp
     html_url: https://github.com/ant-dev-lab/nightmarquee-mcp
-    created_at: "2026-08-28T06:25:43Z"
-    pushed_at: "2026-09-02T10:49:15Z"
-    description: Cinematic website prompts with live previews, inside your editor. MCP server for Claude Code, Claude Desktop and Cursor.
+    created_at: '2026-08-28T06:25:43Z'
+    pushed_at: '2026-09-02T10:49:15Z'
+    description: >-
+      Cinematic website prompts with live previews, inside your editor. MCP server for Claude Code, Claude Desktop and
+      Cursor.
     homepage: https://nightmarquee.com
     topics:
       - ai
@@ -45,14 +55,18 @@ metadata:
       - modelcontextprotocol
       - prompts
       - web-design
-    last_checked_at: "2026-09-14T04:13:22.282Z"
+    last_checked_at: '2026-09-14T04:13:22.282Z'
     readme:
-      fetched_at: "2026-09-14T04:13:22.281Z"
+      fetched_at: '2026-09-14T04:13:22.281Z'
       bytes: 6786
 insights:
   summary: An MCP server providing art-directed website design prompts and live previews for coding assistants.
-  why_it_matters: It enables AI assistants to fetch professional-grade UI/UX templates instead of relying on generic, uninspired code generation.
-  mental_damage: It is one step closer to an AI that can design a beautiful landing page that you will still spend three hours trying to make responsive.
+  why_it_matters: >-
+    It enables AI assistants to fetch professional-grade UI/UX templates instead of relying on generic, uninspired code
+    generation.
+  mental_damage: >-
+    It is one step closer to an AI that can design a beautiful landing page that you will still spend three hours trying
+    to make responsive.
   tags:
     - mcp
     - web-design
@@ -62,30 +76,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's primary identity is an MCP server that exposes a specialized design prompt catalog to host coding assistants.
+  reason: >-
+    The tool's primary identity is an MCP server that exposes a specialized design prompt catalog to host coding
+    assistants.
   evidence:
     - Repo description explicitly defines it as an MCP server for Claude Code, Claude Desktop, and Cursor
     - README details specific MCP tools like `nightmarquee_search_prompts` and `nightmarquee_get_prompt`
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-14T04:13:20.172Z"
+    updated_at: '2026-09-14T04:13:20.172Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:22.282Z"
+    updated_at: '2026-09-14T04:13:22.282Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-14T04:16:16.890Z"
+    updated_at: '2026-09-14T04:16:16.890Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -94,14 +110,18 @@ processing:
       input_hash: sha256:615e5b7bb1c3e705c5c65019bc1f6a0e2524202eac58c9381f15b9c811434dec
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The tool's primary identity is an MCP server that exposes a specialized design prompt catalog to host coding assistants.
+      decision_reason: >-
+        The tool's primary identity is an MCP server that exposes a specialized design prompt catalog to host coding
+        assistants.
       decision_evidence:
         - Repo description explicitly defines it as an MCP server for Claude Code, Claude Desktop, and Cursor
         - README details specific MCP tools like `nightmarquee_search_prompts` and `nightmarquee_get_prompt`
       category_candidates:
         - mcp
         - skills
-      contrastive_reason: Choose mcp over skills because the product's primary identity is the implementation of the Model Context Protocol to deliver its content.
+      contrastive_reason: >-
+        Choose mcp over skills because the product's primary identity is the implementation of the Model Context
+        Protocol to deliver its content.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

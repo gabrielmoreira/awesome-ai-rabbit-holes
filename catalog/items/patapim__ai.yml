@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__patapim__ai__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -19,7 +19,10 @@ provenance:
           - Session managers & parallel runners
         anchor_text: PATAPIM
         extracted_url: https://patapim.ai
-        surrounding_text: "- **[PATAPIM](https://patapim.ai)** — Terminal IDE with a 9-terminal grid for running multiple CLI coding agents simultaneously; features AI state detection, built-in Whisper voice dictation, LAN remote access, and an embedded MCP browser. Built with Electron and node-pty. Freemium."
+        surrounding_text: >-
+          - **[PATAPIM](https://patapim.ai)** — Terminal IDE with a 9-terminal grid for running multiple CLI coding
+          agents simultaneously; features AI state detection, built-in Whisper voice dictation, LAN remote access, and
+          an embedded MCP browser. Built with Electron and node-pty. Freemium.
         confidence: high
 metadata:
   github:
@@ -37,8 +40,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A superpower suite for Claude Code that adds multi-project workspaces, voice dictation, remote control, live notifications, and embedded browser automation.
-  why_it_matters: It transforms Claude Code from a terminal agent into a more agentic, multi-session, and remotely accessible workflow without replacing the core assistant.
+  summary: >-
+    A superpower suite for Claude Code that adds multi-project workspaces, voice dictation, remote control, live
+    notifications, and embedded browser automation.
+  why_it_matters: >-
+    It transforms Claude Code from a terminal agent into a more agentic, multi-session, and remotely accessible workflow
+    without replacing the core assistant.
   mental_damage: Finally, a way to make Claude Code feel like it’s actually paying attention to more than one thing at a time.
   tags:
     - claude-code
@@ -49,21 +56,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a terminal-native workspace that orchestrates existing coding agents (Claude Code, Gemini, Codex) rather than being a framework, IDE, or thin extension.
+  reason: >-
+    It is a terminal-native workspace that orchestrates existing coding agents (Claude Code, Gemini, Codex) rather than
+    being a framework, IDE, or thin extension.
   evidence:
     - Site markets 'Multi-AI War Room' running Claude, Gemini & Codex side by side in terminals.
     - Listed in awesome-cli-coding-agents under 'Session managers & parallel runners'.
     - Core features include folder-oriented workspace, session restore, and integrated browser for agent testing.
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: Claude Code & Agent Tools
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-dev-extensions'"
+  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''ai-dev-extensions'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause: null
     next_retry_at: null
   stars:
@@ -72,7 +82,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:24.483Z"
+    updated_at: '2026-07-21T15:30:24.483Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -85,14 +95,20 @@ processing:
       input_hash: sha256:2df4af8bcbd958cedb402500dac6e6fb752e840de2059f53980d9c79308311f3
       proposed_primary_category: ai-dev-extensions
       disagreement: true
-      decision_reason: It is primarily an extension layer that augments Claude Code (and similar CLIs) with workflow, UI, and host integration capabilities rather than being a standalone coding assistant.
+      decision_reason: >-
+        It is primarily an extension layer that augments Claude Code (and similar CLIs) with workflow, UI, and host
+        integration capabilities rather than being a standalone coding assistant.
       decision_evidence:
-        - Described as 'adds everything Claude Code is missing' (multi-project workspaces, voice, remote control, notifications)
+        - >-
+          Described as 'adds everything Claude Code is missing' (multi-project workspaces, voice, remote control,
+          notifications)
         - Explicitly positions itself as a superpower suite for Claude Code, Codex, Antigravity, or custom CLIs
         - Source-list context places it under 'Harnesses & orchestration > Session managers & parallel runners'
       category_candidates:
         - ai-dev-extensions
         - coding-agents
-      contrastive_reason: Choose ai-dev-extensions over coding-agents because its core value is augmenting Claude Code with workflow, UI, and host integrations rather than acting as the primary coding assistant.
-      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-dev-extensions'"
+      contrastive_reason: >-
+        Choose ai-dev-extensions over coding-agents because its core value is augmenting Claude Code with workflow, UI,
+        and host integrations rather than acting as the primary coding assistant.
+      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''ai-dev-extensions'''
       review_resume_lifecycle: null

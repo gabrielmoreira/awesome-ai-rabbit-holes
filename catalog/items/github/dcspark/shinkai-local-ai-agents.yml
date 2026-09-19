@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dcspark__shinkai-local-ai-agents__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Clients
         anchor_text: Shinkai
         extracted_url: https://github.com/dcspark/shinkai-apps
-        surrounding_text: "- **[Shinkai](http://github.com/dcSpark/shinkai-apps/)** is a two click install AI manager (Local and Remote) that allows you to create AI agents in 5 minutes or less using a simple UI. Agents and tools are exposed as an MCP Server."
+        surrounding_text: >-
+          - **[Shinkai](http://github.com/dcSpark/shinkai-apps/)** is a two click install AI manager (Local and Remote)
+          that allows you to create AI agents in 5 minutes or less using a simple UI. Agents and tools are exposed as an
+          MCP Server.
         confidence: high
 metadata:
   github:
@@ -29,9 +32,11 @@ metadata:
     archived: false
     full_name: dcSpark/shinkai-local-ai-agents
     html_url: https://github.com/dcSpark/shinkai-local-ai-agents
-    created_at: "2023-08-30T15:49:34Z"
-    pushed_at: "2026-06-15T16:58:37Z"
-    description: "Shinkai is a two click install App that allows you to create Local AI agents in 5 minutes or less using a simple UI.  Supports: MCPs, Remote and Local AI, Crypto and Payments."
+    created_at: '2023-08-30T15:49:34Z'
+    pushed_at: '2026-06-15T16:58:37Z'
+    description: >-
+      Shinkai is a two click install App that allows you to create Local AI agents in 5 minutes or less using a simple
+      UI.  Supports: MCPs, Remote and Local AI, Crypto and Payments.
     homepage: https://shinkai.com
     topics:
       - ai-agents
@@ -40,14 +45,20 @@ metadata:
       - local-ai
       - local-ai-agents
       - mcp-agents
-    last_checked_at: "2026-09-14T04:13:36.789Z"
+    last_checked_at: '2026-09-14T04:13:36.789Z'
     readme:
-      fetched_at: "2026-09-14T04:13:36.789Z"
+      fetched_at: '2026-09-14T04:13:36.789Z'
       bytes: 11423
 insights:
-  summary: Shinkai is a desktop app for creating and orchestrating local or remote AI agents with a no-code UI, supporting MCP, crypto payments, and multi-agent workflows.
-  why_it_matters: It lets developers deploy collaborative AI agents for tasks like trading, email automation, or data analysis without writing code, while keeping execution local or hybrid.
-  mental_damage: Finally, a way to spin up crypto-trading agents that can also do your taxes—if only they’d stop arguing with each other.
+  summary: >-
+    Shinkai is a desktop app for creating and orchestrating local or remote AI agents with a no-code UI, supporting MCP,
+    crypto payments, and multi-agent workflows.
+  why_it_matters: >-
+    It lets developers deploy collaborative AI agents for tasks like trading, email automation, or data analysis without
+    writing code, while keeping execution local or hybrid.
+  mental_damage: >-
+    Finally, a way to spin up crypto-trading agents that can also do your taxes—if only they’d stop arguing with each
+    other.
   tags:
     - local-ai
     - multi-agent
@@ -57,31 +68,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product is a workbench for orchestrating multiple AI agents with collaboration, payments, and MCP support, not a primary coding assistant or extension.
+  reason: >-
+    The core product is a workbench for orchestrating multiple AI agents with collaboration, payments, and MCP support,
+    not a primary coding assistant or extension.
   evidence:
     - README emphasizes multi-agent orchestration and no-code agent creation as primary features
     - Repo description highlights local AI agent creation with MCP support
     - Source-list context places it under MCP Clients, but primary identity is agent orchestration
 placement:
   primary_category: agent-orchestration
-  section: Workbenches & Collaboration Surfaces
+  secondary_categories: []
+  section: Visual Builders & Workbenches
 lifecycle:
   status: promotion_candidate
   reason: Stars (429) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.610Z"
+    updated_at: '2026-05-06T22:12:15.610Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:36.789Z"
+    updated_at: '2026-09-14T04:13:36.789Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:50:25.368Z"
+    updated_at: '2026-07-21T15:50:25.368Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -94,7 +108,9 @@ processing:
       input_hash: sha256:35af12cbf0c664304419e127c3c0a1486d9cae0b6a2b60e980eade37230ac20d
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The core product is a workbench for orchestrating multiple AI agents with collaboration, payments, and MCP support, not a primary coding assistant or extension.
+      decision_reason: >-
+        The core product is a workbench for orchestrating multiple AI agents with collaboration, payments, and MCP
+        support, not a primary coding assistant or extension.
       decision_evidence:
         - README emphasizes multi-agent orchestration and no-code agent creation as primary features
         - Repo description highlights local AI agent creation with MCP support
@@ -102,6 +118,8 @@ processing:
       category_candidates:
         - agent-orchestration
         - local-ai
-      contrastive_reason: Choose agent-orchestration over local-ai because the main value is multi-agent coordination and workflow automation, not just local execution.
+      contrastive_reason: >-
+        Choose agent-orchestration over local-ai because the main value is multi-agent coordination and workflow
+        automation, not just local execution.
       review_reason: null
       review_resume_lifecycle: null

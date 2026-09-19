@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kilo-org__kilocode__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,12 @@ provenance:
           - Open Source
         anchor_text: Kilo Code CLI
         extracted_url: https://github.com/kilo-org/kilocode
-        surrounding_text: "- **[Kilo Code CLI](https://github.com/Kilo-Org/kilocode)** `⭐ 18.9k` — Agentic engineering platform with CLI; orchestrator mode, 100s of LLMs, skills, and checkpointing."
+        surrounding_text: >-
+          - **[Kilo Code CLI](https://github.com/Kilo-Org/kilocode)** `⭐ 18.9k` — Agentic engineering platform with CLI;
+          orchestrator mode, 100s of LLMs, skills, and checkpointing.
         confidence: high
     - id: discovery__github__kilo-org__kilocode__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -45,9 +47,11 @@ metadata:
     archived: false
     full_name: Kilo-Org/kilocode
     html_url: https://github.com/Kilo-Org/kilocode
-    created_at: "2025-03-10T15:34:26Z"
-    pushed_at: "2026-07-30T02:02:02Z"
-    description: Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.
+    created_at: '2025-03-10T15:34:26Z'
+    pushed_at: '2026-07-30T02:02:02Z'
+    description: >-
+      Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open
+      source coding agent.
     homepage: https://kilo.ai/
     topics:
       - ai
@@ -62,13 +66,17 @@ metadata:
       - sonnet
       - vscode
       - vscode-extension
-    last_checked_at: "2026-07-30T05:05:56.609Z"
+    last_checked_at: '2026-07-30T05:05:56.609Z'
     readme:
-      fetched_at: "2026-07-30T05:05:56.609Z"
+      fetched_at: '2026-07-30T05:05:56.609Z'
       bytes: 8073
 insights:
-  summary: Kilo is an open-source agentic engineering platform and coding agent with VS Code, CLI, and browser automation capabilities.
-  why_it_matters: It provides developers with a unified agent for code generation, refactoring, terminal commands, and browser automation, reducing context-switching across tools.
+  summary: >-
+    Kilo is an open-source agentic engineering platform and coding agent with VS Code, CLI, and browser automation
+    capabilities.
+  why_it_matters: >-
+    It provides developers with a unified agent for code generation, refactoring, terminal commands, and browser
+    automation, reducing context-switching across tools.
   mental_damage: Finally, an agent that can both write your code and judge you for it in the same session.
   tags:
     - coding-agent
@@ -79,13 +87,20 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Kilo is a primary coding assistant that directly reads, writes, and edits code, runs commands, and automates workflows, fitting the core definition of a coding agent.
+  reason: >-
+    Kilo is a primary coding assistant that directly reads, writes, and edits code, runs commands, and automates
+    workflows, fitting the core definition of a coding agent.
   evidence:
-    - "Repo description: 'Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.'"
-    - "README claims: code generation, inline autocomplete, task automation, refactoring, terminal commands, browser automation, and multi-mode operation."
-    - "Source-list context: listed in 'awesome-cli-coding-agents' under 'Terminal-native coding agents > Open Source'."
+    - >-
+      Repo description: 'Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the
+      most popular open source coding agent.'
+    - >-
+      README claims: code generation, inline autocomplete, task automation, refactoring, terminal commands, browser
+      automation, and multi-mode operation.
+    - 'Source-list context: listed in ''awesome-cli-coding-agents'' under ''Terminal-native coding agents > Open Source''.'
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -93,17 +108,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.589Z"
+    updated_at: '2026-05-06T22:12:15.589Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:56.609Z"
+    updated_at: '2026-07-30T05:05:56.609Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:12:28.733Z"
+    updated_at: '2026-07-21T16:12:28.733Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -116,14 +131,24 @@ processing:
       input_hash: sha256:e3e1fc9a84df8b6006b853954d3cb58ec8eb70d2eabc1590b73f90548d912809
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Kilo is a primary coding assistant that directly reads, writes, and edits code, runs commands, and automates workflows, fitting the core definition of a coding agent.
+      decision_reason: >-
+        Kilo is a primary coding assistant that directly reads, writes, and edits code, runs commands, and automates
+        workflows, fitting the core definition of a coding agent.
       decision_evidence:
-        - "Repo description: 'Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.'"
-        - "README claims: code generation, inline autocomplete, task automation, refactoring, terminal commands, browser automation, and multi-mode operation."
-        - "Source-list context: listed in 'awesome-cli-coding-agents' under 'Terminal-native coding agents > Open Source'."
+        - >-
+          Repo description: 'Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with
+          the most popular open source coding agent.'
+        - >-
+          README claims: code generation, inline autocomplete, task automation, refactoring, terminal commands, browser
+          automation, and multi-mode operation.
+        - >-
+          Source-list context: listed in 'awesome-cli-coding-agents' under 'Terminal-native coding agents > Open
+          Source'.
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because Kilo is a standalone primary coding assistant, not merely an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because Kilo is a standalone primary coding assistant, not merely an
+        extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

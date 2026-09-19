@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__geiserx__lynxprompt-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: GeiserX/lynxprompt-mcp
         extracted_url: https://github.com/geiserx/lynxprompt-mcp
-        surrounding_text: "- [GeiserX/lynxprompt-mcp](https://github.com/GeiserX/lynxprompt-mcp) [![GeiserX/lynxprompt-mcp MCP server](https://glama.ai/mcp/servers/GeiserX/lynxprompt-mcp/badges/score.svg)](https://glama.ai/mcp/servers/GeiserX/lynxprompt-mcp) 🏎️ ☁️ 🍎 🪟 🐧 - Go-based MCP server for LynxPrompt prompt management. Create, search, and organize AI prompts and AGENTS.md/CLAUDE.md configuration files. Docker image available."
+        surrounding_text: >-
+          - [GeiserX/lynxprompt-mcp](https://github.com/GeiserX/lynxprompt-mcp) [![GeiserX/lynxprompt-mcp MCP
+          server](https://glama.ai/mcp/servers/GeiserX/lynxprompt-mcp/badges/score.svg)](https://glama.ai/mcp/servers/GeiserX/lynxprompt-mcp)
+          🏎️ ☁️ 🍎 🪟 🐧 - Go-based MCP server for LynxPrompt prompt management. Create, search, and organize AI
+          prompts and AGENTS.md/CLAUDE.md configuration files. Docker image available.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: GeiserX/lynxprompt-mcp
     html_url: https://github.com/GeiserX/lynxprompt-mcp
-    created_at: "2026-04-01T10:40:12Z"
-    pushed_at: "2026-09-02T21:10:35Z"
+    created_at: '2026-04-01T10:40:12Z'
+    pushed_at: '2026-09-02T21:10:35Z'
     description: MCP Server for LynxPrompt — browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP
     homepage: null
     topics:
@@ -55,14 +59,20 @@ metadata:
       - prompt-management
       - self-hosted
       - stdio
-    last_checked_at: "2026-09-03T05:16:47.122Z"
+    last_checked_at: '2026-09-03T05:16:47.122Z'
     readme:
-      fetched_at: "2026-09-03T05:16:47.122Z"
+      fetched_at: '2026-09-03T05:16:47.122Z'
       bytes: 8037
 insights:
-  summary: An MCP server that exposes LynxPrompt AI configuration blueprints like AGENTS.md and CLAUDE.md to LLMs via the Model Context Protocol.
-  why_it_matters: It allows AI assistants to programmatically access and manage structured configuration files that define agent behavior and project context.
-  mental_damage: Another layer of abstraction between you and your config files, because clearly, writing a simple markdown file wasn't enough of a ritual.
+  summary: >-
+    An MCP server that exposes LynxPrompt AI configuration blueprints like AGENTS.md and CLAUDE.md to LLMs via the Model
+    Context Protocol.
+  why_it_matters: >-
+    It allows AI assistants to programmatically access and manage structured configuration files that define agent
+    behavior and project context.
+  mental_damage: >-
+    Another layer of abstraction between you and your config files, because clearly, writing a simple markdown file
+    wasn't enough of a ritual.
   tags:
     - mcp
     - mcp-server
@@ -78,25 +88,26 @@ curation:
     - README describes it as a 'bridge that exposes any LynxPrompt instance as an MCP server'
     - Core functionality is providing MCP Resources and Tools
 placement:
-  primary_category: mcp
-  section: Generic Servers & Middleware
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Prompt Engineering & Management
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: '2026-05-06T22:12:15.615Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:47.122Z"
+    updated_at: '2026-09-03T05:16:47.122Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:00:59.181Z"
+    updated_at: '2026-07-21T16:00:59.181Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -117,6 +128,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the tool's primary identity is the protocol implementation (the bridge) rather than the prompt management logic itself.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the tool's primary identity is the protocol implementation (the
+        bridge) rather than the prompt management logic itself.
       review_reason: null
       review_resume_lifecycle: null

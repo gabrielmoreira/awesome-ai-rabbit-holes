@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gregario__lorcana-oracle__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: gregario/lorcana-oracle
         extracted_url: https://github.com/gregario/lorcana-oracle
-        surrounding_text: "- [gregario/lorcana-oracle](https://github.com/gregario/lorcana-oracle) [![lorcana-oracle MCP server](https://glama.ai/mcp/servers/gregario/lorcana-oracle/badges/score.svg)](https://glama.ai/mcp/servers/gregario/lorcana-oracle) 📇 🏠 - Disney Lorcana TCG card search, deck analysis, ink curves, lore generation, and franchise browsing. 7 tools, 2,710 cards embedded."
+        surrounding_text: >-
+          - [gregario/lorcana-oracle](https://github.com/gregario/lorcana-oracle) [![lorcana-oracle MCP
+          server](https://glama.ai/mcp/servers/gregario/lorcana-oracle/badges/score.svg)](https://glama.ai/mcp/servers/gregario/lorcana-oracle)
+          📇 🏠 - Disney Lorcana TCG card search, deck analysis, ink curves, lore generation, and franchise browsing. 7
+          tools, 2,710 cards embedded.
         confidence: high
 metadata:
   github:
@@ -30,18 +34,20 @@ metadata:
     archived: false
     full_name: gregario/lorcana-oracle
     html_url: https://github.com/gregario/lorcana-oracle
-    created_at: "2026-03-16T17:35:31Z"
-    pushed_at: "2026-06-15T17:39:43Z"
+    created_at: '2026-03-16T17:35:31Z'
+    pushed_at: '2026-06-15T17:39:43Z'
     description: Disney Lorcana TCG MCP server — card search, deck analysis, and franchise browsing powered by LorcanaJSON
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:54.650Z"
+    last_checked_at: '2026-09-03T05:16:54.650Z'
     readme:
-      fetched_at: "2026-09-03T05:16:54.650Z"
+      fetched_at: '2026-09-03T05:16:54.650Z'
       bytes: 4778
 insights:
   summary: An MCP server for Disney Lorcana TCG that provides card search, deck analysis, and franchise browsing capabilities.
-  why_it_matters: Developers integrating MCP-based workflows can now query Disney Lorcana card data and deck analytics directly within their AI assistant environments.
+  why_it_matters: >-
+    Developers integrating MCP-based workflows can now query Disney Lorcana card data and deck analytics directly within
+    their AI assistant environments.
   mental_damage: Because nothing says 'developer productivity' like optimizing your Lorcana deck's ink curve via Claude Code.
   tags:
     - mcp-server
@@ -51,31 +57,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a domain-specific MCP server whose primary identity is providing Lorcana TCG data and analysis tools via the Model Context Protocol.
+  reason: >-
+    This is a domain-specific MCP server whose primary identity is providing Lorcana TCG data and analysis tools via the
+    Model Context Protocol.
   evidence:
     - Repo description explicitly identifies it as a 'Disney Lorcana TCG MCP server'
     - README details MCP-compatible tools and installation via `npx` and Claude Desktop/Code configs
     - Core functionality revolves around MCP tool calls (search_cards, analyze_ink_curve, etc.)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.617Z"
+    updated_at: '2026-05-06T22:12:15.617Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:54.650Z"
+    updated_at: '2026-09-03T05:16:54.650Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:04:22.558Z"
+    updated_at: '2026-07-21T16:04:22.558Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +97,9 @@ processing:
       input_hash: sha256:3f2a86fcd8fe6e0f7aa425ad24e86ee42ab4ed62a78fedfede9e7388399b074a
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a domain-specific MCP server whose primary identity is providing Lorcana TCG data and analysis tools via the Model Context Protocol.
+      decision_reason: >-
+        This is a domain-specific MCP server whose primary identity is providing Lorcana TCG data and analysis tools via
+        the Model Context Protocol.
       decision_evidence:
         - Repo description explicitly identifies it as a 'Disney Lorcana TCG MCP server'
         - README details MCP-compatible tools and installation via `npx` and Claude Desktop/Code configs
@@ -96,6 +107,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server (domain-specific) rather than an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server (domain-specific)
+        rather than an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

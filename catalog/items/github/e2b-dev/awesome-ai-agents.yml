@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__e2b-dev__awesome-ai-agents__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -29,10 +29,11 @@ metadata:
     archived: false
     full_name: e2b-dev/awesome-ai-agents
     html_url: https://github.com/e2b-dev/awesome-ai-agents
-    created_at: "2023-06-19T00:20:06Z"
-    pushed_at: "2026-08-21T18:52:45Z"
+    created_at: '2023-06-19T00:20:06Z'
+    pushed_at: '2026-08-21T18:52:45Z'
     description: A list of AI autonomous agents
-    homepage: https://docs.e2b.dev/?utm_source=github&utm_medium=referral&utm_campaign=repo_website&utm_content=awesome-ai-agents
+    homepage: >-
+      https://docs.e2b.dev/?utm_source=github&utm_medium=referral&utm_campaign=repo_website&utm_content=awesome-ai-agents
     topics:
       - agent
       - ai
@@ -47,13 +48,17 @@ metadata:
       - gpt-engineer
       - openai
       - python
-    last_checked_at: "2026-09-14T04:13:45.634Z"
+    last_checked_at: '2026-09-14T04:13:45.634Z'
     readme:
-      fetched_at: "2026-09-14T04:13:45.634Z"
+      fetched_at: '2026-09-14T04:13:45.634Z'
       bytes: 212139
 insights:
-  summary: A curated list of AI autonomous agents, both open-source and closed-source, with a web UI for filtering by categories and use-cases.
-  why_it_matters: It provides developers with a structured, discoverable map of the AI agent ecosystem, saving time in finding relevant tools for building or integrating agents.
+  summary: >-
+    A curated list of AI autonomous agents, both open-source and closed-source, with a web UI for filtering by
+    categories and use-cases.
+  why_it_matters: >-
+    It provides developers with a structured, discoverable map of the AI agent ecosystem, saving time in finding
+    relevant tools for building or integrating agents.
   mental_damage: Because nothing says 'I have my life together' like bookmarking a list of 1000 things you’ll never actually try.
   tags:
     - directory
@@ -64,31 +69,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a curated directory of AI agents, not a standalone tool or platform, so it fits best under Awesome Awesomes as a navigation aid for developers.
+  reason: >-
+    This is a curated directory of AI agents, not a standalone tool or platform, so it fits best under Awesome Awesomes
+    as a navigation aid for developers.
   evidence:
     - Repo description explicitly states it is 'A list of AI autonomous agents'
     - README emphasizes it is a structured list with open-source and closed-source projects, plus a web UI for filtering
     - Source-list context confirms it is a direct awesome list
 placement:
   primary_category: awesome-awesomes
-  section: Directories & Maps
+  secondary_categories: []
+  section: Awesome Lists & Directories
 lifecycle:
   status: promotion_candidate
   reason: Stars (27679) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.572Z"
+    updated_at: '2026-05-06T22:12:15.572Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:45.634Z"
+    updated_at: '2026-09-14T04:13:45.634Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:56.592Z"
+    updated_at: '2026-07-21T15:51:56.592Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -101,14 +109,20 @@ processing:
       input_hash: sha256:9da6b7757c118fb8f723d80e4d17470a71e3990f0892d5ba6c89a1b76abc7fb8
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: This is a curated directory of AI agents, not a standalone tool or platform, so it fits best under Awesome Awesomes as a navigation aid for developers.
+      decision_reason: >-
+        This is a curated directory of AI agents, not a standalone tool or platform, so it fits best under Awesome
+        Awesomes as a navigation aid for developers.
       decision_evidence:
         - Repo description explicitly states it is 'A list of AI autonomous agents'
-        - README emphasizes it is a structured list with open-source and closed-source projects, plus a web UI for filtering
+        - >-
+          README emphasizes it is a structured list with open-source and closed-source projects, plus a web UI for
+          filtering
         - Source-list context confirms it is a direct awesome list
       category_candidates:
         - awesome-awesomes
         - agent-orchestration
-      contrastive_reason: Choose awesome-awesomes over agent-orchestration because the primary value is discovery and navigation of the ecosystem, not coordinating agents.
+      contrastive_reason: >-
+        Choose awesome-awesomes over agent-orchestration because the primary value is discovery and navigation of the
+        ecosystem, not coordinating agents.
       review_reason: null
       review_resume_lifecycle: null

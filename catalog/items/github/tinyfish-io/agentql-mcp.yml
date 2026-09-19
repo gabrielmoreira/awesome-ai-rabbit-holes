@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tinyfish-io__agentql-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: AgentQL
         extracted_url: https://github.com/tinyfish-io/agentql-mcp
-        surrounding_text: "- **[AgentQL](https://github.com/tinyfish-io/agentql-mcp)** - Enable AI agents to get structured data from unstructured web with [AgentQL](https://www.agentql.com/)."
+        surrounding_text: >-
+          - **[AgentQL](https://github.com/tinyfish-io/agentql-mcp)** - Enable AI agents to get structured data from
+          unstructured web with [AgentQL](https://www.agentql.com/).
         confidence: high
 metadata:
   github:
@@ -29,8 +31,8 @@ metadata:
     archived: false
     full_name: tinyfish-io/agentql-mcp
     html_url: https://github.com/tinyfish-io/agentql-mcp
-    created_at: "2024-12-21T01:12:55Z"
-    pushed_at: "2026-07-20T03:22:29Z"
+    created_at: '2024-12-21T01:12:55Z'
+    pushed_at: '2026-07-20T03:22:29Z'
     description: Model Context Protocol server that integrates AgentQL's data extraction capabilities.
     homepage: https://docs.agentql.com/integrations/mcp
     topics:
@@ -51,14 +53,20 @@ metadata:
       - web-scrapping
       - webagent
       - windsurf
-    last_checked_at: "2026-07-21T15:20:50.819Z"
+    last_checked_at: '2026-07-21T15:20:50.819Z'
     readme:
-      fetched_at: "2026-07-21T15:20:50.818Z"
+      fetched_at: '2026-07-21T15:20:50.818Z'
       bytes: 5981
 insights:
-  summary: An MCP server that exposes AgentQL's web data extraction and structured scraping capabilities to AI assistants like Claude, Cursor, and Windsurf.
-  why_it_matters: It allows coding agents and IDEs to reliably pull structured data from web pages without wrestling with brittle selectors or building custom scraping logic.
-  mental_damage: Another essential tool emerges just in time to help your agent confess it still can't reliably click 'Accept All Cookies' on its own.
+  summary: >-
+    An MCP server that exposes AgentQL's web data extraction and structured scraping capabilities to AI assistants like
+    Claude, Cursor, and Windsurf.
+  why_it_matters: >-
+    It allows coding agents and IDEs to reliably pull structured data from web pages without wrestling with brittle
+    selectors or building custom scraping logic.
+  mental_damage: >-
+    Another essential tool emerges just in time to help your agent confess it still can't reliably click 'Accept All
+    Cookies' on its own.
   tags:
     - mcp
     - web-scraping
@@ -68,35 +76,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server that brings AgentQL's scraping capabilities into MCP-compatible assistants, which fits the MCP Servers & Tooling category cleanly.
+  reason: >-
+    The product's identity is an MCP server that brings AgentQL's scraping capabilities into MCP-compatible assistants,
+    which fits the MCP Servers & Tooling category cleanly.
   evidence:
-    - "Repo description explicitly states: 'Model Context Protocol server that integrates AgentQL's data extraction capabilities.'"
+    - >-
+      Repo description explicitly states: 'Model Context Protocol server that integrates AgentQL's data extraction
+      capabilities.'
     - README documents setup instructions for Claude, Cursor, Windsurf, and VS Code as MCP servers.
     - Listed in awesome-mcp-servers under the 'Official Servers' section.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: promotion_candidate
   reason: Stars (162) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.652Z"
+    updated_at: '2026-05-06T22:12:15.652Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:50.819Z"
+    updated_at: '2026-07-21T15:20:50.819Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

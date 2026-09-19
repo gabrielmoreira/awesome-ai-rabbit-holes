@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__box__mcp-server-box-remote__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 📂 <a name="file-systems"></a>File Systems
         anchor_text: box/mcp-server-box-remote
         extracted_url: https://github.com/box/mcp-server-box-remote
-        surrounding_text: "- [box/mcp-server-box-remote](https://github.com/box/mcp-server-box-remote/) 🎖️ ☁️ - The Box MCP server allows third party AI agents to securely and seamlessly access Box content and use tools such as search, asking questions from files and folders, and data extraction."
+        surrounding_text: >-
+          - [box/mcp-server-box-remote](https://github.com/box/mcp-server-box-remote/) 🎖️ ☁️ - The Box MCP server
+          allows third party AI agents to securely and seamlessly access Box content and use tools such as search,
+          asking questions from files and folders, and data extraction.
         confidence: high
     - id: discovery__github__box__mcp-server-box-remote__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-09-01T14:31:13.862Z"
+      discovered_at: '2026-09-01T14:31:13.862Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +38,10 @@ provenance:
           - 📂 File Systems
         anchor_text: box/mcp-server-box-remote
         extracted_url: https://github.com/box/mcp-server-box-remote
-        surrounding_text: "-   **[box/mcp-server-box-remote](https://github.com/box/mcp-server-box-remote)** [![GitHub stars](https://img.shields.io/github/stars/box/mcp-server-box-remote?style=social)](https://github.com/box/mcp-server-box-remote): Official remote Box MCP server for accessing Box content, search, Q&A, and data extraction."
+        surrounding_text: >-
+          -   **[box/mcp-server-box-remote](https://github.com/box/mcp-server-box-remote)** [![GitHub
+          stars](https://img.shields.io/github/stars/box/mcp-server-box-remote?style=social)](https://github.com/box/mcp-server-box-remote):
+          Official remote Box MCP server for accessing Box content, search, Q&A, and data extraction.
         confidence: high
 metadata:
   github:
@@ -45,19 +51,23 @@ metadata:
     archived: false
     full_name: box/mcp-server-box-remote
     html_url: https://github.com/box/mcp-server-box-remote
-    created_at: "2025-09-18T21:51:47Z"
-    pushed_at: "2025-09-20T03:58:32Z"
+    created_at: '2025-09-18T21:51:47Z'
+    pushed_at: '2025-09-20T03:58:32Z'
     description: Securely connect AI agents to your enterprise content in Box
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-07T04:13:37.004Z"
+    last_checked_at: '2026-09-07T04:13:37.004Z'
     readme:
-      fetched_at: "2026-09-07T04:13:37.004Z"
+      fetched_at: '2026-09-07T04:13:37.004Z'
       bytes: 4212
 insights:
   summary: A remote MCP server that securely connects AI agents to Box content and Box AI without moving data out of Box.
-  why_it_matters: Developers can integrate Box's enterprise content and AI tools into MCP-compatible agents while maintaining data security and OAuth-based access control.
-  mental_damage: Now your AI agent can rummage through your Box files, because nothing says 'enterprise' like giving a model access to your entire document repository.
+  why_it_matters: >-
+    Developers can integrate Box's enterprise content and AI tools into MCP-compatible agents while maintaining data
+    security and OAuth-based access control.
+  mental_damage: >-
+    Now your AI agent can rummage through your Box files, because nothing says 'enterprise' like giving a model access
+    to your entire document repository.
   tags:
     - mcp
     - box
@@ -74,24 +84,25 @@ curation:
     - Already listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-01T14:31:13.864Z"
+    updated_at: '2026-09-01T14:31:13.864Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:37.004Z"
+    updated_at: '2026-09-07T04:13:37.004Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:26:36.919Z"
+    updated_at: '2026-07-21T15:26:36.919Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -112,6 +123,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server for Box, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server for Box, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

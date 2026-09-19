@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__getnable__finopsmcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: chaandannn/finopsmcp
         extracted_url: https://github.com/chaandannn/finopsmcp
-        surrounding_text: "- [chaandannn/finopsmcp](https://github.com/chaandannn/finopsmcp) [![chaandannn/finopsmcp MCP server](https://glama.ai/mcp/servers/chaandannn/finopsmcp/badges/score.svg)](https://glama.ai/mcp/servers/chaandannn/finopsmcp) 🐍 🏠 🍎 🪟 🐧 - Local-first FinOps copilot. Connect AWS, Azure, GCP, Kubernetes, and 15+ SaaS and AI bills, then ask cost questions in Claude or Cursor, find waste, and get the fix as a pull request you approve. Read-only; your credentials and bill stay on your machine. `uvx nable`."
+        surrounding_text: >-
+          - [chaandannn/finopsmcp](https://github.com/chaandannn/finopsmcp) [![chaandannn/finopsmcp MCP
+          server](https://glama.ai/mcp/servers/chaandannn/finopsmcp/badges/score.svg)](https://glama.ai/mcp/servers/chaandannn/finopsmcp)
+          🐍 🏠 🍎 🪟 🐧 - Local-first FinOps copilot. Connect AWS, Azure, GCP, Kubernetes, and 15+ SaaS and AI bills,
+          then ask cost questions in Claude or Cursor, find waste, and get the fix as a pull request you approve.
+          Read-only; your credentials and bill stay on your machine. `uvx nable`.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,12 @@ metadata:
     archived: false
     full_name: getnable/finopsmcp
     html_url: https://github.com/getnable/finopsmcp
-    created_at: "2026-05-10T01:22:18Z"
-    pushed_at: "2026-08-30T02:14:09Z"
-    description: "The headless FinOps intelligence layer: API-first, agent-first cost control for cloud + AI. Connect your cloud stack in Claude, Cursor, or the terminal, and gate what agents do to your infra before they act. Propose-only. Open source, local-first."
+    created_at: '2026-05-10T01:22:18Z'
+    pushed_at: '2026-08-30T02:14:09Z'
+    description: >-
+      The headless FinOps intelligence layer: API-first, agent-first cost control for cloud + AI. Connect your cloud
+      stack in Claude, Cursor, or the terminal, and gate what agents do to your infra before they act. Propose-only.
+      Open source, local-first.
     homepage: https://getnable.com
     topics:
       - ai
@@ -55,14 +63,20 @@ metadata:
       - local-first
       - mcp
       - mcp-server
-    last_checked_at: "2026-09-03T05:16:48.848Z"
+    last_checked_at: '2026-09-03T05:16:48.848Z'
     readme:
-      fetched_at: "2026-09-03T05:16:48.848Z"
+      fetched_at: '2026-09-03T05:16:48.848Z'
       bytes: 10719
 insights:
-  summary: A local-first MCP server that allows AI agents like Claude and Cursor to query cloud costs across AWS, Azure, GCP, and Kubernetes.
-  why_it_matters: It bridges the gap between cloud infrastructure visibility and AI agents, allowing developers to debug cloud spend and apply cost-saving fixes directly via PRs.
-  mental_damage: Now you can ask your AI assistant to optimize your cloud budget while it simultaneously executes the changes that might break your production environment.
+  summary: >-
+    A local-first MCP server that allows AI agents like Claude and Cursor to query cloud costs across AWS, Azure, GCP,
+    and Kubernetes.
+  why_it_matters: >-
+    It bridges the gap between cloud infrastructure visibility and AI agents, allowing developers to debug cloud spend
+    and apply cost-saving fixes directly via PRs.
+  mental_damage: >-
+    Now you can ask your AI assistant to optimize your cloud budget while it simultaneously executes the changes that
+    might break your production environment.
   tags:
     - mcp
     - finops
@@ -72,31 +86,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's primary identity is as an MCP server providing domain-specific cloud financial context to host AI applications.
+  reason: >-
+    The tool's primary identity is as an MCP server providing domain-specific cloud financial context to host AI
+    applications.
   evidence:
     - Repo description explicitly identifies as a 'FinOps MCP server'
     - Functions as a bridge between cloud providers and Claude/Cursor via MCP
     - Product identity is the server implementation itself
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.715Z"
+    updated_at: '2026-07-16T05:04:46.715Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:48.848Z"
+    updated_at: '2026-09-03T05:16:48.848Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-16T05:16:53.560Z"
+    updated_at: '2026-07-16T05:16:53.560Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

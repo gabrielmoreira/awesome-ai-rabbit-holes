@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aiops-tools__nutanix-aiops__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-30T05:05:26.992Z"
+      discovered_at: '2026-07-30T05:05:26.992Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: AIops-tools/Nutanix-AIops
         extracted_url: https://github.com/aiops-tools/nutanix-aiops
-        surrounding_text: "- [AIops-tools/Nutanix-AIops](https://github.com/AIops-tools/Nutanix-AIops) [![AIops-tools/Nutanix-AIops MCP server](https://glama.ai/mcp/servers/AIops-tools/Nutanix-AIops/badges/score.svg)](https://glama.ai/mcp/servers/AIops-tools/Nutanix-AIops) 🐍 🏠 - Governed Nutanix Prism Central v4 operations — cluster, VM (AHV + ESXi), storage, networking, snapshot/DR, alerts, and LCM (51 tools) with unbypassable audit logging (MCP + CLI), budget/runaway guards, dry-run, and undo/rollback."
+        surrounding_text: >-
+          - [AIops-tools/Nutanix-AIops](https://github.com/AIops-tools/Nutanix-AIops) [![AIops-tools/Nutanix-AIops MCP
+          server](https://glama.ai/mcp/servers/AIops-tools/Nutanix-AIops/badges/score.svg)](https://glama.ai/mcp/servers/AIops-tools/Nutanix-AIops)
+          🐍 🏠 - Governed Nutanix Prism Central v4 operations — cluster, VM (AHV + ESXi), storage, networking,
+          snapshot/DR, alerts, and LCM (51 tools) with unbypassable audit logging (MCP + CLI), budget/runaway guards,
+          dry-run, and undo/rollback.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,9 @@ metadata:
     archived: false
     full_name: AIops-tools/Nutanix-AIops
     html_url: https://github.com/AIops-tools/Nutanix-AIops
-    created_at: "2026-07-12T06:56:26Z"
-    pushed_at: "2026-09-16T23:27:22Z"
-    description: "Governed Nutanix Prism Central v4 ops: clusters/VMs/storage/DR/LCM, ETag-safe, 47 MCP tools (preview)"
+    created_at: '2026-07-12T06:56:26Z'
+    pushed_at: '2026-09-16T23:27:22Z'
+    description: 'Governed Nutanix Prism Central v4 ops: clusters/VMs/storage/DR/LCM, ETag-safe, 47 MCP tools (preview)'
     homepage: null
     topics:
       - agent-skills
@@ -42,14 +47,18 @@ metadata:
       - nutanix
       - prism-central
       - virtualization
-    last_checked_at: "2026-09-17T04:13:36.519Z"
+    last_checked_at: '2026-09-17T04:13:36.519Z'
     readme:
-      fetched_at: "2026-09-17T04:13:36.519Z"
+      fetched_at: '2026-09-17T04:13:36.519Z'
       bytes: 10367
 insights:
   summary: An MCP server providing 51 governed tools for managing Nutanix Prism Central infrastructure.
-  why_it_matters: It enables AI agents to perform Nutanix operations with built-in ETag safety, audit logging, and risk-tier labeling to prevent accidental infrastructure destruction.
-  mental_damage: Finally, an audit log to help you figure out which specific LLM hallucination decided to 'optimize' your production storage cluster by deleting it.
+  why_it_matters: >-
+    It enables AI agents to perform Nutanix operations with built-in ETag safety, audit logging, and risk-tier labeling
+    to prevent accidental infrastructure destruction.
+  mental_damage: >-
+    Finally, an audit log to help you figure out which specific LLM hallucination decided to 'optimize' your production
+    storage cluster by deleting it.
   tags:
     - mcp
     - nutanix
@@ -59,31 +68,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server providing domain-specific infrastructure tools, making the protocol its primary identity.
+  reason: >-
+    The project is explicitly an MCP server providing domain-specific infrastructure tools, making the protocol its
+    primary identity.
   evidence:
     - README claims 51 MCP tools for Nutanix Prism Central v4
     - Provides governance features like ETag safety, audit logs, and undo-token recording
     - Listed in awesome-mcp-servers under Cloud Platforms
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-30T05:05:26.994Z"
+    updated_at: '2026-07-30T05:05:26.994Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:36.519Z"
+    updated_at: '2026-09-17T04:13:36.519Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:23:18.429Z"
+    updated_at: '2026-08-27T06:23:18.429Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -92,7 +104,9 @@ processing:
       input_hash: sha256:60f59e610ff51b07c620bf68720d3c6357f2f31ec2304d1942b4eb6dada4dbf5
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is explicitly an MCP server providing domain-specific infrastructure tools, making the protocol its primary identity.
+      decision_reason: >-
+        The project is explicitly an MCP server providing domain-specific infrastructure tools, making the protocol its
+        primary identity.
       decision_evidence:
         - README claims 51 MCP tools for Nutanix Prism Central v4
         - Provides governance features like ETag safety, audit logs, and undo-token recording
@@ -100,7 +114,9 @@ processing:
       category_candidates:
         - mcp
         - skills
-      contrastive_reason: Choose mcp over skills because the product is an implementation of the Model Context Protocol server for a specific infrastructure domain rather than just a collection of portable rules or prompts.
+      contrastive_reason: >-
+        Choose mcp over skills because the product is an implementation of the Model Context Protocol server for a
+        specific infrastructure domain rather than just a collection of portable rules or prompts.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

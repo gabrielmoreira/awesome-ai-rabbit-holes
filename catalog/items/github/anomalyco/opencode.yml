@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__anomalyco__opencode__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,12 @@ provenance:
           - Open Source
         anchor_text: OpenCode
         extracted_url: https://github.com/anomalyco/opencode
-        surrounding_text: "- **[OpenCode](https://github.com/anomalyco/opencode)** `⭐ 154k` — Terminal-native coding agent with 75+ provider support, LSP integration, and privacy-first design (formerly opencode-ai; now at opencode.ai)."
+        surrounding_text: >-
+          - **[OpenCode](https://github.com/anomalyco/opencode)** `⭐ 154k` — Terminal-native coding agent with 75+
+          provider support, LSP integration, and privacy-first design (formerly opencode-ai; now at opencode.ai).
         confidence: high
     - id: discovery__github__anomalyco__opencode__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -45,18 +47,20 @@ metadata:
     archived: false
     full_name: anomalyco/opencode
     html_url: https://github.com/anomalyco/opencode
-    created_at: "2025-04-30T20:08:00Z"
-    pushed_at: "2026-09-17T03:52:58Z"
+    created_at: '2025-04-30T20:08:00Z'
+    pushed_at: '2026-09-17T03:52:58Z'
     description: The open source coding agent.
     homepage: https://opencode.ai
     topics: []
-    last_checked_at: "2026-09-17T04:13:44.669Z"
+    last_checked_at: '2026-09-17T04:13:44.669Z'
     readme:
-      fetched_at: "2026-09-17T04:13:44.669Z"
+      fetched_at: '2026-09-17T04:13:44.669Z'
       bytes: 5402
 insights:
   summary: An open source AI coding agent with terminal and desktop interfaces.
-  why_it_matters: It provides developers with a self-hostable alternative to proprietary coding assistants, offering repo-level editing, task execution, and multi-agent workflows.
+  why_it_matters: >-
+    It provides developers with a self-hostable alternative to proprietary coding assistants, offering repo-level
+    editing, task execution, and multi-agent workflows.
   mental_damage: Finally, a coding agent that doesn’t require you to mortgage your firstborn to Anthropic.
   tags:
     - coding-agent
@@ -67,13 +71,16 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a primary coding assistant that directly reads, plans, edits, and executes code in repos, matching the canonical positive examples for this category.
+  reason: >-
+    It is a primary coding assistant that directly reads, plans, edits, and executes code in repos, matching the
+    canonical positive examples for this category.
   evidence:
-    - "Repo description: 'The open source coding agent'"
-    - "README: Includes built-in agents (build, plan, general) for development work and code exploration"
-    - "Source-list context: Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'"
+    - 'Repo description: ''The open source coding agent'''
+    - 'README: Includes built-in agents (build, plan, general) for development work and code exploration'
+    - 'Source-list context: Listed in awesome-cli-coding-agents under ''Terminal-native coding agents > Open Source'''
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -81,17 +88,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.581Z"
+    updated_at: '2026-05-06T22:12:15.581Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:44.669Z"
+    updated_at: '2026-09-17T04:13:44.669Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:23:16.048Z"
+    updated_at: '2026-07-21T15:23:16.048Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -104,14 +111,18 @@ processing:
       input_hash: sha256:0e768d0419d1eba1b801c383a2b46560f3412d0504fd0a189d159bb38dae8f5c
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: It is a primary coding assistant that directly reads, plans, edits, and executes code in repos, matching the canonical positive examples for this category.
+      decision_reason: >-
+        It is a primary coding assistant that directly reads, plans, edits, and executes code in repos, matching the
+        canonical positive examples for this category.
       decision_evidence:
-        - "Repo description: 'The open source coding agent'"
-        - "README: Includes built-in agents (build, plan, general) for development work and code exploration"
-        - "Source-list context: Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'"
+        - 'Repo description: ''The open source coding agent'''
+        - 'README: Includes built-in agents (build, plan, general) for development work and code exploration'
+        - 'Source-list context: Listed in awesome-cli-coding-agents under ''Terminal-native coding agents > Open Source'''
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because OpenCode is a standalone primary coding assistant, not an extension augmenting another assistant or editor.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because OpenCode is a standalone primary coding assistant, not an
+        extension augmenting another assistant or editor.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__34892002__bilibili-mcp-js__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: 34892002/bilibili-mcp-js
         extracted_url: https://github.com/34892002/bilibili-mcp-js
-        surrounding_text: "- [34892002/bilibili-mcp-js](https://github.com/34892002/bilibili-mcp-js) 📇 🏠 - A MCP server that supports searching for Bilibili content. Provides LangChain integration examples and test scripts."
+        surrounding_text: >-
+          - [34892002/bilibili-mcp-js](https://github.com/34892002/bilibili-mcp-js) 📇 🏠 - A MCP server that supports
+          searching for Bilibili content. Provides LangChain integration examples and test scripts.
         confidence: high
 metadata:
   github:
@@ -30,20 +32,24 @@ metadata:
     archived: false
     full_name: 34892002/bilibili-mcp-js
     html_url: https://github.com/34892002/bilibili-mcp-js
-    created_at: "2025-03-24T10:27:50Z"
-    pushed_at: "2026-03-30T01:18:26Z"
+    created_at: '2025-03-24T10:27:50Z'
+    pushed_at: '2026-03-30T01:18:26Z'
     description: Bilibili video search MCP (Model Context Protocol) service - 哔哩哔哩视频搜索MCP服务
-    homepage: ""
+    homepage: ''
     topics:
       - bilibili
       - mcp
-    last_checked_at: "2026-09-17T04:13:25.926Z"
+    last_checked_at: '2026-09-17T04:13:25.926Z'
     readme:
-      fetched_at: "2026-09-17T04:13:25.926Z"
+      fetched_at: '2026-09-17T04:13:25.926Z'
       bytes: 3046
 insights:
-  summary: An MCP server that enables LLMs to search Bilibili videos, fetch trending content, and retrieve video or creator details.
-  why_it_matters: It provides an LLM with structured access to Bilibili's video metadata and trending lists via the Model Context Protocol.
+  summary: >-
+    An MCP server that enables LLMs to search Bilibili videos, fetch trending content, and retrieve video or creator
+    details.
+  why_it_matters: >-
+    It provides an LLM with structured access to Bilibili's video metadata and trending lists via the Model Context
+    Protocol.
   mental_damage: One step closer to your AI agent developing a highly specific obsession with Bilibili anime trends and pop culture.
   tags:
     - mcp
@@ -61,24 +67,24 @@ curation:
     - Provides structured API access for video, trending, and creator information
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: promotion_candidate
   reason: Stars (165) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.598Z"
+    updated_at: '2026-05-06T22:12:15.598Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:25.926Z"
+    updated_at: '2026-09-17T04:13:25.926Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:49:14.005Z"
+    updated_at: '2026-07-20T15:49:14.005Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -99,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's identity is centered on being an MCP server implementation rather than an extension for a specific IDE.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's identity is centered on being an MCP server
+        implementation rather than an extension for a specific IDE.
       review_reason: null
       review_resume_lifecycle: null

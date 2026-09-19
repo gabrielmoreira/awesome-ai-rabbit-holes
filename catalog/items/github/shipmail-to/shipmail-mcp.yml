@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jcoulaud__shipmail-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-29T05:38:18.519Z"
+      discovered_at: '2026-06-29T05:38:18.519Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,14 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: jcoulaud/shipmail-mcp
         extracted_url: https://github.com/jcoulaud/shipmail-mcp
-        surrounding_text: "- [jcoulaud/shipmail-mcp](https://github.com/jcoulaud/shipmail-mcp) [![jcoulaud/shipmail-mcp MCP server](https://glama.ai/mcp/servers/jcoulaud/shipmail-mcp/badges/score.svg)](https://glama.ai/mcp/servers/jcoulaud/shipmail-mcp) 📇 ☁️ - Business email MCP server for AI agents. Manage custom-domain mailboxes, read and send messages, draft replies, inspect threads, and automate Shipmail REST API/webhook workflows."
+        surrounding_text: >-
+          - [jcoulaud/shipmail-mcp](https://github.com/jcoulaud/shipmail-mcp) [![jcoulaud/shipmail-mcp MCP
+          server](https://glama.ai/mcp/servers/jcoulaud/shipmail-mcp/badges/score.svg)](https://glama.ai/mcp/servers/jcoulaud/shipmail-mcp)
+          📇 ☁️ - Business email MCP server for AI agents. Manage custom-domain mailboxes, read and send messages, draft
+          replies, inspect threads, and automate Shipmail REST API/webhook workflows.
         confidence: high
     - id: discovery__github__shipmail-to__shipmail-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-08-10T04:35:51.194Z"
+      discovered_at: '2026-08-10T04:35:51.194Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -36,7 +40,11 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: jcoulaud/shipmail-mcp
         extracted_url: https://github.com/jcoulaud/shipmail-mcp
-        surrounding_text: "- [jcoulaud/shipmail-mcp](https://github.com/jcoulaud/shipmail-mcp) [![jcoulaud/shipmail-mcp MCP server](https://glama.ai/mcp/servers/jcoulaud/shipmail-mcp/badges/score.svg)](https://glama.ai/mcp/servers/jcoulaud/shipmail-mcp) 📇 ☁️ - Business email MCP server for AI agents. Manage custom-domain mailboxes, read and send messages, draft replies, inspect threads, and automate Shipmail REST API/webhook workflows."
+        surrounding_text: >-
+          - [jcoulaud/shipmail-mcp](https://github.com/jcoulaud/shipmail-mcp) [![jcoulaud/shipmail-mcp MCP
+          server](https://glama.ai/mcp/servers/jcoulaud/shipmail-mcp/badges/score.svg)](https://glama.ai/mcp/servers/jcoulaud/shipmail-mcp)
+          📇 ☁️ - Business email MCP server for AI agents. Manage custom-domain mailboxes, read and send messages, draft
+          replies, inspect threads, and automate Shipmail REST API/webhook workflows.
         confidence: high
 metadata:
   github:
@@ -46,8 +54,8 @@ metadata:
     archived: false
     full_name: shipmail-to/shipmail-mcp
     html_url: https://github.com/shipmail-to/shipmail-mcp
-    created_at: "2026-06-19T15:30:29Z"
-    pushed_at: "2026-07-29T22:35:03Z"
+    created_at: '2026-06-19T15:30:29Z'
+    pushed_at: '2026-07-29T22:35:03Z'
     description: Official Shipmail MCP server for AI-agent custom-domain business email, REST API, and webhooks
     homepage: https://shipmail.to/docs/mcp
     topics:
@@ -66,14 +74,18 @@ metadata:
       - shipmail
       - typescript
       - webhooks
-    last_checked_at: "2026-07-30T05:05:49.274Z"
+    last_checked_at: '2026-07-30T05:05:49.274Z'
     readme:
-      fetched_at: "2026-07-30T05:05:49.274Z"
+      fetched_at: '2026-07-30T05:05:49.274Z'
       bytes: 42740
 insights:
   summary: An MCP server that provides AI agents with access to Shipmail custom-domain business email mailboxes and APIs.
-  why_it_matters: It allows autonomous agents to handle professional communication through real, domain-based email accounts instead of just generic API calls.
-  mental_damage: Because if an agent is going to hallucinate a response to a client, it should at least do so from a professional-looking business domain.
+  why_it_matters: >-
+    It allows autonomous agents to handle professional communication through real, domain-based email accounts instead
+    of just generic API calls.
+  mental_damage: >-
+    Because if an agent is going to hallucinate a response to a client, it should at least do so from a
+    professional-looking business domain.
   tags:
     - ai-agents
     - business-email
@@ -82,20 +94,25 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The project's primary identity is an implementation of the Model Context Protocol (MCP) designed to expose a specific service (Shipmail) to LLM clients.
+  reason: >-
+    The project's primary identity is an implementation of the Model Context Protocol (MCP) designed to expose a
+    specific service (Shipmail) to LLM clients.
   evidence:
     - README identifies the project as an official Model Context Protocol server.
-    - The tool enables MCP-compatible clients like Claude Desktop and Cursor to interact with Shipmail domains and threads.
+    - >-
+      The tool enables MCP-compatible clients like Claude Desktop and Cursor to interact with Shipmail domains and
+      threads.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-06-29T05:48:57.501Z"
+    updated_at: '2026-06-29T05:48:57.501Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
@@ -103,11 +120,11 @@ processing:
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-08-10T04:35:51.196Z"
+    updated_at: '2026-08-10T04:35:51.196Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:49.274Z"
+    updated_at: '2026-07-30T05:05:49.274Z'
     cause: null
     next_retry_at: null

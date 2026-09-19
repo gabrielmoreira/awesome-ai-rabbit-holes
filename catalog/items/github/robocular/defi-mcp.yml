@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__robocular__defi-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -19,7 +19,10 @@ provenance:
           - 💰 Finance & Fintech
         anchor_text: OzorOwn/defi-mcp
         extracted_url: https://github.com/ozorown/defi-mcp
-        surrounding_text: "-   **[OzorOwn/defi-mcp](https://github.com/OzorOwn/defi-mcp)** [![GitHub stars](https://img.shields.io/github/stars/OzorOwn/defi-mcp?style=social)](https://github.com/OzorOwn/defi-mcp): DeFi & crypto MCP server — token prices, wallet balances, gas prices, DEX swap quotes across 7 chains."
+        surrounding_text: >-
+          -   **[OzorOwn/defi-mcp](https://github.com/OzorOwn/defi-mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/OzorOwn/defi-mcp?style=social)](https://github.com/OzorOwn/defi-mcp):
+          DeFi & crypto MCP server — token prices, wallet balances, gas prices, DEX swap quotes across 7 chains.
         confidence: high
 metadata:
   github:
@@ -29,9 +32,11 @@ metadata:
     archived: false
     full_name: null
     html_url: null
-    created_at: "2026-02-26T12:11:35Z"
-    pushed_at: "2026-03-05T15:20:31Z"
-    description: "MCP server for DeFi & crypto: token prices, wallet balances, gas prices, DEX swap quotes. Works with Claude Desktop, Cursor, Continue.dev."
+    created_at: '2026-02-26T12:11:35Z'
+    pushed_at: '2026-03-05T15:20:31Z'
+    description: >-
+      MCP server for DeFi & crypto: token prices, wallet balances, gas prices, DEX swap quotes. Works with Claude
+      Desktop, Cursor, Continue.dev.
     homepage: https://api-catalog-three.vercel.app/blog/defi-mcp-server-claude-cursor
     topics:
       - ai-agents
@@ -48,14 +53,20 @@ metadata:
       - model-context-protocol
       - solana
       - web3
-    last_checked_at: "2026-05-06T22:46:10.875Z"
+    last_checked_at: '2026-05-06T22:46:10.875Z'
     readme:
-      fetched_at: "2026-05-06T22:46:10.875Z"
+      fetched_at: '2026-05-06T22:46:10.875Z'
       bytes: 7606
 insights:
-  summary: An MCP server that exposes 12 DeFi tools for token prices, wallet balances, gas fees, and DEX swap quotes to Claude Desktop, Cursor, and other MCP-compatible hosts.
-  why_it_matters: Developers building or prompting AI assistants for crypto workflows can give their models live on-chain data without wiring up CoinGecko, Etherscan, or Jupiter APIs by hand.
-  mental_damage: You can now ask your coding assistant for the current ETH gas price and wonder when exactly you lost the ability to check Etherscan like a normal person.
+  summary: >-
+    An MCP server that exposes 12 DeFi tools for token prices, wallet balances, gas fees, and DEX swap quotes to Claude
+    Desktop, Cursor, and other MCP-compatible hosts.
+  why_it_matters: >-
+    Developers building or prompting AI assistants for crypto workflows can give their models live on-chain data without
+    wiring up CoinGecko, Etherscan, or Jupiter APIs by hand.
+  mental_damage: >-
+    You can now ask your coding assistant for the current ETH gas price and wonder when exactly you lost the ability to
+    check Etherscan like a normal person.
   tags:
     - mcp
     - defi
@@ -65,37 +76,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server offering domain-specific DeFi tools, and MCP is its primary identity rather than a compatibility footnote.
+  reason: >-
+    The product is an MCP server offering domain-specific DeFi tools, and MCP is its primary identity rather than a
+    compatibility footnote.
   evidence:
     - Repo description explicitly calls it an 'MCP server for DeFi & crypto' with 12 tools.
     - README shows setup instructions for Claude Desktop, Cursor, and Claude Code as MCP hosts.
     - Listed in awesome-mcp-list under Finance & Fintech, with recent creation and push dates in early 2026.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.645Z"
+    updated_at: '2026-05-06T22:12:15.645Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-07-23T05:09:46.576Z"
+    updated_at: '2026-07-23T05:09:46.576Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for robocular/defi-mcp
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

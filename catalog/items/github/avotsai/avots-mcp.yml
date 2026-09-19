@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__avotsai__avots-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-23T05:08:37.088Z"
+      discovered_at: '2026-07-23T05:08:37.088Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: avotsai/avots-mcp
         extracted_url: https://github.com/avotsai/avots-mcp
-        surrounding_text: "- [avotsai/avots-mcp](https://github.com/avotsai/avots-mcp) [![avotsai/avots-mcp MCP server](https://glama.ai/mcp/servers/avotsai/avots-mcp/badges/score.svg)](https://glama.ai/mcp/servers/avotsai/avots-mcp) 📇 ☁️ - Hosted multi-model AI media + chat: image, video, audio, face-swap and talking-avatar generation plus chat across 300+ models (Claude, GPT, Gemini, DeepSeek…) from one balance and one key."
+        surrounding_text: >-
+          - [avotsai/avots-mcp](https://github.com/avotsai/avots-mcp) [![avotsai/avots-mcp MCP
+          server](https://glama.ai/mcp/servers/avotsai/avots-mcp/badges/score.svg)](https://glama.ai/mcp/servers/avotsai/avots-mcp)
+          📇 ☁️ - Hosted multi-model AI media + chat: image, video, audio, face-swap and talking-avatar generation plus
+          chat across 300+ models (Claude, GPT, Gemini, DeepSeek…) from one balance and one key.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: avotsai/avots-mcp
     html_url: https://github.com/avotsai/avots-mcp
-    created_at: "2026-05-26T08:40:29Z"
-    pushed_at: "2026-08-12T20:04:59Z"
-    description: "MCP server for avots.ai: image, video, audio, face-swap, talking avatars and chat across 300+ AI models. Works with Claude Desktop, claude.ai, Cursor, Cline, openclaw, LibreChat, Continue."
+    created_at: '2026-05-26T08:40:29Z'
+    pushed_at: '2026-08-12T20:04:59Z'
+    description: >-
+      MCP server for avots.ai: image, video, audio, face-swap, talking avatars and chat across 300+ AI models. Works
+      with Claude Desktop, claude.ai, Cursor, Cline, openclaw, LibreChat, Continue.
     homepage: https://avots.ai/mcp
     topics:
       - ai
@@ -49,14 +55,20 @@ metadata:
       - seedance
       - text-to-speech
       - video-generation
-    last_checked_at: "2026-09-07T04:13:29.275Z"
+    last_checked_at: '2026-09-07T04:13:29.275Z'
     readme:
-      fetched_at: "2026-09-07T04:13:29.275Z"
+      fetched_at: '2026-09-07T04:13:29.275Z'
       bytes: 7281
 insights:
-  summary: An MCP server that provides AI assistants with access to Avots.ai's multi-modal suite, including image, video, audio, and chat models.
-  why_it_matters: It allows developers to trigger complex creative workflows—like video generation or face-swapping—directly from within their IDE or coding assistant via the Model Context Protocol.
-  mental_damage: Now your coding assistant can not only hallucinate logic but also generate a high-fidelity video of you apologizing for the production outage.
+  summary: >-
+    An MCP server that provides AI assistants with access to Avots.ai's multi-modal suite, including image, video,
+    audio, and chat models.
+  why_it_matters: >-
+    It allows developers to trigger complex creative workflows—like video generation or face-swapping—directly from
+    within their IDE or coding assistant via the Model Context Protocol.
+  mental_damage: >-
+    Now your coding assistant can not only hallucinate logic but also generate a high-fidelity video of you apologizing
+    for the production outage.
   tags:
     - mcp
     - multimodal
@@ -66,31 +78,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server designed to serve a specific domain of creative AI tools to protocol-compatible clients.
+  reason: >-
+    The project is explicitly an MCP server designed to serve a specific domain of creative AI tools to
+    protocol-compatible clients.
   evidence:
     - Repo description explicitly identifies it as an MCP server for avots.ai.
     - README lists 19 specialized tools for image, video, audio, and avatar generation.
     - Explicitly supports major MCP clients including Claude Desktop, Cursor, and Cline.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-23T05:08:37.090Z"
+    updated_at: '2026-07-23T05:08:37.090Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:29.275Z"
+    updated_at: '2026-09-07T04:13:29.275Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:18:40.386Z"
+    updated_at: '2026-08-27T06:18:40.386Z'
     cause: null
     next_retry_at: null
     classification:
@@ -100,7 +115,9 @@ processing:
       input_hash: sha256:723d74640f3330e1475177025eae5ab130b2f72d3f44df65393d4c36b069a39e
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is explicitly an MCP server designed to serve a specific domain of creative AI tools to protocol-compatible clients.
+      decision_reason: >-
+        The project is explicitly an MCP server designed to serve a specific domain of creative AI tools to
+        protocol-compatible clients.
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server for avots.ai.
         - README lists 19 specialized tools for image, video, audio, and avatar generation.
@@ -108,7 +125,9 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is a protocol-specific server implementation rather than a generic host integration.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is a protocol-specific server
+        implementation rather than a generic host integration.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__usemage__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - App Builders
         anchor_text: Mage
         extracted_url: https://usemage.ai
-        surrounding_text: "- **[Mage](https://usemage.ai/)** – Generate full-stack apps from natural language prompts."
+        surrounding_text: '- **[Mage](https://usemage.ai/)** – Generate full-stack apps from natural language prompts.'
         confidence: high
 metadata:
   github:
@@ -36,8 +36,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A prompt-to-app builder that generates full-stack React, Node.js, and Prisma web apps using GPT and the Wasp framework.
-  why_it_matters: Developers can scaffold and deploy full-stack applications from natural language prompts, reducing boilerplate and setup time.
+  summary: >-
+    A prompt-to-app builder that generates full-stack React, Node.js, and Prisma web apps using GPT and the Wasp
+    framework.
+  why_it_matters: >-
+    Developers can scaffold and deploy full-stack applications from natural language prompts, reducing boilerplate and
+    setup time.
   mental_damage: Finally, a way to turn 'make me a CRUD app' into a weekend project that somehow still feels like magic.
   tags:
     - prompt-to-app
@@ -48,21 +52,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core value is generating full-stack applications from prompts, which aligns with the App Builders category's focus on prompt-to-app workflows.
+  reason: >-
+    The product's core value is generating full-stack applications from prompts, which aligns with the App Builders
+    category's focus on prompt-to-app workflows.
   evidence:
     - Source-list context places it in 'App Builders' section of awesome-ai-coding-tools
     - Scraped site description explicitly states it generates full-stack React/Node.js/Prisma apps from prompts
     - Uses Wasp framework as the underlying full-stack scaffolding
 placement:
   primary_category: app-builders
-  section: Prompt-to-App Builders
+  secondary_categories: []
+  section: Full App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.666Z"
+    updated_at: '2026-05-06T22:12:15.666Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +78,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:38:32.637Z"
+    updated_at: '2026-07-21T15:38:32.637Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +91,9 @@ processing:
       input_hash: sha256:a9344980b96fa7212dffcc42d124ffdd0fedde639158ef053f2f728d69f93c8a
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The product's core value is generating full-stack applications from prompts, which aligns with the App Builders category's focus on prompt-to-app workflows.
+      decision_reason: >-
+        The product's core value is generating full-stack applications from prompts, which aligns with the App Builders
+        category's focus on prompt-to-app workflows.
       decision_evidence:
         - Source-list context places it in 'App Builders' section of awesome-ai-coding-tools
         - Scraped site description explicitly states it generates full-stack React/Node.js/Prisma apps from prompts
@@ -92,6 +101,8 @@ processing:
       category_candidates:
         - app-builders
         - ai-frameworks
-      contrastive_reason: Choose app-builders over ai-frameworks because the primary user experience is prompt-to-app generation rather than code-first SDK usage.
+      contrastive_reason: >-
+        Choose app-builders over ai-frameworks because the primary user experience is prompt-to-app generation rather
+        than code-first SDK usage.
       review_reason: null
       review_resume_lifecycle: null

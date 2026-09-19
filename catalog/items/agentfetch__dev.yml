@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agentfetch__dev__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,13 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: agentfetch.dev
         extracted_url: https://www.agentfetch.dev
-        surrounding_text: "- [bch1212/agentfetch-mcp](https://github.com/bch1212/agentfetch-mcp) [![bch1212/agentfetch-mcp MCP server](https://glama.ai/mcp/servers/bch1212/agentfetch-mcp/badges/score.svg)](https://glama.ai/mcp/servers/bch1212/agentfetch-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Token-budgeted web fetch for AI agents. Auto-routes between Trafilatura, Jina Reader, FireCrawl, and pypdf based on URL pattern. `estimate_tokens` before `fetch_url`, 6h Redis cache, server-side `max_tokens` truncation. Open source MCP server (MIT) plus hosted REST API at [agentfetch.dev](https://www.agentfetch.dev) — 500 free fetches/mo, no card."
+        surrounding_text: >-
+          - [bch1212/agentfetch-mcp](https://github.com/bch1212/agentfetch-mcp) [![bch1212/agentfetch-mcp MCP
+          server](https://glama.ai/mcp/servers/bch1212/agentfetch-mcp/badges/score.svg)](https://glama.ai/mcp/servers/bch1212/agentfetch-mcp)
+          🐍 ☁️ 🏠 🍎 🪟 🐧 - Token-budgeted web fetch for AI agents. Auto-routes between Trafilatura, Jina Reader,
+          FireCrawl, and pypdf based on URL pattern. `estimate_tokens` before `fetch_url`, 6h Redis cache, server-side
+          `max_tokens` truncation. Open source MCP server (MIT) plus hosted REST API at
+          [agentfetch.dev](https://www.agentfetch.dev) — 500 free fetches/mo, no card.
         confidence: high
 metadata:
   github:
@@ -37,9 +43,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: MCP-native web fetch server that returns clean, token-budgeted Markdown from any URL, with caching and intelligent routing for JavaScript-heavy pages and PDFs.
-  why_it_matters: It gives agents deterministic, cheap, context-window-aware access to the live web without burning tokens on boilerplate or unbounded page sizes.
-  mental_damage: Your agent now needs a metered SaaS intermediary just to read a web page, because apparently raw `curl` and common sense were too high-context for 2025.
+  summary: >-
+    MCP-native web fetch server that returns clean, token-budgeted Markdown from any URL, with caching and intelligent
+    routing for JavaScript-heavy pages and PDFs.
+  why_it_matters: >-
+    It gives agents deterministic, cheap, context-window-aware access to the live web without burning tokens on
+    boilerplate or unbounded page sizes.
+  mental_damage: >-
+    Your agent now needs a metered SaaS intermediary just to read a web page, because apparently raw `curl` and common
+    sense were too high-context for 2025.
   tags:
     - mcp
     - web-fetch
@@ -49,21 +61,30 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product is explicitly built and marketed as an MCP-native server for web fetching, and its primary developer-facing interface is an MCP tool configuration rather than a generic integration layer.
+  reason: >-
+    The product is explicitly built and marketed as an MCP-native server for web fetching, and its primary
+    developer-facing interface is an MCP tool configuration rather than a generic integration layer.
   evidence:
-    - Scraped site describes it as 'MCP-native web fetch' and prominently shows MCP server setup for Claude Desktop / Claude Code.
-    - Listed in awesome-mcp-servers under Browser Automation, confirming it is categorized as MCP infrastructure by ecosystem curators.
-    - Core value props are token estimation, smart caching, and auto-routing — all framed as an MCP tool for agent consumption.
+    - >-
+      Scraped site describes it as 'MCP-native web fetch' and prominently shows MCP server setup for Claude Desktop /
+      Claude Code.
+    - >-
+      Listed in awesome-mcp-servers under Browser Automation, confirming it is categorized as MCP infrastructure by
+      ecosystem curators.
+    - >-
+      Core value props are token estimation, smart caching, and auto-routing — all framed as an MCP tool for agent
+      consumption.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.658Z"
+    updated_at: '2026-05-06T22:12:15.658Z'
     cause: null
     next_retry_at: null
   stars:
@@ -72,7 +93,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:16:06.881Z"
+    updated_at: '2026-07-20T15:16:06.881Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -85,14 +106,24 @@ processing:
       input_hash: sha256:69efcae044ec0e1e69af5775d96b5a2b23757b3a59b860487dbfba3f68ed2493
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly built and marketed as an MCP-native server for web fetching, and its primary developer-facing interface is an MCP tool configuration rather than a generic integration layer.
+      decision_reason: >-
+        The product is explicitly built and marketed as an MCP-native server for web fetching, and its primary
+        developer-facing interface is an MCP tool configuration rather than a generic integration layer.
       decision_evidence:
-        - Scraped site describes it as 'MCP-native web fetch' and prominently shows MCP server setup for Claude Desktop / Claude Code.
-        - Listed in awesome-mcp-servers under Browser Automation, confirming it is categorized as MCP infrastructure by ecosystem curators.
-        - Core value props are token estimation, smart caching, and auto-routing — all framed as an MCP tool for agent consumption.
+        - >-
+          Scraped site describes it as 'MCP-native web fetch' and prominently shows MCP server setup for Claude Desktop
+          / Claude Code.
+        - >-
+          Listed in awesome-mcp-servers under Browser Automation, confirming it is categorized as MCP infrastructure by
+          ecosystem curators.
+        - >-
+          Core value props are token estimation, smart caching, and auto-routing — all framed as an MCP tool for agent
+          consumption.
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is built, documented, and ecosystem-listed as an MCP-native server first, not merely a generic browser-integration add-on.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is built, documented, and ecosystem-listed as an
+        MCP-native server first, not merely a generic browser-integration add-on.
       review_reason: null
       review_resume_lifecycle: null

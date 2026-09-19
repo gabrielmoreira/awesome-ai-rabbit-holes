@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__duhokim__nebulamind__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: DuhoKim/NebulaMind
         extracted_url: https://github.com/duhokim/nebulamind
-        surrounding_text: "- [DuhoKim/NebulaMind](https://github.com/DuhoKim/NebulaMind) [![DuhoKim/NebulaMind MCP server](https://glama.ai/mcp/servers/DuhoKim/NebulaMind/badges/score.svg)](https://glama.ai/mcp/servers/DuhoKim/NebulaMind) 🐍 ☁️ - Collaborative astronomy wiki built by AI agents. 34 topics, 115 knowledge graph connections. Register, read, edit, vote, comment, and explore the cosmos via open API. No auth required."
+        surrounding_text: >-
+          - [DuhoKim/NebulaMind](https://github.com/DuhoKim/NebulaMind) [![DuhoKim/NebulaMind MCP
+          server](https://glama.ai/mcp/servers/DuhoKim/NebulaMind/badges/score.svg)](https://glama.ai/mcp/servers/DuhoKim/NebulaMind)
+          🐍 ☁️ - Collaborative astronomy wiki built by AI agents. 34 topics, 115 knowledge graph connections. Register,
+          read, edit, vote, comment, and explore the cosmos via open API. No auth required.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: DuhoKim/NebulaMind
     html_url: https://github.com/DuhoKim/NebulaMind
-    created_at: "2026-04-04T13:52:55Z"
-    pushed_at: "2026-09-08T22:46:37Z"
+    created_at: '2026-04-04T13:52:55Z'
+    pushed_at: '2026-09-08T22:46:37Z'
     description: The universe, explored by AI agents worldwide. Collaborative astronomy wiki with open API.
     homepage: null
     topics:
@@ -45,13 +49,15 @@ metadata:
       - nextjs
       - open-api
       - wiki
-    last_checked_at: "2026-09-14T04:13:45.228Z"
+    last_checked_at: '2026-09-14T04:13:45.228Z'
     readme:
-      fetched_at: "2026-09-14T04:13:45.228Z"
+      fetched_at: '2026-09-14T04:13:45.228Z'
       bytes: 5104
 insights:
   summary: A collaborative astronomy wiki built and maintained by AI agents with an MCP server for external client integration.
-  why_it_matters: It demonstrates a multi-agent workflow for knowledge base construction and exposes a structured API/MCP interface for developer integration.
+  why_it_matters: >-
+    It demonstrates a multi-agent workflow for knowledge base construction and exposes a structured API/MCP interface
+    for developer integration.
   mental_damage: Now you can argue with AI agents about whether Pluto is a planet, via MCP.
   tags:
     - mcp
@@ -61,32 +67,31 @@ insights:
     - astronomy
   confidence: high
 curation:
-  status: included
-  reason: "MCP is the product identity here: the repo includes a dedicated MCP server with tools for interacting with the knowledge base, and this is the primary integration surface."
+  status: pending
+  reason: 'Manual audit: Astronomy wiki demo, not a developer tool.'
   evidence:
-    - Repo includes a full MCP server implementation with 8 tools (list_pages, read_page, etc.)
-    - README explicitly documents MCP setup and usage as a first-class feature
-    - MCP is listed in repo topics and the server connects to the live API
+    - Manual review of Jev Middleware & Generic audit, 2026-09-19
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.612Z"
+    updated_at: '2026-05-06T22:12:15.612Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:45.228Z"
+    updated_at: '2026-09-14T04:13:45.228Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:48.480Z"
+    updated_at: '2026-07-21T15:51:48.480Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -99,7 +104,9 @@ processing:
       input_hash: sha256:d91f93629de36f3f34f215b2a8a43bc9839b90326da5945da79553b50bd5debc
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: the repo includes a dedicated MCP server with tools for interacting with the knowledge base, and this is the primary integration surface."
+      decision_reason: >-
+        MCP is the product identity here: the repo includes a dedicated MCP server with tools for interacting with the
+        knowledge base, and this is the primary integration surface.
       decision_evidence:
         - Repo includes a full MCP server implementation with 8 tools (list_pages, read_page, etc.)
         - README explicitly documents MCP setup and usage as a first-class feature
@@ -107,6 +114,8 @@ processing:
       category_candidates:
         - mcp
         - agent-orchestration
-      contrastive_reason: Choose mcp over agent-orchestration because the core product is an MCP server exposing domain-specific tools, not a multi-agent coordination platform.
+      contrastive_reason: >-
+        Choose mcp over agent-orchestration because the core product is an MCP server exposing domain-specific tools,
+        not a multi-agent coordination platform.
       review_reason: null
       review_resume_lifecycle: null

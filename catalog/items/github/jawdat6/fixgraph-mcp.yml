@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jawdat6__fixgraph-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: jawdat6/fixgraph-mcp
         extracted_url: https://github.com/jawdat6/fixgraph-mcp
-        surrounding_text: "- [jawdat6/fixgraph-mcp](https://github.com/jawdat6/fixgraph-mcp) [![jawdat6/fixgraph-mcp MCP server](https://glama.ai/mcp/servers/jawdat6/fixgraph-mcp/badges/score.svg)](https://glama.ai/mcp/servers/jawdat6/fixgraph-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Search and contribute to a community-verified knowledge base of 25,000+ engineering issues and fixes. Find step-by-step solutions with trust scores, submit new issues, and verify fixes work in your environment."
+        surrounding_text: >-
+          - [jawdat6/fixgraph-mcp](https://github.com/jawdat6/fixgraph-mcp) [![jawdat6/fixgraph-mcp MCP
+          server](https://glama.ai/mcp/servers/jawdat6/fixgraph-mcp/badges/score.svg)](https://glama.ai/mcp/servers/jawdat6/fixgraph-mcp)
+          📇 ☁️ 🏠 🍎 🪟 🐧 - Search and contribute to a community-verified knowledge base of 25,000+ engineering issues
+          and fixes. Find step-by-step solutions with trust scores, submit new issues, and verify fixes work in your
+          environment.
         confidence: high
 metadata:
   github:
@@ -30,19 +35,25 @@ metadata:
     archived: false
     full_name: jawdat6/fixgraph-mcp
     html_url: https://github.com/jawdat6/fixgraph-mcp
-    created_at: "2026-03-18T12:02:48Z"
-    pushed_at: "2026-03-24T11:49:49Z"
+    created_at: '2026-03-18T12:02:48Z'
+    pushed_at: '2026-03-24T11:49:49Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:48.764Z"
+    last_checked_at: '2026-07-30T05:05:48.764Z'
     readme:
-      fetched_at: "2026-07-30T05:05:48.764Z"
+      fetched_at: '2026-07-30T05:05:48.764Z'
       bytes: 2125
 insights:
-  summary: An MCP server that provides access to FixGraph's database of 25,000+ community-verified technical fixes for software and hardware issues.
-  why_it_matters: Developers can query or contribute verified fixes for real-world errors directly from MCP-compatible AI assistants, streamlining troubleshooting workflows.
-  mental_damage: Now your AI assistant can tell you how to fix your Docker container exiting immediately, but you still have to explain it to your manager.
+  summary: >-
+    An MCP server that provides access to FixGraph's database of 25,000+ community-verified technical fixes for software
+    and hardware issues.
+  why_it_matters: >-
+    Developers can query or contribute verified fixes for real-world errors directly from MCP-compatible AI assistants,
+    streamlining troubleshooting workflows.
+  mental_damage: >-
+    Now your AI assistant can tell you how to fix your Docker container exiting immediately, but you still have to
+    explain it to your manager.
   tags:
     - mcp-server
     - troubleshooting
@@ -51,31 +62,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a server implementation providing domain-specific tooling (FixGraph integration) for MCP-compatible assistants."
+  reason: >-
+    MCP is the product identity: this is a server implementation providing domain-specific tooling (FixGraph
+    integration) for MCP-compatible assistants.
   evidence:
     - README explicitly describes it as an MCP server with tools for FixGraph integration
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
     - Provides MCP-compatible tools (fixgraph_search, fixgraph_get_fixes, etc.)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:48.764Z"
+    updated_at: '2026-07-30T05:05:48.764Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:09.734Z"
+    updated_at: '2026-07-21T16:10:09.734Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +102,9 @@ processing:
       input_hash: sha256:8466e756120f64343603f57a6455458d24d5911aa54e51a40f6d3728bf1694d9
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a server implementation providing domain-specific tooling (FixGraph integration) for MCP-compatible assistants."
+      decision_reason: >-
+        MCP is the product identity: this is a server implementation providing domain-specific tooling (FixGraph
+        integration) for MCP-compatible assistants.
       decision_evidence:
         - README explicitly describes it as an MCP server with tools for FixGraph integration
         - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
@@ -96,6 +112,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server providing domain-specific tools, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server providing domain-specific tools,
+        not an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

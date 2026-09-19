@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__magicloops__dev__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Magic Loops
         anchor_text: Magic Loops
         extracted_url: https://magicloops.dev
-        surrounding_text: "## [Magic Loops](https://magicloops.dev/)"
+        surrounding_text: '## [Magic Loops](https://magicloops.dev/)'
         confidence: high
     - id: discovery__magicloops__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,9 @@ provenance:
           - App Builders
         anchor_text: MagicLoops
         extracted_url: https://magicloops.dev
-        surrounding_text: "- **[MagicLoops](https://magicloops.dev)** – No-code platform for creating apps in minutes from text instructions."
+        surrounding_text: >-
+          - **[MagicLoops](https://magicloops.dev)** – No-code platform for creating apps in minutes from text
+          instructions.
         confidence: high
 metadata:
   github:
@@ -52,8 +54,12 @@ metadata:
     readme: null
 insights:
   summary: A no-code platform for building AI-native apps by combining LLMs and code into simple automations.
-  why_it_matters: Lets developers and non-developers create and deploy AI-powered apps without writing code, focusing on prompt-to-app workflows.
-  mental_damage: Finally, a way to build apps without coding—just in time for everyone to realize they still need to debug the LLM’s hallucinations.
+  why_it_matters: >-
+    Lets developers and non-developers create and deploy AI-powered apps without writing code, focusing on prompt-to-app
+    workflows.
+  mental_damage: >-
+    Finally, a way to build apps without coding—just in time for everyone to realize they still need to debug the LLM’s
+    hallucinations.
   tags:
     - no-code
     - app-builder
@@ -62,21 +68,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is turning prompts into deployed apps, aligning with the App Builders category's focus on prompt-to-app workflows.
+  reason: >-
+    The product's core identity is turning prompts into deployed apps, aligning with the App Builders category's focus
+    on prompt-to-app workflows.
   evidence:
-    - "Site description: 'Combine LLMs and code to create simple automations'"
-    - "Tagline: 'Build Apps without coding'"
-    - "Source-list context: Listed under 'App Builders' in awesome-ai-coding-tools"
+    - 'Site description: ''Combine LLMs and code to create simple automations'''
+    - 'Tagline: ''Build Apps without coding'''
+    - 'Source-list context: Listed under ''App Builders'' in awesome-ai-coding-tools'
 placement:
   primary_category: app-builders
-  section: Prompt-to-App Builders
+  secondary_categories: []
+  section: Full App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.597Z"
+    updated_at: '2026-05-06T22:12:15.597Z'
     cause: null
     next_retry_at: null
   stars:
@@ -85,7 +94,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:29:21.498Z"
+    updated_at: '2026-07-21T15:29:21.498Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -98,14 +107,18 @@ processing:
       input_hash: sha256:117694e25897fbd72848165934f1c1340f0792a75959be2b2e43af1256bb0f78
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The product's core identity is turning prompts into deployed apps, aligning with the App Builders category's focus on prompt-to-app workflows.
+      decision_reason: >-
+        The product's core identity is turning prompts into deployed apps, aligning with the App Builders category's
+        focus on prompt-to-app workflows.
       decision_evidence:
-        - "Site description: 'Combine LLMs and code to create simple automations'"
-        - "Tagline: 'Build Apps without coding'"
-        - "Source-list context: Listed under 'App Builders' in awesome-ai-coding-tools"
+        - 'Site description: ''Combine LLMs and code to create simple automations'''
+        - 'Tagline: ''Build Apps without coding'''
+        - 'Source-list context: Listed under ''App Builders'' in awesome-ai-coding-tools'
       category_candidates:
         - app-builders
         - agent-orchestration
-      contrastive_reason: Choose app-builders over agent-orchestration because the primary value is creating end-user apps from prompts, not coordinating multiple agents.
+      contrastive_reason: >-
+        Choose app-builders over agent-orchestration because the primary value is creating end-user apps from prompts,
+        not coordinating multiple agents.
       review_reason: null
       review_resume_lifecycle: null

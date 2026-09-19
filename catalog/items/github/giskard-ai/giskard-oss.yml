@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__giskard-ai__giskard-oss__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - Observability
         anchor_text: Giskard
         extracted_url: https://github.com/giskard-ai/giskard
-        surrounding_text: "| [Giskard](https://github.com/Giskard-AI/giskard)                               | Testing framework dedicated to ML models, from tabular to LLMs. Detect risks of biases, performance issues and errors in 4 lines of code.                                                                                      | ![GitHub Badge](https://img.shields.io/github/stars/Giskard-AI/giskard.svg?style=flat-square)"
+        surrounding_text: >-
+          | [Giskard](https://github.com/Giskard-AI/giskard)                               | Testing framework dedicated
+          to ML models, from tabular to LLMs. Detect risks of biases, performance issues and errors in 4 lines of
+          code.                                                                                      | ![GitHub
+          Badge](https://img.shields.io/github/stars/Giskard-AI/giskard.svg?style=flat-square)
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: Giskard-AI/giskard-oss
     html_url: https://github.com/Giskard-AI/giskard-oss
-    created_at: "2022-03-06T21:45:37Z"
-    pushed_at: "2026-09-02T16:00:49Z"
+    created_at: '2022-03-06T21:45:37Z'
+    pushed_at: '2026-09-02T16:00:49Z'
     description: 🐢 Open-Source Evaluation & Testing library for LLM Agents
     homepage: https://docs.giskard.ai
     topics:
@@ -52,14 +56,18 @@ metadata:
       - red-team-tools
       - responsible-ai
       - trustworthy-ai
-    last_checked_at: "2026-09-03T05:16:49.684Z"
+    last_checked_at: '2026-09-03T05:16:49.684Z'
     readme:
-      fetched_at: "2026-09-03T05:16:49.684Z"
+      fetched_at: '2026-09-03T05:16:49.684Z'
       bytes: 11620
 insights:
   summary: An open-source Python library for testing and evaluating agentic systems and LLM applications.
-  why_it_matters: It provides automated testing, red-teaming, and RAG evaluation to catch regressions and safety issues in non-deterministic agentic workflows.
-  mental_damage: Nothing humbles a developer quite like realizing their carefully crafted agentic loop is one prompt injection away from a security disaster.
+  why_it_matters: >-
+    It provides automated testing, red-teaming, and RAG evaluation to catch regressions and safety issues in
+    non-deterministic agentic workflows.
+  mental_damage: >-
+    Nothing humbles a developer quite like realizing their carefully crafted agentic loop is one prompt injection away
+    from a security disaster.
   tags:
     - llm-evaluation
     - agent-testing
@@ -76,24 +84,25 @@ curation:
     - Focuses on catching regressions and validating RAG quality
 placement:
   primary_category: evals
-  section: Observability / Tracing / EvalOps
+  secondary_categories: []
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: promotion_candidate
   reason: Stars (5327) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.616Z"
+    updated_at: '2026-05-06T22:12:15.616Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:49.684Z"
+    updated_at: '2026-09-03T05:16:49.684Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:02:57.010Z"
+    updated_at: '2026-07-21T16:02:57.010Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -114,6 +123,8 @@ processing:
       category_candidates:
         - evals
         - ai-frameworks
-      contrastive_reason: Choose evals over ai-frameworks because the primary value proposition is measuring and scoring behavior rather than providing the base logic for building the agent itself.
+      contrastive_reason: >-
+        Choose evals over ai-frameworks because the primary value proposition is measuring and scoring behavior rather
+        than providing the base logic for building the agent itself.
       review_reason: null
       review_resume_lifecycle: null

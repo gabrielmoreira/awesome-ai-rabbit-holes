@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__antvis__mcp-server-chart__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
         anchor_text: antv/mcp-server-chart
         extracted_url: https://github.com/antvis/mcp-server-chart
-        surrounding_text: "- [antv/mcp-server-chart](https://github.com/antvis/mcp-server-chart) 🎖️ 📇 ☁️ - A Model Context Protocol server for generating visual charts using [AntV](https://github.com/antvis)."
+        surrounding_text: >-
+          - [antv/mcp-server-chart](https://github.com/antvis/mcp-server-chart) 🎖️ 📇 ☁️ - A Model Context Protocol
+          server for generating visual charts using [AntV](https://github.com/antvis).
         confidence: high
     - id: discovery__github__antvis__mcp-server-chart__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +37,9 @@ provenance:
           - Official Servers
         anchor_text: Chart
         extracted_url: https://github.com/antvis/mcp-server-chart
-        surrounding_text: "- **[Chart](https://github.com/antvis/mcp-server-chart)** - 🤖 A Model Context Protocol server for generating visual charts using [AntV](https://github.com/antvis)."
+        surrounding_text: >-
+          - **[Chart](https://github.com/antvis/mcp-server-chart)** - 🤖 A Model Context Protocol server for generating
+          visual charts using [AntV](https://github.com/antvis).
         confidence: high
 metadata:
   github:
@@ -45,9 +49,11 @@ metadata:
     archived: false
     full_name: antvis/mcp-server-chart
     html_url: https://github.com/antvis/mcp-server-chart
-    created_at: "2025-04-25T09:10:06Z"
-    pushed_at: "2026-08-27T01:50:14Z"
-    description: 🤖 A visualization mcp & skills contains 25+ visual charts using @antvis. Using for chart generation and data analysis.
+    created_at: '2025-04-25T09:10:06Z'
+    pushed_at: '2026-08-27T01:50:14Z'
+    description: >-
+      🤖 A visualization mcp & skills contains 25+ visual charts using @antvis. Using for chart generation and data
+      analysis.
     homepage: https://github.com/antvis/mcp-server-chart
     topics:
       - antv
@@ -56,13 +62,15 @@ metadata:
       - mcp-server
       - skills
       - visualization
-    last_checked_at: "2026-09-10T04:12:55.018Z"
+    last_checked_at: '2026-09-10T04:12:55.018Z'
     readme:
-      fetched_at: "2026-09-10T04:12:55.018Z"
+      fetched_at: '2026-09-10T04:12:55.018Z'
       bytes: 14148
 insights:
   summary: An MCP server that provides 25+ chart generation and data analysis tools using AntV visualization libraries.
-  why_it_matters: Developers can integrate chart generation and data visualization capabilities into their AI workflows via MCP, enabling programmatic creation of diverse chart types from prompts or code.
+  why_it_matters: >-
+    Developers can integrate chart generation and data visualization capabilities into their AI workflows via MCP,
+    enabling programmatic creation of diverse chart types from prompts or code.
   mental_damage: Now your AI can generate fishbone diagrams while you still can't decide which chart type to use in your next PR.
   tags:
     - mcp-server
@@ -73,33 +81,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose primary identity is providing visualization tools via the Model Context Protocol, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product is explicitly an MCP server whose primary identity is providing visualization tools via the Model
+    Context Protocol, fitting the MCP Servers & Tooling category.
   evidence:
     - Repo description identifies it as a visualization MCP server with 25+ charts
     - README confirms it is a TypeScript-based MCP server for chart generation and data analysis
     - Already listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: promotion_candidate
   reason: Stars (4041) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.582Z"
+    updated_at: '2026-05-06T22:12:15.582Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-17T04:13:45.701Z"
+    updated_at: '2026-09-17T04:13:45.701Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for antvis/mcp-server-chart
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:23:19.055Z"
+    updated_at: '2026-07-21T15:23:19.055Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -112,7 +123,9 @@ processing:
       input_hash: sha256:6106ed1fef58c2d564f31b1a7ec14f6d9b26975a58ad34b439f5ccb298c7602f
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server whose primary identity is providing visualization tools via the Model Context Protocol, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product is explicitly an MCP server whose primary identity is providing visualization tools via the Model
+        Context Protocol, fitting the MCP Servers & Tooling category.
       decision_evidence:
         - Repo description identifies it as a visualization MCP server with 25+ charts
         - README confirms it is a TypeScript-based MCP server for chart generation and data analysis
@@ -120,6 +133,8 @@ processing:
       category_candidates:
         - mcp
         - skills
-      contrastive_reason: Choose mcp over skills because the core product is an MCP server infrastructure for visualization, not a reusable skill pack or registry.
+      contrastive_reason: >-
+        Choose mcp over skills because the core product is an MCP server infrastructure for visualization, not a
+        reusable skill pack or registry.
       review_reason: null
       review_resume_lifecycle: null

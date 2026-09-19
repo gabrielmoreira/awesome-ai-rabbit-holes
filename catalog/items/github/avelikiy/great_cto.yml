@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__avelikiy__great_cto__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-18T05:26:15.344Z"
+      discovered_at: '2026-05-18T05:26:15.344Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,12 @@ provenance:
           - Orchestrators & autonomous loops
         anchor_text: great_cto
         extracted_url: https://github.com/avelikiy/great_cto
-        surrounding_text: "- **[great_cto](https://github.com/avelikiy/great_cto)** `⭐ 16` — Engineering-management layer of 34 specialist AI agents covering the full SDLC (architect, PM, senior-dev, reviewer, QA, security, devops, L3-support + 18 archetype-specific reviewers) with auto-detected archetypes and compliance gates (PCI-DSS, HIPAA, FedRAMP, GDPR, EU AI Act). Runs in Claude Code, Cursor, Codex CLI, Aider, and Continue via AGENTS.md + MCP. MIT."
+        surrounding_text: >-
+          - **[great_cto](https://github.com/avelikiy/great_cto)** `⭐ 16` — Engineering-management layer of 34
+          specialist AI agents covering the full SDLC (architect, PM, senior-dev, reviewer, QA, security, devops,
+          L3-support + 18 archetype-specific reviewers) with auto-detected archetypes and compliance gates (PCI-DSS,
+          HIPAA, FedRAMP, GDPR, EU AI Act). Runs in Claude Code, Cursor, Codex CLI, Aider, and Continue via AGENTS.md +
+          MCP. MIT.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,12 @@ metadata:
     archived: false
     full_name: avelikiy/great_cto
     html_url: https://github.com/avelikiy/great_cto
-    created_at: "2026-04-05T06:17:43Z"
-    pushed_at: "2026-09-06T18:10:55Z"
-    description: "You already have the agent. This is everything around it. great_cto runs Claude Code as a pipeline of 70 specialist agents — an independent model checks each stage before the next builds on it, spending caps refuse rather than warn, and three decisions stay yours: what gets built, how, and whether it ships."
+    created_at: '2026-04-05T06:17:43Z'
+    pushed_at: '2026-09-06T18:10:55Z'
+    description: >-
+      You already have the agent. This is everything around it. great_cto runs Claude Code as a pipeline of 70
+      specialist agents — an independent model checks each stage before the next builds on it, spending caps refuse
+      rather than warn, and three decisions stay yours: what gets built, how, and whether it ships.
     homepage: https://greatcto.systems
     topics:
       - agentic-coding
@@ -46,14 +54,20 @@ metadata:
       - developer-tools
       - multi-agent
       - sdlc
-    last_checked_at: "2026-09-07T04:13:28.843Z"
+    last_checked_at: '2026-09-07T04:13:28.843Z'
     readme:
-      fetched_at: "2026-09-07T04:13:28.843Z"
+      fetched_at: '2026-09-07T04:13:28.843Z'
       bytes: 15869
 insights:
-  summary: great_cto is an open-source orchestration layer that coordinates 50 specialist agents around Claude Code to automate architecture, review, QA, security, and deployment with human gatekeeping at plan and ship stages.
-  why_it_matters: It lets solo founders and small teams offload SDLC overhead to AI specialists while retaining two key decisions per feature, reducing burnout and increasing shipping velocity.
-  mental_damage: Now you can feel like a CTO without the joy of actually writing code, just approving PRs your robot team already debated for an hour.
+  summary: >-
+    great_cto is an open-source orchestration layer that coordinates 50 specialist agents around Claude Code to automate
+    architecture, review, QA, security, and deployment with human gatekeeping at plan and ship stages.
+  why_it_matters: >-
+    It lets solo founders and small teams offload SDLC overhead to AI specialists while retaining two key decisions per
+    feature, reducing burnout and increasing shipping velocity.
+  mental_damage: >-
+    Now you can feel like a CTO without the joy of actually writing code, just approving PRs your robot team already
+    debated for an hour.
   tags:
     - agent-orchestration
     - claude-code
@@ -62,31 +76,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: great_cto primarily coordinates multiple specialist agents as a control plane above Claude Code, making it an orchestration platform rather than a coding agent or extension.
+  reason: >-
+    great_cto primarily coordinates multiple specialist agents as a control plane above Claude Code, making it an
+    orchestration platform rather than a coding agent or extension.
   evidence:
-    - README states it orchestrates 50 specialist agents around Claude Code and is 'not another coding-agent loop — it's the orchestration layer above'
-    - It defines a structured SDLC pipeline with agents for architect, PM, QA, security, devops, and domain packs between two human gates
-    - Source-list placement in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous loops' supports its orchestration identity
+    - >-
+      README states it orchestrates 50 specialist agents around Claude Code and is 'not another coding-agent loop — it's
+      the orchestration layer above'
+    - >-
+      It defines a structured SDLC pipeline with agents for architect, PM, QA, security, devops, and domain packs
+      between two human gates
+    - >-
+      Source-list placement in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous
+      loops' supports its orchestration identity
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-18T05:26:15.345Z"
+    updated_at: '2026-05-18T05:26:15.345Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:28.843Z"
+    updated_at: '2026-09-07T04:13:28.843Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-18T05:39:21.416Z"
+    updated_at: '2026-05-18T05:39:21.416Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

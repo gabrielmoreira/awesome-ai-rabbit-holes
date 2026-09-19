@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__berriai__litellm__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -19,10 +19,10 @@ provenance:
           - Developer tools
         anchor_text: LiteLLM
         extracted_url: https://github.com/berriai/litellm
-        surrounding_text: "- [LiteLLM](https://github.com/BerriAI/litellm) - Call all LLM APIs using the OpenAI format."
+        surrounding_text: '- [LiteLLM](https://github.com/BerriAI/litellm) - Call all LLM APIs using the OpenAI format.'
         confidence: high
     - id: discovery__github__berriai__litellm__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -34,10 +34,14 @@ provenance:
           - LLMOps
         anchor_text: LiteLLM 🚅
         extracted_url: https://github.com/berriai/litellm
-        surrounding_text: "| [LiteLLM 🚅](https://github.com/BerriAI/litellm/)                  | A simple & light 100 line package to **standardize LLM API calls** across OpenAI, Azure, Cohere, Anthropic, Replicate API Endpoints                                                                                                                                                                                                                                                                     | ![GitHub Badge](https://img.shields.io/github/stars/BerriAI/litellm.svg?style=flat-square)                |"
+        surrounding_text: >-
+          | [LiteLLM 🚅](https://github.com/BerriAI/litellm/)                  | A simple & light 100 line package to
+          **standardize LLM API calls** across OpenAI, Azure, Cohere, Anthropic, Replicate API
+          Endpoints                                                                                                                                                                                                                                                                    
+          | ![GitHub Badge](https://img.shields.io/github/stars/BerriAI/litellm.svg?style=flat-square)                |
         confidence: high
     - id: discovery__github__berriai__litellm__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -49,10 +53,12 @@ provenance:
           - AI Frameworks and SDKs
         anchor_text: LiteLLM
         extracted_url: https://github.com/berriai/litellm
-        surrounding_text: "- **[LiteLLM](https://github.com/BerriAI/litellm)** – Unified API proxy for 100+ LLM providers with load balancing, spend tracking, and rate limiting."
+        surrounding_text: >-
+          - **[LiteLLM](https://github.com/BerriAI/litellm)** – Unified API proxy for 100+ LLM providers with load
+          balancing, spend tracking, and rate limiting.
         confidence: high
     - id: discovery__github__berriai__litellm__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -64,7 +70,9 @@ provenance:
           - 推理 Inference
         anchor_text: LiteLLM (`🔥`)
         extracted_url: https://github.com/berriai/litellm
-        surrounding_text: "32. [LiteLLM (`🔥`)](https://github.com/BerriAI/litellm): Call all LLM APIs using the OpenAI format [Bedrock, Huggingface, VertexAI, TogetherAI, Azure, OpenAI, Groq etc.]"
+        surrounding_text: >-
+          32. [LiteLLM (`🔥`)](https://github.com/BerriAI/litellm): Call all LLM APIs using the OpenAI format [Bedrock,
+          Huggingface, VertexAI, TogetherAI, Azure, OpenAI, Groq etc.]
         confidence: high
 metadata:
   github:
@@ -74,9 +82,12 @@ metadata:
     archived: false
     full_name: BerriAI/litellm
     html_url: https://github.com/BerriAI/litellm
-    created_at: "2023-07-27T00:09:52Z"
-    pushed_at: "2026-09-07T03:48:18Z"
-    description: The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]
+    created_at: '2023-07-27T00:09:52Z'
+    pushed_at: '2026-09-07T03:48:18Z'
+    description: >-
+      The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with
+      cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM,
+      Nvidia NIM]
     homepage: https://docs.litellm.ai/docs/
     topics:
       - ai-gateway
@@ -95,13 +106,17 @@ metadata:
       - rust
       - rust-ai
       - vertex-ai
-    last_checked_at: "2026-09-07T04:13:32.852Z"
+    last_checked_at: '2026-09-07T04:13:32.852Z'
     readme:
-      fetched_at: "2026-09-07T04:13:32.852Z"
+      fetched_at: '2026-09-07T04:13:32.852Z'
       bytes: 35510
 insights:
-  summary: Open source AI gateway that provides a unified interface to call 100+ LLM providers using the OpenAI format, with cost tracking, guardrails, load balancing, and logging.
-  why_it_matters: Developers can standardize LLM calls across providers without rewriting code, reducing fragmentation and operational overhead.
+  summary: >-
+    Open source AI gateway that provides a unified interface to call 100+ LLM providers using the OpenAI format, with
+    cost tracking, guardrails, load balancing, and logging.
+  why_it_matters: >-
+    Developers can standardize LLM calls across providers without rewriting code, reducing fragmentation and operational
+    overhead.
   mental_damage: Finally, a way to stop juggling 12 different SDKs just to switch from OpenAI to Anthropic and back again.
   tags:
     - ai-gateway
@@ -112,31 +127,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: LiteLLM is primarily a code-first SDK and gateway for abstracting LLM provider APIs, fitting the Frameworks & SDKs category as a provider abstraction layer.
+  reason: >-
+    LiteLLM is primarily a code-first SDK and gateway for abstracting LLM provider APIs, fitting the Frameworks & SDKs
+    category as a provider abstraction layer.
   evidence:
     - Repo description explicitly calls it an 'AI Gateway' with Python SDK for 100+ LLM APIs
     - README emphasizes unified API, OpenAI compatibility, and production-ready gateway features
     - Source-list context includes it under 'AI Frameworks and SDKs' and 'LLMOps'
 placement:
   primary_category: ai-frameworks
-  section: Provider / Model Abstractions
+  secondary_categories: []
+  section: Provider & Model Abstractions
 lifecycle:
   status: promotion_candidate
   reason: Stars (45926) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.574Z"
+    updated_at: '2026-05-06T22:12:15.574Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:32.852Z"
+    updated_at: '2026-09-07T04:13:32.852Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:25:49.570Z"
+    updated_at: '2026-07-21T15:25:49.570Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -149,7 +167,9 @@ processing:
       input_hash: sha256:d7c3a77fd82aca8a24ff20961d4ccdd0340fdc0c6305de1c3a38c6bcc69bfd83
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: LiteLLM is primarily a code-first SDK and gateway for abstracting LLM provider APIs, fitting the Frameworks & SDKs category as a provider abstraction layer.
+      decision_reason: >-
+        LiteLLM is primarily a code-first SDK and gateway for abstracting LLM provider APIs, fitting the Frameworks &
+        SDKs category as a provider abstraction layer.
       decision_evidence:
         - Repo description explicitly calls it an 'AI Gateway' with Python SDK for 100+ LLM APIs
         - README emphasizes unified API, OpenAI compatibility, and production-ready gateway features
@@ -157,6 +177,8 @@ processing:
       category_candidates:
         - ai-frameworks
         - agent-orchestration
-      contrastive_reason: Choose ai-frameworks over agent-orchestration because LiteLLM is a code-first provider abstraction layer rather than a multi-agent coordination platform.
+      contrastive_reason: >-
+        Choose ai-frameworks over agent-orchestration because LiteLLM is a code-first provider abstraction layer rather
+        than a multi-agent coordination platform.
       review_reason: null
       review_resume_lifecycle: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__aifordevelopers__substack__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,10 @@ provenance:
           - README
         anchor_text: newsletter
         extracted_url: https://aifordevelopers.substack.com
-        surrounding_text: "**Reach thousands of developers building with AI by sponsoring this list, our [newsletter](https://aifordevelopers.substack.com/) and [AI For Developers](https://aifordevelopers.org/). Contact us at [aifordevelopers.org/advertise](https://aifordevelopers.org/advertise)**"
+        surrounding_text: >-
+          **Reach thousands of developers building with AI by sponsoring this list, our
+          [newsletter](https://aifordevelopers.substack.com/) and [AI For Developers](https://aifordevelopers.org/).
+          Contact us at [aifordevelopers.org/advertise](https://aifordevelopers.org/advertise)**
         confidence: high
 metadata:
   github:
@@ -37,22 +40,25 @@ metadata:
     readme: null
 insights:
   summary: A Substack newsletter providing commentary and updates on AI developments specifically for software developers.
-  why_it_matters: It filters the overwhelming noise of general AI news into actionable insights and technical trends relevant to engineering workflows.
-  mental_damage: Another subscription to manage in a world where the delta between 'tate of the art' and 'obsolete' is measured in weeks.
+  why_it_matters: >-
+    It filters the overwhelming noise of general AI news into actionable insights and technical trends relevant to
+    engineering workflows.
+  mental_damage: >-
+    Another subscription to manage in a world where the delta between 'tate of the art' and 'obsolete' is measured in
+    weeks.
   tags:
     - newsletter
     - developer-education
     - ai-trends
   confidence: high
 curation:
-  status: included
-  reason: It is a media resource providing ongoing commentary and educational updates for developers, fitting the definition of a newsletter.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - URL is a Substack domain
-    - In 'awesome-ai-coding-tools' as a source list entry
-    - Matches 'Publications & Feeds' description
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: newsletters-and-feeds
+  primary_category: null
+  secondary_categories: []
   section: null
 lifecycle:
   status: incubating
@@ -60,7 +66,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.658Z"
+    updated_at: '2026-05-06T22:12:15.658Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +75,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:20:36.305Z"
+    updated_at: '2026-07-20T15:20:36.305Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -82,7 +88,9 @@ processing:
       input_hash: sha256:32ed987af2c2d6ac364eef2f268c4a94c2ccdd232ad8595bf3338fffcd5d4847
       proposed_primary_category: newsletters-and-feeds
       disagreement: false
-      decision_reason: It is a media resource providing ongoing commentary and educational updates for developers, fitting the definition of a newsletter.
+      decision_reason: >-
+        It is a media resource providing ongoing commentary and educational updates for developers, fitting the
+        definition of a newsletter.
       decision_evidence:
         - URL is a Substack domain
         - In 'awesome-ai-coding-tools' as a source list entry
@@ -90,6 +98,8 @@ processing:
       category_candidates:
         - newsletters-and-feeds
         - awesome-awesomes
-      contrastive_reason: Choose newsletters-and-feeds over awesome-awesomes because its primary value is recurring commentary and educational media rather than being a static directory or map.
+      contrastive_reason: >-
+        Choose newsletters-and-feeds over awesome-awesomes because its primary value is recurring commentary and
+        educational media rather than being a static directory or map.
       review_reason: null
       review_resume_lifecycle: null

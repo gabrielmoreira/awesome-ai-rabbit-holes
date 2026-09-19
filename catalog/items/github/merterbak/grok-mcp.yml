@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__merterbak__grok-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: merterbak/Grok-MCP
         extracted_url: https://github.com/merterbak/grok-mcp
-        surrounding_text: "- [merterbak/Grok-MCP](https://github.com/merterbak/Grok-MCP) 🐍 ☁️ 🍎 🪟 🐧 - MCP server for xAI's [Grok API](https://docs.x.ai/docs/overview) with agentic tool calling, image generation, vision, and file support."
+        surrounding_text: >-
+          - [merterbak/Grok-MCP](https://github.com/merterbak/Grok-MCP) 🐍 ☁️ 🍎 🪟 🐧 - MCP server for xAI's [Grok
+          API](https://docs.x.ai/docs/overview) with agentic tool calling, image generation, vision, and file support.
         confidence: high
 metadata:
   github:
@@ -30,23 +32,27 @@ metadata:
     archived: false
     full_name: merterbak/Grok-MCP
     html_url: https://github.com/merterbak/Grok-MCP
-    created_at: "2025-09-29T20:32:57Z"
-    pushed_at: "2026-07-08T21:41:22Z"
-    description: "    MCP server for xAI’s Grok API with Web/X search, vision, image/video generation and file support"
-    homepage: ""
+    created_at: '2025-09-29T20:32:57Z'
+    pushed_at: '2026-07-08T21:41:22Z'
+    description: '    MCP server for xAI’s Grok API with Web/X search, vision, image/video generation and file support'
+    homepage: ''
     topics:
       - grok
       - mcp
       - mcp-server
       - xai
-    last_checked_at: "2026-08-03T05:17:00.259Z"
+    last_checked_at: '2026-08-03T05:17:00.259Z'
     readme:
-      fetched_at: "2026-08-03T05:17:00.259Z"
+      fetched_at: '2026-08-03T05:17:00.259Z'
       bytes: 5020
 insights:
   summary: MCP server for xAI's Grok API providing web/X search, vision, image/video generation, and file support.
-  why_it_matters: Lets developers access Grok's multimodal capabilities through the Model Context Protocol, enabling agentic tooling within Claude Desktop or Code.
-  mental_damage: Another MCP server that turns every AI feature into a separate tool call, because why use one model when you can orchestrate ten?
+  why_it_matters: >-
+    Lets developers access Grok's multimodal capabilities through the Model Context Protocol, enabling agentic tooling
+    within Claude Desktop or Code.
+  mental_damage: >-
+    Another MCP server that turns every AI feature into a separate tool call, because why use one model when you can
+    orchestrate ten?
   tags:
     - mcp
     - grok
@@ -55,31 +61,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server that exposes Grok API capabilities as MCP tools, making MCP its core identity rather than an extension or agent.
+  reason: >-
+    The project is an MCP server that exposes Grok API capabilities as MCP tools, making MCP its core identity rather
+    than an extension or agent.
   evidence:
-    - "Repo description: 'MCP server for xAI’s Grok API with Web/X search, vision, image/video generation and file support'"
+    - >-
+      Repo description: 'MCP server for xAI’s Grok API with Web/X search, vision, image/video generation and file
+      support'
     - README positions it as an MCP server for Claude Desktop/Code integration via stdio or Docker
     - Lists tools like chat, web_search, generate_image, upload_file as MCP-exposed functions
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.629Z"
+    updated_at: '2026-05-06T22:12:15.629Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:00.259Z"
+    updated_at: '2026-08-03T05:17:00.259Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:19:55.099Z"
+    updated_at: '2026-07-21T16:19:55.099Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -92,14 +103,20 @@ processing:
       input_hash: sha256:ae10bba1b6ee3a052d6cc528058b4c9bd2dedcab892f1cc40f30420f21eec13f
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is an MCP server that exposes Grok API capabilities as MCP tools, making MCP its core identity rather than an extension or agent.
+      decision_reason: >-
+        The project is an MCP server that exposes Grok API capabilities as MCP tools, making MCP its core identity
+        rather than an extension or agent.
       decision_evidence:
-        - "Repo description: 'MCP server for xAI’s Grok API with Web/X search, vision, image/video generation and file support'"
+        - >-
+          Repo description: 'MCP server for xAI’s Grok API with Web/X search, vision, image/video generation and file
+          support'
         - README positions it as an MCP server for Claude Desktop/Code integration via stdio or Docker
         - Lists tools like chat, web_search, generate_image, upload_file as MCP-exposed functions
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an extension that augments another assistant with MCP compatibility.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an extension that augments
+        another assistant with MCP compatibility.
       review_reason: null
       review_resume_lifecycle: null

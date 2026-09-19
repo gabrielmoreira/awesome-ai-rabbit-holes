@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__librechat__ai__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-12T15:06:19.300Z"
+      discovered_at: '2026-05-12T15:06:19.300Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Clients
         anchor_text: LibreChat
         extracted_url: https://www.librechat.ai
-        surrounding_text: "- **[LibreChat](https://www.librechat.ai/)** Open-source AI Web UI, supporting multiple providers including OpenAI, Anthropic, Google, Ollama, and local models. Includes MCP support for Agents."
+        surrounding_text: >-
+          - **[LibreChat](https://www.librechat.ai/)** Open-source AI Web UI, supporting multiple providers including
+          OpenAI, Anthropic, Google, Ollama, and local models. Includes MCP support for Agents.
         confidence: high
 metadata:
   github:
@@ -34,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: LibreChat is a customizable open-source chat UI supporting multiple AI providers and features like file upload, image generation, and agent support.
-  why_it_matters: It gives developers a self-hostable, extensible interface to experiment with and compare various LLMs and AI workflows in a unified chat environment.
-  mental_damage: Another chat UI to self-host, because apparently one Open WebUI wasn't enough to satisfy our need for prompt fatigue in triplicate.
+  summary: >-
+    LibreChat is a customizable open-source chat UI supporting multiple AI providers and features like file upload,
+    image generation, and agent support.
+  why_it_matters: >-
+    It gives developers a self-hostable, extensible interface to experiment with and compare various LLMs and AI
+    workflows in a unified chat environment.
+  mental_damage: >-
+    Another chat UI to self-host, because apparently one Open WebUI wasn't enough to satisfy our need for prompt fatigue
+    in triplicate.
   tags:
     - chat-ui
     - local-ai
@@ -44,21 +52,30 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: LibreChat is primarily a self-hosted desktop/chat interface for interacting with AI models, making it a local AI tool rather than a coding agent or extension.
+  reason: >-
+    LibreChat is primarily a self-hosted desktop/chat interface for interacting with AI models, making it a local AI
+    tool rather than a coding agent or extension.
   evidence:
-    - The homepage www.librechat.ai presents it as a customizable, open-source AI chat interface supporting multiple providers.
-    - It emphasizes local/self-hosted deployment and features like file upload, image generation, and agent support as a desktop/web interface.
-    - It appears in awesome-mcp-servers as a client, indicating it interfaces with MCP but is not MCP infrastructure itself.
+    - >-
+      The homepage www.librechat.ai presents it as a customizable, open-source AI chat interface supporting multiple
+      providers.
+    - >-
+      It emphasizes local/self-hosted deployment and features like file upload, image generation, and agent support as a
+      desktop/web interface.
+    - >-
+      It appears in awesome-mcp-servers as a client, indicating it interfaces with MCP but is not MCP infrastructure
+      itself.
 placement:
   primary_category: local-ai
-  section: Desktop Chat / Interfaces
+  secondary_categories: []
+  section: Desktop Chat & UIs
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-12T15:06:19.301Z"
+    updated_at: '2026-05-12T15:06:19.301Z'
     cause: null
     next_retry_at: null
   stars:
@@ -67,7 +84,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-12T16:01:32.772Z"
+    updated_at: '2026-05-12T16:01:32.772Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

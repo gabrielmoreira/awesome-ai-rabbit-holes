@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__openclaw__clawhub__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -29,21 +29,27 @@ metadata:
     archived: false
     full_name: openclaw/clawhub
     html_url: https://github.com/openclaw/clawhub
-    created_at: "2026-01-03T13:49:41Z"
-    pushed_at: "2026-07-20T16:09:07Z"
+    created_at: '2026-01-03T13:49:41Z'
+    pushed_at: '2026-07-20T16:09:07Z'
     description: Skill + Plugin Registry for OpenClaw
     homepage: https://clawhub.ai
     topics:
       - directory
       - skill
-    last_checked_at: "2026-07-20T16:42:25.966Z"
+    last_checked_at: '2026-07-20T16:42:25.966Z'
     readme:
-      fetched_at: "2026-07-20T16:42:25.966Z"
+      fetched_at: '2026-07-20T16:42:25.966Z'
       bytes: 8413
 insights:
-  summary: ClawHub is a public registry and CLI for publishing, versioning, searching, and installing text-based agent skills (SKILL.md) and OpenClaw plugins.
-  why_it_matters: It gives developers a centralized, versioned, and vector-searchable way to share and reuse agent skills and plugins for the OpenClaw ecosystem.
-  mental_damage: We have now successfully dockerized the concept of 'vibes' into versioned SKILL.md files with install counts and telemetry.
+  summary: >-
+    ClawHub is a public registry and CLI for publishing, versioning, searching, and installing text-based agent skills
+    (SKILL.md) and OpenClaw plugins.
+  why_it_matters: >-
+    It gives developers a centralized, versioned, and vector-searchable way to share and reuse agent skills and plugins
+    for the OpenClaw ecosystem.
+  mental_damage: >-
+    We have now successfully dockerized the concept of 'vibes' into versioned SKILL.md files with install counts and
+    telemetry.
   tags:
     - skills
     - registry
@@ -53,35 +59,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is a reusable skill and plugin registry for an agent ecosystem, which aligns directly with the Agent Skills category.
+  reason: >-
+    The primary artifact is a reusable skill and plugin registry for an agent ecosystem, which aligns directly with the
+    Agent Skills category.
   evidence:
-    - "Repo description explicitly states: 'Skill Directory for OpenClaw'."
+    - 'Repo description explicitly states: ''Skill Directory for OpenClaw''.'
     - README defines it as the 'public skill registry for OpenClaw' with CLI flows for publishing and installing skills.
     - Listed as a canonical positive in the Agent Skills category under 'ClawHub'.
 placement:
   primary_category: skills
-  section: Skill Registries & Directories
+  secondary_categories: []
+  section: Registries & Directories
 lifecycle:
   status: promotion_candidate
   reason: Stars (8459) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.640Z"
+    updated_at: '2026-05-06T22:12:15.640Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:25.966Z"
+    updated_at: '2026-07-20T16:42:25.966Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

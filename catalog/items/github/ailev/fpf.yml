@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ailev__fpf__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -19,7 +19,10 @@ provenance:
           - Standards
         anchor_text: FPF
         extracted_url: https://github.com/ailev/fpf
-        surrounding_text: "- [FPF](https://github.com/ailev/FPF) ![](https://img.shields.io/github/stars/ailev/FPF.svg) - First Principles Framework - Rigorous specification framework for modeling systems, methods, and knowledge with auditable assurance levels and machine-readable patterns."
+        surrounding_text: >-
+          - [FPF](https://github.com/ailev/FPF) ![](https://img.shields.io/github/stars/ailev/FPF.svg) - First
+          Principles Framework - Rigorous specification framework for modeling systems, methods, and knowledge with
+          auditable assurance levels and machine-readable patterns.
         confidence: high
 metadata:
   github:
@@ -29,10 +32,13 @@ metadata:
     archived: false
     full_name: ailev/FPF
     html_url: https://github.com/ailev/FPF
-    created_at: "2025-12-01T12:47:55Z"
-    pushed_at: "2026-09-16T18:35:38Z"
-    description: "First Principles Framework (FPF): AI-native pattern languages for systems engineering, research and management. Shared human-AI reasoning for architecture decisions, evidence, trade-offs and method engineering. FPF Core and domain frameworks (DPFs)."
-    homepage: ""
+    created_at: '2025-12-01T12:47:55Z'
+    pushed_at: '2026-09-16T18:35:38Z'
+    description: >-
+      First Principles Framework (FPF): AI-native pattern languages for systems engineering, research and management.
+      Shared human-AI reasoning for architecture decisions, evidence, trade-offs and method engineering. FPF Core and
+      domain frameworks (DPFs).
+    homepage: ''
     topics:
       - ai-agents
       - ai-native
@@ -54,14 +60,20 @@ metadata:
       - traceability
       - trade-offs
       - verification
-    last_checked_at: "2026-09-17T04:13:36.215Z"
+    last_checked_at: '2026-09-17T04:13:36.215Z'
     readme:
-      fetched_at: "2026-09-17T04:13:36.215Z"
+      fetched_at: '2026-09-17T04:13:36.215Z'
       bytes: 37025
 insights:
-  summary: A pattern language and core specification designed to bring explicit reasoning, auditability, and structure to complex engineering and human-AI collaborative work.
-  why_it_matters: It provides a formal framework to prevent complex multi-agent or human-AI projects from devolving into incoherent, unreviewable conversational loops.
-  mental_damage: Because apparently, even our AI agents need a formal ontology and a set of rigorous semantic rules to keep them from hallucinating a whole new physics.
+  summary: >-
+    A pattern language and core specification designed to bring explicit reasoning, auditability, and structure to
+    complex engineering and human-AI collaborative work.
+  why_it_matters: >-
+    It provides a formal framework to prevent complex multi-agent or human-AI projects from devolving into incoherent,
+    unreviewable conversational loops.
+  mental_damage: >-
+    Because apparently, even our AI agents need a formal ontology and a set of rigorous semantic rules to keep them from
+    hallucinating a whole new physics.
   tags:
     - spec-driven
     - system-engineering
@@ -71,31 +83,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool is explicitly a normative specification and pattern language used to govern reasoning and maintain coherence across complex workflows.
+  reason: >-
+    The tool is explicitly a normative specification and pattern language used to govern reasoning and maintain
+    coherence across complex workflows.
   evidence:
     - Repo description identifies it as a 'core specification for admissible action'.
     - README describes it as a 'tandards-style pattern language' to make work 'explicit, reviewable, [and] improvable'.
     - Directly cited in 'awesome-spec-driven-development' under Standards.
 placement:
-  primary_category: spec-driven-development
-  section: Governance / Validation
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Spec-First & Plan-Execute
 lifecycle:
   status: promotion_candidate
   reason: Stars (347) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.600Z"
+    updated_at: '2026-05-06T22:12:15.600Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:36.215Z"
+    updated_at: '2026-09-17T04:13:36.215Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:10:29.191Z"
+    updated_at: '2026-07-20T16:10:29.191Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -108,14 +123,20 @@ processing:
       input_hash: sha256:0a30616d76e09d6833cd2b68c49cada2155c0dee64be4c008145d16b8a6f5ec3
       proposed_primary_category: spec-driven-development
       disagreement: false
-      decision_reason: The tool is explicitly a normative specification and pattern language used to govern reasoning and maintain coherence across complex workflows.
+      decision_reason: >-
+        The tool is explicitly a normative specification and pattern language used to govern reasoning and maintain
+        coherence across complex workflows.
       decision_evidence:
         - Repo description identifies it as a 'core specification for admissible action'.
-        - README describes it as a 'tandards-style pattern language' to make work 'explicit, reviewable, [and] improvable'.
+        - >-
+          README describes it as a 'tandards-style pattern language' to make work 'explicit, reviewable, [and]
+          improvable'.
         - Directly cited in 'awesome-spec-driven-development' under Standards.
       category_candidates:
         - spec-driven-development
         - agent-orchestration
-      contrastive_reason: Choose spec-driven-development over agent-orchestration because the project's core novelty is the formal specification and governance model rather than an operated runtime or control plane.
+      contrastive_reason: >-
+        Choose spec-driven-development over agent-orchestration because the project's core novelty is the formal
+        specification and governance model rather than an operated runtime or control plane.
       review_reason: null
       review_resume_lifecycle: null

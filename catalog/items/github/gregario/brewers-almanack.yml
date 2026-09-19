@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gregario__brewers-almanack__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: gregario/brewers-almanack
         extracted_url: https://github.com/gregario/brewers-almanack
-        surrounding_text: "- [gregario/brewers-almanack](https://github.com/gregario/brewers-almanack) [![gregario/brewers-almanack MCP server](https://glama.ai/mcp/servers/gregario/brewers-almanack/badges/score.svg)](https://glama.ai/mcp/servers/gregario/brewers-almanack) 📇 🏠 - A brewing knowledge MCP server with beer styles (BJCP 2021), 113 hop varieties, malts, yeasts, water profiles, off-flavour diagnosis, recipe suggestions, and food pairings."
+        surrounding_text: >-
+          - [gregario/brewers-almanack](https://github.com/gregario/brewers-almanack) [![gregario/brewers-almanack MCP
+          server](https://glama.ai/mcp/servers/gregario/brewers-almanack/badges/score.svg)](https://glama.ai/mcp/servers/gregario/brewers-almanack)
+          📇 🏠 - A brewing knowledge MCP server with beer styles (BJCP 2021), 113 hop varieties, malts, yeasts, water
+          profiles, off-flavour diagnosis, recipe suggestions, and food pairings.
         confidence: high
 metadata:
   github:
@@ -30,18 +34,24 @@ metadata:
     archived: false
     full_name: gregario/brewers-almanack
     html_url: https://github.com/gregario/brewers-almanack
-    created_at: "2026-03-14T19:25:20Z"
-    pushed_at: "2026-08-31T12:15:31Z"
-    description: A brewing knowledge MCP server — beer styles, ingredients, off-flavour diagnosis, water chemistry, and recipe guidance for AI brewing assistants
+    created_at: '2026-03-14T19:25:20Z'
+    pushed_at: '2026-08-31T12:15:31Z'
+    description: >-
+      A brewing knowledge MCP server — beer styles, ingredients, off-flavour diagnosis, water chemistry, and recipe
+      guidance for AI brewing assistants
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:54.188Z"
+    last_checked_at: '2026-09-03T05:16:54.188Z'
     readme:
-      fetched_at: "2026-09-03T05:16:54.188Z"
+      fetched_at: '2026-09-03T05:16:54.188Z'
       bytes: 6692
 insights:
-  summary: An MCP server providing brewing knowledge (beer styles, ingredients, off-flavour diagnosis, water chemistry, and recipe guidance) for AI assistants.
-  why_it_matters: Developers building AI brewing assistants can integrate domain-specific brewing data and tools without hallucinations or external API dependencies.
+  summary: >-
+    An MCP server providing brewing knowledge (beer styles, ingredients, off-flavour diagnosis, water chemistry, and
+    recipe guidance) for AI assistants.
+  why_it_matters: >-
+    Developers building AI brewing assistants can integrate domain-specific brewing data and tools without
+    hallucinations or external API dependencies.
   mental_damage: Now your AI can diagnose why your homebrew tastes like regret, but your code still can't.
   tags:
     - mcp-server
@@ -51,31 +61,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a domain-specific MCP server providing structured tools and data for brewing workflows."
+  reason: >-
+    MCP is the product identity: this is a domain-specific MCP server providing structured tools and data for brewing
+    workflows.
   evidence:
     - Repo description explicitly identifies it as a 'brewing knowledge MCP server'
     - README emphasizes MCP compatibility and provides installation/configuration for multiple MCP-compatible IDEs
     - All functionality is exposed as MCP tools (search_styles, diagnose_off_flavour, etc.)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.617Z"
+    updated_at: '2026-05-06T22:12:15.617Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:54.188Z"
+    updated_at: '2026-09-03T05:16:54.188Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:04:10.776Z"
+    updated_at: '2026-07-21T16:04:10.776Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +101,9 @@ processing:
       input_hash: sha256:8ccb4757cbeeac6a4d2e247de5d9534cb7f01263d4878e181bb51ed097b7b63b
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a domain-specific MCP server providing structured tools and data for brewing workflows."
+      decision_reason: >-
+        MCP is the product identity: this is a domain-specific MCP server providing structured tools and data for
+        brewing workflows.
       decision_evidence:
         - Repo description explicitly identifies it as a 'brewing knowledge MCP server'
         - README emphasizes MCP compatibility and provides installation/configuration for multiple MCP-compatible IDEs
@@ -96,6 +111,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server providing domain tools, not as an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server providing domain
+        tools, not as an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

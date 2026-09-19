@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agentlux__agentlux-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🛒 <a name="e-commerce"></a>E-Commerce
         anchor_text: agentlux/agentlux-mcp
         extracted_url: https://github.com/agentlux/agentlux-mcp
-        surrounding_text: "- [agentlux/agentlux-mcp](https://github.com/agentlux/agentlux-mcp) [![agentlux/agentlux-mcp MCP server](https://glama.ai/mcp/servers/agentlux/agentlux-mcp/badges/score.svg)](https://glama.ai/mcp/servers/agentlux/agentlux-mcp) 📇 ☁️ 🍎 🪟 🐧 - Agent marketplace and services MCP server for AgentLux. Browse marketplace items, manage agent identity, creator workflows, service hires, social flows, and Base/x402 commerce through 33 tools. Install via `npx -y @agentlux/mcp-server`."
+        surrounding_text: >-
+          - [agentlux/agentlux-mcp](https://github.com/agentlux/agentlux-mcp) [![agentlux/agentlux-mcp MCP
+          server](https://glama.ai/mcp/servers/agentlux/agentlux-mcp/badges/score.svg)](https://glama.ai/mcp/servers/agentlux/agentlux-mcp)
+          📇 ☁️ 🍎 🪟 🐧 - Agent marketplace and services MCP server for AgentLux. Browse marketplace items, manage
+          agent identity, creator workflows, service hires, social flows, and Base/x402 commerce through 33 tools.
+          Install via `npx -y @agentlux/mcp-server`.
         confidence: high
 metadata:
   github:
@@ -30,18 +35,22 @@ metadata:
     archived: false
     full_name: agentlux/agentlux-mcp
     html_url: https://github.com/agentlux/agentlux-mcp
-    created_at: "2026-04-17T03:25:02Z"
-    pushed_at: "2026-07-17T19:13:31Z"
+    created_at: '2026-04-17T03:25:02Z'
+    pushed_at: '2026-07-17T19:13:31Z'
     description: Embedded MCP toolkit for AgentLux marketplace, identity, creator, services, and social flows
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:33.013Z"
+    last_checked_at: '2026-09-17T04:13:33.013Z'
     readme:
-      fetched_at: "2026-09-17T04:13:33.013Z"
+      fetched_at: '2026-09-17T04:13:33.013Z'
       bytes: 5387
 insights:
-  summary: An MCP server and toolkit that allows AI agents to interact with the AgentLux marketplace, identity, and social features.
-  why_it_matters: It provides a standardized way for agents to perform commerce, identity, and social tasks within a specific ecosystem.
+  summary: >-
+    An MCP server and toolkit that allows AI agents to interact with the AgentLux marketplace, identity, and social
+    features.
+  why_it_matters: >-
+    It provides a standardized way for agents to perform commerce, identity, and social tasks within a specific
+    ecosystem.
   mental_damage: Because what an autonomous agent really needs is a curated marketplace and a social profile to maintain.
   tags:
     - mcp
@@ -59,24 +68,25 @@ curation:
     - Exposes specific tool groups like marketplace browsing and social graph actions
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.600Z"
+    updated_at: '2026-05-06T22:12:15.600Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:33.013Z"
+    updated_at: '2026-09-17T04:13:33.013Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:16:18.527Z"
+    updated_at: '2026-08-27T06:16:18.527Z'
     cause: null
     attempts: 4
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +99,9 @@ processing:
       input_hash: sha256:712048841f4ca8773bd87e6c5f3860ebd743e6ce35a15a9ff12a5cafc40dce33
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is explicitly built as an MCP server and toolkit to expose AgentLux ecosystem capabilities to AI agents.
+      decision_reason: >-
+        The project is explicitly built as an MCP server and toolkit to expose AgentLux ecosystem capabilities to AI
+        agents.
       decision_evidence:
         - Provides 33 tools via MCP for marketplace, identity, and social flows
         - Supports both a local stdio server and an embeddable library/toolkit
@@ -97,6 +109,8 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the primary identity and distribution method is an MCP server designed for agent tool consumption.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the primary identity and distribution method is an MCP server designed for
+        agent tool consumption.
       review_reason: null
       review_resume_lifecycle: null

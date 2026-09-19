@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__anaisbetts__mcp-installer__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,7 @@ provenance:
           - Community Servers
         anchor_text: MCP Installer
         extracted_url: https://github.com/anaisbetts/mcp-installer
-        surrounding_text: "- **[MCP Installer](https://github.com/anaisbetts/mcp-installer)** - Set up MCP servers in Claude Desktop"
+        surrounding_text: '- **[MCP Installer](https://github.com/anaisbetts/mcp-installer)** - Set up MCP servers in Claude Desktop'
         confidence: high
 metadata:
   github:
@@ -29,19 +29,23 @@ metadata:
     archived: false
     full_name: anaisbetts/mcp-installer
     html_url: https://github.com/anaisbetts/mcp-installer
-    created_at: "2024-11-26T18:01:53Z"
-    pushed_at: "2024-11-26T20:05:09Z"
+    created_at: '2024-11-26T18:01:53Z'
+    pushed_at: '2024-11-26T20:05:09Z'
     description: An MCP server that installs other MCP servers for you
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:43.343Z"
+    last_checked_at: '2026-09-17T04:13:43.343Z'
     readme:
-      fetched_at: "2026-09-17T04:13:43.343Z"
+      fetched_at: '2026-09-17T04:13:43.343Z'
       bytes: 1183
 insights:
   summary: An MCP server that automates the installation of other MCP servers from npm or PyPI.
-  why_it_matters: It simplifies the process of adding new MCP servers to a developer's workflow by handling package installation and configuration via natural language prompts.
-  mental_damage: Now you can ask an AI to install the AI tools that let you ask an AI to do things, because the loop wasn’t deep enough already.
+  why_it_matters: >-
+    It simplifies the process of adding new MCP servers to a developer's workflow by handling package installation and
+    configuration via natural language prompts.
+  mental_damage: >-
+    Now you can ask an AI to install the AI tools that let you ask an AI to do things, because the loop wasn’t deep
+    enough already.
   tags:
     - mcp
     - automation
@@ -50,31 +54,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is as an MCP server that provides MCP-specific functionality (installing other MCP servers), making it a clear fit for the MCP Servers & Tooling category.
+  reason: >-
+    The product's core identity is as an MCP server that provides MCP-specific functionality (installing other MCP
+    servers), making it a clear fit for the MCP Servers & Tooling category.
   evidence:
     - Repo description explicitly states it is 'An MCP server that installs other MCP servers for you'
     - README demonstrates usage via Claude Desktop MCP configuration and natural language installation commands
     - Listed in awesome-mcp-servers under 'Community Servers'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: promotion_candidate
   reason: Stars (1517) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.602Z"
+    updated_at: '2026-05-06T22:12:15.602Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:43.343Z"
+    updated_at: '2026-09-17T04:13:43.343Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:22:42.137Z"
+    updated_at: '2026-07-21T15:22:42.137Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -87,7 +94,9 @@ processing:
       input_hash: sha256:4e8b98e4105dce2c8bcec38d8799f581a69a61711313206dae30bc104e2ae723
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is as an MCP server that provides MCP-specific functionality (installing other MCP servers), making it a clear fit for the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product's core identity is as an MCP server that provides MCP-specific functionality (installing other MCP
+        servers), making it a clear fit for the MCP Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is 'An MCP server that installs other MCP servers for you'
         - README demonstrates usage via Claude Desktop MCP configuration and natural language installation commands
@@ -95,6 +104,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary product identity is an MCP server providing MCP-specific infrastructure, not merely extending another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary product identity is an MCP server providing MCP-specific
+        infrastructure, not merely extending another assistant.
       review_reason: null
       review_resume_lifecycle: null

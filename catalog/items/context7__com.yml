@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__context7__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,9 @@ provenance:
           - Developer Productivity Tools
         anchor_text: Context7
         extracted_url: https://context7.com
-        surrounding_text: "- **[Context7](https://context7.com/)** – MCP server providing up-to-date library documentation to LLMs and AI editors."
+        surrounding_text: >-
+          - **[Context7](https://context7.com/)** – MCP server providing up-to-date library documentation to LLMs and AI
+          editors.
         confidence: high
 metadata:
   github:
@@ -36,9 +38,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A service that provides up-to-date, version-specific library documentation and code examples to AI coding tools like Cursor and Claude Code.
-  why_it_matters: It solves the hallucination problem in AI coding by injecting fresh, version-correct documentation directly into the LLM's context window.
-  mental_damage: Another layer of abstraction to manage just to ensure your AI doesn't hallucinate a method that was deprecated eighteen months ago.
+  summary: >-
+    A service that provides up-to-date, version-specific library documentation and code examples to AI coding tools like
+    Cursor and Claude Code.
+  why_it_matters: >-
+    It solves the hallucination problem in AI coding by injecting fresh, version-correct documentation directly into the
+    LLM's context window.
+  mental_damage: >-
+    Another layer of abstraction to manage just to ensure your AI doesn't hallucinate a method that was deprecated
+    eighteen months ago.
   tags:
     - context-retrieval
     - documentation
@@ -48,21 +56,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's core value is retrieving and shaping fresh documentation context for LLMs rather than being a standalone assistant or a simple UI extension.
+  reason: >-
+    The tool's core value is retrieving and shaping fresh documentation context for LLMs rather than being a standalone
+    assistant or a simple UI extension.
   evidence:
-    - "Scraped site title: 'Up-to-date documentation for LLMs and AI code editors'"
+    - 'Scraped site title: ''Up-to-date documentation for LLMs and AI code editors'''
     - Primary function is injecting version-specific documentation into AI tools
     - Claims to provide documentation directly into Cursor and Claude Code
 placement:
-  primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Retrieval & Fresh Docs
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.660Z"
+    updated_at: '2026-05-06T22:12:15.660Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +82,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:34:10.453Z"
+    updated_at: '2026-07-20T15:34:10.453Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,14 +95,18 @@ processing:
       input_hash: sha256:05a3533ab8dc09f74edbdd433703519b84b2a50f2e3fc3f2a7f84d9adc8f2b5d
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: The tool's core value is retrieving and shaping fresh documentation context for LLMs rather than being a standalone assistant or a simple UI extension.
+      decision_reason: >-
+        The tool's core value is retrieving and shaping fresh documentation context for LLMs rather than being a
+        standalone assistant or a simple UI extension.
       decision_evidence:
-        - "Scraped site title: 'Up-to-date documentation for LLMs and AI code editors'"
+        - 'Scraped site title: ''Up-to-date documentation for LLMs and AI code editors'''
         - Primary function is injecting version-specific documentation into AI tools
         - Claims to provide documentation directly into Cursor and Claude Code
       category_candidates:
         - context-engineering
         - ai-dev-extensions
-      contrastive_reason: Choose context-engineering over ai-dev-extensions because the core novelty is the retrieval and freshness of the documentation context provided to the host, not the integration layer itself.
+      contrastive_reason: >-
+        Choose context-engineering over ai-dev-extensions because the core novelty is the retrieval and freshness of the
+        documentation context provided to the host, not the integration layer itself.
       review_reason: null
       review_resume_lifecycle: null

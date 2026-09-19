@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__heurist-network__heurist-mesh-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,14 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: heurist-network/heurist-mesh-mcp-server
         extracted_url: https://github.com/heurist-network/heurist-mesh-mcp-server
-        surrounding_text: "- [heurist-network/heurist-mesh-mcp-server](https://github.com/heurist-network/heurist-mesh-mcp-server) 🎖️ ⛅️ 🏠 🐍 - Access specialized web3 AI agents for blockchain analysis, smart contract security auditing, token metrics evaluation, and on-chain interactions through the Heurist Mesh network. Provides comprehensive tools for DeFi analysis, NFT valuation, and transaction monitoring across multiple blockchains"
+        surrounding_text: >-
+          - [heurist-network/heurist-mesh-mcp-server](https://github.com/heurist-network/heurist-mesh-mcp-server) 🎖️ ⛅️
+          🏠 🐍 - Access specialized web3 AI agents for blockchain analysis, smart contract security auditing, token
+          metrics evaluation, and on-chain interactions through the Heurist Mesh network. Provides comprehensive tools
+          for DeFi analysis, NFT valuation, and transaction monitoring across multiple blockchains
         confidence: high
     - id: discovery__github__heurist-network__heurist-mesh-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +39,11 @@ provenance:
           - 💰 Finance & Fintech
         anchor_text: heurist-network/heurist-mesh-mcp-server
         extracted_url: https://github.com/heurist-network/heurist-mesh-mcp-server
-        surrounding_text: "-   **[heurist-network/heurist-mesh-mcp-server](https://github.com/heurist-network/heurist-mesh-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/heurist-network/heurist-mesh-mcp-server?style=social)](https://github.com/heurist-network/heurist-mesh-mcp-server): Provides access to web3 AI agents for blockchain analysis and smart contract auditing."
+        surrounding_text: >-
+          -   **[heurist-network/heurist-mesh-mcp-server](https://github.com/heurist-network/heurist-mesh-mcp-server)**
+          [![GitHub
+          stars](https://img.shields.io/github/stars/heurist-network/heurist-mesh-mcp-server?style=social)](https://github.com/heurist-network/heurist-mesh-mcp-server):
+          Provides access to web3 AI agents for blockchain analysis and smart contract auditing.
         confidence: high
 metadata:
   github:
@@ -45,18 +53,22 @@ metadata:
     archived: false
     full_name: heurist-network/heurist-mesh-mcp-server
     html_url: https://github.com/heurist-network/heurist-mesh-mcp-server
-    created_at: "2025-03-14T03:31:31Z"
-    pushed_at: "2026-03-25T17:30:33Z"
+    created_at: '2025-03-14T03:31:31Z'
+    pushed_at: '2026-03-25T17:30:33Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:37.005Z"
+    last_checked_at: '2026-07-30T05:05:37.005Z'
     readme:
-      fetched_at: "2026-07-30T05:05:37.005Z"
+      fetched_at: '2026-07-30T05:05:37.005Z'
       bytes: 8066
 insights:
-  summary: An MCP server that connects to Heurist Mesh APIs, providing access to 30+ specialized Web3 analytics agents for AI applications.
-  why_it_matters: Developers can integrate Web3-specific intelligence (e.g., token resolution, trending tokens, Twitter analytics) into their AI workflows via MCP-compatible interfaces like Claude or Cursor.
+  summary: >-
+    An MCP server that connects to Heurist Mesh APIs, providing access to 30+ specialized Web3 analytics agents for AI
+    applications.
+  why_it_matters: >-
+    Developers can integrate Web3-specific intelligence (e.g., token resolution, trending tokens, Twitter analytics)
+    into their AI workflows via MCP-compatible interfaces like Claude or Cursor.
   mental_damage: Now your AI can finally explain why your crypto portfolio is a disaster, one MCP tool call at a time.
   tags:
     - mcp
@@ -67,31 +79,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server providing domain-specific (Web3) tooling, with MCP as the core identity rather than a compatibility feature.
+  reason: >-
+    This is an MCP-first server providing domain-specific (Web3) tooling, with MCP as the core identity rather than a
+    compatibility feature.
   evidence:
     - README explicitly describes it as an MCP server for Heurist Mesh APIs
     - Supports both SSE and stdio transports for MCP compatibility
     - Listed in awesome-mcp-list under Finance & Fintech
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.587Z"
+    updated_at: '2026-05-06T22:12:15.587Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:37.005Z"
+    updated_at: '2026-07-30T05:05:37.005Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:05:30.664Z"
+    updated_at: '2026-07-21T16:05:30.664Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,7 +119,9 @@ processing:
       input_hash: sha256:42efe0330c80fbeb548ea4d5e2772f75e2adb981b995593cda35e9cdb97ff7c9
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server providing domain-specific (Web3) tooling, with MCP as the core identity rather than a compatibility feature.
+      decision_reason: >-
+        This is an MCP-first server providing domain-specific (Web3) tooling, with MCP as the core identity rather than
+        a compatibility feature.
       decision_evidence:
         - README explicitly describes it as an MCP server for Heurist Mesh APIs
         - Supports both SSE and stdio transports for MCP compatibility
@@ -112,6 +129,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

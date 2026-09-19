@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__michaelfeil__infinity__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,10 @@ provenance:
           - Large Model Serving
         anchor_text: Infinity
         extracted_url: https://github.com/michaelfeil/infinity
-        surrounding_text: "| [Infinity](https://github.com/michaelfeil/infinity)                                   | Rest API server for serving text-embeddings                                                                     | ![GitHub Badge](https://img.shields.io/github/stars/michaelfeil/infinity.svg?style=flat-square)                  |"
+        surrounding_text: >-
+          | [Infinity](https://github.com/michaelfeil/infinity)                                   | Rest API server for
+          serving text-embeddings                                                                     | ![GitHub
+          Badge](https://img.shields.io/github/stars/michaelfeil/infinity.svg?style=flat-square)                  |
         confidence: high
 metadata:
   github:
@@ -30,22 +33,30 @@ metadata:
     archived: false
     full_name: michaelfeil/infinity
     html_url: https://github.com/michaelfeil/infinity
-    created_at: "2023-10-11T17:53:38Z"
-    pushed_at: "2026-03-24T03:59:47Z"
-    description: Infinity is a high-throughput, low-latency serving engine for text-embeddings, reranking models, clip, clap and colpali
+    created_at: '2023-10-11T17:53:38Z'
+    pushed_at: '2026-03-24T03:59:47Z'
+    description: >-
+      Infinity is a high-throughput, low-latency serving engine for text-embeddings, reranking models, clip, clap and
+      colpali
     homepage: https://michaelfeil.github.io/infinity/
     topics:
       - bert-embeddings
       - llm
       - text-embeddings
-    last_checked_at: "2026-08-03T05:17:01.235Z"
+    last_checked_at: '2026-08-03T05:17:01.235Z'
     readme:
-      fetched_at: "2026-08-03T05:17:01.235Z"
+      fetched_at: '2026-08-03T05:17:01.235Z'
       bytes: 27885
 insights:
-  summary: Infinity is a high-throughput, low-latency REST API for serving text-embeddings, reranking, and multimodal models from HuggingFace.
-  why_it_matters: It lets developers deploy embedding and reranking models with minimal setup, enabling fast semantic search and retrieval in AI applications.
-  mental_damage: Yet another model serving API that makes you wonder if we really needed yet another way to serve BERT variants over HTTP.
+  summary: >-
+    Infinity is a high-throughput, low-latency REST API for serving text-embeddings, reranking, and multimodal models
+    from HuggingFace.
+  why_it_matters: >-
+    It lets developers deploy embedding and reranking models with minimal setup, enabling fast semantic search and
+    retrieval in AI applications.
+  mental_damage: >-
+    Yet another model serving API that makes you wonder if we really needed yet another way to serve BERT variants over
+    HTTP.
   tags:
     - model-serving
     - embeddings
@@ -53,31 +64,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Infinity is a self-hostable inference server for embedding and reranking models, making it a local serving tool rather than a coding assistant, framework, or orchestrator.
+  reason: >-
+    Infinity is a self-hostable inference server for embedding and reranking models, making it a local serving tool
+    rather than a coding assistant, framework, or orchestrator.
   evidence:
-    - "Repo description: 'Infinity is a high-throughput, low-latency serving engine for text-embeddings, reranking models, clip, clap and colpali'"
-    - "README: 'Infinity is a high-throughput, low-latency REST API for serving text-embeddings, reranking models, clip, clap and colpali'"
-    - "Source-list context: listed in Awesome-LLMOps under Serving > Large Model Serving"
+    - >-
+      Repo description: 'Infinity is a high-throughput, low-latency serving engine for text-embeddings, reranking
+      models, clip, clap and colpali'
+    - >-
+      README: 'Infinity is a high-throughput, low-latency REST API for serving text-embeddings, reranking models, clip,
+      clap and colpali'
+    - 'Source-list context: listed in Awesome-LLMOps under Serving > Large Model Serving'
 placement:
   primary_category: local-ai
-  section: Local Serving / APIs
+  secondary_categories: []
+  section: Local API Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (2787) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.629Z"
+    updated_at: '2026-05-06T22:12:15.629Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:01.235Z"
+    updated_at: '2026-08-03T05:17:01.235Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:20:20.043Z"
+    updated_at: '2026-07-21T16:20:20.043Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -90,14 +108,22 @@ processing:
       input_hash: sha256:bdd227cfcbda25c601d9e2c763d92f0539006d8938451942928364bddf7bc33e
       proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: Infinity is a self-hostable inference server for embedding and reranking models, making it a local serving tool rather than a coding assistant, framework, or orchestrator.
+      decision_reason: >-
+        Infinity is a self-hostable inference server for embedding and reranking models, making it a local serving tool
+        rather than a coding assistant, framework, or orchestrator.
       decision_evidence:
-        - "Repo description: 'Infinity is a high-throughput, low-latency serving engine for text-embeddings, reranking models, clip, clap and colpali'"
-        - "README: 'Infinity is a high-throughput, low-latency REST API for serving text-embeddings, reranking models, clip, clap and colpali'"
-        - "Source-list context: listed in Awesome-LLMOps under Serving > Large Model Serving"
+        - >-
+          Repo description: 'Infinity is a high-throughput, low-latency serving engine for text-embeddings, reranking
+          models, clip, clap and colpali'
+        - >-
+          README: 'Infinity is a high-throughput, low-latency REST API for serving text-embeddings, reranking models,
+          clip, clap and colpali'
+        - 'Source-list context: listed in Awesome-LLMOps under Serving > Large Model Serving'
       category_candidates:
         - local-ai
         - ai-frameworks
-      contrastive_reason: Choose local-ai over ai-frameworks because Infinity is primarily a deployable inference server for local/self-hosted execution, not a code-first library or SDK for building AI workflows.
+      contrastive_reason: >-
+        Choose local-ai over ai-frameworks because Infinity is primarily a deployable inference server for
+        local/self-hosted execution, not a code-first library or SDK for building AI workflows.
       review_reason: null
       review_resume_lifecycle: null

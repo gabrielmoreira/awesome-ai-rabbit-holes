@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__kwal__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Kwal
         anchor_text: Kwal
         extracted_url: https://kwal.ai
-        surrounding_text: "## [Kwal](https://www.kwal.ai/)"
+        surrounding_text: '## [Kwal](https://www.kwal.ai/)'
         confidence: high
     - id: discovery__www__kwal__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Kwal
         anchor_text: Kwal
         extracted_url: https://www.kwal.ai
-        surrounding_text: "## [Kwal](https://www.kwal.ai/)"
+        surrounding_text: '## [Kwal](https://www.kwal.ai/)'
         confidence: high
 metadata:
   github:
@@ -61,20 +61,23 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Kwal is listed in awesome-ai-agents as an autonomous agent platform, fitting the agent orchestration category where multi-agent coordination is the main value proposition.
+  reason: >-
+    Kwal is listed in awesome-ai-agents as an autonomous agent platform, fitting the agent orchestration category where
+    multi-agent coordination is the main value proposition.
   evidence:
-    - "Seen in source lists: awesome-ai-agents | section: Kwal"
+    - 'Seen in source lists: awesome-ai-agents | section: Kwal'
     - awesome-ai-agents describes it as a list of AI autonomous agents
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Hosted Agent Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:35:17.175Z"
+    updated_at: '2026-07-21T15:35:17.175Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -87,19 +90,23 @@ processing:
       input_hash: sha256:ce9aedd6ce879edafdbe1841a5d0c70f141f37b27afa21fc36e6a831015ce043
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: Kwal is listed in awesome-ai-agents as an autonomous agent platform, fitting the agent orchestration category where multi-agent coordination is the main value proposition.
+      decision_reason: >-
+        Kwal is listed in awesome-ai-agents as an autonomous agent platform, fitting the agent orchestration category
+        where multi-agent coordination is the main value proposition.
       decision_evidence:
-        - "Seen in source lists: awesome-ai-agents | section: Kwal"
+        - 'Seen in source lists: awesome-ai-agents | section: Kwal'
         - awesome-ai-agents describes it as a list of AI autonomous agents
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because Kwal's primary identity is as an autonomous agent platform rather than a direct coding assistant.
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because Kwal's primary identity is as an autonomous agent platform
+        rather than a direct coding assistant.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.967Z"
+    updated_at: '2026-07-21T15:20:21.967Z'
     cause: null
     next_retry_at: null
   stars:

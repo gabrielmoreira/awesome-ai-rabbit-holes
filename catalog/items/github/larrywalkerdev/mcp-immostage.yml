@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__larrywalkerdev__mcp-immostage__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: LarryWalkerDEV/mcp-immostage
         extracted_url: https://github.com/larrywalkerdev/mcp-immostage
-        surrounding_text: "- [LarryWalkerDEV/mcp-immostage](https://github.com/LarryWalkerDEV/mcp-immostage) 📇 ☁️ - AI virtual staging for real estate. Stage empty rooms, beautify floor plans into 3D renders, classify room images, generate property descriptions, and get style recommendations."
+        surrounding_text: >-
+          - [LarryWalkerDEV/mcp-immostage](https://github.com/LarryWalkerDEV/mcp-immostage) 📇 ☁️ - AI virtual staging
+          for real estate. Stage empty rooms, beautify floor plans into 3D renders, classify room images, generate
+          property descriptions, and get style recommendations.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: LarryWalkerDEV/mcp-immostage
     html_url: https://github.com/LarryWalkerDEV/mcp-immostage
-    created_at: "2026-02-18T14:15:23Z"
-    pushed_at: "2026-07-05T08:46:50Z"
-    description: MCP Server for AI Virtual Staging — stage rooms, beautify floor plans, classify images, optimize property listings. Built by immostage.ai
+    created_at: '2026-02-18T14:15:23Z'
+    pushed_at: '2026-07-05T08:46:50Z'
+    description: >-
+      MCP Server for AI Virtual Staging — stage rooms, beautify floor plans, classify images, optimize property
+      listings. Built by immostage.ai
     homepage: https://immostage.ai
     topics:
       - ai-staging
@@ -42,14 +47,20 @@ metadata:
       - proptech
       - real-estate
       - virtual-staging
-    last_checked_at: "2026-07-30T05:06:03.611Z"
+    last_checked_at: '2026-07-30T05:06:03.611Z'
     readme:
-      fetched_at: "2026-07-30T05:06:03.611Z"
+      fetched_at: '2026-07-30T05:06:03.611Z'
       bytes: 5015
 insights:
-  summary: MCP Server for AI Virtual Staging that stages rooms, beautifies floor plans, classifies images, and optimizes property listings for real estate workflows.
-  why_it_matters: Provides domain-specific AI tools for real estate professionals via MCP, enabling integration into developer workflows like Claude Desktop for property listing enhancement.
-  mental_damage: Another niche MCP server that makes you wonder if every vertical SaaS needs its own protocol endpoint just to stage a living room.
+  summary: >-
+    MCP Server for AI Virtual Staging that stages rooms, beautifies floor plans, classifies images, and optimizes
+    property listings for real estate workflows.
+  why_it_matters: >-
+    Provides domain-specific AI tools for real estate professionals via MCP, enabling integration into developer
+    workflows like Claude Desktop for property listing enhancement.
+  mental_damage: >-
+    Another niche MCP server that makes you wonder if every vertical SaaS needs its own protocol endpoint just to stage
+    a living room.
   tags:
     - mcp
     - proptech
@@ -59,31 +70,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product is an MCP-first server providing domain-specific virtual staging tools, making MCP its core identity rather than a compatibility feature.
+  reason: >-
+    The product is an MCP-first server providing domain-specific virtual staging tools, making MCP its core identity
+    rather than a compatibility feature.
   evidence:
-    - "Repo description: 'MCP Server for AI Virtual Staging'"
+    - 'Repo description: ''MCP Server for AI Virtual Staging'''
     - README positions it as an MCP server with tools like stage_room, beautify_floor_plan, classify_room
-    - "Source-list context: listed in awesome-mcp-servers under Server Implementations"
+    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.626Z"
+    updated_at: '2026-05-06T22:12:15.626Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:03.611Z"
+    updated_at: '2026-07-30T05:06:03.611Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:15:11.399Z"
+    updated_at: '2026-07-21T16:15:11.399Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,14 +110,18 @@ processing:
       input_hash: sha256:8a669072e83884ec93a93a618c76dcbe08c6e4b0e102157702442ebfd4a66d86
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP-first server providing domain-specific virtual staging tools, making MCP its core identity rather than a compatibility feature.
+      decision_reason: >-
+        The product is an MCP-first server providing domain-specific virtual staging tools, making MCP its core identity
+        rather than a compatibility feature.
       decision_evidence:
-        - "Repo description: 'MCP Server for AI Virtual Staging'"
+        - 'Repo description: ''MCP Server for AI Virtual Staging'''
         - README positions it as an MCP server with tools like stage_room, beautify_floor_plan, classify_room
-        - "Source-list context: listed in awesome-mcp-servers under Server Implementations"
+        - 'Source-list context: listed in awesome-mcp-servers under Server Implementations'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server delivering virtual staging capabilities, not an extension augmenting another assistant with host integrations.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server delivering virtual staging capabilities,
+        not an extension augmenting another assistant with host integrations.
       review_reason: null
       review_resume_lifecycle: null

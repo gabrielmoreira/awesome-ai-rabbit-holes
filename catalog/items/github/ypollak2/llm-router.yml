@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ypollak2__llm-router__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: ypollak2/llm-router
         extracted_url: https://github.com/ypollak2/llm-router
-        surrounding_text: "- [ypollak2/llm-router](https://github.com/ypollak2/llm-router) [![ypollak2/llm-router MCP server](https://glama.ai/mcp/servers/ypollak2/llm-router/badges/score.svg)](https://glama.ai/mcp/servers/ypollak2/llm-router) 🐍 🏠 🍎 🪟 🐧 - Subscription-aware LLM router for Claude Code. Routes tasks to 20+ providers (OpenAI, Gemini, Groq, Ollama, Codex) based on complexity classification, Claude subscription pressure, and cost. Free tasks stay on Claude subscription; expensive tasks fall back to the cheapest capable model. Includes 30 MCP tools, 6 auto-routing hooks, semantic dedup cache, prompt caching, daily spend cap, and a live web dashboard."
+        surrounding_text: >-
+          - [ypollak2/llm-router](https://github.com/ypollak2/llm-router) [![ypollak2/llm-router MCP
+          server](https://glama.ai/mcp/servers/ypollak2/llm-router/badges/score.svg)](https://glama.ai/mcp/servers/ypollak2/llm-router)
+          🐍 🏠 🍎 🪟 🐧 - Subscription-aware LLM router for Claude Code. Routes tasks to 20+ providers (OpenAI, Gemini,
+          Groq, Ollama, Codex) based on complexity classification, Claude subscription pressure, and cost. Free tasks
+          stay on Claude subscription; expensive tasks fall back to the cheapest capable model. Includes 30 MCP tools, 6
+          auto-routing hooks, semantic dedup cache, prompt caching, daily spend cap, and a live web dashboard.
         confidence: high
 metadata:
   github:
@@ -30,10 +36,10 @@ metadata:
     archived: false
     full_name: ypollak2/llm-router
     html_url: https://github.com/ypollak2/llm-router
-    created_at: "2026-03-28T21:49:28Z"
-    pushed_at: "2026-07-09T16:00:27Z"
-    description: "  Universal LLM router for AI coding tools. Works with Claude Code, Cursor, Codex, Gemini CLI, Copilot and more.        Free-first fallback chain keeps costs 70–85% lower."
-    homepage: ""
+    created_at: '2026-03-28T21:49:28Z'
+    pushed_at: '2026-07-09T16:00:27Z'
+    description: '  Universal LLM router for AI coding tools. Works with Claude Code, Cursor, Codex, Gemini CLI, Copilot and more.        Free-first fallback chain keeps costs 70–85% lower.'
+    homepage: ''
     topics:
       - ai-routing
       - anthropic
@@ -48,12 +54,14 @@ metadata:
       - model-router
       - ollama
       - openai
-    last_checked_at: "2026-07-21T15:21:22.124Z"
+    last_checked_at: '2026-07-21T15:21:22.124Z'
     readme:
-      fetched_at: "2026-07-21T15:21:22.124Z"
+      fetched_at: '2026-07-21T15:21:22.124Z'
       bytes: 23758
 insights:
-  summary: A local control plane that routes AI coding tool requests to the cheapest capable model using complexity classification and fallback chains.
+  summary: >-
+    A local control plane that routes AI coding tool requests to the cheapest capable model using complexity
+    classification and fallback chains.
   why_it_matters: Reduces AI coding costs by automatically selecting optimal models without workflow changes.
   mental_damage: Watching your routing logic get more complex than the code you're trying to write.
   tags:
@@ -63,32 +71,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: llm-router is primarily a host integration that augments AI coding assistants like Claude Code and Cursor with intelligent model selection rather than being a standalone coding assistant.
+  reason: >-
+    llm-router is primarily a host integration that augments AI coding assistants like Claude Code and Cursor with
+    intelligent model selection rather than being a standalone coding assistant.
   evidence:
     - Routes tasks between AI coding tools and LLM providers as an intermediary layer
     - Works with Claude Code, Cursor, Codex, Gemini CLI, and Copilot as host integrations
     - Adds cost optimization and fallback capabilities to existing coding assistants
     - Mentioned in awesome-mcp-servers under Developer Tools section
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: extensions-and-addons
+  section: API & Service Integrations
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.657Z"
+    updated_at: '2026-05-06T22:12:15.657Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:22.124Z"
+    updated_at: '2026-07-21T15:21:22.124Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-18T05:37:52.758Z"
+    updated_at: '2026-05-18T05:37:52.758Z'
     cause: null
     next_retry_at: null
     attempts: 3

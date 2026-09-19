@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jabbawocky__proposalcraft__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-22T05:53:30.454Z"
+      discovered_at: '2026-06-22T05:53:30.454Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,15 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: jabbawocky/proposalcraft
         extracted_url: https://github.com/jabbawocky/proposalcraft
-        surrounding_text: "- [jabbawocky/proposalcraft](https://github.com/jabbawocky/proposalcraft) [![jabbawocky/proposalcraft MCP server](https://glama.ai/mcp/servers/jabbawocky/proposalcraft/badges/score.svg)](https://glama.ai/mcp/servers/jabbawocky/proposalcraft) 📇 🏠 🍎 🪟 🐧 - MCP server that drafts client proposals in your own voice. Save 2-3 of your winning proposals, paste a new brief, and Claude generates a ready-to-send draft. No API key, no cloud — local storage only. `npx -y github:jabbawocky/proposalcraft`"
+        surrounding_text: >-
+          - [jabbawocky/proposalcraft](https://github.com/jabbawocky/proposalcraft) [![jabbawocky/proposalcraft MCP
+          server](https://glama.ai/mcp/servers/jabbawocky/proposalcraft/badges/score.svg)](https://glama.ai/mcp/servers/jabbawocky/proposalcraft)
+          📇 🏠 🍎 🪟 🐧 - MCP server that drafts client proposals in your own voice. Save 2-3 of your winning
+          proposals, paste a new brief, and Claude generates a ready-to-send draft. No API key, no cloud — local storage
+          only. `npx -y github:jabbawocky/proposalcraft`
         confidence: high
     - id: discovery__github__jabbawocky__proposalcraft__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-09-17T04:13:23.413Z"
+      discovered_at: '2026-09-17T04:13:23.413Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -36,7 +41,12 @@ provenance:
           - 🎯 Marketing
         anchor_text: jabbawocky/proposalcraft
         extracted_url: https://github.com/jabbawocky/proposalcraft
-        surrounding_text: "-   **[jabbawocky/proposalcraft](https://github.com/jabbawocky/proposalcraft)** [![GitHub stars](https://img.shields.io/github/stars/jabbawocky/proposalcraft?style=social)](https://github.com/jabbawocky/proposalcraft): Drafts client proposals in your voice from a brief — analyze scope risks, draft using your saved examples as style reference, review before sending, generate a formal Scope of Work, and write non-pushy follow-ups. 11 tools, local-only, no API key."
+        surrounding_text: >-
+          -   **[jabbawocky/proposalcraft](https://github.com/jabbawocky/proposalcraft)** [![GitHub
+          stars](https://img.shields.io/github/stars/jabbawocky/proposalcraft?style=social)](https://github.com/jabbawocky/proposalcraft):
+          Drafts client proposals in your voice from a brief — analyze scope risks, draft using your saved examples as
+          style reference, review before sending, generate a formal Scope of Work, and write non-pushy follow-ups. 11
+          tools, local-only, no API key.
         confidence: high
 metadata:
   github:
@@ -46,8 +56,8 @@ metadata:
     archived: false
     full_name: jabbawocky/proposalcraft
     html_url: https://github.com/jabbawocky/proposalcraft
-    created_at: "2026-06-02T12:32:59Z"
-    pushed_at: "2026-06-22T20:24:59Z"
+    created_at: '2026-06-02T12:32:59Z'
+    pushed_at: '2026-06-22T20:24:59Z'
     description: MCP server for freelancers — draft winning proposals in your voice from a client brief
     homepage: https://jabbawocky.github.io/proposalcraft/
     topics:
@@ -69,13 +79,15 @@ metadata:
       - proposal-generator
       - proposal-writing
       - typescript
-    last_checked_at: "2026-07-30T05:05:46.462Z"
+    last_checked_at: '2026-07-30T05:05:46.462Z'
     readme:
-      fetched_at: "2026-07-30T05:05:46.462Z"
+      fetched_at: '2026-07-30T05:05:46.462Z'
       bytes: 18127
 insights:
   summary: An MCP server that drafts freelance project proposals from client briefs by mimicking the user's professional voice.
-  why_it_matters: It allows developers to leverage their primary coding assistants to automate the time-consuming administrative work of business development.
+  why_it_matters: >-
+    It allows developers to leverage their primary coding assistants to automate the time-consuming administrative work
+    of business development.
   mental_damage: Because clearly, what your terminal was missing was a way to negotiate your hourly rate.
   tags:
     - mcp
@@ -85,31 +97,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server providing specialized domain capabilities (proposal generation) to existing coding assistants.
+  reason: >-
+    The project is explicitly an MCP server providing specialized domain capabilities (proposal generation) to existing
+    coding assistants.
   evidence:
     - Repo description identifies it as an 'MCP server for freelancers'
     - README specifies integration with Claude Code, Cursor, and Windsurf via MCP
     - Offers specific domain-driven tools like 'analyze_brief' and 'draft_proposal' via the protocol
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-17T04:13:23.415Z"
+    updated_at: '2026-09-17T04:13:23.415Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:46.462Z"
+    updated_at: '2026-07-30T05:05:46.462Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-29T05:46:16.294Z"
+    updated_at: '2026-06-29T05:46:16.294Z'
     cause: null
     next_retry_at: null
     attempts: 1

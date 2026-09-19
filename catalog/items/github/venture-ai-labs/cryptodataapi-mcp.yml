@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__venture-ai-labs__cryptodataapi-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: VENTURE-AI-LABS/cryptodataapi-mcp
         extracted_url: https://github.com/venture-ai-labs/cryptodataapi-mcp
-        surrounding_text: "- [VENTURE-AI-LABS/cryptodataapi-mcp](https://github.com/VENTURE-AI-LABS/cryptodataapi-mcp) 📇 ☁️ - Real-time crypto market data for AI agents — market health scores, derivatives, funding rates, ETF flows, cycle indicators, and 100+ endpoints via CryptoDataAPI."
+        surrounding_text: >-
+          - [VENTURE-AI-LABS/cryptodataapi-mcp](https://github.com/VENTURE-AI-LABS/cryptodataapi-mcp) 📇 ☁️ - Real-time
+          crypto market data for AI agents — market health scores, derivatives, funding rates, ETF flows, cycle
+          indicators, and 100+ endpoints via CryptoDataAPI.
         confidence: high
 metadata:
   github:
@@ -30,19 +33,25 @@ metadata:
     archived: false
     full_name: VENTURE-AI-LABS/cryptodataapi-mcp
     html_url: https://github.com/VENTURE-AI-LABS/cryptodataapi-mcp
-    created_at: "2026-02-25T02:36:45Z"
-    pushed_at: "2026-02-25T02:52:13Z"
+    created_at: '2026-02-25T02:36:45Z'
+    pushed_at: '2026-02-25T02:52:13Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:21:02.376Z"
+    last_checked_at: '2026-07-21T15:21:02.376Z'
     readme:
-      fetched_at: "2026-07-21T15:21:02.376Z"
+      fetched_at: '2026-07-21T15:21:02.376Z'
       bytes: 3267
 insights:
-  summary: An MCP server that exposes real-time crypto market data tools—including funding rates, ETF flows, and BTC cycle indicators—to AI agents via the Model Context Protocol.
-  why_it_matters: Gives coding agents programmatic access to financial market intelligence without requiring developers to hand-roll API integrations for every macro indicator or on-chain metric.
-  mental_damage: Because apparently your AI pair programmer now needs to know the BTC Puell Multiple and SOL ETF flows to help you center a div.
+  summary: >-
+    An MCP server that exposes real-time crypto market data tools—including funding rates, ETF flows, and BTC cycle
+    indicators—to AI agents via the Model Context Protocol.
+  why_it_matters: >-
+    Gives coding agents programmatic access to financial market intelligence without requiring developers to hand-roll
+    API integrations for every macro indicator or on-chain metric.
+  mental_damage: >-
+    Because apparently your AI pair programmer now needs to know the BTC Puell Multiple and SOL ETF flows to help you
+    center a div.
   tags:
     - mcp
     - crypto
@@ -52,31 +61,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: This is a concrete MCP server implementation with a clear domain focus (crypto/finance data), fitting squarely in the MCP Servers & Tooling category as domain-specific infrastructure.
+  reason: >-
+    This is a concrete MCP server implementation with a clear domain focus (crypto/finance data), fitting squarely in
+    the MCP Servers & Tooling category as domain-specific infrastructure.
   evidence:
     - Explicitly identified as 'An MCP (Model Context Protocol) server' in the README
     - Listed in awesome-mcp-servers curated directory under Finance & Fintech section
     - Implements 13 specific tools and 1 prompt for crypto market data access, not a generic integration layer
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.654Z"
+    updated_at: '2026-05-06T22:12:15.654Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:02.376Z"
+    updated_at: '2026-07-21T15:21:02.376Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-18T05:30:29.048Z"
+    updated_at: '2026-05-18T05:30:29.048Z'
     cause: null
     next_retry_at: null
     attempts: 3

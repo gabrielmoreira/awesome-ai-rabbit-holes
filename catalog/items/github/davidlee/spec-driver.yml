@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__davidlee__spec-driver__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -19,7 +19,10 @@ provenance:
           - Specification Tools
         anchor_text: spec-driver
         extracted_url: https://github.com/davidlee/spec-driver
-        surrounding_text: "- [spec-driver](https://github.com/davidlee/spec-driver) ![](https://img.shields.io/github/stars/davidlee/spec-driver.svg) - Reimagines specs as evergreen truth systems that emit deltas to conform code to vision."
+        surrounding_text: >-
+          - [spec-driver](https://github.com/davidlee/spec-driver)
+          ![](https://img.shields.io/github/stars/davidlee/spec-driver.svg) - Reimagines specs as evergreen truth
+          systems that emit deltas to conform code to vision.
         confidence: high
 metadata:
   github:
@@ -29,9 +32,11 @@ metadata:
     archived: false
     full_name: davidlee/spec-driver
     html_url: https://github.com/davidlee/spec-driver
-    created_at: "2025-10-09T14:05:34Z"
-    pushed_at: "2026-06-02T09:43:59Z"
-    description: "You install it. Claude drives the CLI tool. At first it might seem like too much. Eventually, nothing less will make sense. "
+    created_at: '2025-10-09T14:05:34Z'
+    pushed_at: '2026-06-02T09:43:59Z'
+    description: >-
+      You install it. Claude drives the CLI tool. At first it might seem like too much. Eventually, nothing less will
+      make sense. 
     homepage: https://davidlee.github.io/spec-driver/
     topics:
       - agentic-ai
@@ -41,13 +46,17 @@ metadata:
       - spec-driven
       - spec-driven-development
       - tui
-    last_checked_at: "2026-09-14T04:13:36.061Z"
+    last_checked_at: '2026-09-14T04:13:36.061Z'
     readme:
-      fetched_at: "2026-09-14T04:13:36.061Z"
+      fetched_at: '2026-09-14T04:13:36.061Z'
       bytes: 9404
 insights:
-  summary: A CLI toolkit for spec-driven development that integrates with coding agents like Claude Code to manage evergreen specifications, workflows, and project documentation.
-  why_it_matters: It shifts development workflows from disposable research to verifiable, maintainable specs, making agentic coding more deterministic and scalable.
+  summary: >-
+    A CLI toolkit for spec-driven development that integrates with coding agents like Claude Code to manage evergreen
+    specifications, workflows, and project documentation.
+  why_it_matters: >-
+    It shifts development workflows from disposable research to verifiable, maintainable specs, making agentic coding
+    more deterministic and scalable.
   mental_damage: Finally, a tool that turns your chaotic agent sessions into something you can audit without crying.
   tags:
     - spec-driven-development
@@ -58,31 +67,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product identity is a spec-first loop for planning, execution, and validation, with specs as the primary artifact driving implementation.
+  reason: >-
+    The core product identity is a spec-first loop for planning, execution, and validation, with specs as the primary
+    artifact driving implementation.
   evidence:
     - README explicitly positions it as a 'specification-driving development toolkit'
     - Designed for 'evergreen specs' and 'spec-driven development with Claude Code & friends'
     - Listed in 'awesome-spec-driven-development' under 'Specification Tools'
 placement:
-  primary_category: spec-driven-development
-  section: Spec-First Environments
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Spec-First & Plan-Execute
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.610Z"
+    updated_at: '2026-05-06T22:12:15.610Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:36.061Z"
+    updated_at: '2026-09-14T04:13:36.061Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:50:07.039Z"
+    updated_at: '2026-07-21T15:50:07.039Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -95,7 +107,9 @@ processing:
       input_hash: sha256:91d0863425900983b5135bb5e91236ab3568d10cf7667ca65861e8f4bab8a8f4
       proposed_primary_category: spec-driven-development
       disagreement: false
-      decision_reason: The core product identity is a spec-first loop for planning, execution, and validation, with specs as the primary artifact driving implementation.
+      decision_reason: >-
+        The core product identity is a spec-first loop for planning, execution, and validation, with specs as the
+        primary artifact driving implementation.
       decision_evidence:
         - README explicitly positions it as a 'specification-driving development toolkit'
         - Designed for 'evergreen specs' and 'spec-driven development with Claude Code & friends'
@@ -103,6 +117,8 @@ processing:
       category_candidates:
         - spec-driven-development
         - ai-dev-extensions
-      contrastive_reason: Choose spec-driven-development over ai-dev-extensions because the primary value is the spec-first workflow and artifact management, not merely augmenting another assistant with host integrations.
+      contrastive_reason: >-
+        Choose spec-driven-development over ai-dev-extensions because the primary value is the spec-first workflow and
+        artifact management, not merely augmenting another assistant with host integrations.
       review_reason: null
       review_resume_lifecycle: null

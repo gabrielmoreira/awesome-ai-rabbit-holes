@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alexbakers__mcp-ipfs__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: alexbakers/mcp-ipfs
         extracted_url: https://github.com/alexbakers/mcp-ipfs
-        surrounding_text: "- [alexbakers/mcp-ipfs](https://github.com/alexbakers/mcp-ipfs) 📇 ☁️ - upload and manipulation of IPFS storage"
+        surrounding_text: >-
+          - [alexbakers/mcp-ipfs](https://github.com/alexbakers/mcp-ipfs) 📇 ☁️ - upload and manipulation of IPFS
+          storage
         confidence: high
 metadata:
   github:
@@ -30,10 +32,10 @@ metadata:
     archived: false
     full_name: alexbakers/mcp-ipfs
     html_url: https://github.com/alexbakers/mcp-ipfs
-    created_at: "2025-04-03T00:22:31Z"
-    pushed_at: "2025-04-10T00:16:33Z"
-    description: "🪐 MCP IPFS Server "
-    homepage: ""
+    created_at: '2025-04-03T00:22:31Z'
+    pushed_at: '2025-04-10T00:16:33Z'
+    description: '🪐 MCP IPFS Server '
+    homepage: ''
     topics:
       - ai
       - decentralized
@@ -44,13 +46,17 @@ metadata:
       - model-context-protocol-servers
       - storage
       - storage-service
-    last_checked_at: "2026-09-17T04:13:39.350Z"
+    last_checked_at: '2026-09-17T04:13:39.350Z'
     readme:
-      fetched_at: "2026-09-17T04:13:39.350Z"
+      fetched_at: '2026-09-17T04:13:39.350Z'
       bytes: 5381
 insights:
-  summary: An MCP server that wraps the w3 CLI to enable language models to interact with storacha.network/IPFS for space, data, and delegation management.
-  why_it_matters: Developers can now delegate IPFS storage operations (upload/download, space management, delegations) to AI agents via MCP without manual CLI intervention.
+  summary: >-
+    An MCP server that wraps the w3 CLI to enable language models to interact with storacha.network/IPFS for space,
+    data, and delegation management.
+  why_it_matters: >-
+    Developers can now delegate IPFS storage operations (upload/download, space management, delegations) to AI agents
+    via MCP without manual CLI intervention.
   mental_damage: Finally, a way to make your AI agent argue with IPFS about missing CAR files instead of you.
   tags:
     - mcp
@@ -61,31 +67,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the product identity here—a server that exposes IPFS/w3 functionality as MCP tools, fitting the MCP Servers & Tooling category.
+  reason: >-
+    MCP is the product identity here—a server that exposes IPFS/w3 functionality as MCP tools, fitting the MCP Servers &
+    Tooling category.
   evidence:
     - Repo description explicitly identifies it as an MCP server
     - README details MCP tool implementations wrapping w3 CLI commands
     - Listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.601Z"
+    updated_at: '2026-05-06T22:12:15.601Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:39.350Z"
+    updated_at: '2026-09-17T04:13:39.350Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:21:58.686Z"
+    updated_at: '2026-07-21T15:21:58.686Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -98,7 +107,9 @@ processing:
       input_hash: sha256:42cd10a005d36c8f060525e0b645b8dddd60b167c746eb43ae9e852ac734fa42
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the product identity here—a server that exposes IPFS/w3 functionality as MCP tools, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        MCP is the product identity here—a server that exposes IPFS/w3 functionality as MCP tools, fitting the MCP
+        Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server
         - README details MCP tool implementations wrapping w3 CLI commands
@@ -106,6 +117,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server exposing IPFS capabilities, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server exposing IPFS capabilities, not an
+        extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

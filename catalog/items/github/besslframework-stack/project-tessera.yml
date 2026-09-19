@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__besslframework-stack__project-tessera__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: besslframework-stack/project-tessera
         extracted_url: https://github.com/besslframework-stack/project-tessera
-        surrounding_text: "- [besslframework-stack/project-tessera](https://github.com/besslframework-stack/project-tessera) [![project-tessera MCP server](https://glama.ai/mcp/servers/@besslframework-stack/project-tessera/badges/score.svg)](https://glama.ai/mcp/servers/@besslframework-stack/project-tessera) 🐍 🏠 🍎 🪟 🐧 - Local workspace memory for Claude Desktop. Indexes your documents (Markdown, CSV, session logs) into a vector store with hybrid search, cross-session memory, auto-learn, and knowledge graph visualization. Zero external dependencies — fastembed + LanceDB, no Ollama or Docker required. 15 MCP tools."
+        surrounding_text: >-
+          - [besslframework-stack/project-tessera](https://github.com/besslframework-stack/project-tessera)
+          [![project-tessera MCP
+          server](https://glama.ai/mcp/servers/@besslframework-stack/project-tessera/badges/score.svg)](https://glama.ai/mcp/servers/@besslframework-stack/project-tessera)
+          🐍 🏠 🍎 🪟 🐧 - Local workspace memory for Claude Desktop. Indexes your documents (Markdown, CSV, session
+          logs) into a vector store with hybrid search, cross-session memory, auto-learn, and knowledge graph
+          visualization. Zero external dependencies — fastembed + LanceDB, no Ollama or Docker required. 15 MCP tools.
         confidence: high
 metadata:
   github:
@@ -30,18 +36,20 @@ metadata:
     archived: false
     full_name: besslframework-stack/project-tessera
     html_url: https://github.com/besslframework-stack/project-tessera
-    created_at: "2026-03-07T12:30:56Z"
-    pushed_at: "2026-03-21T15:43:22Z"
+    created_at: '2026-03-07T12:30:56Z'
+    pushed_at: '2026-03-21T15:43:22Z'
     description: Tessera — Memory layer for every AI. 58 MCP tools, 54 REST endpoints, local-first, AES-256 encrypted.
     homepage: https://tessera-dev.vercel.app
     topics: []
-    last_checked_at: "2026-09-07T04:13:32.960Z"
+    last_checked_at: '2026-09-07T04:13:32.960Z'
     readme:
-      fetched_at: "2026-09-07T04:13:32.960Z"
+      fetched_at: '2026-09-07T04:13:32.960Z'
       bytes: 23825
 insights:
   summary: Tessera is a local-first, encrypted memory layer for AI assistants with 58 MCP tools and 54 REST endpoints.
-  why_it_matters: It gives developers persistent, searchable, and self-maintaining memory for AI workflows without external dependencies or infrastructure.
+  why_it_matters: >-
+    It gives developers persistent, searchable, and self-maintaining memory for AI workflows without external
+    dependencies or infrastructure.
   mental_damage: Finally, a way to remember what your AI forgot five minutes ago—now with 58 ways to lose the encryption key.
   tags:
     - memory
@@ -52,31 +60,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core novelty is a memory and retrieval system for AI workflows, not a primary assistant, extension, or orchestration platform.
+  reason: >-
+    The core novelty is a memory and retrieval system for AI workflows, not a primary assistant, extension, or
+    orchestration platform.
   evidence:
-    - "Repo description: 'Memory layer for every AI. 58 MCP tools, 54 REST endpoints, local-first, AES-256 encrypted.'"
-    - "README: 'Tessera keeps [AI conversation knowledge]... One knowledge base for Claude Desktop, with an HTTP API for scripts and automation.'"
+    - 'Repo description: ''Memory layer for every AI. 58 MCP tools, 54 REST endpoints, local-first, AES-256 encrypted.'''
+    - >-
+      README: 'Tessera keeps [AI conversation knowledge]... One knowledge base for Claude Desktop, with an HTTP API for
+      scripts and automation.'
     - Architecture details emphasize search, ingestion, embedding, and self-maintaining memory as the primary features.
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:32.960Z"
+    updated_at: '2026-09-07T04:13:32.960Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:25:46.353Z"
+    updated_at: '2026-07-21T15:25:46.353Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,14 +102,24 @@ processing:
       input_hash: sha256:510550d44214e691af5aef1ed9a4ff3240957064dc8ad19c4df03db01d003f2c
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: The core novelty is a memory and retrieval system for AI workflows, not a primary assistant, extension, or orchestration platform.
+      decision_reason: >-
+        The core novelty is a memory and retrieval system for AI workflows, not a primary assistant, extension, or
+        orchestration platform.
       decision_evidence:
-        - "Repo description: 'Memory layer for every AI. 58 MCP tools, 54 REST endpoints, local-first, AES-256 encrypted.'"
-        - "README: 'Tessera keeps [AI conversation knowledge]... One knowledge base for Claude Desktop, with an HTTP API for scripts and automation.'"
-        - Architecture details emphasize search, ingestion, embedding, and self-maintaining memory as the primary features.
+        - >-
+          Repo description: 'Memory layer for every AI. 58 MCP tools, 54 REST endpoints, local-first, AES-256
+          encrypted.'
+        - >-
+          README: 'Tessera keeps [AI conversation knowledge]... One knowledge base for Claude Desktop, with an HTTP API
+          for scripts and automation.'
+        - >-
+          Architecture details emphasize search, ingestion, embedding, and self-maintaining memory as the primary
+          features.
       category_candidates:
         - context-engineering
         - mcp
-      contrastive_reason: Choose context-engineering over mcp because the product's primary identity is memory/retrieval infrastructure, not MCP-specific tooling.
+      contrastive_reason: >-
+        Choose context-engineering over mcp because the product's primary identity is memory/retrieval infrastructure,
+        not MCP-specific tooling.
       review_reason: null
       review_resume_lifecycle: null

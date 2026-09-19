@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__0xmariowu__agentlint__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Agent infrastructure
         anchor_text: AgentLint
         extracted_url: https://github.com/0xmariowu/agentlint
-        surrounding_text: "- **[AgentLint](https://github.com/0xmariowu/AgentLint)** `⭐ 23` — 33 evidence-backed checks for AI-friendly repos. Scans file structure, instruction quality, build setup, session continuity, and security posture. Claude Code plugin with auto-fix. Your AI agent is only as good as your repo."
+        surrounding_text: >-
+          - **[AgentLint](https://github.com/0xmariowu/AgentLint)** `⭐ 23` — 33 evidence-backed checks for AI-friendly
+          repos. Scans file structure, instruction quality, build setup, session continuity, and security posture.
+          Claude Code plugin with auto-fix. Your AI agent is only as good as your repo.
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: 0xmariowu/AgentLint
     html_url: https://github.com/0xmariowu/AgentLint
-    created_at: "2026-04-02T16:18:15Z"
-    pushed_at: "2026-07-24T15:54:22Z"
+    created_at: '2026-04-02T16:18:15Z'
+    pushed_at: '2026-07-24T15:54:22Z'
     description: The linter for your agent harness. Works with Claude Code, Codex, and Cursor.
     homepage: https://agentlint.app
     topics:
@@ -55,14 +58,20 @@ metadata:
       - llm-tools
       - prompt-engineering
       - repository-intelligence
-    last_checked_at: "2026-09-17T04:13:24.966Z"
+    last_checked_at: '2026-09-17T04:13:24.966Z'
     readme:
-      fetched_at: "2026-09-17T04:13:24.966Z"
+      fetched_at: '2026-09-17T04:13:24.966Z'
       bytes: 21749
 insights:
-  summary: A linter designed to validate and score the 'harness' (context files like CLAUDE.md and AGENTS.md) used by AI coding agents.
-  why_it_matters: It helps developers ensure that the instructions and context they provide to agents like Claude Code and Cursor are actually effective rather than just adding noise.
-  mental_damage: Because apparently, we've reached the stage where we need to lint the instructions we give to the things that are supposed to be following them.
+  summary: >-
+    A linter designed to validate and score the 'harness' (context files like CLAUDE.md and AGENTS.md) used by AI coding
+    agents.
+  why_it_matters: >-
+    It helps developers ensure that the instructions and context they provide to agents like Claude Code and Cursor are
+    actually effective rather than just adding noise.
+  mental_damage: >-
+    Because apparently, we've reached the stage where we need to lint the instructions we give to the things that are
+    supposed to be following them.
   tags:
     - ai-agent
     - linter
@@ -72,31 +81,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core novelty is a prompt/context-shaping system that scores, lints, and repairs the instruction files and repo constraints that control agent behavior, fitting Prompt & Context Engineering.
+  reason: >-
+    The core novelty is a prompt/context-shaping system that scores, lints, and repairs the instruction files and repo
+    constraints that control agent behavior, fitting Prompt & Context Engineering.
   evidence:
-    - Repo description and README state it is 'the linter for your agent harness' with 51+ checks on CLAUDE.md, AGENTS.md, CI, and .gitignore.
-    - README explicitly frames the product around 'harness engineering' — improving what goes into the model via context files and repo constraints.
-    - Active as of 2026-05-06, with a dedicated site (agentlint.app) and guides on writing good CLAUDE.md and related context files.
+    - >-
+      Repo description and README state it is 'the linter for your agent harness' with 51+ checks on CLAUDE.md,
+      AGENTS.md, CI, and .gitignore.
+    - >-
+      README explicitly frames the product around 'harness engineering' — improving what goes into the model via context
+      files and repo constraints.
+    - >-
+      Active as of 2026-05-06, with a dedicated site (agentlint.app) and guides on writing good CLAUDE.md and related
+      context files.
 placement:
-  primary_category: context-engineering
-  section: null
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: Testing & Code Quality
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'evals'"
+  reason: 'Categorization review required: placement disagreement: retained ''context-engineering'', proposed ''evals'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.598Z"
+    updated_at: '2026-05-06T22:12:15.598Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:24.966Z"
+    updated_at: '2026-09-17T04:13:24.966Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:48:02.490Z"
+    updated_at: '2026-07-20T15:48:02.490Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -109,7 +127,9 @@ processing:
       input_hash: sha256:e143d8f4f9961500488149f52b616983c437f66be9ce63e7b8a3feab943acddf
       proposed_primary_category: evals
       disagreement: true
-      decision_reason: The tool's core function is measuring, scoring, and validating the quality of agent context/harnesses using deterministic and AI-driven checks.
+      decision_reason: >-
+        The tool's core function is measuring, scoring, and validating the quality of agent context/harnesses using
+        deterministic and AI-driven checks.
       decision_evidence:
         - Claims to score harness across 51 deterministic checks and 6 core dimensions
         - Provides a fix plan and re-scoring mechanism based on check results
@@ -117,6 +137,8 @@ processing:
       category_candidates:
         - evals
         - context-engineering
-      contrastive_reason: Choose evals over context-engineering because its primary job is measuring and scoring the quality of the context rather than being the system that manages or retrieves that context.
-      review_reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'evals'"
+      contrastive_reason: >-
+        Choose evals over context-engineering because its primary job is measuring and scoring the quality of the
+        context rather than being the system that manages or retrieves that context.
+      review_reason: 'Categorization review required: placement disagreement: retained ''context-engineering'', proposed ''evals'''
       review_resume_lifecycle: null

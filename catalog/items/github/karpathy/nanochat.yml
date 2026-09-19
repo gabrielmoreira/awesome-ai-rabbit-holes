@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__karpathy__nanochat__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,7 @@ provenance:
           - 课程 Course
         anchor_text: NanoChat
         extracted_url: https://github.com/karpathy/nanochat
-        surrounding_text: "55. [NanoChat](https://github.com/karpathy/nanochat): The best ChatGPT that $100 can buy."
+        surrounding_text: '55. [NanoChat](https://github.com/karpathy/nanochat): The best ChatGPT that $100 can buy.'
         confidence: high
 metadata:
   github:
@@ -29,18 +29,20 @@ metadata:
     archived: false
     full_name: karpathy/nanochat
     html_url: https://github.com/karpathy/nanochat
-    created_at: "2025-10-13T13:46:35Z"
-    pushed_at: "2026-07-04T18:18:25Z"
+    created_at: '2025-10-13T13:46:35Z'
+    pushed_at: '2026-07-04T18:18:25Z'
     description: The best ChatGPT that $100 can buy.
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:05:54.842Z"
+    last_checked_at: '2026-07-30T05:05:54.842Z'
     readme:
-      fetched_at: "2026-07-30T05:05:54.842Z"
+      fetched_at: '2026-07-30T05:05:54.842Z'
       bytes: 16570
 insights:
   summary: A local, lightweight chatbot implementation described as 'The best ChatGPT that $100 can buy.'
-  why_it_matters: Offers developers a cost-effective, self-contained alternative to cloud-based chat assistants for experimentation or local use.
+  why_it_matters: >-
+    Offers developers a cost-effective, self-contained alternative to cloud-based chat assistants for experimentation or
+    local use.
   mental_damage: Now you can argue with your own GPU instead of OpenAI’s servers.
   tags:
     - local-ai
@@ -50,31 +52,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is a local runtime/chatbot implementation, aligning with the Local AI category's focus on self-hosted or on-device execution.
+  reason: >-
+    The project is a local runtime/chatbot implementation, aligning with the Local AI category's focus on self-hosted or
+    on-device execution.
   evidence:
     - Repo description explicitly positions it as a cost-effective ChatGPT alternative ('$100 can buy')
     - High star count (56460) and recent activity (pushed 2026-07-04) indicate traction and maintenance
     - No archived flag; MIT license suggests open-source usability
 placement:
   primary_category: local-ai
-  section: Local Runtimes
+  secondary_categories: []
+  section: Desktop Chat & UIs
 lifecycle:
   status: promotion_candidate
   reason: Stars (53014) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.623Z"
+    updated_at: '2026-05-06T22:12:15.623Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:54.842Z"
+    updated_at: '2026-07-30T05:05:54.842Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:11:57.697Z"
+    updated_at: '2026-07-21T16:11:57.697Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,7 +92,9 @@ processing:
       input_hash: sha256:b4f5074a117336e4a78ba79598ee9f46a0718dd1119d35cf70492810cd531e40
       proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: The project is a local runtime/chatbot implementation, aligning with the Local AI category's focus on self-hosted or on-device execution.
+      decision_reason: >-
+        The project is a local runtime/chatbot implementation, aligning with the Local AI category's focus on
+        self-hosted or on-device execution.
       decision_evidence:
         - Repo description explicitly positions it as a cost-effective ChatGPT alternative ('$100 can buy')
         - High star count (56460) and recent activity (pushed 2026-07-04) indicate traction and maintenance
@@ -95,6 +102,8 @@ processing:
       category_candidates:
         - local-ai
         - ai-frameworks
-      contrastive_reason: Choose local-ai over ai-frameworks because the primary identity is a self-contained chatbot/runtime rather than a code-first SDK or library.
+      contrastive_reason: >-
+        Choose local-ai over ai-frameworks because the primary identity is a self-contained chatbot/runtime rather than
+        a code-first SDK or library.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__forgemeshlabs__imagegen-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-08T05:39:05.247Z"
+      discovered_at: '2026-06-08T05:39:05.247Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: forgemeshlabs/imagegen-mcp
         extracted_url: https://github.com/forgemeshlabs/imagegen-mcp
-        surrounding_text: "- [forgemeshlabs/imagegen-mcp](https://github.com/forgemeshlabs/imagegen-mcp) [![forgemeshlabs/imagegen-mcp MCP server](https://glama.ai/mcp/servers/forgemeshlabs/imagegen-mcp/badges/score.svg)](https://glama.ai/mcp/servers/forgemeshlabs/imagegen-mcp) 📇 ☁️ - AI image generation MCP server with generate, background removal, 4x HD upscale, and full pro pipeline tools. Pay per image in USDC on Base mainnet via x402; no API key or subscription required."
+        surrounding_text: >-
+          - [forgemeshlabs/imagegen-mcp](https://github.com/forgemeshlabs/imagegen-mcp) [![forgemeshlabs/imagegen-mcp
+          MCP
+          server](https://glama.ai/mcp/servers/forgemeshlabs/imagegen-mcp/badges/score.svg)](https://glama.ai/mcp/servers/forgemeshlabs/imagegen-mcp)
+          📇 ☁️ - AI image generation MCP server with generate, background removal, 4x HD upscale, and full pro pipeline
+          tools. Pay per image in USDC on Base mainnet via x402; no API key or subscription required.
         confidence: high
 metadata:
   github:
@@ -30,19 +35,27 @@ metadata:
     archived: false
     full_name: forgemeshlabs/imagegen-mcp
     html_url: https://github.com/forgemeshlabs/imagegen-mcp
-    created_at: "2026-05-18T01:14:48Z"
-    pushed_at: "2026-09-01T18:41:51Z"
-    description: MCP server for AI image generation, background removal, and upscaling with optional x402 USDC payments on Base mainnet.
+    created_at: '2026-05-18T01:14:48Z'
+    pushed_at: '2026-09-01T18:41:51Z'
+    description: >-
+      MCP server for AI image generation, background removal, and upscaling with optional x402 USDC payments on Base
+      mainnet.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:43.056Z"
+    last_checked_at: '2026-09-03T05:16:43.056Z'
     readme:
-      fetched_at: "2026-09-03T05:16:43.056Z"
+      fetched_at: '2026-09-03T05:16:43.056Z'
       bytes: 3207
 insights:
-  summary: An MCP server that enables AI assistants to generate images with varying levels of processing, including background removal and 4K upscaling, paid for via USDC on the Base network.
-  why_it_matters: It allows developers to integrate high-fidelity asset generation directly into their agentic workflows using a programmable, pay-as-you-go payment model (x402) instead of managing multiple SaaS subscriptions.
-  mental_damage: The future of development is now an AI agent autonomously spending your USDC on the Base network to generate a 4K image of a red panda in a spacesuit.
+  summary: >-
+    An MCP server that enables AI assistants to generate images with varying levels of processing, including background
+    removal and 4K upscaling, paid for via USDC on the Base network.
+  why_it_matters: >-
+    It allows developers to integrate high-fidelity asset generation directly into their agentic workflows using a
+    programmable, pay-as-you-go payment model (x402) instead of managing multiple SaaS subscriptions.
+  mental_damage: >-
+    The future of development is now an AI agent autonomously spending your USDC on the Base network to generate a 4K
+    image of a red panda in a spacesuit.
   tags:
     - mcp
     - image-generation
@@ -55,28 +68,29 @@ curation:
   reason: The product's entire identity is as an MCP server that provides image generation capabilities to an AI host.
   evidence:
     - Repo identity is 'forgemesh-imagegen' an MCP server
-    - "Provides specific MCP tools: generate_image, generate_clean, generate_hd, generate_pro"
+    - 'Provides specific MCP tools: generate_image, generate_clean, generate_hd, generate_pro'
     - Integrates via claude_desktop_config.json and claude code mcp add
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-08T05:39:05.248Z"
+    updated_at: '2026-06-08T05:39:05.248Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:43.056Z"
+    updated_at: '2026-09-03T05:16:43.056Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-08T05:42:57.823Z"
+    updated_at: '2026-06-08T05:42:57.823Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

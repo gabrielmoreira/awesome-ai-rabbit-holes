@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cipherfoxie__sovereign-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: cipherfoxie/sovereign-mcp
         extracted_url: https://github.com/cipherfoxie/sovereign-mcp
-        surrounding_text: "- [cipherfoxie/sovereign-mcp](https://github.com/cipherfoxie/sovereign-mcp) [![cipherfoxie/sovereign-mcp MCP server](https://glama.ai/mcp/servers/cipherfoxie/sovereign-mcp/badges/score.svg)](https://glama.ai/mcp/servers/cipherfoxie/sovereign-mcp) 🐍 ☁️ 🐧 - MCP for the [Sovereign AI Blog](https://sovgrid.org), a hands-on engineering log of self-hosted AI on NVIDIA DGX Spark (GB10/SM121A). 44+ articles covering SGLang, Mistral, Voxtral, OpenClaw. Three tools: full-text search, article retrieval, and SGLang config validator for GB10 hardware. Free, no auth, no client-side tracking. `https://mcp.sovgrid.org/self-hosted-ai?ref=awesome-mcp`"
+        surrounding_text: >-
+          - [cipherfoxie/sovereign-mcp](https://github.com/cipherfoxie/sovereign-mcp) [![cipherfoxie/sovereign-mcp MCP
+          server](https://glama.ai/mcp/servers/cipherfoxie/sovereign-mcp/badges/score.svg)](https://glama.ai/mcp/servers/cipherfoxie/sovereign-mcp)
+          🐍 ☁️ 🐧 - MCP for the [Sovereign AI Blog](https://sovgrid.org), a hands-on engineering log of self-hosted AI
+          on NVIDIA DGX Spark (GB10/SM121A). 44+ articles covering SGLang, Mistral, Voxtral, OpenClaw. Three tools:
+          full-text search, article retrieval, and SGLang config validator for GB10 hardware. Free, no auth, no
+          client-side tracking. `https://mcp.sovgrid.org/self-hosted-ai?ref=awesome-mcp`
         confidence: high
 metadata:
   github:
@@ -30,9 +36,9 @@ metadata:
     archived: false
     full_name: cipherfoxie/sovereign-mcp
     html_url: https://github.com/cipherfoxie/sovereign-mcp
-    created_at: "2026-04-30T11:02:31Z"
-    pushed_at: "2026-07-20T16:03:35Z"
-    description: "MCP server for the Sovereign AI Blog: Search, retrieve, and diagnose tools for self-hosted AI on NVIDIA DGX Spark."
+    created_at: '2026-04-30T11:02:31Z'
+    pushed_at: '2026-07-20T16:03:35Z'
+    description: 'MCP server for the Sovereign AI Blog: Search, retrieve, and diagnose tools for self-hosted AI on NVIDIA DGX Spark.'
     homepage: https://sovgrid.org/blog/setup-sovereign-mcp-setup/
     topics:
       - ai-agents
@@ -45,13 +51,15 @@ metadata:
       - self-hosted
       - sglang
       - streamable-http
-    last_checked_at: "2026-09-07T04:13:45.576Z"
+    last_checked_at: '2026-09-07T04:13:45.576Z'
     readme:
-      fetched_at: "2026-09-07T04:13:45.576Z"
+      fetched_at: '2026-09-07T04:13:45.576Z'
       bytes: 5899
 insights:
   summary: MCP server exposing the Sovereign AI Blog for agent access to self-hosted AI documentation on NVIDIA DGX Spark.
-  why_it_matters: Gives coding agents direct, structured access to niche hardware setup docs (GB10/SM121A, SGLang on ARM64) to reduce hallucinations in specialized environments.
+  why_it_matters: >-
+    Gives coding agents direct, structured access to niche hardware setup docs (GB10/SM121A, SGLang on ARM64) to reduce
+    hallucinations in specialized environments.
   mental_damage: Finally, a way for your AI to stop guessing about your obscure GPU stack and just read the manual.
   tags:
     - mcp-server
@@ -62,31 +70,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific tooling for AI agents."
+  reason: 'MCP is the product identity: this is a dedicated MCP server providing domain-specific tooling for AI agents.'
   evidence:
     - Repo description explicitly identifies it as an MCP server
     - README details MCP tools, transport (Streamable HTTP), and client integration
     - Listed in MCP Registry (badges in README)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.607Z"
+    updated_at: '2026-05-06T22:12:15.607Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:45.576Z"
+    updated_at: '2026-09-07T04:13:45.576Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:41:48.953Z"
+    updated_at: '2026-07-21T15:41:48.953Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -99,7 +108,7 @@ processing:
       input_hash: sha256:e3d3d5b721e69bf19e2ba869801fa563c0e6a7af9a711db3a148b1da82acf996
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific tooling for AI agents."
+      decision_reason: 'MCP is the product identity: this is a dedicated MCP server providing domain-specific tooling for AI agents.'
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server
         - README details MCP tools, transport (Streamable HTTP), and client integration
@@ -107,6 +116,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the core product is an MCP server, not a general retrieval/memory system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the core product is an MCP server, not a general retrieval/memory
+        system.
       review_reason: null
       review_resume_lifecycle: null

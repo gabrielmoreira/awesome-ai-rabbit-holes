@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__markpdxt__dronelytics-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🗺️ <a name="location-services"></a>Location Services
         anchor_text: markpdxt/dronelytics-mcp
         extracted_url: https://github.com/markpdxt/dronelytics-mcp
-        surrounding_text: "- [markpdxt/dronelytics-mcp](https://github.com/markpdxt/dronelytics-mcp) [![markpdxt/dronelytics-mcp MCP server](https://glama.ai/mcp/servers/markpdxt/dronelytics-mcp/badges/score.svg)](https://glama.ai/mcp/servers/markpdxt/dronelytics-mcp) 📇 ☁️ - US drone airspace intelligence and mission planning. 24 tools: check airspace restrictions across 11 FAA data layers, plan grid/orbit/corridor surveys, validate Part 107 compliance, generate pre-flight briefings, and export to KML/GPX/QGC/Litchi/WPML. Available via `npx @dronelytics/mcp`."
+        surrounding_text: >-
+          - [markpdxt/dronelytics-mcp](https://github.com/markpdxt/dronelytics-mcp) [![markpdxt/dronelytics-mcp MCP
+          server](https://glama.ai/mcp/servers/markpdxt/dronelytics-mcp/badges/score.svg)](https://glama.ai/mcp/servers/markpdxt/dronelytics-mcp)
+          📇 ☁️ - US drone airspace intelligence and mission planning. 24 tools: check airspace restrictions across 11
+          FAA data layers, plan grid/orbit/corridor surveys, validate Part 107 compliance, generate pre-flight
+          briefings, and export to KML/GPX/QGC/Litchi/WPML. Available via `npx @dronelytics/mcp`.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: markpdxt/dronelytics-mcp
     html_url: https://github.com/markpdxt/dronelytics-mcp
-    created_at: "2026-04-18T19:17:41Z"
-    pushed_at: "2026-04-23T18:33:51Z"
-    description: MCP server for US drone airspace intelligence and mission planning — 24 tools for airspace queries, mission generation, Part 107 compliance, and flight plan export
+    created_at: '2026-04-18T19:17:41Z'
+    pushed_at: '2026-04-23T18:33:51Z'
+    description: >-
+      MCP server for US drone airspace intelligence and mission planning — 24 tools for airspace queries, mission
+      generation, Part 107 compliance, and flight plan export
     homepage: null
     topics:
       - airspace
@@ -42,14 +49,20 @@ metadata:
       - mcp-server
       - mission-planning
       - part107
-    last_checked_at: "2026-08-03T05:16:56.709Z"
+    last_checked_at: '2026-08-03T05:16:56.709Z'
     readme:
-      fetched_at: "2026-08-03T05:16:56.709Z"
+      fetched_at: '2026-08-03T05:16:56.709Z'
       bytes: 4916
 insights:
-  summary: MCP server for US drone airspace intelligence and mission planning with 24 tools for flight validation, mission generation, and airspace queries.
-  why_it_matters: Enables AI assistants to access real-time FAA drone data and planning capabilities, letting developers build aviation-aware tools without implementing airspace logic themselves.
-  mental_damage: Finally, an excuse to let your AI copilot pretend it's a certified drone pilot while you worry about liability waivers.
+  summary: >-
+    MCP server for US drone airspace intelligence and mission planning with 24 tools for flight validation, mission
+    generation, and airspace queries.
+  why_it_matters: >-
+    Enables AI assistants to access real-time FAA drone data and planning capabilities, letting developers build
+    aviation-aware tools without implementing airspace logic themselves.
+  mental_damage: >-
+    Finally, an excuse to let your AI copilot pretend it's a certified drone pilot while you worry about liability
+    waivers.
   tags:
     - mcp
     - drone
@@ -59,31 +72,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server providing domain-specific drone airspace and mission planning tools, making MCP its core identity rather than a compatibility feature.
+  reason: >-
+    The product is an MCP server providing domain-specific drone airspace and mission planning tools, making MCP its
+    core identity rather than a compatibility feature.
   evidence:
-    - "Repo description: 'MCP server for US drone airspace intelligence and mission planning — 24 tools for airspace queries, mission generation, Part 107 compliance, and flight plan export'"
-    - "README: 'MCP (Model Context Protocol) server for the Dronelytics drone mission planning platform' and details 24 MCP tools organized by function"
+    - >-
+      Repo description: 'MCP server for US drone airspace intelligence and mission planning — 24 tools for airspace
+      queries, mission generation, Part 107 compliance, and flight plan export'
+    - >-
+      README: 'MCP (Model Context Protocol) server for the Dronelytics drone mission planning platform' and details 24
+      MCP tools organized by function
     - Setup instructions show MCP client configuration for Claude Desktop, Claude Code, Cursor, and Windsurf via npx
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.628Z"
+    updated_at: '2026-05-06T22:12:15.628Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:56.709Z"
+    updated_at: '2026-08-03T05:16:56.709Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:18:33.830Z"
+    updated_at: '2026-07-21T16:18:33.830Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,14 +116,22 @@ processing:
       input_hash: sha256:14ee02b1af87c9f1094643f1a72ba1f89de1bb2d49e0cf7568f7189f5d221f7b
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server providing domain-specific drone airspace and mission planning tools, making MCP its core identity rather than a compatibility feature.
+      decision_reason: >-
+        The product is an MCP server providing domain-specific drone airspace and mission planning tools, making MCP its
+        core identity rather than a compatibility feature.
       decision_evidence:
-        - "Repo description: 'MCP server for US drone airspace intelligence and mission planning — 24 tools for airspace queries, mission generation, Part 107 compliance, and flight plan export'"
-        - "README: 'MCP (Model Context Protocol) server for the Dronelytics drone mission planning platform' and details 24 MCP tools organized by function"
+        - >-
+          Repo description: 'MCP server for US drone airspace intelligence and mission planning — 24 tools for airspace
+          queries, mission generation, Part 107 compliance, and flight plan export'
+        - >-
+          README: 'MCP (Model Context Protocol) server for the Dronelytics drone mission planning platform' and details
+          24 MCP tools organized by function
         - Setup instructions show MCP client configuration for Claude Desktop, Claude Code, Cursor, and Windsurf via npx
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server providing drone-specific tools via the Model Context Protocol, not an extension that augments another assistant with host capabilities.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server providing drone-specific tools via the
+        Model Context Protocol, not an extension that augments another assistant with host capabilities.
       review_reason: null
       review_resume_lifecycle: null

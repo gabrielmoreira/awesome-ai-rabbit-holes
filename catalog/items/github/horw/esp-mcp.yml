@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__horw__esp-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 📟 <a name="embedded-system"></a>Embedded System
         anchor_text: horw/esp-mcp
         extracted_url: https://github.com/horw/esp-mcp
-        surrounding_text: "- [horw/esp-mcp](https://github.com/horw/esp-mcp) 📟 - Workflow for fixing build issues in ESP32 series chips using ESP-IDF."
+        surrounding_text: >-
+          - [horw/esp-mcp](https://github.com/horw/esp-mcp) 📟 - Workflow for fixing build issues in ESP32 series chips
+          using ESP-IDF.
         confidence: high
 metadata:
   github:
@@ -30,22 +32,24 @@ metadata:
     archived: false
     full_name: horw/esp-mcp
     html_url: https://github.com/horw/esp-mcp
-    created_at: "2025-03-24T04:07:19Z"
-    pushed_at: "2025-12-27T01:32:27Z"
+    created_at: '2025-03-24T04:07:19Z'
+    pushed_at: '2025-12-27T01:32:27Z'
     description: Centralize ESP32 related commands and simplify getting started with seamless, LLM-driven interaction and help.
-    homepage: ""
+    homepage: ''
     topics:
       - esp-idf
       - esp32
       - mcp
       - mcp-server
-    last_checked_at: "2026-07-30T05:05:38.650Z"
+    last_checked_at: '2026-07-30T05:05:38.650Z'
     readme:
-      fetched_at: "2026-07-30T05:05:38.650Z"
+      fetched_at: '2026-07-30T05:05:38.650Z'
       bytes: 5962
 insights:
   summary: An MCP server that centralizes ESP32/ESP-IDF commands for LLM-driven embedded development workflows.
-  why_it_matters: It lets developers control ESP32 toolchains (install, build, flash, test) via natural language through any MCP-compatible assistant.
+  why_it_matters: >-
+    It lets developers control ESP32 toolchains (install, build, flash, test) via natural language through any
+    MCP-compatible assistant.
   mental_damage: Now your LLM can argue with your microcontroller about why the firmware still won’t flash.
   tags:
     - mcp-server
@@ -56,31 +60,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a domain-specific MCP server for ESP-IDF workflows, not a generic extension or assistant."
+  reason: >-
+    MCP is the product identity: this is a domain-specific MCP server for ESP-IDF workflows, not a generic extension or
+    assistant.
   evidence:
     - Repo description explicitly states it is an MCP server for ESP32/ESP-IDF commands
     - README details MCP tool definitions and configuration for MCP-compatible clients
     - Listed in awesome-mcp-servers under Embedded System servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (151) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.619Z"
+    updated_at: '2026-05-06T22:12:15.619Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:38.650Z"
+    updated_at: '2026-07-30T05:05:38.650Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:06:17.411Z"
+    updated_at: '2026-07-21T16:06:17.411Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -93,7 +100,9 @@ processing:
       input_hash: sha256:2a2a5f00ef6894317ad84583ebebab26907f5f84c9a58598d5e71b13aae18a23
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a domain-specific MCP server for ESP-IDF workflows, not a generic extension or assistant."
+      decision_reason: >-
+        MCP is the product identity: this is a domain-specific MCP server for ESP-IDF workflows, not a generic extension
+        or assistant.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for ESP32/ESP-IDF commands
         - README details MCP tool definitions and configuration for MCP-compatible clients
@@ -101,6 +110,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (domain-specific tooling for ESP-IDF) rather than an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server (domain-specific tooling for
+        ESP-IDF) rather than an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

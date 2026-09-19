@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__klever-io__mcp-klever-vm__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: klever-io/mcp-klever-vm
         extracted_url: https://github.com/klever-io/mcp-klever-vm
-        surrounding_text: "- [klever-io/mcp-klever-vm](https://github.com/klever-io/mcp-klever-vm) 🎖️ 📇 ☁️ - Klever blockchain MCP server for smart contract development, on-chain data exploration, account and asset queries, transaction analysis, and contract deployment tooling."
+        surrounding_text: >-
+          - [klever-io/mcp-klever-vm](https://github.com/klever-io/mcp-klever-vm) 🎖️ 📇 ☁️ - Klever blockchain MCP
+          server for smart contract development, on-chain data exploration, account and asset queries, transaction
+          analysis, and contract deployment tooling.
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: klever-io/mcp-klever-vm
     html_url: https://github.com/klever-io/mcp-klever-vm
-    created_at: "2025-06-12T15:51:49Z"
-    pushed_at: "2026-05-19T13:34:32Z"
+    created_at: '2025-06-12T15:51:49Z'
+    pushed_at: '2026-05-19T13:34:32Z'
     description: MCP server for Klever blockchain smart contract development
     homepage: null
     topics:
@@ -41,13 +44,15 @@ metadata:
       - mcp-server
       - model-context-protocol
       - smart-contracts
-    last_checked_at: "2026-07-30T05:05:57.432Z"
+    last_checked_at: '2026-07-30T05:05:57.432Z'
     readme:
-      fetched_at: "2026-07-30T05:05:57.432Z"
+      fetched_at: '2026-07-30T05:05:57.432Z'
       bytes: 18003
 insights:
   summary: An MCP server providing contextual knowledge and tooling for Klever blockchain smart contract development.
-  why_it_matters: It gives developers working with the Klever VM SDK access to domain-specific patterns, best practices, and runtime context directly through MCP-enabled assistants.
+  why_it_matters: >-
+    It gives developers working with the Klever VM SDK access to domain-specific patterns, best practices, and runtime
+    context directly through MCP-enabled assistants.
   mental_damage: Now your AI assistant can argue with you about gas optimization in Klever contracts instead of just guessing.
   tags:
     - mcp-server
@@ -58,31 +63,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: it is a dedicated MCP server for Klever blockchain development, not merely an adapter or compatibility feature."
+  reason: >-
+    MCP is the product identity here: it is a dedicated MCP server for Klever blockchain development, not merely an
+    adapter or compatibility feature.
   evidence:
     - Repo description explicitly states it is an MCP server for Klever blockchain smart contract development
     - README details MCP protocol server implementation, client integration guides, and MCP-specific deployment modes
     - Topics include 'mcp', 'mcp-server', and 'model-context-protocol'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.624Z"
+    updated_at: '2026-05-06T22:12:15.624Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:57.432Z"
+    updated_at: '2026-07-30T05:05:57.432Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:12:46.829Z"
+    updated_at: '2026-07-21T16:12:46.829Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -95,14 +103,20 @@ processing:
       input_hash: sha256:ca17b2c7dba8ebffc4335022b9040f4456e7a1b4e90919e6aacacc8feffc3229
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: it is a dedicated MCP server for Klever blockchain development, not merely an adapter or compatibility feature."
+      decision_reason: >-
+        MCP is the product identity here: it is a dedicated MCP server for Klever blockchain development, not merely an
+        adapter or compatibility feature.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Klever blockchain smart contract development
-        - README details MCP protocol server implementation, client integration guides, and MCP-specific deployment modes
+        - >-
+          README details MCP protocol server implementation, client integration guides, and MCP-specific deployment
+          modes
         - Topics include 'mcp', 'mcp-server', and 'model-context-protocol'
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product is explicitly an MCP server with protocol-level identity, not just a context retrieval system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the product is explicitly an MCP server with protocol-level
+        identity, not just a context retrieval system.
       review_reason: null
       review_resume_lifecycle: null

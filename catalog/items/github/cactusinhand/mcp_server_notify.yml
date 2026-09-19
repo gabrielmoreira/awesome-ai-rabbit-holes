@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cactusinhand__mcp_server_notify__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: Cactusinhand/mcp_server_notify
         extracted_url: https://github.com/cactusinhand/mcp_server_notify
-        surrounding_text: "- [Cactusinhand/mcp_server_notify](https://github.com/Cactusinhand/mcp_server_notify) 🐍 🏠 - A MCP server that send desktop notifications with sound effect when agent tasks are completed."
+        surrounding_text: >-
+          - [Cactusinhand/mcp_server_notify](https://github.com/Cactusinhand/mcp_server_notify) 🐍 🏠 - A MCP server
+          that send desktop notifications with sound effect when agent tasks are completed.
         confidence: high
 metadata:
   github:
@@ -30,21 +32,23 @@ metadata:
     archived: false
     full_name: Cactusinhand/mcp_server_notify
     html_url: https://github.com/Cactusinhand/mcp_server_notify
-    created_at: "2025-03-16T04:16:19Z"
-    pushed_at: "2025-08-18T12:43:16Z"
+    created_at: '2025-03-16T04:16:19Z'
+    pushed_at: '2025-08-18T12:43:16Z'
     description: Send system notification when Agent task is done.
-    homepage: ""
+    homepage: ''
     topics:
       - mcp
       - mcp-server
       - notification
-    last_checked_at: "2026-09-07T04:13:40.362Z"
+    last_checked_at: '2026-09-07T04:13:40.362Z'
     readme:
-      fetched_at: "2026-09-07T04:13:40.362Z"
+      fetched_at: '2026-09-07T04:13:40.362Z'
       bytes: 5215
 insights:
   summary: An MCP server that sends desktop notifications with sound when agent tasks complete.
-  why_it_matters: Developers using MCP-compatible assistants can get audible and visual alerts when long-running tasks finish, reducing context-switching overhead.
+  why_it_matters: >-
+    Developers using MCP-compatible assistants can get audible and visual alerts when long-running tasks finish,
+    reducing context-switching overhead.
   mental_damage: Now your AI can nag you with system notifications instead of just silently judging your code.
   tags:
     - mcp
@@ -54,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the product identity here—a server implementing the Model Context Protocol to provide notification capabilities.
+  reason: >-
+    MCP is the product identity here—a server implementing the Model Context Protocol to provide notification
+    capabilities.
   evidence:
     - Repo description explicitly states it is an MCP server for notifications
     - README details MCP protocol integration with Claude Desktop, Cursor, and VSCode Copilot
     - Listed in awesome-mcp-servers under Communication section
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.606Z"
+    updated_at: '2026-05-06T22:12:15.606Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:40.362Z"
+    updated_at: '2026-09-07T04:13:40.362Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:40:23.001Z"
+    updated_at: '2026-07-21T15:40:23.001Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -91,7 +98,9 @@ processing:
       input_hash: sha256:2b1c28167627bfb6e45f16c8d10200b8d6ca3e94bcd02b192c4eaa6d75ae3cf5
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the product identity here—a server implementing the Model Context Protocol to provide notification capabilities.
+      decision_reason: >-
+        MCP is the product identity here—a server implementing the Model Context Protocol to provide notification
+        capabilities.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for notifications
         - README details MCP protocol integration with Claude Desktop, Cursor, and VSCode Copilot
@@ -99,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (protocol infrastructure) rather than a host-specific extension.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server (protocol infrastructure) rather
+        than a host-specific extension.
       review_reason: null
       review_resume_lifecycle: null

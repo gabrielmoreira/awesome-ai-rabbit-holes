@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aadilr__changethisfile-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📂 <a name="file-systems"></a>File Systems
         anchor_text: aadilr/changethisfile-mcp
         extracted_url: https://github.com/aadilr/changethisfile-mcp
-        surrounding_text: "- [aadilr/changethisfile-mcp](https://github.com/aadilr/changethisfile-mcp) [![aadilr/changethisfile-mcp MCP server](https://glama.ai/mcp/servers/aadilr/changethisfile-mcp/badges/score.svg)](https://glama.ai/mcp/servers/aadilr/changethisfile-mcp) 📇 ☁️ - Free file conversion between 690+ formats. Tools: `convert_file` (URL or base64 in → signed download URL out) and `list_conversions`. Covers image, video, audio, document, data, font, ebook, and archive formats. No auth or signup required; remote streamable-HTTP endpoint available (see README)."
+        surrounding_text: >-
+          - [aadilr/changethisfile-mcp](https://github.com/aadilr/changethisfile-mcp) [![aadilr/changethisfile-mcp MCP
+          server](https://glama.ai/mcp/servers/aadilr/changethisfile-mcp/badges/score.svg)](https://glama.ai/mcp/servers/aadilr/changethisfile-mcp)
+          📇 ☁️ - Free file conversion between 690+ formats. Tools: `convert_file` (URL or base64 in → signed download
+          URL out) and `list_conversions`. Covers image, video, audio, document, data, font, ebook, and archive formats.
+          No auth or signup required; remote streamable-HTTP endpoint available (see README).
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: aadilr/changethisfile-mcp
     html_url: https://github.com/aadilr/changethisfile-mcp
-    created_at: "2026-06-10T22:01:26Z"
-    pushed_at: "2026-08-24T23:34:22Z"
-    description: MCP server for ChangeThisFile — free file conversion between 690+ formats (image, video, audio, document, data, font, ebook, archive). No auth required.
+    created_at: '2026-06-10T22:01:26Z'
+    pushed_at: '2026-08-24T23:34:22Z'
+    description: >-
+      MCP server for ChangeThisFile — free file conversion between 690+ formats (image, video, audio, document, data,
+      font, ebook, archive). No auth required.
     homepage: https://changethisfile.com
     topics:
       - converter
@@ -40,14 +47,18 @@ metadata:
       - mcp
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-09-17T04:13:27.423Z"
+    last_checked_at: '2026-09-17T04:13:27.423Z'
     readme:
-      fetched_at: "2026-09-17T04:13:27.423Z"
+      fetched_at: '2026-09-17T04:13:27.423Z'
       bytes: 5771
 insights:
   summary: An MCP server for ChangeThisFile that enables AI assistants to perform file conversions between 690+ formats.
-  why_it_matters: It gives coding agents the ability to handle non-text file transformations (like PDF to Markdown or SVG to PNG) directly within their workflow without leaving the chat interface.
-  mental_damage: We've finally reached the peak of productivity where I can ask my AI to convert a .docx to a .json while I stare at a loading spinner and wonder if I should have just learned a regex.
+  why_it_matters: >-
+    It gives coding agents the ability to handle non-text file transformations (like PDF to Markdown or SVG to PNG)
+    directly within their workflow without leaving the chat interface.
+  mental_damage: >-
+    We've finally reached the peak of productivity where I can ask my AI to convert a .docx to a .json while I stare at
+    a loading spinner and wonder if I should have just learned a regex.
   tags:
     - mcp
     - file-conversion
@@ -56,31 +67,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is a specialized MCP server providing a specific capability (file conversion) to any MCP-compliant client.
+  reason: >-
+    The project's primary identity is a specialized MCP server providing a specific capability (file conversion) to any
+    MCP-compliant client.
   evidence:
     - Repo description explicitly identifies as an 'MCP server for ChangeThisFile'
     - README provides standard MCP configuration for streamable-http and stdio transports
     - Included in awesome-mcp-servers under File Systems
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-15T05:51:04.988Z"
+    updated_at: '2026-06-15T05:51:04.988Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:27.423Z"
+    updated_at: '2026-09-17T04:13:27.423Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-15T05:52:52.716Z"
+    updated_at: '2026-06-15T05:52:52.716Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

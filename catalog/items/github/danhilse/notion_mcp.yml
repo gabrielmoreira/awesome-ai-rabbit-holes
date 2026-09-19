@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__danhilse__notion_mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Notion
         extracted_url: https://github.com/danhilse/notion_mcp
-        surrounding_text: "- **[Notion](https://github.com/danhilse/notion_mcp)** - Integrates with Notion's API to manage personal todo list"
+        surrounding_text: >-
+          - **[Notion](https://github.com/danhilse/notion_mcp)** - Integrates with Notion's API to manage personal todo
+          list
         confidence: high
 metadata:
   github:
@@ -29,21 +31,23 @@ metadata:
     archived: false
     full_name: danhilse/notion_mcp
     html_url: https://github.com/danhilse/notion_mcp
-    created_at: "2024-11-30T03:28:34Z"
-    pushed_at: "2024-12-18T17:39:00Z"
+    created_at: '2024-11-30T03:28:34Z'
+    pushed_at: '2024-12-18T17:39:00Z'
     description: A simple MCP integration that allows Claude to read and manage a personal Notion todo list
     homepage: https://www.danhilse.com
     topics:
       - claude
       - mcp-servers
       - notion
-    last_checked_at: "2026-09-14T04:13:33.854Z"
+    last_checked_at: '2026-09-14T04:13:33.854Z'
     readme:
-      fetched_at: "2026-09-14T04:13:33.854Z"
+      fetched_at: '2026-09-14T04:13:33.854Z'
       bytes: 3894
 insights:
   summary: An MCP server that enables Claude to read and manage a personal Notion todo list.
-  why_it_matters: Developers can integrate their Notion task management directly into their Claude workflow without leaving the assistant context.
+  why_it_matters: >-
+    Developers can integrate their Notion task management directly into their Claude workflow without leaving the
+    assistant context.
   mental_damage: Now your AI can judge you for procrastinating on 'later' tasks in Notion.
   tags:
     - mcp
@@ -61,24 +65,25 @@ curation:
     - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: promotion_candidate
   reason: Stars (206) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.609Z"
+    updated_at: '2026-05-06T22:12:15.609Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:33.854Z"
+    updated_at: '2026-09-14T04:13:33.854Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:49:32.557Z"
+    updated_at: '2026-07-21T15:49:32.557Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -91,7 +96,9 @@ processing:
       input_hash: sha256:d71d3b9084e6a09ba309f0bf72afe5ae3f1afb8d6c1917975302a9ff096774ea
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first integration where the product identity is the MCP server itself, not a compatibility footnote.
+      decision_reason: >-
+        This is an MCP-first integration where the product identity is the MCP server itself, not a compatibility
+        footnote.
       decision_evidence:
         - Repo description explicitly states it is an MCP integration for Notion
         - README confirms it is a Model Context Protocol server for Notion API
@@ -99,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is the MCP server itself, not an extension layer for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is the MCP server itself, not an extension layer for
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

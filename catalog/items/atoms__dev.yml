@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__atoms__dev__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered development platform that uses a multi-agent team to research, plan, build, and deploy full-stack web applications.
-  why_it_matters: It enables rapid prototyping and deployment by handling the entire lifecycle from idea validation to hosting via autonomous agents like engineers and product managers.
-  mental_damage: The ultimate destination for the 'vibe coding' workflow where you spend more time managing AI employees than actually writing logic.
+  summary: >-
+    An AI-powered development platform that uses a multi-agent team to research, plan, build, and deploy full-stack web
+    applications.
+  why_it_matters: >-
+    It enables rapid prototyping and deployment by handling the entire lifecycle from idea validation to hosting via
+    autonomous agents like engineers and product managers.
+  mental_damage: >-
+    The ultimate destination for the 'vibe coding' workflow where you spend more time managing AI employees than
+    actually writing logic.
   tags:
     - app-builder
     - multi-agent
@@ -48,24 +54,29 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core value is generating and deploying complete, usable web applications from natural language prompts.
+  reason: >-
+    The product's core value is generating and deploying complete, usable web applications from natural language
+    prompts.
   evidence:
     - README claims it turns ideas into products in minutes 'without coding'
     - Offers full-stack capabilities including hosting, Stripe payments, and database management
     - Features specialized agents like 'Alex (Engineer)' and 'Bob (Architect)' to build products from scratch
 placement:
   primary_category: app-builders
-  section: Prompt-to-App Builders
+  secondary_categories: []
+  section: Full App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -73,7 +84,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:23:50.072Z"
+    updated_at: '2026-07-20T15:23:50.072Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -86,7 +97,9 @@ processing:
       input_hash: sha256:458a9bb70bfc82e41a07ca2691ec5d46f5a16e088a79e4679fa746274426c0d5
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The product's core value is generating and deploying complete, usable web applications from natural language prompts.
+      decision_reason: >-
+        The product's core value is generating and deploying complete, usable web applications from natural language
+        prompts.
       decision_evidence:
         - README claims it turns ideas into products in minutes 'without coding'
         - Offers full-stack capabilities including hosting, Stripe payments, and database management
@@ -94,6 +107,8 @@ processing:
       category_candidates:
         - app-builders
         - agent-orchestration
-      contrastive_reason: Choose app-builders over agent-orchestration because the primary output is a deployed, functional application rather than a general-purpose multi-agent coordination workbench.
+      contrastive_reason: >-
+        Choose app-builders over agent-orchestration because the primary output is a deployed, functional application
+        rather than a general-purpose multi-agent coordination workbench.
       review_reason: null
       review_resume_lifecycle: null

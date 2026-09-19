@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__rishijatia__fantasy-pl-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: rishijatia/fantasy-pl-mcp
         extracted_url: https://github.com/rishijatia/fantasy-pl-mcp
-        surrounding_text: "- [rishijatia/fantasy-pl-mcp](https://github.com/rishijatia/fantasy-pl-mcp/) 🐍 ☁️ - An MCP server for real-time Fantasy Premier League data and analysis tools."
+        surrounding_text: >-
+          - [rishijatia/fantasy-pl-mcp](https://github.com/rishijatia/fantasy-pl-mcp/) 🐍 ☁️ - An MCP server for
+          real-time Fantasy Premier League data and analysis tools.
         confidence: high
     - id: discovery__github__rishijatia__fantasy-pl-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - 🎮 Gaming
         anchor_text: rishijatia/fantasy-pl-mcp
         extracted_url: https://github.com/rishijatia/fantasy-pl-mcp
-        surrounding_text: "-   **[rishijatia/fantasy-pl-mcp](https://github.com/rishijatia/fantasy-pl-mcp/)** [![GitHub stars](https://img.shields.io/github/stars/rishijatia/fantasy-pl-mcp?style=social)](https://github.com/rishijatia/fantasy-pl-mcp): Offers real-time Fantasy Premier League data and analysis."
+        surrounding_text: >-
+          -   **[rishijatia/fantasy-pl-mcp](https://github.com/rishijatia/fantasy-pl-mcp/)** [![GitHub
+          stars](https://img.shields.io/github/stars/rishijatia/fantasy-pl-mcp?style=social)](https://github.com/rishijatia/fantasy-pl-mcp):
+          Offers real-time Fantasy Premier League data and analysis.
         confidence: high
 metadata:
   github:
@@ -45,19 +50,25 @@ metadata:
     archived: false
     full_name: rishijatia/fantasy-pl-mcp
     html_url: https://github.com/rishijatia/fantasy-pl-mcp
-    created_at: "2025-03-14T18:53:28Z"
-    pushed_at: "2025-08-15T21:06:27Z"
+    created_at: '2025-03-14T18:53:28Z'
+    pushed_at: '2025-08-15T21:06:27Z'
     description: Fantasy Premier League MCP Server
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:46.271Z"
+    last_checked_at: '2026-07-20T16:42:46.271Z'
     readme:
-      fetched_at: "2026-07-20T16:42:46.271Z"
+      fetched_at: '2026-07-20T16:42:46.271Z'
       bytes: 10833
 insights:
-  summary: An MCP server that exposes Fantasy Premier League data, player statistics, and team tools to Claude Desktop, Cursor, and other MCP-compatible clients.
-  why_it_matters: It lets developers prototype AI-assisted sports analysis workflows by giving LLMs structured access to live FPL APIs without writing custom glue code.
-  mental_damage: We have successfully reached the point where an AI assistant can compare Erling Haaland and Mohamed Salah, but still cannot reliably fix a linter error.
+  summary: >-
+    An MCP server that exposes Fantasy Premier League data, player statistics, and team tools to Claude Desktop, Cursor,
+    and other MCP-compatible clients.
+  why_it_matters: >-
+    It lets developers prototype AI-assisted sports analysis workflows by giving LLMs structured access to live FPL APIs
+    without writing custom glue code.
+  mental_damage: >-
+    We have successfully reached the point where an AI assistant can compare Erling Haaland and Mohamed Salah, but still
+    cannot reliably fix a linter error.
   tags:
     - mcp
     - fantasy-pl
@@ -66,35 +77,37 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server for a specific domain (Fantasy Premier League), fitting cleanly into MCP Servers & Tooling.
+  reason: >-
+    The product's primary identity is an MCP server for a specific domain (Fantasy Premier League), fitting cleanly into
+    MCP Servers & Tooling.
   evidence:
     - Repo description explicitly states 'Fantasy Premier League MCP Server'.
     - README positions the tool as an MCP server for Claude Desktop, Cursor, and Windsurf.
     - Listed in awesome-mcp-list and awesome-mcp-servers under Gaming/Domain servers.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.593Z"
+    updated_at: '2026-05-06T22:12:15.593Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:46.271Z"
+    updated_at: '2026-07-20T16:42:46.271Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__generalaction__emdash__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Session managers & parallel runners
         anchor_text: Emdash
         extracted_url: https://github.com/generalaction/emdash
-        surrounding_text: "- **[Emdash](https://github.com/generalaction/emdash)** `⭐ 4.2k` — Run multiple coding agents concurrently with coordinated workflows."
+        surrounding_text: >-
+          - **[Emdash](https://github.com/generalaction/emdash)** `⭐ 4.2k` — Run multiple coding agents concurrently
+          with coordinated workflows.
         confidence: high
 metadata:
   github:
@@ -30,9 +32,11 @@ metadata:
     archived: false
     full_name: generalaction/emdash
     html_url: https://github.com/generalaction/emdash
-    created_at: "2025-08-28T07:19:57Z"
-    pushed_at: "2026-09-02T22:13:56Z"
-    description: Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.
+    created_at: '2025-08-28T07:19:57Z'
+    pushed_at: '2026-09-02T22:13:56Z'
+    description: >-
+      Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use
+      any provider.
     homepage: https://emdash.com
     topics:
       - agenticdevelopment
@@ -54,9 +58,9 @@ metadata:
       - parallel-agents
       - parallelexecution
       - terminal
-    last_checked_at: "2026-09-03T05:16:47.438Z"
+    last_checked_at: '2026-09-03T05:16:47.438Z'
     readme:
-      fetched_at: "2026-09-03T05:16:47.438Z"
+      fetched_at: '2026-09-03T05:16:47.438Z'
       bytes: 5228
 insights:
   summary: Emdash is an open-source terminal-native harness that runs multiple coding agents in parallel using any provider.
@@ -69,31 +73,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Emdash is a developer-facing coding assistant that runs parallel agents to plan, write, and test code, fitting the coding-agents category rather than being merely an extension or orchestrator.
+  reason: >-
+    Emdash is a developer-facing coding assistant that runs parallel agents to plan, write, and test code, fitting the
+    coding-agents category rather than being merely an extension or orchestrator.
   evidence:
-    - "Repo description: 'Emdash is the Open-Source Agentic Development Environment. Run multiple coding agents in parallel. Use any provider.'"
-    - "Stars: 4268, pushed at 2026-05-06 shows active maintenance."
-    - "Source-list context: listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers & parallel runners'."
+    - >-
+      Repo description: 'Emdash is the Open-Source Agentic Development Environment. Run multiple coding agents in
+      parallel. Use any provider.'
+    - 'Stars: 4268, pushed at 2026-05-06 shows active maintenance.'
+    - >-
+      Source-list context: listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers &
+      parallel runners'.
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (4268) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: '2026-05-06T22:12:15.615Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:47.438Z"
+    updated_at: '2026-09-03T05:16:47.438Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:53:52.369Z"
+    updated_at: '2026-05-12T15:53:52.369Z'
     cause: null
     next_retry_at: null
     attempts: 2

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__josephsenior__grinta-coding-agent__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Open Source
         anchor_text: Grinta
         extracted_url: https://github.com/josephsenior/grinta-coding-agent
-        surrounding_text: "- **[Grinta](https://github.com/josephsenior/Grinta-Coding-Agent)** `⭐ 20` — Local-first, provider-agnostic terminal coding agent built for long-horizon autonomous execution; durable state and recovery, context management, structured tool orchestration, LSP/DAP integration, and validation-gated completion. Python, MIT."
+        surrounding_text: >-
+          - **[Grinta](https://github.com/josephsenior/Grinta-Coding-Agent)** `⭐ 20` — Local-first, provider-agnostic
+          terminal coding agent built for long-horizon autonomous execution; durable state and recovery, context
+          management, structured tool orchestration, LSP/DAP integration, and validation-gated completion. Python, MIT.
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: josephsenior/Grinta-Coding-Agent
     html_url: https://github.com/josephsenior/Grinta-Coding-Agent
-    created_at: "2026-01-27T19:53:14Z"
-    pushed_at: "2026-08-02T21:25:45Z"
+    created_at: '2026-01-27T19:53:14Z'
+    pushed_at: '2026-08-02T21:25:45Z'
     description: Local-first autonomous coding agent that plans, executes, validates, and finishes software tasks end-to-end.
     homepage: https://josephsenior.github.io/Grinta-Coding-Agent/
     topics:
@@ -45,14 +48,18 @@ metadata:
       - model-context-protocol
       - orchestration
       - python
-    last_checked_at: "2026-08-03T05:16:52.156Z"
+    last_checked_at: '2026-08-03T05:16:52.156Z'
     readme:
-      fetched_at: "2026-08-03T05:16:52.156Z"
+      fetched_at: '2026-08-03T05:16:52.156Z'
       bytes: 6241
 insights:
   summary: A local-first, provider-agnostic autonomous coding agent for terminal-based software task execution.
-  why_it_matters: It provides an autonomous loop for planning and executing code changes while keeping session history and execution local to the developer's machine.
-  mental_damage: Another agent to delegate your actual thinking to, now with the added anxiety of local event-stream ledgers for every mistake it makes.
+  why_it_matters: >-
+    It provides an autonomous loop for planning and executing code changes while keeping session history and execution
+    local to the developer's machine.
+  mental_damage: >-
+    Another agent to delegate your actual thinking to, now with the added anxiety of local event-stream ledgers for
+    every mistake it makes.
   tags:
     - coding-agent
     - terminal-native
@@ -69,6 +76,7 @@ curation:
     - Claimed ability to execute, validate, and finish software tasks end-to-end.
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: incubating
@@ -76,17 +84,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.715Z"
+    updated_at: '2026-07-16T05:04:46.715Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:52.156Z"
+    updated_at: '2026-08-03T05:16:52.156Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-16T05:18:01.891Z"
+    updated_at: '2026-07-16T05:18:01.891Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

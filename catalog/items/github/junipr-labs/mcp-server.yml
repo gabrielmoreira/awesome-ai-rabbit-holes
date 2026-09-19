@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__junipr-labs__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: junipr-labs/mcp-server
         extracted_url: https://github.com/junipr-labs/mcp-server
-        surrounding_text: "- [junipr-labs/mcp-server](https://github.com/junipr-labs/mcp-server) [![mcp-server MCP server](https://glama.ai/mcp/servers/junipr-labs/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/junipr-labs/mcp-server) 📇 ☁️ - Web intelligence API for AI agents — screenshot capture, PDF generation, page metadata extraction, and 75+ specialized data extractors for news, social media, SERP, pricing, and more. Free tier included."
+        surrounding_text: >-
+          - [junipr-labs/mcp-server](https://github.com/junipr-labs/mcp-server) [![mcp-server MCP
+          server](https://glama.ai/mcp/servers/junipr-labs/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/junipr-labs/mcp-server)
+          📇 ☁️ - Web intelligence API for AI agents — screenshot capture, PDF generation, page metadata extraction, and
+          75+ specialized data extractors for news, social media, SERP, pricing, and more. Free tier included.
         confidence: high
 metadata:
   github:
@@ -30,18 +34,22 @@ metadata:
     archived: false
     full_name: junipr-labs/mcp-server
     html_url: https://github.com/junipr-labs/mcp-server
-    created_at: "2026-03-12T00:34:37Z"
-    pushed_at: "2026-03-12T06:23:44Z"
+    created_at: '2026-03-12T00:34:37Z'
+    pushed_at: '2026-03-12T06:23:44Z'
     description: MCP server for Junipr APIs — screenshots, PDFs, and metadata extraction
     homepage: https://junipr.io
     topics: []
-    last_checked_at: "2026-07-30T05:05:53.277Z"
+    last_checked_at: '2026-07-30T05:05:53.277Z'
     readme:
-      fetched_at: "2026-07-30T05:05:53.277Z"
+      fetched_at: '2026-07-30T05:05:53.277Z'
       bytes: 3804
 insights:
-  summary: MCP server that exposes Junipr's 75+ web intelligence tools (screenshots, PDFs, metadata extraction) to AI assistants.
-  why_it_matters: Lets coding assistants directly capture web content, generate PDFs, or extract structured metadata without leaving the development workflow.
+  summary: >-
+    MCP server that exposes Junipr's 75+ web intelligence tools (screenshots, PDFs, metadata extraction) to AI
+    assistants.
+  why_it_matters: >-
+    Lets coding assistants directly capture web content, generate PDFs, or extract structured metadata without leaving
+    the development workflow.
   mental_damage: Now your AI can take screenshots of your production bugs before you even see them.
   tags:
     - mcp-server
@@ -52,31 +60,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server exposing Junipr's API tools to AI assistants."
+  reason: 'MCP is the product identity: this is a dedicated MCP server exposing Junipr''s API tools to AI assistants.'
   evidence:
     - Repo description explicitly identifies it as an MCP server for Junipr APIs
     - README details MCP client configuration for multiple assistants (Claude, Cursor, VS Code, Windsurf)
     - Listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.623Z"
+    updated_at: '2026-05-06T22:12:15.623Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:53.277Z"
+    updated_at: '2026-07-30T05:05:53.277Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:11:31.123Z"
+    updated_at: '2026-07-21T16:11:31.123Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +98,7 @@ processing:
       input_hash: sha256:9cccbd2e32a7ff1c73c8438e815b7df1837e8af962767edd926f44360f075d72
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing Junipr's API tools to AI assistants."
+      decision_reason: 'MCP is the product identity: this is a dedicated MCP server exposing Junipr''s API tools to AI assistants.'
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server for Junipr APIs
         - README details MCP client configuration for multiple assistants (Claude, Cursor, VS Code, Windsurf)
@@ -97,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

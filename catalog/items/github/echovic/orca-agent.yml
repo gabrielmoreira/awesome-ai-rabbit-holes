@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__echovic__orca-agent__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-08-27T06:08:24.604Z"
+      discovered_at: '2026-08-27T06:08:24.604Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Open Source
         anchor_text: Orca
         extracted_url: https://github.com/echovic/orca-agent
-        surrounding_text: "- **[Orca](https://github.com/echoVic/orca-agent)** `⭐ 491` — DeepSeek-native terminal coding agent in Rust with OS-level sandboxing (Seatbelt, bwrap, Landlock+seccomp, fail-closed), persistent goal mode with stall detection, background tasks, JS workflows, folder trust, and 1M-context auto-compaction. Single binary. MIT."
+        surrounding_text: >-
+          - **[Orca](https://github.com/echoVic/orca-agent)** `⭐ 491` — DeepSeek-native terminal coding agent in Rust
+          with OS-level sandboxing (Seatbelt, bwrap, Landlock+seccomp, fail-closed), persistent goal mode with stall
+          detection, background tasks, JS workflows, folder trust, and 1M-context auto-compaction. Single binary. MIT.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,22 @@ metadata:
     archived: false
     full_name: echoVic/orca-agent
     html_url: https://github.com/echoVic/orca-agent
-    created_at: "2026-06-05T07:19:56Z"
-    pushed_at: "2026-09-13T03:10:38Z"
+    created_at: '2026-06-05T07:19:56Z'
+    pushed_at: '2026-09-13T03:10:38Z'
     description: Orca is a DeepSeek-native coding agent.
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-14T04:13:46.346Z"
+    last_checked_at: '2026-09-14T04:13:46.346Z'
     readme:
-      fetched_at: "2026-09-14T04:13:46.346Z"
+      fetched_at: '2026-09-14T04:13:46.346Z'
       bytes: 12689
 insights:
-  summary: Orca is a terminal-native coding agent that uses DeepSeek models to read, edit, and verify code until a task is complete.
-  why_it_matters: It lets developers delegate coding tasks to an autonomous agent that operates directly in the terminal with file editing, command execution, and self-verification loops.
+  summary: >-
+    Orca is a terminal-native coding agent that uses DeepSeek models to read, edit, and verify code until a task is
+    complete.
+  why_it_matters: >-
+    It lets developers delegate coding tasks to an autonomous agent that operates directly in the terminal with file
+    editing, command execution, and self-verification loops.
   mental_damage: Another agent promising to finish your work while you watch it hallucinate a fix for the third time in a row.
   tags:
     - coding-agent
@@ -51,13 +58,18 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Orca is a standalone coding assistant that directly edits files, runs commands, and verifies results in a terminal workflow, matching the core identity of a coding agent rather than an extension or framework.
+  reason: >-
+    Orca is a standalone coding assistant that directly edits files, runs commands, and verifies results in a terminal
+    workflow, matching the core identity of a coding agent rather than an extension or framework.
   evidence:
-    - "Repo description: 'Orca is a DeepSeek-native coding agent.'"
-    - "README: 'Give Orca a task and it reads code, edits files, runs commands, verifies the result, and keeps working until the task is done'"
+    - 'Repo description: ''Orca is a DeepSeek-native coding agent.'''
+    - >-
+      README: 'Give Orca a task and it reads code, edits files, runs commands, verifies the result, and keeps working
+      until the task is done'
     - Features TUI and headless `orca exec` modes for interactive and scripted use
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -65,17 +77,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-08-27T06:08:24.606Z"
+    updated_at: '2026-08-27T06:08:24.606Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:46.346Z"
+    updated_at: '2026-09-14T04:13:46.346Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T09:26:56.882Z"
+    updated_at: '2026-08-27T09:26:56.882Z'
     cause: null
     next_retry_at: null
     classification:
@@ -85,15 +97,21 @@ processing:
       input_hash: sha256:fe23615cd7566c306a10afb4288006aca7a53202d6923532ed30dc4a5df139ed
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Orca is a standalone coding assistant that directly edits files, runs commands, and verifies results in a terminal workflow, matching the core identity of a coding agent rather than an extension or framework.
+      decision_reason: >-
+        Orca is a standalone coding assistant that directly edits files, runs commands, and verifies results in a
+        terminal workflow, matching the core identity of a coding agent rather than an extension or framework.
       decision_evidence:
-        - "Repo description: 'Orca is a DeepSeek-native coding agent.'"
-        - "README: 'Give Orca a task and it reads code, edits files, runs commands, verifies the result, and keeps working until the task is done'"
+        - 'Repo description: ''Orca is a DeepSeek-native coding agent.'''
+        - >-
+          README: 'Give Orca a task and it reads code, edits files, runs commands, verifies the result, and keeps
+          working until the task is done'
         - Features TUI and headless `orca exec` modes for interactive and scripted use
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because Orca is the primary coding assistant performing autonomous code edits and task completion, not a layer that augments another agent with host integrations.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because Orca is the primary coding assistant performing autonomous
+        code edits and task completion, not a layer that augments another agent with host integrations.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

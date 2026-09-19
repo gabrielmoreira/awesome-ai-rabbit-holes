@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__greptile__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - Code Review and Refactoring
         anchor_text: Greptile
         extracted_url: https://greptile.com/code-review-bot
-        surrounding_text: "- **[Greptile](https://greptile.com/code-review-bot)** – AI bot for in-depth code review and PR analysis."
+        surrounding_text: '- **[Greptile](https://greptile.com/code-review-bot)** – AI bot for in-depth code review and PR analysis.'
         confidence: high
     - id: discovery__www__greptile__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - Code Review and Refactoring
         anchor_text: Greptile
         extracted_url: https://greptile.com/code-review-bot
-        surrounding_text: "- **[Greptile](https://greptile.com/code-review-bot)** – AI bot for in-depth code review and PR analysis."
+        surrounding_text: '- **[Greptile](https://greptile.com/code-review-bot)** – AI bot for in-depth code review and PR analysis.'
         confidence: high
 metadata:
   github:
@@ -63,21 +63,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Greptile is a primary coding assistant focused on reviewing, testing, and validating code changes in PR workflows, fitting the 'Review, Testing & Repair Agents' section.
+  reason: >-
+    Greptile is a primary coding assistant focused on reviewing, testing, and validating code changes in PR workflows,
+    fitting the 'Review, Testing & Repair Agents' section.
   evidence:
     - Described as 'AI Code Reviews that understand your entire codebase' with swarm-of-agents analysis
     - Core functionality includes indexing codebases, reviewing PRs, and learning team standards
     - Source-list context places it in 'Code Review and Refactoring' section
 placement:
   primary_category: coding-agents
-  section: Review, Testing & Repair Agents
+  secondary_categories: []
+  section: Review, Testing & Repair
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:34:52.230Z"
+    updated_at: '2026-07-21T15:34:52.230Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -90,7 +93,9 @@ processing:
       input_hash: sha256:9ad6937a3904ccf7dbbea44f41222bcdc226ef01df083a3a9ca9538966003d8f
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Greptile is a primary coding assistant focused on reviewing, testing, and validating code changes in PR workflows, fitting the 'Review, Testing & Repair Agents' section.
+      decision_reason: >-
+        Greptile is a primary coding assistant focused on reviewing, testing, and validating code changes in PR
+        workflows, fitting the 'Review, Testing & Repair Agents' section.
       decision_evidence:
         - Described as 'AI Code Reviews that understand your entire codebase' with swarm-of-agents analysis
         - Core functionality includes indexing codebases, reviewing PRs, and learning team standards
@@ -98,15 +103,19 @@ processing:
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because Greptile is a standalone PR review assistant, not merely an extension for another coding tool.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because Greptile is a standalone PR review assistant, not merely an
+        extension for another coding tool.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.966Z"
+    updated_at: '2026-07-21T15:20:21.966Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending

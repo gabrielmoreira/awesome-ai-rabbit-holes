@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__joinly-ai__joinly__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: joinly-ai/joinly
         extracted_url: https://github.com/joinly-ai/joinly
-        surrounding_text: "- [joinly-ai/joinly](https://github.com/joinly-ai/joinly) 🐍☁️ - MCP server to interact with browser-based meeting platforms (Zoom, Teams, Google Meet). Enables AI agents to send bots to online meetings, gather live transcripts, speak text, and send messages in the meeting chat."
+        surrounding_text: >-
+          - [joinly-ai/joinly](https://github.com/joinly-ai/joinly) 🐍☁️ - MCP server to interact with browser-based
+          meeting platforms (Zoom, Teams, Google Meet). Enables AI agents to send bots to online meetings, gather live
+          transcripts, speak text, and send messages in the meeting chat.
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: joinly-ai/joinly
     html_url: https://github.com/joinly-ai/joinly
-    created_at: "2025-05-29T01:21:02Z"
-    pushed_at: "2026-03-19T15:13:10Z"
+    created_at: '2025-05-29T01:21:02Z'
+    pushed_at: '2026-03-19T15:13:10Z'
     description: Make your meetings accessible to AI Agents
     homepage: https://joinly.ai
     topics:
@@ -48,13 +51,17 @@ metadata:
       - python
       - transcription
       - voice-ai
-    last_checked_at: "2026-07-30T05:05:51.689Z"
+    last_checked_at: '2026-07-30T05:05:51.689Z'
     readme:
-      fetched_at: "2026-07-30T05:05:51.689Z"
+      fetched_at: '2026-07-30T05:05:51.689Z'
       bytes: 14179
 insights:
-  summary: An MCP server that enables AI agents to join and participate in video calls across platforms like Zoom, Google Meet, and Microsoft Teams.
-  why_it_matters: It allows developers to integrate real-time meeting participation and interaction capabilities into their AI agents, expanding their utility beyond code and into live collaboration.
+  summary: >-
+    An MCP server that enables AI agents to join and participate in video calls across platforms like Zoom, Google Meet,
+    and Microsoft Teams.
+  why_it_matters: >-
+    It allows developers to integrate real-time meeting participation and interaction capabilities into their AI agents,
+    expanding their utility beyond code and into live collaboration.
   mental_damage: Now your AI agent can interrupt you in meetings just like a real coworker.
   tags:
     - mcp
@@ -65,31 +72,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the product identity here, as it is explicitly positioned as an MCP server providing meeting tools and resources for AI agents.
+  reason: >-
+    MCP is the product identity here, as it is explicitly positioned as an MCP server providing meeting tools and
+    resources for AI agents.
   evidence:
     - Repo description explicitly states it is an MCP server for meeting access
     - README highlights its role as a connector middleware with MCP server capabilities
     - Source-list context places it under MCP Servers > Communication
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: promotion_candidate
   reason: Stars (498) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.623Z"
+    updated_at: '2026-05-06T22:12:15.623Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:51.689Z"
+    updated_at: '2026-07-30T05:05:51.689Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:58.423Z"
+    updated_at: '2026-07-21T16:10:58.423Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -102,7 +112,9 @@ processing:
       input_hash: sha256:96b25f81bace3d7c37efdea4e0d66f7549776c0b5b55696c4b7855f7c9f72efe
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the product identity here, as it is explicitly positioned as an MCP server providing meeting tools and resources for AI agents.
+      decision_reason: >-
+        MCP is the product identity here, as it is explicitly positioned as an MCP server providing meeting tools and
+        resources for AI agents.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for meeting access
         - README highlights its role as a connector middleware with MCP server capabilities
@@ -110,6 +122,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server providing meeting-specific tools, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server providing meeting-specific tools,
+        not an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

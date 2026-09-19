@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__battam1111__myco__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,15 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: Battam1111/Myco
         extracted_url: https://github.com/battam1111/myco
-        surrounding_text: "- [Battam1111/Myco](https://github.com/Battam1111/Myco) [![Battam1111/Myco MCP server](https://glama.ai/mcp/servers/Battam1111/Myco/badges/score.svg)](https://glama.ai/mcp/servers/Battam1111/Myco) 🐍 🏠 🍎 🪟 🐧 - Agent-first cognitive substrate with 18 manifest-driven verbs (germinate / eat / assimilate / sporulate / traverse / immune / molt / …) and 25 lint dimensions enforcing contract invariants mechanically (R1–R7). Cross-session / cross-project memory via a self-validating filesystem graph — AST + markdown-link derived, not embedding-based. Provider-agnostic by design: MP1/MP2 dims forbid LLM-SDK imports in the kernel and plugin tree. Editable-default install. Works with Claude Code, Cursor, Windsurf, Zed, VS Code, and any MCP client."
+        surrounding_text: >-
+          - [Battam1111/Myco](https://github.com/Battam1111/Myco) [![Battam1111/Myco MCP
+          server](https://glama.ai/mcp/servers/Battam1111/Myco/badges/score.svg)](https://glama.ai/mcp/servers/Battam1111/Myco)
+          🐍 🏠 🍎 🪟 🐧 - Agent-first cognitive substrate with 18 manifest-driven verbs (germinate / eat / assimilate /
+          sporulate / traverse / immune / molt / …) and 25 lint dimensions enforcing contract invariants mechanically
+          (R1–R7). Cross-session / cross-project memory via a self-validating filesystem graph — AST + markdown-link
+          derived, not embedding-based. Provider-agnostic by design: MP1/MP2 dims forbid LLM-SDK imports in the kernel
+          and plugin tree. Editable-default install. Works with Claude Code, Cursor, Windsurf, Zed, VS Code, and any MCP
+          client.
         confidence: high
 metadata:
   github:
@@ -30,9 +38,9 @@ metadata:
     archived: false
     full_name: Battam1111/Myco
     html_url: https://github.com/Battam1111/Myco
-    created_at: "2026-04-08T15:52:05Z"
-    pushed_at: "2026-08-12T20:28:21Z"
-    description: "The living armor an AI agent inhabits: eternal devouring, eternal evolution, eternal amplification."
+    created_at: '2026-04-08T15:52:05Z'
+    pushed_at: '2026-08-12T20:28:21Z'
+    description: 'The living armor an AI agent inhabits: eternal devouring, eternal evolution, eternal amplification.'
     homepage: https://pypi.org/project/myco/
     topics:
       - agent-memory
@@ -55,13 +63,17 @@ metadata:
       - self-evolving
       - substrate
       - vscode
-    last_checked_at: "2026-09-07T04:13:31.925Z"
+    last_checked_at: '2026-09-07T04:13:31.925Z'
     readme:
-      fetched_at: "2026-09-07T04:13:31.925Z"
+      fetched_at: '2026-09-07T04:13:31.925Z'
       bytes: 6137
 insights:
-  summary: A living cognitive substrate for AI agents that ingests, digests, and evolves knowledge as a filesystem-based graph of markdown and YAML.
-  why_it_matters: It solves the problem of AI agents forgetting context, decisions, and evolving knowledge by providing a self-maintaining, agent-driven memory and retrieval system.
+  summary: >-
+    A living cognitive substrate for AI agents that ingests, digests, and evolves knowledge as a filesystem-based graph
+    of markdown and YAML.
+  why_it_matters: >-
+    It solves the problem of AI agents forgetting context, decisions, and evolving knowledge by providing a
+    self-maintaining, agent-driven memory and retrieval system.
   mental_damage: Finally, an AI tool that promises to remember your work longer than you do.
   tags:
     - agent-memory
@@ -72,31 +84,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core novelty is a self-evolving memory and retrieval system for AI agents, not a primary coding assistant or host integration.
+  reason: >-
+    The core novelty is a self-evolving memory and retrieval system for AI agents, not a primary coding assistant or
+    host integration.
   evidence:
-    - README describes it as a 'living cognitive substrate' for AI agents with ingestion, digestion, and evolution capabilities
+    - >-
+      README describes it as a 'living cognitive substrate' for AI agents with ingestion, digestion, and evolution
+      capabilities
     - Topics include 'agent-memory', 'llm-memory', 'long-term-memory', and 'self-evolving'
     - MCP is supported but not the primary identity (also works as CLI and with other hosts)
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.604Z"
+    updated_at: '2026-05-06T22:12:15.604Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:31.925Z"
+    updated_at: '2026-09-07T04:13:31.925Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:25:37.420Z"
+    updated_at: '2026-07-21T15:25:37.420Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -109,14 +126,20 @@ processing:
       input_hash: sha256:4851b0a001d27e8df6262d6e56c9ef569e52797582b205097a062528c4df416f
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: The core novelty is a self-evolving memory and retrieval system for AI agents, not a primary coding assistant or host integration.
+      decision_reason: >-
+        The core novelty is a self-evolving memory and retrieval system for AI agents, not a primary coding assistant or
+        host integration.
       decision_evidence:
-        - README describes it as a 'living cognitive substrate' for AI agents with ingestion, digestion, and evolution capabilities
+        - >-
+          README describes it as a 'living cognitive substrate' for AI agents with ingestion, digestion, and evolution
+          capabilities
         - Topics include 'agent-memory', 'llm-memory', 'long-term-memory', and 'self-evolving'
         - MCP is supported but not the primary identity (also works as CLI and with other hosts)
       category_candidates:
         - context-engineering
         - ai-dev-extensions
-      contrastive_reason: Choose context-engineering over ai-dev-extensions because the core novelty is memory, retrieval, and self-evolving knowledge management rather than host integration.
+      contrastive_reason: >-
+        Choose context-engineering over ai-dev-extensions because the core novelty is memory, retrieval, and
+        self-evolving knowledge management rather than host integration.
       review_reason: null
       review_resume_lifecycle: null

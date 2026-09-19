@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alchemyplatform__alchemy-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: alchemy/alchemy-mcp-server
         extracted_url: https://github.com/alchemyplatform/alchemy-mcp-server
-        surrounding_text: "- [alchemy/alchemy-mcp-server](https://github.com/alchemyplatform/alchemy-mcp-server) 🎖️ 📇 ☁️ - Allow AI agents to interact with Alchemy's blockchain APIs."
+        surrounding_text: >-
+          - [alchemy/alchemy-mcp-server](https://github.com/alchemyplatform/alchemy-mcp-server) 🎖️ 📇 ☁️ - Allow AI
+          agents to interact with Alchemy's blockchain APIs.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,23 @@ metadata:
     archived: false
     full_name: alchemyplatform/alchemy-mcp-server
     html_url: https://github.com/alchemyplatform/alchemy-mcp-server
-    created_at: "2025-03-27T17:08:08Z"
-    pushed_at: "2026-09-10T02:00:24Z"
+    created_at: '2025-03-27T17:08:08Z'
+    pushed_at: '2026-09-10T02:00:24Z'
     description: Alchemy's official MCP Server. Allow AI agents to interact with Alchemy's blockchain APIs.
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-17T04:13:38.360Z"
+    last_checked_at: '2026-09-17T04:13:38.360Z'
     readme:
-      fetched_at: "2026-09-17T04:13:38.360Z"
+      fetched_at: '2026-09-17T04:13:38.360Z'
       bytes: 9154
 insights:
   summary: Alchemy's official MCP server enabling AI agents to interact with Alchemy's blockchain APIs.
-  why_it_matters: Lets developers integrate blockchain data queries and transactions into AI agent workflows without writing custom code.
-  mental_damage: Now your AI agent can ask the blockchain for your token balance while you still can't explain to your mom what a blockchain is.
+  why_it_matters: >-
+    Lets developers integrate blockchain data queries and transactions into AI agent workflows without writing custom
+    code.
+  mental_damage: >-
+    Now your AI agent can ask the blockchain for your token balance while you still can't explain to your mom what a
+    blockchain is.
   tags:
     - mcp
     - blockchain
@@ -52,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: a server that exposes Alchemy's blockchain APIs to AI agents via the Model Context Protocol."
+  reason: >-
+    MCP is the product identity here: a server that exposes Alchemy's blockchain APIs to AI agents via the Model Context
+    Protocol.
   evidence:
     - Repo description explicitly states it is 'Alchemy's official MCP Server'
     - README details MCP server setup and blockchain API capabilities
     - Listed in awesome-mcp-servers under Finance & Fintech
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.601Z"
+    updated_at: '2026-05-06T22:12:15.601Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:38.360Z"
+    updated_at: '2026-09-17T04:13:38.360Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:21:52.854Z"
+    updated_at: '2026-07-21T15:21:52.854Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +98,9 @@ processing:
       input_hash: sha256:729af5f7ec5a4f5f8d55e7bd408e3e46e04da8d39289c24c2ce9813248b70c8d
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: a server that exposes Alchemy's blockchain APIs to AI agents via the Model Context Protocol."
+      decision_reason: >-
+        MCP is the product identity here: a server that exposes Alchemy's blockchain APIs to AI agents via the Model
+        Context Protocol.
       decision_evidence:
         - Repo description explicitly states it is 'Alchemy's official MCP Server'
         - README details MCP server setup and blockchain API capabilities
@@ -97,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific APIs, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific APIs, not
+        an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

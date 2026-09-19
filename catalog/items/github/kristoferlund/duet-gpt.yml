@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kristoferlund__duet-gpt__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,7 +20,10 @@ provenance:
           - Agents
         anchor_text: DuetGPT
         extracted_url: https://github.com/kristoferlund/duet-gpt
-        surrounding_text: "- [DuetGPT](https://github.com/kristoferlund/duet-gpt): A conversational semi-autonomous developer assistant, AI pair programming without the copypasta. ![GitHub Repo stars](https://img.shields.io/github/stars/kristoferlund/duet-gpt?style=social)"
+        surrounding_text: >-
+          - [DuetGPT](https://github.com/kristoferlund/duet-gpt): A conversational semi-autonomous developer assistant,
+          AI pair programming without the copypasta. ![GitHub Repo
+          stars](https://img.shields.io/github/stars/kristoferlund/duet-gpt?style=social)
         confidence: high
 metadata:
   github:
@@ -30,10 +33,10 @@ metadata:
     archived: false
     full_name: kristoferlund/duet-gpt
     html_url: https://github.com/kristoferlund/duet-gpt
-    created_at: "2023-05-25T08:27:01Z"
-    pushed_at: "2023-06-19T13:12:11Z"
+    created_at: '2023-05-25T08:27:01Z'
+    pushed_at: '2023-06-19T13:12:11Z'
     description: A conversational semi-autonomous developer assistant. AI pair programming without the copypasta.
-    homepage: ""
+    homepage: ''
     topics:
       - agent
       - ai
@@ -43,13 +46,17 @@ metadata:
       - gpt-4
       - llm
       - openai
-    last_checked_at: "2026-07-30T05:05:58.097Z"
+    last_checked_at: '2026-07-30T05:05:58.097Z'
     readme:
-      fetched_at: "2026-07-30T05:05:58.097Z"
+      fetched_at: '2026-07-30T05:05:58.097Z'
       bytes: 8048
 insights:
-  summary: A conversational semi-autonomous CLI developer assistant that plans and executes coding tasks after developer approval.
-  why_it_matters: It lets developers delegate repo-level coding and file system tasks to an AI agent that proposes and runs commands with explicit consent.
+  summary: >-
+    A conversational semi-autonomous CLI developer assistant that plans and executes coding tasks after developer
+    approval.
+  why_it_matters: >-
+    It lets developers delegate repo-level coding and file system tasks to an AI agent that proposes and runs commands
+    with explicit consent.
   mental_damage: Finally, an AI that will run `rm -rf /` for you—after you say yes.
   tags:
     - cli
@@ -59,13 +66,18 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a standalone CLI coding assistant that directly plans, proposes, and executes repo tasks, fitting the primary assistant identity.
+  reason: >-
+    It is a standalone CLI coding assistant that directly plans, proposes, and executes repo tasks, fitting the primary
+    assistant identity.
   evidence:
-    - "Repo description: 'A conversational semi-autonomous developer assistant'"
-    - "README: 'DuetGPT is an experimental AI powered CLI tool and semi-autonomous agent that helps developers with coding tasks and file system tasks'"
+    - 'Repo description: ''A conversational semi-autonomous developer assistant'''
+    - >-
+      README: 'DuetGPT is an experimental AI powered CLI tool and semi-autonomous agent that helps developers with
+      coding tasks and file system tasks'
     - Uses OpenAI function calling to propose and execute commands after developer approval
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -73,17 +85,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.624Z"
+    updated_at: '2026-05-06T22:12:15.624Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:58.097Z"
+    updated_at: '2026-07-30T05:05:58.097Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:03.676Z"
+    updated_at: '2026-07-21T16:13:03.676Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,14 +108,20 @@ processing:
       input_hash: sha256:64c14b171aec3da2b158831317d94b230b0131e6762a2024f6177896204fa133
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: It is a standalone CLI coding assistant that directly plans, proposes, and executes repo tasks, fitting the primary assistant identity.
+      decision_reason: >-
+        It is a standalone CLI coding assistant that directly plans, proposes, and executes repo tasks, fitting the
+        primary assistant identity.
       decision_evidence:
-        - "Repo description: 'A conversational semi-autonomous developer assistant'"
-        - "README: 'DuetGPT is an experimental AI powered CLI tool and semi-autonomous agent that helps developers with coding tasks and file system tasks'"
+        - 'Repo description: ''A conversational semi-autonomous developer assistant'''
+        - >-
+          README: 'DuetGPT is an experimental AI powered CLI tool and semi-autonomous agent that helps developers with
+          coding tasks and file system tasks'
         - Uses OpenAI function calling to propose and execute commands after developer approval
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because the tool is a primary assistant, not an extension augmenting another host.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because the tool is a primary assistant, not an extension augmenting
+        another host.
       review_reason: null
       review_resume_lifecycle: null

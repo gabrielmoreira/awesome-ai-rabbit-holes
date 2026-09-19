@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__comet-ml__opik__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,10 +19,13 @@ provenance:
           - Official Servers
         anchor_text: Opik
         extracted_url: https://github.com/comet-ml/opik
-        surrounding_text: "- **[Comet Opik](https://github.com/comet-ml/opik-mcp)** - Query and analyze your [Opik](https://github.com/comet-ml/opik) logs, traces, prompts and all other telemtry data from your LLMs in natural language."
+        surrounding_text: >-
+          - **[Comet Opik](https://github.com/comet-ml/opik-mcp)** - Query and analyze your
+          [Opik](https://github.com/comet-ml/opik) logs, traces, prompts and all other telemtry data from your LLMs in
+          natural language.
         confidence: high
     - id: discovery__github__comet-ml__opik__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -35,10 +38,10 @@ provenance:
           - Observability & Tracing
         anchor_text: Opik
         extracted_url: https://github.com/comet-ml/opik
-        surrounding_text: "| [Opik](https://github.com/comet-ml/opik) | Open-source LLM evaluation |"
+        surrounding_text: '| [Opik](https://github.com/comet-ml/opik) | Open-source LLM evaluation |'
         confidence: high
     - id: discovery__github__comet-ml__opik__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -50,7 +53,12 @@ provenance:
           - LLMOps
         anchor_text: Opik
         extracted_url: https://github.com/comet-ml/opik
-        surrounding_text: "| [Opik](https://github.com/comet-ml/opik)                           | Confidently evaluate, test, and ship LLM applications with a suite of observability tools to calibrate language model outputs across your dev and production lifecycle.                                                                                                                                                                                                                                 | ![GitHub Badge](https://img.shields.io/github/stars/comet-ml/opik.svg?style=flat-square)                  |"
+        surrounding_text: >-
+          | [Opik](https://github.com/comet-ml/opik)                           | Confidently evaluate, test, and ship
+          LLM applications with a suite of observability tools to calibrate language model outputs across your dev and
+          production
+          lifecycle.                                                                                                                                                                                                                                
+          | ![GitHub Badge](https://img.shields.io/github/stars/comet-ml/opik.svg?style=flat-square)                  |
         confidence: high
 metadata:
   github:
@@ -60,9 +68,11 @@ metadata:
     archived: false
     full_name: comet-ml/opik
     html_url: https://github.com/comet-ml/opik
-    created_at: "2023-05-10T12:57:13Z"
-    pushed_at: "2026-09-07T01:11:37Z"
-    description: Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.
+    created_at: '2023-05-10T12:57:13Z'
+    pushed_at: '2026-09-07T01:11:37Z'
+    description: >-
+      Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing,
+      automated evaluations, and production-ready dashboards.
     homepage: https://www.comet.com/docs/opik/
     topics:
       - evaluation
@@ -78,13 +88,17 @@ metadata:
       - openai
       - playground
       - prompt-engineering
-    last_checked_at: "2026-09-07T04:13:50.162Z"
+    last_checked_at: '2026-09-07T04:13:50.162Z'
     readme:
-      fetched_at: "2026-09-07T04:13:50.162Z"
+      fetched_at: '2026-09-07T04:13:50.162Z'
       bytes: 38884
 insights:
-  summary: Open-source observability, evaluation, and optimization platform for LLM applications, RAG systems, and agentic workflows.
-  why_it_matters: It provides comprehensive tracing, automated evaluations, and production-ready dashboards to debug and improve AI applications from prototype to production.
+  summary: >-
+    Open-source observability, evaluation, and optimization platform for LLM applications, RAG systems, and agentic
+    workflows.
+  why_it_matters: >-
+    It provides comprehensive tracing, automated evaluations, and production-ready dashboards to debug and improve AI
+    applications from prototype to production.
   mental_damage: Finally, a way to see why your LLM is hallucinating—just in time to realize it was your prompt all along.
   tags:
     - llm-observability
@@ -95,31 +109,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product is evaluation, observability, and tracing for LLM applications, which aligns with the Evals & Benchmarks category.
+  reason: >-
+    The core product is evaluation, observability, and tracing for LLM applications, which aligns with the Evals &
+    Benchmarks category.
   evidence:
-    - Repo description explicitly states it is for debugging, evaluating, and monitoring LLM applications with tracing and automated evaluations
-    - README emphasizes 'comprehensive tracing, evaluation, and automatic prompt and tool optimization' as primary features
+    - >-
+      Repo description explicitly states it is for debugging, evaluating, and monitoring LLM applications with tracing
+      and automated evaluations
+    - >-
+      README emphasizes 'comprehensive tracing, evaluation, and automatic prompt and tool optimization' as primary
+      features
     - Already listed in Awesome-LLMOps and awesome-agent-orchestration under Observability & Tracing
 placement:
   primary_category: evals
-  section: Observability / Tracing / EvalOps
+  secondary_categories: []
+  section: Observability & Tracing
 lifecycle:
   status: promotion_candidate
   reason: Stars (19226) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.576Z"
+    updated_at: '2026-05-06T22:12:15.576Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:50.162Z"
+    updated_at: '2026-09-07T04:13:50.162Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:45:21.644Z"
+    updated_at: '2026-07-21T15:45:21.644Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -132,14 +153,22 @@ processing:
       input_hash: sha256:5a21978269034f6d9e00099378aa185c659c41d884ff05e64bd042d07db49129
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: The core product is evaluation, observability, and tracing for LLM applications, which aligns with the Evals & Benchmarks category.
+      decision_reason: >-
+        The core product is evaluation, observability, and tracing for LLM applications, which aligns with the Evals &
+        Benchmarks category.
       decision_evidence:
-        - Repo description explicitly states it is for debugging, evaluating, and monitoring LLM applications with tracing and automated evaluations
-        - README emphasizes 'comprehensive tracing, evaluation, and automatic prompt and tool optimization' as primary features
+        - >-
+          Repo description explicitly states it is for debugging, evaluating, and monitoring LLM applications with
+          tracing and automated evaluations
+        - >-
+          README emphasizes 'comprehensive tracing, evaluation, and automatic prompt and tool optimization' as primary
+          features
         - Already listed in Awesome-LLMOps and awesome-agent-orchestration under Observability & Tracing
       category_candidates:
         - evals
         - agent-orchestration
-      contrastive_reason: Choose evals over agent-orchestration because the primary value is measurement, tracing, and evaluation rather than multi-agent coordination.
+      contrastive_reason: >-
+        Choose evals over agent-orchestration because the primary value is measurement, tracing, and evaluation rather
+        than multi-agent coordination.
       review_reason: null
       review_resume_lifecycle: null

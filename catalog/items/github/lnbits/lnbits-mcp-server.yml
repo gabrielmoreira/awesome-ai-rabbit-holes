@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lnbits__lnbits-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: lnbits/LNbits-MCP-Server
         extracted_url: https://github.com/lnbits/lnbits-mcp-server
-        surrounding_text: "- [lnbits/LNbits-MCP-Server](https://github.com/lnbits/LNbits-MCP-Server) - Am MCP server for LNbits Lightning Network wallet integration."
+        surrounding_text: >-
+          - [lnbits/LNbits-MCP-Server](https://github.com/lnbits/LNbits-MCP-Server) - Am MCP server for LNbits Lightning
+          Network wallet integration.
         confidence: high
 metadata:
   github:
@@ -30,14 +32,14 @@ metadata:
     archived: false
     full_name: lnbits/LNbits-MCP-Server
     html_url: https://github.com/lnbits/LNbits-MCP-Server
-    created_at: "2025-07-10T10:42:24Z"
-    pushed_at: "2026-03-24T16:38:01Z"
+    created_at: '2025-07-10T10:42:24Z'
+    pushed_at: '2026-03-24T16:38:01Z'
     description: An MCP server for LNbits
     homepage: https://rumble.com/v6vxr70-lnbits-mcp-server-lnbits-in-your-ai.html
     topics: []
-    last_checked_at: "2026-07-30T05:06:07.533Z"
+    last_checked_at: '2026-07-30T05:06:07.533Z'
     readme:
-      fetched_at: "2026-07-30T05:06:07.533Z"
+      fetched_at: '2026-07-30T05:06:07.533Z'
       bytes: 9897
 insights:
   summary: An MCP server that connects AI assistants to LNbits Lightning wallet operations.
@@ -51,31 +53,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core identity is exposing LNbits wallet functionality via the Model Context Protocol, making it MCP infrastructure rather than an extension or agent.
+  reason: >-
+    The product is an MCP server whose core identity is exposing LNbits wallet functionality via the Model Context
+    Protocol, making it MCP infrastructure rather than an extension or agent.
   evidence:
-    - "Repo description: 'An MCP server for LNbits'"
-    - "README: 'Give your AI assistant a Lightning wallet. The LNbits MCP Server connects any MCP-compatible AI client to your LNbits instance'"
+    - 'Repo description: ''An MCP server for LNbits'''
+    - >-
+      README: 'Give your AI assistant a Lightning wallet. The LNbits MCP Server connects any MCP-compatible AI client to
+      your LNbits instance'
     - Features focus on wallet operations, invoice creation, payments, and extension support through MCP tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: '2026-05-06T22:12:15.627Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:07.533Z"
+    updated_at: '2026-07-30T05:06:07.533Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:17:02.191Z"
+    updated_at: '2026-07-21T16:17:02.191Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,14 +95,20 @@ processing:
       input_hash: sha256:2d9cde04f7556ee2a08f1db83b36d79001bbf39e1ae8f381170b5f5b572e8e77
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server whose core identity is exposing LNbits wallet functionality via the Model Context Protocol, making it MCP infrastructure rather than an extension or agent.
+      decision_reason: >-
+        The product is an MCP server whose core identity is exposing LNbits wallet functionality via the Model Context
+        Protocol, making it MCP infrastructure rather than an extension or agent.
       decision_evidence:
-        - "Repo description: 'An MCP server for LNbits'"
-        - "README: 'Give your AI assistant a Lightning wallet. The LNbits MCP Server connects any MCP-compatible AI client to your LNbits instance'"
+        - 'Repo description: ''An MCP server for LNbits'''
+        - >-
+          README: 'Give your AI assistant a Lightning wallet. The LNbits MCP Server connects any MCP-compatible AI
+          client to your LNbits instance'
         - Features focus on wallet operations, invoice creation, payments, and extension support through MCP tools
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server exposing LNbits functionality as MCP tools, not an augmentation layer for another coding assistant or editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server exposing LNbits functionality as MCP
+        tools, not an augmentation layer for another coding assistant or editor.
       review_reason: null
       review_resume_lifecycle: null

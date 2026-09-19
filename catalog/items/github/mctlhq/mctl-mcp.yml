@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mctlhq__mctl-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: mctlhq/mctl-mcp
         extracted_url: https://github.com/mctlhq/mctl-mcp
-        surrounding_text: "- [mctlhq/mctl-mcp](https://github.com/mctlhq/mctl-mcp) [![mctl-mcp MCP server](https://glama.ai/mcp/servers/mctlhq/mctl-mcp/badges/score.svg)](https://glama.ai/mcp/servers/mctlhq/mctl-mcp) ☁️ - AI-native platform for Kubernetes management and automated GitOps (30+ tools)."
+        surrounding_text: >-
+          - [mctlhq/mctl-mcp](https://github.com/mctlhq/mctl-mcp) [![mctl-mcp MCP
+          server](https://glama.ai/mcp/servers/mctlhq/mctl-mcp/badges/score.svg)](https://glama.ai/mcp/servers/mctlhq/mctl-mcp)
+          ☁️ - AI-native platform for Kubernetes management and automated GitOps (30+ tools).
         confidence: high
 metadata:
   github:
@@ -30,19 +33,25 @@ metadata:
     archived: false
     full_name: mctlhq/mctl-mcp
     html_url: https://github.com/mctlhq/mctl-mcp
-    created_at: "2026-03-17T21:08:31Z"
-    pushed_at: "2026-05-30T17:27:07Z"
+    created_at: '2026-03-17T21:08:31Z'
+    pushed_at: '2026-05-30T17:27:07Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:16:58.859Z"
+    last_checked_at: '2026-08-03T05:16:58.859Z'
     readme:
-      fetched_at: "2026-08-03T05:16:58.859Z"
+      fetched_at: '2026-08-03T05:16:58.859Z'
       bytes: 452
 insights:
-  summary: mctl MCP Server is a Model Context Protocol server that exposes 30+ Kubernetes and GitOps management tools via natural language.
-  why_it_matters: It lets developers manage infrastructure through AI assistants using standard MCP tooling instead of custom integrations.
-  mental_damage: Another MCP server promising to replace kubectl with chat, until you realize you still need to know what you're asking for.
+  summary: >-
+    mctl MCP Server is a Model Context Protocol server that exposes 30+ Kubernetes and GitOps management tools via
+    natural language.
+  why_it_matters: >-
+    It lets developers manage infrastructure through AI assistants using standard MCP tooling instead of custom
+    integrations.
+  mental_damage: >-
+    Another MCP server promising to replace kubectl with chat, until you realize you still need to know what you're
+    asking for.
   tags:
     - mcp
     - kubernetes
@@ -50,31 +59,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product is an MCP server exposing infrastructure tools, making MCP the core identity rather than an extension or agent.
+  reason: >-
+    The product is an MCP server exposing infrastructure tools, making MCP the core identity rather than an extension or
+    agent.
   evidence:
     - README states it is an 'MCP directory entry' for mctl, exposing 30+ tools via natural language
     - Listed in awesome-mcp-servers under Cloud Platforms section
     - No evidence of being a coding agent, extension, or orchestration platform
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.629Z"
+    updated_at: '2026-05-06T22:12:15.629Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:58.859Z"
+    updated_at: '2026-08-03T05:16:58.859Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:19:30.810Z"
+    updated_at: '2026-07-21T16:19:30.810Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,7 +99,9 @@ processing:
       input_hash: sha256:d273f2323833db8e2352de7960c3c0b7b40f1912b6730c1f7bf62c9b796a5a73
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server exposing infrastructure tools, making MCP the core identity rather than an extension or agent.
+      decision_reason: >-
+        The product is an MCP server exposing infrastructure tools, making MCP the core identity rather than an
+        extension or agent.
       decision_evidence:
         - README states it is an 'MCP directory entry' for mctl, exposing 30+ tools via natural language
         - Listed in awesome-mcp-servers under Cloud Platforms section
@@ -95,6 +109,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an integration layer augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an integration layer
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

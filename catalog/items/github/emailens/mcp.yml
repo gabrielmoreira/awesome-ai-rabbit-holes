@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__emailens__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-27T05:20:52.308Z"
+      discovered_at: '2026-07-27T05:20:52.308Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: emailens/mcp
         extracted_url: https://github.com/emailens/mcp
-        surrounding_text: "- [emailens/mcp](https://github.com/emailens/mcp) [![emailens/mcp MCP server](https://glama.ai/mcp/servers/emailens/mcp/badges/score.svg)](https://glama.ai/mcp/servers/emailens/mcp) 🎖️ 📇 ☁️ - Official MCP server for Emailens, the rendering linter for email. Lint HTML email for rendering issues across 15 clients (Gmail, Outlook, Apple Mail and more), score CSS compatibility 0-100 per client, simulate dark mode, and get framework-native fix snippets for React Email, MJML, and Maizzle. `npx -y @emailens/mcp`"
+        surrounding_text: >-
+          - [emailens/mcp](https://github.com/emailens/mcp) [![emailens/mcp MCP
+          server](https://glama.ai/mcp/servers/emailens/mcp/badges/score.svg)](https://glama.ai/mcp/servers/emailens/mcp)
+          🎖️ 📇 ☁️ - Official MCP server for Emailens, the rendering linter for email. Lint HTML email for rendering
+          issues across 15 clients (Gmail, Outlook, Apple Mail and more), score CSS compatibility 0-100 per client,
+          simulate dark mode, and get framework-native fix snippets for React Email, MJML, and Maizzle. `npx -y
+          @emailens/mcp`
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: emailens/mcp
     html_url: https://github.com/emailens/mcp
-    created_at: "2026-02-25T16:56:07Z"
-    pushed_at: "2026-08-26T19:55:09Z"
-    description: "MCP server for email compatibility analysis: preview, audit, fix, diff, and check deliverability across 21 email clients."
+    created_at: '2026-02-25T16:56:07Z'
+    pushed_at: '2026-08-26T19:55:09Z'
+    description: >-
+      MCP server for email compatibility analysis: preview, audit, fix, diff, and check deliverability across 21 email
+      clients.
     homepage: https://emailens.dev/mcp
     topics:
       - ai
@@ -43,13 +51,17 @@ metadata:
       - email-testing
       - mcp
       - model-context-protocol
-    last_checked_at: "2026-08-27T09:23:23.612Z"
+    last_checked_at: '2026-08-27T09:23:23.612Z'
     readme:
-      fetched_at: "2026-08-27T09:23:23.612Z"
+      fetched_at: '2026-08-27T09:23:23.612Z'
       bytes: 11782
 insights:
-  summary: An MCP server that enables AI assistants to analyze, preview, and audit email HTML compatibility across 21 different email clients.
-  why_it_matters: It allows developers to use AI assistants to catch complex CSS and HTML rendering issues in email templates before they are sent.
+  summary: >-
+    An MCP server that enables AI assistants to analyze, preview, and audit email HTML compatibility across 21 different
+    email clients.
+  why_it_matters: >-
+    It allows developers to use AI assistants to catch complex CSS and HTML rendering issues in email templates before
+    they are sent.
   mental_damage: Because manually checking if a div works in Outlook 2016 was apparently too much for a human to handle alone.
   tags:
     - mcp
@@ -60,32 +72,37 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool is explicitly an MCP server whose primary identity is providing specialized email testing capabilities to AI assistants via the Model Context Protocol.
+  reason: >-
+    The tool is explicitly an MCP server whose primary identity is providing specialized email testing capabilities to
+    AI assistants via the Model Context Protocol.
   evidence:
     - Repo description and README explicitly define it as an MCP server.
-    - It provides specific domain tools like `preview_email` and `analyze_email` for use within MCP-compatible assistants.
+    - >-
+      It provides specific domain tools like `preview_email` and `analyze_email` for use within MCP-compatible
+      assistants.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-27T05:20:52.309Z"
+    updated_at: '2026-07-27T05:20:52.309Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-14T04:13:48.930Z"
+    updated_at: '2026-09-14T04:13:48.930Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for emailens/mcp
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-01T14:32:53.466Z"
+    updated_at: '2026-09-01T14:32:53.466Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,14 +113,20 @@ processing:
       input_hash: sha256:f6c227ddc3cf5799023693c99b63831d0eed3ce5fc25370efb84c873289aed0f
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The tool is explicitly an MCP server whose primary identity is providing specialized email testing capabilities to AI assistants via the Model Context Protocol.
+      decision_reason: >-
+        The tool is explicitly an MCP server whose primary identity is providing specialized email testing capabilities
+        to AI assistants via the Model Context Protocol.
       decision_evidence:
         - Repo description and README explicitly define it as an MCP server.
-        - It provides specific domain tools like `preview_email` and `analyze_email` for use within MCP-compatible assistants.
+        - >-
+          It provides specific domain tools like `preview_email` and `analyze_email` for use within MCP-compatible
+          assistants.
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is defined by its implementation of the Model Context Protocol rather than being a general-purpose host extension.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is defined by its implementation of the Model Context
+        Protocol rather than being a general-purpose host extension.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

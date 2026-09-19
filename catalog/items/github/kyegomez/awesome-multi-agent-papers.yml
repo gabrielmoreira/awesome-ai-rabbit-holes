@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kyegomez__awesome-multi-agent-papers__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -19,7 +19,9 @@ provenance:
           - Related Awesome Lists
         anchor_text: awesome-multi-agent-papers
         extracted_url: https://github.com/kyegomez/awesome-multi-agent-papers
-        surrounding_text: "- [awesome-multi-agent-papers](https://github.com/kyegomez/awesome-multi-agent-papers) - Multi-agent research papers"
+        surrounding_text: >-
+          - [awesome-multi-agent-papers](https://github.com/kyegomez/awesome-multi-agent-papers) - Multi-agent research
+          papers
         confidence: high
 metadata:
   github:
@@ -29,8 +31,8 @@ metadata:
     archived: false
     full_name: kyegomez/awesome-multi-agent-papers
     html_url: https://github.com/kyegomez/awesome-multi-agent-papers
-    created_at: "2024-02-21T19:45:57Z"
-    pushed_at: "2026-07-04T23:01:12Z"
+    created_at: '2024-02-21T19:45:57Z'
+    pushed_at: '2026-07-04T23:01:12Z'
     description: A compilation of the best multi-agent papers
     homepage: https://discord.gg/3keGBK9Pvr
     topics:
@@ -49,13 +51,15 @@ metadata:
       - swarms-of-agents
       - transformers
       - transformers-models
-    last_checked_at: "2026-07-30T05:06:01.916Z"
+    last_checked_at: '2026-07-30T05:06:01.916Z'
     readme:
-      fetched_at: "2026-07-30T05:06:01.916Z"
+      fetched_at: '2026-07-30T05:06:01.916Z'
       bytes: 38638
 insights:
   summary: A curated list of research papers on multi-agent systems and swarm intelligence for AI agents.
-  why_it_matters: Provides developers with a centralized resource to explore cutting-edge research in multi-agent collaboration, system design, and orchestration.
+  why_it_matters: >-
+    Provides developers with a centralized resource to explore cutting-edge research in multi-agent collaboration,
+    system design, and orchestration.
   mental_damage: Another list to bookmark and never revisit, because who has time to read papers when you're busy shipping agents.
   tags:
     - multi-agent
@@ -65,32 +69,31 @@ insights:
     - agent-orchestration
   confidence: high
 curation:
-  status: included
-  reason: This is a curated directory of research papers, which fits the 'Awesome Awesomes' category as a navigation aid for developers exploring multi-agent systems.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Repo description explicitly states it is a compilation of multi-agent papers
-    - README confirms it is an 'awesome list' of research papers curated by the Swarms team
-    - Source-list context shows it is included in 'awesome-agent-orchestration' under 'Related Awesome Lists'
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (1463) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:01.916Z"
+    updated_at: '2026-07-30T05:06:01.916Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:14:27.432Z"
+    updated_at: '2026-07-21T16:14:27.432Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -103,7 +106,9 @@ processing:
       input_hash: sha256:3e783cce56a97ea1b8f59ea9dbf52aea8f3607d29c3e2eee7b080d27f362dea9
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: This is a curated directory of research papers, which fits the 'Awesome Awesomes' category as a navigation aid for developers exploring multi-agent systems.
+      decision_reason: >-
+        This is a curated directory of research papers, which fits the 'Awesome Awesomes' category as a navigation aid
+        for developers exploring multi-agent systems.
       decision_evidence:
         - Repo description explicitly states it is a compilation of multi-agent papers
         - README confirms it is an 'awesome list' of research papers curated by the Swarms team
@@ -111,6 +116,8 @@ processing:
       category_candidates:
         - awesome-awesomes
         - agent-orchestration
-      contrastive_reason: Choose awesome-awesomes over agent-orchestration because the primary value is discovery and navigation of research, not an operational orchestration platform.
+      contrastive_reason: >-
+        Choose awesome-awesomes over agent-orchestration because the primary value is discovery and navigation of
+        research, not an operational orchestration platform.
       review_reason: null
       review_resume_lifecycle: null

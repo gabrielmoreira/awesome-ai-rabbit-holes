@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jorkal-crypto__jorkal-nft-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-08T05:39:05.247Z"
+      discovered_at: '2026-06-08T05:39:05.247Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: jorkal-crypto/jorkal-nft-mcp
         extracted_url: https://github.com/jorkal-crypto/jorkal-nft-mcp
-        surrounding_text: "- [jorkal-crypto/jorkal-nft-mcp](https://github.com/jorkal-crypto/jorkal-nft-mcp) [![jorkal-crypto/jorkal-nft-mcp MCP server](https://glama.ai/mcp/servers/jorkal-crypto/jorkal-nft-mcp/badges/score.svg)](https://glama.ai/mcp/servers/jorkal-crypto/jorkal-nft-mcp) 📇 ☁️ - Solana NFT market data from Magic Eden — floor prices, cheapest listings, collection stats, and wallet holdings. Pay-per-call via x402 micropayments (USDC on Base mainnet)."
+        surrounding_text: >-
+          - [jorkal-crypto/jorkal-nft-mcp](https://github.com/jorkal-crypto/jorkal-nft-mcp)
+          [![jorkal-crypto/jorkal-nft-mcp MCP
+          server](https://glama.ai/mcp/servers/jorkal-crypto/jorkal-nft-mcp/badges/score.svg)](https://glama.ai/mcp/servers/jorkal-crypto/jorkal-nft-mcp)
+          📇 ☁️ - Solana NFT market data from Magic Eden — floor prices, cheapest listings, collection stats, and wallet
+          holdings. Pay-per-call via x402 micropayments (USDC on Base mainnet).
         confidence: high
 metadata:
   github:
@@ -30,18 +35,24 @@ metadata:
     archived: false
     full_name: jorkal-crypto/jorkal-nft-mcp
     html_url: https://github.com/jorkal-crypto/jorkal-nft-mcp
-    created_at: "2026-05-16T08:36:20Z"
-    pushed_at: "2026-06-01T08:52:36Z"
-    description: MCP server for Solana NFT market data — floor prices, listings, stats, wallet holdings. Powered by x402 micropayments.
+    created_at: '2026-05-16T08:36:20Z'
+    pushed_at: '2026-06-01T08:52:36Z'
+    description: >-
+      MCP server for Solana NFT market data — floor prices, listings, stats, wallet holdings. Powered by x402
+      micropayments.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:51.955Z"
+    last_checked_at: '2026-07-30T05:05:51.955Z'
     readme:
-      fetched_at: "2026-07-30T05:05:51.955Z"
+      fetched_at: '2026-07-30T05:05:51.955Z'
       bytes: 1860
 insights:
-  summary: An MCP server providing real-time Solana NFT market data, such as floor prices and wallet holdings, via x402 micropayments.
-  why_it_matters: It allows developers to equip their AI agents with real-time, domain-specific crypto market intelligence through a standardized protocol.
+  summary: >-
+    An MCP server providing real-time Solana NFT market data, such as floor prices and wallet holdings, via x402
+    micropayments.
+  why_it_matters: >-
+    It allows developers to equip their AI agents with real-time, domain-specific crypto market intelligence through a
+    standardized protocol.
   mental_damage: Because your coding assistant now needs a crypto wallet and a micropayment budget just to check a floor price.
   tags:
     - mcp
@@ -52,31 +63,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation designed to expose a specific data domain to MCP-compatible clients.
+  reason: >-
+    The project is explicitly an MCP server implementation designed to expose a specific data domain to MCP-compatible
+    clients.
   evidence:
     - Repo description identifies it as an MCP server for Solana NFT market data
     - README provides specific MCP tool definitions like nft_floor and nft_stats
     - The tool identity is centered on the Model Context Protocol integration
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-08T05:39:05.248Z"
+    updated_at: '2026-06-08T05:39:05.248Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:51.955Z"
+    updated_at: '2026-07-30T05:05:51.955Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-29T05:47:18.212Z"
+    updated_at: '2026-06-29T05:47:18.212Z'
     cause: null
     next_retry_at: null
     attempts: 1

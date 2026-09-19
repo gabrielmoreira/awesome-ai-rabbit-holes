@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__katspaugh__machine__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-06-18T05:40:04.065Z"
+      discovered_at: '2026-06-18T05:40:04.065Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Agent infrastructure
         anchor_text: machine
         extracted_url: https://github.com/katspaugh/machine
-        surrounding_text: "- **[machine](https://github.com/katspaugh/machine)** `⭐ 9` — Provisions one isolated Lima VM per GitHub project as a sandbox for Claude Code/Codex, with Docker, Node, and signed git preconfigured. MIT."
+        surrounding_text: >-
+          - **[machine](https://github.com/katspaugh/machine)** `⭐ 9` — Provisions one isolated Lima VM per GitHub
+          project as a sandbox for Claude Code/Codex, with Docker, Node, and signed git preconfigured. MIT.
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: katspaugh/machine
     html_url: https://github.com/katspaugh/machine
-    created_at: "2026-05-13T15:41:44Z"
-    pushed_at: "2026-07-20T10:41:55Z"
+    created_at: '2026-05-13T15:41:44Z'
+    pushed_at: '2026-07-20T10:41:55Z'
     description: One isolated Lima VM per GitHub project — sandboxed Claude Code/Codex, Docker, Node, signed git
     homepage: https://runmachine.dev
     topics:
@@ -42,14 +44,20 @@ metadata:
       - macos
       - sandbox
       - vm
-    last_checked_at: "2026-07-30T05:05:55.187Z"
+    last_checked_at: '2026-07-30T05:05:55.187Z'
     readme:
-      fetched_at: "2026-07-30T05:05:55.187Z"
+      fetched_at: '2026-07-30T05:05:55.187Z'
       bytes: 29733
 insights:
-  summary: A tool that boots an isolated Lima VM for each GitHub project to provide a sandboxed environment for AI agents like Claude Code.
-  why_it_matters: It solves the security and environment configuration problem by providing a pre-provisioned, disposable sandbox that prevents agents from accessing your host filesystem or keys.
-  mental_damage: Now you can let an agent with 'auto' permission run destructive commands without fearing for your actual local environment.
+  summary: >-
+    A tool that boots an isolated Lima VM for each GitHub project to provide a sandboxed environment for AI agents like
+    Claude Code.
+  why_it_matters: >-
+    It solves the security and environment configuration problem by providing a pre-provisioned, disposable sandbox that
+    prevents agents from accessing your host filesystem or keys.
+  mental_damage: >-
+    Now you can let an agent with 'auto' permission run destructive commands without fearing for your actual local
+    environment.
   tags:
     - sandboxing
     - lima
@@ -59,31 +67,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is an integration layer that augments existing agents (like Claude Code) with secure, pre-configured host capabilities and execution environments.
+  reason: >-
+    It is an integration layer that augments existing agents (like Claude Code) with secure, pre-configured host
+    capabilities and execution environments.
   evidence:
     - README claims it solves the 'etup problem' and 'afety problem' for agents
     - Specifically mentions sandboxing Claude Code using Lima VMs
     - Provides tool profiles (Docker, Node, Cypress) to augment the agent's workspace
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-18T05:40:04.066Z"
+    updated_at: '2026-06-18T05:40:04.066Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:55.187Z"
+    updated_at: '2026-07-30T05:05:55.187Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-13T05:16:12.111Z"
+    updated_at: '2026-07-13T05:16:12.111Z'
     cause: null
     next_retry_at: null
     attempts: 3

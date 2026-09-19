@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cqfn__aibolit-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: cqfn/aibolit-mcp-server
         extracted_url: https://github.com/cqfn/aibolit-mcp-server
-        surrounding_text: "- [cqfn/aibolit-mcp-server](https://github.com/cqfn/aibolit-mcp-server) ☕ - Helping Your AI Agent Identify Hotspots for Refactoring; Help AI Understand How to 'Make Code Better'"
+        surrounding_text: >-
+          - [cqfn/aibolit-mcp-server](https://github.com/cqfn/aibolit-mcp-server) ☕ - Helping Your AI Agent Identify
+          Hotspots for Refactoring; Help AI Understand How to 'Make Code Better'
         confidence: high
 metadata:
   github:
@@ -30,21 +32,23 @@ metadata:
     archived: false
     full_name: cqfn/aibolit-mcp-server
     html_url: https://github.com/cqfn/aibolit-mcp-server
-    created_at: "2025-05-12T09:38:46Z"
-    pushed_at: "2026-04-07T15:54:54Z"
-    description: "MCP Server for Aibolit Java Static Analyzer: Helping Your AI Agent Identify Hotspots for Refactoring"
+    created_at: '2025-05-12T09:38:46Z'
+    pushed_at: '2026-04-07T15:54:54Z'
+    description: 'MCP Server for Aibolit Java Static Analyzer: Helping Your AI Agent Identify Hotspots for Refactoring'
     homepage: https://www.npmjs.com/package/aibolit-mcp-server
     topics:
       - ai
       - mcp-server
       - refactoring
-    last_checked_at: "2026-09-14T04:13:30.501Z"
+    last_checked_at: '2026-09-14T04:13:30.501Z'
     readme:
-      fetched_at: "2026-09-14T04:13:30.501Z"
+      fetched_at: '2026-09-14T04:13:30.501Z'
       bytes: 2323
 insights:
   summary: MCP server that exposes the Aibolit Java static analyzer to AI coding agents for identifying refactoring hotspots.
-  why_it_matters: It helps AI agents like Claude Code or Cursor focus on the most critical design issues in Java codebases rather than superficial changes.
+  why_it_matters: >-
+    It helps AI agents like Claude Code or Cursor focus on the most critical design issues in Java codebases rather than
+    superficial changes.
   mental_damage: Now your AI agent can finally stop pretending it knows what 'God Class' means and just ask Aibolit.
   tags:
     - mcp-server
@@ -55,31 +59,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server exposing a domain-specific tool (Aibolit Java analyzer) to AI agents."
+  reason: >-
+    MCP is the product identity: this is a dedicated MCP server exposing a domain-specific tool (Aibolit Java analyzer)
+    to AI agents.
   evidence:
     - Repo description explicitly states it is an MCP Server for Aibolit Java Static Analyzer
     - README shows it integrates with Claude Code/Cursor via MCP protocol
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.609Z"
+    updated_at: '2026-05-06T22:12:15.609Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:30.501Z"
+    updated_at: '2026-09-14T04:13:30.501Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:49:23.126Z"
+    updated_at: '2026-07-21T15:49:23.126Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -92,7 +99,9 @@ processing:
       input_hash: sha256:6d7a364d7a7543fd1f18b06f037640cba16f44ed43e70339f1e3e167c37973a3
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing a domain-specific tool (Aibolit Java analyzer) to AI agents."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server exposing a domain-specific tool (Aibolit Java
+        analyzer) to AI agents.
       decision_evidence:
         - Repo description explicitly states it is an MCP Server for Aibolit Java Static Analyzer
         - README shows it integrates with Claude Code/Cursor via MCP protocol
@@ -100,6 +109,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

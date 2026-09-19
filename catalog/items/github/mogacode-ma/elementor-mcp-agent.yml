@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mogacode-ma__elementor-mcp-agent__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-08T05:39:05.247Z"
+      discovered_at: '2026-06-08T05:39:05.247Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,14 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Mogacode-ma/elementor-mcp-agent
         extracted_url: https://github.com/mogacode-ma/elementor-mcp-agent
-        surrounding_text: "- [Mogacode-ma/elementor-mcp-agent](https://github.com/Mogacode-ma/elementor-mcp-agent) [![Mogacode-ma/elementor-mcp-agent MCP server](https://glama.ai/mcp/servers/Mogacode-ma/elementor-mcp-agent/badges/score.svg)](https://glama.ai/mcp/servers/Mogacode-ma/elementor-mcp-agent) 📇 ☁️/🏠 - Agency-grade MCP server for WordPress Elementor — multi-site management for 120+ WordPress sites with safe edits (backup + auto-rollback + post-write verification), template export/import, global widget detection, CSS flush, WP-CLI escape hatch, headless Chrome screenshots. 34 tools across pages, widgets, templates, bulk find/replace, and fleet operations."
+        surrounding_text: >-
+          - [Mogacode-ma/elementor-mcp-agent](https://github.com/Mogacode-ma/elementor-mcp-agent)
+          [![Mogacode-ma/elementor-mcp-agent MCP
+          server](https://glama.ai/mcp/servers/Mogacode-ma/elementor-mcp-agent/badges/score.svg)](https://glama.ai/mcp/servers/Mogacode-ma/elementor-mcp-agent)
+          📇 ☁️/🏠 - Agency-grade MCP server for WordPress Elementor — multi-site management for 120+ WordPress sites
+          with safe edits (backup + auto-rollback + post-write verification), template export/import, global widget
+          detection, CSS flush, WP-CLI escape hatch, headless Chrome screenshots. 34 tools across pages, widgets,
+          templates, bulk find/replace, and fleet operations.
         confidence: high
 metadata:
   github:
@@ -30,9 +37,11 @@ metadata:
     archived: false
     full_name: Mogacode-ma/elementor-mcp-agent
     html_url: https://github.com/Mogacode-ma/elementor-mcp-agent
-    created_at: "2026-05-21T17:20:29Z"
-    pushed_at: "2026-07-17T17:37:26Z"
-    description: Agency-grade MCP server for WordPress Elementor — multi-site management, safe Elementor data editing, template export/import, version tracking. MIT.
+    created_at: '2026-05-21T17:20:29Z'
+    pushed_at: '2026-07-17T17:37:26Z'
+    description: >-
+      Agency-grade MCP server for WordPress Elementor — multi-site management, safe Elementor data editing, template
+      export/import, version tracking. MIT.
     homepage: null
     topics:
       - agency
@@ -44,14 +53,20 @@ metadata:
       - multi-site
       - typescript
       - wordpress
-    last_checked_at: "2026-08-03T05:17:06.700Z"
+    last_checked_at: '2026-08-03T05:17:06.700Z'
     readme:
-      fetched_at: "2026-08-03T05:17:06.700Z"
+      fetched_at: '2026-08-03T05:17:06.700Z'
       bytes: 10432
 insights:
-  summary: An agency-grade MCP server for WordPress Elementor that exposes multi-site management, safe data editing with backup and rollback, template export/import, and screenshots to any MCP client.
-  why_it_matters: It lets agencies delegate Elementor site maintenance to Claude or other MCP clients without risking production pages, thanks to hardcoded guardrails, real backups, and two-call destructive confirmations.
-  mental_damage: We have reached the stage of the AI tooling cycle where 'agency-grade WordPress auto-rollback' is a genuine differentiator for an MCP server.
+  summary: >-
+    An agency-grade MCP server for WordPress Elementor that exposes multi-site management, safe data editing with backup
+    and rollback, template export/import, and screenshots to any MCP client.
+  why_it_matters: >-
+    It lets agencies delegate Elementor site maintenance to Claude or other MCP clients without risking production
+    pages, thanks to hardcoded guardrails, real backups, and two-call destructive confirmations.
+  mental_damage: >-
+    We have reached the stage of the AI tooling cycle where 'agency-grade WordPress auto-rollback' is a genuine
+    differentiator for an MCP server.
   tags:
     - mcp
     - wordpress
@@ -61,32 +76,37 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The project's entire identity is as an MCP server implementing the Model Context Protocol for a specific CMS domain; it belongs in MCP Servers & Tooling as a domain-specific server.
+  reason: >-
+    The project's entire identity is as an MCP server implementing the Model Context Protocol for a specific CMS domain;
+    it belongs in MCP Servers & Tooling as a domain-specific server.
   evidence:
     - Repo description explicitly labels it an 'Agency-grade MCP server for WordPress Elementor'.
-    - README centers on MCP client configuration, Claude Desktop integration, and tool enumeration for Elementor operations.
+    - >-
+      README centers on MCP client configuration, Claude Desktop integration, and tool enumeration for Elementor
+      operations.
     - Already listed in awesome-mcp-servers under Server Implementations > Developer Tools.
     - Created 2026-05-21 and pushed 2026-06-07; actively maintained but very early traction with only 2 stars.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-08T05:39:05.248Z"
+    updated_at: '2026-06-08T05:39:05.248Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:06.700Z"
+    updated_at: '2026-08-03T05:17:06.700Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-16T05:06:15.469Z"
+    updated_at: '2026-07-16T05:06:15.469Z'
     cause: null
     next_retry_at: null
     attempts: 4

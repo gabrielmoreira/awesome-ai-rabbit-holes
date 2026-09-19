@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__janreges__ai-distiller__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: janreges/ai-distiller-mcp
         extracted_url: https://github.com/janreges/ai-distiller
-        surrounding_text: "- [janreges/ai-distiller-mcp](https://github.com/janreges/ai-distiller) 🏎️ 🏠 - Extracts essential code structure from large codebases into AI-digestible format, helping AI agents write code that correctly uses existing APIs on the first attempt."
+        surrounding_text: >-
+          - [janreges/ai-distiller-mcp](https://github.com/janreges/ai-distiller) 🏎️ 🏠 - Extracts essential code
+          structure from large codebases into AI-digestible format, helping AI agents write code that correctly uses
+          existing APIs on the first attempt.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,25 @@ metadata:
     archived: false
     full_name: janreges/ai-distiller
     html_url: https://github.com/janreges/ai-distiller
-    created_at: "2025-06-13T17:02:27Z"
-    pushed_at: "2026-05-25T01:12:33Z"
-    description: AI Distiller is ultra‑fast, open‑source tool for intelligently extracting only the essential public APIs, types, and structure from large codebases. Compresses 90–98% of code into AI‑friendly context, integrates via CLI or MCP, supports 12+ languages, and AI prompt workflows for cleaner, cost‑effective AI development.
-    homepage: ""
+    created_at: '2025-06-13T17:02:27Z'
+    pushed_at: '2026-05-25T01:12:33Z'
+    description: >-
+      AI Distiller is ultra‑fast, open‑source tool for intelligently extracting only the essential public APIs, types,
+      and structure from large codebases. Compresses 90–98% of code into AI‑friendly context, integrates via CLI or MCP,
+      supports 12+ languages, and AI prompt workflows for cleaner, cost‑effective AI development.
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:05:48.028Z"
+    last_checked_at: '2026-07-30T05:05:48.028Z'
     readme:
-      fetched_at: "2026-07-30T05:05:48.028Z"
+      fetched_at: '2026-07-30T05:05:48.028Z'
       bytes: 52197
 insights:
-  summary: AI Distiller is an open-source CLI tool that compresses large codebases into AI-friendly context by extracting only essential public APIs, types, and structure, reducing volume by 90–98%.
-  why_it_matters: It solves the problem of AI assistants hallucinating or guessing interfaces in large codebases by providing distilled, dependency-aware context that fits within model limits.
+  summary: >-
+    AI Distiller is an open-source CLI tool that compresses large codebases into AI-friendly context by extracting only
+    essential public APIs, types, and structure, reducing volume by 90–98%.
+  why_it_matters: >-
+    It solves the problem of AI assistants hallucinating or guessing interfaces in large codebases by providing
+    distilled, dependency-aware context that fits within model limits.
   mental_damage: Finally, a way to stop your AI from writing code that compiles in its dreams but explodes in your repo.
   tags:
     - context-compression
@@ -52,31 +62,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core novelty is context compression and distillation for AI workflows, not host integration or primary coding assistance.
+  reason: >-
+    The core novelty is context compression and distillation for AI workflows, not host integration or primary coding
+    assistance.
   evidence:
     - Repo description explicitly states it compresses 90–98% of code into AI-friendly context
     - README emphasizes 'code distillation' as the main function to solve context window limitations
     - MCP server is a secondary integration, not the primary product identity
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Compression & Token Optimization
 lifecycle:
   status: promotion_candidate
   reason: Stars (153) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:48.028Z"
+    updated_at: '2026-07-30T05:05:48.028Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:00.103Z"
+    updated_at: '2026-07-21T16:10:00.103Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +102,9 @@ processing:
       input_hash: sha256:e1ed45a99cb588d2dbd14c003b6a0e5601645880c655d5effceb2ca80c8a97ee
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: The core novelty is context compression and distillation for AI workflows, not host integration or primary coding assistance.
+      decision_reason: >-
+        The core novelty is context compression and distillation for AI workflows, not host integration or primary
+        coding assistance.
       decision_evidence:
         - Repo description explicitly states it compresses 90–98% of code into AI-friendly context
         - README emphasizes 'code distillation' as the main function to solve context window limitations
@@ -97,6 +112,8 @@ processing:
       category_candidates:
         - context-engineering
         - mcp
-      contrastive_reason: Choose context-engineering over mcp because the primary product identity is code distillation/compression, not MCP infrastructure (the MCP server is an optional integration).
+      contrastive_reason: >-
+        Choose context-engineering over mcp because the primary product identity is code distillation/compression, not
+        MCP infrastructure (the MCP server is an optional integration).
       review_reason: null
       review_resume_lifecycle: null

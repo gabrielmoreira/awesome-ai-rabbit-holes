@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__rivestack__io__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,12 @@ provenance:
           - Vector search
         anchor_text: Rivestack
         extracted_url: https://rivestack.io
-        surrounding_text: "| [Rivestack](https://rivestack.io)                         | Managed PostgreSQL with pgvector for AI workloads. Built-in SQL editor lets you query your database with natural language (auto-converted to vector embeddings). Free tier includes 2GB storage.                                                                                                                                                                   |                                                                                                       |"
+        surrounding_text: >-
+          | [Rivestack](https://rivestack.io)                         | Managed PostgreSQL with pgvector for AI
+          workloads. Built-in SQL editor lets you query your database with natural language (auto-converted to vector
+          embeddings). Free tier includes 2GB
+          storage.                                                                                                                                                                  
+          |                                                                                                       |
         confidence: high
 metadata:
   github:
@@ -37,8 +42,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Managed PostgreSQL with optimized pgvector on dedicated NVMe storage for AI workloads, offering low-latency vector search and built-in semantic search tools.
-  why_it_matters: Developers can consolidate vector and relational data in a single database with predictable pricing and high-performance vector search, avoiding the complexity of separate vector DBs or cold-start issues.
+  summary: >-
+    Managed PostgreSQL with optimized pgvector on dedicated NVMe storage for AI workloads, offering low-latency vector
+    search and built-in semantic search tools.
+  why_it_matters: >-
+    Developers can consolidate vector and relational data in a single database with predictable pricing and
+    high-performance vector search, avoiding the complexity of separate vector DBs or cold-start issues.
   mental_damage: Finally, a way to stop pretending your Supabase bill is just a rounding error.
   tags:
     - postgresql
@@ -49,21 +58,23 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a managed infrastructure product for vector search in PostgreSQL, fitting best as a code-first building block for AI workflows rather than a coding assistant, IDE, or orchestration tool.
+  reason: >-
+    This is a managed infrastructure product for vector search in PostgreSQL, fitting best as a code-first building
+    block for AI workflows rather than a coding assistant, IDE, or orchestration tool.
   evidence:
     - Primary product is managed PostgreSQL with pgvector optimization for AI workloads
     - Source-list context places it under 'Search > Vector search' in LLMOps tools
     - Offers semantic search, table editor, and AI SQL editor as built-in features
 placement:
   primary_category: ai-frameworks
-  section: Memory / Retrieval Infrastructure
+  section: Memory & Retrieval Infrastructure
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause: null
     next_retry_at: null
   stars:
@@ -72,7 +83,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:08.256Z"
+    updated_at: '2026-07-21T15:31:08.256Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -85,7 +96,9 @@ processing:
       input_hash: sha256:1d2b15e2c33b3637fbede3b10177a2585bb60c3048f4d828c9137fcd811f0fa0
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: This is a managed infrastructure product for vector search in PostgreSQL, fitting best as a code-first building block for AI workflows rather than a coding assistant, IDE, or orchestration tool.
+      decision_reason: >-
+        This is a managed infrastructure product for vector search in PostgreSQL, fitting best as a code-first building
+        block for AI workflows rather than a coding assistant, IDE, or orchestration tool.
       decision_evidence:
         - Primary product is managed PostgreSQL with pgvector optimization for AI workloads
         - Source-list context places it under 'Search > Vector search' in LLMOps tools
@@ -93,6 +106,8 @@ processing:
       category_candidates:
         - ai-frameworks
         - context-engineering
-      contrastive_reason: Choose ai-frameworks over context-engineering because the core product is a managed database service (infrastructure) rather than a retrieval or prompt management system.
+      contrastive_reason: >-
+        Choose ai-frameworks over context-engineering because the core product is a managed database service
+        (infrastructure) rather than a retrieval or prompt management system.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__frowningdev__django-orm-lens__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-27T05:20:52.308Z"
+      discovered_at: '2026-07-27T05:20:52.308Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,16 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: FROWNINGdev/django-orm-lens
         extracted_url: https://github.com/frowningdev/django-orm-lens
-        surrounding_text: "- [FROWNINGdev/django-orm-lens](https://github.com/FROWNINGdev/django-orm-lens) [![FROWNINGdev/django-orm-lens MCP server](https://glama.ai/mcp/servers/FROWNINGdev/django-orm-lens/badges/score.svg)](https://glama.ai/mcp/servers/FROWNINGdev/django-orm-lens) 🐍 🏠 🍎 🪟 🐧 - Django ORM static-analysis MCP server. Nine read-only tools (`list_apps`, `list_models`, `describe_model`, `find_relations`, `cascade_preview`, `er_diagram`, `describe_migration_dependency`, `suggest_indexes`, `signal_graph`) that expose Django schema, relationships (FK/M2M/O2O, on_delete, related_name), migration deps, missing indexes, and signal graphs — no DB, no Django boot, no credentials. Companion to a VS Code / VSCodium / Cursor extension (Open VSX verified) and a `django-orm-lens` PyPI CLI. `pip install django-orm-lens[mcp]`."
+        surrounding_text: >-
+          - [FROWNINGdev/django-orm-lens](https://github.com/FROWNINGdev/django-orm-lens) [![FROWNINGdev/django-orm-lens
+          MCP
+          server](https://glama.ai/mcp/servers/FROWNINGdev/django-orm-lens/badges/score.svg)](https://glama.ai/mcp/servers/FROWNINGdev/django-orm-lens)
+          🐍 🏠 🍎 🪟 🐧 - Django ORM static-analysis MCP server. Nine read-only tools (`list_apps`, `list_models`,
+          `describe_model`, `find_relations`, `cascade_preview`, `er_diagram`, `describe_migration_dependency`,
+          `suggest_indexes`, `signal_graph`) that expose Django schema, relationships (FK/M2M/O2O, on_delete,
+          related_name), migration deps, missing indexes, and signal graphs — no DB, no Django boot, no credentials.
+          Companion to a VS Code / VSCodium / Cursor extension (Open VSX verified) and a `django-orm-lens` PyPI CLI.
+          `pip install django-orm-lens[mcp]`.
         confidence: high
 metadata:
   github:
@@ -30,9 +39,11 @@ metadata:
     archived: false
     full_name: FROWNINGdev/django-orm-lens
     html_url: https://github.com/FROWNINGdev/django-orm-lens
-    created_at: "2026-07-12T19:37:45Z"
-    pushed_at: "2026-09-03T03:45:00Z"
-    description: Free, MIT alternative to paid Django schema review. Blast radius on every PR, schema drift, N+1 across functions, ER diagrams, MCP server. No DB, no Django boot, no Pro tier.
+    created_at: '2026-07-12T19:37:45Z'
+    pushed_at: '2026-09-03T03:45:00Z'
+    description: >-
+      Free, MIT alternative to paid Django schema review. Blast radius on every PR, schema drift, N+1 across functions,
+      ER diagrams, MCP server. No DB, no Django boot, no Pro tier.
     homepage: https://frowningdev.github.io/django-orm-lens/
     topics:
       - ai-agents
@@ -55,14 +66,20 @@ metadata:
       - schema-visualization
       - static-analysis
       - vscode-extension
-    last_checked_at: "2026-09-03T05:16:44.319Z"
+    last_checked_at: '2026-09-03T05:16:44.319Z'
     readme:
-      fetched_at: "2026-09-03T05:16:44.319Z"
+      fetched_at: '2026-09-03T05:16:44.319Z'
       bytes: 52073
 insights:
-  summary: A static analysis tool for Django that provides schema intelligence through VS Code extensions, a CLI, and an MCP server.
-  why_it_matters: It allows developers and AI agents to perform deep schema analysis, N+1 detection, and migration impact studies using static parsing without requiring a running database or environment.
-  mental_damage: Because understanding your own database schema is much easier when you just outsource the archaeology to an MCP server.
+  summary: >-
+    A static analysis tool for Django that provides schema intelligence through VS Code extensions, a CLI, and an MCP
+    server.
+  why_it_matters: >-
+    It allows developers and AI agents to perform deep schema analysis, N+1 detection, and migration impact studies
+    using static parsing without requiring a running database or environment.
+  mental_damage: >-
+    Because understanding your own database schema is much easier when you just outsource the archaeology to an MCP
+    server.
   tags:
     - django
     - mcp
@@ -72,31 +89,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's primary AI value is providing structured, ground-truth schema context to agents through MCP and static analysis, effectively serving as a specialized context retrieval layer for Django.
+  reason: >-
+    The tool's primary AI value is providing structured, ground-truth schema context to agents through MCP and static
+    analysis, effectively serving as a specialized context retrieval layer for Django.
   evidence:
     - Provides 13 read-only MCP tools for answering schema questions from ground truth
     - Uses static parsing to provide schema intelligence without a database or Django boot
     - Offers a multi-surface distribution including a VS Code extension, CLI, and MCP server
 placement:
-  primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  primary_category: mcp
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-27T05:20:52.309Z"
+    updated_at: '2026-07-27T05:20:52.309Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:44.319Z"
+    updated_at: '2026-09-03T05:16:44.319Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-07T04:14:40.010Z"
+    updated_at: '2026-09-07T04:14:40.010Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -107,7 +127,9 @@ processing:
       input_hash: sha256:f38b1de8a5b696aa02f5741e67a4753e4f5f5bac6b4f34ec3a93d2fd2845591d
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: The tool's primary AI value is providing structured, ground-truth schema context to agents through MCP and static analysis, effectively serving as a specialized context retrieval layer for Django.
+      decision_reason: >-
+        The tool's primary AI value is providing structured, ground-truth schema context to agents through MCP and
+        static analysis, effectively serving as a specialized context retrieval layer for Django.
       decision_evidence:
         - Provides 13 read-only MCP tools for answering schema questions from ground truth
         - Uses static parsing to provide schema intelligence without a database or Django boot
@@ -115,7 +137,9 @@ processing:
       category_candidates:
         - context-engineering
         - ai-dev-extensions
-      contrastive_reason: Choose context-engineering over ai-dev-extensions because the tool's core novelty for AI workflows is delivering schema-based ground truth and context to agents via MCP rather than just serving as a host integration layer.
+      contrastive_reason: >-
+        Choose context-engineering over ai-dev-extensions because the tool's core novelty for AI workflows is delivering
+        schema-based ground truth and context to agents via MCP rather than just serving as a host integration layer.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__malamutemayhem__unclick-agent-native-endpoints__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: malamutemayhem/unclick-agent-native-endpoints
         extracted_url: https://github.com/malamutemayhem/unclick-agent-native-endpoints
-        surrounding_text: "- [malamutemayhem/unclick-agent-native-endpoints](https://github.com/malamutemayhem/unclick-agent-native-endpoints) [![malamutemayhem/unclick-agent-native-endpoints MCP server](https://glama.ai/mcp/servers/malamutemayhem/unclick-agent-native-endpoints/badges/score.svg)](https://glama.ai/mcp/servers/malamutemayhem/unclick-agent-native-endpoints) 📇 🏠 🍎 🪟 🐧 - 110+ tools for AI agents spanning social media, finance, gaming, music, AU-specific services, and utilities. Zero-config local tools plus platform connectors. `npx @unclick/mcp-server`"
+        surrounding_text: >-
+          -
+          [malamutemayhem/unclick-agent-native-endpoints](https://github.com/malamutemayhem/unclick-agent-native-endpoints)
+          [![malamutemayhem/unclick-agent-native-endpoints MCP
+          server](https://glama.ai/mcp/servers/malamutemayhem/unclick-agent-native-endpoints/badges/score.svg)](https://glama.ai/mcp/servers/malamutemayhem/unclick-agent-native-endpoints)
+          📇 🏠 🍎 🪟 🐧 - 110+ tools for AI agents spanning social media, finance, gaming, music, AU-specific services,
+          and utilities. Zero-config local tools plus platform connectors. `npx @unclick/mcp-server`
         confidence: high
 metadata:
   github:
@@ -30,19 +36,25 @@ metadata:
     archived: false
     full_name: null
     html_url: null
-    created_at: "2026-04-06T05:28:34Z"
-    pushed_at: "2026-05-06T22:06:08Z"
+    created_at: '2026-04-06T05:28:34Z'
+    pushed_at: '2026-05-06T22:06:08Z'
     description: null
     homepage: https://unclick-agent-native-endpoints.vercel.app
     topics: []
-    last_checked_at: "2026-05-06T22:45:07.232Z"
+    last_checked_at: '2026-05-06T22:45:07.232Z'
     readme:
-      fetched_at: "2026-05-06T22:45:07.232Z"
+      fetched_at: '2026-05-06T22:45:07.232Z'
       bytes: 2879
 insights:
-  summary: An MCP server acting as a unified gateway to 450+ callable endpoints across 178+ tools, allowing any MCP-compatible AI client to access a wide catalog of third-party APIs without installing separate packages.
-  why_it_matters: Developers can give agents access to a sprawling catalog of utilities, social, finance, and messaging tools through a single server installation and API key.
-  mental_damage: We have successfully abstracted integration fatigue into a single dependency that still requires an API key, proving that the golden age of 'just one more gateway layer' is alive and well.
+  summary: >-
+    An MCP server acting as a unified gateway to 450+ callable endpoints across 178+ tools, allowing any MCP-compatible
+    AI client to access a wide catalog of third-party APIs without installing separate packages.
+  why_it_matters: >-
+    Developers can give agents access to a sprawling catalog of utilities, social, finance, and messaging tools through
+    a single server installation and API key.
+  mental_damage: >-
+    We have successfully abstracted integration fatigue into a single dependency that still requires an API key, proving
+    that the golden age of 'just one more gateway layer' is alive and well.
   tags:
     - mcp
     - tool-aggregation
@@ -51,37 +63,46 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server that aggregates and exposes hundreds of third-party endpoints to MCP-compatible clients, matching the MCP Servers & Tooling category.
+  reason: >-
+    The product identity is an MCP server that aggregates and exposes hundreds of third-party endpoints to
+    MCP-compatible clients, matching the MCP Servers & Tooling category.
   evidence:
-    - Repo name and README present it as '@unclick/mcp-server' with install instructions for claude_desktop_config.json, Cursor, and Windsurf.
-    - README states it provides '450+ callable endpoints across 178+ tools, available to any MCP-compatible AI client' through one server.
-    - Listed in awesome-mcp-servers under Server Implementations > Aggregators, reinforcing its MCP infrastructure identity.
+    - >-
+      Repo name and README present it as '@unclick/mcp-server' with install instructions for claude_desktop_config.json,
+      Cursor, and Windsurf.
+    - >-
+      README states it provides '450+ callable endpoints across 178+ tools, available to any MCP-compatible AI client'
+      through one server.
+    - >-
+      Listed in awesome-mcp-servers under Server Implementations > Aggregators, reinforcing its MCP infrastructure
+      identity.
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.628Z"
+    updated_at: '2026-05-06T22:12:15.628Z'
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: "2026-08-03T05:16:55.349Z"
+    updated_at: '2026-08-03T05:16:55.349Z'
     cause:
       type: github_repo_missing
-      message: "GitHub repository not found: malamutemayhem/unclick-agent-native-endpoints"
+      message: 'GitHub repository not found: malamutemayhem/unclick-agent-native-endpoints'
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__expertvagabond__solmail-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: ExpertVagabond/solmail-mcp
         extracted_url: https://github.com/expertvagabond/solmail-mcp
-        surrounding_text: "- [ExpertVagabond/solmail-mcp](https://github.com/ExpertVagabond/solmail-mcp) [![ExpertVagabond/solmail-mcp MCP server](https://glama.ai/mcp/servers/ExpertVagabond/solmail-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ExpertVagabond/solmail-mcp) 📇 ☁️ - Send physical mail with Solana payments — AI agents can compose, price, and send letters and postcards via cryptocurrency."
+        surrounding_text: >-
+          - [ExpertVagabond/solmail-mcp](https://github.com/ExpertVagabond/solmail-mcp) [![ExpertVagabond/solmail-mcp
+          MCP
+          server](https://glama.ai/mcp/servers/ExpertVagabond/solmail-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ExpertVagabond/solmail-mcp)
+          📇 ☁️ - Send physical mail with Solana payments — AI agents can compose, price, and send letters and postcards
+          via cryptocurrency.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: ExpertVagabond/solmail-mcp
     html_url: https://github.com/ExpertVagabond/solmail-mcp
-    created_at: "2026-02-03T00:21:59Z"
-    pushed_at: "2026-03-24T21:30:05Z"
+    created_at: '2026-02-03T00:21:59Z'
+    pushed_at: '2026-03-24T21:30:05Z'
     description: MCP server for sending physical mail with Solana cryptocurrency. Colosseum Agent Hackathon submission.
     homepage: |-
       - Creating gist solmail-mcp-quickstart.md
@@ -49,9 +54,9 @@ metadata:
       - physical-mail
       - solana
       - tools
-    last_checked_at: "2026-08-27T09:23:27.012Z"
+    last_checked_at: '2026-08-27T09:23:27.012Z'
     readme:
-      fetched_at: "2026-08-27T09:23:27.012Z"
+      fetched_at: '2026-08-27T09:23:27.012Z'
       bytes: 4057
 insights:
   summary: An MCP server that enables AI agents to send physical mail worldwide using Solana cryptocurrency for payment.
@@ -66,31 +71,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server designed to provide specific domain capabilities (physical mail via Solana) to host agents.
+  reason: >-
+    The project is explicitly an MCP server designed to provide specific domain capabilities (physical mail via Solana)
+    to host agents.
   evidence:
     - Repo description defines it as an 'MCP server for sending physical mail'
     - README provides an MCP config JSON implementation
     - Primary function is providing tools (`get_mail_quote`, `send_mail`) via the Model Context Protocol
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:27.012Z"
+    updated_at: '2026-08-27T09:23:27.012Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:54:29.028Z"
+    updated_at: '2026-07-21T15:54:29.028Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -103,7 +111,9 @@ processing:
       input_hash: sha256:ab68bc3647552aa6205f144db239c2d985814f04864710bd84fef8fb12113191
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is explicitly an MCP server designed to provide specific domain capabilities (physical mail via Solana) to host agents.
+      decision_reason: >-
+        The project is explicitly an MCP server designed to provide specific domain capabilities (physical mail via
+        Solana) to host agents.
       decision_evidence:
         - Repo description defines it as an 'MCP server for sending physical mail'
         - README provides an MCP config JSON implementation
@@ -111,6 +121,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's identity is a protocol-native server designed to be consumed by MCP-compatible clients, rather than a general IDE integration.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's identity is a protocol-native server designed to be
+        consumed by MCP-compatible clients, rather than a general IDE integration.
       review_reason: null
       review_resume_lifecycle: null

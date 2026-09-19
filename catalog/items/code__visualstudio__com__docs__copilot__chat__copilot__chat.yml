@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__code__visualstudio__com__docs__copilot__chat__copilot__chat__awesome-list__github__awesome-copilot
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: github/awesome-copilot
@@ -18,7 +18,9 @@ provenance:
           - 📚 Additional Resources
         anchor_text: GitHub Copilot Chat Documentation
         extracted_url: https://code.visualstudio.com/docs/copilot/chat/copilot-chat
-        surrounding_text: "- [GitHub Copilot Chat Documentation](https://code.visualstudio.com/docs/copilot/chat/copilot-chat) - Complete chat feature guide"
+        surrounding_text: >-
+          - [GitHub Copilot Chat Documentation](https://code.visualstudio.com/docs/copilot/chat/copilot-chat) - Complete
+          chat feature guide
         confidence: high
 metadata:
   github:
@@ -37,8 +39,12 @@ metadata:
     readme: null
 insights:
   summary: The conversational interface for GitHub Copilot within the Visual Studio Code editor.
-  why_it_matters: It provides multiple interaction surfaces—inline, sidebar, and an dedicated agents window—to perform natural language coding tasks, refactoring, and debugging directly in the IDE.
-  mental_damage: It turns your IDE into a conversation where you spend more time negotiating with a side panel than actually typing code.
+  why_it_matters: >-
+    It provides multiple interaction surfaces—inline, sidebar, and an dedicated agents window—to perform natural
+    language coding tasks, refactoring, and debugging directly in the IDE.
+  mental_damage: >-
+    It turns your IDE into a conversation where you spend more time negotiating with a side panel than actually typing
+    code.
   tags:
     - copilot
     - vscode
@@ -46,25 +52,26 @@ insights:
     - ai-assistance
   confidence: high
 curation:
-  status: included
-  reason: Copilot Chat is an extension that augments the VS Code editor with conversational capabilities rather than being a standalone IDE or the primary coding agent itself.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - The tool provides chat surfaces (Inline Chat, Chat View) that live within VS Code.
-    - "It augments the editor with features like context mentions (#file, #codebase) and code review overlays."
-    - The documentation describes it as a way to interact with agents within the existing VS Code environment.
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: ai-dev-extensions
-  section: IDE / UI / Workflow Add-ons
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -72,7 +79,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:30:59.781Z"
+    updated_at: '2026-07-20T15:30:59.781Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -85,14 +92,18 @@ processing:
       input_hash: sha256:ac8e7b04b03d5827a8c96c371446418224ce55729a6c373eaddf25bc0086b7ae
       proposed_primary_category: ai-dev-extensions
       disagreement: false
-      decision_reason: Copilot Chat is an extension that augments the VS Code editor with conversational capabilities rather than being a standalone IDE or the primary coding agent itself.
+      decision_reason: >-
+        Copilot Chat is an extension that augments the VS Code editor with conversational capabilities rather than being
+        a standalone IDE or the primary coding agent itself.
       decision_evidence:
         - The tool provides chat surfaces (Inline Chat, Chat View) that live within VS Code.
-        - "It augments the editor with features like context mentions (#file, #codebase) and code review overlays."
+        - 'It augments the editor with features like context mentions (#file, #codebase) and code review overlays.'
         - The documentation describes it as a way to interact with agents within the existing VS Code environment.
       category_candidates:
         - ai-dev-extensions
         - coding-agents
-      contrastive_reason: Choose ai-dev-extensions over coding-agents because the tool's primary identity is a host integration that augments the VS Code editor rather than being a standalone coding assistant.
+      contrastive_reason: >-
+        Choose ai-dev-extensions over coding-agents because the tool's primary identity is a host integration that
+        augments the VS Code editor rather than being a standalone coding assistant.
       review_reason: null
       review_resume_lifecycle: null

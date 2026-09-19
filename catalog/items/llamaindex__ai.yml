@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__llamaindex__ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-07-20T15:10:47.684Z"
+      discovered_at: '2026-07-20T15:10:47.684Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,10 +18,12 @@ provenance:
           - Developer tools
         anchor_text: LlamaIndex
         extracted_url: https://llamaindex.ai
-        surrounding_text: "- [LlamaIndex](https://www.llamaindex.ai/) - A data framework for building LLM applications over external data."
+        surrounding_text: >-
+          - [LlamaIndex](https://www.llamaindex.ai/) - A data framework for building LLM applications over external
+          data.
         confidence: high
     - id: discovery__llamaindex__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-20T15:10:47.684Z"
+      discovered_at: '2026-07-20T15:10:47.684Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,10 +35,12 @@ provenance:
           - AI Frameworks and SDKs
         anchor_text: LlamaIndex
         extracted_url: https://llamaindex.ai
-        surrounding_text: "- **[LlamaIndex](https://www.llamaindex.ai/)** – Data framework for connecting LLMs to external data sources with indexing and retrieval."
+        surrounding_text: >-
+          - **[LlamaIndex](https://www.llamaindex.ai/)** – Data framework for connecting LLMs to external data sources
+          with indexing and retrieval.
         confidence: high
     - id: discovery__www__llamaindex__ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -48,10 +52,12 @@ provenance:
           - Developer tools
         anchor_text: LlamaIndex
         extracted_url: https://www.llamaindex.ai
-        surrounding_text: "- [LlamaIndex](https://www.llamaindex.ai/) - A data framework for building LLM applications over external data."
+        surrounding_text: >-
+          - [LlamaIndex](https://www.llamaindex.ai/) - A data framework for building LLM applications over external
+          data.
         confidence: high
     - id: discovery__www__llamaindex__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -63,7 +69,9 @@ provenance:
           - AI Frameworks and SDKs
         anchor_text: LlamaIndex
         extracted_url: https://www.llamaindex.ai
-        surrounding_text: "- **[LlamaIndex](https://www.llamaindex.ai/)** – Data framework for connecting LLMs to external data sources with indexing and retrieval."
+        surrounding_text: >-
+          - **[LlamaIndex](https://www.llamaindex.ai/)** – Data framework for connecting LLMs to external data sources
+          with indexing and retrieval.
         confidence: high
 metadata:
   github:
@@ -81,9 +89,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: LlamaIndex is a framework and platform for building document processing workflows, including OCR (LlamaParse), indexing, retrieval, and agentic pipelines for unstructured data.
-  why_it_matters: It enables developers to parse, extract, and index complex documents (PDFs, tables, charts) with high accuracy for RAG, agent workflows, or enterprise automation.
-  mental_damage: Finally, a way to turn that 500-page PDF with nested tables into something an LLM can actually use—without manually copying text into prompts.
+  summary: >-
+    LlamaIndex is a framework and platform for building document processing workflows, including OCR (LlamaParse),
+    indexing, retrieval, and agentic pipelines for unstructured data.
+  why_it_matters: >-
+    It enables developers to parse, extract, and index complex documents (PDFs, tables, charts) with high accuracy for
+    RAG, agent workflows, or enterprise automation.
+  mental_damage: >-
+    Finally, a way to turn that 500-page PDF with nested tables into something an LLM can actually use—without manually
+    copying text into prompts.
   tags:
     - document-processing
     - rag
@@ -93,21 +107,26 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: LlamaIndex is primarily a code-first framework for document parsing, indexing, and retrieval, fitting the developer-tooling scope as a reusable building block for AI workflows.
+  reason: >-
+    LlamaIndex is primarily a code-first framework for document parsing, indexing, and retrieval, fitting the
+    developer-tooling scope as a reusable building block for AI workflows.
   evidence:
-    - Scraped site context describes LlamaParse (part of LlamaIndex) as 'agentic OCR for processing complex documents' with APIs and SDKs
+    - >-
+      Scraped site context describes LlamaParse (part of LlamaIndex) as 'agentic OCR for processing complex documents'
+      with APIs and SDKs
     - Source lists categorize it under 'AI Frameworks and SDKs' and 'Developer tools'
     - Core functionality includes parsing, extraction, indexing, and retrieval pipelines for unstructured data
 placement:
   primary_category: ai-frameworks
-  section: Memory / Retrieval Infrastructure
+  secondary_categories: []
+  section: LLM & Agent SDKs
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:35:22.095Z"
+    updated_at: '2026-07-21T15:35:22.095Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -120,20 +139,26 @@ processing:
       input_hash: sha256:70a111d1c17f958126898bec54b0bf20b31599b27e7a70ed1177b0bf9e70400a
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: LlamaIndex is primarily a code-first framework for document parsing, indexing, and retrieval, fitting the developer-tooling scope as a reusable building block for AI workflows.
+      decision_reason: >-
+        LlamaIndex is primarily a code-first framework for document parsing, indexing, and retrieval, fitting the
+        developer-tooling scope as a reusable building block for AI workflows.
       decision_evidence:
-        - Scraped site context describes LlamaParse (part of LlamaIndex) as 'agentic OCR for processing complex documents' with APIs and SDKs
+        - >-
+          Scraped site context describes LlamaParse (part of LlamaIndex) as 'agentic OCR for processing complex
+          documents' with APIs and SDKs
         - Source lists categorize it under 'AI Frameworks and SDKs' and 'Developer tools'
         - Core functionality includes parsing, extraction, indexing, and retrieval pipelines for unstructured data
       category_candidates:
         - ai-frameworks
         - context-engineering
-      contrastive_reason: Choose ai-frameworks over context-engineering because the primary identity is a code-first framework (LlamaIndex) with OCR/parsing as a core feature, not just a context or retrieval system.
+      contrastive_reason: >-
+        Choose ai-frameworks over context-engineering because the primary identity is a code-first framework
+        (LlamaIndex) with OCR/parsing as a core feature, not just a context or retrieval system.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T15:10:47.687Z"
+    updated_at: '2026-07-20T15:10:47.687Z'
     cause: null
     next_retry_at: null
   stars:

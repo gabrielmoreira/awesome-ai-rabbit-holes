@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gpt-open__rag-gpt__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,10 +19,13 @@ provenance:
           - 知识库 RAG
         anchor_text: RAG-GPT
         extracted_url: https://github.com/open-kf/rag-gpt
-        surrounding_text: "9. [RAG-GPT](https://github.com/open-kf/rag-gpt): RAG-GPT, leveraging LLM and RAG technology, learns from user-customized knowledge bases to provide contextually relevant answers for a wide range of queries, ensuring rapid and accurate information retrieval."
+        surrounding_text: >-
+          9. [RAG-GPT](https://github.com/open-kf/rag-gpt): RAG-GPT, leveraging LLM and RAG technology, learns from
+          user-customized knowledge bases to provide contextually relevant answers for a wide range of queries, ensuring
+          rapid and accurate information retrieval.
         confidence: high
     - id: discovery__github__lynavo__lynavo-drive__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,10 +37,13 @@ provenance:
           - 知识库 RAG
         anchor_text: RAG-GPT
         extracted_url: https://github.com/open-kf/rag-gpt
-        surrounding_text: "9. [RAG-GPT](https://github.com/open-kf/rag-gpt): RAG-GPT, leveraging LLM and RAG technology, learns from user-customized knowledge bases to provide contextually relevant answers for a wide range of queries, ensuring rapid and accurate information retrieval."
+        surrounding_text: >-
+          9. [RAG-GPT](https://github.com/open-kf/rag-gpt): RAG-GPT, leveraging LLM and RAG technology, learns from
+          user-customized knowledge bases to provide contextually relevant answers for a wide range of queries, ensuring
+          rapid and accurate information retrieval.
         confidence: high
     - id: discovery__github__lynavo__rag-gpt__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-06-29T05:38:18.519Z"
+      discovered_at: '2026-06-29T05:38:18.519Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -49,7 +55,10 @@ provenance:
           - 知识库 RAG
         anchor_text: RAG-GPT
         extracted_url: https://github.com/open-kf/rag-gpt
-        surrounding_text: "9. [RAG-GPT](https://github.com/open-kf/rag-gpt): RAG-GPT, leveraging LLM and RAG technology, learns from user-customized knowledge bases to provide contextually relevant answers for a wide range of queries, ensuring rapid and accurate information retrieval."
+        surrounding_text: >-
+          9. [RAG-GPT](https://github.com/open-kf/rag-gpt): RAG-GPT, leveraging LLM and RAG technology, learns from
+          user-customized knowledge bases to provide contextually relevant answers for a wide range of queries, ensuring
+          rapid and accurate information retrieval.
         confidence: high
 metadata:
   github:
@@ -59,9 +68,11 @@ metadata:
     archived: false
     full_name: Lynavo/lynavo-drive
     html_url: https://github.com/Lynavo/lynavo-drive
-    created_at: "2024-04-09T03:19:04Z"
-    pushed_at: "2026-08-01T01:47:24Z"
-    description: LynavoDrive (Lynavo Drive) by Lynavo - an open-source alternative to iCloud and Google Photos for private photo backup and computer file access.
+    created_at: '2024-04-09T03:19:04Z'
+    pushed_at: '2026-08-01T01:47:24Z'
+    description: >-
+      LynavoDrive (Lynavo Drive) by Lynavo - an open-source alternative to iCloud and Google Photos for private photo
+      backup and computer file access.
     homepage: https://drive.lynavo.io/
     topics:
       - google-photos
@@ -74,14 +85,18 @@ metadata:
       - photo-backup
       - private-cloud
       - self-hosted
-    last_checked_at: "2026-08-03T05:16:53.648Z"
+    last_checked_at: '2026-08-03T05:16:53.648Z'
     readme:
-      fetched_at: "2026-08-03T05:16:53.648Z"
+      fetched_at: '2026-08-03T05:16:53.648Z'
       bytes: 20743
 insights:
   summary: A full-stack RAG-based customer service system comprising a Flask backend, admin console, and chatbot interface.
-  why_it_matters: It provides a production-ready blueprint for developers to deploy a customized knowledge-base bot with integrated data ingestion and admin management.
-  mental_damage: The realization that we are now building 'AI customer service' bots to help users avoid talking to the humans who were replaced by these same bots.
+  why_it_matters: >-
+    It provides a production-ready blueprint for developers to deploy a customized knowledge-base bot with integrated
+    data ingestion and admin management.
+  mental_damage: >-
+    The realization that we are now building 'AI customer service' bots to help users avoid talking to the humans who
+    were replaced by these same bots.
   tags:
     - flask
     - google-photos-alternative
@@ -98,21 +113,12 @@ insights:
   confidence: high
 curation:
   status: pending
-  reason: Conflicting duplicate curation or placement requires review.
+  reason: 'Definitive manual audit: Reference implementation of a RAG chatbot, not a tool.'
   evidence:
-    - Repo description explicitly states it is an alternative to iCloud and Google Photos
-    - Homepage and README focus on media storage, not developer tooling
-    - "excluded: The project is a self-hosted photo and video storage solution, not a developer tool for AI workflows, coding, or agent orchestration."
-    - Repo description defines it as an alternative to iCloud and Google Photos
-    - README describes it as a media sync tool for mobile-to-desktop transfers
-    - No mention of AI, LLM, or development workflow augmentation in the README
-    - "excluded: The tool is a general-purpose media synchronization utility and does not contain any AI, LLM, or developer-focused coding infrastructure."
-    - Includes an admin console for importing websites, URLs, and local files
-    - Provides a full-stack deployment (frontend, backend, admin console)
-    - Designed as a 'conversational service robot' platform rather than a developer's coding assistant
-    - "included: The product is an operated control plane (admin console + backend + UI) for coordinating a RAG workflow, rather than a code-first library or a coding assistant."
+    - Manual review, 2026-09-19
 placement:
   primary_category: null
+  secondary_categories: []
   section: null
 lifecycle:
   status: promotion_candidate
@@ -120,18 +126,18 @@ lifecycle:
 processing:
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.715Z"
+    updated_at: '2026-07-16T05:04:46.715Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:53.648Z"
+    updated_at: '2026-08-03T05:16:53.648Z'
     cause: null
     next_retry_at: null

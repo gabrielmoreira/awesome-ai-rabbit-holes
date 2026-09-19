@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jjsantos01__qgis_mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🗺️ <a name="location-services"></a>Location Services
         anchor_text: QGIS MCP
         extracted_url: https://github.com/jjsantos01/qgis_mcp
-        surrounding_text: "- [QGIS MCP](https://github.com/jjsantos01/qgis_mcp) - connects QGIS Desktop to Claude AI through the MCP. This integration enables prompt-assisted project creation, layer loading, code execution, and more."
+        surrounding_text: >-
+          - [QGIS MCP](https://github.com/jjsantos01/qgis_mcp) - connects QGIS Desktop to Claude AI through the MCP.
+          This integration enables prompt-assisted project creation, layer loading, code execution, and more.
         confidence: high
     - id: discovery__github__jjsantos01__qgis_mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,10 +37,12 @@ provenance:
           - Community Servers
         anchor_text: QGIS
         extracted_url: https://github.com/jjsantos01/qgis_mcp
-        surrounding_text: "- **[QGIS](https://github.com/jjsantos01/qgis_mcp)** - connects QGIS Desktop to Claude AI through the MCP. This integration enables prompt-assisted project creation, layer loading, code execution, and more."
+        surrounding_text: >-
+          - **[QGIS](https://github.com/jjsantos01/qgis_mcp)** - connects QGIS Desktop to Claude AI through the MCP.
+          This integration enables prompt-assisted project creation, layer loading, code execution, and more.
         confidence: high
     - id: discovery__github__jjsantos01__qgis_mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -50,7 +54,10 @@ provenance:
           - 🗺️ Location Services
         anchor_text: jjsantos01/qgis_mcp
         extracted_url: https://github.com/jjsantos01/qgis_mcp
-        surrounding_text: "-   **[jjsantos01/qgis_mcp](https://github.com/jjsantos01/qgis_mcp)** [![GitHub stars](https://img.shields.io/github/stars/jjsantos01/qgis_mcp?style=social)](https://github.com/jjsantos01/qgis_mcp): Integrates QGIS Desktop with Claude AI for project creation and code execution."
+        surrounding_text: >-
+          -   **[jjsantos01/qgis_mcp](https://github.com/jjsantos01/qgis_mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/jjsantos01/qgis_mcp?style=social)](https://github.com/jjsantos01/qgis_mcp):
+          Integrates QGIS Desktop with Claude AI for project creation and code execution.
         confidence: high
 metadata:
   github:
@@ -60,18 +67,22 @@ metadata:
     archived: false
     full_name: jjsantos01/qgis_mcp
     html_url: https://github.com/jjsantos01/qgis_mcp
-    created_at: "2025-03-12T21:09:53Z"
-    pushed_at: "2025-10-01T01:23:25Z"
+    created_at: '2025-03-12T21:09:53Z'
+    pushed_at: '2025-10-01T01:23:25Z'
     description: Model Context Protocol (MCP) that allows LLMs to use QGIS Desktop
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:05:50.810Z"
+    last_checked_at: '2026-07-30T05:05:50.810Z'
     readme:
-      fetched_at: "2026-07-30T05:05:50.810Z"
+      fetched_at: '2026-07-30T05:05:50.810Z'
       bytes: 5878
 insights:
-  summary: An MCP server that enables LLMs like Claude to interact with and control QGIS Desktop for GIS project manipulation, layer management, and code execution.
-  why_it_matters: Developers working with geospatial data can now delegate QGIS project creation, layer operations, and processing tasks directly to an LLM assistant.
+  summary: >-
+    An MCP server that enables LLMs like Claude to interact with and control QGIS Desktop for GIS project manipulation,
+    layer management, and code execution.
+  why_it_matters: >-
+    Developers working with geospatial data can now delegate QGIS project creation, layer operations, and processing
+    tasks directly to an LLM assistant.
   mental_damage: Finally, a way to make your AI assistant draw maps while you pretend to understand coordinate systems.
   tags:
     - mcp
@@ -82,31 +93,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's core identity is as an MCP server providing domain-specific (QGIS/GIS) capabilities to LLMs, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The project's core identity is as an MCP server providing domain-specific (QGIS/GIS) capabilities to LLMs, fitting
+    the MCP Servers & Tooling category.
   evidence:
     - Repo description explicitly states it is an MCP server for QGIS
     - README details MCP server implementation and QGIS plugin integration
     - Already listed in multiple MCP-focused awesome lists
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: promotion_candidate
   reason: Stars (937) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.578Z"
+    updated_at: '2026-05-06T22:12:15.578Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:50.810Z"
+    updated_at: '2026-07-30T05:05:50.810Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:48.316Z"
+    updated_at: '2026-07-21T16:10:48.316Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -119,7 +133,9 @@ processing:
       input_hash: sha256:66754bd71c068fd817d21e0713d2947c6990eae99615cdad19da573132e556e2
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's core identity is as an MCP server providing domain-specific (QGIS/GIS) capabilities to LLMs, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The project's core identity is as an MCP server providing domain-specific (QGIS/GIS) capabilities to LLMs,
+        fitting the MCP Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for QGIS
         - README details MCP server implementation and QGIS plugin integration
@@ -127,6 +143,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary product identity is the MCP server itself, not merely an extension to another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary product identity is the MCP server itself, not merely an
+        extension to another assistant.
       review_reason: null
       review_resume_lifecycle: null

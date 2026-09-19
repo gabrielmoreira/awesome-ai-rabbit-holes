@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__sweeppea__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,13 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: Sweeppea
         extracted_url: https://www.sweeppea.com
-        surrounding_text: "- [Sweeppea-Development-Lab/sweeppea-mcp-info](https://github.com/Sweeppea-Development-Lab/sweeppea-mcp-info) [![Sweeppea-Development-Lab/sweeppea-mcp-info MCP server](https://glama.ai/mcp/servers/Sweeppea-Development-Lab/sweeppea-mcp-info/badges/score.svg)](https://glama.ai/mcp/servers/Sweeppea-Development-Lab/sweeppea-mcp-info) 📇 ☁️ - Sweepstakes management platform with 70 MCP tools for legally compliant promotions in the US and Canada. Manage participants, official rules, winner drawings, entry pages, billing, and more. Requires a [Sweeppea](https://www.sweeppea.com/) subscription."
+        surrounding_text: >-
+          - [Sweeppea-Development-Lab/sweeppea-mcp-info](https://github.com/Sweeppea-Development-Lab/sweeppea-mcp-info)
+          [![Sweeppea-Development-Lab/sweeppea-mcp-info MCP
+          server](https://glama.ai/mcp/servers/Sweeppea-Development-Lab/sweeppea-mcp-info/badges/score.svg)](https://glama.ai/mcp/servers/Sweeppea-Development-Lab/sweeppea-mcp-info)
+          📇 ☁️ - Sweepstakes management platform with 70 MCP tools for legally compliant promotions in the US and
+          Canada. Manage participants, official rules, winner drawings, entry pages, billing, and more. Requires a
+          [Sweeppea](https://www.sweeppea.com/) subscription.
         confidence: high
 metadata:
   github:
@@ -47,20 +53,23 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product directly analyzes and reviews code, fitting the definition of a coding agent focused on repository workflows.
+  reason: >-
+    The product directly analyzes and reviews code, fitting the definition of a coding agent focused on repository
+    workflows.
   evidence:
     - The URL and name suggest a code review/analysis focus
     - No signals indicate it is an extension, framework, or non-developer tool
 placement:
   primary_category: coding-agents
-  section: Review, Testing & Repair Agents
+  secondary_categories: []
+  section: Review, Testing & Repair
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.670Z"
+    updated_at: '2026-05-06T22:12:15.670Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +78,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:39:24.972Z"
+    updated_at: '2026-07-21T15:39:24.972Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -82,13 +91,17 @@ processing:
       input_hash: sha256:323860148a9d031ec00a7a18259587befb110c3e97dc7b74db9e0d1574406cde
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: The product directly analyzes and reviews code, fitting the definition of a coding agent focused on repository workflows.
+      decision_reason: >-
+        The product directly analyzes and reviews code, fitting the definition of a coding agent focused on repository
+        workflows.
       decision_evidence:
         - The URL and name suggest a code review/analysis focus
         - No signals indicate it is an extension, framework, or non-developer tool
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because the primary function is code review rather than augmenting another assistant.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because the primary function is code review rather than augmenting
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

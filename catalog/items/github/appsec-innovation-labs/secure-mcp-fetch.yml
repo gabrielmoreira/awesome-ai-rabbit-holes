@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__appsec-innovation-labs__secure-mcp-fetch__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Secure Fetch
         extracted_url: https://github.com/appsec-innovation-labs/secure-mcp-fetch
-        surrounding_text: "- **[Secure Fetch](https://github.com/appsec-innovation-labs/secure-mcp-fetch)** - Secure fetch to prevent access to local resources"
+        surrounding_text: >-
+          - **[Secure Fetch](https://github.com/appsec-innovation-labs/secure-mcp-fetch)** - Secure fetch to prevent
+          access to local resources
         confidence: high
 metadata:
   github:
@@ -29,18 +31,20 @@ metadata:
     archived: false
     full_name: appsec-innovation-labs/secure-mcp-fetch
     html_url: https://github.com/appsec-innovation-labs/secure-mcp-fetch
-    created_at: "2025-04-25T21:02:34Z"
-    pushed_at: "2025-04-25T21:24:41Z"
+    created_at: '2025-04-25T21:02:34Z'
+    pushed_at: '2025-04-25T21:24:41Z'
     description: Simple secured fetch
     homepage: null
     topics: []
-    last_checked_at: "2026-09-10T04:12:57.123Z"
+    last_checked_at: '2026-09-10T04:12:57.123Z'
     readme:
-      fetched_at: "2026-09-10T04:12:57.123Z"
+      fetched_at: '2026-09-10T04:12:57.123Z'
       bytes: 1349
 insights:
   summary: A secure URL fetching MCP server built with FastMCP that enforces allowlists and blocks private/internal IPs.
-  why_it_matters: Developers can safely delegate web fetching tasks to AI agents without exposing them to internal networks or untrusted domains.
+  why_it_matters: >-
+    Developers can safely delegate web fetching tasks to AI agents without exposing them to internal networks or
+    untrusted domains.
   mental_damage: Finally, a way to let your AI fetch URLs without it immediately pivoting to exfiltrating your entire internal wiki.
   tags:
     - mcp
@@ -51,31 +55,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server whose primary identity is providing secure URL fetching capabilities, fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is an MCP server whose primary identity is providing secure URL fetching capabilities, fitting the MCP Servers
+    & Tooling category.
   evidence:
     - Repo description explicitly states it is a 'Simple secured fetch'
     - README confirms it is an MCP server built with FastMCP
     - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.603Z"
+    updated_at: '2026-05-06T22:12:15.603Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:12:57.123Z"
+    updated_at: '2026-09-10T04:12:57.123Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:23:38.994Z"
+    updated_at: '2026-07-21T15:23:38.994Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -88,7 +95,9 @@ processing:
       input_hash: sha256:abcb88fd244d5f4efc37cf9a16fd1af0ecc7c84f95c83cd9491e757245e9f168
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP server whose primary identity is providing secure URL fetching capabilities, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is an MCP server whose primary identity is providing secure URL fetching capabilities, fitting the MCP
+        Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is a 'Simple secured fetch'
         - README confirms it is an MCP server built with FastMCP
@@ -96,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server (secure fetch) rather than an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server (secure fetch) rather
+        than an extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

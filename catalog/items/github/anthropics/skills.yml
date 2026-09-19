@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__anthropics__skills__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: Claude Agent Skills
         extracted_url: https://www.anthropic.com/news/skills
-        surrounding_text: "- [K-Dense-AI/claude-skills-mcp](https://github.com/K-Dense-AI/claude-skills-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Intelligent search capabilities to let every model and client use [Claude Agent Skills](https://www.anthropic.com/news/skills) like native."
+        surrounding_text: >-
+          - [K-Dense-AI/claude-skills-mcp](https://github.com/K-Dense-AI/claude-skills-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 -
+          Intelligent search capabilities to let every model and client use [Claude Agent
+          Skills](https://www.anthropic.com/news/skills) like native.
         confidence: high
     - id: discovery__github__anthropics__skills__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -45,19 +48,23 @@ metadata:
     archived: false
     full_name: anthropics/skills
     html_url: https://github.com/anthropics/skills
-    created_at: "2025-09-22T15:53:31Z"
-    pushed_at: "2026-09-10T19:44:11Z"
+    created_at: '2025-09-22T15:53:31Z'
+    pushed_at: '2026-09-10T19:44:11Z'
     description: Public repository for Agent Skills
-    homepage: ""
+    homepage: ''
     topics:
       - agent-skills
-    last_checked_at: "2026-09-17T04:13:44.870Z"
+    last_checked_at: '2026-09-17T04:13:44.870Z'
     readme:
-      fetched_at: "2026-09-17T04:13:44.870Z"
+      fetched_at: '2026-09-17T04:13:44.870Z'
       bytes: 5552
 insights:
-  summary: Public repository for Agent Skills, a system of folders containing instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks.
-  why_it_matters: It enables developers to create reusable, portable skill packs that teach Claude (and other compatible agents) how to handle specific workflows, from document editing to technical automation.
+  summary: >-
+    Public repository for Agent Skills, a system of folders containing instructions, scripts, and resources that Claude
+    loads dynamically to improve performance on specialized tasks.
+  why_it_matters: >-
+    It enables developers to create reusable, portable skill packs that teach Claude (and other compatible agents) how
+    to handle specific workflows, from document editing to technical automation.
   mental_damage: Now you can spend hours crafting the perfect SKILL.md file instead of just writing the code.
   tags:
     - agent-skills
@@ -67,13 +74,16 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is a reusable skill pack/registry for coding tools, fitting the 'Agent Skills' category definition precisely.
+  reason: >-
+    The primary artifact is a reusable skill pack/registry for coding tools, fitting the 'Agent Skills' category
+    definition precisely.
   evidence:
     - Repo description explicitly states it is a 'Public repository for Agent Skills'
     - README describes skills as 'folders of instructions, scripts, and resources that Claude loads dynamically'
     - Source-list context includes it in MCP servers list under 'Aggregators' and in LLM resources under 'Skills'
 placement:
   primary_category: skills
+  secondary_categories: []
   section: Skill Packs & Libraries
 lifecycle:
   status: promotion_candidate
@@ -81,17 +91,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.581Z"
+    updated_at: '2026-05-06T22:12:15.581Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:44.870Z"
+    updated_at: '2026-09-17T04:13:44.870Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:23:14.813Z"
+    updated_at: '2026-07-21T15:23:14.813Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -104,7 +114,9 @@ processing:
       input_hash: sha256:d19a0c74a8fadd64cbfe30afe918b6b182b6a7897df8cf339dfb258a9b1c4dab
       proposed_primary_category: skills
       disagreement: false
-      decision_reason: The primary artifact is a reusable skill pack/registry for coding tools, fitting the 'Agent Skills' category definition precisely.
+      decision_reason: >-
+        The primary artifact is a reusable skill pack/registry for coding tools, fitting the 'Agent Skills' category
+        definition precisely.
       decision_evidence:
         - Repo description explicitly states it is a 'Public repository for Agent Skills'
         - README describes skills as 'folders of instructions, scripts, and resources that Claude loads dynamically'
@@ -112,6 +124,8 @@ processing:
       category_candidates:
         - skills
         - context-engineering
-      contrastive_reason: Choose skills over context-engineering because the core value is the portable skill content itself rather than a memory/retrieval system.
+      contrastive_reason: >-
+        Choose skills over context-engineering because the core value is the portable skill content itself rather than a
+        memory/retrieval system.
       review_reason: null
       review_resume_lifecycle: null

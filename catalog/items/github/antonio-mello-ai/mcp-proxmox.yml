@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__antonio-mello-ai__mcp-proxmox__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: antonio-mello-ai/mcp-proxmox
         extracted_url: https://github.com/antonio-mello-ai/mcp-proxmox
-        surrounding_text: "- [antonio-mello-ai/mcp-proxmox](https://github.com/antonio-mello-ai/mcp-proxmox) [![mcp-proxmox MCP server](https://glama.ai/mcp/servers/antonio-mello-ai/mcp-proxmox/badges/score.svg)](https://glama.ai/mcp/servers/antonio-mello-ai/mcp-proxmox) 🐍 🏠 - Manage Proxmox VE clusters through AI assistants — VMs, containers, snapshots, templates, cloud-init, firewall, and migrations. 29 tools with two-step confirmation for destructive operations."
+        surrounding_text: >-
+          - [antonio-mello-ai/mcp-proxmox](https://github.com/antonio-mello-ai/mcp-proxmox) [![mcp-proxmox MCP
+          server](https://glama.ai/mcp/servers/antonio-mello-ai/mcp-proxmox/badges/score.svg)](https://glama.ai/mcp/servers/antonio-mello-ai/mcp-proxmox)
+          🐍 🏠 - Manage Proxmox VE clusters through AI assistants — VMs, containers, snapshots, templates, cloud-init,
+          firewall, and migrations. 29 tools with two-step confirmation for destructive operations.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: antonio-mello-ai/mcp-proxmox
     html_url: https://github.com/antonio-mello-ai/mcp-proxmox
-    created_at: "2026-03-09T21:22:43Z"
-    pushed_at: "2026-08-17T00:33:15Z"
+    created_at: '2026-03-09T21:22:43Z'
+    pushed_at: '2026-08-17T00:33:15Z'
     description: MCP server for managing Proxmox VE clusters through AI assistants
     homepage: null
     topics:
@@ -45,13 +49,15 @@ metadata:
       - proxmox
       - proxmox-ve
       - virtualization
-    last_checked_at: "2026-09-17T04:13:45.163Z"
+    last_checked_at: '2026-09-17T04:13:45.163Z'
     readme:
-      fetched_at: "2026-09-17T04:13:45.163Z"
+      fetched_at: '2026-09-17T04:13:45.163Z'
       bytes: 10370
 insights:
   summary: MCP server for managing Proxmox VE clusters through AI assistants.
-  why_it_matters: Lets developers provision, manage, and monitor Proxmox infrastructure via natural language in assistants like Claude, Cursor, and Cline.
+  why_it_matters: >-
+    Lets developers provision, manage, and monitor Proxmox infrastructure via natural language in assistants like
+    Claude, Cursor, and Cline.
   mental_damage: Now your homelab can be as chaotic as your prompt history.
   tags:
     - mcp
@@ -62,31 +68,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server for Proxmox VE, not a compatibility footnote."
+  reason: 'MCP is the product identity: this is a dedicated MCP server for Proxmox VE, not a compatibility footnote.'
   evidence:
     - Repo description explicitly states it is an MCP server for Proxmox VE
     - README details MCP server setup, tools, and integration with Claude/Cursor/Cline
     - Listed in awesome-mcp-servers under Server Implementations > Cloud Platforms
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.602Z"
+    updated_at: '2026-05-06T22:12:15.602Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:45.163Z"
+    updated_at: '2026-09-17T04:13:45.163Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:23:18.115Z"
+    updated_at: '2026-07-21T15:23:18.115Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -99,7 +106,7 @@ processing:
       input_hash: sha256:37acf26818819397666b2ddd1c8fe4c0c057ae2f1e66a1fa0a373ad1e362e05b
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server for Proxmox VE, not a compatibility footnote."
+      decision_reason: 'MCP is the product identity: this is a dedicated MCP server for Proxmox VE, not a compatibility footnote.'
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Proxmox VE
         - README details MCP server setup, tools, and integration with Claude/Cursor/Cline
@@ -107,6 +114,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

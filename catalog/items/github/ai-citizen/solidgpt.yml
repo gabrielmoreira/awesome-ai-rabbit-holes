@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ai-citizen__solidgpt__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,7 +20,10 @@ provenance:
           - Knowledge Management
         anchor_text: SolidGPT
         extracted_url: https://github.com/ai-citizen/solidgpt
-        surrounding_text: "- [SolidGPT](https://github.com/AI-Citizen/SolidGPT): Chat everything with your code repository, ask repository level code questions, and discuss your requirements ![GitHub Repo stars](https://img.shields.io/github/stars/AI-Citizen/SolidGPT?style=social)"
+        surrounding_text: >-
+          - [SolidGPT](https://github.com/AI-Citizen/SolidGPT): Chat everything with your code repository, ask
+          repository level code questions, and discuss your requirements ![GitHub Repo
+          stars](https://img.shields.io/github/stars/AI-Citizen/SolidGPT?style=social)
         confidence: high
 metadata:
   github:
@@ -30,10 +33,10 @@ metadata:
     archived: false
     full_name: AI-Citizen/SolidGPT
     html_url: https://github.com/AI-Citizen/SolidGPT
-    created_at: "2023-08-08T05:25:16Z"
-    pushed_at: "2025-01-12T04:58:38Z"
+    created_at: '2023-08-08T05:25:16Z'
+    pushed_at: '2025-01-12T04:58:38Z'
     description: Developer AI Persona Search Agent
-    homepage: ""
+    homepage: ''
     topics:
       - codechat
       - copilot
@@ -43,14 +46,20 @@ metadata:
       - llm
       - notion
       - solidgpt
-    last_checked_at: "2026-09-17T04:13:35.121Z"
+    last_checked_at: '2026-09-17T04:13:35.121Z'
     readme:
-      fetched_at: "2026-09-17T04:13:35.121Z"
+      fetched_at: '2026-09-17T04:13:35.121Z'
       bytes: 4004
 insights:
-  summary: An AI searching assistant that provides semantic search and context retrieval across local codebases and Notion workspaces.
-  why_it_matters: It reduces context switching by allowing developers to query their codebase and project documentation through a single semantic interface.
-  mental_damage: Because nothing says 'I've lost my grip on the architecture' like needing an LLM to tell you where you wrote that one specific function three months ago.
+  summary: >-
+    An AI searching assistant that provides semantic search and context retrieval across local codebases and Notion
+    workspaces.
+  why_it_matters: >-
+    It reduces context switching by allowing developers to query their codebase and project documentation through a
+    single semantic interface.
+  mental_damage: >-
+    Because nothing says 'I've lost my grip on the architecture' like needing an LLM to tell you where you wrote that
+    one specific function three months ago.
   tags:
     - semantic-search
     - rag
@@ -60,31 +69,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's primary value is the indexing and semantic retrieval of information from code and external documentation to provide developer context.
+  reason: >-
+    The tool's primary value is the indexing and semantic retrieval of information from code and external documentation
+    to provide developer context.
   evidence:
     - README explicitly states the tool helps with 'code and workspace semantic search'.
     - Core functionality involves onboarding codebases and Notion pages for retrieval.
     - The product acts as a context layer that can be used via a VSCode extension.
 placement:
-  primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Retrieval & Fresh Docs
 lifecycle:
   status: promotion_candidate
   reason: Stars (1792) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.600Z"
+    updated_at: '2026-05-06T22:12:15.600Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:35.121Z"
+    updated_at: '2026-09-17T04:13:35.121Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:16:43.088Z"
+    updated_at: '2026-08-27T06:16:43.088Z'
     cause: null
     attempts: 4
     prompt_version: catalog-categorize-v5-single-template
@@ -97,7 +109,9 @@ processing:
       input_hash: sha256:78cc146f00ae4800af84c231ef91d1c63df06bce70d5fb76adef76644ab863e0
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: The tool's primary value is the indexing and semantic retrieval of information from code and external documentation to provide developer context.
+      decision_reason: >-
+        The tool's primary value is the indexing and semantic retrieval of information from code and external
+        documentation to provide developer context.
       decision_evidence:
         - README explicitly states the tool helps with 'code and workspace semantic search'.
         - Core functionality involves onboarding codebases and Notion pages for retrieval.
@@ -105,6 +119,8 @@ processing:
       category_candidates:
         - context-engineering
         - ai-dev-extensions
-      contrastive_reason: Choose context-engineering over ai-dev-extensions because the core novelty is the retrieval and semantic indexing of code and documents rather than just providing a UI layer for an existing assistant.
+      contrastive_reason: >-
+        Choose context-engineering over ai-dev-extensions because the core novelty is the retrieval and semantic
+        indexing of code and documents rather than just providing a UI layer for an existing assistant.
       review_reason: null
       review_resume_lifecycle: null

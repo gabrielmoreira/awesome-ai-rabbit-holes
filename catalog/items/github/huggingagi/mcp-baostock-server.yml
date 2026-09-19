@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__huggingagi__mcp-baostock-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: HuggingAGI/mcp-baostock-server
         extracted_url: https://github.com/huggingagi/mcp-baostock-server
-        surrounding_text: "- [HuggingAGI/mcp-baostock-server](https://github.com/HuggingAGI/mcp-baostock-server) 🐍 ☁️ - MCP server based on baostock, providing access and analysis capabilities for Chinese stock market data."
+        surrounding_text: >-
+          - [HuggingAGI/mcp-baostock-server](https://github.com/HuggingAGI/mcp-baostock-server) 🐍 ☁️ - MCP server based
+          on baostock, providing access and analysis capabilities for Chinese stock market data.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: HuggingAGI/mcp-baostock-server
     html_url: https://github.com/HuggingAGI/mcp-baostock-server
-    created_at: "2025-04-08T00:30:12Z"
-    pushed_at: "2026-03-22T14:06:22Z"
+    created_at: '2025-04-08T00:30:12Z'
+    pushed_at: '2026-03-22T14:06:22Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:39.177Z"
+    last_checked_at: '2026-07-30T05:05:39.177Z'
     readme:
-      fetched_at: "2026-07-30T05:05:39.177Z"
+      fetched_at: '2026-07-30T05:05:39.177Z'
       bytes: 2269
 insights:
   summary: An MCP server providing stock market data APIs for Chinese equities via the BaoStock library.
-  why_it_matters: Developers building financial analysis tools or AI agents can integrate real-time and historical Chinese stock market data through a standardized MCP interface.
+  why_it_matters: >-
+    Developers building financial analysis tools or AI agents can integrate real-time and historical Chinese stock
+    market data through a standardized MCP interface.
   mental_damage: Now your AI agent can day-trade A-shares while you pretend to write unit tests.
   tags:
     - mcp-server
@@ -52,31 +56,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a domain-specific MCP server whose primary identity is exposing stock market data via the Model Context Protocol.
+  reason: >-
+    This is a domain-specific MCP server whose primary identity is exposing stock market data via the Model Context
+    Protocol.
   evidence:
     - README explicitly describes it as a BaoStock-based stock data server with MCP interface
     - Provides multiple stock data endpoints (K-line, financials, dividends, etc.)
     - Repository is active (pushed March 2026) and not archived
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.619Z"
+    updated_at: '2026-05-06T22:12:15.619Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:39.177Z"
+    updated_at: '2026-07-30T05:05:39.177Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:06:34.317Z"
+    updated_at: '2026-07-21T16:06:34.317Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +96,9 @@ processing:
       input_hash: sha256:7e58cd6c5ea331d4dc3da97b1301988a33a38f30f9c8d655e32f9397a7394f1f
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a domain-specific MCP server whose primary identity is exposing stock market data via the Model Context Protocol.
+      decision_reason: >-
+        This is a domain-specific MCP server whose primary identity is exposing stock market data via the Model Context
+        Protocol.
       decision_evidence:
         - README explicitly describes it as a BaoStock-based stock data server with MCP interface
         - Provides multiple stock data endpoints (K-line, financials, dividends, etc.)
@@ -97,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product's core identity is as an MCP server exposing domain data, not a general-purpose framework or SDK.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product's core identity is as an MCP server exposing domain data, not
+        a general-purpose framework or SDK.
       review_reason: null
       review_resume_lifecycle: null

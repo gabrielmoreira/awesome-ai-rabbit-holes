@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__necmttn__ax__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-07-02T05:22:20.470Z"
+      discovered_at: '2026-07-02T05:22:20.470Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,12 @@ provenance:
           - Agent infrastructure
         anchor_text: ax
         extracted_url: https://github.com/necmttn/ax
-        surrounding_text: "- **[ax](https://github.com/Necmttn/ax)** `⭐ 70` — Local-first agent telemetry and observability for Claude Code and Codex sessions."
+        surrounding_text: >-
+          - **[ax](https://github.com/Necmttn/ax)** `⭐ 70` — Local-first agent telemetry and observability for Claude
+          Code and Codex sessions.
         confidence: high
     - id: discovery__github__necmttn__ax__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-09-17T04:13:23.413Z"
+      discovered_at: '2026-09-17T04:13:23.413Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -36,7 +38,11 @@ provenance:
           - 💻 Developer Tools
         anchor_text: Necmttn/ax
         extracted_url: https://github.com/necmttn/ax
-        surrounding_text: "-   **[Necmttn/ax](https://github.com/Necmttn/ax)** [![GitHub stars](https://img.shields.io/github/stars/Necmttn/ax?style=social)](https://github.com/Necmttn/ax): Local telemetry and recall graph for AI coding agents, exposing sessions, tool calls, skills, costs, and OTLP events through MCP."
+        surrounding_text: >-
+          -   **[Necmttn/ax](https://github.com/Necmttn/ax)** [![GitHub
+          stars](https://img.shields.io/github/stars/Necmttn/ax?style=social)](https://github.com/Necmttn/ax): Local
+          telemetry and recall graph for AI coding agents, exposing sessions, tool calls, skills, costs, and OTLP events
+          through MCP.
         confidence: high
 metadata:
   github:
@@ -46,10 +52,12 @@ metadata:
     archived: false
     full_name: Necmttn/ax
     html_url: https://github.com/Necmttn/ax
-    created_at: "2026-05-08T07:34:30Z"
-    pushed_at: "2026-07-17T02:02:55Z"
-    description: the agent experience layer · observability + memory for AI coding agents (Claude Code + Codex) · local-first, typed, yours
-    homepage: ""
+    created_at: '2026-05-08T07:34:30Z'
+    pushed_at: '2026-07-17T02:02:55Z'
+    description: >-
+      the agent experience layer · observability + memory for AI coding agents (Claude Code + Codex) · local-first,
+      typed, yours
+    homepage: ''
     topics:
       - agent-memory
       - agent-observability
@@ -63,14 +71,18 @@ metadata:
       - llm-observability
       - surrealdb
       - typescript
-    last_checked_at: "2026-07-20T15:12:01.454Z"
+    last_checked_at: '2026-07-20T15:12:01.454Z'
     readme:
-      fetched_at: "2026-07-20T15:12:01.454Z"
+      fetched_at: '2026-07-20T15:12:01.454Z'
       bytes: 20797
 insights:
   summary: A local-first observability and memory layer that uses a typed graph to record and learn from agent sessions.
-  why_it_matters: It prevents AI coding agents from repeating the same mistakes by turning session transcripts into structured, reviewable learning loops.
-  mental_damage: Now you can finally quantify exactly how many tokens you've wasted on an agent that forgets it failed the same command five minutes ago.
+  why_it_matters: >-
+    It prevents AI coding agents from repeating the same mistakes by turning session transcripts into structured,
+    reviewable learning loops.
+  mental_damage: >-
+    Now you can finally quantify exactly how many tokens you've wasted on an agent that forgets it failed the same
+    command five minutes ago.
   tags:
     - agent-memory
     - observability
@@ -86,25 +98,26 @@ curation:
     - Description identifies it as an 'agent experience layer' for memory and observability
     - Explicitly targets Claude Code and Codex as host assistants
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-17T04:13:23.415Z"
+    updated_at: '2026-09-17T04:13:23.415Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:12:01.454Z"
+    updated_at: '2026-07-20T15:12:01.454Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-13T05:16:58.244Z"
+    updated_at: '2026-07-13T05:16:58.244Z'
     cause: null
     next_retry_at: null
     attempts: 1

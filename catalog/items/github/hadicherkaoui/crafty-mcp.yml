@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hadicherkaoui__crafty-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: HadiCherkaoui/crafty-mcp
         extracted_url: https://github.com/hadicherkaoui/crafty-mcp
-        surrounding_text: "- [HadiCherkaoui/crafty-mcp](https://github.com/HadiCherkaoui/crafty-mcp) [![HadiCherkaoui/crafty-mcp MCP server](https://glama.ai/mcp/servers/HadiCherkaoui/crafty-mcp/badges/score.svg)](https://glama.ai/mcp/servers/HadiCherkaoui/crafty-mcp) 📇 🏠 🍎 🪟 🐧 - MCP server for managing Minecraft servers through [Crafty Controller 4](https://craftycontrol.com). Start, stop, backup, send commands, manage files, schedules, webhooks, and users via the Crafty API."
+        surrounding_text: >-
+          - [HadiCherkaoui/crafty-mcp](https://github.com/HadiCherkaoui/crafty-mcp) [![HadiCherkaoui/crafty-mcp MCP
+          server](https://glama.ai/mcp/servers/HadiCherkaoui/crafty-mcp/badges/score.svg)](https://glama.ai/mcp/servers/HadiCherkaoui/crafty-mcp)
+          📇 🏠 🍎 🪟 🐧 - MCP server for managing Minecraft servers through [Crafty Controller
+          4](https://craftycontrol.com). Start, stop, backup, send commands, manage files, schedules, webhooks, and
+          users via the Crafty API.
         confidence: high
 metadata:
   github:
@@ -30,18 +35,20 @@ metadata:
     archived: false
     full_name: HadiCherkaoui/crafty-mcp
     html_url: https://github.com/HadiCherkaoui/crafty-mcp
-    created_at: "2026-03-23T08:00:24Z"
-    pushed_at: "2026-08-10T14:25:15Z"
+    created_at: '2026-03-23T08:00:24Z'
+    pushed_at: '2026-08-10T14:25:15Z'
     description: Crafty Controller MCP server
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:56.786Z"
+    last_checked_at: '2026-09-03T05:16:56.786Z'
     readme:
-      fetched_at: "2026-09-03T05:16:56.786Z"
+      fetched_at: '2026-09-03T05:16:56.786Z'
       bytes: 7896
 insights:
   summary: An MCP server that exposes the Crafty Controller 4 API as tools for AI assistants to manage Minecraft servers.
-  why_it_matters: Lets developers control Minecraft servers via natural language in their AI assistant workflows without leaving the chat interface.
+  why_it_matters: >-
+    Lets developers control Minecraft servers via natural language in their AI assistant workflows without leaving the
+    chat interface.
   mental_damage: Now your AI can restart your Minecraft server while you’re still arguing with it about tabs vs. spaces.
   tags:
     - mcp
@@ -51,31 +58,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first product whose identity is explicitly as an MCP server for Crafty Controller, fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is an MCP-first product whose identity is explicitly as an MCP server for Crafty Controller, fitting the MCP
+    Servers & Tooling category.
   evidence:
     - Repo description explicitly states it is a 'Crafty Controller MCP server'
     - README confirms it exposes Crafty Controller API as MCP tools for AI assistants
     - Configuration examples show integration with Claude Desktop, Claude Code, and Cursor as MCP servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.617Z"
+    updated_at: '2026-05-06T22:12:15.617Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:56.786Z"
+    updated_at: '2026-09-03T05:16:56.786Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:04:43.379Z"
+    updated_at: '2026-07-21T16:04:43.379Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +97,9 @@ processing:
       input_hash: sha256:474c040b9c6670899bc569d01f9da25e394e831a83a898dbef30c36c6160c351
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first product whose identity is explicitly as an MCP server for Crafty Controller, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is an MCP-first product whose identity is explicitly as an MCP server for Crafty Controller, fitting the
+        MCP Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is a 'Crafty Controller MCP server'
         - README confirms it exposes Crafty Controller API as MCP tools for AI assistants
@@ -96,6 +107,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

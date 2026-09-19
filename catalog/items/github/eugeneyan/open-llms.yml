@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__eugeneyan__open-llms__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -19,7 +19,9 @@ provenance:
           - Complement to this list
         anchor_text: Open LLMs
         extracted_url: https://github.com/eugeneyan/open-llms
-        surrounding_text: "- [Open LLMs](https://github.com/eugeneyan/open-llms): A list of open LLMs available for commercial use ![GitHub Repo stars](https://img.shields.io/github/stars/eugeneyan/open-llms?style=social)"
+        surrounding_text: >-
+          - [Open LLMs](https://github.com/eugeneyan/open-llms): A list of open LLMs available for commercial use
+          ![GitHub Repo stars](https://img.shields.io/github/stars/eugeneyan/open-llms?style=social)
         confidence: high
 metadata:
   github:
@@ -29,23 +31,27 @@ metadata:
     archived: false
     full_name: eugeneyan/open-llms
     html_url: https://github.com/eugeneyan/open-llms
-    created_at: "2023-05-05T16:35:37Z"
-    pushed_at: "2025-02-13T06:37:12Z"
+    created_at: '2023-05-05T16:35:37Z'
+    pushed_at: '2025-02-13T06:37:12Z'
     description: 📋 A list of open LLMs available for commercial use.
-    homepage: ""
+    homepage: ''
     topics:
       - commercial
       - large-language-models
       - llm
       - llms
-    last_checked_at: "2026-08-27T09:23:25.958Z"
+    last_checked_at: '2026-08-27T09:23:25.958Z'
     readme:
-      fetched_at: "2026-08-27T09:23:25.958Z"
+      fetched_at: '2026-08-27T09:23:25.958Z'
       bytes: 42697
 insights:
   summary: A curated list of open-source large language models available for commercial use.
-  why_it_matters: Helps developers identify models with permissive licenses that can be self-hosted or integrated into commercial products without legal risk.
-  mental_damage: Because nothing says 'peace of mind' like spending three hours checking Apache 2.0 compatibility on a model that was released during a fever dream.
+  why_it_matters: >-
+    Helps developers identify models with permissive licenses that can be self-hosted or integrated into commercial
+    products without legal risk.
+  mental_damage: >-
+    Because nothing says 'peace of mind' like spending three hours checking Apache 2.0 compatibility on a model that was
+    released during a fever dream.
   tags:
     - llms
     - open-source
@@ -53,32 +59,31 @@ insights:
     - models
   confidence: high
 curation:
-  status: included
-  reason: The project is a curated directory designed to help developers navigate the ecosystem of commercially viable open models.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Repo description identifies it as 'A list of open LLMs available for commercial use.'
-    - README contains a structured table of various models, licenses, and parameters.
-    - High star count (12,832) indicates significant ecosystem importance as a reference.
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (12751) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:25.958Z"
+    updated_at: '2026-08-27T09:23:25.958Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:53:31.440Z"
+    updated_at: '2026-07-21T15:53:31.440Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -91,7 +96,9 @@ processing:
       input_hash: sha256:b1f402cd79fd535178803831a5c66b3d823b550a4a6b7303f7d279748a8b395e
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: The project is a curated directory designed to help developers navigate the ecosystem of commercially viable open models.
+      decision_reason: >-
+        The project is a curated directory designed to help developers navigate the ecosystem of commercially viable
+        open models.
       decision_evidence:
         - Repo description identifies it as 'A list of open LLMs available for commercial use.'
         - README contains a structured table of various models, licenses, and parameters.
@@ -99,6 +106,8 @@ processing:
       category_candidates:
         - awesome-awesomes
         - ai-frameworks
-      contrastive_reason: Choose awesome-awesomes over ai-frameworks because the repository is a curated index/directory rather than a functional software library or SDK.
+      contrastive_reason: >-
+        Choose awesome-awesomes over ai-frameworks because the repository is a curated index/directory rather than a
+        functional software library or SDK.
       review_reason: null
       review_resume_lifecycle: null

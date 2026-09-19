@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__zai-org__codegeex__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,10 @@ provenance:
           - Code AI
         anchor_text: CodeGeeX
         extracted_url: https://github.com/thudm/codegeex
-        surrounding_text: "| [CodeGeeX](https://github.com/THUDM/CodeGeeX)       | CodeGeeX: An Open Multilingual Code Generation Model (KDD 2023)                                          | ![GitHub Badge](https://img.shields.io/github/stars/THUDM/CodeGeeX.svg?style=flat-square)       |"
+        surrounding_text: >-
+          | [CodeGeeX](https://github.com/THUDM/CodeGeeX)       | CodeGeeX: An Open Multilingual Code Generation Model
+          (KDD 2023)                                          | ![GitHub
+          Badge](https://img.shields.io/github/stars/THUDM/CodeGeeX.svg?style=flat-square)       |
         confidence: high
 metadata:
   github:
@@ -29,22 +32,28 @@ metadata:
     archived: false
     full_name: zai-org/CodeGeeX
     html_url: https://github.com/zai-org/CodeGeeX
-    created_at: "2022-09-17T14:06:29Z"
-    pushed_at: "2024-08-13T05:59:38Z"
-    description: "CodeGeeX: An Open Multilingual Code Generation Model (KDD 2023)"
+    created_at: '2022-09-17T14:06:29Z'
+    pushed_at: '2024-08-13T05:59:38Z'
+    description: 'CodeGeeX: An Open Multilingual Code Generation Model (KDD 2023)'
     homepage: https://codegeex.cn
     topics:
       - code-generation
       - pretrained-models
       - tools
-    last_checked_at: "2026-07-21T15:21:24.788Z"
+    last_checked_at: '2026-07-21T15:21:24.788Z'
     readme:
-      fetched_at: "2026-07-21T15:21:24.788Z"
+      fetched_at: '2026-07-21T15:21:24.788Z'
       bytes: 19633
 insights:
-  summary: CodeGeeX is an open multilingual code generation model with 13B parameters trained on 850B+ tokens across 20+ programming languages.
-  why_it_matters: Provides developers with a free, open-source multilingual coding assistant that supports code completion, translation, and explanation via IDE extensions.
-  mental_damage: Yet another model promising to replace your Stack Overflow habit while you quietly keep copying Python snippets from 2018.
+  summary: >-
+    CodeGeeX is an open multilingual code generation model with 13B parameters trained on 850B+ tokens across 20+
+    programming languages.
+  why_it_matters: >-
+    Provides developers with a free, open-source multilingual coding assistant that supports code completion,
+    translation, and explanation via IDE extensions.
+  mental_damage: >-
+    Yet another model promising to replace your Stack Overflow habit while you quietly keep copying Python snippets from
+    2018.
   tags:
     - code-generation
     - multilingual
@@ -53,31 +62,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: CodeGeeX functions as a coding assistant through its VS Code and JetBrains extensions, offering code completion, explanation, and translation — core assistant behaviors — not just augmenting another agent.
+  reason: >-
+    CodeGeeX functions as a coding assistant through its VS Code and JetBrains extensions, offering code completion,
+    explanation, and translation — core assistant behaviors — not just augmenting another agent.
   evidence:
-    - "Repo description: 'CodeGeeX: An Open Multilingual Code Generation Model (KDD 2023)'"
-    - "README: 'Customizable Programming Assistant' with VS Code extension supporting 'code completion, explanation, summarization and more'"
-    - "README: Describes multilingual code generation and crosslingual code translation as core features"
+    - 'Repo description: ''CodeGeeX: An Open Multilingual Code Generation Model (KDD 2023)'''
+    - >-
+      README: 'Customizable Programming Assistant' with VS Code extension supporting 'code completion, explanation,
+      summarization and more'
+    - 'README: Describes multilingual code generation and crosslingual code translation as core features'
 placement:
-  primary_category: coding-agents
-  section: IDE-Native Assistants
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: IDE & Editor Add-ons
 lifecycle:
   status: promotion_candidate
   reason: Stars (8780) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.657Z"
+    updated_at: '2026-05-06T22:12:15.657Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:24.788Z"
+    updated_at: '2026-07-21T15:21:24.788Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:50:04.882Z"
+    updated_at: '2026-05-12T15:50:04.882Z'
     cause: null
     next_retry_at: null
     attempts: 1

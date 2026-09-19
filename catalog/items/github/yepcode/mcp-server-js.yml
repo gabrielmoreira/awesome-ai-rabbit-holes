@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__yepcode__mcp-server-js__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 👨‍💻 <a name="code-execution"></a>Code Execution
         anchor_text: yepcode/mcp-server-js
         extracted_url: https://github.com/yepcode/mcp-server-js
-        surrounding_text: "- [yepcode/mcp-server-js](https://github.com/yepcode/mcp-server-js) 🎖️ 📇 ☁️ - Execute any LLM-generated code in a secure and scalable sandbox environment and create your own MCP tools using JavaScript or Python, with full support for NPM and PyPI packages"
+        surrounding_text: >-
+          - [yepcode/mcp-server-js](https://github.com/yepcode/mcp-server-js) 🎖️ 📇 ☁️ - Execute any LLM-generated code
+          in a secure and scalable sandbox environment and create your own MCP tools using JavaScript or Python, with
+          full support for NPM and PyPI packages
         confidence: high
     - id: discovery__github__yepcode__mcp-server-js__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +38,10 @@ provenance:
           - Official Servers
         anchor_text: YepCode
         extracted_url: https://github.com/yepcode/mcp-server-js
-        surrounding_text: "- **[YepCode](https://github.com/yepcode/mcp-server-js)** - Execute any LLM-generated code in the [YepCode](https://yepcode.io) secure and scalable sandbox environment and create your own MCP tools using JavaScript or Python, with full support for NPM and PyPI packages"
+        surrounding_text: >-
+          - **[YepCode](https://github.com/yepcode/mcp-server-js)** - Execute any LLM-generated code in the
+          [YepCode](https://yepcode.io) secure and scalable sandbox environment and create your own MCP tools using
+          JavaScript or Python, with full support for NPM and PyPI packages
         confidence: high
 metadata:
   github:
@@ -45,9 +51,11 @@ metadata:
     archived: false
     full_name: yepcode/mcp-server-js
     html_url: https://github.com/yepcode/mcp-server-js
-    created_at: "2025-03-26T16:05:56Z"
-    pushed_at: "2026-03-17T09:19:23Z"
-    description: MCP server that exposes YepCode processes as callable tools for AI platforms. Securely connect AI assistants to your YepCode workflows, APIs, and automations.
+    created_at: '2025-03-26T16:05:56Z'
+    pushed_at: '2026-03-17T09:19:23Z'
+    description: >-
+      MCP server that exposes YepCode processes as callable tools for AI platforms. Securely connect AI assistants to
+      your YepCode workflows, APIs, and automations.
     homepage: https://yepcode.io/mcp-server
     topics:
       - agent
@@ -59,13 +67,15 @@ metadata:
       - mcp-tool
       - mcp-tools
       - yepcode
-    last_checked_at: "2026-07-21T15:21:20.687Z"
+    last_checked_at: '2026-07-21T15:21:20.687Z'
     readme:
-      fetched_at: "2026-07-21T15:21:20.687Z"
+      fetched_at: '2026-07-21T15:21:20.687Z'
       bytes: 14697
 insights:
   summary: MCP server that exposes YepCode processes as callable tools for AI platforms.
-  why_it_matters: Lets developers turn existing YepCode workflows into secure, language-agnostic tools usable by any MCP-compatible AI assistant.
+  why_it_matters: >-
+    Lets developers turn existing YepCode workflows into secure, language-agnostic tools usable by any MCP-compatible AI
+    assistant.
   mental_damage: Yet another MCP server promising seamless AI integration while adding yet another YAML blob to your Cursor config.
   tags:
     - mcp
@@ -75,31 +85,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core identity is exposing YepCode processes as MCP tools, making MCP the primary product identity rather than a compatibility layer.
+  reason: >-
+    The product is an MCP server whose core identity is exposing YepCode processes as MCP tools, making MCP the primary
+    product identity rather than a compatibility layer.
   evidence:
-    - "Repo description: 'MCP server that exposes YepCode processes as callable tools for AI platforms'"
-    - "README: 'An MCP server that enables AI platforms to interact with YepCode's infrastructure'"
-    - "Source-list context: Listed in awesome-mcp-servers under Server Implementations and Official Servers"
+    - 'Repo description: ''MCP server that exposes YepCode processes as callable tools for AI platforms'''
+    - 'README: ''An MCP server that enables AI platforms to interact with YepCode''s infrastructure'''
+    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations and Official Servers'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.596Z"
+    updated_at: '2026-05-06T22:12:15.596Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:20.687Z"
+    updated_at: '2026-07-21T15:21:20.687Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:44:44.865Z"
+    updated_at: '2026-05-12T15:44:44.865Z'
     cause: null
     next_retry_at: null
     attempts: 1

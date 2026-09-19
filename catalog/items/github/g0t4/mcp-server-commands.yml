@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__g0t4__mcp-server-commands__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: g0t4/mcp-server-commands
         extracted_url: https://github.com/g0t4/mcp-server-commands
-        surrounding_text: "- [g0t4/mcp-server-commands](https://github.com/g0t4/mcp-server-commands) 📇 🏠 - Run any command with `run_command` and `run_script` tools."
+        surrounding_text: >-
+          - [g0t4/mcp-server-commands](https://github.com/g0t4/mcp-server-commands) 📇 🏠 - Run any command with
+          `run_command` and `run_script` tools.
         confidence: high
     - id: discovery__github__g0t4__mcp-server-commands__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - 🖥️ Command Line
         anchor_text: g0t4/mcp-server-commands
         extracted_url: https://github.com/g0t4/mcp-server-commands
-        surrounding_text: "-   **[g0t4/mcp-server-commands](https://github.com/g0t4/mcp-server-commands)** [![GitHub stars](https://img.shields.io/github/stars/g0t4/mcp-server-commands?style=social)](https://github.com/g0t4/mcp-server-commands): Executes arbitrary commands and scripts via MCP."
+        surrounding_text: >-
+          -   **[g0t4/mcp-server-commands](https://github.com/g0t4/mcp-server-commands)** [![GitHub
+          stars](https://img.shields.io/github/stars/g0t4/mcp-server-commands?style=social)](https://github.com/g0t4/mcp-server-commands):
+          Executes arbitrary commands and scripts via MCP.
         confidence: high
 metadata:
   github:
@@ -45,19 +50,25 @@ metadata:
     archived: false
     full_name: g0t4/mcp-server-commands
     html_url: https://github.com/g0t4/mcp-server-commands
-    created_at: "2024-11-29T02:39:02Z"
-    pushed_at: "2026-08-24T05:50:28Z"
-    description: "Model Context Protocol server to run commands (tool: `runProcess`)"
-    homepage: ""
+    created_at: '2024-11-29T02:39:02Z'
+    pushed_at: '2026-08-24T05:50:28Z'
+    description: 'Model Context Protocol server to run commands (tool: `runProcess`)'
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-03T05:16:45.460Z"
+    last_checked_at: '2026-09-03T05:16:45.460Z'
     readme:
-      fetched_at: "2026-09-03T05:16:45.460Z"
+      fetched_at: '2026-09-03T05:16:45.460Z'
       bytes: 5588
 insights:
-  summary: An MCP server that provides a `run_process` tool to execute shell commands and direct executables on the host machine.
-  why_it_matters: It bridges the gap between LLMs and the local operating system, allowing agents to execute terminal commands, manage files, and run build scripts directly.
-  mental_damage: It turns your terminal into an LLM-controlled sandbox where one hallucinated `rm -rf` could end your afternoon very abruptly.
+  summary: >-
+    An MCP server that provides a `run_process` tool to execute shell commands and direct executables on the host
+    machine.
+  why_it_matters: >-
+    It bridges the gap between LLMs and the local operating system, allowing agents to execute terminal commands, manage
+    files, and run build scripts directly.
+  mental_damage: >-
+    It turns your terminal into an LLM-controlled sandbox where one hallucinated `rm -rf` could end your afternoon very
+    abruptly.
   tags:
     - mcp
     - mcp-server
@@ -74,24 +85,25 @@ curation:
     - Primary function is acting as a middleware/adapter for host execution via MCP
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (224) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.586Z"
+    updated_at: '2026-05-06T22:12:15.586Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:45.460Z"
+    updated_at: '2026-09-03T05:16:45.460Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:00:03.222Z"
+    updated_at: '2026-07-21T16:00:03.222Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,7 +116,9 @@ processing:
       input_hash: sha256:a7db1ebc3f6dd71822d8356fe6912de9dc46df746fb9d65e28533338bd2e835c
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's identity is explicitly an MCP server designed to expose host process execution to a protocol client.
+      decision_reason: >-
+        The project's identity is explicitly an MCP server designed to expose host process execution to a protocol
+        client.
       decision_evidence:
         - Repo description explicitly identifies it as an 'MCP server to run commands'
         - README focuses on implementing the `runProcess` tool for the Model Context Protocol
@@ -112,6 +126,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is a protocol server/middleware rather than a feature addition for a specific host application.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is a protocol server/middleware rather than a
+        feature addition for a specific host application.
       review_reason: null
       review_resume_lifecycle: null

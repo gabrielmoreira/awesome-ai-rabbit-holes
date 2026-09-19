@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lodordev__mcp-romm__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: lodordev/mcp-romm
         extracted_url: https://github.com/lodordev/mcp-romm
-        surrounding_text: "- [lodordev/mcp-romm](https://github.com/lodordev/mcp-romm) [![lodordev/mcp-romm MCP server](https://glama.ai/mcp/servers/lodordev/mcp-romm/badges/score.svg)](https://glama.ai/mcp/servers/lodordev/mcp-romm) 🐍 🏠 - MCP server for [RomM](https://github.com/rommapp/romm) retro game library manager. 19 read-only tools for browsing platforms, searching ROMs, viewing metadata, managing collections, tracking saves, firmware, devices, and task monitoring. OAuth2 auth with automatic token refresh."
+        surrounding_text: >-
+          - [lodordev/mcp-romm](https://github.com/lodordev/mcp-romm) [![lodordev/mcp-romm MCP
+          server](https://glama.ai/mcp/servers/lodordev/mcp-romm/badges/score.svg)](https://glama.ai/mcp/servers/lodordev/mcp-romm)
+          🐍 🏠 - MCP server for [RomM](https://github.com/rommapp/romm) retro game library manager. 19 read-only tools
+          for browsing platforms, searching ROMs, viewing metadata, managing collections, tracking saves, firmware,
+          devices, and task monitoring. OAuth2 auth with automatic token refresh.
         confidence: high
 metadata:
   github:
@@ -30,19 +35,25 @@ metadata:
     archived: false
     full_name: lodordev/mcp-romm
     html_url: https://github.com/lodordev/mcp-romm
-    created_at: "2026-03-22T19:22:57Z"
-    pushed_at: "2026-07-18T18:29:18Z"
+    created_at: '2026-03-22T19:22:57Z'
+    pushed_at: '2026-07-18T18:29:18Z'
     description: MCP server for RomM — browse and manage your retro game library with AI
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:06:07.653Z"
+    last_checked_at: '2026-07-30T05:06:07.653Z'
     readme:
-      fetched_at: "2026-07-30T05:06:07.653Z"
+      fetched_at: '2026-07-30T05:06:07.653Z'
       bytes: 10053
 insights:
-  summary: An MCP server that exposes a self-hosted RomM retro game library to AI assistants, providing 19 read-only tools for browsing platforms, searching ROMs, and checking metadata.
-  why_it_matters: It lets developers query and manage their retro game collections through natural language via any MCP-compatible assistant instead of the RomM UI.
-  mental_damage: You now have the infrastructure to ask Claude about your Super Nintendo saves, which is indisputable proof that your AI tooling stack is completely out of control.
+  summary: >-
+    An MCP server that exposes a self-hosted RomM retro game library to AI assistants, providing 19 read-only tools for
+    browsing platforms, searching ROMs, and checking metadata.
+  why_it_matters: >-
+    It lets developers query and manage their retro game collections through natural language via any MCP-compatible
+    assistant instead of the RomM UI.
+  mental_damage: >-
+    You now have the infrastructure to ask Claude about your Super Nintendo saves, which is indisputable proof that your
+    AI tooling stack is completely out of control.
   tags:
     - mcp
     - retro-gaming
@@ -51,35 +62,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: "MCP is the core product identity: a single-purpose Model Context Protocol server for a specific domain (retro gaming libraries), matching the Domain Servers section."
+  reason: >-
+    MCP is the core product identity: a single-purpose Model Context Protocol server for a specific domain (retro gaming
+    libraries), matching the Domain Servers section.
   evidence:
     - Repo description explicitly states 'MCP server for RomM' as the primary identity.
     - README details 19 read-only tools exposed via MCP for browsing and managing a RomM instance.
     - Listed in awesome-mcp-servers under 'Gaming', confirming domain-server positioning within the MCP ecosystem.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: '2026-05-06T22:12:15.627Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:07.653Z"
+    updated_at: '2026-07-30T05:06:07.653Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

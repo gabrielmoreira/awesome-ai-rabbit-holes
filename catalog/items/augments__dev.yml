@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__augments__dev__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Official Servers
         anchor_text: Augments
         extracted_url: https://augments.dev
-        surrounding_text: "- **[Augments](https://augments.dev/)** - Comprehensive framework documentation and code examples for popular development tools and libraries."
+        surrounding_text: >-
+          - **[Augments](https://augments.dev/)** - Comprehensive framework documentation and code examples for popular
+          development tools and libraries.
         confidence: high
 metadata:
   github:
@@ -37,8 +39,12 @@ metadata:
     readme: null
 insights:
   summary: An MCP server that provides type signatures, prose documentation, and code examples for any npm package.
-  why_it_matters: It allows coding assistants like Claude Code to access up-to-date, intent-aware documentation for any npm package instead of relying on outdated training data.
-  mental_damage: Nothing says 'developer productivity' like adding another layer of abstraction between you and the actual documentation you used to read yourself.
+  why_it_matters: >-
+    It allows coding assistants like Claude Code to access up-to-date, intent-aware documentation for any npm package
+    instead of relying on outdated training data.
+  mental_damage: >-
+    Nothing says 'developer productivity' like adding another layer of abstraction between you and the actual
+    documentation you used to read yourself.
   tags:
     - mcp
     - npm
@@ -54,15 +60,16 @@ curation:
     - Provides type signatures and prose docs for npm packages
     - Found in awesome-mcp-servers
 placement:
-  primary_category: mcp
-  section: Generic Servers & Middleware
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Retrieval & Fresh Docs
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +78,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:24:02.272Z"
+    updated_at: '2026-07-20T15:24:02.272Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -92,6 +99,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product is specifically an MCP server designed to be consumed by an MCP host.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the product is specifically an MCP server designed to be consumed by
+        an MCP host.
       review_reason: null
       review_resume_lifecycle: null

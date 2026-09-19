@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tunedforai__x402-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,14 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: tunedforai/x402-mcp
         extracted_url: https://github.com/tunedforai/x402-mcp
-        surrounding_text: "- [tunedforai/x402-mcp](https://github.com/tunedforai/x402-mcp) [![tunedforai/x402-mcp MCP server](https://glama.ai/mcp/servers/tunedforai/x402-mcp/badges/score.svg)](https://glama.ai/mcp/servers/tunedforai/x402-mcp) 📇 ☁️ - Real-time crypto market structure for AI agents — orderflow across 20 exchanges, 24 tokens. 9 tools: price/funding/OI snapshots, cross-exchange CVD with whale activity, 7yr OHLCV history with buy/sell flow, on-chain address risk. Free via MCP ([`@tunedforai/x402-mcp`](https://www.npmjs.com/package/@tunedforai/x402-mcp) on npm) or pay-per-call in USDC on Base via x402 REST at [`x402.tunedfor.ai`](https://x402.tunedfor.ai) — no API key, no rate limits."
+        surrounding_text: >-
+          - [tunedforai/x402-mcp](https://github.com/tunedforai/x402-mcp) [![tunedforai/x402-mcp MCP
+          server](https://glama.ai/mcp/servers/tunedforai/x402-mcp/badges/score.svg)](https://glama.ai/mcp/servers/tunedforai/x402-mcp)
+          📇 ☁️ - Real-time crypto market structure for AI agents — orderflow across 20 exchanges, 24 tokens. 9 tools:
+          price/funding/OI snapshots, cross-exchange CVD with whale activity, 7yr OHLCV history with buy/sell flow,
+          on-chain address risk. Free via MCP
+          ([`@tunedforai/x402-mcp`](https://www.npmjs.com/package/@tunedforai/x402-mcp) on npm) or pay-per-call in USDC
+          on Base via x402 REST at [`x402.tunedfor.ai`](https://x402.tunedfor.ai) — no API key, no rate limits.
         confidence: high
 metadata:
   github:
@@ -30,17 +37,19 @@ metadata:
     archived: false
     full_name: tunedforai/x402-mcp
     html_url: https://github.com/tunedforai/x402-mcp
-    created_at: "2026-04-14T20:47:48Z"
-    pushed_at: "2026-05-04T23:02:41Z"
+    created_at: '2026-04-14T20:47:48Z'
+    pushed_at: '2026-05-04T23:02:41Z'
     description: stdio MCP wrapper for x402.tunedfor.ai — camelCase tool names, zero config, works everywhere
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:20:57.263Z"
+    last_checked_at: '2026-07-21T15:20:57.263Z'
     readme:
-      fetched_at: "2026-07-21T15:20:57.263Z"
+      fetched_at: '2026-07-21T15:20:57.263Z'
       bytes: 7150
 insights:
-  summary: x402-mcp is a stdio MCP server that exposes a real-time crypto market data API as 7 tools for MCP-compatible clients.
+  summary: >-
+    x402-mcp is a stdio MCP server that exposes a real-time crypto market data API as 7 tools for MCP-compatible
+    clients.
   why_it_matters: It gives AI agents instant, no-auth access to live crypto market data for trading or analysis workflows.
   mental_damage: Yet another API wrapper that makes your LLM feel like a Bloomberg terminal with commitment issues.
   tags:
@@ -51,31 +60,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server providing domain-specific tools, making MCP its core identity rather than a compatibility layer.
+  reason: >-
+    The product is an MCP server providing domain-specific tools, making MCP its core identity rather than a
+    compatibility layer.
   evidence:
-    - "Repo description: 'stdio MCP wrapper for x402.tunedfor.ai'"
-    - "README: 'x402-mcp is a stdio MCP server that exposes [x402.tunedfor.ai] as 7 tools any MCP-compatible client can call'"
+    - 'Repo description: ''stdio MCP wrapper for x402.tunedfor.ai'''
+    - >-
+      README: 'x402-mcp is a stdio MCP server that exposes [x402.tunedfor.ai] as 7 tools any MCP-compatible client can
+      call'
     - Listed in awesome-mcp-servers under Finance & Fintech > Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.653Z"
+    updated_at: '2026-05-06T22:12:15.653Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:57.263Z"
+    updated_at: '2026-07-21T15:20:57.263Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:16:12.107Z"
+    updated_at: '2026-05-12T15:16:12.107Z'
     cause: null
     next_retry_at: null
     attempts: 1

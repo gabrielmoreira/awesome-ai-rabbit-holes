@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__timeplus-io__mcp-timeplus__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: jovezhong/mcp-timeplus
         extracted_url: https://github.com/jovezhong/mcp-timeplus
-        surrounding_text: "- [jovezhong/mcp-timeplus](https://github.com/jovezhong/mcp-timeplus) 🐍 ☁️ - MCP server for Apache Kafka and Timeplus. Able to list Kafka topics, poll Kafka messages, save Kafka data locally and query streaming data with SQL via Timeplus"
+        surrounding_text: >-
+          - [jovezhong/mcp-timeplus](https://github.com/jovezhong/mcp-timeplus) 🐍 ☁️ - MCP server for Apache Kafka and
+          Timeplus. Able to list Kafka topics, poll Kafka messages, save Kafka data locally and query streaming data
+          with SQL via Timeplus
         confidence: high
     - id: discovery__github__timeplus-io__mcp-timeplus__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +38,10 @@ provenance:
           - 🗄️ Databases
         anchor_text: jovezhong/mcp-timeplus
         extracted_url: https://github.com/jovezhong/mcp-timeplus
-        surrounding_text: "-   **[jovezhong/mcp-timeplus](https://github.com/jovezhong/mcp-timeplus)** [![GitHub stars](https://img.shields.io/github/stars/jovezhong/mcp-timeplus?style=social)](https://github.com/jovezhong/mcp-timeplus): Manages Apache Kafka topics and queries streaming data via Timeplus SQL."
+        surrounding_text: >-
+          -   **[jovezhong/mcp-timeplus](https://github.com/jovezhong/mcp-timeplus)** [![GitHub
+          stars](https://img.shields.io/github/stars/jovezhong/mcp-timeplus?style=social)](https://github.com/jovezhong/mcp-timeplus):
+          Manages Apache Kafka topics and queries streaming data via Timeplus SQL.
         confidence: high
 metadata:
   github:
@@ -45,10 +51,13 @@ metadata:
     archived: false
     full_name: timeplus-io/mcp-timeplus
     html_url: https://github.com/timeplus-io/mcp-timeplus
-    created_at: "2025-02-16T22:42:47Z"
-    pushed_at: "2025-07-24T06:04:40Z"
-    description: Execute SQL queries and manage databases seamlessly with Timeplus. Leverage powerful tools to interact with your data, Kafka topics, and Iceberg tables efficiently. Enhance your data workflows with a user-friendly interface and robust backend capabilities.
-    homepage: ""
+    created_at: '2025-02-16T22:42:47Z'
+    pushed_at: '2025-07-24T06:04:40Z'
+    description: >-
+      Execute SQL queries and manage databases seamlessly with Timeplus. Leverage powerful tools to interact with your
+      data, Kafka topics, and Iceberg tables efficiently. Enhance your data workflows with a user-friendly interface and
+      robust backend capabilities.
+    homepage: ''
     topics:
       - clickhouse
       - flink
@@ -56,14 +65,20 @@ metadata:
       - kafka
       - mcp-server
       - spark
-    last_checked_at: "2026-07-21T15:20:49.917Z"
+    last_checked_at: '2026-07-21T15:20:49.917Z'
     readme:
-      fetched_at: "2026-07-21T15:20:49.917Z"
+      fetched_at: '2026-07-21T15:20:49.917Z'
       bytes: 5998
 insights:
-  summary: An MCP server that lets AI assistants execute SQL queries, list databases and tables, and interact with Kafka topics and Apache Iceberg tables through a Timeplus connection.
-  why_it_matters: Developers can grant coding agents or Claude Desktop direct read-only (or read-write) access to streaming data infrastructure without writing custom glue code.
-  mental_damage: We have successfully abstracted SQL queries behind an MCP server so your LLM can panic about Kafka lag on your behalf.
+  summary: >-
+    An MCP server that lets AI assistants execute SQL queries, list databases and tables, and interact with Kafka topics
+    and Apache Iceberg tables through a Timeplus connection.
+  why_it_matters: >-
+    Developers can grant coding agents or Claude Desktop direct read-only (or read-write) access to streaming data
+    infrastructure without writing custom glue code.
+  mental_damage: >-
+    We have successfully abstracted SQL queries behind an MCP server so your LLM can panic about Kafka lag on your
+    behalf.
   tags:
     - mcp
     - sql
@@ -73,35 +88,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server for Timeplus that exposes database, Kafka, and Iceberg tooling to MCP-compatible clients, making MCP its core product identity.
+  reason: >-
+    This is an MCP server for Timeplus that exposes database, Kafka, and Iceberg tooling to MCP-compatible clients,
+    making MCP its core product identity.
   evidence:
     - Repo name is mcp-timeplus and topics include mcp-server.
     - README explicitly describes it as 'An MCP server for Timeplus' with tools like run_sql and list_kafka_topics.
     - Featured in awesome-mcp-list and awesome-mcp-servers under Databases sections.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.594Z"
+    updated_at: '2026-05-06T22:12:15.594Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:49.917Z"
+    updated_at: '2026-07-21T15:20:49.917Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

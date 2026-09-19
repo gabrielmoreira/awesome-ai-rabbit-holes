@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alexpota__deploy-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: deploy-mcp/deploy-mcp
         extracted_url: https://github.com/alexpota/deploy-mcp
-        surrounding_text: "- [deploy-mcp/deploy-mcp](https://github.com/alexpota/deploy-mcp) 📇 ☁️ 🏠 - Universal deployment tracker for AI assistants with live status badges and deployment monitoring"
+        surrounding_text: >-
+          - [deploy-mcp/deploy-mcp](https://github.com/alexpota/deploy-mcp) 📇 ☁️ 🏠 - Universal deployment tracker for
+          AI assistants with live status badges and deployment monitoring
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: alexpota/deploy-mcp
     html_url: https://github.com/alexpota/deploy-mcp
-    created_at: "2025-08-02T18:18:50Z"
-    pushed_at: "2026-05-09T03:41:02Z"
+    created_at: '2025-08-02T18:18:50Z'
+    pushed_at: '2026-05-09T03:41:02Z'
     description: Universal deployment tracker for AI assistants - check deployment status without leaving your AI chat
     homepage: https://deploy-mcp.io
     topics:
@@ -51,14 +53,20 @@ metadata:
       - vercel
       - vercel-deployment
       - webhook-integration
-    last_checked_at: "2026-09-17T04:13:40.044Z"
+    last_checked_at: '2026-09-17T04:13:40.044Z'
     readme:
-      fetched_at: "2026-09-17T04:13:40.044Z"
+      fetched_at: '2026-09-17T04:13:40.044Z'
       bytes: 12853
 insights:
-  summary: Universal deployment tracker for AI assistants that checks deployment status across platforms like Vercel, Netlify, and Cloudflare Pages without leaving the AI chat.
-  why_it_matters: Developers can monitor deployments in real-time directly within their AI assistant workflow, eliminating context-switching to external dashboards.
-  mental_damage: Finally, a way to ask your AI assistant if the build is done yet, instead of refreshing the Vercel dashboard like a nervous parent at a school play.
+  summary: >-
+    Universal deployment tracker for AI assistants that checks deployment status across platforms like Vercel, Netlify,
+    and Cloudflare Pages without leaving the AI chat.
+  why_it_matters: >-
+    Developers can monitor deployments in real-time directly within their AI assistant workflow, eliminating
+    context-switching to external dashboards.
+  mental_damage: >-
+    Finally, a way to ask your AI assistant if the build is done yet, instead of refreshing the Vercel dashboard like a
+    nervous parent at a school play.
   tags:
     - mcp
     - deployment-monitoring
@@ -68,31 +76,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose primary identity is providing deployment tracking capabilities via the Model Context Protocol.
+  reason: >-
+    The product is an MCP server whose primary identity is providing deployment tracking capabilities via the Model
+    Context Protocol.
   evidence:
     - Repo description explicitly states it is a 'Universal deployment tracker for AI assistants'
     - README confirms it is an MCP server with `npx deploy-mcp` as the entrypoint
     - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.601Z"
+    updated_at: '2026-05-06T22:12:15.601Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:40.044Z"
+    updated_at: '2026-09-17T04:13:40.044Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:22:07.763Z"
+    updated_at: '2026-07-21T15:22:07.763Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -105,7 +116,9 @@ processing:
       input_hash: sha256:69c09c4de7543bafa376fb065f612b356083d1972df69f4f3a2a7569d23b9eb5
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server whose primary identity is providing deployment tracking capabilities via the Model Context Protocol.
+      decision_reason: >-
+        The product is an MCP server whose primary identity is providing deployment tracking capabilities via the Model
+        Context Protocol.
       decision_evidence:
         - Repo description explicitly states it is a 'Universal deployment tracker for AI assistants'
         - README confirms it is an MCP server with `npx deploy-mcp` as the entrypoint
@@ -113,6 +126,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is an MCP server providing deployment tracking, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product identity is an MCP server providing deployment
+        tracking, not merely an extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__musharna__plant-genomics-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-08T05:39:05.247Z"
+      discovered_at: '2026-06-08T05:39:05.247Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,14 @@ provenance:
           - <a name="bio"></a>Biology, Medicine and Bioinformatics
         anchor_text: musharna/plant-genomics-mcp
         extracted_url: https://github.com/musharna/plant-genomics-mcp
-        surrounding_text: "- [musharna/plant-genomics-mcp](https://github.com/musharna/plant-genomics-mcp) [![musharna/plant-genomics-mcp MCP server](https://glama.ai/mcp/servers/musharna/plant-genomics-mcp/badges/score.svg)](https://glama.ai/mcp/servers/musharna/plant-genomics-mcp) 🐍 🏠 🍎 🪟 🐧 - 32 tools for plant-genomics locus lookup across 11 public backends (Ensembl Plants, Phytozome, UniProtKB, KEGG, STRING-DB, Gramene, Europe PMC, QuickGO, NCBI BLAST, ATTED-II, BAR). Single-locus, parallel-batch, and cross-source synthesis variants; JSON output schemas and EDAM ontology tags on every tool. `pipx install plant-genomics-mcp`."
+        surrounding_text: >-
+          - [musharna/plant-genomics-mcp](https://github.com/musharna/plant-genomics-mcp) [![musharna/plant-genomics-mcp
+          MCP
+          server](https://glama.ai/mcp/servers/musharna/plant-genomics-mcp/badges/score.svg)](https://glama.ai/mcp/servers/musharna/plant-genomics-mcp)
+          🐍 🏠 🍎 🪟 🐧 - 32 tools for plant-genomics locus lookup across 11 public backends (Ensembl Plants,
+          Phytozome, UniProtKB, KEGG, STRING-DB, Gramene, Europe PMC, QuickGO, NCBI BLAST, ATTED-II, BAR). Single-locus,
+          parallel-batch, and cross-source synthesis variants; JSON output schemas and EDAM ontology tags on every tool.
+          `pipx install plant-genomics-mcp`.
         confidence: high
 metadata:
   github:
@@ -30,9 +37,11 @@ metadata:
     archived: false
     full_name: musharna/plant-genomics-mcp
     html_url: https://github.com/musharna/plant-genomics-mcp
-    created_at: "2026-05-22T21:18:06Z"
-    pushed_at: "2026-07-22T04:10:59Z"
-    description: Plant genomics MCP server — 32 tools across 11 backends (Ensembl Plants, Phytozome, UniProt, Europe PMC, QuickGO, NCBI BLAST, Gramene, KEGG, STRING-DB, ATTED-II, BAR) + cross-source synthesis. stdio + Streamable-HTTP transports.
+    created_at: '2026-05-22T21:18:06Z'
+    pushed_at: '2026-07-22T04:10:59Z'
+    description: >-
+      Plant genomics MCP server — 32 tools across 11 backends (Ensembl Plants, Phytozome, UniProt, Europe PMC, QuickGO,
+      NCBI BLAST, Gramene, KEGG, STRING-DB, ATTED-II, BAR) + cross-source synthesis. stdio + Streamable-HTTP transports.
     homepage: https://pypi.org/project/plant-genomics-mcp/
     topics:
       - bioinformatics
@@ -45,14 +54,18 @@ metadata:
       - plant-genomics
       - python
       - uniprot
-    last_checked_at: "2026-07-23T05:09:45.034Z"
+    last_checked_at: '2026-07-23T05:09:45.034Z'
     readme:
-      fetched_at: "2026-07-23T05:09:45.034Z"
+      fetched_at: '2026-07-23T05:09:45.034Z'
       bytes: 32229
 insights:
   summary: Plant genomics MCP server providing 32 tools for querying plant biology databases via the Model Context Protocol.
-  why_it_matters: Enables developers building genomics tools to access live plant data from 11 bioinformatics backends through a standardized MCP interface.
-  mental_damage: Finally, a way to make your plant-identifying app feel like it's negotiating with a tired librarian who only speaks in locus IDs.
+  why_it_matters: >-
+    Enables developers building genomics tools to access live plant data from 11 bioinformatics backends through a
+    standardized MCP interface.
+  mental_damage: >-
+    Finally, a way to make your plant-identifying app feel like it's negotiating with a tired librarian who only speaks
+    in locus IDs.
   tags:
     - mcp
     - bioinformatics
@@ -60,33 +73,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server providing domain-specific tools for plant genomics, making MCP the primary product rather than a compatibility feature.
+  reason: >-
+    The product's core identity is an MCP server providing domain-specific tools for plant genomics, making MCP the
+    primary product rather than a compatibility feature.
   evidence:
-    - "Repo description: 'Plant genomics MCP server — 32 tools across 11 backends'"
-    - "README: Explicitly positions as an MCP server with stdio + Streamable-HTTP transports"
-    - "Source-list context: Listed in awesome-mcp-servers under Biology, Medicine and Bioinformatics"
+    - 'Repo description: ''Plant genomics MCP server — 32 tools across 11 backends'''
+    - 'README: Explicitly positions as an MCP server with stdio + Streamable-HTTP transports'
+    - 'Source-list context: Listed in awesome-mcp-servers under Biology, Medicine and Bioinformatics'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-08T05:39:05.248Z"
+    updated_at: '2026-06-08T05:39:05.248Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-08-03T05:17:09.137Z"
+    updated_at: '2026-08-03T05:17:09.137Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for musharna/plant-genomics-mcp
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-09T05:33:23.910Z"
+    updated_at: '2026-07-09T05:33:23.910Z'
     cause: null
     next_retry_at: null
     attempts: 2

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__semiotronika__nouz-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: KVANTRA-dev/NOUZ-MCP
         extracted_url: https://github.com/kvantra-dev/nouz-mcp
-        surrounding_text: "- [KVANTRA-dev/NOUZ-MCP](https://github.com/KVANTRA-dev/NOUZ-MCP) [![NOUZ-MCP MCP server](https://glama.ai/mcp/servers/KVANTRA-dev/NOUZ-MCP/badges/score.svg)](https://glama.ai/mcp/servers/KVANTRA-dev/NOUZ-MCP) 🐍 🏠 🍎 🪟 🐧 - Semantic knowledge graph for Obsidian. Three modes (pure graph / semantic classification / strict hierarchy), local embeddings, sign classification via cosine similarity to user-defined cores, bottom-up core_mix aggregation, semantic bridge discovery, and drift detection. `pip install nouz-mcp`"
+        surrounding_text: >-
+          - [KVANTRA-dev/NOUZ-MCP](https://github.com/KVANTRA-dev/NOUZ-MCP) [![NOUZ-MCP MCP
+          server](https://glama.ai/mcp/servers/KVANTRA-dev/NOUZ-MCP/badges/score.svg)](https://glama.ai/mcp/servers/KVANTRA-dev/NOUZ-MCP)
+          🐍 🏠 🍎 🪟 🐧 - Semantic knowledge graph for Obsidian. Three modes (pure graph / semantic classification /
+          strict hierarchy), local embeddings, sign classification via cosine similarity to user-defined cores,
+          bottom-up core_mix aggregation, semantic bridge discovery, and drift detection. `pip install nouz-mcp`
         confidence: high
 metadata:
   github:
@@ -30,19 +35,25 @@ metadata:
     archived: false
     full_name: Semiotronika/NOUZ-MCP
     html_url: https://github.com/Semiotronika/NOUZ-MCP
-    created_at: "2026-04-03T11:27:47Z"
-    pushed_at: "2026-05-30T13:25:39Z"
+    created_at: '2026-04-03T11:27:47Z'
+    pushed_at: '2026-05-30T13:25:39Z'
     description: MCP Server for local knowledge systems
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:53.927Z"
+    last_checked_at: '2026-07-20T16:42:53.927Z'
     readme:
-      fetched_at: "2026-07-20T16:42:53.927Z"
+      fetched_at: '2026-07-20T16:42:53.927Z'
       bytes: 14487
 insights:
-  summary: An MCP server that builds semantic knowledge graphs over local Markdown vaults like Obsidian and Logseq, classifying notes into domains and detecting structural drift.
-  why_it_matters: It gives MCP-compatible agents a structured, queryable memory layer so they can reason over your personal knowledge base instead of treating every note as an isolated file.
-  mental_damage: Finally, a tool to worry about whether your weekend Obsidian notes are semantically drifting away from the domain you assigned them after two glasses of wine.
+  summary: >-
+    An MCP server that builds semantic knowledge graphs over local Markdown vaults like Obsidian and Logseq, classifying
+    notes into domains and detecting structural drift.
+  why_it_matters: >-
+    It gives MCP-compatible agents a structured, queryable memory layer so they can reason over your personal knowledge
+    base instead of treating every note as an isolated file.
+  mental_damage: >-
+    Finally, a tool to worry about whether your weekend Obsidian notes are semantically drifting away from the domain
+    you assigned them after two glasses of wine.
   tags:
     - mcp
     - knowledge-graph
@@ -52,35 +63,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product is explicitly an MCP server for knowledge and memory systems, matching the MCP Servers & Tooling category and fitting the Domain Servers section.
+  reason: >-
+    The product is explicitly an MCP server for knowledge and memory systems, matching the MCP Servers & Tooling
+    category and fitting the Domain Servers section.
   evidence:
-    - "Repo description states: 'MCP Server for local knowledge systems'"
+    - 'Repo description states: ''MCP Server for local knowledge systems'''
     - README identifies it as a 'Семантический MCP-сервер' with tools like suggest_metadata and embed
     - Listed in awesome-mcp-servers under 'Knowledge & Memory' section
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.647Z"
+    updated_at: '2026-05-06T22:12:15.647Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:53.927Z"
+    updated_at: '2026-07-20T16:42:53.927Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mikkoparkkola__mcp-gateway__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: MikkoParkkola/mcp-gateway
         extracted_url: https://github.com/mikkoparkkola/mcp-gateway
-        surrounding_text: "- [MikkoParkkola/mcp-gateway](https://github.com/MikkoParkkola/mcp-gateway) [![MikkoParkkola/mcp-gateway MCP server](https://glama.ai/mcp/servers/MikkoParkkola/mcp-gateway/badges/score.svg)](https://glama.ai/mcp/servers/MikkoParkkola/mcp-gateway) 🏎️ 🏠 🍎 🪟 🐧 - Universal MCP gateway with single-port multiplexing and Meta-MCP. 4 meta-tools replace 100+ registrations, saving 95% context window. Hot-reloadable capabilities, OpenAPI auto-import, 42 starter capabilities (25 zero-config)."
+        surrounding_text: >-
+          - [MikkoParkkola/mcp-gateway](https://github.com/MikkoParkkola/mcp-gateway) [![MikkoParkkola/mcp-gateway MCP
+          server](https://glama.ai/mcp/servers/MikkoParkkola/mcp-gateway/badges/score.svg)](https://glama.ai/mcp/servers/MikkoParkkola/mcp-gateway)
+          🏎️ 🏠 🍎 🪟 🐧 - Universal MCP gateway with single-port multiplexing and Meta-MCP. 4 meta-tools replace 100+
+          registrations, saving 95% context window. Hot-reloadable capabilities, OpenAPI auto-import, 42 starter
+          capabilities (25 zero-config).
         confidence: high
 metadata:
   github:
@@ -30,9 +35,12 @@ metadata:
     archived: false
     full_name: MikkoParkkola/mcp-gateway
     html_url: https://github.com/MikkoParkkola/mcp-gateway
-    created_at: "2026-01-25T00:55:03Z"
-    pushed_at: "2026-07-27T23:04:32Z"
-    description: One endpoint in front of unlimited MCP servers and REST APIs. The agent sees a fixed ~15-tool surface however many you connect, so tool-list token cost stays flat (about 89% less on a 100-tool stack) and the savings climb as you add more. Single Rust binary.
+    created_at: '2026-01-25T00:55:03Z'
+    pushed_at: '2026-07-27T23:04:32Z'
+    description: >-
+      One endpoint in front of unlimited MCP servers and REST APIs. The agent sees a fixed ~15-tool surface however many
+      you connect, so tool-list token cost stays flat (about 89% less on a 100-tool stack) and the savings climb as you
+      add more. Single Rust binary.
     homepage: https://crates.io/crates/mcp-gateway
     topics:
       - ai
@@ -45,14 +53,20 @@ metadata:
       - multiplexer
       - proxy
       - rust
-    last_checked_at: "2026-08-03T05:17:03.089Z"
+    last_checked_at: '2026-08-03T05:17:03.089Z'
     readme:
-      fetched_at: "2026-08-03T05:17:03.089Z"
+      fetched_at: '2026-08-03T05:17:03.089Z'
       bytes: 41869
 insights:
-  summary: A Rust-based gateway that multiplexes multiple MCP servers and REST APIs behind a single Meta-MCP interface to drastically reduce context window token usage.
-  why_it_matters: Developers can expose 110+ REST capabilities and backend tools to AI clients through a minimal tool surface, avoiding context bloat that slows down responses.
-  mental_damage: We have invented a protocol to manage the protocols that manage the tools that manage the AI that manages to use 95% of your context window on tool definitions.
+  summary: >-
+    A Rust-based gateway that multiplexes multiple MCP servers and REST APIs behind a single Meta-MCP interface to
+    drastically reduce context window token usage.
+  why_it_matters: >-
+    Developers can expose 110+ REST capabilities and backend tools to AI clients through a minimal tool surface,
+    avoiding context bloat that slows down responses.
+  mental_damage: >-
+    We have invented a protocol to manage the protocols that manage the tools that manage the AI that manages to use 95%
+    of your context window on tool definitions.
   tags:
     - mcp
     - gateway
@@ -62,35 +76,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is MCP infrastructure—a gateway and middleware layer for routing MCP traffic and compressing tool definitions—making it a clear fit for MCP Servers & Tooling.
+  reason: >-
+    The product's core identity is MCP infrastructure—a gateway and middleware layer for routing MCP traffic and
+    compressing tool definitions—making it a clear fit for MCP Servers & Tooling.
   evidence:
     - Repo description explicitly states 'Universal MCP Gateway - Single-port multiplexing with Meta-MCP'.
     - README defines it as a 'tool and capability gateway' routing MCP traffic to backend servers and REST APIs.
     - Listed in awesome-mcp-servers under 'Aggregators' and supports MCP Protocol 2025-11-25.
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.630Z"
+    updated_at: '2026-05-06T22:12:15.630Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:03.089Z"
+    updated_at: '2026-08-03T05:17:03.089Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__googleapis__mcp-toolbox__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: googleapis/genai-toolbox
         extracted_url: https://github.com/googleapis/genai-toolbox
-        surrounding_text: "- [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox) 🏎️ ☁️ - Open source MCP server specializing in easy, fast, and secure tools for Databases."
+        surrounding_text: >-
+          - [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox) 🏎️ ☁️ - Open source MCP server
+          specializing in easy, fast, and secure tools for Databases.
         confidence: high
     - id: discovery__github__googleapis__mcp-toolbox__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +37,9 @@ provenance:
           - Official Servers
         anchor_text: MCP Toolbox for Databases
         extracted_url: https://github.com/googleapis/genai-toolbox
-        surrounding_text: "- **[MCP Toolbox for Databases](https://github.com/googleapis/genai-toolbox)** - Open source MCP server specializing in easy, fast, and secure tools for Databases."
+        surrounding_text: >-
+          - **[MCP Toolbox for Databases](https://github.com/googleapis/genai-toolbox)** - Open source MCP server
+          specializing in easy, fast, and secure tools for Databases.
         confidence: high
 metadata:
   github:
@@ -45,8 +49,8 @@ metadata:
     archived: false
     full_name: googleapis/mcp-toolbox
     html_url: https://github.com/googleapis/mcp-toolbox
-    created_at: "2024-06-07T20:52:54Z"
-    pushed_at: "2026-09-03T05:13:59Z"
+    created_at: '2024-06-07T20:52:54Z'
+    pushed_at: '2026-09-03T05:13:59Z'
     description: MCP Toolbox for Databases is an open source MCP server for databases.
     homepage: https://mcp-toolbox.dev/documentation/introduction/
     topics:
@@ -70,13 +74,17 @@ metadata:
       - server
       - spanner
       - tidb
-    last_checked_at: "2026-09-03T05:16:52.362Z"
+    last_checked_at: '2026-09-03T05:16:52.362Z'
     readme:
-      fetched_at: "2026-09-03T05:16:52.361Z"
+      fetched_at: '2026-09-03T05:16:52.361Z'
       bytes: 32796
 insights:
-  summary: MCP Toolbox for Databases is an open source MCP server that connects AI agents, IDEs, and applications directly to enterprise databases.
-  why_it_matters: It provides prebuilt tools for instant database access and a framework for building custom, secure AI tools for production agents, reducing boilerplate and improving integration with MCP clients.
+  summary: >-
+    MCP Toolbox for Databases is an open source MCP server that connects AI agents, IDEs, and applications directly to
+    enterprise databases.
+  why_it_matters: >-
+    It provides prebuilt tools for instant database access and a framework for building custom, secure AI tools for
+    production agents, reducing boilerplate and improving integration with MCP clients.
   mental_damage: Now your AI can query your database, but you still have to explain to it why it can't just JOIN everything.
   tags:
     - mcp
@@ -87,31 +95,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the primary product identity, and the tool is explicitly an MCP server for databases, fitting the MCP Servers & Tooling category.
+  reason: >-
+    MCP is the primary product identity, and the tool is explicitly an MCP server for databases, fitting the MCP Servers
+    & Tooling category.
   evidence:
     - Repo description explicitly states it is an MCP server for databases
     - README emphasizes MCP compatibility and server functionality
     - Listed in awesome-mcp-servers under Server Implementations > Databases
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: promotion_candidate
   reason: Stars (14981) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.586Z"
+    updated_at: '2026-05-06T22:12:15.586Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:52.362Z"
+    updated_at: '2026-09-03T05:16:52.362Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:03:39.488Z"
+    updated_at: '2026-07-21T16:03:39.488Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -124,7 +135,9 @@ processing:
       input_hash: sha256:cb1cee9a82d4eb9de1da09ac3b1e81192df4556fb8ce9f38a249b7e0a9cd9a0b
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the primary product identity, and the tool is explicitly an MCP server for databases, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        MCP is the primary product identity, and the tool is explicitly an MCP server for databases, fitting the MCP
+        Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for databases
         - README emphasizes MCP compatibility and server functionality
@@ -132,6 +145,8 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product's core identity is as an MCP server, not a general-purpose SDK or framework.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product's core identity is as an MCP server, not a general-purpose SDK
+        or framework.
       review_reason: null
       review_resume_lifecycle: null

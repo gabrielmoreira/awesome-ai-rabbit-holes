@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__akutishevsky__lunchmoney-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: LunchMoney
         extracted_url: https://github.com/akutishevsky/lunchmoney-mcp
-        surrounding_text: "- **[LunchMoney](https://github.com/akutishevsky/lunchmoney-mcp)** - MCP server for LunchMoney personal finance and budgeting tool."
+        surrounding_text: >-
+          - **[LunchMoney](https://github.com/akutishevsky/lunchmoney-mcp)** - MCP server for LunchMoney personal
+          finance and budgeting tool.
         confidence: high
 metadata:
   github:
@@ -29,10 +31,12 @@ metadata:
     archived: false
     full_name: akutishevsky/lunchmoney-mcp
     html_url: https://github.com/akutishevsky/lunchmoney-mcp
-    created_at: "2025-07-27T04:25:40Z"
-    pushed_at: "2026-08-03T08:08:33Z"
-    description: A Model Context Protocol (MCP) server implementation for LunchMoney, providing programmatic access to personal finance management through LunchMoney's API.
-    homepage: ""
+    created_at: '2025-07-27T04:25:40Z'
+    pushed_at: '2026-08-03T08:08:33Z'
+    description: >-
+      A Model Context Protocol (MCP) server implementation for LunchMoney, providing programmatic access to personal
+      finance management through LunchMoney's API.
+    homepage: ''
     topics:
       - lunchmoney
       - lunchmoney-api
@@ -40,14 +44,20 @@ metadata:
       - mcp-server
       - mcpb
       - model-context-protocol
-    last_checked_at: "2026-09-17T04:13:37.805Z"
+    last_checked_at: '2026-09-17T04:13:37.805Z'
     readme:
-      fetched_at: "2026-09-17T04:13:37.805Z"
+      fetched_at: '2026-09-17T04:13:37.805Z'
       bytes: 22423
 insights:
-  summary: An MCP server implementation that provides AI assistants with programmatic access to LunchMoney personal finance data via its API.
-  why_it_matters: It allows developers to integrate personal financial management, such as transaction tracking and budget analysis, directly into their AI-driven workflows and agentic toolsets.
-  mental_damage: Because nothing builds character like letting a large language model scrutinize your impulse-buy transaction history.
+  summary: >-
+    An MCP server implementation that provides AI assistants with programmatic access to LunchMoney personal finance
+    data via its API.
+  why_it_matters: >-
+    It allows developers to integrate personal financial management, such as transaction tracking and budget analysis,
+    directly into their AI-driven workflows and agentic toolsets.
+  mental_damage: >-
+    Because nothing builds character like letting a large language model scrutinize your impulse-buy transaction
+    history.
   tags:
     - mcp
     - finance
@@ -57,31 +67,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server whose primary identity is providing a specific domain (personal finance) to the Model Context Protocol ecosystem.
+  reason: >-
+    The project is explicitly an MCP server whose primary identity is providing a specific domain (personal finance) to
+    the Model Context Protocol ecosystem.
   evidence:
     - Repo description identifies it as an MCP server implementation for LunchMoney
     - Provides specialized tools for transactions, budgets, and account management
     - Listed in the awesome-mcp-servers directory
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.601Z"
+    updated_at: '2026-05-06T22:12:15.601Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:37.805Z"
+    updated_at: '2026-09-17T04:13:37.805Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:11:36.355Z"
+    updated_at: '2026-08-27T06:11:36.355Z'
     cause: null
     next_retry_at: null
     attempts: 4
@@ -94,7 +107,9 @@ processing:
       input_hash: sha256:a8968c44a6c5815b8ed40707c30dcdf0635ac2c6134b8e8aa8b106d016e33514
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is explicitly an MCP server whose primary identity is providing a specific domain (personal finance) to the Model Context Protocol ecosystem.
+      decision_reason: >-
+        The project is explicitly an MCP server whose primary identity is providing a specific domain (personal finance)
+        to the Model Context Protocol ecosystem.
       decision_evidence:
         - Repo description identifies it as an MCP server implementation for LunchMoney
         - Provides specialized tools for transactions, budgets, and account management
@@ -102,6 +117,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is an MCP-compliant server rather than a general host integration or plugin.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is an MCP-compliant server rather than a
+        general host integration or plugin.
       review_reason: null
       review_resume_lifecycle: null

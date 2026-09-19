@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__coze-dev__coze-studio__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 智能体 Agents
         anchor_text: coze-studio
         extracted_url: https://github.com/coze-dev/coze-studio
-        surrounding_text: "40. [coze-studio](https://github.com/coze-dev/coze-studio): An AI agent development platform with all-in-one visual tools, simplifying agent creation, debugging, and deployment like never before."
+        surrounding_text: >-
+          40. [coze-studio](https://github.com/coze-dev/coze-studio): An AI agent development platform with all-in-one
+          visual tools, simplifying agent creation, debugging, and deployment like never before.
         confidence: high
 metadata:
   github:
@@ -29,10 +31,12 @@ metadata:
     archived: false
     full_name: coze-dev/coze-studio
     html_url: https://github.com/coze-dev/coze-studio
-    created_at: "2025-06-26T02:19:21Z"
-    pushed_at: "2026-07-29T03:18:43Z"
-    description: An AI agent development platform with all-in-one visual tools, simplifying agent creation, debugging, and deployment like never before. Coze your way to AI Agent creation.
-    homepage: ""
+    created_at: '2025-06-26T02:19:21Z'
+    pushed_at: '2026-07-29T03:18:43Z'
+    description: >-
+      An AI agent development platform with all-in-one visual tools, simplifying agent creation, debugging, and
+      deployment like never before. Coze your way to AI Agent creation.
+    homepage: ''
     topics:
       - agent
       - agent-platform
@@ -51,14 +55,20 @@ metadata:
       - studio
       - typescript
       - workflow
-    last_checked_at: "2026-09-14T04:13:30.438Z"
+    last_checked_at: '2026-09-14T04:13:30.438Z'
     readme:
-      fetched_at: "2026-09-14T04:13:30.438Z"
+      fetched_at: '2026-09-14T04:13:30.438Z'
       bytes: 11720
 insights:
-  summary: An open-source AI agent development platform with visual tools for building, debugging, and deploying agents, workflows, and apps.
-  why_it_matters: It lowers the barrier to creating production-grade AI agents by providing a no-code/low-code environment with built-in workflows, knowledge bases, and plugin systems.
-  mental_damage: Finally, a way to build agents without writing YAML by hand—until you realize you still have to debug the workflow you drew in a box.
+  summary: >-
+    An open-source AI agent development platform with visual tools for building, debugging, and deploying agents,
+    workflows, and apps.
+  why_it_matters: >-
+    It lowers the barrier to creating production-grade AI agents by providing a no-code/low-code environment with
+    built-in workflows, knowledge bases, and plugin systems.
+  mental_damage: >-
+    Finally, a way to build agents without writing YAML by hand—until you realize you still have to debug the workflow
+    you drew in a box.
   tags:
     - agent-platform
     - low-code
@@ -68,31 +78,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a visual workbench for coordinating agents, workflows, and resources, fitting the agent orchestration category as a control plane for multi-agent development.
+  reason: >-
+    The product is a visual workbench for coordinating agents, workflows, and resources, fitting the agent orchestration
+    category as a control plane for multi-agent development.
   evidence:
-    - "Repo description: 'An AI agent development platform with all-in-one visual tools, simplifying agent creation, debugging, and deployment'"
-    - "README: 'Coze Studio is an all-in-one AI agent development tool... offering the most convenient AI agent development environment, from development to deployment'"
+    - >-
+      Repo description: 'An AI agent development platform with all-in-one visual tools, simplifying agent creation,
+      debugging, and deployment'
+    - >-
+      README: 'Coze Studio is an all-in-one AI agent development tool... offering the most convenient AI agent
+      development environment, from development to deployment'
     - Features include workflow building, plugin management, knowledge bases, and multi-agent coordination
 placement:
   primary_category: agent-orchestration
-  section: Workbenches & Collaboration Surfaces
+  secondary_categories: []
+  section: Visual Builders & Workbenches
 lifecycle:
   status: promotion_candidate
   reason: Stars (20700) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.609Z"
+    updated_at: '2026-05-06T22:12:15.609Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:30.438Z"
+    updated_at: '2026-09-14T04:13:30.438Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:49:16.631Z"
+    updated_at: '2026-07-21T15:49:16.631Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -105,14 +122,22 @@ processing:
       input_hash: sha256:2236660e64e52fc78367e8924bff1622bfda4c2a65b6ce602eff633bc01b0288
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The product is a visual workbench for coordinating agents, workflows, and resources, fitting the agent orchestration category as a control plane for multi-agent development.
+      decision_reason: >-
+        The product is a visual workbench for coordinating agents, workflows, and resources, fitting the agent
+        orchestration category as a control plane for multi-agent development.
       decision_evidence:
-        - "Repo description: 'An AI agent development platform with all-in-one visual tools, simplifying agent creation, debugging, and deployment'"
-        - "README: 'Coze Studio is an all-in-one AI agent development tool... offering the most convenient AI agent development environment, from development to deployment'"
+        - >-
+          Repo description: 'An AI agent development platform with all-in-one visual tools, simplifying agent creation,
+          debugging, and deployment'
+        - >-
+          README: 'Coze Studio is an all-in-one AI agent development tool... offering the most convenient AI agent
+          development environment, from development to deployment'
         - Features include workflow building, plugin management, knowledge bases, and multi-agent coordination
       category_candidates:
         - agent-orchestration
         - app-builders
-      contrastive_reason: Choose agent-orchestration over app-builders because the core value is coordinating agents and workflows rather than turning prompts directly into deployable apps.
+      contrastive_reason: >-
+        Choose agent-orchestration over app-builders because the core value is coordinating agents and workflows rather
+        than turning prompts directly into deployable apps.
       review_reason: null
       review_resume_lifecycle: null

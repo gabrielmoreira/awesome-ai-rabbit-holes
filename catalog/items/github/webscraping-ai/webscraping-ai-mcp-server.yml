@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__webscraping-ai__webscraping-ai-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: WebScraping.AI
         extracted_url: https://github.com/webscraping-ai/webscraping-ai-mcp-server
-        surrounding_text: "- **[WebScraping.AI](https://github.com/webscraping-ai/webscraping-ai-mcp-server)** - Interact with **[WebScraping.AI](https://WebScraping.AI)** for web data extraction and scraping."
+        surrounding_text: >-
+          - **[WebScraping.AI](https://github.com/webscraping-ai/webscraping-ai-mcp-server)** - Interact with
+          **[WebScraping.AI](https://WebScraping.AI)** for web data extraction and scraping.
         confidence: high
 metadata:
   github:
@@ -29,19 +31,25 @@ metadata:
     archived: false
     full_name: webscraping-ai/webscraping-ai-mcp-server
     html_url: https://github.com/webscraping-ai/webscraping-ai-mcp-server
-    created_at: "2025-04-15T10:59:36Z"
-    pushed_at: "2026-07-17T09:33:49Z"
-    description: " A Model Context Protocol (MCP) server implementation that integrates with WebScraping.AI for web data extraction capabilities."
+    created_at: '2025-04-15T10:59:36Z'
+    pushed_at: '2026-07-17T09:33:49Z'
+    description: ' A Model Context Protocol (MCP) server implementation that integrates with WebScraping.AI for web data extraction capabilities.'
     homepage: https://webscraping.ai
     topics: []
-    last_checked_at: "2026-07-21T15:21:11.307Z"
+    last_checked_at: '2026-07-21T15:21:11.307Z'
     readme:
-      fetched_at: "2026-07-21T15:21:11.307Z"
+      fetched_at: '2026-07-21T15:21:11.307Z'
       bytes: 13243
 insights:
-  summary: A Model Context Protocol server that provides web scraping and data extraction capabilities via the WebScraping.AI API.
-  why_it_matters: It lets AI coding assistants securely fetch and process live web data for tasks like research, testing, or content generation without leaving the developer workflow.
-  mental_damage: Now your AI agent can scrape competitor sites while you pretend it's for 'market research' and not just procrastination with extra steps.
+  summary: >-
+    A Model Context Protocol server that provides web scraping and data extraction capabilities via the WebScraping.AI
+    API.
+  why_it_matters: >-
+    It lets AI coding assistants securely fetch and process live web data for tasks like research, testing, or content
+    generation without leaving the developer workflow.
+  mental_damage: >-
+    Now your AI agent can scrape competitor sites while you pretend it's for 'market research' and not just
+    procrastination with extra steps.
   tags:
     - mcp
     - web-scraping
@@ -49,31 +57,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose core identity is providing web scraping as an MCP service, not extending another tool or acting as a coding assistant.
+  reason: >-
+    This is an MCP-first server whose core identity is providing web scraping as an MCP service, not extending another
+    tool or acting as a coding assistant.
   evidence:
-    - "Repo description: 'A Model Context Protocol (MCP) server implementation that integrates with WebScraping.AI for web data extraction capabilities.'"
-    - README focuses on MCP server setup, configuration for Cursor and Claude, and exposing web scraping tools via the MCP protocol.
+    - >-
+      Repo description: 'A Model Context Protocol (MCP) server implementation that integrates with WebScraping.AI for
+      web data extraction capabilities.'
+    - >-
+      README focuses on MCP server setup, configuration for Cursor and Claude, and exposing web scraping tools via the
+      MCP protocol.
     - Listed in awesome-mcp-servers under 'Official Servers', confirming its identity as an MCP server.
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.655Z"
+    updated_at: '2026-05-06T22:12:15.655Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:11.307Z"
+    updated_at: '2026-07-21T15:21:11.307Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:32:28.530Z"
+    updated_at: '2026-05-12T15:32:28.530Z'
     cause: null
     next_retry_at: null
     attempts: 1

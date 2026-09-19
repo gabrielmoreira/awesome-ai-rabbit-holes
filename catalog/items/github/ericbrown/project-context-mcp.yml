@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ericbrown__project-context-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: ericbrown/project-context-mcp
         extracted_url: https://github.com/ericbrown/project-context-mcp
-        surrounding_text: "- [ericbrown/project-context-mcp](https://github.com/ericbrown/project-context-mcp) 🐍 🏠 - Exposes `.context/` folder files as MCP resources, giving Claude Code instant access to project documentation via `@` mentions."
+        surrounding_text: >-
+          - [ericbrown/project-context-mcp](https://github.com/ericbrown/project-context-mcp) 🐍 🏠 - Exposes
+          `.context/` folder files as MCP resources, giving Claude Code instant access to project documentation via `@`
+          mentions.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,24 @@ metadata:
     archived: false
     full_name: ericbrown/project-context-mcp
     html_url: https://github.com/ericbrown/project-context-mcp
-    created_at: "2026-01-14T21:30:36Z"
-    pushed_at: "2026-01-14T22:09:24Z"
-    description: Give Claude Code instant access to your project's institutional knowledge. Drop docs in .context/, mention them with @, and watch Claude become an expert on your codebase.
-    homepage: ""
+    created_at: '2026-01-14T21:30:36Z'
+    pushed_at: '2026-01-14T22:09:24Z'
+    description: >-
+      Give Claude Code instant access to your project's institutional knowledge. Drop docs in .context/, mention them
+      with @, and watch Claude become an expert on your codebase.
+    homepage: ''
     topics: []
-    last_checked_at: "2026-08-27T09:23:24.844Z"
+    last_checked_at: '2026-08-27T09:23:24.844Z'
     readme:
-      fetched_at: "2026-08-27T09:23:24.844Z"
+      fetched_at: '2026-08-27T09:23:24.844Z'
       bytes: 12353
 insights:
-  summary: An MCP server that exposes project documentation in a `.context/` folder to Claude Code via `@` mentions for instant contextual access.
-  why_it_matters: Eliminates repetitive copy-pasting of project-specific knowledge by making institutional docs discoverable and referenceable directly in Claude Code sessions.
+  summary: >-
+    An MCP server that exposes project documentation in a `.context/` folder to Claude Code via `@` mentions for instant
+    contextual access.
+  why_it_matters: >-
+    Eliminates repetitive copy-pasting of project-specific knowledge by making institutional docs discoverable and
+    referenceable directly in Claude Code sessions.
   mental_damage: Finally, a way to stop explaining your own architecture to the AI that’s supposed to be helping you with it.
   tags:
     - mcp-server
@@ -51,31 +60,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server whose sole purpose is to serve project context to Claude Code."
+  reason: >-
+    MCP is the product identity: this is a dedicated MCP server whose sole purpose is to serve project context to Claude
+    Code.
   evidence:
     - Repo description explicitly states it is an MCP server for Claude Code
     - README details its role as a context-providing MCP server with `.context/` folder integration
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:24.844Z"
+    updated_at: '2026-08-27T09:23:24.844Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:52:40.639Z"
+    updated_at: '2026-07-21T15:52:40.639Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +99,9 @@ processing:
       input_hash: sha256:130d78db11a0bb4efe0dcba82f0fd1447c5214b680cb8fd96f8a2e2abe7915f9
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server whose sole purpose is to serve project context to Claude Code."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server whose sole purpose is to serve project context to
+        Claude Code.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Claude Code
         - README details its role as a context-providing MCP server with `.context/` folder integration
@@ -96,6 +109,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the core identity is an MCP server (not a general context system) and its primary integration is with Claude Code via MCP.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the core identity is an MCP server (not a general context system)
+        and its primary integration is with Claude Code via MCP.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__olgasafonova__mediawiki-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: olgasafonova/mediawiki-mcp-server
         extracted_url: https://github.com/olgasafonova/mediawiki-mcp-server
-        surrounding_text: "- [olgasafonova/mediawiki-mcp-server](https://github.com/olgasafonova/mediawiki-mcp-server) 🏎️ ☁️ 🏠 🍎 🪟 🐧 - Connect to any MediaWiki wiki (Wikipedia, Fandom, corporate wikis). 33+ tools for search, read, edit, link analysis, revision history, and Markdown conversion. Supports stdio and HTTP transport."
+        surrounding_text: >-
+          - [olgasafonova/mediawiki-mcp-server](https://github.com/olgasafonova/mediawiki-mcp-server) 🏎️ ☁️ 🏠 🍎 🪟 🐧
+          - Connect to any MediaWiki wiki (Wikipedia, Fandom, corporate wikis). 33+ tools for search, read, edit, link
+          analysis, revision history, and Markdown conversion. Supports stdio and HTTP transport.
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: olgasafonova/mediawiki-mcp-server
     html_url: https://github.com/olgasafonova/mediawiki-mcp-server
-    created_at: "2025-12-10T11:56:02Z"
-    pushed_at: "2026-07-20T15:44:43Z"
+    created_at: '2025-12-10T11:56:02Z'
+    pushed_at: '2026-07-20T15:44:43Z'
     description: MCP server for MediaWiki wikis - search, read, and edit wiki content from AI assistants
     homepage: null
     topics:
@@ -46,14 +49,20 @@ metadata:
       - starred
       - wiki
       - wikipedia
-    last_checked_at: "2026-07-20T16:42:23.836Z"
+    last_checked_at: '2026-07-20T16:42:23.836Z'
     readme:
-      fetched_at: "2026-07-20T16:42:23.836Z"
+      fetched_at: '2026-07-20T16:42:23.836Z'
       bytes: 8855
 insights:
-  summary: An MCP server that exposes MediaWiki content to AI assistants, enabling natural language search, reading, and editing of wiki pages.
-  why_it_matters: Developers can now delegate documentation lookups, wiki edits, and internal knowledge base queries directly to their coding agents without leaving the chat interface.
-  mental_damage: We have successfully abstracted the final remaining human task of clicking 'Edit' on a wiki page behind a JSON-RPC protocol.
+  summary: >-
+    An MCP server that exposes MediaWiki content to AI assistants, enabling natural language search, reading, and
+    editing of wiki pages.
+  why_it_matters: >-
+    Developers can now delegate documentation lookups, wiki edits, and internal knowledge base queries directly to their
+    coding agents without leaving the chat interface.
+  mental_damage: >-
+    We have successfully abstracted the final remaining human task of clicking 'Edit' on a wiki page behind a JSON-RPC
+    protocol.
   tags:
     - mcp
     - mediawiki
@@ -63,35 +72,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server designed to give AI assistants access to MediaWiki wikis, making it a textbook fit for the MCP Servers & Tooling category.
+  reason: >-
+    The product is explicitly an MCP server designed to give AI assistants access to MediaWiki wikis, making it a
+    textbook fit for the MCP Servers & Tooling category.
   evidence:
-    - "Repo description states: 'MCP server for MediaWiki wikis - search, read, and edit wiki content from AI assistants'."
+    - >-
+      Repo description states: 'MCP server for MediaWiki wikis - search, read, and edit wiki content from AI
+      assistants'.
     - README confirms identity as an MCP server with explicit setup instructions for Claude, Cursor, and ChatGPT.
     - Listed in awesome-mcp-servers under 'Knowledge & Memory' as a server implementation.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.639Z"
+    updated_at: '2026-05-06T22:12:15.639Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:23.836Z"
+    updated_at: '2026-07-20T16:42:23.836Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

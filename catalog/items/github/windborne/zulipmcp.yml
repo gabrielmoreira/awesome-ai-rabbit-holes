@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__windborne__zulipmcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: windborne/zulipmcp
         extracted_url: https://github.com/windborne/zulipmcp
-        surrounding_text: "- [windborne/zulipmcp](https://github.com/windborne/zulipmcp) [![windborne/zulipmcp MCP server](https://glama.ai/mcp/servers/windborne/zulipmcp/badges/score.svg)](https://glama.ai/mcp/servers/windborne/zulipmcp) 🐍 ☁️ - Run AI agents in Zulip as @mentionable bots — or wire into any MCP client. Real-time listening, session management, file handling."
+        surrounding_text: >-
+          - [windborne/zulipmcp](https://github.com/windborne/zulipmcp) [![windborne/zulipmcp MCP
+          server](https://glama.ai/mcp/servers/windborne/zulipmcp/badges/score.svg)](https://glama.ai/mcp/servers/windborne/zulipmcp)
+          🐍 ☁️ - Run AI agents in Zulip as @mentionable bots — or wire into any MCP client. Real-time listening,
+          session management, file handling.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: windborne/zulipmcp
     html_url: https://github.com/windborne/zulipmcp
-    created_at: "2026-02-03T06:39:13Z"
-    pushed_at: "2026-06-29T21:26:07Z"
+    created_at: '2026-02-03T06:39:13Z'
+    pushed_at: '2026-06-29T21:26:07Z'
     description: Run AI agents in Zulip as @mentionable bots — or wire into any MCP client.
     homepage: https://windbornesystems.com/
     topics:
@@ -44,9 +48,9 @@ metadata:
       - mcp-server
       - slack
       - zulip
-    last_checked_at: "2026-07-21T15:21:13.517Z"
+    last_checked_at: '2026-07-21T15:21:13.517Z'
     readme:
-      fetched_at: "2026-07-21T15:21:13.517Z"
+      fetched_at: '2026-07-21T15:21:13.517Z'
       bytes: 11475
 insights:
   summary: Run AI agents in Zulip as @mentionable bots or wire into any MCP client.
@@ -60,31 +64,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It augments other coding assistants (Claude Code, Codex, OpenCode) with Zulip chat capabilities rather than being a standalone coding assistant.
+  reason: >-
+    It augments other coding assistants (Claude Code, Codex, OpenCode) with Zulip chat capabilities rather than being a
+    standalone coding assistant.
   evidence:
-    - "README: 'Run AI agents in Zulip as @mentionable bots — or wire into any MCP client'"
+    - 'README: ''Run AI agents in Zulip as @mentionable bots — or wire into any MCP client'''
     - Listener module watches for @mentions and spawns agent sessions using backends like Claude Code or Codex
-    - "Source-list context: listed in awesome-mcp-servers under Communication section as an MCP server"
+    - 'Source-list context: listed in awesome-mcp-servers under Communication section as an MCP server'
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: mcp
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.655Z"
+    updated_at: '2026-05-06T22:12:15.655Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:13.517Z"
+    updated_at: '2026-07-21T15:21:13.517Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-14T05:29:31.347Z"
+    updated_at: '2026-05-14T05:29:31.347Z'
     cause: null
     next_retry_at: null
     attempts: 2

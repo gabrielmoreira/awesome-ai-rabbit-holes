@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__angheljf__nyt__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -17,9 +17,12 @@ provenance:
         mode: parsed
         section_path:
           - 🔎 Search
-        anchor_text: "@angheljf/nyt"
+        anchor_text: '@angheljf/nyt'
         extracted_url: https://github.com/angheljf/nyt
-        surrounding_text: "-   **[@angheljf/nyt](https://github.com/angheljf/nyt)** [![GitHub stars](https://img.shields.io/github/stars/angheljf/nyt?style=social)](https://github.com/angheljf/nyt): Searches articles using the NYTimes API."
+        surrounding_text: >-
+          -   **[@angheljf/nyt](https://github.com/angheljf/nyt)** [![GitHub
+          stars](https://img.shields.io/github/stars/angheljf/nyt?style=social)](https://github.com/angheljf/nyt):
+          Searches articles using the NYTimes API.
         confidence: high
 metadata:
   github:
@@ -29,18 +32,20 @@ metadata:
     archived: false
     full_name: angheljf/nyt
     html_url: https://github.com/angheljf/nyt
-    created_at: "2024-11-30T02:36:04Z"
-    pushed_at: "2026-07-23T12:36:51Z"
+    created_at: '2024-11-30T02:36:04Z'
+    pushed_at: '2026-07-23T12:36:51Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:44.453Z"
+    last_checked_at: '2026-09-17T04:13:44.453Z'
     readme:
-      fetched_at: "2026-09-17T04:13:44.453Z"
+      fetched_at: '2026-09-17T04:13:44.453Z'
       bytes: 2500
 insights:
   summary: A TypeScript-based MCP server for searching New York Times articles from the last 30 days via the NYTimes API.
-  why_it_matters: Developers can integrate NYTimes article search into their MCP-enabled workflows, enabling AI assistants to fetch recent articles as context.
+  why_it_matters: >-
+    Developers can integrate NYTimes article search into their MCP-enabled workflows, enabling AI assistants to fetch
+    recent articles as context.
   mental_damage: Now your AI can argue with you about the news, but only if it's fresh enough to pass the 30-day relevance test.
   tags:
     - mcp-server
@@ -50,31 +55,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server whose primary identity is providing NYTimes article search as an MCP-compatible tool, fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is an MCP server whose primary identity is providing NYTimes article search as an MCP-compatible tool, fitting
+    the MCP Servers & Tooling category.
   evidence:
     - README explicitly describes it as a TypeScript-based MCP server for NYTimes article search
     - Listed in awesome-mcp-list under Search section
     - Provides MCP tools (search_articles) and integrates with NYTimes API
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.602Z"
+    updated_at: '2026-05-06T22:12:15.602Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:44.453Z"
+    updated_at: '2026-09-17T04:13:44.453Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:23:10.460Z"
+    updated_at: '2026-07-21T15:23:10.460Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -87,7 +95,9 @@ processing:
       input_hash: sha256:e9f2a6768f4ee5b5b1bcfecbd2a769a10ec05a9c00e0ae8987adddd4de9ca4d4
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP server whose primary identity is providing NYTimes article search as an MCP-compatible tool, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is an MCP server whose primary identity is providing NYTimes article search as an MCP-compatible tool,
+        fitting the MCP Servers & Tooling category.
       decision_evidence:
         - README explicitly describes it as a TypeScript-based MCP server for NYTimes article search
         - Listed in awesome-mcp-list under Search section
@@ -95,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension for
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

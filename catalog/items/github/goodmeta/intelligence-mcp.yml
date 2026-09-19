@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__goodmeta__intelligence-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: goodmeta/intelligence-mcp
         extracted_url: https://github.com/goodmeta/intelligence-mcp
-        surrounding_text: "- [goodmeta/intelligence-mcp](https://github.com/goodmeta/intelligence-mcp) [![intelligence-mcp MCP server](https://glama.ai/mcp/servers/goodmeta/intelligence-mcp/badges/score.svg)](https://glama.ai/mcp/servers/goodmeta/intelligence-mcp) 📇 ☁️ - Agent payments ecosystem intelligence. Scans GitHub, Hacker News, and npm for activity across AP2, ACP, x402, MPP, and UCP protocols. Returns scored opportunities with recommended actions. Free protocol comparison + paid scan via x402 USDC."
+        surrounding_text: >-
+          - [goodmeta/intelligence-mcp](https://github.com/goodmeta/intelligence-mcp) [![intelligence-mcp MCP
+          server](https://glama.ai/mcp/servers/goodmeta/intelligence-mcp/badges/score.svg)](https://glama.ai/mcp/servers/goodmeta/intelligence-mcp)
+          📇 ☁️ - Agent payments ecosystem intelligence. Scans GitHub, Hacker News, and npm for activity across AP2,
+          ACP, x402, MPP, and UCP protocols. Returns scored opportunities with recommended actions. Free protocol
+          comparison + paid scan via x402 USDC.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: goodmeta/intelligence-mcp
     html_url: https://github.com/goodmeta/intelligence-mcp
-    created_at: "2026-04-02T07:48:56Z"
-    pushed_at: "2026-09-01T05:17:52Z"
+    created_at: '2026-04-02T07:48:56Z'
+    pushed_at: '2026-09-01T05:17:52Z'
     description: MCP server for agent payments ecosystem intelligence. Scan, classify, and score opportunities.
     homepage: https://intel.goodmeta.co/
     topics:
@@ -42,13 +47,17 @@ metadata:
       - mcp-server
       - model-context-protocol
       - x402
-    last_checked_at: "2026-09-03T05:16:51.764Z"
+    last_checked_at: '2026-09-03T05:16:51.764Z'
     readme:
-      fetched_at: "2026-09-03T05:16:51.764Z"
+      fetched_at: '2026-09-03T05:16:51.764Z'
       bytes: 2496
 insights:
-  summary: MCP server providing AI agents with access to agent payments ecosystem intelligence, scanning GitHub, Hacker News, and npm for opportunities.
-  why_it_matters: Developers building or integrating with agent payment protocols can use this to discover, classify, and score relevant opportunities programmatically.
+  summary: >-
+    MCP server providing AI agents with access to agent payments ecosystem intelligence, scanning GitHub, Hacker News,
+    and npm for opportunities.
+  why_it_matters: >-
+    Developers building or integrating with agent payment protocols can use this to discover, classify, and score
+    relevant opportunities programmatically.
   mental_damage: Now your agent can chase micro-payments while you chase the agent.
   tags:
     - mcp-server
@@ -59,31 +68,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose primary identity is providing domain-specific intelligence via the Model Context Protocol.
+  reason: >-
+    This is an MCP-first server whose primary identity is providing domain-specific intelligence via the Model Context
+    Protocol.
   evidence:
     - Repo description explicitly identifies it as an MCP server
     - README details MCP server tools and usage with Claude Code
     - Topics include 'mcp-server' and 'model-context-protocol'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.616Z"
+    updated_at: '2026-05-06T22:12:15.616Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:51.764Z"
+    updated_at: '2026-09-03T05:16:51.764Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:03:32.608Z"
+    updated_at: '2026-07-21T16:03:32.608Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,7 +108,9 @@ processing:
       input_hash: sha256:09f7069a86cf2257309221ade0cccdfc7768c7b0617dd656d6095d95d6ef2c80
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server whose primary identity is providing domain-specific intelligence via the Model Context Protocol.
+      decision_reason: >-
+        This is an MCP-first server whose primary identity is providing domain-specific intelligence via the Model
+        Context Protocol.
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server
         - README details MCP server tools and usage with Claude Code
@@ -104,6 +118,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

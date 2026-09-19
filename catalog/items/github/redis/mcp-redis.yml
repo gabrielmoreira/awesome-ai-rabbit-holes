@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__redis__mcp-redis__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: redis/mcp-redis
         extracted_url: https://github.com/redis/mcp-redis
-        surrounding_text: "- [redis/mcp-redis](https://github.com/redis/mcp-redis) 🐍 🏠 - The Redis official MCP Server offers an interface to manage and search data in Redis."
+        surrounding_text: >-
+          - [redis/mcp-redis](https://github.com/redis/mcp-redis) 🐍 🏠 - The Redis official MCP Server offers an
+          interface to manage and search data in Redis.
         confidence: high
 metadata:
   github:
@@ -30,9 +32,11 @@ metadata:
     archived: false
     full_name: redis/mcp-redis
     html_url: https://github.com/redis/mcp-redis
-    created_at: "2025-04-02T08:42:13Z"
-    pushed_at: "2026-07-17T12:34:03Z"
-    description: The official Redis MCP Server is a natural language interface designed for agentic applications to manage and search data in Redis efficiently
+    created_at: '2025-04-02T08:42:13Z'
+    pushed_at: '2026-07-17T12:34:03Z'
+    description: >-
+      The official Redis MCP Server is a natural language interface designed for agentic applications to manage and
+      search data in Redis efficiently
     homepage: https://redis.io/docs/latest/integrate/redis-mcp/
     topics:
       - database
@@ -41,14 +45,20 @@ metadata:
       - mcp
       - mcp-server
       - redis
-    last_checked_at: "2026-07-20T16:42:44.460Z"
+    last_checked_at: '2026-07-20T16:42:44.460Z'
     readme:
-      fetched_at: "2026-07-20T16:42:44.460Z"
+      fetched_at: '2026-07-20T16:42:44.460Z'
       bytes: 27768
 insights:
-  summary: The official Redis MCP Server exposes Redis data structures, search, and documentation as tools so that MCP-compatible AI agents can manage and query Redis with natural language.
-  why_it_matters: Developers wiring agents into Redis-heavy stacks can give models direct, structured access to caches, streams, vectors, and docs without hand-rolling custom tool integrations.
-  mental_damage: We’ve reached the point where even the cache needs its own natural language middleware so the agent can misplace your session data with unprecedented conversational flair.
+  summary: >-
+    The official Redis MCP Server exposes Redis data structures, search, and documentation as tools so that
+    MCP-compatible AI agents can manage and query Redis with natural language.
+  why_it_matters: >-
+    Developers wiring agents into Redis-heavy stacks can give models direct, structured access to caches, streams,
+    vectors, and docs without hand-rolling custom tool integrations.
+  mental_damage: >-
+    We’ve reached the point where even the cache needs its own natural language middleware so the agent can misplace
+    your session data with unprecedented conversational flair.
   tags:
     - redis
     - mcp
@@ -58,35 +68,44 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a first-party MCP server that exists specifically to expose Redis capabilities to MCP clients, making it a textbook fit for MCP Servers & Tooling.
+  reason: >-
+    This is a first-party MCP server that exists specifically to expose Redis capabilities to MCP clients, making it a
+    textbook fit for MCP Servers & Tooling.
   evidence:
-    - Repo description explicitly calls it 'the official Redis MCP Server' and a 'natural language interface designed for agentic applications.'
-    - README lists tool coverage for strings, hashes, lists, sets, sorted sets, streams, JSON, pub/sub, vector search, and Redis docs search as MCP tools.
-    - Seen in awesome-mcp-servers under 'Databases', and the README documents integrations with Claude Desktop, VS Code + Copilot, Augment, and OpenAI Agents SDK.
+    - >-
+      Repo description explicitly calls it 'the official Redis MCP Server' and a 'natural language interface designed
+      for agentic applications.'
+    - >-
+      README lists tool coverage for strings, hashes, lists, sets, sorted sets, streams, JSON, pub/sub, vector search,
+      and Redis docs search as MCP tools.
+    - >-
+      Seen in awesome-mcp-servers under 'Databases', and the README documents integrations with Claude Desktop, VS Code
+      + Copilot, Augment, and OpenAI Agents SDK.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: promotion_candidate
   reason: Stars (504) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.645Z"
+    updated_at: '2026-05-06T22:12:15.645Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:44.460Z"
+    updated_at: '2026-07-20T16:42:44.460Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

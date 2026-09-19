@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__qq418716640__botbell-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: qq418716640/botbell-mcp
         extracted_url: https://github.com/qq418716640/botbell-mcp
-        surrounding_text: "- [qq418716640/botbell-mcp](https://github.com/qq418716640/botbell-mcp) [![qq418716640/botbell-mcp MCP server](https://glama.ai/mcp/servers/qq418716640/botbell-mcp/badges/score.svg)](https://glama.ai/mcp/servers/qq418716640/botbell-mcp) 📇 ☁️ - Send push notifications to iPhone, iPad, and Mac from AI assistants. Two-way messaging — users reply in the BotBell app, AI reads and continues. Supports action buttons, Markdown, and multi-bot management via PAT."
+        surrounding_text: >-
+          - [qq418716640/botbell-mcp](https://github.com/qq418716640/botbell-mcp) [![qq418716640/botbell-mcp MCP
+          server](https://glama.ai/mcp/servers/qq418716640/botbell-mcp/badges/score.svg)](https://glama.ai/mcp/servers/qq418716640/botbell-mcp)
+          📇 ☁️ - Send push notifications to iPhone, iPad, and Mac from AI assistants. Two-way messaging — users reply
+          in the BotBell app, AI reads and continues. Supports action buttons, Markdown, and multi-bot management via
+          PAT.
         confidence: high
 metadata:
   github:
@@ -30,19 +35,25 @@ metadata:
     archived: false
     full_name: qq418716640/botbell-mcp
     html_url: https://github.com/qq418716640/botbell-mcp
-    created_at: "2026-03-09T02:05:13Z"
-    pushed_at: "2026-03-23T15:08:09Z"
+    created_at: '2026-03-09T02:05:13Z'
+    pushed_at: '2026-03-23T15:08:09Z'
     description: BotBell MCP Server — Give Your AI a Voice
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:40.735Z"
+    last_checked_at: '2026-07-20T16:42:40.735Z'
     readme:
-      fetched_at: "2026-07-20T16:42:40.735Z"
+      fetched_at: '2026-07-20T16:42:40.735Z'
       bytes: 6445
 insights:
-  summary: An MCP server that lets Claude, Cursor, and other AI assistants send push notifications and receive replies from the BotBell iOS/Mac app.
-  why_it_matters: It closes the async loop by letting long-running AI tasks ping you on your phone and wait for your reply to continue.
-  mental_damage: We have successfully built a Rube Goldberg machine where your AI assistant needs a dedicated app on your phone just to tell you that the build finished.
+  summary: >-
+    An MCP server that lets Claude, Cursor, and other AI assistants send push notifications and receive replies from the
+    BotBell iOS/Mac app.
+  why_it_matters: >-
+    It closes the async loop by letting long-running AI tasks ping you on your phone and wait for your reply to
+    continue.
+  mental_damage: >-
+    We have successfully built a Rube Goldberg machine where your AI assistant needs a dedicated app on your phone just
+    to tell you that the build finished.
   tags:
     - mcp
     - notifications
@@ -51,35 +62,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server that gives AI assistants push-notification capabilities via BotBell, fitting cleanly as a domain-specific MCP server implementation.
+  reason: >-
+    This is an MCP server that gives AI assistants push-notification capabilities via BotBell, fitting cleanly as a
+    domain-specific MCP server implementation.
   evidence:
     - Repo description explicitly states 'BotBell MCP Server', confirming MCP as the core product identity.
     - README shows tools like botbell_send and botbell_get_replies designed for Claude, Cursor, and other MCP clients.
     - Listed in awesome-mcp-servers under 'Communication', aligning with its domain-specific MCP server purpose.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.644Z"
+    updated_at: '2026-05-06T22:12:15.644Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:40.735Z"
+    updated_at: '2026-07-20T16:42:40.735Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

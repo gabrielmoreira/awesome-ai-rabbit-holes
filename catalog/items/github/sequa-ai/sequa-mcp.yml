@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sequa-ai__sequa-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: sequa-ai/sequa-mcp
         extracted_url: https://github.com/sequa-ai/sequa-mcp
-        surrounding_text: "- [sequa-ai/sequa-mcp](https://github.com/sequa-ai/sequa-mcp) 📇 ☁️ 🐧 🍎 🪟 - Stop stitching context for Copilot and Cursor. With Sequa MCP, your AI tools know your entire codebase and docs out of the box."
+        surrounding_text: >-
+          - [sequa-ai/sequa-mcp](https://github.com/sequa-ai/sequa-mcp) 📇 ☁️ 🐧 🍎 🪟 - Stop stitching context for
+          Copilot and Cursor. With Sequa MCP, your AI tools know your entire codebase and docs out of the box.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,25 @@ metadata:
     archived: false
     full_name: sequa-ai/sequa-mcp
     html_url: https://github.com/sequa-ai/sequa-mcp
-    created_at: "2025-05-26T01:41:44Z"
-    pushed_at: "2025-12-09T23:19:24Z"
+    created_at: '2025-05-26T01:41:44Z'
+    pushed_at: '2025-12-09T23:19:24Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:54.111Z"
+    last_checked_at: '2026-07-20T16:42:54.111Z'
     readme:
-      fetched_at: "2026-07-20T16:42:54.111Z"
+      fetched_at: '2026-07-20T16:42:54.111Z'
       bytes: 4179
 insights:
-  summary: An MCP server that connects AI coding assistants to Sequa's hosted contextual knowledge engine to provide always-current codebase documentation and internal standards.
-  why_it_matters: It aims to automatically keep documentation in sync with code changes so that AI assistants like Cursor and Claude stop writing code based on stale architectural assumptions.
-  mental_damage: We've reached the point where we need an AI tool to fix the documentation drift caused by the speed of AI code generation, completing the 'AI writes code, AI writes docs, AI reads docs' ouroboros.
+  summary: >-
+    An MCP server that connects AI coding assistants to Sequa's hosted contextual knowledge engine to provide
+    always-current codebase documentation and internal standards.
+  why_it_matters: >-
+    It aims to automatically keep documentation in sync with code changes so that AI assistants like Cursor and Claude
+    stop writing code based on stale architectural assumptions.
+  mental_damage: >-
+    We've reached the point where we need an AI tool to fix the documentation drift caused by the speed of AI code
+    generation, completing the 'AI writes code, AI writes docs, AI reads docs' ouroboros.
   tags:
     - mcp
     - documentation
@@ -51,35 +59,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server implementation that serves as the bridge between the Sequa documentation platform and MCP-capable clients like Cursor and Claude.
+  reason: >-
+    This is an MCP server implementation that serves as the bridge between the Sequa documentation platform and
+    MCP-capable clients like Cursor and Claude.
   evidence:
-    - Repo name is 'sequa-mcp' and README states it is 'the entry point for using Sequa via the Model Context Protocol (MCP)'
+    - >-
+      Repo name is 'sequa-mcp' and README states it is 'the entry point for using Sequa via the Model Context Protocol
+      (MCP)'
     - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
     - Provides configuration examples for multiple MCP clients including Cursor, Claude Desktop, Windsurf, and VS Code
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Retrieval & Fresh Docs
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.647Z"
+    updated_at: '2026-05-06T22:12:15.647Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:54.111Z"
+    updated_at: '2026-07-20T16:42:54.111Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

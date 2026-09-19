@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__codegraphcontext__codegraphcontext__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: shashankss1205/codegraphcontext
         extracted_url: https://github.com/shashankss1205/codegraphcontext
-        surrounding_text: "- [shashankss1205/codegraphcontext](https://github.com/Shashankss1205/CodeGraphContext) 🐍 🏠 🍎 🪟 🐧 An MCP server that indexes local code into a graph database to provide context to AI assistants with a graphical code visualizations for humans."
+        surrounding_text: >-
+          - [shashankss1205/codegraphcontext](https://github.com/Shashankss1205/CodeGraphContext) 🐍 🏠 🍎 🪟 🐧 An MCP
+          server that indexes local code into a graph database to provide context to AI assistants with a graphical code
+          visualizations for humans.
         confidence: high
 metadata:
   github:
@@ -30,20 +33,22 @@ metadata:
     archived: false
     full_name: CodeGraphContext/CodeGraphContext
     html_url: https://github.com/CodeGraphContext/CodeGraphContext
-    created_at: "2025-08-16T19:20:31Z"
-    pushed_at: "2026-09-06T15:46:37Z"
+    created_at: '2025-08-16T19:20:31Z'
+    pushed_at: '2026-09-06T15:46:37Z'
     description: An MCP server plus a CLI tool that indexes local code into a graph database to provide context to AI assistants.
     homepage: https://cgc.codes
     topics:
       - hacktoberfest2025
       - social-winter-of-code
-    last_checked_at: "2026-09-07T04:13:48.506Z"
+    last_checked_at: '2026-09-07T04:13:48.506Z'
     readme:
-      fetched_at: "2026-09-07T04:13:48.506Z"
+      fetched_at: '2026-09-07T04:13:48.506Z'
       bytes: 29388
 insights:
   summary: An MCP server and CLI tool that indexes local code into a graph database to provide context to AI assistants.
-  why_it_matters: It bridges the gap between deep code graphs and AI context, enabling natural language queries over complex call-chains for developers.
+  why_it_matters: >-
+    It bridges the gap between deep code graphs and AI context, enabling natural language queries over complex
+    call-chains for developers.
   mental_damage: Now your AI assistant can finally understand your codebase as well as you pretend to.
   tags:
     - mcp-server
@@ -54,31 +59,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: it is explicitly an MCP server plus CLI toolkit for indexing code into a graph database for AI context."
+  reason: >-
+    MCP is the product identity here: it is explicitly an MCP server plus CLI toolkit for indexing code into a graph
+    database for AI context.
   evidence:
     - Repo description explicitly states it is 'An MCP server plus a CLI tool'
     - README emphasizes MCP compatibility and server mode as core functionality
     - Source-list context places it under MCP servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (3170) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:48.506Z"
+    updated_at: '2026-09-07T04:13:48.506Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:44:10.125Z"
+    updated_at: '2026-07-21T15:44:10.125Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -91,7 +99,9 @@ processing:
       input_hash: sha256:bb138b3b6d422349ec96db195db7e635c78fc9fac50436e37aea3a512d180da0
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: it is explicitly an MCP server plus CLI toolkit for indexing code into a graph database for AI context."
+      decision_reason: >-
+        MCP is the product identity here: it is explicitly an MCP server plus CLI toolkit for indexing code into a graph
+        database for AI context.
       decision_evidence:
         - Repo description explicitly states it is 'An MCP server plus a CLI tool'
         - README emphasizes MCP compatibility and server mode as core functionality
@@ -99,6 +109,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product's primary identity is as an MCP server and toolkit, not just a context system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the product's primary identity is as an MCP server and toolkit, not
+        just a context system.
       review_reason: null
       review_resume_lifecycle: null

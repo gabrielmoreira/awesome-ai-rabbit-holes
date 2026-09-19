@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gofireflyio__firefly-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: gofireflyio/firefly-mcp
         extracted_url: https://github.com/gofireflyio/firefly-mcp
-        surrounding_text: "- [gofireflyio/firefly-mcp](https://github.com/gofireflyio/firefly-mcp) 🎖️ 📇 ☁️ - Integrates, discovers, manages, and codifies cloud resources with [Firefly](https://firefly.ai)."
+        surrounding_text: >-
+          - [gofireflyio/firefly-mcp](https://github.com/gofireflyio/firefly-mcp) 🎖️ 📇 ☁️ - Integrates, discovers,
+          manages, and codifies cloud resources with [Firefly](https://firefly.ai).
         confidence: high
 metadata:
   github:
@@ -30,18 +32,22 @@ metadata:
     archived: false
     full_name: gofireflyio/firefly-mcp
     html_url: https://github.com/gofireflyio/firefly-mcp
-    created_at: "2025-03-25T13:30:45Z"
-    pushed_at: "2026-04-13T07:22:40Z"
+    created_at: '2025-03-25T13:30:45Z'
+    pushed_at: '2026-04-13T07:22:40Z'
     description: Firefly MCP
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-03T05:16:51.294Z"
+    last_checked_at: '2026-09-03T05:16:51.294Z'
     readme:
-      fetched_at: "2026-09-03T05:16:51.294Z"
+      fetched_at: '2026-09-03T05:16:51.294Z'
       bytes: 3076
 insights:
-  summary: A TypeScript-based MCP server that integrates with the Firefly platform to discover, manage, and codify cloud and SaaS resources.
-  why_it_matters: It lets developers query and convert discovered cloud/SaaS resources into Infrastructure as Code directly from their coding assistant via MCP.
+  summary: >-
+    A TypeScript-based MCP server that integrates with the Firefly platform to discover, manage, and codify cloud and
+    SaaS resources.
+  why_it_matters: >-
+    It lets developers query and convert discovered cloud/SaaS resources into Infrastructure as Code directly from their
+    coding assistant via MCP.
   mental_damage: Now you can ask your AI to terraform your entire AWS account while pretending it’s just a casual conversation.
   tags:
     - mcp-server
@@ -52,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose primary identity is enabling MCP-based integration with the Firefly platform for resource discovery and codification.
+  reason: >-
+    The product is explicitly an MCP server whose primary identity is enabling MCP-based integration with the Firefly
+    platform for resource discovery and codification.
   evidence:
     - Repo description identifies it as 'Firefly MCP'
     - README states it is a 'TypeScript-based MCP server' for Firefly platform integration
     - Source-list context shows it in 'awesome-mcp-servers' under Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.616Z"
+    updated_at: '2026-05-06T22:12:15.616Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:51.294Z"
+    updated_at: '2026-09-03T05:16:51.294Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:03:28.240Z"
+    updated_at: '2026-07-21T16:03:28.240Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +98,9 @@ processing:
       input_hash: sha256:09c18583a49d91340d96b6a03b5cd87ac4c75ea555c13dcdd088dc8b0459f5d3
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server whose primary identity is enabling MCP-based integration with the Firefly platform for resource discovery and codification.
+      decision_reason: >-
+        The product is explicitly an MCP server whose primary identity is enabling MCP-based integration with the
+        Firefly platform for resource discovery and codification.
       decision_evidence:
         - Repo description identifies it as 'Firefly MCP'
         - README states it is a 'TypeScript-based MCP server' for Firefly platform integration
@@ -97,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server implementation, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server implementation, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bytedance__ui-tars-desktop__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: agent-infra/mcp-server-browser
         extracted_url: https://github.com/bytedance/ui-tars-desktop
-        surrounding_text: "- [agent-infra/mcp-server-browser](https://github.com/bytedance/UI-TARS-desktop/tree/main/packages/agent-infra/mcp-servers/browser) 📇 🏠 - Browser automation capabilities using Puppeteer, both support local and remote browser connection."
+        surrounding_text: >-
+          -
+          [agent-infra/mcp-server-browser](https://github.com/bytedance/UI-TARS-desktop/tree/main/packages/agent-infra/mcp-servers/browser)
+          📇 🏠 - Browser automation capabilities using Puppeteer, both support local and remote browser connection.
         confidence: high
     - id: discovery__github__bytedance__ui-tars-desktop__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +38,12 @@ provenance:
           - Community Servers
         anchor_text: Browser MCP
         extracted_url: https://github.com/bytedance/ui-tars-desktop
-        surrounding_text: "- **[Browser MCP](https://github.com/bytedance/UI-TARS-desktop/tree/main/packages/agent-infra/mcp-servers/browser)** (by UI-TARS) - A fast, lightweight MCP server that empowers LLMs with browser automation via Puppeteer’s structured accessibility data, featuring optional vision mode for complex visual understanding and flexible, cross-platform configuration."
+        surrounding_text: >-
+          - **[Browser
+          MCP](https://github.com/bytedance/UI-TARS-desktop/tree/main/packages/agent-infra/mcp-servers/browser)** (by
+          UI-TARS) - A fast, lightweight MCP server that empowers LLMs with browser automation via Puppeteer’s
+          structured accessibility data, featuring optional vision mode for complex visual understanding and flexible,
+          cross-platform configuration.
         confidence: high
 metadata:
   github:
@@ -45,9 +53,9 @@ metadata:
     archived: false
     full_name: bytedance/UI-TARS-desktop
     html_url: https://github.com/bytedance/UI-TARS-desktop
-    created_at: "2025-01-19T09:04:43Z"
-    pushed_at: "2026-08-05T02:48:59Z"
-    description: "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra"
+    created_at: '2025-01-19T09:04:43Z'
+    pushed_at: '2026-08-05T02:48:59Z'
+    description: 'The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra'
     homepage: https://agent-tars.com
     topics:
       - agent
@@ -64,14 +72,20 @@ metadata:
       - ui-tars
       - vision
       - vlm
-    last_checked_at: "2026-09-07T04:13:39.742Z"
+    last_checked_at: '2026-09-07T04:13:39.742Z'
     readme:
-      fetched_at: "2026-09-07T04:13:39.742Z"
+      fetched_at: '2026-09-07T04:13:39.742Z'
       bytes: 16262
 insights:
-  summary: An open-source multimodal AI agent stack providing GUI and vision-based agents for terminal, computer, browser, and product integration via CLI, Web UI, and desktop applications.
-  why_it_matters: It enables developers to automate complex GUI and computer-use workflows with multimodal LLMs, bridging the gap between AI agents and real-world desktop/browser environments.
-  mental_damage: Finally, an AI that can click buttons for you—because manually filling out forms was clearly the last frontier of human dignity.
+  summary: >-
+    An open-source multimodal AI agent stack providing GUI and vision-based agents for terminal, computer, browser, and
+    product integration via CLI, Web UI, and desktop applications.
+  why_it_matters: >-
+    It enables developers to automate complex GUI and computer-use workflows with multimodal LLMs, bridging the gap
+    between AI agents and real-world desktop/browser environments.
+  mental_damage: >-
+    Finally, an AI that can click buttons for you—because manually filling out forms was clearly the last frontier of
+    human dignity.
   tags:
     - multimodal-agents
     - gui-automation
@@ -81,31 +95,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The primary product is a developer-facing agent stack that directly operates GUI, browser, and computer environments, fitting the coding-agents category for its direct task execution capabilities.
+  reason: >-
+    The primary product is a developer-facing agent stack that directly operates GUI, browser, and computer
+    environments, fitting the coding-agents category for its direct task execution capabilities.
   evidence:
     - Repo description identifies it as a 'Multimodal AI Agent stack' for GUI and vision-based tasks
     - README highlights CLI, Web UI, and desktop operators for computer/browser automation
     - Source-list context places it in MCP server implementations for browser automation
 placement:
   primary_category: coding-agents
-  section: Browser/Desktop/Computer-Use Agents
+  secondary_categories: []
+  section: Browser & Computer-Use Agents
 lifecycle:
   status: promotion_candidate
   reason: Stars (29622) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.583Z"
+    updated_at: '2026-05-06T22:12:15.583Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:39.742Z"
+    updated_at: '2026-09-07T04:13:39.742Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:40:15.811Z"
+    updated_at: '2026-07-21T15:40:15.811Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -118,7 +135,9 @@ processing:
       input_hash: sha256:c1488067688763faa3bdd7e5ebcfc310760bea829599bdd859443918bf9e8222
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: The primary product is a developer-facing agent stack that directly operates GUI, browser, and computer environments, fitting the coding-agents category for its direct task execution capabilities.
+      decision_reason: >-
+        The primary product is a developer-facing agent stack that directly operates GUI, browser, and computer
+        environments, fitting the coding-agents category for its direct task execution capabilities.
       decision_evidence:
         - Repo description identifies it as a 'Multimodal AI Agent stack' for GUI and vision-based tasks
         - README highlights CLI, Web UI, and desktop operators for computer/browser automation
@@ -126,6 +145,8 @@ processing:
       category_candidates:
         - coding-agents
         - mcp
-      contrastive_reason: Choose coding-agents over mcp because the core product is an agent stack for task execution, not merely MCP infrastructure.
+      contrastive_reason: >-
+        Choose coding-agents over mcp because the core product is an agent stack for task execution, not merely MCP
+        infrastructure.
       review_reason: null
       review_resume_lifecycle: null

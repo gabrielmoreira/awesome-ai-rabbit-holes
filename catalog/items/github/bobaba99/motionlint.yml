@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bobaba99__motionlint__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-30T05:05:26.992Z"
+      discovered_at: '2026-07-30T05:05:26.992Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📐 <a name="architecture-and-design"></a>Architecture & Design
         anchor_text: bobaba99/motionlint
         extracted_url: https://github.com/bobaba99/motionlint
-        surrounding_text: "- [bobaba99/motionlint](https://github.com/bobaba99/motionlint) [![bobaba99/motionlint MCP server](https://glama.ai/mcp/servers/bobaba99/motionlint/badges/score.svg)](https://glama.ai/mcp/servers/bobaba99/motionlint) 📇 🏠 🍎 🪟 🐧 - Catch bad animations before they ship. 13 deterministic checks on the live page (duration, easing, stagger, exits, reduced-motion, touch-gated hover) with no API key or LLM, plus optional vision-LLM UX review across viewports. Install via NPM: `npx -y motionlint mcp`"
+        surrounding_text: >-
+          - [bobaba99/motionlint](https://github.com/bobaba99/motionlint) [![bobaba99/motionlint MCP
+          server](https://glama.ai/mcp/servers/bobaba99/motionlint/badges/score.svg)](https://glama.ai/mcp/servers/bobaba99/motionlint)
+          📇 🏠 🍎 🪟 🐧 - Catch bad animations before they ship. 13 deterministic checks on the live page (duration,
+          easing, stagger, exits, reduced-motion, touch-gated hover) with no API key or LLM, plus optional vision-LLM UX
+          review across viewports. Install via NPM: `npx -y motionlint mcp`
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: bobaba99/motionlint
     html_url: https://github.com/bobaba99/motionlint
-    created_at: "2026-04-28T06:48:27Z"
-    pushed_at: "2026-07-27T16:09:03Z"
-    description: Catch bad animations before they ship. Deterministic motion audit + vision-LLM design review for your terminal and Claude Code.
+    created_at: '2026-04-28T06:48:27Z'
+    pushed_at: '2026-07-27T16:09:03Z'
+    description: >-
+      Catch bad animations before they ship. Deterministic motion audit + vision-LLM design review for your terminal and
+      Claude Code.
     homepage: https://www.resila.ai/motionlint
     topics:
       - accessibility
@@ -49,14 +56,18 @@ metadata:
       - typescript
       - ui
       - web-animation
-    last_checked_at: "2026-09-07T04:13:36.456Z"
+    last_checked_at: '2026-09-07T04:13:36.456Z'
     readme:
-      fetched_at: "2026-09-07T04:13:36.456Z"
+      fetched_at: '2026-09-07T04:13:36.456Z'
       bytes: 40250
 insights:
   summary: A CLI and MCP server that performs deterministic motion audits and vision-LLM design reviews for web animations.
-  why_it_matters: It bridges the 'vision gap' for AI coding agents, allowing them to validate the actual visual motion and UX of a running app rather than just reading the CSS.
-  mental_damage: Because nothing says 'modern development' like having an LLM audit your easing curves to ensure your loading spinners aren't accidentally causing existential dread.
+  why_it_matters: >-
+    It bridges the 'vision gap' for AI coding agents, allowing them to validate the actual visual motion and UX of a
+    running app rather than just reading the CSS.
+  mental_damage: >-
+    Because nothing says 'modern development' like having an LLM audit your easing curves to ensure your loading
+    spinners aren't accidentally causing existential dread.
   tags:
     - motion-design
     - mcp
@@ -66,31 +77,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool functions as a capability provider that augments coding assistants like Claude Code and Cursor with specialized visual/motion QA workflows.
+  reason: >-
+    The tool functions as a capability provider that augments coding assistants like Claude Code and Cursor with
+    specialized visual/motion QA workflows.
   evidence:
     - Acts as an MCP server to feed visual design findings back into the coding agent loop
     - Provides deterministic animation measurement via Playwright
     - Solves the problem of AI agents being 'blind' to what the user actually sees
 placement:
-  primary_category: ai-dev-extensions
-  section: Testing & QA Add-ons
+  primary_category: extensions-and-addons
+  section: Testing & Code Quality
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-30T05:05:26.994Z"
+    updated_at: '2026-07-30T05:05:26.994Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:36.456Z"
+    updated_at: '2026-09-07T04:13:36.456Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:21:07.671Z"
+    updated_at: '2026-08-27T06:21:07.671Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -101,7 +114,9 @@ processing:
       input_hash: sha256:4e19349c18dfd1943e02cdedb81ba27fc8c4881eb3fea4f7ed7efd8835c3ffc7
       proposed_primary_category: ai-dev-extensions
       disagreement: false
-      decision_reason: The tool functions as a capability provider that augments coding assistants like Claude Code and Cursor with specialized visual/motion QA workflows.
+      decision_reason: >-
+        The tool functions as a capability provider that augments coding assistants like Claude Code and Cursor with
+        specialized visual/motion QA workflows.
       decision_evidence:
         - Acts as an MCP server to feed visual design findings back into the coding agent loop
         - Provides deterministic animation measurement via Playwright
@@ -109,7 +124,9 @@ processing:
       category_candidates:
         - ai-dev-extensions
         - mcp
-      contrastive_reason: Choose ai-dev-extensions over mcp because the primary product identity is a motion-auditing tool that uses MCP as an integration layer to augment agent capabilities.
+      contrastive_reason: >-
+        Choose ai-dev-extensions over mcp because the primary product identity is a motion-auditing tool that uses MCP
+        as an integration layer to augment agent capabilities.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

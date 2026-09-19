@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__potpie__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Coding Agents
         anchor_text: Potpie
         extracted_url: https://potpie.ai
-        surrounding_text: "- **[Potpie](https://potpie.ai)** – AI coding agent for streamlined development workflows."
+        surrounding_text: '- **[Potpie](https://potpie.ai)** – AI coding agent for streamlined development workflows.'
         confidence: high
 metadata:
   github:
@@ -46,20 +46,23 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: It is a standalone coding assistant that directly helps developers with code tasks, fitting the primary identity of a coding agent.
+  reason: >-
+    It is a standalone coding assistant that directly helps developers with code tasks, fitting the primary identity of
+    a coding agent.
   evidence:
     - Listed in awesome-ai-coding-tools under Coding Agents
     - URL and naming suggest a dedicated AI coding tool
 placement:
   primary_category: coding-agents
-  section: Browser/Desktop/Computer-Use Agents
+  secondary_categories: []
+  section: Browser & Computer-Use Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +71,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:38.423Z"
+    updated_at: '2026-07-21T15:30:38.423Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -81,13 +84,17 @@ processing:
       input_hash: sha256:e0ed6227412382084e266d7784898ff46e73c78a4cfb8e7a426c6bbf091a9694
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: It is a standalone coding assistant that directly helps developers with code tasks, fitting the primary identity of a coding agent.
+      decision_reason: >-
+        It is a standalone coding assistant that directly helps developers with code tasks, fitting the primary identity
+        of a coding agent.
       decision_evidence:
         - Listed in awesome-ai-coding-tools under Coding Agents
         - URL and naming suggest a dedicated AI coding tool
       category_candidates:
         - coding-agents
         - ai-ides-editors
-      contrastive_reason: Choose coding-agents over ai-ides-editors because the product is a coding assistant rather than a full IDE or editor surface.
+      contrastive_reason: >-
+        Choose coding-agents over ai-ides-editors because the product is a coding assistant rather than a full IDE or
+        editor surface.
       review_reason: null
       review_resume_lifecycle: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__scrapezy__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Official Servers
         anchor_text: Scrapezy
         extracted_url: https://scrapezy.com
-        surrounding_text: "- **[Scrapezy](https://github.com/scrapezy/mcp)** - Turn websites into datasets with [Scrapezy](https://scrapezy.com)"
+        surrounding_text: >-
+          - **[Scrapezy](https://github.com/scrapezy/mcp)** - Turn websites into datasets with
+          [Scrapezy](https://scrapezy.com)
         confidence: high
 metadata:
   github:
@@ -37,8 +39,12 @@ metadata:
     readme: null
 insights:
   summary: An AI-powered web scraping service that converts websites into structured JSON, CSV, or Markdown for AI pipelines.
-  why_it_matters: It allows developers to ingest web data into RAG systems and LLM workflows using natural language descriptions instead of brittle CSS selectors.
-  mental_damage: Because nothing says productivity like replacing a robust Playwright script with a single natural language prompt and a token-based bill.
+  why_it_matters: >-
+    It allows developers to ingest web data into RAG systems and LLM workflows using natural language descriptions
+    instead of brittle CSS selectors.
+  mental_damage: >-
+    Because nothing says productivity like replacing a robust Playwright script with a single natural language prompt
+    and a token-based bill.
   tags:
     - web-scraping
     - rag
@@ -48,21 +54,30 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary developer-facing identity is an MCP server for web data extraction, explicitly listed under 'Official Servers' in the awesome-mcp-servers directory.
+  reason: >-
+    The product's primary developer-facing identity is an MCP server for web data extraction, explicitly listed under
+    'Official Servers' in the awesome-mcp-servers directory.
   evidence:
-    - "Listed as an official server in the awesome-mcp-servers list with the purpose: 'Transform any website into structured data'."
-    - Scraped site context highlights 'MCP integration for Claude, direct API access for custom AI workflows' as a core feature.
-    - The product is an API-first tool for extracting structured data via natural language, explicitly targeting AI pipelines and developers.
+    - >-
+      Listed as an official server in the awesome-mcp-servers list with the purpose: 'Transform any website into
+      structured data'.
+    - >-
+      Scraped site context highlights 'MCP integration for Claude, direct API access for custom AI workflows' as a core
+      feature.
+    - >-
+      The product is an API-first tool for extracting structured data via natural language, explicitly targeting AI
+      pipelines and developers.
 placement:
   primary_category: mcp
-  section: null
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
+  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''context-engineering'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +86,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:13:23.740Z"
+    updated_at: '2026-08-27T06:13:23.740Z'
     cause: null
     next_retry_at: null
     attempts: 4
@@ -84,7 +99,9 @@ processing:
       input_hash: sha256:5c6a570fb45ddcf095e23b9b0069d4c36502da56593eb8fa629731d84921e016
       proposed_primary_category: context-engineering
       disagreement: true
-      decision_reason: The core novelty is providing fresh, structured web data for LLM context, which fits the retrieval and context-shaping definition.
+      decision_reason: >-
+        The core novelty is providing fresh, structured web data for LLM context, which fits the retrieval and
+        context-shaping definition.
       decision_evidence:
         - Outputs markdown-formatted documents optimized for RAG systems
         - API-first design specifically for AI pipelines
@@ -92,6 +109,8 @@ processing:
       category_candidates:
         - context-engineering
         - mcp
-      contrastive_reason: Choose context-engineering over mcp because the product is a scraping service with MCP compatibility rather than an MCP-first infrastructure tool.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
+      contrastive_reason: >-
+        Choose context-engineering over mcp because the product is a scraping service with MCP compatibility rather than
+        an MCP-first infrastructure tool.
+      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''context-engineering'''
       review_resume_lifecycle: null

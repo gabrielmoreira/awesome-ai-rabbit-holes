@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__windmaple__awesome-automl__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,12 @@ provenance:
           - Awesome Lists
         anchor_text: Awesome AutoML
         extracted_url: https://github.com/windmaple/awesome-automl
-        surrounding_text: "| [Awesome AutoML](https://github.com/windmaple/awesome-AutoML)                                           | Curating a list of AutoML-related research, tools, projects and other resources                                                   | ![GitHub Badge](https://img.shields.io/github/stars/windmaple/awesome-AutoML.svg?style=flat-square)                      |"
+        surrounding_text: >-
+          | [Awesome AutoML](https://github.com/windmaple/awesome-AutoML)                                           |
+          Curating a list of AutoML-related research, tools, projects and other
+          resources                                                   | ![GitHub
+          Badge](https://img.shields.io/github/stars/windmaple/awesome-AutoML.svg?style=flat-square)                     
+          |
         confidence: high
 metadata:
   github:
@@ -29,51 +34,56 @@ metadata:
     archived: false
     full_name: windmaple/awesome-AutoML
     html_url: https://github.com/windmaple/awesome-AutoML
-    created_at: "2018-11-05T06:04:40Z"
-    pushed_at: "2026-03-24T05:53:32Z"
+    created_at: '2018-11-05T06:04:40Z'
+    pushed_at: '2026-03-24T05:53:32Z'
     description: Curating a list of AutoML-related research, tools, projects and other resources
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:21:13.741Z"
+    last_checked_at: '2026-07-21T15:21:13.741Z'
     readme:
-      fetched_at: "2026-07-21T15:21:13.741Z"
+      fetched_at: '2026-07-21T15:21:13.741Z'
       bytes: 38350
 insights:
-  summary: A curated GitHub repository listing AutoML research papers, tools, and resources for developers interested in automated machine learning.
-  why_it_matters: Helps developers discover and navigate the AutoML ecosystem by aggregating research and tooling in one place, reducing the overhead of manual discovery.
-  mental_damage: Another awesome list that feels useful until you realize you're now maintaining a list of lists instead of shipping code.
+  summary: >-
+    A curated GitHub repository listing AutoML research papers, tools, and resources for developers interested in
+    automated machine learning.
+  why_it_matters: >-
+    Helps developers discover and navigate the AutoML ecosystem by aggregating research and tooling in one place,
+    reducing the overhead of manual discovery.
+  mental_damage: >-
+    Another awesome list that feels useful until you realize you're now maintaining a list of lists instead of shipping
+    code.
   tags:
     - automl
     - awesome-list
     - research
   confidence: high
 curation:
-  status: included
-  reason: This is a curated directory focused on AutoML resources, which fits the awesome-awesomes category as a navigation aid for developers exploring AI tooling, rather than a standalone product or framework.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - "Repo description: 'Curating a list of AutoML-related research, tools, projects and other resources'"
-    - Appears in Awesome-LLMOps under the 'Awesome Lists' section
-    - README positions it as a curation of research papers and tools, not a tool or agent itself
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (929) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.655Z"
+    updated_at: '2026-05-06T22:12:15.655Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:13.741Z"
+    updated_at: '2026-07-21T15:21:13.741Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:35:07.984Z"
+    updated_at: '2026-05-12T15:35:07.984Z'
     cause: null
     next_retry_at: null
     attempts: 1

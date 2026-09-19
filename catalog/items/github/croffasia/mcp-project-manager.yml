@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__croffasia__mcp-project-manager__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Project Manager
         extracted_url: https://github.com/croffasia/mcp-project-manager
-        surrounding_text: "- **[Project Manager](https://github.com/croffasia/mcp-project-manager)** - Hierarchical task management (ideas → epics → tasks) with CLI dashboard"
+        surrounding_text: >-
+          - **[Project Manager](https://github.com/croffasia/mcp-project-manager)** - Hierarchical task management
+          (ideas → epics → tasks) with CLI dashboard
         confidence: high
 metadata:
   github:
@@ -29,19 +31,27 @@ metadata:
     archived: false
     full_name: croffasia/mcp-project-manager
     html_url: https://github.com/croffasia/mcp-project-manager
-    created_at: "2025-07-14T13:41:33Z"
-    pushed_at: "2025-07-15T21:25:41Z"
-    description: 🚀 Hierarchical task management server via Model Context   Protocol (MCP). Create ideas → epics → tasks with   AI-powered decomposition and smart workflow automation   for any MCP-compatible AI assistant.
+    created_at: '2025-07-14T13:41:33Z'
+    pushed_at: '2025-07-15T21:25:41Z'
+    description: >-
+      🚀 Hierarchical task management server via Model Context   Protocol (MCP). Create ideas → epics → tasks with  
+      AI-powered decomposition and smart workflow automation   for any MCP-compatible AI assistant.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:31.237Z"
+    last_checked_at: '2026-09-14T04:13:31.237Z'
     readme:
-      fetched_at: "2026-09-14T04:13:31.237Z"
+      fetched_at: '2026-09-14T04:13:31.237Z'
       bytes: 10088
 insights:
-  summary: Hierarchical task management server for MCP-compatible AI assistants, enabling AI-powered decomposition of ideas into epics and tasks with dependency tracking.
-  why_it_matters: Developers using MCP-based assistants can now offload project planning and task breakdown to an AI that understands hierarchical workflows and dependencies.
-  mental_damage: Finally, a way to make your AI assistant manage your Jira backlog so you can get back to arguing with it about tabs vs spaces.
+  summary: >-
+    Hierarchical task management server for MCP-compatible AI assistants, enabling AI-powered decomposition of ideas
+    into epics and tasks with dependency tracking.
+  why_it_matters: >-
+    Developers using MCP-based assistants can now offload project planning and task breakdown to an AI that understands
+    hierarchical workflows and dependencies.
+  mental_damage: >-
+    Finally, a way to make your AI assistant manage your Jira backlog so you can get back to arguing with it about tabs
+    vs spaces.
   tags:
     - mcp
     - task-management
@@ -51,31 +61,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is as an MCP server providing hierarchical task management capabilities to MCP-compatible assistants.
+  reason: >-
+    The product's core identity is as an MCP server providing hierarchical task management capabilities to
+    MCP-compatible assistants.
   evidence:
     - Repo description explicitly identifies it as a Model Context Protocol (MCP) server
     - README emphasizes MCP compatibility and integration with multiple MCP clients (Claude Code, Cursor, etc.)
     - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.609Z"
+    updated_at: '2026-05-06T22:12:15.609Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:31.237Z"
+    updated_at: '2026-09-14T04:13:31.237Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:48:59.862Z"
+    updated_at: '2026-07-21T15:48:59.862Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +101,9 @@ processing:
       input_hash: sha256:8710c78bc00997da19e31a6666e346a2cdcc2dd7d316f933d3cd15763bacf2dd
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is as an MCP server providing hierarchical task management capabilities to MCP-compatible assistants.
+      decision_reason: >-
+        The product's core identity is as an MCP server providing hierarchical task management capabilities to
+        MCP-compatible assistants.
       decision_evidence:
         - Repo description explicitly identifies it as a Model Context Protocol (MCP) server
         - README emphasizes MCP compatibility and integration with multiple MCP clients (Claude Code, Cursor, etc.)
@@ -96,6 +111,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server rather than merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server rather than merely
+        an extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

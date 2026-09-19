@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jinzcdev__markmap-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: jinzcdev/markmap-mcp-server
         extracted_url: https://github.com/jinzcdev/markmap-mcp-server
-        surrounding_text: "- [jinzcdev/markmap-mcp-server](https://github.com/jinzcdev/markmap-mcp-server) 📇 🏠 - An MCP server built on [markmap](https://github.com/markmap/markmap) that converts **Markdown** to interactive **mind maps**. Supports multi-format exports (PNG/JPG/SVG), live browser preview, one-click Markdown copy, and dynamic visualization features."
+        surrounding_text: >-
+          - [jinzcdev/markmap-mcp-server](https://github.com/jinzcdev/markmap-mcp-server) 📇 🏠 - An MCP server built on
+          [markmap](https://github.com/markmap/markmap) that converts **Markdown** to interactive **mind maps**.
+          Supports multi-format exports (PNG/JPG/SVG), live browser preview, one-click Markdown copy, and dynamic
+          visualization features.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: jinzcdev/markmap-mcp-server
     html_url: https://github.com/jinzcdev/markmap-mcp-server
-    created_at: "2025-04-28T12:53:55Z"
-    pushed_at: "2026-03-18T07:55:48Z"
+    created_at: '2025-04-28T12:53:55Z'
+    pushed_at: '2026-03-18T07:55:48Z'
     description: An MCP server for converting Markdown to interactive mind maps with export support (PNG/JPG/SVG).
     homepage: https://www.npmjs.com/package/@jinzcdev/markmap-mcp-server
     topics:
@@ -43,13 +47,15 @@ metadata:
       - mindmap
       - mindnode
       - xmind
-    last_checked_at: "2026-07-30T05:05:50.725Z"
+    last_checked_at: '2026-07-30T05:05:50.725Z'
     readme:
-      fetched_at: "2026-07-30T05:05:50.725Z"
+      fetched_at: '2026-07-30T05:05:50.725Z'
       bytes: 4785
 insights:
   summary: An MCP server that converts Markdown to interactive mind maps with export support for PNG/JPG/SVG.
-  why_it_matters: Developers can integrate mind-mapping visualization into their MCP-enabled workflows for planning, documentation, or brainstorming directly from Markdown.
+  why_it_matters: >-
+    Developers can integrate mind-mapping visualization into their MCP-enabled workflows for planning, documentation, or
+    brainstorming directly from Markdown.
   mental_damage: Now you can turn your TODO.md into a mind map, because apparently bullet points weren’t chaotic enough.
   tags:
     - mcp-server
@@ -60,31 +66,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server for a specific domain (Markdown-to-mindmap conversion)."
+  reason: 'MCP is the product identity: this is a dedicated MCP server for a specific domain (Markdown-to-mindmap conversion).'
   evidence:
     - Repo description explicitly states it is an MCP server for Markdown-to-mindmap conversion
     - README details MCP client configuration and tool exposure (markdown-to-mindmap)
     - Project is actively maintained (pushed_at 2026-03-18)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: promotion_candidate
   reason: Stars (198) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:50.725Z"
+    updated_at: '2026-07-30T05:05:50.725Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:38.787Z"
+    updated_at: '2026-07-21T16:10:38.787Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -97,7 +104,9 @@ processing:
       input_hash: sha256:503b70b458b42aab91173232420765fec2df46db84363adf0dd888e53199a5e3
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server for a specific domain (Markdown-to-mindmap conversion)."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server for a specific domain (Markdown-to-mindmap
+        conversion).
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Markdown-to-mindmap conversion
         - README details MCP client configuration and tool exposure (markdown-to-mindmap)
@@ -105,6 +114,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (domain-specific tooling) rather than an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server (domain-specific tooling) rather
+        than an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

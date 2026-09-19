@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sequenzia__mamba-agents__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -20,7 +20,9 @@ provenance:
           - Type-Safe & Modern Frameworks
         anchor_text: Mamba Agents
         extracted_url: https://github.com/sequenzia/mamba-agents
-        surrounding_text: "| [Mamba Agents](https://github.com/sequenzia/mamba-agents) | Simple extensible AI Agent framework | ![Stars](https://img.shields.io/github/stars/sequenzia/mamba-agents) |"
+        surrounding_text: >-
+          | [Mamba Agents](https://github.com/sequenzia/mamba-agents) | Simple extensible AI Agent framework |
+          ![Stars](https://img.shields.io/github/stars/sequenzia/mamba-agents) |
         confidence: high
 metadata:
   github:
@@ -30,21 +32,31 @@ metadata:
     archived: false
     full_name: sequenzia/mamba-agents
     html_url: https://github.com/sequenzia/mamba-agents
-    created_at: "2026-01-06T00:02:14Z"
-    pushed_at: "2026-02-10T04:11:06Z"
-    description: A simple, extensible AI Agent framework built on pydantic-ai.  Mamba Agents provides a thin wrapper around pydantic-ai that adds production-ready infrastructure for building AI agents. It handles the operational complexity—context window management, token tracking, cost estimation, and observability—so you can focus on your agent's logic.
+    created_at: '2026-01-06T00:02:14Z'
+    pushed_at: '2026-02-10T04:11:06Z'
+    description: >-
+      A simple, extensible AI Agent framework built on pydantic-ai.  Mamba Agents provides a thin wrapper around
+      pydantic-ai that adds production-ready infrastructure for building AI agents. It handles the operational
+      complexity—context window management, token tracking, cost estimation, and observability—so you can focus on your
+      agent's logic.
     homepage: https://sequenzia.github.io/mamba-agents
     topics:
       - ai-agents
       - pydantic-ai
-    last_checked_at: "2026-07-20T16:42:54.125Z"
+    last_checked_at: '2026-07-20T16:42:54.125Z'
     readme:
-      fetched_at: "2026-07-20T16:42:54.125Z"
+      fetched_at: '2026-07-20T16:42:54.125Z'
       bytes: 29676
 insights:
-  summary: A lightweight Python framework built on pydantic-ai that provides production-ready infrastructure for building AI agents, including context window management, token tracking, and observability.
-  why_it_matters: It handles the operational complexity of scaling agent conversations—token limits, cost estimation, and context compaction—so developers can focus on agent logic rather than infrastructure plumbing.
-  mental_damage: Another thin wrapper to help you forget that your 'agent' is just a fancy loop around a chat completion endpoint with a billing meter attached.
+  summary: >-
+    A lightweight Python framework built on pydantic-ai that provides production-ready infrastructure for building AI
+    agents, including context window management, token tracking, and observability.
+  why_it_matters: >-
+    It handles the operational complexity of scaling agent conversations—token limits, cost estimation, and context
+    compaction—so developers can focus on agent logic rather than infrastructure plumbing.
+  mental_damage: >-
+    Another thin wrapper to help you forget that your 'agent' is just a fancy loop around a chat completion endpoint
+    with a billing meter attached.
   tags:
     - pydantic-ai
     - agent-framework
@@ -54,35 +66,44 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product is a code-first Python framework and SDK that developers import and script against to build agents, fitting the Frameworks & SDKs identity rather than an operated platform or primary coding assistant.
+  reason: >-
+    The product is a code-first Python framework and SDK that developers import and script against to build agents,
+    fitting the Frameworks & SDKs identity rather than an operated platform or primary coding assistant.
   evidence:
-    - Repo description states it is 'a simple, extensible AI Agent framework built on pydantic-ai' with production infrastructure wrappers.
-    - README includes Python import examples (from mamba_agents import Agent) showing it is used as a code-first library.
-    - Included in awesome-agent-orchestration under 'Core Frameworks > Type-Safe & Modern Frameworks', aligning with framework tooling for developers.
+    - >-
+      Repo description states it is 'a simple, extensible AI Agent framework built on pydantic-ai' with production
+      infrastructure wrappers.
+    - >-
+      README includes Python import examples (from mamba_agents import Agent) showing it is used as a code-first
+      library.
+    - >-
+      Included in awesome-agent-orchestration under 'Core Frameworks > Type-Safe & Modern Frameworks', aligning with
+      framework tooling for developers.
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  secondary_categories: []
+  section: LLM & Agent SDKs
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.647Z"
+    updated_at: '2026-05-06T22:12:15.647Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:54.125Z"
+    updated_at: '2026-07-20T16:42:54.125Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

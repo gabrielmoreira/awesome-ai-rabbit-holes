@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kaito-project__aikit__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,7 @@ provenance:
           - 微调 Fine-Tuning
         anchor_text: aikit
         extracted_url: https://github.com/sozercan/aikit
-        surrounding_text: "14. [aikit](https://github.com/sozercan/aikit): Fine-tune, build, and deploy open-source LLMs easily!"
+        surrounding_text: '14. [aikit](https://github.com/sozercan/aikit): Fine-tune, build, and deploy open-source LLMs easily!'
         confidence: high
 metadata:
   github:
@@ -29,8 +29,8 @@ metadata:
     archived: false
     full_name: kaito-project/aikit
     html_url: https://github.com/kaito-project/aikit
-    created_at: "2023-09-20T02:31:11Z"
-    pushed_at: "2026-07-27T02:20:52Z"
+    created_at: '2023-09-20T02:31:11Z'
+    pushed_at: '2026-07-27T02:20:52Z'
     description: 🏗️ Fine-tune, build, and deploy open-source LLMs easily!
     homepage: https://kaito-project.github.io/aikit/
     topics:
@@ -54,13 +54,15 @@ metadata:
       - open-llm
       - open-source-llm
       - openai
-    last_checked_at: "2026-07-30T05:05:54.265Z"
+    last_checked_at: '2026-07-30T05:05:54.265Z'
     readme:
-      fetched_at: "2026-07-30T05:05:54.265Z"
+      fetched_at: '2026-07-30T05:05:54.265Z'
       bytes: 15763
 insights:
   summary: An open-source toolkit for fine-tuning, building, and deploying LLMs with Docker and Kubernetes support.
-  why_it_matters: It simplifies the process of fine-tuning and deploying open-source LLMs, making advanced model customization more accessible to developers.
+  why_it_matters: >-
+    It simplifies the process of fine-tuning and deploying open-source LLMs, making advanced model customization more
+    accessible to developers.
   mental_damage: Because nothing says 'easy' like wrangling Docker, Kubernetes, and fine-tuning configs in the same afternoon.
   tags:
     - fine-tuning
@@ -71,31 +73,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product’s core identity is local/self-hosted LLM serving, fine-tuning, and packaging with an OpenAI-compatible API, making it a strong fit for Local AI.
+  reason: >-
+    The product’s core identity is local/self-hosted LLM serving, fine-tuning, and packaging with an OpenAI-compatible
+    API, making it a strong fit for Local AI.
   evidence:
-    - "Repo description states: 'Fine-tune, build, and deploy open-source LLMs easily!'"
+    - 'Repo description states: ''Fine-tune, build, and deploy open-source LLMs easily!'''
     - README emphasizes Docker/Podman local execution and OpenAI API-compatible inference endpoints.
     - Supports GPU/CPU inference, fine-tuning via Unsloth, and OCI packaging for model distribution.
 placement:
   primary_category: local-ai
-  section: null
+  secondary_categories: []
+  section: Fine-tuning & Training
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'ai-frameworks'"
+  reason: 'Categorization review required: placement disagreement: retained ''local-ai'', proposed ''ai-frameworks'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.623Z"
+    updated_at: '2026-05-06T22:12:15.623Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:54.265Z"
+    updated_at: '2026-07-30T05:05:54.265Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:11:44.958Z"
+    updated_at: '2026-07-21T16:11:44.958Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -108,7 +113,9 @@ processing:
       input_hash: sha256:070198571e291d091718f84b9586036202997cdb575844dad13abdc95ce6ce19
       proposed_primary_category: ai-frameworks
       disagreement: true
-      decision_reason: The project is a code-first toolkit for fine-tuning and deploying LLMs, fitting the Frameworks & SDKs category as a reusable building block for AI workflows.
+      decision_reason: >-
+        The project is a code-first toolkit for fine-tuning and deploying LLMs, fitting the Frameworks & SDKs category
+        as a reusable building block for AI workflows.
       decision_evidence:
         - Repo description explicitly states it is for fine-tuning, building, and deploying open-source LLMs
         - Topics include Docker, Kubernetes, and fine-tuning, indicating a code-first infrastructure focus
@@ -116,6 +123,8 @@ processing:
       category_candidates:
         - ai-frameworks
         - local-ai
-      contrastive_reason: Choose ai-frameworks over local-ai because the core value is the fine-tuning/deployment workflow (framework) rather than local runtime execution.
-      review_reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'ai-frameworks'"
+      contrastive_reason: >-
+        Choose ai-frameworks over local-ai because the core value is the fine-tuning/deployment workflow (framework)
+        rather than local runtime execution.
+      review_reason: 'Categorization review required: placement disagreement: retained ''local-ai'', proposed ''ai-frameworks'''
       review_resume_lifecycle: null

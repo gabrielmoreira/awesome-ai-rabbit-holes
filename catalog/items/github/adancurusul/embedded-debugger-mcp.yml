@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__adancurusul__embedded-debugger-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 📟 <a name="embedded-system"></a>Embedded System
         anchor_text: adancurusul/embedded-debugger-mcp
         extracted_url: https://github.com/adancurusul/embedded-debugger-mcp
-        surrounding_text: "- [adancurusul/embedded-debugger-mcp](https://github.com/adancurusul/embedded-debugger-mcp) 🦀 📟 - A Model Context Protocol server for embedded debugging with probe-rs - supports ARM Cortex-M, RISC-V debugging via J-Link, ST-Link, and more"
+        surrounding_text: >-
+          - [adancurusul/embedded-debugger-mcp](https://github.com/adancurusul/embedded-debugger-mcp) 🦀 📟 - A Model
+          Context Protocol server for embedded debugging with probe-rs - supports ARM Cortex-M, RISC-V debugging via
+          J-Link, ST-Link, and more
         confidence: high
 metadata:
   github:
@@ -30,10 +33,12 @@ metadata:
     archived: false
     full_name: Adancurusul/embedded-debugger-mcp
     html_url: https://github.com/Adancurusul/embedded-debugger-mcp
-    created_at: "2025-08-05T11:44:40Z"
-    pushed_at: "2026-07-16T12:50:13Z"
-    description: MCP server + CLI + Codex/Claude skill for embedded debugging via probe-rs or OpenOCD — ARM Cortex-M, RISC-V, and Xtensa (ESP32), with AI crash diagnosis
-    homepage: ""
+    created_at: '2025-08-05T11:44:40Z'
+    pushed_at: '2026-07-16T12:50:13Z'
+    description: >-
+      MCP server + CLI + Codex/Claude skill for embedded debugging via probe-rs or OpenOCD — ARM Cortex-M, RISC-V, and
+      Xtensa (ESP32), with AI crash diagnosis
+    homepage: ''
     topics:
       - ai-skill
       - arm-cortex-m
@@ -55,13 +60,17 @@ metadata:
       - rust
       - skill
       - xtensa
-    last_checked_at: "2026-09-17T04:13:29.816Z"
+    last_checked_at: '2026-09-17T04:13:29.816Z'
     readme:
-      fetched_at: "2026-09-17T04:13:29.816Z"
+      fetched_at: '2026-09-17T04:13:29.816Z'
       bytes: 11408
 insights:
-  summary: An MCP server and CLI tool that enables AI assistants to perform embedded debugging for ARM Cortex-M, RISC-V, and Xtensa targets via probe-rs or OpenOCD.
-  why_it_matters: It bridges the gap between high-level AI reasoning and low-level hardware debugging, allowing agents to diagnose hardware crashes and manage debug probes directly.
+  summary: >-
+    An MCP server and CLI tool that enables AI assistants to perform embedded debugging for ARM Cortex-M, RISC-V, and
+    Xtensa targets via probe-rs or OpenOCD.
+  why_it_matters: >-
+    It bridges the gap between high-level AI reasoning and low-level hardware debugging, allowing agents to diagnose
+    hardware crashes and manage debug probes directly.
   mental_damage: Because nothing says 'odern workflow' quite like having an LLM try to unwind a stack trace on a physical ESP32.
   tags:
     - mcp
@@ -72,31 +81,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's identity is centered on being a Model Context Protocol (MCP) server that provides specific hardware debugging capabilities to an AI host.
+  reason: >-
+    The project's identity is centered on being a Model Context Protocol (MCP) server that provides specific hardware
+    debugging capabilities to an AI host.
   evidence:
     - Repo description explicitly identifies as an 'MCP server + CLI + Codex/Claude skill'
     - Architecture diagram shows the product as a middle layer between an MCP client and debug backends
     - Includes specialized MCP tools for probe discovery, memory access, and crash diagnosis
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (156) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.599Z"
+    updated_at: '2026-05-06T22:12:15.599Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:29.816Z"
+    updated_at: '2026-09-17T04:13:29.816Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:57:50.385Z"
+    updated_at: '2026-07-20T15:57:50.385Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -109,7 +121,9 @@ processing:
       input_hash: sha256:0c9e902e7484663cceee9a922d7d3afcd37ea9c12176fd54e8ccdab382f9f641
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's identity is centered on being a Model Context Protocol (MCP) server that provides specific hardware debugging capabilities to an AI host.
+      decision_reason: >-
+        The project's identity is centered on being a Model Context Protocol (MCP) server that provides specific
+        hardware debugging capabilities to an AI host.
       decision_evidence:
         - Repo description explicitly identifies as an 'MCP server + CLI + Codex/Claude skill'
         - Architecture diagram shows the product as a middle layer between an MCP client and debug backends
@@ -117,6 +131,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's primary architectural purpose is to serve as an MCP implementation to expose hardware capabilities to an assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool's primary architectural purpose is to serve as an MCP
+        implementation to expose hardware capabilities to an assistant.
       review_reason: null
       review_resume_lifecycle: null

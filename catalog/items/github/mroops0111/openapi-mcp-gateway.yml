@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mroops0111__openapi-mcp-gateway__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: mroops0111/openapi-mcp-gateway
         extracted_url: https://github.com/mroops0111/openapi-mcp-gateway
-        surrounding_text: "- [mroops0111/openapi-mcp-gateway](https://github.com/mroops0111/openapi-mcp-gateway) [![mroops0111/openapi-mcp-gateway MCP server](https://glama.ai/mcp/servers/mroops0111/openapi-mcp-gateway/badges/score.svg)](https://glama.ai/mcp/servers/mroops0111/openapi-mcp-gateway) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Mount many OpenAPI specs (or your existing FastAPI app) as MCP servers in one process. Auto-promotes eligible GETs to MCP resources, exposes huge specs via three `list/get/call` meta-tools instead of N tool schemas, and ships per-user OAuth2 token relay with audience-bound tokens."
+        surrounding_text: >-
+          - [mroops0111/openapi-mcp-gateway](https://github.com/mroops0111/openapi-mcp-gateway)
+          [![mroops0111/openapi-mcp-gateway MCP
+          server](https://glama.ai/mcp/servers/mroops0111/openapi-mcp-gateway/badges/score.svg)](https://glama.ai/mcp/servers/mroops0111/openapi-mcp-gateway)
+          🐍 ☁️ 🏠 🍎 🪟 🐧 - Mount many OpenAPI specs (or your existing FastAPI app) as MCP servers in one process.
+          Auto-promotes eligible GETs to MCP resources, exposes huge specs via three `list/get/call` meta-tools instead
+          of N tool schemas, and ships per-user OAuth2 token relay with audience-bound tokens.
         confidence: high
 metadata:
   github:
@@ -30,10 +36,12 @@ metadata:
     archived: false
     full_name: mroops0111/openapi-mcp-gateway
     html_url: https://github.com/mroops0111/openapi-mcp-gateway
-    created_at: "2026-04-18T03:38:14Z"
-    pushed_at: "2026-08-03T01:33:35Z"
-    description: Turn any OpenAPI/Swagger API into an MCP server with real OAuth2 support. Multi-spec gateway for Claude, Cursor, Codex, and other MCP clients.
-    homepage: ""
+    created_at: '2026-04-18T03:38:14Z'
+    pushed_at: '2026-08-03T01:33:35Z'
+    description: >-
+      Turn any OpenAPI/Swagger API into an MCP server with real OAuth2 support. Multi-spec gateway for Claude, Cursor,
+      Codex, and other MCP clients.
+    homepage: ''
     topics:
       - agent
       - claude
@@ -45,14 +53,20 @@ metadata:
       - openapi-to-mcp
       - python
       - swagger
-    last_checked_at: "2026-08-03T05:17:08.188Z"
+    last_checked_at: '2026-08-03T05:17:08.188Z'
     readme:
-      fetched_at: "2026-08-03T05:17:08.188Z"
+      fetched_at: '2026-08-03T05:17:08.188Z'
       bytes: 20906
 insights:
-  summary: A gateway that converts OpenAPI/Swagger specifications into Model Context Protocol (MCP) servers with support for multiple authentication methods.
-  why_it_matters: It allows developers to instantly grant AI assistants like Claude or Cursor access to existing REST APIs without manually writing new MCP tools for every endpoint.
-  mental_damage: Because the barrier to giving an LLM full agency over your production APIs was apparently just a missing OAuth2 bridge.
+  summary: >-
+    A gateway that converts OpenAPI/Swagger specifications into Model Context Protocol (MCP) servers with support for
+    multiple authentication methods.
+  why_it_matters: >-
+    It allows developers to instantly grant AI assistants like Claude or Cursor access to existing REST APIs without
+    manually writing new MCP tools for every endpoint.
+  mental_damage: >-
+    Because the barrier to giving an LLM full agency over your production APIs was apparently just a missing OAuth2
+    bridge.
   tags:
     - mcp
     - openapi
@@ -62,31 +76,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's core identity is an MCP middleware layer that bridges the gap between standard web APIs and the Model Context Protocol.
+  reason: >-
+    The project's core identity is an MCP middleware layer that bridges the gap between standard web APIs and the Model
+    Context Protocol.
   evidence:
     - Repo description defines it as a multi-spec gateway for MCP clients like Claude and Cursor.
     - README describes it as a way to mount OpenAPI specs as MCP servers with support for OAuth2, Bearer, and API keys.
     - It provides specific MCP-native features like resource auto-promotion and dynamic tool exposure.
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-15T05:51:04.989Z"
+    updated_at: '2026-06-15T05:51:04.989Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:08.188Z"
+    updated_at: '2026-08-03T05:17:08.188Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-06T05:46:56.828Z"
+    updated_at: '2026-07-06T05:46:56.828Z'
     cause: null
     next_retry_at: null
     attempts: 1

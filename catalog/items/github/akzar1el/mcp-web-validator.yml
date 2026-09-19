@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__akzar1el__mcp-web-validator__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-30T05:05:26.992Z"
+      discovered_at: '2026-07-30T05:05:26.992Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: AKzar1el/mcp-web-validator
         extracted_url: https://github.com/akzar1el/mcp-web-validator
-        surrounding_text: "- [AKzar1el/mcp-web-validator](https://github.com/AKzar1el/mcp-web-validator) [![AKzar1el/mcp-web-validator MCP server](https://glama.ai/mcp/servers/AKzar1el/mcp-web-validator/badges/score.svg)](https://glama.ai/mcp/servers/AKzar1el/mcp-web-validator) 📇 ☁️ 🏠 🍎 🪟 🐧 - Web Validator by DigestSEO validates HTML and CSS, audits technical SEO and accessibility signals, checks JSON-LD and bounded public links, and captures responsive screenshots. Install locally with `npx -y mcp-web-validator`; no API keys required."
+        surrounding_text: >-
+          - [AKzar1el/mcp-web-validator](https://github.com/AKzar1el/mcp-web-validator) [![AKzar1el/mcp-web-validator
+          MCP
+          server](https://glama.ai/mcp/servers/AKzar1el/mcp-web-validator/badges/score.svg)](https://glama.ai/mcp/servers/AKzar1el/mcp-web-validator)
+          📇 ☁️ 🏠 🍎 🪟 🐧 - Web Validator by DigestSEO validates HTML and CSS, audits technical SEO and accessibility
+          signals, checks JSON-LD and bounded public links, and captures responsive screenshots. Install locally with
+          `npx -y mcp-web-validator`; no API keys required.
         confidence: high
 metadata:
   github:
@@ -30,8 +36,8 @@ metadata:
     archived: false
     full_name: AKzar1el/mcp-web-validator
     html_url: https://github.com/AKzar1el/mcp-web-validator
-    created_at: "2026-07-08T18:26:36Z"
-    pushed_at: "2026-09-08T19:15:30Z"
+    created_at: '2026-07-08T18:26:36Z'
+    pushed_at: '2026-09-08T19:15:30Z'
     description: W3C HTML/CSS Validator and Technical SEO Audit MCP Server. Part of the DigestSEO (https://digestseo.com) suite.
     homepage: https://digestseo.com/validator-mcp/
     topics:
@@ -44,13 +50,17 @@ metadata:
       - seo-audit
       - w3c
       - w3c-validator
-    last_checked_at: "2026-09-17T04:13:37.874Z"
+    last_checked_at: '2026-09-17T04:13:37.874Z'
     readme:
-      fetched_at: "2026-09-17T04:13:37.874Z"
+      fetched_at: '2026-09-17T04:13:37.874Z'
       bytes: 9207
 insights:
-  summary: An MCP server that provides HTML/CSS validation, technical SEO audits, accessibility checks, and screenshot capabilities to MCP-compliant clients.
-  why_it_matters: It enables developers to run automated web standards and SEO audits directly through their AI coding assistants like Claude Desktop or Cursor.
+  summary: >-
+    An MCP server that provides HTML/CSS validation, technical SEO audits, accessibility checks, and screenshot
+    capabilities to MCP-compliant clients.
+  why_it_matters: >-
+    It enables developers to run automated web standards and SEO audits directly through their AI coding assistants like
+    Claude Desktop or Cursor.
   mental_damage: Because verifying your own CSS syntax and meta tags is apparently too much manual labor for a modern developer.
   tags:
     - mcp
@@ -61,31 +71,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation designed to provide domain-specific tools to AI assistants via the Model Context Protocol.
+  reason: >-
+    The project is explicitly an MCP server implementation designed to provide domain-specific tools to AI assistants
+    via the Model Context Protocol.
   evidence:
     - Repo description identifies it as a W3C HTML/CSS Validator and SEO Audit MCP Server.
     - README details specific MCP tools for html.local, css.local, seo.metadata, and screenshot.capture.
     - Supports both stdio transport for local clients and Streamable HTTP for remote clients.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-30T05:05:26.994Z"
+    updated_at: '2026-07-30T05:05:26.994Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:37.874Z"
+    updated_at: '2026-09-17T04:13:37.874Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:23:45.378Z"
+    updated_at: '2026-08-27T06:23:45.378Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -94,7 +107,9 @@ processing:
       input_hash: sha256:4a5d4ce4fcef07dadeb14f6ce95bcd2800725f2691646fd02817e0719ee8ffda
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is explicitly an MCP server implementation designed to provide domain-specific tools to AI assistants via the Model Context Protocol.
+      decision_reason: >-
+        The project is explicitly an MCP server implementation designed to provide domain-specific tools to AI
+        assistants via the Model Context Protocol.
       decision_evidence:
         - Repo description identifies it as a W3C HTML/CSS Validator and SEO Audit MCP Server.
         - README details specific MCP tools for html.local, css.local, seo.metadata, and screenshot.capture.
@@ -102,7 +117,9 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is an MCP server implementation rather than a general host integration.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is an MCP server implementation rather
+        than a general host integration.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

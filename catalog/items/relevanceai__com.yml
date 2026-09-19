@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__relevanceai__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Relevance AI
         anchor_text: Relevance AI
         extracted_url: https://relevanceai.com
-        surrounding_text: "## [Relevance AI](https://relevanceai.com/)"
+        surrounding_text: '## [Relevance AI](https://relevanceai.com/)'
         confidence: high
 metadata:
   github:
@@ -36,8 +36,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An enterprise platform for building, deploying, and orchestrating specialized AI agents with integrated LLM routing, tracing, and evaluation.
-  why_it_matters: It provides a unified infrastructure stack for moving from simple LLM prompts to managed, autonomous agentic workflows.
+  summary: >-
+    An enterprise platform for building, deploying, and orchestrating specialized AI agents with integrated LLM routing,
+    tracing, and evaluation.
+  why_it_matters: >-
+    It provides a unified infrastructure stack for moving from simple LLM prompts to managed, autonomous agentic
+    workflows.
   mental_damage: Because why debug a single function when you can manage an entire autonomous workforce of specialist agents instead?
   tags:
     - agent-orchestration
@@ -48,21 +52,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Relevance AI acts as an operated control plane and runtime platform that integrates routing, job queues, observability, and evals for multi-agent systems.
+  reason: >-
+    Relevance AI acts as an operated control plane and runtime platform that integrates routing, job queues,
+    observability, and evals for multi-agent systems.
   evidence:
     - Claims to ship an all-in-one system for routing, queues, evals, and tracing to replace custom-built stacks.
     - Features an 'MCP Gateway' for agent tool access and integrated tracing/observability.
     - Positions itself as a platform for managing 'specialist agents' across entire enterprise workforces.
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Hosted Agent Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +78,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:12:49.075Z"
+    updated_at: '2026-08-27T06:12:49.075Z'
     cause: null
     next_retry_at: null
     attempts: 4
@@ -84,7 +91,9 @@ processing:
       input_hash: sha256:075c87f2c7d2b83342ebe67413654ab427302fb000908982a62b9d167a6fba77
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: Relevance AI acts as an operated control plane and runtime platform that integrates routing, job queues, observability, and evals for multi-agent systems.
+      decision_reason: >-
+        Relevance AI acts as an operated control plane and runtime platform that integrates routing, job queues,
+        observability, and evals for multi-agent systems.
       decision_evidence:
         - Claims to ship an all-in-one system for routing, queues, evals, and tracing to replace custom-built stacks.
         - Features an 'MCP Gateway' for agent tool access and integrated tracing/observability.
@@ -92,6 +101,8 @@ processing:
       category_candidates:
         - agent-orchestration
         - evals
-      contrastive_reason: Choose agent-orchestration over evals because its primary identity is a platform for coordinating entire agentic workforces, with evals serving as a core integrated capability rather than the sole product.
+      contrastive_reason: >-
+        Choose agent-orchestration over evals because its primary identity is a platform for coordinating entire agentic
+        workforces, with evals serving as a core integrated capability rather than the sole product.
       review_reason: null
       review_resume_lifecycle: null

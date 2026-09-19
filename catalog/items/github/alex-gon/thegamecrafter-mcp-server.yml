@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alex-gon__thegamecrafter-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: alex-gon/thegamecrafter-mcp-server
         extracted_url: https://github.com/alex-gon/thegamecrafter-mcp-server
-        surrounding_text: "- [alex-gon/thegamecrafter-mcp-server](https://github.com/alex-gon/thegamecrafter-mcp-server) [![alex-gon/thegamecrafter-mcp-server MCP server](https://glama.ai/mcp/servers/alex-gon/thegamecrafter-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/alex-gon/thegamecrafter-mcp-server) 📇 ☁️ - Design, manage, and price tabletop games on The Game Crafter. Browse catalogs, create projects, upload artwork, get pricing."
+        surrounding_text: >-
+          - [alex-gon/thegamecrafter-mcp-server](https://github.com/alex-gon/thegamecrafter-mcp-server)
+          [![alex-gon/thegamecrafter-mcp-server MCP
+          server](https://glama.ai/mcp/servers/alex-gon/thegamecrafter-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/alex-gon/thegamecrafter-mcp-server)
+          📇 ☁️ - Design, manage, and price tabletop games on The Game Crafter. Browse catalogs, create projects, upload
+          artwork, get pricing.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: alex-gon/thegamecrafter-mcp-server
     html_url: https://github.com/alex-gon/thegamecrafter-mcp-server
-    created_at: "2026-03-16T23:04:52Z"
-    pushed_at: "2026-04-02T05:18:44Z"
+    created_at: '2026-03-16T23:04:52Z'
+    pushed_at: '2026-04-02T05:18:44Z'
     description: MCP server for The Game Crafter API — design, manage, and price tabletop games through Claude
     homepage: null
     topics:
@@ -40,12 +45,14 @@ metadata:
       - mcp-server
       - tabletop
       - thegamecrafter
-    last_checked_at: "2026-09-17T04:13:38.914Z"
+    last_checked_at: '2026-09-17T04:13:38.914Z'
     readme:
-      fetched_at: "2026-09-17T04:13:38.914Z"
+      fetched_at: '2026-09-17T04:13:38.914Z'
       bytes: 6919
 insights:
-  summary: An MCP server that connects AI assistants to The Game Crafter API for designing, managing, and pricing tabletop games.
+  summary: >-
+    An MCP server that connects AI assistants to The Game Crafter API for designing, managing, and pricing tabletop
+    games.
   why_it_matters: Lets developers integrate tabletop game design workflows into AI assistant environments via MCP.
   mental_damage: Now your AI can price out your board game while you question your life choices.
   tags:
@@ -56,31 +63,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server for The Game Crafter API, not a compatibility footnote."
+  reason: 'MCP is the product identity: this is a dedicated MCP server for The Game Crafter API, not a compatibility footnote.'
   evidence:
     - Repo description explicitly states it is an MCP server for The Game Crafter API
     - README details MCP server setup, tools, and resources for AI assistant integration
     - Listed in MCP Registry and Glama Connectors
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.601Z"
+    updated_at: '2026-05-06T22:12:15.601Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:38.914Z"
+    updated_at: '2026-09-17T04:13:38.914Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:21:57.329Z"
+    updated_at: '2026-07-21T15:21:57.329Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -93,7 +101,9 @@ processing:
       input_hash: sha256:c9c8fcde812667ac4abb05f27459bccb755e7222fbd3c64e71306d2f6406bc74
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server for The Game Crafter API, not a compatibility footnote."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server for The Game Crafter API, not a compatibility
+        footnote.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for The Game Crafter API
         - README details MCP server setup, tools, and resources for AI assistant integration
@@ -101,6 +111,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

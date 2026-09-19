@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__encode__software__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - encode
         anchor_text: encode
         extracted_url: https://encode.software
-        surrounding_text: "## [encode](https://encode.software)"
+        surrounding_text: '## [encode](https://encode.software)'
         confidence: high
 metadata:
   github:
@@ -38,7 +38,9 @@ metadata:
 insights:
   summary: An autonomous AI agent designed for executing complex tasks and managing workflows.
   why_it_matters: It offers an automated way to handle multi-step processes that would otherwise require manual orchestration.
-  mental_damage: Another autonomous agent to add to the growing list of things that might try to rewrite your entire architecture while you're getting coffee.
+  mental_damage: >-
+    Another autonomous agent to add to the growing list of things that might try to rewrite your entire architecture
+    while you're getting coffee.
   tags:
     - ai-agents
     - automation
@@ -46,20 +48,23 @@ insights:
   confidence: low
 curation:
   status: included
-  reason: The project is listed in an 'awesome-ai-agents' directory and identifies as an autonomous agent capable of executing tasks.
+  reason: >-
+    The project is listed in an 'awesome-ai-agents' directory and identifies as an autonomous agent capable of executing
+    tasks.
   evidence:
-    - "Listed in awesome-ai-agents under purpose: A list of AI autonomous agents"
+    - 'Listed in awesome-ai-agents under purpose: A list of AI autonomous agents'
     - Product identity is an autonomous agent
 placement:
   primary_category: coding-agents
-  section: Terminal & CLI Agents
+  secondary_categories: []
+  section: Autonomous & Multi-Agent Coding
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: low confidence"
+  reason: 'Categorization review required: low confidence'
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +73,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:43:29.439Z"
+    updated_at: '2026-07-20T15:43:29.439Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -81,13 +86,17 @@ processing:
       input_hash: sha256:f79b013d526aeb67b21ecb1f4fb7b9b158251fd02e2f27ce74381631148e6556
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: The project is listed in an 'awesome-ai-agents' directory and identifies as an autonomous agent capable of executing tasks.
+      decision_reason: >-
+        The project is listed in an 'awesome-ai-agents' directory and identifies as an autonomous agent capable of
+        executing tasks.
       decision_evidence:
-        - "Listed in awesome-ai-agents under purpose: A list of AI autonomous agents"
+        - 'Listed in awesome-ai-agents under purpose: A list of AI autonomous agents'
         - Product identity is an autonomous agent
       category_candidates:
         - coding-agents
         - agent-orchestration
-      contrastive_reason: Choose coding-agents over agent-orchestration because the project is identified as an autonomous agent rather than a multi-agent control plane or workbench.
-      review_reason: "Categorization review required: low confidence"
+      contrastive_reason: >-
+        Choose coding-agents over agent-orchestration because the project is identified as an autonomous agent rather
+        than a multi-agent control plane or workbench.
+      review_reason: 'Categorization review required: low confidence'
       review_resume_lifecycle: null

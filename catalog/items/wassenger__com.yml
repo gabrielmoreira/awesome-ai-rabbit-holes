@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__wassenger__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Community Servers
         anchor_text: Wassenger
         extracted_url: https://wassenger.com
-        surrounding_text: "- **[Wassenger](https://github.com/wassengerhq/mcp-wassenger)** - [Wassenger](https://wassenger.com) MCP server to chat, send messages and automate WhatsApp from any AI model client (free trial available)."
+        surrounding_text: >-
+          - **[Wassenger](https://github.com/wassengerhq/mcp-wassenger)** - [Wassenger](https://wassenger.com) MCP
+          server to chat, send messages and automate WhatsApp from any AI model client (free trial available).
         confidence: high
 metadata:
   github:
@@ -36,8 +38,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A WhatsApp Business platform with AI automation, team inbox, and MCP server integration for connecting AI assistants like Claude and ChatGPT.
-  why_it_matters: Developers can integrate WhatsApp messaging into AI workflows via MCP or REST API, enabling automated replies, team collaboration, and AI-driven chat management.
+  summary: >-
+    A WhatsApp Business platform with AI automation, team inbox, and MCP server integration for connecting AI assistants
+    like Claude and ChatGPT.
+  why_it_matters: >-
+    Developers can integrate WhatsApp messaging into AI workflows via MCP or REST API, enabling automated replies, team
+    collaboration, and AI-driven chat management.
   mental_damage: Now your AI can ghost customers on WhatsApp just like you would, but with better uptime.
   tags:
     - whatsapp
@@ -48,21 +54,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core developer-facing value is its MCP server, which explicitly connects WhatsApp to AI assistants, making MCP the primary identity.
+  reason: >-
+    The product's core developer-facing value is its MCP server, which explicitly connects WhatsApp to AI assistants,
+    making MCP the primary identity.
   evidence:
     - Explicitly markets an MCP server for connecting WhatsApp to AI assistants (Claude, ChatGPT, Cursor)
     - Listed in awesome-mcp-servers under 'Community Servers'
     - Offers REST API and MCP as primary integration paths for developers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.666Z"
+    updated_at: '2026-05-06T22:12:15.666Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +80,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:38:52.579Z"
+    updated_at: '2026-07-21T15:38:52.579Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +93,9 @@ processing:
       input_hash: sha256:5ab9984daf0846a0869a02b11b6f341121f5eda96e5c1ce3d73ffd0c0892eaa6
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core developer-facing value is its MCP server, which explicitly connects WhatsApp to AI assistants, making MCP the primary identity.
+      decision_reason: >-
+        The product's core developer-facing value is its MCP server, which explicitly connects WhatsApp to AI
+        assistants, making MCP the primary identity.
       decision_evidence:
         - Explicitly markets an MCP server for connecting WhatsApp to AI assistants (Claude, ChatGPT, Cursor)
         - Listed in awesome-mcp-servers under 'Community Servers'
@@ -92,6 +103,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the MCP server is the primary developer-facing artifact, not just an add-on to another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the MCP server is the primary developer-facing artifact, not just an
+        add-on to another assistant.
       review_reason: null
       review_resume_lifecycle: null

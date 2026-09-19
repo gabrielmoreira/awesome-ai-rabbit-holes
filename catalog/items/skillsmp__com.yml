@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__skillsmp__com__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,8 +36,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A marketplace and registry for discovering and installing agent skills in the open SKILL.md format, compatible with Claude Code, Codex CLI, and ChatGPT.
-  why_it_matters: It solves the discovery and distribution problem for modular AI coding assistant skills, making it easier to find, share, and install reusable capabilities.
+  summary: >-
+    A marketplace and registry for discovering and installing agent skills in the open SKILL.md format, compatible with
+    Claude Code, Codex CLI, and ChatGPT.
+  why_it_matters: >-
+    It solves the discovery and distribution problem for modular AI coding assistant skills, making it easier to find,
+    share, and install reusable capabilities.
   mental_damage: Now you can spend hours browsing 1.2M skills instead of just writing code.
   tags:
     - skills-registry
@@ -48,24 +52,29 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is a registry and directory of reusable agent skills in the SKILL.md format, which fits the 'Agent Skills' category.
+  reason: >-
+    The primary artifact is a registry and directory of reusable agent skills in the SKILL.md format, which fits the
+    'Agent Skills' category.
   evidence:
     - The site explicitly describes itself as an 'Agent Skills Marketplace' for the open SKILL.md ecosystem
     - It aggregates and indexes 1.2M+ skills from GitHub, compatible with Claude Code, Codex CLI, and ChatGPT
     - The core value is discovery, filtering, and programmatic access to a curated collection of skills
 placement:
   primary_category: skills
-  section: Skill Registries & Directories
+  secondary_categories: []
+  section: Registries & Directories
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -73,7 +82,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:39.017Z"
+    updated_at: '2026-07-21T15:31:39.017Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -86,7 +95,9 @@ processing:
       input_hash: sha256:cbe1f488cb96273024ed1146299f815f9ade02a1e244e859b7511bea67133fda
       proposed_primary_category: skills
       disagreement: false
-      decision_reason: The primary artifact is a registry and directory of reusable agent skills in the SKILL.md format, which fits the 'Agent Skills' category.
+      decision_reason: >-
+        The primary artifact is a registry and directory of reusable agent skills in the SKILL.md format, which fits the
+        'Agent Skills' category.
       decision_evidence:
         - The site explicitly describes itself as an 'Agent Skills Marketplace' for the open SKILL.md ecosystem
         - It aggregates and indexes 1.2M+ skills from GitHub, compatible with Claude Code, Codex CLI, and ChatGPT
@@ -94,6 +105,8 @@ processing:
       category_candidates:
         - skills
         - awesome-awesomes
-      contrastive_reason: Choose skills over awesome-awesomes because the product is a functional registry and marketplace for skills, not just a curated list or directory.
+      contrastive_reason: >-
+        Choose skills over awesome-awesomes because the product is a functional registry and marketplace for skills, not
+        just a curated list or directory.
       review_reason: null
       review_resume_lifecycle: null

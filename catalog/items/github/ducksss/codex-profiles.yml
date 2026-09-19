@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ducksss__codex-profiles__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-06-18T05:40:04.065Z"
+      discovered_at: '2026-06-18T05:40:04.065Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Agent infrastructure
         anchor_text: codex-profiles
         extracted_url: https://github.com/ducksss/codex-profiles
-        surrounding_text: "- **[codex-profiles](https://github.com/Ducksss/codex-profiles)** `⭐ 26` — Bash CLI helper for switching OpenAI Codex CLI/Desktop accounts via isolated `CODEX_HOME` profiles; Homebrew install with `brew install Ducksss/tap/codex-profile`. MIT, no token copying."
+        surrounding_text: >-
+          - **[codex-profiles](https://github.com/Ducksss/codex-profiles)** `⭐ 26` — Bash CLI helper for switching
+          OpenAI Codex CLI/Desktop accounts via isolated `CODEX_HOME` profiles; Homebrew install with `brew install
+          Ducksss/tap/codex-profile`. MIT, no token copying.
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: Ducksss/codex-profiles
     html_url: https://github.com/Ducksss/codex-profiles
-    created_at: "2026-04-25T06:39:30Z"
-    pushed_at: "2026-09-13T17:57:39Z"
+    created_at: '2026-04-25T06:39:30Z'
+    pushed_at: '2026-09-13T17:57:39Z'
     description: Named CODEX_HOME profiles and ChatGPT Desktop windows with separate local state, without copying tokens
     homepage: https://ducksss.github.io/codex-profiles/
     topics:
@@ -55,14 +58,20 @@ metadata:
       - productivity
       - shell-script
       - vibe-coding
-    last_checked_at: "2026-09-14T04:13:44.940Z"
+    last_checked_at: '2026-09-14T04:13:44.940Z'
     readme:
-      fetched_at: "2026-09-14T04:13:44.940Z"
+      fetched_at: '2026-09-14T04:13:44.940Z'
       bytes: 10559
 insights:
-  summary: A Bash wrapper that manages isolated CODEX_HOME profiles to separate auth tokens, settings, and state for multiple Codex accounts.
-  why_it_matters: Prevents identity leakage and config collisions when switching between work, personal, and client accounts without manually copying auth.json files.
-  mental_damage: The inevitable realization that we've reached the 'managing multiple AI personas' phase of our career, essentially treating LLM accounts like separate browser profiles for our professional identities.
+  summary: >-
+    A Bash wrapper that manages isolated CODEX_HOME profiles to separate auth tokens, settings, and state for multiple
+    Codex accounts.
+  why_it_matters: >-
+    Prevents identity leakage and config collisions when switching between work, personal, and client accounts without
+    manually copying auth.json files.
+  mental_damage: >-
+    The inevitable realization that we've reached the 'managing multiple AI personas' phase of our career, essentially
+    treating LLM accounts like separate browser profiles for our professional identities.
   tags:
     - cli
     - bash
@@ -72,31 +81,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool is a utility that augments the workflow of an existing coding agent (Codex) rather than being an assistant itself.
+  reason: >-
+    The tool is a utility that augments the workflow of an existing coding agent (Codex) rather than being an assistant
+    itself.
   evidence:
     - README describes it as a 'small command that keeps each account's Codex state separate'
     - It acts as a wrapper for the CODEX_HOME environment variable
     - The core value is workflow management (account switching) for another tool
 placement:
-  primary_category: ai-dev-extensions
-  section: IDE / UI / Workflow Add-ons
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: Claude Code & Agent Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-18T05:40:04.066Z"
+    updated_at: '2026-06-18T05:40:04.066Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:44.940Z"
+    updated_at: '2026-09-14T04:13:44.940Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-25T05:26:37.051Z"
+    updated_at: '2026-06-25T05:26:37.051Z'
     cause: null
     next_retry_at: null
     attempts: 1

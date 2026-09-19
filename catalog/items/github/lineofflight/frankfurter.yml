@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lineofflight__frankfurter__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Frankfurter API
         extracted_url: https://frankfurter.dev
-        surrounding_text: "- **[FrankfurterMCP](https://github.com/anirbanbasu/frankfurtermcp)** - MCP server acting as an interface to the [Frankfurter API](https://frankfurter.dev/) for currency exchange data."
+        surrounding_text: >-
+          - **[FrankfurterMCP](https://github.com/anirbanbasu/frankfurtermcp)** - MCP server acting as an interface to
+          the [Frankfurter API](https://frankfurter.dev/) for currency exchange data.
         confidence: high
 metadata:
   github:
@@ -29,8 +31,8 @@ metadata:
     archived: false
     full_name: lineofflight/frankfurter
     html_url: https://github.com/lineofflight/frankfurter
-    created_at: "2018-03-08T14:40:57Z"
-    pushed_at: "2026-07-23T12:33:31Z"
+    created_at: '2018-03-08T14:40:57Z'
+    pushed_at: '2026-07-23T12:33:31Z'
     description: 💱 Currency data API
     homepage: https://frankfurter.dev
     topics:
@@ -43,14 +45,20 @@ metadata:
       - forex
       - money
       - ruby
-    last_checked_at: "2026-07-30T05:06:06.085Z"
+    last_checked_at: '2026-07-30T05:06:06.085Z'
     readme:
-      fetched_at: "2026-07-30T05:06:06.085Z"
+      fetched_at: '2026-07-30T05:06:06.085Z'
       bytes: 2095
 insights:
-  summary: Frankfurter is an open-source currency data API that provides current and historical exchange rates sourced from central banks for 200+ currencies.
-  why_it_matters: Developers can self-host a free, zero-API-key exchange rate service or use the public instance to power financial features without vendor lock-in.
-  mental_damage: We now have MCP adapters for currency APIs, meaning your coding agent can panic about the euro-to-dollar rate while it hallucinates your LINQ queries.
+  summary: >-
+    Frankfurter is an open-source currency data API that provides current and historical exchange rates sourced from
+    central banks for 200+ currencies.
+  why_it_matters: >-
+    Developers can self-host a free, zero-API-key exchange rate service or use the public instance to power financial
+    features without vendor lock-in.
+  mental_damage: >-
+    We now have MCP adapters for currency APIs, meaning your coding agent can panic about the euro-to-dollar rate while
+    it hallucinates your LINQ queries.
   tags:
     - currency-api
     - self-hosted
@@ -59,35 +67,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: It is listed in awesome-mcp-servers as a community server exposing currency data via MCP, fitting the Domain Servers section.
+  reason: >-
+    It is listed in awesome-mcp-servers as a community server exposing currency data via MCP, fitting the Domain Servers
+    section.
   evidence:
     - Listed in awesome-mcp-servers under 'Community Servers' for currency exchange data.
     - Repo description identifies it as a 'Currency data API' with 1456 stars.
     - Active repository with latest push in 2026 and a public hosted API at frankfurter.dev.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: promotion_candidate
   reason: Stars (1456) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: '2026-05-06T22:12:15.627Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:06.085Z"
+    updated_at: '2026-07-30T05:06:06.085Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

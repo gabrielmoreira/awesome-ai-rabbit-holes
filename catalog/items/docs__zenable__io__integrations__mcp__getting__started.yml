@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__zenable__io__integrations__mcp__getting__started__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Official Servers
         anchor_text: Zenable
         extracted_url: https://docs.zenable.io/integrations/mcp/getting-started
-        surrounding_text: "- **[Zenable](https://docs.zenable.io/integrations/mcp/getting-started)** - Clean up sloppy AI code and prevent vulnerabilities"
+        surrounding_text: >-
+          - **[Zenable](https://docs.zenable.io/integrations/mcp/getting-started)** - Clean up sloppy AI code and
+          prevent vulnerabilities
         confidence: high
 metadata:
   github:
@@ -36,8 +38,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A governance platform and MCP server that automatically checks and improves code against organizational requirements and policies.
-  why_it_matters: It provides an automated way to enforce compliance and security guardrails directly within AI coding sessions via MCP.
+  summary: >-
+    A governance platform and MCP server that automatically checks and improves code against organizational requirements
+    and policies.
+  why_it_matters: >-
+    It provides an automated way to enforce compliance and security guardrails directly within AI coding sessions via
+    MCP.
   mental_damage: Nothing says 'eamless AI workflow' like a governance layer standing between you and your next commit.
   tags:
     - mcp
@@ -47,22 +53,21 @@ insights:
     - code-quality
   confidence: high
 curation:
-  status: included
-  reason: The product's primary identity is the Zenable MCP server which facilitates automated code checking via the Model Context Protocol.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Claims to be an MCP Server for IDEs via automated installer
-    - Purpose is to enable AI coding assistants to check code against requirements
-    - Found in awesome-mcp-servers as an Official Server
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: mcp
-  section: Generic Servers & Middleware
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +76,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:42:17.651Z"
+    updated_at: '2026-07-20T15:42:17.651Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +89,9 @@ processing:
       input_hash: sha256:7b0f0f857c3eacb4f3268dd9e77a38fd5977e97c4469cebb7fcae8b21e470a13
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's primary identity is the Zenable MCP server which facilitates automated code checking via the Model Context Protocol.
+      decision_reason: >-
+        The product's primary identity is the Zenable MCP server which facilitates automated code checking via the Model
+        Context Protocol.
       decision_evidence:
         - Claims to be an MCP Server for IDEs via automated installer
         - Purpose is to enable AI coding assistants to check code against requirements
@@ -92,6 +99,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's primary interface for the developer is the MCP server protocol itself rather than a standalone extension UI.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool's primary interface for the developer is the MCP server
+        protocol itself rather than a standalone extension UI.
       review_reason: null
       review_resume_lifecycle: null

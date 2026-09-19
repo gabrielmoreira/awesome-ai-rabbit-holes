@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ryan0204__github-repo-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: ryan0204/github-repo-mcp
         extracted_url: https://github.com/ryan0204/github-repo-mcp
-        surrounding_text: "- [ryan0204/github-repo-mcp](https://github.com/Ryan0204/github-repo-mcp) 📇 ☁️ 🪟 🐧 🍎 - GitHub Repo MCP allow your AI assistants browse GitHub repositories, explore directories, and view file contents."
+        surrounding_text: >-
+          - [ryan0204/github-repo-mcp](https://github.com/Ryan0204/github-repo-mcp) 📇 ☁️ 🪟 🐧 🍎 - GitHub Repo MCP
+          allow your AI assistants browse GitHub repositories, explore directories, and view file contents.
         confidence: high
 metadata:
   github:
@@ -30,10 +32,10 @@ metadata:
     archived: false
     full_name: Ryan0204/github-repo-mcp
     html_url: https://github.com/Ryan0204/github-repo-mcp
-    created_at: "2025-04-25T04:47:44Z"
-    pushed_at: "2025-04-25T23:34:52Z"
+    created_at: '2025-04-25T04:47:44Z'
+    pushed_at: '2025-04-25T23:34:52Z'
     description: Model Context Protocol server for Github Repo // Reading Github Repo
-    homepage: ""
+    homepage: ''
     topics:
       - github
       - github-mcp
@@ -41,14 +43,20 @@ metadata:
       - mcp
       - mcp-github
       - mcp-server
-    last_checked_at: "2026-07-20T16:42:49.346Z"
+    last_checked_at: '2026-07-20T16:42:49.346Z'
     readme:
-      fetched_at: "2026-07-20T16:42:49.346Z"
+      fetched_at: '2026-07-20T16:42:49.346Z'
       bytes: 5471
 insights:
-  summary: An open-source MCP server that lets AI assistants browse public GitHub repositories, navigate directories, and view file contents via the stdio protocol.
-  why_it_matters: It gives coding agents and IDEs direct, read-only access to remote repos without cloning, helping them inspect dependencies or reference codebases mid-conversation.
-  mental_damage: Yet another MCP server to add to your config, because apparently your agent still needs explicit permission to read the internet.
+  summary: >-
+    An open-source MCP server that lets AI assistants browse public GitHub repositories, navigate directories, and view
+    file contents via the stdio protocol.
+  why_it_matters: >-
+    It gives coding agents and IDEs direct, read-only access to remote repos without cloning, helping them inspect
+    dependencies or reference codebases mid-conversation.
+  mental_damage: >-
+    Yet another MCP server to add to your config, because apparently your agent still needs explicit permission to read
+    the internet.
   tags:
     - mcp
     - github
@@ -57,35 +65,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is clearly an MCP server for GitHub repository access, fitting the MCP Servers & Tooling category with a domain-specific focus.
+  reason: >-
+    The product identity is clearly an MCP server for GitHub repository access, fitting the MCP Servers & Tooling
+    category with a domain-specific focus.
   evidence:
-    - "Repo description states: 'Model Context Protocol server for Github Repo // Reading Github Repo'"
-    - "README explicitly says: 'GitHub Repo MCP is an open-source MCP server that lets your AI assistants browse GitHub repositories'"
+    - 'Repo description states: ''Model Context Protocol server for Github Repo // Reading Github Repo'''
+    - >-
+      README explicitly says: 'GitHub Repo MCP is an open-source MCP server that lets your AI assistants browse GitHub
+      repositories'
     - Listed in awesome-mcp-servers under 'Developer Tools' section
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.646Z"
+    updated_at: '2026-05-06T22:12:15.646Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:49.346Z"
+    updated_at: '2026-07-20T16:42:49.346Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

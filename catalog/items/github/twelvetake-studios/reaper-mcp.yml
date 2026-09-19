@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__twelvetake-studios__reaper-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: TwelveTake-Studios/reaper-mcp
         extracted_url: https://github.com/twelvetake-studios/reaper-mcp
-        surrounding_text: "- [TwelveTake-Studios/reaper-mcp](https://github.com/TwelveTake-Studios/reaper-mcp) 🐍 🏠 🍎 🪟 🐧 - MCP server enabling AI assistants to control REAPER DAW for mixing, mastering, MIDI composition, and full music production with 129 tools"
+        surrounding_text: >-
+          - [TwelveTake-Studios/reaper-mcp](https://github.com/TwelveTake-Studios/reaper-mcp) 🐍 🏠 🍎 🪟 🐧 - MCP
+          server enabling AI assistants to control REAPER DAW for mixing, mastering, MIDI composition, and full music
+          production with 129 tools
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: TwelveTake-Studios/reaper-mcp
     html_url: https://github.com/TwelveTake-Studios/reaper-mcp
-    created_at: "2025-12-11T14:22:29Z"
-    pushed_at: "2026-07-17T16:40:12Z"
-    description: MCP server to control REAPER DAW with AI. 176 tools for mixing, mastering, MIDI composition, and full music production.
+    created_at: '2025-12-11T14:22:29Z'
+    pushed_at: '2026-07-17T16:40:12Z'
+    description: >-
+      MCP server to control REAPER DAW with AI. 176 tools for mixing, mastering, MIDI composition, and full music
+      production.
     homepage: https://twelvetake.com
     topics:
       - ai
@@ -45,13 +50,17 @@ metadata:
       - model-context-protocol
       - music-production
       - reaper
-    last_checked_at: "2026-07-21T15:20:57.823Z"
+    last_checked_at: '2026-07-21T15:20:57.823Z'
     readme:
-      fetched_at: "2026-07-21T15:20:57.823Z"
+      fetched_at: '2026-07-21T15:20:57.823Z'
       bytes: 23030
 insights:
-  summary: An MCP server that lets AI assistants control REAPER DAW for music production workflows via Lua bridge and file-based communication.
-  why_it_matters: Enables developers who are also music producers to automate DAW tasks through AI, bridging coding assistants with audio production tools.
+  summary: >-
+    An MCP server that lets AI assistants control REAPER DAW for music production workflows via Lua bridge and
+    file-based communication.
+  why_it_matters: >-
+    Enables developers who are also music producers to automate DAW tasks through AI, bridging coding assistants with
+    audio production tools.
   mental_damage: Finally, an AI that can sidechain your kick to your bass while you pretend to be productive in your IDE.
   tags:
     - mcp
@@ -62,31 +71,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP-first server designed specifically to expose REAPER DAW functionality to AI assistants, making MCP its core identity rather than a compatibility layer.
+  reason: >-
+    The product is an MCP-first server designed specifically to expose REAPER DAW functionality to AI assistants, making
+    MCP its core identity rather than a compatibility layer.
   evidence:
-    - README describes it as 'a comprehensive Model Context Protocol (MCP) server that enables AI assistants to control REAPER DAW'
+    - >-
+      README describes it as 'a comprehensive Model Context Protocol (MCP) server that enables AI assistants to control
+      REAPER DAW'
     - Installation and usage instructions center around configuring an MCP server for AI assistant integration
     - Listed in 'awesome-mcp-servers' under Server Implementations > Art & Culture as an MCP server
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.653Z"
+    updated_at: '2026-05-06T22:12:15.653Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:57.823Z"
+    updated_at: '2026-07-21T15:20:57.823Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:17:00.573Z"
+    updated_at: '2026-05-12T15:17:00.573Z'
     cause: null
     next_retry_at: null
     attempts: 1

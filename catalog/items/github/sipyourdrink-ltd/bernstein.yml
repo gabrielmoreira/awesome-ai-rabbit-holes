@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sipyourdrink-ltd__bernstein__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,12 @@ provenance:
           - Orchestrators & autonomous loops
         anchor_text: Bernstein
         extracted_url: https://github.com/chernistry/bernstein
-        surrounding_text: "- **[Bernstein](https://github.com/chernistry/bernstein)** `⭐ 263` — Deterministic Python orchestrator — spawns parallel AI coding agents (Claude Code, Codex CLI, Gemini CLI), verifies with tests, auto-commits."
+        surrounding_text: >-
+          - **[Bernstein](https://github.com/chernistry/bernstein)** `⭐ 263` — Deterministic Python orchestrator —
+          spawns parallel AI coding agents (Claude Code, Codex CLI, Gemini CLI), verifies with tests, auto-commits.
         confidence: high
     - id: discovery__github__sipyourdrink-ltd__bernstein__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -36,10 +38,17 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: sipyourdrink-ltd/bernstein
         extracted_url: https://github.com/sipyourdrink-ltd/bernstein
-        surrounding_text: "- [sipyourdrink-ltd/bernstein](https://github.com/sipyourdrink-ltd/bernstein) [![sipyourdrink-ltd/bernstein MCP server](https://glama.ai/mcp/servers/chernistry/bernstein/badges/score.svg)](https://glama.ai/mcp/servers/chernistry/bernstein) 🐍 🏠 ☁️ 🍎 🪟 🐧 - Deterministic multi-agent orchestrator for 37 CLI coding agents (Claude Code, Codex, Cursor, Aider, Gemini CLI, GitHub Copilot CLI, OpenHands, OpenCode, Goose, Qwen, Ollama, and more). MCP server mode (stdio + HTTP/SSE) exposes the orchestrator to any MCP client. Git worktree isolation per agent, HMAC-chained audit trail, cost-aware model routing via contextual bandit. Apache 2.0."
+        surrounding_text: >-
+          - [sipyourdrink-ltd/bernstein](https://github.com/sipyourdrink-ltd/bernstein) [![sipyourdrink-ltd/bernstein
+          MCP
+          server](https://glama.ai/mcp/servers/chernistry/bernstein/badges/score.svg)](https://glama.ai/mcp/servers/chernistry/bernstein)
+          🐍 🏠 ☁️ 🍎 🪟 🐧 - Deterministic multi-agent orchestrator for 37 CLI coding agents (Claude Code, Codex,
+          Cursor, Aider, Gemini CLI, GitHub Copilot CLI, OpenHands, OpenCode, Goose, Qwen, Ollama, and more). MCP server
+          mode (stdio + HTTP/SSE) exposes the orchestrator to any MCP client. Git worktree isolation per agent,
+          HMAC-chained audit trail, cost-aware model routing via contextual bandit. Apache 2.0.
         confidence: high
     - id: discovery__github__sipyourdrink-ltd__bernstein__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-25T05:35:31.720Z"
+      discovered_at: '2026-05-25T05:35:31.720Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -51,10 +60,15 @@ provenance:
           - Code AI
         anchor_text: Bernstein
         extracted_url: https://github.com/sipyourdrink-ltd/bernstein
-        surrounding_text: "| [Bernstein](https://github.com/sipyourdrink-ltd/bernstein) | Deterministic Python orchestrator for 37 CLI coding agents (Claude Code, Codex CLI, Gemini CLI, GitHub Copilot CLI, Cursor, Aider, OpenHands, OpenCode, Goose, Qwen, Ollama, ...) running in parallel git worktrees. First-class MCP server, quality gates, cost tracking with budgets. | ![GitHub Badge](https://img.shields.io/github/stars/sipyourdrink-ltd/bernstein.svg?style=flat-square) |"
+        surrounding_text: >-
+          | [Bernstein](https://github.com/sipyourdrink-ltd/bernstein) | Deterministic Python orchestrator for 37 CLI
+          coding agents (Claude Code, Codex CLI, Gemini CLI, GitHub Copilot CLI, Cursor, Aider, OpenHands, OpenCode,
+          Goose, Qwen, Ollama, ...) running in parallel git worktrees. First-class MCP server, quality gates, cost
+          tracking with budgets. | ![GitHub
+          Badge](https://img.shields.io/github/stars/sipyourdrink-ltd/bernstein.svg?style=flat-square) |
         confidence: high
     - id: discovery__github__sipyourdrink-ltd__bernstein__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-08-17T04:19:08.737Z"
+      discovered_at: '2026-08-17T04:19:08.737Z'
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -66,7 +80,9 @@ provenance:
           - CLI Agent Harnesses
         anchor_text: Bernstein
         extracted_url: https://github.com/sipyourdrink-ltd/bernstein
-        surrounding_text: "| [Bernstein](https://github.com/sipyourdrink-ltd/bernstein) | 899 | Python | Apache-2.0 | 2026-08 | Deterministic orchestrator for 40+ CLI agents |"
+        surrounding_text: >-
+          | [Bernstein](https://github.com/sipyourdrink-ltd/bernstein) | 899 | Python | Apache-2.0 | 2026-08 |
+          Deterministic orchestrator for 40+ CLI agents |
         confidence: high
 metadata:
   github:
@@ -76,9 +92,12 @@ metadata:
     archived: false
     full_name: sipyourdrink-ltd/bernstein
     html_url: https://github.com/sipyourdrink-ltd/bernstein
-    created_at: "2026-03-22T14:52:26Z"
-    pushed_at: "2026-07-20T11:38:59Z"
-    description: Deterministic, verifiable orchestration for CLI coding agents (Claude Code, Codex, Gemini CLI, +40 more). Reproducible parallel runs in git worktrees, signed lineage, byte-identical replay, opt-in HMAC audit chain, air-gap deploy. https://bernstein.run
+    created_at: '2026-03-22T14:52:26Z'
+    pushed_at: '2026-07-20T11:38:59Z'
+    description: >-
+      Deterministic, verifiable orchestration for CLI coding agents (Claude Code, Codex, Gemini CLI, +40 more).
+      Reproducible parallel runs in git worktrees, signed lineage, byte-identical replay, opt-in HMAC audit chain,
+      air-gap deploy. https://bernstein.run
     homepage: https://bernstein.run
     topics:
       - agent-orchestrator
@@ -101,14 +120,20 @@ metadata:
       - provenance
       - python
       - reproducibility
-    last_checked_at: "2026-07-20T16:42:58.310Z"
+    last_checked_at: '2026-07-20T16:42:58.310Z'
     readme:
-      fetched_at: "2026-07-20T16:42:58.310Z"
+      fetched_at: '2026-07-20T16:42:58.310Z'
       bytes: 62742
 insights:
-  summary: A deterministic CLI orchestrator that splits development goals across 30+ AI coding agents in parallel, using git worktree isolation and an HMAC audit trail.
-  why_it_matters: Developers can delegate full features to a swarm of isolated agents and return only when tested, merged code is ready, without wiring multiple CLIs by hand.
-  mental_damage: You’ve successfully automated yourself out of the coding loop, yet somehow you’re still on call when the swarm’s four-agent JWT implementation quietly disagrees with your auth spec.
+  summary: >-
+    A deterministic CLI orchestrator that splits development goals across 30+ AI coding agents in parallel, using git
+    worktree isolation and an HMAC audit trail.
+  why_it_matters: >-
+    Developers can delegate full features to a swarm of isolated agents and return only when tested, merged code is
+    ready, without wiring multiple CLIs by hand.
+  mental_damage: >-
+    You’ve successfully automated yourself out of the coding loop, yet somehow you’re still on call when the swarm’s
+    four-agent JWT implementation quietly disagrees with your auth spec.
   tags:
     - multi-agent
     - cli
@@ -118,35 +143,45 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product is a runtime platform that coordinates multiple coding agents, tasks, and workflows with deterministic scheduling, git isolation, and audit trails, fitting agent orchestration over single-agent or extension categories.
+  reason: >-
+    The core product is a runtime platform that coordinates multiple coding agents, tasks, and workflows with
+    deterministic scheduling, git isolation, and audit trails, fitting agent orchestration over single-agent or
+    extension categories.
   evidence:
-    - Repo description explicitly calls it a 'Deterministic orchestrator for 30+ CLI AI coding agents' with git worktree isolation and MCP server mode.
-    - README states it 'splits the work across several AI coding agents… runs the tests, and merges the code that actually passes' using a deterministic runtime rather than an LLM scheduler.
-    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous loops', reinforcing its orchestration identity.
+    - >-
+      Repo description explicitly calls it a 'Deterministic orchestrator for 30+ CLI AI coding agents' with git worktree
+      isolation and MCP server mode.
+    - >-
+      README states it 'splits the work across several AI coding agents… runs the tests, and merges the code that
+      actually passes' using a deterministic runtime rather than an LLM scheduler.
+    - >-
+      Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous loops',
+      reinforcing its orchestration identity.
 placement:
   primary_category: agent-orchestration
-  section: Multi-Agent Runtime Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (281) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-08-17T04:19:08.739Z"
+    updated_at: '2026-08-17T04:19:08.739Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:58.310Z"
+    updated_at: '2026-07-20T16:42:58.310Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

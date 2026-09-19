@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__devin__ai__desktop__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-06-04T05:40:27.160Z"
+      discovered_at: '2026-06-04T05:40:27.160Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,12 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Windsurf
         extracted_url: https://windsurf.com
-        surrounding_text: "- **[Windsurf](https://windsurf.com/)** – AI code editor with Cascade, a deep contextual coding agent that goes beyond autocompletion."
+        surrounding_text: >-
+          - **[Windsurf](https://windsurf.com/)** – AI code editor with Cascade, a deep contextual coding agent that
+          goes beyond autocompletion.
         confidence: high
     - id: discovery__devin__ai__desktop__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-06-04T05:40:27.160Z"
+      discovered_at: '2026-06-04T05:40:27.160Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -49,9 +51,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A coding environment and control plane for managing fleets of local and cloud-based AI agents from a single interface.
-  why_it_matters: It allows developers to coordinate multiple agents across shared context and Git worktrees without switching between a chat window and their IDE.
-  mental_damage: The transition from 'my AI assistant' to 'managing a fleet of agents' suggests we've moved from being developers to being middle managers for a team of hallucinating interns.
+  summary: >-
+    A coding environment and control plane for managing fleets of local and cloud-based AI agents from a single
+    interface.
+  why_it_matters: >-
+    It allows developers to coordinate multiple agents across shared context and Git worktrees without switching between
+    a chat window and their IDE.
+  mental_damage: >-
+    The transition from 'my AI assistant' to 'managing a fleet of agents' suggests we've moved from being developers to
+    being middle managers for a team of hallucinating interns.
   tags:
     - ide
     - multi-agent
@@ -61,21 +69,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: While it includes an IDE, the primary product identity is now a 'command center' for orchestrating fleets of agents with shared context and monitoring.
+  reason: >-
+    While it includes an IDE, the primary product identity is now a 'command center' for orchestrating fleets of agents
+    with shared context and monitoring.
   evidence:
     - Site explicitly states 'Devin Desktop is the new name for Windsurf' and focuses on the 'Agent Command Center'.
     - Key value prop is 'Manage fleets of local and cloud agents from one surface'.
     - Features listed include Kanban views and multi-agent management with shared 'Spaces' for context.
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-04T05:40:27.161Z"
+    updated_at: '2026-06-04T05:40:27.161Z'
     cause: null
     next_retry_at: null
   stars:
@@ -84,7 +95,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-06-04T05:42:34.205Z"
+    updated_at: '2026-06-04T05:42:34.205Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

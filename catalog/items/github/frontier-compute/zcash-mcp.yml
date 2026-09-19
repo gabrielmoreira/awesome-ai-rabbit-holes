@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__frontier-compute__zcash-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: Frontier-Compute/zcash-mcp
         extracted_url: https://github.com/frontier-compute/zcash-mcp
-        surrounding_text: "- [Frontier-Compute/zcash-mcp](https://github.com/Frontier-Compute/zcash-mcp) [![Frontier-Compute/zcash-mcp MCP server](https://glama.ai/mcp/servers/Frontier-Compute/zcash-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Frontier-Compute/zcash-mcp) 📇 ☁️ - Zcash shielded operations for AI agents. Chain queries, memo decoding, on-chain attestation, and proof verification."
+        surrounding_text: >-
+          - [Frontier-Compute/zcash-mcp](https://github.com/Frontier-Compute/zcash-mcp) [![Frontier-Compute/zcash-mcp
+          MCP
+          server](https://glama.ai/mcp/servers/Frontier-Compute/zcash-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Frontier-Compute/zcash-mcp)
+          📇 ☁️ - Zcash shielded operations for AI agents. Chain queries, memo decoding, on-chain attestation, and proof
+          verification.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: Frontier-Compute/zcash-mcp
     html_url: https://github.com/Frontier-Compute/zcash-mcp
-    created_at: "2026-04-02T22:18:48Z"
-    pushed_at: "2026-08-23T09:53:54Z"
+    created_at: '2026-04-02T22:18:48Z'
+    pushed_at: '2026-08-23T09:53:54Z'
     description: ZAP1 attestation and proof-verification MCP for Zcash agents. Attestation layer, not a wallet.
     homepage: https://pay.frontiercompute.io
     topics:
@@ -47,14 +52,18 @@ metadata:
       - typescript
       - zap1
       - zcash
-    last_checked_at: "2026-09-03T05:16:44.239Z"
+    last_checked_at: '2026-09-03T05:16:44.239Z'
     readme:
-      fetched_at: "2026-09-03T05:16:44.239Z"
+      fetched_at: '2026-09-03T05:16:44.239Z'
       bytes: 12419
 insights:
   summary: An MCP server that implements the ZAP1 attestation and proof-verification layer for Zcash-based AI agent workflows.
-  why_it_matters: It allows developers to build agents that provide cryptographically verifiable receipts for actions, reducing the need to trust the underlying server.
-  mental_damage: Because we have officially reached the point where agents need Merkle proofs just to convince us they actually did what they said they did.
+  why_it_matters: >-
+    It allows developers to build agents that provide cryptographically verifiable receipts for actions, reducing the
+    need to trust the underlying server.
+  mental_damage: >-
+    Because we have officially reached the point where agents need Merkle proofs just to convince us they actually did
+    what they said they did.
   tags:
     - mcp
     - zcash
@@ -64,31 +73,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server providing a specialized domain-specific protocol (ZAP1) to AI agents.
+  reason: >-
+    The project's primary identity is an MCP server providing a specialized domain-specific protocol (ZAP1) to AI
+    agents.
   evidence:
     - Repo description identifies it as 'ZAP1 attestation and proof-verification MCP for Zcash agents'
     - README explicitly defines its role as an MCP server exposing the ZAP1 attestation layer
     - The tool focuses on protocol-specific capabilities like attest, anchor, prove, and verify via MCP
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: '2026-05-06T22:12:15.615Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:44.239Z"
+    updated_at: '2026-09-03T05:16:44.239Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-03T05:19:22.935Z"
+    updated_at: '2026-09-03T05:19:22.935Z'
     cause: null
     next_retry_at: null
     attempts: 4
@@ -101,7 +113,9 @@ processing:
       input_hash: sha256:7f538dbb76dcd87f985ed269b39083ad574fba4b6306dad265706cd8a741dcbc
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's primary identity is an MCP server providing a specialized domain-specific protocol (ZAP1) to AI agents.
+      decision_reason: >-
+        The project's primary identity is an MCP server providing a specialized domain-specific protocol (ZAP1) to AI
+        agents.
       decision_evidence:
         - Repo description identifies it as 'ZAP1 attestation and proof-verification MCP for Zcash agents'
         - README explicitly defines its role as an MCP server exposing the ZAP1 attestation layer
@@ -109,6 +123,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's identity is an MCP-native server implementing a specific protocol rather than a general workflow augmentation for a coding assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's identity is an MCP-native server implementing a specific
+        protocol rather than a general workflow augmentation for a coding assistant.
       review_reason: null
       review_resume_lifecycle: null

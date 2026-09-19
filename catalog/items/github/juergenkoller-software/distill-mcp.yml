@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__juergenkoller-software__distill-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 📂 <a name="file-systems"></a>File Systems
         anchor_text: juergenkoller-software/distill-mcp
         extracted_url: https://github.com/juergenkoller-software/distill-mcp
-        surrounding_text: "- [juergenkoller-software/distill-mcp](https://github.com/juergenkoller-software/distill-mcp) [![juergenkoller-software/distill-mcp MCP server](https://glama.ai/mcp/servers/juergenkoller-software/distill-mcp/badges/score.svg)](https://glama.ai/mcp/servers/juergenkoller-software/distill-mcp) 🏠 🍎 - MCP bridge for [Distill](https://store.juergenkoller.software/en/apps/distill) — AI file renamer that analyzes content (PDF/OCR/Office/email/media) and renames files with descriptive names. Five AI providers (Claude, OpenAI, Gemini, Ollama, Apple Intelligence), pay-per-use credits, folder monitoring, 9 MCP tools."
+        surrounding_text: >-
+          - [juergenkoller-software/distill-mcp](https://github.com/juergenkoller-software/distill-mcp)
+          [![juergenkoller-software/distill-mcp MCP
+          server](https://glama.ai/mcp/servers/juergenkoller-software/distill-mcp/badges/score.svg)](https://glama.ai/mcp/servers/juergenkoller-software/distill-mcp)
+          🏠 🍎 - MCP bridge for [Distill](https://store.juergenkoller.software/en/apps/distill) — AI file renamer that
+          analyzes content (PDF/OCR/Office/email/media) and renames files with descriptive names. Five AI providers
+          (Claude, OpenAI, Gemini, Ollama, Apple Intelligence), pay-per-use credits, folder monitoring, 9 MCP tools.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: juergenkoller-software/distill-mcp
     html_url: https://github.com/juergenkoller-software/distill-mcp
-    created_at: "2026-05-25T08:19:39Z"
-    pushed_at: "2026-06-08T10:51:57Z"
-    description: "Open-source MCP server bridge for Distill — let Claude/Cursor rename your files based on content (AI: Claude/OpenAI/Gemini/Ollama/Apple)."
+    created_at: '2026-05-25T08:19:39Z'
+    pushed_at: '2026-06-08T10:51:57Z'
+    description: >-
+      Open-source MCP server bridge for Distill — let Claude/Cursor rename your files based on content (AI:
+      Claude/OpenAI/Gemini/Ollama/Apple).
     homepage: https://store.juergenkoller.software/en/apps/distill
     topics:
       - ai
@@ -49,14 +57,20 @@ metadata:
       - ocr
       - stdio
       - swift
-    last_checked_at: "2026-07-30T05:05:52.974Z"
+    last_checked_at: '2026-07-30T05:05:52.974Z'
     readme:
-      fetched_at: "2026-07-30T05:05:52.974Z"
+      fetched_at: '2026-07-30T05:05:52.974Z'
       bytes: 6676
 insights:
-  summary: An MCP server bridge that allows Claude and Cursor to rename files automatically based on their content using the Distill macOS app.
-  why_it_matters: It enables AI agents to manage file organization and naming conventions semantically, reducing the manual overhead of cleaning up messy directories.
-  mental_damage: Because delegating your file organization to an agent is the first step toward accepting your inevitable digital chaos.
+  summary: >-
+    An MCP server bridge that allows Claude and Cursor to rename files automatically based on their content using the
+    Distill macOS app.
+  why_it_matters: >-
+    It enables AI agents to manage file organization and naming conventions semantically, reducing the manual overhead
+    of cleaning up messy directories.
+  mental_damage: >-
+    Because delegating your file organization to an agent is the first step toward accepting your inevitable digital
+    chaos.
   tags:
     - mcp
     - macos
@@ -66,31 +80,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It serves as an integration layer that augments MCP-compatible assistants with file-renaming capabilities via a bridge to the Distill app.
+  reason: >-
+    It serves as an integration layer that augments MCP-compatible assistants with file-renaming capabilities via a
+    bridge to the Distill app.
   evidence:
     - The repository is explicitly described as a 'stdio→HTTP bridge' for the Distill macOS app
     - It exposes specific tools like `rename_files` and `suggest_names` to MCP clients
     - The actual AI processing and file analysis are handled by the Distill app, not the bridge itself
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: mcp
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-15T05:51:04.989Z"
+    updated_at: '2026-06-15T05:51:04.989Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:52.975Z"
+    updated_at: '2026-07-30T05:05:52.975Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-02T05:26:11.108Z"
+    updated_at: '2026-07-02T05:26:11.108Z'
     cause: null
     next_retry_at: null
     attempts: 1

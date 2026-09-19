@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bentoml__openllm__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,10 +20,14 @@ provenance:
           - ML Platforms
         anchor_text: OpenLLM
         extracted_url: https://github.com/bentoml/openllm
-        surrounding_text: "| [OpenLLM](https://github.com/bentoml/OpenLLM)           | An open platform for operating large language models (LLMs) in production. Fine-tune, serve, deploy, and monitor any LLMs with ease.                                                                                                                                                                                                                                                                                                                                      | ![GitHub Badge](https://img.shields.io/github/stars/bentoml/OpenLLM.svg?style=flat-square)         |"
+        surrounding_text: >-
+          | [OpenLLM](https://github.com/bentoml/OpenLLM)           | An open platform for operating large language
+          models (LLMs) in production. Fine-tune, serve, deploy, and monitor any LLMs with
+          ease.                                                                                                                                                                                                                                                                                                                                     
+          | ![GitHub Badge](https://img.shields.io/github/stars/bentoml/OpenLLM.svg?style=flat-square)         |
         confidence: high
     - id: discovery__github__bentoml__openllm__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -35,10 +39,13 @@ provenance:
           - Other LLM Frameworks
         anchor_text: OpenLLM
         extracted_url: https://github.com/bentoml/openllm
-        surrounding_text: "- [OpenLLM](https://github.com/bentoml/OpenLLM): An open platform for operating large language models (LLMs) in production. Fine-tune, serve, deploy, and monitor any LLMs with ease using OpenLLM. ![GitHub Repo stars](https://img.shields.io/github/stars/bentoml/OpenLLM?style=social)"
+        surrounding_text: >-
+          - [OpenLLM](https://github.com/bentoml/OpenLLM): An open platform for operating large language models (LLMs)
+          in production. Fine-tune, serve, deploy, and monitor any LLMs with ease using OpenLLM. ![GitHub Repo
+          stars](https://img.shields.io/github/stars/bentoml/OpenLLM?style=social)
         confidence: high
     - id: discovery__github__bentoml__openllm__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -50,7 +57,9 @@ provenance:
           - 推理 Inference
         anchor_text: OpenLLM
         extracted_url: https://github.com/bentoml/openllm
-        surrounding_text: "38. [OpenLLM](https://github.com/bentoml/OpenLLM): Run any open-source LLMs, such as Llama 3.1, Gemma, as OpenAI compatible API endpoint in the cloud."
+        surrounding_text: >-
+          38. [OpenLLM](https://github.com/bentoml/OpenLLM): Run any open-source LLMs, such as Llama 3.1, Gemma, as
+          OpenAI compatible API endpoint in the cloud.
         confidence: high
 metadata:
   github:
@@ -60,8 +69,8 @@ metadata:
     archived: false
     full_name: bentoml/OpenLLM
     html_url: https://github.com/bentoml/OpenLLM
-    created_at: "2023-04-19T00:27:52Z"
-    pushed_at: "2026-08-31T17:05:01Z"
+    created_at: '2023-04-19T00:27:52Z'
+    pushed_at: '2026-08-31T17:05:01Z'
     description: Run any open-source LLMs, such as DeepSeek and Llama, as OpenAI compatible API endpoint in the cloud.
     homepage: https://bentoml.com
     topics:
@@ -83,13 +92,15 @@ metadata:
       - open-source-llm
       - openllm
       - vicuna
-    last_checked_at: "2026-09-07T04:13:32.597Z"
+    last_checked_at: '2026-09-07T04:13:32.597Z'
     readme:
-      fetched_at: "2026-09-07T04:13:32.597Z"
+      fetched_at: '2026-09-07T04:13:32.597Z'
       bytes: 10682
 insights:
   summary: A tool to run any open-source LLM as an OpenAI-compatible API endpoint, with support for cloud deployment.
-  why_it_matters: Developers can self-host and serve state-of-the-art open models (Llama, Mistral, Qwen, etc.) with a single command, enabling local or cloud-based inference without vendor lock-in.
+  why_it_matters: >-
+    Developers can self-host and serve state-of-the-art open models (Llama, Mistral, Qwen, etc.) with a single command,
+    enabling local or cloud-based inference without vendor lock-in.
   mental_damage: Finally, a way to spin up a Llama server without pretending you understand CUDA memory allocation.
   tags:
     - llm-serving
@@ -100,31 +111,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Core product identity is a local/self-hosted serving layer for LLMs, aligning with Local AI's focus on private, self-hosted execution.
+  reason: >-
+    Core product identity is a local/self-hosted serving layer for LLMs, aligning with Local AI's focus on private,
+    self-hosted execution.
   evidence:
-    - "Repo description: 'Run any open-source LLMs... as OpenAI compatible API endpoint in the cloud'"
-    - "README: 'OpenLLM allows developers to run any open-source LLMs... as OpenAI-compatible APIs with a single command'"
-    - "Source-list context: Listed under 'Large Scale Deployment > ML Platforms' in Awesome-LLMOps and 'Inference' in awesome-LLM-resources"
+    - 'Repo description: ''Run any open-source LLMs... as OpenAI compatible API endpoint in the cloud'''
+    - 'README: ''OpenLLM allows developers to run any open-source LLMs... as OpenAI-compatible APIs with a single command'''
+    - >-
+      Source-list context: Listed under 'Large Scale Deployment > ML Platforms' in Awesome-LLMOps and 'Inference' in
+      awesome-LLM-resources
 placement:
   primary_category: local-ai
-  section: Local Serving / APIs
+  secondary_categories: []
+  section: Local API Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (12311) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.576Z"
+    updated_at: '2026-05-06T22:12:15.576Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:32.597Z"
+    updated_at: '2026-09-07T04:13:32.597Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:25:43.807Z"
+    updated_at: '2026-07-21T15:25:43.807Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -137,14 +153,22 @@ processing:
       input_hash: sha256:3525d8bcdb38662953155cd36fee6424d51bd47a8618fdca58b2d1e505ae3ab4
       proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: Core product identity is a local/self-hosted serving layer for LLMs, aligning with Local AI's focus on private, self-hosted execution.
+      decision_reason: >-
+        Core product identity is a local/self-hosted serving layer for LLMs, aligning with Local AI's focus on private,
+        self-hosted execution.
       decision_evidence:
-        - "Repo description: 'Run any open-source LLMs... as OpenAI compatible API endpoint in the cloud'"
-        - "README: 'OpenLLM allows developers to run any open-source LLMs... as OpenAI-compatible APIs with a single command'"
-        - "Source-list context: Listed under 'Large Scale Deployment > ML Platforms' in Awesome-LLMOps and 'Inference' in awesome-LLM-resources"
+        - 'Repo description: ''Run any open-source LLMs... as OpenAI compatible API endpoint in the cloud'''
+        - >-
+          README: 'OpenLLM allows developers to run any open-source LLMs... as OpenAI-compatible APIs with a single
+          command'
+        - >-
+          Source-list context: Listed under 'Large Scale Deployment > ML Platforms' in Awesome-LLMOps and 'Inference' in
+          awesome-LLM-resources
       category_candidates:
         - local-ai
         - ai-frameworks
-      contrastive_reason: Choose local-ai over ai-frameworks because the primary value is self-hosted serving (runtime/infra) rather than code-first SDK usage.
+      contrastive_reason: >-
+        Choose local-ai over ai-frameworks because the primary value is self-hosted serving (runtime/infra) rather than
+        code-first SDK usage.
       review_reason: null
       review_resume_lifecycle: null

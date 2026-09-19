@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__blackwhite084__playwright-plus-python-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: blackwhite084/playwright-plus-python-mcp
         extracted_url: https://github.com/blackwhite084/playwright-plus-python-mcp
-        surrounding_text: "- [blackwhite084/playwright-plus-python-mcp](https://github.com/blackwhite084/playwright-plus-python-mcp) 🐍 - An MCP python server using Playwright for browser automation,more suitable for llm"
+        surrounding_text: >-
+          - [blackwhite084/playwright-plus-python-mcp](https://github.com/blackwhite084/playwright-plus-python-mcp) 🐍 -
+          An MCP python server using Playwright for browser automation,more suitable for llm
         confidence: high
     - id: discovery__github__blackwhite084__playwright-plus-python-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -33,9 +35,14 @@ provenance:
         mode: parsed
         section_path:
           - 📂 Browser Control
-        anchor_text: "@blackwhite084/playwright-plus-python-mcp"
+        anchor_text: '@blackwhite084/playwright-plus-python-mcp'
         extracted_url: https://github.com/blackwhite084/playwright-plus-python-mcp
-        surrounding_text: "-   **[@blackwhite084/playwright-plus-python-mcp](https://github.com/blackwhite084/playwright-plus-python-mcp)** [![GitHub stars](https://img.shields.io/github/stars/blackwhite084/playwright-plus-python-mcp?style=social)](https://github.com/blackwhite084/playwright-plus-python-mcp): Leverages Playwright via Python, optimized for large language models."
+        surrounding_text: >-
+          -  
+          **[@blackwhite084/playwright-plus-python-mcp](https://github.com/blackwhite084/playwright-plus-python-mcp)**
+          [![GitHub
+          stars](https://img.shields.io/github/stars/blackwhite084/playwright-plus-python-mcp?style=social)](https://github.com/blackwhite084/playwright-plus-python-mcp):
+          Leverages Playwright via Python, optimized for large language models.
         confidence: high
 metadata:
   github:
@@ -45,18 +52,20 @@ metadata:
     archived: false
     full_name: blackwhite084/playwright-plus-python-mcp
     html_url: https://github.com/blackwhite084/playwright-plus-python-mcp
-    created_at: "2025-01-04T08:23:58Z"
-    pushed_at: "2025-01-07T06:35:52Z"
+    created_at: '2025-01-04T08:23:58Z'
+    pushed_at: '2025-01-07T06:35:52Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:35.301Z"
+    last_checked_at: '2026-09-07T04:13:35.301Z'
     readme:
-      fetched_at: "2026-09-07T04:13:35.301Z"
+      fetched_at: '2026-09-07T04:13:35.301Z'
       bytes: 4198
 insights:
   summary: An MCP server that exposes Playwright browser automation tools for use with MCP-compatible clients.
-  why_it_matters: It lets developers control browsers programmatically through the Model Context Protocol, enabling automated testing, scraping, or interaction within AI workflows.
+  why_it_matters: >-
+    It lets developers control browsers programmatically through the Model Context Protocol, enabling automated testing,
+    scraping, or interaction within AI workflows.
   mental_damage: Now your AI can click buttons for you—just like a junior dev, but with more YAML.
   tags:
     - mcp
@@ -66,31 +75,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose primary identity is providing Playwright browser automation tools via MCP.
+  reason: >-
+    The product is explicitly an MCP server whose primary identity is providing Playwright browser automation tools via
+    MCP.
   evidence:
     - README describes it as 'A MCP server with playwright tools'
     - Source lists categorize it under MCP servers (Browser Automation)
     - Implements MCP tools like playwright_navigate, playwright_screenshot, etc.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: promotion_candidate
   reason: Stars (185) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.583Z"
+    updated_at: '2026-05-06T22:12:15.583Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:35.301Z"
+    updated_at: '2026-09-07T04:13:35.301Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:26:14.107Z"
+    updated_at: '2026-07-21T15:26:14.107Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -103,7 +115,9 @@ processing:
       input_hash: sha256:44b0c040da906168271444e728e3b96ceb61294969552e1c74e7ca14222add4f
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server whose primary identity is providing Playwright browser automation tools via MCP.
+      decision_reason: >-
+        The product is explicitly an MCP server whose primary identity is providing Playwright browser automation tools
+        via MCP.
       decision_evidence:
         - README describes it as 'A MCP server with playwright tools'
         - Source lists categorize it under MCP servers (Browser Automation)
@@ -111,6 +125,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__coresignal-com__coresignal-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: Coresignal
         extracted_url: https://github.com/coresignal-com/coresignal-mcp
-        surrounding_text: "- **[Coresignal](https://github.com/Coresignal-com/coresignal-mcp/)** - Access comprehensive B2B data on companies, employees, and job postings for your LLMs and AI workflows."
+        surrounding_text: >-
+          - **[Coresignal](https://github.com/Coresignal-com/coresignal-mcp/)** - Access comprehensive B2B data on
+          companies, employees, and job postings for your LLMs and AI workflows.
         confidence: high
 metadata:
   github:
@@ -29,8 +31,8 @@ metadata:
     archived: false
     full_name: Coresignal-com/coresignal-mcp
     html_url: https://github.com/Coresignal-com/coresignal-mcp
-    created_at: "2025-05-22T13:22:21Z"
-    pushed_at: "2026-08-07T09:18:11Z"
+    created_at: '2025-05-22T13:22:21Z'
+    pushed_at: '2026-08-07T09:18:11Z'
     description: Coresignal MCP - fresh company, employee, and jobs records in real time
     homepage: https://coresignal.com
     topics:
@@ -41,13 +43,17 @@ metadata:
       - mcp
       - mcp-server
       - web-data
-    last_checked_at: "2026-09-14T04:13:29.901Z"
+    last_checked_at: '2026-09-14T04:13:29.901Z'
     readme:
-      fetched_at: "2026-09-14T04:13:29.901Z"
+      fetched_at: '2026-09-14T04:13:29.901Z'
       bytes: 11614
 insights:
-  summary: An MCP server that exposes Coresignal's B2B data APIs (companies, employees, job postings) to AI assistants via the Model Context Protocol.
-  why_it_matters: Lets developers query fresh multi-source B2B datasets directly from AI chat interfaces without leaving their workflow.
+  summary: >-
+    An MCP server that exposes Coresignal's B2B data APIs (companies, employees, job postings) to AI assistants via the
+    Model Context Protocol.
+  why_it_matters: >-
+    Lets developers query fresh multi-source B2B datasets directly from AI chat interfaces without leaving their
+    workflow.
   mental_damage: Now your AI can cold-call 74M companies for you, but you still have to explain to your manager why.
   tags:
     - mcp-server
@@ -57,31 +63,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server exposing domain-specific data APIs to AI assistants."
+  reason: 'MCP is the product identity: this is a dedicated MCP server exposing domain-specific data APIs to AI assistants.'
   evidence:
     - README explicitly describes it as an MCP server for Coresignal's data
     - Provides MCP client configuration and tool endpoints
     - Listed in awesome-mcp-servers under Official Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.609Z"
+    updated_at: '2026-05-06T22:12:15.609Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:29.901Z"
+    updated_at: '2026-09-14T04:13:29.901Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:48:13.791Z"
+    updated_at: '2026-07-21T15:48:13.791Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -94,7 +101,7 @@ processing:
       input_hash: sha256:27c9b871a1f02a5b300571c8aa8e51f9b8cb6d33ba07efd9be711bd148a67791
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing domain-specific data APIs to AI assistants."
+      decision_reason: 'MCP is the product identity: this is a dedicated MCP server exposing domain-specific data APIs to AI assistants.'
       decision_evidence:
         - README explicitly describes it as an MCP server for Coresignal's data
         - Provides MCP client configuration and tool endpoints
@@ -102,6 +109,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain data, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain data, not an
+        extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__codelogicincengineering__codelogic-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,14 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: CodeLogicIncEngineering/codelogic-mcp-server
         extracted_url: https://github.com/codelogicincengineering/codelogic-mcp-server
-        surrounding_text: "- [CodeLogicIncEngineering/codelogic-mcp-server](https://github.com/CodeLogicIncEngineering/codelogic-mcp-server) 🎖️ 🐍 ☁️ 🍎 🪟 🐧 - Official MCP server for CodeLogic, providing access to code dependency analytics, architectural risk analysis, and impact assessment tools."
+        surrounding_text: >-
+          -
+          [CodeLogicIncEngineering/codelogic-mcp-server](https://github.com/CodeLogicIncEngineering/codelogic-mcp-server)
+          🎖️ 🐍 ☁️ 🍎 🪟 🐧 - Official MCP server for CodeLogic, providing access to code dependency analytics,
+          architectural risk analysis, and impact assessment tools.
         confidence: high
     - id: discovery__github__lineai-intelligence__lineai-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-08-10T04:35:51.194Z"
+      discovered_at: '2026-08-10T04:35:51.194Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -36,7 +40,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: CodeLogicIncEngineering/codelogic-mcp-server
         extracted_url: https://github.com/codelogicincengineering/codelogic-mcp-server
-        surrounding_text: "- [CodeLogicIncEngineering/codelogic-mcp-server](https://github.com/CodeLogicIncEngineering/codelogic-mcp-server) 🎖️ 🐍 ☁️ 🍎 🪟 🐧 - Official MCP server for CodeLogic, providing access to code dependency analytics, architectural risk analysis, and impact assessment tools."
+        surrounding_text: >-
+          -
+          [CodeLogicIncEngineering/codelogic-mcp-server](https://github.com/CodeLogicIncEngineering/codelogic-mcp-server)
+          🎖️ 🐍 ☁️ 🍎 🪟 🐧 - Official MCP server for CodeLogic, providing access to code dependency analytics,
+          architectural risk analysis, and impact assessment tools.
         confidence: high
 metadata:
   github:
@@ -46,8 +54,8 @@ metadata:
     archived: false
     full_name: lineai-intelligence/lineai-mcp-server
     html_url: https://github.com/lineai-intelligence/lineai-mcp-server
-    created_at: "2025-04-02T13:11:29Z"
-    pushed_at: "2026-08-07T12:15:51Z"
+    created_at: '2025-04-02T13:11:29Z'
+    pushed_at: '2026-08-07T12:15:51Z'
     description: An MCP Server to utilize Lineai's rich software dependency data in your AI programming assistant.
     homepage: https://codelogic.com/
     topics:
@@ -56,14 +64,18 @@ metadata:
       - coding
       - developer-tools
       - mcp-server
-    last_checked_at: "2026-08-10T04:36:08.246Z"
+    last_checked_at: '2026-08-10T04:36:08.246Z'
     readme:
-      fetched_at: "2026-08-10T04:36:08.246Z"
+      fetched_at: '2026-08-10T04:36:08.246Z'
       bytes: 17237
 insights:
   summary: An MCP server that exposes CodeLogic's software dependency graph and impact analysis to AI programming assistants.
-  why_it_matters: It lets AI assistants query detailed code-to-database dependencies and impact paths before editing, reducing the risk of breaking changes in complex systems.
-  mental_damage: Your AI assistant can now calculate the exact blast radius of a refactor across your monolith, provided you maintain a separate enterprise dependency graph just to keep it informed.
+  why_it_matters: >-
+    It lets AI assistants query detailed code-to-database dependencies and impact paths before editing, reducing the
+    risk of breaking changes in complex systems.
+  mental_damage: >-
+    Your AI assistant can now calculate the exact blast radius of a refactor across your monolith, provided you maintain
+    a separate enterprise dependency graph just to keep it informed.
   tags:
     - ai-assistants
     - code-graph
@@ -73,21 +85,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server implementation; MCP is its distribution format and primary identity, fitting the canonical shape of domain-specific MCP servers like github-mcp-server.
+  reason: >-
+    The product is explicitly an MCP server implementation; MCP is its distribution format and primary identity, fitting
+    the canonical shape of domain-specific MCP servers like github-mcp-server.
   evidence:
     - Repo name and description position it as 'An MCP Server' for CodeLogic data.
     - README details eleven MCP tools and stdio server configuration for Cursor, not a standalone assistant.
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:45:04.355Z"
+    updated_at: '2026-07-21T15:45:04.355Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -100,7 +115,9 @@ processing:
       input_hash: sha256:04403fa5012b8876793cca780dfdf12751b1993adb32fc5166360a7520a5e923
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server implementation; MCP is its distribution format and primary identity, fitting the canonical shape of domain-specific MCP servers like github-mcp-server.
+      decision_reason: >-
+        The product is explicitly an MCP server implementation; MCP is its distribution format and primary identity,
+        fitting the canonical shape of domain-specific MCP servers like github-mcp-server.
       decision_evidence:
         - Repo name and description position it as 'An MCP Server' for CodeLogic data.
         - README details eleven MCP tools and stdio server configuration for Cursor, not a standalone assistant.
@@ -108,16 +125,18 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the artifact itself is an MCP server implementation with MCP as its product identity, not merely an augmentation layer for a specific host editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the artifact itself is an MCP server implementation with MCP as its
+        product identity, not merely an augmentation layer for a specific host editor.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-08-10T04:35:51.195Z"
+    updated_at: '2026-08-10T04:35:51.195Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-10T04:36:08.246Z"
+    updated_at: '2026-08-10T04:36:08.246Z'
     cause: null
     next_retry_at: null

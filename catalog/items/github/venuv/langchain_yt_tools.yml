@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__venuv__langchain_yt_tools__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,7 +20,10 @@ provenance:
           - Other / Chatbots
         anchor_text: langchain_yt_tools
         extracted_url: https://github.com/venuv/langchain_yt_tools
-        surrounding_text: "- [langchain_yt_tools](https://github.com/venuv/langchain_yt_tools): Langchain tools to search/extract/transcribe text transcripts of Youtube videos ![GitHub Repo stars](https://img.shields.io/github/stars/venuv/langchain_yt_tools?style=social)"
+        surrounding_text: >-
+          - [langchain_yt_tools](https://github.com/venuv/langchain_yt_tools): Langchain tools to
+          search/extract/transcribe text transcripts of Youtube videos ![GitHub Repo
+          stars](https://img.shields.io/github/stars/venuv/langchain_yt_tools?style=social)
         confidence: high
 metadata:
   github:
@@ -30,19 +33,27 @@ metadata:
     archived: false
     full_name: venuv/langchain_yt_tools
     html_url: https://github.com/venuv/langchain_yt_tools
-    created_at: "2023-05-02T17:25:03Z"
-    pushed_at: "2023-06-28T15:54:33Z"
-    description: Langchain tools to search/extract/transcribe text transcripts of Youtube videos. Some of this has been integrated into LangChain main branch
-    homepage: ""
+    created_at: '2023-05-02T17:25:03Z'
+    pushed_at: '2023-06-28T15:54:33Z'
+    description: >-
+      Langchain tools to search/extract/transcribe text transcripts of Youtube videos. Some of this has been integrated
+      into LangChain main branch
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-21T15:21:02.674Z"
+    last_checked_at: '2026-07-21T15:21:02.674Z'
     readme:
-      fetched_at: "2026-07-21T15:21:02.674Z"
+      fetched_at: '2026-07-21T15:21:02.674Z'
       bytes: 998
 insights:
-  summary: Langchain_yt_tools provides two custom LangChain tools for searching YouTube videos by person name and transcribing them to text.
-  why_it_matters: It lets developers quickly pull video transcripts into LangChain workflows for RAG, summarization, or content analysis without leaving their Python environment.
-  mental_damage: Another niche wrapper that makes you wonder if you'll spend more time maintaining the tool than actually transcribing videos.
+  summary: >-
+    Langchain_yt_tools provides two custom LangChain tools for searching YouTube videos by person name and transcribing
+    them to text.
+  why_it_matters: >-
+    It lets developers quickly pull video transcripts into LangChain workflows for RAG, summarization, or content
+    analysis without leaving their Python environment.
+  mental_damage: >-
+    Another niche wrapper that makes you wonder if you'll spend more time maintaining the tool than actually
+    transcribing videos.
   tags:
     - langchain
     - youtube
@@ -50,31 +61,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The tool is a pair of LangChain utilities that function as reusable building blocks for developers building AI workflows, not a standalone assistant or end-user app.
+  reason: >-
+    The tool is a pair of LangChain utilities that function as reusable building blocks for developers building AI
+    workflows, not a standalone assistant or end-user app.
   evidence:
-    - "Repo description: 'Langchain tools to search/extract/transcribe text transcripts of Youtube videos'"
-    - "README: 'Consists of two custom LangChain tools, _CustomYTSearchTool_ and _CustomYTTranscribeTool_'"
-    - "Source-list context: listed in awesome-langchain under 'Open Source Projects > Other / Chatbots'"
+    - 'Repo description: ''Langchain tools to search/extract/transcribe text transcripts of Youtube videos'''
+    - 'README: ''Consists of two custom LangChain tools, _CustomYTSearchTool_ and _CustomYTTranscribeTool_'''
+    - 'Source-list context: listed in awesome-langchain under ''Open Source Projects > Other / Chatbots'''
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  secondary_categories: []
+  section: LLM & Agent SDKs
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.654Z"
+    updated_at: '2026-05-06T22:12:15.654Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:02.674Z"
+    updated_at: '2026-07-21T15:21:02.674Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:23:11.288Z"
+    updated_at: '2026-05-12T15:23:11.288Z'
     cause: null
     next_retry_at: null
     attempts: 1

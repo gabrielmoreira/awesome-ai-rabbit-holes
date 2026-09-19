@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__intentos-labs__beeper-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: intentos-labs/beeper-mcp
         extracted_url: https://github.com/intentos-labs/beeper-mcp
-        surrounding_text: "- [intentos-labs/beeper-mcp](https://github.com/intentos-labs/beeper-mcp) 🐍 - Beeper provides transactions on BSC, including balance/token transfers, token swaps in Pancakeswap and beeper reward claims."
+        surrounding_text: >-
+          - [intentos-labs/beeper-mcp](https://github.com/intentos-labs/beeper-mcp) 🐍 - Beeper provides transactions on
+          BSC, including balance/token transfers, token swaps in Pancakeswap and beeper reward claims.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: intentos-labs/beeper-mcp
     html_url: https://github.com/intentos-labs/beeper-mcp
-    created_at: "2025-04-09T08:08:41Z"
-    pushed_at: "2025-04-10T09:12:10Z"
+    created_at: '2025-04-09T08:08:41Z'
+    pushed_at: '2025-04-10T09:12:10Z'
     description: A backend service for executing beeper transactions on Binance Smart Chain
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:44.225Z"
+    last_checked_at: '2026-07-30T05:05:44.225Z'
     readme:
-      fetched_at: "2026-07-30T05:05:44.225Z"
+      fetched_at: '2026-07-30T05:05:44.225Z'
       bytes: 3590
 insights:
   summary: An MCP server that exposes Binance Smart Chain (BSC) blockchain operations as tools for AI assistants.
-  why_it_matters: Lets AI coding assistants directly interact with BSC for wallet management, token swaps, and reward claims without leaving the chat interface.
+  why_it_matters: >-
+    Lets AI coding assistants directly interact with BSC for wallet management, token swaps, and reward claims without
+    leaving the chat interface.
   mental_damage: Now your AI pair programmer can also day-trade your BNB while you debug.
   tags:
     - mcp
@@ -52,31 +56,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: it is a server exposing BSC operations as MCP tools for AI assistants."
+  reason: 'MCP is the product identity here: it is a server exposing BSC operations as MCP tools for AI assistants.'
   evidence:
     - Repo description explicitly calls it a backend service for BSC transactions
     - README shows it exposes MCP tools for wallet/token operations
     - Configuration examples target MCP server integration with Claude/Windsurf/Cursor
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.621Z"
+    updated_at: '2026-05-06T22:12:15.621Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:44.225Z"
+    updated_at: '2026-07-30T05:05:44.225Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:08:20.995Z"
+    updated_at: '2026-07-21T16:08:20.995Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +94,7 @@ processing:
       input_hash: sha256:d6238577af57597348636cd11ec355c0e684fbe1374e41b0b8f2700dbcc08065
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: it is a server exposing BSC operations as MCP tools for AI assistants."
+      decision_reason: 'MCP is the product identity here: it is a server exposing BSC operations as MCP tools for AI assistants.'
       decision_evidence:
         - Repo description explicitly calls it a backend service for BSC transactions
         - README shows it exposes MCP tools for wallet/token operations
@@ -97,6 +102,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific tools, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific tools, not
+        an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

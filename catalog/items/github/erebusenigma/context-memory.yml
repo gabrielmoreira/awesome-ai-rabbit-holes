@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__erebusenigma__context-memory__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: ErebusEnigma/context-memory
         extracted_url: https://github.com/erebusenigma/context-memory
-        surrounding_text: "- [ErebusEnigma/context-memory](https://github.com/ErebusEnigma/context-memory) 🐍 🏠 🍎 🪟 🐧 - Persistent, searchable context storage across Claude Code sessions using SQLite FTS5. Save sessions with AI-generated summaries, two-tier full-text search, checkpoint recovery, and a web dashboard."
+        surrounding_text: >-
+          - [ErebusEnigma/context-memory](https://github.com/ErebusEnigma/context-memory) 🐍 🏠 🍎 🪟 🐧 - Persistent,
+          searchable context storage across Claude Code sessions using SQLite FTS5. Save sessions with AI-generated
+          summaries, two-tier full-text search, checkpoint recovery, and a web dashboard.
         confidence: high
 metadata:
   github:
@@ -30,10 +33,10 @@ metadata:
     archived: false
     full_name: ErebusEnigma/context-memory
     html_url: https://github.com/ErebusEnigma/context-memory
-    created_at: "2026-02-12T08:12:38Z"
-    pushed_at: "2026-02-17T21:31:25Z"
+    created_at: '2026-02-12T08:12:38Z'
+    pushed_at: '2026-02-17T21:31:25Z'
     description: Persistent, searchable context storage across Claude Code sessions using SQLite + FTS5
-    homepage: ""
+    homepage: ''
     topics:
       - claude-code
       - claude-code-plugin
@@ -42,13 +45,17 @@ metadata:
       - memory
       - plugin
       - sqlite
-    last_checked_at: "2026-08-27T09:23:24.653Z"
+    last_checked_at: '2026-08-27T09:23:24.653Z'
     readme:
-      fetched_at: "2026-08-27T09:23:24.653Z"
+      fetched_at: '2026-08-27T09:23:24.653Z'
       bytes: 19538
 insights:
-  summary: Persistent, searchable context storage plugin for Claude Code that uses SQLite + FTS5 to maintain memory across sessions.
-  why_it_matters: Eliminates the need to re-explain context in every new Claude Code session by providing recallable, structured summaries of past work, decisions, and code patterns.
+  summary: >-
+    Persistent, searchable context storage plugin for Claude Code that uses SQLite + FTS5 to maintain memory across
+    sessions.
+  why_it_matters: >-
+    Eliminates the need to re-explain context in every new Claude Code session by providing recallable, structured
+    summaries of past work, decisions, and code patterns.
   mental_damage: Finally, a way to stop pretending you remember why you chose JWT over sessions three months ago.
   tags:
     - claude-code
@@ -61,29 +68,32 @@ curation:
   status: included
   reason: The core novelty is a memory and retrieval system for context persistence, not the host integration layer.
   evidence:
-    - Repo description explicitly states it is 'Persistent, searchable context storage across Claude Code sessions using SQLite + FTS5'
+    - >-
+      Repo description explicitly states it is 'Persistent, searchable context storage across Claude Code sessions using
+      SQLite + FTS5'
     - README emphasizes structured AI summaries, full-text search, and cross-session memory as primary features
     - Includes MCP server as a secondary feature, but memory system is the main product identity
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:24.653Z"
+    updated_at: '2026-08-27T09:23:24.653Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:52:40.974Z"
+    updated_at: '2026-07-21T15:52:40.974Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -98,12 +108,16 @@ processing:
       disagreement: false
       decision_reason: The core novelty is a memory and retrieval system for context persistence, not the host integration layer.
       decision_evidence:
-        - Repo description explicitly states it is 'Persistent, searchable context storage across Claude Code sessions using SQLite + FTS5'
+        - >-
+          Repo description explicitly states it is 'Persistent, searchable context storage across Claude Code sessions
+          using SQLite + FTS5'
         - README emphasizes structured AI summaries, full-text search, and cross-session memory as primary features
         - Includes MCP server as a secondary feature, but memory system is the main product identity
       category_candidates:
         - context-engineering
         - ai-dev-extensions
-      contrastive_reason: Choose context-engineering over ai-dev-extensions because the core novelty is memory and retrieval infrastructure rather than the Claude Code integration layer.
+      contrastive_reason: >-
+        Choose context-engineering over ai-dev-extensions because the core novelty is memory and retrieval
+        infrastructure rather than the Claude Code integration layer.
       review_reason: null
       review_resume_lifecycle: null

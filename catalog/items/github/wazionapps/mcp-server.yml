@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wazionapps__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,14 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: wazionapps/mcp-server
         extracted_url: https://github.com/wazionapps/mcp-server
-        surrounding_text: "- [wazionapps/mcp-server](https://github.com/wazionapps/mcp-server) [![wazion-mcp-server MCP server](https://glama.ai/mcp/servers/@wazionapps/wazion-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/@wazionapps/wazion-mcp-server) 📇 ☁️ - 244 WhatsApp Business tools: send messages, automate workflows, run campaigns, and manage CRM. Streamable HTTP + stdio."
+        surrounding_text: >-
+          - [wazionapps/mcp-server](https://github.com/wazionapps/mcp-server) [![wazion-mcp-server MCP
+          server](https://glama.ai/mcp/servers/@wazionapps/wazion-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/@wazionapps/wazion-mcp-server)
+          📇 ☁️ - 244 WhatsApp Business tools: send messages, automate workflows, run campaigns, and manage CRM.
+          Streamable HTTP + stdio.
         confidence: high
     - id: discovery__github__wazionapps__mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-09-17T04:13:23.413Z"
+      discovered_at: '2026-09-17T04:13:23.413Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -36,7 +40,10 @@ provenance:
           - 💬 Communication
         anchor_text: wazionapps/mcp-server
         extracted_url: https://github.com/wazionapps/mcp-server
-        surrounding_text: "-   **[wazionapps/mcp-server](https://github.com/wazionapps/mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/wazionapps/mcp-server?style=social)](https://github.com/wazionapps/mcp-server): WhatsApp Business AI tools for messaging, workflow automation, mass marketing, CRM, and Shopify integration."
+        surrounding_text: >-
+          -   **[wazionapps/mcp-server](https://github.com/wazionapps/mcp-server)** [![GitHub
+          stars](https://img.shields.io/github/stars/wazionapps/mcp-server?style=social)](https://github.com/wazionapps/mcp-server):
+          WhatsApp Business AI tools for messaging, workflow automation, mass marketing, CRM, and Shopify integration.
         confidence: high
 metadata:
   github:
@@ -46,8 +53,8 @@ metadata:
     archived: false
     full_name: wazionapps/mcp-server
     html_url: https://github.com/wazionapps/mcp-server
-    created_at: "2026-03-04T14:20:48Z"
-    pushed_at: "2026-03-16T20:22:16Z"
+    created_at: '2026-03-04T14:20:48Z'
+    pushed_at: '2026-03-16T20:22:16Z'
     description: WAzion MCP Server - Connect AI agents to WhatsApp via WAzion API. Smart copilot, 24/7 automation, mass marketing.
     homepage: https://wazion.com
     topics:
@@ -64,14 +71,20 @@ metadata:
       - wazion
       - whatsapp
       - whatsapp-business
-    last_checked_at: "2026-07-21T15:21:10.355Z"
+    last_checked_at: '2026-07-21T15:21:10.355Z'
     readme:
-      fetched_at: "2026-07-21T15:21:10.355Z"
+      fetched_at: '2026-07-21T15:21:10.355Z'
       bytes: 8765
 insights:
-  summary: WAzion MCP Server is an MCP-compatible server that exposes 240+ tools for managing WhatsApp Business operations via the WAzion API.
-  why_it_matters: It lets developers connect AI assistants to WhatsApp Business for automating messaging, CRM, and marketing workflows through natural language.
-  mental_damage: Another day, another MCP server wrapping a SaaS API—because what the world really needed was yet another way to let AI spam customers at scale.
+  summary: >-
+    WAzion MCP Server is an MCP-compatible server that exposes 240+ tools for managing WhatsApp Business operations via
+    the WAzion API.
+  why_it_matters: >-
+    It lets developers connect AI assistants to WhatsApp Business for automating messaging, CRM, and marketing workflows
+    through natural language.
+  mental_damage: >-
+    Another day, another MCP server wrapping a SaaS API—because what the world really needed was yet another way to let
+    AI spam customers at scale.
   tags:
     - mcp
     - whatsapp
@@ -79,31 +92,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server as its core identity, exposing WhatsApp Business tools via the Model Context Protocol, matching the MCP category’s focus on servers and tooling.
+  reason: >-
+    The product is an MCP server as its core identity, exposing WhatsApp Business tools via the Model Context Protocol,
+    matching the MCP category’s focus on servers and tooling.
   evidence:
-    - "Repo description: 'WAzion MCP Server - Connect AI agents to WhatsApp via WAzion API'"
-    - "README: 'This MCP server exposes 240+ tools that let any MCP-compatible client manage your WhatsApp Business operations through natural language'"
-    - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Communication"
+    - 'Repo description: ''WAzion MCP Server - Connect AI agents to WhatsApp via WAzion API'''
+    - >-
+      README: 'This MCP server exposes 240+ tools that let any MCP-compatible client manage your WhatsApp Business
+      operations through natural language'
+    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Communication'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-17T04:13:23.416Z"
+    updated_at: '2026-09-17T04:13:23.416Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:10.355Z"
+    updated_at: '2026-07-21T15:21:10.355Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:30:22.142Z"
+    updated_at: '2026-05-12T15:30:22.142Z'
     cause: null
     next_retry_at: null
     attempts: 1

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ambar__simctl-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: ambar/simctl-mcp
         extracted_url: https://github.com/ambar/simctl-mcp
-        surrounding_text: "- [ambar/simctl-mcp](https://github.com/ambar/simctl-mcp) 📇 🏠 🍎 A MCP server implementation for iOS Simulator control."
+        surrounding_text: >-
+          - [ambar/simctl-mcp](https://github.com/ambar/simctl-mcp) 📇 🏠 🍎 A MCP server implementation for iOS
+          Simulator control.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: ambar/simctl-mcp
     html_url: https://github.com/ambar/simctl-mcp
-    created_at: "2025-03-28T01:26:47Z"
-    pushed_at: "2025-08-22T05:31:46Z"
+    created_at: '2025-03-28T01:26:47Z'
+    pushed_at: '2025-08-22T05:31:46Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:42.777Z"
+    last_checked_at: '2026-09-17T04:13:42.777Z'
     readme:
-      fetched_at: "2026-09-17T04:13:42.777Z"
+      fetched_at: '2026-09-17T04:13:42.777Z'
       bytes: 2243
 insights:
   summary: An MCP server that exposes iOS Simulator control operations as tools for AI assistants.
-  why_it_matters: Lets AI coding assistants directly manipulate iOS simulators—booting devices, installing apps, managing permissions, or taking screenshots—without leaving the chat or editor.
+  why_it_matters: >-
+    Lets AI coding assistants directly manipulate iOS simulators—booting devices, installing apps, managing permissions,
+    or taking screenshots—without leaving the chat or editor.
   mental_damage: Now your AI can open shortcuts:// while you stare at your actual phone, wondering which one is the simulator.
   tags:
     - mcp
@@ -51,31 +55,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server exposing iOS Simulator capabilities as tools."
+  reason: 'MCP is the product identity: this is a dedicated MCP server exposing iOS Simulator capabilities as tools.'
   evidence:
     - README explicitly describes it as a Model Context Protocol server implementation for iOS Simulator control
     - Source-list context places it in awesome-mcp-servers under Server Implementations > Developer Tools
     - Provides concrete tooling for device/app management, permissions, and system features via MCP
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.602Z"
+    updated_at: '2026-05-06T22:12:15.602Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:42.777Z"
+    updated_at: '2026-09-17T04:13:42.777Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:22:32.715Z"
+    updated_at: '2026-07-21T15:22:32.715Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -88,7 +93,7 @@ processing:
       input_hash: sha256:887e62860371df18132db650e76e7106cebd40d9f4999aef388835551b8e9e66
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing iOS Simulator capabilities as tools."
+      decision_reason: 'MCP is the product identity: this is a dedicated MCP server exposing iOS Simulator capabilities as tools.'
       decision_evidence:
         - README explicitly describes it as a Model Context Protocol server implementation for iOS Simulator control
         - Source-list context places it in awesome-mcp-servers under Server Implementations > Developer Tools
@@ -96,6 +101,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server exposing domain capabilities, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server exposing domain capabilities, not
+        an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

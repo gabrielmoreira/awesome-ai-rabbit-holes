@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pullrequest__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,12 @@ provenance:
           - Code Review and Refactoring
         anchor_text: PullRequest
         extracted_url: https://pullrequest.com
-        surrounding_text: "- **[PullRequest](https://www.pullrequest.com/)** – Human-AI hybrid code review combining automated analysis with expert reviewers."
+        surrounding_text: >-
+          - **[PullRequest](https://www.pullrequest.com/)** – Human-AI hybrid code review combining automated analysis
+          with expert reviewers.
         confidence: high
     - id: discovery__www__pullrequest__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +35,9 @@ provenance:
           - Code Review and Refactoring
         anchor_text: PullRequest
         extracted_url: https://www.pullrequest.com
-        surrounding_text: "- **[PullRequest](https://www.pullrequest.com/)** – Human-AI hybrid code review combining automated analysis with expert reviewers."
+        surrounding_text: >-
+          - **[PullRequest](https://www.pullrequest.com/)** – Human-AI hybrid code review combining automated analysis
+          with expert reviewers.
         confidence: high
 metadata:
   github:
@@ -51,8 +55,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: HackerOne Code (formerly PullRequest) is a SaaS platform combining AI and human expert review for code security audits and remediation guidance.
-  why_it_matters: It helps developers catch vulnerabilities before production by integrating AI-enhanced security reviews with human validation into existing workflows.
+  summary: >-
+    HackerOne Code (formerly PullRequest) is a SaaS platform combining AI and human expert review for code security
+    audits and remediation guidance.
+  why_it_matters: >-
+    It helps developers catch vulnerabilities before production by integrating AI-enhanced security reviews with human
+    validation into existing workflows.
   mental_damage: Finally, a way to outsource your code review guilt to both a machine and a human at the same time.
   tags:
     - code-review
@@ -63,21 +71,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is a developer-facing assistant that reviews code, identifies vulnerabilities, and provides remediation guidance, fitting the Review, Testing & Repair Agents section.
+  reason: >-
+    The product's core identity is a developer-facing assistant that reviews code, identifies vulnerabilities, and
+    provides remediation guidance, fitting the Review, Testing & Repair Agents section.
   evidence:
     - Described as 'AI-enhanced reviews and expert oversight' for code security
     - Integrates with SCM platforms (GitHub, GitLab, etc.) to provide in-workflow feedback
     - Primary value is code review and vulnerability detection, not just integration or orchestration
 placement:
   primary_category: coding-agents
-  section: Review, Testing & Repair Agents
+  secondary_categories: []
+  section: Review, Testing & Repair
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:36:35.435Z"
+    updated_at: '2026-07-21T15:36:35.435Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -90,7 +101,9 @@ processing:
       input_hash: sha256:936bede8551697f5ad274304a403b3c3db2456bdc4d6131ed728e21b8a7547d8
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: The product's core identity is a developer-facing assistant that reviews code, identifies vulnerabilities, and provides remediation guidance, fitting the Review, Testing & Repair Agents section.
+      decision_reason: >-
+        The product's core identity is a developer-facing assistant that reviews code, identifies vulnerabilities, and
+        provides remediation guidance, fitting the Review, Testing & Repair Agents section.
       decision_evidence:
         - Described as 'AI-enhanced reviews and expert oversight' for code security
         - Integrates with SCM platforms (GitHub, GitLab, etc.) to provide in-workflow feedback
@@ -98,12 +111,14 @@ processing:
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because the product is a standalone code review assistant, not merely an extension augmenting another tool.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because the product is a standalone code review assistant, not
+        merely an extension augmenting another tool.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.969Z"
+    updated_at: '2026-07-21T15:20:21.969Z'
     cause: null
     next_retry_at: null
   stars:

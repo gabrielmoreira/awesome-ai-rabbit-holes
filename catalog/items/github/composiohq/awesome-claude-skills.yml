@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__composiohq__awesome-claude-skills__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -29,10 +29,10 @@ metadata:
     archived: false
     full_name: ComposioHQ/awesome-claude-skills
     html_url: https://github.com/ComposioHQ/awesome-claude-skills
-    created_at: "2025-10-17T07:15:01Z"
-    pushed_at: "2026-08-10T21:45:44Z"
+    created_at: '2025-10-17T07:15:01Z'
+    pushed_at: '2026-08-10T21:45:44Z'
     description: A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
-    homepage: ""
+    homepage: ''
     topics:
       - agent-skills
       - ai-agents
@@ -51,14 +51,20 @@ metadata:
       - saas
       - skill
       - workflow-automation
-    last_checked_at: "2026-09-14T04:13:28.101Z"
+    last_checked_at: '2026-09-14T04:13:28.101Z'
     readme:
-      fetched_at: "2026-09-14T04:13:28.101Z"
+      fetched_at: '2026-09-14T04:13:28.101Z'
       bytes: 40668
 insights:
-  summary: A curated list of 1000+ production-ready Claude Skills and plugins for enhancing AI agent workflows across coding assistants like Claude Code, Cursor, and others.
-  why_it_matters: Developers can discover reusable skill packs to extend their AI coding assistants with domain-specific workflows, integrations, and guardrails without reinventing the wheel.
-  mental_damage: Because nothing says 'productivity' like spending an hour curating the perfect set of skills to automate the task you could have just done manually in ten minutes.
+  summary: >-
+    A curated list of 1000+ production-ready Claude Skills and plugins for enhancing AI agent workflows across coding
+    assistants like Claude Code, Cursor, and others.
+  why_it_matters: >-
+    Developers can discover reusable skill packs to extend their AI coding assistants with domain-specific workflows,
+    integrations, and guardrails without reinventing the wheel.
+  mental_damage: >-
+    Because nothing says 'productivity' like spending an hour curating the perfect set of skills to automate the task
+    you could have just done manually in ten minutes.
   tags:
     - claude-skills
     - agent-skills
@@ -68,31 +74,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a curated directory of reusable skill packs for AI agents, which fits the 'Agent Skills' category as a skill registry.
+  reason: >-
+    This is a curated directory of reusable skill packs for AI agents, which fits the 'Agent Skills' category as a skill
+    registry.
   evidence:
     - Repo description explicitly states it is a curated list of Claude Skills and tools for customizing AI workflows
     - README confirms it is a comprehensive directory of 1000+ production-ready skills for multiple coding agents
     - Source-list context shows it is already categorized under 'Skills' in awesome-LLM-resources
 placement:
   primary_category: skills
-  section: Skill Registries & Directories
+  secondary_categories: []
+  section: Registries & Directories
 lifecycle:
   status: promotion_candidate
   reason: Stars (58336) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:28.101Z"
+    updated_at: '2026-09-14T04:13:28.101Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:46:40.982Z"
+    updated_at: '2026-07-21T15:46:40.982Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -105,14 +114,20 @@ processing:
       input_hash: sha256:e48f09cf28bcf217cfe34ee90d9322fbf79cf61afd12c954e166572bd05ba394
       proposed_primary_category: skills
       disagreement: false
-      decision_reason: This is a curated directory of reusable skill packs for AI agents, which fits the 'Agent Skills' category as a skill registry.
+      decision_reason: >-
+        This is a curated directory of reusable skill packs for AI agents, which fits the 'Agent Skills' category as a
+        skill registry.
       decision_evidence:
-        - Repo description explicitly states it is a curated list of Claude Skills and tools for customizing AI workflows
+        - >-
+          Repo description explicitly states it is a curated list of Claude Skills and tools for customizing AI
+          workflows
         - README confirms it is a comprehensive directory of 1000+ production-ready skills for multiple coding agents
         - Source-list context shows it is already categorized under 'Skills' in awesome-LLM-resources
       category_candidates:
         - skills
         - awesome-awesomes
-      contrastive_reason: Choose skills over awesome-awesomes because the primary artifact is a reusable skill registry for AI agents, not just a general discovery list.
+      contrastive_reason: >-
+        Choose skills over awesome-awesomes because the primary artifact is a reusable skill registry for AI agents, not
+        just a general discovery list.
       review_reason: null
       review_resume_lifecycle: null

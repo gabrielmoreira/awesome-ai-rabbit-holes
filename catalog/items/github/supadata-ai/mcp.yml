@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__supadata-ai__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: Supadata
         extracted_url: https://github.com/supadata-ai/mcp
-        surrounding_text: "- **[Supadata](https://github.com/supadata-ai/mcp)** - Official MCP server for [Supadata](https://supadata.ai) - YouTube, TikTok, X and Web data for makers."
+        surrounding_text: >-
+          - **[Supadata](https://github.com/supadata-ai/mcp)** - Official MCP server for [Supadata](https://supadata.ai)
+          - YouTube, TikTok, X and Web data for makers.
         confidence: high
 metadata:
   github:
@@ -29,8 +31,8 @@ metadata:
     archived: false
     full_name: supadata-ai/mcp
     html_url: https://github.com/supadata-ai/mcp
-    created_at: "2025-07-13T18:02:34Z"
-    pushed_at: "2026-06-09T20:41:55Z"
+    created_at: '2025-07-13T18:02:34Z'
+    pushed_at: '2026-06-09T20:41:55Z'
     description: Official Supadata MCP Server - Adds powerful video & web scraping to Cursor, Claude and any other LLM clients.
     homepage: https://supadata.ai
     topics:
@@ -43,14 +45,20 @@ metadata:
       - transcript
       - whisper
       - youtube
-    last_checked_at: "2026-07-20T16:43:05.157Z"
+    last_checked_at: '2026-07-20T16:43:05.157Z'
     readme:
-      fetched_at: "2026-07-20T16:43:05.157Z"
+      fetched_at: '2026-07-20T16:43:05.157Z'
       bytes: 4629
 insights:
-  summary: An MCP server that exposes Supadata's video transcript extraction, web scraping, crawling, and AI-powered structured data extraction as tools for Cursor, Claude, and other LLM clients.
-  why_it_matters: It lets coding agents directly pull transcripts, scrape pages, and extract structured data from video content without leaving the IDE or writing custom scripts.
-  mental_damage: Nothing says 'AI engineering' quite like installing a dedicated server just to let your assistant watch YouTube videos for you.
+  summary: >-
+    An MCP server that exposes Supadata's video transcript extraction, web scraping, crawling, and AI-powered structured
+    data extraction as tools for Cursor, Claude, and other LLM clients.
+  why_it_matters: >-
+    It lets coding agents directly pull transcripts, scrape pages, and extract structured data from video content
+    without leaving the IDE or writing custom scripts.
+  mental_damage: >-
+    Nothing says 'AI engineering' quite like installing a dedicated server just to let your assistant watch YouTube
+    videos for you.
   tags:
     - mcp
     - scraping
@@ -60,35 +68,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose primary identity is exposing Supadata's video and web scraping capabilities to MCP-compatible clients.
+  reason: >-
+    The product is an MCP server whose primary identity is exposing Supadata's video and web scraping capabilities to
+    MCP-compatible clients.
   evidence:
-    - Repo description explicitly states it is the 'Official Supadata MCP Server' for Cursor, Claude, and other LLM clients.
+    - >-
+      Repo description explicitly states it is the 'Official Supadata MCP Server' for Cursor, Claude, and other LLM
+      clients.
     - README documents MCP tools for transcript, scrape, map, crawl, metadata, and AI-powered extract.
     - Listed in awesome-mcp-servers under 'Official Servers' section.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.650Z"
+    updated_at: '2026-05-06T22:12:15.650Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:43:05.157Z"
+    updated_at: '2026-07-20T16:43:05.157Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

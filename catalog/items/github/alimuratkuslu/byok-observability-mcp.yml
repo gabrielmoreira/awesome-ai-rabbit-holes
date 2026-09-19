@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alimuratkuslu__byok-observability-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📊 <a name="monitoring"></a>Monitoring
         anchor_text: alimuratkuslu/byok-observability-mcp
         extracted_url: https://github.com/alimuratkuslu/byok-observability-mcp
-        surrounding_text: "- [alimuratkuslu/byok-observability-mcp](https://github.com/alimuratkuslu/byok-observability-mcp) [![alimuratkuslu/byok-observability-mcp MCP server](https://glama.ai/mcp/servers/alimuratkuslu/byok-observability-mcp/badges/score.svg)](https://github.com/alimuratkuslu/byok-observability-mcp) 📇 🏠 ☁️ 🍎 🪟 🐧 - Comprehensive MCP server for Grafana, Prometheus, Kafka UI, and Datadog with a secure \"Bring Your Own Key\" or BYOK model."
+        surrounding_text: >-
+          - [alimuratkuslu/byok-observability-mcp](https://github.com/alimuratkuslu/byok-observability-mcp)
+          [![alimuratkuslu/byok-observability-mcp MCP
+          server](https://glama.ai/mcp/servers/alimuratkuslu/byok-observability-mcp/badges/score.svg)](https://github.com/alimuratkuslu/byok-observability-mcp)
+          📇 🏠 ☁️ 🍎 🪟 🐧 - Comprehensive MCP server for Grafana, Prometheus, Kafka UI, and Datadog with a secure
+          "Bring Your Own Key" or BYOK model.
         confidence: high
 metadata:
   github:
@@ -30,18 +35,22 @@ metadata:
     archived: false
     full_name: alimuratkuslu/byok-observability-mcp
     html_url: https://github.com/alimuratkuslu/byok-observability-mcp
-    created_at: "2026-04-11T21:28:42Z"
-    pushed_at: "2026-04-13T15:10:16Z"
+    created_at: '2026-04-11T21:28:42Z'
+    pushed_at: '2026-04-13T15:10:16Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:41.324Z"
+    last_checked_at: '2026-09-17T04:13:41.324Z'
     readme:
-      fetched_at: "2026-09-17T04:13:41.324Z"
+      fetched_at: '2026-09-17T04:13:41.324Z'
       bytes: 20639
 insights:
-  summary: An MCP server that lets Claude Code or Codex CLI query observability backends (Grafana, Prometheus, Kafka UI, Datadog) without data leaving the local machine.
-  why_it_matters: Developers can securely query production metrics and logs directly from their coding assistant without exposing credentials or data to third parties.
+  summary: >-
+    An MCP server that lets Claude Code or Codex CLI query observability backends (Grafana, Prometheus, Kafka UI,
+    Datadog) without data leaving the local machine.
+  why_it_matters: >-
+    Developers can securely query production metrics and logs directly from their coding assistant without exposing
+    credentials or data to third parties.
   mental_damage: Finally, a way to ask your AI pair programmer why the service is on fire without it phoning home to tell your boss.
   tags:
     - mcp
@@ -52,31 +61,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific tooling for observability backends."
+  reason: >-
+    MCP is the product identity: this is a dedicated MCP server providing domain-specific tooling for observability
+    backends.
   evidence:
     - README explicitly positions it as an MCP server for Claude Code/Codex CLI
     - Supports multiple observability backends (Grafana, Prometheus, Kafka UI, Datadog)
     - Credentials stay local via env vars, no data egress
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.601Z"
+    updated_at: '2026-05-06T22:12:15.601Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:41.325Z"
+    updated_at: '2026-09-17T04:13:41.325Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:22:13.011Z"
+    updated_at: '2026-07-21T15:22:13.011Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +101,9 @@ processing:
       input_hash: sha256:0e7ae58db773fa19bb0caea1be9f97e2b3e714130bba26bb919f318dcdf619d6
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific tooling for observability backends."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server providing domain-specific tooling for observability
+        backends.
       decision_evidence:
         - README explicitly positions it as an MCP server for Claude Code/Codex CLI
         - Supports multiple observability backends (Grafana, Prometheus, Kafka UI, Datadog)
@@ -97,6 +111,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server (not just an extension for another assistant).
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server (not just an extension for another
+        assistant).
       review_reason: null
       review_resume_lifecycle: null

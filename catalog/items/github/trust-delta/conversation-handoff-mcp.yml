@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__trust-delta__conversation-handoff-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: conversation-handoff-mcp
         extracted_url: https://github.com/trust-delta/conversation-handoff-mcp
-        surrounding_text: "- [conversation-handoff-mcp](https://github.com/trust-delta/conversation-handoff-mcp) 📇 🏠 - Hand off conversation context between Claude Desktop projects and across MCP clients. Memory-based, no file clutter."
+        surrounding_text: >-
+          - [conversation-handoff-mcp](https://github.com/trust-delta/conversation-handoff-mcp) 📇 🏠 - Hand off
+          conversation context between Claude Desktop projects and across MCP clients. Memory-based, no file clutter.
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: trust-delta/conversation-handoff-mcp
     html_url: https://github.com/trust-delta/conversation-handoff-mcp
-    created_at: "2025-12-04T15:08:09Z"
-    pushed_at: "2026-07-21T11:24:58Z"
+    created_at: '2025-12-04T15:08:09Z'
+    pushed_at: '2026-07-21T11:24:58Z'
     description: MCP server for transferring conversation context between AI chats and projects
     homepage: https://www.npmjs.com/package/conversation-handoff-mcp
     topics:
@@ -40,14 +42,18 @@ metadata:
       - mcp-client
       - mcp-server
       - typescript
-    last_checked_at: "2026-07-21T15:20:55.645Z"
+    last_checked_at: '2026-07-21T15:20:55.645Z'
     readme:
-      fetched_at: "2026-07-21T15:20:55.645Z"
+      fetched_at: '2026-07-21T15:20:55.645Z'
       bytes: 14131
 insights:
   summary: MCP server that saves, tags, and transfers conversation context between AI chats and projects.
-  why_it_matters: Lets developers resume work across different AI sessions or tools without losing context, effectively creating a shared memory layer for CLI and desktop agents.
-  mental_damage: Because each AI chat window starts with a clean slate and a blank stare, and we have somehow made that a server problem.
+  why_it_matters: >-
+    Lets developers resume work across different AI sessions or tools without losing context, effectively creating a
+    shared memory layer for CLI and desktop agents.
+  mental_damage: >-
+    Because each AI chat window starts with a clean slate and a blank stare, and we have somehow made that a server
+    problem.
   tags:
     - mcp
     - context-handoff
@@ -56,31 +62,36 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Distributed explicitly as an MCP server for cross-session conversation state; its packaging, configuration, and discovery identity are entirely rooted in MCP infrastructure rather than a generic framework or extension layer.
+  reason: >-
+    Distributed explicitly as an MCP server for cross-session conversation state; its packaging, configuration, and
+    discovery identity are entirely rooted in MCP infrastructure rather than a generic framework or extension layer.
   evidence:
     - Repo name, description, and GitHub topics all identify it as an MCP server.
-    - README documents MCP-specific client configuration for Claude Code, Codex CLI, Gemini CLI, Cursor, and ChatGPT Desktop.
+    - >-
+      README documents MCP-specific client configuration for Claude Code, Codex CLI, Gemini CLI, Cursor, and ChatGPT
+      Desktop.
     - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory.
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Context & Session Management
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.653Z"
+    updated_at: '2026-05-06T22:12:15.653Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:55.645Z"
+    updated_at: '2026-07-21T15:20:55.645Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-14T05:21:17.648Z"
+    updated_at: '2026-05-14T05:21:17.648Z'
     cause: null
     next_retry_at: null
     attempts: 2

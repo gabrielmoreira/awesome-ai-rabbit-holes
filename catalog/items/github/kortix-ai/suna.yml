@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kortix-ai__suna__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,7 @@ provenance:
           - 智能体 Agents
         anchor_text: Suna
         extracted_url: https://github.com/kortix-ai/suna
-        surrounding_text: "33. [Suna](https://github.com/kortix-ai/suna): Open Source Generalist AI Agent."
+        surrounding_text: '33. [Suna](https://github.com/kortix-ai/suna): Open Source Generalist AI Agent.'
         confidence: high
 metadata:
   github:
@@ -29,22 +29,26 @@ metadata:
     archived: false
     full_name: kortix-ai/suna
     html_url: https://github.com/kortix-ai/suna
-    created_at: "2024-10-05T17:01:01Z"
-    pushed_at: "2026-07-30T04:57:34Z"
+    created_at: '2024-10-05T17:01:01Z'
+    pushed_at: '2026-07-30T04:57:34Z'
     description: The Company AI Command Center
     homepage: https://www.kortix.com
     topics:
       - ai
       - ai-agents
       - llm
-    last_checked_at: "2026-07-30T05:05:57.862Z"
+    last_checked_at: '2026-07-30T05:05:57.862Z'
     readme:
-      fetched_at: "2026-07-30T05:05:57.862Z"
+      fetched_at: '2026-07-30T05:05:57.862Z'
       bytes: 9804
 insights:
   summary: A company AI command center for coordinating and managing AI agents and workflows.
-  why_it_matters: It provides a centralized platform for developers to orchestrate multiple AI agents and workflows, streamlining complex AI-driven processes.
-  mental_damage: Because nothing says 'productivity' like needing a command center to manage the tools that were supposed to manage your work.
+  why_it_matters: >-
+    It provides a centralized platform for developers to orchestrate multiple AI agents and workflows, streamlining
+    complex AI-driven processes.
+  mental_damage: >-
+    Because nothing says 'productivity' like needing a command center to manage the tools that were supposed to manage
+    your work.
   tags:
     - ai-agents
     - orchestration
@@ -53,31 +57,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a workbench/control plane for coordinating multiple agents, which aligns with the agent-orchestration category's focus on multi-agent coordination and operated platforms.
+  reason: >-
+    The product is a workbench/control plane for coordinating multiple agents, which aligns with the agent-orchestration
+    category's focus on multi-agent coordination and operated platforms.
   evidence:
-    - "Repo description: 'The Company AI Command Center'"
-    - "Source-list context: listed under '智能体 Agents' (Agents) in awesome-LLM-resources"
-    - "High star count (20004) and recent activity (pushed_at: 2026-07-20)"
+    - 'Repo description: ''The Company AI Command Center'''
+    - 'Source-list context: listed under ''智能体 Agents'' (Agents) in awesome-LLM-resources'
+    - 'High star count (20004) and recent activity (pushed_at: 2026-07-20)'
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (19718) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.624Z"
+    updated_at: '2026-05-06T22:12:15.624Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:57.862Z"
+    updated_at: '2026-07-30T05:05:57.862Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:06.375Z"
+    updated_at: '2026-07-21T16:13:06.375Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -90,14 +97,18 @@ processing:
       input_hash: sha256:22a8f4380ece442798e4573ffad959898fe75e3bd905b22a4ed2b2c469572a03
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The product is a workbench/control plane for coordinating multiple agents, which aligns with the agent-orchestration category's focus on multi-agent coordination and operated platforms.
+      decision_reason: >-
+        The product is a workbench/control plane for coordinating multiple agents, which aligns with the
+        agent-orchestration category's focus on multi-agent coordination and operated platforms.
       decision_evidence:
-        - "Repo description: 'The Company AI Command Center'"
-        - "Source-list context: listed under '智能体 Agents' (Agents) in awesome-LLM-resources"
-        - "High star count (20004) and recent activity (pushed_at: 2026-07-20)"
+        - 'Repo description: ''The Company AI Command Center'''
+        - 'Source-list context: listed under ''智能体 Agents'' (Agents) in awesome-LLM-resources'
+        - 'High star count (20004) and recent activity (pushed_at: 2026-07-20)'
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated workbench/control plane rather than a code-first library or SDK.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because the product is an operated workbench/control plane rather
+        than a code-first library or SDK.
       review_reason: null
       review_resume_lifecycle: null

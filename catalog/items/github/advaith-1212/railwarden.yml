@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__advaith-1212__railwarden__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-08-06T05:06:55.627Z"
+      discovered_at: '2026-08-06T05:06:55.627Z'
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -19,7 +19,11 @@ provenance:
           - Workflow Management
         anchor_text: RailWarden
         extracted_url: https://github.com/advaith-1212/railwarden
-        surrounding_text: "- [RailWarden](https://github.com/advaith-1212/railwarden) ![](https://img.shields.io/github/stars/advaith-1212/railwarden.svg?cacheSeconds=86400) - Deterministic execution and integration control plane for approved multi-agent work: turns plans into dependency-aware isolated work packages, records validation evidence, and gates integration."
+        surrounding_text: >-
+          - [RailWarden](https://github.com/advaith-1212/railwarden)
+          ![](https://img.shields.io/github/stars/advaith-1212/railwarden.svg?cacheSeconds=86400) - Deterministic
+          execution and integration control plane for approved multi-agent work: turns plans into dependency-aware
+          isolated work packages, records validation evidence, and gates integration.
         confidence: high
 metadata:
   github:
@@ -29,19 +33,28 @@ metadata:
     archived: false
     full_name: advaith-1212/railwarden
     html_url: https://github.com/advaith-1212/railwarden
-    created_at: "2026-06-27T10:36:14Z"
-    pushed_at: "2026-08-04T17:01:22Z"
-    description: RailWarden is a deterministic control plane for multi-agent software development, coordinating approved work packages, isolated Git worktrees, validation evidence, review gates, and safe integration so completion is verified, not merely claimed.
+    created_at: '2026-06-27T10:36:14Z'
+    pushed_at: '2026-08-04T17:01:22Z'
+    description: >-
+      RailWarden is a deterministic control plane for multi-agent software development, coordinating approved work
+      packages, isolated Git worktrees, validation evidence, review gates, and safe integration so completion is
+      verified, not merely claimed.
     homepage: https://advaith-1212.github.io/railwarden/
     topics: []
-    last_checked_at: "2026-09-17T04:13:30.680Z"
+    last_checked_at: '2026-09-17T04:13:30.680Z'
     readme:
-      fetched_at: "2026-09-17T04:13:30.680Z"
+      fetched_at: '2026-09-17T04:13:30.680Z'
       bytes: 7782
 insights:
-  summary: A deterministic control plane for coordinating multi-agent software development via isolated Git worktrees and mechanical validation gates.
-  why_it_matters: It replaces an agent's self-certified 'I am done' with verifiable execution facts and mechanical proof of completion before integration.
-  mental_damage: Because we have officially reached the era where an LLM's verbal confirmation of success must be treated as a suspicious legal claim.
+  summary: >-
+    A deterministic control plane for coordinating multi-agent software development via isolated Git worktrees and
+    mechanical validation gates.
+  why_it_matters: >-
+    It replaces an agent's self-certified 'I am done' with verifiable execution facts and mechanical proof of completion
+    before integration.
+  mental_damage: >-
+    Because we have officially reached the era where an LLM's verbal confirmation of success must be treated as a
+    suspicious legal claim.
   tags:
     - multi-agent
     - control-plane
@@ -51,31 +64,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It functions as an operated control plane and runtime that manages the execution, state, and integration of multiple agents.
+  reason: >-
+    It functions as an operated control plane and runtime that manages the execution, state, and integration of multiple
+    agents.
   evidence:
     - Explicitly defines itself as a 'deterministic execution and integration control plane'.
     - Coordinates multiple agents across isolated Git worktrees with mechanical validation and review gates.
     - Provides a durable execution ledger and state management independent of agent chat history.
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-08-06T05:06:55.628Z"
+    updated_at: '2026-08-06T05:06:55.628Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:30.680Z"
+    updated_at: '2026-09-17T04:13:30.680Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:22:56.600Z"
+    updated_at: '2026-08-27T06:22:56.600Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -84,7 +100,9 @@ processing:
       input_hash: sha256:d82f226d9a428f53f3cd52518554fb6c893864d7b519b91a0e1a8c08381a0fe2
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: It functions as an operated control plane and runtime that manages the execution, state, and integration of multiple agents.
+      decision_reason: >-
+        It functions as an operated control plane and runtime that manages the execution, state, and integration of
+        multiple agents.
       decision_evidence:
         - Explicitly defines itself as a 'deterministic execution and integration control plane'.
         - Coordinates multiple agents across isolated Git worktrees with mechanical validation and review gates.
@@ -92,7 +110,9 @@ processing:
       category_candidates:
         - agent-orchestration
         - spec-driven-development
-      contrastive_reason: Choose agent-orchestration over spec-driven-development because while it utilizes specifications, its core product identity is the runtime orchestration and integration mechanics for agents.
+      contrastive_reason: >-
+        Choose agent-orchestration over spec-driven-development because while it utilizes specifications, its core
+        product identity is the runtime orchestration and integration mechanics for agents.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

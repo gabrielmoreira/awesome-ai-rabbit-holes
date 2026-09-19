@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__theneo__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - Documentation
         anchor_text: Theneo.io
         extracted_url: https://theneo.io
-        surrounding_text: "- **[Theneo.io](https://theneo.io/)** – AI-powered API documentation generation."
+        surrounding_text: '- **[Theneo.io](https://theneo.io/)** – AI-powered API documentation generation.'
         confidence: high
     - id: discovery__www__theneo__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - Documentation
         anchor_text: Theneo.io
         extracted_url: https://theneo.io
-        surrounding_text: "- **[Theneo.io](https://theneo.io/)** – AI-powered API documentation generation."
+        surrounding_text: '- **[Theneo.io](https://theneo.io/)** – AI-powered API documentation generation.'
         confidence: high
 metadata:
   github:
@@ -51,8 +51,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A developer portal platform for API references, guides, changelogs, and private customer portals with AI-powered documentation and agent-ready features like MCP and llms.txt.
-  why_it_matters: It unifies API documentation, changelogs, and customer portals in a single collaborative workspace with AI assistance, reducing drift between code and docs.
+  summary: >-
+    A developer portal platform for API references, guides, changelogs, and private customer portals with AI-powered
+    documentation and agent-ready features like MCP and llms.txt.
+  why_it_matters: >-
+    It unifies API documentation, changelogs, and customer portals in a single collaborative workspace with AI
+    assistance, reducing drift between code and docs.
   mental_damage: Finally, a place where engineers, writers, PMs, and agents can all fight over the same cursor in real time.
   tags:
     - api-docs
@@ -63,21 +67,23 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core value is AI-powered documentation and agent-ready context (MCP, llms.txt) for APIs, which aligns with prompt/context engineering rather than being a primary coding assistant or extension.
+  reason: >-
+    The core value is AI-powered documentation and agent-ready context (MCP, llms.txt) for APIs, which aligns with
+    prompt/context engineering rather than being a primary coding assistant or extension.
   evidence:
     - Primary product is a developer portal for API docs, guides, and changelogs with AI features
     - Explicitly supports MCP Server and llms.txt for agent access to docs
     - Positioned as a collaboration platform for docs, not a coding assistant or IDE
 placement:
-  primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  primary_category: memory-and-context
+  section: Retrieval & Fresh Docs
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:38:00.752Z"
+    updated_at: '2026-07-21T15:38:00.752Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -90,7 +96,9 @@ processing:
       input_hash: sha256:48ce4836c39f2cf24f14248dafeee17875005ae041d0053384b23ad585d836f6
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: The core value is AI-powered documentation and agent-ready context (MCP, llms.txt) for APIs, which aligns with prompt/context engineering rather than being a primary coding assistant or extension.
+      decision_reason: >-
+        The core value is AI-powered documentation and agent-ready context (MCP, llms.txt) for APIs, which aligns with
+        prompt/context engineering rather than being a primary coding assistant or extension.
       decision_evidence:
         - Primary product is a developer portal for API docs, guides, and changelogs with AI features
         - Explicitly supports MCP Server and llms.txt for agent access to docs
@@ -98,12 +106,14 @@ processing:
       category_candidates:
         - context-engineering
         - ai-dev-extensions
-      contrastive_reason: Choose context-engineering over ai-dev-extensions because the core novelty is agent-ready documentation and retrieval (MCP, llms.txt) rather than host integration for another assistant.
+      contrastive_reason: >-
+        Choose context-engineering over ai-dev-extensions because the core novelty is agent-ready documentation and
+        retrieval (MCP, llms.txt) rather than host integration for another assistant.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.971Z"
+    updated_at: '2026-07-21T15:20:21.971Z'
     cause: null
     next_retry_at: null
   stars:

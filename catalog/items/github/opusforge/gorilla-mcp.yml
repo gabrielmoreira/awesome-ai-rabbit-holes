@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__opusforge__gorilla-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: opusforge/gorilla-mcp
         extracted_url: https://github.com/opusforge/gorilla-mcp
-        surrounding_text: "- [opusforge/gorilla-mcp](https://github.com/opusforge/gorilla-mcp) [![opusforge/gorilla-mcp MCP server](https://glama.ai/mcp/servers/opusforge/gorilla-mcp/badges/score.svg)](https://glama.ai/mcp/servers/opusforge/gorilla-mcp) 📇 ☁️ - Lead discovery for solo SaaS founders. Searches Reddit, X, YouTube, and TikTok for posts where people describe a problem your product solves, ranks each by buying intent, and returns ranked leads. Includes `find_leads`, `draft_outreach`, and `plan_acquisition_funnel` for the full acquisition flow. Hosted, $0.99 per run. Install: `npx -y github:opusforge/gorilla-mcp`. Sign up: [usegorilla.app](https://usegorilla.app)."
+        surrounding_text: >-
+          - [opusforge/gorilla-mcp](https://github.com/opusforge/gorilla-mcp) [![opusforge/gorilla-mcp MCP
+          server](https://glama.ai/mcp/servers/opusforge/gorilla-mcp/badges/score.svg)](https://glama.ai/mcp/servers/opusforge/gorilla-mcp)
+          📇 ☁️ - Lead discovery for solo SaaS founders. Searches Reddit, X, YouTube, and TikTok for posts where people
+          describe a problem your product solves, ranks each by buying intent, and returns ranked leads. Includes
+          `find_leads`, `draft_outreach`, and `plan_acquisition_funnel` for the full acquisition flow. Hosted, $0.99 per
+          run. Install: `npx -y github:opusforge/gorilla-mcp`. Sign up: [usegorilla.app](https://usegorilla.app).
         confidence: high
 metadata:
   github:
@@ -30,8 +36,8 @@ metadata:
     archived: false
     full_name: opusforge/gorilla-mcp
     html_url: https://github.com/opusforge/gorilla-mcp
-    created_at: "2026-04-17T00:07:08Z"
-    pushed_at: "2026-07-16T21:16:55Z"
+    created_at: '2026-04-17T00:07:08Z'
+    pushed_at: '2026-07-16T21:16:55Z'
     description: MCP server for Gorilla. Find your first SaaS users on Reddit, X, YouTube, and TikTok. https://usegorilla.app
     homepage: https://usegorilla.app
     topics:
@@ -42,14 +48,20 @@ metadata:
       - mcp
       - model-context-protocol
       - saas
-    last_checked_at: "2026-07-20T16:42:28.256Z"
+    last_checked_at: '2026-07-20T16:42:28.256Z'
     readme:
-      fetched_at: "2026-07-20T16:42:28.256Z"
+      fetched_at: '2026-07-20T16:42:28.256Z'
       bytes: 6193
 insights:
-  summary: An MCP server that connects Claude and other assistants to Gorilla, a SaaS marketing tool for finding early users by searching Reddit, X, YouTube, TikTok, and LinkedIn.
-  why_it_matters: It lets developers delegate SaaS lead generation and outreach drafting directly to their coding assistant instead of switching contexts to a marketing dashboard.
-  mental_damage: We have successfully abstracted founder marketing anxiety into a schema that your coding assistant can now stress about between debugging sessions.
+  summary: >-
+    An MCP server that connects Claude and other assistants to Gorilla, a SaaS marketing tool for finding early users by
+    searching Reddit, X, YouTube, TikTok, and LinkedIn.
+  why_it_matters: >-
+    It lets developers delegate SaaS lead generation and outreach drafting directly to their coding assistant instead of
+    switching contexts to a marketing dashboard.
+  mental_damage: >-
+    We have successfully abstracted founder marketing anxiety into a schema that your coding assistant can now stress
+    about between debugging sessions.
   tags:
     - mcp
     - marketing
@@ -59,35 +71,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product is an MCP server that gives assistants access to a specific domain (SaaS lead generation), fitting cleanly as a domain-specific MCP server.
+  reason: >-
+    The product is an MCP server that gives assistants access to a specific domain (SaaS lead generation), fitting
+    cleanly as a domain-specific MCP server.
   evidence:
     - Repo description explicitly states 'MCP server for Gorilla' with lead generation on social platforms.
     - README provides setup instructions for Claude Code and Cursor MCP configurations.
     - Listed in awesome-mcp-servers under 'Server Implementations > Marketing'.
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: API & Service Integrations
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.641Z"
+    updated_at: '2026-05-06T22:12:15.641Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:28.256Z"
+    updated_at: '2026-07-20T16:42:28.256Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__replit__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,9 @@ provenance:
           - App Builders
         anchor_text: Replit
         extracted_url: https://replit.com
-        surrounding_text: "- **[Replit](https://replit.com/)** – Cloud IDE with AI agent for building complete applications from descriptions."
+        surrounding_text: >-
+          - **[Replit](https://replit.com/)** – Cloud IDE with AI agent for building complete applications from
+          descriptions.
         confidence: high
 metadata:
   github:
@@ -37,8 +39,12 @@ metadata:
     readme: null
 insights:
   summary: Replit is a cloud-based platform for building, deploying, and collaborating on software projects with AI assistance.
-  why_it_matters: It enables developers and teams to turn prompts into full-stack apps, sites, or internal tools with built-in infrastructure and parallel agent workflows.
-  mental_damage: The promise of 'no coding needed' collides with the reality of debugging Agent 4’s interpretation of your napkin sketch.
+  why_it_matters: >-
+    It enables developers and teams to turn prompts into full-stack apps, sites, or internal tools with built-in
+    infrastructure and parallel agent workflows.
+  mental_damage: >-
+    The promise of 'no coding needed' collides with the reality of debugging Agent 4’s interpretation of your napkin
+    sketch.
   tags:
     - prompt-to-app
     - full-stack
@@ -50,19 +56,24 @@ curation:
   status: included
   reason: Primary identity is a prompt-to-app platform for generating and deploying software, not a coding assistant or IDE.
   evidence:
-    - "Site description: 'Build and deploy software collaboratively with the power of AI without spending a second on setup.'"
-    - "Source-list context: listed under 'App Builders' in awesome-ai-coding-tools."
-    - Core product surface centers on turning prompts into apps/sites/tools (e.g., 'Agent writes production-ready code').
+    - >-
+      Site description: 'Build and deploy software collaboratively with the power of AI without spending a second on
+      setup.'
+    - 'Source-list context: listed under ''App Builders'' in awesome-ai-coding-tools.'
+    - >-
+      Core product surface centers on turning prompts into apps/sites/tools (e.g., 'Agent writes production-ready
+      code').
 placement:
   primary_category: app-builders
-  section: Prompt-to-App Builders
+  secondary_categories: []
+  section: Full App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +82,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:04.627Z"
+    updated_at: '2026-07-21T15:31:04.627Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,14 +95,22 @@ processing:
       input_hash: sha256:f5c7cbd2964737e0666cf33e19dd9aa2614b96e62280e84209657a52f49b1dfe
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: Primary identity is a prompt-to-app platform for generating and deploying software, not a coding assistant or IDE.
+      decision_reason: >-
+        Primary identity is a prompt-to-app platform for generating and deploying software, not a coding assistant or
+        IDE.
       decision_evidence:
-        - "Site description: 'Build and deploy software collaboratively with the power of AI without spending a second on setup.'"
-        - "Source-list context: listed under 'App Builders' in awesome-ai-coding-tools."
-        - Core product surface centers on turning prompts into apps/sites/tools (e.g., 'Agent writes production-ready code').
+        - >-
+          Site description: 'Build and deploy software collaboratively with the power of AI without spending a second on
+          setup.'
+        - 'Source-list context: listed under ''App Builders'' in awesome-ai-coding-tools.'
+        - >-
+          Core product surface centers on turning prompts into apps/sites/tools (e.g., 'Agent writes production-ready
+          code').
       category_candidates:
         - app-builders
         - agent-orchestration
-      contrastive_reason: Choose app-builders over agent-orchestration because the main value is prompt-to-app generation, not multi-agent coordination as a standalone platform.
+      contrastive_reason: >-
+        Choose app-builders over agent-orchestration because the main value is prompt-to-app generation, not multi-agent
+        coordination as a standalone platform.
       review_reason: null
       review_resume_lifecycle: null

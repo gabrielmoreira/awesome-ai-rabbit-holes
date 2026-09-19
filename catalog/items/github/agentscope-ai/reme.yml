@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agentscope-ai__reme__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 推理 Inference
         anchor_text: MemoryScope
         extracted_url: https://github.com/modelscope/memoryscope
-        surrounding_text: "37. [MemoryScope](https://github.com/modelscope/MemoryScope): MemoryScope provides LLM chatbots with powerful and flexible long-term memory capabilities, offering a framework for building such abilities."
+        surrounding_text: >-
+          37. [MemoryScope](https://github.com/modelscope/MemoryScope): MemoryScope provides LLM chatbots with powerful
+          and flexible long-term memory capabilities, offering a framework for building such abilities.
         confidence: high
 metadata:
   github:
@@ -29,9 +31,9 @@ metadata:
     archived: false
     full_name: agentscope-ai/ReMe
     html_url: https://github.com/agentscope-ai/ReMe
-    created_at: "2024-08-29T02:40:53Z"
-    pushed_at: "2026-09-16T08:01:15Z"
-    description: "ReMe: Memory Management Kit for Agents - Remember Me, Refine Me."
+    created_at: '2024-08-29T02:40:53Z'
+    pushed_at: '2026-09-16T08:01:15Z'
+    description: 'ReMe: Memory Management Kit for Agents - Remember Me, Refine Me.'
     homepage: https://reme.agentscope.io/
     topics:
       - agent
@@ -44,13 +46,17 @@ metadata:
       - qwenpaw
       - rag
       - reme
-    last_checked_at: "2026-09-17T04:13:33.509Z"
+    last_checked_at: '2026-09-17T04:13:33.509Z'
     readme:
-      fetched_at: "2026-09-17T04:13:33.509Z"
+      fetched_at: '2026-09-17T04:13:33.509Z'
       bytes: 26760
 insights:
-  summary: A local-first memory management layer that transforms agent conversations and resources into searchable, editable Markdown files.
-  why_it_matters: It provides a persistent, human-readable knowledge base that allows AI agents to retain context, project decisions, and workflow experience across sessions.
+  summary: >-
+    A local-first memory management layer that transforms agent conversations and resources into searchable, editable
+    Markdown files.
+  why_it_matters: >-
+    It provides a persistent, human-readable knowledge base that allows AI agents to retain context, project decisions,
+    and workflow experience across sessions.
   mental_damage: Now you have to manage your agent's long-term memory like you're organizing a chaotic personal wiki.
   tags:
     - agent-memory
@@ -67,25 +73,26 @@ curation:
     - Uses hybrid search (BM25, embeddings, wikilinks) for context retrieval
     - Turns conversations into file-based long-term memory
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: promotion_candidate
   reason: Stars (2901) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.600Z"
+    updated_at: '2026-05-06T22:12:15.600Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:33.509Z"
+    updated_at: '2026-09-17T04:13:33.509Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:03:49.567Z"
+    updated_at: '2026-07-20T16:03:49.567Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -106,6 +113,8 @@ processing:
       category_candidates:
         - context-engineering
         - ai-frameworks
-      contrastive_reason: Choose context-engineering over ai-frameworks because the primary value proposition is the memory and retrieval mechanism rather than a general-purpose programming SDK.
+      contrastive_reason: >-
+        Choose context-engineering over ai-frameworks because the primary value proposition is the memory and retrieval
+        mechanism rather than a general-purpose programming SDK.
       review_reason: null
       review_resume_lifecycle: null

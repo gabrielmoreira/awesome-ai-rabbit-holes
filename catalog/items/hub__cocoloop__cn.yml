@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__hub__cocoloop__cn__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-07-09T05:28:44.887Z"
+      discovered_at: '2026-07-09T05:28:44.887Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,9 +34,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: hub.cocoloop.cn is a Chinese-language skills marketplace offering downloadable AI agent skills packs for automation workflows.
-  why_it_matters: It provides a centralized, safety-checked repository of reusable agent skills that developers can integrate into their AI workflows without building from scratch.
-  mental_damage: Another skills store promising 'safe' AI agent components, while developers spend more time vetting skills than writing actual code.
+  summary: >-
+    hub.cocoloop.cn is a Chinese-language skills marketplace offering downloadable AI agent skills packs for automation
+    workflows.
+  why_it_matters: >-
+    It provides a centralized, safety-checked repository of reusable agent skills that developers can integrate into
+    their AI workflows without building from scratch.
+  mental_damage: >-
+    Another skills store promising 'safe' AI agent components, while developers spend more time vetting skills than
+    writing actual code.
   tags:
     - ai-agent-skills
     - skills-marketplace
@@ -44,21 +50,29 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The site positions itself as a curated registry of AI Agent Skills with safety checks and platform support, matching the skills category's focus on reusable skill packs and directories rather than being a standalone assistant or extension.
+  reason: >-
+    The site positions itself as a curated registry of AI Agent Skills with safety checks and platform support, matching
+    the skills category's focus on reusable skill packs and directories rather than being a standalone assistant or
+    extension.
   evidence:
-    - Source-list context shows inclusion in awesome-LLM-resources under '技能 Skills' linking to '更快更安全的 AI Agent Skills 商店'
+    - >-
+      Source-list context shows inclusion in awesome-LLM-resources under '技能 Skills' linking to '更快更安全的 AI Agent Skills
+      商店'
     - Scraped site explicitly states '更快更安全的 AI Agent Skills 商店' and lists 12,923可用 Skills across 50+ platforms
-    - Primary value is distribution of reusable skill packs (e.g., tavily-search-pro, capability-evolver) with CLS安全性认证, not acting as a coding agent or IDE extension
+    - >-
+      Primary value is distribution of reusable skill packs (e.g., tavily-search-pro, capability-evolver) with CLS安全性认证,
+      not acting as a coding agent or IDE extension
 placement:
   primary_category: skills
-  section: Skill Registries & Directories
+  secondary_categories: []
+  section: Registries & Directories
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-09T05:28:44.888Z"
+    updated_at: '2026-07-09T05:28:44.888Z'
     cause: null
     next_retry_at: null
   stars:
@@ -67,7 +81,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-09T05:34:28.918Z"
+    updated_at: '2026-07-09T05:34:28.918Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

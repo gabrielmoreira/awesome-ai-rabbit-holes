@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__anhmtk__agentshare-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🛒 <a name="e-commerce"></a>E-Commerce
         anchor_text: anhmtk/agentshare-mcp
         extracted_url: https://github.com/anhmtk/agentshare-mcp
-        surrounding_text: "- [anhmtk/agentshare-mcp](https://github.com/anhmtk/agentshare-mcp) [![anhmtk/agentshare-mcp MCP server](https://glama.ai/mcp/servers/anhmtk/agentshare-mcp/badges/score.svg)](https://glama.ai/mcp/servers/anhmtk/agentshare-mcp) 📇 ☁️ - Solana DeFi intelligence MCP (Meteora DLMM `meteora_brief` + `meteora_pool_detail`, Solana DEX + DefiLlama scout). Commerce tools are secondary. Hosted at https://agentshare.dev/mcp"
+        surrounding_text: >-
+          - [anhmtk/agentshare-mcp](https://github.com/anhmtk/agentshare-mcp) [![anhmtk/agentshare-mcp MCP
+          server](https://glama.ai/mcp/servers/anhmtk/agentshare-mcp/badges/score.svg)](https://glama.ai/mcp/servers/anhmtk/agentshare-mcp)
+          📇 ☁️ - Solana DeFi intelligence MCP (Meteora DLMM `meteora_brief` + `meteora_pool_detail`, Solana DEX +
+          DefiLlama scout). Commerce tools are secondary. Hosted at https://agentshare.dev/mcp
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: anhmtk/agentshare-mcp
     html_url: https://github.com/anhmtk/agentshare-mcp
-    created_at: "2026-04-13T05:56:31Z"
-    pushed_at: "2026-09-16T12:49:42Z"
-    description: Agent-paid API for AI agents — dual-auth (API key or x402), MCP Streamable HTTP, free discovery. Commerce + Solana/Meteora demos secondary. https://agentshare.dev
+    created_at: '2026-04-13T05:56:31Z'
+    pushed_at: '2026-09-16T12:49:42Z'
+    description: >-
+      Agent-paid API for AI agents — dual-auth (API key or x402), MCP Streamable HTTP, free discovery. Commerce +
+      Solana/Meteora demos secondary. https://agentshare.dev
     homepage: https://agentshare.dev
     topics:
       - agent-discovery
@@ -55,14 +61,20 @@ metadata:
       - solana
       - x402
       - x402protocol
-    last_checked_at: "2026-09-17T04:13:44.475Z"
+    last_checked_at: '2026-09-17T04:13:44.475Z'
     readme:
-      fetched_at: "2026-09-17T04:13:44.475Z"
+      fetched_at: '2026-09-17T04:13:44.475Z'
       bytes: 14680
 insights:
-  summary: MCP server exposing DeFi and e-commerce intelligence tools for AI agents, including Meteora DLMM briefs, DEX scouting, and product price comparison via Streamable HTTP.
-  why_it_matters: It gives AI agents structured access to live Solana DeFi data and commerce APIs without custom integrations, plugging directly into Cursor, Claude Desktop, and other MCP clients.
-  mental_damage: Now your IDE assistant can analyze crypto liquidity pools and hunt for the cheapest online shopping deal in the same session, because the 'full-stack' title clearly needed more verticals.
+  summary: >-
+    MCP server exposing DeFi and e-commerce intelligence tools for AI agents, including Meteora DLMM briefs, DEX
+    scouting, and product price comparison via Streamable HTTP.
+  why_it_matters: >-
+    It gives AI agents structured access to live Solana DeFi data and commerce APIs without custom integrations,
+    plugging directly into Cursor, Claude Desktop, and other MCP clients.
+  mental_damage: >-
+    Now your IDE assistant can analyze crypto liquidity pools and hunt for the cheapest online shopping deal in the same
+    session, because the 'full-stack' title clearly needed more verticals.
   tags:
     - mcp
     - defi
@@ -72,31 +84,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: This is a purpose-built MCP server whose entire identity is exposing DeFi and commerce tools over the Model Context Protocol; it belongs in MCP Servers & Tooling as a domain-specific server.
+  reason: >-
+    This is a purpose-built MCP server whose entire identity is exposing DeFi and commerce tools over the Model Context
+    Protocol; it belongs in MCP Servers & Tooling as a domain-specific server.
   evidence:
-    - Repo description explicitly labels it an 'MCP server' with '11 tools via Streamable HTTP' for 'Cursor, Claude Desktop, MCP clients'.
-    - README catalogs 11 MCP tools including solana_dex_brief, meteora_brief, and search_products, centered on the MCP endpoint at /mcp.
+    - >-
+      Repo description explicitly labels it an 'MCP server' with '11 tools via Streamable HTTP' for 'Cursor, Claude
+      Desktop, MCP clients'.
+    - >-
+      README catalogs 11 MCP tools including solana_dex_brief, meteora_brief, and search_products, centered on the MCP
+      endpoint at /mcp.
     - Listed in awesome-mcp-servers under Server Implementations, confirming its identity as MCP infrastructure.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.714Z"
+    updated_at: '2026-07-16T05:04:46.714Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:44.475Z"
+    updated_at: '2026-09-17T04:13:44.475Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T05:18:16.265Z"
+    updated_at: '2026-07-20T05:18:16.265Z'
     cause: null
     next_retry_at: null
     attempts: 2

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__forgemeshlabs__aso-audit-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,16 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: forgemeshlabs/aso-audit-mcp
         extracted_url: https://github.com/forgemeshlabs/aso-audit-mcp
-        surrounding_text: "- [forgemeshlabs/aso-audit-mcp](https://github.com/forgemeshlabs/aso-audit-mcp) [![forgemeshlabs/aso-audit-mcp MCP server](https://glama.ai/mcp/servers/forgemeshlabs/aso-audit-mcp/badges/score.svg)](https://glama.ai/mcp/servers/forgemeshlabs/aso-audit-mcp) 📇 🏠 ☁️ 🍎 🪟 🐧 - Free Agent Signal Optimization scanner for website/API agent readiness. Scores discovery, identity, trust, commerce, reputation, and memory signals; validates robots.txt AI bot rules, llms.txt, agent.json, Google A2A agent cards, MCP server cards, API catalogs, OAuth metadata, x402, pricing, security.txt, status endpoints, and cross-file identity consistency. Returns ASO maturity levels, evidence, and prioritized fix plans. Local stdio or Glama-hosted, no API key required. `npx -y @forgemeshlabs/aso-audit-mcp`."
+        surrounding_text: >-
+          - [forgemeshlabs/aso-audit-mcp](https://github.com/forgemeshlabs/aso-audit-mcp) [![forgemeshlabs/aso-audit-mcp
+          MCP
+          server](https://glama.ai/mcp/servers/forgemeshlabs/aso-audit-mcp/badges/score.svg)](https://glama.ai/mcp/servers/forgemeshlabs/aso-audit-mcp)
+          📇 🏠 ☁️ 🍎 🪟 🐧 - Free Agent Signal Optimization scanner for website/API agent readiness. Scores discovery,
+          identity, trust, commerce, reputation, and memory signals; validates robots.txt AI bot rules, llms.txt,
+          agent.json, Google A2A agent cards, MCP server cards, API catalogs, OAuth metadata, x402, pricing,
+          security.txt, status endpoints, and cross-file identity consistency. Returns ASO maturity levels, evidence,
+          and prioritized fix plans. Local stdio or Glama-hosted, no API key required. `npx -y
+          @forgemeshlabs/aso-audit-mcp`.
         confidence: high
 metadata:
   github:
@@ -30,19 +39,28 @@ metadata:
     archived: false
     full_name: forgemeshlabs/aso-audit-mcp
     html_url: https://github.com/forgemeshlabs/aso-audit-mcp
-    created_at: "2026-06-10T16:28:30Z"
-    pushed_at: "2026-09-01T18:42:14Z"
-    description: Open-source Agent Signal Optimization audit MCP for scanning websites, APIs, and product surfaces for AI agent discoverability and readiness signals.
+    created_at: '2026-06-10T16:28:30Z'
+    pushed_at: '2026-09-01T18:42:14Z'
+    description: >-
+      Open-source Agent Signal Optimization audit MCP for scanning websites, APIs, and product surfaces for AI agent
+      discoverability and readiness signals.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:42.837Z"
+    last_checked_at: '2026-09-03T05:16:42.837Z'
     readme:
-      fetched_at: "2026-09-03T05:16:42.837Z"
+      fetched_at: '2026-09-03T05:16:42.837Z'
       bytes: 12049
 insights:
-  summary: Open-source MCP server that audits websites and APIs for AI agent discoverability signals, scoring them against an experimental Agent Signal Optimization (ASO) framework.
-  why_it_matters: Developers exposing sites or APIs to AI agents can plug it into MCP clients like Claude Code or Cursor to automatically detect missing interoperability, trust, and commerce signals—llms.txt, A2A agent cards, and MCP server cards—before agents do.
-  mental_damage: Your website now needs SEO for Google, ASO for agents, and an MCP server to grade your ASO—bringing the total audit surface area to roughly infinity.
+  summary: >-
+    Open-source MCP server that audits websites and APIs for AI agent discoverability signals, scoring them against an
+    experimental Agent Signal Optimization (ASO) framework.
+  why_it_matters: >-
+    Developers exposing sites or APIs to AI agents can plug it into MCP clients like Claude Code or Cursor to
+    automatically detect missing interoperability, trust, and commerce signals—llms.txt, A2A agent cards, and MCP server
+    cards—before agents do.
+  mental_damage: >-
+    Your website now needs SEO for Google, ASO for agents, and an MCP server to grade your ASO—bringing the total audit
+    surface area to roughly infinity.
   tags:
     - mcp
     - agent-readiness
@@ -52,31 +70,37 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: It is an MCP server whose entire product identity is exposing website and API audit tools via the Model Context Protocol, fitting squarely in MCP Servers & Tooling.
+  reason: >-
+    It is an MCP server whose entire product identity is exposing website and API audit tools via the Model Context
+    Protocol, fitting squarely in MCP Servers & Tooling.
   evidence:
-    - Repo description explicitly labels it an 'Open-source Agent Signal Optimization audit MCP' for scanning sites and APIs.
-    - README shows it exposes MCP tools (`scan_site`, `check_signal`) and is installed via `claude mcp add` or standard MCP client JSON config.
+    - >-
+      Repo description explicitly labels it an 'Open-source Agent Signal Optimization audit MCP' for scanning sites and
+      APIs.
+    - >-
+      README shows it exposes MCP tools (`scan_site`, `check_signal`) and is installed via `claude mcp add` or standard
+      MCP client JSON config.
     - Appears in awesome-mcp-servers under Developer Tools, confirming its curation as MCP infrastructure.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-15T05:51:04.989Z"
+    updated_at: '2026-06-15T05:51:04.989Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:42.837Z"
+    updated_at: '2026-09-03T05:16:42.837Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-25T05:28:22.163Z"
+    updated_at: '2026-06-25T05:28:22.163Z'
     cause: null
     next_retry_at: null
     attempts: 1

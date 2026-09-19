@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__musepy__genable__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: musepy/genable
         extracted_url: https://github.com/musepy/genable
-        surrounding_text: "- [musepy/genable](https://github.com/musepy/genable) [![musepy/genable MCP server](https://glama.ai/mcp/servers/musepy/genable/badges/score.svg)](https://glama.ai/mcp/servers/musepy/genable) 📇 🏠 🍎 🪟 🐧 - Write-side MCP for Figma — complements Figma's official read-only MCP. 41 tools for building and editing Figma designs from Claude Code, Cursor, Cline: JSX-like tree creation, variables/tokens, components, cross-page navigation, and visual verification via screenshots. Install: `npx -y genable-mcp`."
+        surrounding_text: >-
+          - [musepy/genable](https://github.com/musepy/genable) [![musepy/genable MCP
+          server](https://glama.ai/mcp/servers/musepy/genable/badges/score.svg)](https://glama.ai/mcp/servers/musepy/genable)
+          📇 🏠 🍎 🪟 🐧 - Write-side MCP for Figma — complements Figma's official read-only MCP. 41 tools for building
+          and editing Figma designs from Claude Code, Cursor, Cline: JSX-like tree creation, variables/tokens,
+          components, cross-page navigation, and visual verification via screenshots. Install: `npx -y genable-mcp`.
         confidence: high
 metadata:
   github:
@@ -30,10 +35,11 @@ metadata:
     archived: false
     full_name: musepy/genable
     html_url: https://github.com/musepy/genable
-    created_at: "2026-05-07T00:15:59Z"
-    pushed_at: "2026-07-14T11:04:29Z"
-    description: "Quality-first AI UI generator for Figma. Multi-protocol: Gemini · Claude · OpenAI-compatible."
-    homepage: https://www.figma.com/community/plugin/1583731690321161934/genable-ai-ui-design-generator-prompt-to-ui-dashboard-landing-page-mobile-app
+    created_at: '2026-05-07T00:15:59Z'
+    pushed_at: '2026-07-14T11:04:29Z'
+    description: 'Quality-first AI UI generator for Figma. Multi-protocol: Gemini · Claude · OpenAI-compatible.'
+    homepage: >-
+      https://www.figma.com/community/plugin/1583731690321161934/genable-ai-ui-design-generator-prompt-to-ui-dashboard-landing-page-mobile-app
     topics:
       - ai
       - claude
@@ -45,14 +51,16 @@ metadata:
       - prompt-to-ui
       - ui-design
       - ui-generator
-    last_checked_at: "2026-07-23T05:09:44.658Z"
+    last_checked_at: '2026-07-23T05:09:44.658Z'
     readme:
-      fetched_at: "2026-07-23T05:09:44.658Z"
+      fetched_at: '2026-07-23T05:09:44.658Z'
       bytes: 5780
 insights:
   summary: A prompt-to-UI generator that creates editable Figma layers, components, and variables via a plugin or MCP server.
   why_it_matters: It allows developers to use coding agents to generate structured, production-ready design assets directly in Figma.
-  mental_damage: Your coding agent can now move past writing broken CSS and start generating high-fidelity design debt directly in your Figma files.
+  mental_damage: >-
+    Your coding agent can now move past writing broken CSS and start generating high-fidelity design debt directly in
+    your Figma files.
   tags:
     - figma
     - mcp
@@ -61,33 +69,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: While it is a UI generator, its primary value for developers is the MCP server that extends coding assistants with Figma capabilities.
+  reason: >-
+    While it is a UI generator, its primary value for developers is the MCP server that extends coding assistants with
+    Figma capabilities.
   evidence:
     - Provides a `genable-mcp` server for integration with Claude Code, Cursor, and Cline
     - Generates structured Figma elements like Auto Layout, components, and variables rather than flat images
     - Functions as both a standalone Figma plugin and an agentic MCP tool
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: API & Service Integrations
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.820Z"
+    updated_at: '2026-05-28T05:28:09.820Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-08-03T05:17:08.908Z"
+    updated_at: '2026-08-03T05:17:08.908Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for musepy/genable
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-06T05:48:56.810Z"
+    updated_at: '2026-07-06T05:48:56.810Z'
     cause: null
     next_retry_at: null
     attempts: 1

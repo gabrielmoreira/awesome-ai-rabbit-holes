@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mingye-lu__agenticcrawler__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: Mingye-Lu/AgenticCrawler
         extracted_url: https://github.com/mingye-lu/agenticcrawler
-        surrounding_text: "- [Mingye-Lu/AgenticCrawler](https://github.com/Mingye-Lu/AgenticCrawler) [![Mingye-Lu/AgenticCrawler MCP server](https://glama.ai/mcp/servers/Mingye-Lu/AgenticCrawler/badges/score.svg)](https://glama.ai/mcp/servers/Mingye-Lu/AgenticCrawler) 🦀 🏠 🍎 🪟 🐧 - Autonomous LLM-powered web crawler with 17 browser tools and goal-driven agent. Single binary, stealth browsing, 25 LLM providers."
+        surrounding_text: >-
+          - [Mingye-Lu/AgenticCrawler](https://github.com/Mingye-Lu/AgenticCrawler) [![Mingye-Lu/AgenticCrawler MCP
+          server](https://glama.ai/mcp/servers/Mingye-Lu/AgenticCrawler/badges/score.svg)](https://glama.ai/mcp/servers/Mingye-Lu/AgenticCrawler)
+          🦀 🏠 🍎 🪟 🐧 - Autonomous LLM-powered web crawler with 17 browser tools and goal-driven agent. Single
+          binary, stealth browsing, 25 LLM providers.
         confidence: high
 metadata:
   github:
@@ -30,10 +34,12 @@ metadata:
     archived: false
     full_name: Mingye-Lu/AgenticCrawler
     html_url: https://github.com/Mingye-Lu/AgenticCrawler
-    created_at: "2026-03-30T18:10:45Z"
-    pushed_at: "2026-07-31T07:59:31Z"
-    description: acrawl — LLM-powered web crawler. Describe what you want in plain English, get structured data back. Single Rust binary, 25 providers, MCP server built-in.
-    homepage: ""
+    created_at: '2026-03-30T18:10:45Z'
+    pushed_at: '2026-07-31T07:59:31Z'
+    description: >-
+      acrawl — LLM-powered web crawler. Describe what you want in plain English, get structured data back. Single Rust
+      binary, 25 providers, MCP server built-in.
+    homepage: ''
     topics:
       - ai-agent
       - autonomous-agents
@@ -53,14 +59,20 @@ metadata:
       - rust
       - web-crawler
       - web-scraping
-    last_checked_at: "2026-08-03T05:17:03.881Z"
+    last_checked_at: '2026-08-03T05:17:03.881Z'
     readme:
-      fetched_at: "2026-08-03T05:17:03.881Z"
+      fetched_at: '2026-08-03T05:17:03.881Z'
       bytes: 54420
 insights:
-  summary: acrawl is a single Rust binary LLM-powered web crawler that lets users describe goals in plain English to extract structured data using built-in MCP server and client capabilities.
-  why_it_matters: It enables developers to automate complex browser tasks with full DevTools observability without needing Python, Node, or writing code.
-  mental_damage: Finally, a tool that lets you pretend you’re not wrestling with Playwright while still wrestling with Playwright under the hood.
+  summary: >-
+    acrawl is a single Rust binary LLM-powered web crawler that lets users describe goals in plain English to extract
+    structured data using built-in MCP server and client capabilities.
+  why_it_matters: >-
+    It enables developers to automate complex browser tasks with full DevTools observability without needing Python,
+    Node, or writing code.
+  mental_damage: >-
+    Finally, a tool that lets you pretend you’re not wrestling with Playwright while still wrestling with Playwright
+    under the hood.
   tags:
     - web-crawler
     - mcp
@@ -70,31 +82,41 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: acrawl primarily functions as an MCP server that exposes browser and DevTools capabilities to other AI assistants like Claude Code or Cursor, making it an integration layer rather than a standalone coding assistant.
+  reason: >-
+    acrawl primarily functions as an MCP server that exposes browser and DevTools capabilities to other AI assistants
+    like Claude Code or Cursor, making it an integration layer rather than a standalone coding assistant.
   evidence:
-    - "MCP client and server are highlighted as core features: 'MCP client and server. Extend the agent with custom tools via MCP servers. Or flip it: `acrawl mcp` exposes 38 browser and DevTools tools plus `run_goal` to Claude Code, Cursor, VS Code, Zed, and 13 other clients.'"
-    - It augments other assistants by giving them access to browser automation, network inspection, console analysis, and performance profiling — host capabilities, not code editing.
-    - "The README emphasizes acting as a tool provider for other agents: 'acrawl mcp exposes 38 browser and DevTools tools plus `run_goal`' to external clients, positioning it as a service layer."
+    - >-
+      MCP client and server are highlighted as core features: 'MCP client and server. Extend the agent with custom tools
+      via MCP servers. Or flip it: `acrawl mcp` exposes 38 browser and DevTools tools plus `run_goal` to Claude Code,
+      Cursor, VS Code, Zed, and 13 other clients.'
+    - >-
+      It augments other assistants by giving them access to browser automation, network inspection, console analysis,
+      and performance profiling — host capabilities, not code editing.
+    - >-
+      The README emphasizes acting as a tool provider for other agents: 'acrawl mcp exposes 38 browser and DevTools
+      tools plus `run_goal`' to external clients, positioning it as a service layer.
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: mcp
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-15T05:51:04.989Z"
+    updated_at: '2026-06-15T05:51:04.989Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:03.881Z"
+    updated_at: '2026-08-03T05:17:03.881Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-09T05:33:13.620Z"
+    updated_at: '2026-07-09T05:33:13.620Z'
     cause: null
     next_retry_at: null
     attempts: 2

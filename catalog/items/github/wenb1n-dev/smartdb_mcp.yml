@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wenb1n-dev__smartdb_mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: wenb1n-dev/SmartDB_MCP
         extracted_url: https://github.com/wenb1n-dev/smartdb_mcp
-        surrounding_text: "- [wenb1n-dev/SmartDB_MCP](https://github.com/wenb1n-dev/SmartDB_MCP)  🐍 🏠 - A universal database MCP server supporting simultaneous connections to multiple databases. It provides tools for database operations, health analysis, SQL optimization, and more. Compatible with mainstream databases including MySQL, PostgreSQL, SQL Server, MariaDB, Dameng, and Oracle. Supports Streamable HTTP, SSE, and STDIO; integrates OAuth 2.0; and is designed for easy customization and extension by developers."
+        surrounding_text: >-
+          - [wenb1n-dev/SmartDB_MCP](https://github.com/wenb1n-dev/SmartDB_MCP)  🐍 🏠 - A universal database MCP server
+          supporting simultaneous connections to multiple databases. It provides tools for database operations, health
+          analysis, SQL optimization, and more. Compatible with mainstream databases including MySQL, PostgreSQL, SQL
+          Server, MariaDB, Dameng, and Oracle. Supports Streamable HTTP, SSE, and STDIO; integrates OAuth 2.0; and is
+          designed for easy customization and extension by developers.
         confidence: high
 metadata:
   github:
@@ -30,10 +35,13 @@ metadata:
     archived: false
     full_name: wenb1n-dev/SmartDB_MCP
     html_url: https://github.com/wenb1n-dev/SmartDB_MCP
-    created_at: "2025-08-16T12:51:33Z"
-    pushed_at: "2025-09-14T04:37:20Z"
-    description: Universal database MCP server connecting to MySQL, PostgreSQL, SQL Server, MariaDB,DM8,Oracle,not only provides basic database connection such as OAuth 2.0 authentication , health checks, SQL optimization, and index health detection
-    homepage: ""
+    created_at: '2025-08-16T12:51:33Z'
+    pushed_at: '2025-09-14T04:37:20Z'
+    description: >-
+      Universal database MCP server connecting to MySQL, PostgreSQL, SQL Server, MariaDB,DM8,Oracle,not only provides
+      basic database connection such as OAuth 2.0 authentication , health checks, SQL optimization, and index health
+      detection
+    homepage: ''
     topics:
       - ai
       - dameng8
@@ -45,13 +53,17 @@ metadata:
       - oracle
       - postgresql
       - sqlserver
-    last_checked_at: "2026-07-21T15:21:11.995Z"
+    last_checked_at: '2026-07-21T15:21:11.995Z'
     readme:
-      fetched_at: "2026-07-21T15:21:11.995Z"
+      fetched_at: '2026-07-21T15:21:11.995Z'
       bytes: 12275
 insights:
-  summary: SmartDB is an MCP server that provides universal database connectivity and tooling for MySQL, PostgreSQL, Oracle, SQL Server, and Dameng databases.
-  why_it_matters: It lets MCP-compatible AI clients securely interact with and optimize multiple database systems through standardized tool calls.
+  summary: >-
+    SmartDB is an MCP server that provides universal database connectivity and tooling for MySQL, PostgreSQL, Oracle,
+    SQL Server, and Dameng databases.
+  why_it_matters: >-
+    It lets MCP-compatible AI clients securely interact with and optimize multiple database systems through standardized
+    tool calls.
   mental_damage: Another day, another MCP server promising to make your AI less stupid about databases—until it times out on a JOIN.
   tags:
     - mcp
@@ -60,31 +72,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: SmartDB is an MCP server first and foremost, offering database-specific tools via the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
+  reason: >-
+    SmartDB is an MCP server first and foremost, offering database-specific tools via the Model Context Protocol, making
+    it a clear fit for MCP Servers & Tooling.
   evidence:
-    - "Repo description: 'Universal database MCP server connecting to MySQL, PostgreSQL, SQL Server, MariaDB, DM8, Oracle'"
-    - "README: 'SmartDB is a universal database gateway that implements the Model Context Protocol (MCP) server interface'"
+    - >-
+      Repo description: 'Universal database MCP server connecting to MySQL, PostgreSQL, SQL Server, MariaDB, DM8,
+      Oracle'
+    - >-
+      README: 'SmartDB is a universal database gateway that implements the Model Context Protocol (MCP) server
+      interface'
     - Listed in awesome-mcp-servers under Server Implementations > Databases
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.655Z"
+    updated_at: '2026-05-06T22:12:15.655Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:11.995Z"
+    updated_at: '2026-07-21T15:21:11.995Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:33:16.601Z"
+    updated_at: '2026-05-12T15:33:16.601Z'
     cause: null
     next_retry_at: null
     attempts: 1

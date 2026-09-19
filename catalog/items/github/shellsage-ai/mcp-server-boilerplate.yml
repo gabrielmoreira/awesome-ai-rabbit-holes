@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__shellsage-ai__mcp-server-boilerplate__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: shellsage-ai/mcp-server-boilerplate
         extracted_url: https://github.com/shellsage-ai/mcp-server-boilerplate
-        surrounding_text: "- [shellsage-ai/mcp-server-boilerplate](https://github.com/shellsage-ai/mcp-server-boilerplate) [![mcp-server-boilerplate MCP server](https://glama.ai/mcp/servers/@shellsage-ai/mcp-server-boilerplate/badges/score.svg)](https://glama.ai/mcp/servers/@shellsage-ai/mcp-server-boilerplate) 📇 🐍 🏠 - Production-ready MCP server starter templates in TypeScript and Python. Includes tool, resource, and prompt patterns with Claude Desktop integration configs."
+        surrounding_text: >-
+          - [shellsage-ai/mcp-server-boilerplate](https://github.com/shellsage-ai/mcp-server-boilerplate)
+          [![mcp-server-boilerplate MCP
+          server](https://glama.ai/mcp/servers/@shellsage-ai/mcp-server-boilerplate/badges/score.svg)](https://glama.ai/mcp/servers/@shellsage-ai/mcp-server-boilerplate)
+          📇 🐍 🏠 - Production-ready MCP server starter templates in TypeScript and Python. Includes tool, resource,
+          and prompt patterns with Claude Desktop integration configs.
         confidence: high
 metadata:
   github:
@@ -30,14 +35,16 @@ metadata:
     archived: false
     full_name: shellsage-ai/mcp-server-boilerplate
     html_url: https://github.com/shellsage-ai/mcp-server-boilerplate
-    created_at: "2026-02-28T22:14:45Z"
-    pushed_at: "2026-03-06T00:28:58Z"
-    description: Production-ready MCP server templates in TypeScript and Python. Quickstart boilerplate for building Model Context Protocol servers.
+    created_at: '2026-02-28T22:14:45Z'
+    pushed_at: '2026-03-06T00:28:58Z'
+    description: >-
+      Production-ready MCP server templates in TypeScript and Python. Quickstart boilerplate for building Model Context
+      Protocol servers.
     homepage: https://shellsage-ai.github.io/
     topics: []
-    last_checked_at: "2026-07-20T16:42:55.673Z"
+    last_checked_at: '2026-07-20T16:42:55.673Z'
     readme:
-      fetched_at: "2026-07-20T16:42:55.673Z"
+      fetched_at: '2026-07-20T16:42:55.673Z'
       bytes: 3803
 insights:
   summary: Production-ready starter templates for building Model Context Protocol servers in TypeScript and Python.
@@ -52,35 +59,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product identity is a starter kit and set of templates specifically for building MCP servers, which fits squarely into MCP Servers & Tooling.
+  reason: >-
+    The product identity is a starter kit and set of templates specifically for building MCP servers, which fits
+    squarely into MCP Servers & Tooling.
   evidence:
-    - "Repo description states: 'Production-ready MCP server templates in TypeScript and Python.'"
+    - 'Repo description states: ''Production-ready MCP server templates in TypeScript and Python.'''
     - README defines it as 'starter templates for building Model Context Protocol servers' with SDK examples.
     - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Clients & Inspector Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.647Z"
+    updated_at: '2026-05-06T22:12:15.647Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:55.673Z"
+    updated_at: '2026-07-20T16:42:55.673Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

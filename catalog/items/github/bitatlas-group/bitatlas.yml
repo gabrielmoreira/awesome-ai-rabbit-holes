@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bitatlas-group__bitatlas__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: bitatlas-group/bitatlas
         extracted_url: https://github.com/bitatlas-group/bitatlas
-        surrounding_text: "- [bitatlas-group/bitatlas](https://github.com/bitatlas-group/bitatlas) [![bitatlas MCP server](https://glama.ai/mcp/servers/bitatlas-group/bitatlas/badges/score.svg)](https://glama.ai/mcp/servers/bitatlas-group/bitatlas) 📇 ☁️ - Zero-Knowledge Cloud Drive for Humans and Agents. Client-side AES-256-GCM encryption with 7 MCP tools for encrypted file vault management — upload, download, search, and organize files that the server never sees in plaintext."
+        surrounding_text: >-
+          - [bitatlas-group/bitatlas](https://github.com/bitatlas-group/bitatlas) [![bitatlas MCP
+          server](https://glama.ai/mcp/servers/bitatlas-group/bitatlas/badges/score.svg)](https://glama.ai/mcp/servers/bitatlas-group/bitatlas)
+          📇 ☁️ - Zero-Knowledge Cloud Drive for Humans and Agents. Client-side AES-256-GCM encryption with 7 MCP tools
+          for encrypted file vault management — upload, download, search, and organize files that the server never sees
+          in plaintext.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: bitatlas-group/bitatlas
     html_url: https://github.com/bitatlas-group/bitatlas
-    created_at: "2026-03-17T13:22:21Z"
-    pushed_at: "2026-09-06T07:12:45Z"
+    created_at: '2026-03-17T13:22:21Z'
+    pushed_at: '2026-09-06T07:12:45Z'
     description: Zero Knowledge Cloud Drive for Humans and Agents
     homepage: null
     topics:
@@ -44,13 +49,15 @@ metadata:
       - vault
       - x402
       - zero-knowledge
-    last_checked_at: "2026-09-07T04:13:34.481Z"
+    last_checked_at: '2026-09-07T04:13:34.481Z'
     readme:
-      fetched_at: "2026-09-07T04:13:34.481Z"
+      fetched_at: '2026-09-07T04:13:34.481Z'
       bytes: 2571
 insights:
   summary: Zero Knowledge Cloud Drive with MCP server integration for AI agents and humans.
-  why_it_matters: Enables developers to securely store and share sensitive documents with AI agents via end-to-end encryption and MCP, without exposing plaintext data to the server.
+  why_it_matters: >-
+    Enables developers to securely store and share sensitive documents with AI agents via end-to-end encryption and MCP,
+    without exposing plaintext data to the server.
   mental_damage: Now your AI agents can hoard your secrets as obsessively as you do.
   tags:
     - zero-knowledge
@@ -61,31 +68,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: it is explicitly an MCP server for secure agent-accessible storage, not just a compatibility feature."
+  reason: >-
+    MCP is the product identity here: it is explicitly an MCP server for secure agent-accessible storage, not just a
+    compatibility feature.
   evidence:
-    - "Repo description: 'Zero Knowledge Cloud Drive for Humans and Agents'"
+    - 'Repo description: ''Zero Knowledge Cloud Drive for Humans and Agents'''
     - README highlights MCP server as core integration for AI agents
     - Topics include 'mcp', 'mcp-server', 'model-context-protocol'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:34.481Z"
+    updated_at: '2026-09-07T04:13:34.481Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:26:10.330Z"
+    updated_at: '2026-07-21T15:26:10.330Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -98,14 +108,18 @@ processing:
       input_hash: sha256:633b1fc3527c7193917993f57a17babd036175b648ff62affb189b75e34af045
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: it is explicitly an MCP server for secure agent-accessible storage, not just a compatibility feature."
+      decision_reason: >-
+        MCP is the product identity here: it is explicitly an MCP server for secure agent-accessible storage, not just a
+        compatibility feature.
       decision_evidence:
-        - "Repo description: 'Zero Knowledge Cloud Drive for Humans and Agents'"
+        - 'Repo description: ''Zero Knowledge Cloud Drive for Humans and Agents'''
         - README highlights MCP server as core integration for AI agents
         - Topics include 'mcp', 'mcp-server', 'model-context-protocol'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary product is an MCP server for secure storage, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary product is an MCP server for secure storage, not an
+        extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

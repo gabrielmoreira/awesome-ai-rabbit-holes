@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sgl-project__sglang__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -19,10 +19,13 @@ provenance:
           - Inference Engine
         anchor_text: SGLang
         extracted_url: https://github.com/sgl-project/sglang
-        surrounding_text: "| [SGLang](https://github.com/sgl-project/sglang)                 | - 3-5x higher throughput than vLLM (Control flow, RadixAttention, KV cache reuse)    | Safetensor / AWQ / GPTQ | GPU             | ❌  | Python      | Text-Gen      |"
+        surrounding_text: >-
+          | [SGLang](https://github.com/sgl-project/sglang)                 | - 3-5x higher throughput than vLLM
+          (Control flow, RadixAttention, KV cache reuse)    | Safetensor / AWQ / GPTQ | GPU             | ❌  |
+          Python      | Text-Gen      |
         confidence: high
     - id: discovery__github__sgl-project__sglang__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,7 +37,9 @@ provenance:
           - 推理 Inference
         anchor_text: SGLang (`🔥`)
         extracted_url: https://github.com/sgl-project/sglang
-        surrounding_text: "28. [SGLang (`🔥`)](https://github.com/sgl-project/sglang): SGLang is yet another fast serving framework for large language models and vision language models."
+        surrounding_text: >-
+          28. [SGLang (`🔥`)](https://github.com/sgl-project/sglang): SGLang is yet another fast serving framework for
+          large language models and vision language models.
         confidence: high
 metadata:
   github:
@@ -44,8 +49,8 @@ metadata:
     archived: false
     full_name: sgl-project/sglang
     html_url: https://github.com/sgl-project/sglang
-    created_at: "2024-01-08T04:15:52Z"
-    pushed_at: "2026-07-20T15:30:12Z"
+    created_at: '2024-01-08T04:15:52Z'
+    pushed_at: '2026-07-20T15:30:12Z'
     description: SGLang is a high-performance serving framework for large language models and multimodal models.
     homepage: https://sglang.io
     topics:
@@ -67,14 +72,20 @@ metadata:
       - transformer
       - vlm
       - wan
-    last_checked_at: "2026-07-20T16:42:54.746Z"
+    last_checked_at: '2026-07-20T16:42:54.746Z'
     readme:
-      fetched_at: "2026-07-20T16:42:54.746Z"
+      fetched_at: '2026-07-20T16:42:54.746Z'
       bytes: 11449
 insights:
-  summary: SGLang is a high-performance serving framework for running and scaling large language models and multimodal models locally or in infrastructure.
-  why_it_matters: It lets developers self-host and serve modern LLMs and VLMs with optimized inference performance across CUDA, TPU, and Blackwell hardware.
-  mental_damage: Yet another carefully tuned inference stack to master while you wait for the one model that finally makes your local GPU stop sounding like a jet engine.
+  summary: >-
+    SGLang is a high-performance serving framework for running and scaling large language models and multimodal models
+    locally or in infrastructure.
+  why_it_matters: >-
+    It lets developers self-host and serve modern LLMs and VLMs with optimized inference performance across CUDA, TPU,
+    and Blackwell hardware.
+  mental_damage: >-
+    Yet another carefully tuned inference stack to master while you wait for the one model that finally makes your local
+    GPU stop sounding like a jet engine.
   tags:
     - llm
     - inference
@@ -84,35 +95,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: SGLang is a developer-facing serving stack whose core identity is high-performance local or self-hosted LLM/VLM inference rather than a coding assistant, IDE, or framework.
+  reason: >-
+    SGLang is a developer-facing serving stack whose core identity is high-performance local or self-hosted LLM/VLM
+    inference rather than a coding assistant, IDE, or framework.
   evidence:
     - Repo description states it is a high-performance serving framework for LLMs and multimodal models.
     - Topics and README emphasize inference, CUDA, TPU, Blackwell, and day-0 model support rather than coding workflows.
     - Included in awesome-local-ai under Inference Engine, reinforcing its local serving role.
 placement:
   primary_category: local-ai
-  section: Local Serving / APIs
+  secondary_categories: []
+  section: Inference Engines
 lifecycle:
   status: promotion_candidate
   reason: Stars (27142) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.593Z"
+    updated_at: '2026-05-06T22:12:15.593Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:54.746Z"
+    updated_at: '2026-07-20T16:42:54.746Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

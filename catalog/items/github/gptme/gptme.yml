@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gptme__gptme__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Open Source
         anchor_text: gptme
         extracted_url: https://github.com/gptme/gptme
-        surrounding_text: "- **[gptme](https://github.com/gptme/gptme)** `⭐ 4.3k` — AI agent in your terminal with support for persistent autonomous agents. Runs code, edits files, browses the web. Build long-lived self-modifying agents with git-backed memory via [gptme-agent-template](https://github.com/gptme/gptme-agent-template)."
+        surrounding_text: >-
+          - **[gptme](https://github.com/gptme/gptme)** `⭐ 4.3k` — AI agent in your terminal with support for persistent
+          autonomous agents. Runs code, edits files, browses the web. Build long-lived self-modifying agents with
+          git-backed memory via [gptme-agent-template](https://github.com/gptme/gptme-agent-template).
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: gptme/gptme
     html_url: https://github.com/gptme/gptme
-    created_at: "2023-03-24T16:25:01Z"
-    pushed_at: "2026-09-03T04:11:41Z"
-    description: "Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web. Make your own persistent autonomous agent on top!"
+    created_at: '2023-03-24T16:25:01Z'
+    pushed_at: '2026-09-03T04:11:41Z'
+    description: >-
+      Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web. Make your
+      own persistent autonomous agent on top!
     homepage: https://gptme.org/docs/
     topics:
       - agent
@@ -51,13 +56,17 @@ metadata:
       - openai
       - openrouter
       - rag
-    last_checked_at: "2026-09-03T05:16:53.244Z"
+    last_checked_at: '2026-09-03T05:16:53.244Z'
     readme:
-      fetched_at: "2026-09-03T05:16:53.244Z"
+      fetched_at: '2026-09-03T05:16:53.244Z'
       bytes: 38076
 insights:
-  summary: A terminal-native AI agent that writes code, uses the terminal, and browses the web, with support for local models and provider-agnostic operation.
-  why_it_matters: Developers can run a persistent, autonomous coding agent directly in their terminal, SSH sessions, or CI pipelines without relying on a hosted IDE or editor.
+  summary: >-
+    A terminal-native AI agent that writes code, uses the terminal, and browses the web, with support for local models
+    and provider-agnostic operation.
+  why_it_matters: >-
+    Developers can run a persistent, autonomous coding agent directly in their terminal, SSH sessions, or CI pipelines
+    without relying on a hosted IDE or editor.
   mental_damage: Finally, an agent that can live in your tmux session and judge you silently from the command line.
   tags:
     - terminal-agent
@@ -68,13 +77,20 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a primary coding assistant that developers delegate repo work to in a terminal/CLI context, matching the canonical positives like Claude Code and OpenCode.
+  reason: >-
+    The product is a primary coding assistant that developers delegate repo work to in a terminal/CLI context, matching
+    the canonical positives like Claude Code and OpenCode.
   evidence:
-    - "Repo description: 'Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web.'"
-    - "README: 'A personal AI agent that runs anywhere a terminal runs... A great coding agent, but general-purpose enough to assist in all kinds of knowledge-work.'"
-    - "Source-list context: Listed in 'awesome-cli-coding-agents' under 'Terminal-native coding agents > Open Source'"
+    - >-
+      Repo description: 'Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses
+      the web.'
+    - >-
+      README: 'A personal AI agent that runs anywhere a terminal runs... A great coding agent, but general-purpose
+      enough to assist in all kinds of knowledge-work.'
+    - 'Source-list context: Listed in ''awesome-cli-coding-agents'' under ''Terminal-native coding agents > Open Source'''
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -82,17 +98,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.617Z"
+    updated_at: '2026-05-06T22:12:15.617Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:53.244Z"
+    updated_at: '2026-09-03T05:16:53.244Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:03:57.355Z"
+    updated_at: '2026-07-21T16:03:57.355Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -105,14 +121,22 @@ processing:
       input_hash: sha256:3bff8677d7cb3f5f0c034de9f5a4a6387adef1b22c2ccf2e6d3327cac8f10299
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: The product is a primary coding assistant that developers delegate repo work to in a terminal/CLI context, matching the canonical positives like Claude Code and OpenCode.
+      decision_reason: >-
+        The product is a primary coding assistant that developers delegate repo work to in a terminal/CLI context,
+        matching the canonical positives like Claude Code and OpenCode.
       decision_evidence:
-        - "Repo description: 'Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web.'"
-        - "README: 'A personal AI agent that runs anywhere a terminal runs... A great coding agent, but general-purpose enough to assist in all kinds of knowledge-work.'"
-        - "Source-list context: Listed in 'awesome-cli-coding-agents' under 'Terminal-native coding agents > Open Source'"
+        - >-
+          Repo description: 'Your agent in your terminal, equipped with local tools: writes code, uses the terminal,
+          browses the web.'
+        - >-
+          README: 'A personal AI agent that runs anywhere a terminal runs... A great coding agent, but general-purpose
+          enough to assist in all kinds of knowledge-work.'
+        - 'Source-list context: Listed in ''awesome-cli-coding-agents'' under ''Terminal-native coding agents > Open Source'''
       category_candidates:
         - coding-agents
         - local-ai
-      contrastive_reason: Choose coding-agents over local-ai because the primary identity is a coding assistant that operates in the terminal, not a local runtime or serving layer.
+      contrastive_reason: >-
+        Choose coding-agents over local-ai because the primary identity is a coding assistant that operates in the
+        terminal, not a local runtime or serving layer.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__user0856__snaprender-integrations__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: User0856/snaprender-mcp
         extracted_url: https://github.com/user0856/snaprender-integrations
-        surrounding_text: "- [User0856/snaprender-mcp](https://github.com/User0856/snaprender-integrations/tree/main/mcp-server) [![snaprender-mcp MCP server](https://glama.ai/mcp/servers/@User0856/snaprender-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@User0856/snaprender-mcp) 📇 ☁️ - Screenshot API for AI agents — capture any website as PNG, JPEG, WebP, or PDF with device emulation, dark mode, ad blocking, and cookie banner removal. Free tier included."
+        surrounding_text: >-
+          - [User0856/snaprender-mcp](https://github.com/User0856/snaprender-integrations/tree/main/mcp-server)
+          [![snaprender-mcp MCP
+          server](https://glama.ai/mcp/servers/@User0856/snaprender-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@User0856/snaprender-mcp)
+          📇 ☁️ - Screenshot API for AI agents — capture any website as PNG, JPEG, WebP, or PDF with device emulation,
+          dark mode, ad blocking, and cookie banner removal. Free tier included.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: User0856/snaprender-integrations
     html_url: https://github.com/User0856/snaprender-integrations
-    created_at: "2026-02-17T15:18:41Z"
-    pushed_at: "2026-06-09T20:19:31Z"
+    created_at: '2026-02-17T15:18:41Z'
+    pushed_at: '2026-06-09T20:19:31Z'
     description: Official integrations for SnapRender Screenshot API — MCP server, SDKs, OpenClaw, ChatGPT Actions, Postman
     homepage: null
     topics:
@@ -50,14 +55,18 @@ metadata:
       - n8n-nodes
       - screenshot-api
       - snaprender
-    last_checked_at: "2026-07-21T15:21:00.454Z"
+    last_checked_at: '2026-07-21T15:21:00.454Z'
     readme:
-      fetched_at: "2026-07-21T15:21:00.454Z"
+      fetched_at: '2026-07-21T15:21:00.454Z'
       bytes: 7371
 insights:
   summary: SnapRender Integrations provides MCP servers, SDKs, and agent framework plugins for the SnapRender Screenshot API.
-  why_it_matters: Developers can programmatically capture and cache website screenshots from AI agents and workflows using standard MCP and SDK interfaces.
-  mental_damage: Yet another screenshot API wrapped in MCP tooling so your AI agent can finally see the cookie banner it’s supposed to block.
+  why_it_matters: >-
+    Developers can programmatically capture and cache website screenshots from AI agents and workflows using standard
+    MCP and SDK interfaces.
+  mental_damage: >-
+    Yet another screenshot API wrapped in MCP tooling so your AI agent can finally see the cookie banner it’s supposed
+    to block.
   tags:
     - mcp
     - sdk
@@ -66,31 +75,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The project’s core value is providing integrations (MCP server, SDKs, framework plugins) that extend existing agents and tools with screenshot capabilities, rather than being a standalone coding agent or app builder.
+  reason: >-
+    The project’s core value is providing integrations (MCP server, SDKs, framework plugins) that extend existing agents
+    and tools with screenshot capabilities, rather than being a standalone coding agent or app builder.
   evidence:
-    - "Repo description: 'Official integrations for SnapRender Screenshot API — MCP server, SDKs, OpenClaw, ChatGPT Actions, Postman'"
-    - README details MCP server (remote/local), SDKs, and integrations for LangChain, CrewAI, AutoGen, n8n, OpenClaw, ChatGPT, and Postman
+    - >-
+      Repo description: 'Official integrations for SnapRender Screenshot API — MCP server, SDKs, OpenClaw, ChatGPT
+      Actions, Postman'
+    - >-
+      README details MCP server (remote/local), SDKs, and integrations for LangChain, CrewAI, AutoGen, n8n, OpenClaw,
+      ChatGPT, and Postman
     - Source-list appearance in awesome-mcp-servers under Server Implementations > Browser Automation
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: mcp
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.654Z"
+    updated_at: '2026-05-06T22:12:15.654Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:00.454Z"
+    updated_at: '2026-07-21T15:21:00.454Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:21:17.427Z"
+    updated_at: '2026-05-12T15:21:17.427Z'
     cause: null
     next_retry_at: null
     attempts: 1

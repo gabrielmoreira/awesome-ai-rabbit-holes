@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mattpocock__skills__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-06-25T05:24:49.456Z"
+      discovered_at: '2026-06-25T05:24:49.456Z'
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -19,7 +19,10 @@ provenance:
           - Development Frameworks
         anchor_text: skills
         extracted_url: https://github.com/mattpocock/skills
-        surrounding_text: "- [skills](https://github.com/mattpocock/skills) ![](https://img.shields.io/github/stars/mattpocock/skills.svg?cacheSeconds=86400) - Composable engineering skills including PRD/spec, planning, TDD, and architecture workflows for AI-assisted development."
+        surrounding_text: >-
+          - [skills](https://github.com/mattpocock/skills)
+          ![](https://img.shields.io/github/stars/mattpocock/skills.svg?cacheSeconds=86400) - Composable engineering
+          skills including PRD/spec, planning, TDD, and architecture workflows for AI-assisted development.
         confidence: high
 metadata:
   github:
@@ -29,18 +32,22 @@ metadata:
     archived: false
     full_name: mattpocock/skills
     html_url: https://github.com/mattpocock/skills
-    created_at: "2026-02-03T11:15:53Z"
-    pushed_at: "2026-07-31T17:06:59Z"
+    created_at: '2026-02-03T11:15:53Z'
+    pushed_at: '2026-07-31T17:06:59Z'
     description: Skills for Real Engineers. Straight from my .agents directory.
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-08-03T05:16:57.842Z"
+    last_checked_at: '2026-08-03T05:16:57.842Z'
     readme:
-      fetched_at: "2026-08-03T05:16:57.842Z"
+      fetched_at: '2026-08-03T05:16:57.842Z'
       bytes: 14585
 insights:
-  summary: A collection of reusable agent skills and slash commands designed to improve alignment and engineering rigor in coding assistants.
-  why_it_matters: It provides structured workflows, such as 'grilling sessions' and shared domain language, to reduce agent misalignment and verbosity.
+  summary: >-
+    A collection of reusable agent skills and slash commands designed to improve alignment and engineering rigor in
+    coding assistants.
+  why_it_matters: >-
+    It provides structured workflows, such as 'grilling sessions' and shared domain language, to reduce agent
+    misalignment and verbosity.
   mental_damage: It allows you to replace the chaos of 'vibe coding' with the highly structured ritual of 'grilling your agent.'
   tags:
     - agent-skills
@@ -50,13 +57,16 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is a curated collection of portable, reusable slash commands and instruction sets intended to be installed into coding agents.
+  reason: >-
+    The project is a curated collection of portable, reusable slash commands and instruction sets intended to be
+    installed into coding agents.
   evidence:
     - README defines the project as 'agent skills' for real engineering
     - Installation via 'npx skills@latest add' confirms its nature as a reusable pack
     - Provides specific slash commands like '/grill-me' and '/grill-with-docs'
 placement:
   primary_category: skills
+  secondary_categories: []
   section: Skill Packs & Libraries
 lifecycle:
   status: promotion_candidate
@@ -64,17 +74,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-06-25T05:24:49.458Z"
+    updated_at: '2026-06-25T05:24:49.458Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:57.842Z"
+    updated_at: '2026-08-03T05:16:57.842Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-06T05:40:56.712Z"
+    updated_at: '2026-07-06T05:40:56.712Z'
     cause: null
     next_retry_at: null
     attempts: 1

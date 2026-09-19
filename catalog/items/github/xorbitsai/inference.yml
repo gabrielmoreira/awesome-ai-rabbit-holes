@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__xorbitsai__inference__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,10 +20,15 @@ provenance:
           - Frameworks/Servers for Serving
         anchor_text: Xinference
         extracted_url: https://github.com/xorbitsai/inference
-        surrounding_text: "| [Xinference](https://github.com/xorbitsai/inference)                       | Replace OpenAI GPT with another LLM in your app by changing a single line of code. Xinference gives you the freedom to use any LLM you need. With Xinference, you're empowered to run inference with any open-source language models, speech recognition models, and multimodal models, whether in the cloud, on-premises, or even on your laptop. | ![GitHub Badge](https://img.shields.io/github/stars/xorbitsai/inference.svg?style=flat-square)            |"
+        surrounding_text: >-
+          | [Xinference](https://github.com/xorbitsai/inference)                       | Replace OpenAI GPT with another
+          LLM in your app by changing a single line of code. Xinference gives you the freedom to use any LLM you need.
+          With Xinference, you're empowered to run inference with any open-source language models, speech recognition
+          models, and multimodal models, whether in the cloud, on-premises, or even on your laptop. | ![GitHub
+          Badge](https://img.shields.io/github/stars/xorbitsai/inference.svg?style=flat-square)            |
         confidence: high
     - id: discovery__github__xorbitsai__inference__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -35,7 +40,9 @@ provenance:
           - 推理 Inference
         anchor_text: Xinference
         extracted_url: https://github.com/xorbitsai/inference
-        surrounding_text: "4. [Xinference](https://github.com/xorbitsai/inference): A powerful and versatile library designed to serve language, speech recognition, and multimodal models."
+        surrounding_text: >-
+          4. [Xinference](https://github.com/xorbitsai/inference): A powerful and versatile library designed to serve
+          language, speech recognition, and multimodal models.
         confidence: high
 metadata:
   github:
@@ -45,9 +52,11 @@ metadata:
     archived: false
     full_name: xorbitsai/inference
     html_url: https://github.com/xorbitsai/inference
-    created_at: "2023-06-14T07:05:04Z"
-    pushed_at: "2026-07-21T13:25:51Z"
-    description: Swap GPT for any LLM by changing a single line of code. Xinference lets you run open-source, speech, and multimodal models on cloud, on-prem, or your laptop — all through one unified, production-ready inference API.
+    created_at: '2023-06-14T07:05:04Z'
+    pushed_at: '2026-07-21T13:25:51Z'
+    description: >-
+      Swap GPT for any LLM by changing a single line of code. Xinference lets you run open-source, speech, and
+      multimodal models on cloud, on-prem, or your laptop — all through one unified, production-ready inference API.
     homepage: https://inference.readthedocs.io
     topics:
       - artificial-intelligence
@@ -70,14 +79,20 @@ metadata:
       - vllm
       - whisper
       - wizardlm
-    last_checked_at: "2026-07-21T15:21:18.310Z"
+    last_checked_at: '2026-07-21T15:21:18.310Z'
     readme:
-      fetched_at: "2026-07-21T15:21:18.310Z"
+      fetched_at: '2026-07-21T15:21:18.310Z'
       bytes: 14570
 insights:
-  summary: Xorbits Inference (Xinference) is a unified model serving library that enables deploying and serving open-source LLMs, speech, and multimodal models via a single API across cloud, on-prem, or local environments.
-  why_it_matters: It simplifies model deployment by abstracting infrastructure complexity, letting developers swap LLMs with a single line of code while supporting advanced serving features like auto-batching and distributed inference.
-  mental_damage: Yet another 'one line to rule them all' serving layer that promises portability but still leaves you wrestling with GPU memory, quantization trade-offs, and the quiet dread of cold-start latency in production.
+  summary: >-
+    Xorbits Inference (Xinference) is a unified model serving library that enables deploying and serving open-source
+    LLMs, speech, and multimodal models via a single API across cloud, on-prem, or local environments.
+  why_it_matters: >-
+    It simplifies model deployment by abstracting infrastructure complexity, letting developers swap LLMs with a single
+    line of code while supporting advanced serving features like auto-batching and distributed inference.
+  mental_damage: >-
+    Yet another 'one line to rule them all' serving layer that promises portability but still leaves you wrestling with
+    GPU memory, quantization trade-offs, and the quiet dread of cold-start latency in production.
   tags:
     - model-serving
     - llm-inference
@@ -87,31 +102,35 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Xinference is a unified inference serving runtime focused on local, self-hosted, or on-prem deployment of LLMs and multimodal models, making it a core local AI tool rather than a coding assistant, framework, or extension.
+  reason: >-
+    Xinference is a unified inference serving runtime focused on local, self-hosted, or on-prem deployment of LLMs and
+    multimodal models, making it a core local AI tool rather than a coding assistant, framework, or extension.
   evidence:
     - Repo description emphasizes running models 'on cloud, on-prem, or your laptop' through a unified inference API
     - README highlights self-hosting, Docker support, and local deployment as key workflows
-    - Project provides a local serving stack with CLI, Python library, and Docker image for on-device or private cloud use
+    - >-
+      Project provides a local serving stack with CLI, Python library, and Docker image for on-device or private cloud
+      use
 placement:
   primary_category: local-ai
-  section: Local Serving / APIs
+  section: Local API Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (9299) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.595Z"
+    updated_at: '2026-05-06T22:12:15.595Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:18.310Z"
+    updated_at: '2026-07-21T15:21:18.310Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-14T05:31:10.104Z"
+    updated_at: '2026-05-14T05:31:10.104Z'
     cause: null
     next_retry_at: null
     attempts: 2

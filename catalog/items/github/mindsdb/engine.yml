@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mindsdb__engine__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: MindsDB as a single MCP server
         extracted_url: https://docs.mindsdb.com/mcp/overview
-        surrounding_text: "- [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) - Connect and unify data across various platforms and databases with [MindsDB as a single MCP server](https://docs.mindsdb.com/mcp/overview)."
+        surrounding_text: >-
+          - [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) - Connect and unify data across various platforms and
+          databases with [MindsDB as a single MCP server](https://docs.mindsdb.com/mcp/overview).
         confidence: high
 metadata:
   github:
@@ -30,19 +32,23 @@ metadata:
     archived: false
     full_name: mindsdb/engine
     html_url: https://github.com/mindsdb/engine
-    created_at: "2026-04-24T13:02:53Z"
-    pushed_at: "2026-06-12T23:55:29Z"
+    created_at: '2026-04-24T13:02:53Z'
+    pushed_at: '2026-06-12T23:55:29Z'
     description: Semantic Query Engine for AI Agents to securely query data from any datasource
     homepage: https://mindsdb.com
     topics: []
-    last_checked_at: "2026-08-03T05:17:03.671Z"
+    last_checked_at: '2026-08-03T05:17:03.671Z'
     readme:
-      fetched_at: "2026-08-03T05:17:03.671Z"
+      fetched_at: '2026-08-03T05:17:03.671Z'
       bytes: 9586
 insights:
   summary: A semantic query engine that enables hybrid vector and keyword search across 200+ data sources using standard SQL.
-  why_it_matters: It allows developers to build RAG pipelines and provide context to agents by querying live data sources via SQL without needing complex ETL processes.
-  mental_damage: Because managing RAG complexity is apparently best solved by pretending your entire enterprise data stack is just one giant, federated SQL table.
+  why_it_matters: >-
+    It allows developers to build RAG pipelines and provide context to agents by querying live data sources via SQL
+    without needing complex ETL processes.
+  mental_damage: >-
+    Because managing RAG complexity is apparently best solved by pretending your entire enterprise data stack is just
+    one giant, federated SQL table.
   tags:
     - sql
     - semantic-search
@@ -52,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's primary purpose is providing the retrieval, indexing, and semantic search infrastructure required to deliver context to AI models.
+  reason: >-
+    The tool's primary purpose is providing the retrieval, indexing, and semantic search infrastructure required to
+    deliver context to AI models.
   evidence:
     - Provides hybrid retrieval (vector similarity + BM25) through a SQL interface
     - Allows indexing unstructured content into knowledge bases for semantic search
     - Acts as a federated query layer to fetch live data for agent context
 placement:
-  primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  primary_category: mcp
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-15T05:51:04.989Z"
+    updated_at: '2026-06-15T05:51:04.989Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:03.671Z"
+    updated_at: '2026-08-03T05:17:03.671Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-06T05:42:36.954Z"
+    updated_at: '2026-07-06T05:42:36.954Z'
     cause: null
     next_retry_at: null
     attempts: 1

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__coderabbit__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,12 @@ provenance:
           - Code Review and Refactoring
         anchor_text: CodeRabbit
         extracted_url: https://coderabbit.ai
-        surrounding_text: "- **[CodeRabbit](https://coderabbit.ai/)** – AI-driven contextual pull request reviews with actionable feedback."
+        surrounding_text: >-
+          - **[CodeRabbit](https://coderabbit.ai/)** – AI-driven contextual pull request reviews with actionable
+          feedback.
         confidence: high
     - id: discovery__coderabbit__ai__awesome-list__patrickjs__awesome-cursorrules
-      discovered_at: "2026-05-14T05:20:10.208Z"
+      discovered_at: '2026-05-14T05:20:10.208Z'
       source:
         type: awesome-list
         name: PatrickJS/awesome-cursorrules
@@ -34,7 +36,10 @@ provenance:
           - Sponsorships
         anchor_text: coderabbit.ai
         extracted_url: https://coderabbit.ai
-        surrounding_text: "- [coderabbit.ai](https://coderabbit.ai/?utm_source=oss&utm_medium=sponsorship&utm_campaign=awesome-cursorrules) - Cut code review time and bugs in half."
+        surrounding_text: >-
+          -
+          [coderabbit.ai](https://coderabbit.ai/?utm_source=oss&utm_medium=sponsorship&utm_campaign=awesome-cursorrules)
+          - Cut code review time and bugs in half.
         confidence: high
 metadata:
   github:
@@ -52,9 +57,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered pull request reviewer that provides context-aware feedback, line-by-line suggestions, and automated summaries of code changes.
-  why_it_matters: It automates the tedious parts of code review by spotting edge cases, security flaws, and style violations before human reviewers even open the PR.
-  mental_damage: Now you can finally spend your entire workday arguing with a bot in a PR comment thread instead of just with your senior engineer.
+  summary: >-
+    An AI-powered pull request reviewer that provides context-aware feedback, line-by-line suggestions, and automated
+    summaries of code changes.
+  why_it_matters: >-
+    It automates the tedious parts of code review by spotting edge cases, security flaws, and style violations before
+    human reviewers even open the PR.
+  mental_damage: >-
+    Now you can finally spend your entire workday arguing with a bot in a PR comment thread instead of just with your
+    senior engineer.
   tags:
     - code-review
     - ai-agent
@@ -64,21 +75,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: CodeRabbit acts as a standalone agent that reviews diffs and interacts with developers via comments, fitting the 'Review, Testing & Repair Agents' profile.
+  reason: >-
+    CodeRabbit acts as a standalone agent that reviews diffs and interacts with developers via comments, fitting the
+    'Review, Testing & Repair Agents' profile.
   evidence:
     - Claims to be an 'AI-first pull request reviewer'
     - Provides line-by-line suggestions and conversational feedback via bot comments
     - Integrates with Git, IDEs, and CLI as a review layer
 placement:
   primary_category: coding-agents
-  section: Review, Testing & Repair Agents
+  secondary_categories: []
+  section: Review, Testing & Repair
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-14T05:20:10.209Z"
+    updated_at: '2026-05-14T05:20:10.209Z'
     cause: null
     next_retry_at: null
   stars:
@@ -87,7 +101,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:31:49.901Z"
+    updated_at: '2026-07-20T15:31:49.901Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -100,7 +114,9 @@ processing:
       input_hash: sha256:6537f6065c5905be26d6f6dfe3f8ccbdd238e277705d8ab757193059b97af587
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: CodeRabbit acts as a standalone agent that reviews diffs and interacts with developers via comments, fitting the 'Review, Testing & Repair Agents' profile.
+      decision_reason: >-
+        CodeRabbit acts as a standalone agent that reviews diffs and interacts with developers via comments, fitting the
+        'Review, Testing & Repair Agents' profile.
       decision_evidence:
         - Claims to be an 'AI-first pull request reviewer'
         - Provides line-by-line suggestions and conversational feedback via bot comments
@@ -108,6 +124,8 @@ processing:
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because CodeRabbit operates as a primary review agent that initiates context-aware feedback and conversation rather than just being a thin plugin for an editor.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because CodeRabbit operates as a primary review agent that initiates
+        context-aware feedback and conversation rather than just being a thin plugin for an editor.
       review_reason: null
       review_resume_lifecycle: null

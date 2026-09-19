@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__molanojustin__smithsonian-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: molanojustin/smithsonian-mcp
         extracted_url: https://github.com/molanojustin/smithsonian-mcp
-        surrounding_text: "- [molanojustin/smithsonian-mcp](https://github.com/molanojustin/smithsonian-mcp) 🐍 ☁️ - MCP server that provides AI assistants with access to the Smithsonian Institution's Open Access collections."
+        surrounding_text: >-
+          - [molanojustin/smithsonian-mcp](https://github.com/molanojustin/smithsonian-mcp) 🐍 ☁️ - MCP server that
+          provides AI assistants with access to the Smithsonian Institution's Open Access collections.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,27 @@ metadata:
     archived: false
     full_name: molanojustin/smithsonian-mcp
     html_url: https://github.com/molanojustin/smithsonian-mcp
-    created_at: "2025-10-05T20:45:28Z"
-    pushed_at: "2026-07-16T20:58:45Z"
-    description: A Model Context Protocol (MCP) server that provides AI assistants with access to the Smithsonian Institution's Open Access collections.
+    created_at: '2025-10-05T20:45:28Z'
+    pushed_at: '2026-07-16T20:58:45Z'
+    description: >-
+      A Model Context Protocol (MCP) server that provides AI assistants with access to the Smithsonian Institution's
+      Open Access collections.
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:17:06.948Z"
+    last_checked_at: '2026-08-03T05:17:06.948Z'
     readme:
-      fetched_at: "2026-08-03T05:17:06.948Z"
+      fetched_at: '2026-08-03T05:17:06.948Z'
       bytes: 14792
 insights:
-  summary: An MCP server that exposes the Smithsonian Institution's Open Access API to AI assistants, enabling them to search and retrieve metadata for over 3 million collection objects.
-  why_it_matters: It allows developers to enrich AI-powered workflows with high-quality cultural and historical data without manually wrapping the Smithsonian API.
-  mental_damage: We have finally reached the point where an AI assistant can curate an art exhibit, but still can't figure out why your staging environment is down.
+  summary: >-
+    An MCP server that exposes the Smithsonian Institution's Open Access API to AI assistants, enabling them to search
+    and retrieve metadata for over 3 million collection objects.
+  why_it_matters: >-
+    It allows developers to enrich AI-powered workflows with high-quality cultural and historical data without manually
+    wrapping the Smithsonian API.
+  mental_damage: >-
+    We have finally reached the point where an AI assistant can curate an art exhibit, but still can't figure out why
+    your staging environment is down.
   tags:
     - mcp
     - smithsonian
@@ -52,35 +62,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server providing domain-specific data access, fitting cleanly into the MCP Servers & Tooling category.
+  reason: >-
+    The product's identity is an MCP server providing domain-specific data access, fitting cleanly into the MCP Servers
+    & Tooling category.
   evidence:
-    - "Repo description explicitly states: 'A Model Context Protocol (MCP) server that provides AI assistants with access to the Smithsonian Institution's Open Access collections.'"
+    - >-
+      Repo description explicitly states: 'A Model Context Protocol (MCP) server that provides AI assistants with access
+      to the Smithsonian Institution's Open Access collections.'
     - README lists '16 MCP Tools' and confirms compatibility with Claude Desktop and other MCP clients.
     - Included in the 'awesome-mcp-servers' list under the 'Art & Culture' section.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.631Z"
+    updated_at: '2026-05-06T22:12:15.631Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:06.948Z"
+    updated_at: '2026-08-03T05:17:06.948Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

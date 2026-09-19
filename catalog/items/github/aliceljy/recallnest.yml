@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aliceljy__recallnest__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: AliceLJY/recallnest
         extracted_url: https://github.com/aliceljy/recallnest
-        surrounding_text: "- [AliceLJY/recallnest](https://github.com/AliceLJY/recallnest) [![recallnest MCP server](https://glama.ai/mcp/servers/AliceLJY/recallnest/badges/score.svg)](https://glama.ai/mcp/servers/AliceLJY/recallnest) 📇 🏠 🍎 🪟 🐧 - Persistent memory MCP server for AI coding agents (Claude Code, Codex, Gemini CLI). Hybrid retrieval (vector + BM25), cross-encoder reranking, knowledge graph with PPR traversal, session checkpoint/resume, and multi-scope isolation. Local-first with LanceDB + SQLite, zero external dependencies."
+        surrounding_text: >-
+          - [AliceLJY/recallnest](https://github.com/AliceLJY/recallnest) [![recallnest MCP
+          server](https://glama.ai/mcp/servers/AliceLJY/recallnest/badges/score.svg)](https://glama.ai/mcp/servers/AliceLJY/recallnest)
+          📇 🏠 🍎 🪟 🐧 - Persistent memory MCP server for AI coding agents (Claude Code, Codex, Gemini CLI). Hybrid
+          retrieval (vector + BM25), cross-encoder reranking, knowledge graph with PPR traversal, session
+          checkpoint/resume, and multi-scope isolation. Local-first with LanceDB + SQLite, zero external dependencies.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: AliceLJY/recallnest
     html_url: https://github.com/AliceLJY/recallnest
-    created_at: "2026-03-03T04:20:56Z"
-    pushed_at: "2026-09-16T23:58:59Z"
+    created_at: '2026-03-03T04:20:56Z'
+    pushed_at: '2026-09-16T23:58:59Z'
     description: One memory, every terminal — a shared memory layer for any MCP client.
     homepage: https://www.npmjs.com/package/recallnest
     topics:
@@ -55,14 +60,20 @@ metadata:
       - session-continuity
       - transcript-search
       - vector-search
-    last_checked_at: "2026-09-17T04:13:40.901Z"
+    last_checked_at: '2026-09-17T04:13:40.901Z'
     readme:
-      fetched_at: "2026-09-17T04:13:40.901Z"
+      fetched_at: '2026-09-17T04:13:40.901Z'
       bytes: 31721
 insights:
-  summary: Local-first shared memory layer for Claude Code, Codex, and Gemini CLI that uses hybrid retrieval (vector + BM25 + knowledge graph) and session continuity to preserve context across terminals.
-  why_it_matters: It ends the context amnesia of switching between terminal agents by giving Claude Code, Codex, and Gemini CLI a single, self-hosted LanceDB memory store with automatic recall, decay, and cross-session continuity.
-  mental_damage: It is somewhat sobering that we now need a LanceDB knowledge graph with configurable decay algorithms just so three different terminal agents can both remember that the user prefers dark mode.
+  summary: >-
+    Local-first shared memory layer for Claude Code, Codex, and Gemini CLI that uses hybrid retrieval (vector + BM25 +
+    knowledge graph) and session continuity to preserve context across terminals.
+  why_it_matters: >-
+    It ends the context amnesia of switching between terminal agents by giving Claude Code, Codex, and Gemini CLI a
+    single, self-hosted LanceDB memory store with automatic recall, decay, and cross-session continuity.
+  mental_damage: >-
+    It is somewhat sobering that we now need a LanceDB knowledge graph with configurable decay algorithms just so three
+    different terminal agents can both remember that the user prefers dark mode.
   tags:
     - memory-layer
     - hybrid-retrieval
@@ -72,31 +83,40 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Its entire substance is a developer-facing memory and retrieval system for coding agents, with hybrid search, knowledge graphs, and session continuity as the core value rather than a thin integration wrapper.
+  reason: >-
+    Its entire substance is a developer-facing memory and retrieval system for coding agents, with hybrid search,
+    knowledge graphs, and session continuity as the core value rather than a thin integration wrapper.
   evidence:
-    - Repo description and README position it as a 'Shared Memory Layer' with hybrid retrieval (vector + BM25 + KG) and LanceDB backing.
-    - It integrates with Claude Code, Codex, and Gemini CLI via MCP, but the core product is the memory store, retrieval pipeline, and knowledge-graph UI.
-    - 13 stars and created March 2026, but actively maintained through May 2026 with MIT license, benchmarked evaluation, and inclusion in awesome-mcp-servers under Knowledge & Memory.
+    - >-
+      Repo description and README position it as a 'Shared Memory Layer' with hybrid retrieval (vector + BM25 + KG) and
+      LanceDB backing.
+    - >-
+      It integrates with Claude Code, Codex, and Gemini CLI via MCP, but the core product is the memory store, retrieval
+      pipeline, and knowledge-graph UI.
+    - >-
+      13 stars and created March 2026, but actively maintained through May 2026 with MIT license, benchmarked
+      evaluation, and inclusion in awesome-mcp-servers under Knowledge & Memory.
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.601Z"
+    updated_at: '2026-05-06T22:12:15.601Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:40.901Z"
+    updated_at: '2026-09-17T04:13:40.901Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-21T05:29:17.942Z"
+    updated_at: '2026-05-21T05:29:17.942Z'
     cause: null
     next_retry_at: null
     attempts: 1

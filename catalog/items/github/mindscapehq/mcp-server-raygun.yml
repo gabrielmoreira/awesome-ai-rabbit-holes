@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mindscapehq__mcp-server-raygun__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,10 +19,12 @@ provenance:
           - Official Servers
         anchor_text: Raygun
         extracted_url: https://github.com/mindscapehq/mcp-server-raygun
-        surrounding_text: "- **[Raygun](https://github.com/MindscapeHQ/mcp-server-raygun)** - Interact with your crash reporting and real using monitoring data on your Raygun account"
+        surrounding_text: >-
+          - **[Raygun](https://github.com/MindscapeHQ/mcp-server-raygun)** - Interact with your crash reporting and real
+          using monitoring data on your Raygun account
         confidence: high
     - id: discovery__github__mindscapehq__mcp-server-raygun__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -34,7 +36,10 @@ provenance:
           - 📊 Monitoring
         anchor_text: MindscapeHQ/mcp-server-raygun
         extracted_url: https://github.com/mindscapehq/mcp-server-raygun
-        surrounding_text: "-   **[MindscapeHQ/mcp-server-raygun](https://github.com/MindscapeHQ/mcp-server-raygun)** [![GitHub stars](https://img.shields.io/github/stars/MindscapeHQ/mcp-server-raygun?style=social)](https://github.com/MindscapeHQ/mcp-server-raygun): Integrates with Raygun API for crash reporting."
+        surrounding_text: >-
+          -   **[MindscapeHQ/mcp-server-raygun](https://github.com/MindscapeHQ/mcp-server-raygun)** [![GitHub
+          stars](https://img.shields.io/github/stars/MindscapeHQ/mcp-server-raygun?style=social)](https://github.com/MindscapeHQ/mcp-server-raygun):
+          Integrates with Raygun API for crash reporting.
         confidence: high
 metadata:
   github:
@@ -44,8 +49,8 @@ metadata:
     archived: false
     full_name: MindscapeHQ/mcp-server-raygun
     html_url: https://github.com/MindscapeHQ/mcp-server-raygun
-    created_at: "2024-11-28T19:57:23Z"
-    pushed_at: "2026-03-02T01:57:41Z"
+    created_at: '2024-11-28T19:57:23Z'
+    pushed_at: '2026-03-02T01:57:41Z'
     description: Give your AI coding assistants access to Raygun so they can investigate, explain, and help resolve errors for you.
     homepage: https://raygun.com/
     topics:
@@ -53,9 +58,9 @@ metadata:
       - llm-agents
       - mcp
       - real-user-monitoring
-    last_checked_at: "2026-08-03T05:17:03.483Z"
+    last_checked_at: '2026-08-03T05:17:03.483Z'
     readme:
-      fetched_at: "2026-08-03T05:17:03.483Z"
+      fetched_at: '2026-08-03T05:17:03.483Z'
       bytes: 9330
 insights:
   summary: A remote MCP server that exposes Raygun server monitoring.
@@ -68,31 +73,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose primary identity is exposing Raygun monitoring data via the Model Context Protocol, making MCP the core product rather than a mere compatibility feature.
+  reason: >-
+    The product is an MCP server whose primary identity is exposing Raygun monitoring data via the Model Context
+    Protocol, making MCP the core product rather than a mere compatibility feature.
   evidence:
-    - "Repo description: 'Give your AI coding assistants access to Raygun so they can investigate, explain, and help resolve errors for you.'"
-    - "README: 'A remote Model Context Protocol (MCP) server that connects AI assistants to your crash reporting and real user monitoring data in Raygun through natural language conversations.'"
-    - "Source-list context: Listed in awesome-mcp-list and awesome-mcp-servers under MCP server sections."
+    - >-
+      Repo description: 'Give your AI coding assistants access to Raygun so they can investigate, explain, and help
+      resolve errors for you.'
+    - >-
+      README: 'A remote Model Context Protocol (MCP) server that connects AI assistants to your crash reporting and real
+      user monitoring data in Raygun through natural language conversations.'
+    - 'Source-list context: Listed in awesome-mcp-list and awesome-mcp-servers under MCP server sections.'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.590Z"
+    updated_at: '2026-05-06T22:12:15.590Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:03.483Z"
+    updated_at: '2026-08-03T05:17:03.483Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:21:15.062Z"
+    updated_at: '2026-07-21T16:21:15.062Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -105,14 +117,22 @@ processing:
       input_hash: sha256:aeed2bbfa541b1e2ceee706ca0de72654c9ce2d1c96c70ee65c91b0e067a1537
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server whose primary identity is exposing Raygun monitoring data via the Model Context Protocol, making MCP the core product rather than a mere compatibility feature.
+      decision_reason: >-
+        The product is an MCP server whose primary identity is exposing Raygun monitoring data via the Model Context
+        Protocol, making MCP the core product rather than a mere compatibility feature.
       decision_evidence:
-        - "Repo description: 'Give your AI coding assistants access to Raygun so they can investigate, explain, and help resolve errors for you.'"
-        - "README: 'A remote Model Context Protocol (MCP) server that connects AI assistants to your crash reporting and real user monitoring data in Raygun through natural language conversations.'"
-        - "Source-list context: Listed in awesome-mcp-list and awesome-mcp-servers under MCP server sections."
+        - >-
+          Repo description: 'Give your AI coding assistants access to Raygun so they can investigate, explain, and help
+          resolve errors for you.'
+        - >-
+          README: 'A remote Model Context Protocol (MCP) server that connects AI assistants to your crash reporting and
+          real user monitoring data in Raygun through natural language conversations.'
+        - 'Source-list context: Listed in awesome-mcp-list and awesome-mcp-servers under MCP server sections.'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is itself an MCP server infrastructure, not merely an extension that adds Raygun capabilities to another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is itself an MCP server infrastructure, not merely an
+        extension that adds Raygun capabilities to another assistant.
       review_reason: null
       review_resume_lifecycle: null

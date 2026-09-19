@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__vibedoctor__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,9 @@ provenance:
           - Code Review and Refactoring
         anchor_text: VibeDoctor
         extracted_url: https://vibedoctor.io
-        surrounding_text: "- **[VibeDoctor](https://vibedoctor.io/)** – AI code health scanner for vibe-coded apps. Detects hallucinated imports, phantom packages, and security issues that traditional scanners miss with MCP Support."
+        surrounding_text: >-
+          - **[VibeDoctor](https://vibedoctor.io/)** – AI code health scanner for vibe-coded apps. Detects hallucinated
+          imports, phantom packages, and security issues that traditional scanners miss with MCP Support.
         confidence: high
 metadata:
   github:
@@ -36,8 +38,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: VibeDoctor is a SaaS tool that scans vibe-coded apps for security, performance, and code quality issues with 149+ automated checks and provides visual code maps and fix prescriptions.
-  why_it_matters: It gives solo devs and small teams using AI coding tools a fast, read-only second opinion on security holes, performance issues, and broken patterns before shipping.
+  summary: >-
+    VibeDoctor is a SaaS tool that scans vibe-coded apps for security, performance, and code quality issues with 149+
+    automated checks and provides visual code maps and fix prescriptions.
+  why_it_matters: >-
+    It gives solo devs and small teams using AI coding tools a fast, read-only second opinion on security holes,
+    performance issues, and broken patterns before shipping.
   mental_damage: Finally, a way to find out if your AI-generated codebase is a dumpster fire before your users do.
   tags:
     - code-review
@@ -48,21 +54,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core job is measuring, scoring, and reporting on code quality and security vulnerabilities (evals/safety) rather than acting as a coding agent or a pure extension.
+  reason: >-
+    The core job is measuring, scoring, and reporting on code quality and security vulnerabilities (evals/safety) rather
+    than acting as a coding agent or a pure extension.
   evidence:
     - Runs 129+ checks across 15 areas including CVEs, secrets, and code smells using tools like SonarQube and Trivy.
     - Provides 'AI diagnose' confidence scores and regression tracking between code versions.
     - Listed in awesome-ai-coding-tools under 'Code Review and Refactoring'.
 placement:
-  primary_category: evals
-  section: null
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Review, Testing & Repair
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'evals', proposed 'ai-dev-extensions'"
+  reason: 'Categorization review required: placement disagreement: retained ''evals'', proposed ''ai-dev-extensions'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.666Z"
+    updated_at: '2026-05-06T22:12:15.666Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +80,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:38:43.140Z"
+    updated_at: '2026-07-21T15:38:43.140Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,14 +93,22 @@ processing:
       input_hash: sha256:e730377d13ca8a338c9cb23bd7796c19cbe221d216c4ab050d6a1fe11a37067f
       proposed_primary_category: ai-dev-extensions
       disagreement: true
-      decision_reason: The core product is a testing/QA add-on for AI coding workflows, augmenting assistants like Cursor/Claude with scan results and fix prompts rather than acting as a primary coding assistant.
+      decision_reason: >-
+        The core product is a testing/QA add-on for AI coding workflows, augmenting assistants like Cursor/Claude with
+        scan results and fix prompts rather than acting as a primary coding assistant.
       decision_evidence:
-        - Described as 'scans and monitors your vibe-coded apps for security, performance, and code quality' with 149+ automated checks
-        - Explicitly positions itself for 'solo devs, indie hackers, and small teams who ship with AI tools like Cursor, Copilot, Bolt, or Claude Code'
+        - >-
+          Described as 'scans and monitors your vibe-coded apps for security, performance, and code quality' with 149+
+          automated checks
+        - >-
+          Explicitly positions itself for 'solo devs, indie hackers, and small teams who ship with AI tools like Cursor,
+          Copilot, Bolt, or Claude Code'
         - Offers MCP integration to connect with Cursor/Claude Code/Windsurf for codebase insights during coding
       category_candidates:
         - ai-dev-extensions
         - evals
-      contrastive_reason: Choose ai-dev-extensions over evals because the primary value is augmenting coding workflows with scan results and fix prompts rather than measuring model/agent behavior.
-      review_reason: "Categorization review required: placement disagreement: retained 'evals', proposed 'ai-dev-extensions'"
+      contrastive_reason: >-
+        Choose ai-dev-extensions over evals because the primary value is augmenting coding workflows with scan results
+        and fix prompts rather than measuring model/agent behavior.
+      review_reason: 'Categorization review required: placement disagreement: retained ''evals'', proposed ''ai-dev-extensions'''
       review_resume_lifecycle: null

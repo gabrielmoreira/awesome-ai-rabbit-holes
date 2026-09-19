@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__influxdata__influxdb3_mcp_server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: InfluxData/influxdb3_mcp_server
         extracted_url: https://github.com/influxdata/influxdb3_mcp_server
-        surrounding_text: "- [InfluxData/influxdb3_mcp_server](https://github.com/influxdata/influxdb3_mcp_server) 🎖️ 📇 🏠 ☁️ - Official MCP server for InfluxDB 3 Core/Enterprise/Cloud Dedicated"
+        surrounding_text: >-
+          - [InfluxData/influxdb3_mcp_server](https://github.com/influxdata/influxdb3_mcp_server) 🎖️ 📇 🏠 ☁️ -
+          Official MCP server for InfluxDB 3 Core/Enterprise/Cloud Dedicated
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: influxdata/influxdb3_mcp_server
     html_url: https://github.com/influxdata/influxdb3_mcp_server
-    created_at: "2025-05-23T20:42:11Z"
-    pushed_at: "2026-07-30T05:01:51Z"
+    created_at: '2025-05-23T20:42:11Z'
+    pushed_at: '2026-07-30T05:01:51Z'
     description: MCP Server for InfluxDB 3
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:05:43.080Z"
+    last_checked_at: '2026-07-30T05:05:43.080Z'
     readme:
-      fetched_at: "2026-07-30T05:05:43.080Z"
+      fetched_at: '2026-07-30T05:05:43.080Z'
       bytes: 17757
 insights:
   summary: MCP server for integrating InfluxDB 3 with Model Context Protocol clients.
-  why_it_matters: Lets developers expose InfluxDB 3 databases, queries, and admin operations as tools/resources to any MCP-compatible assistant or client.
+  why_it_matters: >-
+    Lets developers expose InfluxDB 3 databases, queries, and admin operations as tools/resources to any MCP-compatible
+    assistant or client.
   mental_damage: Now your AI assistant can delete your time-series databases with the same ease it deletes your test branches.
   tags:
     - mcp
@@ -52,31 +56,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server for InfluxDB 3, not a compatibility footnote."
+  reason: 'MCP is the product identity: this is a dedicated MCP server for InfluxDB 3, not a compatibility footnote.'
   evidence:
     - Repo description explicitly states 'MCP Server for InfluxDB 3'
     - README details MCP tools/resources/prompts for InfluxDB operations
     - Listed in awesome-mcp-servers under 'Databases' section
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.620Z"
+    updated_at: '2026-05-06T22:12:15.620Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:43.080Z"
+    updated_at: '2026-07-30T05:05:43.080Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:08:03.154Z"
+    updated_at: '2026-07-21T16:08:03.154Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +94,7 @@ processing:
       input_hash: sha256:c083f9761ef1a1412b39c1e57bb5d971555f7d0b38cc5da3b79958664d7fa1dc
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server for InfluxDB 3, not a compatibility footnote."
+      decision_reason: 'MCP is the product identity: this is a dedicated MCP server for InfluxDB 3, not a compatibility footnote.'
       decision_evidence:
         - Repo description explicitly states 'MCP Server for InfluxDB 3'
         - README details MCP tools/resources/prompts for InfluxDB operations
@@ -97,6 +102,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is a dedicated MCP server implementation rather than an extension layer for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is a dedicated MCP server implementation rather than an
+        extension layer for another assistant.
       review_reason: null
       review_resume_lifecycle: null

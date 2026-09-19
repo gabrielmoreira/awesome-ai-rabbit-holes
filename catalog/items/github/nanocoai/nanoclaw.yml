@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nanocoai__nanoclaw__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-12T15:06:19.300Z"
+      discovered_at: '2026-05-12T15:06:19.300Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,12 @@ provenance:
           - OpenClaw ecosystem
         anchor_text: NanoClaw
         extracted_url: https://github.com/gavrielc/nanoclaw
-        surrounding_text: "- **[NanoClaw](https://github.com/gavrielc/nanoclaw)** `⭐ 28.8k` — Security-first lightweight alternative to OpenClaw; runs agents in Apple containers/Docker with sandboxed execution, built on Anthropic's Agents SDK."
+        surrounding_text: >-
+          - **[NanoClaw](https://github.com/gavrielc/nanoclaw)** `⭐ 28.8k` — Security-first lightweight alternative to
+          OpenClaw; runs agents in Apple containers/Docker with sandboxed execution, built on Anthropic's Agents SDK.
         confidence: high
     - id: discovery__github__qwibitai__nanoclaw__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -36,7 +38,9 @@ provenance:
           - OpenClaw ecosystem
         anchor_text: NanoClaw
         extracted_url: https://github.com/gavrielc/nanoclaw
-        surrounding_text: "- **[NanoClaw](https://github.com/gavrielc/nanoclaw)** `⭐ 28.6k` — Security-first lightweight alternative to OpenClaw; runs agents in Apple containers/Docker with sandboxed execution, built on Anthropic's Agents SDK."
+        surrounding_text: >-
+          - **[NanoClaw](https://github.com/gavrielc/nanoclaw)** `⭐ 28.6k` — Security-first lightweight alternative to
+          OpenClaw; runs agents in Apple containers/Docker with sandboxed execution, built on Anthropic's Agents SDK.
         confidence: high
 metadata:
   github:
@@ -46,9 +50,11 @@ metadata:
     archived: false
     full_name: nanocoai/nanoclaw
     html_url: https://github.com/nanocoai/nanoclaw
-    created_at: "2026-01-31T15:47:22Z"
-    pushed_at: "2026-07-20T07:06:18Z"
-    description: A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK
+    created_at: '2026-01-31T15:47:22Z'
+    pushed_at: '2026-07-20T07:06:18Z'
+    description: >-
+      A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack,
+      Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK
     homepage: https://nanoclaw.dev
     topics:
       - ai-agents
@@ -56,14 +62,20 @@ metadata:
       - claude-code
       - claude-skills
       - openclaw
-    last_checked_at: "2026-07-20T16:42:42.133Z"
+    last_checked_at: '2026-07-20T16:42:42.133Z'
     readme:
-      fetched_at: "2026-07-20T16:42:42.133Z"
+      fetched_at: '2026-07-20T16:42:42.133Z'
       bytes: 15375
 insights:
-  summary: Nanoclaw is a lightweight, container-isolated AI assistant that connects to messaging apps and runs on Anthropic's Agents SDK for secure personal automation.
-  why_it_matters: It gives developers a secure, understandable AI agent they can self-host and customize to interact with personal messaging platforms without trusting large opaque systems.
-  mental_damage: Finally, an AI assistant that runs in Docker so you can blame the container when it messages your boss instead of you.
+  summary: >-
+    Nanoclaw is a lightweight, container-isolated AI assistant that connects to messaging apps and runs on Anthropic's
+    Agents SDK for secure personal automation.
+  why_it_matters: >-
+    It gives developers a secure, understandable AI agent they can self-host and customize to interact with personal
+    messaging platforms without trusting large opaque systems.
+  mental_damage: >-
+    Finally, an AI assistant that runs in Docker so you can blame the container when it messages your boss instead of
+    you.
   tags:
     - ai-agent
     - claude-code
@@ -77,16 +89,29 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Nanoclaw is a terminal-invoked AI assistant that developers use as a primary coding and automation agent via Claude Code, fitting the coding-agents category despite its messaging integrations.
+  reason: >-
+    Nanoclaw is a terminal-invoked AI assistant that developers use as a primary coding and automation agent via Claude
+    Code, fitting the coding-agents category despite its messaging integrations.
   evidence:
-    - "Repo description: 'A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps... runs directly on Anthropic's Agents SDK'"
-    - "README: 'Claude agents run in their own Linux containers with filesystem isolation' and 'nanoclaw.sh walks you from a fresh machine to a named agent you can message'"
-    - "Source-list context: Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > OpenClaw ecosystem'"
-    - Repo description states it is 'a lightweight alternative to OpenClaw that runs in containers' and 'runs directly on Anthropic's Agents SDK'.
-    - README says 'NanoClaw natively uses Claude Code via Anthropic's official Claude Agent SDK, so you get the latest Claude models and Claude Code's full toolset'.
+    - >-
+      Repo description: 'A lightweight alternative to OpenClaw that runs in containers for security. Connects to
+      WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps... runs directly on Anthropic's Agents SDK'
+    - >-
+      README: 'Claude agents run in their own Linux containers with filesystem isolation' and 'nanoclaw.sh walks you
+      from a fresh machine to a named agent you can message'
+    - >-
+      Source-list context: Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > OpenClaw
+      ecosystem'
+    - >-
+      Repo description states it is 'a lightweight alternative to OpenClaw that runs in containers' and 'runs directly
+      on Anthropic's Agents SDK'.
+    - >-
+      README says 'NanoClaw natively uses Claude Code via Anthropic's official Claude Agent SDK, so you get the latest
+      Claude models and Claude Code's full toolset'.
     - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > OpenClaw ecosystem'.
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -94,7 +119,7 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-18T05:38:38.547Z"
+    updated_at: '2026-05-18T05:38:38.547Z'
     cause: null
     next_retry_at: null
     attempts: 3
@@ -102,11 +127,11 @@ processing:
     category_rules_version: 6cc474a86022
   discover:
     status: done
-    updated_at: "2026-05-12T15:06:19.301Z"
+    updated_at: '2026-05-12T15:06:19.301Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:42.133Z"
+    updated_at: '2026-07-20T16:42:42.133Z'
     cause: null
     next_retry_at: null

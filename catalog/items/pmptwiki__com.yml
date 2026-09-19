@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pmptwiki__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: pmptwiki.com
         extracted_url: https://pmptwiki.com
-        surrounding_text: "- [pmptwiki/pmpt-cli](https://github.com/pmptwiki/pmpt-cli) [![pmpt-mcp MCP server](https://glama.ai/mcp/servers/@pmptwiki/pmpt-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@pmptwiki/pmpt-mcp) 📇 🏠 - Record and share your AI-driven development journey. Auto-saves project milestones with summaries, generates structured AI prompts via 5-question planning, and publishes to [pmptwiki.com](https://pmptwiki.com) community platform."
+        surrounding_text: >-
+          - [pmptwiki/pmpt-cli](https://github.com/pmptwiki/pmpt-cli) [![pmpt-mcp MCP
+          server](https://glama.ai/mcp/servers/@pmptwiki/pmpt-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@pmptwiki/pmpt-mcp)
+          📇 🏠 - Record and share your AI-driven development journey. Auto-saves project milestones with summaries,
+          generates structured AI prompts via 5-question planning, and publishes to [pmptwiki.com](https://pmptwiki.com)
+          community platform.
         confidence: high
 metadata:
   github:
@@ -38,7 +43,9 @@ metadata:
     readme: null
 insights:
   summary: A platform for recording, sharing, and reproducing AI-assisted product development journeys with a CLI tool.
-  why_it_matters: Developers can clone, modify, and share structured AI prompts and project versions, enabling reproducible vibe-coding workflows.
+  why_it_matters: >-
+    Developers can clone, modify, and share structured AI prompts and project versions, enabling reproducible
+    vibe-coding workflows.
   mental_damage: Finally, a way to share not just the code but the entire existential crisis of building it with AI.
   tags:
     - vibe-coding
@@ -48,21 +55,28 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product centers on structured prompt planning, cloning journeys, and reproducible build sequences rather than acting as a coding assistant or generic platform.
+  reason: >-
+    The core product centers on structured prompt planning, cloning journeys, and reproducible build sequences rather
+    than acting as a coding assistant or generic platform.
   evidence:
-    - "Site states: 'Share the entire journey — anyone can reproduce it' and 'Answer 5 questions, get a structured AI prompt'."
-    - "CLI workflow: pmpt plan, pmpt save, pmpt publish, and pmpt clone to reproduce projects."
-    - Listed in awesome-mcp-servers but MCP is only an adapter ('MCP Connect your AI tool — it records everything automatically').
+    - >-
+      Site states: 'Share the entire journey — anyone can reproduce it' and 'Answer 5 questions, get a structured AI
+      prompt'.
+    - 'CLI workflow: pmpt plan, pmpt save, pmpt publish, and pmpt clone to reproduce projects.'
+    - >-
+      Listed in awesome-mcp-servers but MCP is only an adapter ('MCP Connect your AI tool — it records everything
+      automatically').
 placement:
-  primary_category: spec-driven-development
-  section: null
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Prompt Engineering & Management
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'spec-driven-development', proposed 'app-builders'"
+  reason: 'Categorization review required: placement disagreement: retained ''spec-driven-development'', proposed ''app-builders'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +85,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:32.279Z"
+    updated_at: '2026-07-21T15:30:32.279Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +98,9 @@ processing:
       input_hash: sha256:aee42ca466e2ad9fb54a6a2acaeaef01dd9ff07754439944c1aaeb162903d966
       proposed_primary_category: app-builders
       disagreement: true
-      decision_reason: The core product turns prompts and structured workflows into reproducible projects, aligning with prompt-to-app scaffolding rather than direct coding assistance.
+      decision_reason: >-
+        The core product turns prompts and structured workflows into reproducible projects, aligning with prompt-to-app
+        scaffolding rather than direct coding assistance.
       decision_evidence:
         - Primary page describes it as a platform to 'record and share your product development journey' with AI
         - CLI commands like 'pmpt clone', 'pmpt plan', and 'pmpt publish' center on project scaffolding and sharing
@@ -92,6 +108,10 @@ processing:
       category_candidates:
         - app-builders
         - context-engineering
-      contrastive_reason: Choose app-builders over context-engineering because the main value is generating and sharing reproducible projects from prompts, not managing or shaping context for models.
-      review_reason: "Categorization review required: placement disagreement: retained 'spec-driven-development', proposed 'app-builders'"
+      contrastive_reason: >-
+        Choose app-builders over context-engineering because the main value is generating and sharing reproducible
+        projects from prompts, not managing or shaping context for models.
+      review_reason: >-
+        Categorization review required: placement disagreement: retained 'spec-driven-development', proposed
+        'app-builders'
       review_resume_lifecycle: null

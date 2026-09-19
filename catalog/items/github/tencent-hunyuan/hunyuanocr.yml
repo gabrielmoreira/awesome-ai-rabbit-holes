@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tencent-hunyuan__hunyuanocr__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 数据 Data
         anchor_text: HunyuanOCR
         extracted_url: https://github.com/tencent-hunyuan/hunyuanocr
-        surrounding_text: "45. [HunyuanOCR](https://github.com/Tencent-Hunyuan/HunyuanOCR): a leading end-to-end OCR expert VLM powered by Hunyuan's native multimodal architecture."
+        surrounding_text: >-
+          45. [HunyuanOCR](https://github.com/Tencent-Hunyuan/HunyuanOCR): a leading end-to-end OCR expert VLM powered
+          by Hunyuan's native multimodal architecture.
         confidence: high
 metadata:
   github:
@@ -29,19 +31,25 @@ metadata:
     archived: false
     full_name: Tencent-Hunyuan/HunyuanOCR
     html_url: https://github.com/Tencent-Hunyuan/HunyuanOCR
-    created_at: "2025-11-18T04:06:24Z"
-    pushed_at: "2026-07-21T12:53:51Z"
+    created_at: '2025-11-18T04:06:24Z'
+    pushed_at: '2026-07-21T12:53:51Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:20:42.824Z"
+    last_checked_at: '2026-07-21T15:20:42.824Z'
     readme:
-      fetched_at: "2026-07-21T15:20:42.824Z"
+      fetched_at: '2026-07-21T15:20:42.824Z'
       bytes: 20218
 insights:
-  summary: HunyuanOCR is a 1B parameter vision-language model from Tencent for end-to-end OCR, supporting document parsing, multilingual text extraction, and image-to-text translation.
-  why_it_matters: Developers can self-host a lightweight, state-of-the-art OCR model that handles complex documents and over 100 languages with a single inference call via vLLM.
-  mental_damage: "Just what the ecosystem needed: another 1B-parameter 'lightweight' model that still requires a 20GB CUDA 12.9 GPU and a very specific compat package to actually run."
+  summary: >-
+    HunyuanOCR is a 1B parameter vision-language model from Tencent for end-to-end OCR, supporting document parsing,
+    multilingual text extraction, and image-to-text translation.
+  why_it_matters: >-
+    Developers can self-host a lightweight, state-of-the-art OCR model that handles complex documents and over 100
+    languages with a single inference call via vLLM.
+  mental_damage: >-
+    Just what the ecosystem needed: another 1B-parameter 'lightweight' model that still requires a 20GB CUDA 12.9 GPU
+    and a very specific compat package to actually run.
   tags:
     - ocr
     - multimodal
@@ -51,35 +59,39 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: It is a self-hosted, local-inference model with explicit vLLM serving instructions and GPU requirements, fitting the local AI runtime definition.
+  reason: >-
+    It is a self-hosted, local-inference model with explicit vLLM serving instructions and GPU requirements, fitting the
+    local AI runtime definition.
   evidence:
-    - README provides explicit vLLM serving commands and lists system requirements including NVIDIA GPU with 20GB memory and CUDA 12.9.
+    - >-
+      README provides explicit vLLM serving commands and lists system requirements including NVIDIA GPU with 20GB memory
+      and CUDA 12.9.
     - Introduction describes it as a lightweight 1B parameter model designed for local deployment with reduced costs.
     - Pushed recently (2026-04-08) and shows active maintenance with bug fixes and vLLM compatibility updates.
 placement:
   primary_category: local-ai
-  section: Local Runtimes
+  section: Inference Engines
 lifecycle:
   status: promotion_candidate
   reason: Stars (1611) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.651Z"
+    updated_at: '2026-05-06T22:12:15.651Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:42.824Z"
+    updated_at: '2026-07-21T15:20:42.824Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

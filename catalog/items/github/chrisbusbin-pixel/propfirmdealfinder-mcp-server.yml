@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__chrisbusbin-pixel__propfirmdealfinder-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: chrisbusbin-pixel/propfirmdealfinder-mcp-server
         extracted_url: https://github.com/chrisbusbin-pixel/propfirmdealfinder-mcp-server
-        surrounding_text: "- [chrisbusbin-pixel/propfirmdealfinder-mcp-server](https://github.com/chrisbusbin-pixel/propfirmdealfinder-mcp-server) [![chrisbusbin-pixel/propfirmdealfinder-mcp-server MCP server](https://glama.ai/mcp/servers/chrisbusbin-pixel/propfirmdealfinder-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/chrisbusbin-pixel/propfirmdealfinder-mcp-server) 📇 ☁️ - Aggregates proprietary trading firm discounts, reviews, and affiliate deals across 20+ prop firms. Query live discount codes, compare firms by country, and check featured deals via MCP tools."
+        surrounding_text: >-
+          -
+          [chrisbusbin-pixel/propfirmdealfinder-mcp-server](https://github.com/chrisbusbin-pixel/propfirmdealfinder-mcp-server)
+          [![chrisbusbin-pixel/propfirmdealfinder-mcp-server MCP
+          server](https://glama.ai/mcp/servers/chrisbusbin-pixel/propfirmdealfinder-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/chrisbusbin-pixel/propfirmdealfinder-mcp-server)
+          📇 ☁️ - Aggregates proprietary trading firm discounts, reviews, and affiliate deals across 20+ prop firms.
+          Query live discount codes, compare firms by country, and check featured deals via MCP tools.
         confidence: high
 metadata:
   github:
@@ -30,18 +36,24 @@ metadata:
     archived: false
     full_name: chrisbusbin-pixel/propfirmdealfinder-mcp-server
     html_url: https://github.com/chrisbusbin-pixel/propfirmdealfinder-mcp-server
-    created_at: "2026-04-05T10:24:14Z"
-    pushed_at: "2026-05-29T08:41:45Z"
-    description: MCP server for Prop Firm Deal Finder - lets AI assistants query live prop firm discount codes, compare firms, and find the cheapest challenges across 20+ proprietary trading firms.
+    created_at: '2026-04-05T10:24:14Z'
+    pushed_at: '2026-05-29T08:41:45Z'
+    description: >-
+      MCP server for Prop Firm Deal Finder - lets AI assistants query live prop firm discount codes, compare firms, and
+      find the cheapest challenges across 20+ proprietary trading firms.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:44.728Z"
+    last_checked_at: '2026-09-07T04:13:44.728Z'
     readme:
-      fetched_at: "2026-09-07T04:13:44.728Z"
+      fetched_at: '2026-09-07T04:13:44.728Z'
       bytes: 5837
 insights:
-  summary: An MCP server that enables AI assistants to query live prop firm discount codes, compare firms, and find the cheapest challenges across 20+ proprietary trading firms.
-  why_it_matters: Developers integrating AI assistants into trading workflows can now programmatically access real-time prop firm deal data without manual scraping or API wrangling.
+  summary: >-
+    An MCP server that enables AI assistants to query live prop firm discount codes, compare firms, and find the
+    cheapest challenges across 20+ proprietary trading firms.
+  why_it_matters: >-
+    Developers integrating AI assistants into trading workflows can now programmatically access real-time prop firm deal
+    data without manual scraping or API wrangling.
   mental_damage: Because nothing says 'developer productivity' like your AI assistant suddenly pivoting to day-trading advice.
   tags:
     - mcp-server
@@ -51,31 +63,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a domain-specific MCP server whose primary identity is providing prop firm data via MCP protocol, fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is a domain-specific MCP server whose primary identity is providing prop firm data via MCP protocol, fitting
+    the MCP Servers & Tooling category.
   evidence:
     - Repo description explicitly identifies it as an MCP server for prop firm deal data
     - README details MCP tools, transports (stdio/HTTP), and registry listings
     - Source-list context shows it's curated in awesome-mcp-servers under Finance & Fintech
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.607Z"
+    updated_at: '2026-05-06T22:12:15.607Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:44.728Z"
+    updated_at: '2026-09-07T04:13:44.728Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:41:38.511Z"
+    updated_at: '2026-07-21T15:41:38.511Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +103,9 @@ processing:
       input_hash: sha256:37af05e788bf35ee27b50d250c5602f9ee5935e2b7ab71a93dc6f65ae42d6b1a
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a domain-specific MCP server whose primary identity is providing prop firm data via MCP protocol, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is a domain-specific MCP server whose primary identity is providing prop firm data via MCP protocol,
+        fitting the MCP Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server for prop firm deal data
         - README details MCP tools, transports (stdio/HTTP), and registry listings
@@ -96,6 +113,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server (not an extension augmenting another assistant).
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server (not an extension
+        augmenting another assistant).
       review_reason: null
       review_resume_lifecycle: null

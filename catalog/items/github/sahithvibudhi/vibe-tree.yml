@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sahithvibudhi__vibe-tree__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Session managers & parallel runners
         anchor_text: vibe-tree
         extracted_url: https://github.com/sahithvibudhi/vibe-tree
-        surrounding_text: "- **[vibe-tree](https://github.com/sahithvibudhi/vibe-tree)** `⭐ 253` — Execute Claude Code tasks in parallel git worktrees."
+        surrounding_text: >-
+          - **[vibe-tree](https://github.com/sahithvibudhi/vibe-tree)** `⭐ 253` — Execute Claude Code tasks in parallel
+          git worktrees.
         confidence: high
 metadata:
   github:
@@ -30,10 +32,10 @@ metadata:
     archived: false
     full_name: sahithvibudhi/vibe-tree
     html_url: https://github.com/sahithvibudhi/vibe-tree
-    created_at: "2025-07-29T07:18:49Z"
-    pushed_at: "2026-07-16T03:26:45Z"
+    created_at: '2025-07-29T07:18:49Z'
+    pushed_at: '2026-07-16T03:26:45Z'
     description: Vibe code with Claude in parallel git worktrees
-    homepage: ""
+    homepage: ''
     topics:
       - claude
       - claude-code
@@ -42,14 +44,20 @@ metadata:
       - git-worktree
       - typescript
       - vibe-coding
-    last_checked_at: "2026-07-20T16:42:49.718Z"
+    last_checked_at: '2026-07-20T16:42:49.718Z'
     readme:
-      fetched_at: "2026-07-20T16:42:49.718Z"
+      fetched_at: '2026-07-20T16:42:49.718Z'
       bytes: 5850
 insights:
-  summary: A cross-platform desktop and web app that runs multiple AI coding assistants in parallel across isolated git worktrees to reduce context switching.
-  why_it_matters: It lets developers delegate different tasks to separate AI agent sessions simultaneously without clobbering each other's working directories.
-  mental_damage: You now have the infrastructure to run six Claude sessions in parallel, which mostly confirms that your bottleneck was never context switching to begin with.
+  summary: >-
+    A cross-platform desktop and web app that runs multiple AI coding assistants in parallel across isolated git
+    worktrees to reduce context switching.
+  why_it_matters: >-
+    It lets developers delegate different tasks to separate AI agent sessions simultaneously without clobbering each
+    other's working directories.
+  mental_damage: >-
+    You now have the infrastructure to run six Claude sessions in parallel, which mostly confirms that your bottleneck
+    was never context switching to begin with.
   tags:
     - parallel-agents
     - git-worktrees
@@ -58,35 +66,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is a cross-platform workbench that coordinates multiple AI coding agents across parallel git worktrees, fitting the agent orchestration control plane profile rather than acting as a standalone coding assistant.
+  reason: >-
+    The project is a cross-platform workbench that coordinates multiple AI coding agents across parallel git worktrees,
+    fitting the agent orchestration control plane profile rather than acting as a standalone coding assistant.
   evidence:
     - Repo description explicitly states 'Vibe code with Claude in parallel git worktrees'
-    - README describes a cross-platform app that 'enables parallel development with AI assistance across multiple git worktrees' with desktop, browser, and mobile access
+    - >-
+      README describes a cross-platform app that 'enables parallel development with AI assistance across multiple git
+      worktrees' with desktop, browser, and mobile access
     - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers & parallel runners'
 placement:
   primary_category: agent-orchestration
-  section: Workbenches & Collaboration Surfaces
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (253) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.646Z"
+    updated_at: '2026-05-06T22:12:15.646Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:49.718Z"
+    updated_at: '2026-07-20T16:42:49.718Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

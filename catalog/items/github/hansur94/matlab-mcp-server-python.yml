@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hansur94__matlab-mcp-server-python__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 👨‍💻 <a name="code-execution"></a>Code Execution
         anchor_text: HanSur94/matlab-mcp-server-python
         extracted_url: https://github.com/hansur94/matlab-mcp-server-python
-        surrounding_text: "- [HanSur94/matlab-mcp-server-python](https://github.com/HanSur94/matlab-mcp-server-python) [![HanSur94/matlab-mcp-server-python MCP server](https://glama.ai/mcp/servers/HanSur94/matlab-mcp-server-python/badges/score.svg)](https://glama.ai/mcp/servers/HanSur94/matlab-mcp-server-python) 🐍 🏠 🍎 🪟 🐧 - Connect AI agents to MATLAB — execute code, run async jobs with progress reporting, get interactive Plotly plots, expose custom .m functions as tools, and monitor via live dashboard."
+        surrounding_text: >-
+          - [HanSur94/matlab-mcp-server-python](https://github.com/HanSur94/matlab-mcp-server-python)
+          [![HanSur94/matlab-mcp-server-python MCP
+          server](https://glama.ai/mcp/servers/HanSur94/matlab-mcp-server-python/badges/score.svg)](https://glama.ai/mcp/servers/HanSur94/matlab-mcp-server-python)
+          🐍 🏠 🍎 🪟 🐧 - Connect AI agents to MATLAB — execute code, run async jobs with progress reporting, get
+          interactive Plotly plots, expose custom .m functions as tools, and monitor via live dashboard.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: HanSur94/matlab-mcp-server-python
     html_url: https://github.com/HanSur94/matlab-mcp-server-python
-    created_at: "2026-03-12T21:08:14Z"
-    pushed_at: "2026-07-13T08:38:04Z"
-    description: MCP server that connects any AI agent to MATLAB — execute code, async jobs, interactive Plotly plots, custom tools, and monitoring dashboard
+    created_at: '2026-03-12T21:08:14Z'
+    pushed_at: '2026-07-13T08:38:04Z'
+    description: >-
+      MCP server that connects any AI agent to MATLAB — execute code, async jobs, interactive Plotly plots, custom
+      tools, and monitoring dashboard
     homepage: https://pypi.org/project/matlab-mcp-python/
     topics:
       - agent
@@ -41,13 +48,17 @@ metadata:
       - mcp
       - model-context-protocol
       - python
-    last_checked_at: "2026-07-30T05:05:35.073Z"
+    last_checked_at: '2026-07-30T05:05:35.073Z'
     readme:
-      fetched_at: "2026-07-30T05:05:35.073Z"
+      fetched_at: '2026-07-30T05:05:35.073Z'
       bytes: 31516
 insights:
-  summary: An MCP server that enables AI agents to execute MATLAB code, run async jobs, and interact with Plotly-converted MATLAB plots.
-  why_it_matters: Developers can now delegate MATLAB-specific tasks (code execution, toolbox discovery, plotting) to AI agents without leaving their preferred assistant workflow.
+  summary: >-
+    An MCP server that enables AI agents to execute MATLAB code, run async jobs, and interact with Plotly-converted
+    MATLAB plots.
+  why_it_matters: >-
+    Developers can now delegate MATLAB-specific tasks (code execution, toolbox discovery, plotting) to AI agents without
+    leaving their preferred assistant workflow.
   mental_damage: Finally, a way to make MATLAB feel like just another tool in your agent’s Swiss Army knife.
   tags:
     - mcp
@@ -58,33 +69,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the core product identity here: a domain-specific server exposing MATLAB capabilities via the Model Context Protocol."
+  reason: >-
+    MCP is the core product identity here: a domain-specific server exposing MATLAB capabilities via the Model Context
+    Protocol.
   evidence:
     - Repo description explicitly states it is an MCP server for MATLAB
     - README emphasizes MCP as the primary integration layer for AI agents
     - Already listed in awesome-mcp-servers under Server Implementations > Code Execution
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.618Z"
+    updated_at: '2026-05-06T22:12:15.618Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-03T05:16:57.995Z"
+    updated_at: '2026-09-03T05:16:57.995Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for hansur94/matlab-mcp-server-python
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:05:02.431Z"
+    updated_at: '2026-07-21T16:05:02.431Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -97,7 +111,9 @@ processing:
       input_hash: sha256:2526835236a7e51202331a17c92f60a6322d390da5a4233f1f91e91a3c23b044
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the core product identity here: a domain-specific server exposing MATLAB capabilities via the Model Context Protocol."
+      decision_reason: >-
+        MCP is the core product identity here: a domain-specific server exposing MATLAB capabilities via the Model
+        Context Protocol.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for MATLAB
         - README emphasizes MCP as the primary integration layer for AI agents
@@ -105,6 +121,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product’s primary identity is as an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product’s primary identity is as an MCP server, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

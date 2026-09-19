@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lyogavin__airllm__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,10 @@ provenance:
           - 推理 Inference
         anchor_text: AirLLM
         extracted_url: https://github.com/lyogavin/airllm
-        surrounding_text: "29. [AirLLM](https://github.com/lyogavin/airllm): AirLLM optimizes inference memory usage, allowing 70B large language models to run inference on a single 4GB GPU card without quantization, distillation and pruning. And you can run 405B Llama3.1 on 8GB vram now."
+        surrounding_text: >-
+          29. [AirLLM](https://github.com/lyogavin/airllm): AirLLM optimizes inference memory usage, allowing 70B large
+          language models to run inference on a single 4GB GPU card without quantization, distillation and pruning. And
+          you can run 405B Llama3.1 on 8GB vram now.
         confidence: high
 metadata:
   github:
@@ -29,10 +32,10 @@ metadata:
     archived: false
     full_name: lyogavin/airllm
     html_url: https://github.com/lyogavin/airllm
-    created_at: "2023-06-12T16:28:41Z"
-    pushed_at: "2026-07-29T01:08:32Z"
+    created_at: '2023-06-12T16:28:41Z'
+    pushed_at: '2026-07-29T01:08:32Z'
     description: AirLLM 70B inference with single 4GB GPU
-    homepage: ""
+    homepage: ''
     topics:
       - chinese-llm
       - chinese-nlp
@@ -47,13 +50,15 @@ metadata:
       - open-source
       - open-source-models
       - qlora
-    last_checked_at: "2026-08-03T05:16:53.737Z"
+    last_checked_at: '2026-08-03T05:16:53.737Z'
     readme:
-      fetched_at: "2026-08-03T05:16:53.737Z"
+      fetched_at: '2026-08-03T05:16:53.737Z'
       bytes: 16170
 insights:
   summary: AirLLM enables running 70B parameter large language models on a single 4GB GPU using memory optimization techniques.
-  why_it_matters: It lowers hardware barriers for developers to run and experiment with large models locally, enabling accessible LLM inference without expensive infrastructure.
+  why_it_matters: >-
+    It lowers hardware barriers for developers to run and experiment with large models locally, enabling accessible LLM
+    inference without expensive infrastructure.
   mental_damage: The quiet realization that your laptop can now host a model larger than your life choices.
   tags:
     - local-ai
@@ -62,32 +67,35 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: AirLLM is a localized inference runtime focused on enabling large model execution on consumer hardware, making it a developer-facing local AI tool rather than a coding assistant, framework, or orchestrator.
+  reason: >-
+    AirLLM is a localized inference runtime focused on enabling large model execution on consumer hardware, making it a
+    developer-facing local AI tool rather than a coding assistant, framework, or orchestrator.
   evidence:
-    - "Repo description: 'AirLLM 70B inference with single 4GB GPU'"
-    - "Stars: 22,686 indicates strong community traction"
-    - "Pushed at: 2026-07-12 shows recent activity"
+    - 'Repo description: ''AirLLM 70B inference with single 4GB GPU'''
+    - 'Stars: 22,686 indicates strong community traction'
+    - 'Pushed at: 2026-07-12 shows recent activity'
     - Listed in awesome-LLM-resources under '推理 Inference' section
 placement:
   primary_category: local-ai
-  section: Local Runtimes
+  secondary_categories: []
+  section: Inference Engines
 lifecycle:
   status: promotion_candidate
   reason: Stars (17212) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.628Z"
+    updated_at: '2026-05-06T22:12:15.628Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:53.737Z"
+    updated_at: '2026-08-03T05:16:53.737Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:17:43.382Z"
+    updated_at: '2026-07-21T16:17:43.382Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -100,15 +108,19 @@ processing:
       input_hash: sha256:e5f8a1d1b65dfdbc62fc591084ffca1d262fc32dd550858c549ecdee1dfdb40d
       proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: AirLLM is a localized inference runtime focused on enabling large model execution on consumer hardware, making it a developer-facing local AI tool rather than a coding assistant, framework, or orchestrator.
+      decision_reason: >-
+        AirLLM is a localized inference runtime focused on enabling large model execution on consumer hardware, making
+        it a developer-facing local AI tool rather than a coding assistant, framework, or orchestrator.
       decision_evidence:
-        - "Repo description: 'AirLLM 70B inference with single 4GB GPU'"
-        - "Stars: 22,686 indicates strong community traction"
-        - "Pushed at: 2026-07-12 shows recent activity"
+        - 'Repo description: ''AirLLM 70B inference with single 4GB GPU'''
+        - 'Stars: 22,686 indicates strong community traction'
+        - 'Pushed at: 2026-07-12 shows recent activity'
         - Listed in awesome-LLM-resources under '推理 Inference' section
       category_candidates:
         - local-ai
         - ai-frameworks
-      contrastive_reason: Choose local-ai over ai-frameworks because AirLLM is primarily a runtime for local model execution, not a code-first SDK or library for building AI workflows.
+      contrastive_reason: >-
+        Choose local-ai over ai-frameworks because AirLLM is primarily a runtime for local model execution, not a
+        code-first SDK or library for building AI workflows.
       review_reason: null
       review_resume_lifecycle: null

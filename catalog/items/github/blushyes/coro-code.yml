@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__blushyes__coro-code__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Open Source
         anchor_text: Coro Code
         extracted_url: https://github.com/blushyes/coro-code
-        surrounding_text: "- **[Coro Code](https://github.com/Blushyes/coro-code)** `⭐ 358` — Open-source CLI coding agent, a free alternative to Claude Code; generate, debug, and manage code seamlessly."
+        surrounding_text: >-
+          - **[Coro Code](https://github.com/Blushyes/coro-code)** `⭐ 358` — Open-source CLI coding agent, a free
+          alternative to Claude Code; generate, debug, and manage code seamlessly.
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: Blushyes/coro-code
     html_url: https://github.com/Blushyes/coro-code
-    created_at: "2025-08-13T17:19:09Z"
-    pushed_at: "2025-10-30T09:34:18Z"
+    created_at: '2025-08-13T17:19:09Z'
+    pushed_at: '2025-10-30T09:34:18Z'
     description: Open-source CLI coding agent, a free alternative to Claude Code. Generate, debug, and manage code seamlessly.
     homepage: https://sofast.fun
     topics:
@@ -42,14 +44,20 @@ metadata:
       - code-agent
       - gemini-cli
       - llm
-    last_checked_at: "2026-09-07T04:13:36.199Z"
+    last_checked_at: '2026-09-07T04:13:36.199Z'
     readme:
-      fetched_at: "2026-09-07T04:13:36.199Z"
+      fetched_at: '2026-09-07T04:13:36.199Z'
       bytes: 11877
 insights:
-  summary: Open-source CLI coding agent written in Rust, offering a terminal-native alternative to Claude Code with multi-provider LLM support.
-  why_it_matters: Developers get a fast, local-first coding assistant with a rich TUI that can read, edit, and execute code directly in their terminal workflow.
-  mental_damage: Another day, another CLI agent promising to out-Claude Claude Code while you’re still waiting for your last PR to pass CI.
+  summary: >-
+    Open-source CLI coding agent written in Rust, offering a terminal-native alternative to Claude Code with
+    multi-provider LLM support.
+  why_it_matters: >-
+    Developers get a fast, local-first coding assistant with a rich TUI that can read, edit, and execute code directly
+    in their terminal workflow.
+  mental_damage: >-
+    Another day, another CLI agent promising to out-Claude Claude Code while you’re still waiting for your last PR to
+    pass CI.
   tags:
     - cli-agent
     - rust
@@ -59,13 +67,20 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a standalone terminal-native coding assistant that directly reads, edits, and executes code, matching the core identity of a primary coding agent.
+  reason: >-
+    It is a standalone terminal-native coding assistant that directly reads, edits, and executes code, matching the core
+    identity of a primary coding agent.
   evidence:
-    - "Repo description: 'Open-source CLI coding agent, a free alternative to Claude Code. Generate, debug, and manage code seamlessly.'"
-    - "README: 'Coro Code is a high-performance AI coding agent written in Rust with a rich terminal UI' with built-in bash execution and file operations."
-    - "Source-list context: Listed under 'Terminal-native coding agents > Open Source' in awesome-cli-coding-agents."
+    - >-
+      Repo description: 'Open-source CLI coding agent, a free alternative to Claude Code. Generate, debug, and manage
+      code seamlessly.'
+    - >-
+      README: 'Coro Code is a high-performance AI coding agent written in Rust with a rich terminal UI' with built-in
+      bash execution and file operations.
+    - 'Source-list context: Listed under ''Terminal-native coding agents > Open Source'' in awesome-cli-coding-agents.'
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -73,17 +88,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:36.199Z"
+    updated_at: '2026-09-07T04:13:36.199Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:26:32.267Z"
+    updated_at: '2026-07-21T15:26:32.267Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -96,14 +111,22 @@ processing:
       input_hash: sha256:a500d4753dfa62a59d60a1cd1c8fcafe8bd19797ddb886569c1680679b27417e
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: It is a standalone terminal-native coding assistant that directly reads, edits, and executes code, matching the core identity of a primary coding agent.
+      decision_reason: >-
+        It is a standalone terminal-native coding assistant that directly reads, edits, and executes code, matching the
+        core identity of a primary coding agent.
       decision_evidence:
-        - "Repo description: 'Open-source CLI coding agent, a free alternative to Claude Code. Generate, debug, and manage code seamlessly.'"
-        - "README: 'Coro Code is a high-performance AI coding agent written in Rust with a rich terminal UI' with built-in bash execution and file operations."
-        - "Source-list context: Listed under 'Terminal-native coding agents > Open Source' in awesome-cli-coding-agents."
+        - >-
+          Repo description: 'Open-source CLI coding agent, a free alternative to Claude Code. Generate, debug, and
+          manage code seamlessly.'
+        - >-
+          README: 'Coro Code is a high-performance AI coding agent written in Rust with a rich terminal UI' with
+          built-in bash execution and file operations.
+        - 'Source-list context: Listed under ''Terminal-native coding agents > Open Source'' in awesome-cli-coding-agents.'
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because the tool is a primary coding assistant (not an extension for another assistant) with its own terminal UI and direct code manipulation capabilities.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because the tool is a primary coding assistant (not an extension for
+        another assistant) with its own terminal UI and direct code manipulation capabilities.
       review_reason: null
       review_resume_lifecycle: null

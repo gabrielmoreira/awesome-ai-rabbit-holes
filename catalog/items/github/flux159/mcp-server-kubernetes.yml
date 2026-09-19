@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__flux159__mcp-server-kubernetes__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: flux159/mcp-server-kubernetes
         extracted_url: https://github.com/flux159/mcp-server-kubernetes
-        surrounding_text: "- [flux159/mcp-server-kubernetes](https://github.com/Flux159/mcp-server-kubernetes) 📇 ☁️/🏠 - Typescript implementation of Kubernetes cluster operations for pods, deployments, services."
+        surrounding_text: >-
+          - [flux159/mcp-server-kubernetes](https://github.com/Flux159/mcp-server-kubernetes) 📇 ☁️/🏠 - Typescript
+          implementation of Kubernetes cluster operations for pods, deployments, services.
         confidence: high
     - id: discovery__github__flux159__mcp-server-kubernetes__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,10 +37,12 @@ provenance:
           - Community Servers
         anchor_text: Kubernetes
         extracted_url: https://github.com/flux159/mcp-server-kubernetes
-        surrounding_text: "- **[Kubernetes](https://github.com/Flux159/mcp-server-kubernetes)** - Connect to Kubernetes cluster and manage pods, deployments, services."
+        surrounding_text: >-
+          - **[Kubernetes](https://github.com/Flux159/mcp-server-kubernetes)** - Connect to Kubernetes cluster and
+          manage pods, deployments, services.
         confidence: high
     - id: discovery__github__flux159__mcp-server-kubernetes__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -48,9 +52,12 @@ provenance:
         mode: parsed
         section_path:
           - ☁️ Cloud Platforms
-        anchor_text: "@flux159/mcp-server-kubernetes"
+        anchor_text: '@flux159/mcp-server-kubernetes'
         extracted_url: https://github.com/flux159/mcp-server-kubernetes
-        surrounding_text: "-   **[@flux159/mcp-server-kubernetes](https://github.com/Flux159/mcp-server-kubernetes)** [![GitHub stars](https://img.shields.io/github/stars/Flux159/mcp-server-kubernetes?style=social)](https://github.com/Flux159/mcp-server-kubernetes): Controls Kubernetes pods, deployments, and services (TypeScript implementation)."
+        surrounding_text: >-
+          -   **[@flux159/mcp-server-kubernetes](https://github.com/Flux159/mcp-server-kubernetes)** [![GitHub
+          stars](https://img.shields.io/github/stars/Flux159/mcp-server-kubernetes?style=social)](https://github.com/Flux159/mcp-server-kubernetes):
+          Controls Kubernetes pods, deployments, and services (TypeScript implementation).
         confidence: high
 metadata:
   github:
@@ -60,8 +67,8 @@ metadata:
     archived: false
     full_name: Flux159/mcp-server-kubernetes
     html_url: https://github.com/Flux159/mcp-server-kubernetes
-    created_at: "2024-12-08T00:01:28Z"
-    pushed_at: "2026-08-31T15:59:13Z"
+    created_at: '2024-12-08T00:01:28Z'
+    pushed_at: '2026-08-31T15:59:13Z'
     description: MCP Server for kubernetes management commands
     homepage: https://www.npmjs.com/package/mcp-server-kubernetes
     topics:
@@ -69,14 +76,18 @@ metadata:
       - kubernetes
       - mcp
       - server
-    last_checked_at: "2026-09-03T05:16:41.994Z"
+    last_checked_at: '2026-09-03T05:16:41.994Z'
     readme:
-      fetched_at: "2026-09-03T05:16:41.994Z"
+      fetched_at: '2026-09-03T05:16:41.994Z'
       bytes: 16196
 insights:
   summary: An MCP server that allows AI assistants to interact with and manage Kubernetes clusters via kubectl.
-  why_it_matters: It enables AI coding agents to perform infrastructure tasks like inspecting pods, managing deployments, and running Helm commands directly from the chat interface.
-  mental_damage: Nothing quite prepares you for the existential dread of an LLM accidentally deleting your production namespace during a routine debug session.
+  why_it_matters: >-
+    It enables AI coding agents to perform infrastructure tasks like inspecting pods, managing deployments, and running
+    Helm commands directly from the chat interface.
+  mental_damage: >-
+    Nothing quite prepares you for the existential dread of an LLM accidentally deleting your production namespace
+    during a routine debug session.
   tags:
     - mcp
     - kubernetes
@@ -93,24 +104,25 @@ curation:
     - Strong ecosystem traction with 1,459 stars and active development
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (1387) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.577Z"
+    updated_at: '2026-05-06T22:12:15.577Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:41.994Z"
+    updated_at: '2026-09-03T05:16:41.994Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:57:39.708Z"
+    updated_at: '2026-07-21T15:57:39.708Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -131,6 +143,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is specifically an MCP server implementation rather than a general-purpose IDE extension.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is specifically an MCP server implementation
+        rather than a general-purpose IDE extension.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__chatmcp__mcp-server-chatsum__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: chatmcp/mcp-server-chatsum
         extracted_url: https://github.com/chatmcp/mcp-server-chatsum
-        surrounding_text: "- [chatmcp/mcp-server-chatsum](https://github.com/chatmcp/mcp-server-chatsum) - Query and summarize your chat messages with AI prompts."
+        surrounding_text: >-
+          - [chatmcp/mcp-server-chatsum](https://github.com/chatmcp/mcp-server-chatsum) - Query and summarize your chat
+          messages with AI prompts.
         confidence: high
 metadata:
   github:
@@ -30,17 +32,17 @@ metadata:
     archived: false
     full_name: chatmcp/mcp-server-chatsum
     html_url: https://github.com/chatmcp/mcp-server-chatsum
-    created_at: "2024-12-03T16:08:19Z"
-    pushed_at: "2024-12-04T02:58:20Z"
+    created_at: '2024-12-03T16:08:19Z'
+    pushed_at: '2024-12-04T02:58:20Z'
     description: Query and Summarize your chat messages.
     homepage: https://mcp.so
     topics:
       - chatbot
       - chatsum
       - mcp-server
-    last_checked_at: "2026-09-07T04:13:43.922Z"
+    last_checked_at: '2026-09-07T04:13:43.922Z'
     readme:
-      fetched_at: "2026-09-07T04:13:43.922Z"
+      fetched_at: '2026-09-07T04:13:43.922Z'
       bytes: 1832
 insights:
   summary: An MCP server that queries and summarizes chat messages from a local chat database.
@@ -54,31 +56,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server for chat message querying/summarization, not a generic tool or extension."
+  reason: >-
+    MCP is the product identity: this is a dedicated MCP server for chat message querying/summarization, not a generic
+    tool or extension.
   evidence:
     - Repo description explicitly states it is an MCP Server for summarizing chat messages
     - README details MCP server setup, tools (`query_chat_messages`), and Claude Desktop integration
     - Topics include 'mcp-server' and 'chatbot'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: promotion_candidate
   reason: Stars (1034) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.607Z"
+    updated_at: '2026-05-06T22:12:15.607Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:43.922Z"
+    updated_at: '2026-09-07T04:13:43.922Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:41:20.555Z"
+    updated_at: '2026-07-21T15:41:20.555Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -91,7 +95,9 @@ processing:
       input_hash: sha256:f5145818ced4170f2d814c2fdda031aa309805717237886f7d88932f7925f2b5
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server for chat message querying/summarization, not a generic tool or extension."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server for chat message querying/summarization, not a
+        generic tool or extension.
       decision_evidence:
         - Repo description explicitly states it is an MCP Server for summarizing chat messages
         - README details MCP server setup, tools (`query_chat_messages`), and Claude Desktop integration
@@ -99,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product is an MCP server first, with retrieval/summarization as its domain-specific capability rather than a standalone context system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the product is an MCP server first, with retrieval/summarization as
+        its domain-specific capability rather than a standalone context system.
       review_reason: null
       review_resume_lifecycle: null

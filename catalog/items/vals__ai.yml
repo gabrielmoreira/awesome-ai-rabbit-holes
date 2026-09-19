@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__vals__ai__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -21,7 +21,7 @@ provenance:
         surrounding_text: 3. [Vals AI](https://www.vals.ai/home) `evaluation`
         confidence: high
     - id: discovery__www__vals__ai__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-07-13T05:12:52.223Z"
+      discovered_at: '2026-07-13T05:12:52.223Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -51,9 +51,13 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A domain-specific benchmarking platform for evaluating AI models across legal, tax, finance, and software engineering tasks.
-  why_it_matters: It provides industry-specific benchmarks like the Excel Modeling Benchmark to help developers assess model performance in highly specialized professional workflows.
-  mental_damage: "Because knowing your model is #2 in legal research isn't much comfort when it still can't pass a simple unit test."
+  summary: >-
+    A domain-specific benchmarking platform for evaluating AI models across legal, tax, finance, and software
+    engineering tasks.
+  why_it_matters: >-
+    It provides industry-specific benchmarks like the Excel Modeling Benchmark to help developers assess model
+    performance in highly specialized professional workflows.
+  mental_damage: 'Because knowing your model is #2 in legal research isn''t much comfort when it still can''t pass a simple unit test.'
   tags:
     - benchmarking
     - domain-specific
@@ -63,21 +67,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is measuring and comparing model performance on complex, specialized tasks rather than acting as an assistant or framework.
+  reason: >-
+    The product's core identity is measuring and comparing model performance on complex, specialized tasks rather than
+    acting as an assistant or framework.
   evidence:
     - Claims to run proprietary benchmarks in finance, law, and software
     - Provides a comparative 'Vals Index' for various models
     - Features specific industry benchmarks like Excel Modeling Benchmark
 placement:
   primary_category: evals
-  section: Agent Benchmarks
+  secondary_categories: []
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-13T05:23:55.061Z"
+    updated_at: '2026-07-13T05:23:55.061Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
@@ -85,7 +92,7 @@ processing:
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.971Z"
+    updated_at: '2026-07-21T15:20:21.971Z'
     cause: null
     next_retry_at: null
   stars:

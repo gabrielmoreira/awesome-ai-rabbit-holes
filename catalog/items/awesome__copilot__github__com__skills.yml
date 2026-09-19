@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__awesome__copilot__github__com__skills__awesome-list__github__awesome-copilot
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: github/awesome-copilot
@@ -18,7 +18,9 @@ provenance:
           - What's in this repo
         anchor_text: All skills →
         extracted_url: https://awesome-copilot.github.com/skills
-        surrounding_text: "| 🎯 [Skills](docs/README.skills.md) | Self-contained folders with instructions and bundled assets | [All skills →](https://awesome-copilot.github.com/skills) |"
+        surrounding_text: >-
+          | 🎯 [Skills](docs/README.skills.md) | Self-contained folders with instructions and bundled assets | [All
+          skills →](https://awesome-copilot.github.com/skills) |
         confidence: high
 metadata:
   github:
@@ -37,7 +39,9 @@ metadata:
     readme: null
 insights:
   summary: A curated collection of community-contributed instructions, agents, skills, and configurations for GitHub Copilot.
-  why_it_matters: Developers can extend GitHub Copilot's capabilities with reusable, shareable skill packs tailored to specific workflows or domains.
+  why_it_matters: >-
+    Developers can extend GitHub Copilot's capabilities with reusable, shareable skill packs tailored to specific
+    workflows or domains.
   mental_damage: Now you can spend more time curating Copilot's skills than actually writing code with it.
   tags:
     - github-copilot
@@ -46,21 +50,21 @@ insights:
     - curated-list
   confidence: high
 curation:
-  status: included
-  reason: The primary artifact is a registry/directory of reusable skill packs for GitHub Copilot, matching the 'Agent Skills' category's focus on portable skill content.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Source-list context describes it as 'Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot'
-    - The URL and naming ('skills') indicate a collection/registry rather than a standalone tool
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: skills
-  section: Skill Registries & Directories
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +73,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-31T13:29:43.418Z"
+    updated_at: '2026-08-31T13:29:43.418Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -82,13 +86,19 @@ processing:
       input_hash: sha256:b1f0f01f13d73923156a8d69e2a2c9dc77a2ef183fa7125c7f292fe3b1a87d02
       proposed_primary_category: skills
       disagreement: false
-      decision_reason: The primary artifact is a registry/directory of reusable skill packs for GitHub Copilot, matching the 'Agent Skills' category's focus on portable skill content.
+      decision_reason: >-
+        The primary artifact is a registry/directory of reusable skill packs for GitHub Copilot, matching the 'Agent
+        Skills' category's focus on portable skill content.
       decision_evidence:
-        - Source-list context describes it as 'Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot'
+        - >-
+          Source-list context describes it as 'Community-contributed instructions, agents, skills, and configurations to
+          help you make the most of GitHub Copilot'
         - The URL and naming ('skills') indicate a collection/registry rather than a standalone tool
       category_candidates:
         - skills
         - awesome-awesomes
-      contrastive_reason: Choose skills over awesome-awesomes because the core value is the reusable skill content itself rather than just navigation/discovery of the ecosystem.
+      contrastive_reason: >-
+        Choose skills over awesome-awesomes because the core value is the reusable skill content itself rather than just
+        navigation/discovery of the ecosystem.
       review_reason: null
       review_resume_lifecycle: null

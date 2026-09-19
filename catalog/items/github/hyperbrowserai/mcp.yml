@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hyperbrowserai__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: Hyperbrowser
         extracted_url: https://github.com/hyperbrowserai/mcp
-        surrounding_text: "- **[Hyperbrowser](https://github.com/hyperbrowserai/mcp)** - [Hyperbrowser](https://www.hyperbrowser.ai/) is the next-generation platform empowering AI agents and enabling effortless, scalable browser automation."
+        surrounding_text: >-
+          - **[Hyperbrowser](https://github.com/hyperbrowserai/mcp)** - [Hyperbrowser](https://www.hyperbrowser.ai/) is
+          the next-generation platform empowering AI agents and enabling effortless, scalable browser automation.
         confidence: high
 metadata:
   github:
@@ -29,18 +31,22 @@ metadata:
     archived: false
     full_name: hyperbrowserai/mcp
     html_url: https://github.com/hyperbrowserai/mcp
-    created_at: "2025-02-25T19:06:01Z"
-    pushed_at: "2025-11-20T01:32:08Z"
+    created_at: '2025-02-25T19:06:01Z'
+    pushed_at: '2025-11-20T01:32:08Z'
     description: A MCP server implementation for hyperbrowser
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:41.042Z"
+    last_checked_at: '2026-07-30T05:05:41.042Z'
     readme:
-      fetched_at: "2026-07-30T05:05:41.042Z"
+      fetched_at: '2026-07-30T05:05:41.042Z'
       bytes: 3617
 insights:
-  summary: An MCP server implementation for Hyperbrowser that provides web scraping, crawling, structured data extraction, and browser agent access.
-  why_it_matters: It gives developers MCP-based access to Hyperbrowser's web automation and data extraction capabilities, integrating with coding assistants like Cursor, Windsurf, and Claude Desktop.
+  summary: >-
+    An MCP server implementation for Hyperbrowser that provides web scraping, crawling, structured data extraction, and
+    browser agent access.
+  why_it_matters: >-
+    It gives developers MCP-based access to Hyperbrowser's web automation and data extraction capabilities, integrating
+    with coding assistants like Cursor, Windsurf, and Claude Desktop.
   mental_damage: Now your AI can browse the web for you, because apparently writing regex to parse HTML was the last straw.
   tags:
     - mcp
@@ -58,24 +64,25 @@ curation:
     - Listed in awesome-mcp-servers under Official Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: promotion_candidate
   reason: Stars (761) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.619Z"
+    updated_at: '2026-05-06T22:12:15.619Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:41.042Z"
+    updated_at: '2026-07-30T05:05:41.042Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:07:24.621Z"
+    updated_at: '2026-07-21T16:07:24.621Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,6 +103,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not merely an extension for another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

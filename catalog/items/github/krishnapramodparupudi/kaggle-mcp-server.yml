@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__krishnapramodparupudi__kaggle-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🧮 <a name="data-science-tools"></a>Data Science Tools
         anchor_text: pramod/kaggle
         extracted_url: https://github.com/krishnapramodparupudi/kaggle-mcp-server
-        surrounding_text: "- [pramod/kaggle](https://github.com/KrishnaPramodParupudi/kaggle-mcp-server) 🐍 - This Kaggle MCP Server makes Kaggle more accessible by letting you browse competitions, leaderboards, models, datasets, and kernels directly within MCP, streamlining discovery for data scientists and developers."
+        surrounding_text: >-
+          - [pramod/kaggle](https://github.com/KrishnaPramodParupudi/kaggle-mcp-server) 🐍 - This Kaggle MCP Server
+          makes Kaggle more accessible by letting you browse competitions, leaderboards, models, datasets, and kernels
+          directly within MCP, streamlining discovery for data scientists and developers.
         confidence: high
 metadata:
   github:
@@ -30,14 +33,16 @@ metadata:
     archived: false
     full_name: KrishnaPramodParupudi/kaggle-mcp-server
     html_url: https://github.com/KrishnaPramodParupudi/kaggle-mcp-server
-    created_at: "2025-09-05T15:26:21Z"
-    pushed_at: "2025-09-05T16:35:24Z"
-    description: This project provides an MCP (Model Context Protocol) server for interacting with Kaggle competitions from Claude Desktop (or any MCP-compatible client)
+    created_at: '2025-09-05T15:26:21Z'
+    pushed_at: '2025-09-05T16:35:24Z'
+    description: >-
+      This project provides an MCP (Model Context Protocol) server for interacting with Kaggle competitions from Claude
+      Desktop (or any MCP-compatible client)
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:58.041Z"
+    last_checked_at: '2026-07-30T05:05:58.041Z'
     readme:
-      fetched_at: "2026-07-30T05:05:58.041Z"
+      fetched_at: '2026-07-30T05:05:58.041Z'
       bytes: 2301
 insights:
   summary: An MCP server that exposes Kaggle competition data to MCP-compatible clients like Claude Desktop.
@@ -51,31 +56,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose primary identity is providing Kaggle API access via MCP, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product is an MCP server whose primary identity is providing Kaggle API access via MCP, fitting the MCP Servers
+    & Tooling category.
   evidence:
     - Repo description explicitly states it is an MCP server for Kaggle
     - README details MCP tool registration and Claude Desktop integration
     - Listed in awesome-mcp-servers under Data Science Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.624Z"
+    updated_at: '2026-05-06T22:12:15.624Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:58.041Z"
+    updated_at: '2026-07-30T05:05:58.041Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:09.476Z"
+    updated_at: '2026-07-21T16:13:09.476Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +96,9 @@ processing:
       input_hash: sha256:fdf8517cb51dc3aad601f97b4b3ec52f68a59a1cd7aa3b04cad5b21bdf5f3fb3
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server whose primary identity is providing Kaggle API access via MCP, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product is an MCP server whose primary identity is providing Kaggle API access via MCP, fitting the MCP
+        Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Kaggle
         - README details MCP tool registration and Claude Desktop integration
@@ -96,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not just an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not just an extension for another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

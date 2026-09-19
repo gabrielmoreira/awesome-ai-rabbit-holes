@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__avisangle__jenkins-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: avisangle/jenkins-mcp-server
         extracted_url: https://github.com/avisangle/jenkins-mcp-server
-        surrounding_text: "- [avisangle/jenkins-mcp-server](https://github.com/avisangle/jenkins-mcp-server) 🐍 🏠 🍎 🪟 🐧 - Enterprise-grade Jenkins CI/CD integration with multi-tier caching, pipeline monitoring, artifact management, and batch operations. Features 21 MCP tools for job management, build status tracking, and queue management with CSRF protection and 2FA support."
+        surrounding_text: >-
+          - [avisangle/jenkins-mcp-server](https://github.com/avisangle/jenkins-mcp-server) 🐍 🏠 🍎 🪟 🐧 -
+          Enterprise-grade Jenkins CI/CD integration with multi-tier caching, pipeline monitoring, artifact management,
+          and batch operations. Features 21 MCP tools for job management, build status tracking, and queue management
+          with CSRF protection and 2FA support.
         confidence: high
 metadata:
   github:
@@ -30,10 +34,12 @@ metadata:
     archived: false
     full_name: avisangle/jenkins-mcp-server
     html_url: https://github.com/avisangle/jenkins-mcp-server
-    created_at: "2025-08-03T12:28:20Z"
-    pushed_at: "2026-02-13T02:16:19Z"
-    description: An MCP server for interacting with a Jenkins server. Allows you to trigger jobs, check build statuses, and manage your Jenkins instance through MCP.
-    homepage: ""
+    created_at: '2025-08-03T12:28:20Z'
+    pushed_at: '2026-02-13T02:16:19Z'
+    description: >-
+      An MCP server for interacting with a Jenkins server. Allows you to trigger jobs, check build statuses, and manage
+      your Jenkins instance through MCP.
+    homepage: ''
     topics:
       - claude
       - claude-code
@@ -47,13 +53,17 @@ metadata:
       - model-context-protocol
       - portfolio-project
       - python
-    last_checked_at: "2026-09-07T04:13:29.019Z"
+    last_checked_at: '2026-09-07T04:13:29.019Z'
     readme:
-      fetched_at: "2026-09-07T04:13:29.019Z"
+      fetched_at: '2026-09-07T04:13:29.019Z'
       bytes: 15589
 insights:
-  summary: An MCP server that enables interaction with Jenkins CI/CD servers, allowing job triggering, build status checks, and instance management through the Model Context Protocol.
-  why_it_matters: Developers can integrate Jenkins CI/CD workflows directly into MCP-compatible assistants, enabling automated job management and monitoring without leaving their coding environment.
+  summary: >-
+    An MCP server that enables interaction with Jenkins CI/CD servers, allowing job triggering, build status checks, and
+    instance management through the Model Context Protocol.
+  why_it_matters: >-
+    Developers can integrate Jenkins CI/CD workflows directly into MCP-compatible assistants, enabling automated job
+    management and monitoring without leaving their coding environment.
   mental_damage: Now your AI assistant can also blame the build pipeline for your existential dread.
   tags:
     - mcp
@@ -64,31 +74,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is as an MCP server for Jenkins, fitting the MCP Servers & Tooling category where MCP is the primary adopted protocol.
+  reason: >-
+    The product's core identity is as an MCP server for Jenkins, fitting the MCP Servers & Tooling category where MCP is
+    the primary adopted protocol.
   evidence:
     - Repo description explicitly states it is an MCP server for Jenkins
     - README details MCP-specific features like STDIO/HTTP transports and Claude Desktop integration
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.604Z"
+    updated_at: '2026-05-06T22:12:15.604Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:29.019Z"
+    updated_at: '2026-09-07T04:13:29.019Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:24:38.949Z"
+    updated_at: '2026-07-21T15:24:38.949Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -101,7 +114,9 @@ processing:
       input_hash: sha256:7cf92af7bb5ee5b26870ba3d5cf607b22dd543ac2c0578008dee29b9f0c68027
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is as an MCP server for Jenkins, fitting the MCP Servers & Tooling category where MCP is the primary adopted protocol.
+      decision_reason: >-
+        The product's core identity is as an MCP server for Jenkins, fitting the MCP Servers & Tooling category where
+        MCP is the primary adopted protocol.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Jenkins
         - README details MCP-specific features like STDIO/HTTP transports and Claude Desktop integration
@@ -109,6 +124,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server (not just an extension for another tool), with MCP as the central protocol rather than a host integration layer.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server (not just an
+        extension for another tool), with MCP as the central protocol rather than a host integration layer.
       review_reason: null
       review_resume_lifecycle: null

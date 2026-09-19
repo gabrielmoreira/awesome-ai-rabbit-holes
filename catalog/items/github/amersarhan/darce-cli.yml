@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__amersarhan__darce-cli__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Open Source
         anchor_text: Darce
         extracted_url: https://github.com/amersarhan/darce-cli
-        surrounding_text: "- **[Darce](https://github.com/AmerSarhan/darce-cli)** `⭐ 4` — Ultralight (14 kB) multi-model CLI agent built with Ink; 7 tools, smart model routing across providers, streaming, session resume, and slash commands. MIT."
+        surrounding_text: >-
+          - **[Darce](https://github.com/AmerSarhan/darce-cli)** `⭐ 4` — Ultralight (14 kB) multi-model CLI agent built
+          with Ink; 7 tools, smart model routing across providers, streaming, session resume, and slash commands. MIT.
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: AmerSarhan/darce-cli
     html_url: https://github.com/AmerSarhan/darce-cli
-    created_at: "2026-03-31T18:14:03Z"
-    pushed_at: "2026-04-01T12:14:33Z"
+    created_at: '2026-03-31T18:14:03Z'
+    pushed_at: '2026-04-01T12:14:33Z'
     description: AI coding agent for your terminal. Reads, writes, edits code, runs commands. Any model. 14 kB.
     homepage: https://cli.darce.dev
     topics:
@@ -53,13 +55,15 @@ metadata:
       - productivity
       - terminal
       - typescript
-    last_checked_at: "2026-09-17T04:13:42.851Z"
+    last_checked_at: '2026-09-17T04:13:42.851Z'
     readme:
-      fetched_at: "2026-09-17T04:13:42.851Z"
+      fetched_at: '2026-09-17T04:13:42.851Z'
       bytes: 6024
 insights:
   summary: AI coding agent for the terminal that reads, writes, edits code, runs commands, and supports any model.
-  why_it_matters: Developers can delegate repo tasks directly from the terminal with minimal setup, using their preferred model without switching tools.
+  why_it_matters: >-
+    Developers can delegate repo tasks directly from the terminal with minimal setup, using their preferred model
+    without switching tools.
   mental_damage: Finally, a CLI agent that fits in 14 kB instead of demanding a Docker container the size of a small novel.
   tags:
     - terminal
@@ -70,13 +74,18 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Darce is a standalone terminal-native coding assistant that directly reads, edits, and runs commands in a repo, fitting the primary identity of a coding agent.
+  reason: >-
+    Darce is a standalone terminal-native coding assistant that directly reads, edits, and runs commands in a repo,
+    fitting the primary identity of a coding agent.
   evidence:
-    - "Repo description: 'AI coding agent for your terminal. Reads, writes, edits code, runs commands. Any model. 14 kB.'"
-    - "README: 'AI coding agent that lives in your terminal. Reads, writes, edits code, runs commands, searches codebases.'"
-    - "Source-list context: Listed in 'awesome-cli-coding-agents' under 'Terminal-native coding agents > Open Source'"
+    - 'Repo description: ''AI coding agent for your terminal. Reads, writes, edits code, runs commands. Any model. 14 kB.'''
+    - >-
+      README: 'AI coding agent that lives in your terminal. Reads, writes, edits code, runs commands, searches
+      codebases.'
+    - 'Source-list context: Listed in ''awesome-cli-coding-agents'' under ''Terminal-native coding agents > Open Source'''
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: incubating
@@ -84,17 +93,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.602Z"
+    updated_at: '2026-05-06T22:12:15.602Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:42.851Z"
+    updated_at: '2026-09-17T04:13:42.851Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:22:34.609Z"
+    updated_at: '2026-07-21T15:22:34.609Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -107,14 +116,22 @@ processing:
       input_hash: sha256:09fa05288815eb8ab3a13ca78a04bc3465f3e1df0b4d5bcbcb28833979fe9ef2
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Darce is a standalone terminal-native coding assistant that directly reads, edits, and runs commands in a repo, fitting the primary identity of a coding agent.
+      decision_reason: >-
+        Darce is a standalone terminal-native coding assistant that directly reads, edits, and runs commands in a repo,
+        fitting the primary identity of a coding agent.
       decision_evidence:
-        - "Repo description: 'AI coding agent for your terminal. Reads, writes, edits code, runs commands. Any model. 14 kB.'"
-        - "README: 'AI coding agent that lives in your terminal. Reads, writes, edits code, runs commands, searches codebases.'"
-        - "Source-list context: Listed in 'awesome-cli-coding-agents' under 'Terminal-native coding agents > Open Source'"
+        - >-
+          Repo description: 'AI coding agent for your terminal. Reads, writes, edits code, runs commands. Any model. 14
+          kB.'
+        - >-
+          README: 'AI coding agent that lives in your terminal. Reads, writes, edits code, runs commands, searches
+          codebases.'
+        - 'Source-list context: Listed in ''awesome-cli-coding-agents'' under ''Terminal-native coding agents > Open Source'''
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because Darce is a primary coding assistant, not an extension augmenting another assistant or editor.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because Darce is a primary coding assistant, not an extension
+        augmenting another assistant or editor.
       review_reason: null
       review_resume_lifecycle: null

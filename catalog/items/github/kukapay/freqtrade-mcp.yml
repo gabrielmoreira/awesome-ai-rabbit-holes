@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__freqtrade-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/freqtrade-mcp
         extracted_url: https://github.com/kukapay/freqtrade-mcp
-        surrounding_text: "- [kukapay/freqtrade-mcp](https://github.com/kukapay/freqtrade-mcp) 🐍 ☁️ - An MCP server that integrates with the Freqtrade cryptocurrency trading bot."
+        surrounding_text: >-
+          - [kukapay/freqtrade-mcp](https://github.com/kukapay/freqtrade-mcp) 🐍 ☁️ - An MCP server that integrates with
+          the Freqtrade cryptocurrency trading bot.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,22 @@ metadata:
     archived: false
     full_name: kukapay/freqtrade-mcp
     html_url: https://github.com/kukapay/freqtrade-mcp
-    created_at: "2025-03-24T13:53:19Z"
-    pushed_at: "2025-12-06T01:04:13Z"
+    created_at: '2025-03-24T13:53:19Z'
+    pushed_at: '2025-12-06T01:04:13Z'
     description: An MCP server that integrates with the Freqtrade cryptocurrency trading bot.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:06:00.294Z"
+    last_checked_at: '2026-07-30T05:06:00.294Z'
     readme:
-      fetched_at: "2026-07-30T05:06:00.294Z"
+      fetched_at: '2026-07-30T05:06:00.294Z'
       bytes: 7058
 insights:
-  summary: An MCP server that integrates with the Freqtrade cryptocurrency trading bot via its REST API to enable AI agent interaction.
-  why_it_matters: Developers can now use AI agents to monitor, control, and automate trading operations in Freqtrade through a standardized protocol.
+  summary: >-
+    An MCP server that integrates with the Freqtrade cryptocurrency trading bot via its REST API to enable AI agent
+    interaction.
+  why_it_matters: >-
+    Developers can now use AI agents to monitor, control, and automate trading operations in Freqtrade through a
+    standardized protocol.
   mental_damage: Because nothing says 'production-ready' like letting an LLM place trades on your behalf.
   tags:
     - mcp
@@ -52,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose primary identity is providing MCP-based access to Freqtrade's API, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product is explicitly an MCP server whose primary identity is providing MCP-based access to Freqtrade's API,
+    fitting the MCP Servers & Tooling category.
   evidence:
     - Repo description explicitly states it is an MCP server for Freqtrade
     - README details MCP server setup and tool exposure via Freqtrade REST API
     - Project is part of a collection of crypto-related MCP servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:00.294Z"
+    updated_at: '2026-07-30T05:06:00.294Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:59.008Z"
+    updated_at: '2026-07-21T16:13:59.008Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +98,9 @@ processing:
       input_hash: sha256:8d6c9502109832933954bb915bf3d60057fae475d58ee7ca072d7a9f8ef87747
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server whose primary identity is providing MCP-based access to Freqtrade's API, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product is explicitly an MCP server whose primary identity is providing MCP-based access to Freqtrade's API,
+        fitting the MCP Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Freqtrade
         - README details MCP server setup and tool exposure via Freqtrade REST API
@@ -97,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

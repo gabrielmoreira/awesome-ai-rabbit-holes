@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__andysingal__llm-course__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -29,19 +29,25 @@ metadata:
     archived: false
     full_name: andysingal/llm-course
     html_url: https://github.com/andysingal/llm-course
-    created_at: "2023-08-22T03:59:41Z"
-    pushed_at: "2026-09-14T13:58:48Z"
+    created_at: '2023-08-22T03:59:41Z'
+    pushed_at: '2026-09-14T13:58:48Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:44.271Z"
+    last_checked_at: '2026-09-17T04:13:44.271Z'
     readme:
-      fetched_at: "2026-09-17T04:13:44.271Z"
+      fetched_at: '2026-09-17T04:13:44.271Z'
       bytes: 229925
 insights:
-  summary: A curated collection of LLM-related learning resources including agentic workflows, multimodal generation, and model inference.
-  why_it_matters: Provides a centralized starting point for developers to navigate the rapidly shifting landscape of LLM architectures and agentic patterns.
-  mental_damage: The sheer velocity of these resources ensures you'll be learning yesterday's breakthroughs by the time you finish the first chapter.
+  summary: >-
+    A curated collection of LLM-related learning resources including agentic workflows, multimodal generation, and model
+    inference.
+  why_it_matters: >-
+    Provides a centralized starting point for developers to navigate the rapidly shifting landscape of LLM architectures
+    and agentic patterns.
+  mental_damage: >-
+    The sheer velocity of these resources ensures you'll be learning yesterday's breakthroughs by the time you finish
+    the first chapter.
   tags:
     - llm
     - learning-resources
@@ -49,31 +55,31 @@ insights:
     - multimodal
   confidence: high
 curation:
-  status: included
-  reason: It is a curated directory of LLM resources designed for discovery and navigation within the ecosystem.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Found in 'awesome-LLM-resources' under the 'Course' section
-    - Provides a summary of world-class LLM resources including Agents and MCP
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (855) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.602Z"
+    updated_at: '2026-05-06T22:12:15.602Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:44.271Z"
+    updated_at: '2026-09-17T04:13:44.271Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:23:13.219Z"
+    updated_at: '2026-07-21T15:23:13.219Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -93,6 +99,8 @@ processing:
       category_candidates:
         - awesome-awesomes
         - newsletters-and-feeds
-      contrastive_reason: Choose awesome-awesomes over newsletters-and-feeds because the project is a structured index/map of resources rather than a recurring publication or commentary.
+      contrastive_reason: >-
+        Choose awesome-awesomes over newsletters-and-feeds because the project is a structured index/map of resources
+        rather than a recurring publication or commentary.
       review_reason: null
       review_resume_lifecycle: null

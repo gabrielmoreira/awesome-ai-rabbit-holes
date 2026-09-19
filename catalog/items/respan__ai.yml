@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__respan__ai__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -18,10 +18,14 @@ provenance:
           - LLMOps
         anchor_text: Keywords AI
         extracted_url: https://keywordsai.co
-        surrounding_text: "| [Keywords AI](https://keywordsai.co/)                              | A unified DevOps platform for AI software. Keywords AI makes it easy for developers to build LLM applications.                                                                                                                                                                                                                                                                                          |                                                                                                           |"
+        surrounding_text: >-
+          | [Keywords AI](https://keywordsai.co/)                              | A unified DevOps platform for AI
+          software. Keywords AI makes it easy for developers to build LLM
+          applications.                                                                                                                                                                                                                                                                                         
+          |                                                                                                           |
         confidence: high
     - id: discovery__www__respan__ai__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-12T15:06:19.300Z"
+      discovered_at: '2026-05-12T15:06:19.300Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -33,7 +37,11 @@ provenance:
           - LLMOps
         anchor_text: Keywords AI
         extracted_url: https://keywordsai.co
-        surrounding_text: "| [Keywords AI](https://keywordsai.co/)                              | A unified DevOps platform for AI software. Keywords AI makes it easy for developers to build LLM applications.                                                                                                                                                                                                                                                                                          |                                                                                                           |"
+        surrounding_text: >-
+          | [Keywords AI](https://keywordsai.co/)                              | A unified DevOps platform for AI
+          software. Keywords AI makes it easy for developers to build LLM
+          applications.                                                                                                                                                                                                                                                                                         
+          |                                                                                                           |
         confidence: high
 metadata:
   github:
@@ -51,9 +59,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Respan is an LLM engineering platform that unifies observability, evaluations, prompt optimization, and model gateway capabilities for teams building AI agents.
-  why_it_matters: It gives developers a single control plane to trace agent behavior, run structured evaluations, and ship prompt or model changes with versioning and rollout controls.
-  mental_damage: Yet another platform promising to solve AI flakiness, just in case the six observability tools you already stitched together weren't quite enough to explain why your agent suddenly forgot how to reply.
+  summary: >-
+    Respan is an LLM engineering platform that unifies observability, evaluations, prompt optimization, and model
+    gateway capabilities for teams building AI agents.
+  why_it_matters: >-
+    It gives developers a single control plane to trace agent behavior, run structured evaluations, and ship prompt or
+    model changes with versioning and rollout controls.
+  mental_damage: >-
+    Yet another platform promising to solve AI flakiness, just in case the six observability tools you already stitched
+    together weren't quite enough to explain why your agent suddenly forgot how to reply.
   tags:
     - agent-monitoring
     - evals
@@ -66,24 +80,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core job is tracing, evaluating, and iterating on model, prompt, and agent behavior, which maps directly to the Evals & Benchmarks category.
+  reason: >-
+    The core job is tracing, evaluating, and iterating on model, prompt, and agent behavior, which maps directly to the
+    Evals & Benchmarks category.
   evidence:
     - Scraped site describes the product as tracing, evaluating, optimizing, deploying, and monitoring AI agents.
     - Features highlighted include observability, evaluations, prompt optimization, and an LLM gateway in one platform.
     - Appears in Awesome-LLMOps under LLMOps as a unified observability, evals, prompt optimization, and gateway tool.
-    - "Scraped site context: 'Trace, evaluate, and improve AI agents' and 'Unify observability, evals, prompt optimization, and your LLM gateway in one platform'"
-    - "Source-list context: Listed in Awesome-LLMOps under LLMOps for unifying observability, evals, prompt optimization, and LLM gateway"
-    - "README excerpt: Features include 'Trace Evaluate Optimize Deploy Monitor', 'Gateway Observability Evaluations Prompt optimization', and detailed workflows for tracing, evaluating, and optimizing agents"
+    - >-
+      Scraped site context: 'Trace, evaluate, and improve AI agents' and 'Unify observability, evals, prompt
+      optimization, and your LLM gateway in one platform'
+    - >-
+      Source-list context: Listed in Awesome-LLMOps under LLMOps for unifying observability, evals, prompt optimization,
+      and LLM gateway
+    - >-
+      README excerpt: Features include 'Trace Evaluate Optimize Deploy Monitor', 'Gateway Observability Evaluations
+      Prompt optimization', and detailed workflows for tracing, evaluating, and optimizing agents
 placement:
   primary_category: evals
-  section: Observability / Tracing / EvalOps
+  secondary_categories: []
+  section: Observability & Tracing
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-12T16:01:37.694Z"
+    updated_at: '2026-05-12T16:01:37.694Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
@@ -91,7 +114,7 @@ processing:
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-12T15:06:19.301Z"
+    updated_at: '2026-05-12T15:06:19.301Z'
     cause: null
     next_retry_at: null
   stars:

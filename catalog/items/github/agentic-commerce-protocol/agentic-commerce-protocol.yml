@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agentic-commerce-protocol__agentic-commerce-protocol__direct-link
-      discovered_at: "2026-05-08T12:23:44.484Z"
+      discovered_at: '2026-05-08T12:23:44.484Z'
       source:
         type: direct-link
         name: Manual submission
@@ -29,19 +29,28 @@ metadata:
     archived: false
     full_name: agentic-commerce-protocol/agentic-commerce-protocol
     html_url: https://github.com/agentic-commerce-protocol/agentic-commerce-protocol
-    created_at: "2025-09-29T04:09:29Z"
-    pushed_at: "2026-07-18T04:51:51Z"
-    description: The Agentic Commerce Protocol (ACP) is an interaction model and open standard for connecting buyers, their AI agents, and businesses to complete purchases seamlessly. The specification is currently maintained by OpenAI and Stripe.
+    created_at: '2025-09-29T04:09:29Z'
+    pushed_at: '2026-07-18T04:51:51Z'
+    description: >-
+      The Agentic Commerce Protocol (ACP) is an interaction model and open standard for connecting buyers, their AI
+      agents, and businesses to complete purchases seamlessly. The specification is currently maintained by OpenAI and
+      Stripe.
     homepage: https://agenticcommerce.dev
     topics: []
-    last_checked_at: "2026-09-17T04:13:32.412Z"
+    last_checked_at: '2026-09-17T04:13:32.412Z'
     readme:
-      fetched_at: "2026-09-17T04:13:32.412Z"
+      fetched_at: '2026-09-17T04:13:32.412Z'
       bytes: 8490
 insights:
-  summary: Agentic Commerce Protocol (ACP) is a versioned open standard from OpenAI and Stripe that ships OpenAPI specs, JSON Schemas, examples, and governance docs for letting AI agents complete real commerce and checkout flows.
-  why_it_matters: It gives developers a concrete interoperability layer for adding purchases, payment delegation, and merchant integrations to agentic products without inventing a one-off transaction protocol.
-  mental_damage: We have progressed from "my chatbot can recommend products" to "my chatbot now needs a changelog, governance process, and OpenAPI contract before it can impulse-buy socks on my behalf."
+  summary: >-
+    Agentic Commerce Protocol (ACP) is a versioned open standard from OpenAI and Stripe that ships OpenAPI specs, JSON
+    Schemas, examples, and governance docs for letting AI agents complete real commerce and checkout flows.
+  why_it_matters: >-
+    It gives developers a concrete interoperability layer for adding purchases, payment delegation, and merchant
+    integrations to agentic products without inventing a one-off transaction protocol.
+  mental_damage: >-
+    We have progressed from "my chatbot can recommend products" to "my chatbot now needs a changelog, governance
+    process, and OpenAPI contract before it can impulse-buy socks on my behalf."
   tags:
     - protocol
     - commerce
@@ -51,33 +60,42 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "The repo is a concrete developer integration artifact: a maintained protocol with versioned OpenAPI and JSON Schema assets that teams implement to add agent-native checkout and payment flows."
+  reason: >-
+    The repo is a concrete developer integration artifact: a maintained protocol with versioned OpenAPI and JSON Schema
+    assets that teams implement to add agent-native checkout and payment flows.
   evidence:
-    - The repo description calls ACP an open standard for connecting buyers, AI agents, and businesses to complete purchases.
-    - The README exposes versioned OpenAPI specs, JSON Schemas, examples, and changelogs as the primary integration surface.
-    - OpenAI and Stripe position it as a production-ready implementation path for merchants, agents, and payment providers.
+    - >-
+      The repo description calls ACP an open standard for connecting buyers, AI agents, and businesses to complete
+      purchases.
+    - >-
+      The README exposes versioned OpenAPI specs, JSON Schemas, examples, and changelogs as the primary integration
+      surface.
+    - >-
+      OpenAI and Stripe position it as a production-ready implementation path for merchants, agents, and payment
+      providers.
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  secondary_categories: []
+  section: LLM & Agent SDKs
 lifecycle:
   status: promotion_candidate
   reason: Stars (1373) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-08T12:23:44.485Z"
+    updated_at: '2026-05-08T12:23:44.485Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:32.412Z"
+    updated_at: '2026-09-17T04:13:32.412Z'
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-20T16:12:09.719Z"
+    updated_at: '2026-07-20T16:12:09.719Z'
     cause:
       type: budget_exhausted
       message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    next_retry_at: '2026-07-20T17:12:09.713Z'
     attempts: 0

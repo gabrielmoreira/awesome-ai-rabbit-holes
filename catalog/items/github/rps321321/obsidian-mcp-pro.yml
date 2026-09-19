@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__rps321321__obsidian-mcp-pro__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: rps321321/obsidian-mcp-pro
         extracted_url: https://github.com/rps321321/obsidian-mcp-pro
-        surrounding_text: "- [rps321321/obsidian-mcp-pro](https://github.com/rps321321/obsidian-mcp-pro) [![rps321321/obsidian-mcp-pro MCP server](https://glama.ai/mcp/servers/rps321321/obsidian-mcp-pro/badges/score.svg)](https://glama.ai/mcp/servers/rps321321/obsidian-mcp-pro) 📇 🏠 🍎 🪟 🐧 - Feature-complete Obsidian vault MCP server with 23 tools and 3 resources. Full-text search, note CRUD, frontmatter queries, tag management, backlinks, graph traversal (BFS up to 5 hops), orphan/broken link detection, and canvas support. Auto-detects vault, path traversal protection, MIT licensed."
+        surrounding_text: >-
+          - [rps321321/obsidian-mcp-pro](https://github.com/rps321321/obsidian-mcp-pro) [![rps321321/obsidian-mcp-pro
+          MCP
+          server](https://glama.ai/mcp/servers/rps321321/obsidian-mcp-pro/badges/score.svg)](https://glama.ai/mcp/servers/rps321321/obsidian-mcp-pro)
+          📇 🏠 🍎 🪟 🐧 - Feature-complete Obsidian vault MCP server with 23 tools and 3 resources. Full-text search,
+          note CRUD, frontmatter queries, tag management, backlinks, graph traversal (BFS up to 5 hops), orphan/broken
+          link detection, and canvas support. Auto-detects vault, path traversal protection, MIT licensed.
         confidence: high
 metadata:
   github:
@@ -30,19 +36,28 @@ metadata:
     archived: false
     full_name: rps321321/obsidian-mcp-pro
     html_url: https://github.com/rps321321/obsidian-mcp-pro
-    created_at: "2026-03-22T00:21:11Z"
-    pushed_at: "2026-07-19T15:18:37Z"
-    description: The most feature-complete MCP server for Obsidian vaults — 23 tools + 3 resources for search, read, write, tags, link analysis, graph traversal, and canvas. Also ships as an Obsidian plugin (github.com/rps321321/obsidian-mcp-pro-plugin).
+    created_at: '2026-03-22T00:21:11Z'
+    pushed_at: '2026-07-19T15:18:37Z'
+    description: >-
+      The most feature-complete MCP server for Obsidian vaults — 23 tools + 3 resources for search, read, write, tags,
+      link analysis, graph traversal, and canvas. Also ships as an Obsidian plugin
+      (github.com/rps321321/obsidian-mcp-pro-plugin).
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:48.200Z"
+    last_checked_at: '2026-07-20T16:42:48.200Z'
     readme:
-      fetched_at: "2026-07-20T16:42:48.200Z"
+      fetched_at: '2026-07-20T16:42:48.200Z'
       bytes: 47899
 insights:
-  summary: An MCP server that exposes Obsidian vaults to AI assistants via 41 tools for reading, writing, searching, tagging, link analysis, graph traversal, canvas manipulation, and semantic search.
-  why_it_matters: It lets coding agents and MCP-compatible assistants treat your personal knowledge base as structured, writable context instead of a pile of markdown files.
-  mental_damage: Your AI can now reorganize your second brain faster than you can, which is impressive until you realize it also inherited your habit of never finishing a note.
+  summary: >-
+    An MCP server that exposes Obsidian vaults to AI assistants via 41 tools for reading, writing, searching, tagging,
+    link analysis, graph traversal, canvas manipulation, and semantic search.
+  why_it_matters: >-
+    It lets coding agents and MCP-compatible assistants treat your personal knowledge base as structured, writable
+    context instead of a pile of markdown files.
+  mental_damage: >-
+    Your AI can now reorganize your second brain faster than you can, which is impressive until you realize it also
+    inherited your habit of never finishing a note.
   tags:
     - mcp
     - obsidian
@@ -51,35 +66,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product’s identity is an MCP server for Obsidian vaults, fitting cleanly as a domain-specific MCP server rather than a generic extension or framework.
+  reason: >-
+    The product’s identity is an MCP server for Obsidian vaults, fitting cleanly as a domain-specific MCP server rather
+    than a generic extension or framework.
   evidence:
-    - "Repo description: 'The most feature-complete MCP server for Obsidian vaults — 23 tools + 3 resources'"
-    - "README: '41 tools, 5 prompts, 3 resources' exposing vault read/write/search/graph/semantic-search via MCP"
+    - 'Repo description: ''The most feature-complete MCP server for Obsidian vaults — 23 tools + 3 resources'''
+    - 'README: ''41 tools, 5 prompts, 3 resources'' exposing vault read/write/search/graph/semantic-search via MCP'
     - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.646Z"
+    updated_at: '2026-05-06T22:12:15.646Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:48.200Z"
+    updated_at: '2026-07-20T16:42:48.200Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

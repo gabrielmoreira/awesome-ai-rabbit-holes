@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__milos-product-maker__context-rot-detection__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: context-rot-detection
         extracted_url: https://github.com/milos-product-maker/context-rot-detection
-        surrounding_text: "- [context-rot-detection](https://github.com/milos-product-maker/context-rot-detection) 📇 🏠 - Gives AI agents self-awareness about their cognitive state. Monitors token utilization, context quality degradation, and session fatigue. Returns health scores (0-100) and recovery recommendations based on model-specific degradation curves."
+        surrounding_text: >-
+          - [context-rot-detection](https://github.com/milos-product-maker/context-rot-detection) 📇 🏠 - Gives AI
+          agents self-awareness about their cognitive state. Monitors token utilization, context quality degradation,
+          and session fatigue. Returns health scores (0-100) and recovery recommendations based on model-specific
+          degradation curves.
         confidence: high
 metadata:
   github:
@@ -30,19 +34,25 @@ metadata:
     archived: false
     full_name: milos-product-maker/context-rot-detection
     html_url: https://github.com/milos-product-maker/context-rot-detection
-    created_at: "2026-02-17T22:15:08Z"
-    pushed_at: "2026-02-18T07:34:53Z"
+    created_at: '2026-02-17T22:15:08Z'
+    pushed_at: '2026-02-18T07:34:53Z'
     description: Context Rot Detection & Healing MCP Service — gives AI agents self-awareness about their cognitive state
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:17:03.425Z"
+    last_checked_at: '2026-08-03T05:17:03.425Z'
     readme:
-      fetched_at: "2026-08-03T05:17:03.425Z"
+      fetched_at: '2026-08-03T05:17:03.425Z'
       bytes: 8093
 insights:
-  summary: An MCP server that analyzes an AI agent's context window health, returning a degradation score and recovery recommendations based on token usage, session fatigue, and model-specific degradation curves.
-  why_it_matters: It gives long-running agents quantitative visibility into context rot—a known failure mode—so they can proactively compact context or offload to memory before performance silently degrades.
-  mental_damage: We have finally built a tool to tell the agent it is hallucinating because its context window is full, rather than admitting that we probably shouldn't have pasted the entire repo into the prompt in the first place.
+  summary: >-
+    An MCP server that analyzes an AI agent's context window health, returning a degradation score and recovery
+    recommendations based on token usage, session fatigue, and model-specific degradation curves.
+  why_it_matters: >-
+    It gives long-running agents quantitative visibility into context rot—a known failure mode—so they can proactively
+    compact context or offload to memory before performance silently degrades.
+  mental_damage: >-
+    We have finally built a tool to tell the agent it is hallucinating because its context window is full, rather than
+    admitting that we probably shouldn't have pasted the entire repo into the prompt in the first place.
   tags:
     - mcp
     - context-rot
@@ -51,35 +61,39 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product's primary identity is an MCP server that exposes context health tools to MCP-compatible clients like Claude Code and Claude Desktop.
+  reason: >-
+    The product's primary identity is an MCP server that exposes context health tools to MCP-compatible clients like
+    Claude Code and Claude Desktop.
   evidence:
     - Repo description explicitly calls it a 'Context Rot Detection & Healing MCP Service'.
-    - README provides MCP client configuration examples for Claude Code, Claude Desktop, and Docker, making MCP the primary interface.
+    - >-
+      README provides MCP client configuration examples for Claude Code, Claude Desktop, and Docker, making MCP the
+      primary interface.
     - Already curated in awesome-mcp-servers under 'Developer Tools', reinforcing its MCP server identity.
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.630Z"
+    updated_at: '2026-05-06T22:12:15.630Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:03.425Z"
+    updated_at: '2026-08-03T05:17:03.425Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

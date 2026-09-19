@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bloopai__vibe-kanban__direct-link
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: direct-link
         name: Manual submission
@@ -29,8 +29,8 @@ metadata:
     archived: false
     full_name: BloopAI/vibe-kanban
     html_url: https://github.com/BloopAI/vibe-kanban
-    created_at: "2025-06-14T19:10:21Z"
-    pushed_at: "2026-04-24T09:17:34Z"
+    created_at: '2025-06-14T19:10:21Z'
+    pushed_at: '2026-04-24T09:17:34Z'
     description: Get 10X more out of Claude Code, Codex or any coding agent
     homepage: https://www.vibekanban.com/
     topics:
@@ -39,13 +39,17 @@ metadata:
       - kanban
       - management
       - task-manager
-    last_checked_at: "2026-09-07T04:13:35.924Z"
+    last_checked_at: '2026-09-07T04:13:35.924Z'
     readme:
-      fetched_at: "2026-09-07T04:13:35.924Z"
+      fetched_at: '2026-09-07T04:13:35.924Z'
       bytes: 7427
 insights:
-  summary: A kanban-based task manager and workspace orchestrator for coordinating multiple coding agents like Claude Code, Codex, and Gemini CLI.
-  why_it_matters: It streamlines planning, execution, and review workflows for developers using AI coding agents by providing a unified interface for task management and agent coordination.
+  summary: >-
+    A kanban-based task manager and workspace orchestrator for coordinating multiple coding agents like Claude Code,
+    Codex, and Gemini CLI.
+  why_it_matters: >-
+    It streamlines planning, execution, and review workflows for developers using AI coding agents by providing a
+    unified interface for task management and agent coordination.
   mental_damage: Now you can spend less time herding cats and more time herding coding agents.
   tags:
     - agent-orchestration
@@ -56,31 +60,35 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core value is coordinating multiple coding agents in a shared workspace with kanban-style task management, fitting the agent orchestration category.
+  reason: >-
+    The product's core value is coordinating multiple coding agents in a shared workspace with kanban-style task
+    management, fitting the agent orchestration category.
   evidence:
-    - README describes it as a tool to 'get 10X more out of Claude Code, Codex or any coding agent' with kanban planning and multi-agent workspace execution
+    - >-
+      README describes it as a tool to 'get 10X more out of Claude Code, Codex or any coding agent' with kanban planning
+      and multi-agent workspace execution
     - Supports 10+ coding agents (Claude Code, Codex, Gemini CLI, etc.) in a unified interface
     - Source-list context places it in 'Harnesses & orchestration' and 'Workflow Management' sections
 placement:
   primary_category: agent-orchestration
-  section: Workbenches & Collaboration Surfaces
+  section: Visual Builders & Workbenches
 lifecycle:
   status: promotion_candidate
   reason: Stars (25993) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.573Z"
+    updated_at: '2026-05-06T22:12:15.573Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:35.924Z"
+    updated_at: '2026-09-07T04:13:35.924Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:26:24.294Z"
+    updated_at: '2026-07-21T15:26:24.294Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -93,14 +101,20 @@ processing:
       input_hash: sha256:415db5d0218b386a583026dfbff27eef223c4475eebad4c4334b6517dddfecba
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The product's core value is coordinating multiple coding agents in a shared workspace with kanban-style task management, fitting the agent orchestration category.
+      decision_reason: >-
+        The product's core value is coordinating multiple coding agents in a shared workspace with kanban-style task
+        management, fitting the agent orchestration category.
       decision_evidence:
-        - README describes it as a tool to 'get 10X more out of Claude Code, Codex or any coding agent' with kanban planning and multi-agent workspace execution
+        - >-
+          README describes it as a tool to 'get 10X more out of Claude Code, Codex or any coding agent' with kanban
+          planning and multi-agent workspace execution
         - Supports 10+ coding agents (Claude Code, Codex, Gemini CLI, etc.) in a unified interface
         - Source-list context places it in 'Harnesses & orchestration' and 'Workflow Management' sections
       category_candidates:
         - agent-orchestration
         - ai-dev-extensions
-      contrastive_reason: Choose agent-orchestration over ai-dev-extensions because the primary product identity is a multi-agent workbench rather than a thin extension for a single assistant.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-dev-extensions because the primary product identity is a multi-agent
+        workbench rather than a thin extension for a single assistant.
       review_reason: null
       review_resume_lifecycle: null

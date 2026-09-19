@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__codeintegrity-ai__mutahunter__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,7 @@ provenance:
           - MutahunterAI
         anchor_text: MutahunterAI
         extracted_url: https://github.com/codeintegrity-ai/mutahunter
-        surrounding_text: "## [MutahunterAI](https://github.com/codeintegrity-ai/mutahunter)"
+        surrounding_text: '## [MutahunterAI](https://github.com/codeintegrity-ai/mutahunter)'
         confidence: high
 metadata:
   github:
@@ -29,10 +29,10 @@ metadata:
     archived: false
     full_name: codeintegrity-ai/mutahunter
     html_url: https://github.com/codeintegrity-ai/mutahunter
-    created_at: "2024-06-21T20:49:59Z"
-    pushed_at: "2025-04-17T15:46:03Z"
+    created_at: '2024-06-21T20:49:59Z'
+    pushed_at: '2025-04-17T15:46:03Z'
     description: Open Source, Language Agnostic Mutation Testing
-    homepage: ""
+    homepage: ''
     topics:
       - artificial-intelligence
       - automated-testing
@@ -41,13 +41,15 @@ metadata:
       - static-code-analysis
       - test-automation
       - unit-testing
-    last_checked_at: "2026-09-07T04:13:48.634Z"
+    last_checked_at: '2026-09-07T04:13:48.634Z'
     readme:
-      fetched_at: "2026-09-07T04:13:48.634Z"
+      fetched_at: '2026-09-07T04:13:48.634Z'
       bytes: 2533
 insights:
   summary: Open-source, language-agnostic mutation testing tool that uses LLMs to generate and evaluate code mutants.
-  why_it_matters: It automates mutation testing by leveraging LLMs to create and assess code variants, helping developers measure test suite quality without manual effort.
+  why_it_matters: >-
+    It automates mutation testing by leveraging LLMs to create and assess code variants, helping developers measure test
+    suite quality without manual effort.
   mental_damage: Now your tests can fail in ways you never imagined, thanks to an AI that’s better at breaking code than you are.
   tags:
     - mutation-testing
@@ -57,31 +59,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core job is measuring and scoring the effectiveness of a test suite using AI to generate mutants, fitting the evaluation and benchmarking scope.
+  reason: >-
+    The core job is measuring and scoring the effectiveness of a test suite using AI to generate mutants, fitting the
+    evaluation and benchmarking scope.
   evidence:
     - Repo description explicitly states 'Open Source, Language Agnostic Mutation Testing'.
-    - README demonstrates the tool outputs 'Mutation Coverage' scores and costs, measuring test behavior rather than just editing code.
-    - It appears in 'awesome-ai-agents' but its primary function is QA measurement, not autonomous repo planning or editing.
+    - >-
+      README demonstrates the tool outputs 'Mutation Coverage' scores and costs, measuring test behavior rather than
+      just editing code.
+    - >-
+      It appears in 'awesome-ai-agents' but its primary function is QA measurement, not autonomous repo planning or
+      editing.
 placement:
-  primary_category: evals
-  section: null
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Review, Testing & Repair
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'evals', proposed 'coding-agents'"
+  reason: 'Categorization review required: placement disagreement: retained ''evals'', proposed ''coding-agents'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:48.634Z"
+    updated_at: '2026-09-07T04:13:48.634Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:45:03.808Z"
+    updated_at: '2026-07-21T15:45:03.808Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -94,7 +103,9 @@ processing:
       input_hash: sha256:9c2ad98591c64da5ea3701678a2ccf68ae0e5083929d9cb310f8bf6724c544e5
       proposed_primary_category: coding-agents
       disagreement: true
-      decision_reason: It is a developer-facing tool that directly analyzes, modifies, and tests code using LLMs, fitting the definition of a coding agent specialized in testing workflows.
+      decision_reason: >-
+        It is a developer-facing tool that directly analyzes, modifies, and tests code using LLMs, fitting the
+        definition of a coding agent specialized in testing workflows.
       decision_evidence:
         - Repo description explicitly states it is LLM-based mutation testing
         - README shows CLI usage for running mutation tests on code files
@@ -102,6 +113,8 @@ processing:
       category_candidates:
         - coding-agents
         - evals
-      contrastive_reason: Choose coding-agents over evals because the tool's core job is active code mutation and test execution rather than passive measurement or benchmarking of model behavior.
-      review_reason: "Categorization review required: placement disagreement: retained 'evals', proposed 'coding-agents'"
+      contrastive_reason: >-
+        Choose coding-agents over evals because the tool's core job is active code mutation and test execution rather
+        than passive measurement or benchmarking of model behavior.
+      review_reason: 'Categorization review required: placement disagreement: retained ''evals'', proposed ''coding-agents'''
       review_resume_lifecycle: null

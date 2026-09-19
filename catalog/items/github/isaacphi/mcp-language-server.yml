@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__isaacphi__mcp-language-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: isaacphi/mcp-language-server
         extracted_url: https://github.com/isaacphi/mcp-language-server
-        surrounding_text: "- [isaacphi/mcp-language-server](https://github.com/isaacphi/mcp-language-server) 🏎️ 🏠 - MCP Language Server helps MCP enabled clients navigate codebases more easily by giving them access to semantic tools like get definition, references, rename, and diagnostics."
+        surrounding_text: >-
+          - [isaacphi/mcp-language-server](https://github.com/isaacphi/mcp-language-server) 🏎️ 🏠 - MCP Language Server
+          helps MCP enabled clients navigate codebases more easily by giving them access to semantic tools like get
+          definition, references, rename, and diagnostics.
         confidence: high
     - id: discovery__github__isaacphi__mcp-language-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +38,9 @@ provenance:
           - Community Servers
         anchor_text: Language Server
         extracted_url: https://github.com/isaacphi/mcp-language-server
-        surrounding_text: "- **[Language Server](https://github.com/isaacphi/mcp-language-server)** 🏎️ - MCP Language Server gives MCP enabled clients access to semantic tools like get definition, references, rename, and diagnostics."
+        surrounding_text: >-
+          - **[Language Server](https://github.com/isaacphi/mcp-language-server)** 🏎️ - MCP Language Server gives MCP
+          enabled clients access to semantic tools like get definition, references, rename, and diagnostics.
         confidence: high
 metadata:
   github:
@@ -45,23 +50,29 @@ metadata:
     archived: false
     full_name: isaacphi/mcp-language-server
     html_url: https://github.com/isaacphi/mcp-language-server
-    created_at: "2024-12-30T20:43:23Z"
-    pushed_at: "2026-03-01T23:27:09Z"
-    description: mcp-language-server gives MCP enabled clients access semantic tools like get definition, references, rename, and diagnostics.
-    homepage: ""
+    created_at: '2024-12-30T20:43:23Z'
+    pushed_at: '2026-03-01T23:27:09Z'
+    description: >-
+      mcp-language-server gives MCP enabled clients access semantic tools like get definition, references, rename, and
+      diagnostics.
+    homepage: ''
     topics:
       - ai
       - language-server-protocol
       - mcp
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-07-30T05:05:45.196Z"
+    last_checked_at: '2026-07-30T05:05:45.196Z'
     readme:
-      fetched_at: "2026-07-30T05:05:45.196Z"
+      fetched_at: '2026-07-30T05:05:45.196Z'
       bytes: 10237
 insights:
-  summary: An MCP server that exposes Language Server Protocol (LSP) capabilities to MCP-enabled clients, providing semantic tools like definition lookup, references, rename, and diagnostics.
-  why_it_matters: It bridges LSP-powered IDE features with AI coding assistants, letting models directly query and manipulate codebases with rich semantic context.
+  summary: >-
+    An MCP server that exposes Language Server Protocol (LSP) capabilities to MCP-enabled clients, providing semantic
+    tools like definition lookup, references, rename, and diagnostics.
+  why_it_matters: >-
+    It bridges LSP-powered IDE features with AI coding assistants, letting models directly query and manipulate
+    codebases with rich semantic context.
   mental_damage: Now your AI can finally understand your codebase as well as you pretend to.
   tags:
     - mcp
@@ -79,24 +90,25 @@ curation:
     - Listed in awesome-mcp-servers under 'Developer Tools' and 'Community Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (1525) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.588Z"
+    updated_at: '2026-05-06T22:12:15.588Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:45.196Z"
+    updated_at: '2026-07-30T05:05:45.196Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:08:51.790Z"
+    updated_at: '2026-07-21T16:08:51.790Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -117,6 +129,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

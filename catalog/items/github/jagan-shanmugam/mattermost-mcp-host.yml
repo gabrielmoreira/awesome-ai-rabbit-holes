@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jagan-shanmugam__mattermost-mcp-host__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: jagan-shanmugam/mattermost-mcp-host
         extracted_url: https://github.com/jagan-shanmugam/mattermost-mcp-host
-        surrounding_text: "- [jagan-shanmugam/mattermost-mcp-host](https://github.com/jagan-shanmugam/mattermost-mcp-host) 🐍 🏠 - A MCP server along with MCP host that provides access to Mattermost teams, channels and messages. MCP host is integrated as a bot in Mattermost with access to MCP servers that can be configured."
+        surrounding_text: >-
+          - [jagan-shanmugam/mattermost-mcp-host](https://github.com/jagan-shanmugam/mattermost-mcp-host) 🐍 🏠 - A MCP
+          server along with MCP host that provides access to Mattermost teams, channels and messages. MCP host is
+          integrated as a bot in Mattermost with access to MCP servers that can be configured.
         confidence: high
 metadata:
   github:
@@ -30,24 +33,32 @@ metadata:
     archived: false
     full_name: jagan-shanmugam/mattermost-mcp-host
     html_url: https://github.com/jagan-shanmugam/mattermost-mcp-host
-    created_at: "2025-03-03T18:38:07Z"
-    pushed_at: "2025-04-07T19:56:58Z"
-    description: A Mattermost integration that connects to Model Context Protocol (MCP) servers, leveraging a LangGraph-based Agent.
-    homepage: ""
+    created_at: '2025-03-03T18:38:07Z'
+    pushed_at: '2025-04-07T19:56:58Z'
+    description: >-
+      A Mattermost integration that connects to Model Context Protocol (MCP) servers, leveraging a LangGraph-based
+      Agent.
+    homepage: ''
     topics:
       - langgraph
       - llm
       - mattermost
       - mcp
       - mcp-clients
-    last_checked_at: "2026-07-30T05:05:46.766Z"
+    last_checked_at: '2026-07-30T05:05:46.766Z'
     readme:
-      fetched_at: "2026-07-30T05:05:46.766Z"
+      fetched_at: '2026-07-30T05:05:46.766Z'
       bytes: 7481
 insights:
-  summary: A Mattermost integration that connects to Model Context Protocol (MCP) servers using a LangGraph-based agent to enable intelligent interactions and tool execution within Mattermost channels.
-  why_it_matters: It brings MCP-powered agent capabilities directly into Mattermost, allowing developers to interact with AI tools and workflows without leaving their team chat environment.
-  mental_damage: Now your team chat can spawn GitHub issues, search the internet, and chain MCP tools—because Slack wasn’t chaotic enough.
+  summary: >-
+    A Mattermost integration that connects to Model Context Protocol (MCP) servers using a LangGraph-based agent to
+    enable intelligent interactions and tool execution within Mattermost channels.
+  why_it_matters: >-
+    It brings MCP-powered agent capabilities directly into Mattermost, allowing developers to interact with AI tools and
+    workflows without leaving their team chat environment.
+  mental_damage: >-
+    Now your team chat can spawn GitHub issues, search the internet, and chain MCP tools—because Slack wasn’t chaotic
+    enough.
   tags:
     - mcp
     - mattermost
@@ -57,31 +68,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a host integration that brings MCP server capabilities and a LangGraph agent into Mattermost, augmenting the chat platform rather than acting as a primary coding assistant.
+  reason: >-
+    The product is a host integration that brings MCP server capabilities and a LangGraph agent into Mattermost,
+    augmenting the chat platform rather than acting as a primary coding assistant.
   evidence:
-    - Repo description states it is 'A Mattermost integration that connects to Model Context Protocol (MCP) servers, leveraging a LangGraph-based Agent.'
-    - README confirms it connects to Mattermost via API/WebSocket and dispatches to MCP servers defined in mcp-servers.json.
+    - >-
+      Repo description states it is 'A Mattermost integration that connects to Model Context Protocol (MCP) servers,
+      leveraging a LangGraph-based Agent.'
+    - >-
+      README confirms it connects to Mattermost via API/WebSocket and dispatches to MCP servers defined in
+      mcp-servers.json.
     - Active repository created in March 2025 with recent pushes and no archive flag.
 placement:
-  primary_category: ai-dev-extensions
-  section: null
+  primary_category: mcp
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'mcp'"
+  reason: 'Categorization review required: placement disagreement: retained ''ai-dev-extensions'', proposed ''mcp'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.621Z"
+    updated_at: '2026-05-06T22:12:15.621Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:46.766Z"
+    updated_at: '2026-07-30T05:05:46.766Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:09:42.216Z"
+    updated_at: '2026-07-21T16:09:42.216Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -94,7 +112,9 @@ processing:
       input_hash: sha256:46df3dd0f025ea88d6274a260c282b93e84734f1ec727ecdd074ea14206954d1
       proposed_primary_category: mcp
       disagreement: true
-      decision_reason: "MCP is the core identity here: the project is a client/host that connects Mattermost to MCP servers, with LangGraph as the orchestration layer."
+      decision_reason: >-
+        MCP is the core identity here: the project is a client/host that connects Mattermost to MCP servers, with
+        LangGraph as the orchestration layer.
       decision_evidence:
         - Repo description explicitly states it is a Mattermost integration for MCP servers
         - README highlights MCP server integration and dynamic tool loading as primary features
@@ -102,6 +122,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary product identity is an MCP client/host, not merely an extension for another assistant or editor.
-      review_reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'mcp'"
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary product identity is an MCP client/host, not merely an
+        extension for another assistant or editor.
+      review_reason: 'Categorization review required: placement disagreement: retained ''ai-dev-extensions'', proposed ''mcp'''
       review_resume_lifecycle: null

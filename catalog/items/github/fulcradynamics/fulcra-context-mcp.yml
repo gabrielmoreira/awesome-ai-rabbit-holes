@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__fulcradynamics__fulcra-context-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,15 @@ provenance:
           - <a name="bio"></a>Biology, Medicine and Bioinformatics
         anchor_text: fulcradynamics/fulcra-context-mcp
         extracted_url: https://github.com/fulcradynamics/fulcra-context-mcp
-        surrounding_text: "- [fulcradynamics/fulcra-context-mcp](https://github.com/fulcradynamics/fulcra-context-mcp) [![fulcra-context-mcp MCP server](https://glama.ai/mcp/servers/fulcradynamics/fulcra-context-mcp/badges/score.svg)](https://glama.ai/mcp/servers/fulcradynamics/fulcra-context-mcp) 🐍 ☁️ - MCP server for accessing personal health and biometric data including sleep stages, heart rate, HRV, glucose, workouts, calendar, and location via the Fulcra Life API with OAuth2 consent."
+        surrounding_text: >-
+          - [fulcradynamics/fulcra-context-mcp](https://github.com/fulcradynamics/fulcra-context-mcp)
+          [![fulcra-context-mcp MCP
+          server](https://glama.ai/mcp/servers/fulcradynamics/fulcra-context-mcp/badges/score.svg)](https://glama.ai/mcp/servers/fulcradynamics/fulcra-context-mcp)
+          🐍 ☁️ - MCP server for accessing personal health and biometric data including sleep stages, heart rate, HRV,
+          glucose, workouts, calendar, and location via the Fulcra Life API with OAuth2 consent.
         confidence: high
     - id: discovery__github__fulcradynamics__fulcra-context-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +40,10 @@ provenance:
           - Official Servers
         anchor_text: Fulcra Context
         extracted_url: https://github.com/fulcradynamics/fulcra-context-mcp
-        surrounding_text: "- **[Fulcra Context](https://github.com/fulcradynamics/fulcra-context-mcp)** - Fulcra Context MCP server for accessing your personal health, workouts, sleep, location, and more, all privately. Built around [Context by Fulcra](https://www.fulcradynamics.com/)."
+        surrounding_text: >-
+          - **[Fulcra Context](https://github.com/fulcradynamics/fulcra-context-mcp)** - Fulcra Context MCP server for
+          accessing your personal health, workouts, sleep, location, and more, all privately. Built around [Context by
+          Fulcra](https://www.fulcradynamics.com/).
         confidence: high
 metadata:
   github:
@@ -45,19 +53,23 @@ metadata:
     archived: false
     full_name: fulcradynamics/fulcra-context-mcp
     html_url: https://github.com/fulcradynamics/fulcra-context-mcp
-    created_at: "2025-06-04T08:16:47Z"
-    pushed_at: "2026-09-01T16:36:26Z"
+    created_at: '2025-06-04T08:16:47Z'
+    pushed_at: '2026-09-01T16:36:26Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:44.470Z"
+    last_checked_at: '2026-09-03T05:16:44.470Z'
     readme:
-      fetched_at: "2026-09-03T05:16:44.470Z"
+      fetched_at: '2026-09-03T05:16:44.470Z'
       bytes: 2517
 insights:
   summary: An MCP server that provides tools and resources to access Fulcra Context data via the Fulcra API.
-  why_it_matters: It allows AI assistants to bridge the gap between their current context and specialized data hosted within the Fulcra ecosystem.
-  mental_damage: Just one more specialized protocol to paste into your claude_desktop_config.json so your agent can finally see the data it's been hallucinating about.
+  why_it_matters: >-
+    It allows AI assistants to bridge the gap between their current context and specialized data hosted within the
+    Fulcra ecosystem.
+  mental_damage: >-
+    Just one more specialized protocol to paste into your claude_desktop_config.json so your agent can finally see the
+    data it's been hallucinating about.
   tags:
     - mcp
     - fulcra
@@ -66,31 +78,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is a Model Context Protocol server designed to expose a specific API to AI assistants.
+  reason: >-
+    The project's primary identity is a Model Context Protocol server designed to expose a specific API to AI
+    assistants.
   evidence:
     - README explicitly defines the project as an MCP server to access Fulcra Context data.
     - Provides standard MCP transport methods including stdio and remote HTTP.
     - Listed in 'awesome-mcp-servers' as a functional implementation.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.586Z"
+    updated_at: '2026-05-06T22:12:15.586Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:44.470Z"
+    updated_at: '2026-09-03T05:16:44.470Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-03T05:19:52.588Z"
+    updated_at: '2026-09-03T05:19:52.588Z'
     cause: null
     next_retry_at: null
     attempts: 4
@@ -103,7 +118,9 @@ processing:
       input_hash: sha256:70cef6d4acf15d4da69c2ab363fe1b4f01389a9afd4b2c80d93344057d46b711
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's primary identity is a Model Context Protocol server designed to expose a specific API to AI assistants.
+      decision_reason: >-
+        The project's primary identity is a Model Context Protocol server designed to expose a specific API to AI
+        assistants.
       decision_evidence:
         - README explicitly defines the project as an MCP server to access Fulcra Context data.
         - Provides standard MCP transport methods including stdio and remote HTTP.
@@ -111,6 +128,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the tool's primary identity and distribution mechanism is as a Model Context Protocol server rather than a standalone context management system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the tool's primary identity and distribution mechanism is as a Model
+        Context Protocol server rather than a standalone context management system.
       review_reason: null
       review_resume_lifecycle: null

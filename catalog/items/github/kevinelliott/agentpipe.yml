@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kevinelliott__agentpipe__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Session managers & parallel runners
         anchor_text: AgentPipe
         extracted_url: https://github.com/kevinelliott/agentpipe
-        surrounding_text: "- **[AgentPipe](https://github.com/kevinelliott/agentpipe)** `⭐ 122` — CLI/TUI app that orchestrates multi-agent conversations by enabling different AI CLI tools (Claude Code, Gemini, Qwen, etc.) to communicate in shared rooms. MIT."
+        surrounding_text: >-
+          - **[AgentPipe](https://github.com/kevinelliott/agentpipe)** `⭐ 122` — CLI/TUI app that orchestrates
+          multi-agent conversations by enabling different AI CLI tools (Claude Code, Gemini, Qwen, etc.) to communicate
+          in shared rooms. MIT.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: kevinelliott/agentpipe
     html_url: https://github.com/kevinelliott/agentpipe
-    created_at: "2025-09-12T02:56:38Z"
-    pushed_at: "2026-06-27T20:51:52Z"
-    description: A CLI/TUI app that orchestrates multi-agent conversations by enabling different AI CLI tools (Claude Code, Gemini, Qwen, etc.) to communicate in shared rooms.
+    created_at: '2025-09-12T02:56:38Z'
+    pushed_at: '2026-06-27T20:51:52Z'
+    description: >-
+      A CLI/TUI app that orchestrates multi-agent conversations by enabling different AI CLI tools (Claude Code, Gemini,
+      Qwen, etc.) to communicate in shared rooms.
     homepage: https://agentpipe.ai
     topics:
       - ai
@@ -47,13 +52,17 @@ metadata:
       - grok
       - qwen-code
       - tui-app
-    last_checked_at: "2026-07-30T05:05:56.086Z"
+    last_checked_at: '2026-07-30T05:05:56.086Z'
     readme:
-      fetched_at: "2026-07-30T05:05:56.086Z"
+      fetched_at: '2026-07-30T05:05:56.086Z'
       bytes: 65788
 insights:
-  summary: A CLI/TUI app that orchestrates multi-agent conversations by enabling different AI CLI tools to communicate in shared rooms.
-  why_it_matters: It lets developers coordinate multiple coding agents (Claude, Cursor, Gemini, etc.) in a single session for collaborative problem-solving.
+  summary: >-
+    A CLI/TUI app that orchestrates multi-agent conversations by enabling different AI CLI tools to communicate in
+    shared rooms.
+  why_it_matters: >-
+    It lets developers coordinate multiple coding agents (Claude, Cursor, Gemini, etc.) in a single session for
+    collaborative problem-solving.
   mental_damage: Now you can watch your agents argue about tabs vs. spaces in real-time.
   tags:
     - multi-agent
@@ -64,31 +73,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product is a workbench for coordinating multiple agents in shared conversations, not a primary coding assistant or extension.
+  reason: >-
+    The core product is a workbench for coordinating multiple agents in shared conversations, not a primary coding
+    assistant or extension.
   evidence:
     - Repo description explicitly states it orchestrates multi-agent conversations
     - README highlights shared rooms, real-time metrics, and cost tracking for multi-agent workflows
     - Source-list context places it under 'Harnesses & orchestration > Session managers & parallel runners'
 placement:
   primary_category: agent-orchestration
-  section: Workbenches & Collaboration Surfaces
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.624Z"
+    updated_at: '2026-05-06T22:12:15.624Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:56.086Z"
+    updated_at: '2026-07-30T05:05:56.086Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:12:21.601Z"
+    updated_at: '2026-07-21T16:12:21.601Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -101,7 +113,9 @@ processing:
       input_hash: sha256:f0755daa7672fcc50f25a7377d93f318651179e01ee2fcc43811c7dcf8df7253
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The core product is a workbench for coordinating multiple agents in shared conversations, not a primary coding assistant or extension.
+      decision_reason: >-
+        The core product is a workbench for coordinating multiple agents in shared conversations, not a primary coding
+        assistant or extension.
       decision_evidence:
         - Repo description explicitly states it orchestrates multi-agent conversations
         - README highlights shared rooms, real-time metrics, and cost tracking for multi-agent workflows
@@ -109,6 +123,8 @@ processing:
       category_candidates:
         - agent-orchestration
         - ai-dev-extensions
-      contrastive_reason: Choose agent-orchestration over ai-dev-extensions because the primary value is multi-agent coordination, not augmenting a single host assistant.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-dev-extensions because the primary value is multi-agent coordination, not
+        augmenting a single host assistant.
       review_reason: null
       review_resume_lifecycle: null

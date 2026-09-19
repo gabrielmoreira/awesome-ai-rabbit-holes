@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__guinmoon__llmfarm__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -19,10 +19,12 @@ provenance:
           - Inference UI
         anchor_text: LLMFarm
         extracted_url: https://github.com/guinmoon/llmfarm
-        surrounding_text: "- [LLMFarm](https://github.com/guinmoon/LLMFarm) - llama and other large language models on iOS and MacOS offline using GGML library."
+        surrounding_text: >-
+          - [LLMFarm](https://github.com/guinmoon/LLMFarm) - llama and other large language models on iOS and MacOS
+          offline using GGML library.
         confidence: high
     - id: discovery__github__guinmoon__llmfarm__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,7 +36,9 @@ provenance:
           - 推理 Inference
         anchor_text: LLMFarm
         extracted_url: https://github.com/guinmoon/llmfarm
-        surrounding_text: "20. [LLMFarm](https://github.com/guinmoon/LLMFarm): llama and other large language models on iOS and MacOS offline using GGML library."
+        surrounding_text: >-
+          20. [LLMFarm](https://github.com/guinmoon/LLMFarm): llama and other large language models on iOS and MacOS
+          offline using GGML library.
         confidence: high
 metadata:
   github:
@@ -44,8 +48,8 @@ metadata:
     archived: false
     full_name: guinmoon/LLMFarm
     html_url: https://github.com/guinmoon/LLMFarm
-    created_at: "2023-06-14T16:07:14Z"
-    pushed_at: "2026-01-30T20:52:36Z"
+    created_at: '2023-06-14T16:07:14Z'
+    pushed_at: '2026-01-30T20:52:36Z'
     description: llama and other  large language models on iOS and MacOS offline using GGML library.
     homepage: https://llmfarm.space
     topics:
@@ -59,9 +63,9 @@ metadata:
       - rwkv
       - starcoder
       - swift
-    last_checked_at: "2026-09-03T05:16:55.918Z"
+    last_checked_at: '2026-09-03T05:16:55.918Z'
     readme:
-      fetched_at: "2026-09-03T05:16:55.918Z"
+      fetched_at: '2026-09-03T05:16:55.918Z'
       bytes: 6669
 insights:
   summary: An iOS and macOS app for running and testing various large language models offline using the GGML library.
@@ -76,31 +80,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a local, offline-first app for running LLMs on Apple devices, which fits the Local AI category's focus on local runtimes and desktop interfaces.
+  reason: >-
+    The product is a local, offline-first app for running LLMs on Apple devices, which fits the Local AI category's
+    focus on local runtimes and desktop interfaces.
   evidence:
     - Repo description explicitly states it runs LLMs offline on iOS/macOS using GGML
     - README highlights features like model templates, RAG, and Apple Shortcuts integration for local inference
     - Source-list context places it under 'Inference UI' in local AI directories
 placement:
   primary_category: local-ai
-  section: Desktop Chat / Interfaces
+  secondary_categories: []
+  section: Desktop Chat & UIs
 lifecycle:
   status: promotion_candidate
   reason: Stars (2024) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.586Z"
+    updated_at: '2026-05-06T22:12:15.586Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:55.918Z"
+    updated_at: '2026-09-03T05:16:55.918Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:04:39.993Z"
+    updated_at: '2026-07-21T16:04:39.993Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -113,7 +120,9 @@ processing:
       input_hash: sha256:17f4e9027f8999d84231707c5524d389061e84319286b94e4baa5f93ba999911
       proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: The product is a local, offline-first app for running LLMs on Apple devices, which fits the Local AI category's focus on local runtimes and desktop interfaces.
+      decision_reason: >-
+        The product is a local, offline-first app for running LLMs on Apple devices, which fits the Local AI category's
+        focus on local runtimes and desktop interfaces.
       decision_evidence:
         - Repo description explicitly states it runs LLMs offline on iOS/macOS using GGML
         - README highlights features like model templates, RAG, and Apple Shortcuts integration for local inference
@@ -121,6 +130,8 @@ processing:
       category_candidates:
         - local-ai
         - ai-frameworks
-      contrastive_reason: Choose local-ai over ai-frameworks because the primary identity is a desktop app for local inference, not a code-first SDK or library.
+      contrastive_reason: >-
+        Choose local-ai over ai-frameworks because the primary identity is a desktop app for local inference, not a
+        code-first SDK or library.
       review_reason: null
       review_resume_lifecycle: null

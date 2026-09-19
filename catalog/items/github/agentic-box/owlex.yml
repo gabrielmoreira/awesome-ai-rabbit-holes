@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agentic-box__owlex__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: agentic-mcp-tools/owlex
         extracted_url: https://github.com/agentic-mcp-tools/owlex
-        surrounding_text: "- [agentic-mcp-tools/owlex](https://github.com/agentic-mcp-tools/owlex) 🐍 🏠 🍎 🪟 🐧 - AI council server: query CLI agents (Claude Code, Codex, Gemini, and OpenCode) in parallel with deliberation rounds"
+        surrounding_text: >-
+          - [agentic-mcp-tools/owlex](https://github.com/agentic-mcp-tools/owlex) 🐍 🏠 🍎 🪟 🐧 - AI council server:
+          query CLI agents (Claude Code, Codex, Gemini, and OpenCode) in parallel with deliberation rounds
         confidence: high
 metadata:
   github:
@@ -30,19 +32,23 @@ metadata:
     archived: false
     full_name: agentic-box/owlex
     html_url: https://github.com/agentic-box/owlex
-    created_at: "2025-10-27T11:51:15Z"
-    pushed_at: "2026-03-15T03:37:28Z"
+    created_at: '2025-10-27T11:51:15Z'
+    pushed_at: '2026-03-15T03:37:28Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:32.343Z"
+    last_checked_at: '2026-09-17T04:13:32.343Z'
     readme:
-      fetched_at: "2026-09-17T04:13:32.343Z"
+      fetched_at: '2026-09-17T04:13:32.343Z'
       bytes: 6558
 insights:
   summary: An MCP server that enables multi-model deliberation and consensus-building within Claude Code.
-  why_it_matters: It allows developers to mitigate model hallucination and blind spots by running structured 'councils' where multiple LLMs review and debate code decisions.
-  mental_damage: Because apparently, trusting a single state-of-the-art model wasn't enough to satisfy our need for algorithmic consensus.
+  why_it_matters: >-
+    It allows developers to mitigate model hallucination and blind spots by running structured 'councils' where multiple
+    LLMs review and debate code decisions.
+  mental_damage: >-
+    Because apparently, trusting a single state-of-the-art model wasn't enough to satisfy our need for algorithmic
+    consensus.
   tags:
     - mcp
     - multi-agent
@@ -52,31 +58,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core value is augmenting Claude Code with multi-model sessions and structured deliberations, making it an extension rather than a standalone coding agent.
+  reason: >-
+    The product is an MCP server whose core value is augmenting Claude Code with multi-model sessions and structured
+    deliberations, making it an extension rather than a standalone coding agent.
   evidence:
-    - "README states: 'Get a second opinion without leaving Claude Code' and runs council deliberations with external models."
+    - >-
+      README states: 'Get a second opinion without leaving Claude Code' and runs council deliberations with external
+      models.
     - Installed as an MCP server in .mcp.json to extend Claude Code's capabilities.
     - Includes slash commands like /council and /gemini designed to be invoked from within Claude Code.
 placement:
-  primary_category: ai-dev-extensions
-  section: null
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: Claude Code & Agent Tools
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'mcp'"
+  reason: 'Categorization review required: placement disagreement: retained ''ai-dev-extensions'', proposed ''mcp'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.599Z"
+    updated_at: '2026-05-06T22:12:15.599Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:32.343Z"
+    updated_at: '2026-09-17T04:13:32.343Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:02:01.045Z"
+    updated_at: '2026-07-20T16:02:01.045Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +100,9 @@ processing:
       input_hash: sha256:cf921b315e144e13899a8df8e5dc31e4e5e1da525f813e2892d004d422a53eff
       proposed_primary_category: mcp
       disagreement: true
-      decision_reason: The product identity is an MCP server designed to provide specialized multi-model capabilities to a host assistant.
+      decision_reason: >-
+        The product identity is an MCP server designed to provide specialized multi-model capabilities to a host
+        assistant.
       decision_evidence:
         - Installs via 'owlex-server' command
         - Requires adding to '.mcp.json' configuration
@@ -97,6 +110,8 @@ processing:
       category_candidates:
         - mcp
         - agent-orchestration
-      contrastive_reason: Choose mcp over agent-orchestration because the tool's primary distribution and integration pattern is an MCP server meant to be used via a host client.
-      review_reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'mcp'"
+      contrastive_reason: >-
+        Choose mcp over agent-orchestration because the tool's primary distribution and integration pattern is an MCP
+        server meant to be used via a host client.
+      review_reason: 'Categorization review required: placement disagreement: retained ''ai-dev-extensions'', proposed ''mcp'''
       review_resume_lifecycle: null

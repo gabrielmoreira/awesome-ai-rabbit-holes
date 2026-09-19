@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hasanjahidul__terminal-history-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🖥️ <a name="command-line"></a>Command Line
         anchor_text: HasanJahidul/terminal-history-mcp
         extracted_url: https://github.com/hasanjahidul/terminal-history-mcp
-        surrounding_text: "- [HasanJahidul/terminal-history-mcp](https://github.com/HasanJahidul/terminal-history-mcp) [![HasanJahidul/terminal-history-mcp MCP server](https://glama.ai/mcp/servers/HasanJahidul/terminal-history-mcp/badges/score.svg)](https://glama.ai/mcp/servers/HasanJahidul/terminal-history-mcp) 📇 🏠 🍎 🐧 - Full-text search over your shell history (zsh / bash / fish) via SQLite FTS5. Local-only. 11-pattern secret redaction runs BEFORE insert. Captures cwd / exit code / duration via opt-in shell hook. Tools: `search_history`, `recent_in_dir`, `failed_commands`, `command_chains`, `reindex`."
+        surrounding_text: >-
+          - [HasanJahidul/terminal-history-mcp](https://github.com/HasanJahidul/terminal-history-mcp)
+          [![HasanJahidul/terminal-history-mcp MCP
+          server](https://glama.ai/mcp/servers/HasanJahidul/terminal-history-mcp/badges/score.svg)](https://glama.ai/mcp/servers/HasanJahidul/terminal-history-mcp)
+          📇 🏠 🍎 🐧 - Full-text search over your shell history (zsh / bash / fish) via SQLite FTS5. Local-only.
+          11-pattern secret redaction runs BEFORE insert. Captures cwd / exit code / duration via opt-in shell hook.
+          Tools: `search_history`, `recent_in_dir`, `failed_commands`, `command_chains`, `reindex`.
         confidence: high
 metadata:
   github:
@@ -30,8 +36,8 @@ metadata:
     archived: false
     full_name: HasanJahidul/terminal-history-mcp
     html_url: https://github.com/HasanJahidul/terminal-history-mcp
-    created_at: "2026-05-08T13:59:34Z"
-    pushed_at: "2026-05-11T07:12:45Z"
+    created_at: '2026-05-08T13:59:34Z'
+    pushed_at: '2026-05-11T07:12:45Z'
     description: Search your shell history (zsh/bash/fish) from Claude/MCP. Local SQLite FTS5. Secret-redacted.
     homepage: null
     topics:
@@ -44,14 +50,20 @@ metadata:
       - sqlite
       - terminal
       - typescript
-    last_checked_at: "2026-07-30T05:05:35.625Z"
+    last_checked_at: '2026-07-30T05:05:35.625Z'
     readme:
-      fetched_at: "2026-07-30T05:05:35.625Z"
+      fetched_at: '2026-07-30T05:05:35.625Z'
       bytes: 4086
 insights:
-  summary: An MCP server that allows AI assistants to search shell history (zsh/bash/fish) using a local SQLite FTS5 index with secret redaction.
-  why_it_matters: It enables coding agents to retrieve forgotten complex CLI flags and previous command chains without the developer having to manually copy-paste their bash history into the prompt.
-  mental_damage: The anxiety of realizing your AI assistant now has a searchable, indexed archive of every single mistake and typo you've made in the terminal for the last three years.
+  summary: >-
+    An MCP server that allows AI assistants to search shell history (zsh/bash/fish) using a local SQLite FTS5 index with
+    secret redaction.
+  why_it_matters: >-
+    It enables coding agents to retrieve forgotten complex CLI flags and previous command chains without the developer
+    having to manually copy-paste their bash history into the prompt.
+  mental_damage: >-
+    The anxiety of realizing your AI assistant now has a searchable, indexed archive of every single mistake and typo
+    you've made in the terminal for the last three years.
   tags:
     - mcp
     - shell-history
@@ -68,26 +80,27 @@ curation:
     - Listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.819Z"
+    updated_at: '2026-05-28T05:28:09.819Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-03T05:16:59.004Z"
+    updated_at: '2026-09-03T05:16:59.004Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for hasanjahidul/terminal-history-mcp
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-08T05:41:32.258Z"
+    updated_at: '2026-06-08T05:41:32.258Z'
     cause: null
     next_retry_at: null
     attempts: 1

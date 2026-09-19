@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lumabyteco__clarifyprompt-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: LumabyteCo/clarifyprompt-mcp
         extracted_url: https://github.com/lumabyteco/clarifyprompt-mcp
-        surrounding_text: "- [LumabyteCo/clarifyprompt-mcp](https://github.com/LumabyteCo/clarifyprompt-mcp) [![clarifyprompt-mcp MCP server](https://glama.ai/mcp/servers/LumabyteCo/clarifyprompt-mcp/badges/score.svg)](https://glama.ai/mcp/servers/LumabyteCo/clarifyprompt-mcp) 📇 ☁️ 🍎 🪟 🐧 - MCP server for AI prompt optimization — transforms vague prompts into platform-optimized prompts for 58+ AI platforms across 7 categories (image, video, voice, music, code, chat, document)."
+        surrounding_text: >-
+          - [LumabyteCo/clarifyprompt-mcp](https://github.com/LumabyteCo/clarifyprompt-mcp) [![clarifyprompt-mcp MCP
+          server](https://glama.ai/mcp/servers/LumabyteCo/clarifyprompt-mcp/badges/score.svg)](https://glama.ai/mcp/servers/LumabyteCo/clarifyprompt-mcp)
+          📇 ☁️ 🍎 🪟 🐧 - MCP server for AI prompt optimization — transforms vague prompts into platform-optimized
+          prompts for 58+ AI platforms across 7 categories (image, video, voice, music, code, chat, document).
         confidence: high
 metadata:
   github:
@@ -30,18 +34,22 @@ metadata:
     archived: false
     full_name: LumabyteCo/clarifyprompt-mcp
     html_url: https://github.com/LumabyteCo/clarifyprompt-mcp
-    created_at: "2026-02-26T15:24:37Z"
-    pushed_at: "2026-07-14T17:07:39Z"
+    created_at: '2026-02-26T15:24:37Z'
+    pushed_at: '2026-07-14T17:07:39Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:06:09.142Z"
+    last_checked_at: '2026-07-30T05:06:09.142Z'
     readme:
-      fetched_at: "2026-07-30T05:06:09.142Z"
+      fetched_at: '2026-07-30T05:06:09.142Z'
       bytes: 108867
 insights:
-  summary: ClarifyPrompt MCP is an MCP server that compiles vague prompts into platform-specific prompts using workspace context and model capabilities.
-  why_it_matters: It lets developers write one intent and get optimized prompts for 58+ AI platforms, reducing manual prompt tuning across models.
+  summary: >-
+    ClarifyPrompt MCP is an MCP server that compiles vague prompts into platform-specific prompts using workspace
+    context and model capabilities.
+  why_it_matters: >-
+    It lets developers write one intent and get optimized prompts for 58+ AI platforms, reducing manual prompt tuning
+    across models.
   mental_damage: Finally, a tool that acknowledges your prompt engineering skills are as brittle as a house of cards in a hurricane.
   tags:
     - mcp
@@ -50,31 +58,37 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The tool is an MCP server whose core identity is providing MCP-based prompt compilation, making MCP Servers & Tooling the best fit over extensions or context engineering.
+  reason: >-
+    The tool is an MCP server whose core identity is providing MCP-based prompt compilation, making MCP Servers &
+    Tooling the best fit over extensions or context engineering.
   evidence:
-    - README describes it as a 'context-aware MCP prompt compiler' that transforms vague prompts into platform-optimized prompts
+    - >-
+      README describes it as a 'context-aware MCP prompt compiler' that transforms vague prompts into platform-optimized
+      prompts
     - Source-list context shows it is included in awesome-mcp-servers under Server Implementations > Developer Tools
-    - The product exposes MCP tools and resources, with no indication it is primarily a thin wrapper or integration layer for another assistant
+    - >-
+      The product exposes MCP tools and resources, with no indication it is primarily a thin wrapper or integration
+      layer for another assistant
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: '2026-05-06T22:12:15.627Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:09.142Z"
+    updated_at: '2026-07-30T05:06:09.142Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:17:37.396Z"
+    updated_at: '2026-07-21T16:17:37.396Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,14 +101,22 @@ processing:
       input_hash: sha256:0f95c28c5f234297440ced4ce06c3174e3eaea276cc3ce6cf74b7c5e2ae26159
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The tool is an MCP server whose core identity is providing MCP-based prompt compilation, making MCP Servers & Tooling the best fit over extensions or context engineering.
+      decision_reason: >-
+        The tool is an MCP server whose core identity is providing MCP-based prompt compilation, making MCP Servers &
+        Tooling the best fit over extensions or context engineering.
       decision_evidence:
-        - README describes it as a 'context-aware MCP prompt compiler' that transforms vague prompts into platform-optimized prompts
+        - >-
+          README describes it as a 'context-aware MCP prompt compiler' that transforms vague prompts into
+          platform-optimized prompts
         - Source-list context shows it is included in awesome-mcp-servers under Server Implementations > Developer Tools
-        - The product exposes MCP tools and resources, with no indication it is primarily a thin wrapper or integration layer for another assistant
+        - >-
+          The product exposes MCP tools and resources, with no indication it is primarily a thin wrapper or integration
+          layer for another assistant
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product's primary identity is an MCP server infrastructure, not a standalone context or memory system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the product's primary identity is an MCP server infrastructure, not
+        a standalone context or memory system.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__conarti__mattermost-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: conarti/mattermost-mcp
         extracted_url: https://github.com/conarti/mattermost-mcp
-        surrounding_text: "- [conarti/mattermost-mcp](https://github.com/conarti/mattermost-mcp) 📇 ☁️ - MCP server for Mattermost API. List channels, read/post messages, manage threads and reactions, monitor topics. Supports flexible configuration via CLI args, environment variables, or config files."
+        surrounding_text: >-
+          - [conarti/mattermost-mcp](https://github.com/conarti/mattermost-mcp) 📇 ☁️ - MCP server for Mattermost API.
+          List channels, read/post messages, manage threads and reactions, monitor topics. Supports flexible
+          configuration via CLI args, environment variables, or config files.
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: conarti/mattermost-mcp
     html_url: https://github.com/conarti/mattermost-mcp
-    created_at: "2025-12-19T12:18:38Z"
-    pushed_at: "2025-12-20T09:29:32Z"
+    created_at: '2025-12-19T12:18:38Z'
+    pushed_at: '2025-12-20T09:29:32Z'
     description: Mattermost MCP server to enable Claude to interact with Mattermost Workspaces
     homepage: null
     topics:
@@ -43,13 +46,15 @@ metadata:
       - messaging
       - model-context-protocol
       - team-communication
-    last_checked_at: "2026-09-14T04:13:28.375Z"
+    last_checked_at: '2026-09-14T04:13:28.375Z'
     readme:
-      fetched_at: "2026-09-14T04:13:28.375Z"
+      fetched_at: '2026-09-14T04:13:28.375Z'
       bytes: 7204
 insights:
   summary: Mattermost MCP server enabling Claude and other MCP clients to interact with Mattermost workspaces.
-  why_it_matters: Developers can integrate Mattermost messaging capabilities into their MCP-enabled workflows, allowing AI assistants to read, post, and monitor workspace channels.
+  why_it_matters: >-
+    Developers can integrate Mattermost messaging capabilities into their MCP-enabled workflows, allowing AI assistants
+    to read, post, and monitor workspace channels.
   mental_damage: Now your AI can lurk in team chat just like the rest of us.
   tags:
     - mcp
@@ -67,24 +72,25 @@ curation:
     - Listed in awesome-mcp-servers under 'Server Implementations > Communication'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:28.375Z"
+    updated_at: '2026-09-14T04:13:28.375Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:47:29.135Z"
+    updated_at: '2026-07-21T15:47:29.135Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -99,12 +105,16 @@ processing:
       disagreement: false
       decision_reason: The product is explicitly an MCP server for Mattermost, making MCP its primary identity and purpose.
       decision_evidence:
-        - Repo description states it is a 'Mattermost MCP server to enable Claude to interact with Mattermost Workspaces'
+        - >-
+          Repo description states it is a 'Mattermost MCP server to enable Claude to interact with Mattermost
+          Workspaces'
         - README confirms it is an MCP server with tools for Mattermost API integration
         - Listed in awesome-mcp-servers under 'Server Implementations > Communication'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not merely an extension for another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

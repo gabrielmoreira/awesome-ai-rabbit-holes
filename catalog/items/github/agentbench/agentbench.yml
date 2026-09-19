@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agentbench__agentbench__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -20,7 +20,7 @@ provenance:
           - Evaluation & Benchmarking
         anchor_text: AgentBench
         extracted_url: https://github.com/agentbench/agentbench
-        surrounding_text: "| [AgentBench](https://github.com/AgentBench/AgentBench) | Evaluates agents across diverse environments |"
+        surrounding_text: '| [AgentBench](https://github.com/AgentBench/AgentBench) | Evaluates agents across diverse environments |'
         confidence: high
 metadata:
   github:
@@ -30,19 +30,25 @@ metadata:
     archived: false
     full_name: agentbench/agentbench
     html_url: https://github.com/agentbench/agentbench
-    created_at: "2026-02-21T18:52:02Z"
-    pushed_at: "2026-02-27T16:29:02Z"
+    created_at: '2026-02-21T18:52:02Z'
+    pushed_at: '2026-02-27T16:29:02Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:31.855Z"
+    last_checked_at: '2026-09-17T04:13:31.855Z'
     readme:
-      fetched_at: "2026-09-17T04:13:31.855Z"
+      fetched_at: '2026-09-17T04:13:31.855Z'
       bytes: 4678
 insights:
-  summary: A benchmarking framework designed to evaluate AI agent configurations across 40 real-world tasks and 7 domains using rule-based scoring.
-  why_it_matters: It shifts the focus from evaluating raw model intelligence to measuring the effectiveness of specific agentic setups, prompts, and tool configurations.
-  mental_damage: Nothing induces existential dread quite like discovering your expensive agent configuration is scoring 30 points lower than your colleague's simply because of a slight difference in prompt engineering.
+  summary: >-
+    A benchmarking framework designed to evaluate AI agent configurations across 40 real-world tasks and 7 domains using
+    rule-based scoring.
+  why_it_matters: >-
+    It shifts the focus from evaluating raw model intelligence to measuring the effectiveness of specific agentic
+    setups, prompts, and tool configurations.
+  mental_damage: >-
+    Nothing induces existential dread quite like discovering your expensive agent configuration is scoring 30 points
+    lower than your colleague's simply because of a slight difference in prompt engineering.
   tags:
     - benchmarking
     - agent-evaluation
@@ -51,31 +57,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's core identity is centered on measuring and scoring agent behavior through rule-based checks rather than providing the agent itself.
+  reason: >-
+    The project's core identity is centered on measuring and scoring agent behavior through rule-based checks rather
+    than providing the agent itself.
   evidence:
     - README claims to 'Benchmark your AI agent setup — not the model'
     - Uses a 3-layer scoring system (structural, metrics, behavioral) to evaluate performance
     - Offers comparison of runs and per-tool-call tracing
 placement:
   primary_category: evals
-  section: Agent Benchmarks
+  secondary_categories: []
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.599Z"
+    updated_at: '2026-05-06T22:12:15.599Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:31.855Z"
+    updated_at: '2026-09-17T04:13:31.855Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:01:19.662Z"
+    updated_at: '2026-07-20T16:01:19.662Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -88,7 +97,9 @@ processing:
       input_hash: sha256:6ecd447798a9d658579a7a21fce384e0e9f81a1315a76de1244cbaa559cb7c0c
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: The project's core identity is centered on measuring and scoring agent behavior through rule-based checks rather than providing the agent itself.
+      decision_reason: >-
+        The project's core identity is centered on measuring and scoring agent behavior through rule-based checks rather
+        than providing the agent itself.
       decision_evidence:
         - README claims to 'Benchmark your AI agent setup — not the model'
         - Uses a 3-layer scoring system (structural, metrics, behavioral) to evaluate performance
@@ -96,6 +107,8 @@ processing:
       category_candidates:
         - evals
         - agent-orchestration
-      contrastive_reason: Choose evals over agent-orchestration because the primary utility is measuring agent performance and behavior via scoring and tracing rather than coordinating multiple agents.
+      contrastive_reason: >-
+        Choose evals over agent-orchestration because the primary utility is measuring agent performance and behavior
+        via scoring and tracing rather than coordinating multiple agents.
       review_reason: null
       review_resume_lifecycle: null

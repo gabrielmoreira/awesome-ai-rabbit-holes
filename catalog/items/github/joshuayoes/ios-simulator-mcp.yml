@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__joshuayoes__ios-simulator-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: ios-simulator-mcp
         extracted_url: https://github.com/joshuayoes/ios-simulator-mcp
-        surrounding_text: "- [ios-simulator-mcp](https://github.com/joshuayoes/ios-simulator-mcp) 📇 🏠 🍎 - A Model Context Protocol (MCP) server for interacting with iOS simulators. This server allows you to interact with iOS simulators by getting information about them, controlling UI interactions, and inspecting UI elements."
+        surrounding_text: >-
+          - [ios-simulator-mcp](https://github.com/joshuayoes/ios-simulator-mcp) 📇 🏠 🍎 - A Model Context Protocol
+          (MCP) server for interacting with iOS simulators. This server allows you to interact with iOS simulators by
+          getting information about them, controlling UI interactions, and inspecting UI elements.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,22 @@ metadata:
     archived: false
     full_name: joshuayoes/ios-simulator-mcp
     html_url: https://github.com/joshuayoes/ios-simulator-mcp
-    created_at: "2025-03-20T02:39:27Z"
-    pushed_at: "2026-04-21T21:27:16Z"
+    created_at: '2025-03-20T02:39:27Z'
+    pushed_at: '2026-04-21T21:27:16Z'
     description: MCP server for interacting with the iOS simulator
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:52.317Z"
+    last_checked_at: '2026-07-30T05:05:52.317Z'
     readme:
-      fetched_at: "2026-07-30T05:05:52.317Z"
+      fetched_at: '2026-07-30T05:05:52.317Z'
       bytes: 15864
 insights:
-  summary: An MCP server that enables interaction with iOS simulators, including UI control, element inspection, and screenshot capture.
-  why_it_matters: Developers can programmatically control and inspect iOS simulators via MCP, streamlining mobile app testing and automation workflows.
+  summary: >-
+    An MCP server that enables interaction with iOS simulators, including UI control, element inspection, and screenshot
+    capture.
+  why_it_matters: >-
+    Developers can programmatically control and inspect iOS simulators via MCP, streamlining mobile app testing and
+    automation workflows.
   mental_damage: Now your AI can tap, swipe, and type into a simulator while you question your life choices.
   tags:
     - mcp
@@ -54,29 +61,30 @@ curation:
   status: included
   reason: The product is explicitly an MCP server for iOS simulator interaction, making MCP its primary identity.
   evidence:
-    - "Repo description: 'MCP server for interacting with the iOS simulator'"
+    - 'Repo description: ''MCP server for interacting with the iOS simulator'''
     - README explicitly describes it as a Model Context Protocol (MCP) server with tools for simulator control
     - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (1953) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.623Z"
+    updated_at: '2026-05-06T22:12:15.623Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:52.317Z"
+    updated_at: '2026-07-30T05:05:52.317Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:11:14.272Z"
+    updated_at: '2026-07-21T16:11:14.272Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -91,12 +99,14 @@ processing:
       disagreement: false
       decision_reason: The product is explicitly an MCP server for iOS simulator interaction, making MCP its primary identity.
       decision_evidence:
-        - "Repo description: 'MCP server for interacting with the iOS simulator'"
+        - 'Repo description: ''MCP server for interacting with the iOS simulator'''
         - README explicitly describes it as a Model Context Protocol (MCP) server with tools for simulator control
         - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

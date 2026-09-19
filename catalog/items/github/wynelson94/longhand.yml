@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wynelson94__longhand__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: Wynelson94/longhand
         extracted_url: https://github.com/wynelson94/longhand
-        surrounding_text: "- [Wynelson94/longhand](https://github.com/Wynelson94/longhand) [![Wynelson94/longhand MCP server](https://glama.ai/mcp/servers/Wynelson94/longhand/badges/score.svg)](https://glama.ai/mcp/servers/Wynelson94/longhand) 🐍 🏠 🍎 🪟 🐧 - Persistent local memory for Claude Code. Indexes every session JSONL verbatim into SQLite + ChromaDB for semantic recall (~126ms) across your entire history. Never summarizes, zero API calls, 17 MCP tools including fuzzy `recall`, deterministic `replay_file`, and git-aware `recall_project_status`. Published on PyPI as `longhand` and registered in the MCP Registry."
+        surrounding_text: >-
+          - [Wynelson94/longhand](https://github.com/Wynelson94/longhand) [![Wynelson94/longhand MCP
+          server](https://glama.ai/mcp/servers/Wynelson94/longhand/badges/score.svg)](https://glama.ai/mcp/servers/Wynelson94/longhand)
+          🐍 🏠 🍎 🪟 🐧 - Persistent local memory for Claude Code. Indexes every session JSONL verbatim into SQLite +
+          ChromaDB for semantic recall (~126ms) across your entire history. Never summarizes, zero API calls, 17 MCP
+          tools including fuzzy `recall`, deterministic `replay_file`, and git-aware `recall_project_status`. Published
+          on PyPI as `longhand` and registered in the MCP Registry.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: Wynelson94/longhand
     html_url: https://github.com/Wynelson94/longhand
-    created_at: "2026-04-09T21:36:53Z"
-    pushed_at: "2026-07-17T15:13:32Z"
-    description: Lossless local memory for Claude Code. The full, unabbreviated version. Every tool call, every file edit, every thinking block — stored verbatim on your machine. Persistent memory without tokens.
+    created_at: '2026-04-09T21:36:53Z'
+    pushed_at: '2026-07-17T15:13:32Z'
+    description: >-
+      Lossless local memory for Claude Code. The full, unabbreviated version. Every tool call, every file edit, every
+      thinking block — stored verbatim on your machine. Persistent memory without tokens.
     homepage: https://glama.ai/mcp/servers/Wynelson94/longhand
     topics:
       - ai-memory
@@ -47,14 +55,20 @@ metadata:
       - python
       - recall
       - sqlite
-    last_checked_at: "2026-07-21T15:21:16.318Z"
+    last_checked_at: '2026-07-21T15:21:16.318Z'
     readme:
-      fetched_at: "2026-07-21T15:21:16.318Z"
+      fetched_at: '2026-07-21T15:21:16.318Z'
       bytes: 35370
 insights:
-  summary: Lossless local memory for Claude Code that stores every tool call, file edit, and thinking block verbatim in SQLite for searchable recall.
-  why_it_matters: It prevents Claude Code's automatic session rotation from erasing developer history, enabling instant retrieval of past decisions and code changes without API calls.
-  mental_damage: Another tool to install just to remember what your AI assistant forgot, because apparently persistence is now a premium feature.
+  summary: >-
+    Lossless local memory for Claude Code that stores every tool call, file edit, and thinking block verbatim in SQLite
+    for searchable recall.
+  why_it_matters: >-
+    It prevents Claude Code's automatic session rotation from erasing developer history, enabling instant retrieval of
+    past decisions and code changes without API calls.
+  mental_damage: >-
+    Another tool to install just to remember what your AI assistant forgot, because apparently persistence is now a
+    premium feature.
   tags:
     - claude-code
     - local-memory
@@ -63,31 +77,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Longhand is an MCP server that augments Claude Code with persistent local memory rather than acting as a standalone coding assistant, making it an extension focused on memory and context add-ons.
+  reason: >-
+    Longhand is an MCP server that augments Claude Code with persistent local memory rather than acting as a standalone
+    coding assistant, making it an extension focused on memory and context add-ons.
   evidence:
-    - "Repo description: 'Lossless local memory for Claude Code'"
-    - "README: 'Persistent local memory for Claude Code. Every tool call, every file edit, every thinking block from every Claude Code session — stored verbatim on your machine.'"
-    - "Source-list context: Listed in awesome-mcp-servers under Knowledge & Memory"
+    - 'Repo description: ''Lossless local memory for Claude Code'''
+    - >-
+      README: 'Persistent local memory for Claude Code. Every tool call, every file edit, every thinking block from
+      every Claude Code session — stored verbatim on your machine.'
+    - 'Source-list context: Listed in awesome-mcp-servers under Knowledge & Memory'
 placement:
-  primary_category: ai-dev-extensions
-  section: Memory & Context Add-ons
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.656Z"
+    updated_at: '2026-05-06T22:12:15.656Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:16.318Z"
+    updated_at: '2026-07-21T15:21:16.318Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:39:05.712Z"
+    updated_at: '2026-05-12T15:39:05.712Z'
     cause: null
     next_retry_at: null
     attempts: 1

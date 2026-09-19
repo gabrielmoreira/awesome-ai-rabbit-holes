@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mem0ai__mem0__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,10 +19,14 @@ provenance:
           - LLMOps
         anchor_text: Embedchain
         extracted_url: https://github.com/embedchain/embedchain
-        surrounding_text: "| [Embedchain](https://github.com/embedchain/embedchain)             | Framework to create ChatGPT like bots over your dataset.                                                                                                                                                                                                                                                                                                                                                | ![GitHub Badge](https://img.shields.io/github/stars/embedchain/embedchain.svg?style=flat-square)          |"
+        surrounding_text: >-
+          | [Embedchain](https://github.com/embedchain/embedchain)             | Framework to create ChatGPT like bots
+          over your
+          dataset.                                                                                                                                                                                                                                                                                                                                               
+          | ![GitHub Badge](https://img.shields.io/github/stars/embedchain/embedchain.svg?style=flat-square)          |
         confidence: high
     - id: discovery__github__mem0ai__mem0__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -35,10 +39,12 @@ provenance:
           - Templates
         anchor_text: Embedchain
         extracted_url: https://github.com/embedchain/embedchain
-        surrounding_text: "- [Embedchain](https://github.com/embedchain/embedchain): Framework to easily create LLM powered bots over any dataset. ![GitHub Repo stars](https://img.shields.io/github/stars/embedchain/embedchain?style=social)"
+        surrounding_text: >-
+          - [Embedchain](https://github.com/embedchain/embedchain): Framework to easily create LLM powered bots over any
+          dataset. ![GitHub Repo stars](https://img.shields.io/github/stars/embedchain/embedchain?style=social)
         confidence: high
     - id: discovery__github__mem0ai__mem0__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -50,10 +56,10 @@ provenance:
           - Frameworks
         anchor_text: Embedchain
         extracted_url: https://github.com/embedchain/embedchain
-        surrounding_text: "- [Embedchain](https://github.com/embedchain/embedchain) - Framework for ChatGPT-like"
+        surrounding_text: '- [Embedchain](https://github.com/embedchain/embedchain) - Framework for ChatGPT-like'
         confidence: high
     - id: discovery__github__mem0ai__mem0__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -65,7 +71,7 @@ provenance:
           - 推理 Inference
         anchor_text: Mem0
         extracted_url: https://github.com/mem0ai/mem0
-        surrounding_text: "27. [Mem0](https://github.com/mem0ai/mem0): The memory layer for Personalized AI."
+        surrounding_text: '27. [Mem0](https://github.com/mem0ai/mem0): The memory layer for Personalized AI.'
         confidence: high
 metadata:
   github:
@@ -75,8 +81,8 @@ metadata:
     archived: false
     full_name: mem0ai/mem0
     html_url: https://github.com/mem0ai/mem0
-    created_at: "2023-06-20T08:58:36Z"
-    pushed_at: "2026-08-01T15:06:21Z"
+    created_at: '2023-06-20T08:58:36Z'
+    pushed_at: '2026-08-01T15:06:21Z'
     description: Universal memory layer for AI Agents
     homepage: https://mem0.ai
     topics:
@@ -94,14 +100,16 @@ metadata:
       - python
       - rag
       - state-management
-    last_checked_at: "2026-08-03T05:16:59.432Z"
+    last_checked_at: '2026-08-03T05:16:59.432Z'
     readme:
-      fetched_at: "2026-08-03T05:16:59.432Z"
+      fetched_at: '2026-08-03T05:16:59.432Z'
       bytes: 11914
 insights:
   summary: Universal memory layer for AI Agents.
   why_it_matters: Gives agents long-term, personalized memory so assistants stop forgetting user preferences between turns.
-  mental_damage: Yet another piece of infrastructure glued onto agents to paper over the fact that LLMs have the retention span of a goldfish.
+  mental_damage: >-
+    Yet another piece of infrastructure glued onto agents to paper over the fact that LLMs have the retention span of a
+    goldfish.
   tags:
     - memory
     - agents
@@ -109,31 +117,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Mem0's core product is a memory/retrieval system that shapes what context reaches the model, not a coding assistant or extension.
+  reason: >-
+    Mem0's core product is a memory/retrieval system that shapes what context reaches the model, not a coding assistant
+    or extension.
   evidence:
-    - "Repo description: 'Universal memory layer for AI Agents'"
-    - "README: 'enhances AI assistants and agents with an intelligent memory layer, enabling personalized AI interactions'"
-    - "Source-list context: appears in awesome-LLM-agents under Frameworks and Awesome-LLM-resources under Inference"
+    - 'Repo description: ''Universal memory layer for AI Agents'''
+    - >-
+      README: 'enhances AI assistants and agents with an intelligent memory layer, enabling personalized AI
+      interactions'
+    - 'Source-list context: appears in awesome-LLM-agents under Frameworks and Awesome-LLM-resources under Inference'
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: promotion_candidate
   reason: Stars (54937) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.575Z"
+    updated_at: '2026-05-06T22:12:15.575Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:59.432Z"
+    updated_at: '2026-08-03T05:16:59.432Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:19:45.466Z"
+    updated_at: '2026-07-21T16:19:45.466Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -146,14 +159,20 @@ processing:
       input_hash: sha256:bff0bf55f7a91826f1ac7dd908862e03116daa12c874dda761a874136d69437c
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: Mem0's core product is a memory/retrieval system that shapes what context reaches the model, not a coding assistant or extension.
+      decision_reason: >-
+        Mem0's core product is a memory/retrieval system that shapes what context reaches the model, not a coding
+        assistant or extension.
       decision_evidence:
-        - "Repo description: 'Universal memory layer for AI Agents'"
-        - "README: 'enhances AI assistants and agents with an intelligent memory layer, enabling personalized AI interactions'"
-        - "Source-list context: appears in awesome-LLM-agents under Frameworks and Awesome-LLM-resources under Inference"
+        - 'Repo description: ''Universal memory layer for AI Agents'''
+        - >-
+          README: 'enhances AI assistants and agents with an intelligent memory layer, enabling personalized AI
+          interactions'
+        - 'Source-list context: appears in awesome-LLM-agents under Frameworks and Awesome-LLM-resources under Inference'
       category_candidates:
         - context-engineering
         - ai-frameworks
-      contrastive_reason: Choose context-engineering over ai-frameworks because the main substance is memory/retrieval infrastructure rather than a general-purpose SDK for building agents.
+      contrastive_reason: >-
+        Choose context-engineering over ai-frameworks because the main substance is memory/retrieval infrastructure
+        rather than a general-purpose SDK for building agents.
       review_reason: null
       review_resume_lifecycle: null

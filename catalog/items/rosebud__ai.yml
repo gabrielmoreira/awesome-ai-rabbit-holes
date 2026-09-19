@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__rosebud__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - App Builders
         anchor_text: Rosebud AI
         extracted_url: https://rosebud.ai
-        surrounding_text: "- **[Rosebud AI](https://rosebud.ai)** – Vibe coding platform for 3D games and interactive web apps."
+        surrounding_text: '- **[Rosebud AI](https://rosebud.ai)** – Vibe coding platform for 3D games and interactive web apps.'
         confidence: high
 metadata:
   github:
@@ -38,7 +38,9 @@ metadata:
 insights:
   summary: A web platform for creating and deploying playable games from AI prompts without coding.
   why_it_matters: It enables non-developers or developers to prototype and deploy games quickly using natural language descriptions.
-  mental_damage: Now you can build a game in an afternoon, but you’ll still spend the next six months tweaking the prompt to get the NPCs to stop walking through walls.
+  mental_damage: >-
+    Now you can build a game in an afternoon, but you’ll still spend the next six months tweaking the prompt to get the
+    NPCs to stop walking through walls.
   tags:
     - game-development
     - prompt-to-app
@@ -47,20 +49,25 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core value is turning prompts into deployable games, fitting the prompt-to-app builder category rather than a coding assistant or IDE.
+  reason: >-
+    The product's core value is turning prompts into deployable games, fitting the prompt-to-app builder category rather
+    than a coding assistant or IDE.
   evidence:
-    - Site description explicitly states 'Create playable games with AI prompts. Describe your idea or choose a template, then build and deploy your game. No coding required.'
+    - >-
+      Site description explicitly states 'Create playable games with AI prompts. Describe your idea or choose a
+      template, then build and deploy your game. No coding required.'
     - Source-list context places it in 'App Builders' section of awesome-ai-coding-tools.
 placement:
   primary_category: app-builders
-  section: Prompt-to-App Builders
+  secondary_categories: []
+  section: Full App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +76,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:12.375Z"
+    updated_at: '2026-07-21T15:31:12.375Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -82,13 +89,19 @@ processing:
       input_hash: sha256:e21e68241c37b7590f569129bdf45ea232457a03035106a4014626c4e78c908d
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The product's core value is turning prompts into deployable games, fitting the prompt-to-app builder category rather than a coding assistant or IDE.
+      decision_reason: >-
+        The product's core value is turning prompts into deployable games, fitting the prompt-to-app builder category
+        rather than a coding assistant or IDE.
       decision_evidence:
-        - Site description explicitly states 'Create playable games with AI prompts. Describe your idea or choose a template, then build and deploy your game. No coding required.'
+        - >-
+          Site description explicitly states 'Create playable games with AI prompts. Describe your idea or choose a
+          template, then build and deploy your game. No coding required.'
         - Source-list context places it in 'App Builders' section of awesome-ai-coding-tools.
       category_candidates:
         - app-builders
         - ai-frameworks
-      contrastive_reason: Choose app-builders over ai-frameworks because the primary surface is a hosted prompt-to-app builder, not a code-first SDK or library.
+      contrastive_reason: >-
+        Choose app-builders over ai-frameworks because the primary surface is a hosted prompt-to-app builder, not a
+        code-first SDK or library.
       review_reason: null
       review_resume_lifecycle: null

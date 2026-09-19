@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__continuedev__continue__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,12 @@ provenance:
           - Open Source
         anchor_text: Continue CLI
         extracted_url: https://github.com/continuedev/continue
-        surrounding_text: "- **[Continue CLI](https://github.com/continuedev/continue)** `⭐ 33k` — Open-source terminal extension for multi-model coding with local/privacy focus."
+        surrounding_text: >-
+          - **[Continue CLI](https://github.com/continuedev/continue)** `⭐ 33k` — Open-source terminal extension for
+          multi-model coding with local/privacy focus.
         confidence: high
     - id: discovery__github__continuedev__continue__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -35,10 +37,10 @@ provenance:
           - Continue
         anchor_text: Continue
         extracted_url: https://continue.dev
-        surrounding_text: "## [Continue](https://continue.dev/)"
+        surrounding_text: '## [Continue](https://continue.dev/)'
         confidence: high
     - id: discovery__github__continuedev__continue__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -50,10 +52,12 @@ provenance:
           - Clients
         anchor_text: Continue
         extracted_url: https://github.com/continuedev/continue
-        surrounding_text: "- **[Continue](https://github.com/continuedev/continue)** vscode auto complete and chat tool (full feature support)"
+        surrounding_text: >-
+          - **[Continue](https://github.com/continuedev/continue)** vscode auto complete and chat tool (full feature
+          support)
         confidence: high
     - id: discovery__github__continuedev__continue__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -65,10 +69,13 @@ provenance:
           - Code AI
         anchor_text: Continue
         extracted_url: https://github.com/continuedev/continue
-        surrounding_text: "| [Continue](https://github.com/continuedev/continue) | ⏩ the open-source autopilot for software development—bring the power of ChatGPT to VS Code              | ![GitHub Badge](https://img.shields.io/github/stars/continuedev/continue.svg?style=flat-square) |"
+        surrounding_text: >-
+          | [Continue](https://github.com/continuedev/continue) | ⏩ the open-source autopilot for software
+          development—bring the power of ChatGPT to VS Code              | ![GitHub
+          Badge](https://img.shields.io/github/stars/continuedev/continue.svg?style=flat-square) |
         confidence: high
     - id: discovery__github__continuedev__continue__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -80,7 +87,9 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Continue
         extracted_url: https://continue.dev
-        surrounding_text: "- **[Continue](https://continue.dev/)** – Open-source AI tool for code completion and chat, pluggable into VS Code and JetBrains."
+        surrounding_text: >-
+          - **[Continue](https://continue.dev/)** – Open-source AI tool for code completion and chat, pluggable into VS
+          Code and JetBrains.
         confidence: high
 metadata:
   github:
@@ -90,8 +99,8 @@ metadata:
     archived: false
     full_name: continuedev/continue
     html_url: https://github.com/continuedev/continue
-    created_at: "2023-05-24T03:39:39Z"
-    pushed_at: "2026-09-13T14:21:41Z"
+    created_at: '2023-05-24T03:39:39Z'
+    pushed_at: '2026-09-13T14:21:41Z'
     description: open-source coding agent
     homepage: https://continue.dev
     topics:
@@ -100,13 +109,15 @@ metadata:
       - cli
       - developer-tools
       - open-source
-    last_checked_at: "2026-09-14T04:13:29.086Z"
+    last_checked_at: '2026-09-14T04:13:29.086Z'
     readme:
-      fetched_at: "2026-09-14T04:13:29.086Z"
+      fetched_at: '2026-09-14T04:13:29.086Z'
       bytes: 2791
 insights:
   summary: Open-source coding agent that runs AI checks as GitHub status checks on pull requests.
-  why_it_matters: It lets developers enforce AI-driven code reviews (e.g., security checks) directly in CI via markdown-defined agents in `.continue/checks/`.
+  why_it_matters: >-
+    It lets developers enforce AI-driven code reviews (e.g., security checks) directly in CI via markdown-defined agents
+    in `.continue/checks/`.
   mental_damage: Now your PRs can be rejected by both humans and YAML files.
   tags:
     - coding-agent
@@ -117,31 +128,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a primary coding assistant that directly reviews, validates, and suggests fixes for code in PR workflows.
+  reason: >-
+    The product is a primary coding assistant that directly reviews, validates, and suggests fixes for code in PR
+    workflows.
   evidence:
-    - "Repo description: 'open-source coding agent'"
-    - "README: 'Continue runs agents on every pull request as GitHub status checks'"
-    - "Source-list context: Listed under 'Terminal-native coding agents > Open Source' in awesome-cli-coding-agents"
+    - 'Repo description: ''open-source coding agent'''
+    - 'README: ''Continue runs agents on every pull request as GitHub status checks'''
+    - 'Source-list context: Listed under ''Terminal-native coding agents > Open Source'' in awesome-cli-coding-agents'
 placement:
   primary_category: coding-agents
-  section: Review, Testing & Repair Agents
+  secondary_categories: []
+  section: Review, Testing & Repair
 lifecycle:
   status: promotion_candidate
   reason: Stars (33006) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.573Z"
+    updated_at: '2026-05-06T22:12:15.573Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:29.086Z"
+    updated_at: '2026-09-14T04:13:29.086Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:48:32.617Z"
+    updated_at: '2026-07-21T15:48:32.617Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -154,14 +168,18 @@ processing:
       input_hash: sha256:5e313b6149db47b15c76bb710aa3c2a7d55fb76cd6efbfaab50af0bff1787de2
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: The product is a primary coding assistant that directly reviews, validates, and suggests fixes for code in PR workflows.
+      decision_reason: >-
+        The product is a primary coding assistant that directly reviews, validates, and suggests fixes for code in PR
+        workflows.
       decision_evidence:
-        - "Repo description: 'open-source coding agent'"
-        - "README: 'Continue runs agents on every pull request as GitHub status checks'"
-        - "Source-list context: Listed under 'Terminal-native coding agents > Open Source' in awesome-cli-coding-agents"
+        - 'Repo description: ''open-source coding agent'''
+        - 'README: ''Continue runs agents on every pull request as GitHub status checks'''
+        - 'Source-list context: Listed under ''Terminal-native coding agents > Open Source'' in awesome-cli-coding-agents'
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because the core product is a standalone coding agent (PR checks) rather than an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because the core product is a standalone coding agent (PR checks)
+        rather than an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

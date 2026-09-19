@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kdqed__zaturn__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🧮 <a name="data-science-tools"></a>Data Science Tools
         anchor_text: kdqed/zaturn
         extracted_url: https://github.com/kdqed/zaturn
-        surrounding_text: "- [kdqed/zaturn](https://github.com/kdqed/zaturn) 🐍 🏠 🪟 🐧 🍎 - Link multiple data sources (SQL, CSV, Parquet, etc.) and ask AI to analyze the data for insights and visualizations."
+        surrounding_text: >-
+          - [kdqed/zaturn](https://github.com/kdqed/zaturn) 🐍 🏠 🪟 🐧 🍎 - Link multiple data sources (SQL, CSV,
+          Parquet, etc.) and ask AI to analyze the data for insights and visualizations.
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: kdqed/zaturn
     html_url: https://github.com/kdqed/zaturn
-    created_at: "2025-04-07T10:43:32Z"
-    pushed_at: "2025-11-12T06:17:05Z"
+    created_at: '2025-04-07T10:43:32Z'
+    pushed_at: '2025-11-12T06:17:05Z'
     description: Data Analysis With Vibes
     homepage: https://zaturn.kdqed.com
     topics:
@@ -39,13 +41,17 @@ metadata:
       - data-analysis
       - data-science
       - vibe-coding
-    last_checked_at: "2026-07-30T05:05:55.227Z"
+    last_checked_at: '2026-07-30T05:05:55.227Z'
     readme:
-      fetched_at: "2026-07-30T05:05:55.227Z"
+      fetched_at: '2026-07-30T05:05:55.227Z'
       bytes: 2448
 insights:
-  summary: A data analysis tool that lets AI models run SQL and generate visualizations, usable as an MCP server or web interface.
-  why_it_matters: Developers can query and visualize data from multiple sources without writing SQL or Python, streamlining exploratory analysis workflows.
+  summary: >-
+    A data analysis tool that lets AI models run SQL and generate visualizations, usable as an MCP server or web
+    interface.
+  why_it_matters: >-
+    Developers can query and visualize data from multiple sources without writing SQL or Python, streamlining
+    exploratory analysis workflows.
   mental_damage: Finally, a way to offload your SQL guilt to an AI that also draws graphs you’ll pretend to understand.
   tags:
     - data-analysis
@@ -56,31 +62,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the primary identity here: the project is explicitly positioned as an MCP server for data science tools, with a secondary web interface."
+  reason: >-
+    MCP is the primary identity here: the project is explicitly positioned as an MCP server for data science tools, with
+    a secondary web interface.
   evidence:
-    - "Repo description: 'Data Analysis With Vibes'"
-    - "README: 'Zaturn provides tools that enable AI models to run SQL... It can be used as an MCP or as a web interface'"
-    - "Source-list context: listed in awesome-mcp-servers under 'Data Science Tools'"
+    - 'Repo description: ''Data Analysis With Vibes'''
+    - 'README: ''Zaturn provides tools that enable AI models to run SQL... It can be used as an MCP or as a web interface'''
+    - 'Source-list context: listed in awesome-mcp-servers under ''Data Science Tools'''
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.624Z"
+    updated_at: '2026-05-06T22:12:15.624Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:55.227Z"
+    updated_at: '2026-07-30T05:05:55.227Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:12:10.585Z"
+    updated_at: '2026-07-21T16:12:10.585Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -93,14 +102,20 @@ processing:
       input_hash: sha256:3fd4431a1045c2716ff6508e04335e72611b6660b23534cbae14437b657185d3
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the primary identity here: the project is explicitly positioned as an MCP server for data science tools, with a secondary web interface."
+      decision_reason: >-
+        MCP is the primary identity here: the project is explicitly positioned as an MCP server for data science tools,
+        with a secondary web interface.
       decision_evidence:
-        - "Repo description: 'Data Analysis With Vibes'"
-        - "README: 'Zaturn provides tools that enable AI models to run SQL... It can be used as an MCP or as a web interface'"
-        - "Source-list context: listed in awesome-mcp-servers under 'Data Science Tools'"
+        - 'Repo description: ''Data Analysis With Vibes'''
+        - >-
+          README: 'Zaturn provides tools that enable AI models to run SQL... It can be used as an MCP or as a web
+          interface'
+        - 'Source-list context: listed in awesome-mcp-servers under ''Data Science Tools'''
       category_candidates:
         - mcp
         - app-builders
-      contrastive_reason: Choose mcp over app-builders because the core identity is an MCP server for data analysis, not a prompt-to-app builder.
+      contrastive_reason: >-
+        Choose mcp over app-builders because the core identity is an MCP server for data analysis, not a prompt-to-app
+        builder.
       review_reason: null
       review_resume_lifecycle: null

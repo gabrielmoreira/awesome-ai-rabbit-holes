@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mumez__pharo-smalltalk-interop-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: mumez/pharo-smalltalk-interop-mcp-server
         extracted_url: https://github.com/mumez/pharo-smalltalk-interop-mcp-server
-        surrounding_text: "- [mumez/pharo-smalltalk-interop-mcp-server](https://github.com/mumez/pharo-smalltalk-interop-mcp-server) 🐍 🏠 - Pharo Smalltalk integration enabling code evaluation, class/method introspection, package management, test execution, and project installation for interactive development with Pharo images."
+        surrounding_text: >-
+          - [mumez/pharo-smalltalk-interop-mcp-server](https://github.com/mumez/pharo-smalltalk-interop-mcp-server) 🐍
+          🏠 - Pharo Smalltalk integration enabling code evaluation, class/method introspection, package management,
+          test execution, and project installation for interactive development with Pharo images.
         confidence: high
 metadata:
   github:
@@ -30,21 +33,27 @@ metadata:
     archived: false
     full_name: mumez/pharo-smalltalk-interop-mcp-server
     html_url: https://github.com/mumez/pharo-smalltalk-interop-mcp-server
-    created_at: "2025-07-14T13:35:13Z"
-    pushed_at: "2026-06-26T15:24:43Z"
+    created_at: '2025-07-14T13:35:13Z'
+    pushed_at: '2026-06-26T15:24:43Z'
     description: A local MCP server to communicate local Pharo Smalltalk image
-    homepage: ""
+    homepage: ''
     topics:
       - mcp-server
       - pharo-smalltalk
-    last_checked_at: "2026-07-23T05:09:44.608Z"
+    last_checked_at: '2026-07-23T05:09:44.608Z'
     readme:
-      fetched_at: "2026-07-23T05:09:44.608Z"
+      fetched_at: '2026-07-23T05:09:44.608Z'
       bytes: 11377
 insights:
-  summary: A local MCP server that exposes a Pharo Smalltalk image to AI assistants like Claude Code and Cursor for code evaluation, introspection, and UI debugging.
-  why_it_matters: It bridges niche Smalltalk environments with modern AI coding workflows, allowing assistants to directly inspect, run, and debug live Pharo images.
-  mental_damage: We have successfully abstracted the abstraction until the only thing left to debug is the bridge connecting the future to a language from 1972.
+  summary: >-
+    A local MCP server that exposes a Pharo Smalltalk image to AI assistants like Claude Code and Cursor for code
+    evaluation, introspection, and UI debugging.
+  why_it_matters: >-
+    It bridges niche Smalltalk environments with modern AI coding workflows, allowing assistants to directly inspect,
+    run, and debug live Pharo images.
+  mental_damage: >-
+    We have successfully abstracted the abstraction until the only thing left to debug is the bridge connecting the
+    future to a language from 1972.
   tags:
     - mcp
     - smalltalk
@@ -54,37 +63,44 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server providing Smalltalk image capabilities to host assistants, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product's identity is an MCP server providing Smalltalk image capabilities to host assistants, fitting the MCP
+    Servers & Tooling category.
   evidence:
     - Name and description explicitly define it as 'A local MCP server to communicate local Pharo Smalltalk image'.
-    - README details 22 MCP tools for evaluation, introspection, and UI debugging mapped to the PharoSmalltalkInteropServer API.
-    - Included in the 'awesome-mcp-servers' list under 'Developer Tools', confirming its identity as protocol infrastructure.
+    - >-
+      README details 22 MCP tools for evaluation, introspection, and UI debugging mapped to the
+      PharoSmalltalkInteropServer API.
+    - >-
+      Included in the 'awesome-mcp-servers' list under 'Developer Tools', confirming its identity as protocol
+      infrastructure.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.631Z"
+    updated_at: '2026-05-06T22:12:15.631Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-08-03T05:17:08.901Z"
+    updated_at: '2026-08-03T05:17:08.901Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for mumez/pharo-smalltalk-interop-mcp-server
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

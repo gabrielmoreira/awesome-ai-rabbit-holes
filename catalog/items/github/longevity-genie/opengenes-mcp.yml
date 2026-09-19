@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__longevity-genie__opengenes-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - <a name="bio"></a>Biology, Medicine and Bioinformatics
         anchor_text: longevity-genie/opengenes-mcp
         extracted_url: https://github.com/longevity-genie/opengenes-mcp
-        surrounding_text: "- [longevity-genie/opengenes-mcp](https://github.com/longevity-genie/opengenes-mcp) 🎖️ 🐍 🏠 ☁️ - MCP server for a queryable database for aging and longevity research from the OpenGenes project."
+        surrounding_text: >-
+          - [longevity-genie/opengenes-mcp](https://github.com/longevity-genie/opengenes-mcp) 🎖️ 🐍 🏠 ☁️ - MCP server
+          for a queryable database for aging and longevity research from the OpenGenes project.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,23 @@ metadata:
     archived: false
     full_name: longevity-genie/opengenes-mcp
     html_url: https://github.com/longevity-genie/opengenes-mcp
-    created_at: "2025-06-05T16:23:03Z"
-    pushed_at: "2025-10-14T21:36:07Z"
+    created_at: '2025-06-05T16:23:03Z'
+    pushed_at: '2025-10-14T21:36:07Z'
     description: MCP for the open-genes
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:06:08.229Z"
+    last_checked_at: '2026-07-30T05:06:08.229Z'
     readme:
-      fetched_at: "2026-07-30T05:06:08.229Z"
+      fetched_at: '2026-07-30T05:06:08.229Z'
       bytes: 20794
 insights:
   summary: MCP server providing natural language SQL access to the OpenGenes aging and longevity genetics database.
-  why_it_matters: Lets developers query biomedical data via AI assistants using SQL, reducing context-switching in bioinformatics workflows.
-  mental_damage: Another MCP server promising seamless data access while you quietly maintain three different Hugging Face repos just to keep it updated.
+  why_it_matters: >-
+    Lets developers query biomedical data via AI assistants using SQL, reducing context-switching in bioinformatics
+    workflows.
+  mental_damage: >-
+    Another MCP server promising seamless data access while you quietly maintain three different Hugging Face repos just
+    to keep it updated.
   tags:
     - mcp
     - bioinformatics
@@ -50,31 +56,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server exposing domain-specific data, making it a clear fit for MCP Servers & Tooling rather than a coding agent or extension.
+  reason: >-
+    The product's core identity is an MCP server exposing domain-specific data, making it a clear fit for MCP Servers &
+    Tooling rather than a coding agent or extension.
   evidence:
-    - "Repo description: 'MCP for the open-genes'"
-    - "README: 'MCP (Model Context Protocol) server for OpenGenes database'"
-    - "Source-list context: Listed in awesome-mcp-servers under Biology, Medicine and Bioinformatics"
+    - 'Repo description: ''MCP for the open-genes'''
+    - 'README: ''MCP (Model Context Protocol) server for OpenGenes database'''
+    - 'Source-list context: Listed in awesome-mcp-servers under Biology, Medicine and Bioinformatics'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: '2026-05-06T22:12:15.627Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:08.229Z"
+    updated_at: '2026-07-30T05:06:08.229Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:17:13.495Z"
+    updated_at: '2026-07-21T16:17:13.495Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,14 +96,18 @@ processing:
       input_hash: sha256:cc60f236ece1a8df634aebaf0b743f5a8456150a4f59025638e449321a2c6757
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP server exposing domain-specific data, making it a clear fit for MCP Servers & Tooling rather than a coding agent or extension.
+      decision_reason: >-
+        The product's core identity is an MCP server exposing domain-specific data, making it a clear fit for MCP
+        Servers & Tooling rather than a coding agent or extension.
       decision_evidence:
-        - "Repo description: 'MCP for the open-genes'"
-        - "README: 'MCP (Model Context Protocol) server for OpenGenes database'"
-        - "Source-list context: Listed in awesome-mcp-servers under Biology, Medicine and Bioinformatics"
+        - 'Repo description: ''MCP for the open-genes'''
+        - 'README: ''MCP (Model Context Protocol) server for OpenGenes database'''
+        - 'Source-list context: Listed in awesome-mcp-servers under Biology, Medicine and Bioinformatics'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool is an MCP server itself, not an extension augmenting another assistant with host capabilities.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool is an MCP server itself, not an extension augmenting another
+        assistant with host capabilities.
       review_reason: null
       review_resume_lifecycle: null

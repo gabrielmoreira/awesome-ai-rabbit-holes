@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sitbon__magg__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: sitbon/magg
         extracted_url: https://github.com/sitbon/magg
-        surrounding_text: "- [sitbon/magg](https://github.com/sitbon/magg) 🍎 🪟 🐧 ☁️ 🏠 🐍 - Magg: A meta-MCP server that acts as a universal hub, allowing LLMs to autonomously discover, install, and orchestrate multiple MCP servers - essentially giving AI assistants the power to extend their own capabilities on-demand."
+        surrounding_text: >-
+          - [sitbon/magg](https://github.com/sitbon/magg) 🍎 🪟 🐧 ☁️ 🏠 🐍 - Magg: A meta-MCP server that acts as a
+          universal hub, allowing LLMs to autonomously discover, install, and orchestrate multiple MCP servers -
+          essentially giving AI assistants the power to extend their own capabilities on-demand.
         confidence: high
     - id: discovery__github__sitbon__magg__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +38,10 @@ provenance:
           - Community Servers
         anchor_text: 🧲 Magg 🧲
         extracted_url: https://github.com/sitbon/magg
-        surrounding_text: "- **[🧲 Magg 🧲](https://github.com/sitbon/magg)** - A meta-MCP server that acts as a universal hub, allowing LLMs to autonomously discover, install, and orchestrate multiple MCP servers - essentially giving AI assistants the power to extend their own capabilities on-demand."
+        surrounding_text: >-
+          - **[🧲 Magg 🧲](https://github.com/sitbon/magg)** - A meta-MCP server that acts as a universal hub, allowing
+          LLMs to autonomously discover, install, and orchestrate multiple MCP servers - essentially giving AI
+          assistants the power to extend their own capabilities on-demand.
         confidence: high
 metadata:
   github:
@@ -45,9 +51,9 @@ metadata:
     archived: false
     full_name: sitbon/magg
     html_url: https://github.com/sitbon/magg
-    created_at: "2025-06-20T08:54:11Z"
-    pushed_at: "2026-06-27T23:43:49Z"
-    description: "Magg: The MCP Aggregator"
+    created_at: '2025-06-20T08:54:11Z'
+    pushed_at: '2026-06-27T23:43:49Z'
+    description: 'Magg: The MCP Aggregator'
     homepage: https://pypi.org/project/magg/
     topics:
       - aggregator
@@ -66,14 +72,20 @@ metadata:
       - pydantic
       - pydantic-v2
       - python
-    last_checked_at: "2026-07-20T16:42:58.485Z"
+    last_checked_at: '2026-07-20T16:42:58.485Z'
     readme:
-      fetched_at: "2026-07-20T16:42:58.485Z"
+      fetched_at: '2026-07-20T16:42:58.485Z'
       bytes: 17263
 insights:
-  summary: Magg is a meta-MCP server that acts as a central hub, proxy, and manager for dynamically discovering, configuring, and aggregating other MCP servers at runtime.
-  why_it_matters: It allows LLMs to self-extend their toolset by searching for, adding, and toggling MCP servers without human intervention or restarts.
-  mental_damage: We have finally built a package manager for tools that build tools, adding a layer of dynamic dependency hell to the one place that previously lacked it.
+  summary: >-
+    Magg is a meta-MCP server that acts as a central hub, proxy, and manager for dynamically discovering, configuring,
+    and aggregating other MCP servers at runtime.
+  why_it_matters: >-
+    It allows LLMs to self-extend their toolset by searching for, adding, and toggling MCP servers without human
+    intervention or restarts.
+  mental_damage: >-
+    We have finally built a package manager for tools that build tools, adding a layer of dynamic dependency hell to the
+    one place that previously lacked it.
   tags:
     - mcp
     - aggregator
@@ -83,35 +95,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is explicitly a 'MCP Aggregator' and 'meta-MCP server', fitting perfectly as MCP infrastructure middleware rather than a generic framework or extension.
+  reason: >-
+    The product's identity is explicitly a 'MCP Aggregator' and 'meta-MCP server', fitting perfectly as MCP
+    infrastructure middleware rather than a generic framework or extension.
   evidence:
-    - "Repo description explicitly states 'Magg: The MCP Aggregator'."
+    - 'Repo description explicitly states ''Magg: The MCP Aggregator''.'
     - README defines it as a 'meta-MCP server that acts as a central hub for managing multiple MCP servers'.
     - Listed in awesome-mcp-servers under 'Aggregators' and 'Community Servers'.
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.593Z"
+    updated_at: '2026-05-06T22:12:15.593Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:58.485Z"
+    updated_at: '2026-07-20T16:42:58.485Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

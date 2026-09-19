@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__lighter__xyz__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,14 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: Lighter
         extracted_url: https://lighter.xyz
-        surrounding_text: "- [0xDegenMo/lighter-mcp](https://github.com/0xDegenMo/lighter-mcp) [![0xDegenMo/lighter-mcp MCP server](https://glama.ai/mcp/servers/0xDegenMo/lighter-mcp/badges/score.svg)](https://glama.ai/mcp/servers/0xDegenMo/lighter-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - MCP server for [Lighter](https://lighter.xyz) — a zero-fee zk-rollup perpetual DEX. Trade ~190 perpetuals (crypto + RWA: PAXG/XAU gold, XAG silver, WTI oil, equity tickers like TSLA/AMZN/ASML) from Claude Desktop, Cursor, Hermes, or any MCP client. Three credential tiers (PUBLIC market data → READ account → TRADE signing), native on-chain stop-loss / take-profit, server-side safety caps (max-quote-USD, slippage, symbol allowlist). `pip install 0xdegenmo-lighter-mcp`."
+        surrounding_text: >-
+          - [0xDegenMo/lighter-mcp](https://github.com/0xDegenMo/lighter-mcp) [![0xDegenMo/lighter-mcp MCP
+          server](https://glama.ai/mcp/servers/0xDegenMo/lighter-mcp/badges/score.svg)](https://glama.ai/mcp/servers/0xDegenMo/lighter-mcp)
+          🐍 ☁️ 🏠 🍎 🪟 🐧 - MCP server for [Lighter](https://lighter.xyz) — a zero-fee zk-rollup perpetual DEX. Trade
+          ~190 perpetuals (crypto + RWA: PAXG/XAU gold, XAG silver, WTI oil, equity tickers like TSLA/AMZN/ASML) from
+          Claude Desktop, Cursor, Hermes, or any MCP client. Three credential tiers (PUBLIC market data → READ account →
+          TRADE signing), native on-chain stop-loss / take-profit, server-side safety caps (max-quote-USD, slippage,
+          symbol allowlist). `pip install 0xdegenmo-lighter-mcp`.
         confidence: high
 metadata:
   github:
@@ -36,7 +43,9 @@ metadata:
     readme: null
 insights:
   summary: An MCP server providing finance and fintech capabilities to AI models.
-  why_it_matters: It allows developers to integrate financial data and fintech workflows into their agentic workflows via the Model Context Protocol.
+  why_it_matters: >-
+    It allows developers to integrate financial data and fintech workflows into their agentic workflows via the Model
+    Context Protocol.
   mental_damage: Because giving a coding agent direct access to financial markets is exactly the kind of chaos our terminal deserves.
   tags:
     - mcp
@@ -51,14 +60,15 @@ curation:
     - Categorized under Finance & Fintech section
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.820Z"
+    updated_at: '2026-05-28T05:28:09.820Z'
     cause: null
     next_retry_at: null
   stars:
@@ -67,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-28T05:41:21.779Z"
+    updated_at: '2026-05-28T05:41:21.779Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

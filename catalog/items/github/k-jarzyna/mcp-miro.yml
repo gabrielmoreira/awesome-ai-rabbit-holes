@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__k-jarzyna__mcp-miro__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Miro
         extracted_url: https://github.com/k-jarzyna/mcp-miro
-        surrounding_text: "- **[Miro](https://github.com/k-jarzyna/mcp-miro)** - Miro MCP server, exposing all functionalities available in official Miro SDK."
+        surrounding_text: >-
+          - **[Miro](https://github.com/k-jarzyna/mcp-miro)** - Miro MCP server, exposing all functionalities available
+          in official Miro SDK.
         confidence: high
 metadata:
   github:
@@ -29,18 +31,20 @@ metadata:
     archived: false
     full_name: k-jarzyna/mcp-miro
     html_url: https://github.com/k-jarzyna/mcp-miro
-    created_at: "2025-04-07T13:07:16Z"
-    pushed_at: "2025-08-19T06:30:22Z"
+    created_at: '2025-04-07T13:07:16Z'
+    pushed_at: '2025-08-19T06:30:22Z'
     description: Miro integration for Model Context Protocol
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:53.906Z"
+    last_checked_at: '2026-07-30T05:05:53.906Z'
     readme:
-      fetched_at: "2026-07-30T05:05:53.906Z"
+      fetched_at: '2026-07-30T05:05:53.906Z'
       bytes: 7225
 insights:
   summary: An MCP server that integrates Miro's API to allow AI assistants like Claude to read and manage Miro boards.
-  why_it_matters: Lets coding agents interact with Miro boards for planning, design, or collaboration workflows without leaving the assistant context.
+  why_it_matters: >-
+    Lets coding agents interact with Miro boards for planning, design, or collaboration workflows without leaving the
+    assistant context.
   mental_damage: Now your AI can rearrange your sticky notes faster than you can explain why the architecture diagram is wrong.
   tags:
     - mcp
@@ -51,31 +55,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server for Miro, not a generic extension or framework."
+  reason: 'MCP is the product identity: this is a dedicated MCP server for Miro, not a generic extension or framework.'
   evidence:
     - Repo description explicitly states it is a 'Miro integration for Model Context Protocol'
     - README confirms it is an MCP server exposing Miro API tools to AI assistants
     - Listed in awesome-mcp-servers under 'Community Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.623Z"
+    updated_at: '2026-05-06T22:12:15.623Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:53.906Z"
+    updated_at: '2026-07-30T05:05:53.906Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:11:39.287Z"
+    updated_at: '2026-07-21T16:11:39.287Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +93,7 @@ processing:
       input_hash: sha256:63fa0cfb5212eaa9f1aebd1fa388b78aa87b442983ad6e3b64f48c81b6d47543
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server for Miro, not a generic extension or framework."
+      decision_reason: 'MCP is the product identity: this is a dedicated MCP server for Miro, not a generic extension or framework.'
       decision_evidence:
         - Repo description explicitly states it is a 'Miro integration for Model Context Protocol'
         - README confirms it is an MCP server exposing Miro API tools to AI assistants
@@ -96,6 +101,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server, not merely an integration layer for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server, not merely an integration layer
+        for another assistant.
       review_reason: null
       review_resume_lifecycle: null

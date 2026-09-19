@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ipfred__aiwen-mcp-server-geoip__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🗺️ <a name="location-services"></a>Location Services
         anchor_text: ipfred/aiwen-mcp-server-geoip
         extracted_url: https://github.com/ipfred/aiwen-mcp-server-geoip
-        surrounding_text: "- [ipfred/aiwen-mcp-server-geoip](https://github.com/ipfred/aiwen-mcp-server-geoip) 🐍 📇 ☁️ – MCP Server for the Aiwen IP Location, Get user network IP location, get IP details (country, province, city, lat, lon, ISP, owner, etc.)"
+        surrounding_text: >-
+          - [ipfred/aiwen-mcp-server-geoip](https://github.com/ipfred/aiwen-mcp-server-geoip) 🐍 📇 ☁️ – MCP Server for
+          the Aiwen IP Location, Get user network IP location, get IP details (country, province, city, lat, lon, ISP,
+          owner, etc.)
         confidence: high
 metadata:
   github:
@@ -30,18 +33,20 @@ metadata:
     archived: false
     full_name: ipfred/aiwen-mcp-server-geoip
     html_url: https://github.com/ipfred/aiwen-mcp-server-geoip
-    created_at: "2025-05-06T07:59:28Z"
-    pushed_at: "2025-05-28T02:50:27Z"
+    created_at: '2025-05-06T07:59:28Z'
+    pushed_at: '2025-05-28T02:50:27Z'
     description: 埃文IP定位MCP
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:44.817Z"
+    last_checked_at: '2026-07-30T05:05:44.817Z'
     readme:
-      fetched_at: "2026-07-30T05:05:44.817Z"
+      fetched_at: '2026-07-30T05:05:44.817Z'
       bytes: 5360
 insights:
   summary: An MCP server that wraps the Aiwen IP geolocation API for IP lookup, risk profiling, and WHOIS queries.
-  why_it_matters: Lets developers query IP geolocation, risk, and ownership data directly from MCP-compatible clients like Cursor or VS Code.
+  why_it_matters: >-
+    Lets developers query IP geolocation, risk, and ownership data directly from MCP-compatible clients like Cursor or
+    VS Code.
   mental_damage: Now your AI assistant can judge whether your users are real humans or just very convincing VPNs.
   tags:
     - mcp-server
@@ -51,31 +56,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the primary product identity: this is a dedicated MCP server exposing IP-related tools."
+  reason: 'MCP is the primary product identity: this is a dedicated MCP server exposing IP-related tools.'
   evidence:
     - Repo description explicitly labels it as an MCP server for Aiwen IP Location API
     - README details 9 distinct IP tools exposed via MCP protocol
     - Configuration examples show integration with Cursor and VS Code MCP clients
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.621Z"
+    updated_at: '2026-05-06T22:12:15.621Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:44.817Z"
+    updated_at: '2026-07-30T05:05:44.817Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:08:50.941Z"
+    updated_at: '2026-07-21T16:08:50.941Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +94,7 @@ processing:
       input_hash: sha256:be957b3ccfe9311cb1b16c29afccd3941a68eeff7bb8b65f24864889e21a8b11
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the primary product identity: this is a dedicated MCP server exposing IP-related tools."
+      decision_reason: 'MCP is the primary product identity: this is a dedicated MCP server exposing IP-related tools.'
       decision_evidence:
         - Repo description explicitly labels it as an MCP server for Aiwen IP Location API
         - README details 9 distinct IP tools exposed via MCP protocol

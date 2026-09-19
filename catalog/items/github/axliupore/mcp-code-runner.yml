@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__axliupore__mcp-code-runner__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: axliupore/mcp-code-runner
         extracted_url: https://github.com/axliupore/mcp-code-runner
-        surrounding_text: "- [axliupore/mcp-code-runner](https://github.com/axliupore/mcp-code-runner) 📇 🏠 - An MCP server for running code locally via Docker and supporting multiple programming languages."
+        surrounding_text: >-
+          - [axliupore/mcp-code-runner](https://github.com/axliupore/mcp-code-runner) 📇 🏠 - An MCP server for running
+          code locally via Docker and supporting multiple programming languages.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,21 @@ metadata:
     archived: false
     full_name: axliupore/mcp-code-runner
     html_url: https://github.com/axliupore/mcp-code-runner
-    created_at: "2025-04-11T01:42:44Z"
-    pushed_at: "2025-04-11T04:05:59Z"
+    created_at: '2025-04-11T01:42:44Z'
+    pushed_at: '2025-04-11T04:05:59Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:29.832Z"
+    last_checked_at: '2026-09-07T04:13:29.832Z'
     readme:
-      fetched_at: "2026-09-07T04:13:29.832Z"
+      fetched_at: '2026-09-07T04:13:29.832Z'
       bytes: 429
 insights:
   summary: An MCP server that provides a Docker-based code execution environment.
   why_it_matters: It allows MCP-compatible LLM clients to safely execute code within isolated containers to verify outputs.
-  mental_damage: Because why trust your local environment when you can delegate execution to a ephemeral container controlled by an LLM?
+  mental_damage: >-
+    Because why trust your local environment when you can delegate execution to a ephemeral container controlled by an
+    LLM?
   tags:
     - mcp
     - docker
@@ -59,24 +63,25 @@ curation:
     - Found in awesome-mcp-servers
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.604Z"
+    updated_at: '2026-05-06T22:12:15.604Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:29.833Z"
+    updated_at: '2026-09-07T04:13:29.833Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:25:00.451Z"
+    updated_at: '2026-07-21T15:25:00.451Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -97,6 +102,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's core identity and distribution model is as an MCP server implementation rather than a host-specific integration.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool's core identity and distribution model is as an MCP server
+        implementation rather than a host-specific integration.
       review_reason: null
       review_resume_lifecycle: null

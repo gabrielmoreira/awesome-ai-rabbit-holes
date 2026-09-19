@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gastownhall__gastown__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Orchestrators & autonomous loops
         anchor_text: gastown
         extracted_url: https://github.com/steveyegge/gastown
-        surrounding_text: "- **[gastown](https://github.com/steveyegge/gastown)** `⭐ 14.9k` — Multi-agent orchestration with persistent work tracking."
+        surrounding_text: >-
+          - **[gastown](https://github.com/steveyegge/gastown)** `⭐ 14.9k` — Multi-agent orchestration with persistent
+          work tracking.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,22 @@ metadata:
     archived: false
     full_name: gastownhall/gastown
     html_url: https://github.com/gastownhall/gastown
-    created_at: "2025-12-16T00:33:33Z"
-    pushed_at: "2026-09-02T15:01:13Z"
+    created_at: '2025-12-16T00:33:33Z'
+    pushed_at: '2026-09-02T15:01:13Z'
     description: Gas Town - multi-agent workspace manager
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-03T05:16:46.238Z"
+    last_checked_at: '2026-09-03T05:16:46.238Z'
     readme:
-      fetched_at: "2026-09-03T05:16:46.238Z"
+      fetched_at: '2026-09-03T05:16:46.238Z'
       bytes: 30506
 insights:
-  summary: Gas Town is a multi-agent orchestration system that coordinates AI coding agents like Claude Code and GitHub Copilot with persistent work tracking via git-backed storage.
-  why_it_matters: It solves context loss and coordination chaos when scaling AI agents, enabling reliable multi-agent workflows without manual handoffs.
+  summary: >-
+    Gas Town is a multi-agent orchestration system that coordinates AI coding agents like Claude Code and GitHub Copilot
+    with persistent work tracking via git-backed storage.
+  why_it_matters: >-
+    It solves context loss and coordination chaos when scaling AI agents, enabling reliable multi-agent workflows
+    without manual handoffs.
   mental_damage: Finally, a way to feel productive while watching 30 AI interns argue over who forgot to save their work.
   tags:
     - multi-agent
@@ -51,31 +57,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Gas Town is a workbench for coordinating multiple AI agents with persistent identities, task handoffs, and scalable workflows, making it a control plane rather than a coding agent or extension.
+  reason: >-
+    Gas Town is a workbench for coordinating multiple AI agents with persistent identities, task handoffs, and scalable
+    workflows, making it a control plane rather than a coding agent or extension.
   evidence:
-    - "Repo description: 'Gas Town - multi-agent workspace manager'"
-    - "README: 'Multi-agent orchestration system for Claude Code, GitHub Copilot, and other AI agents with persistent work tracking'"
+    - 'Repo description: ''Gas Town - multi-agent workspace manager'''
+    - >-
+      README: 'Multi-agent orchestration system for Claude Code, GitHub Copilot, and other AI agents with persistent
+      work tracking'
     - Architecture shows Mayor (AI Coordinator), Towns, Rigs, Polecats (worker agents), and Convoys for work tracking
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (15000) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: '2026-05-06T22:12:15.615Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:46.238Z"
+    updated_at: '2026-09-03T05:16:46.238Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:00:49.249Z"
+    updated_at: '2026-07-21T16:00:49.249Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,14 +99,22 @@ processing:
       input_hash: sha256:717b3c48f235cb1660573d7cf8607e9a6af4443e61cecdc08e0968ac6c3c0837
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: Gas Town is a workbench for coordinating multiple AI agents with persistent identities, task handoffs, and scalable workflows, making it a control plane rather than a coding agent or extension.
+      decision_reason: >-
+        Gas Town is a workbench for coordinating multiple AI agents with persistent identities, task handoffs, and
+        scalable workflows, making it a control plane rather than a coding agent or extension.
       decision_evidence:
-        - "Repo description: 'Gas Town - multi-agent workspace manager'"
-        - "README: 'Multi-agent orchestration system for Claude Code, GitHub Copilot, and other AI agents with persistent work tracking'"
-        - Architecture shows Mayor (AI Coordinator), Towns, Rigs, Polecats (worker agents), and Convoys for work tracking
+        - 'Repo description: ''Gas Town - multi-agent workspace manager'''
+        - >-
+          README: 'Multi-agent orchestration system for Claude Code, GitHub Copilot, and other AI agents with persistent
+          work tracking'
+        - >-
+          Architecture shows Mayor (AI Coordinator), Towns, Rigs, Polecats (worker agents), and Convoys for work
+          tracking
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because Gas Town’s core value is coordinating multiple agents with persistent work tracking, not acting as a primary coding assistant that edits code directly.
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because Gas Town’s core value is coordinating multiple agents with
+        persistent work tracking, not acting as a primary coding assistant that edits code directly.
       review_reason: null
       review_resume_lifecycle: null

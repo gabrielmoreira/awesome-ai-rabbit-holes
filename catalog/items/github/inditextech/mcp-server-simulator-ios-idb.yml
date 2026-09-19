@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__inditextech__mcp-server-simulator-ios-idb__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: InditexTech/mcp-server-simulator-ios-idb
         extracted_url: https://github.com/inditextech/mcp-server-simulator-ios-idb
-        surrounding_text: "- [InditexTech/mcp-server-simulator-ios-idb](https://github.com/InditexTech/mcp-server-simulator-ios-idb) 📇 🏠 🍎 - A Model Context Protocol (MCP) server that enables LLMs to interact with iOS simulators (iPhone, iPad, etc.) through natural language commands."
+        surrounding_text: >-
+          - [InditexTech/mcp-server-simulator-ios-idb](https://github.com/InditexTech/mcp-server-simulator-ios-idb) 📇
+          🏠 🍎 - A Model Context Protocol (MCP) server that enables LLMs to interact with iOS simulators (iPhone, iPad,
+          etc.) through natural language commands.
         confidence: high
 metadata:
   github:
@@ -30,10 +33,12 @@ metadata:
     archived: false
     full_name: InditexTech/mcp-server-simulator-ios-idb
     html_url: https://github.com/InditexTech/mcp-server-simulator-ios-idb
-    created_at: "2025-03-18T11:11:28Z"
-    pushed_at: "2026-01-26T10:49:23Z"
-    description: A Model Context Protocol (MCP) server that enables LLMs to interact with iOS simulators through natural language commands.
-    homepage: ""
+    created_at: '2025-03-18T11:11:28Z'
+    pushed_at: '2026-01-26T10:49:23Z'
+    description: >-
+      A Model Context Protocol (MCP) server that enables LLMs to interact with iOS simulators through natural language
+      commands.
+    homepage: ''
     topics:
       - claude
       - cline
@@ -41,13 +46,15 @@ metadata:
       - macos
       - mcp
       - typescript
-    last_checked_at: "2026-07-30T05:05:42.791Z"
+    last_checked_at: '2026-07-30T05:05:42.791Z'
     readme:
-      fetched_at: "2026-07-30T05:05:42.791Z"
+      fetched_at: '2026-07-30T05:05:42.791Z'
       bytes: 12188
 insights:
   summary: An MCP server that enables LLMs to control iOS simulators via natural language commands.
-  why_it_matters: Developers can automate iOS simulator workflows (app installation, UI testing, debugging) directly from an LLM assistant.
+  why_it_matters: >-
+    Developers can automate iOS simulator workflows (app installation, UI testing, debugging) directly from an LLM
+    assistant.
   mental_damage: Now your AI can tap buttons in a simulator while you question your life choices.
   tags:
     - mcp
@@ -58,31 +65,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the core product identity, and the server provides domain-specific iOS simulator control as its primary function.
+  reason: >-
+    MCP is the core product identity, and the server provides domain-specific iOS simulator control as its primary
+    function.
   evidence:
     - Repo description explicitly states it is an MCP server for iOS simulators
     - README details natural language control of iOS simulators via MCP integration
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (302) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.620Z"
+    updated_at: '2026-05-06T22:12:15.620Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:42.791Z"
+    updated_at: '2026-07-30T05:05:42.791Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:07:59.564Z"
+    updated_at: '2026-07-21T16:07:59.564Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -95,7 +105,9 @@ processing:
       input_hash: sha256:a628ea079dea61a9bf671b927bba05c6e6a680d54d79301c1071f80524982368
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the core product identity, and the server provides domain-specific iOS simulator control as its primary function.
+      decision_reason: >-
+        MCP is the core product identity, and the server provides domain-specific iOS simulator control as its primary
+        function.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for iOS simulators
         - README details natural language control of iOS simulators via MCP integration
@@ -103,6 +115,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension
+        for another assistant.
       review_reason: null
       review_resume_lifecycle: null

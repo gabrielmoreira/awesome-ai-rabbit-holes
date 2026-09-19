@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__batrachianai__toad__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Session managers & parallel runners
         anchor_text: Toad
         extracted_url: https://github.com/batrachianai/toad
-        surrounding_text: "- **[Toad](https://github.com/batrachianai/toad)** `⭐ 3k` — Agent orchestrator for running and managing parallel CLI coding sessions."
+        surrounding_text: >-
+          - **[Toad](https://github.com/batrachianai/toad)** `⭐ 3k` — Agent orchestrator for running and managing
+          parallel CLI coding sessions.
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: batrachianai/toad
     html_url: https://github.com/batrachianai/toad
-    created_at: "2025-07-17T17:17:22Z"
-    pushed_at: "2026-05-26T08:43:50Z"
+    created_at: '2025-07-17T17:17:22Z'
+    pushed_at: '2026-05-26T08:43:50Z'
     description: A unified interface for AI in your terminal.
     homepage: https://www.batrachian.ai/
     topics:
@@ -44,13 +46,15 @@ metadata:
       - copilot
       - textual
       - tui
-    last_checked_at: "2026-09-07T04:13:31.816Z"
+    last_checked_at: '2026-09-07T04:13:31.816Z'
     readme:
-      fetched_at: "2026-09-07T04:13:31.816Z"
+      fetched_at: '2026-09-07T04:13:31.816Z'
       bytes: 9945
 insights:
   summary: A terminal-native unified interface for interacting with multiple coding agents via a TUI.
-  why_it_matters: Developers can switch between agents like Claude, Gemini, and Codex without leaving their terminal, with full shell integration and session management.
+  why_it_matters: >-
+    Developers can switch between agents like Claude, Gemini, and Codex without leaving their terminal, with full shell
+    integration and session management.
   mental_damage: Finally, a way to juggle five different AI coding assistants in one terminal, because apparently one wasn't enough.
   tags:
     - terminal
@@ -61,31 +65,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Toad is a primary coding assistant interface that directly orchestrates multiple agents in a terminal workflow, fitting the core definition of a coding agent.
+  reason: >-
+    Toad is a primary coding assistant interface that directly orchestrates multiple agents in a terminal workflow,
+    fitting the core definition of a coding agent.
   evidence:
-    - "Repo description: 'A unified interface for AI in your terminal'"
-    - "README: 'Toad is an interface to coding agents, such as Claude, Gemini, Codex, OpenHand, and many more'"
-    - "Source-list context: Listed under 'Harnesses & orchestration > Session managers & parallel runners' in awesome-cli-coding-agents"
+    - 'Repo description: ''A unified interface for AI in your terminal'''
+    - 'README: ''Toad is an interface to coding agents, such as Claude, Gemini, Codex, OpenHand, and many more'''
+    - >-
+      Source-list context: Listed under 'Harnesses & orchestration > Session managers & parallel runners' in
+      awesome-cli-coding-agents
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (3030) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.604Z"
+    updated_at: '2026-05-06T22:12:15.604Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:31.816Z"
+    updated_at: '2026-09-07T04:13:31.816Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:25:32.801Z"
+    updated_at: '2026-07-21T15:25:32.801Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -98,14 +107,20 @@ processing:
       input_hash: sha256:890c0eca2a66864db36b663db8550ca2cbd369da3fe9388daacfea2c2ef44c7c
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Toad is a primary coding assistant interface that directly orchestrates multiple agents in a terminal workflow, fitting the core definition of a coding agent.
+      decision_reason: >-
+        Toad is a primary coding assistant interface that directly orchestrates multiple agents in a terminal workflow,
+        fitting the core definition of a coding agent.
       decision_evidence:
-        - "Repo description: 'A unified interface for AI in your terminal'"
-        - "README: 'Toad is an interface to coding agents, such as Claude, Gemini, Codex, OpenHand, and many more'"
-        - "Source-list context: Listed under 'Harnesses & orchestration > Session managers & parallel runners' in awesome-cli-coding-agents"
+        - 'Repo description: ''A unified interface for AI in your terminal'''
+        - 'README: ''Toad is an interface to coding agents, such as Claude, Gemini, Codex, OpenHand, and many more'''
+        - >-
+          Source-list context: Listed under 'Harnesses & orchestration > Session managers & parallel runners' in
+          awesome-cli-coding-agents
       category_candidates:
         - coding-agents
         - agent-orchestration
-      contrastive_reason: Choose coding-agents over agent-orchestration because Toad's primary identity is a developer-facing terminal agent interface rather than a multi-agent control plane.
+      contrastive_reason: >-
+        Choose coding-agents over agent-orchestration because Toad's primary identity is a developer-facing terminal
+        agent interface rather than a multi-agent control plane.
       review_reason: null
       review_resume_lifecycle: null

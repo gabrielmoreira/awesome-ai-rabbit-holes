@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kleveross__ormb__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,10 @@ provenance:
           - Model Management
         anchor_text: ormb
         extracted_url: https://github.com/kleveross/ormb
-        surrounding_text: "| [ormb](https://github.com/kleveross/ormb)           | Docker for Your ML/DL Models Based on OCI Artifacts                                                                                                                                                                                                                                                          | ![GitHub Badge](https://img.shields.io/github/stars/kleveross/ormb.svg?style=flat-square)          |"
+        surrounding_text: >-
+          | [ormb](https://github.com/kleveross/ormb)           | Docker for Your ML/DL Models Based on OCI
+          Artifacts                                                                                                                                                                                                                                                         
+          | ![GitHub Badge](https://img.shields.io/github/stars/kleveross/ormb.svg?style=flat-square)          |
         confidence: high
 metadata:
   github:
@@ -30,10 +33,10 @@ metadata:
     archived: false
     full_name: kleveross/ormb
     html_url: https://github.com/kleveross/ormb
-    created_at: "2020-05-21T02:39:10Z"
-    pushed_at: "2024-01-26T02:53:43Z"
+    created_at: '2020-05-21T02:39:10Z'
+    pushed_at: '2024-01-26T02:53:43Z'
     description: Docker for Your ML/DL Models Based on OCI Artifacts
-    homepage: ""
+    homepage: ''
     topics:
       - docker
       - docker-registry
@@ -46,14 +49,18 @@ metadata:
       - oci-artifacts
       - oci-registry
       - opencontainers
-    last_checked_at: "2026-07-30T05:05:57.461Z"
+    last_checked_at: '2026-07-30T05:05:57.461Z'
     readme:
-      fetched_at: "2026-07-30T05:05:57.461Z"
+      fetched_at: '2026-07-30T05:05:57.461Z'
       bytes: 4801
 insights:
   summary: An open-source model registry that manages ML/DL models using OCI artifacts and Docker-like workflows.
-  why_it_matters: It lets developers version, share, and deploy machine learning models using familiar container registry patterns and tooling.
-  mental_damage: Now you can treat your models like Docker images, because nothing says 'production-ready' like pretending your 2GB checkpoint is a lightweight microservice.
+  why_it_matters: >-
+    It lets developers version, share, and deploy machine learning models using familiar container registry patterns and
+    tooling.
+  mental_damage: >-
+    Now you can treat your models like Docker images, because nothing says 'production-ready' like pretending your 2GB
+    checkpoint is a lightweight microservice.
   tags:
     - model-registry
     - oci-artifacts
@@ -63,31 +70,35 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a code-first tool for managing ML models as OCI artifacts, fitting the developer workflow of versioning and deploying models programmatically.
+  reason: >-
+    It is a code-first tool for managing ML models as OCI artifacts, fitting the developer workflow of versioning and
+    deploying models programmatically.
   evidence:
-    - "Repo description: 'Docker for Your ML/DL Models Based on OCI Artifacts'"
-    - "README: 'ORMB is an open-source model registry to manage machine learning model' with CLI commands like push/pull/save/export"
-    - "Source-list context: Listed in Awesome-LLMOps under 'Model Management'"
+    - 'Repo description: ''Docker for Your ML/DL Models Based on OCI Artifacts'''
+    - >-
+      README: 'ORMB is an open-source model registry to manage machine learning model' with CLI commands like
+      push/pull/save/export
+    - 'Source-list context: Listed in Awesome-LLMOps under ''Model Management'''
 placement:
   primary_category: ai-frameworks
-  section: Provider / Model Abstractions
+  section: Provider & Model Abstractions
 lifecycle:
   status: promotion_candidate
   reason: Stars (474) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.624Z"
+    updated_at: '2026-05-06T22:12:15.624Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:57.461Z"
+    updated_at: '2026-07-30T05:05:57.461Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:12:44.360Z"
+    updated_at: '2026-07-21T16:12:44.360Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -100,14 +111,20 @@ processing:
       input_hash: sha256:8b295d14f8d7c743c62305592793debc3e4637deeab246c03b589053191ac0a2
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: It is a code-first tool for managing ML models as OCI artifacts, fitting the developer workflow of versioning and deploying models programmatically.
+      decision_reason: >-
+        It is a code-first tool for managing ML models as OCI artifacts, fitting the developer workflow of versioning
+        and deploying models programmatically.
       decision_evidence:
-        - "Repo description: 'Docker for Your ML/DL Models Based on OCI Artifacts'"
-        - "README: 'ORMB is an open-source model registry to manage machine learning model' with CLI commands like push/pull/save/export"
-        - "Source-list context: Listed in Awesome-LLMOps under 'Model Management'"
+        - 'Repo description: ''Docker for Your ML/DL Models Based on OCI Artifacts'''
+        - >-
+          README: 'ORMB is an open-source model registry to manage machine learning model' with CLI commands like
+          push/pull/save/export
+        - 'Source-list context: Listed in Awesome-LLMOps under ''Model Management'''
       category_candidates:
         - ai-frameworks
         - local-ai
-      contrastive_reason: Choose ai-frameworks over local-ai because the core value is model registry/abstraction rather than local inference or runtime.
+      contrastive_reason: >-
+        Choose ai-frameworks over local-ai because the core value is model registry/abstraction rather than local
+        inference or runtime.
       review_reason: null
       review_resume_lifecycle: null

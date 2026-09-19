@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__movstox__lazy-toggl-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Lazy Toggl MCP
         extracted_url: https://github.com/movstox/lazy-toggl-mcp
-        surrounding_text: "- **[Lazy Toggl MCP](https://github.com/movstox/lazy-toggl-mcp)** - Simple unofficial MCP server to track time via Toggl API"
+        surrounding_text: >-
+          - **[Lazy Toggl MCP](https://github.com/movstox/lazy-toggl-mcp)** - Simple unofficial MCP server to track time
+          via Toggl API
         confidence: high
 metadata:
   github:
@@ -29,19 +31,25 @@ metadata:
     archived: false
     full_name: movstox/lazy-toggl-mcp
     html_url: https://github.com/movstox/lazy-toggl-mcp
-    created_at: "2025-06-06T20:39:07Z"
-    pushed_at: "2025-06-11T17:17:47Z"
+    created_at: '2025-06-06T20:39:07Z'
+    pushed_at: '2025-06-11T17:17:47Z'
     description: A lazy Toggl MCP server for time tracking integration
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:17:07.638Z"
+    last_checked_at: '2026-08-03T05:17:07.638Z'
     readme:
-      fetched_at: "2026-08-03T05:17:07.638Z"
+      fetched_at: '2026-08-03T05:17:07.638Z'
       bytes: 3550
 insights:
-  summary: A Model Context Protocol server that exposes Toggl Track time-tracking operations to AI assistants via tools for starting, stopping, and listing time entries and workspaces.
-  why_it_matters: Developers can delegate time tracking to their MCP-aware coding agents instead of context-switching to a browser or separate app during focused sessions.
-  mental_damage: We have finally reached the point where you need an MCP server and a Toggl API token just to bill a client for the hour you spent configuring it.
+  summary: >-
+    A Model Context Protocol server that exposes Toggl Track time-tracking operations to AI assistants via tools for
+    starting, stopping, and listing time entries and workspaces.
+  why_it_matters: >-
+    Developers can delegate time tracking to their MCP-aware coding agents instead of context-switching to a browser or
+    separate app during focused sessions.
+  mental_damage: >-
+    We have finally reached the point where you need an MCP server and a Toggl API token just to bill a client for the
+    hour you spent configuring it.
   tags:
     - mcp
     - time-tracking
@@ -50,35 +58,40 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product is explicitly an MCP server for Toggl, making it a clean fit for MCP Servers & Tooling as a domain-specific server.
+  reason: >-
+    The product is explicitly an MCP server for Toggl, making it a clean fit for MCP Servers & Tooling as a
+    domain-specific server.
   evidence:
-    - "Repo description states: 'A lazy Toggl MCP server for time tracking integration'"
-    - "README confirms: 'A Model Context Protocol (MCP) server that provides tools for interacting with Toggl time tracking'"
+    - 'Repo description states: ''A lazy Toggl MCP server for time tracking integration'''
+    - >-
+      README confirms: 'A Model Context Protocol (MCP) server that provides tools for interacting with Toggl time
+      tracking'
     - Included in awesome-mcp-servers under 'Community Servers' for Toggl integration
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.631Z"
+    updated_at: '2026-05-06T22:12:15.631Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:07.638Z"
+    updated_at: '2026-08-03T05:17:07.638Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

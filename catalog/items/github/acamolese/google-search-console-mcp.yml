@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__acamolese__google-search-console-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: acamolese/google-search-console-mcp
         extracted_url: https://github.com/acamolese/google-search-console-mcp
-        surrounding_text: "- [acamolese/google-search-console-mcp](https://github.com/acamolese/google-search-console-mcp) [![acamolese/google-search-console-mcp MCP server](https://glama.ai/mcp/servers/acamolese/google-search-console-mcp/badges/score.svg)](https://glama.ai/mcp/servers/acamolese/google-search-console-mcp) 🐍 ☁️ - Google Search Console MCP server: query performance data, inspect URLs, check indexing, and generate brandable HTML SEO audit reports with a 30/60/90-day roadmap. Read-only OAuth scope, installable via `uvx mcp-google-search-console`."
+        surrounding_text: >-
+          - [acamolese/google-search-console-mcp](https://github.com/acamolese/google-search-console-mcp)
+          [![acamolese/google-search-console-mcp MCP
+          server](https://glama.ai/mcp/servers/acamolese/google-search-console-mcp/badges/score.svg)](https://glama.ai/mcp/servers/acamolese/google-search-console-mcp)
+          🐍 ☁️ - Google Search Console MCP server: query performance data, inspect URLs, check indexing, and generate
+          brandable HTML SEO audit reports with a 30/60/90-day roadmap. Read-only OAuth scope, installable via `uvx
+          mcp-google-search-console`.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,12 @@ metadata:
     archived: false
     full_name: acamolese/google-search-console-mcp
     html_url: https://github.com/acamolese/google-search-console-mcp
-    created_at: "2026-04-11T13:21:09Z"
-    pushed_at: "2026-08-22T13:00:36Z"
-    description: "MCP server for Google Search Console: 17 read-only tools covering performance queries, quick wins, CTR gaps, cannibalisation, traffic-drop diagnosis and indexing, plus a self-contained white-label HTML SEO audit in English or Italian. Claude Code plugin, .mcpb bundle, Docker."
+    created_at: '2026-04-11T13:21:09Z'
+    pushed_at: '2026-08-22T13:00:36Z'
+    description: >-
+      MCP server for Google Search Console: 17 read-only tools covering performance queries, quick wins, CTR gaps,
+      cannibalisation, traffic-drop diagnosis and indexing, plus a self-contained white-label HTML SEO audit in English
+      or Italian. Claude Code plugin, .mcpb bundle, Docker.
     homepage: https://pypi.org/project/mcp-google-search-console/
     topics:
       - anthropic
@@ -55,14 +64,20 @@ metadata:
       - seo-reporting
       - seo-tools
       - zed
-    last_checked_at: "2026-09-17T04:13:29.149Z"
+    last_checked_at: '2026-09-17T04:13:29.149Z'
     readme:
-      fetched_at: "2026-09-17T04:13:29.149Z"
+      fetched_at: '2026-09-17T04:13:29.149Z'
       bytes: 11063
 insights:
-  summary: An MCP server that provides read-only access to Google Search Console data for AI assistants like Claude Code and Cursor.
-  why_it_matters: It enables developers to perform SEO audits and query performance metrics directly within their coding workflows without switching to the Google Search Console UI.
-  mental_damage: Because nothing says 'peak productivity' like delegating your entire SEO strategy to a chat interface that's one halluciation away from telling you your bounce rate is actually a feature.
+  summary: >-
+    An MCP server that provides read-only access to Google Search Console data for AI assistants like Claude Code and
+    Cursor.
+  why_it_matters: >-
+    It enables developers to perform SEO audits and query performance metrics directly within their coding workflows
+    without switching to the Google Search Console UI.
+  mental_damage: >-
+    Because nothing says 'peak productivity' like delegating your entire SEO strategy to a chat interface that's one
+    halluciation away from telling you your bounce rate is actually a feature.
   tags:
     - mcp
     - seo
@@ -78,24 +93,25 @@ curation:
     - Designed to connect Search Console data to Claude Code, Cursor, and Zed
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.599Z"
+    updated_at: '2026-05-06T22:12:15.599Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:29.149Z"
+    updated_at: '2026-09-17T04:13:29.149Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:56:53.431Z"
+    updated_at: '2026-07-20T15:56:53.431Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -116,6 +132,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is a protocol-based server rather than an integration layer that augments an editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is a protocol-based server rather than an
+        integration layer that augments an editor.
       review_reason: null
       review_resume_lifecycle: null

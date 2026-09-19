@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__modernrelay__omnigraph__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-21T05:27:57.681Z"
+      discovered_at: '2026-05-21T05:27:57.681Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - Vector search
         anchor_text: Omnigraph
         extracted_url: https://github.com/modernrelay/omnigraph
-        surrounding_text: "| [Omnigraph](https://github.com/ModernRelay/omnigraph)     | Typed graph database where agents branch and merge like Git. S3-native, Rust, traversal + vector + BM25 in one runtime.                                                                                                                                                      | ![GitHub Badge](https://img.shields.io/github/stars/ModernRelay/omnigraph.svg?style=flat-square)      |"
+        surrounding_text: >-
+          | [Omnigraph](https://github.com/ModernRelay/omnigraph)     | Typed graph database where agents branch and
+          merge like Git. S3-native, Rust, traversal + vector + BM25 in one
+          runtime.                                                                                                                                                     
+          | ![GitHub Badge](https://img.shields.io/github/stars/ModernRelay/omnigraph.svg?style=flat-square)      |
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: ModernRelay/omnigraph
     html_url: https://github.com/ModernRelay/omnigraph
-    created_at: "2026-04-10T17:50:30Z"
-    pushed_at: "2026-08-03T01:04:08Z"
+    created_at: '2026-04-10T17:50:30Z'
+    pushed_at: '2026-08-03T01:04:08Z'
     description: Lakehouse native graph engine with git-style workflows
     homepage: https://omnigraph.dev
     topics:
@@ -46,13 +50,15 @@ metadata:
       - rust
       - s3
       - versioning
-    last_checked_at: "2026-08-03T05:17:06.541Z"
+    last_checked_at: '2026-08-03T05:17:06.541Z'
     readme:
-      fetched_at: "2026-08-03T05:17:06.541Z"
+      fetched_at: '2026-08-03T05:17:06.541Z'
       bytes: 12175
 insights:
   summary: A lakehouse-native graph engine designed for agentic memory and multimodal context assembly.
-  why_it_matters: It provides a versioned, branchable data layer that allows fleets of agents to maintain durable, multimodal memory and shared knowledge graphs.
+  why_it_matters: >-
+    It provides a versioned, branchable data layer that allows fleets of agents to maintain durable, multimodal memory
+    and shared knowledge graphs.
   mental_damage: Now your agents can suffer from git-style merge conflicts in their collective memory.
   tags:
     - graph-database
@@ -63,30 +69,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core value is providing the infrastructure for agentic memory and multimodal retrieval to improve the context provided to models.
+  reason: >-
+    The product's core value is providing the infrastructure for agentic memory and multimodal retrieval to improve the
+    context provided to models.
   evidence:
     - README identifies the tool as a 'Lakehouse graph database for context assembly & multi-agent coordination'.
     - Key capabilities include 'Agentic memory' and 'Multimodal retrieval' for context assembly.
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: promotion_candidate
   reason: Stars (713) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-21T05:27:57.683Z"
+    updated_at: '2026-05-21T05:27:57.683Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:06.541Z"
+    updated_at: '2026-08-03T05:17:06.541Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-06T05:45:53.430Z"
+    updated_at: '2026-07-06T05:45:53.430Z'
     cause: null
     next_retry_at: null
     attempts: 1

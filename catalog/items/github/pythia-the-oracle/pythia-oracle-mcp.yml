@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pythia-the-oracle__pythia-oracle-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: pythia-the-oracle/pythia-oracle-mcp
         extracted_url: https://github.com/pythia-the-oracle/pythia-oracle-mcp
-        surrounding_text: "- [pythia-the-oracle/pythia-oracle-mcp](https://github.com/pythia-the-oracle/pythia-oracle-mcp) [![pythia-the-oracle/pythia-oracle-mcp MCP server](https://glama.ai/mcp/servers/pythia-the-oracle/pythia-oracle-mcp/badges/score.svg)](https://glama.ai/mcp/servers/pythia-the-oracle/pythia-oracle-mcp) 🐍 ☁️ - On-chain calculated crypto indicators (EMA, RSI, Bollinger Bands, Volatility) for 22 tokens via Chainlink oracle. 484 indicator feeds, 4 timeframes, free trial faucet."
+        surrounding_text: >-
+          - [pythia-the-oracle/pythia-oracle-mcp](https://github.com/pythia-the-oracle/pythia-oracle-mcp)
+          [![pythia-the-oracle/pythia-oracle-mcp MCP
+          server](https://glama.ai/mcp/servers/pythia-the-oracle/pythia-oracle-mcp/badges/score.svg)](https://glama.ai/mcp/servers/pythia-the-oracle/pythia-oracle-mcp)
+          🐍 ☁️ - On-chain calculated crypto indicators (EMA, RSI, Bollinger Bands, Volatility) for 22 tokens via
+          Chainlink oracle. 484 indicator feeds, 4 timeframes, free trial faucet.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: pythia-the-oracle/pythia-oracle-mcp
     html_url: https://github.com/pythia-the-oracle/pythia-oracle-mcp
-    created_at: "2026-03-18T10:05:54Z"
-    pushed_at: "2026-05-26T20:27:51Z"
-    description: Every smart contract deserves intelligence, not just data. MCP server for on-chain calculated indicators (EMA, RSI, VWAP, Bollinger, volatility) via Chainlink.
+    created_at: '2026-03-18T10:05:54Z'
+    pushed_at: '2026-05-26T20:27:51Z'
+    description: >-
+      Every smart contract deserves intelligence, not just data. MCP server for on-chain calculated indicators (EMA,
+      RSI, VWAP, Bollinger, volatility) via Chainlink.
     homepage: https://pythia.c3x-solutions.com
     topics:
       - ai-agent
@@ -46,14 +53,20 @@ metadata:
       - oracle
       - smart-contracts
       - technical-analysis
-    last_checked_at: "2026-07-20T16:42:39.607Z"
+    last_checked_at: '2026-07-20T16:42:39.607Z'
     readme:
-      fetched_at: "2026-07-20T16:42:39.607Z"
+      fetched_at: '2026-07-20T16:42:39.607Z'
       bytes: 8341
 insights:
-  summary: An MCP server that exposes on-chain calculated technical indicators (EMA, RSI, VWAP, Bollinger Bands) and event subscriptions via Chainlink for AI agents and smart contracts.
-  why_it_matters: Developers building AI trading agents or DeFi protocols can query complex technical analysis directly through the Model Context Protocol without building custom oracle infrastructure.
-  mental_damage: We have officially reached the point where your AI agent needs its own RSI feed before it can panic-sell your bags with institutional-grade sophistication.
+  summary: >-
+    An MCP server that exposes on-chain calculated technical indicators (EMA, RSI, VWAP, Bollinger Bands) and event
+    subscriptions via Chainlink for AI agents and smart contracts.
+  why_it_matters: >-
+    Developers building AI trading agents or DeFi protocols can query complex technical analysis directly through the
+    Model Context Protocol without building custom oracle infrastructure.
+  mental_damage: >-
+    We have officially reached the point where your AI agent needs its own RSI feed before it can panic-sell your bags
+    with institutional-grade sophistication.
   tags:
     - mcp-server
     - defi
@@ -63,35 +76,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server purpose-built to expose on-chain technical indicators and event subscriptions, making MCP the core product identity rather than a compatibility footnote.
+  reason: >-
+    This is an MCP server purpose-built to expose on-chain technical indicators and event subscriptions, making MCP the
+    core product identity rather than a compatibility footnote.
   evidence:
     - Repo description explicitly states 'MCP server for on-chain calculated indicators'
-    - README provides Claude Desktop, Claude Code, Cursor, Windsurf, and OpenAI Agents integration examples as the primary setup flow
+    - >-
+      README provides Claude Desktop, Claude Code, Cursor, Windsurf, and OpenAI Agents integration examples as the
+      primary setup flow
     - Listed in awesome-mcp-servers under 'Finance & Fintech' section
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.643Z"
+    updated_at: '2026-05-06T22:12:15.643Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:39.608Z"
+    updated_at: '2026-07-20T16:42:39.608Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__open-strategy-partners__osp_marketing_tools__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: open-strategy-partners/osp_marketing_tools
         extracted_url: https://github.com/open-strategy-partners/osp_marketing_tools
-        surrounding_text: "- [open-strategy-partners/osp_marketing_tools](https://github.com/open-strategy-partners/osp_marketing_tools) 🐍 🏠 - A suite of marketing tools from Open Strategy Partners including writing style, editing codes, and product marketing value map creation."
+        surrounding_text: >-
+          - [open-strategy-partners/osp_marketing_tools](https://github.com/open-strategy-partners/osp_marketing_tools)
+          🐍 🏠 - A suite of marketing tools from Open Strategy Partners including writing style, editing codes, and
+          product marketing value map creation.
         confidence: high
     - id: discovery__github__open-strategy-partners__osp_marketing_tools__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +38,12 @@ provenance:
           - 🎯 Marketing
         anchor_text: open-strategy-partners/osp_marketing_tools
         extracted_url: https://github.com/open-strategy-partners/osp_marketing_tools
-        surrounding_text: "-   **[open-strategy-partners/osp_marketing_tools](https://github.com/open-strategy-partners/osp_marketing_tools)** [![GitHub stars](https://img.shields.io/github/stars/open-strategy-partners/osp_marketing_tools?style=social)](https://github.com/open-strategy-partners/osp_marketing_tools): Provides a set of marketing tools from Open Strategy Partners."
+        surrounding_text: >-
+          -  
+          **[open-strategy-partners/osp_marketing_tools](https://github.com/open-strategy-partners/osp_marketing_tools)**
+          [![GitHub
+          stars](https://img.shields.io/github/stars/open-strategy-partners/osp_marketing_tools?style=social)](https://github.com/open-strategy-partners/osp_marketing_tools):
+          Provides a set of marketing tools from Open Strategy Partners.
         confidence: high
 metadata:
   github:
@@ -45,19 +53,27 @@ metadata:
     archived: false
     full_name: open-strategy-partners/osp_marketing_tools
     html_url: https://github.com/open-strategy-partners/osp_marketing_tools
-    created_at: "2025-01-16T14:43:32Z"
-    pushed_at: "2025-04-23T11:40:18Z"
-    description: A Model Context Protocol (MCP) server that empowers LLMs to use some of Open Srategy Partners' core writing and product marketing techniques.
+    created_at: '2025-01-16T14:43:32Z'
+    pushed_at: '2025-04-23T11:40:18Z'
+    description: >-
+      A Model Context Protocol (MCP) server that empowers LLMs to use some of Open Srategy Partners' core writing and
+      product marketing techniques.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:24.978Z"
+    last_checked_at: '2026-07-20T16:42:24.978Z'
     readme:
-      fetched_at: "2026-07-20T16:42:24.978Z"
+      fetched_at: '2026-07-20T16:42:24.978Z'
       bytes: 8746
 insights:
-  summary: An MCP server that exposes Open Strategy Partners' product marketing methodologies, including value map generation, SEO metadata creation, and technical writing guides, to MCP-compatible LLM clients.
-  why_it_matters: It allows developers to apply structured marketing frameworks directly within their AI coding assistants to generate positioning docs, SEO metadata, and technical content.
-  mental_damage: We have successfully abstracted marketing strategy into a protocol server, meaning you can now prompt-engineer your way out of ever having to write a value proposition yourself.
+  summary: >-
+    An MCP server that exposes Open Strategy Partners' product marketing methodologies, including value map generation,
+    SEO metadata creation, and technical writing guides, to MCP-compatible LLM clients.
+  why_it_matters: >-
+    It allows developers to apply structured marketing frameworks directly within their AI coding assistants to generate
+    positioning docs, SEO metadata, and technical content.
+  mental_damage: >-
+    We have successfully abstracted marketing strategy into a protocol server, meaning you can now prompt-engineer your
+    way out of ever having to write a value proposition yourself.
   tags:
     - mcp
     - marketing
@@ -66,35 +82,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server providing marketing-specific tools, fitting the Domain Servers section of the MCP category.
+  reason: >-
+    The product is explicitly an MCP server providing marketing-specific tools, fitting the Domain Servers section of
+    the MCP category.
   evidence:
     - Repo description states it is 'A Model Context Protocol (MCP) server'.
-    - README lists features like 'OSP Product Value Map Generator' and 'OSP Meta Information Generator' as tools for LLMs.
+    - >-
+      README lists features like 'OSP Product Value Map Generator' and 'OSP Meta Information Generator' as tools for
+      LLMs.
     - Included in 'awesome-mcp-servers' under the Marketing section.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: promotion_candidate
   reason: Stars (264) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.591Z"
+    updated_at: '2026-05-06T22:12:15.591Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:24.978Z"
+    updated_at: '2026-07-20T16:42:24.978Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__crypto-news-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/crypto-news-mcp
         extracted_url: https://github.com/kukapay/crypto-news-mcp
-        surrounding_text: "- [kukapay/crypto-news-mcp](https://github.com/kukapay/crypto-news-mcp) 🐍 ☁️ - An MCP server that provides real-time cryptocurrency news sourced from NewsData for AI agents."
+        surrounding_text: >-
+          - [kukapay/crypto-news-mcp](https://github.com/kukapay/crypto-news-mcp) 🐍 ☁️ - An MCP server that provides
+          real-time cryptocurrency news sourced from NewsData for AI agents.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: kukapay/crypto-news-mcp
     html_url: https://github.com/kukapay/crypto-news-mcp
-    created_at: "2025-04-07T10:41:36Z"
-    pushed_at: "2025-12-10T10:47:52Z"
+    created_at: '2025-04-07T10:41:36Z'
+    pushed_at: '2025-12-10T10:47:52Z'
     description: An MCP server that provides real-time cryptocurrency news sourced from NewsData for AI agents.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:59.534Z"
+    last_checked_at: '2026-07-30T05:05:59.534Z'
     readme:
-      fetched_at: "2026-07-30T05:05:59.534Z"
+      fetched_at: '2026-07-30T05:05:59.534Z'
       bytes: 3729
 insights:
   summary: An MCP server that provides real-time cryptocurrency news from NewsData for AI agents.
-  why_it_matters: Developers can integrate live crypto news feeds into their AI agents or workflows without building the data pipeline themselves.
+  why_it_matters: >-
+    Developers can integrate live crypto news feeds into their AI agents or workflows without building the data pipeline
+    themselves.
   mental_damage: Now your AI agent can panic about Bitcoin ETFs in real-time, just like you do.
   tags:
     - mcp-server
@@ -51,31 +55,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server with domain-specific functionality (crypto news), making MCP its primary identity.
+  reason: >-
+    The product is explicitly an MCP server with domain-specific functionality (crypto news), making MCP its primary
+    identity.
   evidence:
     - Repo description states it is 'An MCP server that provides real-time cryptocurrency news'
     - README details MCP tools (`get_latest_news`, `get_crypto_news`) and installation via Smithery/MCP CLI
     - Project is actively maintained (pushed_at 2025-12-10)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:59.534Z"
+    updated_at: '2026-07-30T05:05:59.534Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:47.224Z"
+    updated_at: '2026-07-21T16:13:47.224Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +95,9 @@ processing:
       input_hash: sha256:22a6738aec1969e62004630171a9cc7364ba5a068a6fbeea1bea5b0a3647a2a9
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server with domain-specific functionality (crypto news), making MCP its primary identity.
+      decision_reason: >-
+        The product is explicitly an MCP server with domain-specific functionality (crypto news), making MCP its primary
+        identity.
       decision_evidence:
         - Repo description states it is 'An MCP server that provides real-time cryptocurrency news'
         - README details MCP tools (`get_latest_news`, `get_crypto_news`) and installation via Smithery/MCP CLI
@@ -96,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (domain-specific) rather than an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server (domain-specific) rather than an
+        extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

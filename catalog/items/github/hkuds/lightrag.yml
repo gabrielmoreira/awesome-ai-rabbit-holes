@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hkuds__lightrag__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,7 @@ provenance:
           - 知识库 RAG
         anchor_text: LightRAG
         extracted_url: https://github.com/hkuds/lightrag
-        surrounding_text: "21. [LightRAG](https://github.com/HKUDS/LightRAG): Simple and Fast Retrieval-Augmented Generation."
+        surrounding_text: '21. [LightRAG](https://github.com/HKUDS/LightRAG): Simple and Fast Retrieval-Augmented Generation.'
         confidence: high
 metadata:
   github:
@@ -29,9 +29,9 @@ metadata:
     archived: false
     full_name: HKUDS/LightRAG
     html_url: https://github.com/HKUDS/LightRAG
-    created_at: "2024-10-02T11:57:54Z"
-    pushed_at: "2026-07-30T03:57:56Z"
-    description: "[EMNLP2025] \"LightRAG: Simple and Fast Retrieval-Augmented Generation\""
+    created_at: '2024-10-02T11:57:54Z'
+    pushed_at: '2026-07-30T03:57:56Z'
+    description: '[EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation"'
     homepage: https://arxiv.org/abs/2410.05779
     topics:
       - genai
@@ -43,13 +43,17 @@ metadata:
       - llm
       - rag
       - retrieval-augmented-generation
-    last_checked_at: "2026-07-30T05:05:37.902Z"
+    last_checked_at: '2026-07-30T05:05:37.902Z'
     readme:
-      fetched_at: "2026-07-30T05:05:37.902Z"
+      fetched_at: '2026-07-30T05:05:37.902Z'
       bytes: 40208
 insights:
-  summary: LightRAG is a research-backed framework for simple and fast retrieval-augmented generation (RAG) with knowledge graph support.
-  why_it_matters: It provides developers with an efficient way to integrate RAG workflows into their applications, improving context-aware AI responses.
+  summary: >-
+    LightRAG is a research-backed framework for simple and fast retrieval-augmented generation (RAG) with knowledge
+    graph support.
+  why_it_matters: >-
+    It provides developers with an efficient way to integrate RAG workflows into their applications, improving
+    context-aware AI responses.
   mental_damage: Another RAG framework to add to the pile, because apparently we haven’t solved context retrieval yet.
   tags:
     - rag
@@ -60,31 +64,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: LightRAG is a code-first framework for RAG workflows, fitting the developer-tooling scope as a reusable building block for AI applications.
+  reason: >-
+    LightRAG is a code-first framework for RAG workflows, fitting the developer-tooling scope as a reusable building
+    block for AI applications.
   evidence:
-    - "Repo description identifies it as a RAG framework ('LightRAG: Simple and Fast Retrieval-Augmented Generation')"
+    - 'Repo description identifies it as a RAG framework (''LightRAG: Simple and Fast Retrieval-Augmented Generation'')'
     - Topics include 'rag', 'knowledge-graph', and 'llm', signaling a retrieval infrastructure focus
     - Source-list context places it under '知识库 RAG' (Knowledge Base RAG), reinforcing its RAG identity
 placement:
   primary_category: ai-frameworks
-  section: Memory / Retrieval Infrastructure
+  secondary_categories: []
+  section: Memory & Retrieval Infrastructure
 lifecycle:
   status: promotion_candidate
   reason: Stars (34816) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.619Z"
+    updated_at: '2026-05-06T22:12:15.619Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:37.902Z"
+    updated_at: '2026-07-30T05:05:37.902Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:05:46.904Z"
+    updated_at: '2026-07-21T16:05:46.904Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -97,14 +104,18 @@ processing:
       input_hash: sha256:2b58aac2fd0e96bf1abce02f7f96bddc844f31bad2613d9d97209a513e2d674c
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: LightRAG is a code-first framework for RAG workflows, fitting the developer-tooling scope as a reusable building block for AI applications.
+      decision_reason: >-
+        LightRAG is a code-first framework for RAG workflows, fitting the developer-tooling scope as a reusable building
+        block for AI applications.
       decision_evidence:
-        - "Repo description identifies it as a RAG framework ('LightRAG: Simple and Fast Retrieval-Augmented Generation')"
+        - 'Repo description identifies it as a RAG framework (''LightRAG: Simple and Fast Retrieval-Augmented Generation'')'
         - Topics include 'rag', 'knowledge-graph', and 'llm', signaling a retrieval infrastructure focus
         - Source-list context places it under '知识库 RAG' (Knowledge Base RAG), reinforcing its RAG identity
       category_candidates:
         - ai-frameworks
         - context-engineering
-      contrastive_reason: Choose ai-frameworks over context-engineering because LightRAG is primarily a code-first framework for building RAG systems, not just a context management tool.
+      contrastive_reason: >-
+        Choose ai-frameworks over context-engineering because LightRAG is primarily a code-first framework for building
+        RAG systems, not just a context management tool.
       review_reason: null
       review_resume_lifecycle: null

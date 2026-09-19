@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__blackwell-systems__agent-lsp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,16 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: blackwell-systems/agent-lsp
         extracted_url: https://github.com/blackwell-systems/agent-lsp
-        surrounding_text: "- [blackwell-systems/agent-lsp](https://github.com/blackwell-systems/agent-lsp) [![blackwell-systems/agent-lsp MCP server](https://glama.ai/mcp/servers/blackwell-systems/agent-lsp/badges/score.svg)](https://glama.ai/mcp/servers/blackwell-systems/agent-lsp) 🏎️ 🏠 🍎 🪟 🐧 - Stateful MCP server over real language servers. 50 tools, 30 CI-verified languages, 20 agent workflows. Persistent sessions keep the index warm across files and projects. Speculative execution simulates edits in memory before writing to disk."
+        surrounding_text: >-
+          - [blackwell-systems/agent-lsp](https://github.com/blackwell-systems/agent-lsp) [![blackwell-systems/agent-lsp
+          MCP
+          server](https://glama.ai/mcp/servers/blackwell-systems/agent-lsp/badges/score.svg)](https://glama.ai/mcp/servers/blackwell-systems/agent-lsp)
+          🏎️ 🏠 🍎 🪟 🐧 - Stateful MCP server over real language servers. 50 tools, 30 CI-verified languages, 20 agent
+          workflows. Persistent sessions keep the index warm across files and projects. Speculative execution simulates
+          edits in memory before writing to disk.
         confidence: high
     - id: discovery__github__blackwell-systems__agent-lsp__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-18T05:26:15.344Z"
+      discovered_at: '2026-05-18T05:26:15.344Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -36,7 +42,11 @@ provenance:
           - Agent infrastructure
         anchor_text: agent-lsp
         extracted_url: https://github.com/blackwell-systems/agent-lsp
-        surrounding_text: "- **[agent-lsp](https://github.com/blackwell-systems/agent-lsp)** `⭐ 25` — MCP server giving any CLI coding agent type-aware language intelligence: 50+ LSP tools, speculative execution (preview edits without touching disk), 21 skills, 30 CI-verified languages. Measured 5–34× token savings vs grep/read. Works with Claude Code, Codex, Gemini CLI, Goose, and any MCP client. Go, MIT."
+        surrounding_text: >-
+          - **[agent-lsp](https://github.com/blackwell-systems/agent-lsp)** `⭐ 25` — MCP server giving any CLI coding
+          agent type-aware language intelligence: 50+ LSP tools, speculative execution (preview edits without touching
+          disk), 21 skills, 30 CI-verified languages. Measured 5–34× token savings vs grep/read. Works with Claude Code,
+          Codex, Gemini CLI, Goose, and any MCP client. Go, MIT.
         confidence: high
 metadata:
   github:
@@ -46,8 +56,8 @@ metadata:
     archived: false
     full_name: blackwell-systems/agent-lsp
     html_url: https://github.com/blackwell-systems/agent-lsp
-    created_at: "2026-04-06T16:38:40Z"
-    pushed_at: "2026-09-07T03:29:57Z"
+    created_at: '2026-04-06T16:38:40Z'
+    pushed_at: '2026-09-07T03:29:57Z'
     description: MCP server that orchestrates language servers into agent-native workflows. 65 tools, 30 CI-verified languages.
     homepage: http://www.agent-lsp.com/
     topics:
@@ -70,13 +80,15 @@ metadata:
       - rust
       - static-analysis
       - typescript
-    last_checked_at: "2026-09-07T04:13:35.194Z"
+    last_checked_at: '2026-09-07T04:13:35.194Z'
     readme:
-      fetched_at: "2026-09-07T04:13:35.194Z"
+      fetched_at: '2026-09-07T04:13:35.194Z'
       bytes: 24788
 insights:
   summary: MCP server that bridges language servers with AI agents, providing stateful code intelligence and workflow tools.
-  why_it_matters: It gives AI agents accurate, context-aware code analysis by leveraging real language servers, reducing incorrect edits and token usage.
+  why_it_matters: >-
+    It gives AI agents accurate, context-aware code analysis by leveraging real language servers, reducing incorrect
+    edits and token usage.
   mental_damage: Finally, an MCP server that doesn’t just pretend to understand your codebase.
   tags:
     - mcp
@@ -89,29 +101,30 @@ curation:
   status: included
   reason: MCP is the core product identity, with the server explicitly designed to bridge LSP and agent workflows.
   evidence:
-    - "Repo description: 'MCP server that orchestrates language servers into agent-native workflows'"
-    - "README: 'agent-lsp is a stateful runtime over real language servers' with MCP as the primary protocol"
+    - 'Repo description: ''MCP server that orchestrates language servers into agent-native workflows'''
+    - 'README: ''agent-lsp is a stateful runtime over real language servers'' with MCP as the primary protocol'
     - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-18T05:26:15.345Z"
+    updated_at: '2026-05-18T05:26:15.345Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:35.194Z"
+    updated_at: '2026-09-07T04:13:35.194Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:26:14.807Z"
+    updated_at: '2026-07-21T15:26:14.807Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -126,12 +139,14 @@ processing:
       disagreement: false
       decision_reason: MCP is the core product identity, with the server explicitly designed to bridge LSP and agent workflows.
       decision_evidence:
-        - "Repo description: 'MCP server that orchestrates language servers into agent-native workflows'"
-        - "README: 'agent-lsp is a stateful runtime over real language servers' with MCP as the primary protocol"
+        - 'Repo description: ''MCP server that orchestrates language servers into agent-native workflows'''
+        - 'README: ''agent-lsp is a stateful runtime over real language servers'' with MCP as the primary protocol'
         - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension
+        for another assistant.
       review_reason: null
       review_resume_lifecycle: null

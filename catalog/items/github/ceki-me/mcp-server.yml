@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ceki-me__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-30T05:05:26.992Z"
+      discovered_at: '2026-07-30T05:05:26.992Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: Ceki-me/mcp-server
         extracted_url: https://github.com/ceki-me/mcp-server
-        surrounding_text: "- [Ceki-me/mcp-server](https://github.com/Ceki-me/mcp-server) [![Ceki-me/mcp-server MCP server](https://glama.ai/mcp/servers/@Ceki-me/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/@Ceki-me/mcp-server) 📇 ☁️ - Rent real residential Chrome browsers from real humans — per-minute billing ($0.01/min), real fingerprints, residential IPs, no datacenter signals. MCP-native, with SDKs for Python, JS, LangChain, CrewAI, n8n. Crypto payouts."
+        surrounding_text: >-
+          - [Ceki-me/mcp-server](https://github.com/Ceki-me/mcp-server) [![Ceki-me/mcp-server MCP
+          server](https://glama.ai/mcp/servers/@Ceki-me/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/@Ceki-me/mcp-server)
+          📇 ☁️ - Rent real residential Chrome browsers from real humans — per-minute billing ($0.01/min), real
+          fingerprints, residential IPs, no datacenter signals. MCP-native, with SDKs for Python, JS, LangChain, CrewAI,
+          n8n. Crypto payouts.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: Ceki-me/mcp-server
     html_url: https://github.com/Ceki-me/mcp-server
-    created_at: "2026-05-13T13:17:26Z"
-    pushed_at: "2026-07-27T12:34:36Z"
-    description: Ceki MCP Server — rent real residential Chrome browsers from peers (real fingerprints, residential IPs, per-minute crypto billing). Also hire specialists, post jobs.
+    created_at: '2026-05-13T13:17:26Z'
+    pushed_at: '2026-07-27T12:34:36Z'
+    description: >-
+      Ceki MCP Server — rent real residential Chrome browsers from peers (real fingerprints, residential IPs, per-minute
+      crypto billing). Also hire specialists, post jobs.
     homepage: https://ceki.me/mcp
     topics:
       - ai-agents
@@ -45,14 +52,20 @@ metadata:
       - mcp-server
       - model-context-protocol
       - streamable-http
-    last_checked_at: "2026-09-07T04:13:42.662Z"
+    last_checked_at: '2026-09-07T04:13:42.662Z'
     readme:
-      fetched_at: "2026-09-07T04:13:42.662Z"
+      fetched_at: '2026-09-07T04:13:42.662Z'
       bytes: 11745
 insights:
-  summary: An MCP server providing agents with access to a marketplace for renting real residential Chrome browsers and hiring human specialists.
-  why_it_matters: It enables agents to bypass sophisticated anti-bot protections by utilizing real residential IPs and human-hosted browser sessions.
-  mental_damage: The final evolutionary step for web scraping is apparently paying a stranger in crypto to let an LLM hijack their residential IP.
+  summary: >-
+    An MCP server providing agents with access to a marketplace for renting real residential Chrome browsers and hiring
+    human specialists.
+  why_it_matters: >-
+    It enables agents to bypass sophisticated anti-bot protections by utilizing real residential IPs and human-hosted
+    browser sessions.
+  mental_damage: >-
+    The final evolutionary step for web scraping is apparently paying a stranger in crypto to let an LLM hijack their
+    residential IP.
   tags:
     - mcp
     - browser-automation
@@ -61,31 +74,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is a domain-specific server that uses the Model Context Protocol to expose marketplace services to AI agents.
+  reason: >-
+    The project is a domain-specific server that uses the Model Context Protocol to expose marketplace services to AI
+    agents.
   evidence:
     - README describes it as the agent-side interface to the Ceki marketplace
     - Provides tools for renting residential Chrome browsers and hiring human specialists
     - Supports Claude Desktop, Claude Code, and Cursor via MCP
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-30T05:05:26.994Z"
+    updated_at: '2026-07-30T05:05:26.994Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:42.662Z"
+    updated_at: '2026-09-07T04:13:42.662Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:21:36.826Z"
+    updated_at: '2026-08-27T06:21:36.826Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,7 +112,9 @@ processing:
       input_hash: sha256:ca40c9b3a4f0d35ed8165479b59e57481bb5e509eb2a4dfa0171e9ef2225cca2
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is a domain-specific server that uses the Model Context Protocol to expose marketplace services to AI agents.
+      decision_reason: >-
+        The project is a domain-specific server that uses the Model Context Protocol to expose marketplace services to
+        AI agents.
       decision_evidence:
         - README describes it as the agent-side interface to the Ceki marketplace
         - Provides tools for renting residential Chrome browsers and hiring human specialists
@@ -104,7 +122,9 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because it is a domain-specific server implementing the protocol, much like the canonical playwright-mcp.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because it is a domain-specific server implementing the protocol, much like
+        the canonical playwright-mcp.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__diivi__aseprite-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: diivi/aseprite-mcp
         extracted_url: https://github.com/diivi/aseprite-mcp
-        surrounding_text: "- [diivi/aseprite-mcp](https://github.com/diivi/aseprite-mcp) 🐍 🏠 - MCP server using the Aseprite API to create pixel art"
+        surrounding_text: >-
+          - [diivi/aseprite-mcp](https://github.com/diivi/aseprite-mcp) 🐍 🏠 - MCP server using the Aseprite API to
+          create pixel art
         confidence: high
 metadata:
   github:
@@ -30,19 +32,23 @@ metadata:
     archived: false
     full_name: diivi/aseprite-mcp
     html_url: https://github.com/diivi/aseprite-mcp
-    created_at: "2025-04-05T21:55:18Z"
-    pushed_at: "2026-07-29T21:22:29Z"
+    created_at: '2025-04-05T21:55:18Z'
+    pushed_at: '2026-07-29T21:22:29Z'
     description: MCP server for interacting with the Aseprite API
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:40.600Z"
+    last_checked_at: '2026-09-14T04:13:40.600Z'
     readme:
-      fetched_at: "2026-09-14T04:13:40.600Z"
+      fetched_at: '2026-09-14T04:13:40.600Z'
       bytes: 16995
 insights:
   summary: An MCP server that enables interaction with the Aseprite API.
-  why_it_matters: It allows AI coding assistants like Cursor to directly manipulate pixel art within Aseprite via the Model Context Protocol.
-  mental_damage: Because clearly, your primary bottleneck in development was the manual labor of pixel-pushing that an LLM could now do for you.
+  why_it_matters: >-
+    It allows AI coding assistants like Cursor to directly manipulate pixel art within Aseprite via the Model Context
+    Protocol.
+  mental_damage: >-
+    Because clearly, your primary bottleneck in development was the manual labor of pixel-pushing that an LLM could now
+    do for you.
   tags:
     - mcp
     - aseprite
@@ -57,25 +63,26 @@ curation:
     - Repo description identifies it as an 'MCP server for interacting with the Aseprite API'
     - README provides specific MCP configuration for integration with Cursor
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: API & Service Integrations
 lifecycle:
   status: promotion_candidate
   reason: Stars (160) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.611Z"
+    updated_at: '2026-05-06T22:12:15.611Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:40.600Z"
+    updated_at: '2026-09-14T04:13:40.600Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:00.666Z"
+    updated_at: '2026-07-21T15:51:00.666Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -95,6 +102,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is the MCP server itself rather than a host-side extension or wrapper.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is the MCP server itself rather than a host-side
+        extension or wrapper.
       review_reason: null
       review_resume_lifecycle: null

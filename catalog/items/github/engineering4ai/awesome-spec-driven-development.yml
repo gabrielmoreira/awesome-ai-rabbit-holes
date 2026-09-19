@@ -6,8 +6,9 @@ identity:
   github_repo: engineering4ai/awesome-spec-driven-development
 provenance:
   discoveries:
-    - id: discovery__github__engineering4ai__awesome-spec-driven-development__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-06T22:12:15.572Z"
+    - id: >-
+        discovery__github__engineering4ai__awesome-spec-driven-development__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -29,22 +30,24 @@ metadata:
     archived: false
     full_name: Engineering4AI/awesome-spec-driven-development
     html_url: https://github.com/Engineering4AI/awesome-spec-driven-development
-    created_at: "2025-11-27T03:20:51Z"
-    pushed_at: "2026-08-23T18:39:36Z"
+    created_at: '2025-11-27T03:20:51Z'
+    pushed_at: '2026-08-23T18:39:36Z'
     description: A curated list of awesome resources for spec-driven development (SDD)
-    homepage: ""
+    homepage: ''
     topics:
       - ai-assistant
       - software-engineering
       - spec-driven-development
       - vibe-coding
-    last_checked_at: "2026-08-27T09:23:23.792Z"
+    last_checked_at: '2026-08-27T09:23:23.792Z'
     readme:
-      fetched_at: "2026-08-27T09:23:23.792Z"
+      fetched_at: '2026-08-27T09:23:23.792Z'
       bytes: 12292
 insights:
   summary: A curated list of tools and resources for spec-driven development (SDD).
-  why_it_matters: Helps developers discover frameworks, standards, and workflows for writing specifications first to improve alignment, testing, and documentation in AI-assisted development.
+  why_it_matters: >-
+    Helps developers discover frameworks, standards, and workflows for writing specifications first to improve
+    alignment, testing, and documentation in AI-assisted development.
   mental_damage: Because nothing says 'productive' like arguing with an LLM about whether your spec is *actually* a spec.
   tags:
     - spec-driven-development
@@ -53,34 +56,33 @@ insights:
     - developer-tooling
   confidence: high
 curation:
-  status: included
-  reason: This is a curated directory of SDD resources, which fits the catalog's scope as a navigation aid for developers exploring spec-first tooling.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Repo description explicitly states it is a curated list for spec-driven development
-    - README confirms it aggregates tools, standards, and frameworks for SDD
-    - Source-list context marks it as a direct awesome list
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (160) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.573Z"
+    updated_at: '2026-05-06T22:12:15.573Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-14T04:13:49.368Z"
+    updated_at: '2026-09-14T04:13:49.368Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for engineering4ai/awesome-spec-driven-development
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:52:26.199Z"
+    updated_at: '2026-07-21T15:52:26.199Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -93,7 +95,9 @@ processing:
       input_hash: sha256:5b7cbd2f9bf93bff1661ced6ef1647347d80b80e03b3e97b19d613147ab6c151
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: This is a curated directory of SDD resources, which fits the catalog's scope as a navigation aid for developers exploring spec-first tooling.
+      decision_reason: >-
+        This is a curated directory of SDD resources, which fits the catalog's scope as a navigation aid for developers
+        exploring spec-first tooling.
       decision_evidence:
         - Repo description explicitly states it is a curated list for spec-driven development
         - README confirms it aggregates tools, standards, and frameworks for SDD
@@ -101,6 +105,8 @@ processing:
       category_candidates:
         - awesome-awesomes
         - spec-driven-development
-      contrastive_reason: Choose awesome-awesomes over spec-driven-development because the primary value is discovery and navigation of the ecosystem rather than delivering a standalone spec-first tool.
+      contrastive_reason: >-
+        Choose awesome-awesomes over spec-driven-development because the primary value is discovery and navigation of
+        the ecosystem rather than delivering a standalone spec-first tool.
       review_reason: null
       review_resume_lifecycle: null

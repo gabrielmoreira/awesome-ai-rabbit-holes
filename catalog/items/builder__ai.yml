@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__builder__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - App Builders
         anchor_text: Builder.ai
         extracted_url: https://builder.ai
-        surrounding_text: "- **[Builder.ai](https://www.builder.ai/)** – AI-driven custom software development for web and mobile."
+        surrounding_text: '- **[Builder.ai](https://www.builder.ai/)** – AI-driven custom software development for web and mobile.'
         confidence: high
     - id: discovery__www__builder__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - App Builders
         anchor_text: Builder.ai
         extracted_url: https://www.builder.ai
-        surrounding_text: "- **[Builder.ai](https://www.builder.ai/)** – AI-driven custom software development for web and mobile."
+        surrounding_text: '- **[Builder.ai](https://www.builder.ai/)** – AI-driven custom software development for web and mobile.'
         confidence: high
 metadata:
   github:
@@ -52,7 +52,9 @@ metadata:
     readme: null
 insights:
   summary: Builder.ai is a platform for generating and deploying apps from prompts.
-  why_it_matters: It allows developers to create apps, sites, or internal tools by describing what they want in natural language, reducing the need for manual coding.
+  why_it_matters: >-
+    It allows developers to create apps, sites, or internal tools by describing what they want in natural language,
+    reducing the need for manual coding.
   mental_damage: Finally, a way to turn your half-baked app idea into a half-baked app.
   tags:
     - app-builder
@@ -68,14 +70,15 @@ curation:
     - Primary product identity is prompt-to-app generation
 placement:
   primary_category: app-builders
-  section: Prompt-to-App Builders
+  secondary_categories: []
+  section: Full App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:32:53.472Z"
+    updated_at: '2026-07-21T15:32:53.472Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -95,12 +98,14 @@ processing:
       category_candidates:
         - app-builders
         - ai-frameworks
-      contrastive_reason: Choose app-builders over ai-frameworks because the main surface is prompt-to-app generation rather than a code-first SDK or library.
+      contrastive_reason: >-
+        Choose app-builders over ai-frameworks because the main surface is prompt-to-app generation rather than a
+        code-first SDK or library.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.963Z"
+    updated_at: '2026-07-21T15:20:21.963Z'
     cause: null
     next_retry_at: null
   stars:

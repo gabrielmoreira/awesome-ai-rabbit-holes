@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bright8192__esxi-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: bright8192/esxi-mcp-server
         extracted_url: https://github.com/bright8192/esxi-mcp-server
-        surrounding_text: "- [bright8192/esxi-mcp-server](https://github.com/bright8192/esxi-mcp-server) 🐍 ☁️ - A VMware ESXi/vCenter management server based on MCP (Model Control Protocol), providing simple REST API interfaces for virtual machine management."
+        surrounding_text: >-
+          - [bright8192/esxi-mcp-server](https://github.com/bright8192/esxi-mcp-server) 🐍 ☁️ - A VMware ESXi/vCenter
+          management server based on MCP (Model Control Protocol), providing simple REST API interfaces for virtual
+          machine management.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,24 @@ metadata:
     archived: false
     full_name: bright8192/esxi-mcp-server
     html_url: https://github.com/bright8192/esxi-mcp-server
-    created_at: "2025-03-13T09:10:33Z"
-    pushed_at: "2025-07-01T09:22:52Z"
-    description: A VMware ESXi/vCenter management server based on MCP (Model Control Protocol), providing simple REST API interfaces for virtual machine management.
-    homepage: ""
+    created_at: '2025-03-13T09:10:33Z'
+    pushed_at: '2025-07-01T09:22:52Z'
+    description: >-
+      A VMware ESXi/vCenter management server based on MCP (Model Control Protocol), providing simple REST API
+      interfaces for virtual machine management.
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-07T04:13:37.634Z"
+    last_checked_at: '2026-09-07T04:13:37.634Z'
     readme:
-      fetched_at: "2026-09-07T04:13:37.634Z"
+      fetched_at: '2026-09-07T04:13:37.634Z'
       bytes: 3905
 insights:
-  summary: A VMware ESXi/vCenter management server built on MCP, exposing REST API interfaces for virtual machine lifecycle and performance monitoring.
-  why_it_matters: Lets developers integrate VMware infrastructure management directly into MCP-compatible workflows, enabling programmatic control of VMs from AI agents or tools.
+  summary: >-
+    A VMware ESXi/vCenter management server built on MCP, exposing REST API interfaces for virtual machine lifecycle and
+    performance monitoring.
+  why_it_matters: >-
+    Lets developers integrate VMware infrastructure management directly into MCP-compatible workflows, enabling
+    programmatic control of VMs from AI agents or tools.
   mental_damage: Now your AI agent can spin up VMs while you're still trying to remember your vCenter password.
   tags:
     - mcp
@@ -59,24 +68,25 @@ curation:
     - Already listed in awesome-mcp-servers under Cloud Platforms
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.606Z"
+    updated_at: '2026-05-06T22:12:15.606Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:37.634Z"
+    updated_at: '2026-09-07T04:13:37.634Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:26:49.390Z"
+    updated_at: '2026-07-21T15:26:49.390Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +99,9 @@ processing:
       input_hash: sha256:d140360e2ed4c903b8dd9a456634fcf4325b367fa3310e9ad35cfdbc1b983231
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the product identity here—a server implementation exposing VMware management capabilities via MCP protocol.
+      decision_reason: >-
+        MCP is the product identity here—a server implementation exposing VMware management capabilities via MCP
+        protocol.
       decision_evidence:
         - Repo description explicitly states it is an MCP-based server for ESXi/vCenter management
         - README details MCP-specific implementation (SSE, JSON-RPC, tool interfaces)
@@ -97,6 +109,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server implementation, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server implementation, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

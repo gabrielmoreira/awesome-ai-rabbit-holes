@@ -5,8 +5,9 @@ canonical_url: https://developers.getknit.dev/docs/knit-mcp-server-getting-start
 identity: {}
 provenance:
   discoveries:
-    - id: discovery__developers__getknit__dev__docs__knit__mcp__server__getting__started__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+    - id: >-
+        discovery__developers__getknit__dev__docs__knit__mcp__server__getting__started__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: Knit MCP
         extracted_url: https://developers.getknit.dev/docs/knit-mcp-server-getting-started
-        surrounding_text: "- **[Knit MCP](https://developers.getknit.dev/docs/knit-mcp-server-getting-started)** - Connect with 10,000+ tools across HRIS, ATS, CRM, Accounting, Calendar, Meeting, Ticketing, and more categories."
+        surrounding_text: >-
+          - **[Knit MCP](https://developers.getknit.dev/docs/knit-mcp-server-getting-started)** - Connect with 10,000+
+          tools across HRIS, ATS, CRM, Accounting, Calendar, Meeting, Ticketing, and more categories.
         confidence: high
 metadata:
   github:
@@ -36,9 +39,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A managed service that provides hosted Model Context Protocol (MCP) servers for connecting AI agents to various SaaS applications.
-  why_it_matters: It allows developers to quickly grant AI agents access to a vast array of enterprise tools like Salesforce, HubSpot, and Jira without writing custom integration code for each one.
-  mental_damage: Now you have to manage a centralized hub of third-party connectors just to keep your agents from being trapped in a context-less vacuum.
+  summary: >-
+    A managed service that provides hosted Model Context Protocol (MCP) servers for connecting AI agents to various SaaS
+    applications.
+  why_it_matters: >-
+    It allows developers to quickly grant AI agents access to a vast array of enterprise tools like Salesforce, HubSpot,
+    and Jira without writing custom integration code for each one.
+  mental_damage: >-
+    Now you have to manage a centralized hub of third-party connectors just to keep your agents from being trapped in a
+    context-less vacuum.
   tags:
     - mcp
     - saas-integrations
@@ -46,22 +55,21 @@ insights:
     - connectivity
   confidence: high
 curation:
-  status: included
-  reason: The product's core identity is serving as a managed hub of MCP servers to facilitate agent-to-SaaS connectivity.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Directly describes itself as an 'MCP Hub for AI Agents'
-    - Provides a marketplace-style selection of tools (CRM, Accounting, HRIS) to package into an MCP server
-    - Supports deployment to Claude, Cursor, and Windsurf via MCP
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: mcp
-  section: Generic Servers & Middleware
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.660Z"
+    updated_at: '2026-05-06T22:12:15.660Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +78,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:37:16.220Z"
+    updated_at: '2026-07-20T15:37:16.220Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -91,6 +99,8 @@ processing:
       category_candidates:
         - mcp
         - agent-orchestration
-      contrastive_reason: Choose mcp over agent-orchestration because the primary product identity is the provision of MCP-compliant servers and middleware rather than an operated multi-agent workbench.
+      contrastive_reason: >-
+        Choose mcp over agent-orchestration because the primary product identity is the provision of MCP-compliant
+        servers and middleware rather than an operated multi-agent workbench.
       review_reason: null
       review_resume_lifecycle: null

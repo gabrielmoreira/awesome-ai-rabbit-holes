@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__stravu__crystal__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Session managers & parallel runners
         anchor_text: Crystal
         extracted_url: https://github.com/stravu/crystal
-        surrounding_text: "- **[Crystal](https://github.com/stravu/crystal)** `⭐ 3k` — Execute multiple Codex and Claude Code sessions in parallel git worktrees."
+        surrounding_text: >-
+          - **[Crystal](https://github.com/stravu/crystal)** `⭐ 3k` — Execute multiple Codex and Claude Code sessions in
+          parallel git worktrees.
         confidence: high
 metadata:
   github:
@@ -30,9 +32,11 @@ metadata:
     archived: false
     full_name: stravu/crystal
     html_url: https://github.com/stravu/crystal
-    created_at: "2025-06-05T23:54:39Z"
-    pushed_at: "2026-02-26T21:48:10Z"
-    description: (Crystal is now Nimbalyst) Run multiple Codex and Claude Code AI sessions in parallel git worktrees. Test, compare approaches & manage AI-assisted development workflows in one desktop app.
+    created_at: '2025-06-05T23:54:39Z'
+    pushed_at: '2026-02-26T21:48:10Z'
+    description: >-
+      (Crystal is now Nimbalyst) Run multiple Codex and Claude Code AI sessions in parallel git worktrees. Test, compare
+      approaches & manage AI-assisted development workflows in one desktop app.
     homepage: https://nimbalyst.com/
     topics:
       - agentic-ai
@@ -48,14 +52,20 @@ metadata:
       - llm-coding
       - openai-codex
       - vibe-coding
-    last_checked_at: "2026-07-20T16:43:04.156Z"
+    last_checked_at: '2026-07-20T16:43:04.156Z'
     readme:
-      fetched_at: "2026-07-20T16:43:04.156Z"
+      fetched_at: '2026-07-20T16:43:04.156Z'
       bytes: 2564
 insights:
-  summary: Crystal is a desktop app that runs multiple Codex and Claude Code sessions in parallel git worktrees, now deprecated in favor of Nimbalyst.
-  why_it_matters: It lets developers test and compare different AI coding approaches across isolated git worktrees without manually juggling terminals and contexts.
-  mental_damage: A desktop app built to manage the cognitive overhead of running multiple AI coding agents in parallel, which is itself being replaced by a newer desktop app that will likely need its own desktop app to manage it.
+  summary: >-
+    Crystal is a desktop app that runs multiple Codex and Claude Code sessions in parallel git worktrees, now deprecated
+    in favor of Nimbalyst.
+  why_it_matters: >-
+    It lets developers test and compare different AI coding approaches across isolated git worktrees without manually
+    juggling terminals and contexts.
+  mental_damage: >-
+    A desktop app built to manage the cognitive overhead of running multiple AI coding agents in parallel, which is
+    itself being replaced by a newer desktop app that will likely need its own desktop app to manage it.
   tags:
     - parallel-agents
     - git-worktrees
@@ -65,35 +75,42 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool is a desktop workbench for coordinating multiple coding agent sessions (Codex, Claude Code) across parallel git worktrees, which aligns with agent orchestration workbenches rather than being a coding agent itself.
+  reason: >-
+    The tool is a desktop workbench for coordinating multiple coding agent sessions (Codex, Claude Code) across parallel
+    git worktrees, which aligns with agent orchestration workbenches rather than being a coding agent itself.
   evidence:
-    - Repo description states it runs multiple Codex and Claude Code sessions in parallel git worktrees via a desktop app.
+    - >-
+      Repo description states it runs multiple Codex and Claude Code sessions in parallel git worktrees via a desktop
+      app.
     - Source list places it in 'Harnesses & orchestration > Session managers & parallel runners'.
-    - README confirms it is deprecated in favor of Nimbalyst, an 'AI-native workspace' and 'code-aware agent orchestration' platform.
+    - >-
+      README confirms it is deprecated in favor of Nimbalyst, an 'AI-native workspace' and 'code-aware agent
+      orchestration' platform.
 placement:
   primary_category: agent-orchestration
-  section: Workbenches & Collaboration Surfaces
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (3045) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.649Z"
+    updated_at: '2026-05-06T22:12:15.649Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:43:04.156Z"
+    updated_at: '2026-07-20T16:43:04.156Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

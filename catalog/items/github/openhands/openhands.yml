@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__openhands__openhands__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,13 @@ provenance:
           - Open Source
         anchor_text: OpenHands
         extracted_url: https://github.com/all-hands-ai/openhands
-        surrounding_text: "- **[OpenHands](https://github.com/All-Hands-AI/OpenHands)** `⭐ 72.6k` — Open-source agentic developer environment (formerly OpenDevin) with CLI and web entrypoints; also has a lightweight [CLI-only package](https://github.com/OpenHands/OpenHands-CLI)."
+        surrounding_text: >-
+          - **[OpenHands](https://github.com/All-Hands-AI/OpenHands)** `⭐ 72.6k` — Open-source agentic developer
+          environment (formerly OpenDevin) with CLI and web entrypoints; also has a lightweight [CLI-only
+          package](https://github.com/OpenHands/OpenHands-CLI).
         confidence: high
     - id: discovery__github__openhands__openhands__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -35,7 +38,7 @@ provenance:
           - OpenDevin
         anchor_text: OpenDevin
         extracted_url: https://github.com/opendevin/opendevin
-        surrounding_text: "## [OpenDevin](https://github.com/OpenDevin/OpenDevin)"
+        surrounding_text: '## [OpenDevin](https://github.com/OpenDevin/OpenDevin)'
         confidence: high
 metadata:
   github:
@@ -45,9 +48,9 @@ metadata:
     archived: false
     full_name: OpenHands/OpenHands
     html_url: https://github.com/OpenHands/OpenHands
-    created_at: "2024-03-13T03:33:31Z"
-    pushed_at: "2026-07-20T15:56:19Z"
-    description: "🙌 OpenHands: AI-Driven Development"
+    created_at: '2024-03-13T03:33:31Z'
+    pushed_at: '2026-07-20T15:56:19Z'
+    description: '🙌 OpenHands: AI-Driven Development'
     homepage: https://openhands.dev
     topics:
       - agent
@@ -59,14 +62,20 @@ metadata:
       - gpt
       - llm
       - openai
-    last_checked_at: "2026-07-20T16:42:26.732Z"
+    last_checked_at: '2026-07-20T16:42:26.732Z'
     readme:
-      fetched_at: "2026-07-20T16:42:26.732Z"
+      fetched_at: '2026-07-20T16:42:26.732Z'
       bytes: 8497
 insights:
-  summary: OpenHands is an AI-driven development platform providing a Python SDK, CLI, and local/cloud GUI to plan, write, and debug code across repositories using various LLMs.
-  why_it_matters: It offers developers a flexible, model-agnostic alternative to proprietary coding agents like Devin and Claude Code, with options ranging from terminal-native CLI usage to enterprise self-hosting.
-  mental_damage: Yet another 'Devin competitor' where the main challenge isn't the code generation, but deciding which of the 72,000 stars in your toolchain you actually trust to push to main.
+  summary: >-
+    OpenHands is an AI-driven development platform providing a Python SDK, CLI, and local/cloud GUI to plan, write, and
+    debug code across repositories using various LLMs.
+  why_it_matters: >-
+    It offers developers a flexible, model-agnostic alternative to proprietary coding agents like Devin and Claude Code,
+    with options ranging from terminal-native CLI usage to enterprise self-hosting.
+  mental_damage: >-
+    Yet another 'Devin competitor' where the main challenge isn't the code generation, but deciding which of the 72,000
+    stars in your toolchain you actually trust to push to main.
   tags:
     - coding-agent
     - cli
@@ -76,35 +85,42 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a primary coding assistant (CLI, GUI, Cloud) that developers delegate repo work to, fitting the 'Terminal & CLI Agents' profile better than a framework or extension.
+  reason: >-
+    The product is a primary coding assistant (CLI, GUI, Cloud) that developers delegate repo work to, fitting the
+    'Terminal & CLI Agents' profile better than a framework or extension.
   evidence:
-    - Repo description identifies it as 'AI-Driven Development' and source lists classify it as a 'Terminal-native coding agent'.
-    - README explicitly compares the CLI experience to Claude Code and the GUI to Devin/Jules, confirming its identity as a primary assistant.
+    - >-
+      Repo description identifies it as 'AI-Driven Development' and source lists classify it as a 'Terminal-native
+      coding agent'.
+    - >-
+      README explicitly compares the CLI experience to Claude Code and the GUI to Devin/Jules, confirming its identity
+      as a primary assistant.
     - High traction with 72,759 stars and active development (pushed 2026-05-06) confirms ecosystem relevance.
 placement:
   primary_category: coding-agents
-  section: Terminal & CLI Agents
+  secondary_categories: []
+  section: Autonomous & Multi-Agent Coding
 lifecycle:
   status: promotion_candidate
   reason: Stars (72759) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.591Z"
+    updated_at: '2026-05-06T22:12:15.591Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:26.732Z"
+    updated_at: '2026-07-20T16:42:26.732Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

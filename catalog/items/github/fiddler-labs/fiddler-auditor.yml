@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__fiddler-labs__fiddler-auditor__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - Observability
         anchor_text: Fiddler AI
         extracted_url: https://github.com/fiddler-labs/fiddler-auditor
-        surrounding_text: "| [Fiddler AI](https://github.com/fiddler-labs/fiddler-auditor)                  | Evaluate, monitor, analyze, and improve machine learning and generative models from pre-production to production. Ship more ML and LLMs into production, and monitor ML and LLM metrics like hallucination, PII, and toxicity. | ![GitHub Badge](https://img.shields.io/github/stars/fiddler-labs/fiddler-auditor.svg?style=flat-square)          |"
+        surrounding_text: >-
+          | [Fiddler AI](https://github.com/fiddler-labs/fiddler-auditor)                  | Evaluate, monitor, analyze,
+          and improve machine learning and generative models from pre-production to production. Ship more ML and LLMs
+          into production, and monitor ML and LLM metrics like hallucination, PII, and toxicity. | ![GitHub
+          Badge](https://img.shields.io/github/stars/fiddler-labs/fiddler-auditor.svg?style=flat-square)          |
         confidence: high
 metadata:
   github:
@@ -30,10 +34,10 @@ metadata:
     archived: false
     full_name: fiddler-labs/fiddler-auditor
     html_url: https://github.com/fiddler-labs/fiddler-auditor
-    created_at: "2023-05-18T22:58:28Z"
-    pushed_at: "2024-03-11T02:49:45Z"
+    created_at: '2023-05-18T22:58:28Z'
+    pushed_at: '2024-03-11T02:49:45Z'
     description: Fiddler Auditor is a tool to evaluate language models.
-    homepage: ""
+    homepage: ''
     topics:
       - ai-observability
       - evaluation
@@ -42,14 +46,18 @@ metadata:
       - llms
       - nlp
       - robustness
-    last_checked_at: "2026-08-27T09:23:30.383Z"
+    last_checked_at: '2026-08-27T09:23:30.383Z'
     readme:
-      fetched_at: "2026-08-27T09:23:30.383Z"
+      fetched_at: '2026-08-27T09:23:30.383Z'
       bytes: 4483
 insights:
   summary: Fiddler Auditor is a tool designed to evaluate and audit the performance and safety of large language models.
-  why_it_matters: It helps developers identify hallucinations, adversarial vulnerabilities, and private data leaks before deploying models into production.
-  mental_damage: Nothing prepares you for the existential dread of running a red-teaming script against your own production-ready agent.
+  why_it_matters: >-
+    It helps developers identify hallucinations, adversarial vulnerabilities, and private data leaks before deploying
+    models into production.
+  mental_damage: >-
+    Nothing prepares you for the existential dread of running a red-teaming script against your own production-ready
+    agent.
   tags:
     - evaluation
     - llm-observability
@@ -58,31 +66,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's core functionality is measuring model behavior, testing for adversarial outcomes, and performing quality audits.
+  reason: >-
+    The tool's core functionality is measuring model behavior, testing for adversarial outcomes, and performing quality
+    audits.
   evidence:
     - README claims it enables you to test LLMs and identify weaknesses
     - Features include red-teaming with prompt perturbation and custom evaluation metrics
     - Repo description defines it as a tool to evaluate language models
 placement:
   primary_category: evals
-  section: Safety / Fairness / Data Quality
+  secondary_categories: []
+  section: Safety, Fairness & Red-teaming
 lifecycle:
   status: promotion_candidate
   reason: Stars (191) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.614Z"
+    updated_at: '2026-05-06T22:12:15.614Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:30.383Z"
+    updated_at: '2026-08-27T09:23:30.383Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:56:37.794Z"
+    updated_at: '2026-07-21T15:56:37.794Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -95,7 +106,9 @@ processing:
       input_hash: sha256:5a11d2b1ea8a67ee259083db8a216ce8d8e9741505060dba3146cb165810ea7a
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: The tool's core functionality is measuring model behavior, testing for adversarial outcomes, and performing quality audits.
+      decision_reason: >-
+        The tool's core functionality is measuring model behavior, testing for adversarial outcomes, and performing
+        quality audits.
       decision_evidence:
         - README claims it enables you to test LLMs and identify weaknesses
         - Features include red-teaming with prompt perturbation and custom evaluation metrics
@@ -103,6 +116,8 @@ processing:
       category_candidates:
         - evals
         - ai-frameworks
-      contrastive_reason: Choose evals over ai-frameworks because the tool's primary purpose is measuring and testing model behavior rather than serving as a general-purpose development SDK.
+      contrastive_reason: >-
+        Choose evals over ai-frameworks because the tool's primary purpose is measuring and testing model behavior
+        rather than serving as a general-purpose development SDK.
       review_reason: null
       review_resume_lifecycle: null

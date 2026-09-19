@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__expertvagabond__solana-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: ExpertVagabond/solana-mcp-server
         extracted_url: https://github.com/expertvagabond/solana-mcp-server
-        surrounding_text: "- [ExpertVagabond/solana-mcp-server](https://github.com/ExpertVagabond/solana-mcp-server) [![ExpertVagabond/solana-mcp-server MCP server](https://glama.ai/mcp/servers/ExpertVagabond/solana-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/ExpertVagabond/solana-mcp-server) 📇 ☁️ - 25 tools for Solana blockchain — wallet management, SOL/SPL token transfers, SPL token creation and minting, account operations, and network switching (mainnet/devnet/testnet)."
+        surrounding_text: >-
+          - [ExpertVagabond/solana-mcp-server](https://github.com/ExpertVagabond/solana-mcp-server)
+          [![ExpertVagabond/solana-mcp-server MCP
+          server](https://glama.ai/mcp/servers/ExpertVagabond/solana-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/ExpertVagabond/solana-mcp-server)
+          📇 ☁️ - 25 tools for Solana blockchain — wallet management, SOL/SPL token transfers, SPL token creation and
+          minting, account operations, and network switching (mainnet/devnet/testnet).
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: ExpertVagabond/solana-mcp-server
     html_url: https://github.com/ExpertVagabond/solana-mcp-server
-    created_at: "2025-09-21T16:35:49Z"
-    pushed_at: "2026-08-17T02:12:01Z"
+    created_at: '2025-09-21T16:35:49Z'
+    pushed_at: '2026-08-17T02:12:01Z'
     description: Solana MCP server for wallet management, transactions, and program interactions
     homepage: |-
       - Creating gist solana-mcp-server-quickstart.md
@@ -45,14 +50,20 @@ metadata:
       - model-context-protocol
       - solana
       - tools
-    last_checked_at: "2026-08-27T09:23:27.013Z"
+    last_checked_at: '2026-08-27T09:23:27.013Z'
     readme:
-      fetched_at: "2026-08-27T09:23:27.013Z"
+      fetched_at: '2026-08-27T09:23:27.013Z'
       bytes: 5450
 insights:
-  summary: Solana MCP server providing 25 tools for wallet management, token operations, transfers, queries, and network interactions via the Model Context Protocol.
-  why_it_matters: Gives developers a production-ready MCP server to connect Solana blockchain operations to AI assistants like Claude Code without building custom integrations.
-  mental_damage: Another blockchain MCP server to add to your growing list of domain-specific protocol wrappers that promise to make AI actually useful for DeFi.
+  summary: >-
+    Solana MCP server providing 25 tools for wallet management, token operations, transfers, queries, and network
+    interactions via the Model Context Protocol.
+  why_it_matters: >-
+    Gives developers a production-ready MCP server to connect Solana blockchain operations to AI assistants like Claude
+    Code without building custom integrations.
+  mental_damage: >-
+    Another blockchain MCP server to add to your growing list of domain-specific protocol wrappers that promise to make
+    AI actually useful for DeFi.
   tags:
     - solana
     - mcp
@@ -61,31 +72,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server implementation focused on Solana blockchain interactions, making MCP the core product identity rather than just a compatibility feature.
+  reason: >-
+    This is an MCP server implementation focused on Solana blockchain interactions, making MCP the core product identity
+    rather than just a compatibility feature.
   evidence:
-    - "Repo description: 'Solana MCP server for wallet management, transactions, and program interactions'"
-    - "README: 'Full Solana blockchain MCP server. 25 tools for wallet management, SPL token operations, DeFi, staking, and network queries'"
+    - 'Repo description: ''Solana MCP server for wallet management, transactions, and program interactions'''
+    - >-
+      README: 'Full Solana blockchain MCP server. 25 tools for wallet management, SPL token operations, DeFi, staking,
+      and network queries'
     - Provides MCP server installation and configuration instructions for claude_desktop_config.json
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:27.013Z"
+    updated_at: '2026-08-27T09:23:27.013Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T09:27:06.796Z"
+    updated_at: '2026-08-27T09:27:06.796Z'
     cause: null
     next_retry_at: null
     attempts: 4
@@ -98,14 +114,20 @@ processing:
       input_hash: sha256:789be31f800ca73be529396c4f0a6c6fd27e66334492cb56b697bdb4a30e67b9
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP server implementation focused on Solana blockchain interactions, making MCP the core product identity rather than just a compatibility feature.
+      decision_reason: >-
+        This is an MCP server implementation focused on Solana blockchain interactions, making MCP the core product
+        identity rather than just a compatibility feature.
       decision_evidence:
-        - "Repo description: 'Solana MCP server for wallet management, transactions, and program interactions'"
-        - "README: 'Full Solana blockchain MCP server. 25 tools for wallet management, SPL token operations, DeFi, staking, and network queries'"
+        - 'Repo description: ''Solana MCP server for wallet management, transactions, and program interactions'''
+        - >-
+          README: 'Full Solana blockchain MCP server. 25 tools for wallet management, SPL token operations, DeFi,
+          staking, and network queries'
         - Provides MCP server installation and configuration instructions for claude_desktop_config.json
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server implementation itself, not merely an extension that adds MCP compatibility to another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server implementation itself, not merely an
+        extension that adds MCP compatibility to another assistant.
       review_reason: null
       review_resume_lifecycle: null

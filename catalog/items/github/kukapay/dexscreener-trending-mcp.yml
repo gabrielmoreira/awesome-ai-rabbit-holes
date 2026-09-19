@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__dexscreener-trending-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/dexscreener-trending-mcp
         extracted_url: https://github.com/kukapay/dexscreener-trending-mcp
-        surrounding_text: "- [kukapay/dexscreener-trending-mcp](https://github.com/kukapay/dexscreener-trending-mcp) 📇 ☁️ - Provides real-time trending tokens from DexScreener."
+        surrounding_text: >-
+          - [kukapay/dexscreener-trending-mcp](https://github.com/kukapay/dexscreener-trending-mcp) 📇 ☁️ - Provides
+          real-time trending tokens from DexScreener.
         confidence: high
 metadata:
   github:
@@ -30,14 +32,14 @@ metadata:
     archived: false
     full_name: kukapay/dexscreener-trending-mcp
     html_url: https://github.com/kukapay/dexscreener-trending-mcp
-    created_at: "2026-01-12T09:58:32Z"
-    pushed_at: "2026-01-12T09:58:48Z"
+    created_at: '2026-01-12T09:58:32Z'
+    pushed_at: '2026-01-12T09:58:48Z'
     description: An MCP server that provides real-time trending tokens from DexScreener.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:06:00.120Z"
+    last_checked_at: '2026-07-30T05:06:00.120Z'
     readme:
-      fetched_at: "2026-07-30T05:06:00.120Z"
+      fetched_at: '2026-07-30T05:06:00.120Z'
       bytes: 2810
 insights:
   summary: An MCP server that provides real-time trending tokens from DexScreener for BSC and Solana chains.
@@ -52,31 +54,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server with DexScreener as its domain focus, fitting the MCP-first identity requirement.
+  reason: >-
+    The product is explicitly an MCP server with DexScreener as its domain focus, fitting the MCP-first identity
+    requirement.
   evidence:
     - Repo description states it is 'An MCP server that provides real-time trending tokens from DexScreener'
     - README confirms it exposes MCP tools (`get_trending_pairs`) and prompt templates
     - Installation instructions target MCP clients like Claude Desktop
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:00.120Z"
+    updated_at: '2026-07-30T05:06:00.120Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:58.644Z"
+    updated_at: '2026-07-21T16:13:58.644Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +94,9 @@ processing:
       input_hash: sha256:e2c059e534989e3e7c26bc83af1652bce58c8500d6a6a07abf8200709679c94c
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server with DexScreener as its domain focus, fitting the MCP-first identity requirement.
+      decision_reason: >-
+        The product is explicitly an MCP server with DexScreener as its domain focus, fitting the MCP-first identity
+        requirement.
       decision_evidence:
         - Repo description states it is 'An MCP server that provides real-time trending tokens from DexScreener'
         - README confirms it exposes MCP tools (`get_trending_pairs`) and prompt templates
@@ -97,6 +104,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server, not an extension augmenting
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

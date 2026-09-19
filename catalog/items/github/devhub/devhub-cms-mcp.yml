@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__devhub__devhub-cms-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: DevHub
         extracted_url: https://github.com/devhub/devhub-cms-mcp
-        surrounding_text: "- **[DevHub](https://github.com/devhub/devhub-cms-mcp)** - Manage and utilize website content within the [DevHub](https://www.devhub.com) CMS platform"
+        surrounding_text: >-
+          - **[DevHub](https://github.com/devhub/devhub-cms-mcp)** - Manage and utilize website content within the
+          [DevHub](https://www.devhub.com) CMS platform
         confidence: high
 metadata:
   github:
@@ -29,18 +31,20 @@ metadata:
     archived: false
     full_name: devhub/devhub-cms-mcp
     html_url: https://github.com/devhub/devhub-cms-mcp
-    created_at: "2025-03-17T15:17:03Z"
-    pushed_at: "2025-03-24T13:09:53Z"
+    created_at: '2025-03-17T15:17:03Z'
+    pushed_at: '2025-03-24T13:09:53Z'
     description: DevHub CMS LLM integration through the Model Context Protocol
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:39.853Z"
+    last_checked_at: '2026-09-14T04:13:39.853Z'
     readme:
-      fetched_at: "2026-09-14T04:13:39.853Z"
+      fetched_at: '2026-09-14T04:13:39.853Z'
       bytes: 5674
 insights:
   summary: A Model Context Protocol (MCP) server for integrating DevHub CMS with LLM assistants.
-  why_it_matters: Allows developers to manage DevHub CMS content (businesses, locations, blog posts, media) directly through MCP-compatible assistants like Claude Desktop or Cursor.
+  why_it_matters: >-
+    Allows developers to manage DevHub CMS content (businesses, locations, blog posts, media) directly through
+    MCP-compatible assistants like Claude Desktop or Cursor.
   mental_damage: Now your AI can argue with your CMS about opening hours while you watch.
   tags:
     - mcp
@@ -51,31 +55,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server providing domain-specific tools for DevHub CMS, fitting the MCP Servers & Tooling category where MCP is the product identity.
+  reason: >-
+    This is an MCP-first server providing domain-specific tools for DevHub CMS, fitting the MCP Servers & Tooling
+    category where MCP is the product identity.
   evidence:
     - Repo description explicitly states it is a DevHub CMS LLM integration through MCP
     - README details MCP server setup for Claude Desktop, Cursor, and Claude Code
     - Provides domain-specific tools for DevHub CMS (businesses, locations, blog posts, media)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.611Z"
+    updated_at: '2026-05-06T22:12:15.611Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:39.853Z"
+    updated_at: '2026-09-14T04:13:39.853Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:50:44.638Z"
+    updated_at: '2026-07-21T15:50:44.638Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +94,9 @@ processing:
       input_hash: sha256:3840b8e393a964fb46bd7149cc4c5c4226c6098bc8e9ecf60419cd06d1d95489
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server providing domain-specific tools for DevHub CMS, fitting the MCP Servers & Tooling category where MCP is the product identity.
+      decision_reason: >-
+        This is an MCP-first server providing domain-specific tools for DevHub CMS, fitting the MCP Servers & Tooling
+        category where MCP is the product identity.
       decision_evidence:
         - Repo description explicitly states it is a DevHub CMS LLM integration through MCP
         - README details MCP server setup for Claude Desktop, Cursor, and Claude Code
@@ -96,6 +104,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server for DevHub CMS, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server for DevHub CMS, not
+        merely an extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

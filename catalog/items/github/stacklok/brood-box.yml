@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__stacklok__brood-box__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,13 @@ provenance:
           - Agent infrastructure
         anchor_text: brood-box
         extracted_url: https://github.com/stacklok/brood-box
-        surrounding_text: "- **[brood-box](https://github.com/stacklok/brood-box)** `⭐ 29` — Hardware-isolated microVM sandbox for AI coding agents (Claude Code, Codex, OpenCode) with COW snapshot isolation, egress control, and MCP authorization."
+        surrounding_text: >-
+          - **[brood-box](https://github.com/stacklok/brood-box)** `⭐ 29` — Hardware-isolated microVM sandbox for AI
+          coding agents (Claude Code, Codex, OpenCode) with COW snapshot isolation, egress control, and MCP
+          authorization.
         confidence: high
     - id: discovery__github__stacklok__brood-box__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -35,10 +38,12 @@ provenance:
           - Coding Agents
         anchor_text: brood-box
         extracted_url: https://github.com/stacklok/brood-box
-        surrounding_text: "- **[brood-box](https://github.com/stacklok/brood-box)** – Run coding agents (Claude Code, Codex, OpenCode) inside hardware-isolated microVMs with snapshot isolation, egress control, and MCP authorization."
+        surrounding_text: >-
+          - **[brood-box](https://github.com/stacklok/brood-box)** – Run coding agents (Claude Code, Codex, OpenCode)
+          inside hardware-isolated microVMs with snapshot isolation, egress control, and MCP authorization.
         confidence: high
     - id: discovery__github__stacklok__brood-box__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-21T05:27:57.681Z"
+      discovered_at: '2026-05-21T05:27:57.681Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -51,7 +56,10 @@ provenance:
           - Frameworks for LLM security
         anchor_text: brood-box
         extracted_url: https://github.com/stacklok/brood-box
-        surrounding_text: "| [brood-box](https://github.com/stacklok/brood-box) | CLI tool for running coding agents inside hardware-isolated microVMs with snapshot isolation, egress control, and MCP authorization. | ![GitHub Badge](https://img.shields.io/github/stars/stacklok/brood-box?style=flat-square) |"
+        surrounding_text: >-
+          | [brood-box](https://github.com/stacklok/brood-box) | CLI tool for running coding agents inside
+          hardware-isolated microVMs with snapshot isolation, egress control, and MCP authorization. | ![GitHub
+          Badge](https://img.shields.io/github/stars/stacklok/brood-box?style=flat-square) |
         confidence: high
 metadata:
   github:
@@ -61,10 +69,10 @@ metadata:
     archived: false
     full_name: stacklok/brood-box
     html_url: https://github.com/stacklok/brood-box
-    created_at: "2026-02-13T18:25:11Z"
-    pushed_at: "2026-07-20T07:53:16Z"
+    created_at: '2026-02-13T18:25:11Z'
+    pushed_at: '2026-07-20T07:53:16Z'
     description: CLI tool for running coding agents inside hardware-isolated microVMs
-    homepage: ""
+    homepage: ''
     topics:
       - ai-agents
       - claude-code
@@ -73,14 +81,20 @@ metadata:
       - microvm
       - sandbox
       - security
-    last_checked_at: "2026-07-20T16:43:02.535Z"
+    last_checked_at: '2026-07-20T16:43:02.535Z'
     readme:
-      fetched_at: "2026-07-20T16:43:02.535Z"
+      fetched_at: '2026-07-20T16:43:02.535Z'
       bytes: 14845
 insights:
-  summary: A CLI tool that runs coding agents like Claude Code and Codex inside hardware-isolated microVMs, requiring explicit user review of file changes before they reach the workspace.
-  why_it_matters: It lets developers experiment with autonomous coding agents without handing over full filesystem access or API keys to a process running natively on their machine.
-  mental_damage: We have successfully reached the point where we need KVM-backed microVMs just to survive letting an LLM run `rm -rf` on our behalf.
+  summary: >-
+    A CLI tool that runs coding agents like Claude Code and Codex inside hardware-isolated microVMs, requiring explicit
+    user review of file changes before they reach the workspace.
+  why_it_matters: >-
+    It lets developers experiment with autonomous coding agents without handing over full filesystem access or API keys
+    to a process running natively on their machine.
+  mental_damage: >-
+    We have successfully reached the point where we need KVM-backed microVMs just to survive letting an LLM run `rm -rf`
+    on our behalf.
   tags:
     - security
     - sandboxing
@@ -90,35 +104,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool is a security and execution harness that wraps existing coding agents (Claude Code, Codex) in microVMs rather than acting as the primary coding assistant itself.
+  reason: >-
+    The tool is a security and execution harness that wraps existing coding agents (Claude Code, Codex) in microVMs
+    rather than acting as the primary coding assistant itself.
   evidence:
     - Repo description explicitly states it is a 'CLI tool for running coding agents inside hardware-isolated microVMs.'
     - README shows it launches Claude Code inside a VM via `bbox claude-code` and is not the agent itself.
-    - Listed as 'Agent infrastructure' in awesome-cli-coding-agents, reinforcing its identity as a harness/orchestration layer for other agents.
+    - >-
+      Listed as 'Agent infrastructure' in awesome-cli-coding-agents, reinforcing its identity as a harness/orchestration
+      layer for other agents.
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-21T05:27:57.682Z"
+    updated_at: '2026-05-21T05:27:57.682Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:43:02.535Z"
+    updated_at: '2026-07-20T16:43:02.535Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

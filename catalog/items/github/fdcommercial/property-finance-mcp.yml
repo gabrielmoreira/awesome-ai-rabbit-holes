@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__fdcommercial__property-finance-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-08T05:39:05.247Z"
+      discovered_at: '2026-06-08T05:39:05.247Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,14 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: fdcommercial/property-finance-mcp
         extracted_url: https://github.com/fdcommercial/property-finance-mcp
-        surrounding_text: "- [fdcommercial/property-finance-mcp](https://github.com/fdcommercial/property-finance-mcp) [![fdcommercial/property-finance-mcp MCP server](https://glama.ai/mcp/servers/fdcommercial/property-finance-mcp/badges/score.svg)](https://glama.ai/mcp/servers/fdcommercial/property-finance-mcp) 📇 ☁️ 🏠 - UK property finance calculators: bridging cost (rolled-up / retained / serviced), development appraisal (LTC, LTGDV, viability), BTL stress test (125%, 145%, 170% ICR), and UK stamp duty (SDLT, LBTT, LTT). Built by [FD Commercial](https://www.fdcommercial.co.uk), a specialist UK property finance broker. Install via `npx -y @fdcommercial/property-finance-mcp` or call the hosted endpoint."
+        surrounding_text: >-
+          - [fdcommercial/property-finance-mcp](https://github.com/fdcommercial/property-finance-mcp)
+          [![fdcommercial/property-finance-mcp MCP
+          server](https://glama.ai/mcp/servers/fdcommercial/property-finance-mcp/badges/score.svg)](https://glama.ai/mcp/servers/fdcommercial/property-finance-mcp)
+          📇 ☁️ 🏠 - UK property finance calculators: bridging cost (rolled-up / retained / serviced), development
+          appraisal (LTC, LTGDV, viability), BTL stress test (125%, 145%, 170% ICR), and UK stamp duty (SDLT, LBTT,
+          LTT). Built by [FD Commercial](https://www.fdcommercial.co.uk), a specialist UK property finance broker.
+          Install via `npx -y @fdcommercial/property-finance-mcp` or call the hosted endpoint.
         confidence: high
 metadata:
   github:
@@ -30,9 +37,11 @@ metadata:
     archived: false
     full_name: fdcommercial/property-finance-mcp
     html_url: https://github.com/fdcommercial/property-finance-mcp
-    created_at: "2026-05-19T08:14:59Z"
-    pushed_at: "2026-07-26T19:49:28Z"
-    description: "MCP server exposing FD Commercial's free UK property finance calculators: bridging cost, development appraisal, BTL stress test, UK stamp duty."
+    created_at: '2026-05-19T08:14:59Z'
+    pushed_at: '2026-07-26T19:49:28Z'
+    description: >-
+      MCP server exposing FD Commercial's free UK property finance calculators: bridging cost, development appraisal,
+      BTL stress test, UK stamp duty.
     homepage: https://www.fdcommercial.co.uk/property-finance-tools/
     topics:
       - ai-tools
@@ -51,14 +60,20 @@ metadata:
       - sdlt-calculator
       - stamp-duty
       - typescript
-    last_checked_at: "2026-08-27T09:23:28.710Z"
+    last_checked_at: '2026-08-27T09:23:28.710Z'
     readme:
-      fetched_at: "2026-08-27T09:23:28.710Z"
+      fetched_at: '2026-08-27T09:23:28.710Z'
       bytes: 5098
 insights:
-  summary: An MCP server that exposes UK property finance calculators for bridging costs, development appraisals, BTL stress tests, and stamp duty.
-  why_it_matters: It allows AI agents to perform precise, broker-grade financial calculations using structured formulas rather than relying on the LLM's erratic native arithmetic.
-  mental_damage: We have finally reached the era where we wrap a mortgage calculator in a protocol so our agent can tell us we can't afford the house in a more structured JSON format.
+  summary: >-
+    An MCP server that exposes UK property finance calculators for bridging costs, development appraisals, BTL stress
+    tests, and stamp duty.
+  why_it_matters: >-
+    It allows AI agents to perform precise, broker-grade financial calculations using structured formulas rather than
+    relying on the LLM's erratic native arithmetic.
+  mental_damage: >-
+    We have finally reached the era where we wrap a mortgage calculator in a protocol so our agent can tell us we can't
+    afford the house in a more structured JSON format.
   tags:
     - mcp
     - fintech
@@ -74,24 +89,25 @@ curation:
     - Source-list context places it in 'awesome-mcp-servers' under 'Finance & Fintech'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-08T05:39:05.248Z"
+    updated_at: '2026-06-08T05:39:05.248Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:28.710Z"
+    updated_at: '2026-08-27T09:23:28.710Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-08T05:42:50.119Z"
+    updated_at: '2026-06-08T05:42:50.119Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

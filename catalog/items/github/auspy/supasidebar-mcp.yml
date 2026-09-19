@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__auspy__supasidebar-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-23T05:08:37.088Z"
+      discovered_at: '2026-07-23T05:08:37.088Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: auspy/supasidebar-mcp
         extracted_url: https://github.com/auspy/supasidebar-mcp
-        surrounding_text: "- [auspy/supasidebar-mcp](https://github.com/auspy/supasidebar-mcp) [![auspy/supasidebar-mcp MCP server](https://glama.ai/mcp/servers/auspy/supasidebar-mcp/badges/score.svg)](https://glama.ai/mcp/servers/auspy/supasidebar-mcp) 📇 🏠 🍎 - Access and organize your open browser tabs, bookmarks, and recently opened links across every macOS browser from your AI client. Powered by the free SupaSidebar app."
+        surrounding_text: >-
+          - [auspy/supasidebar-mcp](https://github.com/auspy/supasidebar-mcp) [![auspy/supasidebar-mcp MCP
+          server](https://glama.ai/mcp/servers/auspy/supasidebar-mcp/badges/score.svg)](https://glama.ai/mcp/servers/auspy/supasidebar-mcp)
+          📇 🏠 🍎 - Access and organize your open browser tabs, bookmarks, and recently opened links across every macOS
+          browser from your AI client. Powered by the free SupaSidebar app.
         confidence: high
 metadata:
   github:
@@ -30,18 +34,24 @@ metadata:
     archived: false
     full_name: auspy/supasidebar-mcp
     html_url: https://github.com/auspy/supasidebar-mcp
-    created_at: "2026-03-22T06:47:44Z"
-    pushed_at: "2026-07-14T12:22:22Z"
-    description: Give your AI assistant local access to your open tabs, saved bookmarks, and recently opened links across every browser on your Mac. Open source, zero telemetry.
+    created_at: '2026-03-22T06:47:44Z'
+    pushed_at: '2026-07-14T12:22:22Z'
+    description: >-
+      Give your AI assistant local access to your open tabs, saved bookmarks, and recently opened links across every
+      browser on your Mac. Open source, zero telemetry.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:24.735Z"
+    last_checked_at: '2026-09-14T04:13:24.735Z'
     readme:
-      fetched_at: "2026-09-14T04:13:24.735Z"
+      fetched_at: '2026-09-14T04:13:24.735Z'
       bytes: 13748
 insights:
-  summary: SupaSidebar MCP Server is a macOS-native MCP server that gives AI assistants local read/write access to browser tabs, bookmarks, and history via the SupaSidebar app.
-  why_it_matters: It lets developers use natural language to search, organize, and automate browser state without leaving their AI assistant, reducing context-switching during research and debugging.
+  summary: >-
+    SupaSidebar MCP Server is a macOS-native MCP server that gives AI assistants local read/write access to browser
+    tabs, bookmarks, and history via the SupaSidebar app.
+  why_it_matters: >-
+    It lets developers use natural language to search, organize, and automate browser state without leaving their AI
+    assistant, reducing context-switching during research and debugging.
   mental_damage: Another MCP server that makes you install a GUI app just to let your AI close tabs you swore you’d handle later.
   tags:
     - mcp
@@ -50,31 +60,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core identity is exposing browser automation via MCP, not augmenting another assistant or acting as a coding agent.
+  reason: >-
+    The product is an MCP server whose core identity is exposing browser automation via MCP, not augmenting another
+    assistant or acting as a coding agent.
   evidence:
-    - "Repo description: 'Give your AI assistant local access to your open tabs, saved bookmarks, and recently opened links across every browser on your Mac.'"
-    - "README: 'The MCP server is a thin bridge. It translates AI tool calls into local HTTP requests to the SupaSidebar app running on your Mac.'"
-    - "Source-list context: Listed in awesome-mcp-servers under Browser Automation as an MCP server implementation."
+    - >-
+      Repo description: 'Give your AI assistant local access to your open tabs, saved bookmarks, and recently opened
+      links across every browser on your Mac.'
+    - >-
+      README: 'The MCP server is a thin bridge. It translates AI tool calls into local HTTP requests to the SupaSidebar
+      app running on your Mac.'
+    - 'Source-list context: Listed in awesome-mcp-servers under Browser Automation as an MCP server implementation.'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-23T05:08:37.090Z"
+    updated_at: '2026-07-23T05:08:37.090Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:24.735Z"
+    updated_at: '2026-09-14T04:13:24.735Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T09:28:09.368Z"
+    updated_at: '2026-08-27T09:28:09.368Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -85,15 +102,23 @@ processing:
       input_hash: sha256:12445bcab97395ee3e1eac347f50e58c7d064f17d67e8a4591c52ce9612966b1
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server whose core identity is exposing browser automation via MCP, not augmenting another assistant or acting as a coding agent.
+      decision_reason: >-
+        The product is an MCP server whose core identity is exposing browser automation via MCP, not augmenting another
+        assistant or acting as a coding agent.
       decision_evidence:
-        - "Repo description: 'Give your AI assistant local access to your open tabs, saved bookmarks, and recently opened links across every browser on your Mac.'"
-        - "README: 'The MCP server is a thin bridge. It translates AI tool calls into local HTTP requests to the SupaSidebar app running on your Mac.'"
-        - "Source-list context: Listed in awesome-mcp-servers under Browser Automation as an MCP server implementation."
+        - >-
+          Repo description: 'Give your AI assistant local access to your open tabs, saved bookmarks, and recently opened
+          links across every browser on your Mac.'
+        - >-
+          README: 'The MCP server is a thin bridge. It translates AI tool calls into local HTTP requests to the
+          SupaSidebar app running on your Mac.'
+        - 'Source-list context: Listed in awesome-mcp-servers under Browser Automation as an MCP server implementation.'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server whose primary function is protocol compliance and exposure of browser data, not augmentation of a host assistant with workflow utilities.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server whose primary function is protocol
+        compliance and exposure of browser data, not augmentation of a host assistant with workflow utilities.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

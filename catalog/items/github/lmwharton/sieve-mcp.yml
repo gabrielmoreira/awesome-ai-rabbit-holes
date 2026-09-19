@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lmwharton__sieve-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: lmwharton/sieve-mcp
         extracted_url: https://github.com/lmwharton/sieve-mcp
-        surrounding_text: "- [lmwharton/sieve-mcp](https://github.com/lmwharton/sieve-mcp) [![lmwharton/sieve-mcp MCP server](https://glama.ai/mcp/servers/lmwharton/sieve-mcp/badges/score.svg)](https://glama.ai/mcp/servers/lmwharton/sieve-mcp) 🐍 ☁️ - AI-powered startup due diligence. Screen any startup across 7 IMPACT-X dimensions, get a Sieve Score (0-140) with evidence-typed findings and a clear meeting recommendation. Built for VCs, solo GPs, and angel investors."
+        surrounding_text: >-
+          - [lmwharton/sieve-mcp](https://github.com/lmwharton/sieve-mcp) [![lmwharton/sieve-mcp MCP
+          server](https://glama.ai/mcp/servers/lmwharton/sieve-mcp/badges/score.svg)](https://glama.ai/mcp/servers/lmwharton/sieve-mcp)
+          🐍 ☁️ - AI-powered startup due diligence. Screen any startup across 7 IMPACT-X dimensions, get a Sieve Score
+          (0-140) with evidence-typed findings and a clear meeting recommendation. Built for VCs, solo GPs, and angel
+          investors.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: lmwharton/sieve-mcp
     html_url: https://github.com/lmwharton/sieve-mcp
-    created_at: "2026-02-10T23:53:11Z"
-    pushed_at: "2026-03-18T21:28:07Z"
-    description: From company name to investment decision. Sieve scores startups across 7 dimensions so you know who's worth a meeting.
+    created_at: '2026-02-10T23:53:11Z'
+    pushed_at: '2026-03-18T21:28:07Z'
+    description: >-
+      From company name to investment decision. Sieve scores startups across 7 dimensions so you know who's worth a
+      meeting.
     homepage: null
     topics:
       - ai
@@ -55,13 +62,17 @@ metadata:
       - startup-screening
       - venture-capital
       - windsurf
-    last_checked_at: "2026-07-30T05:06:07.407Z"
+    last_checked_at: '2026-07-30T05:06:07.407Z'
     readme:
-      fetched_at: "2026-07-30T05:06:07.407Z"
+      fetched_at: '2026-07-30T05:06:07.407Z'
       bytes: 9644
 insights:
-  summary: Sieve MCP Server is an MCP server that provides an AI-powered venture capital due diligence tool for screening startups.
-  why_it_matters: It automates early-stage investment analysis for developers who also act as solo GPs or angel investors, reducing diligence time from hours to minutes.
+  summary: >-
+    Sieve MCP Server is an MCP server that provides an AI-powered venture capital due diligence tool for screening
+    startups.
+  why_it_matters: >-
+    It automates early-stage investment analysis for developers who also act as solo GPs or angel investors, reducing
+    diligence time from hours to minutes.
   mental_damage: Now you can feel guilty about skipping due diligence in under five minutes instead of three hours.
   tags:
     - mcp
@@ -70,31 +81,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core identity and functionality are defined by providing venture capital analysis via the Model Context Protocol, making MCP Servers & Tooling the best fit.
+  reason: >-
+    The product is an MCP server whose core identity and functionality are defined by providing venture capital analysis
+    via the Model Context Protocol, making MCP Servers & Tooling the best fit.
   evidence:
-    - "Repo description: 'From company name to investment decision. Sieve scores startups across 7 dimensions so you know who's worth a meeting.'"
-    - "README: 'The first MCP server purpose-built for venture capital.' and detailed MCP integration instructions for Claude, Cursor, and Windsurf."
-    - "Available tools: sieve_screen, sieve_status, sieve_summary, sieve_usage — all exposed as MCP tools."
+    - >-
+      Repo description: 'From company name to investment decision. Sieve scores startups across 7 dimensions so you know
+      who's worth a meeting.'
+    - >-
+      README: 'The first MCP server purpose-built for venture capital.' and detailed MCP integration instructions for
+      Claude, Cursor, and Windsurf.
+    - 'Available tools: sieve_screen, sieve_status, sieve_summary, sieve_usage — all exposed as MCP tools.'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: '2026-05-06T22:12:15.627Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:07.407Z"
+    updated_at: '2026-07-30T05:06:07.407Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:17:01.546Z"
+    updated_at: '2026-07-21T16:17:01.546Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -107,14 +125,22 @@ processing:
       input_hash: sha256:091509b349e7b667ab04bad8f126cd76651ac9100371f8e426383d7337904db0
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server whose core identity and functionality are defined by providing venture capital analysis via the Model Context Protocol, making MCP Servers & Tooling the best fit.
+      decision_reason: >-
+        The product is an MCP server whose core identity and functionality are defined by providing venture capital
+        analysis via the Model Context Protocol, making MCP Servers & Tooling the best fit.
       decision_evidence:
-        - "Repo description: 'From company name to investment decision. Sieve scores startups across 7 dimensions so you know who's worth a meeting.'"
-        - "README: 'The first MCP server purpose-built for venture capital.' and detailed MCP integration instructions for Claude, Cursor, and Windsurf."
-        - "Available tools: sieve_screen, sieve_status, sieve_summary, sieve_usage — all exposed as MCP tools."
+        - >-
+          Repo description: 'From company name to investment decision. Sieve scores startups across 7 dimensions so you
+          know who's worth a meeting.'
+        - >-
+          README: 'The first MCP server purpose-built for venture capital.' and detailed MCP integration instructions
+          for Claude, Cursor, and Windsurf.
+        - 'Available tools: sieve_screen, sieve_status, sieve_summary, sieve_usage — all exposed as MCP tools.'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because Sieve is an MCP server whose primary identity is providing domain-specific analysis via MCP, not merely extending another assistant with host integrations.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because Sieve is an MCP server whose primary identity is providing
+        domain-specific analysis via MCP, not merely extending another assistant with host integrations.
       review_reason: null
       review_resume_lifecycle: null

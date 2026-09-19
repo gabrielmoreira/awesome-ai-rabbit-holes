@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gitkraken__gk-cli__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: gitkraken/gk-cli
         extracted_url: https://github.com/gitkraken/gk-cli
-        surrounding_text: "- [gitkraken/gk-cli](https://github.com/gitkraken/gk-cli) 🎖️ 🏎️ 🏠 ☁️ 🍎 🪟 🐧 - A CLI for interacting with GitKraken APIs. Includes an MCP server via `gk mcp` that not only wraps GitKraken APIs, but also Jira, GitHub, GitLab, and more. Works with local tools and remote services."
+        surrounding_text: >-
+          - [gitkraken/gk-cli](https://github.com/gitkraken/gk-cli) 🎖️ 🏎️ 🏠 ☁️ 🍎 🪟 🐧 - A CLI for interacting with
+          GitKraken APIs. Includes an MCP server via `gk mcp` that not only wraps GitKraken APIs, but also Jira, GitHub,
+          GitLab, and more. Works with local tools and remote services.
         confidence: high
     - id: discovery__github__gitkraken__gk-cli__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +38,9 @@ provenance:
           - Official Servers
         anchor_text: GitKraken
         extracted_url: https://github.com/gitkraken/gk-cli
-        surrounding_text: "- **[GitKraken](https://github.com/gitkraken/gk-cli)** - A CLI for interacting with GitKraken APIs. Includes an MCP server via `gk mcp` that not only wraps GitKraken APIs, but also Jira, GitHub, GitLab, and more."
+        surrounding_text: >-
+          - **[GitKraken](https://github.com/gitkraken/gk-cli)** - A CLI for interacting with GitKraken APIs. Includes
+          an MCP server via `gk mcp` that not only wraps GitKraken APIs, but also Jira, GitHub, GitLab, and more.
         confidence: high
 metadata:
   github:
@@ -45,8 +50,8 @@ metadata:
     archived: false
     full_name: gitkraken/gk-cli
     html_url: https://github.com/gitkraken/gk-cli
-    created_at: "2023-02-23T16:23:01Z"
-    pushed_at: "2026-08-31T16:45:39Z"
+    created_at: '2023-02-23T16:23:01Z'
+    pushed_at: '2026-08-31T16:45:39Z'
     description: GitKraken CLI Releases and Documentation
     homepage: https://www.gitkraken.com
     topics:
@@ -54,13 +59,17 @@ metadata:
       - git
       - gitkraken
       - terminal
-    last_checked_at: "2026-09-03T05:16:50.344Z"
+    last_checked_at: '2026-09-03T05:16:50.344Z'
     readme:
-      fetched_at: "2026-09-03T05:16:50.344Z"
+      fetched_at: '2026-09-03T05:16:50.344Z'
       bytes: 5709
 insights:
-  summary: GitKraken CLI is a command-line tool for managing multiple Git repositories with AI-powered commit messages, PR generation, and an MCP server for git and issue hosting integrations.
-  why_it_matters: It streamlines multi-repo workflows and automates commit/PR tasks with AI, while exposing git and provider actions to AI assistants via MCP.
+  summary: >-
+    GitKraken CLI is a command-line tool for managing multiple Git repositories with AI-powered commit messages, PR
+    generation, and an MCP server for git and issue hosting integrations.
+  why_it_matters: >-
+    It streamlines multi-repo workflows and automates commit/PR tasks with AI, while exposing git and provider actions
+    to AI assistants via MCP.
   mental_damage: Now you can argue with an AI about your commit messages while juggling five repos at once.
   tags:
     - git
@@ -71,31 +80,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The CLI is a primary developer-facing assistant that plans work items, edits code context, and uses AI to generate commits and PRs across repos, fitting the terminal agent mold.
+  reason: >-
+    The CLI is a primary developer-facing assistant that plans work items, edits code context, and uses AI to generate
+    commits and PRs across repos, fitting the terminal agent mold.
   evidence:
-    - "Repo description: 'GitKraken CLI Releases and Documentation' with README stating 'gk is GitKraken on the command line' and 'AI-powered commit messages and Pull Request generation'."
-    - "Work item workflow: 'gk work commit --ai' and 'gk work pr create --ai' show direct AI-assisted repo editing and PR workflows."
-    - "Active development: pushed_at 2026-05-05T17:23:07Z and 403 stars indicate a living product rather than an archived or stagnant tool."
+    - >-
+      Repo description: 'GitKraken CLI Releases and Documentation' with README stating 'gk is GitKraken on the command
+      line' and 'AI-powered commit messages and Pull Request generation'.
+    - >-
+      Work item workflow: 'gk work commit --ai' and 'gk work pr create --ai' show direct AI-assisted repo editing and PR
+      workflows.
+    - >-
+      Active development: pushed_at 2026-05-05T17:23:07Z and 403 stars indicate a living product rather than an archived
+      or stagnant tool.
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: mcp
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-dev-extensions'"
+  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''ai-dev-extensions'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.586Z"
+    updated_at: '2026-05-06T22:12:15.586Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:50.344Z"
+    updated_at: '2026-09-03T05:16:50.344Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:03:13.200Z"
+    updated_at: '2026-07-21T16:03:13.200Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -108,7 +126,10 @@ processing:
       input_hash: sha256:762edb65d8e6ea66122465147c4441c2aac04eccf9c1bb608b14f60a86ebff58
       proposed_primary_category: ai-dev-extensions
       disagreement: true
-      decision_reason: The core product is a CLI tool that augments git workflows with AI features and provides an MCP server for integration with AI assistants, making it primarily an extension/integration rather than a standalone coding agent.
+      decision_reason: >-
+        The core product is a CLI tool that augments git workflows with AI features and provides an MCP server for
+        integration with AI assistants, making it primarily an extension/integration rather than a standalone coding
+        agent.
       decision_evidence:
         - README explicitly describes it as 'GitKraken on the command line' with AI commit/PR generation
         - Includes an MCP server that wraps git, GitHub, Jira, and GitKraken APIs for AI tools
@@ -116,6 +137,8 @@ processing:
       category_candidates:
         - ai-dev-extensions
         - mcp
-      contrastive_reason: Choose ai-dev-extensions over mcp because the primary identity is a git CLI tool with AI features, while MCP is a secondary integration capability rather than the core product.
-      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-dev-extensions'"
+      contrastive_reason: >-
+        Choose ai-dev-extensions over mcp because the primary identity is a git CLI tool with AI features, while MCP is
+        a secondary integration capability rather than the core product.
+      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''ai-dev-extensions'''
       review_resume_lifecycle: null

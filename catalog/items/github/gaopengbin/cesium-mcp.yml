@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gaopengbin__cesium-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🗺️ <a name="location-services"></a>Location Services
         anchor_text: gaopengbin/cesium-mcp
         extracted_url: https://github.com/gaopengbin/cesium-mcp
-        surrounding_text: "- [gaopengbin/cesium-mcp](https://github.com/gaopengbin/cesium-mcp) [![gaopengbin/cesium-mcp MCP server](https://glama.ai/mcp/servers/gaopengbin/cesium-mcp/badges/score.svg)](https://glama.ai/mcp/servers/gaopengbin/cesium-mcp) 📇 🏠 🍎 🪟 🐧 - AI-powered 3D globe control via MCP. Connect any MCP-compatible AI agent to CesiumJS — camera flight, GeoJSON/3D Tiles layers, markers, spatial analysis, heatmaps, and more through 19 natural language tools."
+        surrounding_text: >-
+          - [gaopengbin/cesium-mcp](https://github.com/gaopengbin/cesium-mcp) [![gaopengbin/cesium-mcp MCP
+          server](https://glama.ai/mcp/servers/gaopengbin/cesium-mcp/badges/score.svg)](https://glama.ai/mcp/servers/gaopengbin/cesium-mcp)
+          📇 🏠 🍎 🪟 🐧 - AI-powered 3D globe control via MCP. Connect any MCP-compatible AI agent to CesiumJS — camera
+          flight, GeoJSON/3D Tiles layers, markers, spatial analysis, heatmaps, and more through 19 natural language
+          tools.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: gaopengbin/cesium-mcp
     html_url: https://github.com/gaopengbin/cesium-mcp
-    created_at: "2026-03-14T15:36:55Z"
-    pushed_at: "2026-09-03T04:44:38Z"
+    created_at: '2026-03-14T15:36:55Z'
+    pushed_at: '2026-09-03T04:44:38Z'
     description: Protocol-agnostic CesiumJS AI control runtime for MCP, WebMCP, function calling, and browser agents.
     homepage: https://gaopengbin.github.io/cesium-mcp/
     topics:
@@ -54,14 +59,18 @@ metadata:
       - webgis
       - webgl
       - websocket
-    last_checked_at: "2026-09-03T05:16:46.009Z"
+    last_checked_at: '2026-09-03T05:16:46.009Z'
     readme:
-      fetched_at: "2026-09-03T05:16:46.009Z"
+      fetched_at: '2026-09-03T05:16:46.009Z'
       bytes: 14712
 insights:
   summary: An MCP server and bridge that provides natural language control over CesiumJS 3D geospatial visualizations.
-  why_it_matters: It allows developers to programmatically control complex 3D GIS camera movements, entities, and spatial analysis using LLM tool calls.
-  mental_damage: Because nothing says 'odern developer workflow' like asking a chat window to fly to the Eiffel Tower instead of writing the boilerplate camera math yourself.
+  why_it_matters: >-
+    It allows developers to programmatically control complex 3D GIS camera movements, entities, and spatial analysis
+    using LLM tool calls.
+  mental_damage: >-
+    Because nothing says 'odern developer workflow' like asking a chat window to fly to the Eiffel Tower instead of
+    writing the boilerplate camera math yourself.
   tags:
     - mcp
     - cesiumjs
@@ -71,31 +80,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's identity is built around providing a suite of tools specifically via the Model Context Protocol for use in hosts like Claude Desktop or Cursor.
+  reason: >-
+    The project's identity is built around providing a suite of tools specifically via the Model Context Protocol for
+    use in hosts like Claude Desktop or Cursor.
   evidence:
     - README defines the product as an MCP runtime for Claude Desktop / Cursor / Dify
     - Primary value prop is adding AI commands to CesiumJS via Model Context Protocol
     - Includes a dedicated 'cp-runtime' package
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: '2026-05-06T22:12:15.615Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:46.009Z"
+    updated_at: '2026-09-03T05:16:46.009Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:00:42.493Z"
+    updated_at: '2026-07-21T16:00:42.493Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -108,7 +120,9 @@ processing:
       input_hash: sha256:9ded35eabeab103b9905718793efb379d15352095a832ad5a87c96b9ca20d351
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's identity is built around providing a suite of tools specifically via the Model Context Protocol for use in hosts like Claude Desktop or Cursor.
+      decision_reason: >-
+        The project's identity is built around providing a suite of tools specifically via the Model Context Protocol
+        for use in hosts like Claude Desktop or Cursor.
       decision_evidence:
         - README defines the product as an MCP runtime for Claude Desktop / Cursor / Dify
         - Primary value prop is adding AI commands to CesiumJS via Model Context Protocol
@@ -116,6 +130,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core architecture is a specialized MCP server designed to expose domain-specific tools to external hosts.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core architecture is a specialized MCP server designed
+        to expose domain-specific tools to external hosts.
       review_reason: null
       review_resume_lifecycle: null

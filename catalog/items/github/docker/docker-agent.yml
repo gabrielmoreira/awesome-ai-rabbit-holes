@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__docker__docker-agent__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-08-20T04:18:00.401Z"
+      discovered_at: '2026-08-20T04:18:00.401Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,11 @@ provenance:
           - Agent infrastructure
         anchor_text: Docker Agent
         extracted_url: https://github.com/docker/docker-agent
-        surrounding_text: "- **[Docker Agent](https://github.com/docker/docker-agent)** `⭐ 3.3k` `[Docker]` — Docker CLI plugin (`docker agent`) and runtime for building multi-agent teams from declarative YAML; built-in filesystem, shell, git, and LSP tools plus any MCP server, provider-agnostic models including local Docker Model Runner, RAG, and agent packaging to OCI registries. Apache-2.0."
+        surrounding_text: >-
+          - **[Docker Agent](https://github.com/docker/docker-agent)** `⭐ 3.3k` `[Docker]` — Docker CLI plugin (`docker
+          agent`) and runtime for building multi-agent teams from declarative YAML; built-in filesystem, shell, git, and
+          LSP tools plus any MCP server, provider-agnostic models including local Docker Model Runner, RAG, and agent
+          packaging to OCI registries. Apache-2.0.
         confidence: high
 metadata:
   github:
@@ -30,20 +34,24 @@ metadata:
     archived: false
     full_name: docker/docker-agent
     html_url: https://github.com/docker/docker-agent
-    created_at: "2025-09-01T12:14:45Z"
-    pushed_at: "2026-09-13T16:43:04Z"
+    created_at: '2025-09-01T12:14:45Z'
+    pushed_at: '2026-09-13T16:43:04Z'
     description: AI Agent Builder and Runtime by Docker Engineering
     homepage: https://docker.github.io/docker-agent/
     topics:
       - agents
       - ai
-    last_checked_at: "2026-09-14T04:13:42.038Z"
+    last_checked_at: '2026-09-14T04:13:42.038Z'
     readme:
-      fetched_at: "2026-09-14T04:13:42.038Z"
+      fetched_at: '2026-09-14T04:13:42.038Z'
       bytes: 4380
 insights:
-  summary: Docker Agent is a CLI plugin that lets developers define and run multi-agent AI systems via declarative YAML configuration, with MCP tool integration and model-agnostic execution.
-  why_it_matters: It enables developers to package, share, and orchestrate AI agents like Docker containers, reducing friction in agent deployment and reuse across environments.
+  summary: >-
+    Docker Agent is a CLI plugin that lets developers define and run multi-agent AI systems via declarative YAML
+    configuration, with MCP tool integration and model-agnostic execution.
+  why_it_matters: >-
+    It enables developers to package, share, and orchestrate AI agents like Docker containers, reducing friction in
+    agent deployment and reuse across environments.
   mental_damage: Another layer of YAML to define what your AI should do, because writing prompts directly was apparently too 2023.
   tags:
     - ai-agents
@@ -54,31 +62,41 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Docker Agent is primarily a platform for defining, running, and sharing multi-agent AI systems via declarative configuration and tool integration, making it a runtime workbench for agent coordination rather than a single coding assistant.
+  reason: >-
+    Docker Agent is primarily a platform for defining, running, and sharing multi-agent AI systems via declarative
+    configuration and tool integration, making it a runtime workbench for agent coordination rather than a single coding
+    assistant.
   evidence:
-    - "README states: 'Build, run, and share AI agents with a declarative YAML config, rich tool ecosystem, and multi-agent orchestration.'"
-    - "Features include: 'Multi-agent architecture — Create teams of specialized agents that delegate tasks automatically' and 'Package & share — Push agents to any OCI registry, pull and run them anywhere'"
-    - "Source-list context: listed in 'awesome-cli-coding-agents' under 'Harnesses & orchestration > Agent infrastructure'"
+    - >-
+      README states: 'Build, run, and share AI agents with a declarative YAML config, rich tool ecosystem, and
+      multi-agent orchestration.'
+    - >-
+      Features include: 'Multi-agent architecture — Create teams of specialized agents that delegate tasks
+      automatically' and 'Package & share — Push agents to any OCI registry, pull and run them anywhere'
+    - >-
+      Source-list context: listed in 'awesome-cli-coding-agents' under 'Harnesses & orchestration > Agent
+      infrastructure'
 placement:
   primary_category: agent-orchestration
-  section: Multi-Agent Runtime Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (3290) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-08-20T04:18:00.404Z"
+    updated_at: '2026-08-20T04:18:00.404Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:42.038Z"
+    updated_at: '2026-09-14T04:13:42.038Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T09:26:31.317Z"
+    updated_at: '2026-08-27T09:26:31.317Z'
     cause: null
     next_retry_at: null
     classification:
@@ -88,15 +106,27 @@ processing:
       input_hash: sha256:eb429db193f4bdd2a82c967fe67f6f92db426bf7266794f6c70a9d69946ffa92
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: Docker Agent is primarily a platform for defining, running, and sharing multi-agent AI systems via declarative configuration and tool integration, making it a runtime workbench for agent coordination rather than a single coding assistant.
+      decision_reason: >-
+        Docker Agent is primarily a platform for defining, running, and sharing multi-agent AI systems via declarative
+        configuration and tool integration, making it a runtime workbench for agent coordination rather than a single
+        coding assistant.
       decision_evidence:
-        - "README states: 'Build, run, and share AI agents with a declarative YAML config, rich tool ecosystem, and multi-agent orchestration.'"
-        - "Features include: 'Multi-agent architecture — Create teams of specialized agents that delegate tasks automatically' and 'Package & share — Push agents to any OCI registry, pull and run them anywhere'"
-        - "Source-list context: listed in 'awesome-cli-coding-agents' under 'Harnesses & orchestration > Agent infrastructure'"
+        - >-
+          README states: 'Build, run, and share AI agents with a declarative YAML config, rich tool ecosystem, and
+          multi-agent orchestration.'
+        - >-
+          Features include: 'Multi-agent architecture — Create teams of specialized agents that delegate tasks
+          automatically' and 'Package & share — Push agents to any OCI registry, pull and run them anywhere'
+        - >-
+          Source-list context: listed in 'awesome-cli-coding-agents' under 'Harnesses & orchestration > Agent
+          infrastructure'
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because Docker Agent's core value is defining and coordinating multiple agents via YAML and MCP tools, not acting as a primary coding assistant that edits code or repos directly.
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because Docker Agent's core value is defining and coordinating
+        multiple agents via YAML and MCP tools, not acting as a primary coding assistant that edits code or repos
+        directly.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

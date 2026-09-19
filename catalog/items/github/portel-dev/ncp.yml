@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__portel-dev__ncp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: portel-dev/ncp
         extracted_url: https://github.com/portel-dev/ncp
-        surrounding_text: "- [portel-dev/ncp](https://github.com/portel-dev/ncp) 📇 ☁️ 🏠 🍎 🪟 🐧 - NCP orchestrates your entire MCP ecosystem through intelligent discovery, eliminating token overhead while maintaining 98.2% accuracy."
+        surrounding_text: >-
+          - [portel-dev/ncp](https://github.com/portel-dev/ncp) 📇 ☁️ 🏠 🍎 🪟 🐧 - NCP orchestrates your entire MCP
+          ecosystem through intelligent discovery, eliminating token overhead while maintaining 98.2% accuracy.
         confidence: high
     - id: discovery__github__portel-dev__ncp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-09-01T14:31:13.862Z"
+      discovered_at: '2026-09-01T14:31:13.862Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - 🛠️ Utilities
         anchor_text: portel-dev/ncp
         extracted_url: https://github.com/portel-dev/ncp
-        surrounding_text: "-   **[portel-dev/ncp](https://github.com/portel-dev/ncp)** [![GitHub stars](https://img.shields.io/github/stars/portel-dev/ncp?style=social)](https://github.com/portel-dev/ncp): Orchestrates MCP server ecosystems through dynamic tool discovery to reduce context overhead."
+        surrounding_text: >-
+          -   **[portel-dev/ncp](https://github.com/portel-dev/ncp)** [![GitHub
+          stars](https://img.shields.io/github/stars/portel-dev/ncp?style=social)](https://github.com/portel-dev/ncp):
+          Orchestrates MCP server ecosystems through dynamic tool discovery to reduce context overhead.
         confidence: high
 metadata:
   github:
@@ -45,9 +50,11 @@ metadata:
     archived: false
     full_name: portel-dev/ncp
     html_url: https://github.com/portel-dev/ncp
-    created_at: "2025-09-15T08:16:40Z"
-    pushed_at: "2026-06-12T01:39:06Z"
-    description: Natural Context Provider (NCP). Your MCPs, supercharged. Find any tool instantly, load on demand, run on schedule, ready for any   client. Smart loading saves tokens and energy.
+    created_at: '2025-09-15T08:16:40Z'
+    pushed_at: '2026-06-12T01:39:06Z'
+    description: >-
+      Natural Context Provider (NCP). Your MCPs, supercharged. Find any tool instantly, load on demand, run on schedule,
+      ready for any   client. Smart loading saves tokens and energy.
     homepage: https://portel-dev.github.io/ncp/
     topics:
       - ai-agents
@@ -60,14 +67,20 @@ metadata:
       - openai
       - orchestrator
       - vector-search
-    last_checked_at: "2026-07-20T16:42:36.355Z"
+    last_checked_at: '2026-07-20T16:42:36.355Z'
     readme:
-      fetched_at: "2026-07-20T16:42:36.355Z"
+      fetched_at: '2026-07-20T16:42:36.355Z'
       bytes: 27612
 insights:
-  summary: NCP (Natural Context Provider) is an MCP aggregator and middleware layer that unifies multiple MCP servers behind a minimal interface of smart search and code-mode execution to reduce tool-choice overhead and token waste.
-  why_it_matters: It lets developers wire dozens of MCP tools into Claude, Cursor, and other clients without drowning the model in schema bloat or forcing constant tool-selection reasoning.
-  mental_damage: We have successfully abstracted the problem of too many tools into needing a tool to manage the tools that manage the tools.
+  summary: >-
+    NCP (Natural Context Provider) is an MCP aggregator and middleware layer that unifies multiple MCP servers behind a
+    minimal interface of smart search and code-mode execution to reduce tool-choice overhead and token waste.
+  why_it_matters: >-
+    It lets developers wire dozens of MCP tools into Claude, Cursor, and other clients without drowning the model in
+    schema bloat or forcing constant tool-selection reasoning.
+  mental_damage: >-
+    We have successfully abstracted the problem of too many tools into needing a tool to manage the tools that manage
+    the tools.
   tags:
     - mcp
     - context-management
@@ -76,35 +89,45 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP aggregation and middleware is the core product identity, explicitly described as '1 MCP to rule them all' with smart loading, tool discovery, and client readiness.
+  reason: >-
+    MCP aggregation and middleware is the core product identity, explicitly described as '1 MCP to rule them all' with
+    smart loading, tool discovery, and client readiness.
   evidence:
-    - "Repo description: 'Natural Context Provider (NCP). Your MCPs, supercharged. Find any tool instantly, load on demand, run on schedule, ready for any client.'"
-    - "README: 'Instead of your AI juggling 50+ tools scattered across different MCPs, NCP gives it a single, unified interface... routing requests, discovering the right capability, executing code, scheduling tasks, managing health, and caching responses.'"
-    - "Topics and identity: tagged as mcp, mcp-client, mcp-server, orchestrator; appears in awesome-mcp-servers under Aggregators."
+    - >-
+      Repo description: 'Natural Context Provider (NCP). Your MCPs, supercharged. Find any tool instantly, load on
+      demand, run on schedule, ready for any client.'
+    - >-
+      README: 'Instead of your AI juggling 50+ tools scattered across different MCPs, NCP gives it a single, unified
+      interface... routing requests, discovering the right capability, executing code, scheduling tasks, managing
+      health, and caching responses.'
+    - >-
+      Topics and identity: tagged as mcp, mcp-client, mcp-server, orchestrator; appears in awesome-mcp-servers under
+      Aggregators.
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-01T14:31:13.864Z"
+    updated_at: '2026-09-01T14:31:13.864Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:36.355Z"
+    updated_at: '2026-07-20T16:42:36.355Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

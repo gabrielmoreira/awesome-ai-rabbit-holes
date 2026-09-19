@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__adancurusul__serial-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 📟 <a name="embedded-system"></a>Embedded System
         anchor_text: adancurusul/serial-mcp-server
         extracted_url: https://github.com/adancurusul/serial-mcp-server
-        surrounding_text: "- [adancurusul/serial-mcp-server](https://github.com/adancurusul/serial-mcp-server) 🦀 📟 - A comprehensive MCP server for serial port communication"
+        surrounding_text: >-
+          - [adancurusul/serial-mcp-server](https://github.com/adancurusul/serial-mcp-server) 🦀 📟 - A comprehensive
+          MCP server for serial port communication
         confidence: high
 metadata:
   github:
@@ -30,10 +32,12 @@ metadata:
     archived: false
     full_name: Adancurusul/serial-mcp-server
     html_url: https://github.com/Adancurusul/serial-mcp-server
-    created_at: "2025-08-06T03:05:03Z"
-    pushed_at: "2026-07-07T08:10:23Z"
-    description: Rust MCP server and CLI for serial/UART devices, with JSON macro automation and agent skills for repeatable timed workflows.
-    homepage: ""
+    created_at: '2025-08-06T03:05:03Z'
+    pushed_at: '2026-07-07T08:10:23Z'
+    description: >-
+      Rust MCP server and CLI for serial/UART devices, with JSON macro automation and agent skills for repeatable timed
+      workflows.
+    homepage: ''
     topics:
       - agent-skill
       - ai-agents
@@ -52,13 +56,17 @@ metadata:
       - skill
       - uart
       - usb-serial
-    last_checked_at: "2026-09-17T04:13:29.887Z"
+    last_checked_at: '2026-09-17T04:13:29.887Z'
     readme:
-      fetched_at: "2026-09-17T04:13:29.887Z"
+      fetched_at: '2026-09-17T04:13:29.887Z'
       bytes: 11207
 insights:
-  summary: A Rust-based MCP server and CLI that enables AI agents to interact with serial/UART hardware devices through structured commands and automated macros.
-  why_it_matters: It allows LLM-powered agents to perform complex, timed hardware debugging sequences and protocol handshakes that typically require manual CLI interaction.
+  summary: >-
+    A Rust-based MCP server and CLI that enables AI agents to interact with serial/UART hardware devices through
+    structured commands and automated macros.
+  why_it_matters: >-
+    It allows LLM-powered agents to perform complex, timed hardware debugging sequences and protocol handshakes that
+    typically require manual CLI interaction.
   mental_damage: Finally, an agent that can brick your hardware with the same confidence and speed as a human engineer.
   tags:
     - mcp
@@ -69,31 +77,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is centered on providing a specialized domain capability (serial communication) via the Model Context Protocol.
+  reason: >-
+    The product's identity is centered on providing a specialized domain capability (serial communication) via the Model
+    Context Protocol.
   evidence:
     - Explicitly identifies as an 'MCP stdio server' for clients supporting MCP tools.
     - Provides a JSON Macro DSL specifically to enable agent-driven hardware workflows.
     - Repo description and README focus on the MCP implementation and serial/UART connectivity.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.599Z"
+    updated_at: '2026-05-06T22:12:15.599Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:29.887Z"
+    updated_at: '2026-09-17T04:13:29.887Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:57:58.557Z"
+    updated_at: '2026-07-20T15:57:58.557Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -106,7 +117,9 @@ processing:
       input_hash: sha256:12a4a9caef5094cad1dc47ea117eb2e5d142f594209ccb3266c2082af40bd9bd
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's identity is centered on providing a specialized domain capability (serial communication) via the Model Context Protocol.
+      decision_reason: >-
+        The product's identity is centered on providing a specialized domain capability (serial communication) via the
+        Model Context Protocol.
       decision_evidence:
         - Explicitly identifies as an 'MCP stdio server' for clients supporting MCP tools.
         - Provides a JSON Macro DSL specifically to enable agent-driven hardware workflows.
@@ -114,6 +127,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is the server implementation itself rather than just a host-side integration layer.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is the server implementation itself rather than
+        just a host-side integration layer.
       review_reason: null
       review_resume_lifecycle: null

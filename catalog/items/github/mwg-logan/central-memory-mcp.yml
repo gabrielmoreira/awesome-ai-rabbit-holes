@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mwg-logan__central-memory-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: MWGMorningwood/Central-Memory-MCP
         extracted_url: https://github.com/mwgmorningwood/central-memory-mcp
-        surrounding_text: "- [MWGMorningwood/Central-Memory-MCP](https://github.com/MWGMorningwood/Central-Memory-MCP) 📇 ☁️ - An Azure PaaS-hostable MCP server that provides a workspace-grounded knowledge graph for multiple developers using Azure Functions MCP triggers and Table storage."
+        surrounding_text: >-
+          - [MWGMorningwood/Central-Memory-MCP](https://github.com/MWGMorningwood/Central-Memory-MCP) 📇 ☁️ - An Azure
+          PaaS-hostable MCP server that provides a workspace-grounded knowledge graph for multiple developers using
+          Azure Functions MCP triggers and Table storage.
         confidence: high
 metadata:
   github:
@@ -30,19 +33,25 @@ metadata:
     archived: false
     full_name: MWG-Logan/Central-Memory-MCP
     html_url: https://github.com/MWG-Logan/Central-Memory-MCP
-    created_at: "2025-07-14T17:26:17Z"
-    pushed_at: "2026-05-11T16:28:03Z"
+    created_at: '2025-07-14T17:26:17Z'
+    pushed_at: '2026-05-11T16:28:03Z'
     description: A custom fork of @modelcontextprotocol/server-memory using Azure Functions MCP triggers and Table storage.
     homepage: https://mwg-logan.github.io/Central-Memory-MCP/
     topics: []
-    last_checked_at: "2026-07-20T15:11:58.253Z"
+    last_checked_at: '2026-07-20T15:11:58.253Z'
     readme:
-      fetched_at: "2026-07-20T15:11:58.253Z"
+      fetched_at: '2026-07-20T15:11:58.253Z'
       bytes: 2622
 insights:
-  summary: A custom fork of the Model Context Protocol memory server using Azure Functions MCP triggers and Azure Table storage for persistence.
-  why_it_matters: Provides a hosted-memory MCP server for developers needing persistent context across Claude Code or other MCP-compatible agents without self-hosting infrastructure.
-  mental_damage: Yet another MCP memory fork that promises to solve context limits while adding yet another YAML file to your agent setup.
+  summary: >-
+    A custom fork of the Model Context Protocol memory server using Azure Functions MCP triggers and Azure Table storage
+    for persistence.
+  why_it_matters: >-
+    Provides a hosted-memory MCP server for developers needing persistent context across Claude Code or other
+    MCP-compatible agents without self-hosting infrastructure.
+  mental_damage: >-
+    Yet another MCP memory fork that promises to solve context limits while adding yet another YAML file to your agent
+    setup.
   tags:
     - mcp
     - memory
@@ -50,33 +59,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The project is an MCP server implementation with Azure-specific adaptations, making MCP its core identity rather than a mere compatibility layer.
+  reason: >-
+    The project is an MCP server implementation with Azure-specific adaptations, making MCP its core identity rather
+    than a mere compatibility layer.
   evidence:
-    - "Repo description: 'A custom fork of @modelcontextprotocol/server-memory using Azure Functions MCP triggers and Table storage'"
-    - "Source-list context: listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory"
-    - "Pushed at: 2026-04-27T12:25:21Z indicates recent activity"
+    - >-
+      Repo description: 'A custom fork of @modelcontextprotocol/server-memory using Azure Functions MCP triggers and
+      Table storage'
+    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory'
+    - 'Pushed at: 2026-04-27T12:25:21Z indicates recent activity'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.632Z"
+    updated_at: '2026-05-06T22:12:15.632Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-08-03T05:17:09.523Z"
+    updated_at: '2026-08-03T05:17:09.523Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for mwg-logan/central-memory-mcp
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:55:52.363Z"
+    updated_at: '2026-05-12T15:55:52.363Z'
     cause: null
     next_retry_at: null
     attempts: 2

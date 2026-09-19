@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__digma-ai__digma-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Official Servers
         anchor_text: Digma
         extracted_url: https://github.com/digma-ai/digma-mcp-server
-        surrounding_text: "- **[Digma](https://github.com/digma-ai/digma-mcp-server)** - A code observability MCP enabling dynamic code analysis based on OTEL/APM data to assist in code reviews, issues identification and fix, highlighting risky code etc."
+        surrounding_text: >-
+          - **[Digma](https://github.com/digma-ai/digma-mcp-server)** - A code observability MCP enabling dynamic code
+          analysis based on OTEL/APM data to assist in code reviews, issues identification and fix, highlighting risky
+          code etc.
         confidence: high
 metadata:
   github:
@@ -29,18 +32,20 @@ metadata:
     archived: false
     full_name: digma-ai/digma-mcp-server
     html_url: https://github.com/digma-ai/digma-mcp-server
-    created_at: "2025-04-21T08:38:45Z"
-    pushed_at: "2025-05-06T20:24:08Z"
+    created_at: '2025-04-21T08:38:45Z'
+    pushed_at: '2025-05-06T20:24:08Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:40.699Z"
+    last_checked_at: '2026-09-14T04:13:40.699Z'
     readme:
-      fetched_at: "2026-09-14T04:13:40.699Z"
+      fetched_at: '2026-09-14T04:13:40.699Z'
       bytes: 3860
 insights:
   summary: An MCP server that provides AI agents with observability insights and dynamic code analysis via Digma.
-  why_it_matters: It allows coding assistants to perform context-aware code reviews and performance analysis by accessing real-time runtime and distributed tracing data.
+  why_it_matters: >-
+    It allows coding assistants to perform context-aware code reviews and performance analysis by accessing real-time
+    runtime and distributed tracing data.
   mental_damage: Because why just fix bugs when you can have an LLM hallucinate about your production runtime metrics?
   tags:
     - mcp
@@ -51,31 +56,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an implementation of an MCP server designed to provide specific domain knowledge (observability) to MCP clients.
+  reason: >-
+    The project is explicitly an implementation of an MCP server designed to provide specific domain knowledge
+    (observability) to MCP clients.
   evidence:
     - README explicitly identifies as 'A Model Context Protocol (MCP) server implementation'
     - Primary function is enabling agents to access observability insights via MCP
     - Provides context for agents via SSE or command tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.611Z"
+    updated_at: '2026-05-06T22:12:15.611Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:40.699Z"
+    updated_at: '2026-09-14T04:13:40.699Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:03.312Z"
+    updated_at: '2026-07-21T15:51:03.312Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +96,9 @@ processing:
       input_hash: sha256:5b56a2ccf0827fc54886c2daffcbcf3c1117bcd982742af2f62ebea15ecb9806
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is explicitly an implementation of an MCP server designed to provide specific domain knowledge (observability) to MCP clients.
+      decision_reason: >-
+        The project is explicitly an implementation of an MCP server designed to provide specific domain knowledge
+        (observability) to MCP clients.
       decision_evidence:
         - README explicitly identifies as 'A Model Context Protocol (MCP) server implementation'
         - Primary function is enabling agents to access observability insights via MCP
@@ -96,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's identity is defined by its role as an MCP server/middleware layer for protocol-based data access.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's identity is defined by its role as an MCP
+        server/middleware layer for protocol-based data access.
       review_reason: null
       review_resume_lifecycle: null

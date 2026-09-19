@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__spyrae__claude-concilium__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: spyrae/claude-concilium
         extracted_url: https://github.com/spyrae/claude-concilium
-        surrounding_text: "- [spyrae/claude-concilium](https://github.com/spyrae/claude-concilium) 📇 🏠 🍎 🪟 🐧 - Multi-agent AI consultation framework for Claude Code. Three MCP servers wrapping CLI tools (Codex, Gemini, Qwen) for parallel code review and problem-solving with fallback chains and error detection. Includes ready-to-use Claude Code skill."
+        surrounding_text: >-
+          - [spyrae/claude-concilium](https://github.com/spyrae/claude-concilium) 📇 🏠 🍎 🪟 🐧 - Multi-agent AI
+          consultation framework for Claude Code. Three MCP servers wrapping CLI tools (Codex, Gemini, Qwen) for
+          parallel code review and problem-solving with fallback chains and error detection. Includes ready-to-use
+          Claude Code skill.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: spyrae/claude-concilium
     html_url: https://github.com/spyrae/claude-concilium
-    created_at: "2026-02-20T03:50:52Z"
-    pushed_at: "2026-03-02T03:32:07Z"
-    description: Multi-agent AI consultation framework for Claude Code via MCP — get second opinions from OpenAI, Gemini, Qwen, DeepSeek
+    created_at: '2026-02-20T03:50:52Z'
+    pushed_at: '2026-03-02T03:32:07Z'
+    description: >-
+      Multi-agent AI consultation framework for Claude Code via MCP — get second opinions from OpenAI, Gemini, Qwen,
+      DeepSeek
     homepage: null
     topics:
       - ai-agents
@@ -45,14 +51,20 @@ metadata:
       - mcp-server
       - multi-agent
       - openai
-    last_checked_at: "2026-07-20T16:43:01.806Z"
+    last_checked_at: '2026-07-20T16:43:01.806Z'
     readme:
-      fetched_at: "2026-07-20T16:43:01.806Z"
+      fetched_at: '2026-07-20T16:43:01.806Z'
       bytes: 10063
 insights:
-  summary: A multi-agent MCP framework that enables Claude Code to run parallel code consultations with OpenAI, Gemini, Qwen, and DeepSeek for cross-model review and consensus.
-  why_it_matters: Developers can get second and third opinions from different LLMs directly inside Claude Code, reducing blind spots and local-optimum bugs without leaving the assistant.
-  mental_damage: "We have finally achieved the logical endpoint of 2025: orchestrating a committee of LLMs to argue about your race conditions while you pray one of them is having a good token day."
+  summary: >-
+    A multi-agent MCP framework that enables Claude Code to run parallel code consultations with OpenAI, Gemini, Qwen,
+    and DeepSeek for cross-model review and consensus.
+  why_it_matters: >-
+    Developers can get second and third opinions from different LLMs directly inside Claude Code, reducing blind spots
+    and local-optimum bugs without leaving the assistant.
+  mental_damage: >-
+    We have finally achieved the logical endpoint of 2025: orchestrating a committee of LLMs to argue about your race
+    conditions while you pray one of them is having a good token day.
   tags:
     - mcp
     - multi-agent
@@ -62,35 +74,40 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The core product augments Claude Code with multi-agent consultation capabilities via MCP servers, making it an extension that adds host integration and workflow capabilities rather than acting as the primary coding assistant.
+  reason: >-
+    The core product augments Claude Code with multi-agent consultation capabilities via MCP servers, making it an
+    extension that adds host integration and workflow capabilities rather than acting as the primary coding assistant.
   evidence:
     - Repo description explicitly states 'Multi-agent AI consultation framework for Claude Code via MCP'
     - README architecture diagram shows Claude Code as the primary surface with Concilium adding parallel consultations
-    - Includes optional skill file 'ai-concilium.md' to be copied into ~/.claude/commands/, confirming it extends Claude Code
+    - >-
+      Includes optional skill file 'ai-concilium.md' to be copied into ~/.claude/commands/, confirming it extends Claude
+      Code
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: Claude Code & Agent Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.649Z"
+    updated_at: '2026-05-06T22:12:15.649Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:43:01.806Z"
+    updated_at: '2026-07-20T16:43:01.806Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

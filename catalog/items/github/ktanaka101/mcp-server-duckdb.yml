@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ktanaka101__mcp-server-duckdb__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: ktanaka101/mcp-server-duckdb
         extracted_url: https://github.com/ktanaka101/mcp-server-duckdb
-        surrounding_text: "- [ktanaka101/mcp-server-duckdb](https://github.com/ktanaka101/mcp-server-duckdb) 🐍 🏠 - DuckDB database integration with schema inspection and query capabilities"
+        surrounding_text: >-
+          - [ktanaka101/mcp-server-duckdb](https://github.com/ktanaka101/mcp-server-duckdb) 🐍 🏠 - DuckDB database
+          integration with schema inspection and query capabilities
         confidence: high
     - id: discovery__github__ktanaka101__mcp-server-duckdb__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - 🗄️ Databases
         anchor_text: ktanaka101/mcp-server-duckdb
         extracted_url: https://github.com/ktanaka101/mcp-server-duckdb
-        surrounding_text: "-   **[ktanaka101/mcp-server-duckdb](https://github.com/ktanaka101/mcp-server-duckdb)** [![GitHub stars](https://img.shields.io/github/stars/ktanaka101/mcp-server-duckdb?style=social)](https://github.com/ktanaka101/mcp-server-duckdb): Integrates with DuckDB, offering schema inspection and query features."
+        surrounding_text: >-
+          -   **[ktanaka101/mcp-server-duckdb](https://github.com/ktanaka101/mcp-server-duckdb)** [![GitHub
+          stars](https://img.shields.io/github/stars/ktanaka101/mcp-server-duckdb?style=social)](https://github.com/ktanaka101/mcp-server-duckdb):
+          Integrates with DuckDB, offering schema inspection and query features.
         confidence: high
 metadata:
   github:
@@ -45,21 +50,25 @@ metadata:
     archived: false
     full_name: ktanaka101/mcp-server-duckdb
     html_url: https://github.com/ktanaka101/mcp-server-duckdb
-    created_at: "2024-11-30T14:25:37Z"
-    pushed_at: "2025-05-05T11:02:57Z"
+    created_at: '2024-11-30T14:25:37Z'
+    pushed_at: '2025-05-05T11:02:57Z'
     description: A Model Context Protocol (MCP) server implementation for DuckDB, providing database interaction capabilities
-    homepage: ""
+    homepage: ''
     topics:
       - duckdb
       - mcp
       - mcp-server
-    last_checked_at: "2026-07-30T05:05:58.393Z"
+    last_checked_at: '2026-07-30T05:05:58.393Z'
     readme:
-      fetched_at: "2026-07-30T05:05:58.393Z"
+      fetched_at: '2026-07-30T05:05:58.393Z'
       bytes: 4751
 insights:
-  summary: An MCP server implementation for DuckDB that enables database interaction capabilities through the Model Context Protocol.
-  why_it_matters: It allows developers to integrate DuckDB database operations directly into MCP-compatible AI workflows, enabling local data analysis without leaving their coding environment.
+  summary: >-
+    An MCP server implementation for DuckDB that enables database interaction capabilities through the Model Context
+    Protocol.
+  why_it_matters: >-
+    It allows developers to integrate DuckDB database operations directly into MCP-compatible AI workflows, enabling
+    local data analysis without leaving their coding environment.
   mental_damage: Now your AI can query your local DuckDB files, because apparently writing SQL by hand was the last straw.
   tags:
     - mcp
@@ -70,31 +79,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server whose primary identity is providing DuckDB database interaction via MCP, fitting squarely in the MCP Servers & Tooling category.
+  reason: >-
+    This is a dedicated MCP server whose primary identity is providing DuckDB database interaction via MCP, fitting
+    squarely in the MCP Servers & Tooling category.
   evidence:
     - Repo description explicitly states it is an MCP server for DuckDB
     - README confirms it implements MCP tools for database operations
     - Listed in multiple MCP server directories under Databases
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: promotion_candidate
   reason: Stars (174) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.589Z"
+    updated_at: '2026-05-06T22:12:15.589Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:58.393Z"
+    updated_at: '2026-07-30T05:05:58.393Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:10.171Z"
+    updated_at: '2026-07-21T16:13:10.171Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -107,7 +119,9 @@ processing:
       input_hash: sha256:6c8acd11513c10a1fee7f63b0fecac5e34ad8112e9261729e121ec21d7c049da
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a dedicated MCP server whose primary identity is providing DuckDB database interaction via MCP, fitting squarely in the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is a dedicated MCP server whose primary identity is providing DuckDB database interaction via MCP, fitting
+        squarely in the MCP Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for DuckDB
         - README confirms it implements MCP tools for database operations
@@ -115,6 +129,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__deepsource__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,9 @@ provenance:
           - Code Review and Refactoring
         anchor_text: DeepSource
         extracted_url: https://deepsource.io
-        surrounding_text: "- **[DeepSource](https://deepsource.io/)** – Automated code review with tech debt tracking and security analysis."
+        surrounding_text: >-
+          - **[DeepSource](https://deepsource.io/)** – Automated code review with tech debt tracking and security
+          analysis.
         confidence: high
 metadata:
   github:
@@ -36,9 +38,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered code review platform that combines static analysis with AI agents to automate security, quality, and complexity checks.
-  why_it_matters: It automates the heavy lifting of pull request reviews by providing high-signal feedback and automated patches for security vulnerabilities and bugs.
-  mental_damage: Nothing says 'production-ready' like a bot telling you that your security architecture is essentially a series of open doors.
+  summary: >-
+    An AI-powered code review platform that combines static analysis with AI agents to automate security, quality, and
+    complexity checks.
+  why_it_matters: >-
+    It automates the heavy lifting of pull request reviews by providing high-signal feedback and automated patches for
+    security vulnerabilities and bugs.
+  mental_damage: >-
+    Nothing says 'production-ready' like a bot telling you that your security architecture is essentially a series of
+    open doors.
   tags:
     - code-review
     - static-analysis
@@ -48,21 +56,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: DeepSource acts as an automated reviewer that directly inspects code to plan, detect, and repair bugs and security flaws.
+  reason: >-
+    DeepSource acts as an automated reviewer that directly inspects code to plan, detect, and repair bugs and security
+    flaws.
   evidence:
     - Claims to use AI agents for deep code review and automated fixes (Autofix™)
     - Provides structured feedback on security, reliability, and complexity during pull requests
     - Found in awesome-ai-coding-tools under Code Review and Refactoring
 placement:
   primary_category: coding-agents
-  section: Review, Testing & Repair Agents
+  secondary_categories: []
+  section: Review, Testing & Repair
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.660Z"
+    updated_at: '2026-05-06T22:12:15.660Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +82,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:37:00.990Z"
+    updated_at: '2026-07-20T15:37:00.990Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +95,9 @@ processing:
       input_hash: sha256:296c0bf63493ecf4f23c9ef9679eeb2cfa6e99aaec0435660f5baada3bd027ef
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: DeepSource acts as an automated reviewer that directly inspects code to plan, detect, and repair bugs and security flaws.
+      decision_reason: >-
+        DeepSource acts as an automated reviewer that directly inspects code to plan, detect, and repair bugs and
+        security flaws.
       decision_evidence:
         - Claims to use AI agents for deep code review and automated fixes (Autofix™)
         - Provides structured feedback on security, reliability, and complexity during pull requests
@@ -92,6 +105,8 @@ processing:
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because the product functions as a standalone automated review agent rather than just a thin plugin for an IDE.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because the product functions as a standalone automated review agent
+        rather than just a thin plugin for an IDE.
       review_reason: null
       review_resume_lifecycle: null

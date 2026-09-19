@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bradleylab__stella-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🧮 <a name="data-science-tools"></a>Data Science Tools
         anchor_text: bradleylab/stella-mcp
         extracted_url: https://github.com/bradleylab/stella-mcp
-        surrounding_text: "- [bradleylab/stella-mcp](https://github.com/bradleylab/stella-mcp) 🐍 🏠 - Create, read, validate, and save Stella system dynamics models (.stmx files in XMILE format) for scientific simulation and modeling."
+        surrounding_text: >-
+          - [bradleylab/stella-mcp](https://github.com/bradleylab/stella-mcp) 🐍 🏠 - Create, read, validate, and save
+          Stella system dynamics models (.stmx files in XMILE format) for scientific simulation and modeling.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: bradleylab/stella-mcp
     html_url: https://github.com/bradleylab/stella-mcp
-    created_at: "2026-01-13T01:57:28Z"
-    pushed_at: "2026-08-11T01:49:04Z"
+    created_at: '2026-01-13T01:57:28Z'
+    pushed_at: '2026-08-11T01:49:04Z'
     description: MCP server for Stella
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:37.306Z"
+    last_checked_at: '2026-09-07T04:13:37.306Z'
     readme:
-      fetched_at: "2026-09-07T04:13:37.306Z"
+      fetched_at: '2026-09-07T04:13:37.306Z'
       bytes: 33832
 insights:
   summary: An MCP server for creating and manipulating Stella system dynamics models in XMILE format.
-  why_it_matters: It lets AI assistants programmatically build, read, validate, and save Stella models, enabling natural language-driven system dynamics modeling workflows.
+  why_it_matters: >-
+    It lets AI assistants programmatically build, read, validate, and save Stella models, enabling natural
+    language-driven system dynamics modeling workflows.
   mental_damage: Now your AI can argue about stock-and-flow diagrams while you question your life choices.
   tags:
     - mcp
@@ -54,29 +58,30 @@ curation:
   status: included
   reason: The product is explicitly an MCP server whose primary identity is providing Stella modeling capabilities via MCP.
   evidence:
-    - "Repo description: 'MCP server for Stella'"
-    - "README: 'A Model Context Protocol (MCP) server for creating and manipulating Stella system dynamics models'"
-    - "Source-list context: Listed in awesome-mcp-servers under 'Server Implementations > Data Science Tools'"
+    - 'Repo description: ''MCP server for Stella'''
+    - 'README: ''A Model Context Protocol (MCP) server for creating and manipulating Stella system dynamics models'''
+    - 'Source-list context: Listed in awesome-mcp-servers under ''Server Implementations > Data Science Tools'''
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.606Z"
+    updated_at: '2026-05-06T22:12:15.606Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:37.306Z"
+    updated_at: '2026-09-07T04:13:37.306Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:26:40.069Z"
+    updated_at: '2026-07-21T15:26:40.069Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,14 +94,18 @@ processing:
       input_hash: sha256:eaa129a46abc2996360059d45d89a122b1db8c89d7dc2ab86e8b82dce6f5c91d
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server whose primary identity is providing Stella modeling capabilities via MCP.
+      decision_reason: >-
+        The product is explicitly an MCP server whose primary identity is providing Stella modeling capabilities via
+        MCP.
       decision_evidence:
-        - "Repo description: 'MCP server for Stella'"
-        - "README: 'A Model Context Protocol (MCP) server for creating and manipulating Stella system dynamics models'"
-        - "Source-list context: Listed in awesome-mcp-servers under 'Server Implementations > Data Science Tools'"
+        - 'Repo description: ''MCP server for Stella'''
+        - 'README: ''A Model Context Protocol (MCP) server for creating and manipulating Stella system dynamics models'''
+        - 'Source-list context: Listed in awesome-mcp-servers under ''Server Implementations > Data Science Tools'''
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

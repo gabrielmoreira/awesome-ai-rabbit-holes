@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alapi-sdk__mcp-alapi-cn__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: ALAPI
         extracted_url: https://github.com/alapi-sdk/mcp-alapi-cn
-        surrounding_text: "- **[ALAPI](https://github.com/ALAPI-SDK/mcp-alapi-cn)** - ALAPI MCP Tools,Call hundreds of API interfaces via MCP"
+        surrounding_text: >-
+          - **[ALAPI](https://github.com/ALAPI-SDK/mcp-alapi-cn)** - ALAPI MCP Tools,Call hundreds of API interfaces via
+          MCP
         confidence: high
 metadata:
   github:
@@ -29,21 +31,25 @@ metadata:
     archived: false
     full_name: ALAPI-SDK/mcp-alapi-cn
     html_url: https://github.com/ALAPI-SDK/mcp-alapi-cn
-    created_at: "2025-03-30T09:06:44Z"
-    pushed_at: "2025-04-16T12:28:26Z"
+    created_at: '2025-03-30T09:06:44Z'
+    pushed_at: '2025-04-16T12:28:26Z'
     description: 这是一个基于 [ALAPI](https://www.alapi.cn) 的 MCP (Model Control Protocol) 服务器实现，可以通过MCP协议直接调用ALAPI的接口
-    homepage: ""
+    homepage: ''
     topics:
       - mcp
       - mcp-go
       - mcp-server
-    last_checked_at: "2026-09-17T04:13:38.049Z"
+    last_checked_at: '2026-09-17T04:13:38.049Z'
     readme:
-      fetched_at: "2026-09-17T04:13:38.049Z"
+      fetched_at: '2026-09-17T04:13:38.049Z'
       bytes: 5845
 insights:
-  summary: An MCP server implementation that exposes ALAPI's 100+ utility APIs (IP lookup, weather, enterprise info, etc.) to MCP-compatible AI clients.
-  why_it_matters: Lets developers integrate real-world data APIs into their AI workflows without custom glue code, using the MCP protocol.
+  summary: >-
+    An MCP server implementation that exposes ALAPI's 100+ utility APIs (IP lookup, weather, enterprise info, etc.) to
+    MCP-compatible AI clients.
+  why_it_matters: >-
+    Lets developers integrate real-world data APIs into their AI workflows without custom glue code, using the MCP
+    protocol.
   mental_damage: Now your AI can argue with you about the weather while also fixing your code.
   tags:
     - mcp-server
@@ -60,24 +66,25 @@ curation:
     - Listed in awesome-mcp-servers under Official Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.601Z"
+    updated_at: '2026-05-06T22:12:15.601Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:38.049Z"
+    updated_at: '2026-09-17T04:13:38.049Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:21:52.942Z"
+    updated_at: '2026-07-21T15:21:52.942Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -98,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server rather than an extension for another tool.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server rather than an
+        extension for another tool.
       review_reason: null
       review_resume_lifecycle: null

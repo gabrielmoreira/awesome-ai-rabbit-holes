@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__dune-analytics-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/dune-analytics-mcp
         extracted_url: https://github.com/kukapay/dune-analytics-mcp
-        surrounding_text: "- [kukapay/dune-analytics-mcp](https://github.com/kukapay/dune-analytics-mcp) 🐍 ☁️ -  A mcp server that bridges Dune Analytics data to AI agents."
+        surrounding_text: >-
+          - [kukapay/dune-analytics-mcp](https://github.com/kukapay/dune-analytics-mcp) 🐍 ☁️ -  A mcp server that
+          bridges Dune Analytics data to AI agents.
         confidence: high
     - id: discovery__github__kukapay__dune-analytics-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - 💰 Finance & Fintech
         anchor_text: kukapay/dune-analytics-mcp
         extracted_url: https://github.com/kukapay/dune-analytics-mcp
-        surrounding_text: "-   **[kukapay/dune-analytics-mcp](https://github.com/kukapay/dune-analytics-mcp)** [![GitHub stars](https://img.shields.io/github/stars/kukapay/dune-analytics-mcp?style=social)](https://github.com/kukapay/dune-analytics-mcp): Bridges Dune Analytics data to AI agents."
+        surrounding_text: >-
+          -   **[kukapay/dune-analytics-mcp](https://github.com/kukapay/dune-analytics-mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/kukapay/dune-analytics-mcp?style=social)](https://github.com/kukapay/dune-analytics-mcp):
+          Bridges Dune Analytics data to AI agents.
         confidence: high
 metadata:
   github:
@@ -45,19 +50,23 @@ metadata:
     archived: false
     full_name: kukapay/dune-analytics-mcp
     html_url: https://github.com/kukapay/dune-analytics-mcp
-    created_at: "2025-03-16T03:25:40Z"
-    pushed_at: "2025-05-04T01:51:29Z"
+    created_at: '2025-03-16T03:25:40Z'
+    pushed_at: '2025-05-04T01:51:29Z'
     description: A mcp server that bridges Dune Analytics data to AI agents.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:06:00.133Z"
+    last_checked_at: '2026-07-30T05:06:00.133Z'
     readme:
-      fetched_at: "2026-07-30T05:06:00.133Z"
+      fetched_at: '2026-07-30T05:06:00.133Z'
       bytes: 2446
 insights:
   summary: An MCP server that exposes Dune Analytics query execution and results retrieval to AI agents.
-  why_it_matters: Developers can now let their agents fetch and process on-chain or financial data from Dune without leaving their coding workflow.
-  mental_damage: Because nothing says 'modern development' like your AI assistant casually running SQL against Ethereum blocks while you debug a frontend.
+  why_it_matters: >-
+    Developers can now let their agents fetch and process on-chain or financial data from Dune without leaving their
+    coding workflow.
+  mental_damage: >-
+    Because nothing says 'modern development' like your AI assistant casually running SQL against Ethereum blocks while
+    you debug a frontend.
   tags:
     - mcp
     - dune-analytics
@@ -74,24 +83,25 @@ curation:
     - Listed in awesome-mcp-list under Finance & Fintech section
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.589Z"
+    updated_at: '2026-05-06T22:12:15.589Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:00.133Z"
+    updated_at: '2026-07-30T05:06:00.133Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:55.563Z"
+    updated_at: '2026-07-21T16:13:55.563Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,7 +114,9 @@ processing:
       input_hash: sha256:39e31b1dec609cd3a3702e56a0d8b6a926fbe3ba3d35e742534a0e1c9eed95c3
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server whose primary identity is bridging Dune Analytics data to AI agents via MCP.
+      decision_reason: >-
+        The product is explicitly an MCP server whose primary identity is bridging Dune Analytics data to AI agents via
+        MCP.
       decision_evidence:
         - Repo description states it is 'A mcp server that bridges Dune Analytics data to AI agents'
         - README confirms MCP server functionality with tools like get_latest_result and run_query
@@ -112,6 +124,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension augmenting another assistant).
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension augmenting another
+        assistant).
       review_reason: null
       review_resume_lifecycle: null

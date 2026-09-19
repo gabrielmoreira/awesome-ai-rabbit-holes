@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__op7418__codepilot__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 代码 Coding
         anchor_text: CodePilot
         extracted_url: https://github.com/op7418/codepilot
-        surrounding_text: 14. [Claude Code (`🔥`)](https://github.com/anthropics/claude-code) + [Happy Coder](https://github.com/slopus/happy) / [CodePilot](https://github.com/op7418/CodePilot)
+        surrounding_text: >-
+          14. [Claude Code (`🔥`)](https://github.com/anthropics/claude-code) + [Happy
+          Coder](https://github.com/slopus/happy) / [CodePilot](https://github.com/op7418/CodePilot)
         confidence: high
 metadata:
   github:
@@ -29,9 +31,11 @@ metadata:
     archived: false
     full_name: op7418/CodePilot
     html_url: https://github.com/op7418/CodePilot
-    created_at: "2026-02-06T12:38:55Z"
-    pushed_at: "2026-07-20T13:45:55Z"
-    description: A multi-model AI agent desktop client — connect any AI provider, extend with MCP & skills, control from your phone. Built with Electron + Next.js.
+    created_at: '2026-02-06T12:38:55Z'
+    pushed_at: '2026-07-20T13:45:55Z'
+    description: >-
+      A multi-model AI agent desktop client — connect any AI provider, extend with MCP & skills, control from your
+      phone. Built with Electron + Next.js.
     homepage: https://www.codepilot.sh/
     topics:
       - ai
@@ -42,14 +46,20 @@ metadata:
       - electron
       - gui
       - nextjs
-    last_checked_at: "2026-07-20T16:42:24.703Z"
+    last_checked_at: '2026-07-20T16:42:24.703Z'
     readme:
-      fetched_at: "2026-07-20T16:42:24.703Z"
+      fetched_at: '2026-07-20T16:42:24.703Z'
       bytes: 13195
 insights:
-  summary: A multi-model AI agent desktop client built with Electron and Next.js that connects to 17+ AI providers, supports MCP servers and skills, and can be controlled remotely via phone.
-  why_it_matters: It offers developers a single desktop interface to switch between AI models mid-conversation, manage persistent memory, and extend capabilities via MCP without being locked into a single provider.
-  mental_damage: Another desktop wrapper that promises to unify every AI provider into one existential dashboard, just in case the 12 assistants you already installed weren't enough to avoid actually writing code.
+  summary: >-
+    A multi-model AI agent desktop client built with Electron and Next.js that connects to 17+ AI providers, supports
+    MCP servers and skills, and can be controlled remotely via phone.
+  why_it_matters: >-
+    It offers developers a single desktop interface to switch between AI models mid-conversation, manage persistent
+    memory, and extend capabilities via MCP without being locked into a single provider.
+  mental_damage: >-
+    Another desktop wrapper that promises to unify every AI provider into one existential dashboard, just in case the 12
+    assistants you already installed weren't enough to avoid actually writing code.
   tags:
     - desktop-app
     - multi-model
@@ -59,35 +69,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: CodePilot is a standalone desktop coding agent and general-purpose AI assistant that developers use as their primary interface for coding and agent tasks, not merely an extension of another tool.
+  reason: >-
+    CodePilot is a standalone desktop coding agent and general-purpose AI assistant that developers use as their primary
+    interface for coding and agent tasks, not merely an extension of another tool.
   evidence:
     - Repo description explicitly calls it 'A multi-model AI agent desktop client' with coding origins.
-    - README states it 'started as a coding tool' and supports file editing, terminal commands, and git operations via Claude Code CLI integration.
+    - >-
+      README states it 'started as a coding tool' and supports file editing, terminal commands, and git operations via
+      Claude Code CLI integration.
     - 5,631 stars and active development (pushed 2026-04-24) with cross-platform desktop releases.
 placement:
-  primary_category: coding-agents
-  section: Browser/Desktop/Computer-Use Agents
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (5631) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.640Z"
+    updated_at: '2026-05-06T22:12:15.640Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:24.703Z"
+    updated_at: '2026-07-20T16:42:24.703Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

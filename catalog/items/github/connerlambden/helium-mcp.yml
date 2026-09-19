@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__connerlambden__helium-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,14 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: connerlambden/helium-mcp
         extracted_url: https://github.com/connerlambden/helium-mcp
-        surrounding_text: "- [connerlambden/helium-mcp](https://github.com/connerlambden/helium-mcp) [![helium-mcp MCP server](https://glama.ai/mcp/servers/connerlambden/helium-mcp/badges/score.svg)](https://glama.ai/mcp/servers/connerlambden/helium-mcp) 📇 ☁️ - Real-time news with bias scoring across 5,000+ sources (15+ dimensions), AI-powered options pricing, balanced news synthesis, live market data, and meme search. 9 tools. 50 free queries, no signup needed."
+        surrounding_text: >-
+          - [connerlambden/helium-mcp](https://github.com/connerlambden/helium-mcp) [![helium-mcp MCP
+          server](https://glama.ai/mcp/servers/connerlambden/helium-mcp/badges/score.svg)](https://glama.ai/mcp/servers/connerlambden/helium-mcp)
+          📇 ☁️ - Real-time news with bias scoring across 5,000+ sources (15+ dimensions), AI-powered options pricing,
+          balanced news synthesis, live market data, and meme search. 9 tools. 50 free queries, no signup needed.
         confidence: high
     - id: discovery__github__connerlambden__helium-mcp__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -35,7 +39,12 @@ provenance:
           - MCP Servers and Directories
         anchor_text: Helium MCP
         extracted_url: https://github.com/connerlambden/helium-mcp
-        surrounding_text: "- **[Helium MCP](https://github.com/connerlambden/helium-mcp)** – Remote MCP server for AI coding assistants with real-time news and multi-dimensional bias scoring (3.2M+ articles, 5000+ sources), financial markets (stocks, ETFs, crypto, AI bull/bear cases), ML options pricing (ITM probability, Greeks, fair value), balanced news synthesis, trending topics, and semantic meme search. [Documentation](https://heliumtrades.com/mcp-page/)."
+        surrounding_text: >-
+          - **[Helium MCP](https://github.com/connerlambden/helium-mcp)** – Remote MCP server for AI coding assistants
+          with real-time news and multi-dimensional bias scoring (3.2M+ articles, 5000+ sources), financial markets
+          (stocks, ETFs, crypto, AI bull/bear cases), ML options pricing (ITM probability, Greeks, fair value), balanced
+          news synthesis, trending topics, and semantic meme search.
+          [Documentation](https://heliumtrades.com/mcp-page/).
         confidence: high
 metadata:
   github:
@@ -45,9 +54,11 @@ metadata:
     archived: false
     full_name: null
     html_url: null
-    created_at: "2026-04-10T20:37:16Z"
-    pushed_at: "2026-07-06T17:43:11Z"
-    description: MCP server for real-time news with bias scoring, live stock/ETF/crypto data, AI options pricing, balanced news synthesis, and meme search. 10 tools, 5000+ sources, free tier.
+    created_at: '2026-04-10T20:37:16Z'
+    pushed_at: '2026-07-06T17:43:11Z'
+    description: >-
+      MCP server for real-time news with bias scoring, live stock/ETF/crypto data, AI options pricing, balanced news
+      synthesis, and meme search. 10 tools, 5000+ sources, free tier.
     homepage: https://heliumtrades.com/mcp-page/
     topics:
       - ai
@@ -70,9 +81,9 @@ metadata:
       - stocks
       - trading
       - windsurf
-    last_checked_at: "2026-07-20T05:17:25.467Z"
+    last_checked_at: '2026-07-20T05:17:25.467Z'
     readme:
-      fetched_at: "2026-07-20T05:17:25.467Z"
+      fetched_at: '2026-07-20T05:17:25.467Z'
       bytes: 10841
 insights:
   summary: MCP server providing real-time news with bias scoring, live financial data, AI options pricing, and meme search.
@@ -94,26 +105,27 @@ curation:
     - Source lists categorize it under MCP Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.584Z"
+    updated_at: '2026-05-06T22:12:15.584Z'
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: "2026-09-14T04:13:28.753Z"
+    updated_at: '2026-09-14T04:13:28.753Z'
     cause:
       type: github_repo_missing
-      message: "GitHub repository not found: connerlambden/helium-mcp"
+      message: 'GitHub repository not found: connerlambden/helium-mcp'
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:47:53.035Z"
+    updated_at: '2026-07-21T15:47:53.035Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -126,7 +138,9 @@ processing:
       input_hash: sha256:3b48effafcad7ca13ca2ace388c801705c634fdb74797bbf948439d6ba167df0
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server with domain-specific tools (finance, news, memes) as its primary identity.
+      decision_reason: >-
+        The product is explicitly an MCP server with domain-specific tools (finance, news, memes) as its primary
+        identity.
       decision_evidence:
         - Repo description explicitly states it is an MCP server
         - README details MCP integration for Cursor, Claude Desktop, Windsurf, and GitHub Copilot
@@ -134,6 +148,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__0xdegenmo__lighter-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,14 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: 0xDegenMo/lighter-mcp
         extracted_url: https://github.com/0xdegenmo/lighter-mcp
-        surrounding_text: "- [0xDegenMo/lighter-mcp](https://github.com/0xDegenMo/lighter-mcp) [![0xDegenMo/lighter-mcp MCP server](https://glama.ai/mcp/servers/0xDegenMo/lighter-mcp/badges/score.svg)](https://glama.ai/mcp/servers/0xDegenMo/lighter-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - MCP server for [Lighter](https://lighter.xyz) — a zero-fee zk-rollup perpetual DEX. Trade ~190 perpetuals (crypto + RWA: PAXG/XAU gold, XAG silver, WTI oil, equity tickers like TSLA/AMZN/ASML) from Claude Desktop, Cursor, Hermes, or any MCP client. Three credential tiers (PUBLIC market data → READ account → TRADE signing), native on-chain stop-loss / take-profit, server-side safety caps (max-quote-USD, slippage, symbol allowlist). `pip install 0xdegenmo-lighter-mcp`."
+        surrounding_text: >-
+          - [0xDegenMo/lighter-mcp](https://github.com/0xDegenMo/lighter-mcp) [![0xDegenMo/lighter-mcp MCP
+          server](https://glama.ai/mcp/servers/0xDegenMo/lighter-mcp/badges/score.svg)](https://glama.ai/mcp/servers/0xDegenMo/lighter-mcp)
+          🐍 ☁️ 🏠 🍎 🪟 🐧 - MCP server for [Lighter](https://lighter.xyz) — a zero-fee zk-rollup perpetual DEX. Trade
+          ~190 perpetuals (crypto + RWA: PAXG/XAU gold, XAG silver, WTI oil, equity tickers like TSLA/AMZN/ASML) from
+          Claude Desktop, Cursor, Hermes, or any MCP client. Three credential tiers (PUBLIC market data → READ account →
+          TRADE signing), native on-chain stop-loss / take-profit, server-side safety caps (max-quote-USD, slippage,
+          symbol allowlist). `pip install 0xdegenmo-lighter-mcp`.
         confidence: high
 metadata:
   github:
@@ -30,19 +37,23 @@ metadata:
     archived: false
     full_name: 0xDegenMo/lighter-mcp
     html_url: https://github.com/0xDegenMo/lighter-mcp
-    created_at: "2026-05-20T12:07:54Z"
-    pushed_at: "2026-05-28T20:16:41Z"
+    created_at: '2026-05-20T12:07:54Z'
+    pushed_at: '2026-05-28T20:16:41Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:24.859Z"
+    last_checked_at: '2026-09-17T04:13:24.859Z'
     readme:
-      fetched_at: "2026-09-17T04:13:24.859Z"
+      fetched_at: '2026-09-17T04:13:24.859Z'
       bytes: 11102
 insights:
   summary: An MCP server that enables AI assistants to interact with the Lighter zero-fee zk-rollup perpetual DEX on Ethereum.
-  why_it_matters: It allows developers to automate trading, manage positions, and query market state directly through MCP-aware clients like Claude Desktop and Cursor.
-  mental_damage: "We have finally reached the peak of efficiency: delegating the precise timing of our financial ruin to a LLM's reasoning capabilities."
+  why_it_matters: >-
+    It allows developers to automate trading, manage positions, and query market state directly through MCP-aware
+    clients like Claude Desktop and Cursor.
+  mental_damage: >-
+    We have finally reached the peak of efficiency: delegating the precise timing of our financial ruin to a LLM's
+    reasoning capabilities.
   tags:
     - mcp
     - dex
@@ -52,31 +63,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's entire identity is as an MCP server implementation for a specific domain (finance/trading), fitting the 'Domain Servers' section of the MCP category.
+  reason: >-
+    The product's entire identity is as an MCP server implementation for a specific domain (finance/trading), fitting
+    the 'Domain Servers' section of the MCP category.
   evidence:
     - Explicitly identifies as a 'Model Context Protocol server for Lighter'
     - Provides 17 trading tools for MCP-aware clients
     - Included in the awesome-mcp-servers list under 'Finance & Fintech'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.817Z"
+    updated_at: '2026-05-28T05:28:09.817Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:24.859Z"
+    updated_at: '2026-09-17T04:13:24.859Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-01T05:41:38.229Z"
+    updated_at: '2026-06-01T05:41:38.229Z'
     cause: null
     next_retry_at: null
     attempts: 2

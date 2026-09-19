@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__truffle-ai__dexto__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Open Source
         anchor_text: Dexto
         extracted_url: https://github.com/truffle-ai/dexto
-        surrounding_text: "- **[Dexto](https://github.com/truffle-ai/dexto)** `⭐ 614` — Coding agent and general agent harness with CLI/web/API modes; ships a production-ready coding agent with sub-agent spawning."
+        surrounding_text: >-
+          - **[Dexto](https://github.com/truffle-ai/dexto)** `⭐ 614` — Coding agent and general agent harness with
+          CLI/web/API modes; ships a production-ready coding agent with sub-agent spawning.
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: truffle-ai/dexto
     html_url: https://github.com/truffle-ai/dexto
-    created_at: "2025-03-24T22:49:13Z"
-    pushed_at: "2026-07-17T14:05:18Z"
+    created_at: '2025-03-24T22:49:13Z'
+    pushed_at: '2026-07-17T14:05:18Z'
     description: A coding agent and general agent harness for building and orchestrating agentic applications.
     homepage: https://dexto.ai
     topics:
@@ -46,14 +48,18 @@ metadata:
       - mcp-client
       - modelcontextprotocol
       - typescript
-    last_checked_at: "2026-07-21T15:20:55.446Z"
+    last_checked_at: '2026-07-21T15:20:55.446Z'
     readme:
-      fetched_at: "2026-07-21T15:20:55.446Z"
+      fetched_at: '2026-07-21T15:20:55.446Z'
       bytes: 20473
 insights:
   summary: A terminal-native coding agent and general agent harness for building and orchestrating agentic applications.
-  why_it_matters: It gives developers a configurable CLI that defaults to a coding agent for building, debugging, and refactoring code, while also acting as a harness for custom agents and MCP integrations.
-  mental_damage: Because what every developer needed was another YAML-driven operating-system analogy standing between them and a working git commit.
+  why_it_matters: >-
+    It gives developers a configurable CLI that defaults to a coding agent for building, debugging, and refactoring
+    code, while also acting as a harness for custom agents and MCP integrations.
+  mental_damage: >-
+    Because what every developer needed was another YAML-driven operating-system analogy standing between them and a
+    working git commit.
   tags:
     - coding-agent
     - cli
@@ -63,13 +69,18 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a terminal-native coding assistant that developers delegate repo work to, with a default CLI that launches a built-in coding agent; the harness architecture is secondary to the core developer experience.
+  reason: >-
+    It is a terminal-native coding assistant that developers delegate repo work to, with a default CLI that launches a
+    built-in coding agent; the harness architecture is secondary to the core developer experience.
   evidence:
     - Repo description explicitly calls it 'a coding agent and general agent harness'.
-    - README features a dedicated 'Coding Agent' section as the default interface, launched via the `dexto` CLI, with file editing, shell commands, and testing capabilities.
+    - >-
+      README features a dedicated 'Coding Agent' section as the default interface, launched via the `dexto` CLI, with
+      file editing, shell commands, and testing capabilities.
     - Listed in awesome-cli-coding-agents under Terminal-native coding agents > Open Source.
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -77,17 +88,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.653Z"
+    updated_at: '2026-05-06T22:12:15.653Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:55.446Z"
+    updated_at: '2026-07-21T15:20:55.446Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:10:31.649Z"
+    updated_at: '2026-05-12T15:10:31.649Z'
     cause: null
     next_retry_at: null
     attempts: 1

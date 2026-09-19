@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__fewsats__fewsats-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: Fewsats
         extracted_url: https://github.com/fewsats/fewsats-mcp
-        surrounding_text: "- **[Fewsats](https://github.com/Fewsats/fewsats-mcp)** - Enable AI Agents to purchase anything in a secure way using [Fewsats](https://fewsats.com)"
+        surrounding_text: >-
+          - **[Fewsats](https://github.com/Fewsats/fewsats-mcp)** - Enable AI Agents to purchase anything in a secure
+          way using [Fewsats](https://fewsats.com)
         confidence: high
 metadata:
   github:
@@ -29,18 +31,22 @@ metadata:
     archived: false
     full_name: Fewsats/fewsats-mcp
     html_url: https://github.com/Fewsats/fewsats-mcp
-    created_at: "2025-03-12T10:27:39Z"
-    pushed_at: "2025-05-27T10:46:56Z"
+    created_at: '2025-03-12T10:27:39Z'
+    pushed_at: '2025-05-27T10:46:56Z'
     description: Fewsats MCP server
     homepage: null
     topics: []
-    last_checked_at: "2026-08-27T09:23:30.173Z"
+    last_checked_at: '2026-08-27T09:23:30.173Z'
     readme:
-      fetched_at: "2026-08-27T09:23:30.172Z"
+      fetched_at: '2026-08-27T09:23:30.172Z'
       bytes: 1990
 insights:
-  summary: An MCP server that integrates Fewsats to allow AI agents to securely perform financial transactions and check wallet balances.
-  why_it_matters: It enables AI agents to move beyond mere text generation by providing them with the specialized tools needed to execute secure payments and manage financial state.
+  summary: >-
+    An MCP server that integrates Fewsats to allow AI agents to securely perform financial transactions and check wallet
+    balances.
+  why_it_matters: >-
+    It enables AI agents to move beyond mere text generation by providing them with the specialized tools needed to
+    execute secure payments and manage financial state.
   mental_damage: The moment an LLM decides it's time to 'optimize' your wallet balance by spending your entire credit limit.
   tags:
     - mcp
@@ -50,31 +56,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's identity is explicitly an MCP server designed to provide specific financial capabilities to host AI models.
+  reason: >-
+    The tool's identity is explicitly an MCP server designed to provide specific financial capabilities to host AI
+    models.
   evidence:
     - Repo description explicitly defines it as an 'MCP server'
     - README details specific tools (balance, pay_offer) for agent execution
     - Provides direct installation instructions for Claude Desktop MCP configuration
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.614Z"
+    updated_at: '2026-05-06T22:12:15.614Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:30.173Z"
+    updated_at: '2026-08-27T09:23:30.173Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:56:31.730Z"
+    updated_at: '2026-07-21T15:56:31.730Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,7 +96,9 @@ processing:
       input_hash: sha256:c9a9a83daa2ff749153df843855576c8900a268bf084897769d2d5123f9b2a0d
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The tool's identity is explicitly an MCP server designed to provide specific financial capabilities to host AI models.
+      decision_reason: >-
+        The tool's identity is explicitly an MCP server designed to provide specific financial capabilities to host AI
+        models.
       decision_evidence:
         - Repo description explicitly defines it as an 'MCP server'
         - README details specific tools (balance, pay_offer) for agent execution
@@ -95,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is a protocol-specific server rather than a host-side integration or plugin for an editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is a protocol-specific server rather than a
+        host-side integration or plugin for an editor.
       review_reason: null
       review_resume_lifecycle: null

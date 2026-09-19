@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agent-field__agentfield__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -19,10 +19,10 @@ provenance:
           - Frameworks
         anchor_text: AgentField
         extracted_url: https://github.com/agent-field/agentfield
-        surrounding_text: "- [AgentField](https://github.com/Agent-Field/agentfield) - Open-source infrastructure"
+        surrounding_text: '- [AgentField](https://github.com/Agent-Field/agentfield) - Open-source infrastructure'
         confidence: high
     - id: discovery__github__agent-field__agentfield__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,10 +34,13 @@ provenance:
           - 智能体 Agents
         anchor_text: AgentField
         extracted_url: https://github.com/agent-field/agentfield
-        surrounding_text: "14. [AgentField](https://github.com/Agent-Field/agentfield): Open-source control plane for building and operating AI agents like APIs at scale, with routing, memory, observability, identity, auth, and policy controls."
+        surrounding_text: >-
+          14. [AgentField](https://github.com/Agent-Field/agentfield): Open-source control plane for building and
+          operating AI agents like APIs at scale, with routing, memory, observability, identity, auth, and policy
+          controls.
         confidence: high
     - id: discovery__github__agent-field__agentfield__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-21T05:27:57.681Z"
+      discovered_at: '2026-05-21T05:27:57.681Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -49,7 +52,12 @@ provenance:
           - LLMOps
         anchor_text: AgentField
         extracted_url: https://github.com/agent-field/agentfield
-        surrounding_text: "| [AgentField](https://github.com/Agent-Field/agentfield)            | Open-source control plane for building and operating AI agents like APIs at scale, with routing, memory, observability, identity, auth, and policy controls.                                                                                                                        | ![GitHub Badge](https://img.shields.io/github/stars/Agent-Field/agentfield.svg?style=flat-square)             |"
+        surrounding_text: >-
+          | [AgentField](https://github.com/Agent-Field/agentfield)            | Open-source control plane for building
+          and operating AI agents like APIs at scale, with routing, memory, observability, identity, auth, and policy
+          controls.                                                                                                                       
+          | ![GitHub
+          Badge](https://img.shields.io/github/stars/Agent-Field/agentfield.svg?style=flat-square)             |
         confidence: high
 metadata:
   github:
@@ -59,8 +67,8 @@ metadata:
     archived: false
     full_name: Agent-Field/agentfield
     html_url: https://github.com/Agent-Field/agentfield
-    created_at: "2025-11-05T02:04:44Z"
-    pushed_at: "2026-09-16T13:16:43Z"
+    created_at: '2025-11-05T02:04:44Z'
+    pushed_at: '2026-09-16T13:16:43Z'
     description: Build, run and scale AI agents like API and microservices
     homepage: http://www.agentfield.ai
     topics:
@@ -84,14 +92,18 @@ metadata:
       - python
       - rag
       - typescript
-    last_checked_at: "2026-09-17T04:13:31.298Z"
+    last_checked_at: '2026-09-17T04:13:31.298Z'
     readme:
-      fetched_at: "2026-09-17T04:13:31.298Z"
+      fetched_at: '2026-09-17T04:13:31.298Z'
       bytes: 38610
 insights:
   summary: An open-source control plane for building, running, and scaling AI agents as scalable microservices via APIs.
-  why_it_matters: It moves agent development from messy local scripts to production-ready infrastructure with built-in routing, retries, and observability.
-  mental_damage: Because managing local Python scripts is easy, but managing ten thousand distributed agentic microservices is the new standard.
+  why_it_matters: >-
+    It moves agent development from messy local scripts to production-ready infrastructure with built-in routing,
+    retries, and observability.
+  mental_damage: >-
+    Because managing local Python scripts is easy, but managing ten thousand distributed agentic microservices is the
+    new standard.
   tags:
     - agent-infrastructure
     - orchestration
@@ -101,31 +113,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product acts as a control plane and runtime platform for managing agent workflows and scaling them as microservices.
+  reason: >-
+    The product acts as a control plane and runtime platform for managing agent workflows and scaling them as
+    microservices.
   evidence:
     - README defines it as an 'open-source control plane' for routing, coordination, and async execution.
     - Claims to scale from one agent on a laptop to ten thousand via the control plane.
     - Provides SDKs (Python, Go, TypeScript) and a REST API for agent interaction.
 placement:
   primary_category: agent-orchestration
-  section: Multi-Agent Runtime Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (1632) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-21T05:27:57.682Z"
+    updated_at: '2026-05-21T05:27:57.682Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:31.298Z"
+    updated_at: '2026-09-17T04:13:31.298Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:00:26.127Z"
+    updated_at: '2026-07-20T16:00:26.127Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -138,7 +153,9 @@ processing:
       input_hash: sha256:9c1c7e817336e435b257ad1e4e65ebdcf8673a46a89e185c8b15b7134a5519e6
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The product acts as a control plane and runtime platform for managing agent workflows and scaling them as microservices.
+      decision_reason: >-
+        The product acts as a control plane and runtime platform for managing agent workflows and scaling them as
+        microservices.
       decision_evidence:
         - README defines it as an 'open-source control plane' for routing, coordination, and async execution.
         - Claims to scale from one agent on a laptop to ten thousand via the control plane.
@@ -146,6 +163,8 @@ processing:
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product focuses on the operated control plane and scaling runtime infrastructure rather than being a code-first library for building single agents.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because the product focuses on the operated control plane and
+        scaling runtime infrastructure rather than being a code-first library for building single agents.
       review_reason: null
       review_resume_lifecycle: null

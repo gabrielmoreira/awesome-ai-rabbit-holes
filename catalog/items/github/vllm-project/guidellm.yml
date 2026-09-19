@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__vllm-project__guidellm__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 推理 Inference
         anchor_text: GuideLLM
         extracted_url: https://github.com/neuralmagic/guidellm
-        surrounding_text: "33. [GuideLLM](https://github.com/neuralmagic/guidellm): GuideLLM is a powerful tool for evaluating and optimizing the deployment of large language models (LLMs)."
+        surrounding_text: >-
+          33. [GuideLLM](https://github.com/neuralmagic/guidellm): GuideLLM is a powerful tool for evaluating and
+          optimizing the deployment of large language models (LLMs).
         confidence: high
 metadata:
   github:
@@ -29,19 +31,25 @@ metadata:
     archived: false
     full_name: vllm-project/guidellm
     html_url: https://github.com/vllm-project/guidellm
-    created_at: "2024-05-29T21:54:22Z"
-    pushed_at: "2026-07-21T10:31:52Z"
+    created_at: '2024-05-29T21:54:22Z'
+    pushed_at: '2026-07-21T10:31:52Z'
     description: Evaluate and Enhance Your LLM Deployments for Real-World Inference Needs
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-21T15:21:07.302Z"
+    last_checked_at: '2026-07-21T15:21:07.302Z'
     readme:
-      fetched_at: "2026-07-21T15:21:07.302Z"
+      fetched_at: '2026-07-21T15:21:07.302Z'
       bytes: 21027
 insights:
-  summary: GuideLLM is a benchmarking platform that evaluates LLM inference performance under real-world workloads using OpenAI-compatible and vLLM-native servers.
-  why_it_matters: It gives engineering teams SLO-aware, reproducible metrics to optimize deployments and avoid guesswork in production LLM serving.
-  mental_damage: Another layer of observability for the ever-growing stack of tools needed just to serve a model without melting your GPU cluster.
+  summary: >-
+    GuideLLM is a benchmarking platform that evaluates LLM inference performance under real-world workloads using
+    OpenAI-compatible and vLLM-native servers.
+  why_it_matters: >-
+    It gives engineering teams SLO-aware, reproducible metrics to optimize deployments and avoid guesswork in production
+    LLM serving.
+  mental_damage: >-
+    Another layer of observability for the ever-growing stack of tools needed just to serve a model without melting your
+    GPU cluster.
   tags:
     - benchmarking
     - llm-inference
@@ -49,31 +57,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: GuideLLM fits the evals category because its core function is measuring and comparing LLM inference behavior under realistic loads, not assisting with code or orchestrating agents.
+  reason: >-
+    GuideLLM fits the evals category because its core function is measuring and comparing LLM inference behavior under
+    realistic loads, not assisting with code or orchestrating agents.
   evidence:
-    - "Repo description: 'Evaluate and Enhance Your LLM Deployments for Real-World Inference Needs'"
-    - "README: 'GuideLLM is a platform for evaluating how language models perform under real workloads and configurations'"
-    - It produces 'standardized, exportable reports for dashboards, analysis, and regression tracking' and focuses on 'latency and token-level statistics for SLO-driven evaluation'
+    - 'Repo description: ''Evaluate and Enhance Your LLM Deployments for Real-World Inference Needs'''
+    - >-
+      README: 'GuideLLM is a platform for evaluating how language models perform under real workloads and
+      configurations'
+    - >-
+      It produces 'standardized, exportable reports for dashboards, analysis, and regression tracking' and focuses on
+      'latency and token-level statistics for SLO-driven evaluation'
 placement:
   primary_category: evals
-  section: Agent Benchmarks
+  secondary_categories: []
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: promotion_candidate
   reason: Stars (1126) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.654Z"
+    updated_at: '2026-05-06T22:12:15.654Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:07.302Z"
+    updated_at: '2026-07-21T15:21:07.302Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:27:11.869Z"
+    updated_at: '2026-05-12T15:27:11.869Z'
     cause: null
     next_retry_at: null
     attempts: 1

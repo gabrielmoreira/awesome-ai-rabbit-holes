@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huyenchip__com__llama__police__html__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,7 +18,9 @@ provenance:
           - Lists
         anchor_text: llama-police
         extracted_url: https://huyenchip.com/llama-police.html
-        surrounding_text: "- [llama-police](https://huyenchip.com/llama-police.html) - A list of Open Source LLM Tools from [Chip Huyen](https://huyenchip.com)"
+        surrounding_text: >-
+          - [llama-police](https://huyenchip.com/llama-police.html) - A list of Open Source LLM Tools from [Chip
+          Huyen](https://huyenchip.com)
         confidence: high
 metadata:
   github:
@@ -38,7 +40,9 @@ metadata:
 insights:
   summary: A curated list of open source LLM tools, now redirected to GoodAIList.com.
   why_it_matters: Provides developers with a navigable directory of trending open source AI tools and repositories.
-  mental_damage: Another list of lists, because the only thing harder than finding AI tools is finding the list of lists that contains them.
+  mental_damage: >-
+    Another list of lists, because the only thing harder than finding AI tools is finding the list of lists that
+    contains them.
   tags:
     - directory
     - open-source
@@ -46,22 +50,21 @@ insights:
     - curated-list
   confidence: high
 curation:
-  status: included
-  reason: This is a curated directory of AI tools, which fits the scope of navigation aids for developers.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Page explicitly describes itself as a list of open source LLM tools
-    - Source-list context shows it is included in awesome-local-ai under Lists
-    - Content is now hosted at GoodAIList.com as a dedicated directory
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.662Z"
+    updated_at: '2026-05-06T22:12:15.662Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +73,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:31.614Z"
+    updated_at: '2026-07-21T15:28:31.614Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -91,6 +94,8 @@ processing:
       category_candidates:
         - awesome-awesomes
         - newsletters-and-feeds
-      contrastive_reason: Choose awesome-awesomes over newsletters-and-feeds because the primary value is discovery via a curated directory rather than recurring commentary or media.
+      contrastive_reason: >-
+        Choose awesome-awesomes over newsletters-and-feeds because the primary value is discovery via a curated
+        directory rather than recurring commentary or media.
       review_reason: null
       review_resume_lifecycle: null

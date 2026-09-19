@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__codefuse-ai__codefuse-muagent__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -20,7 +20,9 @@ provenance:
           - Multi-Agent Orchestration Frameworks
         anchor_text: CodeFuse-muAgent
         extracted_url: https://github.com/codefuse-ai/codefuse-muagent
-        surrounding_text: "| [CodeFuse-muAgent](https://github.com/codefuse-ai/CodeFuse-muAgent) | Innovative agent framework driven by KG Engine | ![Stars](https://img.shields.io/github/stars/codefuse-ai/CodeFuse-muAgent) |"
+        surrounding_text: >-
+          | [CodeFuse-muAgent](https://github.com/codefuse-ai/CodeFuse-muAgent) | Innovative agent framework driven by
+          KG Engine | ![Stars](https://img.shields.io/github/stars/codefuse-ai/CodeFuse-muAgent) |
         confidence: high
 metadata:
   github:
@@ -30,10 +32,10 @@ metadata:
     archived: false
     full_name: codefuse-ai/CodeFuse-muAgent
     html_url: https://github.com/codefuse-ai/CodeFuse-muAgent
-    created_at: "2024-04-21T02:41:24Z"
-    pushed_at: "2025-01-15T06:12:34Z"
+    created_at: '2024-04-21T02:41:24Z'
+    pushed_at: '2025-01-15T06:12:34Z'
     description: An Innovative Agent Framework Driven by KG Engine
-    homepage: ""
+    homepage: ''
     topics:
       - agent
       - ekg
@@ -43,14 +45,20 @@ metadata:
       - multi-agent
       - rag
       - tool-learning
-    last_checked_at: "2026-09-07T04:13:48.331Z"
+    last_checked_at: '2026-09-07T04:13:48.331Z'
     readme:
-      fetched_at: "2026-09-07T04:13:48.331Z"
+      fetched_at: '2026-09-07T04:13:48.331Z'
       bytes: 7271
 insights:
-  summary: An open-source agent framework driven by an eventic knowledge graph that provides a Python SDK and a containerized runtime for building multi-agent workflows.
-  why_it_matters: It gives developers a way to script and deploy complex, knowledge-graph-backed multi-agent SOPs that integrate FunctionCall, RAG, and CodeInterpreter without replacing their existing stack.
-  mental_damage: You finally memorized LangGraph's node syntax, but now you need to understand eventic knowledge graphs because plain old 'agent orchestration' apparently wasn't academic enough.
+  summary: >-
+    An open-source agent framework driven by an eventic knowledge graph that provides a Python SDK and a containerized
+    runtime for building multi-agent workflows.
+  why_it_matters: >-
+    It gives developers a way to script and deploy complex, knowledge-graph-backed multi-agent SOPs that integrate
+    FunctionCall, RAG, and CodeInterpreter without replacing their existing stack.
+  mental_damage: >-
+    You finally memorized LangGraph's node syntax, but now you need to understand eventic knowledge graphs because plain
+    old 'agent orchestration' apparently wasn't academic enough.
   tags:
     - multi-agent
     - knowledge-graph
@@ -60,31 +68,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: It is an actively maintained, code-first agent framework that developers install as a Python SDK to build multi-agent systems, fitting squarely in the developer-facing AI tooling scope.
+  reason: >-
+    It is an actively maintained, code-first agent framework that developers install as a Python SDK to build
+    multi-agent systems, fitting squarely in the developer-facing AI tooling scope.
   evidence:
-    - Repo describes itself as 'An Innovative Agent Framework Driven by KG Engine' and ships a Python SDK via pip install codefuse-muagent.
-    - README highlights multi-agent orchestration, FunctionCall, RAG, and CodeInterpreter integration validated in production DevOps scenarios.
+    - >-
+      Repo describes itself as 'An Innovative Agent Framework Driven by KG Engine' and ships a Python SDK via pip
+      install codefuse-muagent.
+    - >-
+      README highlights multi-agent orchestration, FunctionCall, RAG, and CodeInterpreter integration validated in
+      production DevOps scenarios.
     - Last pushed 2025-01-15, not archived, with 774 stars indicating modest but real traction.
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  secondary_categories: []
+  section: Multi-Agent Systems
 lifecycle:
   status: promotion_candidate
   reason: Stars (774) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:48.331Z"
+    updated_at: '2026-09-07T04:13:48.331Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:44:26.176Z"
+    updated_at: '2026-07-21T15:44:26.176Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -97,14 +112,23 @@ processing:
       input_hash: sha256:3ec7aab6a882799172a37d8ed64a14667065f6fe38e42b09906a644747943a5f
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: It is an actively maintained, code-first agent framework that developers install as a Python SDK to build multi-agent systems, fitting squarely in the developer-facing AI tooling scope.
+      decision_reason: >-
+        It is an actively maintained, code-first agent framework that developers install as a Python SDK to build
+        multi-agent systems, fitting squarely in the developer-facing AI tooling scope.
       decision_evidence:
-        - Repo describes itself as 'An Innovative Agent Framework Driven by KG Engine' and ships a Python SDK via pip install codefuse-muagent.
-        - README highlights multi-agent orchestration, FunctionCall, RAG, and CodeInterpreter integration validated in production DevOps scenarios.
+        - >-
+          Repo describes itself as 'An Innovative Agent Framework Driven by KG Engine' and ships a Python SDK via pip
+          install codefuse-muagent.
+        - >-
+          README highlights multi-agent orchestration, FunctionCall, RAG, and CodeInterpreter integration validated in
+          production DevOps scenarios.
         - Last pushed 2025-01-15, not archived, with 774 stars indicating modest but real traction.
       category_candidates:
         - ai-frameworks
         - agent-orchestration
-      contrastive_reason: Choose ai-frameworks over agent-orchestration because the project identity is an installable, scriptable agent framework compatible with other frameworks, whereas the containerized UI is a deployment layer rather than the primary product surface.
+      contrastive_reason: >-
+        Choose ai-frameworks over agent-orchestration because the project identity is an installable, scriptable agent
+        framework compatible with other frameworks, whereas the containerized UI is a deployment layer rather than the
+        primary product surface.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__madarco__agentbox__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-07-02T05:22:20.470Z"
+      discovered_at: '2026-07-02T05:22:20.470Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,11 @@ provenance:
           - Session managers & parallel runners
         anchor_text: AgentBox
         extracted_url: https://github.com/madarco/agentbox
-        surrounding_text: "- **[AgentBox](https://github.com/madarco/agentbox)** `⭐ 178` — Run multiple coding agents in parallel, each teleported into its own sandboxed VM (local Docker, self-hosted, or cloud: Hetzner/Daytona/Vercel/E2B); sub-second checkpoints, per-box browser/VS Code/shells, git creds kept on the host. Works with Claude Code, Codex, and OpenCode. MIT."
+        surrounding_text: >-
+          - **[AgentBox](https://github.com/madarco/agentbox)** `⭐ 178` — Run multiple coding agents in parallel, each
+          teleported into its own sandboxed VM (local Docker, self-hosted, or cloud: Hetzner/Daytona/Vercel/E2B);
+          sub-second checkpoints, per-box browser/VS Code/shells, git creds kept on the host. Works with Claude Code,
+          Codex, and OpenCode. MIT.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: madarco/agentbox
     html_url: https://github.com/madarco/agentbox
-    created_at: "2026-05-12T11:55:31Z"
-    pushed_at: "2026-08-01T10:03:40Z"
+    created_at: '2026-05-12T11:55:31Z'
+    pushed_at: '2026-08-01T10:03:40Z'
     description: Run multiple agents in parallel sandboxed VMs, with a single command, on your PC or in the cloud
     homepage: https://agent-box.sh
     topics:
@@ -51,13 +55,17 @@ metadata:
       - opencode
       - sandbox
       - tmux
-    last_checked_at: "2026-08-03T05:16:54.153Z"
+    last_checked_at: '2026-08-03T05:16:54.153Z'
     readme:
-      fetched_at: "2026-08-03T05:16:54.153Z"
+      fetched_at: '2026-08-03T05:16:54.153Z'
       bytes: 11466
 insights:
-  summary: A CLI tool for running multiple AI coding agents in parallel within sandboxed VMs, either locally via Docker or in the cloud.
-  why_it_matters: It allows developers to scale agentic workflows by managing multiple isolated, persistent environments for different agents simultaneously.
+  summary: >-
+    A CLI tool for running multiple AI coding agents in parallel within sandboxed VMs, either locally via Docker or in
+    the cloud.
+  why_it_matters: >-
+    It allows developers to scale agentic workflows by managing multiple isolated, persistent environments for different
+    agents simultaneously.
   mental_damage: Now you can run five agents at once to see which one fails to fix your linter errors the fastest.
   tags:
     - cli
@@ -68,31 +76,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool acts as a runtime and control plane for launching and managing multiple parallel agentic sessions in isolated environments.
+  reason: >-
+    The tool acts as a runtime and control plane for launching and managing multiple parallel agentic sessions in
+    isolated environments.
   evidence:
     - README describes running multiple agents in parallel sandboxed VMs with a single command
     - Provides lifecycle management including attach, shell, and dashboard for multiple 'boxes'
     - Supports various cloud providers and local Docker runtimes for agent execution
 placement:
   primary_category: agent-orchestration
-  section: Multi-Agent Runtime Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (211) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-07-02T05:22:20.472Z"
+    updated_at: '2026-07-02T05:22:20.472Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:54.153Z"
+    updated_at: '2026-08-03T05:16:54.153Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-09T05:32:03.315Z"
+    updated_at: '2026-07-09T05:32:03.315Z'
     cause: null
     next_retry_at: null
     attempts: 2

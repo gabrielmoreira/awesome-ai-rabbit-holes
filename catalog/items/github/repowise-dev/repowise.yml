@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__repowise-dev__repowise__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,10 +19,13 @@ provenance:
           - Documentation
         anchor_text: Repowise
         extracted_url: https://github.com/repowise-dev/repowise
-        surrounding_text: "- **[Repowise](https://github.com/repowise-dev/repowise)** - Open-source codebase intelligence tool that indexes repos into dependency graphs, git history, auto-generated docs, and architectural decisions via 7 MCP tools."
+        surrounding_text: >-
+          - **[Repowise](https://github.com/repowise-dev/repowise)** - Open-source codebase intelligence tool that
+          indexes repos into dependency graphs, git history, auto-generated docs, and architectural decisions via 7 MCP
+          tools.
         confidence: high
     - id: discovery__github__repowise-dev__repowise__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-23T05:08:37.088Z"
+      discovered_at: '2026-07-23T05:08:37.088Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -35,7 +38,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: repowise-dev/repowise
         extracted_url: https://github.com/repowise-dev/repowise
-        surrounding_text: "- [repowise-dev/repowise](https://github.com/repowise-dev/repowise) [![repowise-dev/repowise MCP server](https://glama.ai/mcp/servers/repowise-dev/repowise/badges/score.svg)](https://glama.ai/mcp/servers/repowise-dev/repowise) 🐍 🏠 ☁️ - Codebase intelligence for AI coding agents. Indexes a repo into a dependency graph, git history, defect-risk code health, auto-generated docs, and architectural decisions, served as 9 task-shaped MCP tools across 15 languages. Runs 100% local; hosted option available."
+        surrounding_text: >-
+          - [repowise-dev/repowise](https://github.com/repowise-dev/repowise) [![repowise-dev/repowise MCP
+          server](https://glama.ai/mcp/servers/repowise-dev/repowise/badges/score.svg)](https://glama.ai/mcp/servers/repowise-dev/repowise)
+          🐍 🏠 ☁️ - Codebase intelligence for AI coding agents. Indexes a repo into a dependency graph, git history,
+          defect-risk code health, auto-generated docs, and architectural decisions, served as 9 task-shaped MCP tools
+          across 15 languages. Runs 100% local; hosted option available.
         confidence: high
 metadata:
   github:
@@ -45,9 +53,11 @@ metadata:
     archived: false
     full_name: repowise-dev/repowise
     html_url: https://github.com/repowise-dev/repowise
-    created_at: "2026-03-23T09:12:28Z"
-    pushed_at: "2026-07-20T10:20:23Z"
-    description: "Codebase intelligence for AI and humans: code health scores, auto-generated docs, git analytics, dead code detection, and architectural decisions via MCP."
+    created_at: '2026-03-23T09:12:28Z'
+    pushed_at: '2026-07-20T10:20:23Z'
+    description: >-
+      Codebase intelligence for AI and humans: code health scores, auto-generated docs, git analytics, dead code
+      detection, and architectural decisions via MCP.
     homepage: https://repowise.dev
     topics:
       - ai
@@ -65,14 +75,20 @@ metadata:
       - refactoring
       - static-analysis
       - technical-debt
-    last_checked_at: "2026-07-20T16:42:45.587Z"
+    last_checked_at: '2026-07-20T16:42:45.587Z'
     readme:
-      fetched_at: "2026-07-20T16:42:45.587Z"
+      fetched_at: '2026-07-20T16:42:45.587Z'
       bytes: 31527
 insights:
-  summary: An MCP-compatible CLI tool that indexes codebases into dependency graphs, git analytics, auto-generated docs, and architectural decisions to reduce token usage for AI agents.
-  why_it_matters: It allows coding agents like Claude Code to answer 'why' questions about architecture and history without reading entire files, cutting costs and context window bloat.
-  mental_damage: We have successfully optimized the part of the workflow where the AI reads our code, now we just need a tool to optimize the part where we pretend to understand why we wrote it that way three years ago.
+  summary: >-
+    An MCP-compatible CLI tool that indexes codebases into dependency graphs, git analytics, auto-generated docs, and
+    architectural decisions to reduce token usage for AI agents.
+  why_it_matters: >-
+    It allows coding agents like Claude Code to answer 'why' questions about architecture and history without reading
+    entire files, cutting costs and context window bloat.
+  mental_damage: >-
+    We have successfully optimized the part of the workflow where the AI reads our code, now we just need a tool to
+    optimize the part where we pretend to understand why we wrote it that way three years ago.
   tags:
     - mcp
     - context-engineering
@@ -82,35 +98,42 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core novelty is indexing, compressing, and retrieving institutional knowledge (graph, git history, decisions) to feed the right context to a model, which aligns with Prompt & Context Engineering.
+  reason: >-
+    The core novelty is indexing, compressing, and retrieving institutional knowledge (graph, git history, decisions) to
+    feed the right context to a model, which aligns with Prompt & Context Engineering.
   evidence:
     - Repo description defines it as 'Codebase intelligence... via MCP' with layers for graph, git, docs, and decisions.
-    - README explicitly claims '27× fewer tokens per query' and '209× less than naive' via context retrieval strategies like get_context.
-    - Exposes seven MCP tools primarily for retrieval and context-shaping rather than acting as the primary coding agent.
+    - >-
+      README explicitly claims '27× fewer tokens per query' and '209× less than naive' via context retrieval strategies
+      like get_context.
+    - >-
+      Exposes seven MCP tools primarily for retrieval and context-shaping rather than acting as the primary coding
+      agent.
 placement:
-  primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  primary_category: mcp
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (1402) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-07-23T05:08:37.089Z"
+    updated_at: '2026-07-23T05:08:37.089Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:45.587Z"
+    updated_at: '2026-07-20T16:42:45.587Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

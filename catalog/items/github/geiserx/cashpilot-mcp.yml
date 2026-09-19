@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__geiserx__cashpilot-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: GeiserX/cashpilot-mcp
         extracted_url: https://github.com/geiserx/cashpilot-mcp
-        surrounding_text: "- [GeiserX/cashpilot-mcp](https://github.com/GeiserX/cashpilot-mcp) [![GeiserX/cashpilot-mcp MCP server](https://glama.ai/mcp/servers/GeiserX/cashpilot-mcp/badges/score.svg)](https://glama.ai/mcp/servers/GeiserX/cashpilot-mcp) 🏎️ ☁️ 🍎 🪟 🐧 - Go-based MCP server for CashPilot bandwidth-sharing dashboards. Monitor passive income, DePIN earnings, and container status across multiple sharing services. Docker image available."
+        surrounding_text: >-
+          - [GeiserX/cashpilot-mcp](https://github.com/GeiserX/cashpilot-mcp) [![GeiserX/cashpilot-mcp MCP
+          server](https://glama.ai/mcp/servers/GeiserX/cashpilot-mcp/badges/score.svg)](https://glama.ai/mcp/servers/GeiserX/cashpilot-mcp)
+          🏎️ ☁️ 🍎 🪟 🐧 - Go-based MCP server for CashPilot bandwidth-sharing dashboards. Monitor passive income,
+          DePIN earnings, and container status across multiple sharing services. Docker image available.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: GeiserX/cashpilot-mcp
     html_url: https://github.com/GeiserX/cashpilot-mcp
-    created_at: "2026-04-01T10:40:18Z"
-    pushed_at: "2026-09-02T21:10:21Z"
+    created_at: '2026-04-01T10:40:18Z'
+    pushed_at: '2026-09-02T21:10:21Z'
     description: MCP Server for CashPilot — monitor passive income earnings, manage services, and control fleet workers via MCP
     homepage: null
     topics:
@@ -55,13 +59,17 @@ metadata:
       - passive-income
       - self-hosted
       - stdio
-    last_checked_at: "2026-09-03T05:16:47.284Z"
+    last_checked_at: '2026-09-03T05:16:47.284Z'
     readme:
-      fetched_at: "2026-09-03T05:16:47.284Z"
+      fetched_at: '2026-09-03T05:16:47.284Z'
       bytes: 8245
 insights:
-  summary: An MCP server that exposes CashPilot instances to LLMs for monitoring passive income earnings and managing fleet workers.
-  why_it_matters: It allows developers to use AI agents to manage DePIN infrastructure, monitor service health, and trigger administrative tasks via natural language.
+  summary: >-
+    An MCP server that exposes CashPilot instances to LLMs for monitoring passive income earnings and managing fleet
+    workers.
+  why_it_matters: >-
+    It allows developers to use AI agents to manage DePIN infrastructure, monitor service health, and trigger
+    administrative tasks via natural language.
   mental_damage: Because nothing says 'developer productivity' like delegating your passive income monitoring to a stochastic parrot.
   tags:
     - mcp
@@ -79,24 +87,25 @@ curation:
     - Product identity is the MCP interface, not a standalone assistant or app builder
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: '2026-05-06T22:12:15.615Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:47.284Z"
+    updated_at: '2026-09-03T05:16:47.284Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:01:06.036Z"
+    updated_at: '2026-07-21T16:01:06.036Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -117,6 +126,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is a specialized MCP server providing domain-specific tools via a protocol, rather than an extension augmenting an existing IDE.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is a specialized MCP server providing
+        domain-specific tools via a protocol, rather than an extension augmenting an existing IDE.
       review_reason: null
       review_resume_lifecycle: null

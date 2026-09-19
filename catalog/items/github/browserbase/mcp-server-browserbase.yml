@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__browserbase__mcp-server-browserbase__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: browserbase/mcp-server-browserbase
         extracted_url: https://github.com/browserbase/mcp-server-browserbase
-        surrounding_text: "- [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase) 🎖️ 📇 - Automate browser interactions in the cloud (e.g. web navigation, data extraction, form filling, and more)"
+        surrounding_text: >-
+          - [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase) 🎖️ 📇 -
+          Automate browser interactions in the cloud (e.g. web navigation, data extraction, form filling, and more)
         confidence: high
     - id: discovery__github__browserbase__mcp-server-browserbase__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +37,9 @@ provenance:
           - Official Servers
         anchor_text: Browserbase
         extracted_url: https://github.com/browserbase/mcp-server-browserbase
-        surrounding_text: "- **[Browserbase](https://github.com/browserbase/mcp-server-browserbase)** - Automate browser interactions in the cloud (e.g. web navigation, data extraction, form filling, and more)"
+        surrounding_text: >-
+          - **[Browserbase](https://github.com/browserbase/mcp-server-browserbase)** - Automate browser interactions in
+          the cloud (e.g. web navigation, data extraction, form filling, and more)
         confidence: high
 metadata:
   github:
@@ -45,8 +49,8 @@ metadata:
     archived: true
     full_name: browserbase/mcp-server-browserbase
     html_url: https://github.com/browserbase/mcp-server-browserbase
-    created_at: "2024-12-05T19:20:40Z"
-    pushed_at: "2026-07-20T21:48:14Z"
+    created_at: '2024-12-05T19:20:40Z'
+    pushed_at: '2026-07-20T21:48:14Z'
     description: Allow LLMs to control a browser with Browserbase and Stagehand
     homepage: https://stagehand.dev
     topics:
@@ -57,13 +61,17 @@ metadata:
       - mcp
       - playwright
       - puppeteer
-    last_checked_at: "2026-09-07T04:13:37.915Z"
+    last_checked_at: '2026-09-07T04:13:37.915Z'
     readme:
-      fetched_at: "2026-09-07T04:13:37.915Z"
+      fetched_at: '2026-09-07T04:13:37.915Z'
       bytes: 7985
 insights:
-  summary: An MCP server that enables LLMs to control a browser via Browserbase and Stagehand for web automation and interaction.
-  why_it_matters: Developers can integrate browser automation into their AI workflows, allowing LLMs to navigate, act, and extract data from web pages programmatically.
+  summary: >-
+    An MCP server that enables LLMs to control a browser via Browserbase and Stagehand for web automation and
+    interaction.
+  why_it_matters: >-
+    Developers can integrate browser automation into their AI workflows, allowing LLMs to navigate, act, and extract
+    data from web pages programmatically.
   mental_damage: Now your AI can open 47 tabs to debug why your AI opened 47 tabs.
   tags:
     - mcp
@@ -74,31 +82,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose primary identity is providing browser automation capabilities via the Model Context Protocol.
+  reason: >-
+    This is an MCP-first server whose primary identity is providing browser automation capabilities via the Model
+    Context Protocol.
   evidence:
     - Repo description explicitly states it is an MCP server for browser control
     - README details MCP tools for browser session management, navigation, and data extraction
     - Listed in awesome-mcp-servers under Browser Automation
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.583Z"
+    updated_at: '2026-05-06T22:12:15.583Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:37.915Z"
+    updated_at: '2026-09-07T04:13:37.915Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:27:06.238Z"
+    updated_at: '2026-07-21T15:27:06.238Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -111,7 +122,9 @@ processing:
       input_hash: sha256:03857193c81fcbad4c1070edef13786989e24f625682cf2b5203fc34c1cdd954
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server whose primary identity is providing browser automation capabilities via the Model Context Protocol.
+      decision_reason: >-
+        This is an MCP-first server whose primary identity is providing browser automation capabilities via the Model
+        Context Protocol.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for browser control
         - README details MCP tools for browser session management, navigation, and data extraction
@@ -119,6 +132,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

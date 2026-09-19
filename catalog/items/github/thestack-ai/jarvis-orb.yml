@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__thestack-ai__jarvis-orb__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: whynowlab/jarvis-orb
         extracted_url: https://github.com/whynowlab/jarvis-orb
-        surrounding_text: "- [whynowlab/jarvis-orb](https://github.com/whynowlab/jarvis-orb) [![whynowlab/jarvis-orb MCP server](https://glama.ai/mcp/servers/whynowlab/jarvis-orb/badges/score.svg)](https://glama.ai/mcp/servers/whynowlab/jarvis-orb) 🐍 🏠 - Persistent 4-tier AI memory (episodic, semantic, project, procedural) with temporal scoring, contradiction detection, entity tracking, and real-time desktop visualization orb."
+        surrounding_text: >-
+          - [whynowlab/jarvis-orb](https://github.com/whynowlab/jarvis-orb) [![whynowlab/jarvis-orb MCP
+          server](https://glama.ai/mcp/servers/whynowlab/jarvis-orb/badges/score.svg)](https://glama.ai/mcp/servers/whynowlab/jarvis-orb)
+          🐍 🏠 - Persistent 4-tier AI memory (episodic, semantic, project, procedural) with temporal scoring,
+          contradiction detection, entity tracking, and real-time desktop visualization orb.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: TheStack-ai/jarvis-orb
     html_url: https://github.com/TheStack-ai/jarvis-orb
-    created_at: "2026-03-16T02:27:57Z"
-    pushed_at: "2026-04-28T02:52:44Z"
+    created_at: '2026-03-16T02:27:57Z'
+    pushed_at: '2026-04-28T02:52:44Z'
     description: See AI thinking in real time — 3D orb that visualizes Claude Code reasoning. Free, open-source MCP server
     homepage: https://jarvis-brain-visualizer.vercel.app
     topics:
@@ -55,14 +59,20 @@ metadata:
       - rust
       - tauri
       - threejs
-    last_checked_at: "2026-07-21T15:20:47.889Z"
+    last_checked_at: '2026-07-21T15:20:47.889Z'
     readme:
-      fetched_at: "2026-07-21T15:20:47.889Z"
+      fetched_at: '2026-07-21T15:20:47.889Z'
       bytes: 7843
 insights:
-  summary: A Rust + Tauri desktop app and MCP server that gives Claude Code and other assistants persistent multi-tier memory plus a real-time 3D orb visualization of AI reasoning.
-  why_it_matters: It solves the classic session-amnesia problem by persisting episodic, semantic, project, and procedural memory across restarts, while making the assistant's internal state visible instead of a black box.
-  mental_damage: You can now watch a glowing orb absorb your contradicted PostgreSQL decisions in real time, just in case the amnesia wasn't metaphysical enough already.
+  summary: >-
+    A Rust + Tauri desktop app and MCP server that gives Claude Code and other assistants persistent multi-tier memory
+    plus a real-time 3D orb visualization of AI reasoning.
+  why_it_matters: >-
+    It solves the classic session-amnesia problem by persisting episodic, semantic, project, and procedural memory
+    across restarts, while making the assistant's internal state visible instead of a black box.
+  mental_damage: >-
+    You can now watch a glowing orb absorb your contradicted PostgreSQL decisions in real time, just in case the amnesia
+    wasn't metaphysical enough already.
   tags:
     - mcp
     - memory
@@ -72,35 +82,44 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The core novelty is a persistent memory system with temporal scoring, contradiction detection, and knowledge graph storage surfaced through an MCP server, fitting context engineering over a generic extension label.
+  reason: >-
+    The core novelty is a persistent memory system with temporal scoring, contradiction detection, and knowledge graph
+    storage surfaced through an MCP server, fitting context engineering over a generic extension label.
   evidence:
-    - Repo description explicitly calls it a 'Persistent Memory MCP Server + AI Brain Visualizer' with 4-tier memory and temporal scoring.
-    - README positions memory_save, memory_search, memory_verify, and entity tracking as the primary MCP tools developers interact with.
-    - Active project (pushed 2026-04-28) with MIT license and multi-platform support for Claude Code, Cursor, and MCP-compatible tools.
+    - >-
+      Repo description explicitly calls it a 'Persistent Memory MCP Server + AI Brain Visualizer' with 4-tier memory and
+      temporal scoring.
+    - >-
+      README positions memory_save, memory_search, memory_verify, and entity tracking as the primary MCP tools
+      developers interact with.
+    - >-
+      Active project (pushed 2026-04-28) with MIT license and multi-platform support for Claude Code, Cursor, and
+      MCP-compatible tools.
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.651Z"
+    updated_at: '2026-05-06T22:12:15.651Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:47.889Z"
+    updated_at: '2026-07-21T15:20:47.889Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

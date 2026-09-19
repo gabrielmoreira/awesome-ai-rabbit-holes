@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__musharna__jobd__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 👨‍💻 <a name="code-execution"></a>Code Execution
         anchor_text: musharna/jobd
         extracted_url: https://github.com/musharna/jobd
-        surrounding_text: "- [musharna/jobd](https://github.com/musharna/jobd) [![musharna/jobd MCP server](https://glama.ai/mcp/servers/musharna/jobd/badges/score.svg)](https://glama.ai/mcp/servers/musharna/jobd) 🐍 🏠 🍎 🪟 🐧 - Self-hostable GPU-aware job broker for your own machines. The MCP server exposes the queue as nine tools (submit, status, logs, list, cancel, preempt, workers, job-get, worker-delete) so an agent can dispatch long-running or GPU jobs that outlive the session, route them by VRAM tier, and babysit them across sessions. `pip install \"jobd[mcp]\"`."
+        surrounding_text: >-
+          - [musharna/jobd](https://github.com/musharna/jobd) [![musharna/jobd MCP
+          server](https://glama.ai/mcp/servers/musharna/jobd/badges/score.svg)](https://glama.ai/mcp/servers/musharna/jobd)
+          🐍 🏠 🍎 🪟 🐧 - Self-hostable GPU-aware job broker for your own machines. The MCP server exposes the queue as
+          nine tools (submit, status, logs, list, cancel, preempt, workers, job-get, worker-delete) so an agent can
+          dispatch long-running or GPU jobs that outlive the session, route them by VRAM tier, and babysit them across
+          sessions. `pip install "jobd[mcp]"`.
         confidence: high
 metadata:
   github:
@@ -30,8 +36,8 @@ metadata:
     archived: false
     full_name: musharna/jobd
     html_url: https://github.com/musharna/jobd
-    created_at: "2026-05-31T23:14:59Z"
-    pushed_at: "2026-07-19T19:35:27Z"
+    created_at: '2026-05-31T23:14:59Z'
+    pushed_at: '2026-07-19T19:35:27Z'
     description: Self-hostable GPU-aware job broker for your own machines, with native MCP/agent integration
     homepage: https://pypi.org/project/jobd/
     topics:
@@ -44,14 +50,18 @@ metadata:
       - mcp
       - self-hosted
       - tailscale
-    last_checked_at: "2026-07-23T05:09:44.643Z"
+    last_checked_at: '2026-07-23T05:09:44.643Z'
     readme:
-      fetched_at: "2026-07-23T05:09:44.643Z"
+      fetched_at: '2026-07-23T05:09:44.643Z'
       bytes: 20455
 insights:
   summary: Self-hostable GPU-aware job broker for personal machines with native MCP/agent integration.
-  why_it_matters: Lets developers run GPU workloads across their own hardware with VRAM-aware routing, preemption, and checkpointing without needing cloud or cluster infra.
-  mental_damage: Finally, a way to feel guilty about underutilizing your RTX 4090 while pretending you're running a heterogenous datacenter.
+  why_it_matters: >-
+    Lets developers run GPU workloads across their own hardware with VRAM-aware routing, preemption, and checkpointing
+    without needing cloud or cluster infra.
+  mental_damage: >-
+    Finally, a way to feel guilty about underutilizing your RTX 4090 while pretending you're running a heterogenous
+    datacenter.
   tags:
     - job-queue
     - gpu
@@ -61,33 +71,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: jobd is primarily an MCP server that enables LLM agents to submit, monitor, and manage GPU jobs across personal machines, making it an integration layer rather than a coding assistant or standalone platform.
+  reason: >-
+    jobd is primarily an MCP server that enables LLM agents to submit, monitor, and manage GPU jobs across personal
+    machines, making it an integration layer rather than a coding assistant or standalone platform.
   evidence:
-    - "Repo description: 'Self-hostable GPU-aware job broker for your own machines, with native MCP/agent integration'"
-    - "README: 'Ships a first-class [MCP](https://modelcontextprotocol.io/) server so an LLM agent (Claude Code, etc.) can submit, monitor, and babysit jobs as tool calls'"
-    - "Source-list context: Listed in awesome-mcp-servers under 'Server Implementations > Code Execution'"
+    - 'Repo description: ''Self-hostable GPU-aware job broker for your own machines, with native MCP/agent integration'''
+    - >-
+      README: 'Ships a first-class [MCP](https://modelcontextprotocol.io/) server so an LLM agent (Claude Code, etc.)
+      can submit, monitor, and babysit jobs as tool calls'
+    - 'Source-list context: Listed in awesome-mcp-servers under ''Server Implementations > Code Execution'''
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-15T05:51:04.989Z"
+    updated_at: '2026-06-15T05:51:04.989Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-08-03T05:17:09.085Z"
+    updated_at: '2026-08-03T05:17:09.085Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for musharna/jobd
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-09T05:33:23.471Z"
+    updated_at: '2026-07-09T05:33:23.471Z'
     cause: null
     next_retry_at: null
     attempts: 2

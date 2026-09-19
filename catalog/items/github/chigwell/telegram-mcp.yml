@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__chigwell__telegram-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: chigwell/telegram-mcp
         extracted_url: https://github.com/chigwell/telegram-mcp
-        surrounding_text: "- [chigwell/telegram-mcp](https://github.com/chigwell/telegram-mcp) 🐍 🏠 - Telegram API integration for accessing user data, managing dialogs (chats, channels, groups), retrieving messages, sending messages and handling read status."
+        surrounding_text: >-
+          - [chigwell/telegram-mcp](https://github.com/chigwell/telegram-mcp) 🐍 🏠 - Telegram API integration for
+          accessing user data, managing dialogs (chats, channels, groups), retrieving messages, sending messages and
+          handling read status.
         confidence: high
 metadata:
   github:
@@ -30,10 +33,12 @@ metadata:
     archived: false
     full_name: chigwell/telegram-mcp
     html_url: https://github.com/chigwell/telegram-mcp
-    created_at: "2025-03-20T14:06:35Z"
-    pushed_at: "2026-09-04T14:55:00Z"
-    description: Telegram MCP server powered by Telethon to let MCP clients read chats, manage groups, and send/modify messages, media, contacts, and settings.
-    homepage: ""
+    created_at: '2025-03-20T14:06:35Z'
+    pushed_at: '2026-09-04T14:55:00Z'
+    description: >-
+      Telegram MCP server powered by Telethon to let MCP clients read chats, manage groups, and send/modify messages,
+      media, contacts, and settings.
+    homepage: ''
     topics:
       - admin
       - api
@@ -48,14 +53,18 @@ metadata:
       - telegram-api
       - telegram-client
       - telethon
-    last_checked_at: "2026-09-07T04:13:44.403Z"
+    last_checked_at: '2026-09-07T04:13:44.403Z'
     readme:
-      fetched_at: "2026-09-07T04:13:44.403Z"
+      fetched_at: '2026-09-07T04:13:44.403Z'
       bytes: 31648
 insights:
-  summary: A Telegram MCP server that exposes Telegram account, chat, message, contact, media, and admin operations to MCP-compatible clients like Claude and Cursor.
+  summary: >-
+    A Telegram MCP server that exposes Telegram account, chat, message, contact, media, and admin operations to
+    MCP-compatible clients like Claude and Cursor.
   why_it_matters: Lets developers integrate Telegram messaging and group management directly into their AI coding workflows via MCP.
-  mental_damage: Now your AI can not only write your code but also manage your group chats—because why should your bot stop at your repo?
+  mental_damage: >-
+    Now your AI can not only write your code but also manage your group chats—because why should your bot stop at your
+    repo?
   tags:
     - mcp
     - telegram
@@ -65,31 +74,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: it is a dedicated MCP server for Telegram, not just an adapter or compatibility feature."
+  reason: >-
+    MCP is the product identity here: it is a dedicated MCP server for Telegram, not just an adapter or compatibility
+    feature.
   evidence:
     - Repo description explicitly states it is a 'Telegram MCP server'
     - README confirms it exposes Telegram operations via MCP for clients like Claude and Cursor
     - Already listed in awesome-mcp-servers under 'Communication' section
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: promotion_candidate
   reason: Stars (1064) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.607Z"
+    updated_at: '2026-05-06T22:12:15.607Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:44.403Z"
+    updated_at: '2026-09-07T04:13:44.403Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:41:37.321Z"
+    updated_at: '2026-07-21T15:41:37.321Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -102,7 +114,9 @@ processing:
       input_hash: sha256:e4c874e1488ee89541099d83b0ef4a516c9c9787af7ee5ee05d9ba01ffba5cd2
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: it is a dedicated MCP server for Telegram, not just an adapter or compatibility feature."
+      decision_reason: >-
+        MCP is the product identity here: it is a dedicated MCP server for Telegram, not just an adapter or
+        compatibility feature.
       decision_evidence:
         - Repo description explicitly states it is a 'Telegram MCP server'
         - README confirms it exposes Telegram operations via MCP for clients like Claude and Cursor
@@ -110,6 +124,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server, not merely an extension for
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

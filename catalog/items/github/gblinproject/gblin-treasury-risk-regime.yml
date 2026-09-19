@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gblinproject__gblin-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: gblinproject/GBLIN-MCP
         extracted_url: https://github.com/gblinproject/gblin-mcp
-        surrounding_text: "- [gblinproject/GBLIN-MCP](https://github.com/gblinproject/GBLIN-MCP) [![gblinproject/GBLIN-MCP MCP server](https://glama.ai/mcp/servers/gblinproject/GBLIN-MCP/badges/score.svg)](https://glama.ai/mcp/servers/gblinproject/GBLIN-MCP) 📇 ☁️ - Treasury standard for AI agents on Base mainnet. Park idle USDC in a cbBTC/WETH index with Crash Shield protection, JIT-swap to USDC for x402 invoice payments."
+        surrounding_text: >-
+          - [gblinproject/GBLIN-MCP](https://github.com/gblinproject/GBLIN-MCP) [![gblinproject/GBLIN-MCP MCP
+          server](https://glama.ai/mcp/servers/gblinproject/GBLIN-MCP/badges/score.svg)](https://glama.ai/mcp/servers/gblinproject/GBLIN-MCP)
+          📇 ☁️ - Treasury standard for AI agents on Base mainnet. Park idle USDC in a cbBTC/WETH index with Crash
+          Shield protection, JIT-swap to USDC for x402 invoice payments.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,12 @@ metadata:
     archived: false
     full_name: gblinproject/gblin-treasury-risk-regime
     html_url: https://github.com/gblinproject/gblin-treasury-risk-regime
-    created_at: "2026-05-17T20:57:18Z"
-    pushed_at: "2026-09-02T17:27:53Z"
-    description: Market risk regime (calm/elevated/crash) for AI agents on Base — free to read via MCP. Signed EIP-712 risk attestations as portable proof-of-diligence, plus a collateral-backed treasury index for idle USDC with JIT swap to USDC for x402 invoices.
+    created_at: '2026-05-17T20:57:18Z'
+    pushed_at: '2026-09-02T17:27:53Z'
+    description: >-
+      Market risk regime (calm/elevated/crash) for AI agents on Base — free to read via MCP. Signed EIP-712 risk
+      attestations as portable proof-of-diligence, plus a collateral-backed treasury index for idle USDC with JIT swap
+      to USDC for x402 invoices.
     homepage: https://gblin.digital
     topics:
       - agent-payments
@@ -50,14 +57,20 @@ metadata:
       - risk-regime
       - treasury
       - x402
-    last_checked_at: "2026-09-03T05:16:46.859Z"
+    last_checked_at: '2026-09-03T05:16:46.859Z'
     readme:
-      fetched_at: "2026-09-03T05:16:46.859Z"
+      fetched_at: '2026-09-03T05:16:46.859Z'
       bytes: 27700
 insights:
-  summary: An MCP server that allows AI agents on the Base mainnet to manage capital in a diversified index and perform JIT swaps for x402 payments.
-  why_it_matters: It gives autonomous agents a treasury standard to earn yield on idle funds while maintaining the liquidity needed to pay for API services or compute via x402 invoices.
-  mental_damage: We have finally reached the era where your coding assistant needs its own diversified portfolio and a crash-shielded treasury to avoid going bankrupt while paying for its own tokens.
+  summary: >-
+    An MCP server that allows AI agents on the Base mainnet to manage capital in a diversified index and perform JIT
+    swaps for x402 payments.
+  why_it_matters: >-
+    It gives autonomous agents a treasury standard to earn yield on idle funds while maintaining the liquidity needed to
+    pay for API services or compute via x402 invoices.
+  mental_damage: >-
+    We have finally reached the era where your coding assistant needs its own diversified portfolio and a crash-shielded
+    treasury to avoid going bankrupt while paying for its own tokens.
   tags:
     - ai-agents
     - base
@@ -67,21 +80,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly built as an MCP server to provide a specific domain capability (DeFi treasury management) to any LLM agent, making its primary identity an MCP implementation.
+  reason: >-
+    The project is explicitly built as an MCP server to provide a specific domain capability (DeFi treasury management)
+    to any LLM agent, making its primary identity an MCP implementation.
   evidence:
     - Repo description explicitly states 'MCP server for GBLIN'
     - README describes it as a 'Model Context Protocol (MCP) server' for autonomous agents
     - Included in awesome-mcp-servers under 'Finance & Fintech'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-06-08T05:41:10.023Z"
+    updated_at: '2026-06-08T05:41:10.023Z'
     cause: null
     next_retry_at: null
     attempts: 1
@@ -89,11 +105,11 @@ processing:
     category_rules_version: 6cc474a86022
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.819Z"
+    updated_at: '2026-05-28T05:28:09.819Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:46.859Z"
+    updated_at: '2026-09-03T05:16:46.859Z'
     cause: null
     next_retry_at: null

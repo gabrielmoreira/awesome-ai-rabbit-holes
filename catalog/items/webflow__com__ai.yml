@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__webflow__com__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,9 @@ provenance:
           - App Builders
         anchor_text: Webflow AI
         extracted_url: https://webflow.com/ai
-        surrounding_text: "- **[Webflow AI](https://webflow.com/ai)** – AI features within Webflow for automated design and content generation."
+        surrounding_text: >-
+          - **[Webflow AI](https://webflow.com/ai)** – AI features within Webflow for automated design and content
+          generation.
         confidence: high
 metadata:
   github:
@@ -36,9 +38,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Webflow AI is a suite of AI-powered features embedded in the Webflow platform for building, managing, and optimizing websites.
-  why_it_matters: It accelerates web development workflows by generating sites, code components, copy, and CMS content directly within Webflow, reducing repetitive tasks for developers and designers.
-  mental_damage: Now you can generate entire websites from a prompt, but you’ll still spend hours tweaking the CSS to make it look *exactly* like the Figma mock.
+  summary: >-
+    Webflow AI is a suite of AI-powered features embedded in the Webflow platform for building, managing, and optimizing
+    websites.
+  why_it_matters: >-
+    It accelerates web development workflows by generating sites, code components, copy, and CMS content directly within
+    Webflow, reducing repetitive tasks for developers and designers.
+  mental_damage: >-
+    Now you can generate entire websites from a prompt, but you’ll still spend hours tweaking the CSS to make it look
+    *exactly* like the Figma mock.
   tags:
     - website-builder
     - ai-site-generator
@@ -48,21 +56,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product identity is a prompt-to-site builder and AI-assisted web development platform, not a primary coding assistant or extension.
+  reason: >-
+    The core product identity is a prompt-to-site builder and AI-assisted web development platform, not a primary coding
+    assistant or extension.
   evidence:
     - Primary page excerpt describes AI site builder generating entire websites from prompts
     - Source-list context places it in 'App Builders' section
     - Features include generating sites, code components, and CMS content from prompts
 placement:
   primary_category: app-builders
-  section: Prompt-to-Site Builders
+  secondary_categories: []
+  section: Site & Landing Page Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.666Z"
+    updated_at: '2026-05-06T22:12:15.666Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +82,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:39:00.177Z"
+    updated_at: '2026-07-21T15:39:00.177Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +95,9 @@ processing:
       input_hash: sha256:aef540475a87508b92ad3f74d8f882744493a1426ba73ab53cda1687fd95100f
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The core product identity is a prompt-to-site builder and AI-assisted web development platform, not a primary coding assistant or extension.
+      decision_reason: >-
+        The core product identity is a prompt-to-site builder and AI-assisted web development platform, not a primary
+        coding assistant or extension.
       decision_evidence:
         - Primary page excerpt describes AI site builder generating entire websites from prompts
         - Source-list context places it in 'App Builders' section
@@ -92,6 +105,8 @@ processing:
       category_candidates:
         - app-builders
         - ai-dev-extensions
-      contrastive_reason: Choose app-builders over ai-dev-extensions because the main surface turns prompts into websites rather than augmenting another coding tool.
+      contrastive_reason: >-
+        Choose app-builders over ai-dev-extensions because the main surface turns prompts into websites rather than
+        augmenting another coding tool.
       review_reason: null
       review_resume_lifecycle: null

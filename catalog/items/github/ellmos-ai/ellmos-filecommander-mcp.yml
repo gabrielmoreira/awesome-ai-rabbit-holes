@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ellmos-ai__ellmos-filecommander-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📂 <a name="file-systems"></a>File Systems
         anchor_text: ellmos-ai/ellmos-filecommander-mcp
         extracted_url: https://github.com/ellmos-ai/ellmos-filecommander-mcp
-        surrounding_text: "- [ellmos-ai/ellmos-filecommander-mcp](https://github.com/ellmos-ai/ellmos-filecommander-mcp) [![ellmos-ai/ellmos-filecommander-mcp MCP server](https://glama.ai/mcp/servers/ellmos-ai/ellmos-filecommander-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ellmos-ai/ellmos-filecommander-mcp) 📇 🏠 🍎 🪟 🐧 - Comprehensive local filesystem MCP server with file management, process control, interactive sessions, async search, and safe delete via Recycle Bin."
+        surrounding_text: >-
+          - [ellmos-ai/ellmos-filecommander-mcp](https://github.com/ellmos-ai/ellmos-filecommander-mcp)
+          [![ellmos-ai/ellmos-filecommander-mcp MCP
+          server](https://glama.ai/mcp/servers/ellmos-ai/ellmos-filecommander-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ellmos-ai/ellmos-filecommander-mcp)
+          📇 🏠 🍎 🪟 🐧 - Comprehensive local filesystem MCP server with file management, process control, interactive
+          sessions, async search, and safe delete via Recycle Bin.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: ellmos-ai/ellmos-filecommander-mcp
     html_url: https://github.com/ellmos-ai/ellmos-filecommander-mcp
-    created_at: "2026-02-14T08:01:15Z"
-    pushed_at: "2026-08-26T09:24:47Z"
-    description: "Local filesystem MCP server with 44 tools: safe delete, process management, interactive sessions, async search, OCR, ZIP, Markdown/PDF export, and cloud-lock-safe operations."
+    created_at: '2026-02-14T08:01:15Z'
+    pushed_at: '2026-08-26T09:24:47Z'
+    description: >-
+      Local filesystem MCP server with 44 tools: safe delete, process management, interactive sessions, async search,
+      OCR, ZIP, Markdown/PDF export, and cloud-lock-safe operations.
     homepage: https://www.npmjs.com/package/ellmos-filecommander-mcp
     topics:
       - agent-framework
@@ -55,14 +62,20 @@ metadata:
       - process-management
       - safe-delete
       - shell
-    last_checked_at: "2026-08-27T09:23:23.481Z"
+    last_checked_at: '2026-08-27T09:23:23.481Z'
     readme:
-      fetched_at: "2026-08-27T09:23:23.481Z"
+      fetched_at: '2026-08-27T09:23:23.481Z'
       bytes: 30008
 insights:
-  summary: A Model Context Protocol (MCP) server providing 44 filesystem and system tools for AI assistants, including safe delete, process management, interactive sessions, async search, OCR, ZIP, and Markdown/PDF export.
-  why_it_matters: It gives AI coding assistants deep, safe, and cross-platform filesystem and system access without requiring custom integrations.
-  mental_damage: Finally, an MCP server that lets your AI delete files safely—because nothing says 'trust' like a Recycle Bin full of regrets.
+  summary: >-
+    A Model Context Protocol (MCP) server providing 44 filesystem and system tools for AI assistants, including safe
+    delete, process management, interactive sessions, async search, OCR, ZIP, and Markdown/PDF export.
+  why_it_matters: >-
+    It gives AI coding assistants deep, safe, and cross-platform filesystem and system access without requiring custom
+    integrations.
+  mental_damage: >-
+    Finally, an MCP server that lets your AI delete files safely—because nothing says 'trust' like a Recycle Bin full of
+    regrets.
   tags:
     - mcp-server
     - filesystem
@@ -72,33 +85,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the core product identity, and the server provides domain-specific filesystem and system tools for AI assistants.
+  reason: >-
+    MCP is the core product identity, and the server provides domain-specific filesystem and system tools for AI
+    assistants.
   evidence:
     - Repo description explicitly identifies it as an MCP server with filesystem and system tools
     - README highlights 44 MCP tools for filesystem access, process management, and more
     - Already listed in awesome-mcp-servers under File Systems
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.612Z"
+    updated_at: '2026-05-06T22:12:15.612Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-14T04:13:48.484Z"
+    updated_at: '2026-09-14T04:13:48.484Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for ellmos-ai/ellmos-filecommander-mcp
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:52:17.539Z"
+    updated_at: '2026-07-21T15:52:17.539Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -111,7 +127,9 @@ processing:
       input_hash: sha256:807d6b88d0e1ac09261e7270795f9d3aca773eb73d35a195c1c60cfc35bf8416
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the core product identity, and the server provides domain-specific filesystem and system tools for AI assistants.
+      decision_reason: >-
+        MCP is the core product identity, and the server provides domain-specific filesystem and system tools for AI
+        assistants.
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server with filesystem and system tools
         - README highlights 44 MCP tools for filesystem access, process management, and more
@@ -119,6 +137,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__different-ai__openwork__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Agent infrastructure
         anchor_text: OpenWork
         extracted_url: https://github.com/different-ai/openwork
-        surrounding_text: "- **[OpenWork](https://github.com/different-ai/openwork)** `⭐ 14.7k` — Open-source alternative to Claude Cowork for teams; local-first desktop app powered by OpenCode with one-click setup. MIT."
+        surrounding_text: >-
+          - **[OpenWork](https://github.com/different-ai/openwork)** `⭐ 14.7k` — Open-source alternative to Claude
+          Cowork for teams; local-first desktop app powered by OpenCode with one-click setup. MIT.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,22 @@ metadata:
     archived: false
     full_name: different-ai/openwork
     html_url: https://github.com/different-ai/openwork
-    created_at: "2026-01-14T01:39:31Z"
-    pushed_at: "2026-09-13T22:19:01Z"
+    created_at: '2026-01-14T01:39:31Z'
+    pushed_at: '2026-09-13T22:19:01Z'
     description: The open-source alternative to Claude Cowork (powered by opencode)
     homepage: https://openworklabs.com
     topics: []
-    last_checked_at: "2026-09-14T04:13:40.498Z"
+    last_checked_at: '2026-09-14T04:13:40.498Z'
     readme:
-      fetched_at: "2026-09-14T04:13:40.498Z"
+      fetched_at: '2026-09-14T04:13:40.498Z'
       bytes: 10777
 insights:
-  summary: An open-source desktop application and orchestrator that provides a UI and management layer for OpenCode agentic workflows.
-  why_it_matters: It transforms raw CLI-based agent workflows into a composable, auditable, and shareable desktop experience for teams.
+  summary: >-
+    An open-source desktop application and orchestrator that provides a UI and management layer for OpenCode agentic
+    workflows.
+  why_it_matters: >-
+    It transforms raw CLI-based agent workflows into a composable, auditable, and shareable desktop experience for
+    teams.
   mental_damage: Because having a GUI for your autonomous agent makes it much easier to watch your terminal undo work in real-time.
   tags:
     - open-source
@@ -52,31 +58,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a desktop and CLI host that wraps OpenCode as the primary coding assistant surface, making it a developer-facing agent environment rather than a thin extension or framework.
+  reason: >-
+    This is a desktop and CLI host that wraps OpenCode as the primary coding assistant surface, making it a
+    developer-facing agent environment rather than a thin extension or framework.
   evidence:
     - Repo description explicitly states it is 'an open-source alternative to Claude Cowork (powered by opencode)'.
-    - README describes host mode, client mode, sessions, live streaming, execution plans, permissions, and workflow templates as core features.
-    - Included in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure', reinforcing its agent-hosting identity.
+    - >-
+      README describes host mode, client mode, sessions, live streaming, execution plans, permissions, and workflow
+      templates as core features.
+    - >-
+      Included in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure', reinforcing its
+      agent-hosting identity.
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.611Z"
+    updated_at: '2026-05-06T22:12:15.611Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:40.498Z"
+    updated_at: '2026-09-14T04:13:40.498Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:10.219Z"
+    updated_at: '2026-07-21T15:51:10.219Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +102,9 @@ processing:
       input_hash: sha256:ece81353daa959d2c18eb7b92009e096a3699b387c662527d5c4eeff1434daa1
       proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: It acts as an operated workbench and control plane for managing agent sessions, permissions, and distributed workflows.
+      decision_reason: >-
+        It acts as an operated workbench and control plane for managing agent sessions, permissions, and distributed
+        workflows.
       decision_evidence:
         - README identifies it as a desktop app and orchestrator for OpenCode
         - Provides session management, permissions, and remote worker connectivity
@@ -97,6 +112,8 @@ processing:
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because the tool functions as a management layer and control plane for agent sessions rather than being the primary coding agent itself.
-      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because the tool functions as a management layer and control plane
+        for agent sessions rather than being the primary coding agent itself.
+      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
       review_resume_lifecycle: null

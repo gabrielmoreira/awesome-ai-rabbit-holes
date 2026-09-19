@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agentmail-to__agentmail-toolkit__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: agentmail-toolkit/mcp
         extracted_url: https://github.com/agentmail-to/agentmail-toolkit
-        surrounding_text: "- [agentmail-toolkit/mcp](https://github.com/agentmail-to/agentmail-toolkit/tree/main/mcp) 🐍 💬 - An MCP server to create inboxes on the fly to send, receive, and take actions on email. We aren't AI agents for email, but email for AI Agents."
+        surrounding_text: >-
+          - [agentmail-toolkit/mcp](https://github.com/agentmail-to/agentmail-toolkit/tree/main/mcp) 🐍 💬 - An MCP
+          server to create inboxes on the fly to send, receive, and take actions on email. We aren't AI agents for
+          email, but email for AI Agents.
         confidence: high
 metadata:
   github:
@@ -30,19 +33,25 @@ metadata:
     archived: false
     full_name: agentmail-to/agentmail-toolkit
     html_url: https://github.com/agentmail-to/agentmail-toolkit
-    created_at: "2025-03-11T22:51:25Z"
-    pushed_at: "2026-09-16T18:52:30Z"
+    created_at: '2025-03-11T22:51:25Z'
+    pushed_at: '2026-09-16T18:52:30Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:32.884Z"
+    last_checked_at: '2026-09-17T04:13:32.884Z'
     readme:
-      fetched_at: "2026-09-17T04:13:32.884Z"
+      fetched_at: '2026-09-17T04:13:32.884Z'
       bytes: 305
 insights:
-  summary: A developer toolkit that integrates the AgentMail API with major agent frameworks like OpenAI Agents SDK, Vercel AI SDK, and the Model Context Protocol (MCP).
-  why_it_matters: It provides a standardized way to plug agent-driven communication and messaging capabilities into existing AI development workflows.
-  mental_damage: "Just what your stack needed: another abstraction layer to manage while you try to figure out if your agent is actually talking to the user or just hallucinating a conversation."
+  summary: >-
+    A developer toolkit that integrates the AgentMail API with major agent frameworks like OpenAI Agents SDK, Vercel AI
+    SDK, and the Model Context Protocol (MCP).
+  why_it_matters: >-
+    It provides a standardized way to plug agent-driven communication and messaging capabilities into existing AI
+    development workflows.
+  mental_damage: >-
+    Just what your stack needed: another abstraction layer to manage while you try to figure out if your agent is
+    actually talking to the user or just hallucinating a conversation.
   tags:
     - mcp
     - sdk
@@ -51,31 +60,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is an integration layer that adds email capabilities to other agent frameworks and MCP-compatible tools rather than being a standalone coding assistant.
+  reason: >-
+    The project is an integration layer that adds email capabilities to other agent frameworks and MCP-compatible tools
+    rather than being a standalone coding assistant.
   evidence:
-    - README states it 'integrates popular agent frameworks and protocols including OpenAI Agents SDK, Vercel AI SDK, and Model Context Protocol (MCP) with the AgentMail API.'
+    - >-
+      README states it 'integrates popular agent frameworks and protocols including OpenAI Agents SDK, Vercel AI SDK,
+      and Model Context Protocol (MCP) with the AgentMail API.'
     - Found in awesome-mcp-servers under 'Communication', confirming its role as a host integration.
-    - Provides language-specific packages (/python and /node) as integration points rather than a primary assistant product.
+    - >-
+      Provides language-specific packages (/python and /node) as integration points rather than a primary assistant
+      product.
 placement:
-  primary_category: ai-dev-extensions
-  section: null
+  primary_category: mcp
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'mcp'"
+  reason: 'Categorization review required: placement disagreement: retained ''ai-dev-extensions'', proposed ''mcp'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.600Z"
+    updated_at: '2026-05-06T22:12:15.600Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:32.884Z"
+    updated_at: '2026-09-17T04:13:32.884Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:02:37.916Z"
+    updated_at: '2026-07-20T16:02:37.916Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -88,7 +104,9 @@ processing:
       input_hash: sha256:5a14d2d7ae953121822c0323ed08a8b84b7d266ea6654e4f6b2a18e76a98bc60
       proposed_primary_category: mcp
       disagreement: true
-      decision_reason: The toolkit is explicitly designed to integrate with the Model Context Protocol (MCP) alongside other SDKs, making MCP a core part of its identity.
+      decision_reason: >-
+        The toolkit is explicitly designed to integrate with the Model Context Protocol (MCP) alongside other SDKs,
+        making MCP a core part of its identity.
       decision_evidence:
         - README explicitly mentions Model Context Protocol (MCP) integration
         - Included in awesome-mcp-servers directory
@@ -96,6 +114,8 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the project's inclusion in MCP-specific registries and its explicit support for the protocol makes MCP a primary identity rather than just a secondary SDK use case.
-      review_reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'mcp'"
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the project's inclusion in MCP-specific registries and its explicit
+        support for the protocol makes MCP a primary identity rather than just a secondary SDK use case.
+      review_reason: 'Categorization review required: placement disagreement: retained ''ai-dev-extensions'', proposed ''mcp'''
       review_resume_lifecycle: null

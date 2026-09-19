@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__x402-index__x402search-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: x402-index/x402search-mcp
         extracted_url: https://github.com/x402-index/x402search-mcp
-        surrounding_text: "- [x402-index/x402search-mcp](https://github.com/x402-index/x402search-mcp) [![x402-index/x402search-mcp MCP server](https://glama.ai/mcp/servers/x402-index/x402search-mcp/badges/score.svg)](https://glama.ai/mcp/servers/x402-index/x402search-mcp) 📇 ☁️ 🍎 🪟 🐧 - Search 14,000+ x402-enabled HTTP APIs by keyword. Agents pay $0.01 USDC per search via x402 micropayments on Base mainnet — no API keys required. Larger index than any other x402 discovery layer."
+        surrounding_text: >-
+          - [x402-index/x402search-mcp](https://github.com/x402-index/x402search-mcp) [![x402-index/x402search-mcp MCP
+          server](https://glama.ai/mcp/servers/x402-index/x402search-mcp/badges/score.svg)](https://glama.ai/mcp/servers/x402-index/x402search-mcp)
+          📇 ☁️ 🍎 🪟 🐧 - Search 14,000+ x402-enabled HTTP APIs by keyword. Agents pay $0.01 USDC per search via x402
+          micropayments on Base mainnet — no API keys required. Larger index than any other x402 discovery layer.
         confidence: high
 metadata:
   github:
@@ -30,19 +34,25 @@ metadata:
     archived: false
     full_name: x402-index/x402search-mcp
     html_url: https://github.com/x402-index/x402search-mcp
-    created_at: "2026-03-08T08:23:35Z"
-    pushed_at: "2026-03-29T07:38:23Z"
+    created_at: '2026-03-08T08:23:35Z'
+    pushed_at: '2026-03-29T07:38:23Z'
     description: Search 13,000+ x402-enabled APIs from your AI agent. Powered by x402search.xyz
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:21:16.544Z"
+    last_checked_at: '2026-07-21T15:21:16.544Z'
     readme:
-      fetched_at: "2026-07-21T15:21:16.544Z"
+      fetched_at: '2026-07-21T15:21:16.544Z'
       bytes: 3192
 insights:
-  summary: x402search-mcp is an MCP server that enables AI agents to search 14,000+ x402-enabled HTTP APIs using cryptocurrency payments.
-  why_it_matters: It lets agents programmatically discover and access paid blockchain APIs through a standardized MCP interface, enabling autonomous tool use in crypto-native workflows.
-  mental_damage: Another MCP server that turns API discovery into a token-gated ritual, because nothing says 'developer productivity' like paying USDC to find a token price endpoint.
+  summary: >-
+    x402search-mcp is an MCP server that enables AI agents to search 14,000+ x402-enabled HTTP APIs using cryptocurrency
+    payments.
+  why_it_matters: >-
+    It lets agents programmatically discover and access paid blockchain APIs through a standardized MCP interface,
+    enabling autonomous tool use in crypto-native workflows.
+  mental_damage: >-
+    Another MCP server that turns API discovery into a token-gated ritual, because nothing says 'developer productivity'
+    like paying USDC to find a token price endpoint.
   tags:
     - mcp
     - x402
@@ -51,31 +61,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core identity is providing search-over-x402-apis as an MCP-compatible tool, making it MCP infrastructure first and foremost.
+  reason: >-
+    The product is an MCP server whose core identity is providing search-over-x402-apis as an MCP-compatible tool,
+    making it MCP infrastructure first and foremost.
   evidence:
-    - "Repo description: 'Search 13,000+ x402-enabled APIs from your AI agent. Powered by x402search.xyz'"
+    - 'Repo description: ''Search 13,000+ x402-enabled APIs from your AI agent. Powered by x402search.xyz'''
     - README positions it as an MCP server installable via Claude Desktop, Cursor, Windsurf, and Python agents
     - Listed in awesome-mcp-servers under 'Server Implementations > Aggregators'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.656Z"
+    updated_at: '2026-05-06T22:12:15.656Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:16.544Z"
+    updated_at: '2026-07-21T15:21:16.544Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-18T05:36:07.222Z"
+    updated_at: '2026-05-18T05:36:07.222Z'
     cause: null
     next_retry_at: null
     attempts: 3

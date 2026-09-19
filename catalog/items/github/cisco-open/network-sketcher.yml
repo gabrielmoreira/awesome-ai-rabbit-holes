@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cisco-open__network-sketcher__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📐 <a name="architecture-and-design"></a>Architecture & Design
         anchor_text: cisco-open/network-sketcher
         extracted_url: https://github.com/cisco-open/network-sketcher
-        surrounding_text: "- [cisco-open/network-sketcher](https://github.com/cisco-open/network-sketcher) [![cisco-open/network-sketcher MCP server](https://glama.ai/mcp/servers/cisco-open/network-sketcher/badges/score.svg)](https://glama.ai/mcp/servers/cisco-open/network-sketcher) 🐍 🏠 🍎 🪟 🐧 - Local-first MCP server for AI-driven network design. Creates Cisco-style network master files, L1/L2/L3 topology diagrams, combined HTML viewers, device tables, and AI Context files."
+        surrounding_text: >-
+          - [cisco-open/network-sketcher](https://github.com/cisco-open/network-sketcher) [![cisco-open/network-sketcher
+          MCP
+          server](https://glama.ai/mcp/servers/cisco-open/network-sketcher/badges/score.svg)](https://glama.ai/mcp/servers/cisco-open/network-sketcher)
+          🐍 🏠 🍎 🪟 🐧 - Local-first MCP server for AI-driven network design. Creates Cisco-style network master
+          files, L1/L2/L3 topology diagrams, combined HTML viewers, device tables, and AI Context files.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: cisco-open/network-sketcher
     html_url: https://github.com/cisco-open/network-sketcher
-    created_at: "2023-08-08T08:29:44Z"
-    pushed_at: "2026-09-03T01:33:41Z"
-    description: Network Sketcher is an AI-ready network design tool with Local MCP, Online, and Offline editions for creating network designs and exporting PowerPoint diagrams and Excel-based configuration data.
+    created_at: '2023-08-08T08:29:44Z'
+    pushed_at: '2026-09-03T01:33:41Z'
+    description: >-
+      Network Sketcher is an AI-ready network design tool with Local MCP, Online, and Offline editions for creating
+      network designs and exporting PowerPoint diagrams and Excel-based configuration data.
     homepage: https://github.com/cisco-open/network-sketcher
     topics:
       - ai-agent
@@ -46,14 +53,20 @@ metadata:
       - powerpoint
       - svg
       - topology
-    last_checked_at: "2026-09-07T04:13:45.562Z"
+    last_checked_at: '2026-09-07T04:13:45.562Z'
     readme:
-      fetched_at: "2026-09-07T04:13:45.562Z"
+      fetched_at: '2026-09-07T04:13:45.562Z'
       bytes: 29289
 insights:
-  summary: An AI-native network design tool that generates L1/L2/L3 topology diagrams and configuration data through natural language and MCP.
-  why_it_matters: It allows engineers to move from high-level architectural intent to structured network diagrams and device tables using AI agents like Cursor or Claude Code.
-  mental_damage: Because now you can hallucinate an entire enterprise WAN topology in three seconds instead of spending hours in Visio.
+  summary: >-
+    An AI-native network design tool that generates L1/L2/L3 topology diagrams and configuration data through natural
+    language and MCP.
+  why_it_matters: >-
+    It allows engineers to move from high-level architectural intent to structured network diagrams and device tables
+    using AI agents like Cursor or Claude Code.
+  mental_damage: >-
+    Because now you can hallucinate an entire enterprise WAN topology in three seconds instead of spending hours in
+    Visio.
   tags:
     - mcp
     - network-automation
@@ -63,31 +76,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is defined by its Local MCP implementation that enables LLM clients to perform specialized network design tasks.
+  reason: >-
+    The product's identity is defined by its Local MCP implementation that enables LLM clients to perform specialized
+    network design tasks.
   evidence:
     - Explicitly offers a Local MCP edition for Cursor and Claude Code
     - Provides a dedicated mcp-server implementation in the repo
     - Primary workflow involves using MCP tool calls to design networks
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (371) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.714Z"
+    updated_at: '2026-07-16T05:04:46.714Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:45.562Z"
+    updated_at: '2026-09-07T04:13:45.562Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-16T05:13:32.082Z"
+    updated_at: '2026-07-16T05:13:32.082Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

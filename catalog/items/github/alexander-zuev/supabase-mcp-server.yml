@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alexander-zuev__supabase-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: alexanderzuev/supabase-mcp-server
         extracted_url: https://github.com/alexander-zuev/supabase-mcp-server
-        surrounding_text: "- [alexanderzuev/supabase-mcp-server](https://github.com/alexander-zuev/supabase-mcp-server) - Supabase MCP Server with support for SQL query execution and database exploration tools"
+        surrounding_text: >-
+          - [alexanderzuev/supabase-mcp-server](https://github.com/alexander-zuev/supabase-mcp-server) - Supabase MCP
+          Server with support for SQL query execution and database exploration tools
         confidence: high
     - id: discovery__github__alexander-zuev__supabase-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -33,9 +35,12 @@ provenance:
         mode: parsed
         section_path:
           - 🗄️ Databases
-        anchor_text: "@alexander-zuev/supabase-mcp-server"
+        anchor_text: '@alexander-zuev/supabase-mcp-server'
         extracted_url: https://github.com/alexander-zuev/supabase-mcp-server
-        surrounding_text: "-   **[@alexander-zuev/supabase-mcp-server](https://github.com/alexander-zuev/supabase-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/alexander-zuev/supabase-mcp-server?style=social)](https://github.com/alexander-zuev/supabase-mcp-server): Supports SQL query execution and database exploration within Supabase."
+        surrounding_text: >-
+          -   **[@alexander-zuev/supabase-mcp-server](https://github.com/alexander-zuev/supabase-mcp-server)** [![GitHub
+          stars](https://img.shields.io/github/stars/alexander-zuev/supabase-mcp-server?style=social)](https://github.com/alexander-zuev/supabase-mcp-server):
+          Supports SQL query execution and database exploration within Supabase.
         confidence: high
 metadata:
   github:
@@ -45,22 +50,28 @@ metadata:
     archived: false
     full_name: alexander-zuev/supabase-mcp-server
     html_url: https://github.com/alexander-zuev/supabase-mcp-server
-    created_at: "2025-02-15T08:54:29Z"
-    pushed_at: "2026-08-21T20:27:19Z"
-    description: "Query MCP enables end-to-end management of Supabase via chat interface: read & write query executions, management API support, automatic migration versioning, access to logs and much more."
-    homepage: ""
+    created_at: '2025-02-15T08:54:29Z'
+    pushed_at: '2026-08-21T20:27:19Z'
+    description: >-
+      Query MCP enables end-to-end management of Supabase via chat interface: read & write query executions, management
+      API support, automatic migration versioning, access to logs and much more.
+    homepage: ''
     topics:
       - cursor
       - model-context-protocol
       - supabase
       - windsurf
-    last_checked_at: "2026-09-17T04:13:39.082Z"
+    last_checked_at: '2026-09-17T04:13:39.082Z'
     readme:
-      fetched_at: "2026-09-17T04:13:39.082Z"
+      fetched_at: '2026-09-17T04:13:39.082Z'
       bytes: 29175
 insights:
-  summary: An open-source MCP server that enables chat-based management of Supabase projects, including SQL execution, schema changes, and Management API access.
-  why_it_matters: Developers can interact with Supabase databases and project settings directly from MCP-compatible IDEs like Cursor or Windsurf without leaving their workflow.
+  summary: >-
+    An open-source MCP server that enables chat-based management of Supabase projects, including SQL execution, schema
+    changes, and Management API access.
+  why_it_matters: >-
+    Developers can interact with Supabase databases and project settings directly from MCP-compatible IDEs like Cursor
+    or Windsurf without leaving their workflow.
   mental_damage: Now you can accidentally DROP TABLE in a chat window—progress.
   tags:
     - mcp
@@ -71,31 +82,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server for Supabase, fitting the MCP Servers & Tooling category where MCP is the primary adopted thing.
+  reason: >-
+    The product's core identity is an MCP server for Supabase, fitting the MCP Servers & Tooling category where MCP is
+    the primary adopted thing.
   evidence:
     - Repo description explicitly states it is an MCP server for Supabase
     - README highlights MCP compatibility with Cursor, Windsurf, and other MCP clients
     - Listed in multiple MCP-focused directories under Databases
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.581Z"
+    updated_at: '2026-05-06T22:12:15.581Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:39.082Z"
+    updated_at: '2026-09-17T04:13:39.082Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:21:50.239Z"
+    updated_at: '2026-07-21T15:21:50.239Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -108,7 +122,9 @@ processing:
       input_hash: sha256:ad8043afd0e62cad55a68c728014f986bee849729db7a546a0784ded3cd4224c
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP server for Supabase, fitting the MCP Servers & Tooling category where MCP is the primary adopted thing.
+      decision_reason: >-
+        The product's core identity is an MCP server for Supabase, fitting the MCP Servers & Tooling category where MCP
+        is the primary adopted thing.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Supabase
         - README highlights MCP compatibility with Cursor, Windsurf, and other MCP clients
@@ -116,6 +132,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server (protocol infrastructure) rather than an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server (protocol infrastructure) rather than an
+        extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__data-everything__mcp-server-templates__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: Data-Everything/mcp-server-templates
         extracted_url: https://github.com/data-everything/mcp-server-templates
-        surrounding_text: "- [Data-Everything/mcp-server-templates](https://github.com/Data-Everything/mcp-server-templates) 📇 🏠 🍎 🪟 🐧 - One server. All tools. A unified MCP platform that connects many apps, tools, and services behind one powerful interface—ideal for local devs or production agents."
+        surrounding_text: >-
+          - [Data-Everything/mcp-server-templates](https://github.com/Data-Everything/mcp-server-templates) 📇 🏠 🍎 🪟
+          🐧 - One server. All tools. A unified MCP platform that connects many apps, tools, and services behind one
+          powerful interface—ideal for local devs or production agents.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,13 @@ metadata:
     archived: false
     full_name: Data-Everything/mcp-server-templates
     html_url: https://github.com/Data-Everything/mcp-server-templates
-    created_at: "2025-07-22T23:45:53Z"
-    pushed_at: "2025-08-29T06:28:47Z"
-    description: A flexible platform that provides Docker & Kubernetes backends, a lightweight CLI (mcpt), and client utilities for seamless MCP integration. Spin up servers from templates, route requests through a single endpoint with load balancing, and support both deployed (HTTP) and local (stdio) transports — all with sensible defaults and YAML-based configs.
+    created_at: '2025-07-22T23:45:53Z'
+    pushed_at: '2025-08-29T06:28:47Z'
+    description: >-
+      A flexible platform that provides Docker & Kubernetes backends, a lightweight CLI (mcpt), and client utilities for
+      seamless MCP integration. Spin up servers from templates, route requests through a single endpoint with load
+      balancing, and support both deployed (HTTP) and local (stdio) transports — all with sensible defaults and
+      YAML-based configs.
     homepage: https://data-everything.github.io/mcp-server-templates/
     topics:
       - ai
@@ -45,13 +52,17 @@ metadata:
       - mcp-server
       - openai
       - vscode
-    last_checked_at: "2026-09-14T04:13:34.319Z"
+    last_checked_at: '2026-09-14T04:13:34.319Z'
     readme:
-      fetched_at: "2026-09-14T04:13:34.319Z"
+      fetched_at: '2026-09-14T04:13:34.319Z'
       bytes: 10293
 insights:
-  summary: A Docker/Kubernetes-backed platform with CLI utilities for deploying and managing MCP servers from templates, with load balancing and multi-transport support.
-  why_it_matters: It reduces MCP server deployment complexity to a single command, letting developers focus on AI integration rather than infrastructure setup.
+  summary: >-
+    A Docker/Kubernetes-backed platform with CLI utilities for deploying and managing MCP servers from templates, with
+    load balancing and multi-transport support.
+  why_it_matters: >-
+    It reduces MCP server deployment complexity to a single command, letting developers focus on AI integration rather
+    than infrastructure setup.
   mental_damage: Because nothing says 'stable ecosystem' like a project that rebrands itself before its first birthday.
   tags:
     - mcp
@@ -62,31 +73,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the core product identity here—a platform for deploying and managing MCP servers, not just an adapter or compatibility feature.
+  reason: >-
+    MCP is the core product identity here—a platform for deploying and managing MCP servers, not just an adapter or
+    compatibility feature.
   evidence:
     - Repo description explicitly frames it as an MCP integration platform with Docker/Kubernetes backends and CLI tools
     - README emphasizes one-command MCP server deployment and template-based workflows
     - Source-list context places it in an MCP servers directory under 'Aggregators'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Clients & Inspector Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.610Z"
+    updated_at: '2026-05-06T22:12:15.610Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:34.319Z"
+    updated_at: '2026-09-14T04:13:34.319Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:49:44.058Z"
+    updated_at: '2026-07-21T15:49:44.058Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -99,14 +113,20 @@ processing:
       input_hash: sha256:c7d0158a208d74331a027beebbaaae336557176946784caa981185e59c5ed388
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the core product identity here—a platform for deploying and managing MCP servers, not just an adapter or compatibility feature.
+      decision_reason: >-
+        MCP is the core product identity here—a platform for deploying and managing MCP servers, not just an adapter or
+        compatibility feature.
       decision_evidence:
-        - Repo description explicitly frames it as an MCP integration platform with Docker/Kubernetes backends and CLI tools
+        - >-
+          Repo description explicitly frames it as an MCP integration platform with Docker/Kubernetes backends and CLI
+          tools
         - README emphasizes one-command MCP server deployment and template-based workflows
         - Source-list context places it in an MCP servers directory under 'Aggregators'
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product's primary identity is MCP infrastructure (servers, deployment, transports) rather than a general-purpose SDK or library.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product's primary identity is MCP infrastructure (servers, deployment,
+        transports) rather than a general-purpose SDK or library.
       review_reason: null
       review_resume_lifecycle: null

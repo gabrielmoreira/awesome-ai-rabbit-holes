@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lyrenth__lyrenth-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: lyrenth/lyrenth-mcp
         extracted_url: https://github.com/lyrenth/lyrenth-mcp
-        surrounding_text: "- [lyrenth/lyrenth-mcp](https://github.com/lyrenth/lyrenth-mcp) [![lyrenth/lyrenth-mcp MCP server](https://glama.ai/mcp/servers/lyrenth/lyrenth-mcp/badges/score.svg)](https://glama.ai/mcp/servers/lyrenth/lyrenth-mcp) 📇 🏠 - Read any URL as a clean AIDocument (Markdown + structure) through Lyrenth's cached index."
+        surrounding_text: >-
+          - [lyrenth/lyrenth-mcp](https://github.com/lyrenth/lyrenth-mcp) [![lyrenth/lyrenth-mcp MCP
+          server](https://glama.ai/mcp/servers/lyrenth/lyrenth-mcp/badges/score.svg)](https://glama.ai/mcp/servers/lyrenth/lyrenth-mcp)
+          📇 🏠 - Read any URL as a clean AIDocument (Markdown + structure) through Lyrenth's cached index.
         confidence: high
 metadata:
   github:
@@ -30,19 +33,25 @@ metadata:
     archived: false
     full_name: lyrenth/lyrenth-mcp
     html_url: https://github.com/lyrenth/lyrenth-mcp
-    created_at: "2026-06-08T10:18:27Z"
-    pushed_at: "2026-06-10T22:00:39Z"
+    created_at: '2026-06-08T10:18:27Z'
+    pushed_at: '2026-06-10T22:00:39Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:16:53.863Z"
+    last_checked_at: '2026-08-03T05:16:53.863Z'
     readme:
-      fetched_at: "2026-08-03T05:16:53.863Z"
+      fetched_at: '2026-08-03T05:16:53.863Z'
       bytes: 3396
 insights:
-  summary: An MCP server that reads public web pages through Lyrenth and returns cleaned, token-efficient Markdown documents to any MCP client.
-  why_it_matters: It gives agents a standardized way to ingest web content without drowning in raw HTML tokens, complete with cross-caller caching and canonical publisher versions.
-  mental_damage: Your agent can finally read the web without choking on HTML, provided you enjoy piping an npx process through JSON config and managing yet another freemium API key.
+  summary: >-
+    An MCP server that reads public web pages through Lyrenth and returns cleaned, token-efficient Markdown documents to
+    any MCP client.
+  why_it_matters: >-
+    It gives agents a standardized way to ingest web content without drowning in raw HTML tokens, complete with
+    cross-caller caching and canonical publisher versions.
+  mental_damage: >-
+    Your agent can finally read the web without choking on HTML, provided you enjoy piping an npx process through JSON
+    config and managing yet another freemium API key.
   tags:
     - mcp
     - mcp-server
@@ -52,31 +61,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: It is an MCP server whose entire product identity is exposing web-reading tools via the Model Context Protocol; it fits squarely in MCP Servers & Tooling as a domain-specific server implementation.
+  reason: >-
+    It is an MCP server whose entire product identity is exposing web-reading tools via the Model Context Protocol; it
+    fits squarely in MCP Servers & Tooling as a domain-specific server implementation.
   evidence:
-    - README titles the project 'Lyrenth MCP server' and documents stdio MCP tool endpoints (read_url, read_urls, check_usage) for Claude Desktop, Cursor, and Claude Code.
-    - Listed in awesome-mcp-servers under Server Implementations > Browser Automation, confirming its categorical identity.
+    - >-
+      README titles the project 'Lyrenth MCP server' and documents stdio MCP tool endpoints (read_url, read_urls,
+      check_usage) for Claude Desktop, Cursor, and Claude Code.
+    - >-
+      Listed in awesome-mcp-servers under Server Implementations > Browser Automation, confirming its categorical
+      identity.
     - Repository is unarchived and recently pushed with active setup and local build instructions.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-15T05:51:04.989Z"
+    updated_at: '2026-06-15T05:51:04.989Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:53.863Z"
+    updated_at: '2026-08-03T05:16:53.863Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-06T05:33:34.586Z"
+    updated_at: '2026-07-06T05:33:34.586Z'
     cause: null
     next_retry_at: null
     attempts: 1

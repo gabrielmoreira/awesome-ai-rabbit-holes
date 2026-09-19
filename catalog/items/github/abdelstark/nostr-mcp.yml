@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__abdelstark__nostr-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: AbdelStark/nostr-mcp
         extracted_url: https://github.com/abdelstark/nostr-mcp
-        surrounding_text: "- [AbdelStark/nostr-mcp](https://github.com/AbdelStark/nostr-mcp) ☁️ - A Nostr MCP server that allows to interact with Nostr, enabling posting notes, and more."
+        surrounding_text: >-
+          - [AbdelStark/nostr-mcp](https://github.com/AbdelStark/nostr-mcp) ☁️ - A Nostr MCP server that allows to
+          interact with Nostr, enabling posting notes, and more.
         confidence: high
     - id: discovery__github__abdelstark__nostr-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - 💬 Communication
         anchor_text: AbdelStark/nostr-mcp
         extracted_url: https://github.com/abdelstark/nostr-mcp
-        surrounding_text: "-   **[AbdelStark/nostr-mcp](https://github.com/AbdelStark/nostr-mcp)** [![GitHub stars](https://img.shields.io/github/stars/AbdelStark/nostr-mcp?style=social)](https://github.com/AbdelStark/nostr-mcp): Enables interaction with the Nostr protocol, including posting notes."
+        surrounding_text: >-
+          -   **[AbdelStark/nostr-mcp](https://github.com/AbdelStark/nostr-mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/AbdelStark/nostr-mcp?style=social)](https://github.com/AbdelStark/nostr-mcp):
+          Enables interaction with the Nostr protocol, including posting notes.
         confidence: high
 metadata:
   github:
@@ -45,21 +50,25 @@ metadata:
     archived: false
     full_name: AbdelStark/nostr-mcp
     html_url: https://github.com/AbdelStark/nostr-mcp
-    created_at: "2025-01-29T17:31:21Z"
-    pushed_at: "2025-02-05T09:04:46Z"
+    created_at: '2025-01-29T17:31:21Z'
+    pushed_at: '2025-02-05T09:04:46Z'
     description: A Nostr MCP server that allows to interact with Nostr, enabling posting notes, and more.
-    homepage: ""
+    homepage: ''
     topics:
       - llm
       - mcp-server
       - nostr
-    last_checked_at: "2026-09-17T04:13:28.517Z"
+    last_checked_at: '2026-09-17T04:13:28.517Z'
     readme:
-      fetched_at: "2026-09-17T04:13:28.517Z"
+      fetched_at: '2026-09-17T04:13:28.517Z'
       bytes: 4506
 insights:
-  summary: An MCP server that enables AI models to interact with the Nostr protocol for posting notes and sending Lightning zaps.
-  why_it_matters: It expands the actionable surface area for LLMs by giving them the ability to engage with decentralized, censorship-resistant social protocols.
+  summary: >-
+    An MCP server that enables AI models to interact with the Nostr protocol for posting notes and sending Lightning
+    zaps.
+  why_it_matters: >-
+    It expands the actionable surface area for LLMs by giving them the ability to engage with decentralized,
+    censorship-resistant social protocols.
   mental_damage: Because nothing says 'cutting-edge workflow' like delegating your decentralization efforts to a stochastic parrot.
   tags:
     - mcp
@@ -69,31 +78,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's sole identity is a Model Context Protocol server designed to provide a specific capability (Nostr interaction) to an AI host.
+  reason: >-
+    The product's sole identity is a Model Context Protocol server designed to provide a specific capability (Nostr
+    interaction) to an AI host.
   evidence:
     - Repo description explicitly defines it as a 'Nostr MCP server'
     - README focuses on MCP-compliant API and tool definitions like `post_note`
     - Identifies as an MCP server for integration with tools like Claude Desktop
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.581Z"
+    updated_at: '2026-05-06T22:12:15.581Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:28.517Z"
+    updated_at: '2026-09-17T04:13:28.517Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:54:52.877Z"
+    updated_at: '2026-07-20T15:54:52.877Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -106,7 +118,9 @@ processing:
       input_hash: sha256:5f9c93171dcb004f16fdd7f2c14752b95508280d9816ddce7e847ff92037e1f7
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's sole identity is a Model Context Protocol server designed to provide a specific capability (Nostr interaction) to an AI host.
+      decision_reason: >-
+        The product's sole identity is a Model Context Protocol server designed to provide a specific capability (Nostr
+        interaction) to an AI host.
       decision_evidence:
         - Repo description explicitly defines it as a 'Nostr MCP server'
         - README focuses on MCP-compliant API and tool definitions like `post_note`
@@ -114,6 +128,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is the implementation of the MCP protocol itself rather than a feature meant to augment a specific editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is the implementation of the MCP
+        protocol itself rather than a feature meant to augment a specific editor.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gluonfield__enchanted__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 推理 Inference
         anchor_text: enchanted
         extracted_url: https://github.com/augustdev/enchanted
-        surrounding_text: "21. [enchanted](https://github.com/AugustDev/enchanted): Enchanted is iOS and macOS app for chatting with private self hosted language models such as Llama2, Mistral or Vicuna using Ollama."
+        surrounding_text: >-
+          21. [enchanted](https://github.com/AugustDev/enchanted): Enchanted is iOS and macOS app for chatting with
+          private self hosted language models such as Llama2, Mistral or Vicuna using Ollama.
         confidence: high
 metadata:
   github:
@@ -29,10 +31,12 @@ metadata:
     archived: false
     full_name: gluonfield/enchanted
     html_url: https://github.com/gluonfield/enchanted
-    created_at: "2023-12-13T18:55:26Z"
-    pushed_at: "2026-07-07T19:34:55Z"
-    description: Enchanted is iOS and macOS app for chatting with private self hosted language models such as Llama2, Mistral or Vicuna using Ollama.
-    homepage: ""
+    created_at: '2023-12-13T18:55:26Z'
+    pushed_at: '2026-07-07T19:34:55Z'
+    description: >-
+      Enchanted is iOS and macOS app for chatting with private self hosted language models such as Llama2, Mistral or
+      Vicuna using Ollama.
+    homepage: ''
     topics:
       - ios
       - large-language-model
@@ -43,13 +47,17 @@ metadata:
       - ollama
       - ollama-app
       - swift
-    last_checked_at: "2026-09-03T05:16:51.102Z"
+    last_checked_at: '2026-09-03T05:16:51.102Z'
     readme:
-      fetched_at: "2026-09-03T05:16:51.102Z"
+      fetched_at: '2026-09-03T05:16:51.102Z'
       bytes: 5094
 insights:
-  summary: Enchanted is an open-source iOS/macOS/visionOS app for chatting with private, self-hosted language models via Ollama.
-  why_it_matters: It provides a native, privacy-first chat interface for developers running local LLMs, bridging the gap between on-device inference and a polished user experience.
+  summary: >-
+    Enchanted is an open-source iOS/macOS/visionOS app for chatting with private, self-hosted language models via
+    Ollama.
+  why_it_matters: >-
+    It provides a native, privacy-first chat interface for developers running local LLMs, bridging the gap between
+    on-device inference and a polished user experience.
   mental_damage: Finally, a way to talk to your locally hosted Llama without feeling like you're debugging a terminal in 2012.
   tags:
     - local-ai
@@ -60,31 +68,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product is a desktop/mobile chat interface for local/self-hosted models, aligning with the Local AI category's focus on private, on-device execution.
+  reason: >-
+    The core product is a desktop/mobile chat interface for local/self-hosted models, aligning with the Local AI
+    category's focus on private, on-device execution.
   evidence:
     - Repo description explicitly states it is an iOS/macOS app for chatting with private self-hosted models via Ollama
     - README emphasizes privacy, multimodal support, and native Apple ecosystem integration
     - Source-list context places it under 'Inference' in a curated LLM resources list
 placement:
   primary_category: local-ai
-  section: Desktop Chat / Interfaces
+  secondary_categories: []
+  section: Desktop Chat & UIs
 lifecycle:
   status: promotion_candidate
   reason: Stars (5922) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.616Z"
+    updated_at: '2026-05-06T22:12:15.616Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:51.102Z"
+    updated_at: '2026-09-03T05:16:51.102Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:03:23.978Z"
+    updated_at: '2026-07-21T16:03:23.978Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -97,14 +108,20 @@ processing:
       input_hash: sha256:b25c7c0b58ded2d9fd3b7d07394916d6c605c594486dcebe1a71cc2d148d7014
       proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: The core product is a desktop/mobile chat interface for local/self-hosted models, aligning with the Local AI category's focus on private, on-device execution.
+      decision_reason: >-
+        The core product is a desktop/mobile chat interface for local/self-hosted models, aligning with the Local AI
+        category's focus on private, on-device execution.
       decision_evidence:
-        - Repo description explicitly states it is an iOS/macOS app for chatting with private self-hosted models via Ollama
+        - >-
+          Repo description explicitly states it is an iOS/macOS app for chatting with private self-hosted models via
+          Ollama
         - README emphasizes privacy, multimodal support, and native Apple ecosystem integration
         - Source-list context places it under 'Inference' in a curated LLM resources list
       category_candidates:
         - local-ai
         - ai-ides-editors
-      contrastive_reason: Choose local-ai over ai-ides-editors because the primary identity is a chat interface for local models, not a full development environment.
+      contrastive_reason: >-
+        Choose local-ai over ai-ides-editors because the primary identity is a chat interface for local models, not a
+        full development environment.
       review_reason: null
       review_resume_lifecycle: null

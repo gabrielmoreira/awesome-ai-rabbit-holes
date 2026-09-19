@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dwgx__smartcli__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-09-07T04:13:26.010Z"
+      discovered_at: '2026-09-07T04:13:26.010Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,15 @@ provenance:
           - 🖥️ <a name="command-line"></a>Command Line
         anchor_text: dwgx/SmartCLI
         extracted_url: https://github.com/dwgx/smartcli
-        surrounding_text: "- [dwgx/SmartCLI](https://github.com/dwgx/SmartCLI) [![dwgx/SmartCLI MCP server](https://glama.ai/mcp/servers/dwgx/SmartCLI/badges/score.svg)](https://glama.ai/mcp/servers/dwgx/SmartCLI) 🐍 🏠 🍎 🪟 🐧 - Drive full-screen terminal programs (vim, htop, lazygit) by reading the screen, not the byte stream: a live cell grid exposes which row is reverse-video selected, cursor position and alt-screen state, so waits are screen-state predicates instead of sleeps. The emulation is differentially tested against real tmux and GNU screen (cell-by-cell grid diffs plus a generative VT fuzz), which caught 12 emulation bugs including missing alternate-screen support. pip install smartcli-toolkit then smartcli-mcp, or uvx --from smartcli-toolkit smartcli-mcp."
+        surrounding_text: >-
+          - [dwgx/SmartCLI](https://github.com/dwgx/SmartCLI) [![dwgx/SmartCLI MCP
+          server](https://glama.ai/mcp/servers/dwgx/SmartCLI/badges/score.svg)](https://glama.ai/mcp/servers/dwgx/SmartCLI)
+          🐍 🏠 🍎 🪟 🐧 - Drive full-screen terminal programs (vim, htop, lazygit) by reading the screen, not the byte
+          stream: a live cell grid exposes which row is reverse-video selected, cursor position and alt-screen state, so
+          waits are screen-state predicates instead of sleeps. The emulation is differentially tested against real tmux
+          and GNU screen (cell-by-cell grid diffs plus a generative VT fuzz), which caught 12 emulation bugs including
+          missing alternate-screen support. pip install smartcli-toolkit then smartcli-mcp, or uvx --from
+          smartcli-toolkit smartcli-mcp.
         confidence: high
 metadata:
   github:
@@ -30,9 +38,11 @@ metadata:
     archived: false
     full_name: dwgx/SmartCLI
     html_url: https://github.com/dwgx/SmartCLI
-    created_at: "2026-07-08T17:27:42Z"
-    pushed_at: "2026-09-03T23:09:35Z"
-    description: "Three Agent Skills over one pluggable PTY + pyte core: drive TUIs, design terminal effects, and render cell-accurate UIs. pip install smartcli-toolkit"
+    created_at: '2026-07-08T17:27:42Z'
+    pushed_at: '2026-09-03T23:09:35Z'
+    description: >-
+      Three Agent Skills over one pluggable PTY + pyte core: drive TUIs, design terminal effects, and render
+      cell-accurate UIs. pip install smartcli-toolkit
     homepage: https://dwgx.github.io/SmartCLI/
     topics:
       - agent-skills
@@ -53,14 +63,20 @@ metadata:
       - terminal
       - terminal-automation
       - tui
-    last_checked_at: "2026-09-14T04:13:45.435Z"
+    last_checked_at: '2026-09-14T04:13:45.435Z'
     readme:
-      fetched_at: "2026-09-14T04:13:45.435Z"
+      fetched_at: '2026-09-14T04:13:45.435Z'
       bytes: 15701
 insights:
-  summary: A Python toolkit for enabling AI agents to drive, perceive, and render interactive terminal applications using a PTY and cell model.
-  why_it_matters: It allows agents to move beyond simple shell commands to interacting with complex TUIs like lazygit or vim by 'seeing' the actual screen state.
-  mental_damage: We are one step closer to an AI that can confidently navigate your terminal and accidentally `rm -rf /` because it misread a TUI menu.
+  summary: >-
+    A Python toolkit for enabling AI agents to drive, perceive, and render interactive terminal applications using a PTY
+    and cell model.
+  why_it_matters: >-
+    It allows agents to move beyond simple shell commands to interacting with complex TUIs like lazygit or vim by
+    'seeing' the actual screen state.
+  mental_damage: >-
+    We are one step closer to an AI that can confidently navigate your terminal and accidentally `rm -rf /` because it
+    misread a TUI menu.
   tags:
     - python
     - mcp
@@ -70,31 +86,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product is a code-first Python library and engine designed for terminal automation, which can be exposed to assistants via MCP.
+  reason: >-
+    The core product is a code-first Python library and engine designed for terminal automation, which can be exposed to
+    assistants via MCP.
   evidence:
     - Primary distribution is a Python library via `pip install smartcli-toolkit`
     - Core identity is a PTY + pyte engine for terminal perception and rendering
     - Provides an MCP server as an interface to the underlying toolkit
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  section: LLM & Agent SDKs
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-07T04:13:26.012Z"
+    updated_at: '2026-09-07T04:13:26.012Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:45.435Z"
+    updated_at: '2026-09-14T04:13:45.435Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-17T04:14:18.655Z"
+    updated_at: '2026-09-17T04:14:18.655Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -105,7 +123,9 @@ processing:
       input_hash: sha256:cd6b033a61acf5b4841b025dbff9c5073bc16095600e810c4f61343f39e20fa5
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: The core product is a code-first Python library and engine designed for terminal automation, which can be exposed to assistants via MCP.
+      decision_reason: >-
+        The core product is a code-first Python library and engine designed for terminal automation, which can be
+        exposed to assistants via MCP.
       decision_evidence:
         - Primary distribution is a Python library via `pip install smartcli-toolkit`
         - Core identity is a PTY + pyte engine for terminal perception and rendering
@@ -113,7 +133,9 @@ processing:
       category_candidates:
         - ai-frameworks
         - ai-dev-extensions
-      contrastive_reason: Choose ai-frameworks over ai-dev-extensions because the primary identity is a code-first library for developers to build with rather than just a set of tools for a host assistant.
+      contrastive_reason: >-
+        Choose ai-frameworks over ai-dev-extensions because the primary identity is a code-first library for developers
+        to build with rather than just a set of tools for a host assistant.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

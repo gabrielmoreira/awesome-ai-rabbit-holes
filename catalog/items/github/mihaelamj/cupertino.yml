@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mihaelamj__cupertino__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: mihaelamj/cupertino
         extracted_url: https://github.com/mihaelamj/cupertino
-        surrounding_text: "- [mihaelamj/cupertino](https://github.com/mihaelamj/cupertino) 🏠 🍎 - Apple Documentation MCP Server. Search Apple developer docs, Swift Evolution proposals, and 600+ sample code projects with full-text search."
+        surrounding_text: >-
+          - [mihaelamj/cupertino](https://github.com/mihaelamj/cupertino) 🏠 🍎 - Apple Documentation MCP Server. Search
+          Apple developer docs, Swift Evolution proposals, and 600+ sample code projects with full-text search.
         confidence: high
 metadata:
   github:
@@ -30,10 +32,10 @@ metadata:
     archived: false
     full_name: null
     html_url: null
-    created_at: "2025-11-14T10:33:40Z"
-    pushed_at: "2026-05-06T22:28:54Z"
+    created_at: '2025-11-14T10:33:40Z'
+    pushed_at: '2026-05-06T22:28:54Z'
     description: A local Apple Documentation crawler and MCP server. Written in Swift.
-    homepage: ""
+    homepage: ''
     topics:
       - apple-documentation
       - cli
@@ -47,14 +49,21 @@ metadata:
       - offline-docs
       - swift
       - swiftpm
-    last_checked_at: "2026-05-06T22:45:18.273Z"
+    last_checked_at: '2026-05-06T22:45:18.273Z'
     readme:
-      fetched_at: "2026-05-06T22:45:18.273Z"
+      fetched_at: '2026-05-06T22:45:18.273Z'
       bytes: 25964
 insights:
-  summary: A Swift-based tool that crawls Apple's developer documentation and serves it locally to AI agents via the Model Context Protocol (MCP).
-  why_it_matters: It gives coding agents deterministic, offline access to over 405,000 pages of Apple API docs, reducing hallucinations during Swift and platform development.
-  mental_damage: We have successfully solved the problem of AI confidently inventing UIKit APIs by building a 3.4 GB local database, because apparently the modern developer workflow requires a local search index just to keep the ghost in the machine honest.
+  summary: >-
+    A Swift-based tool that crawls Apple's developer documentation and serves it locally to AI agents via the Model
+    Context Protocol (MCP).
+  why_it_matters: >-
+    It gives coding agents deterministic, offline access to over 405,000 pages of Apple API docs, reducing
+    hallucinations during Swift and platform development.
+  mental_damage: >-
+    We have successfully solved the problem of AI confidently inventing UIKit APIs by building a 3.4 GB local database,
+    because apparently the modern developer workflow requires a local search index just to keep the ghost in the machine
+    honest.
   tags:
     - mcp
     - apple-docs
@@ -64,37 +73,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server that provides a specific domain context (Apple documentation) to agents, fitting the MCP Servers category perfectly.
+  reason: >-
+    The product's primary identity is an MCP server that provides a specific domain context (Apple documentation) to
+    agents, fitting the MCP Servers category perfectly.
   evidence:
-    - "Repo description explicitly states: 'A local Apple Documentation crawler and MCP server.'"
+    - 'Repo description explicitly states: ''A local Apple Documentation crawler and MCP server.'''
     - README states the tool 'Serves documentation to AI agents like Claude via the Model Context Protocol.'
     - Listed in awesome-mcp-servers under 'Developer Tools', confirming its identity as an MCP implementation.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (670) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.630Z"
+    updated_at: '2026-05-06T22:12:15.630Z'
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: "2026-08-03T05:17:02.625Z"
+    updated_at: '2026-08-03T05:17:02.625Z'
     cause:
       type: github_repo_missing
-      message: "GitHub repository not found: mihaelamj/cupertino"
+      message: 'GitHub repository not found: mihaelamj/cupertino'
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ferrislucas__iterm-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: ferrislucas/iterm-mcp
         extracted_url: https://github.com/ferrislucas/iterm-mcp
-        surrounding_text: "- [ferrislucas/iterm-mcp](https://github.com/ferrislucas/iterm-mcp) 🖥️ 🛠️ 💬 - A Model Context Protocol server that provides access to iTerm. You can run commands and ask questions about what you see in the iTerm terminal."
+        surrounding_text: >-
+          - [ferrislucas/iterm-mcp](https://github.com/ferrislucas/iterm-mcp) 🖥️ 🛠️ 💬 - A Model Context Protocol
+          server that provides access to iTerm. You can run commands and ask questions about what you see in the iTerm
+          terminal.
         confidence: high
     - id: discovery__github__ferrislucas__iterm-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +38,10 @@ provenance:
           - 🖥️ Command Line
         anchor_text: ferrislucas/iterm-mcp
         extracted_url: https://github.com/ferrislucas/iterm-mcp
-        surrounding_text: "-   **[ferrislucas/iterm-mcp](https://github.com/ferrislucas/iterm-mcp)** [![GitHub stars](https://img.shields.io/github/stars/ferrislucas/iterm-mcp?style=social)](https://github.com/ferrislucas/iterm-mcp): Provides iTerm2 terminal access for command execution and output analysis."
+        surrounding_text: >-
+          -   **[ferrislucas/iterm-mcp](https://github.com/ferrislucas/iterm-mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/ferrislucas/iterm-mcp?style=social)](https://github.com/ferrislucas/iterm-mcp):
+          Provides iTerm2 terminal access for command execution and output analysis.
         confidence: high
 metadata:
   github:
@@ -45,9 +51,11 @@ metadata:
     archived: false
     full_name: ferrislucas/iterm-mcp
     html_url: https://github.com/ferrislucas/iterm-mcp
-    created_at: "2025-01-09T04:49:23Z"
-    pushed_at: "2025-09-20T17:31:44Z"
-    description: A Model Context Protocol server that executes commands in the current iTerm session - useful for REPL and CLI assistance
+    created_at: '2025-01-09T04:49:23Z'
+    pushed_at: '2025-09-20T17:31:44Z'
+    description: >-
+      A Model Context Protocol server that executes commands in the current iTerm session - useful for REPL and CLI
+      assistance
     homepage: https://www.npmjs.com/package/iterm-mcp
     topics:
       - ai
@@ -56,14 +64,20 @@ metadata:
       - mcp
       - mcp-server
       - repl
-    last_checked_at: "2026-08-27T09:23:30.368Z"
+    last_checked_at: '2026-08-27T09:23:30.368Z'
     readme:
-      fetched_at: "2026-08-27T09:23:30.368Z"
+      fetched_at: '2026-08-27T09:23:30.368Z'
       bytes: 2942
 insights:
-  summary: An MCP server that provides LLMs with the ability to execute commands and read output directly within an active iTerm2 session.
-  why_it_matters: It allows AI assistants to interact with your terminal environment, enabling them to run commands, handle REPLs, and observe real-time terminal output to troubleshoot or execute tasks.
-  mental_damage: Now you can watch an LLM confidently execute shell commands in your terminal while you sit there, praying it doesn't accidentally run rm -rf /.
+  summary: >-
+    An MCP server that provides LLMs with the ability to execute commands and read output directly within an active
+    iTerm2 session.
+  why_it_matters: >-
+    It allows AI assistants to interact with your terminal environment, enabling them to run commands, handle REPLs, and
+    observe real-time terminal output to troubleshoot or execute tasks.
+  mental_damage: >-
+    Now you can watch an LLM confidently execute shell commands in your terminal while you sit there, praying it doesn't
+    accidentally run rm -rf /.
   tags:
     - mcp
     - iterm2
@@ -80,24 +94,25 @@ curation:
     - Provides tools like write_to_terminal and read_terminal_output specifically for MCP communication
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (555) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.586Z"
+    updated_at: '2026-05-06T22:12:15.586Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:30.368Z"
+    updated_at: '2026-08-27T09:23:30.368Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:56:02.230Z"
+    updated_at: '2026-07-21T15:56:02.230Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -110,7 +125,9 @@ processing:
       input_hash: sha256:d387655552ab6d01295cab08a2ca51c2f1341b4869aee4a4a3505ad1eabbbd0d
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's identity is specifically an MCP server designed to bridge iTerm2 and MCP clients like Claude Desktop.
+      decision_reason: >-
+        The product's identity is specifically an MCP server designed to bridge iTerm2 and MCP clients like Claude
+        Desktop.
       decision_evidence:
         - Repo description explicitly identifies it as a 'Model Context Protocol server'
         - README focuses on MCP implementation for iTerm session access
@@ -118,6 +135,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is providing a protocol implementation for an external client rather than being a plugin for an existing editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is providing a protocol implementation for
+        an external client rather than being a plugin for an existing editor.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mlfoundations__evalchemy__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 评估 Evaluation
         anchor_text: Evalchemy
         extracted_url: https://github.com/mlfoundations/evalchemy
-        surrounding_text: "15. [Evalchemy](https://github.com/mlfoundations/evalchemy): A unified and easy-to-use toolkit for evaluating post-trained language models."
+        surrounding_text: >-
+          15. [Evalchemy](https://github.com/mlfoundations/evalchemy): A unified and easy-to-use toolkit for evaluating
+          post-trained language models.
         confidence: high
 metadata:
   github:
@@ -29,19 +31,25 @@ metadata:
     archived: false
     full_name: mlfoundations/evalchemy
     html_url: https://github.com/mlfoundations/evalchemy
-    created_at: "2024-11-15T22:43:55Z"
-    pushed_at: "2026-02-24T16:09:27Z"
+    created_at: '2024-11-15T22:43:55Z'
+    pushed_at: '2026-02-24T16:09:27Z'
     description: Automatic evals for LLMs
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-08-03T05:17:05.235Z"
+    last_checked_at: '2026-08-03T05:17:05.235Z'
     readme:
-      fetched_at: "2026-08-03T05:17:05.235Z"
+      fetched_at: '2026-08-03T05:17:05.235Z'
       bytes: 20347
 insights:
-  summary: A unified CLI toolkit for evaluating post-trained language models across multiple benchmarks with support for local, vLLM, and API-based models.
-  why_it_matters: It gives developers a single command-line interface to run standardized reasoning, coding, and chat benchmarks across different model backends without dependency conflicts.
-  mental_damage: Yet another evaluation harness enters the arena, giving model trainers a fresh way to discover that their clever fine-tune still fails AIME24.
+  summary: >-
+    A unified CLI toolkit for evaluating post-trained language models across multiple benchmarks with support for local,
+    vLLM, and API-based models.
+  why_it_matters: >-
+    It gives developers a single command-line interface to run standardized reasoning, coding, and chat benchmarks
+    across different model backends without dependency conflicts.
+  mental_damage: >-
+    Yet another evaluation harness enters the arena, giving model trainers a fresh way to discover that their clever
+    fine-tune still fails AIME24.
   tags:
     - evals
     - llm
@@ -51,35 +59,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core job is benchmarking and measuring model behavior across standardized tasks, which maps directly to the Evals & Benchmarks category.
+  reason: >-
+    The core job is benchmarking and measuring model behavior across standardized tasks, which maps directly to the
+    Evals & Benchmarks category.
   evidence:
     - Repo description states 'Automatic evals for LLMs' as the primary purpose.
-    - README positions it as 'a unified and easy-to-use toolkit for evaluating post-trained language models' with reasoning benchmarks like AIME24 and LiveCodeBench.
+    - >-
+      README positions it as 'a unified and easy-to-use toolkit for evaluating post-trained language models' with
+      reasoning benchmarks like AIME24 and LiveCodeBench.
     - Included in awesome-LLM-resources under the 评估 Evaluation section, aligning with its benchmarking identity.
 placement:
   primary_category: evals
-  section: Agent Benchmarks
+  secondary_categories: []
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: promotion_candidate
   reason: Stars (594) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.630Z"
+    updated_at: '2026-05-06T22:12:15.630Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:05.235Z"
+    updated_at: '2026-08-03T05:17:05.235Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

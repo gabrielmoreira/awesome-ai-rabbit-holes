@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dockndevai__mcp-clickhouse__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-09-14T04:13:20.171Z"
+      discovered_at: '2026-09-14T04:13:20.171Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: dockndevai/mcp-clickhouse
         extracted_url: https://github.com/dockndevai/mcp-clickhouse
-        surrounding_text: "- [dockndevai/mcp-clickhouse](https://github.com/dockndevai/mcp-clickhouse) [![dockndevai/mcp-clickhouse MCP server](https://glama.ai/mcp/servers/dockndevai/mcp-clickhouse/badges/score.svg)](https://glama.ai/mcp/servers/dockndevai/mcp-clickhouse) 📇 🏠 🍎 🪟 🐧 - ClickHouse schema exploration, analytical queries & management — every statement classified read/write/destructive and gated by access mode, with row caps and audit. `npx -y @dockndevai/mcp-clickhouse`"
+        surrounding_text: >-
+          - [dockndevai/mcp-clickhouse](https://github.com/dockndevai/mcp-clickhouse) [![dockndevai/mcp-clickhouse MCP
+          server](https://glama.ai/mcp/servers/dockndevai/mcp-clickhouse/badges/score.svg)](https://glama.ai/mcp/servers/dockndevai/mcp-clickhouse)
+          📇 🏠 🍎 🪟 🐧 - ClickHouse schema exploration, analytical queries & management — every statement classified
+          read/write/destructive and gated by access mode, with row caps and audit. `npx -y @dockndevai/mcp-clickhouse`
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: dockndevai/mcp-clickhouse
     html_url: https://github.com/dockndevai/mcp-clickhouse
-    created_at: "2026-08-23T06:46:11Z"
-    pushed_at: "2026-09-12T18:10:42Z"
-    description: MCP server for ClickHouse — explore, query, and manage with SQL-classification-based security modes and access-control flags.
+    created_at: '2026-08-23T06:46:11Z'
+    pushed_at: '2026-09-12T18:10:42Z'
+    description: >-
+      MCP server for ClickHouse — explore, query, and manage with SQL-classification-based security modes and
+      access-control flags.
     homepage: https://dockndevai.github.io/
     topics:
       - clickhouse
@@ -41,14 +47,20 @@ metadata:
       - model-context-protocol
       - olap
       - sql
-    last_checked_at: "2026-09-14T04:13:42.342Z"
+    last_checked_at: '2026-09-14T04:13:42.342Z'
     readme:
-      fetched_at: "2026-09-14T04:13:42.342Z"
+      fetched_at: '2026-09-14T04:13:42.342Z'
       bytes: 5925
 insights:
-  summary: An MCP server for ClickHouse that enables AI clients to explore schemas, run analytical queries, and manage databases through a gated security model.
-  why_it_matters: It provides a secure, statement-aware way to give LLMs direct access to OLAP databases for schema exploration and data analysis.
-  mental_damage: Another layer of permissions to configure before you can trust an LLM to run a query without nuking your entire analytics cluster.
+  summary: >-
+    An MCP server for ClickHouse that enables AI clients to explore schemas, run analytical queries, and manage
+    databases through a gated security model.
+  why_it_matters: >-
+    It provides a secure, statement-aware way to give LLMs direct access to OLAP databases for schema exploration and
+    data analysis.
+  mental_damage: >-
+    Another layer of permissions to configure before you can trust an LLM to run a query without nuking your entire
+    analytics cluster.
   tags:
     - mcp
     - clickhouse
@@ -65,24 +77,25 @@ curation:
     - Implements a statement-aware security model with read-only, read-write, and admin modes
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-14T04:13:20.173Z"
+    updated_at: '2026-09-14T04:13:20.173Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:42.342Z"
+    updated_at: '2026-09-14T04:13:42.342Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-14T04:20:26.064Z"
+    updated_at: '2026-09-14T04:20:26.064Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -99,7 +112,9 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's core identity is the MCP server implementation itself rather than a general integration for a specific editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool's core identity is the MCP server implementation itself
+        rather than a general integration for a specific editor.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

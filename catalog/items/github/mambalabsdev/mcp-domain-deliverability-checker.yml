@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mambalabsdev__mcp-domain-deliverability-checker__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-22T05:53:30.454Z"
+      discovered_at: '2026-06-22T05:53:30.454Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: mambalabsdev/mcp-domain-deliverability-checker
         extracted_url: https://github.com/mambalabsdev/mcp-domain-deliverability-checker
-        surrounding_text: "- [mambalabsdev/mcp-domain-deliverability-checker](https://github.com/mambalabsdev/mcp-domain-deliverability-checker) [![mambalabsdev/mcp-domain-deliverability-checker MCP server](https://glama.ai/mcp/servers/mambalabsdev/mcp-domain-deliverability-checker/badges/score.svg)](https://glama.ai/mcp/servers/mambalabsdev/mcp-domain-deliverability-checker) 📇 ☁️ - Audits a domain email deliverability: SPF, DKIM, DMARC, MX, mail provider, DNS blacklist, catch-all, and domain age, returning a 0-100 health score via an Apify actor."
+        surrounding_text: >-
+          -
+          [mambalabsdev/mcp-domain-deliverability-checker](https://github.com/mambalabsdev/mcp-domain-deliverability-checker)
+          [![mambalabsdev/mcp-domain-deliverability-checker MCP
+          server](https://glama.ai/mcp/servers/mambalabsdev/mcp-domain-deliverability-checker/badges/score.svg)](https://glama.ai/mcp/servers/mambalabsdev/mcp-domain-deliverability-checker)
+          📇 ☁️ - Audits a domain email deliverability: SPF, DKIM, DMARC, MX, mail provider, DNS blacklist, catch-all,
+          and domain age, returning a 0-100 health score via an Apify actor.
         confidence: high
 metadata:
   github:
@@ -30,19 +36,25 @@ metadata:
     archived: false
     full_name: mambalabsdev/mcp-domain-deliverability-checker
     html_url: https://github.com/mambalabsdev/mcp-domain-deliverability-checker
-    created_at: "2026-06-19T08:20:26Z"
-    pushed_at: "2026-07-31T13:24:16Z"
-    description: "MCP server for the Mamba Labs Domain Deliverability Checker actor: SPF, DKIM, DMARC, MX, blacklist, catch-all, domain age. Clay-ready."
+    created_at: '2026-06-19T08:20:26Z'
+    pushed_at: '2026-07-31T13:24:16Z'
+    description: >-
+      MCP server for the Mamba Labs Domain Deliverability Checker actor: SPF, DKIM, DMARC, MX, blacklist, catch-all,
+      domain age. Clay-ready.
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:16:55.201Z"
+    last_checked_at: '2026-08-03T05:16:55.201Z'
     readme:
-      fetched_at: "2026-08-03T05:16:55.201Z"
+      fetched_at: '2026-08-03T05:16:55.201Z'
       bytes: 5941
 insights:
   summary: An MCP server that enables AI clients to audit domain email deliverability and DNS health using Apify actors.
-  why_it_matters: It provides AI assistants with the ability to perform real-time DNS and email deliverability checks like SPF, DKIM, and DMARC during automated workflows.
-  mental_damage: Adding yet another specialized tool to your MCP config just so Claude can tell you exactly why your outbound emails are hitting spam.
+  why_it_matters: >-
+    It provides AI assistants with the ability to perform real-time DNS and email deliverability checks like SPF, DKIM,
+    and DMARC during automated workflows.
+  mental_damage: >-
+    Adding yet another specialized tool to your MCP config just so Claude can tell you exactly why your outbound emails
+    are hitting spam.
   tags:
     - mcp
     - dns
@@ -59,24 +71,24 @@ curation:
     - The implementation acts as a bridge to an Apify actor, fitting the MCP server identity.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-22T05:53:30.456Z"
+    updated_at: '2026-06-22T05:53:30.456Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:55.201Z"
+    updated_at: '2026-08-03T05:16:55.201Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-06T05:38:30.505Z"
+    updated_at: '2026-07-06T05:38:30.505Z'
     cause: null
     next_retry_at: null
     attempts: 1

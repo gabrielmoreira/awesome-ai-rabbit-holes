@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__helicone__helicone__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,12 @@ provenance:
           - Observability
         anchor_text: Helicone
         extracted_url: https://github.com/helicone/helicone
-        surrounding_text: "| [Helicone](https://github.com/Helicone/helicone)                              | Open source LLM observability platform. One line of code to monitor, evaluate, and experiment with features like prompt management, agent tracing, and evaluations.                                                            | ![GitHub Badge](https://img.shields.io/github/stars/Helicone/helicone.svg?style=flat-square)                     |"
+        surrounding_text: >-
+          | [Helicone](https://github.com/Helicone/helicone)                              | Open source LLM
+          observability platform. One line of code to monitor, evaluate, and experiment with features like prompt
+          management, agent tracing, and evaluations.                                                            |
+          ![GitHub
+          Badge](https://img.shields.io/github/stars/Helicone/helicone.svg?style=flat-square)                     |
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: Helicone/helicone
     html_url: https://github.com/Helicone/helicone
-    created_at: "2023-01-31T22:34:44Z"
-    pushed_at: "2026-07-25T01:10:06Z"
+    created_at: '2023-01-31T22:34:44Z'
+    pushed_at: '2026-07-25T01:10:06Z'
     description: 🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓
     homepage: https://www.helicone.ai
     topics:
@@ -54,13 +59,17 @@ metadata:
       - prompt-engineering
       - prompt-management
       - ycombinator
-    last_checked_at: "2026-07-30T05:05:36.420Z"
+    last_checked_at: '2026-07-30T05:05:36.420Z'
     readme:
-      fetched_at: "2026-07-30T05:05:36.420Z"
+      fetched_at: '2026-07-30T05:05:36.420Z'
       bytes: 15453
 insights:
-  summary: Open source LLM observability platform for monitoring, evaluating, and experimenting with AI models via a single API gateway.
-  why_it_matters: Developers can track costs, latency, and quality across 100+ models, debug agent traces, and manage prompts without vendor lock-in.
+  summary: >-
+    Open source LLM observability platform for monitoring, evaluating, and experimenting with AI models via a single API
+    gateway.
+  why_it_matters: >-
+    Developers can track costs, latency, and quality across 100+ models, debug agent traces, and manage prompts without
+    vendor lock-in.
   mental_damage: Finally, a way to see which of your 17 LLM experiments actually cost money instead of just hope.
   tags:
     - llm-observability
@@ -71,31 +80,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Core product is observability, tracing, and evaluation for LLM workflows, not a primary coding assistant or framework.
+  reason: >-
+    Core product is observability, tracing, and evaluation for LLM workflows, not a primary coding assistant or
+    framework.
   evidence:
-    - "Repo description: 'Open source LLM observability platform. One line of code to monitor, evaluate, and experiment.'"
-    - "README highlights: cost/latency tracking, agent tracing, prompt management, and fine-tuning integrations."
-    - "Source-list context: listed under 'Observability' in Awesome-LLMOps."
+    - 'Repo description: ''Open source LLM observability platform. One line of code to monitor, evaluate, and experiment.'''
+    - 'README highlights: cost/latency tracking, agent tracing, prompt management, and fine-tuning integrations.'
+    - 'Source-list context: listed under ''Observability'' in Awesome-LLMOps.'
 placement:
   primary_category: evals
-  section: Observability / Tracing / EvalOps
+  secondary_categories: []
+  section: Observability & Tracing
 lifecycle:
   status: promotion_candidate
   reason: Stars (5612) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.618Z"
+    updated_at: '2026-05-06T22:12:15.618Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:36.420Z"
+    updated_at: '2026-07-30T05:05:36.420Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:05:15.968Z"
+    updated_at: '2026-07-21T16:05:15.968Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -108,14 +120,20 @@ processing:
       input_hash: sha256:2891942b749af38d59d167e1c6a4fb71b342f925b3c23b48ab97e3d9edad4d5b
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: Core product is observability, tracing, and evaluation for LLM workflows, not a primary coding assistant or framework.
+      decision_reason: >-
+        Core product is observability, tracing, and evaluation for LLM workflows, not a primary coding assistant or
+        framework.
       decision_evidence:
-        - "Repo description: 'Open source LLM observability platform. One line of code to monitor, evaluate, and experiment.'"
-        - "README highlights: cost/latency tracking, agent tracing, prompt management, and fine-tuning integrations."
-        - "Source-list context: listed under 'Observability' in Awesome-LLMOps."
+        - >-
+          Repo description: 'Open source LLM observability platform. One line of code to monitor, evaluate, and
+          experiment.'
+        - 'README highlights: cost/latency tracking, agent tracing, prompt management, and fine-tuning integrations.'
+        - 'Source-list context: listed under ''Observability'' in Awesome-LLMOps.'
       category_candidates:
         - evals
         - ai-frameworks
-      contrastive_reason: Choose evals over ai-frameworks because the primary value is measurement, tracing, and observability rather than code-first building blocks.
+      contrastive_reason: >-
+        Choose evals over ai-frameworks because the primary value is measurement, tracing, and observability rather than
+        code-first building blocks.
       review_reason: null
       review_resume_lifecycle: null

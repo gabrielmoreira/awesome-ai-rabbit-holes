@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aashirpersonal__semantic-coverage__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - Observability
         anchor_text: semantic-coverage
         extracted_url: https://github.com/aashirpersonal/semantic-coverage
-        surrounding_text: "| [semantic-coverage](https://github.com/aashirpersonal/semantic-coverage) | Visualizes RAG knowledge gaps and \"blind spots\" using 2D UMAP clustering and density detection.                                             | ![GitHub Badge](https://img.shields.io/github/stars/future-agi/futureagi-sdk?style=flat-square)                   |"
+        surrounding_text: >-
+          | [semantic-coverage](https://github.com/aashirpersonal/semantic-coverage) | Visualizes RAG knowledge gaps and
+          "blind spots" using 2D UMAP clustering and density detection.                                             |
+          ![GitHub
+          Badge](https://img.shields.io/github/stars/future-agi/futureagi-sdk?style=flat-square)                   |
         confidence: high
 metadata:
   github:
@@ -30,19 +34,25 @@ metadata:
     archived: false
     full_name: aashirpersonal/semantic-coverage
     html_url: https://github.com/aashirpersonal/semantic-coverage
-    created_at: "2025-12-24T10:38:00Z"
-    pushed_at: "2025-12-24T10:47:25Z"
+    created_at: '2025-12-24T10:38:00Z'
+    pushed_at: '2025-12-24T10:47:25Z'
     description: Automated detection of knowledge gaps and blind spots in RAG vector stores.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:28.312Z"
+    last_checked_at: '2026-09-17T04:13:28.312Z'
     readme:
-      fetched_at: "2026-09-17T04:13:28.312Z"
+      fetched_at: '2026-09-17T04:13:28.312Z'
       bytes: 3052
 insights:
-  summary: An automated tool for detecting knowledge gaps, hallucination triggers, and representation bias in RAG vector databases.
-  why_it_matters: It helps developers identify 'blind spots' in their retrieval pipelines by mapping user intent against existing document embeddings.
-  mental_damage: Because nothing says 'production-ready' like realizing your RAG system has zero context for 40% of your users' actual questions.
+  summary: >-
+    An automated tool for detecting knowledge gaps, hallucination triggers, and representation bias in RAG vector
+    databases.
+  why_it_matters: >-
+    It helps developers identify 'blind spots' in their retrieval pipelines by mapping user intent against existing
+    document embeddings.
+  mental_damage: >-
+    Because nothing says 'production-ready' like realizing your RAG system has zero context for 40% of your users'
+    actual questions.
   tags:
     - rag
     - observability
@@ -52,31 +62,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's core function is measuring the quality and coverage of RAG retrieval, which falls directly under evaluation and observability.
+  reason: >-
+    The tool's core function is measuring the quality and coverage of RAG retrieval, which falls directly under
+    evaluation and observability.
   evidence:
     - Claims to be 'The Code Coverage tool for RAG Knowledge Bases'
     - Uses UMAP and HDBSCAN to identify 'Red Zones' or gaps in knowledge
     - Focuses on detecting hallucinations and data drift
 placement:
   primary_category: evals
-  section: Observability / Tracing / EvalOps
+  secondary_categories: []
+  section: Observability & Tracing
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.599Z"
+    updated_at: '2026-05-06T22:12:15.599Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:28.312Z"
+    updated_at: '2026-09-17T04:13:28.312Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:54:16.408Z"
+    updated_at: '2026-07-20T15:54:16.408Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +102,9 @@ processing:
       input_hash: sha256:ad9d72ec6da6cdae7661ecfe80d836d6a124a3c56d7087055530665de2d6fefe
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: The tool's core function is measuring the quality and coverage of RAG retrieval, which falls directly under evaluation and observability.
+      decision_reason: >-
+        The tool's core function is measuring the quality and coverage of RAG retrieval, which falls directly under
+        evaluation and observability.
       decision_evidence:
         - Claims to be 'The Code Coverage tool for RAG Knowledge Bases'
         - Uses UMAP and HDBSCAN to identify 'Red Zones' or gaps in knowledge
@@ -97,6 +112,8 @@ processing:
       category_candidates:
         - evals
         - context-engineering
-      contrastive_reason: Choose evals over context-engineering because the product's primary purpose is measuring the effectiveness/gaps of existing retrieval rather than providing the retrieval mechanism itself.
+      contrastive_reason: >-
+        Choose evals over context-engineering because the product's primary purpose is measuring the effectiveness/gaps
+        of existing retrieval rather than providing the retrieval mechanism itself.
       review_reason: null
       review_resume_lifecycle: null

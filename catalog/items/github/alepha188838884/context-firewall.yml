@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alepha188838884__context-firewall__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-30T05:05:26.992Z"
+      discovered_at: '2026-07-30T05:05:26.992Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,15 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: Alepha188838884/context-firewall
         extracted_url: https://github.com/alepha188838884/context-firewall
-        surrounding_text: "- [Alepha188838884/context-firewall](https://github.com/Alepha188838884/context-firewall) [![Alepha188838884/context-firewall MCP server](https://glama.ai/mcp/servers/Alepha188838884/context-firewall/badges/score.svg)](https://glama.ai/mcp/servers/Alepha188838884/context-firewall) 📇 🏠 🍎 🪟 🐧 - Local proxy that collapses N downstream MCP servers into 4 meta-tools with progressive tool discovery (measured: 122 tools → 4, ~28.6K tokens of definitions saved), compresses large tool outputs (HTML→Markdown, JSON structure summarization, base64 stripping — 60–95% measured on real pages/APIs) with full-output retrieval via `read_more`, and prints a per-session token-savings report. Security-relevant outputs are never silently compressed. Install: `npx -y context-firewall --config config.json`"
+        surrounding_text: >-
+          - [Alepha188838884/context-firewall](https://github.com/Alepha188838884/context-firewall)
+          [![Alepha188838884/context-firewall MCP
+          server](https://glama.ai/mcp/servers/Alepha188838884/context-firewall/badges/score.svg)](https://glama.ai/mcp/servers/Alepha188838884/context-firewall)
+          📇 🏠 🍎 🪟 🐧 - Local proxy that collapses N downstream MCP servers into 4 meta-tools with progressive tool
+          discovery (measured: 122 tools → 4, ~28.6K tokens of definitions saved), compresses large tool outputs
+          (HTML→Markdown, JSON structure summarization, base64 stripping — 60–95% measured on real pages/APIs) with
+          full-output retrieval via `read_more`, and prints a per-session token-savings report. Security-relevant
+          outputs are never silently compressed. Install: `npx -y context-firewall --config config.json`
         confidence: high
 metadata:
   github:
@@ -30,9 +38,11 @@ metadata:
     archived: false
     full_name: Alepha188838884/context-firewall
     html_url: https://github.com/Alepha188838884/context-firewall
-    created_at: "2026-07-12T23:31:48Z"
-    pushed_at: "2026-09-03T00:45:23Z"
-    description: MCP proxy that collapses 50+ tools into 4 meta-tools and compresses tool outputs by 60-95% (HTML, base64, huge JSON) - cut context-token costs for any MCP client, any model
+    created_at: '2026-07-12T23:31:48Z'
+    pushed_at: '2026-09-03T00:45:23Z'
+    description: >-
+      MCP proxy that collapses 50+ tools into 4 meta-tools and compresses tool outputs by 60-95% (HTML, base64, huge
+      JSON) - cut context-token costs for any MCP client, any model
     homepage: https://www.npmjs.com/package/context-firewall
     topics:
       - ai-agents
@@ -44,13 +54,15 @@ metadata:
       - mcp-server
       - modelcontextprotocol
       - token-optimization
-    last_checked_at: "2026-09-17T04:13:38.844Z"
+    last_checked_at: '2026-09-17T04:13:38.844Z'
     readme:
-      fetched_at: "2026-09-17T04:13:38.844Z"
+      fetched_at: '2026-09-17T04:13:38.844Z'
       bytes: 20649
 insights:
   summary: An MCP proxy that reduces token usage by collapsing tool schemas and compressing large tool outputs.
-  why_it_matters: It helps developers prevent context window bloat and high token costs when using agents with many MCP tools or massive data payloads.
+  why_it_matters: >-
+    It helps developers prevent context window bloat and high token costs when using agents with many MCP tools or
+    massive data payloads.
   mental_damage: Because paying for 200,000 tokens of raw HTML is a lifestyle choice nobody actually wants to make.
   tags:
     - mcp
@@ -60,31 +72,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: While it is an MCP middleware layer, its core novelty is the compression and distillation of context to optimize token usage.
+  reason: >-
+    While it is an MCP middleware layer, its core novelty is the compression and distillation of context to optimize
+    token usage.
   evidence:
     - Collapses 50+ tool definitions into 4 meta-tools to save schema tokens.
     - Compresses real-world HTML and JSON tool outputs by 60–95%.
     - Sits as a local proxy between MCP clients (like Cursor or Claude Code) and downstream servers.
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Compression & Token Optimization
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-30T05:05:26.994Z"
+    updated_at: '2026-07-30T05:05:26.994Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:38.844Z"
+    updated_at: '2026-09-17T04:13:38.844Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:24:16.747Z"
+    updated_at: '2026-08-27T06:24:16.747Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -93,7 +108,9 @@ processing:
       input_hash: sha256:145a2842d398fc7e17232fea946d64ca2030a3b6b6d921c96eb3ae18500ec050
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: While it is an MCP middleware layer, its core novelty is the compression and distillation of context to optimize token usage.
+      decision_reason: >-
+        While it is an MCP middleware layer, its core novelty is the compression and distillation of context to optimize
+        token usage.
       decision_evidence:
         - Collapses 50+ tool definitions into 4 meta-tools to save schema tokens.
         - Compresses real-world HTML and JSON tool outputs by 60–95%.
@@ -101,7 +118,9 @@ processing:
       category_candidates:
         - context-engineering
         - mcp
-      contrastive_reason: Choose context-engineering over mcp because the primary value is context compression and token management rather than the MCP protocol implementation itself.
+      contrastive_reason: >-
+        Choose context-engineering over mcp because the primary value is context compression and token management rather
+        than the MCP protocol implementation itself.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

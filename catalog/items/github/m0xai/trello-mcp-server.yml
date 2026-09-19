@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__m0xai__trello-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Trello
         extracted_url: https://github.com/m0xai/trello-mcp-server
-        surrounding_text: "- **[Trello](https://github.com/m0xai/trello-mcp-server)** - Trello integration for working with boards, lists in boards and cards in lists."
+        surrounding_text: >-
+          - **[Trello](https://github.com/m0xai/trello-mcp-server)** - Trello integration for working with boards, lists
+          in boards and cards in lists.
         confidence: high
 metadata:
   github:
@@ -29,19 +31,25 @@ metadata:
     archived: false
     full_name: m0xai/trello-mcp-server
     html_url: https://github.com/m0xai/trello-mcp-server
-    created_at: "2025-04-02T14:25:29Z"
-    pushed_at: "2026-06-18T09:50:16Z"
-    description: "A simple yet powerful MCP server for Trello. "
+    created_at: '2025-04-02T14:25:29Z'
+    pushed_at: '2026-06-18T09:50:16Z'
+    description: 'A simple yet powerful MCP server for Trello. '
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:16:54.062Z"
+    last_checked_at: '2026-08-03T05:16:54.062Z'
     readme:
-      fetched_at: "2026-08-03T05:16:54.062Z"
+      fetched_at: '2026-08-03T05:16:54.062Z'
       bytes: 8471
 insights:
-  summary: Trevo MCP Server is an MCP server that provides AI hosts with tools to interact with Trello boards, lists, and cards via standard Model Context Protocol endpoints.
-  why_it_matters: It enables AI coding assistants like Claude or Cursor to read and modify Trello data through a standardized interface, reducing context-switching for developers who manage work in Trello.
-  mental_damage: Another MCP server that turns your project board into a prompt-injection surface for AI agents that may or may not understand your sprint goals.
+  summary: >-
+    Trevo MCP Server is an MCP server that provides AI hosts with tools to interact with Trello boards, lists, and cards
+    via standard Model Context Protocol endpoints.
+  why_it_matters: >-
+    It enables AI coding assistants like Claude or Cursor to read and modify Trello data through a standardized
+    interface, reducing context-switching for developers who manage work in Trello.
+  mental_damage: >-
+    Another MCP server that turns your project board into a prompt-injection surface for AI agents that may or may not
+    understand your sprint goals.
   tags:
     - mcp
     - trello
@@ -49,31 +57,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server exposing Trello functionality, making it a domain-specific MCP infrastructure tool rather than an extension, agent, or app builder.
+  reason: >-
+    The product's core identity is an MCP server exposing Trello functionality, making it a domain-specific MCP
+    infrastructure tool rather than an extension, agent, or app builder.
   evidence:
-    - "Repo description: 'A simple yet powerful MCP server for Trello'"
-    - README emphasizes MCP server modes (Claude App, SSE, Docker) and Trello API integration via standard MCP capabilities
+    - 'Repo description: ''A simple yet powerful MCP server for Trello'''
+    - >-
+      README emphasizes MCP server modes (Claude App, SSE, Docker) and Trello API integration via standard MCP
+      capabilities
     - Listed in awesome-mcp-servers under 'Community Servers' section
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.628Z"
+    updated_at: '2026-05-06T22:12:15.628Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:54.062Z"
+    updated_at: '2026-08-03T05:16:54.062Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:17:43.481Z"
+    updated_at: '2026-07-21T16:17:43.481Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -86,14 +99,20 @@ processing:
       input_hash: sha256:8f7843c7417169b168d1feda50742b528062ce164b1994b2d083629a0edf80fa
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP server exposing Trello functionality, making it a domain-specific MCP infrastructure tool rather than an extension, agent, or app builder.
+      decision_reason: >-
+        The product's core identity is an MCP server exposing Trello functionality, making it a domain-specific MCP
+        infrastructure tool rather than an extension, agent, or app builder.
       decision_evidence:
-        - "Repo description: 'A simple yet powerful MCP server for Trello'"
-        - README emphasizes MCP server modes (Claude App, SSE, Docker) and Trello API integration via standard MCP capabilities
+        - 'Repo description: ''A simple yet powerful MCP server for Trello'''
+        - >-
+          README emphasizes MCP server modes (Claude App, SSE, Docker) and Trello API integration via standard MCP
+          capabilities
         - Listed in awesome-mcp-servers under 'Community Servers' section
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server infrastructure first, not primarily an add-on that augments another assistant with Trello-specific workflow capabilities.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server infrastructure first, not primarily an
+        add-on that augments another assistant with Trello-specific workflow capabilities.
       review_reason: null
       review_resume_lifecycle: null

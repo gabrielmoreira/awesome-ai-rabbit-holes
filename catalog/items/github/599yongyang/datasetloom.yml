@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__599yongyang__datasetloom__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,7 @@ provenance:
           - 数据 Data
         anchor_text: DatasetLoom (`multimodal`)
         extracted_url: https://github.com/599yongyang/datasetloom
-        surrounding_text: "40. [DatasetLoom (`multimodal`)](https://github.com/599yongyang/DatasetLoom): 一个面向多模态大模型训练的智能数据集构建与评估平台."
+        surrounding_text: '40. [DatasetLoom (`multimodal`)](https://github.com/599yongyang/DatasetLoom): 一个面向多模态大模型训练的智能数据集构建与评估平台.'
         confidence: high
 metadata:
   github:
@@ -29,10 +29,10 @@ metadata:
     archived: false
     full_name: 599yongyang/DatasetLoom
     html_url: https://github.com/599yongyang/DatasetLoom
-    created_at: "2025-05-10T10:17:00Z"
-    pushed_at: "2025-12-13T04:58:45Z"
+    created_at: '2025-05-10T10:17:00Z'
+    pushed_at: '2025-12-13T04:58:45Z'
     description: 一个面向多模态大模型训练的智能数据集构建与评估平台
-    homepage: ""
+    homepage: ''
     topics:
       - ai
       - dataset
@@ -42,14 +42,20 @@ metadata:
       - shadcn-ui
       - typescript
       - vlm
-    last_checked_at: "2026-09-17T04:13:26.515Z"
+    last_checked_at: '2026-09-17T04:13:26.515Z'
     readme:
-      fetched_at: "2026-09-17T04:13:26.515Z"
+      fetched_at: '2026-09-17T04:13:26.515Z'
       bytes: 8501
 insights:
-  summary: An intelligent platform for constructing and evaluating multimodal training datasets, supporting SFT, DPO, and RAG-enhanced data generation.
-  why_it_matters: It automates the complex pipeline of transforming unstructured documents and images into high-quality, structured datasets for fine-tuning multimodal models.
-  mental_damage: Nothing says 'caling your LLM' like spending your afternoon debugging a RAG-driven data pipeline just to get a semi-decent DPO dataset.
+  summary: >-
+    An intelligent platform for constructing and evaluating multimodal training datasets, supporting SFT, DPO, and
+    RAG-enhanced data generation.
+  why_it_matters: >-
+    It automates the complex pipeline of transforming unstructured documents and images into high-quality, structured
+    datasets for fine-tuning multimodal models.
+  mental_damage: >-
+    Nothing says 'caling your LLM' like spending your afternoon debugging a RAG-driven data pipeline just to get a
+    semi-decent DPO dataset.
   tags:
     - multimodal
     - dataset-generation
@@ -59,31 +65,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core utility focuses on the automated creation, scoring, and evaluation of model outputs and datasets, fitting the evaluation and data quality profile.
+  reason: >-
+    The core utility focuses on the automated creation, scoring, and evaluation of model outputs and datasets, fitting
+    the evaluation and data quality profile.
   evidence:
     - Claims ability to perform 'AI automatic scoring' and model output comparison
     - Supports SFT and DPO dataset construction pipelines
     - Integrates RAG to generate verifiable, professional dialogue datasets
 placement:
-  primary_category: evals
-  section: Observability / Tracing / EvalOps
+  primary_category: local-ai
+  secondary_categories: []
+  section: Fine-tuning & Training
 lifecycle:
   status: promotion_candidate
   reason: Stars (285) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.598Z"
+    updated_at: '2026-05-06T22:12:15.598Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:26.516Z"
+    updated_at: '2026-09-17T04:13:26.516Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:50:34.257Z"
+    updated_at: '2026-07-20T15:50:34.257Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -96,7 +105,9 @@ processing:
       input_hash: sha256:d02e970bf6cfd35ecacfae519866a288821b7e4f77f3a83a9cb837553cda9517
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: The core utility focuses on the automated creation, scoring, and evaluation of model outputs and datasets, fitting the evaluation and data quality profile.
+      decision_reason: >-
+        The core utility focuses on the automated creation, scoring, and evaluation of model outputs and datasets,
+        fitting the evaluation and data quality profile.
       decision_evidence:
         - Claims ability to perform 'AI automatic scoring' and model output comparison
         - Supports SFT and DPO dataset construction pipelines
@@ -104,6 +115,8 @@ processing:
       category_candidates:
         - evals
         - ai-frameworks
-      contrastive_reason: Choose evals over ai-frameworks because the primary value proposition is the evaluation of output quality and the automated construction of training benchmarks rather than a code-first SDK.
+      contrastive_reason: >-
+        Choose evals over ai-frameworks because the primary value proposition is the evaluation of output quality and
+        the automated construction of training benchmarks rather than a code-first SDK.
       review_reason: null
       review_resume_lifecycle: null

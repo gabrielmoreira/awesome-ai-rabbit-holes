@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gregario__warhammer-oracle__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: gregario/warhammer-oracle
         extracted_url: https://github.com/gregario/warhammer-oracle
-        surrounding_text: "- [gregario/warhammer-oracle](https://github.com/gregario/warhammer-oracle) [![gregario/warhammer-oracle MCP server](https://glama.ai/mcp/servers/gregario/warhammer-oracle/badges/score.svg)](https://glama.ai/mcp/servers/gregario/warhammer-oracle) 📇 🏠 - Warhammer 40K, Combat Patrol, and Kill Team rules reference with unit datasheets, keyword definitions, phase sequences, and game flow. 6 tools, 3148 units embedded."
+        surrounding_text: >-
+          - [gregario/warhammer-oracle](https://github.com/gregario/warhammer-oracle) [![gregario/warhammer-oracle MCP
+          server](https://glama.ai/mcp/servers/gregario/warhammer-oracle/badges/score.svg)](https://glama.ai/mcp/servers/gregario/warhammer-oracle)
+          📇 🏠 - Warhammer 40K, Combat Patrol, and Kill Team rules reference with unit datasheets, keyword definitions,
+          phase sequences, and game flow. 6 tools, 3148 units embedded.
         confidence: high
 metadata:
   github:
@@ -30,18 +34,20 @@ metadata:
     archived: false
     full_name: gregario/warhammer-oracle
     html_url: https://github.com/gregario/warhammer-oracle
-    created_at: "2026-03-14T22:19:50Z"
-    pushed_at: "2026-09-02T10:15:48Z"
+    created_at: '2026-03-14T22:19:50Z'
+    pushed_at: '2026-09-02T10:15:48Z'
     description: Warhammer 40K and Kill Team rules, stats, and game flow MCP server
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:54.988Z"
+    last_checked_at: '2026-09-03T05:16:54.988Z'
     readme:
-      fetched_at: "2026-09-03T05:16:54.988Z"
+      fetched_at: '2026-09-03T05:16:54.988Z'
       bytes: 10235
 insights:
   summary: An MCP server providing Warhammer 40K and Kill Team rules, unit stats, and game flow tools for AI assistants.
-  why_it_matters: Developers building AI assistants for tabletop gaming can integrate structured Warhammer 40K/Kill Team data and calculations via MCP.
+  why_it_matters: >-
+    Developers building AI assistants for tabletop gaming can integrate structured Warhammer 40K/Kill Team data and
+    calculations via MCP.
   mental_damage: Now your AI can debate whether Devastating Wounds is overpowered while you debug your actual code.
   tags:
     - mcp-server
@@ -52,31 +58,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a domain-specific MCP server exposing Warhammer 40K/Kill Team tools and data."
+  reason: 'MCP is the product identity: this is a domain-specific MCP server exposing Warhammer 40K/Kill Team tools and data.'
   evidence:
     - Repo description explicitly identifies it as a Warhammer 40K/Kill Team MCP server
     - README details MCP-compatible tools (lookup_unit, wound_calculator, etc.) and installation via npx/claude mcp add
     - Badges and links confirm MCP compatibility and registry presence (glama.ai)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.617Z"
+    updated_at: '2026-05-06T22:12:15.617Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:54.988Z"
+    updated_at: '2026-09-03T05:16:54.988Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:04:18.739Z"
+    updated_at: '2026-07-21T16:04:18.739Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,14 +96,20 @@ processing:
       input_hash: sha256:bc30d1c83fb9d6cd4518d04ffdc566d05a4f58a5f7dc359a00cc206fded66bce
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a domain-specific MCP server exposing Warhammer 40K/Kill Team tools and data."
+      decision_reason: >-
+        MCP is the product identity: this is a domain-specific MCP server exposing Warhammer 40K/Kill Team tools and
+        data.
       decision_evidence:
         - Repo description explicitly identifies it as a Warhammer 40K/Kill Team MCP server
-        - README details MCP-compatible tools (lookup_unit, wound_calculator, etc.) and installation via npx/claude mcp add
+        - >-
+          README details MCP-compatible tools (lookup_unit, wound_calculator, etc.) and installation via npx/claude mcp
+          add
         - Badges and links confirm MCP compatibility and registry presence (glama.ai)
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

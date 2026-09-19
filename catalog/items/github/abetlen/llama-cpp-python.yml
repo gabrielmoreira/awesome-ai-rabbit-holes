@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__abetlen__llama-cpp-python__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -19,7 +19,10 @@ provenance:
           - Inference Engine
         anchor_text: llama-cpp-python
         extracted_url: https://github.com/abetlen/llama-cpp-python
-        surrounding_text: "| [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) | - Python bindings for llama.cpp                                                      | GGUF                    | Both            | ❌  | Python      | Text-Gen      |"
+        surrounding_text: >-
+          | [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) | - Python bindings for
+          llama.cpp                                                      | GGUF                    | Both            |
+          ❌  | Python      | Text-Gen      |
         confidence: high
 metadata:
   github:
@@ -29,19 +32,23 @@ metadata:
     archived: false
     full_name: abetlen/llama-cpp-python
     html_url: https://github.com/abetlen/llama-cpp-python
-    created_at: "2023-03-23T09:30:33Z"
-    pushed_at: "2026-09-13T00:01:51Z"
+    created_at: '2023-03-23T09:30:33Z'
+    pushed_at: '2026-09-13T00:01:51Z'
     description: Python bindings for llama.cpp
     homepage: https://llama-cpp-python.readthedocs.io
     topics: []
-    last_checked_at: "2026-09-17T04:13:28.537Z"
+    last_checked_at: '2026-09-17T04:13:28.537Z'
     readme:
-      fetched_at: "2026-09-17T04:13:28.537Z"
+      fetched_at: '2026-09-17T04:13:28.537Z'
       bytes: 33426
 insights:
   summary: Python bindings for the llama.cpp library providing high-level and low-level access to local LLM inference.
-  why_it_matters: It allows developers to integrate high-performance, quantized local LLM inference directly into Python applications and workflows.
-  mental_damage: Nothing says 'I'm building a local-first agent' like wrestling with CMAKE_ARGS just to get CUDA acceleration working.
+  why_it_matters: >-
+    It allows developers to integrate high-performance, quantized local LLM inference directly into Python applications
+    and workflows.
+  mental_damage: >-
+    Nothing says 'I'm building a local-first agent' like wrestling with CMAKE_ARGS just to get CUDA acceleration
+    working.
   tags:
     - local-llm
     - python
@@ -51,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is a core runtime/binding for executing models on local hardware, making it a foundational local AI tool.
+  reason: >-
+    The project is a core runtime/binding for executing models on local hardware, making it a foundational local AI
+    tool.
   evidence:
     - Provides Python bindings for llama.cpp
     - Supports local hardware acceleration (CUDA, Metal, OpenBLAS)
     - Includes an OpenAI-compatible web server for local inference
 placement:
   primary_category: local-ai
-  section: Local Serving / APIs
+  secondary_categories: []
+  section: Inference Engines
 lifecycle:
   status: promotion_candidate
   reason: Stars (10271) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.599Z"
+    updated_at: '2026-05-06T22:12:15.599Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:28.537Z"
+    updated_at: '2026-09-17T04:13:28.537Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:55:13.330Z"
+    updated_at: '2026-07-20T15:55:13.330Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -88,7 +98,9 @@ processing:
       input_hash: sha256:3ebd4ac0db00b95b37d2d4885ae7e0e89c0dc39cdd8dd57e84d6d201e4d9e0a3
       proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: The project is a core runtime/binding for executing models on local hardware, making it a foundational local AI tool.
+      decision_reason: >-
+        The project is a core runtime/binding for executing models on local hardware, making it a foundational local AI
+        tool.
       decision_evidence:
         - Provides Python bindings for llama.cpp
         - Supports local hardware acceleration (CUDA, Metal, OpenBLAS)
@@ -96,6 +108,8 @@ processing:
       category_candidates:
         - local-ai
         - ai-frameworks
-      contrastive_reason: Choose local-ai over ai-frameworks because its primary identity is enabling local execution on user hardware rather than being a general-purpose abstraction library.
+      contrastive_reason: >-
+        Choose local-ai over ai-frameworks because its primary identity is enabling local execution on user hardware
+        rather than being a general-purpose abstraction library.
       review_reason: null
       review_resume_lifecycle: null

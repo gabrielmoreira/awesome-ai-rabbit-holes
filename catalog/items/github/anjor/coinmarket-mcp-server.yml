@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__anjor__coinmarket-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: anjor/coinmarket-mcp-server
         extracted_url: https://github.com/anjor/coinmarket-mcp-server
-        surrounding_text: "- [anjor/coinmarket-mcp-server](https://github.com/anjor/coinmarket-mcp-server) 🐍 ☁️ - Coinmarket API integration to fetch cryptocurrency listings and quotes"
+        surrounding_text: >-
+          - [anjor/coinmarket-mcp-server](https://github.com/anjor/coinmarket-mcp-server) 🐍 ☁️ - Coinmarket API
+          integration to fetch cryptocurrency listings and quotes
         confidence: high
     - id: discovery__github__anjor__coinmarket-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - 💰 Finance & Fintech
         anchor_text: anjor/coinmarket-mcp-server
         extracted_url: https://github.com/anjor/coinmarket-mcp-server
-        surrounding_text: "-   **[anjor/coinmarket-mcp-server](https://github.com/anjor/coinmarket-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/anjor/coinmarket-mcp-server?style=social)](https://github.com/anjor/coinmarket-mcp-server): Fetches cryptocurrency listings and quotes from the Coinmarket API."
+        surrounding_text: >-
+          -   **[anjor/coinmarket-mcp-server](https://github.com/anjor/coinmarket-mcp-server)** [![GitHub
+          stars](https://img.shields.io/github/stars/anjor/coinmarket-mcp-server?style=social)](https://github.com/anjor/coinmarket-mcp-server):
+          Fetches cryptocurrency listings and quotes from the Coinmarket API.
         confidence: high
 metadata:
   github:
@@ -45,18 +50,20 @@ metadata:
     archived: false
     full_name: anjor/coinmarket-mcp-server
     html_url: https://github.com/anjor/coinmarket-mcp-server
-    created_at: "2024-11-29T23:29:03Z"
-    pushed_at: "2025-06-24T09:49:57Z"
+    created_at: '2024-11-29T23:29:03Z'
+    pushed_at: '2025-06-24T09:49:57Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:44.661Z"
+    last_checked_at: '2026-09-17T04:13:44.661Z'
     readme:
-      fetched_at: "2026-09-17T04:13:44.661Z"
+      fetched_at: '2026-09-17T04:13:44.661Z'
       bytes: 2888
 insights:
   summary: An MCP server that exposes CoinMarketCap API endpoints as resources and tools for AI assistants.
-  why_it_matters: Lets AI coding assistants fetch real-time cryptocurrency data (listings, quotes) directly through the Model Context Protocol.
+  why_it_matters: >-
+    Lets AI coding assistants fetch real-time cryptocurrency data (listings, quotes) directly through the Model Context
+    Protocol.
   mental_damage: Because your coding agent now needs a CoinMarketCap API key to tell you Bitcoin's price mid-debug session.
   tags:
     - mcp-server
@@ -74,24 +81,25 @@ curation:
     - Requires MCP-compatible configuration (Claude Desktop, Docker) and exposes MCP-specific URI scheme
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.581Z"
+    updated_at: '2026-05-06T22:12:15.581Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:44.661Z"
+    updated_at: '2026-09-17T04:13:44.661Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:23:10.905Z"
+    updated_at: '2026-07-21T15:23:10.905Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -112,6 +120,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

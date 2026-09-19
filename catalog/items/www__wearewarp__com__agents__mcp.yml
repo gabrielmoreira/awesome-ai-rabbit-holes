@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__wearewarp__com__agents__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-08T05:39:05.247Z"
+      discovered_at: '2026-06-08T05:39:05.247Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,13 @@ provenance:
           - 🔒 <a name="delivery"></a>Delivery
         anchor_text: wearewarp.com/agents/mcp
         extracted_url: https://wearewarp.com/agents/mcp
-        surrounding_text: "- [warpfreight/warp-agent-mcp](https://github.com/warpfreight/warp-agent-mcp) [![warpfreight/warp-agent-mcp MCP server](https://glama.ai/mcp/servers/warpfreight/warp-agent-mcp/badges/score.svg)](https://glama.ai/mcp/servers/warpfreight/warp-agent-mcp) 📇 ☁️ - Book real LTL/FTL/van/box-truck freight through the Warp network. 20 tools, in-chat login, Stripe-charged bookings, real carrier dispatch. Live demo at [wearewarp.com/agents/mcp](https://wearewarp.com/agents/mcp)."
+        surrounding_text: >-
+          - [warpfreight/warp-agent-mcp](https://github.com/warpfreight/warp-agent-mcp) [![warpfreight/warp-agent-mcp
+          MCP
+          server](https://glama.ai/mcp/servers/warpfreight/warp-agent-mcp/badges/score.svg)](https://glama.ai/mcp/servers/warpfreight/warp-agent-mcp)
+          📇 ☁️ - Book real LTL/FTL/van/box-truck freight through the Warp network. 20 tools, in-chat login,
+          Stripe-charged bookings, real carrier dispatch. Live demo at
+          [wearewarp.com/agents/mcp](https://wearewarp.com/agents/mcp).
         confidence: high
 metadata:
   github:
@@ -36,8 +42,12 @@ metadata:
     readme: null
 insights:
   summary: An MCP server that enables AI agents to quote, book, and track freight shipments using Warp's carrier network.
-  why_it_matters: It allows developers to build shipping integrations or manage logistics directly via AI chat without switching to a separate logistics portal.
-  mental_damage: We have officially reached the era where you can accidentally book a full truckload of cargo via a hallucinated prompt in your IDE.
+  why_it_matters: >-
+    It allows developers to build shipping integrations or manage logistics directly via AI chat without switching to a
+    separate logistics portal.
+  mental_damage: >-
+    We have officially reached the era where you can accidentally book a full truckload of cargo via a hallucinated
+    prompt in your IDE.
   tags:
     - mcp
     - logistics
@@ -46,21 +56,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server that provides a specific domain of tools (freight) to compatible AI clients.
+  reason: >-
+    The project's primary identity is an MCP server that provides a specific domain of tools (freight) to compatible AI
+    clients.
   evidence:
     - Explicitly identifies as the 'first MCP server for booking real freight'
     - Provides a standard MCP configuration for Claude Desktop, Cursor, and Windsurf
     - Listed in the Official MCP Registry as io.github.warpfreight/warp-agent-mcp
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-08T05:39:05.249Z"
+    updated_at: '2026-06-08T05:39:05.249Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +82,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-06-08T05:43:34.008Z"
+    updated_at: '2026-06-08T05:43:34.008Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

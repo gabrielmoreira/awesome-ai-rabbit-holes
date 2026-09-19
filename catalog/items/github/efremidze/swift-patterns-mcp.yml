@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__efremidze__swift-patterns-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: efremidze/swift-patterns-mcp
         extracted_url: https://github.com/efremidze/swift-patterns-mcp
-        surrounding_text: "- [efremidze/swift-patterns-mcp](https://github.com/efremidze/swift-patterns-mcp) 📇 🏠 🍎 🪟 🐧 - An MCP server providing curated Swift and SwiftUI best practices from leading iOS developers, including patterns and real-world code examples from Swift by Sundell, SwiftLee, and other trusted sources."
+        surrounding_text: >-
+          - [efremidze/swift-patterns-mcp](https://github.com/efremidze/swift-patterns-mcp) 📇 🏠 🍎 🪟 🐧 - An MCP
+          server providing curated Swift and SwiftUI best practices from leading iOS developers, including patterns and
+          real-world code examples from Swift by Sundell, SwiftLee, and other trusted sources.
         confidence: high
 metadata:
   github:
@@ -30,10 +33,10 @@ metadata:
     archived: false
     full_name: efremidze/swift-patterns-mcp
     html_url: https://github.com/efremidze/swift-patterns-mcp
-    created_at: "2026-01-12T09:17:18Z"
-    pushed_at: "2026-06-20T05:31:34Z"
+    created_at: '2026-01-12T09:17:18Z'
+    pushed_at: '2026-06-20T05:31:34Z'
     description: An MCP server providing curated Swift and SwiftUI best practices from leading iOS sources.
-    homepage: ""
+    homepage: ''
     topics:
       - claude-code
       - ios
@@ -43,13 +46,17 @@ metadata:
       - patreon
       - swift
       - swiftui
-    last_checked_at: "2026-09-14T04:13:46.914Z"
+    last_checked_at: '2026-09-14T04:13:46.914Z'
     readme:
-      fetched_at: "2026-09-14T04:13:46.914Z"
+      fetched_at: '2026-09-14T04:13:46.914Z'
       bytes: 15884
 insights:
-  summary: An MCP server that provides curated Swift and SwiftUI best practices from leading iOS sources with search, retrieval, and memory features.
-  why_it_matters: It gives iOS developers instant access to vetted patterns and architecture guidance from trusted educators directly within their MCP-compatible IDE or assistant.
+  summary: >-
+    An MCP server that provides curated Swift and SwiftUI best practices from leading iOS sources with search,
+    retrieval, and memory features.
+  why_it_matters: >-
+    It gives iOS developers instant access to vetted patterns and architecture guidance from trusted educators directly
+    within their MCP-compatible IDE or assistant.
   mental_damage: Now your AI can argue about MVVM vs. TCA with the same confidence as a senior iOS dev in a design review.
   tags:
     - mcp-server
@@ -60,31 +67,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose primary identity is serving Swift/SwiftUI best practices via MCP, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product is explicitly an MCP server whose primary identity is serving Swift/SwiftUI best practices via MCP,
+    fitting the MCP Servers & Tooling category.
   evidence:
     - Repo description explicitly states it is an MCP server for Swift/SwiftUI best practices
     - README emphasizes MCP compatibility and runtime tooling (search, retrieval, memory)
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.612Z"
+    updated_at: '2026-05-06T22:12:15.612Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:46.914Z"
+    updated_at: '2026-09-14T04:13:46.914Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:52:06.866Z"
+    updated_at: '2026-07-21T15:52:06.866Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -97,7 +107,9 @@ processing:
       input_hash: sha256:5b3c588c0b55a699e59be5c94fa7101ff579d57ef611f98bd3ca782326e09c91
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server whose primary identity is serving Swift/SwiftUI best practices via MCP, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product is explicitly an MCP server whose primary identity is serving Swift/SwiftUI best practices via MCP,
+        fitting the MCP Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Swift/SwiftUI best practices
         - README emphasizes MCP compatibility and runtime tooling (search, retrieval, memory)
@@ -105,6 +117,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the core product is an MCP server (not a standalone retrieval/memory system) and MCP is the primary adopted identity.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the core product is an MCP server (not a standalone retrieval/memory
+        system) and MCP is the primary adopted identity.
       review_reason: null
       review_resume_lifecycle: null

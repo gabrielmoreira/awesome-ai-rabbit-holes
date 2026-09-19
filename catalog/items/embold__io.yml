@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__embold__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Code Review and Refactoring
         anchor_text: Embold
         extracted_url: https://embold.io
-        surrounding_text: "- **[Embold](https://embold.io/)** – AI code analysis for quality, maintainability, and tech debt."
+        surrounding_text: '- **[Embold](https://embold.io/)** – AI code analysis for quality, maintainability, and tech debt.'
         confidence: high
 metadata:
   github:
@@ -36,8 +36,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A static code analysis platform that automates the detection of technical debt, security vulnerabilities, and structural anti-patterns.
-  why_it_matters: It helps teams maintain code quality and security by surfacing structural issues and smells during the development and pull request process.
+  summary: >-
+    A static code analysis platform that automates the detection of technical debt, security vulnerabilities, and
+    structural anti-patterns.
+  why_it_matters: >-
+    It helps teams maintain code quality and security by surfacing structural issues and smells during the development
+    and pull request process.
   mental_damage: It provides a centralized dashboard to quantify exactly how much technical debt you are currently accruing.
   tags:
     - static-analysis
@@ -48,21 +52,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It functions as an automated code reviewer that identifies anti-patterns and vulnerabilities across the development lifecycle.
+  reason: >-
+    It functions as an automated code reviewer that identifies anti-patterns and vulnerabilities across the development
+    lifecycle.
   evidence:
     - Product claims to identify vulnerabilities, anti-patterns, and code smells.
     - Features automated pull request reviews for GitHub, GitLab, Bitbucket, and Azure DevOps.
     - Provides refactoring support and IDE plugins for VS Code, IntelliJ, and Visual Studio.
 placement:
   primary_category: coding-agents
-  section: Review, Testing & Repair Agents
+  secondary_categories: []
+  section: Review, Testing & Repair
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +78,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:11:04.391Z"
+    updated_at: '2026-08-27T06:11:04.391Z'
     cause: null
     next_retry_at: null
     attempts: 4
@@ -84,7 +91,9 @@ processing:
       input_hash: sha256:fe1d33194ca63bf210b7da5df67c881810c7fda1d2b8ee5f3ca48a723aa87047
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: It functions as an automated code reviewer that identifies anti-patterns and vulnerabilities across the development lifecycle.
+      decision_reason: >-
+        It functions as an automated code reviewer that identifies anti-patterns and vulnerabilities across the
+        development lifecycle.
       decision_evidence:
         - Product claims to identify vulnerabilities, anti-patterns, and code smells.
         - Features automated pull request reviews for GitHub, GitLab, Bitbucket, and Azure DevOps.
@@ -92,6 +101,8 @@ processing:
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because it is a standalone analysis platform with its own workflow and UI, rather than just a plugin for another assistant.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because it is a standalone analysis platform with its own workflow
+        and UI, rather than just a plugin for another assistant.
       review_reason: null
       review_resume_lifecycle: null

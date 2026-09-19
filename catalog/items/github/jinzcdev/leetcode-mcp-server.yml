@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jinzcdev__leetcode-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: jinzcdev/leetcode-mcp-server
         extracted_url: https://github.com/jinzcdev/leetcode-mcp-server
-        surrounding_text: "- [jinzcdev/leetcode-mcp-server](https://github.com/jinzcdev/leetcode-mcp-server) 📇 ☁️ - MCP server enabling automated access to **LeetCode**'s programming problems, solutions, submissions and public data with optional authentication for user-specific features (e.g., notes), supporting both `leetcode.com` (global) and `leetcode.cn` (China) sites."
+        surrounding_text: >-
+          - [jinzcdev/leetcode-mcp-server](https://github.com/jinzcdev/leetcode-mcp-server) 📇 ☁️ - MCP server enabling
+          automated access to **LeetCode**'s programming problems, solutions, submissions and public data with optional
+          authentication for user-specific features (e.g., notes), supporting both `leetcode.com` (global) and
+          `leetcode.cn` (China) sites.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: jinzcdev/leetcode-mcp-server
     html_url: https://github.com/jinzcdev/leetcode-mcp-server
-    created_at: "2025-04-12T18:13:47Z"
-    pushed_at: "2026-07-12T12:05:31Z"
-    description: An MCP server enabling automated access to LeetCode's problems, solutions, and public data with optional authentication for user-specific features, supporting leetcode.com & leetcode.cn sites.
+    created_at: '2025-04-12T18:13:47Z'
+    pushed_at: '2026-07-12T12:05:31Z'
+    description: >-
+      An MCP server enabling automated access to LeetCode's problems, solutions, and public data with optional
+      authentication for user-specific features, supporting leetcode.com & leetcode.cn sites.
     homepage: https://www.npmjs.com/package/@jinzcdev/leetcode-mcp-server
     topics:
       - ai
@@ -42,13 +48,17 @@ metadata:
       - llm
       - mcp
       - mcp-server
-    last_checked_at: "2026-07-30T05:05:50.640Z"
+    last_checked_at: '2026-07-30T05:05:50.640Z'
     readme:
-      fetched_at: "2026-07-30T05:05:50.640Z"
+      fetched_at: '2026-07-30T05:05:50.640Z'
       bytes: 19693
 insights:
-  summary: An MCP server that provides automated access to LeetCode's problems, solutions, and public data, with optional authentication for user-specific features.
-  why_it_matters: Developers can integrate LeetCode problem data and user progress directly into their AI workflows, enabling automated problem retrieval, solution analysis, and contest tracking.
+  summary: >-
+    An MCP server that provides automated access to LeetCode's problems, solutions, and public data, with optional
+    authentication for user-specific features.
+  why_it_matters: >-
+    Developers can integrate LeetCode problem data and user progress directly into their AI workflows, enabling
+    automated problem retrieval, solution analysis, and contest tracking.
   mental_damage: Now your AI can judge you for your LeetCode stats before you even open the IDE.
   tags:
     - mcp-server
@@ -59,31 +69,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose primary identity is providing LeetCode integration via the Model Context Protocol.
+  reason: >-
+    The product is explicitly an MCP server whose primary identity is providing LeetCode integration via the Model
+    Context Protocol.
   evidence:
     - Repo description explicitly states it is an MCP server for LeetCode
     - README details MCP server functionality and installation via Smithery/npm
     - Source-list context shows it in an MCP servers collection
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:50.640Z"
+    updated_at: '2026-07-30T05:05:50.640Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:42.417Z"
+    updated_at: '2026-07-21T16:10:42.417Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,7 +109,9 @@ processing:
       input_hash: sha256:428f6b89474f3c5a0ff05a8cd783ad6888e59ec606b1c956a1bc5cb6267d5d73
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server whose primary identity is providing LeetCode integration via the Model Context Protocol.
+      decision_reason: >-
+        The product is explicitly an MCP server whose primary identity is providing LeetCode integration via the Model
+        Context Protocol.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for LeetCode
         - README details MCP server functionality and installation via Smithery/npm
@@ -104,6 +119,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not just an extension for another tool), and MCP is its primary identity.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server (not just an extension for another
+        tool), and MCP is its primary identity.
       review_reason: null
       review_resume_lifecycle: null

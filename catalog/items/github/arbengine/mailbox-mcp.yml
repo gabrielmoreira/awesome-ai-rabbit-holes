@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__arbengine__mailbox-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-22T05:53:30.454Z"
+      discovered_at: '2026-06-22T05:53:30.454Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: arbengine/mailbox-mcp
         extracted_url: https://github.com/arbengine/mailbox-mcp
-        surrounding_text: "- [arbengine/mailbox-mcp](https://github.com/arbengine/mailbox-mcp) [![arbengine/mailbox-mcp MCP server](https://glama.ai/mcp/servers/arbengine/mailbox-mcp/badges/score.svg)](https://glama.ai/mcp/servers/arbengine/mailbox-mcp) 📇 ☁️ - Physical mail API for AI agents. Send letters, certified mail, postcards, and batch mailings with cost previews, approval controls, tracking, and webhooks."
+        surrounding_text: >-
+          - [arbengine/mailbox-mcp](https://github.com/arbengine/mailbox-mcp) [![arbengine/mailbox-mcp MCP
+          server](https://glama.ai/mcp/servers/arbengine/mailbox-mcp/badges/score.svg)](https://glama.ai/mcp/servers/arbengine/mailbox-mcp)
+          📇 ☁️ - Physical mail API for AI agents. Send letters, certified mail, postcards, and batch mailings with cost
+          previews, approval controls, tracking, and webhooks.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: arbengine/mailbox-mcp
     html_url: https://github.com/arbengine/mailbox-mcp
-    created_at: "2026-05-04T23:45:22Z"
-    pushed_at: "2026-07-08T02:11:23Z"
+    created_at: '2026-05-04T23:45:22Z'
+    pushed_at: '2026-07-08T02:11:23Z'
     description: Official MCP server for mailbox.bot — physical postal mail API for AI agents.
     homepage: https://mailbox.bot
     topics:
@@ -42,14 +46,20 @@ metadata:
       - mcp
       - model-context-protocol
       - usps
-    last_checked_at: "2026-09-10T04:12:57.492Z"
+    last_checked_at: '2026-09-10T04:12:57.492Z'
     readme:
-      fetched_at: "2026-09-10T04:12:57.492Z"
+      fetched_at: '2026-09-10T04:12:57.492Z'
       bytes: 4273
 insights:
-  summary: Official MCP server for mailbox.bot, a physical postal mail API that allows AI agents to send and receive physical letters and packages.
-  why_it_matters: It provides a standardized protocol for agents to interact with the physical world via USPS, FedEx, and UPS, turning physical mail into agentic context.
-  mental_damage: We have finally reached the peak of the cycle where your AI agent can send a certified letter to your landlord to explain why the rent is late.
+  summary: >-
+    Official MCP server for mailbox.bot, a physical postal mail API that allows AI agents to send and receive physical
+    letters and packages.
+  why_it_matters: >-
+    It provides a standardized protocol for agents to interact with the physical world via USPS, FedEx, and UPS, turning
+    physical mail into agentic context.
+  mental_damage: >-
+    We have finally reached the peak of the cycle where your AI agent can send a certified letter to your landlord to
+    explain why the rent is late.
   tags:
     - mcp
     - physical-api
@@ -59,31 +69,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a dedicated MCP server implementation providing a specific domain of capabilities (postal mail) to AI clients.
+  reason: >-
+    The product is a dedicated MCP server implementation providing a specific domain of capabilities (postal mail) to AI
+    clients.
   evidence:
     - Repo description explicitly identifies it as an 'Official MCP server'
     - README details the MCP manifest and hosted streamable HTTP transport
     - Included in awesome-mcp-servers under 'Communication' section
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-22T05:53:30.455Z"
+    updated_at: '2026-06-22T05:53:30.455Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:12:57.492Z"
+    updated_at: '2026-09-10T04:12:57.492Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-22T05:55:49.805Z"
+    updated_at: '2026-06-22T05:55:49.805Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

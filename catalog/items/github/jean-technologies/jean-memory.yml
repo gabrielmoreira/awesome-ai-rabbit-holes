@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jean-technologies__jean-memory__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Jean Memory
         extracted_url: https://github.com/jonathan-politzki/your-memory
-        surrounding_text: "- **[Jean Memory](https://github.com/jonathan-politzki/your-memory)** - Premium memory consistent across all AI applications."
+        surrounding_text: >-
+          - **[Jean Memory](https://github.com/jonathan-politzki/your-memory)** - Premium memory consistent across all
+          AI applications.
         confidence: high
 metadata:
   github:
@@ -29,19 +31,21 @@ metadata:
     archived: false
     full_name: jean-technologies/jean-memory
     html_url: https://github.com/jean-technologies/jean-memory
-    created_at: "2025-05-01T01:49:16Z"
-    pushed_at: "2026-01-06T20:30:18Z"
+    created_at: '2025-05-01T01:49:16Z'
+    pushed_at: '2026-01-06T20:30:18Z'
     description: next-generation AI memory infrastructure (powered by mem0 and graphiti)
     homepage: https://jeanmemory.com
     topics: []
-    last_checked_at: "2026-07-30T05:05:49.512Z"
+    last_checked_at: '2026-07-30T05:05:49.512Z'
     readme:
-      fetched_at: "2026-07-30T05:05:49.512Z"
+      fetched_at: '2026-07-30T05:05:49.512Z'
       bytes: 6644
 insights:
   summary: AI memory infrastructure providing a persistent, intelligent context layer for applications via SDKs and APIs.
   why_it_matters: Developers can add long-term memory and context-aware retrieval to their AI apps with minimal integration effort.
-  mental_damage: Finally, a way to make your AI remember what you told it yesterday—assuming you can remember where you stored the API key.
+  mental_damage: >-
+    Finally, a way to make your AI remember what you told it yesterday—assuming you can remember where you stored the
+    API key.
   tags:
     - memory
     - context-engineering
@@ -53,29 +57,32 @@ curation:
   status: included
   reason: Core product is a memory/context system for AI apps, not a coding assistant, extension, or orchestration platform.
   evidence:
-    - "Repo description: 'next-generation AI memory infrastructure'"
-    - "README: 'persistent and intelligent memory layer that enables AI applications to understand users with deep, personal context'"
+    - 'Repo description: ''next-generation AI memory infrastructure'''
+    - >-
+      README: 'persistent and intelligent memory layer that enables AI applications to understand users with deep,
+      personal context'
     - Provides SDKs for React, Python, Node.js to integrate memory/context
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: promotion_candidate
   reason: Stars (169) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:49.512Z"
+    updated_at: '2026-07-30T05:05:49.512Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:16.961Z"
+    updated_at: '2026-07-21T16:10:16.961Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,14 +95,20 @@ processing:
       input_hash: sha256:472315b6871770c48f2f25f0240290ac168d36e2326d77e68fa8cfec591132bf
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: Core product is a memory/context system for AI apps, not a coding assistant, extension, or orchestration platform.
+      decision_reason: >-
+        Core product is a memory/context system for AI apps, not a coding assistant, extension, or orchestration
+        platform.
       decision_evidence:
-        - "Repo description: 'next-generation AI memory infrastructure'"
-        - "README: 'persistent and intelligent memory layer that enables AI applications to understand users with deep, personal context'"
+        - 'Repo description: ''next-generation AI memory infrastructure'''
+        - >-
+          README: 'persistent and intelligent memory layer that enables AI applications to understand users with deep,
+          personal context'
         - Provides SDKs for React, Python, Node.js to integrate memory/context
       category_candidates:
         - context-engineering
         - ai-frameworks
-      contrastive_reason: Choose context-engineering over ai-frameworks because the primary value is memory/context orchestration rather than a general-purpose SDK for building agents.
+      contrastive_reason: >-
+        Choose context-engineering over ai-frameworks because the primary value is memory/context orchestration rather
+        than a general-purpose SDK for building agents.
       review_reason: null
       review_resume_lifecycle: null

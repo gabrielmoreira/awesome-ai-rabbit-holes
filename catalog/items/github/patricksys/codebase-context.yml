@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__patricksys__codebase-context__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: PatrickSys/codebase-context
         extracted_url: https://github.com/patricksys/codebase-context
-        surrounding_text: "- [PatrickSys/codebase-context](https://github.com/PatrickSys/codebase-context) [![codebase-context MCP server](https://glama.ai/mcp/servers/@PatrickSys/codebase-context/badges/score.svg)](https://glama.ai/mcp/servers/@PatrickSys/codebase-context) 📇 🏠 🍎 🪟 🐧 - Local MCP server that shows AI agents which patterns your team actually uses, what files a change will affect, and when there is not enough context to trust an edit. 30+ languages, fully local."
+        surrounding_text: >-
+          - [PatrickSys/codebase-context](https://github.com/PatrickSys/codebase-context) [![codebase-context MCP
+          server](https://glama.ai/mcp/servers/@PatrickSys/codebase-context/badges/score.svg)](https://glama.ai/mcp/servers/@PatrickSys/codebase-context)
+          📇 🏠 🍎 🪟 🐧 - Local MCP server that shows AI agents which patterns your team actually uses, what files a
+          change will affect, and when there is not enough context to trust an edit. 30+ languages, fully local.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: PatrickSys/codebase-context
     html_url: https://github.com/PatrickSys/codebase-context
-    created_at: "2025-11-24T21:32:52Z"
-    pushed_at: "2026-05-11T10:04:45Z"
-    description: Codebase Context gives AI agents understanding of your codebase through semantic code search, team conventions, patterns, and memory, so they use fewer tokens, spend less time, and produce better, more familiar output.
+    created_at: '2025-11-24T21:32:52Z'
+    pushed_at: '2026-05-11T10:04:45Z'
+    description: >-
+      Codebase Context gives AI agents understanding of your codebase through semantic code search, team conventions,
+      patterns, and memory, so they use fewer tokens, spend less time, and produce better, more familiar output.
     homepage: https://www.npmjs.com/package/codebase-context
     topics:
       - ai-agents
@@ -55,14 +61,20 @@ metadata:
       - second-brain
       - semantic-search
       - team-memory
-    last_checked_at: "2026-07-20T16:42:31.736Z"
+    last_checked_at: '2026-07-20T16:42:31.736Z'
     readme:
-      fetched_at: "2026-07-20T16:42:31.736Z"
+      fetched_at: '2026-07-20T16:42:31.736Z'
       bytes: 14084
 insights:
-  summary: A local-first MCP server and CLI that maps a codebase's architecture, patterns, and conventions to give AI agents a preflight context map before they start searching or editing.
-  why_it_matters: It stops agents from wasting tokens wandering through generic examples by showing them the team's actual patterns, golden files, and architectural layers first.
-  mental_damage: One more layer of infrastructure to ensure your AI agent understands your repo well enough to generate code that still somehow ignores the conventions you just mapped for it.
+  summary: >-
+    A local-first MCP server and CLI that maps a codebase's architecture, patterns, and conventions to give AI agents a
+    preflight context map before they start searching or editing.
+  why_it_matters: >-
+    It stops agents from wasting tokens wandering through generic examples by showing them the team's actual patterns,
+    golden files, and architectural layers first.
+  mental_damage: >-
+    One more layer of infrastructure to ensure your AI agent understands your repo well enough to generate code that
+    still somehow ignores the conventions you just mapped for it.
   tags:
     - mcp
     - context-engineering
@@ -72,35 +84,44 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core novelty is a context-shaping system that maps architecture, detects patterns from git history, and provides preflight context to agents via MCP, making it a context engineering tool rather than a coding agent or thin extension.
+  reason: >-
+    The core novelty is a context-shaping system that maps architecture, detects patterns from git history, and provides
+    preflight context to agents via MCP, making it a context engineering tool rather than a coding agent or thin
+    extension.
   evidence:
-    - "Repo description: 'Generate a map of your codebase to help AI Agents understand your architecture, coding conventions and patterns.'"
-    - "README: 'The first call shows architecture layers, active patterns, golden files... search does not just return code. Each result comes back with pattern signals, file relationships, and quality indicators.'"
-    - Topics and README emphasize context-engineering, MCP server, semantic-search, and local-first execution by default.
+    - >-
+      Repo description: 'Generate a map of your codebase to help AI Agents understand your architecture, coding
+      conventions and patterns.'
+    - >-
+      README: 'The first call shows architecture layers, active patterns, golden files... search does not just return
+      code. Each result comes back with pattern signals, file relationships, and quality indicators.'
+    - >-
+      Topics and README emphasize context-engineering, MCP server, semantic-search, and local-first execution by
+      default.
 placement:
-  primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  primary_category: memory-and-context
+  section: Retrieval & Fresh Docs
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.641Z"
+    updated_at: '2026-05-06T22:12:15.641Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:31.736Z"
+    updated_at: '2026-07-20T16:42:31.736Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

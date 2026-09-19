@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__boltmcp__boltmcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: wegotdocs/open-mcp
         extracted_url: https://github.com/wegotdocs/open-mcp
-        surrounding_text: "- [wegotdocs/open-mcp](https://github.com/wegotdocs/open-mcp) 📇 🏠 🍎 🪟 🐧 - Turn a web API into an MCP server in 10 seconds and add it to the open source registry: https://open-mcp.org"
+        surrounding_text: >-
+          - [wegotdocs/open-mcp](https://github.com/wegotdocs/open-mcp) 📇 🏠 🍎 🪟 🐧 - Turn a web API into an MCP
+          server in 10 seconds and add it to the open source registry: https://open-mcp.org
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: boltmcp/boltmcp
     html_url: https://github.com/boltmcp/boltmcp
-    created_at: "2025-03-27T14:40:31Z"
-    pushed_at: "2026-09-06T09:39:06Z"
+    created_at: '2025-03-27T14:40:31Z'
+    pushed_at: '2026-09-06T09:39:06Z'
     description: null
     homepage: https://install.boltmcp.io
     topics:
@@ -40,14 +42,20 @@ metadata:
       - mcp
       - mcp-server
       - skills
-    last_checked_at: "2026-09-07T04:13:36.627Z"
+    last_checked_at: '2026-09-07T04:13:36.627Z'
     readme:
-      fetched_at: "2026-09-07T04:13:36.627Z"
+      fetched_at: '2026-09-07T04:13:36.627Z'
       bytes: 994
 insights:
-  summary: BoltMCP is an enterprise-grade MCP orchestration platform for creating, deploying, and managing custom MCP servers on-premises.
-  why_it_matters: It enables developers to self-host and coordinate MCP servers with rich customization, OAuth 2 security, and Streamable HTTP transport for production environments.
-  mental_damage: Because nothing says 'enterprise-grade' like spinning up MCP servers on-the-fly while your Kubernetes cluster quietly weeps.
+  summary: >-
+    BoltMCP is an enterprise-grade MCP orchestration platform for creating, deploying, and managing custom MCP servers
+    on-premises.
+  why_it_matters: >-
+    It enables developers to self-host and coordinate MCP servers with rich customization, OAuth 2 security, and
+    Streamable HTTP transport for production environments.
+  mental_damage: >-
+    Because nothing says 'enterprise-grade' like spinning up MCP servers on-the-fly while your Kubernetes cluster
+    quietly weeps.
   tags:
     - mcp
     - orchestration
@@ -57,31 +65,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP-first platform for building and operating MCP servers, not a generic framework or extension, making it a clear fit for MCP Servers & Tooling.
+  reason: >-
+    The product identity is an MCP-first platform for building and operating MCP servers, not a generic framework or
+    extension, making it a clear fit for MCP Servers & Tooling.
   evidence:
-    - README defines it as 'an enterprise-grade MCP orchestration platform to create, deploy, and manage custom MCP servers on-premises.'
+    - >-
+      README defines it as 'an enterprise-grade MCP orchestration platform to create, deploy, and manage custom MCP
+      servers on-premises.'
     - Source list places it in awesome-mcp-servers under Server Implementations > Aggregators.
     - Bundles MCP client playground and official MCP Inspector, reinforcing MCP infrastructure identity.
 placement:
   primary_category: mcp
-  section: null
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'agent-orchestration'"
+  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''agent-orchestration'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:36.627Z"
+    updated_at: '2026-09-07T04:13:36.627Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:26:40.422Z"
+    updated_at: '2026-07-21T15:26:40.422Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -94,7 +107,9 @@ processing:
       input_hash: sha256:3877ed808bb8db451a9b9a50d41bc52f65bb2d2dfca96d59eaa586d9f4b94f5d
       proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: BoltMCP is a runtime platform for coordinating and deploying MCP servers, fitting the agent orchestration category as a control plane for multi-agent workflows.
+      decision_reason: >-
+        BoltMCP is a runtime platform for coordinating and deploying MCP servers, fitting the agent orchestration
+        category as a control plane for multi-agent workflows.
       decision_evidence:
         - README describes it as an 'enterprise-grade MCP orchestration platform'
         - Supports self-hosted Kubernetes deployments with Helm
@@ -102,6 +117,8 @@ processing:
       category_candidates:
         - agent-orchestration
         - mcp
-      contrastive_reason: Choose agent-orchestration over mcp because the primary identity is a runtime platform for coordinating MCP servers rather than MCP infrastructure itself.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'agent-orchestration'"
+      contrastive_reason: >-
+        Choose agent-orchestration over mcp because the primary identity is a runtime platform for coordinating MCP
+        servers rather than MCP infrastructure itself.
+      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''agent-orchestration'''
       review_resume_lifecycle: null

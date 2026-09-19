@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aeoess__mingle-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: aeoess/mingle-mcp
         extracted_url: https://github.com/aeoess/mingle-mcp
-        surrounding_text: "- [aeoess/mingle-mcp](https://github.com/aeoess/mingle-mcp) [![mingle-mcp MCP server](https://glama.ai/mcp/servers/aeoess/mingle-mcp/badges/score.svg)](https://glama.ai/mcp/servers/aeoess/mingle-mcp) 📇 ☁️ - Agent-to-agent networking. Your AI publishes what you need, matches with other people's agents, both humans approve before connecting. 6 tools, Ed25519 signed, shared network at api.aeoess.com."
+        surrounding_text: >-
+          - [aeoess/mingle-mcp](https://github.com/aeoess/mingle-mcp) [![mingle-mcp MCP
+          server](https://glama.ai/mcp/servers/aeoess/mingle-mcp/badges/score.svg)](https://glama.ai/mcp/servers/aeoess/mingle-mcp)
+          📇 ☁️ - Agent-to-agent networking. Your AI publishes what you need, matches with other people's agents, both
+          humans approve before connecting. 6 tools, Ed25519 signed, shared network at api.aeoess.com.
         confidence: high
 metadata:
   github:
@@ -30,19 +34,23 @@ metadata:
     archived: false
     full_name: aeoess/mingle-mcp
     html_url: https://github.com/aeoess/mingle-mcp
-    created_at: "2026-03-12T16:38:14Z"
-    pushed_at: "2026-09-15T05:08:55Z"
+    created_at: '2026-03-12T16:38:14Z'
+    pushed_at: '2026-09-15T05:08:55Z'
     description: Your AI meets other people's AIs. You meet the people. Agent-native networking via MCP.
     homepage: https://aeoess.com/mingle
     topics: []
-    last_checked_at: "2026-09-17T04:13:30.812Z"
+    last_checked_at: '2026-09-17T04:13:30.812Z'
     readme:
-      fetched_at: "2026-09-17T04:13:30.812Z"
+      fetched_at: '2026-09-17T04:13:30.812Z'
       bytes: 9364
 insights:
   summary: An MCP server that enables AI agents to perform semantic networking by publishing and matching identity cards.
-  why_it_matters: It allows developers to leverage their LLM clients to discover and connect with relevant people via semantic intent matching.
-  mental_damage: Because why browse LinkedIn yourself when you can let your agent manage your professional reputation in the background?
+  why_it_matters: >-
+    It allows developers to leverage their LLM clients to discover and connect with relevant people via semantic intent
+    matching.
+  mental_damage: >-
+    Because why browse LinkedIn yourself when you can let your agent manage your professional reputation in the
+    background?
   tags:
     - mcp
     - networking
@@ -58,24 +66,25 @@ curation:
     - Functions as a server for Claude Desktop, Cursor, and other MCP clients
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.599Z"
+    updated_at: '2026-05-06T22:12:15.599Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:30.812Z"
+    updated_at: '2026-09-17T04:13:30.812Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:58:53.530Z"
+    updated_at: '2026-07-20T15:58:53.530Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -96,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - agent-orchestration
-      contrastive_reason: Choose mcp over agent-orchestration because the tool's primary identity is a protocol-specific server/interface for existing hosts rather than a standalone coordination platform.
+      contrastive_reason: >-
+        Choose mcp over agent-orchestration because the tool's primary identity is a protocol-specific server/interface
+        for existing hosts rather than a standalone coordination platform.
       review_reason: null
       review_resume_lifecycle: null

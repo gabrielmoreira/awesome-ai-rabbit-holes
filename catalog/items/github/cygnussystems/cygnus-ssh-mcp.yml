@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cygnussystems__cygnus-ssh-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-23T05:08:37.088Z"
+      discovered_at: '2026-07-23T05:08:37.088Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,15 @@ provenance:
           - 🖥️ <a name="command-line"></a>Command Line
         anchor_text: cygnussystems/cygnus-ssh-mcp
         extracted_url: https://github.com/cygnussystems/cygnus-ssh-mcp
-        surrounding_text: "- [cygnussystems/cygnus-ssh-mcp](https://github.com/cygnussystems/cygnus-ssh-mcp) [![cygnussystems/cygnus-ssh-mcp MCP server](https://glama.ai/mcp/servers/cygnussystems/cygnus-ssh-mcp/badges/score.svg)](https://glama.ai/mcp/servers/cygnussystems/cygnus-ssh-mcp) 🐍 🏠 🍎 🪟 🐧 - MCP server for SSH-based control of remote Linux, macOS, and Windows servers with 46 purpose-built tools instead of one generic command-runner: line-level file editing (no download/edit/upload round-trip), background task launch/monitor/kill, real sudo support, host aliases, recursive directory ops, archive create/extract, and full Unicode via SFTP (avoids PowerShell OEM code page corruption on Windows targets). `pip install cygnus-ssh-mcp` or `uvx cygnus-ssh-mcp`."
+        surrounding_text: >-
+          - [cygnussystems/cygnus-ssh-mcp](https://github.com/cygnussystems/cygnus-ssh-mcp)
+          [![cygnussystems/cygnus-ssh-mcp MCP
+          server](https://glama.ai/mcp/servers/cygnussystems/cygnus-ssh-mcp/badges/score.svg)](https://glama.ai/mcp/servers/cygnussystems/cygnus-ssh-mcp)
+          🐍 🏠 🍎 🪟 🐧 - MCP server for SSH-based control of remote Linux, macOS, and Windows servers with 46
+          purpose-built tools instead of one generic command-runner: line-level file editing (no download/edit/upload
+          round-trip), background task launch/monitor/kill, real sudo support, host aliases, recursive directory ops,
+          archive create/extract, and full Unicode via SFTP (avoids PowerShell OEM code page corruption on Windows
+          targets). `pip install cygnus-ssh-mcp` or `uvx cygnus-ssh-mcp`.
         confidence: high
 metadata:
   github:
@@ -30,18 +38,20 @@ metadata:
     archived: false
     full_name: cygnussystems/cygnus-ssh-mcp
     html_url: https://github.com/cygnussystems/cygnus-ssh-mcp
-    created_at: "2026-03-23T11:26:02Z"
-    pushed_at: "2026-07-21T19:31:37Z"
+    created_at: '2026-03-23T11:26:02Z'
+    pushed_at: '2026-07-21T19:31:37Z'
     description: MCP server for SSH remote server management
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:32.728Z"
+    last_checked_at: '2026-09-14T04:13:32.728Z'
     readme:
-      fetched_at: "2026-09-14T04:13:32.728Z"
+      fetched_at: '2026-09-14T04:13:32.728Z'
       bytes: 26071
 insights:
   summary: MCP server for SSH remote server management with 46 specialized tools for AI agents.
-  why_it_matters: Enables AI assistants like Claude or OpenCode to directly manage Linux, macOS, and Windows servers via SSH with purpose-built tools for real-world sysadmin tasks.
+  why_it_matters: >-
+    Enables AI assistants like Claude or OpenCode to directly manage Linux, macOS, and Windows servers via SSH with
+    purpose-built tools for real-world sysadmin tasks.
   mental_damage: Finally, a way to let your AI assistant SSH into production without immediately regretting it.
   tags:
     - mcp
@@ -52,31 +62,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server with SSH management as its core identity, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product is explicitly an MCP server with SSH management as its core identity, fitting the MCP Servers & Tooling
+    category.
   evidence:
-    - "Repo description: 'MCP server for SSH remote server management'"
-    - "README: 'cygnus-ssh-mcp is an MCP server... exposing 46 purpose-built tools'"
-    - "Source-list context: Listed in awesome-mcp-servers under 'Server Implementations > Command Line'"
+    - 'Repo description: ''MCP server for SSH remote server management'''
+    - 'README: ''cygnus-ssh-mcp is an MCP server... exposing 46 purpose-built tools'''
+    - 'Source-list context: Listed in awesome-mcp-servers under ''Server Implementations > Command Line'''
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-23T05:08:37.090Z"
+    updated_at: '2026-07-23T05:08:37.090Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:32.728Z"
+    updated_at: '2026-09-14T04:13:32.728Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-01T14:32:25.140Z"
+    updated_at: '2026-09-01T14:32:25.140Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,15 +100,19 @@ processing:
       input_hash: sha256:45b6bd6331dbbb56db4273e588ae15e4b5bbc0103d847659a9dfafd7b89c3f98
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server with SSH management as its core identity, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product is explicitly an MCP server with SSH management as its core identity, fitting the MCP Servers &
+        Tooling category.
       decision_evidence:
-        - "Repo description: 'MCP server for SSH remote server management'"
-        - "README: 'cygnus-ssh-mcp is an MCP server... exposing 46 purpose-built tools'"
-        - "Source-list context: Listed in awesome-mcp-servers under 'Server Implementations > Command Line'"
+        - 'Repo description: ''MCP server for SSH remote server management'''
+        - 'README: ''cygnus-ssh-mcp is an MCP server... exposing 46 purpose-built tools'''
+        - 'Source-list context: Listed in awesome-mcp-servers under ''Server Implementations > Command Line'''
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary product identity is an MCP server, not an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary product identity is an MCP server, not an extension for
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

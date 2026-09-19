@@ -5,8 +5,9 @@ canonical_url: https://visualstudio.microsoft.com/services/intellicode
 identity: {}
 provenance:
   discoveries:
-    - id: discovery__visualstudio__microsoft__com__services__intellicode__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+    - id: >-
+        discovery__visualstudio__microsoft__com__services__intellicode__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +19,9 @@ provenance:
           - Code Completion
         anchor_text: Visual Studio IntelliCode
         extracted_url: https://visualstudio.microsoft.com/services/intellicode
-        surrounding_text: "- **[Visual Studio IntelliCode](https://visualstudio.microsoft.com/services/intellicode/)** – Microsoft's AI code completion for Visual Studio."
+        surrounding_text: >-
+          - **[Visual Studio IntelliCode](https://visualstudio.microsoft.com/services/intellicode/)** – Microsoft's AI
+          code completion for Visual Studio.
         confidence: high
 metadata:
   github:
@@ -37,7 +40,9 @@ metadata:
     readme: null
 insights:
   summary: Visual Studio IntelliCode is an AI-assisted code completion tool integrated into Visual Studio and VS Code.
-  why_it_matters: It speeds up coding by providing whole-line autocompletions and context-aware suggestions based on open-source patterns.
+  why_it_matters: >-
+    It speeds up coding by providing whole-line autocompletions and context-aware suggestions based on open-source
+    patterns.
   mental_damage: Finally, an AI that knows your variable names better than you do—until it doesn’t.
   tags:
     - code-completion
@@ -47,21 +52,29 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Although it is an extension/feature, IntelliCode is a first-party, core AI capability deeply integrated into the Visual Studio and VS Code editor surfaces, making it an editor-native assistant rather than a standalone coding agent or a thin third-party plugin.
+  reason: >-
+    Although it is an extension/feature, IntelliCode is a first-party, core AI capability deeply integrated into the
+    Visual Studio and VS Code editor surfaces, making it an editor-native assistant rather than a standalone coding
+    agent or a thin third-party plugin.
   evidence:
-    - Scraped site identifies it as 'AI-assisted development capabilities' integrated directly into Visual Studio and VS Code.
-    - Features include whole-line autocompletions, IntelliSense ranking, and refactoring assistance within the editor environment.
+    - >-
+      Scraped site identifies it as 'AI-assisted development capabilities' integrated directly into Visual Studio and VS
+      Code.
+    - >-
+      Features include whole-line autocompletions, IntelliSense ranking, and refactoring assistance within the editor
+      environment.
     - Listed in awesome-ai-coding-tools under the 'Code Completion' section, aligning with editor-native assistance.
 placement:
-  primary_category: ai-ides-editors
-  section: null
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: IDE & Editor Add-ons
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'ai-ides-editors', proposed 'ai-dev-extensions'"
+  reason: 'Categorization review required: placement disagreement: retained ''ai-ides-editors'', proposed ''ai-dev-extensions'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.666Z"
+    updated_at: '2026-05-06T22:12:15.666Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +83,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:38:46.387Z"
+    updated_at: '2026-07-21T15:38:46.387Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -83,7 +96,9 @@ processing:
       input_hash: sha256:8a0131c3a96dc27a5e4248928df248c581b8229b934afa41d31a0aac8d1381e1
       proposed_primary_category: ai-dev-extensions
       disagreement: true
-      decision_reason: IntelliCode is an extension that augments Visual Studio and VS Code with AI-assisted features rather than being a standalone coding assistant.
+      decision_reason: >-
+        IntelliCode is an extension that augments Visual Studio and VS Code with AI-assisted features rather than being
+        a standalone coding assistant.
       decision_evidence:
         - Described as 'AI-assisted development capabilities' integrated into Visual Studio and VS Code
         - Provides whole-line autocompletions and context-aware suggestions as an IDE add-on
@@ -91,6 +106,8 @@ processing:
       category_candidates:
         - ai-dev-extensions
         - coding-agents
-      contrastive_reason: Choose ai-dev-extensions over coding-agents because IntelliCode is an IDE extension that enhances existing editors rather than acting as a primary coding assistant.
-      review_reason: "Categorization review required: placement disagreement: retained 'ai-ides-editors', proposed 'ai-dev-extensions'"
+      contrastive_reason: >-
+        Choose ai-dev-extensions over coding-agents because IntelliCode is an IDE extension that enhances existing
+        editors rather than acting as a primary coding assistant.
+      review_reason: 'Categorization review required: placement disagreement: retained ''ai-ides-editors'', proposed ''ai-dev-extensions'''
       review_resume_lifecycle: null

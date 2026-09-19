@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__marzukia__charted__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-18T05:40:04.065Z"
+      discovered_at: '2026-06-18T05:40:04.065Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📊 <a name="data-visualization"></a>Data Visualization
         anchor_text: marzukia/charted
         extracted_url: https://github.com/marzukia/charted
-        surrounding_text: "- [marzukia/charted](https://github.com/marzukia/charted) [![marzukia/charted MCP server](https://glama.ai/mcp/servers/marzukia/charted/badges/score.svg)](https://glama.ai/mcp/servers/marzukia/charted) 🐍 🏠 🍎 🪟 🐧 - Zero-dependency chart server that renders bar, line, pie, scatter, and more from JSON or CSV to SVG, HTML, PNG, or data URL. Built-in themes; PNG output renders inline in chat. Install via `uvx --from charted[mcp] charted-mcp`."
+        surrounding_text: >-
+          - [marzukia/charted](https://github.com/marzukia/charted) [![marzukia/charted MCP
+          server](https://glama.ai/mcp/servers/marzukia/charted/badges/score.svg)](https://glama.ai/mcp/servers/marzukia/charted)
+          🐍 🏠 🍎 🪟 🐧 - Zero-dependency chart server that renders bar, line, pie, scatter, and more from JSON or CSV
+          to SVG, HTML, PNG, or data URL. Built-in themes; PNG output renders inline in chat. Install via `uvx --from
+          charted[mcp] charted-mcp`.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: marzukia/charted
     html_url: https://github.com/marzukia/charted
-    created_at: "2026-05-23T00:25:13Z"
-    pushed_at: "2026-07-12T06:36:03Z"
-    description: Charted is a zero dependency SVG chart generator that aims to provide a simple interface for generating beautiful and customisable graphs. This project is inspired by chart libraries like mermaid.js.
+    created_at: '2026-05-23T00:25:13Z'
+    pushed_at: '2026-07-12T06:36:03Z'
+    description: >-
+      Charted is a zero dependency SVG chart generator that aims to provide a simple interface for generating beautiful
+      and customisable graphs. This project is inspired by chart libraries like mermaid.js.
     homepage: https://charted.mrzk.io/
     topics:
       - ai-agents
@@ -44,14 +51,20 @@ metadata:
       - model-context-protocol
       - plots
       - svg
-    last_checked_at: "2026-08-03T05:16:57.209Z"
+    last_checked_at: '2026-08-03T05:16:57.209Z'
     readme:
-      fetched_at: "2026-08-03T05:16:57.209Z"
+      fetched_at: '2026-08-03T05:16:57.209Z'
       bytes: 28339
 insights:
-  summary: A zero-dependency Python library for generating SVG and PNG charts, featuring an integrated MCP server for agentic data visualization.
-  why_it_matters: It provides a lightweight way for both standard Python scripts and AI agents to generate visual charts without the overhead of heavy dependencies like pandas or numpy.
-  mental_damage: The illusion of simplicity until you realize your agent has entered a recursive loop of trying to style a Sankey diagram.
+  summary: >-
+    A zero-dependency Python library for generating SVG and PNG charts, featuring an integrated MCP server for agentic
+    data visualization.
+  why_it_matters: >-
+    It provides a lightweight way for both standard Python scripts and AI agents to generate visual charts without the
+    overhead of heavy dependencies like pandas or numpy.
+  mental_damage: >-
+    The illusion of simplicity until you realize your agent has entered a recursive loop of trying to style a Sankey
+    diagram.
   tags:
     - python
     - mcp
@@ -60,32 +73,31 @@ insights:
     - agents
   confidence: high
 curation:
-  status: included
-  reason: It provides a specialized MCP server that enables AI agents to perform data visualization, fitting the domain server pattern.
+  status: pending
+  reason: 'Manual audit: Primary identity is a Python charting library; MCP is incidental.'
   evidence:
-    - Zero-dependency Python library for SVG/PNG charts
-    - Provides a one-line MCP server via `uvx`
-    - Includes a Claude skill for agentic use
+    - Manual review of Jev Middleware & Generic audit, 2026-09-19
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-18T05:40:04.066Z"
+    updated_at: '2026-06-18T05:40:04.066Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:57.209Z"
+    updated_at: '2026-08-03T05:16:57.209Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-06T05:40:18.068Z"
+    updated_at: '2026-07-06T05:40:18.068Z'
     cause: null
     next_retry_at: null
     attempts: 1

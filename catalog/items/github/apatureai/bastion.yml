@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__apatureai__bastion__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-09-14T04:13:20.171Z"
+      discovered_at: '2026-09-14T04:13:20.171Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: apatureai/bastion
         extracted_url: https://github.com/apatureai/bastion
-        surrounding_text: "- [apatureai/bastion](https://github.com/apatureai/bastion) [![apatureai/bastion MCP server](https://glama.ai/mcp/servers/apatureai/bastion/badges/score.svg)](https://glama.ai/mcp/servers/apatureai/bastion) 📇 🏠 - In-loop design review of rendered UI for coding agents: submit a preview URL, get grounded findings with element references, then recheck the fix. Read-only by design — never edits code. OAuth 2.1 and SSRF-safe URL handling reference implementation. `npx -y @apatureai/bastion`"
+        surrounding_text: >-
+          - [apatureai/bastion](https://github.com/apatureai/bastion) [![apatureai/bastion MCP
+          server](https://glama.ai/mcp/servers/apatureai/bastion/badges/score.svg)](https://glama.ai/mcp/servers/apatureai/bastion)
+          📇 🏠 - In-loop design review of rendered UI for coding agents: submit a preview URL, get grounded findings
+          with element references, then recheck the fix. Read-only by design — never edits code. OAuth 2.1 and SSRF-safe
+          URL handling reference implementation. `npx -y @apatureai/bastion`
         confidence: high
 metadata:
   github:
@@ -30,10 +35,12 @@ metadata:
     archived: false
     full_name: apatureai/bastion
     html_url: https://github.com/apatureai/bastion
-    created_at: "2026-08-10T01:10:06Z"
-    pushed_at: "2026-09-07T22:36:21Z"
-    description: A remote MCP server for in-loop design review, and a worked reference for OAuth 2.1 auth, SSRF-safe URL handling, and long-running jobs over MCP.
-    homepage: ""
+    created_at: '2026-08-10T01:10:06Z'
+    pushed_at: '2026-09-07T22:36:21Z'
+    description: >-
+      A remote MCP server for in-loop design review, and a worked reference for OAuth 2.1 auth, SSRF-safe URL handling,
+      and long-running jobs over MCP.
+    homepage: ''
     topics:
       - ai-agents
       - design-review
@@ -43,14 +50,18 @@ metadata:
       - oauth2
       - ssrf
       - typescript
-    last_checked_at: "2026-09-14T04:13:22.679Z"
+    last_checked_at: '2026-09-14T04:13:22.679Z'
     readme:
-      fetched_at: "2026-09-14T04:13:22.679Z"
+      fetched_at: '2026-09-14T04:13:22.679Z'
       bytes: 19094
 insights:
   summary: An MCP server that enables coding agents to perform in-loop design reviews by analyzing rendered UIs.
-  why_it_matters: It closes the feedback loop for agents by allowing them to visually verify their code changes against a live preview.
-  mental_damage: Because your agent doesn't just write code anymore; it now critiques your CSS with the unearned confidence of a senior designer.
+  why_it_matters: >-
+    It closes the feedback loop for agents by allowing them to visually verify their code changes against a live
+    preview.
+  mental_damage: >-
+    Because your agent doesn't just write code anymore; it now critiques your CSS with the unearned confidence of a
+    senior designer.
   tags:
     - mcp
     - design-review
@@ -59,31 +70,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's primary identity is an MCP server designed to provide a specialized domain capability (UI design review) to agent hosts.
+  reason: >-
+    The tool's primary identity is an MCP server designed to provide a specialized domain capability (UI design review)
+    to agent hosts.
   evidence:
     - Explicitly identifies as an MCP server in the README
     - Provides visual verification by acting as the 'eyes' for a coding agent
     - Delivers structured findings like viewport, element refs, and suggested fixes
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-14T04:13:20.172Z"
+    updated_at: '2026-09-14T04:13:20.172Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:22.679Z"
+    updated_at: '2026-09-14T04:13:22.679Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-14T04:17:01.763Z"
+    updated_at: '2026-09-14T04:17:01.763Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -92,7 +106,9 @@ processing:
       input_hash: sha256:b624730971bb8c493f5ff65a1b505d1b5290584031e2f5bcd41ba6ba1a3641c0
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The tool's primary identity is an MCP server designed to provide a specialized domain capability (UI design review) to agent hosts.
+      decision_reason: >-
+        The tool's primary identity is an MCP server designed to provide a specialized domain capability (UI design
+        review) to agent hosts.
       decision_evidence:
         - Explicitly identifies as an MCP server in the README
         - Provides visual verification by acting as the 'eyes' for a coding agent
@@ -100,7 +116,9 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is architected and distributed specifically as an MCP server providing a domain-specific service.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is architected and distributed specifically as an MCP
+        server providing a domain-specific service.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

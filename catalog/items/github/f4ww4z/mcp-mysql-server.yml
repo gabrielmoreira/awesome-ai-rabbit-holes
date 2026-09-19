@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__f4ww4z__mcp-mysql-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: f4ww4z/mcp-mysql-server
         extracted_url: https://github.com/f4ww4z/mcp-mysql-server
-        surrounding_text: "- [f4ww4z/mcp-mysql-server](https://github.com/f4ww4z/mcp-mysql-server) 📇 🏠 - Node.js-based MySQL database integration that provides secure MySQL database operations"
+        surrounding_text: >-
+          - [f4ww4z/mcp-mysql-server](https://github.com/f4ww4z/mcp-mysql-server) 📇 🏠 - Node.js-based MySQL database
+          integration that provides secure MySQL database operations
         confidence: high
     - id: discovery__github__f4ww4z__mcp-mysql-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - 🗄️ Databases
         anchor_text: f4ww4z/mcp-mysql-server
         extracted_url: https://github.com/f4ww4z/mcp-mysql-server
-        surrounding_text: "-   **[f4ww4z/mcp-mysql-server](https://github.com/f4ww4z/mcp-mysql-server)** [![GitHub stars](https://img.shields.io/github/stars/f4ww4z/mcp-mysql-server?style=social)](https://github.com/f4ww4z/mcp-mysql-server): Offers secure MySQL database interaction."
+        surrounding_text: >-
+          -   **[f4ww4z/mcp-mysql-server](https://github.com/f4ww4z/mcp-mysql-server)** [![GitHub
+          stars](https://img.shields.io/github/stars/f4ww4z/mcp-mysql-server?style=social)](https://github.com/f4ww4z/mcp-mysql-server):
+          Offers secure MySQL database interaction.
         confidence: high
 metadata:
   github:
@@ -45,19 +50,23 @@ metadata:
     archived: false
     full_name: f4ww4z/mcp-mysql-server
     html_url: https://github.com/f4ww4z/mcp-mysql-server
-    created_at: "2024-12-13T09:39:28Z"
-    pushed_at: "2025-11-14T08:30:28Z"
+    created_at: '2024-12-13T09:39:28Z'
+    pushed_at: '2025-11-14T08:30:28Z'
     description: A Model Context Protocol server for MySQL database operations
     homepage: null
     topics: []
-    last_checked_at: "2026-08-27T09:23:27.329Z"
+    last_checked_at: '2026-08-27T09:23:27.329Z'
     readme:
-      fetched_at: "2026-08-27T09:23:27.329Z"
+      fetched_at: '2026-08-27T09:23:27.329Z'
       bytes: 4367
 insights:
   summary: An MCP server that enables AI models to perform CRUD operations and inspect schemas on MySQL databases.
-  why_it_matters: It gives LLMs direct, standardized access to relational database state, allowing them to query, update, and explore schemas within a chat interface or IDE.
-  mental_damage: There is no greater thrill than watching an LLM attempt to solve a production bug by hallucinating a SQL join on a table it just discovered.
+  why_it_matters: >-
+    It gives LLMs direct, standardized access to relational database state, allowing them to query, update, and explore
+    schemas within a chat interface or IDE.
+  mental_damage: >-
+    There is no greater thrill than watching an LLM attempt to solve a production bug by hallucinating a SQL join on a
+    table it just discovered.
   tags:
     - mcp
     - mysql
@@ -67,31 +76,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool is a specialized server designed specifically for the Model Context Protocol to expose MySQL capabilities to LLM clients.
+  reason: >-
+    The tool is a specialized server designed specifically for the Model Context Protocol to expose MySQL capabilities
+    to LLM clients.
   evidence:
     - Repo description identifies it as an 'MCP server for MySQL database operations'
     - README details specific MCP tools like connect_db, query, and describe_table
     - Fits the 'Domain Servers' section of the MCP category by providing domain-specific database logic
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: promotion_candidate
   reason: Stars (157) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.585Z"
+    updated_at: '2026-05-06T22:12:15.585Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:27.329Z"
+    updated_at: '2026-08-27T09:23:27.329Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:54:45.580Z"
+    updated_at: '2026-07-21T15:54:45.580Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,7 +116,9 @@ processing:
       input_hash: sha256:1b866063812dea89ad26ca2fb978dfdf28702137caa718f7bdbde8edce1d5fb0
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The tool is a specialized server designed specifically for the Model Context Protocol to expose MySQL capabilities to LLM clients.
+      decision_reason: >-
+        The tool is a specialized server designed specifically for the Model Context Protocol to expose MySQL
+        capabilities to LLM clients.
       decision_evidence:
         - Repo description identifies it as an 'MCP server for MySQL database operations'
         - README details specific MCP tools like connect_db, query, and describe_table
@@ -112,6 +126,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the project's primary identity is a protocol server providing standardized tool definitions rather than a host-side extension for a specific IDE.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the project's primary identity is a protocol server providing
+        standardized tool definitions rather than a host-side extension for a specific IDE.
       review_reason: null
       review_resume_lifecycle: null

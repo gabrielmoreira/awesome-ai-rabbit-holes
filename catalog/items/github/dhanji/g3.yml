@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dhanji__g3__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Open Source
         anchor_text: g3
         extracted_url: https://github.com/dhanji/g3
-        surrounding_text: "- **[g3](https://github.com/dhanji/g3)** `⭐ 509` — \"Coding AI agent\" in Rust: tool-running, repo interaction, skills system, and provider abstraction."
+        surrounding_text: >-
+          - **[g3](https://github.com/dhanji/g3)** `⭐ 509` — "Coding AI agent" in Rust: tool-running, repo interaction,
+          skills system, and provider abstraction.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,25 @@ metadata:
     archived: false
     full_name: dhanji/g3
     html_url: https://github.com/dhanji/g3
-    created_at: "2025-09-14T23:04:26Z"
-    pushed_at: "2026-09-06T10:53:32Z"
+    created_at: '2025-09-14T23:04:26Z'
+    pushed_at: '2026-09-06T10:53:32Z'
     description: experiments in goose
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:40.002Z"
+    last_checked_at: '2026-09-14T04:13:40.002Z'
     readme:
-      fetched_at: "2026-09-14T04:13:40.002Z"
+      fetched_at: '2026-09-14T04:13:40.002Z'
       bytes: 21084
 insights:
-  summary: g3 is a Rust-based AI coding agent that plans, writes, and executes code tasks with modular architecture and multi-provider LLM support.
-  why_it_matters: It offers developers a terminal-native assistant with built-in tooling for file operations, shell commands, and computer control, plus intelligent context management and error handling.
-  mental_damage: Finally, an AI agent that can stutter-detect its own tool calls—because nothing says 'production-ready' like preventing your LLM from Ctrl-C/V-ing itself into a loop.
+  summary: >-
+    g3 is a Rust-based AI coding agent that plans, writes, and executes code tasks with modular architecture and
+    multi-provider LLM support.
+  why_it_matters: >-
+    It offers developers a terminal-native assistant with built-in tooling for file operations, shell commands, and
+    computer control, plus intelligent context management and error handling.
+  mental_damage: >-
+    Finally, an AI agent that can stutter-detect its own tool calls—because nothing says 'production-ready' like
+    preventing your LLM from Ctrl-C/V-ing itself into a loop.
   tags:
     - coding-agent
     - rust
@@ -52,13 +60,16 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: g3 is a standalone coding assistant with direct repo interaction, task execution, and multi-provider LLM integration, fitting the primary identity of a coding agent.
+  reason: >-
+    g3 is a standalone coding assistant with direct repo interaction, task execution, and multi-provider LLM
+    integration, fitting the primary identity of a coding agent.
   evidence:
     - README describes it as a 'coding AI agent' with file operations, shell commands, and task automation
     - Source-list context places it under 'Terminal-native coding agents > Open Source'
     - Modular Rust workspace with core agent engine, provider abstraction, and CLI interface
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -66,17 +77,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.611Z"
+    updated_at: '2026-05-06T22:12:15.611Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:40.002Z"
+    updated_at: '2026-09-14T04:13:40.002Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:50:49.427Z"
+    updated_at: '2026-07-21T15:50:49.427Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +100,9 @@ processing:
       input_hash: sha256:56cc261ea645bf97a58318a89343bf3be1b5af64654e229754f88762b8a14d63
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: g3 is a standalone coding assistant with direct repo interaction, task execution, and multi-provider LLM integration, fitting the primary identity of a coding agent.
+      decision_reason: >-
+        g3 is a standalone coding assistant with direct repo interaction, task execution, and multi-provider LLM
+        integration, fitting the primary identity of a coding agent.
       decision_evidence:
         - README describes it as a 'coding AI agent' with file operations, shell commands, and task automation
         - Source-list context places it under 'Terminal-native coding agents > Open Source'
@@ -97,6 +110,8 @@ processing:
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because g3 is a primary coding assistant, not an extension augmenting another host tool.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because g3 is a primary coding assistant, not an extension
+        augmenting another host tool.
       review_reason: null
       review_resume_lifecycle: null

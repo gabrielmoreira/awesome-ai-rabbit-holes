@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alebgl77__ftp-deploy-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-23T05:08:37.088Z"
+      discovered_at: '2026-07-23T05:08:37.088Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📂 <a name="file-systems"></a>File Systems
         anchor_text: alebgl77/ftp-deploy-mcp
         extracted_url: https://github.com/alebgl77/ftp-deploy-mcp
-        surrounding_text: "- [alebgl77/ftp-deploy-mcp](https://github.com/alebgl77/ftp-deploy-mcp) [![alebgl77/ftp-deploy-mcp MCP server](https://glama.ai/mcp/servers/alebgl77/ftp-deploy-mcp/badges/score.svg)](https://glama.ai/mcp/servers/alebgl77/ftp-deploy-mcp) 📇 🏠 🍎 🪟 🐧 - Deploy files from AI agents to your own FTP/FTPS/SFTP servers — multi-server config, recursive deploy with dry-run and gitignore-like excludes, per-server path jail and read-only mode, FileZilla import, one-command setup for popular MCP clients."
+        surrounding_text: >-
+          - [alebgl77/ftp-deploy-mcp](https://github.com/alebgl77/ftp-deploy-mcp) [![alebgl77/ftp-deploy-mcp MCP
+          server](https://glama.ai/mcp/servers/alebgl77/ftp-deploy-mcp/badges/score.svg)](https://glama.ai/mcp/servers/alebgl77/ftp-deploy-mcp)
+          📇 🏠 🍎 🪟 🐧 - Deploy files from AI agents to your own FTP/FTPS/SFTP servers — multi-server config,
+          recursive deploy with dry-run and gitignore-like excludes, per-server path jail and read-only mode, FileZilla
+          import, one-command setup for popular MCP clients.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: alebgl77/ftp-deploy-mcp
     html_url: https://github.com/alebgl77/ftp-deploy-mcp
-    created_at: "2026-07-20T15:49:45Z"
-    pushed_at: "2026-09-14T16:38:45Z"
-    description: MCP server to deploy, inspect and transfer files over FTP/FTPS/SFTP from AI coding agents. Local confinement, SFTP host-key pinning, verified staged promotion, read-only mode and dry runs. Bilingual EN/FR.
+    created_at: '2026-07-20T15:49:45Z'
+    pushed_at: '2026-09-14T16:38:45Z'
+    description: >-
+      MCP server to deploy, inspect and transfer files over FTP/FTPS/SFTP from AI coding agents. Local confinement, SFTP
+      host-key pinning, verified staged promotion, read-only mode and dry runs. Bilingual EN/FR.
     homepage: https://github.com/alebgl77/ftp-deploy-mcp/releases/latest
     topics:
       - ai-agents
@@ -55,14 +62,18 @@ metadata:
       - sftp
       - shared-hosting
       - windsurf
-    last_checked_at: "2026-09-17T04:13:38.557Z"
+    last_checked_at: '2026-09-17T04:13:38.557Z'
     readme:
-      fetched_at: "2026-09-17T04:13:38.557Z"
+      fetched_at: '2026-09-17T04:13:38.557Z'
       bytes: 24272
 insights:
   summary: An MCP server that enables AI coding agents to deploy files via FTP, FTPS, or SFTP.
-  why_it_matters: It bridges the gap between modern AI coding agents and legacy web hosting environments that rely on traditional file transfer protocols rather than Git-based workflows.
-  mental_damage: Because the ultimate endgame for agentic software engineering is still teaching an LLM how to navigate a 2005-era FTP directory.
+  why_it_matters: >-
+    It bridges the gap between modern AI coding agents and legacy web hosting environments that rely on traditional file
+    transfer protocols rather than Git-based workflows.
+  mental_damage: >-
+    Because the ultimate endgame for agentic software engineering is still teaching an LLM how to navigate a 2005-era
+    FTP directory.
   tags:
     - mcp
     - ftp
@@ -72,31 +83,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is a Model Context Protocol server designed to expose deployment tools to any compatible agent.
+  reason: >-
+    The project's primary identity is a Model Context Protocol server designed to expose deployment tools to any
+    compatible agent.
   evidence:
     - README explicitly defines the project as an MCP server exposing 10 tools
     - It provides a standardized interface for multiple clients including Claude Code, Cursor, and Windsurf
     - The core functionality is a protocol-based server for FTP/SFTP operations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-23T05:08:37.090Z"
+    updated_at: '2026-07-23T05:08:37.090Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:38.557Z"
+    updated_at: '2026-09-17T04:13:38.557Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:24:01.431Z"
+    updated_at: '2026-08-27T06:24:01.431Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -105,7 +119,9 @@ processing:
       input_hash: sha256:c0c539973a911353f3fd78106b46c3aa2019f24be319f41068976e005ed22d22
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's primary identity is a Model Context Protocol server designed to expose deployment tools to any compatible agent.
+      decision_reason: >-
+        The project's primary identity is a Model Context Protocol server designed to expose deployment tools to any
+        compatible agent.
       decision_evidence:
         - README explicitly defines the project as an MCP server exposing 10 tools
         - It provides a standardized interface for multiple clients including Claude Code, Cursor, and Windsurf
@@ -113,7 +129,9 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's identity is a standardized protocol server rather than a host-specific plugin or integration.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool's identity is a standardized protocol server rather than a
+        host-specific plugin or integration.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

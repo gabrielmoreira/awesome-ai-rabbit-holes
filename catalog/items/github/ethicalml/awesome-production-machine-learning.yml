@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ethicalml__awesome-production-machine-learning__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,12 @@ provenance:
           - Awesome Lists
         anchor_text: Awesome Production Machine Learning
         extracted_url: https://github.com/ethicalml/awesome-production-machine-learning
-        surrounding_text: "| [Awesome Production Machine Learning](https://github.com/EthicalML/awesome-production-machine-learning) | A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning                       | ![GitHub Badge](https://img.shields.io/github/stars/EthicalML/awesome-production-machine-learning.svg?style=flat-square) |"
+        surrounding_text: >-
+          | [Awesome Production Machine Learning](https://github.com/EthicalML/awesome-production-machine-learning) | A
+          curated list of awesome open source libraries to deploy, monitor, version and scale your machine
+          learning                       | ![GitHub
+          Badge](https://img.shields.io/github/stars/EthicalML/awesome-production-machine-learning.svg?style=flat-square)
+          |
         confidence: high
 metadata:
   github:
@@ -29,8 +34,8 @@ metadata:
     archived: false
     full_name: EthicalML/awesome-production-machine-learning
     html_url: https://github.com/EthicalML/awesome-production-machine-learning
-    created_at: "2018-08-15T14:28:41Z"
-    pushed_at: "2026-08-26T05:40:57Z"
+    created_at: '2018-08-15T14:28:41Z'
+    pushed_at: '2026-08-26T05:40:57Z'
     description: A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning
     homepage: https://ethicalml.github.io/awesome-production-machine-learning
     topics:
@@ -53,14 +58,18 @@ metadata:
       - production-machine-learning
       - production-ml
       - responsible-ai
-    last_checked_at: "2026-08-27T09:23:25.780Z"
+    last_checked_at: '2026-08-27T09:23:25.780Z'
     readme:
-      fetched_at: "2026-08-27T09:23:25.780Z"
+      fetched_at: '2026-08-27T09:23:25.780Z'
       bytes: 158176
 insights:
   summary: A curated list of open source libraries for deploying, monitoring, versioning, and scaling machine learning models.
-  why_it_matters: It provides a structured map of the MLOps ecosystem, helping developers navigate the complex landscape of production-grade ML infrastructure.
-  mental_damage: Another curated list to add to the growing pile of 'ust-reads' that will inevitably be outdated by next month's breakthrough.
+  why_it_matters: >-
+    It provides a structured map of the MLOps ecosystem, helping developers navigate the complex landscape of
+    production-grade ML infrastructure.
+  mental_damage: >-
+    Another curated list to add to the growing pile of 'ust-reads' that will inevitably be outdated by next month's
+    breakthrough.
   tags:
     - mlops
     - machine-learning
@@ -69,32 +78,31 @@ insights:
     - open-source
   confidence: high
 curation:
-  status: included
-  reason: The project is a comprehensive directory designed to help developers discover tools within the MLOps ecosystem.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - README explicitly describes it as a 'curated list of awesome open source libraries'
-    - high star count (20,781) indicating established community trust and maintenance
-    - Contains structured sections for navigating the ML toolchain
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (20499) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:25.780Z"
+    updated_at: '2026-08-27T09:23:25.780Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:53:27.469Z"
+    updated_at: '2026-07-21T15:53:27.469Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -115,6 +123,8 @@ processing:
       category_candidates:
         - awesome-awesomes
         - evals
-      contrastive_reason: Choose awesome-awesomes over evals because the project is a collection of resources rather than a specialized framework for measuring model behavior.
+      contrastive_reason: >-
+        Choose awesome-awesomes over evals because the project is a collection of resources rather than a specialized
+        framework for measuring model behavior.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tabbyml__tabby__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,10 +19,13 @@ provenance:
           - Code AI
         anchor_text: tabby
         extracted_url: https://github.com/tabbyml/tabby
-        surrounding_text: "| [tabby](https://github.com/TabbyML/tabby)           | Self-hosted AI coding assistant. An opensource / on-prem alternative to GitHub Copilot.                  | ![GitHub Badge](https://img.shields.io/github/stars/TabbyML/tabby.svg?style=flat-square)        |"
+        surrounding_text: >-
+          | [tabby](https://github.com/TabbyML/tabby)           | Self-hosted AI coding assistant. An opensource /
+          on-prem alternative to GitHub Copilot.                  | ![GitHub
+          Badge](https://img.shields.io/github/stars/TabbyML/tabby.svg?style=flat-square)        |
         confidence: high
     - id: discovery__github__tabbyml__tabby__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,7 +37,9 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Tabby
         extracted_url: https://tabby.tabbyml.com
-        surrounding_text: "- **[Tabby](https://tabby.tabbyml.com/)** – Self-hosted, open-source AI coding assistant you can run on your own infrastructure."
+        surrounding_text: >-
+          - **[Tabby](https://tabby.tabbyml.com/)** – Self-hosted, open-source AI coding assistant you can run on your
+          own infrastructure.
         confidence: high
 metadata:
   github:
@@ -44,8 +49,8 @@ metadata:
     archived: false
     full_name: TabbyML/tabby
     html_url: https://github.com/TabbyML/tabby
-    created_at: "2023-03-16T09:18:01Z"
-    pushed_at: "2026-06-30T20:38:02Z"
+    created_at: '2023-03-16T09:18:01Z'
+    pushed_at: '2026-06-30T20:38:02Z'
     description: Self-hosted AI coding assistant
     homepage: https://tabbyml.com
     topics:
@@ -58,14 +63,20 @@ metadata:
       - gen-ai
       - ide
       - llms
-    last_checked_at: "2026-07-21T15:20:38.909Z"
+    last_checked_at: '2026-07-21T15:20:38.909Z'
     readme:
-      fetched_at: "2026-07-21T15:20:38.909Z"
+      fetched_at: '2026-07-21T15:20:38.909Z'
       bytes: 9981
 insights:
-  summary: Tabby is a self-hosted, open-source AI coding assistant that runs locally or on-premises to provide code completion and chat capabilities similar to GitHub Copilot.
-  why_it_matters: It allows teams to run AI-assisted coding entirely within their own infrastructure, supporting consumer-grade GPUs and integrating directly into IDEs without relying on third-party cloud services.
-  mental_damage: Finally, you can spend three days configuring a self-hosted inference stack just to recreate the experience of typing half a line of code before the model suggests the other half.
+  summary: >-
+    Tabby is a self-hosted, open-source AI coding assistant that runs locally or on-premises to provide code completion
+    and chat capabilities similar to GitHub Copilot.
+  why_it_matters: >-
+    It allows teams to run AI-assisted coding entirely within their own infrastructure, supporting consumer-grade GPUs
+    and integrating directly into IDEs without relying on third-party cloud services.
+  mental_damage: >-
+    Finally, you can spend three days configuring a self-hosted inference stack just to recreate the experience of
+    typing half a line of code before the model suggests the other half.
   tags:
     - self-hosted
     - coding-assistant
@@ -75,35 +86,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Tabby is a primary coding assistant product that developers delegate code completion and chat to within their IDE, fitting the Coding Agents identity better than a local runtime or extension.
+  reason: >-
+    Tabby is a primary coding assistant product that developers delegate code completion and chat to within their IDE,
+    fitting the Coding Agents identity better than a local runtime or extension.
   evidence:
     - Repo description explicitly states 'Self-hosted AI coding assistant'.
-    - README positions it as 'an open-source and on-premises alternative to GitHub Copilot' with chat and completion features.
+    - >-
+      README positions it as 'an open-source and on-premises alternative to GitHub Copilot' with chat and completion
+      features.
     - Active development with recent pushes (2026-03-02) and integration with VSCode as a primary assistant surface.
 placement:
   primary_category: coding-agents
-  section: IDE-Native Assistants
+  secondary_categories: []
+  section: IDE-Native & Editor Agents
 lifecycle:
   status: promotion_candidate
   reason: Stars (33486) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.594Z"
+    updated_at: '2026-05-06T22:12:15.594Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:38.909Z"
+    updated_at: '2026-07-21T15:20:38.909Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

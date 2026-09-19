@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__apify__apify-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Official Servers
         anchor_text: Apify
         extracted_url: https://github.com/apify/actors-mcp-server
-        surrounding_text: "- **[Apify](https://github.com/apify/actors-mcp-server)** - [Actors MCP Server](https://apify.com/apify/actors-mcp-server): Use 3,000+ pre-built cloud tools to extract data from websites, e-commerce, social media, search engines, maps, and more"
+        surrounding_text: >-
+          - **[Apify](https://github.com/apify/actors-mcp-server)** - [Actors MCP
+          Server](https://apify.com/apify/actors-mcp-server): Use 3,000+ pre-built cloud tools to extract data from
+          websites, e-commerce, social media, search engines, maps, and more
         confidence: high
 metadata:
   github:
@@ -29,23 +32,32 @@ metadata:
     archived: false
     full_name: apify/apify-mcp-server
     html_url: https://github.com/apify/apify-mcp-server
-    created_at: "2025-01-02T15:43:09Z"
-    pushed_at: "2026-09-09T13:34:46Z"
-    description: The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerce sites, or any other website using thousands of ready-made scrapers, crawlers, and automation tools available on the Apify Store.
+    created_at: '2025-01-02T15:43:09Z'
+    pushed_at: '2026-09-09T13:34:46Z'
+    description: >-
+      The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerce
+      sites, or any other website using thousands of ready-made scrapers, crawlers, and automation tools available on
+      the Apify Store.
     homepage: https://mcp.apify.com
     topics:
       - agents
       - ai
       - mcp
       - mcp-server
-    last_checked_at: "2026-09-10T04:12:56.704Z"
+    last_checked_at: '2026-09-10T04:12:56.704Z'
     readme:
-      fetched_at: "2026-09-10T04:12:56.704Z"
+      fetched_at: '2026-09-10T04:12:56.704Z'
       bytes: 33362
 insights:
-  summary: An MCP server that enables AI agents to use Apify's library of web scrapers, crawlers, and automation tools via the Model Context Protocol.
-  why_it_matters: Developers can integrate thousands of ready-made Apify Actors into their AI workflows to extract structured data from websites without writing custom scrapers.
-  mental_damage: Now your AI agent can spin up a Google Maps scraper between debugging sessions, because why should humans have all the fun of rate limits and CAPTCHAs.
+  summary: >-
+    An MCP server that enables AI agents to use Apify's library of web scrapers, crawlers, and automation tools via the
+    Model Context Protocol.
+  why_it_matters: >-
+    Developers can integrate thousands of ready-made Apify Actors into their AI workflows to extract structured data
+    from websites without writing custom scrapers.
+  mental_damage: >-
+    Now your AI agent can spin up a Google Maps scraper between debugging sessions, because why should humans have all
+    the fun of rate limits and CAPTCHAs.
   tags:
     - mcp
     - web-scraping
@@ -55,31 +67,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: this is a dedicated MCP server exposing Apify's ecosystem as MCP tools."
+  reason: 'MCP is the product identity here: this is a dedicated MCP server exposing Apify''s ecosystem as MCP tools.'
   evidence:
     - Repo description explicitly identifies it as an MCP server
     - README emphasizes MCP compatibility and hosted server at mcp.apify.com
     - Listed in awesome-mcp-servers under 'Official Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: promotion_candidate
   reason: Stars (1190) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.603Z"
+    updated_at: '2026-05-06T22:12:15.603Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:12:56.704Z"
+    updated_at: '2026-09-10T04:12:56.704Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:23:36.002Z"
+    updated_at: '2026-07-21T15:23:36.002Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -92,7 +105,7 @@ processing:
       input_hash: sha256:e0d880612ca263aa95f2b6d42237300192b37b78d2d04d1a2942d45f25eb9efd
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: this is a dedicated MCP server exposing Apify's ecosystem as MCP tools."
+      decision_reason: 'MCP is the product identity here: this is a dedicated MCP server exposing Apify''s ecosystem as MCP tools.'
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server
         - README emphasizes MCP compatibility and hosted server at mcp.apify.com
@@ -100,6 +113,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing Apify tools, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server exposing Apify tools, not an
+        extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

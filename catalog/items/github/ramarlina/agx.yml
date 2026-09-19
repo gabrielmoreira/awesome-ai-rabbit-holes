@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ramarlina__agx__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,13 @@ provenance:
           - Orchestrators & autonomous loops
         anchor_text: agx
         extracted_url: https://github.com/ramarlina/agx
-        surrounding_text: "- **[agx](https://github.com/ramarlina/agx)** `⭐ 20` — Checkpoint-based execution engine for AI coding agents; durable Wake→Work→Sleep loops that resume instantly across sessions. Supports Claude Code, Codex CLI, Gemini CLI, and Ollama. CLI + web dashboard + macOS app."
+        surrounding_text: >-
+          - **[agx](https://github.com/ramarlina/agx)** `⭐ 20` — Checkpoint-based execution engine for AI coding agents;
+          durable Wake→Work→Sleep loops that resume instantly across sessions. Supports Claude Code, Codex CLI, Gemini
+          CLI, and Ollama. CLI + web dashboard + macOS app.
         confidence: high
     - id: discovery__github__ramarlina__agx__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -35,7 +38,10 @@ provenance:
           - CLI Tools
         anchor_text: agx
         extracted_url: https://github.com/ramarlina/agx
-        surrounding_text: "- **[agx](https://github.com/ramarlina/agx)** – Checkpoint-based execution engine for AI coding agents; durable Wake→Work→Sleep loops that resume across sessions. Supports Claude Code, Codex, Gemini CLI, and Ollama."
+        surrounding_text: >-
+          - **[agx](https://github.com/ramarlina/agx)** – Checkpoint-based execution engine for AI coding agents;
+          durable Wake→Work→Sleep loops that resume across sessions. Supports Claude Code, Codex, Gemini CLI, and
+          Ollama.
         confidence: high
 metadata:
   github:
@@ -45,22 +51,30 @@ metadata:
     archived: false
     full_name: ramarlina/agx
     html_url: https://github.com/ramarlina/agx
-    created_at: "2026-02-02T19:46:31Z"
-    pushed_at: "2026-05-06T05:35:18Z"
-    description: "agx: Run AI coding agents as a persistent team with objectives, memory, and coordinated work. The same agents built this tool — 167+ merged PRs, 93% clean."
+    created_at: '2026-02-02T19:46:31Z'
+    pushed_at: '2026-05-06T05:35:18Z'
+    description: >-
+      agx: Run AI coding agents as a persistent team with objectives, memory, and coordinated work. The same agents
+      built this tool — 167+ merged PRs, 93% clean.
     homepage: https://www.runagx.com
     topics:
       - ai-agents
       - coding-assistants
       - developer-tools
-    last_checked_at: "2026-07-20T16:42:43.211Z"
+    last_checked_at: '2026-07-20T16:42:43.211Z'
     readme:
-      fetched_at: "2026-07-20T16:42:43.211Z"
+      fetched_at: '2026-07-20T16:42:43.211Z'
       bytes: 10450
 insights:
-  summary: AGX is a local CLI and desktop workspace that runs multiple AI coding agents (Claude, Codex, Gemini, Ollama) across tickets and repos with checkpointed state, human approval gates, and a ticket-to-PR workflow.
-  why_it_matters: It gives developers a control plane to run parallel agent sessions against real tickets and repos while keeping approve/reject gates and state that survives laptop closures.
-  mental_damage: We have successfully reinvented Jira as an agent scheduler so we can worry about whether the agent team or the human is the bottleneck.
+  summary: >-
+    AGX is a local CLI and desktop workspace that runs multiple AI coding agents (Claude, Codex, Gemini, Ollama) across
+    tickets and repos with checkpointed state, human approval gates, and a ticket-to-PR workflow.
+  why_it_matters: >-
+    It gives developers a control plane to run parallel agent sessions against real tickets and repos while keeping
+    approve/reject gates and state that survives laptop closures.
+  mental_damage: >-
+    We have successfully reinvented Jira as an agent scheduler so we can worry about whether the agent team or the human
+    is the bottleneck.
   tags:
     - ai-agents
     - cli
@@ -70,35 +84,42 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: AGX is a developer-facing coding assistant surface that runs agents across repos and tickets with its own CLI, dashboard, and desktop app, not merely an extension or orchestration framework.
+  reason: >-
+    AGX is a developer-facing coding assistant surface that runs agents across repos and tickets with its own CLI,
+    dashboard, and desktop app, not merely an extension or orchestration framework.
   evidence:
-    - "Repo description: 'Run AI coding agents as a persistent team with objectives, memory, and coordinated work.'"
-    - "README: 'AGX is a local workspace for running coding agents across your tickets, repos, and PRs — you stay the author.'"
-    - Source lists place it in CLI Tools and Harnesses & orchestration > Orchestrators & autonomous loops, showing ecosystem recognition.
+    - 'Repo description: ''Run AI coding agents as a persistent team with objectives, memory, and coordinated work.'''
+    - >-
+      README: 'AGX is a local workspace for running coding agents across your tickets, repos, and PRs — you stay the
+      author.'
+    - >-
+      Source lists place it in CLI Tools and Harnesses & orchestration > Orchestrators & autonomous loops, showing
+      ecosystem recognition.
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.592Z"
+    updated_at: '2026-05-06T22:12:15.592Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:43.211Z"
+    updated_at: '2026-07-20T16:42:43.211Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

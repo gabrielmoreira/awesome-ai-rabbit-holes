@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mailboxvalidator__mcp-mailboxvalidator__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: MailboxValidator/mcp-mailboxvalidator
         extracted_url: https://github.com/mailboxvalidator/mcp-mailboxvalidator
-        surrounding_text: "- [MailboxValidator/mcp-mailboxvalidator](https://github.com/MailboxValidator/mcp-mailboxvalidator) [![mcp-mailboxvalidator MCP server](https://glama.ai/mcp/servers/MailboxValidator/mcp-mailboxvalidator/badges/score.svg)](https://glama.ai/mcp/servers/MailboxValidator/mcp-mailboxvalidator) 📇 ☁️  - Validates email addresses to reduce email bounces during marketing campaigns."
+        surrounding_text: >-
+          - [MailboxValidator/mcp-mailboxvalidator](https://github.com/MailboxValidator/mcp-mailboxvalidator)
+          [![mcp-mailboxvalidator MCP
+          server](https://glama.ai/mcp/servers/MailboxValidator/mcp-mailboxvalidator/badges/score.svg)](https://glama.ai/mcp/servers/MailboxValidator/mcp-mailboxvalidator)
+          📇 ☁️  - Validates email addresses to reduce email bounces during marketing campaigns.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: MailboxValidator/mcp-mailboxvalidator
     html_url: https://github.com/MailboxValidator/mcp-mailboxvalidator
-    created_at: "2026-04-09T07:12:34Z"
-    pushed_at: "2026-06-03T07:19:03Z"
+    created_at: '2026-04-09T07:12:34Z'
+    pushed_at: '2026-06-03T07:19:03Z'
     description: Email validation MCP server using MailboxValidator API
     homepage: https://www.mailboxvalidator.com
     topics:
@@ -42,9 +46,9 @@ metadata:
       - mailboxvalidator-api
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-08-03T05:16:54.626Z"
+    last_checked_at: '2026-08-03T05:16:54.626Z'
     readme:
-      fetched_at: "2026-08-03T05:16:54.626Z"
+      fetched_at: '2026-08-03T05:16:54.626Z'
       bytes: 5199
 insights:
   summary: Email validation MCP server using MailboxValidator API.
@@ -57,31 +61,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server whose primary identity is providing email validation via the MailboxValidator API as an MCP tool, fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is an MCP server whose primary identity is providing email validation via the MailboxValidator API as an MCP
+    tool, fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description: 'Email validation MCP server using MailboxValidator API'"
-    - "README: Implements MCP server with tools like validate_email, check_disposable_email, check_free_email"
-    - "Topics include: mcp-server, model-context-protocol, claude-desktop"
+    - 'Repo description: ''Email validation MCP server using MailboxValidator API'''
+    - 'README: Implements MCP server with tools like validate_email, check_disposable_email, check_free_email'
+    - 'Topics include: mcp-server, model-context-protocol, claude-desktop'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.628Z"
+    updated_at: '2026-05-06T22:12:15.628Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:54.626Z"
+    updated_at: '2026-08-03T05:16:54.626Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:17:56.683Z"
+    updated_at: '2026-07-21T16:17:56.683Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -94,14 +101,18 @@ processing:
       input_hash: sha256:a61bec26c81f3773a3b02249c2435fa33d995a87c06d168af45cfb0e572c05d9
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP server whose primary identity is providing email validation via the MailboxValidator API as an MCP tool, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is an MCP server whose primary identity is providing email validation via the MailboxValidator API as an
+        MCP tool, fitting the MCP Servers & Tooling category.
       decision_evidence:
-        - "Repo description: 'Email validation MCP server using MailboxValidator API'"
-        - "README: Implements MCP server with tools like validate_email, check_disposable_email, check_free_email"
-        - "Topics include: mcp-server, model-context-protocol, claude-desktop"
+        - 'Repo description: ''Email validation MCP server using MailboxValidator API'''
+        - 'README: Implements MCP server with tools like validate_email, check_disposable_email, check_free_email'
+        - 'Topics include: mcp-server, model-context-protocol, claude-desktop'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server infrastructure, not an extension that augments another assistant with host capabilities.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server infrastructure, not an extension that
+        augments another assistant with host capabilities.
       review_reason: null
       review_resume_lifecycle: null

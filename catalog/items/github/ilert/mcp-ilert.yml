@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ilert__mcp-ilert__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: ilert
         extracted_url: https://github.com/ilert/mcp-ilert
-        surrounding_text: "- **[ilert](https://github.com/iLert/mcp-ilert)** - Interact with [ilert](https://ilert.com) through natural language."
+        surrounding_text: >-
+          - **[ilert](https://github.com/iLert/mcp-ilert)** - Interact with [ilert](https://ilert.com) through natural
+          language.
         confidence: high
 metadata:
   github:
@@ -29,14 +31,14 @@ metadata:
     archived: false
     full_name: iLert/mcp-ilert
     html_url: https://github.com/iLert/mcp-ilert
-    created_at: "2025-08-08T12:55:07Z"
-    pushed_at: "2025-09-04T08:38:27Z"
-    description: "MCP server for ilert "
+    created_at: '2025-08-08T12:55:07Z'
+    pushed_at: '2025-09-04T08:38:27Z'
+    description: 'MCP server for ilert '
     homepage: https://ilert.com
     topics: []
-    last_checked_at: "2026-07-30T05:05:42.210Z"
+    last_checked_at: '2026-07-30T05:05:42.210Z'
     readme:
-      fetched_at: "2026-07-30T05:05:42.210Z"
+      fetched_at: '2026-07-30T05:05:42.210Z'
       bytes: 2230
 insights:
   summary: MCP server for ilert that enables AI assistants to access alerting and incident management resources.
@@ -50,31 +52,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server providing domain-specific (ilert) integration, matching the MCP Servers & Tooling category identity.
+  reason: >-
+    This is an MCP-first server providing domain-specific (ilert) integration, matching the MCP Servers & Tooling
+    category identity.
   evidence:
     - Repo description explicitly identifies it as an MCP server for ilert
     - README confirms it enables AI assistants to navigate ilert resources via MCP
     - Listed in awesome-mcp-servers under Official Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.620Z"
+    updated_at: '2026-05-06T22:12:15.620Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:42.210Z"
+    updated_at: '2026-07-30T05:05:42.210Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:07:43.013Z"
+    updated_at: '2026-07-21T16:07:43.013Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,7 +92,9 @@ processing:
       input_hash: sha256:e3e2a54a28f6daa6521cd4579dfa94cb0b6024c8d0b52ede4706a83883db1ffd
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server providing domain-specific (ilert) integration, matching the MCP Servers & Tooling category identity.
+      decision_reason: >-
+        This is an MCP-first server providing domain-specific (ilert) integration, matching the MCP Servers & Tooling
+        category identity.
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server for ilert
         - README confirms it enables AI assistants to navigate ilert resources via MCP
@@ -95,6 +102,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, not just an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, not just an extension
+        for another assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__grafana__mcp-grafana__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,10 +19,12 @@ provenance:
           - Official Servers
         anchor_text: Grafana
         extracted_url: https://github.com/grafana/mcp-grafana
-        surrounding_text: "- **[Grafana](https://github.com/grafana/mcp-grafana)** - Search dashboards, investigate incidents and query datasources in your Grafana instance"
+        surrounding_text: >-
+          - **[Grafana](https://github.com/grafana/mcp-grafana)** - Search dashboards, investigate incidents and query
+          datasources in your Grafana instance
         confidence: high
     - id: discovery__github__grafana__mcp-grafana__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -34,7 +36,10 @@ provenance:
           - 📊 Monitoring
         anchor_text: grafana/mcp-grafana
         extracted_url: https://github.com/grafana/mcp-grafana
-        surrounding_text: "-   **[grafana/mcp-grafana](https://github.com/grafana/mcp-grafana)** [![GitHub stars](https://img.shields.io/github/stars/grafana/mcp-grafana?style=social)](https://github.com/grafana/mcp-grafana): Searches dashboards and queries datasources in Grafana."
+        surrounding_text: >-
+          -   **[grafana/mcp-grafana](https://github.com/grafana/mcp-grafana)** [![GitHub
+          stars](https://img.shields.io/github/stars/grafana/mcp-grafana?style=social)](https://github.com/grafana/mcp-grafana):
+          Searches dashboards and queries datasources in Grafana.
         confidence: high
 metadata:
   github:
@@ -44,18 +49,20 @@ metadata:
     archived: false
     full_name: grafana/mcp-grafana
     html_url: https://github.com/grafana/mcp-grafana
-    created_at: "2024-12-24T15:44:23Z"
-    pushed_at: "2026-09-02T17:22:28Z"
+    created_at: '2024-12-24T15:44:23Z'
+    pushed_at: '2026-09-02T17:22:28Z'
     description: MCP server for Grafana
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:53.623Z"
+    last_checked_at: '2026-09-03T05:16:53.623Z'
     readme:
-      fetched_at: "2026-09-03T05:16:53.623Z"
+      fetched_at: '2026-09-03T05:16:53.623Z'
       bytes: 101118
 insights:
   summary: An MCP server that provides access to Grafana instances and their ecosystem for AI assistants.
-  why_it_matters: Lets coding assistants query, modify, and interact with Grafana dashboards, datasources, and metrics directly through the Model Context Protocol.
+  why_it_matters: >-
+    Lets coding assistants query, modify, and interact with Grafana dashboards, datasources, and metrics directly
+    through the Model Context Protocol.
   mental_damage: Now your AI can argue with your dashboards about why that p99 spike is definitely not its fault.
   tags:
     - mcp
@@ -66,31 +73,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the primary product identity here—a server exposing Grafana capabilities via MCP, not a compatibility footnote.
+  reason: >-
+    MCP is the primary product identity here—a server exposing Grafana capabilities via MCP, not a compatibility
+    footnote.
   evidence:
     - Repo description explicitly states it is an MCP server for Grafana
     - README details MCP-specific configuration and tooling for Grafana integration
     - Listed in multiple MCP-focused curated lists (awesome-mcp-list, awesome-mcp-servers)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: promotion_candidate
   reason: Stars (2967) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.586Z"
+    updated_at: '2026-05-06T22:12:15.586Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:53.623Z"
+    updated_at: '2026-09-03T05:16:53.623Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:04:02.277Z"
+    updated_at: '2026-07-21T16:04:02.277Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -103,7 +112,9 @@ processing:
       input_hash: sha256:eed1f53a48921ab3654cc04f837d576c36565739d1b02da70b96ef26662c21e7
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the primary product identity here—a server exposing Grafana capabilities via MCP, not a compatibility footnote.
+      decision_reason: >-
+        MCP is the primary product identity here—a server exposing Grafana capabilities via MCP, not a compatibility
+        footnote.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Grafana
         - README details MCP-specific configuration and tooling for Grafana integration
@@ -111,6 +122,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

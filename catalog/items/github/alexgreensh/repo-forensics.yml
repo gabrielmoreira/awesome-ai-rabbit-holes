@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alexgreensh__repo-forensics__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-08-20T04:18:00.401Z"
+      discovered_at: '2026-08-20T04:18:00.401Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,11 @@ provenance:
           - Agent infrastructure
         anchor_text: repo-forensics
         extracted_url: https://github.com/alexgreensh/repo-forensics
-        surrounding_text: "- **[repo-forensics](https://github.com/alexgreensh/repo-forensics)** `⭐ 155` — Offline security scanner for AI-agent repos, skills, plugins, and MCP servers; flags prompt injection, credential theft, and manifest drift before you install. Python + YARA, ships as a CLI and a GitHub Action. Source-available (PolyForm Noncommercial)."
+        surrounding_text: >-
+          - **[repo-forensics](https://github.com/alexgreensh/repo-forensics)** `⭐ 155` — Offline security scanner for
+          AI-agent repos, skills, plugins, and MCP servers; flags prompt injection, credential theft, and manifest drift
+          before you install. Python + YARA, ships as a CLI and a GitHub Action. Source-available (PolyForm
+          Noncommercial).
         confidence: high
 metadata:
   github:
@@ -30,10 +34,10 @@ metadata:
     archived: false
     full_name: alexgreensh/repo-forensics
     html_url: https://github.com/alexgreensh/repo-forensics
-    created_at: "2026-02-27T19:49:15Z"
-    pushed_at: "2026-09-13T08:23:49Z"
+    created_at: '2026-02-27T19:49:15Z'
+    pushed_at: '2026-09-13T08:23:49Z'
     description: Offline security scanner for AI-agent repos, skills, plugins, and MCP servers.
-    homepage: ""
+    homepage: ''
     topics:
       - agent-security
       - agent-skill
@@ -53,13 +57,15 @@ metadata:
       - security-tools
       - static-analysis
       - supply-chain-security
-    last_checked_at: "2026-09-17T04:13:39.975Z"
+    last_checked_at: '2026-09-17T04:13:39.975Z'
     readme:
-      fetched_at: "2026-09-17T04:13:39.975Z"
+      fetched_at: '2026-09-17T04:13:39.975Z'
       bytes: 47254
 insights:
   summary: Offline security scanner for auditing AI-agent skills, plugins, and MCP servers.
-  why_it_matters: It provides a local vetting step to prevent malicious third-party agent components from accessing sensitive files or credentials.
+  why_it_matters: >-
+    It provides a local vetting step to prevent malicious third-party agent components from accessing sensitive files or
+    credentials.
   mental_damage: It adds a necessary, highly uncomfortable layer of paranoia to the 'install and forget' agent workflow.
   tags:
     - security
@@ -70,30 +76,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It functions as a security and testing add-on for the agent ecosystem, providing a vetting workflow for third-party skills and MCP servers.
+  reason: >-
+    It functions as a security and testing add-on for the agent ecosystem, providing a vetting workflow for third-party
+    skills and MCP servers.
   evidence:
     - Offline security scanner for AI-agent repos, skills, and MCP servers
     - Supports vetting for Claude Code, OpenClaw, and Cursor environments
 placement:
-  primary_category: ai-dev-extensions
-  section: Testing & QA Add-ons
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: Security & DevSecOps
 lifecycle:
   status: promotion_candidate
   reason: Stars (157) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-08-20T04:18:00.403Z"
+    updated_at: '2026-08-20T04:18:00.403Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:39.975Z"
+    updated_at: '2026-09-17T04:13:39.975Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:24:58.445Z"
+    updated_at: '2026-08-27T06:24:58.445Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -102,14 +111,18 @@ processing:
       input_hash: sha256:0816b087f5ae3da9b46ddf0fb278811d863879ced45fb189429b000f16f497eb
       proposed_primary_category: ai-dev-extensions
       disagreement: false
-      decision_reason: It functions as a security and testing add-on for the agent ecosystem, providing a vetting workflow for third-party skills and MCP servers.
+      decision_reason: >-
+        It functions as a security and testing add-on for the agent ecosystem, providing a vetting workflow for
+        third-party skills and MCP servers.
       decision_evidence:
         - Offline security scanner for AI-agent repos, skills, and MCP servers
         - Supports vetting for Claude Code, OpenClaw, and Cursor environments
       category_candidates:
         - ai-dev-extensions
         - evals
-      contrastive_reason: Choose ai-dev-extensions over evals because the tool provides security auditing and component vetting rather than measuring model or prompt performance.
+      contrastive_reason: >-
+        Choose ai-dev-extensions over evals because the tool provides security auditing and component vetting rather
+        than measuring model or prompt performance.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

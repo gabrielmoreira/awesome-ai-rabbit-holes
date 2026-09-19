@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__wallet-inspector-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/wallet-inspector-mcp
         extracted_url: https://github.com/kukapay/wallet-inspector-mcp
-        surrounding_text: "- [kukapay/wallet-inspector-mcp](https://github.com/kukapay/wallet-inspector-mcp) 🐍 ☁️ -  An MCP server that empowers AI agents to inspect any wallet’s balance and onchain activity across major EVM chains and Solana chain."
+        surrounding_text: >-
+          - [kukapay/wallet-inspector-mcp](https://github.com/kukapay/wallet-inspector-mcp) 🐍 ☁️ -  An MCP server that
+          empowers AI agents to inspect any wallet’s balance and onchain activity across major EVM chains and Solana
+          chain.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,22 @@ metadata:
     archived: false
     full_name: kukapay/wallet-inspector-mcp
     html_url: https://github.com/kukapay/wallet-inspector-mcp
-    created_at: "2025-06-01T09:38:13Z"
-    pushed_at: "2025-06-01T09:39:07Z"
-    description: An MCP server that empowers AI agents to inspect any wallet’s balance and onchain activity across major EVM chains and Solana chain.
+    created_at: '2025-06-01T09:38:13Z'
+    pushed_at: '2025-06-01T09:39:07Z'
+    description: >-
+      An MCP server that empowers AI agents to inspect any wallet’s balance and onchain activity across major EVM chains
+      and Solana chain.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:06:01.338Z"
+    last_checked_at: '2026-07-30T05:06:01.338Z'
     readme:
-      fetched_at: "2026-07-30T05:06:01.338Z"
+      fetched_at: '2026-07-30T05:06:01.338Z'
       bytes: 6275
 insights:
   summary: An MCP server that enables AI agents to query wallet balances and onchain activity across EVM chains and Solana.
-  why_it_matters: Developers can integrate blockchain wallet inspection directly into AI agent workflows without building custom chain-indexing logic.
+  why_it_matters: >-
+    Developers can integrate blockchain wallet inspection directly into AI agent workflows without building custom
+    chain-indexing logic.
   mental_damage: Now your AI agent can judge your crypto portfolio harder than your friends do.
   tags:
     - mcp-server
@@ -52,31 +59,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose primary identity is providing blockchain wallet inspection capabilities via MCP.
+  reason: >-
+    The product is explicitly an MCP server whose primary identity is providing blockchain wallet inspection
+    capabilities via MCP.
   evidence:
-    - Repo description states it is 'An MCP server that empowers AI agents to inspect any wallet’s balance and onchain activity'
+    - >-
+      Repo description states it is 'An MCP server that empowers AI agents to inspect any wallet’s balance and onchain
+      activity'
     - README details installation and usage as an MCP-compatible server for Claude Desktop
     - Supports multi-chain queries (EVM + Solana) as its core functionality
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:01.338Z"
+    updated_at: '2026-07-30T05:06:01.338Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:14:20.039Z"
+    updated_at: '2026-07-21T16:14:20.039Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,14 +101,20 @@ processing:
       input_hash: sha256:2ca9a9d897ccfe0309fa3b28bdf816298a79c8a843043dbc388f9d2109821240
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server whose primary identity is providing blockchain wallet inspection capabilities via MCP.
+      decision_reason: >-
+        The product is explicitly an MCP server whose primary identity is providing blockchain wallet inspection
+        capabilities via MCP.
       decision_evidence:
-        - Repo description states it is 'An MCP server that empowers AI agents to inspect any wallet’s balance and onchain activity'
+        - >-
+          Repo description states it is 'An MCP server that empowers AI agents to inspect any wallet’s balance and
+          onchain activity'
         - README details installation and usage as an MCP-compatible server for Claude Desktop
         - Supports multi-chain queries (EVM + Solana) as its core functionality
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server (not merely an extension for another assistant).
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server (not merely an
+        extension for another assistant).
       review_reason: null
       review_resume_lifecycle: null

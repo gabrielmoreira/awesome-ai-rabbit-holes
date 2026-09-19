@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__geiserx__pumperly-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🗺️ <a name="location-services"></a>Location Services
         anchor_text: GeiserX/pumperly-mcp
         extracted_url: https://github.com/geiserx/pumperly-mcp
-        surrounding_text: "- [GeiserX/pumperly-mcp](https://github.com/GeiserX/pumperly-mcp) [![GeiserX/pumperly-mcp MCP server](https://glama.ai/mcp/servers/GeiserX/pumperly-mcp/badges/score.svg)](https://glama.ai/mcp/servers/GeiserX/pumperly-mcp) 🏎️ ☁️ 🍎 🪟 🐧 - Go-based MCP server for Pumperly fuel price comparison. Query gas station prices, plan fuel-efficient routes, and find nearby EV charging stations. Docker image available."
+        surrounding_text: >-
+          - [GeiserX/pumperly-mcp](https://github.com/GeiserX/pumperly-mcp) [![GeiserX/pumperly-mcp MCP
+          server](https://glama.ai/mcp/servers/GeiserX/pumperly-mcp/badges/score.svg)](https://glama.ai/mcp/servers/GeiserX/pumperly-mcp)
+          🏎️ ☁️ 🍎 🪟 🐧 - Go-based MCP server for Pumperly fuel price comparison. Query gas station prices, plan
+          fuel-efficient routes, and find nearby EV charging stations. Docker image available.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: GeiserX/pumperly-mcp
     html_url: https://github.com/GeiserX/pumperly-mcp
-    created_at: "2026-04-01T10:40:16Z"
-    pushed_at: "2026-09-02T21:46:13Z"
+    created_at: '2026-04-01T10:40:16Z'
+    pushed_at: '2026-09-02T21:46:13Z'
     description: MCP Server for Pumperly — real-time fuel and EV charging prices, station search, and route planning via MCP
     homepage: null
     topics:
@@ -55,14 +59,20 @@ metadata:
       - route-planning
       - self-hosted
       - stdio
-    last_checked_at: "2026-09-03T05:16:47.198Z"
+    last_checked_at: '2026-09-03T05:16:47.198Z'
     readme:
-      fetched_at: "2026-09-03T05:16:47.198Z"
+      fetched_at: '2026-09-03T05:16:47.198Z'
       bytes: 7466
 insights:
-  summary: An MCP server that exposes real-time fuel prices, EV charging station data, and route planning via the Model Context Protocol.
-  why_it_matters: It allows LLMs to move beyond static training data by querying live, real-world geographical and commodity pricing data.
-  mental_damage: Because nothing says 'developer productivity' like letting a chatbot plan your weekend road trip while you stare at a terminal.
+  summary: >-
+    An MCP server that exposes real-time fuel prices, EV charging station data, and route planning via the Model Context
+    Protocol.
+  why_it_matters: >-
+    It allows LLMs to move beyond static training data by querying live, real-world geographical and commodity pricing
+    data.
+  mental_damage: >-
+    Because nothing says 'developer productivity' like letting a chatbot plan your weekend road trip while you stare at
+    a terminal.
   tags:
     - mcp
     - fuel-pricing
@@ -79,24 +89,25 @@ curation:
     - Project provides a bridge between a specific data service and the Model Context Protocol
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: '2026-05-06T22:12:15.615Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:47.198Z"
+    updated_at: '2026-09-03T05:16:47.198Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:01:01.464Z"
+    updated_at: '2026-07-21T16:01:01.464Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -109,7 +120,9 @@ processing:
       input_hash: sha256:cc2aa4670d6176a55af92218b3fb81270412b7cc1a1f14fec3e2bf9c96dd5d8f
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's identity is strictly as an MCP server providing domain-specific tools (fuel/EV data) to an LLM host.
+      decision_reason: >-
+        The project's identity is strictly as an MCP server providing domain-specific tools (fuel/EV data) to an LLM
+        host.
       decision_evidence:
         - Repo description explicitly identifies as an 'MCP Server for Pumperly'
         - README defines tools for find_nearest_stations and calculate_route over MCP
@@ -117,6 +130,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is defined by its role as an MCP server rather than an integration for a specific coding assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is defined by its role as an MCP server rather
+        than an integration for a specific coding assistant.
       review_reason: null
       review_resume_lifecycle: null

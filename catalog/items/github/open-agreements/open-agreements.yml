@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__open-agreements__open-agreements__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - ⚖️ <a name="legal"></a>Legal
         anchor_text: open-agreements/open-agreements
         extracted_url: https://github.com/open-agreements/open-agreements
-        surrounding_text: "- [open-agreements/open-agreements](https://github.com/open-agreements/open-agreements) [![open-agreements/open-agreements MCP server](https://glama.ai/mcp/servers/open-agreements/open-agreements/badges/score.svg)](https://glama.ai/mcp/servers/open-agreements/open-agreements) 📇 🏠 ☁️ 🍎 🐧 🪟 - Fill standard legal agreement templates (NDAs, SAFEs, NVCA docs, employment, cloud terms) and produce signable DOCX files."
+        surrounding_text: >-
+          - [open-agreements/open-agreements](https://github.com/open-agreements/open-agreements)
+          [![open-agreements/open-agreements MCP
+          server](https://glama.ai/mcp/servers/open-agreements/open-agreements/badges/score.svg)](https://glama.ai/mcp/servers/open-agreements/open-agreements)
+          📇 🏠 ☁️ 🍎 🐧 🪟 - Fill standard legal agreement templates (NDAs, SAFEs, NVCA docs, employment, cloud terms)
+          and produce signable DOCX files.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: open-agreements/open-agreements
     html_url: https://github.com/open-agreements/open-agreements
-    created_at: "2026-02-09T09:26:34Z"
-    pushed_at: "2026-07-20T09:37:16Z"
-    description: Open, primary-source-backed U.S. legal content — practice guides, 50-state surveys, reviewer checklists, and standard agreement templates. Built for legal teams and the agents helping them.
+    created_at: '2026-02-09T09:26:34Z'
+    pushed_at: '2026-07-20T09:37:16Z'
+    description: >-
+      Open, primary-source-backed U.S. legal content — practice guides, 50-state surveys, reviewer checklists, and
+      standard agreement templates. Built for legal teams and the agents helping them.
     homepage: https://openagreements.org
     topics:
       - anthropic
@@ -54,14 +61,20 @@ metadata:
       - restrictive-covenants
       - safe-template
       - us-law
-    last_checked_at: "2026-07-20T16:42:24.791Z"
+    last_checked_at: '2026-07-20T16:42:24.791Z'
     readme:
-      fetched_at: "2026-07-20T16:42:24.791Z"
+      fetched_at: '2026-07-20T16:42:24.791Z'
       bytes: 82781
 insights:
-  summary: A reusable agent skill and MCP server that fills 40+ standard legal agreement templates and produces signable DOCX files for tools like Claude Code, Gemini CLI, and Cursor.
-  why_it_matters: Developers can generate NDAs, SAFEs, and contractor agreements directly from the terminal or chat without leaving their coding environment or manually formatting legal docs.
-  mental_damage: We have finally reached the point where the most automated part of your startup is the paperwork you used to delay by 'focusing on shipping features'.
+  summary: >-
+    A reusable agent skill and MCP server that fills 40+ standard legal agreement templates and produces signable DOCX
+    files for tools like Claude Code, Gemini CLI, and Cursor.
+  why_it_matters: >-
+    Developers can generate NDAs, SAFEs, and contractor agreements directly from the terminal or chat without leaving
+    their coding environment or manually formatting legal docs.
+  mental_damage: >-
+    We have finally reached the point where the most automated part of your startup is the paperwork you used to delay
+    by 'focusing on shipping features'.
   tags:
     - legal-tech
     - agent-skills
@@ -71,35 +84,42 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is a reusable skill pack and MCP server for legal workflows, fitting cleanly as a domain-specific skill pack rather than a standalone coding agent or generic extension.
+  reason: >-
+    The primary artifact is a reusable skill pack and MCP server for legal workflows, fitting cleanly as a
+    domain-specific skill pack rather than a standalone coding agent or generic extension.
   evidence:
-    - "Repo description: 'Fill standard legal agreement templates and produce signable DOCX files.'"
-    - "README: 'The agent runs list --json to discover templates... Works with Claude Code, Gemini CLI, Cursor, and local MCP or CLI workflows.'"
-    - Topics include agent-skills, claude-code-skills, gemini-cli-extension, and legal-templates, confirming skill-pack identity.
+    - 'Repo description: ''Fill standard legal agreement templates and produce signable DOCX files.'''
+    - >-
+      README: 'The agent runs list --json to discover templates... Works with Claude Code, Gemini CLI, Cursor, and local
+      MCP or CLI workflows.'
+    - >-
+      Topics include agent-skills, claude-code-skills, gemini-cli-extension, and legal-templates, confirming skill-pack
+      identity.
 placement:
   primary_category: skills
-  section: Domain & Workflow Skill Packs
+  secondary_categories: []
+  section: Skill Packs & Libraries
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.640Z"
+    updated_at: '2026-05-06T22:12:15.640Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:24.791Z"
+    updated_at: '2026-07-20T16:42:24.791Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

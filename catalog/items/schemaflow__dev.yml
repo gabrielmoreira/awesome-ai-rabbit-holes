@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__schemaflow__dev__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,14 @@ provenance:
           - Community Servers
         anchor_text: SchemaFlow
         extracted_url: https://schemaflow.dev
-        surrounding_text: "- **[SchemaFlow](https://github.com/CryptoRadi/schemaflow-mcp-server)** - Real-time PostgreSQL & Supabase database schema access for AI-IDEs via Model Context Protocol. Provides live database context through secure SSE connections with three powerful tools: get_schema, analyze_database, and check_schema_alignment. [SchemaFlow](https://schemaflow.dev)"
+        surrounding_text: >-
+          - **[SchemaFlow](https://github.com/CryptoRadi/schemaflow-mcp-server)** - Real-time PostgreSQL & Supabase
+          database schema access for AI-IDEs via Model Context Protocol. Provides live database context through secure
+          SSE connections with three powerful tools: get_schema, analyze_database, and check_schema_alignment.
+          [SchemaFlow](https://schemaflow.dev)
         confidence: high
     - id: discovery__www__schemaflow__dev__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-06-22T05:53:30.454Z"
+      discovered_at: '2026-06-22T05:53:30.454Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,7 +37,11 @@ provenance:
           - Community Servers
         anchor_text: SchemaFlow
         extracted_url: https://schemaflow.dev
-        surrounding_text: "- **[SchemaFlow](https://github.com/CryptoRadi/schemaflow-mcp-server)** - Real-time PostgreSQL & Supabase database schema access for AI-IDEs via Model Context Protocol. Provides live database context through secure SSE connections with three powerful tools: get_schema, analyze_database, and check_schema_alignment. [SchemaFlow](https://schemaflow.dev)"
+        surrounding_text: >-
+          - **[SchemaFlow](https://github.com/CryptoRadi/schemaflow-mcp-server)** - Real-time PostgreSQL & Supabase
+          database schema access for AI-IDEs via Model Context Protocol. Provides live database context through secure
+          SSE connections with three powerful tools: get_schema, analyze_database, and check_schema_alignment.
+          [SchemaFlow](https://schemaflow.dev)
         confidence: high
 metadata:
   github:
@@ -52,8 +60,12 @@ metadata:
     readme: null
 insights:
   summary: A system design canvas that uses an MCP server to automatically map codebase architecture into visual diagrams.
-  why_it_matters: It allows developers to use coding agents to instantly generate and edit real-time, collaborative architecture diagrams directly from their repositories.
-  mental_damage: Now your technical debt can be visualized in high-fidelity, real-time collaboration, leaving you with no excuses for that monolithic mess.
+  why_it_matters: >-
+    It allows developers to use coding agents to instantly generate and edit real-time, collaborative architecture
+    diagrams directly from their repositories.
+  mental_damage: >-
+    Now your technical debt can be visualized in high-fidelity, real-time collaboration, leaving you with no excuses for
+    that monolithic mess.
   tags:
     - system-design
     - mcp
@@ -63,21 +75,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool augments coding assistants like Claude Code by providing a bridge to visualize and document codebase architecture on a canvas.
+  reason: >-
+    The tool augments coding assistants like Claude Code by providing a bridge to visualize and document codebase
+    architecture on a canvas.
   evidence:
     - Provides an MCP connection to Claude Code and Codex to map repositories
     - Core value is mapping codebases to system design diagrams
     - The primary product identity is a design canvas that uses MCP to augment agent capabilities
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: mcp
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-08-27T06:13:10.388Z"
+    updated_at: '2026-08-27T06:13:10.388Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +103,9 @@ processing:
       input_hash: sha256:f5c5070f72d278e1ab2c454a2c818e3392e12af49550af0a6a8e9e6711a780dd
       proposed_primary_category: ai-dev-extensions
       disagreement: false
-      decision_reason: The tool augments coding assistants like Claude Code by providing a bridge to visualize and document codebase architecture on a canvas.
+      decision_reason: >-
+        The tool augments coding assistants like Claude Code by providing a bridge to visualize and document codebase
+        architecture on a canvas.
       decision_evidence:
         - Provides an MCP connection to Claude Code and Codex to map repositories
         - Core value is mapping codebases to system design diagrams
@@ -96,14 +113,16 @@ processing:
       category_candidates:
         - ai-dev-extensions
         - mcp
-      contrastive_reason: Choose ai-dev-extensions over mcp because the primary product is a design canvas that uses MCP to augment agent capabilities rather than being a dedicated MCP infrastructure utility.
+      contrastive_reason: >-
+        Choose ai-dev-extensions over mcp because the primary product is a design canvas that uses MCP to augment agent
+        capabilities rather than being a dedicated MCP infrastructure utility.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
   discover:
     status: done
-    updated_at: "2026-06-22T05:53:30.456Z"
+    updated_at: '2026-06-22T05:53:30.456Z'
     cause: null
     next_retry_at: null
   stars:

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__charmbracelet__crush__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Open Source
         anchor_text: Crush
         extracted_url: https://github.com/charmbracelet/crush
-        surrounding_text: "- **[Crush](https://github.com/charmbracelet/crush)** `⭐ 23.8k` — Charmbracelet's glamorous agentic coding TUI in Go; multi-provider, LSP-aware, with rich terminal UI."
+        surrounding_text: >-
+          - **[Crush](https://github.com/charmbracelet/crush)** `⭐ 23.8k` — Charmbracelet's glamorous agentic coding TUI
+          in Go; multi-provider, LSP-aware, with rich terminal UI.
         confidence: high
 metadata:
   github:
@@ -30,22 +32,24 @@ metadata:
     archived: false
     full_name: charmbracelet/crush
     html_url: https://github.com/charmbracelet/crush
-    created_at: "2025-05-21T12:14:57Z"
-    pushed_at: "2026-09-06T01:09:45Z"
+    created_at: '2025-05-21T12:14:57Z'
+    pushed_at: '2026-09-06T01:09:45Z'
     description: Glamourous agentic coding for all 💘
-    homepage: ""
+    homepage: ''
     topics:
       - agentic-ai
       - ai
       - llms
       - ravishing
-    last_checked_at: "2026-09-07T04:13:43.716Z"
+    last_checked_at: '2026-09-07T04:13:43.716Z'
     readme:
-      fetched_at: "2026-09-07T04:13:43.716Z"
+      fetched_at: '2026-09-07T04:13:43.716Z'
       bytes: 34150
 insights:
   summary: A terminal-native agentic coding assistant that integrates with LLMs, LSPs, and MCP servers.
-  why_it_matters: Developers can delegate repo work to Crush directly in their terminal, with multi-model support, session management, and extensibility via MCP.
+  why_it_matters: >-
+    Developers can delegate repo work to Crush directly in their terminal, with multi-model support, session management,
+    and extensibility via MCP.
   mental_damage: Now you can nerd-snipe yourself in the terminal while your LLM judges your code.
   tags:
     - terminal-agent
@@ -55,13 +59,18 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Crush is a primary coding assistant that reads code, plans changes, and edits files in a terminal-native workflow, fitting the core definition of a coding agent.
+  reason: >-
+    Crush is a primary coding assistant that reads code, plans changes, and edits files in a terminal-native workflow,
+    fitting the core definition of a coding agent.
   evidence:
-    - "Repo description: 'Glamourous agentic coding for all'"
-    - "README: 'Your new coding bestie, now available in your favourite terminal. Your tools, your code, and your workflows, wired into your LLM of choice.'"
-    - "Source-list context: Listed under 'Terminal-native coding agents > Open Source' in awesome-cli-coding-agents"
+    - 'Repo description: ''Glamourous agentic coding for all'''
+    - >-
+      README: 'Your new coding bestie, now available in your favourite terminal. Your tools, your code, and your
+      workflows, wired into your LLM of choice.'
+    - 'Source-list context: Listed under ''Terminal-native coding agents > Open Source'' in awesome-cli-coding-agents'
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -69,17 +78,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.607Z"
+    updated_at: '2026-05-06T22:12:15.607Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:43.716Z"
+    updated_at: '2026-09-07T04:13:43.716Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:41:26.803Z"
+    updated_at: '2026-07-21T15:41:26.803Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -92,14 +101,20 @@ processing:
       input_hash: sha256:82fce60aa3f20ebe74ffe4e4100a583ec7c2d4f17c6c181af4723c40c04eb51f
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Crush is a primary coding assistant that reads code, plans changes, and edits files in a terminal-native workflow, fitting the core definition of a coding agent.
+      decision_reason: >-
+        Crush is a primary coding assistant that reads code, plans changes, and edits files in a terminal-native
+        workflow, fitting the core definition of a coding agent.
       decision_evidence:
-        - "Repo description: 'Glamourous agentic coding for all'"
-        - "README: 'Your new coding bestie, now available in your favourite terminal. Your tools, your code, and your workflows, wired into your LLM of choice.'"
-        - "Source-list context: Listed under 'Terminal-native coding agents > Open Source' in awesome-cli-coding-agents"
+        - 'Repo description: ''Glamourous agentic coding for all'''
+        - >-
+          README: 'Your new coding bestie, now available in your favourite terminal. Your tools, your code, and your
+          workflows, wired into your LLM of choice.'
+        - 'Source-list context: Listed under ''Terminal-native coding agents > Open Source'' in awesome-cli-coding-agents'
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because Crush is a standalone primary assistant, not an extension augmenting another assistant or editor.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because Crush is a standalone primary assistant, not an extension
+        augmenting another assistant or editor.
       review_reason: null
       review_resume_lifecycle: null

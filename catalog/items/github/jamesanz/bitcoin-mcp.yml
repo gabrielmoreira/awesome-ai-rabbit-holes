@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jamesanz__bitcoin-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: JamesANZ/bitcoin-mcp
         extracted_url: https://github.com/jamesanz/bitcoin-mcp
-        surrounding_text: "- [JamesANZ/bitcoin-mcp](https://github.com/JamesANZ/bitcoin-mcp) 📇 🏠 - An MCP server that enables AI models to query the Bitcoin blockchain."
+        surrounding_text: >-
+          - [JamesANZ/bitcoin-mcp](https://github.com/JamesANZ/bitcoin-mcp) 📇 🏠 - An MCP server that enables AI models
+          to query the Bitcoin blockchain.
         confidence: high
 metadata:
   github:
@@ -30,21 +32,23 @@ metadata:
     archived: false
     full_name: JamesANZ/bitcoin-mcp
     html_url: https://github.com/JamesANZ/bitcoin-mcp
-    created_at: "2025-07-09T03:26:48Z"
-    pushed_at: "2025-12-10T04:24:01Z"
+    created_at: '2025-07-09T03:26:48Z'
+    pushed_at: '2025-12-10T04:24:01Z'
     description: An MCP server that provides real-time Bitcoin blockchain data.
     homepage: https://glama.ai/mcp/servers/@JamesANZ/bitcoin-mcp
     topics:
       - bitcoin
       - llms
       - mcp-server
-    last_checked_at: "2026-07-30T05:05:47.104Z"
+    last_checked_at: '2026-07-30T05:05:47.104Z'
     readme:
-      fetched_at: "2026-07-30T05:05:47.104Z"
+      fetched_at: '2026-07-30T05:05:47.104Z'
       bytes: 5557
 insights:
   summary: An MCP server that provides real-time Bitcoin blockchain data from the mempool.space API.
-  why_it_matters: Developers can query Bitcoin addresses, transactions, blocks, and UTXOs directly within AI coding environments like Cursor or Claude Desktop without API keys.
+  why_it_matters: >-
+    Developers can query Bitcoin addresses, transactions, blocks, and UTXOs directly within AI coding environments like
+    Cursor or Claude Desktop without API keys.
   mental_damage: Now your AI can obsess over Bitcoin blocks while you pretend to understand UTXOs.
   tags:
     - mcp-server
@@ -55,31 +59,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose primary identity is providing Bitcoin blockchain data via MCP, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product is explicitly an MCP server whose primary identity is providing Bitcoin blockchain data via MCP, fitting
+    the MCP Servers & Tooling category.
   evidence:
     - Repo description states it is 'An MCP server that provides real-time Bitcoin blockchain data'
     - README explicitly positions it as an MCP server for AI coding environments
     - Uses MCP SDK and follows MCP server conventions
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.621Z"
+    updated_at: '2026-05-06T22:12:15.621Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:47.104Z"
+    updated_at: '2026-07-30T05:05:47.104Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:09:38.670Z"
+    updated_at: '2026-07-21T16:09:38.670Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -92,7 +99,9 @@ processing:
       input_hash: sha256:46824dcd135baf52cafbb4fb82524de3ec664afec86e489d285d8136b3e8921e
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server whose primary identity is providing Bitcoin blockchain data via MCP, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product is explicitly an MCP server whose primary identity is providing Bitcoin blockchain data via MCP,
+        fitting the MCP Servers & Tooling category.
       decision_evidence:
         - Repo description states it is 'An MCP server that provides real-time Bitcoin blockchain data'
         - README explicitly positions it as an MCP server for AI coding environments
@@ -100,6 +109,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

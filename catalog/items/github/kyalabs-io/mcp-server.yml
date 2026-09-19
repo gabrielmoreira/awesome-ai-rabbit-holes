@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kyalabs-io__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: payclaw/mcp-server
         extracted_url: https://github.com/payclaw/mcp-server
-        surrounding_text: "- [payclaw/mcp-server](https://github.com/payclaw/mcp-server) [![payclaw-mcp MCP server](https://glama.ai/mcp/servers/@payclaw/payclaw-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@payclaw/payclaw-mcp) 📇 ☁️ - Virtual Visa cards for AI agents. Just-in-time card issuance per transaction, human-approved spend authorization, MCP-native. Works anywhere Visa is accepted."
+        surrounding_text: >-
+          - [payclaw/mcp-server](https://github.com/payclaw/mcp-server) [![payclaw-mcp MCP
+          server](https://glama.ai/mcp/servers/@payclaw/payclaw-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@payclaw/payclaw-mcp)
+          📇 ☁️ - Virtual Visa cards for AI agents. Just-in-time card issuance per transaction, human-approved spend
+          authorization, MCP-native. Works anywhere Visa is accepted.
         confidence: high
 metadata:
   github:
@@ -30,18 +34,20 @@ metadata:
     archived: false
     full_name: kyalabs-Io/mcp-server
     html_url: https://github.com/kyalabs-Io/mcp-server
-    created_at: "2026-02-25T18:04:21Z"
-    pushed_at: "2026-06-22T05:35:50Z"
+    created_at: '2026-02-25T18:04:21Z'
+    pushed_at: '2026-06-22T05:35:50Z'
     description: Badge identity + virtual Visa cards for AI agents. MCP-native.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:06:01.753Z"
+    last_checked_at: '2026-07-30T05:06:01.753Z'
     readme:
-      fetched_at: "2026-07-30T05:06:01.753Z"
+      fetched_at: '2026-07-30T05:06:01.753Z'
       bytes: 11537
 insights:
   summary: MCP-native server providing badge identity and virtual Visa card issuance for AI agents to interact with merchants.
-  why_it_matters: Enables AI agents to authenticate and transact with e-commerce platforms (Shopify, Target, etc.) without exposing real user credentials.
+  why_it_matters: >-
+    Enables AI agents to authenticate and transact with e-commerce platforms (Shopify, Target, etc.) without exposing
+    real user credentials.
   mental_damage: Now your agent can impulse-buy a toaster while you sleep, and the only trace is a self-destructing virtual card.
   tags:
     - mcp
@@ -52,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the product identity (server, protocol-native tooling) and the core value is MCP-specific infrastructure for agent commerce.
+  reason: >-
+    MCP is the product identity (server, protocol-native tooling) and the core value is MCP-specific infrastructure for
+    agent commerce.
   evidence:
     - Repo description explicitly states 'MCP-native'
     - README positions it as 'the first MCP tool suite' for Universal Commerce Protocol
     - Installation and usage are MCP-client-centric (Claude Desktop, Cursor, etc.)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:01.753Z"
+    updated_at: '2026-07-30T05:06:01.753Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:14:25.532Z"
+    updated_at: '2026-07-21T16:14:25.532Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +98,9 @@ processing:
       input_hash: sha256:39862e60d1d58f93ab549faf9cabfc3eae1050d482cea8ae89f46093693d066b
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the product identity (server, protocol-native tooling) and the core value is MCP-specific infrastructure for agent commerce.
+      decision_reason: >-
+        MCP is the product identity (server, protocol-native tooling) and the core value is MCP-specific infrastructure
+        for agent commerce.
       decision_evidence:
         - Repo description explicitly states 'MCP-native'
         - README positions it as 'the first MCP tool suite' for Universal Commerce Protocol
@@ -97,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server for agent commerce, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server for agent commerce,
+        not an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

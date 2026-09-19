@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__adfin-engineering__mcp-server-adfin__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: Adfin
         extracted_url: https://github.com/adfin-engineering/mcp-server-adfin
-        surrounding_text: "- **[Adfin](https://github.com/Adfin-Engineering/mcp-server-adfin)** - The only platform you need to get paid - all payments in one place, invoicing and accounting reconciliations with [Adfin](https://www.adfin.com/)."
+        surrounding_text: >-
+          - **[Adfin](https://github.com/Adfin-Engineering/mcp-server-adfin)** - The only platform you need to get paid
+          - all payments in one place, invoicing and accounting reconciliations with [Adfin](https://www.adfin.com/).
         confidence: high
 metadata:
   github:
@@ -29,18 +31,20 @@ metadata:
     archived: false
     full_name: Adfin-Engineering/mcp-server-adfin
     html_url: https://github.com/Adfin-Engineering/mcp-server-adfin
-    created_at: "2025-03-19T14:22:05Z"
-    pushed_at: "2025-03-20T14:09:47Z"
-    description: "A Model Context Protocol Server for connecting with Adfin APIs "
+    created_at: '2025-03-19T14:22:05Z'
+    pushed_at: '2025-03-20T14:09:47Z'
+    description: 'A Model Context Protocol Server for connecting with Adfin APIs '
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:30.138Z"
+    last_checked_at: '2026-09-17T04:13:30.138Z'
     readme:
-      fetched_at: "2026-09-17T04:13:30.138Z"
+      fetched_at: '2026-09-17T04:13:30.138Z'
       bytes: 1809
 insights:
   summary: An MCP server that enables AI assistants to interact with Adfin APIs for invoice management and credit control.
-  why_it_matters: It allows developers to use natural language to automate specific business logic tasks like creating invoices or checking credit status via Claude Desktop.
+  why_it_matters: >-
+    It allows developers to use natural language to automate specific business logic tasks like creating invoices or
+    checking credit status via Claude Desktop.
   mental_damage: Another layer of abstraction to debug when your AI assistant suddenly starts hallucinating invoice totals.
   tags:
     - mcp
@@ -57,24 +61,25 @@ curation:
     - Core functionality is providing domain-specific tools (invoices, credit control) via MCP
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.599Z"
+    updated_at: '2026-05-06T22:12:15.599Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:30.138Z"
+    updated_at: '2026-09-17T04:13:30.138Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:58:14.131Z"
+    updated_at: '2026-07-20T15:58:14.131Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -95,6 +100,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity and distribution method is the Model Context Protocol.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity and distribution method is the Model
+        Context Protocol.
       review_reason: null
       review_resume_lifecycle: null

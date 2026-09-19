@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__chroma-core__chroma-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: chroma-core/chroma-mcp
         extracted_url: https://github.com/chroma-core/chroma-mcp
-        surrounding_text: "- [chroma-core/chroma-mcp](https://github.com/chroma-core/chroma-mcp) 🎖️ 🐍 ☁️ 🏠 - Chroma MCP server to access local and cloud Chroma instances for retrieval capabilities"
+        surrounding_text: >-
+          - [chroma-core/chroma-mcp](https://github.com/chroma-core/chroma-mcp) 🎖️ 🐍 ☁️ 🏠 - Chroma MCP server to
+          access local and cloud Chroma instances for retrieval capabilities
         confidence: high
     - id: discovery__github__chroma-core__chroma-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +37,9 @@ provenance:
           - Official Servers
         anchor_text: Chroma
         extracted_url: https://github.com/chroma-core/chroma-mcp
-        surrounding_text: "- **[Chroma](https://github.com/chroma-core/chroma-mcp)** - Embeddings, vector search, document storage, and full-text search with the open-source AI application database"
+        surrounding_text: >-
+          - **[Chroma](https://github.com/chroma-core/chroma-mcp)** - Embeddings, vector search, document storage, and
+          full-text search with the open-source AI application database
         confidence: high
 metadata:
   github:
@@ -45,18 +49,22 @@ metadata:
     archived: false
     full_name: chroma-core/chroma-mcp
     html_url: https://github.com/chroma-core/chroma-mcp
-    created_at: "2025-02-11T00:23:22Z"
-    pushed_at: "2025-09-17T20:20:13Z"
+    created_at: '2025-02-11T00:23:22Z'
+    pushed_at: '2025-09-17T20:20:13Z'
     description: A Model Context Protocol (MCP) server implementation that provides database capabilities for Chroma
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:44.957Z"
+    last_checked_at: '2026-09-07T04:13:44.957Z'
     readme:
-      fetched_at: "2026-09-07T04:13:44.957Z"
+      fetched_at: '2026-09-07T04:13:44.957Z'
       bytes: 8049
 insights:
-  summary: An MCP server implementation that provides database capabilities for Chroma, enabling AI models to interact with Chroma's vector database.
-  why_it_matters: Developers can integrate Chroma's embedding and retrieval features into MCP-compatible workflows, allowing LLMs to query and manage vector data seamlessly.
+  summary: >-
+    An MCP server implementation that provides database capabilities for Chroma, enabling AI models to interact with
+    Chroma's vector database.
+  why_it_matters: >-
+    Developers can integrate Chroma's embedding and retrieval features into MCP-compatible workflows, allowing LLMs to
+    query and manage vector data seamlessly.
   mental_damage: Now your AI can have its own database of memories, because apparently the context window wasn't long enough already.
   tags:
     - mcp
@@ -74,24 +82,25 @@ curation:
     - Listed in awesome-mcp-servers under Databases and Official Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: promotion_candidate
   reason: Stars (542) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.584Z"
+    updated_at: '2026-05-06T22:12:15.584Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:44.957Z"
+    updated_at: '2026-09-07T04:13:44.957Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:41:41.397Z"
+    updated_at: '2026-07-21T15:41:41.397Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,7 +113,9 @@ processing:
       input_hash: sha256:696c73c1b890faeb3b047ccbed345fd5f067ca31727740639fcc4b87a45c822b
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server implementation whose primary identity is providing Chroma database capabilities via MCP.
+      decision_reason: >-
+        This is an MCP-first server implementation whose primary identity is providing Chroma database capabilities via
+        MCP.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Chroma
         - README details MCP tools for Chroma collection and document operations
@@ -112,6 +123,8 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product's core identity is as an MCP server, not a general-purpose SDK or library.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product's core identity is as an MCP server, not a general-purpose SDK
+        or library.
       review_reason: null
       review_resume_lifecycle: null

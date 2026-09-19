@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__camel-ai__owl__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 智能体 Agents
         anchor_text: OWL
         extracted_url: https://github.com/camel-ai/owl
-        surrounding_text: "37. [OWL](https://github.com/camel-ai/owl): Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation."
+        surrounding_text: >-
+          37. [OWL](https://github.com/camel-ai/owl): Optimized Workforce Learning for General Multi-Agent Assistance in
+          Real-World Task Automation.
         confidence: high
 metadata:
   github:
@@ -29,23 +31,25 @@ metadata:
     archived: false
     full_name: camel-ai/owl
     html_url: https://github.com/camel-ai/owl
-    created_at: "2025-03-03T15:42:51Z"
-    pushed_at: "2026-08-27T06:40:00Z"
-    description: "🦉 OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation"
-    homepage: ""
+    created_at: '2025-03-03T15:42:51Z'
+    pushed_at: '2026-08-27T06:40:00Z'
+    description: '🦉 OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation'
+    homepage: ''
     topics:
       - agent
       - artificial-intelligence
       - multi-agent-systems
       - task-automation
       - web-interaction
-    last_checked_at: "2026-09-07T04:13:40.827Z"
+    last_checked_at: '2026-09-07T04:13:40.827Z'
     readme:
-      fetched_at: "2026-09-07T04:13:40.827Z"
+      fetched_at: '2026-09-07T04:13:40.827Z'
       bytes: 29252
 insights:
   summary: OWL is a multi-agent system framework for general task automation and real-world workforce learning.
-  why_it_matters: It enables developers to build and coordinate multiple AI agents for complex workflow automation beyond single-assistant coding.
+  why_it_matters: >-
+    It enables developers to build and coordinate multiple AI agents for complex workflow automation beyond
+    single-assistant coding.
   mental_damage: Because nothing says 'productivity' like an army of agents arguing over who gets to close the Jira ticket.
   tags:
     - multi-agent
@@ -55,31 +59,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is a code-first building block (framework) for developers to script and build multi-agent systems, sitting on top of the CAMEL-AI library rather than acting as a standalone control plane or end-user assistant.
+  reason: >-
+    The project is a code-first building block (framework) for developers to script and build multi-agent systems,
+    sitting on top of the CAMEL-AI library rather than acting as a standalone control plane or end-user assistant.
   evidence:
-    - Repo description identifies it as a framework for 'General Multi-Agent Assistance' built on the CAMEL-AI Framework.
-    - README demonstrates code-first usage via Python installation (uv, venv, pip) and customization of configurations and toolkits.
-    - Developers interact by importing/building with the library (e.g., 'Basic Usage', 'Customizing Your Configuration') rather than operating a hosted UI platform.
+    - >-
+      Repo description identifies it as a framework for 'General Multi-Agent Assistance' built on the CAMEL-AI
+      Framework.
+    - >-
+      README demonstrates code-first usage via Python installation (uv, venv, pip) and customization of configurations
+      and toolkits.
+    - >-
+      Developers interact by importing/building with the library (e.g., 'Basic Usage', 'Customizing Your Configuration')
+      rather than operating a hosted UI platform.
 placement:
   primary_category: ai-frameworks
-  section: null
+  secondary_categories: []
+  section: Multi-Agent Systems
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'agent-orchestration'"
+  reason: 'Categorization review required: placement disagreement: retained ''ai-frameworks'', proposed ''agent-orchestration'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.607Z"
+    updated_at: '2026-05-06T22:12:15.607Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:40.827Z"
+    updated_at: '2026-09-07T04:13:40.827Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:40:37.281Z"
+    updated_at: '2026-07-21T15:40:37.281Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -92,7 +105,9 @@ processing:
       input_hash: sha256:25694ca8897376b2191b5e2e9eada0c550656e944150d6e1724e39dd191eb30c
       proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: OWL's core value is coordinating multiple agents for task automation, fitting the agent orchestration category as a workforce platform.
+      decision_reason: >-
+        OWL's core value is coordinating multiple agents for task automation, fitting the agent orchestration category
+        as a workforce platform.
       decision_evidence:
         - Repo description explicitly states 'General Multi-Agent Assistance in Real-World Task Automation'
         - Topics include 'multi-agent-systems' and 'task-automation'
@@ -100,6 +115,8 @@ processing:
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated multi-agent system rather than a code-first library.
-      review_reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'agent-orchestration'"
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because the product is an operated multi-agent system rather than
+        a code-first library.
+      review_reason: 'Categorization review required: placement disagreement: retained ''ai-frameworks'', proposed ''agent-orchestration'''
       review_resume_lifecycle: null

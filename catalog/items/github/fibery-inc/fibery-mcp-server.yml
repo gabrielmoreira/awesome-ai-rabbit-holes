@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__fibery-inc__fibery-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: Fibery
         extracted_url: https://github.com/fibery-inc/fibery-mcp-server
-        surrounding_text: "- **[Fibery](https://github.com/Fibery-inc/fibery-mcp-server)** - Perform queries and entity operations in your [Fibery](https://fibery.io) workspace."
+        surrounding_text: >-
+          - **[Fibery](https://github.com/Fibery-inc/fibery-mcp-server)** - Perform queries and entity operations in
+          your [Fibery](https://fibery.io) workspace.
         confidence: high
 metadata:
   github:
@@ -29,19 +31,23 @@ metadata:
     archived: false
     full_name: Fibery-inc/fibery-mcp-server
     html_url: https://github.com/Fibery-inc/fibery-mcp-server
-    created_at: "2025-03-13T09:34:09Z"
-    pushed_at: "2026-05-13T07:45:30Z"
+    created_at: '2025-03-13T09:34:09Z'
+    pushed_at: '2026-05-13T07:45:30Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-08-27T09:23:30.397Z"
+    last_checked_at: '2026-08-27T09:23:30.397Z'
     readme:
-      fetched_at: "2026-08-27T09:23:30.397Z"
+      fetched_at: '2026-08-27T09:23:30.397Z'
       bytes: 2038
 insights:
   summary: An MCP server that enables LLMs to interact with Fibery workspaces via natural language.
-  why_it_matters: It allows developers to query, create, and update complex workspace data and database schemas using conversational interfaces within MCP-compliant clients.
-  mental_damage: Because having an LLM with write-access to your entire project management database is exactly the kind of chaotic energy we need in our workflows.
+  why_it_matters: >-
+    It allows developers to query, create, and update complex workspace data and database schemas using conversational
+    interfaces within MCP-compliant clients.
+  mental_damage: >-
+    Because having an LLM with write-access to your entire project management database is exactly the kind of chaotic
+    energy we need in our workflows.
   tags:
     - mcp
     - fibery
@@ -57,24 +63,25 @@ curation:
     - Listed in awesome-mcp-servers under Official Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.614Z"
+    updated_at: '2026-05-06T22:12:15.614Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:30.397Z"
+    updated_at: '2026-08-27T09:23:30.397Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:56:34.707Z"
+    updated_at: '2026-07-21T15:56:34.707Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -95,6 +102,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's identity is a dedicated MCP server providing protocol-level access rather than a general workspace extension.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's identity is a dedicated MCP server providing
+        protocol-level access rather than a general workspace extension.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__usejunior__safe-docx__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 📂 <a name="file-systems"></a>File Systems
         anchor_text: UseJunior/safe-docx
         extracted_url: https://github.com/usejunior/safe-docx
-        surrounding_text: "- [UseJunior/safe-docx](https://github.com/UseJunior/safe-docx) [![UseJunior/safe-docx MCP server](https://glama.ai/mcp/servers/UseJunior/safe-docx/badges/score.svg)](https://glama.ai/mcp/servers/UseJunior/safe-docx) 📇 🏠 🍎 🐧 🪟 - Surgical editing of existing Word .docx files with formatting preservation, tracked changes, comments, footnotes, and document comparison."
+        surrounding_text: >-
+          - [UseJunior/safe-docx](https://github.com/UseJunior/safe-docx) [![UseJunior/safe-docx MCP
+          server](https://glama.ai/mcp/servers/UseJunior/safe-docx/badges/score.svg)](https://glama.ai/mcp/servers/UseJunior/safe-docx)
+          📇 🏠 🍎 🐧 🪟 - Surgical editing of existing Word .docx files with formatting preservation, tracked changes,
+          comments, footnotes, and document comparison.
         confidence: high
 metadata:
   github:
@@ -30,19 +34,23 @@ metadata:
     archived: false
     full_name: UseJunior/safe-docx
     html_url: https://github.com/UseJunior/safe-docx
-    created_at: "2026-02-20T03:05:15Z"
-    pushed_at: "2026-07-21T15:18:49Z"
-    description: "Safe DOCX suite: docx-primitives, docx-comparison, safe-docx MCP server"
+    created_at: '2026-02-20T03:05:15Z'
+    pushed_at: '2026-07-21T15:18:49Z'
+    description: 'Safe DOCX suite: docx-primitives, docx-comparison, safe-docx MCP server'
     homepage: https://safedocx.com
     topics:
       - gemini-cli-extension
-    last_checked_at: "2026-07-21T15:21:00.545Z"
+    last_checked_at: '2026-07-21T15:21:00.545Z'
     readme:
-      fetched_at: "2026-07-21T15:21:00.545Z"
+      fetched_at: '2026-07-21T15:21:00.545Z'
       bytes: 3217
 insights:
-  summary: Safe DOCX suite provides deterministic TypeScript tools and an MCP server for surgically editing existing .docx files with formatting preservation.
-  why_it_matters: Enables coding agents to reliably edit Word documents in legal and business workflows where formatting must survive automation.
+  summary: >-
+    Safe DOCX suite provides deterministic TypeScript tools and an MCP server for surgically editing existing .docx
+    files with formatting preservation.
+  why_it_matters: >-
+    Enables coding agents to reliably edit Word documents in legal and business workflows where formatting must survive
+    automation.
   mental_damage: Finally, an excuse to let your AI touch the one file format you swore you’d never automate.
   tags:
     - docx
@@ -53,31 +61,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Safe Docx is an MCP server that augments coding agents with document editing capabilities rather than acting as a standalone coding assistant.
+  reason: >-
+    Safe Docx is an MCP server that augments coding agents with document editing capabilities rather than acting as a
+    standalone coding assistant.
   evidence:
     - README states it enables 'coding agents to do paperwork too' via MCP tool calls for .docx editing
     - Repo description identifies it as a 'safe-docx MCP server' within a TypeScript stack
-    - Positioned as providing 'typed MCP tools for edit, compare, revision extraction' to agents like Claude Code and Gemini CLI
+    - >-
+      Positioned as providing 'typed MCP tools for edit, compare, revision extraction' to agents like Claude Code and
+      Gemini CLI
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: mcp
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.653Z"
+    updated_at: '2026-05-06T22:12:15.653Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:00.545Z"
+    updated_at: '2026-07-21T15:21:00.545Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:20:32.016Z"
+    updated_at: '2026-05-12T15:20:32.016Z'
     cause: null
     next_retry_at: null
     attempts: 1

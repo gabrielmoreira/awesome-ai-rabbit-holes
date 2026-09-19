@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__blockbeats-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/blockbeats-mcp
         extracted_url: https://github.com/kukapay/blockbeats-mcp
-        surrounding_text: "- [kukapay/blockbeats-mcp](https://github.com/kukapay/blockbeats-mcp) 🐍 ☁️ -  An MCP server that delivers blockchain news and in-depth articles from BlockBeats for AI agents."
+        surrounding_text: >-
+          - [kukapay/blockbeats-mcp](https://github.com/kukapay/blockbeats-mcp) 🐍 ☁️ -  An MCP server that delivers
+          blockchain news and in-depth articles from BlockBeats for AI agents.
         confidence: high
 metadata:
   github:
@@ -30,14 +32,14 @@ metadata:
     archived: false
     full_name: kukapay/blockbeats-mcp
     html_url: https://github.com/kukapay/blockbeats-mcp
-    created_at: "2025-04-09T02:55:21Z"
-    pushed_at: "2025-12-10T10:50:26Z"
+    created_at: '2025-04-09T02:55:21Z'
+    pushed_at: '2025-12-10T10:50:26Z'
     description: An MCP server that delivers blockchain news and in-depth articles from BlockBeats for AI agents.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:58.999Z"
+    last_checked_at: '2026-07-30T05:05:58.999Z'
     readme:
-      fetched_at: "2026-07-30T05:05:58.999Z"
+      fetched_at: '2026-07-30T05:05:58.999Z'
       bytes: 5078
 insights:
   summary: An MCP server that provides blockchain news and in-depth articles from BlockBeats for AI agents.
@@ -51,31 +53,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server providing domain-specific (blockchain news) data to AI agents, fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is an MCP-first server providing domain-specific (blockchain news) data to AI agents, fitting the MCP Servers &
+    Tooling category.
   evidence:
     - Repo description explicitly states it is an MCP server for blockchain news
     - README details MCP server installation and usage with `get_latest_news` and `get_latest_articles` tools
     - Project is actively maintained (pushed recently, not archived)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:58.999Z"
+    updated_at: '2026-07-30T05:05:58.999Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:33.739Z"
+    updated_at: '2026-07-21T16:13:33.739Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +93,9 @@ processing:
       input_hash: sha256:c77d2dfe4baabafe5f44adc0058a2126cceb547bf8b67dd5b0445ae36fcb928e
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server providing domain-specific (blockchain news) data to AI agents, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is an MCP-first server providing domain-specific (blockchain news) data to AI agents, fitting the MCP
+        Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for blockchain news
         - README details MCP server installation and usage with `get_latest_news` and `get_latest_articles` tools
@@ -96,6 +103,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product identity is an MCP server, not a general context/retrieval system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the product identity is an MCP server, not a general
+        context/retrieval system.
       review_reason: null
       review_resume_lifecycle: null

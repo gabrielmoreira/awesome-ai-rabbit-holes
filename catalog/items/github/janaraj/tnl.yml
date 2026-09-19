@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__janaraj__tnl__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: janaraj/tnl
         extracted_url: https://github.com/janaraj/tnl
-        surrounding_text: "- [janaraj/tnl](https://github.com/janaraj/tnl) [![janaraj/tnl MCP server](https://glama.ai/mcp/servers/janaraj/tnl/badges/score.svg)](https://glama.ai/mcp/servers/janaraj/tnl) 📇 🏠 🍎 🪟 🐧 - MCP server for TNL (Typed Natural Language): per-feature English contracts for AI coding agents. 6 tools — `get_impacted_tnls`, `retrieve_tnl`, `trace`, `propose_tnl_diff`, `approve_tnl_diff`, `verify` — let agents look up relevant contracts, propose contract edits, and verify implementations against them. Drop-in via `npx typed-nl init` for Claude Code, Codex, Gemini."
+        surrounding_text: >-
+          - [janaraj/tnl](https://github.com/janaraj/tnl) [![janaraj/tnl MCP
+          server](https://glama.ai/mcp/servers/janaraj/tnl/badges/score.svg)](https://glama.ai/mcp/servers/janaraj/tnl)
+          📇 🏠 🍎 🪟 🐧 - MCP server for TNL (Typed Natural Language): per-feature English contracts for AI coding
+          agents. 6 tools — `get_impacted_tnls`, `retrieve_tnl`, `trace`, `propose_tnl_diff`, `approve_tnl_diff`,
+          `verify` — let agents look up relevant contracts, propose contract edits, and verify implementations against
+          them. Drop-in via `npx typed-nl init` for Claude Code, Codex, Gemini.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: janaraj/tnl
     html_url: https://github.com/janaraj/tnl
-    created_at: "2026-04-22T19:34:00Z"
-    pushed_at: "2026-04-26T12:30:51Z"
-    description: Structured English contracts for AI coding agents — proposed by the agent, approved by you, saved on disk, read by every future session.
+    created_at: '2026-04-22T19:34:00Z'
+    pushed_at: '2026-04-26T12:30:51Z'
+    description: >-
+      Structured English contracts for AI coding agents — proposed by the agent, approved by you, saved on disk, read by
+      every future session.
     homepage: null
     topics:
       - agent-workflow
@@ -47,13 +55,17 @@ metadata:
       - mcp-server
       - specification
       - typed-natural-language
-    last_checked_at: "2026-07-30T05:05:47.646Z"
+    last_checked_at: '2026-07-30T05:05:47.646Z'
     readme:
-      fetched_at: "2026-07-30T05:05:47.646Z"
+      fetched_at: '2026-07-30T05:05:47.646Z'
       bytes: 15090
 insights:
-  summary: Structured English contracts for AI coding agents to propose, approve, and enforce feature specifications across sessions.
-  why_it_matters: It turns ephemeral agent plans into persistent, machine-checkable contracts that prevent drift and context loss between coding sessions.
+  summary: >-
+    Structured English contracts for AI coding agents to propose, approve, and enforce feature specifications across
+    sessions.
+  why_it_matters: >-
+    It turns ephemeral agent plans into persistent, machine-checkable contracts that prevent drift and context loss
+    between coding sessions.
   mental_damage: Finally, a way to make your AI coding agent read the spec before it rewrites your entire architecture.
   tags:
     - spec-driven
@@ -64,31 +76,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product is a spec-first workflow where structured contracts (TNL files) drive implementation and validation, fitting the spec-driven development category.
+  reason: >-
+    The core product is a spec-first workflow where structured contracts (TNL files) drive implementation and
+    validation, fitting the spec-driven development category.
   evidence:
     - Repo description explicitly describes it as 'Structured English contracts for AI coding agents'
     - README details a 7-field schema for contracts proposed by agents and approved by developers
     - Canonical positives for spec-driven-development include 'tnl' as an example
 placement:
-  primary_category: spec-driven-development
-  section: Spec-First Environments
+  primary_category: coding-agents
+  section: Spec-First & Plan-Execute
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:47.646Z"
+    updated_at: '2026-07-30T05:05:47.646Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:09:46.381Z"
+    updated_at: '2026-07-21T16:09:46.381Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -101,7 +115,9 @@ processing:
       input_hash: sha256:b6c7bda93fd3487d947120d64101dc76a292fb1a31c8b1c263f13f5408960243
       proposed_primary_category: spec-driven-development
       disagreement: false
-      decision_reason: The core product is a spec-first workflow where structured contracts (TNL files) drive implementation and validation, fitting the spec-driven development category.
+      decision_reason: >-
+        The core product is a spec-first workflow where structured contracts (TNL files) drive implementation and
+        validation, fitting the spec-driven development category.
       decision_evidence:
         - Repo description explicitly describes it as 'Structured English contracts for AI coding agents'
         - README details a 7-field schema for contracts proposed by agents and approved by developers
@@ -109,6 +125,8 @@ processing:
       category_candidates:
         - spec-driven-development
         - ai-dev-extensions
-      contrastive_reason: Choose spec-driven-development over ai-dev-extensions because the primary novelty is the contract schema and workflow, not the host integration layer (MCP is optional).
+      contrastive_reason: >-
+        Choose spec-driven-development over ai-dev-extensions because the primary novelty is the contract schema and
+        workflow, not the host integration layer (MCP is optional).
       review_reason: null
       review_resume_lifecycle: null

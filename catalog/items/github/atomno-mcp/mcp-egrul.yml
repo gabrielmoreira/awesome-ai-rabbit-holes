@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__atomno-labs__mcp-egrul__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,14 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: atomno-labs/mcp-egrul
         extracted_url: https://github.com/atomno-labs/mcp-egrul
-        surrounding_text: "- [atomno-labs/mcp-egrul](https://github.com/atomno-labs/mcp-egrul) [![atomno-labs/mcp-egrul MCP server](https://glama.ai/mcp/servers/atomno-labs/mcp-egrul/badges/score.svg)](https://glama.ai/mcp/servers/atomno-labs/mcp-egrul) 🐍 🏠 - Russian state registries EGRUL (legal entities) and EGRIP (individual entrepreneurs), built on official Federal Tax Service open-data dumps. Self-hosted via local SQLite, no API key required."
+        surrounding_text: >-
+          - [atomno-labs/mcp-egrul](https://github.com/atomno-labs/mcp-egrul) [![atomno-labs/mcp-egrul MCP
+          server](https://glama.ai/mcp/servers/atomno-labs/mcp-egrul/badges/score.svg)](https://glama.ai/mcp/servers/atomno-labs/mcp-egrul)
+          🐍 🏠 - Russian state registries EGRUL (legal entities) and EGRIP (individual entrepreneurs), built on
+          official Federal Tax Service open-data dumps. Self-hosted via local SQLite, no API key required.
         confidence: high
     - id: discovery__github__atomno-mcp__mcp-egrul__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-06T05:29:57.556Z"
+      discovered_at: '2026-07-06T05:29:57.556Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -36,7 +40,11 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: atomno-labs/mcp-egrul
         extracted_url: https://github.com/atomno-labs/mcp-egrul
-        surrounding_text: "- [atomno-labs/mcp-egrul](https://github.com/atomno-labs/mcp-egrul) [![atomno-labs/mcp-egrul MCP server](https://glama.ai/mcp/servers/atomno-labs/mcp-egrul/badges/score.svg)](https://glama.ai/mcp/servers/atomno-labs/mcp-egrul) 🐍 🏠 - Russian state registries EGRUL (legal entities) and EGRIP (individual entrepreneurs), built on official Federal Tax Service open-data dumps. Self-hosted via local SQLite, no API key required."
+        surrounding_text: >-
+          - [atomno-labs/mcp-egrul](https://github.com/atomno-labs/mcp-egrul) [![atomno-labs/mcp-egrul MCP
+          server](https://glama.ai/mcp/servers/atomno-labs/mcp-egrul/badges/score.svg)](https://glama.ai/mcp/servers/atomno-labs/mcp-egrul)
+          🐍 🏠 - Russian state registries EGRUL (legal entities) and EGRIP (individual entrepreneurs), built on
+          official Federal Tax Service open-data dumps. Self-hosted via local SQLite, no API key required.
         confidence: high
 metadata:
   github:
@@ -46,9 +54,11 @@ metadata:
     archived: false
     full_name: atomno-mcp/mcp-egrul
     html_url: https://github.com/atomno-mcp/mcp-egrul
-    created_at: "2026-04-25T08:01:43Z"
-    pushed_at: "2026-09-01T18:29:42Z"
-    description: "MCP-сервер ЕГРЮЛ и ЕГРИП: реквизиты компаний и ИП по открытым данным налоговой службы. Можно поставить у себя. Russian company registry MCP."
+    created_at: '2026-04-25T08:01:43Z'
+    pushed_at: '2026-09-01T18:29:42Z'
+    description: >-
+      MCP-сервер ЕГРЮЛ и ЕГРИП: реквизиты компаний и ИП по открытым данным налоговой службы. Можно поставить у себя.
+      Russian company registry MCP.
     homepage: null
     topics:
       - b2b
@@ -61,13 +71,17 @@ metadata:
       - model-context-protocol
       - opendata
       - russia
-    last_checked_at: "2026-09-14T04:13:24.096Z"
+    last_checked_at: '2026-09-14T04:13:24.096Z'
     readme:
-      fetched_at: "2026-09-14T04:13:24.096Z"
+      fetched_at: '2026-09-14T04:13:24.096Z'
       bytes: 19970
 insights:
-  summary: An MCP server providing access to Russian corporate and individual entrepreneur registries (EGRUL/EGRIP) via official FNS open-data dumps.
-  why_it_matters: It enables AI assistants to perform real-time business due diligence and entity lookups within a developer's IDE or terminal.
+  summary: >-
+    An MCP server providing access to Russian corporate and individual entrepreneur registries (EGRUL/EGRIP) via
+    official FNS open-data dumps.
+  why_it_matters: >-
+    It enables AI assistants to perform real-time business due diligence and entity lookups within a developer's IDE or
+    terminal.
   mental_damage: Another layer of required infrastructure to manage just so your LLM can tell you if a company actually exists.
   tags:
     - business-registry
@@ -80,7 +94,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a domain-specific MCP server exposing Russian business registry tools to AI assistants."
+  reason: >-
+    MCP is the product identity: this is a domain-specific MCP server exposing Russian business registry tools to AI
+    assistants.
   evidence:
     - Repo description explicitly identifies it as an MCP server for EGRUL/EGRIP lookups
     - README details seven MCP tools for business registry queries
@@ -90,14 +106,15 @@ curation:
     - Implementation uses the Model Context Protocol to expose FNS data
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:24:26.527Z"
+    updated_at: '2026-07-21T15:24:26.527Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -110,7 +127,9 @@ processing:
       input_hash: sha256:01de86e25ba57c20c13a6a704affd4b503e66ebe6abef11a1a15104d2eb1be14
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a domain-specific MCP server exposing Russian business registry tools to AI assistants."
+      decision_reason: >-
+        MCP is the product identity: this is a domain-specific MCP server exposing Russian business registry tools to AI
+        assistants.
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server for EGRUL/EGRIP lookups
         - README details seven MCP tools for business registry queries
@@ -118,16 +137,18 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain tools, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain tools, not an
+        extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-06T05:29:57.557Z"
+    updated_at: '2026-07-06T05:29:57.557Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:24.096Z"
+    updated_at: '2026-09-14T04:13:24.096Z'
     cause: null
     next_retry_at: null

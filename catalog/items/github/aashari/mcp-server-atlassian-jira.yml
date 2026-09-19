@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aashari__mcp-server-atlassian-jira__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: aashari/mcp-server-atlassian-jira
         extracted_url: https://github.com/aashari/mcp-server-atlassian-jira
-        surrounding_text: "- [aashari/mcp-server-atlassian-jira](https://github.com/aashari/mcp-server-atlassian-jira) 📇 ☁️ - Atlassian Jira Cloud integration. Enables AI systems to interact with Jira projects, issues, comments, and related development information in real time."
+        surrounding_text: >-
+          - [aashari/mcp-server-atlassian-jira](https://github.com/aashari/mcp-server-atlassian-jira) 📇 ☁️ - Atlassian
+          Jira Cloud integration. Enables AI systems to interact with Jira projects, issues, comments, and related
+          development information in real time.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,12 @@ metadata:
     archived: false
     full_name: aashari/mcp-server-atlassian-jira
     html_url: https://github.com/aashari/mcp-server-atlassian-jira
-    created_at: "2025-03-23T11:55:53Z"
-    pushed_at: "2026-03-06T07:29:55Z"
-    description: Node.js/TypeScript MCP server for Atlassian Jira. Equips AI systems (LLMs) with tools to list/get projects, search/get issues (using JQL/ID), and view dev info (commits, PRs). Connects AI capabilities directly into Jira project management and issue tracking workflows.
+    created_at: '2025-03-23T11:55:53Z'
+    pushed_at: '2026-03-06T07:29:55Z'
+    description: >-
+      Node.js/TypeScript MCP server for Atlassian Jira. Equips AI systems (LLMs) with tools to list/get projects,
+      search/get issues (using JQL/ID), and view dev info (commits, PRs). Connects AI capabilities directly into Jira
+      project management and issue tracking workflows.
     homepage: null
     topics:
       - ai
@@ -55,14 +61,20 @@ metadata:
       - tooling
       - tools
       - typescript
-    last_checked_at: "2026-09-17T04:13:28.072Z"
+    last_checked_at: '2026-09-17T04:13:28.072Z'
     readme:
-      fetched_at: "2026-09-17T04:13:28.072Z"
+      fetched_at: '2026-09-17T04:13:28.072Z'
       bytes: 15911
 insights:
-  summary: A Node.js/TypeScript MCP server that connects AI assistants to Atlassian Jira for managing issues, projects, and development workflows.
-  why_it_matters: It enables developers to use natural language to query Jira issues, update task statuses, and retrieve project context directly within AI interfaces like Claude Desktop or Cursor.
-  mental_damage: Because nothing says 'odern developer experience' quite like asking an LLM to find the ticket you were supposed to finish three days ago.
+  summary: >-
+    A Node.js/TypeScript MCP server that connects AI assistants to Atlassian Jira for managing issues, projects, and
+    development workflows.
+  why_it_matters: >-
+    It enables developers to use natural language to query Jira issues, update task statuses, and retrieve project
+    context directly within AI interfaces like Claude Desktop or Cursor.
+  mental_damage: >-
+    Because nothing says 'odern developer experience' quite like asking an LLM to find the ticket you were supposed to
+    finish three days ago.
   tags:
     - mcp
     - jira
@@ -72,31 +84,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's primary identity is a Model Context Protocol (MCP) server designed to provide specific domain capabilities (Jira) to an AI host.
+  reason: >-
+    The tool's primary identity is a Model Context Protocol (MCP) server designed to provide specific domain
+    capabilities (Jira) to an AI host.
   evidence:
     - Repo description identifies it specifically as an 'MCP server for Atlassian Jira'
     - README provides configuration patterns for MCP-compatible assistants like Claude Desktop
     - Core functionality is providing tool-calling capabilities to an external host
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.599Z"
+    updated_at: '2026-05-06T22:12:15.599Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:28.072Z"
+    updated_at: '2026-09-17T04:13:28.072Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:54:01.479Z"
+    updated_at: '2026-07-20T15:54:01.479Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -109,7 +124,9 @@ processing:
       input_hash: sha256:d7d6d5ce6c05f5ee97bc665bc1a51cd3a5c394249f9522c83854d04fc6257d38
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The tool's primary identity is a Model Context Protocol (MCP) server designed to provide specific domain capabilities (Jira) to an AI host.
+      decision_reason: >-
+        The tool's primary identity is a Model Context Protocol (MCP) server designed to provide specific domain
+        capabilities (Jira) to an AI host.
       decision_evidence:
         - Repo description identifies it specifically as an 'MCP server for Atlassian Jira'
         - README provides configuration patterns for MCP-compatible assistants like Claude Desktop
@@ -117,6 +134,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's identity is a protocol-compliant server meant to facilitate interaction via MCP rather than being a direct plugin for a specific IDE.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's identity is a protocol-compliant server meant to
+        facilitate interaction via MCP rather than being a direct plugin for a specific IDE.
       review_reason: null
       review_resume_lifecycle: null

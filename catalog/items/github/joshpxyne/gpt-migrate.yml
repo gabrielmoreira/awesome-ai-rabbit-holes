@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__joshpxyne__gpt-migrate__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,10 +19,10 @@ provenance:
           - GPT Migrate
         anchor_text: GPT Migrate
         extracted_url: https://github.com/0xpayne/gpt-migrate
-        surrounding_text: "## [GPT Migrate](https://github.com/0xpayne/gpt-migrate)"
+        surrounding_text: '## [GPT Migrate](https://github.com/0xpayne/gpt-migrate)'
         confidence: high
     - id: discovery__github__joshpxyne__gpt-migrate__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -35,7 +35,9 @@ provenance:
           - Other / Chatbots
         anchor_text: GPT Migrate
         extracted_url: https://github.com/0xpayne/gpt-migrate
-        surrounding_text: "- [GPT Migrate](https://github.com/0xpayne/gpt-migrate): Easily migrate your codebase from one framework or language to another."
+        surrounding_text: >-
+          - [GPT Migrate](https://github.com/0xpayne/gpt-migrate): Easily migrate your codebase from one framework or
+          language to another.
         confidence: high
 metadata:
   github:
@@ -45,19 +47,23 @@ metadata:
     archived: false
     full_name: joshpxyne/gpt-migrate
     html_url: https://github.com/joshpxyne/gpt-migrate
-    created_at: "2023-06-24T22:17:12Z"
-    pushed_at: "2024-09-17T23:13:51Z"
+    created_at: '2023-06-24T22:17:12Z'
+    pushed_at: '2024-09-17T23:13:51Z'
     description: Easily migrate your codebase from one framework or language to another.
     homepage: https://gpt-migrate.com
     topics: []
-    last_checked_at: "2026-07-30T05:05:52.045Z"
+    last_checked_at: '2026-07-30T05:05:52.045Z'
     readme:
-      fetched_at: "2026-07-30T05:05:52.045Z"
+      fetched_at: '2026-07-30T05:05:52.045Z'
       bytes: 10078
 insights:
   summary: A CLI tool that uses LLMs to migrate codebases between frameworks or programming languages.
-  why_it_matters: It automates the tedious and error-prone process of porting entire codebases, saving developers significant time and effort during major tech stack transitions.
-  mental_damage: Finally, a way to turn your legacy Python monolith into Node.js spaghetti with the same confidence you’d have in a Stack Overflow answer from 2012.
+  why_it_matters: >-
+    It automates the tedious and error-prone process of porting entire codebases, saving developers significant time and
+    effort during major tech stack transitions.
+  mental_damage: >-
+    Finally, a way to turn your legacy Python monolith into Node.js spaghetti with the same confidence you’d have in a
+    Stack Overflow answer from 2012.
   tags:
     - code-migration
     - cli
@@ -67,13 +73,16 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool directly reads, plans, and rewrites code across a repo as its primary function, fitting the definition of a coding assistant.
+  reason: >-
+    The tool directly reads, plans, and rewrites code across a repo as its primary function, fitting the definition of a
+    coding assistant.
   evidence:
     - Repo description explicitly states it migrates codebases between frameworks/languages
     - README details CLI usage for migrating entire directories of code
     - Active development (pushed 2024-09-17) with 6981 stars
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -81,17 +90,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.588Z"
+    updated_at: '2026-05-06T22:12:15.588Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:52.045Z"
+    updated_at: '2026-07-30T05:05:52.045Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:11:14.596Z"
+    updated_at: '2026-07-21T16:11:14.596Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,7 +113,9 @@ processing:
       input_hash: sha256:ce722893ab46e2b1d6c0323cea5fa9bb40062bcda3e0c148d1d89776e53634ef
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: The tool directly reads, plans, and rewrites code across a repo as its primary function, fitting the definition of a coding assistant.
+      decision_reason: >-
+        The tool directly reads, plans, and rewrites code across a repo as its primary function, fitting the definition
+        of a coding assistant.
       decision_evidence:
         - Repo description explicitly states it migrates codebases between frameworks/languages
         - README details CLI usage for migrating entire directories of code
@@ -112,6 +123,8 @@ processing:
       category_candidates:
         - coding-agents
         - app-builders
-      contrastive_reason: Choose coding-agents over app-builders because the tool edits existing codebases rather than generating new apps from prompts.
+      contrastive_reason: >-
+        Choose coding-agents over app-builders because the tool edits existing codebases rather than generating new apps
+        from prompts.
       review_reason: null
       review_resume_lifecycle: null

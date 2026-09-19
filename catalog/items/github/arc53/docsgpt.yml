@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__arc53__docsgpt__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,7 +20,9 @@ provenance:
           - Knowledge Management
         anchor_text: DocsGPT
         extracted_url: https://github.com/arc53/docsgpt
-        surrounding_text: "- [DocsGPT](https://github.com/arc53/docsgpt): GPT-powered chat for documentation search & assistance. ![GitHub Repo stars](https://img.shields.io/github/stars/arc53/docsgpt?style=social)"
+        surrounding_text: >-
+          - [DocsGPT](https://github.com/arc53/docsgpt): GPT-powered chat for documentation search & assistance.
+          ![GitHub Repo stars](https://img.shields.io/github/stars/arc53/docsgpt?style=social)
         confidence: high
 metadata:
   github:
@@ -30,9 +32,11 @@ metadata:
     archived: false
     full_name: arc53/DocsGPT
     html_url: https://github.com/arc53/DocsGPT
-    created_at: "2023-02-02T11:03:23Z"
-    pushed_at: "2026-09-09T17:48:59Z"
-    description: Private AI platform for agents, assistants and enterprise search. Built-in Agent Builder, Deep research, Document analysis, Multi-model support, and API connectivity for agents.
+    created_at: '2023-02-02T11:03:23Z'
+    pushed_at: '2026-09-09T17:48:59Z'
+    description: >-
+      Private AI platform for agents, assistants and enterprise search. Built-in Agent Builder, Deep research, Document
+      analysis, Multi-model support, and API connectivity for agents.
     homepage: https://app.docsgpt.cloud/
     topics:
       - agent-builder
@@ -54,14 +58,20 @@ metadata:
       - search
       - semantic-search
       - transformers
-    last_checked_at: "2026-09-10T04:12:57.541Z"
+    last_checked_at: '2026-09-10T04:12:57.541Z'
     readme:
-      fetched_at: "2026-09-10T04:12:57.541Z"
+      fetched_at: '2026-09-10T04:12:57.541Z'
       bytes: 8450
 insights:
-  summary: Open-source AI platform for building intelligent agents, assistants, and enterprise search with document analysis, multi-model support, and API connectivity.
-  why_it_matters: Developers can deploy private, customizable agents with deep research and document analysis capabilities, integrating multiple data sources and models.
-  mental_damage: Finally, a way to turn your entire knowledge base into an agent that might still hallucinate but will cite its sources.
+  summary: >-
+    Open-source AI platform for building intelligent agents, assistants, and enterprise search with document analysis,
+    multi-model support, and API connectivity.
+  why_it_matters: >-
+    Developers can deploy private, customizable agents with deep research and document analysis capabilities,
+    integrating multiple data sources and models.
+  mental_damage: >-
+    Finally, a way to turn your entire knowledge base into an agent that might still hallucinate but will cite its
+    sources.
   tags:
     - agent-builder
     - enterprise-search
@@ -71,31 +81,37 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a platform for building and coordinating agents with workflows, document analysis, and multi-model support, fitting the agent orchestration category.
+  reason: >-
+    The product is a platform for building and coordinating agents with workflows, document analysis, and multi-model
+    support, fitting the agent orchestration category.
   evidence:
-    - "Repo description: 'Private AI platform for agents, assistants and enterprise search. Built-in Agent Builder, Deep research, Document analysis, Multi-model support, and API connectivity for agents.'"
-    - "README highlights: Agent Workflow Builder, multi-model support, API connectivity, and enterprise-grade deployment."
-    - "Source-list context: Listed in awesome-langchain under 'Open Source Projects > Knowledge Management' as a tool for building agents."
+    - >-
+      Repo description: 'Private AI platform for agents, assistants and enterprise search. Built-in Agent Builder, Deep
+      research, Document analysis, Multi-model support, and API connectivity for agents.'
+    - 'README highlights: Agent Workflow Builder, multi-model support, API connectivity, and enterprise-grade deployment.'
+    - >-
+      Source-list context: Listed in awesome-langchain under 'Open Source Projects > Knowledge Management' as a tool for
+      building agents.
 placement:
   primary_category: agent-orchestration
-  section: Workbenches & Collaboration Surfaces
+  section: Visual Builders & Workbenches
 lifecycle:
   status: promotion_candidate
   reason: Stars (17870) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.603Z"
+    updated_at: '2026-05-06T22:12:15.603Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:12:57.541Z"
+    updated_at: '2026-09-10T04:12:57.541Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:23:43.996Z"
+    updated_at: '2026-07-21T15:23:43.996Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -108,14 +124,24 @@ processing:
       input_hash: sha256:c4ead35c12f6bea495b6a6e58bc304da0fd2a6892790177807c26239c0265eb4
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The product is a platform for building and coordinating agents with workflows, document analysis, and multi-model support, fitting the agent orchestration category.
+      decision_reason: >-
+        The product is a platform for building and coordinating agents with workflows, document analysis, and
+        multi-model support, fitting the agent orchestration category.
       decision_evidence:
-        - "Repo description: 'Private AI platform for agents, assistants and enterprise search. Built-in Agent Builder, Deep research, Document analysis, Multi-model support, and API connectivity for agents.'"
-        - "README highlights: Agent Workflow Builder, multi-model support, API connectivity, and enterprise-grade deployment."
-        - "Source-list context: Listed in awesome-langchain under 'Open Source Projects > Knowledge Management' as a tool for building agents."
+        - >-
+          Repo description: 'Private AI platform for agents, assistants and enterprise search. Built-in Agent Builder,
+          Deep research, Document analysis, Multi-model support, and API connectivity for agents.'
+        - >-
+          README highlights: Agent Workflow Builder, multi-model support, API connectivity, and enterprise-grade
+          deployment.
+        - >-
+          Source-list context: Listed in awesome-langchain under 'Open Source Projects > Knowledge Management' as a tool
+          for building agents.
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because the primary product is an operated workbench for building and coordinating agents, not a code-first library or SDK.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because the primary product is an operated workbench for building
+        and coordinating agents, not a code-first library or SDK.
       review_reason: null
       review_resume_lifecycle: null

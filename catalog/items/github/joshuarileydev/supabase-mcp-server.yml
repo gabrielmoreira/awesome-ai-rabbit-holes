@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__joshuarileydev__supabase-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: joshuarileydev/supabase-mcp-server
         extracted_url: https://github.com/joshuarileydev/supabase
-        surrounding_text: "- [joshuarileydev/supabase-mcp-server](https://github.com/joshuarileydev/supabase) - Supabase MCP Server for managing and creating projects and organisations in Supabase"
+        surrounding_text: >-
+          - [joshuarileydev/supabase-mcp-server](https://github.com/joshuarileydev/supabase) - Supabase MCP Server for
+          managing and creating projects and organisations in Supabase
         confidence: high
     - id: discovery__github__joshuarileydev__supabase-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -33,9 +35,12 @@ provenance:
         mode: parsed
         section_path:
           - 🗄️ Databases
-        anchor_text: "@joshuarileydev/supabase-mcp-server"
+        anchor_text: '@joshuarileydev/supabase-mcp-server'
         extracted_url: https://github.com/joshuarileydev/supabase
-        surrounding_text: "-   **[@joshuarileydev/supabase-mcp-server](https://github.com/joshuarileydev/supabase)** [![GitHub stars](https://img.shields.io/github/stars/joshuarileydev/supabase?style=social)](https://github.com/joshuarileydev/supabase): Manages Supabase projects and organizations."
+        surrounding_text: >-
+          -   **[@joshuarileydev/supabase-mcp-server](https://github.com/joshuarileydev/supabase)** [![GitHub
+          stars](https://img.shields.io/github/stars/joshuarileydev/supabase?style=social)](https://github.com/joshuarileydev/supabase):
+          Manages Supabase projects and organizations.
         confidence: high
 metadata:
   github:
@@ -45,18 +50,20 @@ metadata:
     archived: false
     full_name: JoshuaRileyDev/supabase-mcp-server
     html_url: https://github.com/JoshuaRileyDev/supabase-mcp-server
-    created_at: "2024-12-06T19:34:36Z"
-    pushed_at: "2024-12-06T20:03:44Z"
+    created_at: '2024-12-06T19:34:36Z'
+    pushed_at: '2024-12-06T20:03:44Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:52.248Z"
+    last_checked_at: '2026-07-30T05:05:52.248Z'
     readme:
-      fetched_at: "2026-07-30T05:05:52.248Z"
+      fetched_at: '2026-07-30T05:05:52.248Z'
       bytes: 807
 insights:
   summary: An MCP server that exposes the Supabase Management API for programmatic access by AI models and other clients.
-  why_it_matters: Developers can integrate Supabase project and organization management directly into their AI workflows via a standardized MCP interface.
+  why_it_matters: >-
+    Developers can integrate Supabase project and organization management directly into their AI workflows via a
+    standardized MCP interface.
   mental_damage: Now your AI can spin up and nuke Supabase projects with the same ease it refactors your code.
   tags:
     - mcp
@@ -67,31 +74,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose core identity is providing Supabase Management API access via MCP, fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is an MCP-first server whose core identity is providing Supabase Management API access via MCP, fitting the MCP
+    Servers & Tooling category.
   evidence:
     - README explicitly describes it as a Model Context Protocol (MCP) server for Supabase Management API
     - Source lists categorize it under MCP servers in database sections
     - Installation instructions show MCP server configuration for Claude
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.588Z"
+    updated_at: '2026-05-06T22:12:15.588Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:52.248Z"
+    updated_at: '2026-07-30T05:05:52.248Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:11:17.337Z"
+    updated_at: '2026-07-21T16:11:17.337Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,7 +114,9 @@ processing:
       input_hash: sha256:adaaad38639083d56da20197d0aa71a0302787e070ca23cbcd485219ddefc1ee
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server whose core identity is providing Supabase Management API access via MCP, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is an MCP-first server whose core identity is providing Supabase Management API access via MCP, fitting the
+        MCP Servers & Tooling category.
       decision_evidence:
         - README explicitly describes it as a Model Context Protocol (MCP) server for Supabase Management API
         - Source lists categorize it under MCP servers in database sections
@@ -112,6 +124,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary product identity is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary product identity is an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

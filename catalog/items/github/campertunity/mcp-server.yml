@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__campertunity__mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: Campertunity
         extracted_url: https://github.com/campertunity/mcp-server
-        surrounding_text: "- **[Campertunity](https://github.com/campertunity/mcp-server)** - Search campgrounds around the world on campertunity, check availability, and provide booking links."
+        surrounding_text: >-
+          - **[Campertunity](https://github.com/campertunity/mcp-server)** - Search campgrounds around the world on
+          campertunity, check availability, and provide booking links.
         confidence: high
 metadata:
   github:
@@ -29,18 +31,20 @@ metadata:
     archived: false
     full_name: campertunity/mcp-server
     html_url: https://github.com/campertunity/mcp-server
-    created_at: "2025-05-10T04:32:57Z"
-    pushed_at: "2026-04-15T04:22:05Z"
+    created_at: '2025-05-10T04:32:57Z'
+    pushed_at: '2026-04-15T04:22:05Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:41.104Z"
+    last_checked_at: '2026-09-07T04:13:41.104Z'
     readme:
-      fetched_at: "2026-09-07T04:13:41.104Z"
+      fetched_at: '2026-09-07T04:13:41.104Z'
       bytes: 3900
 insights:
   summary: An MCP server and agent skill pack for AI-powered campground discovery, search, and booking.
-  why_it_matters: Developers integrating AI agents with travel or outdoor recreation workflows can use this to add campground search and booking capabilities via MCP or skill files.
+  why_it_matters: >-
+    Developers integrating AI agents with travel or outdoor recreation workflows can use this to add campground search
+    and booking capabilities via MCP or skill files.
   mental_damage: Now your coding agent can also plan your weekend getaway, because why should it stop at debugging your loops.
   tags:
     - mcp-server
@@ -50,31 +54,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The primary product identity is an MCP server with domain-specific tools for campground discovery, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The primary product identity is an MCP server with domain-specific tools for campground discovery, fitting the MCP
+    Servers & Tooling category.
   evidence:
     - README explicitly describes an MCP server with tools for campground search, details, availability, and booking
     - Includes agent skill files compatible with OpenClaw, Claude Code, and other agent platforms
     - Listed in awesome-mcp-servers under Official Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.607Z"
+    updated_at: '2026-05-06T22:12:15.607Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:41.104Z"
+    updated_at: '2026-09-07T04:13:41.104Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:40:41.045Z"
+    updated_at: '2026-07-21T15:40:41.045Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,7 +93,9 @@ processing:
       input_hash: sha256:db637dd9acc13864411d061bf394b43ec08cf4e736ca8d9cbdcaefa4c6116ece
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The primary product identity is an MCP server with domain-specific tools for campground discovery, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The primary product identity is an MCP server with domain-specific tools for campground discovery, fitting the
+        MCP Servers & Tooling category.
       decision_evidence:
         - README explicitly describes an MCP server with tools for campground search, details, availability, and booking
         - Includes agent skill files compatible with OpenClaw, Claude Code, and other agent platforms
@@ -95,6 +103,8 @@ processing:
       category_candidates:
         - mcp
         - skills
-      contrastive_reason: Choose mcp over skills because the core product is an MCP server with domain-specific tools, while the skill files are a secondary integration method.
+      contrastive_reason: >-
+        Choose mcp over skills because the core product is an MCP server with domain-specific tools, while the skill
+        files are a secondary integration method.
       review_reason: null
       review_resume_lifecycle: null

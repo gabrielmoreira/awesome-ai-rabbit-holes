@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__anypost__emailmd__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-27T05:20:52.308Z"
+      discovered_at: '2026-07-27T05:20:52.308Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: anypost/emailmd
         extracted_url: https://github.com/anypost/emailmd
-        surrounding_text: "- [anypost/emailmd](https://github.com/anypost/emailmd) [![anypost/emailmd MCP server](https://glama.ai/mcp/servers/anypost/emailmd/badges/score.svg)](https://glama.ai/mcp/servers/anypost/emailmd) 📇 ☁️ 🏠 - Write and preview emails from your assistant. Renders markdown into email-safe HTML that holds up in Outlook and Gmail, lints drafts for deliverability problems, and returns a live preview link. Hosted with no API key, or run it locally with `npx emailmd mcp`."
+        surrounding_text: >-
+          - [anypost/emailmd](https://github.com/anypost/emailmd) [![anypost/emailmd MCP
+          server](https://glama.ai/mcp/servers/anypost/emailmd/badges/score.svg)](https://glama.ai/mcp/servers/anypost/emailmd)
+          📇 ☁️ 🏠 - Write and preview emails from your assistant. Renders markdown into email-safe HTML that holds up
+          in Outlook and Gmail, lints drafts for deliverability problems, and returns a live preview link. Hosted with
+          no API key, or run it locally with `npx emailmd mcp`.
         confidence: high
 metadata:
   github:
@@ -30,18 +35,20 @@ metadata:
     archived: false
     full_name: anypost/emailmd
     html_url: https://github.com/anypost/emailmd
-    created_at: "2026-02-16T02:42:43Z"
-    pushed_at: "2026-08-26T19:42:32Z"
+    created_at: '2026-02-16T02:42:43Z'
+    pushed_at: '2026-08-26T19:42:32Z'
     description: Render markdown into email-safe HTML
     homepage: https://www.emailmd.dev/
     topics: []
-    last_checked_at: "2026-09-10T04:12:55.316Z"
+    last_checked_at: '2026-09-10T04:12:55.316Z'
     readme:
-      fetched_at: "2026-09-10T04:12:55.316Z"
+      fetched_at: '2026-09-10T04:12:55.316Z'
       bytes: 3745
 insights:
   summary: emailmd converts markdown into responsive, email-safe HTML for cross-client email rendering.
-  why_it_matters: It eliminates the pain of writing raw HTML for emails by letting developers use familiar markdown syntax while ensuring deliverability across email clients.
+  why_it_matters: >-
+    It eliminates the pain of writing raw HTML for emails by letting developers use familiar markdown syntax while
+    ensuring deliverability across email clients.
   mental_damage: Finally, a tool that acknowledges email HTML is a war crime and offers markdown as a fragile ceasefire.
   tags:
     - markdown
@@ -52,33 +59,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: emailmd is primarily an MCP server and utility that augments AI assistants with email rendering capabilities, making it an extension rather than a standalone coding agent or framework.
+  reason: >-
+    emailmd is primarily an MCP server and utility that augments AI assistants with email rendering capabilities, making
+    it an extension rather than a standalone coding agent or framework.
   evidence:
-    - "Repo description: 'Render markdown into email-safe HTML'"
-    - "README: 'emailmd ships a Model Context Protocol server, so an AI assistant can render, lint, and preview emails for you'"
-    - "Source-list context: listed in awesome-mcp-servers under Communication section"
+    - 'Repo description: ''Render markdown into email-safe HTML'''
+    - >-
+      README: 'emailmd ships a Model Context Protocol server, so an AI assistant can render, lint, and preview emails
+      for you'
+    - 'Source-list context: listed in awesome-mcp-servers under Communication section'
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: mcp
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: promotion_candidate
   reason: Stars (1287) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-07-27T05:20:52.309Z"
+    updated_at: '2026-07-27T05:20:52.309Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-17T04:13:45.888Z"
+    updated_at: '2026-09-17T04:13:45.888Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for anypost/emailmd
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:25:03.149Z"
+    updated_at: '2026-08-27T06:25:03.149Z'
     cause: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
@@ -87,15 +99,21 @@ processing:
       input_hash: sha256:0b1f1007e777433dddb7d48f7fc4a3cb3f244dff89f85ae5a3f822d124b65f6b
       proposed_primary_category: ai-dev-extensions
       disagreement: false
-      decision_reason: emailmd is primarily an MCP server and utility that augments AI assistants with email rendering capabilities, making it an extension rather than a standalone coding agent or framework.
+      decision_reason: >-
+        emailmd is primarily an MCP server and utility that augments AI assistants with email rendering capabilities,
+        making it an extension rather than a standalone coding agent or framework.
       decision_evidence:
-        - "Repo description: 'Render markdown into email-safe HTML'"
-        - "README: 'emailmd ships a Model Context Protocol server, so an AI assistant can render, lint, and preview emails for you'"
-        - "Source-list context: listed in awesome-mcp-servers under Communication section"
+        - 'Repo description: ''Render markdown into email-safe HTML'''
+        - >-
+          README: 'emailmd ships a Model Context Protocol server, so an AI assistant can render, lint, and preview
+          emails for you'
+        - 'Source-list context: listed in awesome-mcp-servers under Communication section'
       category_candidates:
         - ai-dev-extensions
         - mcp
-      contrastive_reason: Choose ai-dev-extensions over mcp because while emailmd includes an MCP server, its primary identity is as a markdown-to-HTML conversion tool that extends AI assistants, not as MCP-first infrastructure.
+      contrastive_reason: >-
+        Choose ai-dev-extensions over mcp because while emailmd includes an MCP server, its primary identity is as a
+        markdown-to-HTML conversion tool that extends AI assistants, not as MCP-first infrastructure.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

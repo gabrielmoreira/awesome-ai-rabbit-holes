@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gregario__onepiece-oracle__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: gregario/onepiece-oracle
         extracted_url: https://github.com/gregario/onepiece-oracle
-        surrounding_text: "- [gregario/onepiece-oracle](https://github.com/gregario/onepiece-oracle) [![onepiece-oracle MCP server](https://glama.ai/mcp/servers/gregario/onepiece-oracle/badges/score.svg)](https://glama.ai/mcp/servers/gregario/onepiece-oracle) 📇 🏠 - One Piece TCG card search, deck analysis, cost curves, leader browsing, and counter strategy tools. 6 tools, 4,348 cards embedded."
+        surrounding_text: >-
+          - [gregario/onepiece-oracle](https://github.com/gregario/onepiece-oracle) [![onepiece-oracle MCP
+          server](https://glama.ai/mcp/servers/gregario/onepiece-oracle/badges/score.svg)](https://glama.ai/mcp/servers/gregario/onepiece-oracle)
+          📇 🏠 - One Piece TCG card search, deck analysis, cost curves, leader browsing, and counter strategy tools. 6
+          tools, 4,348 cards embedded.
         confidence: high
 metadata:
   github:
@@ -30,18 +34,20 @@ metadata:
     archived: false
     full_name: gregario/onepiece-oracle
     html_url: https://github.com/gregario/onepiece-oracle
-    created_at: "2026-03-16T21:01:16Z"
-    pushed_at: "2026-05-02T20:59:06Z"
+    created_at: '2026-03-16T21:01:16Z'
+    pushed_at: '2026-05-02T20:59:06Z'
     description: One Piece TCG MCP server — card search, deck analysis, and set browsing for the One Piece Card Game
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:54.705Z"
+    last_checked_at: '2026-09-03T05:16:54.705Z'
     readme:
-      fetched_at: "2026-09-03T05:16:54.705Z"
+      fetched_at: '2026-09-03T05:16:54.705Z'
       bytes: 2744
 insights:
   summary: An MCP server providing card search, deck analysis, and set browsing for the One Piece Card Game.
-  why_it_matters: It exposes structured game data to AI assistants via MCP, enabling developers to build or query One Piece TCG tools programmatically.
+  why_it_matters: >-
+    It exposes structured game data to AI assistants via MCP, enabling developers to build or query One Piece TCG tools
+    programmatically.
   mental_damage: Now your AI can tell you why your Donquixote deck still loses to Luffy.
   tags:
     - mcp-server
@@ -51,31 +57,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a domain-specific MCP server exposing card data and analysis tools."
+  reason: 'MCP is the product identity: this is a domain-specific MCP server exposing card data and analysis tools.'
   evidence:
     - Repo description explicitly labels it as a 'One Piece TCG MCP server'
     - README details MCP tools like search_cards, browse_sets, and analyze_cost_curve
     - Includes MCP compatibility badge and installation instructions for Claude Desktop/Code
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.617Z"
+    updated_at: '2026-05-06T22:12:15.617Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:54.705Z"
+    updated_at: '2026-09-03T05:16:54.705Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:04:15.301Z"
+    updated_at: '2026-07-21T16:04:15.301Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +95,7 @@ processing:
       input_hash: sha256:c3d0728eae60d9c99470e766604a13707e491dd7e7655962a4a83471f683ce41
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a domain-specific MCP server exposing card data and analysis tools."
+      decision_reason: 'MCP is the product identity: this is a domain-specific MCP server exposing card data and analysis tools.'
       decision_evidence:
         - Repo description explicitly labels it as a 'One Piece TCG MCP server'
         - README details MCP tools like search_cards, browse_sets, and analyze_cost_curve
@@ -96,6 +103,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

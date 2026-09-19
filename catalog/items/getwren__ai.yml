@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__getwren__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Wren
         anchor_text: Wren
         extracted_url: https://www.getwren.ai
-        surrounding_text: "## [Wren](https://www.getwren.ai/)"
+        surrounding_text: '## [Wren](https://www.getwren.ai/)'
         confidence: high
 metadata:
   github:
@@ -36,8 +36,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Wren AI is an open-source GenBI platform that converts natural language into governed text-to-SQL and structured insights across multiple data sources.
-  why_it_matters: It allows developers to build agentic data interfaces that bridge the gap between raw databases and human-readable analytics with built-in governance.
+  summary: >-
+    Wren AI is an open-source GenBI platform that converts natural language into governed text-to-SQL and structured
+    insights across multiple data sources.
+  why_it_matters: >-
+    It allows developers to build agentic data interfaces that bridge the gap between raw databases and human-readable
+    analytics with built-in governance.
   mental_damage: Now you have to decide whether to trust your agent's SQL query or spend the afternoon auditing its semantic model.
   tags:
     - genbi
@@ -55,6 +59,7 @@ curation:
     - Focuses on generating GenBI apps and structured insights
 placement:
   primary_category: app-builders
+  secondary_categories: []
   section: Internal Tools & Dashboards
 lifecycle:
   status: incubating
@@ -62,7 +67,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +76,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:47:15.808Z"
+    updated_at: '2026-07-20T15:47:15.808Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -92,6 +97,8 @@ processing:
       category_candidates:
         - app-builders
         - ai-frameworks
-      contrastive_reason: Choose app-builders over ai-frameworks because the primary user experience is centered on creating interactive dashboards and internal tools via natural language rather than importing a library.
+      contrastive_reason: >-
+        Choose app-builders over ai-frameworks because the primary user experience is centered on creating interactive
+        dashboards and internal tools via natural language rather than importing a library.
       review_reason: null
       review_resume_lifecycle: null

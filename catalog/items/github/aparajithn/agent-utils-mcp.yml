@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aparajithn__agent-utils-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: aparajithn/agent-utils-mcp
         extracted_url: https://github.com/aparajithn/agent-utils-mcp
-        surrounding_text: "- [aparajithn/agent-utils-mcp](https://github.com/aparajithn/agent-utils-mcp) [![agent-utils-mcp MCP server](https://glama.ai/mcp/servers/@aparajithn/agent-utils-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@aparajithn/agent-utils-mcp) 🐍 ☁️ - Swiss-army-knife utility server for AI agents. 18 tools including JSON validation, base64, hashing, UUID generation, regex testing, markdown conversion, datetime conversion, cron parsing, CSV/JSON conversion, JWT decoding, and more. Streamable HTTP MCP + REST API with x402 micropayments."
+        surrounding_text: >-
+          - [aparajithn/agent-utils-mcp](https://github.com/aparajithn/agent-utils-mcp) [![agent-utils-mcp MCP
+          server](https://glama.ai/mcp/servers/@aparajithn/agent-utils-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@aparajithn/agent-utils-mcp)
+          🐍 ☁️ - Swiss-army-knife utility server for AI agents. 18 tools including JSON validation, base64, hashing,
+          UUID generation, regex testing, markdown conversion, datetime conversion, cron parsing, CSV/JSON conversion,
+          JWT decoding, and more. Streamable HTTP MCP + REST API with x402 micropayments.
         confidence: high
 metadata:
   github:
@@ -30,18 +35,22 @@ metadata:
     archived: false
     full_name: aparajithn/agent-utils-mcp
     html_url: https://github.com/aparajithn/agent-utils-mcp
-    created_at: "2026-03-05T13:15:19Z"
-    pushed_at: "2026-03-07T07:13:56Z"
+    created_at: '2026-03-05T13:15:19Z'
+    pushed_at: '2026-03-07T07:13:56Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-10T04:12:56.280Z"
+    last_checked_at: '2026-09-10T04:12:56.280Z'
     readme:
-      fetched_at: "2026-09-10T04:12:56.280Z"
+      fetched_at: '2026-09-10T04:12:56.280Z'
       bytes: 2911
 insights:
-  summary: A Swiss-army-knife MCP server offering 18 utility tools (JSON validation, base64, hashing, datetime conversion, etc.) via MCP and REST API.
-  why_it_matters: Developers can offload common text/format utilities to an AI agent without writing boilerplate, using either MCP or direct HTTP calls.
+  summary: >-
+    A Swiss-army-knife MCP server offering 18 utility tools (JSON validation, base64, hashing, datetime conversion,
+    etc.) via MCP and REST API.
+  why_it_matters: >-
+    Developers can offload common text/format utilities to an AI agent without writing boilerplate, using either MCP or
+    direct HTTP calls.
   mental_damage: Finally, a way to make your AI agent argue with itself about whether that regex is valid.
   tags:
     - mcp-server
@@ -51,31 +60,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server exposing utility tools, not a compatibility footnote or broader platform."
+  reason: >-
+    MCP is the product identity: this is a dedicated MCP server exposing utility tools, not a compatibility footnote or
+    broader platform.
   evidence:
     - README explicitly positions it as an MCP server with 18 tools
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
     - Supports MCP Streamable HTTP and REST API endpoints
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.602Z"
+    updated_at: '2026-05-06T22:12:15.602Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:12:56.280Z"
+    updated_at: '2026-09-10T04:12:56.280Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:23:32.221Z"
+    updated_at: '2026-07-21T15:23:32.221Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -88,7 +100,9 @@ processing:
       input_hash: sha256:e25c10e28b002e26a4976843b1c2017a6f154cacaa79b18a92ead4e32b0906ab
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing utility tools, not a compatibility footnote or broader platform."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server exposing utility tools, not a compatibility footnote
+        or broader platform.
       decision_evidence:
         - README explicitly positions it as an MCP server with 18 tools
         - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
@@ -96,6 +110,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

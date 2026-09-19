@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__perplexityai__modelcontextprotocol__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: Perplexity
         extracted_url: https://github.com/ppl-ai/modelcontextprotocol
-        surrounding_text: "- **[Perplexity](https://github.com/ppl-ai/modelcontextprotocol)** - An MCP server that connects to Perplexity's Sonar API, enabling real-time web-wide research in conversational AI."
+        surrounding_text: >-
+          - **[Perplexity](https://github.com/ppl-ai/modelcontextprotocol)** - An MCP server that connects to
+          Perplexity's Sonar API, enabling real-time web-wide research in conversational AI.
         confidence: high
 metadata:
   github:
@@ -29,19 +31,25 @@ metadata:
     archived: false
     full_name: perplexityai/modelcontextprotocol
     html_url: https://github.com/perplexityai/modelcontextprotocol
-    created_at: "2025-03-10T19:44:02Z"
-    pushed_at: "2026-06-17T01:19:42Z"
+    created_at: '2025-03-10T19:44:02Z'
+    pushed_at: '2026-06-17T01:19:42Z'
     description: The official MCP server implementation for the Perplexity API Platform
     homepage: https://docs.perplexity.ai/guides/mcp-server
     topics: []
-    last_checked_at: "2026-07-20T16:42:32.646Z"
+    last_checked_at: '2026-07-20T16:42:32.646Z'
     readme:
-      fetched_at: "2026-07-20T16:42:32.646Z"
+      fetched_at: '2026-07-20T16:42:32.646Z'
       bytes: 8596
 insights:
-  summary: The official MCP server implementation for the Perplexity API Platform, exposing Sonar models and search capabilities as tools for AI assistants.
-  why_it_matters: It gives coding agents and IDEs a standardized way to delegate real-time web search, deep research, and advanced reasoning to Perplexity models via the Model Context Protocol.
-  mental_damage: Another officially blessed MCP server, ensuring your agent can now hallucinate with the confidence of a search engine instead of just its training data.
+  summary: >-
+    The official MCP server implementation for the Perplexity API Platform, exposing Sonar models and search
+    capabilities as tools for AI assistants.
+  why_it_matters: >-
+    It gives coding agents and IDEs a standardized way to delegate real-time web search, deep research, and advanced
+    reasoning to Perplexity models via the Model Context Protocol.
+  mental_damage: >-
+    Another officially blessed MCP server, ensuring your agent can now hallucinate with the confidence of a search
+    engine instead of just its training data.
   tags:
     - mcp
     - perplexity
@@ -51,35 +59,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server that exposes Perplexity search and reasoning tools, matching the MCP Servers & Tooling category and Domain Servers section.
+  reason: >-
+    The product is an MCP server that exposes Perplexity search and reasoning tools, matching the MCP Servers & Tooling
+    category and Domain Servers section.
   evidence:
-    - "Repo description states: 'The official MCP server implementation for the Perplexity API Platform'"
+    - 'Repo description states: ''The official MCP server implementation for the Perplexity API Platform'''
     - README lists tools perplexity_search, perplexity_ask, perplexity_research, and perplexity_reason accessed via MCP
     - Listed in awesome-mcp-servers under 'Official Servers', confirming ecosystem placement
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: promotion_candidate
   reason: Stars (2152) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.642Z"
+    updated_at: '2026-05-06T22:12:15.642Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:32.646Z"
+    updated_at: '2026-07-20T16:42:32.646Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

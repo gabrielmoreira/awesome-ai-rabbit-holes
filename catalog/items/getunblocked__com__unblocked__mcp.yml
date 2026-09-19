@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__getunblocked__com__unblocked__mcp__awesome-list__patrickjs__awesome-cursorrules
-      discovered_at: "2026-05-14T05:20:10.208Z"
+      discovered_at: '2026-05-14T05:20:10.208Z'
       source:
         type: awesome-list
         name: PatrickJS/awesome-cursorrules
@@ -19,7 +19,10 @@ provenance:
           - Sponsorships
         anchor_text: Unblocked MCP
         extracted_url: https://getunblocked.com/unblocked-mcp
-        surrounding_text: "- [Unblocked MCP](https://getunblocked.com/unblocked-mcp/?utm_source=oss&utm_medium=sponsorship&utm_campaign=awesome-cursorrules) - Team knowledge for Cursor workflows."
+        surrounding_text: >-
+          - [Unblocked
+          MCP](https://getunblocked.com/unblocked-mcp/?utm_source=oss&utm_medium=sponsorship&utm_campaign=awesome-cursorrules)
+          - Team knowledge for Cursor workflows.
         confidence: high
 metadata:
   github:
@@ -35,9 +38,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Unblocked MCP Server provides synthesized context from codebase, docs, PRs, and Slack to AI coding agents via the Model Context Protocol.
-  why_it_matters: It reduces agent hallucination and rework by delivering decision-grade, reconciled context from live organizational sources.
-  mental_damage: Finally, a way to make your AI agent feel less like a confused intern and more like a teammate who actually read the wiki.
+  summary: >-
+    Unblocked MCP Server provides synthesized context from codebase, docs, PRs, and Slack to AI coding agents via the
+    Model Context Protocol.
+  why_it_matters: >-
+    It reduces agent hallucination and rework by delivering decision-grade, reconciled context from live organizational
+    sources.
+  mental_damage: >-
+    Finally, a way to make your AI agent feel less like a confused intern and more like a teammate who actually read the
+    wiki.
   tags:
     - mcp
     - context-engineering
@@ -45,21 +54,30 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Unblocked MCP Server's core value is synthesizing and resolving context across multiple live sources, making it a prompt and context engineering tool rather than a coding agent or mere extension.
+  reason: >-
+    Unblocked MCP Server's core value is synthesizing and resolving context across multiple live sources, making it a
+    prompt and context engineering tool rather than a coding agent or mere extension.
   evidence:
-    - Unblocked synthesizes continuously from live sources — code, PRs, conversations, and docs — so your agent works from what's actually true right now.
-    - Unblocked synthesizes across all your sources, resolves what conflicts, and delivers a single reconciled answer — before results ever reach your agent.
-    - Listed in awesome-cursorrules under Footnotes > Sponsorships as providing 'decision-grade context from your codebase, docs, PRs, and Slack. One MCP server.'
+    - >-
+      Unblocked synthesizes continuously from live sources — code, PRs, conversations, and docs — so your agent works
+      from what's actually true right now.
+    - >-
+      Unblocked synthesizes across all your sources, resolves what conflicts, and delivers a single reconciled answer —
+      before results ever reach your agent.
+    - >-
+      Listed in awesome-cursorrules under Footnotes > Sponsorships as providing 'decision-grade context from your
+      codebase, docs, PRs, and Slack. One MCP server.'
 placement:
-  primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  primary_category: mcp
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-14T05:20:10.209Z"
+    updated_at: '2026-05-14T05:20:10.209Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +86,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-14T05:33:36.623Z"
+    updated_at: '2026-05-14T05:33:36.623Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

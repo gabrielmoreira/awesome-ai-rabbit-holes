@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alimo7amed93__webhook-tester-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: alimo7amed93/webhook-tester-mcp
         extracted_url: https://github.com/alimo7amed93/webhook-tester-mcp
-        surrounding_text: "- [alimo7amed93/webhook-tester-mcp](https://github.com/alimo7amed93/webhook-tester-mcp)  🐍 ☁️ – A FastMCP-based server for interacting with webhook-test.com. Enables users to create, retrieve, and delete webhooks locally using Claude."
+        surrounding_text: >-
+          - [alimo7amed93/webhook-tester-mcp](https://github.com/alimo7amed93/webhook-tester-mcp)  🐍 ☁️ – A
+          FastMCP-based server for interacting with webhook-test.com. Enables users to create, retrieve, and delete
+          webhooks locally using Claude.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,20 @@ metadata:
     archived: false
     full_name: alimo7amed93/webhook-tester-mcp
     html_url: https://github.com/alimo7amed93/webhook-tester-mcp
-    created_at: "2025-04-23T16:55:20Z"
-    pushed_at: "2025-04-25T14:27:40Z"
+    created_at: '2025-04-23T16:55:20Z'
+    pushed_at: '2025-04-25T14:27:40Z'
     description: FastMCP server for managing and testing webhooks via webhook-test.com API
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:41.121Z"
+    last_checked_at: '2026-09-17T04:13:41.121Z'
     readme:
-      fetched_at: "2026-09-17T04:13:41.121Z"
+      fetched_at: '2026-09-17T04:13:41.121Z'
       bytes: 1716
 insights:
   summary: FastMCP-based MCP server for managing and testing webhooks via the webhook-test.com API.
-  why_it_matters: Developers can automate webhook token management, inspect payloads, and perform analytics without writing custom API integrations.
+  why_it_matters: >-
+    Developers can automate webhook token management, inspect payloads, and perform analytics without writing custom API
+    integrations.
   mental_damage: Now you can debug webhooks with the same energy you debug your own life choices.
   tags:
     - mcp-server
@@ -59,24 +64,25 @@ curation:
     - Already listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.601Z"
+    updated_at: '2026-05-06T22:12:15.601Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:41.121Z"
+    updated_at: '2026-09-17T04:13:41.121Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:22:14.800Z"
+    updated_at: '2026-07-21T15:22:14.800Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +95,9 @@ processing:
       input_hash: sha256:5607a1c0142ee212d3f4cb4b1060e37566403ed3664a7c6ee6e88bc7c59b6005
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server implementation whose primary identity is exposing webhook-test.com capabilities via MCP.
+      decision_reason: >-
+        This is an MCP-first server implementation whose primary identity is exposing webhook-test.com capabilities via
+        MCP.
       decision_evidence:
         - Repo description explicitly calls it a FastMCP server for webhook-test.com
         - README describes it as a modular FastMCP server for webhook management
@@ -97,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__get-concord-ai__concord-mcp__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-08-27T06:08:24.604Z"
+      discovered_at: '2026-08-27T06:08:24.604Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,14 @@ provenance:
           - Agent infrastructure
         anchor_text: Concord MCP
         extracted_url: https://github.com/get-concord-ai/concord-mcp
-        surrounding_text: "- **[Concord MCP](https://github.com/Get-Concord-AI/concord-mcp)** `⭐ 238` — Local-first MCP server plus a `concord` CLI and TUI giving coding agents shared work state: cross-harness messaging, file-claim overlap detection before edits, task handoff with evidence, and a live dashboard. Works with Claude Code, Codex, Cursor, Gemini CLI, and Grok Build. MIT."
+        surrounding_text: >-
+          - **[Concord MCP](https://github.com/Get-Concord-AI/concord-mcp)** `⭐ 238` — Local-first MCP server plus a
+          `concord` CLI and TUI giving coding agents shared work state: cross-harness messaging, file-claim overlap
+          detection before edits, task handoff with evidence, and a live dashboard. Works with Claude Code, Codex,
+          Cursor, Gemini CLI, and Grok Build. MIT.
         confidence: high
     - id: discovery__github__get-concord-ai__concord-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-09-10T04:12:32.934Z"
+      discovered_at: '2026-09-10T04:12:32.934Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -36,7 +40,13 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: Get-Concord-AI/concord-mcp
         extracted_url: https://github.com/get-concord-ai/concord-mcp
-        surrounding_text: "- [Get-Concord-AI/concord-mcp](https://github.com/Get-Concord-AI/concord-mcp) [![Get-Concord-AI/concord-mcp MCP server](https://glama.ai/mcp/servers/Get-Concord-AI/concord-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Get-Concord-AI/concord-mcp) 📇 🏠 🍎 🪟 🐧 - Cross-harness communication and shared work-state for Claude Code, Codex, Cursor, Gemini CLI, and Grok Build. Agents exchange live messages, claim scope before editing, preserve decisions, and hand off evidence through five MCP workflow tools."
+        surrounding_text: >-
+          - [Get-Concord-AI/concord-mcp](https://github.com/Get-Concord-AI/concord-mcp) [![Get-Concord-AI/concord-mcp
+          MCP
+          server](https://glama.ai/mcp/servers/Get-Concord-AI/concord-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Get-Concord-AI/concord-mcp)
+          📇 🏠 🍎 🪟 🐧 - Cross-harness communication and shared work-state for Claude Code, Codex, Cursor, Gemini CLI,
+          and Grok Build. Agents exchange live messages, claim scope before editing, preserve decisions, and hand off
+          evidence through five MCP workflow tools.
         confidence: high
 metadata:
   github:
@@ -46,8 +56,8 @@ metadata:
     archived: false
     full_name: Get-Concord-AI/concord-mcp
     html_url: https://github.com/Get-Concord-AI/concord-mcp
-    created_at: "2026-07-14T16:30:00Z"
-    pushed_at: "2026-08-30T17:50:32Z"
+    created_at: '2026-07-14T16:30:00Z'
+    pushed_at: '2026-08-30T17:50:32Z'
     description: Live messaging for coding agents
     homepage: https://getconcord.ai
     topics:
@@ -62,14 +72,18 @@ metadata:
       - devtools
       - mcp
       - model-context-protocol
-    last_checked_at: "2026-09-03T05:16:48.300Z"
+    last_checked_at: '2026-09-03T05:16:48.300Z'
     readme:
-      fetched_at: "2026-09-03T05:16:48.300Z"
+      fetched_at: '2026-09-03T05:16:48.300Z'
       bytes: 14480
 insights:
   summary: An MCP-based coordination layer that enables different AI coding agents to communicate and share work-state.
-  why_it_matters: It prevents multiple agents from overwriting each other's work by allowing them to claim files and exchange decisions through a shared workspace.
-  mental_damage: Now you can watch your various AI agents negotiate a peace treaty instead of just fighting over who owns `package.json`.
+  why_it_matters: >-
+    It prevents multiple agents from overwriting each other's work by allowing them to claim files and exchange
+    decisions through a shared workspace.
+  mental_damage: >-
+    Now you can watch your various AI agents negotiate a peace treaty instead of just fighting over who owns
+    `package.json`.
   tags:
     - mcp
     - multi-agent
@@ -78,31 +92,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It serves as a coordination layer for multiple agents, providing the shared state and messaging required for multi-agent workflows.
+  reason: >-
+    It serves as a coordination layer for multiple agents, providing the shared state and messaging required for
+    multi-agent workflows.
   evidence:
     - Claims to be a 'communication and coordination layer' for AI coding agents
     - Enables agents like Claude Code and Cursor to share work-state and detect file collisions
     - Uses MCP to facilitate messaging and task handoffs between different agent harnesses
 placement:
   primary_category: agent-orchestration
-  section: Multi-Agent Runtime Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (306) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-09-10T04:12:32.935Z"
+    updated_at: '2026-09-10T04:12:32.935Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:48.300Z"
+    updated_at: '2026-09-03T05:16:48.300Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-03T05:22:19.946Z"
+    updated_at: '2026-09-03T05:22:19.946Z'
     cause: null
     next_retry_at: null
     classification:
@@ -112,7 +129,9 @@ processing:
       input_hash: sha256:4b139cdf459cd6ef4477d69526574f495dab05632273f9a6069977f124a103d1
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: It serves as a coordination layer for multiple agents, providing the shared state and messaging required for multi-agent workflows.
+      decision_reason: >-
+        It serves as a coordination layer for multiple agents, providing the shared state and messaging required for
+        multi-agent workflows.
       decision_evidence:
         - Claims to be a 'communication and coordination layer' for AI coding agents
         - Enables agents like Claude Code and Cursor to share work-state and detect file collisions
@@ -120,7 +139,9 @@ processing:
       category_candidates:
         - agent-orchestration
         - ai-dev-extensions
-      contrastive_reason: Choose agent-orchestration over ai-dev-extensions because the tool's core novelty is the coordination of multiple agents rather than just augmenting a single host.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-dev-extensions because the tool's core novelty is the coordination of
+        multiple agents rather than just augmenting a single host.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__anthropics__claude-code__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,12 @@ provenance:
           - Closed Source
         anchor_text: Claude Code
         extracted_url: https://github.com/anthropics/claude-code
-        surrounding_text: "- **[Claude Code](https://github.com/anthropics/claude-code)** `⭐ 120k` `[Anthropic]` — Anthropic's repo-aware terminal agent for code edits, refactors, and git workflows. Source-available, no OSS license."
+        surrounding_text: >-
+          - **[Claude Code](https://github.com/anthropics/claude-code)** `⭐ 120k` `[Anthropic]` — Anthropic's repo-aware
+          terminal agent for code edits, refactors, and git workflows. Source-available, no OSS license.
         confidence: high
     - id: discovery__github__anthropics__claude-code__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -45,18 +47,25 @@ metadata:
     archived: false
     full_name: anthropics/claude-code
     html_url: https://github.com/anthropics/claude-code
-    created_at: "2025-02-22T17:41:21Z"
-    pushed_at: "2026-09-17T00:12:02Z"
-    description: Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
+    created_at: '2025-02-22T17:41:21Z'
+    pushed_at: '2026-09-17T00:12:02Z'
+    description: >-
+      Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code
+      faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural
+      language commands.
     homepage: https://code.claude.com/docs/en/overview
     topics: []
-    last_checked_at: "2026-09-17T04:13:44.728Z"
+    last_checked_at: '2026-09-17T04:13:44.728Z'
     readme:
-      fetched_at: "2026-09-17T04:13:44.728Z"
+      fetched_at: '2026-09-17T04:13:44.728Z'
       bytes: 2873
 insights:
-  summary: Claude Code is an agentic coding tool that operates in the terminal, understands codebases, and executes coding tasks via natural language commands.
-  why_it_matters: It accelerates developer workflows by automating routine tasks, explaining code, and handling git operations directly in the terminal.
+  summary: >-
+    Claude Code is an agentic coding tool that operates in the terminal, understands codebases, and executes coding
+    tasks via natural language commands.
+  why_it_matters: >-
+    It accelerates developer workflows by automating routine tasks, explaining code, and handling git operations
+    directly in the terminal.
   mental_damage: Finally, a way to offload git blame to an AI that can’t even blame you back.
   tags:
     - terminal-agent
@@ -66,13 +75,16 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a primary coding assistant that developers delegate repo work to, fitting the canonical positive for coding-agents.
+  reason: >-
+    It is a primary coding assistant that developers delegate repo work to, fitting the canonical positive for
+    coding-agents.
   evidence:
     - Repo description explicitly calls it an 'agentic coding tool' for terminal use
     - README confirms it reads code, plans changes, and handles git workflows via natural language
     - Source-list context places it under 'Terminal-native coding agents' in a curated directory
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -80,17 +92,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.581Z"
+    updated_at: '2026-05-06T22:12:15.581Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:44.728Z"
+    updated_at: '2026-09-17T04:13:44.728Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:23:15.954Z"
+    updated_at: '2026-07-21T15:23:15.954Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -103,7 +115,9 @@ processing:
       input_hash: sha256:2451660eb9bef27f67fe884ab6dc4fbceab5fae36f5eedd93cb92ea6dc92ed8e
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: It is a primary coding assistant that developers delegate repo work to, fitting the canonical positive for coding-agents.
+      decision_reason: >-
+        It is a primary coding assistant that developers delegate repo work to, fitting the canonical positive for
+        coding-agents.
       decision_evidence:
         - Repo description explicitly calls it an 'agentic coding tool' for terminal use
         - README confirms it reads code, plans changes, and handles git workflows via natural language
@@ -111,6 +125,8 @@ processing:
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because its primary identity is a standalone coding assistant, not an extension augmenting another tool.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because its primary identity is a standalone coding assistant, not
+        an extension augmenting another tool.
       review_reason: null
       review_resume_lifecycle: null

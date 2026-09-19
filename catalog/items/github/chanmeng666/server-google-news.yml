@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__chanmeng666__server-google-news__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Google News
         extracted_url: https://github.com/chanmeng666/server-google-news
-        surrounding_text: "- **[Google News](https://github.com/ChanMeng666/server-google-news)** - Google News search capabilities with automatic topic categorization and multi-language support via SerpAPI integration."
+        surrounding_text: >-
+          - **[Google News](https://github.com/ChanMeng666/server-google-news)** - Google News search capabilities with
+          automatic topic categorization and multi-language support via SerpAPI integration.
         confidence: high
 metadata:
   github:
@@ -29,9 +31,11 @@ metadata:
     archived: false
     full_name: ChanMeng666/server-google-news
     html_url: https://github.com/ChanMeng666/server-google-news
-    created_at: "2024-12-29T12:48:15Z"
-    pushed_at: "2026-07-08T21:13:22Z"
-    description: 【Star-crossed coders unite!⭐️】Model Context Protocol (MCP) server implementation providing Google News search capabilities via SerpAPI, with automatic news categorization and multi-language support.
+    created_at: '2024-12-29T12:48:15Z'
+    pushed_at: '2026-07-08T21:13:22Z'
+    description: >-
+      【Star-crossed coders unite!⭐️】Model Context Protocol (MCP) server implementation providing Google News search
+      capabilities via SerpAPI, with automatic news categorization and multi-language support.
     homepage: https://glama.ai/mcp/servers/dbx6imq4ef
     topics:
       - ai
@@ -46,13 +50,17 @@ metadata:
       - nodejs
       - serpapi
       - typescript
-    last_checked_at: "2026-09-07T04:13:43.448Z"
+    last_checked_at: '2026-09-07T04:13:43.448Z'
     readme:
-      fetched_at: "2026-09-07T04:13:43.448Z"
+      fetched_at: '2026-09-07T04:13:43.448Z'
       bytes: 13159
 insights:
-  summary: An MCP server that provides Google News search capabilities via SerpAPI with automatic categorization and multi-language support.
-  why_it_matters: Developers can integrate live news search and categorization into their MCP-enabled workflows, enabling AI assistants to fetch and process current news data.
+  summary: >-
+    An MCP server that provides Google News search capabilities via SerpAPI with automatic categorization and
+    multi-language support.
+  why_it_matters: >-
+    Developers can integrate live news search and categorization into their MCP-enabled workflows, enabling AI
+    assistants to fetch and process current news data.
   mental_damage: Now your AI can tell you the news is bad before you even open your browser.
   tags:
     - mcp-server
@@ -63,31 +71,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server whose primary identity is providing Google News search via MCP, fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is a dedicated MCP server whose primary identity is providing Google News search via MCP, fitting the MCP
+    Servers & Tooling category.
   evidence:
     - Repo description explicitly states it is an MCP server implementation for Google News search
     - README confirms it is a Model Context Protocol server with SerpAPI integration
     - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.607Z"
+    updated_at: '2026-05-06T22:12:15.607Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:43.448Z"
+    updated_at: '2026-09-07T04:13:43.448Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:41:16.425Z"
+    updated_at: '2026-07-21T15:41:16.425Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -100,7 +111,9 @@ processing:
       input_hash: sha256:4ea249b26b35e2f80faa9f5d6e27bda2f50e252277a94ccac4c0aadf4813ac3f
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a dedicated MCP server whose primary identity is providing Google News search via MCP, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is a dedicated MCP server whose primary identity is providing Google News search via MCP, fitting the MCP
+        Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP server implementation for Google News search
         - README confirms it is a Model Context Protocol server with SerpAPI integration
@@ -108,6 +121,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

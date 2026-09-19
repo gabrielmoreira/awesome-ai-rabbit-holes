@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__leaplabthu__cooragent__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,7 @@ provenance:
           - 智能体 Agents
         anchor_text: Cooragent
         extracted_url: https://github.com/leaplabthu/cooragent
-        surrounding_text: "31. [Cooragent](https://github.com/LeapLabTHU/cooragent): Cooragent is an AI agent collaboration community."
+        surrounding_text: '31. [Cooragent](https://github.com/LeapLabTHU/cooragent): Cooragent is an AI agent collaboration community.'
         confidence: high
 metadata:
   github:
@@ -29,19 +29,23 @@ metadata:
     archived: false
     full_name: LeapLabTHU/cooragent
     html_url: https://github.com/LeapLabTHU/cooragent
-    created_at: "2025-04-11T14:59:45Z"
-    pushed_at: "2026-04-29T03:51:31Z"
+    created_at: '2025-04-11T14:59:45Z'
+    pushed_at: '2026-04-29T03:51:31Z'
     description: Official Repository of Cooragent.
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:06:04.381Z"
+    last_checked_at: '2026-07-30T05:06:04.381Z'
     readme:
-      fetched_at: "2026-07-30T05:06:04.381Z"
+      fetched_at: '2026-07-30T05:06:04.381Z'
       bytes: 11106
 insights:
   summary: Cooragent is a terminal-based AI coding assistant that plans, writes, and edits code across a repository.
-  why_it_matters: It enables developers to delegate multi-file code changes and debugging tasks to an autonomous CLI agent, reducing manual coding overhead.
-  mental_damage: Another CLI agent promising to replace your editor—because typing in a terminal was clearly the bottleneck all along.
+  why_it_matters: >-
+    It enables developers to delegate multi-file code changes and debugging tasks to an autonomous CLI agent, reducing
+    manual coding overhead.
+  mental_damage: >-
+    Another CLI agent promising to replace your editor—because typing in a terminal was clearly the bottleneck all
+    along.
   tags:
     - coding-assistant
     - terminal
@@ -49,31 +53,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The core product is a workbench and runtime for coordinating multiple agents and workflows, not a single coding assistant or code-first SDK.
+  reason: >-
+    The core product is a workbench and runtime for coordinating multiple agents and workflows, not a single coding
+    assistant or code-first SDK.
   evidence:
-    - README states Cooragent is 'an AI agent collaboration community' with Agent Factory and Agent Workflow modes for multi-agent task collaboration.
-    - CLI modes (Launch, Polish, Production) are designed to build, refine, and run multi-agent workflows rather than edit an existing repo directly.
+    - >-
+      README states Cooragent is 'an AI agent collaboration community' with Agent Factory and Agent Workflow modes for
+      multi-agent task collaboration.
+    - >-
+      CLI modes (Launch, Polish, Production) are designed to build, refine, and run multi-agent workflows rather than
+      edit an existing repo directly.
     - Seen in awesome-LLM-resources under '智能体 Agents', aligning with its multi-agent orchestration identity.
 placement:
-  primary_category: agent-orchestration
-  section: null
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Terminal & CLI Agents
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'coding-agents'"
+  reason: 'Categorization review required: placement disagreement: retained ''agent-orchestration'', proposed ''coding-agents'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.626Z"
+    updated_at: '2026-05-06T22:12:15.626Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:04.381Z"
+    updated_at: '2026-07-30T05:06:04.381Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:15:22.792Z"
+    updated_at: '2026-07-21T16:15:22.792Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -86,14 +97,18 @@ processing:
       input_hash: sha256:932aca2817deeecb973843ee2589e10ec9520cb33f771b80452fd94e494073fc
       proposed_primary_category: coding-agents
       disagreement: true
-      decision_reason: Cooragent functions as a standalone terminal-based coding assistant that reads code, plans changes, edits files, and runs commands, fitting the coding-agents category.
+      decision_reason: >-
+        Cooragent functions as a standalone terminal-based coding assistant that reads code, plans changes, edits files,
+        and runs commands, fitting the coding-agents category.
       decision_evidence:
-        - "Repo description: 'Official Repository of Cooragent'"
-        - "Stars: 1680, pushed at 2026-04-29, indicating active development"
+        - 'Repo description: ''Official Repository of Cooragent'''
+        - 'Stars: 1680, pushed at 2026-04-29, indicating active development'
         - Appears in awesome-LLM-resources under '智能体 Agents' (Intelligent Agents)
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because Cooragent acts as a primary coding assistant in the terminal, not as an add-on that augments another editor or agent with integrations.
-      review_reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'coding-agents'"
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because Cooragent acts as a primary coding assistant in the
+        terminal, not as an add-on that augments another editor or agent with integrations.
+      review_reason: 'Categorization review required: placement disagreement: retained ''agent-orchestration'', proposed ''coding-agents'''
       review_resume_lifecycle: null

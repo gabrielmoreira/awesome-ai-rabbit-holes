@@ -5,8 +5,9 @@ canonical_url: https://atlassian.com/blog/development/rovo-dev-command-line-inte
 identity: {}
 provenance:
   discoveries:
-    - id: discovery__atlassian__com__blog__development__rovo__dev__command__line__interface__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-20T16:42:15.363Z"
+    - id: >-
+        discovery__atlassian__com__blog__development__rovo__dev__command__line__interface__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-07-20T16:42:15.363Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +19,13 @@ provenance:
           - Coding Agents
         anchor_text: Rovo Dev (Atlassian)
         extracted_url: https://atlassian.com/blog/announcements/rovo-dev-command-line-interface
-        surrounding_text: "- **[Rovo Dev (Atlassian)](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)** – Atlassian's terminal coding agent."
+        surrounding_text: >-
+          - **[Rovo Dev (Atlassian)](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)** –
+          Atlassian's terminal coding agent.
         confidence: high
-    - id: discovery__www__atlassian__com__blog__development__rovo__dev__command__line__interface__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+    - id: >-
+        discovery__www__atlassian__com__blog__development__rovo__dev__command__line__interface__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +37,9 @@ provenance:
           - Coding Agents
         anchor_text: Rovo Dev (Atlassian)
         extracted_url: https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface
-        surrounding_text: "- **[Rovo Dev (Atlassian)](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)** – Atlassian's terminal coding agent."
+        surrounding_text: >-
+          - **[Rovo Dev (Atlassian)](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)** –
+          Atlassian's terminal coding agent.
         confidence: high
 metadata:
   github:
@@ -51,8 +57,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Rovo Dev CLI is an enterprise-focused command-line AI agent from Atlassian that assists with code understanding, development, and Atlassian ecosystem integration.
-  why_it_matters: It turns the terminal into an intelligent development partner that accelerates coding, debugging, and workflow automation while maintaining deep integration with Atlassian tools like Jira and Confluence.
+  summary: >-
+    Rovo Dev CLI is an enterprise-focused command-line AI agent from Atlassian that assists with code understanding,
+    development, and Atlassian ecosystem integration.
+  why_it_matters: >-
+    It turns the terminal into an intelligent development partner that accelerates coding, debugging, and workflow
+    automation while maintaining deep integration with Atlassian tools like Jira and Confluence.
   mental_damage: Finally, an AI that understands your Jira tickets as well as you pretend to.
   tags:
     - cli-agent
@@ -63,13 +73,16 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a primary coding assistant delivered via CLI that directly reads, plans, edits, and collaborates on codebases, fitting the core definition of a coding agent.
+  reason: >-
+    It is a primary coding assistant delivered via CLI that directly reads, plans, edits, and collaborates on codebases,
+    fitting the core definition of a coding agent.
   evidence:
     - Described as 'an intelligent development agent that understands, codes, and collaborates with you' in the CLI
     - Claims direct code understanding, navigation, refactoring, testing, and debugging capabilities
     - Topped SWE-bench leaderboard with 41.98% resolve rate, demonstrating practical coding agent performance
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: incubating
@@ -77,7 +90,7 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:32:32.612Z"
+    updated_at: '2026-07-21T15:32:32.612Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -90,7 +103,9 @@ processing:
       input_hash: sha256:33b8110bb667a813bab768537815b0231095921bc1edebc5a1cce708948e22c5
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: It is a primary coding assistant delivered via CLI that directly reads, plans, edits, and collaborates on codebases, fitting the core definition of a coding agent.
+      decision_reason: >-
+        It is a primary coding assistant delivered via CLI that directly reads, plans, edits, and collaborates on
+        codebases, fitting the core definition of a coding agent.
       decision_evidence:
         - Described as 'an intelligent development agent that understands, codes, and collaborates with you' in the CLI
         - Claims direct code understanding, navigation, refactoring, testing, and debugging capabilities
@@ -98,12 +113,14 @@ processing:
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because the product is a standalone terminal agent that directly performs coding tasks rather than merely extending another assistant.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because the product is a standalone terminal agent that directly
+        performs coding tasks rather than merely extending another assistant.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T16:42:15.364Z"
+    updated_at: '2026-07-20T16:42:15.364Z'
     cause: null
     next_retry_at: null
   stars:

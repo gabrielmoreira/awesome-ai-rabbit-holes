@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wenhuwang__mcp-k8s-eye__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: wenhuwang/mcp-k8s-eye
         extracted_url: https://github.com/wenhuwang/mcp-k8s-eye
-        surrounding_text: "- [wenhuwang/mcp-k8s-eye](https://github.com/wenhuwang/mcp-k8s-eye) 🏎️ ☁️/🏠 - MCP Server for kubernetes management, and analyze your cluster, application health"
+        surrounding_text: >-
+          - [wenhuwang/mcp-k8s-eye](https://github.com/wenhuwang/mcp-k8s-eye) 🏎️ ☁️/🏠 - MCP Server for kubernetes
+          management, and analyze your cluster, application health
         confidence: high
     - id: discovery__github__wenhuwang__mcp-k8s-eye__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - ☁️ Cloud Platforms
         anchor_text: wenhuwang/mcp-k8s-eye
         extracted_url: https://github.com/wenhuwang/mcp-k8s-eye
-        surrounding_text: "-   **[wenhuwang/mcp-k8s-eye](https://github.com/wenhuwang/mcp-k8s-eye)** [![GitHub stars](https://img.shields.io/github/stars/wenhuwang/mcp-k8s-eye?style=social)](https://github.com/wenhuwang/mcp-k8s-eye): Provides Kubernetes management features and application health analysis."
+        surrounding_text: >-
+          -   **[wenhuwang/mcp-k8s-eye](https://github.com/wenhuwang/mcp-k8s-eye)** [![GitHub
+          stars](https://img.shields.io/github/stars/wenhuwang/mcp-k8s-eye?style=social)](https://github.com/wenhuwang/mcp-k8s-eye):
+          Provides Kubernetes management features and application health analysis.
         confidence: high
 metadata:
   github:
@@ -45,19 +50,23 @@ metadata:
     archived: false
     full_name: wenhuwang/mcp-k8s-eye
     html_url: https://github.com/wenhuwang/mcp-k8s-eye
-    created_at: "2025-03-18T03:20:01Z"
-    pushed_at: "2025-05-16T09:47:30Z"
+    created_at: '2025-03-18T03:20:01Z'
+    pushed_at: '2025-05-16T09:47:30Z'
     description: MCP Server for kubernetes management and diagnose your cluster and applications
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-21T15:21:12.516Z"
+    last_checked_at: '2026-07-21T15:21:12.516Z'
     readme:
-      fetched_at: "2026-07-21T15:21:12.516Z"
+      fetched_at: '2026-07-21T15:21:12.516Z'
       bytes: 3923
 insights:
   summary: MCP Server for kubernetes management and diagnosis of cluster and applications.
-  why_it_matters: Lets developers interact with Kubernetes via AI assistants using standard MCP tooling, reducing context-switching to kubectl.
-  mental_damage: Yet another MCP wrapper for a CLI you already have, promising AI will finally make kubectl feel less like incantations.
+  why_it_matters: >-
+    Lets developers interact with Kubernetes via AI assistants using standard MCP tooling, reducing context-switching to
+    kubectl.
+  mental_damage: >-
+    Yet another MCP wrapper for a CLI you already have, promising AI will finally make kubectl feel less like
+    incantations.
   tags:
     - kubernetes
     - mcp
@@ -66,31 +75,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is an MCP server whose primary identity is providing Kubernetes management capabilities through the Model Context Protocol, fitting the MCP Servers & Tooling category.
+  reason: >-
+    It is an MCP server whose primary identity is providing Kubernetes management capabilities through the Model Context
+    Protocol, fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description: 'MCP Server for kubernetes management and diagnose your cluster and applications'"
+    - 'Repo description: ''MCP Server for kubernetes management and diagnose your cluster and applications'''
     - README positions it as an MCP server with Stdio and SSE transport modes for AI clients
     - Listed in awesome-mcp-list and awesome-mcp-servers under Cloud Platforms section
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.595Z"
+    updated_at: '2026-05-06T22:12:15.595Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:12.516Z"
+    updated_at: '2026-07-21T15:21:12.516Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-18T05:35:15.104Z"
+    updated_at: '2026-05-18T05:35:15.104Z'
     cause: null
     next_retry_at: null
     attempts: 3

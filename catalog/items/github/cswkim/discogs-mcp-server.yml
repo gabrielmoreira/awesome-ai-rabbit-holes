@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cswkim__discogs-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: cswkim/discogs-mcp-server
         extracted_url: https://github.com/cswkim/discogs-mcp-server
-        surrounding_text: "- [cswkim/discogs-mcp-server](https://github.com/cswkim/discogs-mcp-server) 📇 ☁️ - MCP server to interact with the Discogs API"
+        surrounding_text: >-
+          - [cswkim/discogs-mcp-server](https://github.com/cswkim/discogs-mcp-server) 📇 ☁️ - MCP server to interact
+          with the Discogs API
         confidence: high
 metadata:
   github:
@@ -30,14 +32,14 @@ metadata:
     archived: false
     full_name: cswkim/discogs-mcp-server
     html_url: https://github.com/cswkim/discogs-mcp-server
-    created_at: "2025-04-04T18:17:51Z"
-    pushed_at: "2026-07-06T16:10:19Z"
+    created_at: '2025-04-04T18:17:51Z'
+    pushed_at: '2026-07-06T16:10:19Z'
     description: MCP Server for Discogs
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-14T04:13:31.733Z"
+    last_checked_at: '2026-09-14T04:13:31.733Z'
     readme:
-      fetched_at: "2026-09-14T04:13:31.733Z"
+      fetched_at: '2026-09-14T04:13:31.733Z'
       bytes: 8934
 insights:
   summary: MCP Server for the Discogs API, enabling music catalog operations and search functionality.
@@ -51,31 +53,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server for Discogs, making MCP its primary identity and fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is a dedicated MCP server for Discogs, making MCP its primary identity and fitting the MCP Servers & Tooling
+    category.
   evidence:
     - Repo description explicitly states 'MCP Server for Discogs'
     - README confirms it is an MCP server built with FastMCP framework
     - Listed in awesome-mcp-servers under 'Server Implementations > Art & Culture'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.609Z"
+    updated_at: '2026-05-06T22:12:15.609Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:31.733Z"
+    updated_at: '2026-09-14T04:13:31.733Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:49:18.991Z"
+    updated_at: '2026-07-21T15:49:18.991Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +93,9 @@ processing:
       input_hash: sha256:b5595f5bb3c6fc817698ad66aec0ac54ab892a056cb66f61d948e14bc1b580b8
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a dedicated MCP server for Discogs, making MCP its primary identity and fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is a dedicated MCP server for Discogs, making MCP its primary identity and fitting the MCP Servers &
+        Tooling category.
       decision_evidence:
         - Repo description explicitly states 'MCP Server for Discogs'
         - README confirms it is an MCP server built with FastMCP framework

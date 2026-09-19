@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__rinadelph__agent-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: rinadelph/Agent-MCP
         extracted_url: https://github.com/rinadelph/agent-mcp
-        surrounding_text: "- [rinadelph/Agent-MCP](https://github.com/rinadelph/Agent-MCP) 🐍 🏠 - A framework for creating multi-agent systems using MCP for coordinated AI collaboration, featuring task management, shared context, and RAG capabilities."
+        surrounding_text: >-
+          - [rinadelph/Agent-MCP](https://github.com/rinadelph/Agent-MCP) 🐍 🏠 - A framework for creating multi-agent
+          systems using MCP for coordinated AI collaboration, featuring task management, shared context, and RAG
+          capabilities.
         confidence: high
 metadata:
   github:
@@ -30,19 +33,28 @@ metadata:
     archived: false
     full_name: rinadelph/Agent-MCP
     html_url: https://github.com/rinadelph/Agent-MCP
-    created_at: "2025-05-13T15:40:10Z"
-    pushed_at: "2026-03-28T13:25:52Z"
-    description: Agent-MCP is a framework for creating multi-agent systems that enables coordinated, efficient AI collaboration through the Model Context Protocol (MCP). The system is designed for developers building AI applications that benefit from multiple specialized agents working in parallel on different aspects of a project.
-    homepage: ""
+    created_at: '2025-05-13T15:40:10Z'
+    pushed_at: '2026-03-28T13:25:52Z'
+    description: >-
+      Agent-MCP is a framework for creating multi-agent systems that enables coordinated, efficient AI collaboration
+      through the Model Context Protocol (MCP). The system is designed for developers building AI applications that
+      benefit from multiple specialized agents working in parallel on different aspects of a project.
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-20T16:42:46.179Z"
+    last_checked_at: '2026-07-20T16:42:46.179Z'
     readme:
-      fetched_at: "2026-07-20T16:42:46.178Z"
+      fetched_at: '2026-07-20T16:42:46.178Z'
       bytes: 29294
 insights:
-  summary: Agent-MCP is a developer framework for building multi-agent systems that coordinate specialized AI agents through a shared memory graph and task management dashboard using the Model Context Protocol.
-  why_it_matters: It lets developers overcome single-agent context limits by running parallel, specialized agents that share persistent memory and task state across a project.
-  mental_damage: Finally, your AI agents can form a committee to over-engineer your codebase in parallel while you watch the dashboard instead of the code.
+  summary: >-
+    Agent-MCP is a developer framework for building multi-agent systems that coordinate specialized AI agents through a
+    shared memory graph and task management dashboard using the Model Context Protocol.
+  why_it_matters: >-
+    It lets developers overcome single-agent context limits by running parallel, specialized agents that share
+    persistent memory and task state across a project.
+  mental_damage: >-
+    Finally, your AI agents can form a committee to over-engineer your codebase in parallel while you watch the
+    dashboard instead of the code.
   tags:
     - multi-agent
     - mcp
@@ -52,35 +64,44 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a workbench and control plane for coordinating multiple specialized agents with a dashboard, task management, and shared memory, which aligns with agent orchestration over a single coding agent or framework SDK.
+  reason: >-
+    The product is a workbench and control plane for coordinating multiple specialized agents with a dashboard, task
+    management, and shared memory, which aligns with agent orchestration over a single coding agent or framework SDK.
   evidence:
-    - Repo description states it is a 'framework for creating multi-agent systems' with 'coordinated, efficient AI collaboration'.
-    - README describes a 'mission control center' with real-time visualization, task management, and a persistent knowledge graph for parallel agents.
-    - Source list places it in 'Server Implementations > Coding Agents', but its primary identity is multi-agent coordination, not single-repo editing.
+    - >-
+      Repo description states it is a 'framework for creating multi-agent systems' with 'coordinated, efficient AI
+      collaboration'.
+    - >-
+      README describes a 'mission control center' with real-time visualization, task management, and a persistent
+      knowledge graph for parallel agents.
+    - >-
+      Source list places it in 'Server Implementations > Coding Agents', but its primary identity is multi-agent
+      coordination, not single-repo editing.
 placement:
-  primary_category: agent-orchestration
-  section: Workbenches & Collaboration Surfaces
+  primary_category: ai-frameworks
+  secondary_categories: []
+  section: Multi-Agent Systems
 lifecycle:
   status: promotion_candidate
   reason: Stars (1233) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.645Z"
+    updated_at: '2026-05-06T22:12:15.645Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:46.179Z"
+    updated_at: '2026-07-20T16:42:46.179Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

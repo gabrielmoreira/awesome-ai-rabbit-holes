@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__chroma-core__chroma__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,10 +19,12 @@ provenance:
           - Official Servers
         anchor_text: Chroma Package Search
         extracted_url: https://trychroma.com/package-search
-        surrounding_text: "- **[Chroma Package Search](https://trychroma.com/package-search)** - Add to coding agents like Claude or Cursor to give them the ability to understand and better use thousands of dependencies."
+        surrounding_text: >-
+          - **[Chroma Package Search](https://trychroma.com/package-search)** - Add to coding agents like Claude or
+          Cursor to give them the ability to understand and better use thousands of dependencies.
         confidence: high
     - id: discovery__github__chroma-core__chroma__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -35,7 +37,10 @@ provenance:
           - Vector search
         anchor_text: Chroma
         extracted_url: https://github.com/chroma-core/chroma
-        surrounding_text: "| [Chroma](https://github.com/chroma-core/chroma)           | the open source embedding database                                                                                                                                                                                                                                                            | ![GitHub Badge](https://img.shields.io/github/stars/chroma-core/chroma.svg?style=flat-square)         |"
+        surrounding_text: >-
+          | [Chroma](https://github.com/chroma-core/chroma)           | the open source embedding
+          database                                                                                                                                                                                                                                                           
+          | ![GitHub Badge](https://img.shields.io/github/stars/chroma-core/chroma.svg?style=flat-square)         |
         confidence: high
 metadata:
   github:
@@ -45,8 +50,8 @@ metadata:
     archived: false
     full_name: chroma-core/chroma
     html_url: https://github.com/chroma-core/chroma
-    created_at: "2022-10-05T17:58:44Z"
-    pushed_at: "2026-09-04T22:32:14Z"
+    created_at: '2022-10-05T17:58:44Z'
+    pushed_at: '2026-09-04T22:32:14Z'
     description: Search infrastructure for AI
     homepage: https://www.trychroma.com/
     topics:
@@ -56,14 +61,18 @@ metadata:
       - database
       - rust
       - rust-lang
-    last_checked_at: "2026-09-07T04:13:45.012Z"
+    last_checked_at: '2026-09-07T04:13:45.012Z'
     readme:
-      fetched_at: "2026-09-07T04:13:45.012Z"
+      fetched_at: '2026-09-07T04:13:45.012Z'
       bytes: 3273
 insights:
   summary: Open-source vector database and search infrastructure for AI applications.
-  why_it_matters: Provides developers with a scalable, embeddable way to store, index, and query vector embeddings for retrieval-augmented generation (RAG) and semantic search workflows.
-  mental_damage: Because nothing says 'modern development' like arguing with your team about whether to self-host Chroma or just pay for Pinecone.
+  why_it_matters: >-
+    Provides developers with a scalable, embeddable way to store, index, and query vector embeddings for
+    retrieval-augmented generation (RAG) and semantic search workflows.
+  mental_damage: >-
+    Because nothing says 'modern development' like arguing with your team about whether to self-host Chroma or just pay
+    for Pinecone.
   tags:
     - vector-db
     - search
@@ -73,31 +82,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Chroma is a code-first framework/SDK for embedding retrieval and vector search infrastructure, not a primary coding assistant, IDE, or orchestration platform.
+  reason: >-
+    Chroma is a code-first framework/SDK for embedding retrieval and vector search infrastructure, not a primary coding
+    assistant, IDE, or orchestration platform.
   evidence:
-    - "Repo description: 'Search infrastructure for AI'"
-    - "README: 'Chroma - the open-source data infrastructure for AI' with Python/JS client APIs"
-    - "Source-list context: Listed under 'Vector search' in Awesome-LLMOps"
+    - 'Repo description: ''Search infrastructure for AI'''
+    - 'README: ''Chroma - the open-source data infrastructure for AI'' with Python/JS client APIs'
+    - 'Source-list context: Listed under ''Vector search'' in Awesome-LLMOps'
 placement:
   primary_category: ai-frameworks
-  section: Memory / Retrieval Infrastructure
+  secondary_categories: []
+  section: Memory & Retrieval Infrastructure
 lifecycle:
   status: promotion_candidate
   reason: Stars (27836) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.583Z"
+    updated_at: '2026-05-06T22:12:15.583Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:45.012Z"
+    updated_at: '2026-09-07T04:13:45.012Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:41:42.270Z"
+    updated_at: '2026-07-21T15:41:42.270Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -110,14 +122,18 @@ processing:
       input_hash: sha256:0977d5531ef2247df6ed9f1a493051190cde988636af803081f84c33e410f136
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: Chroma is a code-first framework/SDK for embedding retrieval and vector search infrastructure, not a primary coding assistant, IDE, or orchestration platform.
+      decision_reason: >-
+        Chroma is a code-first framework/SDK for embedding retrieval and vector search infrastructure, not a primary
+        coding assistant, IDE, or orchestration platform.
       decision_evidence:
-        - "Repo description: 'Search infrastructure for AI'"
-        - "README: 'Chroma - the open-source data infrastructure for AI' with Python/JS client APIs"
-        - "Source-list context: Listed under 'Vector search' in Awesome-LLMOps"
+        - 'Repo description: ''Search infrastructure for AI'''
+        - 'README: ''Chroma - the open-source data infrastructure for AI'' with Python/JS client APIs'
+        - 'Source-list context: Listed under ''Vector search'' in Awesome-LLMOps'
       category_candidates:
         - ai-frameworks
         - context-engineering
-      contrastive_reason: Choose ai-frameworks over context-engineering because Chroma's primary identity is a reusable infrastructure library/SDK rather than a prompt/context management system.
+      contrastive_reason: >-
+        Choose ai-frameworks over context-engineering because Chroma's primary identity is a reusable infrastructure
+        library/SDK rather than a prompt/context management system.
       review_reason: null
       review_resume_lifecycle: null

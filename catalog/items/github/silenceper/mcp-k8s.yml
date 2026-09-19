@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__silenceper__mcp-k8s__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: silenceper/mcp-k8s
         extracted_url: https://github.com/silenceper/mcp-k8s
-        surrounding_text: "- [silenceper/mcp-k8s](https://github.com/silenceper/mcp-k8s) 🏎️ ☁️/🏠 - MCP-K8S is an AI-driven Kubernetes resource management tool that allows users to operate any resources in Kubernetes clusters through natural language interaction, including native resources (like Deployment, Service) and custom resources (CRD). No need to memorize complex commands - just describe your needs, and AI will accurately execute the corresponding cluster operations, greatly enhancing the usability of Kubernetes."
+        surrounding_text: >-
+          - [silenceper/mcp-k8s](https://github.com/silenceper/mcp-k8s) 🏎️ ☁️/🏠 - MCP-K8S is an AI-driven Kubernetes
+          resource management tool that allows users to operate any resources in Kubernetes clusters through natural
+          language interaction, including native resources (like Deployment, Service) and custom resources (CRD). No
+          need to memorize complex commands - just describe your needs, and AI will accurately execute the corresponding
+          cluster operations, greatly enhancing the usability of Kubernetes.
         confidence: high
 metadata:
   github:
@@ -30,23 +35,29 @@ metadata:
     archived: false
     full_name: silenceper/mcp-k8s
     html_url: https://github.com/silenceper/mcp-k8s
-    created_at: "2025-04-03T08:56:13Z"
-    pushed_at: "2026-07-12T14:06:46Z"
-    description: A Kubernetes MCP (Model Control Protocol) server that enables interaction with Kubernetes clusters through MCP tools.
+    created_at: '2025-04-03T08:56:13Z'
+    pushed_at: '2026-07-12T14:06:46Z'
+    description: >-
+      A Kubernetes MCP (Model Control Protocol) server that enables interaction with Kubernetes clusters through MCP
+      tools.
     homepage: https://silenceper.com/blog/202504/mcp-k8s/
     topics:
       - debug
       - kubernetes
       - mcp
       - mcp-server
-    last_checked_at: "2026-07-20T16:42:57.399Z"
+    last_checked_at: '2026-07-20T16:42:57.399Z'
     readme:
-      fetched_at: "2026-07-20T16:42:57.399Z"
+      fetched_at: '2026-07-20T16:42:57.399Z'
       bytes: 12013
 insights:
   summary: A Go-based MCP server that exposes Kubernetes cluster operations and Helm management as tools for LLM assistants.
-  why_it_matters: It lets developers manage k8s resources and diagnose cluster issues through natural language in MCP-compatible clients like Cursor, removing the need to memorize complex kubectl syntax.
-  mental_damage: Now you can debug your YAML indentation errors by politely asking an LLM why your cluster is on fire, adding a new layer of abstraction between you and your inevitable Helm disaster.
+  why_it_matters: >-
+    It lets developers manage k8s resources and diagnose cluster issues through natural language in MCP-compatible
+    clients like Cursor, removing the need to memorize complex kubectl syntax.
+  mental_damage: >-
+    Now you can debug your YAML indentation errors by politely asking an LLM why your cluster is on fire, adding a new
+    layer of abstraction between you and your inevitable Helm disaster.
   tags:
     - kubernetes
     - mcp
@@ -56,35 +67,42 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is a Kubernetes-specific MCP server implementation, fitting cleanly as domain infrastructure for the Model Context Protocol.
+  reason: >-
+    The product's identity is a Kubernetes-specific MCP server implementation, fitting cleanly as domain infrastructure
+    for the Model Context Protocol.
   evidence:
-    - "Repo description explicitly states: 'A Kubernetes MCP (Model Control Protocol) server that enables interaction with Kubernetes clusters through MCP tools.'"
+    - >-
+      Repo description explicitly states: 'A Kubernetes MCP (Model Control Protocol) server that enables interaction
+      with Kubernetes clusters through MCP tools.'
     - README confirms it is an 'stdio-based MCP server' built using the mcp-go SDK for cluster and Helm operations.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Cloud Platforms', confirming its role as MCP infrastructure.
+    - >-
+      Listed in awesome-mcp-servers under 'Server Implementations > Cloud Platforms', confirming its role as MCP
+      infrastructure.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.648Z"
+    updated_at: '2026-05-06T22:12:15.648Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:57.399Z"
+    updated_at: '2026-07-20T16:42:57.399Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

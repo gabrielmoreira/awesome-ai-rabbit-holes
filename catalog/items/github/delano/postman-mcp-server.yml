@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__delano__postman-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: delano/postman-mcp-server
         extracted_url: https://github.com/delano/postman-mcp-server
-        surrounding_text: "- [delano/postman-mcp-server](https://github.com/delano/postman-mcp-server) 📇 ☁️ - Interact with [Postman API](https://www.postman.com/postman/postman-public-workspace/)"
+        surrounding_text: >-
+          - [delano/postman-mcp-server](https://github.com/delano/postman-mcp-server) 📇 ☁️ - Interact with [Postman
+          API](https://www.postman.com/postman/postman-public-workspace/)
         confidence: high
     - id: discovery__github__delano__postman-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -33,9 +35,12 @@ provenance:
         mode: parsed
         section_path:
           - 💻 Developer Tools
-        anchor_text: "@delano/postman-mcp-server"
+        anchor_text: '@delano/postman-mcp-server'
         extracted_url: https://github.com/delano/postman-mcp-server
-        surrounding_text: "-   **[@delano/postman-mcp-server](https://github.com/delano/postman-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/delano/postman-mcp-server?style=social)](https://github.com/delano/postman-mcp-server): Interacts with the Postman API."
+        surrounding_text: >-
+          -   **[@delano/postman-mcp-server](https://github.com/delano/postman-mcp-server)** [![GitHub
+          stars](https://img.shields.io/github/stars/delano/postman-mcp-server?style=social)](https://github.com/delano/postman-mcp-server):
+          Interacts with the Postman API.
         confidence: high
 metadata:
   github:
@@ -45,21 +50,23 @@ metadata:
     archived: false
     full_name: delano/postman-mcp-server
     html_url: https://github.com/delano/postman-mcp-server
-    created_at: "2024-12-14T06:36:19Z"
-    pushed_at: "2026-02-11T11:33:23Z"
+    created_at: '2024-12-14T06:36:19Z'
+    pushed_at: '2026-02-11T11:33:23Z'
     description: An MCP server that provides access to Postman.
     homepage: https://www.postman.com/postman/postman-public-workspace/
     topics:
       - anthropic
       - claude
       - mcp
-    last_checked_at: "2026-09-14T04:13:38.694Z"
+    last_checked_at: '2026-09-14T04:13:38.694Z'
     readme:
-      fetched_at: "2026-09-14T04:13:38.694Z"
+      fetched_at: '2026-09-14T04:13:38.694Z'
       bytes: 10518
 insights:
   summary: An MCP server that provides programmatic access to the Postman API for managing collections, environments, and APIs.
-  why_it_matters: Developers can integrate Postman's API management capabilities directly into MCP-compatible workflows, enabling AI agents to interact with Postman resources.
+  why_it_matters: >-
+    Developers can integrate Postman's API management capabilities directly into MCP-compatible workflows, enabling AI
+    agents to interact with Postman resources.
   mental_damage: Now your AI can argue with your API schemas instead of just your code.
   tags:
     - mcp
@@ -69,31 +76,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose primary identity is providing Postman API access via MCP, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product is explicitly an MCP server whose primary identity is providing Postman API access via MCP, fitting the
+    MCP Servers & Tooling category.
   evidence:
     - Repo description states it is 'An MCP server that provides access to Postman'
     - README confirms it is a TypeScript-based MCP server integrating with Postman API
     - Listed in awesome-mcp-list and awesome-mcp-servers under Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: promotion_candidate
   reason: Stars (153) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.585Z"
+    updated_at: '2026-05-06T22:12:15.585Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:38.694Z"
+    updated_at: '2026-09-14T04:13:38.694Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:50:34.971Z"
+    updated_at: '2026-07-21T15:50:34.971Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -106,7 +116,9 @@ processing:
       input_hash: sha256:de40ffed7f52959d4eee96fa995ada46595514a304d5f0cf2bb4debd0e26606d
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server whose primary identity is providing Postman API access via MCP, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product is explicitly an MCP server whose primary identity is providing Postman API access via MCP, fitting
+        the MCP Servers & Tooling category.
       decision_evidence:
         - Repo description states it is 'An MCP server that provides access to Postman'
         - README confirms it is a TypeScript-based MCP server integrating with Postman API
@@ -114,6 +126,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

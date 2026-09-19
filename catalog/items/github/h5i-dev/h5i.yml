@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__h5i-dev__h5i__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-07-02T05:22:20.470Z"
+      discovered_at: '2026-07-02T05:22:20.470Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,14 @@ provenance:
           - Orchestrators & autonomous loops
         anchor_text: h5i
         extracted_url: https://github.com/h5i-dev/h5i
-        surrounding_text: "- **[h5i](https://github.com/h5i-dev/h5i)** `⭐ 434` — Runs several coding agents (Claude Code, Codex) on the same task in isolated sandboxes, has them peer-review each other, then a neutral verifier replays and tests each candidate and merges the one that passes. Run metadata is versioned in the repo under `refs/h5i/*`. Apache-2.0."
+        surrounding_text: >-
+          - **[h5i](https://github.com/h5i-dev/h5i)** `⭐ 434` — Runs several coding agents (Claude Code, Codex) on the
+          same task in isolated sandboxes, has them peer-review each other, then a neutral verifier replays and tests
+          each candidate and merges the one that passes. Run metadata is versioned in the repo under `refs/h5i/*`.
+          Apache-2.0.
         confidence: high
     - id: discovery__github__h5i-dev__h5i__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-08-17T04:19:08.737Z"
+      discovered_at: '2026-08-17T04:19:08.737Z'
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -35,7 +39,9 @@ provenance:
           - CLI Agent Harnesses
         anchor_text: h5i
         extracted_url: https://github.com/h5i-dev/h5i
-        surrounding_text: "| [h5i](https://github.com/h5i-dev/h5i) | 530 | Rust | Apache-2.0 | 2026-08 | Runs agents in sandboxes, merges the verified result |"
+        surrounding_text: >-
+          | [h5i](https://github.com/h5i-dev/h5i) | 530 | Rust | Apache-2.0 | 2026-08 | Runs agents in sandboxes, merges
+          the verified result |
         confidence: high
 metadata:
   github:
@@ -45,9 +51,11 @@ metadata:
     archived: false
     full_name: h5i-dev/h5i
     html_url: https://github.com/h5i-dev/h5i
-    created_at: "2026-03-11T04:30:52Z"
-    pushed_at: "2026-09-03T05:09:50Z"
-    description: Secure, auditable browser for AI agents. Pure Rust, no Chromium or V8. ~3× faster and ~86% less peak memory than headless Chromium.
+    created_at: '2026-03-11T04:30:52Z'
+    pushed_at: '2026-09-03T05:09:50Z'
+    description: >-
+      Secure, auditable browser for AI agents. Pure Rust, no Chromium or V8. ~3× faster and ~86% less peak memory than
+      headless Chromium.
     homepage: https://h5i.dev
     topics:
       - agentic-ai
@@ -70,12 +78,14 @@ metadata:
       - scraping
       - security
       - worktree-manager
-    last_checked_at: "2026-09-03T05:16:56.673Z"
+    last_checked_at: '2026-09-03T05:16:56.673Z'
     readme:
-      fetched_at: "2026-09-03T05:16:56.673Z"
+      fetched_at: '2026-09-03T05:16:56.673Z'
       bytes: 11258
 insights:
-  summary: h5i provides sandboxed Git worktrees and persistent memory for AI coding agent teams to reduce conflicts and token waste.
+  summary: >-
+    h5i provides sandboxed Git worktrees and persistent memory for AI coding agent teams to reduce conflicts and token
+    waste.
   why_it_matters: It lets developers safely run multiple AI agents in parallel with auditable, conflict-free changes that stay in Git.
   mental_damage: Finally, a way to make your AI agents step on each other's toes in a controlled, auditable fashion.
   tags:
@@ -85,31 +95,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: h5i is primarily a multi-agent coordination platform with sandboxed worktrees and audit trails, fitting the agent orchestration category as a control plane for AI agent teams.
+  reason: >-
+    h5i is primarily a multi-agent coordination platform with sandboxed worktrees and audit trails, fitting the agent
+    orchestration category as a control plane for AI agent teams.
   evidence:
-    - "Repo description: 'Auditable workspaces for AI agent teams: sandboxed worktrees, conflict-free multi-agent orchestra'"
-    - "README: 'Run one agent safely, scale to many via a conflict-free multi-agent orchestra, then merge one auditable result'"
-    - "Source-list context: Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous loops'"
+    - >-
+      Repo description: 'Auditable workspaces for AI agent teams: sandboxed worktrees, conflict-free multi-agent
+      orchestra'
+    - >-
+      README: 'Run one agent safely, scale to many via a conflict-free multi-agent orchestra, then merge one auditable
+      result'
+    - >-
+      Source-list context: Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators &
+      autonomous loops'
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (442) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-08-17T04:19:08.741Z"
+    updated_at: '2026-08-17T04:19:08.741Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:56.673Z"
+    updated_at: '2026-09-03T05:16:56.673Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-02T05:32:32.279Z"
+    updated_at: '2026-07-02T05:32:32.279Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

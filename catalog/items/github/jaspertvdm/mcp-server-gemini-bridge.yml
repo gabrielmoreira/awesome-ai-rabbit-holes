@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jaspertvdm__mcp-server-gemini-bridge__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: jaspertvdm/mcp-server-gemini-bridge
         extracted_url: https://github.com/jaspertvdm/mcp-server-gemini-bridge
-        surrounding_text: "- [jaspertvdm/mcp-server-gemini-bridge](https://github.com/jaspertvdm/mcp-server-gemini-bridge) 🐍 ☁️ - Bridge to Google Gemini API. Access Gemini Pro and Flash models through MCP."
+        surrounding_text: >-
+          - [jaspertvdm/mcp-server-gemini-bridge](https://github.com/jaspertvdm/mcp-server-gemini-bridge) 🐍 ☁️ - Bridge
+          to Google Gemini API. Access Gemini Pro and Flash models through MCP.
         confidence: high
 metadata:
   github:
@@ -30,14 +32,14 @@ metadata:
     archived: false
     full_name: jaspertvdm/mcp-server-gemini-bridge
     html_url: https://github.com/jaspertvdm/mcp-server-gemini-bridge
-    created_at: "2026-01-06T07:49:12Z"
-    pushed_at: "2026-06-10T06:04:24Z"
+    created_at: '2026-01-06T07:49:12Z'
+    pushed_at: '2026-06-10T06:04:24Z'
     description: MCP Server - Bridge to Google Gemini API. Part of HumoticaOS/SymbAIon ecosystem.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:48.397Z"
+    last_checked_at: '2026-07-30T05:05:48.397Z'
     readme:
-      fetched_at: "2026-07-30T05:05:48.397Z"
+      fetched_at: '2026-07-30T05:05:48.397Z'
       bytes: 1685
 insights:
   summary: An MCP server that bridges Google Gemini API access for MCP clients.
@@ -52,31 +54,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated server bridging Google Gemini API for MCP clients."
+  reason: 'MCP is the product identity: this is a dedicated server bridging Google Gemini API for MCP clients.'
   evidence:
     - Repo description explicitly states 'MCP Server - Bridge to Google Gemini API'
     - README shows installation and usage as an MCP server for Claude Desktop and Docker
     - Listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:48.397Z"
+    updated_at: '2026-07-30T05:05:48.397Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:11.149Z"
+    updated_at: '2026-07-21T16:10:11.149Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +92,7 @@ processing:
       input_hash: sha256:2b5c360c979836e47d66343d0baaec068062a8e67d581982ec86ccadecaf4456
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated server bridging Google Gemini API for MCP clients."
+      decision_reason: 'MCP is the product identity: this is a dedicated server bridging Google Gemini API for MCP clients.'
       decision_evidence:
         - Repo description explicitly states 'MCP Server - Bridge to Google Gemini API'
         - README shows installation and usage as an MCP server for Claude Desktop and Docker
@@ -97,6 +100,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server, not an extension layer for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server, not an extension layer for another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

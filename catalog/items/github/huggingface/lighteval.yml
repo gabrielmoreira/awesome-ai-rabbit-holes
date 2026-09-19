@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__huggingface__lighteval__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 评估 Evaluation
         anchor_text: Lighteval
         extracted_url: https://github.com/huggingface/lighteval
-        surrounding_text: "13. [Lighteval](https://github.com/huggingface/lighteval): Lighteval is your all-in-one toolkit for evaluating LLMs across multiple backends."
+        surrounding_text: >-
+          13. [Lighteval](https://github.com/huggingface/lighteval): Lighteval is your all-in-one toolkit for evaluating
+          LLMs across multiple backends.
         confidence: high
 metadata:
   github:
@@ -29,8 +31,8 @@ metadata:
     archived: false
     full_name: huggingface/lighteval
     html_url: https://github.com/huggingface/lighteval
-    created_at: "2024-01-26T13:15:39Z"
-    pushed_at: "2026-06-29T13:03:33Z"
+    created_at: '2024-01-26T13:15:39Z'
+    pushed_at: '2026-06-29T13:03:33Z'
     description: Lighteval is your all-in-one toolkit for evaluating LLMs across multiple backends
     homepage: https://huggingface.co/docs/lighteval/en/index
     topics:
@@ -38,13 +40,17 @@ metadata:
       - evaluation-framework
       - evaluation-metrics
       - huggingface
-    last_checked_at: "2026-07-30T05:05:39.579Z"
+    last_checked_at: '2026-07-30T05:05:39.579Z'
     readme:
-      fetched_at: "2026-07-30T05:05:39.579Z"
+      fetched_at: '2026-07-30T05:05:39.579Z'
       bytes: 8637
 insights:
-  summary: Lighteval is an all-in-one toolkit for evaluating LLMs across multiple backends, supporting 1000+ tasks and custom metrics.
-  why_it_matters: Developers can rigorously benchmark and debug model performance with detailed, sample-by-sample results across diverse domains and languages.
+  summary: >-
+    Lighteval is an all-in-one toolkit for evaluating LLMs across multiple backends, supporting 1000+ tasks and custom
+    metrics.
+  why_it_matters: >-
+    Developers can rigorously benchmark and debug model performance with detailed, sample-by-sample results across
+    diverse domains and languages.
   mental_damage: Finally, a way to prove your model is bad at math without having to argue with it.
   tags:
     - evaluation
@@ -55,31 +61,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product is a framework for measuring, scoring, and comparing LLM behavior, which aligns with the Evals & Benchmarks category.
+  reason: >-
+    The core product is a framework for measuring, scoring, and comparing LLM behavior, which aligns with the Evals &
+    Benchmarks category.
   evidence:
     - Repo description explicitly states it is a toolkit for evaluating LLMs across multiple backends
     - README highlights 1000+ evaluation tasks, custom metrics, and detailed results for debugging
     - Source-list context places it in an 'Evaluation' section
 placement:
   primary_category: evals
-  section: Agent Benchmarks
+  secondary_categories: []
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: promotion_candidate
   reason: Stars (2395) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.619Z"
+    updated_at: '2026-05-06T22:12:15.619Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:39.579Z"
+    updated_at: '2026-07-30T05:05:39.579Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:06:35.912Z"
+    updated_at: '2026-07-21T16:06:35.912Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -92,7 +101,9 @@ processing:
       input_hash: sha256:5dda5cf6077d3b6b8531ca8ec07a17e1079509fa7198138bd2146fc85c409a7f
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: The core product is a framework for measuring, scoring, and comparing LLM behavior, which aligns with the Evals & Benchmarks category.
+      decision_reason: >-
+        The core product is a framework for measuring, scoring, and comparing LLM behavior, which aligns with the Evals
+        & Benchmarks category.
       decision_evidence:
         - Repo description explicitly states it is a toolkit for evaluating LLMs across multiple backends
         - README highlights 1000+ evaluation tasks, custom metrics, and detailed results for debugging
@@ -100,6 +111,8 @@ processing:
       category_candidates:
         - evals
         - ai-frameworks
-      contrastive_reason: Choose evals over ai-frameworks because the primary job is benchmarking and evaluation rather than serving as a code-first building block.
+      contrastive_reason: >-
+        Choose evals over ai-frameworks because the primary job is benchmarking and evaluation rather than serving as a
+        code-first building block.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__abhiphile__fermat-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🧮 <a name="data-science-tools"></a>Data Science Tools
         anchor_text: abhiphile/fermat-mcp
         extracted_url: https://github.com/abhiphile/fermat-mcp
-        surrounding_text: "- [abhiphile/fermat-mcp](https://github.com/abhiphile/fermat-mcp) 🐍 🏠 🍎 🪟 🐧 - The ultimate math engine unifying SymPy, NumPy & Matplotlib in one powerful server. Perfect for developers & researchers needing symbolic algebra, numerical computing, and data visualization."
+        surrounding_text: >-
+          - [abhiphile/fermat-mcp](https://github.com/abhiphile/fermat-mcp) 🐍 🏠 🍎 🪟 🐧 - The ultimate math engine
+          unifying SymPy, NumPy & Matplotlib in one powerful server. Perfect for developers & researchers needing
+          symbolic algebra, numerical computing, and data visualization.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: abhiphile/fermat-mcp
     html_url: https://github.com/abhiphile/fermat-mcp
-    created_at: "2025-07-19T08:13:04Z"
-    pushed_at: "2026-08-05T03:40:11Z"
-    description: "🚀 Fermat MCP: The Ultimate Math Engine - Unifying SymPy, NumPy & Matplotlib in one powerful server! Perfect for devs & researchers. "
+    created_at: '2025-07-19T08:13:04Z'
+    pushed_at: '2026-08-05T03:40:11Z'
+    description: >-
+      🚀 Fermat MCP: The Ultimate Math Engine - Unifying SymPy, NumPy & Matplotlib in one powerful server! Perfect for
+      devs & researchers. 
     homepage: https://mcpmarket.com/server/fermat
     topics:
       - mathematics
@@ -43,14 +48,20 @@ metadata:
       - numpy
       - symbolic-computation
       - sympy
-    last_checked_at: "2026-09-17T04:13:28.768Z"
+    last_checked_at: '2026-09-17T04:13:28.768Z'
     readme:
-      fetched_at: "2026-09-17T04:13:28.768Z"
+      fetched_at: '2026-09-17T04:13:28.768Z'
       bytes: 10150
 insights:
-  summary: An MCP server that integrates SymPy, NumPy, and Matplotlib to provide mathematical computation and plotting capabilities to AI assistants.
-  why_it_matters: It allows LLMs to move beyond hallucinated arithmetic by giving them access to verified symbolic and numerical computation engines.
-  mental_damage: Another layer of abstraction between you and your math homework, ensuring the AI's mistakes are now backed by professional-grade libraries.
+  summary: >-
+    An MCP server that integrates SymPy, NumPy, and Matplotlib to provide mathematical computation and plotting
+    capabilities to AI assistants.
+  why_it_matters: >-
+    It allows LLMs to move beyond hallucinated arithmetic by giving them access to verified symbolic and numerical
+    computation engines.
+  mental_damage: >-
+    Another layer of abstraction between you and your math homework, ensuring the AI's mistakes are now backed by
+    professional-grade libraries.
   tags:
     - mcp
     - mathematics
@@ -67,24 +78,25 @@ curation:
     - Provides specific configuration for Claude and Gemini MCP clients
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.599Z"
+    updated_at: '2026-05-06T22:12:15.599Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:28.768Z"
+    updated_at: '2026-09-17T04:13:28.768Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:55:12.839Z"
+    updated_at: '2026-07-20T15:55:12.839Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -105,6 +117,8 @@ processing:
       category_candidates:
         - mcp
         - skills
-      contrastive_reason: Choose mcp over skills because the product identity is a protocol-compliant server/middleware rather than just a portable pack of prompts or commands.
+      contrastive_reason: >-
+        Choose mcp over skills because the product identity is a protocol-compliant server/middleware rather than just a
+        portable pack of prompts or commands.
       review_reason: null
       review_resume_lifecycle: null

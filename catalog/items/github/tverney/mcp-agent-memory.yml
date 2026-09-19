@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tverney__mcp-agent-memory__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: tverney/mcp-agent-memory
         extracted_url: https://github.com/tverney/mcp-agent-memory
-        surrounding_text: "- [tverney/mcp-agent-memory](https://github.com/tverney/mcp-agent-memory) [![tverney/mcp-agent-memory MCP server](https://glama.ai/mcp/servers/tverney/mcp-agent-memory/badges/score.svg)](https://glama.ai/mcp/servers/tverney/mcp-agent-memory) 📇 🏠 🍎 - Persistent agent memory via filesystem-native consolidation daemon. Agents read/write/search memory through MCP; a background daemon handles consolidation and extraction. Works with Kiro, Claude Desktop, Cursor, and any MCP client. `npx mcp-agent-memory --setup`"
+        surrounding_text: >-
+          - [tverney/mcp-agent-memory](https://github.com/tverney/mcp-agent-memory) [![tverney/mcp-agent-memory MCP
+          server](https://glama.ai/mcp/servers/tverney/mcp-agent-memory/badges/score.svg)](https://glama.ai/mcp/servers/tverney/mcp-agent-memory)
+          📇 🏠 🍎 - Persistent agent memory via filesystem-native consolidation daemon. Agents read/write/search memory
+          through MCP; a background daemon handles consolidation and extraction. Works with Kiro, Claude Desktop,
+          Cursor, and any MCP client. `npx mcp-agent-memory --setup`
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: tverney/mcp-agent-memory
     html_url: https://github.com/tverney/mcp-agent-memory
-    created_at: "2026-04-26T03:20:13Z"
-    pushed_at: "2026-06-22T17:26:38Z"
-    description: MCP that brings persistent agent memory to Kiro, Claude Desktop, Cursor, and any MCP client — powered by agent-memory-daemon 🧠
+    created_at: '2026-04-26T03:20:13Z'
+    pushed_at: '2026-06-22T17:26:38Z'
+    description: >-
+      MCP that brings persistent agent memory to Kiro, Claude Desktop, Cursor, and any MCP client — powered by
+      agent-memory-daemon 🧠
     homepage: https://glama.ai/mcp/servers/tverney/mcp-agent-memory
     topics:
       - agent-memory
@@ -47,14 +54,20 @@ metadata:
       - model-context-protocol
       - persistent-memory
       - typescript
-    last_checked_at: "2026-07-21T15:20:58.081Z"
+    last_checked_at: '2026-07-21T15:20:58.081Z'
     readme:
-      fetched_at: "2026-07-21T15:20:58.081Z"
+      fetched_at: '2026-07-21T15:20:58.081Z'
       bytes: 11935
 insights:
-  summary: MCP server that exposes a persistent memory daemon to any MCP-compatible client, enabling agents to read, append, and search session memories via filesystem bridge.
-  why_it_matters: Gives coding agents long-term memory that survives across sessions by automatically consolidating session summaries into durable knowledge accessible through standard MCP tooling.
-  mental_damage: Now your agent can remember that you prefer single quotes over double quotes from three projects ago, but still forgets to import the module you just discussed five minutes earlier.
+  summary: >-
+    MCP server that exposes a persistent memory daemon to any MCP-compatible client, enabling agents to read, append,
+    and search session memories via filesystem bridge.
+  why_it_matters: >-
+    Gives coding agents long-term memory that survives across sessions by automatically consolidating session summaries
+    into durable knowledge accessible through standard MCP tooling.
+  mental_damage: >-
+    Now your agent can remember that you prefer single quotes over double quotes from three projects ago, but still
+    forgets to import the module you just discussed five minutes earlier.
   tags:
     - mcp
     - memory
@@ -64,31 +77,36 @@ insights:
   confidence: low
 curation:
   status: included
-  reason: It is a concrete MCP server implementation specifically for persistent agent memory, fitting the protocol infrastructure category as domain-specific server tooling despite low current traction.
+  reason: >-
+    It is a concrete MCP server implementation specifically for persistent agent memory, fitting the protocol
+    infrastructure category as domain-specific server tooling despite low current traction.
   evidence:
     - Listed in awesome-mcp-servers as a Knowledge & Memory server implementation
     - Repo explicitly implements an MCP server interface bridging to agent-memory-daemon
-    - Exposes memory_read, memory_append_session, and memory_search tools via MCP protocol to Kiro, Claude Desktop, and Cursor
+    - >-
+      Exposes memory_read, memory_append_session, and memory_search tools via MCP protocol to Kiro, Claude Desktop, and
+      Cursor
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.653Z"
+    updated_at: '2026-05-06T22:12:15.653Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:58.081Z"
+    updated_at: '2026-07-21T15:20:58.081Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-14T05:24:41.620Z"
+    updated_at: '2026-05-14T05:24:41.620Z'
     cause: null
     next_retry_at: null
     attempts: 2

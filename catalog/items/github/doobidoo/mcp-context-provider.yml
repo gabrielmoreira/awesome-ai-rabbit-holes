@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__doobidoo__mcp-context-provider__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: doobidoo/MCP-Context-Provider
         extracted_url: https://github.com/doobidoo/mcp-context-provider
-        surrounding_text: "- [doobidoo/MCP-Context-Provider](https://github.com/doobidoo/MCP-Context-Provider) 📇 🏠 - Static server that provides persistent tool-specific context and rules for AI models"
+        surrounding_text: >-
+          - [doobidoo/MCP-Context-Provider](https://github.com/doobidoo/MCP-Context-Provider) 📇 🏠 - Static server that
+          provides persistent tool-specific context and rules for AI models
         confidence: high
 metadata:
   github:
@@ -30,10 +32,10 @@ metadata:
     archived: false
     full_name: doobidoo/MCP-Context-Provider
     html_url: https://github.com/doobidoo/MCP-Context-Provider
-    created_at: "2025-08-21T09:04:20Z"
-    pushed_at: "2026-09-02T11:24:55Z"
+    created_at: '2025-08-21T09:04:20Z'
+    pushed_at: '2026-09-02T11:24:55Z'
     description: A static MCP server that provides AI models with persistent tool context, preventing context loss between chats.
-    homepage: ""
+    homepage: ''
     topics:
       - anthropic
       - automation
@@ -47,9 +49,9 @@ metadata:
       - memory
       - productivity
       - workflow
-    last_checked_at: "2026-09-14T04:13:43.398Z"
+    last_checked_at: '2026-09-14T04:13:43.398Z'
     readme:
-      fetched_at: "2026-09-14T04:13:43.398Z"
+      fetched_at: '2026-09-14T04:13:43.398Z'
       bytes: 10634
 insights:
   summary: A static MCP server that provides persistent tool context and learned instincts for Claude Desktop and Claude Code.
@@ -62,31 +64,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core novelty is a memory, retrieval, and context-shaping system (static contexts and learned instincts) that injects rules into the model, fitting Prompt & Context Engineering over a host integration label.
+  reason: >-
+    The core novelty is a memory, retrieval, and context-shaping system (static contexts and learned instincts) that
+    injects rules into the model, fitting Prompt & Context Engineering over a host integration label.
   evidence:
-    - Repo description states it is 'A static MCP server that provides AI models with persistent tool context, preventing context loss between chats.'
-    - "README defines two core concepts: 'Context' (static tool rules) and 'Instinct' (learned, confidence-scored rules distilled from sessions) with subsystems for injection and lifecycle management."
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory', aligning with memory and context infrastructure rather than a host integration.
+    - >-
+      Repo description states it is 'A static MCP server that provides AI models with persistent tool context,
+      preventing context loss between chats.'
+    - >-
+      README defines two core concepts: 'Context' (static tool rules) and 'Instinct' (learned, confidence-scored rules
+      distilled from sessions) with subsystems for injection and lifecycle management.
+    - >-
+      Listed in awesome-mcp-servers under 'Knowledge & Memory', aligning with memory and context infrastructure rather
+      than a host integration.
 placement:
-  primary_category: context-engineering
-  section: null
+  primary_category: mcp
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'mcp'"
+  reason: 'Categorization review required: placement disagreement: retained ''context-engineering'', proposed ''mcp'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.611Z"
+    updated_at: '2026-05-06T22:12:15.611Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:43.399Z"
+    updated_at: '2026-09-14T04:13:43.399Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T09:26:34.965Z"
+    updated_at: '2026-08-27T09:26:34.965Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -99,14 +110,18 @@ processing:
       input_hash: sha256:2f7149ff56bbab563d5d1ad8361d3eed8b9e96ca43e4ebf13256335c3bdbde13
       proposed_primary_category: mcp
       disagreement: true
-      decision_reason: The product is an MCP server whose core identity is providing persistent context via the Model Context Protocol, making it MCP infrastructure first.
+      decision_reason: >-
+        The product is an MCP server whose core identity is providing persistent context via the Model Context Protocol,
+        making it MCP infrastructure first.
       decision_evidence:
-        - "Repo description: 'A static MCP server that provides AI models with persistent tool context'"
-        - "README: 'A TypeScript MCP server that gives Claude persistent Contexts and Instincts'"
-        - "Archived: no, pushed at 2026-08-26 shows recent activity"
+        - 'Repo description: ''A static MCP server that provides AI models with persistent tool context'''
+        - 'README: ''A TypeScript MCP server that gives Claude persistent Contexts and Instincts'''
+        - 'Archived: no, pushed at 2026-08-26 shows recent activity'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an extension that augments another assistant with MCP compatibility.
-      review_reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'mcp'"
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an extension that augments
+        another assistant with MCP compatibility.
+      review_reason: 'Categorization review required: placement disagreement: retained ''context-engineering'', proposed ''mcp'''
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__xspadex__bilibili-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: xspadex/bilibili-mcp
         extracted_url: https://github.com/xspadex/bilibili-mcp
-        surrounding_text: "- [xspadex/bilibili-mcp](https://github.com/xspadex/bilibili-mcp.git) 📇 🏠 - A FastMCP-based tool that fetches Bilibili's trending videos and exposes them via a standard MCP interface."
+        surrounding_text: >-
+          - [xspadex/bilibili-mcp](https://github.com/xspadex/bilibili-mcp.git) 📇 🏠 - A FastMCP-based tool that
+          fetches Bilibili's trending videos and exposes them via a standard MCP interface.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,25 @@ metadata:
     archived: false
     full_name: xspadex/bilibili-mcp
     html_url: https://github.com/xspadex/bilibili-mcp
-    created_at: "2025-04-23T03:13:48Z"
-    pushed_at: "2025-04-23T03:13:56Z"
+    created_at: '2025-04-23T03:13:48Z'
+    pushed_at: '2025-04-23T03:13:56Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:21:18.432Z"
+    last_checked_at: '2026-07-21T15:21:18.432Z'
     readme:
-      fetched_at: "2026-07-21T15:21:18.432Z"
+      fetched_at: '2026-07-21T15:21:18.432Z'
       bytes: 1823
 insights:
-  summary: bilibili-mcp is an MCP server that fetches Bilibili trending video data via httpx and FastMCP for use with MCP clients like Cursor.
-  why_it_matters: It lets developers pull real-time Bilibili hot list data into their MCP-enabled workflows without leaving their coding environment.
-  mental_damage: Another niche MCP server that turns a public API into a tool call, because we clearly needed yet another way to watch trending videos while pretending to work.
+  summary: >-
+    bilibili-mcp is an MCP server that fetches Bilibili trending video data via httpx and FastMCP for use with MCP
+    clients like Cursor.
+  why_it_matters: >-
+    It lets developers pull real-time Bilibili hot list data into their MCP-enabled workflows without leaving their
+    coding environment.
+  mental_damage: >-
+    Another niche MCP server that turns a public API into a tool call, because we clearly needed yet another way to
+    watch trending videos while pretending to work.
   tags:
     - mcp
     - bilibili
@@ -50,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server whose core identity is providing a standardized tool interface for Bilibili trending data, fitting the MCP Servers & Tooling category as a domain-specific MCP server.
+  reason: >-
+    The project is an MCP server whose core identity is providing a standardized tool interface for Bilibili trending
+    data, fitting the MCP Servers & Tooling category as a domain-specific MCP server.
   evidence:
     - README describes it as '一个用于获取 B 站热榜的 MCP 工具' (an MCP tool for getting Bilibili hot list)
     - It uses FastMCP to register a standard MCP tool named `get_popular` that returns video data
     - Listed in awesome-mcp-servers under 'Browser Automation' as an MCP server implementation
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.656Z"
+    updated_at: '2026-05-06T22:12:15.656Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:18.432Z"
+    updated_at: '2026-07-21T15:21:18.432Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:42:16.514Z"
+    updated_at: '2026-05-12T15:42:16.514Z'
     cause: null
     next_retry_at: null
     attempts: 1

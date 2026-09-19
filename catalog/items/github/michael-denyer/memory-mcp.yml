@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__michael-denyer__memory-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: michael-denyer/memory-mcp
         extracted_url: https://github.com/michael-denyer/memory-mcp
-        surrounding_text: "- [michael-denyer/memory-mcp](https://github.com/michael-denyer/memory-mcp) 🐍 🏠 🍎 🪟 🐧 - Two-tier memory with hot cache (instant injection) and cold semantic search. Auto-promotes frequently-used patterns, extracts knowledge from Claude outputs, and organizes via knowledge graph relationships."
+        surrounding_text: >-
+          - [michael-denyer/memory-mcp](https://github.com/michael-denyer/memory-mcp) 🐍 🏠 🍎 🪟 🐧 - Two-tier memory
+          with hot cache (instant injection) and cold semantic search. Auto-promotes frequently-used patterns, extracts
+          knowledge from Claude outputs, and organizes via knowledge graph relationships.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,20 @@ metadata:
     archived: false
     full_name: michael-denyer/memory-mcp
     html_url: https://github.com/michael-denyer/memory-mcp
-    created_at: "2026-01-19T00:33:23Z"
-    pushed_at: "2026-07-22T06:07:48Z"
+    created_at: '2026-01-19T00:33:23Z'
+    pushed_at: '2026-07-22T06:07:48Z'
     description: Engram-inspired memory MCP server with hot cache and pattern mining
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:17:01.102Z"
+    last_checked_at: '2026-08-03T05:17:01.102Z'
     readme:
-      fetched_at: "2026-08-03T05:17:01.102Z"
+      fetched_at: '2026-08-03T05:17:01.102Z'
       bytes: 6531
 insights:
   summary: Memory MCP is an MCP server providing a two-tier memory system with hot cache and semantic search for AI assistants.
-  why_it_matters: It reduces repetitive context injection and tool-call overhead by auto-promoting frequently used knowledge into the assistant's context.
+  why_it_matters: >-
+    It reduces repetitive context injection and tool-call overhead by auto-promoting frequently used knowledge into the
+    assistant's context.
   mental_damage: Finally, a memory system that remembers your project better than you remember where you put your coffee mug.
   tags:
     - mcp
@@ -51,31 +56,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is explicitly an MCP server for memory management, fitting the 'Domain Servers' section of the MCP category.
+  reason: >-
+    The product's identity is explicitly an MCP server for memory management, fitting the 'Domain Servers' section of
+    the MCP category.
   evidence:
-    - "Repo description states: 'Engram-inspired memory MCP server with hot cache and pattern mining'."
+    - 'Repo description states: ''Engram-inspired memory MCP server with hot cache and pattern mining''.'
     - README shows it is installed as an MCP server via `claude plugins add` or `mcpServers` JSON config.
     - Listed in awesome-mcp-servers under 'Knowledge & Memory'.
 placement:
   primary_category: mcp
-  section: null
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
+  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''context-engineering'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.629Z"
+    updated_at: '2026-05-06T22:12:15.629Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:01.102Z"
+    updated_at: '2026-08-03T05:17:01.102Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:20:18.224Z"
+    updated_at: '2026-07-21T16:20:18.224Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,15 +96,21 @@ processing:
       input_hash: sha256:e08de1cf28fbee9b8fe713de506fac35c1329d01937d31751c9b76d26eac1da4
       proposed_primary_category: context-engineering
       disagreement: true
-      decision_reason: Memory MCP's core value is its memory and retrieval system—hot cache, semantic search, knowledge graph, and auto-promotion—making it a context-shaping infrastructure rather than a host integration or coding agent.
+      decision_reason: >-
+        Memory MCP's core value is its memory and retrieval system—hot cache, semantic search, knowledge graph, and
+        auto-promotion—making it a context-shaping infrastructure rather than a host integration or coding agent.
       decision_evidence:
-        - "Repo description: 'Engram-inspired memory MCP server with hot cache and pattern mining'"
-        - "README: 'Hot cache (0ms) — Frequently-used knowledge auto-injected into context before Claude even starts thinking'"
-        - "README: 'Cold storage (~50ms) — Everything else, searchable by meaning via semantic similarity'"
-        - "README: 'The system learns what you use and promotes it automatically'"
+        - 'Repo description: ''Engram-inspired memory MCP server with hot cache and pattern mining'''
+        - >-
+          README: 'Hot cache (0ms) — Frequently-used knowledge auto-injected into context before Claude even starts
+          thinking'
+        - 'README: ''Cold storage (~50ms) — Everything else, searchable by meaning via semantic similarity'''
+        - 'README: ''The system learns what you use and promotes it automatically'''
       category_candidates:
         - context-engineering
         - ai-dev-extensions
-      contrastive_reason: Choose context-engineering over ai-dev-extensions because the core novelty is memory, retrieval, compression, and auto-promotion—not augmenting another assistant with host capabilities like debugger or browser access.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
+      contrastive_reason: >-
+        Choose context-engineering over ai-dev-extensions because the core novelty is memory, retrieval, compression,
+        and auto-promotion—not augmenting another assistant with host capabilities like debugger or browser access.
+      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''context-engineering'''
       review_resume_lifecycle: null

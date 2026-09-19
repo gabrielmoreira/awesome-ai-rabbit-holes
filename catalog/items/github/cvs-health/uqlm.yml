@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cvs-health__uqlm__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,7 +20,10 @@ provenance:
           - Services
         anchor_text: UQLM
         extracted_url: https://github.com/cvs-health/uqlm
-        surrounding_text: "- [UQLM](https://github.com/cvs-health/uqlm): UQLM: Uncertainty Quantification for Language Models, is a Python library for LLM hallucination detection using state-of-the-art uncertainty quantification techniques ![GitHub Repo stars](https://img.shields.io/github/stars/cvs-health/uqlm?style=social)"
+        surrounding_text: >-
+          - [UQLM](https://github.com/cvs-health/uqlm): UQLM: Uncertainty Quantification for Language Models, is a
+          Python library for LLM hallucination detection using state-of-the-art uncertainty quantification techniques
+          ![GitHub Repo stars](https://img.shields.io/github/stars/cvs-health/uqlm?style=social)
         confidence: high
 metadata:
   github:
@@ -30,9 +33,9 @@ metadata:
     archived: false
     full_name: cvs-health/uqlm
     html_url: https://github.com/cvs-health/uqlm
-    created_at: "2025-04-17T23:12:21Z"
-    pushed_at: "2026-09-07T16:35:38Z"
-    description: "[JMLR 2026] \"UQLM: A Python Package for Uncertainty Quantification in Large Language Models\""
+    created_at: '2025-04-17T23:12:21Z'
+    pushed_at: '2026-09-07T16:35:38Z'
+    description: '[JMLR 2026] "UQLM: A Python Package for Uncertainty Quantification in Large Language Models"'
     homepage: https://cvs-health.github.io/uqlm/latest/index.html
     topics:
       - ai-evaluation
@@ -49,13 +52,15 @@ metadata:
       - llm-safety
       - uncertainty-estimation
       - uncertainty-quantification
-    last_checked_at: "2026-09-14T04:13:32.367Z"
+    last_checked_at: '2026-09-14T04:13:32.367Z'
     readme:
-      fetched_at: "2026-09-14T04:13:32.366Z"
+      fetched_at: '2026-09-14T04:13:32.366Z'
       bytes: 22812
 insights:
   summary: UQLM is a Python library for detecting LLM hallucinations using uncertainty quantification techniques.
-  why_it_matters: It provides developers with a suite of scorers to quantify uncertainty in LLM outputs, helping identify and mitigate hallucinations in AI applications.
+  why_it_matters: >-
+    It provides developers with a suite of scorers to quantify uncertainty in LLM outputs, helping identify and mitigate
+    hallucinations in AI applications.
   mental_damage: Now you can finally put a number on how confident your LLM is about its own lies.
   tags:
     - llm-evaluation
@@ -65,31 +70,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core job of UQLM is measuring and mitigating hallucinations in LLM outputs, which aligns with the evals category's focus on measuring model behavior.
+  reason: >-
+    The core job of UQLM is measuring and mitigating hallucinations in LLM outputs, which aligns with the evals
+    category's focus on measuring model behavior.
   evidence:
     - Repo description explicitly states it is for 'UQ-based LLM hallucination detection'
     - README details multiple scorer types for quantifying uncertainty in LLM outputs
     - Published in JMLR/TMLR and cited in arXiv, indicating academic and practical evaluation focus
 placement:
   primary_category: evals
-  section: Safety / Fairness / Data Quality
+  secondary_categories: []
+  section: Safety, Fairness & Red-teaming
 lifecycle:
   status: promotion_candidate
   reason: Stars (1147) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.609Z"
+    updated_at: '2026-05-06T22:12:15.609Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:32.367Z"
+    updated_at: '2026-09-14T04:13:32.367Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:49:23.036Z"
+    updated_at: '2026-07-21T15:49:23.036Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -102,7 +110,9 @@ processing:
       input_hash: sha256:719b9f61beddedf7edca0ba49ec647c5a651180d636a79a54927b85d97712aec
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: The core job of UQLM is measuring and mitigating hallucinations in LLM outputs, which aligns with the evals category's focus on measuring model behavior.
+      decision_reason: >-
+        The core job of UQLM is measuring and mitigating hallucinations in LLM outputs, which aligns with the evals
+        category's focus on measuring model behavior.
       decision_evidence:
         - Repo description explicitly states it is for 'UQ-based LLM hallucination detection'
         - README details multiple scorer types for quantifying uncertainty in LLM outputs
@@ -110,6 +120,8 @@ processing:
       category_candidates:
         - evals
         - ai-frameworks
-      contrastive_reason: Choose evals over ai-frameworks because the primary value is measuring hallucinations (evaluation) rather than being a general-purpose framework for building AI workflows.
+      contrastive_reason: >-
+        Choose evals over ai-frameworks because the primary value is measuring hallucinations (evaluation) rather than
+        being a general-purpose framework for building AI workflows.
       review_reason: null
       review_resume_lifecycle: null

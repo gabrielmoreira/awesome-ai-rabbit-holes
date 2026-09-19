@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__degenlegion-com__waxseal-sdk__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-23T05:08:37.088Z"
+      discovered_at: '2026-07-23T05:08:37.088Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🔑 <a name="cryptography"></a>Cryptography
         anchor_text: degenlegion-com/waxseal-sdk
         extracted_url: https://github.com/degenlegion-com/waxseal-sdk
-        surrounding_text: "- [degenlegion-com/waxseal-sdk](https://github.com/degenlegion-com/waxseal-sdk) [![degenlegion-com/waxseal-sdk MCP server](https://glama.ai/mcp/servers/degenlegion-com/waxseal-sdk/badges/score.svg)](https://glama.ai/mcp/servers/degenlegion-com/waxseal-sdk) 📇 ☁️ 🏠 - On-chain Ed25519 identity for AI agents — verify seals by fingerprint, validate document signatures, and gate irreversible actions behind human-signed approval tokens. Hosted at `api.waxseal.id/mcp`; local install (`npx @waxseal/mcp`) for signing."
+        surrounding_text: >-
+          - [degenlegion-com/waxseal-sdk](https://github.com/degenlegion-com/waxseal-sdk) [![degenlegion-com/waxseal-sdk
+          MCP
+          server](https://glama.ai/mcp/servers/degenlegion-com/waxseal-sdk/badges/score.svg)](https://glama.ai/mcp/servers/degenlegion-com/waxseal-sdk)
+          📇 ☁️ 🏠 - On-chain Ed25519 identity for AI agents — verify seals by fingerprint, validate document
+          signatures, and gate irreversible actions behind human-signed approval tokens. Hosted at `api.waxseal.id/mcp`;
+          local install (`npx @waxseal/mcp`) for signing.
         confidence: high
 metadata:
   github:
@@ -30,8 +36,8 @@ metadata:
     archived: false
     full_name: degenlegion-com/waxseal-sdk
     html_url: https://github.com/degenlegion-com/waxseal-sdk
-    created_at: "2026-06-22T11:01:26Z"
-    pushed_at: "2026-07-07T06:28:22Z"
+    created_at: '2026-06-22T11:01:26Z'
+    pushed_at: '2026-07-07T06:28:22Z'
     description: Ed25519 cryptographic identity for apps and AI agents — MCP server for Claude/Cursor/Windsurf + JS/TS verify SDK
     homepage: https://waxseal.id
     topics:
@@ -48,14 +54,20 @@ metadata:
       - sdk
       - typescript
       - waxseal
-    last_checked_at: "2026-09-14T04:13:38.583Z"
+    last_checked_at: '2026-09-14T04:13:38.583Z'
     readme:
-      fetched_at: "2026-09-14T04:13:38.583Z"
+      fetched_at: '2026-09-14T04:13:38.583Z'
       bytes: 8701
 insights:
-  summary: WaxSeal SDK provides Ed25519 cryptographic identity for apps and AI agents, including an MCP server and TypeScript verification SDK.
-  why_it_matters: It lets developers give AI agents verifiable identities and signing capabilities without managing cryptographic infrastructure directly.
-  mental_damage: Finally, a way to make your AI agent feel important by giving it a cryptographic signature it doesn’t understand but can use to sign off on bad decisions.
+  summary: >-
+    WaxSeal SDK provides Ed25519 cryptographic identity for apps and AI agents, including an MCP server and TypeScript
+    verification SDK.
+  why_it_matters: >-
+    It lets developers give AI agents verifiable identities and signing capabilities without managing cryptographic
+    infrastructure directly.
+  mental_damage: >-
+    Finally, a way to make your AI agent feel important by giving it a cryptographic signature it doesn’t understand but
+    can use to sign off on bad decisions.
   tags:
     - cryptographic-identity
     - mcp-server
@@ -63,31 +75,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: WaxSeal SDK is primarily an MCP server that extends Claude, Cursor, or Windsurf with cryptographic identity and approval tools, making it an integration layer rather than a standalone coding assistant.
+  reason: >-
+    WaxSeal SDK is primarily an MCP server that extends Claude, Cursor, or Windsurf with cryptographic identity and
+    approval tools, making it an integration layer rather than a standalone coding assistant.
   evidence:
-    - "Repo description: 'Ed25519 cryptographic identity for apps and AI agents — MCP server for Claude/Cursor/Windsurf + JS/TS verify SDK'"
-    - "README: '@waxseal/mcp' is an MCP server for Claude, Cursor, Windsurf, and VS Code that verifies identities, signs documents, and gates AI actions with human approvals"
-    - "Source-list: included in awesome-mcp-servers under Cryptography section as an MCP server implementation"
+    - >-
+      Repo description: 'Ed25519 cryptographic identity for apps and AI agents — MCP server for Claude/Cursor/Windsurf +
+      JS/TS verify SDK'
+    - >-
+      README: '@waxseal/mcp' is an MCP server for Claude, Cursor, Windsurf, and VS Code that verifies identities, signs
+      documents, and gates AI actions with human approvals
+    - 'Source-list: included in awesome-mcp-servers under Cryptography section as an MCP server implementation'
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: Security & DevSecOps
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-23T05:08:37.090Z"
+    updated_at: '2026-07-23T05:08:37.090Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:38.583Z"
+    updated_at: '2026-09-14T04:13:38.583Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T09:26:14.624Z"
+    updated_at: '2026-08-27T09:26:14.624Z'
     cause: null
     next_retry_at: null
     classification:
@@ -97,15 +116,24 @@ processing:
       input_hash: sha256:0ed07d5e3bb2794e50690e46734877cd0b5a9e02f11d95dd1d0f9a96db022915
       proposed_primary_category: ai-dev-extensions
       disagreement: false
-      decision_reason: WaxSeal SDK is primarily an MCP server that extends Claude, Cursor, or Windsurf with cryptographic identity and approval tools, making it an integration layer rather than a standalone coding assistant.
+      decision_reason: >-
+        WaxSeal SDK is primarily an MCP server that extends Claude, Cursor, or Windsurf with cryptographic identity and
+        approval tools, making it an integration layer rather than a standalone coding assistant.
       decision_evidence:
-        - "Repo description: 'Ed25519 cryptographic identity for apps and AI agents — MCP server for Claude/Cursor/Windsurf + JS/TS verify SDK'"
-        - "README: '@waxseal/mcp' is an MCP server for Claude, Cursor, Windsurf, and VS Code that verifies identities, signs documents, and gates AI actions with human approvals"
-        - "Source-list: included in awesome-mcp-servers under Cryptography section as an MCP server implementation"
+        - >-
+          Repo description: 'Ed25519 cryptographic identity for apps and AI agents — MCP server for
+          Claude/Cursor/Windsurf + JS/TS verify SDK'
+        - >-
+          README: '@waxseal/mcp' is an MCP server for Claude, Cursor, Windsurf, and VS Code that verifies identities,
+          signs documents, and gates AI actions with human approvals
+        - 'Source-list: included in awesome-mcp-servers under Cryptography section as an MCP server implementation'
       category_candidates:
         - ai-dev-extensions
         - mcp
-      contrastive_reason: Choose ai-dev-extensions over mcp because while it provides an MCP server, its main value is extending existing AI coding assistants with identity and approval workflows rather than being MCP infrastructure as a primary product.
+      contrastive_reason: >-
+        Choose ai-dev-extensions over mcp because while it provides an MCP server, its main value is extending existing
+        AI coding assistants with identity and approval workflows rather than being MCP infrastructure as a primary
+        product.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

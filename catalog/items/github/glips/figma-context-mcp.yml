@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__glips__figma-context-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: GLips/Figma-Context-MCP
         extracted_url: https://github.com/glips/figma-context-mcp
-        surrounding_text: "- [GLips/Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP) 📇 🏠 - Provide coding agents direct access to Figma data to help them one-shot design implementation."
+        surrounding_text: >-
+          - [GLips/Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP) 📇 🏠 - Provide coding agents direct
+          access to Figma data to help them one-shot design implementation.
         confidence: high
     - id: discovery__github__glips__figma-context-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - 💻 Developer Tools
         anchor_text: GLips/Figma-Context-MCP
         extracted_url: https://github.com/glips/figma-context-mcp
-        surrounding_text: "-   **[GLips/Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP)** [![GitHub stars](https://img.shields.io/github/stars/GLips/Figma-Context-MCP?style=social)](https://github.com/GLips/Figma-Context-MCP): Gives coding agents direct access to Figma data."
+        surrounding_text: >-
+          -   **[GLips/Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP)** [![GitHub
+          stars](https://img.shields.io/github/stars/GLips/Figma-Context-MCP?style=social)](https://github.com/GLips/Figma-Context-MCP):
+          Gives coding agents direct access to Figma data.
         confidence: high
 metadata:
   github:
@@ -45,8 +50,8 @@ metadata:
     archived: false
     full_name: GLips/Figma-Context-MCP
     html_url: https://github.com/GLips/Figma-Context-MCP
-    created_at: "2025-02-13T02:55:06Z"
-    pushed_at: "2026-08-07T04:58:42Z"
+    created_at: '2025-02-13T02:55:06Z'
+    pushed_at: '2026-08-07T04:58:42Z'
     description: MCP server to provide Figma layout information to AI coding agents like Cursor
     homepage: https://www.framelink.ai/
     topics:
@@ -55,13 +60,15 @@ metadata:
       - figma
       - mcp
       - typescript
-    last_checked_at: "2026-09-03T05:16:51.062Z"
+    last_checked_at: '2026-09-03T05:16:51.062Z'
     readme:
-      fetched_at: "2026-09-03T05:16:51.062Z"
+      fetched_at: '2026-09-03T05:16:51.062Z'
       bytes: 4186
 insights:
   summary: MCP server that provides Figma layout information to AI coding agents like Cursor.
-  why_it_matters: Enables coding agents to directly access and implement Figma designs with higher accuracy by providing structured layout and styling data.
+  why_it_matters: >-
+    Enables coding agents to directly access and implement Figma designs with higher accuracy by providing structured
+    layout and styling data.
   mental_damage: Now your AI can argue with your designer about pixel-perfect implementations instead of you.
   tags:
     - mcp
@@ -72,31 +79,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server providing Figma data to coding agents, making MCP the primary adopted thing.
+  reason: >-
+    The product's core identity is an MCP server providing Figma data to coding agents, making MCP the primary adopted
+    thing.
   evidence:
     - Repo description explicitly states it is an MCP server for Figma layout information
     - README emphasizes MCP as the protocol and integration method
     - Listed in multiple MCP-focused directories under Developer Tools
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: API & Service Integrations
 lifecycle:
   status: promotion_candidate
   reason: Stars (14636) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.586Z"
+    updated_at: '2026-05-06T22:12:15.586Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:51.062Z"
+    updated_at: '2026-09-03T05:16:51.062Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:03:31.264Z"
+    updated_at: '2026-07-21T16:03:31.264Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -109,7 +119,9 @@ processing:
       input_hash: sha256:adc38b066b8f59030f251c53158011432f8c5d0ff29e81e4de81da684b216ad0
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP server providing Figma data to coding agents, making MCP the primary adopted thing.
+      decision_reason: >-
+        The product's core identity is an MCP server providing Figma data to coding agents, making MCP the primary
+        adopted thing.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Figma layout information
         - README emphasizes MCP as the protocol and integration method
@@ -117,6 +129,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server rather than a general host integration.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server rather than a
+        general host integration.
       review_reason: null
       review_resume_lifecycle: null

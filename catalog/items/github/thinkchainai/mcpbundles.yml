@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__thinkchainai__mcpbundles__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: thinkchainai/mcpbundles
         extracted_url: https://github.com/thinkchainai/mcpbundles
-        surrounding_text: "- [thinkchainai/mcpbundles](https://github.com/thinkchainai/mcpbundles) - MCP Bundles: Create custom bundles of tools and connect providers with OAuth or API keys. Use one MCP server across thousands of integrations, with programmatic tool calling and MCP UI for managing bundles and credentials."
+        surrounding_text: >-
+          - [thinkchainai/mcpbundles](https://github.com/thinkchainai/mcpbundles) - MCP Bundles: Create custom bundles
+          of tools and connect providers with OAuth or API keys. Use one MCP server across thousands of integrations,
+          with programmatic tool calling and MCP UI for managing bundles and credentials.
         confidence: high
 metadata:
   github:
@@ -30,19 +33,25 @@ metadata:
     archived: false
     full_name: thinkchainai/mcpbundles
     html_url: https://github.com/thinkchainai/mcpbundles
-    created_at: "2025-11-12T17:22:03Z"
-    pushed_at: "2026-04-11T18:01:26Z"
+    created_at: '2025-11-12T17:22:03Z'
+    pushed_at: '2026-04-11T18:01:26Z'
     description: MCPBundles .mcpb package releases for MCP registry
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:20:48.392Z"
+    last_checked_at: '2026-07-21T15:20:48.392Z'
     readme:
-      fetched_at: "2026-07-21T15:20:48.392Z"
+      fetched_at: '2026-07-21T15:20:48.392Z'
       bytes: 10790
 insights:
-  summary: A hosted registry and MCP server proxy that aggregates hundreds of tool bundles into a single MCP endpoint for AI assistants like Claude and Cursor.
-  why_it_matters: It replaces the pain of configuring and managing dozens of individual MCP servers with one authenticated URL that exposes all your enabled tool integrations.
-  mental_damage: We have successfully abstracted away the 'configure individual servers' problem by introducing a proprietary bundle format that requires its own account, OAuth flow, and yet another layer of MCP indirection.
+  summary: >-
+    A hosted registry and MCP server proxy that aggregates hundreds of tool bundles into a single MCP endpoint for AI
+    assistants like Claude and Cursor.
+  why_it_matters: >-
+    It replaces the pain of configuring and managing dozens of individual MCP servers with one authenticated URL that
+    exposes all your enabled tool integrations.
+  mental_damage: >-
+    We have successfully abstracted away the 'configure individual servers' problem by introducing a proprietary bundle
+    format that requires its own account, OAuth flow, and yet another layer of MCP indirection.
   tags:
     - mcp
     - tool-aggregation
@@ -50,35 +59,40 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product identity is an MCP server proxy and registry that aggregates multiple tool providers into a single MCP endpoint, directly matching the MCP Servers & Tooling category.
+  reason: >-
+    The product identity is an MCP server proxy and registry that aggregates multiple tool providers into a single MCP
+    endpoint, directly matching the MCP Servers & Tooling category.
   evidence:
-    - "Repo description: 'MCPBundles .mcpb package releases for MCP registry'"
-    - "README: 'Execute tools from your enabled bundles directly from Claude, Cursor, and other MCP-compatible AI assistants using the Model Context Protocol.'"
-    - "Source list: included in awesome-mcp-servers under 'Server Implementations > Aggregators'"
+    - 'Repo description: ''MCPBundles .mcpb package releases for MCP registry'''
+    - >-
+      README: 'Execute tools from your enabled bundles directly from Claude, Cursor, and other MCP-compatible AI
+      assistants using the Model Context Protocol.'
+    - 'Source list: included in awesome-mcp-servers under ''Server Implementations > Aggregators'''
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Registries & Discovery
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.652Z"
+    updated_at: '2026-05-06T22:12:15.652Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:48.392Z"
+    updated_at: '2026-07-21T15:20:48.392Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__prompthub__us__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -18,10 +18,15 @@ provenance:
           - LLMOps
         anchor_text: PromptHub
         extracted_url: https://prompthub.us
-        surrounding_text: "| [PromptHub](https://www.prompthub.us)                              | Full stack prompt management tool designed to be usable by technical and non-technical team members. Test, version, collaborate, deploy, and monitor, all from one place.                                                                                                                                                                                                                               |                                                                                                           |"
+        surrounding_text: >-
+          | [PromptHub](https://www.prompthub.us)                              | Full stack prompt management tool
+          designed to be usable by technical and non-technical team members. Test, version, collaborate, deploy, and
+          monitor, all from one
+          place.                                                                                                                                                                                                                              
+          |                                                                                                           |
         confidence: high
     - id: discovery__www__prompthub__us__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -33,7 +38,12 @@ provenance:
           - LLMOps
         anchor_text: PromptHub
         extracted_url: https://www.prompthub.us
-        surrounding_text: "| [PromptHub](https://www.prompthub.us)                              | Full stack prompt management tool designed to be usable by technical and non-technical team members. Test, version, collaborate, deploy, and monitor, all from one place.                                                                                                                                                                                                                               |                                                                                                           |"
+        surrounding_text: >-
+          | [PromptHub](https://www.prompthub.us)                              | Full stack prompt management tool
+          designed to be usable by technical and non-technical team members. Test, version, collaborate, deploy, and
+          monitor, all from one
+          place.                                                                                                                                                                                                                              
+          |                                                                                                           |
         confidence: high
 metadata:
   github:
@@ -52,7 +62,9 @@ metadata:
     readme: null
 insights:
   summary: PromptHub is a prompt management platform for teams to discover, version, test, and deploy prompts.
-  why_it_matters: It centralizes prompt engineering workflows with Git-based versioning, testing, and deployment, making prompt iteration and collaboration more structured for developers.
+  why_it_matters: >-
+    It centralizes prompt engineering workflows with Git-based versioning, testing, and deployment, making prompt
+    iteration and collaboration more structured for developers.
   mental_damage: Finally, a place to version your prompts so you can stop pretending they’re not code.
   tags:
     - prompt-management
@@ -63,21 +75,26 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product is a prompt management and engineering platform, which fits the Prompt & Context Engineering category's focus on prompt systems, versioning, and testing.
+  reason: >-
+    The core product is a prompt management and engineering platform, which fits the Prompt & Context Engineering
+    category's focus on prompt systems, versioning, and testing.
   evidence:
-    - "Site description: 'Test, deploy, and manage your prompts with PromptHub, a prompt management tool for teams.'"
-    - "Primary page excerpt: 'The home for prompt engineering—discover, manage, version, test, and deploy prompts in a community-driven platform.'"
-    - "Source-list context: Listed in Awesome-LLMOps under LLMOps as a prompt management tool."
+    - 'Site description: ''Test, deploy, and manage your prompts with PromptHub, a prompt management tool for teams.'''
+    - >-
+      Primary page excerpt: 'The home for prompt engineering—discover, manage, version, test, and deploy prompts in a
+      community-driven platform.'
+    - 'Source-list context: Listed in Awesome-LLMOps under LLMOps as a prompt management tool.'
 placement:
-  primary_category: context-engineering
-  section: PromptOps / Prompt Management
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Prompt Engineering & Management
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:36:33.906Z"
+    updated_at: '2026-07-21T15:36:33.906Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -90,20 +107,26 @@ processing:
       input_hash: sha256:c1c04265d67974809db5f9cdf4a61f7aa1f225b8fd8ec6063df3c7e4a121c392
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: The core product is a prompt management and engineering platform, which fits the Prompt & Context Engineering category's focus on prompt systems, versioning, and testing.
+      decision_reason: >-
+        The core product is a prompt management and engineering platform, which fits the Prompt & Context Engineering
+        category's focus on prompt systems, versioning, and testing.
       decision_evidence:
-        - "Site description: 'Test, deploy, and manage your prompts with PromptHub, a prompt management tool for teams.'"
-        - "Primary page excerpt: 'The home for prompt engineering—discover, manage, version, test, and deploy prompts in a community-driven platform.'"
-        - "Source-list context: Listed in Awesome-LLMOps under LLMOps as a prompt management tool."
+        - 'Site description: ''Test, deploy, and manage your prompts with PromptHub, a prompt management tool for teams.'''
+        - >-
+          Primary page excerpt: 'The home for prompt engineering—discover, manage, version, test, and deploy prompts in
+          a community-driven platform.'
+        - 'Source-list context: Listed in Awesome-LLMOps under LLMOps as a prompt management tool.'
       category_candidates:
         - context-engineering
         - agent-orchestration
-      contrastive_reason: Choose context-engineering over agent-orchestration because the primary value is prompt management and engineering, not multi-agent coordination.
+      contrastive_reason: >-
+        Choose context-engineering over agent-orchestration because the primary value is prompt management and
+        engineering, not multi-agent coordination.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.969Z"
+    updated_at: '2026-07-21T15:20:21.969Z'
     cause: null
     next_retry_at: null
   stars:

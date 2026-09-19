@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jcdickinson__simplemem__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: jcdickinson/simplemem
         extracted_url: https://github.com/jcdickinson/simplemem
-        surrounding_text: "- [jcdickinson/simplemem](https://github.com/jcdickinson/simplemem) 🏎️ ☁️ 🐧 - A simple memory tool for coding agents using DuckDB and VoyageAI."
+        surrounding_text: >-
+          - [jcdickinson/simplemem](https://github.com/jcdickinson/simplemem) 🏎️ ☁️ 🐧 - A simple memory tool for
+          coding agents using DuckDB and VoyageAI.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: jcdickinson/simplemem
     html_url: https://github.com/jcdickinson/simplemem
-    created_at: "2025-08-24T08:54:21Z"
-    pushed_at: "2025-09-11T06:03:23Z"
+    created_at: '2025-08-24T08:54:21Z'
+    pushed_at: '2025-09-11T06:03:23Z'
     description: A very simple semantic MCP memory store
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:49.082Z"
+    last_checked_at: '2026-07-30T05:05:49.082Z'
     readme:
-      fetched_at: "2026-07-30T05:05:49.082Z"
+      fetched_at: '2026-07-30T05:05:49.082Z'
       bytes: 7929
 insights:
   summary: A simple semantic MCP memory store with RAG capabilities for Claude and other MCP clients.
-  why_it_matters: It provides persistent, semantically searchable memory storage for AI assistants, enabling better context retention and retrieval across sessions.
+  why_it_matters: >-
+    It provides persistent, semantically searchable memory storage for AI assistants, enabling better context retention
+    and retrieval across sessions.
   mental_damage: Now your AI can remember your bad decisions as vividly as you do.
   tags:
     - mcp
@@ -59,24 +63,25 @@ curation:
     - Core functionality is MCP tooling (memory storage, semantic search, backlinks)
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:49.082Z"
+    updated_at: '2026-07-30T05:05:49.082Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:28.050Z"
+    updated_at: '2026-07-21T16:10:28.050Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -97,6 +102,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product's primary identity is as an MCP server, not just a memory system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the product's primary identity is as an MCP server, not just a
+        memory system.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__just-every__mcp-screenshot-website-fast__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Community Servers
         anchor_text: just-every/mcp-screenshot-website-fast
         extracted_url: https://github.com/just-every/mcp-screenshot-website-fast
-        surrounding_text: "- **[just-every/mcp-screenshot-website-fast](https://github.com/just-every/mcp-screenshot-website-fast)** - High-quality screenshot capture optimized for Claude Vision API. Automatically tiles full pages into 1072x1072 chunks (1.15 megapixels) with configurable viewports and wait strategies for dynamic content."
+        surrounding_text: >-
+          - **[just-every/mcp-screenshot-website-fast](https://github.com/just-every/mcp-screenshot-website-fast)** -
+          High-quality screenshot capture optimized for Claude Vision API. Automatically tiles full pages into 1072x1072
+          chunks (1.15 megapixels) with configurable viewports and wait strategies for dynamic content.
         confidence: high
 metadata:
   github:
@@ -29,8 +32,8 @@ metadata:
     archived: false
     full_name: just-every/mcp-screenshot-website-fast
     html_url: https://github.com/just-every/mcp-screenshot-website-fast
-    created_at: "2025-06-11T16:27:17Z"
-    pushed_at: "2026-07-24T21:14:44Z"
+    created_at: '2025-06-11T16:27:17Z'
+    pushed_at: '2026-07-24T21:14:44Z'
     description: Quickly screenshots webpages and converts to an LLM friendly size
     homepage: https://justevery.com
     topics:
@@ -40,13 +43,15 @@ metadata:
       - mcp
       - mcp-server
       - screenshot
-    last_checked_at: "2026-07-30T05:05:53.546Z"
+    last_checked_at: '2026-07-30T05:05:53.546Z'
     readme:
-      fetched_at: "2026-07-30T05:05:53.546Z"
+      fetched_at: '2026-07-30T05:05:53.546Z'
       bytes: 10219
 insights:
   summary: An MCP server that captures web page screenshots and tiles them into LLM-friendly 1072x1072 chunks.
-  why_it_matters: Enables AI workflows to process full web pages as visual context without hitting model input size or resolution limits.
+  why_it_matters: >-
+    Enables AI workflows to process full web pages as visual context without hitting model input size or resolution
+    limits.
   mental_damage: Now your AI can finally read that 10,000-word blog post you didn’t, but only in 1.15-megapixel chunks.
   tags:
     - mcp-server
@@ -57,31 +62,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a purpose-built MCP server for screenshot capture, not a generic tool with MCP as an adapter."
+  reason: >-
+    MCP is the product identity: this is a purpose-built MCP server for screenshot capture, not a generic tool with MCP
+    as an adapter.
   evidence:
     - Repo description explicitly states it is an MCP server for screenshotting webpages
     - README highlights MCP integration as a core feature with installation instructions for multiple MCP clients
     - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.623Z"
+    updated_at: '2026-05-06T22:12:15.623Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:53.546Z"
+    updated_at: '2026-07-30T05:05:53.546Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:11:38.603Z"
+    updated_at: '2026-07-21T16:11:38.603Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -94,7 +102,9 @@ processing:
       input_hash: sha256:3345d3dc95a5481168682664ce225948e99ea78e33eb98d9940af47fcfc0bf38
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a purpose-built MCP server for screenshot capture, not a generic tool with MCP as an adapter."
+      decision_reason: >-
+        MCP is the product identity: this is a purpose-built MCP server for screenshot capture, not a generic tool with
+        MCP as an adapter.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for screenshotting webpages
         - README highlights MCP integration as a core feature with installation instructions for multiple MCP clients
@@ -102,6 +112,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary identity is an MCP server (screenshot capture as a protocol service) rather than an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary identity is an MCP server (screenshot capture as a
+        protocol service) rather than an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

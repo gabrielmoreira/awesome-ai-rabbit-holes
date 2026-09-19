@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__spfunctions__simplefunctions-cli__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: spfunctions/simplefunctions-cli
         extracted_url: https://github.com/spfunctions/simplefunctions-cli
-        surrounding_text: "- [spfunctions/simplefunctions-cli](https://github.com/spfunctions/simplefunctions-cli) [![simplefunctions-cli MCP server](https://glama.ai/mcp/servers/spfunctions/simplefunctions-cli/badges/score.svg)](https://glama.ai/mcp/servers/spfunctions/simplefunctions-cli) 📇 ☁️ - Calibrated world model for AI agents from 9,700+ prediction markets. 16 MCP tools covering real-time world state, market search, thesis management, edge detection, and content enrichment across Kalshi and Polymarket. `get_world_state` returns ~800 tokens of calibrated probabilities — no API key needed."
+        surrounding_text: >-
+          - [spfunctions/simplefunctions-cli](https://github.com/spfunctions/simplefunctions-cli) [![simplefunctions-cli
+          MCP
+          server](https://glama.ai/mcp/servers/spfunctions/simplefunctions-cli/badges/score.svg)](https://glama.ai/mcp/servers/spfunctions/simplefunctions-cli)
+          📇 ☁️ - Calibrated world model for AI agents from 9,700+ prediction markets. 16 MCP tools covering real-time
+          world state, market search, thesis management, edge detection, and content enrichment across Kalshi and
+          Polymarket. `get_world_state` returns ~800 tokens of calibrated probabilities — no API key needed.
         confidence: high
 metadata:
   github:
@@ -30,8 +36,8 @@ metadata:
     archived: false
     full_name: null
     html_url: null
-    created_at: "2026-03-14T15:28:55Z"
-    pushed_at: "2026-05-06T10:03:30Z"
+    created_at: '2026-03-14T15:28:55Z'
+    pushed_at: '2026-05-06T10:03:30Z'
     description: Reference and issue mirror for @spfunctions/cli, the SimpleFunctions sf command-line interface.
     homepage: https://simplefunctions.dev
     topics:
@@ -55,14 +61,20 @@ metadata:
       - thesis-engine
       - trading-bot
       - trading-cli
-    last_checked_at: "2026-05-06T22:46:30.622Z"
+    last_checked_at: '2026-05-06T22:46:30.622Z'
     readme:
-      fetched_at: "2026-05-06T22:46:30.622Z"
+      fetched_at: '2026-05-06T22:46:30.622Z'
       bytes: 2326
 insights:
-  summary: A CLI tool for interacting with prediction-market infrastructure on Kalshi and Polymarket, exporting structured JSON for coding agents.
-  why_it_matters: It provides a standardized, agent-ready interface for querying live market state and running thesis workflows, bridging prediction markets and AI automation.
-  mental_damage: Now your trading bot can have the same context-engineering anxiety as your codebase, just with significantly more volatile stakes.
+  summary: >-
+    A CLI tool for interacting with prediction-market infrastructure on Kalshi and Polymarket, exporting structured JSON
+    for coding agents.
+  why_it_matters: >-
+    It provides a standardized, agent-ready interface for querying live market state and running thesis workflows,
+    bridging prediction markets and AI automation.
+  mental_damage: >-
+    Now your trading bot can have the same context-engineering anxiety as your codebase, just with significantly more
+    volatile stakes.
   tags:
     - cli
     - prediction-markets
@@ -72,37 +84,46 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The primary artifact is a CLI and API surface that developers script against to build trading workflows and agent automations, fitting a code-first SDK/framework identity.
+  reason: >-
+    The primary artifact is a CLI and API surface that developers script against to build trading workflows and agent
+    automations, fitting a code-first SDK/framework identity.
   evidence:
-    - "README states 'CLI: primary local control plane for humans, shell scripts, cron, Claude Code, Codex, and other coding agents.'"
-    - Product surface order lists CLI and HTTP/Data API before SDKs and agent runtime, with MCP as a compatibility adapter.
-    - Topics include cli-first, kalshi-api, polymarket-api, and trading-cli, indicating a developer tool for market infrastructure.
+    - >-
+      README states 'CLI: primary local control plane for humans, shell scripts, cron, Claude Code, Codex, and other
+      coding agents.'
+    - >-
+      Product surface order lists CLI and HTTP/Data API before SDKs and agent runtime, with MCP as a compatibility
+      adapter.
+    - >-
+      Topics include cli-first, kalshi-api, polymarket-api, and trading-cli, indicating a developer tool for market
+      infrastructure.
 placement:
-  primary_category: ai-frameworks
-  section: Provider / Model Abstractions
+  primary_category: mcp
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.649Z"
+    updated_at: '2026-05-06T22:12:15.649Z'
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: "2026-07-21T15:20:35.650Z"
+    updated_at: '2026-07-21T15:20:35.650Z'
     cause:
       type: github_repo_missing
-      message: "GitHub repository not found: spfunctions/simplefunctions-cli"
+      message: 'GitHub repository not found: spfunctions/simplefunctions-cli'
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

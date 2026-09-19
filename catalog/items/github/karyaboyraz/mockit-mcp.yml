@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__karyaboyraz__mockit-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📐 <a name="architecture-and-design"></a>Architecture & Design
         anchor_text: karyaboyraz/mockit-mcp
         extracted_url: https://github.com/karyaboyraz/mockit-mcp
-        surrounding_text: "- [karyaboyraz/mockit-mcp](https://github.com/karyaboyraz/mockit-mcp) [![karyaboyraz/mockit-mcp MCP server](https://glama.ai/mcp/servers/karyaboyraz/mockit-mcp/badges/score.svg)](https://glama.ai/mcp/servers/karyaboyraz/mockit-mcp) 📇 🏠 🍎 🪟 🐧 - Generate premium iOS mobile UI mockups (PNG + HTML) from a single text prompt. Pairs Claude (Opus 4.7 by default) with a Playwright headless renderer. Two backends — `claude` CLI (uses your Claude Code subscription) or Anthropic API. Stdio + HTTP transports, MIT."
+        surrounding_text: >-
+          - [karyaboyraz/mockit-mcp](https://github.com/karyaboyraz/mockit-mcp) [![karyaboyraz/mockit-mcp MCP
+          server](https://glama.ai/mcp/servers/karyaboyraz/mockit-mcp/badges/score.svg)](https://glama.ai/mcp/servers/karyaboyraz/mockit-mcp)
+          📇 🏠 🍎 🪟 🐧 - Generate premium iOS mobile UI mockups (PNG + HTML) from a single text prompt. Pairs Claude
+          (Opus 4.7 by default) with a Playwright headless renderer. Two backends — `claude` CLI (uses your Claude Code
+          subscription) or Anthropic API. Stdio + HTTP transports, MIT.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: karyaboyraz/mockit-mcp
     html_url: https://github.com/karyaboyraz/mockit-mcp
-    created_at: "2026-05-03T13:13:47Z"
-    pushed_at: "2026-05-03T15:45:35Z"
-    description: "MCP server that turns text prompts into premium iOS mobile UI mockups (PNG + HTML). Powered by Claude (Opus 4.7) + Playwright. Two backends: local CLI or Anthropic API. MIT."
+    created_at: '2026-05-03T13:13:47Z'
+    pushed_at: '2026-05-03T15:45:35Z'
+    description: >-
+      MCP server that turns text prompts into premium iOS mobile UI mockups (PNG + HTML). Powered by Claude (Opus 4.7) +
+      Playwright. Two backends: local CLI or Anthropic API. MIT.
     homepage: https://github.com/karyaboyraz/mockit-mcp#readme
     topics:
       - ai-design
@@ -47,14 +54,18 @@ metadata:
       - prototyping
       - tailwind
       - ui-design
-    last_checked_at: "2026-07-30T05:05:54.880Z"
+    last_checked_at: '2026-07-30T05:05:54.880Z'
     readme:
-      fetched_at: "2026-07-30T05:05:54.880Z"
+      fetched_at: '2026-07-30T05:05:54.880Z'
       bytes: 12986
 insights:
   summary: An MCP server that generates iOS mobile UI mockups in PNG and HTML/Tailwind formats using Claude and Playwright.
-  why_it_matters: It allows developers to bridge the gap between prompt-based planning and visual prototyping directly within their existing AI coding environments.
-  mental_damage: Because nothing says developer productivity like debating the exact hex code of a neon accent with a headless browser.
+  why_it_matters: >-
+    It allows developers to bridge the gap between prompt-based planning and visual prototyping directly within their
+    existing AI coding environments.
+  mental_damage: >-
+    Because nothing says developer productivity like debating the exact hex code of a neon accent with a headless
+    browser.
   tags:
     - mcp
     - ios
@@ -64,31 +75,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server whose primary identity is providing specialized UI-rendering tools to existing AI assistants.
+  reason: >-
+    The project is explicitly an MCP server whose primary identity is providing specialized UI-rendering tools to
+    existing AI assistants.
   evidence:
     - Explicitly identifies as an MCP server providing tools like `generate_screen` and `iterate_screen`.
     - Uses Playwright to render high-fidelity PNGs and Tailwind/HTML code from text prompts.
     - Designed to be integrated into MCP clients like Claude Code, Cursor, and Windsurf.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.819Z"
+    updated_at: '2026-05-28T05:28:09.819Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:54.880Z"
+    updated_at: '2026-07-30T05:05:54.880Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-02T05:28:04.163Z"
+    updated_at: '2026-07-02T05:28:04.163Z'
     cause: null
     next_retry_at: null
     attempts: 1

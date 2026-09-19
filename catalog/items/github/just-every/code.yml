@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__just-every__code__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Open Source
         anchor_text: Every Code
         extracted_url: https://github.com/just-every/code
-        surrounding_text: "- **[Every Code](https://github.com/just-every/code)** `⭐ 3.7k` — Fork of Codex CLI with validation, automation, browser integration, multi-agents, theming, and multi-provider orchestration (OpenAI, Claude, Gemini). Apache-2.0."
+        surrounding_text: >-
+          - **[Every Code](https://github.com/just-every/code)** `⭐ 3.7k` — Fork of Codex CLI with validation,
+          automation, browser integration, multi-agents, theming, and multi-provider orchestration (OpenAI, Claude,
+          Gemini). Apache-2.0.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: just-every/code
     html_url: https://github.com/just-every/code
-    created_at: "2025-08-10T05:04:55Z"
-    pushed_at: "2026-07-29T22:16:54Z"
-    description: Every Code - push frontier AI to it limits. A fork of the Codex CLI with validation, automation, browser integration, multi-agents, theming, and much more. Orchestrate agents from OpenAI, Claude, Gemini or any provider.
+    created_at: '2025-08-10T05:04:55Z'
+    pushed_at: '2026-07-29T22:16:54Z'
+    description: >-
+      Every Code - push frontier AI to it limits. A fork of the Codex CLI with validation, automation, browser
+      integration, multi-agents, theming, and much more. Orchestrate agents from OpenAI, Claude, Gemini or any provider.
     homepage: https://justevery.com
     topics:
       - ai
@@ -48,13 +53,17 @@ metadata:
       - grok
       - opanai
       - qwen
-    last_checked_at: "2026-07-30T05:05:53.559Z"
+    last_checked_at: '2026-07-30T05:05:53.559Z'
     readme:
-      fetched_at: "2026-07-30T05:05:53.559Z"
+      fetched_at: '2026-07-30T05:05:53.559Z'
       bytes: 13767
 insights:
-  summary: Every Code is a community-driven fork of the Codex CLI that adds multi-agent orchestration, browser integration, theming, and validation for terminal-native coding assistance.
-  why_it_matters: It extends the Codex CLI with practical workflows like Auto Drive for task orchestration and Auto Review for background code verification, making it a more robust terminal coding agent.
+  summary: >-
+    Every Code is a community-driven fork of the Codex CLI that adds multi-agent orchestration, browser integration,
+    theming, and validation for terminal-native coding assistance.
+  why_it_matters: >-
+    It extends the Codex CLI with practical workflows like Auto Drive for task orchestration and Auto Review for
+    background code verification, making it a more robust terminal coding agent.
   mental_damage: Finally, a CLI coding agent that remembers to review its own work—unlike the rest of us at 2 AM.
   tags:
     - terminal-ai
@@ -65,13 +74,20 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a primary terminal-native coding assistant that directly plans, writes, reviews, and orchestrates code tasks, fitting the core definition of a coding agent.
+  reason: >-
+    It is a primary terminal-native coding assistant that directly plans, writes, reviews, and orchestrates code tasks,
+    fitting the core definition of a coding agent.
   evidence:
-    - "Repo description: 'A fork of the Codex CLI with validation, automation, browser integration, multi-agents, theming, and much more.'"
-    - "README: 'Every Code is a fast, local coding agent for your terminal' with Auto Drive orchestration and Auto Review features."
-    - "Source-list context: Listed in 'awesome-cli-coding-agents' under 'Terminal-native coding agents > Open Source'."
+    - >-
+      Repo description: 'A fork of the Codex CLI with validation, automation, browser integration, multi-agents,
+      theming, and much more.'
+    - >-
+      README: 'Every Code is a fast, local coding agent for your terminal' with Auto Drive orchestration and Auto Review
+      features.
+    - 'Source-list context: Listed in ''awesome-cli-coding-agents'' under ''Terminal-native coding agents > Open Source''.'
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -79,17 +95,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.623Z"
+    updated_at: '2026-05-06T22:12:15.623Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:53.559Z"
+    updated_at: '2026-07-30T05:05:53.559Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:11:35.945Z"
+    updated_at: '2026-07-21T16:11:35.945Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -102,14 +118,24 @@ processing:
       input_hash: sha256:742edb8dfa9fa46a20943b8afb893f959c8c546bb498298ed7dcbca963affb5e
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: It is a primary terminal-native coding assistant that directly plans, writes, reviews, and orchestrates code tasks, fitting the core definition of a coding agent.
+      decision_reason: >-
+        It is a primary terminal-native coding assistant that directly plans, writes, reviews, and orchestrates code
+        tasks, fitting the core definition of a coding agent.
       decision_evidence:
-        - "Repo description: 'A fork of the Codex CLI with validation, automation, browser integration, multi-agents, theming, and much more.'"
-        - "README: 'Every Code is a fast, local coding agent for your terminal' with Auto Drive orchestration and Auto Review features."
-        - "Source-list context: Listed in 'awesome-cli-coding-agents' under 'Terminal-native coding agents > Open Source'."
+        - >-
+          Repo description: 'A fork of the Codex CLI with validation, automation, browser integration, multi-agents,
+          theming, and much more.'
+        - >-
+          README: 'Every Code is a fast, local coding agent for your terminal' with Auto Drive orchestration and Auto
+          Review features.
+        - >-
+          Source-list context: Listed in 'awesome-cli-coding-agents' under 'Terminal-native coding agents > Open
+          Source'.
       category_candidates:
         - coding-agents
         - agent-orchestration
-      contrastive_reason: Choose coding-agents over agent-orchestration because the primary identity is a terminal coding assistant (Auto Drive, Auto Review) rather than a general multi-agent control plane.
+      contrastive_reason: >-
+        Choose coding-agents over agent-orchestration because the primary identity is a terminal coding assistant (Auto
+        Drive, Auto Review) rather than a general multi-agent control plane.
       review_reason: null
       review_resume_lifecycle: null

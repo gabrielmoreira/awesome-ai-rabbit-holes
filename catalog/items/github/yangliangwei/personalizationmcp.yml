@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__yangliangwei__personalizationmcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: YangLiangwei/PersonalizationMCP
         extracted_url: https://github.com/yangliangwei/personalizationmcp
-        surrounding_text: "- [YangLiangwei/PersonalizationMCP](https://github.com/YangLiangwei/PersonalizationMCP) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Comprehensive personal data aggregation MCP server with Steam, YouTube, Bilibili, Spotify, Reddit and other platforms integrations. Features OAuth2 authentication, automatic token management, and 90+ tools for gaming, music, video, and social platform data access."
+        surrounding_text: >-
+          - [YangLiangwei/PersonalizationMCP](https://github.com/YangLiangwei/PersonalizationMCP) 🐍 ☁️ 🏠 🍎 🪟 🐧 -
+          Comprehensive personal data aggregation MCP server with Steam, YouTube, Bilibili, Spotify, Reddit and other
+          platforms integrations. Features OAuth2 authentication, automatic token management, and 90+ tools for gaming,
+          music, video, and social platform data access.
         confidence: high
 metadata:
   github:
@@ -30,19 +34,27 @@ metadata:
     archived: false
     full_name: YangLiangwei/PersonalizationMCP
     html_url: https://github.com/YangLiangwei/PersonalizationMCP
-    created_at: "2025-09-07T05:40:48Z"
-    pushed_at: "2026-03-24T05:02:11Z"
-    description: 🎯 A unified personal data hub built on MCP that allows AI assistants to access your digital life from Steam, YouTube, Bilibili and more platforms for truly personalized interactions.
+    created_at: '2025-09-07T05:40:48Z'
+    pushed_at: '2026-03-24T05:02:11Z'
+    description: >-
+      🎯 A unified personal data hub built on MCP that allows AI assistants to access your digital life from Steam,
+      YouTube, Bilibili and more platforms for truly personalized interactions.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:21:19.629Z"
+    last_checked_at: '2026-07-21T15:21:19.629Z'
     readme:
-      fetched_at: "2026-07-21T15:21:19.629Z"
+      fetched_at: '2026-07-21T15:21:19.629Z'
       bytes: 23032
 insights:
-  summary: PersonalizationMCP is a Model Context Protocol server that aggregates personal data from Steam, YouTube, Bilibili, Spotify, and Reddit for AI assistant consumption.
-  why_it_matters: It enables AI assistants to access a developer's personal digital life across platforms, enriching context for coding-related tasks like debugging, learning, or ideation.
-  mental_damage: Yet another MCP server promising personalized AI while adding another credential to rotate and another service to monitor for rate limits.
+  summary: >-
+    PersonalizationMCP is a Model Context Protocol server that aggregates personal data from Steam, YouTube, Bilibili,
+    Spotify, and Reddit for AI assistant consumption.
+  why_it_matters: >-
+    It enables AI assistants to access a developer's personal digital life across platforms, enriching context for
+    coding-related tasks like debugging, learning, or ideation.
+  mental_damage: >-
+    Yet another MCP server promising personalized AI while adding another credential to rotate and another service to
+    monitor for rate limits.
   tags:
     - mcp
     - personal-data
@@ -50,31 +62,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's core identity is an MCP server that exposes personal data platforms as tools/resources, fitting the MCP Servers & Tooling category as domain-specific infrastructure.
+  reason: >-
+    The project's core identity is an MCP server that exposes personal data platforms as tools/resources, fitting the
+    MCP Servers & Tooling category as domain-specific infrastructure.
   evidence:
     - Repo description states it is 'a unified personal data hub built on MCP'
     - README emphasizes MCP compatibility and provides a `personalhub serve` command to run the server
     - Listed in awesome-mcp-servers under 'Server Implementations > Aggregators'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.656Z"
+    updated_at: '2026-05-06T22:12:15.656Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:19.629Z"
+    updated_at: '2026-07-21T15:21:19.629Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-18T05:37:08.010Z"
+    updated_at: '2026-05-18T05:37:08.010Z'
     cause: null
     next_retry_at: null
     attempts: 3

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__web3-jobs-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/web3-jobs-mcp
         extracted_url: https://github.com/kukapay/web3-jobs-mcp
-        surrounding_text: "- [kukapay/web3-jobs-mcp](https://github.com/kukapay/web3-jobs-mcp) 🐍 ☁️ -  An MCP server that provides AI agents with real-time access to curated Web3 jobs."
+        surrounding_text: >-
+          - [kukapay/web3-jobs-mcp](https://github.com/kukapay/web3-jobs-mcp) 🐍 ☁️ -  An MCP server that provides AI
+          agents with real-time access to curated Web3 jobs.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,23 @@ metadata:
     archived: false
     full_name: kukapay/web3-jobs-mcp
     html_url: https://github.com/kukapay/web3-jobs-mcp
-    created_at: "2025-06-02T04:17:06Z"
-    pushed_at: "2025-06-02T04:17:21Z"
+    created_at: '2025-06-02T04:17:06Z'
+    pushed_at: '2025-06-02T04:17:21Z'
     description: An MCP server that provides AI agents with real-time access to curated Web3 jobs.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:06:01.337Z"
+    last_checked_at: '2026-07-30T05:06:01.337Z'
     readme:
-      fetched_at: "2026-07-30T05:06:01.337Z"
+      fetched_at: '2026-07-30T05:06:01.337Z'
       bytes: 4082
 insights:
   summary: An MCP server that provides AI agents with real-time access to curated Web3 jobs from web3.career.
-  why_it_matters: Developers building AI agents can now integrate live Web3 job listings into their workflows for career insights or job discovery.
-  mental_damage: Because nothing says 'cutting-edge' like an AI agent that can tell you which blockchain gigs are hiring before you finish your coffee.
+  why_it_matters: >-
+    Developers building AI agents can now integrate live Web3 job listings into their workflows for career insights or
+    job discovery.
+  mental_damage: >-
+    Because nothing says 'cutting-edge' like an AI agent that can tell you which blockchain gigs are hiring before you
+    finish your coffee.
   tags:
     - mcp-server
     - web3
@@ -51,31 +57,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a domain-specific MCP server whose primary identity is providing Web3 job data via the Model Context Protocol.
+  reason: >-
+    This is a domain-specific MCP server whose primary identity is providing Web3 job data via the Model Context
+    Protocol.
   evidence:
     - Repo description explicitly states it is an MCP server for Web3 jobs
     - README details MCP tooling, installation, and usage with `query_jobs` and `search_jobs_prompt`
     - Project is actively maintained (created and pushed in June 2025)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:01.337Z"
+    updated_at: '2026-07-30T05:06:01.337Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:14:20.740Z"
+    updated_at: '2026-07-21T16:14:20.740Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +97,9 @@ processing:
       input_hash: sha256:7eff5d6d843628c7fae91bc3df261a43283f7c52e5175374463f5f6b242b3e13
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a domain-specific MCP server whose primary identity is providing Web3 job data via the Model Context Protocol.
+      decision_reason: >-
+        This is a domain-specific MCP server whose primary identity is providing Web3 job data via the Model Context
+        Protocol.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Web3 jobs
         - README details MCP tooling, installation, and usage with `query_jobs` and `search_jobs_prompt`
@@ -96,6 +107,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

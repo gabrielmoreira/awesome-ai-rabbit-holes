@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aliafsahnoudeh__shahnameh-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: aliafsahnoudeh/shahnameh-mcp-server
         extracted_url: https://github.com/aliafsahnoudeh/shahnameh-mcp-server
-        surrounding_text: "- [aliafsahnoudeh/shahnameh-mcp-server](https://github.com/aliafsahnoudeh/shahnameh-mcp-server) 🐍 🏠 🍎 🪟 🐧 - MCP server for accessing the Shahnameh (Book of Kings) Persian epic poem by Ferdowsi, including sections, verses and explanations."
+        surrounding_text: >-
+          - [aliafsahnoudeh/shahnameh-mcp-server](https://github.com/aliafsahnoudeh/shahnameh-mcp-server) 🐍 🏠 🍎 🪟 🐧
+          - MCP server for accessing the Shahnameh (Book of Kings) Persian epic poem by Ferdowsi, including sections,
+          verses and explanations.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,20 @@ metadata:
     archived: false
     full_name: aliafsahnoudeh/shahnameh-mcp-server
     html_url: https://github.com/aliafsahnoudeh/shahnameh-mcp-server
-    created_at: "2025-09-13T07:34:56Z"
-    pushed_at: "2025-09-13T07:37:24Z"
+    created_at: '2025-09-13T07:34:56Z'
+    pushed_at: '2025-09-13T07:37:24Z'
     description: ام سی پی سرور برای شاهنامه
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:40.473Z"
+    last_checked_at: '2026-09-17T04:13:40.473Z'
     readme:
-      fetched_at: "2026-09-17T04:13:40.473Z"
+      fetched_at: '2026-09-17T04:13:40.473Z'
       bytes: 1192
 insights:
   summary: An MCP server that provides access to the Shahnameh (Persian epic) API and dataset.
-  why_it_matters: It exposes a cultural text corpus as a queryable MCP server, enabling AI agents to retrieve and use Shahnameh content in workflows.
+  why_it_matters: >-
+    It exposes a cultural text corpus as a queryable MCP server, enabling AI agents to retrieve and use Shahnameh
+    content in workflows.
   mental_damage: Now your coding agent can debate Rostam’s life choices while you debug.
   tags:
     - mcp-server
@@ -51,31 +56,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation, with MCP as its primary identity, serving a specific domain (Shahnameh).
+  reason: >-
+    The project is explicitly an MCP server implementation, with MCP as its primary identity, serving a specific domain
+    (Shahnameh).
   evidence:
     - Repo description identifies it as an MCP server for Shahnameh
     - README confirms it wraps the Shahnameh API and dataset as an MCP server
     - Listed in awesome-mcp-servers under Server Implementations > Art & Culture
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.601Z"
+    updated_at: '2026-05-06T22:12:15.601Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:40.473Z"
+    updated_at: '2026-09-17T04:13:40.473Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:22:08.658Z"
+    updated_at: '2026-07-21T15:22:08.658Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -88,7 +95,9 @@ processing:
       input_hash: sha256:a9c93bdd4c340e95ebb3f735da6190d62a1c951e432fa446aaa5c4a021b6b415
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is explicitly an MCP server implementation, with MCP as its primary identity, serving a specific domain (Shahnameh).
+      decision_reason: >-
+        The project is explicitly an MCP server implementation, with MCP as its primary identity, serving a specific
+        domain (Shahnameh).
       decision_evidence:
         - Repo description identifies it as an MCP server for Shahnameh
         - README confirms it wraps the Shahnameh API and dataset as an MCP server

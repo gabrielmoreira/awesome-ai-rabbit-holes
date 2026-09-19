@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nzrsky__simctl-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,7 @@ provenance:
           - Community Servers
         anchor_text: xcsimctl
         extracted_url: https://github.com/nzrsky/simctl-mcp-server
-        surrounding_text: "- **[xcsimctl](https://github.com/nzrsky/simctl-mcp-server)** - 🍎 Manage Xcode simulators."
+        surrounding_text: '- **[xcsimctl](https://github.com/nzrsky/simctl-mcp-server)** - 🍎 Manage Xcode simulators.'
         confidence: high
 metadata:
   github:
@@ -29,19 +29,25 @@ metadata:
     archived: false
     full_name: nzrsky/simctl-mcp-server
     html_url: https://github.com/nzrsky/simctl-mcp-server
-    created_at: "2025-05-27T10:39:19Z"
-    pushed_at: "2025-05-27T12:24:41Z"
+    created_at: '2025-05-27T10:39:19Z'
+    pushed_at: '2025-05-27T12:24:41Z'
     description: iOS simctl MCP server
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:21.812Z"
+    last_checked_at: '2026-07-20T16:42:21.812Z'
     readme:
-      fetched_at: "2026-07-20T16:42:21.812Z"
+      fetched_at: '2026-07-20T16:42:21.812Z'
       bytes: 5123
 insights:
-  summary: A Model Context Protocol server that exposes iOS Simulator management commands (xcrun simctl) as structured tools for AI assistants.
-  why_it_matters: It lets coding agents and MCP clients directly boot devices, install apps, and manipulate simulator state without leaving the chat or writing custom scripts.
-  mental_damage: We have successfully abstracted away the minor inconvenience of typing xcrun simctl into a JSON-configured MCP server, because apparently the CLI was the bottleneck in our workflow all along.
+  summary: >-
+    A Model Context Protocol server that exposes iOS Simulator management commands (xcrun simctl) as structured tools
+    for AI assistants.
+  why_it_matters: >-
+    It lets coding agents and MCP clients directly boot devices, install apps, and manipulate simulator state without
+    leaving the chat or writing custom scripts.
+  mental_damage: >-
+    We have successfully abstracted away the minor inconvenience of typing xcrun simctl into a JSON-configured MCP
+    server, because apparently the CLI was the bottleneck in our workflow all along.
   tags:
     - mcp
     - ios
@@ -51,35 +57,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server implementation that provides iOS simulator tooling to MCP-compatible clients like Claude Desktop and VS Code.
+  reason: >-
+    The product's identity is an MCP server implementation that provides iOS simulator tooling to MCP-compatible clients
+    like Claude Desktop and VS Code.
   evidence:
     - Repo description explicitly states 'iOS simctl MCP server'
     - README documents configuration for Claude Desktop and VS Code MCP extension as primary use cases
     - Listed in awesome-mcp-servers under 'Community Servers' section
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.633Z"
+    updated_at: '2026-05-06T22:12:15.633Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:21.812Z"
+    updated_at: '2026-07-20T16:42:21.812Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

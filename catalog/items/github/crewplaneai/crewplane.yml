@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__crewplaneai__crewplane__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-08-20T04:18:00.401Z"
+      discovered_at: '2026-08-20T04:18:00.401Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,11 @@ provenance:
           - Orchestrators & autonomous loops
         anchor_text: Crewplane
         extracted_url: https://github.com/crewplaneai/crewplane
-        surrounding_text: "- **[Crewplane](https://github.com/crewplaneai/crewplane)** `⭐ 33` — CLI-first control plane for human-designed coding-agent workflows via Markdown; runs sequential or parallel stages through Claude Code, Codex, Gemini CLI, Copilot CLI, or any configured command, resumes after failures, and keeps inputs, outputs, and logs on disk. Python, Apache-2.0."
+        surrounding_text: >-
+          - **[Crewplane](https://github.com/crewplaneai/crewplane)** `⭐ 33` — CLI-first control plane for
+          human-designed coding-agent workflows via Markdown; runs sequential or parallel stages through Claude Code,
+          Codex, Gemini CLI, Copilot CLI, or any configured command, resumes after failures, and keeps inputs, outputs,
+          and logs on disk. Python, Apache-2.0.
         confidence: high
 metadata:
   github:
@@ -30,10 +34,13 @@ metadata:
     archived: false
     full_name: crewplaneai/crewplane
     html_url: https://github.com/crewplaneai/crewplane
-    created_at: "2026-06-24T09:11:19Z"
-    pushed_at: "2026-09-12T06:15:24Z"
-    description: Run reviewable, resumable coding-agent workflows across Claude Code, Codex, Gemini, GitHub Copilot CLI, or any CLI. You define the stages in Markdown; Crewplane runs the workflow, agents do the work, and every handoff stays on disk.
-    homepage: ""
+    created_at: '2026-06-24T09:11:19Z'
+    pushed_at: '2026-09-12T06:15:24Z'
+    description: >-
+      Run reviewable, resumable coding-agent workflows across Claude Code, Codex, Gemini, GitHub Copilot CLI, or any
+      CLI. You define the stages in Markdown; Crewplane runs the workflow, agents do the work, and every handoff stays
+      on disk.
+    homepage: ''
     topics:
       - agent-control-plane
       - agent-infrastructure
@@ -55,13 +62,17 @@ metadata:
       - multi-agent
       - python
       - workflow-engine
-    last_checked_at: "2026-09-14T04:13:31.062Z"
+    last_checked_at: '2026-09-14T04:13:31.062Z'
     readme:
-      fetched_at: "2026-09-14T04:13:31.062Z"
+      fetched_at: '2026-09-14T04:13:31.062Z'
       bytes: 23315
 insights:
-  summary: A workflow engine that orchestrates coding-agent CLIs (Claude Code, Codex, Copilot CLI, etc.) via Markdown-defined stages, with resumable, reviewable handoffs stored on disk.
-  why_it_matters: It turns ad-hoc multi-agent coding sessions into reproducible, auditable workflows where failures don’t force full replays.
+  summary: >-
+    A workflow engine that orchestrates coding-agent CLIs (Claude Code, Codex, Copilot CLI, etc.) via Markdown-defined
+    stages, with resumable, reviewable handoffs stored on disk.
+  why_it_matters: >-
+    It turns ad-hoc multi-agent coding sessions into reproducible, auditable workflows where failures don’t force full
+    replays.
   mental_damage: Finally, a way to stop pretending your terminal scrollback is a reliable audit trail.
   tags:
     - agent-orchestration
@@ -72,31 +83,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product is a runtime platform for coordinating multiple coding-agent CLIs through structured workflows, not a primary coding assistant or thin extension.
+  reason: >-
+    The core product is a runtime platform for coordinating multiple coding-agent CLIs through structured workflows, not
+    a primary coding assistant or thin extension.
   evidence:
-    - "Repo description: 'Run reviewable, resumable coding-agent workflows across Claude Code, Codex, Gemini, GitHub Copilot CLI, or any CLI'"
-    - "README: 'Define the whole process in Markdown — the prompts, stages, agents, handoffs, and rules for what happens next'"
-    - "Source-list context: Listed under 'Harnesses & orchestration > Orchestrators & autonomous loops' in awesome-cli-coding-agents"
+    - >-
+      Repo description: 'Run reviewable, resumable coding-agent workflows across Claude Code, Codex, Gemini, GitHub
+      Copilot CLI, or any CLI'
+    - >-
+      README: 'Define the whole process in Markdown — the prompts, stages, agents, handoffs, and rules for what happens
+      next'
+    - >-
+      Source-list context: Listed under 'Harnesses & orchestration > Orchestrators & autonomous loops' in
+      awesome-cli-coding-agents
 placement:
   primary_category: agent-orchestration
-  section: Multi-Agent Runtime Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-08-20T04:18:00.404Z"
+    updated_at: '2026-08-20T04:18:00.404Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:31.062Z"
+    updated_at: '2026-09-14T04:13:31.062Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-01T14:32:20.224Z"
+    updated_at: '2026-09-01T14:32:20.224Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -107,15 +127,25 @@ processing:
       input_hash: sha256:b400db446ef6c6c7a7b53e0a05a6b5020830a83a4bc3e7d2bf63687539220c1c
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The core product is a runtime platform for coordinating multiple coding-agent CLIs through structured workflows, not a primary coding assistant or thin extension.
+      decision_reason: >-
+        The core product is a runtime platform for coordinating multiple coding-agent CLIs through structured workflows,
+        not a primary coding assistant or thin extension.
       decision_evidence:
-        - "Repo description: 'Run reviewable, resumable coding-agent workflows across Claude Code, Codex, Gemini, GitHub Copilot CLI, or any CLI'"
-        - "README: 'Define the whole process in Markdown — the prompts, stages, agents, handoffs, and rules for what happens next'"
-        - "Source-list context: Listed under 'Harnesses & orchestration > Orchestrators & autonomous loops' in awesome-cli-coding-agents"
+        - >-
+          Repo description: 'Run reviewable, resumable coding-agent workflows across Claude Code, Codex, Gemini, GitHub
+          Copilot CLI, or any CLI'
+        - >-
+          README: 'Define the whole process in Markdown — the prompts, stages, agents, handoffs, and rules for what
+          happens next'
+        - >-
+          Source-list context: Listed under 'Harnesses & orchestration > Orchestrators & autonomous loops' in
+          awesome-cli-coding-agents
       category_candidates:
         - agent-orchestration
         - ai-dev-extensions
-      contrastive_reason: Choose agent-orchestration over ai-dev-extensions because the product’s main value is multi-agent workflow coordination, not augmenting a single host assistant with integrations.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-dev-extensions because the product’s main value is multi-agent workflow
+        coordination, not augmenting a single host assistant with integrations.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

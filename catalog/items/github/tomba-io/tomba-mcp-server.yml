@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tomba-io__tomba-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: tomba-io/tomba-mcp-server
         extracted_url: https://github.com/tomba-io/tomba-mcp-server
-        surrounding_text: "- [tomba-io/tomba-mcp-server](https://github.com/tomba-io/tomba-mcp-server) 📇 ☁️ - Email discovery, verification, and enrichment tools. Find email addresses, verify deliverability, enrich contact data, discover authors and LinkedIn profiles, validate phone numbers, and analyze technology stacks."
+        surrounding_text: >-
+          - [tomba-io/tomba-mcp-server](https://github.com/tomba-io/tomba-mcp-server) 📇 ☁️ - Email discovery,
+          verification, and enrichment tools. Find email addresses, verify deliverability, enrich contact data, discover
+          authors and LinkedIn profiles, validate phone numbers, and analyze technology stacks.
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: tomba-io/tomba-mcp-server
     html_url: https://github.com/tomba-io/tomba-mcp-server
-    created_at: "2025-09-22T15:37:08Z"
-    pushed_at: "2026-04-02T14:32:39Z"
+    created_at: '2025-09-22T15:37:08Z'
+    pushed_at: '2026-04-02T14:32:39Z'
     description: MCP Server for Tomba.io API integration
     homepage: https://tomba.io/
     topics:
@@ -45,14 +48,20 @@ metadata:
       - mcp-tools
       - tomba
       - verification
-    last_checked_at: "2026-07-21T15:20:52.341Z"
+    last_checked_at: '2026-07-21T15:20:52.341Z'
     readme:
-      fetched_at: "2026-07-21T15:20:52.341Z"
+      fetched_at: '2026-07-21T15:20:52.341Z'
       bytes: 32475
 insights:
-  summary: A Model Context Protocol server that exposes Tomba.io's email discovery, verification, and enrichment APIs as tools, resources, and prompts for LLM clients.
-  why_it_matters: Developers can wire domain search, email verification, lead enrichment, and company research directly into Claude Desktop or other MCP-compatible assistants instead of writing API glue code.
-  mental_damage: We have finally achieved the future where your coding assistant can validate a lead list, provided you can keep the hierarchy of MCP servers, API keys, and Node.js versions from gently collapsing.
+  summary: >-
+    A Model Context Protocol server that exposes Tomba.io's email discovery, verification, and enrichment APIs as tools,
+    resources, and prompts for LLM clients.
+  why_it_matters: >-
+    Developers can wire domain search, email verification, lead enrichment, and company research directly into Claude
+    Desktop or other MCP-compatible assistants instead of writing API glue code.
+  mental_damage: >-
+    We have finally achieved the future where your coding assistant can validate a lead list, provided you can keep the
+    hierarchy of MCP servers, API keys, and Node.js versions from gently collapsing.
   tags:
     - mcp
     - email
@@ -61,35 +70,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server packaging Tomba.io APIs into tools, resources, and prompts, making MCP its core identity rather than a compatibility footnote.
+  reason: >-
+    The product is explicitly an MCP server packaging Tomba.io APIs into tools, resources, and prompts, making MCP its
+    core identity rather than a compatibility footnote.
   evidence:
-    - "Repo description states: 'MCP Server for Tomba.io API integration'."
+    - 'Repo description states: ''MCP Server for Tomba.io API integration''.'
     - README lists 12 tools, 7 resources, and 16 pre-built prompts exposed via MCP with stdio and HTTP transports.
     - Appears in awesome-mcp-servers under 'Server Implementations > Marketing', confirming its MCP server identity.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.652Z"
+    updated_at: '2026-05-06T22:12:15.652Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:52.341Z"
+    updated_at: '2026-07-21T15:20:52.341Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

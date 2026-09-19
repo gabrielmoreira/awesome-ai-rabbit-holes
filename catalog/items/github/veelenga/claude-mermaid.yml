@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__veelenga__claude-mermaid__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: veelenga/claude-mermaid
         extracted_url: https://github.com/veelenga/claude-mermaid
-        surrounding_text: "- [veelenga/claude-mermaid](https://github.com/veelenga/claude-mermaid/) 📇 🏠 🍎 🪟 🐧 - A Mermaid diagram rendering MCP server for Claude Code with live reload functionality, supporting multiple export formats (SVG, PNG, PDF) and themes."
+        surrounding_text: >-
+          - [veelenga/claude-mermaid](https://github.com/veelenga/claude-mermaid/) 📇 🏠 🍎 🪟 🐧 - A Mermaid diagram
+          rendering MCP server for Claude Code with live reload functionality, supporting multiple export formats (SVG,
+          PNG, PDF) and themes.
         confidence: high
 metadata:
   github:
@@ -30,20 +33,22 @@ metadata:
     archived: false
     full_name: veelenga/claude-mermaid
     html_url: https://github.com/veelenga/claude-mermaid
-    created_at: "2025-09-29T20:02:05Z"
-    pushed_at: "2026-07-21T07:17:58Z"
+    created_at: '2025-09-29T20:02:05Z'
+    pushed_at: '2026-07-21T07:17:58Z'
     description: MCP Server to previewing mermaid diagrams with live reload
     homepage: https://veelenga.github.io/claude-mermaid/
     topics:
       - claude-code
       - mcp-server
-    last_checked_at: "2026-07-21T15:21:04.151Z"
+    last_checked_at: '2026-07-21T15:21:04.151Z'
     readme:
-      fetched_at: "2026-07-21T15:21:04.151Z"
+      fetched_at: '2026-07-21T15:21:04.151Z'
       bytes: 11697
 insights:
   summary: MCP server for previewing Mermaid diagrams with live reload in Claude Code and other MCP-compatible clients.
-  why_it_matters: Lets developers iterate on diagrams in real time without leaving their workflow, reducing context switching during documentation or design work.
+  why_it_matters: >-
+    Lets developers iterate on diagrams in real time without leaving their workflow, reducing context switching during
+    documentation or design work.
   mental_damage: Another tiny MCP server that makes you feel productive while just moving boxes and arrows around.
   tags:
     - mcp
@@ -53,31 +58,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server first and foremost, providing diagram preview functionality as an MCP service, making MCP its core identity rather than an extension or agent.
+  reason: >-
+    The product is an MCP server first and foremost, providing diagram preview functionality as an MCP service, making
+    MCP its core identity rather than an extension or agent.
   evidence:
-    - "Repo description: 'MCP Server to previewing mermaid diagrams with live reload'"
-    - README positions it as an MCP server installable via `/plugin marketplace` and configurable in any MCP-compatible client
-    - "Source-list context: listed in awesome-mcp-servers under Developer Tools"
+    - 'Repo description: ''MCP Server to previewing mermaid diagrams with live reload'''
+    - >-
+      README positions it as an MCP server installable via `/plugin marketplace` and configurable in any MCP-compatible
+      client
+    - 'Source-list context: listed in awesome-mcp-servers under Developer Tools'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (192) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.654Z"
+    updated_at: '2026-05-06T22:12:15.654Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:04.151Z"
+    updated_at: '2026-07-21T15:21:04.151Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:23:05.750Z"
+    updated_at: '2026-05-12T15:23:05.750Z'
     cause: null
     next_retry_at: null
     attempts: 1

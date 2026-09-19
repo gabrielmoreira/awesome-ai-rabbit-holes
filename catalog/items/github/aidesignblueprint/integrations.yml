@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aidesignblueprint__integrations__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,14 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: aidesignblueprint/integrations
         extracted_url: https://github.com/aidesignblueprint/integrations
-        surrounding_text: "- [aidesignblueprint/integrations](https://github.com/aidesignblueprint/integrations) [![aidesignblueprint/integrations MCP server](https://glama.ai/mcp/servers/aidesignblueprint/integrations/badges/score.svg)](https://glama.ai/mcp/servers/aidesignblueprint/integrations) 🐍 ☁️ - Read-only doctrine access for the Agentic AI Blueprint — the industry standard reference for safe, observable, and steerable AI agent UX. Browse and search 10 principles, clusters, curated implementation examples, and application guides for production agentic AI systems. 13 public tools require no credentials. `https://aidesignblueprint.com/mcp`"
+        surrounding_text: >-
+          - [aidesignblueprint/integrations](https://github.com/aidesignblueprint/integrations)
+          [![aidesignblueprint/integrations MCP
+          server](https://glama.ai/mcp/servers/aidesignblueprint/integrations/badges/score.svg)](https://glama.ai/mcp/servers/aidesignblueprint/integrations)
+          🐍 ☁️ - Read-only doctrine access for the Agentic AI Blueprint — the industry standard reference for safe,
+          observable, and steerable AI agent UX. Browse and search 10 principles, clusters, curated implementation
+          examples, and application guides for production agentic AI systems. 13 public tools require no credentials.
+          `https://aidesignblueprint.com/mcp`
         confidence: high
 metadata:
   github:
@@ -30,19 +37,25 @@ metadata:
     archived: false
     full_name: aidesignblueprint/integrations
     html_url: https://github.com/aidesignblueprint/integrations
-    created_at: "2026-04-13T18:45:31Z"
-    pushed_at: "2026-07-17T16:36:29Z"
-    description: Official integrations and installable doctrine for AI Design Blueprint — MCP, IDE rules, prompt files, and agent runtimes.
+    created_at: '2026-04-13T18:45:31Z'
+    pushed_at: '2026-07-17T16:36:29Z'
+    description: >-
+      Official integrations and installable doctrine for AI Design Blueprint — MCP, IDE rules, prompt files, and agent
+      runtimes.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:35.967Z"
+    last_checked_at: '2026-09-17T04:13:35.967Z'
     readme:
-      fetched_at: "2026-09-17T04:13:35.967Z"
+      fetched_at: '2026-09-17T04:13:35.967Z'
       bytes: 5127
 insights:
   summary: A collection of MCP servers, IDE rules, and prompt assets for the AI Design Blueprint methodology.
-  why_it_matters: It provides standardized instruction files and MCP tools to enforce specific design principles across different AI coding environments like Cursor and Windsurf.
-  mental_damage: Another layer of 'doctrine' to ensure your agentic workflow adheres to specific architectural laws rather than just hallucinating code.
+  why_it_matters: >-
+    It provides standardized instruction files and MCP tools to enforce specific design principles across different AI
+    coding environments like Cursor and Windsurf.
+  mental_damage: >-
+    Another layer of 'doctrine' to ensure your agentic workflow adheres to specific architectural laws rather than just
+    hallucinating code.
   tags:
     - mcp
     - ide-rules
@@ -51,31 +64,40 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The repo primarily distributes reusable doctrine files, IDE rules, prompt packs, and MCP configuration as portable skill content for multiple coding agents and editors.
+  reason: >-
+    The repo primarily distributes reusable doctrine files, IDE rules, prompt packs, and MCP configuration as portable
+    skill content for multiple coding agents and editors.
   evidence:
-    - "Repo description: 'Official integrations and installable doctrine for AI Design Blueprint — MCP, IDE rules, prompt files, and agent runtimes.'"
-    - README details provider-specific instruction files for cursor/, windsurf/, github-copilot/, gemini/, plus shared doctrine in shared/ and open-weights/ prompt packs.
-    - "Source list: listed in awesome-mcp-servers under Knowledge & Memory, confirming its MCP and reusable-asset identity."
+    - >-
+      Repo description: 'Official integrations and installable doctrine for AI Design Blueprint — MCP, IDE rules, prompt
+      files, and agent runtimes.'
+    - >-
+      README details provider-specific instruction files for cursor/, windsurf/, github-copilot/, gemini/, plus shared
+      doctrine in shared/ and open-weights/ prompt packs.
+    - >-
+      Source list: listed in awesome-mcp-servers under Knowledge & Memory, confirming its MCP and reusable-asset
+      identity.
 placement:
   primary_category: skills
-  section: null
+  secondary_categories: []
+  section: Skill Packs & Libraries
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'skills', proposed 'mcp'"
+  reason: 'Categorization review required: placement disagreement: retained ''skills'', proposed ''mcp'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.600Z"
+    updated_at: '2026-05-06T22:12:15.600Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:35.967Z"
+    updated_at: '2026-09-17T04:13:35.967Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:10:10.541Z"
+    updated_at: '2026-07-20T16:10:10.541Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -88,7 +110,9 @@ processing:
       input_hash: sha256:6e56c7cc9720829616714c7d21cb372238f2eff3606225ac8830adb0e16ee3db
       proposed_primary_category: mcp
       disagreement: true
-      decision_reason: The repository's primary identity is delivering MCP servers and structured prompt/rule assets to implement a specific design methodology.
+      decision_reason: >-
+        The repository's primary identity is delivering MCP servers and structured prompt/rule assets to implement a
+        specific design methodology.
       decision_evidence:
         - README explicitly mentions 'Official integrations... across MCP, IDE rules, prompt files'
         - Contains a dedicated 'cp/' directory with public retrieval tools
@@ -96,6 +120,8 @@ processing:
       category_candidates:
         - mcp
         - skills
-      contrastive_reason: Choose mcp over skills because the repository provides functional MCP tools and protocol-level configuration rather than just a collection of passive rules or commands.
-      review_reason: "Categorization review required: placement disagreement: retained 'skills', proposed 'mcp'"
+      contrastive_reason: >-
+        Choose mcp over skills because the repository provides functional MCP tools and protocol-level configuration
+        rather than just a collection of passive rules or commands.
+      review_reason: 'Categorization review required: placement disagreement: retained ''skills'', proposed ''mcp'''
       review_resume_lifecycle: null

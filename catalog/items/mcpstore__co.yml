@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mcpstore__co__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -47,21 +47,26 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The site functions primarily as a discovery layer and directory for MCP servers rather than being a standalone server, client, or framework itself.
+  reason: >-
+    The site functions primarily as a discovery layer and directory for MCP servers rather than being a standalone
+    server, client, or framework itself.
   evidence:
     - Scraped site title and description explicitly state 'MCP Store - Find and Connect to 30,000+ MCP Servers'.
-    - The UI workflow focuses on browsing a 'Collection of MCP Servers' and generating install commands for third-party clients.
+    - >-
+      The UI workflow focuses on browsing a 'Collection of MCP Servers' and generating install commands for third-party
+      clients.
     - Listed in awesome-LLM-resources under the '模型上下文协议 MCP' section specifically as a registry/discovery tool.
 placement:
-  primary_category: awesome-awesomes
-  section: null
+  primary_category: mcp
+  secondary_categories: []
+  section: Registries & Discovery
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
+  reason: 'Categorization review required: placement disagreement: retained ''awesome-awesomes'', proposed ''mcp'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +75,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:29:46.469Z"
+    updated_at: '2026-07-21T15:29:46.469Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -91,6 +96,8 @@ processing:
       category_candidates:
         - mcp
         - awesome-awesomes
-      contrastive_reason: Choose mcp over awesome-awesomes because the product's core identity is MCP infrastructure (registry/discovery) rather than a general directory of AI tooling.
-      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
+      contrastive_reason: >-
+        Choose mcp over awesome-awesomes because the product's core identity is MCP infrastructure (registry/discovery)
+        rather than a general directory of AI tooling.
+      review_reason: 'Categorization review required: placement disagreement: retained ''awesome-awesomes'', proposed ''mcp'''
       review_resume_lifecycle: null

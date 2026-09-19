@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gavxm__ani-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: gavxm/ani-mcp
         extracted_url: https://github.com/gavxm/ani-mcp
-        surrounding_text: "- [gavxm/ani-mcp](https://github.com/gavxm/ani-mcp) [![ani-mcp MCP server](https://glama.ai/mcp/servers/gavxm/ani-mcp/badges/score.svg)](https://glama.ai/mcp/servers/gavxm/ani-mcp) 📇 🏠 - MCP server for AniList with taste-aware recommendations, watch analytics, social tools, and full list management."
+        surrounding_text: >-
+          - [gavxm/ani-mcp](https://github.com/gavxm/ani-mcp) [![ani-mcp MCP
+          server](https://glama.ai/mcp/servers/gavxm/ani-mcp/badges/score.svg)](https://glama.ai/mcp/servers/gavxm/ani-mcp)
+          📇 🏠 - MCP server for AniList with taste-aware recommendations, watch analytics, social tools, and full list
+          management.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: gavxm/ani-mcp
     html_url: https://github.com/gavxm/ani-mcp
-    created_at: "2026-03-01T00:49:34Z"
-    pushed_at: "2026-08-06T18:38:29Z"
+    created_at: '2026-03-01T00:49:34Z'
+    pushed_at: '2026-08-06T18:38:29Z'
     description: MCP server for AniList with taste-aware recommendations, watch analytics, social tools, and full list management.
     homepage: https://www.npmjs.com/package/ani-mcp
     topics:
@@ -41,13 +45,17 @@ metadata:
       - manga
       - mcp
       - model-context-protocol
-    last_checked_at: "2026-09-03T05:16:46.516Z"
+    last_checked_at: '2026-09-03T05:16:46.516Z'
     readme:
-      fetched_at: "2026-09-03T05:16:46.516Z"
+      fetched_at: '2026-09-03T05:16:46.516Z'
       bytes: 12062
 insights:
-  summary: An MCP server for AniList that provides taste-aware recommendations, watch analytics, and list management for LLM clients.
-  why_it_matters: It extends the capabilities of AI assistants like Claude Desktop with specialized domain knowledge and stateful interaction for anime and manga enthusiasts.
+  summary: >-
+    An MCP server for AniList that provides taste-aware recommendations, watch analytics, and list management for LLM
+    clients.
+  why_it_matters: >-
+    It extends the capabilities of AI assistants like Claude Desktop with specialized domain knowledge and stateful
+    interaction for anime and manga enthusiasts.
   mental_damage: Now your LLM can judge your anime watch list with the same intensity as your friends on social media.
   tags:
     - mcp
@@ -57,31 +65,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's identity is explicitly an MCP server designed to provide a specific domain's data and logic to LLM hosts.
+  reason: >-
+    The project's identity is explicitly an MCP server designed to provide a specific domain's data and logic to LLM
+    hosts.
   evidence:
     - Repo description identifies it as an 'MCP server for AniList'
     - README focuses on MCP integration for Claude Desktop and Claude Code
     - Offers specialized 'intelligence layer' on top of raw API calls via MCP
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: '2026-05-06T22:12:15.615Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:46.516Z"
+    updated_at: '2026-09-03T05:16:46.516Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:01:02.085Z"
+    updated_at: '2026-07-21T16:01:02.085Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -94,7 +104,9 @@ processing:
       input_hash: sha256:60a7b68b3572a07ed3bb7247eddb331ee47d1bc9e5a60578715c5c4cacf77268
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's identity is explicitly an MCP server designed to provide a specific domain's data and logic to LLM hosts.
+      decision_reason: >-
+        The project's identity is explicitly an MCP server designed to provide a specific domain's data and logic to LLM
+        hosts.
       decision_evidence:
         - Repo description identifies it as an 'MCP server for AniList'
         - README focuses on MCP integration for Claude Desktop and Claude Code
@@ -102,6 +114,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, providing domain-specific capabilities through the protocol rather than being a general host extension.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, providing
+        domain-specific capabilities through the protocol rather than being a general host extension.
       review_reason: null
       review_resume_lifecycle: null

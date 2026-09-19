@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gregario__astronomy-oracle__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🚀 <a name="aerospace-and-astrodynamics"></a>Aerospace & Astrodynamics
         anchor_text: gregario/astronomy-oracle
         extracted_url: https://github.com/gregario/astronomy-oracle
-        surrounding_text: "- [gregario/astronomy-oracle](https://github.com/gregario/astronomy-oracle) [![astronomy-oracle MCP server](https://glama.ai/mcp/servers/gregario/astronomy-oracle/badges/score.svg)](https://glama.ai/mcp/servers/gregario/astronomy-oracle) 📇 🏠 🍎 🪟 🐧 - Accurate astronomical catalog data and observing session planner. 13,000+ deep-sky objects from OpenNGC with deterministic visibility, rise/transit/set, and alt/az calculations. `npx astronomy-oracle`"
+        surrounding_text: >-
+          - [gregario/astronomy-oracle](https://github.com/gregario/astronomy-oracle) [![astronomy-oracle MCP
+          server](https://glama.ai/mcp/servers/gregario/astronomy-oracle/badges/score.svg)](https://glama.ai/mcp/servers/gregario/astronomy-oracle)
+          📇 🏠 🍎 🪟 🐧 - Accurate astronomical catalog data and observing session planner. 13,000+ deep-sky objects
+          from OpenNGC with deterministic visibility, rise/transit/set, and alt/az calculations. `npx astronomy-oracle`
         confidence: high
 metadata:
   github:
@@ -30,18 +34,20 @@ metadata:
     archived: false
     full_name: gregario/astronomy-oracle
     html_url: https://github.com/gregario/astronomy-oracle
-    created_at: "2026-03-16T11:59:43Z"
-    pushed_at: "2026-09-01T12:29:27Z"
+    created_at: '2026-03-16T11:59:43Z'
+    pushed_at: '2026-09-01T12:29:27Z'
     description: Celestial object catalog and observing session planner MCP server
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:54.099Z"
+    last_checked_at: '2026-09-03T05:16:54.099Z'
     readme:
-      fetched_at: "2026-09-03T05:16:54.099Z"
+      fetched_at: '2026-09-03T05:16:54.099Z'
       bytes: 4491
 insights:
   summary: An MCP server providing celestial object catalog data and observing session planning for LLM assistants.
-  why_it_matters: Prevents LLM hallucinations about astronomical data by offering deterministic calculations and a bundled catalog of 13,000+ deep-sky objects.
+  why_it_matters: >-
+    Prevents LLM hallucinations about astronomical data by offering deterministic calculations and a bundled catalog of
+    13,000+ deep-sky objects.
   mental_damage: Now your AI can argue with you about whether M31 is actually visible tonight, with receipts.
   tags:
     - mcp-server
@@ -51,31 +57,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a domain-specific MCP server providing tools for astronomical data lookup and session planning."
+  reason: >-
+    MCP is the product identity: this is a domain-specific MCP server providing tools for astronomical data lookup and
+    session planning.
   evidence:
     - Repo description explicitly identifies it as an MCP server
     - README details MCP tool integration (Claude Desktop/Code config examples)
     - Listed in awesome-mcp-servers under 'Server Implementations'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.617Z"
+    updated_at: '2026-05-06T22:12:15.617Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:54.099Z"
+    updated_at: '2026-09-03T05:16:54.099Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:04:10.591Z"
+    updated_at: '2026-07-21T16:04:10.591Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +97,9 @@ processing:
       input_hash: sha256:a112dbefd53b9183b01c7439b5ab784b63046948752346dc683cf2c9360466c7
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a domain-specific MCP server providing tools for astronomical data lookup and session planning."
+      decision_reason: >-
+        MCP is the product identity: this is a domain-specific MCP server providing tools for astronomical data lookup
+        and session planning.
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server
         - README details MCP tool integration (Claude Desktop/Code config examples)
@@ -96,6 +107,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

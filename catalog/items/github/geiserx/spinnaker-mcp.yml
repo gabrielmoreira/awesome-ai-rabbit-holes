@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__geiserx__spinnaker-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: GeiserX/spinnaker-mcp
         extracted_url: https://github.com/geiserx/spinnaker-mcp
-        surrounding_text: "- [GeiserX/spinnaker-mcp](https://github.com/GeiserX/spinnaker-mcp) [![GeiserX/spinnaker-mcp MCP server](https://glama.ai/mcp/servers/GeiserX/spinnaker-mcp/badges/score.svg)](https://glama.ai/mcp/servers/GeiserX/spinnaker-mcp) 🏎️ ☁️ - A bridge that exposes any Spinnaker instance as an MCP server via the Gate API, enabling management of applications, pipelines, executions, and cloud infrastructure."
+        surrounding_text: >-
+          - [GeiserX/spinnaker-mcp](https://github.com/GeiserX/spinnaker-mcp) [![GeiserX/spinnaker-mcp MCP
+          server](https://glama.ai/mcp/servers/GeiserX/spinnaker-mcp/badges/score.svg)](https://glama.ai/mcp/servers/GeiserX/spinnaker-mcp)
+          🏎️ ☁️ - A bridge that exposes any Spinnaker instance as an MCP server via the Gate API, enabling management
+          of applications, pipelines, executions, and cloud infrastructure.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: GeiserX/spinnaker-mcp
     html_url: https://github.com/GeiserX/spinnaker-mcp
-    created_at: "2026-04-23T11:50:47Z"
-    pushed_at: "2026-08-24T18:39:52Z"
+    created_at: '2026-04-23T11:50:47Z'
+    pushed_at: '2026-08-24T18:39:52Z'
     description: MCP Server for Spinnaker — manage applications, pipelines, and deployments via the Model Context Protocol
     homepage: null
     topics:
@@ -55,14 +59,18 @@ metadata:
       - self-hosted
       - spinnaker
       - spinnaker-gate
-    last_checked_at: "2026-09-03T05:16:47.208Z"
+    last_checked_at: '2026-09-03T05:16:47.208Z'
     readme:
-      fetched_at: "2026-09-03T05:16:47.208Z"
+      fetched_at: '2026-09-03T05:16:47.208Z'
       bytes: 8813
 insights:
   summary: An MCP server that exposes Spinnaker's Gate API to LLMs for managing applications, pipelines, and deployments.
-  why_it_matters: It allows AI agents to interact directly with your continuous delivery infrastructure to trigger, pause, or debug deployment pipelines.
-  mental_damage: Because nothing says 'peaceful Friday deployment' like giving a LLM the power to cancel your production rollouts via a chat prompt.
+  why_it_matters: >-
+    It allows AI agents to interact directly with your continuous delivery infrastructure to trigger, pause, or debug
+    deployment pipelines.
+  mental_damage: >-
+    Because nothing says 'peaceful Friday deployment' like giving a LLM the power to cancel your production rollouts via
+    a chat prompt.
   tags:
     - mcp
     - ci-cd
@@ -79,24 +87,25 @@ curation:
     - Provides specific tool definitions like 'trigger_pipeline' and 'cancel_execution' for LLM consumption
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: '2026-05-06T22:12:15.615Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:47.208Z"
+    updated_at: '2026-09-03T05:16:47.208Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:01:36.023Z"
+    updated_at: '2026-07-21T16:01:36.023Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -117,6 +126,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's primary identity is a protocol implementation (MCP server) rather than a plugin for a specific existing assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool's primary identity is a protocol implementation (MCP server)
+        rather than a plugin for a specific existing assistant.
       review_reason: null
       review_resume_lifecycle: null

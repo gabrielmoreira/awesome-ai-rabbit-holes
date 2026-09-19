@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__executeautomation__mcp-playwright__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: executeautomation/playwright-mcp-server
         extracted_url: https://github.com/executeautomation/mcp-playwright
-        surrounding_text: "- [executeautomation/playwright-mcp-server](https://github.com/executeautomation/mcp-playwright) 📇 - An MCP server using Playwright for browser automation and webscrapping"
+        surrounding_text: >-
+          - [executeautomation/playwright-mcp-server](https://github.com/executeautomation/mcp-playwright) 📇 - An MCP
+          server using Playwright for browser automation and webscrapping
         confidence: high
     - id: discovery__github__executeautomation__mcp-playwright__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,10 +37,12 @@ provenance:
           - Community Servers
         anchor_text: Playwright MCP Server
         extracted_url: https://github.com/executeautomation/mcp-playwright
-        surrounding_text: "- **[Playwright MCP Server](https://github.com/executeautomation/mcp-playwright)** - An MCP server using Playwright for browser automation and webscrapping"
+        surrounding_text: >-
+          - **[Playwright MCP Server](https://github.com/executeautomation/mcp-playwright)** - An MCP server using
+          Playwright for browser automation and webscrapping
         confidence: high
     - id: discovery__github__executeautomation__mcp-playwright__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -48,12 +52,16 @@ provenance:
         mode: parsed
         section_path:
           - 📂 Browser Control
-        anchor_text: "@executeautomation/playwright-mcp-server"
+        anchor_text: '@executeautomation/playwright-mcp-server'
         extracted_url: https://github.com/executeautomation/mcp-playwright
-        surrounding_text: "-   **[@executeautomation/playwright-mcp-server](https://github.com/executeautomation/mcp-playwright)** [![GitHub stars](https://img.shields.io/github/stars/executeautomation/mcp-playwright?style=social)](https://github.com/executeautomation/mcp-playwright): Utilizes Playwright for web automation and data extraction within an MCP framework."
+        surrounding_text: >-
+          -   **[@executeautomation/playwright-mcp-server](https://github.com/executeautomation/mcp-playwright)**
+          [![GitHub
+          stars](https://img.shields.io/github/stars/executeautomation/mcp-playwright?style=social)](https://github.com/executeautomation/mcp-playwright):
+          Utilizes Playwright for web automation and data extraction within an MCP framework.
         confidence: high
     - id: discovery__github__executeautomation__mcp-playwright__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -67,7 +75,9 @@ provenance:
           - Browser & Automation
         anchor_text: mcp-playwright
         extracted_url: https://github.com/executeautomation/mcp-playwright
-        surrounding_text: "| [mcp-playwright](https://github.com/executeautomation/mcp-playwright) | Playwright browser automation | ![Stars](https://img.shields.io/github/stars/executeautomation/mcp-playwright) |"
+        surrounding_text: >-
+          | [mcp-playwright](https://github.com/executeautomation/mcp-playwright) | Playwright browser automation |
+          ![Stars](https://img.shields.io/github/stars/executeautomation/mcp-playwright) |
         confidence: high
 metadata:
   github:
@@ -77,18 +87,22 @@ metadata:
     archived: false
     full_name: executeautomation/mcp-playwright
     html_url: https://github.com/executeautomation/mcp-playwright
-    created_at: "2024-12-03T18:43:20Z"
-    pushed_at: "2025-12-13T04:28:38Z"
-    description: Playwright Model Context Protocol Server - Tool to automate Browsers and APIs in Claude Desktop, Cline, Cursor IDE and More 🔌
+    created_at: '2024-12-03T18:43:20Z'
+    pushed_at: '2025-12-13T04:28:38Z'
+    description: >-
+      Playwright Model Context Protocol Server - Tool to automate Browsers and APIs in Claude Desktop, Cline, Cursor IDE
+      and More 🔌
     homepage: https://executeautomation.github.io/mcp-playwright/
     topics: []
-    last_checked_at: "2026-08-27T09:23:26.792Z"
+    last_checked_at: '2026-08-27T09:23:26.792Z'
     readme:
-      fetched_at: "2026-08-27T09:23:26.791Z"
+      fetched_at: '2026-08-27T09:23:26.791Z'
       bytes: 11231
 insights:
   summary: A Model Context Protocol (MCP) server that enables LLMs to automate web browsers and APIs using Playwright.
-  why_it_matters: It allows AI assistants like Claude Desktop or Cursor to perform real-world browser actions, such as web scraping, testing, and device emulation, directly through the MCP protocol.
+  why_it_matters: >-
+    It allows AI assistants like Claude Desktop or Cursor to perform real-world browser actions, such as web scraping,
+    testing, and device emulation, directly through the MCP protocol.
   mental_damage: Now your LLM can experience the existential dread of a failing Playwright test in real-time.
   tags:
     - mcp
@@ -99,31 +113,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server designed to provide specific browser automation capabilities to host assistants.
+  reason: >-
+    The project is explicitly an MCP server designed to provide specific browser automation capabilities to host
+    assistants.
   evidence:
     - Repo description identifies it as a 'Playwright Model Context Protocol Server'
     - README describes tools for browser automation, screenshots, and device emulation
     - Supports integration with Claude Desktop, Cline, and Cursor via MCP
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: promotion_candidate
   reason: Stars (5495) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.574Z"
+    updated_at: '2026-05-06T22:12:15.574Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:26.792Z"
+    updated_at: '2026-08-27T09:23:26.792Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:54:33.509Z"
+    updated_at: '2026-07-21T15:54:33.509Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -136,7 +153,9 @@ processing:
       input_hash: sha256:2ca86a0f2636418771557f41ef7b5c366683031b6299f10d65d5467245692530
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is explicitly an MCP server designed to provide specific browser automation capabilities to host assistants.
+      decision_reason: >-
+        The project is explicitly an MCP server designed to provide specific browser automation capabilities to host
+        assistants.
       decision_evidence:
         - Repo description identifies it as a 'Playwright Model Context Protocol Server'
         - README describes tools for browser automation, screenshots, and device emulation
@@ -144,6 +163,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's identity is defined by its implementation of the Model Context Protocol rather than being a general-purpose plugin for a specific editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's identity is defined by its implementation of the Model
+        Context Protocol rather than being a general-purpose plugin for a specific editor.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__davison-francis__min8t-sdks__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,14 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: Davison-Francis/min8t-sdks
         extracted_url: https://github.com/davison-francis/min8t-sdks
-        surrounding_text: "- [Davison-Francis/min8t-sdks](https://github.com/Davison-Francis/min8t-sdks/tree/main/deliveriq-mcp) [![Davison-Francis/min8t-sdks MCP server](https://glama.ai/mcp/servers/Davison-Francis/min8t-sdks/badges/score.svg)](https://glama.ai/mcp/servers/Davison-Francis/min8t-sdks) 📇 ☁️ - `@deliveriq/mcp` — email-deliverability tools for AI agents. 12 tools: single + batch verification, email finder, DNSBL across 50 zones, SPF/DKIM/DMARC/MTA-STS/BIMI infrastructure analysis, spam-trap scoring on 13 weighted signals, composite domain trust report, account credits. 5-stage / 21-check pipeline under the hood. Free tier, no card. Install: `npx -y @deliveriq/mcp`."
+        surrounding_text: >-
+          - [Davison-Francis/min8t-sdks](https://github.com/Davison-Francis/min8t-sdks/tree/main/deliveriq-mcp)
+          [![Davison-Francis/min8t-sdks MCP
+          server](https://glama.ai/mcp/servers/Davison-Francis/min8t-sdks/badges/score.svg)](https://glama.ai/mcp/servers/Davison-Francis/min8t-sdks)
+          📇 ☁️ - `@deliveriq/mcp` — email-deliverability tools for AI agents. 12 tools: single + batch verification,
+          email finder, DNSBL across 50 zones, SPF/DKIM/DMARC/MTA-STS/BIMI infrastructure analysis, spam-trap scoring on
+          13 weighted signals, composite domain trust report, account credits. 5-stage / 21-check pipeline under the
+          hood. Free tier, no card. Install: `npx -y @deliveriq/mcp`.
         confidence: high
 metadata:
   github:
@@ -30,9 +37,11 @@ metadata:
     archived: false
     full_name: Davison-Francis/min8t-sdks
     html_url: https://github.com/Davison-Francis/min8t-sdks
-    created_at: "2026-05-01T12:47:32Z"
-    pushed_at: "2026-05-02T22:09:06Z"
-    description: By MiN8T — email infrastructure, design, and deliverability platform. Open-source SDKs + MCP server for DeliverIQ + the MiN8T editor.
+    created_at: '2026-05-01T12:47:32Z'
+    pushed_at: '2026-05-02T22:09:06Z'
+    description: >-
+      By MiN8T — email infrastructure, design, and deliverability platform. Open-source SDKs + MCP server for DeliverIQ
+      + the MiN8T editor.
     homepage: https://min8t.com
     topics:
       - agentic-ai
@@ -52,13 +61,15 @@ metadata:
       - spam-detection
       - spf
       - typescript
-    last_checked_at: "2026-09-14T04:13:36.326Z"
+    last_checked_at: '2026-09-14T04:13:36.326Z'
     readme:
-      fetched_at: "2026-09-14T04:13:36.326Z"
+      fetched_at: '2026-09-14T04:13:36.326Z'
       bytes: 3697
 insights:
   summary: Open-source SDKs and MCP server for DeliverIQ email verification and the MiN8T email editor.
-  why_it_matters: Developers can integrate email deliverability checks and editor functionality into their workflows via MCP or direct SDK usage.
+  why_it_matters: >-
+    Developers can integrate email deliverability checks and editor functionality into their workflows via MCP or direct
+    SDK usage.
   mental_damage: Now your AI can argue with your email infrastructure about SPF records.
   tags:
     - mcp-server
@@ -76,24 +87,25 @@ curation:
     - Core functionality is email deliverability tools exposed via MCP
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.610Z"
+    updated_at: '2026-05-06T22:12:15.610Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:36.326Z"
+    updated_at: '2026-09-14T04:13:36.326Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:50:08.539Z"
+    updated_at: '2026-07-21T15:50:08.539Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -114,6 +126,8 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the primary identity is the MCP server exposing domain-specific tools rather than a general-purpose SDK.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the primary identity is the MCP server exposing domain-specific tools
+        rather than a general-purpose SDK.
       review_reason: null
       review_resume_lifecycle: null

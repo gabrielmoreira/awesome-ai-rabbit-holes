@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__blobr__io__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Blobr
         anchor_text: Blobr
         extracted_url: https://blobr.io
-        surrounding_text: "## [Blobr](https://www.blobr.io/)"
+        surrounding_text: '## [Blobr](https://www.blobr.io/)'
         confidence: high
     - id: discovery__www__blobr__io__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Blobr
         anchor_text: Blobr
         extracted_url: https://www.blobr.io
-        surrounding_text: "## [Blobr](https://www.blobr.io/)"
+        surrounding_text: '## [Blobr](https://www.blobr.io/)'
         confidence: high
 metadata:
   github:
@@ -61,20 +61,23 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Blobr is listed in awesome-ai-agents as an AI autonomous agent, and its primary identity aligns with multi-agent coordination and workflow automation, fitting the agent-orchestration category.
+  reason: >-
+    Blobr is listed in awesome-ai-agents as an AI autonomous agent, and its primary identity aligns with multi-agent
+    coordination and workflow automation, fitting the agent-orchestration category.
   evidence:
-    - "Seen in awesome-ai-agents under section: Blobr"
+    - 'Seen in awesome-ai-agents under section: Blobr'
     - Purpose described as 'A list of AI autonomous agents'
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Hosted Agent Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:32:52.659Z"
+    updated_at: '2026-07-21T15:32:52.659Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -87,19 +90,23 @@ processing:
       input_hash: sha256:f803b7e42ab1a6633a25a491f85c1376d5e7d73193b909c1167f7f51d12ab0e8
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: Blobr is listed in awesome-ai-agents as an AI autonomous agent, and its primary identity aligns with multi-agent coordination and workflow automation, fitting the agent-orchestration category.
+      decision_reason: >-
+        Blobr is listed in awesome-ai-agents as an AI autonomous agent, and its primary identity aligns with multi-agent
+        coordination and workflow automation, fitting the agent-orchestration category.
       decision_evidence:
-        - "Seen in awesome-ai-agents under section: Blobr"
+        - 'Seen in awesome-ai-agents under section: Blobr'
         - Purpose described as 'A list of AI autonomous agents'
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because Blobr is presented as an operated platform for agents rather than a code-first library or SDK.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because Blobr is presented as an operated platform for agents
+        rather than a code-first library or SDK.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.963Z"
+    updated_at: '2026-07-21T15:20:21.963Z'
     cause: null
     next_retry_at: null
   stars:

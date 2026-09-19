@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__v0__dev__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - v0 by Vercel
         anchor_text: v0 by Vercel
         extracted_url: https://v0.dev
-        surrounding_text: "## [v0 by Vercel](https://v0.dev/)"
+        surrounding_text: '## [v0 by Vercel](https://v0.dev/)'
         confidence: high
     - id: discovery__v0__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,10 +33,12 @@ provenance:
           - App Builders
         anchor_text: v0.dev
         extracted_url: https://v0.dev
-        surrounding_text: "- **[v0.dev](https://v0.dev/)** – Vercel's AI tool for generating UI components and full pages from text prompts."
+        surrounding_text: >-
+          - **[v0.dev](https://v0.dev/)** – Vercel's AI tool for generating UI components and full pages from text
+          prompts.
         confidence: high
     - id: discovery__v0__dev__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -67,7 +69,9 @@ metadata:
     readme: null
 insights:
   summary: A prompt-to-app builder by Vercel that generates and deploys web applications from natural language descriptions.
-  why_it_matters: It lets developers scaffold and deploy full-stack web apps directly from prompts, accelerating early-stage prototyping and MVP creation.
+  why_it_matters: >-
+    It lets developers scaffold and deploy full-stack web apps directly from prompts, accelerating early-stage
+    prototyping and MVP creation.
   mental_damage: Finally, a way to turn 'make it pop' into a production incident.
   tags:
     - prompt-to-app
@@ -77,21 +81,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is turning prompts into deployed applications, which aligns perfectly with the App Builders category.
+  reason: >-
+    The product's core identity is turning prompts into deployed applications, which aligns perfectly with the App
+    Builders category.
   evidence:
     - Listed in awesome-ai-coding-tools under App Builders
     - Listed in awesome-ai-agents under 'v0 by Vercel'
     - Listed in awesome-LLM-resources under '代码 Coding'
 placement:
   primary_category: app-builders
-  section: Prompt-to-App Builders
+  secondary_categories: []
+  section: Full App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.580Z"
+    updated_at: '2026-05-06T22:12:15.580Z'
     cause: null
     next_retry_at: null
   stars:
@@ -100,7 +107,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:38:33.138Z"
+    updated_at: '2026-07-21T15:38:33.138Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -113,7 +120,9 @@ processing:
       input_hash: sha256:751a25d3ab797ad75a4db5f29881be414b19ccb6cc5654ae5ae4d536cef7d4da
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The product's core identity is turning prompts into deployed applications, which aligns perfectly with the App Builders category.
+      decision_reason: >-
+        The product's core identity is turning prompts into deployed applications, which aligns perfectly with the App
+        Builders category.
       decision_evidence:
         - Listed in awesome-ai-coding-tools under App Builders
         - Listed in awesome-ai-agents under 'v0 by Vercel'
@@ -121,6 +130,8 @@ processing:
       category_candidates:
         - app-builders
         - ai-frameworks
-      contrastive_reason: Choose app-builders over ai-frameworks because the primary surface is prompt-to-app generation rather than a code-first SDK or library.
+      contrastive_reason: >-
+        Choose app-builders over ai-frameworks because the primary surface is prompt-to-app generation rather than a
+        code-first SDK or library.
       review_reason: null
       review_resume_lifecycle: null

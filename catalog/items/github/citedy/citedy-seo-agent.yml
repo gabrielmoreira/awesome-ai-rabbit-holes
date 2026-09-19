@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__citedy__citedy-seo-agent__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: Citedy/citedy-seo-agent
         extracted_url: https://github.com/citedy/citedy-seo-agent
-        surrounding_text: "- [Citedy/citedy-seo-agent](https://github.com/Citedy/citedy-seo-agent) [![citedy-seo-agent MCP server](https://glama.ai/mcp/servers/@Citedy/citedy-seo-agent/badges/score.svg)](https://glama.ai/mcp/servers/@Citedy/citedy-seo-agent) 📇 ☁️ - Full-stack AI marketing toolkit with 41 MCP tools. Scout X/Reddit trends, analyze competitors, find content gaps, generate SEO articles in 55 languages with AI illustrations and voice-over, create social adaptations for 9 platforms, generate AI avatar videos with subtitles, ingest any URL (YouTube, PDF, audio), create lead magnets, and run content autopilot."
+        surrounding_text: >-
+          - [Citedy/citedy-seo-agent](https://github.com/Citedy/citedy-seo-agent) [![citedy-seo-agent MCP
+          server](https://glama.ai/mcp/servers/@Citedy/citedy-seo-agent/badges/score.svg)](https://glama.ai/mcp/servers/@Citedy/citedy-seo-agent)
+          📇 ☁️ - Full-stack AI marketing toolkit with 41 MCP tools. Scout X/Reddit trends, analyze competitors, find
+          content gaps, generate SEO articles in 55 languages with AI illustrations and voice-over, create social
+          adaptations for 9 platforms, generate AI avatar videos with subtitles, ingest any URL (YouTube, PDF, audio),
+          create lead magnets, and run content autopilot.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: citedy/citedy-seo-agent
     html_url: https://github.com/citedy/citedy-seo-agent
-    created_at: "2026-02-15T02:04:27Z"
-    pushed_at: "2026-06-09T10:09:31Z"
-    description: AI-powered SEO content automation agent skill — trend scouting, competitor analysis, article generation in 55 languages, social media adaptations, and cron-based sessions.
+    created_at: '2026-02-15T02:04:27Z'
+    pushed_at: '2026-06-09T10:09:31Z'
+    description: >-
+      AI-powered SEO content automation agent skill — trend scouting, competitor analysis, article generation in 55
+      languages, social media adaptations, and cron-based sessions.
     homepage: https://www.citedy.com
     topics:
       - agent-skills
@@ -40,14 +48,20 @@ metadata:
       - autogpt
       - content-marketing
       - seo
-    last_checked_at: "2026-09-07T04:13:45.822Z"
+    last_checked_at: '2026-09-07T04:13:45.822Z'
     readme:
-      fetched_at: "2026-09-07T04:13:45.822Z"
+      fetched_at: '2026-09-07T04:13:45.822Z'
       bytes: 13943
 insights:
-  summary: An AI-powered SEO content automation agent skill for trend scouting, competitor analysis, multilingual article generation, and social media adaptations.
-  why_it_matters: Developers and marketers can integrate this skill into AI agents to automate end-to-end SEO content workflows, from research to multi-platform publishing.
-  mental_damage: Now your AI agent can outsource its content marketing to another AI agent, because nothing says 'scalable' like a stack of agents writing LinkedIn posts about agents.
+  summary: >-
+    An AI-powered SEO content automation agent skill for trend scouting, competitor analysis, multilingual article
+    generation, and social media adaptations.
+  why_it_matters: >-
+    Developers and marketers can integrate this skill into AI agents to automate end-to-end SEO content workflows, from
+    research to multi-platform publishing.
+  mental_damage: >-
+    Now your AI agent can outsource its content marketing to another AI agent, because nothing says 'scalable' like a
+    stack of agents writing LinkedIn posts about agents.
   tags:
     - agent-skills
     - seo-automation
@@ -57,31 +71,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a reusable agent skill pack for content marketing workflows, not a primary assistant, framework, or orchestration platform.
+  reason: >-
+    This is a reusable agent skill pack for content marketing workflows, not a primary assistant, framework, or
+    orchestration platform.
   evidence:
     - Repo description explicitly calls it an 'AI-powered SEO content automation agent skill'
-    - README positions it as a skill for AI agents (Claude Code, Codex CLI, Factory Droid) with install instructions for each
+    - >-
+      README positions it as a skill for AI agents (Claude Code, Codex CLI, Factory Droid) with install instructions for
+      each
     - Core value is the portable skill content (SEO, trend scouting, publishing) rather than a broader platform
 placement:
   primary_category: skills
-  section: Domain & Workflow Skill Packs
+  secondary_categories: []
+  section: Skill Packs & Libraries
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.607Z"
+    updated_at: '2026-05-06T22:12:15.607Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:45.822Z"
+    updated_at: '2026-09-07T04:13:45.822Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:42:59.851Z"
+    updated_at: '2026-07-21T15:42:59.851Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -94,14 +113,20 @@ processing:
       input_hash: sha256:2ca06ae83ee1a0fbc31514147df818f8cb9be0593b0213781cb0bae835d20a92
       proposed_primary_category: skills
       disagreement: false
-      decision_reason: This is a reusable agent skill pack for content marketing workflows, not a primary assistant, framework, or orchestration platform.
+      decision_reason: >-
+        This is a reusable agent skill pack for content marketing workflows, not a primary assistant, framework, or
+        orchestration platform.
       decision_evidence:
         - Repo description explicitly calls it an 'AI-powered SEO content automation agent skill'
-        - README positions it as a skill for AI agents (Claude Code, Codex CLI, Factory Droid) with install instructions for each
+        - >-
+          README positions it as a skill for AI agents (Claude Code, Codex CLI, Factory Droid) with install instructions
+          for each
         - Core value is the portable skill content (SEO, trend scouting, publishing) rather than a broader platform
       category_candidates:
         - skills
         - ai-dev-extensions
-      contrastive_reason: Choose skills over ai-dev-extensions because the primary artifact is a reusable skill pack for AI agents rather than a host integration layer.
+      contrastive_reason: >-
+        Choose skills over ai-dev-extensions because the primary artifact is a reusable skill pack for AI agents rather
+        than a host integration layer.
       review_reason: null
       review_resume_lifecycle: null

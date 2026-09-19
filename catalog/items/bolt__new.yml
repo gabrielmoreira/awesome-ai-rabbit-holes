@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__bolt__new__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,12 @@ provenance:
           - App Builders
         anchor_text: Bolt.new
         extracted_url: https://bolt.new
-        surrounding_text: "- **[Bolt.new](https://bolt.new)** – Build, edit, and deploy full-stack web apps in the browser using natural language with one-click deployment."
+        surrounding_text: >-
+          - **[Bolt.new](https://bolt.new)** – Build, edit, and deploy full-stack web apps in the browser using natural
+          language with one-click deployment.
         confidence: high
     - id: discovery__bolt__new__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -51,9 +53,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered platform for generating, managing, and deploying full-stack web applications and websites from text prompts.
-  why_it_matters: It collapses the distance between a prompt and a live, hosted application by handling scaffolding, backend infrastructure, and deployment automatically.
-  mental_damage: The existential realization that your specialized knowledge of boilerplate and deployment pipelines is becoming a legacy skill.
+  summary: >-
+    An AI-powered platform for generating, managing, and deploying full-stack web applications and websites from text
+    prompts.
+  why_it_matters: >-
+    It collapses the distance between a prompt and a live, hosted application by handling scaffolding, backend
+    infrastructure, and deployment automatically.
+  mental_damage: >-
+    The existential realization that your specialized knowledge of boilerplate and deployment pipelines is becoming a
+    legacy skill.
   tags:
     - app-builder
     - full-stack
@@ -63,21 +71,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a prompt-to-app platform that provides a complete lifecycle from generation to hosting, rather than a tool primarily for editing existing codebases.
+  reason: >-
+    It is a prompt-to-app platform that provides a complete lifecycle from generation to hosting, rather than a tool
+    primarily for editing existing codebases.
   evidence:
     - Identifies as an 'AI App Builder' and 'AI Website Builder'
     - Provides integrated infrastructure including hosting, databases, and authentication via Bolt Cloud
     - UX is centered on turning prompts/ideas into live products
 placement:
   primary_category: app-builders
-  section: Prompt-to-App Builders
+  secondary_categories: []
+  section: Full App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.596Z"
+    updated_at: '2026-05-06T22:12:15.596Z'
     cause: null
     next_retry_at: null
   stars:
@@ -86,7 +97,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:14:20.904Z"
+    updated_at: '2026-08-27T06:14:20.904Z'
     cause: null
     attempts: 4
     prompt_version: catalog-categorize-v5-single-template
@@ -99,7 +110,9 @@ processing:
       input_hash: sha256:8de95113ece901335f454f46bff9d9a59a8f2843a50026560169241209c9cb59
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: It is a prompt-to-app platform that provides a complete lifecycle from generation to hosting, rather than a tool primarily for editing existing codebases.
+      decision_reason: >-
+        It is a prompt-to-app platform that provides a complete lifecycle from generation to hosting, rather than a tool
+        primarily for editing existing codebases.
       decision_evidence:
         - Identifies as an 'AI App Builder' and 'AI Website Builder'
         - Provides integrated infrastructure including hosting, databases, and authentication via Bolt Cloud
@@ -107,6 +120,8 @@ processing:
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: Choose app-builders over coding-agents because the product's core identity is generating and deploying complete, hosted applications from prompts rather than serving as a general-purpose coding assistant for existing repos.
+      contrastive_reason: >-
+        Choose app-builders over coding-agents because the product's core identity is generating and deploying complete,
+        hosted applications from prompts rather than serving as a general-purpose coding assistant for existing repos.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__isekos__awesome-a2a-agents__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -20,7 +20,9 @@ provenance:
           - Agent-to-Agent (A2A)
         anchor_text: awesome-a2a-agents
         extracted_url: https://github.com/isekos/awesome-a2a-agents
-        surrounding_text: "| [awesome-a2a-agents](https://github.com/isekOS/awesome-a2a-agents) | Curated list of A2A tools and frameworks | ![Stars](https://img.shields.io/github/stars/isekOS/awesome-a2a-agents) |"
+        surrounding_text: >-
+          | [awesome-a2a-agents](https://github.com/isekOS/awesome-a2a-agents) | Curated list of A2A tools and
+          frameworks | ![Stars](https://img.shields.io/github/stars/isekOS/awesome-a2a-agents) |
         confidence: high
 metadata:
   github:
@@ -30,9 +32,12 @@ metadata:
     archived: false
     full_name: isekOS/awesome-a2a-agents
     html_url: https://github.com/isekOS/awesome-a2a-agents
-    created_at: "2025-09-27T09:00:16Z"
-    pushed_at: "2025-09-27T18:20:05Z"
-    description: Awesome A2A Agents is a curated list of tools, frameworks, and projects built on the Agent-to-Agent (A2A) communication protocol. It aims to showcase interoperable agent systems, share best practices, and help developers explore the emerging A2A ecosystem.
+    created_at: '2025-09-27T09:00:16Z'
+    pushed_at: '2025-09-27T18:20:05Z'
+    description: >-
+      Awesome A2A Agents is a curated list of tools, frameworks, and projects built on the Agent-to-Agent (A2A)
+      communication protocol. It aims to showcase interoperable agent systems, share best practices, and help developers
+      explore the emerging A2A ecosystem.
     homepage: https:/isek.xyz/
     topics:
       - a2a
@@ -40,13 +45,15 @@ metadata:
       - agent
       - agents
       - ai
-    last_checked_at: "2026-07-30T05:05:45.523Z"
+    last_checked_at: '2026-07-30T05:05:45.523Z'
     readme:
-      fetched_at: "2026-07-30T05:05:45.523Z"
+      fetched_at: '2026-07-30T05:05:45.523Z'
       bytes: 64018
 insights:
   summary: A curated list of tools, frameworks, and projects built on the Agent-to-Agent (A2A) communication protocol.
-  why_it_matters: It helps developers explore and adopt interoperable agent systems by showcasing A2A-compatible tools and best practices.
+  why_it_matters: >-
+    It helps developers explore and adopt interoperable agent systems by showcasing A2A-compatible tools and best
+    practices.
   mental_damage: Because nothing says 'ecosystem maturity' like a protocol for agents to argue with each other.
   tags:
     - a2a
@@ -55,32 +62,31 @@ insights:
     - multi-agent
   confidence: high
 curation:
-  status: included
-  reason: This is a curated directory focused on navigating the A2A ecosystem, which fits the scope of developer-facing navigation aids.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Repo description explicitly states it is a curated list of A2A tools/frameworks
-    - README confirms it is a collection of A2A-compatible agents and tools
-    - Source-list context shows it is already included in agent-orchestration directories under Agent Communication Protocols
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.621Z"
+    updated_at: '2026-05-06T22:12:15.621Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:45.524Z"
+    updated_at: '2026-07-30T05:05:45.524Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:08:55.287Z"
+    updated_at: '2026-07-21T16:08:55.287Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -93,14 +99,20 @@ processing:
       input_hash: sha256:d7538005761228b573ddd82aa0dc7a0e23a6d43f04b7b95c7d0f4af0f6ab2cb0
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: This is a curated directory focused on navigating the A2A ecosystem, which fits the scope of developer-facing navigation aids.
+      decision_reason: >-
+        This is a curated directory focused on navigating the A2A ecosystem, which fits the scope of developer-facing
+        navigation aids.
       decision_evidence:
         - Repo description explicitly states it is a curated list of A2A tools/frameworks
         - README confirms it is a collection of A2A-compatible agents and tools
-        - Source-list context shows it is already included in agent-orchestration directories under Agent Communication Protocols
+        - >-
+          Source-list context shows it is already included in agent-orchestration directories under Agent Communication
+          Protocols
       category_candidates:
         - awesome-awesomes
         - agent-orchestration
-      contrastive_reason: Choose awesome-awesomes over agent-orchestration because the primary value is discovery and navigation of the ecosystem rather than operating as a coordination platform.
+      contrastive_reason: >-
+        Choose awesome-awesomes over agent-orchestration because the primary value is discovery and navigation of the
+        ecosystem rather than operating as a coordination platform.
       review_reason: null
       review_resume_lifecycle: null

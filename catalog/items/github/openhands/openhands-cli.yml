@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__openhands__openhands-cli__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Open Source
         anchor_text: CLI-only package
         extracted_url: https://github.com/openhands/openhands-cli
-        surrounding_text: "- **[OpenHands](https://github.com/All-Hands-AI/OpenHands)** `⭐ 72.6k` — Open-source agentic developer environment (formerly OpenDevin) with CLI and web entrypoints; also has a lightweight [CLI-only package](https://github.com/OpenHands/OpenHands-CLI)."
+        surrounding_text: >-
+          - **[OpenHands](https://github.com/All-Hands-AI/OpenHands)** `⭐ 72.6k` — Open-source agentic developer
+          environment (formerly OpenDevin) with CLI and web entrypoints; also has a lightweight [CLI-only
+          package](https://github.com/OpenHands/OpenHands-CLI).
         confidence: high
 metadata:
   github:
@@ -30,19 +33,25 @@ metadata:
     archived: false
     full_name: OpenHands/OpenHands-CLI
     html_url: https://github.com/OpenHands/OpenHands-CLI
-    created_at: "2025-09-02T20:50:27Z"
-    pushed_at: "2026-07-20T10:39:20Z"
+    created_at: '2025-09-02T20:50:27Z'
+    pushed_at: '2026-07-20T10:39:20Z'
     description: Lightweight OpenHands CLI in a binary executable
     homepage: https://docs.openhands.dev/openhands/usage/cli/installation
     topics: []
-    last_checked_at: "2026-07-20T16:42:26.594Z"
+    last_checked_at: '2026-07-20T16:42:26.594Z'
     readme:
-      fetched_at: "2026-07-20T16:42:26.594Z"
+      fetched_at: '2026-07-20T16:42:26.594Z'
       bytes: 9185
 insights:
-  summary: A lightweight CLI and binary executable that runs the OpenHands coding agent directly in your terminal, IDE, or CI pipelines.
-  why_it_matters: It packages OpenHands into a standalone binary and Python tool, letting developers delegate coding tasks, run headless automation, and integrate with IDEs without standing up the full web GUI.
-  mental_damage: We have successfully reached the point where the agent needs its own agent to manage the agent's CLI flags in your terminal.
+  summary: >-
+    A lightweight CLI and binary executable that runs the OpenHands coding agent directly in your terminal, IDE, or CI
+    pipelines.
+  why_it_matters: >-
+    It packages OpenHands into a standalone binary and Python tool, letting developers delegate coding tasks, run
+    headless automation, and integrate with IDEs without standing up the full web GUI.
+  mental_damage: >-
+    We have successfully reached the point where the agent needs its own agent to manage the agent's CLI flags in your
+    terminal.
   tags:
     - cli
     - coding-agent
@@ -52,13 +61,16 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a standalone coding assistant CLI that reads code, plans changes, and executes tasks, fitting the primary coding agent identity rather than an extension or plugin.
+  reason: >-
+    The product is a standalone coding assistant CLI that reads code, plans changes, and executes tasks, fitting the
+    primary coding agent identity rather than an extension or plugin.
   evidence:
     - Repo description states it is a 'Lightweight OpenHands CLI in a binary executable'.
     - README lists running 'openhands' in terminal, headless CI mode, and IDE integration as core usage modes.
     - Seen in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -66,21 +78,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.640Z"
+    updated_at: '2026-05-06T22:12:15.640Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:26.594Z"
+    updated_at: '2026-07-20T16:42:26.594Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

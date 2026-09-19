@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aaronjmars__aeon__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,14 @@ provenance:
           - Orchestrators & autonomous loops
         anchor_text: Aeon
         extracted_url: https://github.com/aaronjmars/aeon
-        surrounding_text: "- **[Aeon](https://github.com/aaronjmars/aeon)** `⭐ 270` — Autonomous agent framework that runs unattended on GitHub Actions; orchestrates Claude Code across 90+ skills (research, dev, crypto, productivity) on cron or reactive triggers, with quality scoring (1–5 via Haiku), persistent memory, and a self-healing loop. MCP + A2A integrations. MIT."
+        surrounding_text: >-
+          - **[Aeon](https://github.com/aaronjmars/aeon)** `⭐ 270` — Autonomous agent framework that runs unattended on
+          GitHub Actions; orchestrates Claude Code across 90+ skills (research, dev, crypto, productivity) on cron or
+          reactive triggers, with quality scoring (1–5 via Haiku), persistent memory, and a self-healing loop. MCP + A2A
+          integrations. MIT.
         confidence: high
     - id: discovery__github__aeonfun__aeon__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -36,10 +40,14 @@ provenance:
           - Orchestrators & autonomous loops
         anchor_text: Aeon
         extracted_url: https://github.com/aaronjmars/aeon
-        surrounding_text: "- **[Aeon](https://github.com/aaronjmars/aeon)** `⭐ 574` — Autonomous agent framework that runs unattended on GitHub Actions; orchestrates Claude Code across 90+ skills (research, dev, crypto, productivity) on cron or reactive triggers, with quality scoring (1–5 via Haiku), persistent memory, and a self-healing loop. MCP + A2A integrations. MIT."
+        surrounding_text: >-
+          - **[Aeon](https://github.com/aaronjmars/aeon)** `⭐ 574` — Autonomous agent framework that runs unattended on
+          GitHub Actions; orchestrates Claude Code across 90+ skills (research, dev, crypto, productivity) on cron or
+          reactive triggers, with quality scoring (1–5 via Haiku), persistent memory, and a self-healing loop. MCP + A2A
+          integrations. MIT.
         confidence: high
     - id: discovery__github__aeonfun__aeon__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-08-17T04:19:08.737Z"
+      discovered_at: '2026-08-17T04:19:08.737Z'
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -51,7 +59,9 @@ provenance:
           - Core Frameworks
         anchor_text: Aeon
         extracted_url: https://github.com/aeonfun/aeon
-        surrounding_text: "| [Aeon](https://github.com/aeonfun/aeon) | 664 | TypeScript | MIT | 2026-08 | Runs unattended on GitHub Actions, self-healing |"
+        surrounding_text: >-
+          | [Aeon](https://github.com/aeonfun/aeon) | 664 | TypeScript | MIT | 2026-08 | Runs unattended on GitHub
+          Actions, self-healing |
         confidence: high
 metadata:
   github:
@@ -61,9 +71,11 @@ metadata:
     archived: false
     full_name: aeonfun/aeon
     html_url: https://github.com/aeonfun/aeon
-    created_at: "2026-03-04T19:44:49Z"
-    pushed_at: "2026-09-16T16:15:40Z"
-    description: "The most autonomous AI agent framework: runs unattended on GitHub Actions, self-healing skills, drives Claude Code, Grok, Codex & more. No approval loops. Configure once, forget forever."
+    created_at: '2026-03-04T19:44:49Z'
+    pushed_at: '2026-09-16T16:15:40Z'
+    description: >-
+      The most autonomous AI agent framework: runs unattended on GitHub Actions, self-healing skills, drives Claude
+      Code, Grok, Codex & more. No approval loops. Configure once, forget forever.
     homepage: https://www.aeon.fun/
     topics:
       - agent-framework
@@ -80,14 +92,20 @@ metadata:
       - harness
       - llm
       - mcp
-    last_checked_at: "2026-09-17T04:13:30.964Z"
+    last_checked_at: '2026-09-17T04:13:30.964Z'
     readme:
-      fetched_at: "2026-09-17T04:13:30.964Z"
+      fetched_at: '2026-09-17T04:13:30.964Z'
       bytes: 14987
 insights:
-  summary: An autonomous agent framework designed to execute tasks, ship features, and manage workflows without human intervention.
-  why_it_matters: It shifts the developer role from active coder to supervisor by automating end-to-end tasks like feature deployment and vulnerability discovery.
-  mental_damage: The 'configure once, forget forever' promise is a bold gamble on whether your repo survives the agent's unattended decision-making.
+  summary: >-
+    An autonomous agent framework designed to execute tasks, ship features, and manage workflows without human
+    intervention.
+  why_it_matters: >-
+    It shifts the developer role from active coder to supervisor by automating end-to-end tasks like feature deployment
+    and vulnerability discovery.
+  mental_damage: >-
+    The 'configure once, forget forever' promise is a bold gamble on whether your repo survives the agent's unattended
+    decision-making.
   tags:
     - agent-framework
     - automation
@@ -99,24 +117,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Aeon acts as a primary autonomous agent that performs high-level coding tasks like shipping features and running research rather than just augmenting an existing editor.
+  reason: >-
+    Aeon acts as a primary autonomous agent that performs high-level coding tasks like shipping features and running
+    research rather than just augmenting an existing editor.
   evidence:
     - Claims to be the 'ost autonomous agent framework' with 'no approval loops'.
     - Capable of shipping features to repos and deploying live apps.
     - Provides a CLI-based workflow for managing skills and runs.
-    - Repo description and README pitch it as an autonomous agent that ships features, finds vulnerabilities, and deploys live apps with no approval loops.
-    - The quick-start shows a terminal-first, repo-forked workflow (`./aeon`) with GitHub Actions cron scheduling, not a library import or SDK integration.
-    - Source-list context places it in a curated directory of terminal-native AI coding agents under 'Harnesses & orchestration / Orchestrators & autonomous loops'.
+    - >-
+      Repo description and README pitch it as an autonomous agent that ships features, finds vulnerabilities, and
+      deploys live apps with no approval loops.
+    - >-
+      The quick-start shows a terminal-first, repo-forked workflow (`./aeon`) with GitHub Actions cron scheduling, not a
+      library import or SDK integration.
+    - >-
+      Source-list context places it in a curated directory of terminal-native AI coding agents under 'Harnesses &
+      orchestration / Orchestrators & autonomous loops'.
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (276) exceeded threshold (150)
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-20T15:53:29.087Z"
+    updated_at: '2026-07-20T15:53:29.087Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -129,7 +156,9 @@ processing:
       input_hash: sha256:20d899352b7d00046cbd967afe7cd990e53f36d3f3357c3c61232b7eb551e51a
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Aeon acts as a primary autonomous agent that performs high-level coding tasks like shipping features and running research rather than just augmenting an existing editor.
+      decision_reason: >-
+        Aeon acts as a primary autonomous agent that performs high-level coding tasks like shipping features and running
+        research rather than just augmenting an existing editor.
       decision_evidence:
         - Claims to be the 'ost autonomous agent framework' with 'no approval loops'.
         - Capable of shipping features to repos and deploying live apps.
@@ -137,16 +166,18 @@ processing:
       category_candidates:
         - coding-agents
         - agent-orchestration
-      contrastive_reason: Choose coding-agents over agent-orchestration because its primary value is the direct execution of coding tasks and feature shipping rather than being a generic control plane for multiple disparate agents.
+      contrastive_reason: >-
+        Choose coding-agents over agent-orchestration because its primary value is the direct execution of coding tasks
+        and feature shipping rather than being a generic control plane for multiple disparate agents.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-08-17T04:19:08.740Z"
+    updated_at: '2026-08-17T04:19:08.740Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:30.964Z"
+    updated_at: '2026-09-17T04:13:30.964Z'
     cause: null
     next_retry_at: null

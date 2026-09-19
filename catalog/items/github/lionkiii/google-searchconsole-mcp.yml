@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lionkiii__google-searchconsole-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
         anchor_text: lionkiii/google-searchconsole-mcp
         extracted_url: https://github.com/lionkiii/google-searchconsole-mcp
-        surrounding_text: "- [lionkiii/google-searchconsole-mcp](https://github.com/lionkiii/google-searchconsole-mcp) [![google-searchconsole-mcp MCP server](https://glama.ai/mcp/servers/lionkiii/google-searchconsole-mcp/badges/score.svg)](https://glama.ai/mcp/servers/lionkiii/google-searchconsole-mcp) 📇 🏠 - Google Search Console MCP server with 13 SEO tools — search analytics, URL inspection, sitemap management, keyword opportunities, brand analysis, and performance comparison."
+        surrounding_text: >-
+          - [lionkiii/google-searchconsole-mcp](https://github.com/lionkiii/google-searchconsole-mcp)
+          [![google-searchconsole-mcp MCP
+          server](https://glama.ai/mcp/servers/lionkiii/google-searchconsole-mcp/badges/score.svg)](https://glama.ai/mcp/servers/lionkiii/google-searchconsole-mcp)
+          📇 🏠 - Google Search Console MCP server with 13 SEO tools — search analytics, URL inspection, sitemap
+          management, keyword opportunities, brand analysis, and performance comparison.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: lionkiii/google-searchconsole-mcp
     html_url: https://github.com/lionkiii/google-searchconsole-mcp
-    created_at: "2026-03-03T05:47:25Z"
-    pushed_at: "2026-04-03T05:46:16Z"
-    description: MCP server for Google Search Console — query search analytics, inspect URLs, find keyword opportunities, track SEO performance. Works with Claude Desktop, Cursor, Windsurf.
+    created_at: '2026-03-03T05:47:25Z'
+    pushed_at: '2026-04-03T05:46:16Z'
+    description: >-
+      MCP server for Google Search Console — query search analytics, inspect URLs, find keyword opportunities, track SEO
+      performance. Works with Claude Desktop, Cursor, Windsurf.
     homepage: null
     topics:
       - ai
@@ -47,13 +54,17 @@ metadata:
       - search-analytics
       - seo
       - webmaster-tools
-    last_checked_at: "2026-07-30T05:06:06.496Z"
+    last_checked_at: '2026-07-30T05:06:06.496Z'
     readme:
-      fetched_at: "2026-07-30T05:06:06.496Z"
+      fetched_at: '2026-07-30T05:06:06.496Z'
       bytes: 8102
 insights:
-  summary: An MCP server that exposes Google Search Console data to AI assistants like Claude Desktop and Cursor via natural language.
-  why_it_matters: Lets developers and SEOs query site performance, keyword opportunities, and indexing status directly from their AI assistant without leaving the chat.
+  summary: >-
+    An MCP server that exposes Google Search Console data to AI assistants like Claude Desktop and Cursor via natural
+    language.
+  why_it_matters: >-
+    Lets developers and SEOs query site performance, keyword opportunities, and indexing status directly from their AI
+    assistant without leaving the chat.
   mental_damage: Finally, a way to feel productive while staring at declining CTR graphs inside your chatbot.
   tags:
     - mcp
@@ -62,31 +73,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core identity is providing Google Search Console data through the Model Context Protocol, making MCP the primary product identity rather than a compatibility feature.
+  reason: >-
+    The product is an MCP server whose core identity is providing Google Search Console data through the Model Context
+    Protocol, making MCP the primary product identity rather than a compatibility feature.
   evidence:
-    - "Repo description: 'MCP server for Google Search Console'"
-    - "README: 'A Model Context Protocol (MCP) server that connects Google Search Console to AI assistants'"
-    - "Source-list context: listed in awesome-mcp-servers under Server Implementations"
+    - 'Repo description: ''MCP server for Google Search Console'''
+    - 'README: ''A Model Context Protocol (MCP) server that connects Google Search Console to AI assistants'''
+    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: '2026-05-06T22:12:15.627Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:06.496Z"
+    updated_at: '2026-07-30T05:06:06.496Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:16:21.279Z"
+    updated_at: '2026-07-21T16:16:21.279Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -99,14 +113,18 @@ processing:
       input_hash: sha256:7741042d929738e242551bd13fa994f3873b9c483e69395d57057dba4f299d15
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server whose core identity is providing Google Search Console data through the Model Context Protocol, making MCP the primary product identity rather than a compatibility feature.
+      decision_reason: >-
+        The product is an MCP server whose core identity is providing Google Search Console data through the Model
+        Context Protocol, making MCP the primary product identity rather than a compatibility feature.
       decision_evidence:
-        - "Repo description: 'MCP server for Google Search Console'"
-        - "README: 'A Model Context Protocol (MCP) server that connects Google Search Console to AI assistants'"
-        - "Source-list context: listed in awesome-mcp-servers under Server Implementations"
+        - 'Repo description: ''MCP server for Google Search Console'''
+        - 'README: ''A Model Context Protocol (MCP) server that connects Google Search Console to AI assistants'''
+        - 'Source-list context: listed in awesome-mcp-servers under Server Implementations'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool is itself an MCP server providing domain-specific data, not an extension that augments another assistant with host capabilities like debugger or git.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool is itself an MCP server providing domain-specific data, not
+        an extension that augments another assistant with host capabilities like debugger or git.
       review_reason: null
       review_resume_lifecycle: null

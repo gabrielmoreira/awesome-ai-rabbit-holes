@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__crypto-indicators-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/crypto-indicators-mcp
         extracted_url: https://github.com/kukapay/crypto-indicators-mcp
-        surrounding_text: "- [kukapay/crypto-indicators-mcp](https://github.com/kukapay/crypto-indicators-mcp) 🐍 ☁️ - An MCP server providing a range of cryptocurrency technical analysis indicators and strategie."
+        surrounding_text: >-
+          - [kukapay/crypto-indicators-mcp](https://github.com/kukapay/crypto-indicators-mcp) 🐍 ☁️ - An MCP server
+          providing a range of cryptocurrency technical analysis indicators and strategie.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: kukapay/crypto-indicators-mcp
     html_url: https://github.com/kukapay/crypto-indicators-mcp
-    created_at: "2025-03-23T04:38:09Z"
-    pushed_at: "2025-12-06T01:07:31Z"
+    created_at: '2025-03-23T04:38:09Z'
+    pushed_at: '2025-12-06T01:07:31Z'
     description: An MCP server providing a range of cryptocurrency technical analysis indicators and strategies.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:59.406Z"
+    last_checked_at: '2026-07-30T05:05:59.406Z'
     readme:
-      fetched_at: "2026-07-30T05:05:59.406Z"
+      fetched_at: '2026-07-30T05:05:59.406Z'
       bytes: 9965
 insights:
   summary: An MCP server providing 50+ cryptocurrency technical analysis indicators and trading strategies for AI agents.
-  why_it_matters: Enables AI trading agents to analyze market trends and generate buy/hold/sell signals using modular, exchange-agnostic indicators.
+  why_it_matters: >-
+    Enables AI trading agents to analyze market trends and generate buy/hold/sell signals using modular,
+    exchange-agnostic indicators.
   mental_damage: Now your AI can day-trade crypto while you debug the MCP config at 3 AM.
   tags:
     - mcp
@@ -52,31 +56,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a domain-specific MCP server providing crypto indicators as tools."
+  reason: 'MCP is the product identity: this is a domain-specific MCP server providing crypto indicators as tools.'
   evidence:
     - Repo description explicitly states it is an MCP server
     - README details MCP client configuration and tool exposure
     - Project is actively maintained (pushed Dec 2025)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:59.406Z"
+    updated_at: '2026-07-30T05:05:59.406Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:44.225Z"
+    updated_at: '2026-07-21T16:13:44.225Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +94,7 @@ processing:
       input_hash: sha256:26eb7ef6354cd4c6fd736222e42639870d639a8ec3b1a658d464c4dda43b9af5
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a domain-specific MCP server providing crypto indicators as tools."
+      decision_reason: 'MCP is the product identity: this is a domain-specific MCP server providing crypto indicators as tools.'
       decision_evidence:
         - Repo description explicitly states it is an MCP server
         - README details MCP client configuration and tool exposure
@@ -97,6 +102,8 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product is an MCP server exposing tools, not a code-first SDK or library.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product is an MCP server exposing tools, not a code-first SDK or
+        library.
       review_reason: null
       review_resume_lifecycle: null

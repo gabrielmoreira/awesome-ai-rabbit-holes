@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nazarkalytiuk__tarn__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: NazarKalytiuk/tarn
         extracted_url: https://github.com/nazarkalytiuk/tarn
-        surrounding_text: "- [NazarKalytiuk/tarn](https://github.com/NazarKalytiuk/tarn) [![NazarKalytiuk/tarn MCP server](https://glama.ai/mcp/servers/NazarKalytiuk/tarn/badges/score.svg)](https://glama.ai/mcp/servers/NazarKalytiuk/tarn) 🦀 🏠 🍎 🪟 🐧 - CLI-first API testing tool with structured JSON failures (`failure_category`, `error_code`, `hints`) so AI agents can branch on the taxonomy without parsing stderr. MCP tools: `tarn_run`, `tarn_validate`, `tarn_fix_plan`, `tarn_inspect`, `tarn_rerun_failed`, and more. Tests are `.tarn.yaml`. Single static binary (musl), MIT."
+        surrounding_text: >-
+          - [NazarKalytiuk/tarn](https://github.com/NazarKalytiuk/tarn) [![NazarKalytiuk/tarn MCP
+          server](https://glama.ai/mcp/servers/NazarKalytiuk/tarn/badges/score.svg)](https://glama.ai/mcp/servers/NazarKalytiuk/tarn)
+          🦀 🏠 🍎 🪟 🐧 - CLI-first API testing tool with structured JSON failures (`failure_category`, `error_code`,
+          `hints`) so AI agents can branch on the taxonomy without parsing stderr. MCP tools: `tarn_run`,
+          `tarn_validate`, `tarn_fix_plan`, `tarn_inspect`, `tarn_rerun_failed`, and more. Tests are `.tarn.yaml`.
+          Single static binary (musl), MIT.
         confidence: high
 metadata:
   github:
@@ -30,18 +36,22 @@ metadata:
     archived: false
     full_name: NazarKalytiuk/tarn
     html_url: https://github.com/NazarKalytiuk/tarn
-    created_at: "2026-03-28T15:31:05Z"
-    pushed_at: "2026-06-04T13:49:59Z"
+    created_at: '2026-03-28T15:31:05Z'
+    pushed_at: '2026-06-04T13:49:59Z'
     description: CLI-first API testing tool. YAML-defined tests, structured JSON output, built for AI-assisted workflows.
     homepage: https://nazarkalytiuk.github.io/tarn/
     topics: []
-    last_checked_at: "2026-07-20T15:12:00.857Z"
+    last_checked_at: '2026-07-20T15:12:00.857Z'
     readme:
-      fetched_at: "2026-07-20T15:12:00.857Z"
+      fetched_at: '2026-07-20T15:12:00.857Z'
       bytes: 68928
 insights:
-  summary: A CLI-first API testing tool that uses YAML-defined tests and structured JSON output for AI-assisted debugging workflows.
-  why_it_matters: It provides machine-readable, categorized error taxonomies that allow LLM agents to parse failures and suggest fixes without brittle log scraping.
+  summary: >-
+    A CLI-first API testing tool that uses YAML-defined tests and structured JSON output for AI-assisted debugging
+    workflows.
+  why_it_matters: >-
+    It provides machine-readable, categorized error taxonomies that allow LLM agents to parse failures and suggest fixes
+    without brittle log scraping.
   mental_damage: Finally, a way to give your coding agent a structured roadmap for exactly how it is failing to fix your API.
   tags:
     - cli
@@ -52,31 +62,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool is designed to augment existing agents (Claude Code, Cursor, etc.) by providing them with specialized testing and remediation capabilities.
+  reason: >-
+    The tool is designed to augment existing agents (Claude Code, Cursor, etc.) by providing them with specialized
+    testing and remediation capabilities.
   evidence:
     - README describes it as 'API tests an AI agent can write, run, and debug'
     - Explicitly mentions integration with Claude Code, Cursor, and Windsurf
     - Provides an MCP companion for agentic interaction
 placement:
-  primary_category: ai-dev-extensions
-  section: Testing & QA Add-ons
+  primary_category: mcp
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.820Z"
+    updated_at: '2026-05-28T05:28:09.820Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:12:00.857Z"
+    updated_at: '2026-07-20T15:12:00.857Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-13T05:18:30.425Z"
+    updated_at: '2026-07-13T05:18:30.425Z'
     cause: null
     next_retry_at: null
     attempts: 3

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__scorable__ai__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Official Servers
         anchor_text: Root Signals
         extracted_url: https://www.rootsignals.ai
-        surrounding_text: "- **[Root Signals](https://github.com/root-signals/root-signals-mcp)** - Equip AI agents with evaluation and self-improvement capabilities with [Root Signals](https://www.rootsignals.ai/)"
+        surrounding_text: >-
+          - **[Root Signals](https://github.com/root-signals/root-signals-mcp)** - Equip AI agents with evaluation and
+          self-improvement capabilities with [Root Signals](https://www.rootsignals.ai/)
         confidence: high
 metadata:
   github:
@@ -36,8 +38,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Scorable is a production-grade evaluation platform for measuring, scoring, and improving AI-powered applications using custom AI judges and real-time monitoring.
-  why_it_matters: It lets developers catch hallucinations, policy violations, and quality regressions in LLM outputs before they reach users, with guardrails for compliance and accuracy.
+  summary: >-
+    Scorable is a production-grade evaluation platform for measuring, scoring, and improving AI-powered applications
+    using custom AI judges and real-time monitoring.
+  why_it_matters: >-
+    It lets developers catch hallucinations, policy violations, and quality regressions in LLM outputs before they reach
+    users, with guardrails for compliance and accuracy.
   mental_damage: Finally, a way to prove your AI isn’t just confidently wrong—just in time for your next production incident.
   tags:
     - evals
@@ -50,19 +56,22 @@ curation:
   status: included
   reason: Core product is evaluation and monitoring of AI applications, not coding assistance or orchestration.
   evidence:
-    - Site describes it as a tool to 'measure and improve your AI-powered applications' with 'custom AI judges' and 'real-time' scoring
+    - >-
+      Site describes it as a tool to 'measure and improve your AI-powered applications' with 'custom AI judges' and
+      'real-time' scoring
     - Use cases explicitly include policy compliance, response quality, and regression testing for LLM outputs
     - Source-list context places it in MCP servers list but product identity is evals, not MCP infrastructure
 placement:
   primary_category: evals
-  section: Observability / Tracing / EvalOps
+  secondary_categories: []
+  section: Observability & Tracing
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +80,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:23.901Z"
+    updated_at: '2026-07-21T15:31:23.901Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -86,12 +95,16 @@ processing:
       disagreement: false
       decision_reason: Core product is evaluation and monitoring of AI applications, not coding assistance or orchestration.
       decision_evidence:
-        - Site describes it as a tool to 'measure and improve your AI-powered applications' with 'custom AI judges' and 'real-time' scoring
+        - >-
+          Site describes it as a tool to 'measure and improve your AI-powered applications' with 'custom AI judges' and
+          'real-time' scoring
         - Use cases explicitly include policy compliance, response quality, and regression testing for LLM outputs
         - Source-list context places it in MCP servers list but product identity is evals, not MCP infrastructure
       category_candidates:
         - evals
         - agent-orchestration
-      contrastive_reason: Choose evals over agent-orchestration because the primary job is measuring AI behavior, not coordinating multiple agents.
+      contrastive_reason: >-
+        Choose evals over agent-orchestration because the primary job is measuring AI behavior, not coordinating
+        multiple agents.
       review_reason: null
       review_resume_lifecycle: null

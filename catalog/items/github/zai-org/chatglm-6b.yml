@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__zai-org__chatglm-6b__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - Large Language Model
         anchor_text: GLM-6B (ChatGLM)
         extracted_url: https://github.com/thudm/chatglm-6b
-        surrounding_text: "| [GLM-6B (ChatGLM)](https://github.com/THUDM/ChatGLM-6B)                 | An Open Bilingual Pre-Trained Model, quantization of ChatGLM-130B, can run on consumer-level GPUs.                                                                                         | ![GitHub Badge](https://img.shields.io/github/stars/THUDM/ChatGLM-6B.svg?style=flat-square)               |"
+        surrounding_text: >-
+          | [GLM-6B (ChatGLM)](https://github.com/THUDM/ChatGLM-6B)                 | An Open Bilingual Pre-Trained
+          Model, quantization of ChatGLM-130B, can run on consumer-level
+          GPUs.                                                                                         | ![GitHub
+          Badge](https://img.shields.io/github/stars/THUDM/ChatGLM-6B.svg?style=flat-square)               |
         confidence: high
 metadata:
   github:
@@ -30,17 +34,19 @@ metadata:
     archived: false
     full_name: zai-org/ChatGLM-6B
     html_url: https://github.com/zai-org/ChatGLM-6B
-    created_at: "2023-03-13T12:00:18Z"
-    pushed_at: "2024-06-27T04:05:25Z"
-    description: "ChatGLM-6B: An Open Bilingual Dialogue Language Model | 开源双语对话语言模型"
-    homepage: ""
+    created_at: '2023-03-13T12:00:18Z'
+    pushed_at: '2024-06-27T04:05:25Z'
+    description: 'ChatGLM-6B: An Open Bilingual Dialogue Language Model | 开源双语对话语言模型'
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-21T15:21:24.530Z"
+    last_checked_at: '2026-07-21T15:21:24.530Z'
     readme:
-      fetched_at: "2026-07-21T15:21:24.530Z"
+      fetched_at: '2026-07-21T15:21:24.530Z'
       bytes: 26277
 insights:
-  summary: ChatGLM-6B is an open-source bilingual dialogue language model with 6.2B parameters for local deployment and fine-tuning.
+  summary: >-
+    ChatGLM-6B is an open-source bilingual dialogue language model with 6.2B parameters for local deployment and
+    fine-tuning.
   why_it_matters: It lets developers run and customize a capable LLM locally on modest hardware for research or application building.
   mental_damage: Another model repo that makes you feel guilty for not quantizing it and running llama.cpp instead.
   tags:
@@ -50,31 +56,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: ChatGLM-6B is primarily a downloadable model designed for local inference and fine-tuning, fitting the Local AI category as a runtime for self-hosted execution.
+  reason: >-
+    ChatGLM-6B is primarily a downloadable model designed for local inference and fine-tuning, fitting the Local AI
+    category as a runtime for self-hosted execution.
   evidence:
-    - "Repo description: 'ChatGLM-6B: An Open Bilingual Dialogue Language Model'"
-    - "README: 'users can perform local deployment (INT4 quantization level requires only 6GB VRAM)'"
-    - "README: 'INT4 quantization level, only 7GB VRAM is needed to start fine-tuning'"
+    - 'Repo description: ''ChatGLM-6B: An Open Bilingual Dialogue Language Model'''
+    - 'README: ''users can perform local deployment (INT4 quantization level requires only 6GB VRAM)'''
+    - 'README: ''INT4 quantization level, only 7GB VRAM is needed to start fine-tuning'''
 placement:
   primary_category: local-ai
-  section: Local Runtimes
+  section: Inference Engines
 lifecycle:
   status: promotion_candidate
   reason: Stars (41107) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.657Z"
+    updated_at: '2026-05-06T22:12:15.657Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:24.530Z"
+    updated_at: '2026-07-21T15:21:24.530Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:49:44.705Z"
+    updated_at: '2026-05-12T15:49:44.705Z'
     cause: null
     next_retry_at: null
     attempts: 1

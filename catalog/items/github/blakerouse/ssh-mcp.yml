@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__blakerouse__ssh-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: blakerouse/ssh-mcp
         extracted_url: https://github.com/blakerouse/ssh-mcp
-        surrounding_text: "- [blakerouse/ssh-mcp](https://github.com/blakerouse/ssh-mcp) 🏎️ 🏠 🍎 🪟 🐧 - MCP server exposing SSH control for Linux and Windows servers. Allows long running commands and the ability to perform commands on multiple hosts at the same time."
+        surrounding_text: >-
+          - [blakerouse/ssh-mcp](https://github.com/blakerouse/ssh-mcp) 🏎️ 🏠 🍎 🪟 🐧 - MCP server exposing SSH
+          control for Linux and Windows servers. Allows long running commands and the ability to perform commands on
+          multiple hosts at the same time.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,20 @@ metadata:
     archived: false
     full_name: blakerouse/ssh-mcp
     html_url: https://github.com/blakerouse/ssh-mcp
-    created_at: "2025-11-01T18:55:58Z"
-    pushed_at: "2026-05-11T08:17:34Z"
+    created_at: '2025-11-01T18:55:58Z'
+    pushed_at: '2026-05-11T08:17:34Z'
     description: SSH MCP server that runs locally making it easy to manage hosts and perform commands across a group of hosts
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:35.424Z"
+    last_checked_at: '2026-09-07T04:13:35.424Z'
     readme:
-      fetched_at: "2026-09-07T04:13:35.424Z"
+      fetched_at: '2026-09-07T04:13:35.424Z'
       bytes: 5030
 insights:
   summary: SSH MCP server that enables managing remote SSH hosts and executing commands across groups of hosts.
-  why_it_matters: Developers can centrally manage and run commands on multiple remote machines directly from an MCP-compatible assistant like Claude Desktop.
+  why_it_matters: >-
+    Developers can centrally manage and run commands on multiple remote machines directly from an MCP-compatible
+    assistant like Claude Desktop.
   mental_damage: Now you can finally SSH into all your servers at once, because managing one at a time was clearly the bottleneck.
   tags:
     - mcp
@@ -51,31 +56,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose primary identity is providing SSH host management and command execution capabilities via the Model Context Protocol.
+  reason: >-
+    The product is an MCP server whose primary identity is providing SSH host management and command execution
+    capabilities via the Model Context Protocol.
   evidence:
     - Repo description explicitly states it is an 'SSH MCP server'
     - README details MCP-specific setup and usage with Claude Desktop
     - Source-list context shows it in an MCP servers directory
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:35.424Z"
+    updated_at: '2026-09-07T04:13:35.424Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:26:18.714Z"
+    updated_at: '2026-07-21T15:26:18.714Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -88,7 +96,9 @@ processing:
       input_hash: sha256:e52ce08423ac4aa701c4049bfb2b683fda22b56efc6ea87d3635befc3377a711
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server whose primary identity is providing SSH host management and command execution capabilities via the Model Context Protocol.
+      decision_reason: >-
+        The product is an MCP server whose primary identity is providing SSH host management and command execution
+        capabilities via the Model Context Protocol.
       decision_evidence:
         - Repo description explicitly states it is an 'SSH MCP server'
         - README details MCP-specific setup and usage with Claude Desktop
@@ -96,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server implementation, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server implementation, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

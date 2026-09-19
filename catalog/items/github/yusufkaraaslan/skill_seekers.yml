@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__yusufkaraaslan__skill_seekers__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: skill-seekers/Skill_Seekers
         extracted_url: https://github.com/yusufkaraaslan/skill_seekers
-        surrounding_text: "- [skill-seekers/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) [![yusufkaraaslan/Skill_Seekers MCP server](https://glama.ai/mcp/servers/yusufkaraaslan/Skill_Seekers/badges/score.svg)](https://glama.ai/mcp/servers/yusufkaraaslan/Skill_Seekers) 🐍 🏠 🍎 🪟 🐧 - Transform 17 source types (docs, GitHub repos, PDFs, videos, Jupyter, Confluence, Notion, Slack/Discord) into AI-ready skills and RAG knowledge. 35 MCP tools for scraping, packaging, enhancing, and exporting to vector databases (Weaviate, Chroma, FAISS, Qdrant). Supports 16+ target platforms."
+        surrounding_text: >-
+          - [skill-seekers/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)
+          [![yusufkaraaslan/Skill_Seekers MCP
+          server](https://glama.ai/mcp/servers/yusufkaraaslan/Skill_Seekers/badges/score.svg)](https://glama.ai/mcp/servers/yusufkaraaslan/Skill_Seekers)
+          🐍 🏠 🍎 🪟 🐧 - Transform 17 source types (docs, GitHub repos, PDFs, videos, Jupyter, Confluence, Notion,
+          Slack/Discord) into AI-ready skills and RAG knowledge. 35 MCP tools for scraping, packaging, enhancing, and
+          exporting to vector databases (Weaviate, Chroma, FAISS, Qdrant). Supports 16+ target platforms.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: yusufkaraaslan/Skill_Seekers
     html_url: https://github.com/yusufkaraaslan/Skill_Seekers
-    created_at: "2025-10-17T14:43:48Z"
-    pushed_at: "2026-07-20T13:09:44Z"
-    description: Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection
+    created_at: '2025-10-17T14:43:48Z'
+    pushed_at: '2026-07-20T13:09:44Z'
+    description: >-
+      Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict
+      detection
     homepage: https://skillseekersweb.com/
     topics:
       - ai-tools
@@ -53,13 +61,17 @@ metadata:
       - pdf
       - python
       - web-scraping
-    last_checked_at: "2026-07-21T15:21:23.409Z"
+    last_checked_at: '2026-07-21T15:21:23.409Z'
     readme:
-      fetched_at: "2026-07-21T15:21:23.409Z"
+      fetched_at: '2026-07-21T15:21:23.409Z'
       bytes: 57184
 insights:
-  summary: Skill Seekers converts documentation, GitHub repos, PDFs, and other sources into structured knowledge assets for AI skills, RAG, and coding assistants.
-  why_it_matters: It reduces the manual effort of turning diverse knowledge sources into usable AI context, accelerating skill and RAG pipeline creation.
+  summary: >-
+    Skill Seekers converts documentation, GitHub repos, PDFs, and other sources into structured knowledge assets for AI
+    skills, RAG, and coding assistants.
+  why_it_matters: >-
+    It reduces the manual effort of turning diverse knowledge sources into usable AI context, accelerating skill and RAG
+    pipeline creation.
   mental_damage: Another tool promising to eliminate context-switching by creating yet another place to manage context.
   tags:
     - context-engineering
@@ -68,31 +80,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Skill Seekers fits context-engineering because its core novelty is retrieving, structuring, and preparing knowledge from diverse sources for AI consumption, not acting as a coding assistant or extension.
+  reason: >-
+    Skill Seekers fits context-engineering because its core novelty is retrieving, structuring, and preparing knowledge
+    from diverse sources for AI consumption, not acting as a coding assistant or extension.
   evidence:
-    - "README: 'turns documentation sites, GitHub repos, PDFs, videos, notebooks, wikis, and 10+ more source types into structured knowledge assets—ready to power AI Skills...'"
-    - "Repo description: 'Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection'"
-    - "Source-list context: listed in awesome-mcp-servers under Knowledge & Memory section"
+    - >-
+      README: 'turns documentation sites, GitHub repos, PDFs, videos, notebooks, wikis, and 10+ more source types into
+      structured knowledge assets—ready to power AI Skills...'
+    - >-
+      Repo description: 'Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with
+      automatic conflict detection'
+    - 'Source-list context: listed in awesome-mcp-servers under Knowledge & Memory section'
 placement:
-  primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: promotion_candidate
   reason: Stars (13456) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.657Z"
+    updated_at: '2026-05-06T22:12:15.657Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:23.409Z"
+    updated_at: '2026-07-21T15:21:23.409Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:48:11.986Z"
+    updated_at: '2026-05-12T15:48:11.986Z'
     cause: null
     next_retry_at: null
     attempts: 1

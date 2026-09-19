@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dusheh__myclaw-toolkit__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,15 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Dusheh/myclaw-toolkit
         extracted_url: https://github.com/dusheh/myclaw-toolkit
-        surrounding_text: "- [Dusheh/myclaw-toolkit](https://github.com/Dusheh/myclaw-toolkit) [![Dusheh/myclaw-toolkit MCP server](https://glama.ai/mcp/servers/Dusheh/myclaw-toolkit/badges/score.svg)](https://glama.ai/mcp/servers/Dusheh/myclaw-toolkit) 📇 ☁️ 🍎 🪟 🐧 - 23-in-1 developer utility MCP server: web search, exchange rates, crypto prices, QR codes, JSON formatter, UUID, URL tools, domain check, RSS feeds, and more. 6 paid APIs via x402 micropayments ($0.003 USDC on Base). `npx myclaw-toolkit`"
+        surrounding_text: >-
+          - [Dusheh/myclaw-toolkit](https://github.com/Dusheh/myclaw-toolkit) [![Dusheh/myclaw-toolkit MCP
+          server](https://glama.ai/mcp/servers/Dusheh/myclaw-toolkit/badges/score.svg)](https://glama.ai/mcp/servers/Dusheh/myclaw-toolkit)
+          📇 ☁️ 🍎 🪟 🐧 - 23-in-1 developer utility MCP server: web search, exchange rates, crypto prices, QR codes,
+          JSON formatter, UUID, URL tools, domain check, RSS feeds, and more. 6 paid APIs via x402 micropayments ($0.003
+          USDC on Base). `npx myclaw-toolkit`
         confidence: high
     - id: discovery__github__dusheh__myclaw-toolkit__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-09-17T04:13:23.413Z"
+      discovered_at: '2026-09-17T04:13:23.413Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -34,9 +39,13 @@ provenance:
         section_path:
           - Contributing
           - 💻 Developer Tools
-        anchor_text: "@Dusheh/myclaw-toolkit"
+        anchor_text: '@Dusheh/myclaw-toolkit'
         extracted_url: https://github.com/dusheh/myclaw-toolkit
-        surrounding_text: "-   **[@Dusheh/myclaw-toolkit](https://github.com/Dusheh/myclaw-toolkit)** [![GitHub stars](https://img.shields.io/github/stars/Dusheh/myclaw-toolkit?style=social)](https://github.com/Dusheh/myclaw-toolkit): 23-in-1 developer utility MCP server with web search, exchange rates, crypto prices, QR codes, UUIDs, RSS feeds, and more. Install via `npx myclaw-toolkit`."
+        surrounding_text: >-
+          -   **[@Dusheh/myclaw-toolkit](https://github.com/Dusheh/myclaw-toolkit)** [![GitHub
+          stars](https://img.shields.io/github/stars/Dusheh/myclaw-toolkit?style=social)](https://github.com/Dusheh/myclaw-toolkit):
+          23-in-1 developer utility MCP server with web search, exchange rates, crypto prices, QR codes, UUIDs, RSS
+          feeds, and more. Install via `npx myclaw-toolkit`.
         confidence: high
 metadata:
   github:
@@ -46,8 +55,8 @@ metadata:
     archived: false
     full_name: Dusheh/myclaw-toolkit
     html_url: https://github.com/Dusheh/myclaw-toolkit
-    created_at: "2026-06-23T13:49:08Z"
-    pushed_at: "2026-07-29T10:27:37Z"
+    created_at: '2026-06-23T13:49:08Z'
+    pushed_at: '2026-07-29T10:27:37Z'
     description: 23-in-1 developer utility MCP server — search, exchange rates, crypto, QR codes, JSON formatter, and more
     homepage: null
     topics:
@@ -58,14 +67,20 @@ metadata:
       - model-context-protocol
       - npm-package
       - typescript
-    last_checked_at: "2026-09-14T04:13:45.251Z"
+    last_checked_at: '2026-09-14T04:13:45.251Z'
     readme:
-      fetched_at: "2026-09-14T04:13:45.251Z"
+      fetched_at: '2026-09-14T04:13:45.251Z'
       bytes: 4451
 insights:
-  summary: A multi-purpose MCP server providing 24 developer utilities including web search, crypto prices, and local data formatting tools.
-  why_it_matters: It expands the functional capabilities of MCP-compatible assistants by providing a single, privacy-conscious bridge for web search and local utilities.
-  mental_damage: Because apparently, instead of writing ten lines of Python, we now install a 24-in-1 utility server just so Claude can check the exchange rate.
+  summary: >-
+    A multi-purpose MCP server providing 24 developer utilities including web search, crypto prices, and local data
+    formatting tools.
+  why_it_matters: >-
+    It expands the functional capabilities of MCP-compatible assistants by providing a single, privacy-conscious bridge
+    for web search and local utilities.
+  mental_damage: >-
+    Because apparently, instead of writing ten lines of Python, we now install a 24-in-1 utility server just so Claude
+    can check the exchange rate.
   tags:
     - mcp
     - developer-tools
@@ -74,31 +89,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly defined as an MCP server designed to provide tool capabilities to AI assistants via the Model Context Protocol.
+  reason: >-
+    The product is explicitly defined as an MCP server designed to provide tool capabilities to AI assistants via the
+    Model Context Protocol.
   evidence:
     - Repo description identifies it as a '23-in-1 developer utility MCP server'
-    - README provides installation instructions specifically for Claude Desktop, Cursor, and Claude Code using MCP syntax
+    - >-
+      README provides installation instructions specifically for Claude Desktop, Cursor, and Claude Code using MCP
+      syntax
     - Core identity is a provider of tools (search, crypto, formatters) for the MCP protocol
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-17T04:13:23.414Z"
+    updated_at: '2026-09-17T04:13:23.414Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:45.251Z"
+    updated_at: '2026-09-14T04:13:45.251Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-16T05:15:04.498Z"
+    updated_at: '2026-07-16T05:15:04.498Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__andrewschreiber__desktopinsights-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: andrewschreiber/desktopinsights-mcp
         extracted_url: https://github.com/andrewschreiber/desktopinsights-mcp
-        surrounding_text: "- [andrewschreiber/desktopinsights-mcp](https://github.com/andrewschreiber/desktopinsights-mcp) [![andrewschreiber/desktopinsights-mcp MCP server](https://glama.ai/mcp/servers/andrewschreiber/desktopinsights-mcp/badges/score.svg)](https://glama.ai/mcp/servers/andrewschreiber/desktopinsights-mcp) 📇 ☁️ 🍎 🪟 🐧 - Look up SDKs, frameworks, and dependencies used by 12,000+ macOS and Windows desktop apps. Search by technology adoption, compare stacks, and discover SDK usage patterns via the Desktop Insights API."
+        surrounding_text: >-
+          - [andrewschreiber/desktopinsights-mcp](https://github.com/andrewschreiber/desktopinsights-mcp)
+          [![andrewschreiber/desktopinsights-mcp MCP
+          server](https://glama.ai/mcp/servers/andrewschreiber/desktopinsights-mcp/badges/score.svg)](https://glama.ai/mcp/servers/andrewschreiber/desktopinsights-mcp)
+          📇 ☁️ 🍎 🪟 🐧 - Look up SDKs, frameworks, and dependencies used by 12,000+ macOS and Windows desktop apps.
+          Search by technology adoption, compare stacks, and discover SDK usage patterns via the Desktop Insights API.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: andrewschreiber/desktopinsights-mcp
     html_url: https://github.com/andrewschreiber/desktopinsights-mcp
-    created_at: "2026-04-10T01:09:17Z"
-    pushed_at: "2026-04-13T18:12:01Z"
+    created_at: '2026-04-10T01:09:17Z'
+    pushed_at: '2026-04-13T18:12:01Z'
     description: MCP server for desktopinsights.com
     homepage: https://desktopinsights.com
     topics:
@@ -41,13 +46,17 @@ metadata:
       - electronjs
       - enrichment
       - technographics
-    last_checked_at: "2026-09-17T04:13:43.900Z"
+    last_checked_at: '2026-09-17T04:13:43.900Z'
     readme:
-      fetched_at: "2026-09-17T04:13:43.900Z"
+      fetched_at: '2026-09-17T04:13:43.900Z'
       bytes: 2361
 insights:
-  summary: An MCP server that provides access to Desktop Insights data regarding the SDKs and frameworks used by macOS and Windows applications.
-  why_it_matters: It enables AI assistants to perform technographic research on desktop software stacks directly through the Model Context Protocol.
+  summary: >-
+    An MCP server that provides access to Desktop Insights data regarding the SDKs and frameworks used by macOS and
+    Windows applications.
+  why_it_matters: >-
+    It enables AI assistants to perform technographic research on desktop software stacks directly through the Model
+    Context Protocol.
   mental_damage: Now your LLM can tell you exactly which deprecated library your competitors are still clinging to.
   tags:
     - mcp
@@ -64,24 +73,25 @@ curation:
     - Provides domain-specific lookup tools for desktop app tech stacks
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.602Z"
+    updated_at: '2026-05-06T22:12:15.602Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:43.900Z"
+    updated_at: '2026-09-17T04:13:43.900Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:23:08.060Z"
+    updated_at: '2026-07-21T15:23:08.060Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -102,6 +112,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is a protocol-specific server designed for MCP interoperability rather than a general integration for a specific editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is a protocol-specific server designed for MCP
+        interoperability rather than a general integration for a specific editor.
       review_reason: null
       review_resume_lifecycle: null

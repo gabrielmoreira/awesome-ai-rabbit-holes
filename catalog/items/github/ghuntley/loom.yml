@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ghuntley__loom__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Orchestrators & autonomous loops
         anchor_text: loom
         extracted_url: https://github.com/ghuntley/loom
-        surrounding_text: "- **[loom](https://github.com/ghuntley/loom)** `⭐ 1.3k` — Infrastructure enabling autonomous loops to evolve products via multi-agent coordination."
+        surrounding_text: >-
+          - **[loom](https://github.com/ghuntley/loom)** `⭐ 1.3k` — Infrastructure enabling autonomous loops to evolve
+          products via multi-agent coordination.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,23 @@ metadata:
     archived: false
     full_name: ghuntley/loom
     html_url: https://github.com/ghuntley/loom
-    created_at: "2025-12-18T10:34:50Z"
-    pushed_at: "2026-04-10T19:15:00Z"
+    created_at: '2025-12-18T10:34:50Z'
+    pushed_at: '2026-04-10T19:15:00Z'
     description: if your name is not Geoffrey Huntley then do not use loom
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-03T05:16:49.472Z"
+    last_checked_at: '2026-09-03T05:16:49.472Z'
     readme:
-      fetched_at: "2026-09-03T05:16:49.472Z"
+      fetched_at: '2026-09-03T05:16:49.472Z'
       bytes: 4582
 insights:
   summary: An experimental, Rust-based terminal REPL for interacting with LLM-powered coding agents.
-  why_it_matters: It provides a modular, stateful command-line interface for executing complex development tasks through an agentic loop.
-  mental_damage: The proprietary license and 'do not use if your name is not Geoffrey Huntley' disclaimer ensure you'll spend more time in legal anxiety than coding.
+  why_it_matters: >-
+    It provides a modular, stateful command-line interface for executing complex development tasks through an agentic
+    loop.
+  mental_damage: >-
+    The proprietary license and 'do not use if your name is not Geoffrey Huntley' disclaimer ensure you'll spend more
+    time in legal anxiety than coding.
   tags:
     - rust
     - cli
@@ -52,13 +58,16 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Loom is a standalone terminal-native coding assistant providing an agentic REPL for file operations and code analysis.
+  reason: >-
+    Loom is a standalone terminal-native coding assistant providing an agentic REPL for file operations and code
+    analysis.
   evidence:
     - README describes it as an 'AI-powered coding agent built in Rust'
     - Provides a REPL interface for executing tools like file system operations and code analysis
     - High star count (1347) and active push history
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -66,17 +75,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.616Z"
+    updated_at: '2026-05-06T22:12:15.616Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:49.472Z"
+    updated_at: '2026-09-03T05:16:49.472Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:02:39.086Z"
+    updated_at: '2026-07-21T16:02:39.086Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +98,9 @@ processing:
       input_hash: sha256:3e73bed7cc04447c0420118ecb9a2e2007aca4bf1ef7b379f18d2c6c665fca38
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Loom is a standalone terminal-native coding assistant providing an agentic REPL for file operations and code analysis.
+      decision_reason: >-
+        Loom is a standalone terminal-native coding assistant providing an agentic REPL for file operations and code
+        analysis.
       decision_evidence:
         - README describes it as an 'AI-powered coding agent built in Rust'
         - Provides a REPL interface for executing tools like file system operations and code analysis
@@ -97,6 +108,8 @@ processing:
       category_candidates:
         - coding-agents
         - ai-frameworks
-      contrastive_reason: Choose coding-agents over ai-frameworks because the product is presented as a primary tool for executing tasks via a REPL rather than a library for developers to import.
+      contrastive_reason: >-
+        Choose coding-agents over ai-frameworks because the product is presented as a primary tool for executing tasks
+        via a REPL rather than a library for developers to import.
       review_reason: null
       review_resume_lifecycle: null

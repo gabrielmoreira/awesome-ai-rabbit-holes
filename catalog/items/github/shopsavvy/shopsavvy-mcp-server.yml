@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__shopsavvy__shopsavvy-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,10 +19,14 @@ provenance:
           - Official Servers
         anchor_text: ShopSavvy
         extracted_url: https://github.com/shopsavvy/shopsavvy-mcp-server
-        surrounding_text: "- **[ShopSavvy](https://github.com/shopsavvy/shopsavvy-mcp-server)** - Complete product and pricing data solution for AI assistants. Search for products by barcode/ASIN/URL, access detailed product metadata, access comprehensive pricing data from thousands of retailers, view and track price history, and more. Published as `@shopsavvy/mcp-server`."
+        surrounding_text: >-
+          - **[ShopSavvy](https://github.com/shopsavvy/shopsavvy-mcp-server)** - Complete product and pricing data
+          solution for AI assistants. Search for products by barcode/ASIN/URL, access detailed product metadata, access
+          comprehensive pricing data from thousands of retailers, view and track price history, and more. Published as
+          `@shopsavvy/mcp-server`.
         confidence: high
     - id: discovery__github__shopsavvy__shopsavvy-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -34,7 +38,12 @@ provenance:
           - 🔎 Search
         anchor_text: shopsavvy/shopsavvy-mcp-server
         extracted_url: https://github.com/shopsavvy/shopsavvy-mcp-server
-        surrounding_text: "-   **[shopsavvy/shopsavvy-mcp-server](https://github.com/shopsavvy/shopsavvy-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/shopsavvy/shopsavvy-mcp-server?style=social)](https://github.com/shopsavvy/shopsavvy-mcp-server): Complete product and pricing data solution for AI assistants. Search for products by barcode/ASIN/URL, access detailed product metadata, access comprehensive pricing data from thousands of retailers, view and track price history, and more. Published as `@shopsavvy/mcp-server`."
+        surrounding_text: >-
+          -   **[shopsavvy/shopsavvy-mcp-server](https://github.com/shopsavvy/shopsavvy-mcp-server)** [![GitHub
+          stars](https://img.shields.io/github/stars/shopsavvy/shopsavvy-mcp-server?style=social)](https://github.com/shopsavvy/shopsavvy-mcp-server):
+          Complete product and pricing data solution for AI assistants. Search for products by barcode/ASIN/URL, access
+          detailed product metadata, access comprehensive pricing data from thousands of retailers, view and track price
+          history, and more. Published as `@shopsavvy/mcp-server`.
         confidence: high
 metadata:
   github:
@@ -44,18 +53,24 @@ metadata:
     archived: false
     full_name: shopsavvy/shopsavvy-mcp-server
     html_url: https://github.com/shopsavvy/shopsavvy-mcp-server
-    created_at: "2025-07-28T09:33:17Z"
-    pushed_at: "2026-04-04T06:34:36Z"
-    description: Model Context Protocol (MCP) server for ShopSavvy Data API - provides product lookup, pricing, and historical data tools for AI assistants.
+    created_at: '2025-07-28T09:33:17Z'
+    pushed_at: '2026-04-04T06:34:36Z'
+    description: >-
+      Model Context Protocol (MCP) server for ShopSavvy Data API - provides product lookup, pricing, and historical data
+      tools for AI assistants.
     homepage: https://shopsavvy.com/integrations/mcp-server
     topics: []
-    last_checked_at: "2026-07-20T16:42:56.495Z"
+    last_checked_at: '2026-07-20T16:42:56.495Z'
     readme:
-      fetched_at: "2026-07-20T16:42:56.495Z"
+      fetched_at: '2026-07-20T16:42:56.495Z'
       bytes: 4365
 insights:
-  summary: An MCP server that exposes ShopSavvy's product lookup, pricing, and historical price data tools to AI assistants like Claude.
-  why_it_matters: It allows developers to delegate product research and price tracking to their coding assistants instead of manually querying retail APIs.
+  summary: >-
+    An MCP server that exposes ShopSavvy's product lookup, pricing, and historical price data tools to AI assistants
+    like Claude.
+  why_it_matters: >-
+    It allows developers to delegate product research and price tracking to their coding assistants instead of manually
+    querying retail APIs.
   mental_damage: Now your coding agent can stress-shop for gadgets while you're trying to get it to fix a null pointer exception.
   tags:
     - mcp
@@ -73,28 +88,29 @@ curation:
     - Included in awesome-mcp-list and awesome-mcp-servers directories under MCP sections.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.593Z"
+    updated_at: '2026-05-06T22:12:15.593Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:56.495Z"
+    updated_at: '2026-07-20T16:42:56.495Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ckanthony__openapi-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 👨‍💻 <a name="code-execution"></a>Code Execution
         anchor_text: ckanthony/openapi-mcp
         extracted_url: https://github.com/ckanthony/openapi-mcp
-        surrounding_text: "- [ckanthony/openapi-mcp](https://github.com/ckanthony/openapi-mcp) 🏎️ ☁️ - OpenAPI-MCP: Dockerized MCP Server to allow your AI agent to access any API with existing api docs."
+        surrounding_text: >-
+          - [ckanthony/openapi-mcp](https://github.com/ckanthony/openapi-mcp) 🏎️ ☁️ - OpenAPI-MCP: Dockerized MCP
+          Server to allow your AI agent to access any API with existing api docs.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,25 @@ metadata:
     archived: false
     full_name: ckanthony/openapi-mcp
     html_url: https://github.com/ckanthony/openapi-mcp
-    created_at: "2025-04-22T20:17:06Z"
-    pushed_at: "2026-03-21T07:49:31Z"
+    created_at: '2025-04-22T20:17:06Z'
+    pushed_at: '2026-03-21T07:49:31Z'
     description: Dockerized MCP Server to allow your AI agent to access any API with existing api docs
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:46.075Z"
+    last_checked_at: '2026-09-07T04:13:46.075Z'
     readme:
-      fetched_at: "2026-09-07T04:13:46.075Z"
+      fetched_at: '2026-09-07T04:13:46.075Z'
       bytes: 13923
 insights:
-  summary: Dockerized MCP server that generates tool definitions from OpenAPI or Swagger specifications so AI agents can call REST APIs without custom wrappers.
-  why_it_matters: Developers can instantly expose any documented REST API to MCP-compatible agents without manually configuring each endpoint or writing proxy code.
-  mental_damage: Now your agent can hallucinate its way through every microservice your company forgot to document properly, using the very spec nobody kept up to date.
+  summary: >-
+    Dockerized MCP server that generates tool definitions from OpenAPI or Swagger specifications so AI agents can call
+    REST APIs without custom wrappers.
+  why_it_matters: >-
+    Developers can instantly expose any documented REST API to MCP-compatible agents without manually configuring each
+    endpoint or writing proxy code.
+  mental_damage: >-
+    Now your agent can hallucinate its way through every microservice your company forgot to document properly, using
+    the very spec nobody kept up to date.
   tags:
     - mcp
     - openapi
@@ -52,31 +60,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is an MCP server implementation whose core identity is converting OpenAPI specifications into MCP tools, fitting squarely in MCP Servers & Tooling.
+  reason: >-
+    It is an MCP server implementation whose core identity is converting OpenAPI specifications into MCP tools, fitting
+    squarely in MCP Servers & Tooling.
   evidence:
     - Repo description explicitly calls it a 'Dockerized MCP Server' for AI agent API access.
     - README states it 'generates MCP tool definitions directly from a Swagger/OpenAPI specification file.'
     - Active repository (188 stars, pushed 2026-03-21) listed in awesome-mcp-servers.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: promotion_candidate
   reason: Stars (185) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:46.075Z"
+    updated_at: '2026-09-07T04:13:46.075Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:43:24.348Z"
+    updated_at: '2026-07-21T15:43:24.348Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +100,9 @@ processing:
       input_hash: sha256:87a77a3af0667f23ad1126fe2987723988e9af3f52ae0f01f2e23fc081bee3b7
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: It is an MCP server implementation whose core identity is converting OpenAPI specifications into MCP tools, fitting squarely in MCP Servers & Tooling.
+      decision_reason: >-
+        It is an MCP server implementation whose core identity is converting OpenAPI specifications into MCP tools,
+        fitting squarely in MCP Servers & Tooling.
       decision_evidence:
         - Repo description explicitly calls it a 'Dockerized MCP Server' for AI agent API access.
         - README states it 'generates MCP tool definitions directly from a Swagger/OpenAPI specification file.'
@@ -97,6 +110,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the entire product is an MCP server, not an add-on that augments another assistant's host capabilities.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the entire product is an MCP server, not an add-on that augments
+        another assistant's host capabilities.
       review_reason: null
       review_resume_lifecycle: null

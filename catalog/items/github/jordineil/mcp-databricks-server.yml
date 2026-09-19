@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jordineil__mcp-databricks-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 📊 <a name="data-platforms"></a>Data Platforms
         anchor_text: JordiNei/mcp-databricks-server
         extracted_url: https://github.com/jordineil/mcp-databricks-server
-        surrounding_text: "- [JordiNei/mcp-databricks-server](https://github.com/JordiNeil/mcp-databricks-server) 🐍 ☁️ - Connect to Databricks API, allowing LLMs to run SQL queries, list jobs, and get job status."
+        surrounding_text: >-
+          - [JordiNei/mcp-databricks-server](https://github.com/JordiNeil/mcp-databricks-server) 🐍 ☁️ - Connect to
+          Databricks API, allowing LLMs to run SQL queries, list jobs, and get job status.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,22 @@ metadata:
     archived: false
     full_name: JordiNeil/mcp-databricks-server
     html_url: https://github.com/JordiNeil/mcp-databricks-server
-    created_at: "2025-03-21T02:54:04Z"
-    pushed_at: "2025-04-24T04:16:57Z"
+    created_at: '2025-03-21T02:54:04Z'
+    pushed_at: '2025-04-24T04:16:57Z'
     description: MCP Server for Databricks
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:51.986Z"
+    last_checked_at: '2026-07-30T05:05:51.986Z'
     readme:
-      fetched_at: "2026-07-30T05:05:51.986Z"
+      fetched_at: '2026-07-30T05:05:51.986Z'
       bytes: 3216
 insights:
-  summary: An MCP server that enables LLMs to interact with Databricks by running SQL queries, listing jobs, and checking job statuses.
-  why_it_matters: Developers can now delegate Databricks workspace operations to AI assistants via a standardized protocol, reducing context-switching between tools.
+  summary: >-
+    An MCP server that enables LLMs to interact with Databricks by running SQL queries, listing jobs, and checking job
+    statuses.
+  why_it_matters: >-
+    Developers can now delegate Databricks workspace operations to AI assistants via a standardized protocol, reducing
+    context-switching between tools.
   mental_damage: Finally, a way to make your LLM argue with Databricks job logs instead of you.
   tags:
     - mcp
@@ -52,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is as an MCP server providing Databricks-specific tools, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product's core identity is as an MCP server providing Databricks-specific tools, fitting the MCP Servers &
+    Tooling category.
   evidence:
     - Repo description explicitly states 'MCP Server for Databricks'
     - README details MCP tools for SQL queries, job listing, and status checks
     - Already listed in awesome-mcp-servers under 'Data Platforms'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.623Z"
+    updated_at: '2026-05-06T22:12:15.623Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:51.986Z"
+    updated_at: '2026-07-30T05:05:51.986Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:11:28.441Z"
+    updated_at: '2026-07-21T16:11:28.441Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +98,9 @@ processing:
       input_hash: sha256:5d19734ff3bad6352dca7575c0ef840ceefb679ab5b8bfdbcd013098c1f6b304
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is as an MCP server providing Databricks-specific tools, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product's core identity is as an MCP server providing Databricks-specific tools, fitting the MCP Servers &
+        Tooling category.
       decision_evidence:
         - Repo description explicitly states 'MCP Server for Databricks'
         - README details MCP tools for SQL queries, job listing, and status checks
@@ -97,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary product identity is the MCP server itself, not an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary product identity is the MCP server itself, not an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

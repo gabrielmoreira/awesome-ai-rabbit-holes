@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gerkensm__callcenter.js-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: gerkensm/callcenter.js-mcp
         extracted_url: https://github.com/gerkensm/callcenter.js-mcp
-        surrounding_text: "- [gerkensm/callcenter.js-mcp](https://github.com/gerkensm/callcenter.js-mcp) 📇 ☁️ - An MCP server to make phone calls using VoIP/SIP and OpenAI's Realtime API and observe the transcript."
+        surrounding_text: >-
+          - [gerkensm/callcenter.js-mcp](https://github.com/gerkensm/callcenter.js-mcp) 📇 ☁️ - An MCP server to make
+          phone calls using VoIP/SIP and OpenAI's Realtime API and observe the transcript.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,25 @@ metadata:
     archived: false
     full_name: gerkensm/callcenter.js-mcp
     html_url: https://github.com/gerkensm/callcenter.js-mcp
-    created_at: "2025-08-19T22:40:20Z"
-    pushed_at: "2025-10-30T17:59:29Z"
+    created_at: '2025-08-19T22:40:20Z'
+    pushed_at: '2025-10-30T17:59:29Z'
     description: Callcenter.JS AI Voice Agent VOIP Connector, MCP + CLI
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:48.215Z"
+    last_checked_at: '2026-09-03T05:16:48.215Z'
     readme:
-      fetched_at: "2026-09-03T05:16:48.215Z"
+      fetched_at: '2026-09-03T05:16:48.215Z'
       bytes: 44288
 insights:
-  summary: An MCP server and CLI tool that bridges OpenAI's Real-Time Voice API with VoIP networks to allow AI agents to make phone calls.
-  why_it_matters: It provides a way for LLMs to interact with the physical world via telephony, enabling automation of voice-based tasks like ordering services or contacting businesses.
-  mental_damage: Finally, an easy way to let your LLM accidentally prank your entire contact list during a late-night testing session.
+  summary: >-
+    An MCP server and CLI tool that bridges OpenAI's Real-Time Voice API with VoIP networks to allow AI agents to make
+    phone calls.
+  why_it_matters: >-
+    It provides a way for LLMs to interact with the physical world via telephony, enabling automation of voice-based
+    tasks like ordering services or contacting businesses.
+  mental_damage: >-
+    Finally, an easy way to let your LLM accidentally prank your entire contact list during a late-night testing
+    session.
   tags:
     - mcp-server
     - voip
@@ -59,24 +67,25 @@ curation:
     - Architecture describes it as a bridge between OpenAI's Real-Time Voice API and VoIP networks.
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: '2026-05-06T22:12:15.615Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:48.215Z"
+    updated_at: '2026-09-03T05:16:48.215Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:01:56.493Z"
+    updated_at: '2026-07-21T16:01:56.493Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -97,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the project's primary identity is providing a protocol-compliant server that enables a specific capability, rather than being a workflow integration for an editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the project's primary identity is providing a protocol-compliant
+        server that enables a specific capability, rather than being a workflow integration for an editor.
       review_reason: null
       review_resume_lifecycle: null

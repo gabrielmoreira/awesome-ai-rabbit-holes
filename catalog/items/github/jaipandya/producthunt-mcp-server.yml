@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jaipandya__producthunt-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: jaipandya/producthunt-mcp-server
         extracted_url: https://github.com/jaipandya/producthunt-mcp-server
-        surrounding_text: "- [jaipandya/producthunt-mcp-server](https://github.com/jaipandya/producthunt-mcp-server) 🐍 🏠 - MCP server for Product Hunt. Interact with trending posts, comments, collections, users, and more."
+        surrounding_text: >-
+          - [jaipandya/producthunt-mcp-server](https://github.com/jaipandya/producthunt-mcp-server) 🐍 🏠 - MCP server
+          for Product Hunt. Interact with trending posts, comments, collections, users, and more.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: jaipandya/producthunt-mcp-server
     html_url: https://github.com/jaipandya/producthunt-mcp-server
-    created_at: "2025-04-16T11:48:00Z"
-    pushed_at: "2025-04-19T02:32:28Z"
+    created_at: '2025-04-16T11:48:00Z'
+    pushed_at: '2025-04-19T02:32:28Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:46.936Z"
+    last_checked_at: '2026-07-30T05:05:46.936Z'
     readme:
-      fetched_at: "2026-07-30T05:05:46.936Z"
+      fetched_at: '2026-07-30T05:05:46.936Z'
       bytes: 8534
 insights:
   summary: An MCP server that connects Product Hunt's API to LLM agents or assistants via the Model Context Protocol.
-  why_it_matters: Developers can integrate Product Hunt data (posts, comments, users, etc.) directly into their AI workflows or agents without custom API plumbing.
+  why_it_matters: >-
+    Developers can integrate Product Hunt data (posts, comments, users, etc.) directly into their AI workflows or agents
+    without custom API plumbing.
   mental_damage: Now your AI can obsess over Product Hunt launches while you pretend to work.
   tags:
     - mcp
@@ -51,31 +55,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose primary identity is providing Product Hunt API access via MCP, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product is explicitly an MCP server whose primary identity is providing Product Hunt API access via MCP, fitting
+    the MCP Servers & Tooling category.
   evidence:
     - README explicitly describes it as a 'plug-and-play MCP server for Product Hunt'
     - Built with FastMCP and designed for MCP clients like Claude Desktop/Cursor
     - Listed in awesome-mcp-servers under 'Server Implementations > Communication'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.621Z"
+    updated_at: '2026-05-06T22:12:15.621Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:46.936Z"
+    updated_at: '2026-07-30T05:05:46.936Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:09:32.374Z"
+    updated_at: '2026-07-21T16:09:32.374Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +95,9 @@ processing:
       input_hash: sha256:af7a9f08bd966759a896589898e246cf54367f563ee65151d728b41b1f3d49b9
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server whose primary identity is providing Product Hunt API access via MCP, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product is explicitly an MCP server whose primary identity is providing Product Hunt API access via MCP,
+        fitting the MCP Servers & Tooling category.
       decision_evidence:
         - README explicitly describes it as a 'plug-and-play MCP server for Product Hunt'
         - Built with FastMCP and designed for MCP clients like Claude Desktop/Cursor
@@ -96,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension augmenting another assistant).
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension augmenting another
+        assistant).
       review_reason: null
       review_resume_lifecycle: null

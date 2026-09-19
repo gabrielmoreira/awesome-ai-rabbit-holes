@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__corralimited__snapdiff-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-18T05:40:04.065Z"
+      discovered_at: '2026-06-18T05:40:04.065Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: corralimited/snapdiff-mcp
         extracted_url: https://github.com/corralimited/snapdiff-mcp
-        surrounding_text: "- [corralimited/snapdiff-mcp](https://github.com/corralimited/snapdiff-mcp) [![snapdiff-mcp MCP server](https://glama.ai/mcp/servers/corralimited/snapdiff-mcp/badges/score.svg)](https://glama.ai/mcp/servers/corralimited/snapdiff-mcp) 📇 ☁️ 🏠 - Intent-aware visual verification for coding agents: the agent declares what a UI change should affect, and SnapDiff diffs the page against a baseline and flags anything that changed outside that intent for review or rollback — local screenshot capture via Playwright."
+        surrounding_text: >-
+          - [corralimited/snapdiff-mcp](https://github.com/corralimited/snapdiff-mcp) [![snapdiff-mcp MCP
+          server](https://glama.ai/mcp/servers/corralimited/snapdiff-mcp/badges/score.svg)](https://glama.ai/mcp/servers/corralimited/snapdiff-mcp)
+          📇 ☁️ 🏠 - Intent-aware visual verification for coding agents: the agent declares what a UI change should
+          affect, and SnapDiff diffs the page against a baseline and flags anything that changed outside that intent for
+          review or rollback — local screenshot capture via Playwright.
         confidence: high
 metadata:
   github:
@@ -30,10 +35,10 @@ metadata:
     archived: false
     full_name: corralimited/snapdiff-mcp
     html_url: https://github.com/corralimited/snapdiff-mcp
-    created_at: "2026-05-08T23:20:47Z"
-    pushed_at: "2026-09-11T07:54:07Z"
+    created_at: '2026-05-08T23:20:47Z'
+    pushed_at: '2026-09-11T07:54:07Z'
     description: Standalone MCP server for SnapDiff
-    homepage: ""
+    homepage: ''
     topics:
       - agentic-coding
       - agentic-workflow
@@ -46,14 +51,18 @@ metadata:
       - screenshot
       - visual-regression
       - visual-regression-testing
-    last_checked_at: "2026-09-14T04:13:30.185Z"
+    last_checked_at: '2026-09-14T04:13:30.185Z'
     readme:
-      fetched_at: "2026-09-14T04:13:30.185Z"
+      fetched_at: '2026-09-14T04:13:30.185Z'
       bytes: 5544
 insights:
   summary: A standalone MCP server for SnapDiff that provides tools for visual regression testing and screenshot capture.
-  why_it_matters: It allows coding agents to visually verify UI changes and detect regressions by providing them with a way to 'see' and compare web pages.
-  mental_damage: Now our agents can confidently tell us the UI is 'correct' while we still spend three hours debugging a 1px padding shift on mobile.
+  why_it_matters: >-
+    It allows coding agents to visually verify UI changes and detect regressions by providing them with a way to 'see'
+    and compare web pages.
+  mental_damage: >-
+    Now our agents can confidently tell us the UI is 'correct' while we still spend three hours debugging a 1px padding
+    shift on mobile.
   tags:
     - mcp
     - visual-regression
@@ -64,29 +73,30 @@ curation:
   status: included
   reason: The product's core identity is an MCP server providing specific visual testing capabilities to other agents.
   evidence:
-    - "Repo description: 'Standalone MCP server for SnapDiff'"
+    - 'Repo description: ''Standalone MCP server for SnapDiff'''
     - README lists specific tools like `snapdiff_verify_ui_change` and `snapdiff_compare_pages` for local agents
     - Included in awesome-mcp-servers under Browser Automation
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-18T05:40:04.066Z"
+    updated_at: '2026-06-18T05:40:04.066Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:30.185Z"
+    updated_at: '2026-09-14T04:13:30.185Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-18T05:43:06.291Z"
+    updated_at: '2026-06-18T05:43:06.291Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

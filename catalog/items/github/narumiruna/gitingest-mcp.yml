@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__narumiruna__gitingest-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: narumiruna/gitingest-mcp
         extracted_url: https://github.com/narumiruna/gitingest-mcp
-        surrounding_text: "- [narumiruna/gitingest-mcp](https://github.com/narumiruna/gitingest-mcp) 🐍 🏠 - A MCP server that uses [gitingest](https://github.com/cyclotruc/gitingest) to convert any Git repository into a simple text digest of its codebase."
+        surrounding_text: >-
+          - [narumiruna/gitingest-mcp](https://github.com/narumiruna/gitingest-mcp) 🐍 🏠 - A MCP server that uses
+          [gitingest](https://github.com/cyclotruc/gitingest) to convert any Git repository into a simple text digest of
+          its codebase.
         confidence: high
 metadata:
   github:
@@ -30,19 +33,23 @@ metadata:
     archived: false
     full_name: narumiruna/gitingest-mcp
     html_url: https://github.com/narumiruna/gitingest-mcp
-    created_at: "2025-05-05T17:03:00Z"
-    pushed_at: "2026-06-22T13:58:08Z"
+    created_at: '2025-05-05T17:03:00Z'
+    pushed_at: '2026-06-22T13:58:08Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T15:11:59.948Z"
+    last_checked_at: '2026-07-20T15:11:59.948Z'
     readme:
-      fetched_at: "2026-07-20T15:11:59.948Z"
+      fetched_at: '2026-07-20T15:11:59.948Z'
       bytes: 2406
 insights:
   summary: An MCP server that wraps gitingest to turn any Git repository into a structured text digest for AI assistants.
-  why_it_matters: It lets coding agents ingest entire repos into context without cloning or manual file stitching, streamlining repo-wide analysis tasks.
-  mental_damage: We have finally reached the point where we need a protocol server to feed a digest tool into an assistant so it can pretend it read your codebase.
+  why_it_matters: >-
+    It lets coding agents ingest entire repos into context without cloning or manual file stitching, streamlining
+    repo-wide analysis tasks.
+  mental_damage: >-
+    We have finally reached the point where we need a protocol server to feed a digest tool into an assistant so it can
+    pretend it read your codebase.
   tags:
     - mcp
     - git
@@ -52,35 +59,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server implementation whose entire identity is exposing gitingest repository digestion as an MCP tool.
+  reason: >-
+    The product is an MCP server implementation whose entire identity is exposing gitingest repository digestion as an
+    MCP tool.
   evidence:
     - GitHub repo name is gitingest-mcp with description focused on MCP server implementation.
-    - README explicitly states it is 'A Model Context Protocol (MCP) server implementation that integrates with gitingest'.
+    - >-
+      README explicitly states it is 'A Model Context Protocol (MCP) server implementation that integrates with
+      gitingest'.
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.632Z"
+    updated_at: '2026-05-06T22:12:15.632Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:11:59.948Z"
+    updated_at: '2026-07-20T15:11:59.948Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

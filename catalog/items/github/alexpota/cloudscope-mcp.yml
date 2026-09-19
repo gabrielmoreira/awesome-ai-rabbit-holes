@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alexpota__cloudscope-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: alexpota/cloudscope-mcp
         extracted_url: https://github.com/alexpota/cloudscope-mcp
-        surrounding_text: "- [alexpota/cloudscope-mcp](https://github.com/alexpota/cloudscope-mcp) [![alexpota/cloudscope-mcp MCP server](https://glama.ai/mcp/servers/alexpota/cloudscope-mcp/badges/score.svg)](https://glama.ai/mcp/servers/alexpota/cloudscope-mcp) 📇 ☁️ - Azure cloud cost management — spending analysis, forecasts, anomaly detection, budgets, optimization recommendations, idle resource detection, tag-based cost allocation, and cross-subscription queries through natural language."
+        surrounding_text: >-
+          - [alexpota/cloudscope-mcp](https://github.com/alexpota/cloudscope-mcp) [![alexpota/cloudscope-mcp MCP
+          server](https://glama.ai/mcp/servers/alexpota/cloudscope-mcp/badges/score.svg)](https://glama.ai/mcp/servers/alexpota/cloudscope-mcp)
+          📇 ☁️ - Azure cloud cost management — spending analysis, forecasts, anomaly detection, budgets, optimization
+          recommendations, idle resource detection, tag-based cost allocation, and cross-subscription queries through
+          natural language.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: alexpota/cloudscope-mcp
     html_url: https://github.com/alexpota/cloudscope-mcp
-    created_at: "2026-04-05T15:24:40Z"
-    pushed_at: "2026-08-12T01:27:58Z"
-    description: Multi-cloud cost management MCP server (Azure + GCP). Read-only access to spending, anomalies, forecasts, budgets, and guided FinOps workflows. Ask your AI about your cloud bill.
+    created_at: '2026-04-05T15:24:40Z'
+    pushed_at: '2026-08-12T01:27:58Z'
+    description: >-
+      Multi-cloud cost management MCP server (Azure + GCP). Read-only access to spending, anomalies, forecasts, budgets,
+      and guided FinOps workflows. Ask your AI about your cloud bill.
     homepage: https://mcpscope.dev
     topics:
       - anomaly-detection
@@ -55,13 +62,15 @@ metadata:
       - mcp-server
       - model-context-protocol
       - multi-cloud
-    last_checked_at: "2026-09-17T04:13:39.988Z"
+    last_checked_at: '2026-09-17T04:13:39.988Z'
     readme:
-      fetched_at: "2026-09-17T04:13:39.988Z"
+      fetched_at: '2026-09-17T04:13:39.988Z'
       bytes: 14065
 insights:
   summary: An MCP server that provides read-only access to Azure and GCP cloud cost data for AI assistants.
-  why_it_matters: Developers can query cloud spending, anomalies, forecasts, and budgets in natural language through their AI coding assistant.
+  why_it_matters: >-
+    Developers can query cloud spending, anomalies, forecasts, and budgets in natural language through their AI coding
+    assistant.
   mental_damage: Now your AI can judge your cloud bill as harshly as your CFO does.
   tags:
     - mcp-server
@@ -72,31 +81,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server for cloud cost management, not a compatibility footnote."
+  reason: 'MCP is the product identity: this is a dedicated MCP server for cloud cost management, not a compatibility footnote.'
   evidence:
     - Repo description explicitly identifies it as an MCP server for multi-cloud cost management
     - README confirms it exposes Azure/GCP cost data to AI assistants via MCP
     - Listed in awesome-mcp-servers under Cloud Platforms
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.601Z"
+    updated_at: '2026-05-06T22:12:15.601Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:39.988Z"
+    updated_at: '2026-09-17T04:13:39.988Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:21:59.756Z"
+    updated_at: '2026-07-21T15:21:59.756Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -109,7 +119,9 @@ processing:
       input_hash: sha256:935295bf06be67956a28b18799323ae311ce820a018407cfb9edade19bf812c1
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server for cloud cost management, not a compatibility footnote."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server for cloud cost management, not a compatibility
+        footnote.
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server for multi-cloud cost management
         - README confirms it exposes Azure/GCP cost data to AI assistants via MCP
@@ -117,6 +129,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

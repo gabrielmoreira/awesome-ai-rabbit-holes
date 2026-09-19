@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__openclawmp__stepfun__com__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -37,7 +37,9 @@ metadata:
     readme: null
 insights:
   summary: A marketplace for sharing and installing skills, plugins, triggers, and communicators to extend AI agents.
-  why_it_matters: Developers can enhance their agents with reusable capabilities like code extensions, event triggers, and messaging adapters.
+  why_it_matters: >-
+    Developers can enhance their agents with reusable capabilities like code extensions, event triggers, and messaging
+    adapters.
   mental_damage: Finally, a place where your agent can learn to fish instead of just being told to fish.
   tags:
     - agent-skills
@@ -48,21 +50,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a registry/marketplace for reusable agent skills and extensions, matching the Agent Skills category's focus on skill packs and directories.
+  reason: >-
+    The product is a registry/marketplace for reusable agent skills and extensions, matching the Agent Skills category's
+    focus on skill packs and directories.
   evidence:
     - Site describes itself as a marketplace for skills, plugins, triggers, and communicators for agents
     - Source-list context places it in a 'Skills' section of an LLM resource directory
     - Primary value is discovery and distribution of agent capabilities
 placement:
   primary_category: skills
-  section: Skill Registries & Directories
+  secondary_categories: []
+  section: Registries & Directories
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +76,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:39.111Z"
+    updated_at: '2026-07-21T15:30:39.111Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +89,9 @@ processing:
       input_hash: sha256:0731c99fd8b1c7aeaf38cc0bb851232d7c30473048ae1986d56eda3107845ccd
       proposed_primary_category: skills
       disagreement: false
-      decision_reason: The product is a registry/marketplace for reusable agent skills and extensions, matching the Agent Skills category's focus on skill packs and directories.
+      decision_reason: >-
+        The product is a registry/marketplace for reusable agent skills and extensions, matching the Agent Skills
+        category's focus on skill packs and directories.
       decision_evidence:
         - Site describes itself as a marketplace for skills, plugins, triggers, and communicators for agents
         - Source-list context places it in a 'Skills' section of an LLM resource directory
@@ -92,6 +99,8 @@ processing:
       category_candidates:
         - skills
         - agent-orchestration
-      contrastive_reason: Choose skills over agent-orchestration because the core product is a skill registry/marketplace rather than a multi-agent coordination platform.
+      contrastive_reason: >-
+        Choose skills over agent-orchestration because the core product is a skill registry/marketplace rather than a
+        multi-agent coordination platform.
       review_reason: null
       review_resume_lifecycle: null

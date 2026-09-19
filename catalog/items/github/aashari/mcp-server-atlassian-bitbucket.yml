@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aashari__mcp-server-atlassian-bitbucket__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: aashari/mcp-server-atlassian-bitbucket
         extracted_url: https://github.com/aashari/mcp-server-atlassian-bitbucket
-        surrounding_text: "- [aashari/mcp-server-atlassian-bitbucket](https://github.com/aashari/mcp-server-atlassian-bitbucket) 📇 ☁️ - Atlassian Bitbucket Cloud integration. Enables AI systems to interact with repositories, pull requests, workspaces, and code in real time."
+        surrounding_text: >-
+          - [aashari/mcp-server-atlassian-bitbucket](https://github.com/aashari/mcp-server-atlassian-bitbucket) 📇 ☁️ -
+          Atlassian Bitbucket Cloud integration. Enables AI systems to interact with repositories, pull requests,
+          workspaces, and code in real time.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,12 @@ metadata:
     archived: false
     full_name: aashari/mcp-server-atlassian-bitbucket
     html_url: https://github.com/aashari/mcp-server-atlassian-bitbucket
-    created_at: "2025-03-24T12:18:56Z"
-    pushed_at: "2026-03-06T07:29:48Z"
-    description: Node.js/TypeScript MCP server for Atlassian Bitbucket. Enables AI systems (LLMs) to interact with workspaces, repositories, and pull requests via tools (list, get, comment, search). Connects AI directly to version control workflows through the standard MCP interface.
+    created_at: '2025-03-24T12:18:56Z'
+    pushed_at: '2026-03-06T07:29:48Z'
+    description: >-
+      Node.js/TypeScript MCP server for Atlassian Bitbucket. Enables AI systems (LLMs) to interact with workspaces,
+      repositories, and pull requests via tools (list, get, comment, search). Connects AI directly to version control
+      workflows through the standard MCP interface.
     homepage: null
     topics:
       - ai
@@ -54,13 +60,15 @@ metadata:
       - tools
       - typescript
       - version-control
-    last_checked_at: "2026-09-17T04:13:27.897Z"
+    last_checked_at: '2026-09-17T04:13:27.897Z'
     readme:
-      fetched_at: "2026-09-17T04:13:27.897Z"
+      fetched_at: '2026-09-17T04:13:27.897Z'
       bytes: 25314
 insights:
   summary: An MCP server that allows LLMs to interact with Atlassian Bitbucket workspaces, repositories, and pull requests.
-  why_it_matters: It enables AI assistants to perform version control tasks like searching code, checking PR status, and managing pull requests via natural language.
+  why_it_matters: >-
+    It enables AI assistants to perform version control tasks like searching code, checking PR status, and managing pull
+    requests via natural language.
   mental_damage: Because why manually review code when you can let a model argue with you in a Bitbucket comment thread?
   tags:
     - mcp
@@ -71,31 +79,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's core identity is an implementation of the Model Context Protocol to expose Bitbucket functionality to AI models.
+  reason: >-
+    The project's core identity is an implementation of the Model Context Protocol to expose Bitbucket functionality to
+    AI models.
   evidence:
     - Repo description identifies it explicitly as an 'MCP server for Atlassian Bitbucket'
     - README details how it provides tools for LLMs to interact with repositories and PRs
     - Includes active development and pushed updates in March 2026
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (151) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.599Z"
+    updated_at: '2026-05-06T22:12:15.599Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:27.897Z"
+    updated_at: '2026-09-17T04:13:27.897Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:53:42.257Z"
+    updated_at: '2026-07-20T15:53:42.257Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -108,7 +119,9 @@ processing:
       input_hash: sha256:508158fbeabf1aa54d56c1bcdb416ba9089b6b23c3685c42ec9c71fc755d9a34
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's core identity is an implementation of the Model Context Protocol to expose Bitbucket functionality to AI models.
+      decision_reason: >-
+        The project's core identity is an implementation of the Model Context Protocol to expose Bitbucket functionality
+        to AI models.
       decision_evidence:
         - Repo description identifies it explicitly as an 'MCP server for Atlassian Bitbucket'
         - README details how it provides tools for LLMs to interact with repositories and PRs
@@ -116,6 +129,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is explicitly an MCP server implementation rather than a plugin for a specific editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is explicitly an MCP server implementation rather than a
+        plugin for a specific editor.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mochow13__keen-code__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-06-18T05:40:04.065Z"
+      discovered_at: '2026-06-18T05:40:04.065Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,11 @@ provenance:
           - Open Source
         anchor_text: Keen Code
         extracted_url: https://github.com/mochow13/keen-code
-        surrounding_text: "- **[Keen Code](https://github.com/mochow13/keen-code)** `⭐ 35` — Go-based CLI coding agent focused on efficient context management — uses lean TurnMemory summaries instead of raw tool traces to maximize context efficiency. 9+ providers, skill-driven MCP servers, and full transparency with every prompt, design doc, and implementation plan saved as markdown. MIT."
+        surrounding_text: >-
+          - **[Keen Code](https://github.com/mochow13/keen-code)** `⭐ 35` — Go-based CLI coding agent focused on
+          efficient context management — uses lean TurnMemory summaries instead of raw tool traces to maximize context
+          efficiency. 9+ providers, skill-driven MCP servers, and full transparency with every prompt, design doc, and
+          implementation plan saved as markdown. MIT.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: mochow13/keen-code
     html_url: https://github.com/mochow13/keen-code
-    created_at: "2026-02-16T00:49:00Z"
-    pushed_at: "2026-08-02T23:23:44Z"
+    created_at: '2026-02-16T00:49:00Z'
+    pushed_at: '2026-08-02T23:23:44Z'
     description: A context-aware and efficient CLI-based coding agent written in Go
     homepage: https://mochow13.github.io/keen-code/
     topics:
@@ -41,14 +45,20 @@ metadata:
       - ai-coding-agent
       - ai-coding-tool
       - coding-assistant
-    last_checked_at: "2026-08-03T05:17:05.907Z"
+    last_checked_at: '2026-08-03T05:17:05.907Z'
     readme:
-      fetched_at: "2026-08-03T05:17:05.907Z"
+      fetched_at: '2026-08-03T05:17:05.907Z'
       bytes: 11410
 insights:
-  summary: Keen Code is a CLI-based AI coding agent written in Go that supports multiple LLM providers and includes a lightweight context management system.
-  why_it_matters: Offers developers a minimal, terminal-native alternative to heavier AI coding agents with multi-provider flexibility and session persistence.
-  mental_damage: Another CLI agent promising lean context while quietly rebuilding the same agent-from-agent loop we’ve seen a dozen times.
+  summary: >-
+    Keen Code is a CLI-based AI coding agent written in Go that supports multiple LLM providers and includes a
+    lightweight context management system.
+  why_it_matters: >-
+    Offers developers a minimal, terminal-native alternative to heavier AI coding agents with multi-provider flexibility
+    and session persistence.
+  mental_damage: >-
+    Another CLI agent promising lean context while quietly rebuilding the same agent-from-agent loop we’ve seen a dozen
+    times.
   tags:
     - cli-agent
     - multi-provider
@@ -56,13 +66,16 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Keen Code functions as a standalone terminal-based coding assistant that reads, plans, edits code, and runs commands, fitting the core definition of a coding agent.
+  reason: >-
+    Keen Code functions as a standalone terminal-based coding assistant that reads, plans, edits code, and runs
+    commands, fitting the core definition of a coding agent.
   evidence:
-    - "Repo description: 'A context-aware and efficient CLI-based coding agent written in Go'"
-    - "README: 'Keen Code is a terminal-based AI coding agent like Claude Code or Codex CLI'"
-    - "Features: Includes file editing, bash execution, glob/grep, and session management for software engineering tasks"
+    - 'Repo description: ''A context-aware and efficient CLI-based coding agent written in Go'''
+    - 'README: ''Keen Code is a terminal-based AI coding agent like Claude Code or Codex CLI'''
+    - 'Features: Includes file editing, bash execution, glob/grep, and session management for software engineering tasks'
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: incubating
@@ -70,17 +83,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-06-18T05:40:04.066Z"
+    updated_at: '2026-06-18T05:40:04.066Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:05.907Z"
+    updated_at: '2026-08-03T05:17:05.907Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-06T05:46:16.886Z"
+    updated_at: '2026-07-06T05:46:16.886Z'
     cause: null
     next_retry_at: null
     attempts: 1

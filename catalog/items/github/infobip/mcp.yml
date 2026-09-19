@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__infobip__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: Infobip/mcp
         extracted_url: https://github.com/infobip/mcp
-        surrounding_text: "- [Infobip/mcp](https://github.com/infobip/mcp) 🎖️ ☁️ - Official Infobip MCP server for integrating Infobip global cloud communication platform. It equips AI agents with communication superpowers, allowing them to send and receive SMS and RCS messages, interact with WhatsApp and Viber, automate communication workflows, and manage customer data, all in a production-ready environment."
+        surrounding_text: >-
+          - [Infobip/mcp](https://github.com/infobip/mcp) 🎖️ ☁️ - Official Infobip MCP server for integrating Infobip
+          global cloud communication platform. It equips AI agents with communication superpowers, allowing them to send
+          and receive SMS and RCS messages, interact with WhatsApp and Viber, automate communication workflows, and
+          manage customer data, all in a production-ready environment.
         confidence: high
 metadata:
   github:
@@ -30,18 +34,20 @@ metadata:
     archived: false
     full_name: infobip/mcp
     html_url: https://github.com/infobip/mcp
-    created_at: "2025-08-08T14:42:25Z"
-    pushed_at: "2026-07-17T12:00:10Z"
+    created_at: '2025-08-08T14:42:25Z'
+    pushed_at: '2026-07-17T12:00:10Z'
     description: Infobip Remote MCP Servers Documentation
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:43.198Z"
+    last_checked_at: '2026-07-30T05:05:43.198Z'
     readme:
-      fetched_at: "2026-07-30T05:05:43.198Z"
+      fetched_at: '2026-07-30T05:05:43.198Z'
       bytes: 14929
 insights:
   summary: Infobip's official remote MCP servers for integrating AI agents with Infobip's communication and CPaaS platform.
-  why_it_matters: Lets developers connect AI agents to Infobip's messaging channels (SMS, WhatsApp, etc.), authentication, and customer data management via MCP without custom integrations.
+  why_it_matters: >-
+    Lets developers connect AI agents to Infobip's messaging channels (SMS, WhatsApp, etc.), authentication, and
+    customer data management via MCP without custom integrations.
   mental_damage: Now your AI agent can spam your users via WhatsApp with the same ease it refactors your code.
   tags:
     - mcp
@@ -52,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the core product identity here: these are official Infobip MCP servers providing domain-specific capabilities (messaging, auth, customer data) via MCP."
+  reason: >-
+    MCP is the core product identity here: these are official Infobip MCP servers providing domain-specific capabilities
+    (messaging, auth, customer data) via MCP.
   evidence:
     - Repo description explicitly states 'Infobip Remote MCP Servers Documentation'
     - README details multiple MCP server endpoints (e.g., SMS, WhatsApp, 2FA) under the MCP protocol
     - Source-list context confirms inclusion in awesome-mcp-servers under 'Server Implementations > Communication'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.620Z"
+    updated_at: '2026-05-06T22:12:15.620Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:43.198Z"
+    updated_at: '2026-07-30T05:05:43.198Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:08:11.916Z"
+    updated_at: '2026-07-21T16:08:11.916Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +98,9 @@ processing:
       input_hash: sha256:9a1aae33214fcc4a0b200ce4afb1f39fc2ac145e7918b61d0c43549adc6aad3b
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the core product identity here: these are official Infobip MCP servers providing domain-specific capabilities (messaging, auth, customer data) via MCP."
+      decision_reason: >-
+        MCP is the core product identity here: these are official Infobip MCP servers providing domain-specific
+        capabilities (messaging, auth, customer data) via MCP.
       decision_evidence:
         - Repo description explicitly states 'Infobip Remote MCP Servers Documentation'
         - README details multiple MCP server endpoints (e.g., SMS, WhatsApp, 2FA) under the MCP protocol
@@ -97,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is a set of MCP servers (domain-specific infrastructure) rather than an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is a set of MCP servers (domain-specific infrastructure)
+        rather than an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

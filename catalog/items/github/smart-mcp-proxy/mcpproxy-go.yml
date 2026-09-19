@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__smart-mcp-proxy__mcpproxy-go__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,15 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: smart-mcp-proxy/mcpproxy-go
         extracted_url: https://github.com/smart-mcp-proxy/mcpproxy-go
-        surrounding_text: "- [smart-mcp-proxy/mcpproxy-go](https://github.com/smart-mcp-proxy/mcpproxy-go) [![smart-mcp-proxy/mcpproxy-go MCP server](https://glama.ai/mcp/servers/smart-mcp-proxy/mcpproxy-go/badges/score.svg)](https://glama.ai/mcp/servers/smart-mcp-proxy/mcpproxy-go) 🏎️ 🏠 🍎 🪟 🐧 - Local MCP proxy with BM25 tool filtering, quarantine security, activity logging, and web UI. Routes multiple servers through a single endpoint."
+        surrounding_text: >-
+          - [smart-mcp-proxy/mcpproxy-go](https://github.com/smart-mcp-proxy/mcpproxy-go) [![smart-mcp-proxy/mcpproxy-go
+          MCP
+          server](https://glama.ai/mcp/servers/smart-mcp-proxy/mcpproxy-go/badges/score.svg)](https://glama.ai/mcp/servers/smart-mcp-proxy/mcpproxy-go)
+          🏎️ 🏠 🍎 🪟 🐧 - Local MCP proxy with BM25 tool filtering, quarantine security, activity logging, and web UI.
+          Routes multiple servers through a single endpoint.
         confidence: high
     - id: discovery__github__smart-mcp-proxy__mcpproxy-go__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-21T05:27:57.681Z"
+      discovered_at: '2026-05-21T05:27:57.681Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -36,10 +41,15 @@ provenance:
           - Frameworks/Servers for Serving
         anchor_text: mcpproxy-go
         extracted_url: https://github.com/smart-mcp-proxy/mcpproxy-go
-        surrounding_text: "| [mcpproxy-go](https://github.com/smart-mcp-proxy/mcpproxy-go)              | Open-source MCP proxy with BM25 tool filtering, quarantine security, activity logging, and web UI. Routes multiple MCP servers through single endpoint, reducing context bloat by ~97%.                                                                                                                                                            | ![GitHub Badge](https://img.shields.io/github/stars/smart-mcp-proxy/mcpproxy-go.svg?style=flat-square)    |"
+        surrounding_text: >-
+          | [mcpproxy-go](https://github.com/smart-mcp-proxy/mcpproxy-go)              | Open-source MCP proxy with BM25
+          tool filtering, quarantine security, activity logging, and web UI. Routes multiple MCP servers through single
+          endpoint, reducing context bloat by
+          ~97%.                                                                                                                                                           
+          | ![GitHub Badge](https://img.shields.io/github/stars/smart-mcp-proxy/mcpproxy-go.svg?style=flat-square)    |
         confidence: high
     - id: discovery__github__smart-mcp-proxy__mcpproxy-go__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-09-01T14:31:13.862Z"
+      discovered_at: '2026-09-01T14:31:13.862Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -51,7 +61,10 @@ provenance:
           - 🛠️ Utilities
         anchor_text: smart-mcp-proxy/mcpproxy-go
         extracted_url: https://github.com/smart-mcp-proxy/mcpproxy-go
-        surrounding_text: "-   **[smart-mcp-proxy/mcpproxy-go](https://github.com/smart-mcp-proxy/mcpproxy-go)** [![GitHub stars](https://img.shields.io/github/stars/smart-mcp-proxy/mcpproxy-go?style=social)](https://github.com/smart-mcp-proxy/mcpproxy-go): Open-source MCP gateway with BM25 tool discovery, quarantine-based security, Docker isolation, and OAuth 2.1."
+        surrounding_text: >-
+          -   **[smart-mcp-proxy/mcpproxy-go](https://github.com/smart-mcp-proxy/mcpproxy-go)** [![GitHub
+          stars](https://img.shields.io/github/stars/smart-mcp-proxy/mcpproxy-go?style=social)](https://github.com/smart-mcp-proxy/mcpproxy-go):
+          Open-source MCP gateway with BM25 tool discovery, quarantine-based security, Docker isolation, and OAuth 2.1.
         confidence: high
 metadata:
   github:
@@ -61,8 +74,8 @@ metadata:
     archived: false
     full_name: smart-mcp-proxy/mcpproxy-go
     html_url: https://github.com/smart-mcp-proxy/mcpproxy-go
-    created_at: "2025-06-18T03:59:17Z"
-    pushed_at: "2026-07-20T05:27:16Z"
+    created_at: '2025-06-18T03:59:17Z'
+    pushed_at: '2026-07-20T05:27:16Z'
     description: Supercharge AI Agents, Safely
     homepage: https://mcpproxy.app
     topics:
@@ -86,14 +99,20 @@ metadata:
       - security
       - tool-routing
       - web-ui
-    last_checked_at: "2026-07-20T16:42:59.373Z"
+    last_checked_at: '2026-07-20T16:42:59.373Z'
     readme:
-      fetched_at: "2026-07-20T16:42:59.373Z"
+      fetched_at: '2026-07-20T16:42:59.373Z'
       bytes: 14179
 insights:
-  summary: An open-source, local-first proxy server and desktop app that federates hundreds of MCP servers behind a single endpoint with tool retrieval, token compression, and security quarantine.
-  why_it_matters: It lets developers bypass strict tool-count limits in Cursor and OpenAI by dynamically discovering and loading only the relevant MCP tools, dramatically cutting token usage.
-  mental_damage: We have successfully abstracted the problem of too many tools into a tool that manages your tools, because obviously the next logical step was a proxy for the proxies.
+  summary: >-
+    An open-source, local-first proxy server and desktop app that federates hundreds of MCP servers behind a single
+    endpoint with tool retrieval, token compression, and security quarantine.
+  why_it_matters: >-
+    It lets developers bypass strict tool-count limits in Cursor and OpenAI by dynamically discovering and loading only
+    the relevant MCP tools, dramatically cutting token usage.
+  mental_damage: >-
+    We have successfully abstracted the problem of too many tools into a tool that manages your tools, because obviously
+    the next logical step was a proxy for the proxies.
   tags:
     - mcp
     - proxy
@@ -103,35 +122,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "The product's core identity is MCP infrastructure: it is a proxy, router, and middleware layer designed specifically to manage MCP servers, not just a generic framework or extension."
+  reason: >-
+    The product's core identity is MCP infrastructure: it is a proxy, router, and middleware layer designed specifically
+    to manage MCP servers, not just a generic framework or extension.
   evidence:
     - Repo description and README explicitly define it as a proxy for MCP servers with tool routing and quarantine.
     - Topics include mcp, mcp-proxy, mcp-server, and model-context-protocol as primary identifiers.
     - Listed in awesome-mcp-servers under 'Aggregators', reinforcing its identity as MCP infrastructure.
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: promotion_candidate
   reason: Stars (208) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-09-01T14:31:13.863Z"
+    updated_at: '2026-09-01T14:31:13.863Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:59.373Z"
+    updated_at: '2026-07-20T16:42:59.373Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

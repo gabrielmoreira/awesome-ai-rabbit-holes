@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__memfreeme__memfree__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,10 +19,10 @@ provenance:
           - MemFree
         anchor_text: MemFree
         extracted_url: https://github.com/memfreeme/memfree
-        surrounding_text: "## [MemFree](https://github.com/memfreeme/memfree)"
+        surrounding_text: '## [MemFree](https://github.com/memfreeme/memfree)'
         confidence: high
     - id: discovery__github__memfreeme__memfree__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -35,7 +35,10 @@ provenance:
           - Other / Chatbots
         anchor_text: MemFree
         extracted_url: https://github.com/memfreeme/memfree
-        surrounding_text: "- [MemFree](https://github.com/memfreeme/memfree) - Open Source Hybrid AI Search Engine, Instantly Get Accurate Answers from the Internet, Bookmarks, Notes, and Docs. Support One-Click Deployment. ![GitHub Repo stars](https://img.shields.io/github/stars/memfreeme/memfree?style=social)"
+        surrounding_text: >-
+          - [MemFree](https://github.com/memfreeme/memfree) - Open Source Hybrid AI Search Engine, Instantly Get
+          Accurate Answers from the Internet, Bookmarks, Notes, and Docs. Support One-Click Deployment. ![GitHub Repo
+          stars](https://img.shields.io/github/stars/memfreeme/memfree?style=social)
         confidence: high
 metadata:
   github:
@@ -45,8 +48,8 @@ metadata:
     archived: false
     full_name: memfreeme/memfree
     html_url: https://github.com/memfreeme/memfree
-    created_at: "2024-06-15T04:16:59Z"
-    pushed_at: "2026-07-06T12:02:53Z"
+    created_at: '2024-06-15T04:16:59Z'
+    pushed_at: '2026-07-06T12:02:53Z'
     description: MemFree - Hybrid AI Search Engine & AI Page Generator
     homepage: https://www.memfree.me?ref=github.com
     topics:
@@ -64,14 +67,20 @@ metadata:
       - serverless-vector
       - shadcn-ui
       - vector-search
-    last_checked_at: "2026-08-03T05:16:59.614Z"
+    last_checked_at: '2026-08-03T05:16:59.614Z'
     readme:
-      fetched_at: "2026-08-03T05:16:59.614Z"
+      fetched_at: '2026-08-03T05:16:59.614Z'
       bytes: 9915
 insights:
-  summary: MemFree is a hybrid AI search engine and AI page generator that enables searching knowledge bases and the web while generating React-based UI pages from prompts.
-  why_it_matters: It consolidates AI search and UI generation into one workflow, reducing context-switching for developers building internal tools or prototypes.
-  mental_damage: Another tool promising to replace both your search bar and your frontend boilerplate, just in case you were tired of having opinions.
+  summary: >-
+    MemFree is a hybrid AI search engine and AI page generator that enables searching knowledge bases and the web while
+    generating React-based UI pages from prompts.
+  why_it_matters: >-
+    It consolidates AI search and UI generation into one workflow, reducing context-switching for developers building
+    internal tools or prototypes.
+  mental_damage: >-
+    Another tool promising to replace both your search bar and your frontend boilerplate, just in case you were tired of
+    having opinions.
   tags:
     - ai-search
     - ui-generator
@@ -79,31 +88,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MemFree's core value is turning prompts into deployable UI pages using React/Tailwind/Shadcn, making it a prompt-to-site builder rather than a coding agent or extension.
+  reason: >-
+    MemFree's core value is turning prompts into deployable UI pages using React/Tailwind/Shadcn, making it a
+    prompt-to-site builder rather than a coding agent or extension.
   evidence:
-    - "README states: 'Memfree uses the most powerful AI model - Claude 3.5 Sonnet and the most popular front-end framework - React + Tailwind + Shadcn UI to generate production-ready UI pages for you in seconds.'"
-    - "Repo description: 'MemFree - Hybrid AI Search Engine & AI Page Generator'"
-    - Features include 'File-to-Page Generation', 'One-Click UI Publishing', and 'Real-Time UI Preview' focused on generating apps from prompts.
+    - >-
+      README states: 'Memfree uses the most powerful AI model - Claude 3.5 Sonnet and the most popular front-end
+      framework - React + Tailwind + Shadcn UI to generate production-ready UI pages for you in seconds.'
+    - 'Repo description: ''MemFree - Hybrid AI Search Engine & AI Page Generator'''
+    - >-
+      Features include 'File-to-Page Generation', 'One-Click UI Publishing', and 'Real-Time UI Preview' focused on
+      generating apps from prompts.
 placement:
   primary_category: app-builders
-  section: Prompt-to-Site Builders
+  secondary_categories: []
+  section: Internal Tools & Dashboards
 lifecycle:
   status: promotion_candidate
   reason: Stars (1497) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.590Z"
+    updated_at: '2026-05-06T22:12:15.590Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:59.614Z"
+    updated_at: '2026-08-03T05:16:59.614Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:19:46.892Z"
+    updated_at: '2026-07-21T16:19:46.892Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -116,14 +132,22 @@ processing:
       input_hash: sha256:aae2da98bb29243dd4fb9f1c6a7166f6bc243558c4e20c61c753ffd809c49edd
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: MemFree's core value is turning prompts into deployable UI pages using React/Tailwind/Shadcn, making it a prompt-to-site builder rather than a coding agent or extension.
+      decision_reason: >-
+        MemFree's core value is turning prompts into deployable UI pages using React/Tailwind/Shadcn, making it a
+        prompt-to-site builder rather than a coding agent or extension.
       decision_evidence:
-        - "README states: 'Memfree uses the most powerful AI model - Claude 3.5 Sonnet and the most popular front-end framework - React + Tailwind + Shadcn UI to generate production-ready UI pages for you in seconds.'"
-        - "Repo description: 'MemFree - Hybrid AI Search Engine & AI Page Generator'"
-        - Features include 'File-to-Page Generation', 'One-Click UI Publishing', and 'Real-Time UI Preview' focused on generating apps from prompts.
+        - >-
+          README states: 'Memfree uses the most powerful AI model - Claude 3.5 Sonnet and the most popular front-end
+          framework - React + Tailwind + Shadcn UI to generate production-ready UI pages for you in seconds.'
+        - 'Repo description: ''MemFree - Hybrid AI Search Engine & AI Page Generator'''
+        - >-
+          Features include 'File-to-Page Generation', 'One-Click UI Publishing', and 'Real-Time UI Preview' focused on
+          generating apps from prompts.
       category_candidates:
         - app-builders
         - ai-dev-extensions
-      contrastive_reason: Choose app-builders over ai-dev-extensions because MemFree's primary function is generating new UIs from prompts rather than augmenting another coding assistant with integrations or workflow enhancements.
+      contrastive_reason: >-
+        Choose app-builders over ai-dev-extensions because MemFree's primary function is generating new UIs from prompts
+        rather than augmenting another coding assistant with integrations or workflow enhancements.
       review_reason: null
       review_resume_lifecycle: null

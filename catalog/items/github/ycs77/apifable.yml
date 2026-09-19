@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ycs77__apifable__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: ycs77/apifable
         extracted_url: https://github.com/ycs77/apifable
-        surrounding_text: "- [ycs77/apifable](https://github.com/ycs77/apifable) [![apifable MCP server](https://glama.ai/mcp/servers/ycs77/apifable/badges/score.svg)](https://glama.ai/mcp/servers/ycs77/apifable) 📇 🏠 - MCP server that helps AI agents explore OpenAPI specs, search endpoints, and generate TypeScript types."
+        surrounding_text: >-
+          - [ycs77/apifable](https://github.com/ycs77/apifable) [![apifable MCP
+          server](https://glama.ai/mcp/servers/ycs77/apifable/badges/score.svg)](https://glama.ai/mcp/servers/ycs77/apifable)
+          📇 🏠 - MCP server that helps AI agents explore OpenAPI specs, search endpoints, and generate TypeScript
+          types.
         confidence: high
 metadata:
   github:
@@ -30,10 +34,10 @@ metadata:
     archived: false
     full_name: ycs77/apifable
     html_url: https://github.com/ycs77/apifable
-    created_at: "2026-02-19T04:29:13Z"
-    pushed_at: "2026-07-05T13:38:26Z"
+    created_at: '2026-02-19T04:29:13Z'
+    pushed_at: '2026-07-05T13:38:26Z'
     description: MCP server that helps AI agents explore OpenAPI specs, search endpoints, and generate TypeScript types.
-    homepage: ""
+    homepage: ''
     topics:
       - api
       - claude-code
@@ -42,14 +46,16 @@ metadata:
       - openapi
       - swagger
       - typescript
-    last_checked_at: "2026-07-21T15:21:19.993Z"
+    last_checked_at: '2026-07-21T15:21:19.993Z'
     readme:
-      fetched_at: "2026-07-21T15:21:19.993Z"
+      fetched_at: '2026-07-21T15:21:19.993Z'
       bytes: 10304
 insights:
   summary: MCP server that helps AI agents explore OpenAPI specs, search endpoints, and generate TypeScript types.
   why_it_matters: Gives AI agents API context to generate accurate frontend integration code in TypeScript projects.
-  mental_damage: Another tool to teach your AI how to read API docs so it doesn’t hallucinate endpoint paths—because trusting LLMs with OpenAPI is still a team sport.
+  mental_damage: >-
+    Another tool to teach your AI how to read API docs so it doesn’t hallucinate endpoint paths—because trusting LLMs
+    with OpenAPI is still a team sport.
   tags:
     - mcp
     - openapi
@@ -58,31 +64,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Apifable is an MCP server whose core identity is providing API context via the Model Context Protocol, making it a clear fit for MCP Servers & Tooling rather than a coding agent or extension.
+  reason: >-
+    Apifable is an MCP server whose core identity is providing API context via the Model Context Protocol, making it a
+    clear fit for MCP Servers & Tooling rather than a coding agent or extension.
   evidence:
-    - "Repo description: 'MCP server that helps AI agents explore OpenAPI specs, search endpoints, and generate TypeScript types.'"
-    - "README: 'apifable is an MCP server that helps AI integrate APIs more smoothly into TypeScript frontend projects.'"
-    - "Usage: Configured via `.mcp.json` as an MCP server for Claude Code, Cursor, and Windsurf."
+    - >-
+      Repo description: 'MCP server that helps AI agents explore OpenAPI specs, search endpoints, and generate
+      TypeScript types.'
+    - 'README: ''apifable is an MCP server that helps AI integrate APIs more smoothly into TypeScript frontend projects.'''
+    - 'Usage: Configured via `.mcp.json` as an MCP server for Claude Code, Cursor, and Windsurf.'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.656Z"
+    updated_at: '2026-05-06T22:12:15.656Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:19.993Z"
+    updated_at: '2026-07-21T15:21:19.993Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:43:52.056Z"
+    updated_at: '2026-05-12T15:43:52.056Z'
     cause: null
     next_retry_at: null
     attempts: 1

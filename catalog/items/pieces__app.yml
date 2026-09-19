@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pieces__app__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Code Search and Navigation
         anchor_text: Pieces.app
         extracted_url: https://pieces.app
-        surrounding_text: "- **[Pieces.app](https://pieces.app/)** – AI-powered code snippet management, search, and sharing."
+        surrounding_text: '- **[Pieces.app](https://pieces.app/)** – AI-powered code snippet management, search, and sharing.'
         confidence: high
 metadata:
   github:
@@ -36,8 +36,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Pieces is a desktop application that builds a searchable artificial memory from a developer's work across applications, enabling context recovery and integration with AI tools.
-  why_it_matters: It helps developers resume work, recover past decisions, and bring real context into AI assistants by capturing and indexing activity from IDEs, browsers, chats, and other tools.
+  summary: >-
+    Pieces is a desktop application that builds a searchable artificial memory from a developer's work across
+    applications, enabling context recovery and integration with AI tools.
+  why_it_matters: >-
+    It helps developers resume work, recover past decisions, and bring real context into AI assistants by capturing and
+    indexing activity from IDEs, browsers, chats, and other tools.
   mental_damage: Finally, a way to remember why you wrote that regex six months ago—assuming Pieces was running when you did.
   tags:
     - memory-layer
@@ -48,21 +52,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product is a memory and context system that captures, indexes, and retrieves developer work across tools, fitting the context-engineering category better than extensions or agents.
+  reason: >-
+    The core product is a memory and context system that captures, indexes, and retrieves developer work across tools,
+    fitting the context-engineering category better than extensions or agents.
   evidence:
     - Described as 'artificial memory from your work' for context recovery in AI tools
     - Captures and indexes activity from IDEs, browsers, chats, and AI assistants
     - Offers an MCP server to carry history into AI tools like Claude and Cursor
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +78,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:31.564Z"
+    updated_at: '2026-07-21T15:30:31.564Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +91,9 @@ processing:
       input_hash: sha256:143e98ddb84d79ce9171e82ba19b62de36d89a7bda8f1e0bd5f22503c4c9a768
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: The core product is a memory and context system that captures, indexes, and retrieves developer work across tools, fitting the context-engineering category better than extensions or agents.
+      decision_reason: >-
+        The core product is a memory and context system that captures, indexes, and retrieves developer work across
+        tools, fitting the context-engineering category better than extensions or agents.
       decision_evidence:
         - Described as 'artificial memory from your work' for context recovery in AI tools
         - Captures and indexes activity from IDEs, browsers, chats, and AI assistants
@@ -92,6 +101,8 @@ processing:
       category_candidates:
         - context-engineering
         - ai-dev-extensions
-      contrastive_reason: Choose context-engineering over ai-dev-extensions because the primary novelty is the memory and retrieval system itself, not just host integrations.
+      contrastive_reason: >-
+        Choose context-engineering over ai-dev-extensions because the primary novelty is the memory and retrieval system
+        itself, not just host integrations.
       review_reason: null
       review_resume_lifecycle: null

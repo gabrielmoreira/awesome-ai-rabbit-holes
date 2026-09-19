@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dolthub__dolt-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Dolt
         extracted_url: https://github.com/dolthub/dolt-mcp
-        surrounding_text: "- **[Dolt](https://github.com/dolthub/dolt-mcp)** - The official MCP server for version-controlled Dolt databases."
+        surrounding_text: >-
+          - **[Dolt](https://github.com/dolthub/dolt-mcp)** - The official MCP server for version-controlled Dolt
+          databases.
         confidence: high
 metadata:
   github:
@@ -29,18 +31,22 @@ metadata:
     archived: false
     full_name: dolthub/dolt-mcp
     html_url: https://github.com/dolthub/dolt-mcp
-    created_at: "2025-07-17T21:11:56Z"
-    pushed_at: "2026-08-18T20:39:38Z"
+    created_at: '2025-07-17T21:11:56Z'
+    pushed_at: '2026-08-18T20:39:38Z'
     description: The MCP server for Dolt
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:43.106Z"
+    last_checked_at: '2026-09-14T04:13:43.106Z'
     readme:
-      fetched_at: "2026-09-14T04:13:43.106Z"
+      fetched_at: '2026-09-14T04:13:43.106Z'
       bytes: 19493
 insights:
-  summary: An MCP server that provides AI assistants with direct access to Dolt and DoltgreSQL version-controlled SQL databases.
-  why_it_matters: It lets AI tools like Claude interact with Dolt databases for database operations, version control workflows, and data management tasks.
+  summary: >-
+    An MCP server that provides AI assistants with direct access to Dolt and DoltgreSQL version-controlled SQL
+    databases.
+  why_it_matters: >-
+    It lets AI tools like Claude interact with Dolt databases for database operations, version control workflows, and
+    data management tasks.
   mental_damage: Now your AI can git commit your schema changes and then immediately regret them.
   tags:
     - mcp
@@ -51,31 +57,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server for Dolt databases, not a compatibility footnote."
+  reason: 'MCP is the product identity: this is a dedicated MCP server for Dolt databases, not a compatibility footnote.'
   evidence:
     - Repo description explicitly states 'The MCP server for Dolt'
-    - README describes it as 'A Model Context Protocol (MCP) server that provides AI assistants with direct access to Dolt and DoltgreSQL databases'
+    - >-
+      README describes it as 'A Model Context Protocol (MCP) server that provides AI assistants with direct access to
+      Dolt and DoltgreSQL databases'
     - Listed in awesome-mcp-servers under 'Community Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.611Z"
+    updated_at: '2026-05-06T22:12:15.611Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:43.106Z"
+    updated_at: '2026-09-14T04:13:43.106Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:26.638Z"
+    updated_at: '2026-07-21T15:51:26.638Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,14 +97,18 @@ processing:
       input_hash: sha256:9c4c327b3d4ec46c0766de994f4f856ab8d71bbbee00a0a73e1a488cc5325e5a
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server for Dolt databases, not a compatibility footnote."
+      decision_reason: 'MCP is the product identity: this is a dedicated MCP server for Dolt databases, not a compatibility footnote.'
       decision_evidence:
         - Repo description explicitly states 'The MCP server for Dolt'
-        - README describes it as 'A Model Context Protocol (MCP) server that provides AI assistants with direct access to Dolt and DoltgreSQL databases'
+        - >-
+          README describes it as 'A Model Context Protocol (MCP) server that provides AI assistants with direct access
+          to Dolt and DoltgreSQL databases'
         - Listed in awesome-mcp-servers under 'Community Servers'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension layer for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension layer for another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

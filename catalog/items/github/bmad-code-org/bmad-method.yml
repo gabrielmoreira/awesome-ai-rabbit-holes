@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bmad-code-org__bmad-method__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -19,7 +19,10 @@ provenance:
           - Development Frameworks
         anchor_text: BMAD-METHOD
         extracted_url: https://github.com/bmad-code-org/bmad-method
-        surrounding_text: "- [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) ![](https://img.shields.io/github/stars/bmad-code-org/BMAD-METHOD.svg) - Breakthrough Method for AI-driven Agile Development, providing a modular framework for agile AI workflows."
+        surrounding_text: >-
+          - [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)
+          ![](https://img.shields.io/github/stars/bmad-code-org/BMAD-METHOD.svg) - Breakthrough Method for AI-driven
+          Agile Development, providing a modular framework for agile AI workflows.
         confidence: high
 metadata:
   github:
@@ -29,19 +32,25 @@ metadata:
     archived: false
     full_name: bmad-code-org/BMAD-METHOD
     html_url: https://github.com/bmad-code-org/BMAD-METHOD
-    created_at: "2025-04-13T14:54:25Z"
-    pushed_at: "2026-09-06T10:22:20Z"
+    created_at: '2025-04-13T14:54:25Z'
+    pushed_at: '2026-09-06T10:22:20Z'
     description: Breakthrough Method for Agile Ai Driven Development
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:36.328Z"
+    last_checked_at: '2026-09-07T04:13:36.328Z'
     readme:
-      fetched_at: "2026-09-07T04:13:36.328Z"
+      fetched_at: '2026-09-07T04:13:36.328Z'
       bytes: 6801
 insights:
-  summary: An open-source AI-driven agile development framework with structured workflows, specialized agents, and scale-adaptive planning for software projects.
-  why_it_matters: It provides developers with guided, expert-collaborator workflows for end-to-end project development, from brainstorming to deployment, rather than just generating code.
-  mental_damage: Finally, a framework that promises to turn your chaotic solo coding sessions into a corporate boardroom meeting with 12 imaginary colleagues.
+  summary: >-
+    An open-source AI-driven agile development framework with structured workflows, specialized agents, and
+    scale-adaptive planning for software projects.
+  why_it_matters: >-
+    It provides developers with guided, expert-collaborator workflows for end-to-end project development, from
+    brainstorming to deployment, rather than just generating code.
+  mental_damage: >-
+    Finally, a framework that promises to turn your chaotic solo coding sessions into a corporate boardroom meeting with
+    12 imaginary colleagues.
   tags:
     - spec-driven-development
     - agent-orchestration
@@ -51,31 +60,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product is a spec-first development framework with structured workflows and agent collaboration, aligning with the spec-driven development category.
+  reason: >-
+    The core product is a spec-first development framework with structured workflows and agent collaboration, aligning
+    with the spec-driven development category.
   evidence:
-    - "Repo description: 'Breakthrough Method for Agile Ai Driven Development'"
+    - 'Repo description: ''Breakthrough Method for Agile Ai Driven Development'''
     - README highlights structured workflows, specialized agents, and scale-adaptive planning as primary features
-    - "Source-list context: listed under 'Development Frameworks' in awesome-spec-driven-development"
+    - 'Source-list context: listed under ''Development Frameworks'' in awesome-spec-driven-development'
 placement:
-  primary_category: spec-driven-development
-  section: Spec-First Environments
+  primary_category: coding-agents
+  section: Spec-First & Plan-Execute
 lifecycle:
   status: promotion_candidate
   reason: Stars (46500) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:36.328Z"
+    updated_at: '2026-09-07T04:13:36.328Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:26:28.688Z"
+    updated_at: '2026-07-21T15:26:28.688Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -88,14 +99,18 @@ processing:
       input_hash: sha256:f05105680a5819aef42508892eedbd5ca5fb1c7671e39704e1252eb61e4e766c
       proposed_primary_category: spec-driven-development
       disagreement: false
-      decision_reason: The core product is a spec-first development framework with structured workflows and agent collaboration, aligning with the spec-driven development category.
+      decision_reason: >-
+        The core product is a spec-first development framework with structured workflows and agent collaboration,
+        aligning with the spec-driven development category.
       decision_evidence:
-        - "Repo description: 'Breakthrough Method for Agile Ai Driven Development'"
+        - 'Repo description: ''Breakthrough Method for Agile Ai Driven Development'''
         - README highlights structured workflows, specialized agents, and scale-adaptive planning as primary features
-        - "Source-list context: listed under 'Development Frameworks' in awesome-spec-driven-development"
+        - 'Source-list context: listed under ''Development Frameworks'' in awesome-spec-driven-development'
       category_candidates:
         - spec-driven-development
         - agent-orchestration
-      contrastive_reason: Choose spec-driven-development over agent-orchestration because the primary identity is a structured development framework with specs and workflows, not just multi-agent coordination.
+      contrastive_reason: >-
+        Choose spec-driven-development over agent-orchestration because the primary identity is a structured development
+        framework with specs and workflows, not just multi-agent coordination.
       review_reason: null
       review_resume_lifecycle: null

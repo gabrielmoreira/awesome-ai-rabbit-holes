@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tadas-github__a2asearch-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: tadas-github/a2asearch-mcp
         extracted_url: https://github.com/tadas-github/a2asearch-mcp
-        surrounding_text: "- [tadas-github/a2asearch-mcp](https://github.com/tadas-github/a2asearch-mcp) [![tadas-github/a2asearch-mcp MCP server](https://glama.ai/mcp/servers/tadas-github/a2asearch-mcp/badges/score.svg)](https://glama.ai/mcp/servers/tadas-github/a2asearch-mcp) 📇 ☁️ - MCP server to search 4,800+ MCP servers, AI agents, CLI tools and agent skills. Install: `npx -y a2asearch-mcp`. Ask Claude: \"Find MCP servers for database access\". Free, no auth required."
+        surrounding_text: >-
+          - [tadas-github/a2asearch-mcp](https://github.com/tadas-github/a2asearch-mcp) [![tadas-github/a2asearch-mcp
+          MCP
+          server](https://glama.ai/mcp/servers/tadas-github/a2asearch-mcp/badges/score.svg)](https://glama.ai/mcp/servers/tadas-github/a2asearch-mcp)
+          📇 ☁️ - MCP server to search 4,800+ MCP servers, AI agents, CLI tools and agent skills. Install: `npx -y
+          a2asearch-mcp`. Ask Claude: "Find MCP servers for database access". Free, no auth required.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: tadas-github/a2asearch-mcp
     html_url: https://github.com/tadas-github/a2asearch-mcp
-    created_at: "2026-03-23T18:07:50Z"
-    pushed_at: "2026-03-30T07:08:15Z"
+    created_at: '2026-03-23T18:07:50Z'
+    pushed_at: '2026-03-30T07:08:15Z'
     description: MCP server for searching AI agents, MCP servers, CLI tools and agent skills via A2ASearch
     homepage: null
     topics:
@@ -42,13 +47,17 @@ metadata:
       - mcp
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-07-21T15:20:39.191Z"
+    last_checked_at: '2026-07-21T15:20:39.191Z'
     readme:
-      fetched_at: "2026-07-21T15:20:39.191Z"
+      fetched_at: '2026-07-21T15:20:39.191Z'
       bytes: 5088
 insights:
-  summary: An MCP server and CLI tool that provides a unified search interface across 10,000+ indexed AI agents, MCP servers, CLI tools, and agent skills.
-  why_it_matters: It solves the growing pains of ecosystem discovery by letting developers query a massive agent/MCP directory directly from their coding assistant instead of manually browsing GitHub or npm.
+  summary: >-
+    An MCP server and CLI tool that provides a unified search interface across 10,000+ indexed AI agents, MCP servers,
+    CLI tools, and agent skills.
+  why_it_matters: >-
+    It solves the growing pains of ecosystem discovery by letting developers query a massive agent/MCP directory
+    directly from their coding assistant instead of manually browsing GitHub or npm.
   mental_damage: We now need an AI tool to help us search for all the other AI tools we haven't yet installed to help us write code.
   tags:
     - mcp
@@ -59,13 +68,18 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product's primary identity is an MCP server that indexes and searches the AI agent ecosystem, making it a discovery tool within the MCP infrastructure category.
+  reason: >-
+    The product's primary identity is an MCP server that indexes and searches the AI agent ecosystem, making it a
+    discovery tool within the MCP infrastructure category.
   evidence:
-    - Repo description explicitly states 'MCP server for searching AI agents, MCP servers, CLI tools and agent skills via A2ASearch'.
+    - >-
+      Repo description explicitly states 'MCP server for searching AI agents, MCP servers, CLI tools and agent skills
+      via A2ASearch'.
     - README positions it as 'The only unified search engine for the AI agent ecosystem' with 10,752 indexed tools.
     - Listed in awesome-mcp-servers under 'Server Implementations > Aggregators', confirming its MCP registry identity.
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Registries & Discovery
 lifecycle:
   status: incubating
@@ -73,21 +87,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.650Z"
+    updated_at: '2026-05-06T22:12:15.650Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:39.191Z"
+    updated_at: '2026-07-21T15:20:39.191Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agentbase1__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: AgentBase1/mcp-server
         extracted_url: https://github.com/agentbase1/mcp-server
-        surrounding_text: "- [AgentBase1/mcp-server](https://github.com/AgentBase1/mcp-server) [![mcp-server MCP server](https://glama.ai/mcp/servers/AgentBase1/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/AgentBase1/mcp-server) 📇 ☁️ - AgentBase: open registry of agent instruction files for AI agents. Search and retrieve system prompts, skills, workflows, domain packs, and safety filters via MCP tools. 44 files, CC0-licensed, free."
+        surrounding_text: >-
+          - [AgentBase1/mcp-server](https://github.com/AgentBase1/mcp-server) [![mcp-server MCP
+          server](https://glama.ai/mcp/servers/AgentBase1/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/AgentBase1/mcp-server)
+          📇 ☁️ - AgentBase: open registry of agent instruction files for AI agents. Search and retrieve system prompts,
+          skills, workflows, domain packs, and safety filters via MCP tools. 44 files, CC0-licensed, free.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: AgentBase1/mcp-server
     html_url: https://github.com/AgentBase1/mcp-server
-    created_at: "2026-02-26T22:21:53Z"
-    pushed_at: "2026-03-17T11:11:40Z"
+    created_at: '2026-02-26T22:21:53Z'
+    pushed_at: '2026-03-17T11:11:40Z'
     description: AgentBase MCP server — search and retrieve agent instruction files via MCP tools
     homepage: https://agentbase-registry.vercel.app
     topics:
@@ -43,14 +47,20 @@ metadata:
       - mcp
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-09-17T04:13:31.855Z"
+    last_checked_at: '2026-09-17T04:13:31.855Z'
     readme:
-      fetched_at: "2026-09-17T04:13:31.855Z"
+      fetched_at: '2026-09-17T04:13:31.855Z'
       bytes: 2192
 insights:
-  summary: An MCP server that provides AI agents with tools to search and retrieve instruction files from the AgentBase registry.
-  why_it_matters: It allows AI agents to dynamically load domain-specific system prompts, skills, and workflows via the Model Context Protocol.
-  mental_damage: Because nothing says 'efficient development' like offloading the management of your system prompts to a registry for your agents to scrape.
+  summary: >-
+    An MCP server that provides AI agents with tools to search and retrieve instruction files from the AgentBase
+    registry.
+  why_it_matters: >-
+    It allows AI agents to dynamically load domain-specific system prompts, skills, and workflows via the Model Context
+    Protocol.
+  mental_damage: >-
+    Because nothing says 'efficient development' like offloading the management of your system prompts to a registry for
+    your agents to scrape.
   tags:
     - mcp
     - agent-instructions
@@ -67,24 +77,25 @@ curation:
     - Primary function is exposing a registry of skills/prompts as MCP tools
 placement:
   primary_category: mcp
-  section: Registries & Discovery
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.599Z"
+    updated_at: '2026-05-06T22:12:15.599Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:31.855Z"
+    updated_at: '2026-09-17T04:13:31.855Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:01:39.373Z"
+    updated_at: '2026-07-20T16:01:39.373Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -97,7 +108,9 @@ processing:
       input_hash: sha256:3a950d2309eb5b9e5d0e3bf614d2fcc342e6a3fe86625cb3cfe1bf758361d804
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's identity is explicitly an MCP server that acts as a discovery/registry layer for agent instructions.
+      decision_reason: >-
+        The product's identity is explicitly an MCP server that acts as a discovery/registry layer for agent
+        instructions.
       decision_evidence:
         - README describes it as an 'MCP server for the AgentBase agent instruction registry'
         - Provides tools like search_registry and get_file specifically via MCP
@@ -105,6 +118,8 @@ processing:
       category_candidates:
         - mcp
         - skills
-      contrastive_reason: Choose mcp over skills because the core novelty is the protocol implementation that enables discovery via MCP, rather than being the portable skill pack itself.
+      contrastive_reason: >-
+        Choose mcp over skills because the core novelty is the protocol implementation that enables discovery via MCP,
+        rather than being the portable skill pack itself.
       review_reason: null
       review_resume_lifecycle: null

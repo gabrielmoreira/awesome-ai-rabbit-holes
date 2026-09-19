@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gitmotion__ntfy-me-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: gitmotion/ntfy-me-mcp
         extracted_url: https://github.com/gitmotion/ntfy-me-mcp
-        surrounding_text: "- [gitmotion/ntfy-me-mcp](https://github.com/gitmotion/ntfy-me-mcp) 📇 ☁️ 🏠 - An ntfy MCP server for sending/fetching ntfy notifications to your self-hosted ntfy server from AI Agents 📤 (supports secure token auth & more - use with npx or docker!)"
+        surrounding_text: >-
+          - [gitmotion/ntfy-me-mcp](https://github.com/gitmotion/ntfy-me-mcp) 📇 ☁️ 🏠 - An ntfy MCP server for
+          sending/fetching ntfy notifications to your self-hosted ntfy server from AI Agents 📤 (supports secure token
+          auth & more - use with npx or docker!)
         confidence: high
     - id: discovery__github__gitmotion__ntfy-me-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +38,10 @@ provenance:
           - Community Servers
         anchor_text: Ntfy
         extracted_url: https://github.com/gitmotion/ntfy-me-mcp
-        surrounding_text: "- **[Ntfy](https://github.com/gitmotion/ntfy-me-mcp)** - An ntfy MCP server for sending/fetching ntfy notifications to your self-hosted ntfy server from AI Agents 📤 (supports secure token auth & more - use with npx or docker!)"
+        surrounding_text: >-
+          - **[Ntfy](https://github.com/gitmotion/ntfy-me-mcp)** - An ntfy MCP server for sending/fetching ntfy
+          notifications to your self-hosted ntfy server from AI Agents 📤 (supports secure token auth & more - use with
+          npx or docker!)
         confidence: high
 metadata:
   github:
@@ -45,9 +51,11 @@ metadata:
     archived: false
     full_name: gitmotion/ntfy-me-mcp
     html_url: https://github.com/gitmotion/ntfy-me-mcp
-    created_at: "2025-04-10T18:38:58Z"
-    pushed_at: "2026-04-11T22:31:28Z"
-    description: An ntfy MCP server for sending/fetching ntfy notifications to self-hosted or ANY ntfy.sh server from AI Agents 📤 (supports secure token auth & more - use with npx or docker!)
+    created_at: '2025-04-10T18:38:58Z'
+    pushed_at: '2026-04-11T22:31:28Z'
+    description: >-
+      An ntfy MCP server for sending/fetching ntfy notifications to self-hosted or ANY ntfy.sh server from AI Agents 📤
+      (supports secure token auth & more - use with npx or docker!)
     homepage: https://npmjs.com/package/ntfy-me-mcp
     topics:
       - agent
@@ -68,13 +76,15 @@ metadata:
       - ntfymcp
       - ntfysh
       - vscode
-    last_checked_at: "2026-09-03T05:16:50.399Z"
+    last_checked_at: '2026-09-03T05:16:50.399Z'
     readme:
-      fetched_at: "2026-09-03T05:16:50.399Z"
+      fetched_at: '2026-09-03T05:16:50.399Z'
       bytes: 25122
 insights:
   summary: An MCP server that enables AI agents to send and fetch notifications via ntfy.sh or self-hosted ntfy instances.
-  why_it_matters: Lets AI workflows push real-time alerts to your devices without manual monitoring, useful for long-running tasks or async agent outputs.
+  why_it_matters: >-
+    Lets AI workflows push real-time alerts to your devices without manual monitoring, useful for long-running tasks or
+    async agent outputs.
   mental_damage: Now your AI can spam your phone with notifications about its own existential dread.
   tags:
     - mcp
@@ -85,31 +95,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated ntfy MCP server, not a compatibility footnote or broader platform."
+  reason: 'MCP is the product identity: this is a dedicated ntfy MCP server, not a compatibility footnote or broader platform.'
   evidence:
     - Repo description explicitly identifies it as an ntfy MCP server
     - README emphasizes MCP server functionality with ntfy integration
     - Listed in multiple MCP server directories (awesome-mcp-servers, Glama.ai, Smithery.ai)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.586Z"
+    updated_at: '2026-05-06T22:12:15.586Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:50.399Z"
+    updated_at: '2026-09-03T05:16:50.399Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:03:13.706Z"
+    updated_at: '2026-07-21T16:03:13.706Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -122,7 +133,9 @@ processing:
       input_hash: sha256:b87d2a116b0fc38c3cf337e57f0ce992c0cfed787e2a3dcf2ee8ed5c161eaf9b
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated ntfy MCP server, not a compatibility footnote or broader platform."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated ntfy MCP server, not a compatibility footnote or broader
+        platform.
       decision_evidence:
         - Repo description explicitly identifies it as an ntfy MCP server
         - README emphasizes MCP server functionality with ntfy integration
@@ -130,6 +143,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension layer for another assistant).
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension layer for another
+        assistant).
       review_reason: null
       review_resume_lifecycle: null

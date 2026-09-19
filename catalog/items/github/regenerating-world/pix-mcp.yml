@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__regenerating-world__pix-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: Regenerating-World/pix-mcp
         extracted_url: https://github.com/regenerating-world/pix-mcp
-        surrounding_text: "- [Regenerating-World/pix-mcp](https://github.com/Regenerating-World/pix-mcp) 📇 ☁️ - Generate Pix QR codes and copy-paste strings with fallback across multiple providers (Efí, Cielo, etc.) for Brazilian instant payments."
+        surrounding_text: >-
+          - [Regenerating-World/pix-mcp](https://github.com/Regenerating-World/pix-mcp) 📇 ☁️ - Generate Pix QR codes
+          and copy-paste strings with fallback across multiple providers (Efí, Cielo, etc.) for Brazilian instant
+          payments.
         confidence: high
 metadata:
   github:
@@ -30,19 +33,25 @@ metadata:
     archived: false
     full_name: Regenerating-World/pix-mcp
     html_url: https://github.com/Regenerating-World/pix-mcp
-    created_at: "2025-07-20T12:52:25Z"
-    pushed_at: "2025-08-27T23:17:14Z"
+    created_at: '2025-07-20T12:52:25Z'
+    pushed_at: '2025-08-27T23:17:14Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:45.133Z"
+    last_checked_at: '2026-07-20T16:42:45.133Z'
     readme:
-      fetched_at: "2026-07-20T16:42:45.133Z"
+      fetched_at: '2026-07-20T16:42:45.133Z'
       bytes: 6288
 insights:
-  summary: A lightweight MCP server that exposes a tool for generating static Pix QR codes compliant with BACEN EMV 4.0 standards.
-  why_it_matters: It lets AI agents like Claude, Cursor, and Windsurf create Brazilian payment QR codes via natural-language prompts without requiring external APIs or credentials.
-  mental_damage: We have reached the stage of the AI revolution where the MCP ecosystem is so granular that there is a dedicated server for a specific country's static QR payment standard.
+  summary: >-
+    A lightweight MCP server that exposes a tool for generating static Pix QR codes compliant with BACEN EMV 4.0
+    standards.
+  why_it_matters: >-
+    It lets AI agents like Claude, Cursor, and Windsurf create Brazilian payment QR codes via natural-language prompts
+    without requiring external APIs or credentials.
+  mental_damage: >-
+    We have reached the stage of the AI revolution where the MCP ecosystem is so granular that there is a dedicated
+    server for a specific country's static QR payment standard.
   tags:
     - mcp
     - pix
@@ -52,35 +61,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is a specialized MCP server for Pix payment generation, matching the MCP Servers & Tooling category and fitting the Domain Servers section.
+  reason: >-
+    The product's identity is a specialized MCP server for Pix payment generation, matching the MCP Servers & Tooling
+    category and fitting the Domain Servers section.
   evidence:
-    - README explicitly defines it as 'A lightweight Model Context Protocol (MCP) server' with a `generateStaticPix` tool.
+    - >-
+      README explicitly defines it as 'A lightweight Model Context Protocol (MCP) server' with a `generateStaticPix`
+      tool.
     - Included in the 'awesome-mcp-servers' list under the Finance & Fintech section.
     - Provides configuration examples for Claude Desktop, Cursor, and Windsurf MCP integrations.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.645Z"
+    updated_at: '2026-05-06T22:12:15.645Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:45.133Z"
+    updated_at: '2026-07-20T16:42:45.133Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

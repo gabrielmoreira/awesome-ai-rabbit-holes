@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ivan-saorin__mcp-expr-lang__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: MCP Expr Lang
         extracted_url: https://github.com/ivan-saorin/mcp-expr-lang
-        surrounding_text: "- **[MCP Expr Lang](https://github.com/ivan-saorin/mcp-expr-lang)** - MCP Expr-Lang provides a seamless integration between Claude AI and the powerful expr-lang expression evaluation engine."
+        surrounding_text: >-
+          - **[MCP Expr Lang](https://github.com/ivan-saorin/mcp-expr-lang)** - MCP Expr-Lang provides a seamless
+          integration between Claude AI and the powerful expr-lang expression evaluation engine.
         confidence: high
 metadata:
   github:
@@ -29,19 +31,23 @@ metadata:
     archived: false
     full_name: ivan-saorin/mcp-expr-lang
     html_url: https://github.com/ivan-saorin/mcp-expr-lang
-    created_at: "2025-05-01T14:56:00Z"
-    pushed_at: "2025-05-01T23:02:10Z"
+    created_at: '2025-05-01T14:56:00Z'
+    pushed_at: '2025-05-01T23:02:10Z'
     description: MCP Server around https://expr-lang.org
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:45.908Z"
+    last_checked_at: '2026-07-30T05:05:45.908Z'
     readme:
-      fetched_at: "2026-07-30T05:05:45.908Z"
+      fetched_at: '2026-07-30T05:05:45.908Z'
       bytes: 5008
 insights:
   summary: An MCP server that integrates the expr-lang expression evaluation engine with Claude Desktop.
-  why_it_matters: Enables developers to perform complex data manipulations, calculations, and transformations directly within Claude conversations using a powerful expression language.
-  mental_damage: Now you can offload your mental math to Claude, but good luck explaining to your teammates why your PR includes a 15-line expr-lang one-liner.
+  why_it_matters: >-
+    Enables developers to perform complex data manipulations, calculations, and transformations directly within Claude
+    conversations using a powerful expression language.
+  mental_damage: >-
+    Now you can offload your mental math to Claude, but good luck explaining to your teammates why your PR includes a
+    15-line expr-lang one-liner.
   tags:
     - mcp
     - expression-evaluation
@@ -50,31 +56,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the product identity here, as it is a dedicated server wrapping expr-lang for MCP-compatible clients like Claude Desktop.
+  reason: >-
+    MCP is the product identity here, as it is a dedicated server wrapping expr-lang for MCP-compatible clients like
+    Claude Desktop.
   evidence:
     - Repo description explicitly states it is an MCP Server around expr-lang.org
     - README confirms it is a tool for Claude Desktop using MCP
     - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.621Z"
+    updated_at: '2026-05-06T22:12:15.621Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:45.908Z"
+    updated_at: '2026-07-30T05:05:45.908Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:09:12.331Z"
+    updated_at: '2026-07-21T16:09:12.331Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,7 +96,9 @@ processing:
       input_hash: sha256:0c47778e0009af22ef8e75f974ef0d3da805fa67c350720ce0e377d57d895e46
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the product identity here, as it is a dedicated server wrapping expr-lang for MCP-compatible clients like Claude Desktop.
+      decision_reason: >-
+        MCP is the product identity here, as it is a dedicated server wrapping expr-lang for MCP-compatible clients like
+        Claude Desktop.
       decision_evidence:
         - Repo description explicitly states it is an MCP Server around expr-lang.org
         - README confirms it is a tool for Claude Desktop using MCP
@@ -95,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary identity is an MCP server, not an extension layer for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary identity is an MCP server, not an extension layer for
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

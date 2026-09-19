@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__moltis-org__moltis__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - OpenClaw ecosystem
         anchor_text: Moltis
         extracted_url: https://github.com/moltis-org/moltis
-        surrounding_text: "- **[Moltis](https://github.com/moltis-org/moltis)** `⭐ 2.6k` — Secure, auditable Rust-native alternative to OpenClaw; zero unsafe code, 2,300+ tests, built-in voice I/O, MCP servers, and multi-channel access. MIT."
+        surrounding_text: >-
+          - **[Moltis](https://github.com/moltis-org/moltis)** `⭐ 2.6k` — Secure, auditable Rust-native alternative to
+          OpenClaw; zero unsafe code, 2,300+ tests, built-in voice I/O, MCP servers, and multi-channel access. MIT.
         confidence: high
 metadata:
   github:
@@ -30,9 +32,11 @@ metadata:
     archived: false
     full_name: moltis-org/moltis
     html_url: https://github.com/moltis-org/moltis
-    created_at: "2026-01-29T19:36:31Z"
-    pushed_at: "2026-08-03T03:29:31Z"
-    description: A secure persistent personal agent server in Rust. One binary, sandboxed execution, multi-provider LLMs, voice, memory, Telegram, WhatsApp, Discord, Teams, and MCP tools. Secure by design, runs on your hardware.
+    created_at: '2026-01-29T19:36:31Z'
+    pushed_at: '2026-08-03T03:29:31Z'
+    description: >-
+      A secure persistent personal agent server in Rust. One binary, sandboxed execution, multi-provider LLMs, voice,
+      memory, Telegram, WhatsApp, Discord, Teams, and MCP tools. Secure by design, runs on your hardware.
     homepage: https://moltis.org
     topics:
       - ai-agent
@@ -47,14 +51,20 @@ metadata:
       - single-binary
       - telegram-bot
       - voice-assistant
-    last_checked_at: "2026-08-03T05:17:06.899Z"
+    last_checked_at: '2026-08-03T05:17:06.899Z'
     readme:
-      fetched_at: "2026-08-03T05:17:06.899Z"
+      fetched_at: '2026-08-03T05:17:06.899Z'
       bytes: 14401
 insights:
-  summary: A secure, persistent personal agent server written in Rust that runs as a single binary with sandboxed execution, multi-provider LLM support, voice capabilities, memory, messaging integrations, and MCP tooling.
-  why_it_matters: Developers can run a self-contained, auditable AI agent on their own hardware with built-in memory, sandboxing, and messaging integrations without relying on Node.js or complex plugin ecosystems.
-  mental_damage: Yet another personal agent runtime promising you'll finally self-host your way out of context-window anxiety, this time in Rust, because apparently the 47th agent server was missing memory and a Telegram bridge.
+  summary: >-
+    A secure, persistent personal agent server written in Rust that runs as a single binary with sandboxed execution,
+    multi-provider LLM support, voice capabilities, memory, messaging integrations, and MCP tooling.
+  why_it_matters: >-
+    Developers can run a self-contained, auditable AI agent on their own hardware with built-in memory, sandboxing, and
+    messaging integrations without relying on Node.js or complex plugin ecosystems.
+  mental_damage: >-
+    Yet another personal agent runtime promising you'll finally self-host your way out of context-window anxiety, this
+    time in Rust, because apparently the 47th agent server was missing memory and a Telegram bridge.
   tags:
     - rust
     - self-hosted
@@ -64,35 +74,44 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Moltis is a standalone, developer-facing coding and personal agent that runs locally, edits files, and executes tasks, fitting the primary coding assistant profile rather than being an extension or integration layer.
+  reason: >-
+    Moltis is a standalone, developer-facing coding and personal agent that runs locally, edits files, and executes
+    tasks, fitting the primary coding assistant profile rather than being an extension or integration layer.
   evidence:
-    - Repo description explicitly calls it a 'secure persistent personal agent server' with multi-provider LLMs, memory, and MCP tools.
-    - README highlights sandbox execution, automatic edit checkpoints, project context, and multi-provider LLM support as core capabilities.
-    - Included in awesome-cli-coding-agents under 'Terminal-native coding agents > OpenClaw ecosystem', reinforcing its identity as a CLI agent.
+    - >-
+      Repo description explicitly calls it a 'secure persistent personal agent server' with multi-provider LLMs, memory,
+      and MCP tools.
+    - >-
+      README highlights sandbox execution, automatic edit checkpoints, project context, and multi-provider LLM support
+      as core capabilities.
+    - >-
+      Included in awesome-cli-coding-agents under 'Terminal-native coding agents > OpenClaw ecosystem', reinforcing its
+      identity as a CLI agent.
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (2657) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.631Z"
+    updated_at: '2026-05-06T22:12:15.631Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:06.899Z"
+    updated_at: '2026-08-03T05:17:06.899Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

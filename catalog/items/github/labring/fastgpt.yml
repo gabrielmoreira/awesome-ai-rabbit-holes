@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__labring__fastgpt__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,10 @@ provenance:
           - 知识库 RAG
         anchor_text: FastGPT
         extracted_url: https://github.com/labring/fastgpt
-        surrounding_text: "5. [FastGPT](https://github.com/labring/FastGPT): A knowledge-based platform built on the LLM, offers out-of-the-box data processing and model invocation capabilities, allows for workflow orchestration through Flow visualization."
+        surrounding_text: >-
+          5. [FastGPT](https://github.com/labring/FastGPT): A knowledge-based platform built on the LLM, offers
+          out-of-the-box data processing and model invocation capabilities, allows for workflow orchestration through
+          Flow visualization.
         confidence: high
 metadata:
   github:
@@ -29,9 +32,12 @@ metadata:
     archived: false
     full_name: labring/FastGPT
     html_url: https://github.com/labring/FastGPT
-    created_at: "2023-02-23T16:53:25Z"
-    pushed_at: "2026-07-30T04:04:28Z"
-    description: FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.
+    created_at: '2023-02-23T16:53:25Z'
+    pushed_at: '2026-07-30T04:04:28Z'
+    description: >-
+      FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box
+      capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily
+      develop and deploy complex question-answering systems without the need for extensive setup or configuration.
     homepage: https://fastgpt.io
     topics:
       - agent
@@ -44,13 +50,17 @@ metadata:
       - qwen
       - rag
       - workflow
-    last_checked_at: "2026-07-30T05:06:02.309Z"
+    last_checked_at: '2026-07-30T05:06:02.309Z'
     readme:
-      fetched_at: "2026-07-30T05:06:02.309Z"
+      fetched_at: '2026-07-30T05:06:02.309Z'
       bytes: 9038
 insights:
-  summary: FastGPT is a knowledge-based AI agent platform for building and deploying complex Q&A systems with visual workflow orchestration, RAG retrieval, and data processing.
-  why_it_matters: It lets developers create and deploy AI workflows with minimal setup, combining RAG, agent orchestration, and MCP support in a single platform.
+  summary: >-
+    FastGPT is a knowledge-based AI agent platform for building and deploying complex Q&A systems with visual workflow
+    orchestration, RAG retrieval, and data processing.
+  why_it_matters: >-
+    It lets developers create and deploy AI workflows with minimal setup, combining RAG, agent orchestration, and MCP
+    support in a single platform.
   mental_damage: Finally, a platform that lets you build AI agents faster than you can explain to your manager why you need it.
   tags:
     - agent-orchestration
@@ -61,31 +71,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: FastGPT is primarily a workbench for orchestrating AI workflows, agents, and RAG pipelines, fitting the agent orchestration category.
+  reason: >-
+    FastGPT is primarily a workbench for orchestrating AI workflows, agents, and RAG pipelines, fitting the agent
+    orchestration category.
   evidence:
-    - "Repo description: 'knowledge-based platform built on LLMs with RAG retrieval and visual AI workflow orchestration'"
-    - "README: 'AI Agent construction platform with flow visualization for complex application scenarios'"
+    - 'Repo description: ''knowledge-based platform built on LLMs with RAG retrieval and visual AI workflow orchestration'''
+    - 'README: ''AI Agent construction platform with flow visualization for complex application scenarios'''
     - Features include agent mode planning, workflow orchestration, and MCP support
 placement:
   primary_category: agent-orchestration
-  section: Workbenches & Collaboration Surfaces
+  secondary_categories: []
+  section: Visual Builders & Workbenches
 lifecycle:
   status: promotion_candidate
   reason: Stars (27915) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.626Z"
+    updated_at: '2026-05-06T22:12:15.626Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:02.309Z"
+    updated_at: '2026-07-30T05:06:02.309Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:14:40.805Z"
+    updated_at: '2026-07-21T16:14:40.805Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -98,14 +111,20 @@ processing:
       input_hash: sha256:29fa2efda71c657142f0bd521dd80558e52b1c27adeacf4f0686fcc1426b427b
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: FastGPT is primarily a workbench for orchestrating AI workflows, agents, and RAG pipelines, fitting the agent orchestration category.
+      decision_reason: >-
+        FastGPT is primarily a workbench for orchestrating AI workflows, agents, and RAG pipelines, fitting the agent
+        orchestration category.
       decision_evidence:
-        - "Repo description: 'knowledge-based platform built on LLMs with RAG retrieval and visual AI workflow orchestration'"
-        - "README: 'AI Agent construction platform with flow visualization for complex application scenarios'"
+        - >-
+          Repo description: 'knowledge-based platform built on LLMs with RAG retrieval and visual AI workflow
+          orchestration'
+        - 'README: ''AI Agent construction platform with flow visualization for complex application scenarios'''
         - Features include agent mode planning, workflow orchestration, and MCP support
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because the primary product is an operated workbench for coordinating agents and workflows, not a code-first library.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because the primary product is an operated workbench for
+        coordinating agents and workflows, not a code-first library.
       review_reason: null
       review_resume_lifecycle: null

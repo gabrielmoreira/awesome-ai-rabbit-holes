@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mcp__apify__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,10 @@ provenance:
           - Official Servers
         anchor_text: Actors MCP Server
         extracted_url: https://apify.com/apify/actors-mcp-server
-        surrounding_text: "- **[Apify](https://github.com/apify/actors-mcp-server)** - [Actors MCP Server](https://apify.com/apify/actors-mcp-server): Use 3,000+ pre-built cloud tools to extract data from websites, e-commerce, social media, search engines, maps, and more"
+        surrounding_text: >-
+          - **[Apify](https://github.com/apify/actors-mcp-server)** - [Actors MCP
+          Server](https://apify.com/apify/actors-mcp-server): Use 3,000+ pre-built cloud tools to extract data from
+          websites, e-commerce, social media, search engines, maps, and more
         confidence: high
 metadata:
   github:
@@ -37,7 +40,9 @@ metadata:
     readme: null
 insights:
   summary: An MCP server that connects AI agents like Claude and Cursor to Apify's web scraping and automation tools.
-  why_it_matters: Developers can integrate Apify's scraping and automation capabilities directly into their AI agent workflows via MCP.
+  why_it_matters: >-
+    Developers can integrate Apify's scraping and automation capabilities directly into their AI agent workflows via
+    MCP.
   mental_damage: Now your AI agent can spin up a thousand scrapers while you question your life choices.
   tags:
     - mcp
@@ -48,21 +53,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server providing domain-specific (Apify) tooling, making it a clear fit for MCP Servers & Tooling.
+  reason: >-
+    This is an MCP-first server providing domain-specific (Apify) tooling, making it a clear fit for MCP Servers &
+    Tooling.
   evidence:
     - Described as an MCP server for Apify in the scraped site context
     - Listed in awesome-mcp-servers under Official Servers
     - Core function is connecting AI agents to Apify's tools via MCP
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +79,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:29:36.546Z"
+    updated_at: '2026-07-21T15:29:36.546Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +92,9 @@ processing:
       input_hash: sha256:20196ddda1f7afe30e6da7bcd3211316769a6ff65890d8c4638d94753efea057
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server providing domain-specific (Apify) tooling, making it a clear fit for MCP Servers & Tooling.
+      decision_reason: >-
+        This is an MCP-first server providing domain-specific (Apify) tooling, making it a clear fit for MCP Servers &
+        Tooling.
       decision_evidence:
         - Described as an MCP server for Apify in the scraped site context
         - Listed in awesome-mcp-servers under Official Servers
@@ -92,6 +102,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is an MCP server, not merely an extension for
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

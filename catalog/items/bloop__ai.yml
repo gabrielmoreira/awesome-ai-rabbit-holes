@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__bloop__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Bloop
         anchor_text: Bloop
         extracted_url: https://bloop.ai
-        surrounding_text: "## [Bloop](https://bloop.ai/)"
+        surrounding_text: '## [Bloop](https://bloop.ai/)'
         confidence: high
 metadata:
   github:
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: A platform for planning, orchestrating, and reviewing the work of autonomous AI agents.
-  why_it_matters: It aims to transition AI usage from simple autocomplete to long-running, managed agentic workflows that function like an automated engineering manager.
-  mental_damage: Finally, a tool to manage the infinite loop of agents planning, executing, and then needing more agents to review them.
+  why_it_matters: >-
+    It aims to transition AI usage from simple autocomplete to long-running, managed agentic workflows that function
+    like an automated engineering manager.
+  mental_damage: >-
+    Finally, a tool to manage the infinite loop of agents planning, executing, and then needing more agents to review
+    them.
   tags:
     - agent-orchestration
     - multi-agent
@@ -47,21 +51,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly described as infrastructure for planning and orchestrating autonomous agents rather than a single coding assistant.
+  reason: >-
+    The product is explicitly described as infrastructure for planning and orchestrating autonomous agents rather than a
+    single coding assistant.
   evidence:
     - Claims to build tools to plan, orchestrate and review autonomous AI agents
     - Focuses on long-running tasks and workflow orchestration
     - Identifies as infrastructure to multiply engineering output
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Hosted Agent Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:27:14.231Z"
+    updated_at: '2026-07-20T15:27:14.231Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -83,7 +90,9 @@ processing:
       input_hash: sha256:fa7eef9196165c9a1556ce3654b1b125e70d3deeb6e34246d7a4da04aa09a1aa
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The product is explicitly described as infrastructure for planning and orchestrating autonomous agents rather than a single coding assistant.
+      decision_reason: >-
+        The product is explicitly described as infrastructure for planning and orchestrating autonomous agents rather
+        than a single coding assistant.
       decision_evidence:
         - Claims to build tools to plan, orchestrate and review autonomous AI agents
         - Focuses on long-running tasks and workflow orchestration
@@ -91,6 +100,8 @@ processing:
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because the core value proposition is the orchestration and management of autonomous agents rather than acting as a standalone coding assistant.
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because the core value proposition is the orchestration and
+        management of autonomous agents rather than acting as a standalone coding assistant.
       review_reason: null
       review_resume_lifecycle: null

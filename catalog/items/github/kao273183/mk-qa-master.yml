@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kao273183__mk-qa-master__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,15 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: kao273183/mk-qa-master
         extracted_url: https://github.com/kao273183/mk-qa-master
-        surrounding_text: "- [kao273183/mk-qa-master](https://github.com/kao273183/mk-qa-master) [![kao273183/mk-qa-master MCP server](https://glama.ai/mcp/servers/kao273183/mk-qa-master/badges/score.svg)](https://glama.ai/mcp/servers/kao273183/mk-qa-master) 🐍 🏠 🍎 🪟 🐧 - AI 測試大師 — end-to-end QA loop over MCP. Drives pytest / Jest / Cypress / Go / Maestro from one surface; analyzes URLs (Web DOM) or live mobile screens (`maestro hierarchy`) to extract testable modules, generates runnable pytest or Maestro YAML with real selectors (not `# TODO` stubs), runs with auto-retry, then writes a prioritized `optimization-plan.md` ranked by evidence (flaky vs broken vs coverage gap). Mobile-first: iOS Simulator, Android Emulator, real devices, and BlueStacks (`QA_ANDROID_HOST=127.0.0.1:5555`). Install via `uvx mk-qa-master`."
+        surrounding_text: >-
+          - [kao273183/mk-qa-master](https://github.com/kao273183/mk-qa-master) [![kao273183/mk-qa-master MCP
+          server](https://glama.ai/mcp/servers/kao273183/mk-qa-master/badges/score.svg)](https://glama.ai/mcp/servers/kao273183/mk-qa-master)
+          🐍 🏠 🍎 🪟 🐧 - AI 測試大師 — end-to-end QA loop over MCP. Drives pytest / Jest / Cypress / Go / Maestro from one
+          surface; analyzes URLs (Web DOM) or live mobile screens (`maestro hierarchy`) to extract testable modules,
+          generates runnable pytest or Maestro YAML with real selectors (not `# TODO` stubs), runs with auto-retry, then
+          writes a prioritized `optimization-plan.md` ranked by evidence (flaky vs broken vs coverage gap).
+          Mobile-first: iOS Simulator, Android Emulator, real devices, and BlueStacks
+          (`QA_ANDROID_HOST=127.0.0.1:5555`). Install via `uvx mk-qa-master`.
         confidence: high
 metadata:
   github:
@@ -30,9 +38,11 @@ metadata:
     archived: false
     full_name: kao273183/mk-qa-master
     html_url: https://github.com/kao273183/mk-qa-master
-    created_at: "2026-05-11T06:11:39Z"
-    pushed_at: "2026-06-04T01:40:14Z"
-    description: AI 測試大師 — MCP server driving pytest / Jest / Cypress / Go / Maestro. Analyze, generate, run, advise. Web + Mobile (iOS/Android/BlueStacks).
+    created_at: '2026-05-11T06:11:39Z'
+    pushed_at: '2026-06-04T01:40:14Z'
+    description: >-
+      AI 測試大師 — MCP server driving pytest / Jest / Cypress / Go / Maestro. Analyze, generate, run, advise. Web + Mobile
+      (iOS/Android/BlueStacks).
     homepage: https://mcp.chenjundigital.com
     topics:
       - maestro
@@ -45,14 +55,20 @@ metadata:
       - qa
       - test-automation
       - testing
-    last_checked_at: "2026-07-30T05:05:54.572Z"
+    last_checked_at: '2026-07-30T05:05:54.572Z'
     readme:
-      fetched_at: "2026-07-30T05:05:54.572Z"
+      fetched_at: '2026-07-30T05:05:54.572Z'
       bytes: 61877
 insights:
-  summary: An MCP server that enables AI assistants to execute, analyze, and generate tests for web, mobile, and API frameworks.
-  why_it_matters: It bridges the gap between LLM reasoning and test execution, allowing agents to autonomously run suites, inspect failures via screenshots/traces, and propose fixes.
-  mental_damage: Allowing your AI assistant to participate in the ritual of debugging broken Playwright selectors and flaky mobile emulators.
+  summary: >-
+    An MCP server that enables AI assistants to execute, analyze, and generate tests for web, mobile, and API
+    frameworks.
+  why_it_matters: >-
+    It bridges the gap between LLM reasoning and test execution, allowing agents to autonomously run suites, inspect
+    failures via screenshots/traces, and propose fixes.
+  mental_damage: >-
+    Allowing your AI assistant to participate in the ritual of debugging broken Playwright selectors and flaky mobile
+    emulators.
   tags:
     - mcp
     - qa
@@ -62,31 +78,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly defined as an MCP server that provides a specialized domain of testing and QA tools to an MCP-compliant host.
+  reason: >-
+    The project is explicitly defined as an MCP server that provides a specialized domain of testing and QA tools to an
+    MCP-compliant host.
   evidence:
     - Described as a 'Universal MCP server' for driving pytest, Jest, Cypress, Go, and Maestro
     - Provides specialized domain capabilities including DOM analysis, mobile screen analysis, and smart test generation
     - Designed specifically to be used via MCP clients like Claude Desktop or Cursor
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.819Z"
+    updated_at: '2026-05-28T05:28:09.819Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:54.572Z"
+    updated_at: '2026-07-30T05:05:54.572Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-02T05:27:44.938Z"
+    updated_at: '2026-07-02T05:27:44.938Z'
     cause: null
     next_retry_at: null
     attempts: 1

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gregario__godot-forge__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: gregario/godot-forge
         extracted_url: https://github.com/gregario/godot-forge
-        surrounding_text: "- [gregario/godot-forge](https://github.com/gregario/godot-forge) [![godot-forge MCP server](https://glama.ai/mcp/servers/gregario/godot-forge/badges/score.svg)](https://glama.ai/mcp/servers/gregario/godot-forge) 📇 🏠 🍎 🪟 🐧 - Godot 4 development companion with test running (GUT/GdUnit4), API docs with 3→4 migration mapping, script analysis, scene parsing, screenshots, and LSP diagnostics."
+        surrounding_text: >-
+          - [gregario/godot-forge](https://github.com/gregario/godot-forge) [![godot-forge MCP
+          server](https://glama.ai/mcp/servers/gregario/godot-forge/badges/score.svg)](https://glama.ai/mcp/servers/gregario/godot-forge)
+          📇 🏠 🍎 🪟 🐧 - Godot 4 development companion with test running (GUT/GdUnit4), API docs with 3→4 migration
+          mapping, script analysis, scene parsing, screenshots, and LSP diagnostics.
         confidence: high
 metadata:
   github:
@@ -30,18 +34,22 @@ metadata:
     archived: false
     full_name: gregario/godot-forge
     html_url: https://github.com/gregario/godot-forge
-    created_at: "2026-03-13T15:09:09Z"
-    pushed_at: "2026-04-26T12:49:02Z"
+    created_at: '2026-03-13T15:09:09Z'
+    pushed_at: '2026-04-26T12:49:02Z'
     description: The MCP server for Godot 4 — test runner, API docs, script analysis, and more.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:54.372Z"
+    last_checked_at: '2026-09-03T05:16:54.372Z'
     readme:
-      fetched_at: "2026-09-03T05:16:54.372Z"
+      fetched_at: '2026-09-03T05:16:54.372Z'
       bytes: 8931
 insights:
-  summary: An MCP server for Godot 4 that provides test running, API docs search, script analysis, and other Godot-specific tools.
-  why_it_matters: It addresses AI coding assistants' struggles with GDScript by offering Godot 4-specific context, diagnostics, and testing tools directly in MCP-compatible IDEs.
+  summary: >-
+    An MCP server for Godot 4 that provides test running, API docs search, script analysis, and other Godot-specific
+    tools.
+  why_it_matters: >-
+    It addresses AI coding assistants' struggles with GDScript by offering Godot 4-specific context, diagnostics, and
+    testing tools directly in MCP-compatible IDEs.
   mental_damage: Finally, a way to stop your AI from hallucinating Godot 3 APIs in 2026.
   tags:
     - godot
@@ -52,31 +60,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: it is explicitly an MCP server for Godot 4, providing domain-specific tools for the Godot ecosystem."
+  reason: >-
+    MCP is the product identity here: it is explicitly an MCP server for Godot 4, providing domain-specific tools for
+    the Godot ecosystem.
   evidence:
     - Repo description explicitly states it is 'The MCP server for Godot 4'
     - README highlights MCP compatibility and provides IDE integration snippets for MCP clients
     - Core functionality is delivered as MCP tools (test runner, API docs, script analysis, etc.)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.617Z"
+    updated_at: '2026-05-06T22:12:15.617Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:54.372Z"
+    updated_at: '2026-09-03T05:16:54.372Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:04:19.372Z"
+    updated_at: '2026-07-21T16:04:19.372Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +100,9 @@ processing:
       input_hash: sha256:87555a1e2d20ad400b4a16f21d0b561be3e5af2f329315ca80a13138d1a62e5f
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: it is explicitly an MCP server for Godot 4, providing domain-specific tools for the Godot ecosystem."
+      decision_reason: >-
+        MCP is the product identity here: it is explicitly an MCP server for Godot 4, providing domain-specific tools
+        for the Godot ecosystem.
       decision_evidence:
         - Repo description explicitly states it is 'The MCP server for Godot 4'
         - README highlights MCP compatibility and provides IDE integration snippets for MCP clients
@@ -97,6 +110,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aimhubio__aim__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - Experiment Tracking
         anchor_text: Aim
         extracted_url: https://github.com/aimhubio/aim
-        surrounding_text: "| [Aim](https://github.com/aimhubio/aim)                 | an easy-to-use and performant open-source experiment tracker.                                                                                                                                                                                                                                                                                                                                                                                                             | ![GitHub Badge](https://img.shields.io/github/stars/aimhubio/aim.svg?style=flat-square)            |"
+        surrounding_text: >-
+          | [Aim](https://github.com/aimhubio/aim)                 | an easy-to-use and performant open-source
+          experiment
+          tracker.                                                                                                                                                                                                                                                                                                                                                                                                            
+          | ![GitHub Badge](https://img.shields.io/github/stars/aimhubio/aim.svg?style=flat-square)            |
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: aimhubio/aim
     html_url: https://github.com/aimhubio/aim
-    created_at: "2019-05-31T18:25:07Z"
-    pushed_at: "2026-09-16T22:30:05Z"
+    created_at: '2019-05-31T18:25:07Z'
+    pushed_at: '2026-09-16T22:30:05Z'
     description: Aim 💫 — An easy-to-use & supercharged open-source experiment tracker.
     homepage: https://aimstack.io
     topics:
@@ -51,14 +55,18 @@ metadata:
       - tensorboard
       - tensorflow
       - visualization
-    last_checked_at: "2026-09-17T04:13:36.475Z"
+    last_checked_at: '2026-09-17T04:13:36.475Z'
     readme:
-      fetched_at: "2026-09-17T04:13:36.475Z"
+      fetched_at: '2026-09-17T04:13:36.475Z'
       bytes: 34221
 insights:
   summary: An open-source experiment tracker for logging training runs and AI metadata with a visual UI and programmatic API.
-  why_it_matters: It provides a structured way to observe, compare, and query machine learning experiments and metadata to improve model development workflows.
-  mental_damage: Nothing quite prepares you for the existential dread of watching a perfect hyperparameter curve crash during a live visualization.
+  why_it_matters: >-
+    It provides a structured way to observe, compare, and query machine learning experiments and metadata to improve
+    model development workflows.
+  mental_damage: >-
+    Nothing quite prepares you for the existential dread of watching a perfect hyperparameter curve crash during a live
+    visualization.
   tags:
     - experiment-tracking
     - mlops
@@ -68,31 +76,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: While it focuses on training, its core utility for developers is the observation, tracing, and comparison of model behavior and experiment results.
+  reason: >-
+    While it focuses on training, its core utility for developers is the observation, tracing, and comparison of model
+    behavior and experiment results.
   evidence:
     - README describes it as an experiment tracker to 'compare and observe' training runs
     - Src-list context places it in 'Training > Experiment Tracking'
     - High star count (6199) and active development (pushed 2026)
 placement:
   primary_category: evals
-  section: Observability / Tracing / EvalOps
+  secondary_categories: []
+  section: Observability & Tracing
 lifecycle:
   status: promotion_candidate
   reason: Stars (6109) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.600Z"
+    updated_at: '2026-05-06T22:12:15.600Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:36.475Z"
+    updated_at: '2026-09-17T04:13:36.475Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:10:28.236Z"
+    updated_at: '2026-07-20T16:10:28.236Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -105,7 +116,9 @@ processing:
       input_hash: sha256:93f55d8dc21bf136dcd8edb301b56d12c4bd41266f4de510869e587166599950
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: While it focuses on training, its core utility for developers is the observation, tracing, and comparison of model behavior and experiment results.
+      decision_reason: >-
+        While it focuses on training, its core utility for developers is the observation, tracing, and comparison of
+        model behavior and experiment results.
       decision_evidence:
         - README describes it as an experiment tracker to 'compare and observe' training runs
         - Src-list context places it in 'Training > Experiment Tracking'
@@ -113,6 +126,8 @@ processing:
       category_candidates:
         - evals
         - ai-frameworks
-      contrastive_reason: Choose evals over ai-frameworks because the primary developer value is the observability and comparison of model behavior through its UI and API rather than being a code-first SDK for building models.
+      contrastive_reason: >-
+        Choose evals over ai-frameworks because the primary developer value is the observability and comparison of model
+        behavior through its UI and API rather than being a code-first SDK for building models.
       review_reason: null
       review_resume_lifecycle: null

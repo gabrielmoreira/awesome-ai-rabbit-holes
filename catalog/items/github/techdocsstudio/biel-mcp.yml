@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__techdocsstudio__biel-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: TechDocsStudio/biel-mcp
         extracted_url: https://github.com/techdocsstudio/biel-mcp
-        surrounding_text: "- [TechDocsStudio/biel-mcp](https://github.com/TechDocsStudio/biel-mcp) 📇 ☁️ - Let AI tools like Cursor, VS Code, or Claude Desktop answer questions using your product docs. Biel.ai provides the RAG system and MCP server."
+        surrounding_text: >-
+          - [TechDocsStudio/biel-mcp](https://github.com/TechDocsStudio/biel-mcp) 📇 ☁️ - Let AI tools like Cursor, VS
+          Code, or Claude Desktop answer questions using your product docs. Biel.ai provides the RAG system and MCP
+          server.
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: TechDocsStudio/biel-mcp
     html_url: https://github.com/TechDocsStudio/biel-mcp
-    created_at: "2025-06-20T16:06:55Z"
-    pushed_at: "2026-07-18T10:37:58Z"
+    created_at: '2025-06-20T16:06:55Z'
+    pushed_at: '2026-07-18T10:37:58Z'
     description: Connect AI tools like Cursor, VS Code, and Claude to your product docs.
     homepage: https://docs.biel.ai/integrations/mcp-server
     topics:
@@ -45,14 +48,20 @@ metadata:
       - rag
       - rag-as-a-service
       - sphinx
-    last_checked_at: "2026-07-21T15:20:41.750Z"
+    last_checked_at: '2026-07-21T15:20:41.750Z'
     readme:
-      fetched_at: "2026-07-21T15:20:41.750Z"
+      fetched_at: '2026-07-21T15:20:41.750Z'
       bytes: 2709
 insights:
-  summary: An MCP server that connects AI coding tools like Cursor, VS Code, and Claude Desktop to a Biel.ai-hosted RAG layer of product documentation.
-  why_it_matters: It allows coding assistants to query live product docs for accurate code completions and technical answers instead of hallucinating API details.
-  mental_damage: Yet another clever bridge ensuring your AI can now hallucinate from your official documentation in real time, with enterprise pricing.
+  summary: >-
+    An MCP server that connects AI coding tools like Cursor, VS Code, and Claude Desktop to a Biel.ai-hosted RAG layer
+    of product documentation.
+  why_it_matters: >-
+    It allows coding assistants to query live product docs for accurate code completions and technical answers instead
+    of hallucinating API details.
+  mental_damage: >-
+    Yet another clever bridge ensuring your AI can now hallucinate from your official documentation in real time, with
+    enterprise pricing.
   tags:
     - mcp
     - rag
@@ -61,35 +70,37 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server designed to give AI tools access to documentation via the Model Context Protocol, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product is explicitly an MCP server designed to give AI tools access to documentation via the Model Context
+    Protocol, fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description states: 'Connect AI tools like Cursor, VS Code, and Claude to your product docs.'"
+    - 'Repo description states: ''Connect AI tools like Cursor, VS Code, and Claude to your product docs.'''
     - README identifies it as 'Biel.ai MCP Server' with MCP configuration JSON for Cursor, Claude Desktop, and VS Code.
     - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.650Z"
+    updated_at: '2026-05-06T22:12:15.650Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:41.750Z"
+    updated_at: '2026-07-21T15:20:41.750Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

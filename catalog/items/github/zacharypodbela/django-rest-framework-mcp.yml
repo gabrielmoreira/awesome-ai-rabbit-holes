@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__zacharypodbela__django-rest-framework-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Django REST Framework MCP
         extracted_url: https://github.com/zacharypodbela/djangorestframework-mcp
-        surrounding_text: "- **[Django REST Framework MCP](https://github.com/zacharypodbela/djangorestframework-mcp)** - Expose Django REST Framework APIs as MCP tools for LLMs and agentic applications"
+        surrounding_text: >-
+          - **[Django REST Framework MCP](https://github.com/zacharypodbela/djangorestframework-mcp)** - Expose Django
+          REST Framework APIs as MCP tools for LLMs and agentic applications
         confidence: high
 metadata:
   github:
@@ -29,19 +31,23 @@ metadata:
     archived: false
     full_name: zacharypodbela/django-rest-framework-mcp
     html_url: https://github.com/zacharypodbela/django-rest-framework-mcp
-    created_at: "2025-08-09T18:25:23Z"
-    pushed_at: "2025-11-25T21:25:20Z"
-    description: Quickly build MCP servers that expose your Django Rest Framework APIs as tools for LLMs and agentic applications to work with
+    created_at: '2025-08-09T18:25:23Z'
+    pushed_at: '2025-11-25T21:25:20Z'
+    description: >-
+      Quickly build MCP servers that expose your Django Rest Framework APIs as tools for LLMs and agentic applications
+      to work with
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:21:24.132Z"
+    last_checked_at: '2026-07-21T15:21:24.132Z'
     readme:
-      fetched_at: "2026-07-21T15:21:24.132Z"
+      fetched_at: '2026-07-21T15:21:24.132Z'
       bytes: 25347
 insights:
   summary: A Django app that exposes Django Rest Framework ViewSets as MCP tools via a decorator.
   why_it_matters: Lets developers turn existing DRF APIs into LLM-agent-accessible MCP tools without rewriting endpoints.
-  mental_damage: Finally, a way to make your CRUD API feel like a magic spellbook for LLMs to deactivate user accounts with English sentences.
+  mental_damage: >-
+    Finally, a way to make your CRUD API feel like a magic spellbook for LLMs to deactivate user accounts with English
+    sentences.
   tags:
     - django
     - mcp
@@ -50,31 +56,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server that exposes DRF APIs as MCP tools, making it MCP infrastructure first and a Django extension second.
+  reason: >-
+    The product's core identity is an MCP server that exposes DRF APIs as MCP tools, making it MCP infrastructure first
+    and a Django extension second.
   evidence:
-    - "Repo description: 'Quickly build MCP servers that expose your Django Rest Framework APIs as tools for LLMs'"
-    - "README: '@mcp_viewset decorator exposes ViewSet methods as MCP tools' and 'Connect any MCP client to http://localhost:8000/mcp/'"
+    - 'Repo description: ''Quickly build MCP servers that expose your Django Rest Framework APIs as tools for LLMs'''
+    - >-
+      README: '@mcp_viewset decorator exposes ViewSet methods as MCP tools' and 'Connect any MCP client to
+      http://localhost:8000/mcp/'
     - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.657Z"
+    updated_at: '2026-05-06T22:12:15.657Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:24.132Z"
+    updated_at: '2026-07-21T15:21:24.132Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:49:05.237Z"
+    updated_at: '2026-05-12T15:49:05.237Z'
     cause: null
     next_retry_at: null
     attempts: 1

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kelvins__awesome-mlops__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,12 @@ provenance:
           - Awesome Lists
         anchor_text: kelvins/awesome-mlops
         extracted_url: https://github.com/kelvins/awesome-mlops
-        surrounding_text: "| [kelvins/awesome-mlops](https://github.com/kelvins/awesome-mlops)                                       | A curated list of awesome MLOps tools.                                                                                            | ![GitHub Badge](https://img.shields.io/github/stars/kelvins/awesome-mlops.svg?style=flat-square)                         |"
+        surrounding_text: >-
+          | [kelvins/awesome-mlops](https://github.com/kelvins/awesome-mlops)                                       | A
+          curated list of awesome MLOps
+          tools.                                                                                            | ![GitHub
+          Badge](https://img.shields.io/github/stars/kelvins/awesome-mlops.svg?style=flat-square)                        
+          |
         confidence: high
 metadata:
   github:
@@ -29,10 +34,10 @@ metadata:
     archived: false
     full_name: kelvins/awesome-mlops
     html_url: https://github.com/kelvins/awesome-mlops
-    created_at: "2020-05-25T22:53:26Z"
-    pushed_at: "2026-04-29T15:00:57Z"
-    description: ":sunglasses: A curated list of awesome MLOps tools"
-    homepage: ""
+    created_at: '2020-05-25T22:53:26Z'
+    pushed_at: '2026-04-29T15:00:57Z'
+    description: ':sunglasses: A curated list of awesome MLOps tools'
+    homepage: ''
     topics:
       - ai
       - awesome
@@ -42,14 +47,18 @@ metadata:
       - ml
       - mle
       - mlops
-    last_checked_at: "2026-07-30T05:05:55.478Z"
+    last_checked_at: '2026-07-30T05:05:55.478Z'
     readme:
-      fetched_at: "2026-07-30T05:05:55.478Z"
+      fetched_at: '2026-07-30T05:05:55.478Z'
       bytes: 41288
 insights:
   summary: A curated list of MLOps tools and resources for machine learning engineering workflows.
-  why_it_matters: Provides a navigable map of the MLOps ecosystem, helping developers discover tools for CI/CD, data management, model serving, and other ML lifecycle stages.
-  mental_damage: Because nothing says 'productive afternoon' like diving into a 50-section list of tools you’ll never have time to evaluate.
+  why_it_matters: >-
+    Provides a navigable map of the MLOps ecosystem, helping developers discover tools for CI/CD, data management, model
+    serving, and other ML lifecycle stages.
+  mental_damage: >-
+    Because nothing says 'productive afternoon' like diving into a 50-section list of tools you’ll never have time to
+    evaluate.
   tags:
     - mlops
     - curated-list
@@ -58,32 +67,31 @@ insights:
     - awesome
   confidence: high
 curation:
-  status: included
-  reason: This is a curated directory of MLOps tools, which fits the catalog's scope as a navigation aid for developers exploring AI/ML workflow tooling.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Repo description explicitly states it is a 'curated list of awesome MLOps tools'
-    - README confirms it is a categorized directory of tools across the ML lifecycle
-    - Source-list context shows it is already included in Awesome-LLMOps under 'Awesome Lists'
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (5130) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.624Z"
+    updated_at: '2026-05-06T22:12:15.624Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:55.478Z"
+    updated_at: '2026-07-30T05:05:55.478Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:12:17.803Z"
+    updated_at: '2026-07-21T16:12:17.803Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,7 +104,9 @@ processing:
       input_hash: sha256:5188053c31116d3a74ebf46b6c7be7a656aa3cc3aa33e6bf62205569ae8ce5d2
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: This is a curated directory of MLOps tools, which fits the catalog's scope as a navigation aid for developers exploring AI/ML workflow tooling.
+      decision_reason: >-
+        This is a curated directory of MLOps tools, which fits the catalog's scope as a navigation aid for developers
+        exploring AI/ML workflow tooling.
       decision_evidence:
         - Repo description explicitly states it is a 'curated list of awesome MLOps tools'
         - README confirms it is a categorized directory of tools across the ML lifecycle
@@ -104,6 +114,8 @@ processing:
       category_candidates:
         - awesome-awesomes
         - ai-frameworks
-      contrastive_reason: Choose awesome-awesomes over ai-frameworks because the primary value is discovery and navigation of the ecosystem, not a code-first building block.
+      contrastive_reason: >-
+        Choose awesome-awesomes over ai-frameworks because the primary value is discovery and navigation of the
+        ecosystem, not a code-first building block.
       review_reason: null
       review_resume_lifecycle: null

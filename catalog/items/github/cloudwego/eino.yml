@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cloudwego__eino__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -19,7 +19,10 @@ provenance:
           - Other LLM Frameworks
         anchor_text: Eino
         extracted_url: https://github.com/cloudwego/eino
-        surrounding_text: "- [Eino](https://github.com/cloudwego/eino): Eino provides a Golang AI application development framework with various component integrations and the ability to orchestrate Chains and Graphs similar to LangChain and LangGraph. ![GitHub Repo stars](https://img.shields.io/github/stars/cloudwego/eino?style=social)"
+        surrounding_text: >-
+          - [Eino](https://github.com/cloudwego/eino): Eino provides a Golang AI application development framework with
+          various component integrations and the ability to orchestrate Chains and Graphs similar to LangChain and
+          LangGraph. ![GitHub Repo stars](https://img.shields.io/github/stars/cloudwego/eino?style=social)
         confidence: high
 metadata:
   github:
@@ -29,8 +32,8 @@ metadata:
     archived: false
     full_name: cloudwego/eino
     html_url: https://github.com/cloudwego/eino
-    created_at: "2024-12-04T06:47:27Z"
-    pushed_at: "2026-09-03T06:31:19Z"
+    created_at: '2024-12-04T06:47:27Z'
+    pushed_at: '2026-09-03T06:31:19Z'
     description: The ultimate LLM/AI application development framework in Go.
     homepage: https://www.cloudwego.io/docs/eino/
     topics:
@@ -41,14 +44,20 @@ metadata:
       - langchain-for-go
       - langchaingo
       - llm-application
-    last_checked_at: "2026-09-07T04:13:47.412Z"
+    last_checked_at: '2026-09-07T04:13:47.412Z'
     readme:
-      fetched_at: "2026-09-07T04:13:47.412Z"
+      fetched_at: '2026-09-07T04:13:47.412Z'
       bytes: 8575
 insights:
-  summary: Eino is a Go-based LLM application development framework with components, agent toolkits, and workflow orchestration.
-  why_it_matters: It provides reusable building blocks (ChatModel, Tool, Retriever) and agent patterns for developers to integrate AI workflows into Go applications.
-  mental_damage: Finally, a framework that lets you orchestrate agents in Go—because nothing says 'production-ready' like compiling your AI workflows.
+  summary: >-
+    Eino is a Go-based LLM application development framework with components, agent toolkits, and workflow
+    orchestration.
+  why_it_matters: >-
+    It provides reusable building blocks (ChatModel, Tool, Retriever) and agent patterns for developers to integrate AI
+    workflows into Go applications.
+  mental_damage: >-
+    Finally, a framework that lets you orchestrate agents in Go—because nothing says 'production-ready' like compiling
+    your AI workflows.
   tags:
     - go
     - llm-framework
@@ -57,31 +66,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Eino is a code-first framework/SDK for building AI agents and workflows, not a primary assistant, IDE, or orchestration platform.
+  reason: >-
+    Eino is a code-first framework/SDK for building AI agents and workflows, not a primary assistant, IDE, or
+    orchestration platform.
   evidence:
-    - "Repo description: 'The ultimate LLM/AI application development framework in Go'"
-    - "README highlights: components (ChatModel, Tool), ADK for agents, graph-based composition"
-    - "Source-list context: listed under 'Other LLM Frameworks' in awesome-langchain"
+    - 'Repo description: ''The ultimate LLM/AI application development framework in Go'''
+    - 'README highlights: components (ChatModel, Tool), ADK for agents, graph-based composition'
+    - 'Source-list context: listed under ''Other LLM Frameworks'' in awesome-langchain'
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  secondary_categories: []
+  section: LLM & Agent SDKs
 lifecycle:
   status: promotion_candidate
   reason: Stars (11046) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:47.412Z"
+    updated_at: '2026-09-07T04:13:47.412Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:43:30.363Z"
+    updated_at: '2026-07-21T15:43:30.363Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -94,14 +106,18 @@ processing:
       input_hash: sha256:2ce570845b81321f37b3f65f3005fbd6b2b0fe756e3872e16bd71d13884fb3ba
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: Eino is a code-first framework/SDK for building AI agents and workflows, not a primary assistant, IDE, or orchestration platform.
+      decision_reason: >-
+        Eino is a code-first framework/SDK for building AI agents and workflows, not a primary assistant, IDE, or
+        orchestration platform.
       decision_evidence:
-        - "Repo description: 'The ultimate LLM/AI application development framework in Go'"
-        - "README highlights: components (ChatModel, Tool), ADK for agents, graph-based composition"
-        - "Source-list context: listed under 'Other LLM Frameworks' in awesome-langchain"
+        - 'Repo description: ''The ultimate LLM/AI application development framework in Go'''
+        - 'README highlights: components (ChatModel, Tool), ADK for agents, graph-based composition'
+        - 'Source-list context: listed under ''Other LLM Frameworks'' in awesome-langchain'
       category_candidates:
         - ai-frameworks
         - agent-orchestration
-      contrastive_reason: Choose ai-frameworks over agent-orchestration because Eino is primarily a code-first library/SDK for developers to import and build with, not an operated workbench or runtime platform.
+      contrastive_reason: >-
+        Choose ai-frameworks over agent-orchestration because Eino is primarily a code-first library/SDK for developers
+        to import and build with, not an operated workbench or runtime platform.
       review_reason: null
       review_resume_lifecycle: null

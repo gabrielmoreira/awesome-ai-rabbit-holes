@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ajhous44__cody__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,7 @@ provenance:
           - Cody by ajhous44
         anchor_text: Cody by ajhous44
         extracted_url: https://github.com/ajhous44/cody
-        surrounding_text: "## [Cody by ajhous44](https://github.com/ajhous44/cody)"
+        surrounding_text: '## [Cody by ajhous44](https://github.com/ajhous44/cody)'
         confidence: high
 metadata:
   github:
@@ -29,17 +29,19 @@ metadata:
     archived: false
     full_name: ajhous44/cody
     html_url: https://github.com/ajhous44/cody
-    created_at: "2023-07-22T16:38:48Z"
-    pushed_at: "2025-03-11T22:24:29Z"
+    created_at: '2023-07-22T16:38:48Z'
+    pushed_at: '2025-03-11T22:24:29Z'
     description: Cody the coding ai assistant
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:37.011Z"
+    last_checked_at: '2026-09-17T04:13:37.011Z'
     readme:
-      fetched_at: "2026-09-17T04:13:37.011Z"
+      fetched_at: '2026-09-17T04:13:37.011Z'
       bytes: 6396
 insights:
-  summary: Cody is an AI coding assistant that uses vector embeddings and real-time file monitoring to answer natural language queries about your codebase.
+  summary: >-
+    Cody is an AI coding assistant that uses vector embeddings and real-time file monitoring to answer natural language
+    queries about your codebase.
   why_it_matters: It provides a lightweight way to perform RAG-based codebase exploration via a terminal or voice interface.
   mental_damage: One more way to realize you don't actually know how your own project works without a chatbot to explain it.
   tags:
@@ -57,6 +59,7 @@ curation:
     - Supports real-time file monitoring and terminal/voice I/O
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: incubating
@@ -64,17 +67,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.600Z"
+    updated_at: '2026-05-06T22:12:15.600Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:37.011Z"
+    updated_at: '2026-09-17T04:13:37.011Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:11:26.705Z"
+    updated_at: '2026-07-20T16:11:26.705Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -95,6 +98,8 @@ processing:
       category_candidates:
         - coding-agents
         - context-engineering
-      contrastive_reason: Choose coding-agents over context-engineering because the primary user interaction is a conversational assistant for code exploration rather than just a backend retrieval infrastructure.
+      contrastive_reason: >-
+        Choose coding-agents over context-engineering because the primary user interaction is a conversational assistant
+        for code exploration rather than just a backend retrieval infrastructure.
       review_reason: null
       review_resume_lifecycle: null

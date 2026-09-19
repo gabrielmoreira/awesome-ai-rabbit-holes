@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sxhxliang__mcp-access-point__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: sxhxliang/mcp-access-point
         extracted_url: https://github.com/sxhxliang/mcp-access-point
-        surrounding_text: "- [sxhxliang/mcp-access-point](https://github.com/sxhxliang/mcp-access-point) 📇 ☁️ 🏠 🍎 🪟 🐧 - Turn a web service into an MCP server in one click without making any code changes."
+        surrounding_text: >-
+          - [sxhxliang/mcp-access-point](https://github.com/sxhxliang/mcp-access-point) 📇 ☁️ 🏠 🍎 🪟 🐧 - Turn a web
+          service into an MCP server in one click without making any code changes.
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: sxhxliang/mcp-access-point
     html_url: https://github.com/sxhxliang/mcp-access-point
-    created_at: "2025-04-06T15:35:00Z"
-    pushed_at: "2026-03-11T03:03:01Z"
+    created_at: '2025-04-06T15:35:00Z'
+    pushed_at: '2026-03-11T03:03:01Z'
     description: Turn a web server into an MCP server in one click without making any code changes.
     homepage: https://deepwiki.com/sxhxliang/mcp-access-point
     topics:
@@ -39,14 +41,20 @@ metadata:
       - mcp
       - mcp-servers
       - proxy
-    last_checked_at: "2026-07-21T15:20:38.192Z"
+    last_checked_at: '2026-07-21T15:20:38.192Z'
     readme:
-      fetched_at: "2026-07-21T15:20:38.192Z"
+      fetched_at: '2026-07-21T15:20:38.192Z'
       bytes: 14994
 insights:
-  summary: A lightweight gateway that converts existing HTTP services into MCP-compatible servers without requiring any server-side code changes.
-  why_it_matters: It allows MCP clients like Cursor and VS Code to directly interact with legacy HTTP APIs by acting as a protocol translation layer.
-  mental_damage: Because rewriting your actual API to support a new protocol was never the problem; the problem was needing three more layers of indirection to talk to it.
+  summary: >-
+    A lightweight gateway that converts existing HTTP services into MCP-compatible servers without requiring any
+    server-side code changes.
+  why_it_matters: >-
+    It allows MCP clients like Cursor and VS Code to directly interact with legacy HTTP APIs by acting as a protocol
+    translation layer.
+  mental_damage: >-
+    Because rewriting your actual API to support a new protocol was never the problem; the problem was needing three
+    more layers of indirection to talk to it.
   tags:
     - mcp
     - gateway
@@ -56,35 +64,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is a protocol conversion gateway specifically designed to turn HTTP services into MCP servers, fitting the MCP infrastructure definition.
+  reason: >-
+    The product identity is a protocol conversion gateway specifically designed to turn HTTP services into MCP servers,
+    fitting the MCP infrastructure definition.
   evidence:
-    - "Repo description states: 'Turn a web server into an MCP server in one click without making any code changes.'"
+    - 'Repo description states: ''Turn a web server into an MCP server in one click without making any code changes.'''
     - README identifies it as a 'protocol conversion gateway tool' bridging HTTP services and MCP clients.
     - Found in awesome-mcp-servers under 'Server Implementations > Aggregators'.
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: promotion_candidate
   reason: Stars (170) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.650Z"
+    updated_at: '2026-05-06T22:12:15.650Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:38.192Z"
+    updated_at: '2026-07-21T15:20:38.192Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

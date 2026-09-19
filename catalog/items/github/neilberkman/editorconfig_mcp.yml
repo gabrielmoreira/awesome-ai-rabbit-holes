@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__neilberkman__editorconfig_mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: neilberkman/editorconfig_mcp
         extracted_url: https://github.com/neilberkman/editorconfig_mcp
-        surrounding_text: "- [neilberkman/editorconfig_mcp](https://github.com/neilberkman/editorconfig_mcp) 📇 🏠 - Formats files using `.editorconfig` rules, acting as a proactive formatting gatekeeper to ensure AI-generated code adheres to project-specific formatting standards from the start."
+        surrounding_text: >-
+          - [neilberkman/editorconfig_mcp](https://github.com/neilberkman/editorconfig_mcp) 📇 🏠 - Formats files using
+          `.editorconfig` rules, acting as a proactive formatting gatekeeper to ensure AI-generated code adheres to
+          project-specific formatting standards from the start.
         confidence: high
 metadata:
   github:
@@ -30,19 +33,25 @@ metadata:
     archived: false
     full_name: neilberkman/editorconfig_mcp
     html_url: https://github.com/neilberkman/editorconfig_mcp
-    created_at: "2025-06-08T21:00:25Z"
-    pushed_at: "2025-06-17T00:39:47Z"
+    created_at: '2025-06-08T21:00:25Z'
+    pushed_at: '2025-06-17T00:39:47Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T15:12:01.453Z"
+    last_checked_at: '2026-07-20T15:12:01.453Z'
     readme:
-      fetched_at: "2026-07-20T15:12:01.453Z"
+      fetched_at: '2026-07-20T15:12:01.453Z'
       bytes: 5482
 insights:
-  summary: An MCP-compliant server that formats files using project .editorconfig rules to prevent AI coding agents from generating minor formatting errors.
-  why_it_matters: It acts as a proactive formatting gatekeeper, letting AI agents produce clean code that won't waste cycles getting flagged and fixed by linters.
-  mental_damage: We have finally reached the point where we are building protocol-compliant middleware just to stop our robot assistants from leaving trailing whitespace.
+  summary: >-
+    An MCP-compliant server that formats files using project .editorconfig rules to prevent AI coding agents from
+    generating minor formatting errors.
+  why_it_matters: >-
+    It acts as a proactive formatting gatekeeper, letting AI agents produce clean code that won't waste cycles getting
+    flagged and fixed by linters.
+  mental_damage: >-
+    We have finally reached the point where we are building protocol-compliant middleware just to stop our robot
+    assistants from leaving trailing whitespace.
   tags:
     - mcp
     - formatting
@@ -51,35 +60,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server providing formatting capabilities, which fits squarely into the MCP Servers & Tooling category.
+  reason: >-
+    The product's identity is an MCP server providing formatting capabilities, which fits squarely into the MCP Servers
+    & Tooling category.
   evidence:
-    - "README states: 'A Model Context Protocol (MCP) compliant server that formats files using .editorconfig rules.'"
+    - 'README states: ''A Model Context Protocol (MCP) compliant server that formats files using .editorconfig rules.'''
     - Found in the 'awesome-mcp-servers' list under 'Server Implementations > Developer Tools'.
-    - Installation and usage instructions are centered on running the MCP server and connecting it to tools like Claude Code.
+    - >-
+      Installation and usage instructions are centered on running the MCP server and connecting it to tools like Claude
+      Code.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.632Z"
+    updated_at: '2026-05-06T22:12:15.632Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:12:01.453Z"
+    updated_at: '2026-07-20T15:12:01.453Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

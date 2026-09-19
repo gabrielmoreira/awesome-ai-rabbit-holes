@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dyad-sh__dyad__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,7 +19,9 @@ provenance:
           - App Builders
         anchor_text: Dyad.sh
         extracted_url: https://www.dyad.sh
-        surrounding_text: "- **[Dyad.sh](https://www.dyad.sh/)** – Free, local, open-source AI app builder with any model and IDE integration."
+        surrounding_text: >-
+          - **[Dyad.sh](https://www.dyad.sh/)** – Free, local, open-source AI app builder with any model and IDE
+          integration.
         confidence: high
 metadata:
   github:
@@ -29,9 +31,11 @@ metadata:
     archived: false
     full_name: dyad-sh/dyad
     html_url: https://github.com/dyad-sh/dyad
-    created_at: "2025-04-11T06:33:48Z"
-    pushed_at: "2026-09-11T23:25:05Z"
-    description: Local, open-source AI app builder for power users ✨ v0 / Lovable / Replit / Bolt alternative 🌟 Star if you like it!
+    created_at: '2025-04-11T06:33:48Z'
+    pushed_at: '2026-09-11T23:25:05Z'
+    description: >-
+      Local, open-source AI app builder for power users ✨ v0 / Lovable / Replit / Bolt alternative 🌟 Star if you like
+      it!
     homepage: https://dyad.sh
     topics:
       - ai-app-builder
@@ -53,14 +57,18 @@ metadata:
       - typescript
       - v0
       - vercel
-    last_checked_at: "2026-09-14T04:13:45.545Z"
+    last_checked_at: '2026-09-14T04:13:45.545Z'
     readme:
-      fetched_at: "2026-09-14T04:13:45.545Z"
+      fetched_at: '2026-09-14T04:13:45.545Z'
       bytes: 1360
 insights:
   summary: Local, open-source AI app builder for creating applications with various AI models on your own machine.
-  why_it_matters: Developers can build AI-powered apps locally with their own API keys, avoiding vendor lock-in while maintaining privacy and control.
-  mental_damage: Another day, another tool promising to turn your vague ideas into code—this time with the added thrill of managing your own API keys.
+  why_it_matters: >-
+    Developers can build AI-powered apps locally with their own API keys, avoiding vendor lock-in while maintaining
+    privacy and control.
+  mental_damage: >-
+    Another day, another tool promising to turn your vague ideas into code—this time with the added thrill of managing
+    your own API keys.
   tags:
     - app-builder
     - local-ai
@@ -70,31 +78,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Dyad is a prompt-to-app builder that generates applications from prompts, fitting the App Builders category as its primary identity.
+  reason: >-
+    Dyad is a prompt-to-app builder that generates applications from prompts, fitting the App Builders category as its
+    primary identity.
   evidence:
     - Repo description explicitly calls it a 'local, open-source AI app builder'
     - README emphasizes building AI apps locally with BYO keys, like Lovable/v0/Bolt alternatives
     - Source-list context places it in App Builders section
 placement:
   primary_category: app-builders
-  section: Prompt-to-App Builders
+  secondary_categories: []
+  section: Full App Builders
 lifecycle:
   status: promotion_candidate
   reason: Stars (20273) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.612Z"
+    updated_at: '2026-05-06T22:12:15.612Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:45.545Z"
+    updated_at: '2026-09-14T04:13:45.545Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:53.749Z"
+    updated_at: '2026-07-21T15:51:53.749Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -107,7 +118,9 @@ processing:
       input_hash: sha256:0f45d4602f90506b50eb12d61eb7ae0bb174cf9138d78f83a6a78b3ae555bc25
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: Dyad is a prompt-to-app builder that generates applications from prompts, fitting the App Builders category as its primary identity.
+      decision_reason: >-
+        Dyad is a prompt-to-app builder that generates applications from prompts, fitting the App Builders category as
+        its primary identity.
       decision_evidence:
         - Repo description explicitly calls it a 'local, open-source AI app builder'
         - README emphasizes building AI apps locally with BYO keys, like Lovable/v0/Bolt alternatives
@@ -115,6 +128,8 @@ processing:
       category_candidates:
         - app-builders
         - local-ai
-      contrastive_reason: Choose app-builders over local-ai because the core product is prompt-to-app generation rather than local runtime infrastructure.
+      contrastive_reason: >-
+        Choose app-builders over local-ai because the core product is prompt-to-app generation rather than local runtime
+        infrastructure.
       review_reason: null
       review_resume_lifecycle: null

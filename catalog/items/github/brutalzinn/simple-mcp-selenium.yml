@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__brutalzinn__simple-mcp-selenium__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: brutalzinn/simple-mcp-selenium
         extracted_url: https://github.com/brutalzinn/simple-mcp-selenium
-        surrounding_text: "- [brutalzinn/simple-mcp-selenium](https://github.com/brutalzinn/simple-mcp-selenium) 📇 🏠 - An MCP Selenium Server for controlling browsers using natural language in Cursor IDE. Perfect for testing, automation, and multi-user scenarios."
+        surrounding_text: >-
+          - [brutalzinn/simple-mcp-selenium](https://github.com/brutalzinn/simple-mcp-selenium) 📇 🏠 - An MCP Selenium
+          Server for controlling browsers using natural language in Cursor IDE. Perfect for testing, automation, and
+          multi-user scenarios.
         confidence: high
 metadata:
   github:
@@ -30,17 +33,21 @@ metadata:
     archived: false
     full_name: brutalzinn/simple-mcp-selenium
     html_url: https://github.com/brutalzinn/simple-mcp-selenium
-    created_at: "2025-09-10T18:27:58Z"
-    pushed_at: "2025-11-20T01:59:54Z"
+    created_at: '2025-09-10T18:27:58Z'
+    pushed_at: '2025-11-20T01:59:54Z'
     description: This is just a tool to use a chrome driver that exposes a MCP server to be easily to use with Cursor IDE
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:38.466Z"
+    last_checked_at: '2026-09-07T04:13:38.466Z'
     readme: null
 insights:
   summary: An MCP server that exposes Chrome WebDriver capabilities for use with Cursor IDE.
-  why_it_matters: It enables browser automation workflows within Cursor IDE via MCP, allowing developers to integrate web interaction into their coding assistant's toolkit.
-  mental_damage: Now your coding assistant can also click buttons for you—because manually opening a browser was clearly the bottleneck.
+  why_it_matters: >-
+    It enables browser automation workflows within Cursor IDE via MCP, allowing developers to integrate web interaction
+    into their coding assistant's toolkit.
+  mental_damage: >-
+    Now your coding assistant can also click buttons for you—because manually opening a browser was clearly the
+    bottleneck.
   tags:
     - mcp
     - browser-automation
@@ -49,31 +56,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: it is a server implementation exposing browser automation capabilities via MCP."
+  reason: 'MCP is the product identity here: it is a server implementation exposing browser automation capabilities via MCP.'
   evidence:
     - Repo description explicitly states it is an MCP server for Chrome WebDriver
     - Source-list context places it in 'Browser Automation' under MCP servers
     - Primary purpose is to provide MCP-based browser automation
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.606Z"
+    updated_at: '2026-05-06T22:12:15.606Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:38.466Z"
+    updated_at: '2026-09-07T04:13:38.466Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:34:25.501Z"
+    updated_at: '2026-07-21T15:34:25.501Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -86,7 +94,9 @@ processing:
       input_hash: sha256:dbd392e0f3d0b7e035d4e1563e0efb6504671eabff9bb9cfeaeffcd9316a630a
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: it is a server implementation exposing browser automation capabilities via MCP."
+      decision_reason: >-
+        MCP is the product identity here: it is a server implementation exposing browser automation capabilities via
+        MCP.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Chrome WebDriver
         - Source-list context places it in 'Browser Automation' under MCP servers
@@ -94,6 +104,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server implementation rather than an extension that augments another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server implementation rather than an
+        extension that augments another assistant.
       review_reason: null
       review_resume_lifecycle: null

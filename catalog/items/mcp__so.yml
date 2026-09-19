@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mcp__so__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - MCP Servers and Directories
         anchor_text: MCP.so
         extracted_url: https://mcp.so
-        surrounding_text: "- **[MCP.so](https://mcp.so/)** – Platform for MCP server resources and community."
+        surrounding_text: '- **[MCP.so](https://mcp.so/)** – Platform for MCP server resources and community.'
         confidence: high
     - id: discovery__mcp__so__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -52,8 +52,12 @@ metadata:
     readme: null
 insights:
   summary: A community-driven directory for discovering and browsing MCP servers, clients, and integrations.
-  why_it_matters: It centralizes the fragmented MCP ecosystem, making it easier for developers to find and integrate tools that extend AI assistants with external data and capabilities.
-  mental_damage: Because nothing says 'standardization' like a directory of 500 ways to plug your AI into everything except your actual workflow.
+  why_it_matters: >-
+    It centralizes the fragmented MCP ecosystem, making it easier for developers to find and integrate tools that extend
+    AI assistants with external data and capabilities.
+  mental_damage: >-
+    Because nothing says 'standardization' like a directory of 500 ways to plug your AI into everything except your
+    actual workflow.
   tags:
     - mcp
     - directory
@@ -63,21 +67,26 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a discovery and navigation directory for MCP servers and clients, which fits squarely as a developer-facing map of the ecosystem rather than a standalone tool, framework, or agent.
+  reason: >-
+    The product is a discovery and navigation directory for MCP servers and clients, which fits squarely as a
+    developer-facing map of the ecosystem rather than a standalone tool, framework, or agent.
   evidence:
-    - "Homepage states: 'mcp.so is a community-driven platform that collects and organizes third-party MCP Servers. It serves as a central directory...'"
+    - >-
+      Homepage states: 'mcp.so is a community-driven platform that collects and organizes third-party MCP Servers. It
+      serves as a central directory...'
     - Lists 20,728 MCP Servers and catalogs them by categories, clients, hosted servers, and official servers.
     - Featured in awesome-ai-coding-tools under 'MCP Servers and Directories' as a discovery hub.
 placement:
-  primary_category: awesome-awesomes
-  section: null
+  primary_category: mcp
+  secondary_categories: []
+  section: Registries & Discovery
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
+  reason: 'Categorization review required: placement disagreement: retained ''awesome-awesomes'', proposed ''mcp'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.597Z"
+    updated_at: '2026-05-06T22:12:15.597Z'
     cause: null
     next_retry_at: null
   stars:
@@ -86,7 +95,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:29:46.738Z"
+    updated_at: '2026-07-21T15:29:46.738Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -99,14 +108,22 @@ processing:
       input_hash: sha256:b50fdb0e6a5d50a2ca1e5201e51f808b130b98473e106570247f101c78f8a4a4
       proposed_primary_category: mcp
       disagreement: true
-      decision_reason: The product's core identity is as an MCP-first directory and registry, explicitly focused on MCP servers, clients, and tooling.
+      decision_reason: >-
+        The product's core identity is as an MCP-first directory and registry, explicitly focused on MCP servers,
+        clients, and tooling.
       decision_evidence:
-        - "Site title and description: 'Discover useful MCP servers and clients'"
-        - "Primary page excerpt: 'MCP.so Search MCP servers, tools, integrations' and 'Find MCP servers, clients, and integrations in one MCP marketplace'"
-        - "Source-list context: Listed under 'MCP Servers and Directories' in awesome-ai-coding-tools and '模型上下文协议 MCP' in awesome-LLM-resources"
+        - 'Site title and description: ''Discover useful MCP servers and clients'''
+        - >-
+          Primary page excerpt: 'MCP.so Search MCP servers, tools, integrations' and 'Find MCP servers, clients, and
+          integrations in one MCP marketplace'
+        - >-
+          Source-list context: Listed under 'MCP Servers and Directories' in awesome-ai-coding-tools and '模型上下文协议 MCP'
+          in awesome-LLM-resources
       category_candidates:
         - mcp
         - awesome-awesomes
-      contrastive_reason: Choose mcp over awesome-awesomes because the product is a protocol-specific registry rather than a general AI tooling directory.
-      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
+      contrastive_reason: >-
+        Choose mcp over awesome-awesomes because the product is a protocol-specific registry rather than a general AI
+        tooling directory.
+      review_reason: 'Categorization review required: placement disagreement: retained ''awesome-awesomes'', proposed ''mcp'''
       review_resume_lifecycle: null

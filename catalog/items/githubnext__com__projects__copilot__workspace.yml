@@ -5,8 +5,9 @@ canonical_url: https://githubnext.com/projects/copilot-workspace
 identity: {}
 provenance:
   discoveries:
-    - id: discovery__githubnext__com__projects__copilot__workspace__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+    - id: >-
+        discovery__githubnext__com__projects__copilot__workspace__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +19,9 @@ provenance:
           - Coding Agents
         anchor_text: Copilot Workspace
         extracted_url: https://githubnext.com/projects/copilot-workspace
-        surrounding_text: "- **[Copilot Workspace](https://githubnext.com/projects/copilot-workspace)** – GitHub's agent-powered dev environment that turns issues into code changes with plans, specs, and implementation."
+        surrounding_text: >-
+          - **[Copilot Workspace](https://githubnext.com/projects/copilot-workspace)** – GitHub's agent-powered dev
+          environment that turns issues into code changes with plans, specs, and implementation.
         confidence: high
 metadata:
   github:
@@ -37,7 +40,9 @@ metadata:
     readme: null
 insights:
   summary: An agentic development environment designed for everyday coding tasks.
-  why_it_matters: It offers developers a dedicated workspace where AI agents can assist with planning, writing, and managing code-related workflows.
+  why_it_matters: >-
+    It offers developers a dedicated workspace where AI agents can assist with planning, writing, and managing
+    code-related workflows.
   mental_damage: Now you can argue with an agent about tabs vs. spaces in a workspace that was probably built by another agent.
   tags:
     - agentic-dev
@@ -46,20 +51,25 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a standalone agentic environment for developers, fitting the definition of a primary coding assistant rather than an extension or integration layer.
+  reason: >-
+    The product is a standalone agentic environment for developers, fitting the definition of a primary coding assistant
+    rather than an extension or integration layer.
   evidence:
-    - Described as 'An agentic dev environment, designed for everyday tasks' in both source-list context and scraped site description
+    - >-
+      Described as 'An agentic dev environment, designed for everyday tasks' in both source-list context and scraped
+      site description
     - Listed under 'Coding Agents' in awesome-ai-coding-tools
 placement:
   primary_category: coding-agents
-  section: Browser/Desktop/Computer-Use Agents
+  secondary_categories: []
+  section: IDE-Native & Editor Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +78,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:27:08.627Z"
+    updated_at: '2026-07-21T15:27:08.627Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -81,13 +91,19 @@ processing:
       input_hash: sha256:2eb92931c518ac3b0e258c163dafa31b611376fe5bbd106f5475e10d6a5ab510
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: The product is a standalone agentic environment for developers, fitting the definition of a primary coding assistant rather than an extension or integration layer.
+      decision_reason: >-
+        The product is a standalone agentic environment for developers, fitting the definition of a primary coding
+        assistant rather than an extension or integration layer.
       decision_evidence:
-        - Described as 'An agentic dev environment, designed for everyday tasks' in both source-list context and scraped site description
+        - >-
+          Described as 'An agentic dev environment, designed for everyday tasks' in both source-list context and scraped
+          site description
         - Listed under 'Coding Agents' in awesome-ai-coding-tools
       category_candidates:
         - coding-agents
         - ai-ides-editors
-      contrastive_reason: Choose coding-agents over ai-ides-editors because the product is presented as an agentic environment rather than a full IDE surface.
+      contrastive_reason: >-
+        Choose coding-agents over ai-ides-editors because the product is presented as an agentic environment rather than
+        a full IDE surface.
       review_reason: null
       review_resume_lifecycle: null

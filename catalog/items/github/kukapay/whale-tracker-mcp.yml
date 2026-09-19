@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__whale-tracker-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/whale-tracker-mcp
         extracted_url: https://github.com/kukapay/whale-tracker-mcp
-        surrounding_text: "- [kukapay/whale-tracker-mcp](https://github.com/kukapay/whale-tracker-mcp) 🐍 ☁️ -  A mcp server for tracking cryptocurrency whale transactions."
+        surrounding_text: >-
+          - [kukapay/whale-tracker-mcp](https://github.com/kukapay/whale-tracker-mcp) 🐍 ☁️ -  A mcp server for tracking
+          cryptocurrency whale transactions.
         confidence: high
     - id: discovery__github__kukapay__whale-tracker-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - 💰 Finance & Fintech
         anchor_text: kukapay/whale-tracker-mcp
         extracted_url: https://github.com/kukapay/whale-tracker-mcp
-        surrounding_text: "-   **[kukapay/whale-tracker-mcp](https://github.com/kukapay/whale-tracker-mcp)** [![GitHub stars](https://img.shields.io/github/stars/kukapay/whale-tracker-mcp?style=social)](https://github.com/kukapay/whale-tracker-mcp): Tracks cryptocurrency whale transactions."
+        surrounding_text: >-
+          -   **[kukapay/whale-tracker-mcp](https://github.com/kukapay/whale-tracker-mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/kukapay/whale-tracker-mcp?style=social)](https://github.com/kukapay/whale-tracker-mcp):
+          Tracks cryptocurrency whale transactions.
         confidence: high
 metadata:
   github:
@@ -45,18 +50,20 @@ metadata:
     archived: false
     full_name: kukapay/whale-tracker-mcp
     html_url: https://github.com/kukapay/whale-tracker-mcp
-    created_at: "2025-03-13T16:19:15Z"
-    pushed_at: "2025-05-07T17:24:04Z"
+    created_at: '2025-03-13T16:19:15Z'
+    pushed_at: '2025-05-07T17:24:04Z'
     description: A mcp server for tracking cryptocurrency whale transactions.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:06:01.403Z"
+    last_checked_at: '2026-07-30T05:06:01.403Z'
     readme:
-      fetched_at: "2026-07-30T05:06:01.403Z"
+      fetched_at: '2026-07-30T05:06:01.403Z'
       bytes: 5752
 insights:
   summary: An MCP server for tracking cryptocurrency whale transactions via the Whale Alert API.
-  why_it_matters: Lets developers integrate real-time blockchain whale transaction data directly into MCP-compatible workflows like Claude Desktop.
+  why_it_matters: >-
+    Lets developers integrate real-time blockchain whale transaction data directly into MCP-compatible workflows like
+    Claude Desktop.
   mental_damage: Because nothing says 'productive coding session' like pausing to check if a whale just moved $50M in Bitcoin.
   tags:
     - mcp
@@ -74,24 +81,25 @@ curation:
     - Listed in awesome-mcp-list under Finance & Fintech
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.589Z"
+    updated_at: '2026-05-06T22:12:15.589Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:01.403Z"
+    updated_at: '2026-07-30T05:06:01.403Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:14:23.553Z"
+    updated_at: '2026-07-21T16:14:23.553Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,7 +112,9 @@ processing:
       input_hash: sha256:73af5d59ad46f57f25965e7c3f25ac259747692786fdaa1fc68e750a561307c9
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a domain-specific MCP server whose primary identity is exposing Whale Alert API capabilities through MCP.
+      decision_reason: >-
+        This is a domain-specific MCP server whose primary identity is exposing Whale Alert API capabilities through
+        MCP.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for tracking crypto whale transactions
         - README confirms it implements MCP with tools/resources/prompts for Whale Alert API
@@ -112,6 +122,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

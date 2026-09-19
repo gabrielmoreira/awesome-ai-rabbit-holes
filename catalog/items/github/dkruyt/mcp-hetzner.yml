@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dkruyt__mcp-hetzner__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Community Servers
         anchor_text: Hetzner Cloud MCP Server
         extracted_url: https://github.com/dkruyt/mcp-hetzner
-        surrounding_text: "- **[Hetzner Cloud MCP Server](https://github.com/dkruyt/mcp-hetzner)** - A Model Context Protocol (MCP) server for interacting with the Hetzner Cloud API. This server allows language models to manage Hetzner Cloud resources through structured functions."
+        surrounding_text: >-
+          - **[Hetzner Cloud MCP Server](https://github.com/dkruyt/mcp-hetzner)** - A Model Context Protocol (MCP)
+          server for interacting with the Hetzner Cloud API. This server allows language models to manage Hetzner Cloud
+          resources through structured functions.
         confidence: high
 metadata:
   github:
@@ -29,18 +32,24 @@ metadata:
     archived: false
     full_name: dkruyt/mcp-hetzner
     html_url: https://github.com/dkruyt/mcp-hetzner
-    created_at: "2025-04-07T21:35:02Z"
-    pushed_at: "2025-04-10T07:58:13Z"
-    description: A Model Context Protocol (MCP) server for interacting with the Hetzner Cloud API. This server allows language models to manage Hetzner Cloud resources through structured functions.
-    homepage: ""
+    created_at: '2025-04-07T21:35:02Z'
+    pushed_at: '2025-04-10T07:58:13Z'
+    description: >-
+      A Model Context Protocol (MCP) server for interacting with the Hetzner Cloud API. This server allows language
+      models to manage Hetzner Cloud resources through structured functions.
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-14T04:13:41.403Z"
+    last_checked_at: '2026-09-14T04:13:41.403Z'
     readme:
-      fetched_at: "2026-09-14T04:13:41.403Z"
+      fetched_at: '2026-09-14T04:13:41.403Z'
       bytes: 6439
 insights:
-  summary: A Model Context Protocol (MCP) server for interacting with the Hetzner Cloud API, enabling language models to manage cloud resources through structured functions.
-  why_it_matters: Developers can now delegate Hetzner Cloud infrastructure tasks (servers, volumes, firewalls, SSH keys) directly to AI assistants via MCP, reducing manual CLI or dashboard work.
+  summary: >-
+    A Model Context Protocol (MCP) server for interacting with the Hetzner Cloud API, enabling language models to manage
+    cloud resources through structured functions.
+  why_it_matters: >-
+    Developers can now delegate Hetzner Cloud infrastructure tasks (servers, volumes, firewalls, SSH keys) directly to
+    AI assistants via MCP, reducing manual CLI or dashboard work.
   mental_damage: Finally, your AI can spin up servers you’ll forget to delete until the bill arrives.
   tags:
     - mcp
@@ -50,31 +59,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the product identity here—a dedicated server exposing Hetzner Cloud API capabilities to language models via MCP.
+  reason: >-
+    MCP is the product identity here—a dedicated server exposing Hetzner Cloud API capabilities to language models via
+    MCP.
   evidence:
     - Repo description explicitly states it is an MCP server for Hetzner Cloud API
     - README details structured functions for managing Hetzner resources (servers, volumes, firewalls, etc.)
     - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.611Z"
+    updated_at: '2026-05-06T22:12:15.611Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:41.403Z"
+    updated_at: '2026-09-14T04:13:41.403Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:08.250Z"
+    updated_at: '2026-07-21T15:51:08.250Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,7 +99,9 @@ processing:
       input_hash: sha256:d457c9d0643863b5deaf2b7e2245b8a15149a0623c72fb132744547cb0daae84
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the product identity here—a dedicated server exposing Hetzner Cloud API capabilities to language models via MCP.
+      decision_reason: >-
+        MCP is the product identity here—a dedicated server exposing Hetzner Cloud API capabilities to language models
+        via MCP.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Hetzner Cloud API
         - README details structured functions for managing Hetzner resources (servers, volumes, firewalls, etc.)
@@ -95,6 +109,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server, not an extension augmenting
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

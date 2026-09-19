@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hexitex__mcp-backup-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Backup
         extracted_url: https://github.com/hexitex/mcp-backup-server
-        surrounding_text: "- **[Backup](https://github.com/hexitex/MCP-Backup-Server)** - Add smart Backup ability to coding agents like Windsurf, Cursor, Cluade Coder, etc"
+        surrounding_text: >-
+          - **[Backup](https://github.com/hexitex/MCP-Backup-Server)** - Add smart Backup ability to coding agents like
+          Windsurf, Cursor, Cluade Coder, etc
         confidence: high
 metadata:
   github:
@@ -29,18 +31,20 @@ metadata:
     archived: false
     full_name: hexitex/MCP-Backup-Server
     html_url: https://github.com/hexitex/MCP-Backup-Server
-    created_at: "2025-03-10T03:01:35Z"
-    pushed_at: "2025-08-08T05:54:58Z"
+    created_at: '2025-03-10T03:01:35Z'
+    pushed_at: '2025-08-08T05:54:58Z'
     description: A Model Context Protocol (MCP) server implementation that provides file backup and restoration capabilities
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:36.995Z"
+    last_checked_at: '2026-07-30T05:05:36.995Z'
     readme:
-      fetched_at: "2026-07-30T05:05:36.995Z"
+      fetched_at: '2026-07-30T05:05:36.995Z'
       bytes: 6760
 insights:
   summary: An MCP server that provides file backup and restoration capabilities for AI agents and code editing tools.
-  why_it_matters: It offers a lightweight, context-aware alternative to Git for creating instant safety backups before risky code changes, tailored for AI-assisted workflows.
+  why_it_matters: >-
+    It offers a lightweight, context-aware alternative to Git for creating instant safety backups before risky code
+    changes, tailored for AI-assisted workflows.
   mental_damage: Because sometimes your AI agent’s refactoring enthusiasm needs a panic button that isn’t a 40-line commit message.
   tags:
     - mcp
@@ -50,31 +54,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose primary identity is providing backup/restore functionality via the Model Context Protocol.
+  reason: >-
+    The product is explicitly an MCP server whose primary identity is providing backup/restore functionality via the
+    Model Context Protocol.
   evidence:
     - Repo description states it is an MCP server for file backup/restoration
     - README explicitly positions it as a specialized MCP server tested in Cursor/Windsurf
     - Source-list context (awesome-mcp-servers) lists it under Community Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.618Z"
+    updated_at: '2026-05-06T22:12:15.618Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:36.995Z"
+    updated_at: '2026-07-30T05:05:36.995Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:05:33.078Z"
+    updated_at: '2026-07-21T16:05:33.078Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,7 +94,9 @@ processing:
       input_hash: sha256:48e35448cbafd14dbb6481900c573aa7f5b4ea99eb0d44860c813f8c94829970
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server whose primary identity is providing backup/restore functionality via the Model Context Protocol.
+      decision_reason: >-
+        The product is explicitly an MCP server whose primary identity is providing backup/restore functionality via the
+        Model Context Protocol.
       decision_evidence:
         - Repo description states it is an MCP server for file backup/restoration
         - README explicitly positions it as a specialized MCP server tested in Cursor/Windsurf
@@ -95,6 +104,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not just an extension layer for another assistant).
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server (not just an extension layer for
+        another assistant).
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__arvindand__maven-tools-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,14 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: arvindand/maven-tools-mcp
         extracted_url: https://github.com/arvindand/maven-tools-mcp
-        surrounding_text: "- [arvindand/maven-tools-mcp](https://github.com/arvindand/maven-tools-mcp) ☕ ☁️ 🏠 🍎 🪟 🐧 - Universal Maven Central dependency intelligence for JVM build tools (Maven, Gradle, SBT, Mill). Features bulk operations, version comparison, stability filtering, dependency age analysis, release patterns, and Context7 integration for upgrade guidance."
+        surrounding_text: >-
+          - [arvindand/maven-tools-mcp](https://github.com/arvindand/maven-tools-mcp) ☕ ☁️ 🏠 🍎 🪟 🐧 - Universal Maven
+          Central dependency intelligence for JVM build tools (Maven, Gradle, SBT, Mill). Features bulk operations,
+          version comparison, stability filtering, dependency age analysis, release patterns, and Context7 integration
+          for upgrade guidance.
         confidence: high
     - id: discovery__github__arvindand__maven-tools-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +39,9 @@ provenance:
           - Community Servers
         anchor_text: Maven Tools
         extracted_url: https://github.com/arvindand/maven-tools-mcp
-        surrounding_text: "- **[Maven Tools](https://github.com/arvindand/maven-tools-mcp)** - Enhanced Maven Central integration with intelligent caching, bulk operations, and version classification"
+        surrounding_text: >-
+          - **[Maven Tools](https://github.com/arvindand/maven-tools-mcp)** - Enhanced Maven Central integration with
+          intelligent caching, bulk operations, and version classification
         confidence: high
 metadata:
   github:
@@ -45,9 +51,11 @@ metadata:
     archived: false
     full_name: arvindand/maven-tools-mcp
     html_url: https://github.com/arvindand/maven-tools-mcp
-    created_at: "2025-06-06T22:34:05Z"
-    pushed_at: "2026-09-06T21:05:58Z"
-    description: MCP server providing AI assistants with Maven Central dependency intelligence for all JVM build tools (Maven, Gradle, SBT, Mill). Features Context7 integration for documentation support.
+    created_at: '2025-06-06T22:34:05Z'
+    pushed_at: '2026-09-06T21:05:58Z'
+    description: >-
+      MCP server providing AI assistants with Maven Central dependency intelligence for all JVM build tools (Maven,
+      Gradle, SBT, Mill). Features Context7 integration for documentation support.
     homepage: https://dev.to/arvindand/how-i-connected-claude-to-maven-central-and-why-you-should-too-2clo
     topics:
       - ai-tools
@@ -65,13 +73,15 @@ metadata:
       - native-image
       - spring-ai
       - spring-boot
-    last_checked_at: "2026-09-14T04:13:22.889Z"
+    last_checked_at: '2026-09-14T04:13:22.889Z'
     readme:
-      fetched_at: "2026-09-14T04:13:22.889Z"
+      fetched_at: '2026-09-14T04:13:22.889Z'
       bytes: 9967
 insights:
   summary: MCP server providing JVM dependency intelligence from Maven Central for use with AI assistants and build tools.
-  why_it_matters: Gives developers and AI agents structured, current dependency metadata (versions, stability, CVEs, licenses) without scraping web pages, enabling safer upgrade decisions and dependency audits.
+  why_it_matters: >-
+    Gives developers and AI agents structured, current dependency metadata (versions, stability, CVEs, licenses) without
+    scraping web pages, enabling safer upgrade decisions and dependency audits.
   mental_damage: Finally, a way to stop your AI from hallucinating Maven versions like it’s a creative writing exercise.
   tags:
     - mcp-server
@@ -82,31 +92,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server exposing domain-specific tools for JVM dependency intelligence."
+  reason: >-
+    MCP is the product identity: this is a dedicated MCP server exposing domain-specific tools for JVM dependency
+    intelligence.
   evidence:
     - Repo description explicitly states it is an MCP server for Maven Central dependency intelligence
     - README details 10 MCP tools for version checks, dependency analysis, and Context7 integration
     - Already listed in awesome-mcp-servers under Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.582Z"
+    updated_at: '2026-05-06T22:12:15.582Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:22.889Z"
+    updated_at: '2026-09-14T04:13:22.889Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:24:14.268Z"
+    updated_at: '2026-07-21T15:24:14.268Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -119,7 +132,9 @@ processing:
       input_hash: sha256:28ce33719db2b15e1ae29a3a10efdf2dd46339f2bf052b8539d2b1cf64727fa3
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing domain-specific tools for JVM dependency intelligence."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server exposing domain-specific tools for JVM dependency
+        intelligence.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Maven Central dependency intelligence
         - README details 10 MCP tools for version checks, dependency analysis, and Context7 integration
@@ -127,6 +142,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server providing domain-specific tooling, not merely an extension layer for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server providing domain-specific tooling,
+        not merely an extension layer for another assistant.
       review_reason: null
       review_resume_lifecycle: null

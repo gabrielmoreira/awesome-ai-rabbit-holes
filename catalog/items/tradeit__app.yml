@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__tradeit__app__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Official Servers
         anchor_text: Trade Agent
         extracted_url: https://thetradeagent.ai
-        surrounding_text: "- **[Trade Agent](https://github.com/Trade-Agent/trade-agent-mcp)** - Execute stock and crypto trades via [Trade Agent](https://thetradeagent.ai/)"
+        surrounding_text: >-
+          - **[Trade Agent](https://github.com/Trade-Agent/trade-agent-mcp)** - Execute stock and crypto trades via
+          [Trade Agent](https://thetradeagent.ai/)
         confidence: high
 metadata:
   github:
@@ -36,9 +38,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Embedded trading infrastructure enabling stock, crypto, ETF, and options trading via linked brokerages for websites, AI agents, newsletters, and Discord servers.
-  why_it_matters: Developers can integrate real trading capabilities into their apps or AI workflows without building brokerage connections from scratch.
-  mental_damage: Now your AI agent can day-trade on your behalf, because nothing says 'responsible development' like automated crypto orders.
+  summary: >-
+    Embedded trading infrastructure enabling stock, crypto, ETF, and options trading via linked brokerages for websites,
+    AI agents, newsletters, and Discord servers.
+  why_it_matters: >-
+    Developers can integrate real trading capabilities into their apps or AI workflows without building brokerage
+    connections from scratch.
+  mental_damage: >-
+    Now your AI agent can day-trade on your behalf, because nothing says 'responsible development' like automated crypto
+    orders.
   tags:
     - trading
     - mcp-server
@@ -48,21 +56,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server for trading, explicitly marketed as a way to give AI agents (Claude, ChatGPT, etc.) trading capabilities via MCP.
+  reason: >-
+    The product's core identity is an MCP server for trading, explicitly marketed as a way to give AI agents (Claude,
+    ChatGPT, etc.) trading capabilities via MCP.
   evidence:
-    - "Primary page excerpt explicitly mentions 'Agentic: MCP Server' as one of three launch paths"
+    - 'Primary page excerpt explicitly mentions ''Agentic: MCP Server'' as one of three launch paths'
     - Describes connecting Trade It to 'custom AI agents and chatbots like ChatGPT, Claude, & Gemini'
     - MCP is presented as a first-class integration, not a compatibility footnote
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.666Z"
+    updated_at: '2026-05-06T22:12:15.666Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +82,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:38:10.127Z"
+    updated_at: '2026-07-21T15:38:10.127Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,14 +95,18 @@ processing:
       input_hash: sha256:36681ab02119999ec125abca729c7b5e5079f69e1b1f6b901c5c9119fce87eb7
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP server for trading, explicitly marketed as a way to give AI agents (Claude, ChatGPT, etc.) trading capabilities via MCP.
+      decision_reason: >-
+        The product's core identity is an MCP server for trading, explicitly marketed as a way to give AI agents
+        (Claude, ChatGPT, etc.) trading capabilities via MCP.
       decision_evidence:
-        - "Primary page excerpt explicitly mentions 'Agentic: MCP Server' as one of three launch paths"
+        - 'Primary page excerpt explicitly mentions ''Agentic: MCP Server'' as one of three launch paths'
         - Describes connecting Trade It to 'custom AI agents and chatbots like ChatGPT, Claude, & Gemini'
         - MCP is presented as a first-class integration, not a compatibility footnote
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product's primary identity is an MCP server for trading, not a general SDK or framework.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product's primary identity is an MCP server for trading, not a general
+        SDK or framework.
       review_reason: null
       review_resume_lifecycle: null

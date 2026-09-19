@@ -6,8 +6,9 @@ identity:
   github_repo: awesome-vibe-coding/awesome-vibe-coding
 provenance:
   discoveries:
-    - id: discovery__github__ai-for-developers__awesome-vibe-coding__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+    - id: >-
+        discovery__github__ai-for-developers__awesome-vibe-coding__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,10 +20,13 @@ provenance:
           - Related Lists
         anchor_text: Awesome Vibe Coding
         extracted_url: https://github.com/ai-for-developers/awesome-vibe-coding
-        surrounding_text: "- **[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)** – Tools and resources for vibe coding."
+        surrounding_text: >-
+          - **[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)** – Tools and resources
+          for vibe coding.
         confidence: high
-    - id: discovery__github__awesome-vibe-coding__awesome-vibe-coding__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-08-20T04:18:00.401Z"
+    - id: >-
+        discovery__github__awesome-vibe-coding__awesome-vibe-coding__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: '2026-08-20T04:18:00.401Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,7 +38,9 @@ provenance:
           - Related Lists
         anchor_text: Awesome Vibe Coding
         extracted_url: https://github.com/ai-for-developers/awesome-vibe-coding
-        surrounding_text: "- **[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)** – Tools and resources for vibe coding."
+        surrounding_text: >-
+          - **[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)** – Tools and resources
+          for vibe coding.
         confidence: high
 metadata:
   github:
@@ -44,8 +50,8 @@ metadata:
     archived: false
     full_name: awesome-vibe-coding/awesome-vibe-coding
     html_url: https://github.com/awesome-vibe-coding/awesome-vibe-coding
-    created_at: "2023-08-28T16:37:06Z"
-    pushed_at: "2026-08-13T09:17:26Z"
+    created_at: '2023-08-28T16:37:06Z'
+    pushed_at: '2026-08-13T09:17:26Z'
     description: A hand-picked collection of tools and resources for Vibe Coding
     homepage: https://vibecoding.rest/
     topics:
@@ -63,14 +69,20 @@ metadata:
       - vibecode
       - vibecoding
       - vibecoding-tool
-    last_checked_at: "2026-09-07T04:13:29.315Z"
+    last_checked_at: '2026-09-07T04:13:29.315Z'
     readme:
-      fetched_at: "2026-09-07T04:13:29.315Z"
+      fetched_at: '2026-09-07T04:13:29.315Z'
       bytes: 12435
 insights:
-  summary: A curated collection of tools and resources for 'vibe coding'—building software through natural language prompts and rapid iteration.
-  why_it_matters: It provides a centralized directory for the emerging 'vibe coding' workflow, gathering high-level builders and IDEs focused on prompt-driven development.
-  mental_damage: It formalizes the existential dread of wondering if you're actually a software engineer or just a professional prompt stylist.
+  summary: >-
+    A curated collection of tools and resources for 'vibe coding'—building software through natural language prompts and
+    rapid iteration.
+  why_it_matters: >-
+    It provides a centralized directory for the emerging 'vibe coding' workflow, gathering high-level builders and IDEs
+    focused on prompt-driven development.
+  mental_damage: >-
+    It formalizes the existential dread of wondering if you're actually a software engineer or just a professional
+    prompt stylist.
   tags:
     - ai-builders
     - ai-editors
@@ -78,22 +90,21 @@ insights:
     - vibe-coding
   confidence: high
 curation:
-  status: included
-  reason: The project is a curated 'awesome list' designed for ecosystem navigation rather than a standalone tool.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Repo description explicitly states it is a 'collection of tools and resources'
-    - README defines it as an 'awesome list' for the vibe coding mindset
-    - Contains multiple distinct categories of tools like Web-Based Builders and Editors
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (692) exceeded threshold (150)
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-20T16:08:28.862Z"
+    updated_at: '2026-07-20T16:08:28.862Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -114,16 +125,18 @@ processing:
       category_candidates:
         - awesome-awesomes
         - app-builders
-      contrastive_reason: Choose awesome-awesomes over app-builders because the project is a directory of existing products rather than a tool that generates applications itself.
+      contrastive_reason: >-
+        Choose awesome-awesomes over app-builders because the project is a directory of existing products rather than a
+        tool that generates applications itself.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-08-20T04:18:00.403Z"
+    updated_at: '2026-08-20T04:18:00.403Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:29.315Z"
+    updated_at: '2026-09-07T04:13:29.315Z'
     cause: null
     next_retry_at: null

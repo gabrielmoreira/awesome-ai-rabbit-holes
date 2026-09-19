@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hypersequent__qasphere-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Hypersequent/qasphere-mcp
         extracted_url: https://github.com/hypersequent/qasphere-mcp
-        surrounding_text: "- [Hypersequent/qasphere-mcp](https://github.com/Hypersequent/qasphere-mcp) 🎖️ 📇 ☁️ - Integration with [QA Sphere](https://qasphere.com/) test management system, enabling LLMs to discover, summarize, and interact with test cases directly from AI-powered IDEs"
+        surrounding_text: >-
+          - [Hypersequent/qasphere-mcp](https://github.com/Hypersequent/qasphere-mcp) 🎖️ 📇 ☁️ - Integration with [QA
+          Sphere](https://qasphere.com/) test management system, enabling LLMs to discover, summarize, and interact with
+          test cases directly from AI-powered IDEs
         confidence: high
     - id: discovery__github__hypersequent__qasphere-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +38,10 @@ provenance:
           - Official Servers
         anchor_text: QA Sphere
         extracted_url: https://github.com/hypersequent/qasphere-mcp
-        surrounding_text: "- **[QA Sphere](https://github.com/Hypersequent/qasphere-mcp)** - Integration with [QA Sphere](https://qasphere.com/) test management system, enabling LLMs to discover, summarize, and interact with test cases directly from AI-powered IDEs"
+        surrounding_text: >-
+          - **[QA Sphere](https://github.com/Hypersequent/qasphere-mcp)** - Integration with [QA
+          Sphere](https://qasphere.com/) test management system, enabling LLMs to discover, summarize, and interact with
+          test cases directly from AI-powered IDEs
         confidence: high
 metadata:
   github:
@@ -45,8 +51,8 @@ metadata:
     archived: false
     full_name: Hypersequent/qasphere-mcp
     html_url: https://github.com/Hypersequent/qasphere-mcp
-    created_at: "2025-04-01T14:37:25Z"
-    pushed_at: "2026-07-21T22:57:48Z"
+    created_at: '2025-04-01T14:37:25Z'
+    pushed_at: '2026-07-21T22:57:48Z'
     description: MCP Server for QA Sphere TMS
     homepage: https://qasphere.com/features/ai-test-cases-creation
     topics:
@@ -55,13 +61,15 @@ metadata:
       - qasphere
       - test-management
       - test-management-tool
-    last_checked_at: "2026-07-30T05:05:41.264Z"
+    last_checked_at: '2026-07-30T05:05:41.264Z'
     readme:
-      fetched_at: "2026-07-30T05:05:41.264Z"
+      fetched_at: '2026-07-30T05:05:41.264Z'
       bytes: 2392
 insights:
   summary: MCP server that enables LLMs to interact with QA Sphere test management system.
-  why_it_matters: Lets developers query, summarize, and reference test cases from QA Sphere directly within AI-powered IDEs that support MCP.
+  why_it_matters: >-
+    Lets developers query, summarize, and reference test cases from QA Sphere directly within AI-powered IDEs that
+    support MCP.
   mental_damage: Now your AI can argue with your QA team about test cases in real time.
   tags:
     - mcp-server
@@ -71,31 +79,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose primary identity is providing MCP-based access to QA Sphere, fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is an MCP-first server whose primary identity is providing MCP-based access to QA Sphere, fitting the MCP
+    Servers & Tooling category.
   evidence:
     - Repo description explicitly states it is an MCP Server for QA Sphere TMS
     - README confirms it is a Model Context Protocol server for QA Sphere
     - Listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.587Z"
+    updated_at: '2026-05-06T22:12:15.587Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:41.264Z"
+    updated_at: '2026-07-30T05:05:41.264Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:07:29.624Z"
+    updated_at: '2026-07-21T16:07:29.624Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -108,7 +119,9 @@ processing:
       input_hash: sha256:d368dfb8b693067fc212283380952ede641989727ffe4beb4ea8971df3330844
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server whose primary identity is providing MCP-based access to QA Sphere, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is an MCP-first server whose primary identity is providing MCP-based access to QA Sphere, fitting the MCP
+        Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP Server for QA Sphere TMS
         - README confirms it is a Model Context Protocol server for QA Sphere
@@ -116,6 +129,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

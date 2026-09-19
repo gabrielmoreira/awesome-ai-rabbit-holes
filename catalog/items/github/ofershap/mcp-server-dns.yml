@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ofershap__mcp-server-dns__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: ofershap/mcp-server-dns
         extracted_url: https://github.com/ofershap/mcp-server-dns
-        surrounding_text: "- [ofershap/mcp-server-dns](https://github.com/ofershap/mcp-server-dns) [![mcp-server-dns MCP server](https://glama.ai/mcp/servers/ofershap/mcp-server-dns/badges/score.svg)](https://glama.ai/mcp/servers/ofershap/mcp-server-dns) 📇 🏠 - DNS lookups, reverse DNS, WHOIS, and domain availability checks. Zero auth, zero config."
+        surrounding_text: >-
+          - [ofershap/mcp-server-dns](https://github.com/ofershap/mcp-server-dns) [![mcp-server-dns MCP
+          server](https://glama.ai/mcp/servers/ofershap/mcp-server-dns/badges/score.svg)](https://glama.ai/mcp/servers/ofershap/mcp-server-dns)
+          📇 🏠 - DNS lookups, reverse DNS, WHOIS, and domain availability checks. Zero auth, zero config.
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: ofershap/mcp-server-dns
     html_url: https://github.com/ofershap/mcp-server-dns
-    created_at: "2026-02-19T23:28:43Z"
-    pushed_at: "2026-03-10T09:22:19Z"
+    created_at: '2026-02-19T23:28:43Z'
+    pushed_at: '2026-03-10T09:22:19Z'
     description: MCP server for DNS — lookups, reverse DNS, WHOIS, zero auth
     homepage: null
     topics:
@@ -47,14 +50,20 @@ metadata:
       - network
       - typescript
       - whois
-    last_checked_at: "2026-07-20T16:42:22.855Z"
+    last_checked_at: '2026-07-20T16:42:22.855Z'
     readme:
-      fetched_at: "2026-07-20T16:42:22.855Z"
+      fetched_at: '2026-07-20T16:42:22.855Z'
       bytes: 3736
 insights:
-  summary: An MCP server that lets AI assistants perform DNS lookups, reverse DNS, and WHOIS queries using Node.js built-in DNS without API keys or configuration.
-  why_it_matters: Developers debugging email delivery, setting up domains, or investigating suspicious URLs can now delegate DNS and WHOIS lookups directly to their AI assistant instead of switching to the terminal or a browser.
-  mental_damage: We have successfully abstracted away the one networking command that every developer actually knows how to type, so your $20/month assistant can now forget DNS records for you instead.
+  summary: >-
+    An MCP server that lets AI assistants perform DNS lookups, reverse DNS, and WHOIS queries using Node.js built-in DNS
+    without API keys or configuration.
+  why_it_matters: >-
+    Developers debugging email delivery, setting up domains, or investigating suspicious URLs can now delegate DNS and
+    WHOIS lookups directly to their AI assistant instead of switching to the terminal or a browser.
+  mental_damage: >-
+    We have successfully abstracted away the one networking command that every developer actually knows how to type, so
+    your $20/month assistant can now forget DNS records for you instead.
   tags:
     - mcp
     - dns
@@ -64,35 +73,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a domain-specific MCP server that gives AI assistants DNS and WHOIS capabilities, making it a clear fit for the MCP Servers & Tooling category.
+  reason: >-
+    This is a domain-specific MCP server that gives AI assistants DNS and WHOIS capabilities, making it a clear fit for
+    the MCP Servers & Tooling category.
   evidence:
     - Repo description explicitly states 'MCP server for DNS — lookups, reverse DNS, WHOIS, zero auth'
     - README positions it as a tool that 'Works with Claude Desktop, Cursor, VS Code Copilot, and any MCP client'
     - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools' section
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.633Z"
+    updated_at: '2026-05-06T22:12:15.633Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:22.855Z"
+    updated_at: '2026-07-20T16:42:22.855Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__showlab__awesome-video-diffusion__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -20,7 +20,7 @@ provenance:
           - 模型
         anchor_text: Awesome-Video-Diffusion
         extracted_url: https://github.com/showlab/awesome-video-diffusion
-        surrounding_text: "> 🤝[Awesome-Video-Diffusion](https://github.com/showlab/Awesome-Video-Diffusion)"
+        surrounding_text: '> 🤝[Awesome-Video-Diffusion](https://github.com/showlab/Awesome-Video-Diffusion)'
         confidence: high
 metadata:
   github:
@@ -30,10 +30,10 @@ metadata:
     archived: false
     full_name: showlab/Awesome-Video-Diffusion
     html_url: https://github.com/showlab/Awesome-Video-Diffusion
-    created_at: "2023-04-17T10:34:17Z"
-    pushed_at: "2026-06-16T07:51:42Z"
+    created_at: '2023-04-17T10:34:17Z'
+    pushed_at: '2026-06-16T07:51:42Z'
     description: A curated list of recent diffusion models for video generation, editing, and various other applications.
-    homepage: ""
+    homepage: ''
     topics:
       - awesome
       - diffusion-models
@@ -41,14 +41,20 @@ metadata:
       - video-editing
       - video-generation
       - video-generation-evaluation
-    last_checked_at: "2026-07-20T16:42:56.520Z"
+    last_checked_at: '2026-07-20T16:42:56.520Z'
     readme:
-      fetched_at: "2026-07-20T16:42:56.520Z"
+      fetched_at: '2026-07-20T16:42:56.520Z'
       bytes: 309360
 insights:
-  summary: A curated list of recent diffusion models for video generation, editing, restoration, and related research applications.
-  why_it_matters: It serves as a centralized map for developers and researchers navigating the rapidly expanding ecosystem of video diffusion models and toolboxes.
-  mental_damage: Another meticulously organized directory ensuring you can spend three hours researching generative video models instead of fixing the bug in your actual product.
+  summary: >-
+    A curated list of recent diffusion models for video generation, editing, restoration, and related research
+    applications.
+  why_it_matters: >-
+    It serves as a centralized map for developers and researchers navigating the rapidly expanding ecosystem of video
+    diffusion models and toolboxes.
+  mental_damage: >-
+    Another meticulously organized directory ensuring you can spend three hours researching generative video models
+    instead of fixing the bug in your actual product.
   tags:
     - video-generation
     - diffusion-models
@@ -56,36 +62,35 @@ insights:
     - awesome-list
   confidence: high
 curation:
-  status: included
-  reason: This is a classic awesome list focused on video generation research, which fits our scope for developer-facing directories and maps rather than standalone tooling.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - "Repo description explicitly states: 'A curated list of recent diffusion models for video generation, editing, and various other applications.'"
-    - The README is structured as a category-based index covering toolboxes, benchmarks, and commercial products, not a usable SDK or agent.
-    - It is listed in 'awesome-LLM-resources' under a video models section, confirming its identity as a discovery resource.
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (5627) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.648Z"
+    updated_at: '2026-05-06T22:12:15.648Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:56.520Z"
+    updated_at: '2026-07-20T16:42:56.520Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

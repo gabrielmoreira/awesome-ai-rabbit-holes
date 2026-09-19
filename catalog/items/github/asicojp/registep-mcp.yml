@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__asicojp__registep-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-12T15:06:19.300Z"
+      discovered_at: '2026-05-12T15:06:19.300Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 📊 <a name="data-platforms"></a>Data Platforms
         anchor_text: saikiyusuke/registep-mcp
         extracted_url: https://github.com/saikiyusuke/registep-mcp
-        surrounding_text: "- [saikiyusuke/registep-mcp](https://github.com/saikiyusuke/registep-mcp) 📇 ☁️ - AI-powered POS & sales analytics MCP server with 67 tools for Airレジ, スマレジ, and BASE EC integration. Provides store management, sales data querying, AI chat analysis, and weather correlation features."
+        surrounding_text: >-
+          - [saikiyusuke/registep-mcp](https://github.com/saikiyusuke/registep-mcp) 📇 ☁️ - AI-powered POS & sales
+          analytics MCP server with 67 tools for Airレジ, スマレジ, and BASE EC integration. Provides store management, sales
+          data querying, AI chat analysis, and weather correlation features.
         confidence: high
     - id: discovery__github__saikiyusuke__registep-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -36,7 +39,10 @@ provenance:
           - 📊 <a name="data-platforms"></a>Data Platforms
         anchor_text: saikiyusuke/registep-mcp
         extracted_url: https://github.com/saikiyusuke/registep-mcp
-        surrounding_text: "- [saikiyusuke/registep-mcp](https://github.com/saikiyusuke/registep-mcp) 📇 ☁️ - AI-powered POS & sales analytics MCP server with 67 tools for Airレジ, スマレジ, and BASE EC integration. Provides store management, sales data querying, AI chat analysis, and weather correlation features."
+        surrounding_text: >-
+          - [saikiyusuke/registep-mcp](https://github.com/saikiyusuke/registep-mcp) 📇 ☁️ - AI-powered POS & sales
+          analytics MCP server with 67 tools for Airレジ, スマレジ, and BASE EC integration. Provides store management, sales
+          data querying, AI chat analysis, and weather correlation features.
         confidence: high
 metadata:
   github:
@@ -46,17 +52,23 @@ metadata:
     archived: false
     full_name: asicojp/registep-mcp
     html_url: https://github.com/asicojp/registep-mcp
-    created_at: "2026-02-17T18:00:16Z"
-    pushed_at: "2026-06-11T14:30:41Z"
+    created_at: '2026-02-17T18:00:16Z'
+    pushed_at: '2026-06-11T14:30:41Z'
     description: Registep MCP Server - AI-powered POS & sales analytics for Claude Code, Cursor, and other MCP clients
     homepage: https://registep.jp
     topics: []
-    last_checked_at: "2026-09-14T04:13:23.243Z"
+    last_checked_at: '2026-09-14T04:13:23.243Z'
     readme: null
 insights:
-  summary: Registep MCP Server provides AI-powered POS and sales analytics through the Model Context Protocol for Claude Code, Cursor, and other MCP clients.
-  why_it_matters: It enables developers to access sales and point-of-sale data via natural language within their coding assistants, bridging business analytics and development workflows.
-  mental_damage: Yet another MCP server promising to turn your IDE into a retail dashboard, because nothing says 'focused coding' like querying last quarter's shoe sales mid-refactor.
+  summary: >-
+    Registep MCP Server provides AI-powered POS and sales analytics through the Model Context Protocol for Claude Code,
+    Cursor, and other MCP clients.
+  why_it_matters: >-
+    It enables developers to access sales and point-of-sale data via natural language within their coding assistants,
+    bridging business analytics and development workflows.
+  mental_damage: >-
+    Yet another MCP server promising to turn your IDE into a retail dashboard, because nothing says 'focused coding'
+    like querying last quarter's shoe sales mid-refactor.
   tags:
     - analytics
     - japanese
@@ -65,24 +77,31 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server focused on a specific domain (POS/sales analytics), making MCP its core identity rather than a compatibility feature, and it clearly serves as infrastructure for MCP clients like Claude Code and Cursor.
+  reason: >-
+    The product is an MCP server focused on a specific domain (POS/sales analytics), making MCP its core identity rather
+    than a compatibility feature, and it clearly serves as infrastructure for MCP clients like Claude Code and Cursor.
   evidence:
-    - "Repo description: 'Registep MCP Server - AI-powered POS & sales analytics for Claude Code, Cursor, and other MCP clients'"
-    - "Source-list context: Included in awesome-mcp-servers under 'Server Implementations > 📊 Data Platforms'"
-    - "Created and pushed at: 2026-02-17 (very recent, active)"
-    - "Repo description states: 'Registep MCP Server - AI-powered POS & sales analytics for Claude Code, Cursor, and other MCP clients'"
+    - >-
+      Repo description: 'Registep MCP Server - AI-powered POS & sales analytics for Claude Code, Cursor, and other MCP
+      clients'
+    - 'Source-list context: Included in awesome-mcp-servers under ''Server Implementations > 📊 Data Platforms'''
+    - 'Created and pushed at: 2026-02-17 (very recent, active)'
+    - >-
+      Repo description states: 'Registep MCP Server - AI-powered POS & sales analytics for Claude Code, Cursor, and
+      other MCP clients'
     - Listed in awesome-mcp-servers under 'Server Implementations > Data Platforms'
     - Created and pushed recently (2026-02-17), showing active development of a niche MCP integration
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-12T15:58:31.830Z"
+    updated_at: '2026-05-12T15:58:31.830Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
@@ -90,11 +109,11 @@ processing:
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-12T15:06:19.301Z"
+    updated_at: '2026-05-12T15:06:19.301Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:23.243Z"
+    updated_at: '2026-09-14T04:13:23.243Z'
     cause: null
     next_retry_at: null

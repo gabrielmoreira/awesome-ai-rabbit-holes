@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__marcindudekdev__crypto-signals-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: MarcinDudekDev/crypto-signals-mcp
         extracted_url: https://github.com/marcindudekdev/crypto-signals-mcp
-        surrounding_text: "- [MarcinDudekDev/crypto-signals-mcp](https://github.com/MarcinDudekDev/crypto-signals-mcp) [![crypto-signals-mcp MCP server](https://glama.ai/mcp/servers/@MarcinDudekDev/crypto-signals-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@MarcinDudekDev/crypto-signals-mcp) 🐍 ☁️ - Real-time crypto volume anomaly detection across 50+ tokens. Detects unusual trading activity, whale movements, and pump signals via live API."
+        surrounding_text: >-
+          - [MarcinDudekDev/crypto-signals-mcp](https://github.com/MarcinDudekDev/crypto-signals-mcp)
+          [![crypto-signals-mcp MCP
+          server](https://glama.ai/mcp/servers/@MarcinDudekDev/crypto-signals-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@MarcinDudekDev/crypto-signals-mcp)
+          🐍 ☁️ - Real-time crypto volume anomaly detection across 50+ tokens. Detects unusual trading activity, whale
+          movements, and pump signals via live API.
         confidence: high
 metadata:
   github:
@@ -30,14 +35,16 @@ metadata:
     archived: false
     full_name: MarcinDudekDev/crypto-signals-mcp
     html_url: https://github.com/MarcinDudekDev/crypto-signals-mcp
-    created_at: "2026-03-04T17:53:08Z"
-    pushed_at: "2026-03-05T15:02:14Z"
-    description: MCP server for real-time crypto volume anomaly detection across 50+ tokens. Detects unusual trading activity, whale movements, and pump signals.
+    created_at: '2026-03-04T17:53:08Z'
+    pushed_at: '2026-03-05T15:02:14Z'
+    description: >-
+      MCP server for real-time crypto volume anomaly detection across 50+ tokens. Detects unusual trading activity,
+      whale movements, and pump signals.
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:16:55.826Z"
+    last_checked_at: '2026-08-03T05:16:55.826Z'
     readme:
-      fetched_at: "2026-08-03T05:16:55.826Z"
+      fetched_at: '2026-08-03T05:16:55.826Z'
       bytes: 1830
 insights:
   summary: An MCP server that provides real-time crypto volume anomaly detection for 50+ tokens.
@@ -50,31 +57,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server focused on crypto signal delivery, making MCP its core identity rather than a compatibility feature.
+  reason: >-
+    The product is an MCP server focused on crypto signal delivery, making MCP its core identity rather than a
+    compatibility feature.
   evidence:
-    - "Repo description: 'MCP server for real-time crypto volume anomaly detection across 50+ tokens'"
-    - "README title and first line: 'CryptoSignals MCP Server' and 'MCP server for real-time crypto volume anomaly detection'"
+    - 'Repo description: ''MCP server for real-time crypto volume anomaly detection across 50+ tokens'''
+    - >-
+      README title and first line: 'CryptoSignals MCP Server' and 'MCP server for real-time crypto volume anomaly
+      detection'
     - Usage example shows configuration in Claude Desktop as an MCP server via fastmcp
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.628Z"
+    updated_at: '2026-05-06T22:12:15.628Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:55.826Z"
+    updated_at: '2026-08-03T05:16:55.826Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:18:14.140Z"
+    updated_at: '2026-07-21T16:18:14.140Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,14 +99,20 @@ processing:
       input_hash: sha256:82b8e3a97052e900674040f97c6911581c9b0220959d81967a5c6852c02506bd
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server focused on crypto signal delivery, making MCP its core identity rather than a compatibility feature.
+      decision_reason: >-
+        The product is an MCP server focused on crypto signal delivery, making MCP its core identity rather than a
+        compatibility feature.
       decision_evidence:
-        - "Repo description: 'MCP server for real-time crypto volume anomaly detection across 50+ tokens'"
-        - "README title and first line: 'CryptoSignals MCP Server' and 'MCP server for real-time crypto volume anomaly detection'"
+        - 'Repo description: ''MCP server for real-time crypto volume anomaly detection across 50+ tokens'''
+        - >-
+          README title and first line: 'CryptoSignals MCP Server' and 'MCP server for real-time crypto volume anomaly
+          detection'
         - Usage example shows configuration in Claude Desktop as an MCP server via fastmcp
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool is an MCP server itself, not an extension that adds capabilities to another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool is an MCP server itself, not an extension that adds
+        capabilities to another assistant.
       review_reason: null
       review_resume_lifecycle: null

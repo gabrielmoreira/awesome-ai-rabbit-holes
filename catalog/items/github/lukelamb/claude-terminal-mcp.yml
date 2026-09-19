@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lukelamb__claude-terminal-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🖥️ <a name="command-line"></a>Command Line
         anchor_text: LukeLamb/claude-terminal-mcp
         extracted_url: https://github.com/lukelamb/claude-terminal-mcp
-        surrounding_text: "- [LukeLamb/claude-terminal-mcp](https://github.com/LukeLamb/claude-terminal-mcp) [![LukeLamb/claude-terminal-mcp MCP server](https://glama.ai/mcp/servers/LukeLamb/claude-terminal-mcp/badges/score.svg)](https://glama.ai/mcp/servers/LukeLamb/claude-terminal-mcp) 📇 🏠 🐧 🍎 - Terminal, filesystem, and background-job tools for Claude Desktop on Linux/macOS. Zero npm deps, pure Node."
+        surrounding_text: >-
+          - [LukeLamb/claude-terminal-mcp](https://github.com/LukeLamb/claude-terminal-mcp)
+          [![LukeLamb/claude-terminal-mcp MCP
+          server](https://glama.ai/mcp/servers/LukeLamb/claude-terminal-mcp/badges/score.svg)](https://glama.ai/mcp/servers/LukeLamb/claude-terminal-mcp)
+          📇 🏠 🐧 🍎 - Terminal, filesystem, and background-job tools for Claude Desktop on Linux/macOS. Zero npm deps,
+          pure Node.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: LukeLamb/claude-terminal-mcp
     html_url: https://github.com/LukeLamb/claude-terminal-mcp
-    created_at: "2026-04-23T10:09:22Z"
-    pushed_at: "2026-04-24T11:29:39Z"
-    description: Terminal, filesystem, and background-job tools for Claude Desktop on Linux. Zero-dependency MCP extension, MIT-licensed.
+    created_at: '2026-04-23T10:09:22Z'
+    pushed_at: '2026-04-24T11:29:39Z'
+    description: >-
+      Terminal, filesystem, and background-job tools for Claude Desktop on Linux. Zero-dependency MCP extension,
+      MIT-licensed.
     homepage: https://github.com/LukeLamb/claude-terminal-mcp/releases/latest
     topics:
       - anthropic
@@ -51,13 +58,15 @@ metadata:
       - nodejs
       - shell
       - terminal
-    last_checked_at: "2026-07-30T05:06:09.051Z"
+    last_checked_at: '2026-07-30T05:06:09.051Z'
     readme:
-      fetched_at: "2026-07-30T05:06:09.051Z"
+      fetched_at: '2026-07-30T05:06:09.051Z'
       bytes: 6956
 insights:
   summary: Terminal, filesystem, and background-job tools for Claude Desktop on Linux via zero-dependency MCP extension.
-  why_it_matters: It gives Claude Desktop on Linux direct shell and file access, unlocking local automation that was previously macOS/Windows-only.
+  why_it_matters: >-
+    It gives Claude Desktop on Linux direct shell and file access, unlocking local automation that was previously
+    macOS/Windows-only.
   mental_damage: Finally, a way to let your AI break your Linux machine as easily as it could on macOS.
   tags:
     - claude-desktop
@@ -67,31 +76,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server extension that exposes terminal and filesystem tools to Claude Desktop, fitting cleanly as MCP infrastructure rather than a standalone assistant or generic extension.
+  reason: >-
+    The product identity is an MCP server extension that exposes terminal and filesystem tools to Claude Desktop,
+    fitting cleanly as MCP infrastructure rather than a standalone assistant or generic extension.
   evidence:
     - Repo description explicitly calls it a 'Zero-dependency MCP extension' for Claude Desktop.
-    - README states it 'exposes 8 tools to Claude' via an installable Terminal.mcpb, targeting the MCP extension model on Linux.
+    - >-
+      README states it 'exposes 8 tools to Claude' via an installable Terminal.mcpb, targeting the MCP extension model
+      on Linux.
     - Listed in awesome-mcp-servers under Server Implementations > Command Line, reinforcing its MCP server identity.
 placement:
   primary_category: mcp
-  section: null
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-dev-extensions'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: '2026-05-06T22:12:15.627Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:09.051Z"
+    updated_at: '2026-07-30T05:06:09.051Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:17:30.919Z"
+    updated_at: '2026-07-21T16:17:30.919Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,14 +118,23 @@ processing:
       input_hash: sha256:2cea176ecb1bd87d19d0446c85391d88e3658e1467d3aff329da4542b7ee8235
       proposed_primary_category: ai-dev-extensions
       disagreement: true
-      decision_reason: It is an MCP extension that augments Claude Desktop with terminal and filesystem capabilities, making it a host integration rather than a standalone coding assistant.
+      decision_reason: >-
+        It is an MCP extension that augments Claude Desktop with terminal and filesystem capabilities, making it a host
+        integration rather than a standalone coding assistant.
       decision_evidence:
-        - "Repo description: 'Terminal, filesystem, and background-job tools for Claude Desktop on Linux. Zero-dependency MCP extension, MIT-licensed.'"
-        - "README: 'Addresses a gap on Linux Claude Desktop where `claude_desktop_config.json`-style MCP servers aren't loaded... on Linux, the only way to add tools is via installable extensions.'"
+        - >-
+          Repo description: 'Terminal, filesystem, and background-job tools for Claude Desktop on Linux. Zero-dependency
+          MCP extension, MIT-licensed.'
+        - >-
+          README: 'Addresses a gap on Linux Claude Desktop where `claude_desktop_config.json`-style MCP servers aren't
+          loaded... on Linux, the only way to add tools is via installable extensions.'
         - Exposes 8 tools like `run_command`, `read_file`, `list_directory` to extend Claude Desktop's functionality.
       category_candidates:
         - ai-dev-extensions
         - coding-agents
-      contrastive_reason: Choose ai-dev-extensions over coding-agents because the tool primarily augments Claude Desktop with host capabilities (terminal, filesystem, background jobs) rather than acting as a primary coding assistant that plans, writes, or debugs code.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+      contrastive_reason: >-
+        Choose ai-dev-extensions over coding-agents because the tool primarily augments Claude Desktop with host
+        capabilities (terminal, filesystem, background jobs) rather than acting as a primary coding assistant that
+        plans, writes, or debugs code.
+      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-dev-extensions'''
       review_resume_lifecycle: null

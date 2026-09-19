@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__apiarya__wemo-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🏠 <a name="home-automation"></a>Home Automation
         anchor_text: apiarya/wemo-mcp-server
         extracted_url: https://github.com/apiarya/wemo-mcp-server
-        surrounding_text: "- [apiarya/wemo-mcp-server](https://github.com/apiarya/wemo-mcp-server) - [![wemo-mcp-server MCP server](https://glama.ai/mcp/servers/@apiarya/wemo-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/@apiarya/wemo-mcp-server) 🐍 🏠 🍎 🪟 🐧 - Control WeMo smart home devices via AI assistants using natural language. Built on pywemo for 100% local control — no cloud dependency. Supports dimmer brightness, device rename, HomeKit codes, and multi-phase discovery."
+        surrounding_text: >-
+          - [apiarya/wemo-mcp-server](https://github.com/apiarya/wemo-mcp-server) - [![wemo-mcp-server MCP
+          server](https://glama.ai/mcp/servers/@apiarya/wemo-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/@apiarya/wemo-mcp-server)
+          🐍 🏠 🍎 🪟 🐧 - Control WeMo smart home devices via AI assistants using natural language. Built on pywemo for
+          100% local control — no cloud dependency. Supports dimmer brightness, device rename, HomeKit codes, and
+          multi-phase discovery.
         confidence: high
 metadata:
   github:
@@ -30,19 +35,23 @@ metadata:
     archived: false
     full_name: apiarya/wemo-mcp-server
     html_url: https://github.com/apiarya/wemo-mcp-server
-    created_at: "2026-02-22T00:07:46Z"
-    pushed_at: "2026-06-22T16:06:26Z"
+    created_at: '2026-02-22T00:07:46Z'
+    pushed_at: '2026-06-22T16:06:26Z'
     description: Control Wemo smart home devices through AI assistants using natural language.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-10T04:12:56.826Z"
+    last_checked_at: '2026-09-10T04:12:56.826Z'
     readme:
-      fetched_at: "2026-09-10T04:12:56.826Z"
+      fetched_at: '2026-09-10T04:12:56.826Z'
       bytes: 21881
 insights:
   summary: An MCP server that enables AI assistants to control Wemo smart home devices via natural language.
-  why_it_matters: Developers can integrate Wemo device control into AI workflows without writing custom adapters, using MCP as the bridge.
-  mental_damage: Now your AI can turn off the lights while you debug at 3 AM, because nothing says 'productivity' like automating your own sleep deprivation.
+  why_it_matters: >-
+    Developers can integrate Wemo device control into AI workflows without writing custom adapters, using MCP as the
+    bridge.
+  mental_damage: >-
+    Now your AI can turn off the lights while you debug at 3 AM, because nothing says 'productivity' like automating
+    your own sleep deprivation.
   tags:
     - mcp
     - smart-home
@@ -52,31 +61,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a domain-specific MCP server for Wemo devices, not a compatibility footnote."
+  reason: 'MCP is the product identity: this is a domain-specific MCP server for Wemo devices, not a compatibility footnote.'
   evidence:
     - Repo description explicitly states it controls Wemo devices through AI assistants using MCP
     - README highlights MCP tools, resources, and prompts as core features
     - Registered in the MCP Registry with explicit MCP badges and transport support
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.603Z"
+    updated_at: '2026-05-06T22:12:15.603Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:12:56.826Z"
+    updated_at: '2026-09-10T04:12:56.826Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:23:35.158Z"
+    updated_at: '2026-07-21T15:23:35.158Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +99,9 @@ processing:
       input_hash: sha256:208f3a58ad1e44534f6538294542addde4ea9dd85a3106126b756a318505e122
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a domain-specific MCP server for Wemo devices, not a compatibility footnote."
+      decision_reason: >-
+        MCP is the product identity: this is a domain-specific MCP server for Wemo devices, not a compatibility
+        footnote.
       decision_evidence:
         - Repo description explicitly states it controls Wemo devices through AI assistants using MCP
         - README highlights MCP tools, resources, and prompts as core features
@@ -97,6 +109,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

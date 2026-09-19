@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gastownhall__beads__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-08-20T04:18:00.401Z"
+      discovered_at: '2026-08-20T04:18:00.401Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,11 @@ provenance:
           - Agent infrastructure
         anchor_text: Beads
         extracted_url: https://github.com/gastownhall/beads
-        surrounding_text: "- **[Beads](https://github.com/gastownhall/beads)** `⭐ 26.4k` — Distributed graph issue tracker and persistent memory for coding agents, powered by Dolt. Replaces markdown plans with a dependency-aware graph so agents can hold long-horizon work: `bd create` → `bd ready` → `bd update --claim` → `bd close`, with `bd dolt push/pull` syncing between machines and agents. Go, npm `@beads/bd`, PyPI `beads-mcp`. MIT."
+        surrounding_text: >-
+          - **[Beads](https://github.com/gastownhall/beads)** `⭐ 26.4k` — Distributed graph issue tracker and persistent
+          memory for coding agents, powered by Dolt. Replaces markdown plans with a dependency-aware graph so agents can
+          hold long-horizon work: `bd create` → `bd ready` → `bd update --claim` → `bd close`, with `bd dolt push/pull`
+          syncing between machines and agents. Go, npm `@beads/bd`, PyPI `beads-mcp`. MIT.
         confidence: high
 metadata:
   github:
@@ -30,22 +34,26 @@ metadata:
     archived: false
     full_name: gastownhall/beads
     html_url: https://github.com/gastownhall/beads
-    created_at: "2025-10-12T03:09:46Z"
-    pushed_at: "2026-09-03T04:55:53Z"
+    created_at: '2025-10-12T03:09:46Z'
+    pushed_at: '2026-09-03T04:55:53Z'
     description: Beads - A memory upgrade for your coding agent
     homepage: https://beads.gascity.com
     topics:
       - agents
       - claude-code
       - coding
-    last_checked_at: "2026-09-03T05:16:46.254Z"
+    last_checked_at: '2026-09-03T05:16:46.254Z'
     readme:
-      fetched_at: "2026-09-03T05:16:46.254Z"
+      fetched_at: '2026-09-03T05:16:46.254Z'
       bytes: 11057
 insights:
   summary: A distributed, graph-based memory and issue-tracking layer for AI coding agents.
-  why_it_matters: It enables agents to manage long-horizon tasks by replacing fragile markdown-based plans with a version-controlled, dependency-aware memory graph.
-  mental_damage: Because if we're going to delegate our entire codebase to autonomous loops, we might as well give them a way to document their own technical debt.
+  why_it_matters: >-
+    It enables agents to manage long-horizon tasks by replacing fragile markdown-based plans with a version-controlled,
+    dependency-aware memory graph.
+  mental_damage: >-
+    Because if we're going to delegate our entire codebase to autonomous loops, we might as well give them a way to
+    document their own technical debt.
   tags:
     - agents
     - memory
@@ -55,31 +63,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's core novelty is the structured, persistent memory and dependency graph used to provide context to coding agents.
+  reason: >-
+    The tool's core novelty is the structured, persistent memory and dependency graph used to provide context to coding
+    agents.
   evidence:
     - Provides a dependency-aware graph to replace unreliable markdown-based task planning
     - Uses Dolt to enable version-controlled, distributed memory across agents and machines
     - Designed specifically to solve the long-horizon context problem for agents
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: promotion_candidate
   reason: Stars (26825) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-08-20T04:18:00.404Z"
+    updated_at: '2026-08-20T04:18:00.404Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:46.254Z"
+    updated_at: '2026-09-03T05:16:46.254Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-07T04:15:09.426Z"
+    updated_at: '2026-09-07T04:15:09.426Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -90,7 +101,9 @@ processing:
       input_hash: sha256:7bdc5a6147e3f1a61e7cf1d30d53e3c4a5d99d5d387502dd0c643b1c505830c5
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: The tool's core novelty is the structured, persistent memory and dependency graph used to provide context to coding agents.
+      decision_reason: >-
+        The tool's core novelty is the structured, persistent memory and dependency graph used to provide context to
+        coding agents.
       decision_evidence:
         - Provides a dependency-aware graph to replace unreliable markdown-based task planning
         - Uses Dolt to enable version-controlled, distributed memory across agents and machines
@@ -98,7 +111,9 @@ processing:
       category_candidates:
         - context-engineering
         - ai-dev-extensions
-      contrastive_reason: Choose context-engineering over ai-dev-extensions because its fundamental value is the structured memory and dependency graph used to shape the agent's context, rather than just providing a simple integration layer.
+      contrastive_reason: >-
+        Choose context-engineering over ai-dev-extensions because its fundamental value is the structured memory and
+        dependency graph used to shape the agent's context, rather than just providing a simple integration layer.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

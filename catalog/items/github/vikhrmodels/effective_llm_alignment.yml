@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__vikhrmodels__effective_llm_alignment__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 微调 Fine-Tuning
         anchor_text: Effective LLM Alignment
         extracted_url: https://github.com/vikhrmodels/effective_llm_alignment
-        surrounding_text: "30. [Effective LLM Alignment](https://github.com/VikhrModels/effective_llm_alignment/): Effective LLM Alignment Toolkit."
+        surrounding_text: >-
+          30. [Effective LLM Alignment](https://github.com/VikhrModels/effective_llm_alignment/): Effective LLM
+          Alignment Toolkit.
         confidence: high
 metadata:
   github:
@@ -29,19 +31,25 @@ metadata:
     archived: false
     full_name: VikhrModels/effective_llm_alignment
     html_url: https://github.com/VikhrModels/effective_llm_alignment
-    created_at: "2024-09-20T21:54:47Z"
-    pushed_at: "2025-06-25T13:36:45Z"
+    created_at: '2024-09-20T21:54:47Z'
+    pushed_at: '2025-06-25T13:36:45Z'
     description: Effective LLM Alignment Toolkit
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:21:05.284Z"
+    last_checked_at: '2026-07-21T15:21:05.284Z'
     readme:
-      fetched_at: "2026-07-21T15:21:05.284Z"
+      fetched_at: '2026-07-21T15:21:05.284Z'
       bytes: 9553
 insights:
-  summary: Effective LLM Alignment Toolkit provides configurable scripts for SFT, DPO, ORPO, CPO, SimPO, SMPO, GPO, distillation, reward modeling, classification, and prompt optimization using Hugging Face standards.
-  why_it_matters: It gives developers a unified, customizable toolkit to align LLMs with multiple advanced preference optimization methods without stitching together disparate repositories.
-  mental_damage: Another week, another alignment method—now you can try them all in one place before realizing you still need more compute.
+  summary: >-
+    Effective LLM Alignment Toolkit provides configurable scripts for SFT, DPO, ORPO, CPO, SimPO, SMPO, GPO,
+    distillation, reward modeling, classification, and prompt optimization using Hugging Face standards.
+  why_it_matters: >-
+    It gives developers a unified, customizable toolkit to align LLMs with multiple advanced preference optimization
+    methods without stitching together disparate repositories.
+  mental_damage: >-
+    Another week, another alignment method—now you can try them all in one place before realizing you still need more
+    compute.
   tags:
     - llm-alignment
     - preference-optimization
@@ -49,31 +57,36 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The toolkit is a code-first library and CLI for training and aligning LLMs, making it a reusable SDK rather than a standalone agent or app builder.
+  reason: >-
+    The toolkit is a code-first library and CLI for training and aligning LLMs, making it a reusable SDK rather than a
+    standalone agent or app builder.
   evidence:
-    - "Repo description: 'Effective LLM Alignment Toolkit'"
-    - "README: 'super customizable', 'concise', 'user-friendly', and 'efficient toolkit' for training and aligning LLMs via YAML config"
+    - 'Repo description: ''Effective LLM Alignment Toolkit'''
+    - >-
+      README: 'super customizable', 'concise', 'user-friendly', and 'efficient toolkit' for training and aligning LLMs
+      via YAML config
     - Built on PyTorch, Transformers, TRL, Accelerate, FSDP, DeepSpeed, vLLM, Flash Attention, and Poetry
 placement:
-  primary_category: ai-frameworks
-  section: Memory / Retrieval Infrastructure
+  primary_category: local-ai
+  secondary_categories: []
+  section: Fine-tuning & Training
 lifecycle:
   status: promotion_candidate
   reason: Stars (154) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.654Z"
+    updated_at: '2026-05-06T22:12:15.654Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:05.284Z"
+    updated_at: '2026-07-21T15:21:05.284Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-14T05:27:17.236Z"
+    updated_at: '2026-05-14T05:27:17.236Z'
     cause: null
     next_retry_at: null
     attempts: 2

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bitteprotocol__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: bitteprotocol/mcp
         extracted_url: https://github.com/bitteprotocol/mcp
-        surrounding_text: "- [bitteprotocol/mcp](https://github.com/BitteProtocol/mcp) 📇 - Bitte Protocol integration to run AI Agents on several blockchains."
+        surrounding_text: >-
+          - [bitteprotocol/mcp](https://github.com/BitteProtocol/mcp) 📇 - Bitte Protocol integration to run AI Agents
+          on several blockchains.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: BitteProtocol/mcp
     html_url: https://github.com/BitteProtocol/mcp
-    created_at: "2025-03-17T14:51:20Z"
-    pushed_at: "2025-04-09T14:42:28Z"
+    created_at: '2025-03-17T14:51:20Z'
+    pushed_at: '2025-04-09T14:42:28Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:34.809Z"
+    last_checked_at: '2026-09-07T04:13:34.809Z'
     readme:
-      fetched_at: "2026-09-07T04:13:34.809Z"
+      fetched_at: '2026-09-07T04:13:34.809Z'
       bytes: 1240
 insights:
   summary: A monorepo containing MCP (Model Context Protocol) servers for Bitte AI integrations.
-  why_it_matters: Provides MCP server implementations that enable integration with Bitte AI services, expanding the tooling ecosystem for developers using MCP-compatible clients.
+  why_it_matters: >-
+    Provides MCP server implementations that enable integration with Bitte AI services, expanding the tooling ecosystem
+    for developers using MCP-compatible clients.
   mental_damage: Another MCP server to add to your growing list of protocol adapters you’ll forget how to configure by next week.
   tags:
     - mcp
@@ -59,24 +63,25 @@ curation:
     - Listed in awesome-mcp-servers under Finance & Fintech
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:34.809Z"
+    updated_at: '2026-09-07T04:13:34.809Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:26:16.136Z"
+    updated_at: '2026-07-21T15:26:16.136Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -97,6 +102,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server implementation, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server implementation, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

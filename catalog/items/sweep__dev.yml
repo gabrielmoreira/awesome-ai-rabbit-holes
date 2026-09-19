@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__sweep__dev__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Sweep
         anchor_text: Sweep
         extracted_url: https://sweep.dev
-        surrounding_text: "## [Sweep](https://sweep.dev/)"
+        surrounding_text: '## [Sweep](https://sweep.dev/)'
         confidence: high
 metadata:
   github:
@@ -37,7 +37,9 @@ metadata:
     readme: null
 insights:
   summary: A JetBrains IDE plugin providing AI-powered autocomplete and an agent for code assistance.
-  why_it_matters: It brings high-performance, context-aware AI coding assistance directly into JetBrains IDEs, addressing a gap where native AI integrations were previously lacking.
+  why_it_matters: >-
+    It brings high-performance, context-aware AI coding assistance directly into JetBrains IDEs, addressing a gap where
+    native AI integrations were previously lacking.
   mental_damage: Finally, an AI that doesn’t make you alt-tab to a different editor just to get decent autocomplete.
   tags:
     - jetbrains
@@ -48,21 +50,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product positions itself as a primary coding assistant ('The fastest AI copilot for JetBrains') with its own LLMs and agent, fitting the IDE-Native assistant profile rather than just a thin extension.
+  reason: >-
+    The product positions itself as a primary coding assistant ('The fastest AI copilot for JetBrains') with its own
+    LLMs and agent, fitting the IDE-Native assistant profile rather than just a thin extension.
   evidence:
     - Scraped site title describes it as 'AI for JetBrains IDEs' and 'The fastest AI copilot'.
     - Changelog includes 'AI Agent built for JetBrains' and 'Remote MCP Servers' support.
     - Listed in awesome-ai-agents under the description of a copilot that writes code 10x faster.
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: IDE & Editor Add-ons
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-dev-extensions'"
+  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''ai-dev-extensions'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +76,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:37:22.185Z"
+    updated_at: '2026-07-21T15:37:22.185Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +89,9 @@ processing:
       input_hash: sha256:02ed1ce62e791a6fe8cae83aabe0aa2d42176d3c571548b594dd1931250e5ebe
       proposed_primary_category: ai-dev-extensions
       disagreement: true
-      decision_reason: Sweep is primarily a plugin that augments JetBrains IDEs with AI capabilities rather than being a standalone coding assistant.
+      decision_reason: >-
+        Sweep is primarily a plugin that augments JetBrains IDEs with AI capabilities rather than being a standalone
+        coding assistant.
       decision_evidence:
         - Described as 'The fastest AI copilot for JetBrains' with a plugin identity
         - Listed in awesome-ai-agents under 'Sweep' as a JetBrains-focused tool
@@ -92,6 +99,8 @@ processing:
       category_candidates:
         - ai-dev-extensions
         - coding-agents
-      contrastive_reason: Choose ai-dev-extensions over coding-agents because Sweep's primary identity is as a JetBrains plugin that extends the IDE, not as a standalone coding assistant.
-      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-dev-extensions'"
+      contrastive_reason: >-
+        Choose ai-dev-extensions over coding-agents because Sweep's primary identity is as a JetBrains plugin that
+        extends the IDE, not as a standalone coding assistant.
+      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''ai-dev-extensions'''
       review_resume_lifecycle: null

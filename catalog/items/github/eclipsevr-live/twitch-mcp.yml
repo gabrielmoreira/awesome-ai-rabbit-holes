@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__eclipsevr-live__twitch-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -19,7 +19,11 @@ provenance:
           - 💬 Communication
         anchor_text: Eclipse-XV/twitch-mcp
         extracted_url: https://github.com/eclipse-xv/twitch-mcp
-        surrounding_text: "-   **[Eclipse-XV/twitch-mcp](https://github.com/Eclipse-XV/twitch-mcp)** [![GitHub stars](https://img.shields.io/github/stars/Eclipse-XV/twitch-mcp?style=social)](https://github.com/Eclipse-XV/twitch-mcp): Allows Twitch streamers to automate channel point predictions, trigger stream events, and extend interactive chat functionality."
+        surrounding_text: >-
+          -   **[Eclipse-XV/twitch-mcp](https://github.com/Eclipse-XV/twitch-mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/Eclipse-XV/twitch-mcp?style=social)](https://github.com/Eclipse-XV/twitch-mcp):
+          Allows Twitch streamers to automate channel point predictions, trigger stream events, and extend interactive
+          chat functionality.
         confidence: high
 metadata:
   github:
@@ -29,18 +33,22 @@ metadata:
     archived: false
     full_name: eclipsevr-live/twitch-mcp
     html_url: https://github.com/eclipsevr-live/twitch-mcp
-    created_at: "2025-08-06T12:52:06Z"
-    pushed_at: "2025-08-13T20:02:30Z"
+    created_at: '2025-08-06T12:52:06Z'
+    pushed_at: '2025-08-13T20:02:30Z'
     description: A Model Context Protocol (MCP) server which allows MCP Clients (such as Claude) to connect to Twitch Chat.
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-14T04:13:46.451Z"
+    last_checked_at: '2026-09-14T04:13:46.451Z'
     readme:
-      fetched_at: "2026-09-14T04:13:46.451Z"
+      fetched_at: '2026-09-14T04:13:46.451Z'
       bytes: 4353
 insights:
-  summary: An MCP server that connects AI assistants like Claude or Gemini CLI to Twitch Chat for moderation, stream management, and engagement.
-  why_it_matters: Lets developers integrate their coding assistants directly with Twitch Chat for automated moderation, chat analysis, and stream management.
+  summary: >-
+    An MCP server that connects AI assistants like Claude or Gemini CLI to Twitch Chat for moderation, stream
+    management, and engagement.
+  why_it_matters: >-
+    Lets developers integrate their coding assistants directly with Twitch Chat for automated moderation, chat analysis,
+    and stream management.
   mental_damage: Now your AI can ban trolls while you debug your code live on stream.
   tags:
     - mcp
@@ -50,31 +58,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server exposing Twitch Chat capabilities to MCP clients."
+  reason: 'MCP is the product identity: this is a dedicated MCP server exposing Twitch Chat capabilities to MCP clients.'
   evidence:
     - Repo description explicitly states it is an MCP server for Twitch Chat
     - README details MCP client integration (Gemini CLI, Qwen Coder, Claude Code)
     - Listed in awesome-mcp-list under Communication section
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.612Z"
+    updated_at: '2026-05-06T22:12:15.612Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:46.451Z"
+    updated_at: '2026-09-14T04:13:46.451Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:58.060Z"
+    updated_at: '2026-07-21T15:51:58.060Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,7 +96,7 @@ processing:
       input_hash: sha256:f3d5bd7d6d477f3bd880449e12177452ef6e83dc6d10cb3489eb2b6e0cc51bdb
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing Twitch Chat capabilities to MCP clients."
+      decision_reason: 'MCP is the product identity: this is a dedicated MCP server exposing Twitch Chat capabilities to MCP clients.'
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Twitch Chat
         - README details MCP client integration (Gemini CLI, Qwen Coder, Claude Code)
@@ -95,6 +104,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__graphpilot-oss__graphpilot__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: graphpilot-oss/graphpilot
         extracted_url: https://github.com/graphpilot-oss/graphpilot
-        surrounding_text: "- [graphpilot-oss/graphpilot](https://github.com/graphpilot-oss/graphpilot) [![graphpilot-oss/graphpilot MCP server](https://glama.ai/mcp/servers/graphpilot-oss/graphpilot/badges/score.svg)](https://glama.ai/mcp/servers/graphpilot-oss/graphpilot) 📇 🏠 🍎 🪟 🐧 - Structural memory for coding agents. Indexes TypeScript/JavaScript repos and exposes callers, callees, blast-radius impact, and symbol locations over MCP — with file:line@sha evidence anchors and branch-aware differential impact — so agents answer \"who calls X?\" / \"what breaks if I change X?\" without re-reading files. Local-only, zero telemetry, Apache-2.0. `npx @graphpilot-oss/graphpilot mcp`"
+        surrounding_text: >-
+          - [graphpilot-oss/graphpilot](https://github.com/graphpilot-oss/graphpilot) [![graphpilot-oss/graphpilot MCP
+          server](https://glama.ai/mcp/servers/graphpilot-oss/graphpilot/badges/score.svg)](https://glama.ai/mcp/servers/graphpilot-oss/graphpilot)
+          📇 🏠 🍎 🪟 🐧 - Structural memory for coding agents. Indexes TypeScript/JavaScript repos and exposes callers,
+          callees, blast-radius impact, and symbol locations over MCP — with file:line@sha evidence anchors and
+          branch-aware differential impact — so agents answer "who calls X?" / "what breaks if I change X?" without
+          re-reading files. Local-only, zero telemetry, Apache-2.0. `npx @graphpilot-oss/graphpilot mcp`
         confidence: high
 metadata:
   github:
@@ -30,8 +36,8 @@ metadata:
     archived: false
     full_name: graphpilot-oss/graphpilot
     html_url: https://github.com/graphpilot-oss/graphpilot
-    created_at: "2026-05-17T09:21:03Z"
-    pushed_at: "2026-08-01T02:08:35Z"
+    created_at: '2026-05-17T09:21:03Z'
+    pushed_at: '2026-08-01T02:08:35Z'
     description: Structural memory for coding agents — index your repo once, query symbols, callers, and call-edges over MCP.
     homepage: https://github.com/graphpilot-oss/graphpilot
     topics:
@@ -42,14 +48,20 @@ metadata:
       - mcp
       - model-context-protocol
       - typescript
-    last_checked_at: "2026-09-03T05:16:53.884Z"
+    last_checked_at: '2026-09-03T05:16:53.884Z'
     readme:
-      fetched_at: "2026-09-03T05:16:53.884Z"
+      fetched_at: '2026-09-03T05:16:53.884Z'
       bytes: 19682
 insights:
-  summary: A local CLI and MCP server that indexes TypeScript/JavaScript repositories into a structural graph for coding agents to query symbols, callers, and call-edges.
-  why_it_matters: It reduces token spend and hallucinations by providing agents with persistent, structural memory of a codebase's architecture instead of relying on repetitive grep-like file reads.
-  mental_damage: The realization that we are now building sophisticated graph databases just so our agents stop forgetting where a function is called across three files.
+  summary: >-
+    A local CLI and MCP server that indexes TypeScript/JavaScript repositories into a structural graph for coding agents
+    to query symbols, callers, and call-edges.
+  why_it_matters: >-
+    It reduces token spend and hallucinations by providing agents with persistent, structural memory of a codebase's
+    architecture instead of relying on repetitive grep-like file reads.
+  mental_damage: >-
+    The realization that we are now building sophisticated graph databases just so our agents stop forgetting where a
+    function is called across three files.
   tags:
     - mcp
     - code-analysis
@@ -59,31 +71,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core novelty is the structural indexing and memory system used to shape context for other assistants, making it a context engineering tool rather than a standalone agent.
+  reason: >-
+    The core novelty is the structural indexing and memory system used to shape context for other assistants, making it
+    a context engineering tool rather than a standalone agent.
   evidence:
     - README describes it as 'structural memory for coding agents'
     - Core value prop is reducing tokens and hallucinations via a persistent graph index
     - Provides the data (symbols, call-edges) that assistants use to avoid re-grepping files
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-15T05:51:04.989Z"
+    updated_at: '2026-06-15T05:51:04.989Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:53.884Z"
+    updated_at: '2026-09-03T05:16:53.884Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-29T05:40:16.046Z"
+    updated_at: '2026-06-29T05:40:16.046Z'
     cause: null
     next_retry_at: null
     attempts: 1

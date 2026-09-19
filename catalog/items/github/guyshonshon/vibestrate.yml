@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__guyshonshon__vibestrate__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-08-27T06:08:24.604Z"
+      discovered_at: '2026-08-27T06:08:24.604Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,12 @@ provenance:
           - Orchestrators & autonomous loops
         anchor_text: Vibestrate
         extracted_url: https://github.com/guyshonshon/vibestrate
-        surrounding_text: "- **[Vibestrate](https://github.com/guyshonshon/vibestrate)** `⭐ 3` — Local-first orchestrator that runs one task through a YAML flow of seated phases (plan → architect → implement → validate → review → fix → verify) in a git worktree per run. The reviewer seat starts a fresh process rather than inheriting the implementer's session, so it reads the diff cold. Approval gates and a local token/cost/decision ledger; eleven agent CLIs built in. npm `vibestrate`, `vibe` CLI. TypeScript, Apache-2.0."
+        surrounding_text: >-
+          - **[Vibestrate](https://github.com/guyshonshon/vibestrate)** `⭐ 3` — Local-first orchestrator that runs one
+          task through a YAML flow of seated phases (plan → architect → implement → validate → review → fix → verify) in
+          a git worktree per run. The reviewer seat starts a fresh process rather than inheriting the implementer's
+          session, so it reads the diff cold. Approval gates and a local token/cost/decision ledger; eleven agent CLIs
+          built in. npm `vibestrate`, `vibe` CLI. TypeScript, Apache-2.0.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,12 @@ metadata:
     archived: false
     full_name: guyshonshon/vibestrate
     html_url: https://github.com/guyshonshon/vibestrate
-    created_at: "2026-05-16T08:53:34Z"
-    pushed_at: "2026-09-02T18:49:45Z"
-    description: Open-source supervised flow for AI coding. Run Claude Code, Codex, Gemini, Aider or local models as one crew, approve the risky steps yourself, and keep every run log on your machine. Swap providers without rewriting the flow.
+    created_at: '2026-05-16T08:53:34Z'
+    pushed_at: '2026-09-02T18:49:45Z'
+    description: >-
+      Open-source supervised flow for AI coding. Run Claude Code, Codex, Gemini, Aider or local models as one crew,
+      approve the risky steps yourself, and keep every run log on your machine. Swap providers without rewriting the
+      flow.
     homepage: https://vibestrate.com
     topics:
       - agent-orchestration
@@ -53,14 +61,18 @@ metadata:
       - shared-flows
       - vibe-coding
       - workflow-automation
-    last_checked_at: "2026-09-03T05:16:56.483Z"
+    last_checked_at: '2026-09-03T05:16:56.483Z'
     readme:
-      fetched_at: "2026-09-03T05:16:56.483Z"
+      fetched_at: '2026-09-03T05:16:56.483Z'
       bytes: 29262
 insights:
   summary: An open-source orchestrator that chains multiple AI coding agents into supervised, multi-step workflows.
-  why_it_matters: It allows developers to coordinate different models and assistants like Claude Code or Aider into a single, repeatable procedure with manual approval gates.
-  mental_damage: Now you can manage a complex hierarchy of autonomous agents just to decide whether you actually trust the diff they produced.
+  why_it_matters: >-
+    It allows developers to coordinate different models and assistants like Claude Code or Aider into a single,
+    repeatable procedure with manual approval gates.
+  mental_damage: >-
+    Now you can manage a complex hierarchy of autonomous agents just to decide whether you actually trust the diff they
+    produced.
   tags:
     - agent-orchestration
     - vibe-coding
@@ -70,31 +82,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: It functions as a control plane to coordinate multiple existing coding assistants into a single, supervised 'crew' or workflow.
+  reason: >-
+    It functions as a control plane to coordinate multiple existing coding assistants into a single, supervised 'crew'
+    or workflow.
   evidence:
     - Claims to run multiple agents like Claude Code and Aider as a single 'crew'
     - Includes a flow editor and audit tree to manage and supervise multi-step agent runs
     - Provides a mechanism to set roles, rules, and gates for agentic procedures
 placement:
   primary_category: agent-orchestration
-  section: Vertical Orchestration Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-08-27T06:08:24.607Z"
+    updated_at: '2026-08-27T06:08:24.607Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:56.483Z"
+    updated_at: '2026-09-03T05:16:56.483Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-03T05:24:27.333Z"
+    updated_at: '2026-09-03T05:24:27.333Z'
     cause: null
     next_retry_at: null
     classification:
@@ -104,7 +119,9 @@ processing:
       input_hash: sha256:933d3f3e69f6376463fcf08863f522b14a9acba726719e789406a1779d90251c
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: It functions as a control plane to coordinate multiple existing coding assistants into a single, supervised 'crew' or workflow.
+      decision_reason: >-
+        It functions as a control plane to coordinate multiple existing coding assistants into a single, supervised
+        'crew' or workflow.
       decision_evidence:
         - Claims to run multiple agents like Claude Code and Aider as a single 'crew'
         - Includes a flow editor and audit tree to manage and supervise multi-step agent runs
@@ -112,7 +129,9 @@ processing:
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product identity centers on an operated control plane for coordinating multiple agents rather than just a code-first library.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because the product identity centers on an operated control plane
+        for coordinating multiple agents rather than just a code-first library.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

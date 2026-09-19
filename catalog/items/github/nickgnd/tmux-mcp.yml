@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nickgnd__tmux-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Tmux
         extracted_url: https://github.com/nickgnd/tmux-mcp
-        surrounding_text: "- **[Tmux](https://github.com/nickgnd/tmux-mcp)** - Interact with your Tmux sessions, windows and pane, execute commands in tmux panes and retrieve result."
+        surrounding_text: >-
+          - **[Tmux](https://github.com/nickgnd/tmux-mcp)** - Interact with your Tmux sessions, windows and pane,
+          execute commands in tmux panes and retrieve result.
         confidence: high
 metadata:
   github:
@@ -29,22 +31,28 @@ metadata:
     archived: false
     full_name: nickgnd/tmux-mcp
     html_url: https://github.com/nickgnd/tmux-mcp
-    created_at: "2025-03-13T22:28:43Z"
-    pushed_at: "2026-02-14T07:24:57Z"
+    created_at: '2025-03-13T22:28:43Z'
+    pushed_at: '2026-02-14T07:24:57Z'
     description: A MCP server for our beloved terminal multiplexer tmux.
-    homepage: ""
+    homepage: ''
     topics:
       - mcp
       - mcp-server
       - tmux
-    last_checked_at: "2026-07-20T15:12:03.628Z"
+    last_checked_at: '2026-07-20T15:12:03.628Z'
     readme:
-      fetched_at: "2026-07-20T15:12:03.628Z"
+      fetched_at: '2026-07-20T15:12:03.628Z'
       bytes: 2271
 insights:
-  summary: A Model Context Protocol server that lets AI assistants like Claude Desktop read from, control, and interact with live tmux terminal sessions.
-  why_it_matters: It allows coding agents to observe and manipulate long-running terminal workflows, bridging the gap between AI assistants and the multiplexed terminal environments developers actually use.
-  mental_damage: Your AI agent can now crash your tmux sessions with the same efficiency it applies to your production PRs, all while you watch in a split pane.
+  summary: >-
+    A Model Context Protocol server that lets AI assistants like Claude Desktop read from, control, and interact with
+    live tmux terminal sessions.
+  why_it_matters: >-
+    It allows coding agents to observe and manipulate long-running terminal workflows, bridging the gap between AI
+    assistants and the multiplexed terminal environments developers actually use.
+  mental_damage: >-
+    Your AI agent can now crash your tmux sessions with the same efficiency it applies to your production PRs, all while
+    you watch in a split pane.
   tags:
     - mcp
     - tmux
@@ -53,35 +61,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server exposing tmux capabilities, which fits cleanly as a domain-specific server in the MCP category.
+  reason: >-
+    The product identity is an MCP server exposing tmux capabilities, which fits cleanly as a domain-specific server in
+    the MCP category.
   evidence:
-    - "Repo description explicitly states: 'A MCP server for our beloved terminal multiplexer tmux.'"
+    - 'Repo description explicitly states: ''A MCP server for our beloved terminal multiplexer tmux.'''
     - README lists MCP-specific resources and tools like 'tmux://sessions' and 'capture-pane' for Claude Desktop.
     - Listed in 'awesome-mcp-servers' under the 'Community Servers' section.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (268) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.632Z"
+    updated_at: '2026-05-06T22:12:15.632Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:12:03.628Z"
+    updated_at: '2026-07-20T15:12:03.628Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

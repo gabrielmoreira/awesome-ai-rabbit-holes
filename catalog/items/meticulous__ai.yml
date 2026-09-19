@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__meticulous__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - Testing and QA
         anchor_text: Meticulous
         extracted_url: https://meticulous.ai
-        surrounding_text: "- **[Meticulous](https://www.meticulous.ai/)** – AI-driven visual and functional testing."
+        surrounding_text: '- **[Meticulous](https://www.meticulous.ai/)** – AI-driven visual and functional testing.'
         confidence: high
     - id: discovery__www__meticulous__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - Testing and QA
         anchor_text: Meticulous
         extracted_url: https://www.meticulous.ai
-        surrounding_text: "- **[Meticulous](https://www.meticulous.ai/)** – AI-driven visual and functional testing."
+        surrounding_text: '- **[Meticulous](https://www.meticulous.ai/)** – AI-driven visual and functional testing.'
         confidence: high
 metadata:
   github:
@@ -51,9 +51,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered platform that automatically generates and maintains visual frontend browser tests by recording user interactions.
-  why_it_matters: It eliminates the heavy lifting of writing and updating fragile E2E tests by automatically evolving the test suite as the application changes.
-  mental_damage: You can finally stop debugging your tests, only to realize you're now just debugging the deterministic engine that was supposed to solve the problem.
+  summary: >-
+    An AI-powered platform that automatically generates and maintains visual frontend browser tests by recording user
+    interactions.
+  why_it_matters: >-
+    It eliminates the heavy lifting of writing and updating fragile E2E tests by automatically evolving the test suite
+    as the application changes.
+  mental_damage: >-
+    You can finally stop debugging your tests, only to realize you're now just debugging the deterministic engine that
+    was supposed to solve the problem.
   tags:
     - testing
     - frontend
@@ -63,21 +69,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product integrates with the development workflow to automatically generate and maintain tests, fitting as an AI-powered extension to the QA process rather than a primary coding agent.
+  reason: >-
+    The product integrates with the development workflow to automatically generate and maintain tests, fitting as an
+    AI-powered extension to the QA process rather than a primary coding agent.
   evidence:
     - Listed in awesome-ai-coding-tools under the 'Testing and QA' section.
     - Primary excerpt states it 'auto-generates and auto-maintains visual frontend browser tests'.
     - Integrates via a script tag or recorder-loader package into existing development and CI environments.
 placement:
-  primary_category: ai-dev-extensions
-  section: null
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Review, Testing & Repair
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'coding-agents'"
+  reason: 'Categorization review required: placement disagreement: retained ''ai-dev-extensions'', proposed ''coding-agents'''
 processing:
   categorize:
     status: done
-    updated_at: "2026-08-27T06:20:44.679Z"
+    updated_at: '2026-08-27T06:20:44.679Z'
     cause: null
     attempts: 5
     prompt_version: catalog-categorize-v5-single-template
@@ -90,7 +99,9 @@ processing:
       input_hash: sha256:4b030334d8fc5a6aeed98dd0e0d9b894bf263ced4bfa54fd72903626888788e4
       proposed_primary_category: coding-agents
       disagreement: true
-      decision_reason: Meticulous functions as an agentic testing layer that autonomously plans, writes, and maintains visual frontend test suites.
+      decision_reason: >-
+        Meticulous functions as an agentic testing layer that autonomously plans, writes, and maintains visual frontend
+        test suites.
       decision_evidence:
         - Claims to auto-generate and auto-maintain visual frontend browser tests with zero developer effort
         - Uses an AI engine to track code branches and user flows to curate an evolving test suite
@@ -98,12 +109,14 @@ processing:
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because Meticulous is a standalone testing platform that automates a core part of the development workflow rather than being a plugin for an editor or assistant.
-      review_reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'coding-agents'"
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because Meticulous is a standalone testing platform that automates a
+        core part of the development workflow rather than being a plugin for an editor or assistant.
+      review_reason: 'Categorization review required: placement disagreement: retained ''ai-dev-extensions'', proposed ''coding-agents'''
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.967Z"
+    updated_at: '2026-07-21T15:20:21.967Z'
     cause: null
     next_retry_at: null
   stars:

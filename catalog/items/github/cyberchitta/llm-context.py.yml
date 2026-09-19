@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cyberchitta__llm-context.py__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 📂 <a name="file-systems"></a>File Systems
         anchor_text: cyberchitta/llm-context.py
         extracted_url: https://github.com/cyberchitta/llm-context.py
-        surrounding_text: "- [cyberchitta/llm-context.py](https://github.com/cyberchitta/llm-context.py) 🐍 🏠 - Share code context with LLMs via MCP or clipboard"
+        surrounding_text: >-
+          - [cyberchitta/llm-context.py](https://github.com/cyberchitta/llm-context.py) 🐍 🏠 - Share code context with
+          LLMs via MCP or clipboard
         confidence: high
     - id: discovery__github__cyberchitta__llm-context.py__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,10 +37,12 @@ provenance:
           - Community Servers
         anchor_text: llm-context
         extracted_url: https://github.com/cyberchitta/llm-context.py
-        surrounding_text: "- **[llm-context](https://github.com/cyberchitta/llm-context.py)** - Share code context with LLMs via Model Context Protocol or clipboard."
+        surrounding_text: >-
+          - **[llm-context](https://github.com/cyberchitta/llm-context.py)** - Share code context with LLMs via Model
+          Context Protocol or clipboard.
         confidence: high
     - id: discovery__github__cyberchitta__llm-context.py__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -50,7 +54,10 @@ provenance:
           - 📂 File Systems
         anchor_text: cyberchitta/llm-context.py
         extracted_url: https://github.com/cyberchitta/llm-context.py
-        surrounding_text: "-   **[cyberchitta/llm-context.py](https://github.com/cyberchitta/llm-context.py)** [![GitHub stars](https://img.shields.io/github/stars/cyberchitta/llm-context.py?style=social)](https://github.com/cyberchitta/llm-context.py): Shares code context with LLMs via MCP or clipboard."
+        surrounding_text: >-
+          -   **[cyberchitta/llm-context.py](https://github.com/cyberchitta/llm-context.py)** [![GitHub
+          stars](https://img.shields.io/github/stars/cyberchitta/llm-context.py?style=social)](https://github.com/cyberchitta/llm-context.py):
+          Shares code context with LLMs via MCP or clipboard.
         confidence: high
 metadata:
   github:
@@ -60,9 +67,11 @@ metadata:
     archived: false
     full_name: cyberchitta/llm-context.py
     html_url: https://github.com/cyberchitta/llm-context.py
-    created_at: "2024-04-20T15:51:14Z"
-    pushed_at: "2026-08-26T17:05:25Z"
-    description: Share code with LLMs via Model Context Protocol or clipboard. Rule-based customization enables easy switching between different tasks (like code review and documentation). Includes smart code outlining.
+    created_at: '2024-04-20T15:51:14Z'
+    pushed_at: '2026-08-26T17:05:25Z'
+    description: >-
+      Share code with LLMs via Model Context Protocol or clipboard. Rule-based customization enables easy switching
+      between different tasks (like code review and documentation). Includes smart code outlining.
     homepage: https://www.cyberchitta.cc/articles/llm-ctx-why.html
     topics:
       - claude-desktop
@@ -70,13 +79,17 @@ metadata:
       - coding
       - model-context-protocol
       - tools
-    last_checked_at: "2026-09-14T04:13:32.449Z"
+    last_checked_at: '2026-09-14T04:13:32.449Z'
     readme:
-      fetched_at: "2026-09-14T04:13:32.449Z"
+      fetched_at: '2026-09-14T04:13:32.449Z'
       bytes: 5730
 insights:
-  summary: A CLI tool for sharing code with LLMs via Model Context Protocol or clipboard, with rule-based context customization and smart code outlining.
-  why_it_matters: It streamlines LLM workflows by automating context selection, reducing manual file copying and token waste while enabling task-specific focus.
+  summary: >-
+    A CLI tool for sharing code with LLMs via Model Context Protocol or clipboard, with rule-based context customization
+    and smart code outlining.
+  why_it_matters: >-
+    It streamlines LLM workflows by automating context selection, reducing manual file copying and token waste while
+    enabling task-specific focus.
   mental_damage: Finally, a tool that lets you stop playing 'guess which files the AI needs' every time you ask it to review code.
   tags:
     - mcp
@@ -87,31 +100,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core novelty is the context-shaping system itself—using rules for selection, filtering, and formatting project context—rather than being a primary coding agent or a simple host integration.
+  reason: >-
+    The core novelty is the context-shaping system itself—using rules for selection, filtering, and formatting project
+    context—rather than being a primary coding agent or a simple host integration.
   evidence:
     - Repo description states it is for sharing code with LLMs via MCP or clipboard using 'rule-based customization'.
-    - README emphasizes 'smart context management' and 'composable rules' as the solution to context friction, not autonomous coding.
-    - Includes an MCP server ('lc-mcp'), but MCP is a delivery mechanism for its primary identity as a context selection tool.
+    - >-
+      README emphasizes 'smart context management' and 'composable rules' as the solution to context friction, not
+      autonomous coding.
+    - >-
+      Includes an MCP server ('lc-mcp'), but MCP is a delivery mechanism for its primary identity as a context selection
+      tool.
 placement:
-  primary_category: context-engineering
-  section: null
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Context & Session Management
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'mcp'"
+  reason: 'Categorization review required: placement disagreement: retained ''context-engineering'', proposed ''mcp'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.577Z"
+    updated_at: '2026-05-06T22:12:15.577Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:32.449Z"
+    updated_at: '2026-09-14T04:13:32.449Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:49:28.184Z"
+    updated_at: '2026-07-21T15:49:28.184Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -124,7 +144,9 @@ processing:
       input_hash: sha256:25b04516af15c5a0f7a25a4d6368dd1d31a90050af6485002650056718721957
       proposed_primary_category: mcp
       disagreement: true
-      decision_reason: "MCP is the product identity here: it's a server implementation that exposes context management tools via MCP, not just a compatibility feature."
+      decision_reason: >-
+        MCP is the product identity here: it's a server implementation that exposes context management tools via MCP,
+        not just a compatibility feature.
       decision_evidence:
         - Repo description explicitly mentions Model Context Protocol
         - README shows MCP integration as primary workflow (Claude Desktop config example)
@@ -132,6 +154,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the core product is an MCP server providing context tools, not just a standalone context management system.
-      review_reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'mcp'"
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the core product is an MCP server providing context tools, not just
+        a standalone context management system.
+      review_reason: 'Categorization review required: placement disagreement: retained ''context-engineering'', proposed ''mcp'''
       review_resume_lifecycle: null

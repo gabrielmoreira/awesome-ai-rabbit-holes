@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__chat__lmsys__org__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,7 +18,7 @@ provenance:
           - LLM Leaderboard
         anchor_text: lmsys.org
         extracted_url: https://chat.lmsys.org
-        surrounding_text: "- [lmsys.org](https://chat.lmsys.org/) - Benchmarking LLMs in the Wild with Elo Ratings."
+        surrounding_text: '- [lmsys.org](https://chat.lmsys.org/) - Benchmarking LLMs in the Wild with Elo Ratings.'
         confidence: high
 metadata:
   github:
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: A benchmarking platform for evaluating large language models through human-side comparisons.
-  why_it_matters: It provides a standardized way for developers to see how different models perform on specific prompts via side-by-side voting.
-  mental_damage: Nothing quite prepares you for the existential dread of seeing a $0.00 model beat a $15.00 model in a blind taste test.
+  why_it_matters: >-
+    It provides a standardized way for developers to see how different models perform on specific prompts via
+    side-by-side voting.
+  mental_damage: >-
+    Nothing quite prepares you for the existential dread of seeing a $0.00 model beat a $15.00 model in a blind taste
+    test.
   tags:
     - benchmarking
     - llm-leaderboard
@@ -53,14 +57,15 @@ curation:
     - Platform focuses on comparative model ranking/evaluation
 placement:
   primary_category: evals
-  section: Agent Benchmarks
+  secondary_categories: []
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +74,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:29:03.321Z"
+    updated_at: '2026-07-20T15:29:03.321Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,6 +94,8 @@ processing:
       category_candidates:
         - evals
         - awesome-awesomes
-      contrastive_reason: Choose evals over awesome-awesomes because the tool is a functional benchmarking platform rather than just a curated list of links.
+      contrastive_reason: >-
+        Choose evals over awesome-awesomes because the tool is a functional benchmarking platform rather than just a
+        curated list of links.
       review_reason: null
       review_resume_lifecycle: null

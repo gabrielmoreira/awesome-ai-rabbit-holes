@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__isdaniel__pgtuner_mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: pgtuner_mcp
         extracted_url: https://github.com/isdaniel/pgtuner_mcp
-        surrounding_text: "- [pgtuner_mcp](https://github.com/isdaniel/pgtuner_mcp) 🐍🗄️ - provides AI-powered PostgreSQL performance tuning capabilities."
+        surrounding_text: >-
+          - [pgtuner_mcp](https://github.com/isdaniel/pgtuner_mcp) 🐍🗄️ - provides AI-powered PostgreSQL performance
+          tuning capabilities.
         confidence: high
 metadata:
   github:
@@ -30,22 +32,24 @@ metadata:
     archived: false
     full_name: isdaniel/pgtuner_mcp
     html_url: https://github.com/isdaniel/pgtuner_mcp
-    created_at: "2025-11-25T06:45:21Z"
-    pushed_at: "2026-06-02T10:03:09Z"
+    created_at: '2025-11-25T06:45:21Z'
+    pushed_at: '2026-06-02T10:03:09Z'
     description: provides AI-powered PostgreSQL performance tuning capabilities.
-    homepage: ""
+    homepage: ''
     topics:
       - ai
       - mcp-server
       - python
       - python3
-    last_checked_at: "2026-07-30T05:05:45.384Z"
+    last_checked_at: '2026-07-30T05:05:45.384Z'
     readme:
-      fetched_at: "2026-07-30T05:05:45.384Z"
+      fetched_at: '2026-07-30T05:05:45.384Z'
       bytes: 26811
 insights:
   summary: An MCP server that provides AI-powered PostgreSQL performance tuning capabilities.
-  why_it_matters: It helps developers identify slow queries, recommend indexes, analyze execution plans, and test hypothetical indexes without disk usage via HypoPG.
+  why_it_matters: >-
+    It helps developers identify slow queries, recommend indexes, analyze execution plans, and test hypothetical indexes
+    without disk usage via HypoPG.
   mental_damage: Now your AI can tell you your database is slow before your users do.
   tags:
     - postgresql
@@ -56,31 +60,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server with PostgreSQL performance tuning as its primary identity, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product is an MCP server with PostgreSQL performance tuning as its primary identity, fitting the MCP Servers &
+    Tooling category.
   evidence:
     - Repo description explicitly states it is an MCP server for PostgreSQL performance tuning
     - README details MCP-specific features like prompts, resources, and HypoPG integration
     - Listed in awesome-mcp-servers under Database servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.621Z"
+    updated_at: '2026-05-06T22:12:15.621Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:45.384Z"
+    updated_at: '2026-07-30T05:05:45.384Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:08:53.701Z"
+    updated_at: '2026-07-21T16:08:53.701Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -93,7 +100,9 @@ processing:
       input_hash: sha256:56431afe8946cbe4c0724adc98b76555720681241fadb497ed9d01c4ea5f2459
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server with PostgreSQL performance tuning as its primary identity, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product is an MCP server with PostgreSQL performance tuning as its primary identity, fitting the MCP Servers
+        & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for PostgreSQL performance tuning
         - README details MCP-specific features like prompts, resources, and HypoPG integration
@@ -101,6 +110,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension for
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__delmas41__gradusnotation__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: delmas41/gradusnotation
         extracted_url: https://github.com/delmas41/gradusnotation
-        surrounding_text: "- [delmas41/gradusnotation](https://github.com/delmas41/gradusnotation) [![gradusnotation MCP server](https://glama.ai/mcp/servers/delmas41/gradusnotation/badges/score.svg)](https://glama.ai/mcp/servers/delmas41/gradusnotation) 📇 ☁️ 🍎 🪟 🐧 - Render music notation (SVG + MusicXML + MIDI) from a JSON score, validate input, analyze MusicXML harmonically, and search a curated music-theory knowledge base. Free, no auth. `npx -y @gradusmusic/notation-mcp`"
+        surrounding_text: >-
+          - [delmas41/gradusnotation](https://github.com/delmas41/gradusnotation) [![gradusnotation MCP
+          server](https://glama.ai/mcp/servers/delmas41/gradusnotation/badges/score.svg)](https://glama.ai/mcp/servers/delmas41/gradusnotation)
+          📇 ☁️ 🍎 🪟 🐧 - Render music notation (SVG + MusicXML + MIDI) from a JSON score, validate input, analyze
+          MusicXML harmonically, and search a curated music-theory knowledge base. Free, no auth. `npx -y
+          @gradusmusic/notation-mcp`
         confidence: high
 metadata:
   github:
@@ -30,19 +35,25 @@ metadata:
     archived: false
     full_name: delmas41/gradusnotation
     html_url: https://github.com/delmas41/gradusnotation
-    created_at: "2026-05-07T15:05:21Z"
-    pushed_at: "2026-08-26T00:40:47Z"
-    description: Free MCP server + REST API for music notation, for AI agents. A developer tool sponsored by Gradus — a homeschool music-composition curriculum (gradusmusic.com). Not the curriculum itself.
+    created_at: '2026-05-07T15:05:21Z'
+    pushed_at: '2026-08-26T00:40:47Z'
+    description: >-
+      Free MCP server + REST API for music notation, for AI agents. A developer tool sponsored by Gradus — a homeschool
+      music-composition curriculum (gradusmusic.com). Not the curriculum itself.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:38.823Z"
+    last_checked_at: '2026-09-14T04:13:38.823Z'
     readme:
-      fetched_at: "2026-09-14T04:13:38.823Z"
+      fetched_at: '2026-09-14T04:13:38.823Z'
       bytes: 12412
 insights:
   summary: An MCP server for music notation rendering, validation, and music theory analysis.
-  why_it_matters: It enables AI agents to process and visualize music notation, facilitating complex music-related workflows via the Model Context Protocol.
-  mental_damage: Because we definitely needed more ways to verify if an LLM knows the difference between a major seventh and a dominant seventh.
+  why_it_matters: >-
+    It enables AI agents to process and visualize music notation, facilitating complex music-related workflows via the
+    Model Context Protocol.
+  mental_damage: >-
+    Because we definitely needed more ways to verify if an LLM knows the difference between a major seventh and a
+    dominant seventh.
   tags:
     - mcp
     - music-notation
@@ -51,31 +62,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is a domain-specific MCP server that provides structured tools for music notation and theory to host agents.
+  reason: >-
+    The project is a domain-specific MCP server that provides structured tools for music notation and theory to host
+    agents.
   evidence:
     - Repo description identifies it as an 'Open music notation MCP server'
     - README outlines specific tools for notation rendering and theory analysis
     - Designed for integration with MCP hosts like Claude Code and Claude Desktop
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.818Z"
+    updated_at: '2026-05-28T05:28:09.818Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:38.823Z"
+    updated_at: '2026-09-14T04:13:38.823Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-28T05:38:05.909Z"
+    updated_at: '2026-05-28T05:38:05.909Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

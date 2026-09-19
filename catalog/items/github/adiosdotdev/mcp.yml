@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__adiosdotdev__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-09-14T04:13:20.171Z"
+      discovered_at: '2026-09-14T04:13:20.171Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: adiosdotdev/mcp
         extracted_url: https://github.com/adiosdotdev/mcp
-        surrounding_text: "- [adiosdotdev/mcp](https://github.com/adiosdotdev/mcp) [![adiosdotdev/mcp MCP server](https://glama.ai/mcp/servers/adiosdotdev/mcp/badges/score.svg)](https://glama.ai/mcp/servers/adiosdotdev/mcp) 📇 ☁️ - Official Adios MCP server for managing workspaces, previews, builds, logs, services, and production deployments."
+        surrounding_text: >-
+          - [adiosdotdev/mcp](https://github.com/adiosdotdev/mcp) [![adiosdotdev/mcp MCP
+          server](https://glama.ai/mcp/servers/adiosdotdev/mcp/badges/score.svg)](https://glama.ai/mcp/servers/adiosdotdev/mcp)
+          📇 ☁️ - Official Adios MCP server for managing workspaces, previews, builds, logs, services, and production
+          deployments.
         confidence: high
 metadata:
   github:
@@ -30,19 +34,23 @@ metadata:
     archived: false
     full_name: adiosdotdev/mcp
     html_url: https://github.com/adiosdotdev/mcp
-    created_at: "2026-07-15T16:32:10Z"
-    pushed_at: "2026-09-07T23:10:39Z"
+    created_at: '2026-07-15T16:32:10Z'
+    pushed_at: '2026-09-07T23:10:39Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:21.699Z"
+    last_checked_at: '2026-09-14T04:13:21.699Z'
     readme:
-      fetched_at: "2026-09-14T04:13:21.699Z"
+      fetched_at: '2026-09-14T04:13:21.699Z'
       bytes: 6331
 insights:
-  summary: A package that connects AI assistants to the Adios deployment and operations platform via the Model Context Protocol.
+  summary: >-
+    A package that connects AI assistants to the Adios deployment and operations platform via the Model Context
+    Protocol.
   why_it_matters: It allows developers to manage builds, deployments, and debugging directly through their preferred AI coding agents.
-  mental_damage: Because now your coding assistant can not only write your buggy code but also deploy it to production and watch the logs fail in real-time.
+  mental_damage: >-
+    Because now your coding assistant can not only write your buggy code but also deploy it to production and watch the
+    logs fail in real-time.
   tags:
     - mcp
     - deployment
@@ -58,24 +66,25 @@ curation:
     - Supports multiple clients including Claude Code, Gemini CLI, and Kimi Code
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-14T04:13:20.172Z"
+    updated_at: '2026-09-14T04:13:20.172Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:21.699Z"
+    updated_at: '2026-09-14T04:13:21.699Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-14T04:15:50.276Z"
+    updated_at: '2026-09-14T04:15:50.276Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -92,7 +101,9 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is the provision of an MCP server for platform access.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is the provision of an MCP server for
+        platform access.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

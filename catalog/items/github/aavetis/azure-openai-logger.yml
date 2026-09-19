@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aavetis__azure-openai-logger__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,12 @@ provenance:
           - Observability
         anchor_text: Azure OpenAI Logger
         extracted_url: https://github.com/aavetis/azure-openai-logger
-        surrounding_text: "| [Azure OpenAI Logger](https://github.com/aavetis/azure-openai-logger)          | \"Batteries included\" logging solution for your Azure OpenAI instance.                                                                                                                                                          | ![GitHub Badge](https://img.shields.io/github/stars/aavetis/azure-openai-logger?style=flat-square)               |"
+        surrounding_text: >-
+          | [Azure OpenAI Logger](https://github.com/aavetis/azure-openai-logger)          | "Batteries included"
+          logging solution for your Azure OpenAI
+          instance.                                                                                                                                                         
+          | ![GitHub
+          Badge](https://img.shields.io/github/stars/aavetis/azure-openai-logger?style=flat-square)               |
         confidence: high
 metadata:
   github:
@@ -30,19 +35,23 @@ metadata:
     archived: false
     full_name: aavetis/azure-openai-logger
     html_url: https://github.com/aavetis/azure-openai-logger
-    created_at: "2023-09-05T01:28:06Z"
-    pushed_at: "2025-07-06T14:13:13Z"
-    description: "\"Batteries included\" logging solution for your Azure OpenAI instance."
-    homepage: ""
+    created_at: '2023-09-05T01:28:06Z'
+    pushed_at: '2025-07-06T14:13:13Z'
+    description: '"Batteries included" logging solution for your Azure OpenAI instance.'
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-17T04:13:28.382Z"
+    last_checked_at: '2026-09-17T04:13:28.382Z'
     readme:
-      fetched_at: "2026-09-17T04:13:28.382Z"
+      fetched_at: '2026-09-17T04:13:28.382Z'
       bytes: 5698
 insights:
   summary: A deployment solution that uses Azure API Management to proxy and log Azure OpenAI requests to Application Insights.
-  why_it_matters: It allows developers to maintain full control over LLM observability, traces, and usage metrics within their own Azure subscription.
-  mental_damage: Because nothing says 'production ready' like adding another layer of Azure infrastructure just to see why your prompts are failing.
+  why_it_matters: >-
+    It allows developers to maintain full control over LLM observability, traces, and usage metrics within their own
+    Azure subscription.
+  mental_damage: >-
+    Because nothing says 'production ready' like adding another layer of Azure infrastructure just to see why your
+    prompts are failing.
   tags:
     - azure
     - observability
@@ -52,31 +61,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's primary purpose is the observability and tracing of model behavior, which aligns with the explicit focus of the evals category.
+  reason: >-
+    The tool's primary purpose is the observability and tracing of model behavior, which aligns with the explicit focus
+    of the evals category.
   evidence:
     - Uses APIM as a proxy to funnel logs, requests, and responses to Application Insights
     - Provides prebuilt queries and workbooks for visualizing metrics and traces
     - Supports custom header tracking for user, plan, and application analytics
 placement:
   primary_category: evals
-  section: Observability / Tracing / EvalOps
+  secondary_categories: []
+  section: Observability & Tracing
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.599Z"
+    updated_at: '2026-05-06T22:12:15.599Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:28.382Z"
+    updated_at: '2026-09-17T04:13:28.382Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:16:05.582Z"
+    updated_at: '2026-08-27T06:16:05.582Z'
     cause: null
     attempts: 4
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +101,9 @@ processing:
       input_hash: sha256:9311e106f79c121a96707f8ff8af19db662fc0529cb69a17af32679c8b970147
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: The tool's primary purpose is the observability and tracing of model behavior, which aligns with the explicit focus of the evals category.
+      decision_reason: >-
+        The tool's primary purpose is the observability and tracing of model behavior, which aligns with the explicit
+        focus of the evals category.
       decision_evidence:
         - Uses APIM as a proxy to funnel logs, requests, and responses to Application Insights
         - Provides prebuilt queries and workbooks for visualizing metrics and traces
@@ -97,6 +111,8 @@ processing:
       category_candidates:
         - evals
         - ai-frameworks
-      contrastive_reason: Choose evals over ai-frameworks because the tool's core identity is observability and tracing rather than a code-first provider abstraction or SDK.
+      contrastive_reason: >-
+        Choose evals over ai-frameworks because the tool's core identity is observability and tracing rather than a
+        code-first provider abstraction or SDK.
       review_reason: null
       review_resume_lifecycle: null

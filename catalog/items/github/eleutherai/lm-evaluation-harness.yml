@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__eleutherai__lm-evaluation-harness__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 评估 Evaluation
         anchor_text: lm-evaluation-harness
         extracted_url: https://github.com/eleutherai/lm-evaluation-harness
-        surrounding_text: "1. [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness): A framework for few-shot evaluation of language models."
+        surrounding_text: >-
+          1. [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness): A framework for few-shot
+          evaluation of language models.
         confidence: high
 metadata:
   github:
@@ -29,21 +31,23 @@ metadata:
     archived: false
     full_name: EleutherAI/lm-evaluation-harness
     html_url: https://github.com/EleutherAI/lm-evaluation-harness
-    created_at: "2020-08-28T00:09:15Z"
-    pushed_at: "2026-09-10T15:59:22Z"
+    created_at: '2020-08-28T00:09:15Z'
+    pushed_at: '2026-09-10T15:59:22Z'
     description: A framework for few-shot evaluation of language models.
     homepage: https://www.eleuther.ai
     topics:
       - evaluation-framework
       - language-model
       - transformer
-    last_checked_at: "2026-09-14T04:13:47.540Z"
+    last_checked_at: '2026-09-14T04:13:47.540Z'
     readme:
-      fetched_at: "2026-09-14T04:13:47.540Z"
+      fetched_at: '2026-09-14T04:13:47.540Z'
       bytes: 60912
 insights:
   summary: A framework for few-shot evaluation of language models with support for 60+ benchmarks and multiple model backends.
-  why_it_matters: It provides a standardized, reproducible way to test and compare LLM performance across academic benchmarks and custom tasks, powering leaderboards like Hugging Face's Open LLM Leaderboard.
+  why_it_matters: >-
+    It provides a standardized, reproducible way to test and compare LLM performance across academic benchmarks and
+    custom tasks, powering leaderboards like Hugging Face's Open LLM Leaderboard.
   mental_damage: Now you can spend hours tuning prompts only to realize your model was just bad at the benchmark all along.
   tags:
     - evaluation
@@ -53,31 +57,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core job is measuring and comparing LLM behavior across standardized tasks, which aligns perfectly with the Evals & Benchmarks category.
+  reason: >-
+    The core job is measuring and comparing LLM behavior across standardized tasks, which aligns perfectly with the
+    Evals & Benchmarks category.
   evidence:
     - Repo description explicitly states it is 'A framework for few-shot evaluation of language models'
-    - README highlights 60+ academic benchmarks, support for multiple model backends, and usage in hundreds of papers and organizations
+    - >-
+      README highlights 60+ academic benchmarks, support for multiple model backends, and usage in hundreds of papers
+      and organizations
     - Source-list context places it in an 'Evaluation' section
 placement:
   primary_category: evals
-  section: Agent Benchmarks
+  secondary_categories: []
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: promotion_candidate
   reason: Stars (12448) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.612Z"
+    updated_at: '2026-05-06T22:12:15.612Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:47.540Z"
+    updated_at: '2026-09-14T04:13:47.540Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:52:07.560Z"
+    updated_at: '2026-07-21T15:52:07.560Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -90,14 +99,20 @@ processing:
       input_hash: sha256:f304853826c60edf8e37e57b2e50ab73dbb9b8ef287c68442b6116882680abbb
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: The core job is measuring and comparing LLM behavior across standardized tasks, which aligns perfectly with the Evals & Benchmarks category.
+      decision_reason: >-
+        The core job is measuring and comparing LLM behavior across standardized tasks, which aligns perfectly with the
+        Evals & Benchmarks category.
       decision_evidence:
         - Repo description explicitly states it is 'A framework for few-shot evaluation of language models'
-        - README highlights 60+ academic benchmarks, support for multiple model backends, and usage in hundreds of papers and organizations
+        - >-
+          README highlights 60+ academic benchmarks, support for multiple model backends, and usage in hundreds of
+          papers and organizations
         - Source-list context places it in an 'Evaluation' section
       category_candidates:
         - evals
         - ai-frameworks
-      contrastive_reason: Choose evals over ai-frameworks because the primary value is benchmarking and evaluation rather than being a general-purpose SDK for building AI workflows.
+      contrastive_reason: >-
+        Choose evals over ai-frameworks because the primary value is benchmarking and evaluation rather than being a
+        general-purpose SDK for building AI workflows.
       review_reason: null
       review_resume_lifecycle: null

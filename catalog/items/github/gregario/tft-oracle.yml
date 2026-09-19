@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gregario__tft-oracle__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: gregario/tft-oracle
         extracted_url: https://github.com/gregario/tft-oracle
-        surrounding_text: "- [gregario/tft-oracle](https://github.com/gregario/tft-oracle) [![tft-oracle MCP server](https://glama.ai/mcp/servers/gregario/tft-oracle/badges/score.svg)](https://glama.ai/mcp/servers/gregario/tft-oracle) 📇 🏠 - Teamfight Tactics champion, trait, item, and augment reference. 8 tools with full Set 16 data from CommunityDragon, including synergy lookups, item recipes, and rolling odds."
+        surrounding_text: >-
+          - [gregario/tft-oracle](https://github.com/gregario/tft-oracle) [![tft-oracle MCP
+          server](https://glama.ai/mcp/servers/gregario/tft-oracle/badges/score.svg)](https://glama.ai/mcp/servers/gregario/tft-oracle)
+          📇 🏠 - Teamfight Tactics champion, trait, item, and augment reference. 8 tools with full Set 16 data from
+          CommunityDragon, including synergy lookups, item recipes, and rolling odds.
         confidence: high
 metadata:
   github:
@@ -30,14 +34,14 @@ metadata:
     archived: false
     full_name: gregario/tft-oracle
     html_url: https://github.com/gregario/tft-oracle
-    created_at: "2026-03-18T08:41:46Z"
-    pushed_at: "2026-05-02T20:59:49Z"
+    created_at: '2026-03-18T08:41:46Z'
+    pushed_at: '2026-05-02T20:59:49Z'
     description: Teamfight Tactics MCP server — accurate champion, trait, item, and augment data for LLMs
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:54.761Z"
+    last_checked_at: '2026-09-03T05:16:54.761Z'
     readme:
-      fetched_at: "2026-09-03T05:16:54.761Z"
+      fetched_at: '2026-09-03T05:16:54.761Z'
       bytes: 3360
 insights:
   summary: An MCP server providing accurate Teamfight Tactics game data (champions, traits, items, augments) for LLMs.
@@ -51,31 +55,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a domain-specific MCP server exposing structured data for LLM consumption."
+  reason: 'MCP is the product identity: this is a domain-specific MCP server exposing structured data for LLM consumption.'
   evidence:
     - Repo description explicitly states it is a 'Teamfight Tactics MCP server'
     - README details MCP tools and installation via Claude Desktop config
     - MCP compatibility badge and Glama MCP registry badge present
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.617Z"
+    updated_at: '2026-05-06T22:12:15.617Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:54.761Z"
+    updated_at: '2026-09-03T05:16:54.761Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:04:18.863Z"
+    updated_at: '2026-07-21T16:04:18.863Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +93,7 @@ processing:
       input_hash: sha256:d9633071bf5ff11bc68c944527e83a2aebbb5b3ead944f413312c6f3a60c9f10
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a domain-specific MCP server exposing structured data for LLM consumption."
+      decision_reason: 'MCP is the product identity: this is a domain-specific MCP server exposing structured data for LLM consumption.'
       decision_evidence:
         - Repo description explicitly states it is a 'Teamfight Tactics MCP server'
         - README details MCP tools and installation via Claude Desktop config
@@ -96,6 +101,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product is an MCP server (protocol infrastructure) rather than a general context/retrieval system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the product is an MCP server (protocol infrastructure) rather than a
+        general context/retrieval system.
       review_reason: null
       review_resume_lifecycle: null

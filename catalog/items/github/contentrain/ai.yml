@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__contentrain__ai__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Contentrain/ai
         extracted_url: https://github.com/contentrain/ai
-        surrounding_text: "- [Contentrain/ai](https://github.com/Contentrain/ai) [![Contentrain/ai MCP server](https://glama.ai/mcp/servers/Contentrain/ai/badges/score.svg)](https://glama.ai/mcp/servers/Contentrain/ai) 📇 🏠 - Local-first MCP server for AI content governance — 13 tools for model/content CRUD, validation, normalization, and i18n across any framework."
+        surrounding_text: >-
+          - [Contentrain/ai](https://github.com/Contentrain/ai) [![Contentrain/ai MCP
+          server](https://glama.ai/mcp/servers/Contentrain/ai/badges/score.svg)](https://glama.ai/mcp/servers/Contentrain/ai)
+          📇 🏠 - Local-first MCP server for AI content governance — 13 tools for model/content CRUD, validation,
+          normalization, and i18n across any framework.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: Contentrain/ai
     html_url: https://github.com/Contentrain/ai
-    created_at: "2026-03-09T15:08:35Z"
-    pushed_at: "2026-09-13T17:13:07Z"
-    description: Repo-native content governance for AI agents. Extract, review, and deliver UI text, docs, and structured content from Git.
+    created_at: '2026-03-09T15:08:35Z'
+    pushed_at: '2026-09-13T17:13:07Z'
+    description: >-
+      Repo-native content governance for AI agents. Extract, review, and deliver UI text, docs, and structured content
+      from Git.
     homepage: https://ai.contentrain.io
     topics:
       - ai-agents
@@ -49,13 +55,17 @@ metadata:
       - sdk
       - typescript
       - windsurf
-    last_checked_at: "2026-09-14T04:13:29.101Z"
+    last_checked_at: '2026-09-14T04:13:29.101Z'
     readme:
-      fetched_at: "2026-09-14T04:13:29.101Z"
+      fetched_at: '2026-09-14T04:13:29.101Z'
       bytes: 13878
 insights:
-  summary: Repo-native content governance for AI agents that extracts, reviews, and delivers UI text, docs, and structured content from Git.
-  why_it_matters: It turns hardcoded strings in codebases into a governed, reviewable content layer that agents can manage while enforcing schemas and Git workflows.
+  summary: >-
+    Repo-native content governance for AI agents that extracts, reviews, and delivers UI text, docs, and structured
+    content from Git.
+  why_it_matters: >-
+    It turns hardcoded strings in codebases into a governed, reviewable content layer that agents can manage while
+    enforcing schemas and Git workflows.
   mental_damage: Finally, a way to stop your AI from inventing new button labels every time it touches a component.
   tags:
     - content-governance
@@ -66,31 +76,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: it provides a server with 17 tools for content governance, and the README explicitly frames it as an MCP-first toolkit."
+  reason: >-
+    MCP is the product identity here: it provides a server with 17 tools for content governance, and the README
+    explicitly frames it as an MCP-first toolkit.
   evidence:
     - Repo description explicitly states 'Repo-native content governance for AI agents' with MCP in topics
     - README shows MCP as core integration with 17 tools and agent workflow
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.609Z"
+    updated_at: '2026-05-06T22:12:15.609Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:29.101Z"
+    updated_at: '2026-09-14T04:13:29.101Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:48:40.321Z"
+    updated_at: '2026-07-21T15:48:40.321Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -103,7 +116,9 @@ processing:
       input_hash: sha256:021badc380e3cf61e7edde8f0c6ddb4dc07e562cb73000bc2ea09a98b38d8b1b
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: it provides a server with 17 tools for content governance, and the README explicitly frames it as an MCP-first toolkit."
+      decision_reason: >-
+        MCP is the product identity here: it provides a server with 17 tools for content governance, and the README
+        explicitly frames it as an MCP-first toolkit.
       decision_evidence:
         - Repo description explicitly states 'Repo-native content governance for AI agents' with MCP in topics
         - README shows MCP as core integration with 17 tools and agent workflow
@@ -111,6 +126,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server with content governance tools, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server with content governance tools, not
+        merely an extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

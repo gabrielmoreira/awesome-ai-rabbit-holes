@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jeannier__homebrew-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 📂 <a name="file-systems"></a>File Systems
         anchor_text: jeannier/homebrew-mcp
         extracted_url: https://github.com/jeannier/homebrew-mcp
-        surrounding_text: "- [jeannier/homebrew-mcp](https://github.com/jeannier/homebrew-mcp) 🐍 🏠 🍎 - Control your macOS Homebrew setup using natural language via this MCP server. Simply manage your packages, or ask for suggestions, troubleshoot brew issues etc."
+        surrounding_text: >-
+          - [jeannier/homebrew-mcp](https://github.com/jeannier/homebrew-mcp) 🐍 🏠 🍎 - Control your macOS Homebrew
+          setup using natural language via this MCP server. Simply manage your packages, or ask for suggestions,
+          troubleshoot brew issues etc.
         confidence: high
     - id: discovery__github__jeannier__homebrew-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,10 +38,12 @@ provenance:
           - Community Servers
         anchor_text: Homebrew MCP
         extracted_url: https://github.com/jeannier/homebrew-mcp
-        surrounding_text: "- **[Homebrew MCP](https://github.com/jeannier/homebrew-mcp)** - Interact with Homebrew (the package manager for macOS and Linux) using natural language commands."
+        surrounding_text: >-
+          - **[Homebrew MCP](https://github.com/jeannier/homebrew-mcp)** - Interact with Homebrew (the package manager
+          for macOS and Linux) using natural language commands.
         confidence: high
     - id: discovery__github__jeannier__homebrew-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-09-01T14:31:13.862Z"
+      discovered_at: '2026-09-01T14:31:13.862Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -50,7 +55,10 @@ provenance:
           - 🖥️ Command Line
         anchor_text: jeannier/homebrew-mcp
         extracted_url: https://github.com/jeannier/homebrew-mcp
-        surrounding_text: "-   **[jeannier/homebrew-mcp](https://github.com/jeannier/homebrew-mcp)** [![GitHub stars](https://img.shields.io/github/stars/jeannier/homebrew-mcp?style=social)](https://github.com/jeannier/homebrew-mcp): Manages macOS Homebrew packages, searches formulae, and troubleshoots brew issues."
+        surrounding_text: >-
+          -   **[jeannier/homebrew-mcp](https://github.com/jeannier/homebrew-mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/jeannier/homebrew-mcp?style=social)](https://github.com/jeannier/homebrew-mcp):
+          Manages macOS Homebrew packages, searches formulae, and troubleshoots brew issues.
         confidence: high
 metadata:
   github:
@@ -60,19 +68,25 @@ metadata:
     archived: false
     full_name: jeannier/homebrew-mcp
     html_url: https://github.com/jeannier/homebrew-mcp
-    created_at: "2025-05-23T13:37:18Z"
-    pushed_at: "2025-06-23T23:33:51Z"
-    description: "Homebrew MCP : Comprehensive brew support for installing, upgrading, searching, and maintaining macOS packages."
+    created_at: '2025-05-23T13:37:18Z'
+    pushed_at: '2025-06-23T23:33:51Z'
+    description: 'Homebrew MCP : Comprehensive brew support for installing, upgrading, searching, and maintaining macOS packages.'
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:49.523Z"
+    last_checked_at: '2026-07-30T05:05:49.523Z'
     readme:
-      fetched_at: "2026-07-30T05:05:49.523Z"
+      fetched_at: '2026-07-30T05:05:49.523Z'
       bytes: 14988
 insights:
-  summary: An MCP server that exposes Homebrew package management commands as tools for MCP-compatible clients like Claude Desktop and Cursor.
-  why_it_matters: Lets AI assistants directly install, upgrade, search, and manage macOS packages via Homebrew without shelling out manually.
-  mental_damage: Now your AI can `brew install` its own dependencies while you watch, wondering if this is progress or just outsourcing your sudo privileges.
+  summary: >-
+    An MCP server that exposes Homebrew package management commands as tools for MCP-compatible clients like Claude
+    Desktop and Cursor.
+  why_it_matters: >-
+    Lets AI assistants directly install, upgrade, search, and manage macOS packages via Homebrew without shelling out
+    manually.
+  mental_damage: >-
+    Now your AI can `brew install` its own dependencies while you watch, wondering if this is progress or just
+    outsourcing your sudo privileges.
   tags:
     - mcp
     - homebrew
@@ -82,31 +96,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server for Homebrew, not a generic tool or extension."
+  reason: 'MCP is the product identity: this is a dedicated MCP server for Homebrew, not a generic tool or extension.'
   evidence:
     - Repo description explicitly states it is a Homebrew MCP server
     - README confirms it is an MCP server exposing Homebrew commands as tools
     - Already listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-01T14:31:13.864Z"
+    updated_at: '2026-09-01T14:31:13.864Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:49.523Z"
+    updated_at: '2026-07-30T05:05:49.523Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:20.898Z"
+    updated_at: '2026-07-21T16:10:20.898Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -119,7 +134,7 @@ processing:
       input_hash: sha256:9f9531a04ab73b4bfb16c96a94cf76607a5c768b3dc1577b11096c98a0ada03a
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server for Homebrew, not a generic tool or extension."
+      decision_reason: 'MCP is the product identity: this is a dedicated MCP server for Homebrew, not a generic tool or extension.'
       decision_evidence:
         - Repo description explicitly states it is a Homebrew MCP server
         - README confirms it is an MCP server exposing Homebrew commands as tools
@@ -127,6 +142,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

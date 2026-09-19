@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__andybrandt__mcp-simple-pubmed__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -19,7 +19,10 @@ provenance:
           - 🔎 Search
         anchor_text: andybrandt/mcp-simple-pubmed
         extracted_url: https://github.com/andybrandt/mcp-simple-pubmed
-        surrounding_text: "-   **[andybrandt/mcp-simple-pubmed](https://github.com/andybrandt/mcp-simple-pubmed)** [![GitHub stars](https://img.shields.io/github/stars/andybrandt/mcp-simple-pubmed?style=social)](https://github.com/andybrandt/mcp-simple-pubmed): Allows searching and reading papers from PubMed."
+        surrounding_text: >-
+          -   **[andybrandt/mcp-simple-pubmed](https://github.com/andybrandt/mcp-simple-pubmed)** [![GitHub
+          stars](https://img.shields.io/github/stars/andybrandt/mcp-simple-pubmed?style=social)](https://github.com/andybrandt/mcp-simple-pubmed):
+          Allows searching and reading papers from PubMed.
         confidence: high
 metadata:
   github:
@@ -29,19 +32,23 @@ metadata:
     archived: false
     full_name: andybrandt/mcp-simple-pubmed
     html_url: https://github.com/andybrandt/mcp-simple-pubmed
-    created_at: "2024-12-11T14:53:03Z"
-    pushed_at: "2026-03-19T13:33:40Z"
+    created_at: '2024-12-11T14:53:03Z'
+    pushed_at: '2026-03-19T13:33:40Z'
     description: MCP server for searching and querying PubMed medical papers/research database
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:44.127Z"
+    last_checked_at: '2026-09-17T04:13:44.127Z'
     readme:
-      fetched_at: "2026-09-17T04:13:44.127Z"
+      fetched_at: '2026-09-17T04:13:44.127Z'
       bytes: 5037
 insights:
   summary: An MCP server that provides access to the PubMed medical research database via the Entrez API.
-  why_it_matters: It allows AI assistants to perform specialized medical literature searches and retrieve article abstracts and full text directly within a conversation.
-  mental_damage: "Just what you needed: a way to have Claude hallucinate citations with even higher confidence by pulling from actual medical papers."
+  why_it_matters: >-
+    It allows AI assistants to perform specialized medical literature searches and retrieve article abstracts and full
+    text directly within a conversation.
+  mental_damage: >-
+    Just what you needed: a way to have Claude hallucinate citations with even higher confidence by pulling from actual
+    medical papers.
   tags:
     - mcp
     - pubmed
@@ -50,31 +57,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server designed to extend the capabilities of AI clients with a specific domain (medical research).
+  reason: >-
+    The product's primary identity is an MCP server designed to extend the capabilities of AI clients with a specific
+    domain (medical research).
   evidence:
     - Repo description identifies it as an 'MCP server for searching and querying PubMed'
     - README specifies it provides tools and prompts specifically for MCP clients like Claude Desktop
     - Identity is centered on the Model Context Protocol implementation
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: promotion_candidate
   reason: Stars (164) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.602Z"
+    updated_at: '2026-05-06T22:12:15.602Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:44.127Z"
+    updated_at: '2026-09-17T04:13:44.127Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:22:52.630Z"
+    updated_at: '2026-07-21T15:22:52.630Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -87,7 +96,9 @@ processing:
       input_hash: sha256:4c9359455a81b904d422ae21ef7497d7dcf9ea8b70ba5f627b0859b1bf3ac5cc
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's primary identity is an MCP server designed to extend the capabilities of AI clients with a specific domain (medical research).
+      decision_reason: >-
+        The product's primary identity is an MCP server designed to extend the capabilities of AI clients with a
+        specific domain (medical research).
       decision_evidence:
         - Repo description identifies it as an 'MCP server for searching and querying PubMed'
         - README specifies it provides tools and prompts specifically for MCP clients like Claude Desktop
@@ -95,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is the MCP protocol implementation itself rather than just a generic extension for a specific host.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is the MCP protocol implementation itself
+        rather than just a generic extension for a specific host.
       review_reason: null
       review_resume_lifecycle: null

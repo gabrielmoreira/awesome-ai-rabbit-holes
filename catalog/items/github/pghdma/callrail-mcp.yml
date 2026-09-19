@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pghdma__callrail-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,14 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: pghdma/callrail-mcp
         extracted_url: https://github.com/pghdma/callrail-mcp
-        surrounding_text: "- [pghdma/callrail-mcp](https://github.com/pghdma/callrail-mcp) [![pghdma/callrail-mcp MCP server](https://glama.ai/mcp/servers/pghdma/callrail-mcp/badges/score.svg)](https://glama.ai/mcp/servers/pghdma/callrail-mcp) 🐍 🏠 - CallRail REST API v3 integration with 49 tools for call tracking, form submissions, transcripts, full CRUD on tags/trackers/companies/users, plus agency-specific aggregation tools (`usage_summary` for per-client cost attribution, `compare_periods` for MoM deltas, `bulk_update_calls` with dry-run, `spam_detector`, `call_eligibility_check` for Google Ads conversion debugging). Built by an actual CallRail customer for agency use. Install: `pipx install callrail-mcp`."
+        surrounding_text: >-
+          - [pghdma/callrail-mcp](https://github.com/pghdma/callrail-mcp) [![pghdma/callrail-mcp MCP
+          server](https://glama.ai/mcp/servers/pghdma/callrail-mcp/badges/score.svg)](https://glama.ai/mcp/servers/pghdma/callrail-mcp)
+          🐍 🏠 - CallRail REST API v3 integration with 49 tools for call tracking, form submissions, transcripts, full
+          CRUD on tags/trackers/companies/users, plus agency-specific aggregation tools (`usage_summary` for per-client
+          cost attribution, `compare_periods` for MoM deltas, `bulk_update_calls` with dry-run, `spam_detector`,
+          `call_eligibility_check` for Google Ads conversion debugging). Built by an actual CallRail customer for agency
+          use. Install: `pipx install callrail-mcp`.
         confidence: high
 metadata:
   github:
@@ -30,9 +37,11 @@ metadata:
     archived: false
     full_name: pghdma/callrail-mcp
     html_url: https://github.com/pghdma/callrail-mcp
-    created_at: "2026-04-23T18:48:28Z"
-    pushed_at: "2026-07-03T18:44:35Z"
-    description: Model Context Protocol (MCP) server for the CallRail REST API v3 — query calls, form submissions, transcripts, and more from Claude Code, Claude Desktop, Cursor, or any MCP client.
+    created_at: '2026-04-23T18:48:28Z'
+    pushed_at: '2026-07-03T18:44:35Z'
+    description: >-
+      Model Context Protocol (MCP) server for the CallRail REST API v3 — query calls, form submissions, transcripts, and
+      more from Claude Code, Claude Desktop, Cursor, or any MCP client.
     homepage: https://pghdma.com
     topics:
       - agency-tools
@@ -50,14 +59,20 @@ metadata:
       - mcp-server
       - model-context-protocol
       - python
-    last_checked_at: "2026-07-20T16:42:33.089Z"
+    last_checked_at: '2026-07-20T16:42:33.089Z'
     readme:
-      fetched_at: "2026-07-20T16:42:33.089Z"
+      fetched_at: '2026-07-20T16:42:33.089Z'
       bytes: 16448
 insights:
-  summary: An MCP server that exposes the CallRail REST API v3 to MCP-compatible clients for querying calls, transcripts, and marketing attribution data.
-  why_it_matters: Developers and marketing agencies can query call analytics, debug conversion tracking, and manage CallRail resources directly through Claude Code, Cursor, or other MCP clients without switching contexts.
-  mental_damage: Now your coding assistant can worry about why your CallRail bill is $174 while you still haven't fixed that production bug from three weeks ago.
+  summary: >-
+    An MCP server that exposes the CallRail REST API v3 to MCP-compatible clients for querying calls, transcripts, and
+    marketing attribution data.
+  why_it_matters: >-
+    Developers and marketing agencies can query call analytics, debug conversion tracking, and manage CallRail resources
+    directly through Claude Code, Cursor, or other MCP clients without switching contexts.
+  mental_damage: >-
+    Now your coding assistant can worry about why your CallRail bill is $174 while you still haven't fixed that
+    production bug from three weeks ago.
   tags:
     - mcp
     - callrail
@@ -67,35 +82,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: This is a domain-specific MCP server that exposes CallRail API functionality to any MCP-compatible client, fitting cleanly as a domain server in the MCP category.
+  reason: >-
+    This is a domain-specific MCP server that exposes CallRail API functionality to any MCP-compatible client, fitting
+    cleanly as a domain server in the MCP category.
   evidence:
     - Repo description explicitly states 'Model Context Protocol (MCP) server for the CallRail REST API v3'
     - README confirms it 'speaks standard MCP stdio' and configures as an mcpServer in Claude/Cursor
     - Listed in awesome-mcp-servers under Server Implementations > Marketing section
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.642Z"
+    updated_at: '2026-05-06T22:12:15.642Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:33.089Z"
+    updated_at: '2026-07-20T16:42:33.089Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

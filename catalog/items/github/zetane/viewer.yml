@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__zetane__viewer__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,10 @@ provenance:
           - Visualization
         anchor_text: Zetane Viewer
         extracted_url: https://github.com/zetane/viewer
-        surrounding_text: "| [Zetane Viewer](https://github.com/zetane/viewer)              | ML models and internal tensors 3D visualizer.                                                                                                                                 | ![GitHub Badge](https://img.shields.io/github/stars/zetane/viewer.svg?style=flat-square)                |"
+        surrounding_text: >-
+          | [Zetane Viewer](https://github.com/zetane/viewer)              | ML models and internal tensors 3D
+          visualizer.                                                                                                                                
+          | ![GitHub Badge](https://img.shields.io/github/stars/zetane/viewer.svg?style=flat-square)                |
         confidence: high
 metadata:
   github:
@@ -30,18 +33,20 @@ metadata:
     archived: false
     full_name: zetane/viewer
     html_url: https://github.com/zetane/viewer
-    created_at: "2021-02-17T16:12:05Z"
-    pushed_at: "2022-08-08T06:59:50Z"
+    created_at: '2021-02-17T16:12:05Z'
+    pushed_at: '2022-08-08T06:59:50Z'
     description: ML models and internal tensors 3D visualizer
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:21:26.810Z"
+    last_checked_at: '2026-07-21T15:21:26.810Z'
     readme:
-      fetched_at: "2026-07-21T15:21:26.809Z"
+      fetched_at: '2026-07-21T15:21:26.809Z'
       bytes: 7487
 insights:
   summary: Zetane Viewer is a 3D visualizer for ML models and internal tensors, supporting ONNX and ZTN formats.
-  why_it_matters: It helps developers debug and understand model behavior by visualizing architecture, weights, and activations in an interactive 3D interface.
+  why_it_matters: >-
+    It helps developers debug and understand model behavior by visualizing architecture, weights, and activations in an
+    interactive 3D interface.
   mental_damage: Another tool to convince yourself you understand your black box while the real issue is still your learning rate.
   tags:
     - ml-visualization
@@ -50,31 +55,36 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Zetane Viewer is a standalone desktop tool for visualizing ML models and tensors, augmenting model inspection workflows but not acting as a coding assistant or agent.
+  reason: >-
+    Zetane Viewer is a standalone desktop tool for visualizing ML models and tensors, augmenting model inspection
+    workflows but not acting as a coding assistant or agent.
   evidence:
-    - "Repo description: 'ML models and internal tensors 3D visualizer'"
-    - "README: Tool to 'understand and accelerate discovery in machine learning' by visualizing model architecture and internal data"
-    - "Not a coding assistant: does not plan, write, test, or debug code; focused on model introspection"
+    - 'Repo description: ''ML models and internal tensors 3D visualizer'''
+    - >-
+      README: Tool to 'understand and accelerate discovery in machine learning' by visualizing model architecture and
+      internal data
+    - 'Not a coding assistant: does not plan, write, test, or debug code; focused on model introspection'
 placement:
-  primary_category: ai-dev-extensions
-  section: IDE / UI / Workflow Add-ons
+  primary_category: evals
+  secondary_categories: []
+  section: Observability & Tracing
 lifecycle:
   status: promotion_candidate
   reason: Stars (1785) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.657Z"
+    updated_at: '2026-05-06T22:12:15.657Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:26.810Z"
+    updated_at: '2026-07-21T15:21:26.810Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:52:25.948Z"
+    updated_at: '2026-05-12T15:52:25.948Z'
     cause: null
     next_retry_at: null
     attempts: 1

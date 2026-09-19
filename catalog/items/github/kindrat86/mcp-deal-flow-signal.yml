@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kindrat86__mcp-deal-flow-signal__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kindrat86/mcp-deal-flow-signal
         extracted_url: https://github.com/kindrat86/mcp-deal-flow-signal
-        surrounding_text: "- [kindrat86/mcp-deal-flow-signal](https://github.com/kindrat86/mcp-deal-flow-signal) [![kindrat86/mcp-deal-flow-signal MCP server](https://glama.ai/mcp/servers/kindrat86/mcp-deal-flow-signal/badges/score.svg)](https://glama.ai/mcp/servers/kindrat86/mcp-deal-flow-signal) 📇 ☁️ - VC deal flow signals from GitHub engineering activity. Tracks startup commit velocity, contributor growth, and repo expansion across 20 sectors for seed and Series A investors. No API key required. Install: `npx @gitdealflow/mcp-signal`."
+        surrounding_text: >-
+          - [kindrat86/mcp-deal-flow-signal](https://github.com/kindrat86/mcp-deal-flow-signal)
+          [![kindrat86/mcp-deal-flow-signal MCP
+          server](https://glama.ai/mcp/servers/kindrat86/mcp-deal-flow-signal/badges/score.svg)](https://glama.ai/mcp/servers/kindrat86/mcp-deal-flow-signal)
+          📇 ☁️ - VC deal flow signals from GitHub engineering activity. Tracks startup commit velocity, contributor
+          growth, and repo expansion across 20 sectors for seed and Series A investors. No API key required. Install:
+          `npx @gitdealflow/mcp-signal`.
         confidence: high
 metadata:
   github:
@@ -30,8 +36,8 @@ metadata:
     archived: false
     full_name: kindrat86/mcp-deal-flow-signal
     html_url: https://github.com/kindrat86/mcp-deal-flow-signal
-    created_at: "2026-04-16T05:35:39Z"
-    pushed_at: "2026-07-19T12:21:15Z"
+    created_at: '2026-04-16T05:35:39Z'
+    pushed_at: '2026-07-19T12:21:15Z'
     description: MCP server for VC Deal Flow Signal — startup engineering acceleration data for investors
     homepage: null
     topics:
@@ -47,13 +53,15 @@ metadata:
       - startup-data
       - vc
       - venture-capital
-    last_checked_at: "2026-07-30T05:05:56.850Z"
+    last_checked_at: '2026-07-30T05:05:56.850Z'
     readme:
-      fetched_at: "2026-07-30T05:05:56.850Z"
+      fetched_at: '2026-07-30T05:05:56.850Z'
       bytes: 4619
 insights:
   summary: MCP server providing VC deal flow signals by tracking startup engineering acceleration metrics across GitHub data.
-  why_it_matters: Lets developers or investor-scouts query live startup traction signals (commit velocity, contributor growth) directly from AI assistants like Claude or Cursor.
+  why_it_matters: >-
+    Lets developers or investor-scouts query live startup traction signals (commit velocity, contributor growth)
+    directly from AI assistants like Claude or Cursor.
   mental_damage: Now your AI assistant can tell you which startups are shipping faster than their Series A implies.
   tags:
     - mcp-server
@@ -64,31 +72,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server exposing domain-specific data (startup engineering signals) via MCP tools, with MCP as the product identity.
+  reason: >-
+    This is an MCP-first server exposing domain-specific data (startup engineering signals) via MCP tools, with MCP as
+    the product identity.
   evidence:
     - Repo description explicitly identifies it as an MCP server for VC Deal Flow Signal
     - README details MCP tool definitions and installation for Claude Desktop/Code
     - Topics include 'mcp-server' and 'model-context-protocol'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.624Z"
+    updated_at: '2026-05-06T22:12:15.624Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:56.850Z"
+    updated_at: '2026-07-30T05:05:56.850Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:12:34.107Z"
+    updated_at: '2026-07-21T16:12:34.107Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -101,7 +112,9 @@ processing:
       input_hash: sha256:4ecef7cedfb1a7fee7c0bf42d31abc9772b59c9c21cef00c9486e3cbf78f27eb
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server exposing domain-specific data (startup engineering signals) via MCP tools, with MCP as the product identity.
+      decision_reason: >-
+        This is an MCP-first server exposing domain-specific data (startup engineering signals) via MCP tools, with MCP
+        as the product identity.
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server for VC Deal Flow Signal
         - README details MCP tool definitions and installation for Claude Desktop/Code
@@ -109,6 +122,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is an MCP server exposing domain data, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is an MCP server exposing domain data, not
+        an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

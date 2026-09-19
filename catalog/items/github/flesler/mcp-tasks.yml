@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__flesler__mcp-tasks__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Community Servers
         anchor_text: Tasks
         extracted_url: https://github.com/flesler/mcp-tasks
-        surrounding_text: "- **[Tasks](https://github.com/flesler/mcp-tasks)** - An efficient task manager. Designed to minimize tool confusion and maximize LLM budget efficiency while providing powerful search, filtering, and organization capabilities across multiple file formats (Markdown, JSON, YAML)"
+        surrounding_text: >-
+          - **[Tasks](https://github.com/flesler/mcp-tasks)** - An efficient task manager. Designed to minimize tool
+          confusion and maximize LLM budget efficiency while providing powerful search, filtering, and organization
+          capabilities across multiple file formats (Markdown, JSON, YAML)
         confidence: high
 metadata:
   github:
@@ -29,10 +32,10 @@ metadata:
     archived: false
     full_name: flesler/mcp-tasks
     html_url: https://github.com/flesler/mcp-tasks
-    created_at: "2025-07-17T17:24:24Z"
-    pushed_at: "2026-08-06T15:10:16Z"
+    created_at: '2025-07-17T17:24:24Z'
+    pushed_at: '2026-08-06T15:10:16Z'
     description: A comprehensive and efficient MCP server for task management with multi-format support (Markdown, JSON, YAML)
-    homepage: ""
+    homepage: ''
     topics:
       - ai
       - claude
@@ -45,13 +48,15 @@ metadata:
       - model-context-protocol
       - task-manager
       - todo
-    last_checked_at: "2026-08-27T09:23:31.230Z"
+    last_checked_at: '2026-08-27T09:23:31.230Z'
     readme:
-      fetched_at: "2026-08-27T09:23:31.230Z"
+      fetched_at: '2026-08-27T09:23:31.230Z'
       bytes: 16414
 insights:
   summary: An MCP server for managing tasks across Markdown, JSON, and YAML file formats.
-  why_it_matters: It allows AI assistants to interact with task lists and todo files without the risk of the model accidentally deleting or corrupting your existing file structure.
+  why_it_matters: >-
+    It allows AI assistants to interact with task lists and todo files without the risk of the model accidentally
+    deleting or corrupting your existing file structure.
   mental_damage: Now you have to worry about your AI agent mismanaging your sub-tasks while you watch its token usage climb.
   tags:
     - mcp
@@ -69,24 +74,25 @@ curation:
     - Provides direct integration for Cursor and Claude Desktop via MCP config
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.614Z"
+    updated_at: '2026-05-06T22:12:15.614Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:31.230Z"
+    updated_at: '2026-08-27T09:23:31.230Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:57:24.931Z"
+    updated_at: '2026-07-21T15:57:24.931Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -99,7 +105,9 @@ processing:
       input_hash: sha256:87f5716dcefb2f06c8b40d561e5f9fd8c03196ce4b53cde40a3ab861b6e4ff66
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The tool's primary identity is an MCP server designed to provide task-management capabilities to host assistants.
+      decision_reason: >-
+        The tool's primary identity is an MCP server designed to provide task-management capabilities to host
+        assistants.
       decision_evidence:
         - Repo description explicitly defines it as an MCP server
         - README emphasizes minimal tool count to reduce AI confusion
@@ -107,6 +115,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is a server implementing the Model Context Protocol rather than a general workflow integration.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is a server implementing the Model Context
+        Protocol rather than a general workflow integration.
       review_reason: null
       review_resume_lifecycle: null

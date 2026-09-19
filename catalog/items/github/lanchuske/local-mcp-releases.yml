@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lanchuske__local-mcp-releases__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: lanchuske/local-mcp
         extracted_url: https://github.com/lanchuske/local-mcp-releases
-        surrounding_text: "- [lanchuske/local-mcp](https://github.com/lanchuske/local-mcp-releases) [![lanchuske/local-mcp-releases MCP server](https://glama.ai/mcp/servers/lanchuske/local-mcp-releases/badges/score.svg)](https://glama.ai/mcp/servers/lanchuske/local-mcp-releases) 📇 🏠 🍎 - Connect Claude, Cursor, Windsurf and other AI agents to macOS native apps: Mail, Calendar, Contacts, Reminders, Notes, iMessage, Finder, Safari, OmniFocus, Microsoft Teams, Outlook, OneDrive, and Office documents. 82 tools. Runs entirely on your Mac — no cloud, no tokens, no API keys."
+        surrounding_text: >-
+          - [lanchuske/local-mcp](https://github.com/lanchuske/local-mcp-releases) [![lanchuske/local-mcp-releases MCP
+          server](https://glama.ai/mcp/servers/lanchuske/local-mcp-releases/badges/score.svg)](https://glama.ai/mcp/servers/lanchuske/local-mcp-releases)
+          📇 🏠 🍎 - Connect Claude, Cursor, Windsurf and other AI agents to macOS native apps: Mail, Calendar,
+          Contacts, Reminders, Notes, iMessage, Finder, Safari, OmniFocus, Microsoft Teams, Outlook, OneDrive, and
+          Office documents. 82 tools. Runs entirely on your Mac — no cloud, no tokens, no API keys.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: lanchuske/local-mcp-releases
     html_url: https://github.com/lanchuske/local-mcp-releases
-    created_at: "2026-03-31T22:22:47Z"
-    pushed_at: "2026-07-30T03:55:52Z"
-    description: 241 local tools for Claude, ChatGPT, Cursor & Grok — Mail, iMessage, Teams, Slack, WhatsApp, OneDrive, Google Drive, Zoom, Outlook, Office. Native macOS, 100% local, no API keys.
+    created_at: '2026-03-31T22:22:47Z'
+    pushed_at: '2026-07-30T03:55:52Z'
+    description: >-
+      241 local tools for Claude, ChatGPT, Cursor & Grok — Mail, iMessage, Teams, Slack, WhatsApp, OneDrive, Google
+      Drive, Zoom, Outlook, Office. Native macOS, 100% local, no API keys.
     homepage: https://local-mcp.com?ref=github
     topics:
       - ai-tools
@@ -55,13 +62,17 @@ metadata:
       - slack
       - teams
       - whatsapp
-    last_checked_at: "2026-07-30T05:06:02.677Z"
+    last_checked_at: '2026-07-30T05:06:02.677Z'
     readme:
-      fetched_at: "2026-07-30T05:06:02.677Z"
+      fetched_at: '2026-07-30T05:06:02.677Z'
       bytes: 17657
 insights:
-  summary: Local MCP server giving AI assistants native macOS app access via MCP protocol for Mail, Calendar, Teams, Slack, and 180+ tools without API keys or cloud calls.
-  why_it_matters: Lets developers control macOS apps from AI assistants using only local data, eliminating OAuth, rate limits, and privacy risks in workflows like email triage or calendar scheduling.
+  summary: >-
+    Local MCP server giving AI assistants native macOS app access via MCP protocol for Mail, Calendar, Teams, Slack, and
+    180+ tools without API keys or cloud calls.
+  why_it_matters: >-
+    Lets developers control macOS apps from AI assistants using only local data, eliminating OAuth, rate limits, and
+    privacy risks in workflows like email triage or calendar scheduling.
   mental_damage: Finally, an AI tool that makes you feel less guilty about granting clipboard access to your ex's iMessage history.
   tags:
     - mcp
@@ -71,31 +82,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: LMCP is an MCP server product that exposes local macOS and Windows app capabilities as MCP tools, fitting the MCP Servers & Tooling category rather than a coding agent or extension.
+  reason: >-
+    LMCP is an MCP server product that exposes local macOS and Windows app capabilities as MCP tools, fitting the MCP
+    Servers & Tooling category rather than a coding agent or extension.
   evidence:
-    - "Repo description: 'LMCP — Give your AI native access to your apps. 189 tools across macOS and Windows.'"
+    - 'Repo description: ''LMCP — Give your AI native access to your apps. 189 tools across macOS and Windows.'''
     - README states it auto-configures Claude Desktop, Claude Code, Cursor, Windsurf, VS Code, and Zed as an MCP server.
     - Appears in awesome-mcp-servers under 'Server Implementations > Communication' as a collection of MCP servers.
 placement:
   primary_category: mcp
-  section: null
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-dev-extensions'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.626Z"
+    updated_at: '2026-05-06T22:12:15.626Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:02.677Z"
+    updated_at: '2026-07-30T05:06:02.677Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:14:42.063Z"
+    updated_at: '2026-07-21T16:14:42.063Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -108,14 +122,24 @@ processing:
       input_hash: sha256:769c9081870766fc2c3e81f7e4601ffec3caa85d689d2f789734e168067df062
       proposed_primary_category: ai-dev-extensions
       disagreement: true
-      decision_reason: The product's core identity is extending AI assistants (Claude, Cursor, etc.) with native macOS app access via MCP, making it an integration layer rather than a standalone coding assistant or platform.
+      decision_reason: >-
+        The product's core identity is extending AI assistants (Claude, Cursor, etc.) with native macOS app access via
+        MCP, making it an integration layer rather than a standalone coding assistant or platform.
       decision_evidence:
-        - "Repo description: '233 local tools for Claude, ChatGPT, Cursor & Grok — Mail, iMessage, Teams, Slack, WhatsApp, OneDrive, Google Drive, Zoom, Outlook, Office. Native macOS, 100% local, no API keys.'"
-        - "README: 'LMCP connects your AI assistant to Mail, Calendar, Contacts, Microsoft Teams, Slack, WhatsApp, OneDrive, Notes, Reminders, OmniFocus, and more — 189 tools, all running locally on your Mac.'"
-        - "Source-list context: Listed in awesome-mcp-servers under 'Server Implementations > Communication', confirming its role as an MCP server for host app integration."
+        - >-
+          Repo description: '233 local tools for Claude, ChatGPT, Cursor & Grok — Mail, iMessage, Teams, Slack,
+          WhatsApp, OneDrive, Google Drive, Zoom, Outlook, Office. Native macOS, 100% local, no API keys.'
+        - >-
+          README: 'LMCP connects your AI assistant to Mail, Calendar, Contacts, Microsoft Teams, Slack, WhatsApp,
+          OneDrive, Notes, Reminders, OmniFocus, and more — 189 tools, all running locally on your Mac.'
+        - >-
+          Source-list context: Listed in awesome-mcp-servers under 'Server Implementations > Communication', confirming
+          its role as an MCP server for host app integration.
       category_candidates:
         - ai-dev-extensions
         - mcp
-      contrastive_reason: Choose ai-dev-extensions over mcp because while it is an MCP server, its primary value is as an integration layer augmenting AI assistants with host app capabilities, not as MCP infrastructure itself.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+      contrastive_reason: >-
+        Choose ai-dev-extensions over mcp because while it is an MCP server, its primary value is as an integration
+        layer augmenting AI assistants with host app capabilities, not as MCP infrastructure itself.
+      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-dev-extensions'''
       review_resume_lifecycle: null

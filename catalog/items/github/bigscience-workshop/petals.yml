@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bigscience-workshop__petals__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -19,7 +19,9 @@ provenance:
           - Inference UI
         anchor_text: petals
         extracted_url: https://github.com/bigscience-workshop/petals
-        surrounding_text: "- [petals](https://github.com/bigscience-workshop/petals) - Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading."
+        surrounding_text: >-
+          - [petals](https://github.com/bigscience-workshop/petals) - Run LLMs at home, BitTorrent-style. Fine-tuning
+          and inference up to 10x faster than offloading.
         confidence: high
 metadata:
   github:
@@ -29,8 +31,8 @@ metadata:
     archived: false
     full_name: bigscience-workshop/petals
     html_url: https://github.com/bigscience-workshop/petals
-    created_at: "2022-06-12T00:10:27Z"
-    pushed_at: "2024-09-07T11:54:28Z"
+    created_at: '2022-06-12T00:10:27Z'
+    pushed_at: '2024-09-07T11:54:28Z'
     description: 🌸 Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading
     homepage: https://petals.dev
     topics:
@@ -54,14 +56,20 @@ metadata:
       - tensor-parallelism
       - transformer
       - volunteer-computing
-    last_checked_at: "2026-09-07T04:13:33.930Z"
+    last_checked_at: '2026-09-07T04:13:33.930Z'
     readme:
-      fetched_at: "2026-09-07T04:13:33.930Z"
+      fetched_at: '2026-09-07T04:13:33.930Z'
       bytes: 9161
 insights:
-  summary: A distributed system for running large language models locally via a BitTorrent-style network, enabling inference and fine-tuning on consumer hardware.
-  why_it_matters: Developers can run and fine-tune state-of-the-art models like Llama 3.1 (405B) or Mixtral (8x22B) on their own machines by sharing compute across a decentralized network.
-  mental_damage: Finally, a way to run a 405B-parameter model on your laptop—just borrow 399B parameters from strangers on the internet.
+  summary: >-
+    A distributed system for running large language models locally via a BitTorrent-style network, enabling inference
+    and fine-tuning on consumer hardware.
+  why_it_matters: >-
+    Developers can run and fine-tune state-of-the-art models like Llama 3.1 (405B) or Mixtral (8x22B) on their own
+    machines by sharing compute across a decentralized network.
+  mental_damage: >-
+    Finally, a way to run a 405B-parameter model on your laptop—just borrow 399B parameters from strangers on the
+    internet.
   tags:
     - local-ai
     - distributed-inference
@@ -71,31 +79,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Petals is a local runtime system for distributed LLM inference and fine-tuning, fitting the Local AI category where private/self-hosted execution is central.
+  reason: >-
+    Petals is a local runtime system for distributed LLM inference and fine-tuning, fitting the Local AI category where
+    private/self-hosted execution is central.
   evidence:
-    - "Repo description: 'Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading'"
+    - 'Repo description: ''Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading'''
     - README emphasizes running models like Llama 3.1 (405B) from a desktop or Colab via distributed network
-    - "Source-list context: listed in 'awesome-local-ai' under 'Inference UI'"
+    - 'Source-list context: listed in ''awesome-local-ai'' under ''Inference UI'''
 placement:
   primary_category: local-ai
-  section: Local Runtimes
+  secondary_categories: []
+  section: Inference Engines
 lifecycle:
   status: promotion_candidate
   reason: Stars (10122) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:33.930Z"
+    updated_at: '2026-09-07T04:13:33.930Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:25:58.729Z"
+    updated_at: '2026-07-21T15:25:58.729Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -108,14 +119,20 @@ processing:
       input_hash: sha256:8dfbae8aea81687571f4ed39c4a94f33b33b495604384a28996d54b7b0382003
       proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: Petals is a local runtime system for distributed LLM inference and fine-tuning, fitting the Local AI category where private/self-hosted execution is central.
+      decision_reason: >-
+        Petals is a local runtime system for distributed LLM inference and fine-tuning, fitting the Local AI category
+        where private/self-hosted execution is central.
       decision_evidence:
-        - "Repo description: 'Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading'"
+        - >-
+          Repo description: 'Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than
+          offloading'
         - README emphasizes running models like Llama 3.1 (405B) from a desktop or Colab via distributed network
-        - "Source-list context: listed in 'awesome-local-ai' under 'Inference UI'"
+        - 'Source-list context: listed in ''awesome-local-ai'' under ''Inference UI'''
       category_candidates:
         - local-ai
         - ai-frameworks
-      contrastive_reason: Choose local-ai over ai-frameworks because the primary identity is a local runtime for distributed inference, not a code-first SDK or library.
+      contrastive_reason: >-
+        Choose local-ai over ai-frameworks because the primary identity is a local runtime for distributed inference,
+        not a code-first SDK or library.
       review_reason: null
       review_resume_lifecycle: null

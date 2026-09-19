@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__exa-labs__exa-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,10 +19,10 @@ provenance:
           - Official Servers
         anchor_text: Exa
         extracted_url: https://github.com/exa-labs/exa-mcp-server
-        surrounding_text: "- **[Exa](https://github.com/exa-labs/exa-mcp-server)** - Search Engine made for AIs by [Exa](https://exa.ai)"
+        surrounding_text: '- **[Exa](https://github.com/exa-labs/exa-mcp-server)** - Search Engine made for AIs by [Exa](https://exa.ai)'
         confidence: high
     - id: discovery__github__exa-labs__exa-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -34,7 +34,10 @@ provenance:
           - 🔎 Search
         anchor_text: exa-labs/exa-mcp-server
         extracted_url: https://github.com/exa-labs/exa-mcp-server
-        surrounding_text: "-   **[exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/exa-labs/exa-mcp-server?style=social)](https://github.com/exa-labs/exa-mcp-server): Provides access to the Exa AI Search API."
+        surrounding_text: >-
+          -   **[exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server)** [![GitHub
+          stars](https://img.shields.io/github/stars/exa-labs/exa-mcp-server?style=social)](https://github.com/exa-labs/exa-mcp-server):
+          Provides access to the Exa AI Search API.
         confidence: high
 metadata:
   github:
@@ -44,8 +47,8 @@ metadata:
     archived: false
     full_name: exa-labs/exa-mcp-server
     html_url: https://github.com/exa-labs/exa-mcp-server
-    created_at: "2024-11-27T23:38:35Z"
-    pushed_at: "2026-08-21T04:44:51Z"
+    created_at: '2024-11-27T23:38:35Z'
+    pushed_at: '2026-08-21T04:44:51Z'
     description: Exa MCP for web search and web crawling!
     homepage: https://exa.ai/docs/reference/exa-mcp
     topics:
@@ -57,9 +60,9 @@ metadata:
       - model-context-protocol
       - web-search
       - websearch
-    last_checked_at: "2026-08-27T09:23:26.648Z"
+    last_checked_at: '2026-08-27T09:23:26.648Z'
     readme:
-      fetched_at: "2026-08-27T09:23:26.648Z"
+      fetched_at: '2026-08-27T09:23:26.648Z'
       bytes: 7653
 insights:
   summary: An MCP server that connects AI assistants to Exa's web search, code search, and company research capabilities.
@@ -80,24 +83,25 @@ curation:
     - Provides configuration for multiple MCP-compliant clients like Cursor, Claude Desktop, and Zed
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: promotion_candidate
   reason: Stars (4395) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.585Z"
+    updated_at: '2026-05-06T22:12:15.585Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:26.648Z"
+    updated_at: '2026-08-27T09:23:26.648Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:54:23.533Z"
+    updated_at: '2026-07-21T15:54:23.533Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -118,6 +122,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product's core identity is the MCP protocol implementation rather than the underlying retrieval logic.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the product's core identity is the MCP protocol implementation
+        rather than the underlying retrieval logic.
       review_reason: null
       review_resume_lifecycle: null

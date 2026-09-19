@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__freepeak__db-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,14 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: FreePeak/db-mcp-server
         extracted_url: https://github.com/freepeak/db-mcp-server
-        surrounding_text: "- [FreePeak/db-mcp-server](https://github.com/FreePeak/db-mcp-server) 🏎️ 🏠 – A high-performance multi-database MCP server built with Golang, supporting MySQL & PostgreSQL (NoSQL coming soon). Includes built-in tools for query execution, transaction management, schema exploration, query building, and performance analysis, with seamless Cursor integration for enhanced database workflows."
+        surrounding_text: >-
+          - [FreePeak/db-mcp-server](https://github.com/FreePeak/db-mcp-server) 🏎️ 🏠 – A high-performance
+          multi-database MCP server built with Golang, supporting MySQL & PostgreSQL (NoSQL coming soon). Includes
+          built-in tools for query execution, transaction management, schema exploration, query building, and
+          performance analysis, with seamless Cursor integration for enhanced database workflows.
         confidence: high
     - id: discovery__github__freepeak__db-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +39,11 @@ provenance:
           - 🗄️ Databases
         anchor_text: FreePeak/db-mcp-server
         extracted_url: https://github.com/freepeak/db-mcp-server
-        surrounding_text: "-   **[FreePeak/db-mcp-server](https://github.com/FreePeak/db-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/FreePeak/db-mcp-server?style=social)](https://github.com/FreePeak/db-mcp-server): Provides a high-performance multi-database server (MySQL & PostgreSQL) with tools for query execution, transactions, and schema exploration."
+        surrounding_text: >-
+          -   **[FreePeak/db-mcp-server](https://github.com/FreePeak/db-mcp-server)** [![GitHub
+          stars](https://img.shields.io/github/stars/FreePeak/db-mcp-server?style=social)](https://github.com/FreePeak/db-mcp-server):
+          Provides a high-performance multi-database server (MySQL & PostgreSQL) with tools for query execution,
+          transactions, and schema exploration.
         confidence: high
 metadata:
   github:
@@ -45,20 +53,26 @@ metadata:
     archived: false
     full_name: FreePeak/db-mcp-server
     html_url: https://github.com/FreePeak/db-mcp-server
-    created_at: "2025-03-17T20:40:28Z"
-    pushed_at: "2026-08-24T20:59:06Z"
-    description: A powerful multi-database server implementing the Model Context Protocol (MCP) to provide AI assistants with structured access to databases.
-    homepage: ""
+    created_at: '2025-03-17T20:40:28Z'
+    pushed_at: '2026-08-24T20:59:06Z'
+    description: >-
+      A powerful multi-database server implementing the Model Context Protocol (MCP) to provide AI assistants with
+      structured access to databases.
+    homepage: ''
     topics:
       - database-mcp-server
       - mcp-server
-    last_checked_at: "2026-09-03T05:16:43.897Z"
+    last_checked_at: '2026-09-03T05:16:43.897Z'
     readme:
-      fetched_at: "2026-09-03T05:16:43.897Z"
+      fetched_at: '2026-09-03T05:16:43.897Z'
       bytes: 30522
 insights:
-  summary: A multi-database server implementing the Model Context Protocol to provide AI assistants with structured access to various database systems.
-  why_it_matters: It enables AI agents to interact with multiple database types like MySQL, Postgres, and Oracle through a unified, standardized interface.
+  summary: >-
+    A multi-database server implementing the Model Context Protocol to provide AI assistants with structured access to
+    various database systems.
+  why_it_matters: >-
+    It enables AI agents to interact with multiple database types like MySQL, Postgres, and Oracle through a unified,
+    standardized interface.
   mental_damage: Because why manage a schema manually when you can let an LLM attempt a cross-dialect transaction in a single prompt?
   tags:
     - mcp
@@ -68,31 +82,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server implementation providing specialized domain capabilities (databases).
+  reason: >-
+    The project's primary identity is an MCP server implementation providing specialized domain capabilities
+    (databases).
   evidence:
     - Repo description explicitly identifies it as a multi-database server implementing the Model Context Protocol.
     - README details dynamic tool generation for MySQL, Postgres, and Oracle via MCP.
     - Active development confirmed by recent push date.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: promotion_candidate
   reason: Stars (373) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.586Z"
+    updated_at: '2026-05-06T22:12:15.586Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:43.897Z"
+    updated_at: '2026-09-03T05:16:43.897Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-03T05:19:00.653Z"
+    updated_at: '2026-09-03T05:19:00.653Z'
     cause: null
     next_retry_at: null
     attempts: 4
@@ -105,7 +122,9 @@ processing:
       input_hash: sha256:c7d3fd4a0d1b60cf7b7d57fb54ecad1026e06e56f96c8c5ccba05449db9f1d64
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's primary identity is an MCP server implementation providing specialized domain capabilities (databases).
+      decision_reason: >-
+        The project's primary identity is an MCP server implementation providing specialized domain capabilities
+        (databases).
       decision_evidence:
         - Repo description explicitly identifies it as a multi-database server implementing the Model Context Protocol.
         - README details dynamic tool generation for MySQL, Postgres, and Oracle via MCP.
@@ -113,6 +132,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is the implementation of the Model Context Protocol server itself rather than a general-purpose assistant extension.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product identity is the implementation of the Model Context
+        Protocol server itself rather than a general-purpose assistant extension.
       review_reason: null
       review_resume_lifecycle: null

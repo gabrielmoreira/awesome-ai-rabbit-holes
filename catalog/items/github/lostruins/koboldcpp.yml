@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lostruins__koboldcpp__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -19,10 +19,13 @@ provenance:
           - Inference Engine
         anchor_text: koboldcpp
         extracted_url: https://github.com/lostruins/koboldcpp
-        surrounding_text: "| [koboldcpp](https://github.com/LostRuins/koboldcpp)             | - A simple one-file way to run various GGML models with KoboldAI's UI                | GGML                    | Both            | ✅  | C/C++       | Text-Gen      |"
+        surrounding_text: >-
+          | [koboldcpp](https://github.com/LostRuins/koboldcpp)             | - A simple one-file way to run various
+          GGML models with KoboldAI's UI                | GGML                    | Both            | ✅  | C/C++       |
+          Text-Gen      |
         confidence: high
     - id: discovery__github__lostruins__koboldcpp__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,7 +37,9 @@ provenance:
           - 推理 Inference
         anchor_text: koboldcpp
         extracted_url: https://github.com/lostruins/koboldcpp
-        surrounding_text: "19. [koboldcpp](https://github.com/LostRuins/koboldcpp): A simple one-file way to run various GGML and GGUF models with KoboldAI's UI."
+        surrounding_text: >-
+          19. [koboldcpp](https://github.com/LostRuins/koboldcpp): A simple one-file way to run various GGML and GGUF
+          models with KoboldAI's UI.
         confidence: high
 metadata:
   github:
@@ -44,8 +49,8 @@ metadata:
     archived: false
     full_name: LostRuins/koboldcpp
     html_url: https://github.com/LostRuins/koboldcpp
-    created_at: "2023-03-16T02:07:02Z"
-    pushed_at: "2026-07-27T15:05:08Z"
+    created_at: '2023-03-16T02:07:02Z'
+    pushed_at: '2026-07-27T15:05:08Z'
     description: Run GGUF models easily with a KoboldAI UI. One File. Zero Install.
     homepage: https://github.com/LostRuins/koboldcpp/releases/latest
     topics:
@@ -59,13 +64,17 @@ metadata:
       - llamacpp
       - llm
       - mistral
-    last_checked_at: "2026-07-30T05:06:08.489Z"
+    last_checked_at: '2026-07-30T05:06:08.489Z'
     readme:
-      fetched_at: "2026-07-30T05:06:08.489Z"
+      fetched_at: '2026-07-30T05:06:08.489Z'
       bytes: 23121
 insights:
-  summary: KoboldCpp is a single-file executable for running GGUF models with a KoboldAI-inspired UI and multi-modal capabilities.
-  why_it_matters: It lets developers run local LLMs and multimodal models without setup, enabling private inference for experimentation or integration.
+  summary: >-
+    KoboldCpp is a single-file executable for running GGUF models with a KoboldAI-inspired UI and multi-modal
+    capabilities.
+  why_it_matters: >-
+    It lets developers run local LLMs and multimodal models without setup, enabling private inference for
+    experimentation or integration.
   mental_damage: Another local inference tool that makes you feel guilty for not quantizing your own 70B model on a Raspberry Pi.
   tags:
     - local-ai
@@ -74,31 +83,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: KoboldCpp is a self-contained runtime for running GGUF models locally, matching the core purpose of the Local AI category.
+  reason: >-
+    KoboldCpp is a self-contained runtime for running GGUF models locally, matching the core purpose of the Local AI
+    category.
   evidence:
-    - "Repo description: 'Run GGUF models easily with a KoboldAI UI. One File. Zero Install.'"
-    - "README: 'Single file executable, with no installation required and no external dependencies'"
-    - "Source-list context: Listed in awesome-local-ai under 'Inference Engine' and awesome-LLM-resources under '推理 Inference'"
+    - 'Repo description: ''Run GGUF models easily with a KoboldAI UI. One File. Zero Install.'''
+    - 'README: ''Single file executable, with no installation required and no external dependencies'''
+    - >-
+      Source-list context: Listed in awesome-local-ai under 'Inference Engine' and awesome-LLM-resources under '推理
+      Inference'
 placement:
   primary_category: local-ai
-  section: Local Runtimes
+  secondary_categories: []
+  section: Inference Engines
 lifecycle:
   status: promotion_candidate
   reason: Stars (10435) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.590Z"
+    updated_at: '2026-05-06T22:12:15.590Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:08.489Z"
+    updated_at: '2026-07-30T05:06:08.489Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:17:18.302Z"
+    updated_at: '2026-07-21T16:17:18.302Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -111,14 +125,20 @@ processing:
       input_hash: sha256:e80086963778c751072ccddbf141b3be54ac1a320768ec5a5e4a7d3196ea2785
       proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: KoboldCpp is a self-contained runtime for running GGUF models locally, matching the core purpose of the Local AI category.
+      decision_reason: >-
+        KoboldCpp is a self-contained runtime for running GGUF models locally, matching the core purpose of the Local AI
+        category.
       decision_evidence:
-        - "Repo description: 'Run GGUF models easily with a KoboldAI UI. One File. Zero Install.'"
-        - "README: 'Single file executable, with no installation required and no external dependencies'"
-        - "Source-list context: Listed in awesome-local-ai under 'Inference Engine' and awesome-LLM-resources under '推理 Inference'"
+        - 'Repo description: ''Run GGUF models easily with a KoboldAI UI. One File. Zero Install.'''
+        - 'README: ''Single file executable, with no installation required and no external dependencies'''
+        - >-
+          Source-list context: Listed in awesome-local-ai under 'Inference Engine' and awesome-LLM-resources under '推理
+          Inference'
       category_candidates:
         - local-ai
         - ai-frameworks
-      contrastive_reason: Choose local-ai over ai-frameworks because KoboldCpp is primarily a runnable desktop/local inference tool, not a code-first SDK or library for embedding AI into software.
+      contrastive_reason: >-
+        Choose local-ai over ai-frameworks because KoboldCpp is primarily a runnable desktop/local inference tool, not a
+        code-first SDK or library for embedding AI into software.
       review_reason: null
       review_resume_lifecycle: null

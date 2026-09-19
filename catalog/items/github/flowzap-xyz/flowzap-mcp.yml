@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__flowzap-xyz__flowzap-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📐 <a name="architecture-and-design"></a>Architecture & Design
         anchor_text: flowzap-xyz/flowzap-mcp
         extracted_url: https://github.com/flowzap-xyz/flowzap-mcp
-        surrounding_text: "- [flowzap-xyz/flowzap-mcp](https://github.com/flowzap-xyz/flowzap-mcp) [![flowzap-xyz/flowzap-mcp MCP server](https://glama.ai/mcp/servers/flowzap-xyz/flowzap-mcp/badges/score.svg)](https://glama.ai/mcp/servers/flowzap-xyz/flowzap-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Create workflow, sequence, and architecture diagrams using FlowZap Code DSL. 7 tools for validation, playground URL generation, syntax docs, graph export, artifact parsing, diffing, and patching. No API key required. Install via NPM: `npx -y flowzap-mcp`"
+        surrounding_text: >-
+          - [flowzap-xyz/flowzap-mcp](https://github.com/flowzap-xyz/flowzap-mcp) [![flowzap-xyz/flowzap-mcp MCP
+          server](https://glama.ai/mcp/servers/flowzap-xyz/flowzap-mcp/badges/score.svg)](https://glama.ai/mcp/servers/flowzap-xyz/flowzap-mcp)
+          📇 ☁️ 🏠 🍎 🪟 🐧 - Create workflow, sequence, and architecture diagrams using FlowZap Code DSL. 7 tools for
+          validation, playground URL generation, syntax docs, graph export, artifact parsing, diffing, and patching. No
+          API key required. Install via NPM: `npx -y flowzap-mcp`
         confidence: high
 metadata:
   github:
@@ -30,19 +35,25 @@ metadata:
     archived: false
     full_name: flowzap-xyz/flowzap-mcp
     html_url: https://github.com/flowzap-xyz/flowzap-mcp
-    created_at: "2026-01-12T01:13:50Z"
-    pushed_at: "2026-08-07T20:24:16Z"
+    created_at: '2026-01-12T01:13:50Z'
+    pushed_at: '2026-08-07T20:24:16Z'
     description: MCP server for FlowZap - Create workflow diagrams via AI assistants
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:41.801Z"
+    last_checked_at: '2026-09-03T05:16:41.801Z'
     readme:
-      fetched_at: "2026-09-03T05:16:41.801Z"
+      fetched_at: '2026-09-03T05:16:41.801Z'
       bytes: 10327
 insights:
-  summary: An MCP server that enables AI assistants to generate workflow, sequence, and architecture diagrams using the FlowZap DSL.
-  why_it_matters: It allows developers to transform unstructured logs, specs, or code into structured, visual diagrams directly within their existing AI-powered IDEs or CLI tools.
-  mental_damage: Now you can let an LLM hallucinate your architecture diagrams with perfect syntax, provided you follow its very specific rules for dot placement.
+  summary: >-
+    An MCP server that enables AI assistants to generate workflow, sequence, and architecture diagrams using the FlowZap
+    DSL.
+  why_it_matters: >-
+    It allows developers to transform unstructured logs, specs, or code into structured, visual diagrams directly within
+    their existing AI-powered IDEs or CLI tools.
+  mental_damage: >-
+    Now you can let an LLM hallucinate your architecture diagrams with perfect syntax, provided you follow its very
+    specific rules for dot placement.
   tags:
     - mcp
     - diagramming
@@ -59,24 +70,25 @@ curation:
     - Core functionality is providing specialized tools (validate, export, diff) via the Model Context Protocol
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.614Z"
+    updated_at: '2026-05-06T22:12:15.614Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:41.802Z"
+    updated_at: '2026-09-03T05:16:41.802Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:58:03.056Z"
+    updated_at: '2026-07-21T15:58:03.056Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -97,6 +109,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is specifically designed as an MCP server implementation rather than a general IDE plugin.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is specifically designed as an MCP server implementation
+        rather than a general IDE plugin.
       review_reason: null
       review_resume_lifecycle: null

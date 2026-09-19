@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__awslabs__cli-agent-orchestrator__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Session managers & parallel runners
         anchor_text: CLI Agent Orchestrator (CAO)
         extracted_url: https://github.com/awslabs/cli-agent-orchestrator
-        surrounding_text: "- **[CLI Agent Orchestrator (CAO)](https://github.com/awslabs/cli-agent-orchestrator)** `⭐ 529` — AWS's hierarchical multi-agent orchestration via tmux with intelligent task delegation patterns."
+        surrounding_text: >-
+          - **[CLI Agent Orchestrator (CAO)](https://github.com/awslabs/cli-agent-orchestrator)** `⭐ 529` — AWS's
+          hierarchical multi-agent orchestration via tmux with intelligent task delegation patterns.
         confidence: high
 metadata:
   github:
@@ -30,9 +32,11 @@ metadata:
     archived: false
     full_name: awslabs/cli-agent-orchestrator
     html_url: https://github.com/awslabs/cli-agent-orchestrator
-    created_at: "2025-07-29T14:16:56Z"
-    pushed_at: "2026-09-07T04:05:12Z"
-    description: Multi-agent orchestration for AI coding CLIs — Claude Code, Kiro, Codex, and more, coordinated in isolated tmux sessions
+    created_at: '2025-07-29T14:16:56Z'
+    pushed_at: '2026-09-07T04:05:12Z'
+    description: >-
+      Multi-agent orchestration for AI coding CLIs — Claude Code, Kiro, Codex, and more, coordinated in isolated tmux
+      sessions
     homepage: https://awslabs.github.io/cli-agent-orchestrator/
     topics:
       - agent-orchestration
@@ -54,14 +58,20 @@ metadata:
       - orchestration
       - python
       - tmux
-    last_checked_at: "2026-09-07T04:13:29.534Z"
+    last_checked_at: '2026-09-07T04:13:29.534Z'
     readme:
-      fetched_at: "2026-09-07T04:13:29.534Z"
+      fetched_at: '2026-09-07T04:13:29.534Z'
       bytes: 7044
 insights:
-  summary: CLI Agent Orchestrator (CAO) is an open-source multi-agent orchestration framework for coordinating AI coding CLIs like Claude Code, Kiro CLI, and others via MCP.
-  why_it_matters: It enables developers to run multiple CLI coding agents in parallel or sequentially with hierarchical supervision, preserving native tool behavior and auth while adding cross-provider workflows and scheduled runs.
-  mental_damage: Now you can have five agents arguing in tmux sessions while you watch from the Web UI, wondering which one will finally fix the build.
+  summary: >-
+    CLI Agent Orchestrator (CAO) is an open-source multi-agent orchestration framework for coordinating AI coding CLIs
+    like Claude Code, Kiro CLI, and others via MCP.
+  why_it_matters: >-
+    It enables developers to run multiple CLI coding agents in parallel or sequentially with hierarchical supervision,
+    preserving native tool behavior and auth while adding cross-provider workflows and scheduled runs.
+  mental_damage: >-
+    Now you can have five agents arguing in tmux sessions while you watch from the Web UI, wondering which one will
+    finally fix the build.
   tags:
     - multi-agent
     - mcp
@@ -78,24 +88,25 @@ curation:
     - Source-list context places it under 'Harnesses & orchestration > Session managers & parallel runners'
 placement:
   primary_category: agent-orchestration
-  section: Multi-Agent Runtime Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (542) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.604Z"
+    updated_at: '2026-05-06T22:12:15.604Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:29.534Z"
+    updated_at: '2026-09-07T04:13:29.534Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:24:49.364Z"
+    updated_at: '2026-07-21T15:24:49.364Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -108,14 +119,20 @@ processing:
       input_hash: sha256:6923d3b8f11c7186dd3b20bba3e654615bd9cf2bbc785f32746eb2c43c7b3375
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The core product is a workbench for coordinating multiple coding agents, not a single assistant or a thin extension.
+      decision_reason: >-
+        The core product is a workbench for coordinating multiple coding agents, not a single assistant or a thin
+        extension.
       decision_evidence:
-        - README explicitly describes it as a 'multi-agent orchestration framework' with supervisor–worker pattern over MCP
+        - >-
+          README explicitly describes it as a 'multi-agent orchestration framework' with supervisor–worker pattern over
+          MCP
         - Supports parallel/sequential/swarm execution across multiple CLI agents (Claude Code, Kiro, Codex, etc.)
         - Source-list context places it under 'Harnesses & orchestration > Session managers & parallel runners'
       category_candidates:
         - agent-orchestration
         - mcp
-      contrastive_reason: Choose agent-orchestration over mcp because MCP is the communication layer, not the primary product identity—CAO is fundamentally an orchestrator, not MCP infrastructure.
+      contrastive_reason: >-
+        Choose agent-orchestration over mcp because MCP is the communication layer, not the primary product identity—CAO
+        is fundamentally an orchestrator, not MCP infrastructure.
       review_reason: null
       review_resume_lifecycle: null

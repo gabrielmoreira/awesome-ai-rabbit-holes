@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__x51xxx__codex-mcp-tool__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: x51xxx/codex-mcp-tool
         extracted_url: https://github.com/x51xxx/codex-mcp-tool
-        surrounding_text: "- [x51xxx/codex-mcp-tool](https://github.com/x51xxx/codex-mcp-tool) 📇 ☁️ - MCP server that connects your IDE or AI assistant to Codex CLI for code analysis and editing with support for multiple models (gpt-5-codex, o3, codex-1)"
+        surrounding_text: >-
+          - [x51xxx/codex-mcp-tool](https://github.com/x51xxx/codex-mcp-tool) 📇 ☁️ - MCP server that connects your IDE
+          or AI assistant to Codex CLI for code analysis and editing with support for multiple models (gpt-5-codex, o3,
+          codex-1)
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: x51xxx/codex-mcp-tool
     html_url: https://github.com/x51xxx/codex-mcp-tool
-    created_at: "2025-09-08T14:16:33Z"
-    pushed_at: "2026-07-13T10:19:00Z"
+    created_at: '2025-09-08T14:16:33Z'
+    pushed_at: '2026-07-13T10:19:00Z'
     description: null
     homepage: null
     topics:
@@ -45,13 +48,15 @@ metadata:
       - model-context-protocol
       - openai
       - typescript
-    last_checked_at: "2026-07-21T15:21:16.698Z"
+    last_checked_at: '2026-07-21T15:21:16.698Z'
     readme:
-      fetched_at: "2026-07-21T15:21:16.698Z"
+      fetched_at: '2026-07-21T15:21:16.698Z'
       bytes: 9721
 insights:
   summary: An MCP server that exposes the OpenAI Codex CLI as a tool for AI assistants like Claude and Cursor.
-  why_it_matters: Lets developers use Codex CLI capabilities through standard MCP-compatible AI assistants without leaving their chat interface.
+  why_it_matters: >-
+    Lets developers use Codex CLI capabilities through standard MCP-compatible AI assistants without leaving their chat
+    interface.
   mental_damage: Another MCP wrapper to remember which AI assistant needs which incantation to access the same underlying tool.
   tags:
     - mcp
@@ -61,31 +66,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server that bridges Codex CLI to AI assistants, making MCP the primary product rather than a compatibility feature.
+  reason: >-
+    The product's core identity is an MCP server that bridges Codex CLI to AI assistants, making MCP the primary product
+    rather than a compatibility feature.
   evidence:
     - README describes it as 'MCP server connecting Claude/Cursor to Codex CLI'
     - Provides MCP server interface via `npx -y @trishchuk/codex-mcp-tool` command
     - Listed in awesome-mcp-servers under Server Implementations > Coding Agents section
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.656Z"
+    updated_at: '2026-05-06T22:12:15.656Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:16.698Z"
+    updated_at: '2026-07-21T15:21:16.698Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-14T05:30:11.462Z"
+    updated_at: '2026-05-14T05:30:11.462Z'
     cause: null
     next_retry_at: null
     attempts: 2

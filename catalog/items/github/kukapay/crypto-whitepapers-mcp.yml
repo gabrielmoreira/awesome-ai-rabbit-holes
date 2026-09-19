@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__crypto-whitepapers-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/crypto-whitepapers-mcp
         extracted_url: https://github.com/kukapay/crypto-whitepapers-mcp
-        surrounding_text: "- [kukapay/crypto-whitepapers-mcp](https://github.com/kukapay/crypto-whitepapers-mcp) 🐍 ☁️ - Serving as a structured knowledge base of crypto whitepapers."
+        surrounding_text: >-
+          - [kukapay/crypto-whitepapers-mcp](https://github.com/kukapay/crypto-whitepapers-mcp) 🐍 ☁️ - Serving as a
+          structured knowledge base of crypto whitepapers.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,22 @@ metadata:
     archived: false
     full_name: kukapay/crypto-whitepapers-mcp
     html_url: https://github.com/kukapay/crypto-whitepapers-mcp
-    created_at: "2025-04-19T15:50:58Z"
-    pushed_at: "2025-04-19T15:53:55Z"
+    created_at: '2025-04-19T15:50:58Z'
+    pushed_at: '2025-04-19T15:53:55Z'
     description: An MCP server serving as a structured knowledge base of crypto whitepapers.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:59.859Z"
+    last_checked_at: '2026-07-30T05:05:59.859Z'
     readme:
-      fetched_at: "2026-07-30T05:05:59.859Z"
+      fetched_at: '2026-07-30T05:05:59.859Z'
       bytes: 3978
 insights:
-  summary: An MCP server providing a structured knowledge base of cryptocurrency whitepapers for AI agents to query and analyze.
-  why_it_matters: Developers building crypto-focused AI agents can now offload whitepaper retrieval, indexing, and domain-specific Q&A to a dedicated MCP server.
+  summary: >-
+    An MCP server providing a structured knowledge base of cryptocurrency whitepapers for AI agents to query and
+    analyze.
+  why_it_matters: >-
+    Developers building crypto-focused AI agents can now offload whitepaper retrieval, indexing, and domain-specific Q&A
+    to a dedicated MCP server.
   mental_damage: Finally, a way to make your AI agent pretend it read all those whitepapers you didn’t.
   tags:
     - mcp
@@ -52,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose primary identity is serving structured crypto whitepaper data to AI agents.
+  reason: >-
+    The product is explicitly an MCP server whose primary identity is serving structured crypto whitepaper data to AI
+    agents.
   evidence:
     - Repo description states it is 'An MCP server serving as a structured knowledge base of crypto whitepapers'
     - README details MCP integration with Claude Desktop and lists MCP-specific tools/prompts
     - Core functionality revolves around MCP server capabilities (search, load, query whitepapers)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:59.859Z"
+    updated_at: '2026-07-30T05:05:59.859Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:52.295Z"
+    updated_at: '2026-07-21T16:13:52.295Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +98,9 @@ processing:
       input_hash: sha256:9a3963c84f4e3eb73b022170be997e7146f62005f1adee94218fd4f9c4956fb7
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server whose primary identity is serving structured crypto whitepaper data to AI agents.
+      decision_reason: >-
+        The product is explicitly an MCP server whose primary identity is serving structured crypto whitepaper data to
+        AI agents.
       decision_evidence:
         - Repo description states it is 'An MCP server serving as a structured knowledge base of crypto whitepapers'
         - README details MCP integration with Claude Desktop and lists MCP-specific tools/prompts
@@ -97,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product’s primary identity is as an MCP server (with domain-specific retrieval) rather than a general context/retrieval system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the product’s primary identity is as an MCP server (with
+        domain-specific retrieval) rather than a general context/retrieval system.
       review_reason: null
       review_resume_lifecycle: null

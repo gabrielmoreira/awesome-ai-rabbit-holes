@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__martinhavel__cz-agents-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -18,9 +18,14 @@ provenance:
         section_path:
           - Server Implementations
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
-        anchor_text: "@czagents/cnb"
+        anchor_text: '@czagents/cnb'
         extracted_url: https://github.com/martinhavel/cz-agents-mcp
-        surrounding_text: "- [@czagents/cnb](https://github.com/martinhavel/cz-agents-mcp) [![martinhavel/cz-agents-mcp MCP server](https://glama.ai/mcp/servers/martinhavel/cz-agents-mcp/badges/score.svg)](https://glama.ai/mcp/servers/martinhavel/cz-agents-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Czech National Bank (ČNB) daily FX rates: fetch official CZK exchange rates, convert between currencies, fetch historical rates. Cached 10 min to ease upstream load. npm `@czagents/cnb` or HTTP at cnb.cz-agents.dev/mcp."
+        surrounding_text: >-
+          - [@czagents/cnb](https://github.com/martinhavel/cz-agents-mcp) [![martinhavel/cz-agents-mcp MCP
+          server](https://glama.ai/mcp/servers/martinhavel/cz-agents-mcp/badges/score.svg)](https://glama.ai/mcp/servers/martinhavel/cz-agents-mcp)
+          📇 ☁️ 🏠 🍎 🪟 🐧 - Czech National Bank (ČNB) daily FX rates: fetch official CZK exchange rates, convert
+          between currencies, fetch historical rates. Cached 10 min to ease upstream load. npm `@czagents/cnb` or HTTP
+          at cnb.cz-agents.dev/mcp.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: martinhavel/cz-agents-mcp
     html_url: https://github.com/martinhavel/cz-agents-mcp
-    created_at: "2026-04-16T10:03:28Z"
-    pushed_at: "2026-08-02T13:27:39Z"
-    description: Czech & EU due-diligence / KYC-AML MCP servers — sanctions (EU+OFAC), insolvency (ISIR), VAT-payer reliability, phoenix/nominee detection, risk score & UBO chain. Built on ARES, ČNB, ADIS + EU business registries. MIT.
+    created_at: '2026-04-16T10:03:28Z'
+    pushed_at: '2026-08-02T13:27:39Z'
+    description: >-
+      Czech & EU due-diligence / KYC-AML MCP servers — sanctions (EU+OFAC), insolvency (ISIR), VAT-payer reliability,
+      phoenix/nominee detection, risk score & UBO chain. Built on ARES, ČNB, ADIS + EU business registries. MIT.
     homepage: https://cz-agents.dev
     topics:
       - ares
@@ -43,14 +50,20 @@ metadata:
       - kyc
       - mcp
       - mcp-server
-    last_checked_at: "2026-08-03T05:16:57.096Z"
+    last_checked_at: '2026-08-03T05:16:57.096Z'
     readme:
-      fetched_at: "2026-08-03T05:16:57.096Z"
+      fetched_at: '2026-08-03T05:16:57.096Z'
       bytes: 12309
 insights:
-  summary: cz-agents-mcp is a set of Model Context Protocol servers providing Czech government and business data for due diligence and KYC/AML compliance.
-  why_it_matters: It gives AI agents native access to Czech registries like ARES, ČNB, ISIR, and sanctions lists, enabling automated compliance checks in developer workflows.
-  mental_damage: Hope you enjoy explaining to your auditor why your AI agent approved a transaction based on live data from a Czech VAT payer mirror.
+  summary: >-
+    cz-agents-mcp is a set of Model Context Protocol servers providing Czech government and business data for due
+    diligence and KYC/AML compliance.
+  why_it_matters: >-
+    It gives AI agents native access to Czech registries like ARES, ČNB, ISIR, and sanctions lists, enabling automated
+    compliance checks in developer workflows.
+  mental_damage: >-
+    Hope you enjoy explaining to your auditor why your AI agent approved a transaction based on live data from a Czech
+    VAT payer mirror.
   tags:
     - mcp
     - kyc
@@ -59,31 +72,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is primarily an MCP server implementation for domain-specific data access, fitting the MCP Servers & Tooling category as infrastructure for the Model Context Protocol.
+  reason: >-
+    The project is primarily an MCP server implementation for domain-specific data access, fitting the MCP Servers &
+    Tooling category as infrastructure for the Model Context Protocol.
   evidence:
     - Repo description identifies it as 'Czech & EU due-diligence / KYC-AML MCP servers'
     - README provides MCP server configurations for Claude Desktop/Cursor and remote HTTP endpoints
     - Listed in the official MCP Registry and awesome-mcp-servers under Finance & Fintech
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.628Z"
+    updated_at: '2026-05-06T22:12:15.628Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:57.096Z"
+    updated_at: '2026-08-03T05:16:57.096Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:18:46.549Z"
+    updated_at: '2026-07-21T16:18:46.549Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,7 +112,9 @@ processing:
       input_hash: sha256:b9f0727136c68776f6d6d78ea218b58edc708befffcda34a91cf9324ae075d24
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is primarily an MCP server implementation for domain-specific data access, fitting the MCP Servers & Tooling category as infrastructure for the Model Context Protocol.
+      decision_reason: >-
+        The project is primarily an MCP server implementation for domain-specific data access, fitting the MCP Servers &
+        Tooling category as infrastructure for the Model Context Protocol.
       decision_evidence:
         - Repo description identifies it as 'Czech & EU due-diligence / KYC-AML MCP servers'
         - README provides MCP server configurations for Claude Desktop/Cursor and remote HTTP endpoints
@@ -104,6 +122,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is providing MCP servers for data access, not augmenting another assistant with host integrations.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is providing MCP servers for data access,
+        not augmenting another assistant with host integrations.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aktsmm__skill-ninja-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: aktsmm/skill-ninja-mcp-server
         extracted_url: https://github.com/aktsmm/skill-ninja-mcp-server
-        surrounding_text: "- [aktsmm/skill-ninja-mcp-server](https://github.com/aktsmm/skill-ninja-mcp-server) 📇 🏠 🍎 🪟 🐧 - Agent Skill Ninja for MCP: Search, install, and manage AI agent skills (SKILL.md files) from GitHub repositories. Features workspace analysis for personalized recommendations and supports 140+ pre-indexed skills."
+        surrounding_text: >-
+          - [aktsmm/skill-ninja-mcp-server](https://github.com/aktsmm/skill-ninja-mcp-server) 📇 🏠 🍎 🪟 🐧 - Agent
+          Skill Ninja for MCP: Search, install, and manage AI agent skills (SKILL.md files) from GitHub repositories.
+          Features workspace analysis for personalized recommendations and supports 140+ pre-indexed skills.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,20 @@ metadata:
     archived: false
     full_name: aktsmm/skill-ninja-mcp-server
     html_url: https://github.com/aktsmm/skill-ninja-mcp-server
-    created_at: "2026-01-05T10:31:53Z"
-    pushed_at: "2026-05-20T23:29:26Z"
+    created_at: '2026-01-05T10:31:53Z'
+    pushed_at: '2026-05-20T23:29:26Z'
     description: MCP Server for Agent Skill Ninja - Search, Install, and Manage Agent Skills
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:37.746Z"
+    last_checked_at: '2026-09-17T04:13:37.746Z'
     readme:
-      fetched_at: "2026-09-17T04:13:37.746Z"
+      fetched_at: '2026-09-17T04:13:37.746Z'
       bytes: 5086
 insights:
   summary: An MCP server for searching, installing, and managing AI agent skills.
-  why_it_matters: It provides a standardized way to discover and inject reusable capabilities into MCP-compatible clients like Claude Desktop and Cursor.
+  why_it_matters: >-
+    It provides a standardized way to discover and inject reusable capabilities into MCP-compatible clients like Claude
+    Desktop and Cursor.
   mental_damage: Another layer of abstraction to manage in your pursuit of the perfect, self-augmenting agent workflow.
   tags:
     - mcp
@@ -58,6 +63,7 @@ curation:
     - Functionality is centered on searching, installing, and managing skills via MCP tools
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Registries & Discovery
 lifecycle:
   status: incubating
@@ -65,17 +71,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.601Z"
+    updated_at: '2026-05-06T22:12:15.601Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:37.746Z"
+    updated_at: '2026-09-17T04:13:37.746Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:12:09.417Z"
+    updated_at: '2026-07-20T16:12:09.417Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -88,7 +94,9 @@ processing:
       input_hash: sha256:ff27cb1b92eedbe6f2fc74e6e2ad484569c7aec58e9bbcb2721c8d222aaef083
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The tool's core identity is providing infrastructure for the Model Context Protocol to discover and manage skills.
+      decision_reason: >-
+        The tool's core identity is providing infrastructure for the Model Context Protocol to discover and manage
+        skills.
       decision_evidence:
         - Repo description explicitly states 'MCP Server for Agent Skill Ninja'
         - README focuses on MCP-compatible clients (Claude Desktop, Cursor, VS Code)
@@ -96,6 +104,8 @@ processing:
       category_candidates:
         - mcp
         - skills
-      contrastive_reason: Choose mcp over skills because the product is the server/infrastructure that enables the skill management, rather than the skill packs themselves.
+      contrastive_reason: >-
+        Choose mcp over skills because the product is the server/infrastructure that enables the skill management,
+        rather than the skill packs themselves.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dkuang1980__promptsite__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,12 @@ provenance:
           - LLMOps
         anchor_text: PromptSite
         extracted_url: https://github.com/dkuang1980/promptsite
-        surrounding_text: "| [PromptSite](https://github.com/dkuang1980/promptsite)               | A lightweight Python library for prompt lifecycle management that helps you version control, track, experiment and debug with your LLM prompts with ease. Minimal setup, no servers, databases, or API keys required - works directly with your local filesystem, ideal for data scientists and engineers to easily integrate into existing LLM workflows     |                   |"
+        surrounding_text: >-
+          | [PromptSite](https://github.com/dkuang1980/promptsite)               | A lightweight Python library for
+          prompt lifecycle management that helps you version control, track, experiment and debug with your LLM prompts
+          with ease. Minimal setup, no servers, databases, or API keys required - works directly with your local
+          filesystem, ideal for data scientists and engineers to easily integrate into existing LLM workflows    
+          |                   |
         confidence: high
 metadata:
   github:
@@ -29,14 +34,16 @@ metadata:
     archived: false
     full_name: dkuang1980/promptsite
     html_url: https://github.com/dkuang1980/promptsite
-    created_at: "2025-01-20T22:28:21Z"
-    pushed_at: "2025-02-03T23:06:57Z"
-    description: PromptSite is a lightweight prompt version management package that helps you version control, track, experiment and debug with your LLM prompts with ease.
-    homepage: ""
+    created_at: '2025-01-20T22:28:21Z'
+    pushed_at: '2025-02-03T23:06:57Z'
+    description: >-
+      PromptSite is a lightweight prompt version management package that helps you version control, track, experiment
+      and debug with your LLM prompts with ease.
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-14T04:13:41.537Z"
+    last_checked_at: '2026-09-14T04:13:41.537Z'
     readme:
-      fetched_at: "2026-09-14T04:13:41.537Z"
+      fetched_at: '2026-09-14T04:13:41.537Z'
       bytes: 8224
 insights:
   summary: PromptSite is a lightweight Python package for version controlling, tracking, and experimenting with LLM prompts.
@@ -50,31 +57,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core value is prompt versioning, tracking, and experimentation, which aligns with prompt management systems rather than coding assistance or host integrations.
+  reason: >-
+    The core value is prompt versioning, tracking, and experimentation, which aligns with prompt management systems
+    rather than coding assistance or host integrations.
   evidence:
     - Repo description explicitly calls it a 'prompt version management package'
     - README highlights version control, run tracking, and synthetic data generation for prompts
     - Source-list context places it in LLMOps tools
 placement:
-  primary_category: context-engineering
-  section: PromptOps / Prompt Management
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Prompt Engineering & Management
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.611Z"
+    updated_at: '2026-05-06T22:12:15.611Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:41.537Z"
+    updated_at: '2026-09-14T04:13:41.537Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:08.974Z"
+    updated_at: '2026-07-21T15:51:08.974Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,7 +97,9 @@ processing:
       input_hash: sha256:01c40b2f4fc909026e6ae4390b52f8c49c3ac663a8441e94a063f6b587df6267
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: The core value is prompt versioning, tracking, and experimentation, which aligns with prompt management systems rather than coding assistance or host integrations.
+      decision_reason: >-
+        The core value is prompt versioning, tracking, and experimentation, which aligns with prompt management systems
+        rather than coding assistance or host integrations.
       decision_evidence:
         - Repo description explicitly calls it a 'prompt version management package'
         - README highlights version control, run tracking, and synthetic data generation for prompts
@@ -95,6 +107,8 @@ processing:
       category_candidates:
         - context-engineering
         - ai-frameworks
-      contrastive_reason: Choose context-engineering over ai-frameworks because the primary job is prompt management and experimentation, not a general-purpose SDK for building AI workflows.
+      contrastive_reason: >-
+        Choose context-engineering over ai-frameworks because the primary job is prompt management and experimentation,
+        not a general-purpose SDK for building AI workflows.
       review_reason: null
       review_resume_lifecycle: null

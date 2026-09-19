@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__codefuturist__email-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: codefuturist/email-mcp
         extracted_url: https://github.com/codefuturist/email-mcp
-        surrounding_text: "- [codefuturist/email-mcp](https://github.com/codefuturist/email-mcp) 📇 ☁️ 🍎 🪟 🐧 - IMAP/SMTP email MCP server with 42 tools for reading, searching, sending, scheduling, and managing emails across multiple accounts. Supports IMAP IDLE push, AI triage, desktop notifications, and auto-detects providers like Gmail, Outlook, and iCloud."
+        surrounding_text: >-
+          - [codefuturist/email-mcp](https://github.com/codefuturist/email-mcp) 📇 ☁️ 🍎 🪟 🐧 - IMAP/SMTP email MCP
+          server with 42 tools for reading, searching, sending, scheduling, and managing emails across multiple
+          accounts. Supports IMAP IDLE push, AI triage, desktop notifications, and auto-detects providers like Gmail,
+          Outlook, and iCloud.
         confidence: high
 metadata:
   github:
@@ -30,10 +34,12 @@ metadata:
     archived: false
     full_name: codefuturist/email-mcp
     html_url: https://github.com/codefuturist/email-mcp
-    created_at: "2026-02-18T09:07:06Z"
-    pushed_at: "2026-08-21T13:39:49Z"
-    description: Email MCP server with full IMAP + SMTP support — read, search, send, manage, and organize email from any AI assistant via the Model Context Protocol
-    homepage: ""
+    created_at: '2026-02-18T09:07:06Z'
+    pushed_at: '2026-08-21T13:39:49Z'
+    description: >-
+      Email MCP server with full IMAP + SMTP support — read, search, send, manage, and organize email from any AI
+      assistant via the Model Context Protocol
+    homepage: ''
     topics:
       - ai
       - claude
@@ -50,13 +56,15 @@ metadata:
       - protonmail-bridge
       - smtp
       - typescript
-    last_checked_at: "2026-09-07T04:13:48.574Z"
+    last_checked_at: '2026-09-07T04:13:48.574Z'
     readme:
-      fetched_at: "2026-09-07T04:13:48.574Z"
+      fetched_at: '2026-09-07T04:13:48.574Z'
       bytes: 28094
 insights:
   summary: An MCP server that provides full IMAP and SMTP email capabilities for AI assistants via the Model Context Protocol.
-  why_it_matters: Lets AI assistants read, search, send, manage, and organize email across multiple accounts, turning email into a first-class context source for coding workflows.
+  why_it_matters: >-
+    Lets AI assistants read, search, send, manage, and organize email across multiple accounts, turning email into a
+    first-class context source for coding workflows.
   mental_damage: Now your AI can triage your inbox while you pretend to write tests.
   tags:
     - mcp
@@ -67,31 +75,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server exposing email capabilities as tools/resources for AI assistants."
+  reason: >-
+    MCP is the product identity: this is a dedicated MCP server exposing email capabilities as tools/resources for AI
+    assistants.
   evidence:
     - Repo description explicitly states it is an 'Email MCP server with full IMAP + SMTP support'
     - README highlights 47 tools, 7 prompts, and 6 resources exposed over MCP
     - Already curated in awesome-mcp-servers under 'Server Implementations > Communication'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:48.574Z"
+    updated_at: '2026-09-07T04:13:48.574Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:43:59.268Z"
+    updated_at: '2026-07-21T15:43:59.268Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,7 +115,9 @@ processing:
       input_hash: sha256:a38e16d3d376b80885a6ee6f518f6ded815747f6f5b5e3f8a8eadea02094453b
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing email capabilities as tools/resources for AI assistants."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server exposing email capabilities as tools/resources for
+        AI assistants.
       decision_evidence:
         - Repo description explicitly states it is an 'Email MCP server with full IMAP + SMTP support'
         - README highlights 47 tools, 7 prompts, and 6 resources exposed over MCP
@@ -112,6 +125,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

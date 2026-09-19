@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__spix-hq__spix-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: Spix-HQ/spix-mcp
         extracted_url: https://github.com/spix-hq/spix-mcp
-        surrounding_text: "- [Spix-HQ/spix-mcp](https://github.com/Spix-HQ/spix-mcp) [![Spix-HQ/spix-mcp MCP server](https://glama.ai/mcp/servers/Spix-HQ/spix-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Spix-HQ/spix-mcp) 🐍 ☁️ - Give AI agents a real phone number and voice. Make outbound calls, handle inbound calls, send email, and manage contacts via 26 MCP tools. ~500ms voice latency (Deepgram Nova-3 + Claude + Cartesia Sonic-3). Install: `pip install spix-mcp`. [Free tier available](https://spix.sh)."
+        surrounding_text: >-
+          - [Spix-HQ/spix-mcp](https://github.com/Spix-HQ/spix-mcp) [![Spix-HQ/spix-mcp MCP
+          server](https://glama.ai/mcp/servers/Spix-HQ/spix-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Spix-HQ/spix-mcp)
+          🐍 ☁️ - Give AI agents a real phone number and voice. Make outbound calls, handle inbound calls, send email,
+          and manage contacts via 26 MCP tools. ~500ms voice latency (Deepgram Nova-3 + Claude + Cartesia Sonic-3).
+          Install: `pip install spix-mcp`. [Free tier available](https://spix.sh).
         confidence: high
 metadata:
   github:
@@ -30,19 +35,25 @@ metadata:
     archived: false
     full_name: Spix-HQ/spix-mcp
     html_url: https://github.com/Spix-HQ/spix-mcp
-    created_at: "2026-03-22T07:13:14Z"
-    pushed_at: "2026-03-25T06:37:17Z"
+    created_at: '2026-03-22T07:13:14Z'
+    pushed_at: '2026-03-25T06:37:17Z'
     description: Spix MCP Server — give AI agents phone calls, SMS, and email as tool calls
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:43:01.573Z"
+    last_checked_at: '2026-07-20T16:43:01.573Z'
     readme:
-      fetched_at: "2026-07-20T16:43:01.573Z"
+      fetched_at: '2026-07-20T16:43:01.573Z'
       bytes: 9388
 insights:
-  summary: A standalone MCP server that exposes Spix's communications infrastructure—phone calls, SMS, email, and contacts—as 43–49 tool calls for any MCP-compatible AI client.
-  why_it_matters: Developers can let agents initiate real phone calls, send emails, and manage contacts directly from Claude Desktop, Cursor, or other MCP hosts without building custom API integrations.
-  mental_damage: Your AI assistant can now call your boss to explain why the deploy failed, and you can no longer claim the phone was off.
+  summary: >-
+    A standalone MCP server that exposes Spix's communications infrastructure—phone calls, SMS, email, and contacts—as
+    43–49 tool calls for any MCP-compatible AI client.
+  why_it_matters: >-
+    Developers can let agents initiate real phone calls, send emails, and manage contacts directly from Claude Desktop,
+    Cursor, or other MCP hosts without building custom API integrations.
+  mental_damage: >-
+    Your AI assistant can now call your boss to explain why the deploy failed, and you can no longer claim the phone was
+    off.
   tags:
     - mcp
     - communication
@@ -51,35 +62,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server exposing communication infrastructure as tools, which aligns directly with the MCP Servers & Tooling category and is listed in awesome-mcp-servers under Communication.
+  reason: >-
+    The product is explicitly an MCP server exposing communication infrastructure as tools, which aligns directly with
+    the MCP Servers & Tooling category and is listed in awesome-mcp-servers under Communication.
   evidence:
-    - "Repo description: 'Spix MCP Server — give AI agents phone calls, SMS, and email as tool calls'"
-    - "README: 'spix-mcp is a standalone Model Context Protocol server that exposes Spix's communications infrastructure... as MCP tools and resources'"
+    - 'Repo description: ''Spix MCP Server — give AI agents phone calls, SMS, and email as tool calls'''
+    - >-
+      README: 'spix-mcp is a standalone Model Context Protocol server that exposes Spix's communications
+      infrastructure... as MCP tools and resources'
     - Seen in awesome-mcp-servers under 'Server Implementations > Communication'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.649Z"
+    updated_at: '2026-05-06T22:12:15.649Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:43:01.573Z"
+    updated_at: '2026-07-20T16:43:01.573Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

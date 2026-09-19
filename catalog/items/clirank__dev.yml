@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__clirank__dev__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,10 +19,16 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: clirank.dev
         extracted_url: https://clirank.dev
-        surrounding_text: "- [alexanderclapp/clirank-mcp-server](https://github.com/alexanderclapp/clirank-mcp-server) [![alexanderclapp/clirank-mcp-server MCP server](https://glama.ai/mcp/servers/alexanderclapp/clirank-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/alexanderclapp/clirank-mcp-server) 📇 ☁️ 🍎 🪟 🐧 - API intelligence for AI coding agents. 387 APIs scored on agent-friendliness with tools to recommend, compare, check scores, and discover APIs. Install: `npx clirank-mcp-server`. Web: [clirank.dev](https://clirank.dev)."
+        surrounding_text: >-
+          - [alexanderclapp/clirank-mcp-server](https://github.com/alexanderclapp/clirank-mcp-server)
+          [![alexanderclapp/clirank-mcp-server MCP
+          server](https://glama.ai/mcp/servers/alexanderclapp/clirank-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/alexanderclapp/clirank-mcp-server)
+          📇 ☁️ 🍎 🪟 🐧 - API intelligence for AI coding agents. 387 APIs scored on agent-friendliness with tools to
+          recommend, compare, check scores, and discover APIs. Install: `npx clirank-mcp-server`. Web:
+          [clirank.dev](https://clirank.dev).
         confidence: high
     - id: discovery__clirank__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -34,7 +40,9 @@ provenance:
           - MCP Servers and Directories
         anchor_text: CLIRank
         extracted_url: https://clirank.dev
-        surrounding_text: "- **[CLIRank](https://clirank.dev/)** – API directory scoring 387 APIs on agent-friendliness across 11 signals. MCP server and web directory."
+        surrounding_text: >-
+          - **[CLIRank](https://clirank.dev/)** – API directory scoring 387 APIs on agent-friendliness across 11
+          signals. MCP server and web directory.
         confidence: high
 metadata:
   github:
@@ -53,7 +61,9 @@ metadata:
     readme: null
 insights:
   summary: An aggregator of MCP servers designed to facilitate discovery of Model Context Protocol implementations.
-  why_it_matters: It helps developers navigate the growing ecosystem of MCP servers to extend their AI assistants with new tools and data sources.
+  why_it_matters: >-
+    It helps developers navigate the growing ecosystem of MCP servers to extend their AI assistants with new tools and
+    data sources.
   mental_damage: Because apparently, finding the right tool for your LLM is now a full-time job in catalog management.
   tags:
     - mcp
@@ -63,20 +73,23 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool is primarily a directory/aggregator of MCP servers, making it a discovery resource rather than a standalone MCP server.
+  reason: >-
+    The tool is primarily a directory/aggregator of MCP servers, making it a discovery resource rather than a standalone
+    MCP server.
   evidence:
     - Seen in awesome-mcp-servers as an aggregator
     - Seen in awesome-ai-coding-tools as an MCP aggregator
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: mcp
+  secondary_categories: []
+  section: Registries & Discovery
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.596Z"
+    updated_at: '2026-05-06T22:12:15.596Z'
     cause: null
     next_retry_at: null
   stars:
@@ -85,7 +98,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:30:12.615Z"
+    updated_at: '2026-07-20T15:30:12.615Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -98,13 +111,17 @@ processing:
       input_hash: sha256:e164c9bef71d1ac447d300a95b33b56f65f2868515c8d3193b46674f270648d2
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: The tool is primarily a directory/aggregator of MCP servers, making it a discovery resource rather than a standalone MCP server.
+      decision_reason: >-
+        The tool is primarily a directory/aggregator of MCP servers, making it a discovery resource rather than a
+        standalone MCP server.
       decision_evidence:
         - Seen in awesome-mcp-servers as an aggregator
         - Seen in awesome-ai-coding-tools as an MCP aggregator
       category_candidates:
         - awesome-awesomes
         - mcp
-      contrastive_reason: Choose awesome-awesomes over mcp because the project's identity is a collection of existing servers rather than a server implementation itself.
+      contrastive_reason: >-
+        Choose awesome-awesomes over mcp because the project's identity is a collection of existing servers rather than
+        a server implementation itself.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ayhammouda__python-docs-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: ayhammouda/python-docs-mcp-server
         extracted_url: https://github.com/ayhammouda/python-docs-mcp-server
-        surrounding_text: "- [ayhammouda/python-docs-mcp-server](https://github.com/ayhammouda/python-docs-mcp-server) [![python-docs-mcp-server MCP server](https://glama.ai/mcp/servers/ayhammouda/python-docs-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/ayhammouda/python-docs-mcp-server) 🐍 🏠 🍎 🪟 🐧 - Local, read-only retrieval over official Python standard library docs with exact symbol lookup, section-level results, and version-aware context."
+        surrounding_text: >-
+          - [ayhammouda/python-docs-mcp-server](https://github.com/ayhammouda/python-docs-mcp-server)
+          [![python-docs-mcp-server MCP
+          server](https://glama.ai/mcp/servers/ayhammouda/python-docs-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/ayhammouda/python-docs-mcp-server)
+          🐍 🏠 🍎 🪟 🐧 - Local, read-only retrieval over official Python standard library docs with exact symbol
+          lookup, section-level results, and version-aware context.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: ayhammouda/python-docs-mcp-server
     html_url: https://github.com/ayhammouda/python-docs-mcp-server
-    created_at: "2026-04-15T18:27:50Z"
-    pushed_at: "2026-08-31T06:13:11Z"
-    description: "Read-only MCP server for official Python docs: local index, no API keys, exact symbol lookup, version-aware retrieval."
+    created_at: '2026-04-15T18:27:50Z'
+    pushed_at: '2026-08-31T06:13:11Z'
+    description: >-
+      Read-only MCP server for official Python docs: local index, no API keys, exact symbol lookup, version-aware
+      retrieval.
     homepage: null
     topics:
       - claude
@@ -46,14 +53,18 @@ metadata:
       - python
       - python-docs
       - sqlite
-    last_checked_at: "2026-09-07T04:13:30.101Z"
+    last_checked_at: '2026-09-07T04:13:30.101Z'
     readme:
-      fetched_at: "2026-09-07T04:13:30.101Z"
+      fetched_at: '2026-09-07T04:13:30.101Z'
       bytes: 13632
 insights:
   summary: A read-only MCP server that provides local, version-aware lookup of official Python documentation.
-  why_it_matters: It allows AI coding agents to access precise Python standard library symbols and documentation sections, preventing hallucinations and reducing token usage compared to web scraping.
-  mental_damage: Because we have reached the point where our LLMs need a dedicated SQLite index just to remember how the standard library works.
+  why_it_matters: >-
+    It allows AI coding agents to access precise Python standard library symbols and documentation sections, preventing
+    hallucinations and reducing token usage compared to web scraping.
+  mental_damage: >-
+    Because we have reached the point where our LLMs need a dedicated SQLite index just to remember how the standard
+    library works.
   tags:
     - mcp
     - python
@@ -63,31 +74,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is a specialized MCP server designed to serve a specific domain (Python documentation) to AI assistants.
+  reason: >-
+    The project's primary identity is a specialized MCP server designed to serve a specific domain (Python
+    documentation) to AI assistants.
   evidence:
     - Repo description explicitly identifies it as a read-only MCP server
     - Provides exact symbol lookup and version-aware retrieval via local SQLite index
     - Designed for integration with MCP clients like Claude Desktop and Cursor
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.818Z"
+    updated_at: '2026-05-28T05:28:09.818Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:30.101Z"
+    updated_at: '2026-09-07T04:13:30.101Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-28T05:36:14.097Z"
+    updated_at: '2026-05-28T05:36:14.097Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

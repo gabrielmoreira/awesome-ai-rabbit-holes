@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cdeust__cortex__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: cdeust/Cortex
         extracted_url: https://github.com/cdeust/cortex
-        surrounding_text: "- [cdeust/Cortex](https://github.com/cdeust/Cortex) [![badge](https://glama.ai/mcp/servers/cdeust/Cortex/badge)](https://glama.ai/mcp/servers/cdeust/Cortex) 🐍 🏠 🍎 - Persistent memory for Claude Code grounded in computational neuroscience (41 cited papers). Thermodynamic decay, hippocampal-cortical consolidation, predictive-coding write gate, WRRF retrieval. PostgreSQL + pgvector, 33 MCP tools, 7 lifecycle hooks. Benchmarked 97.8% R@10 on LongMemEval. `claude plugin marketplace add cdeust/Cortex`"
+        surrounding_text: >-
+          - [cdeust/Cortex](https://github.com/cdeust/Cortex)
+          [![badge](https://glama.ai/mcp/servers/cdeust/Cortex/badge)](https://glama.ai/mcp/servers/cdeust/Cortex) 🐍 🏠
+          🍎 - Persistent memory for Claude Code grounded in computational neuroscience (41 cited papers). Thermodynamic
+          decay, hippocampal-cortical consolidation, predictive-coding write gate, WRRF retrieval. PostgreSQL +
+          pgvector, 33 MCP tools, 7 lifecycle hooks. Benchmarked 97.8% R@10 on LongMemEval. `claude plugin marketplace
+          add cdeust/Cortex`
         confidence: high
 metadata:
   github:
@@ -30,9 +36,12 @@ metadata:
     archived: false
     full_name: cdeust/Cortex
     html_url: https://github.com/cdeust/Cortex
-    created_at: "2026-03-18T11:24:37Z"
-    pushed_at: "2026-09-07T03:30:00Z"
-    description: Cross-platform persistent memory MCP for Codex, Gemini CLI, Claude Code, and other local MCP hosts. 36 cited neuroscience mechanisms, local-first SQLite/PostgreSQL, hybrid retrieval, decay-based consolidation, and reproducible benchmarks. Claude adds optional automatic lifecycle hooks.
+    created_at: '2026-03-18T11:24:37Z'
+    pushed_at: '2026-09-07T03:30:00Z'
+    description: >-
+      Cross-platform persistent memory MCP for Codex, Gemini CLI, Claude Code, and other local MCP hosts. 36 cited
+      neuroscience mechanisms, local-first SQLite/PostgreSQL, hybrid retrieval, decay-based consolidation, and
+      reproducible benchmarks. Claude adds optional automatic lifecycle hooks.
     homepage: https://ai-architect.tools
     topics:
       - agent-memory-system
@@ -55,14 +64,20 @@ metadata:
       - predictive-coding
       - retrieval-augmented-generation
       - vector-search
-    last_checked_at: "2026-09-07T04:13:42.424Z"
+    last_checked_at: '2026-09-07T04:13:42.424Z'
     readme:
-      fetched_at: "2026-09-07T04:13:42.424Z"
+      fetched_at: '2026-09-07T04:13:42.424Z'
       bytes: 53614
 insights:
-  summary: Persistent memory system for Claude Code that uses computational neuroscience mechanisms to consolidate, retrieve, and reconstruct project context.
-  why_it_matters: Solves the 'amnesiac assistant' problem by giving Claude Code a living, evolving memory of your project decisions, debugging sessions, and architectural choices.
-  mental_damage: Finally, an AI that remembers you told it to use event sourcing instead of CRUD—until the next major version, anyway.
+  summary: >-
+    Persistent memory system for Claude Code that uses computational neuroscience mechanisms to consolidate, retrieve,
+    and reconstruct project context.
+  why_it_matters: >-
+    Solves the 'amnesiac assistant' problem by giving Claude Code a living, evolving memory of your project decisions,
+    debugging sessions, and architectural choices.
+  mental_damage: >-
+    Finally, an AI that remembers you told it to use event sourcing instead of CRUD—until the next major version,
+    anyway.
   tags:
     - claude-code
     - memory-system
@@ -72,31 +87,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Core novelty is a neuroscience-inspired memory/retrieval system for shaping model context, not a primary coding assistant or host integration.
+  reason: >-
+    Core novelty is a neuroscience-inspired memory/retrieval system for shaping model context, not a primary coding
+    assistant or host integration.
   evidence:
-    - Repo description explicitly calls it 'Persistent memory for Claude Code built on computational neuroscience, not just retrieval'
-    - README emphasizes memory consolidation, context reconstruction, and 26+ biological mechanisms over direct code editing
+    - >-
+      Repo description explicitly calls it 'Persistent memory for Claude Code built on computational neuroscience, not
+      just retrieval'
+    - >-
+      README emphasizes memory consolidation, context reconstruction, and 26+ biological mechanisms over direct code
+      editing
     - Topics include 'llm-memory', 'long-term-memory', 'episodic-memory', and 'model-context-protocol'
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.607Z"
+    updated_at: '2026-05-06T22:12:15.607Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:42.424Z"
+    updated_at: '2026-09-07T04:13:42.424Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:41:04.687Z"
+    updated_at: '2026-07-21T15:41:04.687Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -109,14 +131,22 @@ processing:
       input_hash: sha256:bab3d74af9cad88bb7f607bb6a21c4f452a0f5f5b22f70ccac5396a01efa7d79
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: Core novelty is a neuroscience-inspired memory/retrieval system for shaping model context, not a primary coding assistant or host integration.
+      decision_reason: >-
+        Core novelty is a neuroscience-inspired memory/retrieval system for shaping model context, not a primary coding
+        assistant or host integration.
       decision_evidence:
-        - Repo description explicitly calls it 'Persistent memory for Claude Code built on computational neuroscience, not just retrieval'
-        - README emphasizes memory consolidation, context reconstruction, and 26+ biological mechanisms over direct code editing
+        - >-
+          Repo description explicitly calls it 'Persistent memory for Claude Code built on computational neuroscience,
+          not just retrieval'
+        - >-
+          README emphasizes memory consolidation, context reconstruction, and 26+ biological mechanisms over direct code
+          editing
         - Topics include 'llm-memory', 'long-term-memory', 'episodic-memory', and 'model-context-protocol'
       category_candidates:
         - context-engineering
         - ai-dev-extensions
-      contrastive_reason: Choose context-engineering over ai-dev-extensions because the core product is a memory/retrieval system (neuroscience mechanisms, consolidation, context assembly) rather than a host integration layer for Claude Code.
+      contrastive_reason: >-
+        Choose context-engineering over ai-dev-extensions because the core product is a memory/retrieval system
+        (neuroscience mechanisms, consolidation, context assembly) rather than a host integration layer for Claude Code.
       review_reason: null
       review_resume_lifecycle: null

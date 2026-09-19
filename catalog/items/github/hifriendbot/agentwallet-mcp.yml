@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hifriendbot__agentwallet-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: hifriendbot/agentwallet-mcp
         extracted_url: https://github.com/hifriendbot/agentwallet-mcp
-        surrounding_text: "- [hifriendbot/agentwallet-mcp](https://github.com/hifriendbot/agentwallet-mcp) [![hifriendbot/agentwallet-mcp MCP server](https://glama.ai/mcp/servers/hifriendbot/agentwallet-mcp/badges/score.svg)](https://glama.ai/mcp/servers/hifriendbot/agentwallet-mcp) 📇 ☁️ - Permissionless wallet infrastructure for AI agents. 29 tools for wallet creation, transaction signing, token transfers, and x402 payments across all EVM chains and Solana. No KYC, no API keys — agents pay with USDC."
+        surrounding_text: >-
+          - [hifriendbot/agentwallet-mcp](https://github.com/hifriendbot/agentwallet-mcp) [![hifriendbot/agentwallet-mcp
+          MCP
+          server](https://glama.ai/mcp/servers/hifriendbot/agentwallet-mcp/badges/score.svg)](https://glama.ai/mcp/servers/hifriendbot/agentwallet-mcp)
+          📇 ☁️ - Permissionless wallet infrastructure for AI agents. 29 tools for wallet creation, transaction signing,
+          token transfers, and x402 payments across all EVM chains and Solana. No KYC, no API keys — agents pay with
+          USDC.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: hifriendbot/agentwallet-mcp
     html_url: https://github.com/hifriendbot/agentwallet-mcp
-    created_at: "2026-02-16T20:48:17Z"
-    pushed_at: "2026-07-29T17:46:42Z"
-    description: Permissionless wallet infrastructure for AI agents. Create wallets, sign transactions, and broadcast on EVM + Solana. Pay and accept x402 payments. Built-in guards. No KYC. Up to 50% less expensive than Coinbase.
+    created_at: '2026-02-16T20:48:17Z'
+    pushed_at: '2026-07-29T17:46:42Z'
+    description: >-
+      Permissionless wallet infrastructure for AI agents. Create wallets, sign transactions, and broadcast on EVM +
+      Solana. Pay and accept x402 payments. Built-in guards. No KYC. Up to 50% less expensive than Coinbase.
     homepage: https://hifriendbot.com/wallet
     topics:
       - ai-agent
@@ -48,13 +56,17 @@ metadata:
       - solana
       - web3
       - x402
-    last_checked_at: "2026-07-30T05:05:37.204Z"
+    last_checked_at: '2026-07-30T05:05:37.204Z'
     readme:
-      fetched_at: "2026-07-30T05:05:37.204Z"
+      fetched_at: '2026-07-30T05:05:37.204Z'
       bytes: 15376
 insights:
-  summary: MCP server providing permissionless wallet infrastructure for AI agents to create, sign, and broadcast transactions on EVM and Solana chains, with built-in guards and x402 payment support.
-  why_it_matters: Developers can now embed crypto payment and wallet capabilities directly into AI agents via MCP, enabling autonomous on-chain transactions without KYC or credit cards.
+  summary: >-
+    MCP server providing permissionless wallet infrastructure for AI agents to create, sign, and broadcast transactions
+    on EVM and Solana chains, with built-in guards and x402 payment support.
+  why_it_matters: >-
+    Developers can now embed crypto payment and wallet capabilities directly into AI agents via MCP, enabling autonomous
+    on-chain transactions without KYC or credit cards.
   mental_damage: Finally, your AI agent can pay its own API bills in crypto while you pretend you don’t know how it got a wallet.
   tags:
     - mcp
@@ -65,31 +77,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: a server exposing wallet and payment tools via the Model Context Protocol."
+  reason: 'MCP is the product identity here: a server exposing wallet and payment tools via the Model Context Protocol.'
   evidence:
     - Repo description explicitly identifies it as MCP server infrastructure
     - README details 29 MCP tools for wallet/transaction operations
     - Topics include 'mcp-server' and 'model-context-protocol'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.618Z"
+    updated_at: '2026-05-06T22:12:15.618Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:37.204Z"
+    updated_at: '2026-07-30T05:05:37.204Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:05:35.333Z"
+    updated_at: '2026-07-21T16:05:35.333Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -102,7 +115,7 @@ processing:
       input_hash: sha256:44100869e075742e54f9c0eb4b03fe4e358a046e7ffd4d77757b7c23ef3b724a
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: a server exposing wallet and payment tools via the Model Context Protocol."
+      decision_reason: 'MCP is the product identity here: a server exposing wallet and payment tools via the Model Context Protocol.'
       decision_evidence:
         - Repo description explicitly identifies it as MCP server infrastructure
         - README details 29 MCP tools for wallet/transaction operations
@@ -110,6 +123,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific tools rather than merely extending another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific tools
+        rather than merely extending another assistant.
       review_reason: null
       review_resume_lifecycle: null

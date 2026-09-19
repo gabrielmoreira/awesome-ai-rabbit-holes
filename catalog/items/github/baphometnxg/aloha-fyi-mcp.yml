@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__baphometnxg__aloha-fyi-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🗺️ <a name="location-services"></a>Location Services
         anchor_text: baphometnxg/aloha-fyi-mcp
         extracted_url: https://github.com/baphometnxg/aloha-fyi-mcp
-        surrounding_text: "- [baphometnxg/aloha-fyi-mcp](https://github.com/baphometnxg/aloha-fyi-mcp) [![baphometnxg/aloha-fyi-mcp MCP server](https://glama.ai/mcp/servers/baphometnxg/aloha-fyi-mcp/badges/score.svg)](https://glama.ai/mcp/servers/baphometnxg/aloha-fyi-mcp) 📇 ☁️ - First dedicated Hawaii tourism MCP server. 2,583 bookable tours from Viator, GetYourGuide, Klook, and Groupon, plus 579 events across 70+ venues on Oahu, Maui, Big Island, and Kauai. Results ship with affiliate booking links. Hosted Streamable HTTP endpoint — no install required. Powered by [aloha.fyi](https://aloha.fyi)."
+        surrounding_text: >-
+          - [baphometnxg/aloha-fyi-mcp](https://github.com/baphometnxg/aloha-fyi-mcp) [![baphometnxg/aloha-fyi-mcp MCP
+          server](https://glama.ai/mcp/servers/baphometnxg/aloha-fyi-mcp/badges/score.svg)](https://glama.ai/mcp/servers/baphometnxg/aloha-fyi-mcp)
+          📇 ☁️ - First dedicated Hawaii tourism MCP server. 2,583 bookable tours from Viator, GetYourGuide, Klook, and
+          Groupon, plus 579 events across 70+ venues on Oahu, Maui, Big Island, and Kauai. Results ship with affiliate
+          booking links. Hosted Streamable HTTP endpoint — no install required. Powered by
+          [aloha.fyi](https://aloha.fyi).
         confidence: high
 metadata:
   github:
@@ -30,18 +36,22 @@ metadata:
     archived: false
     full_name: baphometnxg/aloha-fyi-mcp
     html_url: https://github.com/baphometnxg/aloha-fyi-mcp
-    created_at: "2026-04-10T08:05:40Z"
-    pushed_at: "2026-08-29T04:53:12Z"
+    created_at: '2026-04-10T08:05:40Z'
+    pushed_at: '2026-08-29T04:53:12Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:31.362Z"
+    last_checked_at: '2026-09-07T04:13:31.362Z'
     readme:
-      fetched_at: "2026-09-07T04:13:31.362Z"
+      fetched_at: '2026-09-07T04:13:31.362Z'
       bytes: 7581
 insights:
-  summary: An MCP server providing Hawaii tourism data (tours, events, restaurants, weather) with structured responses for AI assistants.
-  why_it_matters: It demonstrates a domain-specific MCP server with a novel structured-response contract (AAAK) for machine-parseable outputs, useful for developers building or integrating AI assistants.
+  summary: >-
+    An MCP server providing Hawaii tourism data (tours, events, restaurants, weather) with structured responses for AI
+    assistants.
+  why_it_matters: >-
+    It demonstrates a domain-specific MCP server with a novel structured-response contract (AAAK) for machine-parseable
+    outputs, useful for developers building or integrating AI assistants.
   mental_damage: Now your AI can plan your vacation better than you can, but only if you’re going to Hawaii.
   tags:
     - mcp-server
@@ -58,24 +68,25 @@ curation:
     - Core novelty is AAAK structured-response contract for machine-parseable outputs
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.604Z"
+    updated_at: '2026-05-06T22:12:15.604Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:31.362Z"
+    updated_at: '2026-09-07T04:13:31.362Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:25:30.953Z"
+    updated_at: '2026-07-21T15:25:30.953Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -96,6 +107,8 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product is an MCP server (domain-specific) rather than a code-first framework or SDK.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product is an MCP server (domain-specific) rather than a code-first
+        framework or SDK.
       review_reason: null
       review_resume_lifecycle: null

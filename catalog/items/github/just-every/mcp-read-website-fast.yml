@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__just-every__mcp-read-website-fast__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Community Servers
         anchor_text: just-every/mcp-read-website-fast
         extracted_url: https://github.com/just-every/mcp-read-website-fast
-        surrounding_text: "- **[just-every/mcp-read-website-fast](https://github.com/just-every/mcp-read-website-fast)** - Fast, token-efficient web content extraction that converts websites to clean Markdown. Features Mozilla Readability, smart caching, polite crawling with robots.txt support, and concurrent fetching with minimal dependencies."
+        surrounding_text: >-
+          - **[just-every/mcp-read-website-fast](https://github.com/just-every/mcp-read-website-fast)** - Fast,
+          token-efficient web content extraction that converts websites to clean Markdown. Features Mozilla Readability,
+          smart caching, polite crawling with robots.txt support, and concurrent fetching with minimal dependencies.
         confidence: high
 metadata:
   github:
@@ -29,8 +32,8 @@ metadata:
     archived: false
     full_name: just-every/mcp-read-website-fast
     html_url: https://github.com/just-every/mcp-read-website-fast
-    created_at: "2025-06-11T10:58:03Z"
-    pushed_at: "2026-07-28T21:14:42Z"
+    created_at: '2025-06-11T10:58:03Z'
+    pushed_at: '2026-07-28T21:14:42Z'
     description: Quickly reads webpages and converts to markdown for fast, token efficient web scraping
     homepage: https://justevery.com
     topics:
@@ -43,14 +46,18 @@ metadata:
       - mcp-server
       - scraper
       - website
-    last_checked_at: "2026-07-30T05:05:53.597Z"
+    last_checked_at: '2026-07-30T05:05:53.597Z'
     readme:
-      fetched_at: "2026-07-30T05:05:53.597Z"
+      fetched_at: '2026-07-30T05:05:53.597Z'
       bytes: 6694
 insights:
   summary: An MCP server that quickly reads webpages and converts them to clean Markdown for token-efficient web scraping.
-  why_it_matters: Developers can fetch and process web content with minimal token usage, preserving links and structure for AI agent workflows.
-  mental_damage: Because nothing says 'modern development' like teaching your AI assistant to politely obey robots.txt while it hoovers up the internet.
+  why_it_matters: >-
+    Developers can fetch and process web content with minimal token usage, preserving links and structure for AI agent
+    workflows.
+  mental_damage: >-
+    Because nothing says 'modern development' like teaching your AI assistant to politely obey robots.txt while it
+    hoovers up the internet.
   tags:
     - mcp-server
     - web-scraping
@@ -67,24 +74,25 @@ curation:
     - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: promotion_candidate
   reason: Stars (155) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.623Z"
+    updated_at: '2026-05-06T22:12:15.623Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:53.597Z"
+    updated_at: '2026-07-30T05:05:53.597Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:11:39.984Z"
+    updated_at: '2026-07-21T16:11:39.984Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -97,7 +105,9 @@ processing:
       input_hash: sha256:f11f6460ecdd16e5df653460fb58d55bfe0421c334ca6db4f68801f1542ed10c
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server whose primary identity is providing web content extraction as an MCP-compatible tool.
+      decision_reason: >-
+        This is an MCP-first server whose primary identity is providing web content extraction as an MCP-compatible
+        tool.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for web scraping
         - README emphasizes MCP integration with Claude Code, VS Code, Cursor, and JetBrains IDEs
@@ -105,6 +115,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

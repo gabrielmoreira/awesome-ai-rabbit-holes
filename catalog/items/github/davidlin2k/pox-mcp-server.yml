@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__davidlin2k__pox-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: davidlin2k/pox-mcp-server
         extracted_url: https://github.com/davidlin2k/pox-mcp-server
-        surrounding_text: "- [davidlin2k/pox-mcp-server](https://github.com/davidlin2k/pox-mcp-server) 🐍 🏠 - MCP server for the POX SDN controller to provides network control and management capabilities."
+        surrounding_text: >-
+          - [davidlin2k/pox-mcp-server](https://github.com/davidlin2k/pox-mcp-server) 🐍 🏠 - MCP server for the POX SDN
+          controller to provides network control and management capabilities.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,22 @@ metadata:
     archived: false
     full_name: davidlin2k/pox-mcp-server
     html_url: https://github.com/davidlin2k/pox-mcp-server
-    created_at: "2025-03-23T05:06:43Z"
-    pushed_at: "2025-03-24T01:03:19Z"
+    created_at: '2025-03-23T05:06:43Z'
+    pushed_at: '2025-03-24T01:03:19Z'
     description: A Model Context Protocol (MCP) server for the POX SDN controller
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-14T04:13:35.656Z"
+    last_checked_at: '2026-09-14T04:13:35.656Z'
     readme:
-      fetched_at: "2026-09-14T04:13:35.656Z"
+      fetched_at: '2026-09-14T04:13:35.656Z'
       bytes: 3670
 insights:
-  summary: An MCP server that exposes POX SDN controller capabilities for network control, topology management, and OpenFlow device operations.
-  why_it_matters: It lets developers integrate SDN network programming and analysis into MCP-enabled workflows, bridging network infrastructure with AI agent tooling.
+  summary: >-
+    An MCP server that exposes POX SDN controller capabilities for network control, topology management, and OpenFlow
+    device operations.
+  why_it_matters: >-
+    It lets developers integrate SDN network programming and analysis into MCP-enabled workflows, bridging network
+    infrastructure with AI agent tooling.
   mental_damage: Now your AI agent can debug your OpenFlow rules while you pretend to understand SDN.
   tags:
     - mcp
@@ -59,24 +65,25 @@ curation:
     - Already listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.610Z"
+    updated_at: '2026-05-06T22:12:15.610Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:35.656Z"
+    updated_at: '2026-09-14T04:13:35.656Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:50:08.360Z"
+    updated_at: '2026-07-21T15:50:08.360Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +96,9 @@ processing:
       input_hash: sha256:6534272f385470dfdc2d9bd17441545a9ac11a79f004b4eef5cd74047b0c92dc
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a domain-specific MCP server whose primary identity is providing POX SDN controller functionality via MCP.
+      decision_reason: >-
+        This is a domain-specific MCP server whose primary identity is providing POX SDN controller functionality via
+        MCP.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for POX SDN controller
         - README details MCP resources, prompts, and tools for network management
@@ -97,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

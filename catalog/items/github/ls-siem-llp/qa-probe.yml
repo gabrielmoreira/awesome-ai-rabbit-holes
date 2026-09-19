@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ls-siem-llp__qa-probe__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-29T05:38:18.519Z"
+      discovered_at: '2026-06-29T05:38:18.519Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🔒 <a name="delivery"></a>Delivery
         anchor_text: LS-SIEM-LLP/qa-probe
         extracted_url: https://github.com/ls-siem-llp/qa-probe
-        surrounding_text: "- [LS-SIEM-LLP/qa-probe](https://github.com/LS-SIEM-LLP/qa-probe) [![LS-SIEM-LLP/qa-probe MCP server](https://glama.ai/mcp/servers/LS-SIEM-LLP/qa-probe/badges/score.svg)](https://glama.ai/mcp/servers/LS-SIEM-LLP/qa-probe) 📇 🏠 🍎 🪟 🐧 - Probes your live API and classifies why each endpoint failed (root cause + evidence + calibrated confidence) over MCP, so your AI assistant debugs from evidence instead of guessing. Deterministic rules, no black box. Works with FastAPI, Express, Next.js, tRPC, and GraphQL. `npm i -g qa-probe`"
+        surrounding_text: >-
+          - [LS-SIEM-LLP/qa-probe](https://github.com/LS-SIEM-LLP/qa-probe) [![LS-SIEM-LLP/qa-probe MCP
+          server](https://glama.ai/mcp/servers/LS-SIEM-LLP/qa-probe/badges/score.svg)](https://glama.ai/mcp/servers/LS-SIEM-LLP/qa-probe)
+          📇 🏠 🍎 🪟 🐧 - Probes your live API and classifies why each endpoint failed (root cause + evidence +
+          calibrated confidence) over MCP, so your AI assistant debugs from evidence instead of guessing. Deterministic
+          rules, no black box. Works with FastAPI, Express, Next.js, tRPC, and GraphQL. `npm i -g qa-probe`
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: LS-SIEM-LLP/qa-probe
     html_url: https://github.com/LS-SIEM-LLP/qa-probe
-    created_at: "2026-05-04T05:57:36Z"
-    pushed_at: "2026-06-25T08:01:52Z"
-    description: Local QA agent — maps frontend routes to backend APIs, probes every endpoint live, scores pages 0–100, and explains why data is missing. Built for LightShield SIEM. Works with any FastAPI / Express / Next.js app.
+    created_at: '2026-05-04T05:57:36Z'
+    pushed_at: '2026-06-25T08:01:52Z'
+    description: >-
+      Local QA agent — maps frontend routes to backend APIs, probes every endpoint live, scores pages 0–100, and
+      explains why data is missing. Built for LightShield SIEM. Works with any FastAPI / Express / Next.js app.
     homepage: https://www.npmjs.com/package/qa-probe
     topics:
       - ai-agents
@@ -43,14 +50,20 @@ metadata:
       - nodejs
       - openapi
       - qa-automation
-    last_checked_at: "2026-07-30T05:06:08.736Z"
+    last_checked_at: '2026-07-30T05:06:08.736Z'
     readme:
-      fetched_at: "2026-07-30T05:06:08.736Z"
+      fetched_at: '2026-07-30T05:06:08.736Z'
       bytes: 14552
 insights:
-  summary: qa-probe is a Node.js CLI tool that maps frontend API calls to backend endpoints, probes them live with auth, and reports root causes for missing or broken data.
-  why_it_matters: It saves developers time diagnosing blank UI states by turning vague 'it shows nothing' complaints into actionable root causes like missing DB seeds or disabled feature flags.
-  mental_damage: Finally, a tool that tells you why your dashboard is sad—so you can go fix the real problem instead of staring at network tabs.
+  summary: >-
+    qa-probe is a Node.js CLI tool that maps frontend API calls to backend endpoints, probes them live with auth, and
+    reports root causes for missing or broken data.
+  why_it_matters: >-
+    It saves developers time diagnosing blank UI states by turning vague 'it shows nothing' complaints into actionable
+    root causes like missing DB seeds or disabled feature flags.
+  mental_damage: >-
+    Finally, a tool that tells you why your dashboard is sad—so you can go fix the real problem instead of staring at
+    network tabs.
   tags:
     - qa
     - debugging
@@ -60,31 +73,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: qa-probe is a CLI tool that augments debugging workflows by integrating frontend analysis, live API probing, and root-cause reporting, making it an extension-like add-on rather than a standalone coding agent or framework.
+  reason: >-
+    qa-probe is a CLI tool that augments debugging workflows by integrating frontend analysis, live API probing, and
+    root-cause reporting, making it an extension-like add-on rather than a standalone coding agent or framework.
   evidence:
-    - "Repo description: 'Local QA agent — maps frontend routes to backend APIs, probes every endpoint live, scores pages 0–100, and explains why data is missing.'"
-    - "README: 'qa-probe builds a source-aware map from frontend calls to live backend responses, then explains each failure in one line with a fix hint.'"
+    - >-
+      Repo description: 'Local QA agent — maps frontend routes to backend APIs, probes every endpoint live, scores pages
+      0–100, and explains why data is missing.'
+    - >-
+      README: 'qa-probe builds a source-aware map from frontend calls to live backend responses, then explains each
+      failure in one line with a fix hint.'
     - It complements Playwright and Schemathesis as a diagnostic layer, not a primary coding assistant or test author.
 placement:
-  primary_category: ai-dev-extensions
-  section: Testing & QA Add-ons
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Review, Testing & Repair
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-29T05:38:18.520Z"
+    updated_at: '2026-06-29T05:38:18.520Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:08.736Z"
+    updated_at: '2026-07-30T05:06:08.736Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-02T05:31:40.321Z"
+    updated_at: '2026-07-02T05:31:40.321Z'
     cause: null
     next_retry_at: null
     attempts: 1

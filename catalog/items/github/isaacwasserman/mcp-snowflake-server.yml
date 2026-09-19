@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__isaacwasserman__mcp-snowflake-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: isaacwasserman/mcp-snowflake-server
         extracted_url: https://github.com/isaacwasserman/mcp-snowflake-server
-        surrounding_text: "- [isaacwasserman/mcp-snowflake-server](https://github.com/isaacwasserman/mcp-snowflake-server) 🐍 ☁️ - Snowflake integration implementing read and (optional) write operations as well as insight tracking"
+        surrounding_text: >-
+          - [isaacwasserman/mcp-snowflake-server](https://github.com/isaacwasserman/mcp-snowflake-server) 🐍 ☁️ -
+          Snowflake integration implementing read and (optional) write operations as well as insight tracking
         confidence: high
     - id: discovery__github__isaacwasserman__mcp-snowflake-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,10 +37,12 @@ provenance:
           - Community Servers
         anchor_text: Snowflake
         extracted_url: https://github.com/isaacwasserman/mcp-snowflake-server
-        surrounding_text: "- **[Snowflake](https://github.com/isaacwasserman/mcp-snowflake-server)** - Snowflake database integration with read/write capabilities and insight tracking"
+        surrounding_text: >-
+          - **[Snowflake](https://github.com/isaacwasserman/mcp-snowflake-server)** - Snowflake database integration
+          with read/write capabilities and insight tracking
         confidence: high
     - id: discovery__github__isaacwasserman__mcp-snowflake-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -50,7 +54,11 @@ provenance:
           - 🗄️ Databases
         anchor_text: isaacwasserman/mcp-snowflake-server
         extracted_url: https://github.com/isaacwasserman/mcp-snowflake-server
-        surrounding_text: "-   **[isaacwasserman/mcp-snowflake-server](https://github.com/isaacwasserman/mcp-snowflake-server)** [![GitHub stars](https://img.shields.io/github/stars/isaacwasserman/mcp-snowflake-server?style=social)](https://github.com/isaacwasserman/mcp-snowflake-server): Integrates with Snowflake with read/write operations and insight tracking."
+        surrounding_text: >-
+          -   **[isaacwasserman/mcp-snowflake-server](https://github.com/isaacwasserman/mcp-snowflake-server)**
+          [![GitHub
+          stars](https://img.shields.io/github/stars/isaacwasserman/mcp-snowflake-server?style=social)](https://github.com/isaacwasserman/mcp-snowflake-server):
+          Integrates with Snowflake with read/write operations and insight tracking.
         confidence: high
 metadata:
   github:
@@ -60,19 +68,25 @@ metadata:
     archived: false
     full_name: isaacwasserman/mcp-snowflake-server
     html_url: https://github.com/isaacwasserman/mcp-snowflake-server
-    created_at: "2024-12-13T20:30:59Z"
-    pushed_at: "2025-10-07T15:05:17Z"
+    created_at: '2024-12-13T20:30:59Z'
+    pushed_at: '2025-10-07T15:05:17Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:45.184Z"
+    last_checked_at: '2026-07-30T05:05:45.184Z'
     readme:
-      fetched_at: "2026-07-30T05:05:45.184Z"
+      fetched_at: '2026-07-30T05:05:45.184Z'
       bytes: 7000
 insights:
-  summary: An MCP server that enables database interaction with Snowflake, exposing SQL query tools and schema context as resources.
-  why_it_matters: Developers can integrate Snowflake database operations directly into MCP-compatible assistants, enabling AI-driven data analysis and schema exploration without leaving their workflow.
-  mental_damage: Now your AI assistant can write SQL queries for you, which means you’ll spend even more time debugging queries you didn’t write.
+  summary: >-
+    An MCP server that enables database interaction with Snowflake, exposing SQL query tools and schema context as
+    resources.
+  why_it_matters: >-
+    Developers can integrate Snowflake database operations directly into MCP-compatible assistants, enabling AI-driven
+    data analysis and schema exploration without leaving their workflow.
+  mental_damage: >-
+    Now your AI assistant can write SQL queries for you, which means you’ll spend even more time debugging queries you
+    didn’t write.
   tags:
     - mcp
     - snowflake
@@ -82,31 +96,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server for Snowflake, making MCP its primary identity and fitting the Domain Servers section.
+  reason: >-
+    This is a dedicated MCP server for Snowflake, making MCP its primary identity and fitting the Domain Servers
+    section.
   evidence:
     - README explicitly describes it as a Model Context Protocol (MCP) server for Snowflake
     - Source lists (awesome-mcp-list, awesome-mcp-servers) categorize it under MCP servers for databases
     - Provides tools and resources specifically for MCP integration (e.g., `read_query`, `write_query`, schema tools)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: promotion_candidate
   reason: Stars (182) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.578Z"
+    updated_at: '2026-05-06T22:12:15.578Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:45.184Z"
+    updated_at: '2026-07-30T05:05:45.184Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:08:45.844Z"
+    updated_at: '2026-07-21T16:08:45.844Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -119,14 +136,20 @@ processing:
       input_hash: sha256:f99db727bba3b099223dba9710b7ee111ec85b7d78456c438c979c40fab5ebef
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a dedicated MCP server for Snowflake, making MCP its primary identity and fitting the Domain Servers section.
+      decision_reason: >-
+        This is a dedicated MCP server for Snowflake, making MCP its primary identity and fitting the Domain Servers
+        section.
       decision_evidence:
         - README explicitly describes it as a Model Context Protocol (MCP) server for Snowflake
         - Source lists (awesome-mcp-list, awesome-mcp-servers) categorize it under MCP servers for databases
-        - Provides tools and resources specifically for MCP integration (e.g., `read_query`, `write_query`, schema tools)
+        - >-
+          Provides tools and resources specifically for MCP integration (e.g., `read_query`, `write_query`, schema
+          tools)
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

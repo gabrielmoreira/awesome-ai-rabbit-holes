@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__zckly__create-t3-turbo-ai__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,7 +20,10 @@ provenance:
           - Templates
         anchor_text: create-t3-turbo-ai
         extracted_url: https://github.com/zckly/create-t3-turbo-ai
-        surrounding_text: "- [create-t3-turbo-ai](https://github.com/zckly/create-t3-turbo-ai): t3 based, Langchain-friendly boilerplate for building type-safe, full-stack, LLM-powered web apps with Nextjs and Prisma ![GitHub Repo stars](https://img.shields.io/github/stars/zckly/create-t3-turbo-ai?style=social)"
+        surrounding_text: >-
+          - [create-t3-turbo-ai](https://github.com/zckly/create-t3-turbo-ai): t3 based, Langchain-friendly boilerplate
+          for building type-safe, full-stack, LLM-powered web apps with Nextjs and Prisma ![GitHub Repo
+          stars](https://img.shields.io/github/stars/zckly/create-t3-turbo-ai?style=social)
         confidence: high
 metadata:
   github:
@@ -30,22 +33,28 @@ metadata:
     archived: false
     full_name: zckly/create-t3-turbo-ai
     html_url: https://github.com/zckly/create-t3-turbo-ai
-    created_at: "2023-02-27T21:20:55Z"
-    pushed_at: "2023-02-27T22:37:21Z"
+    created_at: '2023-02-27T21:20:55Z'
+    pushed_at: '2023-02-27T22:37:21Z'
     description: Build full-stack, type-safe, LLM-powered apps with the T3 Stack, Turborepo, OpenAI, and Langchain
-    homepage: ""
+    homepage: ''
     topics:
       - ai
       - gpt-3
       - langchain
-    last_checked_at: "2026-07-21T15:21:25.963Z"
+    last_checked_at: '2026-07-21T15:21:25.963Z'
     readme:
-      fetched_at: "2026-07-21T15:21:25.963Z"
+      fetched_at: '2026-07-21T15:21:25.963Z'
       bytes: 3790
 insights:
-  summary: A Turborepo-based starter kit for building full-stack, type-safe LLM-powered apps using the T3 Stack, OpenAI, and LangChain.
-  why_it_matters: It gives developers a production-ready scaffold to quickly bootstrap AI-enhanced web apps with modern tooling and type safety.
-  mental_damage: Another starter kit that promises 'ultimate' while leaving half the features as TODO, because why ship when you can scaffold forever?
+  summary: >-
+    A Turborepo-based starter kit for building full-stack, type-safe LLM-powered apps using the T3 Stack, OpenAI, and
+    LangChain.
+  why_it_matters: >-
+    It gives developers a production-ready scaffold to quickly bootstrap AI-enhanced web apps with modern tooling and
+    type safety.
+  mental_damage: >-
+    Another starter kit that promises 'ultimate' while leaving half the features as TODO, because why ship when you can
+    scaffold forever?
   tags:
     - starter-kit
     - t3-stack
@@ -55,31 +64,36 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: It is a prompt-aware template that scaffolds new LLM-powered apps from scratch, fitting the app-builder role of turning setup into runnable code via CLI-generated scaffolds.
+  reason: >-
+    It is a prompt-aware template that scaffolds new LLM-powered apps from scratch, fitting the app-builder role of
+    turning setup into runnable code via CLI-generated scaffolds.
   evidence:
-    - "Repo description: 'Build full-stack, type-safe, LLM-powered apps with the T3 Stack, Turborepo, OpenAI, and Langchain'"
-    - "README: 'The ultimate starter repo for building full-stack, type-safe, LLM-powered web apps'"
-    - "Source-list context: Listed in awesome-langchain under Tools > Templates"
+    - >-
+      Repo description: 'Build full-stack, type-safe, LLM-powered apps with the T3 Stack, Turborepo, OpenAI, and
+      Langchain'
+    - 'README: ''The ultimate starter repo for building full-stack, type-safe, LLM-powered web apps'''
+    - 'Source-list context: Listed in awesome-langchain under Tools > Templates'
 placement:
   primary_category: app-builders
-  section: Local / Code-Scaffolding Builders
+  secondary_categories: []
+  section: Scaffolding & Boilerplate
 lifecycle:
   status: promotion_candidate
   reason: Stars (355) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.657Z"
+    updated_at: '2026-05-06T22:12:15.657Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:25.963Z"
+    updated_at: '2026-07-21T15:21:25.963Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:50:58.045Z"
+    updated_at: '2026-05-12T15:50:58.045Z'
     cause: null
     next_retry_at: null
     attempts: 1

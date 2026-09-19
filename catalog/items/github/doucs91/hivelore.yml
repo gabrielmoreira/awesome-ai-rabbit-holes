@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__doucs91__hivelore__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,11 @@ provenance:
           - Agent infrastructure
         anchor_text: Hivelore
         extracted_url: https://github.com/doucs91/hivelore
-        surrounding_text: "- **[Hivelore](https://github.com/Doucs91/hivelore)** `⭐ 1` — Deterministic policy gate for agent-written code: a lesson captured via MCP (`mem_tried`) becomes a validated regex/AST/test guard that Git hooks and CI use to refuse any diff reintroducing the documented mistake; briefs any agent with the team's repo-specific rules over MCP. TypeScript CLI, npm (`@hivelore/cli`). Apache-2.0."
+        surrounding_text: >-
+          - **[Hivelore](https://github.com/Doucs91/hivelore)** `⭐ 1` — Deterministic policy gate for agent-written
+          code: a lesson captured via MCP (`mem_tried`) becomes a validated regex/AST/test guard that Git hooks and CI
+          use to refuse any diff reintroducing the documented mistake; briefs any agent with the team's repo-specific
+          rules over MCP. TypeScript CLI, npm (`@hivelore/cli`). Apache-2.0.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: Doucs91/hivelore
     html_url: https://github.com/Doucs91/hivelore
-    created_at: "2026-04-25T19:21:46Z"
-    pushed_at: "2026-09-06T00:16:22Z"
+    created_at: '2026-04-25T19:21:46Z'
+    pushed_at: '2026-09-06T00:16:22Z'
     description: Policy enforcement layer for AI coding agents — briefing gates, team memory, Git/CI checks
     homepage: null
     topics:
@@ -45,13 +49,17 @@ metadata:
       - mcp
       - model-context-protocol
       - typescript
-    last_checked_at: "2026-09-14T04:13:43.964Z"
+    last_checked_at: '2026-09-14T04:13:43.964Z'
     readme:
-      fetched_at: "2026-09-14T04:13:43.964Z"
+      fetched_at: '2026-09-14T04:13:43.964Z'
       bytes: 43292
 insights:
-  summary: A policy enforcement layer for AI coding agents that uses repo-native memory to prevent repeating previously identified mistakes.
-  why_it_matters: It turns transient chat history and team knowledge into deterministic CI/Git gates, preventing agents from confidently re-introducing known anti-patterns.
+  summary: >-
+    A policy enforcement layer for AI coding agents that uses repo-native memory to prevent repeating previously
+    identified mistakes.
+  why_it_matters: >-
+    It turns transient chat history and team knowledge into deterministic CI/Git gates, preventing agents from
+    confidently re-introducing known anti-patterns.
   mental_damage: Finally, a way to turn your team's 'don't do that again' Slack messages into a mandatory runtime error for your LLM.
   tags:
     - ai-agents
@@ -62,31 +70,33 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The core novelty is the memory-to-policy substrate that shapes agent context and enforces knowledge via repo-native anchors.
+  reason: >-
+    The core novelty is the memory-to-policy substrate that shapes agent context and enforces knowledge via repo-native
+    anchors.
   evidence:
     - README states 'Memory is the substrate; the gate is the product'
     - Provides briefing/context via MCP calls to prevent errors
     - Stores decisions as Markdown files anchored to code paths
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.714Z"
+    updated_at: '2026-07-16T05:04:46.714Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:43.964Z"
+    updated_at: '2026-09-14T04:13:43.964Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-16T05:14:20.401Z"
+    updated_at: '2026-07-16T05:14:20.401Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

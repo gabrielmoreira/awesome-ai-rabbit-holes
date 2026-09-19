@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wopee-io__wopee-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Wopee-io/wopee-mcp
         extracted_url: https://github.com/wopee-io/wopee-mcp
-        surrounding_text: "- [Wopee-io/wopee-mcp](https://github.com/Wopee-io/wopee-mcp) [![Wopee-io/wopee-mcp MCP server](https://glama.ai/mcp/servers/Wopee-io/wopee-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Wopee-io/wopee-mcp) 📇 ☁️ - Autonomous testing for web apps — dispatch AI agents that open real browsers, execute test cases, and report pass/fail with screenshots. Generate user stories, test cases, and Playwright code from your app context. 8 tools for end-to-end test automation."
+        surrounding_text: >-
+          - [Wopee-io/wopee-mcp](https://github.com/Wopee-io/wopee-mcp) [![Wopee-io/wopee-mcp MCP
+          server](https://glama.ai/mcp/servers/Wopee-io/wopee-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Wopee-io/wopee-mcp)
+          📇 ☁️ - Autonomous testing for web apps — dispatch AI agents that open real browsers, execute test cases, and
+          report pass/fail with screenshots. Generate user stories, test cases, and Playwright code from your app
+          context. 8 tools for end-to-end test automation.
         confidence: high
 metadata:
   github:
@@ -30,18 +35,20 @@ metadata:
     archived: false
     full_name: Wopee-io/wopee-mcp
     html_url: https://github.com/Wopee-io/wopee-mcp
-    created_at: "2025-09-20T07:11:02Z"
-    pushed_at: "2026-07-21T07:55:49Z"
+    created_at: '2025-09-20T07:11:02Z'
+    pushed_at: '2026-07-21T07:55:49Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:21:15.501Z"
+    last_checked_at: '2026-07-21T15:21:15.501Z'
     readme:
-      fetched_at: "2026-07-21T15:21:15.501Z"
+      fetched_at: '2026-07-21T15:21:15.501Z'
       bytes: 13988
 insights:
   summary: wopee-mcp is an MCP server that connects AI agents to Wopee.io for autonomous test generation and execution.
-  why_it_matters: Enables developers to generate and run automated tests via natural language prompts in MCP-compatible agents like Claude or Cursor.
+  why_it_matters: >-
+    Enables developers to generate and run automated tests via natural language prompts in MCP-compatible agents like
+    Claude or Cursor.
   mental_damage: Yet another MCP server promising to outsource your testing to AI, as if flaky tests weren't bad enough already.
   tags:
     - mcp
@@ -50,31 +57,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: wopee-mcp is an MCP server that provides tools for test generation and execution, making MCP its core identity rather than a mere integration feature.
+  reason: >-
+    wopee-mcp is an MCP server that provides tools for test generation and execution, making MCP its core identity
+    rather than a mere integration feature.
   evidence:
     - The project is explicitly named and described as a 'Wopee MCP Server' in the README
     - It requires configuration as an MCP server in MCP-compatible hosts like Cursor or VSCode
     - It exposes MCP tools such as wopee_fetch_analysis_suites and wopee_dispatch_analysis for test-related operations
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.656Z"
+    updated_at: '2026-05-06T22:12:15.656Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:15.501Z"
+    updated_at: '2026-07-21T15:21:15.501Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:37:14.424Z"
+    updated_at: '2026-05-12T15:37:14.424Z'
     cause: null
     next_retry_at: null
     attempts: 1

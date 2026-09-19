@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__claude-did-this__mcpcontrol__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Windows Control
         extracted_url: https://github.com/cheffromspace/nutjs-windows-control
-        surrounding_text: "- **[Windows Control](https://github.com/Cheffromspace/nutjs-windows-control)** - Programmatic control over Windows system operations including mouse, keyboard, window management, and screen capture using nut.js."
+        surrounding_text: >-
+          - **[Windows Control](https://github.com/Cheffromspace/nutjs-windows-control)** - Programmatic control over
+          Windows system operations including mouse, keyboard, window management, and screen capture using nut.js.
         confidence: high
 metadata:
   github:
@@ -29,10 +31,10 @@ metadata:
     archived: false
     full_name: claude-did-this/MCPControl
     html_url: https://github.com/claude-did-this/MCPControl
-    created_at: "2024-12-03T17:40:27Z"
-    pushed_at: "2025-12-02T17:19:23Z"
+    created_at: '2024-12-03T17:40:27Z'
+    pushed_at: '2025-12-02T17:19:23Z'
     description: MCP server for Windows OS automation
-    homepage: ""
+    homepage: ''
     topics:
       - ai
       - claude
@@ -41,12 +43,14 @@ metadata:
       - mcp
       - os-automation
       - windows
-    last_checked_at: "2026-09-07T04:13:46.531Z"
+    last_checked_at: '2026-09-07T04:13:46.531Z'
     readme:
-      fetched_at: "2026-09-07T04:13:46.531Z"
+      fetched_at: '2026-09-07T04:13:46.531Z'
       bytes: 10804
 insights:
-  summary: MCP server for Windows OS automation, enabling programmatic control of mouse, keyboard, window management, and screen capture.
+  summary: >-
+    MCP server for Windows OS automation, enabling programmatic control of mouse, keyboard, window management, and
+    screen capture.
   why_it_matters: It lets developers delegate repetitive desktop automation tasks to AI models via the Model Context Protocol.
   mental_damage: Now your AI can click buttons for you—just don’t blame it when it closes the wrong window.
   tags:
@@ -57,31 +61,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the product identity, and the server provides Windows-specific OS automation capabilities as a first-class MCP server.
+  reason: >-
+    MCP is the product identity, and the server provides Windows-specific OS automation capabilities as a first-class
+    MCP server.
   evidence:
     - Repo description explicitly states it is an MCP server for Windows OS automation
     - README details its role as a Windows control server for MCP with mouse, keyboard, and screen capture functionality
     - Already listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: promotion_candidate
   reason: Stars (319) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:46.531Z"
+    updated_at: '2026-09-07T04:13:46.531Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:43:09.064Z"
+    updated_at: '2026-07-21T15:43:09.064Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -94,14 +101,20 @@ processing:
       input_hash: sha256:604302d820fa848e10469381cdea3fd7279db4919793472bf8dd9eb656ea98c6
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the product identity, and the server provides Windows-specific OS automation capabilities as a first-class MCP server.
+      decision_reason: >-
+        MCP is the product identity, and the server provides Windows-specific OS automation capabilities as a
+        first-class MCP server.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Windows OS automation
-        - README details its role as a Windows control server for MCP with mouse, keyboard, and screen capture functionality
+        - >-
+          README details its role as a Windows control server for MCP with mouse, keyboard, and screen capture
+          functionality
         - Already listed in awesome-mcp-servers under Community Servers
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server providing OS automation, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server providing OS automation, not merely
+        an extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

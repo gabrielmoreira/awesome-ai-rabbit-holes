@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__matbel91765__gis-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🗺️ <a name="location-services"></a>Location Services
         anchor_text: matbel91765/gis-mcp-server
         extracted_url: https://github.com/matbel91765/gis-mcp-server
-        surrounding_text: "- [matbel91765/gis-mcp-server](https://github.com/matbel91765/gis-mcp-server) 🐍 🏠 🍎 🪟 🐧 - Geospatial tools for AI agents: geocoding, routing, elevation, spatial analysis, and file I/O (Shapefile, GeoJSON, GeoPackage)"
+        surrounding_text: >-
+          - [matbel91765/gis-mcp-server](https://github.com/matbel91765/gis-mcp-server) 🐍 🏠 🍎 🪟 🐧 - Geospatial
+          tools for AI agents: geocoding, routing, elevation, spatial analysis, and file I/O (Shapefile, GeoJSON,
+          GeoPackage)
         confidence: high
 metadata:
   github:
@@ -30,18 +33,22 @@ metadata:
     archived: false
     full_name: matbel91765/GIS-MCP-Server
     html_url: https://github.com/matbel91765/GIS-MCP-Server
-    created_at: "2025-12-03T14:44:12Z"
-    pushed_at: "2026-07-08T00:28:34Z"
+    created_at: '2025-12-03T14:44:12Z'
+    pushed_at: '2026-07-08T00:28:34Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:16:57.515Z"
+    last_checked_at: '2026-08-03T05:16:57.515Z'
     readme:
-      fetched_at: "2026-08-03T05:16:57.515Z"
+      fetched_at: '2026-08-03T05:16:57.515Z'
       bytes: 6461
 insights:
-  summary: A Model Context Protocol server providing geospatial tools like geocoding, routing, elevation, and file I/O for AI agents.
-  why_it_matters: Enables LLMs to perform real-world geographic operations, extending their utility beyond text into spatial reasoning and location-aware workflows.
+  summary: >-
+    A Model Context Protocol server providing geospatial tools like geocoding, routing, elevation, and file I/O for AI
+    agents.
+  why_it_matters: >-
+    Enables LLMs to perform real-world geographic operations, extending their utility beyond text into spatial reasoning
+    and location-aware workflows.
   mental_damage: Another MCP server to install, hoping your agent finally understands that 'nearby' means meters, not tokens.
   tags:
     - mcp
@@ -51,31 +58,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP-first server whose core identity and functionality revolve around exposing geospatial tools via the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
+  reason: >-
+    The product is an MCP-first server whose core identity and functionality revolve around exposing geospatial tools
+    via the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
   evidence:
-    - "README explicitly states: 'A Model Context Protocol (MCP) server providing geospatial tools for AI agents'"
-    - Tools are exposed as MCP capabilities (geocode, route, buffer, read_file, etc.) with setup instructions for Claude Desktop via mcpServers config
-    - Architecture centers on server.py as MCP entry point, with no indication of being a wrapper, SDK, or extension to another agent
+    - 'README explicitly states: ''A Model Context Protocol (MCP) server providing geospatial tools for AI agents'''
+    - >-
+      Tools are exposed as MCP capabilities (geocode, route, buffer, read_file, etc.) with setup instructions for Claude
+      Desktop via mcpServers config
+    - >-
+      Architecture centers on server.py as MCP entry point, with no indication of being a wrapper, SDK, or extension to
+      another agent
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.628Z"
+    updated_at: '2026-05-06T22:12:15.628Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:57.515Z"
+    updated_at: '2026-08-03T05:16:57.515Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:19:00.713Z"
+    updated_at: '2026-07-21T16:19:00.713Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,14 +102,22 @@ processing:
       input_hash: sha256:5a1c21ec0ebd2007da0ee615f29ea0b47bbbd98753c8483e2854cfd5f33b5b6f
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP-first server whose core identity and functionality revolve around exposing geospatial tools via the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
+      decision_reason: >-
+        The product is an MCP-first server whose core identity and functionality revolve around exposing geospatial
+        tools via the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
       decision_evidence:
-        - "README explicitly states: 'A Model Context Protocol (MCP) server providing geospatial tools for AI agents'"
-        - Tools are exposed as MCP capabilities (geocode, route, buffer, read_file, etc.) with setup instructions for Claude Desktop via mcpServers config
-        - Architecture centers on server.py as MCP entry point, with no indication of being a wrapper, SDK, or extension to another agent
+        - 'README explicitly states: ''A Model Context Protocol (MCP) server providing geospatial tools for AI agents'''
+        - >-
+          Tools are exposed as MCP capabilities (geocode, route, buffer, read_file, etc.) with setup instructions for
+          Claude Desktop via mcpServers config
+        - >-
+          Architecture centers on server.py as MCP entry point, with no indication of being a wrapper, SDK, or extension
+          to another agent
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server as its primary identity, not an extension that augments another agent with geospatial capabilities.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server as its primary identity, not an extension
+        that augments another agent with geospatial capabilities.
       review_reason: null
       review_resume_lifecycle: null

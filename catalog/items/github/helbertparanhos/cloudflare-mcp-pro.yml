@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__helbertparanhos__cloudflare-mcp-pro__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-06T05:29:57.556Z"
+      discovered_at: '2026-07-06T05:29:57.556Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: helbertparanhos/cloudflare-mcp-pro
         extracted_url: https://github.com/helbertparanhos/cloudflare-mcp-pro
-        surrounding_text: "- [helbertparanhos/cloudflare-mcp-pro](https://github.com/helbertparanhos/cloudflare-mcp-pro) [![cloudflare-mcp-pro MCP server](https://glama.ai/mcp/servers/helbertparanhos/cloudflare-mcp-pro/badges/score.svg)](https://glama.ai/mcp/servers/helbertparanhos/cloudflare-mcp-pro) 📇 🏠 🍎 🪟 🐧 - The most complete Cloudflare MCP — 69 tools over the REST API v4 (DNS, Zones, Workers, KV, R2, D1, Pages, WAF, SSL, Email Routing, Logpush, Workers AI) in a single local stdio server, with a server-side human-approval gate on every mutation. `npx -y cloudflare-mcp-pro`."
+        surrounding_text: >-
+          - [helbertparanhos/cloudflare-mcp-pro](https://github.com/helbertparanhos/cloudflare-mcp-pro)
+          [![cloudflare-mcp-pro MCP
+          server](https://glama.ai/mcp/servers/helbertparanhos/cloudflare-mcp-pro/badges/score.svg)](https://glama.ai/mcp/servers/helbertparanhos/cloudflare-mcp-pro)
+          📇 🏠 🍎 🪟 🐧 - The most complete Cloudflare MCP — 69 tools over the REST API v4 (DNS, Zones, Workers, KV,
+          R2, D1, Pages, WAF, SSL, Email Routing, Logpush, Workers AI) in a single local stdio server, with a
+          server-side human-approval gate on every mutation. `npx -y cloudflare-mcp-pro`.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: helbertparanhos/cloudflare-mcp-pro
     html_url: https://github.com/helbertparanhos/cloudflare-mcp-pro
-    created_at: "2026-06-22T16:28:36Z"
-    pushed_at: "2026-06-22T16:28:53Z"
-    description: "Cloudflare MCP: 69 tools over the REST API v4 — DNS, Workers, KV, R2, D1, Pages, WAF, SSL, Email, AI — with a human-approval gate"
+    created_at: '2026-06-22T16:28:36Z'
+    pushed_at: '2026-06-22T16:28:53Z'
+    description: >-
+      Cloudflare MCP: 69 tools over the REST API v4 — DNS, Workers, KV, R2, D1, Pages, WAF, SSL, Email, AI — with a
+      human-approval gate
     homepage: https://www.npmjs.com/package/cloudflare-mcp-pro
     topics:
       - automation
@@ -44,14 +52,20 @@ metadata:
       - mcp
       - model-context-protocol
       - workers
-    last_checked_at: "2026-08-03T05:16:50.898Z"
+    last_checked_at: '2026-08-03T05:16:50.898Z'
     readme:
-      fetched_at: "2026-08-03T05:16:50.898Z"
+      fetched_at: '2026-08-03T05:16:50.898Z'
       bytes: 9970
 insights:
-  summary: cloudflare-mcp-pro is an MCP server that consolidates 69 Cloudflare REST API v4 tools into a single local stdio interface with human-approval gates.
-  why_it_matters: It lets developers manage Cloudflare infrastructure via natural language in Claude Code or Cursor without switching contexts or writing boilerplate API calls.
-  mental_damage: Finally, a way to feel productive while accidentally deleting your production DNS zone with a single misplaced confirm:true.
+  summary: >-
+    cloudflare-mcp-pro is an MCP server that consolidates 69 Cloudflare REST API v4 tools into a single local stdio
+    interface with human-approval gates.
+  why_it_matters: >-
+    It lets developers manage Cloudflare infrastructure via natural language in Claude Code or Cursor without switching
+    contexts or writing boilerplate API calls.
+  mental_damage: >-
+    Finally, a way to feel productive while accidentally deleting your production DNS zone with a single misplaced
+    confirm:true.
   tags:
     - mcp
     - cloudflare
@@ -59,31 +73,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server first and foremost — its identity is providing Cloudflare API access via the Model Context Protocol, not augmenting another agent or editing code directly.
+  reason: >-
+    The product is an MCP server first and foremost — its identity is providing Cloudflare API access via the Model
+    Context Protocol, not augmenting another agent or editing code directly.
   evidence:
-    - "Repo description: 'Cloudflare MCP: 69 tools over the REST API v4'"
-    - "README: 'MCP server for the Cloudflare REST API v4 — 69 tools across DNS, Workers, KV, R2, D1, Pages, WAF, SSL, Email, AI'"
-    - "Source-list context: Listed in awesome-mcp-servers under Cloud Platforms"
+    - 'Repo description: ''Cloudflare MCP: 69 tools over the REST API v4'''
+    - >-
+      README: 'MCP server for the Cloudflare REST API v4 — 69 tools across DNS, Workers, KV, R2, D1, Pages, WAF, SSL,
+      Email, AI'
+    - 'Source-list context: Listed in awesome-mcp-servers under Cloud Platforms'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-06T05:29:57.558Z"
+    updated_at: '2026-07-06T05:29:57.558Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:50.899Z"
+    updated_at: '2026-08-03T05:16:50.899Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-09T05:34:10.969Z"
+    updated_at: '2026-07-09T05:34:10.969Z'
     cause: null
     next_retry_at: null
     attempts: 2

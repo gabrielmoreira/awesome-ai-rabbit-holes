@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agentlas-ai__agentlas-os__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-07-09T05:28:44.887Z"
+      discovered_at: '2026-07-09T05:28:44.887Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,12 @@ provenance:
           - Orchestrators & autonomous loops
         anchor_text: Hephaestus
         extracted_url: https://github.com/agentlas-ai/hephaestus
-        surrounding_text: "- **[Hephaestus](https://github.com/agentlas-ai/Hephaestus)** `⭐ 118` — Open Agent OS for Claude Code, Codex, and Cursor with a meta-agent builder, A2A Hub routing, local ontology, and memory/security gates. Apache-2.0."
+        surrounding_text: >-
+          - **[Hephaestus](https://github.com/agentlas-ai/Hephaestus)** `⭐ 118` — Open Agent OS for Claude Code, Codex,
+          and Cursor with a meta-agent builder, A2A Hub routing, local ontology, and memory/security gates. Apache-2.0.
         confidence: high
     - id: discovery__github__agentlas-ai__hephaestus__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-06-18T05:40:04.065Z"
+      discovered_at: '2026-06-18T05:40:04.065Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -36,10 +38,12 @@ provenance:
           - Orchestrators & autonomous loops
         anchor_text: Hephaestus
         extracted_url: https://github.com/agentlas-ai/hephaestus
-        surrounding_text: "- **[Hephaestus](https://github.com/agentlas-ai/Hephaestus)** `⭐ 74` — Open Agent OS for Claude Code, Codex, and Cursor with a meta-agent builder, A2A Hub routing, local ontology, and memory/security gates. Apache-2.0."
+        surrounding_text: >-
+          - **[Hephaestus](https://github.com/agentlas-ai/Hephaestus)** `⭐ 74` — Open Agent OS for Claude Code, Codex,
+          and Cursor with a meta-agent builder, A2A Hub routing, local ontology, and memory/security gates. Apache-2.0.
         confidence: high
     - id: discovery__github__agentlas-ai__agentlas-os__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-08-17T04:19:08.737Z"
+      discovered_at: '2026-08-17T04:19:08.737Z'
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -51,7 +55,9 @@ provenance:
           - Core Frameworks
         anchor_text: Agentlas OS
         extracted_url: https://github.com/agentlas-ai/agentlas-os
-        surrounding_text: "| [Agentlas OS](https://github.com/agentlas-ai/Agentlas-OS) | 1,158 | Python | Apache-2.0 | 2026-08 | Specialist agent hub with temporary orchestrators |"
+        surrounding_text: >-
+          | [Agentlas OS](https://github.com/agentlas-ai/Agentlas-OS) | 1,158 | Python | Apache-2.0 | 2026-08 |
+          Specialist agent hub with temporary orchestrators |
         confidence: high
 metadata:
   github:
@@ -61,9 +67,11 @@ metadata:
     archived: false
     full_name: agentlas-ai/Agentlas-OS
     html_url: https://github.com/agentlas-ai/Agentlas-OS
-    created_at: "2026-06-04T04:33:26Z"
-    pushed_at: "2026-09-16T12:18:28Z"
-    description: "Agent OS: keep specialist agents in a hub, spin up a temporary orchestrator per task. Local-first, works with any model."
+    created_at: '2026-06-04T04:33:26Z'
+    pushed_at: '2026-09-16T12:18:28Z'
+    description: >-
+      Agent OS: keep specialist agents in a hub, spin up a temporary orchestrator per task. Local-first, works with any
+      model.
     homepage: https://agentlas.cloud
     topics:
       - a2a
@@ -85,14 +93,20 @@ metadata:
       - mcp
       - multi-agent-systems
       - ochestration
-    last_checked_at: "2026-09-17T04:13:32.844Z"
+    last_checked_at: '2026-09-17T04:13:32.844Z'
     readme:
-      fetched_at: "2026-09-17T04:13:32.844Z"
+      fetched_at: '2026-09-17T04:13:32.844Z'
       bytes: 69801
 insights:
-  summary: Agentlas OS is a local-first runtime that enables developers to create, package, route, run, and verify agents across multiple LLMs and tools using a shared operating layer.
-  why_it_matters: It lets developers treat their LLMs as a coordinated team with persistent memory, browser access, and verifiable workflows instead of isolated chat sessions.
-  mental_damage: Finally, a way to feel like you're orchestrating AI minions while still being the one who has to debug why the browser agent clicked the wrong button.
+  summary: >-
+    Agentlas OS is a local-first runtime that enables developers to create, package, route, run, and verify agents
+    across multiple LLMs and tools using a shared operating layer.
+  why_it_matters: >-
+    It lets developers treat their LLMs as a coordinated team with persistent memory, browser access, and verifiable
+    workflows instead of isolated chat sessions.
+  mental_damage: >-
+    Finally, a way to feel like you're orchestrating AI minions while still being the one who has to debug why the
+    browser agent clicked the wrong button.
   tags:
     - agent-orchestration
     - agent-os
@@ -106,24 +120,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Agentlas OS is primarily a workbench for coordinating multiple agents with shared memory, routing, and verification across LLMs and tools, fitting the agent orchestration category.
+  reason: >-
+    Agentlas OS is primarily a workbench for coordinating multiple agents with shared memory, routing, and verification
+    across LLMs and tools, fitting the agent orchestration category.
   evidence:
-    - "Repo description: 'Agent OS: keep specialist agents in a hub, spin up a temporary orchestrator per task. Local-first, works with any model.'"
-    - "README: 'Your LLMs work like a team instead of isolated chat sessions.' and 'Create, package, route, run, and verify agents across your LLMs, browser, memory, and local tools.'"
-    - "Source-list context: listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous loops'"
+    - >-
+      Repo description: 'Agent OS: keep specialist agents in a hub, spin up a temporary orchestrator per task.
+      Local-first, works with any model.'
+    - >-
+      README: 'Your LLMs work like a team instead of isolated chat sessions.' and 'Create, package, route, run, and
+      verify agents across your LLMs, browser, memory, and local tools.'
+    - >-
+      Source-list context: listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators &
+      autonomous loops'
     - README describes it as an 'agent operating system' providing 'five connected control planes'
     - Includes an 'A2A Hub router' for routing requests through local cards and Hub fallbacks
     - Focuses on 'meta-agent builder' and 'multi-agent team' emission rather than direct file editing
 placement:
   primary_category: agent-orchestration
-  section: Multi-Agent Runtime Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (907) exceeded threshold (150)
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-09T05:34:21.756Z"
+    updated_at: '2026-07-09T05:34:21.756Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
@@ -131,11 +154,11 @@ processing:
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-08-17T04:19:08.741Z"
+    updated_at: '2026-08-17T04:19:08.741Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:32.844Z"
+    updated_at: '2026-09-17T04:13:32.844Z'
     cause: null
     next_retry_at: null

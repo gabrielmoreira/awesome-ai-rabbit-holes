@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__riza-io__riza-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: Riza
         extracted_url: https://github.com/riza-io/riza-mcp
-        surrounding_text: "- **[Riza](https://github.com/riza-io/riza-mcp)** - Arbitrary code execution and tool-use platform for LLMs by [Riza](https://riza.io)"
+        surrounding_text: >-
+          - **[Riza](https://github.com/riza-io/riza-mcp)** - Arbitrary code execution and tool-use platform for LLMs by
+          [Riza](https://riza.io)
         confidence: high
 metadata:
   github:
@@ -29,19 +31,25 @@ metadata:
     archived: false
     full_name: riza-io/riza-mcp
     html_url: https://github.com/riza-io/riza-mcp
-    created_at: "2024-12-11T22:27:28Z"
-    pushed_at: "2024-12-17T20:22:09Z"
+    created_at: '2024-12-11T22:27:28Z'
+    pushed_at: '2024-12-17T20:22:09Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:46.389Z"
+    last_checked_at: '2026-07-20T16:42:46.389Z'
     readme:
-      fetched_at: "2026-07-20T16:42:46.389Z"
+      fetched_at: '2026-07-20T16:42:46.389Z'
       bytes: 1238
 insights:
-  summary: An MCP server that wraps the Riza API to let LLMs securely execute generated code and manage saved tools via isolated code interpreter endpoints.
-  why_it_matters: It gives MCP-compatible clients a safe, sandboxed runtime for running AI-generated code without polluting the local environment or managing execution infrastructure.
-  mental_damage: Another layer in the stack where your LLM writes code, wraps it in a tool, uploads it to a sandbox, and executes it—just to avoid admitting that maybe the developer should have written it themselves.
+  summary: >-
+    An MCP server that wraps the Riza API to let LLMs securely execute generated code and manage saved tools via
+    isolated code interpreter endpoints.
+  why_it_matters: >-
+    It gives MCP-compatible clients a safe, sandboxed runtime for running AI-generated code without polluting the local
+    environment or managing execution infrastructure.
+  mental_damage: >-
+    Another layer in the stack where your LLM writes code, wraps it in a tool, uploads it to a sandbox, and executes
+    it—just to avoid admitting that maybe the developer should have written it themselves.
   tags:
     - mcp
     - code-interpreter
@@ -50,35 +58,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product is explicitly an MCP server implementation that wraps the Riza API, making MCP its primary identity and fitting cleanly as a domain-specific MCP server.
+  reason: >-
+    The product is explicitly an MCP server implementation that wraps the Riza API, making MCP its primary identity and
+    fitting cleanly as a domain-specific MCP server.
   evidence:
     - Repo name is riza-mcp and README标题 is 'Riza MCP Server'.
-    - "README states: 'Our MCP server implementation wraps the Riza API and presents endpoints as individual tools.'"
+    - 'README states: ''Our MCP server implementation wraps the Riza API and presents endpoints as individual tools.'''
     - Listed in awesome-mcp-servers under section 'Official Servers'.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.645Z"
+    updated_at: '2026-05-06T22:12:15.645Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:46.389Z"
+    updated_at: '2026-07-20T16:42:46.389Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

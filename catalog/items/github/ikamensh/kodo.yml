@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ikamensh__kodo__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Orchestrators & autonomous loops
         anchor_text: kodo
         extracted_url: https://github.com/ikamensh/kodo
-        surrounding_text: "- **[kodo](https://github.com/ikamensh/kodo)** `⭐ 69` — Autonomous multi-agent coding orchestrator that directs Claude Code, Codex, and Gemini CLI through work cycles with independent architect and tester verification. SWE-bench verified."
+        surrounding_text: >-
+          - **[kodo](https://github.com/ikamensh/kodo)** `⭐ 69` — Autonomous multi-agent coding orchestrator that
+          directs Claude Code, Codex, and Gemini CLI through work cycles with independent architect and tester
+          verification. SWE-bench verified.
         confidence: high
 metadata:
   github:
@@ -30,19 +33,25 @@ metadata:
     archived: false
     full_name: ikamensh/kodo
     html_url: https://github.com/ikamensh/kodo
-    created_at: "2026-02-18T09:40:03Z"
-    pushed_at: "2026-07-18T13:54:36Z"
+    created_at: '2026-02-18T09:40:03Z'
+    pushed_at: '2026-07-18T13:54:36Z'
     description: Orchestrator for AI coding (claude code, cursor, codex, gemini)
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:05:42.056Z"
+    last_checked_at: '2026-07-30T05:05:42.056Z'
     readme:
-      fetched_at: "2026-07-30T05:05:42.056Z"
+      fetched_at: '2026-07-30T05:05:42.056Z'
       bytes: 19358
 insights:
-  summary: An orchestrator for autonomous multi-agent coding that directs Claude Code, Cursor, and other coding agents through work cycles with independent verification.
-  why_it_matters: It enables developers to set a goal and wake up to tested, reviewed code by coordinating multiple agents (orchestrator, workers, verifiers) to handle complex tasks overnight.
-  mental_damage: Finally, a way to offload your existential coding dread to a team of AI agents who will argue about resource leaks while you sleep.
+  summary: >-
+    An orchestrator for autonomous multi-agent coding that directs Claude Code, Cursor, and other coding agents through
+    work cycles with independent verification.
+  why_it_matters: >-
+    It enables developers to set a goal and wake up to tested, reviewed code by coordinating multiple agents
+    (orchestrator, workers, verifiers) to handle complex tasks overnight.
+  mental_damage: >-
+    Finally, a way to offload your existential coding dread to a team of AI agents who will argue about resource leaks
+    while you sleep.
   tags:
     - multi-agent
     - orchestration
@@ -52,31 +61,37 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The primary product identity is multi-agent coordination for coding workflows, with a runtime platform that orchestrates agents (orchestrator, architect, workers, testers) rather than being a single coding assistant or a thin extension.
+  reason: >-
+    The primary product identity is multi-agent coordination for coding workflows, with a runtime platform that
+    orchestrates agents (orchestrator, architect, workers, testers) rather than being a single coding assistant or a
+    thin extension.
   evidence:
     - Repo description explicitly calls it an 'Orchestrator for AI coding'
-    - README emphasizes autonomous multi-agent workflows with role separation (orchestrator, architect, workers, testers)
+    - >-
+      README emphasizes autonomous multi-agent workflows with role separation (orchestrator, architect, workers,
+      testers)
     - Source-list context places it under 'Harnesses & orchestration > Orchestrators & autonomous loops'
 placement:
   primary_category: agent-orchestration
-  section: Multi-Agent Runtime Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.620Z"
+    updated_at: '2026-05-06T22:12:15.620Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:42.056Z"
+    updated_at: '2026-07-30T05:05:42.056Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:07:49.260Z"
+    updated_at: '2026-07-21T16:07:49.260Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,14 +104,21 @@ processing:
       input_hash: sha256:d0439b9964b43e93b743a9340bf15a04b717b4d51d7fe98ad4784febcb1bd814
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The primary product identity is multi-agent coordination for coding workflows, with a runtime platform that orchestrates agents (orchestrator, architect, workers, testers) rather than being a single coding assistant or a thin extension.
+      decision_reason: >-
+        The primary product identity is multi-agent coordination for coding workflows, with a runtime platform that
+        orchestrates agents (orchestrator, architect, workers, testers) rather than being a single coding assistant or a
+        thin extension.
       decision_evidence:
         - Repo description explicitly calls it an 'Orchestrator for AI coding'
-        - README emphasizes autonomous multi-agent workflows with role separation (orchestrator, architect, workers, testers)
+        - >-
+          README emphasizes autonomous multi-agent workflows with role separation (orchestrator, architect, workers,
+          testers)
         - Source-list context places it under 'Harnesses & orchestration > Orchestrators & autonomous loops'
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because the core value is coordinating multiple agents (orchestrator, verifiers, workers) rather than acting as a primary coding assistant itself.
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because the core value is coordinating multiple agents
+        (orchestrator, verifiers, workers) rather than acting as a primary coding assistant itself.
       review_reason: null
       review_resume_lifecycle: null

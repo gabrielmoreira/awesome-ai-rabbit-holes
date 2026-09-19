@@ -5,8 +5,9 @@ canonical_url: https://colab.research.google.com/drive/1AAyEdTz-Z6ShKvewbt1ZHUIC
 identity: {}
 provenance:
   discoveries:
-    - id: discovery__colab__research__google__com__drive__1aayedtz__z6shkvewbt1zhuicqak0miwr__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+    - id: >-
+        discovery__colab__research__google__com__drive__1aayedtz__z6shkvewbt1zhuicqak0miwr__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -19,7 +20,9 @@ provenance:
           - Notebooks
         anchor_text: LangChain <> Wolfram Alpha
         extracted_url: https://colab.research.google.com/drive/1AAyEdTz-Z6ShKvewbt1ZHUICqak0MiwR
-        surrounding_text: "- [LangChain <> Wolfram Alpha](https://colab.research.google.com/drive/1AAyEdTz-Z6ShKvewbt1ZHUICqak0MiwR?usp=sharing)"
+        surrounding_text: >-
+          - [LangChain <> Wolfram
+          Alpha](https://colab.research.google.com/drive/1AAyEdTz-Z6ShKvewbt1ZHUICqak0MiwR?usp=sharing)
         confidence: high
 metadata:
   github:
@@ -39,7 +42,9 @@ metadata:
 insights:
   summary: A Google Colab notebook for learning the LangChain framework.
   why_it_matters: Provides a managed, zero-setup execution environment for experimenting with LangChain's orchestration patterns.
-  mental_damage: Nothing says 'I'm serious about AI development' like running a tutorial in a web-based notebook instead of a local IDE.
+  mental_damage: >-
+    Nothing says 'I'm serious about AI development' like running a tutorial in a web-based notebook instead of a local
+    IDE.
   tags:
     - notebooks
     - tutorials
@@ -47,22 +52,21 @@ insights:
     - learning
   confidence: high
 curation:
-  status: included
-  reason: This is a curated educational resource (notebook) within a larger framework ecosystem, making it a navigation aid rather than a standalone tool.
+  status: pending
+  reason: 'Definitive manual audit: Google Colab tutorial notebook — auxiliary content, not a tool.'
   evidence:
-    - Found in awesome-langchain source list
-    - Listed under 'Learn > Notebooks' section
-    - Host is Google Colab, a notebook environment
+    - Manual review, 2026-09-19
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.660Z"
+    updated_at: '2026-05-06T22:12:15.660Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +75,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:33:11.484Z"
+    updated_at: '2026-07-20T15:33:11.484Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +88,9 @@ processing:
       input_hash: sha256:2716b1e1b2a26fcc613118f0c21cdabca9d1caef57f3946cf0451ec9e1037d73
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: This is a curated educational resource (notebook) within a larger framework ecosystem, making it a navigation aid rather than a standalone tool.
+      decision_reason: >-
+        This is a curated educational resource (notebook) within a larger framework ecosystem, making it a navigation
+        aid rather than a standalone tool.
       decision_evidence:
         - Found in awesome-langchain source list
         - Listed under 'Learn > Notebooks' section
@@ -92,6 +98,8 @@ processing:
       category_candidates:
         - awesome-awesomes
         - ai-frameworks
-      contrastive_reason: Choose awesome-awesomes over ai-frameworks because the artifact is a tutorial notebook hosted on Colab rather than a library or SDK meant for importation into code.
+      contrastive_reason: >-
+        Choose awesome-awesomes over ai-frameworks because the artifact is a tutorial notebook hosted on Colab rather
+        than a library or SDK meant for importation into code.
       review_reason: null
       review_resume_lifecycle: null

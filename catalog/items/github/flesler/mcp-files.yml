@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__flesler__mcp-files__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Files
         extracted_url: https://github.com/flesler/mcp-files
-        surrounding_text: "- **[Files](https://github.com/flesler/mcp-files)** - Enables agents to quickly find and edit code in a codebase with surgical precision. Find symbols, edit them everywhere."
+        surrounding_text: >-
+          - **[Files](https://github.com/flesler/mcp-files)** - Enables agents to quickly find and edit code in a
+          codebase with surgical precision. Find symbols, edit them everywhere.
         confidence: high
 metadata:
   github:
@@ -29,19 +31,25 @@ metadata:
     archived: false
     full_name: flesler/mcp-files
     html_url: https://github.com/flesler/mcp-files
-    created_at: "2025-07-22T03:57:33Z"
-    pushed_at: "2026-08-06T15:10:15Z"
+    created_at: '2025-07-22T03:57:33Z'
+    pushed_at: '2026-08-06T15:10:15Z'
     description: A comprehensive MCP server providing helpful tools for AI agents like Cursor
     homepage: null
     topics: []
-    last_checked_at: "2026-08-27T09:23:31.350Z"
+    last_checked_at: '2026-08-27T09:23:31.350Z'
     readme:
-      fetched_at: "2026-08-27T09:23:31.350Z"
+      fetched_at: '2026-08-27T09:23:31.350Z'
       bytes: 9635
 insights:
-  summary: An MCP server that enables AI agents to perform precise symbol discovery and surgical code editing within a codebase.
-  why_it_matters: It provides agents with the ability to navigate large codebases via symbols and perform targeted text insertions rather than blunt file rewrites.
-  mental_damage: Now your AI agent can perform open-heart surgery on your production codebase with the same reckless confidence it uses to guess your variable names.
+  summary: >-
+    An MCP server that enables AI agents to perform precise symbol discovery and surgical code editing within a
+    codebase.
+  why_it_matters: >-
+    It provides agents with the ability to navigate large codebases via symbols and perform targeted text insertions
+    rather than blunt file rewrites.
+  mental_damage: >-
+    Now your AI agent can perform open-heart surgery on your production codebase with the same reckless confidence it
+    uses to guess your variable names.
   tags:
     - mcp
     - code-editing
@@ -51,31 +59,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server designed to provide specific tools to host environments like Cursor or Claude Desktop.
+  reason: >-
+    The product's core identity is an MCP server designed to provide specific tools to host environments like Cursor or
+    Claude Desktop.
   evidence:
     - README defines available tools (read_symbol, insert_text) for MCP hosts
     - Repo description explicitly states it is an 'MCP server'
     - Includes configuration instructions for Cursor and Claude Desktop mcp.json files
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.614Z"
+    updated_at: '2026-05-06T22:12:15.614Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:31.350Z"
+    updated_at: '2026-08-27T09:23:31.350Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:57:23.334Z"
+    updated_at: '2026-07-21T15:57:23.334Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +99,9 @@ processing:
       input_hash: sha256:24498c837ee644779a5bc9f5813b718fa67a555f7716793dc6a1b8f1f83aeaaf
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP server designed to provide specific tools to host environments like Cursor or Claude Desktop.
+      decision_reason: >-
+        The product's core identity is an MCP server designed to provide specific tools to host environments like Cursor
+        or Claude Desktop.
       decision_evidence:
         - README defines available tools (read_symbol, insert_text) for MCP hosts
         - Repo description explicitly states it is an 'MCP server'
@@ -96,6 +109,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's primary identity is an MCP server implementing a protocol, rather than a specialized plugin for a specific editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool's primary identity is an MCP server implementing a protocol,
+        rather than a specialized plugin for a specific editor.
       review_reason: null
       review_resume_lifecycle: null

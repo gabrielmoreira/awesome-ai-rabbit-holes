@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__magna-nz__aspnetcore-debugger-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: magna-nz/aspnetcore-debugger-mcp
         extracted_url: https://github.com/magna-nz/aspnetcore-debugger-mcp
-        surrounding_text: "- [magna-nz/aspnetcore-debugger-mcp](https://github.com/magna-nz/aspnetcore-debugger-mcp) [![magna-nz/aspnetcore-debugger-mcp MCP server](https://glama.ai/mcp/servers/magna-nz/aspnetcore-debugger-mcp/badges/score.svg)](https://glama.ai/mcp/servers/magna-nz/aspnetcore-debugger-mcp) #️⃣ 🏠 🍎🪟🐧 - MCP server for interactive .NET / ASP.NET Core debugging via netcoredbg. 27 tools: breakpoints (line, function, exception, data), stepping, thread inspection, exception autopsy, hang/deadlock analysis, and request tracing."
+        surrounding_text: >-
+          - [magna-nz/aspnetcore-debugger-mcp](https://github.com/magna-nz/aspnetcore-debugger-mcp)
+          [![magna-nz/aspnetcore-debugger-mcp MCP
+          server](https://glama.ai/mcp/servers/magna-nz/aspnetcore-debugger-mcp/badges/score.svg)](https://glama.ai/mcp/servers/magna-nz/aspnetcore-debugger-mcp)
+          #️⃣ 🏠 🍎🪟🐧 - MCP server for interactive .NET / ASP.NET Core debugging via netcoredbg. 27 tools: breakpoints
+          (line, function, exception, data), stepping, thread inspection, exception autopsy, hang/deadlock analysis, and
+          request tracing.
         confidence: high
 metadata:
   github:
@@ -30,10 +36,10 @@ metadata:
     archived: false
     full_name: magna-nz/aspnetcore-debugger-mcp
     html_url: https://github.com/magna-nz/aspnetcore-debugger-mcp
-    created_at: "2026-05-22T15:15:21Z"
-    pushed_at: "2026-07-31T11:45:50Z"
+    created_at: '2026-05-22T15:15:21Z'
+    pushed_at: '2026-07-31T11:45:50Z'
     description: MCP server that lets AI agents (Claude, Cursor) debug your .NET / ASP.NET Core app
-    homepage: ""
+    homepage: ''
     topics:
       - ai
       - ai-agent
@@ -50,13 +56,17 @@ metadata:
       - mcp-server
       - model-context-protocol
       - netcoredbg
-    last_checked_at: "2026-08-03T05:16:54.348Z"
+    last_checked_at: '2026-08-03T05:16:54.348Z'
     readme:
-      fetched_at: "2026-08-03T05:16:54.348Z"
+      fetched_at: '2026-08-03T05:16:54.348Z'
       bytes: 11411
 insights:
-  summary: An MCP server that lets AI agents debug .NET/ASP.NET Core apps by pausing execution, inspecting runtime values, and mutating state.
-  why_it_matters: It enables AI agents to move beyond guessing and instead diagnose and test fixes using actual runtime behavior in .NET applications.
+  summary: >-
+    An MCP server that lets AI agents debug .NET/ASP.NET Core apps by pausing execution, inspecting runtime values, and
+    mutating state.
+  why_it_matters: >-
+    It enables AI agents to move beyond guessing and instead diagnose and test fixes using actual runtime behavior in
+    .NET applications.
   mental_damage: Now your AI pair debugger asks for breakpoints before it’s had its coffee.
   tags:
     - mcp
@@ -66,31 +76,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core identity and value lie in exposing .NET debugging capabilities via the Model Context Protocol, making it MCP infrastructure first and a debugging tool second.
+  reason: >-
+    The product is an MCP server whose core identity and value lie in exposing .NET debugging capabilities via the Model
+    Context Protocol, making it MCP infrastructure first and a debugging tool second.
   evidence:
-    - "Repo description: 'MCP server that lets AI agents (Claude, Cursor) debug your .NET / ASP.NET Core app'"
-    - "README: 'An MIT-licensed [MCP] server that lets an AI agent (Claude, etc.) debug your .NET / ASP.NET Core app'"
+    - 'Repo description: ''MCP server that lets AI agents (Claude, Cursor) debug your .NET / ASP.NET Core app'''
+    - 'README: ''An MIT-licensed [MCP] server that lets an AI agent (Claude, etc.) debug your .NET / ASP.NET Core app'''
     - Listed in awesome-mcp-servers under Developer Tools > Server Implementations
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.819Z"
+    updated_at: '2026-05-28T05:28:09.819Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:54.348Z"
+    updated_at: '2026-08-03T05:16:54.348Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-09T05:32:57.101Z"
+    updated_at: '2026-07-09T05:32:57.101Z'
     cause: null
     next_retry_at: null
     attempts: 2

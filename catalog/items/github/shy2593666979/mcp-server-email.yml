@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__shy2593666979__mcp-server-email__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,11 @@ provenance:
           - Community Servers
         anchor_text: Email
         extracted_url: https://github.com/shy2593666979/mcp-server-email
-        surrounding_text: "- **[Email](https://github.com/Shy2593666979/mcp-server-email)** - This server enables users to send emails through various email providers, including Gmail, Outlook, Yahoo, Sina, Sohu, 126, 163, and QQ Mail. It also supports attaching files from specified directories, making it easy to upload attachments along with the email content."
+        surrounding_text: >-
+          - **[Email](https://github.com/Shy2593666979/mcp-server-email)** - This server enables users to send emails
+          through various email providers, including Gmail, Outlook, Yahoo, Sina, Sohu, 126, 163, and QQ Mail. It also
+          supports attaching files from specified directories, making it easy to upload attachments along with the email
+          content.
         confidence: high
 metadata:
   github:
@@ -29,23 +33,29 @@ metadata:
     archived: false
     full_name: Shy2593666979/mcp-server-email
     html_url: https://github.com/Shy2593666979/mcp-server-email
-    created_at: "2025-03-23T06:30:02Z"
-    pushed_at: "2025-04-27T14:25:02Z"
-    description: 一个基于 MCP (Model Context Protocol) 的邮件服务，支持 LLM 发送带附件的电子邮件及在指定目录中搜索文件。提供安全的 SMTP 传输、多收件人支持和附件模式匹配搜索功能，适用于 Gmail、Outlook、Yahoo、QQ 邮箱和网易 126 邮箱等主流邮箱服务。
-    homepage: ""
+    created_at: '2025-03-23T06:30:02Z'
+    pushed_at: '2025-04-27T14:25:02Z'
+    description: >-
+      一个基于 MCP (Model Context Protocol) 的邮件服务，支持 LLM 发送带附件的电子邮件及在指定目录中搜索文件。提供安全的 SMTP 传输、多收件人支持和附件模式匹配搜索功能，适用于
+      Gmail、Outlook、Yahoo、QQ 邮箱和网易 126 邮箱等主流邮箱服务。
+    homepage: ''
     topics:
       - email
       - mcp
       - mcp-client
       - mcp-server
-    last_checked_at: "2026-07-20T16:42:56.855Z"
+    last_checked_at: '2026-07-20T16:42:56.855Z'
     readme:
-      fetched_at: "2026-07-20T16:42:56.855Z"
+      fetched_at: '2026-07-20T16:42:56.855Z'
       bytes: 4475
 insights:
   summary: An MCP server that enables LLMs to send emails with attachments and search for files in local directories via SMTP.
-  why_it_matters: It gives coding agents and assistants a standardized way to handle email tasks, removing the need to hand-roll SMTP integrations for every new workflow.
-  mental_damage: We have successfully abstracted sending an email into a protocol server so our agents can notify us about the pull requests they opened while we were busy configuring the protocol server.
+  why_it_matters: >-
+    It gives coding agents and assistants a standardized way to handle email tasks, removing the need to hand-roll SMTP
+    integrations for every new workflow.
+  mental_damage: >-
+    We have successfully abstracted sending an email into a protocol server so our agents can notify us about the pull
+    requests they opened while we were busy configuring the protocol server.
   tags:
     - mcp
     - email
@@ -55,35 +65,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server providing email capabilities, fitting squarely into the MCP Servers & Tooling category.
+  reason: >-
+    The project's primary identity is an MCP server providing email capabilities, fitting squarely into the MCP Servers
+    & Tooling category.
   evidence:
     - Repo description explicitly states it is '基于 MCP (Model Context Protocol) 的邮件服务' (an email service based on MCP).
     - README details tools like `send_email` and `search_attachments` exposed via the Model Context Protocol.
     - Listed in the 'awesome-mcp-servers' directory under 'Community Servers'.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.648Z"
+    updated_at: '2026-05-06T22:12:15.648Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:56.855Z"
+    updated_at: '2026-07-20T16:42:56.855Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

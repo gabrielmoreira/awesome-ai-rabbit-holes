@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mikusnuz__meta-ads-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: mikusnuz/meta-ads-mcp
         extracted_url: https://github.com/mikusnuz/meta-ads-mcp
-        surrounding_text: "- [mikusnuz/meta-ads-mcp](https://github.com/mikusnuz/meta-ads-mcp) [![mikusnuz/meta-ads-mcp MCP server](https://glama.ai/mcp/servers/mikusnuz/meta-ads-mcp/badges/score.svg)](https://glama.ai/mcp/servers/mikusnuz/meta-ads-mcp) 📇 ☁️ - MCP server for Meta Marketing API v25.0 — 123 tools for Facebook & Instagram ad campaigns, audiences, creatives, insights, catalogs, and automated rules."
+        surrounding_text: >-
+          - [mikusnuz/meta-ads-mcp](https://github.com/mikusnuz/meta-ads-mcp) [![mikusnuz/meta-ads-mcp MCP
+          server](https://glama.ai/mcp/servers/mikusnuz/meta-ads-mcp/badges/score.svg)](https://glama.ai/mcp/servers/mikusnuz/meta-ads-mcp)
+          📇 ☁️ - MCP server for Meta Marketing API v25.0 — 123 tools for Facebook & Instagram ad campaigns, audiences,
+          creatives, insights, catalogs, and automated rules.
         confidence: high
 metadata:
   github:
@@ -30,10 +34,10 @@ metadata:
     archived: false
     full_name: mikusnuz/meta-ads-mcp
     html_url: https://github.com/mikusnuz/meta-ads-mcp
-    created_at: "2026-03-19T08:45:25Z"
-    pushed_at: "2026-04-12T20:28:11Z"
+    created_at: '2026-03-19T08:45:25Z'
+    pushed_at: '2026-04-12T20:28:11Z'
     description: MCP server for Meta Marketing API v25.0 — 135 tools for Facebook & Instagram ad campaign management
-    homepage: ""
+    homepage: ''
     topics:
       - advertising
       - ai-tools
@@ -44,13 +48,15 @@ metadata:
       - mcp-server
       - meta-marketing-api
       - model-context-protocol
-    last_checked_at: "2026-08-03T05:17:03.277Z"
+    last_checked_at: '2026-08-03T05:17:03.277Z'
     readme:
-      fetched_at: "2026-08-03T05:17:03.277Z"
+      fetched_at: '2026-08-03T05:17:03.277Z'
       bytes: 11919
 insights:
   summary: MCP server providing 135 tools for managing Facebook and Instagram ad campaigns via the Meta Marketing API v25.0.
-  why_it_matters: It lets developers control Meta ad campaigns programmatically through natural language interfaces using the Model Context Protocol.
+  why_it_matters: >-
+    It lets developers control Meta ad campaigns programmatically through natural language interfaces using the Model
+    Context Protocol.
   mental_damage: Finally, your AI can pause your underperforming ad sets while you pretend to understand ROAS.
   tags:
     - mcp
@@ -59,31 +65,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core identity is providing Meta Marketing API access via MCP, making it a domain-specific MCP server rather than a general agent or extension.
+  reason: >-
+    The product is an MCP server whose core identity is providing Meta Marketing API access via MCP, making it a
+    domain-specific MCP server rather than a general agent or extension.
   evidence:
-    - "Repo description: 'MCP server for Meta Marketing API v25.0 — 135 tools for Facebook & Instagram ad campaign management'"
-    - "README title and first line: 'MCP server for the Meta Marketing API v25.0 — 135 tools for managing Facebook & Instagram ad campaigns'"
+    - >-
+      Repo description: 'MCP server for Meta Marketing API v25.0 — 135 tools for Facebook & Instagram ad campaign
+      management'
+    - >-
+      README title and first line: 'MCP server for the Meta Marketing API v25.0 — 135 tools for managing Facebook &
+      Instagram ad campaigns'
     - Installation example shows configuration under 'mcpServers' in an MCP client config
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.630Z"
+    updated_at: '2026-05-06T22:12:15.630Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:03.277Z"
+    updated_at: '2026-08-03T05:17:03.277Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:21:03.423Z"
+    updated_at: '2026-07-21T16:21:03.423Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,14 +109,22 @@ processing:
       input_hash: sha256:1e26385f33a8c02567fb9861d783a04642596382e0225cb945eef34243a930e4
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server whose core identity is providing Meta Marketing API access via MCP, making it a domain-specific MCP server rather than a general agent or extension.
+      decision_reason: >-
+        The product is an MCP server whose core identity is providing Meta Marketing API access via MCP, making it a
+        domain-specific MCP server rather than a general agent or extension.
       decision_evidence:
-        - "Repo description: 'MCP server for Meta Marketing API v25.0 — 135 tools for Facebook & Instagram ad campaign management'"
-        - "README title and first line: 'MCP server for the Meta Marketing API v25.0 — 135 tools for managing Facebook & Instagram ad campaigns'"
+        - >-
+          Repo description: 'MCP server for Meta Marketing API v25.0 — 135 tools for Facebook & Instagram ad campaign
+          management'
+        - >-
+          README title and first line: 'MCP server for the Meta Marketing API v25.0 — 135 tools for managing Facebook &
+          Instagram ad campaigns'
         - Installation example shows configuration under 'mcpServers' in an MCP client config
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server providing direct API access, not an extension that augments another coding assistant with host capabilities.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server providing direct API access, not an
+        extension that augments another coding assistant with host capabilities.
       review_reason: null
       review_resume_lifecycle: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__stack__convex__dev__convex__mcp__server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,10 +19,13 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: get-convex/convex-backend
         extracted_url: https://stack.convex.dev/convex-mcp-server
-        surrounding_text: "- [get-convex/convex-backend](https://stack.convex.dev/convex-mcp-server) 📇 ☁️ - Convex database integration to introspect tables, functions, and run oneoff queries ([Source](https://github.com/get-convex/convex-backend/blob/main/npm-packages/convex/src/cli/mcp.ts))"
+        surrounding_text: >-
+          - [get-convex/convex-backend](https://stack.convex.dev/convex-mcp-server) 📇 ☁️ - Convex database integration
+          to introspect tables, functions, and run oneoff queries
+          ([Source](https://github.com/get-convex/convex-backend/blob/main/npm-packages/convex/src/cli/mcp.ts))
         confidence: high
     - id: discovery__stack__convex__dev__convex__mcp__server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -34,10 +37,12 @@ provenance:
           - Official Servers
         anchor_text: Convex
         extracted_url: https://stack.convex.dev/convex-mcp-server
-        surrounding_text: "- **[Convex](https://stack.convex.dev/convex-mcp-server)** - Introspect and query your apps deployed to Convex."
+        surrounding_text: >-
+          - **[Convex](https://stack.convex.dev/convex-mcp-server)** - Introspect and query your apps deployed to
+          Convex.
         confidence: high
     - id: discovery__stack__convex__dev__convex__mcp__server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -49,7 +54,9 @@ provenance:
           - 🗄️ Databases
         anchor_text: get-convex/convex-mcp-server
         extracted_url: https://stack.convex.dev/convex-mcp-server
-        surrounding_text: "-   **[get-convex/convex-mcp-server](https://stack.convex.dev/convex-mcp-server)**: Introspects Convex tables, functions, and allows one-off queries. (*Note: Links to Convex Stack page*)"
+        surrounding_text: >-
+          -   **[get-convex/convex-mcp-server](https://stack.convex.dev/convex-mcp-server)**: Introspects Convex tables,
+          functions, and allows one-off queries. (*Note: Links to Convex Stack page*)
         confidence: high
 metadata:
   github:
@@ -68,7 +75,9 @@ metadata:
     readme: null
 insights:
   summary: An MCP server for Convex that lets AI agents introspect deployments, run functions, and read/write data.
-  why_it_matters: Developers can now grant AI assistants direct, sandboxed access to their Convex backend for querying, analysis, and safe data manipulation.
+  why_it_matters: >-
+    Developers can now grant AI assistants direct, sandboxed access to their Convex backend for querying, analysis, and
+    safe data manipulation.
   mental_damage: Finally, a way to let your AI poke your database without immediately regretting it.
   tags:
     - mcp
@@ -79,21 +88,22 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: this is a dedicated MCP server exposing Convex backend capabilities to AI agents."
+  reason: 'MCP is the product identity here: this is a dedicated MCP server exposing Convex backend capabilities to AI agents.'
   evidence:
     - Source lists explicitly categorize it as an MCP server under Databases
     - Primary page describes it as a 'powerful MCP server' for Convex deployments
     - Implementation details confirm it follows MCP protocol for tool exposure
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.580Z"
+    updated_at: '2026-05-06T22:12:15.580Z'
     cause: null
     next_retry_at: null
   stars:
@@ -102,7 +112,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:32:03.172Z"
+    updated_at: '2026-07-21T15:32:03.172Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -115,7 +125,9 @@ processing:
       input_hash: sha256:b21b14f14c73e0495628c355bee74ebbf07b5f3f23d8de7fa5e13032d5a56686
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: this is a dedicated MCP server exposing Convex backend capabilities to AI agents."
+      decision_reason: >-
+        MCP is the product identity here: this is a dedicated MCP server exposing Convex backend capabilities to AI
+        agents.
       decision_evidence:
         - Source lists explicitly categorize it as an MCP server under Databases
         - Primary page describes it as a 'powerful MCP server' for Convex deployments
@@ -123,6 +135,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is the MCP server itself, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is the MCP server itself, not an extension augmenting
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

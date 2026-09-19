@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__abnegate__magents__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-09-14T04:13:20.171Z"
+      discovered_at: '2026-09-14T04:13:20.171Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: abnegate/magents
         extracted_url: https://github.com/abnegate/magents
-        surrounding_text: "- [abnegate/magents](https://github.com/abnegate/magents) [![abnegate/magents MCP server](https://glama.ai/mcp/servers/abnegate/magents/badges/score.svg)](https://glama.ai/mcp/servers/abnegate/magents) 🦀 🏠 🍎 🐧 - Shared session bus for Claude Code, Codex, Cursor, Grok, and friends: MCP + CLI to list/read/handoff/send/spawn across live agent sessions. Install: `brew install abnegate/tap/magents`."
+        surrounding_text: >-
+          - [abnegate/magents](https://github.com/abnegate/magents) [![abnegate/magents MCP
+          server](https://glama.ai/mcp/servers/abnegate/magents/badges/score.svg)](https://glama.ai/mcp/servers/abnegate/magents)
+          🦀 🏠 🍎 🐧 - Shared session bus for Claude Code, Codex, Cursor, Grok, and friends: MCP + CLI to
+          list/read/handoff/send/spawn across live agent sessions. Install: `brew install abnegate/tap/magents`.
         confidence: high
 metadata:
   github:
@@ -30,18 +34,20 @@ metadata:
     archived: false
     full_name: abnegate/magents
     html_url: https://github.com/abnegate/magents
-    created_at: "2026-08-29T02:36:32Z"
-    pushed_at: "2026-09-12T06:14:02Z"
+    created_at: '2026-08-29T02:36:32Z'
+    pushed_at: '2026-09-12T06:14:02Z'
     description: Shared session bus for Claude Code, Codex, and Cursor
     homepage: https://abnegate.github.io/magents/
     topics: []
-    last_checked_at: "2026-09-14T04:13:21.392Z"
+    last_checked_at: '2026-09-14T04:13:21.392Z'
     readme:
-      fetched_at: "2026-09-14T04:13:21.392Z"
+      fetched_at: '2026-09-14T04:13:21.392Z'
       bytes: 10192
 insights:
   summary: A shared session bus and MCP server that enables context and session handoffs between different coding assistants.
-  why_it_matters: It allows developers to move tasks between agents like Claude Code and Cursor without the need for manual context re-entry or repetitive explanations.
+  why_it_matters: >-
+    It allows developers to move tasks between agents like Claude Code and Cursor without the need for manual context
+    re-entry or repetitive explanations.
   mental_damage: Because why manually copy-paste context when you can let a middleware layer handle your multi-agent identity crisis?
   tags:
     - mcp
@@ -51,31 +57,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It provides the core novelty of a shared session and memory layer that allows context to flow between disparate coding agents.
+  reason: >-
+    It provides the core novelty of a shared session and memory layer that allows context to flow between disparate
+    coding agents.
   evidence:
     - Functions as a shared API and MCP server over existing agent sessions
     - Solves the 'context trapped in another window' problem by reading live sessions
     - Enables handoffs and independent headless sessions across different hosts
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Context & Session Management
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-14T04:13:20.172Z"
+    updated_at: '2026-09-14T04:13:20.172Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:21.392Z"
+    updated_at: '2026-09-14T04:13:21.392Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-14T04:15:02.259Z"
+    updated_at: '2026-09-14T04:15:02.259Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -84,7 +93,9 @@ processing:
       input_hash: sha256:f305be313d271c33f29ea1d31b5b48fe2bd6b573a088631679c845d7504c3371
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: It provides the core novelty of a shared session and memory layer that allows context to flow between disparate coding agents.
+      decision_reason: >-
+        It provides the core novelty of a shared session and memory layer that allows context to flow between disparate
+        coding agents.
       decision_evidence:
         - Functions as a shared API and MCP server over existing agent sessions
         - Solves the 'context trapped in another window' problem by reading live sessions
@@ -92,7 +103,9 @@ processing:
       category_candidates:
         - context-engineering
         - ai-dev-extensions
-      contrastive_reason: Choose context-engineering over ai-dev-extensions because its core novelty is the shared session memory and context-shaping infrastructure rather than just the host integration layer.
+      contrastive_reason: >-
+        Choose context-engineering over ai-dev-extensions because its core novelty is the shared session memory and
+        context-shaping infrastructure rather than just the host integration layer.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

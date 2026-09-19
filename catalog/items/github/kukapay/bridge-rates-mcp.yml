@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__bridge-rates-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/bridge-rates-mcp
         extracted_url: https://github.com/kukapay/bridge-rates-mcp
-        surrounding_text: "- [kukapay/bridge-rates-mcp](https://github.com/kukapay/bridge-rates-mcp) 📇 ☁️ - Delivering real-time cross-chain bridge rates and optimal transfer routes to onchain AI agents."
+        surrounding_text: >-
+          - [kukapay/bridge-rates-mcp](https://github.com/kukapay/bridge-rates-mcp) 📇 ☁️ - Delivering real-time
+          cross-chain bridge rates and optimal transfer routes to onchain AI agents.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,23 @@ metadata:
     archived: false
     full_name: kukapay/bridge-rates-mcp
     html_url: https://github.com/kukapay/bridge-rates-mcp
-    created_at: "2025-04-24T21:23:26Z"
-    pushed_at: "2025-04-24T21:25:39Z"
+    created_at: '2025-04-24T21:23:26Z'
+    pushed_at: '2025-04-24T21:25:39Z'
     description: An MCP server that delivers real-time cross-chain bridge rates and optimal transfer routes to  onchain AI agents.
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:05:59.117Z"
+    last_checked_at: '2026-07-30T05:05:59.117Z'
     readme:
-      fetched_at: "2026-07-30T05:05:59.117Z"
+      fetched_at: '2026-07-30T05:05:59.117Z'
       bytes: 4376
 insights:
   summary: An MCP server that provides real-time cross-chain bridge rates and optimal transfer routes for onchain AI agents.
-  why_it_matters: Developers building onchain AI agents can now query live cross-chain bridging data directly through MCP, enabling smarter routing decisions without external API integrations.
-  mental_damage: Because nothing says 'production-ready' like an AI agent that can finally explain why your USDC took 47 minutes and $12.30 to cross from Arbitrum to Optimism.
+  why_it_matters: >-
+    Developers building onchain AI agents can now query live cross-chain bridging data directly through MCP, enabling
+    smarter routing decisions without external API integrations.
+  mental_damage: >-
+    Because nothing says 'production-ready' like an AI agent that can finally explain why your USDC took 47 minutes and
+    $12.30 to cross from Arbitrum to Optimism.
   tags:
     - mcp
     - blockchain
@@ -52,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a domain-specific MCP server whose primary identity is delivering cross-chain bridge data via MCP protocol to AI agents.
+  reason: >-
+    This is a domain-specific MCP server whose primary identity is delivering cross-chain bridge data via MCP protocol
+    to AI agents.
   evidence:
     - Repo description explicitly states it is an MCP server for cross-chain bridge rates
     - README details MCP server setup, tools, and integration with MCP clients like Claude Desktop
     - Core functionality is exposing blockchain data (rates, chains, bridges) as MCP tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:59.117Z"
+    updated_at: '2026-07-30T05:05:59.117Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:34.536Z"
+    updated_at: '2026-07-21T16:13:34.536Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +98,9 @@ processing:
       input_hash: sha256:8133026ca481f04bcebb4cc5e543d140a3a817f55ec44a36d82d5b83aa48a1ff
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a domain-specific MCP server whose primary identity is delivering cross-chain bridge data via MCP protocol to AI agents.
+      decision_reason: >-
+        This is a domain-specific MCP server whose primary identity is delivering cross-chain bridge data via MCP
+        protocol to AI agents.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for cross-chain bridge rates
         - README details MCP server setup, tools, and integration with MCP clients like Claude Desktop
@@ -97,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server providing domain-specific data, not as an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server providing
+        domain-specific data, not as an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

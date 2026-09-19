@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__harnessworks__harness-starter-kit__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-06-18T05:40:04.065Z"
+      discovered_at: '2026-06-18T05:40:04.065Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Agent infrastructure
         anchor_text: Harness Starter Kit
         extracted_url: https://github.com/harnessworks/harness-starter-kit
-        surrounding_text: "- **[Harness Starter Kit](https://github.com/harnessworks/harness-starter-kit)** `⭐ 82` — Prompt-first harness engineering starter kit for adding durable agent instructions, drift checks, failure memory, and evaluation loops to repositories. MIT."
+        surrounding_text: >-
+          - **[Harness Starter Kit](https://github.com/harnessworks/harness-starter-kit)** `⭐ 82` — Prompt-first harness
+          engineering starter kit for adding durable agent instructions, drift checks, failure memory, and evaluation
+          loops to repositories. MIT.
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: harnessworks/harness-starter-kit
     html_url: https://github.com/harnessworks/harness-starter-kit
-    created_at: "2026-05-26T03:52:30Z"
-    pushed_at: "2026-06-18T11:35:21Z"
+    created_at: '2026-05-26T03:52:30Z'
+    pushed_at: '2026-06-18T11:35:21Z'
     description: 🐴 Prompt-first harness engineering for safer AI coding agent workflows.
     homepage: https://harnessworks.github.io/harness-starter-kit/
     topics:
@@ -42,14 +45,20 @@ metadata:
       - harness-engineering
       - prompt-engineering
       - software-engineering
-    last_checked_at: "2026-07-30T05:05:35.480Z"
+    last_checked_at: '2026-07-30T05:05:35.480Z'
     readme:
-      fetched_at: "2026-07-30T05:05:35.479Z"
+      fetched_at: '2026-07-30T05:05:35.479Z'
       bytes: 14471
 insights:
-  summary: A prompt-first starter kit for turning repeated AI coding agent mistakes into durable repository instructions and evaluation checks.
-  why_it_matters: It shifts the effort from endless prompt tweaking to 'harnessing' the repository itself to provide better operational boundaries and feedback loops for agents.
-  mental_damage: We've reached the era where we no longer write code, but instead engineer the environment that manages the AI that writes the code that we then spend an hour debugging.
+  summary: >-
+    A prompt-first starter kit for turning repeated AI coding agent mistakes into durable repository instructions and
+    evaluation checks.
+  why_it_matters: >-
+    It shifts the effort from endless prompt tweaking to 'harnessing' the repository itself to provide better
+    operational boundaries and feedback loops for agents.
+  mental_damage: >-
+    We've reached the era where we no longer write code, but instead engineer the environment that manages the AI that
+    writes the code that we then spend an hour debugging.
   tags:
     - coding-agents
     - prompt-engineering
@@ -58,33 +67,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's core novelty is the system for managing agent memory, durable instructions, and the improvement loop of context rather than being a standalone agent itself.
+  reason: >-
+    The tool's core novelty is the system for managing agent memory, durable instructions, and the improvement loop of
+    context rather than being a standalone agent itself.
   evidence:
-    - README claims its product effect is to 'make agent work safer to run' via 'durable repository instructions' and 'decision memory'.
-    - Positions itself as a 'starter kit' for turning failures into instructions, which is a context management workflow.
+    - >-
+      README claims its product effect is to 'make agent work safer to run' via 'durable repository instructions' and
+      'decision memory'.
+    - >-
+      Positions itself as a 'starter kit' for turning failures into instructions, which is a context management
+      workflow.
     - Focused on 'repository harnessing' rather than being the primary coding assistant engine.
 placement:
-  primary_category: context-engineering
-  section: PromptOps / Prompt Management
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-18T05:40:04.066Z"
+    updated_at: '2026-06-18T05:40:04.066Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-03T05:16:58.660Z"
+    updated_at: '2026-09-03T05:16:58.660Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for harnessworks/harness-starter-kit
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-29T05:41:16.699Z"
+    updated_at: '2026-06-29T05:41:16.699Z'
     cause: null
     next_retry_at: null
     attempts: 1

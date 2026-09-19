@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__weaviate__mcp-server-weaviate__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: weaviate/mcp-server-weaviate
         extracted_url: https://github.com/weaviate/mcp-server-weaviate
-        surrounding_text: "- [weaviate/mcp-server-weaviate](https://github.com/weaviate/mcp-server-weaviate) 🐍 📇 ☁️ - An MCP Server to connect to your Weaviate collections as a knowledge base as well as using Weaviate as a chat memory store."
+        surrounding_text: >-
+          - [weaviate/mcp-server-weaviate](https://github.com/weaviate/mcp-server-weaviate) 🐍 📇 ☁️ - An MCP Server to
+          connect to your Weaviate collections as a knowledge base as well as using Weaviate as a chat memory store.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,21 @@ metadata:
     archived: false
     full_name: weaviate/mcp-server-weaviate
     html_url: https://github.com/weaviate/mcp-server-weaviate
-    created_at: "2025-02-11T21:23:19Z"
-    pushed_at: "2026-05-26T15:59:36Z"
+    created_at: '2025-02-11T21:23:19Z'
+    pushed_at: '2026-05-26T15:59:36Z'
     description: MCP (Model Context Protocol) server for Weaviate
     homepage: https://www.anthropic.com/news/model-context-protocol
     topics: []
-    last_checked_at: "2026-07-21T15:21:10.741Z"
+    last_checked_at: '2026-07-21T15:21:10.741Z'
     readme:
-      fetched_at: "2026-07-21T15:21:10.741Z"
+      fetched_at: '2026-07-21T15:21:10.741Z'
       bytes: 1659
 insights:
   summary: MCP (Model Context Protocol) server for Weaviate vector database.
   why_it_matters: Enables AI assistants to query and insert data in Weaviate via a standardized MCP interface.
-  mental_damage: Another MCP server to add to the growing list of protocol adapters that promise seamless context but deliver yet another YAML file to configure.
+  mental_damage: >-
+    Another MCP server to add to the growing list of protocol adapters that promise seamless context but deliver yet
+    another YAML file to configure.
   tags:
     - mcp
     - vector-db
@@ -50,31 +54,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server implementation for Weaviate, making MCP the core identity rather than a compatibility feature.
+  reason: >-
+    The product is an MCP server implementation for Weaviate, making MCP the core identity rather than a compatibility
+    feature.
   evidence:
-    - "Repo description: 'MCP (Model Context Protocol) server for Weaviate'"
+    - 'Repo description: ''MCP (Model Context Protocol) server for Weaviate'''
     - Listed in awesome-mcp-servers under Server Implementations > Databases
     - README focuses on MCP server tools for Weaviate operations like insert and query
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: promotion_candidate
   reason: Stars (161) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.655Z"
+    updated_at: '2026-05-06T22:12:15.655Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:10.741Z"
+    updated_at: '2026-07-21T15:21:10.741Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:31:05.389Z"
+    updated_at: '2026-05-12T15:31:05.389Z'
     cause: null
     next_retry_at: null
     attempts: 1

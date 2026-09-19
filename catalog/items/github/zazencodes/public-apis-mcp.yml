@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__zazencodes__public-apis-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,7 @@ provenance:
           - Community Servers
         anchor_text: Public APIs MCP
         extracted_url: https://github.com/zazencodes/public-apis-mcp
-        surrounding_text: "- **[Public APIs MCP](https://github.com/zazencodes/public-apis-mcp)** - Search for free APIs using MCP."
+        surrounding_text: '- **[Public APIs MCP](https://github.com/zazencodes/public-apis-mcp)** - Search for free APIs using MCP.'
         confidence: high
 metadata:
   github:
@@ -29,19 +29,23 @@ metadata:
     archived: false
     full_name: zazencodes/public-apis-mcp
     html_url: https://github.com/zazencodes/public-apis-mcp
-    created_at: "2025-08-17T14:37:54Z"
-    pushed_at: "2025-09-08T07:09:44Z"
+    created_at: '2025-08-17T14:37:54Z'
+    pushed_at: '2025-09-08T07:09:44Z'
     description: Search for free APIs using MCP
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:21:25.523Z"
+    last_checked_at: '2026-07-21T15:21:25.523Z'
     readme:
-      fetched_at: "2026-07-21T15:21:25.523Z"
+      fetched_at: '2026-07-21T15:21:25.523Z'
       bytes: 2919
 insights:
   summary: An MCP server that provides semantic search over a catalog of free public APIs.
-  why_it_matters: Lets developers discover and retrieve public API details via natural language queries inside MCP-compatible assistants.
-  mental_damage: Another wrapper turning a JSON file into a 'semantic search' tool that still requires you to copy-paste API docs by hand.
+  why_it_matters: >-
+    Lets developers discover and retrieve public API details via natural language queries inside MCP-compatible
+    assistants.
+  mental_damage: >-
+    Another wrapper turning a JSON file into a 'semantic search' tool that still requires you to copy-paste API docs by
+    hand.
   tags:
     - mcp
     - api-discovery
@@ -49,31 +53,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The project is an MCP server whose core identity is exposing a public API catalog via MCP tools, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The project is an MCP server whose core identity is exposing a public API catalog via MCP tools, fitting the MCP
+    Servers & Tooling category.
   evidence:
-    - "Repo description: 'Search for free APIs using MCP'"
-    - "README defines MCP tools: search_public_apis and get_public_api_details"
+    - 'Repo description: ''Search for free APIs using MCP'''
+    - 'README defines MCP tools: search_public_apis and get_public_api_details'
     - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Registries & Discovery
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.657Z"
+    updated_at: '2026-05-06T22:12:15.657Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:25.523Z"
+    updated_at: '2026-07-21T15:21:25.523Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:50:45.829Z"
+    updated_at: '2026-05-12T15:50:45.829Z'
     cause: null
     next_retry_at: null
     attempts: 1

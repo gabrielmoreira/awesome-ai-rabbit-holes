@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lingcoder__crab-code__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Open Source
         anchor_text: Crab Code
         extracted_url: https://github.com/lingcoder/crab-code
-        surrounding_text: "- **[Crab Code](https://github.com/lingcoder/crab-code)** `⭐ 55` — Rust-native agentic coding CLI aligned with Claude Code's toolset and permission model; works with any LLM provider (Anthropic/OpenAI/DeepSeek/Bedrock/Vertex). 27 crates, 4,700+ tests, layered config system. Apache-2.0."
+        surrounding_text: >-
+          - **[Crab Code](https://github.com/lingcoder/crab-code)** `⭐ 55` — Rust-native agentic coding CLI aligned with
+          Claude Code's toolset and permission model; works with any LLM provider
+          (Anthropic/OpenAI/DeepSeek/Bedrock/Vertex). 27 crates, 4,700+ tests, layered config system. Apache-2.0.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: lingcoder/crab-code
     html_url: https://github.com/lingcoder/crab-code
-    created_at: "2026-04-02T02:13:05Z"
-    pushed_at: "2026-07-20T19:12:29Z"
-    description: 🦀 Open-source alternative to Claude Code, built from scratch in Rust. Agentic coding CLI — thinks, plans, and executes with any LLM. Compatible with Claude Code workflows.
+    created_at: '2026-04-02T02:13:05Z'
+    pushed_at: '2026-07-20T19:12:29Z'
+    description: >-
+      🦀 Open-source alternative to Claude Code, built from scratch in Rust. Agentic coding CLI — thinks, plans, and
+      executes with any LLM. Compatible with Claude Code workflows.
     homepage: https://github.com/lingcoder/crab-code
     topics:
       - agent
@@ -55,14 +60,20 @@ metadata:
       - openai
       - rust
       - rust-lang
-    last_checked_at: "2026-07-30T05:06:06.127Z"
+    last_checked_at: '2026-07-30T05:06:06.127Z'
     readme:
-      fetched_at: "2026-07-30T05:06:06.127Z"
+      fetched_at: '2026-07-30T05:06:06.127Z'
       bytes: 5934
 insights:
-  summary: An open-source, Rust-native CLI coding agent that replicates Claude Code's workflows and toolset while supporting any LLM provider.
-  why_it_matters: Developers can self-host an agentic coding loop with multi-provider flexibility while avoiding vendor lock-in to proprietary assistants.
-  mental_damage: We have reached the point where building a 149k-line Rust clone of a proprietary CLI is considered the efficient path to coding autonomy.
+  summary: >-
+    An open-source, Rust-native CLI coding agent that replicates Claude Code's workflows and toolset while supporting
+    any LLM provider.
+  why_it_matters: >-
+    Developers can self-host an agentic coding loop with multi-provider flexibility while avoiding vendor lock-in to
+    proprietary assistants.
+  mental_damage: >-
+    We have reached the point where building a 149k-line Rust clone of a proprietary CLI is considered the efficient
+    path to coding autonomy.
   tags:
     - cli
     - rust
@@ -72,13 +83,18 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a standalone, terminal-native coding assistant that plans, edits, and executes across a repo, fitting the primary identity of a coding agent rather than an extension or framework.
+  reason: >-
+    This is a standalone, terminal-native coding assistant that plans, edits, and executes across a repo, fitting the
+    primary identity of a coding agent rather than an extension or framework.
   evidence:
-    - "Repo description explicitly states: 'Open-source alternative to Claude Code, built from scratch in Rust. Agentic coding CLI'."
+    - >-
+      Repo description explicitly states: 'Open-source alternative to Claude Code, built from scratch in Rust. Agentic
+      coding CLI'.
     - Architecture includes 27 crates across engine, tools, session, and TUI layers for autonomous repo work.
     - Included in the awesome-cli-coding-agents list under 'Terminal-native coding agents > Open Source'.
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: incubating
@@ -86,21 +102,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: '2026-05-06T22:12:15.627Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:06.127Z"
+    updated_at: '2026-07-30T05:06:06.127Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

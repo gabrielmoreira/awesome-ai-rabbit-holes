@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__achiya-automation__safari-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,14 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: achiya-automation/safari-mcp
         extracted_url: https://github.com/achiya-automation/safari-mcp
-        surrounding_text: "- [achiya-automation/safari-mcp](https://github.com/achiya-automation/safari-mcp) [![safari-mcp MCP server](https://glama.ai/mcp/servers/achiya-automation/safari-mcp/badges/score.svg)](https://glama.ai/mcp/servers/achiya-automation/safari-mcp) 📇 🏠 🍎 - Native Safari browser automation for AI agents with 80+ tools. No Chrome dependency, optimized for Apple Silicon with 60% less CPU overhead."
+        surrounding_text: >-
+          - [achiya-automation/safari-mcp](https://github.com/achiya-automation/safari-mcp) [![safari-mcp MCP
+          server](https://glama.ai/mcp/servers/achiya-automation/safari-mcp/badges/score.svg)](https://glama.ai/mcp/servers/achiya-automation/safari-mcp)
+          📇 🏠 🍎 - Native Safari browser automation for AI agents with 80+ tools. No Chrome dependency, optimized for
+          Apple Silicon with 60% less CPU overhead.
         confidence: high
     - id: discovery__github__achiya-automation__safari-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-09-17T04:13:23.413Z"
+      discovered_at: '2026-09-17T04:13:23.413Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -34,9 +38,13 @@ provenance:
         section_path:
           - Contributing
           - 📂 Browser Control
-        anchor_text: "@achiya-automation/safari-mcp"
+        anchor_text: '@achiya-automation/safari-mcp'
         extracted_url: https://github.com/achiya-automation/safari-mcp
-        surrounding_text: "-   **[@achiya-automation/safari-mcp](https://github.com/achiya-automation/safari-mcp)** [![GitHub stars](https://img.shields.io/github/stars/achiya-automation/safari-mcp?style=social)](https://github.com/achiya-automation/safari-mcp): Native Safari browser automation for AI agents via AppleScript — 80 tools, zero overhead, keeps logins, runs silently in background. macOS only."
+        surrounding_text: >-
+          -   **[@achiya-automation/safari-mcp](https://github.com/achiya-automation/safari-mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/achiya-automation/safari-mcp?style=social)](https://github.com/achiya-automation/safari-mcp):
+          Native Safari browser automation for AI agents via AppleScript — 80 tools, zero overhead, keeps logins, runs
+          silently in background. macOS only.
         confidence: high
 metadata:
   github:
@@ -46,9 +54,11 @@ metadata:
     archived: false
     full_name: achiya-automation/safari-mcp
     html_url: https://github.com/achiya-automation/safari-mcp
-    created_at: "2026-03-18T17:47:00Z"
-    pushed_at: "2026-09-16T05:37:03Z"
-    description: Native Safari browser automation for AI agents. 98 tools via AppleScript — zero overhead, keeps logins, runs silently in background. Drop-in alternative to Chrome DevTools MCP with 40-60% less CPU/heat on Apple Silicon.
+    created_at: '2026-03-18T17:47:00Z'
+    pushed_at: '2026-09-16T05:37:03Z'
+    description: >-
+      Native Safari browser automation for AI agents. 98 tools via AppleScript — zero overhead, keeps logins, runs
+      silently in background. Drop-in alternative to Chrome DevTools MCP with 40-60% less CPU/heat on Apple Silicon.
     homepage: https://achiya-automation.com
     topics:
       - ai-agents
@@ -71,14 +81,18 @@ metadata:
       - web-automation
       - webkit
       - windsurf
-    last_checked_at: "2026-09-17T04:13:29.421Z"
+    last_checked_at: '2026-09-17T04:13:29.421Z'
     readme:
-      fetched_at: "2026-09-17T04:13:29.421Z"
+      fetched_at: '2026-09-17T04:13:29.421Z'
       bytes: 49115
 insights:
   summary: A macOS-only MCP server that provides 97 tools for native Safari browser automation via AppleScript.
-  why_it_matters: It allows AI agents to use your existing, logged-in Safari sessions with significantly lower CPU overhead than Playwright or Chrome-based alternatives.
-  mental_damage: Now you can finally watch your AI agent browse the web using your own authenticated sessions while your laptop fan stays blissfully silent.
+  why_it_matters: >-
+    It allows AI agents to use your existing, logged-in Safari sessions with significantly lower CPU overhead than
+    Playwright or Chrome-based alternatives.
+  mental_damage: >-
+    Now you can finally watch your AI agent browse the web using your own authenticated sessions while your laptop fan
+    stays blissfully silent.
   tags:
     - mcp
     - browser-automation
@@ -88,31 +102,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is explicitly an MCP server designed to provide specific browser capabilities to an external host.
+  reason: >-
+    The product identity is explicitly an MCP server designed to provide specific browser capabilities to an external
+    host.
   evidence:
     - Repo description identifies it as 'Native Safari browser automation for AI agents' via MCP
     - README explicitly markets it as 'The browser for your coding agent' via MCP tools
     - Provides 97 specialized tools for agentic interaction
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: promotion_candidate
   reason: Stars (152) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-09-17T04:13:23.414Z"
+    updated_at: '2026-09-17T04:13:23.414Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:29.421Z"
+    updated_at: '2026-09-17T04:13:29.421Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:57:20.913Z"
+    updated_at: '2026-07-20T15:57:20.913Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -125,7 +142,9 @@ processing:
       input_hash: sha256:2e216e449770a5e045f23affc47012b4c87d1bb482be8718ce260caefa507fd3
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product identity is explicitly an MCP server designed to provide specific browser capabilities to an external host.
+      decision_reason: >-
+        The product identity is explicitly an MCP server designed to provide specific browser capabilities to an
+        external host.
       decision_evidence:
         - Repo description identifies it as 'Native Safari browser automation for AI agents' via MCP
         - README explicitly markets it as 'The browser for your coding agent' via MCP tools
@@ -133,6 +152,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is an MCP server providing a protocol-based interface rather than a direct plugin for a specific editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is an MCP server providing a
+        protocol-based interface rather than a direct plugin for a specific editor.
       review_reason: null
       review_resume_lifecycle: null

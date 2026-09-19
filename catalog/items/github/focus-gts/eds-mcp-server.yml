@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__focus-gts__eds-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-22T05:53:30.454Z"
+      discovered_at: '2026-06-22T05:53:30.454Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: Focus-GTS/eds-mcp-server
         extracted_url: https://github.com/focus-gts/eds-mcp-server
-        surrounding_text: "- [Focus-GTS/eds-mcp-server](https://github.com/Focus-GTS/eds-mcp-server) [![Focus-GTS/eds-mcp-server MCP server](https://glama.ai/mcp/servers/Focus-GTS/eds-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/Focus-GTS/eds-mcp-server) 📇 ☁️ 🍎 🪟 🐧 - Adobe Edge Delivery Services (AEM EDS) management with 20 tools for preview, publish, bulk operations, content reading, Core Web Vitals, 404 tracking, A/B experiments, site configuration, and redirects. Install: `npx @focusgts/eds-mcp-server`."
+        surrounding_text: >-
+          - [Focus-GTS/eds-mcp-server](https://github.com/Focus-GTS/eds-mcp-server) [![Focus-GTS/eds-mcp-server MCP
+          server](https://glama.ai/mcp/servers/Focus-GTS/eds-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/Focus-GTS/eds-mcp-server)
+          📇 ☁️ 🍎 🪟 🐧 - Adobe Edge Delivery Services (AEM EDS) management with 20 tools for preview, publish, bulk
+          operations, content reading, Core Web Vitals, 404 tracking, A/B experiments, site configuration, and
+          redirects. Install: `npx @focusgts/eds-mcp-server`.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: Focus-GTS/eds-mcp-server
     html_url: https://github.com/Focus-GTS/eds-mcp-server
-    created_at: "2026-05-19T21:17:46Z"
-    pushed_at: "2026-08-18T17:55:59Z"
-    description: The MCP server for Adobe Edge Delivery Services — 41 tools. An AI agent can read, audit, track, monitor, fix (a page or the whole site), publish, and undo — all safely and reversibly.
+    created_at: '2026-05-19T21:17:46Z'
+    pushed_at: '2026-08-18T17:55:59Z'
+    description: >-
+      The MCP server for Adobe Edge Delivery Services — 41 tools. An AI agent can read, audit, track, monitor, fix (a
+      page or the whole site), publish, and undo — all safely and reversibly.
     homepage: null
     topics:
       - adobe
@@ -44,14 +51,20 @@ metadata:
       - eds
       - mcp
       - mcp-server
-    last_checked_at: "2026-09-03T05:16:42.602Z"
+    last_checked_at: '2026-09-03T05:16:42.602Z'
     readme:
-      fetched_at: "2026-09-03T05:16:42.602Z"
+      fetched_at: '2026-09-03T05:16:42.602Z'
       bytes: 13770
 insights:
-  summary: An MCP server for Adobe Edge Delivery Services providing AI agents with 20 tools to preview, publish, and manage EDS sites.
-  why_it_matters: It allows AI agents to programmatically manage content publishing and query Core Web Vitals and 404 reports without needing a local AEM instance.
-  mental_damage: We've reached the era where your AI agent can accidentally publish a half-finished homepage to production while you're still figuring out where the API key goes.
+  summary: >-
+    An MCP server for Adobe Edge Delivery Services providing AI agents with 20 tools to preview, publish, and manage EDS
+    sites.
+  why_it_matters: >-
+    It allows AI agents to programmatically manage content publishing and query Core Web Vitals and 404 reports without
+    needing a local AEM instance.
+  mental_damage: >-
+    We've reached the era where your AI agent can accidentally publish a half-finished homepage to production while
+    you're still figuring out where the API key goes.
   tags:
     - mcp
     - adobe-eds
@@ -61,31 +74,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is strictly an MCP server designed to provide a specific set of tools to compatible AI assistants.
+  reason: >-
+    The product identity is strictly an MCP server designed to provide a specific set of tools to compatible AI
+    assistants.
   evidence:
     - Repo description explicitly calls it an 'MCP server for Adobe Edge Delivery Services'
-    - README lists specific tools for publishing and analytics that integrate with Claude Code and Cursor via the MCP SDK
+    - >-
+      README lists specific tools for publishing and analytics that integrate with Claude Code and Cursor via the MCP
+      SDK
     - Included in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-22T05:53:30.455Z"
+    updated_at: '2026-06-22T05:53:30.455Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:42.602Z"
+    updated_at: '2026-09-03T05:16:42.602Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-25T05:27:25.066Z"
+    updated_at: '2026-06-25T05:27:25.066Z'
     cause: null
     next_retry_at: null
     attempts: 1

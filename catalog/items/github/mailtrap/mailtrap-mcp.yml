@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mailtrap__mailtrap-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,7 @@ provenance:
           - Official Servers
         anchor_text: Mailtrap
         extracted_url: https://github.com/railsware/mailtrap-mcp
-        surrounding_text: "- **[Mailtrap](https://github.com/railsware/mailtrap-mcp)** - Integrates with Mailtrap Email API."
+        surrounding_text: '- **[Mailtrap](https://github.com/railsware/mailtrap-mcp)** - Integrates with Mailtrap Email API.'
         confidence: high
 metadata:
   github:
@@ -29,18 +29,20 @@ metadata:
     archived: false
     full_name: mailtrap/mailtrap-mcp
     html_url: https://github.com/mailtrap/mailtrap-mcp
-    created_at: "2025-03-24T17:59:54Z"
-    pushed_at: "2026-07-31T11:38:52Z"
+    created_at: '2025-03-24T17:59:54Z'
+    pushed_at: '2026-07-31T11:38:52Z'
     description: Official mailtrap.io MCP server
     homepage: https://mailtrap.io
     topics: []
-    last_checked_at: "2026-08-03T05:16:54.756Z"
+    last_checked_at: '2026-08-03T05:16:54.756Z'
     readme:
-      fetched_at: "2026-08-03T05:16:54.756Z"
+      fetched_at: '2026-08-03T05:16:54.756Z'
       bytes: 48376
 insights:
   summary: Official MCP server for Mailtrap that provides tools for sending and testing emails in sandbox via Mailtrap.
-  why_it_matters: Lets developers integrate email sending and testing workflows directly into AI-assisted development environments using the Model Context Protocol.
+  why_it_matters: >-
+    Lets developers integrate email sending and testing workflows directly into AI-assisted development environments
+    using the Model Context Protocol.
   mental_damage: Yet another niche MCP server that makes you wonder if every SaaS needs its own AI plugin before lunch.
   tags:
     - mcp
@@ -49,31 +51,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server providing Mailtrap-specific tools, making MCP the core identity rather than a compatibility feature.
+  reason: >-
+    The product is an MCP server providing Mailtrap-specific tools, making MCP the core identity rather than a
+    compatibility feature.
   evidence:
-    - "Repo description: 'Official mailtrap.io MCP server'"
-    - "README: 'An MCP server that provides tools for sending and testing in sandbox via Mailtrap'"
+    - 'Repo description: ''Official mailtrap.io MCP server'''
+    - 'README: ''An MCP server that provides tools for sending and testing in sandbox via Mailtrap'''
     - Listed in awesome-mcp-servers under 'Official Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.628Z"
+    updated_at: '2026-05-06T22:12:15.628Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:54.756Z"
+    updated_at: '2026-08-03T05:16:54.756Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:17:59.277Z"
+    updated_at: '2026-07-21T16:17:59.277Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -86,14 +91,18 @@ processing:
       input_hash: sha256:5445c1f8545d90f35432e094c90a724b2a058547a5aa5a29b4f2265b17f9cc65
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server providing Mailtrap-specific tools, making MCP the core identity rather than a compatibility feature.
+      decision_reason: >-
+        The product is an MCP server providing Mailtrap-specific tools, making MCP the core identity rather than a
+        compatibility feature.
       decision_evidence:
-        - "Repo description: 'Official mailtrap.io MCP server'"
-        - "README: 'An MCP server that provides tools for sending and testing in sandbox via Mailtrap'"
+        - 'Repo description: ''Official mailtrap.io MCP server'''
+        - 'README: ''An MCP server that provides tools for sending and testing in sandbox via Mailtrap'''
         - Listed in awesome-mcp-servers under 'Official Servers'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an extension augmenting another assistant with Mailtrap capabilities.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an extension augmenting
+        another assistant with Mailtrap capabilities.
       review_reason: null
       review_resume_lifecycle: null

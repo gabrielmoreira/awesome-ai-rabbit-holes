@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__browserstack__mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Official Servers
         anchor_text: BrowserStack
         extracted_url: https://github.com/browserstack/mcp-server
-        surrounding_text: "- **[BrowserStack](https://github.com/browserstack/mcp-server)** – Bring the full power of BrowserStack’s [Test Platform](https://www.browserstack.com/test-platform) to your AI tools, making testing faster and easier for every developer and tester on your team."
+        surrounding_text: >-
+          - **[BrowserStack](https://github.com/browserstack/mcp-server)** – Bring the full power of BrowserStack’s
+          [Test Platform](https://www.browserstack.com/test-platform) to your AI tools, making testing faster and easier
+          for every developer and tester on your team.
         confidence: high
 metadata:
   github:
@@ -29,10 +32,10 @@ metadata:
     archived: false
     full_name: browserstack/mcp-server
     html_url: https://github.com/browserstack/mcp-server
-    created_at: "2025-04-17T09:14:44Z"
-    pushed_at: "2026-09-03T08:47:57Z"
+    created_at: '2025-04-17T09:14:44Z'
+    pushed_at: '2026-09-03T08:47:57Z'
     description: BrowserStack's Official MCP Server
-    homepage: ""
+    homepage: ''
     topics:
       - accessibility
       - automation
@@ -40,14 +43,18 @@ metadata:
       - mcp-server
       - quality-assurance
       - testing
-    last_checked_at: "2026-09-07T04:13:38.172Z"
+    last_checked_at: '2026-09-07T04:13:38.172Z'
     readme:
-      fetched_at: "2026-09-07T04:13:38.172Z"
+      fetched_at: '2026-09-07T04:13:38.172Z'
       bytes: 28107
 insights:
   summary: BrowserStack's official MCP server for integrating their testing platform with MCP-enabled clients.
-  why_it_matters: Lets developers trigger BrowserStack's device/browser testing, accessibility scans, and test management directly from IDEs or LLMs using natural language.
-  mental_damage: Now you can debug your app on an iPhone 15 Pro Max without leaving your editor, because context switching was the real bug all along.
+  why_it_matters: >-
+    Lets developers trigger BrowserStack's device/browser testing, accessibility scans, and test management directly
+    from IDEs or LLMs using natural language.
+  mental_damage: >-
+    Now you can debug your app on an iPhone 15 Pro Max without leaving your editor, because context switching was the
+    real bug all along.
   tags:
     - mcp-server
     - testing
@@ -57,31 +64,31 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: this is a dedicated MCP server exposing BrowserStack's testing capabilities."
+  reason: 'MCP is the product identity here: this is a dedicated MCP server exposing BrowserStack''s testing capabilities.'
   evidence:
     - Repo description explicitly states 'BrowserStack's Official MCP Server'
     - README centers on MCP integration with BrowserStack's test platform
     - Listed in awesome-mcp-servers under 'Official Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.606Z"
+    updated_at: '2026-05-06T22:12:15.606Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:38.172Z"
+    updated_at: '2026-09-07T04:13:38.172Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:40:12.144Z"
+    updated_at: '2026-07-21T15:40:12.144Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -94,7 +101,7 @@ processing:
       input_hash: sha256:31b5754eb1a0011d3486129fe09d50cda5b38b73ca0ccb8fb047d4e08c67a333
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: this is a dedicated MCP server exposing BrowserStack's testing capabilities."
+      decision_reason: 'MCP is the product identity here: this is a dedicated MCP server exposing BrowserStack''s testing capabilities.'
       decision_evidence:
         - Repo description explicitly states 'BrowserStack's Official MCP Server'
         - README centers on MCP integration with BrowserStack's test platform
@@ -102,6 +109,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

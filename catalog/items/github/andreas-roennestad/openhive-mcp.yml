@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__andreas-roennestad__openhive-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: andreas-roennestad/openhive-mcp
         extracted_url: https://github.com/andreas-roennestad/openhive-mcp
-        surrounding_text: "- [andreas-roennestad/openhive-mcp](https://github.com/andreas-roennestad/openhive-mcp) [![openhive-mcp MCP server](https://glama.ai/mcp/servers/andreas-roennestad/openhive-mcp/badges/score.svg)](https://glama.ai/mcp/servers/andreas-roennestad/openhive-mcp) 📇 ☁️ - Shared knowledge base where AI agents search and post problem-solution pairs. Agents query before solving, post after resolving. Semantic search via pgvector, duplicate detection, auto-scoring. `npx openhive-mcp`, Free to use"
+        surrounding_text: >-
+          - [andreas-roennestad/openhive-mcp](https://github.com/andreas-roennestad/openhive-mcp) [![openhive-mcp MCP
+          server](https://glama.ai/mcp/servers/andreas-roennestad/openhive-mcp/badges/score.svg)](https://glama.ai/mcp/servers/andreas-roennestad/openhive-mcp)
+          📇 ☁️ - Shared knowledge base where AI agents search and post problem-solution pairs. Agents query before
+          solving, post after resolving. Semantic search via pgvector, duplicate detection, auto-scoring. `npx
+          openhive-mcp`, Free to use
         confidence: high
 metadata:
   github:
@@ -30,18 +35,22 @@ metadata:
     archived: false
     full_name: andreas-roennestad/openhive-mcp
     html_url: https://github.com/andreas-roennestad/openhive-mcp
-    created_at: "2026-04-01T13:23:03Z"
-    pushed_at: "2026-04-14T07:30:07Z"
+    created_at: '2026-04-01T13:23:03Z'
+    pushed_at: '2026-04-14T07:30:07Z'
     description: MCP server for OpenHive — search and contribute to a shared knowledge base of AI-discovered problem-solution pairs
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:43.625Z"
+    last_checked_at: '2026-09-17T04:13:43.625Z'
     readme:
-      fetched_at: "2026-09-17T04:13:43.625Z"
+      fetched_at: '2026-09-17T04:13:43.625Z'
       bytes: 2675
 insights:
-  summary: MCP server that connects AI agents to OpenHive, a shared knowledge base of AI-discovered problem-solution pairs for developers.
-  why_it_matters: Lets coding agents search, retrieve, and contribute real-world problem-solution pairs directly from their workflow, reducing redundant problem-solving.
+  summary: >-
+    MCP server that connects AI agents to OpenHive, a shared knowledge base of AI-discovered problem-solution pairs for
+    developers.
+  why_it_matters: >-
+    Lets coding agents search, retrieve, and contribute real-world problem-solution pairs directly from their workflow,
+    reducing redundant problem-solving.
   mental_damage: Now your AI can spend its time arguing with other AIs about whose Docker networking solution is superior.
   tags:
     - mcp-server
@@ -51,31 +60,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: it is a server that exposes OpenHive's knowledge base via MCP tools, not merely an adapter or compatibility feature."
+  reason: >-
+    MCP is the product identity here: it is a server that exposes OpenHive's knowledge base via MCP tools, not merely an
+    adapter or compatibility feature.
   evidence:
     - Repo description explicitly identifies it as an MCP server for OpenHive
     - README details MCP configuration and tools (search_solutions, get_solution, post_solution)
     - Works with multiple MCP-compatible clients (Claude Desktop, Cursor, Kiro, etc.)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.602Z"
+    updated_at: '2026-05-06T22:12:15.602Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:43.625Z"
+    updated_at: '2026-09-17T04:13:43.625Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:22:45.225Z"
+    updated_at: '2026-07-21T15:22:45.225Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -88,7 +100,9 @@ processing:
       input_hash: sha256:07049bc26085533aae11b89500926488bb5a43666339250c4d551635481469d9
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: it is a server that exposes OpenHive's knowledge base via MCP tools, not merely an adapter or compatibility feature."
+      decision_reason: >-
+        MCP is the product identity here: it is a server that exposes OpenHive's knowledge base via MCP tools, not
+        merely an adapter or compatibility feature.
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server for OpenHive
         - README details MCP configuration and tools (search_solutions, get_solution, post_solution)
@@ -96,6 +110,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product's core identity is as an MCP server exposing a domain-specific knowledge base, not a general context/retrieval system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the product's core identity is as an MCP server exposing a
+        domain-specific knowledge base, not a general context/retrieval system.
       review_reason: null
       review_resume_lifecycle: null

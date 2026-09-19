@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__store__juergenkoller__software__en__apps__distill__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,13 @@ provenance:
           - 📂 <a name="file-systems"></a>File Systems
         anchor_text: Distill
         extracted_url: https://store.juergenkoller.software/en/apps/distill
-        surrounding_text: "- [juergenkoller-software/distill-mcp](https://github.com/juergenkoller-software/distill-mcp) [![juergenkoller-software/distill-mcp MCP server](https://glama.ai/mcp/servers/juergenkoller-software/distill-mcp/badges/score.svg)](https://glama.ai/mcp/servers/juergenkoller-software/distill-mcp) 🏠 🍎 - MCP bridge for [Distill](https://store.juergenkoller.software/en/apps/distill) — AI file renamer that analyzes content (PDF/OCR/Office/email/media) and renames files with descriptive names. Five AI providers (Claude, OpenAI, Gemini, Ollama, Apple Intelligence), pay-per-use credits, folder monitoring, 9 MCP tools."
+        surrounding_text: >-
+          - [juergenkoller-software/distill-mcp](https://github.com/juergenkoller-software/distill-mcp)
+          [![juergenkoller-software/distill-mcp MCP
+          server](https://glama.ai/mcp/servers/juergenkoller-software/distill-mcp/badges/score.svg)](https://glama.ai/mcp/servers/juergenkoller-software/distill-mcp)
+          🏠 🍎 - MCP bridge for [Distill](https://store.juergenkoller.software/en/apps/distill) — AI file renamer that
+          analyzes content (PDF/OCR/Office/email/media) and renames files with descriptive names. Five AI providers
+          (Claude, OpenAI, Gemini, Ollama, Apple Intelligence), pay-per-use credits, folder monitoring, 9 MCP tools.
         confidence: high
 metadata:
   github:
@@ -35,9 +41,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered file organizer and renaming tool that analyzes document content to generate structured filenames, offering a REST API and an MCP server for assistant integration.
-  why_it_matters: It automates the tedious task of organizing messy local file systems and exposes those capabilities to AI assistants via MCP, allowing an agent to clean up a developer's workspace.
-  mental_damage: The dream of a perfectly organized file system is finally possible, provided you're okay with a model reading every single one of your 'final_v2_actually_final.pdf' files to decide what they are.
+  summary: >-
+    An AI-powered file organizer and renaming tool that analyzes document content to generate structured filenames,
+    offering a REST API and an MCP server for assistant integration.
+  why_it_matters: >-
+    It automates the tedious task of organizing messy local file systems and exposes those capabilities to AI assistants
+    via MCP, allowing an agent to clean up a developer's workspace.
+  mental_damage: >-
+    The dream of a perfectly organized file system is finally possible, provided you're okay with a model reading every
+    single one of your 'final_v2_actually_final.pdf' files to decide what they are.
   tags:
     - file-management
     - mcp
@@ -47,21 +59,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: While it is a standalone Mac app, its primary value to the developer ecosystem in this context is its MCP server implementation that gives AI assistants the ability to analyze and rename files.
+  reason: >-
+    While it is a standalone Mac app, its primary value to the developer ecosystem in this context is its MCP server
+    implementation that gives AI assistants the ability to analyze and rename files.
   evidence:
     - Explicitly provides an MCP server for integration with Claude and other AI assistants
     - Included in awesome-mcp-servers under File Systems
     - Provides a REST API with Swagger UI for developer integration
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-15T05:51:04.990Z"
+    updated_at: '2026-06-15T05:51:04.990Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +85,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-06-15T05:54:19.080Z"
+    updated_at: '2026-06-15T05:54:19.080Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

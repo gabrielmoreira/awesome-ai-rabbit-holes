@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pricepertoken__com__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: pricepertoken/mcp-server
         extracted_url: https://pricepertoken.com/mcp
-        surrounding_text: "- [pricepertoken/mcp-server](https://pricepertoken.com/mcp) 📇 ☁️ - LLM API pricing comparison and benchmarks across 100+ models from 30+ providers including OpenAI, Anthropic, Google, and Meta. No API key required."
+        surrounding_text: >-
+          - [pricepertoken/mcp-server](https://pricepertoken.com/mcp) 📇 ☁️ - LLM API pricing comparison and benchmarks
+          across 100+ models from 30+ providers including OpenAI, Anthropic, Google, and Meta. No API key required.
         confidence: high
 metadata:
   github:
@@ -37,8 +39,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An MCP server providing real-time LLM pricing, benchmark, and latency data for integration with Claude Code, Cursor, Windsurf, and other MCP-enabled assistants.
-  why_it_matters: Developers can query and compare model costs and performance metrics directly within their coding workflow without switching contexts.
+  summary: >-
+    An MCP server providing real-time LLM pricing, benchmark, and latency data for integration with Claude Code, Cursor,
+    Windsurf, and other MCP-enabled assistants.
+  why_it_matters: >-
+    Developers can query and compare model costs and performance metrics directly within their coding workflow without
+    switching contexts.
   mental_damage: Now you can argue about token pricing while your code still doesn’t work.
   tags:
     - mcp-server
@@ -48,21 +54,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server providing domain-specific (pricing/benchmark) data, making it a clear fit for MCP Servers & Tooling.
+  reason: >-
+    The product's core identity is an MCP server providing domain-specific (pricing/benchmark) data, making it a clear
+    fit for MCP Servers & Tooling.
   evidence:
     - Product is explicitly an MCP server for LLM pricing/benchmark data
     - Integrates with multiple MCP-enabled assistants (Claude Code, Cursor, Windsurf)
     - Provides domain-specific tools (get_all_models, compare_models, get_benchmarks)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +80,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:42.966Z"
+    updated_at: '2026-07-21T15:30:42.966Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +93,9 @@ processing:
       input_hash: sha256:a525019ac0d9415e0101b5b21e0d6f1acb1dec1b83790b451e27c733007a8f39
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP server providing domain-specific (pricing/benchmark) data, making it a clear fit for MCP Servers & Tooling.
+      decision_reason: >-
+        The product's core identity is an MCP server providing domain-specific (pricing/benchmark) data, making it a
+        clear fit for MCP Servers & Tooling.
       decision_evidence:
         - Product is explicitly an MCP server for LLM pricing/benchmark data
         - Integrates with multiple MCP-enabled assistants (Claude Code, Cursor, Windsurf)
@@ -92,6 +103,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server providing domain data, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server providing domain
+        data, not merely an extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

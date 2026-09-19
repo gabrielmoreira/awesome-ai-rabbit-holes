@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__token-revoke-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/token-revoke-mcp
         extracted_url: https://github.com/kukapay/token-revoke-mcp
-        surrounding_text: "- [kukapay/token-revoke-mcp](https://github.com/kukapay/token-revoke-mcp) 🐍 ☁️ - An MCP server for checking and revoking ERC-20 token allowances across multiple blockchains."
+        surrounding_text: >-
+          - [kukapay/token-revoke-mcp](https://github.com/kukapay/token-revoke-mcp) 🐍 ☁️ - An MCP server for checking
+          and revoking ERC-20 token allowances across multiple blockchains.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: kukapay/token-revoke-mcp
     html_url: https://github.com/kukapay/token-revoke-mcp
-    created_at: "2025-03-28T13:46:45Z"
-    pushed_at: "2025-03-28T13:47:10Z"
+    created_at: '2025-03-28T13:46:45Z'
+    pushed_at: '2025-03-28T13:47:10Z'
     description: An MCP server for checking and revoking ERC-20 token allowances across multiple blockchains.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:06:01.074Z"
+    last_checked_at: '2026-07-30T05:06:01.074Z'
     readme:
-      fetched_at: "2026-07-30T05:06:01.074Z"
+      fetched_at: '2026-07-30T05:06:01.074Z'
       bytes: 3747
 insights:
   summary: An MCP server for checking and revoking ERC-20 token allowances across multiple EVM-compatible blockchains.
-  why_it_matters: Developers building blockchain applications can programmatically audit and revoke token approvals, reducing security risks from stale or excessive allowances.
+  why_it_matters: >-
+    Developers building blockchain applications can programmatically audit and revoke token approvals, reducing security
+    risks from stale or excessive allowances.
   mental_damage: Now you can finally revoke that sketchy DeFi contract’s allowance from your AI assistant’s chat window.
   tags:
     - mcp
@@ -59,24 +63,25 @@ curation:
     - Supports multi-chain EVM operations as a dedicated MCP tool
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:01.074Z"
+    updated_at: '2026-07-30T05:06:01.074Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:14:11.711Z"
+    updated_at: '2026-07-21T16:14:11.711Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -97,6 +102,8 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product is an MCP server (not a general SDK/framework) and its core identity is MCP infrastructure for a specific domain.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product is an MCP server (not a general SDK/framework) and its core
+        identity is MCP infrastructure for a specific domain.
       review_reason: null
       review_resume_lifecycle: null

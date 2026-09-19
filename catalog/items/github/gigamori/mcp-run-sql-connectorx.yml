@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gigamori__mcp-run-sql-connectorx__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: gigamori/mcp-run-sql-connectorx
         extracted_url: https://github.com/gigamori/mcp-run-sql-connectorx
-        surrounding_text: "- [gigamori/mcp-run-sql-connectorx](https://github.com/gigamori/mcp-run-sql-connectorx) 🐍 ☁️ 🏠 🍎 🪟 🐧 - An MCP server that executes SQL via ConnectorX and streams the result to a CSV or Parquet file. Supports PostgreSQL, MariaDB, BigQuery, RedShift, MS SQL Server, etc."
+        surrounding_text: >-
+          - [gigamori/mcp-run-sql-connectorx](https://github.com/gigamori/mcp-run-sql-connectorx) 🐍 ☁️ 🏠 🍎 🪟 🐧 - An
+          MCP server that executes SQL via ConnectorX and streams the result to a CSV or Parquet file. Supports
+          PostgreSQL, MariaDB, BigQuery, RedShift, MS SQL Server, etc.
         confidence: high
     - id: discovery__github__gigamori__mcp-run-sql-connectorx__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +38,10 @@ provenance:
           - Community Servers
         anchor_text: run-sql-connectorx
         extracted_url: https://github.com/gigamori/mcp-run-sql-connectorx
-        surrounding_text: "- **[run-sql-connectorx](https://github.com/gigamori/mcp-run-sql-connectorx)** - Execute SQL (PostgreSQL, MariaDB, BigQuery, MS SQL Server, RedShift, etc.) via ConnectorX and stream results to CSV/Parquet. MCP tool: run_sql."
+        surrounding_text: >-
+          - **[run-sql-connectorx](https://github.com/gigamori/mcp-run-sql-connectorx)** - Execute SQL (PostgreSQL,
+          MariaDB, BigQuery, MS SQL Server, RedShift, etc.) via ConnectorX and stream results to CSV/Parquet. MCP tool:
+          run_sql.
         confidence: high
 metadata:
   github:
@@ -45,18 +51,22 @@ metadata:
     archived: false
     full_name: gigamori/mcp-run-sql-connectorx
     html_url: https://github.com/gigamori/mcp-run-sql-connectorx
-    created_at: "2025-09-02T15:04:42Z"
-    pushed_at: "2025-09-03T13:33:14Z"
-    description: An MCP server that executes SQL via ConnectorX and streams (using Arrow RecordBatch) the result to CSV or Parquet. Supports PostgreSQL, MySQL, MariaDB, SQLite, MS SQL Server, Amazon Redshift, Google BigQuery
+    created_at: '2025-09-02T15:04:42Z'
+    pushed_at: '2025-09-03T13:33:14Z'
+    description: >-
+      An MCP server that executes SQL via ConnectorX and streams (using Arrow RecordBatch) the result to CSV or Parquet.
+      Supports PostgreSQL, MySQL, MariaDB, SQLite, MS SQL Server, Amazon Redshift, Google BigQuery
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:49.726Z"
+    last_checked_at: '2026-09-03T05:16:49.726Z'
     readme:
-      fetched_at: "2026-09-03T05:16:49.726Z"
+      fetched_at: '2026-09-03T05:16:49.726Z'
       bytes: 4425
 insights:
   summary: An MCP server that executes SQL via ConnectorX and streams results to CSV or Parquet files.
-  why_it_matters: Lets developers run cross-database SQL queries from MCP-enabled assistants without loading large result sets into memory.
+  why_it_matters: >-
+    Lets developers run cross-database SQL queries from MCP-enabled assistants without loading large result sets into
+    memory.
   mental_damage: Yet another MCP server that turns your database into a file-based token accounting exercise.
   tags:
     - mcp
@@ -66,31 +76,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server first and foremost, providing database query execution as an MCP tool, matching the core identity of MCP Servers & Tooling.
+  reason: >-
+    This is an MCP server first and foremost, providing database query execution as an MCP tool, matching the core
+    identity of MCP Servers & Tooling.
   evidence:
-    - "Repo description: 'An MCP server that executes SQL via ConnectorX'"
-    - "README: defines an MCP tool 'run_sql' with arguments and example MCP call"
+    - 'Repo description: ''An MCP server that executes SQL via ConnectorX'''
+    - 'README: defines an MCP tool ''run_sql'' with arguments and example MCP call'
     - Listed in awesome-mcp-servers under Server Implementations > Databases and Community Servers
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.586Z"
+    updated_at: '2026-05-06T22:12:15.586Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:49.726Z"
+    updated_at: '2026-09-03T05:16:49.726Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:02:44.457Z"
+    updated_at: '2026-07-21T16:02:44.457Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -103,14 +116,18 @@ processing:
       input_hash: sha256:d0b10ea220d19cbaeedfb8362c42c64daef1c6d321cc9743fe985c821ef3a40f
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP server first and foremost, providing database query execution as an MCP tool, matching the core identity of MCP Servers & Tooling.
+      decision_reason: >-
+        This is an MCP server first and foremost, providing database query execution as an MCP tool, matching the core
+        identity of MCP Servers & Tooling.
       decision_evidence:
-        - "Repo description: 'An MCP server that executes SQL via ConnectorX'"
-        - "README: defines an MCP tool 'run_sql' with arguments and example MCP call"
+        - 'Repo description: ''An MCP server that executes SQL via ConnectorX'''
+        - 'README: defines an MCP tool ''run_sql'' with arguments and example MCP call'
         - Listed in awesome-mcp-servers under Server Implementations > Databases and Community Servers
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server providing core MCP functionality, not an extension augmenting another assistant with host capabilities.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server providing core MCP functionality, not an
+        extension augmenting another assistant with host capabilities.
       review_reason: null
       review_resume_lifecycle: null

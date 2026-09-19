@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__deusxmachina-dev__memorylane__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: deusXmachina-dev/memorylane
         extracted_url: https://github.com/deusxmachina-dev/memorylane
-        surrounding_text: "- [deusXmachina-dev/memorylane](https://github.com/deusXmachina-dev/memorylane) 📇 ☁️ 🏠 🍎 - Desktop app that captures screen activity via event-driven screenshots, stores AI-generated summaries and OCR text locally in SQLite, and exposes your activity history to AI assistants via MCP with semantic search, timeline browsing, and event detail retrieval."
+        surrounding_text: >-
+          - [deusXmachina-dev/memorylane](https://github.com/deusXmachina-dev/memorylane) 📇 ☁️ 🏠 🍎 - Desktop app that
+          captures screen activity via event-driven screenshots, stores AI-generated summaries and OCR text locally in
+          SQLite, and exposes your activity history to AI assistants via MCP with semantic search, timeline browsing,
+          and event detail retrieval.
         confidence: high
 metadata:
   github:
@@ -30,18 +34,22 @@ metadata:
     archived: false
     full_name: deusXmachina-dev/memorylane
     html_url: https://github.com/deusXmachina-dev/memorylane
-    created_at: "2026-02-03T09:15:03Z"
-    pushed_at: "2026-09-14T02:35:37Z"
+    created_at: '2026-02-03T09:15:03Z'
+    pushed_at: '2026-09-14T02:35:37Z'
     description: null
     homepage: https://trymemorylane.com/
     topics: []
-    last_checked_at: "2026-09-14T04:13:39.769Z"
+    last_checked_at: '2026-09-14T04:13:39.769Z'
     readme:
-      fetched_at: "2026-09-14T04:13:39.769Z"
+      fetched_at: '2026-09-14T04:13:39.769Z'
       bytes: 1989
 insights:
-  summary: A desktop app that records screen activity to build work context and surfaces automation opportunities, queryable via MCP in AI chats.
-  why_it_matters: It turns passive observation of developer workflows into structured context that can be fed into AI assistants for smarter automation suggestions.
+  summary: >-
+    A desktop app that records screen activity to build work context and surfaces automation opportunities, queryable
+    via MCP in AI chats.
+  why_it_matters: >-
+    It turns passive observation of developer workflows into structured context that can be fed into AI assistants for
+    smarter automation suggestions.
   mental_damage: Now your AI knows you spent 20 minutes renaming a variable and will judge you silently.
   tags:
     - mcp
@@ -51,31 +59,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core value is augmenting AI chats with context derived from screen observation, making it an extension rather than a standalone assistant.
+  reason: >-
+    The core value is augmenting AI chats with context derived from screen observation, making it an extension rather
+    than a standalone assistant.
   evidence:
-    - README describes it as a desktop app that builds context from screen recording and surfaces automation opportunities
+    - >-
+      README describes it as a desktop app that builds context from screen recording and surfaces automation
+      opportunities
     - Explicitly states context is queryable from any AI chat via MCP
     - Provides CLI and desktop app downloads, positioning it as a companion tool
 placement:
-  primary_category: ai-dev-extensions
-  section: Memory & Context Add-ons
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.611Z"
+    updated_at: '2026-05-06T22:12:15.611Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:39.769Z"
+    updated_at: '2026-09-14T04:13:39.769Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:50:46.370Z"
+    updated_at: '2026-07-21T15:50:46.370Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,14 +101,20 @@ processing:
       input_hash: sha256:51bba1da22c1d18afef565ef7ba4dfb903bf0409f4bc38cca119f817f46da7d3
       proposed_primary_category: ai-dev-extensions
       disagreement: false
-      decision_reason: The core value is augmenting AI chats with context derived from screen observation, making it an extension rather than a standalone assistant.
+      decision_reason: >-
+        The core value is augmenting AI chats with context derived from screen observation, making it an extension
+        rather than a standalone assistant.
       decision_evidence:
-        - README describes it as a desktop app that builds context from screen recording and surfaces automation opportunities
+        - >-
+          README describes it as a desktop app that builds context from screen recording and surfaces automation
+          opportunities
         - Explicitly states context is queryable from any AI chat via MCP
         - Provides CLI and desktop app downloads, positioning it as a companion tool
       category_candidates:
         - ai-dev-extensions
         - context-engineering
-      contrastive_reason: Choose ai-dev-extensions over context-engineering because the primary identity is the MCP-integrated desktop tool that feeds context to AI chats, not a standalone context system.
+      contrastive_reason: >-
+        Choose ai-dev-extensions over context-engineering because the primary identity is the MCP-integrated desktop
+        tool that feeds context to AI chats, not a standalone context system.
       review_reason: null
       review_resume_lifecycle: null

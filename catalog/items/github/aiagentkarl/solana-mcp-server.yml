@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aiagentkarl__solana-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: AiAgentKarl/solana-mcp-server
         extracted_url: https://github.com/aiagentkarl/solana-mcp-server
-        surrounding_text: "- [AiAgentKarl/solana-mcp-server](https://github.com/AiAgentKarl/solana-mcp-server) [![AiAgentKarl/solana-mcp-server MCP server](https://glama.ai/mcp/servers/AiAgentKarl/solana-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/AiAgentKarl/solana-mcp-server) 🐍 🏠 - Solana blockchain data for AI agents — wallet balances, token prices, DeFi yields (Raydium + Orca), and token safety checks (RugCheck scores, holder concentration, insider detection)."
+        surrounding_text: >-
+          - [AiAgentKarl/solana-mcp-server](https://github.com/AiAgentKarl/solana-mcp-server)
+          [![AiAgentKarl/solana-mcp-server MCP
+          server](https://glama.ai/mcp/servers/AiAgentKarl/solana-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/AiAgentKarl/solana-mcp-server)
+          🐍 🏠 - Solana blockchain data for AI agents — wallet balances, token prices, DeFi yields (Raydium + Orca),
+          and token safety checks (RugCheck scores, holder concentration, insider detection).
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: AiAgentKarl/solana-mcp-server
     html_url: https://github.com/AiAgentKarl/solana-mcp-server
-    created_at: "2026-03-18T11:11:19Z"
-    pushed_at: "2026-04-03T16:05:51Z"
+    created_at: '2026-03-18T11:11:19Z'
+    pushed_at: '2026-04-03T16:05:51Z'
     description: MCP-Server für Solana-Blockchain-Daten — Wallets, Token-Preise, DeFi-Yields, Sicherheitschecks
     homepage: null
     topics:
@@ -44,13 +49,17 @@ metadata:
       - mcp-server
       - solana
       - web3
-    last_checked_at: "2026-09-17T04:13:35.645Z"
+    last_checked_at: '2026-09-17T04:13:35.645Z'
     readme:
-      fetched_at: "2026-09-17T04:13:35.645Z"
+      fetched_at: '2026-09-17T04:13:35.645Z'
       bytes: 2935
 insights:
-  summary: An MCP server that provides real-time Solana blockchain data, including wallet balances, token prices, and DeFi yields, to AI agents.
-  why_it_matters: It allows developers to equip AI agents with on-chain intelligence and security tools for direct blockchain interaction and analysis.
+  summary: >-
+    An MCP server that provides real-time Solana blockchain data, including wallet balances, token prices, and DeFi
+    yields, to AI agents.
+  why_it_matters: >-
+    It allows developers to equip AI agents with on-chain intelligence and security tools for direct blockchain
+    interaction and analysis.
   mental_damage: Because now your AI agent can rug-pull you with even higher efficiency.
   tags:
     - solana
@@ -61,31 +70,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is specifically a purpose-built MCP server designed to provide domain-specific (Solana) tools to an MCP host.
+  reason: >-
+    The project is specifically a purpose-built MCP server designed to provide domain-specific (Solana) tools to an MCP
+    host.
   evidence:
     - README identifies it as an 'MCP-Server für Solana-Blockchain-Daten'
     - Provides 11 specific tools (e.g., get_wallet_balance, check_token_safety) via the Model Context Protocol
     - Includes direct configuration instructions for MCP clients
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.600Z"
+    updated_at: '2026-05-06T22:12:15.600Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:35.645Z"
+    updated_at: '2026-09-17T04:13:35.645Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:16:52.525Z"
+    updated_at: '2026-08-27T06:16:52.525Z'
     cause: null
     attempts: 4
     prompt_version: catalog-categorize-v5-single-template
@@ -98,7 +110,9 @@ processing:
       input_hash: sha256:6fb00d0a4d2fe861d126977eeca0f7e10bc0fe83e40f60511e818d267929399c
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is specifically a purpose-built MCP server designed to provide domain-specific (Solana) tools to an MCP host.
+      decision_reason: >-
+        The project is specifically a purpose-built MCP server designed to provide domain-specific (Solana) tools to an
+        MCP host.
       decision_evidence:
         - README identifies it as an 'MCP-Server für Solana-Blockchain-Daten'
         - Provides 11 specific tools (e.g., get_wallet_balance, check_token_safety) via the Model Context Protocol
@@ -106,6 +120,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is a protocol-specific server for the Model Context Protocol rather than a general-purpose host integration.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is a protocol-specific server for the
+        Model Context Protocol rather than a general-purpose host integration.
       review_reason: null
       review_resume_lifecycle: null

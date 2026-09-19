@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__ycombinator__com__companies__tusk__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,10 +19,10 @@ provenance:
           - Description
         anchor_text: Y-combinator company
         extracted_url: https://www.ycombinator.com/companies/tusk
-        surrounding_text: "- Tusk is a [Y-combinator company](https://www.ycombinator.com/companies/tusk)"
+        surrounding_text: '- Tusk is a [Y-combinator company](https://www.ycombinator.com/companies/tusk)'
         confidence: high
     - id: discovery__ycombinator__com__companies__tusk__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -35,7 +35,7 @@ provenance:
           - Description
         anchor_text: Y-combinator company
         extracted_url: https://ycombinator.com/companies/tusk
-        surrounding_text: "- Tusk is a [Y-combinator company](https://www.ycombinator.com/companies/tusk)"
+        surrounding_text: '- Tusk is a [Y-combinator company](https://www.ycombinator.com/companies/tusk)'
         confidence: high
 metadata:
   github:
@@ -53,9 +53,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Tusk is an AI agent that generates unit and integration tests for pull requests by analyzing codebase context and running suggestions in an ephemeral CI sandbox.
-  why_it_matters: It inserts autonomous test generation and validation directly into the PR workflow, aiming to increase coverage and catch regressions without manual boilerplate.
-  mental_damage: It writes the tests you sacrificed to meet the deadline, so your CI bot can discover the bug before your next high-value demo does.
+  summary: >-
+    Tusk is an AI agent that generates unit and integration tests for pull requests by analyzing codebase context and
+    running suggestions in an ephemeral CI sandbox.
+  why_it_matters: >-
+    It inserts autonomous test generation and validation directly into the PR workflow, aiming to increase coverage and
+    catch regressions without manual boilerplate.
+  mental_damage: >-
+    It writes the tests you sacrificed to meet the deadline, so your CI bot can discover the bug before your next
+    high-value demo does.
   tags:
     - test-generation
     - ci-cd
@@ -65,21 +71,28 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Tusk is a standalone AI agent that reads code, generates tests, executes them in CI, and feeds results back into the PR workflow, fitting the Coding Agents definition for testing and repair.
+  reason: >-
+    Tusk is a standalone AI agent that reads code, generates tests, executes them in CI, and feeds results back into the
+    PR workflow, fitting the Coding Agents definition for testing and repair.
   evidence:
-    - Scraped site context states it is an 'AI agent that generates unit and integration tests' and runs them in an ephemeral sandbox as a non-blocking PR check.
-    - YC launch post describes it as an autonomous agent that suggests happy-path and edge-case tests and iterates on failures, not a framework or IDE extension.
+    - >-
+      Scraped site context states it is an 'AI agent that generates unit and integration tests' and runs them in an
+      ephemeral sandbox as a non-blocking PR check.
+    - >-
+      YC launch post describes it as an autonomous agent that suggests happy-path and edge-case tests and iterates on
+      failures, not a framework or IDE extension.
     - Source list 'awesome-ai-agents' categorizes it as an AI autonomous agent for developer testing workflows.
 placement:
   primary_category: coding-agents
-  section: Review, Testing & Repair Agents
+  secondary_categories: []
+  section: Review, Testing & Repair
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-23T05:15:47.814Z"
+    updated_at: '2026-07-23T05:15:47.814Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -92,20 +105,28 @@ processing:
       input_hash: sha256:41b9041528c78a5dbbaa59b57debc37ad9e1a0d44f7dcfab92308570a4614436
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Tusk is a standalone AI agent that reads code, generates tests, executes them in CI, and feeds results back into the PR workflow, fitting the Coding Agents definition for testing and repair.
+      decision_reason: >-
+        Tusk is a standalone AI agent that reads code, generates tests, executes them in CI, and feeds results back into
+        the PR workflow, fitting the Coding Agents definition for testing and repair.
       decision_evidence:
-        - Scraped site context states it is an 'AI agent that generates unit and integration tests' and runs them in an ephemeral sandbox as a non-blocking PR check.
-        - YC launch post describes it as an autonomous agent that suggests happy-path and edge-case tests and iterates on failures, not a framework or IDE extension.
+        - >-
+          Scraped site context states it is an 'AI agent that generates unit and integration tests' and runs them in an
+          ephemeral sandbox as a non-blocking PR check.
+        - >-
+          YC launch post describes it as an autonomous agent that suggests happy-path and edge-case tests and iterates
+          on failures, not a framework or IDE extension.
         - Source list 'awesome-ai-agents' categorizes it as an AI autonomous agent for developer testing workflows.
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because Tusk operates as a standalone autonomous testing agent in CI rather than extending another assistant or editor.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because Tusk operates as a standalone autonomous testing agent in CI
+        rather than extending another assistant or editor.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.971Z"
+    updated_at: '2026-07-21T15:20:21.971Z'
     cause: null
     next_retry_at: null
   stars:

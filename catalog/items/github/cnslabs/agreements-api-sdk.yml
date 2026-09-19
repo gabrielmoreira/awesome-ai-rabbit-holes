@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cnslabs__agreements-api-sdk__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-13T05:12:52.223Z"
+      discovered_at: '2026-07-13T05:12:52.223Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🤝 <a name="agreements--coordination"></a>Agreements & Coordination
         anchor_text: CNSLabs/agreements-api-sdk
         extracted_url: https://github.com/cnslabs/agreements-api-sdk
-        surrounding_text: "- [CNSLabs/agreements-api-sdk](https://github.com/CNSLabs/agreements-api-sdk) [![CNSLabs/agreements-api-sdk MCP server](https://glama.ai/mcp/servers/CNSLabs/agreements-api-sdk/badges/score.svg)](https://glama.ai/mcp/servers/CNSLabs/agreements-api-sdk) 📇 ☁️ 🏠 - Remote Streamable HTTP and local stdio MCP server for defining, validating, deploying, and operating machine-readable agreements with EIP-712 permit preparation, signed participant inputs, state reads, and input history."
+        surrounding_text: >-
+          - [CNSLabs/agreements-api-sdk](https://github.com/CNSLabs/agreements-api-sdk) [![CNSLabs/agreements-api-sdk
+          MCP
+          server](https://glama.ai/mcp/servers/CNSLabs/agreements-api-sdk/badges/score.svg)](https://glama.ai/mcp/servers/CNSLabs/agreements-api-sdk)
+          📇 ☁️ 🏠 - Remote Streamable HTTP and local stdio MCP server for defining, validating, deploying, and
+          operating machine-readable agreements with EIP-712 permit preparation, signed participant inputs, state reads,
+          and input history.
         confidence: high
 metadata:
   github:
@@ -30,19 +36,25 @@ metadata:
     archived: false
     full_name: CNSLabs/agreements-api-sdk
     html_url: https://github.com/CNSLabs/agreements-api-sdk
-    created_at: "2026-04-22T17:55:11Z"
-    pushed_at: "2026-08-23T18:07:45Z"
+    created_at: '2026-04-22T17:55:11Z'
+    pushed_at: '2026-08-23T18:07:45Z'
     description: A client library for the agreement API
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:47.546Z"
+    last_checked_at: '2026-09-07T04:13:47.546Z'
     readme:
-      fetched_at: "2026-09-07T04:13:47.546Z"
+      fetched_at: '2026-09-07T04:13:47.546Z'
       bytes: 11023
 insights:
-  summary: A TypeScript SDK and MCP server for interacting with the Shodai Agreements API to manage machine-readable coordination workflows.
-  why_it_matters: It enables developers to integrate verifiable, stateful, and deterministic agreement workflows into agentic systems and applications.
-  mental_damage: Because clearly, the final frontier of agentic autonomy is programmatic, cryptographically-signed, multi-participant coordination logic.
+  summary: >-
+    A TypeScript SDK and MCP server for interacting with the Shodai Agreements API to manage machine-readable
+    coordination workflows.
+  why_it_matters: >-
+    It enables developers to integrate verifiable, stateful, and deterministic agreement workflows into agentic systems
+    and applications.
+  mental_damage: >-
+    Because clearly, the final frontier of agentic autonomy is programmatic, cryptographically-signed, multi-participant
+    coordination logic.
   tags:
     - typescript-sdk
     - mcp-server
@@ -51,31 +63,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The repository provides a core MCP server implementation to facilitate agreement execution via the Model Context Protocol.
+  reason: >-
+    The repository provides a core MCP server implementation to facilitate agreement execution via the Model Context
+    Protocol.
   evidence:
     - README explicitly offers a local stdio MCP server package
     - README provides a hosted MCP endpoint for remote execution
     - Directly implements MCP protocol capability for agreement lifecycles
 placement:
-  primary_category: mcp
-  section: Generic Servers & Middleware
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: API & Service Integrations
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-13T05:12:52.224Z"
+    updated_at: '2026-07-13T05:12:52.224Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:47.546Z"
+    updated_at: '2026-09-07T04:13:47.546Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-13T05:20:10.275Z"
+    updated_at: '2026-07-13T05:20:10.275Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

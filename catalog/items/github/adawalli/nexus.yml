@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__adawalli__nexus__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Nexus
         extracted_url: https://github.com/adawalli/nexus
-        surrounding_text: "- **[Nexus](https://github.com/adawalli/nexus)** - Web search server that integrates Perplexity Sonar models via OpenRouter API for real-time, context-aware search with citations"
+        surrounding_text: >-
+          - **[Nexus](https://github.com/adawalli/nexus)** - Web search server that integrates Perplexity Sonar models
+          via OpenRouter API for real-time, context-aware search with citations
         confidence: high
 metadata:
   github:
@@ -29,19 +31,25 @@ metadata:
     archived: false
     full_name: adawalli/nexus
     html_url: https://github.com/adawalli/nexus
-    created_at: "2025-06-21T01:11:33Z"
-    pushed_at: "2026-08-12T19:43:35Z"
+    created_at: '2025-06-21T01:11:33Z'
+    pushed_at: '2026-08-12T19:43:35Z'
     description: MCP Server to make searching openrouter easy
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:29.879Z"
+    last_checked_at: '2026-09-17T04:13:29.879Z'
     readme:
-      fetched_at: "2026-09-17T04:13:29.879Z"
+      fetched_at: '2026-09-17T04:13:29.879Z'
       bytes: 15476
 insights:
-  summary: An MCP server that integrates OpenRouter to provide AI-powered search capabilities via models like Perplexity Sonar and Grok.
-  why_it_matters: It allows developers to equip MCP-compatible agents like Claude Desktop or Cursor with real-time web search and training-data knowledge directly through a single API.
-  mental_damage: Because your IDE wasn't quite enough, now your agent can also browse the live web to confirm why your code is breaking.
+  summary: >-
+    An MCP server that integrates OpenRouter to provide AI-powered search capabilities via models like Perplexity Sonar
+    and Grok.
+  why_it_matters: >-
+    It allows developers to equip MCP-compatible agents like Claude Desktop or Cursor with real-time web search and
+    training-data knowledge directly through a single API.
+  mental_damage: >-
+    Because your IDE wasn't quite enough, now your agent can also browse the live web to confirm why your code is
+    breaking.
   tags:
     - mcp
     - openrouter
@@ -58,24 +66,25 @@ curation:
     - Identified as an MCP server in the awesome-mcp-servers directory
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.599Z"
+    updated_at: '2026-05-06T22:12:15.599Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:29.879Z"
+    updated_at: '2026-09-17T04:13:29.879Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:58:03.735Z"
+    updated_at: '2026-07-20T15:58:03.735Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -96,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's core identity is an MCP protocol implementation rather than a standard IDE plugin.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool's core identity is an MCP protocol implementation rather than
+        a standard IDE plugin.
       review_reason: null
       review_resume_lifecycle: null

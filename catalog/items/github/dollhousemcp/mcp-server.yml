@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dollhousemcp__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: DollhouseMCP/mcp-server
         extracted_url: https://github.com/dollhousemcp/mcp-server
-        surrounding_text: "- [DollhouseMCP/mcp-server](https://github.com/DollhouseMCP/mcp-server) [![DollhouseMCP MCP server](https://glama.ai/mcp/servers/DollhouseMCP/mcp-server/badge)](https://glama.ai/mcp/servers/DollhouseMCP/mcp-server) 📇 🏠 🍎 🪟 🐧 - One-line installable MCP server that adds reusable customization elements — personas, skills, templates, agents, memory, and ensembles (collected customization tools) — to any MCP Client application. Dynamic permissioning for safe AI operations, a robust validation architecture, versioning, and a public collection of shareable content. Install: `npx @dollhousemcp/mcp-server@latest --web`."
+        surrounding_text: >-
+          - [DollhouseMCP/mcp-server](https://github.com/DollhouseMCP/mcp-server) [![DollhouseMCP MCP
+          server](https://glama.ai/mcp/servers/DollhouseMCP/mcp-server/badge)](https://glama.ai/mcp/servers/DollhouseMCP/mcp-server)
+          📇 🏠 🍎 🪟 🐧 - One-line installable MCP server that adds reusable customization elements — personas, skills,
+          templates, agents, memory, and ensembles (collected customization tools) — to any MCP Client application.
+          Dynamic permissioning for safe AI operations, a robust validation architecture, versioning, and a public
+          collection of shareable content. Install: `npx @dollhousemcp/mcp-server@latest --web`.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: DollhouseMCP/mcp-server
     html_url: https://github.com/DollhouseMCP/mcp-server
-    created_at: "2025-07-01T17:50:56Z"
-    pushed_at: "2026-09-05T00:45:41Z"
-    description: A Free, Open Source MCP server for dynamic custom persona management with public a GitHub collection of personas, skills, templates, and other elements for AI models.
+    created_at: '2025-07-01T17:50:56Z'
+    pushed_at: '2026-09-05T00:45:41Z'
+    description: >-
+      A Free, Open Source MCP server for dynamic custom persona management with public a GitHub collection of personas,
+      skills, templates, and other elements for AI models.
     homepage: https://www.npmjs.com/package/@dollhousemcp/mcp-server
     topics:
       - agents
@@ -55,13 +63,17 @@ metadata:
       - typescript
       - vscode
       - windsurf
-    last_checked_at: "2026-09-14T04:13:42.872Z"
+    last_checked_at: '2026-09-14T04:13:42.872Z'
     readme:
-      fetched_at: "2026-09-14T04:13:42.872Z"
+      fetched_at: '2026-09-14T04:13:42.872Z'
       bytes: 27760
 insights:
-  summary: An open-source MCP server for dynamic custom persona, skill, template, and ensemble management with a public GitHub collection.
-  why_it_matters: Developers can modularly customize AI behavior by creating, editing, or activating reusable elements (personas, skills, templates) for their workflows.
+  summary: >-
+    An open-source MCP server for dynamic custom persona, skill, template, and ensemble management with a public GitHub
+    collection.
+  why_it_matters: >-
+    Developers can modularly customize AI behavior by creating, editing, or activating reusable elements (personas,
+    skills, templates) for their workflows.
   mental_damage: Now you can spend more time curating your AI’s personality than writing actual code.
   tags:
     - mcp
@@ -72,31 +84,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: it is a server providing modular AI customization via MCP protocol."
+  reason: 'MCP is the product identity: it is a server providing modular AI customization via MCP protocol.'
   evidence:
     - Repo description explicitly states it is an MCP server for persona/skill management
     - README highlights MCP compatibility and server functionality as core
     - Topics include 'mcp-server' and 'model-context-protocol'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.611Z"
+    updated_at: '2026-05-06T22:12:15.611Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:42.872Z"
+    updated_at: '2026-09-14T04:13:42.872Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:26.385Z"
+    updated_at: '2026-07-21T15:51:26.385Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -109,7 +122,7 @@ processing:
       input_hash: sha256:790bac90de5a63678dec399c5236c9573c4e0e739fa53a0ac2300fe751593be0
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: it is a server providing modular AI customization via MCP protocol."
+      decision_reason: 'MCP is the product identity: it is a server providing modular AI customization via MCP protocol.'
       decision_evidence:
         - Repo description explicitly states it is an MCP server for persona/skill management
         - README highlights MCP compatibility and server functionality as core
@@ -117,6 +130,8 @@ processing:
       category_candidates:
         - mcp
         - skills
-      contrastive_reason: Choose mcp over skills because the primary identity is an MCP server infrastructure, not just a skill pack registry.
+      contrastive_reason: >-
+        Choose mcp over skills because the primary identity is an MCP server infrastructure, not just a skill pack
+        registry.
       review_reason: null
       review_resume_lifecycle: null

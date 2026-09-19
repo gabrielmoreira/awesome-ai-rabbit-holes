@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__teleporthq__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - UI Generators
         anchor_text: TeleportHQ
         extracted_url: https://teleporthq.io
-        surrounding_text: "- **[TeleportHQ](https://teleporthq.io/)** – Generate production-ready code from visual designs."
+        surrounding_text: '- **[TeleportHQ](https://teleporthq.io/)** – Generate production-ready code from visual designs.'
         confidence: high
 metadata:
   github:
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: Low-code front-end design and development platform with AI-powered website building and visual editing capabilities.
-  why_it_matters: Enables developers and non-developers to rapidly generate, refine, and deploy static websites and UI components using AI-assisted design-to-code workflows.
-  mental_damage: Finally, a tool that lets you build websites by describing them—until you realize you still have to explain to stakeholders why the AI chose Comic Sans.
+  why_it_matters: >-
+    Enables developers and non-developers to rapidly generate, refine, and deploy static websites and UI components
+    using AI-assisted design-to-code workflows.
+  mental_damage: >-
+    Finally, a tool that lets you build websites by describing them—until you realize you still have to explain to
+    stakeholders why the AI chose Comic Sans.
   tags:
     - low-code
     - ai-website-builder
@@ -48,21 +52,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is turning prompts and visual inputs into deployable websites and UI components, fitting the prompt-to-site builder use case.
+  reason: >-
+    The product's core identity is turning prompts and visual inputs into deployable websites and UI components, fitting
+    the prompt-to-site builder use case.
   evidence:
     - Described as a 'low-code front-end design & development platform' with AI website builder capabilities
     - Primary workflow centers on prompt-driven generation of layouts, designs, and static websites
     - Source-list context places it under 'UI Generators' in a curated AI coding tools list
 placement:
   primary_category: app-builders
-  section: Prompt-to-Site Builders
+  secondary_categories: []
+  section: Site & Landing Page Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +78,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:37:50.657Z"
+    updated_at: '2026-07-21T15:37:50.657Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +91,9 @@ processing:
       input_hash: sha256:1e673e16d768527b7018cceb5e98c870aa8b421bb7f363f7b6f715e00c487a26
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The product's core identity is turning prompts and visual inputs into deployable websites and UI components, fitting the prompt-to-site builder use case.
+      decision_reason: >-
+        The product's core identity is turning prompts and visual inputs into deployable websites and UI components,
+        fitting the prompt-to-site builder use case.
       decision_evidence:
         - Described as a 'low-code front-end design & development platform' with AI website builder capabilities
         - Primary workflow centers on prompt-driven generation of layouts, designs, and static websites
@@ -92,6 +101,8 @@ processing:
       category_candidates:
         - app-builders
         - ai-dev-extensions
-      contrastive_reason: Choose app-builders over ai-dev-extensions because the product is a standalone prompt-to-site platform rather than an extension augmenting another coding tool.
+      contrastive_reason: >-
+        Choose app-builders over ai-dev-extensions because the product is a standalone prompt-to-site platform rather
+        than an extension augmenting another coding tool.
       review_reason: null
       review_resume_lifecycle: null

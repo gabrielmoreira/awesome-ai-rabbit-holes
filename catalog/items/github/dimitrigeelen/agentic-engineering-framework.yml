@@ -6,8 +6,9 @@ identity:
   github_repo: dimitrigeelen/agentic-engineering-framework
 provenance:
   discoveries:
-    - id: discovery__github__dimitrigeelen__agentic-engineering-framework__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+    - id: >-
+        discovery__github__dimitrigeelen__agentic-engineering-framework__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +21,11 @@ provenance:
           - Agent infrastructure
         anchor_text: Agentic Engineering Framework
         extracted_url: https://github.com/dimitrigeelen/agentic-engineering-framework
-        surrounding_text: "- **[Agentic Engineering Framework](https://github.com/DimitriGeelen/agentic-engineering-framework)** `⭐ 5` — Provider-neutral governance framework for CLI coding agents. Structural enforcement of task-driven workflows, context budget management, antifragile healing loops, and audit compliance. Works with Claude Code, Aider, Cursor, and any file-based agent."
+        surrounding_text: >-
+          - **[Agentic Engineering Framework](https://github.com/DimitriGeelen/agentic-engineering-framework)** `⭐ 5` —
+          Provider-neutral governance framework for CLI coding agents. Structural enforcement of task-driven workflows,
+          context budget management, antifragile healing loops, and audit compliance. Works with Claude Code, Aider,
+          Cursor, and any file-based agent.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: DimitriGeelen/agentic-engineering-framework
     html_url: https://github.com/DimitriGeelen/agentic-engineering-framework
-    created_at: "2026-03-03T20:57:30Z"
-    pushed_at: "2026-09-07T21:22:55Z"
-    description: Governance framework for AI coding agents — enforces task traceability, structural gates, session continuity, and audit trails for Claude Code, Cursor, and Copilot.
+    created_at: '2026-03-03T20:57:30Z'
+    pushed_at: '2026-09-07T21:22:55Z'
+    description: >-
+      Governance framework for AI coding agents — enforces task traceability, structural gates, session continuity, and
+      audit trails for Claude Code, Cursor, and Copilot.
     homepage: null
     topics:
       - agentic-ai
@@ -55,13 +62,17 @@ metadata:
       - software-engineering
       - task-management
       - workflow-automation
-    last_checked_at: "2026-09-14T04:13:40.828Z"
+    last_checked_at: '2026-09-14T04:13:40.828Z'
     readme:
-      fetched_at: "2026-09-14T04:13:40.828Z"
+      fetched_at: '2026-09-14T04:13:40.828Z'
       bytes: 38842
 insights:
-  summary: Governance framework for AI coding agents that enforces task traceability, structural gates, session continuity, and audit trails for tools like Claude Code, Cursor, and Copilot.
-  why_it_matters: It prevents AI agents from making destructive or untraceable changes by enforcing mandatory task gates, blocking risky commands, and maintaining audit trails.
+  summary: >-
+    Governance framework for AI coding agents that enforces task traceability, structural gates, session continuity, and
+    audit trails for tools like Claude Code, Cursor, and Copilot.
+  why_it_matters: >-
+    It prevents AI agents from making destructive or untraceable changes by enforcing mandatory task gates, blocking
+    risky commands, and maintaining audit trails.
   mental_damage: Finally, a way to stop your AI from force-pushing to main while you’re in the bathroom.
   tags:
     - governance
@@ -72,31 +83,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool augments existing coding agents (Claude Code, Cursor, Copilot) with governance, enforcement, and audit capabilities rather than acting as a standalone coding assistant.
+  reason: >-
+    The tool augments existing coding agents (Claude Code, Cursor, Copilot) with governance, enforcement, and audit
+    capabilities rather than acting as a standalone coding assistant.
   evidence:
     - Repo description explicitly states it is a governance framework for AI coding agents
     - README demonstrates enforcement via pre-operation hooks for Claude Code and git hooks for others
     - Source-list context places it under 'Agent infrastructure' in a curated CLI coding agents directory
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: Claude Code & Agent Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.611Z"
+    updated_at: '2026-05-06T22:12:15.611Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:40.828Z"
+    updated_at: '2026-09-14T04:13:40.828Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:04.435Z"
+    updated_at: '2026-07-21T15:51:04.435Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -109,7 +123,9 @@ processing:
       input_hash: sha256:5eadd36aebddd8e91db2134dabbb1cb07a8a73330715012c00a4c18576016959
       proposed_primary_category: ai-dev-extensions
       disagreement: false
-      decision_reason: The tool augments existing coding agents (Claude Code, Cursor, Copilot) with governance, enforcement, and audit capabilities rather than acting as a standalone coding assistant.
+      decision_reason: >-
+        The tool augments existing coding agents (Claude Code, Cursor, Copilot) with governance, enforcement, and audit
+        capabilities rather than acting as a standalone coding assistant.
       decision_evidence:
         - Repo description explicitly states it is a governance framework for AI coding agents
         - README demonstrates enforcement via pre-operation hooks for Claude Code and git hooks for others
@@ -117,6 +133,8 @@ processing:
       category_candidates:
         - ai-dev-extensions
         - ai-frameworks
-      contrastive_reason: Choose ai-dev-extensions over ai-frameworks because the core value is augmenting existing agents with governance layers rather than providing a code-first SDK or library.
+      contrastive_reason: >-
+        Choose ai-dev-extensions over ai-frameworks because the core value is augmenting existing agents with governance
+        layers rather than providing a code-first SDK or library.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__convertica-net__convertica-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-23T05:08:37.088Z"
+      discovered_at: '2026-07-23T05:08:37.088Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 📂 <a name="file-systems"></a>File Systems
         anchor_text: convertica-net/convertica-mcp
         extracted_url: https://github.com/convertica-net/convertica-mcp
-        surrounding_text: "- [convertica-net/convertica-mcp](https://github.com/convertica-net/convertica-mcp) [![convertica-net/convertica-mcp MCP server](https://glama.ai/mcp/servers/convertica-net/convertica-mcp/badges/score.svg)](https://glama.ai/mcp/servers/convertica-net/convertica-mcp) 📇 ☁️ - Convert PDF ⇄ Word, Excel, PowerPoint, JPG, HTML, Markdown, EPUB and PDF/A, plus merge, split, compress, watermark, sign, and protect PDFs, and convert images (HEIC, WebP) — 35+ tools from convertica.net. Zero-config via `npx convertica-mcp`."
+        surrounding_text: >-
+          - [convertica-net/convertica-mcp](https://github.com/convertica-net/convertica-mcp)
+          [![convertica-net/convertica-mcp MCP
+          server](https://glama.ai/mcp/servers/convertica-net/convertica-mcp/badges/score.svg)](https://glama.ai/mcp/servers/convertica-net/convertica-mcp)
+          📇 ☁️ - Convert PDF ⇄ Word, Excel, PowerPoint, JPG, HTML, Markdown, EPUB and PDF/A, plus merge, split,
+          compress, watermark, sign, and protect PDFs, and convert images (HEIC, WebP) — 35+ tools from convertica.net.
+          Zero-config via `npx convertica-mcp`.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: convertica-net/convertica-mcp
     html_url: https://github.com/convertica-net/convertica-mcp
-    created_at: "2026-07-17T18:27:15Z"
-    pushed_at: "2026-07-24T20:25:08Z"
-    description: "MCP server for convertica.net: convert PDF, Word, Excel, PowerPoint, EPUB, HEIC and images from Claude, Cursor or any MCP client"
+    created_at: '2026-07-17T18:27:15Z'
+    pushed_at: '2026-07-24T20:25:08Z'
+    description: >-
+      MCP server for convertica.net: convert PDF, Word, Excel, PowerPoint, EPUB, HEIC and images from Claude, Cursor or
+      any MCP client
     homepage: https://convertica.net/api/
     topics:
       - ai-tools
@@ -46,14 +54,18 @@ metadata:
       - model-context-protocol
       - pdf
       - pdf-converter
-    last_checked_at: "2026-09-14T04:13:29.385Z"
+    last_checked_at: '2026-09-14T04:13:29.385Z'
     readme:
-      fetched_at: "2026-09-14T04:13:29.385Z"
+      fetched_at: '2026-09-14T04:13:29.385Z'
       bytes: 4159
 insights:
   summary: MCP server that exposes Convertica's 35+ document and image conversion tools to Claude, Cursor, or any MCP client.
-  why_it_matters: Lets developers trigger file conversions (PDF↔Word/Excel/PPT, HEIC→JPG, etc.) directly from their AI assistant without leaving the workflow.
-  mental_damage: Now your AI assistant can finally convert that HEIC to JPG for you, because of course the one file format that refuses to die is the one your tools won’t touch.
+  why_it_matters: >-
+    Lets developers trigger file conversions (PDF↔Word/Excel/PPT, HEIC→JPG, etc.) directly from their AI assistant
+    without leaving the workflow.
+  mental_damage: >-
+    Now your AI assistant can finally convert that HEIC to JPG for you, because of course the one file format that
+    refuses to die is the one your tools won’t touch.
   tags:
     - mcp-server
     - file-conversion
@@ -63,31 +75,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server exposing a conversion service to MCP clients."
+  reason: 'MCP is the product identity: this is a dedicated MCP server exposing a conversion service to MCP clients.'
   evidence:
     - Repo description explicitly states it is an MCP server for convertica.net
     - README details MCP tools (list_converters, convert_file) and setup for Claude/Cursor/Windsurf
     - Listed in MCP Registry (glama.ai badge)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-23T05:08:37.090Z"
+    updated_at: '2026-07-23T05:08:37.090Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:29.385Z"
+    updated_at: '2026-09-14T04:13:29.385Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T09:23:40.536Z"
+    updated_at: '2026-08-27T09:23:40.536Z'
     cause: null
     next_retry_at: null
     classification:
@@ -97,7 +110,7 @@ processing:
       input_hash: sha256:11961730a0dac3943da0eb060d12d72b74e8976ec7eb955aa3af673db29fd289
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing a conversion service to MCP clients."
+      decision_reason: 'MCP is the product identity: this is a dedicated MCP server exposing a conversion service to MCP clients.'
       decision_evidence:
         - Repo description explicitly states it is an MCP server for convertica.net
         - README details MCP tools (list_converters, convert_file) and setup for Claude/Cursor/Windsurf
@@ -105,7 +118,9 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not merely an extension for another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

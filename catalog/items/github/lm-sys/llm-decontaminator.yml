@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lm-sys__llm-decontaminator__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 数据 Data
         anchor_text: LLM Decontaminator
         extracted_url: https://github.com/lm-sys/llm-decontaminator
-        surrounding_text: "11. [LLM Decontaminator](https://github.com/lm-sys/llm-decontaminator): Rethinking Benchmark and Contamination for Language Models with Rephrased Samples."
+        surrounding_text: >-
+          11. [LLM Decontaminator](https://github.com/lm-sys/llm-decontaminator): Rethinking Benchmark and Contamination
+          for Language Models with Rephrased Samples.
         confidence: high
 metadata:
   github:
@@ -29,19 +31,25 @@ metadata:
     archived: false
     full_name: lm-sys/llm-decontaminator
     html_url: https://github.com/lm-sys/llm-decontaminator
-    created_at: "2023-10-17T04:06:33Z"
-    pushed_at: "2023-12-20T22:33:26Z"
+    created_at: '2023-10-17T04:06:33Z'
+    pushed_at: '2023-12-20T22:33:26Z'
     description: Code for the paper "Rethinking Benchmark and Contamination for Language Models with Rephrased Samples"
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:06:07.311Z"
+    last_checked_at: '2026-07-30T05:06:07.311Z'
     readme:
-      fetched_at: "2026-07-30T05:06:07.311Z"
+      fetched_at: '2026-07-30T05:06:07.311Z'
       bytes: 4220
 insights:
-  summary: A research toolkit for detecting and removing rephrased benchmark samples from LLM training datasets to prevent data contamination.
-  why_it_matters: It gives LLM developers and researchers a concrete way to measure and scrub benchmark contamination, helping keep model eval results honest.
-  mental_damage: Because nothing says modern ML engineering like spending more time sanitizing your training set than actually training the model.
+  summary: >-
+    A research toolkit for detecting and removing rephrased benchmark samples from LLM training datasets to prevent data
+    contamination.
+  why_it_matters: >-
+    It gives LLM developers and researchers a concrete way to measure and scrub benchmark contamination, helping keep
+    model eval results honest.
+  mental_damage: >-
+    Because nothing says modern ML engineering like spending more time sanitizing your training set than actually
+    training the model.
   tags:
     - benchmark
     - contamination
@@ -51,35 +59,42 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core job is measuring and quantifying dataset contamination against benchmarks, which fits directly under eval tooling for developers building or evaluating models.
+  reason: >-
+    The core job is measuring and quantifying dataset contamination against benchmarks, which fits directly under eval
+    tooling for developers building or evaluating models.
   evidence:
-    - "Repo description: 'Code for the paper Rethinking Benchmark and Contamination for Language Models with Rephrased Samples'"
-    - "README: 'use LLM decontaminator to quantify a dataset's rephrased samples relative to a benchmark' and 'remove them from the training set'"
+    - >-
+      Repo description: 'Code for the paper Rethinking Benchmark and Contamination for Language Models with Rephrased
+      Samples'
+    - >-
+      README: 'use LLM decontaminator to quantify a dataset's rephrased samples relative to a benchmark' and 'remove
+      them from the training set'
     - Active in late 2023 with the last push in December 2023, not archived
 placement:
   primary_category: evals
-  section: Agent Benchmarks
+  secondary_categories: []
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: promotion_candidate
   reason: Stars (321) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: '2026-05-06T22:12:15.627Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:07.311Z"
+    updated_at: '2026-07-30T05:06:07.311Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

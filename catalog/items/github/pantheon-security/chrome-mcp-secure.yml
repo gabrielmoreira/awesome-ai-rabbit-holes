@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pantheon-security__chrome-mcp-secure__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: Pantheon-Security/chrome-mcp-secure
         extracted_url: https://github.com/pantheon-security/chrome-mcp-secure
-        surrounding_text: "- [Pantheon-Security/chrome-mcp-secure](https://github.com/Pantheon-Security/chrome-mcp-secure) 📇 🏠 🍎 🪟 🐧 - Security-hardened Chrome automation with post-quantum encryption (ML-KEM-768 + ChaCha20-Poly1305), secure credential vault, memory scrubbing, and audit logging. 22 tools for browser automation and secure logins."
+        surrounding_text: >-
+          - [Pantheon-Security/chrome-mcp-secure](https://github.com/Pantheon-Security/chrome-mcp-secure) 📇 🏠 🍎 🪟 🐧
+          - Security-hardened Chrome automation with post-quantum encryption (ML-KEM-768 + ChaCha20-Poly1305), secure
+          credential vault, memory scrubbing, and audit logging. 22 tools for browser automation and secure logins.
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: Pantheon-Security/chrome-mcp-secure
     html_url: https://github.com/Pantheon-Security/chrome-mcp-secure
-    created_at: "2025-12-11T05:31:44Z"
-    pushed_at: "2026-01-23T21:05:27Z"
+    created_at: '2025-12-11T05:31:44Z'
+    pushed_at: '2026-01-23T21:05:27Z'
     description: Secure ChromeMCP Server - Query and Debugging sites using Google Chrome with additional security hardening layers
     homepage: null
     topics:
@@ -49,14 +52,20 @@ metadata:
       - post-quantum
       - security
       - typescript
-    last_checked_at: "2026-07-20T16:42:30.550Z"
+    last_checked_at: '2026-07-20T16:42:30.550Z'
     readme:
-      fetched_at: "2026-07-20T16:42:30.550Z"
+      fetched_at: '2026-07-20T16:42:30.550Z'
       bytes: 20185
 insights:
-  summary: A security-hardened fork of Chrome MCP that gives AI agents compliant, audit-ready access to Google Chrome for browser automation with post-quantum encryption and SIEM integration.
-  why_it_matters: Developers building AI agents that interact with browsers in enterprise environments can adopt this MCP server to meet SOC 2, GDPR, and PCI DSS requirements without rolling their own audit logging.
-  mental_damage: We have reached the point where our AI agents need post-quantum encryption and hash-chained audit logs just to click buttons in Chrome, because apparently the browser automation apocalypse must be compliance-ready.
+  summary: >-
+    A security-hardened fork of Chrome MCP that gives AI agents compliant, audit-ready access to Google Chrome for
+    browser automation with post-quantum encryption and SIEM integration.
+  why_it_matters: >-
+    Developers building AI agents that interact with browsers in enterprise environments can adopt this MCP server to
+    meet SOC 2, GDPR, and PCI DSS requirements without rolling their own audit logging.
+  mental_damage: >-
+    We have reached the point where our AI agents need post-quantum encryption and hash-chained audit logs just to click
+    buttons in Chrome, because apparently the browser automation apocalypse must be compliance-ready.
   tags:
     - mcp
     - browser-automation
@@ -66,35 +75,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is a Model Context Protocol server for Chrome automation, and it is already recognized in the awesome-mcp-servers list under Browser Automation.
+  reason: >-
+    The product's primary identity is a Model Context Protocol server for Chrome automation, and it is already
+    recognized in the awesome-mcp-servers list under Browser Automation.
   evidence:
     - Repo description explicitly states 'Secure ChromeMCP Server' with MCP listed as a core topic.
     - README identifies it as an MCP server with 'MCP-2025' badge and positions it as a fork of lxe/chrome-mcp.
     - Listed in awesome-mcp-servers under Server Implementations > Browser Automation.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.641Z"
+    updated_at: '2026-05-06T22:12:15.641Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:30.550Z"
+    updated_at: '2026-07-20T16:42:30.550Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

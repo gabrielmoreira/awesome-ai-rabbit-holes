@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__vrsen__agency-swarm__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -20,7 +20,9 @@ provenance:
           - Multi-Agent Orchestration Frameworks
         anchor_text: agency-swarm
         extracted_url: https://github.com/vrsen/agency-swarm
-        surrounding_text: "| [agency-swarm](https://github.com/VRSEN/agency-swarm) | Reliable multi-agent orchestration framework | ![Stars](https://img.shields.io/github/stars/VRSEN/agency-swarm) |"
+        surrounding_text: >-
+          | [agency-swarm](https://github.com/VRSEN/agency-swarm) | Reliable multi-agent orchestration framework |
+          ![Stars](https://img.shields.io/github/stars/VRSEN/agency-swarm) |
         confidence: high
 metadata:
   github:
@@ -30,19 +32,25 @@ metadata:
     archived: false
     full_name: VRSEN/agency-swarm
     html_url: https://github.com/VRSEN/agency-swarm
-    created_at: "2023-11-16T02:29:26Z"
-    pushed_at: "2026-07-19T17:02:28Z"
+    created_at: '2023-11-16T02:29:26Z'
+    pushed_at: '2026-07-19T17:02:28Z'
     description: Reliable Multi-Agent Orchestration Framework
     homepage: https://agency-swarm.ai/
     topics: []
-    last_checked_at: "2026-07-21T15:21:08.677Z"
+    last_checked_at: '2026-07-21T15:21:08.677Z'
     readme:
-      fetched_at: "2026-07-21T15:21:08.677Z"
+      fetched_at: '2026-07-21T15:21:08.677Z'
       bytes: 10796
 insights:
-  summary: A Python framework for building multi-agent applications that extends the OpenAI Agents SDK with customizable agent roles, type-safe tools, and structured inter-agent communication flows.
-  why_it_matters: It lets developers model multi-agent workflows after real-world corporate hierarchies (CEO, Developer, Virtual Assistant) while maintaining full control over prompts and enabling production-grade orchestration.
-  mental_damage: Finally, a framework that lets you replicate corporate middle-management structures inside your codebase, because what your automation pipeline really needed was a CEO agent to ask for status updates from the Developer agent.
+  summary: >-
+    A Python framework for building multi-agent applications that extends the OpenAI Agents SDK with customizable agent
+    roles, type-safe tools, and structured inter-agent communication flows.
+  why_it_matters: >-
+    It lets developers model multi-agent workflows after real-world corporate hierarchies (CEO, Developer, Virtual
+    Assistant) while maintaining full control over prompts and enabling production-grade orchestration.
+  mental_damage: >-
+    Finally, a framework that lets you replicate corporate middle-management structures inside your codebase, because
+    what your automation pipeline really needed was a CEO agent to ask for status updates from the Developer agent.
   tags:
     - multi-agent
     - orchestration
@@ -52,31 +60,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a code-first Python framework extending the OpenAI Agents SDK for building multi-agent applications, fitting the Frameworks & SDKs category identity.
+  reason: >-
+    It is a code-first Python framework extending the OpenAI Agents SDK for building multi-agent applications, fitting
+    the Frameworks & SDKs category identity.
   evidence:
     - Repo describes itself as a framework for building multi-agent applications with pip install import pattern
     - Extends OpenAI Agents SDK with structured orchestration layers and type-safe tools
     - 4,362 stars and actively maintained (last pushed 2026-05-11)
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  secondary_categories: []
+  section: Multi-Agent Systems
 lifecycle:
   status: promotion_candidate
   reason: Stars (4362) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.655Z"
+    updated_at: '2026-05-06T22:12:15.655Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:08.677Z"
+    updated_at: '2026-07-21T15:21:08.677Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-18T05:32:57.517Z"
+    updated_at: '2026-05-18T05:32:57.517Z'
     cause: null
     next_retry_at: null
     attempts: 3

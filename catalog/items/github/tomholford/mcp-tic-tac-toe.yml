@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tomholford__mcp-tic-tac-toe__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: tomholford/mcp-tic-tac-toe
         extracted_url: https://github.com/tomholford/mcp-tic-tac-toe
-        surrounding_text: "- [tomholford/mcp-tic-tac-toe](https://github.com/tomholford/mcp-tic-tac-toe) 🏎️ 🏠 - Play Tic Tac Toe against an AI opponent using this MCP server."
+        surrounding_text: >-
+          - [tomholford/mcp-tic-tac-toe](https://github.com/tomholford/mcp-tic-tac-toe) 🏎️ 🏠 - Play Tic Tac Toe
+          against an AI opponent using this MCP server.
         confidence: high
 metadata:
   github:
@@ -30,10 +32,10 @@ metadata:
     archived: false
     full_name: tomholford/mcp-tic-tac-toe
     html_url: https://github.com/tomholford/mcp-tic-tac-toe
-    created_at: "2025-07-11T06:26:17Z"
-    pushed_at: "2025-07-11T07:13:38Z"
+    created_at: '2025-07-11T06:26:17Z'
+    pushed_at: '2025-07-11T07:13:38Z'
     description: Play tic-tac-toe against an LLM via MCP
-    homepage: ""
+    homepage: ''
     topics:
       - game
       - go
@@ -41,14 +43,18 @@ metadata:
       - mcp
       - mcp-server
       - tic-tac-toe
-    last_checked_at: "2026-07-21T15:20:52.472Z"
+    last_checked_at: '2026-07-21T15:20:52.472Z'
     readme:
-      fetched_at: "2026-07-21T15:20:52.472Z"
+      fetched_at: '2026-07-21T15:20:52.472Z'
       bytes: 5554
 insights:
   summary: A minimal MCP server written in Go that lets AI assistants play tic-tac-toe through standardized tool interfaces.
-  why_it_matters: It serves as a lightweight reference implementation for developers exploring how to expose game or interactive logic as MCP tools.
-  mental_damage: We have finally bridged the gap between large language models and the most computationally intensive game of the 1970s.
+  why_it_matters: >-
+    It serves as a lightweight reference implementation for developers exploring how to expose game or interactive logic
+    as MCP tools.
+  mental_damage: >-
+    We have finally bridged the gap between large language models and the most computationally intensive game of the
+    1970s.
   tags:
     - mcp
     - go
@@ -57,35 +63,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The project is an MCP server with MCP as its primary identity, fitting cleanly into the Domain Servers section of MCP Servers & Tooling.
+  reason: >-
+    The project is an MCP server with MCP as its primary identity, fitting cleanly into the Domain Servers section of
+    MCP Servers & Tooling.
   evidence:
-    - "Repo description: 'Play tic-tac-toe against an LLM via MCP'"
-    - "README states: 'A Model Context Protocol (MCP) server that enables AI assistants to play tic-tac-toe'"
+    - 'Repo description: ''Play tic-tac-toe against an LLM via MCP'''
+    - 'README states: ''A Model Context Protocol (MCP) server that enables AI assistants to play tic-tac-toe'''
     - Listed in awesome-mcp-servers under 'Server Implementations > Gaming'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.652Z"
+    updated_at: '2026-05-06T22:12:15.652Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:52.472Z"
+    updated_at: '2026-07-21T15:20:52.472Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

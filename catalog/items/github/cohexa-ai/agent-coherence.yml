@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cohexa-ai__agent-coherence__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-27T05:20:52.308Z"
+      discovered_at: '2026-07-27T05:20:52.308Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📂 <a name="file-systems"></a>File Systems
         anchor_text: Cohexa-ai/agent-coherence
         extracted_url: https://github.com/cohexa-ai/agent-coherence
-        surrounding_text: "- [Cohexa-ai/agent-coherence](https://github.com/Cohexa-ai/agent-coherence) [![Cohexa-ai/agent-coherence MCP server](https://glama.ai/mcp/servers/Cohexa-ai/agent-coherence/badges/score.svg)](https://glama.ai/mcp/servers/Cohexa-ai/agent-coherence) 🐍 🏠 - Coherence guard for shared files: when two agents write the same file, the stale writer is denied instead of silently overwriting, then reacquires and retries. Single-host, TLA+-verified. Install: `uvx --from \"agent-coherence[mcp]\" stale-write-guard-fs`."
+        surrounding_text: >-
+          - [Cohexa-ai/agent-coherence](https://github.com/Cohexa-ai/agent-coherence) [![Cohexa-ai/agent-coherence MCP
+          server](https://glama.ai/mcp/servers/Cohexa-ai/agent-coherence/badges/score.svg)](https://glama.ai/mcp/servers/Cohexa-ai/agent-coherence)
+          🐍 🏠 - Coherence guard for shared files: when two agents write the same file, the stale writer is denied
+          instead of silently overwriting, then reacquires and retries. Single-host, TLA+-verified. Install: `uvx --from
+          "agent-coherence[mcp]" stale-write-guard-fs`.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: Cohexa-ai/agent-coherence
     html_url: https://github.com/Cohexa-ai/agent-coherence
-    created_at: "2026-03-04T13:43:03Z"
-    pushed_at: "2026-09-06T10:03:20Z"
+    created_at: '2026-03-04T13:43:03Z'
+    pushed_at: '2026-09-06T10:03:20Z'
     description: The coordination layer for Multiplayer AI
     homepage: https://agent-coherence.dev/
     topics:
@@ -46,13 +51,17 @@ metadata:
       - python
       - state-synchronization
       - token-efficiency
-    last_checked_at: "2026-09-07T04:13:49.725Z"
+    last_checked_at: '2026-09-07T04:13:49.725Z'
     readme:
-      fetched_at: "2026-09-07T04:13:49.725Z"
+      fetched_at: '2026-09-07T04:13:49.725Z'
       bytes: 43402
 insights:
-  summary: A vendor-neutral coordination layer for multi-agent systems that prevents silent state clobbering via MESI-style concurrency control.
-  why_it_matters: It solves the silent lost-update problem in multi-agent workflows by enforcing coherence invariants on shared artifacts like plans, memories, or store keys.
+  summary: >-
+    A vendor-neutral coordination layer for multi-agent systems that prevents silent state clobbering via MESI-style
+    concurrency control.
+  why_it_matters: >-
+    It solves the silent lost-update problem in multi-agent workflows by enforcing coherence invariants on shared
+    artifacts like plans, memories, or store keys.
   mental_damage: Finally, a way to stop your agents from gaslighting each other about who updated the plan last.
   tags:
     - multi-agent
@@ -63,31 +72,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a code-first library/SDK for embedding coherence into multi-agent systems, not an operated platform or thin extension.
+  reason: >-
+    The product is a code-first library/SDK for embedding coherence into multi-agent systems, not an operated platform
+    or thin extension.
   evidence:
-    - "Repo description: 'The coordination layer for Multiplayer AI'"
-    - "README: vendor-neutral MESI + optimistic-concurrency coordinator for agent state, with adapters for LangGraph, CrewAI, AutoGen, etc."
+    - 'Repo description: ''The coordination layer for Multiplayer AI'''
+    - >-
+      README: vendor-neutral MESI + optimistic-concurrency coordinator for agent state, with adapters for LangGraph,
+      CrewAI, AutoGen, etc.
     - Installable via PyPI as a library with framework-specific extras
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  secondary_categories: []
+  section: Multi-Agent Systems
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-27T05:20:52.309Z"
+    updated_at: '2026-07-27T05:20:52.309Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:49.725Z"
+    updated_at: '2026-09-07T04:13:49.725Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:09:48.653Z"
+    updated_at: '2026-08-27T06:09:48.653Z'
     cause: null
     next_retry_at: null
     classification:
@@ -97,15 +111,21 @@ processing:
       input_hash: sha256:d8613402565e0b669d4405480fda40d1c2b3c699e8b6d26cf6033c55019e88b7
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: The product is a code-first library/SDK for embedding coherence into multi-agent systems, not an operated platform or thin extension.
+      decision_reason: >-
+        The product is a code-first library/SDK for embedding coherence into multi-agent systems, not an operated
+        platform or thin extension.
       decision_evidence:
-        - "Repo description: 'The coordination layer for Multiplayer AI'"
-        - "README: vendor-neutral MESI + optimistic-concurrency coordinator for agent state, with adapters for LangGraph, CrewAI, AutoGen, etc."
+        - 'Repo description: ''The coordination layer for Multiplayer AI'''
+        - >-
+          README: vendor-neutral MESI + optimistic-concurrency coordinator for agent state, with adapters for LangGraph,
+          CrewAI, AutoGen, etc.
         - Installable via PyPI as a library with framework-specific extras
       category_candidates:
         - ai-frameworks
         - agent-orchestration
-      contrastive_reason: Choose ai-frameworks over agent-orchestration because the product is a code-first library/SDK for embedding into agent systems, not an operated workbench or control plane.
+      contrastive_reason: >-
+        Choose ai-frameworks over agent-orchestration because the product is a code-first library/SDK for embedding into
+        agent systems, not an operated workbench or control plane.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

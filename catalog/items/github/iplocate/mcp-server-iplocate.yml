@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__iplocate__mcp-server-iplocate__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 🗺️ <a name="location-services"></a>Location Services
         anchor_text: iplocate/mcp-server-iplocate
         extracted_url: https://github.com/iplocate/mcp-server-iplocate
-        surrounding_text: "- [iplocate/mcp-server-iplocate](https://github.com/iplocate/mcp-server-iplocate) 🎖️ 📇 🏠  - Look up IP address geolocation, network information, detect proxies and VPNs, and find abuse contact details using IPLocate.io"
+        surrounding_text: >-
+          - [iplocate/mcp-server-iplocate](https://github.com/iplocate/mcp-server-iplocate) 🎖️ 📇 🏠  - Look up IP
+          address geolocation, network information, detect proxies and VPNs, and find abuse contact details using
+          IPLocate.io
         confidence: high
     - id: discovery__github__iplocate__mcp-server-iplocate__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,10 +38,12 @@ provenance:
           - Official Servers
         anchor_text: IPLocate
         extracted_url: https://github.com/iplocate/mcp-server-iplocate
-        surrounding_text: "- **[IPLocate](https://github.com/iplocate/mcp-server-iplocate)** - Look up IP address geolocation, network information, detect proxies and VPNs, and find abuse contact details using IPLocate.io"
+        surrounding_text: >-
+          - **[IPLocate](https://github.com/iplocate/mcp-server-iplocate)** - Look up IP address geolocation, network
+          information, detect proxies and VPNs, and find abuse contact details using IPLocate.io
         confidence: high
     - id: discovery__github__iplocate__mcp-server-iplocate__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -48,9 +53,13 @@ provenance:
         mode: parsed
         section_path:
           - 🗺️ Location Services
-        anchor_text: "@iplocate/mcp-server"
+        anchor_text: '@iplocate/mcp-server'
         extracted_url: https://github.com/iplocate/mcp-server-iplocate
-        surrounding_text: "-   **[@iplocate/mcp-server](https://github.com/iplocate/mcp-server-iplocate)** [![GitHub stars](https://img.shields.io/github/stars/iplocate/mcp-server-iplocate?style=social)](https://github.com/iplocate/mcp-server-iplocate): Look up IP address geolocation, network information, detect proxies and VPNs, and find abuse contact details using IPLocate.io"
+        surrounding_text: >-
+          -   **[@iplocate/mcp-server](https://github.com/iplocate/mcp-server-iplocate)** [![GitHub
+          stars](https://img.shields.io/github/stars/iplocate/mcp-server-iplocate?style=social)](https://github.com/iplocate/mcp-server-iplocate):
+          Look up IP address geolocation, network information, detect proxies and VPNs, and find abuse contact details
+          using IPLocate.io
         confidence: high
 metadata:
   github:
@@ -60,18 +69,24 @@ metadata:
     archived: false
     full_name: iplocate/mcp-server-iplocate
     html_url: https://github.com/iplocate/mcp-server-iplocate
-    created_at: "2025-06-29T20:19:07Z"
-    pushed_at: "2025-06-29T22:21:13Z"
-    description: MCP server for looking up IP address geolocation (IP to country, IP to city), network information, proxy and VPN detection, abuse contacts, and more - using the IPLocate.io API.
-    homepage: ""
+    created_at: '2025-06-29T20:19:07Z'
+    pushed_at: '2025-06-29T22:21:13Z'
+    description: >-
+      MCP server for looking up IP address geolocation (IP to country, IP to city), network information, proxy and VPN
+      detection, abuse contacts, and more - using the IPLocate.io API.
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:05:44.794Z"
+    last_checked_at: '2026-07-30T05:05:44.794Z'
     readme:
-      fetched_at: "2026-07-30T05:05:44.794Z"
+      fetched_at: '2026-07-30T05:05:44.794Z'
       bytes: 9463
 insights:
-  summary: MCP server for IP address geolocation, network info, proxy/VPN detection, and abuse contacts via the IPLocate.io API.
-  why_it_matters: Lets developers query IP intelligence directly from MCP-compatible clients like Cursor or Claude Desktop without leaving their workflow.
+  summary: >-
+    MCP server for IP address geolocation, network info, proxy/VPN detection, and abuse contacts via the IPLocate.io
+    API.
+  why_it_matters: >-
+    Lets developers query IP intelligence directly from MCP-compatible clients like Cursor or Claude Desktop without
+    leaving their workflow.
   mental_damage: Now your AI assistant can judge your users by their IP addresses too.
   tags:
     - mcp
@@ -81,31 +96,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server providing IP intelligence tools."
+  reason: 'MCP is the product identity: this is a dedicated MCP server providing IP intelligence tools.'
   evidence:
     - Repo description explicitly identifies it as an MCP server for IPLocate.io
     - README details MCP client configuration (Cursor, Claude Desktop, VS Code) and MCP-specific tools/prompts
     - Already listed in two MCP-focused awesome lists under Location Services/Official Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.578Z"
+    updated_at: '2026-05-06T22:12:15.578Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:44.794Z"
+    updated_at: '2026-07-30T05:05:44.794Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:08:35.202Z"
+    updated_at: '2026-07-21T16:08:35.202Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -118,7 +134,7 @@ processing:
       input_hash: sha256:6e7045bc87bd291c1dd09cc16dcff0ba96d4a4e3eaa09687d7e055bb614abcf1
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server providing IP intelligence tools."
+      decision_reason: 'MCP is the product identity: this is a dedicated MCP server providing IP intelligence tools.'
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server for IPLocate.io
         - README details MCP client configuration (Cursor, Claude Desktop, VS Code) and MCP-specific tools/prompts
@@ -126,6 +142,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server providing domain-specific tools, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server providing domain-specific tools,
+        not an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

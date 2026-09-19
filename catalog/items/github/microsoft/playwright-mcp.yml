@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__microsoft__playwright-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: microsoft/playwright-mcp
         extracted_url: https://github.com/microsoft/playwright-mcp
-        surrounding_text: "- [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) - Official Microsoft Playwright MCP server, enabling LLMs to interact with web pages through structured accessibility snapshots"
+        surrounding_text: >-
+          - [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) - Official Microsoft Playwright MCP
+          server, enabling LLMs to interact with web pages through structured accessibility snapshots
         confidence: high
     - id: discovery__github__microsoft__playwright-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +37,7 @@ provenance:
           - Official Servers
         anchor_text: Playwright
         extracted_url: https://github.com/microsoft/playwright-mcp
-        surrounding_text: "- **[Playwright](https://github.com/microsoft/playwright-mcp)** - Playwright MCP server"
+        surrounding_text: '- **[Playwright](https://github.com/microsoft/playwright-mcp)** - Playwright MCP server'
         confidence: high
 metadata:
   github:
@@ -45,21 +47,27 @@ metadata:
     archived: false
     full_name: microsoft/playwright-mcp
     html_url: https://github.com/microsoft/playwright-mcp
-    created_at: "2025-03-21T17:48:36Z"
-    pushed_at: "2026-07-25T08:58:14Z"
+    created_at: '2025-03-21T17:48:36Z'
+    pushed_at: '2026-07-25T08:58:14Z'
     description: Playwright MCP server
     homepage: https://www.npmjs.com/package/@playwright/mcp
     topics:
       - mcp
       - playwright
-    last_checked_at: "2026-08-03T05:17:02.189Z"
+    last_checked_at: '2026-08-03T05:17:02.189Z'
     readme:
-      fetched_at: "2026-08-03T05:17:02.189Z"
+      fetched_at: '2026-08-03T05:17:02.189Z'
       bytes: 61323
 insights:
-  summary: Playwright MCP is a Model Context Protocol server that enables LLMs to automate browsers using Playwright's accessibility tree.
-  why_it_matters: It lets AI agents interact with web pages through structured data instead of screenshots, avoiding vision model dependencies.
-  mental_damage: Another MCP server to add to your growing list of tools that promise to make AI browsing less hallucinatory but just as slow.
+  summary: >-
+    Playwright MCP is a Model Context Protocol server that enables LLMs to automate browsers using Playwright's
+    accessibility tree.
+  why_it_matters: >-
+    It lets AI agents interact with web pages through structured data instead of screenshots, avoiding vision model
+    dependencies.
+  mental_damage: >-
+    Another MCP server to add to your growing list of tools that promise to make AI browsing less hallucinatory but just
+    as slow.
   tags:
     - mcp
     - browser-automation
@@ -67,31 +75,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is an MCP server providing browser automation, making MCP its core identity rather than a compatibility layer or extension.
+  reason: >-
+    It is an MCP server providing browser automation, making MCP its core identity rather than a compatibility layer or
+    extension.
   evidence:
-    - "Repo description: 'Playwright MCP server'"
-    - "README: 'A Model Context Protocol (MCP) server that provides browser automation capabilities using Playwright'"
+    - 'Repo description: ''Playwright MCP server'''
+    - 'README: ''A Model Context Protocol (MCP) server that provides browser automation capabilities using Playwright'''
     - Listed in awesome-mcp-servers under 'Official Servers' and 'Browser Automation'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: promotion_candidate
   reason: Stars (32093) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.590Z"
+    updated_at: '2026-05-06T22:12:15.590Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:02.189Z"
+    updated_at: '2026-08-03T05:17:02.189Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:20:39.842Z"
+    updated_at: '2026-07-21T16:20:39.842Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,14 +115,18 @@ processing:
       input_hash: sha256:22e3eb994dba21dc3a29186a9ceb3cae8295d7a9f98e742b3d8b009d886800d5
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: It is an MCP server providing browser automation, making MCP its core identity rather than a compatibility layer or extension.
+      decision_reason: >-
+        It is an MCP server providing browser automation, making MCP its core identity rather than a compatibility layer
+        or extension.
       decision_evidence:
-        - "Repo description: 'Playwright MCP server'"
-        - "README: 'A Model Context Protocol (MCP) server that provides browser automation capabilities using Playwright'"
+        - 'Repo description: ''Playwright MCP server'''
+        - 'README: ''A Model Context Protocol (MCP) server that provides browser automation capabilities using Playwright'''
         - Listed in awesome-mcp-servers under 'Official Servers' and 'Browser Automation'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an integration that adds browser capabilities to another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an integration that adds
+        browser capabilities to another assistant.
       review_reason: null
       review_resume_lifecycle: null

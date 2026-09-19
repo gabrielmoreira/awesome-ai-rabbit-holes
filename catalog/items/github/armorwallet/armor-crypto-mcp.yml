@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__armorwallet__armor-crypto-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: armorwallet/armor-crypto-mcp
         extracted_url: https://github.com/armorwallet/armor-crypto-mcp
-        surrounding_text: "- [armorwallet/armor-crypto-mcp](https://github.com/armorwallet/armor-crypto-mcp) 🐍 ☁️ - MCP to interface with multiple blockchains, staking, DeFi, swap, bridging, wallet management, DCA, Limit Orders, Coin Lookup, Tracking and more."
+        surrounding_text: >-
+          - [armorwallet/armor-crypto-mcp](https://github.com/armorwallet/armor-crypto-mcp) 🐍 ☁️ - MCP to interface
+          with multiple blockchains, staking, DeFi, swap, bridging, wallet management, DCA, Limit Orders, Coin Lookup,
+          Tracking and more.
         confidence: high
     - id: discovery__github__armorwallet__armor-crypto-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +38,10 @@ provenance:
           - Official Servers
         anchor_text: Armor Crypto MCP
         extracted_url: https://github.com/armorwallet/armor-crypto-mcp
-        surrounding_text: "- **[Armor Crypto MCP](https://github.com/armorwallet/armor-crypto-mcp)** - MCP to interface with multiple blockchains, staking, DeFi, swap, bridging, wallet management, DCA, Limit Orders, Coin Lookup, Tracking and more."
+        surrounding_text: >-
+          - **[Armor Crypto MCP](https://github.com/armorwallet/armor-crypto-mcp)** - MCP to interface with multiple
+          blockchains, staking, DeFi, swap, bridging, wallet management, DCA, Limit Orders, Coin Lookup, Tracking and
+          more.
         confidence: high
 metadata:
   github:
@@ -45,10 +51,10 @@ metadata:
     archived: false
     full_name: armorwallet/armor-crypto-mcp
     html_url: https://github.com/armorwallet/armor-crypto-mcp
-    created_at: "2025-03-22T12:05:35Z"
-    pushed_at: "2025-07-29T15:53:53Z"
+    created_at: '2025-03-22T12:05:35Z'
+    pushed_at: '2025-07-29T15:53:53Z'
     description: The MCP server for interacting with Blockchain, Swaps, Strategic Planning and more.
-    homepage: ""
+    homepage: ''
     topics:
       - ai
       - ai-agents
@@ -56,13 +62,17 @@ metadata:
       - mcp
       - tradingbot
       - wallet
-    last_checked_at: "2026-09-10T04:12:59.167Z"
+    last_checked_at: '2026-09-10T04:12:59.167Z'
     readme:
-      fetched_at: "2026-09-10T04:12:59.167Z"
+      fetched_at: '2026-09-10T04:12:59.167Z'
       bytes: 4331
 insights:
-  summary: An MCP server that enables AI agents to interact with blockchain wallets, swaps, and trading strategies across multiple chains.
-  why_it_matters: Developers can integrate crypto operations like wallet management, DCA trades, and cross-chain swaps directly into their AI agent workflows via MCP.
+  summary: >-
+    An MCP server that enables AI agents to interact with blockchain wallets, swaps, and trading strategies across
+    multiple chains.
+  why_it_matters: >-
+    Developers can integrate crypto operations like wallet management, DCA trades, and cross-chain swaps directly into
+    their AI agent workflows via MCP.
   mental_damage: Now your AI agent can lose money on crypto trades at scale, just like a human developer.
   tags:
     - mcp
@@ -73,31 +83,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the primary product identity, and the server provides domain-specific (crypto/finance) capabilities to AI agents.
+  reason: >-
+    MCP is the primary product identity, and the server provides domain-specific (crypto/finance) capabilities to AI
+    agents.
   evidence:
     - Repo description explicitly states it is an MCP server for blockchain interactions
     - README details MCP setup and usage with Claude Desktop, Cline, and n8n
     - Listed in awesome-mcp-servers under Finance & Fintech
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: promotion_candidate
   reason: Stars (183) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.582Z"
+    updated_at: '2026-05-06T22:12:15.582Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:12:59.167Z"
+    updated_at: '2026-09-10T04:12:59.167Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:24:02.288Z"
+    updated_at: '2026-07-21T15:24:02.288Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -110,7 +123,9 @@ processing:
       input_hash: sha256:6d4695ade5fbee92ffb5a0e0d1f5ec4be7afee9d59bfff574d08708d7367b72d
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the primary product identity, and the server provides domain-specific (crypto/finance) capabilities to AI agents.
+      decision_reason: >-
+        MCP is the primary product identity, and the server provides domain-specific (crypto/finance) capabilities to AI
+        agents.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for blockchain interactions
         - README details MCP setup and usage with Claude Desktop, Cline, and n8n
@@ -118,6 +133,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server providing domain tools, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server providing domain tools, not an
+        extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

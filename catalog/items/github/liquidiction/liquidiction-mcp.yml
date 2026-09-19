@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__liquidiction__liquidiction-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: Liquidiction/liquidiction-mcp
         extracted_url: https://github.com/liquidiction/liquidiction-mcp
-        surrounding_text: "- [Liquidiction/liquidiction-mcp](https://github.com/Liquidiction/liquidiction-mcp) [![Liquidiction/liquidiction-mcp MCP server](https://glama.ai/mcp/servers/Liquidiction/liquidiction-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Liquidiction/liquidiction-mcp) 📇 ☁️ - Live Hyperliquid HIP-4 prediction market data. 10 tools for odds, orderbooks, candles, trades, and portfolio positions. First MCP server for on-chain prediction markets. No API keys required."
+        surrounding_text: >-
+          - [Liquidiction/liquidiction-mcp](https://github.com/Liquidiction/liquidiction-mcp)
+          [![Liquidiction/liquidiction-mcp MCP
+          server](https://glama.ai/mcp/servers/Liquidiction/liquidiction-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Liquidiction/liquidiction-mcp)
+          📇 ☁️ - Live Hyperliquid HIP-4 prediction market data. 10 tools for odds, orderbooks, candles, trades, and
+          portfolio positions. First MCP server for on-chain prediction markets. No API keys required.
         confidence: high
 metadata:
   github:
@@ -30,19 +35,27 @@ metadata:
     archived: false
     full_name: Liquidiction/liquidiction-mcp
     html_url: https://github.com/Liquidiction/liquidiction-mcp
-    created_at: "2026-04-09T14:26:03Z"
-    pushed_at: "2026-05-02T17:14:00Z"
-    description: MCP server for Hyperliquid HIP-4 prediction markets - query live odds, orderbooks, candles, trades, and positions from any AI agent
+    created_at: '2026-04-09T14:26:03Z'
+    pushed_at: '2026-05-02T17:14:00Z'
+    description: >-
+      MCP server for Hyperliquid HIP-4 prediction markets - query live odds, orderbooks, candles, trades, and positions
+      from any AI agent
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:06:06.499Z"
+    last_checked_at: '2026-07-30T05:06:06.499Z'
     readme:
-      fetched_at: "2026-07-30T05:06:06.499Z"
+      fetched_at: '2026-07-30T05:06:06.499Z'
       bytes: 4038
 insights:
-  summary: An MCP server that exposes live Hyperliquid HIP-4 prediction market data, including orderbooks, trades, and positions, to MCP-compatible AI agents.
-  why_it_matters: It allows developers to equip AI agents with real-time prediction market data access without managing API keys or custom integrations.
-  mental_damage: We have successfully abstracted gambling into a tool call, so your AI agent can now lose money on binary outcomes with zero friction.
+  summary: >-
+    An MCP server that exposes live Hyperliquid HIP-4 prediction market data, including orderbooks, trades, and
+    positions, to MCP-compatible AI agents.
+  why_it_matters: >-
+    It allows developers to equip AI agents with real-time prediction market data access without managing API keys or
+    custom integrations.
+  mental_damage: >-
+    We have successfully abstracted gambling into a tool call, so your AI agent can now lose money on binary outcomes
+    with zero friction.
   tags:
     - mcp
     - prediction-markets
@@ -52,35 +65,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server providing domain-specific market data access, fitting cleanly into MCP Servers & Tooling.
+  reason: >-
+    The product identity is an MCP server providing domain-specific market data access, fitting cleanly into MCP Servers
+    & Tooling.
   evidence:
     - Repo description explicitly states 'MCP server for Hyperliquid HIP-4 prediction markets'.
     - README confirms it is an MCP server with 10 tools for market data, orderbooks, and positions.
     - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing its MCP domain-server identity.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: '2026-05-06T22:12:15.627Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:06.499Z"
+    updated_at: '2026-07-30T05:06:06.499Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

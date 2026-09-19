@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__modus-agendi__managed-agent-control-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-08T05:39:05.247Z"
+      discovered_at: '2026-06-08T05:39:05.247Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: modus-agendi/managed-agent-control-mcp
         extracted_url: https://github.com/modus-agendi/managed-agent-control-mcp
-        surrounding_text: "- [modus-agendi/managed-agent-control-mcp](https://github.com/modus-agendi/managed-agent-control-mcp) [![modus-agendi/managed-agent-control-mcp MCP server](https://glama.ai/mcp/servers/modus-agendi/managed-agent-control-mcp/badges/score.svg)](https://glama.ai/mcp/servers/modus-agendi/managed-agent-control-mcp) 🐍 🏠 ☁️ 🍎 🪟 🐧 - Start, observe, and interact with Claude Managed Agents from any MCP client — launch an agent, poll its events to watch it work, reply, approve the tools it wants to run, and stop it. Runs over stdio, an HTTP container, or AWS Lambda, with pluggable inbound auth (bearer/OIDC/Cognito)."
+        surrounding_text: >-
+          - [modus-agendi/managed-agent-control-mcp](https://github.com/modus-agendi/managed-agent-control-mcp)
+          [![modus-agendi/managed-agent-control-mcp MCP
+          server](https://glama.ai/mcp/servers/modus-agendi/managed-agent-control-mcp/badges/score.svg)](https://glama.ai/mcp/servers/modus-agendi/managed-agent-control-mcp)
+          🐍 🏠 ☁️ 🍎 🪟 🐧 - Start, observe, and interact with Claude Managed Agents from any MCP client — launch an
+          agent, poll its events to watch it work, reply, approve the tools it wants to run, and stop it. Runs over
+          stdio, an HTTP container, or AWS Lambda, with pluggable inbound auth (bearer/OIDC/Cognito).
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: modus-agendi/managed-agent-control-mcp
     html_url: https://github.com/modus-agendi/managed-agent-control-mcp
-    created_at: "2026-06-01T10:51:17Z"
-    pushed_at: "2026-07-20T09:56:38Z"
-    description: Start, observe, and interact with Claude Managed Agents from any MCP client (Claude.ai, Claude Code, …). Pluggable auth (bearer/OIDC/Cognito); runs on stdio, Docker, or AWS Lambda.
+    created_at: '2026-06-01T10:51:17Z'
+    pushed_at: '2026-07-20T09:56:38Z'
+    description: >-
+      Start, observe, and interact with Claude Managed Agents from any MCP client (Claude.ai, Claude Code, …). Pluggable
+      auth (bearer/OIDC/Cognito); runs on stdio, Docker, or AWS Lambda.
     homepage: null
     topics:
       - agentic
@@ -51,14 +59,20 @@ metadata:
       - model-context-protocol
       - oauth
       - python
-    last_checked_at: "2026-08-03T05:17:06.710Z"
+    last_checked_at: '2026-08-03T05:17:06.710Z'
     readme:
-      fetched_at: "2026-08-03T05:17:06.710Z"
+      fetched_at: '2026-08-03T05:17:06.710Z'
       bytes: 6977
 insights:
-  summary: An MCP server that enables starting, observing, and interacting with Claude Managed Agents from any MCP-compatible client.
-  why_it_matters: It integrates Anthropic's sandboxed agent environments directly into existing developer workflows in tools like Claude Code or Cursor.
-  mental_damage: It provides the necessary infrastructure to watch your agents work in real-time, which is exactly what you'll be doing while you wait for the next layer of abstraction to arrive.
+  summary: >-
+    An MCP server that enables starting, observing, and interacting with Claude Managed Agents from any MCP-compatible
+    client.
+  why_it_matters: >-
+    It integrates Anthropic's sandboxed agent environments directly into existing developer workflows in tools like
+    Claude Code or Cursor.
+  mental_damage: >-
+    It provides the necessary infrastructure to watch your agents work in real-time, which is exactly what you'll be
+    doing while you wait for the next layer of abstraction to arrive.
   tags:
     - mcp
     - claude
@@ -68,31 +82,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server designed to bridge managed agent services with MCP-compatible clients via the Model Context Protocol.
+  reason: >-
+    The project's primary identity is an MCP server designed to bridge managed agent services with MCP-compatible
+    clients via the Model Context Protocol.
   evidence:
     - The README explicitly defines the project as an MCP server to 'remote control' Managed Agents
     - It exposes a specific toolset for agent discovery, session management, and interaction
     - It is designed to work with diverse MCP clients including Claude Code, Cursor, and the MCP Inspector
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-08T05:39:05.248Z"
+    updated_at: '2026-06-08T05:39:05.248Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:06.710Z"
+    updated_at: '2026-08-03T05:17:06.710Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-06T05:46:31.388Z"
+    updated_at: '2026-07-06T05:46:31.388Z'
     cause: null
     next_retry_at: null
     attempts: 1

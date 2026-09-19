@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__freema__mcp-gsheets__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: freema/mcp-gsheets
         extracted_url: https://github.com/freema/mcp-gsheets
-        surrounding_text: "- [freema/mcp-gsheets](https://github.com/freema/mcp-gsheets) 📇 ☁️ - MCP server for Google Sheets API integration with comprehensive reading, writing, formatting, and sheet management capabilities."
+        surrounding_text: >-
+          - [freema/mcp-gsheets](https://github.com/freema/mcp-gsheets) 📇 ☁️ - MCP server for Google Sheets API
+          integration with comprehensive reading, writing, formatting, and sheet management capabilities.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,19 @@ metadata:
     archived: false
     full_name: freema/mcp-gsheets
     html_url: https://github.com/freema/mcp-gsheets
-    created_at: "2025-05-24T17:43:01Z"
-    pushed_at: "2026-08-17T05:54:58Z"
+    created_at: '2025-05-24T17:43:01Z'
+    pushed_at: '2026-08-17T05:54:58Z'
     description: MCP server for Google Sheets - Read, write and manipulate spreadsheets through Claude Desktop
-    homepage: ""
+    homepage: ''
     topics:
       - automation
       - google-sheets-api
       - mcp
       - nodejs
       - typescript
-    last_checked_at: "2026-09-03T05:16:43.757Z"
+    last_checked_at: '2026-09-03T05:16:43.757Z'
     readme:
-      fetched_at: "2026-09-03T05:16:43.757Z"
+      fetched_at: '2026-09-03T05:16:43.757Z'
       bytes: 25665
 insights:
   summary: An MCP server that provides Google Sheets API integration for Model Context Protocol clients.
@@ -62,24 +64,25 @@ curation:
     - README provides configuration specifically for MCP clients like Claude Desktop and Cursor
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: '2026-05-06T22:12:15.615Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:43.757Z"
+    updated_at: '2026-09-03T05:16:43.757Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-03T05:18:57.020Z"
+    updated_at: '2026-09-03T05:18:57.020Z'
     cause: null
     next_retry_at: null
     attempts: 4
@@ -92,13 +95,17 @@ processing:
       input_hash: sha256:dbd9cc7c9c17a91ba06ce41ec833252221cb12c82abc995d868f1679779080ec
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The tool's primary identity is an MCP server designed to provide specific domain capabilities to compatible hosts.
+      decision_reason: >-
+        The tool's primary identity is an MCP server designed to provide specific domain capabilities to compatible
+        hosts.
       decision_evidence:
         - Repo description explicitly defines it as an 'MCP server for Google Sheets'
         - README provides configuration specifically for MCP clients like Claude Desktop and Cursor
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is a protocol-native server rather than a generic host plugin.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is a protocol-native server rather than a
+        generic host plugin.
       review_reason: null
       review_resume_lifecycle: null

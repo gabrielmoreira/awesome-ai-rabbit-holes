@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__trypromptly__com__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,10 +18,10 @@ provenance:
           - Developer tools
         anchor_text: trypromptly
         extracted_url: https://trypromptly.com
-        surrounding_text: "- [trypromptly](https://trypromptly.com/) - Create AI Apps & Chatbots in Minutes."
+        surrounding_text: '- [trypromptly](https://trypromptly.com/) - Create AI Apps & Chatbots in Minutes.'
         confidence: high
     - id: discovery__www__trypromptly__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,10 +33,10 @@ provenance:
           - Promptly
         anchor_text: Promptly
         extracted_url: https://www.trypromptly.com
-        surrounding_text: "## [Promptly](https://www.trypromptly.com/)"
+        surrounding_text: '## [Promptly](https://www.trypromptly.com/)'
         confidence: high
     - id: discovery__trypromptly__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-20T15:10:47.684Z"
+      discovered_at: '2026-07-20T15:10:47.684Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -48,7 +48,7 @@ provenance:
           - Promptly
         anchor_text: Promptly
         extracted_url: https://trypromptly.com
-        surrounding_text: "## [Promptly](https://www.trypromptly.com/)"
+        surrounding_text: '## [Promptly](https://www.trypromptly.com/)'
         confidence: high
 metadata:
   github:
@@ -67,7 +67,9 @@ metadata:
     readme: null
 insights:
   summary: A tool for managing and optimizing prompts within AI agent workflows.
-  why_it_matters: It helps developers move away from manual prompt hacking toward a more systematic approach to prompt management and iteration.
+  why_it_matters: >-
+    It helps developers move away from manual prompt hacking toward a more systematic approach to prompt management and
+    iteration.
   mental_damage: The Sisyphean task of fine-tuning a single adjective to stop an agent from hallucinating its own technical debt.
   tags:
     - prompt-engineering
@@ -77,21 +79,26 @@ insights:
   confidence: low
 curation:
   status: included
-  reason: Included because its presence in both major AI agent and local AI directories indicates it is a recognized utility for managing prompt-related developer workflows.
+  reason: >-
+    Included because its presence in both major AI agent and local AI directories indicates it is a recognized utility
+    for managing prompt-related developer workflows.
   evidence:
     - Listed in awesome-ai-agents
     - Listed in awesome-local-ai as a developer tool
-    - Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct code collaboration.
+    - >-
+      Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct code
+      collaboration.
 placement:
-  primary_category: context-engineering
-  section: PromptOps / Prompt Management
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Prompt Engineering & Management
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: low confidence"
+  reason: 'Categorization review required: low confidence'
 processing:
   categorize:
     status: done
-    updated_at: "2026-08-27T06:13:45.401Z"
+    updated_at: '2026-08-27T06:13:45.401Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -102,22 +109,28 @@ processing:
       input_hash: sha256:8644e725a72aeb7622704e698910546d67788b180e383846278758ebde0401dc
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: Included because its presence in both major AI agent and local AI directories indicates it is a recognized utility for managing prompt-related developer workflows.
+      decision_reason: >-
+        Included because its presence in both major AI agent and local AI directories indicates it is a recognized
+        utility for managing prompt-related developer workflows.
       decision_evidence:
         - Listed in awesome-ai-agents
         - Listed in awesome-local-ai as a developer tool
-        - Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct code collaboration.
+        - >-
+          Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct
+          code collaboration.
       category_candidates:
         - context-engineering
         - evals
-      contrastive_reason: Choose context-engineering over evals because the product's name and placement suggest a focus on prompt management and assets rather than dedicated performance benchmarking.
-      review_reason: "Categorization review required: low confidence"
+      contrastive_reason: >-
+        Choose context-engineering over evals because the product's name and placement suggest a focus on prompt
+        management and assets rather than dedicated performance benchmarking.
+      review_reason: 'Categorization review required: low confidence'
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
   discover:
     status: done
-    updated_at: "2026-07-20T15:10:47.687Z"
+    updated_at: '2026-07-20T15:10:47.687Z'
     cause: null
     next_retry_at: null
   stars:

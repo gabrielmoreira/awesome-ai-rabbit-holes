@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__link__ai__tech__portal__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -18,7 +18,7 @@ provenance:
           - 智能体 Agents
         anchor_text: LinkAI
         extracted_url: https://link-ai.tech/portal
-        surrounding_text: "9. [LinkAI](https://link-ai.tech/portal): 一站式 AI 智能体搭建平台"
+        surrounding_text: '9. [LinkAI](https://link-ai.tech/portal): 一站式 AI 智能体搭建平台'
         confidence: high
 metadata:
   github:
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: LinkAI is an enterprise-grade all-in-one AI agent platform that aggregates multimodal models, RAG knowledge bases, databases, plugins, and workflows for building and deploying AI agents.
-  why_it_matters: It enables developers to create and manage AI agents with zero-code integration into websites, enterprise messaging, and collaboration platforms, streamlining AI adoption in business workflows.
-  mental_damage: Another platform promising to turn your enterprise into an AI utopia, because nothing says 'productivity' like a 10-tab interface for configuring agents.
+  summary: >-
+    LinkAI is an enterprise-grade all-in-one AI agent platform that aggregates multimodal models, RAG knowledge bases,
+    databases, plugins, and workflows for building and deploying AI agents.
+  why_it_matters: >-
+    It enables developers to create and manage AI agents with zero-code integration into websites, enterprise messaging,
+    and collaboration platforms, streamlining AI adoption in business workflows.
+  mental_damage: >-
+    Another platform promising to turn your enterprise into an AI utopia, because nothing says 'productivity' like a
+    10-tab interface for configuring agents.
   tags:
     - ai-agents
     - enterprise
@@ -48,21 +54,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a platform for coordinating and deploying multiple AI agents with workflow, plugin, and multimodal capabilities, fitting the agent orchestration category.
+  reason: >-
+    The product is a platform for coordinating and deploying multiple AI agents with workflow, plugin, and multimodal
+    capabilities, fitting the agent orchestration category.
   evidence:
     - Described as an 'enterprise-level one-stop AI agent platform' with RAG, databases, plugins, and workflows
     - Supports zero-code integration into multiple enterprise channels (WeChat, DingTalk, etc.)
     - Source-list context places it under 'Agents' in a curated LLM resources list
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Hosted Agent Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +80,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:29:03.171Z"
+    updated_at: '2026-07-21T15:29:03.171Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +93,9 @@ processing:
       input_hash: sha256:28b8b057c7aa409e4cf440cc6b400bdb172552a62de2ef9348a69bc02379c4b2
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The product is a platform for coordinating and deploying multiple AI agents with workflow, plugin, and multimodal capabilities, fitting the agent orchestration category.
+      decision_reason: >-
+        The product is a platform for coordinating and deploying multiple AI agents with workflow, plugin, and
+        multimodal capabilities, fitting the agent orchestration category.
       decision_evidence:
         - Described as an 'enterprise-level one-stop AI agent platform' with RAG, databases, plugins, and workflows
         - Supports zero-code integration into multiple enterprise channels (WeChat, DingTalk, etc.)
@@ -92,6 +103,8 @@ processing:
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated platform for building and managing agents, not a code-first library or SDK.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because the product is an operated platform for building and
+        managing agents, not a code-first library or SDK.
       review_reason: null
       review_resume_lifecycle: null

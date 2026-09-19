@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__qdrant__qdrant__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - Vector search
         anchor_text: Qdrant
         extracted_url: https://github.com/qdrant/qdrant
-        surrounding_text: "| [Qdrant](https://github.com/qdrant/qdrant)                | Vector Search Engine and Database for the next generation of AI applications. Also available in the cloud                                                                                                                                                                                     | ![GitHub Badge](https://img.shields.io/github/stars/qdrant/qdrant.svg?style=flat-square)              |"
+        surrounding_text: >-
+          | [Qdrant](https://github.com/qdrant/qdrant)                | Vector Search Engine and Database for the next
+          generation of AI applications. Also available in the
+          cloud                                                                                                                                                                                    
+          | ![GitHub Badge](https://img.shields.io/github/stars/qdrant/qdrant.svg?style=flat-square)              |
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: qdrant/qdrant
     html_url: https://github.com/qdrant/qdrant
-    created_at: "2020-05-30T21:37:01Z"
-    pushed_at: "2026-07-20T16:41:33Z"
-    description: Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/
+    created_at: '2020-05-30T21:37:01Z'
+    pushed_at: '2026-07-20T16:41:33Z'
+    description: >-
+      Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI.
+      Also available in the cloud https://cloud.qdrant.io/
     homepage: https://qdrant.tech
     topics:
       - ai-search
@@ -55,14 +61,20 @@ metadata:
       - vector-database
       - vector-search
       - vector-search-engine
-    last_checked_at: "2026-07-20T16:42:40.228Z"
+    last_checked_at: '2026-07-20T16:42:40.228Z'
     readme:
-      fetched_at: "2026-07-20T16:42:40.228Z"
+      fetched_at: '2026-07-20T16:42:40.228Z'
       bytes: 11505
 insights:
-  summary: Qdrant is a high-performance vector database and similarity search engine built in Rust, designed for storing, searching, and managing vector embeddings with payload filtering.
-  why_it_matters: It provides the retrieval infrastructure that powers RAG pipelines, semantic search, and recommendation systems, serving as the memory backbone for many AI applications.
-  mental_damage: Yet another reminder that your 'intelligent' agent is mostly just calling a vector search and hoping the cosine similarity aligns with your users' intent.
+  summary: >-
+    Qdrant is a high-performance vector database and similarity search engine built in Rust, designed for storing,
+    searching, and managing vector embeddings with payload filtering.
+  why_it_matters: >-
+    It provides the retrieval infrastructure that powers RAG pipelines, semantic search, and recommendation systems,
+    serving as the memory backbone for many AI applications.
+  mental_damage: >-
+    Yet another reminder that your 'intelligent' agent is mostly just calling a vector search and hoping the cosine
+    similarity aligns with your users' intent.
   tags:
     - vector-database
     - embeddings
@@ -72,35 +84,42 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Qdrant is a developer-facing database and SDK used as code-first infrastructure for embedding storage and retrieval, fitting the Memory / Retrieval Infrastructure section.
+  reason: >-
+    Qdrant is a developer-facing database and SDK used as code-first infrastructure for embedding storage and retrieval,
+    fitting the Memory / Retrieval Infrastructure section.
   evidence:
-    - Repo description identifies it as a 'Vector Database and Vector Search Engine' with client libraries for Python, Go, Rust, JS, Java, and .NET.
-    - README positions it as infrastructure for 'neural-network or semantic-based matching' and 'turning embeddings into full-fledged applications'.
+    - >-
+      Repo description identifies it as a 'Vector Database and Vector Search Engine' with client libraries for Python,
+      Go, Rust, JS, Java, and .NET.
+    - >-
+      README positions it as infrastructure for 'neural-network or semantic-based matching' and 'turning embeddings into
+      full-fledged applications'.
     - Appears in Awesome-LLMOps under 'Search > Vector search', confirming its developer-tooling infrastructure role.
 placement:
   primary_category: ai-frameworks
-  section: Memory / Retrieval Infrastructure
+  secondary_categories: []
+  section: Memory & Retrieval Infrastructure
 lifecycle:
   status: promotion_candidate
   reason: Stars (31087) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.644Z"
+    updated_at: '2026-05-06T22:12:15.644Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:40.228Z"
+    updated_at: '2026-07-20T16:42:40.228Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

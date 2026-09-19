@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__designcomputer__mysql_mcp_server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: designcomputer/mysql_mcp_server
         extracted_url: https://github.com/designcomputer/mysql_mcp_server
-        surrounding_text: "- [designcomputer/mysql_mcp_server](https://github.com/designcomputer/mysql_mcp_server) 🐍 🏠 - MySQL database integration with configurable access controls, schema inspection, and comprehensive security guidelines"
+        surrounding_text: >-
+          - [designcomputer/mysql_mcp_server](https://github.com/designcomputer/mysql_mcp_server) 🐍 🏠 - MySQL database
+          integration with configurable access controls, schema inspection, and comprehensive security guidelines
         confidence: high
     - id: discovery__github__designcomputer__mysql_mcp_server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,10 +37,12 @@ provenance:
           - Community Servers
         anchor_text: MySQL
         extracted_url: https://github.com/designcomputer/mysql_mcp_server
-        surrounding_text: "- **[MySQL](https://github.com/designcomputer/mysql_mcp_server)** - MySQL database integration with configurable access controls and schema inspection"
+        surrounding_text: >-
+          - **[MySQL](https://github.com/designcomputer/mysql_mcp_server)** - MySQL database integration with
+          configurable access controls and schema inspection
         confidence: high
     - id: discovery__github__designcomputer__mysql_mcp_server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -50,10 +54,13 @@ provenance:
           - 🗄️ Databases
         anchor_text: designcomputer/mysql_mcp_server
         extracted_url: https://github.com/designcomputer/mysql_mcp_server
-        surrounding_text: "-   **[designcomputer/mysql_mcp_server](https://github.com/designcomputer/mysql_mcp_server)** [![GitHub stars](https://img.shields.io/github/stars/designcomputer/mysql_mcp_server?style=social)](https://github.com/designcomputer/mysql_mcp_server): Provides secure MySQL database operations with configurable access controls."
+        surrounding_text: >-
+          -   **[designcomputer/mysql_mcp_server](https://github.com/designcomputer/mysql_mcp_server)** [![GitHub
+          stars](https://img.shields.io/github/stars/designcomputer/mysql_mcp_server?style=social)](https://github.com/designcomputer/mysql_mcp_server):
+          Provides secure MySQL database operations with configurable access controls.
         confidence: high
     - id: discovery__github__designcomputer__mysql_mcp_server__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -67,7 +74,9 @@ provenance:
           - Database & Vector Stores
         anchor_text: mysql_mcp_server
         extracted_url: https://github.com/designcomputer/mysql_mcp_server
-        surrounding_text: "| [mysql_mcp_server](https://github.com/designcomputer/mysql_mcp_server) | MySQL database server | ![Stars](https://img.shields.io/github/stars/designcomputer/mysql_mcp_server) |"
+        surrounding_text: >-
+          | [mysql_mcp_server](https://github.com/designcomputer/mysql_mcp_server) | MySQL database server |
+          ![Stars](https://img.shields.io/github/stars/designcomputer/mysql_mcp_server) |
         confidence: high
 metadata:
   github:
@@ -77,8 +86,8 @@ metadata:
     archived: false
     full_name: designcomputer/mysql_mcp_server
     html_url: https://github.com/designcomputer/mysql_mcp_server
-    created_at: "2024-12-03T20:53:52Z"
-    pushed_at: "2026-08-02T13:36:20Z"
+    created_at: '2024-12-03T20:53:52Z'
+    pushed_at: '2026-08-02T13:36:20Z'
     description: A Model Context Protocol (MCP) server that enables secure interaction with MySQL databases
     homepage: https://designcomputer.com
     topics:
@@ -91,13 +100,15 @@ metadata:
       - mcp-server
       - model-context-protocol
       - mysql
-    last_checked_at: "2026-09-14T04:13:39.335Z"
+    last_checked_at: '2026-09-14T04:13:39.335Z'
     readme:
-      fetched_at: "2026-09-14T04:13:39.335Z"
+      fetched_at: '2026-09-14T04:13:39.335Z'
       bytes: 12501
 insights:
   summary: An MCP server that enables secure interaction with MySQL databases for AI applications.
-  why_it_matters: It lets AI assistants like Claude Desktop safely query and explore MySQL databases through a controlled, protocol-based interface.
+  why_it_matters: >-
+    It lets AI assistants like Claude Desktop safely query and explore MySQL databases through a controlled,
+    protocol-based interface.
   mental_damage: Now your AI can finally stop pretending it understands your schema from context alone.
   tags:
     - mcp
@@ -108,31 +119,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server for MySQL databases, not a compatibility footnote or adapter."
+  reason: >-
+    MCP is the product identity: this is a dedicated MCP server for MySQL databases, not a compatibility footnote or
+    adapter.
   evidence:
     - Repo description explicitly states it is a Model Context Protocol (MCP) server for MySQL
     - README emphasizes MCP implementation as the core functionality
     - Listed in multiple MCP-focused awesome lists under database servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: promotion_candidate
   reason: Stars (1244) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.574Z"
+    updated_at: '2026-05-06T22:12:15.574Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:39.335Z"
+    updated_at: '2026-09-14T04:13:39.335Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:50:46.242Z"
+    updated_at: '2026-07-21T15:50:46.242Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -145,7 +159,9 @@ processing:
       input_hash: sha256:bc59c8dbd88a42a5d9460abb5547db60b0b1a1a7369c26bba496c8dd18453281
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server for MySQL databases, not a compatibility footnote or adapter."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server for MySQL databases, not a compatibility footnote or
+        adapter.
       decision_evidence:
         - Repo description explicitly states it is a Model Context Protocol (MCP) server for MySQL
         - README emphasizes MCP implementation as the core functionality
@@ -153,6 +169,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary identity is an MCP server for MySQL, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary identity is an MCP server for MySQL, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__lovable__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - App Builders
         anchor_text: Lovable
         extracted_url: https://lovable.dev
-        surrounding_text: "- **[Lovable](https://lovable.dev/)** – Create and deploy web apps from a single prompt in a browser tab."
+        surrounding_text: '- **[Lovable](https://lovable.dev/)** – Create and deploy web apps from a single prompt in a browser tab.'
         confidence: high
     - id: discovery__lovable__dev__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-06-04T05:40:27.160Z"
+      discovered_at: '2026-06-04T05:40:27.160Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - GPT Engineer
         anchor_text: GPT Engineer
         extracted_url: https://gptengineer.app
-        surrounding_text: "## [GPT Engineer](https://gptengineer.app/)"
+        surrounding_text: '## [GPT Engineer](https://gptengineer.app/)'
         confidence: high
 metadata:
   github:
@@ -65,19 +65,24 @@ curation:
   status: included
   reason: The product's core value is turning prompts into deployable apps/sites, fitting the App Builders category.
   evidence:
-    - "Site description: 'Build apps, websites, and digital products faster using Lovable's AI-powered platform, no deep coding skills required.'"
-    - "Source-list context: Listed under 'App Builders' in awesome-ai-coding-tools."
-    - Primary page excerpt emphasizes prompt-to-app workflow ('Start with an idea... Watch it come to life... Refine and ship').
+    - >-
+      Site description: 'Build apps, websites, and digital products faster using Lovable's AI-powered platform, no deep
+      coding skills required.'
+    - 'Source-list context: Listed under ''App Builders'' in awesome-ai-coding-tools.'
+    - >-
+      Primary page excerpt emphasizes prompt-to-app workflow ('Start with an idea... Watch it come to life... Refine and
+      ship').
 placement:
   primary_category: app-builders
-  section: Prompt-to-App Builders
+  secondary_categories: []
+  section: Full App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-04T05:40:27.161Z"
+    updated_at: '2026-06-04T05:40:27.161Z'
     cause: null
     next_retry_at: null
   stars:
@@ -86,7 +91,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:29:20.143Z"
+    updated_at: '2026-07-21T15:29:20.143Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -101,12 +106,18 @@ processing:
       disagreement: false
       decision_reason: The product's core value is turning prompts into deployable apps/sites, fitting the App Builders category.
       decision_evidence:
-        - "Site description: 'Build apps, websites, and digital products faster using Lovable's AI-powered platform, no deep coding skills required.'"
-        - "Source-list context: Listed under 'App Builders' in awesome-ai-coding-tools."
-        - Primary page excerpt emphasizes prompt-to-app workflow ('Start with an idea... Watch it come to life... Refine and ship').
+        - >-
+          Site description: 'Build apps, websites, and digital products faster using Lovable's AI-powered platform, no
+          deep coding skills required.'
+        - 'Source-list context: Listed under ''App Builders'' in awesome-ai-coding-tools.'
+        - >-
+          Primary page excerpt emphasizes prompt-to-app workflow ('Start with an idea... Watch it come to life... Refine
+          and ship').
       category_candidates:
         - app-builders
         - agent-orchestration
-      contrastive_reason: Choose app-builders over agent-orchestration because the product is a prompt-to-app platform, not a multi-agent coordination system.
+      contrastive_reason: >-
+        Choose app-builders over agent-orchestration because the product is a prompt-to-app platform, not a multi-agent
+        coordination system.
       review_reason: null
       review_resume_lifecycle: null

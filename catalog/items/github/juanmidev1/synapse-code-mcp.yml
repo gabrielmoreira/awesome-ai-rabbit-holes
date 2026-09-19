@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__eltortilla1__synapse-code-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-29T05:38:18.519Z"
+      discovered_at: '2026-06-29T05:38:18.519Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Eltortilla1/synapse-code-mcp
         extracted_url: https://github.com/eltortilla1/synapse-code-mcp
-        surrounding_text: "- [Eltortilla1/synapse-code-mcp](https://github.com/Eltortilla1/synapse-code-mcp) 📇 🏠 🍎 🪟 🐧 - Structural code context server for AI agents — compressed symbol indexes, dependency graphs, and git diffs via TypeScript AST analysis. Zero external dependencies, no vector database or embedding API required."
+        surrounding_text: >-
+          - [Eltortilla1/synapse-code-mcp](https://github.com/Eltortilla1/synapse-code-mcp) 📇 🏠 🍎 🪟 🐧 - Structural
+          code context server for AI agents — compressed symbol indexes, dependency graphs, and git diffs via TypeScript
+          AST analysis. Zero external dependencies, no vector database or embedding API required.
         confidence: high
     - id: discovery__github__juanmidev1__synapse-code-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-13T05:12:52.223Z"
+      discovered_at: '2026-07-13T05:12:52.223Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -36,7 +39,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Eltortilla1/synapse-code-mcp
         extracted_url: https://github.com/eltortilla1/synapse-code-mcp
-        surrounding_text: "- [Eltortilla1/synapse-code-mcp](https://github.com/Eltortilla1/synapse-code-mcp) 📇 🏠 🍎 🪟 🐧 - Structural code context server for AI agents — compressed symbol indexes, dependency graphs, and git diffs via TypeScript AST analysis. Zero external dependencies, no vector database or embedding API required."
+        surrounding_text: >-
+          - [Eltortilla1/synapse-code-mcp](https://github.com/Eltortilla1/synapse-code-mcp) 📇 🏠 🍎 🪟 🐧 - Structural
+          code context server for AI agents — compressed symbol indexes, dependency graphs, and git diffs via TypeScript
+          AST analysis. Zero external dependencies, no vector database or embedding API required.
         confidence: high
 metadata:
   github:
@@ -46,19 +52,26 @@ metadata:
     archived: false
     full_name: Juanmidev1/synapse-code-mcp
     html_url: https://github.com/Juanmidev1/synapse-code-mcp
-    created_at: "2026-06-21T12:28:53Z"
-    pushed_at: "2026-07-27T17:58:19Z"
-    description: Model Context Protocol server for code intelligence. Lets AI assistants explore your codebase on demand — semantic context with dependency graphs, compressed symbol indexes for TypeScript/JavaScript, plus git diffs and ripgrep-powered search across any language.
+    created_at: '2026-06-21T12:28:53Z'
+    pushed_at: '2026-07-27T17:58:19Z'
+    description: >-
+      Model Context Protocol server for code intelligence. Lets AI assistants explore your codebase on demand — semantic
+      context with dependency graphs, compressed symbol indexes for TypeScript/JavaScript, plus git diffs and
+      ripgrep-powered search across any language.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:52.923Z"
+    last_checked_at: '2026-07-30T05:05:52.923Z'
     readme:
-      fetched_at: "2026-07-30T05:05:52.923Z"
+      fetched_at: '2026-07-30T05:05:52.923Z'
       bytes: 15857
 insights:
   summary: An MCP server that provides structural code context, dependency graphs, and symbol indexes to AI assistants.
-  why_it_matters: It allows AI assistants to explore large codebases with high precision and minimal context waste without requiring a vector database or embedding API.
-  mental_damage: Another way to ensure your AI assistant can hallucinate about your architecture with significantly more structural confidence.
+  why_it_matters: >-
+    It allows AI assistants to explore large codebases with high precision and minimal context waste without requiring a
+    vector database or embedding API.
+  mental_damage: >-
+    Another way to ensure your AI assistant can hallucinate about your architecture with significantly more structural
+    confidence.
   tags:
     - code-intelligence
     - context-engineering
@@ -72,21 +85,24 @@ curation:
     - Repo description and README identify it primarily as a Model Context Protocol server.
     - The tool provides specific domain intelligence including dependency graphs and symbol indexes.
     - It is designed to be used as an MCP-based bridge between an assistant and a local repository.
-    - "included: The product is explicitly an MCP server designed to provide domain-specific code intelligence to connected assistants."
+    - >-
+      included: The product is explicitly an MCP server designed to provide domain-specific code intelligence to
+      connected assistants.
     - Repo description specifically identifies it as a 'Model Context Protocol server'
     - README defines the product architecture as AI Assistant ──MCP──► Synapse MCP
     - Core value prop is providing structural context via the MCP protocol
-    - "included: The project's primary identity is an MCP server designed to provide context to other assistants."
+    - 'included: The project''s primary identity is an MCP server designed to provide context to other assistants.'
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -94,11 +110,11 @@ processing:
     attempts: 0
   discover:
     status: done
-    updated_at: "2026-07-13T05:12:52.225Z"
+    updated_at: '2026-07-13T05:12:52.225Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:52.923Z"
+    updated_at: '2026-07-30T05:05:52.923Z'
     cause: null
     next_retry_at: null

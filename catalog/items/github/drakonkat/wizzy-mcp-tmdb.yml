@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__drakonkat__wizzy-mcp-tmdb__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: drakonkat/wizzy-mcp-tmdb
         extracted_url: https://github.com/drakonkat/wizzy-mcp-tmdb
-        surrounding_text: "- [drakonkat/wizzy-mcp-tmdb](https://github.com/drakonkat/wizzy-mcp-tmdb) 📇 ☁️ - A MCP server for The Movie Database API that enables AI assistants to search and retrieve movie, TV show, and person information."
+        surrounding_text: >-
+          - [drakonkat/wizzy-mcp-tmdb](https://github.com/drakonkat/wizzy-mcp-tmdb) 📇 ☁️ - A MCP server for The Movie
+          Database API that enables AI assistants to search and retrieve movie, TV show, and person information.
         confidence: high
 metadata:
   github:
@@ -30,17 +32,22 @@ metadata:
     archived: false
     full_name: drakonkat/wizzy-mcp-tmdb
     html_url: https://github.com/drakonkat/wizzy-mcp-tmdb
-    created_at: "2025-09-30T09:52:05Z"
-    pushed_at: "2025-09-30T10:59:20Z"
-    description: The wizzy-mcp-tmdb project is an MCP (Model Context Protocol) server implemented in JavaScript that provides tools to search and retrieve information from The Movie Database (TMDB). It allows AI clients to access movie, TV show, and person data through a standardized protocol.
+    created_at: '2025-09-30T09:52:05Z'
+    pushed_at: '2025-09-30T10:59:20Z'
+    description: >-
+      The wizzy-mcp-tmdb project is an MCP (Model Context Protocol) server implemented in JavaScript that provides tools
+      to search and retrieve information from The Movie Database (TMDB). It allows AI clients to access movie, TV show,
+      and person data through a standardized protocol.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:44.173Z"
+    last_checked_at: '2026-09-14T04:13:44.173Z'
     readme:
-      fetched_at: "2026-09-14T04:13:44.173Z"
+      fetched_at: '2026-09-14T04:13:44.173Z'
       bytes: 5550
 insights:
-  summary: An MCP server in JavaScript that exposes The Movie Database (TMDB) search and retrieval tools to AI clients via the Model Context Protocol.
+  summary: >-
+    An MCP server in JavaScript that exposes The Movie Database (TMDB) search and retrieval tools to AI clients via the
+    Model Context Protocol.
   why_it_matters: Developers can integrate TMDB data into AI workflows without custom API glue, using a standardized protocol.
   mental_damage: Now your AI can argue about whether Dune Part Two was better than the first one, directly in your terminal.
   tags:
@@ -58,24 +65,25 @@ curation:
     - Already listed in awesome-mcp-servers under Server Implementations > Art & Culture
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.611Z"
+    updated_at: '2026-05-06T22:12:15.611Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:44.173Z"
+    updated_at: '2026-09-14T04:13:44.173Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:38.940Z"
+    updated_at: '2026-07-21T15:51:38.940Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +96,9 @@ processing:
       input_hash: sha256:3574267f1ef8a120f1b1d1307bfa58f6a2e5ab014c67b8430203263b2805b0d4
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a domain-specific MCP server whose primary identity is providing TMDB data via the Model Context Protocol.
+      decision_reason: >-
+        This is a domain-specific MCP server whose primary identity is providing TMDB data via the Model Context
+        Protocol.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for TMDB
         - README details MCP tool calls and integration steps
@@ -96,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension for
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

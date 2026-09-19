@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ethbak__icon-composer-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: ethbak/icon-composer-mcp
         extracted_url: https://github.com/ethbak/icon-composer-mcp
-        surrounding_text: "- [ethbak/icon-composer-mcp](https://github.com/ethbak/icon-composer-mcp) [![ethbak/icon-composer-mcp MCP server](https://glama.ai/mcp/servers/ethbak/icon-composer-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ethbak/icon-composer-mcp) 📇 🏠 🍎 - MCP server for Apple's Icon Composer: programmatically create .icon bundles with Liquid Glass effects (iOS 26+). 12 tools for icon creation, glass effect tuning, dark mode appearances, and App Store export."
+        surrounding_text: >-
+          - [ethbak/icon-composer-mcp](https://github.com/ethbak/icon-composer-mcp) [![ethbak/icon-composer-mcp MCP
+          server](https://glama.ai/mcp/servers/ethbak/icon-composer-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ethbak/icon-composer-mcp)
+          📇 🏠 🍎 - MCP server for Apple's Icon Composer: programmatically create .icon bundles with Liquid Glass
+          effects (iOS 26+). 12 tools for icon creation, glass effect tuning, dark mode appearances, and App Store
+          export.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,9 @@ metadata:
     archived: false
     full_name: ethbak/icon-composer-mcp
     html_url: https://github.com/ethbak/icon-composer-mcp
-    created_at: "2026-04-02T06:26:55Z"
-    pushed_at: "2026-04-06T15:53:37Z"
-    description: "Apple Icon Composer CLI & MCP server: create and manipulate .icon bundles and images with Liquid Glass rendering"
+    created_at: '2026-04-02T06:26:55Z'
+    pushed_at: '2026-04-06T15:53:37Z'
+    description: 'Apple Icon Composer CLI & MCP server: create and manipulate .icon bundles and images with Liquid Glass rendering'
     homepage: https://www.npmjs.com/package/icon-composer-mcp
     topics:
       - anthropic
@@ -54,14 +59,18 @@ metadata:
       - nodejs
       - typescript
       - xcode
-    last_checked_at: "2026-08-27T09:23:25.781Z"
+    last_checked_at: '2026-08-27T09:23:25.781Z'
     readme:
-      fetched_at: "2026-08-27T09:23:25.781Z"
+      fetched_at: '2026-08-27T09:23:25.781Z'
       bytes: 27805
 insights:
   summary: An MCP server and CLI tool for creating Apple-style.icon bundles and images with Liquid Glass effects.
-  why_it_matters: It allows AI agents to programmatically generate and manipulate complex macOS/iOS icon assets that previously required manual work in Xcode or Icon Composer.
-  mental_damage: Because apparently, your LLM's next logical step is mastering the nuances of specular highlights and translucency for Apple's iOS 26 icon spec.
+  why_it_matters: >-
+    It allows AI agents to programmatically generate and manipulate complex macOS/iOS icon assets that previously
+    required manual work in Xcode or Icon Composer.
+  mental_damage: >-
+    Because apparently, your LLM's next logical step is mastering the nuances of specular highlights and translucency
+    for Apple's iOS 26 icon spec.
   tags:
     - mcp
     - macos
@@ -78,24 +87,25 @@ curation:
     - Includes configuration for Claude Desktop, Cursor, and Windsurf via MCP
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:25.781Z"
+    updated_at: '2026-08-27T09:23:25.781Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:53:18.016Z"
+    updated_at: '2026-07-21T15:53:18.016Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -116,6 +126,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the project's primary identity and distribution method is as an MCP server intended for protocol-based tool use.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the project's primary identity and distribution method is as an MCP
+        server intended for protocol-based tool use.
       review_reason: null
       review_resume_lifecycle: null

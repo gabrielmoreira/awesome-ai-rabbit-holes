@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hwchase17__langchain-gradio-template__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,7 +20,10 @@ provenance:
           - Templates
         anchor_text: Gradio Template
         extracted_url: https://github.com/hwchase17/langchain-gradio-template
-        surrounding_text: "- [Gradio Template](https://github.com/hwchase17/langchain-gradio-template): template for how to deploy a LangChain on Gradio ![GitHub Repo stars](https://img.shields.io/github/stars/hwchase17/langchain-gradio-template?style=social)"
+        surrounding_text: >-
+          - [Gradio Template](https://github.com/hwchase17/langchain-gradio-template): template for how to deploy a
+          LangChain on Gradio ![GitHub Repo
+          stars](https://img.shields.io/github/stars/hwchase17/langchain-gradio-template?style=social)
         confidence: high
 metadata:
   github:
@@ -30,19 +33,23 @@ metadata:
     archived: false
     full_name: hwchase17/langchain-gradio-template
     html_url: https://github.com/hwchase17/langchain-gradio-template
-    created_at: "2023-01-09T03:41:31Z"
-    pushed_at: "2023-01-19T21:24:11Z"
+    created_at: '2023-01-09T03:41:31Z'
+    pushed_at: '2023-01-19T21:24:11Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:40.547Z"
+    last_checked_at: '2026-07-30T05:05:40.547Z'
     readme:
-      fetched_at: "2026-07-30T05:05:40.547Z"
+      fetched_at: '2026-07-30T05:05:40.547Z'
       bytes: 978
 insights:
   summary: A template repository for deploying LangChain applications as Gradio apps, particularly for Hugging Face Spaces.
-  why_it_matters: It simplifies the process of sharing LangChain-based chatbots or chains as interactive web apps via Hugging Face Spaces.
-  mental_damage: Because nothing says 'production-ready' like a template that assumes you’ll remember to delete the README before deploying.
+  why_it_matters: >-
+    It simplifies the process of sharing LangChain-based chatbots or chains as interactive web apps via Hugging Face
+    Spaces.
+  mental_damage: >-
+    Because nothing says 'production-ready' like a template that assumes you’ll remember to delete the README before
+    deploying.
   tags:
     - langchain
     - gradio
@@ -52,31 +59,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a scaffolding template for turning LangChain chains into deployable Gradio apps, which fits the app-builder pattern of prompt-to-deployable-artifact.
+  reason: >-
+    This is a scaffolding template for turning LangChain chains into deployable Gradio apps, which fits the app-builder
+    pattern of prompt-to-deployable-artifact.
   evidence:
     - README explicitly describes it as a template for deploying LangChain on Gradio
     - Primary use case is creating and sharing LangChain apps via Hugging Face Spaces
     - Source-list context places it under 'Tools > Templates' in awesome-langchain
 placement:
   primary_category: app-builders
-  section: Local / Code-Scaffolding Builders
+  secondary_categories: []
+  section: Scaffolding & Boilerplate
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.619Z"
+    updated_at: '2026-05-06T22:12:15.619Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:40.547Z"
+    updated_at: '2026-07-30T05:05:40.547Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:07:08.137Z"
+    updated_at: '2026-07-21T16:07:08.137Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +99,9 @@ processing:
       input_hash: sha256:e2a6322267bba08aeef6f8a5631ad61f5821f91bd64bbc8b65e5915e6507d8c3
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: This is a scaffolding template for turning LangChain chains into deployable Gradio apps, which fits the app-builder pattern of prompt-to-deployable-artifact.
+      decision_reason: >-
+        This is a scaffolding template for turning LangChain chains into deployable Gradio apps, which fits the
+        app-builder pattern of prompt-to-deployable-artifact.
       decision_evidence:
         - README explicitly describes it as a template for deploying LangChain on Gradio
         - Primary use case is creating and sharing LangChain apps via Hugging Face Spaces
@@ -97,6 +109,8 @@ processing:
       category_candidates:
         - app-builders
         - ai-frameworks
-      contrastive_reason: Choose app-builders over ai-frameworks because the core value is scaffolding a deployable app, not providing code-first building blocks for embedding models.
+      contrastive_reason: >-
+        Choose app-builders over ai-frameworks because the core value is scaffolding a deployable app, not providing
+        code-first building blocks for embedding models.
       review_reason: null
       review_resume_lifecycle: null

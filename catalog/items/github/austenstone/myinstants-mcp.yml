@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__austenstone__myinstants-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: austenstone/myinstants-mcp
         extracted_url: https://github.com/austenstone/myinstants-mcp
-        surrounding_text: "- [austenstone/myinstants-mcp](https://github.com/austenstone/myinstants-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - A soundboard MCP server with millions of meme sounds from myinstants.com. Search, play, and browse categories — let your AI agent play vine boom when code compiles. `npx myinstants-mcp`"
+        surrounding_text: >-
+          - [austenstone/myinstants-mcp](https://github.com/austenstone/myinstants-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - A soundboard
+          MCP server with millions of meme sounds from myinstants.com. Search, play, and browse categories — let your AI
+          agent play vine boom when code compiles. `npx myinstants-mcp`
         confidence: high
     - id: discovery__github__austenstone__myinstants-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +38,11 @@ provenance:
           - 🎨 Art & Culture
         anchor_text: austenstone/myinstants-mcp
         extracted_url: https://github.com/austenstone/myinstants-mcp
-        surrounding_text: "-   **[austenstone/myinstants-mcp](https://github.com/austenstone/myinstants-mcp)** [![GitHub stars](https://img.shields.io/github/stars/austenstone/myinstants-mcp?style=social)](https://github.com/austenstone/myinstants-mcp): A soundboard MCP server with millions of meme sounds from myinstants.com. Search, play, and browse categories. `npx myinstants-mcp`"
+        surrounding_text: >-
+          -   **[austenstone/myinstants-mcp](https://github.com/austenstone/myinstants-mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/austenstone/myinstants-mcp?style=social)](https://github.com/austenstone/myinstants-mcp):
+          A soundboard MCP server with millions of meme sounds from myinstants.com. Search, play, and browse categories.
+          `npx myinstants-mcp`
         confidence: high
 metadata:
   github:
@@ -45,8 +52,8 @@ metadata:
     archived: false
     full_name: austenstone/myinstants-mcp
     html_url: https://github.com/austenstone/myinstants-mcp
-    created_at: "2026-02-18T03:03:51Z"
-    pushed_at: "2026-03-17T03:55:03Z"
+    created_at: '2026-02-18T03:03:51Z'
+    pushed_at: '2026-03-17T03:55:03Z'
     description: MCP server that lets your ai agent press sound buttons. it's not that deep.
     homepage: https://myinstants.com
     topics:
@@ -56,9 +63,9 @@ metadata:
       - mcp-server
       - memes
       - soundboard
-    last_checked_at: "2026-09-14T04:13:24.756Z"
+    last_checked_at: '2026-09-14T04:13:24.756Z'
     readme:
-      fetched_at: "2026-09-14T04:13:24.756Z"
+      fetched_at: '2026-09-14T04:13:24.756Z'
       bytes: 10762
 insights:
   summary: An MCP server that enables AI agents to search, browse, and play sounds from myinstants.com.
@@ -72,31 +79,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server whose primary identity is providing soundboard capabilities via the Model Context Protocol.
+  reason: >-
+    This is a dedicated MCP server whose primary identity is providing soundboard capabilities via the Model Context
+    Protocol.
   evidence:
     - Repo description explicitly states it is an MCP server for sound buttons
     - README confirms it is an MCP server connecting AI agents to myinstants.com
     - Listed in MCP-focused directories (awesome-mcp-list, awesome-mcp-servers)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.582Z"
+    updated_at: '2026-05-06T22:12:15.582Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:24.756Z"
+    updated_at: '2026-09-14T04:13:24.756Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:24:27.652Z"
+    updated_at: '2026-07-21T15:24:27.652Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -109,7 +119,9 @@ processing:
       input_hash: sha256:148282c22bdb304788303201fabd8b36c7baf3ed717bc882dc0a3e1dbecf356c
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a dedicated MCP server whose primary identity is providing soundboard capabilities via the Model Context Protocol.
+      decision_reason: >-
+        This is a dedicated MCP server whose primary identity is providing soundboard capabilities via the Model Context
+        Protocol.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for sound buttons
         - README confirms it is an MCP server connecting AI agents to myinstants.com
@@ -117,6 +129,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

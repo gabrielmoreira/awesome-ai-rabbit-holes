@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__crypto-sentiment-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/crypto-sentiment-mcp
         extracted_url: https://github.com/kukapay/crypto-sentiment-mcp
-        surrounding_text: "- [kukapay/crypto-sentiment-mcp](https://github.com/kukapay/crypto-sentiment-mcp) 🐍 ☁️ - An MCP server that delivers cryptocurrency sentiment analysis to AI agents."
+        surrounding_text: >-
+          - [kukapay/crypto-sentiment-mcp](https://github.com/kukapay/crypto-sentiment-mcp) 🐍 ☁️ - An MCP server that
+          delivers cryptocurrency sentiment analysis to AI agents.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,22 @@ metadata:
     archived: false
     full_name: kukapay/crypto-sentiment-mcp
     html_url: https://github.com/kukapay/crypto-sentiment-mcp
-    created_at: "2025-03-23T16:00:02Z"
-    pushed_at: "2025-03-27T22:59:59Z"
+    created_at: '2025-03-23T16:00:02Z'
+    pushed_at: '2025-03-27T22:59:59Z'
     description: An MCP server that delivers cryptocurrency sentiment analysis to AI agents.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:59.734Z"
+    last_checked_at: '2026-07-30T05:05:59.734Z'
     readme:
-      fetched_at: "2026-07-30T05:05:59.734Z"
+      fetched_at: '2026-07-30T05:05:59.734Z'
       bytes: 3849
 insights:
-  summary: An MCP server that provides cryptocurrency sentiment analysis to AI agents using Santiment's social media and news data.
-  why_it_matters: Developers can integrate real-time crypto sentiment metrics into AI workflows without building the data pipeline themselves.
+  summary: >-
+    An MCP server that provides cryptocurrency sentiment analysis to AI agents using Santiment's social media and news
+    data.
+  why_it_matters: >-
+    Developers can integrate real-time crypto sentiment metrics into AI workflows without building the data pipeline
+    themselves.
   mental_damage: Now your AI agent can panic about Bitcoin’s social dominance while you panic about your deadlines.
   tags:
     - mcp-server
@@ -52,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose primary identity is delivering domain-specific (crypto sentiment) data to AI agents via MCP.
+  reason: >-
+    The product is explicitly an MCP server whose primary identity is delivering domain-specific (crypto sentiment) data
+    to AI agents via MCP.
   evidence:
     - Repo description states it is 'An MCP server that delivers cryptocurrency sentiment analysis to AI agents'
     - README details MCP-compatible tools and configuration for server integration
     - Project is active (pushed 2025-03-27) and unarchived
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:59.734Z"
+    updated_at: '2026-07-30T05:05:59.734Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:52.781Z"
+    updated_at: '2026-07-21T16:13:52.781Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +98,9 @@ processing:
       input_hash: sha256:fef4ac20dd07f1b13d79d197248cafb5ddf96e5e8cafdcf9e50b238be7dee9f9
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server whose primary identity is delivering domain-specific (crypto sentiment) data to AI agents via MCP.
+      decision_reason: >-
+        The product is explicitly an MCP server whose primary identity is delivering domain-specific (crypto sentiment)
+        data to AI agents via MCP.
       decision_evidence:
         - Repo description states it is 'An MCP server that delivers cryptocurrency sentiment analysis to AI agents'
         - README details MCP-compatible tools and configuration for server integration
@@ -97,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product is an MCP server (protocol infrastructure) rather than a code-first SDK or library.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product is an MCP server (protocol infrastructure) rather than a
+        code-first SDK or library.
       review_reason: null
       review_resume_lifecycle: null

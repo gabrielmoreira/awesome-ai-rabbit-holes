@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__felipedaza7__swarm-tools__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -20,7 +20,9 @@ provenance:
           - Swarm Intelligence Frameworks
         anchor_text: Swarm-Tools
         extracted_url: https://github.com/felipedaza7/swarm-tools
-        surrounding_text: "| [Swarm-Tools](https://github.com/FelipeDaza7/swarm-tools) | Tool for coordinating AI agents with learning capabilities | ![Stars](https://img.shields.io/github/stars/FelipeDaza7/swarm-tools) |"
+        surrounding_text: >-
+          | [Swarm-Tools](https://github.com/FelipeDaza7/swarm-tools) | Tool for coordinating AI agents with learning
+          capabilities | ![Stars](https://img.shields.io/github/stars/FelipeDaza7/swarm-tools) |
         confidence: high
 metadata:
   github:
@@ -30,9 +32,11 @@ metadata:
     archived: false
     full_name: null
     html_url: null
-    created_at: "2020-10-26T16:35:19Z"
-    pushed_at: "2026-06-08T04:50:25Z"
-    description: 🐝 Boost productivity by coordinating AI agents that learn and adapt, breaking down tasks for efficient, parallel execution.
+    created_at: '2020-10-26T16:35:19Z'
+    pushed_at: '2026-06-08T04:50:25Z'
+    description: >-
+      🐝 Boost productivity by coordinating AI agents that learn and adapt, breaking down tasks for efficient, parallel
+      execution.
     homepage: https://felipedaza7.github.io
     topics:
       - agents-team
@@ -53,14 +57,20 @@ metadata:
       - swarm
       - swarmkit
       - swarmzero
-    last_checked_at: "2026-06-08T05:39:17.653Z"
+    last_checked_at: '2026-06-08T05:39:17.653Z'
     readme:
-      fetched_at: "2026-06-08T05:39:17.653Z"
+      fetched_at: '2026-06-08T05:39:17.653Z'
       bytes: 5020
 insights:
-  summary: A GUI and CLI application for coordinating multiple AI agents in parallel, featuring learning capabilities and issue tracking for swarm-based task execution.
-  why_it_matters: It provides a visual workbench for developers to manage multi-agent workflows and track agent performance without writing orchestration code from scratch.
-  mental_damage: Yet another desktop wrapper promising to tame the multi-agent chaos, conveniently released as a .zip file that thinks it is an installer.
+  summary: >-
+    A GUI and CLI application for coordinating multiple AI agents in parallel, featuring learning capabilities and issue
+    tracking for swarm-based task execution.
+  why_it_matters: >-
+    It provides a visual workbench for developers to manage multi-agent workflows and track agent performance without
+    writing orchestration code from scratch.
+  mental_damage: >-
+    Yet another desktop wrapper promising to tame the multi-agent chaos, conveniently released as a .zip file that
+    thinks it is an installer.
   tags:
     - multi-agent
     - orchestration
@@ -70,37 +80,42 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product is a standalone GUI and CLI workbench for coordinating multiple AI agents, fitting the definition of an operated surface for multi-agent workflows rather than a code-first framework.
+  reason: >-
+    The product is a standalone GUI and CLI workbench for coordinating multiple AI agents, fitting the definition of an
+    operated surface for multi-agent workflows rather than a code-first framework.
   evidence:
     - Repo description states it helps 'coordinate AI agents... for efficient, parallel execution' with a GUI and CLI.
     - README details a 'user-friendly application' with a dashboard to 'manage multiple AI agents' and 'track issues'.
-    - Source list places it under 'Core Frameworks > Swarm Intelligence Frameworks', though the README emphasizes the GUI/workbench identity.
+    - >-
+      Source list places it under 'Core Frameworks > Swarm Intelligence Frameworks', though the README emphasizes the
+      GUI/workbench identity.
 placement:
   primary_category: agent-orchestration
-  section: Workbenches & Collaboration Surfaces
+  secondary_categories: []
+  section: Visual Builders & Workbenches
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.614Z"
+    updated_at: '2026-05-06T22:12:15.614Z'
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: "2026-09-03T05:16:41.222Z"
+    updated_at: '2026-09-03T05:16:41.222Z'
     cause:
       type: github_repo_missing
-      message: "GitHub repository not found: felipedaza7/swarm-tools"
+      message: 'GitHub repository not found: felipedaza7/swarm-tools'
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__smart-ai-memory__empathy-framework__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: Smart-AI-Memory/empathy-framework
         extracted_url: https://github.com/smart-ai-memory/empathy-framework
-        surrounding_text: "- [Smart-AI-Memory/empathy-framework](https://github.com/Smart-AI-Memory/empathy-framework) 🐍 🏠 - Five-level AI collaboration system with persistent memory and anticipatory capabilities. MCP-native integration for Claude and other LLMs with local-first architecture via MemDocs."
+        surrounding_text: >-
+          - [Smart-AI-Memory/empathy-framework](https://github.com/Smart-AI-Memory/empathy-framework) 🐍 🏠 - Five-level
+          AI collaboration system with persistent memory and anticipatory capabilities. MCP-native integration for
+          Claude and other LLMs with local-first architecture via MemDocs.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,12 @@ metadata:
     archived: false
     full_name: Smart-AI-Memory/empathy-framework
     html_url: https://github.com/Smart-AI-Memory/empathy-framework
-    created_at: "2025-11-08T15:11:44Z"
-    pushed_at: "2026-04-13T14:02:03Z"
-    description: "Combining a five-level AI framework with git-native memory overcomes session amnesia, enabling anticipation of problems weeks early. Production results: 2000x cost reduction, 10x+ productivity, shifting AI from reactive to predictive partnership through emotional intelligence, tactical empathy, and systems thinking."
+    created_at: '2025-11-08T15:11:44Z'
+    pushed_at: '2026-04-13T14:02:03Z'
+    description: >-
+      Combining a five-level AI framework with git-native memory overcomes session amnesia, enabling anticipation of
+      problems weeks early. Production results: 2000x cost reduction, 10x+ productivity, shifting AI from reactive to
+      predictive partnership through emotional intelligence, tactical empathy, and systems thinking.
     homepage: https://smartaimemory.com
     topics:
       - ai
@@ -55,14 +61,20 @@ metadata:
       - open-source
       - python
       - testing
-    last_checked_at: "2026-07-20T16:42:59.417Z"
+    last_checked_at: '2026-07-20T16:42:59.417Z'
     readme:
-      fetched_at: "2026-07-20T16:42:59.417Z"
+      fetched_at: '2026-07-20T16:42:59.417Z'
       bytes: 19674
 insights:
-  summary: A Python framework that provides git-native memory and cost-optimized workflows for running code review, debugging, and testing tasks via the terminal or Claude Code.
-  why_it_matters: It focuses on making Claude the primary coding partner by adding session-persistent memory and smart tier routing to reduce LLM costs by up to 90%.
-  mental_damage: Because nothing says 'emotional intelligence' like a Python pip install that promises to predict your bugs weeks in advance while shaming you for not routing your large modules to the expensive API tier.
+  summary: >-
+    A Python framework that provides git-native memory and cost-optimized workflows for running code review, debugging,
+    and testing tasks via the terminal or Claude Code.
+  why_it_matters: >-
+    It focuses on making Claude the primary coding partner by adding session-persistent memory and smart tier routing to
+    reduce LLM costs by up to 90%.
+  mental_damage: >-
+    Because nothing says 'emotional intelligence' like a Python pip install that promises to predict your bugs weeks in
+    advance while shaming you for not routing your large modules to the expensive API tier.
   tags:
     - claude-code
     - memory
@@ -72,35 +84,40 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: While it provides memory and workflow extensions for Claude Code, its primary identity is a CLI framework that developers use as the direct orchestrator for code review, debugging, and testing tasks.
+  reason: >-
+    While it provides memory and workflow extensions for Claude Code, its primary identity is a CLI framework that
+    developers use as the direct orchestrator for code review, debugging, and testing tasks.
   evidence:
     - Repo description defines it as a 'five-level AI framework' for running developer workflows.
-    - README shows v5.1.0 includes 'Multi-Agent Orchestration' and a dashboard for running workflows like code-review and bug-predict directly.
+    - >-
+      README shows v5.1.0 includes 'Multi-Agent Orchestration' and a dashboard for running workflows like code-review
+      and bug-predict directly.
     - Instructions explicitly state it runs 'from your terminal or Claude Code' as the primary interface.
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: Claude Code & Agent Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.648Z"
+    updated_at: '2026-05-06T22:12:15.648Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:59.417Z"
+    updated_at: '2026-07-20T16:42:59.417Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

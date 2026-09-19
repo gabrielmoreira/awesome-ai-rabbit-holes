@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__itcaat__teamcity-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: TeamCity
         extracted_url: https://github.com/itcaat/teamcity-mcp
-        surrounding_text: "- **[TeamCity](https://github.com/itcaat/teamcity-mcp)** - MCP server for TeamCity, integrates with Claude Desktop and Cursor."
+        surrounding_text: >-
+          - **[TeamCity](https://github.com/itcaat/teamcity-mcp)** - MCP server for TeamCity, integrates with Claude
+          Desktop and Cursor.
         confidence: high
 metadata:
   github:
@@ -29,18 +31,22 @@ metadata:
     archived: false
     full_name: itcaat/teamcity-mcp
     html_url: https://github.com/itcaat/teamcity-mcp
-    created_at: "2025-06-26T08:32:03Z"
-    pushed_at: "2025-12-09T18:29:18Z"
+    created_at: '2025-06-26T08:32:03Z'
+    pushed_at: '2025-12-09T18:29:18Z'
     description: Teamcity MCP Server
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:05:45.610Z"
+    last_checked_at: '2026-07-30T05:05:45.610Z'
     readme:
-      fetched_at: "2026-07-30T05:05:45.610Z"
+      fetched_at: '2026-07-30T05:05:45.610Z'
       bytes: 25662
 insights:
-  summary: An MCP server that exposes JetBrains TeamCity as structured AI-ready resources and tools for LLM agents and IDE plugins.
-  why_it_matters: Developers can integrate TeamCity CI/CD data and operations directly into AI workflows, enabling agents to trigger builds, search artifacts, or monitor pipelines without leaving their coding environment.
+  summary: >-
+    An MCP server that exposes JetBrains TeamCity as structured AI-ready resources and tools for LLM agents and IDE
+    plugins.
+  why_it_matters: >-
+    Developers can integrate TeamCity CI/CD data and operations directly into AI workflows, enabling agents to trigger
+    builds, search artifacts, or monitor pipelines without leaving their coding environment.
   mental_damage: Now your AI can blame the build server for you, in real time.
   tags:
     - mcp
@@ -51,31 +57,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server whose primary identity is providing TeamCity integration via the Model Context Protocol.
+  reason: >-
+    This is a dedicated MCP server whose primary identity is providing TeamCity integration via the Model Context
+    Protocol.
   evidence:
     - Repo description explicitly identifies it as a 'Teamcity MCP Server'
     - README details full MCP protocol compliance and TeamCity resource exposure
     - Already curated in awesome-mcp-servers under 'Community Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.621Z"
+    updated_at: '2026-05-06T22:12:15.621Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:45.610Z"
+    updated_at: '2026-07-30T05:05:45.610Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:09:18.368Z"
+    updated_at: '2026-07-21T16:09:18.368Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +97,9 @@ processing:
       input_hash: sha256:84273623a129e723ae328b3a3c68933711bc2f147f6c501122d33cc5c30ad8c8
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a dedicated MCP server whose primary identity is providing TeamCity integration via the Model Context Protocol.
+      decision_reason: >-
+        This is a dedicated MCP server whose primary identity is providing TeamCity integration via the Model Context
+        Protocol.
       decision_evidence:
         - Repo description explicitly identifies it as a 'Teamcity MCP Server'
         - README details full MCP protocol compliance and TeamCity resource exposure
@@ -96,6 +107,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another tool.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an
+        extension for another tool.
       review_reason: null
       review_resume_lifecycle: null

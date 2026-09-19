@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hangwin__mcp-chrome__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -21,7 +21,9 @@ provenance:
           - Browser & Automation
         anchor_text: mcp-chrome
         extracted_url: https://github.com/hangwin/mcp-chrome
-        surrounding_text: "| [mcp-chrome](https://github.com/hangwin/mcp-chrome) | Chrome extension for browser control | ![Stars](https://img.shields.io/github/stars/hangwin/mcp-chrome) |"
+        surrounding_text: >-
+          | [mcp-chrome](https://github.com/hangwin/mcp-chrome) | Chrome extension for browser control |
+          ![Stars](https://img.shields.io/github/stars/hangwin/mcp-chrome) |
         confidence: high
 metadata:
   github:
@@ -31,19 +33,28 @@ metadata:
     archived: false
     full_name: hangwin/mcp-chrome
     html_url: https://github.com/hangwin/mcp-chrome
-    created_at: "2025-06-09T09:07:06Z"
-    pushed_at: "2026-01-06T13:05:39Z"
-    description: Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) server that exposes your Chrome browser functionality to AI assistants like Claude, enabling complex browser automation, content analysis, and semantic search.
-    homepage: ""
+    created_at: '2025-06-09T09:07:06Z'
+    pushed_at: '2026-01-06T13:05:39Z'
+    description: >-
+      Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) server that exposes your Chrome browser
+      functionality to AI assistants like Claude, enabling complex browser automation, content analysis, and semantic
+      search.
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-03T05:16:57.454Z"
+    last_checked_at: '2026-09-03T05:16:57.454Z'
     readme:
-      fetched_at: "2026-09-03T05:16:57.454Z"
+      fetched_at: '2026-09-03T05:16:57.454Z'
       bytes: 13102
 insights:
-  summary: Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) server that exposes Chrome browser functionality to AI assistants like Claude for automation and content analysis.
-  why_it_matters: It lets developers delegate browser automation, content extraction, and semantic search to AI assistants while reusing their existing Chrome sessions, login states, and configurations.
-  mental_damage: Now your AI can open 50 tabs of Stack Overflow answers just like you do, but with the confidence of a senior engineer who never closes them.
+  summary: >-
+    Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) server that exposes Chrome browser
+    functionality to AI assistants like Claude for automation and content analysis.
+  why_it_matters: >-
+    It lets developers delegate browser automation, content extraction, and semantic search to AI assistants while
+    reusing their existing Chrome sessions, login states, and configurations.
+  mental_damage: >-
+    Now your AI can open 50 tabs of Stack Overflow answers just like you do, but with the confidence of a senior
+    engineer who never closes them.
   tags:
     - mcp
     - browser-automation
@@ -53,31 +64,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server exposing Chrome capabilities, not merely an MCP-compatible extension."
+  reason: >-
+    MCP is the product identity: this is a dedicated MCP server exposing Chrome capabilities, not merely an
+    MCP-compatible extension.
   evidence:
     - Repo description explicitly identifies it as a Chrome extension-based MCP server
     - README emphasizes MCP as the core protocol and Chrome integration as the domain
     - Source-list context places it under MCP > Browser & Automation
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: promotion_candidate
   reason: Stars (11436) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.618Z"
+    updated_at: '2026-05-06T22:12:15.618Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:57.454Z"
+    updated_at: '2026-09-03T05:16:57.454Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:04:50.147Z"
+    updated_at: '2026-07-21T16:04:50.147Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -90,7 +104,9 @@ processing:
       input_hash: sha256:a10f9e9a0c68d86674b40093937774df09a3d26dcca506451fb62c6a66782699
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing Chrome capabilities, not merely an MCP-compatible extension."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server exposing Chrome capabilities, not merely an
+        MCP-compatible extension.
       decision_evidence:
         - Repo description explicitly identifies it as a Chrome extension-based MCP server
         - README emphasizes MCP as the core protocol and Chrome integration as the domain
@@ -98,6 +114,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary identity is as an MCP server (not just a Chrome extension that happens to use MCP).
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary identity is as an MCP server (not just a Chrome extension
+        that happens to use MCP).
       review_reason: null
       review_resume_lifecycle: null

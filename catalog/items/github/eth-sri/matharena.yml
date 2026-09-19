@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__eth-sri__matharena__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,7 @@ provenance:
           - 评估 Evaluation
         anchor_text: MathArena
         extracted_url: https://github.com/eth-sri/matharena
-        surrounding_text: "16. [MathArena](https://github.com/eth-sri/matharena): Evaluation of LLMs on latest math competitions."
+        surrounding_text: '16. [MathArena](https://github.com/eth-sri/matharena): Evaluation of LLMs on latest math competitions.'
         confidence: high
 metadata:
   github:
@@ -29,20 +29,22 @@ metadata:
     archived: false
     full_name: eth-sri/matharena
     html_url: https://github.com/eth-sri/matharena
-    created_at: "2025-02-12T19:06:14Z"
-    pushed_at: "2026-06-23T22:50:27Z"
+    created_at: '2025-02-12T19:06:14Z'
+    pushed_at: '2026-06-23T22:50:27Z'
     description: Evaluation of LLMs on latest math competitions
     homepage: https://matharena.ai
     topics:
       - evaluating-models
       - llm
-    last_checked_at: "2026-08-27T09:23:25.638Z"
+    last_checked_at: '2026-08-27T09:23:25.638Z'
     readme:
-      fetched_at: "2026-08-27T09:23:25.638Z"
+      fetched_at: '2026-08-27T09:23:25.638Z'
       bytes: 9465
 insights:
   summary: An evaluation platform for testing LLM performance on recent mathematical competitions and olympiads.
-  why_it_matters: It provides standardized benchmarks and reasoning traces to measure how well models handle complex, multi-step mathematical reasoning.
+  why_it_matters: >-
+    It provides standardized benchmarks and reasoning traces to measure how well models handle complex, multi-step
+    mathematical reasoning.
   mental_damage: Nothing says 'tate of the art' like watching a trillion-parameter model struggle with high school math problems.
   tags:
     - llm-evaluation
@@ -52,31 +54,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's core identity is measuring and scoring model behavior on complex reasoning tasks, which aligns perfectly with the Evals category.
+  reason: >-
+    The tool's core identity is measuring and scoring model behavior on complex reasoning tasks, which aligns perfectly
+    with the Evals category.
   evidence:
     - Repo description specifically mentions 'Evaluation of LLMs on latest math competitions'
     - README describes running evaluation scripts to measure model performance across various competition datasets
     - Provides logs of reasoning traces and solutions for scoring and comparison
 placement:
   primary_category: evals
-  section: Agent Benchmarks
+  secondary_categories: []
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: promotion_candidate
   reason: Stars (257) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:25.638Z"
+    updated_at: '2026-08-27T09:23:25.638Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:53:09.802Z"
+    updated_at: '2026-07-21T15:53:09.802Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +94,9 @@ processing:
       input_hash: sha256:abea13210b7e6e0374100a8e9904bb133a297651efb8b4a62ae057eaa99a02eb
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: The tool's core identity is measuring and scoring model behavior on complex reasoning tasks, which aligns perfectly with the Evals category.
+      decision_reason: >-
+        The tool's core identity is measuring and scoring model behavior on complex reasoning tasks, which aligns
+        perfectly with the Evals category.
       decision_evidence:
         - Repo description specifically mentions 'Evaluation of LLMs on latest math competitions'
         - README describes running evaluation scripts to measure model performance across various competition datasets
@@ -97,6 +104,8 @@ processing:
       category_candidates:
         - evals
         - ai-frameworks
-      contrastive_reason: Choose evals over ai-frameworks because the primary product identity is the evaluation and measurement of model reasoning rather than a general-purpose developer SDK.
+      contrastive_reason: >-
+        Choose evals over ai-frameworks because the primary product identity is the evaluation and measurement of model
+        reasoning rather than a general-purpose developer SDK.
       review_reason: null
       review_resume_lifecycle: null

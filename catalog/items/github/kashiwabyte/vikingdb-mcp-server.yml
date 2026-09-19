@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kashiwabyte__vikingdb-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: KashiwaByte/vikingdb-mcp-server
         extracted_url: https://github.com/kashiwabyte/vikingdb-mcp-server
-        surrounding_text: "- [KashiwaByte/vikingdb-mcp-server](https://github.com/KashiwaByte/vikingdb-mcp-server) 🐍 ☁️ - VikingDB integration with collection and index introduction, vector store and search capabilities."
+        surrounding_text: >-
+          - [KashiwaByte/vikingdb-mcp-server](https://github.com/KashiwaByte/vikingdb-mcp-server) 🐍 ☁️ - VikingDB
+          integration with collection and index introduction, vector store and search capabilities.
         confidence: high
     - id: discovery__github__kashiwabyte__vikingdb-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - 🗄️ Databases
         anchor_text: KashiwaByte/vikingdb-mcp-server
         extracted_url: https://github.com/kashiwabyte/vikingdb-mcp-server
-        surrounding_text: "-   **[KashiwaByte/vikingdb-mcp-server](https://github.com/KashiwaByte/vikingdb-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/KashiwaByte/vikingdb-mcp-server?style=social)](https://github.com/KashiwaByte/vikingdb-mcp-server): Integrates with VikingDB for vector store and search functionalities."
+        surrounding_text: >-
+          -   **[KashiwaByte/vikingdb-mcp-server](https://github.com/KashiwaByte/vikingdb-mcp-server)** [![GitHub
+          stars](https://img.shields.io/github/stars/KashiwaByte/vikingdb-mcp-server?style=social)](https://github.com/KashiwaByte/vikingdb-mcp-server):
+          Integrates with VikingDB for vector store and search functionalities.
         confidence: high
 metadata:
   github:
@@ -45,18 +50,22 @@ metadata:
     archived: false
     full_name: KashiwaByte/vikingdb-mcp-server
     html_url: https://github.com/KashiwaByte/vikingdb-mcp-server
-    created_at: "2024-12-06T10:40:00Z"
-    pushed_at: "2025-08-18T16:22:11Z"
+    created_at: '2024-12-06T10:40:00Z'
+    pushed_at: '2025-08-18T16:22:11Z'
     description: a mcp server for vikingdb store and search
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:54.879Z"
+    last_checked_at: '2026-07-30T05:05:54.879Z'
     readme:
-      fetched_at: "2026-07-30T05:05:54.879Z"
+      fetched_at: '2026-07-30T05:05:54.879Z'
       bytes: 4266
 insights:
-  summary: An MCP server that enables store and search operations for VikingDB, a high-performance vector database by ByteDance.
-  why_it_matters: Developers can integrate VikingDB's vector search capabilities directly into MCP-compatible workflows, enabling AI agents to query and manage vector data.
+  summary: >-
+    An MCP server that enables store and search operations for VikingDB, a high-performance vector database by
+    ByteDance.
+  why_it_matters: >-
+    Developers can integrate VikingDB's vector search capabilities directly into MCP-compatible workflows, enabling AI
+    agents to query and manage vector data.
   mental_damage: Now your AI agent can also lose sleep over which vector database to use.
   tags:
     - mcp
@@ -67,31 +76,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server for VikingDB, making MCP its primary identity rather than a compatibility feature.
+  reason: >-
+    The product is explicitly an MCP server for VikingDB, making MCP its primary identity rather than a compatibility
+    feature.
   evidence:
     - Repo description states it is 'a mcp server for vikingdb store and search'
     - README confirms it implements MCP tools for VikingDB operations
     - Listed in multiple MCP server directories under Databases
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.589Z"
+    updated_at: '2026-05-06T22:12:15.589Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:54.879Z"
+    updated_at: '2026-07-30T05:05:54.879Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:12:06.157Z"
+    updated_at: '2026-07-21T16:12:06.157Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,7 +116,9 @@ processing:
       input_hash: sha256:f26bffa0a72db34210794fddf4ca4dd00c57da046c4e8a0fc0e19e59786b01a0
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server for VikingDB, making MCP its primary identity rather than a compatibility feature.
+      decision_reason: >-
+        The product is explicitly an MCP server for VikingDB, making MCP its primary identity rather than a
+        compatibility feature.
       decision_evidence:
         - Repo description states it is 'a mcp server for vikingdb store and search'
         - README confirms it implements MCP tools for VikingDB operations
@@ -112,6 +126,8 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product's core identity is as an MCP server, not a general SDK or framework.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product's core identity is as an MCP server, not a general SDK or
+        framework.
       review_reason: null
       review_resume_lifecycle: null

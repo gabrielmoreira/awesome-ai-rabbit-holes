@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__botpress__botpress__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -19,7 +19,9 @@ provenance:
           - Other LLM Frameworks
         anchor_text: Botpress
         extracted_url: https://github.com/botpress/botpress
-        surrounding_text: "- [Botpress](https://github.com/botpress/botpress): The building blocks for building chatbots ![GitHub Repo stars](https://img.shields.io/github/stars/botpress/botpress?style=social)"
+        surrounding_text: >-
+          - [Botpress](https://github.com/botpress/botpress): The building blocks for building chatbots ![GitHub Repo
+          stars](https://img.shields.io/github/stars/botpress/botpress?style=social)
         confidence: high
 metadata:
   github:
@@ -29,8 +31,8 @@ metadata:
     archived: false
     full_name: botpress/botpress
     html_url: https://github.com/botpress/botpress
-    created_at: "2016-11-16T21:57:59Z"
-    pushed_at: "2026-09-04T22:33:01Z"
+    created_at: '2016-11-16T21:57:59Z'
+    pushed_at: '2026-09-04T22:33:01Z'
     description: The open-source hub to build & deploy GPT/LLM Agents ⚡️
     homepage: https://botpress.com
     topics:
@@ -46,14 +48,18 @@ metadata:
       - nlp
       - openai
       - prompt
-    last_checked_at: "2026-09-07T04:13:36.840Z"
+    last_checked_at: '2026-09-07T04:13:36.840Z'
     readme:
-      fetched_at: "2026-09-07T04:13:36.840Z"
+      fetched_at: '2026-09-07T04:13:36.840Z'
       bytes: 7020
 insights:
   summary: An open-source platform for building and deploying GPT/LLM-powered chatbots and assistants.
-  why_it_matters: It provides developers with a full-stack environment to create, deploy, and manage AI agents for chatbots and assistants, accelerating the development of conversational AI applications.
-  mental_damage: Because nothing says 'next-generation' like realizing your chatbot still can't remember what you asked it two messages ago.
+  why_it_matters: >-
+    It provides developers with a full-stack environment to create, deploy, and manage AI agents for chatbots and
+    assistants, accelerating the development of conversational AI applications.
+  mental_damage: >-
+    Because nothing says 'next-generation' like realizing your chatbot still can't remember what you asked it two
+    messages ago.
   tags:
     - agent-platform
     - chatbot-framework
@@ -63,31 +69,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Botpress is primarily a platform for coordinating and deploying AI agents and chatbots, fitting the agent orchestration category as a workbench and runtime surface.
+  reason: >-
+    Botpress is primarily a platform for coordinating and deploying AI agents and chatbots, fitting the agent
+    orchestration category as a workbench and runtime surface.
   evidence:
-    - "Repo description: 'The open-source hub to build & deploy GPT/LLM Agents'"
-    - "README: 'Botpress is the ultimate platform for building next-generation chatbots and assistants powered by OpenAI'"
+    - 'Repo description: ''The open-source hub to build & deploy GPT/LLM Agents'''
+    - 'README: ''Botpress is the ultimate platform for building next-generation chatbots and assistants powered by OpenAI'''
     - Includes SDK, CLI, and integrations for building and managing bots
 placement:
   primary_category: agent-orchestration
-  section: Workbenches & Collaboration Surfaces
+  secondary_categories: []
+  section: Visual Builders & Workbenches
 lifecycle:
   status: promotion_candidate
   reason: Stars (14673) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.606Z"
+    updated_at: '2026-05-06T22:12:15.606Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:36.840Z"
+    updated_at: '2026-09-07T04:13:36.840Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:26:36.060Z"
+    updated_at: '2026-07-21T15:26:36.060Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -100,14 +109,20 @@ processing:
       input_hash: sha256:af9079e31586f14d81a56dd581df36568ebb0335f54cc62df7d184597c0ffa69
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: Botpress is primarily a platform for coordinating and deploying AI agents and chatbots, fitting the agent orchestration category as a workbench and runtime surface.
+      decision_reason: >-
+        Botpress is primarily a platform for coordinating and deploying AI agents and chatbots, fitting the agent
+        orchestration category as a workbench and runtime surface.
       decision_evidence:
-        - "Repo description: 'The open-source hub to build & deploy GPT/LLM Agents'"
-        - "README: 'Botpress is the ultimate platform for building next-generation chatbots and assistants powered by OpenAI'"
+        - 'Repo description: ''The open-source hub to build & deploy GPT/LLM Agents'''
+        - >-
+          README: 'Botpress is the ultimate platform for building next-generation chatbots and assistants powered by
+          OpenAI'
         - Includes SDK, CLI, and integrations for building and managing bots
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated workbench and runtime platform for building/deploying agents, not primarily a code-first library or SDK.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because the product is an operated workbench and runtime platform
+        for building/deploying agents, not primarily a code-first library or SDK.
       review_reason: null
       review_resume_lifecycle: null

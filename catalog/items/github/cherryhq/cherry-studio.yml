@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cherryhq__cherry-studio__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 推理 Inference
         anchor_text: Cherry Studio (`🔥`)
         extracted_url: https://github.com/cherryhq/cherry-studio
-        surrounding_text: "49. [Cherry Studio (`🔥`)](https://github.com/CherryHQ/cherry-studio): a desktop client that supports for multiple LLM providers, available on Windows, Mac and Linux."
+        surrounding_text: >-
+          49. [Cherry Studio (`🔥`)](https://github.com/CherryHQ/cherry-studio): a desktop client that supports for
+          multiple LLM providers, available on Windows, Mac and Linux.
         confidence: high
 metadata:
   github:
@@ -29,8 +31,8 @@ metadata:
     archived: false
     full_name: CherryHQ/cherry-studio
     html_url: https://github.com/CherryHQ/cherry-studio
-    created_at: "2024-05-24T01:56:26Z"
-    pushed_at: "2026-09-07T04:06:07Z"
+    created_at: '2024-05-24T01:56:26Z'
+    pushed_at: '2026-09-07T04:06:07Z'
     description: AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs
     homepage: https://cherryai.com
     topics:
@@ -43,13 +45,17 @@ metadata:
       - hermes-agent
       - skills
       - vibe-coding
-    last_checked_at: "2026-09-07T04:13:44.196Z"
+    last_checked_at: '2026-09-07T04:13:44.196Z'
     readme:
-      fetched_at: "2026-09-07T04:13:44.196Z"
+      fetched_at: '2026-09-07T04:13:44.196Z'
       bytes: 19398
 insights:
-  summary: AI productivity studio offering smart chat, autonomous agents, and 300+ assistants with unified access to frontier LLMs.
-  why_it_matters: Developers can delegate tasks across a unified interface with access to multiple models and pre-built assistants, streamlining AI-driven workflows.
+  summary: >-
+    AI productivity studio offering smart chat, autonomous agents, and 300+ assistants with unified access to frontier
+    LLMs.
+  why_it_matters: >-
+    Developers can delegate tasks across a unified interface with access to multiple models and pre-built assistants,
+    streamlining AI-driven workflows.
   mental_damage: Now you can argue with 300+ assistants about whether your code is actually done.
   tags:
     - ai-studio
@@ -60,31 +66,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The primary product identity is a desktop application for interacting with various LLMs (cloud and local), fitting the 'Local AI' desktop interface definition.
+  reason: >-
+    The primary product identity is a desktop application for interacting with various LLMs (cloud and local), fitting
+    the 'Local AI' desktop interface definition.
   evidence:
     - Repo description explicitly calls it an 'AI productivity studio' with 'unified access to frontier LLMs'.
-    - README states 'Cherry Studio is a desktop client that supports multiple LLM providers, available on Windows, Mac and Linux.'
-    - Features include local model support via Ollama/LM Studio and a dedicated MCP Server section, acting as a host interface.
+    - >-
+      README states 'Cherry Studio is a desktop client that supports multiple LLM providers, available on Windows, Mac
+      and Linux.'
+    - >-
+      Features include local model support via Ollama/LM Studio and a dedicated MCP Server section, acting as a host
+      interface.
 placement:
   primary_category: local-ai
-  section: null
+  secondary_categories: []
+  section: Desktop Chat & UIs
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'agent-orchestration'"
+  reason: 'Categorization review required: placement disagreement: retained ''local-ai'', proposed ''agent-orchestration'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.607Z"
+    updated_at: '2026-05-06T22:12:15.607Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:44.196Z"
+    updated_at: '2026-09-07T04:13:44.196Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:41:29.929Z"
+    updated_at: '2026-07-21T15:41:29.929Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -97,14 +110,18 @@ processing:
       input_hash: sha256:34dad6fc134b550fa1e2586fbf25ce2e420b4b7f5529f223b7cc766ae13c1428
       proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: The product is a workbench for coordinating multiple agents and assistants, fitting the agent orchestration category.
+      decision_reason: >-
+        The product is a workbench for coordinating multiple agents and assistants, fitting the agent orchestration
+        category.
       decision_evidence:
-        - "Repo description: AI productivity studio with smart chat, autonomous agents, and 300+ assistants"
+        - 'Repo description: AI productivity studio with smart chat, autonomous agents, and 300+ assistants'
         - Topics include agent-skills, ai-agent, and hermes-agent
         - High star count (48771) and active development (pushed recently)
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because the core value is multi-agent coordination and a unified studio interface rather than direct repo-level coding assistance.
-      review_reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'agent-orchestration'"
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because the core value is multi-agent coordination and a unified
+        studio interface rather than direct repo-level coding assistance.
+      review_reason: 'Categorization review required: placement disagreement: retained ''local-ai'', proposed ''agent-orchestration'''
       review_resume_lifecycle: null

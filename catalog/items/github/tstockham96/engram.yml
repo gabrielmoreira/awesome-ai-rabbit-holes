@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tstockham96__engram__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: tstockham96/engram
         extracted_url: https://github.com/tstockham96/engram
-        surrounding_text: "- [tstockham96/engram](https://github.com/tstockham96/engram) [![engram MCP server](https://glama.ai/mcp/servers/@tstockham96/engram/badges/score.svg)](https://glama.ai/mcp/servers/@tstockham96/engram) 📇 🏠 🍎 🪟 🐧 - Intelligent agent memory with semantic recall, automatic consolidation, contradiction detection, and bi-temporal knowledge graph. 80% on LOCOMO benchmark using 96% fewer tokens than full-context approaches."
+        surrounding_text: >-
+          - [tstockham96/engram](https://github.com/tstockham96/engram) [![engram MCP
+          server](https://glama.ai/mcp/servers/@tstockham96/engram/badges/score.svg)](https://glama.ai/mcp/servers/@tstockham96/engram)
+          📇 🏠 🍎 🪟 🐧 - Intelligent agent memory with semantic recall, automatic consolidation, contradiction
+          detection, and bi-temporal knowledge graph. 80% on LOCOMO benchmark using 96% fewer tokens than full-context
+          approaches.
         confidence: high
 metadata:
   github:
@@ -30,19 +35,25 @@ metadata:
     archived: false
     full_name: tstockham96/engram
     html_url: https://github.com/tstockham96/engram
-    created_at: "2026-02-16T06:16:25Z"
-    pushed_at: "2026-05-04T15:31:38Z"
+    created_at: '2026-02-16T06:16:25Z'
+    pushed_at: '2026-05-04T15:31:38Z'
     description: Universal memory layer for AI agents. Remember, recall, consolidate.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:20:56.592Z"
+    last_checked_at: '2026-07-21T15:20:56.592Z'
     readme:
-      fetched_at: "2026-07-21T15:20:56.592Z"
+      fetched_at: '2026-07-21T15:20:56.592Z'
       bytes: 13753
 insights:
-  summary: Universal memory layer for AI agents that stores memories in a local SQLite knowledge graph with semantic vector search and LLM-powered consolidation.
-  why_it_matters: It replaces flat markdown memory files like CLAUDE.md with a structured, cross-project knowledge graph that claims 80% recall accuracy on long-conversation benchmarks while cutting token usage by 44% compared to manual summaries.
-  mental_damage: Because apparently a multi-billion-parameter language model still needs a separate SQLite database and a 'sleep cycle' to remember where you put your utility functions.
+  summary: >-
+    Universal memory layer for AI agents that stores memories in a local SQLite knowledge graph with semantic vector
+    search and LLM-powered consolidation.
+  why_it_matters: >-
+    It replaces flat markdown memory files like CLAUDE.md with a structured, cross-project knowledge graph that claims
+    80% recall accuracy on long-conversation benchmarks while cutting token usage by 44% compared to manual summaries.
+  mental_damage: >-
+    Because apparently a multi-billion-parameter language model still needs a separate SQLite database and a 'sleep
+    cycle' to remember where you put your utility functions.
   tags:
     - memory
     - knowledge-graph
@@ -52,31 +63,40 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The core product is a memory and retrieval system (knowledge graph, semantic search, LLM consolidation) for shaping agent context, which squarely fits Prompt & Context Engineering even though it ships as an MCP server.
+  reason: >-
+    The core product is a memory and retrieval system (knowledge graph, semantic search, LLM consolidation) for shaping
+    agent context, which squarely fits Prompt & Context Engineering even though it ships as an MCP server.
   evidence:
-    - Repo description and README call it a 'Universal memory layer' built on knowledge graphs and semantic vector search, not a generic MCP utility.
-    - Explicitly compared to file-based memory (CLAUDE.md) and traditional memory (Mem0) on recall benchmarks, positioning it as context infrastructure.
-    - MCP is the transport layer to Claude Code/Cursor; the novel substance is the consolidation and spreading activation memory model.
+    - >-
+      Repo description and README call it a 'Universal memory layer' built on knowledge graphs and semantic vector
+      search, not a generic MCP utility.
+    - >-
+      Explicitly compared to file-based memory (CLAUDE.md) and traditional memory (Mem0) on recall benchmarks,
+      positioning it as context infrastructure.
+    - >-
+      MCP is the transport layer to Claude Code/Cursor; the novel substance is the consolidation and spreading
+      activation memory model.
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.653Z"
+    updated_at: '2026-05-06T22:12:15.653Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:56.592Z"
+    updated_at: '2026-07-21T15:20:56.592Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-14T05:22:44.459Z"
+    updated_at: '2026-05-14T05:22:44.459Z'
     cause: null
     next_retry_at: null
     attempts: 2

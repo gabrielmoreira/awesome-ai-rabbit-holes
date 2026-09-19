@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__langchain__com__blog__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -18,10 +18,10 @@ provenance:
           - LangChain Framework
         anchor_text: Langchain Blog
         extracted_url: https://blog.langchain.dev
-        surrounding_text: "- [Langchain Blog](https://blog.langchain.dev/): The Official Langchain blog"
+        surrounding_text: '- [Langchain Blog](https://blog.langchain.dev/): The Official Langchain blog'
         confidence: high
     - id: discovery__www__langchain__com__blog__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -33,7 +33,7 @@ provenance:
           - LangChain Framework
         anchor_text: Langchain Blog
         extracted_url: https://blog.langchain.dev
-        surrounding_text: "- [Langchain Blog](https://blog.langchain.dev/): The Official Langchain blog"
+        surrounding_text: '- [Langchain Blog](https://blog.langchain.dev/): The Official Langchain blog'
         confidence: high
 metadata:
   github:
@@ -51,8 +51,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The official blog of LangChain, featuring tutorials, case studies, and technical insights on building AI agents with LangSmith, Deep Agents, LangGraph, and LangChain.
-  why_it_matters: Provides developers with practical guidance, updates, and deep dives into agent engineering workflows and tools within the LangChain ecosystem.
+  summary: >-
+    The official blog of LangChain, featuring tutorials, case studies, and technical insights on building AI agents with
+    LangSmith, Deep Agents, LangGraph, and LangChain.
+  why_it_matters: >-
+    Provides developers with practical guidance, updates, and deep dives into agent engineering workflows and tools
+    within the LangChain ecosystem.
   mental_damage: Another blog to bookmark in the ever-growing graveyard of tabs you’ll never actually read.
   tags:
     - blog
@@ -62,14 +66,13 @@ insights:
     - case-studies
   confidence: high
 curation:
-  status: included
-  reason: The primary value is recurring commentary, updates, and educational publishing rather than direct tooling.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Scraped site context describes it as a blog with tutorials, case studies, and technical insights
-    - Source-list context places it under a LangChain-focused awesome list as a resource
-    - The page excerpt highlights featured stories, guides, and educational content
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: newsletters-and-feeds
+  primary_category: null
+  secondary_categories: []
   section: null
 lifecycle:
   status: incubating
@@ -77,7 +80,7 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:35:09.779Z"
+    updated_at: '2026-07-21T15:35:09.779Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -98,12 +101,14 @@ processing:
       category_candidates:
         - newsletters-and-feeds
         - awesome-awesomes
-      contrastive_reason: Choose newsletters-and-feeds over awesome-awesomes because the product is a media surface (blog) rather than a curated list or directory.
+      contrastive_reason: >-
+        Choose newsletters-and-feeds over awesome-awesomes because the product is a media surface (blog) rather than a
+        curated list or directory.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.967Z"
+    updated_at: '2026-07-21T15:20:21.967Z'
     cause: null
     next_retry_at: null
   stars:

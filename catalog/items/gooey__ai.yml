@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__gooey__ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,7 +18,7 @@ provenance:
           - Developer tools
         anchor_text: Gooey.AI
         extracted_url: https://gooey.ai
-        surrounding_text: "- [Gooey.AI](https://gooey.ai/) - Create Your Own No Code AI Workflows."
+        surrounding_text: '- [Gooey.AI](https://gooey.ai/) - Create Your Own No Code AI Workflows.'
         confidence: high
 metadata:
   github:
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Low-code AI orchestration platform for building, deploying, and measuring multilingual AI workflows and agents across channels like WhatsApp, voice, and web.
-  why_it_matters: Enables non-technical teams to rapidly prototype and deploy AI agents for sectors like agriculture, health, and education without deep infrastructure work.
-  mental_damage: Because nothing says 'developer productivity' like a platform that lets you fork a WhatsApp bot for farmers in Malawi before lunch.
+  summary: >-
+    Low-code AI orchestration platform for building, deploying, and measuring multilingual AI workflows and agents
+    across channels like WhatsApp, voice, and web.
+  why_it_matters: >-
+    Enables non-technical teams to rapidly prototype and deploy AI agents for sectors like agriculture, health, and
+    education without deep infrastructure work.
+  mental_damage: >-
+    Because nothing says 'developer productivity' like a platform that lets you fork a WhatsApp bot for farmers in
+    Malawi before lunch.
   tags:
     - low-code
     - agent-orchestration
@@ -48,21 +54,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Core product is a low-code orchestration platform for multi-agent workflows, not a coding assistant, IDE, or framework.
+  reason: >-
+    Core product is a low-code orchestration platform for multi-agent workflows, not a coding assistant, IDE, or
+    framework.
   evidence:
     - Described as 'low-code AI orchestration platform' with collaborative workflows
     - Focuses on deploying agents to WhatsApp, voice, SMS, and web with no-code/low-code tooling
     - Case studies emphasize multi-agent coordination for non-technical teams
 placement:
   primary_category: agent-orchestration
-  section: Workbenches & Collaboration Surfaces
+  secondary_categories: []
+  section: Visual Builders & Workbenches
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +80,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:27:19.960Z"
+    updated_at: '2026-07-21T15:27:19.960Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +93,9 @@ processing:
       input_hash: sha256:2255799546cc0152b8fbd14fa721a2a2f065f42feaf493c0e749a6ab32a109fc
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: Core product is a low-code orchestration platform for multi-agent workflows, not a coding assistant, IDE, or framework.
+      decision_reason: >-
+        Core product is a low-code orchestration platform for multi-agent workflows, not a coding assistant, IDE, or
+        framework.
       decision_evidence:
         - Described as 'low-code AI orchestration platform' with collaborative workflows
         - Focuses on deploying agents to WhatsApp, voice, SMS, and web with no-code/low-code tooling
@@ -92,6 +103,8 @@ processing:
       category_candidates:
         - agent-orchestration
         - app-builders
-      contrastive_reason: Choose agent-orchestration over app-builders because the primary value is coordinating AI workflows and agents, not generating standalone apps from prompts.
+      contrastive_reason: >-
+        Choose agent-orchestration over app-builders because the primary value is coordinating AI workflows and agents,
+        not generating standalone apps from prompts.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__thegraph-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/thegraph-mcp
         extracted_url: https://github.com/kukapay/thegraph-mcp
-        surrounding_text: "- [kukapay/thegraph-mcp](https://github.com/kukapay/thegraph-mcp) 🐍 ☁️ -  An MCP server that powers AI agents with indexed blockchain data from The Graph."
+        surrounding_text: >-
+          - [kukapay/thegraph-mcp](https://github.com/kukapay/thegraph-mcp) 🐍 ☁️ -  An MCP server that powers AI agents
+          with indexed blockchain data from The Graph.
         confidence: high
     - id: discovery__github__kukapay__thegraph-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - 💰 Finance & Fintech
         anchor_text: kukapay/thegraph-mcp
         extracted_url: https://github.com/kukapay/thegraph-mcp
-        surrounding_text: "-   **[kukapay/thegraph-mcp](https://github.com/kukapay/thegraph-mcp)** [![GitHub stars](https://img.shields.io/github/stars/kukapay/thegraph-mcp?style=social)](https://github.com/kukapay/thegraph-mcp): Provides indexed blockchain data from The Graph to AI agents."
+        surrounding_text: >-
+          -   **[kukapay/thegraph-mcp](https://github.com/kukapay/thegraph-mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/kukapay/thegraph-mcp?style=social)](https://github.com/kukapay/thegraph-mcp):
+          Provides indexed blockchain data from The Graph to AI agents.
         confidence: high
 metadata:
   github:
@@ -45,18 +50,20 @@ metadata:
     archived: false
     full_name: kukapay/thegraph-mcp
     html_url: https://github.com/kukapay/thegraph-mcp
-    created_at: "2025-03-21T19:45:48Z"
-    pushed_at: "2025-07-31T09:46:42Z"
+    created_at: '2025-03-21T19:45:48Z'
+    pushed_at: '2025-07-31T09:46:42Z'
     description: An MCP server that powers AI agents with indexed blockchain data from The Graph.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:06:01.008Z"
+    last_checked_at: '2026-07-30T05:06:01.008Z'
     readme:
-      fetched_at: "2026-07-30T05:06:01.008Z"
+      fetched_at: '2026-07-30T05:06:01.008Z'
       bytes: 2966
 insights:
   summary: An MCP server that provides AI agents with indexed blockchain data from The Graph.
-  why_it_matters: Developers can query subgraph schemas and execute GraphQL queries against blockchain data directly from their AI agents.
+  why_it_matters: >-
+    Developers can query subgraph schemas and execute GraphQL queries against blockchain data directly from their AI
+    agents.
   mental_damage: Now your AI agent can ask the blockchain for your trading volume while you pretend to understand what a subgraph is.
   tags:
     - mcp
@@ -74,24 +81,25 @@ curation:
     - Listed in awesome-mcp-list under Finance & Fintech
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.589Z"
+    updated_at: '2026-05-06T22:12:15.589Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:01.008Z"
+    updated_at: '2026-07-30T05:06:01.008Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:14:11.082Z"
+    updated_at: '2026-07-21T16:14:11.082Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -112,6 +120,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension for
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

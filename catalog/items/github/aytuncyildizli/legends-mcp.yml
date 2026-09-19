@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aytuncyildizli__legends-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: cryptosquanch/legends-mcp
         extracted_url: https://github.com/cryptosquanch/legends-mcp
-        surrounding_text: "- [cryptosquanch/legends-mcp](https://github.com/cryptosquanch/legends-mcp) 📇 🏠 🍎 🪟 🐧 - Chat with 36 legendary founders & investors (Elon Musk, Warren Buffett, Steve Jobs, CZ). AI personas with authentic voices, frameworks, and principles. No API key required."
+        surrounding_text: >-
+          - [cryptosquanch/legends-mcp](https://github.com/cryptosquanch/legends-mcp) 📇 🏠 🍎 🪟 🐧 - Chat with 36
+          legendary founders & investors (Elon Musk, Warren Buffett, Steve Jobs, CZ). AI personas with authentic voices,
+          frameworks, and principles. No API key required.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,20 @@ metadata:
     archived: false
     full_name: AytuncYildizli/legends-mcp
     html_url: https://github.com/AytuncYildizli/legends-mcp
-    created_at: "2025-12-24T13:32:28Z"
-    pushed_at: "2025-12-27T18:14:19Z"
+    created_at: '2025-12-24T13:32:28Z'
+    pushed_at: '2025-12-27T18:14:19Z'
     description: Chat with legendary founders & investors via MCP. No API key required!
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:30.294Z"
+    last_checked_at: '2026-09-07T04:13:30.294Z'
     readme:
-      fetched_at: "2026-09-07T04:13:30.294Z"
+      fetched_at: '2026-09-07T04:13:30.294Z'
       bytes: 11400
 insights:
   summary: An MCP server that lets users chat with simulated legendary founders and investors in Claude Code.
-  why_it_matters: It provides a novel way for developers to access curated, persona-driven advice without API keys, directly within their coding workflow.
+  why_it_matters: >-
+    It provides a novel way for developers to access curated, persona-driven advice without API keys, directly within
+    their coding workflow.
   mental_damage: Now you can get Steve Jobs to roast your PR while Elon Musk debates your tech stack choices.
   tags:
     - mcp
@@ -51,31 +56,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the product identity here—a server that integrates with Claude Code to provide a specific domain capability (legendary persona interactions).
+  reason: >-
+    MCP is the product identity here—a server that integrates with Claude Code to provide a specific domain capability
+    (legendary persona interactions).
   evidence:
     - Repo description explicitly states it is an MCP server for chatting with legendary figures in Claude
     - README details MCP server configuration and tools like `party_mode` and `summon_legend`
     - No API key required, designed as a pluggable MCP server
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.604Z"
+    updated_at: '2026-05-06T22:12:15.604Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:30.294Z"
+    updated_at: '2026-09-07T04:13:30.294Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:25:11.171Z"
+    updated_at: '2026-07-21T15:25:11.171Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -88,7 +95,9 @@ processing:
       input_hash: sha256:280549890d9d3769a1604667215a57e67631bd9d6d2d22c6a7369b16f6989c35
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the product identity here—a server that integrates with Claude Code to provide a specific domain capability (legendary persona interactions).
+      decision_reason: >-
+        MCP is the product identity here—a server that integrates with Claude Code to provide a specific domain
+        capability (legendary persona interactions).
       decision_evidence:
         - Repo description explicitly states it is an MCP server for chatting with legendary figures in Claude
         - README details MCP server configuration and tools like `party_mode` and `summon_legend`
@@ -96,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server providing domain-specific functionality, not merely extending another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server providing domain-specific
+        functionality, not merely extending another assistant.
       review_reason: null
       review_resume_lifecycle: null

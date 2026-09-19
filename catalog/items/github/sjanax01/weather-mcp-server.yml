@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sjanax01__weather-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🗺️ <a name="location-services"></a>Location Services
         anchor_text: devilcoder01/weather-mcp-server
         extracted_url: https://github.com/devilcoder01/weather-mcp-server
-        surrounding_text: "- [devilcoder01/weather-mcp-server](https://github.com/devilcoder01/weather-mcp-server) 🐍 ☁️ - Access real-time weather data for any location using the WeatherAPI.com API, providing detailed forecasts and current conditions."
+        surrounding_text: >-
+          - [devilcoder01/weather-mcp-server](https://github.com/devilcoder01/weather-mcp-server) 🐍 ☁️ - Access
+          real-time weather data for any location using the WeatherAPI.com API, providing detailed forecasts and current
+          conditions.
         confidence: high
 metadata:
   github:
@@ -30,22 +33,28 @@ metadata:
     archived: false
     full_name: sjanaX01/weather-mcp-server
     html_url: https://github.com/sjanaX01/weather-mcp-server
-    created_at: "2025-04-26T20:36:07Z"
-    pushed_at: "2025-08-21T14:18:45Z"
+    created_at: '2025-04-26T20:36:07Z'
+    pushed_at: '2025-08-21T14:18:45Z'
     description: A simple minimal weather mcp server :)
-    homepage: ""
+    homepage: ''
     topics:
       - mcp-server
       - weather-api
       - weather-mcp-server
-    last_checked_at: "2026-07-20T16:42:58.545Z"
+    last_checked_at: '2026-07-20T16:42:58.545Z'
     readme:
-      fetched_at: "2026-07-20T16:42:58.545Z"
+      fetched_at: '2026-07-20T16:42:58.545Z'
       bytes: 1844
 insights:
-  summary: A minimal MCP server that exposes WeatherAPI.com data—including current conditions, forecasts, historical data, and air quality—as tools for AI assistants.
-  why_it_matters: Developers wiring AI agents to real-world data can give them weather awareness without writing their own API wrappers or prompt glue.
-  mental_damage: The modern developer experience now includes cloning a 21-star server just to ask an assistant whether to bring a jacket.
+  summary: >-
+    A minimal MCP server that exposes WeatherAPI.com data—including current conditions, forecasts, historical data, and
+    air quality—as tools for AI assistants.
+  why_it_matters: >-
+    Developers wiring AI agents to real-world data can give them weather awareness without writing their own API
+    wrappers or prompt glue.
+  mental_damage: >-
+    The modern developer experience now includes cloning a 21-star server just to ask an assistant whether to bring a
+    jacket.
   tags:
     - mcp
     - weather-api
@@ -55,35 +64,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server providing weather tools for AI assistants, fitting cleanly as a domain-specific MCP server rather than a framework, extension, or general app.
+  reason: >-
+    The product is an MCP server providing weather tools for AI assistants, fitting cleanly as a domain-specific MCP
+    server rather than a framework, extension, or general app.
   evidence:
-    - "Repo description states: 'A simple minimal weather mcp server :)'."
-    - README says it is 'A Model Context Protocol (MCP) server for weather data, built with FastAPI and the MCP framework'.
+    - 'Repo description states: ''A simple minimal weather mcp server :)''.'
+    - >-
+      README says it is 'A Model Context Protocol (MCP) server for weather data, built with FastAPI and the MCP
+      framework'.
     - Listed in awesome-mcp-servers under 'Server Implementations > Location Services'.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.648Z"
+    updated_at: '2026-05-06T22:12:15.648Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:58.545Z"
+    updated_at: '2026-07-20T16:42:58.545Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lostintangent__gistpad-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: GistPad-MCP
         extracted_url: https://github.com/lostintangent/gistpad-mcp
-        surrounding_text: "- [GistPad-MCP](https://github.com/lostintangent/gistpad-mcp) 📇 🏠 - Use GitHub Gists to manage and access your personal knowledge, daily notes, and reusable prompts. This acts as a companion to https://gistpad.dev and the [GistPad VS Code extension](https://aka.ms/gistpad)."
+        surrounding_text: >-
+          - [GistPad-MCP](https://github.com/lostintangent/gistpad-mcp) 📇 🏠 - Use GitHub Gists to manage and access
+          your personal knowledge, daily notes, and reusable prompts. This acts as a companion to https://gistpad.dev
+          and the [GistPad VS Code extension](https://aka.ms/gistpad).
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: lostintangent/gistpad-mcp
     html_url: https://github.com/lostintangent/gistpad-mcp
-    created_at: "2025-03-12T18:02:16Z"
-    pushed_at: "2026-01-16T17:58:32Z"
+    created_at: '2025-03-12T18:02:16Z'
+    pushed_at: '2026-01-16T17:58:32Z'
     description: 📓 An MCP server for managing your personal knowledge, daily notes, and re-usable prompts via GitHub Gists
     homepage: https://npmjs.com/gistpad-mcp
     topics:
@@ -40,14 +43,20 @@ metadata:
       - mcp-server
       - notetaking
       - pkm
-    last_checked_at: "2026-07-30T05:06:08.412Z"
+    last_checked_at: '2026-07-30T05:06:08.412Z'
     readme:
-      fetched_at: "2026-07-30T05:06:08.412Z"
+      fetched_at: '2026-07-30T05:06:08.412Z'
       bytes: 7383
 insights:
-  summary: An MCP server that enables AI clients to read and manage GitHub Gists for notes, prompts, and daily todos via a standardized tool and resource interface.
-  why_it_matters: It lets developers use their personal knowledge base as contextual memory for any MCP-enabled AI assistant without leaving the chat.
-  mental_damage: Finally, a way to make your scattered gists feel like a second brain—until you realize you're just organizing markdown for an AI that still forgets your name.
+  summary: >-
+    An MCP server that enables AI clients to read and manage GitHub Gists for notes, prompts, and daily todos via a
+    standardized tool and resource interface.
+  why_it_matters: >-
+    It lets developers use their personal knowledge base as contextual memory for any MCP-enabled AI assistant without
+    leaving the chat.
+  mental_damage: >-
+    Finally, a way to make your scattered gists feel like a second brain—until you realize you're just organizing
+    markdown for an AI that still forgets your name.
   tags:
     - mcp
     - gists
@@ -55,31 +64,37 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: GistPad MCP is an MCP server whose core identity is exposing Gist functionality through the Model Context Protocol, making it infrastructure rather than an extension or agent.
+  reason: >-
+    GistPad MCP is an MCP server whose core identity is exposing Gist functionality through the Model Context Protocol,
+    making it infrastructure rather than an extension or agent.
   evidence:
-    - "Repo description: '📓 An MCP server for managing your personal knowledge, daily notes, and re-usable prompts via GitHub Gists'"
-    - "README: Exclusively describes MCP server setup, tool definitions, resource URIs (gist:///), and client configuration for MCP clients like Copilot and Claude Desktop"
+    - >-
+      Repo description: '📓 An MCP server for managing your personal knowledge, daily notes, and re-usable prompts via
+      GitHub Gists'
+    - >-
+      README: Exclusively describes MCP server setup, tool definitions, resource URIs (gist:///), and client
+      configuration for MCP clients like Copilot and Claude Desktop
     - No evidence of acting as a coding agent, IDE extension, or app builder—its value is protocol-level access to Gists
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  section: Middleware & Generic
 lifecycle:
   status: promotion_candidate
   reason: Stars (189) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: '2026-05-06T22:12:15.627Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:08.412Z"
+    updated_at: '2026-07-30T05:06:08.412Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:17:19.132Z"
+    updated_at: '2026-07-21T16:17:19.132Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -92,14 +107,24 @@ processing:
       input_hash: sha256:c6ced484772e800c04c8bacadf21c13fa8f11e4a21561c376ca896543a6602be
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: GistPad MCP is an MCP server whose core identity is exposing Gist functionality through the Model Context Protocol, making it infrastructure rather than an extension or agent.
+      decision_reason: >-
+        GistPad MCP is an MCP server whose core identity is exposing Gist functionality through the Model Context
+        Protocol, making it infrastructure rather than an extension or agent.
       decision_evidence:
-        - "Repo description: '📓 An MCP server for managing your personal knowledge, daily notes, and re-usable prompts via GitHub Gists'"
-        - "README: Exclusively describes MCP server setup, tool definitions, resource URIs (gist:///), and client configuration for MCP clients like Copilot and Claude Desktop"
-        - No evidence of acting as a coding agent, IDE extension, or app builder—its value is protocol-level access to Gists
+        - >-
+          Repo description: '📓 An MCP server for managing your personal knowledge, daily notes, and re-usable prompts
+          via GitHub Gists'
+        - >-
+          README: Exclusively describes MCP server setup, tool definitions, resource URIs (gist:///), and client
+          configuration for MCP clients like Copilot and Claude Desktop
+        - >-
+          No evidence of acting as a coding agent, IDE extension, or app builder—its value is protocol-level access to
+          Gists
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server first and foremost—it enables any MCP client to interact with Gists, rather than augmenting a specific host like VS Code or Claude Code.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server first and foremost—it enables any MCP
+        client to interact with Gists, rather than augmenting a specific host like VS Code or Claude Code.
       review_reason: null
       review_resume_lifecycle: null

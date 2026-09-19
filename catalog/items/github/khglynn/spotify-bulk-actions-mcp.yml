@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__khglynn__spotify-bulk-actions-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: khglynn/spotify-bulk-actions-mcp
         extracted_url: https://github.com/khglynn/spotify-bulk-actions-mcp
-        surrounding_text: "- [khglynn/spotify-bulk-actions-mcp](https://github.com/khglynn/spotify-bulk-actions-mcp) 🐍 ☁️ - Bulk Spotify operations with confidence-scored song matching, batch playlist creation from CSV/podcast lists, and library exports for discovering your most-saved artists and albums."
+        surrounding_text: >-
+          - [khglynn/spotify-bulk-actions-mcp](https://github.com/khglynn/spotify-bulk-actions-mcp) 🐍 ☁️ - Bulk Spotify
+          operations with confidence-scored song matching, batch playlist creation from CSV/podcast lists, and library
+          exports for discovering your most-saved artists and albums.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: khglynn/spotify-bulk-actions-mcp
     html_url: https://github.com/khglynn/spotify-bulk-actions-mcp
-    created_at: "2025-12-12T20:37:44Z"
-    pushed_at: "2026-07-11T18:56:59Z"
-    description: MCP server for bulk Spotify operations - batch playlist creation with confidence scoring, library exports, CSV imports, and human-in-the-loop review for uncertain matches
+    created_at: '2025-12-12T20:37:44Z'
+    pushed_at: '2026-07-11T18:56:59Z'
+    description: >-
+      MCP server for bulk Spotify operations - batch playlist creation with confidence scoring, library exports, CSV
+      imports, and human-in-the-loop review for uncertain matches
     homepage: null
     topics:
       - claude
@@ -42,14 +47,20 @@ metadata:
       - playlist
       - spotify
       - spotify-api
-    last_checked_at: "2026-07-30T05:05:56.303Z"
+    last_checked_at: '2026-07-30T05:05:56.303Z'
     readme:
-      fetched_at: "2026-07-30T05:05:56.303Z"
+      fetched_at: '2026-07-30T05:05:56.303Z'
       bytes: 7485
 insights:
-  summary: MCP server for bulk Spotify operations, including batch playlist creation with confidence scoring, library exports, and CSV imports.
-  why_it_matters: Enables developers to programmatically manage Spotify libraries and playlists at scale with human-in-the-loop review for uncertain matches.
-  mental_damage: Finally, a way to turn your podcast show notes into playlists without manually searching for each track—because who has time for that.
+  summary: >-
+    MCP server for bulk Spotify operations, including batch playlist creation with confidence scoring, library exports,
+    and CSV imports.
+  why_it_matters: >-
+    Enables developers to programmatically manage Spotify libraries and playlists at scale with human-in-the-loop review
+    for uncertain matches.
+  mental_damage: >-
+    Finally, a way to turn your podcast show notes into playlists without manually searching for each track—because who
+    has time for that.
   tags:
     - mcp-server
     - spotify-api
@@ -58,31 +69,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server with Spotify-specific bulk operations as its core identity, fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is an MCP-first server with Spotify-specific bulk operations as its core identity, fitting the MCP Servers &
+    Tooling category.
   evidence:
     - Repo description explicitly states it is an MCP server for bulk Spotify operations
     - README highlights MCP integration (Claude Code settings example) and 18 MCP tools
     - Listed in awesome-mcp-servers under Server Implementations > Art & Culture
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.624Z"
+    updated_at: '2026-05-06T22:12:15.624Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:56.303Z"
+    updated_at: '2026-07-30T05:05:56.303Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:12:31.189Z"
+    updated_at: '2026-07-21T16:12:31.189Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -95,7 +109,9 @@ processing:
       input_hash: sha256:0228b8dd6df422dcd180c2d12f13eb6eea0508b864b4e0bbe2c324f5a65db5dd
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server with Spotify-specific bulk operations as its core identity, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is an MCP-first server with Spotify-specific bulk operations as its core identity, fitting the MCP Servers
+        & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for bulk Spotify operations
         - README highlights MCP integration (Claude Code settings example) and 18 MCP tools
@@ -103,6 +119,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension
+        for another assistant.
       review_reason: null
       review_resume_lifecycle: null

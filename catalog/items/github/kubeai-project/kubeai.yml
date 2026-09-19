@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kubeai-project__kubeai__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,10 @@ provenance:
           - Frameworks/Servers for Serving
         anchor_text: KubeAI
         extracted_url: https://github.com/substratusai/kubeai
-        surrounding_text: "| [KubeAI](https://github.com/substratusai/kubeai)                       | Deploy and scale machine learning models on Kubernetes. Built for LLMs, embeddings, and speech-to-text. | ![GitHub Badge](https://img.shields.io/github/stars/substratusai/kubeai.svg?style=flat-square)             |"
+        surrounding_text: >-
+          | [KubeAI](https://github.com/substratusai/kubeai)                       | Deploy and scale machine learning
+          models on Kubernetes. Built for LLMs, embeddings, and speech-to-text. | ![GitHub
+          Badge](https://img.shields.io/github/stars/substratusai/kubeai.svg?style=flat-square)             |
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: kubeai-project/kubeai
     html_url: https://github.com/kubeai-project/kubeai
-    created_at: "2023-10-21T00:59:51Z"
-    pushed_at: "2026-07-25T00:23:16Z"
-    description: AI Inference Operator for Kubernetes. The easiest way to serve ML models in production. Supports VLMs, LLMs, embeddings, and speech-to-text.
+    created_at: '2023-10-21T00:59:51Z'
+    pushed_at: '2026-07-25T00:23:16Z'
+    description: >-
+      AI Inference Operator for Kubernetes. The easiest way to serve ML models in production. Supports VLMs, LLMs,
+      embeddings, and speech-to-text.
     homepage: https://www.kubeai.org
     topics:
       - ai
@@ -48,13 +53,17 @@ metadata:
       - vllm
       - vllm-operator
       - whisper
-    last_checked_at: "2026-07-30T05:05:58.536Z"
+    last_checked_at: '2026-07-30T05:05:58.536Z'
     readme:
-      fetched_at: "2026-07-30T05:05:58.536Z"
+      fetched_at: '2026-07-30T05:05:58.536Z'
       bytes: 8877
 insights:
-  summary: AI Inference Operator for Kubernetes that simplifies serving and scaling ML models like LLMs, VLMs, embeddings, and speech-to-text in production.
-  why_it_matters: Developers can deploy and auto-scale model inference workloads on Kubernetes with optimized load balancing, OpenAI-compatible APIs, and zero external dependencies.
+  summary: >-
+    AI Inference Operator for Kubernetes that simplifies serving and scaling ML models like LLMs, VLMs, embeddings, and
+    speech-to-text in production.
+  why_it_matters: >-
+    Developers can deploy and auto-scale model inference workloads on Kubernetes with optimized load balancing,
+    OpenAI-compatible APIs, and zero external dependencies.
   mental_damage: Finally, a way to serve LLMs in K8s without pretending you understand vLLM’s KV cache.
   tags:
     - kubernetes
@@ -65,31 +74,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a self-hosted serving stack that lets developers run and scale their own inference infrastructure on Kubernetes, fitting the Local AI scope.
+  reason: >-
+    It is a self-hosted serving stack that lets developers run and scale their own inference infrastructure on
+    Kubernetes, fitting the Local AI scope.
   evidence:
-    - Repo description explicitly calls it 'AI Inference Operator for Kubernetes' and 'easiest way to serve ML models in production.'
-    - "README emphasizes self-hosted execution: 'Deploy and scale machine learning models on Kubernetes' with 'Zero Dependencies' and hardware flexibility."
-    - OpenAI-compatible API and support for vLLM, Ollama, and FasterWhisper align with local/self-hosted serving infrastructure.
+    - >-
+      Repo description explicitly calls it 'AI Inference Operator for Kubernetes' and 'easiest way to serve ML models in
+      production.'
+    - >-
+      README emphasizes self-hosted execution: 'Deploy and scale machine learning models on Kubernetes' with 'Zero
+      Dependencies' and hardware flexibility.
+    - >-
+      OpenAI-compatible API and support for vLLM, Ollama, and FasterWhisper align with local/self-hosted serving
+      infrastructure.
 placement:
   primary_category: local-ai
-  section: null
+  secondary_categories: []
+  section: Inference Engines
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'ai-frameworks'"
+  reason: 'Categorization review required: placement disagreement: retained ''local-ai'', proposed ''ai-frameworks'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.624Z"
+    updated_at: '2026-05-06T22:12:15.624Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:58.536Z"
+    updated_at: '2026-07-30T05:05:58.536Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:25.777Z"
+    updated_at: '2026-07-21T16:13:25.777Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -102,14 +120,20 @@ processing:
       input_hash: sha256:938b8e1987c726fd76e5e73246412dd5cfcb5e2e395bc1afb4914e63eb51a9c7
       proposed_primary_category: ai-frameworks
       disagreement: true
-      decision_reason: KubeAI is a code-first operator/framework for deploying and managing AI inference workloads on Kubernetes, fitting the developer-tooling scope as infrastructure for serving models.
+      decision_reason: >-
+        KubeAI is a code-first operator/framework for deploying and managing AI inference workloads on Kubernetes,
+        fitting the developer-tooling scope as infrastructure for serving models.
       decision_evidence:
-        - "Repo description: 'AI Inference Operator for Kubernetes. The easiest way to serve ML models in production.'"
-        - "README highlights: OpenAI-compatible API, prefix-aware load balancing, model operator for K8s, and adopters like Google Cloud and Lambda."
-        - "Source-list context: Listed in Awesome-LLMOps under 'Serving > Frameworks/Servers for Serving'."
+        - 'Repo description: ''AI Inference Operator for Kubernetes. The easiest way to serve ML models in production.'''
+        - >-
+          README highlights: OpenAI-compatible API, prefix-aware load balancing, model operator for K8s, and adopters
+          like Google Cloud and Lambda.
+        - 'Source-list context: Listed in Awesome-LLMOps under ''Serving > Frameworks/Servers for Serving''.'
       category_candidates:
         - ai-frameworks
         - local-ai
-      contrastive_reason: Choose ai-frameworks over local-ai because KubeAI is a Kubernetes operator/framework for serving models, not a local runtime or desktop app.
-      review_reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'ai-frameworks'"
+      contrastive_reason: >-
+        Choose ai-frameworks over local-ai because KubeAI is a Kubernetes operator/framework for serving models, not a
+        local runtime or desktop app.
+      review_reason: 'Categorization review required: placement disagreement: retained ''local-ai'', proposed ''ai-frameworks'''
       review_resume_lifecycle: null

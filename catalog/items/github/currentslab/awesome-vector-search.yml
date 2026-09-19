@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__currentslab__awesome-vector-search__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,12 @@ provenance:
           - Awesome Lists
         anchor_text: currentslab/awesome-vector-search
         extracted_url: https://github.com/currentslab/awesome-vector-search
-        surrounding_text: "| [currentslab/awesome-vector-search](https://github.com/currentslab/awesome-vector-search)               | A curated list of awesome vector search framework/engine, library, cloud service and research papers to vector similarity search. | ![GitHub Badge](https://img.shields.io/github/stars/currentslab/awesome-vector-search.svg?style=flat-square)             |"
+        surrounding_text: >-
+          | [currentslab/awesome-vector-search](https://github.com/currentslab/awesome-vector-search)               | A
+          curated list of awesome vector search framework/engine, library, cloud service and research papers to vector
+          similarity search. | ![GitHub
+          Badge](https://img.shields.io/github/stars/currentslab/awesome-vector-search.svg?style=flat-square)            
+          |
         confidence: high
 metadata:
   github:
@@ -29,10 +34,10 @@ metadata:
     archived: false
     full_name: currentslab/awesome-vector-search
     html_url: https://github.com/currentslab/awesome-vector-search
-    created_at: "2021-04-09T11:59:34Z"
-    pushed_at: "2026-07-06T04:12:57Z"
+    created_at: '2021-04-09T11:59:34Z'
+    pushed_at: '2026-07-06T04:12:57Z'
     description: Collections of vector search related libraries, service and research papers
-    homepage: ""
+    homepage: ''
     topics:
       - awesome
       - awesome-list
@@ -44,9 +49,9 @@ metadata:
       - vector
       - vector-search
       - vector-search-engine
-    last_checked_at: "2026-09-14T04:13:31.961Z"
+    last_checked_at: '2026-09-14T04:13:31.961Z'
     readme:
-      fetched_at: "2026-09-14T04:13:31.961Z"
+      fetched_at: '2026-09-14T04:13:31.961Z'
       bytes: 11050
 insights:
   summary: A curated list of vector search frameworks, engines, libraries, cloud services, and research papers.
@@ -59,32 +64,31 @@ insights:
     - curated-directory
   confidence: high
 curation:
-  status: included
-  reason: This is a curated directory of vector search tools, which fits the catalog's scope as a navigation aid for developers.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Repo description explicitly states it is a 'Collections of vector search related libraries, service and research papers'
-    - README confirms it is a 'curated list of awesome vector search framework/engine, library, cloud service and research papers'
-    - Source-list context shows it is included in Awesome-LLMOps under 'Awesome Lists'
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (1560) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.609Z"
+    updated_at: '2026-05-06T22:12:15.609Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:31.961Z"
+    updated_at: '2026-09-14T04:13:31.961Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:49:16.004Z"
+    updated_at: '2026-07-21T15:49:16.004Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -97,14 +101,22 @@ processing:
       input_hash: sha256:ebb91e93fccdba86e06560b5416e1166f0dc585e6527ce2333b6b5a6a0a1de7e
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: This is a curated directory of vector search tools, which fits the catalog's scope as a navigation aid for developers.
+      decision_reason: >-
+        This is a curated directory of vector search tools, which fits the catalog's scope as a navigation aid for
+        developers.
       decision_evidence:
-        - Repo description explicitly states it is a 'Collections of vector search related libraries, service and research papers'
-        - README confirms it is a 'curated list of awesome vector search framework/engine, library, cloud service and research papers'
+        - >-
+          Repo description explicitly states it is a 'Collections of vector search related libraries, service and
+          research papers'
+        - >-
+          README confirms it is a 'curated list of awesome vector search framework/engine, library, cloud service and
+          research papers'
         - Source-list context shows it is included in Awesome-LLMOps under 'Awesome Lists'
       category_candidates:
         - awesome-awesomes
         - ai-frameworks
-      contrastive_reason: Choose awesome-awesomes over ai-frameworks because the primary value is discovery and navigation rather than code-first building blocks.
+      contrastive_reason: >-
+        Choose awesome-awesomes over ai-frameworks because the primary value is discovery and navigation rather than
+        code-first building blocks.
       review_reason: null
       review_resume_lifecycle: null

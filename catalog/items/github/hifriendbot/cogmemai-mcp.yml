@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hifriendbot__cogmemai-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: hifriendbot/cogmemai-mcp
         extracted_url: https://github.com/hifriendbot/cogmemai-mcp
-        surrounding_text: "- [hifriendbot/cogmemai-mcp](https://github.com/hifriendbot/cogmemai-mcp) 📇 ☁️ 🍎 🪟 🐧 - Persistent cognitive memory for Claude Code. Cloud-first with semantic search, AI-powered extraction, and project scoping. Zero local databases."
+        surrounding_text: >-
+          - [hifriendbot/cogmemai-mcp](https://github.com/hifriendbot/cogmemai-mcp) 📇 ☁️ 🍎 🪟 🐧 - Persistent
+          cognitive memory for Claude Code. Cloud-first with semantic search, AI-powered extraction, and project
+          scoping. Zero local databases.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: hifriendbot/cogmemai-mcp
     html_url: https://github.com/hifriendbot/cogmemai-mcp
-    created_at: "2026-02-18T17:13:27Z"
-    pushed_at: "2026-06-11T19:25:53Z"
-    description: CogmemAi — Cognitive Memory for Any Ai System. Autonomous robots, self-driving vehicles, defense systems, coding assistants, and more. 91% LoCoMo benchmark — above human performance.
+    created_at: '2026-02-18T17:13:27Z'
+    pushed_at: '2026-06-11T19:25:53Z'
+    description: >-
+      CogmemAi — Cognitive Memory for Any Ai System. Autonomous robots, self-driving vehicles, defense systems, coding
+      assistants, and more. 91% LoCoMo benchmark — above human performance.
     homepage: https://hifriendbot.com/developer/
     topics:
       - ai-agent
@@ -53,13 +58,17 @@ metadata:
       - persistent-memory
       - semantic-search
       - windsurf
-    last_checked_at: "2026-07-30T05:05:37.388Z"
+    last_checked_at: '2026-07-30T05:05:37.388Z'
     readme:
-      fetched_at: "2026-07-30T05:05:37.388Z"
+      fetched_at: '2026-07-30T05:05:37.388Z'
       bytes: 26719
 insights:
-  summary: CogmemAi is a portable memory layer that provides persistent recall across sessions for AI systems, including coding assistants, with benchmark-topping accuracy.
-  why_it_matters: It solves the critical developer pain of AI assistants forgetting context between sessions, automatically capturing and surfacing relevant memories without manual intervention.
+  summary: >-
+    CogmemAi is a portable memory layer that provides persistent recall across sessions for AI systems, including coding
+    assistants, with benchmark-topping accuracy.
+  why_it_matters: >-
+    It solves the critical developer pain of AI assistants forgetting context between sessions, automatically capturing
+    and surfacing relevant memories without manual intervention.
   mental_damage: Finally, an AI that remembers your architectural decisions longer than you do.
   tags:
     - ai-memory
@@ -76,25 +85,26 @@ curation:
     - Supports MCP-compatible tools but is not itself an MCP-first toolkit
     - Benchmark claims (95.10% LongMemEval, 91% LoCoMo) focus on memory performance
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.618Z"
+    updated_at: '2026-05-06T22:12:15.618Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:37.388Z"
+    updated_at: '2026-07-30T05:05:37.388Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:05:36.329Z"
+    updated_at: '2026-07-21T16:05:36.329Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -115,6 +125,8 @@ processing:
       category_candidates:
         - context-engineering
         - mcp
-      contrastive_reason: Choose context-engineering over mcp because the product identity is memory infrastructure rather than MCP-specific tooling.
+      contrastive_reason: >-
+        Choose context-engineering over mcp because the product identity is memory infrastructure rather than
+        MCP-specific tooling.
       review_reason: null
       review_resume_lifecycle: null

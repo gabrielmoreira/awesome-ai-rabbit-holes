@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dashi96__chromium-bridge__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-23T05:08:37.088Z"
+      discovered_at: '2026-07-23T05:08:37.088Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: dashi96/chromium-bridge
         extracted_url: https://github.com/dashi96/chromium-bridge
-        surrounding_text: "- [dashi96/chromium-bridge](https://github.com/dashi96/chromium-bridge) [![dashi96/chromium-bridge MCP server](https://glama.ai/mcp/servers/@dashi96/chromium-bridge/badges/score.svg)](https://glama.ai/mcp/servers/@dashi96/chromium-bridge) 📇 🏠 🍎 🪟 🐧 - MCP server + Chrome extension that connects Claude Code to Chromium-based browsers (Arc, Vivaldi, Brave) where the official Claude in Chrome extension doesn't work — navigate, click, read pages, run JS, and record GIFs in the user's real browser."
+        surrounding_text: >-
+          - [dashi96/chromium-bridge](https://github.com/dashi96/chromium-bridge) [![dashi96/chromium-bridge MCP
+          server](https://glama.ai/mcp/servers/@dashi96/chromium-bridge/badges/score.svg)](https://glama.ai/mcp/servers/@dashi96/chromium-bridge)
+          📇 🏠 🍎 🪟 🐧 - MCP server + Chrome extension that connects Claude Code to Chromium-based browsers (Arc,
+          Vivaldi, Brave) where the official Claude in Chrome extension doesn't work — navigate, click, read pages, run
+          JS, and record GIFs in the user's real browser.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: dashi96/chromium-bridge
     html_url: https://github.com/dashi96/chromium-bridge
-    created_at: "2026-07-17T23:02:51Z"
-    pushed_at: "2026-07-22T08:28:39Z"
-    description: MCP bridge between Chromium browsers and Claude Code — browser automation tools + Claude chat panel for browsers where the official Claude in Chrome extension doesn't work (Arc, Vivaldi, …)
+    created_at: '2026-07-17T23:02:51Z'
+    pushed_at: '2026-07-22T08:28:39Z'
+    description: >-
+      MCP bridge between Chromium browsers and Claude Code — browser automation tools + Claude chat panel for browsers
+      where the official Claude in Chrome extension doesn't work (Arc, Vivaldi, …)
     homepage: null
     topics:
       - arc
@@ -44,13 +51,17 @@ metadata:
       - claude-code
       - mcp
       - vivaldi
-    last_checked_at: "2026-09-14T04:13:34.284Z"
+    last_checked_at: '2026-09-14T04:13:34.284Z'
     readme:
-      fetched_at: "2026-09-14T04:13:34.284Z"
+      fetched_at: '2026-09-14T04:13:34.284Z'
       bytes: 8724
 insights:
-  summary: An MCP bridge enabling Claude Code to automate Chromium-based browsers (Arc, Vivaldi, etc.) where the official extension fails, with a built-in chat panel.
-  why_it_matters: It extends Claude Code's browser automation to unsupported Chromium variants, giving developers consistent cross-browser control for testing or workflows.
+  summary: >-
+    An MCP bridge enabling Claude Code to automate Chromium-based browsers (Arc, Vivaldi, etc.) where the official
+    extension fails, with a built-in chat panel.
+  why_it_matters: >-
+    It extends Claude Code's browser automation to unsupported Chromium variants, giving developers consistent
+    cross-browser control for testing or workflows.
   mental_damage: Now you can watch Claude click through Wikipedia in Arc while you question your life choices.
   tags:
     - mcp
@@ -61,31 +72,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool is an integration layer that augments Claude Code with browser automation capabilities, not a standalone coding assistant.
+  reason: >-
+    The tool is an integration layer that augments Claude Code with browser automation capabilities, not a standalone
+    coding assistant.
   evidence:
     - Repo description explicitly calls it an MCP bridge for Claude Code and Chromium browsers
     - README details architecture as a proxy between Claude Code (stdio MCP) and a browser extension
     - Source-list context places it under MCP servers for browser automation
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: mcp
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-23T05:08:37.090Z"
+    updated_at: '2026-07-23T05:08:37.090Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:34.284Z"
+    updated_at: '2026-09-14T04:13:34.284Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-01T14:32:22.453Z"
+    updated_at: '2026-09-01T14:32:22.453Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,7 +110,9 @@ processing:
       input_hash: sha256:4bac127718ac83cdd11d4512e05c44c004821ff9cc7704713724688b93f9b641
       proposed_primary_category: ai-dev-extensions
       disagreement: false
-      decision_reason: The tool is an integration layer that augments Claude Code with browser automation capabilities, not a standalone coding assistant.
+      decision_reason: >-
+        The tool is an integration layer that augments Claude Code with browser automation capabilities, not a
+        standalone coding assistant.
       decision_evidence:
         - Repo description explicitly calls it an MCP bridge for Claude Code and Chromium browsers
         - README details architecture as a proxy between Claude Code (stdio MCP) and a browser extension
@@ -104,7 +120,9 @@ processing:
       category_candidates:
         - ai-dev-extensions
         - mcp
-      contrastive_reason: Choose ai-dev-extensions over mcp because the primary identity is a host integration for Claude Code, not MCP infrastructure itself.
+      contrastive_reason: >-
+        Choose ai-dev-extensions over mcp because the primary identity is a host integration for Claude Code, not MCP
+        infrastructure itself.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

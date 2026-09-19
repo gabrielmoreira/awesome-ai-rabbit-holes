@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gentoro-gt__mcp-nodejs-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Gentoro
         extracted_url: https://github.com/gentoro-gt/mcp-nodejs-server
-        surrounding_text: "- **[Gentoro](https://github.com/gentoro-GT/mcp-nodejs-server)** - Gentoro generates MCP Servers based on OpenAPI specifications."
+        surrounding_text: >-
+          - **[Gentoro](https://github.com/gentoro-GT/mcp-nodejs-server)** - Gentoro generates MCP Servers based on
+          OpenAPI specifications.
         confidence: high
 metadata:
   github:
@@ -29,18 +31,20 @@ metadata:
     archived: false
     full_name: gentoro-GT/mcp-nodejs-server
     html_url: https://github.com/gentoro-GT/mcp-nodejs-server
-    created_at: "2024-12-10T18:19:56Z"
-    pushed_at: "2025-03-19T13:17:11Z"
+    created_at: '2024-12-10T18:19:56Z'
+    pushed_at: '2025-03-19T13:17:11Z'
     description: Integration layer between MCP Clients and Gentoro MCP Server implementation
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:47.873Z"
+    last_checked_at: '2026-09-03T05:16:47.873Z'
     readme:
-      fetched_at: "2026-09-03T05:16:47.872Z"
+      fetched_at: '2026-09-03T05:16:47.872Z'
       bytes: 2065
 insights:
   summary: An MCP server implementation that allows AI agents to interface with Gentoro services and bridges.
-  why_it_matters: It enables Claude and other MCP-compliant agents to access specialized tools and data sources managed via the Gentoro ecosystem.
+  why_it_matters: >-
+    It enables Claude and other MCP-compliant agents to access specialized tools and data sources managed via the
+    Gentoro ecosystem.
   mental_damage: Another protocol layer to manage in your growing pile of AI-enabled integration headaches.
   tags:
     - mcp
@@ -57,24 +61,25 @@ curation:
     - Product identity is centered on providing 'tools' via the Model Context Protocol
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: '2026-05-06T22:12:15.615Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:47.873Z"
+    updated_at: '2026-09-03T05:16:47.873Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:01:36.981Z"
+    updated_at: '2026-07-21T16:01:36.981Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -95,6 +100,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is the MCP server protocol itself rather than an extension meant to augment a specific IDE or editor's UI.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is the MCP server protocol itself rather
+        than an extension meant to augment a specific IDE or editor's UI.
       review_reason: null
       review_resume_lifecycle: null

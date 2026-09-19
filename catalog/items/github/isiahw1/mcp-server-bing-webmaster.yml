@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__isiahw1__mcp-server-bing-webmaster__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Community Servers
         anchor_text: Bing Webmaster Tools
         extracted_url: https://github.com/isiahw1/mcp-server-bing-webmaster
-        surrounding_text: "- **[Bing Webmaster Tools](https://github.com/isiahw1/mcp-server-bing-webmaster)** - MCP server for Bing Webmaster Tools API integration providing access to search analytics, site management, URL submission, and SEO insights"
+        surrounding_text: >-
+          - **[Bing Webmaster Tools](https://github.com/isiahw1/mcp-server-bing-webmaster)** - MCP server for Bing
+          Webmaster Tools API integration providing access to search analytics, site management, URL submission, and SEO
+          insights
         confidence: high
 metadata:
   github:
@@ -29,17 +32,19 @@ metadata:
     archived: false
     full_name: isiahw1/mcp-server-bing-webmaster
     html_url: https://github.com/isiahw1/mcp-server-bing-webmaster
-    created_at: "2025-07-06T07:32:55Z"
-    pushed_at: "2026-02-10T01:42:33Z"
+    created_at: '2025-07-06T07:32:55Z'
+    pushed_at: '2026-02-10T01:42:33Z'
     description: MCP server providing access to Bing Webmaster Tools API endpoints for SEO management and analytics
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:45.597Z"
+    last_checked_at: '2026-07-30T05:05:45.597Z'
     readme:
-      fetched_at: "2026-07-30T05:05:45.597Z"
+      fetched_at: '2026-07-30T05:05:45.597Z'
       bytes: 12620
 insights:
-  summary: An MCP server that exposes Bing Webmaster Tools API endpoints for SEO management and analytics to MCP-compatible AI assistants.
+  summary: >-
+    An MCP server that exposes Bing Webmaster Tools API endpoints for SEO management and analytics to MCP-compatible AI
+    assistants.
   why_it_matters: Lets developers query Bing Webmaster data directly from their coding assistant without leaving the workflow.
   mental_damage: Now your AI pair programmer can also judge your SEO, because why should humans have the last word on vanity metrics.
   tags:
@@ -51,31 +56,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific (Bing Webmaster) tooling."
+  reason: 'MCP is the product identity: this is a dedicated MCP server providing domain-specific (Bing Webmaster) tooling.'
   evidence:
     - Repo description explicitly states it is an MCP server for Bing Webmaster Tools API
     - README details MCP compliance and integration with Claude, Cursor, Windsurf
     - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.621Z"
+    updated_at: '2026-05-06T22:12:15.621Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:45.597Z"
+    updated_at: '2026-07-30T05:05:45.597Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:08:58.410Z"
+    updated_at: '2026-07-21T16:08:58.410Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +94,7 @@ processing:
       input_hash: sha256:57a50c312e949c2ce627b12805e07047161fdfc07ec4316d64c610137dc7b8d7
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific (Bing Webmaster) tooling."
+      decision_reason: 'MCP is the product identity: this is a dedicated MCP server providing domain-specific (Bing Webmaster) tooling.'
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Bing Webmaster Tools API
         - README details MCP compliance and integration with Claude, Cursor, Windsurf
@@ -96,6 +102,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server, not an extension augmenting
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

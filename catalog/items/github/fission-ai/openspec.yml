@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__fission-ai__openspec__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -19,7 +19,10 @@ provenance:
           - Specification Tools
         anchor_text: OpenSpec
         extracted_url: https://github.com/fission-ai/openspec
-        surrounding_text: "- [OpenSpec](https://github.com/Fission-AI/OpenSpec) ![](https://img.shields.io/github/stars/Fission-AI/OpenSpec.svg) - Aligns developers and AI assistants on specifications before code is written."
+        surrounding_text: >-
+          - [OpenSpec](https://github.com/Fission-AI/OpenSpec)
+          ![](https://img.shields.io/github/stars/Fission-AI/OpenSpec.svg) - Aligns developers and AI assistants on
+          specifications before code is written.
         confidence: high
 metadata:
   github:
@@ -29,8 +32,8 @@ metadata:
     archived: false
     full_name: Fission-AI/OpenSpec
     html_url: https://github.com/Fission-AI/OpenSpec
-    created_at: "2025-08-05T10:37:45Z"
-    pushed_at: "2026-08-26T23:24:19Z"
+    created_at: '2025-08-05T10:37:45Z'
+    pushed_at: '2026-08-26T23:24:19Z'
     description: Spec-driven development (SDD) for AI coding assistants.
     homepage: https://openspec.dev/
     topics:
@@ -44,13 +47,17 @@ metadata:
       - spec
       - spec-driven-development
       - specification
-    last_checked_at: "2026-08-27T09:23:30.773Z"
+    last_checked_at: '2026-08-27T09:23:30.773Z'
     readme:
-      fetched_at: "2026-08-27T09:23:30.773Z"
+      fetched_at: '2026-08-27T09:23:30.773Z'
       bytes: 12045
 insights:
-  summary: Spec-driven development (SDD) tooling for AI coding assistants that generates structured spec artifacts before code implementation.
-  why_it_matters: Provides a predictable workflow for aligning humans and AI on requirements before writing code, reducing vague prompts and rework.
+  summary: >-
+    Spec-driven development (SDD) tooling for AI coding assistants that generates structured spec artifacts before code
+    implementation.
+  why_it_matters: >-
+    Provides a predictable workflow for aligning humans and AI on requirements before writing code, reducing vague
+    prompts and rework.
   mental_damage: Another spec format to learn while your AI still ignores the docs and ships half-baked features anyway.
   tags:
     - spec-driven-development
@@ -59,31 +66,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: OpenSpec is a spec-first tool that drives AI-assisted implementation through structured artifacts like proposals, specs, design, and tasks, matching the core definition of spec-driven development tooling.
+  reason: >-
+    OpenSpec is a spec-first tool that drives AI-assisted implementation through structured artifacts like proposals,
+    specs, design, and tasks, matching the core definition of spec-driven development tooling.
   evidence:
-    - "Repo description: 'Spec-driven development (SDD) for AI coding assistants'"
+    - 'Repo description: ''Spec-driven development (SDD) for AI coding assistants'''
     - README shows slash commands like /opsx:propose generating proposal.md, specs/, design.md, tasks.md
     - Philosophy emphasizes 'fluid not rigid', 'iterative not waterfall', and 'agree before you build'
 placement:
-  primary_category: spec-driven-development
-  section: Spec-First Environments
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Spec-First & Plan-Execute
 lifecycle:
   status: promotion_candidate
   reason: Stars (45674) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.614Z"
+    updated_at: '2026-05-06T22:12:15.614Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:30.774Z"
+    updated_at: '2026-08-27T09:23:30.774Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:56:56.922Z"
+    updated_at: '2026-07-21T15:56:56.922Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,14 +106,18 @@ processing:
       input_hash: sha256:47a81b53a27aadec1f469b8c7b84bac80544e7b157494113f330de265c2fe806
       proposed_primary_category: spec-driven-development
       disagreement: false
-      decision_reason: OpenSpec is a spec-first tool that drives AI-assisted implementation through structured artifacts like proposals, specs, design, and tasks, matching the core definition of spec-driven development tooling.
+      decision_reason: >-
+        OpenSpec is a spec-first tool that drives AI-assisted implementation through structured artifacts like
+        proposals, specs, design, and tasks, matching the core definition of spec-driven development tooling.
       decision_evidence:
-        - "Repo description: 'Spec-driven development (SDD) for AI coding assistants'"
+        - 'Repo description: ''Spec-driven development (SDD) for AI coding assistants'''
         - README shows slash commands like /opsx:propose generating proposal.md, specs/, design.md, tasks.md
         - Philosophy emphasizes 'fluid not rigid', 'iterative not waterfall', and 'agree before you build'
       category_candidates:
         - spec-driven-development
         - coding-agents
-      contrastive_reason: Choose spec-driven-development over coding-agents because OpenSpec's primary artifact is the spec workflow (proposals, specs, design, tasks) rather than directly writing, editing, or debugging code itself.
+      contrastive_reason: >-
+        Choose spec-driven-development over coding-agents because OpenSpec's primary artifact is the spec workflow
+        (proposals, specs, design, tasks) rather than directly writing, editing, or debugging code itself.
       review_reason: null
       review_resume_lifecycle: null

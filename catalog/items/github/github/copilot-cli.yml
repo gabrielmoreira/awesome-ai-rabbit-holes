@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__github__copilot-cli__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Closed Source
         anchor_text: GitHub Copilot in the CLI
         extracted_url: https://github.com/github/copilot-cli
-        surrounding_text: "- **[GitHub Copilot in the CLI](https://github.com/github/copilot-cli)** `⭐ 10.4k` `[GitHub]` — GitHub's agentic CLI for repo/PR/issue workflows, command suggestions, and headless automation."
+        surrounding_text: >-
+          - **[GitHub Copilot in the CLI](https://github.com/github/copilot-cli)** `⭐ 10.4k` `[GitHub]` — GitHub's
+          agentic CLI for repo/PR/issue workflows, command suggestions, and headless automation.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,22 @@ metadata:
     archived: false
     full_name: github/copilot-cli
     html_url: https://github.com/github/copilot-cli
-    created_at: "2023-01-06T09:22:30Z"
-    pushed_at: "2026-09-02T15:14:10Z"
-    description: "GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal. "
-    homepage: ""
+    created_at: '2023-01-06T09:22:30Z'
+    pushed_at: '2026-09-02T15:14:10Z'
+    description: 'GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal. '
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-03T05:16:50.147Z"
+    last_checked_at: '2026-09-03T05:16:50.147Z'
     readme:
-      fetched_at: "2026-09-03T05:16:50.147Z"
+      fetched_at: '2026-09-03T05:16:50.147Z'
       bytes: 7740
 insights:
-  summary: GitHub Copilot CLI is a terminal-based coding agent that brings AI-powered code assistance directly to the command line.
-  why_it_matters: It lets developers use Copilot’s agentic capabilities for building, debugging, and understanding code without leaving the terminal.
+  summary: >-
+    GitHub Copilot CLI is a terminal-based coding agent that brings AI-powered code assistance directly to the command
+    line.
+  why_it_matters: >-
+    It lets developers use Copilot’s agentic capabilities for building, debugging, and understanding code without
+    leaving the terminal.
   mental_damage: Now you can pair program with an AI in your shell while pretending you’re not just avoiding opening your editor.
   tags:
     - terminal
@@ -50,13 +56,18 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a standalone terminal-native coding agent that plans, writes, and edits code, matching the core definition of a coding agent rather than an extension or framework.
+  reason: >-
+    It is a standalone terminal-native coding agent that plans, writes, and edits code, matching the core definition of
+    a coding agent rather than an extension or framework.
   evidence:
-    - "Repo description: 'GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal'"
-    - "README: 'build, edit, debug, and refactor code with an AI collaborator that can plan and execute complex tasks'"
-    - "README: 'Agentic capabilities: Build, edit, debug, and refactor code with an AI collaborator that can plan and execute complex tasks'"
+    - 'Repo description: ''GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal'''
+    - 'README: ''build, edit, debug, and refactor code with an AI collaborator that can plan and execute complex tasks'''
+    - >-
+      README: 'Agentic capabilities: Build, edit, debug, and refactor code with an AI collaborator that can plan and
+      execute complex tasks'
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -64,17 +75,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.616Z"
+    updated_at: '2026-05-06T22:12:15.616Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:50.147Z"
+    updated_at: '2026-09-03T05:16:50.147Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:03:22.097Z"
+    updated_at: '2026-07-21T16:03:22.097Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,14 +98,22 @@ processing:
       input_hash: sha256:fe7adabc072927000f2eb597dec9246d0436c5f55eee1805e118db6d230c5fbd
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: It is a standalone terminal-native coding agent that plans, writes, and edits code, matching the core definition of a coding agent rather than an extension or framework.
+      decision_reason: >-
+        It is a standalone terminal-native coding agent that plans, writes, and edits code, matching the core definition
+        of a coding agent rather than an extension or framework.
       decision_evidence:
-        - "Repo description: 'GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal'"
-        - "README: 'build, edit, debug, and refactor code with an AI collaborator that can plan and execute complex tasks'"
-        - "README: 'Agentic capabilities: Build, edit, debug, and refactor code with an AI collaborator that can plan and execute complex tasks'"
+        - 'Repo description: ''GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal'''
+        - >-
+          README: 'build, edit, debug, and refactor code with an AI collaborator that can plan and execute complex
+          tasks'
+        - >-
+          README: 'Agentic capabilities: Build, edit, debug, and refactor code with an AI collaborator that can plan and
+          execute complex tasks'
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because the tool is the primary coding assistant itself, not an add-on that augments another agent with host integrations like git or debugger access.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because the tool is the primary coding assistant itself, not an
+        add-on that augments another agent with host integrations like git or debugger access.
       review_reason: null
       review_resume_lifecycle: null

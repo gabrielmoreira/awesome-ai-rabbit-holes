@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__leonardoca1__aesthetics-wiki-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: leonardoca1/aesthetics-wiki-mcp
         extracted_url: https://github.com/leonardoca1/aesthetics-wiki-mcp
-        surrounding_text: "- [leonardoca1/aesthetics-wiki-mcp](https://github.com/leonardoca1/aesthetics-wiki-mcp) [![leonardoca1/aesthetics-wiki-mcp MCP server](https://glama.ai/mcp/servers/leonardoca1/aesthetics-wiki-mcp/badges/score.svg)](https://glama.ai/mcp/servers/leonardoca1/aesthetics-wiki-mcp) 🐍 🏠 🍎 🪟 🐧 - Search, read, and discover thousands of visual aesthetics (cottagecore, dark academia, y2k, goblincore, and many more) from the [Aesthetics Wiki](https://aesthetics.fandom.com). Great for moodboards, brand direction, and creative inspiration. `uvx aesthetics-wiki-mcp`"
+        surrounding_text: >-
+          - [leonardoca1/aesthetics-wiki-mcp](https://github.com/leonardoca1/aesthetics-wiki-mcp)
+          [![leonardoca1/aesthetics-wiki-mcp MCP
+          server](https://glama.ai/mcp/servers/leonardoca1/aesthetics-wiki-mcp/badges/score.svg)](https://glama.ai/mcp/servers/leonardoca1/aesthetics-wiki-mcp)
+          🐍 🏠 🍎 🪟 🐧 - Search, read, and discover thousands of visual aesthetics (cottagecore, dark academia, y2k,
+          goblincore, and many more) from the [Aesthetics Wiki](https://aesthetics.fandom.com). Great for moodboards,
+          brand direction, and creative inspiration. `uvx aesthetics-wiki-mcp`
         confidence: high
 metadata:
   github:
@@ -30,8 +36,8 @@ metadata:
     archived: false
     full_name: leonardoca1/aesthetics-wiki-mcp
     html_url: https://github.com/leonardoca1/aesthetics-wiki-mcp
-    created_at: "2026-04-20T22:33:40Z"
-    pushed_at: "2026-04-21T09:37:48Z"
+    created_at: '2026-04-20T22:33:40Z'
+    pushed_at: '2026-04-21T09:37:48Z'
     description: MCP server for the Aesthetics Wiki (aesthetics.fandom.com) — search, read, and discover aesthetics from your LLM.
     homepage: null
     topics:
@@ -43,12 +49,14 @@ metadata:
       - mediawiki
       - model-context-protocol
       - python
-    last_checked_at: "2026-07-30T05:06:04.772Z"
+    last_checked_at: '2026-07-30T05:06:04.772Z'
     readme:
-      fetched_at: "2026-07-30T05:06:04.772Z"
+      fetched_at: '2026-07-30T05:06:04.772Z'
       bytes: 5004
 insights:
-  summary: An MCP server that provides read-only access to the Aesthetics Wiki via tools for searching, retrieving, and exploring visual subcultures.
+  summary: >-
+    An MCP server that provides read-only access to the Aesthetics Wiki via tools for searching, retrieving, and
+    exploring visual subcultures.
   why_it_matters: It lets developers and LLMs ground creative work in real aesthetic references instead of hallucinated vibes.
   mental_damage: Finally, an excuse to procrastinate by asking your AI to compare cottagecore and goblincore during sprint planning.
   tags:
@@ -58,31 +66,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core identity is exposing the Aesthetics Wiki as a tool for LLMs, making MCP the primary product identity rather than a compatibility feature.
+  reason: >-
+    The product is an MCP server whose core identity is exposing the Aesthetics Wiki as a tool for LLMs, making MCP the
+    primary product identity rather than a compatibility feature.
   evidence:
-    - "Repo description: 'MCP server for the Aesthetics Wiki'"
-    - "README: Explicitly positions itself as an MCP server that lets LLMs search, read, and discover aesthetics"
-    - "Source-list context: Listed in awesome-mcp-servers under Art & Culture"
+    - 'Repo description: ''MCP server for the Aesthetics Wiki'''
+    - 'README: Explicitly positions itself as an MCP server that lets LLMs search, read, and discover aesthetics'
+    - 'Source-list context: Listed in awesome-mcp-servers under Art & Culture'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.626Z"
+    updated_at: '2026-05-06T22:12:15.626Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:04.772Z"
+    updated_at: '2026-07-30T05:06:04.772Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:15:40.989Z"
+    updated_at: '2026-07-21T16:15:40.989Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -95,14 +106,18 @@ processing:
       input_hash: sha256:6f4566ffcf69ac26daaafa3db590af068a4c9a520b3abf2754c1c8649940cd9d
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server whose core identity is exposing the Aesthetics Wiki as a tool for LLMs, making MCP the primary product identity rather than a compatibility feature.
+      decision_reason: >-
+        The product is an MCP server whose core identity is exposing the Aesthetics Wiki as a tool for LLMs, making MCP
+        the primary product identity rather than a compatibility feature.
       decision_evidence:
-        - "Repo description: 'MCP server for the Aesthetics Wiki'"
-        - "README: Explicitly positions itself as an MCP server that lets LLMs search, read, and discover aesthetics"
-        - "Source-list context: Listed in awesome-mcp-servers under Art & Culture"
+        - 'Repo description: ''MCP server for the Aesthetics Wiki'''
+        - 'README: Explicitly positions itself as an MCP server that lets LLMs search, read, and discover aesthetics'
+        - 'Source-list context: Listed in awesome-mcp-servers under Art & Culture'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool is an MCP server as its primary identity, not an extension that augments another assistant with host integrations.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool is an MCP server as its primary identity, not an extension
+        that augments another assistant with host integrations.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__rushikeshmore__codecortex__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: rushikeshmore/CodeCortex
         extracted_url: https://github.com/rushikeshmore/codecortex
-        surrounding_text: "- [rushikeshmore/CodeCortex](https://github.com/rushikeshmore/CodeCortex) [![codecortex MCP server](https://glama.ai/mcp/servers/@rushikeshmore/codecortex/badges/score.svg)](https://glama.ai/mcp/servers/@rushikeshmore/codecortex) 📇 🏠 🍎 🪟 🐧 - Persistent codebase knowledge layer for AI coding agents. Pre-digests codebases into structured knowledge (symbols, dependency graphs, co-change patterns, architectural decisions) via tree-sitter native parsing (28 languages) and serves via MCP. 14 tools, ~85% token reduction. Works with Claude Code, Cursor, Codex, and any MCP client."
+        surrounding_text: >-
+          - [rushikeshmore/CodeCortex](https://github.com/rushikeshmore/CodeCortex) [![codecortex MCP
+          server](https://glama.ai/mcp/servers/@rushikeshmore/codecortex/badges/score.svg)](https://glama.ai/mcp/servers/@rushikeshmore/codecortex)
+          📇 🏠 🍎 🪟 🐧 - Persistent codebase knowledge layer for AI coding agents. Pre-digests codebases into
+          structured knowledge (symbols, dependency graphs, co-change patterns, architectural decisions) via tree-sitter
+          native parsing (28 languages) and serves via MCP. 14 tools, ~85% token reduction. Works with Claude Code,
+          Cursor, Codex, and any MCP client.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: rushikeshmore/CodeCortex
     html_url: https://github.com/rushikeshmore/CodeCortex
-    created_at: "2026-02-25T12:11:08Z"
-    pushed_at: "2026-04-21T10:19:29Z"
-    description: Persistent codebase knowledge layer for AI agents. Pre-builds architecture, dependency, coupling, and risk knowledge served via MCP. 27 languages, 13 tools.
+    created_at: '2026-02-25T12:11:08Z'
+    pushed_at: '2026-04-21T10:19:29Z'
+    description: >-
+      Persistent codebase knowledge layer for AI agents. Pre-builds architecture, dependency, coupling, and risk
+      knowledge served via MCP. 27 languages, 13 tools.
     homepage: https://codecortex-ai.vercel.app
     topics:
       - ai-agents
@@ -50,14 +58,21 @@ metadata:
       - open-source
       - rag
       - typescript
-    last_checked_at: "2026-07-20T16:42:49.044Z"
+    last_checked_at: '2026-07-20T16:42:49.044Z'
     readme:
-      fetched_at: "2026-07-20T16:42:49.044Z"
+      fetched_at: '2026-07-20T16:42:49.044Z'
       bytes: 9314
 insights:
-  summary: A persistent codebase knowledge layer that pre-builds architecture, dependency, coupling, and risk knowledge, exposing it to AI agents via an MCP server and inline context injection.
-  why_it_matters: It eliminates AI agent cold starts by injecting precomputed structural, semantic, and temporal codebase knowledge directly into agent config files, reducing tool calls and token usage on large codebases.
-  mental_damage: We have successfully reached the point where we need dedicated infrastructure to explain our own code to the AI, because apparently 79K tokens of context window wasn't quite enough to figure out which files are dangerous to touch.
+  summary: >-
+    A persistent codebase knowledge layer that pre-builds architecture, dependency, coupling, and risk knowledge,
+    exposing it to AI agents via an MCP server and inline context injection.
+  why_it_matters: >-
+    It eliminates AI agent cold starts by injecting precomputed structural, semantic, and temporal codebase knowledge
+    directly into agent config files, reducing tool calls and token usage on large codebases.
+  mental_damage: >-
+    We have successfully reached the point where we need dedicated infrastructure to explain our own code to the AI,
+    because apparently 79K tokens of context window wasn't quite enough to figure out which files are dangerous to
+    touch.
   tags:
     - mcp
     - context-engineering
@@ -67,35 +82,44 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The core novelty is the context and memory system itself—pre-building structural, semantic, temporal, and risk knowledge to inject into agent contexts—rather than being a primary coding assistant or thin host integration.
+  reason: >-
+    The core novelty is the context and memory system itself—pre-building structural, semantic, temporal, and risk
+    knowledge to inject into agent contexts—rather than being a primary coding assistant or thin host integration.
   evidence:
-    - Repo description states it is a 'Persistent codebase knowledge layer for AI agents' served via MCP with 27 languages support.
-    - README emphasizes 'Not a middleware. Not a proxy. Just knowledge your agent loads on day one' with six distinct knowledge layers including temporal coupling and risk scores.
-    - Source list places it in awesome-mcp-servers under 'Knowledge & Memory', and topics include context-engineering and mcp-server.
+    - >-
+      Repo description states it is a 'Persistent codebase knowledge layer for AI agents' served via MCP with 27
+      languages support.
+    - >-
+      README emphasizes 'Not a middleware. Not a proxy. Just knowledge your agent loads on day one' with six distinct
+      knowledge layers including temporal coupling and risk scores.
+    - >-
+      Source list places it in awesome-mcp-servers under 'Knowledge & Memory', and topics include context-engineering
+      and mcp-server.
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.646Z"
+    updated_at: '2026-05-06T22:12:15.646Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:49.044Z"
+    updated_at: '2026-07-20T16:42:49.044Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

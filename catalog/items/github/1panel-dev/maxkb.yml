@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__1panel-dev__maxkb__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,7 @@ provenance:
           - 知识库 RAG
         anchor_text: MaxKB
         extracted_url: https://github.com/1panel-dev/maxkb
-        surrounding_text: "2. [MaxKB](https://github.com/1Panel-dev/MaxKB): 基于 LLM 大语言模型的知识库问答系统。开箱即用，支持快速嵌入到第三方业务系统"
+        surrounding_text: '2. [MaxKB](https://github.com/1Panel-dev/MaxKB): 基于 LLM 大语言模型的知识库问答系统。开箱即用，支持快速嵌入到第三方业务系统'
         confidence: high
 metadata:
   github:
@@ -29,8 +29,8 @@ metadata:
     archived: false
     full_name: 1Panel-dev/MaxKB
     html_url: https://github.com/1Panel-dev/MaxKB
-    created_at: "2023-09-14T02:05:12Z"
-    pushed_at: "2026-09-16T12:21:32Z"
+    created_at: '2023-09-14T02:05:12Z'
+    pushed_at: '2026-09-16T12:21:32Z'
     description: 🔥 MaxKB is an open-source platform for building enterprise-grade agents.  强大易用的开源企业级智能体平台。
     homepage: https://maxkb.cn
     topics:
@@ -48,14 +48,20 @@ metadata:
       - pgvector
       - qwen3
       - rag
-    last_checked_at: "2026-09-17T04:13:25.647Z"
+    last_checked_at: '2026-09-17T04:13:25.647Z'
     readme:
-      fetched_at: "2026-09-17T04:13:25.647Z"
+      fetched_at: '2026-09-17T04:13:25.647Z'
       bytes: 4738
 insights:
-  summary: An open-source platform for building enterprise-grade agents with integrated RAG pipelines and workflow orchestration.
-  why_it_matters: It provides a structured way to connect private knowledge bases to LLMs using RAG and agentic workflows via a visual or programmable interface.
-  mental_damage: Because clearly, the only thing missing from your enterprise architecture was one more abstraction layer between your data and your LLM.
+  summary: >-
+    An open-source platform for building enterprise-grade agents with integrated RAG pipelines and workflow
+    orchestration.
+  why_it_matters: >-
+    It provides a structured way to connect private knowledge bases to LLMs using RAG and agentic workflows via a visual
+    or programmable interface.
+  mental_damage: >-
+    Because clearly, the only thing missing from your enterprise architecture was one more abstraction layer between
+    your data and your LLM.
   tags:
     - rag
     - agent-orchestration
@@ -65,31 +71,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MaxKB acts as an operated workbench and control plane for orchestrating agents and RAG pipelines rather than being a simple library or a single coding assistant.
+  reason: >-
+    MaxKB acts as an operated workbench and control plane for orchestrating agents and RAG pipelines rather than being a
+    simple library or a single coding assistant.
   evidence:
     - README claims it is an 'open-source platform for building enterprise-grade agents'
     - Includes a workflow engine and function library for orchestrating AI processes
     - High star count (22k+) and active maintenance indicated by recent pushes
 placement:
   primary_category: agent-orchestration
-  section: Workbenches & Collaboration Surfaces
+  secondary_categories: []
+  section: Visual Builders & Workbenches
 lifecycle:
   status: promotion_candidate
   reason: Stars (20884) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.598Z"
+    updated_at: '2026-05-06T22:12:15.598Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:25.647Z"
+    updated_at: '2026-09-17T04:13:25.647Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:48:50.026Z"
+    updated_at: '2026-07-20T15:48:50.026Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -102,7 +111,9 @@ processing:
       input_hash: sha256:5212f9b9a18db6436d36a3f35b760e9614b15420dcc0ff795acad536508f3b4e
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: MaxKB acts as an operated workbench and control plane for orchestrating agents and RAG pipelines rather than being a simple library or a single coding assistant.
+      decision_reason: >-
+        MaxKB acts as an operated workbench and control plane for orchestrating agents and RAG pipelines rather than
+        being a simple library or a single coding assistant.
       decision_evidence:
         - README claims it is an 'open-source platform for building enterprise-grade agents'
         - Includes a workflow engine and function library for orchestrating AI processes
@@ -110,6 +121,8 @@ processing:
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated workbench/platform for end-users and enterprises rather than a code-first library meant for programmatic import.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because the product is an operated workbench/platform for
+        end-users and enterprises rather than a code-first library meant for programmatic import.
       review_reason: null
       review_resume_lifecycle: null

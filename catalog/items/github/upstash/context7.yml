@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__upstash__context7__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: upstash/context7
         extracted_url: https://github.com/upstash/context7
-        surrounding_text: "- [upstash/context7](https://github.com/upstash/context7) 📇 ☁️ - Up-to-date code documentation for LLMs and AI code editors."
+        surrounding_text: >-
+          - [upstash/context7](https://github.com/upstash/context7) 📇 ☁️ - Up-to-date code documentation for LLMs and
+          AI code editors.
         confidence: high
     - id: discovery__github__upstash__context7__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +37,9 @@ provenance:
           - Official Servers
         anchor_text: Context 7
         extracted_url: https://github.com/upstash/context7-mcp
-        surrounding_text: "- **[Context 7](https://github.com/upstash/context7-mcp)** - Context7 MCP - Up-to-date Docs For Any Cursor Prompt"
+        surrounding_text: >-
+          - **[Context 7](https://github.com/upstash/context7-mcp)** - Context7 MCP - Up-to-date Docs For Any Cursor
+          Prompt
         confidence: high
 metadata:
   github:
@@ -45,8 +49,8 @@ metadata:
     archived: false
     full_name: upstash/context7
     html_url: https://github.com/upstash/context7
-    created_at: "2025-03-26T23:40:39Z"
-    pushed_at: "2026-07-21T10:19:10Z"
+    created_at: '2025-03-26T23:40:39Z'
+    pushed_at: '2026-07-21T10:19:10Z'
     description: Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors
     homepage: https://context7.com
     topics:
@@ -54,14 +58,20 @@ metadata:
       - mcp
       - mcp-server
       - vibe-coding
-    last_checked_at: "2026-07-21T15:20:59.945Z"
+    last_checked_at: '2026-07-21T15:20:59.945Z'
     readme:
-      fetched_at: "2026-07-21T15:20:59.945Z"
+      fetched_at: '2026-07-21T15:20:59.945Z'
       bytes: 9887
 insights:
-  summary: Context7 Platform provides up-to-date code documentation and examples for LLMs and AI code editors via CLI skills or MCP server integration.
-  why_it_matters: It reduces hallucinated or outdated code generation by fetching real-time, version-specific documentation directly into the developer's AI coding workflow.
-  mental_damage: Another tool to remind your AI assistant that it still can't remember last week's API changes, so you spend more time managing context than coding.
+  summary: >-
+    Context7 Platform provides up-to-date code documentation and examples for LLMs and AI code editors via CLI skills or
+    MCP server integration.
+  why_it_matters: >-
+    It reduces hallucinated or outdated code generation by fetching real-time, version-specific documentation directly
+    into the developer's AI coding workflow.
+  mental_damage: >-
+    Another tool to remind your AI assistant that it still can't remember last week's API changes, so you spend more
+    time managing context than coding.
   tags:
     - context-engineering
     - mcp
@@ -69,31 +79,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Context7's core value is retrieving fresh, version-specific documentation to improve model context, making it a prompt and context engineering tool rather than a coding agent or mere extension.
+  reason: >-
+    Context7's core value is retrieving fresh, version-specific documentation to improve model context, making it a
+    prompt and context engineering tool rather than a coding agent or mere extension.
   evidence:
-    - "Repo description: 'Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors'"
-    - "README claims: 'Context7 pulls up-to-date, version-specific documentation and code examples straight from the source — and places them directly into your prompt'"
-    - "Source-list context: Listed in awesome-mcp-servers under 'Knowledge & Memory' and 'Official Servers' sections"
+    - 'Repo description: ''Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors'''
+    - >-
+      README claims: 'Context7 pulls up-to-date, version-specific documentation and code examples straight from the
+      source — and places them directly into your prompt'
+    - 'Source-list context: Listed in awesome-mcp-servers under ''Knowledge & Memory'' and ''Official Servers'' sections'
 placement:
-  primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Retrieval & Fresh Docs
 lifecycle:
   status: promotion_candidate
   reason: Stars (55108) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.595Z"
+    updated_at: '2026-05-06T22:12:15.595Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:59.945Z"
+    updated_at: '2026-07-21T15:20:59.945Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:20:11.415Z"
+    updated_at: '2026-05-12T15:20:11.415Z'
     cause: null
     next_retry_at: null
     attempts: 1

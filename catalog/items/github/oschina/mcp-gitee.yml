@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__oschina__mcp-gitee__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: Gitee
         extracted_url: https://github.com/oschina/mcp-gitee
-        surrounding_text: "- **[Gitee](https://github.com/oschina/mcp-gitee)** - Gitee API integration, repository, issue, and pull request management, and more."
+        surrounding_text: >-
+          - **[Gitee](https://github.com/oschina/mcp-gitee)** - Gitee API integration, repository, issue, and pull
+          request management, and more.
         confidence: high
 metadata:
   github:
@@ -29,22 +31,30 @@ metadata:
     archived: false
     full_name: oschina/mcp-gitee
     html_url: https://github.com/oschina/mcp-gitee
-    created_at: "2025-03-12T09:46:56Z"
-    pushed_at: "2026-06-11T07:07:52Z"
-    description: mcp-gitee is a Model Context Protocol (MCP) server implementation for Gitee. It provides a set of tools that interact with Gitee's API, allowing AI assistants to manage repository, issues, pull requests, etc.
-    homepage: ""
+    created_at: '2025-03-12T09:46:56Z'
+    pushed_at: '2026-06-11T07:07:52Z'
+    description: >-
+      mcp-gitee is a Model Context Protocol (MCP) server implementation for Gitee. It provides a set of tools that
+      interact with Gitee's API, allowing AI assistants to manage repository, issues, pull requests, etc.
+    homepage: ''
     topics:
       - gitee
       - mcp
       - mcp-server
-    last_checked_at: "2026-07-20T16:42:28.507Z"
+    last_checked_at: '2026-07-20T16:42:28.507Z'
     readme:
-      fetched_at: "2026-07-20T16:42:28.507Z"
+      fetched_at: '2026-07-20T16:42:28.507Z'
       bytes: 9548
 insights:
-  summary: An MCP server implementation for Gitee that exposes repositories, issues, and pull requests as tools for AI assistants via the Model Context Protocol.
-  why_it_matters: It lets coding agents and editors with MCP support operate directly on Gitee repos, issues, and PRs without custom glue code.
-  mental_damage: We now have a protocol to let an AI gently close your issues on a platform you only use because the firewall told you to.
+  summary: >-
+    An MCP server implementation for Gitee that exposes repositories, issues, and pull requests as tools for AI
+    assistants via the Model Context Protocol.
+  why_it_matters: >-
+    It lets coding agents and editors with MCP support operate directly on Gitee repos, issues, and PRs without custom
+    glue code.
+  mental_damage: >-
+    We now have a protocol to let an AI gently close your issues on a platform you only use because the firewall told
+    you to.
   tags:
     - mcp
     - gitee
@@ -56,32 +66,35 @@ curation:
   reason: The product is an MCP server for Gitee with MCP as the core identity, fitting the MCP Servers & Tooling category.
   evidence:
     - Repo description states it is 'a Model Context Protocol (MCP) server implementation for Gitee'.
-    - README positions it as an MCP server with toolset management and explicit host configs for Claude, Cursor, Cline, Trae, and Windsurf.
+    - >-
+      README positions it as an MCP server with toolset management and explicit host configs for Claude, Cursor, Cline,
+      Trae, and Windsurf.
     - Listed in awesome-mcp-servers under 'Official Servers', reinforcing its MCP infrastructure role.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.641Z"
+    updated_at: '2026-05-06T22:12:15.641Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:28.507Z"
+    updated_at: '2026-07-20T16:42:28.507Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

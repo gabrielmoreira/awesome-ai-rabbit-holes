@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__drolosoft__go-docs-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 📂 <a name="file-systems"></a>File Systems
         anchor_text: drolosoft/go-docs-mcp
         extracted_url: https://github.com/drolosoft/go-docs-mcp
-        surrounding_text: "- [drolosoft/go-docs-mcp](https://github.com/drolosoft/go-docs-mcp) [![drolosoft/go-docs-mcp MCP server](https://glama.ai/mcp/servers/drolosoft/go-docs-mcp/badges/score.svg)](https://glama.ai/mcp/servers/drolosoft/go-docs-mcp) 🏎️ 🏠 🍎 🐧 - Multi-format document MCP server — read, search, OCR, and extract from PDF, TXT, MD, DOCX, CSV, and images. Single Go binary, 12 tools, smart mtime-based caching, directory-locked security."
+        surrounding_text: >-
+          - [drolosoft/go-docs-mcp](https://github.com/drolosoft/go-docs-mcp) [![drolosoft/go-docs-mcp MCP
+          server](https://glama.ai/mcp/servers/drolosoft/go-docs-mcp/badges/score.svg)](https://glama.ai/mcp/servers/drolosoft/go-docs-mcp)
+          🏎️ 🏠 🍎 🐧 - Multi-format document MCP server — read, search, OCR, and extract from PDF, TXT, MD, DOCX, CSV,
+          and images. Single Go binary, 12 tools, smart mtime-based caching, directory-locked security.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: drolosoft/go-docs-mcp
     html_url: https://github.com/drolosoft/go-docs-mcp
-    created_at: "2026-05-16T12:16:05Z"
-    pushed_at: "2026-08-17T12:38:42Z"
+    created_at: '2026-05-16T12:16:05Z'
+    pushed_at: '2026-08-17T12:38:42Z'
     description: 📄🐹⚡ Go MCP server for multi-format document access — PDF, TXT, MD, DOCX, CSV, images. Install and Go.
     homepage: https://drolosoft.com/go-docs-mcp.html
     topics:
@@ -49,13 +53,17 @@ metadata:
       - pdf
       - self-hosted
       - tesseract
-    last_checked_at: "2026-09-14T04:13:44.797Z"
+    last_checked_at: '2026-09-14T04:13:44.797Z'
     readme:
-      fetched_at: "2026-09-14T04:13:44.797Z"
+      fetched_at: '2026-09-14T04:13:44.797Z'
       bytes: 13196
 insights:
-  summary: A Go-based MCP server that enables AI assistants to read, search, and extract data from multiple document formats, including PDFs, DOCX, and images via OCR.
-  why_it_matters: It provides a unified, zero-config way for coding agents to ingest and query diverse documentation and data files that aren't in plain text.
+  summary: >-
+    A Go-based MCP server that enables AI assistants to read, search, and extract data from multiple document formats,
+    including PDFs, DOCX, and images via OCR.
+  why_it_matters: >-
+    It provides a unified, zero-config way for coding agents to ingest and query diverse documentation and data files
+    that aren't in plain text.
   mental_damage: One more single-binary sidecar to manage because your AI assistant still hasn't graduated from reading plain text.
   tags:
     - mcp
@@ -73,24 +81,25 @@ curation:
     - Primary identity is a standalone server rather than a library or extension
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.819Z"
+    updated_at: '2026-05-28T05:28:09.819Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:44.797Z"
+    updated_at: '2026-09-14T04:13:44.797Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-28T05:39:34.275Z"
+    updated_at: '2026-05-28T05:39:34.275Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__george-kozlitin__borme-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: george-kozlitin/borme-mcp
         extracted_url: https://github.com/george-kozlitin/borme-mcp
-        surrounding_text: "- [george-kozlitin/borme-mcp](https://github.com/george-kozlitin/borme-mcp) [![george-kozlitin/borme-mcp MCP server](https://glama.ai/mcp/servers/george-kozlitin/borme-mcp/badges/score.svg)](https://glama.ai/mcp/servers/george-kozlitin/borme-mcp) 🐍 ☁️ - Spain's official company registry (BORME) for agents: 9.5M typed company events since 2009 — incorporations, director changes, insolvencies, capital moves across 52 event kinds. Free hosted endpoint: `https://mcp.bormeapi.com/mcp`."
+        surrounding_text: >-
+          - [george-kozlitin/borme-mcp](https://github.com/george-kozlitin/borme-mcp) [![george-kozlitin/borme-mcp MCP
+          server](https://glama.ai/mcp/servers/george-kozlitin/borme-mcp/badges/score.svg)](https://glama.ai/mcp/servers/george-kozlitin/borme-mcp)
+          🐍 ☁️ - Spain's official company registry (BORME) for agents: 9.5M typed company events since 2009 —
+          incorporations, director changes, insolvencies, capital moves across 52 event kinds. Free hosted endpoint:
+          `https://mcp.bormeapi.com/mcp`.
         confidence: high
 metadata:
   github:
@@ -30,19 +35,23 @@ metadata:
     archived: false
     full_name: george-kozlitin/borme-mcp
     html_url: https://github.com/george-kozlitin/borme-mcp
-    created_at: "2026-07-08T12:49:21Z"
-    pushed_at: "2026-08-30T11:29:02Z"
-    description: "MCP server for Spain's company registry (BORME): 9.5M events since 2009, hosted at mcp.bormeapi.com"
+    created_at: '2026-07-08T12:49:21Z'
+    pushed_at: '2026-08-30T11:29:02Z'
+    description: 'MCP server for Spain''s company registry (BORME): 9.5M events since 2009, hosted at mcp.bormeapi.com'
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:48.095Z"
+    last_checked_at: '2026-09-03T05:16:48.095Z'
     readme:
-      fetched_at: "2026-09-03T05:16:48.095Z"
+      fetched_at: '2026-09-03T05:16:48.095Z'
       bytes: 2179
 insights:
   summary: An MCP server providing access to Spain's official company registry (BORME) via an API.
-  why_it_matters: It allows AI agents to query 17 years of Spanish corporate data, including company history and insolvencies, directly through the Model Context Protocol.
-  mental_damage: Because why use a standard REST API when you can let an LLM struggle with 52 different types of Spanish corporate enums?
+  why_it_matters: >-
+    It allows AI agents to query 17 years of Spanish corporate data, including company history and insolvencies,
+    directly through the Model Context Protocol.
+  mental_damage: >-
+    Because why use a standard REST API when you can let an LLM struggle with 52 different types of Spanish corporate
+    enums?
   tags:
     - mcp-server
     - fintech
@@ -59,24 +68,25 @@ curation:
     - Hosted endpoint provided specifically for MCP configuration
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.715Z"
+    updated_at: '2026-07-16T05:04:46.715Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:48.095Z"
+    updated_at: '2026-09-03T05:16:48.095Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-16T05:16:29.726Z"
+    updated_at: '2026-07-16T05:16:29.726Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

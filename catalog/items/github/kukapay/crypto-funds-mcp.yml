@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__crypto-funds-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/crypto-funds-mcp
         extracted_url: https://github.com/kukapay/crypto-funds-mcp
-        surrounding_text: "- [kukapay/crypto-funds-mcp](https://github.com/kukapay/crypto-funds-mcp) 🐍 ☁️ -  Providing AI agents with structured, real-time data on cryptocurrency investment funds."
+        surrounding_text: >-
+          - [kukapay/crypto-funds-mcp](https://github.com/kukapay/crypto-funds-mcp) 🐍 ☁️ -  Providing AI agents with
+          structured, real-time data on cryptocurrency investment funds.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: kukapay/crypto-funds-mcp
     html_url: https://github.com/kukapay/crypto-funds-mcp
-    created_at: "2025-09-24T09:30:56Z"
-    pushed_at: "2025-09-25T03:18:43Z"
+    created_at: '2025-09-24T09:30:56Z'
+    pushed_at: '2025-09-25T03:18:43Z'
     description: An MCP server that provides AI agents with structured, real-time data on cryptocurrency investment funds.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:59.341Z"
+    last_checked_at: '2026-07-30T05:05:59.341Z'
     readme:
-      fetched_at: "2026-07-30T05:05:59.341Z"
+      fetched_at: '2026-07-30T05:05:59.341Z'
       bytes: 11013
 insights:
   summary: An MCP server that provides AI agents with structured, real-time data on cryptocurrency investment funds.
-  why_it_matters: Enables AI agents to perform deeper due diligence and portfolio intelligence by querying fund metrics, team details, and investment data.
+  why_it_matters: >-
+    Enables AI agents to perform deeper due diligence and portfolio intelligence by querying fund metrics, team details,
+    and investment data.
   mental_damage: Now your AI agent can tell you which VC fund is actually just a rug pull in a suit.
   tags:
     - mcp-server
@@ -53,29 +57,32 @@ curation:
   status: included
   reason: The product is explicitly an MCP server providing domain-specific data access, making MCP its primary identity.
   evidence:
-    - Repo description states it is 'An MCP server that provides AI agents with structured, real-time data on cryptocurrency investment funds'
+    - >-
+      Repo description states it is 'An MCP server that provides AI agents with structured, real-time data on
+      cryptocurrency investment funds'
     - README details MCP tool calls (e.g., get_all_funds, search_funds) and installation via MCP
     - Project is active (pushed 2025-09-25) and not archived
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:59.341Z"
+    updated_at: '2026-07-30T05:05:59.341Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:39.190Z"
+    updated_at: '2026-07-21T16:13:39.190Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -90,12 +97,16 @@ processing:
       disagreement: false
       decision_reason: The product is explicitly an MCP server providing domain-specific data access, making MCP its primary identity.
       decision_evidence:
-        - Repo description states it is 'An MCP server that provides AI agents with structured, real-time data on cryptocurrency investment funds'
+        - >-
+          Repo description states it is 'An MCP server that provides AI agents with structured, real-time data on
+          cryptocurrency investment funds'
         - README details MCP tool calls (e.g., get_all_funds, search_funds) and installation via MCP
         - Project is active (pushed 2025-09-25) and not archived
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

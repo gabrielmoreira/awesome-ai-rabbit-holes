@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__supercode__sh__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,9 @@ provenance:
           - Developer Productivity Tools
         anchor_text: Supercode.sh
         extracted_url: https://supercode.sh
-        surrounding_text: "- **[Supercode.sh](https://supercode.sh/)** – Cursor extension adding Architect Mode, voice input, and prompt enhancement."
+        surrounding_text: >-
+          - **[Supercode.sh](https://supercode.sh/)** – Cursor extension adding Architect Mode, voice input, and prompt
+          enhancement.
         confidence: high
 metadata:
   github:
@@ -51,15 +53,16 @@ curation:
     - Scraped site context identifies it as a 'Cursor extension for full-cycle AI-coding'
     - Source-list context places it under 'Developer Productivity Tools' as a Cursor-related tool
 placement:
-  primary_category: ai-dev-extensions
-  section: IDE / UI / Workflow Add-ons
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: IDE & Editor Add-ons
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +71,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:37:18.668Z"
+    updated_at: '2026-07-21T15:37:18.668Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -88,6 +91,8 @@ processing:
       category_candidates:
         - ai-dev-extensions
         - coding-agents
-      contrastive_reason: Choose ai-dev-extensions over coding-agents because it augments Cursor rather than acting as a primary coding assistant.
+      contrastive_reason: >-
+        Choose ai-dev-extensions over coding-agents because it augments Cursor rather than acting as a primary coding
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

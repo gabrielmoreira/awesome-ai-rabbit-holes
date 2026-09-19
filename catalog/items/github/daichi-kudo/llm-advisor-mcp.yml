@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__daichi-kudo__llm-advisor-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🧮 <a name="data-science-tools"></a>Data Science Tools
         anchor_text: Daichi-Kudo/llm-advisor-mcp
         extracted_url: https://github.com/daichi-kudo/llm-advisor-mcp
-        surrounding_text: "- [Daichi-Kudo/llm-advisor-mcp](https://github.com/Daichi-Kudo/llm-advisor-mcp) [![Daichi-Kudo/llm-advisor-mcp MCP server](https://glama.ai/mcp/servers/Daichi-Kudo/llm-advisor-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Daichi-Kudo/llm-advisor-mcp) 📇 ☁️ 🍎 🪟 🐧 - Real-time LLM/VLM model comparison with benchmarks, pricing, and personalized recommendations from 5 data sources. No API key required."
+        surrounding_text: >-
+          - [Daichi-Kudo/llm-advisor-mcp](https://github.com/Daichi-Kudo/llm-advisor-mcp) [![Daichi-Kudo/llm-advisor-mcp
+          MCP
+          server](https://glama.ai/mcp/servers/Daichi-Kudo/llm-advisor-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Daichi-Kudo/llm-advisor-mcp)
+          📇 ☁️ 🍎 🪟 🐧 - Real-time LLM/VLM model comparison with benchmarks, pricing, and personalized recommendations
+          from 5 data sources. No API key required.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: Daichi-Kudo/llm-advisor-mcp
     html_url: https://github.com/Daichi-Kudo/llm-advisor-mcp
-    created_at: "2026-02-24T18:03:34Z"
-    pushed_at: "2026-06-18T04:55:52Z"
+    created_at: '2026-02-24T18:03:34Z'
+    pushed_at: '2026-06-18T04:55:52Z'
     description: null
     homepage: https://cognisant.io
     topics:
@@ -47,14 +52,18 @@ metadata:
       - pricing
       - swe-bench
       - vlm
-    last_checked_at: "2026-09-14T04:13:33.101Z"
+    last_checked_at: '2026-09-14T04:13:33.101Z'
     readme:
-      fetched_at: "2026-09-14T04:13:33.101Z"
+      fetched_at: '2026-09-14T04:13:33.101Z'
       bytes: 13827
 insights:
   summary: An MCP server that provides real-time LLM/VLM pricing, benchmarks, and recommendations to AI assistants.
-  why_it_matters: It solves the knowledge cutoff problem for coding assistants by feeding live model intelligence directly into the context window.
-  mental_damage: Now your AI can finally answer 'what's the best coding model right now?' without hallucinating a release date from 2023.
+  why_it_matters: >-
+    It solves the knowledge cutoff problem for coding assistants by feeding live model intelligence directly into the
+    context window.
+  mental_damage: >-
+    Now your AI can finally answer 'what's the best coding model right now?' without hallucinating a release date from
+    2023.
   tags:
     - mcp-server
     - model-comparison
@@ -71,24 +80,25 @@ curation:
     - Source-list context shows it in awesome-mcp-servers under 'Server Implementations'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.609Z"
+    updated_at: '2026-05-06T22:12:15.609Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:33.101Z"
+    updated_at: '2026-09-14T04:13:33.101Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:49:28.013Z"
+    updated_at: '2026-07-21T15:49:28.013Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -109,6 +119,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the core identity is an MCP server exposing tools, not a standalone context management system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the core identity is an MCP server exposing tools, not a standalone
+        context management system.
       review_reason: null
       review_resume_lifecycle: null

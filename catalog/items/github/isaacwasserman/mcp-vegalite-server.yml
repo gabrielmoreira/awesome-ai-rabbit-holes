@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__isaacwasserman__mcp-vegalite-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Vega-Lite
         extracted_url: https://github.com/isaacwasserman/mcp-vegalite-server
-        surrounding_text: "- **[Vega-Lite](https://github.com/isaacwasserman/mcp-vegalite-server)** - Generate visualizations from fetched data using the VegaLite format and renderer."
+        surrounding_text: >-
+          - **[Vega-Lite](https://github.com/isaacwasserman/mcp-vegalite-server)** - Generate visualizations from
+          fetched data using the VegaLite format and renderer.
         confidence: high
 metadata:
   github:
@@ -29,18 +31,20 @@ metadata:
     archived: false
     full_name: isaacwasserman/mcp-vegalite-server
     html_url: https://github.com/isaacwasserman/mcp-vegalite-server
-    created_at: "2024-12-12T18:34:10Z"
-    pushed_at: "2025-05-16T19:44:35Z"
+    created_at: '2024-12-12T18:34:10Z'
+    pushed_at: '2025-05-16T19:44:35Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:45.231Z"
+    last_checked_at: '2026-07-30T05:05:45.231Z'
     readme:
-      fetched_at: "2026-07-30T05:05:45.231Z"
+      fetched_at: '2026-07-30T05:05:45.231Z'
       bytes: 1727
 insights:
   summary: An MCP server that enables LLMs to create and visualize data using Vega-Lite syntax.
-  why_it_matters: Developers can offload data visualization tasks to an LLM via MCP, generating charts directly from structured data without manual Vega-Lite coding.
+  why_it_matters: >-
+    Developers can offload data visualization tasks to an LLM via MCP, generating charts directly from structured data
+    without manual Vega-Lite coding.
   mental_damage: Now your LLM can argue about chart aesthetics instead of you.
   tags:
     - mcp
@@ -50,31 +54,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server providing domain-specific (data visualization) capabilities, making MCP its primary identity.
+  reason: >-
+    The product is explicitly an MCP server providing domain-specific (data visualization) capabilities, making MCP its
+    primary identity.
   evidence:
     - README describes it as a 'Model Context Protocol (MCP) server implementation'
     - Provides Vega-Lite-specific tools (`save_data`, `visualize_data`)
     - Listed in awesome-mcp-servers under 'Community Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.621Z"
+    updated_at: '2026-05-06T22:12:15.621Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:45.231Z"
+    updated_at: '2026-07-30T05:05:45.231Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:08:52.945Z"
+    updated_at: '2026-07-21T16:08:52.945Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,7 +94,9 @@ processing:
       input_hash: sha256:4e0dd10ce6cca429acf4e70a7871daaf9a736d3de212dbfbef67c84d92dfa9d4
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server providing domain-specific (data visualization) capabilities, making MCP its primary identity.
+      decision_reason: >-
+        The product is explicitly an MCP server providing domain-specific (data visualization) capabilities, making MCP
+        its primary identity.
       decision_evidence:
         - README describes it as a 'Model Context Protocol (MCP) server implementation'
         - Provides Vega-Lite-specific tools (`save_data`, `visualize_data`)
@@ -95,6 +104,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension augmenting another assistant).
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension augmenting another
+        assistant).
       review_reason: null
       review_resume_lifecycle: null

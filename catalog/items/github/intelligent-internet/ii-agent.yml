@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__intelligent-internet__ii-agent__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 智能体 Agents
         anchor_text: ii-agent
         extracted_url: https://github.com/intelligent-internet/ii-agent
-        surrounding_text: "36. [ii-agent](https://github.com/Intelligent-Internet/ii-agent): a new open-source framework to build and deploy intelligent agents."
+        surrounding_text: >-
+          36. [ii-agent](https://github.com/Intelligent-Internet/ii-agent): a new open-source framework to build and
+          deploy intelligent agents.
         confidence: high
 metadata:
   github:
@@ -29,9 +31,9 @@ metadata:
     archived: false
     full_name: Intelligent-Internet/ii-agent
     html_url: https://github.com/Intelligent-Internet/ii-agent
-    created_at: "2025-04-07T17:45:48Z"
-    pushed_at: "2026-04-13T03:54:06Z"
-    description: "II-Agent: a new open-source framework to build and deploy intelligent agents"
+    created_at: '2025-04-07T17:45:48Z'
+    pushed_at: '2026-04-13T03:54:06Z'
+    description: 'II-Agent: a new open-source framework to build and deploy intelligent agents'
     homepage: https://ii.inc/web/blog/post/ii-agent
     topics:
       - agent
@@ -41,13 +43,17 @@ metadata:
       - ai-agent-framework
       - llm
       - manus
-    last_checked_at: "2026-07-30T05:05:44.017Z"
+    last_checked_at: '2026-07-30T05:05:44.017Z'
     readme:
-      fetched_at: "2026-07-30T05:05:44.017Z"
+      fetched_at: '2026-07-30T05:05:44.017Z'
       bytes: 6339
 insights:
-  summary: II-Agent is an open-source framework for building and deploying intelligent agents with capabilities spanning app development, research, and automation.
-  why_it_matters: It enables developers to create, extend, and self-host agents that can generate apps, conduct research, and integrate with tools like GitHub and Slack.
+  summary: >-
+    II-Agent is an open-source framework for building and deploying intelligent agents with capabilities spanning app
+    development, research, and automation.
+  why_it_matters: >-
+    It enables developers to create, extend, and self-host agents that can generate apps, conduct research, and
+    integrate with tools like GitHub and Slack.
   mental_damage: Another framework promising to turn prompts into full-stack apps, because writing code was clearly the bottleneck.
   tags:
     - agent-framework
@@ -58,31 +64,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: II-Agent is a standalone AI agent that developers delegate coding, app-building, and repo-level tasks to, fitting the primary coding assistant identity rather than an extension or framework.
+  reason: >-
+    II-Agent is a standalone AI agent that developers delegate coding, app-building, and repo-level tasks to, fitting
+    the primary coding assistant identity rather than an extension or framework.
   evidence:
-    - Repo description states it is 'a new open-source framework to build and deploy intelligent agents' with 3,333 stars.
-    - README describes capabilities including 'Mobile App Development' and 'Website App Development' from prompts, with local Docker-based execution.
+    - >-
+      Repo description states it is 'a new open-source framework to build and deploy intelligent agents' with 3,333
+      stars.
+    - >-
+      README describes capabilities including 'Mobile App Development' and 'Website App Development' from prompts, with
+      local Docker-based execution.
     - Project is actively maintained (pushed 2026-04-13) and not archived, with BYOK model support.
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: ai-frameworks
+  secondary_categories: []
+  section: Multi-Agent Systems
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.620Z"
+    updated_at: '2026-05-06T22:12:15.620Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:44.017Z"
+    updated_at: '2026-07-30T05:05:44.017Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:08:17.128Z"
+    updated_at: '2026-07-21T16:08:17.128Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -95,14 +108,18 @@ processing:
       input_hash: sha256:8978b32ae0aa27ac84e311a07b75f4293beb93fd05a05db1433585059b66df9f
       proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: The product is a runtime platform for coordinating agents with app-building, research, and automation capabilities, fitting the orchestration category better than a pure framework or coding agent.
+      decision_reason: >-
+        The product is a runtime platform for coordinating agents with app-building, research, and automation
+        capabilities, fitting the orchestration category better than a pure framework or coding agent.
       decision_evidence:
-        - "Repo description: 'II-Agent: a new open-source framework to build and deploy intelligent agents'"
+        - 'Repo description: ''II-Agent: a new open-source framework to build and deploy intelligent agents'''
         - README highlights multi-agent workflows for app development, research, and integrations
         - Supports BYOK and self-hosting, positioning it as a platform rather than a library
       category_candidates:
         - agent-orchestration
         - app-builders
-      contrastive_reason: Choose agent-orchestration over app-builders because the core identity is a multi-agent runtime platform with orchestration capabilities, not just prompt-to-app generation.
-      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+      contrastive_reason: >-
+        Choose agent-orchestration over app-builders because the core identity is a multi-agent runtime platform with
+        orchestration capabilities, not just prompt-to-app generation.
+      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
       review_resume_lifecycle: null

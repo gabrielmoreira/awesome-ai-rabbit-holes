@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wende__cicada__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: wende/cicada
         extracted_url: https://github.com/wende/cicada
-        surrounding_text: "- [wende/cicada](https://github.com/wende/cicada) 🐍 🏠 🍎 🪟 🐧 - Code Intelligence for Elixir: module search, function tracking, and PR attribution through tree-sitter AST parsing"
+        surrounding_text: >-
+          - [wende/cicada](https://github.com/wende/cicada) 🐍 🏠 🍎 🪟 🐧 - Code Intelligence for Elixir: module
+          search, function tracking, and PR attribution through tree-sitter AST parsing
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: wende/cicada
     html_url: https://github.com/wende/cicada
-    created_at: "2025-10-25T14:35:24Z"
-    pushed_at: "2026-03-03T19:18:55Z"
+    created_at: '2025-10-25T14:35:24Z'
+    pushed_at: '2026-03-03T19:18:55Z'
     description: AI Coders search blindly. Be their guide.
     homepage: https://cicada-mcp.vercel.app/
     topics:
@@ -46,13 +48,17 @@ metadata:
       - python
       - rag
       - tools
-    last_checked_at: "2026-07-21T15:21:12.208Z"
+    last_checked_at: '2026-07-21T15:21:12.208Z'
     readme:
-      fetched_at: "2026-07-21T15:21:12.208Z"
+      fetched_at: '2026-07-21T15:21:12.208Z'
       bytes: 18313
 insights:
-  summary: CICADA is an MCP server that provides context-compacted code intelligence for AI coding assistants via AST-level indexing and semantic search.
-  why_it_matters: It reduces token waste and improves assistant accuracy by delivering structured code context instead of raw file dumps.
+  summary: >-
+    CICADA is an MCP server that provides context-compacted code intelligence for AI coding assistants via AST-level
+    indexing and semantic search.
+  why_it_matters: >-
+    It reduces token waste and improves assistant accuracy by delivering structured code context instead of raw file
+    dumps.
   mental_damage: Finally, a tool that admits your AI assistant is context-starved and sells you a diet plan for its meals.
   tags:
     - mcp
@@ -61,31 +67,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: CICADA’s core innovation is context compaction via AST indexing and semantic retrieval, making it a prompt/context engineering tool rather than a coding assistant or MCP-first server.
+  reason: >-
+    CICADA’s core innovation is context compaction via AST indexing and semantic retrieval, making it a prompt/context
+    engineering tool rather than a coding assistant or MCP-first server.
   evidence:
-    - README emphasizes 'Context compaction for AI code assistants' and 'token-efficient access' via structured, pre-indexed knowledge
+    - >-
+      README emphasizes 'Context compaction for AI code assistants' and 'token-efficient access' via structured,
+      pre-indexed knowledge
     - Provides AST-level indexing, call-site tracking, and semantic search to reduce token usage by up to 70%
-    - Listed in awesome-mcp-servers under Coding Agents but functions as a retrieval layer for assistants, not an assistant itself
+    - >-
+      Listed in awesome-mcp-servers under Coding Agents but functions as a retrieval layer for assistants, not an
+      assistant itself
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: mcp
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.655Z"
+    updated_at: '2026-05-06T22:12:15.655Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:12.208Z"
+    updated_at: '2026-07-21T15:21:12.208Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-14T05:29:02.042Z"
+    updated_at: '2026-05-14T05:29:02.042Z'
     cause: null
     next_retry_at: null
     attempts: 2

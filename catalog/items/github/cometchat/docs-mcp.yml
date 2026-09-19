@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cometchat__docs-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-23T05:08:37.088Z"
+      discovered_at: '2026-07-23T05:08:37.088Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: cometchat/docs-mcp
         extracted_url: https://github.com/cometchat/docs-mcp
-        surrounding_text: "- [cometchat/docs-mcp](https://github.com/cometchat/docs-mcp) [![cometchat/docs-mcp MCP server](https://glama.ai/mcp/servers/cometchat/docs-mcp/badges/score.svg)](https://glama.ai/mcp/servers/cometchat/docs-mcp) 🎖️ 📇 ☁️ - CometChat's official MCP server — searches CometChat documentation and returns curated implementation bundles for adding real-time chat, voice, video, and moderation to your app (React, React Native, Flutter, iOS, Android, JS SDK)."
+        surrounding_text: >-
+          - [cometchat/docs-mcp](https://github.com/cometchat/docs-mcp) [![cometchat/docs-mcp MCP
+          server](https://glama.ai/mcp/servers/cometchat/docs-mcp/badges/score.svg)](https://glama.ai/mcp/servers/cometchat/docs-mcp)
+          🎖️ 📇 ☁️ - CometChat's official MCP server — searches CometChat documentation and returns curated
+          implementation bundles for adding real-time chat, voice, video, and moderation to your app (React, React
+          Native, Flutter, iOS, Android, JS SDK).
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: cometchat/docs-mcp
     html_url: https://github.com/cometchat/docs-mcp
-    created_at: "2026-05-14T10:18:08Z"
-    pushed_at: "2026-09-04T14:26:04Z"
-    description: "CometChat docs search + implementation bundles: add chat, voice, video & moderation to your app through your AI coding agent."
+    created_at: '2026-05-14T10:18:08Z'
+    pushed_at: '2026-09-04T14:26:04Z'
+    description: >-
+      CometChat docs search + implementation bundles: add chat, voice, video & moderation to your app through your AI
+      coding agent.
     homepage: https://www.cometchat.com/docs/mcp-server
     topics:
       - ai-agents
@@ -55,13 +62,15 @@ metadata:
       - react-native
       - video
       - voice
-    last_checked_at: "2026-09-07T04:13:50.220Z"
+    last_checked_at: '2026-09-07T04:13:50.220Z'
     readme:
-      fetched_at: "2026-09-07T04:13:50.220Z"
+      fetched_at: '2026-09-07T04:13:50.220Z'
       bytes: 15034
 insights:
   summary: An MCP server that provides CometChat documentation and implementation bundles to AI coding agents.
-  why_it_matters: It allows developers to integrate chat, voice, and video features into apps using natural language by giving agents direct access to accurate SDK docs and implementation patterns.
+  why_it_matters: >-
+    It allows developers to integrate chat, voice, and video features into apps using natural language by giving agents
+    direct access to accurate SDK docs and implementation patterns.
   mental_damage: A specialized way to ensure that even if you don't read the docs, your AI agent is forced to.
   tags:
     - mcp
@@ -72,31 +81,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server designed to expose domain-specific tools (CometChat documentation and bundles) to AI agents.
+  reason: >-
+    The product is an MCP server designed to expose domain-specific tools (CometChat documentation and bundles) to AI
+    agents.
   evidence:
     - Identified as a first-party MCP server in the README
     - Exposes specific tools like `search_cometchat_docs` and `get_cometchat_implementation_bundle`
     - Designed for integration with MCP-compatible agents like Claude, Cursor, and Windsurf
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-23T05:08:37.090Z"
+    updated_at: '2026-07-23T05:08:37.090Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:50.220Z"
+    updated_at: '2026-09-07T04:13:50.220Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:19:27.409Z"
+    updated_at: '2026-08-27T06:19:27.409Z'
     cause: null
     next_retry_at: null
     classification:
@@ -106,7 +117,9 @@ processing:
       input_hash: sha256:82305b98612b8a049c78354d8383283d576b314e75a42ba1ee9f688aa561766b
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server designed to expose domain-specific tools (CometChat documentation and bundles) to AI agents.
+      decision_reason: >-
+        The product is an MCP server designed to expose domain-specific tools (CometChat documentation and bundles) to
+        AI agents.
       decision_evidence:
         - Identified as a first-party MCP server in the README
         - Exposes specific tools like `search_cometchat_docs` and `get_cometchat_implementation_bundle`
@@ -114,7 +127,9 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product is an MCP server providing domain-specific tools rather than a general-purpose context management or retrieval system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the product is an MCP server providing domain-specific tools rather
+        than a general-purpose context management or retrieval system.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

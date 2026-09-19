@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bhauman__clojure-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: clojure-mcp
         extracted_url: https://github.com/bhauman/clojure-mcp
-        surrounding_text: "- **[clojure-mcp](https://github.com/bhauman/clojure-mcp)** - Clojure development tools, direct access to the running program via REPL."
+        surrounding_text: >-
+          - **[clojure-mcp](https://github.com/bhauman/clojure-mcp)** - Clojure development tools, direct access to the
+          running program via REPL.
         confidence: high
 metadata:
   github:
@@ -29,18 +31,20 @@ metadata:
     archived: false
     full_name: bhauman/clojure-mcp
     html_url: https://github.com/bhauman/clojure-mcp
-    created_at: "2025-03-29T17:50:08Z"
-    pushed_at: "2026-06-20T15:53:48Z"
+    created_at: '2025-03-29T17:50:08Z'
+    pushed_at: '2026-06-20T15:53:48Z'
     description: Clojure MCP
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:33.413Z"
+    last_checked_at: '2026-09-07T04:13:33.413Z'
     readme:
-      fetched_at: "2026-09-07T04:13:33.413Z"
+      fetched_at: '2026-09-07T04:13:33.413Z'
       bytes: 33335
 insights:
   summary: An MCP server that connects LLM clients to Clojure projects, providing REPL tools and Clojure-aware editing.
-  why_it_matters: It enables AI assistants to reliably handle Clojure's syntax and REPL workflows, filling a gap for Clojure developers using modern AI tooling.
+  why_it_matters: >-
+    It enables AI assistants to reliably handle Clojure's syntax and REPL workflows, filling a gap for Clojure
+    developers using modern AI tooling.
   mental_damage: Finally, a way to stop your AI from mangling parentheses in Clojure code—until it starts arguing about macros.
   tags:
     - clojure
@@ -51,31 +55,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: it is a dedicated MCP server for Clojure, not merely an adapter or compatibility feature."
+  reason: >-
+    MCP is the product identity here: it is a dedicated MCP server for Clojure, not merely an adapter or compatibility
+    feature.
   evidence:
     - Repo description explicitly states it is an MCP server for Clojure
     - README details its role as a bridge between LLM clients and Clojure projects
     - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (742) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:33.413Z"
+    updated_at: '2026-09-07T04:13:33.413Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:25:54.068Z"
+    updated_at: '2026-07-21T15:25:54.068Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -88,7 +95,9 @@ processing:
       input_hash: sha256:505af0c96127598c5faf1891bffcb6af92c7ec862a5004c75abbadf46ba748a4
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: it is a dedicated MCP server for Clojure, not merely an adapter or compatibility feature."
+      decision_reason: >-
+        MCP is the product identity here: it is a dedicated MCP server for Clojure, not merely an adapter or
+        compatibility feature.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Clojure
         - README details its role as a bridge between LLM clients and Clojure projects
@@ -96,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

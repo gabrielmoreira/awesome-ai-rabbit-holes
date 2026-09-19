@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jbexta__agentpilot__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,7 @@ provenance:
           - AgentPilot
         anchor_text: AgentPilot
         extracted_url: https://github.com/jbexta/agentpilot
-        surrounding_text: "## [AgentPilot](https://github.com/jbexta/AgentPilot)"
+        surrounding_text: '## [AgentPilot](https://github.com/jbexta/AgentPilot)'
         confidence: high
 metadata:
   github:
@@ -29,9 +29,11 @@ metadata:
     archived: false
     full_name: jbexta/AgentPilot
     html_url: https://github.com/jbexta/AgentPilot
-    created_at: "2023-09-11T10:57:48Z"
-    pushed_at: "2026-04-14T04:11:29Z"
-    description: A versatile workflow automation platform to create, organize, and execute AI workflows, from a single LLM to complex AI-driven workflows.
+    created_at: '2023-09-11T10:57:48Z'
+    pushed_at: '2026-04-14T04:11:29Z'
+    description: >-
+      A versatile workflow automation platform to create, organize, and execute AI workflows, from a single LLM to
+      complex AI-driven workflows.
     homepage: https://agentpilot.ai
     topics:
       - agent
@@ -52,14 +54,20 @@ metadata:
       - windows-copilot
       - workflow-automation
       - workflow-engine
-    last_checked_at: "2026-07-30T05:05:48.951Z"
+    last_checked_at: '2026-07-30T05:05:48.951Z'
     readme:
-      fetched_at: "2026-07-30T05:05:48.951Z"
+      fetched_at: '2026-07-30T05:05:48.951Z'
       bytes: 9113
 insights:
-  summary: A desktop workflow automation platform for creating, organizing, and executing AI-driven workflows, from single LLM chats to complex multi-agent tasks.
-  why_it_matters: It lets developers design and run scheduled, branching AI workflows with a customizable UI, bridging the gap between ad-hoc LLM interactions and repeatable automation.
-  mental_damage: Finally, a way to turn your chaotic LLM experiments into something that looks like a production pipeline—until you realize you’re now debugging YAML configs for your AI agents.
+  summary: >-
+    A desktop workflow automation platform for creating, organizing, and executing AI-driven workflows, from single LLM
+    chats to complex multi-agent tasks.
+  why_it_matters: >-
+    It lets developers design and run scheduled, branching AI workflows with a customizable UI, bridging the gap between
+    ad-hoc LLM interactions and repeatable automation.
+  mental_damage: >-
+    Finally, a way to turn your chaotic LLM experiments into something that looks like a production pipeline—until you
+    realize you’re now debugging YAML configs for your AI agents.
   tags:
     - workflow-automation
     - multi-agent
@@ -69,31 +77,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product is a workbench for coordinating multi-agent workflows, not a primary coding assistant, framework, or extension.
+  reason: >-
+    The core product is a workbench for coordinating multi-agent workflows, not a primary coding assistant, framework,
+    or extension.
   evidence:
-    - "Repo description: 'A versatile workflow automation platform to create, organize, and execute AI workflows, from a single LLM to complex AI-driven workflows.'"
-    - "README: 'Create, organize, and execute complex AI-driven tasks' with 'multi-member workflow' and 'scheduled and recurring workflows' support."
-    - "Source-list context: Listed in awesome-ai-agents under AgentPilot, signaling recognition as an agent orchestration tool."
+    - >-
+      Repo description: 'A versatile workflow automation platform to create, organize, and execute AI workflows, from a
+      single LLM to complex AI-driven workflows.'
+    - >-
+      README: 'Create, organize, and execute complex AI-driven tasks' with 'multi-member workflow' and 'scheduled and
+      recurring workflows' support.
+    - >-
+      Source-list context: Listed in awesome-ai-agents under AgentPilot, signaling recognition as an agent orchestration
+      tool.
 placement:
   primary_category: agent-orchestration
-  section: Workbenches & Collaboration Surfaces
+  secondary_categories: []
+  section: Visual Builders & Workbenches
 lifecycle:
   status: promotion_candidate
   reason: Stars (553) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:48.951Z"
+    updated_at: '2026-07-30T05:05:48.951Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:18.200Z"
+    updated_at: '2026-07-21T16:10:18.200Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -106,14 +123,24 @@ processing:
       input_hash: sha256:0cc30b72d80932e3b3b4f00767e5cb613dd36320c678a65f7a38c386ace59d15
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The core product is a workbench for coordinating multi-agent workflows, not a primary coding assistant, framework, or extension.
+      decision_reason: >-
+        The core product is a workbench for coordinating multi-agent workflows, not a primary coding assistant,
+        framework, or extension.
       decision_evidence:
-        - "Repo description: 'A versatile workflow automation platform to create, organize, and execute AI workflows, from a single LLM to complex AI-driven workflows.'"
-        - "README: 'Create, organize, and execute complex AI-driven tasks' with 'multi-member workflow' and 'scheduled and recurring workflows' support."
-        - "Source-list context: Listed in awesome-ai-agents under AgentPilot, signaling recognition as an agent orchestration tool."
+        - >-
+          Repo description: 'A versatile workflow automation platform to create, organize, and execute AI workflows,
+          from a single LLM to complex AI-driven workflows.'
+        - >-
+          README: 'Create, organize, and execute complex AI-driven tasks' with 'multi-member workflow' and 'scheduled
+          and recurring workflows' support.
+        - >-
+          Source-list context: Listed in awesome-ai-agents under AgentPilot, signaling recognition as an agent
+          orchestration tool.
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated workbench for workflows, not a code-first library or SDK.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because the product is an operated workbench for workflows, not a
+        code-first library or SDK.
       review_reason: null
       review_resume_lifecycle: null

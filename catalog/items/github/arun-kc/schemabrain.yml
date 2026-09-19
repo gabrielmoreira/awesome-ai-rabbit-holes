@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__arun-kc__schemabrain__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-18T05:40:04.065Z"
+      discovered_at: '2026-06-18T05:40:04.065Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: Arun-kc/schemabrain
         extracted_url: https://github.com/arun-kc/schemabrain
-        surrounding_text: "- [Arun-kc/schemabrain](https://github.com/Arun-kc/schemabrain) [![schemabrain MCP server](https://glama.ai/mcp/servers/Arun-kc/schemabrain/badges/score.svg)](https://glama.ai/mcp/servers/Arun-kc/schemabrain) 🐍 🏠 🍎 🪟 🐧 - Read-only trust layer for Postgres: the agent never writes SQL — twelve tools compile it from definitions you control, PII and secret categories are refused before the query runs, and every call lands in a tamper-evident SHA-256 audit chain."
+        surrounding_text: >-
+          - [Arun-kc/schemabrain](https://github.com/Arun-kc/schemabrain) [![schemabrain MCP
+          server](https://glama.ai/mcp/servers/Arun-kc/schemabrain/badges/score.svg)](https://glama.ai/mcp/servers/Arun-kc/schemabrain)
+          🐍 🏠 🍎 🪟 🐧 - Read-only trust layer for Postgres: the agent never writes SQL — twelve tools compile it from
+          definitions you control, PII and secret categories are refused before the query runs, and every call lands in
+          a tamper-evident SHA-256 audit chain.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: Arun-kc/schemabrain
     html_url: https://github.com/Arun-kc/schemabrain
-    created_at: "2026-05-10T16:44:00Z"
-    pushed_at: "2026-08-24T00:36:30Z"
-    description: The trust and intelligence layer between AI agents and your database. Read-only by architecture, semantic knowledge graph + audit log, MCP-native.
+    created_at: '2026-05-10T16:44:00Z'
+    pushed_at: '2026-08-24T00:36:30Z'
+    description: >-
+      The trust and intelligence layer between AI agents and your database. Read-only by architecture, semantic
+      knowledge graph + audit log, MCP-native.
     homepage: https://www.schemabrain.dev
     topics:
       - agent-tools
@@ -54,14 +61,20 @@ metadata:
       - schema-intelligence
       - semantic-firewall
       - semantic-layer
-    last_checked_at: "2026-09-14T04:13:22.981Z"
+    last_checked_at: '2026-09-14T04:13:22.981Z'
     readme:
-      fetched_at: "2026-09-14T04:13:22.981Z"
+      fetched_at: '2026-09-14T04:13:22.981Z'
       bytes: 40154
 insights:
-  summary: A read-only trust and intelligence layer between AI agents and databases that provides a semantic knowledge graph, PII protection, and a cryptographic audit log.
-  why_it_matters: It removes the risk of giving agents raw database connection strings by ensuring the agent never writes SQL and cannot access sensitive PII.
-  mental_damage: Finally, a way to stop having a recurring nightmare about your coding agent accidentally dropping your production tables while trying to 'optimize' a join.
+  summary: >-
+    A read-only trust and intelligence layer between AI agents and databases that provides a semantic knowledge graph,
+    PII protection, and a cryptographic audit log.
+  why_it_matters: >-
+    It removes the risk of giving agents raw database connection strings by ensuring the agent never writes SQL and
+    cannot access sensitive PII.
+  mental_damage: >-
+    Finally, a way to stop having a recurring nightmare about your coding agent accidentally dropping your production
+    tables while trying to 'optimize' a join.
   tags:
     - mcp
     - database-security
@@ -71,31 +84,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is fundamentally an MCP server that acts as a governed bridge to databases, making MCP its primary product identity.
+  reason: >-
+    The product is fundamentally an MCP server that acts as a governed bridge to databases, making MCP its primary
+    product identity.
   evidence:
     - Repo description explicitly states 'MCP-native'.
     - README lists tools for Claude Desktop, Claude Code, Cursor, and Windsurf via MCP.
     - Appears in awesome-mcp-servers under 'Server Implementations > Databases'.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-18T05:40:04.066Z"
+    updated_at: '2026-06-18T05:40:04.066Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:22.981Z"
+    updated_at: '2026-09-14T04:13:22.981Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-18T05:42:41.162Z"
+    updated_at: '2026-06-18T05:42:41.162Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

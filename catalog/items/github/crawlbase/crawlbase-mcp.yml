@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__crawlbase__crawlbase-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: Crawlbase MCP
         extracted_url: https://github.com/crawlbase/crawlbase-mcp
-        surrounding_text: "- **[Crawlbase MCP](https://github.com/crawlbase/crawlbase-mcp)** - Enables AI agents to access real-time web data with HTML, markdown, and screenshot support. SDKs: Node.js, Python, Java, PHP, .NET."
+        surrounding_text: >-
+          - **[Crawlbase MCP](https://github.com/crawlbase/crawlbase-mcp)** - Enables AI agents to access real-time web
+          data with HTML, markdown, and screenshot support. SDKs: Node.js, Python, Java, PHP, .NET.
         confidence: high
 metadata:
   github:
@@ -29,9 +31,12 @@ metadata:
     archived: false
     full_name: crawlbase/crawlbase-mcp
     html_url: https://github.com/crawlbase/crawlbase-mcp
-    created_at: "2025-07-10T15:55:53Z"
-    pushed_at: "2026-04-23T23:38:07Z"
-    description: Crawlbase MCP Server connects AI agents and LLMs with real-time web data. It powers Claude, Cursor, and Windsurf integrations with battle-tested web scraping, JavaScript rendering, and anti-bot protection enabling structured, live data inside your AI workflows.
+    created_at: '2025-07-10T15:55:53Z'
+    pushed_at: '2026-04-23T23:38:07Z'
+    description: >-
+      Crawlbase MCP Server connects AI agents and LLMs with real-time web data. It powers Claude, Cursor, and Windsurf
+      integrations with battle-tested web scraping, JavaScript rendering, and anti-bot protection enabling structured,
+      live data inside your AI workflows.
     homepage: https://crawlbase.com
     topics:
       - ai-agents
@@ -43,13 +48,15 @@ metadata:
       - model-context-protocol
       - real-time-web-data
       - web-scraping
-    last_checked_at: "2026-09-14T04:13:30.724Z"
+    last_checked_at: '2026-09-14T04:13:30.724Z'
     readme:
-      fetched_at: "2026-09-14T04:13:30.724Z"
+      fetched_at: '2026-09-14T04:13:30.724Z'
       bytes: 6756
 insights:
   summary: An MCP server that enables AI agents and LLMs to fetch real-time web data via Crawlbase's scraping infrastructure.
-  why_it_matters: Developers can integrate live, structured web data (HTML, Markdown, screenshots) directly into their AI workflows in tools like Claude, Cursor, or Windsurf.
+  why_it_matters: >-
+    Developers can integrate live, structured web data (HTML, Markdown, screenshots) directly into their AI workflows in
+    tools like Claude, Cursor, or Windsurf.
   mental_damage: Now your AI agent can crawl the web in real-time, because apparently static documentation was too 2023.
   tags:
     - mcp
@@ -60,31 +67,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: it is a dedicated MCP server providing web scraping capabilities to AI agents."
+  reason: 'MCP is the product identity here: it is a dedicated MCP server providing web scraping capabilities to AI agents.'
   evidence:
     - Repo description explicitly identifies it as an MCP server for AI agents/LLMs
     - README details MCP-specific setup for Claude, Cursor, Windsurf, and HTTP transport mode
     - Listed in awesome-mcp-servers under 'Official Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.609Z"
+    updated_at: '2026-05-06T22:12:15.609Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:30.724Z"
+    updated_at: '2026-09-14T04:13:30.724Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:48:44.420Z"
+    updated_at: '2026-07-21T15:48:44.420Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -97,7 +105,7 @@ processing:
       input_hash: sha256:eeed2aceb1b252e15489406caefd52a5f31089d9f84c3ff937009e176888a7bb
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: it is a dedicated MCP server providing web scraping capabilities to AI agents."
+      decision_reason: 'MCP is the product identity here: it is a dedicated MCP server providing web scraping capabilities to AI agents.'
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server for AI agents/LLMs
         - README details MCP-specific setup for Claude, Cursor, Windsurf, and HTTP transport mode
@@ -105,6 +113,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not just an extension for another tool), with MCP as its primary identity.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server (not just an extension for another
+        tool), with MCP as its primary identity.
       review_reason: null
       review_resume_lifecycle: null

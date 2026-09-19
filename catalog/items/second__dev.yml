@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__second__dev__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Second
         anchor_text: Second
         extracted_url: https://second.dev
-        surrounding_text: "## [Second](https://www.second.dev/)"
+        surrounding_text: '## [Second](https://www.second.dev/)'
         confidence: high
     - id: discovery__www__second__dev__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Second
         anchor_text: Second
         extracted_url: https://www.second.dev
-        surrounding_text: "## [Second](https://www.second.dev/)"
+        surrounding_text: '## [Second](https://www.second.dev/)'
         confidence: high
 metadata:
   github:
@@ -61,20 +61,23 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product is positioned as a primary coding assistant that autonomously handles repo work and shipping tasks, fitting the core definition of a coding agent.
+  reason: >-
+    The product is positioned as a primary coding assistant that autonomously handles repo work and shipping tasks,
+    fitting the core definition of a coding agent.
   evidence:
     - Listed in 'awesome-ai-agents' under the purpose 'A list of AI autonomous agents'.
     - The domain 'second.dev' implies a developer-focused tool rather than a generic consumer AI product.
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Hosted Agent Platforms
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:37:14.113Z"
+    updated_at: '2026-07-21T15:37:14.113Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -87,19 +90,23 @@ processing:
       input_hash: sha256:937fcee1c82313a96b510a067da0be79d2bcddf11783570d8737e21177a2e775
       proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: The product is identified as an autonomous agent in a curated list, aligning with multi-agent coordination or platform use cases rather than a single coding assistant or extension.
+      decision_reason: >-
+        The product is identified as an autonomous agent in a curated list, aligning with multi-agent coordination or
+        platform use cases rather than a single coding assistant or extension.
       decision_evidence:
         - Listed in awesome-ai-agents under 'Second' as an AI autonomous agent
         - No repo description or README to contradict the agent platform identity
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because the source-list context frames it as an autonomous agent platform rather than a primary coding assistant.
-      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because the source-list context frames it as an autonomous agent
+        platform rather than a primary coding assistant.
+      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.970Z"
+    updated_at: '2026-07-21T15:20:21.970Z'
     cause: null
     next_retry_at: null
   stars:

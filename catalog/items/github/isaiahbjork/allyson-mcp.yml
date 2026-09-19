@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__isaiahbjork__allyson-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: Allyson
         extracted_url: https://github.com/isaiahbjork/allyson-mcp
-        surrounding_text: "- **[Allyson](https://github.com/isaiahbjork/allyson-mcp)** - AI-powered SVG animation generator that transforms static files into animated SVG components using the [Allyson](https://allyson.ai) platform"
+        surrounding_text: >-
+          - **[Allyson](https://github.com/isaiahbjork/allyson-mcp)** - AI-powered SVG animation generator that
+          transforms static files into animated SVG components using the [Allyson](https://allyson.ai) platform
         confidence: high
 metadata:
   github:
@@ -29,18 +31,22 @@ metadata:
     archived: false
     full_name: isaiahbjork/allyson-mcp
     html_url: https://github.com/isaiahbjork/allyson-mcp
-    created_at: "2025-06-11T00:53:01Z"
-    pushed_at: "2025-06-18T18:09:29Z"
+    created_at: '2025-06-11T00:53:01Z'
+    pushed_at: '2025-06-18T18:09:29Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:45.383Z"
+    last_checked_at: '2026-07-30T05:05:45.383Z'
     readme:
-      fetched_at: "2026-07-30T05:05:45.383Z"
+      fetched_at: '2026-07-30T05:05:45.383Z'
       bytes: 5189
 insights:
-  summary: An MCP server that generates animated SVG components from static files via AI, integrated with MCP-compatible assistants.
-  why_it_matters: Developers can turn static assets into animated SVGs directly from their AI assistant workflow without leaving their coding environment.
+  summary: >-
+    An MCP server that generates animated SVG components from static files via AI, integrated with MCP-compatible
+    assistants.
+  why_it_matters: >-
+    Developers can turn static assets into animated SVGs directly from their AI assistant workflow without leaving their
+    coding environment.
   mental_damage: Now your AI assistant can animate your logo while you pretend to understand the SVG it just generated.
   tags:
     - mcp-server
@@ -50,31 +56,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: it is explicitly an MCP server providing domain-specific tooling (SVG animation generation) to MCP-compatible assistants."
+  reason: >-
+    MCP is the product identity here: it is explicitly an MCP server providing domain-specific tooling (SVG animation
+    generation) to MCP-compatible assistants.
   evidence:
     - README explicitly identifies it as an MCP server for AI-powered animation generation
     - Provides MCP tool `generate_svg_animation` with defined parameters
     - Listed in awesome-mcp-servers under Official Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.621Z"
+    updated_at: '2026-05-06T22:12:15.621Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:45.383Z"
+    updated_at: '2026-07-30T05:05:45.383Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:08:50.814Z"
+    updated_at: '2026-07-21T16:08:50.814Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,7 +96,9 @@ processing:
       input_hash: sha256:eb95b4c01271996f0cdc392085e481f22f3a0bfb33ace52c42fdbbd15628f8ed
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: it is explicitly an MCP server providing domain-specific tooling (SVG animation generation) to MCP-compatible assistants."
+      decision_reason: >-
+        MCP is the product identity here: it is explicitly an MCP server providing domain-specific tooling (SVG
+        animation generation) to MCP-compatible assistants.
       decision_evidence:
         - README explicitly identifies it as an MCP server for AI-powered animation generation
         - Provides MCP tool `generate_svg_animation` with defined parameters
@@ -95,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server providing domain-specific capabilities rather than merely extending another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server providing domain-specific
+        capabilities rather than merely extending another assistant.
       review_reason: null
       review_resume_lifecycle: null

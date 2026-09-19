@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jhomen368__steam-reviews-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: jhomen368/steam-reviews-mcp
         extracted_url: https://github.com/jhomen368/steam-reviews-mcp
-        surrounding_text: "- [jhomen368/steam-reviews-mcp](https://github.com/jhomen368/steam-reviews-mcp) [![steam-reviews-mcp MCP server](https://glama.ai/mcp/servers/@jhomen368/steam-reviews-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@jhomen368/steam-reviews-mcp) 📇 ☁️ - Search Steam games, fetch user reviews, and analyze sentiment with topic drill-down to make informed purchasing decisions."
+        surrounding_text: >-
+          - [jhomen368/steam-reviews-mcp](https://github.com/jhomen368/steam-reviews-mcp) [![steam-reviews-mcp MCP
+          server](https://glama.ai/mcp/servers/@jhomen368/steam-reviews-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@jhomen368/steam-reviews-mcp)
+          📇 ☁️ - Search Steam games, fetch user reviews, and analyze sentiment with topic drill-down to make informed
+          purchasing decisions.
         confidence: high
 metadata:
   github:
@@ -30,19 +34,27 @@ metadata:
     archived: false
     full_name: jhomen368/steam-reviews-mcp
     html_url: https://github.com/jhomen368/steam-reviews-mcp
-    created_at: "2026-02-22T18:54:31Z"
-    pushed_at: "2026-07-29T15:38:25Z"
-    description: Search Steam games, fetch user reviews, and analyze sentiment with topic drill-down to make informed purchasing decisions.
-    homepage: ""
+    created_at: '2026-02-22T18:54:31Z'
+    pushed_at: '2026-07-29T15:38:25Z'
+    description: >-
+      Search Steam games, fetch user reviews, and analyze sentiment with topic drill-down to make informed purchasing
+      decisions.
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:05:49.964Z"
+    last_checked_at: '2026-07-30T05:05:49.964Z'
     readme:
-      fetched_at: "2026-07-30T05:05:49.964Z"
+      fetched_at: '2026-07-30T05:05:49.964Z'
       bytes: 6549
 insights:
-  summary: An MCP server that enables searching Steam games, fetching user reviews, and analyzing sentiment with topic drill-down via the Model Context Protocol.
-  why_it_matters: Developers can integrate Steam game review data and sentiment analysis into their AI workflows without managing the Steam API directly.
-  mental_damage: Now your AI can argue with you about whether Baldur's Gate 3 is actually worth the hype, using real user reviews as ammunition.
+  summary: >-
+    An MCP server that enables searching Steam games, fetching user reviews, and analyzing sentiment with topic
+    drill-down via the Model Context Protocol.
+  why_it_matters: >-
+    Developers can integrate Steam game review data and sentiment analysis into their AI workflows without managing the
+    Steam API directly.
+  mental_damage: >-
+    Now your AI can argue with you about whether Baldur's Gate 3 is actually worth the hype, using real user reviews as
+    ammunition.
   tags:
     - mcp-server
     - steam-api
@@ -52,31 +64,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server with Steam-specific tooling as its primary identity, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product is explicitly an MCP server with Steam-specific tooling as its primary identity, fitting the MCP Servers
+    & Tooling category.
   evidence:
     - Repo description identifies it as an MCP server for Steam game reviews and analysis
     - README explicitly states it is a Model Context Protocol server with dedicated tools for Steam data
     - Project provides MCP-specific installation and configuration instructions
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:49.964Z"
+    updated_at: '2026-07-30T05:05:49.964Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:29.287Z"
+    updated_at: '2026-07-21T16:10:29.287Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +104,9 @@ processing:
       input_hash: sha256:e2e636c69acec3756e631c548d4c95780fbfdab4aa97128ae372094cba91082f
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server with Steam-specific tooling as its primary identity, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product is explicitly an MCP server with Steam-specific tooling as its primary identity, fitting the MCP
+        Servers & Tooling category.
       decision_evidence:
         - Repo description identifies it as an MCP server for Steam game reviews and analysis
         - README explicitly states it is a Model Context Protocol server with dedicated tools for Steam data
@@ -97,6 +114,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

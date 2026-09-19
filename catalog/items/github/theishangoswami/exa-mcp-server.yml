@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__theishangoswami__exa-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,7 @@ provenance:
           - Community Servers
         anchor_text: Exa
         extracted_url: https://github.com/theishangoswami/exa-mcp-server
-        surrounding_text: "- **[Exa](https://github.com/theishangoswami/exa-mcp-server)** - Exa AI Search API"
+        surrounding_text: '- **[Exa](https://github.com/theishangoswami/exa-mcp-server)** - Exa AI Search API'
         confidence: high
 metadata:
   github:
@@ -29,14 +29,14 @@ metadata:
     archived: false
     full_name: theishangoswami/exa-mcp-server
     html_url: https://github.com/theishangoswami/exa-mcp-server
-    created_at: "2024-12-06T15:34:31Z"
-    pushed_at: "2024-11-30T18:34:38Z"
+    created_at: '2024-12-06T15:34:31Z'
+    pushed_at: '2024-11-30T18:34:38Z'
     description: Claude can perform Web Search | Exa with MCP (Model Context Protocol)
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-21T15:20:46.677Z"
+    last_checked_at: '2026-07-21T15:20:46.677Z'
     readme:
-      fetched_at: "2026-07-21T15:20:46.677Z"
+      fetched_at: '2026-07-21T15:20:46.677Z'
       bytes: 4561
 insights:
   summary: An MCP server that lets AI assistants like Claude Desktop perform web searches using the Exa AI Search API.
@@ -50,35 +50,37 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server providing web search capabilities via Exa, fitting cleanly as protocol-level infrastructure rather than a standalone assistant or extension.
+  reason: >-
+    This is an MCP server providing web search capabilities via Exa, fitting cleanly as protocol-level infrastructure
+    rather than a standalone assistant or extension.
   evidence:
-    - "Repo description: 'Claude can perform Web Search | Exa with MCP (Model Context Protocol)'"
-    - "README states: 'A Model Context Protocol (MCP) server lets AI assistants like Claude use the Exa AI Search API'"
+    - 'Repo description: ''Claude can perform Web Search | Exa with MCP (Model Context Protocol)'''
+    - 'README states: ''A Model Context Protocol (MCP) server lets AI assistants like Claude use the Exa AI Search API'''
     - Included in awesome-mcp-servers under 'Community Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.651Z"
+    updated_at: '2026-05-06T22:12:15.651Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:46.677Z"
+    updated_at: '2026-07-21T15:20:46.677Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agimaulana__huaweiappgallerymcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: AgiMaulana/HuaweiAppGalleryMcp
         extracted_url: https://github.com/agimaulana/huaweiappgallerymcp
-        surrounding_text: "- [AgiMaulana/HuaweiAppGalleryMcp](https://github.com/AgiMaulana/HuaweiAppGalleryMcp) [![AgiMaulana/HuaweiAppGalleryMcp MCP server](https://glama.ai/mcp/servers/AgiMaulana/HuaweiAppGalleryMcp/badges/score.svg)](https://glama.ai/mcp/servers/AgiMaulana/HuaweiAppGalleryMcp) 🐍 ☁️ 🍎 🪟 🐧 - Huawei AppGallery Connect publishing: upload APK/AAB, update metadata and localizations, submit for review, and manage phased rollouts."
+        surrounding_text: >-
+          - [AgiMaulana/HuaweiAppGalleryMcp](https://github.com/AgiMaulana/HuaweiAppGalleryMcp)
+          [![AgiMaulana/HuaweiAppGalleryMcp MCP
+          server](https://glama.ai/mcp/servers/AgiMaulana/HuaweiAppGalleryMcp/badges/score.svg)](https://glama.ai/mcp/servers/AgiMaulana/HuaweiAppGalleryMcp)
+          🐍 ☁️ 🍎 🪟 🐧 - Huawei AppGallery Connect publishing: upload APK/AAB, update metadata and localizations,
+          submit for review, and manage phased rollouts.
         confidence: high
 metadata:
   github:
@@ -30,19 +35,23 @@ metadata:
     archived: false
     full_name: AgiMaulana/HuaweiAppGalleryMcp
     html_url: https://github.com/AgiMaulana/HuaweiAppGalleryMcp
-    created_at: "2026-03-14T23:39:56Z"
-    pushed_at: "2026-04-24T13:54:09Z"
+    created_at: '2026-03-14T23:39:56Z'
+    pushed_at: '2026-04-24T13:54:09Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:34.246Z"
+    last_checked_at: '2026-09-17T04:13:34.246Z'
     readme:
-      fetched_at: "2026-09-17T04:13:34.246Z"
+      fetched_at: '2026-09-17T04:13:34.246Z'
       bytes: 6798
 insights:
-  summary: An MCP server that enables managing app publishing and metadata on Huawei AppGallery Connect through LLM-compatible clients.
-  why_it_matters: It allows developers to automate complex mobile deployment workflows—like updating localized store listings or managing phased releases—directly via a chat interface.
-  mental_damage: "Just what every developer wanted: another specialized protocol layer between them and their deployment pipeline."
+  summary: >-
+    An MCP server that enables managing app publishing and metadata on Huawei AppGallery Connect through LLM-compatible
+    clients.
+  why_it_matters: >-
+    It allows developers to automate complex mobile deployment workflows—like updating localized store listings or
+    managing phased releases—directly via a chat interface.
+  mental_damage: 'Just what every developer wanted: another specialized protocol layer between them and their deployment pipeline.'
   tags:
     - mcp
     - app-deployment
@@ -59,24 +68,25 @@ curation:
     - Can be added to Claude Desktop or Claude Code via MCP protocols
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.600Z"
+    updated_at: '2026-05-06T22:12:15.600Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:34.246Z"
+    updated_at: '2026-09-17T04:13:34.246Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:05:44.647Z"
+    updated_at: '2026-07-20T16:05:44.647Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -97,6 +107,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's primary identity is an MCP server implementation rather than a general-purpose assistant augmentation.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool's primary identity is an MCP server implementation rather
+        than a general-purpose assistant augmentation.
       review_reason: null
       review_resume_lifecycle: null

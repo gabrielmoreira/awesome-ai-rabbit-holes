@@ -5,8 +5,9 @@ canonical_url: https://docs.tabnine.com/main/getting-started/tabnine-cli
 identity: {}
 provenance:
   discoveries:
-    - id: discovery__docs__tabnine__com__main__getting__started__tabnine__cli__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+    - id: >-
+        discovery__docs__tabnine__com__main__getting__started__tabnine__cli__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -19,7 +20,10 @@ provenance:
           - Closed Source
         anchor_text: Tabnine CLI
         extracted_url: https://docs.tabnine.com/main/getting-started/tabnine-cli
-        surrounding_text: "- **[Tabnine CLI](https://docs.tabnine.com/main/getting-started/tabnine-cli)** `[Tabnine]` — AI-powered terminal coding assistant with agentic workflows; distributed as a Docker container, requires enterprise license."
+        surrounding_text: >-
+          - **[Tabnine CLI](https://docs.tabnine.com/main/getting-started/tabnine-cli)** `[Tabnine]` — AI-powered
+          terminal coding assistant with agentic workflows; distributed as a Docker container, requires enterprise
+          license.
         confidence: high
 metadata:
   github:
@@ -38,8 +42,12 @@ metadata:
     readme: null
 insights:
   summary: An AI-powered coding assistant that operates directly within the terminal.
-  why_it_matters: It enables developers to perform codebase searches, code reviews, and task execution through a command-line interface without switching contexts from their terminal.
-  mental_damage: Another layer of abstraction between your hands and your shell, ensuring you never have to actually leave your terminal to feel productive.
+  why_it_matters: >-
+    It enables developers to perform codebase searches, code reviews, and task execution through a command-line
+    interface without switching contexts from their terminal.
+  mental_damage: >-
+    Another layer of abstraction between your hands and your shell, ensuring you never have to actually leave your
+    terminal to feel productive.
   tags:
     - cli
     - terminal
@@ -56,6 +64,7 @@ curation:
     - Functions as a primary interface for developer tasks within the CLI environment
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: incubating
@@ -63,7 +72,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -72,7 +81,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:41:37.583Z"
+    updated_at: '2026-07-20T15:41:37.583Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -93,6 +102,8 @@ processing:
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because the CLI acts as the primary interface for interacting with the codebase rather than merely augmenting an existing editor or assistant.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because the CLI acts as the primary interface for interacting with
+        the codebase rather than merely augmenting an existing editor or assistant.
       review_reason: null
       review_resume_lifecycle: null

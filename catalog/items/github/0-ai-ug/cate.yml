@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__0-ai-ug__cate__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-06-18T05:40:04.065Z"
+      discovered_at: '2026-06-18T05:40:04.065Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Session managers & parallel runners
         anchor_text: Cate
         extracted_url: https://github.com/0-ai-ug/cate
-        surrounding_text: "- **[Cate](https://github.com/0-AI-UG/cate)** `⭐ 1.6k` — Desktop app that runs terminals, Claude Code agent panels, editors, and browsers on an infinite zoomable canvas; multiple agent sessions sit side by side and panels can dock into tabs or detach into separate windows. Built with Electron and node-pty. MIT."
+        surrounding_text: >-
+          - **[Cate](https://github.com/0-AI-UG/cate)** `⭐ 1.6k` — Desktop app that runs terminals, Claude Code agent
+          panels, editors, and browsers on an infinite zoomable canvas; multiple agent sessions sit side by side and
+          panels can dock into tabs or detach into separate windows. Built with Electron and node-pty. MIT.
         confidence: high
 metadata:
   github:
@@ -30,19 +33,25 @@ metadata:
     archived: false
     full_name: 0-AI-UG/cate
     html_url: https://github.com/0-AI-UG/cate
-    created_at: "2026-03-29T14:49:51Z"
-    pushed_at: "2026-09-16T20:52:45Z"
+    created_at: '2026-03-29T14:49:51Z'
+    pushed_at: '2026-09-16T20:52:45Z'
     description: An infinite zoomable canvas for coding. Editor, terminal, and browser panels in a spatial workspace.
     homepage: https://cate.cero-ai.com
     topics: []
-    last_checked_at: "2026-09-17T04:13:24.593Z"
+    last_checked_at: '2026-09-17T04:13:24.593Z'
     readme:
-      fetched_at: "2026-09-17T04:13:24.593Z"
+      fetched_at: '2026-09-17T04:13:24.593Z'
       bytes: 3960
 insights:
-  summary: An infinite zoomable canvas IDE that spatially organizes editors, terminals, browsers, and AI agents in a single workspace.
-  why_it_matters: It replaces traditional tab-and-window management with a freeform spatial layout, allowing developers to map out complex multi-tool workflows visually.
-  mental_damage: Now we can finally experience the anxiety of losing our actual code in the vast, empty void of an infinite 2D coordinate system.
+  summary: >-
+    An infinite zoomable canvas IDE that spatially organizes editors, terminals, browsers, and AI agents in a single
+    workspace.
+  why_it_matters: >-
+    It replaces traditional tab-and-window management with a freeform spatial layout, allowing developers to map out
+    complex multi-tool workflows visually.
+  mental_damage: >-
+    Now we can finally experience the anxiety of losing our actual code in the vast, empty void of an infinite 2D
+    coordinate system.
   tags:
     - spatial-ide
     - canvas-ui
@@ -51,31 +60,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a standalone desktop IDE where the core value is the spatial environment itself, with AI agents integrated as one of many available panels.
+  reason: >-
+    The product is a standalone desktop IDE where the core value is the spatial environment itself, with AI agents
+    integrated as one of many available panels.
   evidence:
-    - "Repo description: 'An infinite zoomable canvas for coding. Editor, terminal, and browser panels in a spatial workspace.'"
-    - "README: 'Cate is a desktop IDE built on an infinite canvas.'"
+    - >-
+      Repo description: 'An infinite zoomable canvas for coding. Editor, terminal, and browser panels in a spatial
+      workspace.'
+    - 'README: ''Cate is a desktop IDE built on an infinite canvas.'''
     - Includes integrated Monaco editors, xterm.js terminals, and git-aware file trees.
 placement:
-  primary_category: ai-ides-editors
-  section: Full IDEs & Editors
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (1653) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-06-18T05:40:04.065Z"
+    updated_at: '2026-06-18T05:40:04.065Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:24.593Z"
+    updated_at: '2026-09-17T04:13:24.593Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-18T05:41:44.271Z"
+    updated_at: '2026-06-18T05:41:44.271Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

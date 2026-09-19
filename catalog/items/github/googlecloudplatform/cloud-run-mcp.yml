@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__googlecloudplatform__cloud-run-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: Google Cloud Run
         extracted_url: https://github.com/googlecloudplatform/cloud-run-mcp
-        surrounding_text: "- **[Google Cloud Run](https://github.com/GoogleCloudPlatform/cloud-run-mcp)** - Official MCP Server to deploy to [Google Cloud Run](https://cloud.google.com/run)."
+        surrounding_text: >-
+          - **[Google Cloud Run](https://github.com/GoogleCloudPlatform/cloud-run-mcp)** - Official MCP Server to deploy
+          to [Google Cloud Run](https://cloud.google.com/run).
         confidence: high
 metadata:
   github:
@@ -29,22 +31,24 @@ metadata:
     archived: false
     full_name: GoogleCloudPlatform/cloud-run-mcp
     html_url: https://github.com/GoogleCloudPlatform/cloud-run-mcp
-    created_at: "2025-05-06T23:22:44Z"
-    pushed_at: "2026-09-03T02:36:48Z"
+    created_at: '2025-05-06T23:22:44Z'
+    pushed_at: '2026-09-03T02:36:48Z'
     description: MCP server to deploy apps to Cloud Run
-    homepage: ""
+    homepage: ''
     topics:
       - google-cloud
       - google-cloud-run
       - mcp
       - mcp-server
-    last_checked_at: "2026-09-03T05:16:52.357Z"
+    last_checked_at: '2026-09-03T05:16:52.357Z'
     readme:
-      fetched_at: "2026-09-03T05:16:52.357Z"
+      fetched_at: '2026-09-03T05:16:52.357Z'
       bytes: 13299
 insights:
   summary: MCP server that enables AI agents to deploy applications to Google Cloud Run.
-  why_it_matters: Developers can deploy code to Cloud Run directly from AI-powered IDEs, CLIs, or agent SDKs without leaving their workflow.
+  why_it_matters: >-
+    Developers can deploy code to Cloud Run directly from AI-powered IDEs, CLIs, or agent SDKs without leaving their
+    workflow.
   mental_damage: Now your AI can spin up cloud services faster than you can explain why they’re needed.
   tags:
     - mcp
@@ -55,31 +59,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose primary identity is providing Cloud Run deployment capabilities to MCP-compatible agents.
+  reason: >-
+    The product is an MCP server whose primary identity is providing Cloud Run deployment capabilities to MCP-compatible
+    agents.
   evidence:
     - Repo description explicitly states it is an MCP server for Cloud Run deployments
     - README details MCP tools like deploy-file-contents, list-services, and deploy-local-folder
     - Listed in awesome-mcp-servers under Official Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: promotion_candidate
   reason: Stars (605) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.616Z"
+    updated_at: '2026-05-06T22:12:15.616Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:52.357Z"
+    updated_at: '2026-09-03T05:16:52.357Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:03:41.218Z"
+    updated_at: '2026-07-21T16:03:41.218Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -92,7 +99,9 @@ processing:
       input_hash: sha256:aa0786e4445869dfe2a654c56422a3b54521f408314773840b16237b03fe7927
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server whose primary identity is providing Cloud Run deployment capabilities to MCP-compatible agents.
+      decision_reason: >-
+        The product is an MCP server whose primary identity is providing Cloud Run deployment capabilities to
+        MCP-compatible agents.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Cloud Run deployments
         - README details MCP tools like deploy-file-contents, list-services, and deploy-local-folder
@@ -100,6 +109,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__codacy__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - Code Review and Refactoring
         anchor_text: Codacy
         extracted_url: https://codacy.com
-        surrounding_text: "- **[Codacy](https://www.codacy.com/)** – Code quality platform with 30+ language support."
+        surrounding_text: '- **[Codacy](https://www.codacy.com/)** – Code quality platform with 30+ language support.'
         confidence: high
     - id: discovery__www__codacy__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - Code Review and Refactoring
         anchor_text: Codacy
         extracted_url: https://www.codacy.com
-        surrounding_text: "- **[Codacy](https://www.codacy.com/)** – Code quality platform with 30+ language support."
+        surrounding_text: '- **[Codacy](https://www.codacy.com/)** – Code quality platform with 30+ language support.'
         confidence: high
 metadata:
   github:
@@ -51,9 +51,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Codacy is a code quality and security platform that enforces coding standards, including AI-specific policies, across development workflows.
-  why_it_matters: It helps engineering teams maintain code quality, security, and compliance while integrating AI coding agents into their SDLC.
-  mental_damage: Now your AI coding agents have to follow the same rules as the humans, which is either progress or a new layer of bureaucracy.
+  summary: >-
+    Codacy is a code quality and security platform that enforces coding standards, including AI-specific policies,
+    across development workflows.
+  why_it_matters: >-
+    It helps engineering teams maintain code quality, security, and compliance while integrating AI coding agents into
+    their SDLC.
+  mental_damage: >-
+    Now your AI coding agents have to follow the same rules as the humans, which is either progress or a new layer of
+    bureaucracy.
   tags:
     - code-quality
     - security
@@ -63,21 +69,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Codacy primarily augments existing workflows (IDE, Git, agents) with guardrails, reviews, and policy enforcement rather than acting as a standalone coding assistant.
+  reason: >-
+    Codacy primarily augments existing workflows (IDE, Git, agents) with guardrails, reviews, and policy enforcement
+    rather than acting as a standalone coding assistant.
   evidence:
     - Described as 'Govern code quality, security and AI coding policies from a single place' in source-list context
     - Marketed as 'AI Guardrails built into every agent and IDE' on its primary page
     - Focuses on integrating with existing tools (Git, IDEs, agents) rather than being the primary assistant
 placement:
-  primary_category: ai-dev-extensions
-  section: Testing & QA Add-ons
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: Testing & Code Quality
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:33:06.890Z"
+    updated_at: '2026-07-21T15:33:06.890Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -90,7 +99,9 @@ processing:
       input_hash: sha256:31ee5d9a91a4f961612a71d3e087df9e88eb25aeff90efee4bc35de7058c5fec
       proposed_primary_category: ai-dev-extensions
       disagreement: false
-      decision_reason: Codacy primarily augments existing workflows (IDE, Git, agents) with guardrails, reviews, and policy enforcement rather than acting as a standalone coding assistant.
+      decision_reason: >-
+        Codacy primarily augments existing workflows (IDE, Git, agents) with guardrails, reviews, and policy enforcement
+        rather than acting as a standalone coding assistant.
       decision_evidence:
         - Described as 'Govern code quality, security and AI coding policies from a single place' in source-list context
         - Marketed as 'AI Guardrails built into every agent and IDE' on its primary page
@@ -98,12 +109,14 @@ processing:
       category_candidates:
         - ai-dev-extensions
         - coding-agents
-      contrastive_reason: Choose ai-dev-extensions over coding-agents because Codacy augments other coding tools with guardrails and reviews rather than acting as the primary coding assistant.
+      contrastive_reason: >-
+        Choose ai-dev-extensions over coding-agents because Codacy augments other coding tools with guardrails and
+        reviews rather than acting as the primary coding assistant.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.963Z"
+    updated_at: '2026-07-21T15:20:21.963Z'
     cause: null
     next_retry_at: null
   stars:

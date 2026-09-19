@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__javimaligno__postgres_mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: JaviMaligno/postgres_mcp
         extracted_url: https://github.com/javimaligno/postgres_mcp
-        surrounding_text: "- [JaviMaligno/postgres_mcp](https://github.com/JaviMaligno/postgres_mcp) 🐍 🏠 - PostgreSQL MCP server with 14 tools for querying, schema exploration, and table analysis. Features security-first design with SQL injection prevention and read-only by default."
+        surrounding_text: >-
+          - [JaviMaligno/postgres_mcp](https://github.com/JaviMaligno/postgres_mcp) 🐍 🏠 - PostgreSQL MCP server with
+          14 tools for querying, schema exploration, and table analysis. Features security-first design with SQL
+          injection prevention and read-only by default.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,20 @@ metadata:
     archived: false
     full_name: JaviMaligno/postgres_mcp
     html_url: https://github.com/JaviMaligno/postgres_mcp
-    created_at: "2025-07-04T17:02:32Z"
-    pushed_at: "2026-07-29T19:57:36Z"
+    created_at: '2025-07-04T17:02:32Z'
+    pushed_at: '2026-07-29T19:57:36Z'
     description: The only postgress MCP server I have been able to connect to my docker postgres
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:48.764Z"
+    last_checked_at: '2026-07-30T05:05:48.764Z'
     readme:
-      fetched_at: "2026-07-30T05:05:48.764Z"
+      fetched_at: '2026-07-30T05:05:48.764Z'
       bytes: 8666
 insights:
   summary: An MCP server that enables PostgreSQL database operations for MCP-compatible clients like Claude Code and Cursor.
-  why_it_matters: Developers can directly query, explore, and analyze PostgreSQL databases through their AI coding assistants without leaving the IDE or terminal.
+  why_it_matters: >-
+    Developers can directly query, explore, and analyze PostgreSQL databases through their AI coding assistants without
+    leaving the IDE or terminal.
   mental_damage: Now your AI can finally remember your schema better than you do, and still blame you for the missing index.
   tags:
     - mcp
@@ -59,24 +64,25 @@ curation:
     - Already listed in awesome-mcp-servers under Databases
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:48.764Z"
+    updated_at: '2026-07-30T05:05:48.764Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:07.197Z"
+    updated_at: '2026-07-21T16:10:07.197Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -97,6 +103,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

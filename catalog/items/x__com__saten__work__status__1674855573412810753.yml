@@ -1,12 +1,12 @@
 id: x__com__saten__work__status__1674855573412810753
 kind: website
-name: "1674855573412810753"
+name: '1674855573412810753'
 canonical_url: https://x.com/saten_work/status/1674855573412810753
 identity: {}
 provenance:
   discoveries:
     - id: discovery__x__com__saten__work__status__1674855573412810753__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,9 @@ provenance:
           - Description
         anchor_text: here
         extracted_url: https://twitter.com/saten_work/status/1674855573412810753
-        surrounding_text: "- Automatic Programming, Successfully created an app automatically just by providing feedback. The procedure can be found [here](https://twitter.com/saten_work/status/1674855573412810753)."
+        surrounding_text: >-
+          - Automatic Programming, Successfully created an app automatically just by providing feedback. The procedure
+          can be found [here](https://twitter.com/saten_work/status/1674855573412810753).
         confidence: high
 metadata:
   github:
@@ -37,9 +39,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: BabyCommandAGI is an autonomous agent based on BabyAGI that executes shell commands to create apps from natural language objectives.
-  why_it_matters: It automates the full cycle of app development—planning, coding, testing, and debugging—from a single prompt, reducing manual intervention for developers.
-  mental_damage: Finally, a tool that lets you watch an AI spend 30 minutes failing to implement Othello in Flutter while you question your life choices.
+  summary: >-
+    BabyCommandAGI is an autonomous agent based on BabyAGI that executes shell commands to create apps from natural
+    language objectives.
+  why_it_matters: >-
+    It automates the full cycle of app development—planning, coding, testing, and debugging—from a single prompt,
+    reducing manual intervention for developers.
+  mental_damage: >-
+    Finally, a tool that lets you watch an AI spend 30 minutes failing to implement Othello in Flutter while you
+    question your life choices.
   tags:
     - autonomous-agents
     - app-generation
@@ -48,21 +56,26 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The tool's primary value is turning prompts into fully functional apps (e.g., Flutter/Reversi, Minesweeper) via autonomous execution, aligning with prompt-to-app builders rather than coding assistants or extensions.
+  reason: >-
+    The tool's primary value is turning prompts into fully functional apps (e.g., Flutter/Reversi, Minesweeper) via
+    autonomous execution, aligning with prompt-to-app builders rather than coding assistants or extensions.
   evidence:
-    - Based on BabyAGI and executes shell commands to create apps from objectives (e.g., Flutter Reversi, Python Minesweeper)
+    - >-
+      Based on BabyAGI and executes shell commands to create apps from objectives (e.g., Flutter Reversi, Python
+      Minesweeper)
     - Source-list context describes it as automatically creating apps via feedback/objectives
     - Core workflow involves autonomous planning, coding, testing, and debugging
 placement:
   primary_category: app-builders
-  section: Prompt-to-App Builders
+  secondary_categories: []
+  section: Full App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.670Z"
+    updated_at: '2026-05-06T22:12:15.670Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +84,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:39:40.529Z"
+    updated_at: '2026-07-21T15:39:40.529Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,14 +97,20 @@ processing:
       input_hash: sha256:c2c004077300f79253a4a3e149f410162830177ae196e694b1f11cf68f11cbf7
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The tool's primary value is turning prompts into fully functional apps (e.g., Flutter/Reversi, Minesweeper) via autonomous execution, aligning with prompt-to-app builders rather than coding assistants or extensions.
+      decision_reason: >-
+        The tool's primary value is turning prompts into fully functional apps (e.g., Flutter/Reversi, Minesweeper) via
+        autonomous execution, aligning with prompt-to-app builders rather than coding assistants or extensions.
       decision_evidence:
-        - Based on BabyAGI and executes shell commands to create apps from objectives (e.g., Flutter Reversi, Python Minesweeper)
+        - >-
+          Based on BabyAGI and executes shell commands to create apps from objectives (e.g., Flutter Reversi, Python
+          Minesweeper)
         - Source-list context describes it as automatically creating apps via feedback/objectives
         - Core workflow involves autonomous planning, coding, testing, and debugging
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: Choose app-builders over coding-agents because the main surface is prompt-to-app generation rather than assisting with existing repo edits.
+      contrastive_reason: >-
+        Choose app-builders over coding-agents because the main surface is prompt-to-app generation rather than
+        assisting with existing repo edits.
       review_reason: null
       review_resume_lifecycle: null

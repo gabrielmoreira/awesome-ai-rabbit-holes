@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mentat__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - CLI Tools
         anchor_text: Mentat
         extracted_url: https://mentat.ai
-        surrounding_text: "- **[Mentat](https://mentat.ai/)** – AI coding assistant for command-line development."
+        surrounding_text: '- **[Mentat](https://mentat.ai/)** – AI coding assistant for command-line development.'
         confidence: high
 metadata:
   github:
@@ -37,7 +37,9 @@ metadata:
     readme: null
 insights:
   summary: An AI-powered coding assistant designed for complex, multi-file repository manipulation.
-  why_it_matters: It moves beyond simple chat interfaces by allowing an agent to understand and execute changes across an entire codebase.
+  why_it_matters: >-
+    It moves beyond simple chat interfaces by allowing an agent to understand and execute changes across an entire
+    codebase.
   mental_damage: It's just one more way to watch an agent confidently rewrite your entire architecture while you grab a coffee.
   tags:
     - coding-agent
@@ -46,12 +48,15 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Mentat is a standalone coding assistant that plans and edits code across a repository rather than acting as an extension to another editor.
+  reason: >-
+    Mentat is a standalone coding assistant that plans and edits code across a repository rather than acting as an
+    extension to another editor.
   evidence:
     - Included in awesome-ai-coding-tools under CLI Tools
     - Primary identity is a coding assistant for repo-wide work
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: incubating
@@ -59,7 +64,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +73,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:03.312Z"
+    updated_at: '2026-07-21T15:30:03.312Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -81,13 +86,17 @@ processing:
       input_hash: sha256:c42bb36824868702296b1e7a2bcb217dd80f911778718454e81549aab41a3861
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Mentat is a standalone coding assistant that plans and edits code across a repository rather than acting as an extension to another editor.
+      decision_reason: >-
+        Mentat is a standalone coding assistant that plans and edits code across a repository rather than acting as an
+        extension to another editor.
       decision_evidence:
         - Included in awesome-ai-coding-tools under CLI Tools
         - Primary identity is a coding assistant for repo-wide work
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because it acts as a primary agent capable of planning and editing files rather than just augmenting an existing editor's capabilities.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because it acts as a primary agent capable of planning and editing
+        files rather than just augmenting an existing editor's capabilities.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__markuspfundstein__mcp-gsuite__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -19,7 +19,10 @@ provenance:
           - 💬 Communication
         anchor_text: MarkusPfundstein/mcp-gsuite
         extracted_url: https://github.com/markuspfundstein/mcp-gsuite
-        surrounding_text: "-   **[MarkusPfundstein/mcp-gsuite](https://github.com/MarkusPfundstein/mcp-gsuite)** [![GitHub stars](https://img.shields.io/github/stars/MarkusPfundstein/mcp-gsuite?style=social)](https://github.com/MarkusPfundstein/mcp-gsuite): Interacts with Gmail and Google Calendar."
+        surrounding_text: >-
+          -   **[MarkusPfundstein/mcp-gsuite](https://github.com/MarkusPfundstein/mcp-gsuite)** [![GitHub
+          stars](https://img.shields.io/github/stars/MarkusPfundstein/mcp-gsuite?style=social)](https://github.com/MarkusPfundstein/mcp-gsuite):
+          Interacts with Gmail and Google Calendar.
         confidence: high
 metadata:
   github:
@@ -29,14 +32,14 @@ metadata:
     archived: false
     full_name: MarkusPfundstein/mcp-gsuite
     html_url: https://github.com/MarkusPfundstein/mcp-gsuite
-    created_at: "2024-11-30T22:32:38Z"
-    pushed_at: "2025-04-14T10:41:50Z"
+    created_at: '2024-11-30T22:32:38Z'
+    pushed_at: '2025-04-14T10:41:50Z'
     description: MCP Server to interact with Google Gsuite prodcuts
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:16:56.750Z"
+    last_checked_at: '2026-08-03T05:16:56.750Z'
     readme:
-      fetched_at: "2026-08-03T05:16:56.750Z"
+      fetched_at: '2026-08-03T05:16:56.750Z'
       bytes: 7753
 insights:
   summary: MCP Server to interact with Google Gsuite products.
@@ -49,31 +52,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server first and foremost, providing Google Workspace access via the Model Context Protocol, making MCP its core identity.
+  reason: >-
+    The product is an MCP server first and foremost, providing Google Workspace access via the Model Context Protocol,
+    making MCP its core identity.
   evidence:
-    - "Repo description: 'MCP Server to interact with Google Gsuite prodcuts'"
+    - 'Repo description: ''MCP Server to interact with Google Gsuite prodcuts'''
     - README positions it as an MCP server for Gmail and Calendar with Smithery integration
     - Listed in awesome-mcp-list under Communication section
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: promotion_candidate
   reason: Stars (488) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.628Z"
+    updated_at: '2026-05-06T22:12:15.628Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:56.750Z"
+    updated_at: '2026-08-03T05:16:56.750Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:18:44.087Z"
+    updated_at: '2026-07-21T16:18:44.087Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -86,14 +92,18 @@ processing:
       input_hash: sha256:005723d7b7b4958d9ead8a9c8858e6fa1478cb354ca1f6aeb137cdbe07d0879c
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server first and foremost, providing Google Workspace access via the Model Context Protocol, making MCP its core identity.
+      decision_reason: >-
+        The product is an MCP server first and foremost, providing Google Workspace access via the Model Context
+        Protocol, making MCP its core identity.
       decision_evidence:
-        - "Repo description: 'MCP Server to interact with Google Gsuite prodcuts'"
+        - 'Repo description: ''MCP Server to interact with Google Gsuite prodcuts'''
         - README positions it as an MCP server for Gmail and Calendar with Smithery integration
         - Listed in awesome-mcp-list under Communication section
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's primary identity is as an MCP server providing Google Workspace access, not as an extension augmenting another coding assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool's primary identity is as an MCP server providing Google
+        Workspace access, not as an extension augmenting another coding assistant.
       review_reason: null
       review_resume_lifecycle: null

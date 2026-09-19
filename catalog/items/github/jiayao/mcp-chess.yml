@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jiayao__mcp-chess__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,7 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: jiayao/mcp-chess
         extracted_url: https://github.com/jiayao/mcp-chess
-        surrounding_text: "- [jiayao/mcp-chess](https://github.com/jiayao/mcp-chess) 🐍 🏠 - A MCP server playing chess against LLMs."
+        surrounding_text: '- [jiayao/mcp-chess](https://github.com/jiayao/mcp-chess) 🐍 🏠 - A MCP server playing chess against LLMs.'
         confidence: high
 metadata:
   github:
@@ -30,18 +30,20 @@ metadata:
     archived: false
     full_name: jiayao/mcp-chess
     html_url: https://github.com/jiayao/mcp-chess
-    created_at: "2025-05-03T19:08:41Z"
-    pushed_at: "2025-05-05T06:09:32Z"
+    created_at: '2025-05-03T19:08:41Z'
+    pushed_at: '2025-05-05T06:09:32Z'
     description: MCP server for playing chess against AI
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:49.948Z"
+    last_checked_at: '2026-07-30T05:05:49.948Z'
     readme:
-      fetched_at: "2026-07-30T05:05:49.948Z"
+      fetched_at: '2026-07-30T05:05:49.948Z'
       bytes: 1713
 insights:
   summary: MCP server that enables playing chess against any LLM via the Model Context Protocol.
-  why_it_matters: Developers can integrate chess-playing capabilities into their MCP-enabled workflows, allowing LLMs to act as chess opponents or analysts.
+  why_it_matters: >-
+    Developers can integrate chess-playing capabilities into their MCP-enabled workflows, allowing LLMs to act as chess
+    opponents or analysts.
   mental_damage: Now your AI can beat you at chess while also judging your code.
   tags:
     - mcp
@@ -58,24 +60,25 @@ curation:
     - Project is actively maintained (pushed_at 2025-05-05)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:49.948Z"
+    updated_at: '2026-07-30T05:05:49.948Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:29.185Z"
+    updated_at: '2026-07-21T16:10:29.185Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +91,9 @@ processing:
       input_hash: sha256:93c22ccf4b116d880a27828e03067eaf815976fc50fa835a8832c9b7882db5dd
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server whose primary identity is providing chess capabilities via the Model Context Protocol.
+      decision_reason: >-
+        This is an MCP-first server whose primary identity is providing chess capabilities via the Model Context
+        Protocol.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for playing chess against AI
         - README details MCP configuration and tool endpoints (e.g., get_board_visualization, make_move)
@@ -96,6 +101,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

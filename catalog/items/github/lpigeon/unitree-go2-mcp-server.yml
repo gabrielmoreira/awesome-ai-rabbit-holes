@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lpigeon__unitree-go2-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: lpigeon/unitree-go2-mcp-server
         extracted_url: https://github.com/lpigeon/unitree-go2-mcp-server
-        surrounding_text: "- [lpigeon/unitree-go2-mcp-server](https://github.com/lpigeon/unitree-go2-mcp-server) 🐍 🏠 🐧 - The Unitree Go2 MCP Server is a server built on the MCP that enables users to control the Unitree Go2 robot using natural language commands interpreted by a LLM."
+        surrounding_text: >-
+          - [lpigeon/unitree-go2-mcp-server](https://github.com/lpigeon/unitree-go2-mcp-server) 🐍 🏠 🐧 - The Unitree
+          Go2 MCP Server is a server built on the MCP that enables users to control the Unitree Go2 robot using natural
+          language commands interpreted by a LLM.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: lpigeon/unitree-go2-mcp-server
     html_url: https://github.com/lpigeon/unitree-go2-mcp-server
-    created_at: "2025-05-09T15:01:17Z"
-    pushed_at: "2026-06-10T07:34:11Z"
-    description: The Unitree Go2 MCP Server is a server built on the MCP that enables users to control the Unitree Go2 robot using natural language commands interpreted by a LLM.
+    created_at: '2025-05-09T15:01:17Z'
+    pushed_at: '2026-06-10T07:34:11Z'
+    description: >-
+      The Unitree Go2 MCP Server is a server built on the MCP that enables users to control the Unitree Go2 robot using
+      natural language commands interpreted by a LLM.
     homepage: https://github.com/lpigeon/unitree-go2-mcp-server
     topics:
       - go2
@@ -44,14 +49,20 @@ metadata:
       - unitree
       - unitree-go2
       - unitree-go2-mcp-server
-    last_checked_at: "2026-07-30T05:06:08.631Z"
+    last_checked_at: '2026-07-30T05:06:08.631Z'
     readme:
-      fetched_at: "2026-07-30T05:06:08.631Z"
+      fetched_at: '2026-07-30T05:06:08.631Z'
       bytes: 4506
 insights:
-  summary: An MCP server that translates natural language commands into ROS2 instructions to control the Unitree Go2 robot via large language models.
-  why_it_matters: It bridges the Model Context Protocol with physical robotics hardware, letting developers manipulate a quadruped robot through standard AI assistant interfaces.
-  mental_damage: You can now ask Claude to make your robot look tired, proving that no matter how advanced the AI gets, we still find new ways to over-engineer simple hardware control.
+  summary: >-
+    An MCP server that translates natural language commands into ROS2 instructions to control the Unitree Go2 robot via
+    large language models.
+  why_it_matters: >-
+    It bridges the Model Context Protocol with physical robotics hardware, letting developers manipulate a quadruped
+    robot through standard AI assistant interfaces.
+  mental_damage: >-
+    You can now ask Claude to make your robot look tired, proving that no matter how advanced the AI gets, we still find
+    new ways to over-engineer simple hardware control.
   tags:
     - mcp-server
     - robotics
@@ -61,35 +72,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server that exposes robotics control as a tool for LLMs, which fits squarely into MCP Servers & Tooling.
+  reason: >-
+    The product's core identity is an MCP server that exposes robotics control as a tool for LLMs, which fits squarely
+    into MCP Servers & Tooling.
   evidence:
     - Repo description confirms it is 'a server built on the MCP' for controlling a robot.
     - README details translating natural language into ROS2 instructions via MCP functions.
     - Listed in awesome-mcp-servers under 'Server Implementations'.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: '2026-05-06T22:12:15.627Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:08.631Z"
+    updated_at: '2026-07-30T05:06:08.631Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

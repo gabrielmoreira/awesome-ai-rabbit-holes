@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kashyap-ai-ml-solutions__webex-messaging-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Community Servers
         anchor_text: Webex
         extracted_url: https://github.com/kashyap-ai-ml-solutions/webex-messaging-mcp-server
-        surrounding_text: "- **[Webex](https://github.com/Kashyap-AI-ML-Solutions/webex-messaging-mcp-server)** - A Model Context Protocol (MCP) server that provides AI assistants with comprehensive access to Cisco Webex messaging capabilities."
+        surrounding_text: >-
+          - **[Webex](https://github.com/Kashyap-AI-ML-Solutions/webex-messaging-mcp-server)** - A Model Context
+          Protocol (MCP) server that provides AI assistants with comprehensive access to Cisco Webex messaging
+          capabilities.
         confidence: high
 metadata:
   github:
@@ -29,21 +32,27 @@ metadata:
     archived: false
     full_name: Kashyap-AI-ML-Solutions/webex-messaging-mcp-server
     html_url: https://github.com/Kashyap-AI-ML-Solutions/webex-messaging-mcp-server
-    created_at: "2025-06-30T06:46:39Z"
-    pushed_at: "2026-07-24T21:38:50Z"
-    description: A Model Context Protocol (MCP) server that provides AI assistants with comprehensive access to Cisco Webex messaging capabilities.
+    created_at: '2025-06-30T06:46:39Z'
+    pushed_at: '2026-07-24T21:38:50Z'
+    description: >-
+      A Model Context Protocol (MCP) server that provides AI assistants with comprehensive access to Cisco Webex
+      messaging capabilities.
     homepage: https://developer.webex.com/messaging/docs/api/v1/attachment-actions
     topics:
       - mcp
       - mcp-server
       - webex
-    last_checked_at: "2026-07-30T05:05:54.909Z"
+    last_checked_at: '2026-07-30T05:05:54.909Z'
     readme:
-      fetched_at: "2026-07-30T05:05:54.909Z"
+      fetched_at: '2026-07-30T05:05:54.909Z'
       bytes: 16531
 insights:
-  summary: An MCP server that exposes Cisco Webex messaging capabilities (messages, rooms, teams, people, webhooks, and enterprise features) to AI assistants.
-  why_it_matters: Developers can integrate Webex messaging workflows directly into their AI assistant toolchains without custom API glue.
+  summary: >-
+    An MCP server that exposes Cisco Webex messaging capabilities (messages, rooms, teams, people, webhooks, and
+    enterprise features) to AI assistants.
+  why_it_matters: >-
+    Developers can integrate Webex messaging workflows directly into their AI assistant toolchains without custom API
+    glue.
   mental_damage: Now your AI can spam your team in Webex just as efficiently as you can.
   tags:
     - mcp
@@ -54,31 +63,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific (Webex messaging) capabilities to AI assistants."
+  reason: >-
+    MCP is the product identity: this is a dedicated MCP server providing domain-specific (Webex messaging) capabilities
+    to AI assistants.
   evidence:
     - Repo description explicitly states it is an MCP server for Webex messaging
     - README details 52 tools covering Webex messaging operations under MCP protocol
     - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.623Z"
+    updated_at: '2026-05-06T22:12:15.623Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:54.909Z"
+    updated_at: '2026-07-30T05:05:54.909Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:11:59.310Z"
+    updated_at: '2026-07-21T16:11:59.310Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -91,7 +103,9 @@ processing:
       input_hash: sha256:0c822b5285df7e9efec96259b0a127c022095d2f0f73a6652976f1eb61409ec3
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific (Webex messaging) capabilities to AI assistants."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server providing domain-specific (Webex messaging)
+        capabilities to AI assistants.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Webex messaging
         - README details 52 tools covering Webex messaging operations under MCP protocol
@@ -99,6 +113,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (domain-specific tooling) rather than an extension layer for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server (domain-specific tooling) rather
+        than an extension layer for another assistant.
       review_reason: null
       review_resume_lifecycle: null

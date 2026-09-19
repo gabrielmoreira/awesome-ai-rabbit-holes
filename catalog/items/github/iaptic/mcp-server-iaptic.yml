@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__iaptic__mcp-server-iaptic__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
         anchor_text: iaptic/mcp-server-iaptic
         extracted_url: https://github.com/iaptic/mcp-server-iaptic
-        surrounding_text: "- [iaptic/mcp-server-iaptic](https://github.com/iaptic/mcp-server-iaptic) 🎖️ 📇 ☁️ - Connect with [iaptic](https://www.iaptic.com) to ask about your Customer Purchases, Transaction data and App Revenue statistics."
+        surrounding_text: >-
+          - [iaptic/mcp-server-iaptic](https://github.com/iaptic/mcp-server-iaptic) 🎖️ 📇 ☁️ - Connect with
+          [iaptic](https://www.iaptic.com) to ask about your Customer Purchases, Transaction data and App Revenue
+          statistics.
         confidence: high
     - id: discovery__github__iaptic__mcp-server-iaptic__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -33,9 +36,12 @@ provenance:
         mode: parsed
         section_path:
           - 👤 Customer Data Platforms
-        anchor_text: "@iaptic/mcp-server-iaptic"
+        anchor_text: '@iaptic/mcp-server-iaptic'
         extracted_url: https://github.com/iaptic/mcp-server-iaptic
-        surrounding_text: "-   **[@iaptic/mcp-server-iaptic](https://github.com/iaptic/mcp-server-iaptic)** [![GitHub stars](https://img.shields.io/github/stars/iaptic/mcp-server-iaptic?style=social)](https://github.com/iaptic/mcp-server-iaptic): Connects to iaptic to retrieve customer purchase and app revenue data."
+        surrounding_text: >-
+          -   **[@iaptic/mcp-server-iaptic](https://github.com/iaptic/mcp-server-iaptic)** [![GitHub
+          stars](https://img.shields.io/github/stars/iaptic/mcp-server-iaptic?style=social)](https://github.com/iaptic/mcp-server-iaptic):
+          Connects to iaptic to retrieve customer purchase and app revenue data.
         confidence: high
 metadata:
   github:
@@ -45,19 +51,25 @@ metadata:
     archived: false
     full_name: iaptic/mcp-server-iaptic
     html_url: https://github.com/iaptic/mcp-server-iaptic
-    created_at: "2025-01-16T21:41:08Z"
-    pushed_at: "2026-04-24T08:45:41Z"
-    description: " Model Context Protocol server for interacting with iaptic"
+    created_at: '2025-01-16T21:41:08Z'
+    pushed_at: '2026-04-24T08:45:41Z'
+    description: ' Model Context Protocol server for interacting with iaptic'
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:41.482Z"
+    last_checked_at: '2026-07-30T05:05:41.482Z'
     readme:
-      fetched_at: "2026-07-30T05:05:41.482Z"
+      fetched_at: '2026-07-30T05:05:41.482Z'
       bytes: 3773
 insights:
-  summary: A Model Context Protocol server for interacting with the Iaptic API to query customer, purchase, transaction, and statistics data.
-  why_it_matters: Lets AI assistants like Claude access and reason over Iaptic's customer and transaction data directly in their workflow.
-  mental_damage: Now your AI can finally answer 'how many refunds did we issue last quarter?' without you having to dig through three dashboards first.
+  summary: >-
+    A Model Context Protocol server for interacting with the Iaptic API to query customer, purchase, transaction, and
+    statistics data.
+  why_it_matters: >-
+    Lets AI assistants like Claude access and reason over Iaptic's customer and transaction data directly in their
+    workflow.
+  mental_damage: >-
+    Now your AI can finally answer 'how many refunds did we issue last quarter?' without you having to dig through three
+    dashboards first.
   tags:
     - mcp
     - customer-data
@@ -74,24 +86,25 @@ curation:
     - Source lists categorize it under MCP servers in Customer Data Platforms
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.587Z"
+    updated_at: '2026-05-06T22:12:15.587Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:41.482Z"
+    updated_at: '2026-07-30T05:05:41.482Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:07:26.426Z"
+    updated_at: '2026-07-21T16:07:26.426Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -112,6 +125,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

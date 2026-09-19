@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__saintdoresh__yfinance-trader-mcp-claudedesktop__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: SaintDoresh/YFinance-Trader-MCP-ClaudeDesktop
         extracted_url: https://github.com/saintdoresh/yfinance-trader-mcp-claudedesktop
-        surrounding_text: "- [SaintDoresh/YFinance-Trader-MCP-ClaudeDesktop](https://github.com/SaintDoresh/YFinance-Trader-MCP-ClaudeDesktop.git) 🐍 ☁️ - An MCP tool that provides stock market data and analysis using the Yahoo Finance API."
+        surrounding_text: >-
+          -
+          [SaintDoresh/YFinance-Trader-MCP-ClaudeDesktop](https://github.com/SaintDoresh/YFinance-Trader-MCP-ClaudeDesktop.git)
+          🐍 ☁️ - An MCP tool that provides stock market data and analysis using the Yahoo Finance API.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,24 @@ metadata:
     archived: false
     full_name: SaintDoresh/YFinance-Trader-MCP-ClaudeDesktop
     html_url: https://github.com/SaintDoresh/YFinance-Trader-MCP-ClaudeDesktop
-    created_at: "2025-03-15T19:15:51Z"
-    pushed_at: "2025-08-11T15:27:04Z"
-    description: An MCP (Model Context Protocol) tool that provides stock market data and trading capabilities using the yfinance library, specifically adapted for Claude Desktop.
+    created_at: '2025-03-15T19:15:51Z'
+    pushed_at: '2025-08-11T15:27:04Z'
+    description: >-
+      An MCP (Model Context Protocol) tool that provides stock market data and trading capabilities using the yfinance
+      library, specifically adapted for Claude Desktop.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:50.195Z"
+    last_checked_at: '2026-07-20T16:42:50.195Z'
     readme:
-      fetched_at: "2026-07-20T16:42:50.195Z"
+      fetched_at: '2026-07-20T16:42:50.195Z'
       bytes: 5081
 insights:
-  summary: An MCP server that exposes yfinance stock market data, company metrics, and insider transactions as tools specifically adapted for Claude Desktop.
-  why_it_matters: It lets developers query financial data, analyst recommendations, and historical prices directly inside Claude Desktop without wiring up external APIs or switching contexts.
+  summary: >-
+    An MCP server that exposes yfinance stock market data, company metrics, and insider transactions as tools
+    specifically adapted for Claude Desktop.
+  why_it_matters: >-
+    It lets developers query financial data, analyst recommendations, and historical prices directly inside Claude
+    Desktop without wiring up external APIs or switching contexts.
   mental_damage: Another niche MCP server so you can day-trade between commits without ever leaving the comfort of your AI assistant.
   tags:
     - mcp
@@ -51,35 +60,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose identity and utility are defined by implementing the Model Context Protocol to expose financial data tools.
+  reason: >-
+    The product is an MCP server whose identity and utility are defined by implementing the Model Context Protocol to
+    expose financial data tools.
   evidence:
     - Repo description states it is 'An MCP (Model Context Protocol) tool ... specifically adapted for Claude Desktop.'
     - README details multiple MCP tools like get_stock_quote and get_insider_transactions using yfinance.
     - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing its MCP server identity.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.646Z"
+    updated_at: '2026-05-06T22:12:15.646Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:50.195Z"
+    updated_at: '2026-07-20T16:42:50.195Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

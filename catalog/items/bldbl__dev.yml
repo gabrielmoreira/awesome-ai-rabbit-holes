@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__bldbl__dev__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: bldbl.dev
         extracted_url: https://bldbl.dev
-        surrounding_text: "- [Chunkydotdev/bldbl-mcp](https://github.com/chunkydotdev/bldbl-mcp) 📇 ☁️ 🍎 🪟 🐧 - Official MCP server for Buildable AI-powered development platform [bldbl.dev](https://bldbl.dev). Enables AI assistants to manage tasks, track progress, get project context, and collaborate with humans on software projects."
+        surrounding_text: >-
+          - [Chunkydotdev/bldbl-mcp](https://github.com/chunkydotdev/bldbl-mcp) 📇 ☁️ 🍎 🪟 🐧 - Official MCP server for
+          Buildable AI-powered development platform [bldbl.dev](https://bldbl.dev). Enables AI assistants to manage
+          tasks, track progress, get project context, and collaborate with humans on software projects.
         confidence: high
 metadata:
   github:
@@ -37,9 +40,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI task engine that plans project backlogs, scaffolds repositories, and streams implementation tasks via the Model Context Protocol (MCP).
-  why_it_matters: It automates the transition from high-level idea to actionable Git tasks by connecting project management directly to an AI assistant via MCP.
-  mental_damage: Finally, an AI that can turn your vague architectural dreams into a Jira-style backlog before you have a chance to realize you don't actually want to build it.
+  summary: >-
+    An AI task engine that plans project backlogs, scaffolds repositories, and streams implementation tasks via the
+    Model Context Protocol (MCP).
+  why_it_matters: >-
+    It automates the transition from high-level idea to actionable Git tasks by connecting project management directly
+    to an AI assistant via MCP.
+  mental_damage: >-
+    Finally, an AI that can turn your vague architectural dreams into a Jira-style backlog before you have a chance to
+    realize you don't actually want to build it.
   tags:
     - mcp
     - scaffolding
@@ -48,21 +57,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core value is the end-to-end generation of project plans and repository scaffolding rather than acting as a general-purpose coding assistant.
+  reason: >-
+    The product's core value is the end-to-end generation of project plans and repository scaffolding rather than acting
+    as a general-purpose coding assistant.
   evidence:
     - Claims to plan backlogs and scaffold private repos from an idea
     - Provides a structured workflow from idea to implementation tasks
     - Features an AI task engine specifically for building SaaS products
 placement:
-  primary_category: app-builders
-  section: Local / Code-Scaffolding Builders
+  primary_category: mcp
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +83,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:26:43.867Z"
+    updated_at: '2026-07-20T15:26:43.867Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +96,9 @@ processing:
       input_hash: sha256:5dccd68d563e1cf58d57e929e8c842c369ef45639fd7d193856e788c7cf6b398
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The product's core value is the end-to-end generation of project plans and repository scaffolding rather than acting as a general-purpose coding assistant.
+      decision_reason: >-
+        The product's core value is the end-to-end generation of project plans and repository scaffolding rather than
+        acting as a general-purpose coding assistant.
       decision_evidence:
         - Claims to plan backlogs and scaffold private repos from an idea
         - Provides a structured workflow from idea to implementation tasks
@@ -92,6 +106,8 @@ processing:
       category_candidates:
         - app-builders
         - agent-orchestration
-      contrastive_reason: Choose app-builders over agent-orchestration because the primary user workflow is turning a prompt into a full project scaffold and repository structure.
+      contrastive_reason: >-
+        Choose app-builders over agent-orchestration because the primary user workflow is turning a prompt into a full
+        project scaffold and repository structure.
       review_reason: null
       review_resume_lifecycle: null

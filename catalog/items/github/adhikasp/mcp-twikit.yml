@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__adhikasp__mcp-twikit__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: adhikasp/mcp-twikit
         extracted_url: https://github.com/adhikasp/mcp-twikit
-        surrounding_text: "- [adhikasp/mcp-twikit](https://github.com/adhikasp/mcp-twikit) 🐍 ☁️ - Interact with Twitter search and timeline"
+        surrounding_text: >-
+          - [adhikasp/mcp-twikit](https://github.com/adhikasp/mcp-twikit) 🐍 ☁️ - Interact with Twitter search and
+          timeline
         confidence: high
     - id: discovery__github__adhikasp__mcp-twikit__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - 💬 Communication
         anchor_text: adhikasp/mcp-twikit
         extracted_url: https://github.com/adhikasp/mcp-twikit
-        surrounding_text: "-   **[adhikasp/mcp-twikit](https://github.com/adhikasp/mcp-twikit)** [![GitHub stars](https://img.shields.io/github/stars/adhikasp/mcp-twikit?style=social)](https://github.com/adhikasp/mcp-twikit): Accesses Twitter search and timeline data."
+        surrounding_text: >-
+          -   **[adhikasp/mcp-twikit](https://github.com/adhikasp/mcp-twikit)** [![GitHub
+          stars](https://img.shields.io/github/stars/adhikasp/mcp-twikit?style=social)](https://github.com/adhikasp/mcp-twikit):
+          Accesses Twitter search and timeline data.
         confidence: high
 metadata:
   github:
@@ -45,22 +50,26 @@ metadata:
     archived: false
     full_name: adhikasp/mcp-twikit
     html_url: https://github.com/adhikasp/mcp-twikit
-    created_at: "2024-12-15T03:37:27Z"
-    pushed_at: "2025-03-14T14:35:31Z"
+    created_at: '2024-12-15T03:37:27Z'
+    pushed_at: '2025-03-14T14:35:31Z'
     description: A Model Context Protocol (MCP) server for interacting with Twitter.
-    homepage: ""
+    homepage: ''
     topics:
       - llm
       - mcp
       - model-context-protocol
-    last_checked_at: "2026-09-17T04:13:30.232Z"
+    last_checked_at: '2026-09-17T04:13:30.232Z'
     readme:
-      fetched_at: "2026-09-17T04:13:30.232Z"
+      fetched_at: '2026-09-17T04:13:30.232Z'
       bytes: 4978
 insights:
   summary: An MCP server that enables AI models to interact with Twitter data via the Model Context Protocol.
-  why_it_matters: It allows developers to build agents capable of performing real-time social media sentiment analysis, timeline monitoring, and trend discovery through standardized tool calls.
-  mental_damage: Because nothing says 'productive developer workflow' like letting an LLM scrape Twitter to explain why everyone is mad at your latest deployment.
+  why_it_matters: >-
+    It allows developers to build agents capable of performing real-time social media sentiment analysis, timeline
+    monitoring, and trend discovery through standardized tool calls.
+  mental_damage: >-
+    Because nothing says 'productive developer workflow' like letting an LLM scrape Twitter to explain why everyone is
+    mad at your latest deployment.
   tags:
     - mcp
     - twitter
@@ -77,24 +86,25 @@ curation:
     - Functionality is centered on providing tool calls like search_twitter and get_timeline to an LLM
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: promotion_candidate
   reason: Stars (231) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.581Z"
+    updated_at: '2026-05-06T22:12:15.581Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:30.232Z"
+    updated_at: '2026-09-17T04:13:30.232Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:58:17.592Z"
+    updated_at: '2026-07-20T15:58:17.592Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -115,6 +125,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity and delivery mechanism is a Model Context Protocol server, not a general IDE extension.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity and delivery mechanism is a Model
+        Context Protocol server, not a general IDE extension.
       review_reason: null
       review_resume_lifecycle: null

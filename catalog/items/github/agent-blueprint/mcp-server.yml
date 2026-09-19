@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agent-blueprint__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: agent-blueprint/mcp-server
         extracted_url: https://github.com/agent-blueprint/mcp-server
-        surrounding_text: "- [agent-blueprint/mcp-server](https://github.com/agent-blueprint/mcp-server) [![agent-blueprint/mcp-server MCP server](https://glama.ai/mcp/servers/agent-blueprint/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/agent-blueprint/mcp-server) 📇 ☁️ - 8 MCP tools for exploring and downloading AI agent blueprints. List blueprints, get summaries, download full Agent Skills directories for implementation by coding agents. Vendor-agnostic output works with any enterprise platform. Install: `npx agentblueprint`."
+        surrounding_text: >-
+          - [agent-blueprint/mcp-server](https://github.com/agent-blueprint/mcp-server) [![agent-blueprint/mcp-server
+          MCP
+          server](https://glama.ai/mcp/servers/agent-blueprint/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/agent-blueprint/mcp-server)
+          📇 ☁️ - 8 MCP tools for exploring and downloading AI agent blueprints. List blueprints, get summaries,
+          download full Agent Skills directories for implementation by coding agents. Vendor-agnostic output works with
+          any enterprise platform. Install: `npx agentblueprint`.
         confidence: high
 metadata:
   github:
@@ -30,8 +36,8 @@ metadata:
     archived: false
     full_name: agent-blueprint/mcp-server
     html_url: https://github.com/agent-blueprint/mcp-server
-    created_at: "2026-03-01T22:07:17Z"
-    pushed_at: "2026-07-10T01:46:54Z"
+    created_at: '2026-03-01T22:07:17Z'
+    pushed_at: '2026-07-10T01:46:54Z'
     description: MCP server for Agent Blueprint — connect AI agents to your blueprints, business cases, and implementation plans
     homepage: https://agentblueprint.ai/developers
     topics:
@@ -42,14 +48,20 @@ metadata:
       - mcp
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-09-17T04:13:31.375Z"
+    last_checked_at: '2026-09-17T04:13:31.375Z'
     readme:
-      fetched_at: "2026-09-17T04:13:31.375Z"
+      fetched_at: '2026-09-17T04:13:31.375Z'
       bytes: 6286
 insights:
-  summary: An MCP server and CLI for Agent Blueprint that enables AI agents to access structured business profiles, use cases, and implementation plans.
-  why_it_matters: It bridges the gap between high-level business requirements and technical execution by providing agents with a structured, machine-readable context of project blueprints.
-  mental_damage: Because clearly, the only thing missing from our coding workflows was a structured way to feed business logic into the black box.
+  summary: >-
+    An MCP server and CLI for Agent Blueprint that enables AI agents to access structured business profiles, use cases,
+    and implementation plans.
+  why_it_matters: >-
+    It bridges the gap between high-level business requirements and technical execution by providing agents with a
+    structured, machine-readable context of project blueprints.
+  mental_damage: >-
+    Because clearly, the only thing missing from our coding workflows was a structured way to feed business logic into
+    the black box.
   tags:
     - mcp
     - agent-blueprint
@@ -59,31 +71,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's primary identity is providing a specialized set of tools via the Model Context Protocol to bridge business data and agent context.
+  reason: >-
+    The tool's primary identity is providing a specialized set of tools via the Model Context Protocol to bridge
+    business data and agent context.
   evidence:
     - Explicitly identifies as an 'MCP server' in the README
     - Provides 23 specialized MCP tools for blueprint management
     - Focuses on protocol-based access to external business artifacts
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.599Z"
+    updated_at: '2026-05-06T22:12:15.599Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:31.375Z"
+    updated_at: '2026-09-17T04:13:31.375Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:59:55.044Z"
+    updated_at: '2026-07-20T15:59:55.044Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -96,7 +111,9 @@ processing:
       input_hash: sha256:1f8a2018882298776fe111be05beb17fe56ca601145eb410c1450e0aa7af2032
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The tool's primary identity is providing a specialized set of tools via the Model Context Protocol to bridge business data and agent context.
+      decision_reason: >-
+        The tool's primary identity is providing a specialized set of tools via the Model Context Protocol to bridge
+        business data and agent context.
       decision_evidence:
         - Explicitly identifies as an 'MCP server' in the README
         - Provides 23 specialized MCP tools for blueprint management
@@ -104,6 +121,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product is explicitly an MCP implementation designed to serve external business data to a host.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the product is explicitly an MCP implementation designed to serve
+        external business data to a host.
       review_reason: null
       review_resume_lifecycle: null

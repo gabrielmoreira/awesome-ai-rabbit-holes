@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jcast90__relay__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,11 @@ provenance:
           - Orchestrators & autonomous loops
         anchor_text: Relay
         extracted_url: https://github.com/jcast90/relay
-        surrounding_text: "- **[Relay](https://github.com/jcast90/relay)** `⭐ 3` — Local-first orchestrator that runs inside your existing Claude or Codex CLI via MCP; classifies a request, decomposes it into tickets with a dependency DAG, dispatches across one or more repos, and supervises with live PR tracking + approval gates. CLI, TUI (ratatui), and GUI (Tauri) dashboards share `~/.relay/` state. MIT."
+        surrounding_text: >-
+          - **[Relay](https://github.com/jcast90/relay)** `⭐ 3` — Local-first orchestrator that runs inside your
+          existing Claude or Codex CLI via MCP; classifies a request, decomposes it into tickets with a dependency DAG,
+          dispatches across one or more repos, and supervises with live PR tracking + approval gates. CLI, TUI
+          (ratatui), and GUI (Tauri) dashboards share `~/.relay/` state. MIT.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: jcast90/relay
     html_url: https://github.com/jcast90/relay
-    created_at: "2026-03-30T13:57:16Z"
-    pushed_at: "2026-07-11T16:14:35Z"
+    created_at: '2026-03-30T13:57:16Z'
+    pushed_at: '2026-07-11T16:14:35Z'
     description: Orchestrate coding agents across repos. Local-first, self-hosted, runs inside your existing Claude / Codex CLI.
     homepage: https://github.com/jcast90/relay#readme
     topics:
@@ -55,14 +59,20 @@ metadata:
       - rust
       - tauri
       - typescript
-    last_checked_at: "2026-07-30T05:05:49.090Z"
+    last_checked_at: '2026-07-30T05:05:49.090Z'
     readme:
-      fetched_at: "2026-07-30T05:05:49.090Z"
+      fetched_at: '2026-07-30T05:05:49.090Z'
       bytes: 57244
 insights:
-  summary: A local-first, self-hosted tool to orchestrate coding agents across multiple repositories via MCP, with cross-repo coordination and audit trails.
-  why_it_matters: It enables developers to coordinate AI agents working on interconnected repos with shared context, dependency-aware ticketing, and persistent decision logs.
-  mental_damage: Finally, a way to make your agents argue with each other in Slack-style threads instead of just silently breaking your build.
+  summary: >-
+    A local-first, self-hosted tool to orchestrate coding agents across multiple repositories via MCP, with cross-repo
+    coordination and audit trails.
+  why_it_matters: >-
+    It enables developers to coordinate AI agents working on interconnected repos with shared context, dependency-aware
+    ticketing, and persistent decision logs.
+  mental_damage: >-
+    Finally, a way to make your agents argue with each other in Slack-style threads instead of just silently breaking
+    your build.
   tags:
     - agent-orchestration
     - mcp
@@ -72,31 +82,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product is a workbench for coordinating multiple coding agents across repos, not a primary coding assistant or thin extension.
+  reason: >-
+    The core product is a workbench for coordinating multiple coding agents across repos, not a primary coding assistant
+    or thin extension.
   evidence:
-    - "Repo description: 'Orchestrate coding agents across repos. Local-first, self-hosted, runs inside your existing Claude / Codex CLI.'"
-    - "README: 'Slack for your coding agents. Coordinate coding agents across repos — with an audit trail.'"
-    - "Source-list context: Listed under 'Harnesses & orchestration > Orchestrators & autonomous loops' in awesome-cli-coding-agents."
+    - >-
+      Repo description: 'Orchestrate coding agents across repos. Local-first, self-hosted, runs inside your existing
+      Claude / Codex CLI.'
+    - 'README: ''Slack for your coding agents. Coordinate coding agents across repos — with an audit trail.'''
+    - >-
+      Source-list context: Listed under 'Harnesses & orchestration > Orchestrators & autonomous loops' in
+      awesome-cli-coding-agents.
 placement:
   primary_category: agent-orchestration
-  section: Workbenches & Collaboration Surfaces
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:49.090Z"
+    updated_at: '2026-07-30T05:05:49.090Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:13.633Z"
+    updated_at: '2026-07-21T16:10:13.633Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -109,14 +126,22 @@ processing:
       input_hash: sha256:68112ca8dc2372fe0ccc1273fe91debb09f4ceecec5900856090ac8fb89fc860
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The core product is a workbench for coordinating multiple coding agents across repos, not a primary coding assistant or thin extension.
+      decision_reason: >-
+        The core product is a workbench for coordinating multiple coding agents across repos, not a primary coding
+        assistant or thin extension.
       decision_evidence:
-        - "Repo description: 'Orchestrate coding agents across repos. Local-first, self-hosted, runs inside your existing Claude / Codex CLI.'"
-        - "README: 'Slack for your coding agents. Coordinate coding agents across repos — with an audit trail.'"
-        - "Source-list context: Listed under 'Harnesses & orchestration > Orchestrators & autonomous loops' in awesome-cli-coding-agents."
+        - >-
+          Repo description: 'Orchestrate coding agents across repos. Local-first, self-hosted, runs inside your existing
+          Claude / Codex CLI.'
+        - 'README: ''Slack for your coding agents. Coordinate coding agents across repos — with an audit trail.'''
+        - >-
+          Source-list context: Listed under 'Harnesses & orchestration > Orchestrators & autonomous loops' in
+          awesome-cli-coding-agents.
       category_candidates:
         - agent-orchestration
         - ai-dev-extensions
-      contrastive_reason: Choose agent-orchestration over ai-dev-extensions because the primary value is multi-agent coordination and cross-repo workflows, not merely extending another assistant.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-dev-extensions because the primary value is multi-agent coordination and
+        cross-repo workflows, not merely extending another assistant.
       review_reason: null
       review_resume_lifecycle: null

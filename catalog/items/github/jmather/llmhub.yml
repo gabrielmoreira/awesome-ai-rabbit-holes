@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jmather__llmhub__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 推理 Inference
         anchor_text: LLMHub
         extracted_url: https://github.com/jmather/llmhub
-        surrounding_text: "30. [LLMHub](https://github.com/jmather/llmhub): LLMHub is a lightweight management platform designed to streamline the operation and interaction with various language models (LLMs)."
+        surrounding_text: >-
+          30. [LLMHub](https://github.com/jmather/llmhub): LLMHub is a lightweight management platform designed to
+          streamline the operation and interaction with various language models (LLMs).
         confidence: high
 metadata:
   github:
@@ -29,18 +31,26 @@ metadata:
     archived: false
     full_name: jmather/llmhub
     html_url: https://github.com/jmather/llmhub
-    created_at: "2024-08-25T06:36:35Z"
-    pushed_at: "2024-11-23T16:43:10Z"
-    description: LLMHub is a lightweight management platform designed to streamline the operation and interaction with various language models (LLMs). It provides an intuitive command-line interface (CLI) and a RESTful API to manage, start, stop, and interact with LLMs. The platform supports running multiple models with different configurations and context sizes.
+    created_at: '2024-08-25T06:36:35Z'
+    pushed_at: '2024-11-23T16:43:10Z'
+    description: >-
+      LLMHub is a lightweight management platform designed to streamline the operation and interaction with various
+      language models (LLMs). It provides an intuitive command-line interface (CLI) and a RESTful API to manage, start,
+      stop, and interact with LLMs. The platform supports running multiple models with different configurations and
+      context sizes.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:51.004Z"
+    last_checked_at: '2026-07-30T05:05:51.004Z'
     readme:
-      fetched_at: "2026-07-30T05:05:51.004Z"
+      fetched_at: '2026-07-30T05:05:51.004Z'
       bytes: 2301
 insights:
-  summary: LLMHub is a lightweight CLI and REST API platform for managing, starting, stopping, and interacting with multiple language models.
-  why_it_matters: It lets developers run and switch between different LLMs with varying configurations and context sizes without manual setup overhead.
+  summary: >-
+    LLMHub is a lightweight CLI and REST API platform for managing, starting, stopping, and interacting with multiple
+    language models.
+  why_it_matters: >-
+    It lets developers run and switch between different LLMs with varying configurations and context sizes without
+    manual setup overhead.
   mental_damage: Because nothing says 'productivity' like spending an afternoon configuring yet another LLM runtime.
   tags:
     - llm-management
@@ -50,31 +60,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The core product is a local runtime/serving layer for managing LLMs, which fits the Local AI category better than frameworks or orchestration.
+  reason: >-
+    The core product is a local runtime/serving layer for managing LLMs, which fits the Local AI category better than
+    frameworks or orchestration.
   evidence:
     - Repo description explicitly calls it a 'lightweight management platform' for LLMs with CLI/REST API
     - Supports running multiple models with different configurations (local inference focus)
     - Not archived, recent pushes (2024-11-23)
 placement:
   primary_category: local-ai
-  section: Local Serving / APIs
+  secondary_categories: []
+  section: Local API Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:51.004Z"
+    updated_at: '2026-07-30T05:05:51.004Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:45.931Z"
+    updated_at: '2026-07-21T16:10:45.931Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,7 +100,9 @@ processing:
       input_hash: sha256:f7dfa42ab0f6839667f027ea49037ef613bc13975259e91f8ad7eca63b9d30fb
       proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: The core product is a local runtime/serving layer for managing LLMs, which fits the Local AI category better than frameworks or orchestration.
+      decision_reason: >-
+        The core product is a local runtime/serving layer for managing LLMs, which fits the Local AI category better
+        than frameworks or orchestration.
       decision_evidence:
         - Repo description explicitly calls it a 'lightweight management platform' for LLMs with CLI/REST API
         - Supports running multiple models with different configurations (local inference focus)
@@ -95,6 +110,8 @@ processing:
       category_candidates:
         - local-ai
         - ai-frameworks
-      contrastive_reason: Choose local-ai over ai-frameworks because the primary identity is a local serving/management platform rather than a code-first SDK or library.
+      contrastive_reason: >-
+        Choose local-ai over ai-frameworks because the primary identity is a local serving/management platform rather
+        than a code-first SDK or library.
       review_reason: null
       review_resume_lifecycle: null

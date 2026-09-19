@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__epsilla__com__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -18,10 +18,14 @@ provenance:
           - LLMOps
         anchor_text: Epsilla
         extracted_url: https://epsilla.com
-        surrounding_text: "| [Epsilla](https://epsilla.com)                                     | An all-in-one platform to create vertical AI agents powered by your private data and knowledge.                                                                                                                                                                                                      |               |"
+        surrounding_text: >-
+          | [Epsilla](https://epsilla.com)                                     | An all-in-one platform to create
+          vertical AI agents powered by your private data and
+          knowledge.                                                                                                                                                                                                     
+          |               |
         confidence: high
     - id: discovery__www__epsilla__com__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -33,7 +37,11 @@ provenance:
           - LLMOps
         anchor_text: Epsilla
         extracted_url: https://epsilla.com
-        surrounding_text: "| [Epsilla](https://epsilla.com)                                     | An all-in-one platform to create vertical AI agents powered by your private data and knowledge.                                                                                                                                                                                                      |               |"
+        surrounding_text: >-
+          | [Epsilla](https://epsilla.com)                                     | An all-in-one platform to create
+          vertical AI agents powered by your private data and
+          knowledge.                                                                                                                                                                                                     
+          |               |
         confidence: high
 metadata:
   github:
@@ -51,9 +59,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Enterprise-grade Agent-as-a-Service platform for building and deploying vertical AI agents without infrastructure overhead.
-  why_it_matters: Enables non-technical teams to create domain-specific AI agents with RAG, no-code builders, and managed deployment options.
-  mental_damage: Finally, a way to build agents without engineering overhead—unless you count the overhead of choosing between SaaS, on-premise, or private cloud.
+  summary: >-
+    Enterprise-grade Agent-as-a-Service platform for building and deploying vertical AI agents without infrastructure
+    overhead.
+  why_it_matters: >-
+    Enables non-technical teams to create domain-specific AI agents with RAG, no-code builders, and managed deployment
+    options.
+  mental_damage: >-
+    Finally, a way to build agents without engineering overhead—unless you count the overhead of choosing between SaaS,
+    on-premise, or private cloud.
   tags:
     - agent-platform
     - rag
@@ -63,21 +77,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a control plane/workbench for building and deploying multiple vertical AI agents, fitting Agent Orchestration's focus on multi-agent coordination and platform-level workflows.
+  reason: >-
+    The product is a control plane/workbench for building and deploying multiple vertical AI agents, fitting Agent
+    Orchestration's focus on multi-agent coordination and platform-level workflows.
   evidence:
     - Described as 'Agent-as-a-Service platform for enterprises' with no-code agent building and RAG-as-a-Service
     - Supports multi-tenancy, scalable infrastructure, and vertical industry solutions
     - Listed in Awesome-LLMOps under LLMOps as an agent platform
 placement:
   primary_category: agent-orchestration
-  section: Vertical Orchestration Platforms
+  secondary_categories: []
+  section: Hosted Agent Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:33:45.021Z"
+    updated_at: '2026-07-21T15:33:45.021Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -90,7 +107,9 @@ processing:
       input_hash: sha256:b568d483d8dd523b0562de1a950388608c32f914ee3cc2383ff9037f19dfa63f
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The product is a control plane/workbench for building and deploying multiple vertical AI agents, fitting Agent Orchestration's focus on multi-agent coordination and platform-level workflows.
+      decision_reason: >-
+        The product is a control plane/workbench for building and deploying multiple vertical AI agents, fitting Agent
+        Orchestration's focus on multi-agent coordination and platform-level workflows.
       decision_evidence:
         - Described as 'Agent-as-a-Service platform for enterprises' with no-code agent building and RAG-as-a-Service
         - Supports multi-tenancy, scalable infrastructure, and vertical industry solutions
@@ -98,12 +117,14 @@ processing:
       category_candidates:
         - agent-orchestration
         - app-builders
-      contrastive_reason: Choose agent-orchestration over app-builders because the core value is coordinating and deploying multiple AI agents (not just prompt-to-app generation).
+      contrastive_reason: >-
+        Choose agent-orchestration over app-builders because the core value is coordinating and deploying multiple AI
+        agents (not just prompt-to-app generation).
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.965Z"
+    updated_at: '2026-07-21T15:20:21.965Z'
     cause: null
     next_retry_at: null
   stars:

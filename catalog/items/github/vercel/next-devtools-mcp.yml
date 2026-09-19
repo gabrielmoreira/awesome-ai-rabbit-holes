@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__vercel__next-devtools-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: vercel/next-devtools-mcp
         extracted_url: https://github.com/vercel/next-devtools-mcp
-        surrounding_text: "- [vercel/next-devtools-mcp](https://github.com/vercel/next-devtools-mcp) 🎖️ 📇 🏠 - Official Next.js MCP server for coding agents. Provides runtime diagnostics, route inspection, dev server logs, docs search, and upgrade guides. Requires Next.js 16+ dev server for full runtime features."
+        surrounding_text: >-
+          - [vercel/next-devtools-mcp](https://github.com/vercel/next-devtools-mcp) 🎖️ 📇 🏠 - Official Next.js MCP
+          server for coding agents. Provides runtime diagnostics, route inspection, dev server logs, docs search, and
+          upgrade guides. Requires Next.js 16+ dev server for full runtime features.
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: vercel/next-devtools-mcp
     html_url: https://github.com/vercel/next-devtools-mcp
-    created_at: "2025-10-13T21:22:18Z"
-    pushed_at: "2026-06-25T22:30:14Z"
+    created_at: '2025-10-13T21:22:18Z'
+    pushed_at: '2026-06-25T22:30:14Z'
     description: Next.js Development for Coding Agent
     homepage: https://www.npmjs.com/package/next-devtools-mcp
     topics:
@@ -40,14 +43,20 @@ metadata:
       - mcp-server
       - next-devtools
       - nextjs
-    last_checked_at: "2026-07-21T15:21:03.236Z"
+    last_checked_at: '2026-07-21T15:21:03.236Z'
     readme:
-      fetched_at: "2026-07-21T15:21:03.236Z"
+      fetched_at: '2026-07-21T15:21:03.236Z'
       bytes: 9846
 insights:
-  summary: next-devtools-mcp is an MCP server that provides Next.js development tools and utilities for coding agents like Claude and Cursor.
-  why_it_matters: It gives AI coding agents direct access to Next.js-specific devtools, letting them scaffold, debug, and inspect Next.js apps without leaving the agent interface.
-  mental_damage: Another MCP server to install, another config to juggle, and yet another way for your agent to pretend it understands your Next.js project.
+  summary: >-
+    next-devtools-mcp is an MCP server that provides Next.js development tools and utilities for coding agents like
+    Claude and Cursor.
+  why_it_matters: >-
+    It gives AI coding agents direct access to Next.js-specific devtools, letting them scaffold, debug, and inspect
+    Next.js apps without leaving the agent interface.
+  mental_damage: >-
+    Another MCP server to install, another config to juggle, and yet another way for your agent to pretend it
+    understands your Next.js project.
   tags:
     - mcp
     - nextjs
@@ -56,31 +65,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server providing Next.js devtools, making MCP its core identity rather than a mere compatibility feature.
+  reason: >-
+    The product is explicitly an MCP server providing Next.js devtools, making MCP its core identity rather than a mere
+    compatibility feature.
   evidence:
-    - "Repo description: 'Next.js Development for Coding Agent'"
-    - "README: 'next-devtools-mcp is a Model Context Protocol (MCP) server that provides Next.js development tools and utilities for coding agents like Claude and Cursor.'"
-    - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Developer Tools"
+    - 'Repo description: ''Next.js Development for Coding Agent'''
+    - >-
+      README: 'next-devtools-mcp is a Model Context Protocol (MCP) server that provides Next.js development tools and
+      utilities for coding agents like Claude and Cursor.'
+    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Developer Tools'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (742) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.654Z"
+    updated_at: '2026-05-06T22:12:15.654Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:03.236Z"
+    updated_at: '2026-07-21T15:21:03.236Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-14T05:26:42.799Z"
+    updated_at: '2026-05-14T05:26:42.799Z'
     cause: null
     next_retry_at: null
     attempts: 2

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__kiro__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Kiro
         extracted_url: https://kiro.dev
-        surrounding_text: "- **[Kiro](https://kiro.dev/)** – Spec-driven AI development environment by AWS."
+        surrounding_text: '- **[Kiro](https://kiro.dev/)** – Spec-driven AI development environment by AWS.'
         confidence: high
     - id: discovery__kiro__dev__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -51,9 +51,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Kiro is an agentic AI platform with IDE, CLI, and web interfaces that turns prompts into executable specs, validates code correctness, and implements tasks with parallel agents.
-  why_it_matters: It brings structure to AI-assisted development by enforcing spec-driven workflows, property-based testing, and multi-agent collaboration for complex codebases.
-  mental_damage: Finally, an AI that won’t just vibe-code your way into production—it’ll first write a spec to explain why your vibe was wrong.
+  summary: >-
+    Kiro is an agentic AI platform with IDE, CLI, and web interfaces that turns prompts into executable specs, validates
+    code correctness, and implements tasks with parallel agents.
+  why_it_matters: >-
+    It brings structure to AI-assisted development by enforcing spec-driven workflows, property-based testing, and
+    multi-agent collaboration for complex codebases.
+  mental_damage: >-
+    Finally, an AI that won’t just vibe-code your way into production—it’ll first write a spec to explain why your vibe
+    was wrong.
   tags:
     - spec-driven-development
     - multi-agent
@@ -63,21 +69,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Kiro's core identity is spec-driven development, where specifications are the primary artifact for planning, validation, and execution, not just a coding assistant or extension.
+  reason: >-
+    Kiro's core identity is spec-driven development, where specifications are the primary artifact for planning,
+    validation, and execution, not just a coding assistant or extension.
   evidence:
     - Primary page explicitly pitches 'spec-driven development' as the central workflow
     - Turns prompts into requirements, architectural designs, and sequenced tasks before implementation
     - Validates code correctness via property-based tests and automated reasoning
 placement:
-  primary_category: spec-driven-development
-  section: Spec-First Environments
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Spec-First & Plan-Execute
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.597Z"
+    updated_at: '2026-05-06T22:12:15.597Z'
     cause: null
     next_retry_at: null
   stars:
@@ -86,7 +95,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:51.656Z"
+    updated_at: '2026-07-21T15:28:51.656Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -99,7 +108,9 @@ processing:
       input_hash: sha256:6f89fe520edb4dcbd9a15141f3391f65ad6b9cb94103056b20aafc8927b595a0
       proposed_primary_category: spec-driven-development
       disagreement: false
-      decision_reason: Kiro's core identity is spec-driven development, where specifications are the primary artifact for planning, validation, and execution, not just a coding assistant or extension.
+      decision_reason: >-
+        Kiro's core identity is spec-driven development, where specifications are the primary artifact for planning,
+        validation, and execution, not just a coding assistant or extension.
       decision_evidence:
         - Primary page explicitly pitches 'spec-driven development' as the central workflow
         - Turns prompts into requirements, architectural designs, and sequenced tasks before implementation
@@ -107,6 +118,8 @@ processing:
       category_candidates:
         - spec-driven-development
         - coding-agents
-      contrastive_reason: Choose spec-driven-development over coding-agents because Kiro's main novelty is the spec-first loop (planning, validation, execution) rather than being a primary coding assistant.
+      contrastive_reason: >-
+        Choose spec-driven-development over coding-agents because Kiro's main novelty is the spec-first loop (planning,
+        validation, execution) rather than being a primary coding assistant.
       review_reason: null
       review_resume_lifecycle: null

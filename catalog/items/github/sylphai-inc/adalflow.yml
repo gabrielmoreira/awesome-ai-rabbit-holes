@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sylphai-inc__adalflow__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 知识库 RAG
         anchor_text: LightRAG
         extracted_url: https://github.com/sylphai-inc/lightrag
-        surrounding_text: "13. [LightRAG](https://github.com/SylphAI-Inc/LightRAG): LightRAG helps developers with both building and optimizing Retriever-Agent-Generator pipelines."
+        surrounding_text: >-
+          13. [LightRAG](https://github.com/SylphAI-Inc/LightRAG): LightRAG helps developers with both building and
+          optimizing Retriever-Agent-Generator pipelines.
         confidence: high
 metadata:
   github:
@@ -29,9 +31,9 @@ metadata:
     archived: false
     full_name: SylphAI-Inc/AdalFlow
     html_url: https://github.com/SylphAI-Inc/AdalFlow
-    created_at: "2024-04-19T05:05:13Z"
-    pushed_at: "2026-05-29T05:49:13Z"
-    description: "AdalFlow: The library to build & auto-optimize LLM applications."
+    created_at: '2024-04-19T05:05:13Z'
+    pushed_at: '2026-05-29T05:49:13Z'
+    description: 'AdalFlow: The library to build & auto-optimize LLM applications.'
     homepage: http://adalflow.sylph.ai/
     topics:
       - agent
@@ -54,14 +56,20 @@ metadata:
       - retriever
       - summarization
       - trainer
-    last_checked_at: "2026-07-21T15:20:38.413Z"
+    last_checked_at: '2026-07-21T15:20:38.413Z'
     readme:
-      fetched_at: "2026-07-21T15:20:38.413Z"
+      fetched_at: '2026-07-21T15:20:38.413Z'
       bytes: 19114
 insights:
-  summary: AdalFlow is a PyTorch-like Python library for building and auto-optimizing LLM workflows, including RAG pipelines, chatbots, and agents.
-  why_it_matters: It provides a code-first framework with auto-differentiative optimization and model-agnostic components, allowing developers to stop manually tweaking prompts and start treating prompts like learnable parameters.
-  mental_damage: "Just what the ecosystem needed: another PyTorch-flavored abstraction layer promising to automate the one task—writing prompts—that we were supposedly hired to do."
+  summary: >-
+    AdalFlow is a PyTorch-like Python library for building and auto-optimizing LLM workflows, including RAG pipelines,
+    chatbots, and agents.
+  why_it_matters: >-
+    It provides a code-first framework with auto-differentiative optimization and model-agnostic components, allowing
+    developers to stop manually tweaking prompts and start treating prompts like learnable parameters.
+  mental_damage: >-
+    Just what the ecosystem needed: another PyTorch-flavored abstraction layer promising to automate the one
+    task—writing prompts—that we were supposedly hired to do.
   tags:
     - llm
     - framework
@@ -71,35 +79,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The repository is a code-first library and SDK for building LLM workflows and agents, fitting the definition of a framework that developers import and script against.
+  reason: >-
+    The repository is a code-first library and SDK for building LLM workflows and agents, fitting the definition of a
+    framework that developers import and script against.
   evidence:
     - Repo description explicitly calls it 'The library to build & auto-optimize LLM applications.'
     - README states it is a 'PyTorch-like library' for building pipelines, RAG, and Agents.
     - Topics include 'framework', 'python', 'rag', 'agent', and 'auto-prompting', confirming library identity.
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  secondary_categories: []
+  section: LLM & Agent SDKs
 lifecycle:
   status: promotion_candidate
   reason: Stars (4132) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.650Z"
+    updated_at: '2026-05-06T22:12:15.650Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:38.413Z"
+    updated_at: '2026-07-21T15:20:38.413Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

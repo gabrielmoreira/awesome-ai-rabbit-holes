@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aannoo__hcom__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -19,10 +19,12 @@ provenance:
           - Frameworks
         anchor_text: hcom
         extracted_url: https://github.com/aannoo/hcom
-        surrounding_text: "- Production-grade observability and zero-trust security model- [hcom](https://github.com/aannoo/hcom) - Let AI agents message, watch, and spawn"
+        surrounding_text: >-
+          - Production-grade observability and zero-trust security model- [hcom](https://github.com/aannoo/hcom) - Let
+          AI agents message, watch, and spawn
         confidence: high
     - id: discovery__github__aannoo__hcom__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-06-18T05:40:04.065Z"
+      discovered_at: '2026-06-18T05:40:04.065Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -35,7 +37,10 @@ provenance:
           - Session managers & parallel runners
         anchor_text: hcom
         extracted_url: https://github.com/aannoo/hcom
-        surrounding_text: "- **[hcom](https://github.com/aannoo/hcom)** `⭐ 343` — Hooks Claude Code, Antigravity, Codex, OpenCode, Kilo, and Cursor into a shared messaging and event bus; agents message, observe, and spawn each other mid-turn without changing how you use them. TUI dashboard, collision detection, cross-device relay. Rust, MIT."
+        surrounding_text: >-
+          - **[hcom](https://github.com/aannoo/hcom)** `⭐ 343` — Hooks Claude Code, Antigravity, Codex, OpenCode, Kilo,
+          and Cursor into a shared messaging and event bus; agents message, observe, and spawn each other mid-turn
+          without changing how you use them. TUI dashboard, collision detection, cross-device relay. Rust, MIT.
         confidence: high
 metadata:
   github:
@@ -45,9 +50,11 @@ metadata:
     archived: false
     full_name: aannoo/hcom
     html_url: https://github.com/aannoo/hcom
-    created_at: "2025-07-21T02:32:38Z"
-    pushed_at: "2026-09-13T16:33:03Z"
-    description: Let AI agents message, watch, and spawn each other across terminals. Claude Code, Codex, Antigravity CLI, Cursor CLI, OpenCode, Kilo, Pi, Kimi
+    created_at: '2025-07-21T02:32:38Z'
+    pushed_at: '2026-09-13T16:33:03Z'
+    description: >-
+      Let AI agents message, watch, and spawn each other across terminals. Claude Code, Codex, Antigravity CLI, Cursor
+      CLI, OpenCode, Kilo, Pi, Kimi
     homepage: https://pypi.org/project/hcom/
     topics:
       - agent
@@ -70,14 +77,18 @@ metadata:
       - orchestration
       - pi-coding-agent
       - terminal
-    last_checked_at: "2026-09-17T04:13:27.562Z"
+    last_checked_at: '2026-09-17T04:13:27.562Z'
     readme:
-      fetched_at: "2026-09-17T04:13:27.562Z"
+      fetched_at: '2026-09-17T04:13:27.562Z'
       bytes: 14685
 insights:
   summary: A CLI tool that enables AI agents to communicate, observe, and spawn one another across different terminal sessions.
-  why_it_matters: It allows developers to build multi-agent pipelines by letting disparate CLI agents like Claude Code and Cursor exchange messages and file edits directly.
-  mental_damage: Nothing says 'future of software engineering' quite like watching a recursive loop of terminal-native agents arguing over a single SQLite database.
+  why_it_matters: >-
+    It allows developers to build multi-agent pipelines by letting disparate CLI agents like Claude Code and Cursor
+    exchange messages and file edits directly.
+  mental_damage: >-
+    Nothing says 'future of software engineering' quite like watching a recursive loop of terminal-native agents arguing
+    over a single SQLite database.
   tags:
     - multi-agent
     - cli
@@ -87,31 +98,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core novelty is the coordination and communication layer between existing agents rather than being a single assistant or a simple integration.
+  reason: >-
+    The core novelty is the coordination and communication layer between existing agents rather than being a single
+    assistant or a simple integration.
   evidence:
     - README describes it as a tool to 'hook your coding agents together' to message, watch, and spawn each other.
     - Provides a runtime environment where agents can subscribe to events and react to other agents' actions.
     - Targets orchestration of multiple distinct CLIs like Claude Code, Codex, and Cursor.
 placement:
   primary_category: agent-orchestration
-  section: Multi-Agent Runtime Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (252) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-06-18T05:40:04.065Z"
+    updated_at: '2026-06-18T05:40:04.065Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:27.562Z"
+    updated_at: '2026-09-17T04:13:27.562Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:52:55.614Z"
+    updated_at: '2026-07-20T15:52:55.614Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -124,7 +138,9 @@ processing:
       input_hash: sha256:0eef19bd9b9222e31c10ed29394c8387ee7288e3e1805eff84f663344baa3fa1
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The core novelty is the coordination and communication layer between existing agents rather than being a single assistant or a simple integration.
+      decision_reason: >-
+        The core novelty is the coordination and communication layer between existing agents rather than being a single
+        assistant or a simple integration.
       decision_evidence:
         - README describes it as a tool to 'hook your coding agents together' to message, watch, and spawn each other.
         - Provides a runtime environment where agents can subscribe to events and react to other agents' actions.
@@ -132,6 +148,8 @@ processing:
       category_candidates:
         - agent-orchestration
         - ai-dev-extensions
-      contrastive_reason: Choose agent-orchestration over ai-dev-extensions because the tool acts as a runtime platform for multi-agent coordination rather than just a feature add-on for a single host.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-dev-extensions because the tool acts as a runtime platform for multi-agent
+        coordination rather than just a feature add-on for a single host.
       review_reason: null
       review_resume_lifecycle: null

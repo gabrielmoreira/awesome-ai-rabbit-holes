@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jetbrains__com__junieai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,12 @@ provenance:
           - Coding Agents
         anchor_text: JunieAI (JetBrains)
         extracted_url: https://jetbrains.com/junieai
-        surrounding_text: "- **[JunieAI (JetBrains)](https://www.jetbrains.com/junieai/)** – AI coding agent that plans, writes, tests, and refactors within JetBrains IDEs."
+        surrounding_text: >-
+          - **[JunieAI (JetBrains)](https://www.jetbrains.com/junieai/)** – AI coding agent that plans, writes, tests,
+          and refactors within JetBrains IDEs.
         confidence: high
     - id: discovery__www__jetbrains__com__junieai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +35,9 @@ provenance:
           - Coding Agents
         anchor_text: JunieAI (JetBrains)
         extracted_url: https://www.jetbrains.com/junieai
-        surrounding_text: "- **[JunieAI (JetBrains)](https://www.jetbrains.com/junieai/)** – AI coding agent that plans, writes, tests, and refactors within JetBrains IDEs."
+        surrounding_text: >-
+          - **[JunieAI (JetBrains)](https://www.jetbrains.com/junieai/)** – AI coding agent that plans, writes, tests,
+          and refactors within JetBrains IDEs.
         confidence: high
 metadata:
   github:
@@ -52,7 +56,9 @@ metadata:
     readme: null
 insights:
   summary: JunieAI is JetBrains' AI assistant integrated into their IDE ecosystem.
-  why_it_matters: It provides AI-powered coding assistance directly within JetBrains IDEs, streamlining development workflows for users already in that environment.
+  why_it_matters: >-
+    It provides AI-powered coding assistance directly within JetBrains IDEs, streamlining development workflows for
+    users already in that environment.
   mental_damage: Now you can argue with an AI about Kotlin syntax while your IDE silently judges your life choices.
   tags:
     - jetbrains
@@ -61,21 +67,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Junie is a primary coding assistant developed by JetBrains to plan and edit code within the IDE, fitting the 'IDE-Native Assistants' section of coding agents.
+  reason: >-
+    Junie is a primary coding assistant developed by JetBrains to plan and edit code within the IDE, fitting the
+    'IDE-Native Assistants' section of coding agents.
   evidence:
     - URL is jetbrains.com/junieai, identifying it as a first-party JetBrains product.
     - Listed in awesome-ai-coding-tools under the 'Coding Agents' section.
     - Product identity is a direct coding assistant integrated into the IDE, not an extension or framework.
 placement:
   primary_category: coding-agents
-  section: null
+  secondary_categories: []
+  section: IDE-Native & Editor Agents
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-ides-editors'"
+  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''ai-ides-editors'''
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:35:06.169Z"
+    updated_at: '2026-07-21T15:35:06.169Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -88,19 +97,23 @@ processing:
       input_hash: sha256:ef87ffd14272c28d8c34d1d03890d165d93e10a6d9c31e682117cf180b81c670
       proposed_primary_category: ai-ides-editors
       disagreement: true
-      decision_reason: JunieAI is an AI-native feature integrated into JetBrains' IDE suite, making the IDE itself the primary product surface.
+      decision_reason: >-
+        JunieAI is an AI-native feature integrated into JetBrains' IDE suite, making the IDE itself the primary product
+        surface.
       decision_evidence:
         - Source-list context places it in Coding Agents, but primary identity is IDE integration
         - JetBrains' official product positioning as an IDE feature
       category_candidates:
         - ai-ides-editors
         - coding-agents
-      contrastive_reason: Choose ai-ides-editors over coding-agents because the assistant is embedded in and inseparable from the JetBrains IDE environment rather than being a standalone coding agent.
-      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-ides-editors'"
+      contrastive_reason: >-
+        Choose ai-ides-editors over coding-agents because the assistant is embedded in and inseparable from the
+        JetBrains IDE environment rather than being a standalone coding agent.
+      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''ai-ides-editors'''
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.966Z"
+    updated_at: '2026-07-21T15:20:21.966Z'
     cause: null
     next_retry_at: null
   stars:

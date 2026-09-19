@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jasonwilbur__oci-pricing-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: jasonwilbur/oci-pricing-mcp
         extracted_url: https://github.com/jasonwilbur/oci-pricing-mcp
-        surrounding_text: "- [jasonwilbur/oci-pricing-mcp](https://github.com/jasonwilbur/oci-pricing-mcp) 📇 ☁️ - Oracle Cloud Infrastructure pricing data with 602 products, cost calculators, and cross-provider comparisons. One-command install for Claude."
+        surrounding_text: >-
+          - [jasonwilbur/oci-pricing-mcp](https://github.com/jasonwilbur/oci-pricing-mcp) 📇 ☁️ - Oracle Cloud
+          Infrastructure pricing data with 602 products, cost calculators, and cross-provider comparisons. One-command
+          install for Claude.
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: jasonwilbur/oci-pricing-mcp
     html_url: https://github.com/jasonwilbur/oci-pricing-mcp
-    created_at: "2026-01-17T15:23:16Z"
-    pushed_at: "2026-06-03T22:48:05Z"
+    created_at: '2026-01-17T15:23:16Z'
+    pushed_at: '2026-06-03T22:48:05Z'
     description: OCI Pricing MCP Server - Model Context Protocol server for Oracle Cloud Infrastructure pricing information
     homepage: https://www.npmjs.com/package/oci-pricing-mcp
     topics:
@@ -45,14 +48,18 @@ metadata:
       - oracle
       - pricing
       - typescript
-    last_checked_at: "2026-07-30T05:05:48.247Z"
+    last_checked_at: '2026-07-30T05:05:48.247Z'
     readme:
-      fetched_at: "2026-07-30T05:05:48.247Z"
+      fetched_at: '2026-07-30T05:05:48.247Z'
       bytes: 12306
 insights:
   summary: An MCP server that exposes Oracle Cloud Infrastructure pricing data to AI assistants like Claude.
-  why_it_matters: Developers can now query OCI pricing directly from their AI coding assistant, enabling real-time cost comparisons and estimates without leaving their workflow.
-  mental_damage: Finally, you can ask your AI assistant how much Oracle will charge for that VM instead of digging through 17 pricing pages.
+  why_it_matters: >-
+    Developers can now query OCI pricing directly from their AI coding assistant, enabling real-time cost comparisons
+    and estimates without leaving their workflow.
+  mental_damage: >-
+    Finally, you can ask your AI assistant how much Oracle will charge for that VM instead of digging through 17 pricing
+    pages.
   tags:
     - mcp
     - oci
@@ -69,24 +76,25 @@ curation:
     - Listed in awesome-mcp-servers under Cloud Platforms
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:48.247Z"
+    updated_at: '2026-07-30T05:05:48.247Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:02.558Z"
+    updated_at: '2026-07-21T16:10:02.558Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -99,7 +107,9 @@ processing:
       input_hash: sha256:2aef82c7ab68f0ae5a5b4860178c6cccea8c325e4122d10aaa49f994efbc0f1e
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a dedicated MCP server whose primary identity is providing OCI pricing data via the Model Context Protocol.
+      decision_reason: >-
+        This is a dedicated MCP server whose primary identity is providing OCI pricing data via the Model Context
+        Protocol.
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server for OCI pricing
         - README details its role as a server providing pricing tools to AI assistants
@@ -107,6 +117,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

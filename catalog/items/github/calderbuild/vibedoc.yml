@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__calderbuild__vibedoc__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -19,7 +19,10 @@ provenance:
           - Workflow Management
         anchor_text: VibeDoc
         extracted_url: https://github.com/jasonrobertdestiny/vibedoc
-        surrounding_text: "- [VibeDoc](https://github.com/JasonRobertDestiny/VibeDoc) ![](https://img.shields.io/github/stars/JasonRobertDestiny/VibeDoc.svg) - Documentation tool for spec-driven development workflows."
+        surrounding_text: >-
+          - [VibeDoc](https://github.com/JasonRobertDestiny/VibeDoc)
+          ![](https://img.shields.io/github/stars/JasonRobertDestiny/VibeDoc.svg) - Documentation tool for spec-driven
+          development workflows.
         confidence: high
 metadata:
   github:
@@ -29,22 +32,28 @@ metadata:
     archived: false
     full_name: calderbuild/VibeDoc
     html_url: https://github.com/calderbuild/VibeDoc
-    created_at: "2025-09-06T08:28:19Z"
-    pushed_at: "2025-11-21T13:22:34Z"
-    description: 🚀 Your AI Product Manager & Architect - Transform ideas into complete development plans with AI coding prompts in 60-180 seconds
+    created_at: '2025-09-06T08:28:19Z'
+    pushed_at: '2025-11-21T13:22:34Z'
+    description: >-
+      🚀 Your AI Product Manager & Architect - Transform ideas into complete development plans with AI coding prompts in
+      60-180 seconds
     homepage: https://modelscope.cn/studios/JasonRobert/Vibedocs
     topics:
       - agent
       - architect
       - productmanager
       - vibecoding
-    last_checked_at: "2026-09-07T04:13:40.465Z"
+    last_checked_at: '2026-09-07T04:13:40.465Z'
     readme:
-      fetched_at: "2026-09-07T04:13:40.465Z"
+      fetched_at: '2026-09-07T04:13:40.465Z'
       bytes: 11888
 insights:
-  summary: VibeDoc is an AI tool that transforms product ideas into complete development plans, including technical documentation, architecture diagrams, and AI coding prompts.
-  why_it_matters: It accelerates the planning phase for developers, product managers, and entrepreneurs by generating structured development plans and ready-to-use AI coding prompts in minutes.
+  summary: >-
+    VibeDoc is an AI tool that transforms product ideas into complete development plans, including technical
+    documentation, architecture diagrams, and AI coding prompts.
+  why_it_matters: >-
+    It accelerates the planning phase for developers, product managers, and entrepreneurs by generating structured
+    development plans and ready-to-use AI coding prompts in minutes.
   mental_damage: Now you can spend 180 seconds generating a 10,000-word spec instead of 180 hours writing it yourself.
   tags:
     - spec-driven-development
@@ -54,31 +63,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: VibeDoc's core value is generating structured development plans and specs from ideas, which aligns with spec-driven development workflows.
+  reason: >-
+    VibeDoc's core value is generating structured development plans and specs from ideas, which aligns with spec-driven
+    development workflows.
   evidence:
     - Repo description explicitly positions it as a tool for transforming ideas into development plans with AI prompts
-    - README highlights generation of product overviews, technical solutions, development plans, and deployment strategies
+    - >-
+      README highlights generation of product overviews, technical solutions, development plans, and deployment
+      strategies
     - Seen in awesome-spec-driven-development under Workflow Management
 placement:
-  primary_category: spec-driven-development
-  section: Planning / Task Decomposition
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Spec-First & Plan-Execute
 lifecycle:
   status: promotion_candidate
   reason: Stars (372) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.606Z"
+    updated_at: '2026-05-06T22:12:15.606Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:40.465Z"
+    updated_at: '2026-09-07T04:13:40.465Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:40:28.817Z"
+    updated_at: '2026-07-21T15:40:28.817Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -91,14 +105,22 @@ processing:
       input_hash: sha256:2bb6fc40dc1e9891c03540feb34d931100a539f84340199e926e7f3742789008
       proposed_primary_category: spec-driven-development
       disagreement: false
-      decision_reason: VibeDoc's core value is generating structured development plans and specs from ideas, which aligns with spec-driven development workflows.
+      decision_reason: >-
+        VibeDoc's core value is generating structured development plans and specs from ideas, which aligns with
+        spec-driven development workflows.
       decision_evidence:
-        - Repo description explicitly positions it as a tool for transforming ideas into development plans with AI prompts
-        - README highlights generation of product overviews, technical solutions, development plans, and deployment strategies
+        - >-
+          Repo description explicitly positions it as a tool for transforming ideas into development plans with AI
+          prompts
+        - >-
+          README highlights generation of product overviews, technical solutions, development plans, and deployment
+          strategies
         - Seen in awesome-spec-driven-development under Workflow Management
       category_candidates:
         - spec-driven-development
         - app-builders
-      contrastive_reason: Choose spec-driven-development over app-builders because the primary output is structured development plans and specs rather than deployed apps or scaffolds.
+      contrastive_reason: >-
+        Choose spec-driven-development over app-builders because the primary output is structured development plans and
+        specs rather than deployed apps or scaffolds.
       review_reason: null
       review_resume_lifecycle: null

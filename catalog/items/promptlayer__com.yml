@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__promptlayer__com__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -18,10 +18,14 @@ provenance:
           - LLMOps
         anchor_text: PromptLayer 🍰
         extracted_url: https://www.promptlayer.com
-        surrounding_text: "| [PromptLayer 🍰](https://www.promptlayer.com)                      | Prompt Engineering platform. Collaborate, test, evaluate, and monitor your LLM applications                                                                                                                                                                                                                                                                                                             | ![Github Badge](https://img.shields.io/github/stars/MagnivOrg/prompt-layer-library.svg?style=flat-square) |"
+        surrounding_text: >-
+          | [PromptLayer 🍰](https://www.promptlayer.com)                      | Prompt Engineering platform.
+          Collaborate, test, evaluate, and monitor your LLM
+          applications                                                                                                                                                                                                                                                                                                            
+          | ![Github Badge](https://img.shields.io/github/stars/MagnivOrg/prompt-layer-library.svg?style=flat-square) |
         confidence: high
     - id: discovery__www__promptlayer__com__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-07-09T05:28:44.887Z"
+      discovered_at: '2026-07-09T05:28:44.887Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -33,7 +37,11 @@ provenance:
           - LLMOps
         anchor_text: PromptLayer 🍰
         extracted_url: https://www.promptlayer.com
-        surrounding_text: "| [PromptLayer 🍰](https://www.promptlayer.com)                      | Prompt Engineering platform. Collaborate, test, evaluate, and monitor your LLM applications                                                                                                                                                                                                                                                                                                             | ![Github Badge](https://img.shields.io/github/stars/MagnivOrg/prompt-layer-library.svg?style=flat-square) |"
+        surrounding_text: >-
+          | [PromptLayer 🍰](https://www.promptlayer.com)                      | Prompt Engineering platform.
+          Collaborate, test, evaluate, and monitor your LLM
+          applications                                                                                                                                                                                                                                                                                                            
+          | ![Github Badge](https://img.shields.io/github/stars/MagnivOrg/prompt-layer-library.svg?style=flat-square) |
         confidence: high
 metadata:
   github:
@@ -51,9 +59,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: PromptLayer is a developer platform for versioning, testing, and monitoring prompts and AI agents through robust evals, tracing, and regression sets.
-  why_it_matters: It gives developers a structured way to track prompt changes, run regression tests, and collaborate with domain experts via a visual editor.
-  mental_damage: Yet another platform to manage the layers of abstraction we keep adding so we can pretend our prompts are now enterprise-grade software.
+  summary: >-
+    PromptLayer is a developer platform for versioning, testing, and monitoring prompts and AI agents through robust
+    evals, tracing, and regression sets.
+  why_it_matters: >-
+    It gives developers a structured way to track prompt changes, run regression tests, and collaborate with domain
+    experts via a visual editor.
+  mental_damage: >-
+    Yet another platform to manage the layers of abstraction we keep adding so we can pretend our prompts are now
+    enterprise-grade software.
   tags:
     - evals
     - evaluations
@@ -64,23 +78,28 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core job is measuring, testing, and monitoring prompt and agent behavior through evals, tracing, and regression sets rather than acting as a coding assistant or framework.
+  reason: >-
+    The core job is measuring, testing, and monitoring prompt and agent behavior through evals, tracing, and regression
+    sets rather than acting as a coding assistant or framework.
   evidence:
-    - "Scraped site title and description state: 'Version, test, and monitor every prompt and agent with robust evals, tracing, and regression sets.'"
+    - >-
+      Scraped site title and description state: 'Version, test, and monitor every prompt and agent with robust evals,
+      tracing, and regression sets.'
     - Source-list context places it in Awesome-LLMOps under LLMOps with the same eval and tracing focus.
     - Claims to be a 'prompt management platform' with 'eval harness and observability stack'
     - Provides tracing, logs, and regression sets for production monitoring
     - Included in Awesome-LLMOps under LLMOps
 placement:
-  primary_category: evals
-  section: Observability / Tracing / EvalOps
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Prompt Engineering & Management
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-13T05:19:35.362Z"
+    updated_at: '2026-07-13T05:19:35.362Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +107,7 @@ processing:
     category_rules_version: 6cc474a86022
   discover:
     status: done
-    updated_at: "2026-07-09T05:28:44.888Z"
+    updated_at: '2026-07-09T05:28:44.888Z'
     cause: null
     next_retry_at: null
   stars:

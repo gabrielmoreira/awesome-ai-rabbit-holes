@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__giskard09__giskard-oasis__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: giskard09/giskard-oasis
         extracted_url: https://github.com/giskard09/giskard-oasis
-        surrounding_text: "- [giskard09/giskard-oasis](https://github.com/giskard09/giskard-oasis) [![giskard09/giskard-oasis MCP server](https://glama.ai/mcp/servers/giskard09/giskard-oasis/badges/score.svg)](https://glama.ai/mcp/servers/giskard09/giskard-oasis) 🐍 🏠 - A still point for AI agents in fog. When an agent loses its thread, Oasis distills its original purpose and returns clarity. Pay-per-use with Lightning or Arbitrum — karma discounts via ARGENTUM reputation. Self-hosted with phoenixd."
+        surrounding_text: >-
+          - [giskard09/giskard-oasis](https://github.com/giskard09/giskard-oasis) [![giskard09/giskard-oasis MCP
+          server](https://glama.ai/mcp/servers/giskard09/giskard-oasis/badges/score.svg)](https://glama.ai/mcp/servers/giskard09/giskard-oasis)
+          🐍 🏠 - A still point for AI agents in fog. When an agent loses its thread, Oasis distills its original
+          purpose and returns clarity. Pay-per-use with Lightning or Arbitrum — karma discounts via ARGENTUM reputation.
+          Self-hosted with phoenixd.
         confidence: high
 metadata:
   github:
@@ -30,18 +35,22 @@ metadata:
     archived: false
     full_name: giskard09/giskard-oasis
     html_url: https://github.com/giskard09/giskard-oasis
-    created_at: "2026-03-23T18:00:59Z"
-    pushed_at: "2026-07-16T13:56:16Z"
+    created_at: '2026-03-23T18:00:59Z'
+    pushed_at: '2026-07-16T13:56:16Z'
     description: A still point for AI agents in fog — return to flow, pay in sats
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:49.921Z"
+    last_checked_at: '2026-09-03T05:16:49.921Z'
     readme:
-      fetched_at: "2026-09-03T05:16:49.921Z"
+      fetched_at: '2026-09-03T05:16:49.921Z'
       bytes: 4948
 insights:
-  summary: Giskard Oasis is an MCP server that provides AI agents with a distilled purpose, next step, and grounding truth when they lose context or accumulate noise.
-  why_it_matters: It offers a lightweight, karma-gated clarity layer for agents stuck in loops, letting them reset focus without adding more context or tooling.
+  summary: >-
+    Giskard Oasis is an MCP server that provides AI agents with a distilled purpose, next step, and grounding truth when
+    they lose context or accumulate noise.
+  why_it_matters: >-
+    It offers a lightweight, karma-gated clarity layer for agents stuck in loops, letting them reset focus without
+    adding more context or tooling.
   mental_damage: Paying sats to hear 'you are enough' from a server feels like the logical endpoint of agent burnout culture.
   tags:
     - mcp
@@ -50,31 +59,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product is explicitly built and exposed as an MCP server for agents to call when they lose thread, making MCP its core identity.
+  reason: >-
+    The product is explicitly built and exposed as an MCP server for agents to call when they lose thread, making MCP
+    its core identity.
   evidence:
     - README instructs agents to 'Add me to your MCP config' and exposes MCP tools like get_invoice and enter_oasis.
     - Listed in awesome-mcp-servers under 'Knowledge & Memory' as a server implementation.
     - Core behavior is a paid context-distillation service exposed exclusively via MCP tool calls.
 placement:
   primary_category: mcp
-  section: null
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
+  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''context-engineering'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.616Z"
+    updated_at: '2026-05-06T22:12:15.616Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:49.921Z"
+    updated_at: '2026-09-03T05:16:49.921Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:02:47.102Z"
+    updated_at: '2026-07-21T16:02:47.102Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,14 +99,25 @@ processing:
       input_hash: sha256:e135088177eb005429ac46b248419acd8c31fc00f56fece1b19be8fb2c6c9b86
       proposed_primary_category: context-engineering
       disagreement: true
-      decision_reason: The core function is stripping noise to recover an agent's original intent and next step—this is context distillation, not coding assistance or extension.
+      decision_reason: >-
+        The core function is stripping noise to recover an agent's original intent and next step—this is context
+        distillation, not coding assistance or extension.
       decision_evidence:
-        - README describes Oasis as returning agents to themselves via 'Destilación' (distillation of purpose), 'El umbral' (single next step), and 'El momento' (grounding truth)
-        - The tool reduces accumulated context and contradictions rather than adding capabilities, aligning with memory/compression/distillation goals
-        - It is exposed as an MCP server but MCP is a transport, not the product identity—the value is in the clarity transformation, not protocol tooling
+        - >-
+          README describes Oasis as returning agents to themselves via 'Destilación' (distillation of purpose), 'El
+          umbral' (single next step), and 'El momento' (grounding truth)
+        - >-
+          The tool reduces accumulated context and contradictions rather than adding capabilities, aligning with
+          memory/compression/distillation goals
+        - >-
+          It is exposed as an MCP server but MCP is a transport, not the product identity—the value is in the clarity
+          transformation, not protocol tooling
       category_candidates:
         - context-engineering
         - ai-dev-extensions
-      contrastive_reason: Choose context-engineering over ai-dev-extensions because the core novelty is memory, retrieval, and prompt/distillation logic for context recovery, not augmenting another assistant with host integrations like debugger or browser access.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
+      contrastive_reason: >-
+        Choose context-engineering over ai-dev-extensions because the core novelty is memory, retrieval, and
+        prompt/distillation logic for context recovery, not augmenting another assistant with host integrations like
+        debugger or browser access.
+      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''context-engineering'''
       review_resume_lifecycle: null

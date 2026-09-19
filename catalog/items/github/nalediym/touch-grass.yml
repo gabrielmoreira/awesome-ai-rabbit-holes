@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nalediym__touch-grass__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🌳 <a name="environment-and-nature"></a>Environment & Nature
         anchor_text: nalediym/touch-grass
         extracted_url: https://github.com/nalediym/touch-grass
-        surrounding_text: "- [nalediym/touch-grass](https://github.com/nalediym/touch-grass) [![nalediym/touch-grass MCP server](https://glama.ai/mcp/servers/nalediym/touch-grass/badges/score.svg)](https://glama.ai/mcp/servers/nalediym/touch-grass) 📇 🏠 🍎 🪟 🐧 - Claude Code plugin and MCP server that nudges you to take outdoor breaks based on local weather, sunset timing, and session streaks. Tools: `check_grass_conditions`, `suggest_activity`, `log_touch_grass`, `get_stats`. Fully local, no API keys, no cloud storage."
+        surrounding_text: >-
+          - [nalediym/touch-grass](https://github.com/nalediym/touch-grass) [![nalediym/touch-grass MCP
+          server](https://glama.ai/mcp/servers/nalediym/touch-grass/badges/score.svg)](https://glama.ai/mcp/servers/nalediym/touch-grass)
+          📇 🏠 🍎 🪟 🐧 - Claude Code plugin and MCP server that nudges you to take outdoor breaks based on local
+          weather, sunset timing, and session streaks. Tools: `check_grass_conditions`, `suggest_activity`,
+          `log_touch_grass`, `get_stats`. Fully local, no API keys, no cloud storage.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: nalediym/touch-grass
     html_url: https://github.com/nalediym/touch-grass
-    created_at: "2026-04-11T19:40:34Z"
-    pushed_at: "2026-04-26T02:41:38Z"
-    description: A Claude Code plugin that teaches your AI agent to remind you to go outside. Weather-aware, sunset-aware, session-aware. Ships an MCP server + SessionStart hook + skill.
+    created_at: '2026-04-11T19:40:34Z'
+    pushed_at: '2026-04-26T02:41:38Z'
+    description: >-
+      A Claude Code plugin that teaches your AI agent to remind you to go outside. Weather-aware, sunset-aware,
+      session-aware. Ships an MCP server + SessionStart hook + skill.
     homepage: https://touch-grass-xi.vercel.app
     topics:
       - ai-agent
@@ -47,14 +54,20 @@ metadata:
       - model-context-protocol
       - pomodoro
       - touch-grass
-    last_checked_at: "2026-07-20T15:11:59.419Z"
+    last_checked_at: '2026-07-20T15:11:59.419Z'
     readme:
-      fetched_at: "2026-07-20T15:11:59.419Z"
+      fetched_at: '2026-07-20T15:11:59.419Z'
       bytes: 12333
 insights:
-  summary: A Claude Code plugin and MCP server that injects weather, sunset, and streak data to prompt developers to take context-aware breaks during coding sessions.
-  why_it_matters: It replaces flow-breaking Pomodoro timers by teaching your AI agent to nudge you outside at natural pauses, using real-time weather and session context.
-  mental_damage: We have successfully reached the point where your AI assistant needs an MCP server and a dedicated skill pack just to tell you to touch grass.
+  summary: >-
+    A Claude Code plugin and MCP server that injects weather, sunset, and streak data to prompt developers to take
+    context-aware breaks during coding sessions.
+  why_it_matters: >-
+    It replaces flow-breaking Pomodoro timers by teaching your AI agent to nudge you outside at natural pauses, using
+    real-time weather and session context.
+  mental_damage: >-
+    We have successfully reached the point where your AI assistant needs an MCP server and a dedicated skill pack just
+    to tell you to touch grass.
   tags:
     - claude-code
     - mcp
@@ -64,35 +77,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly a plugin and skill pack that augments Claude Code with break-reminder capabilities, fitting the extension identity over a primary coding agent.
+  reason: >-
+    The product is explicitly a plugin and skill pack that augments Claude Code with break-reminder capabilities,
+    fitting the extension identity over a primary coding agent.
   evidence:
-    - "Repo description: 'A Claude Code plugin that teaches your AI agent to remind you to go outside.'"
-    - "README: 'The Claude Code plugin that reminds you to go outside... An MCP server + SessionStart hook + skill.'"
+    - 'Repo description: ''A Claude Code plugin that teaches your AI agent to remind you to go outside.'''
+    - 'README: ''The Claude Code plugin that reminds you to go outside... An MCP server + SessionStart hook + skill.'''
     - Topics include claude-code-plugin, claude-code-hooks, and mcp-server, confirming the extension identity.
 placement:
-  primary_category: ai-dev-extensions
-  section: IDE / UI / Workflow Add-ons
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: Claude Code & Agent Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.632Z"
+    updated_at: '2026-05-06T22:12:15.632Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:11:59.419Z"
+    updated_at: '2026-07-20T15:11:59.419Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

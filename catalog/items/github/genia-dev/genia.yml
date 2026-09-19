@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__genia-dev__genia__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,7 @@ provenance:
           - GeniA
         anchor_text: GeniA
         extracted_url: https://github.com/genia-dev/genia
-        surrounding_text: "## [GeniA](https://github.com/genia-dev/GeniA)"
+        surrounding_text: '## [GeniA](https://github.com/genia-dev/GeniA)'
         confidence: high
 metadata:
   github:
@@ -29,8 +29,8 @@ metadata:
     archived: false
     full_name: genia-dev/GeniA
     html_url: https://github.com/genia-dev/GeniA
-    created_at: "2023-07-24T21:23:30Z"
-    pushed_at: "2023-11-22T15:25:21Z"
+    created_at: '2023-07-24T21:23:30Z'
+    pushed_at: '2023-11-22T15:25:21Z'
     description: Your Engineering Gen AI Team member 🧬🤖💻
     homepage: https://genia-dev.github.io/GeniA/
     topics:
@@ -47,14 +47,18 @@ metadata:
       - llm
       - openai
       - python
-    last_checked_at: "2026-09-03T05:16:47.601Z"
+    last_checked_at: '2026-09-03T05:16:47.601Z'
     readme:
-      fetched_at: "2026-09-03T05:16:47.601Z"
+      fetched_at: '2026-09-03T05:16:47.601Z'
       bytes: 6184
 insights:
   summary: An AI platform engineering agent designed to automate DevOps, SRE, and SecOps tasks via Slack or a web interface.
-  why_it_matters: It automates the operational side of the software lifecycle, including k8s deployments, log summarization, and cloud cost optimization.
-  mental_damage: Because nothing says 'modern engineering' quite like having your production outages summarized by an autonomous agent in your Slack DMs.
+  why_it_matters: >-
+    It automates the operational side of the software lifecycle, including k8s deployments, log summarization, and cloud
+    cost optimization.
+  mental_damage: >-
+    Because nothing says 'modern engineering' quite like having your production outages summarized by an autonomous
+    agent in your Slack DMs.
   tags:
     - devops
     - sre
@@ -64,31 +68,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: GeniA functions as a standalone autonomous agent that executes operational tasks and infrastructure changes via CLI tools and Slack, fitting the coding/ops agent profile.
+  reason: >-
+    GeniA functions as a standalone autonomous agent that executes operational tasks and infrastructure changes via CLI
+    tools and Slack, fitting the coding/ops agent profile.
   evidence:
     - Repo description calls it a 'Gen AI Team member' executing tasks in production environments.
-    - README explicitly lists executing Argo deployments, troubleshooting k8s, and S3 security analysis as core capabilities.
+    - >-
+      README explicitly lists executing Argo deployments, troubleshooting k8s, and S3 security analysis as core
+      capabilities.
     - Packaged as a Python package installable via pip (`pip3 install ... genia`) acting as the primary interface.
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Domain & Enterprise Platforms
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: '2026-05-06T22:12:15.615Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:47.601Z"
+    updated_at: '2026-09-03T05:16:47.601Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-07T04:15:36.918Z"
+    updated_at: '2026-09-07T04:15:36.918Z'
     cause: null
     next_retry_at: null
     attempts: 5
@@ -101,7 +110,9 @@ processing:
       input_hash: sha256:e98d88f67f177491778895c6092a2f84375fbd34991b26ea0bedbbfb571544a6
       proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: It functions as a domain-specific agent platform specializing in infrastructure and platform engineering workflows rather than a general-purpose tool for writing application code.
+      decision_reason: >-
+        It functions as a domain-specific agent platform specializing in infrastructure and platform engineering
+        workflows rather than a general-purpose tool for writing application code.
       decision_evidence:
         - Identifies as an 'AI platform engineering team member' rather than a coding assistant
         - Automates specific SRE, DevOps, and FinOps workflows like Argo deployments and EKS upgrades
@@ -109,6 +120,8 @@ processing:
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because its primary identity is a vertical platform for operational workflows and task execution rather than a tool for editing or generating application code.
-      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because its primary identity is a vertical platform for
+        operational workflows and task execution rather than a tool for editing or generating application code.
+      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__apecloud__aperag__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: apecloud/ApeRAG
         extracted_url: https://github.com/apecloud/aperag
-        surrounding_text: "- [apecloud/ApeRAG](https://github.com/apecloud/ApeRAG) 🐍 ☁️ 🏠 - Production-ready RAG platform combining Graph RAG, vector search, and full-text search. Best choice for building your own Knowledge Graph and for Context Engineering"
+        surrounding_text: >-
+          - [apecloud/ApeRAG](https://github.com/apecloud/ApeRAG) 🐍 ☁️ 🏠 - Production-ready RAG platform combining
+          Graph RAG, vector search, and full-text search. Best choice for building your own Knowledge Graph and for
+          Context Engineering
         confidence: high
 metadata:
   github:
@@ -30,23 +33,27 @@ metadata:
     archived: false
     full_name: apecloud/ApeRAG
     html_url: https://github.com/apecloud/ApeRAG
-    created_at: "2023-06-20T12:18:12Z"
-    pushed_at: "2026-05-02T05:01:36Z"
-    description: "ApeRAG: Production-ready GraphRAG with multi-modal indexing, AI agents, MCP support, and scalable K8s deployment"
-    homepage: ""
+    created_at: '2023-06-20T12:18:12Z'
+    pushed_at: '2026-05-02T05:01:36Z'
+    description: 'ApeRAG: Production-ready GraphRAG with multi-modal indexing, AI agents, MCP support, and scalable K8s deployment'
+    homepage: ''
     topics:
       - agents
       - context-engineering
       - graphrag
       - knowledge-graph
       - mcp
-    last_checked_at: "2026-09-10T04:12:56.401Z"
+    last_checked_at: '2026-09-10T04:12:56.401Z'
     readme:
-      fetched_at: "2026-09-10T04:12:56.401Z"
+      fetched_at: '2026-09-10T04:12:56.401Z'
       bytes: 10528
 insights:
-  summary: ApeRAG is a production-ready GraphRAG platform combining multi-modal indexing, AI agents, and MCP support with scalable Kubernetes deployment.
-  why_it_matters: It enables developers to build sophisticated AI applications with hybrid retrieval, multimodal document processing, and intelligent agents for autonomous knowledge base reasoning.
+  summary: >-
+    ApeRAG is a production-ready GraphRAG platform combining multi-modal indexing, AI agents, and MCP support with
+    scalable Kubernetes deployment.
+  why_it_matters: >-
+    It enables developers to build sophisticated AI applications with hybrid retrieval, multimodal document processing,
+    and intelligent agents for autonomous knowledge base reasoning.
   mental_damage: Finally, a RAG platform that promises to make your knowledge graph as organized as your GitHub issues.
   tags:
     - graphrag
@@ -57,31 +64,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: ApeRAG is primarily a knowledge-base platform that exposes itself as an MCP server, making MCP the core product identity rather than a side feature.
+  reason: >-
+    ApeRAG is primarily a knowledge-base platform that exposes itself as an MCP server, making MCP the core product
+    identity rather than a side feature.
   evidence:
     - Repo description explicitly calls it out as having 'MCP support' alongside GraphRAG and agents.
-    - README documents an MCP server endpoint at /mcp/ with collection browsing, hybrid search, and natural language querying.
+    - >-
+      README documents an MCP server endpoint at /mcp/ with collection browsing, hybrid search, and natural language
+      querying.
     - Listed in awesome-mcp-servers under Knowledge & Memory, aligning with its MCP server identity.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: ai-frameworks
+  secondary_categories: []
+  section: Memory & Retrieval Infrastructure
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
+  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''context-engineering'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.603Z"
+    updated_at: '2026-05-06T22:12:15.603Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:12:56.401Z"
+    updated_at: '2026-09-10T04:12:56.401Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:23:40.637Z"
+    updated_at: '2026-07-21T15:23:40.637Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -94,7 +106,9 @@ processing:
       input_hash: sha256:bc8181eb8d4aa2181f0a902a30807670e08227bc5c3630dda36199ce3f012de5
       proposed_primary_category: context-engineering
       disagreement: true
-      decision_reason: The core product identity is a context/retrieval system (GraphRAG + hybrid search) for improving what goes into models, not a primary coding assistant or host integration.
+      decision_reason: >-
+        The core product identity is a context/retrieval system (GraphRAG + hybrid search) for improving what goes into
+        models, not a primary coding assistant or host integration.
       decision_evidence:
         - Repo description explicitly calls it a GraphRAG platform with multi-modal indexing and AI agents
         - README emphasizes knowledge graph, context engineering, and autonomous search/reasoning over knowledge bases
@@ -102,6 +116,8 @@ processing:
       category_candidates:
         - context-engineering
         - ai-frameworks
-      contrastive_reason: Choose context-engineering over ai-frameworks because the primary value is the retrieval/context system (GraphRAG + hybrid search) rather than a code-first SDK or library.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
+      contrastive_reason: >-
+        Choose context-engineering over ai-frameworks because the primary value is the retrieval/context system
+        (GraphRAG + hybrid search) rather than a code-first SDK or library.
+      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''context-engineering'''
       review_resume_lifecycle: null

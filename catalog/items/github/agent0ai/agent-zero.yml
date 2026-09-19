@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agent0ai__agent-zero__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 智能体 Agents
         anchor_text: Agent Zero
         extracted_url: https://github.com/frdel/agent-zero
-        surrounding_text: "22. [Agent Zero](https://github.com/frdel/agent-zero): Agent Zero is not a predefined agentic framework. It is designed to be dynamic, organically growing, and learning as you use it."
+        surrounding_text: >-
+          22. [Agent Zero](https://github.com/frdel/agent-zero): Agent Zero is not a predefined agentic framework. It is
+          designed to be dynamic, organically growing, and learning as you use it.
         confidence: high
 metadata:
   github:
@@ -29,8 +31,8 @@ metadata:
     archived: false
     full_name: agent0ai/agent-zero
     html_url: https://github.com/agent0ai/agent-zero
-    created_at: "2024-06-10T09:10:45Z"
-    pushed_at: "2026-09-17T02:42:26Z"
+    created_at: '2024-06-10T09:10:45Z'
+    pushed_at: '2026-09-17T02:42:26Z'
     description: Agent Zero AI framework
     homepage: https://agent-zero.ai
     topics:
@@ -40,14 +42,20 @@ metadata:
       - autonomous
       - linux
       - zero
-    last_checked_at: "2026-09-17T04:13:31.576Z"
+    last_checked_at: '2026-09-17T04:13:31.576Z'
     readme:
-      fetched_at: "2026-09-17T04:13:31.576Z"
+      fetched_at: '2026-09-17T04:13:31.576Z'
       bytes: 19781
 insights:
-  summary: An open agent framework that provides a Dockerized Linux desktop environment and browser for autonomous task execution.
-  why_it_matters: It allows agents to move beyond simple chat by giving them a full GUI, terminal, and browser with DOM annotation to interact with real software.
-  mental_damage: There is nothing quite like the existential dread of watching an autonomous agent struggle to click a button in a virtual XFCE desktop.
+  summary: >-
+    An open agent framework that provides a Dockerized Linux desktop environment and browser for autonomous task
+    execution.
+  why_it_matters: >-
+    It allows agents to move beyond simple chat by giving them a full GUI, terminal, and browser with DOM annotation to
+    interact with real software.
+  mental_damage: >-
+    There is nothing quite like the existential dread of watching an autonomous agent struggle to click a button in a
+    virtual XFCE desktop.
   tags:
     - agent-framework
     - linux-desktop
@@ -57,31 +65,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool functions as a standalone, high-capability agent that operates via a desktop/browser environment rather than just augmenting an existing editor.
+  reason: >-
+    The tool functions as a standalone, high-capability agent that operates via a desktop/browser environment rather
+    than just augmenting an existing editor.
   evidence:
     - Claims to 'Give your agent a full Linux computer' via Dockerized XFCE
     - Features browser DOM annotation and live document cowork
     - Offers multi-agent cooperation and project memory
 placement:
   primary_category: coding-agents
-  section: Browser/Desktop/Computer-Use Agents
+  secondary_categories: []
+  section: Browser & Computer-Use Agents
 lifecycle:
   status: promotion_candidate
   reason: Stars (17565) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.599Z"
+    updated_at: '2026-05-06T22:12:15.599Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:31.576Z"
+    updated_at: '2026-09-17T04:13:31.576Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:00:47.875Z"
+    updated_at: '2026-07-20T16:00:47.875Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -94,7 +105,9 @@ processing:
       input_hash: sha256:e1af00a7976a3f7ce745d441eb05129537b3083fcbe2b9503630ad8c549dd340
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: The tool functions as a standalone, high-capability agent that operates via a desktop/browser environment rather than just augmenting an existing editor.
+      decision_reason: >-
+        The tool functions as a standalone, high-capability agent that operates via a desktop/browser environment rather
+        than just augmenting an existing editor.
       decision_evidence:
         - Claims to 'Give your agent a full Linux computer' via Dockerized XFCE
         - Features browser DOM annotation and live document cowork
@@ -102,6 +115,8 @@ processing:
       category_candidates:
         - coding-agents
         - agent-orchestration
-      contrastive_reason: Choose coding-agents over agent-orchestration because the primary user experience is an autonomous agent interface capable of executing complex, multi-step developer tasks in a desktop environment.
+      contrastive_reason: >-
+        Choose coding-agents over agent-orchestration because the primary user experience is an autonomous agent
+        interface capable of executing complex, multi-step developer tasks in a desktop environment.
       review_reason: null
       review_resume_lifecycle: null

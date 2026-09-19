@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bbonnin__openapi-to-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: bbonnin/openapi-to-mcp
         extracted_url: https://github.com/bbonnin/openapi-to-mcp
-        surrounding_text: "- [bbonnin/openapi-to-mcp](https://github.com/bbonnin/openapi-to-mcp) ☕ 🏠 🍎 🪟 🐧 - MCP server that automatically converts any OpenAPI/Swagger specification into a set of usable MCP tools. Unlike manual tool definition, this approach auto-generates tools directly from the Swagger spec, ensuring consistency, reducing maintenance effort, and preventing mismatches between the tools and the actual API."
+        surrounding_text: >-
+          - [bbonnin/openapi-to-mcp](https://github.com/bbonnin/openapi-to-mcp) ☕ 🏠 🍎 🪟 🐧 - MCP server that
+          automatically converts any OpenAPI/Swagger specification into a set of usable MCP tools. Unlike manual tool
+          definition, this approach auto-generates tools directly from the Swagger spec, ensuring consistency, reducing
+          maintenance effort, and preventing mismatches between the tools and the actual API.
         confidence: high
 metadata:
   github:
@@ -30,22 +34,28 @@ metadata:
     archived: false
     full_name: bbonnin/openapi-to-mcp
     html_url: https://github.com/bbonnin/openapi-to-mcp
-    created_at: "2025-12-05T15:20:09Z"
-    pushed_at: "2025-12-05T15:32:32Z"
-    description: OpenApiMCPServer is an MCP server that automatically converts any OpenAPI/Swagger specification into a set of usable MCP tools
-    homepage: ""
+    created_at: '2025-12-05T15:20:09Z'
+    pushed_at: '2025-12-05T15:32:32Z'
+    description: >-
+      OpenApiMCPServer is an MCP server that automatically converts any OpenAPI/Swagger specification into a set of
+      usable MCP tools
+    homepage: ''
     topics:
       - llm
       - mcp
       - openapi
       - swagger
-    last_checked_at: "2026-09-07T04:13:31.966Z"
+    last_checked_at: '2026-09-07T04:13:31.966Z'
     readme:
-      fetched_at: "2026-09-07T04:13:31.966Z"
+      fetched_at: '2026-09-07T04:13:31.966Z'
       bytes: 1957
 insights:
-  summary: OpenApiMCPServer is an MCP server that converts OpenAPI/Swagger specifications into MCP tools for AI agent integration.
-  why_it_matters: It lets AI agents interact with any OpenAPI-based REST API without manual tool coding, bridging API specs and MCP ecosystems.
+  summary: >-
+    OpenApiMCPServer is an MCP server that converts OpenAPI/Swagger specifications into MCP tools for AI agent
+    integration.
+  why_it_matters: >-
+    It lets AI agents interact with any OpenAPI-based REST API without manual tool coding, bridging API specs and MCP
+    ecosystems.
   mental_damage: Now your AI can spin up VMs via Swagger docs, because why write a client when you can just describe one.
   tags:
     - mcp
@@ -56,31 +66,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: it is a server that exposes OpenAPI endpoints as MCP tools, fitting the MCP-first tooling category."
+  reason: >-
+    MCP is the product identity: it is a server that exposes OpenAPI endpoints as MCP tools, fitting the MCP-first
+    tooling category.
   evidence:
     - Repo description explicitly states it is an MCP server converting OpenAPI/Swagger specs to MCP tools
     - README confirms it dynamically loads OpenAPI specs and provides them as MCP tools for AI agents
     - Already listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.604Z"
+    updated_at: '2026-05-06T22:12:15.604Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:31.966Z"
+    updated_at: '2026-09-07T04:13:31.966Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:25:39.198Z"
+    updated_at: '2026-07-21T15:25:39.198Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -93,7 +106,9 @@ processing:
       input_hash: sha256:6d25863493d13c70cb881f09fdd5fffe7f5c8001a6a8416ee2864a67d7c8992c
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: it is a server that exposes OpenAPI endpoints as MCP tools, fitting the MCP-first tooling category."
+      decision_reason: >-
+        MCP is the product identity: it is a server that exposes OpenAPI endpoints as MCP tools, fitting the MCP-first
+        tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP server converting OpenAPI/Swagger specs to MCP tools
         - README confirms it dynamically loads OpenAPI specs and provides them as MCP tools for AI agents
@@ -101,6 +116,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__giskard09__argentum-core__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: giskard09/argentum-core
         extracted_url: https://github.com/giskard09/argentum-core
-        surrounding_text: "- [giskard09/argentum-core](https://github.com/giskard09/argentum-core) [![giskard09/argentum-core MCP server](https://glama.ai/mcp/servers/giskard09/argentum-core/badges/score.svg)](https://glama.ai/mcp/servers/giskard09/argentum-core) 🐍 🏠 - Karma economy for AI agents and humans. Submit good actions, get community attestations, earn on-chain reputation on Arbitrum. 5 MCP tools: submit_action, attest_action, get_karma, get_action_detail, get_leaderboard. Karma-weighted verification, slashing, and Kleros dispute resolution."
+        surrounding_text: >-
+          - [giskard09/argentum-core](https://github.com/giskard09/argentum-core) [![giskard09/argentum-core MCP
+          server](https://glama.ai/mcp/servers/giskard09/argentum-core/badges/score.svg)](https://glama.ai/mcp/servers/giskard09/argentum-core)
+          🐍 🏠 - Karma economy for AI agents and humans. Submit good actions, get community attestations, earn on-chain
+          reputation on Arbitrum. 5 MCP tools: submit_action, attest_action, get_karma, get_action_detail,
+          get_leaderboard. Karma-weighted verification, slashing, and Kleros dispute resolution.
         confidence: high
 metadata:
   github:
@@ -30,20 +35,24 @@ metadata:
     archived: false
     full_name: giskard09/argentum-core
     html_url: https://github.com/giskard09/argentum-core
-    created_at: "2026-03-25T14:50:32Z"
-    pushed_at: "2026-09-02T19:57:25Z"
+    created_at: '2026-03-25T14:50:32Z'
+    pushed_at: '2026-09-02T19:57:25Z'
     description: ARGENTUM core — karma economy for agents and humans
     homepage: null
     topics:
       - mycelium-provider
-    last_checked_at: "2026-09-03T05:16:49.802Z"
+    last_checked_at: '2026-09-03T05:16:49.802Z'
     readme:
-      fetched_at: "2026-09-03T05:16:49.802Z"
+      fetched_at: '2026-09-03T05:16:49.802Z'
       bytes: 23666
 insights:
   summary: An MCP server providing a karma-based reputation economy and verifiable action trails for AI agents and humans.
-  why_it_matters: It introduces a protocol for measuring and verifying agent/human actions through a decentralized reputation system integrated via MCP.
-  mental_damage: Nothing says 'production-ready' quite like turning agentic workflows into a high-stakes game of social credit and blockchain-adjacent karma.
+  why_it_matters: >-
+    It introduces a protocol for measuring and verifying agent/human actions through a decentralized reputation system
+    integrated via MCP.
+  mental_damage: >-
+    Nothing says 'production-ready' quite like turning agentic workflows into a high-stakes game of social credit and
+    blockchain-adjacent karma.
   tags:
     - mcp-server
     - agent-reputation
@@ -52,31 +61,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's identity is explicitly an MCP server designed to provide tools for agents to interact with a karma economy.
+  reason: >-
+    The project's identity is explicitly an MCP server designed to provide tools for agents to interact with a karma
+    economy.
   evidence:
     - README explicitly identifies as an 'MCP Server'
     - Provides a set of 10 specific MCP tools for karma and action tracking
     - Product identity is the MCP interface for the Argentum system
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.616Z"
+    updated_at: '2026-05-06T22:12:15.616Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:49.802Z"
+    updated_at: '2026-09-03T05:16:49.802Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:02:48.105Z"
+    updated_at: '2026-07-21T16:02:48.105Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +101,9 @@ processing:
       input_hash: sha256:00f3ea1a0da94036d095f43928ae1688f2c6f32c19cd66eacbc5125866c0cf0e
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's identity is explicitly an MCP server designed to provide tools for agents to interact with a karma economy.
+      decision_reason: >-
+        The project's identity is explicitly an MCP server designed to provide tools for agents to interact with a karma
+        economy.
       decision_evidence:
         - README explicitly identifies as an 'MCP Server'
         - Provides a set of 10 specific MCP tools for karma and action tracking
@@ -97,6 +111,8 @@ processing:
       category_candidates:
         - mcp
         - agent-orchestration
-      contrastive_reason: Choose mcp over agent-orchestration because the primary mode of delivery and interaction is through the Model Context Protocol rather than an operated workbench or control plane.
+      contrastive_reason: >-
+        Choose mcp over agent-orchestration because the primary mode of delivery and interaction is through the Model
+        Context Protocol rather than an operated workbench or control plane.
       review_reason: null
       review_resume_lifecycle: null

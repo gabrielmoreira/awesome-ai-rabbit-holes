@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__vllm-project__vllm__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -19,10 +19,13 @@ provenance:
           - Inference Engine
         anchor_text: vLLM
         extracted_url: https://github.com/vllm-project/vllm
-        surrounding_text: "| [vLLM](https://github.com/vllm-project/vllm)                    | - vLLM is a fast and easy-to-use library for LLM inference and serving.              | GGML/GGUF               | Both            | ❌  | Python      | Text-Gen      |"
+        surrounding_text: >-
+          | [vLLM](https://github.com/vllm-project/vllm)                    | - vLLM is a fast and easy-to-use library
+          for LLM inference and serving.              | GGML/GGUF               | Both            | ❌  | Python      |
+          Text-Gen      |
         confidence: high
     - id: discovery__github__vllm-project__vllm__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -35,10 +38,13 @@ provenance:
           - Large Model Serving
         anchor_text: vllm
         extracted_url: https://github.com/vllm-project/vllm
-        surrounding_text: "| [vllm](https://github.com/vllm-project/vllm)                                          | A high-throughput and memory-efficient inference and serving engine for LLMs.                                   | ![GitHub stars](https://img.shields.io/github/stars/vllm-project/vllm.svg?style=flat-square)                     |"
+        surrounding_text: >-
+          | [vllm](https://github.com/vllm-project/vllm)                                          | A high-throughput
+          and memory-efficient inference and serving engine for LLMs.                                   | ![GitHub
+          stars](https://img.shields.io/github/stars/vllm-project/vllm.svg?style=flat-square)                     |
         confidence: high
     - id: discovery__github__vllm-project__vllm__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -50,7 +56,9 @@ provenance:
           - 推理 Inference
         anchor_text: vllm (`🔥`)
         extracted_url: https://github.com/vllm-project/vllm
-        surrounding_text: "9. [vllm (`🔥`)](https://github.com/vllm-project/vllm): A high-throughput and memory-efficient inference and serving engine for LLMs."
+        surrounding_text: >-
+          9. [vllm (`🔥`)](https://github.com/vllm-project/vllm): A high-throughput and memory-efficient inference and
+          serving engine for LLMs.
         confidence: high
 metadata:
   github:
@@ -60,8 +68,8 @@ metadata:
     archived: false
     full_name: vllm-project/vllm
     html_url: https://github.com/vllm-project/vllm
-    created_at: "2023-02-09T11:23:20Z"
-    pushed_at: "2026-07-21T14:43:20Z"
+    created_at: '2023-02-09T11:23:20Z'
+    pushed_at: '2026-07-21T14:43:20Z'
     description: A high-throughput and memory-efficient inference and serving engine for LLMs
     homepage: https://vllm.ai
     topics:
@@ -85,14 +93,20 @@ metadata:
       - qwen3
       - tpu
       - transformer
-    last_checked_at: "2026-07-21T15:21:07.356Z"
+    last_checked_at: '2026-07-21T15:21:07.356Z'
     readme:
-      fetched_at: "2026-07-21T15:21:07.356Z"
+      fetched_at: '2026-07-21T15:21:07.356Z'
       bytes: 5708
 insights:
-  summary: vLLM is a high-throughput, memory-efficient inference and serving engine for large language models with PagedAttention and CUDA/HIP graph optimizations.
-  why_it_matters: It enables fast, scalable, and cost-effective deployment of LLMs for developers building AI-powered applications and services.
-  mental_damage: Finally, a serving layer that doesn't make you choose between bankrupting your cloud bill or waiting 30 seconds for a single token.
+  summary: >-
+    vLLM is a high-throughput, memory-efficient inference and serving engine for large language models with
+    PagedAttention and CUDA/HIP graph optimizations.
+  why_it_matters: >-
+    It enables fast, scalable, and cost-effective deployment of LLMs for developers building AI-powered applications and
+    services.
+  mental_damage: >-
+    Finally, a serving layer that doesn't make you choose between bankrupting your cloud bill or waiting 30 seconds for
+    a single token.
   tags:
     - llm-serving
     - inference
@@ -100,31 +114,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: vLLM is a local/runtime serving engine for LLMs that enables efficient self-hosted inference, making it a core local AI infrastructure tool rather than a coding agent or framework.
+  reason: >-
+    vLLM is a local/runtime serving engine for LLMs that enables efficient self-hosted inference, making it a core local
+    AI infrastructure tool rather than a coding agent or framework.
   evidence:
-    - "Repo description: 'A high-throughput and memory-efficient inference and serving engine for LLMs'"
-    - "README: 'vLLM is a fast and easy-to-use library for LLM inference and serving' with support for local/self-hosted deployment across GPUs, CPUs, and custom hardware"
-    - "Source-list context: Included in awesome-local-ai under 'Inference Engine' and Awesome-LLMOps under 'Serving > Large Model Serving'"
+    - 'Repo description: ''A high-throughput and memory-efficient inference and serving engine for LLMs'''
+    - >-
+      README: 'vLLM is a fast and easy-to-use library for LLM inference and serving' with support for local/self-hosted
+      deployment across GPUs, CPUs, and custom hardware
+    - >-
+      Source-list context: Included in awesome-local-ai under 'Inference Engine' and Awesome-LLMOps under 'Serving >
+      Large Model Serving'
 placement:
   primary_category: local-ai
-  section: Local Serving / APIs
+  secondary_categories: []
+  section: Inference Engines
 lifecycle:
   status: promotion_candidate
   reason: Stars (79783) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.580Z"
+    updated_at: '2026-05-06T22:12:15.580Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:07.356Z"
+    updated_at: '2026-07-21T15:21:07.356Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:27:30.143Z"
+    updated_at: '2026-05-12T15:27:30.143Z'
     cause: null
     next_retry_at: null
     attempts: 1

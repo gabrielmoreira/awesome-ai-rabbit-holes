@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bluzername__lennys-quotes__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: bluzername/lennys-quotes
         extracted_url: https://github.com/bluzername/lennys-quotes
-        surrounding_text: "- [bluzername/lennys-quotes](https://github.com/bluzername/lennys-quotes) 📇 🏠 - Query 269 episodes of Lenny's Podcast for product management wisdom. Search 51,000+ transcript segments with YouTube timestamps. Perfect for PRDs, strategy, and PM career advice."
+        surrounding_text: >-
+          - [bluzername/lennys-quotes](https://github.com/bluzername/lennys-quotes) 📇 🏠 - Query 269 episodes of
+          Lenny's Podcast for product management wisdom. Search 51,000+ transcript segments with YouTube timestamps.
+          Perfect for PRDs, strategy, and PM career advice.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,22 @@ metadata:
     archived: false
     full_name: bluzername/lennys-quotes
     html_url: https://github.com/bluzername/lennys-quotes
-    created_at: "2026-01-14T08:39:44Z"
-    pushed_at: "2026-01-26T09:14:35Z"
-    description: MCP server that puts 269 episodes of Lenny's Podcast product wisdom inside Claude Code, Cursor, or any MCP client. Local, free, no API keys.
+    created_at: '2026-01-14T08:39:44Z'
+    pushed_at: '2026-01-26T09:14:35Z'
+    description: >-
+      MCP server that puts 269 episodes of Lenny's Podcast product wisdom inside Claude Code, Cursor, or any MCP client.
+      Local, free, no API keys.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:36.181Z"
+    last_checked_at: '2026-09-07T04:13:36.181Z'
     readme:
-      fetched_at: "2026-09-07T04:13:36.181Z"
+      fetched_at: '2026-09-07T04:13:36.181Z'
       bytes: 5112
 insights:
   summary: An MCP server that enables AI assistants to search and retrieve insights from Lenny's Podcast transcripts.
-  why_it_matters: Developers and product managers can query 269 episodes of product management wisdom directly from their AI coding environment without leaving their workflow.
+  why_it_matters: >-
+    Developers and product managers can query 269 episodes of product management wisdom directly from their AI coding
+    environment without leaving their workflow.
   mental_damage: Now you can ask your coding assistant for product advice instead of actually listening to podcasts.
   tags:
     - mcp-server
@@ -51,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first toolkit whose primary identity is as a domain-specific MCP server for podcast content retrieval.
+  reason: >-
+    This is an MCP-first toolkit whose primary identity is as a domain-specific MCP server for podcast content
+    retrieval.
   evidence:
     - README explicitly identifies it as an MCP server for AI assistants
     - Provides tools like search_quotes and get_episode for transcript access
     - Designed for integration with Claude Code, Cursor, or any MCP-compatible assistant
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:36.181Z"
+    updated_at: '2026-09-07T04:13:36.181Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:26:28.522Z"
+    updated_at: '2026-07-21T15:26:28.522Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -88,7 +98,9 @@ processing:
       input_hash: sha256:6363bfb3fbb6330c7196b892e13274ea95b33627ddfde1a7bab82eeaa42db541
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first toolkit whose primary identity is as a domain-specific MCP server for podcast content retrieval.
+      decision_reason: >-
+        This is an MCP-first toolkit whose primary identity is as a domain-specific MCP server for podcast content
+        retrieval.
       decision_evidence:
         - README explicitly identifies it as an MCP server for AI assistants
         - Provides tools like search_quotes and get_episode for transcript access
@@ -96,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product's core identity is as an MCP server rather than a general context/retrieval system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the product's core identity is as an MCP server rather than a
+        general context/retrieval system.
       review_reason: null
       review_resume_lifecycle: null

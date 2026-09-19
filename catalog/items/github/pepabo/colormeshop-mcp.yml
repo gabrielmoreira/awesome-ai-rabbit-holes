@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pepabo__colormeshop-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🛒 <a name="e-commerce"></a>E-Commerce
         anchor_text: pepabo/colormeshop-mcp
         extracted_url: https://github.com/pepabo/colormeshop-mcp
-        surrounding_text: "- [pepabo/colormeshop-mcp](https://github.com/pepabo/colormeshop-mcp) [![pepabo/colormeshop-mcp MCP server](https://glama.ai/mcp/servers/pepabo/colormeshop-mcp/badges/score.svg)](https://glama.ai/mcp/servers/pepabo/colormeshop-mcp) 🎖️ ☁️ - Official remote MCP server for Color Me Shop (GMO Pepabo), a Japanese e-commerce platform. Manage orders, products, inventory, customers, coupons, and shop settings via natural language."
+        surrounding_text: >-
+          - [pepabo/colormeshop-mcp](https://github.com/pepabo/colormeshop-mcp) [![pepabo/colormeshop-mcp MCP
+          server](https://glama.ai/mcp/servers/pepabo/colormeshop-mcp/badges/score.svg)](https://glama.ai/mcp/servers/pepabo/colormeshop-mcp)
+          🎖️ ☁️ - Official remote MCP server for Color Me Shop (GMO Pepabo), a Japanese e-commerce platform. Manage
+          orders, products, inventory, customers, coupons, and shop settings via natural language.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: pepabo/colormeshop-mcp
     html_url: https://github.com/pepabo/colormeshop-mcp
-    created_at: "2026-04-21T04:51:43Z"
-    pushed_at: "2026-06-20T03:53:28Z"
+    created_at: '2026-04-21T04:51:43Z'
+    pushed_at: '2026-06-20T03:53:28Z'
     description: Official remote MCP server for Color Me Shop
     homepage: https://help.shop-pro.jp/hc/ja/articles/49646901116819
     topics:
@@ -41,14 +45,20 @@ metadata:
       - mcp
       - model-context-protocol
       - remote-mcp-server
-    last_checked_at: "2026-07-20T16:42:32.595Z"
+    last_checked_at: '2026-07-20T16:42:32.595Z'
     readme:
-      fetched_at: "2026-07-20T16:42:32.595Z"
+      fetched_at: '2026-07-20T16:42:32.595Z'
       bytes: 3602
 insights:
-  summary: An official remote MCP server for Color Me Shop that lets AI tools like Claude and Cursor manage e-commerce orders, products, and customers via natural language.
-  why_it_matters: Developers building on the Color Me Shop platform can delegate routine store operations to MCP-capable coding assistants instead of writing custom API integrations.
-  mental_damage: We have finally reached the point where you can ask an LLM to cancel a customer's order and blame the AI when the inventory numbers stop making sense.
+  summary: >-
+    An official remote MCP server for Color Me Shop that lets AI tools like Claude and Cursor manage e-commerce orders,
+    products, and customers via natural language.
+  why_it_matters: >-
+    Developers building on the Color Me Shop platform can delegate routine store operations to MCP-capable coding
+    assistants instead of writing custom API integrations.
+  mental_damage: >-
+    We have finally reached the point where you can ask an LLM to cancel a customer's order and blame the AI when the
+    inventory numbers stop making sense.
   tags:
     - mcp
     - ecommerce
@@ -57,35 +67,39 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an official MCP server providing domain-specific e-commerce capabilities, fitting cleanly into MCP Servers & Tooling as a domain server.
+  reason: >-
+    This is an official MCP server providing domain-specific e-commerce capabilities, fitting cleanly into MCP Servers &
+    Tooling as a domain server.
   evidence:
     - Repo description explicitly states 'Official remote MCP server for Color Me Shop'
-    - README lists MCP endpoints and setup instructions for Claude Code, Claude Desktop, Cursor, OpenAI Codex CLI, and Gemini CLI
+    - >-
+      README lists MCP endpoints and setup instructions for Claude Code, Claude Desktop, Cursor, OpenAI Codex CLI, and
+      Gemini CLI
     - Included in awesome-mcp-servers under Server Implementations > E-Commerce
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.642Z"
+    updated_at: '2026-05-06T22:12:15.642Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:32.595Z"
+    updated_at: '2026-07-20T16:42:32.595Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

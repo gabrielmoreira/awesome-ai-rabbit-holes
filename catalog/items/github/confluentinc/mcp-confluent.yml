@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__confluentinc__mcp-confluent__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: confluentinc/mcp-confluent
         extracted_url: https://github.com/confluentinc/mcp-confluent
-        surrounding_text: "- [confluentinc/mcp-confluent](https://github.com/confluentinc/mcp-confluent) 🐍 ☁️ - Confluent integration to interact with Confluent Kafka and Confluent Cloud REST APIs."
+        surrounding_text: >-
+          - [confluentinc/mcp-confluent](https://github.com/confluentinc/mcp-confluent) 🐍 ☁️ - Confluent integration to
+          interact with Confluent Kafka and Confluent Cloud REST APIs.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,22 @@ metadata:
     archived: false
     full_name: confluentinc/mcp-confluent
     html_url: https://github.com/confluentinc/mcp-confluent
-    created_at: "2025-01-16T20:07:31Z"
-    pushed_at: "2026-09-13T06:03:54Z"
+    created_at: '2025-01-16T20:07:31Z'
+    pushed_at: '2026-09-13T06:03:54Z'
     description: null
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-14T04:13:28.656Z"
+    last_checked_at: '2026-09-14T04:13:28.656Z'
     readme:
-      fetched_at: "2026-09-14T04:13:28.656Z"
+      fetched_at: '2026-09-14T04:13:28.656Z'
       bytes: 37459
 insights:
-  summary: An open-source MCP server that exposes Confluent Cloud and Confluent Local services—including Kafka, Flink SQL, Schema Registry, and Tableflow—as natural-language tools for AI assistants.
-  why_it_matters: It lets developers manage streaming infrastructure, run Flink queries, and govern schemas from within any MCP-compatible assistant instead of context-switching between CLIs and dashboards.
+  summary: >-
+    An open-source MCP server that exposes Confluent Cloud and Confluent Local services—including Kafka, Flink SQL,
+    Schema Registry, and Tableflow—as natural-language tools for AI assistants.
+  why_it_matters: >-
+    It lets developers manage streaming infrastructure, run Flink queries, and govern schemas from within any
+    MCP-compatible assistant instead of context-switching between CLIs and dashboards.
   mental_damage: You can now accidentally delete a production Kafka topic with conversational charisma.
   tags:
     - mcp
@@ -52,31 +58,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is explicitly an MCP server that exposes Confluent Cloud and Local APIs as natural-language tools for AI assistants; MCP is its core product identity and distribution mechanism.
+  reason: >-
+    This is explicitly an MCP server that exposes Confluent Cloud and Local APIs as natural-language tools for AI
+    assistants; MCP is its core product identity and distribution mechanism.
   evidence:
-    - Repository is named mcp-confluent and the README calls it 'An open-source MCP server' for Confluent Cloud and Local.
-    - Listed in awesome-mcp-servers under Server Implementations, indicating ecosystem recognition as MCP infrastructure.
-    - Provides 50+ tools across Kafka, Flink SQL, Schema Registry, Tableflow, and other Confluent services specifically via the Model Context Protocol.
+    - >-
+      Repository is named mcp-confluent and the README calls it 'An open-source MCP server' for Confluent Cloud and
+      Local.
+    - >-
+      Listed in awesome-mcp-servers under Server Implementations, indicating ecosystem recognition as MCP
+      infrastructure.
+    - >-
+      Provides 50+ tools across Kafka, Flink SQL, Schema Registry, Tableflow, and other Confluent services specifically
+      via the Model Context Protocol.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: promotion_candidate
   reason: Stars (152) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:28.656Z"
+    updated_at: '2026-09-14T04:13:28.656Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:47:26.110Z"
+    updated_at: '2026-07-21T15:47:26.110Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,14 +104,24 @@ processing:
       input_hash: sha256:cdfd0101ba8056b0e4e99a39ab85c5374b630e8d243db468af015c37ebd28891
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is explicitly an MCP server that exposes Confluent Cloud and Local APIs as natural-language tools for AI assistants; MCP is its core product identity and distribution mechanism.
+      decision_reason: >-
+        This is explicitly an MCP server that exposes Confluent Cloud and Local APIs as natural-language tools for AI
+        assistants; MCP is its core product identity and distribution mechanism.
       decision_evidence:
-        - Repository is named mcp-confluent and the README calls it 'An open-source MCP server' for Confluent Cloud and Local.
-        - Listed in awesome-mcp-servers under Server Implementations, indicating ecosystem recognition as MCP infrastructure.
-        - Provides 50+ tools across Kafka, Flink SQL, Schema Registry, Tableflow, and other Confluent services specifically via the Model Context Protocol.
+        - >-
+          Repository is named mcp-confluent and the README calls it 'An open-source MCP server' for Confluent Cloud and
+          Local.
+        - >-
+          Listed in awesome-mcp-servers under Server Implementations, indicating ecosystem recognition as MCP
+          infrastructure.
+        - >-
+          Provides 50+ tools across Kafka, Flink SQL, Schema Registry, Tableflow, and other Confluent services
+          specifically via the Model Context Protocol.
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the repository is purpose-built as an MCP server distribution, not merely an extension or host integration layer that happens to support MCP.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the repository is purpose-built as an MCP server distribution, not
+        merely an extension or host integration layer that happens to support MCP.
       review_reason: null
       review_resume_lifecycle: null

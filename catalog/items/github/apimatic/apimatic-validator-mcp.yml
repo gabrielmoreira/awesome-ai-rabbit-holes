@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__apimatic__apimatic-validator-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Official Servers
         anchor_text: APIMatic MCP
         extracted_url: https://github.com/apimatic/apimatic-validator-mcp
-        surrounding_text: "- **[APIMatic MCP](https://github.com/apimatic/apimatic-validator-mcp)** - APIMatic MCP Server is used to validate OpenAPI specifications using [APIMatic](https://www.apimatic.io/). The server processes OpenAPI files and returns validation summaries by leveraging APIMatic’s API."
+        surrounding_text: >-
+          - **[APIMatic MCP](https://github.com/apimatic/apimatic-validator-mcp)** - APIMatic MCP Server is used to
+          validate OpenAPI specifications using [APIMatic](https://www.apimatic.io/). The server processes OpenAPI files
+          and returns validation summaries by leveraging APIMatic’s API.
         confidence: high
 metadata:
   github:
@@ -29,18 +32,20 @@ metadata:
     archived: false
     full_name: apimatic/apimatic-validator-mcp
     html_url: https://github.com/apimatic/apimatic-validator-mcp
-    created_at: "2025-03-19T10:35:22Z"
-    pushed_at: "2025-03-19T11:57:24Z"
+    created_at: '2025-03-19T10:35:22Z'
+    pushed_at: '2025-03-19T11:57:24Z'
     description: APIMatic Validator MCP Server for validating OpenAPI specs via APIMatic's API with MCP
     homepage: null
     topics: []
-    last_checked_at: "2026-09-10T04:12:56.700Z"
+    last_checked_at: '2026-09-10T04:12:56.700Z'
     readme:
-      fetched_at: "2026-09-10T04:12:56.700Z"
+      fetched_at: '2026-09-10T04:12:56.700Z'
       bytes: 2122
 insights:
   summary: An MCP server that validates OpenAPI 2.0 and 3.0 specifications using APIMatic's API.
-  why_it_matters: Developers can validate OpenAPI specs directly from their MCP-enabled assistant, streamlining API contract checks without leaving their workflow.
+  why_it_matters: >-
+    Developers can validate OpenAPI specs directly from their MCP-enabled assistant, streamlining API contract checks
+    without leaving their workflow.
   mental_damage: Now your AI assistant can judge your API specs, because apparently writing them wasn't painful enough.
   tags:
     - mcp
@@ -50,31 +55,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: it is a dedicated MCP server for OpenAPI validation, not a compatibility footnote."
+  reason: 'MCP is the product identity here: it is a dedicated MCP server for OpenAPI validation, not a compatibility footnote.'
   evidence:
     - Repo description explicitly states it is an MCP server for validating OpenAPI specs
     - README confirms it implements MCP and integrates with Claude Desktop as an MCP server
     - Source-list context shows it is curated under awesome-mcp-servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.603Z"
+    updated_at: '2026-05-06T22:12:15.603Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:12:56.700Z"
+    updated_at: '2026-09-10T04:12:56.700Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:23:42.279Z"
+    updated_at: '2026-07-21T15:23:42.279Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -87,7 +93,9 @@ processing:
       input_hash: sha256:2367f296527d1a50ac3a39c7eba3fc7111fca309f42bfaaa278f6d12e4914594
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: it is a dedicated MCP server for OpenAPI validation, not a compatibility footnote."
+      decision_reason: >-
+        MCP is the product identity here: it is a dedicated MCP server for OpenAPI validation, not a compatibility
+        footnote.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for validating OpenAPI specs
         - README confirms it implements MCP and integrates with Claude Desktop as an MCP server
@@ -95,6 +103,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension layer for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension layer for another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

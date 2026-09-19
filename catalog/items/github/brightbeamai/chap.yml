@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__brightbeamai__chap__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-09-14T04:13:20.171Z"
+      discovered_at: '2026-09-14T04:13:20.171Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🤝 <a name="agreements--coordination"></a>Agreements & Coordination
         anchor_text: BrightbeamAI/chap
         extracted_url: https://github.com/brightbeamai/chap
-        surrounding_text: "- [BrightbeamAI/chap](https://github.com/BrightbeamAI/chap) [![BrightbeamAI/chap MCP server](https://glama.ai/mcp/servers/BrightbeamAI/chap/badges/score.svg)](https://glama.ai/mcp/servers/BrightbeamAI/chap) 🎖️ 📇 🏠 🍎 🪟 🐧 - Official CHAP Coordinator MCP server for auditable human-agent collaboration: approvals, overrides, handoffs, escalations, and hash-linked evidence. Run locally with `npx -y @brightbeamai/chap-coordinator-mcp`."
+        surrounding_text: >-
+          - [BrightbeamAI/chap](https://github.com/BrightbeamAI/chap) [![BrightbeamAI/chap MCP
+          server](https://glama.ai/mcp/servers/BrightbeamAI/chap/badges/score.svg)](https://glama.ai/mcp/servers/BrightbeamAI/chap)
+          🎖️ 📇 🏠 🍎 🪟 🐧 - Official CHAP Coordinator MCP server for auditable human-agent collaboration: approvals,
+          overrides, handoffs, escalations, and hash-linked evidence. Run locally with `npx -y
+          @brightbeamai/chap-coordinator-mcp`.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: BrightbeamAI/chap
     html_url: https://github.com/BrightbeamAI/chap
-    created_at: "2026-05-17T02:23:11Z"
-    pushed_at: "2026-09-13T19:07:56Z"
-    description: "CHAP, the Collaborative Human Agent Protocol, is a MCP/A2A-compatible runtime for auditable human-agent work: approvals, overrides, handoffs, escalation and verifiable evidence logs."
+    created_at: '2026-05-17T02:23:11Z'
+    pushed_at: '2026-09-13T19:07:56Z'
+    description: >-
+      CHAP, the Collaborative Human Agent Protocol, is a MCP/A2A-compatible runtime for auditable human-agent work:
+      approvals, overrides, handoffs, escalation and verifiable evidence logs.
     homepage: https://chap.brightbeam.works/
     topics:
       - a2a
@@ -49,14 +56,20 @@ metadata:
       - python
       - responsible-ai
       - typescript
-    last_checked_at: "2026-09-14T04:13:26.661Z"
+    last_checked_at: '2026-09-14T04:13:26.661Z'
     readme:
-      fetched_at: "2026-09-14T04:13:26.661Z"
+      fetched_at: '2026-09-14T04:13:26.661Z'
       bytes: 15570
 insights:
-  summary: An open protocol and runtime for creating auditable, hash-linked logs of human-agent interactions such as approvals, overrides, and handoffs.
-  why_it_matters: It allows developers to implement structured, non-repudiable human-in-the-loop governance and audit trails within agentic workflows.
-  mental_damage: Because nothing provides more peace of mind than a cryptographically signed audit trail to explain exactly why your agent just performed a catastrophic action.
+  summary: >-
+    An open protocol and runtime for creating auditable, hash-linked logs of human-agent interactions such as approvals,
+    overrides, and handoffs.
+  why_it_matters: >-
+    It allows developers to implement structured, non-repudiable human-in-the-loop governance and audit trails within
+    agentic workflows.
+  mental_damage: >-
+    Because nothing provides more peace of mind than a cryptographically signed audit trail to explain exactly why your
+    agent just performed a catastrophic action.
   tags:
     - mcp
     - human-in-the-loop
@@ -66,31 +79,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: CHAP is fundamentally a protocol that defines the 'shape' (the spec/contract) of human-agent coordination for the purposes of governance and auditability.
+  reason: >-
+    CHAP is fundamentally a protocol that defines the 'shape' (the spec/contract) of human-agent coordination for the
+    purposes of governance and auditability.
   evidence:
     - Repo description defines it as an MCP/A2A-compatible runtime for auditable human-agent work.
     - README emphasizes the use of hash-linked envelopes to provide a shared, structured shape for decisions.
     - Provided as code-first integration via PyPI and npm packages.
 placement:
-  primary_category: spec-driven-development
-  section: Governance / Validation
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-14T04:13:20.172Z"
+    updated_at: '2026-09-14T04:13:20.172Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:26.661Z"
+    updated_at: '2026-09-14T04:13:26.661Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-14T04:18:06.165Z"
+    updated_at: '2026-09-14T04:18:06.165Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -99,7 +115,9 @@ processing:
       input_hash: sha256:a9a1906d922f880ea939dc4566f3bdeb4e5bcad23ea01623fd2c9aa7cfe7768d
       proposed_primary_category: spec-driven-development
       disagreement: false
-      decision_reason: CHAP is fundamentally a protocol that defines the 'shape' (the spec/contract) of human-agent coordination for the purposes of governance and auditability.
+      decision_reason: >-
+        CHAP is fundamentally a protocol that defines the 'shape' (the spec/contract) of human-agent coordination for
+        the purposes of governance and auditability.
       decision_evidence:
         - Repo description defines it as an MCP/A2A-compatible runtime for auditable human-agent work.
         - README emphasizes the use of hash-linked envelopes to provide a shared, structured shape for decisions.
@@ -107,7 +125,9 @@ processing:
       category_candidates:
         - spec-driven-development
         - ai-frameworks
-      contrastive_reason: Choose spec-driven-development over ai-frameworks because the tool's core identity is the structured protocol/contract for governance rather than just a collection of generic AI building blocks.
+      contrastive_reason: >-
+        Choose spec-driven-development over ai-frameworks because the tool's core identity is the structured
+        protocol/contract for governance rather than just a collection of generic AI building blocks.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

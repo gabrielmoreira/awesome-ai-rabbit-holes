@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__krystiangw__agenticpay__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: krystiangw/agenticpay
         extracted_url: https://github.com/krystiangw/agenticpay
-        surrounding_text: "- [krystiangw/agenticpay](https://github.com/krystiangw/agenticpay) [![krystiangw/agenticpay MCP server](https://glama.ai/mcp/servers/krystiangw/agenticpay/badges/score.svg)](https://glama.ai/mcp/servers/krystiangw/agenticpay) 📇 ☁️ 🏠 - Open-source x402 micropayments stack for MCP. Pay-per-tool-call USDC settlement on Solana via the first open-source self-hostable facilitator (no x402.org dependency). Includes TypeScript SDK, CLI, paywall middleware, hosted devnet endpoint, and a live Claude Opus demo. `npm install @agenticpay/sdk`"
+        surrounding_text: >-
+          - [krystiangw/agenticpay](https://github.com/krystiangw/agenticpay) [![krystiangw/agenticpay MCP
+          server](https://glama.ai/mcp/servers/krystiangw/agenticpay/badges/score.svg)](https://glama.ai/mcp/servers/krystiangw/agenticpay)
+          📇 ☁️ 🏠 - Open-source x402 micropayments stack for MCP. Pay-per-tool-call USDC settlement on Solana via the
+          first open-source self-hostable facilitator (no x402.org dependency). Includes TypeScript SDK, CLI, paywall
+          middleware, hosted devnet endpoint, and a live Claude Opus demo. `npm install @agenticpay/sdk`
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: krystiangw/agenticpay
     html_url: https://github.com/krystiangw/agenticpay
-    created_at: "2026-04-30T12:30:27Z"
-    pushed_at: "2026-07-27T17:22:28Z"
+    created_at: '2026-04-30T12:30:27Z'
+    pushed_at: '2026-07-27T17:22:28Z'
     description: MCP-native pay-per-tool-call micropayments for AI agents (Solana + USDC + x402)
     homepage: https://krystiangw.github.io/agenticpay/
     topics:
@@ -49,13 +54,15 @@ metadata:
       - usdc
       - x402
       - x402-facilitator
-    last_checked_at: "2026-07-30T05:05:58.289Z"
+    last_checked_at: '2026-07-30T05:05:58.289Z'
     readme:
-      fetched_at: "2026-07-30T05:05:58.289Z"
+      fetched_at: '2026-07-30T05:05:58.289Z'
       bytes: 11954
 insights:
   summary: An MCP-native payment infrastructure that enables agents to settle micropayments via Solana and USDC.
-  why_it_matters: It provides a way for autonomous agents to pay for the very tools they are using without requiring a human to manage API keys or credit cards.
+  why_it_matters: >-
+    It provides a way for autonomous agents to pay for the very tools they are using without requiring a human to manage
+    API keys or credit cards.
   mental_damage: Because nothing says 'the future of autonomy' quite like a language model managing its own crypto wallet.
   tags:
     - mcp
@@ -66,31 +73,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly described as MCP-native payment infrastructure designed to handle-tool-call-to-payment flows.
+  reason: >-
+    The project is explicitly described as MCP-native payment infrastructure designed to handle-tool-call-to-payment
+    flows.
   evidence:
     - Repo description specifies 'MCP-native pay-per-tool-call'
     - README describes an architecture for integrating-payments into MCP-server workflows
     - Includes SDK and facilitator for-agent-to-tool transaction settlement
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.819Z"
+    updated_at: '2026-05-28T05:28:09.819Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:58.289Z"
+    updated_at: '2026-07-30T05:05:58.289Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-06T05:54:21.591Z"
+    updated_at: '2026-07-06T05:54:21.591Z'
     cause: null
     next_retry_at: null
     attempts: 2

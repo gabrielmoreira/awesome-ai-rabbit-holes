@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__artmann__package-registry-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: artmann/package-registry-mcp
         extracted_url: https://github.com/artmann/package-registry-mcp
-        surrounding_text: "- [artmann/package-registry-mcp](https://github.com/artmann/package-registry-mcp) 🏠 📇 🍎 🪟 🐧 - MCP server for searching and getting up-to-date information about NPM, Cargo, PyPi, and NuGet packages."
+        surrounding_text: >-
+          - [artmann/package-registry-mcp](https://github.com/artmann/package-registry-mcp) 🏠 📇 🍎 🪟 🐧 - MCP server
+          for searching and getting up-to-date information about NPM, Cargo, PyPi, and NuGet packages.
         confidence: high
     - id: discovery__github__artmann__package-registry-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +37,9 @@ provenance:
           - Community Servers
         anchor_text: Package Registry Search
         extracted_url: https://github.com/artmann/package-registry-mcp
-        surrounding_text: "- **[Package Registry Search](https://github.com/artmann/package-registry-mcp)** - Search and get up-to-date information about NPM, Cargo, PyPi, and NuGet packages."
+        surrounding_text: >-
+          - **[Package Registry Search](https://github.com/artmann/package-registry-mcp)** - Search and get up-to-date
+          information about NPM, Cargo, PyPi, and NuGet packages.
         confidence: high
 metadata:
   github:
@@ -45,19 +49,25 @@ metadata:
     archived: false
     full_name: Artmann/package-registry-mcp
     html_url: https://github.com/Artmann/package-registry-mcp
-    created_at: "2025-06-19T17:49:34Z"
-    pushed_at: "2025-12-02T13:00:51Z"
+    created_at: '2025-06-19T17:49:34Z'
+    pushed_at: '2025-12-02T13:00:51Z'
     description: MCP server for searching and getting up-to-date information about NPM, Cargo, PyPi, and NuGet packages.
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-10T04:12:59.783Z"
+    last_checked_at: '2026-09-10T04:12:59.783Z'
     readme:
-      fetched_at: "2026-09-10T04:12:59.783Z"
+      fetched_at: '2026-09-10T04:12:59.783Z'
       bytes: 11769
 insights:
-  summary: An MCP server that enables AI assistants to search and retrieve up-to-date package information from NPM, Cargo, PyPI, NuGet, and Go registries.
-  why_it_matters: Developers can now query package metadata, versions, and vulnerabilities directly from their AI coding environment without switching contexts.
-  mental_damage: Finally, a way to ask your AI assistant 'what’s the latest version of react?' without it hallucinating a semver number from the void.
+  summary: >-
+    An MCP server that enables AI assistants to search and retrieve up-to-date package information from NPM, Cargo,
+    PyPI, NuGet, and Go registries.
+  why_it_matters: >-
+    Developers can now query package metadata, versions, and vulnerabilities directly from their AI coding environment
+    without switching contexts.
+  mental_damage: >-
+    Finally, a way to ask your AI assistant 'what’s the latest version of react?' without it hallucinating a semver
+    number from the void.
   tags:
     - mcp
     - package-registry
@@ -66,31 +76,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server whose primary identity is providing package registry access via MCP, fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is a dedicated MCP server whose primary identity is providing package registry access via MCP, fitting the MCP
+    Servers & Tooling category.
   evidence:
     - Repo description explicitly states it is an MCP server for package registries
     - README details MCP-specific setup for Cursor, Claude Code, and Claude Desktop
     - Source-list context places it in MCP server directories
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.582Z"
+    updated_at: '2026-05-06T22:12:15.582Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:12:59.783Z"
+    updated_at: '2026-09-10T04:12:59.783Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:24:07.202Z"
+    updated_at: '2026-07-21T15:24:07.202Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -103,7 +116,9 @@ processing:
       input_hash: sha256:be82bfebe7acc6df7b8a4fecc8ea550d676765e8ed6144491da6aea31b6bf38e
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a dedicated MCP server whose primary identity is providing package registry access via MCP, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is a dedicated MCP server whose primary identity is providing package registry access via MCP, fitting the
+        MCP Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for package registries
         - README details MCP-specific setup for Cursor, Claude Code, and Claude Desktop
@@ -111,6 +126,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension augmenting another assistant).
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension augmenting another
+        assistant).
       review_reason: null
       review_resume_lifecycle: null

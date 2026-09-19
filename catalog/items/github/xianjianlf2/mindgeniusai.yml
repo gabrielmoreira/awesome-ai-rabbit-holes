@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__xianjianlf2__mindgeniusai__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,7 +20,9 @@ provenance:
           - Other / Chatbots
         anchor_text: MindGeniusAI
         extracted_url: https://github.com/xianjianlf2/mindgeniusai
-        surrounding_text: "- [MindGeniusAI](https://github.com/xianjianlf2/MindGeniusAI): Auto generate MindMap with ChatGPT ![GitHub Repo stars](https://img.shields.io/github/stars/xianjianlf2/MindGeniusAI?style=social)"
+        surrounding_text: >-
+          - [MindGeniusAI](https://github.com/xianjianlf2/MindGeniusAI): Auto generate MindMap with ChatGPT ![GitHub
+          Repo stars](https://img.shields.io/github/stars/xianjianlf2/MindGeniusAI?style=social)
         confidence: high
 metadata:
   github:
@@ -30,9 +32,11 @@ metadata:
     archived: false
     full_name: xianjianlf2/MindGeniusAI
     html_url: https://github.com/xianjianlf2/MindGeniusAI
-    created_at: "2023-05-26T09:38:48Z"
-    pushed_at: "2026-06-29T12:19:28Z"
-    description: An AI agent that reads your PDFs and draws editable mind maps — visible tool-calling loop, built-in RAG, bring-your-own-key, multi-provider (OpenAI / Claude / DeepSeek / Kimi). Self-hostable.
+    created_at: '2023-05-26T09:38:48Z'
+    pushed_at: '2026-06-29T12:19:28Z'
+    description: >-
+      An AI agent that reads your PDFs and draws editable mind maps — visible tool-calling loop, built-in RAG,
+      bring-your-own-key, multi-provider (OpenAI / Claude / DeepSeek / Kimi). Self-hostable.
     homepage: https://mindgenius.onrender.com
     topics:
       - agent
@@ -55,46 +59,49 @@ metadata:
       - self-hosted
       - typescript
       - vercel-ai-sdk
-    last_checked_at: "2026-07-21T15:21:17.524Z"
+    last_checked_at: '2026-07-21T15:21:17.524Z'
     readme:
-      fetched_at: "2026-07-21T15:21:17.524Z"
+      fetched_at: '2026-07-21T15:21:17.524Z'
       bytes: 7522
 insights:
   summary: MindGenius AI is a desktop tool that uses ChatGPT to generate and edit mind maps from text, PDFs, or notes.
-  why_it_matters: It helps developers brainstorm, structure ideas, or document workflows visually using AI, reducing manual mind-mapping effort.
-  mental_damage: Another AI tool promising to turn your scattered thoughts into pretty diagrams—because we clearly needed another way to procrastinate on actual coding.
+  why_it_matters: >-
+    It helps developers brainstorm, structure ideas, or document workflows visually using AI, reducing manual
+    mind-mapping effort.
+  mental_damage: >-
+    Another AI tool promising to turn your scattered thoughts into pretty diagrams—because we clearly needed another way
+    to procrastinate on actual coding.
   tags:
     - mindmap
     - ai-tool
     - productivity
   confidence: medium
 curation:
-  status: included
-  reason: The tool turns prompts, text, or files into visual mind maps (internal tools/dashboards) rather than editing code or acting as a coding assistant, fitting the app-builder pattern of prompt-to-internal-tool generation.
+  status: pending
+  reason: 'Definitive manual audit: Desktop mind-mapping app; not developer AI tooling.'
   evidence:
-    - "Repo description: 'Auto generate MindMap with ChatGPT'"
-    - "README: 'Generate mindmap based on the result', 'Render and display the result in markdown format', 'Export as picture or JSON', 'Upload PDF and ask questions', 'Add notes and convert them into a mind map'"
-    - Primary use is creating new visual artifacts from prompts/files, not editing existing codebases
+    - Manual review, 2026-09-19
 placement:
-  primary_category: app-builders
-  section: Internal Tools & Dashboards
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (275) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.656Z"
+    updated_at: '2026-05-06T22:12:15.656Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:17.524Z"
+    updated_at: '2026-07-21T15:21:17.524Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:40:26.084Z"
+    updated_at: '2026-05-12T15:40:26.084Z'
     cause: null
     next_retry_at: null
     attempts: 1

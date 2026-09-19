@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__overtlids__mcp-searxng-enhanced__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Community Servers
         anchor_text: MCP-SearXNG-Enhanced Web Search
         extracted_url: https://github.com/overtlids/mcp-searxng-enhanced
-        surrounding_text: "- **[MCP-SearXNG-Enhanced Web Search](https://github.com/OvertliDS/mcp-searxng-enhanced)** - An enhanced MCP server for SearXNG web searching, utilizing a category-aware web-search, web-scraping, and includes a date/time retrieval tool."
+        surrounding_text: >-
+          - **[MCP-SearXNG-Enhanced Web Search](https://github.com/OvertliDS/mcp-searxng-enhanced)** - An enhanced MCP
+          server for SearXNG web searching, utilizing a category-aware web-search, web-scraping, and includes a
+          date/time retrieval tool.
         confidence: high
 metadata:
   github:
@@ -29,10 +32,10 @@ metadata:
     archived: false
     full_name: OvertliDS/mcp-searxng-enhanced
     html_url: https://github.com/OvertliDS/mcp-searxng-enhanced
-    created_at: "2025-05-10T00:20:37Z"
-    pushed_at: "2026-05-05T22:05:49Z"
-    description: "Enhanced MCP server for SearXNG: category-aware web-search, web-scraping, and date/time retrieval."
-    homepage: ""
+    created_at: '2025-05-10T00:20:37Z'
+    pushed_at: '2026-05-05T22:05:49Z'
+    description: 'Enhanced MCP server for SearXNG: category-aware web-search, web-scraping, and date/time retrieval.'
+    homepage: ''
     topics:
       - citations
       - datetime
@@ -48,14 +51,20 @@ metadata:
       - webscraper
       - websearch
       - websearch-agent
-    last_checked_at: "2026-07-20T16:42:28.895Z"
+    last_checked_at: '2026-07-20T16:42:28.895Z'
     readme:
-      fetched_at: "2026-07-20T16:42:28.895Z"
+      fetched_at: '2026-07-20T16:42:28.895Z'
       bytes: 20382
 insights:
-  summary: An MCP server that exposes category-aware SearXNG web search, website scraping with citations, and date/time tools to MCP-compatible AI clients.
-  why_it_matters: Developers can give their coding agents private, self-hosted web search and scraping capabilities without relying on opaque, hosted search APIs.
-  mental_damage: We are now dockerizing and rate-limiting our paranoia so that an LLM can confidently hallucinate while citing a freshly scraped Reddit thread.
+  summary: >-
+    An MCP server that exposes category-aware SearXNG web search, website scraping with citations, and date/time tools
+    to MCP-compatible AI clients.
+  why_it_matters: >-
+    Developers can give their coding agents private, self-hosted web search and scraping capabilities without relying on
+    opaque, hosted search APIs.
+  mental_damage: >-
+    We are now dockerizing and rate-limiting our paranoia so that an LLM can confidently hallucinate while citing a
+    freshly scraped Reddit thread.
   tags:
     - mcp
     - searxng
@@ -65,35 +74,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server that provides web search and scraping capabilities, making it a clear fit for the MCP Servers & Tooling category.
+  reason: >-
+    The product is an MCP server that provides web search and scraping capabilities, making it a clear fit for the MCP
+    Servers & Tooling category.
   evidence:
     - Repo description explicitly states 'Enhanced MCP server for SearXNG'.
-    - README describes it as 'A Model Context Protocol (MCP) server for category-aware web search, website scraping, and date/time tools'.
+    - >-
+      README describes it as 'A Model Context Protocol (MCP) server for category-aware web search, website scraping, and
+      date/time tools'.
     - Listed in the awesome-mcp-servers directory under 'Community Servers'.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.641Z"
+    updated_at: '2026-05-06T22:12:15.641Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:28.895Z"
+    updated_at: '2026-07-20T16:42:28.895Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

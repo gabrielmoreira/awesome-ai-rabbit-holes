@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ertygiq__agent-trace__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Agent infrastructure
         anchor_text: agent-trace
         extracted_url: https://github.com/ertygiq/agent-trace
-        surrounding_text: "- **[agent-trace](https://github.com/ertygiq/agent-trace)** `⭐ 0` — Text-only CLI for extracting filtered transcripts from Claude Code, Codex, and Pi session files; useful for debugging, review, and piping transcripts into other tools. MIT."
+        surrounding_text: >-
+          - **[agent-trace](https://github.com/ertygiq/agent-trace)** `⭐ 0` — Text-only CLI for extracting filtered
+          transcripts from Claude Code, Codex, and Pi session files; useful for debugging, review, and piping
+          transcripts into other tools. MIT.
         confidence: high
 metadata:
   github:
@@ -30,19 +33,23 @@ metadata:
     archived: false
     full_name: ertygiq/agent-trace
     html_url: https://github.com/ertygiq/agent-trace
-    created_at: "2026-06-04T22:17:56Z"
-    pushed_at: "2026-08-10T20:40:16Z"
+    created_at: '2026-06-04T22:17:56Z'
+    pushed_at: '2026-08-10T20:40:16Z'
     description: Universal CLI for filtering and printing agent session transcripts.
     homepage: null
     topics: []
-    last_checked_at: "2026-08-27T09:23:25.321Z"
+    last_checked_at: '2026-08-27T09:23:25.321Z'
     readme:
-      fetched_at: "2026-08-27T09:23:25.321Z"
+      fetched_at: '2026-08-27T09:23:25.321Z'
       bytes: 4997
 insights:
   summary: A CLI tool for filtering and printing text transcripts from agentic sessions such as Claude Code, Codex, and Pi.
-  why_it_matters: It allows developers to parse through dense agent logs to debug agent reasoning, command execution, and human-assistant interactions.
-  mental_damage: Finally, a way to stare directly into the chaotic stream of thought and bash commands that actually caused your production outage.
+  why_it_matters: >-
+    It allows developers to parse through dense agent logs to debug agent reasoning, command execution, and
+    human-assistant interactions.
+  mental_damage: >-
+    Finally, a way to stare directly into the chaotic stream of thought and bash commands that actually caused your
+    production outage.
   tags:
     - cli
     - debugging
@@ -52,31 +59,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The tool's core function is inspecting, debugging, and evaluating agent session behavior through transcript filtering.
+  reason: >-
+    The tool's core function is inspecting, debugging, and evaluating agent session behavior through transcript
+    filtering.
   evidence:
     - README explicitly states it is useful for 'inspecting agent runs, debugging what happened, and evaluating results'
     - Functionality focuses on filtering event categories like thinking, bash commands, and messages
     - Acts as a diagnostic layer for existing agentic harnesses
 placement:
   primary_category: evals
-  section: Observability / Tracing / EvalOps
+  secondary_categories: []
+  section: Observability & Tracing
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.714Z"
+    updated_at: '2026-07-16T05:04:46.714Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:25.321Z"
+    updated_at: '2026-08-27T09:23:25.321Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-16T05:15:34.745Z"
+    updated_at: '2026-07-16T05:15:34.745Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

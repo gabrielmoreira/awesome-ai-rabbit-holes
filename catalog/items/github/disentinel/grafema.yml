@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__disentinel__grafema__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-22T05:53:30.454Z"
+      discovered_at: '2026-06-22T05:53:30.454Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Disentinel/grafema
         extracted_url: https://github.com/disentinel/grafema
-        surrounding_text: "- [Disentinel/grafema](https://github.com/Disentinel/grafema) [![grafema MCP server](https://glama.ai/mcp/servers/Disentinel/grafema/badges/score.svg)](https://glama.ai/mcp/servers/Disentinel/grafema) 📇 🏠 🍎 🪟 🐧 - Semantic code graph MCP server for AI coding agents. Indexes your codebase into a typed graph (functions/types/modules as nodes; CALLS/IMPORTS/DATAFLOW/EFFECTS as typed edges) and exposes 40+ tools for call-chain tracing, data-flow analysis, semantic search, and invariant checking — so agents navigate code structure instead of reading files line by line. `npm install -g grafema`"
+        surrounding_text: >-
+          - [Disentinel/grafema](https://github.com/Disentinel/grafema) [![grafema MCP
+          server](https://glama.ai/mcp/servers/Disentinel/grafema/badges/score.svg)](https://glama.ai/mcp/servers/Disentinel/grafema)
+          📇 🏠 🍎 🪟 🐧 - Semantic code graph MCP server for AI coding agents. Indexes your codebase into a typed graph
+          (functions/types/modules as nodes; CALLS/IMPORTS/DATAFLOW/EFFECTS as typed edges) and exposes 40+ tools for
+          call-chain tracing, data-flow analysis, semantic search, and invariant checking — so agents navigate code
+          structure instead of reading files line by line. `npm install -g grafema`
         confidence: high
 metadata:
   github:
@@ -30,8 +36,8 @@ metadata:
     archived: false
     full_name: Disentinel/grafema
     html_url: https://github.com/Disentinel/grafema
-    created_at: "2026-01-19T17:25:47Z"
-    pushed_at: "2026-08-24T01:54:39Z"
+    created_at: '2026-01-19T17:25:47Z'
+    pushed_at: '2026-08-24T01:54:39Z'
     description: Graph-based static analysis tool
     homepage: https://grafema.dev
     topics:
@@ -41,14 +47,20 @@ metadata:
       - mcp
       - static-analysis
       - vscode-extension
-    last_checked_at: "2026-09-14T04:13:41.096Z"
+    last_checked_at: '2026-09-14T04:13:41.096Z'
     readme:
-      fetched_at: "2026-09-14T04:13:41.096Z"
+      fetched_at: '2026-09-14T04:13:41.096Z'
       bytes: 14246
 insights:
-  summary: A graph-based static analysis tool that transforms codebases, infrastructure, and knowledge into a queryable graph for humans and AI.
-  why_it_matters: It replaces basic file-reading with deep structural analysis (AST parsers and dataflow tracing), allowing AI agents to navigate complex systems via a graph instead of guessing via greedy text search.
-  mental_damage: We have finally reached the stage where we are building complex graph databases just so our AI minions don't have to read the actual source code.
+  summary: >-
+    A graph-based static analysis tool that transforms codebases, infrastructure, and knowledge into a queryable graph
+    for humans and AI.
+  why_it_matters: >-
+    It replaces basic file-reading with deep structural analysis (AST parsers and dataflow tracing), allowing AI agents
+    to navigate complex systems via a graph instead of guessing via greedy text search.
+  mental_damage: >-
+    We have finally reached the stage where we are building complex graph databases just so our AI minions don't have to
+    read the actual source code.
   tags:
     - static-analysis
     - mcp
@@ -58,31 +70,35 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core novelty is the structural indexing and retrieval system (turning code into a queryable graph) which serves as high-fidelity context for AI, making it a context engineering tool rather than a primary agent or a simple MCP wrapper.
+  reason: >-
+    The core novelty is the structural indexing and retrieval system (turning code into a queryable graph) which serves
+    as high-fidelity context for AI, making it a context engineering tool rather than a primary agent or a simple MCP
+    wrapper.
   evidence:
     - README claims it turns code into a 'queryable, enrichable map that grounds your understanding'
     - Provides 30+ tools for AI to 'query the graph instead of reading files'
     - Core functionality is 'excavating the deepest possible model of your system' using AST parsers
 placement:
-  primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  primary_category: mcp
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-22T05:53:30.455Z"
+    updated_at: '2026-06-22T05:53:30.455Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:41.096Z"
+    updated_at: '2026-09-14T04:13:41.096Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-25T05:26:37.553Z"
+    updated_at: '2026-06-25T05:26:37.553Z'
     cause: null
     next_retry_at: null
     attempts: 1

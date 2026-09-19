@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__markgatcha__universal-mcp-toolkit__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,18 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: Markgatcha/universal-mcp-toolkit
         extracted_url: https://github.com/markgatcha/universal-mcp-toolkit
-        surrounding_text: "- [Markgatcha/universal-mcp-toolkit](https://github.com/Markgatcha/universal-mcp-toolkit) [![Markgatcha/universal-mcp-toolkit MCP server](https://glama.ai/mcp/servers/Markgatcha/universal-mcp-toolkit/badges/score.svg)](https://glama.ai/mcp/servers/Markgatcha/universal-mcp-toolkit) 📇 ☁️ 🏠 🍎 🪟 🐧 - A universal MCP aggregator toolkit that connects AI agents to multiple MCP servers through a single unified configuration. Features ready-made templates, cross-repo prompt workflows, and an npm package for zero-config installation.universal MCP aggregator toolkit that connects AI agents to multiple MCP servers through a single unified configuration. Features ready-made templates, cross-repo prompt workflows, and an npm package for zero-config installation."
+        surrounding_text: >-
+          - [Markgatcha/universal-mcp-toolkit](https://github.com/Markgatcha/universal-mcp-toolkit)
+          [![Markgatcha/universal-mcp-toolkit MCP
+          server](https://glama.ai/mcp/servers/Markgatcha/universal-mcp-toolkit/badges/score.svg)](https://glama.ai/mcp/servers/Markgatcha/universal-mcp-toolkit)
+          📇 ☁️ 🏠 🍎 🪟 🐧 - A universal MCP aggregator toolkit that connects AI agents to multiple MCP servers through
+          a single unified configuration. Features ready-made templates, cross-repo prompt workflows, and an npm package
+          for zero-config installation.universal MCP aggregator toolkit that connects AI agents to multiple MCP servers
+          through a single unified configuration. Features ready-made templates, cross-repo prompt workflows, and an npm
+          package for zero-config installation.
         confidence: high
     - id: discovery__github__markgatcha__universal-mcp-toolkit__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-09-01T14:31:13.862Z"
+      discovered_at: '2026-09-01T14:31:13.862Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +43,11 @@ provenance:
           - 🛠️ Utilities
         anchor_text: Markgatcha/universal-mcp-toolkit
         extracted_url: https://github.com/markgatcha/universal-mcp-toolkit
-        surrounding_text: "-   **[Markgatcha/universal-mcp-toolkit](https://github.com/Markgatcha/universal-mcp-toolkit)** [![GitHub stars](https://img.shields.io/github/stars/Markgatcha/universal-mcp-toolkit?style=social)](https://github.com/Markgatcha/universal-mcp-toolkit): All-in-one MCP toolkit bundling 15+ servers (filesystem, browser automation, GitHub, weather, search) into a single zero-config install."
+        surrounding_text: >-
+          -   **[Markgatcha/universal-mcp-toolkit](https://github.com/Markgatcha/universal-mcp-toolkit)** [![GitHub
+          stars](https://img.shields.io/github/stars/Markgatcha/universal-mcp-toolkit?style=social)](https://github.com/Markgatcha/universal-mcp-toolkit):
+          All-in-one MCP toolkit bundling 15+ servers (filesystem, browser automation, GitHub, weather, search) into a
+          single zero-config install.
         confidence: high
 metadata:
   github:
@@ -45,8 +57,8 @@ metadata:
     archived: false
     full_name: Markgatcha/universal-mcp-toolkit
     html_url: https://github.com/Markgatcha/universal-mcp-toolkit
-    created_at: "2026-03-11T01:20:39Z"
-    pushed_at: "2026-07-29T22:04:21Z"
+    created_at: '2026-03-11T01:20:39Z'
+    pushed_at: '2026-07-29T22:04:21Z'
     description: The canonical open-source monorepo for production-ready MCP servers.
     homepage: https://www.npmjs.com/package/universal-mcp-toolkit
     topics:
@@ -70,14 +82,21 @@ metadata:
       - turborepo
       - typescript
       - zod
-    last_checked_at: "2026-08-03T05:16:56.546Z"
+    last_checked_at: '2026-08-03T05:16:56.546Z'
     readme:
-      fetched_at: "2026-08-03T05:16:56.546Z"
+      fetched_at: '2026-08-03T05:16:56.546Z'
       bytes: 21541
 insights:
-  summary: A TypeScript monorepo and CLI that bundles 27+ production-oriented MCP servers for services like GitHub, Slack, and PostgreSQL with a unified install, config, and diagnostics workflow.
-  why_it_matters: It consolidates fragmented MCP server implementations into one opinionated toolkit with shared validation, logging, and transport support so developers can integrate multiple tools without stitching together a dozen half-finished repos.
-  mental_damage: We have successfully solved the problem of too many MCP servers by creating a monorepo that adds one more CLI you have to trust, configure, and eventually debug at 2 a.m.
+  summary: >-
+    A TypeScript monorepo and CLI that bundles 27+ production-oriented MCP servers for services like GitHub, Slack, and
+    PostgreSQL with a unified install, config, and diagnostics workflow.
+  why_it_matters: >-
+    It consolidates fragmented MCP server implementations into one opinionated toolkit with shared validation, logging,
+    and transport support so developers can integrate multiple tools without stitching together a dozen half-finished
+    repos.
+  mental_damage: >-
+    We have successfully solved the problem of too many MCP servers by creating a monorepo that adds one more CLI you
+    have to trust, configure, and eventually debug at 2 a.m.
   tags:
     - mcp
     - monorepo
@@ -87,35 +106,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "The product’s primary identity is MCP infrastructure: a monorepo of MCP servers, a MCP-first CLI, and utilities explicitly built around the Model Context Protocol."
+  reason: >-
+    The product’s primary identity is MCP infrastructure: a monorepo of MCP servers, a MCP-first CLI, and utilities
+    explicitly built around the Model Context Protocol.
   evidence:
-    - "Repo description: 'The canonical open-source monorepo for production-ready MCP servers.'"
-    - README states core value is 'one opinionated, high-quality Turborepo' with 27 MCP servers and a unified CLI for install, config, run, and diagnostics.
+    - 'Repo description: ''The canonical open-source monorepo for production-ready MCP servers.'''
+    - >-
+      README states core value is 'one opinionated, high-quality Turborepo' with 27 MCP servers and a unified CLI for
+      install, config, run, and diagnostics.
     - Topics and structure center on MCP (mcp, mcp-server, mcp-client, mcp-aggregator, model-context-protocol).
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-01T14:31:13.864Z"
+    updated_at: '2026-09-01T14:31:13.864Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:56.546Z"
+    updated_at: '2026-08-03T05:16:56.546Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

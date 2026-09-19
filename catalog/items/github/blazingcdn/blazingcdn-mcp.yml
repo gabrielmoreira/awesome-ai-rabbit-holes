@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__blazingcdn__blazingcdn-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-09-01T14:31:13.862Z"
+      discovered_at: '2026-09-01T14:31:13.862Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: BlazingCDN/BlazingCDN-MCP
         extracted_url: https://github.com/blazingcdn/blazingcdn-mcp
-        surrounding_text: "- [BlazingCDN/BlazingCDN-MCP](https://github.com/BlazingCDN/BlazingCDN-MCP) [![BlazingCDN/BlazingCDN-MCP MCP server](https://glama.ai/mcp/servers/BlazingCDN/BlazingCDN-MCP/badges/score.svg)](https://glama.ai/mcp/servers/BlazingCDN/BlazingCDN-MCP) 🎖️ 📇 ☁️ 🏠 🍎 🪟 🐧 - Official BlazingCDN server: manage CDN zones (TTLs, compression, on-the-fly image resizing, HLS/DASH), purge and warm up cache, traffic metrics, custom domains, cloud storage and Video CDN. 52 tools, read-only by default with opt-in write/delete. Install: `npx -y @blazingcdn/mcp`."
+        surrounding_text: >-
+          - [BlazingCDN/BlazingCDN-MCP](https://github.com/BlazingCDN/BlazingCDN-MCP) [![BlazingCDN/BlazingCDN-MCP MCP
+          server](https://glama.ai/mcp/servers/BlazingCDN/BlazingCDN-MCP/badges/score.svg)](https://glama.ai/mcp/servers/BlazingCDN/BlazingCDN-MCP)
+          🎖️ 📇 ☁️ 🏠 🍎 🪟 🐧 - Official BlazingCDN server: manage CDN zones (TTLs, compression, on-the-fly image
+          resizing, HLS/DASH), purge and warm up cache, traffic metrics, custom domains, cloud storage and Video CDN. 52
+          tools, read-only by default with opt-in write/delete. Install: `npx -y @blazingcdn/mcp`.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: BlazingCDN/BlazingCDN-MCP
     html_url: https://github.com/BlazingCDN/BlazingCDN-MCP
-    created_at: "2026-08-07T09:55:57Z"
-    pushed_at: "2026-08-21T14:24:07Z"
-    description: Official MCP server for BlazingCDN - AI agents (Claude, Cursor, Windsurf) manage CDN resources, purge cache, query metrics, domains, Cloud Storage and Video CDN
+    created_at: '2026-08-07T09:55:57Z'
+    pushed_at: '2026-08-21T14:24:07Z'
+    description: >-
+      Official MCP server for BlazingCDN - AI agents (Claude, Cursor, Windsurf) manage CDN resources, purge cache, query
+      metrics, domains, Cloud Storage and Video CDN
     homepage: https://blazingcdn.com
     topics:
       - ai-agents
@@ -55,13 +62,15 @@ metadata:
       - video-generation
       - video-processing
       - video-streaming
-    last_checked_at: "2026-09-14T04:13:26.836Z"
+    last_checked_at: '2026-09-14T04:13:26.836Z'
     readme:
-      fetched_at: "2026-09-14T04:13:26.836Z"
+      fetched_at: '2026-09-14T04:13:26.836Z'
       bytes: 8701
 insights:
   summary: Official MCP server for BlazingCDN that lets AI agents manage CDN resources, cache, metrics, domains, and storage.
-  why_it_matters: Developers can delegate CDN operations (purge cache, query metrics, configure domains) to AI agents like Claude or Cursor without manual API calls.
+  why_it_matters: >-
+    Developers can delegate CDN operations (purge cache, query metrics, configure domains) to AI agents like Claude or
+    Cursor without manual API calls.
   mental_damage: Now your AI agent can warm up your cache while you warm up your existential dread.
   tags:
     - mcp-server
@@ -72,31 +81,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server exposing BlazingCDN's API to AI agents."
+  reason: 'MCP is the product identity: this is a dedicated MCP server exposing BlazingCDN''s API to AI agents.'
   evidence:
     - Repo description explicitly calls it an 'Official MCP server for BlazingCDN'
     - README highlights 52 MCP tools for CDN management and integration with Claude/Cursor/Windsurf
     - Listed in awesome-mcp-servers under 'Cloud Platforms' section
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-01T14:31:13.864Z"
+    updated_at: '2026-09-01T14:31:13.864Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:26.836Z"
+    updated_at: '2026-09-14T04:13:26.836Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-03T05:17:05.143Z"
+    updated_at: '2026-09-03T05:17:05.143Z'
     cause: null
     next_retry_at: null
     classification:
@@ -106,7 +116,7 @@ processing:
       input_hash: sha256:31790bbbd59454d032ab881371a71754aceb69ee7cc25042bdd361230b4007f0
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing BlazingCDN's API to AI agents."
+      decision_reason: 'MCP is the product identity: this is a dedicated MCP server exposing BlazingCDN''s API to AI agents.'
       decision_evidence:
         - Repo description explicitly calls it an 'Official MCP server for BlazingCDN'
         - README highlights 52 MCP tools for CDN management and integration with Claude/Cursor/Windsurf
@@ -114,7 +124,9 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

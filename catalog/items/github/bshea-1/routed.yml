@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bshea-1__routed__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-09-10T04:12:32.934Z"
+      discovered_at: '2026-09-10T04:12:32.934Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: bshea-1/Routed
         extracted_url: https://github.com/bshea-1/routed
-        surrounding_text: "- [bshea-1/Routed](https://github.com/bshea-1/Routed) [![bshea-1/Routed MCP server](https://glama.ai/mcp/servers/bshea-1/Routed/badges/score.svg)](https://glama.ai/mcp/servers/bshea-1/Routed) 📇 🏠 🍎 🪟 🐧 - Universal local router for Agent Skills across Cursor, Claude Code, Antigravity, and MCP clients with zero-token sub-20ms hybrid matching on local CPU."
+        surrounding_text: >-
+          - [bshea-1/Routed](https://github.com/bshea-1/Routed) [![bshea-1/Routed MCP
+          server](https://glama.ai/mcp/servers/bshea-1/Routed/badges/score.svg)](https://glama.ai/mcp/servers/bshea-1/Routed)
+          📇 🏠 🍎 🪟 🐧 - Universal local router for Agent Skills across Cursor, Claude Code, Antigravity, and MCP
+          clients with zero-token sub-20ms hybrid matching on local CPU.
         confidence: high
 metadata:
   github:
@@ -30,19 +34,25 @@ metadata:
     archived: false
     full_name: bshea-1/Routed
     html_url: https://github.com/bshea-1/Routed
-    created_at: "2026-09-06T01:21:56Z"
-    pushed_at: "2026-09-09T18:56:35Z"
+    created_at: '2026-09-06T01:21:56Z'
+    pushed_at: '2026-09-09T18:56:35Z'
     description: Universal local router for Agent Skills across AI coding environments
     homepage: https://routed-demo.vercel.app/
     topics: []
-    last_checked_at: "2026-09-10T04:13:01.152Z"
+    last_checked_at: '2026-09-10T04:13:01.152Z'
     readme:
-      fetched_at: "2026-09-10T04:13:01.152Z"
+      fetched_at: '2026-09-10T04:13:01.152Z'
       bytes: 21197
 insights:
-  summary: A local hybrid search engine that routes coding prompts to specific agent skills to minimize context pollution and token costs.
-  why_it_matters: It enables developers to use large, specialized skill sets in their AI assistants without overwhelming the model's context window or increasing latency.
-  mental_damage: Another layer of middleware to debug when your agent suddenly forgets how to write Python because of a BM25 weighting error.
+  summary: >-
+    A local hybrid search engine that routes coding prompts to specific agent skills to minimize context pollution and
+    token costs.
+  why_it_matters: >-
+    It enables developers to use large, specialized skill sets in their AI assistants without overwhelming the model's
+    context window or increasing latency.
+  mental_damage: >-
+    Another layer of middleware to debug when your agent suddenly forgets how to write Python because of a BM25
+    weighting error.
   tags:
     - mcp
     - prompt-routing
@@ -52,31 +62,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It functions as a local, high-speed retrieval and routing layer designed to manage which agent skills are injected into an LLM's context.
+  reason: >-
+    It functions as a local, high-speed retrieval and routing layer designed to manage which agent skills are injected
+    into an LLM's context.
   evidence:
     - Uses local hybrid search (BM25 and semantic) to route prompts
     - Claims to eliminate context pollution in tools like Cursor and Claude Desktop
     - Provides an MCP server to bridge skill routing with AI hosts
 placement:
-  primary_category: context-engineering
-  section: PromptOps / Prompt Management
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Context & Session Management
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-10T04:12:32.936Z"
+    updated_at: '2026-09-10T04:12:32.936Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:13:01.152Z"
+    updated_at: '2026-09-10T04:13:01.152Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-10T04:17:51.071Z"
+    updated_at: '2026-09-10T04:17:51.071Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -85,7 +98,9 @@ processing:
       input_hash: sha256:4980477fc844908730f8ee724239cda73936417b3319882825851a9cdd66106e
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: It functions as a local, high-speed retrieval and routing layer designed to manage which agent skills are injected into an LLM's context.
+      decision_reason: >-
+        It functions as a local, high-speed retrieval and routing layer designed to manage which agent skills are
+        injected into an LLM's context.
       decision_evidence:
         - Uses local hybrid search (BM25 and semantic) to route prompts
         - Claims to eliminate context pollution in tools like Cursor and Claude Desktop
@@ -93,7 +108,9 @@ processing:
       category_candidates:
         - context-engineering
         - mcp
-      contrastive_reason: Choose context-engineering over mcp because the core novelty is the hybrid scoring pipeline for prompt routing rather than the MCP protocol itself.
+      contrastive_reason: >-
+        Choose context-engineering over mcp because the core novelty is the hybrid scoring pipeline for prompt routing
+        rather than the MCP protocol itself.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

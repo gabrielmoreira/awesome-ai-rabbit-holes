@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__chrisgve__workspace-qdrant-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,14 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: ChrisGVE/workspace-qdrant-mcp
         extracted_url: https://github.com/chrisgve/workspace-qdrant-mcp
-        surrounding_text: "- [ChrisGVE/workspace-qdrant-mcp](https://github.com/ChrisGVE/workspace-qdrant-mcp) [![workspace-qdrant-mcp MCP server](https://glama.ai/mcp/servers/ChrisGVE/workspace-qdrant-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ChrisGVE/workspace-qdrant-mcp) 🦀 📇 🏠 🍎 🪟 🐧 - Project-scoped semantic workspace memory for AI coding assistants. Watches your project files, auto-indexes code and docs into Qdrant with tree-sitter semantic chunking, LSP integration, and hybrid search (dense + sparse + RRF). 6 MCP tools: store, search, retrieve, grep, list, rules. **Alpha** — testers and feedback welcome."
+        surrounding_text: >-
+          - [ChrisGVE/workspace-qdrant-mcp](https://github.com/ChrisGVE/workspace-qdrant-mcp) [![workspace-qdrant-mcp
+          MCP
+          server](https://glama.ai/mcp/servers/ChrisGVE/workspace-qdrant-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ChrisGVE/workspace-qdrant-mcp)
+          🦀 📇 🏠 🍎 🪟 🐧 - Project-scoped semantic workspace memory for AI coding assistants. Watches your project
+          files, auto-indexes code and docs into Qdrant with tree-sitter semantic chunking, LSP integration, and hybrid
+          search (dense + sparse + RRF). 6 MCP tools: store, search, retrieve, grep, list, rules. **Alpha** — testers
+          and feedback welcome.
         confidence: high
 metadata:
   github:
@@ -30,10 +37,13 @@ metadata:
     archived: false
     full_name: ChrisGVE/workspace-qdrant-mcp
     html_url: https://github.com/ChrisGVE/workspace-qdrant-mcp
-    created_at: "2025-08-27T20:08:26Z"
-    pushed_at: "2026-09-06T22:58:06Z"
-    description: "Project-aware collection management based on Qdrant, including a Rust MCP, daemon and CLI: hybrid semantic, pattern and full-text (FTS5) search into single or cross-concerns collection. Dedicated collections for knowledge library, LLM behavioral rules, and an LLM scratchpad"
-    homepage: ""
+    created_at: '2025-08-27T20:08:26Z'
+    pushed_at: '2026-09-06T22:58:06Z'
+    description: >-
+      Project-aware collection management based on Qdrant, including a Rust MCP, daemon and CLI: hybrid semantic,
+      pattern and full-text (FTS5) search into single or cross-concerns collection. Dedicated collections for knowledge
+      library, LLM behavioral rules, and an LLM scratchpad
+    homepage: ''
     topics:
       - bm25
       - claude-code
@@ -55,14 +65,20 @@ metadata:
       - semantic-search
       - sparse-vectors
       - vector-database
-    last_checked_at: "2026-09-07T04:13:44.808Z"
+    last_checked_at: '2026-09-07T04:13:44.808Z'
     readme:
-      fetched_at: "2026-09-07T04:13:44.808Z"
+      fetched_at: '2026-09-07T04:13:44.808Z'
       bytes: 15159
 insights:
-  summary: Project-aware vector database for AI assistants with hybrid semantic and keyword search, built on Qdrant, offering MCP server, CLI, and daemon for code intelligence and retrieval.
-  why_it_matters: Developers can integrate this into their workflows to give AI assistants project-scoped, hybrid search capabilities over code, docs, and behavioral rules without leaving their existing tools.
-  mental_damage: Now your AI assistant can finally remember where you put that one regex from 2022, but only if you also remember to configure Qdrant.
+  summary: >-
+    Project-aware vector database for AI assistants with hybrid semantic and keyword search, built on Qdrant, offering
+    MCP server, CLI, and daemon for code intelligence and retrieval.
+  why_it_matters: >-
+    Developers can integrate this into their workflows to give AI assistants project-scoped, hybrid search capabilities
+    over code, docs, and behavioral rules without leaving their existing tools.
+  mental_damage: >-
+    Now your AI assistant can finally remember where you put that one regex from 2022, but only if you also remember to
+    configure Qdrant.
   tags:
     - mcp-server
     - vector-search
@@ -72,31 +88,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: it is explicitly an MCP server providing project-aware search and retrieval tools for AI assistants."
+  reason: >-
+    MCP is the product identity here: it is explicitly an MCP server providing project-aware search and retrieval tools
+    for AI assistants.
   evidence:
     - Repo description explicitly calls it a Rust MCP server with daemon and CLI
     - README highlights 6 MCP tools (search, retrieve, rules, store, grep, list)
     - Topics include 'mcp-server' and 'model-context-protocol'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.607Z"
+    updated_at: '2026-05-06T22:12:15.607Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:44.808Z"
+    updated_at: '2026-09-07T04:13:44.808Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:41:50.040Z"
+    updated_at: '2026-07-21T15:41:50.040Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -109,7 +128,9 @@ processing:
       input_hash: sha256:e7c6a767ebd1763ae8b19171f7d4880155dce492395264c36a760ca627d211b6
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: it is explicitly an MCP server providing project-aware search and retrieval tools for AI assistants."
+      decision_reason: >-
+        MCP is the product identity here: it is explicitly an MCP server providing project-aware search and retrieval
+        tools for AI assistants.
       decision_evidence:
         - Repo description explicitly calls it a Rust MCP server with daemon and CLI
         - README highlights 6 MCP tools (search, retrieve, rules, store, grep, list)
@@ -117,6 +138,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the core product is an MCP server exposing search/retrieval tools, not a standalone context system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the core product is an MCP server exposing search/retrieval tools,
+        not a standalone context system.
       review_reason: null
       review_resume_lifecycle: null

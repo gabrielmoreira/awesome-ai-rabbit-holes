@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__any4ai__anycrawl-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Official Servers
         anchor_text: AnyCrawl
         extracted_url: https://github.com/any4ai/anycrawl-mcp-server
-        surrounding_text: "- **[AnyCrawl](https://github.com/any4ai/anycrawl-mcp-server)** - [AnyCrawl](https://anycrawl.dev) MCP Server, Powerful web scraping and crawling for Cursor, Claude, and other LLM clients via the Model Context Protocol (MCP)."
+        surrounding_text: >-
+          - **[AnyCrawl](https://github.com/any4ai/anycrawl-mcp-server)** - [AnyCrawl](https://anycrawl.dev) MCP Server,
+          Powerful web scraping and crawling for Cursor, Claude, and other LLM clients via the Model Context Protocol
+          (MCP).
         confidence: high
 metadata:
   github:
@@ -29,18 +32,20 @@ metadata:
     archived: false
     full_name: any4ai/anycrawl-mcp-server
     html_url: https://github.com/any4ai/anycrawl-mcp-server
-    created_at: "2025-09-13T07:56:09Z"
-    pushed_at: "2026-09-10T03:40:40Z"
+    created_at: '2025-09-13T07:56:09Z'
+    pushed_at: '2026-09-10T03:40:40Z'
     description: AnyCrawl MCP Server, with Scrape, Crawl and SERP.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-10T04:12:55.093Z"
+    last_checked_at: '2026-09-10T04:12:55.093Z'
     readme:
-      fetched_at: "2026-09-10T04:12:55.093Z"
+      fetched_at: '2026-09-10T04:12:55.093Z'
       bytes: 17125
 insights:
   summary: An MCP server that provides web scraping, crawling, and SERP capabilities for LLM clients like Cursor and Claude.
-  why_it_matters: Developers can integrate web data extraction directly into their AI workflows without leaving their coding environment.
+  why_it_matters: >-
+    Developers can integrate web data extraction directly into their AI workflows without leaving their coding
+    environment.
   mental_damage: Now your AI can crawl the web while you pretend to understand the DOM it just scraped.
   tags:
     - mcp-server
@@ -51,33 +56,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server with web scraping/crawling as its core identity, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product is explicitly an MCP server with web scraping/crawling as its core identity, fitting the MCP Servers &
+    Tooling category.
   evidence:
     - Repo description identifies it as 'AnyCrawl MCP Server, with Scrape, Crawl and SERP'
     - README explicitly positions it as an MCP server for LLM clients like Cursor and Claude
     - Source-list context shows it's included in awesome-mcp-servers under 'Official Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.602Z"
+    updated_at: '2026-05-06T22:12:15.602Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-17T04:13:45.694Z"
+    updated_at: '2026-09-17T04:13:45.694Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for any4ai/anycrawl-mcp-server
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:23:22.864Z"
+    updated_at: '2026-07-21T15:23:22.864Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -90,7 +98,9 @@ processing:
       input_hash: sha256:989155d378cfb24c0296375811613343afd9c7f6c104762d867651a70109bc5c
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server with web scraping/crawling as its core identity, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product is explicitly an MCP server with web scraping/crawling as its core identity, fitting the MCP Servers
+        & Tooling category.
       decision_evidence:
         - Repo description identifies it as 'AnyCrawl MCP Server, with Scrape, Crawl and SERP'
         - README explicitly positions it as an MCP server for LLM clients like Cursor and Claude
@@ -98,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not merely an extension for another tool.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not merely an
+        extension for another tool.
       review_reason: null
       review_resume_lifecycle: null

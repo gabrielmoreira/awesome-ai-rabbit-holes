@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__brianveltman__sonatype-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Sonatype MCP Server
         extracted_url: https://github.com/brianveltman/sonatype-mcp
-        surrounding_text: "- **[Sonatype MCP Server](https://github.com/brianveltman/sonatype-mcp)** - MCP for Sonatype Nexus Repository Manager and Sonatype Repository Firewall. Manage your DevSecOps practices through AI-assisted Workflows."
+        surrounding_text: >-
+          - **[Sonatype MCP Server](https://github.com/brianveltman/sonatype-mcp)** - MCP for Sonatype Nexus Repository
+          Manager and Sonatype Repository Firewall. Manage your DevSecOps practices through AI-assisted Workflows.
         confidence: high
 metadata:
   github:
@@ -29,19 +31,19 @@ metadata:
     archived: false
     full_name: brianveltman/sonatype-mcp
     html_url: https://github.com/brianveltman/sonatype-mcp
-    created_at: "2025-07-11T10:56:29Z"
-    pushed_at: "2026-02-14T11:46:49Z"
+    created_at: '2025-07-11T10:56:29Z'
+    pushed_at: '2026-02-14T11:46:49Z'
     description: MCP server for Sonatype Nexus Repository Manager
-    homepage: ""
+    homepage: ''
     topics:
       - ai-assistant
       - claude
       - claude-code
       - mcp
       - nexus
-    last_checked_at: "2026-09-07T04:13:37.696Z"
+    last_checked_at: '2026-09-07T04:13:37.696Z'
     readme:
-      fetched_at: "2026-09-07T04:13:37.696Z"
+      fetched_at: '2026-09-07T04:13:37.696Z'
       bytes: 10961
 insights:
   summary: An MCP server that enables AI assistants to interact with Sonatype Nexus Repository Manager.
@@ -56,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose primary identity is exposing Nexus Repository Manager capabilities via the Model Context Protocol.
+  reason: >-
+    This is an MCP-first server whose primary identity is exposing Nexus Repository Manager capabilities via the Model
+    Context Protocol.
   evidence:
     - Repo description explicitly states it is an MCP server for Sonatype Nexus Repository Manager
     - README details MCP server functionality and integration with Claude Desktop and VS Code
     - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.606Z"
+    updated_at: '2026-05-06T22:12:15.606Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:37.696Z"
+    updated_at: '2026-09-07T04:13:37.696Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:26:55.529Z"
+    updated_at: '2026-07-21T15:26:55.529Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -93,7 +98,9 @@ processing:
       input_hash: sha256:17fc8b9d40a7f5415219ae7f0c8a17e3ecf874313029ef14586e88a42934960f
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server whose primary identity is exposing Nexus Repository Manager capabilities via the Model Context Protocol.
+      decision_reason: >-
+        This is an MCP-first server whose primary identity is exposing Nexus Repository Manager capabilities via the
+        Model Context Protocol.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Sonatype Nexus Repository Manager
         - README details MCP server functionality and integration with Claude Desktop and VS Code
@@ -101,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

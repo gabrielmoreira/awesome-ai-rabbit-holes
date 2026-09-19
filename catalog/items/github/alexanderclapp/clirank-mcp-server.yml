@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alexanderclapp__clirank-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: alexanderclapp/clirank-mcp-server
         extracted_url: https://github.com/alexanderclapp/clirank-mcp-server
-        surrounding_text: "- [alexanderclapp/clirank-mcp-server](https://github.com/alexanderclapp/clirank-mcp-server) [![alexanderclapp/clirank-mcp-server MCP server](https://glama.ai/mcp/servers/alexanderclapp/clirank-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/alexanderclapp/clirank-mcp-server) 📇 ☁️ 🍎 🪟 🐧 - API intelligence for AI coding agents. 387 APIs scored on agent-friendliness with tools to recommend, compare, check scores, and discover APIs. Install: `npx clirank-mcp-server`. Web: [clirank.dev](https://clirank.dev)."
+        surrounding_text: >-
+          - [alexanderclapp/clirank-mcp-server](https://github.com/alexanderclapp/clirank-mcp-server)
+          [![alexanderclapp/clirank-mcp-server MCP
+          server](https://glama.ai/mcp/servers/alexanderclapp/clirank-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/alexanderclapp/clirank-mcp-server)
+          📇 ☁️ 🍎 🪟 🐧 - API intelligence for AI coding agents. 387 APIs scored on agent-friendliness with tools to
+          recommend, compare, check scores, and discover APIs. Install: `npx clirank-mcp-server`. Web:
+          [clirank.dev](https://clirank.dev).
         confidence: high
 metadata:
   github:
@@ -30,18 +36,22 @@ metadata:
     archived: false
     full_name: alexanderclapp/clirank-mcp-server
     html_url: https://github.com/alexanderclapp/clirank-mcp-server
-    created_at: "2026-04-02T09:02:53Z"
-    pushed_at: "2026-08-17T07:04:03Z"
+    created_at: '2026-04-02T09:02:53Z'
+    pushed_at: '2026-08-17T07:04:03Z'
     description: MCP server for CLIRank - search, compare, and get docs for 420+ APIs ranked by AI-agent friendliness
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:39.233Z"
+    last_checked_at: '2026-09-17T04:13:39.233Z'
     readme:
-      fetched_at: "2026-09-17T04:13:39.233Z"
+      fetched_at: '2026-09-17T04:13:39.233Z'
       bytes: 8687
 insights:
-  summary: MCP server that exposes the CLIRank API directory as tools for AI agents to search, compare, and retrieve docs for 400+ APIs ranked by agent-friendliness.
-  why_it_matters: Lets coding agents discover and evaluate APIs programmatically before writing integration code, reducing trial-and-error in API selection.
+  summary: >-
+    MCP server that exposes the CLIRank API directory as tools for AI agents to search, compare, and retrieve docs for
+    400+ APIs ranked by agent-friendliness.
+  why_it_matters: >-
+    Lets coding agents discover and evaluate APIs programmatically before writing integration code, reducing
+    trial-and-error in API selection.
   mental_damage: Now your agent can spend 20 minutes comparing email APIs instead of you doing it manually—progress.
   tags:
     - mcp
@@ -51,31 +61,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server exposing a specific domain (API directory) as tools for agents."
+  reason: >-
+    MCP is the product identity: this is a dedicated MCP server exposing a specific domain (API directory) as tools for
+    agents.
   evidence:
     - Repo description explicitly states it is an MCP server for CLIRank
     - README details MCP client integration (Claude Code, Cursor, etc.) and tool endpoints
     - Listed in awesome-mcp-servers under Aggregators
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Registries & Discovery
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.601Z"
+    updated_at: '2026-05-06T22:12:15.601Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:39.233Z"
+    updated_at: '2026-09-17T04:13:39.233Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:21:49.743Z"
+    updated_at: '2026-07-21T15:21:49.743Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -88,7 +101,9 @@ processing:
       input_hash: sha256:7ef38e2faac809104e84e9cc9c74fde3435b424a6c7398094efb83ed5c2c2d30
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing a specific domain (API directory) as tools for agents."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server exposing a specific domain (API directory) as tools
+        for agents.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for CLIRank
         - README details MCP client integration (Claude Code, Cursor, etc.) and tool endpoints
@@ -96,6 +111,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific tools, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific tools, not
+        an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

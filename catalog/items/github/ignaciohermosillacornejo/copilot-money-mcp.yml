@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ignaciohermosillacornejo__copilot-money-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: ignaciohermosillacornejo/copilot-money-mcp
         extracted_url: https://github.com/ignaciohermosillacornejo/copilot-money-mcp
-        surrounding_text: "- [ignaciohermosillacornejo/copilot-money-mcp](https://github.com/ignaciohermosillacornejo/copilot-money-mcp) [![ignaciohermosillacornejo/copilot-money-mcp MCP server](https://glama.ai/mcp/servers/ignaciohermosillacornejo/copilot-money-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ignaciohermosillacornejo/copilot-money-mcp) 📇 🏠 ☁️ 🍎 - Read and manage [Copilot Money](https://copilot.money) personal finance data — 30 tools for transactions, budgets, accounts, recurring charges, investments, and goals. Reads are 100% local from the Firestore cache; opt-in writes (`--write`) go directly to Copilot's GraphQL API."
+        surrounding_text: >-
+          - [ignaciohermosillacornejo/copilot-money-mcp](https://github.com/ignaciohermosillacornejo/copilot-money-mcp)
+          [![ignaciohermosillacornejo/copilot-money-mcp MCP
+          server](https://glama.ai/mcp/servers/ignaciohermosillacornejo/copilot-money-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ignaciohermosillacornejo/copilot-money-mcp)
+          📇 🏠 ☁️ 🍎 - Read and manage [Copilot Money](https://copilot.money) personal finance data — 30 tools for
+          transactions, budgets, accounts, recurring charges, investments, and goals. Reads are 100% local from the
+          Firestore cache; opt-in writes (`--write`) go directly to Copilot's GraphQL API.
         confidence: high
 metadata:
   github:
@@ -30,8 +36,8 @@ metadata:
     archived: false
     full_name: ignaciohermosillacornejo/copilot-money-mcp
     html_url: https://github.com/ignaciohermosillacornejo/copilot-money-mcp
-    created_at: "2026-01-11T22:56:33Z"
-    pushed_at: "2026-07-27T16:24:59Z"
+    created_at: '2026-01-11T22:56:33Z'
+    pushed_at: '2026-07-27T16:24:59Z'
     description: MCP server for Copilot Money App - AI powered personal finance queries using local data
     homepage: https://ignaciohermosillacornejo.github.io/copilot-money-mcp/
     topics:
@@ -41,13 +47,15 @@ metadata:
       - mcp
       - personal-finance
       - typescript
-    last_checked_at: "2026-07-30T05:05:41.889Z"
+    last_checked_at: '2026-07-30T05:05:41.889Z'
     readme:
-      fetched_at: "2026-07-30T05:05:41.889Z"
+      fetched_at: '2026-07-30T05:05:41.889Z'
       bytes: 15808
 insights:
   summary: An MCP server that enables AI assistants to query locally cached Copilot Money personal finance data.
-  why_it_matters: Developers can integrate personal finance data into AI workflows without cloud dependencies, enabling privacy-first financial queries.
+  why_it_matters: >-
+    Developers can integrate personal finance data into AI workflows without cloud dependencies, enabling privacy-first
+    financial queries.
   mental_damage: Now your AI can judge your spending habits as harshly as your partner does.
   tags:
     - mcp
@@ -58,31 +66,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific (personal finance) tooling."
+  reason: 'MCP is the product identity: this is a dedicated MCP server providing domain-specific (personal finance) tooling.'
   evidence:
     - Repo description explicitly identifies it as an MCP server for Copilot Money
     - README details 17 read tools for finance data and emphasizes local-only operation
     - Project is actively maintained (pushed_at 2026-07-20)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.620Z"
+    updated_at: '2026-05-06T22:12:15.620Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:41.889Z"
+    updated_at: '2026-07-30T05:05:41.889Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:07:37.981Z"
+    updated_at: '2026-07-21T16:07:37.981Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -95,7 +104,9 @@ processing:
       input_hash: sha256:8b66494c05c1dd3c31acdab4658806ab0673342c475aa3c0ef7a42df75b92f6d
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific (personal finance) tooling."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server providing domain-specific (personal finance)
+        tooling.
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server for Copilot Money
         - README details 17 read tools for finance data and emphasizes local-only operation
@@ -103,6 +114,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server (not just an extension for another tool).
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server (not just an extension for another
+        tool).
       review_reason: null
       review_resume_lifecycle: null

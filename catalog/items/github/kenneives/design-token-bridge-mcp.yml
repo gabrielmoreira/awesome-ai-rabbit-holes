@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kenneives__design-token-bridge-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: kenneives/design-token-bridge-mcp
         extracted_url: https://github.com/kenneives/design-token-bridge-mcp
-        surrounding_text: "- [kenneives/design-token-bridge-mcp](https://github.com/kenneives/design-token-bridge-mcp) [![design-token-bridge-mcp MCP server](https://glama.ai/mcp/servers/kenneives/design-token-bridge-mcp/badges/score.svg)](https://glama.ai/mcp/servers/kenneives/design-token-bridge-mcp) 📇 🏠 - Translates design tokens between platforms — extract from Tailwind, CSS, Figma, or W3C DTCG, then generate Material 3 (Kotlin), SwiftUI, Tailwind config, and CSS Variables with WCAG contrast validation."
+        surrounding_text: >-
+          - [kenneives/design-token-bridge-mcp](https://github.com/kenneives/design-token-bridge-mcp)
+          [![design-token-bridge-mcp MCP
+          server](https://glama.ai/mcp/servers/kenneives/design-token-bridge-mcp/badges/score.svg)](https://glama.ai/mcp/servers/kenneives/design-token-bridge-mcp)
+          📇 🏠 - Translates design tokens between platforms — extract from Tailwind, CSS, Figma, or W3C DTCG, then
+          generate Material 3 (Kotlin), SwiftUI, Tailwind config, and CSS Variables with WCAG contrast validation.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: kenneives/design-token-bridge-mcp
     html_url: https://github.com/kenneives/design-token-bridge-mcp
-    created_at: "2026-02-19T17:20:55Z"
-    pushed_at: "2026-03-25T20:43:42Z"
-    description: MCP server that translates design tokens between platforms — Tailwind, Figma, CSS to Material 3, SwiftUI, and CSS Variables. Built for the v0 → Figma → Claude Code pipeline.
+    created_at: '2026-02-19T17:20:55Z'
+    pushed_at: '2026-03-25T20:43:42Z'
+    description: >-
+      MCP server that translates design tokens between platforms — Tailwind, Figma, CSS to Material 3, SwiftUI, and CSS
+      Variables. Built for the v0 → Figma → Claude Code pipeline.
     homepage: null
     topics:
       - claude-code
@@ -45,14 +52,20 @@ metadata:
       - model-context-protocol
       - swiftui
       - tailwind
-    last_checked_at: "2026-07-30T05:05:55.609Z"
+    last_checked_at: '2026-07-30T05:05:55.609Z'
     readme:
-      fetched_at: "2026-07-30T05:05:55.609Z"
+      fetched_at: '2026-07-30T05:05:55.609Z'
       bytes: 6574
 insights:
-  summary: An MCP server that translates design tokens between platforms like Tailwind, Figma, CSS, Material 3, SwiftUI, and CSS Variables.
-  why_it_matters: It bridges design systems across platforms by extracting tokens from one format and generating native themes for others, streamlining cross-platform consistency.
-  mental_damage: Finally, a way to stop manually copy-pasting hex codes between your iOS, Android, and web apps—until you realize you now have to debug token schemas instead.
+  summary: >-
+    An MCP server that translates design tokens between platforms like Tailwind, Figma, CSS, Material 3, SwiftUI, and
+    CSS Variables.
+  why_it_matters: >-
+    It bridges design systems across platforms by extracting tokens from one format and generating native themes for
+    others, streamlining cross-platform consistency.
+  mental_damage: >-
+    Finally, a way to stop manually copy-pasting hex codes between your iOS, Android, and web apps—until you realize you
+    now have to debug token schemas instead.
   tags:
     - mcp-server
     - design-tokens
@@ -62,31 +75,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server for design token translation, not a compatibility footnote or adapter."
+  reason: >-
+    MCP is the product identity: this is a dedicated MCP server for design token translation, not a compatibility
+    footnote or adapter.
   evidence:
     - Repo description explicitly states it is an MCP server
     - README details MCP tools, installation, and configuration for Claude Code
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.624Z"
+    updated_at: '2026-05-06T22:12:15.624Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:55.609Z"
+    updated_at: '2026-07-30T05:05:55.609Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:12:18.941Z"
+    updated_at: '2026-07-21T16:12:18.941Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -99,7 +115,9 @@ processing:
       input_hash: sha256:28f2699c1ff3b06fcd57b423d3237c33ca2320117f8d3b3034a6642e7254eb9b
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server for design token translation, not a compatibility footnote or adapter."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server for design token translation, not a compatibility
+        footnote or adapter.
       decision_evidence:
         - Repo description explicitly states it is an MCP server
         - README details MCP tools, installation, and configuration for Claude Code
@@ -107,6 +125,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

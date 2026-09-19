@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__for-sunny__hebbian-mind-enterprise__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: For-Sunny/hebbian-mind-enterprise
         extracted_url: https://github.com/for-sunny/hebbian-mind-enterprise
-        surrounding_text: "- [For-Sunny/hebbian-mind-enterprise](https://github.com/For-Sunny/hebbian-mind-enterprise) [![hebbian-mind-enterprise MCP server](https://glama.ai/mcp/servers/For-Sunny/hebbian-mind-enterprise/badges/score.svg)](https://glama.ai/mcp/servers/For-Sunny/hebbian-mind-enterprise) 🐍 🏠 🍎 🪟 🐧 - Self-organizing neural graph memory with Hebbian learning for AI systems. Connections strengthen through co-activation and weaken through temporal decay. 118+ learning nodes, dual-write architecture, and sub-millisecond reads."
+        surrounding_text: >-
+          - [For-Sunny/hebbian-mind-enterprise](https://github.com/For-Sunny/hebbian-mind-enterprise)
+          [![hebbian-mind-enterprise MCP
+          server](https://glama.ai/mcp/servers/For-Sunny/hebbian-mind-enterprise/badges/score.svg)](https://glama.ai/mcp/servers/For-Sunny/hebbian-mind-enterprise)
+          🐍 🏠 🍎 🪟 🐧 - Self-organizing neural graph memory with Hebbian learning for AI systems. Connections
+          strengthen through co-activation and weaken through temporal decay. 118+ learning nodes, dual-write
+          architecture, and sub-millisecond reads.
         confidence: high
 metadata:
   github:
@@ -30,19 +36,25 @@ metadata:
     archived: false
     full_name: For-Sunny/hebbian-mind-enterprise
     html_url: https://github.com/For-Sunny/hebbian-mind-enterprise
-    created_at: "2026-01-26T17:50:04Z"
-    pushed_at: "2026-03-13T13:28:26Z"
+    created_at: '2026-01-26T17:50:04Z'
+    pushed_at: '2026-03-13T13:28:26Z'
     description: Enterprise Hebbian neural graph for AI memory - CIPS LLC
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:42.514Z"
+    last_checked_at: '2026-09-03T05:16:42.514Z'
     readme:
-      fetched_at: "2026-09-03T05:16:42.514Z"
+      fetched_at: '2026-09-03T05:16:42.514Z'
       bytes: 11222
 insights:
-  summary: An MCP server that implements a Hebbian learning-based knowledge graph for associative memory with automatic concept activation and edge strengthening.
-  why_it_matters: Provides developers with a self-organizing memory system that surfaces related concepts through use, reducing manual knowledge graph maintenance in AI-assisted workflows.
-  mental_damage: Finally, a memory system that forgets your embarrassing typos as quickly as it remembers your architecture decisions.
+  summary: >-
+    An MCP server that implements a Hebbian learning-based knowledge graph for associative memory with automatic concept
+    activation and edge strengthening.
+  why_it_matters: >-
+    Provides developers with a self-organizing memory system that surfaces related concepts through use, reducing manual
+    knowledge graph maintenance in AI-assisted workflows.
+  mental_damage: >-
+    Finally, a memory system that forgets your embarrassing typos as quickly as it remembers your architecture
+    decisions.
   tags:
     - mcp
     - memory
@@ -51,31 +63,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product is explicitly an MCP server for knowledge and memory, designed to integrate with Claude Desktop and any MCP-compatible client.
+  reason: >-
+    The product is explicitly an MCP server for knowledge and memory, designed to integrate with Claude Desktop and any
+    MCP-compatible client.
   evidence:
-    - Repo description identifies it as an 'Enterprise Hebbian neural graph for AI memory' and the README confirms it is 'An MCP server that builds knowledge graphs through use.'
-    - README explicitly lists 'MCP Native - Works with Claude Desktop, Claude Code, any MCP-compatible client' and provides MCP tool definitions (save_to_mind, query_mind).
+    - >-
+      Repo description identifies it as an 'Enterprise Hebbian neural graph for AI memory' and the README confirms it is
+      'An MCP server that builds knowledge graphs through use.'
+    - >-
+      README explicitly lists 'MCP Native - Works with Claude Desktop, Claude Code, any MCP-compatible client' and
+      provides MCP tool definitions (save_to_mind, query_mind).
     - Listed in awesome-mcp-servers under 'Knowledge & Memory', confirming community recognition as an MCP server.
 placement:
   primary_category: mcp
-  section: null
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
+  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''context-engineering'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.614Z"
+    updated_at: '2026-05-06T22:12:15.614Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:42.514Z"
+    updated_at: '2026-09-03T05:16:42.514Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:57:55.952Z"
+    updated_at: '2026-07-21T15:57:55.952Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,14 +107,22 @@ processing:
       input_hash: sha256:9167f9224c74821dd56665f089f6c8a4025f4afd7faff5f65a570056777c276d
       proposed_primary_category: context-engineering
       disagreement: true
-      decision_reason: The core novelty is a memory and retrieval system based on Hebbian learning principles, making it primarily a context-shaping infrastructure rather than a coding assistant or host integration.
+      decision_reason: >-
+        The core novelty is a memory and retrieval system based on Hebbian learning principles, making it primarily a
+        context-shaping infrastructure rather than a coding assistant or host integration.
       decision_evidence:
-        - README describes it as 'Memory that learns. Connections that fade.' with concepts connecting when they activate together and unused connections decaying
-        - Primary function is associative memory with automatic concept activation and edge strengthening through co-activation
+        - >-
+          README describes it as 'Memory that learns. Connections that fade.' with concepts connecting when they
+          activate together and unused connections decaying
+        - >-
+          Primary function is associative memory with automatic concept activation and edge strengthening through
+          co-activation
         - Product is explicitly an MCP server focused on memory capabilities, not code editing or assistant augmentation
       category_candidates:
         - context-engineering
         - ai-dev-extensions
-      contrastive_reason: Choose context-engineering over ai-dev-extensions because the core novelty is memory, retrieval, and context-shaping infrastructure rather than host integration capabilities for another assistant.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
+      contrastive_reason: >-
+        Choose context-engineering over ai-dev-extensions because the core novelty is memory, retrieval, and
+        context-shaping infrastructure rather than host integration capabilities for another assistant.
+      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''context-engineering'''
       review_resume_lifecycle: null

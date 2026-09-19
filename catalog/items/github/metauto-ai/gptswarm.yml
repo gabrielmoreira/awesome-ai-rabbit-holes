@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__metauto-ai__gptswarm__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,7 @@ provenance:
           - GPTSwarm
         anchor_text: GPTSwarm
         extracted_url: https://gptswarm.org
-        surrounding_text: "## [GPTSwarm](https://gptswarm.org/)"
+        surrounding_text: '## [GPTSwarm](https://gptswarm.org/)'
         confidence: high
 metadata:
   github:
@@ -29,8 +29,8 @@ metadata:
     archived: false
     full_name: metauto-ai/GPTSwarm
     html_url: https://github.com/metauto-ai/GPTSwarm
-    created_at: "2024-02-26T20:29:59Z"
-    pushed_at: "2026-02-05T10:39:09Z"
+    created_at: '2024-02-26T20:29:59Z'
+    pushed_at: '2026-02-05T10:39:09Z'
     description: 🐝  The First Self-Improving agents with RL / Prompting Optimization
     homepage: https://gptswarm.org
     topics:
@@ -43,14 +43,20 @@ metadata:
       - self-improvement
       - society-of-mind
       - swarm-intelligence
-    last_checked_at: "2026-08-03T05:17:00.625Z"
+    last_checked_at: '2026-08-03T05:17:00.625Z'
     readme:
-      fetched_at: "2026-08-03T05:17:00.625Z"
+      fetched_at: '2026-08-03T05:17:00.625Z'
       bytes: 8272
 insights:
-  summary: GPTSwarm is a graph-based Python framework for building LLM-based agents using nodes and edges, with built-in optimizers for self-improving multi-agent swarms.
-  why_it_matters: It gives developers a structured, code-first way to model, optimize, and run multi-agent systems where agent behaviors and inter-agent connections are explicit graph elements.
-  mental_damage: Just when you thought your codebase was complex enough, you can now model your agents as a self-optimizing graph and politely wonder which edge will fail first.
+  summary: >-
+    GPTSwarm is a graph-based Python framework for building LLM-based agents using nodes and edges, with built-in
+    optimizers for self-improving multi-agent swarms.
+  why_it_matters: >-
+    It gives developers a structured, code-first way to model, optimize, and run multi-agent systems where agent
+    behaviors and inter-agent connections are explicit graph elements.
+  mental_damage: >-
+    Just when you thought your codebase was complex enough, you can now model your agents as a self-optimizing graph and
+    politely wonder which edge will fail first.
   tags:
     - multi-agent
     - graphs
@@ -60,35 +66,43 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The README presents GPTSwarm as a library with modules (graph, llm, memory, optimizer) that developers import and script against, making it a code-first agent framework rather than an operated platform or standalone coding assistant.
+  reason: >-
+    The README presents GPTSwarm as a library with modules (graph, llm, memory, optimizer) that developers import and
+    script against, making it a code-first agent framework rather than an operated platform or standalone coding
+    assistant.
   evidence:
-    - "Repo description: 'The First Self-Improving Agentic Solution' and README: 'At a granular level, GPTSwarm is a library' with modules like swarm.graph and swarm.optimizer."
-    - Source list appearance in awesome-ai-agents under a multi-agent section, aligning with its graph-based multi-agent focus.
+    - >-
+      Repo description: 'The First Self-Improving Agentic Solution' and README: 'At a granular level, GPTSwarm is a
+      library' with modules like swarm.graph and swarm.optimizer.
+    - >-
+      Source list appearance in awesome-ai-agents under a multi-agent section, aligning with its graph-based multi-agent
+      focus.
     - Pushed recently (2026-02-05) and not archived, showing active maintenance of a developer-facing framework.
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  secondary_categories: []
+  section: Multi-Agent Systems
 lifecycle:
   status: promotion_candidate
   reason: Stars (989) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.629Z"
+    updated_at: '2026-05-06T22:12:15.629Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:00.626Z"
+    updated_at: '2026-08-03T05:17:00.626Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

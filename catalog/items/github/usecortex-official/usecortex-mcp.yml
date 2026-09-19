@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__usecortex-official__usecortex-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: darktw/usecortex-mcp
         extracted_url: https://github.com/darktw/usecortex-mcp
-        surrounding_text: "- [darktw/usecortex-mcp](https://github.com/darktw/usecortex-mcp) [![darktw/usecortex-mcp MCP server](https://glama.ai/mcp/servers/darktw/usecortex-mcp/badges/score.svg)](https://glama.ai/mcp/servers/darktw/usecortex-mcp) ☁️ - Persistent knowledge memory for AI agents. Two-way flow: read context into projects and write discoveries back. Structured by topic with AES-256 encryption."
+        surrounding_text: >-
+          - [darktw/usecortex-mcp](https://github.com/darktw/usecortex-mcp) [![darktw/usecortex-mcp MCP
+          server](https://glama.ai/mcp/servers/darktw/usecortex-mcp/badges/score.svg)](https://glama.ai/mcp/servers/darktw/usecortex-mcp)
+          ☁️ - Persistent knowledge memory for AI agents. Two-way flow: read context into projects and write discoveries
+          back. Structured by topic with AES-256 encryption.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: usecortex-official/usecortex-mcp
     html_url: https://github.com/usecortex-official/usecortex-mcp
-    created_at: "2026-03-09T01:54:10Z"
-    pushed_at: "2026-03-17T17:03:30Z"
+    created_at: '2026-03-09T01:54:10Z'
+    pushed_at: '2026-03-17T17:03:30Z'
     description: UseCortex MCP Server — Give your AI coding agent a persistent memory. Read and write knowledge from any tool.
     homepage: https://usecortex.net
     topics:
@@ -44,12 +48,14 @@ metadata:
       - mcp
       - mcp-server
       - usecortex
-    last_checked_at: "2026-07-21T15:21:00.450Z"
+    last_checked_at: '2026-07-21T15:21:00.450Z'
     readme:
-      fetched_at: "2026-07-21T15:21:00.450Z"
+      fetched_at: '2026-07-21T15:21:00.450Z'
       bytes: 9387
 insights:
-  summary: UseCortex MCP Server is a Model Context Protocol server that provides AI coding agents with persistent, encrypted memory for reading and writing knowledge.
+  summary: >-
+    UseCortex MCP Server is a Model Context Protocol server that provides AI coding agents with persistent, encrypted
+    memory for reading and writing knowledge.
   why_it_matters: It solves the context window limitation by giving agents long-term memory that works across any MCP-compatible tool.
   mental_damage: Now your AI can forget less and remember too much, just like a developer with a second monitor and zero boundaries.
   tags:
@@ -59,31 +65,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product is a memory system for AI agents, not an agent itself or a host integration, making Prompt & Context Engineering the best fit.
+  reason: >-
+    The core product is a memory system for AI agents, not an agent itself or a host integration, making Prompt &
+    Context Engineering the best fit.
   evidence:
-    - "Repo description: 'UseCortex MCP Server — Give your AI coding agent a persistent memory. Read and write knowledge from any tool.'"
-    - "README: 'UseCortex MCP is a Model Context Protocol server that gives AI coding agents persistent memory.'"
-    - "Source-list context: Listed in awesome-mcp-servers under Knowledge & Memory section"
+    - >-
+      Repo description: 'UseCortex MCP Server — Give your AI coding agent a persistent memory. Read and write knowledge
+      from any tool.'
+    - 'README: ''UseCortex MCP is a Model Context Protocol server that gives AI coding agents persistent memory.'''
+    - 'Source-list context: Listed in awesome-mcp-servers under Knowledge & Memory section'
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: mcp
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.653Z"
+    updated_at: '2026-05-06T22:12:15.653Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:00.450Z"
+    updated_at: '2026-07-21T15:21:00.450Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:20:29.813Z"
+    updated_at: '2026-05-12T15:20:29.813Z'
     cause: null
     next_retry_at: null
     attempts: 1

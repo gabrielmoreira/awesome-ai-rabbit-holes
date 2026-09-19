@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cognition__ai__blog__introducing__devin__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Devin
         anchor_text: Devin
         extracted_url: https://www.cognition-labs.com/introducing-devin
-        surrounding_text: "## [Devin](https://www.cognition-labs.com/introducing-devin)"
+        surrounding_text: '## [Devin](https://www.cognition-labs.com/introducing-devin)'
         confidence: high
 metadata:
   github:
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Devin is an autonomous AI software engineer capable of planning, executing complex engineering tasks, and using developer tools like shells and browsers.
-  why_it_matters: It shifts the developer role from active coder to high-level reviewer by autonomously handling end-to-end tasks like debugging, feature implementation, and deployment.
-  mental_damage: The existential dread of watching a sandboxed shell execute itself while you realize your primary job might just be approving its PRs.
+  summary: >-
+    Devin is an autonomous AI software engineer capable of planning, executing complex engineering tasks, and using
+    developer tools like shells and browsers.
+  why_it_matters: >-
+    It shifts the developer role from active coder to high-level reviewer by autonomously handling end-to-end tasks like
+    debugging, feature implementation, and deployment.
+  mental_damage: >-
+    The existential dread of watching a sandboxed shell execute itself while you realize your primary job might just be
+    approving its PRs.
   tags:
     - autonomous-agents
     - ai-engineer
@@ -48,21 +54,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Devin is a standalone, autonomous agent that performs the core duties of a software engineer (planning, coding, testing, debugging) rather than just augmenting an existing IDE.
+  reason: >-
+    Devin is a standalone, autonomous agent that performs the core duties of a software engineer (planning, coding,
+    testing, debugging) rather than just augmenting an existing IDE.
   evidence:
     - Claims to be the 'first fully autonomous AI software engineer'
     - Capable of independent planning, executing tasks in a sandboxed environment, and fixing bugs autonomously
     - Evaluated on SWE-bench for resolving real-world GitHub issues
 placement:
   primary_category: coding-agents
-  section: Browser/Desktop/Computer-Use Agents
+  secondary_categories: []
+  section: Browser & Computer-Use Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.660Z"
+    updated_at: '2026-05-06T22:12:15.660Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +80,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:32:28.737Z"
+    updated_at: '2026-07-20T15:32:28.737Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +93,9 @@ processing:
       input_hash: sha256:26609c465427d0a95acb5c8ac1149951cf5e77806b34cbfa10e6f5c8962e911f
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Devin is a standalone, autonomous agent that performs the core duties of a software engineer (planning, coding, testing, debugging) rather than just augmenting an existing IDE.
+      decision_reason: >-
+        Devin is a standalone, autonomous agent that performs the core duties of a software engineer (planning, coding,
+        testing, debugging) rather than just augmenting an existing IDE.
       decision_evidence:
         - Claims to be the 'first fully autonomous AI software engineer'
         - Capable of independent planning, executing tasks in a sandboxed environment, and fixing bugs autonomously
@@ -92,6 +103,8 @@ processing:
       category_candidates:
         - coding-agents
         - app-builders
-      contrastive_reason: Choose coding-agents over app-builders because its primary identity is an autonomous agent designed to manage and edit existing codebases and resolve issues, rather than just scaffolding new applications.
+      contrastive_reason: >-
+        Choose coding-agents over app-builders because its primary identity is an autonomous agent designed to manage
+        and edit existing codebases and resolve issues, rather than just scaffolding new applications.
       review_reason: null
       review_resume_lifecycle: null

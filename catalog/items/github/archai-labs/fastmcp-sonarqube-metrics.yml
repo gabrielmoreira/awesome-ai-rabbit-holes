@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__archai-labs__fastmcp-sonarqube-metrics__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: ArchAI-Labs/fastmcp-sonarqube-metrics
         extracted_url: https://github.com/archai-labs/fastmcp-sonarqube-metrics
-        surrounding_text: "- [ArchAI-Labs/fastmcp-sonarqube-metrics](https://github.com/ArchAI-Labs/fastmcp-sonarqube-metrics) 🐍 🏠 🪟 🐧 🍎 -  A Model Context Protocol (MCP) server that provides a set of tools for retrieving information about SonarQube projects like metrics (actual and historical), issues, health status."
+        surrounding_text: >-
+          - [ArchAI-Labs/fastmcp-sonarqube-metrics](https://github.com/ArchAI-Labs/fastmcp-sonarqube-metrics) 🐍 🏠 🪟
+          🐧 🍎 -  A Model Context Protocol (MCP) server that provides a set of tools for retrieving information about
+          SonarQube projects like metrics (actual and historical), issues, health status.
         confidence: high
 metadata:
   github:
@@ -30,20 +33,22 @@ metadata:
     archived: false
     full_name: ArchAI-Labs/fastmcp-sonarqube-metrics
     html_url: https://github.com/ArchAI-Labs/fastmcp-sonarqube-metrics
-    created_at: "2025-05-12T16:26:08Z"
-    pushed_at: "2026-03-30T12:20:44Z"
-    description: "Chat with your SonarQube data: explore metrics, compare trends, and track issues—effortlessly."
-    homepage: ""
+    created_at: '2025-05-12T16:26:08Z'
+    pushed_at: '2026-03-30T12:20:44Z'
+    description: 'Chat with your SonarQube data: explore metrics, compare trends, and track issues—effortlessly.'
+    homepage: ''
     topics:
       - mcp-server
       - sonarqube
-    last_checked_at: "2026-09-10T04:12:57.736Z"
+    last_checked_at: '2026-09-10T04:12:57.736Z'
     readme:
-      fetched_at: "2026-09-10T04:12:57.736Z"
+      fetched_at: '2026-09-10T04:12:57.736Z'
       bytes: 20168
 insights:
   summary: An MCP server that exposes SonarQube metrics, project data, and issue tracking as tools for AI assistants.
-  why_it_matters: Lets developers query SonarQube code quality metrics directly from their AI coding workflows without manual API calls.
+  why_it_matters: >-
+    Lets developers query SonarQube code quality metrics directly from their AI coding workflows without manual API
+    calls.
   mental_damage: Now your AI can judge your code quality while you’re still writing it—progress.
   tags:
     - mcp-server
@@ -54,31 +59,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: it is a server exposing SonarQube-specific tools via the Model Context Protocol."
+  reason: 'MCP is the product identity: it is a server exposing SonarQube-specific tools via the Model Context Protocol.'
   evidence:
     - Repo description explicitly states it is for chatting with SonarQube data via MCP
     - README lists MCP tools for SonarQube metrics, history, and issues
     - Already listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.603Z"
+    updated_at: '2026-05-06T22:12:15.603Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:12:57.736Z"
+    updated_at: '2026-09-10T04:12:57.736Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:23:46.425Z"
+    updated_at: '2026-07-21T15:23:46.425Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -91,7 +97,7 @@ processing:
       input_hash: sha256:0e556ec0814bfc9ea175c26ca380db0fe95778afc128b1a2ad213d2689e8af66
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: it is a server exposing SonarQube-specific tools via the Model Context Protocol."
+      decision_reason: 'MCP is the product identity: it is a server exposing SonarQube-specific tools via the Model Context Protocol.'
       decision_evidence:
         - Repo description explicitly states it is for chatting with SonarQube data via MCP
         - README lists MCP tools for SonarQube metrics, history, and issues
@@ -99,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific tools, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific tools, not
+        an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mvtandas__wp-cli-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: mvtandas/wp-cli-mcp
         extracted_url: https://github.com/mvtandas/wp-cli-mcp
-        surrounding_text: "- [mvtandas/wp-cli-mcp](https://github.com/mvtandas/wp-cli-mcp) [![mvtandas/wp-cli-mcp MCP server](https://glama.ai/mcp/servers/mvtandas/wp-cli-mcp/badges/score.svg)](https://glama.ai/mcp/servers/mvtandas/wp-cli-mcp) 📇 🏠 - Full WordPress management via WP-CLI with 30+ tools for themes, plugins, posts, menus, users, database, scaffolding, and cache. Works locally or over SSH to remote servers."
+        surrounding_text: >-
+          - [mvtandas/wp-cli-mcp](https://github.com/mvtandas/wp-cli-mcp) [![mvtandas/wp-cli-mcp MCP
+          server](https://glama.ai/mcp/servers/mvtandas/wp-cli-mcp/badges/score.svg)](https://glama.ai/mcp/servers/mvtandas/wp-cli-mcp)
+          📇 🏠 - Full WordPress management via WP-CLI with 30+ tools for themes, plugins, posts, menus, users,
+          database, scaffolding, and cache. Works locally or over SSH to remote servers.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: mvtandas/wp-cli-mcp
     html_url: https://github.com/mvtandas/wp-cli-mcp
-    created_at: "2026-04-14T12:41:01Z"
-    pushed_at: "2026-04-14T14:30:46Z"
-    description: MCP server that gives AI tools full WordPress management via WP-CLI — 30+ tools for themes, plugins, posts, menus, users, database, and scaffolding
+    created_at: '2026-04-14T12:41:01Z'
+    pushed_at: '2026-04-14T14:30:46Z'
+    description: >-
+      MCP server that gives AI tools full WordPress management via WP-CLI — 30+ tools for themes, plugins, posts, menus,
+      users, database, and scaffolding
     homepage: null
     topics:
       - ai
@@ -45,14 +51,20 @@ metadata:
       - woocommerce
       - wordpress
       - wp-cli
-    last_checked_at: "2026-07-20T15:11:58.172Z"
+    last_checked_at: '2026-07-20T15:11:58.172Z'
     readme:
-      fetched_at: "2026-07-20T15:11:58.172Z"
+      fetched_at: '2026-07-20T15:11:58.172Z'
       bytes: 4931
 insights:
-  summary: An MCP server that exposes 30+ WP-CLI commands to AI coding tools, enabling direct management of WordPress themes, plugins, posts, and databases via prompt.
-  why_it_matters: It allows developers to scaffold themes, manage plugins, and run database migrations on remote or local WordPress sites directly through Claude Code or Cursor conversations.
-  mental_damage: We have successfully abstracted away the act of SSHing into a server by adding a 30-tool middleware layer so you can ask an LLM to run wp_search_replace for you.
+  summary: >-
+    An MCP server that exposes 30+ WP-CLI commands to AI coding tools, enabling direct management of WordPress themes,
+    plugins, posts, and databases via prompt.
+  why_it_matters: >-
+    It allows developers to scaffold themes, manage plugins, and run database migrations on remote or local WordPress
+    sites directly through Claude Code or Cursor conversations.
+  mental_damage: >-
+    We have successfully abstracted away the act of SSHing into a server by adding a 30-tool middleware layer so you can
+    ask an LLM to run wp_search_replace for you.
   tags:
     - mcp
     - wordpress
@@ -61,37 +73,42 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server specifically designed to give AI tools access to WordPress management capabilities via WP-CLI.
+  reason: >-
+    The product identity is an MCP server specifically designed to give AI tools access to WordPress management
+    capabilities via WP-CLI.
   evidence:
     - Repo description explicitly states 'MCP server that gives AI tools full WordPress management via WP-CLI'.
     - README lists 30+ specific tools like wp_plugin_install, wp_db_export, and wp_scaffold_theme exposed via MCP.
-    - Topics include 'mcp' and 'model-context-protocol', and it is listed in awesome-mcp-servers under Server Implementations.
+    - >-
+      Topics include 'mcp' and 'model-context-protocol', and it is listed in awesome-mcp-servers under Server
+      Implementations.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.632Z"
+    updated_at: '2026-05-06T22:12:15.632Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-08-03T05:17:09.399Z"
+    updated_at: '2026-08-03T05:17:09.399Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for mvtandas/wp-cli-mcp
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

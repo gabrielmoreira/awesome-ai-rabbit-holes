@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pypi__org__project__mcp__blast__radius__0__2__0__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-13T05:12:52.223Z"
+      discovered_at: '2026-07-13T05:12:52.223Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,14 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: PyPI
         extracted_url: https://pypi.org/project/mcp-blast-radius/0.2.0
-        surrounding_text: "- [aos-standard/mcp-blast-radius](https://github.com/aos-standard/mcp-blast-radius) [![aos-standard/mcp-blast-radius MCP server](https://glama.ai/mcp/servers/aos-standard/mcp-blast-radius/badges/score.svg)](https://glama.ai/mcp/servers/aos-standard/mcp-blast-radius) 🐍 🏠 - MCP Blast-Radius Auditor — static blast radius extraction and AOS `manifest.json` divergence gate (Oracle / Permitted / Prohibited). Stdio MCP (`mcp-blast-radius`) plus CI blocking gate (`mcp-blast-radius-gate`). Install: `pip install mcp-blast-radius==0.2.0` · [PyPI](https://pypi.org/project/mcp-blast-radius/0.2.0/)"
+        surrounding_text: >-
+          - [aos-standard/mcp-blast-radius](https://github.com/aos-standard/mcp-blast-radius)
+          [![aos-standard/mcp-blast-radius MCP
+          server](https://glama.ai/mcp/servers/aos-standard/mcp-blast-radius/badges/score.svg)](https://glama.ai/mcp/servers/aos-standard/mcp-blast-radius)
+          🐍 🏠 - MCP Blast-Radius Auditor — static blast radius extraction and AOS `manifest.json` divergence gate
+          (Oracle / Permitted / Prohibited). Stdio MCP (`mcp-blast-radius`) plus CI blocking gate
+          (`mcp-blast-radius-gate`). Install: `pip install mcp-blast-radius==0.2.0` ·
+          [PyPI](https://pypi.org/project/mcp-blast-radius/0.2.0/)
         confidence: high
 metadata:
   github:
@@ -52,14 +59,14 @@ curation:
     - Package name 'cp-blast-radius' directly references the Model Context Protocol
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-13T05:12:52.225Z"
+    updated_at: '2026-07-13T05:12:52.225Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +75,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-13T05:23:46.238Z"
+    updated_at: '2026-07-13T05:23:46.238Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

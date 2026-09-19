@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__michael-whitecapdata__ollama-handoff__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-25T05:24:49.456Z"
+      discovered_at: '2026-06-25T05:24:49.456Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Michael-WhiteCapData/ollama-handoff
         extracted_url: https://github.com/michael-whitecapdata/ollama-handoff
-        surrounding_text: "- [Michael-WhiteCapData/ollama-handoff](https://github.com/Michael-WhiteCapData/ollama-handoff) 🐍 🏠 🍎 🪟 🐧 - Offload cheap work from your cloud LLM agent to a local Ollama model — summaries, drafts, extractions, and first-pass code reviews via purpose-built handoff tools with baked-in prompts, at zero cloud cost. [![Michael-WhiteCapData/ollama-handoff MCP server](https://glama.ai/mcp/servers/Michael-WhiteCapData/ollama-handoff/badges/score.svg)](https://glama.ai/mcp/servers/Michael-WhiteCapData/ollama-handoff)"
+        surrounding_text: >-
+          - [Michael-WhiteCapData/ollama-handoff](https://github.com/Michael-WhiteCapData/ollama-handoff) 🐍 🏠 🍎 🪟 🐧
+          - Offload cheap work from your cloud LLM agent to a local Ollama model — summaries, drafts, extractions, and
+          first-pass code reviews via purpose-built handoff tools with baked-in prompts, at zero cloud cost.
+          [![Michael-WhiteCapData/ollama-handoff MCP
+          server](https://glama.ai/mcp/servers/Michael-WhiteCapData/ollama-handoff/badges/score.svg)](https://glama.ai/mcp/servers/Michael-WhiteCapData/ollama-handoff)
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: Michael-WhiteCapData/ollama-handoff
     html_url: https://github.com/Michael-WhiteCapData/ollama-handoff
-    created_at: "2026-06-21T00:37:34Z"
-    pushed_at: "2026-06-23T02:07:04Z"
-    description: MCP server that offloads cheap work from your cloud LLM agent to a local Ollama model — summaries, drafts, extractions, first-pass reviews — at zero cloud cost.
+    created_at: '2026-06-21T00:37:34Z'
+    pushed_at: '2026-06-23T02:07:04Z'
+    description: >-
+      MCP server that offloads cheap work from your cloud LLM agent to a local Ollama model — summaries, drafts,
+      extractions, first-pass reviews — at zero cloud cost.
     homepage: https://github.com/Michael-WhiteCapData/ollama-handoff
     topics:
       - ai-agents
@@ -43,14 +50,20 @@ metadata:
       - model-context-protocol
       - ollama
       - python
-    last_checked_at: "2026-08-03T05:17:01.178Z"
+    last_checked_at: '2026-08-03T05:17:01.178Z'
     readme:
-      fetched_at: "2026-08-03T05:17:01.178Z"
+      fetched_at: '2026-08-03T05:17:01.178Z'
       bytes: 5566
 insights:
-  summary: MCP server that offloads cheap LLM tasks like summarization and code review to a local Ollama model via purpose-built tools with baked-in system prompts.
-  why_it_matters: Lets developers reduce cloud LLM costs and preserve frontier model reasoning by routing routine work to a local model without losing agent integration.
-  mental_damage: Yet another way to feel virtuous about saving pennies while juggling three different model endpoints in your MCP config.
+  summary: >-
+    MCP server that offloads cheap LLM tasks like summarization and code review to a local Ollama model via
+    purpose-built tools with baked-in system prompts.
+  why_it_matters: >-
+    Lets developers reduce cloud LLM costs and preserve frontier model reasoning by routing routine work to a local
+    model without losing agent integration.
+  mental_damage: >-
+    Yet another way to feel virtuous about saving pennies while juggling three different model endpoints in your MCP
+    config.
   tags:
     - mcp
     - local-llm
@@ -58,31 +71,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core identity is exposing local Ollama capabilities as MCP tools, making MCP the primary product identity rather than a compatibility feature.
+  reason: >-
+    The product is an MCP server whose core identity is exposing local Ollama capabilities as MCP tools, making MCP the
+    primary product identity rather than a compatibility feature.
   evidence:
-    - "Repo description: 'MCP server that offloads cheap work from your cloud LLM agent to a local Ollama model'"
-    - "README: exposes local Ollama instance as purpose-built MCP tools with baked-in system prompts for the calling agent"
-    - "Source-list context: listed in awesome-mcp-servers under Server Implementations > Developer Tools"
+    - 'Repo description: ''MCP server that offloads cheap work from your cloud LLM agent to a local Ollama model'''
+    - >-
+      README: exposes local Ollama instance as purpose-built MCP tools with baked-in system prompts for the calling
+      agent
+    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations > Developer Tools'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-25T05:24:49.458Z"
+    updated_at: '2026-06-25T05:24:49.458Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:01.178Z"
+    updated_at: '2026-08-03T05:17:01.178Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-06T05:41:52.324Z"
+    updated_at: '2026-07-06T05:41:52.324Z'
     cause: null
     next_retry_at: null
     attempts: 1

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__v0__app__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-08-03T05:16:24.577Z"
+      discovered_at: '2026-08-03T05:16:24.577Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - v0 by Vercel
         anchor_text: v0 by Vercel
         extracted_url: https://v0.dev
-        surrounding_text: "## [v0 by Vercel](https://v0.dev/)"
+        surrounding_text: '## [v0 by Vercel](https://v0.dev/)'
         confidence: high
     - id: discovery__v0__app__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-08-03T05:16:24.577Z"
+      discovered_at: '2026-08-03T05:16:24.577Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,10 +33,12 @@ provenance:
           - App Builders
         anchor_text: v0.dev
         extracted_url: https://v0.dev
-        surrounding_text: "- **[v0.dev](https://v0.dev/)** – Vercel's AI tool for generating UI components and full pages from text prompts."
+        surrounding_text: >-
+          - **[v0.dev](https://v0.dev/)** – Vercel's AI tool for generating UI components and full pages from text
+          prompts.
         confidence: high
     - id: discovery__v0__app__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-08-03T05:16:24.577Z"
+      discovered_at: '2026-08-03T05:16:24.577Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -67,8 +69,12 @@ metadata:
     readme: null
 insights:
   summary: An AI assistant for generating, iterating, and deploying full-stack web applications from natural language prompts.
-  why_it_matters: It accelerates the prototyping-to-production pipeline by automating UI generation, task planning, and deployment to Vercel.
-  mental_damage: It turns the architectural planning phase into a single text box, effectively deleting the middleman between your imagination and a live URL.
+  why_it_matters: >-
+    It accelerates the prototyping-to-production pipeline by automating UI generation, task planning, and deployment to
+    Vercel.
+  mental_damage: >-
+    It turns the architectural planning phase into a single text box, effectively deleting the middleman between your
+    imagination and a live URL.
   tags:
     - vercel
     - full-stack
@@ -84,14 +90,15 @@ curation:
     - Uses agentic workflows to plan tasks and connect to databases
 placement:
   primary_category: app-builders
-  section: Prompt-to-App Builders
+  secondary_categories: []
+  section: Full App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-08-03T05:16:24.579Z"
+    updated_at: '2026-08-03T05:16:24.579Z'
     cause: null
     next_retry_at: null
   stars:
@@ -100,7 +107,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-01T14:33:27.708Z"
+    updated_at: '2026-09-01T14:33:27.708Z'
     cause: null
     next_retry_at: null
     attempts: 3
@@ -119,7 +126,9 @@ processing:
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: Choose app-builders over coding-agents because the primary workflow is the creation of entire applications from prompts rather than the incremental editing of an existing codebase.
+      contrastive_reason: >-
+        Choose app-builders over coding-agents because the primary workflow is the creation of entire applications from
+        prompts rather than the incremental editing of an existing codebase.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

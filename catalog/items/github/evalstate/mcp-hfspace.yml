@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__evalstate__mcp-hfspace__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: HuggingFace Spaces
         extracted_url: https://github.com/evalstate/mcp-hfspace
-        surrounding_text: "- **[HuggingFace Spaces](https://github.com/evalstate/mcp-hfspace)** - Server for using HuggingFace Spaces, supporting Images, Audio, Text and more. Claude Desktop mode for ease-of-use."
+        surrounding_text: >-
+          - **[HuggingFace Spaces](https://github.com/evalstate/mcp-hfspace)** - Server for using HuggingFace Spaces,
+          supporting Images, Audio, Text and more. Claude Desktop mode for ease-of-use.
         confidence: high
 metadata:
   github:
@@ -29,18 +31,20 @@ metadata:
     archived: false
     full_name: evalstate/mcp-hfspace
     html_url: https://github.com/evalstate/mcp-hfspace
-    created_at: "2024-12-03T17:39:34Z"
-    pushed_at: "2025-06-13T17:05:31Z"
-    description: "MCP Server to Use HuggingFace spaces, easy configuration and Claude Desktop mode. "
+    created_at: '2024-12-03T17:39:34Z'
+    pushed_at: '2025-06-13T17:05:31Z'
+    description: 'MCP Server to Use HuggingFace spaces, easy configuration and Claude Desktop mode. '
     homepage: https://llmindset.co.uk/resources/mcp-hfspace/
     topics: []
-    last_checked_at: "2026-08-27T09:23:26.246Z"
+    last_checked_at: '2026-08-27T09:23:26.246Z'
     readme:
-      fetched_at: "2026-08-27T09:23:26.246Z"
+      fetched_at: '2026-08-27T09:23:26.246Z'
       bytes: 10752
 insights:
   summary: An MCP server that allows Claude Desktop to interact with Hugging Face Spaces, including Gradio endpoints.
-  why_it_matters: It expands the capabilities of desktop AI assistants by bridging them to specialized models and tools hosted on Hugging Face.
+  why_it_matters: >-
+    It expands the capabilities of desktop AI assistants by bridging them to specialized models and tools hosted on
+    Hugging Face.
   mental_damage: One more bridge to cross in the increasingly fragmented architecture of model endpoints and host protocols.
   tags:
     - mcp
@@ -58,24 +62,25 @@ curation:
     - Provides access to Hugging Face Spaces via the Model Context Protocol
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: promotion_candidate
   reason: Stars (388) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:26.246Z"
+    updated_at: '2026-08-27T09:23:26.246Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:53:44.586Z"
+    updated_at: '2026-07-21T15:53:44.586Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,6 +101,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is specifically an MCP server rather than a general Claude extension.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is specifically an MCP server rather than a
+        general Claude extension.
       review_reason: null
       review_resume_lifecycle: null

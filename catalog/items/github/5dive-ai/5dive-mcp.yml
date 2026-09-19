@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__5dive-ai__5dive-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-23T05:08:37.088Z"
+      discovered_at: '2026-07-23T05:08:37.088Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: 5dive-ai/5dive-mcp
         extracted_url: https://github.com/5dive-ai/5dive-mcp
-        surrounding_text: "- [5dive-ai/5dive-mcp](https://github.com/5dive-ai/5dive-mcp) [![5dive-mcp MCP server](https://glama.ai/mcp/servers/5dive-ai/5dive-mcp/badges/score.svg)](https://glama.ai/mcp/servers/5dive-ai/5dive-mcp) 📇 🏠 🍎 🪟 🐧 - Manage a 5dive agent fleet from any MCP client: file tasks, message and inspect agents, and read the fleet digest. Thin adapter over the 5dive CLI."
+        surrounding_text: >-
+          - [5dive-ai/5dive-mcp](https://github.com/5dive-ai/5dive-mcp) [![5dive-mcp MCP
+          server](https://glama.ai/mcp/servers/5dive-ai/5dive-mcp/badges/score.svg)](https://glama.ai/mcp/servers/5dive-ai/5dive-mcp)
+          📇 🏠 🍎 🪟 🐧 - Manage a 5dive agent fleet from any MCP client: file tasks, message and inspect agents, and
+          read the fleet digest. Thin adapter over the 5dive CLI.
         confidence: high
 metadata:
   github:
@@ -30,23 +34,31 @@ metadata:
     archived: false
     full_name: 5dive-ai/5dive-mcp
     html_url: https://github.com/5dive-ai/5dive-mcp
-    created_at: "2026-07-03T08:08:47Z"
-    pushed_at: "2026-08-12T06:24:28Z"
-    description: MCP (Model Context Protocol) server for 5dive. Exposes the agent-fleet CLI (tasks, agents, digest) as stdio MCP tools. MIT.
+    created_at: '2026-07-03T08:08:47Z'
+    pushed_at: '2026-08-12T06:24:28Z'
+    description: >-
+      MCP (Model Context Protocol) server for 5dive. Exposes the agent-fleet CLI (tasks, agents, digest) as stdio MCP
+      tools. MIT.
     homepage: null
     topics:
       - 5dive
       - ai-agents
       - mcp
       - model-context-protocol
-    last_checked_at: "2026-09-17T04:13:26.599Z"
+    last_checked_at: '2026-09-17T04:13:26.599Z'
     readme:
-      fetched_at: "2026-09-17T04:13:26.599Z"
+      fetched_at: '2026-09-17T04:13:26.599Z'
       bytes: 2935
 insights:
-  summary: An MCP server that exposes the 5dive agent-fleet CLI as tools for MCP-compatible clients like Claude Desktop and Cursor.
-  why_it_matters: It allows developers to manage autonomous agent fleets and task queues directly from within their existing AI-native IDEs or chat interfaces.
-  mental_damage: Because managing a fleet of autonomous agents wasn't already a high-stakes game of whack-a-mole from inside a chat prompt.
+  summary: >-
+    An MCP server that exposes the 5dive agent-fleet CLI as tools for MCP-compatible clients like Claude Desktop and
+    Cursor.
+  why_it_matters: >-
+    It allows developers to manage autonomous agent fleets and task queues directly from within their existing AI-native
+    IDEs or chat interfaces.
+  mental_damage: >-
+    Because managing a fleet of autonomous agents wasn't already a high-stakes game of whack-a-mole from inside a chat
+    prompt.
   tags:
     - mcp
     - agent-orchestration
@@ -61,25 +73,26 @@ curation:
     - Acts as a thin adapter for the existing 5dive binary
     - Enables tasking and fleet inspection within Claude Desktop, Cursor, and Cline
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-23T05:08:37.089Z"
+    updated_at: '2026-07-23T05:08:37.089Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:26.599Z"
+    updated_at: '2026-09-17T04:13:26.599Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:22:38.198Z"
+    updated_at: '2026-08-27T06:22:38.198Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -96,7 +109,9 @@ processing:
       category_candidates:
         - ai-dev-extensions
         - mcp
-      contrastive_reason: Choose ai-dev-extensions over mcp because the server is a thin adapter for the 5dive CLI rather than a standalone MCP infrastructure product.
+      contrastive_reason: >-
+        Choose ai-dev-extensions over mcp because the server is a thin adapter for the 5dive CLI rather than a
+        standalone MCP infrastructure product.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

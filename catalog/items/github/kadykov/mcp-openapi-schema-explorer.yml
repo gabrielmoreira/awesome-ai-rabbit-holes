@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kadykov__mcp-openapi-schema-explorer__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: kadykov/mcp-openapi-schema-explorer
         extracted_url: https://github.com/kadykov/mcp-openapi-schema-explorer
-        surrounding_text: "- [kadykov/mcp-openapi-schema-explorer](https://github.com/kadykov/mcp-openapi-schema-explorer) 📇 ☁️ 🏠 - Token-efficient access to OpenAPI/Swagger specs via MCP Resources."
+        surrounding_text: >-
+          - [kadykov/mcp-openapi-schema-explorer](https://github.com/kadykov/mcp-openapi-schema-explorer) 📇 ☁️ 🏠 -
+          Token-efficient access to OpenAPI/Swagger specs via MCP Resources.
         confidence: high
     - id: discovery__github__kadykov__mcp-openapi-schema-explorer__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +37,9 @@ provenance:
           - Community Servers
         anchor_text: OpenAPI Schema Explorer
         extracted_url: https://github.com/kadykov/mcp-openapi-schema-explorer
-        surrounding_text: "- **[OpenAPI Schema Explorer](https://github.com/kadykov/mcp-openapi-schema-explorer)** - Token-efficient access to OpenAPI/Swagger specs via MCP Resources"
+        surrounding_text: >-
+          - **[OpenAPI Schema Explorer](https://github.com/kadykov/mcp-openapi-schema-explorer)** - Token-efficient
+          access to OpenAPI/Swagger specs via MCP Resources
         confidence: high
 metadata:
   github:
@@ -45,10 +49,12 @@ metadata:
     archived: false
     full_name: kadykov/mcp-openapi-schema-explorer
     html_url: https://github.com/kadykov/mcp-openapi-schema-explorer
-    created_at: "2025-04-08T17:17:39Z"
-    pushed_at: "2026-07-27T02:53:40Z"
-    description: MCP server providing token-efficient access to OpenAPI/Swagger specs via MCP Resource Templates for client-side exploration.
-    homepage: ""
+    created_at: '2025-04-08T17:17:39Z'
+    pushed_at: '2026-07-27T02:53:40Z'
+    description: >-
+      MCP server providing token-efficient access to OpenAPI/Swagger specs via MCP Resource Templates for client-side
+      exploration.
+    homepage: ''
     topics:
       - api-specification
       - developer-tools
@@ -62,14 +68,20 @@ metadata:
       - openapi
       - swagger
       - typescript
-    last_checked_at: "2026-07-30T05:05:54.027Z"
+    last_checked_at: '2026-07-30T05:05:54.027Z'
     readme:
-      fetched_at: "2026-07-30T05:05:54.027Z"
+      fetched_at: '2026-07-30T05:05:54.027Z'
       bytes: 15461
 insights:
-  summary: An MCP server that exposes OpenAPI/Swagger specs via MCP Resource Templates for token-efficient client-side exploration.
-  why_it_matters: Lets MCP clients like Claude Desktop or Cline explore large API specs without loading entire files into context, using parameterized resource templates for on-demand access.
-  mental_damage: Finally, a way to make OpenAPI specs feel less like a 5000-line JSON tax and more like a first-class citizen in your AI workflow.
+  summary: >-
+    An MCP server that exposes OpenAPI/Swagger specs via MCP Resource Templates for token-efficient client-side
+    exploration.
+  why_it_matters: >-
+    Lets MCP clients like Claude Desktop or Cline explore large API specs without loading entire files into context,
+    using parameterized resource templates for on-demand access.
+  mental_damage: >-
+    Finally, a way to make OpenAPI specs feel less like a 5000-line JSON tax and more like a first-class citizen in your
+    AI workflow.
   tags:
     - mcp
     - openapi
@@ -79,31 +91,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the core product identity: this is a dedicated MCP server providing domain-specific (OpenAPI) functionality via MCP Resource Templates."
+  reason: >-
+    MCP is the core product identity: this is a dedicated MCP server providing domain-specific (OpenAPI) functionality
+    via MCP Resource Templates.
   evidence:
     - Repo description explicitly identifies it as an MCP server for OpenAPI/Swagger specs
     - README emphasizes MCP Resource Templates as the primary mechanism for spec access
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.588Z"
+    updated_at: '2026-05-06T22:12:15.588Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:54.027Z"
+    updated_at: '2026-07-30T05:05:54.027Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:11:42.808Z"
+    updated_at: '2026-07-21T16:11:42.808Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -116,7 +131,9 @@ processing:
       input_hash: sha256:67ae67f96995c00859b0b27b7f95943bdbdc8f3dc1bab396175c8954142a14b8
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the core product identity: this is a dedicated MCP server providing domain-specific (OpenAPI) functionality via MCP Resource Templates."
+      decision_reason: >-
+        MCP is the core product identity: this is a dedicated MCP server providing domain-specific (OpenAPI)
+        functionality via MCP Resource Templates.
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server for OpenAPI/Swagger specs
         - README emphasizes MCP Resource Templates as the primary mechanism for spec access
@@ -124,6 +141,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server (not an extension augmenting another assistant).
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server (not an extension
+        augmenting another assistant).
       review_reason: null
       review_resume_lifecycle: null

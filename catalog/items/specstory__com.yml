@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__specstory__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,9 @@ provenance:
           - Developer Productivity Tools
         anchor_text: SpecStory
         extracted_url: https://specstory.com
-        surrounding_text: "- **[SpecStory](https://specstory.com/)** – Cursor/VS Code/Claude Code extension for summarizing and sharing AI chat context."
+        surrounding_text: >-
+          - **[SpecStory](https://specstory.com/)** – Cursor/VS Code/Claude Code extension for summarizing and sharing
+          AI chat context.
         confidence: high
 metadata:
   github:
@@ -36,8 +38,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A tool that automatically captures and centralizes AI chat history from Cursor, Copilot, Claude Code, and Codex for searchable, persistent context.
-  why_it_matters: Eliminates context loss between coding sessions by making all past AI conversations searchable and reusable across projects and team members.
+  summary: >-
+    A tool that automatically captures and centralizes AI chat history from Cursor, Copilot, Claude Code, and Codex for
+    searchable, persistent context.
+  why_it_matters: >-
+    Eliminates context loss between coding sessions by making all past AI conversations searchable and reusable across
+    projects and team members.
   mental_damage: Finally, a way to remember what you told the AI last Tuesday at 3 AM.
   tags:
     - context-management
@@ -48,21 +54,28 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is capturing and resurfacing context from other coding assistants rather than acting as a primary coding agent itself, making it a memory/context add-on for existing tools.
+  reason: >-
+    The product's core identity is capturing and resurfacing context from other coding assistants rather than acting as
+    a primary coding agent itself, making it a memory/context add-on for existing tools.
   evidence:
-    - "Scraped site states: 'Automatically capture every chat from Cursor, Copilot, Claude Code & Codex. Save locally, access everywhere.'"
-    - Primary value is 'Never lose context' and 'Search your entire development history instantly' across multiple AI coding tools.
+    - >-
+      Scraped site states: 'Automatically capture every chat from Cursor, Copilot, Claude Code & Codex. Save locally,
+      access everywhere.'
+    - >-
+      Primary value is 'Never lose context' and 'Search your entire development history instantly' across multiple AI
+      coding tools.
     - Listed in awesome-ai-coding-tools under 'Developer Productivity Tools' as a conversation capture utility.
 placement:
-  primary_category: ai-dev-extensions
-  section: null
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Context & Session Management
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'context-engineering'"
+  reason: 'Categorization review required: placement disagreement: retained ''ai-dev-extensions'', proposed ''context-engineering'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +84,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:56.055Z"
+    updated_at: '2026-07-21T15:31:56.055Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,14 +97,24 @@ processing:
       input_hash: sha256:b94703ad3bdd4df824d5f165e0de0c05622e69a4fe389400b981dcbd23cb203c
       proposed_primary_category: context-engineering
       disagreement: true
-      decision_reason: Core value is persistent memory and context retrieval for AI coding sessions, not host integration or primary assistance.
+      decision_reason: >-
+        Core value is persistent memory and context retrieval for AI coding sessions, not host integration or primary
+        assistance.
       decision_evidence:
-        - "Product pitch: 'Never lose an AI conversation again. Automatically capture every chat from Cursor, Copilot, Claude Code & Codex'"
-        - "Features: 'All your AI chats searchable in one place', 'Stop losing valuable context', 'Search your entire development history instantly'"
-        - "Source-list placement: 'Developer Productivity Tools' in awesome-ai-coding-tools"
+        - >-
+          Product pitch: 'Never lose an AI conversation again. Automatically capture every chat from Cursor, Copilot,
+          Claude Code & Codex'
+        - >-
+          Features: 'All your AI chats searchable in one place', 'Stop losing valuable context', 'Search your entire
+          development history instantly'
+        - 'Source-list placement: ''Developer Productivity Tools'' in awesome-ai-coding-tools'
       category_candidates:
         - context-engineering
         - ai-dev-extensions
-      contrastive_reason: Choose context-engineering over ai-dev-extensions because the core novelty is memory and retrieval of AI conversations rather than augmenting a host assistant with new capabilities.
-      review_reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'context-engineering'"
+      contrastive_reason: >-
+        Choose context-engineering over ai-dev-extensions because the core novelty is memory and retrieval of AI
+        conversations rather than augmenting a host assistant with new capabilities.
+      review_reason: >-
+        Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed
+        'context-engineering'
       review_resume_lifecycle: null

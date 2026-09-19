@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__wizard__openzeppelin__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: OpenZeppelin Wizard templates
         extracted_url: https://wizard.openzeppelin.com
-        surrounding_text: "- [OpenZeppelin/contracts-wizard](https://github.com/OpenZeppelin/contracts-wizard/tree/master/packages/mcp) - A Model Context Protocol (MCP) server that allows AI agents to generate secure smart contracts in multiples languages based on [OpenZeppelin Wizard templates](https://wizard.openzeppelin.com/)."
+        surrounding_text: >-
+          - [OpenZeppelin/contracts-wizard](https://github.com/OpenZeppelin/contracts-wizard/tree/master/packages/mcp) -
+          A Model Context Protocol (MCP) server that allows AI agents to generate secure smart contracts in multiples
+          languages based on [OpenZeppelin Wizard templates](https://wizard.openzeppelin.com/).
         confidence: high
 metadata:
   github:
@@ -38,7 +41,9 @@ metadata:
     readme: null
 insights:
   summary: An interactive smart contract generator based on OpenZeppelin Contracts.
-  why_it_matters: It helps developers quickly scaffold secure smart contracts for multiple blockchain ecosystems using OpenZeppelin standards.
+  why_it_matters: >-
+    It helps developers quickly scaffold secure smart contracts for multiple blockchain ecosystems using OpenZeppelin
+    standards.
   mental_damage: Because nothing says 'trustless' like an AI-generated contract you still have to audit yourself.
   tags:
     - smart-contracts
@@ -47,22 +52,21 @@ insights:
     - code-generation
   confidence: high
 curation:
-  status: included
-  reason: The tool's primary function is generating smart contract code from prompts/inputs, fitting the app-builder pattern of prompt-to-code scaffolding.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Described as 'an interactive smart contract generator based on OpenZeppelin Contracts'
-    - Supports multiple blockchain ecosystems (Solidity, Cairo, etc.)
-    - Includes a UI Builder for spinning up interfaces
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: app-builders
-  section: Local / Code-Scaffolding Builders
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.666Z"
+    updated_at: '2026-05-06T22:12:15.666Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +75,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:39:16.549Z"
+    updated_at: '2026-07-21T15:39:16.549Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +88,9 @@ processing:
       input_hash: sha256:dd54a8b9f6140c66eb24c68349e902e45c8a9ca57b191e4755c7d23169d7e666
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The tool's primary function is generating smart contract code from prompts/inputs, fitting the app-builder pattern of prompt-to-code scaffolding.
+      decision_reason: >-
+        The tool's primary function is generating smart contract code from prompts/inputs, fitting the app-builder
+        pattern of prompt-to-code scaffolding.
       decision_evidence:
         - Described as 'an interactive smart contract generator based on OpenZeppelin Contracts'
         - Supports multiple blockchain ecosystems (Solidity, Cairo, etc.)
@@ -92,6 +98,8 @@ processing:
       category_candidates:
         - app-builders
         - ai-frameworks
-      contrastive_reason: Choose app-builders over ai-frameworks because the core value is prompt-to-code generation rather than a code-first SDK or library.
+      contrastive_reason: >-
+        Choose app-builders over ai-frameworks because the core value is prompt-to-code generation rather than a
+        code-first SDK or library.
       review_reason: null
       review_resume_lifecycle: null

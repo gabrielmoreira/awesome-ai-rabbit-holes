@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hkuds__minirag__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,10 @@ provenance:
           - 知识库 RAG
         anchor_text: MiniRAG
         extracted_url: https://github.com/hkuds/minirag
-        surrounding_text: "32. [MiniRAG](https://github.com/HKUDS/MiniRAG): an extremely simple retrieval-augmented generation framework that enables small models to achieve good RAG performance through heterogeneous graph indexing and lightweight topology-enhanced retrieval."
+        surrounding_text: >-
+          32. [MiniRAG](https://github.com/HKUDS/MiniRAG): an extremely simple retrieval-augmented generation framework
+          that enables small models to achieve good RAG performance through heterogeneous graph indexing and lightweight
+          topology-enhanced retrieval.
         confidence: high
 metadata:
   github:
@@ -29,22 +32,28 @@ metadata:
     archived: false
     full_name: HKUDS/MiniRAG
     html_url: https://github.com/HKUDS/MiniRAG
-    created_at: "2025-01-11T13:24:14Z"
-    pushed_at: "2025-10-16T07:43:16Z"
-    description: "[ACL2026] \"MiniRAG: Making RAG Simpler with Small and Open-Sourced Language Models\""
+    created_at: '2025-01-11T13:24:14Z'
+    pushed_at: '2025-10-16T07:43:16Z'
+    description: '[ACL2026] "MiniRAG: Making RAG Simpler with Small and Open-Sourced Language Models"'
     homepage: https://arxiv.org/abs/2501.06713
     topics:
       - large-language-models
       - rag
       - retrieval-augmented-generation
-    last_checked_at: "2026-07-30T05:05:37.958Z"
+    last_checked_at: '2026-07-30T05:05:37.958Z'
     readme:
-      fetched_at: "2026-07-30T05:05:37.958Z"
+      fetched_at: '2026-07-30T05:05:37.958Z'
       bytes: 8272
 insights:
-  summary: MiniRAG is a lightweight retrieval-augmented generation framework optimized for small language models, using heterogeneous graph indexing and topology-enhanced retrieval.
-  why_it_matters: It enables developers to deploy efficient RAG systems with small models while achieving comparable performance to larger models, reducing storage and computational overhead.
-  mental_damage: Finally, a RAG framework that doesn’t require a PhD in graph theory to explain why your 3B model is outperforming your 70B one.
+  summary: >-
+    MiniRAG is a lightweight retrieval-augmented generation framework optimized for small language models, using
+    heterogeneous graph indexing and topology-enhanced retrieval.
+  why_it_matters: >-
+    It enables developers to deploy efficient RAG systems with small models while achieving comparable performance to
+    larger models, reducing storage and computational overhead.
+  mental_damage: >-
+    Finally, a RAG framework that doesn’t require a PhD in graph theory to explain why your 3B model is outperforming
+    your 70B one.
   tags:
     - rag
     - small-language-models
@@ -54,31 +63,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MiniRAG is a code-first framework for building RAG systems, fitting the developer-tooling scope as a reusable building block for embedding retrieval workflows into software.
+  reason: >-
+    MiniRAG is a code-first framework for building RAG systems, fitting the developer-tooling scope as a reusable
+    building block for embedding retrieval workflows into software.
   evidence:
     - Repo description identifies it as a RAG framework for small language models
-    - README emphasizes its role as a framework with installable Python packages (`pip install minirag-hku`/`lightrag-hku`)
+    - >-
+      README emphasizes its role as a framework with installable Python packages (`pip install
+      minirag-hku`/`lightrag-hku`)
     - Core innovation is in retrieval infrastructure (heterogeneous graph indexing, topology-enhanced retrieval)
 placement:
   primary_category: ai-frameworks
-  section: Memory / Retrieval Infrastructure
+  secondary_categories: []
+  section: Memory & Retrieval Infrastructure
 lifecycle:
   status: promotion_candidate
   reason: Stars (1879) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.619Z"
+    updated_at: '2026-05-06T22:12:15.619Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:37.958Z"
+    updated_at: '2026-07-30T05:05:37.958Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:05:48.601Z"
+    updated_at: '2026-07-21T16:05:48.601Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -91,14 +105,20 @@ processing:
       input_hash: sha256:40143228ca4094fab0ceb1ed8130760b5cab28ae82dde8a497371ef53951be27
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: MiniRAG is a code-first framework for building RAG systems, fitting the developer-tooling scope as a reusable building block for embedding retrieval workflows into software.
+      decision_reason: >-
+        MiniRAG is a code-first framework for building RAG systems, fitting the developer-tooling scope as a reusable
+        building block for embedding retrieval workflows into software.
       decision_evidence:
         - Repo description identifies it as a RAG framework for small language models
-        - README emphasizes its role as a framework with installable Python packages (`pip install minirag-hku`/`lightrag-hku`)
+        - >-
+          README emphasizes its role as a framework with installable Python packages (`pip install
+          minirag-hku`/`lightrag-hku`)
         - Core innovation is in retrieval infrastructure (heterogeneous graph indexing, topology-enhanced retrieval)
       category_candidates:
         - ai-frameworks
         - context-engineering
-      contrastive_reason: Choose ai-frameworks over context-engineering because MiniRAG is primarily a code-first framework/library for building RAG systems, not just a context/prompt management tool.
+      contrastive_reason: >-
+        Choose ai-frameworks over context-engineering because MiniRAG is primarily a code-first framework/library for
+        building RAG systems, not just a context/prompt management tool.
       review_reason: null
       review_resume_lifecycle: null

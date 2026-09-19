@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__getmystadmin__urdb-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: GetMystAdmin/urdb-mcp
         extracted_url: https://github.com/getmystadmin/urdb-mcp
-        surrounding_text: "- [GetMystAdmin/urdb-mcp](https://github.com/GetMystAdmin/urdb-mcp) [![urdb-mcp MCP server](https://glama.ai/mcp/servers/GetMystAdmin/urdb-mcp/badges/score.svg)](https://glama.ai/mcp/servers/GetMystAdmin/urdb-mcp) 📇 🏠 - Search URDB's product integrity database for integrity scores, enshittification events, and change tracking across consumer products"
+        surrounding_text: >-
+          - [GetMystAdmin/urdb-mcp](https://github.com/GetMystAdmin/urdb-mcp) [![urdb-mcp MCP
+          server](https://glama.ai/mcp/servers/GetMystAdmin/urdb-mcp/badges/score.svg)](https://glama.ai/mcp/servers/GetMystAdmin/urdb-mcp)
+          📇 🏠 - Search URDB's product integrity database for integrity scores, enshittification events, and change
+          tracking across consumer products
         confidence: high
 metadata:
   github:
@@ -30,19 +34,23 @@ metadata:
     archived: false
     full_name: GetMystAdmin/urdb-mcp
     html_url: https://github.com/GetMystAdmin/urdb-mcp
-    created_at: "2026-03-10T19:12:14Z"
-    pushed_at: "2026-08-07T00:22:50Z"
+    created_at: '2026-03-10T19:12:14Z'
+    pushed_at: '2026-08-07T00:22:50Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:48.857Z"
+    last_checked_at: '2026-09-03T05:16:48.857Z'
     readme:
-      fetched_at: "2026-09-03T05:16:48.857Z"
+      fetched_at: '2026-09-03T05:16:48.857Z'
       bytes: 4968
 insights:
-  summary: An MCP server that connects AI assistants to the URDB database containing product integrity and enshittification data.
+  summary: >-
+    An MCP server that connects AI assistants to the URDB database containing product integrity and enshittification
+    data.
   why_it_matters: It allows developers to equip LLMs with real-world data on product quality shifts and consumer integrity metrics.
-  mental_damage: Now your coding assistant can confirm that the hardware you're prototyping for is destined for enshittification before you even write the first line of code.
+  mental_damage: >-
+    Now your coding assistant can confirm that the hardware you're prototyping for is destined for enshittification
+    before you even write the first line of code.
   tags:
     - mcp
     - database
@@ -58,24 +66,25 @@ curation:
     - Provides setup instructions specifically for Claude Desktop MCP config
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: '2026-05-06T22:12:15.615Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:48.857Z"
+    updated_at: '2026-09-03T05:16:48.857Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:02:16.566Z"
+    updated_at: '2026-07-21T16:02:16.566Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is the implementation of the Model Context Protocol to provide domain-specific data.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is the implementation of the Model
+        Context Protocol to provide domain-specific data.
       review_reason: null
       review_resume_lifecycle: null

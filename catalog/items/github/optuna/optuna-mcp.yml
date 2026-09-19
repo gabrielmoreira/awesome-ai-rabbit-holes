@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__optuna__optuna-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🧮 <a name="data-science-tools"></a>Data Science Tools
         anchor_text: optuna/optuna-mcp
         extracted_url: https://github.com/optuna/optuna-mcp
-        surrounding_text: "- [optuna/optuna-mcp](https://github.com/optuna/optuna-mcp) 🎖️ 🐍 🏠 🐧 🍎 - Official MCP server enabling seamless orchestration of hyperparameter search and other optimization tasks with [Optuna](https://optuna.org/)."
+        surrounding_text: >-
+          - [optuna/optuna-mcp](https://github.com/optuna/optuna-mcp) 🎖️ 🐍 🏠 🐧 🍎 - Official MCP server enabling
+          seamless orchestration of hyperparameter search and other optimization tasks with
+          [Optuna](https://optuna.org/).
         confidence: high
 metadata:
   github:
@@ -30,10 +33,10 @@ metadata:
     archived: false
     full_name: optuna/optuna-mcp
     html_url: https://github.com/optuna/optuna-mcp
-    created_at: "2025-06-10T07:03:55Z"
-    pushed_at: "2026-07-01T05:46:35Z"
+    created_at: '2025-06-10T07:03:55Z'
+    pushed_at: '2026-07-01T05:46:35Z'
     description: The Optuna MCP Server is a Model Context Protocol (MCP) server to interact with Optuna APIs.
-    homepage: ""
+    homepage: ''
     topics:
       - hyperparameter-optimization
       - llm
@@ -41,14 +44,20 @@ metadata:
       - mcp-server
       - optimization
       - python
-    last_checked_at: "2026-07-20T16:42:28.100Z"
+    last_checked_at: '2026-07-20T16:42:28.100Z'
     readme:
-      fetched_at: "2026-07-20T16:42:28.100Z"
+      fetched_at: '2026-07-20T16:42:28.100Z'
       bytes: 12074
 insights:
-  summary: An MCP server that exposes Optuna's hyperparameter optimization, study management, and visualization APIs to LLM clients like Claude Desktop.
-  why_it_matters: It lets developers wire hyperparameter tuning and result analysis directly into chat-driven workflows instead of switching to a separate optimization script or dashboard.
-  mental_damage: "We have finally achieved the perfect circle: an LLM orchestrating an optimization framework to tune models that will eventually replace the person setting up the server."
+  summary: >-
+    An MCP server that exposes Optuna's hyperparameter optimization, study management, and visualization APIs to LLM
+    clients like Claude Desktop.
+  why_it_matters: >-
+    It lets developers wire hyperparameter tuning and result analysis directly into chat-driven workflows instead of
+    switching to a separate optimization script or dashboard.
+  mental_damage: >-
+    We have finally achieved the perfect circle: an LLM orchestrating an optimization framework to tune models that will
+    eventually replace the person setting up the server.
   tags:
     - mcp
     - hyperparameter-optimization
@@ -58,35 +67,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server that exposes Optuna capabilities to MCP clients, fitting cleanly into MCP Servers & Tooling as a domain-specific server.
+  reason: >-
+    The product identity is an MCP server that exposes Optuna capabilities to MCP clients, fitting cleanly into MCP
+    Servers & Tooling as a domain-specific server.
   evidence:
     - Repo description states it is 'a Model Context Protocol (MCP) server to interact with Optuna APIs.'
-    - README shows it is configured as an mcpServer in Claude Desktop and provides Optuna tools like create_study and ask.
+    - >-
+      README shows it is configured as an mcpServer in Claude Desktop and provides Optuna tools like create_study and
+      ask.
     - Listed in awesome-mcp-servers under Server Implementations > Data Science Tools.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.641Z"
+    updated_at: '2026-05-06T22:12:15.641Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:28.100Z"
+    updated_at: '2026-07-20T16:42:28.100Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

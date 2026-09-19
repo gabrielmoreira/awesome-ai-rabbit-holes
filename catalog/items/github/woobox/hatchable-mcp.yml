@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__woobox__hatchable-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: Woobox/hatchable-mcp
         extracted_url: https://github.com/woobox/hatchable-mcp
-        surrounding_text: "- [Woobox/hatchable-mcp](https://github.com/Woobox/hatchable-mcp) [![Woobox/hatchable-mcp MCP server](https://glama.ai/mcp/servers/Woobox/hatchable-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Woobox/hatchable-mcp) 🎖️ ☁️ - Build and host full-stack web apps and sites on Hatchable from any MCP client. DB, auth, storage, domains, and cron per project. Free tier."
+        surrounding_text: >-
+          - [Woobox/hatchable-mcp](https://github.com/Woobox/hatchable-mcp) [![Woobox/hatchable-mcp MCP
+          server](https://glama.ai/mcp/servers/Woobox/hatchable-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Woobox/hatchable-mcp)
+          🎖️ ☁️ - Build and host full-stack web apps and sites on Hatchable from any MCP client. DB, auth, storage,
+          domains, and cron per project. Free tier.
         confidence: high
 metadata:
   github:
@@ -30,19 +34,27 @@ metadata:
     archived: false
     full_name: Woobox/hatchable-mcp
     html_url: https://github.com/Woobox/hatchable-mcp
-    created_at: "2026-04-23T18:53:54Z"
-    pushed_at: "2026-04-23T21:52:04Z"
-    description: Hosted full-stack app platform. Creates a Postgres database, deploys API functions, and serves static sites from any MCP client. OAuth 2.1 + PKCE with DCR; bearer fallback. Free tier.
+    created_at: '2026-04-23T18:53:54Z'
+    pushed_at: '2026-04-23T21:52:04Z'
+    description: >-
+      Hosted full-stack app platform. Creates a Postgres database, deploys API functions, and serves static sites from
+      any MCP client. OAuth 2.1 + PKCE with DCR; bearer fallback. Free tier.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:21:15.220Z"
+    last_checked_at: '2026-07-21T15:21:15.220Z'
     readme:
-      fetched_at: "2026-07-21T15:21:15.220Z"
+      fetched_at: '2026-07-21T15:21:15.220Z'
       bytes: 6909
 insights:
-  summary: Hatchable MCP is a hosted full-stack app platform that exposes project lifecycle, file, database, deployment, and environment tools via an MCP server for any MCP client.
-  why_it_matters: Developers can spin up Postgres-backed apps with auth, storage, and domains from any MCP-compatible assistant like Claude Code or Cursor without managing infrastructure.
-  mental_damage: Yet another MCP server promising to let your chatbot deploy full-stack apps, because apparently 'just write code' wasn't abstract enough.
+  summary: >-
+    Hatchable MCP is a hosted full-stack app platform that exposes project lifecycle, file, database, deployment, and
+    environment tools via an MCP server for any MCP client.
+  why_it_matters: >-
+    Developers can spin up Postgres-backed apps with auth, storage, and domains from any MCP-compatible assistant like
+    Claude Code or Cursor without managing infrastructure.
+  mental_damage: >-
+    Yet another MCP server promising to let your chatbot deploy full-stack apps, because apparently 'just write code'
+    wasn't abstract enough.
   tags:
     - mcp
     - full-stack
@@ -50,31 +62,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Hatchable MCP is an MCP-first server exposing 30+ tools for app lifecycle and infrastructure, making MCP its primary product identity rather than a compatibility layer.
+  reason: >-
+    Hatchable MCP is an MCP-first server exposing 30+ tools for app lifecycle and infrastructure, making MCP its primary
+    product identity rather than a compatibility layer.
   evidence:
-    - "Repo description: 'Hosted full-stack app platform. Creates a Postgres database, deploys API functions, and serves static sites from any MCP client.'"
-    - "README: Exposes 30+ tools for project lifecycle, files, database, deploy, and environment via Streamable HTTP MCP server"
-    - "Source-list context: Listed in awesome-mcp-servers under Cloud Platforms as an MCP server implementation"
+    - >-
+      Repo description: 'Hosted full-stack app platform. Creates a Postgres database, deploys API functions, and serves
+      static sites from any MCP client.'
+    - >-
+      README: Exposes 30+ tools for project lifecycle, files, database, deploy, and environment via Streamable HTTP MCP
+      server
+    - 'Source-list context: Listed in awesome-mcp-servers under Cloud Platforms as an MCP server implementation'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.656Z"
+    updated_at: '2026-05-06T22:12:15.656Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:15.220Z"
+    updated_at: '2026-07-21T15:21:15.220Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:36:51.802Z"
+    updated_at: '2026-05-12T15:36:51.802Z'
     cause: null
     next_retry_at: null
     attempts: 1

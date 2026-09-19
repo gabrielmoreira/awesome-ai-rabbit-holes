@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__farukkolip__xtapdown-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-06T05:29:57.556Z"
+      discovered_at: '2026-07-06T05:29:57.556Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,14 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: farukkolip/xtapdown-mcp
         extracted_url: https://github.com/farukkolip/xtapdown-mcp
-        surrounding_text: "- [farukkolip/xtapdown-mcp](https://github.com/farukkolip/xtapdown-mcp) [![farukkolip/xtapdown-mcp MCP server](https://glama.ai/mcp/servers/farukkolip/xtapdown-mcp/badges/score.svg)](https://glama.ai/mcp/servers/farukkolip/xtapdown-mcp) 📇 ☁️ - X (Twitter) creator toolkit MCP with 14 tools: tweet download (video/GIF/image/full archive), curated hashtags by niche, best posting times by country, viral hook formulas, engagement & ads-revenue calculators, thread splitter, character counter, advanced-search URL builder, fancy Unicode bio generator, viral patterns lookup, and the full 2026 search-operator cheatsheet. Uses X's public syndication endpoint — no auth, no rate limits on curated data."
+        surrounding_text: >-
+          - [farukkolip/xtapdown-mcp](https://github.com/farukkolip/xtapdown-mcp) [![farukkolip/xtapdown-mcp MCP
+          server](https://glama.ai/mcp/servers/farukkolip/xtapdown-mcp/badges/score.svg)](https://glama.ai/mcp/servers/farukkolip/xtapdown-mcp)
+          📇 ☁️ - X (Twitter) creator toolkit MCP with 14 tools: tweet download (video/GIF/image/full archive), curated
+          hashtags by niche, best posting times by country, viral hook formulas, engagement & ads-revenue calculators,
+          thread splitter, character counter, advanced-search URL builder, fancy Unicode bio generator, viral patterns
+          lookup, and the full 2026 search-operator cheatsheet. Uses X's public syndication endpoint — no auth, no rate
+          limits on curated data.
         confidence: high
 metadata:
   github:
@@ -30,8 +37,8 @@ metadata:
     archived: false
     full_name: farukkolip/xtapdown-mcp
     html_url: https://github.com/farukkolip/xtapdown-mcp
-    created_at: "2026-06-25T12:30:38Z"
-    pushed_at: "2026-06-25T16:27:49Z"
+    created_at: '2026-06-25T12:30:38Z'
+    pushed_at: '2026-06-25T16:27:49Z'
     description: XTapDown MCP Server — 14 X (Twitter) creator tools for Claude, ChatGPT, Gemini and any MCP client
     homepage: https://xtapdown.com/
     topics:
@@ -42,13 +49,17 @@ metadata:
       - model-context-protocol
       - tweet-downloader
       - x-twitter
-    last_checked_at: "2026-08-27T09:23:28.375Z"
+    last_checked_at: '2026-08-27T09:23:28.375Z'
     readme:
-      fetched_at: "2026-08-27T09:23:28.375Z"
+      fetched_at: '2026-08-27T09:23:28.375Z'
       bytes: 5136
 insights:
-  summary: XTapDown MCP Server is an MCP server that provides 14 X (Twitter) creator tools — like tweet downloading, hashtag suggestions, and engagement calculations — to any LLM client via the Model Context Protocol.
-  why_it_matters: It lets developers and creators access Twitter data and creator tooling directly from their AI assistant without auth, rate limits, or paid APIs.
+  summary: >-
+    XTapDown MCP Server is an MCP server that provides 14 X (Twitter) creator tools — like tweet downloading, hashtag
+    suggestions, and engagement calculations — to any LLM client via the Model Context Protocol.
+  why_it_matters: >-
+    It lets developers and creators access Twitter data and creator tooling directly from their AI assistant without
+    auth, rate limits, or paid APIs.
   mental_damage: Finally, an excuse to let your AI hallucinate tweet strategies while pretending it’s doing social media analytics.
   tags:
     - mcp
@@ -58,31 +69,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core identity is providing tooling over the Model Context Protocol, making it a clear fit for MCP Servers & Tooling rather than an extension or agent.
+  reason: >-
+    The product is an MCP server whose core identity is providing tooling over the Model Context Protocol, making it a
+    clear fit for MCP Servers & Tooling rather than an extension or agent.
   evidence:
-    - "Repo description: 'XTapDown MCP Server — 14 X (Twitter) creator tools for Claude, ChatGPT, Gemini and any MCP client'"
-    - "README: Explicitly positions itself as an MCP server that gives LLM clients direct access to XTapDown tools via stdio or HTTP/SSE"
-    - "Source-list context: Included in awesome-mcp-servers under Server Implementations > Communication"
+    - >-
+      Repo description: 'XTapDown MCP Server — 14 X (Twitter) creator tools for Claude, ChatGPT, Gemini and any MCP
+      client'
+    - >-
+      README: Explicitly positions itself as an MCP server that gives LLM clients direct access to XTapDown tools via
+      stdio or HTTP/SSE
+    - 'Source-list context: Included in awesome-mcp-servers under Server Implementations > Communication'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-06T05:29:57.558Z"
+    updated_at: '2026-07-06T05:29:57.558Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:28.375Z"
+    updated_at: '2026-08-27T09:23:28.375Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-06T05:59:51.525Z"
+    updated_at: '2026-07-06T05:59:51.525Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

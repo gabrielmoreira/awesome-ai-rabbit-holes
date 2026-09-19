@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__xexr__mcp-libsql__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: xexr/mcp-libsql
         extracted_url: https://github.com/xexr/mcp-libsql
-        surrounding_text: "- [xexr/mcp-libsql](https://github.com/Xexr/mcp-libsql) 📇 🏠 ☁️ - Production-ready MCP server for libSQL databases with comprehensive security and management tools."
+        surrounding_text: >-
+          - [xexr/mcp-libsql](https://github.com/Xexr/mcp-libsql) 📇 🏠 ☁️ - Production-ready MCP server for libSQL
+          databases with comprehensive security and management tools.
         confidence: high
     - id: discovery__github__xexr__mcp-libsql__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +37,10 @@ provenance:
           - Community Servers
         anchor_text: libSQL by xexr
         extracted_url: https://github.com/xexr/mcp-libsql
-        surrounding_text: "- **[libSQL by xexr](https://github.com/Xexr/mcp-libsql)** - MCP server for libSQL databases with comprehensive security and management tools. Supports file, local HTTP, and remote Turso databases with connection pooling, transaction support, and 6 specialized database tools."
+        surrounding_text: >-
+          - **[libSQL by xexr](https://github.com/Xexr/mcp-libsql)** - MCP server for libSQL databases with
+          comprehensive security and management tools. Supports file, local HTTP, and remote Turso databases with
+          connection pooling, transaction support, and 6 specialized database tools.
         confidence: high
 metadata:
   github:
@@ -45,10 +50,12 @@ metadata:
     archived: false
     full_name: Xexr/mcp-libsql
     html_url: https://github.com/Xexr/mcp-libsql
-    created_at: "2025-05-28T16:49:11Z"
-    pushed_at: "2025-06-03T16:19:48Z"
-    description: Secure MCP server for libSQL databases with comprehensive tools, connection pooling, and transaction support. Built with TypeScript for Claude Desktop, Claude Code, Cursor, and other MCP clients.
-    homepage: ""
+    created_at: '2025-05-28T16:49:11Z'
+    pushed_at: '2025-06-03T16:19:48Z'
+    description: >-
+      Secure MCP server for libSQL databases with comprehensive tools, connection pooling, and transaction support.
+      Built with TypeScript for Claude Desktop, Claude Code, Cursor, and other MCP clients.
+    homepage: ''
     topics:
       - ai-tools
       - claude
@@ -64,14 +71,20 @@ metadata:
       - sqlite3
       - turso
       - turso-db
-    last_checked_at: "2026-07-21T15:21:17.295Z"
+    last_checked_at: '2026-07-21T15:21:17.295Z'
     readme:
-      fetched_at: "2026-07-21T15:21:17.295Z"
+      fetched_at: '2026-07-21T15:21:17.295Z'
       bytes: 13874
 insights:
-  summary: An MCP server providing secure libSQL database access with connection pooling and transaction support for MCP-compatible clients like Claude Desktop and Cursor.
-  why_it_matters: Enables developers to securely interact with libSQL databases through natural language in MCP-powered AI coding assistants.
-  mental_damage: Another MCP server adding to the growing list of database adapters you'll need to configure before your AI can finally 'just work' with your data.
+  summary: >-
+    An MCP server providing secure libSQL database access with connection pooling and transaction support for
+    MCP-compatible clients like Claude Desktop and Cursor.
+  why_it_matters: >-
+    Enables developers to securely interact with libSQL databases through natural language in MCP-powered AI coding
+    assistants.
+  mental_damage: >-
+    Another MCP server adding to the growing list of database adapters you'll need to configure before your AI can
+    finally 'just work' with your data.
   tags:
     - mcp
     - database
@@ -80,31 +93,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server whose primary identity is providing Model Context Protocol infrastructure for libSQL database access, fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is an MCP server whose primary identity is providing Model Context Protocol infrastructure for libSQL database
+    access, fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description: 'Secure MCP server for libSQL databases with comprehensive tools, connection pooling, and transaction support'"
-    - "README: 'A Model Context Protocol (MCP) server for libSQL database operations, providing secure database access through Claude Desktop, Claude Code, Cursor, and other MCP-compatible clients'"
+    - >-
+      Repo description: 'Secure MCP server for libSQL databases with comprehensive tools, connection pooling, and
+      transaction support'
+    - >-
+      README: 'A Model Context Protocol (MCP) server for libSQL database operations, providing secure database access
+      through Claude Desktop, Claude Code, Cursor, and other MCP-compatible clients'
     - Listed in awesome-mcp-servers under 'Server Implementations > Databases' and 'Community Servers' sections
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.595Z"
+    updated_at: '2026-05-06T22:12:15.595Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:17.295Z"
+    updated_at: '2026-07-21T15:21:17.295Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:40:18.202Z"
+    updated_at: '2026-05-12T15:40:18.202Z'
     cause: null
     next_retry_at: null
     attempts: 1

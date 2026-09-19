@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__chainlink-feeds-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/chainlink-feeds-mcp
         extracted_url: https://github.com/kukapay/chainlink-feeds-mcp
-        surrounding_text: "- [kukapay/chainlink-feeds-mcp](https://github.com/kukapay/chainlink-feeds-mcp) 📇 ☁️ -  Providing real-time access to Chainlink's decentralized on-chain price feeds."
+        surrounding_text: >-
+          - [kukapay/chainlink-feeds-mcp](https://github.com/kukapay/chainlink-feeds-mcp) 📇 ☁️ -  Providing real-time
+          access to Chainlink's decentralized on-chain price feeds.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,22 @@ metadata:
     archived: false
     full_name: kukapay/chainlink-feeds-mcp
     html_url: https://github.com/kukapay/chainlink-feeds-mcp
-    created_at: "2025-04-17T09:37:04Z"
-    pushed_at: "2025-07-24T13:18:32Z"
+    created_at: '2025-04-17T09:37:04Z'
+    pushed_at: '2025-07-24T13:18:32Z'
     description: An MCP server that provides real-time access to Chainlink's decentralized on-chain price feeds.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:59.140Z"
+    last_checked_at: '2026-07-30T05:05:59.140Z'
     readme:
-      fetched_at: "2026-07-30T05:05:59.140Z"
+      fetched_at: '2026-07-30T05:05:59.140Z'
       bytes: 7525
 insights:
-  summary: An MCP server that provides real-time access to Chainlink's decentralized on-chain price feeds for AI agents and autonomous systems.
-  why_it_matters: Developers can integrate live blockchain price data into AI workflows without manual API plumbing, enabling autonomous systems to react to on-chain market conditions.
+  summary: >-
+    An MCP server that provides real-time access to Chainlink's decentralized on-chain price feeds for AI agents and
+    autonomous systems.
+  why_it_matters: >-
+    Developers can integrate live blockchain price data into AI workflows without manual API plumbing, enabling
+    autonomous systems to react to on-chain market conditions.
   mental_damage: Now your AI agent can panic about ETH gas fees in real-time, just like you do.
   tags:
     - mcp
@@ -52,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server providing domain-specific (Chainlink price feeds) functionality, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product's core identity is an MCP server providing domain-specific (Chainlink price feeds) functionality,
+    fitting the MCP Servers & Tooling category.
   evidence:
     - Repo description explicitly states it is an MCP server for Chainlink price feeds
     - README details MCP server functionality and integration steps
     - Uses @modelcontextprotocol/sdk as a primary dependency
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:59.140Z"
+    updated_at: '2026-07-30T05:05:59.140Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:38.253Z"
+    updated_at: '2026-07-21T16:13:38.253Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +98,9 @@ processing:
       input_hash: sha256:77adf4ba3a8798a0a7369c40b3e311b33e20723520e8ba30dbd54e4dcf52c90b
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP server providing domain-specific (Chainlink price feeds) functionality, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product's core identity is an MCP server providing domain-specific (Chainlink price feeds) functionality,
+        fitting the MCP Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Chainlink price feeds
         - README details MCP server functionality and integration steps
@@ -97,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is a standalone MCP server (not an extension for another tool) with MCP as its primary identity.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is a standalone MCP server (not an extension for another
+        tool) with MCP as its primary identity.
       review_reason: null
       review_resume_lifecycle: null

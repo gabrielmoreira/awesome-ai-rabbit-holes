@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bubilife1202__crossfin__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: bubilife1202/crossfin
         extracted_url: https://github.com/bubilife1202/crossfin
-        surrounding_text: "- [bubilife1202/crossfin](https://github.com/bubilife1202/crossfin) 📇 ☁️ - Korean & global crypto exchange routing, arbitrage signals, and x402 USDC micropayments for AI agents. 16 tools, 9 exchanges, 11 bridge coins."
+        surrounding_text: >-
+          - [bubilife1202/crossfin](https://github.com/bubilife1202/crossfin) 📇 ☁️ - Korean & global crypto exchange
+          routing, arbitrage signals, and x402 USDC micropayments for AI agents. 16 tools, 9 exchanges, 11 bridge coins.
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: bubilife1202/crossfin
     html_url: https://github.com/bubilife1202/crossfin
-    created_at: "2026-02-13T01:06:35Z"
-    pushed_at: "2026-02-26T22:32:39Z"
+    created_at: '2026-02-13T01:06:35Z'
+    pushed_at: '2026-02-26T22:32:39Z'
     description: The only way AI agents access Asian crypto markets. Routing engine + x402 payments across 9 exchanges.
     homepage: https://crossfin.dev
     topics:
@@ -45,13 +47,17 @@ metadata:
       - mcp
       - typescript
       - x402
-    last_checked_at: "2026-09-07T04:13:38.847Z"
+    last_checked_at: '2026-09-07T04:13:38.847Z'
     readme:
-      fetched_at: "2026-09-07T04:13:38.847Z"
+      fetched_at: '2026-09-07T04:13:38.847Z'
       bytes: 12829
 insights:
-  summary: An MCP server that provides AI agents with access to Asian crypto markets via a routing engine and x402 payments across 14 exchanges.
-  why_it_matters: It enables AI agents to interact with region-locked, language-restricted Asian crypto exchanges and perform cross-exchange routing, which is otherwise inaccessible to automated workflows.
+  summary: >-
+    An MCP server that provides AI agents with access to Asian crypto markets via a routing engine and x402 payments
+    across 14 exchanges.
+  why_it_matters: >-
+    It enables AI agents to interact with region-locked, language-restricted Asian crypto exchanges and perform
+    cross-exchange routing, which is otherwise inaccessible to automated workflows.
   mental_damage: Now your agent can arbitrage the kimchi premium while you pretend to understand what a bridge coin is.
   tags:
     - mcp
@@ -62,31 +68,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: it is a server implementation providing domain-specific tools (crypto routing, premiums, payments) for AI agents via MCP."
+  reason: >-
+    MCP is the product identity: it is a server implementation providing domain-specific tools (crypto routing,
+    premiums, payments) for AI agents via MCP.
   evidence:
     - Repo description explicitly identifies it as an MCP server for AI agents accessing Asian crypto markets
     - README details 16 MCP tools and installation via MCP client config
     - Listed in awesome-mcp-servers under Finance & Fintech
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.606Z"
+    updated_at: '2026-05-06T22:12:15.606Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:38.847Z"
+    updated_at: '2026-09-07T04:13:38.847Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:34:29.844Z"
+    updated_at: '2026-07-21T15:34:29.844Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -99,7 +108,9 @@ processing:
       input_hash: sha256:a63adcee76eea190cf6c981b1b4cd8191d4d88fc7d3a07ba04f4a5e9498cd5d6
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: it is a server implementation providing domain-specific tools (crypto routing, premiums, payments) for AI agents via MCP."
+      decision_reason: >-
+        MCP is the product identity: it is a server implementation providing domain-specific tools (crypto routing,
+        premiums, payments) for AI agents via MCP.
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server for AI agents accessing Asian crypto markets
         - README details 16 MCP tools and installation via MCP client config
@@ -107,6 +118,8 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product is an MCP server providing domain-specific tools, not a code-first SDK or library.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product is an MCP server providing domain-specific tools, not a
+        code-first SDK or library.
       review_reason: null
       review_resume_lifecycle: null

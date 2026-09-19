@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__vibepod__vibepod-cli__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Open Source
         anchor_text: VibePod
         extracted_url: https://github.com/vibepod/vibepod-cli
-        surrounding_text: "- **[VibePod](https://github.com/VibePod/vibepod-cli)** `⭐ 67` — Unified CLI for running AI coding agents in isolated Docker containers; zero-config setup, local metrics, HTTP traffic tracking, and an analytics dashboard for side-by-side comparison."
+        surrounding_text: >-
+          - **[VibePod](https://github.com/VibePod/vibepod-cli)** `⭐ 67` — Unified CLI for running AI coding agents in
+          isolated Docker containers; zero-config setup, local metrics, HTTP traffic tracking, and an analytics
+          dashboard for side-by-side comparison.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: VibePod/vibepod-cli
     html_url: https://github.com/VibePod/vibepod-cli
-    created_at: "2026-02-10T21:55:22Z"
-    pushed_at: "2026-06-30T21:24:08Z"
-    description: Unified CLI for running AI coding agents in isolated containers. Includes built-in local metrics collection, HTTP traffic tracking, and an analytics dashboard to track agent actions.
+    created_at: '2026-02-10T21:55:22Z'
+    pushed_at: '2026-06-30T21:24:08Z'
+    description: >-
+      Unified CLI for running AI coding agents in isolated containers. Includes built-in local metrics collection, HTTP
+      traffic tracking, and an analytics dashboard to track agent actions.
     homepage: https://vibepod.dev
     topics:
       - auggie
@@ -42,14 +47,20 @@ metadata:
       - gemini-cli
       - mistral-vibe
       - opencode
-    last_checked_at: "2026-07-21T15:21:04.756Z"
+    last_checked_at: '2026-07-21T15:21:04.756Z'
     readme:
-      fetched_at: "2026-07-21T15:21:04.756Z"
+      fetched_at: '2026-07-21T15:21:04.756Z'
       bytes: 7724
 insights:
-  summary: A unified CLI that runs AI coding agents (Claude, Gemini, Codex, Copilot, etc.) in isolated Docker containers with zero configuration, plus a local analytics dashboard for side-by-side agent comparison.
-  why_it_matters: Developers can sandbox any terminal-native coding agent in Docker without setup sprawl, while collecting local metrics on token usage and HTTP traffic to compare commercial and open-source assistants empirically.
-  mental_damage: Finally, a containerized arena to pit your API budget against seven different coding agents so you can watch exactly which one burns through your credits fastest while safely isolated in its own Docker bubble.
+  summary: >-
+    A unified CLI that runs AI coding agents (Claude, Gemini, Codex, Copilot, etc.) in isolated Docker containers with
+    zero configuration, plus a local analytics dashboard for side-by-side agent comparison.
+  why_it_matters: >-
+    Developers can sandbox any terminal-native coding agent in Docker without setup sprawl, while collecting local
+    metrics on token usage and HTTP traffic to compare commercial and open-source assistants empirically.
+  mental_damage: >-
+    Finally, a containerized arena to pit your API budget against seven different coding agents so you can watch exactly
+    which one burns through your credits fastest while safely isolated in its own Docker bubble.
   tags:
     - docker
     - cli
@@ -59,32 +70,39 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: VibePod is a terminal-native harness for executing coding agents, functioning as the primary CLI interface developers interact with to run agents rather than an extension to existing ones.
+  reason: >-
+    VibePod is a terminal-native harness for executing coding agents, functioning as the primary CLI interface
+    developers interact with to run agents rather than an extension to existing ones.
   evidence:
     - Repo description and README define it as a 'unified CLI for running AI coding agents' via isolated containers
-    - Provides direct commands like 'vp run claude' and 'vp run codex', acting as the user-facing interface for multiple agents
-    - Active development with recent pushes (2026-04-22) and included in 'awesome-cli-coding-agents' terminal-native section
+    - >-
+      Provides direct commands like 'vp run claude' and 'vp run codex', acting as the user-facing interface for multiple
+      agents
+    - >-
+      Active development with recent pushes (2026-04-22) and included in 'awesome-cli-coding-agents' terminal-native
+      section
     - Includes built-in dashboard for agent comparison, fitting the developer tooling scope for terminal agent workflows
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.654Z"
+    updated_at: '2026-05-06T22:12:15.654Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:04.756Z"
+    updated_at: '2026-07-21T15:21:04.756Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-18T05:32:22.144Z"
+    updated_at: '2026-05-18T05:32:22.144Z'
     cause: null
     next_retry_at: null
     attempts: 3

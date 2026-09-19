@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ferdousbhai__investor-agent__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: ferdousbhai/investor-agent
         extracted_url: https://github.com/ferdousbhai/investor-agent
-        surrounding_text: "- [ferdousbhai/investor-agent](https://github.com/ferdousbhai/investor-agent) 🐍 ☁️ - Yahoo Finance integration to fetch stock market data including options recommendations"
+        surrounding_text: >-
+          - [ferdousbhai/investor-agent](https://github.com/ferdousbhai/investor-agent) 🐍 ☁️ - Yahoo Finance
+          integration to fetch stock market data including options recommendations
         confidence: high
     - id: discovery__github__ferdousbhai__investor-agent__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - 💰 Finance & Fintech
         anchor_text: ferdousbhai/investor-agent
         extracted_url: https://github.com/ferdousbhai/investor-agent
-        surrounding_text: "-   **[ferdousbhai/investor-agent](https://github.com/ferdousbhai/investor-agent)** [![GitHub stars](https://img.shields.io/github/stars/ferdousbhai/investor-agent?style=social)](https://github.com/ferdousbhai/investor-agent): Fetches stock market data and options recommendations from Yahoo Finance."
+        surrounding_text: >-
+          -   **[ferdousbhai/investor-agent](https://github.com/ferdousbhai/investor-agent)** [![GitHub
+          stars](https://img.shields.io/github/stars/ferdousbhai/investor-agent?style=social)](https://github.com/ferdousbhai/investor-agent):
+          Fetches stock market data and options recommendations from Yahoo Finance.
         confidence: high
 metadata:
   github:
@@ -45,18 +50,22 @@ metadata:
     archived: false
     full_name: ferdousbhai/investor-agent
     html_url: https://github.com/ferdousbhai/investor-agent
-    created_at: "2025-02-21T06:20:12Z"
-    pushed_at: "2026-08-19T17:57:53Z"
+    created_at: '2025-02-21T06:20:12Z'
+    pushed_at: '2026-08-19T17:57:53Z'
     description: A Model Context Protocol server for building an investor agent
     homepage: null
     topics: []
-    last_checked_at: "2026-08-27T09:23:29.393Z"
+    last_checked_at: '2026-08-27T09:23:29.393Z'
     readme:
-      fetched_at: "2026-08-27T09:23:29.393Z"
+      fetched_at: '2026-08-27T09:23:29.393Z'
       bytes: 914
 insights:
-  summary: An MCP server that provides financial research tools including stock fundamentals, price history, and market indicators.
-  why_it_matters: It allows AI agents to access real-time financial data, fundamental analysis, and technical indicators via the Model Context Protocol.
+  summary: >-
+    An MCP server that provides financial research tools including stock fundamentals, price history, and market
+    indicators.
+  why_it_matters: >-
+    It allows AI agents to access real-time financial data, fundamental analysis, and technical indicators via the Model
+    Context Protocol.
   mental_damage: Another way for your LLM to hallucinate a stock tip that sounds suspiciously like a rug pull.
   tags:
     - mcp
@@ -67,31 +76,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's identity is explicitly an MCP server designed to provide specific domain-driven tools to an MCP client.
+  reason: >-
+    The project's identity is explicitly an MCP server designed to provide specific domain-driven tools to an MCP
+    client.
   evidence:
     - Repo description defines it as a 'Model Context Protocol server'
     - README specifies setup via 'cpServers' configuration block
     - Provides a specific suite of financial 'Tools' for agent consumption
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: promotion_candidate
   reason: Stars (328) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.585Z"
+    updated_at: '2026-05-06T22:12:15.585Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:29.393Z"
+    updated_at: '2026-08-27T09:23:29.393Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:55:48.229Z"
+    updated_at: '2026-07-21T15:55:48.229Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,7 +116,9 @@ processing:
       input_hash: sha256:0fba190fbe5edcd1e31b96c8c9efe2e64e657d472883e13e70643c33a7b3eae5
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's identity is explicitly an MCP server designed to provide specific domain-driven tools to an MCP client.
+      decision_reason: >-
+        The project's identity is explicitly an MCP server designed to provide specific domain-driven tools to an MCP
+        client.
       decision_evidence:
         - Repo description defines it as a 'Model Context Protocol server'
         - README specifies setup via 'cpServers' configuration block
@@ -112,6 +126,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is a protocol-specific server rather than a host integration meant to augment a specific editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is a protocol-specific server rather than a host
+        integration meant to augment a specific editor.
       review_reason: null
       review_resume_lifecycle: null

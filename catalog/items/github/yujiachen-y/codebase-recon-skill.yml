@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__yujiachen-y__codebase-recon-skill__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,7 +19,10 @@ provenance:
           - Code Search and Navigation
         anchor_text: codebase-recon
         extracted_url: https://github.com/yujiachen-y/codebase-recon-skill
-        surrounding_text: "- **[codebase-recon](https://github.com/yujiachen-y/codebase-recon-skill)** – AI coding agent skill that analyzes git history to reveal hotspots, bug magnets, bus factor risks, and development momentum before reading any code."
+        surrounding_text: >-
+          - **[codebase-recon](https://github.com/yujiachen-y/codebase-recon-skill)** – AI coding agent skill that
+          analyzes git history to reveal hotspots, bug magnets, bus factor risks, and development momentum before
+          reading any code.
         confidence: high
 metadata:
   github:
@@ -29,14 +32,14 @@ metadata:
     archived: false
     full_name: yujiachen-y/codebase-recon-skill
     html_url: https://github.com/yujiachen-y/codebase-recon-skill
-    created_at: "2026-04-09T16:15:49Z"
-    pushed_at: "2026-04-26T05:49:17Z"
+    created_at: '2026-04-09T16:15:49Z'
+    pushed_at: '2026-04-26T05:49:17Z'
     description: A coding agent skill that analyzes git history to understand a codebase before reading any code
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:21:22.810Z"
+    last_checked_at: '2026-07-21T15:21:22.810Z'
     readme:
-      fetched_at: "2026-07-21T15:21:22.810Z"
+      fetched_at: '2026-07-21T15:21:22.810Z'
       bytes: 2501
 insights:
   summary: A coding agent skill that analyzes git history to understand a codebase before reading any code.
@@ -49,13 +52,16 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: This is a reusable skill pack for coding agents that provides git-based codebase reconnaissance, fitting the Agent Skills category as a portable command pack rather than a standalone assistant or extension.
+  reason: >-
+    This is a reusable skill pack for coding agents that provides git-based codebase reconnaissance, fitting the Agent
+    Skills category as a portable command pack rather than a standalone assistant or extension.
   evidence:
     - Described as 'A coding agent skill that analyzes git history to understand a codebase before reading any code'
     - Installed via skills.sh and works with 20+ coding agents including Claude Code, Cline, and Cursor
     - Appears in awesome-ai-coding-tools under Code Search and Navigation as a curated AI-powered coding tool
 placement:
   primary_category: skills
+  secondary_categories: []
   section: Skill Packs & Libraries
 lifecycle:
   status: incubating
@@ -63,17 +69,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.657Z"
+    updated_at: '2026-05-06T22:12:15.657Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:22.810Z"
+    updated_at: '2026-07-21T15:21:22.810Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:47:26.954Z"
+    updated_at: '2026-05-12T15:47:26.954Z'
     cause: null
     next_retry_at: null
     attempts: 1

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__danny-avila__librechat__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Clients
         anchor_text: LibreChat
         extracted_url: https://www.librechat.ai
-        surrounding_text: "- **[LibreChat](https://www.librechat.ai/)** Open-source AI Web UI, supporting multiple providers including OpenAI, Anthropic, Google, Ollama, and local models. Includes MCP support for Agents."
+        surrounding_text: >-
+          - **[LibreChat](https://www.librechat.ai/)** Open-source AI Web UI, supporting multiple providers including
+          OpenAI, Anthropic, Google, Ollama, and local models. Includes MCP support for Agents.
         confidence: high
 metadata:
   github:
@@ -29,9 +31,13 @@ metadata:
     archived: false
     full_name: danny-avila/LibreChat
     html_url: https://github.com/danny-avila/LibreChat
-    created_at: "2023-02-12T01:06:52Z"
-    pushed_at: "2026-09-14T04:13:21Z"
-    description: "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active"
+    created_at: '2023-02-12T01:06:52Z'
+    pushed_at: '2026-09-14T04:13:21Z'
+    description: >-
+      Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure,
+      Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code
+      Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for
+      self-hosting. Active
     homepage: https://librechat.ai/
     topics:
       - ai
@@ -54,13 +60,17 @@ metadata:
       - responses-api
       - vision
       - webui
-    last_checked_at: "2026-09-14T04:13:34.067Z"
+    last_checked_at: '2026-09-14T04:13:34.067Z'
     readme:
-      fetched_at: "2026-09-14T04:13:34.067Z"
+      fetched_at: '2026-09-14T04:13:34.067Z'
       bytes: 16187
 insights:
-  summary: Self-hostable ChatGPT-like web UI with multi-provider model access, agents, MCP support, code interpreter, and extensible tooling.
-  why_it_matters: Developers can consolidate AI conversations across providers, build custom agents, and integrate MCP tools in a single self-hosted interface.
+  summary: >-
+    Self-hostable ChatGPT-like web UI with multi-provider model access, agents, MCP support, code interpreter, and
+    extensible tooling.
+  why_it_matters: >-
+    Developers can consolidate AI conversations across providers, build custom agents, and integrate MCP tools in a
+    single self-hosted interface.
   mental_damage: Finally, a unified chat interface that still requires you to configure 15 different API endpoints.
   tags:
     - self-hosted
@@ -71,31 +81,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: LibreChat is primarily a self-hosted chat interface and local serving layer for developers to run and interact with diverse AI models privately, fitting the local AI desktop interface profile.
+  reason: >-
+    LibreChat is primarily a self-hosted chat interface and local serving layer for developers to run and interact with
+    diverse AI models privately, fitting the local AI desktop interface profile.
   evidence:
-    - Repo description explicitly calls it an 'Enhanced ChatGPT Clone' for 'self-hosting' with support for local endpoints like Ollama.
-    - README highlights 'Custom Endpoints' and compatibility with 'Local & Remote AI Providers' including Ollama and Apple MLX.
-    - "Homepage is librechat.ai and it is actively maintained (pushed_at: 2026-05-06) with 36k+ stars."
+    - >-
+      Repo description explicitly calls it an 'Enhanced ChatGPT Clone' for 'self-hosting' with support for local
+      endpoints like Ollama.
+    - >-
+      README highlights 'Custom Endpoints' and compatibility with 'Local & Remote AI Providers' including Ollama and
+      Apple MLX.
+    - 'Homepage is librechat.ai and it is actively maintained (pushed_at: 2026-05-06) with 36k+ stars.'
 placement:
   primary_category: local-ai
-  section: null
+  secondary_categories: []
+  section: Desktop Chat & UIs
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'agent-orchestration'"
+  reason: 'Categorization review required: placement disagreement: retained ''local-ai'', proposed ''agent-orchestration'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.610Z"
+    updated_at: '2026-05-06T22:12:15.610Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:34.067Z"
+    updated_at: '2026-09-14T04:13:34.067Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:49:49.992Z"
+    updated_at: '2026-07-21T15:49:49.992Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -108,7 +125,9 @@ processing:
       input_hash: sha256:b0f8ec2382b216576094e7194b405307aac99dfa249b4abaf7857c4f31774d8f
       proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: LibreChat is primarily a workbench for coordinating multiple agents, models, and tools (including MCP) in a unified interface, fitting Agent Orchestration better than a pure coding agent or extension.
+      decision_reason: >-
+        LibreChat is primarily a workbench for coordinating multiple agents, models, and tools (including MCP) in a
+        unified interface, fitting Agent Orchestration better than a pure coding agent or extension.
       decision_evidence:
         - Repo description explicitly lists Agents, MCP, Skills, and multi-provider model support
         - README highlights LibreChat Agents, MCP support, and collaborative sharing as core features
@@ -116,6 +135,8 @@ processing:
       category_candidates:
         - agent-orchestration
         - mcp
-      contrastive_reason: Choose agent-orchestration over mcp because LibreChat's core value is the multi-agent workbench, not just MCP client functionality.
-      review_reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'agent-orchestration'"
+      contrastive_reason: >-
+        Choose agent-orchestration over mcp because LibreChat's core value is the multi-agent workbench, not just MCP
+        client functionality.
+      review_reason: 'Categorization review required: placement disagreement: retained ''local-ai'', proposed ''agent-orchestration'''
       review_resume_lifecycle: null

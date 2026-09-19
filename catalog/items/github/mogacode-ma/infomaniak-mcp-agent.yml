@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mogacode-ma__infomaniak-mcp-agent__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-08T05:39:05.247Z"
+      discovered_at: '2026-06-08T05:39:05.247Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,14 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: Mogacode-ma/infomaniak-mcp-agent
         extracted_url: https://github.com/mogacode-ma/infomaniak-mcp-agent
-        surrounding_text: "- [Mogacode-ma/infomaniak-mcp-agent](https://github.com/Mogacode-ma/infomaniak-mcp-agent) [![Mogacode-ma/infomaniak-mcp-agent MCP server](https://glama.ai/mcp/servers/Mogacode-ma/infomaniak-mcp-agent/badges/score.svg)](https://glama.ai/mcp/servers/Mogacode-ma/infomaniak-mcp-agent) 📇 ☁️ - Unofficial agentic MCP server for Infomaniak (Swiss cloud provider). 54 tools covering web hosting, mail, kDrive, domains, DNS, DNSSEC, FTP/SSH users, AI catalogue and more. Two-phase commit on every destructive operation, history & undo, transparent reverse-engineering of undocumented manager-private endpoints."
+        surrounding_text: >-
+          - [Mogacode-ma/infomaniak-mcp-agent](https://github.com/Mogacode-ma/infomaniak-mcp-agent)
+          [![Mogacode-ma/infomaniak-mcp-agent MCP
+          server](https://glama.ai/mcp/servers/Mogacode-ma/infomaniak-mcp-agent/badges/score.svg)](https://glama.ai/mcp/servers/Mogacode-ma/infomaniak-mcp-agent)
+          📇 ☁️ - Unofficial agentic MCP server for Infomaniak (Swiss cloud provider). 54 tools covering web hosting,
+          mail, kDrive, domains, DNS, DNSSEC, FTP/SSH users, AI catalogue and more. Two-phase commit on every
+          destructive operation, history & undo, transparent reverse-engineering of undocumented manager-private
+          endpoints.
         confidence: high
 metadata:
   github:
@@ -30,8 +37,8 @@ metadata:
     archived: false
     full_name: Mogacode-ma/infomaniak-mcp-agent
     html_url: https://github.com/Mogacode-ma/infomaniak-mcp-agent
-    created_at: "2026-05-31T18:29:36Z"
-    pushed_at: "2026-07-17T17:40:02Z"
+    created_at: '2026-05-31T18:29:36Z'
+    pushed_at: '2026-07-17T17:40:02Z'
     description: Full unofficial agentic Infomaniak MCP server — guided automation of web hosting, mail, kDrive, domains and DNS.
     homepage: https://github.com/Mogacode-ma/infomaniak-mcp-agent#readme
     topics:
@@ -45,14 +52,20 @@ metadata:
       - model-context-protocol
       - typescript
       - vps
-    last_checked_at: "2026-08-03T05:17:06.725Z"
+    last_checked_at: '2026-08-03T05:17:06.725Z'
     readme:
-      fetched_at: "2026-08-03T05:17:06.725Z"
+      fetched_at: '2026-08-03T05:17:06.725Z'
       bytes: 31593
 insights:
-  summary: infomaniak-mcp-agent is an unofficial Model Context Protocol server exposing 81 Infomaniak cloud service tools for direct LLM invocation.
-  why_it_matters: Lets developers automate Swiss cloud workflows (hosting, mail, DNS, kDrive) from Claude via natural language without leaving chat or writing glue scripts.
-  mental_damage: Finally, an excuse to let your AI delete production DNS zones via two-phase commit while pretending it’s agentic vibe-coding.
+  summary: >-
+    infomaniak-mcp-agent is an unofficial Model Context Protocol server exposing 81 Infomaniak cloud service tools for
+    direct LLM invocation.
+  why_it_matters: >-
+    Lets developers automate Swiss cloud workflows (hosting, mail, DNS, kDrive) from Claude via natural language without
+    leaving chat or writing glue scripts.
+  mental_damage: >-
+    Finally, an excuse to let your AI delete production DNS zones via two-phase commit while pretending it’s agentic
+    vibe-coding.
   tags:
     - mcp
     - infomaniak
@@ -62,31 +75,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server as its core identity, exposing Infomaniak services as MCP tools, making MCP the primary adopted thing rather than a compatibility layer.
+  reason: >-
+    The product is an MCP server as its core identity, exposing Infomaniak services as MCP tools, making MCP the primary
+    adopted thing rather than a compatibility layer.
   evidence:
-    - "Repo description: 'Full unofficial agentic Infomaniak MCP server'"
-    - "README: 'infomaniak-mcp-agent is an unofficial Model Context Protocol server that exposes the full surface of Infomaniak... as 81 tools an LLM can call directly'"
-    - "Source-list context: listed in awesome-mcp-servers under Server Implementations > Cloud Platforms"
+    - 'Repo description: ''Full unofficial agentic Infomaniak MCP server'''
+    - >-
+      README: 'infomaniak-mcp-agent is an unofficial Model Context Protocol server that exposes the full surface of
+      Infomaniak... as 81 tools an LLM can call directly'
+    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations > Cloud Platforms'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-08T05:39:05.248Z"
+    updated_at: '2026-06-08T05:39:05.248Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:06.725Z"
+    updated_at: '2026-08-03T05:17:06.725Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-06T05:46:27.655Z"
+    updated_at: '2026-07-06T05:46:27.655Z'
     cause: null
     next_retry_at: null
     attempts: 1

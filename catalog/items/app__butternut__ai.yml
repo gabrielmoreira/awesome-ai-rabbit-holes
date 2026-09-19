@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__app__butternut__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-06-01T05:40:05.293Z"
+      discovered_at: '2026-06-01T05:40:05.293Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Butternut AI
         anchor_text: Butternut AI
         extracted_url: https://butternut.ai
-        surrounding_text: "## [Butternut AI](https://butternut.ai/)"
+        surrounding_text: '## [Butternut AI](https://butternut.ai/)'
         confidence: high
 metadata:
   github:
@@ -35,8 +35,12 @@ metadata:
     readme: null
 insights:
   summary: An AI-powered website builder that generates complete business and portfolio sites from text descriptions.
-  why_it_matters: It provides a prompt-to-deployment pipeline for quickly spinning up marketing sites, including hosting, SSL, and integrated AI chatbots.
-  mental_damage: The dream of 'replacing developer costs' is now a monthly subscription that promises a professional business presence in 20 seconds.
+  why_it_matters: >-
+    It provides a prompt-to-deployment pipeline for quickly spinning up marketing sites, including hosting, SSL, and
+    integrated AI chatbots.
+  mental_damage: >-
+    The dream of 'replacing developer costs' is now a monthly subscription that promises a professional business
+    presence in 20 seconds.
   tags:
     - no-code
     - site-generator
@@ -44,22 +48,21 @@ insights:
     - hosting
   confidence: high
 curation:
-  status: included
-  reason: The product's core identity is turning a business description into a deployed website rather than helping a developer edit an existing codebase.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Scraped site context explicitly lists 'AI Website Builder' and 'AI Portfolio Builder' as products
-    - Workflow is described as 'Describe Your Business' -> 'Customize' -> 'Hit Publish'
-    - Provides end-to-end delivery including hosting, SSL, and domain linking
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: app-builders
-  section: Prompt-to-Site Builders
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-01T05:40:05.294Z"
+    updated_at: '2026-06-01T05:40:05.294Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +71,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-06-01T05:41:47.337Z"
+    updated_at: '2026-06-01T05:41:47.337Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

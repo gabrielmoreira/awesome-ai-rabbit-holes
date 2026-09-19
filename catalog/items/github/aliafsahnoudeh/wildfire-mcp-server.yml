@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aliafsahnoudeh__wildfire-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🌳 <a name="environment-and-nature"></a>Environment & Nature
         anchor_text: aliafsahnoudeh/wildfire-mcp-server
         extracted_url: https://github.com/aliafsahnoudeh/wildfire-mcp-server
-        surrounding_text: "- [aliafsahnoudeh/wildfire-mcp-server](https://github.com/aliafsahnoudeh/wildfire-mcp-server) 🐍 ☁️ 🍎 🪟 🐧 - MCP server for detecting, monitoring, and analyzing potential wildfires globally using multiple data sources including NASA FIRMS, OpenWeatherMap, and Google Earth Engine."
+        surrounding_text: >-
+          - [aliafsahnoudeh/wildfire-mcp-server](https://github.com/aliafsahnoudeh/wildfire-mcp-server) 🐍 ☁️ 🍎 🪟 🐧 -
+          MCP server for detecting, monitoring, and analyzing potential wildfires globally using multiple data sources
+          including NASA FIRMS, OpenWeatherMap, and Google Earth Engine.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,22 @@ metadata:
     archived: false
     full_name: aliafsahnoudeh/wildfire-mcp-server
     html_url: https://github.com/aliafsahnoudeh/wildfire-mcp-server
-    created_at: "2025-12-07T18:47:50Z"
-    pushed_at: "2025-12-27T11:43:15Z"
+    created_at: '2025-12-07T18:47:50Z'
+    pushed_at: '2025-12-27T11:43:15Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:40.646Z"
+    last_checked_at: '2026-09-17T04:13:40.646Z'
     readme:
-      fetched_at: "2026-09-17T04:13:40.646Z"
+      fetched_at: '2026-09-17T04:13:40.646Z'
       bytes: 5603
 insights:
-  summary: An MCP server for detecting, monitoring, and analyzing wildfires globally using NASA FIRMS, OpenWeatherMap, and Google Earth Engine data.
-  why_it_matters: It gives AI assistants real-time access to satellite, weather, and air quality data for wildfire analysis, enabling developers to build context-aware environmental monitoring workflows.
+  summary: >-
+    An MCP server for detecting, monitoring, and analyzing wildfires globally using NASA FIRMS, OpenWeatherMap, and
+    Google Earth Engine data.
+  why_it_matters: >-
+    It gives AI assistants real-time access to satellite, weather, and air quality data for wildfire analysis, enabling
+    developers to build context-aware environmental monitoring workflows.
   mental_damage: Now your AI can panic about climate change with the same precision it panics about your unclosed brackets.
   tags:
     - mcp-server
@@ -52,31 +59,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the core product identity, and the server provides domain-specific tools for wildfire analysis, fitting the MCP Servers & Tooling category.
+  reason: >-
+    MCP is the core product identity, and the server provides domain-specific tools for wildfire analysis, fitting the
+    MCP Servers & Tooling category.
   evidence:
     - README explicitly describes it as a Model Context Protocol (MCP) server
     - Source-list context includes it in awesome-mcp-servers under Server Implementations
     - Provides MCP tools like get_potential_wildfires, get_weather_forecast, etc.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.601Z"
+    updated_at: '2026-05-06T22:12:15.601Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:40.646Z"
+    updated_at: '2026-09-17T04:13:40.646Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:22:05.508Z"
+    updated_at: '2026-07-21T15:22:05.508Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +99,9 @@ processing:
       input_hash: sha256:5759937d2e3f2be26ee3f402e0fd9ad7d0d73dfe441a4a307239e92585ffbd23
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the core product identity, and the server provides domain-specific tools for wildfire analysis, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        MCP is the core product identity, and the server provides domain-specific tools for wildfire analysis, fitting
+        the MCP Servers & Tooling category.
       decision_evidence:
         - README explicitly describes it as a Model Context Protocol (MCP) server
         - Source-list context includes it in awesome-mcp-servers under Server Implementations
@@ -97,6 +109,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

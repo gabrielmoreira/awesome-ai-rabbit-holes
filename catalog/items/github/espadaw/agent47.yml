@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__espadaw__agent47__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: espadaw/Agent47
         extracted_url: https://github.com/espadaw/agent47
-        surrounding_text: "- [espadaw/Agent47](https://github.com/espadaw/Agent47) 📇 ☁️ - Unified job aggregator for AI agents across 9+ platforms (x402, RentAHuman, Virtuals, etc)."
+        surrounding_text: >-
+          - [espadaw/Agent47](https://github.com/espadaw/Agent47) 📇 ☁️ - Unified job aggregator for AI agents across 9+
+          platforms (x402, RentAHuman, Virtuals, etc).
         confidence: high
 metadata:
   github:
@@ -30,19 +32,25 @@ metadata:
     archived: false
     full_name: espadaw/Agent47
     html_url: https://github.com/espadaw/Agent47
-    created_at: "2026-02-15T17:08:33Z"
-    pushed_at: "2026-02-19T17:28:58Z"
-    description: Unified job search for AI agents. MCP server integrating x402, RentAHuman, Virtuals, and more into a single interface for finding work and comparing prices across the agent economy.
+    created_at: '2026-02-15T17:08:33Z'
+    pushed_at: '2026-02-19T17:28:58Z'
+    description: >-
+      Unified job search for AI agents. MCP server integrating x402, RentAHuman, Virtuals, and more into a single
+      interface for finding work and comparing prices across the agent economy.
     homepage: null
     topics: []
-    last_checked_at: "2026-08-27T09:23:25.449Z"
+    last_checked_at: '2026-08-27T09:23:25.449Z'
     readme:
-      fetched_at: "2026-08-27T09:23:25.449Z"
+      fetched_at: '2026-08-27T09:23:25.449Z'
       bytes: 2030
 insights:
   summary: An MCP server and web dashboard that aggregates job marketplaces and contract data for the AI agent economy.
-  why_it_matters: It provides a standardized way for autonomous agents to discover work and compare pricing across disparate agent-centric marketplaces via the Model Context Protocol.
-  mental_damage: Because nothing says 'the future is here' quite like building specialized job boards for the machines that will eventually replace the people using them.
+  why_it_matters: >-
+    It provides a standardized way for autonomous agents to discover work and compare pricing across disparate
+    agent-centric marketplaces via the Model Context Protocol.
+  mental_damage: >-
+    Because nothing says 'the future is here' quite like building specialized job boards for the machines that will
+    eventually replace the people using them.
   tags:
     - mcp
     - agent-economy
@@ -51,31 +59,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server that standardizes disparate agent marketplace APIs into a single interface.
+  reason: >-
+    The project's primary identity is an MCP server that standardizes disparate agent marketplace APIs into a single
+    interface.
   evidence:
     - README identifies it as an 'MCP Native' project providing an SSE endpoint for autonomous agents.
     - Repo description explicitly defines it as an 'MCP server integrating x402, RentAHuman, Virtuals, and more'.
     - Primary functionality is exposing tool capabilities like 'findJobs' and 'comparePrice' via MCP.
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:25.449Z"
+    updated_at: '2026-08-27T09:23:25.449Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:52:59.401Z"
+    updated_at: '2026-07-21T15:52:59.401Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +99,9 @@ processing:
       input_hash: sha256:f1dcc76dde75f7d5aec59c7025814bb636759cfe3f2c20a61d7c3f2fff5ae8f9
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's primary identity is an MCP server that standardizes disparate agent marketplace APIs into a single interface.
+      decision_reason: >-
+        The project's primary identity is an MCP server that standardizes disparate agent marketplace APIs into a single
+        interface.
       decision_evidence:
         - README identifies it as an 'MCP Native' project providing an SSE endpoint for autonomous agents.
         - Repo description explicitly defines it as an 'MCP server integrating x402, RentAHuman, Virtuals, and more'.
@@ -96,6 +109,8 @@ processing:
       category_candidates:
         - mcp
         - agent-orchestration
-      contrastive_reason: Choose mcp over agent-orchestration because the core novelty is the standardized protocol interface (MCP) rather than a full control plane or runtime for multiple agents.
+      contrastive_reason: >-
+        Choose mcp over agent-orchestration because the core novelty is the standardized protocol interface (MCP) rather
+        than a full control plane or runtime for multiple agents.
       review_reason: null
       review_resume_lifecycle: null

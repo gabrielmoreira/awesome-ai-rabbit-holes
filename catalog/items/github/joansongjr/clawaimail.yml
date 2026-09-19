@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__joansongjr__clawaimail__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: clawaimail/mcp
         extracted_url: https://github.com/joansongjr/clawaimail
-        surrounding_text: "- [clawaimail/mcp](https://github.com/joansongjr/clawaimail) [![joansongjr/clawaimail MCP server](https://glama.ai/mcp/servers/joansongjr/clawaimail/badges/score.svg)](https://glama.ai/mcp/servers/joansongjr/clawaimail) 📇 ☁️ 🍎 🪟 🐧 - Email infrastructure for AI agents. Create inboxes on the fly, send and receive real emails, search messages, and manage threads via API. Install with `npx clawaimail-mcp`."
+        surrounding_text: >-
+          - [clawaimail/mcp](https://github.com/joansongjr/clawaimail) [![joansongjr/clawaimail MCP
+          server](https://glama.ai/mcp/servers/joansongjr/clawaimail/badges/score.svg)](https://glama.ai/mcp/servers/joansongjr/clawaimail)
+          📇 ☁️ 🍎 🪟 🐧 - Email infrastructure for AI agents. Create inboxes on the fly, send and receive real emails,
+          search messages, and manage threads via API. Install with `npx clawaimail-mcp`.
         confidence: high
 metadata:
   github:
@@ -30,18 +34,20 @@ metadata:
     archived: false
     full_name: joansongjr/clawaimail
     html_url: https://github.com/joansongjr/clawaimail
-    created_at: "2026-03-07T16:47:43Z"
-    pushed_at: "2026-03-23T08:23:14Z"
+    created_at: '2026-03-07T16:47:43Z'
+    pushed_at: '2026-03-23T08:23:14Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:51.180Z"
+    last_checked_at: '2026-07-30T05:05:51.180Z'
     readme:
-      fetched_at: "2026-07-30T05:05:51.180Z"
+      fetched_at: '2026-07-30T05:05:51.180Z'
       bytes: 5453
 insights:
   summary: Email infrastructure for AI agents with REST API, MCP server, and SDKs for programmatic email control.
-  why_it_matters: Gives AI agents their own email addresses and full programmatic control over sending, receiving, and managing email in agentic workflows.
+  why_it_matters: >-
+    Gives AI agents their own email addresses and full programmatic control over sending, receiving, and managing email
+    in agentic workflows.
   mental_damage: Now your agents can spam you directly, without the middleman.
   tags:
     - email
@@ -52,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the primary product identity here, as it ships a first-class MCP server for email capabilities in agent workflows.
+  reason: >-
+    MCP is the primary product identity here, as it ships a first-class MCP server for email capabilities in agent
+    workflows.
   evidence:
     - README explicitly describes it as 'Email infrastructure for AI agents' with an MCP server as a core feature
     - Listed in awesome-mcp-servers under 'Server Implementations > Communication'
     - Provides REST API, WebSocket streaming, and SDKs, but MCP server is a first-class offering
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:51.180Z"
+    updated_at: '2026-07-30T05:05:51.180Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:47.459Z"
+    updated_at: '2026-07-21T16:10:47.459Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +98,9 @@ processing:
       input_hash: sha256:e6ea06fa50a345b83512e72eeb4559552f250af795b7b695dfe76ab2f850bd08
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the primary product identity here, as it ships a first-class MCP server for email capabilities in agent workflows.
+      decision_reason: >-
+        MCP is the primary product identity here, as it ships a first-class MCP server for email capabilities in agent
+        workflows.
       decision_evidence:
         - README explicitly describes it as 'Email infrastructure for AI agents' with an MCP server as a core feature
         - Listed in awesome-mcp-servers under 'Server Implementations > Communication'
@@ -97,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product's core identity is its MCP server for email, not just a code-first SDK or library.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product's core identity is its MCP server for email, not just a
+        code-first SDK or library.
       review_reason: null
       review_resume_lifecycle: null

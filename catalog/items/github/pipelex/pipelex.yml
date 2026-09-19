@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pipelex__pipelex__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -20,7 +20,9 @@ provenance:
           - Multi-Agent Orchestration Frameworks
         anchor_text: Pipelex
         extracted_url: https://github.com/pipelex/pipelex
-        surrounding_text: "| [Pipelex](https://github.com/Pipelex/pipelex) | Declarative language for composable AI workflows | ![Stars](https://img.shields.io/github/stars/Pipelex/pipelex) |"
+        surrounding_text: >-
+          | [Pipelex](https://github.com/Pipelex/pipelex) | Declarative language for composable AI workflows |
+          ![Stars](https://img.shields.io/github/stars/Pipelex/pipelex) |
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: Pipelex/pipelex
     html_url: https://github.com/Pipelex/pipelex
-    created_at: "2025-05-26T07:21:34Z"
-    pushed_at: "2026-07-20T07:42:13Z"
+    created_at: '2025-05-26T07:21:34Z'
+    pushed_at: '2026-07-20T07:42:13Z'
     description: Declarative language for composable Al workflows. Devtool for agents and mere humans.
     homepage: https://pipelex.com
     topics:
@@ -44,14 +46,20 @@ metadata:
       - orchestration
       - pipeline
       - workflows
-    last_checked_at: "2026-07-20T16:42:34.751Z"
+    last_checked_at: '2026-07-20T16:42:34.751Z'
     readme:
-      fetched_at: "2026-07-20T16:42:34.751Z"
+      fetched_at: '2026-07-20T16:42:34.751Z'
       bytes: 22592
 insights:
-  summary: A declarative DSL and CLI for defining typed, reusable AI procedures (methods) that handle model routing, structured outputs, and pipeline orchestration across 60+ models.
-  why_it_matters: It lets teams codify AI workflows into version-controlled .mthds files, making prompt logic composable, repeatable, and portable across different coding agents.
-  mental_damage: "Just what we needed: yet another layer of abstraction where your prompts get their own file extension and a dedicated syntax before the model even sees them."
+  summary: >-
+    A declarative DSL and CLI for defining typed, reusable AI procedures (methods) that handle model routing, structured
+    outputs, and pipeline orchestration across 60+ models.
+  why_it_matters: >-
+    It lets teams codify AI workflows into version-controlled .mthds files, making prompt logic composable, repeatable,
+    and portable across different coding agents.
+  mental_damage: >-
+    Just what we needed: yet another layer of abstraction where your prompts get their own file extension and a
+    dedicated syntax before the model even sees them.
   tags:
     - dsl
     - workflow
@@ -61,35 +69,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product is a code-first DSL and CLI toolkit for building AI workflows, fitting the framework/sdk model where developers script against a defined syntax rather than operating a control plane.
+  reason: >-
+    The core product is a code-first DSL and CLI toolkit for building AI workflows, fitting the framework/sdk model
+    where developers script against a defined syntax rather than operating a control plane.
   evidence:
-    - "Repo description: 'Declarative language for composable AI workflows. Devtool for agents and mere humans.'"
+    - 'Repo description: ''Declarative language for composable AI workflows. Devtool for agents and mere humans.'''
     - README shows a TOML-based DSL for defining pipes and methods executed by the Pipelex CLI.
-    - Topic tags include dsl, workflow, pipeline, and orchestration; source list places it under 'Core Frameworks > Multi-Agent Orchestration Frameworks'.
+    - >-
+      Topic tags include dsl, workflow, pipeline, and orchestration; source list places it under 'Core Frameworks >
+      Multi-Agent Orchestration Frameworks'.
 placement:
   primary_category: ai-frameworks
-  section: Workflow / Graph Engines
+  secondary_categories: []
+  section: Workflow & Graph Engines
 lifecycle:
   status: promotion_candidate
   reason: Stars (663) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.642Z"
+    updated_at: '2026-05-06T22:12:15.642Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:34.751Z"
+    updated_at: '2026-07-20T16:42:34.751Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

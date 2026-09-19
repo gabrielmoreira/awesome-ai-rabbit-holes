@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__code__visualstudio__com__docs__chat__copilot__chat__awesome-list__github__awesome-copilot
-      discovered_at: "2026-06-04T05:40:27.160Z"
+      discovered_at: '2026-06-04T05:40:27.160Z'
       source:
         type: awesome-list
         name: github/awesome-copilot
@@ -18,7 +18,9 @@ provenance:
           - 📚 Additional Resources
         anchor_text: GitHub Copilot Chat Documentation
         extracted_url: https://code.visualstudio.com/docs/copilot/chat/copilot-chat
-        surrounding_text: "- [GitHub Copilot Chat Documentation](https://code.visualstudio.com/docs/copilot/chat/copilot-chat) - Complete chat feature guide"
+        surrounding_text: >-
+          - [GitHub Copilot Chat Documentation](https://code.visualstudio.com/docs/copilot/chat/copilot-chat) - Complete
+          chat feature guide
         confidence: high
 metadata:
   github:
@@ -35,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: The AI-powered chat interface and agent runtime integrated into Visual Studio Code.
-  why_it_matters: It provides multiple interaction surfaces (Chat view, Agents window, Inline chat) to transition from simple Q&A to autonomous agentic workflows that can edit files and run terminal commands.
-  mental_damage: The transition from 'Chat view' for single workspaces to an 'Agents window' for multiple projects is the first step toward managing a fleet of autonomous interns who can all edit your source code simultaneously.
+  why_it_matters: >-
+    It provides multiple interaction surfaces (Chat view, Agents window, Inline chat) to transition from simple Q&A to
+    autonomous agentic workflows that can edit files and run terminal commands.
+  mental_damage: >-
+    The transition from 'Chat view' for single workspaces to an 'Agents window' for multiple projects is the first step
+    toward managing a fleet of autonomous interns who can all edit your source code simultaneously.
   tags:
     - vscode
     - github-copilot
@@ -44,25 +50,26 @@ insights:
     - ide-integration
   confidence: high
 curation:
-  status: included
-  reason: The product identity is a comprehensive coding assistant that can plan, edit files, and execute terminal commands directly within the IDE surface.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - README states it enables 'agentic workflows, multi-file edits' and 'autonomously determine what needs to be done'
-    - Supports 'Agent Target' selection for local, background, or cloud execution
-    - Includes an 'Agents window' specifically for orchestrating agents across projects
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: coding-agents
-  section: IDE-Native Assistants
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-04T05:40:27.161Z"
+    updated_at: '2026-06-04T05:40:27.161Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -70,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-06-04T05:42:22.671Z"
+    updated_at: '2026-06-04T05:42:22.671Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__1jehuang__jcode__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-08-03T05:16:24.577Z"
+      discovered_at: '2026-08-03T05:16:24.577Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Open Source
         anchor_text: jcode
         extracted_url: https://github.com/1jehuang/jcode
-        surrounding_text: "- **[jcode](https://github.com/1jehuang/jcode)** `⭐ 14.9k` — Rust TUI agent optimized for RAM and startup latency (~28 MB PSS per session with local embeddings off), built for scaling many parallel sessions. Agent memory, swarm mode, browser automation, MCP, and 40+ providers with built-in OAuth login flows. MIT."
+        surrounding_text: >-
+          - **[jcode](https://github.com/1jehuang/jcode)** `⭐ 14.9k` — Rust TUI agent optimized for RAM and startup
+          latency (~28 MB PSS per session with local embeddings off), built for scaling many parallel sessions. Agent
+          memory, swarm mode, browser automation, MCP, and 40+ providers with built-in OAuth login flows. MIT.
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: 1jehuang/jcode
     html_url: https://github.com/1jehuang/jcode
-    created_at: "2026-01-05T09:43:36Z"
-    pushed_at: "2026-09-17T03:32:36Z"
+    created_at: '2026-01-05T09:43:36Z'
+    pushed_at: '2026-09-17T03:32:36Z'
     description: The most RAM efficient harness
     homepage: https://jcode.sh
     topics:
@@ -47,14 +50,20 @@ metadata:
       - rust
       - terminal
       - tui
-    last_checked_at: "2026-09-17T04:13:25.473Z"
+    last_checked_at: '2026-09-17T04:13:25.473Z'
     readme:
-      fetched_at: "2026-09-17T04:13:25.473Z"
+      fetched_at: '2026-09-17T04:13:25.473Z'
       bytes: 42875
 insights:
-  summary: A terminal-native AI coding agent harness optimized for extreme RAM efficiency and high-performance multi-session workflows.
-  why_it_matters: It provides a lightweight, high-speed alternative for running agentic coding workflows in terminal environments without the massive memory overhead of current industry leaders.
-  mental_damage: Because we've reached a point where the limiting factor for autonomous software engineering is how many gigabytes of RAM we can throw at a single terminal session.
+  summary: >-
+    A terminal-native AI coding agent harness optimized for extreme RAM efficiency and high-performance multi-session
+    workflows.
+  why_it_matters: >-
+    It provides a lightweight, high-speed alternative for running agentic coding workflows in terminal environments
+    without the massive memory overhead of current industry leaders.
+  mental_damage: >-
+    Because we've reached a point where the limiting factor for autonomous software engineering is how many gigabytes of
+    RAM we can throw at a single terminal session.
   tags:
     - cli
     - coding-agent
@@ -64,13 +73,16 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a standalone, terminal-native coding agent/harness that acts as the primary interface for delegating repository tasks to an LLM.
+  reason: >-
+    It is a standalone, terminal-native coding agent/harness that acts as the primary interface for delegating
+    repository tasks to an LLM.
   evidence:
     - Repo description and README explicitly position it as a coding agent harness
     - Directly compared to Claude Code and Cursor Agent in RAM benchmarks
     - Categorized in 'awesome-cli-coding-agents' under terminal-native agents
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -78,17 +90,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-08-03T05:16:24.579Z"
+    updated_at: '2026-08-03T05:16:24.579Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:25.473Z"
+    updated_at: '2026-09-17T04:13:25.473Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:22:24.818Z"
+    updated_at: '2026-08-27T06:22:24.818Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -97,7 +109,9 @@ processing:
       input_hash: sha256:6deb7c69889c1c85256260fc6a6b5b7055091c60c68a32d7813b610e2de3d4e4
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: It is a standalone, terminal-native coding agent/harness that acts as the primary interface for delegating repository tasks to an LLM.
+      decision_reason: >-
+        It is a standalone, terminal-native coding agent/harness that acts as the primary interface for delegating
+        repository tasks to an LLM.
       decision_evidence:
         - Repo description and README explicitly position it as a coding agent harness
         - Directly compared to Claude Code and Cursor Agent in RAM benchmarks
@@ -105,7 +119,9 @@ processing:
       category_candidates:
         - coding-agents
         - agent-orchestration
-      contrastive_reason: Choose coding-agents over agent-orchestration because its primary identity is a terminal-native coding assistant/harness rather than a control plane for coordinating multiple disparate agent types.
+      contrastive_reason: >-
+        Choose coding-agents over agent-orchestration because its primary identity is a terminal-native coding
+        assistant/harness rather than a control plane for coordinating multiple disparate agent types.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

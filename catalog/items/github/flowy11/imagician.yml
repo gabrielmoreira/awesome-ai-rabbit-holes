@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__flowy11__imagician__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Imagician
         extracted_url: https://github.com/flowy11/imagician
-        surrounding_text: "- **[Imagician](https://github.com/flowy11/imagician)** - A MCP server for comprehensive image editing operations including resizing, format conversion, cropping, compression, and more based on sharp."
+        surrounding_text: >-
+          - **[Imagician](https://github.com/flowy11/imagician)** - A MCP server for comprehensive image editing
+          operations including resizing, format conversion, cropping, compression, and more based on sharp.
         confidence: high
 metadata:
   github:
@@ -29,19 +31,25 @@ metadata:
     archived: false
     full_name: flowy11/imagician
     html_url: https://github.com/flowy11/imagician
-    created_at: "2025-08-04T22:38:49Z"
-    pushed_at: "2025-11-13T22:50:03Z"
+    created_at: '2025-08-04T22:38:49Z'
+    pushed_at: '2025-11-13T22:50:03Z'
     description: A MCP server for image edition
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:41.715Z"
+    last_checked_at: '2026-09-03T05:16:41.715Z'
     readme:
-      fetched_at: "2026-09-03T05:16:41.715Z"
+      fetched_at: '2026-09-03T05:16:41.715Z'
       bytes: 4786
 insights:
-  summary: A Model Context Protocol server providing image editing operations like resize, crop, convert, and compress for use with AI assistants.
-  why_it_matters: Developers can perform common image manipulations through natural language in AI assistants without leaving their chat interface.
-  mental_damage: Finally, a way to outsource the one image task you keep putting off to an AI that still needs you to specify pixel coordinates.
+  summary: >-
+    A Model Context Protocol server providing image editing operations like resize, crop, convert, and compress for use
+    with AI assistants.
+  why_it_matters: >-
+    Developers can perform common image manipulations through natural language in AI assistants without leaving their
+    chat interface.
+  mental_damage: >-
+    Finally, a way to outsource the one image task you keep putting off to an AI that still needs you to specify pixel
+    coordinates.
   tags:
     - mcp
     - image-processing
@@ -49,31 +57,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Imagician is an MCP server whose core identity and value proposition is providing image editing capabilities through the Model Context Protocol, making it a domain-specific MCP server rather than a general coding agent or extension.
+  reason: >-
+    Imagician is an MCP server whose core identity and value proposition is providing image editing capabilities through
+    the Model Context Protocol, making it a domain-specific MCP server rather than a general coding agent or extension.
   evidence:
-    - "Repo description: 'A MCP server for image edition'"
-    - "README: 'A Model Context Protocol (MCP) server for comprehensive image editing operations'"
-    - "Source-list context: Listed in awesome-mcp-servers under Community Servers"
+    - 'Repo description: ''A MCP server for image edition'''
+    - 'README: ''A Model Context Protocol (MCP) server for comprehensive image editing operations'''
+    - 'Source-list context: Listed in awesome-mcp-servers under Community Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.614Z"
+    updated_at: '2026-05-06T22:12:15.614Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:41.715Z"
+    updated_at: '2026-09-03T05:16:41.715Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:57:33.958Z"
+    updated_at: '2026-07-21T15:57:33.958Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -86,14 +97,19 @@ processing:
       input_hash: sha256:e27acb2cb96273f7c3599c5442dd1e36140dae08f9aa1958ffa9a3aadad96297
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: Imagician is an MCP server whose core identity and value proposition is providing image editing capabilities through the Model Context Protocol, making it a domain-specific MCP server rather than a general coding agent or extension.
+      decision_reason: >-
+        Imagician is an MCP server whose core identity and value proposition is providing image editing capabilities
+        through the Model Context Protocol, making it a domain-specific MCP server rather than a general coding agent or
+        extension.
       decision_evidence:
-        - "Repo description: 'A MCP server for image edition'"
-        - "README: 'A Model Context Protocol (MCP) server for comprehensive image editing operations'"
-        - "Source-list context: Listed in awesome-mcp-servers under Community Servers"
+        - 'Repo description: ''A MCP server for image edition'''
+        - 'README: ''A Model Context Protocol (MCP) server for comprehensive image editing operations'''
+        - 'Source-list context: Listed in awesome-mcp-servers under Community Servers'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server providing domain-specific functionality, not an extension that augments another assistant with host capabilities.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server providing domain-specific functionality,
+        not an extension that augments another assistant with host capabilities.
       review_reason: null
       review_resume_lifecycle: null

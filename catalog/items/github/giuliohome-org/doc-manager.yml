@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__giuliohome-org__doc-manager__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: giuliohome-org/doc-manager
         extracted_url: https://github.com/giuliohome-org/doc-manager
-        surrounding_text: "- [giuliohome-org/doc-manager](https://github.com/giuliohome-org/doc-manager) [![giuliohome-org/doc-manager MCP server](https://glama.ai/mcp/servers/giuliohome-org/doc-manager/badges/score.svg)](https://glama.ai/mcp/servers/giuliohome-org/doc-manager) 🦀 ☁️ - Personal document vault on Azure Blob Storage with a built-in MCP server. Client-side AES-256-GCM zero-knowledge encryption: encrypted docs stay opaque to Claude, plaintext docs are fully readable, writable, and searchable from chat."
+        surrounding_text: >-
+          - [giuliohome-org/doc-manager](https://github.com/giuliohome-org/doc-manager) [![giuliohome-org/doc-manager
+          MCP
+          server](https://glama.ai/mcp/servers/giuliohome-org/doc-manager/badges/score.svg)](https://glama.ai/mcp/servers/giuliohome-org/doc-manager)
+          🦀 ☁️ - Personal document vault on Azure Blob Storage with a built-in MCP server. Client-side AES-256-GCM
+          zero-knowledge encryption: encrypted docs stay opaque to Claude, plaintext docs are fully readable, writable,
+          and searchable from chat.
         confidence: high
 metadata:
   github:
@@ -30,8 +36,8 @@ metadata:
     archived: false
     full_name: giuliohome-org/doc-manager
     html_url: https://github.com/giuliohome-org/doc-manager
-    created_at: "2025-02-01T10:56:14Z"
-    pushed_at: "2026-05-11T20:20:13Z"
+    created_at: '2025-02-01T10:56:14Z'
+    pushed_at: '2026-05-11T20:20:13Z'
     description: cloud copy-paste content sharing
     homepage: https://doc-manager.giuliohome.com/
     topics:
@@ -46,14 +52,20 @@ metadata:
       - rust-rocket
       - vite-react
       - zero-knowledge
-    last_checked_at: "2026-09-03T05:16:50.698Z"
+    last_checked_at: '2026-09-03T05:16:50.698Z'
     readme:
-      fetched_at: "2026-09-03T05:16:50.698Z"
+      fetched_at: '2026-09-03T05:16:50.698Z'
       bytes: 9615
 insights:
-  summary: A zero-knowledge document vault that exposes an MCP server to let AI assistants list, search, and update private documents.
-  why_it_matters: It enables a secure way to give LLMs access to a private knowledge base without sacrificing end-to-end encryption for the most sensitive files.
-  mental_damage: The peace of mind that comes from zero-knowledge encryption is slightly undermined by the fact that you're still giving a third-party LLM a window into your encrypted vault.
+  summary: >-
+    A zero-knowledge document vault that exposes an MCP server to let AI assistants list, search, and update private
+    documents.
+  why_it_matters: >-
+    It enables a secure way to give LLMs access to a private knowledge base without sacrificing end-to-end encryption
+    for the most sensitive files.
+  mental_damage: >-
+    The peace of mind that comes from zero-knowledge encryption is slightly undermined by the fact that you're still
+    giving a third-party LLM a window into your encrypted vault.
   tags:
     - mcp
     - zero-knowledge
@@ -63,31 +75,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's core identity is an MCP server providing a specific capability (document vaulting) to an assistant, rather than being the assistant itself.
+  reason: >-
+    The project's core identity is an MCP server providing a specific capability (document vaulting) to an assistant,
+    rather than being the assistant itself.
   evidence:
     - README explicitly identifies as an 'MCP server'
     - Provides a set of MCP tools like `list_documents` and `search_documents`
     - Identity is centered on the Model Context Protocol implementation
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.819Z"
+    updated_at: '2026-05-28T05:28:09.819Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:50.698Z"
+    updated_at: '2026-09-03T05:16:50.698Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-08T05:41:18.384Z"
+    updated_at: '2026-06-08T05:41:18.384Z'
     cause: null
     next_retry_at: null
     attempts: 1

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__abhigyan-shekhar__waggle-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,14 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: Abhigyan-Shekhar/Waggle-mcp
         extracted_url: https://github.com/abhigyan-shekhar/waggle-mcp
-        surrounding_text: "- [Abhigyan-Shekhar/Waggle-mcp](https://github.com/Abhigyan-Shekhar/Waggle-mcp) [![Abhigyan-Shekhar/Waggle-mcp MCP server](https://glama.ai/mcp/servers/Abhigyan-Shekhar/Waggle-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Abhigyan-Shekhar/Waggle-mcp) 🐍 🏠 🍎 🪟 🐧 - Persistent graph memory for AI agents. Drop a conversation turn in via `observe_conversation()` and facts are auto-extracted, stored as typed graph nodes with local semantic embeddings (no API key). Supports temporal queries (\"what did we decide last week?\"), conflict detection, and context priming. One-command setup with `waggle-mcp init`. SQLite locally, Neo4j in production."
+        surrounding_text: >-
+          - [Abhigyan-Shekhar/Waggle-mcp](https://github.com/Abhigyan-Shekhar/Waggle-mcp) [![Abhigyan-Shekhar/Waggle-mcp
+          MCP
+          server](https://glama.ai/mcp/servers/Abhigyan-Shekhar/Waggle-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Abhigyan-Shekhar/Waggle-mcp)
+          🐍 🏠 🍎 🪟 🐧 - Persistent graph memory for AI agents. Drop a conversation turn in via
+          `observe_conversation()` and facts are auto-extracted, stored as typed graph nodes with local semantic
+          embeddings (no API key). Supports temporal queries ("what did we decide last week?"), conflict detection, and
+          context priming. One-command setup with `waggle-mcp init`. SQLite locally, Neo4j in production.
         confidence: high
 metadata:
   github:
@@ -30,9 +37,9 @@ metadata:
     archived: false
     full_name: Abhigyan-Shekhar/Waggle-mcp
     html_url: https://github.com/Abhigyan-Shekhar/Waggle-mcp
-    created_at: "2026-04-12T06:16:56Z"
-    pushed_at: "2026-09-11T17:50:42Z"
-    description: "MCP server for external memory layer for AI agents + more . Download from pypi , and get started "
+    created_at: '2026-04-12T06:16:56Z'
+    pushed_at: '2026-09-11T17:50:42Z'
+    description: 'MCP server for external memory layer for AI agents + more . Download from pypi , and get started '
     homepage: https://pypi.org/project/waggle-mcp/
     topics:
       - agent-memory
@@ -43,14 +50,20 @@ metadata:
       - mcp
       - mcp-server
       - python
-    last_checked_at: "2026-09-17T04:13:28.600Z"
+    last_checked_at: '2026-09-17T04:13:28.600Z'
     readme:
-      fetched_at: "2026-09-17T04:13:28.600Z"
+      fetched_at: '2026-09-17T04:13:28.600Z'
       bytes: 13053
 insights:
-  summary: Local-first MCP server that adds persistent graph-backed memory to coding agents, storing decisions, contradictions, and reasoning chains across sessions.
-  why_it_matters: Eliminates context-window amnesia by retaining not just facts but the relationships between them (decisions, reasons, contradictions) in a queryable knowledge graph that survives session restarts.
-  mental_damage: Now you can have the awkward 'but you said three weeks ago' argument with your AI assistant, complete with timestamped receipts and contradiction graphs.
+  summary: >-
+    Local-first MCP server that adds persistent graph-backed memory to coding agents, storing decisions, contradictions,
+    and reasoning chains across sessions.
+  why_it_matters: >-
+    Eliminates context-window amnesia by retaining not just facts but the relationships between them (decisions,
+    reasons, contradictions) in a queryable knowledge graph that survives session restarts.
+  mental_damage: >-
+    Now you can have the awkward 'but you said three weeks ago' argument with your AI assistant, complete with
+    timestamped receipts and contradiction graphs.
   tags:
     - mcp-server
     - memory
@@ -60,31 +73,40 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Core product identity is the graph-based memory and retrieval infrastructure for conversational context, which overrides its MCP server transport layer classification.
+  reason: >-
+    Core product identity is the graph-based memory and retrieval infrastructure for conversational context, which
+    overrides its MCP server transport layer classification.
   evidence:
-    - README emphasizes 'graph-backed brain' and 'conversational memory engine' focused on decisions, reasons, and contradictions rather than MCP protocol features
-    - Topics include agent-memory, graph-memory, knowledge-graph, and llm-memory, indicating substance is memory infrastructure
-    - Listed in awesome-mcp-servers under Knowledge & Memory section, confirming developer tooling relevance despite low star count (2)
+    - >-
+      README emphasizes 'graph-backed brain' and 'conversational memory engine' focused on decisions, reasons, and
+      contradictions rather than MCP protocol features
+    - >-
+      Topics include agent-memory, graph-memory, knowledge-graph, and llm-memory, indicating substance is memory
+      infrastructure
+    - >-
+      Listed in awesome-mcp-servers under Knowledge & Memory section, confirming developer tooling relevance despite low
+      star count (2)
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.599Z"
+    updated_at: '2026-05-06T22:12:15.599Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:28.600Z"
+    updated_at: '2026-09-17T04:13:28.600Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-18T05:28:30.969Z"
+    updated_at: '2026-05-18T05:28:30.969Z'
     cause: null
     next_retry_at: null
     attempts: 1

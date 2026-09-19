@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__d-x-y__awesome-autodl__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,12 @@ provenance:
           - Awesome Lists
         anchor_text: Awesome AutoDL
         extracted_url: https://github.com/d-x-y/awesome-autodl
-        surrounding_text: "| [Awesome AutoDL](https://github.com/D-X-Y/Awesome-AutoDL)                                               | Automated Deep Learning: Neural Architecture Search Is Not the End (a curated list of AutoDL resources and an in-depth analysis)  | ![GitHub Badge](https://img.shields.io/github/stars/D-X-Y/Awesome-AutoDL.svg?style=flat-square)                          |"
+        surrounding_text: >-
+          | [Awesome AutoDL](https://github.com/D-X-Y/Awesome-AutoDL)                                               |
+          Automated Deep Learning: Neural Architecture Search Is Not the End (a curated list of AutoDL resources and an
+          in-depth analysis)  | ![GitHub
+          Badge](https://img.shields.io/github/stars/D-X-Y/Awesome-AutoDL.svg?style=flat-square)                         
+          |
         confidence: high
 metadata:
   github:
@@ -29,10 +34,12 @@ metadata:
     archived: false
     full_name: D-X-Y/Awesome-AutoDL
     html_url: https://github.com/D-X-Y/Awesome-AutoDL
-    created_at: "2018-10-15T08:16:21Z"
-    pushed_at: "2022-09-26T01:35:49Z"
-    description: "Automated Deep Learning: Neural Architecture Search Is Not the End (a curated list of AutoDL resources and an in-depth analysis)"
-    homepage: ""
+    created_at: '2018-10-15T08:16:21Z'
+    pushed_at: '2022-09-26T01:35:49Z'
+    description: >-
+      Automated Deep Learning: Neural Architecture Search Is Not the End (a curated list of AutoDL resources and an
+      in-depth analysis)
+    homepage: ''
     topics:
       - autodl
       - automl
@@ -41,14 +48,20 @@ metadata:
       - hyper-parameter-optimization
       - nas
       - neural-architecture-search
-    last_checked_at: "2026-09-14T04:13:32.761Z"
+    last_checked_at: '2026-09-14T04:13:32.761Z'
     readme:
-      fetched_at: "2026-09-14T04:13:32.761Z"
+      fetched_at: '2026-09-14T04:13:32.761Z'
       bytes: 34357
 insights:
-  summary: A curated list of automated deep learning (AutoDL) resources, including libraries, benchmarks, and research papers focused on neural architecture search and hyperparameter optimization.
-  why_it_matters: Provides developers with a centralized directory of AutoDL tools and research to accelerate model development and experimentation.
-  mental_damage: Because nothing says 'practical' like a 2018 repo that hasn’t been pushed to since 2022 but still insists it’s the end of NAS.
+  summary: >-
+    A curated list of automated deep learning (AutoDL) resources, including libraries, benchmarks, and research papers
+    focused on neural architecture search and hyperparameter optimization.
+  why_it_matters: >-
+    Provides developers with a centralized directory of AutoDL tools and research to accelerate model development and
+    experimentation.
+  mental_damage: >-
+    Because nothing says 'practical' like a 2018 repo that hasn’t been pushed to since 2022 but still insists it’s the
+    end of NAS.
   tags:
     - autodl
     - automl
@@ -57,32 +70,31 @@ insights:
     - hyperparameter-optimization
   confidence: high
 curation:
-  status: included
-  reason: This is a curated directory of AutoDL resources, which fits the catalog's scope as a navigation aid for developers exploring AI/ML tooling.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Repo description explicitly states it is a curated list of AutoDL resources
-    - README confirms it is an awesome-list-style directory of libraries, benchmarks, and papers
-    - Source-list context shows it is included in Awesome-LLMOps under 'Awesome Lists'
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (2335) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.609Z"
+    updated_at: '2026-05-06T22:12:15.609Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:32.761Z"
+    updated_at: '2026-09-14T04:13:32.761Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:49:26.407Z"
+    updated_at: '2026-07-21T15:49:26.407Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -95,7 +107,9 @@ processing:
       input_hash: sha256:a2c2f8ec51345675e80798da391ae2d6e03e0418c93ff2eb16a7e70d826a401e
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: This is a curated directory of AutoDL resources, which fits the catalog's scope as a navigation aid for developers exploring AI/ML tooling.
+      decision_reason: >-
+        This is a curated directory of AutoDL resources, which fits the catalog's scope as a navigation aid for
+        developers exploring AI/ML tooling.
       decision_evidence:
         - Repo description explicitly states it is a curated list of AutoDL resources
         - README confirms it is an awesome-list-style directory of libraries, benchmarks, and papers
@@ -103,6 +117,8 @@ processing:
       category_candidates:
         - awesome-awesomes
         - ai-frameworks
-      contrastive_reason: Choose awesome-awesomes over ai-frameworks because the primary value is discovery and curation, not a code-first SDK or library.
+      contrastive_reason: >-
+        Choose awesome-awesomes over ai-frameworks because the primary value is discovery and curation, not a code-first
+        SDK or library.
       review_reason: null
       review_resume_lifecycle: null

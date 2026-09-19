@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__gptswarm__org__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-12T15:06:19.300Z"
+      discovered_at: '2026-05-12T15:06:19.300Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - GPTSwarm
         anchor_text: GPTSwarm
         extracted_url: https://gptswarm.org
-        surrounding_text: "## [GPTSwarm](https://gptswarm.org/)"
+        surrounding_text: '## [GPTSwarm](https://gptswarm.org/)'
         confidence: high
 metadata:
   github:
@@ -35,8 +35,12 @@ metadata:
     readme: null
 insights:
   summary: GPTSwarm is a framework for building and orchestrating swarms of LLM-powered agents for autonomous task completion.
-  why_it_matters: It enables developers to design multi-agent systems where agents collaborate via communication and role assignment to solve complex problems.
-  mental_damage: Another framework promising emergent intelligence from agent chatter, just add more agents and hope they don’t deadlock.
+  why_it_matters: >-
+    It enables developers to design multi-agent systems where agents collaborate via communication and role assignment
+    to solve complex problems.
+  mental_damage: >-
+    Another framework promising emergent intelligence from agent chatter, just add more agents and hope they don’t
+    deadlock.
   tags:
     - agent-orchestration
     - multi-agent
@@ -44,21 +48,26 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: GPTSwarm fits agent-orchestration because its core value is coordinating multiple LLM agents in a swarm to perform tasks, not acting as a single coding assistant or extension.
+  reason: >-
+    GPTSwarm fits agent-orchestration because its core value is coordinating multiple LLM agents in a swarm to perform
+    tasks, not acting as a single coding assistant or extension.
   evidence:
-    - "Listed in awesome-ai-agents under purpose: 'A list of AI autonomous agents' in the GPTSwarm section"
-    - Homepage gptswarm.org positions it as a framework for building agent swarms with communication and role-based collaboration
+    - 'Listed in awesome-ai-agents under purpose: ''A list of AI autonomous agents'' in the GPTSwarm section'
+    - >-
+      Homepage gptswarm.org positions it as a framework for building agent swarms with communication and role-based
+      collaboration
     - No indication it is a coding agent, IDE extension, or app builder; focuses on multi-agent coordination
 placement:
-  primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  primary_category: ai-frameworks
+  secondary_categories: []
+  section: Multi-Agent Systems
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-12T15:06:19.301Z"
+    updated_at: '2026-05-12T15:06:19.301Z'
     cause: null
     next_retry_at: null
   stars:
@@ -67,7 +76,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-14T05:33:47.725Z"
+    updated_at: '2026-05-14T05:33:47.725Z'
     cause: null
     next_retry_at: null
     attempts: 2

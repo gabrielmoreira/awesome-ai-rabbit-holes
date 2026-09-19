@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__keel-trade__keel-trade__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-22T05:53:30.454Z"
+      discovered_at: '2026-06-22T05:53:30.454Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: keel-trade/keel-trade
         extracted_url: https://github.com/keel-trade/keel-trade
-        surrounding_text: "- [keel-trade/keel-trade](https://github.com/keel-trade/keel-trade) [![keel-trade/keel-trade MCP server](https://glama.ai/mcp/servers/keel-trade/keel-trade/badges/score.svg)](https://glama.ai/mcp/servers/keel-trade/keel-trade) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Build, backtest, and automate Hyperliquid trading strategies. Typed strategy composition, deterministic backtests on real Hyperliquid funding + price history, opt-in live execution with bit-for-bit backtest-to-live parity."
+        surrounding_text: >-
+          - [keel-trade/keel-trade](https://github.com/keel-trade/keel-trade) [![keel-trade/keel-trade MCP
+          server](https://glama.ai/mcp/servers/keel-trade/keel-trade/badges/score.svg)](https://glama.ai/mcp/servers/keel-trade/keel-trade)
+          🐍 ☁️ 🏠 🍎 🪟 🐧 - Build, backtest, and automate Hyperliquid trading strategies. Typed strategy composition,
+          deterministic backtests on real Hyperliquid funding + price history, opt-in live execution with bit-for-bit
+          backtest-to-live parity.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: keel-trade/keel-trade
     html_url: https://github.com/keel-trade/keel-trade
-    created_at: "2026-05-28T23:07:53Z"
-    pushed_at: "2026-07-17T15:16:06Z"
+    created_at: '2026-05-28T23:07:53Z'
+    pushed_at: '2026-07-17T15:16:06Z'
     description: Keel — CLI and MCP server for AI-driven crypto strategy development on Hyperliquid
     homepage: https://usekeel.io/keel-mcp
     topics:
@@ -52,14 +57,20 @@ metadata:
       - quantitative-finance
       - trading
       - trading-strategy-simulation
-    last_checked_at: "2026-07-30T05:05:55.449Z"
+    last_checked_at: '2026-07-30T05:05:55.449Z'
     readme:
-      fetched_at: "2026-07-30T05:05:55.449Z"
+      fetched_at: '2026-07-30T05:05:55.449Z'
       bytes: 10877
 insights:
-  summary: A CLI and MCP server for building, backtesting, and automating Hyperliquid crypto trading strategies using AI agents.
-  why_it_matters: It allows developers to use agents to compose complex quantitative strategies that run on a deterministic engine, preventing the LLM from being in the actual high-risk execution loop.
-  mental_damage: Because nothing bridges the gap between 'AI hype' and 'financial ruin' quite like letting an LLM compose a deterministic trading strategy.
+  summary: >-
+    A CLI and MCP server for building, backtesting, and automating Hyperliquid crypto trading strategies using AI
+    agents.
+  why_it_matters: >-
+    It allows developers to use agents to compose complex quantitative strategies that run on a deterministic engine,
+    preventing the LLM from being in the actual high-risk execution loop.
+  mental_damage: >-
+    Because nothing bridges the gap between 'AI hype' and 'financial ruin' quite like letting an LLM compose a
+    deterministic trading strategy.
   tags:
     - mcp
     - crypto
@@ -69,31 +80,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The repository is explicitly defined as an MCP server and CLI that provides a domain-specific research surface for agents.
+  reason: >-
+    The repository is explicitly defined as an MCP server and CLI that provides a domain-specific research surface for
+    agents.
   evidence:
     - Repo description identifies it as a 'CLI and MCP server'.
     - README states the 'keel-trade' package is an 'agent-native research surface' provided via a stdio MCP server.
     - The tool is designed to provide specific Hyperliquid trading capabilities to any MCP-capable agent host.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-22T05:53:30.456Z"
+    updated_at: '2026-06-22T05:53:30.456Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:55.449Z"
+    updated_at: '2026-07-30T05:05:55.449Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-02T05:28:46.390Z"
+    updated_at: '2026-07-02T05:28:46.390Z'
     cause: null
     next_retry_at: null
     attempts: 1

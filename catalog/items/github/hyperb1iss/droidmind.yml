@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hyperb1iss__droidmind__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: hyperb1iss/droidmind
         extracted_url: https://github.com/hyperb1iss/droidmind
-        surrounding_text: "- [hyperb1iss/droidmind](https://github.com/hyperb1iss/droidmind) 🐍 🏠 - Control Android devices with AI through MCP, enabling device control, debugging, system analysis, and UI automation with a comprehensive security framework."
+        surrounding_text: >-
+          - [hyperb1iss/droidmind](https://github.com/hyperb1iss/droidmind) 🐍 🏠 - Control Android devices with AI
+          through MCP, enabling device control, debugging, system analysis, and UI automation with a comprehensive
+          security framework.
         confidence: high
     - id: discovery__github__hyperb1iss__droidmind__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +38,10 @@ provenance:
           - 💻 Developer Tools
         anchor_text: hyperb1iss/droidmind
         extracted_url: https://github.com/hyperb1iss/droidmind
-        surrounding_text: "-   **[hyperb1iss/droidmind](https://github.com/hyperb1iss/droidmind)** [![GitHub stars](https://img.shields.io/github/stars/hyperb1iss/droidmind?style=social)](https://github.com/hyperb1iss/droidmind): Controls Android devices, enabling UI automation and debugging."
+        surrounding_text: >-
+          -   **[hyperb1iss/droidmind](https://github.com/hyperb1iss/droidmind)** [![GitHub
+          stars](https://img.shields.io/github/stars/hyperb1iss/droidmind?style=social)](https://github.com/hyperb1iss/droidmind):
+          Controls Android devices, enabling UI automation and debugging.
         confidence: high
 metadata:
   github:
@@ -45,8 +51,8 @@ metadata:
     archived: false
     full_name: hyperb1iss/droidmind
     html_url: https://github.com/hyperb1iss/droidmind
-    created_at: "2025-03-02T10:46:15Z"
-    pushed_at: "2026-01-07T06:37:48Z"
+    created_at: '2025-03-02T10:46:15Z'
+    pushed_at: '2026-01-07T06:37:48Z'
     description: Control your Android devices with AI using Model Context Protocol
     homepage: https://hyperb1iss.github.io/droidmind/
     topics:
@@ -59,13 +65,15 @@ metadata:
       - mcp
       - model
       - protocol
-    last_checked_at: "2026-07-30T05:05:41.009Z"
+    last_checked_at: '2026-07-30T05:05:41.009Z'
     readme:
-      fetched_at: "2026-07-30T05:05:41.009Z"
+      fetched_at: '2026-07-30T05:05:41.009Z'
       bytes: 7528
 insights:
   summary: An MCP server that enables AI assistants to control and interact with Android devices via ADB.
-  why_it_matters: Developers can integrate Android device control into their AI workflows, enabling automated testing, debugging, and UI interactions through natural language.
+  why_it_matters: >-
+    Developers can integrate Android device control into their AI workflows, enabling automated testing, debugging, and
+    UI interactions through natural language.
   mental_damage: Now your AI can tap, swipe, and crash your Android app before you even finish your coffee.
   tags:
     - mcp
@@ -76,31 +84,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: DroidMind's primary identity is as an MCP server for Android device control, making it a clear fit for MCP Servers & Tooling.
+  reason: >-
+    DroidMind's primary identity is as an MCP server for Android device control, making it a clear fit for MCP Servers &
+    Tooling.
   evidence:
     - Repo description explicitly states it is for controlling Android devices with AI using MCP
     - README highlights MCP as the core protocol and lists MCP-compatible clients (Claude, Cursor, Cline)
     - Source-list context places it in MCP server directories under Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (390) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.587Z"
+    updated_at: '2026-05-06T22:12:15.587Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:41.009Z"
+    updated_at: '2026-07-30T05:05:41.009Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:07:13.025Z"
+    updated_at: '2026-07-21T16:07:13.025Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -113,7 +124,9 @@ processing:
       input_hash: sha256:56a99d599ad1349c208202f3a4eac05f1a7ea07cc7964c2f3dab924eab078223
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: DroidMind's primary identity is as an MCP server for Android device control, making it a clear fit for MCP Servers & Tooling.
+      decision_reason: >-
+        DroidMind's primary identity is as an MCP server for Android device control, making it a clear fit for MCP
+        Servers & Tooling.
       decision_evidence:
         - Repo description explicitly states it is for controlling Android devices with AI using MCP
         - README highlights MCP as the core protocol and lists MCP-compatible clients (Claude, Cursor, Cline)
@@ -121,6 +134,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server for Android device control, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server for Android device
+        control, not merely an extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

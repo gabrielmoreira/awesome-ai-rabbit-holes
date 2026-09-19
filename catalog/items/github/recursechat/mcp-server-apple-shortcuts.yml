@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__recursechat__mcp-server-apple-shortcuts__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: recursechat/mcp-server-apple-shortcuts
         extracted_url: https://github.com/recursechat/mcp-server-apple-shortcuts
-        surrounding_text: "- [recursechat/mcp-server-apple-shortcuts](https://github.com/recursechat/mcp-server-apple-shortcuts) 📇 🏠 🍎 - An MCP Server Integration with Apple Shortcuts"
+        surrounding_text: >-
+          - [recursechat/mcp-server-apple-shortcuts](https://github.com/recursechat/mcp-server-apple-shortcuts) 📇 🏠 🍎
+          - An MCP Server Integration with Apple Shortcuts
         confidence: high
     - id: discovery__github__recursechat__mcp-server-apple-shortcuts__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,10 +37,12 @@ provenance:
           - Community Servers
         anchor_text: Apple Shortcuts
         extracted_url: https://github.com/recursechat/mcp-server-apple-shortcuts
-        surrounding_text: "- **[Apple Shortcuts](https://github.com/recursechat/mcp-server-apple-shortcuts)** - An MCP Server Integration with Apple Shortcuts"
+        surrounding_text: >-
+          - **[Apple Shortcuts](https://github.com/recursechat/mcp-server-apple-shortcuts)** - An MCP Server Integration
+          with Apple Shortcuts
         confidence: high
     - id: discovery__github__recursechat__mcp-server-apple-shortcuts__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -48,9 +52,13 @@ provenance:
         mode: parsed
         section_path:
           - 📂 Browser Control
-        anchor_text: "@recursechat/mcp-server-apple-shortcuts"
+        anchor_text: '@recursechat/mcp-server-apple-shortcuts'
         extracted_url: https://github.com/recursechat/mcp-server-apple-shortcuts
-        surrounding_text: "-   **[@recursechat/mcp-server-apple-shortcuts](https://github.com/recursechat/mcp-server-apple-shortcuts)** [![GitHub stars](https://img.shields.io/github/stars/recursechat/mcp-server-apple-shortcuts?style=social)](https://github.com/recursechat/mcp-server-apple-shortcuts): Integrates with macOS Shortcuts for automation via MCP."
+        surrounding_text: >-
+          -   **[@recursechat/mcp-server-apple-shortcuts](https://github.com/recursechat/mcp-server-apple-shortcuts)**
+          [![GitHub
+          stars](https://img.shields.io/github/stars/recursechat/mcp-server-apple-shortcuts?style=social)](https://github.com/recursechat/mcp-server-apple-shortcuts):
+          Integrates with macOS Shortcuts for automation via MCP.
         confidence: high
 metadata:
   github:
@@ -60,19 +68,23 @@ metadata:
     archived: false
     full_name: recursechat/mcp-server-apple-shortcuts
     html_url: https://github.com/recursechat/mcp-server-apple-shortcuts
-    created_at: "2024-12-11T20:32:57Z"
-    pushed_at: "2024-12-22T03:27:15Z"
+    created_at: '2024-12-11T20:32:57Z'
+    pushed_at: '2024-12-22T03:27:15Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:44.441Z"
+    last_checked_at: '2026-07-20T16:42:44.441Z'
     readme:
-      fetched_at: "2026-07-20T16:42:44.441Z"
+      fetched_at: '2026-07-20T16:42:44.441Z'
       bytes: 2371
 insights:
   summary: An MCP server that lets AI assistants like Claude list and trigger Apple Shortcuts automations on macOS.
-  why_it_matters: It connects conversational coding agents to the macOS automation layer, allowing developers to invoke local Shortcuts directly from their AI workflow.
-  mental_damage: Now your AI assistant can trigger a 40-step Shortcut you built in 2022 and forgot how to disable, so you can debug your automation stack instead of your code stack.
+  why_it_matters: >-
+    It connects conversational coding agents to the macOS automation layer, allowing developers to invoke local
+    Shortcuts directly from their AI workflow.
+  mental_damage: >-
+    Now your AI assistant can trigger a 40-step Shortcut you built in 2022 and forgot how to disable, so you can debug
+    your automation stack instead of your code stack.
   tags:
     - mcp
     - apple-shortcuts
@@ -82,35 +94,41 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server for Apple Shortcuts, clearly fitting the MCP Servers & Tooling category as a domain-specific protocol server.
+  reason: >-
+    The product identity is an MCP server for Apple Shortcuts, clearly fitting the MCP Servers & Tooling category as a
+    domain-specific protocol server.
   evidence:
-    - "README states: 'A Model Context Protocol (MCP) server that lets AI assistants like Claude control Apple Shortcuts automations.'"
-    - Included in awesome-mcp-list and awesome-mcp-servers directories under browser automation and community server sections.
+    - >-
+      README states: 'A Model Context Protocol (MCP) server that lets AI assistants like Claude control Apple Shortcuts
+      automations.'
+    - >-
+      Included in awesome-mcp-list and awesome-mcp-servers directories under browser automation and community server
+      sections.
     - Repository is active, created in December 2024 and pushed recently, with 322 stars.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: promotion_candidate
   reason: Stars (322) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.579Z"
+    updated_at: '2026-05-06T22:12:15.579Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:44.441Z"
+    updated_at: '2026-07-20T16:42:44.441Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

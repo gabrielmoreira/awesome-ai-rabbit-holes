@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__reuvenaor__israel-statistics-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Israel Statistics MCP
         extracted_url: https://github.com/reuvenaor/israel-statistics-mcp
-        surrounding_text: "- **[Israel Statistics MCP](https://github.com/reuvenaor/israel-statistics-mcp)** MCP server that provides programmatic access to the Israeli Central Bureau of Statistics (CBS) price indices and economic data."
+        surrounding_text: >-
+          - **[Israel Statistics MCP](https://github.com/reuvenaor/israel-statistics-mcp)** MCP server that provides
+          programmatic access to the Israeli Central Bureau of Statistics (CBS) price indices and economic data.
         confidence: high
 metadata:
   github:
@@ -29,19 +31,25 @@ metadata:
     archived: false
     full_name: reuvenaor/israel-statistics-mcp
     html_url: https://github.com/reuvenaor/israel-statistics-mcp
-    created_at: "2025-07-22T20:45:08Z"
-    pushed_at: "2026-07-04T20:34:08Z"
+    created_at: '2025-07-22T20:45:08Z'
+    pushed_at: '2026-07-04T20:34:08Z'
     description: Israel Statistics MCP
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:45.768Z"
+    last_checked_at: '2026-07-20T16:42:45.768Z'
     readme:
-      fetched_at: "2026-07-20T16:42:45.768Z"
+      fetched_at: '2026-07-20T16:42:45.768Z'
       bytes: 4372
 insights:
-  summary: An MCP server providing programmatic access to Israeli Central Bureau of Statistics economic data, including CPI, housing indices, and an inflation calculator.
-  why_it_matters: It allows coding agents and LLMs to directly query official Israeli economic statistics without manually parsing government XML APIs.
-  mental_damage: We have finally reached the point where an LLM can tell you the exact rate of inflation in Israel, but still can't reliably format a JSON config file without three retries.
+  summary: >-
+    An MCP server providing programmatic access to Israeli Central Bureau of Statistics economic data, including CPI,
+    housing indices, and an inflation calculator.
+  why_it_matters: >-
+    It allows coding agents and LLMs to directly query official Israeli economic statistics without manually parsing
+    government XML APIs.
+  mental_damage: >-
+    We have finally reached the point where an LLM can tell you the exact rate of inflation in Israel, but still can't
+    reliably format a JSON config file without three retries.
   tags:
     - mcp
     - statistics
@@ -50,35 +58,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server for a specific domain (Israeli statistics), which fits cleanly into the MCP Servers & Tooling category as a domain-specific server.
+  reason: >-
+    The product is explicitly an MCP server for a specific domain (Israeli statistics), which fits cleanly into the MCP
+    Servers & Tooling category as a domain-specific server.
   evidence:
     - Repo description is 'Israel Statistics MCP', clearly identifying the MCP identity.
     - README states it is a 'Model Context Protocol (MCP) server' with 8 tools for CBS data.
     - Listed in awesome-mcp-servers under 'Community Servers'.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.645Z"
+    updated_at: '2026-05-06T22:12:15.645Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:45.768Z"
+    updated_at: '2026-07-20T16:42:45.768Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

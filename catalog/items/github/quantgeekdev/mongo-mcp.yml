@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__quantgeekdev__mongo-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: QuantGeekDev/mongo-mcp
         extracted_url: https://github.com/quantgeekdev/mongo-mcp
-        surrounding_text: "- [QuantGeekDev/mongo-mcp](https://github.com/QuantGeekDev/mongo-mcp) 📇 🏠 - MongoDB integration that enables LLMs to interact directly with databases."
+        surrounding_text: >-
+          - [QuantGeekDev/mongo-mcp](https://github.com/QuantGeekDev/mongo-mcp) 📇 🏠 - MongoDB integration that enables
+          LLMs to interact directly with databases.
         confidence: high
     - id: discovery__github__quantgeekdev__mongo-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,10 +37,12 @@ provenance:
           - Community Servers
         anchor_text: Mongo
         extracted_url: https://github.com/quantgeekdev/mongo-mcp
-        surrounding_text: "- **[Mongo](https://github.com/QuantGeekDev/mongo-mcp)** - A Model Context Protocol (MCP) server that enables LLMs to interact directly with MongoDB databases"
+        surrounding_text: >-
+          - **[Mongo](https://github.com/QuantGeekDev/mongo-mcp)** - A Model Context Protocol (MCP) server that enables
+          LLMs to interact directly with MongoDB databases
         confidence: high
     - id: discovery__github__quantgeekdev__mongo-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -50,7 +54,10 @@ provenance:
           - 🗄️ Databases
         anchor_text: QuantGeekDev/mongo-mcp
         extracted_url: https://github.com/quantgeekdev/mongo-mcp
-        surrounding_text: "-   **[QuantGeekDev/mongo-mcp](https://github.com/QuantGeekDev/mongo-mcp)** [![GitHub stars](https://img.shields.io/github/stars/QuantGeekDev/mongo-mcp?style=social)](https://github.com/QuantGeekDev/mongo-mcp): Enables direct interaction with MongoDB databases."
+        surrounding_text: >-
+          -   **[QuantGeekDev/mongo-mcp](https://github.com/QuantGeekDev/mongo-mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/QuantGeekDev/mongo-mcp?style=social)](https://github.com/QuantGeekDev/mongo-mcp):
+          Enables direct interaction with MongoDB databases.
         confidence: high
 metadata:
   github:
@@ -60,19 +67,25 @@ metadata:
     archived: false
     full_name: QuantGeekDev/mongo-mcp
     html_url: https://github.com/QuantGeekDev/mongo-mcp
-    created_at: "2024-12-05T23:12:54Z"
-    pushed_at: "2025-03-15T23:32:51Z"
+    created_at: '2024-12-05T23:12:54Z'
+    pushed_at: '2025-03-15T23:32:51Z'
     description: A mongo db server for the model context protocol (MCP)
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:41.086Z"
+    last_checked_at: '2026-07-20T16:42:41.086Z'
     readme:
-      fetched_at: "2026-07-20T16:42:41.086Z"
+      fetched_at: '2026-07-20T16:42:41.086Z'
       bytes: 4282
 insights:
-  summary: A Model Context Protocol (MCP) server that allows LLMs to inspect schemas, query collections, and manage data in MongoDB databases via natural language.
-  why_it_matters: It gives coding assistants like Claude Desktop direct, structured access to MongoDB, removing the need to context-switch to a database shell or write ad-hoc queries during development.
-  mental_damage: We have successfully abstracted away the last remaining reason to understand MongoDB query syntax, ensuring future generations will debug aggregation pipelines exclusively through trial and error with an LLM.
+  summary: >-
+    A Model Context Protocol (MCP) server that allows LLMs to inspect schemas, query collections, and manage data in
+    MongoDB databases via natural language.
+  why_it_matters: >-
+    It gives coding assistants like Claude Desktop direct, structured access to MongoDB, removing the need to
+    context-switch to a database shell or write ad-hoc queries during development.
+  mental_damage: >-
+    We have successfully abstracted away the last remaining reason to understand MongoDB query syntax, ensuring future
+    generations will debug aggregation pipelines exclusively through trial and error with an LLM.
   tags:
     - mcp
     - database
@@ -82,35 +95,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server implementation for a specific database domain, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product's identity is an MCP server implementation for a specific database domain, fitting the MCP Servers &
+    Tooling category.
   evidence:
     - Repo description explicitly states it is 'A mongo db server for the model context protocol (MCP)'.
     - README confirms it is an MCP server providing tools like find, insertOne, and createIndex for LLMs.
     - Listed in awesome-mcp-servers under 'Databases' and 'Community Servers' sections.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: promotion_candidate
   reason: Stars (172) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.579Z"
+    updated_at: '2026-05-06T22:12:15.579Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:41.086Z"
+    updated_at: '2026-07-20T16:42:41.086Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

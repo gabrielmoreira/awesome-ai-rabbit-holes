@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__vdmeu__registrum-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: vdmeu/registrum-mcp
         extracted_url: https://github.com/vdmeu/registrum-mcp
-        surrounding_text: "- [vdmeu/registrum-mcp](https://github.com/vdmeu/registrum-mcp) [![vdmeu/registrum-mcp MCP server](https://glama.ai/mcp/servers/vdmeu/registrum-mcp/badges/score.svg)](https://glama.ai/mcp/servers/vdmeu/registrum-mcp) 📇 ☁️ - UK Companies House data via the Registrum API — search companies, get enriched profiles, structured financials parsed from iXBRL filings, director history, and corporate network graphs."
+        surrounding_text: >-
+          - [vdmeu/registrum-mcp](https://github.com/vdmeu/registrum-mcp) [![vdmeu/registrum-mcp MCP
+          server](https://glama.ai/mcp/servers/vdmeu/registrum-mcp/badges/score.svg)](https://glama.ai/mcp/servers/vdmeu/registrum-mcp)
+          📇 ☁️ - UK Companies House data via the Registrum API — search companies, get enriched profiles, structured
+          financials parsed from iXBRL filings, director history, and corporate network graphs.
         confidence: high
 metadata:
   github:
@@ -30,18 +34,20 @@ metadata:
     archived: false
     full_name: vdmeu/registrum-mcp
     html_url: https://github.com/vdmeu/registrum-mcp
-    created_at: "2026-03-04T13:56:05Z"
-    pushed_at: "2026-03-13T06:07:54Z"
+    created_at: '2026-03-04T13:56:05Z'
+    pushed_at: '2026-03-13T06:07:54Z'
     description: MCP server for the Registrum Companies House API
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:21:01.806Z"
+    last_checked_at: '2026-07-21T15:21:01.806Z'
     readme:
-      fetched_at: "2026-07-21T15:21:01.806Z"
+      fetched_at: '2026-07-21T15:21:01.806Z'
       bytes: 2271
 insights:
   summary: An MCP server that provides UK Companies House data tools for AI agents via the Registrum API.
-  why_it_matters: Gives developers cached, structured UK company financials and director networks to AI agents without managing API keys or rate limits.
+  why_it_matters: >-
+    Gives developers cached, structured UK company financials and director networks to AI agents without managing API
+    keys or rate limits.
   mental_damage: Yet another wrapper that lets your AI pretend it’s a Bloomberg terminal while you still pay for the data.
   tags:
     - mcp
@@ -50,31 +56,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core identity is providing structured financial and corporate data through the Model Context Protocol, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product is an MCP server whose core identity is providing structured financial and corporate data through the
+    Model Context Protocol, fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description: 'MCP server for the Registrum Companies House API'"
-    - "README: Provides 5 MCP tools (search_company, get_company, get_financials, get_directors, get_network) for UK company data"
-    - "Source-list: Included in awesome-mcp-servers under Finance & Fintech > Server Implementations"
+    - 'Repo description: ''MCP server for the Registrum Companies House API'''
+    - >-
+      README: Provides 5 MCP tools (search_company, get_company, get_financials, get_directors, get_network) for UK
+      company data
+    - 'Source-list: Included in awesome-mcp-servers under Finance & Fintech > Server Implementations'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.654Z"
+    updated_at: '2026-05-06T22:12:15.654Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:01.806Z"
+    updated_at: '2026-07-21T15:21:01.806Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:22:37.965Z"
+    updated_at: '2026-05-12T15:22:37.965Z'
     cause: null
     next_retry_at: null
     attempts: 1

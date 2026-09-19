@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__huggingface__yourbench__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,7 @@ provenance:
           - 评估 Evaluation
         anchor_text: YourBench
         extracted_url: https://github.com/huggingface/yourbench
-        surrounding_text: "17. [YourBench](https://github.com/huggingface/yourbench): A Dynamic Benchmark Generation Framework."
+        surrounding_text: '17. [YourBench](https://github.com/huggingface/yourbench): A Dynamic Benchmark Generation Framework.'
         confidence: high
 metadata:
   github:
@@ -29,19 +29,23 @@ metadata:
     archived: false
     full_name: huggingface/yourbench
     html_url: https://github.com/huggingface/yourbench
-    created_at: "2025-01-27T16:21:32Z"
-    pushed_at: "2026-04-02T14:50:05Z"
+    created_at: '2025-01-27T16:21:32Z'
+    pushed_at: '2026-04-02T14:50:05Z'
     description: 🤗 Benchmark Large Language Models Reliably On Your Data
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:05:40.090Z"
+    last_checked_at: '2026-07-30T05:05:40.090Z'
     readme:
-      fetched_at: "2026-07-30T05:05:40.090Z"
+      fetched_at: '2026-07-30T05:05:40.090Z'
       bytes: 6164
 insights:
   summary: A dynamic benchmark generation framework that transforms documents into structured QA datasets for evaluating LLMs.
-  why_it_matters: Developers can generate custom evaluation datasets from their own documents to reliably benchmark model performance on domain-specific tasks.
-  mental_damage: Now you can spend less time arguing about model quality and more time generating benchmarks to argue about your benchmarks.
+  why_it_matters: >-
+    Developers can generate custom evaluation datasets from their own documents to reliably benchmark model performance
+    on domain-specific tasks.
+  mental_damage: >-
+    Now you can spend less time arguing about model quality and more time generating benchmarks to argue about your
+    benchmarks.
   tags:
     - benchmarking
     - evaluation
@@ -51,31 +55,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product is a framework for generating and running benchmarks to measure model behavior, which fits squarely in the evals category.
+  reason: >-
+    The core product is a framework for generating and running benchmarks to measure model behavior, which fits squarely
+    in the evals category.
   evidence:
     - Repo description explicitly states it is for benchmarking LLMs on your data
     - README emphasizes generating QA pairs and evaluation datasets from documents
     - Source-list context places it in an 'Evaluation' section
 placement:
   primary_category: evals
-  section: Agent Benchmarks
+  secondary_categories: []
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: promotion_candidate
   reason: Stars (444) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.619Z"
+    updated_at: '2026-05-06T22:12:15.619Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:40.090Z"
+    updated_at: '2026-07-30T05:05:40.090Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:06:51.749Z"
+    updated_at: '2026-07-21T16:06:51.749Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +95,9 @@ processing:
       input_hash: sha256:dfac5e46f7f07f9cbd1c5e628ea0ed56155d1a23887fa50ce46b94182ffd34d5
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: The core product is a framework for generating and running benchmarks to measure model behavior, which fits squarely in the evals category.
+      decision_reason: >-
+        The core product is a framework for generating and running benchmarks to measure model behavior, which fits
+        squarely in the evals category.
       decision_evidence:
         - Repo description explicitly states it is for benchmarking LLMs on your data
         - README emphasizes generating QA pairs and evaluation datasets from documents
@@ -96,6 +105,8 @@ processing:
       category_candidates:
         - evals
         - ai-frameworks
-      contrastive_reason: Choose evals over ai-frameworks because the primary job is benchmark generation and evaluation rather than being a general-purpose SDK for building AI workflows.
+      contrastive_reason: >-
+        Choose evals over ai-frameworks because the primary job is benchmark generation and evaluation rather than being
+        a general-purpose SDK for building AI workflows.
       review_reason: null
       review_resume_lifecycle: null

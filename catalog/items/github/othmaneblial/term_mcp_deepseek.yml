@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__othmaneblial__term_mcp_deepseek__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: OthmaneBlial/term_mcp_deepseek
         extracted_url: https://github.com/othmaneblial/term_mcp_deepseek
-        surrounding_text: "- [OthmaneBlial/term_mcp_deepseek](https://github.com/OthmaneBlial/term_mcp_deepseek) 🐍 🏠 - A DeepSeek MCP-like Server for Terminal"
+        surrounding_text: >-
+          - [OthmaneBlial/term_mcp_deepseek](https://github.com/OthmaneBlial/term_mcp_deepseek) 🐍 🏠 - A DeepSeek
+          MCP-like Server for Terminal
         confidence: high
 metadata:
   github:
@@ -30,19 +32,25 @@ metadata:
     archived: false
     full_name: OthmaneBlial/term_mcp_deepseek
     html_url: https://github.com/OthmaneBlial/term_mcp_deepseek
-    created_at: "2025-03-28T06:30:25Z"
-    pushed_at: "2025-09-21T12:26:53Z"
+    created_at: '2025-03-28T06:30:25Z'
+    pushed_at: '2025-09-21T12:26:53Z'
     description: A MCP‑like server using the DeepSeek API for Terminal
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:28.908Z"
+    last_checked_at: '2026-07-20T16:42:28.908Z'
     readme:
-      fetched_at: "2026-07-20T16:42:28.908Z"
+      fetched_at: '2026-07-20T16:42:28.908Z'
       bytes: 4856
 insights:
-  summary: A proof-of-concept MCP-like server that connects the DeepSeek API to a persistent terminal session via Flask, allowing an AI chat to execute shell commands.
-  why_it_matters: It offers developers a self-hosted, DeepSeek-powered way to replicate the core 'AI controls terminal' loop popularized by tools like Claude Code, without relying on Anthropic's specific stack.
-  mental_damage: Another heroic attempt to bottle the magic of a coding agent into a DIY server, proving that while the protocol is simple, the pain of wiring it together is eternal.
+  summary: >-
+    A proof-of-concept MCP-like server that connects the DeepSeek API to a persistent terminal session via Flask,
+    allowing an AI chat to execute shell commands.
+  why_it_matters: >-
+    It offers developers a self-hosted, DeepSeek-powered way to replicate the core 'AI controls terminal' loop
+    popularized by tools like Claude Code, without relying on Anthropic's specific stack.
+  mental_damage: >-
+    Another heroic attempt to bottle the magic of a coding agent into a DIY server, proving that while the protocol is
+    simple, the pain of wiring it together is eternal.
   tags:
     - mcp
     - deepseek
@@ -52,35 +60,40 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The project's primary identity is an MCP-like server implementation for terminal access, fitting the MCP Servers & Tooling category despite being a non-compliant proof-of-concept.
+  reason: >-
+    The project's primary identity is an MCP-like server implementation for terminal access, fitting the MCP Servers &
+    Tooling category despite being a non-compliant proof-of-concept.
   evidence:
     - Repo description explicitly states 'A MCP-like server using the DeepSeek API for Terminal'.
-    - README confirms it 'aims to demonstrate the core concepts behind the Model Context Protocol (MCP)' by exposing /mcp/list_tools and /mcp/call_tool endpoints.
+    - >-
+      README confirms it 'aims to demonstrate the core concepts behind the Model Context Protocol (MCP)' by exposing
+      /mcp/list_tools and /mcp/call_tool endpoints.
     - Source list context places it in 'awesome-mcp-servers' under 'Server Implementations'.
 placement:
-  primary_category: mcp
-  section: Generic Servers & Middleware
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.641Z"
+    updated_at: '2026-05-06T22:12:15.641Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:28.908Z"
+    updated_at: '2026-07-20T16:42:28.908Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

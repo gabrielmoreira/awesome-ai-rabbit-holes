@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__runekaagaard__mcp-alchemy__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: runekaagaard/mcp-alchemy
         extracted_url: https://github.com/runekaagaard/mcp-alchemy
-        surrounding_text: "- [runekaagaard/mcp-alchemy](https://github.com/runekaagaard/mcp-alchemy) 🐍 🏠 - Universal SQLAlchemy-based database integration supporting PostgreSQL, MySQL, MariaDB, SQLite, Oracle, MS SQL Server and many more databases. Features schema and relationship inspection, and large dataset analysis capabilities."
+        surrounding_text: >-
+          - [runekaagaard/mcp-alchemy](https://github.com/runekaagaard/mcp-alchemy) 🐍 🏠 - Universal SQLAlchemy-based
+          database integration supporting PostgreSQL, MySQL, MariaDB, SQLite, Oracle, MS SQL Server and many more
+          databases. Features schema and relationship inspection, and large dataset analysis capabilities.
         confidence: high
     - id: discovery__github__runekaagaard__mcp-alchemy__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +38,10 @@ provenance:
           - 🗄️ Databases
         anchor_text: runekaagaard/mcp-alchemy
         extracted_url: https://github.com/runekaagaard/mcp-alchemy
-        surrounding_text: "-   **[runekaagaard/mcp-alchemy](https://github.com/runekaagaard/mcp-alchemy)** [![GitHub stars](https://img.shields.io/github/stars/runekaagaard/mcp-alchemy?style=social)](https://github.com/runekaagaard/mcp-alchemy): Provides universal SQLAlchemy-based database integration, supporting multiple database types."
+        surrounding_text: >-
+          -   **[runekaagaard/mcp-alchemy](https://github.com/runekaagaard/mcp-alchemy)** [![GitHub
+          stars](https://img.shields.io/github/stars/runekaagaard/mcp-alchemy?style=social)](https://github.com/runekaagaard/mcp-alchemy):
+          Provides universal SQLAlchemy-based database integration, supporting multiple database types.
         confidence: high
 metadata:
   github:
@@ -45,19 +51,27 @@ metadata:
     archived: false
     full_name: runekaagaard/mcp-alchemy
     html_url: https://github.com/runekaagaard/mcp-alchemy
-    created_at: "2024-12-26T14:09:30Z"
-    pushed_at: "2025-08-15T07:18:27Z"
-    description: A MCP (model context protocol) server that gives the LLM access to and knowledge about relational databases like SQLite, Postgresql, MySQL & MariaDB, Oracle, and MS-SQL.
+    created_at: '2024-12-26T14:09:30Z'
+    pushed_at: '2025-08-15T07:18:27Z'
+    description: >-
+      A MCP (model context protocol) server that gives the LLM access to and knowledge about relational databases like
+      SQLite, Postgresql, MySQL & MariaDB, Oracle, and MS-SQL.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:48.803Z"
+    last_checked_at: '2026-07-20T16:42:48.803Z'
     readme:
-      fetched_at: "2026-07-20T16:42:48.803Z"
+      fetched_at: '2026-07-20T16:42:48.803Z'
       bytes: 9387
 insights:
-  summary: An MCP server that connects LLMs like Claude Desktop to relational databases including PostgreSQL, MySQL, SQLite, Oracle, and MS SQL Server for schema exploration, SQL generation, and data analysis.
-  why_it_matters: It lets developers point a model at a live database and get schema-aware queries, validation, and reports without manually pasting table definitions into context.
-  mental_damage: Another comforting illusion that handing an LLM direct access to production data is a workflow upgrade rather than a incident-reporting trigger.
+  summary: >-
+    An MCP server that connects LLMs like Claude Desktop to relational databases including PostgreSQL, MySQL, SQLite,
+    Oracle, and MS SQL Server for schema exploration, SQL generation, and data analysis.
+  why_it_matters: >-
+    It lets developers point a model at a live database and get schema-aware queries, validation, and reports without
+    manually pasting table definitions into context.
+  mental_damage: >-
+    Another comforting illusion that handing an LLM direct access to production data is a workflow upgrade rather than a
+    incident-reporting trigger.
   tags:
     - mcp
     - databases
@@ -67,35 +81,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server for databases, fitting cleanly as domain-specific MCP infrastructure rather than a framework, extension, or assistant.
+  reason: >-
+    The product's identity is an MCP server for databases, fitting cleanly as domain-specific MCP infrastructure rather
+    than a framework, extension, or assistant.
   evidence:
     - Repo description explicitly states it is 'A MCP (model context protocol) server' for relational databases.
     - README shows configuration for Claude Desktop via mcpServers, with SQLAlchemy-backed DB_URL support.
     - Listed in awesome-mcp-list and awesome-mcp-servers under Databases sections.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: promotion_candidate
   reason: Stars (401) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.593Z"
+    updated_at: '2026-05-06T22:12:15.593Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:48.803Z"
+    updated_at: '2026-07-20T16:42:48.803Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

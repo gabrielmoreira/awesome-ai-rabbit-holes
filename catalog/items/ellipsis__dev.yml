@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__ellipsis__dev__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Ellipsis
         anchor_text: Ellipsis
         extracted_url: https://ellipsis.dev
-        surrounding_text: "## [Ellipsis](https://ellipsis.dev/?utm_source=awesome-ai-agents)"
+        surrounding_text: '## [Ellipsis](https://ellipsis.dev/?utm_source=awesome-ai-agents)'
         confidence: high
     - id: discovery__www__ellipsis__dev__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Ellipsis
         anchor_text: Ellipsis
         extracted_url: https://ellipsis.dev
-        surrounding_text: "## [Ellipsis](https://ellipsis.dev/?utm_source=awesome-ai-agents)"
+        surrounding_text: '## [Ellipsis](https://ellipsis.dev/?utm_source=awesome-ai-agents)'
         confidence: high
 metadata:
   github:
@@ -52,7 +52,9 @@ metadata:
     readme: null
 insights:
   summary: A cloud platform for managing and running sandboxed coding agents via YAML configuration files.
-  why_it_matters: It provides the necessary infrastructure—sandboxing, permissions, and budget controls—to deploy autonomous agents into professional engineering workflows safely.
+  why_it_matters: >-
+    It provides the necessary infrastructure—sandboxing, permissions, and budget controls—to deploy autonomous agents
+    into professional engineering workflows safely.
   mental_damage: Now you can finally delegate your technical debt to a cloud-hosted agent that has its own budget to blow.
   tags:
     - coding-agents
@@ -63,21 +65,28 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Ellipsis functions as a primary coding assistant that reviews code, generates fixes, and answers questions directly within the repo PR workflow, fitting the 'Review, Testing & Repair Agents' section of coding-agents.
+  reason: >-
+    Ellipsis functions as a primary coding assistant that reviews code, generates fixes, and answers questions directly
+    within the repo PR workflow, fitting the 'Review, Testing & Repair Agents' section of coding-agents.
   evidence:
-    - Listed in awesome-ai-agents as 'Automated code reviews and bug fixes' with capability to 'generate working, tested code'.
+    - >-
+      Listed in awesome-ai-agents as 'Automated code reviews and bug fixes' with capability to 'generate working, tested
+      code'.
     - Landing page states it provides 'AI Code Reviews & Bug Fixes' and 'Async Code Generation' via GitHub comments.
-    - Claims installation in 67,000+ GitHub repositories with capabilities including smart reviews and Q&A via @ellipsis-dev mentions.
+    - >-
+      Claims installation in 67,000+ GitHub repositories with capabilities including smart reviews and Q&A via
+      @ellipsis-dev mentions.
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Hosted Agent Platforms
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
 processing:
   categorize:
     status: done
-    updated_at: "2026-08-27T06:10:40.777Z"
+    updated_at: '2026-08-27T06:10:40.777Z'
     cause: null
     next_retry_at: null
     attempts: 4
@@ -90,7 +99,9 @@ processing:
       input_hash: sha256:b3ee6e47fa0f7bdb22e1c648cd15f6720625f52c1bb768be53fb8b70736915b4
       proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: It acts as a managed control plane and runtime environment for deploying and governing multiple coding agents rather than being a single primary coding assistant.
+      decision_reason: >-
+        It acts as a managed control plane and runtime environment for deploying and governing multiple coding agents
+        rather than being a single primary coding assistant.
       decision_evidence:
         - Describes itself as a 'Cloud platform for coding agents'
         - Provides sandboxed execution, scoped permissions, and budget caps
@@ -98,12 +109,14 @@ processing:
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because it functions as the managed infrastructure and control plane for running agents rather than acting as the primary assistant itself.
-      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because it functions as the managed infrastructure and control
+        plane for running agents rather than acting as the primary assistant itself.
+      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.965Z"
+    updated_at: '2026-07-21T15:20:21.965Z'
     cause: null
     next_retry_at: null
   stars:

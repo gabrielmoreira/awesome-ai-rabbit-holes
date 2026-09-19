@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__basilisk-labs__agentplane__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Agent infrastructure
         anchor_text: AgentPlane
         extracted_url: https://github.com/basilisk-labs/agentplane
-        surrounding_text: "- **[AgentPlane](https://github.com/basilisk-labs/agentplane)** `⭐ 42` — Local CLI that wraps Claude Code, Codex, Cursor, and Aider work in an auditable Git-native workflow (task → plan → approve → implement → verify → finish). All state stays in `.agentplane/` inside the repo; no hosted runtime. MIT."
+        surrounding_text: >-
+          - **[AgentPlane](https://github.com/basilisk-labs/agentplane)** `⭐ 42` — Local CLI that wraps Claude Code,
+          Codex, Cursor, and Aider work in an auditable Git-native workflow (task → plan → approve → implement → verify
+          → finish). All state stays in `.agentplane/` inside the repo; no hosted runtime. MIT.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: basilisk-labs/agentplane
     html_url: https://github.com/basilisk-labs/agentplane
-    created_at: "2026-01-27T08:03:43Z"
-    pushed_at: "2026-09-07T04:03:48Z"
-    description: "🛩️ Git-native workflow control for coding agents: approved plans, verification, and reviewable evidence for Claude Code, Codex, Cursor, and Aider."
+    created_at: '2026-01-27T08:03:43Z'
+    pushed_at: '2026-09-07T04:03:48Z'
+    description: >-
+      🛩️ Git-native workflow control for coding agents: approved plans, verification, and reviewable evidence for
+      Claude Code, Codex, Cursor, and Aider.
     homepage: https://agentplane.org
     topics:
       - agent-change-record
@@ -54,13 +59,17 @@ metadata:
       - typescript
       - verification
       - workflow-automation
-    last_checked_at: "2026-09-07T04:13:31.669Z"
+    last_checked_at: '2026-09-07T04:13:31.669Z'
     readme:
-      fetched_at: "2026-09-07T04:13:31.669Z"
+      fetched_at: '2026-09-07T04:13:31.669Z'
       bytes: 10382
 insights:
-  summary: Git-native workflow control for coding agents, adding approved plans, verification, and reviewable evidence for tools like Claude Code, Codex, Cursor, and Aider.
-  why_it_matters: It turns scattered agent work (chat history, terminal scrollback) into auditable Git artifacts, making agent-driven changes reviewable and reversible.
+  summary: >-
+    Git-native workflow control for coding agents, adding approved plans, verification, and reviewable evidence for
+    tools like Claude Code, Codex, Cursor, and Aider.
+  why_it_matters: >-
+    It turns scattered agent work (chat history, terminal scrollback) into auditable Git artifacts, making agent-driven
+    changes reviewable and reversible.
   mental_damage: Finally, a way to prove to your teammates that the AI didn’t just hallucinate its way through your codebase.
   tags:
     - git-workflow
@@ -71,31 +80,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product is a workflow and audit layer that wraps existing coding agents rather than acting as a primary coding assistant itself.
+  reason: >-
+    The core product is a workflow and audit layer that wraps existing coding agents rather than acting as a primary
+    coding assistant itself.
   evidence:
-    - "Repo description: 'The audit layer for coding agents... turns Claude Code, Codex, Cursor, and Aider into reviewable Git work.'"
-    - "README: 'AgentPlane is not another coding agent. It is the workflow envelope around the agent you already use.'"
-    - Source list places it under 'Harnesses & orchestration > Agent infrastructure' as a wrapper, not a standalone agent.
+    - >-
+      Repo description: 'The audit layer for coding agents... turns Claude Code, Codex, Cursor, and Aider into
+      reviewable Git work.'
+    - 'README: ''AgentPlane is not another coding agent. It is the workflow envelope around the agent you already use.'''
+    - >-
+      Source list places it under 'Harnesses & orchestration > Agent infrastructure' as a wrapper, not a standalone
+      agent.
 placement:
-  primary_category: ai-dev-extensions
-  section: null
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: Claude Code & Agent Tools
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'agent-orchestration'"
+  reason: 'Categorization review required: placement disagreement: retained ''ai-dev-extensions'', proposed ''agent-orchestration'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.604Z"
+    updated_at: '2026-05-06T22:12:15.604Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:31.669Z"
+    updated_at: '2026-09-07T04:13:31.669Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:25:30.337Z"
+    updated_at: '2026-07-21T15:25:30.337Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -108,7 +124,9 @@ processing:
       input_hash: sha256:1470e934fab45b358987d695c05104a98c2cdf91d96be260074653c55fb0bd75
       proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: AgentPlane is a workflow envelope and audit layer for coordinating coding agents, not a primary coding assistant or a thin extension.
+      decision_reason: >-
+        AgentPlane is a workflow envelope and audit layer for coordinating coding agents, not a primary coding assistant
+        or a thin extension.
       decision_evidence:
         - Repo description explicitly positions it as 'Git-native workflow control for coding agents'
         - README emphasizes recording task intent, plans, verification, and closure evidence in Git artifacts
@@ -116,6 +134,10 @@ processing:
       category_candidates:
         - agent-orchestration
         - ai-dev-extensions
-      contrastive_reason: Choose agent-orchestration over ai-dev-extensions because the core value is coordinating agent workflows and producing auditable artifacts, not merely extending another assistant with host integrations.
-      review_reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'agent-orchestration'"
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-dev-extensions because the core value is coordinating agent workflows and
+        producing auditable artifacts, not merely extending another assistant with host integrations.
+      review_reason: >-
+        Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed
+        'agent-orchestration'
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__foldwork-dev__mcp-injector__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-13T05:12:52.223Z"
+      discovered_at: '2026-07-13T05:12:52.223Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: foldwork-dev/mcp-injector
         extracted_url: https://github.com/foldwork-dev/mcp-injector
-        surrounding_text: "- [foldwork-dev/mcp-injector](https://github.com/foldwork-dev/mcp-injector) [![foldwork-dev/mcp-injector MCP server](https://glama.ai/mcp/servers/foldwork-dev/mcp-injector/badges/score.svg)](https://glama.ai/mcp/servers/foldwork-dev/mcp-injector) 🏎️ 🏠 🍎 🪟 🐧 - Local MCP daemon that pre-indexes your codebase into a SQLite catalog and serves AST-compressed snapshots to Claude Code, Cursor, and VS Code on every query. Reduces token usage by 41-89% on real codebases (verified across Django, Tokio, Gin, and more). Single Go binary, zero config. Free for codebases under 100K lines."
+        surrounding_text: >-
+          - [foldwork-dev/mcp-injector](https://github.com/foldwork-dev/mcp-injector) [![foldwork-dev/mcp-injector MCP
+          server](https://glama.ai/mcp/servers/foldwork-dev/mcp-injector/badges/score.svg)](https://glama.ai/mcp/servers/foldwork-dev/mcp-injector)
+          🏎️ 🏠 🍎 🪟 🐧 - Local MCP daemon that pre-indexes your codebase into a SQLite catalog and serves
+          AST-compressed snapshots to Claude Code, Cursor, and VS Code on every query. Reduces token usage by 41-89% on
+          real codebases (verified across Django, Tokio, Gin, and more). Single Go binary, zero config. Free for
+          codebases under 100K lines.
         confidence: high
 metadata:
   github:
@@ -30,8 +36,8 @@ metadata:
     archived: false
     full_name: foldwork-dev/mcp-injector
     html_url: https://github.com/foldwork-dev/mcp-injector
-    created_at: "2026-07-01T14:31:06Z"
-    pushed_at: "2026-07-20T09:17:47Z"
+    created_at: '2026-07-01T14:31:06Z'
+    pushed_at: '2026-07-20T09:17:47Z'
     description: Local MCP daemon that compresses your codebase before sending it to Claude  41-89% token reduction
     homepage: https://www.foldwork.dev/
     topics:
@@ -51,13 +57,15 @@ metadata:
       - token-usage
       - vscode
       - windsurf
-    last_checked_at: "2026-09-03T05:16:42.461Z"
+    last_checked_at: '2026-09-03T05:16:42.461Z'
     readme:
-      fetched_at: "2026-09-03T05:16:42.461Z"
+      fetched_at: '2026-09-03T05:16:42.461Z'
       bytes: 17838
 insights:
   summary: A local MCP daemon that compresses codebase context using AST folding to reduce token usage.
-  why_it_matters: It significantly lowers API costs and improves context relevance by stripping non-essential code structures while preserving essential signatures.
+  why_it_matters: >-
+    It significantly lowers API costs and improves context relevance by stripping non-essential code structures while
+    preserving essential signatures.
   mental_damage: Finally, a way to feel like a responsible engineer while watching your Claude API bill plummet.
   tags:
     - mcp
@@ -74,25 +82,26 @@ curation:
     - Acts as a 'Context Layer' by serving compressed structural overviews
     - Provides tools for indexing, searching, and retrieving code via SQLite
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Compression & Token Optimization
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-13T05:12:52.225Z"
+    updated_at: '2026-07-13T05:12:52.225Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:42.461Z"
+    updated_at: '2026-09-03T05:16:42.461Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-13T05:21:21.680Z"
+    updated_at: '2026-07-13T05:21:21.680Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

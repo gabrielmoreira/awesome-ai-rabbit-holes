@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__augmentcode__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-20T15:10:47.684Z"
+      discovered_at: '2026-07-20T15:10:47.684Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,12 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Augment Code
         extracted_url: https://augmentcode.com
-        surrounding_text: "- **[Augment Code](https://www.augmentcode.com/)** – AI coding platform with deep cross-repo codebase understanding via its Context Engine, built for large enterprise codebases."
+        surrounding_text: >-
+          - **[Augment Code](https://www.augmentcode.com/)** – AI coding platform with deep cross-repo codebase
+          understanding via its Context Engine, built for large enterprise codebases.
         confidence: high
     - id: discovery__augmentcode__com__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-07-20T15:10:47.684Z"
+      discovered_at: '2026-07-20T15:10:47.684Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,7 +38,7 @@ provenance:
         surrounding_text: 12. [AugmentCode](https://www.augmentcode.com/)
         confidence: high
     - id: discovery__www__augmentcode__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -48,10 +50,12 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Augment Code
         extracted_url: https://www.augmentcode.com
-        surrounding_text: "- **[Augment Code](https://www.augmentcode.com/)** – AI coding platform with deep cross-repo codebase understanding via its Context Engine, built for large enterprise codebases."
+        surrounding_text: >-
+          - **[Augment Code](https://www.augmentcode.com/)** – AI coding platform with deep cross-repo codebase
+          understanding via its Context Engine, built for large enterprise codebases.
         confidence: high
     - id: discovery__www__augmentcode__com__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -81,9 +85,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Cosmos by Augment Code is an agent orchestration platform for coordinating AI agents across the software development lifecycle at organizational scale.
-  why_it_matters: It enables teams to deploy, manage, and scale AI agents for tasks like code review, incident response, and security remediation with shared context and reusable workflows.
-  mental_damage: Finally, a way to turn your engineers' ad-hoc agent scripts into something the org can actually audit without a PhD in prompt archaeology.
+  summary: >-
+    Cosmos by Augment Code is an agent orchestration platform for coordinating AI agents across the software development
+    lifecycle at organizational scale.
+  why_it_matters: >-
+    It enables teams to deploy, manage, and scale AI agents for tasks like code review, incident response, and security
+    remediation with shared context and reusable workflows.
+  mental_damage: >-
+    Finally, a way to turn your engineers' ad-hoc agent scripts into something the org can actually audit without a PhD
+    in prompt archaeology.
   tags:
     - agent-orchestration
     - sdlc-automation
@@ -93,21 +103,30 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a primary coding assistant platform that developers delegate repo work to across IDE, CLI, and PR workflows, fitting the core definition of the coding-agents category.
+  reason: >-
+    The product is a primary coding assistant platform that developers delegate repo work to across IDE, CLI, and PR
+    workflows, fitting the core definition of the coding-agents category.
   evidence:
-    - Product description states it is 'the most powerful AI software development platform' with agents that 'understand your entire codebase'.
-    - "Offers multiple developer-facing surfaces: VS Code/JetBrains IDE agents, a terminal CLI ('auggie'), and an automated GitHub code review bot."
-    - Featured in 'awesome-ai-coding-tools' under the 'Code Editors and Assistants' section, aligning with its identity as a coding assistant.
+    - >-
+      Product description states it is 'the most powerful AI software development platform' with agents that 'understand
+      your entire codebase'.
+    - >-
+      Offers multiple developer-facing surfaces: VS Code/JetBrains IDE agents, a terminal CLI ('auggie'), and an
+      automated GitHub code review bot.
+    - >-
+      Featured in 'awesome-ai-coding-tools' under the 'Code Editors and Assistants' section, aligning with its identity
+      as a coding assistant.
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Domain & Enterprise Platforms
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:32:41.189Z"
+    updated_at: '2026-07-21T15:32:41.189Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -120,7 +139,9 @@ processing:
       input_hash: sha256:2065e6f7625cbf8f12497371076c43807ab9398ca20c752e5bdd5c64edcfe904
       proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: The product is a dedicated platform for orchestrating multiple agents across the SDLC, not a single coding assistant or extension.
+      decision_reason: >-
+        The product is a dedicated platform for orchestrating multiple agents across the SDLC, not a single coding
+        assistant or extension.
       decision_evidence:
         - Marketed as 'agent orchestration platform' for organizational-scale SDLC workflows
         - Features include multi-agent coordination, shared memory, reusable experts, and lifecycle triggers
@@ -128,12 +149,14 @@ processing:
       category_candidates:
         - agent-orchestration
         - ai-dev-extensions
-      contrastive_reason: Choose agent-orchestration over ai-dev-extensions because the primary value is coordinating multiple agents and workflows, not augmenting a single host assistant.
-      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-dev-extensions because the primary value is coordinating multiple agents and
+        workflows, not augmenting a single host assistant.
+      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T15:10:47.686Z"
+    updated_at: '2026-07-20T15:10:47.686Z'
     cause: null
     next_retry_at: null
   stars:

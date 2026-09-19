@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__automateyournetwork__pyats_mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: automateyournetwork/pyATS_MCP
         extracted_url: https://github.com/automateyournetwork/pyats_mcp
-        surrounding_text: "- [automateyournetwork/pyATS_MCP](https://github.com/automateyournetwork/pyATS_MCP) - Cisco pyATS server enabling structured, model-driven interaction with network devices."
+        surrounding_text: >-
+          - [automateyournetwork/pyATS_MCP](https://github.com/automateyournetwork/pyATS_MCP) - Cisco pyATS server
+          enabling structured, model-driven interaction with network devices.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,22 @@ metadata:
     archived: false
     full_name: automateyournetwork/pyATS_MCP
     html_url: https://github.com/automateyournetwork/pyATS_MCP
-    created_at: "2025-04-04T16:49:01Z"
-    pushed_at: "2026-08-23T15:03:21Z"
+    created_at: '2025-04-04T16:49:01Z'
+    pushed_at: '2026-08-23T15:03:21Z'
     description: An MCP Server for pyATS (experimental)
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:25.145Z"
+    last_checked_at: '2026-09-14T04:13:25.145Z'
     readme:
-      fetched_at: "2026-09-14T04:13:25.144Z"
+      fetched_at: '2026-09-14T04:13:25.144Z'
       bytes: 15098
 insights:
-  summary: An MCP server that wraps Cisco pyATS and Genie to let AI agents run network commands and manage device configurations.
-  why_it_matters: It enables AI agents to interact with network devices programmatically, turning natural language requests into validated show commands, configuration changes, and health checks.
+  summary: >-
+    An MCP server that wraps Cisco pyATS and Genie to let AI agents run network commands and manage device
+    configurations.
+  why_it_matters: >-
+    It enables AI agents to interact with network devices programmatically, turning natural language requests into
+    validated show commands, configuration changes, and health checks.
   mental_damage: Now your AI can SSH into your routers and argue with your firewall rules.
   tags:
     - mcp-server
@@ -52,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server providing domain-specific tools for network automation, making MCP the primary adopted thing.
+  reason: >-
+    The product's core identity is an MCP server providing domain-specific tools for network automation, making MCP the
+    primary adopted thing.
   evidence:
     - Repo description explicitly states it is 'An MCP Server for pyATS'
     - README details STDIO-based JSON-RPC 2.0 MCP server implementation with pyATS/Genie tools
     - Source-list context shows it in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.603Z"
+    updated_at: '2026-05-06T22:12:15.603Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:25.145Z"
+    updated_at: '2026-09-14T04:13:25.145Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:24:33.364Z"
+    updated_at: '2026-07-21T15:24:33.364Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +98,9 @@ processing:
       input_hash: sha256:410181f05ffcc458f1870a4c18e4595b65f0b151558fe10c9f276d02fc612050
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP server providing domain-specific tools for network automation, making MCP the primary adopted thing.
+      decision_reason: >-
+        The product's core identity is an MCP server providing domain-specific tools for network automation, making MCP
+        the primary adopted thing.
       decision_evidence:
         - Repo description explicitly states it is 'An MCP Server for pyATS'
         - README details STDIO-based JSON-RPC 2.0 MCP server implementation with pyATS/Genie tools
@@ -97,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

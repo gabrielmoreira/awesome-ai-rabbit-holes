@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aparajithn__agent-scraper-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: aparajithn/agent-scraper-mcp
         extracted_url: https://github.com/aparajithn/agent-scraper-mcp
-        surrounding_text: "- [aparajithn/agent-scraper-mcp](https://github.com/aparajithn/agent-scraper-mcp) [![agent-scraper-mcp MCP server](https://glama.ai/mcp/servers/@aparajithn/agent-scraper-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@aparajithn/agent-scraper-mcp) 🐍 ☁️ - Web scraping MCP server for AI agents. 6 tools: clean content extraction, structured scraping with CSS selectors, full-page screenshots via Playwright, link extraction, metadata extraction (OG/Twitter cards), and Google search. Free tier with x402 micropayments."
+        surrounding_text: >-
+          - [aparajithn/agent-scraper-mcp](https://github.com/aparajithn/agent-scraper-mcp) [![agent-scraper-mcp MCP
+          server](https://glama.ai/mcp/servers/@aparajithn/agent-scraper-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@aparajithn/agent-scraper-mcp)
+          🐍 ☁️ - Web scraping MCP server for AI agents. 6 tools: clean content extraction, structured scraping with CSS
+          selectors, full-page screenshots via Playwright, link extraction, metadata extraction (OG/Twitter cards), and
+          Google search. Free tier with x402 micropayments.
         confidence: high
 metadata:
   github:
@@ -30,18 +35,22 @@ metadata:
     archived: false
     full_name: aparajithn/agent-scraper-mcp
     html_url: https://github.com/aparajithn/agent-scraper-mcp
-    created_at: "2026-03-05T15:26:57Z"
-    pushed_at: "2026-03-07T07:13:57Z"
+    created_at: '2026-03-05T15:26:57Z'
+    pushed_at: '2026-03-07T07:13:57Z'
     description: Web scraping MCP server for AI agents — screenshots, content extraction, structured scraping
     homepage: null
     topics: []
-    last_checked_at: "2026-09-10T04:12:56.141Z"
+    last_checked_at: '2026-09-10T04:12:56.141Z'
     readme:
-      fetched_at: "2026-09-10T04:12:56.141Z"
+      fetched_at: '2026-09-10T04:12:56.141Z'
       bytes: 8005
 insights:
-  summary: An MCP server providing web scraping, screenshots, and structured content extraction for AI agents via MCP and REST API.
-  why_it_matters: Developers can offload web scraping, metadata extraction, and screenshot capture to an MCP-compatible service, integrating it directly into agent workflows.
+  summary: >-
+    An MCP server providing web scraping, screenshots, and structured content extraction for AI agents via MCP and REST
+    API.
+  why_it_matters: >-
+    Developers can offload web scraping, metadata extraction, and screenshot capture to an MCP-compatible service,
+    integrating it directly into agent workflows.
   mental_damage: Now your AI agent can scrape the web for you, because manually reading documentation was clearly the bottleneck.
   tags:
     - mcp
@@ -52,33 +61,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server for web scraping and browser automation, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product's core identity is an MCP server for web scraping and browser automation, fitting the MCP Servers &
+    Tooling category.
   evidence:
     - Repo description explicitly states it is a 'Web scraping MCP server for AI agents'
     - README highlights MCP + REST API as primary interfaces
     - Already listed in awesome-mcp-servers under Browser Automation
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.602Z"
+    updated_at: '2026-05-06T22:12:15.602Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-17T04:13:47.360Z"
+    updated_at: '2026-09-17T04:13:47.360Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for aparajithn/agent-scraper-mcp
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:23:30.965Z"
+    updated_at: '2026-07-21T15:23:30.965Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -91,7 +103,9 @@ processing:
       input_hash: sha256:f78c141fb6ed4a701aac3ab8108dbb8e22d0576cf4c1cbd534d88f760645538a
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP server for web scraping and browser automation, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product's core identity is an MCP server for web scraping and browser automation, fitting the MCP Servers &
+        Tooling category.
       decision_evidence:
         - Repo description explicitly states it is a 'Web scraping MCP server for AI agents'
         - README highlights MCP + REST API as primary interfaces
@@ -99,6 +113,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server first, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server first, not an extension augmenting
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

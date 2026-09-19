@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__autonsol__sol-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: autonsol/sol-mcp
         extracted_url: https://github.com/autonsol/sol-mcp
-        surrounding_text: "- [autonsol/sol-mcp](https://github.com/autonsol/sol-mcp) [![sol-mcp MCP server](https://glama.ai/mcp/servers/autonsol/sol-mcp/badges/score.svg)](https://glama.ai/mcp/servers/autonsol/sol-mcp) 📇 ☁️ - Solana token risk scoring and pump.fun graduation signals. Score any token by mint address (0-100 risk, risk_label, holder concentration, liquidity), detect graduation momentum (buy/sell ratio, velocity), and query trust attestations. Live API. Freemium — 4 free tools, PRO via x402 micropayments ($0.01/call USDC)."
+        surrounding_text: >-
+          - [autonsol/sol-mcp](https://github.com/autonsol/sol-mcp) [![sol-mcp MCP
+          server](https://glama.ai/mcp/servers/autonsol/sol-mcp/badges/score.svg)](https://glama.ai/mcp/servers/autonsol/sol-mcp)
+          📇 ☁️ - Solana token risk scoring and pump.fun graduation signals. Score any token by mint address (0-100
+          risk, risk_label, holder concentration, liquidity), detect graduation momentum (buy/sell ratio, velocity), and
+          query trust attestations. Live API. Freemium — 4 free tools, PRO via x402 micropayments ($0.01/call USDC).
         confidence: high
 metadata:
   github:
@@ -30,18 +35,22 @@ metadata:
     archived: false
     full_name: autonsol/sol-mcp
     html_url: https://github.com/autonsol/sol-mcp
-    created_at: "2026-03-10T07:36:41Z"
-    pushed_at: "2026-04-05T12:58:35Z"
+    created_at: '2026-03-10T07:36:41Z'
+    pushed_at: '2026-04-05T12:58:35Z'
     description: MCP server for Solana token risk scoring and momentum signals
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:25.801Z"
+    last_checked_at: '2026-09-14T04:13:25.801Z'
     readme:
-      fetched_at: "2026-09-14T04:13:25.801Z"
+      fetched_at: '2026-09-14T04:13:25.801Z'
       bytes: 9823
 insights:
-  summary: MCP server providing Solana token risk scoring, momentum signals, wallet analysis, and live AI trading intelligence for AI assistants and autonomous agents.
-  why_it_matters: Developers building AI agents for crypto trading or Solana analysis can integrate real-time on-chain risk and momentum data directly into their workflows via MCP.
+  summary: >-
+    MCP server providing Solana token risk scoring, momentum signals, wallet analysis, and live AI trading intelligence
+    for AI assistants and autonomous agents.
+  why_it_matters: >-
+    Developers building AI agents for crypto trading or Solana analysis can integrate real-time on-chain risk and
+    momentum data directly into their workflows via MCP.
   mental_damage: Now your AI agent can also lose money on Solana memecoins, but with better data.
   tags:
     - mcp
@@ -52,31 +61,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server exposing domain-specific tools (Solana token analysis) for AI assistants, fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is an MCP-first server exposing domain-specific tools (Solana token analysis) for AI assistants, fitting the
+    MCP Servers & Tooling category.
   evidence:
     - Repo description explicitly identifies it as an MCP server for Solana token risk scoring and momentum signals
     - README details MCP tool endpoints, installation via Claude Desktop/Cursor/Windsurf, and Smithery one-click install
     - Already listed in awesome-mcp-servers under Finance & Fintech
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.604Z"
+    updated_at: '2026-05-06T22:12:15.604Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:25.801Z"
+    updated_at: '2026-09-14T04:13:25.801Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:24:33.556Z"
+    updated_at: '2026-07-21T15:24:33.556Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,14 +101,20 @@ processing:
       input_hash: sha256:05c1517fa995c4414358d48f6a8658c1af46427be1117aaf3a1bfde552ce3343
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server exposing domain-specific tools (Solana token analysis) for AI assistants, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is an MCP-first server exposing domain-specific tools (Solana token analysis) for AI assistants, fitting
+        the MCP Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server for Solana token risk scoring and momentum signals
-        - README details MCP tool endpoints, installation via Claude Desktop/Cursor/Windsurf, and Smithery one-click install
+        - >-
+          README details MCP tool endpoints, installation via Claude Desktop/Cursor/Windsurf, and Smithery one-click
+          install
         - Already listed in awesome-mcp-servers under Finance & Fintech
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

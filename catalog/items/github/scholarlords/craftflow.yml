@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__scholarlords__craftflow__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -20,7 +20,9 @@ provenance:
           - Workflow & Pipeline Frameworks
         anchor_text: CraftFlow
         extracted_url: https://github.com/scholarlords/craftflow
-        surrounding_text: "| [CraftFlow](https://github.com/scholarlords/CraftFlow) | Workflow orchestration for RAG and multi-agent collaborations | ![Stars](https://img.shields.io/github/stars/scholarlords/CraftFlow) |"
+        surrounding_text: >-
+          | [CraftFlow](https://github.com/scholarlords/CraftFlow) | Workflow orchestration for RAG and multi-agent
+          collaborations | ![Stars](https://img.shields.io/github/stars/scholarlords/CraftFlow) |
         confidence: high
 metadata:
   github:
@@ -30,19 +32,27 @@ metadata:
     archived: false
     full_name: scholarlords/CraftFlow
     html_url: https://github.com/scholarlords/CraftFlow
-    created_at: "2025-06-15T11:42:05Z"
-    pushed_at: "2025-06-15T11:45:59Z"
-    description: A powerful workflow orchestration framework designed for building complex processing pipelines, including RAG systems, multi-agent collaborations, and data processing workflows.
-    homepage: ""
+    created_at: '2025-06-15T11:42:05Z'
+    pushed_at: '2025-06-15T11:45:59Z'
+    description: >-
+      A powerful workflow orchestration framework designed for building complex processing pipelines, including RAG
+      systems, multi-agent collaborations, and data processing workflows.
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-20T16:42:51.996Z"
+    last_checked_at: '2026-07-20T16:42:51.996Z'
     readme:
-      fetched_at: "2026-07-20T16:42:51.996Z"
+      fetched_at: '2026-07-20T16:42:51.996Z'
       bytes: 3108
 insights:
-  summary: CraftFlow is a Python workflow orchestration framework for building processing pipelines, including RAG systems and multi-agent collaborations, via a code-first SDK.
-  why_it_matters: It provides developers with a structured library to define complex async workflows, tool registries, and agent nodes directly in code rather than a visual UI.
-  mental_damage: "Just what the ecosystem needed: yet another way to describe a graph in Python while wondering if this specific node-based framework will still have commits next month."
+  summary: >-
+    CraftFlow is a Python workflow orchestration framework for building processing pipelines, including RAG systems and
+    multi-agent collaborations, via a code-first SDK.
+  why_it_matters: >-
+    It provides developers with a structured library to define complex async workflows, tool registries, and agent nodes
+    directly in code rather than a visual UI.
+  mental_damage: >-
+    Just what the ecosystem needed: yet another way to describe a graph in Python while wondering if this specific
+    node-based framework will still have commits next month.
   tags:
     - workflow
     - orchestration
@@ -52,35 +62,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The project is a code-first Python library and SDK for building workflows and pipelines, fitting the Frameworks & SDKs category rather than an orchestration platform.
+  reason: >-
+    The project is a code-first Python library and SDK for building workflows and pipelines, fitting the Frameworks &
+    SDKs category rather than an orchestration platform.
   evidence:
     - Repo description explicitly calls it a 'workflow orchestration framework'.
     - README shows a pip install and Python imports (from craftflow.examples...), confirming a code-first SDK identity.
     - Includes core nodes like TaskNode, AsyncTaskNode, and ToolNode, characteristic of a graph/workflow engine.
 placement:
   primary_category: ai-frameworks
-  section: Workflow / Graph Engines
+  secondary_categories: []
+  section: Workflow & Graph Engines
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.646Z"
+    updated_at: '2026-05-06T22:12:15.646Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:51.996Z"
+    updated_at: '2026-07-20T16:42:51.996Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

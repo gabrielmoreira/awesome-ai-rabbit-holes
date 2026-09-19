@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__idea-research__dino-x-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Official Servers
         anchor_text: DINO-X
         extracted_url: https://github.com/idea-research/dino-x-mcp
-        surrounding_text: "- **[DINO-X](https://github.com/IDEA-Research/DINO-X-MCP)** - Advanced computer vision and object detection MCP server powered by Dino-X, enabling AI agents to analyze images, detect objects, identify keypoints, and perform visual understanding tasks."
+        surrounding_text: >-
+          - **[DINO-X](https://github.com/IDEA-Research/DINO-X-MCP)** - Advanced computer vision and object detection
+          MCP server powered by Dino-X, enabling AI agents to analyze images, detect objects, identify keypoints, and
+          perform visual understanding tasks.
         confidence: high
 metadata:
   github:
@@ -29,9 +32,11 @@ metadata:
     archived: false
     full_name: IDEA-Research/DINO-X-MCP
     html_url: https://github.com/IDEA-Research/DINO-X-MCP
-    created_at: "2025-06-04T09:04:21Z"
-    pushed_at: "2026-06-17T07:43:06Z"
-    description: Official DINO-X Model Context Protocol (MCP) server that empowers LLMs with real-world visual perception through image object detection, localization, and captioning APIs.
+    created_at: '2025-06-04T09:04:21Z'
+    pushed_at: '2026-06-17T07:43:06Z'
+    description: >-
+      Official DINO-X Model Context Protocol (MCP) server that empowers LLMs with real-world visual perception through
+      image object detection, localization, and captioning APIs.
     homepage: https://cloud.deepdataspace.com/
     topics:
       - image-recognition
@@ -39,13 +44,17 @@ metadata:
       - mcp-server
       - object-detection
       - pose-estimation
-    last_checked_at: "2026-07-30T05:05:41.654Z"
+    last_checked_at: '2026-07-30T05:05:41.654Z'
     readme:
-      fetched_at: "2026-07-30T05:05:41.654Z"
+      fetched_at: '2026-07-30T05:05:41.654Z'
       bytes: 9148
 insights:
-  summary: An official MCP server that provides real-world visual perception capabilities (object detection, localization, captioning) to LLMs via the DINO-X and Grounding DINO models.
-  why_it_matters: Developers can integrate fine-grained image understanding into MCP-compatible workflows, enabling agents to reason about visual data in structured ways.
+  summary: >-
+    An official MCP server that provides real-world visual perception capabilities (object detection, localization,
+    captioning) to LLMs via the DINO-X and Grounding DINO models.
+  why_it_matters: >-
+    Developers can integrate fine-grained image understanding into MCP-compatible workflows, enabling agents to reason
+    about visual data in structured ways.
   mental_damage: Now your coding agent can finally tell you why that button is 3 pixels off-center in the screenshot.
   tags:
     - mcp-server
@@ -56,31 +65,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: this is a dedicated MCP server providing domain-specific (visual perception) capabilities, not a compatibility footnote."
+  reason: >-
+    MCP is the product identity here: this is a dedicated MCP server providing domain-specific (visual perception)
+    capabilities, not a compatibility footnote.
   evidence:
     - Repo description explicitly identifies it as an 'Official DINO-X Model Context Protocol (MCP) server'
     - README details MCP transport modes (STDIO, Streamable HTTP) and client configuration
     - Listed in awesome-mcp-servers under 'Official Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.620Z"
+    updated_at: '2026-05-06T22:12:15.620Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:41.654Z"
+    updated_at: '2026-07-30T05:05:41.654Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:07:47.203Z"
+    updated_at: '2026-07-21T16:07:47.203Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -93,7 +105,9 @@ processing:
       input_hash: sha256:b0c100247708e5f00ba7a8d171499da42bca58c8ac5f98c1c84e6b2ae286bc6b
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: this is a dedicated MCP server providing domain-specific (visual perception) capabilities, not a compatibility footnote."
+      decision_reason: >-
+        MCP is the product identity here: this is a dedicated MCP server providing domain-specific (visual perception)
+        capabilities, not a compatibility footnote.
       decision_evidence:
         - Repo description explicitly identifies it as an 'Official DINO-X Model Context Protocol (MCP) server'
         - README details MCP transport modes (STDIO, Streamable HTTP) and client configuration
@@ -101,6 +115,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server providing domain-specific tooling, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server providing domain-specific tooling,
+        not an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

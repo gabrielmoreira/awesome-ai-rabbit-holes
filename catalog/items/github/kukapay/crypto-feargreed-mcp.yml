@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__crypto-feargreed-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/crypto-feargreed-mcp
         extracted_url: https://github.com/kukapay/crypto-feargreed-mcp
-        surrounding_text: "- [kukapay/crypto-feargreed-mcp](https://github.com/kukapay/crypto-feargreed-mcp) 🐍 ☁️ -  Providing real-time and historical Crypto Fear & Greed Index data."
+        surrounding_text: >-
+          - [kukapay/crypto-feargreed-mcp](https://github.com/kukapay/crypto-feargreed-mcp) 🐍 ☁️ -  Providing real-time
+          and historical Crypto Fear & Greed Index data.
         confidence: high
     - id: discovery__github__kukapay__crypto-feargreed-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - 💰 Finance & Fintech
         anchor_text: kukapay/crypto-feargreed-mcp
         extracted_url: https://github.com/kukapay/crypto-feargreed-mcp
-        surrounding_text: "-   **[kukapay/crypto-feargreed-mcp](https://github.com/kukapay/crypto-feargreed-mcp)** [![GitHub stars](https://img.shields.io/github/stars/kukapay/crypto-feargreed-mcp?style=social)](https://github.com/kukapay/crypto-feargreed-mcp): Provides real-time and historical Crypto Fear & Greed Index data."
+        surrounding_text: >-
+          -   **[kukapay/crypto-feargreed-mcp](https://github.com/kukapay/crypto-feargreed-mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/kukapay/crypto-feargreed-mcp?style=social)](https://github.com/kukapay/crypto-feargreed-mcp):
+          Provides real-time and historical Crypto Fear & Greed Index data.
         confidence: high
 metadata:
   github:
@@ -45,18 +50,22 @@ metadata:
     archived: false
     full_name: kukapay/crypto-feargreed-mcp
     html_url: https://github.com/kukapay/crypto-feargreed-mcp
-    created_at: "2025-03-15T11:46:17Z"
-    pushed_at: "2025-05-10T14:16:11Z"
+    created_at: '2025-03-15T11:46:17Z'
+    pushed_at: '2025-05-10T14:16:11Z'
     description: Providing real-time and historical Crypto Fear & Greed Index data
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:59.279Z"
+    last_checked_at: '2026-07-30T05:05:59.279Z'
     readme:
-      fetched_at: "2026-07-30T05:05:59.279Z"
+      fetched_at: '2026-07-30T05:05:59.279Z'
       bytes: 3398
 insights:
-  summary: An MCP server providing real-time and historical Crypto Fear & Greed Index data for integration with MCP-compatible clients.
-  why_it_matters: Developers can embed live crypto sentiment data into their AI workflows without leaving their MCP-enabled environment.
+  summary: >-
+    An MCP server providing real-time and historical Crypto Fear & Greed Index data for integration with MCP-compatible
+    clients.
+  why_it_matters: >-
+    Developers can embed live crypto sentiment data into their AI workflows without leaving their MCP-enabled
+    environment.
   mental_damage: Now your coding assistant can tell you whether the market is in 'Fear' or 'Greed' while you debug.
   tags:
     - mcp-server
@@ -66,31 +75,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a domain-specific MCP server whose primary identity is serving Fear & Greed Index data via the Model Context Protocol.
+  reason: >-
+    This is a domain-specific MCP server whose primary identity is serving Fear & Greed Index data via the Model Context
+    Protocol.
   evidence:
     - Repo description explicitly states it is an MCP server for Crypto Fear & Greed Index data
     - README details MCP resources, tools, and installation for MCP clients like Claude Desktop
     - Listed in awesome-mcp-list under Finance & Fintech
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.589Z"
+    updated_at: '2026-05-06T22:12:15.589Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:59.279Z"
+    updated_at: '2026-07-30T05:05:59.279Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:42.428Z"
+    updated_at: '2026-07-21T16:13:42.428Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -103,7 +115,9 @@ processing:
       input_hash: sha256:ae47876ea29ae11577dd36e290640547608e3910f207fe02137ff0389335d086
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a domain-specific MCP server whose primary identity is serving Fear & Greed Index data via the Model Context Protocol.
+      decision_reason: >-
+        This is a domain-specific MCP server whose primary identity is serving Fear & Greed Index data via the Model
+        Context Protocol.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Crypto Fear & Greed Index data
         - README details MCP resources, tools, and installation for MCP clients like Claude Desktop
@@ -111,6 +125,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

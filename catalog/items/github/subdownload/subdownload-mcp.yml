@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__subdownload__subdownload-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,15 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: SubDownload/subdownload-mcp
         extracted_url: https://github.com/subdownload/subdownload-mcp
-        surrounding_text: "- [SubDownload/subdownload-mcp](https://github.com/SubDownload/subdownload-mcp) [![SubDownload/subdownload-mcp MCP server](https://glama.ai/mcp/servers/SubDownload/subdownload-mcp/badges/score.svg)](https://glama.ai/mcp/servers/SubDownload/subdownload-mcp) 🏎️ ☁️ 🍎 🪟 🐧 - YouTube knowledge base for AI agents. Summarize videos, fetch full transcripts (including videos without captions, via AI ASR), search channels and playlists, and save everything into a per-user knowledge base for cross-session recall. OAuth 2.1 with Dynamic Client Registration. Hosted at [subdownload.com](https://subdownload.com?utm_source=gthb_awesome_9jqqed&utm_medium=code&utm_campaign=Awesome). `https://api.subdownload.com/mcp`, free credits on signup."
+        surrounding_text: >-
+          - [SubDownload/subdownload-mcp](https://github.com/SubDownload/subdownload-mcp) [![SubDownload/subdownload-mcp
+          MCP
+          server](https://glama.ai/mcp/servers/SubDownload/subdownload-mcp/badges/score.svg)](https://glama.ai/mcp/servers/SubDownload/subdownload-mcp)
+          🏎️ ☁️ 🍎 🪟 🐧 - YouTube knowledge base for AI agents. Summarize videos, fetch full transcripts (including
+          videos without captions, via AI ASR), search channels and playlists, and save everything into a per-user
+          knowledge base for cross-session recall. OAuth 2.1 with Dynamic Client Registration. Hosted at
+          [subdownload.com](https://subdownload.com?utm_source=gthb_awesome_9jqqed&utm_medium=code&utm_campaign=Awesome).
+          `https://api.subdownload.com/mcp`, free credits on signup.
         confidence: high
 metadata:
   github:
@@ -30,19 +38,27 @@ metadata:
     archived: false
     full_name: SubDownload/subdownload-mcp
     html_url: https://github.com/SubDownload/subdownload-mcp
-    created_at: "2026-04-27T08:39:41Z"
-    pushed_at: "2026-04-27T12:05:10Z"
-    description: Public MCP wrapper for SubDownload.Fetch YouTube transcripts, search videos, browse channels and playlists — instant YouTube data for your AI workflow.
+    created_at: '2026-04-27T08:39:41Z'
+    pushed_at: '2026-04-27T12:05:10Z'
+    description: >-
+      Public MCP wrapper for SubDownload.Fetch YouTube transcripts, search videos, browse channels and playlists —
+      instant YouTube data for your AI workflow.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:43:04.419Z"
+    last_checked_at: '2026-07-20T16:43:04.419Z'
     readme:
-      fetched_at: "2026-07-20T16:43:04.419Z"
+      fetched_at: '2026-07-20T16:43:04.419Z'
       bytes: 4265
 insights:
-  summary: An MCP server that exposes YouTube as a data source, allowing AI agents to fetch transcripts, search videos, browse channels, and save content to a per-user knowledge base.
-  why_it_matters: It gives coding agents and MCP clients structured, on-demand access to YouTube video content and metadata without requiring brittle scraping or manual copy-pasting.
-  mental_damage: Finally, your AI agent can summarize an eight-hour conference talk instead of you, while still citing 'watch this video' as if that avoids the real work.
+  summary: >-
+    An MCP server that exposes YouTube as a data source, allowing AI agents to fetch transcripts, search videos, browse
+    channels, and save content to a per-user knowledge base.
+  why_it_matters: >-
+    It gives coding agents and MCP clients structured, on-demand access to YouTube video content and metadata without
+    requiring brittle scraping or manual copy-pasting.
+  mental_damage: >-
+    Finally, your AI agent can summarize an eight-hour conference talk instead of you, while still citing 'watch this
+    video' as if that avoids the real work.
   tags:
     - mcp
     - youtube
@@ -51,35 +67,43 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server that exposes YouTube data and knowledge-base capabilities to MCP clients, making MCP its clear product identity.
+  reason: >-
+    The product is an MCP server that exposes YouTube data and knowledge-base capabilities to MCP clients, making MCP
+    its clear product identity.
   evidence:
-    - "Repo description states: 'Public MCP wrapper for SubDownload. Fetch YouTube transcripts, search videos, browse channels and playlists — instant YouTube data for your AI workflow.'"
-    - README explicitly describes 'SubDownload exposes YouTube as an MCP-native data source' and provides MCP client configuration examples.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory', reinforcing its MCP server identity.
+    - >-
+      Repo description states: 'Public MCP wrapper for SubDownload. Fetch YouTube transcripts, search videos, browse
+      channels and playlists — instant YouTube data for your AI workflow.'
+    - >-
+      README explicitly describes 'SubDownload exposes YouTube as an MCP-native data source' and provides MCP client
+      configuration examples.
+    - >-
+      Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory', reinforcing its MCP server
+      identity.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.649Z"
+    updated_at: '2026-05-06T22:12:15.649Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:43:04.419Z"
+    updated_at: '2026-07-20T16:43:04.419Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

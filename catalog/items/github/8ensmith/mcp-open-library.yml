@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__8ensmith__mcp-open-library__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: 8enSmith/mcp-open-library
         extracted_url: https://github.com/8ensmith/mcp-open-library
-        surrounding_text: "- [8enSmith/mcp-open-library](https://github.com/8enSmith/mcp-open-library) 📇 ☁️ - A MCP server for the Open Library API that enables AI assistants to search for book information."
+        surrounding_text: >-
+          - [8enSmith/mcp-open-library](https://github.com/8enSmith/mcp-open-library) 📇 ☁️ - A MCP server for the Open
+          Library API that enables AI assistants to search for book information.
         confidence: high
     - id: discovery__github__8ensmith__mcp-open-library__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,10 +37,12 @@ provenance:
           - Community Servers
         anchor_text: MCP Open Library
         extracted_url: https://github.com/8ensmith/mcp-open-library
-        surrounding_text: "- **[MCP Open Library](https://github.com/8enSmith/mcp-open-library)** - A Model Context Protocol (MCP) server for the Open Library API that enables AI assistants to search for book and author information."
+        surrounding_text: >-
+          - **[MCP Open Library](https://github.com/8enSmith/mcp-open-library)** - A Model Context Protocol (MCP) server
+          for the Open Library API that enables AI assistants to search for book and author information.
         confidence: high
     - id: discovery__github__8ensmith__mcp-open-library__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-09-01T14:31:13.862Z"
+      discovered_at: '2026-09-01T14:31:13.862Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -50,7 +54,10 @@ provenance:
           - 🎨 Art & Culture
         anchor_text: 8enSmith/mcp-open-library
         extracted_url: https://github.com/8ensmith/mcp-open-library
-        surrounding_text: "-   **[8enSmith/mcp-open-library](https://github.com/8enSmith/mcp-open-library)** [![GitHub stars](https://img.shields.io/github/stars/8enSmith/mcp-open-library?style=social)](https://github.com/8enSmith/mcp-open-library): Connects to the Internet Archive's Open Library API to search book and author information."
+        surrounding_text: >-
+          -   **[8enSmith/mcp-open-library](https://github.com/8enSmith/mcp-open-library)** [![GitHub
+          stars](https://img.shields.io/github/stars/8enSmith/mcp-open-library?style=social)](https://github.com/8enSmith/mcp-open-library):
+          Connects to the Internet Archive's Open Library API to search book and author information.
         confidence: high
 metadata:
   github:
@@ -60,10 +67,12 @@ metadata:
     archived: false
     full_name: 8enSmith/mcp-open-library
     html_url: https://github.com/8enSmith/mcp-open-library
-    created_at: "2025-04-17T23:31:17Z"
-    pushed_at: "2026-09-03T23:20:05Z"
-    description: A Model Context Protocol (MCP) server for the Internet Archive's Open Library API that enables AI assistants to search for book and author information.
-    homepage: ""
+    created_at: '2025-04-17T23:31:17Z'
+    pushed_at: '2026-09-03T23:20:05Z'
+    description: >-
+      A Model Context Protocol (MCP) server for the Internet Archive's Open Library API that enables AI assistants to
+      search for book and author information.
+    homepage: ''
     topics:
       - ai
       - assistants
@@ -76,14 +85,18 @@ metadata:
       - open-library
       - open-library-api
       - openlibrary
-    last_checked_at: "2026-09-17T04:13:26.878Z"
+    last_checked_at: '2026-09-17T04:13:26.878Z'
     readme:
-      fetched_at: "2026-09-17T04:13:26.878Z"
+      fetched_at: '2026-09-17T04:13:26.878Z'
       bytes: 19424
 insights:
   summary: An MCP server that provides an interface to the Open Library API for searching books and author information.
-  why_it_matters: It gives AI assistants a standardized way to access structured bibliographic data, author biographies, and book cover metadata via the Model Context Protocol.
-  mental_damage: One more protocol to learn so your LLM can tell you exactly when your favorite author died while you're trying to debug code.
+  why_it_matters: >-
+    It gives AI assistants a standardized way to access structured bibliographic data, author biographies, and book
+    cover metadata via the Model Context Protocol.
+  mental_damage: >-
+    One more protocol to learn so your LLM can tell you exactly when your favorite author died while you're trying to
+    debug code.
   tags:
     - mcp
     - book-data
@@ -95,28 +108,29 @@ curation:
   reason: The project's entire identity and functionality is centered on being an MCP server for a specific domain.
   evidence:
     - Repo description identifies it as an MCP server for the Open Library API.
-    - "README outlines specific MCP tools: get_book_by_title, get_authors_by_name, etc."
+    - 'README outlines specific MCP tools: get_book_by_title, get_authors_by_name, etc.'
     - Implementation details focus on the MCP transport protocol and tool definitions.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-01T14:31:13.863Z"
+    updated_at: '2026-09-01T14:31:13.863Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:26.878Z"
+    updated_at: '2026-09-17T04:13:26.878Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:50:58.265Z"
+    updated_at: '2026-07-20T15:50:58.265Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -132,11 +146,13 @@ processing:
       decision_reason: The project's entire identity and functionality is centered on being an MCP server for a specific domain.
       decision_evidence:
         - Repo description identifies it as an MCP server for the Open Library API.
-        - "README outlines specific MCP tools: get_book_by_title, get_authors_by_name, etc."
+        - 'README outlines specific MCP tools: get_book_by_title, get_authors_by_name, etc.'
         - Implementation details focus on the MCP transport protocol and tool definitions.
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is a protocol-specific server rather than a general workflow integration for an editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is a protocol-specific server rather than a
+        general workflow integration for an editor.
       review_reason: null
       review_resume_lifecycle: null

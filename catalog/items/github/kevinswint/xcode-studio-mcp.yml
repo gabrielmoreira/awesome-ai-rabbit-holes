@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kevinswint__xcode-studio-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: kevinswint/xcode-studio-mcp
         extracted_url: https://github.com/kevinswint/xcode-studio-mcp
-        surrounding_text: "- [kevinswint/xcode-studio-mcp](https://github.com/kevinswint/xcode-studio-mcp) [![kevinswint/xcode-studio-mcp MCP server](https://glama.ai/mcp/servers/kevinswint/xcode-studio-mcp/badges/score.svg)](https://glama.ai/mcp/servers/kevinswint/xcode-studio-mcp) 📇 🏠 🍎 - Unified MCP server for iOS development — build, run, screenshot, and interact with iOS Simulator."
+        surrounding_text: >-
+          - [kevinswint/xcode-studio-mcp](https://github.com/kevinswint/xcode-studio-mcp) [![kevinswint/xcode-studio-mcp
+          MCP
+          server](https://glama.ai/mcp/servers/kevinswint/xcode-studio-mcp/badges/score.svg)](https://glama.ai/mcp/servers/kevinswint/xcode-studio-mcp)
+          📇 🏠 🍎 - Unified MCP server for iOS development — build, run, screenshot, and interact with iOS Simulator.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: kevinswint/xcode-studio-mcp
     html_url: https://github.com/kevinswint/xcode-studio-mcp
-    created_at: "2026-04-02T23:04:11Z"
-    pushed_at: "2026-04-04T17:44:01Z"
-    description: Unified MCP server for AI-assisted iOS development — build, deploy, screenshot, and interact with iOS Simulator from Claude Code, Cursor, or any MCP client
+    created_at: '2026-04-02T23:04:11Z'
+    pushed_at: '2026-04-04T17:44:01Z'
+    description: >-
+      Unified MCP server for AI-assisted iOS development — build, deploy, screenshot, and interact with iOS Simulator
+      from Claude Code, Cursor, or any MCP client
     homepage: https://github.com/kevinswint/xcode-studio-mcp
     topics:
       - ai-coding
@@ -47,14 +53,20 @@ metadata:
       - swift
       - xcode
       - xcodebuild
-    last_checked_at: "2026-07-30T05:05:56.175Z"
+    last_checked_at: '2026-07-30T05:05:56.175Z'
     readme:
-      fetched_at: "2026-07-30T05:05:56.175Z"
+      fetched_at: '2026-07-30T05:05:56.175Z'
       bytes: 5561
 insights:
-  summary: Unified MCP server for AI-assisted iOS development that enables building, deploying, and interacting with iOS Simulator from MCP clients like Claude Code or Cursor.
-  why_it_matters: It consolidates the full iOS dev loop (build, deploy, screenshot, UI interaction) into a single MCP server, eliminating the need for multiple separate tools when working with AI coding assistants.
-  mental_damage: Finally, a way to make your AI assistant actually tap buttons in the iOS Simulator instead of just guessing at what your SwiftUI code does.
+  summary: >-
+    Unified MCP server for AI-assisted iOS development that enables building, deploying, and interacting with iOS
+    Simulator from MCP clients like Claude Code or Cursor.
+  why_it_matters: >-
+    It consolidates the full iOS dev loop (build, deploy, screenshot, UI interaction) into a single MCP server,
+    eliminating the need for multiple separate tools when working with AI coding assistants.
+  mental_damage: >-
+    Finally, a way to make your AI assistant actually tap buttons in the iOS Simulator instead of just guessing at what
+    your SwiftUI code does.
   tags:
     - mcp-server
     - ios-development
@@ -64,31 +76,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the product identity here—a server that exposes Xcode and iOS Simulator capabilities via the Model Context Protocol, not just an adapter or compatibility feature.
+  reason: >-
+    MCP is the product identity here—a server that exposes Xcode and iOS Simulator capabilities via the Model Context
+    Protocol, not just an adapter or compatibility feature.
   evidence:
     - Repo description explicitly states it is a 'Unified MCP server for AI-assisted iOS development'
     - README details 6 MCP tools for Xcode build, simulator interaction, and UI automation
     - Already listed in awesome-mcp-servers under 'Developer Tools'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.624Z"
+    updated_at: '2026-05-06T22:12:15.624Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:56.175Z"
+    updated_at: '2026-07-30T05:05:56.175Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:12:22.311Z"
+    updated_at: '2026-07-21T16:12:22.311Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -101,7 +116,9 @@ processing:
       input_hash: sha256:58faea1fb70501d8a116fb7791063f3ea4ed369727202bf640a0e9ea608d3e1f
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the product identity here—a server that exposes Xcode and iOS Simulator capabilities via the Model Context Protocol, not just an adapter or compatibility feature.
+      decision_reason: >-
+        MCP is the product identity here—a server that exposes Xcode and iOS Simulator capabilities via the Model
+        Context Protocol, not just an adapter or compatibility feature.
       decision_evidence:
         - Repo description explicitly states it is a 'Unified MCP server for AI-assisted iOS development'
         - README details 6 MCP tools for Xcode build, simulator interaction, and UI automation
@@ -109,6 +126,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific tools, not merely an extension layer for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific tools, not
+        merely an extension layer for another assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__google-gemini__gemini-cli__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,12 @@ provenance:
           - Open Source
         anchor_text: Gemini CLI
         extracted_url: https://github.com/google-gemini/gemini-cli
-        surrounding_text: "- **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** `⭐ 103k` `[Google]` — Google's terminal agent powered by Gemini, with tools for repo work and research. Apache-2.0."
+        surrounding_text: >-
+          - **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** `⭐ 103k` `[Google]` — Google's terminal agent
+          powered by Gemini, with tools for repo work and research. Apache-2.0.
         confidence: high
     - id: discovery__github__google-gemini__gemini-cli__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -35,10 +37,12 @@ provenance:
           - Coding Agents
         anchor_text: Gemini CLI
         extracted_url: https://github.com/google-gemini/gemini-cli
-        surrounding_text: "- **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** – Google's terminal coding agent powered by Gemini."
+        surrounding_text: >-
+          - **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** – Google's terminal coding agent powered by
+          Gemini.
         confidence: high
     - id: discovery__github__google-gemini__gemini-cli__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -60,8 +64,8 @@ metadata:
     archived: false
     full_name: google-gemini/gemini-cli
     html_url: https://github.com/google-gemini/gemini-cli
-    created_at: "2025-04-17T17:04:31Z"
-    pushed_at: "2026-09-03T01:15:16Z"
+    created_at: '2025-04-17T17:04:31Z'
+    pushed_at: '2026-09-03T01:15:16Z'
     description: An open-source AI agent that brings the power of Gemini directly into your terminal.
     homepage: https://geminicli.com
     topics:
@@ -72,13 +76,17 @@ metadata:
       - gemini-api
       - mcp-client
       - mcp-server
-    last_checked_at: "2026-09-03T05:16:52.218Z"
+    last_checked_at: '2026-09-03T05:16:52.218Z'
     readme:
-      fetched_at: "2026-09-03T05:16:52.218Z"
+      fetched_at: '2026-09-03T05:16:52.218Z'
       bytes: 13489
 insights:
-  summary: An open-source AI agent that brings Google's Gemini models directly into the terminal for coding, automation, and multimodal tasks.
-  why_it_matters: Developers can query, edit, and debug codebases, automate workflows, and leverage built-in tools like Google Search grounding and MCP integrations—all from the CLI.
+  summary: >-
+    An open-source AI agent that brings Google's Gemini models directly into the terminal for coding, automation, and
+    multimodal tasks.
+  why_it_matters: >-
+    Developers can query, edit, and debug codebases, automate workflows, and leverage built-in tools like Google Search
+    grounding and MCP integrations—all from the CLI.
   mental_damage: Another terminal agent to argue with your linter about tabs vs. spaces.
   tags:
     - cli
@@ -89,13 +97,20 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Gemini CLI is a primary coding assistant that developers delegate repo work to in the terminal, fitting the canonical positive for Coding Agents.
+  reason: >-
+    Gemini CLI is a primary coding assistant that developers delegate repo work to in the terminal, fitting the
+    canonical positive for Coding Agents.
   evidence:
-    - "Repo description: 'An open-source AI agent that brings the power of Gemini directly into your terminal.'"
-    - "README highlights: code understanding/generation, automation, GitHub integration, and MCP support as core features."
-    - "Source-list context: listed under 'Terminal-native coding agents' in awesome-cli-coding-agents and 'Coding Agents' in awesome-ai-coding-tools."
+    - 'Repo description: ''An open-source AI agent that brings the power of Gemini directly into your terminal.'''
+    - >-
+      README highlights: code understanding/generation, automation, GitHub integration, and MCP support as core
+      features.
+    - >-
+      Source-list context: listed under 'Terminal-native coding agents' in awesome-cli-coding-agents and 'Coding Agents'
+      in awesome-ai-coding-tools.
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -103,17 +118,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.577Z"
+    updated_at: '2026-05-06T22:12:15.577Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:52.218Z"
+    updated_at: '2026-09-03T05:16:52.218Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:03:37.159Z"
+    updated_at: '2026-07-21T16:03:37.159Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -126,14 +141,22 @@ processing:
       input_hash: sha256:a54971ffa4574dde3cfd3fadfcac1a471501d2ffe3ff672e96aa01586417a0f6
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Gemini CLI is a primary coding assistant that developers delegate repo work to in the terminal, fitting the canonical positive for Coding Agents.
+      decision_reason: >-
+        Gemini CLI is a primary coding assistant that developers delegate repo work to in the terminal, fitting the
+        canonical positive for Coding Agents.
       decision_evidence:
-        - "Repo description: 'An open-source AI agent that brings the power of Gemini directly into your terminal.'"
-        - "README highlights: code understanding/generation, automation, GitHub integration, and MCP support as core features."
-        - "Source-list context: listed under 'Terminal-native coding agents' in awesome-cli-coding-agents and 'Coding Agents' in awesome-ai-coding-tools."
+        - 'Repo description: ''An open-source AI agent that brings the power of Gemini directly into your terminal.'''
+        - >-
+          README highlights: code understanding/generation, automation, GitHub integration, and MCP support as core
+          features.
+        - >-
+          Source-list context: listed under 'Terminal-native coding agents' in awesome-cli-coding-agents and 'Coding
+          Agents' in awesome-ai-coding-tools.
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because the product is a standalone terminal agent, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because the product is a standalone terminal agent, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

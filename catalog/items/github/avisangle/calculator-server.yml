@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__avisangle__calculator-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🧮 <a name="data-science-tools"></a>Data Science Tools
         anchor_text: avisangle/calculator-server
         extracted_url: https://github.com/avisangle/calculator-server
-        surrounding_text: "- [avisangle/calculator-server](https://github.com/avisangle/calculator-server) 🏎️ 🏠 - A comprehensive Go-based MCP server for mathematical computations, implementing 13 mathematical tools across basic arithmetic, advanced functions, statistical analysis, unit conversions, and financial calculations."
+        surrounding_text: >-
+          - [avisangle/calculator-server](https://github.com/avisangle/calculator-server) 🏎️ 🏠 - A comprehensive
+          Go-based MCP server for mathematical computations, implementing 13 mathematical tools across basic arithmetic,
+          advanced functions, statistical analysis, unit conversions, and financial calculations.
         confidence: high
 metadata:
   github:
@@ -30,10 +33,10 @@ metadata:
     archived: false
     full_name: avisangle/calculator-server
     html_url: https://github.com/avisangle/calculator-server
-    created_at: "2025-09-09T09:14:54Z"
-    pushed_at: "2025-09-19T17:31:36Z"
+    created_at: '2025-09-09T09:14:54Z'
+    pushed_at: '2025-09-19T17:31:36Z'
     description: A comprehensive Go-based MCP server for mathematical computations with 13+ tools
-    homepage: ""
+    homepage: ''
     topics:
       - calculator
       - calculator-mcp
@@ -43,14 +46,20 @@ metadata:
       - mcp-server
       - mcp-servers
       - portfolio-project
-    last_checked_at: "2026-09-07T04:13:29.089Z"
+    last_checked_at: '2026-09-07T04:13:29.089Z'
     readme:
-      fetched_at: "2026-09-07T04:13:29.089Z"
+      fetched_at: '2026-09-07T04:13:29.089Z'
       bytes: 24169
 insights:
-  summary: A Go-based MCP server that provides 13 mathematical tools including scientific, statistical, and financial computation capabilities.
-  why_it_matters: It allows LLMs to perform high-precision arithmetic and complex unit conversions that they typically fail at when relying solely on text prediction.
-  mental_damage: Now your coding assistant can calculate your compound interest perfectly while still hallucinating the syntax for a basic loop.
+  summary: >-
+    A Go-based MCP server that provides 13 mathematical tools including scientific, statistical, and financial
+    computation capabilities.
+  why_it_matters: >-
+    It allows LLMs to perform high-precision arithmetic and complex unit conversions that they typically fail at when
+    relying solely on text prediction.
+  mental_damage: >-
+    Now your coding assistant can calculate your compound interest perfectly while still hallucinating the syntax for a
+    basic loop.
   tags:
     - mcp
     - go
@@ -60,31 +69,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's primary identity is a Model Context Protocol (MCP) server providing domain-specific mathematical capabilities.
+  reason: >-
+    The tool's primary identity is a Model Context Protocol (MCP) server providing domain-specific mathematical
+    capabilities.
   evidence:
     - Repo description explicitly identifies it as a 'Go-based MCP server'.
     - README outlines 13 specific mathematical tools ranging from basic arithmetic to financial modeling.
     - Uses specialized libraries like shopspring/decimal for high-precision math required for reliable agentic tool use.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.604Z"
+    updated_at: '2026-05-06T22:12:15.604Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:29.089Z"
+    updated_at: '2026-09-07T04:13:29.089Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:18:24.776Z"
+    updated_at: '2026-08-27T06:18:24.776Z'
     cause: null
     next_retry_at: null
     attempts: 4
@@ -97,14 +109,20 @@ processing:
       input_hash: sha256:3c4246a350dae7c88653596b1eaa321b7bb1c6e0ab44357ba221fdd240b469c6
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The tool's primary identity is a Model Context Protocol (MCP) server providing domain-specific mathematical capabilities.
+      decision_reason: >-
+        The tool's primary identity is a Model Context Protocol (MCP) server providing domain-specific mathematical
+        capabilities.
       decision_evidence:
         - Repo description explicitly identifies it as a 'Go-based MCP server'.
         - README outlines 13 specific mathematical tools ranging from basic arithmetic to financial modeling.
-        - Uses specialized libraries like shopspring/decimal for high-precision math required for reliable agentic tool use.
+        - >-
+          Uses specialized libraries like shopspring/decimal for high-precision math required for reliable agentic tool
+          use.
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the project is explicitly built as an MCP-compliant server, making the protocol its primary product identity.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the project is explicitly built as an MCP-compliant server, making the
+        protocol its primary product identity.
       review_reason: null
       review_resume_lifecycle: null

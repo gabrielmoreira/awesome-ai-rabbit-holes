@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aidc2026ai-melon__aidc-ai-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-23T05:08:37.088Z"
+      discovered_at: '2026-07-23T05:08:37.088Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 📐 <a name="architecture-and-design"></a>Architecture & Design
         anchor_text: aidc2026ai-melon/aidc-ai-mcp
         extracted_url: https://github.com/aidc2026ai-melon/aidc-ai-mcp
-        surrounding_text: "- [aidc2026ai-melon/aidc-ai-mcp](https://github.com/aidc2026ai-melon/aidc-ai-mcp) [![aidc2026ai-melon/aidc-ai-mcp MCP server](https://glama.ai/mcp/servers/aidc2026ai-melon/aidc-ai-mcp/badges/score.svg)](https://glama.ai/mcp/servers/aidc2026ai-melon/aidc-ai-mcp) 🎖️ 📇 ☁️ - Deterministic AI data-center design engine exposed as MCP tools (design, validate, layout): rack count, design PUE, total MVA, liquid/air cooling split, CDU planning, cost & timeline. NVIDIA Rubin-era, 22.9 kV intake, Korea. Remote Streamable HTTP at https://aidc-ai.io/api/mcp; no key for the anonymous tier."
+        surrounding_text: >-
+          - [aidc2026ai-melon/aidc-ai-mcp](https://github.com/aidc2026ai-melon/aidc-ai-mcp)
+          [![aidc2026ai-melon/aidc-ai-mcp MCP
+          server](https://glama.ai/mcp/servers/aidc2026ai-melon/aidc-ai-mcp/badges/score.svg)](https://glama.ai/mcp/servers/aidc2026ai-melon/aidc-ai-mcp)
+          🎖️ 📇 ☁️ - Deterministic AI data-center design engine exposed as MCP tools (design, validate, layout): rack
+          count, design PUE, total MVA, liquid/air cooling split, CDU planning, cost & timeline. NVIDIA Rubin-era, 22.9
+          kV intake, Korea. Remote Streamable HTTP at https://aidc-ai.io/api/mcp; no key for the anonymous tier.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: aidc2026ai-melon/aidc-ai-mcp
     html_url: https://github.com/aidc2026ai-melon/aidc-ai-mcp
-    created_at: "2026-06-25T07:40:28Z"
-    pushed_at: "2026-07-20T06:36:37Z"
-    description: "AI data center automation tool — MCP connector (design · validate · layout). Remote MCP: aidc-ai.io/api/mcp · registry io.aidc-ai/design-engine. Engine private."
+    created_at: '2026-06-25T07:40:28Z'
+    pushed_at: '2026-07-20T06:36:37Z'
+    description: >-
+      AI data center automation tool — MCP connector (design · validate · layout). Remote MCP: aidc-ai.io/api/mcp ·
+      registry io.aidc-ai/design-engine. Engine private.
     homepage: https://aidc-ai.io
     topics:
       - ai-datacenter
@@ -45,14 +53,20 @@ metadata:
       - model-context-protocol
       - nvidia-rubin
       - pue
-    last_checked_at: "2026-09-17T04:13:35.697Z"
+    last_checked_at: '2026-09-17T04:13:35.697Z'
     readme:
-      fetched_at: "2026-09-17T04:13:35.697Z"
+      fetched_at: '2026-09-17T04:13:35.697Z'
       bytes: 7350
 insights:
-  summary: An MCP server that provides AI data center sizing, validation, and layout capabilities through a remote design engine.
-  why_it_matters: It allows developers and infrastructure engineers to use AI assistants to perform specialized, deterministic planning for high-density, liquid-cooled AI data centers.
-  mental_damage: Because architecting a multi-megawatt liquid-cooled data center is now just another slash command away from your chat window.
+  summary: >-
+    An MCP server that provides AI data center sizing, validation, and layout capabilities through a remote design
+    engine.
+  why_it_matters: >-
+    It allows developers and infrastructure engineers to use AI assistants to perform specialized, deterministic
+    planning for high-density, liquid-cooled AI data centers.
+  mental_damage: >-
+    Because architecting a multi-megawatt liquid-cooled data center is now just another slash command away from your
+    chat window.
   tags:
     - mcp
     - infrastructure
@@ -62,31 +76,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server implementation that exposes a specialized domain-specific design engine to AI assistants.
+  reason: >-
+    The project's primary identity is an MCP server implementation that exposes a specialized domain-specific design
+    engine to AI assistants.
   evidence:
     - Repo is explicitly described as an 'MCP connector' for the AIDC-AI.IO Design Engine.
-    - "Provides specific MCP tools: design, validate, and layout."
+    - 'Provides specific MCP tools: design, validate, and layout.'
     - Listed in awesome-mcp-servers under Architecture & Design.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-23T05:08:37.090Z"
+    updated_at: '2026-07-23T05:08:37.090Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:35.698Z"
+    updated_at: '2026-09-17T04:13:35.698Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:23:17.359Z"
+    updated_at: '2026-08-27T06:23:17.359Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -95,15 +112,19 @@ processing:
       input_hash: sha256:55bf0cd4fa44b6ee913bb763357a0d6be9a2c9b06a83d773fe03050a28628561
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's primary identity is an MCP server implementation that exposes a specialized domain-specific design engine to AI assistants.
+      decision_reason: >-
+        The project's primary identity is an MCP server implementation that exposes a specialized domain-specific design
+        engine to AI assistants.
       decision_evidence:
         - Repo is explicitly described as an 'MCP connector' for the AIDC-AI.IO Design Engine.
-        - "Provides specific MCP tools: design, validate, and layout."
+        - 'Provides specific MCP tools: design, validate, and layout.'
         - Listed in awesome-mcp-servers under Architecture & Design.
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is a dedicated MCP server implementation rather than a general-purpose editor extension.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is a dedicated MCP server implementation rather than a
+        general-purpose editor extension.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

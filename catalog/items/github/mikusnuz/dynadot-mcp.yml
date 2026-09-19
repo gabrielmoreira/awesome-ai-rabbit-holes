@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mikusnuz__dynadot-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: mikusnuz/dynadot-mcp
         extracted_url: https://github.com/mikusnuz/dynadot-mcp
-        surrounding_text: "- [mikusnuz/dynadot-mcp](https://github.com/mikusnuz/dynadot-mcp) [![mikusnuz/dynadot-mcp MCP server](https://glama.ai/mcp/servers/mikusnuz/dynadot-mcp/badges/score.svg)](https://glama.ai/mcp/servers/mikusnuz/dynadot-mcp) 📇 ☁️ - MCP server for the Dynadot domain registrar API — 60 tools for domain search, registration, DNS, contacts, transfers, and marketplace."
+        surrounding_text: >-
+          - [mikusnuz/dynadot-mcp](https://github.com/mikusnuz/dynadot-mcp) [![mikusnuz/dynadot-mcp MCP
+          server](https://glama.ai/mcp/servers/mikusnuz/dynadot-mcp/badges/score.svg)](https://glama.ai/mcp/servers/mikusnuz/dynadot-mcp)
+          📇 ☁️ - MCP server for the Dynadot domain registrar API — 60 tools for domain search, registration, DNS,
+          contacts, transfers, and marketplace.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: mikusnuz/dynadot-mcp
     html_url: https://github.com/mikusnuz/dynadot-mcp
-    created_at: "2026-02-16T21:51:34Z"
-    pushed_at: "2026-03-19T19:48:50Z"
+    created_at: '2026-02-16T21:51:34Z'
+    pushed_at: '2026-03-19T19:48:50Z'
     description: MCP server for Dynadot domain registrar API3 — 60 tools for domains, DNS, contacts, transfers & more
     homepage: null
     topics:
@@ -44,12 +48,14 @@ metadata:
       - mcp-server
       - model-context-protocol
       - whois
-    last_checked_at: "2026-08-03T05:17:03.222Z"
+    last_checked_at: '2026-08-03T05:17:03.222Z'
     readme:
-      fetched_at: "2026-08-03T05:17:03.222Z"
+      fetched_at: '2026-08-03T05:17:03.222Z'
       bytes: 7446
 insights:
-  summary: dynadot-mcp is an MCP server exposing 60 tools for managing domains, DNS, contacts, and transfers via the Dynadot API.
+  summary: >-
+    dynadot-mcp is an MCP server exposing 60 tools for managing domains, DNS, contacts, and transfers via the Dynadot
+    API.
   why_it_matters: It lets developers control domain registrar functions through AI assistants without leaving their coding workflow.
   mental_damage: Another niche MCP server that makes you wonder if your AI needs a WHOIS privacy toggle more than you do.
   tags:
@@ -60,31 +66,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP-first server providing domain registrar tooling, making MCP its core identity rather than a compatibility layer.
+  reason: >-
+    The product is an MCP-first server providing domain registrar tooling, making MCP its core identity rather than a
+    compatibility layer.
   evidence:
-    - "Repo description: 'MCP server for Dynadot domain registrar API3 — 60 tools for domains, DNS, contacts, transfers & more'"
-    - "README: Explicitly positions itself as an MCP server for AI assistant integration with Dynadot API"
-    - "Source-list context: Listed in awesome-mcp-servers under Cloud Platforms"
+    - >-
+      Repo description: 'MCP server for Dynadot domain registrar API3 — 60 tools for domains, DNS, contacts, transfers &
+      more'
+    - 'README: Explicitly positions itself as an MCP server for AI assistant integration with Dynadot API'
+    - 'Source-list context: Listed in awesome-mcp-servers under Cloud Platforms'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.630Z"
+    updated_at: '2026-05-06T22:12:15.630Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:03.222Z"
+    updated_at: '2026-08-03T05:17:03.222Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:21:03.094Z"
+    updated_at: '2026-07-21T16:21:03.094Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -97,14 +108,20 @@ processing:
       input_hash: sha256:3c65091a35b870ca647da114e96e50d1e8705912a77ccc6002f2e5ba471aa940
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP-first server providing domain registrar tooling, making MCP its core identity rather than a compatibility layer.
+      decision_reason: >-
+        The product is an MCP-first server providing domain registrar tooling, making MCP its core identity rather than
+        a compatibility layer.
       decision_evidence:
-        - "Repo description: 'MCP server for Dynadot domain registrar API3 — 60 tools for domains, DNS, contacts, transfers & more'"
-        - "README: Explicitly positions itself as an MCP server for AI assistant integration with Dynadot API"
-        - "Source-list context: Listed in awesome-mcp-servers under Cloud Platforms"
+        - >-
+          Repo description: 'MCP server for Dynadot domain registrar API3 — 60 tools for domains, DNS, contacts,
+          transfers & more'
+        - 'README: Explicitly positions itself as an MCP server for AI assistant integration with Dynadot API'
+        - 'Source-list context: Listed in awesome-mcp-servers under Cloud Platforms'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary value is providing MCP infrastructure for domain management, not augmenting another coding assistant with host integrations.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary value is providing MCP infrastructure for domain
+        management, not augmenting another coding assistant with host integrations.
       review_reason: null
       review_resume_lifecycle: null

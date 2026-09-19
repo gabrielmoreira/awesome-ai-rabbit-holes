@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__create__xyz__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - App Builders
         anchor_text: Create.xyz
         extracted_url: https://create.xyz
-        surrounding_text: "- **[Create.xyz](https://create.xyz/)** – AI-powered app creation from natural language."
+        surrounding_text: '- **[Create.xyz](https://create.xyz/)** – AI-powered app creation from natural language.'
         confidence: high
 metadata:
   github:
@@ -38,7 +38,9 @@ metadata:
 insights:
   summary: An AI-powered platform that generates applications, websites, and tools from natural language descriptions.
   why_it_matters: It enables rapid prototyping and the creation of functional digital products through prompt-based generation.
-  mental_damage: The barrier to starting a new project has been reduced so low that your backlog of abandoned ideas is about to become unmanageable.
+  mental_damage: >-
+    The barrier to starting a new project has been reduced so low that your backlog of abandoned ideas is about to
+    become unmanageable.
   tags:
     - app-builders
     - prompt-to-app
@@ -46,21 +48,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a prompt-to-app surface focused on generating new products rather than assisting in the manual editing of existing codebases.
+  reason: >-
+    The product is a prompt-to-app surface focused on generating new products rather than assisting in the manual
+    editing of existing codebases.
   evidence:
     - Scraped site context identifies the tool as an 'AI app builder' that turns words into apps and sites.
     - Existing inclusion in 'awesome-ai-coding-tools' under the App Builders section.
     - The product focus is on creating new tools and products from descriptions.
 placement:
   primary_category: app-builders
-  section: Prompt-to-App Builders
+  secondary_categories: []
+  section: Full App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.964Z"
+    updated_at: '2026-07-21T15:20:21.964Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +74,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:17:36.931Z"
+    updated_at: '2026-08-27T06:17:36.931Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -80,7 +85,9 @@ processing:
       input_hash: sha256:7e19348ec2d73583437c1404bed71a01d6a2d68338bdc52057c5b770b4fbe5e8
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The product is a prompt-to-app surface focused on generating new products rather than assisting in the manual editing of existing codebases.
+      decision_reason: >-
+        The product is a prompt-to-app surface focused on generating new products rather than assisting in the manual
+        editing of existing codebases.
       decision_evidence:
         - Scraped site context identifies the tool as an 'AI app builder' that turns words into apps and sites.
         - Existing inclusion in 'awesome-ai-coding-tools' under the App Builders section.
@@ -88,7 +95,9 @@ processing:
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: Choose app-builders over coding-agents because the primary user experience centers on generating new applications from prompts rather than helping a developer edit an existing repository.
+      contrastive_reason: >-
+        Choose app-builders over coding-agents because the primary user experience centers on generating new
+        applications from prompts rather than helping a developer edit an existing repository.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

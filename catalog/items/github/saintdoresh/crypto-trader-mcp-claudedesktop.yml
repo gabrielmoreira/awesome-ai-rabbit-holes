@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__saintdoresh__crypto-trader-mcp-claudedesktop__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: SaintDoresh/Crypto-Trader-MCP-ClaudeDesktop
         extracted_url: https://github.com/saintdoresh/crypto-trader-mcp-claudedesktop
-        surrounding_text: "- [SaintDoresh/Crypto-Trader-MCP-ClaudeDesktop](https://github.com/SaintDoresh/Crypto-Trader-MCP-ClaudeDesktop.git) 🐍 ☁️ - An MCP tool that provides cryptocurrency market data using the CoinGecko API."
+        surrounding_text: >-
+          -
+          [SaintDoresh/Crypto-Trader-MCP-ClaudeDesktop](https://github.com/SaintDoresh/Crypto-Trader-MCP-ClaudeDesktop.git)
+          🐍 ☁️ - An MCP tool that provides cryptocurrency market data using the CoinGecko API.
         confidence: high
 metadata:
   github:
@@ -30,19 +33,27 @@ metadata:
     archived: false
     full_name: SaintDoresh/Crypto-Trader-MCP-ClaudeDesktop
     html_url: https://github.com/SaintDoresh/Crypto-Trader-MCP-ClaudeDesktop
-    created_at: "2025-03-15T19:45:44Z"
-    pushed_at: "2025-03-16T00:12:06Z"
-    description: An MCP (Model Context Protocol) tool that provides cryptocurrency market data using the CoinGecko API, specifically designed for Claude Desktop.
+    created_at: '2025-03-15T19:45:44Z'
+    pushed_at: '2025-03-16T00:12:06Z'
+    description: >-
+      An MCP (Model Context Protocol) tool that provides cryptocurrency market data using the CoinGecko API,
+      specifically designed for Claude Desktop.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:50.127Z"
+    last_checked_at: '2026-07-20T16:42:50.127Z'
     readme:
-      fetched_at: "2026-07-20T16:42:50.127Z"
+      fetched_at: '2026-07-20T16:42:50.127Z'
       bytes: 4859
 insights:
-  summary: A Python-based MCP server that wraps the CoinGecko API to provide real-time cryptocurrency market data directly to Claude Desktop.
-  why_it_matters: It allows developers to query live crypto prices, market caps, and historical charts through Claude Desktop without leaving the chat interface or manually checking external dashboards.
-  mental_damage: We have successfully abstracted away the two seconds it takes to open a browser tab, replacing it with a Python server configuration file and a JSON schema just to ask an LLM what Bitcoin is worth.
+  summary: >-
+    A Python-based MCP server that wraps the CoinGecko API to provide real-time cryptocurrency market data directly to
+    Claude Desktop.
+  why_it_matters: >-
+    It allows developers to query live crypto prices, market caps, and historical charts through Claude Desktop without
+    leaving the chat interface or manually checking external dashboards.
+  mental_damage: >-
+    We have successfully abstracted away the two seconds it takes to open a browser tab, replacing it with a Python
+    server configuration file and a JSON schema just to ask an LLM what Bitcoin is worth.
   tags:
     - mcp
     - crypto
@@ -51,35 +62,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's identity is specifically an MCP server implementation designed to give Claude Desktop access to financial data via the CoinGecko API.
+  reason: >-
+    The project's identity is specifically an MCP server implementation designed to give Claude Desktop access to
+    financial data via the CoinGecko API.
   evidence:
-    - "Repo description explicitly states: 'An MCP (Model Context Protocol) tool that provides cryptocurrency market data... specifically designed for Claude Desktop.'"
+    - >-
+      Repo description explicitly states: 'An MCP (Model Context Protocol) tool that provides cryptocurrency market
+      data... specifically designed for Claude Desktop.'
     - README details 'Integration with Claude Desktop' via MCP configuration settings.
     - Listed in 'awesome-mcp-servers' under the 'Finance & Fintech' section.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.646Z"
+    updated_at: '2026-05-06T22:12:15.646Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:50.127Z"
+    updated_at: '2026-07-20T16:42:50.127Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

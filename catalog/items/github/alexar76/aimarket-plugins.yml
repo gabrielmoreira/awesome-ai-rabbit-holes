@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alexar76__aimarket-plugins__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: alexar76/aimarket-plugins
         extracted_url: https://github.com/alexar76/aimarket-plugins
-        surrounding_text: "- [alexar76/aimarket-plugins](https://github.com/alexar76/aimarket-plugins) [![alexar76/aimarket-plugins MCP server](https://glama.ai/mcp/servers/alexar76/aimarket-plugins/badges/score.svg)](https://glama.ai/mcp/servers/alexar76/aimarket-plugins) 📇 ☁️ 🏠 🍎 🪟 🐧 - **aimarket-mcp-packager** hub plugin: turn AIMarket capabilities into self-hosted MCP servers (Docker image + `mcp_manifest` + Claude Desktop `mcpServers` config). Part of 15-plugin AIMarket Hub ([modelmarket.dev](https://modelmarket.dev)); protocol discovery at `/.well-known/ai-market.json`. Install: `pip install aimarket-mcp-packager`."
+        surrounding_text: >-
+          - [alexar76/aimarket-plugins](https://github.com/alexar76/aimarket-plugins) [![alexar76/aimarket-plugins MCP
+          server](https://glama.ai/mcp/servers/alexar76/aimarket-plugins/badges/score.svg)](https://glama.ai/mcp/servers/alexar76/aimarket-plugins)
+          📇 ☁️ 🏠 🍎 🪟 🐧 - **aimarket-mcp-packager** hub plugin: turn AIMarket capabilities into self-hosted MCP
+          servers (Docker image + `mcp_manifest` + Claude Desktop `mcpServers` config). Part of 15-plugin AIMarket Hub
+          ([modelmarket.dev](https://modelmarket.dev)); protocol discovery at `/.well-known/ai-market.json`. Install:
+          `pip install aimarket-mcp-packager`.
         confidence: high
 metadata:
   github:
@@ -30,8 +36,8 @@ metadata:
     archived: false
     full_name: alexar76/aimarket-plugins
     html_url: https://github.com/alexar76/aimarket-plugins
-    created_at: "2026-05-22T17:43:11Z"
-    pushed_at: "2026-09-12T10:40:22Z"
+    created_at: '2026-05-22T17:43:11Z'
+    pushed_at: '2026-09-12T10:40:22Z'
     description: 15 AIMarket hub plugins — TEE escrow, channels, reputation, safety, and more.
     homepage: https://alexar76.github.io/aicom/
     topics:
@@ -44,14 +50,20 @@ metadata:
       - reputation
       - safety
       - tee
-    last_checked_at: "2026-09-17T04:13:39.325Z"
+    last_checked_at: '2026-09-17T04:13:39.325Z'
     readme:
-      fetched_at: "2026-09-17T04:13:39.325Z"
+      fetched_at: '2026-09-17T04:13:39.325Z'
       bytes: 7627
 insights:
-  summary: A collection of 15 plugins for the AIMarket hub, including TEE-based escrow, reputation systems, and an MCP packager.
-  why_it_matters: It provides a framework for monetizeable AI capabilities with verifiable execution and the ability to package them as MCP servers for use in editors like Cursor or Claude Desktop.
-  mental_damage: We've finally reached the stage where we need Trusted Execution Environments just to make sure the agent we're paying actually did the work.
+  summary: >-
+    A collection of 15 plugins for the AIMarket hub, including TEE-based escrow, reputation systems, and an MCP
+    packager.
+  why_it_matters: >-
+    It provides a framework for monetizeable AI capabilities with verifiable execution and the ability to package them
+    as MCP servers for use in editors like Cursor or Claude Desktop.
+  mental_damage: >-
+    We've finally reached the stage where we need Trusted Execution Environments just to make sure the agent we're
+    paying actually did the work.
   tags:
     - mcp
     - tee
@@ -60,32 +72,31 @@ insights:
     - python
   confidence: medium
 curation:
-  status: included
-  reason: While it is a plugin suite, the core developer value provided is the MCP packager that turns capabilities into self-hosted MCP products.
+  status: pending
+  reason: 'Manual audit: Plugins for a specific marketplace hub; not standalone tooling.'
   evidence:
-    - Includes 'aimarket-mcp-packager' which turns capabilities into Docker images and MCP manifests
-    - Provides ready 'claude_desktop_config.json' for stdio MCP clients
-    - Listed in awesome-mcp-servers
+    - Manual review of Jev Middleware & Generic audit, 2026-09-19
 placement:
-  primary_category: mcp
-  section: Generic Servers & Middleware
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-15T05:51:04.988Z"
+    updated_at: '2026-06-15T05:51:04.988Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:39.325Z"
+    updated_at: '2026-09-17T04:13:39.325Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-15T05:53:01.704Z"
+    updated_at: '2026-06-15T05:53:01.704Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

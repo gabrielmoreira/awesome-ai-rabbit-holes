@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__zcaceres__fetch-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: zcaceres/fetch-mcp
         extracted_url: https://github.com/zcaceres/fetch-mcp
-        surrounding_text: "- [zcaceres/fetch-mcp](https://github.com/zcaceres/fetch-mcp) 📇 🏠 - An MCP server to flexibly fetch JSON, text, and HTML data"
+        surrounding_text: >-
+          - [zcaceres/fetch-mcp](https://github.com/zcaceres/fetch-mcp) 📇 🏠 - An MCP server to flexibly fetch JSON,
+          text, and HTML data
         confidence: high
     - id: discovery__github__zcaceres__fetch-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,10 +37,13 @@ provenance:
           - 🛠️ Utilities
         anchor_text: zcaceres/fetch-mcp
         extracted_url: https://github.com/zcaceres/fetch-mcp
-        surrounding_text: "-   **[zcaceres/fetch-mcp](https://github.com/zcaceres/fetch-mcp)** [![GitHub stars](https://img.shields.io/github/stars/zcaceres/fetch-mcp?style=social)](https://github.com/zcaceres/fetch-mcp): Fetches JSON, text, and HTML data flexibly from URLs."
+        surrounding_text: >-
+          -   **[zcaceres/fetch-mcp](https://github.com/zcaceres/fetch-mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/zcaceres/fetch-mcp?style=social)](https://github.com/zcaceres/fetch-mcp):
+          Fetches JSON, text, and HTML data flexibly from URLs.
         confidence: high
     - id: discovery__github__zcaceres__fetch-mcp__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -52,7 +57,9 @@ provenance:
           - Development & Tools
         anchor_text: fetch-mcp
         extracted_url: https://github.com/zcaceres/fetch-mcp
-        surrounding_text: "| [fetch-mcp](https://github.com/zcaceres/fetch-mcp) | HTTP fetching | ![Stars](https://img.shields.io/github/stars/zcaceres/fetch-mcp) |"
+        surrounding_text: >-
+          | [fetch-mcp](https://github.com/zcaceres/fetch-mcp) | HTTP fetching |
+          ![Stars](https://img.shields.io/github/stars/zcaceres/fetch-mcp) |
         confidence: high
 metadata:
   github:
@@ -62,18 +69,22 @@ metadata:
     archived: false
     full_name: zcaceres/fetch-mcp
     html_url: https://github.com/zcaceres/fetch-mcp
-    created_at: "2024-12-18T01:05:17Z"
-    pushed_at: "2026-03-12T17:17:24Z"
+    created_at: '2024-12-18T01:05:17Z'
+    pushed_at: '2026-03-12T17:17:24Z'
     description: A flexible HTTP fetching Model Context Protocol server.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:21:25.590Z"
+    last_checked_at: '2026-07-21T15:21:25.590Z'
     readme:
-      fetched_at: "2026-07-21T15:21:25.590Z"
+      fetched_at: '2026-07-21T15:21:25.590Z'
       bytes: 4576
 insights:
-  summary: An MCP server that fetches web content in multiple formats including HTML, JSON, Markdown, readable text, and YouTube transcripts.
-  why_it_matters: Provides a standardized way for MCP-compatible agents to access and process external web content without custom HTTP handling.
+  summary: >-
+    An MCP server that fetches web content in multiple formats including HTML, JSON, Markdown, readable text, and
+    YouTube transcripts.
+  why_it_matters: >-
+    Provides a standardized way for MCP-compatible agents to access and process external web content without custom HTTP
+    handling.
   mental_damage: Another wrapper around curl that turns every agent into a glorified web scraper with extra steps.
   tags:
     - mcp
@@ -82,31 +93,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: fetch-mcp is an MCP server whose core identity is providing HTTP fetching capabilities via the Model Context Protocol, making it MCP infrastructure rather than an extension or agent.
+  reason: >-
+    fetch-mcp is an MCP server whose core identity is providing HTTP fetching capabilities via the Model Context
+    Protocol, making it MCP infrastructure rather than an extension or agent.
   evidence:
-    - "Repo description: 'A flexible HTTP fetching Model Context Protocol server'"
-    - "README: Explicitly positions itself as an MCP server for fetching web content in multiple formats"
-    - "Source-list context: Listed in awesome-mcp-servers under Developer Tools and in awesome-agent-orchestration under MCP Development & Tools"
+    - 'Repo description: ''A flexible HTTP fetching Model Context Protocol server'''
+    - 'README: Explicitly positions itself as an MCP server for fetching web content in multiple formats'
+    - >-
+      Source-list context: Listed in awesome-mcp-servers under Developer Tools and in awesome-agent-orchestration under
+      MCP Development & Tools
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: promotion_candidate
   reason: Stars (754) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.580Z"
+    updated_at: '2026-05-06T22:12:15.580Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:25.590Z"
+    updated_at: '2026-07-21T15:21:25.590Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:50:34.619Z"
+    updated_at: '2026-05-12T15:50:34.619Z'
     cause: null
     next_retry_at: null
     attempts: 1

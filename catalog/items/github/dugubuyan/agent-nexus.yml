@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dugubuyan__agent-nexus__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-08T05:39:05.247Z"
+      discovered_at: '2026-06-08T05:39:05.247Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: dugubuyan/agent-nexus
         extracted_url: https://github.com/dugubuyan/agent-nexus
-        surrounding_text: "- [dugubuyan/agent-nexus](https://github.com/dugubuyan/agent-nexus) [![AgentNexus MCP server](https://glama.ai/mcp/servers/dugubuyan/agent-nexus/badges/score.svg)](https://glama.ai/mcp/servers/dugubuyan/agent-nexus) 🐍 🏠 ☁️ — Service-boundary-aware document exchange center for coordinating heterogeneous LLM code agents. Versioned Markdown store, pub-sub notifications, diff-aware updates, and lifecycle stage tracking. Each service registers as a sub-project; agents subscribe to cross-service document changes and receive structured diffs via MCP."
+        surrounding_text: >-
+          - [dugubuyan/agent-nexus](https://github.com/dugubuyan/agent-nexus) [![AgentNexus MCP
+          server](https://glama.ai/mcp/servers/dugubuyan/agent-nexus/badges/score.svg)](https://glama.ai/mcp/servers/dugubuyan/agent-nexus)
+          🐍 🏠 ☁️ — Service-boundary-aware document exchange center for coordinating heterogeneous LLM code agents.
+          Versioned Markdown store, pub-sub notifications, diff-aware updates, and lifecycle stage tracking. Each
+          service registers as a sub-project; agents subscribe to cross-service document changes and receive structured
+          diffs via MCP.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: dugubuyan/agent-nexus
     html_url: https://github.com/dugubuyan/agent-nexus
-    created_at: "2026-04-15T07:57:52Z"
-    pushed_at: "2026-07-30T05:08:37Z"
-    description: A service-boundary-aware document exchange center for coordinating heterogeneous LLM code agents via MCP. Implements versioned Markdown store, pub-sub notifications, and diff-aware update protocol.
+    created_at: '2026-04-15T07:57:52Z'
+    pushed_at: '2026-07-30T05:08:37Z'
+    description: >-
+      A service-boundary-aware document exchange center for coordinating heterogeneous LLM code agents via MCP.
+      Implements versioned Markdown store, pub-sub notifications, and diff-aware update protocol.
     homepage: https://doi.org/10.5281/zenodo.20603176
     topics:
       - agents
@@ -45,14 +53,20 @@ metadata:
       - multi-agent
       - publish-subscribe
       - software-engineering
-    last_checked_at: "2026-09-14T04:13:45.086Z"
+    last_checked_at: '2026-09-14T04:13:45.086Z'
     readme:
-      fetched_at: "2026-09-14T04:13:45.086Z"
+      fetched_at: '2026-09-14T04:13:45.086Z'
       bytes: 11533
 insights:
-  summary: A service-boundary-aware coordination architecture that uses a versioned document exchange and pub-sub notifications to synchronize heterogeneous LLM coding agents.
-  why_it_matters: It replaces role-based agent organization with service-based boundaries, allowing different agents to stay in sync via diff-aware updates to shared specs and API documents.
-  mental_damage: Finally, a tool that acknowledges the only thing harder than writing code is trying to make five different agents agree on what the API spec actually is.
+  summary: >-
+    A service-boundary-aware coordination architecture that uses a versioned document exchange and pub-sub notifications
+    to synchronize heterogeneous LLM coding agents.
+  why_it_matters: >-
+    It replaces role-based agent organization with service-based boundaries, allowing different agents to stay in sync
+    via diff-aware updates to shared specs and API documents.
+  mental_damage: >-
+    Finally, a tool that acknowledges the only thing harder than writing code is trying to make five different agents
+    agree on what the API spec actually is.
   tags:
     - mcp
     - multi-agent
@@ -62,31 +76,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is primarily a runtime platform/control plane for coordinating multiple agents via a shared document exchange and MCP server, rather than being a single coding assistant.
+  reason: >-
+    The product is primarily a runtime platform/control plane for coordinating multiple agents via a shared document
+    exchange and MCP server, rather than being a single coding assistant.
   evidence:
     - README describes it as a 'coordination architecture' that coordinates agents at the 'service granularity'
     - Provides an MCP server that allows multiple agents to connect and subscribe to document updates
     - Focuses on the coordination of 'heterogeneous LLM code agents' rather than executing the code itself
 placement:
   primary_category: agent-orchestration
-  section: Multi-Agent Runtime Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-08T05:39:05.248Z"
+    updated_at: '2026-06-08T05:39:05.248Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:45.086Z"
+    updated_at: '2026-09-14T04:13:45.086Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-08T05:42:28.820Z"
+    updated_at: '2026-06-08T05:42:28.820Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__callstack__agent-device__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-08T05:39:05.247Z"
+      discovered_at: '2026-06-08T05:39:05.247Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: callstackincubator/agent-device
         extracted_url: https://github.com/callstackincubator/agent-device
-        surrounding_text: "- [callstackincubator/agent-device](https://github.com/callstackincubator/agent-device) [![callstackincubator/agent-device MCP server](https://glama.ai/mcp/servers/callstackincubator/agent-device/badges/score.svg)](https://glama.ai/mcp/servers/callstackincubator/agent-device) 📇 🏠 🍎 🐧 - Discovery router for the agent-device CLI. Exposes status, install guidance, version-matched help, prompts, and resources for iOS, Android, tvOS, macOS, and Linux automation workflows."
+        surrounding_text: >-
+          - [callstackincubator/agent-device](https://github.com/callstackincubator/agent-device)
+          [![callstackincubator/agent-device MCP
+          server](https://glama.ai/mcp/servers/callstackincubator/agent-device/badges/score.svg)](https://glama.ai/mcp/servers/callstackincubator/agent-device)
+          📇 🏠 🍎 🐧 - Discovery router for the agent-device CLI. Exposes status, install guidance, version-matched
+          help, prompts, and resources for iOS, Android, tvOS, macOS, and Linux automation workflows.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: callstack/agent-device
     html_url: https://github.com/callstack/agent-device
-    created_at: "2026-01-30T18:41:54Z"
-    pushed_at: "2026-09-06T21:33:15Z"
-    description: Mobile app automation and verification for AI coding agents. CLI, MCP server, and typed Node.js API for iOS, Android, HarmonyOS, TV, web, macOS, and Linux.
+    created_at: '2026-01-30T18:41:54Z'
+    pushed_at: '2026-09-06T21:33:15Z'
+    description: >-
+      Mobile app automation and verification for AI coding agents. CLI, MCP server, and typed Node.js API for iOS,
+      Android, HarmonyOS, TV, web, macOS, and Linux.
     homepage: https://agent-device.dev
     topics:
       - adb
@@ -52,14 +59,20 @@ metadata:
       - react-native
       - testing
       - xcuitest
-    last_checked_at: "2026-09-07T04:13:40.658Z"
+    last_checked_at: '2026-09-07T04:13:40.658Z'
     readme:
-      fetched_at: "2026-09-07T04:13:40.658Z"
+      fetched_at: '2026-09-07T04:13:40.658Z'
       bytes: 13548
 insights:
-  summary: A CLI that allows AI agents to inspect and interact with mobile and desktop applications through snapshots, accessibility trees, and command execution.
-  why_it_matters: It closes the loop for coding agents by giving them a way to verify their changes on real devices or emulators rather than just guessing based on the codebase.
-  mental_damage: Now your AI agent can hallucinate a UI interaction and then provide you with a screenshot of the exact moment it failed to find the button.
+  summary: >-
+    A CLI that allows AI agents to inspect and interact with mobile and desktop applications through snapshots,
+    accessibility trees, and command execution.
+  why_it_matters: >-
+    It closes the loop for coding agents by giving them a way to verify their changes on real devices or emulators
+    rather than just guessing based on the codebase.
+  mental_damage: >-
+    Now your AI agent can hallucinate a UI interaction and then provide you with a screenshot of the exact moment it
+    failed to find the button.
   tags:
     - mobile-automation
     - computer-use
@@ -69,31 +82,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool is designed as a capability layer that augments other assistants (like Cursor or Claude Code) with device access, rather than being a standalone coding assistant.
+  reason: >-
+    The tool is designed as a capability layer that augments other assistants (like Cursor or Claude Code) with device
+    access, rather than being a standalone coding assistant.
   evidence:
-    - "README states 'Set up your agent: run the CLI from Cursor, Codex, Claude Code, Windsurf, or another agent terminal.'"
+    - >-
+      README states 'Set up your agent: run the CLI from Cursor, Codex, Claude Code, Windsurf, or another agent
+      terminal.'
     - Core value is providing 'live app verification' as a layer in the agentic development loop.
     - Includes MCP support as a way to integrate with existing agent shells.
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Browser & Computer-Use Agents
 lifecycle:
   status: promotion_candidate
   reason: Stars (2589) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-06-08T05:39:05.248Z"
+    updated_at: '2026-06-08T05:39:05.248Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:40.658Z"
+    updated_at: '2026-09-07T04:13:40.658Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-08T05:41:52.808Z"
+    updated_at: '2026-06-08T05:41:52.808Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

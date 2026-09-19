@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__preflight-dev__preflight__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,14 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: preflight-dev/preflight
         extracted_url: https://github.com/preflight-dev/preflight
-        surrounding_text: "- [preflight-dev/preflight](https://github.com/preflight-dev/preflight) 📇 🏠 🍎 🪟 🐧 - 24-tool MCP server for Claude Code that catches vague prompts before they waste tokens. Includes 12-category prompt scorecards, session history search with LanceDB vectors, cross-service contract awareness, correction pattern learning, and cost estimation."
+        surrounding_text: >-
+          - [preflight-dev/preflight](https://github.com/preflight-dev/preflight) 📇 🏠 🍎 🪟 🐧 - 24-tool MCP server
+          for Claude Code that catches vague prompts before they waste tokens. Includes 12-category prompt scorecards,
+          session history search with LanceDB vectors, cross-service contract awareness, correction pattern learning,
+          and cost estimation.
         confidence: high
     - id: discovery__github__preflight-dev__preflight__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-09-01T14:31:13.862Z"
+      discovered_at: '2026-09-01T14:31:13.862Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +39,11 @@ provenance:
           - 💻 Developer Tools
         anchor_text: preflight-dev/preflight
         extracted_url: https://github.com/preflight-dev/preflight
-        surrounding_text: "-   **[preflight-dev/preflight](https://github.com/preflight-dev/preflight)** [![GitHub stars](https://img.shields.io/github/stars/preflight-dev/preflight?style=social)](https://github.com/preflight-dev/preflight): MCP server for prompt preflight checks, prompt scoring, contract awareness, and session history search via LanceDB."
+        surrounding_text: >-
+          -   **[preflight-dev/preflight](https://github.com/preflight-dev/preflight)** [![GitHub
+          stars](https://img.shields.io/github/stars/preflight-dev/preflight?style=social)](https://github.com/preflight-dev/preflight):
+          MCP server for prompt preflight checks, prompt scoring, contract awareness, and session history search via
+          LanceDB.
         confidence: high
 metadata:
   github:
@@ -45,9 +53,11 @@ metadata:
     archived: false
     full_name: preflight-dev/preflight
     html_url: https://github.com/preflight-dev/preflight
-    created_at: "2026-02-12T16:09:53Z"
-    pushed_at: "2026-03-20T16:15:50Z"
-    description: "✈️ 24-tool MCP server for Claude Code: preflight checks for your prompts, cross-service context, session history search with LanceDB vectors, correction pattern learning, cost estimation"
+    created_at: '2026-02-12T16:09:53Z'
+    pushed_at: '2026-03-20T16:15:50Z'
+    description: >-
+      ✈️ 24-tool MCP server for Claude Code: preflight checks for your prompts, cross-service context, session history
+      search with LanceDB vectors, correction pattern learning, cost estimation
     homepage: https://www.npmjs.com/package/preflight-dev
     topics:
       - ai-coding
@@ -70,14 +80,20 @@ metadata:
       - token-optimization
       - typescript
       - vector-search
-    last_checked_at: "2026-07-20T16:42:37.275Z"
+    last_checked_at: '2026-07-20T16:42:37.275Z'
     readme:
-      fetched_at: "2026-07-20T16:42:37.275Z"
+      fetched_at: '2026-07-20T16:42:37.275Z'
       bytes: 30305
 insights:
-  summary: A 24-tool MCP server for Claude Code that intercepts prompts to catch ambiguity, scores prompt quality, searches session history with vector search, and estimates token costs.
-  why_it_matters: It directly attacks the 30-40% token waste caused by vague prompts, wrong-direction corrections, and unbounded session context in Claude Code workflows.
-  mental_damage: We have officially reached the point where we need a dedicated tool to audit the quality of the prompts we feed the tool that is supposed to save us time.
+  summary: >-
+    A 24-tool MCP server for Claude Code that intercepts prompts to catch ambiguity, scores prompt quality, searches
+    session history with vector search, and estimates token costs.
+  why_it_matters: >-
+    It directly attacks the 30-40% token waste caused by vague prompts, wrong-direction corrections, and unbounded
+    session context in Claude Code workflows.
+  mental_damage: >-
+    We have officially reached the point where we need a dedicated tool to audit the quality of the prompts we feed the
+    tool that is supposed to save us time.
   tags:
     - mcp
     - claude-code
@@ -87,35 +103,44 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core novelty is intercepting prompts, analyzing intent, searching session history via LanceDB, and managing context/prompt quality rather than acting as the primary coding assistant.
+  reason: >-
+    The core novelty is intercepting prompts, analyzing intent, searching session history via LanceDB, and managing
+    context/prompt quality rather than acting as the primary coding assistant.
   evidence:
-    - Repo description explicitly calls it a '24-tool MCP server for Claude Code' focused on preflight checks, session history search, and cost estimation.
-    - README states the solution is '24 tools in 5 categories' that catch vague prompts, enforce structure, and provide semantic search across session history.
-    - "Decision ladder rule: 'If its core novelty is memory, retrieval, compression, prompt management, or context-shaping infrastructure, prefer Prompt & Context Engineering even when the first host is Claude Code.'"
+    - >-
+      Repo description explicitly calls it a '24-tool MCP server for Claude Code' focused on preflight checks, session
+      history search, and cost estimation.
+    - >-
+      README states the solution is '24 tools in 5 categories' that catch vague prompts, enforce structure, and provide
+      semantic search across session history.
+    - >-
+      Decision ladder rule: 'If its core novelty is memory, retrieval, compression, prompt management, or
+      context-shaping infrastructure, prefer Prompt & Context Engineering even when the first host is Claude Code.'
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: Claude Code & Agent Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-01T14:31:13.864Z"
+    updated_at: '2026-09-01T14:31:13.864Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:37.275Z"
+    updated_at: '2026-07-20T16:42:37.275Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

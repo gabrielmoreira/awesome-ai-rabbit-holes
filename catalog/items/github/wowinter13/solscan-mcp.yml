@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wowinter13__solscan-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: wowinter13/solscan-mcp
         extracted_url: https://github.com/wowinter13/solscan-mcp
-        surrounding_text: "- [wowinter13/solscan-mcp](https://github.com/wowinter13/solscan-mcp) 🦀 🏠 - An MCP tool for querying Solana transactions using natural language with Solscan API."
+        surrounding_text: >-
+          - [wowinter13/solscan-mcp](https://github.com/wowinter13/solscan-mcp) 🦀 🏠 - An MCP tool for querying Solana
+          transactions using natural language with Solscan API.
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: wowinter13/solscan-mcp
     html_url: https://github.com/wowinter13/solscan-mcp
-    created_at: "2025-04-10T14:17:43Z"
-    pushed_at: "2025-08-15T20:48:43Z"
+    created_at: '2025-04-10T14:17:43Z'
+    pushed_at: '2025-08-15T20:48:43Z'
     description: An MCP server for querying Solana transactions using natural language with Solscan API
     homepage: https://mcp.so/server/solscan-mcp/wowinter13
     topics:
@@ -45,14 +47,18 @@ metadata:
       - solana
       - solana-sdk
       - solscan
-    last_checked_at: "2026-07-21T15:21:15.539Z"
+    last_checked_at: '2026-07-21T15:21:15.539Z'
     readme:
-      fetched_at: "2026-07-21T15:21:15.539Z"
+      fetched_at: '2026-07-21T15:21:15.539Z'
       bytes: 2299
 insights:
   summary: An MCP server for querying Solana blockchain data via the Solscan API using natural language.
-  why_it_matters: Enables developers to fetch on-chain data through conversational prompts, reducing the need to manually navigate blockchain explorers or write API calls.
-  mental_damage: Another MCP server promising 'natural language blockchain queries' while quietly depending on a paid API key you forgot to rotate.
+  why_it_matters: >-
+    Enables developers to fetch on-chain data through conversational prompts, reducing the need to manually navigate
+    blockchain explorers or write API calls.
+  mental_damage: >-
+    Another MCP server promising 'natural language blockchain queries' while quietly depending on a paid API key you
+    forgot to rotate.
   tags:
     - mcp
     - solana
@@ -60,31 +66,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server whose core identity is providing Solscan API access via the Model Context Protocol, making it a domain-specific MCP tool rather than an extension or agent.
+  reason: >-
+    The project is an MCP server whose core identity is providing Solscan API access via the Model Context Protocol,
+    making it a domain-specific MCP tool rather than an extension or agent.
   evidence:
-    - "Repo description: 'An MCP server for querying Solana transactions using natural language with Solscan API'"
-    - "README: Explicitly states it is an MCP server for Solscan Pro API, with installation instructions for Claude Desktop MCP config"
-    - "Source-list context: Listed in awesome-mcp-servers under Finance & Fintech as an MCP server implementation"
+    - 'Repo description: ''An MCP server for querying Solana transactions using natural language with Solscan API'''
+    - >-
+      README: Explicitly states it is an MCP server for Solscan Pro API, with installation instructions for Claude
+      Desktop MCP config
+    - 'Source-list context: Listed in awesome-mcp-servers under Finance & Fintech as an MCP server implementation'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.656Z"
+    updated_at: '2026-05-06T22:12:15.656Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:15.539Z"
+    updated_at: '2026-07-21T15:21:15.539Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-14T05:29:50.584Z"
+    updated_at: '2026-05-14T05:29:50.584Z'
     cause: null
     next_retry_at: null
     attempts: 2

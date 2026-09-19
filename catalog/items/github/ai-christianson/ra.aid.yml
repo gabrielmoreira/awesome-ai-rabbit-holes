@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ai-christianson__ra.aid__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Open Source
         anchor_text: RA.Aid
         extracted_url: https://github.com/ai-christianson/ra.aid
-        surrounding_text: "- **[RA.Aid](https://github.com/ai-christianson/RA.Aid)** `⭐ 2.2k` — Autonomous coding agent built on LangGraph with research/plan/implement pipeline; optional aider integration for near-full autonomy."
+        surrounding_text: >-
+          - **[RA.Aid](https://github.com/ai-christianson/RA.Aid)** `⭐ 2.2k` — Autonomous coding agent built on
+          LangGraph with research/plan/implement pipeline; optional aider integration for near-full autonomy.
         confidence: high
 metadata:
   github:
@@ -30,21 +32,25 @@ metadata:
     archived: false
     full_name: ai-christianson/RA.Aid
     html_url: https://github.com/ai-christianson/RA.Aid
-    created_at: "2024-12-10T23:55:34Z"
-    pushed_at: "2026-01-30T16:24:40Z"
+    created_at: '2024-12-10T23:55:34Z'
+    pushed_at: '2026-01-30T16:24:40Z'
     description: Develop software autonomously.
     homepage: https://ra-aid.ai/
     topics:
       - agents
       - ai
       - software-engineering
-    last_checked_at: "2026-09-17T04:13:35.159Z"
+    last_checked_at: '2026-09-17T04:13:35.159Z'
     readme:
-      fetched_at: "2026-09-17T04:13:35.159Z"
+      fetched_at: '2026-09-17T04:13:35.159Z'
       bytes: 26955
 insights:
-  summary: An autonomous coding agent built on LangGraph that performs research, planning, and implementation for multi-step development tasks.
-  why_it_matters: It automates the entire software development lifecycle—from research to execution—rather than just offering single-shot code completions.
+  summary: >-
+    An autonomous coding agent built on LangGraph that performs research, planning, and implementation for multi-step
+    development tasks.
+  why_it_matters: >-
+    It automates the entire software development lifecycle—from research to execution—rather than just offering
+    single-shot code completions.
   mental_damage: The '--cowboy-mode' flag is a polite way of saying 'let the agent destroy your repo while you grab coffee.'
   tags:
     - agents
@@ -55,13 +61,16 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: RA.Aid is a standalone agent that performs research, planning, and implementation, making it a primary coding assistant rather than an extension.
+  reason: >-
+    RA.Aid is a standalone agent that performs research, planning, and implementation, making it a primary coding
+    assistant rather than an extension.
   evidence:
     - README claims 'near-fully-autonomous software development'
     - Uses a three-stage architecture (Research, Planning, Implementation)
     - Provides a standalone CLI for executing complex, multi-step tasks
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -69,17 +78,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.600Z"
+    updated_at: '2026-05-06T22:12:15.600Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:35.159Z"
+    updated_at: '2026-09-17T04:13:35.159Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:07:44.846Z"
+    updated_at: '2026-07-20T16:07:44.846Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -92,7 +101,9 @@ processing:
       input_hash: sha256:e50e544b692633c7cb5a72e0ab568626ad2769edcbe05496a10de1a075b408a6
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: RA.Aid is a standalone agent that performs research, planning, and implementation, making it a primary coding assistant rather than an extension.
+      decision_reason: >-
+        RA.Aid is a standalone agent that performs research, planning, and implementation, making it a primary coding
+        assistant rather than an extension.
       decision_evidence:
         - README claims 'near-fully-autonomous software development'
         - Uses a three-stage architecture (Research, Planning, Implementation)
@@ -100,6 +111,8 @@ processing:
       category_candidates:
         - coding-agents
         - agent-orchestration
-      contrastive_reason: Choose coding-agents over agent-orchestration because the primary user experience is a developer delegating repo work to a single assistant rather than managing a multi-agent control plane.
+      contrastive_reason: >-
+        Choose coding-agents over agent-orchestration because the primary user experience is a developer delegating repo
+        work to a single assistant rather than managing a multi-agent control plane.
       review_reason: null
       review_resume_lifecycle: null

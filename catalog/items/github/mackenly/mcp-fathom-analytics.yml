@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mackenly__mcp-fathom-analytics__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Fathom Analytics
         extracted_url: https://github.com/mackenly/mcp-fathom-analytics
-        surrounding_text: "- **[Fathom Analytics](https://github.com/mackenly/mcp-fathom-analytics)** - Access and analyze Fathom Analytics data and reports"
+        surrounding_text: >-
+          - **[Fathom Analytics](https://github.com/mackenly/mcp-fathom-analytics)** - Access and analyze Fathom
+          Analytics data and reports
         confidence: high
 metadata:
   github:
@@ -29,22 +31,28 @@ metadata:
     archived: false
     full_name: mackenly/mcp-fathom-analytics
     html_url: https://github.com/mackenly/mcp-fathom-analytics
-    created_at: "2025-03-07T22:12:27Z"
-    pushed_at: "2025-06-17T13:18:37Z"
+    created_at: '2025-03-07T22:12:27Z'
+    pushed_at: '2025-06-17T13:18:37Z'
     description: MCP server for Fathom Analytics
     homepage: https://www.npmjs.com/package/mcp-fathom-analytics
     topics:
       - fathom-analytics
       - mcp
       - mcp-server
-    last_checked_at: "2026-08-03T05:16:54.160Z"
+    last_checked_at: '2026-08-03T05:16:54.160Z'
     readme:
-      fetched_at: "2026-08-03T05:16:54.160Z"
+      fetched_at: '2026-08-03T05:16:54.160Z'
       bytes: 3643
 insights:
-  summary: MCP server for Fathom Analytics that provides tools to retrieve account info, sites, events, analytics, and real-time visitor data via the Model Context Protocol.
-  why_it_matters: Lets developers access Fathom Analytics data directly from AI assistants without switching contexts or writing custom API glue.
-  mental_damage: Another MCP server for another niche SaaS, because apparently every analytics tool now needs its own AI assistant plugin to feel complete.
+  summary: >-
+    MCP server for Fathom Analytics that provides tools to retrieve account info, sites, events, analytics, and
+    real-time visitor data via the Model Context Protocol.
+  why_it_matters: >-
+    Lets developers access Fathom Analytics data directly from AI assistants without switching contexts or writing
+    custom API glue.
+  mental_damage: >-
+    Another MCP server for another niche SaaS, because apparently every analytics tool now needs its own AI assistant
+    plugin to feel complete.
   tags:
     - mcp
     - analytics
@@ -52,31 +60,36 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: It is an MCP server whose primary identity is providing Model Context Protocol access to Fathom Analytics data, fitting the MCP Servers & Tooling category.
+  reason: >-
+    It is an MCP server whose primary identity is providing Model Context Protocol access to Fathom Analytics data,
+    fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description: 'MCP server for Fathom Analytics'"
-    - "README: Provides MCP tools like get-account, list-sites, list-events, get-aggregation, and get-current-visitors for Fathom Analytics"
+    - 'Repo description: ''MCP server for Fathom Analytics'''
+    - >-
+      README: Provides MCP tools like get-account, list-sites, list-events, get-aggregation, and get-current-visitors
+      for Fathom Analytics
     - Listed in awesome-mcp-servers under Community Servers section
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.628Z"
+    updated_at: '2026-05-06T22:12:15.628Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:54.160Z"
+    updated_at: '2026-08-03T05:16:54.160Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:17:52.880Z"
+    updated_at: '2026-07-21T16:17:52.880Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,14 +102,20 @@ processing:
       input_hash: sha256:d035fff503c8ae5849bca9921892d8a37fb6939b9257f9d8fdf3b08a0b7b30b4
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: It is an MCP server whose primary identity is providing Model Context Protocol access to Fathom Analytics data, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        It is an MCP server whose primary identity is providing Model Context Protocol access to Fathom Analytics data,
+        fitting the MCP Servers & Tooling category.
       decision_evidence:
-        - "Repo description: 'MCP server for Fathom Analytics'"
-        - "README: Provides MCP tools like get-account, list-sites, list-events, get-aggregation, and get-current-visitors for Fathom Analytics"
+        - 'Repo description: ''MCP server for Fathom Analytics'''
+        - >-
+          README: Provides MCP tools like get-account, list-sites, list-events, get-aggregation, and
+          get-current-visitors for Fathom Analytics
         - Listed in awesome-mcp-servers under Community Servers section
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an extension that augments another assistant with host integrations.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an extension that augments
+        another assistant with host integrations.
       review_reason: null
       review_resume_lifecycle: null

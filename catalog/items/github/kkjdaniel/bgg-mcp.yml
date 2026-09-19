@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kkjdaniel__bgg-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: kkjdaniel/bgg-mcp
         extracted_url: https://github.com/kkjdaniel/bgg-mcp
-        surrounding_text: "- [kkjdaniel/bgg-mcp](https://github.com/kkjdaniel/bgg-mcp) 🏎️ ☁️ - An MCP server that enables interaction with board game related data via the BoardGameGeek API (XML API2)."
+        surrounding_text: >-
+          - [kkjdaniel/bgg-mcp](https://github.com/kkjdaniel/bgg-mcp) 🏎️ ☁️ - An MCP server that enables interaction
+          with board game related data via the BoardGameGeek API (XML API2).
         confidence: high
     - id: discovery__github__kkjdaniel__bgg-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +37,9 @@ provenance:
           - Community Servers
         anchor_text: BGG MCP
         extracted_url: https://github.com/kkjdaniel/bgg-mcp
-        surrounding_text: "- **[BGG MCP](https://github.com/kkjdaniel/bgg-mcp)** - BGG MCP enables AI tools to interact with the BoardGameGeek API."
+        surrounding_text: >-
+          - **[BGG MCP](https://github.com/kkjdaniel/bgg-mcp)** - BGG MCP enables AI tools to interact with the
+          BoardGameGeek API.
         confidence: high
 metadata:
   github:
@@ -45,10 +49,12 @@ metadata:
     archived: false
     full_name: kkjdaniel/bgg-mcp
     html_url: https://github.com/kkjdaniel/bgg-mcp
-    created_at: "2025-05-20T15:50:40Z"
-    pushed_at: "2026-04-19T22:40:25Z"
-    description: BGG MCP provides access to BoardGameGeek and a variety of board game related data through the Model Context Protocol. Enabling retrieval and filtering of board game data, user collections, and profiles.
-    homepage: ""
+    created_at: '2025-05-20T15:50:40Z'
+    pushed_at: '2026-04-19T22:40:25Z'
+    description: >-
+      BGG MCP provides access to BoardGameGeek and a variety of board game related data through the Model Context
+      Protocol. Enabling retrieval and filtering of board game data, user collections, and profiles.
+    homepage: ''
     topics:
       - bgg
       - bgg-api
@@ -57,13 +63,17 @@ metadata:
       - boardgames
       - mcp
       - mcp-server
-    last_checked_at: "2026-07-30T05:05:57.361Z"
+    last_checked_at: '2026-07-30T05:05:57.361Z'
     readme:
-      fetched_at: "2026-07-30T05:05:57.361Z"
+      fetched_at: '2026-07-30T05:05:57.361Z'
       bytes: 9820
 insights:
-  summary: BGG MCP is a Model Context Protocol server that provides access to BoardGameGeek data, including game details, user collections, and profiles.
-  why_it_matters: It enables AI assistants to retrieve and filter board game data, user collections, and profiles through MCP, expanding the context available for game-related workflows.
+  summary: >-
+    BGG MCP is a Model Context Protocol server that provides access to BoardGameGeek data, including game details, user
+    collections, and profiles.
+  why_it_matters: >-
+    It enables AI assistants to retrieve and filter board game data, user collections, and profiles through MCP,
+    expanding the context available for game-related workflows.
   mental_damage: Now your AI can argue about Carcassonne rules with the same authority as a BoardGameGeek forum thread.
   tags:
     - mcp
@@ -80,24 +90,24 @@ curation:
     - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.589Z"
+    updated_at: '2026-05-06T22:12:15.589Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:57.361Z"
+    updated_at: '2026-07-30T05:05:57.361Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:12:43.542Z"
+    updated_at: '2026-07-21T16:12:43.542Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -110,7 +120,9 @@ processing:
       input_hash: sha256:0a0d089066aa7820cd1c1dea0d77d054d1916c425c2bbd0f954cf55f14e14011
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the product identity, and the server provides domain-specific data access through the Model Context Protocol.
+      decision_reason: >-
+        MCP is the product identity, and the server provides domain-specific data access through the Model Context
+        Protocol.
       decision_evidence:
         - Repo description explicitly states it is a BoardGameGeek MCP server
         - README details MCP tools and resources for board game data access
@@ -118,6 +130,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server providing domain-specific data, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server providing domain-specific data, not
+        an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

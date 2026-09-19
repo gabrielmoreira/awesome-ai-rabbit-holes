@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aliyun__alibabacloud-hologres-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Official Servers
         anchor_text: Hologres
         extracted_url: https://github.com/aliyun/alibabacloud-hologres-mcp-server
-        surrounding_text: "- **[Hologres](https://github.com/aliyun/alibabacloud-hologres-mcp-server)** - Connect to a [Hologres](https://www.alibabacloud.com/en/product/hologres) instance, get table metadata, query and analyze data."
+        surrounding_text: >-
+          - **[Hologres](https://github.com/aliyun/alibabacloud-hologres-mcp-server)** - Connect to a
+          [Hologres](https://www.alibabacloud.com/en/product/hologres) instance, get table metadata, query and analyze
+          data.
         confidence: high
 metadata:
   github:
@@ -29,18 +32,22 @@ metadata:
     archived: false
     full_name: aliyun/alibabacloud-hologres-mcp-server
     html_url: https://github.com/aliyun/alibabacloud-hologres-mcp-server
-    created_at: "2025-03-20T03:30:27Z"
-    pushed_at: "2026-08-05T01:24:09Z"
+    created_at: '2025-03-20T03:30:27Z'
+    pushed_at: '2026-08-05T01:24:09Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:41.586Z"
+    last_checked_at: '2026-09-17T04:13:41.586Z'
     readme:
-      fetched_at: "2026-09-17T04:13:41.586Z"
+      fetched_at: '2026-09-17T04:13:41.586Z'
       bytes: 15813
 insights:
-  summary: An MCP server that provides a universal interface between AI agents and Alibaba Cloud Hologres databases, enabling metadata retrieval and SQL execution.
-  why_it_matters: It allows AI agents to directly query and interact with Hologres databases, streamlining database operations in agent workflows.
+  summary: >-
+    An MCP server that provides a universal interface between AI agents and Alibaba Cloud Hologres databases, enabling
+    metadata retrieval and SQL execution.
+  why_it_matters: >-
+    It allows AI agents to directly query and interact with Hologres databases, streamlining database operations in
+    agent workflows.
   mental_damage: Now your AI agent can finally stop pretending it remembers your schema.
   tags:
     - mcp-server
@@ -51,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is as an MCP server for Hologres database integration, making MCP the primary adopted thing.
+  reason: >-
+    The product's core identity is as an MCP server for Hologres database integration, making MCP the primary adopted
+    thing.
   evidence:
     - README explicitly describes it as an MCP server for Hologres databases
     - Provides MCP client configuration examples and supports multiple transport modes (stdio, streamable-http, SSE)
     - Listed in awesome-mcp-servers under Official Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.601Z"
+    updated_at: '2026-05-06T22:12:15.601Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:41.586Z"
+    updated_at: '2026-09-17T04:13:41.586Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:22:21.339Z"
+    updated_at: '2026-07-21T15:22:21.339Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -88,7 +98,9 @@ processing:
       input_hash: sha256:8f14c6126fad2555544ee13849aa0619b05a7742bd2e87ebece6ddecbdd1303d
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is as an MCP server for Hologres database integration, making MCP the primary adopted thing.
+      decision_reason: >-
+        The product's core identity is as an MCP server for Hologres database integration, making MCP the primary
+        adopted thing.
       decision_evidence:
         - README explicitly describes it as an MCP server for Hologres databases
         - Provides MCP client configuration examples and supports multiple transport modes (stdio, streamable-http, SSE)
@@ -96,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server for database integration rather than a host integration layer for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server for database
+        integration rather than a host integration layer for another assistant.
       review_reason: null
       review_resume_lifecycle: null

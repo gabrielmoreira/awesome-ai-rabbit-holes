@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cursorlist__com__awesome-list__patrickjs__awesome-cursorrules
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: PatrickJS/awesome-cursorrules
@@ -18,7 +18,7 @@ provenance:
           - Directories
         anchor_text: CursorList
         extracted_url: https://cursorlist.com
-        surrounding_text: "- [CursorList](https://cursorlist.com)"
+        surrounding_text: '- [CursorList](https://cursorlist.com)'
         confidence: high
 metadata:
   github:
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: A directory of .cursorrule files and SOPs for customizing the behavior of the Cursor AI editor.
-  why_it_matters: It provides developers with pre-configured, stack-specific prompt rules to improve the accuracy and code style of their AI coding assistant.
-  mental_damage: It confirms we have entered the era of needing a curated library of instructions on how to properly instruct our instructions.
+  why_it_matters: >-
+    It provides developers with pre-configured, stack-specific prompt rules to improve the accuracy and code style of
+    their AI coding assistant.
+  mental_damage: >-
+    It confirms we have entered the era of needing a curated library of instructions on how to properly instruct our
+    instructions.
   tags:
     - cursor
     - cursorrules
@@ -47,23 +51,30 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The platform acts as a specialized registry of reusable instruction assets (.cursorrules) designed to enhance specific coding workflows.
+  reason: >-
+    The platform acts as a specialized registry of reusable instruction assets (.cursorrules) designed to enhance
+    specific coding workflows.
   evidence:
-    - Scraped content shows a searchable collection of .cursorrule files for various tech stacks like Angular, NextJS, and Solidity
+    - >-
+      Scraped content shows a searchable collection of .cursorrule files for various tech stacks like Angular, NextJS,
+      and Solidity
     - The site description identifies its purpose as managing and viewing .cursorrule files and SOPs
 placement:
   primary_category: skills
-  section: Skill Registries & Directories
+  secondary_categories: []
+  section: Registries & Directories
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.660Z"
+    updated_at: '2026-05-06T22:12:15.660Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -71,7 +82,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-31T13:30:27.285Z"
+    updated_at: '2026-08-31T13:30:27.285Z'
     cause: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -84,13 +95,19 @@ processing:
       input_hash: sha256:d9d18211985966e635447fdb2c66631c569108e1027c829ee7aa0a9227854302
       proposed_primary_category: skills
       disagreement: false
-      decision_reason: The platform acts as a specialized registry of reusable instruction assets (.cursorrules) designed to enhance specific coding workflows.
+      decision_reason: >-
+        The platform acts as a specialized registry of reusable instruction assets (.cursorrules) designed to enhance
+        specific coding workflows.
       decision_evidence:
-        - Scraped content shows a searchable collection of .cursorrule files for various tech stacks like Angular, NextJS, and Solidity
+        - >-
+          Scraped content shows a searchable collection of .cursorrule files for various tech stacks like Angular,
+          NextJS, and Solidity
         - The site description identifies its purpose as managing and viewing .cursorrule files and SOPs
       category_candidates:
         - skills
         - awesome-awesomes
-      contrastive_reason: Choose skills over awesome-awesomes because the core value is a specialized registry of reusable prompt assets rather than a general directory of AI tools.
+      contrastive_reason: >-
+        Choose skills over awesome-awesomes because the core value is a specialized registry of reusable prompt assets
+        rather than a general directory of AI tools.
       review_reason: null
       review_resume_lifecycle: null

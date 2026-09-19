@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__uniswap-price-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/uniswap-price-mcp
         extracted_url: https://github.com/kukapay/uniswap-price-mcp
-        surrounding_text: "- [kukapay/uniswap-price-mcp](https://github.com/kukapay/uniswap-price-mcp) 📇 ☁️ -  An MCP server that tracks newly created liquidity pools on Uniswap across multiple blockchains."
+        surrounding_text: >-
+          - [kukapay/uniswap-price-mcp](https://github.com/kukapay/uniswap-price-mcp) 📇 ☁️ -  An MCP server that tracks
+          newly created liquidity pools on Uniswap across multiple blockchains.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,23 @@ metadata:
     archived: false
     full_name: kukapay/uniswap-price-mcp
     html_url: https://github.com/kukapay/uniswap-price-mcp
-    created_at: "2025-06-05T08:16:48Z"
-    pushed_at: "2025-06-05T08:17:05Z"
+    created_at: '2025-06-05T08:16:48Z'
+    pushed_at: '2025-06-05T08:17:05Z'
     description: An MCP server that delivers real-time token prices from Uniswap V3 across multiple chains.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:06:01.285Z"
+    last_checked_at: '2026-07-30T05:06:01.285Z'
     readme:
-      fetched_at: "2026-07-30T05:06:01.285Z"
+      fetched_at: '2026-07-30T05:06:01.285Z'
       bytes: 2381
 insights:
   summary: An MCP server that provides real-time token prices from Uniswap V3 across multiple blockchain networks.
-  why_it_matters: Developers building AI agents for DeFi can fetch live token prices programmatically without managing blockchain RPCs or price feeds themselves.
-  mental_damage: Now your AI agent can finally answer 'how much is my LINK worth?' without pretending it doesn’t know what Polygon is.
+  why_it_matters: >-
+    Developers building AI agents for DeFi can fetch live token prices programmatically without managing blockchain RPCs
+    or price feeds themselves.
+  mental_damage: >-
+    Now your AI agent can finally answer 'how much is my LINK worth?' without pretending it doesn’t know what Polygon
+    is.
   tags:
     - mcp-server
     - defi
@@ -52,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a domain-specific MCP server whose primary identity is serving Uniswap price data via the Model Context Protocol.
+  reason: >-
+    This is a domain-specific MCP server whose primary identity is serving Uniswap price data via the Model Context
+    Protocol.
   evidence:
     - Repo description explicitly states it is an MCP server for Uniswap V3 token prices
     - README details MCP-compatible client configuration and tool usage
     - Core functionality is delivering real-time token prices across multiple chains
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:01.285Z"
+    updated_at: '2026-07-30T05:06:01.285Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:14:18.073Z"
+    updated_at: '2026-07-21T16:14:18.073Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +98,9 @@ processing:
       input_hash: sha256:54c928a668ed31dfa9de355694b9a0b503509ca02c831fa4427c6df7d79f67f2
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a domain-specific MCP server whose primary identity is serving Uniswap price data via the Model Context Protocol.
+      decision_reason: >-
+        This is a domain-specific MCP server whose primary identity is serving Uniswap price data via the Model Context
+        Protocol.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Uniswap V3 token prices
         - README details MCP-compatible client configuration and tool usage
@@ -97,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product is an MCP server (protocol infrastructure) rather than a code-first SDK or library.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product is an MCP server (protocol infrastructure) rather than a
+        code-first SDK or library.
       review_reason: null
       review_resume_lifecycle: null

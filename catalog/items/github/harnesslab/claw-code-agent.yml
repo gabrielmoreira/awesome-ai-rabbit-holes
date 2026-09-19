@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__harnesslab__claw-code-agent__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Open Source
         anchor_text: claw-code-agent
         extracted_url: https://github.com/harnesslab/claw-code-agent
-        surrounding_text: "- **[claw-code-agent](https://github.com/HarnessLab/claw-code-agent)** `⭐ 450` — Python-only Claude Code rewrite with zero external dependencies; born from the March 2026 Claude Code source leak, positioned as easier to hack on than the Rust/TypeScript reimplementations."
+        surrounding_text: >-
+          - **[claw-code-agent](https://github.com/HarnessLab/claw-code-agent)** `⭐ 450` — Python-only Claude Code
+          rewrite with zero external dependencies; born from the March 2026 Claude Code source leak, positioned as
+          easier to hack on than the Rust/TypeScript reimplementations.
         confidence: high
 metadata:
   github:
@@ -30,19 +33,25 @@ metadata:
     archived: false
     full_name: HarnessLab/claw-code-agent
     html_url: https://github.com/HarnessLab/claw-code-agent
-    created_at: "2026-04-01T19:41:37Z"
-    pushed_at: "2026-06-22T20:36:48Z"
-    description: " Claw Code No Rust No TypeScript Only Python. Easy to work with. Fast to iterate. 🔥 Zero external dependencies 🔥"
-    homepage: ""
+    created_at: '2026-04-01T19:41:37Z'
+    pushed_at: '2026-06-22T20:36:48Z'
+    description: ' Claw Code No Rust No TypeScript Only Python. Easy to work with. Fast to iterate. 🔥 Zero external dependencies 🔥'
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:05:35.428Z"
+    last_checked_at: '2026-07-30T05:05:35.428Z'
     readme:
-      fetched_at: "2026-07-30T05:05:35.428Z"
+      fetched_at: '2026-07-30T05:05:35.428Z'
       bytes: 48278
 insights:
-  summary: A Python reimplementation of the Claude Code agent architecture with local model support, zero dependencies, and extensive plugin/runtime capabilities.
-  why_it_matters: Developers can run a Claude Code-like agent locally with full control over models, plugins, and workflows without relying on external dependencies or proprietary platforms.
-  mental_damage: Finally, a way to replicate Claude Code’s magic without the existential dread of vendor lock-in or the ritual of dependency hell.
+  summary: >-
+    A Python reimplementation of the Claude Code agent architecture with local model support, zero dependencies, and
+    extensive plugin/runtime capabilities.
+  why_it_matters: >-
+    Developers can run a Claude Code-like agent locally with full control over models, plugins, and workflows without
+    relying on external dependencies or proprietary platforms.
+  mental_damage: >-
+    Finally, a way to replicate Claude Code’s magic without the existential dread of vendor lock-in or the ritual of
+    dependency hell.
   tags:
     - coding-agent
     - local-ai
@@ -52,13 +61,18 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone terminal-native coding agent that directly reads, plans, edits, and executes code, matching the primary identity of a coding assistant rather than an extension or framework.
+  reason: >-
+    The project is a standalone terminal-native coding agent that directly reads, plans, edits, and executes code,
+    matching the primary identity of a coding assistant rather than an extension or framework.
   evidence:
     - Repo description explicitly positions it as a Python reimplementation of Claude Code agent architecture
-    - README highlights features like interactive chat, plugin runtime, nested agent delegation, and MCP transport—core coding agent capabilities
+    - >-
+      README highlights features like interactive chat, plugin runtime, nested agent delegation, and MCP transport—core
+      coding agent capabilities
     - Source-list context places it under 'Terminal-native coding agents > Open Source'
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -66,19 +80,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.618Z"
+    updated_at: '2026-05-06T22:12:15.618Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-03T05:16:58.553Z"
+    updated_at: '2026-09-03T05:16:58.553Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for harnesslab/claw-code-agent
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:05:06.738Z"
+    updated_at: '2026-07-21T16:05:06.738Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -91,14 +105,20 @@ processing:
       input_hash: sha256:b409905294ff1ee2a35e5064adaaa67034538956128a9223d9621a021e631417
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: The project is a standalone terminal-native coding agent that directly reads, plans, edits, and executes code, matching the primary identity of a coding assistant rather than an extension or framework.
+      decision_reason: >-
+        The project is a standalone terminal-native coding agent that directly reads, plans, edits, and executes code,
+        matching the primary identity of a coding assistant rather than an extension or framework.
       decision_evidence:
         - Repo description explicitly positions it as a Python reimplementation of Claude Code agent architecture
-        - README highlights features like interactive chat, plugin runtime, nested agent delegation, and MCP transport—core coding agent capabilities
+        - >-
+          README highlights features like interactive chat, plugin runtime, nested agent delegation, and MCP
+          transport—core coding agent capabilities
         - Source-list context places it under 'Terminal-native coding agents > Open Source'
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because the tool is a primary coding assistant (not an add-on to another assistant) with its own agent architecture, runtime, and CLI surface.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because the tool is a primary coding assistant (not an add-on to
+        another assistant) with its own agent architecture, runtime, and CLI surface.
       review_reason: null
       review_resume_lifecycle: null

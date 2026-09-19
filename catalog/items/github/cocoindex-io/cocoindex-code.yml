@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cocoindex-io__cocoindex-code__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -19,7 +19,11 @@ provenance:
           - 💻 Developer Tools
         anchor_text: cocoindex-io/cocoindex-code
         extracted_url: https://github.com/cocoindex-io/cocoindex-code
-        surrounding_text: "-   **[cocoindex-io/cocoindex-code](https://github.com/cocoindex-io/cocoindex-code)** [![GitHub stars](https://img.shields.io/github/stars/cocoindex-io/cocoindex-code?style=social)](https://github.com/cocoindex-io/cocoindex-code): A super light-weight embedded MCP server for coding agents. Uses tree-sitter for code search and indexing, saves 70% tokens and improves speed."
+        surrounding_text: >-
+          -   **[cocoindex-io/cocoindex-code](https://github.com/cocoindex-io/cocoindex-code)** [![GitHub
+          stars](https://img.shields.io/github/stars/cocoindex-io/cocoindex-code?style=social)](https://github.com/cocoindex-io/cocoindex-code):
+          A super light-weight embedded MCP server for coding agents. Uses tree-sitter for code search and indexing,
+          saves 70% tokens and improves speed.
         confidence: high
 metadata:
   github:
@@ -29,9 +33,11 @@ metadata:
     archived: false
     full_name: cocoindex-io/cocoindex-code
     html_url: https://github.com/cocoindex-io/cocoindex-code
-    created_at: "2026-02-01T02:16:56Z"
-    pushed_at: "2026-09-05T16:53:46Z"
-    description: A super light-weight embedded code search engine CLI (AST based) that just works -  improves speed and efficiency for coding agent  🌟 Star if you like it!
+    created_at: '2026-02-01T02:16:56Z'
+    pushed_at: '2026-09-05T16:53:46Z'
+    description: >-
+      A super light-weight embedded code search engine CLI (AST based) that just works -  improves speed and efficiency
+      for coding agent  🌟 Star if you like it!
     homepage: https://cocoindex.io/
     topics:
       - agents
@@ -50,14 +56,18 @@ metadata:
       - python
       - rust
       - tree-sitter
-    last_checked_at: "2026-09-07T04:13:47.798Z"
+    last_checked_at: '2026-09-07T04:13:47.798Z'
     readme:
-      fetched_at: "2026-09-07T04:13:47.798Z"
+      fetched_at: '2026-09-07T04:13:47.798Z'
       bytes: 41991
 insights:
   summary: A lightweight AST-based semantic code search CLI that optimizes context for coding agents by reducing token usage.
-  why_it_matters: It helps developers and coding agents work faster by providing precise, token-efficient code search and retrieval for large codebases.
-  mental_damage: Finally, a tool that lets your AI assistant find the right code without burning through your entire context window on irrelevant files.
+  why_it_matters: >-
+    It helps developers and coding agents work faster by providing precise, token-efficient code search and retrieval
+    for large codebases.
+  mental_damage: >-
+    Finally, a tool that lets your AI assistant find the right code without burning through your entire context window
+    on irrelevant files.
   tags:
     - code-search
     - ast
@@ -67,31 +77,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core value is context optimization (AST-based semantic search, token saving) for coding agents, not being an agent or extension itself.
+  reason: >-
+    The core value is context optimization (AST-based semantic search, token saving) for coding agents, not being an
+    agent or extension itself.
   evidence:
-    - "Repo description: 'embedded code search engine CLI (AST based) that just works - improves speed and efficiency for coding agent'"
-    - "README: 'lightweight, effective (AST-based) semantic code search tool... Instant token saving by 70%'"
+    - >-
+      Repo description: 'embedded code search engine CLI (AST based) that just works - improves speed and efficiency for
+      coding agent'
+    - 'README: ''lightweight, effective (AST-based) semantic code search tool... Instant token saving by 70%'''
     - Topics include 'context-engineering', 'context-window-optimization'
 placement:
-  primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Retrieval & Fresh Docs
 lifecycle:
   status: promotion_candidate
   reason: Stars (1562) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:47.798Z"
+    updated_at: '2026-09-07T04:13:47.798Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:43:27.556Z"
+    updated_at: '2026-07-21T15:43:27.556Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,14 +119,20 @@ processing:
       input_hash: sha256:b8a31c3bd3641bd1b7d63c375a7bf0d466add2324fe8bffd7c0a89aa69c63fbe
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: The core value is context optimization (AST-based semantic search, token saving) for coding agents, not being an agent or extension itself.
+      decision_reason: >-
+        The core value is context optimization (AST-based semantic search, token saving) for coding agents, not being an
+        agent or extension itself.
       decision_evidence:
-        - "Repo description: 'embedded code search engine CLI (AST based) that just works - improves speed and efficiency for coding agent'"
-        - "README: 'lightweight, effective (AST-based) semantic code search tool... Instant token saving by 70%'"
+        - >-
+          Repo description: 'embedded code search engine CLI (AST based) that just works - improves speed and efficiency
+          for coding agent'
+        - 'README: ''lightweight, effective (AST-based) semantic code search tool... Instant token saving by 70%'''
         - Topics include 'context-engineering', 'context-window-optimization'
       category_candidates:
         - context-engineering
         - ai-dev-extensions
-      contrastive_reason: Choose context-engineering over ai-dev-extensions because the primary novelty is the AST-based retrieval and token optimization system, not the host integration layer.
+      contrastive_reason: >-
+        Choose context-engineering over ai-dev-extensions because the primary novelty is the AST-based retrieval and
+        token optimization system, not the host integration layer.
       review_reason: null
       review_resume_lifecycle: null

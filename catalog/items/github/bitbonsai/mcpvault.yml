@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bitbonsai__mcpvault__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: bitbonsai/mcp-obsidian
         extracted_url: https://github.com/bitbonsai/mcp-obsidian
-        surrounding_text: "- [bitbonsai/mcp-obsidian](https://github.com/bitbonsai/mcp-obsidian) 📇 🏠 🍎 🪟 🐧 - Universal AI bridge for Obsidian vaults using MCP. Provides safe read/write access to notes with 11 comprehensive methods for vault operations including search, batch operations, tag management, and frontmatter handling. Works with Claude, ChatGPT, and any MCP-compatible AI assistant."
+        surrounding_text: >-
+          - [bitbonsai/mcp-obsidian](https://github.com/bitbonsai/mcp-obsidian) 📇 🏠 🍎 🪟 🐧 - Universal AI bridge for
+          Obsidian vaults using MCP. Provides safe read/write access to notes with 11 comprehensive methods for vault
+          operations including search, batch operations, tag management, and frontmatter handling. Works with Claude,
+          ChatGPT, and any MCP-compatible AI assistant.
         confidence: high
 metadata:
   github:
@@ -30,18 +34,20 @@ metadata:
     archived: false
     full_name: bitbonsai/mcpvault
     html_url: https://github.com/bitbonsai/mcpvault
-    created_at: "2025-09-21T20:50:15Z"
-    pushed_at: "2026-08-31T12:07:35Z"
+    created_at: '2025-09-21T20:50:15Z'
+    pushed_at: '2026-08-31T12:07:35Z'
     description: A lightweight Model Context Protocol (MCP) server for safe Obsidian vault access
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:34.400Z"
+    last_checked_at: '2026-09-07T04:13:34.400Z'
     readme:
-      fetched_at: "2026-09-07T04:13:34.400Z"
+      fetched_at: '2026-09-07T04:13:34.400Z'
       bytes: 24910
 insights:
   summary: A lightweight Model Context Protocol (MCP) server for safe read/write access to Obsidian vaults.
-  why_it_matters: It lets developers connect any MCP-compatible AI assistant (Claude, ChatGPT, etc.) to their Obsidian notes as a unified knowledge base.
+  why_it_matters: >-
+    It lets developers connect any MCP-compatible AI assistant (Claude, ChatGPT, etc.) to their Obsidian notes as a
+    unified knowledge base.
   mental_damage: Now your AI can finally read your half-baked project notes and judge you silently.
   tags:
     - mcp
@@ -51,31 +57,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server for Obsidian vaults, not a compatibility footnote."
+  reason: 'MCP is the product identity: this is a dedicated MCP server for Obsidian vaults, not a compatibility footnote.'
   evidence:
     - Repo description explicitly states it is an MCP server for Obsidian vault access
     - README emphasizes universal MCP compatibility with multiple AI assistants
     - Product is a server providing MCP tools (14 methods) for vault operations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: promotion_candidate
   reason: Stars (1205) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:34.400Z"
+    updated_at: '2026-09-07T04:13:34.400Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:26:06.185Z"
+    updated_at: '2026-07-21T15:26:06.185Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -88,7 +95,7 @@ processing:
       input_hash: sha256:3b3aa50800759f3c67ec24e6e558fc67f9f3c1b2049ef8b2b8eb7567b904c914
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server for Obsidian vaults, not a compatibility footnote."
+      decision_reason: 'MCP is the product identity: this is a dedicated MCP server for Obsidian vaults, not a compatibility footnote.'
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Obsidian vault access
         - README emphasizes universal MCP compatibility with multiple AI assistants
@@ -96,6 +103,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (domain-specific infrastructure) rather than an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server (domain-specific infrastructure)
+        rather than an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

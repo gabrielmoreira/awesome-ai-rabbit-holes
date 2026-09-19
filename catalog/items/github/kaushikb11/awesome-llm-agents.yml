@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kaushikb11__awesome-llm-agents__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -29,22 +29,26 @@ metadata:
     archived: false
     full_name: kaushikb11/awesome-llm-agents
     html_url: https://github.com/kaushikb11/awesome-llm-agents
-    created_at: "2023-04-04T10:22:43Z"
-    pushed_at: "2026-07-26T03:40:58Z"
+    created_at: '2023-04-04T10:22:43Z'
+    pushed_at: '2026-07-26T03:40:58Z'
     description: A curated list of awesome LLM agents frameworks.
-    homepage: ""
+    homepage: ''
     topics:
       - agents
       - langchain
       - llm
-    last_checked_at: "2026-07-30T05:05:55.035Z"
+    last_checked_at: '2026-07-30T05:05:55.035Z'
     readme:
-      fetched_at: "2026-07-30T05:05:55.035Z"
+      fetched_at: '2026-07-30T05:05:55.035Z'
       bytes: 22534
 insights:
   summary: A curated list of LLM agent frameworks and development tools.
-  why_it_matters: Provides developers with a navigable map of agent frameworks, saving time in discovering and comparing options for building AI agents.
-  mental_damage: Because nothing says 'productivity' like spending an afternoon choosing between 20 agent frameworks that all claim to be the one ring to rule them all.
+  why_it_matters: >-
+    Provides developers with a navigable map of agent frameworks, saving time in discovering and comparing options for
+    building AI agents.
+  mental_damage: >-
+    Because nothing says 'productivity' like spending an afternoon choosing between 20 agent frameworks that all claim
+    to be the one ring to rule them all.
   tags:
     - curated-list
     - agent-frameworks
@@ -53,31 +57,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a curated directory of agent frameworks, which fits the 'Awesome Awesomes' category as its primary value is ecosystem navigation for developers.
+  reason: >-
+    This is a curated directory of agent frameworks, which fits the 'Awesome Awesomes' category as its primary value is
+    ecosystem navigation for developers.
   evidence:
     - Repo description explicitly states it is a curated list of LLM agents frameworks
     - README confirms it is a curated list with structured entries for frameworks like CrewAI, LangChain, AutoGen, etc.
     - Direct awesome list source flag is true
 placement:
   primary_category: awesome-awesomes
-  section: Directories & Maps
+  secondary_categories: []
+  section: Awesome Lists & Directories
 lifecycle:
   status: promotion_candidate
   reason: Stars (1459) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.573Z"
+    updated_at: '2026-05-06T22:12:15.573Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:55.035Z"
+    updated_at: '2026-07-30T05:05:55.035Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:12:00.445Z"
+    updated_at: '2026-07-21T16:12:00.445Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -90,14 +97,20 @@ processing:
       input_hash: sha256:60b62cd040cca69b2ca5e1da02848f6ed2cd3a49688f83de0211dfc842fab0c2
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: This is a curated directory of agent frameworks, which fits the 'Awesome Awesomes' category as its primary value is ecosystem navigation for developers.
+      decision_reason: >-
+        This is a curated directory of agent frameworks, which fits the 'Awesome Awesomes' category as its primary value
+        is ecosystem navigation for developers.
       decision_evidence:
         - Repo description explicitly states it is a curated list of LLM agents frameworks
-        - README confirms it is a curated list with structured entries for frameworks like CrewAI, LangChain, AutoGen, etc.
+        - >-
+          README confirms it is a curated list with structured entries for frameworks like CrewAI, LangChain, AutoGen,
+          etc.
         - Direct awesome list source flag is true
       category_candidates:
         - awesome-awesomes
         - ai-frameworks
-      contrastive_reason: Choose awesome-awesomes over ai-frameworks because the product is a directory of frameworks, not a framework itself.
+      contrastive_reason: >-
+        Choose awesome-awesomes over ai-frameworks because the product is a directory of frameworks, not a framework
+        itself.
       review_reason: null
       review_resume_lifecycle: null

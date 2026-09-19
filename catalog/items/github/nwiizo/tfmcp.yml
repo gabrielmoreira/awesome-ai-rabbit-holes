@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nwiizo__tfmcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: nwiizo/tfmcp
         extracted_url: https://github.com/nwiizo/tfmcp
-        surrounding_text: "- [nwiizo/tfmcp](https://github.com/nwiizo/tfmcp) - 🦀 🏠 - A Terraform MCP server allowing AI assistants to manage and operate Terraform environments, enabling reading configurations, analyzing plans, applying configurations, and managing Terraform state."
+        surrounding_text: >-
+          - [nwiizo/tfmcp](https://github.com/nwiizo/tfmcp) - 🦀 🏠 - A Terraform MCP server allowing AI assistants to
+          manage and operate Terraform environments, enabling reading configurations, analyzing plans, applying
+          configurations, and managing Terraform state.
         confidence: high
     - id: discovery__github__nwiizo__tfmcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +38,10 @@ provenance:
           - ☁️ Cloud Platforms
         anchor_text: nwiizo/tfmcp
         extracted_url: https://github.com/nwiizo/tfmcp
-        surrounding_text: "-   **[nwiizo/tfmcp](https://github.com/nwiizo/tfmcp)** [![GitHub stars](https://img.shields.io/github/stars/nwiizo/tfmcp?style=social)](https://github.com/nwiizo/tfmcp): Allows AI assistants to control Terraform environments for infrastructure management."
+        surrounding_text: >-
+          -   **[nwiizo/tfmcp](https://github.com/nwiizo/tfmcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/nwiizo/tfmcp?style=social)](https://github.com/nwiizo/tfmcp):
+          Allows AI assistants to control Terraform environments for infrastructure management.
         confidence: high
 metadata:
   github:
@@ -45,22 +51,31 @@ metadata:
     archived: false
     full_name: nwiizo/tfmcp
     html_url: https://github.com/nwiizo/tfmcp
-    created_at: "2025-03-08T14:10:29Z"
-    pushed_at: "2026-03-26T07:29:30Z"
-    description: 🌍 Terraform Model Context Protocol (MCP) Tool - An experimental CLI tool that enables AI assistants to manage and operate Terraform environments. Supports reading Terraform configurations, analyzing plans, applying configurations, and managing state with Claude Desktop integration. ⚡️
+    created_at: '2025-03-08T14:10:29Z'
+    pushed_at: '2026-03-26T07:29:30Z'
+    description: >-
+      🌍 Terraform Model Context Protocol (MCP) Tool - An experimental CLI tool that enables AI assistants to manage and
+      operate Terraform environments. Supports reading Terraform configurations, analyzing plans, applying
+      configurations, and managing state with Claude Desktop integration. ⚡️
     homepage: https://crates.io/crates/tfmcp
     topics:
       - mcp
       - mcp-server
       - terraform
-    last_checked_at: "2026-07-20T16:42:21.623Z"
+    last_checked_at: '2026-07-20T16:42:21.623Z'
     readme:
-      fetched_at: "2026-07-20T16:42:21.623Z"
+      fetched_at: '2026-07-20T16:42:21.623Z'
       bytes: 15918
 insights:
-  summary: A Rust-based CLI tool that implements a Model Context Protocol (MCP) server, enabling AI assistants like Claude Desktop to read, analyze, modify, and apply Terraform configurations and state.
-  why_it_matters: It bridges the gap between infrastructure-as-code workflows and AI agents, allowing LLMs to natively handle Terraform operations like plan analysis, state management, and module registry searches.
-  mental_damage: Finally, an AI tool that lets you drift your infrastructure state while simultaneously drifting your attention span elsewhere.
+  summary: >-
+    A Rust-based CLI tool that implements a Model Context Protocol (MCP) server, enabling AI assistants like Claude
+    Desktop to read, analyze, modify, and apply Terraform configurations and state.
+  why_it_matters: >-
+    It bridges the gap between infrastructure-as-code workflows and AI agents, allowing LLMs to natively handle
+    Terraform operations like plan analysis, state management, and module registry searches.
+  mental_damage: >-
+    Finally, an AI tool that lets you drift your infrastructure state while simultaneously drifting your attention span
+    elsewhere.
   tags:
     - terraform
     - mcp
@@ -70,35 +85,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is explicitly an MCP server designed to give AI assistants access to Terraform capabilities, fitting the 'Domain Servers' section of MCP tooling.
+  reason: >-
+    The product's identity is explicitly an MCP server designed to give AI assistants access to Terraform capabilities,
+    fitting the 'Domain Servers' section of MCP tooling.
   evidence:
     - Repo description defines it as a 'Terraform Model Context Protocol (MCP) Tool'.
     - README states it 'Runs as a Model Context Protocol server, allowing AI assistants to access and manage Terraform'.
     - Listed in awesome-mcp-list and awesome-mcp-servers under 'Cloud Platforms'.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (363) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.591Z"
+    updated_at: '2026-05-06T22:12:15.591Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:21.623Z"
+    updated_at: '2026-07-20T16:42:21.623Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

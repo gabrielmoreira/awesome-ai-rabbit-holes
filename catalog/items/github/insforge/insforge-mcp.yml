@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__insforge__insforge-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: InsForge/insforge-mcp
         extracted_url: https://github.com/insforge/insforge-mcp
-        surrounding_text: "- [InsForge/insforge-mcp](https://github.com/InsForge/insforge-mcp) 📇 ☁️ - AI-native backend-as-a-service platform enabling AI agents to build and manage full-stack applications. Provides Auth, Database (PostgreSQL), Storage, and Functions as production-grade infrastructure, reducing MVP development time from weeks to hours."
+        surrounding_text: >-
+          - [InsForge/insforge-mcp](https://github.com/InsForge/insforge-mcp) 📇 ☁️ - AI-native backend-as-a-service
+          platform enabling AI agents to build and manage full-stack applications. Provides Auth, Database (PostgreSQL),
+          Storage, and Functions as production-grade infrastructure, reducing MVP development time from weeks to hours.
         confidence: high
 metadata:
   github:
@@ -30,17 +33,19 @@ metadata:
     archived: false
     full_name: InsForge/insforge-mcp
     html_url: https://github.com/InsForge/insforge-mcp
-    created_at: "2025-07-10T06:14:59Z"
-    pushed_at: "2026-07-29T13:26:51Z"
+    created_at: '2025-07-10T06:14:59Z'
+    pushed_at: '2026-07-29T13:26:51Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:43.696Z"
+    last_checked_at: '2026-07-30T05:05:43.696Z'
     readme:
-      fetched_at: "2026-07-30T05:05:43.696Z"
+      fetched_at: '2026-07-30T05:05:43.696Z'
       bytes: 3098
 insights:
-  summary: MCP server for Insforge, enabling coding agents to integrate backend features like auth, databases, and serverless functions.
+  summary: >-
+    MCP server for Insforge, enabling coding agents to integrate backend features like auth, databases, and serverless
+    functions.
   why_it_matters: Lets AI coding agents directly scaffold and connect backend infrastructure without manual setup.
   mental_damage: Now your coding agent can spin up a full-stack app before you’ve finished explaining the requirements.
   tags:
@@ -51,31 +56,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: this is a dedicated MCP server for Insforge, not a generic extension or framework."
+  reason: 'MCP is the product identity here: this is a dedicated MCP server for Insforge, not a generic extension or framework.'
   evidence:
     - Repo is explicitly an MCP server for Insforge
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
     - README focuses on MCP server setup and integration
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.620Z"
+    updated_at: '2026-05-06T22:12:15.620Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:43.696Z"
+    updated_at: '2026-07-30T05:05:43.696Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:08:20.060Z"
+    updated_at: '2026-07-21T16:08:20.060Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +94,9 @@ processing:
       input_hash: sha256:c137696c25c0aec9413790c1a258297ab6a2e5bb030d09c08162732ffdf9ed85
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: this is a dedicated MCP server for Insforge, not a generic extension or framework."
+      decision_reason: >-
+        MCP is the product identity here: this is a dedicated MCP server for Insforge, not a generic extension or
+        framework.
       decision_evidence:
         - Repo is explicitly an MCP server for Insforge
         - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
@@ -96,6 +104,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

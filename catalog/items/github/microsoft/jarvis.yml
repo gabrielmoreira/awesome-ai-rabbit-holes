@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__microsoft__jarvis__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,7 @@ provenance:
           - JARVIS
         anchor_text: JARVIS
         extracted_url: https://github.com/microsoft/jarvis
-        surrounding_text: "## [JARVIS](https://github.com/microsoft/JARVIS)"
+        surrounding_text: '## [JARVIS](https://github.com/microsoft/JARVIS)'
         confidence: high
 metadata:
   github:
@@ -29,22 +29,28 @@ metadata:
     archived: false
     full_name: microsoft/JARVIS
     html_url: https://github.com/microsoft/JARVIS
-    created_at: "2023-03-30T02:57:12Z"
-    pushed_at: "2025-07-29T13:44:13Z"
-    description: "JARVIS, a system to connect LLMs with ML community. Paper: https://arxiv.org/pdf/2303.17580.pdf"
-    homepage: ""
+    created_at: '2023-03-30T02:57:12Z'
+    pushed_at: '2025-07-29T13:44:13Z'
+    description: 'JARVIS, a system to connect LLMs with ML community. Paper: https://arxiv.org/pdf/2303.17580.pdf'
+    homepage: ''
     topics:
       - deep-learning
       - platform
       - pytorch
-    last_checked_at: "2026-08-03T05:17:01.910Z"
+    last_checked_at: '2026-08-03T05:17:01.910Z'
     readme:
-      fetched_at: "2026-08-03T05:17:01.910Z"
+      fetched_at: '2026-08-03T05:17:01.910Z'
       bytes: 14987
 insights:
-  summary: JARVIS (HuggingGPT) is a research system that uses an LLM as a controller to plan tasks and invoke expert models from Hugging Face Hub for execution.
-  why_it_matters: It demonstrates a framework for composing specialized AI models via language models, showing how developers can chain ML capabilities for complex tasks without training new models.
-  mental_damage: It turns every AI task into a model-hunting expedition across Hugging Face, where your LLM becomes a travel agent for neural networks.
+  summary: >-
+    JARVIS (HuggingGPT) is a research system that uses an LLM as a controller to plan tasks and invoke expert models
+    from Hugging Face Hub for execution.
+  why_it_matters: >-
+    It demonstrates a framework for composing specialized AI models via language models, showing how developers can
+    chain ML capabilities for complex tasks without training new models.
+  mental_damage: >-
+    It turns every AI task into a model-hunting expedition across Hugging Face, where your LLM becomes a travel agent
+    for neural networks.
   tags:
     - llm-agents
     - model-composition
@@ -52,31 +58,35 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: JARVIS functions as a workbench that coordinates multiple expert models as collaborative executors under an LLM controller, making agent orchestration the best fit despite its research origins.
+  reason: >-
+    JARVIS functions as a workbench that coordinates multiple expert models as collaborative executors under an LLM
+    controller, making agent orchestration the best fit despite its research origins.
   evidence:
-    - README describes a system with 'an LLM as the controller' and 'numerous expert models as collaborative executors' from Hugging Face Hub
-    - "Workflow consists of four stages: task planning, model selection, task execution, and response generation"
+    - >-
+      README describes a system with 'an LLM as the controller' and 'numerous expert models as collaborative executors'
+      from Hugging Face Hub
+    - 'Workflow consists of four stages: task planning, model selection, task execution, and response generation'
     - Listed in awesome-ai-agents under the JARVIS section as an AI autonomous agent
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  section: Hosted Agent Platforms
 lifecycle:
   status: promotion_candidate
   reason: Stars (24693) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.629Z"
+    updated_at: '2026-05-06T22:12:15.629Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:01.910Z"
+    updated_at: '2026-08-03T05:17:01.910Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:20:30.183Z"
+    updated_at: '2026-07-21T16:20:30.183Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,14 +99,20 @@ processing:
       input_hash: sha256:659cccf6e42bce619660cffbaaa7b96a5d6df77912161a46cfce151d8e8644cb
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: JARVIS functions as a workbench that coordinates multiple expert models as collaborative executors under an LLM controller, making agent orchestration the best fit despite its research origins.
+      decision_reason: >-
+        JARVIS functions as a workbench that coordinates multiple expert models as collaborative executors under an LLM
+        controller, making agent orchestration the best fit despite its research origins.
       decision_evidence:
-        - README describes a system with 'an LLM as the controller' and 'numerous expert models as collaborative executors' from Hugging Face Hub
-        - "Workflow consists of four stages: task planning, model selection, task execution, and response generation"
+        - >-
+          README describes a system with 'an LLM as the controller' and 'numerous expert models as collaborative
+          executors' from Hugging Face Hub
+        - 'Workflow consists of four stages: task planning, model selection, task execution, and response generation'
         - Listed in awesome-ai-agents under the JARVIS section as an AI autonomous agent
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because JARVIS coordinates multiple AI models as executors rather than directly planning, writing, or debugging code in a developer's repository.
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because JARVIS coordinates multiple AI models as executors rather
+        than directly planning, writing, or debugging code in a developer's repository.
       review_reason: null
       review_resume_lifecycle: null

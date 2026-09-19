@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__unixlamadev-spec__aiprox-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: unixlamadev-spec/aiprox-mcp
         extracted_url: https://github.com/unixlamadev-spec/aiprox-mcp
-        surrounding_text: "- [unixlamadev-spec/aiprox-mcp](https://github.com/unixlamadev-spec/aiprox-mcp) [![unixlamadev-spec/aiprox-mcp MCP server](https://glama.ai/mcp/servers/unixlamadev-spec/aiprox-mcp/badges/score.svg)](https://glama.ai/mcp/servers/unixlamadev-spec/aiprox-mcp) 📇 ☁️ - Open agent registry — discover and hire autonomous AI agents by capability. 16 agents live. Supports Bitcoin Lightning, Solana USDC, and Base x402. Includes workflow engine for chaining agents."
+        surrounding_text: >-
+          - [unixlamadev-spec/aiprox-mcp](https://github.com/unixlamadev-spec/aiprox-mcp) [![unixlamadev-spec/aiprox-mcp
+          MCP
+          server](https://glama.ai/mcp/servers/unixlamadev-spec/aiprox-mcp/badges/score.svg)](https://glama.ai/mcp/servers/unixlamadev-spec/aiprox-mcp)
+          📇 ☁️ - Open agent registry — discover and hire autonomous AI agents by capability. 16 agents live. Supports
+          Bitcoin Lightning, Solana USDC, and Base x402. Includes workflow engine for chaining agents.
         confidence: high
 metadata:
   github:
@@ -30,19 +35,27 @@ metadata:
     archived: false
     full_name: unixlamadev-spec/aiprox-mcp
     html_url: https://github.com/unixlamadev-spec/aiprox-mcp
-    created_at: "2026-02-26T23:01:43Z"
-    pushed_at: "2026-03-21T23:31:47Z"
-    description: MCP server for AIProx — discover, hire, and pay autonomous AI agents via Bitcoin Lightning, Solana USDC, or Base x402
+    created_at: '2026-02-26T23:01:43Z'
+    pushed_at: '2026-03-21T23:31:47Z'
+    description: >-
+      MCP server for AIProx — discover, hire, and pay autonomous AI agents via Bitcoin Lightning, Solana USDC, or Base
+      x402
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:20:59.028Z"
+    last_checked_at: '2026-07-21T15:20:59.028Z'
     readme:
-      fetched_at: "2026-07-21T15:20:59.028Z"
+      fetched_at: '2026-07-21T15:20:59.028Z'
       bytes: 8725
 insights:
-  summary: MCP server for AIProx that enables discovering, hiring, and paying autonomous AI agents via Bitcoin Lightning, Solana USDC, or Base x402.
-  why_it_matters: It lets developers programmatically hire specialized agents from a marketplace using crypto micropayments, orchestrating multi-step workflows with automatic settlement and receipts.
-  mental_damage: You can now pay autonomous agents in sats to audit your code while the blockchain generates expense reports, blurring the line between payroll and API calls until your accountant has an existential crisis.
+  summary: >-
+    MCP server for AIProx that enables discovering, hiring, and paying autonomous AI agents via Bitcoin Lightning,
+    Solana USDC, or Base x402.
+  why_it_matters: >-
+    It lets developers programmatically hire specialized agents from a marketplace using crypto micropayments,
+    orchestrating multi-step workflows with automatic settlement and receipts.
+  mental_damage: >-
+    You can now pay autonomous agents in sats to audit your code while the blockchain generates expense reports,
+    blurring the line between payroll and API calls until your accountant has an existential crisis.
   tags:
     - mcp
     - crypto
@@ -52,31 +65,36 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The repository is explicitly built as an MCP server exposing AIProx's agent registry and payment rails, making MCP the primary product identity rather than just a compatibility layer.
+  reason: >-
+    The repository is explicitly built as an MCP server exposing AIProx's agent registry and payment rails, making MCP
+    the primary product identity rather than just a compatibility layer.
   evidence:
     - Repo description and name explicitly identify it as 'MCP server for AIProx'
     - Listed in awesome-mcp-servers under Finance & Fintech, indicating community classification as MCP infrastructure
-    - README shows MCP-specific setup (npx aiprox-mcp) and exposes agent discovery/hiring capabilities through the Model Context Protocol
+    - >-
+      README shows MCP-specific setup (npx aiprox-mcp) and exposes agent discovery/hiring capabilities through the Model
+      Context Protocol
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.653Z"
+    updated_at: '2026-05-06T22:12:15.653Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:59.028Z"
+    updated_at: '2026-07-21T15:20:59.028Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-18T05:29:05.395Z"
+    updated_at: '2026-05-18T05:29:05.395Z'
     cause: null
     next_retry_at: null
     attempts: 3

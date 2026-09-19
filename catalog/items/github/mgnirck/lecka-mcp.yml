@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mgnirck__lecka-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - <a name="bio"></a>Biology, Medicine and Bioinformatics
         anchor_text: mgnirck/lecka-mcp
         extracted_url: https://github.com/mgnirck/lecka-mcp
-        surrounding_text: "- [mgnirck/lecka-mcp](https://github.com/mgnirck/lecka-mcp) 📇 ☁️ - Race nutrition planning for endurance athletes. Calculates carb, sodium and fluid targets for marathons, ultras, cycling and triathlons. Returns personalised Lecka product recommendations by race type, conditions and athlete weight. [![mgnirck/lecka-mcp MCP server](https://glama.ai/mcp/servers/mgnirck/lecka-mcp/badges/score.svg)](https://glama.ai/mcp/servers/mgnirck/lecka-mcp)"
+        surrounding_text: >-
+          - [mgnirck/lecka-mcp](https://github.com/mgnirck/lecka-mcp) 📇 ☁️ - Race nutrition planning for endurance
+          athletes. Calculates carb, sodium and fluid targets for marathons, ultras, cycling and triathlons. Returns
+          personalised Lecka product recommendations by race type, conditions and athlete weight. [![mgnirck/lecka-mcp
+          MCP
+          server](https://glama.ai/mcp/servers/mgnirck/lecka-mcp/badges/score.svg)](https://glama.ai/mcp/servers/mgnirck/lecka-mcp)
         confidence: high
 metadata:
   github:
@@ -30,19 +35,23 @@ metadata:
     archived: false
     full_name: mgnirck/lecka-mcp
     html_url: https://github.com/mgnirck/lecka-mcp
-    created_at: "2026-06-04T22:24:02Z"
-    pushed_at: "2026-06-09T15:43:15Z"
+    created_at: '2026-06-04T22:24:02Z'
+    pushed_at: '2026-06-09T15:43:15Z'
     description: null
     homepage: https://lecka-mcp.vercel.app
     topics: []
-    last_checked_at: "2026-08-03T05:17:00.892Z"
+    last_checked_at: '2026-08-03T05:17:00.892Z'
     readme:
-      fetched_at: "2026-08-03T05:17:00.892Z"
+      fetched_at: '2026-08-03T05:17:00.892Z'
       bytes: 1123
 insights:
-  summary: lecka-mcp is an MCP server that exposes Lecka sports nutrition product data and fueling plan calculations to MCP-compatible AI clients.
+  summary: >-
+    lecka-mcp is an MCP server that exposes Lecka sports nutrition product data and fueling plan calculations to
+    MCP-compatible AI clients.
   why_it_matters: It lets developers integrate specialized nutrition data into AI assistants via a standardized MCP interface.
-  mental_damage: Another niche MCP server for a single SaaS product, adding to the growing pile of domain-specific tools that promise interoperability but rarely compose.
+  mental_damage: >-
+    Another niche MCP server for a single SaaS product, adding to the growing pile of domain-specific tools that promise
+    interoperability but rarely compose.
   tags:
     - mcp
     - nutrition
@@ -50,31 +59,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server as its core identity, exposing domain-specific tools via the Model Context Protocol, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product is an MCP server as its core identity, exposing domain-specific tools via the Model Context Protocol,
+    fitting the MCP Servers & Tooling category.
   evidence:
     - README describes it as 'A Model Context Protocol (MCP) server for the Lecka sports nutrition platform'
     - It exposes MCP tools like get_products, calculate_fueling_plan, and get_nutrition_data
     - Built with @modelcontextprotocol/sdk and deployed at an MCP endpoint URL
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-15T05:51:04.989Z"
+    updated_at: '2026-06-15T05:51:04.989Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:00.892Z"
+    updated_at: '2026-08-03T05:17:00.892Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-09T05:33:07.172Z"
+    updated_at: '2026-07-09T05:33:07.172Z'
     cause: null
     next_retry_at: null
     attempts: 2

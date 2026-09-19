@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__4everland__4everland-hosting-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: 4everland/4everland-hosting-mcp
         extracted_url: https://github.com/4everland/4everland-hosting-mcp
-        surrounding_text: "- [4everland/4everland-hosting-mcp](https://github.com/4everland/4everland-hosting-mcp) 🎖️ 📇 🏠 🍎 🐧 - An MCP server implementation for 4EVERLAND Hosting enabling instant deployment of AI-generated code to decentralized storage networks like Greenfield, IPFS, and Arweave."
+        surrounding_text: >-
+          - [4everland/4everland-hosting-mcp](https://github.com/4everland/4everland-hosting-mcp) 🎖️ 📇 🏠 🍎 🐧 - An
+          MCP server implementation for 4EVERLAND Hosting enabling instant deployment of AI-generated code to
+          decentralized storage networks like Greenfield, IPFS, and Arweave.
         confidence: high
     - id: discovery__github__4everland__4everland-hosting-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +38,10 @@ provenance:
           - Official Servers
         anchor_text: 4everland/4everland-hosting-mcp
         extracted_url: https://github.com/4everland/4everland-hosting-mcp
-        surrounding_text: "- **[4everland/4everland-hosting-mcp](https://github.com/4everland/4everland-hosting-mcp)** - An MCP server implementation for 4EVERLAND Hosting enabling instant deployment of AI-generated code to decentralized storage networks like Greenfield, IPFS, and Arweave."
+        surrounding_text: >-
+          - **[4everland/4everland-hosting-mcp](https://github.com/4everland/4everland-hosting-mcp)** - An MCP server
+          implementation for 4EVERLAND Hosting enabling instant deployment of AI-generated code to decentralized storage
+          networks like Greenfield, IPFS, and Arweave.
         confidence: high
 metadata:
   github:
@@ -45,19 +51,23 @@ metadata:
     archived: false
     full_name: 4everland/4everland-hosting-mcp
     html_url: https://github.com/4everland/4everland-hosting-mcp
-    created_at: "2025-06-12T06:47:30Z"
-    pushed_at: "2025-06-19T06:39:56Z"
+    created_at: '2025-06-12T06:47:30Z'
+    pushed_at: '2025-06-19T06:39:56Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:26.458Z"
+    last_checked_at: '2026-09-17T04:13:26.458Z'
     readme:
-      fetched_at: "2026-09-17T04:13:26.457Z"
+      fetched_at: '2026-09-17T04:13:26.457Z'
       bytes: 4316
 insights:
-  summary: An MCP server that enables AI models to deploy code instantly to decentralized storage networks like Greenfield, IPFS, and Arweave via 4EVERLAND.
+  summary: >-
+    An MCP server that enables AI models to deploy code instantly to decentralized storage networks like Greenfield,
+    IPFS, and Arweave via 4EVERLAND.
   why_it_matters: It bridges the gap between LLM-generated code and live, decentralized web deployment through a single tool call.
-  mental_damage: Because why host on a centralized server when you can let an LLM push your experimental code directly into the decentralized void?
+  mental_damage: >-
+    Because why host on a centralized server when you can let an LLM push your experimental code directly into the
+    decentralized void?
   tags:
     - mcp
     - decentralized-storage
@@ -74,24 +84,25 @@ curation:
     - Integrations provided for Cursor and Claude Desktop via MCP configuration
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.581Z"
+    updated_at: '2026-05-06T22:12:15.581Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:26.458Z"
+    updated_at: '2026-09-17T04:13:26.458Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:50:15.642Z"
+    updated_at: '2026-07-20T15:50:15.642Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -112,6 +123,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's identity is a standalone MCP server implementation rather than a plugin for a specific editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's identity is a standalone MCP server implementation
+        rather than a plugin for a specific editor.
       review_reason: null
       review_resume_lifecycle: null

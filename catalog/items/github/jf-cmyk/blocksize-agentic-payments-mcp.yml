@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jf-cmyk__blocksize-agentic-payments-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-22T05:53:30.454Z"
+      discovered_at: '2026-06-22T05:53:30.454Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: jf-cmyk/blocksize-agentic-payments-mcp
         extracted_url: https://github.com/jf-cmyk/blocksize-agentic-payments-mcp
-        surrounding_text: "- [jf-cmyk/blocksize-agentic-payments-mcp](https://github.com/jf-cmyk/blocksize-agentic-payments-mcp) [![jf-cmyk/blocksize-agentic-payments-mcp MCP server](https://glama.ai/mcp/servers/jf-cmyk/blocksize-agentic-payments-mcp/badges/score.svg)](https://glama.ai/mcp/servers/jf-cmyk/blocksize-agentic-payments-mcp) 🐍 ☁️ - Read-only Blocksize market-data discovery MCP package. Search instruments, inspect pricing and docs, and build x402 HTTP URLs for paid live data with USDC settlement on Solana and Base."
+        surrounding_text: >-
+          - [jf-cmyk/blocksize-agentic-payments-mcp](https://github.com/jf-cmyk/blocksize-agentic-payments-mcp)
+          [![jf-cmyk/blocksize-agentic-payments-mcp MCP
+          server](https://glama.ai/mcp/servers/jf-cmyk/blocksize-agentic-payments-mcp/badges/score.svg)](https://glama.ai/mcp/servers/jf-cmyk/blocksize-agentic-payments-mcp)
+          🐍 ☁️ - Read-only Blocksize market-data discovery MCP package. Search instruments, inspect pricing and docs,
+          and build x402 HTTP URLs for paid live data with USDC settlement on Solana and Base.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: jf-cmyk/blocksize-agentic-payments-mcp
     html_url: https://github.com/jf-cmyk/blocksize-agentic-payments-mcp
-    created_at: "2026-06-10T20:53:29Z"
-    pushed_at: "2026-06-17T23:10:42Z"
+    created_at: '2026-06-10T20:53:29Z'
+    pushed_at: '2026-06-17T23:10:42Z'
     description: Read-only MCP package for Blocksize agentic payments and x402 market-data discovery
     homepage: https://mcp.blocksize.info
     topics:
@@ -41,14 +46,20 @@ metadata:
       - mcp-server
       - model-context-protocol
       - x402
-    last_checked_at: "2026-07-30T05:05:49.760Z"
+    last_checked_at: '2026-07-30T05:05:49.760Z'
     readme:
-      fetched_at: "2026-07-30T05:05:49.760Z"
+      fetched_at: '2026-07-30T05:05:49.760Z'
       bytes: 3471
 insights:
-  summary: Read-only MCP package providing discovery and endpoint-building tools for Blocksize agentic payments and market data.
-  why_it_matters: Gives AI agents programmatic access to financial instrument discovery and x402-compliant payment URL generation without handling funds or credentials.
-  mental_damage: Yet another MCP server that turns your dev setup into a finance terminal where '402 Payment Required' is the new 'segfault'.
+  summary: >-
+    Read-only MCP package providing discovery and endpoint-building tools for Blocksize agentic payments and market
+    data.
+  why_it_matters: >-
+    Gives AI agents programmatic access to financial instrument discovery and x402-compliant payment URL generation
+    without handling funds or credentials.
+  mental_damage: >-
+    Yet another MCP server that turns your dev setup into a finance terminal where '402 Payment Required' is the new
+    'segfault'.
   tags:
     - mcp
     - finance
@@ -56,31 +67,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: This is an MCP-first server providing financial data discovery tools, fitting squarely in the MCP Servers & Tooling category as a domain-specific implementation.
+  reason: >-
+    This is an MCP-first server providing financial data discovery tools, fitting squarely in the MCP Servers & Tooling
+    category as a domain-specific implementation.
   evidence:
-    - "Repo description: 'Read-only MCP package for Blocksize agentic payments and x402 market-data discovery'"
-    - "README: 'Read-only Model Context Protocol (MCP) package for Blocksize real-time market-data discovery'"
-    - "Source-list context: Listed in awesome-mcp-servers under Finance & Fintech > Server Implementations"
+    - 'Repo description: ''Read-only MCP package for Blocksize agentic payments and x402 market-data discovery'''
+    - 'README: ''Read-only Model Context Protocol (MCP) package for Blocksize real-time market-data discovery'''
+    - 'Source-list context: Listed in awesome-mcp-servers under Finance & Fintech > Server Implementations'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-22T05:53:30.456Z"
+    updated_at: '2026-06-22T05:53:30.456Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:49.760Z"
+    updated_at: '2026-07-30T05:05:49.760Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-29T05:46:15.845Z"
+    updated_at: '2026-06-29T05:46:15.845Z'
     cause: null
     next_retry_at: null
     attempts: 1

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__isgudtek__mycrab-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -19,7 +19,11 @@ provenance:
           - ☁️ Cloud Platforms
         anchor_text: isgudtek/mycrab-mcp
         extracted_url: https://github.com/isgudtek/mycrab-mcp
-        surrounding_text: "-   **[isgudtek/mycrab-mcp](https://github.com/isgudtek/mycrab-mcp)** [![GitHub stars](https://img.shields.io/github/stars/isgudtek/mycrab-mcp?style=social)](https://github.com/isgudtek/mycrab-mcp): Instant public HTTPS Cloudflare tunnels for AI agents. Free ephemeral URLs in 60s or permanent custom subdomains via Solana micropayment. Install with `uvx mycrab-mcp`."
+        surrounding_text: >-
+          -   **[isgudtek/mycrab-mcp](https://github.com/isgudtek/mycrab-mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/isgudtek/mycrab-mcp?style=social)](https://github.com/isgudtek/mycrab-mcp):
+          Instant public HTTPS Cloudflare tunnels for AI agents. Free ephemeral URLs in 60s or permanent custom
+          subdomains via Solana micropayment. Install with `uvx mycrab-mcp`.
         confidence: high
 metadata:
   github:
@@ -29,8 +33,8 @@ metadata:
     archived: false
     full_name: isgudtek/mycrab-mcp
     html_url: https://github.com/isgudtek/mycrab-mcp
-    created_at: "2026-02-24T03:35:20Z"
-    pushed_at: "2026-02-28T00:04:18Z"
+    created_at: '2026-02-24T03:35:20Z'
+    pushed_at: '2026-02-28T00:04:18Z'
     description: MCP server for mycrab.space — instant Cloudflare tunnels for AI agents
     homepage: null
     topics:
@@ -44,13 +48,15 @@ metadata:
       - solana
       - tunnel
       - x402
-    last_checked_at: "2026-07-30T05:05:45.568Z"
+    last_checked_at: '2026-07-30T05:05:45.568Z'
     readme:
-      fetched_at: "2026-07-30T05:05:45.568Z"
+      fetched_at: '2026-07-30T05:05:45.568Z'
       bytes: 1409
 insights:
   summary: MCP server providing instant Cloudflare tunnels for AI agents via mycrab.space.
-  why_it_matters: Gives AI agents public HTTPS endpoints in under 60 seconds, enabling webhook receipt or public access without manual tunnel setup.
+  why_it_matters: >-
+    Gives AI agents public HTTPS endpoints in under 60 seconds, enabling webhook receipt or public access without manual
+    tunnel setup.
   mental_damage: Now your agent can have a public URL faster than you can explain to your manager why it needs one.
   tags:
     - mcp-server
@@ -61,31 +67,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server for Cloudflare tunneling, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product's primary identity is an MCP server for Cloudflare tunneling, fitting the MCP Servers & Tooling
+    category.
   evidence:
     - Repo description explicitly states it is an MCP server for mycrab.space
     - README details MCP tools (check_domain, setup_free_tunnel, buy_domain_sol) and Claude Desktop integration
     - Source-list context places it in an MCP server list under Cloud Platforms
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.621Z"
+    updated_at: '2026-05-06T22:12:15.621Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:45.568Z"
+    updated_at: '2026-07-30T05:05:45.568Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:09:09.267Z"
+    updated_at: '2026-07-21T16:09:09.267Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -98,7 +107,9 @@ processing:
       input_hash: sha256:00a1c1752c681f47e777711799c62ef6c60429229a734971bc3da0a434589751
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's primary identity is an MCP server for Cloudflare tunneling, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product's primary identity is an MCP server for Cloudflare tunneling, fitting the MCP Servers & Tooling
+        category.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for mycrab.space
         - README details MCP tools (check_domain, setup_free_tunnel, buy_domain_sol) and Claude Desktop integration
@@ -106,6 +117,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

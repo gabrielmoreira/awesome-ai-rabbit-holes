@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nolas-shadow__agent1st-ads-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: Nolas-Shadow/agent1st-ads-mcp
         extracted_url: https://github.com/nolas-shadow/agent1st-ads-mcp
-        surrounding_text: "- [Nolas-Shadow/agent1st-ads-mcp](https://github.com/Nolas-Shadow/agent1st-ads-mcp) [![Nolas-Shadow/agent1st-ads-mcp MCP server](https://glama.ai/mcp/servers/Nolas-Shadow/agent1st-ads-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Nolas-Shadow/agent1st-ads-mcp) 📇 ☁️ - Meta (Facebook/Instagram) and TikTok ad campaign management for AI agents. One tool call creates a complete campaign — targeting, creative, budget, and ad. Requires license from [agent1st.io/ads](https://agent1st.io/ads/)."
+        surrounding_text: >-
+          - [Nolas-Shadow/agent1st-ads-mcp](https://github.com/Nolas-Shadow/agent1st-ads-mcp)
+          [![Nolas-Shadow/agent1st-ads-mcp MCP
+          server](https://glama.ai/mcp/servers/Nolas-Shadow/agent1st-ads-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Nolas-Shadow/agent1st-ads-mcp)
+          📇 ☁️ - Meta (Facebook/Instagram) and TikTok ad campaign management for AI agents. One tool call creates a
+          complete campaign — targeting, creative, budget, and ad. Requires license from
+          [agent1st.io/ads](https://agent1st.io/ads/).
         confidence: high
 metadata:
   github:
@@ -30,8 +36,8 @@ metadata:
     archived: false
     full_name: Nolas-Shadow/agent1st-ads-mcp
     html_url: https://github.com/Nolas-Shadow/agent1st-ads-mcp
-    created_at: "2026-03-06T01:26:23Z"
-    pushed_at: "2026-03-23T01:33:35Z"
+    created_at: '2026-03-06T01:26:23Z'
+    pushed_at: '2026-03-23T01:33:35Z'
     description: Facebook and Tic Toc MCP
     homepage: http://www.Agent1st.io
     topics:
@@ -42,14 +48,20 @@ metadata:
       - meta-ads
       - model-context-protocol
       - tiktok-ads
-    last_checked_at: "2026-07-20T15:12:05.792Z"
+    last_checked_at: '2026-07-20T15:12:05.792Z'
     readme:
-      fetched_at: "2026-07-20T15:12:05.792Z"
+      fetched_at: '2026-07-20T15:12:05.792Z'
       bytes: 1054
 insights:
-  summary: An MCP server that lets AI agents autonomously create, manage, and pull performance stats for Meta and TikTok ad campaigns.
-  why_it_matters: It exposes ad platform APIs as callable MCP tools so coding agents can handle campaign operations without manual dashboard hopping.
-  mental_damage: Your AI agent can now burn through your ad budget at machine speed while you debug why it decided to target 'people who like rocks' at 3 AM.
+  summary: >-
+    An MCP server that lets AI agents autonomously create, manage, and pull performance stats for Meta and TikTok ad
+    campaigns.
+  why_it_matters: >-
+    It exposes ad platform APIs as callable MCP tools so coding agents can handle campaign operations without manual
+    dashboard hopping.
+  mental_damage: >-
+    Your AI agent can now burn through your ad budget at machine speed while you debug why it decided to target 'people
+    who like rocks' at 3 AM.
   tags:
     - mcp
     - meta-ads
@@ -58,35 +70,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product identity is an MCP server for ad platforms, fitting directly into the MCP Servers & Tooling category as a domain-specific server.
+  reason: >-
+    The product identity is an MCP server for ad platforms, fitting directly into the MCP Servers & Tooling category as
+    a domain-specific server.
   evidence:
     - Repo description explicitly states 'Facebook and Tic Toc MCP'
     - README positions it as 'MCP server that lets AI agents launch and manage Meta + TikTok ad campaigns'
     - Listed in awesome-mcp-servers under 'Marketing' section
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.633Z"
+    updated_at: '2026-05-06T22:12:15.633Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:12:05.792Z"
+    updated_at: '2026-07-20T15:12:05.792Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

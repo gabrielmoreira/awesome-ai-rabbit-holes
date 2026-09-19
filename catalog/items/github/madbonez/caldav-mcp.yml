@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__madbonez__caldav-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: madbonez/caldav-mcp
         extracted_url: https://github.com/madbonez/caldav-mcp
-        surrounding_text: "- [madbonez/caldav-mcp](https://github.com/madbonez/caldav-mcp) 🐍 ☁️ - Universal MCP server for CalDAV protocol integration. Works with any CalDAV-compatible calendar server including Yandex Calendar, Google Calendar (via CalDAV), Nextcloud, ownCloud, Apple iCloud, and others. Supports creating events with recurrence, categories, priority, attendees, reminders, searching events, and retrieving events by UID."
+        surrounding_text: >-
+          - [madbonez/caldav-mcp](https://github.com/madbonez/caldav-mcp) 🐍 ☁️ - Universal MCP server for CalDAV
+          protocol integration. Works with any CalDAV-compatible calendar server including Yandex Calendar, Google
+          Calendar (via CalDAV), Nextcloud, ownCloud, Apple iCloud, and others. Supports creating events with
+          recurrence, categories, priority, attendees, reminders, searching events, and retrieving events by UID.
         confidence: high
 metadata:
   github:
@@ -30,19 +34,23 @@ metadata:
     archived: false
     full_name: madbonez/caldav-mcp
     html_url: https://github.com/madbonez/caldav-mcp
-    created_at: "2025-11-28T15:52:06Z"
-    pushed_at: "2025-11-28T15:55:56Z"
+    created_at: '2025-11-28T15:52:06Z'
+    pushed_at: '2025-11-28T15:55:56Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:16:54.268Z"
+    last_checked_at: '2026-08-03T05:16:54.268Z'
     readme:
-      fetched_at: "2026-08-03T05:16:54.268Z"
+      fetched_at: '2026-08-03T05:16:54.268Z'
       bytes: 7978
 insights:
   summary: An MCP server that provides CalDAV calendar access via the Model Context Protocol.
-  why_it_matters: Enables AI assistants to interact with calendars for scheduling and event management through a standardized interface.
-  mental_damage: Another niche MCP server adding to the growing pile of protocol-specific tools that promise seamless AI integration while requiring manual CalDAV configuration.
+  why_it_matters: >-
+    Enables AI assistants to interact with calendars for scheduling and event management through a standardized
+    interface.
+  mental_damage: >-
+    Another niche MCP server adding to the growing pile of protocol-specific tools that promise seamless AI integration
+    while requiring manual CalDAV configuration.
   tags:
     - mcp
     - calendar
@@ -50,31 +58,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: This is an MCP server providing calendar access, making MCP its primary identity rather than a thin integration layer.
+  reason: >-
+    This is an MCP server providing calendar access, making MCP its primary identity rather than a thin integration
+    layer.
   evidence:
     - README describes it as 'Universal MCP server for CalDAV protocol integration'
     - Provides MCP-compatible tools like caldav_list_calendars and caldav_create_event
     - Appears in awesome-mcp-servers under Server Implementations > Communication
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.628Z"
+    updated_at: '2026-05-06T22:12:15.628Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:54.268Z"
+    updated_at: '2026-08-03T05:16:54.268Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:17:47.021Z"
+    updated_at: '2026-07-21T16:17:47.021Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,7 +98,9 @@ processing:
       input_hash: sha256:34b93adfed97111a50417b8f4f7bea583555049a78f0ea92b36b59ef0bcb77d0
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP server providing calendar access, making MCP its primary identity rather than a thin integration layer.
+      decision_reason: >-
+        This is an MCP server providing calendar access, making MCP its primary identity rather than a thin integration
+        layer.
       decision_evidence:
         - README describes it as 'Universal MCP server for CalDAV protocol integration'
         - Provides MCP-compatible tools like caldav_list_calendars and caldav_create_event
@@ -95,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an extension that augments another assistant with CalDAV capabilities.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an extension that augments
+        another assistant with CalDAV capabilities.
       review_reason: null
       review_resume_lifecycle: null

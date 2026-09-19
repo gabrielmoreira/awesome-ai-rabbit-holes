@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__nomic__ai__gpt4all__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-07-20T15:10:47.684Z"
+      discovered_at: '2026-07-20T15:10:47.684Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,10 +18,10 @@ provenance:
           - Inference UI
         anchor_text: GPT4All
         extracted_url: https://gpt4all.io
-        surrounding_text: "- [GPT4All](https://gpt4all.io) - A free-to-use, locally running, privacy-aware chatbot."
+        surrounding_text: '- [GPT4All](https://gpt4all.io) - A free-to-use, locally running, privacy-aware chatbot.'
         confidence: high
     - id: discovery__nomic__ai__gpt4all__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-20T15:10:47.684Z"
+      discovered_at: '2026-07-20T15:10:47.684Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,10 +33,10 @@ provenance:
           - Local LLM Tools
         anchor_text: GPT4All
         extracted_url: https://gpt4all.io
-        surrounding_text: "- **[GPT4All](https://gpt4all.io/)** – Free, local, privacy-aware chatbot running LLMs on consumer hardware."
+        surrounding_text: '- **[GPT4All](https://gpt4all.io/)** – Free, local, privacy-aware chatbot running LLMs on consumer hardware.'
         confidence: high
     - id: discovery__www__nomic__ai__gpt4all__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -48,10 +48,10 @@ provenance:
           - Inference UI
         anchor_text: GPT4All
         extracted_url: https://gpt4all.io
-        surrounding_text: "- [GPT4All](https://gpt4all.io) - A free-to-use, locally running, privacy-aware chatbot."
+        surrounding_text: '- [GPT4All](https://gpt4all.io) - A free-to-use, locally running, privacy-aware chatbot.'
         confidence: high
     - id: discovery__www__nomic__ai__gpt4all__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -63,7 +63,7 @@ provenance:
           - Local LLM Tools
         anchor_text: GPT4All
         extracted_url: https://gpt4all.io
-        surrounding_text: "- **[GPT4All](https://gpt4all.io/)** – Free, local, privacy-aware chatbot running LLMs on consumer hardware."
+        surrounding_text: '- **[GPT4All](https://gpt4all.io/)** – Free, local, privacy-aware chatbot running LLMs on consumer hardware.'
         confidence: high
 metadata:
   github:
@@ -81,8 +81,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A desktop application for running open-source AI models locally on Windows, macOS, and Linux with full customization and document chat capabilities.
-  why_it_matters: Enables developers to run and experiment with LLMs privately on their own hardware without cloud dependency or data leakage.
+  summary: >-
+    A desktop application for running open-source AI models locally on Windows, macOS, and Linux with full customization
+    and document chat capabilities.
+  why_it_matters: >-
+    Enables developers to run and experiment with LLMs privately on their own hardware without cloud dependency or data
+    leakage.
   mental_damage: Finally, a way to run models locally without your laptop sounding like a jet engine—until you actually try it.
   tags:
     - local-ai
@@ -92,21 +96,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Core identity is a local runtime/desktop app for on-device inference, aligning with the Local AI category's focus on private, self-hosted execution.
+  reason: >-
+    Core identity is a local runtime/desktop app for on-device inference, aligning with the Local AI category's focus on
+    private, self-hosted execution.
   evidence:
     - Site description explicitly states 'Run open-source AI models locally on your device' with no cloud required
     - Source lists categorize it under 'Local LLM Tools' and 'Inference UI'
     - Product positioning emphasizes local execution, privacy, and developer control
 placement:
   primary_category: local-ai
-  section: Desktop Chat / Interfaces
+  secondary_categories: []
+  section: Desktop Chat & UIs
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:35:42.469Z"
+    updated_at: '2026-07-21T15:35:42.469Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -119,7 +126,9 @@ processing:
       input_hash: sha256:3630a198e2d4acfdc8258d4d5eb88dfc3441c8cde29b5bee759d2f3f9327cfb5
       proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: Core identity is a local runtime/desktop app for on-device inference, aligning with the Local AI category's focus on private, self-hosted execution.
+      decision_reason: >-
+        Core identity is a local runtime/desktop app for on-device inference, aligning with the Local AI category's
+        focus on private, self-hosted execution.
       decision_evidence:
         - Site description explicitly states 'Run open-source AI models locally on your device' with no cloud required
         - Source lists categorize it under 'Local LLM Tools' and 'Inference UI'
@@ -127,12 +136,14 @@ processing:
       category_candidates:
         - local-ai
         - ai-frameworks
-      contrastive_reason: Choose local-ai over ai-frameworks because the primary value is the end-user desktop app for local inference, not a code-first SDK or library.
+      contrastive_reason: >-
+        Choose local-ai over ai-frameworks because the primary value is the end-user desktop app for local inference,
+        not a code-first SDK or library.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T15:10:47.687Z"
+    updated_at: '2026-07-20T15:10:47.687Z'
     cause: null
     next_retry_at: null
   stars:

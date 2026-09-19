@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__btwiuse__npm-search-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,7 @@ provenance:
           - Community Servers
         anchor_text: NPM Search
         extracted_url: https://github.com/btwiuse/npm-search-mcp-server
-        surrounding_text: "- **[NPM Search](https://github.com/btwiuse/npm-search-mcp-server)** - Search for npm packages"
+        surrounding_text: '- **[NPM Search](https://github.com/btwiuse/npm-search-mcp-server)** - Search for npm packages'
         confidence: high
 metadata:
   github:
@@ -29,23 +29,25 @@ metadata:
     archived: false
     full_name: btwiuse/npm-search-mcp-server
     html_url: https://github.com/btwiuse/npm-search-mcp-server
-    created_at: "2025-01-04T07:28:04Z"
-    pushed_at: "2026-02-20T23:48:35Z"
+    created_at: '2025-01-04T07:28:04Z'
+    pushed_at: '2026-02-20T23:48:35Z'
     description: MCP server for searching npm packages
-    homepage: ""
+    homepage: ''
     topics:
       - claude
       - mcp
       - mcp-server
       - model-context-protocol
       - npm
-    last_checked_at: "2026-09-07T04:13:38.690Z"
+    last_checked_at: '2026-09-07T04:13:38.690Z'
     readme:
-      fetched_at: "2026-09-07T04:13:38.690Z"
+      fetched_at: '2026-09-07T04:13:38.690Z'
       bytes: 5203
 insights:
   summary: An MCP server that enables searching npm packages via the Model Context Protocol.
-  why_it_matters: Developers can integrate npm package search directly into MCP-compatible assistants or workflows without leaving their coding environment.
+  why_it_matters: >-
+    Developers can integrate npm package search directly into MCP-compatible assistants or workflows without leaving
+    their coding environment.
   mental_damage: Now your AI can argue with you about which of the 2 million npm packages you actually need.
   tags:
     - mcp
@@ -55,31 +57,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is as an MCP server providing npm search functionality, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product's core identity is as an MCP server providing npm search functionality, fitting the MCP Servers &
+    Tooling category.
   evidence:
     - Repo description explicitly states it is an MCP server for searching npm packages
     - README confirms it implements the Model Context Protocol with npm search as its primary tool
     - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.606Z"
+    updated_at: '2026-05-06T22:12:15.606Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:38.690Z"
+    updated_at: '2026-09-07T04:13:38.690Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:34:30.882Z"
+    updated_at: '2026-07-21T15:34:30.882Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -92,7 +97,9 @@ processing:
       input_hash: sha256:4babca33c93aff24eb0d9cff1a8658e15a57c08ebbb4688221957ae57ea085ce
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is as an MCP server providing npm search functionality, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product's core identity is as an MCP server providing npm search functionality, fitting the MCP Servers &
+        Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for searching npm packages
         - README confirms it implements the Model Context Protocol with npm search as its primary tool
@@ -100,6 +107,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

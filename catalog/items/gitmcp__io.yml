@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__gitmcp__io__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: gitmcp.io
         extracted_url: https://gitmcp.io
-        surrounding_text: "- [idosal/git-mcp](https://github.com/idosal/git-mcp) 📇 ☁️ - [gitmcp.io](https://gitmcp.io/) is a generic remote MCP server to connect to ANY [GitHub](https://www.github.com) repository or project for documentation"
+        surrounding_text: >-
+          - [idosal/git-mcp](https://github.com/idosal/git-mcp) 📇 ☁️ - [gitmcp.io](https://gitmcp.io/) is a generic
+          remote MCP server to connect to ANY [GitHub](https://www.github.com) repository or project for documentation
         confidence: high
 metadata:
   github:
@@ -38,8 +40,12 @@ metadata:
     readme: null
 insights:
   summary: A service that instantly creates a Remote MCP server for any GitHub repository to provide AI context.
-  why_it_matters: Developers can give their AI assistants deep repository context without manual setup, improving code understanding and responses.
-  mental_damage: Now you can turn any GitHub URL into an MCP server, because apparently we’ve run out of ways to feed context to our AI overlords.
+  why_it_matters: >-
+    Developers can give their AI assistants deep repository context without manual setup, improving code understanding
+    and responses.
+  mental_damage: >-
+    Now you can turn any GitHub URL into an MCP server, because apparently we’ve run out of ways to feed context to our
+    AI overlords.
   tags:
     - mcp
     - github
@@ -48,21 +54,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: GitMCP's core identity is creating MCP servers for GitHub repositories, making it a clear fit for MCP Servers & Tooling.
+  reason: >-
+    GitMCP's core identity is creating MCP servers for GitHub repositories, making it a clear fit for MCP Servers &
+    Tooling.
   evidence:
-    - "Primary page explicitly states: 'Instantly create a Remote MCP server for any GitHub repository'"
+    - 'Primary page explicitly states: ''Instantly create a Remote MCP server for any GitHub repository'''
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
     - Compatible with MCP-compatible AI tools like Claude, Cursor, Windsurf, etc.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +80,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:27:14.464Z"
+    updated_at: '2026-07-21T15:27:14.464Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,14 +93,18 @@ processing:
       input_hash: sha256:354c46336ba3cfa9e297585ed8403b372ed8ca5943a134caf3f53c9635fff9ab
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: GitMCP's core identity is creating MCP servers for GitHub repositories, making it a clear fit for MCP Servers & Tooling.
+      decision_reason: >-
+        GitMCP's core identity is creating MCP servers for GitHub repositories, making it a clear fit for MCP Servers &
+        Tooling.
       decision_evidence:
-        - "Primary page explicitly states: 'Instantly create a Remote MCP server for any GitHub repository'"
+        - 'Primary page explicitly states: ''Instantly create a Remote MCP server for any GitHub repository'''
         - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
         - Compatible with MCP-compatible AI tools like Claude, Cursor, Windsurf, etc.
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server provider, not an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server provider, not an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

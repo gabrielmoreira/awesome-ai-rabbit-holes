@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__fastalertnow__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: FastAlertNow/mcp-server
         extracted_url: https://github.com/fastalertnow/mcp-server
-        surrounding_text: "- [FastAlertNow/mcp-server](https://github.com/FastAlertNow/mcp-server) 🎖️ 📇 ☁️ - Official Model Context Protocol (MCP) server for FastAlert. This server allows AI agents (like Claude, ChatGPT, and Cursor) to list of your channels and send notifications directly through the FastAlert API."
+        surrounding_text: >-
+          - [FastAlertNow/mcp-server](https://github.com/FastAlertNow/mcp-server) 🎖️ 📇 ☁️ - Official Model Context
+          Protocol (MCP) server for FastAlert. This server allows AI agents (like Claude, ChatGPT, and Cursor) to list
+          of your channels and send notifications directly through the FastAlert API.
         confidence: high
 metadata:
   github:
@@ -30,19 +33,23 @@ metadata:
     archived: false
     full_name: FastAlertNow/mcp-server
     html_url: https://github.com/FastAlertNow/mcp-server
-    created_at: "2026-02-10T07:45:25Z"
-    pushed_at: "2026-02-16T09:59:50Z"
+    created_at: '2026-02-10T07:45:25Z'
+    pushed_at: '2026-02-16T09:59:50Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-08-27T09:23:28.463Z"
+    last_checked_at: '2026-08-27T09:23:28.463Z'
     readme:
-      fetched_at: "2026-08-27T09:23:28.463Z"
+      fetched_at: '2026-08-27T09:23:28.463Z'
       bytes: 5127
 insights:
   summary: An MCP server that enables AI agents to discover and send rich notifications via the FastAlert API.
-  why_it_matters: It allows developers to grant LLM assistants the ability to directly trigger multi-channel system alerts and notifications during automated workflows.
-  mental_damage: Now your AI agent can broadcast your deployment failures to every channel you own without you even touching a keyboard.
+  why_it_matters: >-
+    It allows developers to grant LLM assistants the ability to directly trigger multi-channel system alerts and
+    notifications during automated workflows.
+  mental_damage: >-
+    Now your AI agent can broadcast your deployment failures to every channel you own without you even touching a
+    keyboard.
   tags:
     - mcp-server
     - notifications
@@ -58,24 +65,25 @@ curation:
     - Configured via mcpServers in Claude/Cursor environments
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:28.463Z"
+    updated_at: '2026-08-27T09:23:28.463Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:55:18.168Z"
+    updated_at: '2026-07-21T15:55:18.168Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,6 +104,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is the implementation of the MCP protocol rather than a general workflow integration.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is the implementation of the MCP protocol
+        rather than a general workflow integration.
       review_reason: null
       review_resume_lifecycle: null

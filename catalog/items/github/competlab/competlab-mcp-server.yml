@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__competlab__competlab-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: competlab/competlab-mcp-server
         extracted_url: https://github.com/competlab/competlab-mcp-server
-        surrounding_text: "- [competlab/competlab-mcp-server](https://github.com/competlab/competlab-mcp-server) [![competlab-mcp-server MCP server](https://glama.ai/mcp/servers/competlab/competlab-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/competlab/competlab-mcp-server) 📇 ☁️ - Competitive intelligence platform with 24 tools. Monitor competitor pricing, content, positioning, tech stacks, and AI visibility — track how ChatGPT, Claude, and Gemini rank your brand."
+        surrounding_text: >-
+          - [competlab/competlab-mcp-server](https://github.com/competlab/competlab-mcp-server) [![competlab-mcp-server
+          MCP
+          server](https://glama.ai/mcp/servers/competlab/competlab-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/competlab/competlab-mcp-server)
+          📇 ☁️ - Competitive intelligence platform with 24 tools. Monitor competitor pricing, content, positioning,
+          tech stacks, and AI visibility — track how ChatGPT, Claude, and Gemini rank your brand.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: competlab/competlab-mcp-server
     html_url: https://github.com/competlab/competlab-mcp-server
-    created_at: "2026-03-21T12:43:28Z"
-    pushed_at: "2026-07-08T14:13:09Z"
+    created_at: '2026-03-21T12:43:28Z'
+    pushed_at: '2026-07-08T14:13:09Z'
     description: Competitive intelligence MCP server — monitor competitors and track how AI ranks your brand
     homepage: https://competlab.com/developers/mcp
     topics:
@@ -41,13 +46,17 @@ metadata:
       - mcp-server
       - model-context-protocol
       - model-context-protocol-server
-    last_checked_at: "2026-09-14T04:13:27.967Z"
+    last_checked_at: '2026-09-14T04:13:27.967Z'
     readme:
-      fetched_at: "2026-09-14T04:13:27.967Z"
+      fetched_at: '2026-09-14T04:13:27.967Z'
       bytes: 17949
 insights:
-  summary: MCP server providing competitive intelligence data (including AI visibility rankings) to AI agents via Model Context Protocol.
-  why_it_matters: Lets developers integrate brand/competitor tracking data from CompetLab into their AI agent workflows through MCP-compatible clients.
+  summary: >-
+    MCP server providing competitive intelligence data (including AI visibility rankings) to AI agents via Model Context
+    Protocol.
+  why_it_matters: >-
+    Lets developers integrate brand/competitor tracking data from CompetLab into their AI agent workflows through
+    MCP-compatible clients.
   mental_damage: Now your AI agent can obsess over your brand's search rankings while you pretend to write code.
   tags:
     - mcp-server
@@ -57,31 +66,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the product identity here - this is explicitly an MCP server exposing CompetLab's competitive intelligence data through the protocol.
+  reason: >-
+    MCP is the product identity here - this is explicitly an MCP server exposing CompetLab's competitive intelligence
+    data through the protocol.
   evidence:
     - Repo description explicitly identifies it as a 'Competitive intelligence MCP server'
     - README shows it implements MCP protocol with both HTTP and stdio transports
     - Product is listed in Glama MCP registry
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:27.967Z"
+    updated_at: '2026-09-14T04:13:27.967Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:09:01.300Z"
+    updated_at: '2026-08-27T06:09:01.300Z'
     cause: null
     next_retry_at: null
     attempts: 4
@@ -94,7 +106,9 @@ processing:
       input_hash: sha256:2a732d5a26598c83c97f1f657c63d5be463c4aff1964f399d46ce8e6e44a9f38
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the product identity here - this is explicitly an MCP server exposing CompetLab's competitive intelligence data through the protocol.
+      decision_reason: >-
+        MCP is the product identity here - this is explicitly an MCP server exposing CompetLab's competitive
+        intelligence data through the protocol.
       decision_evidence:
         - Repo description explicitly identifies it as a 'Competitive intelligence MCP server'
         - README shows it implements MCP protocol with both HTTP and stdio transports
@@ -102,6 +116,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific data, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific data, not
+        an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

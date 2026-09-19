@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__atlan__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Official Servers
         anchor_text: Atlan
         extracted_url: https://atlan.com
-        surrounding_text: "- **[Atlan](https://github.com/atlanhq/agent-toolkit/tree/main/modelcontextprotocol)** - Official MCP Server from [Atlan](https://atlan.com) which enables you to bring the power of metadata to your AI tools"
+        surrounding_text: >-
+          - **[Atlan](https://github.com/atlanhq/agent-toolkit/tree/main/modelcontextprotocol)** - Official MCP Server
+          from [Atlan](https://atlan.com) which enables you to bring the power of metadata to your AI tools
         confidence: high
 metadata:
   github:
@@ -36,9 +38,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An enterprise context layer that unifies business logic, data lineage, and institutional knowledge into a graph for AI agents.
-  why_it_matters: It solves the 'issing context' problem by providing agents with the semantic meaning and governance required to act on enterprise data accurately.
-  mental_damage: Because apparently, our models are smart, but they still can't figure out what 'evenue' actually means in your specific SQL table.
+  summary: >-
+    An enterprise context layer that unifies business logic, data lineage, and institutional knowledge into a graph for
+    AI agents.
+  why_it_matters: >-
+    It solves the 'issing context' problem by providing agents with the semantic meaning and governance required to act
+    on enterprise data accurately.
+  mental_damage: >-
+    Because apparently, our models are smart, but they still can't figure out what 'evenue' actually means in your
+    specific SQL table.
   tags:
     - context-engineering
     - enterprise-data
@@ -48,21 +56,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Atlan's core value is building and serving a semantic/business context layer to existing agents rather than being the agent itself.
+  reason: >-
+    Atlan's core value is building and serving a semantic/business context layer to existing agents rather than being
+    the agent itself.
   evidence:
     - Claims to be the 'issing context layer for enterprise AI'
     - Provides an MCP server to deliver certified context to downstream agents
     - Focuses on semantic/ontology/lineage to solve agent hallucination
 placement:
-  primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  primary_category: mcp
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +82,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:23:40.280Z"
+    updated_at: '2026-07-20T15:23:40.280Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +95,9 @@ processing:
       input_hash: sha256:229e95b15df815173e271e9360c1c2dcb6db79061ec1d6fa914e9beb0649a884
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: Atlan's core value is building and serving a semantic/business context layer to existing agents rather than being the agent itself.
+      decision_reason: >-
+        Atlan's core value is building and serving a semantic/business context layer to existing agents rather than
+        being the agent itself.
       decision_evidence:
         - Claims to be the 'issing context layer for enterprise AI'
         - Provides an MCP server to deliver certified context to downstream agents
@@ -92,6 +105,8 @@ processing:
       category_candidates:
         - context-engineering
         - mcp
-      contrastive_reason: "Choose context-engineering over mcp because MCP is the delivery mechanism for their primary product identity: the enterprise context layer."
+      contrastive_reason: >-
+        Choose context-engineering over mcp because MCP is the delivery mechanism for their primary product identity:
+        the enterprise context layer.
       review_reason: null
       review_resume_lifecycle: null

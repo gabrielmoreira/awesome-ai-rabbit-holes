@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alilxxey__openobserve-community-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📊 <a name="monitoring"></a>Monitoring
         anchor_text: alilxxey/openobserve-community-mcp
         extracted_url: https://github.com/alilxxey/openobserve-community-mcp
-        surrounding_text: "- [alilxxey/openobserve-community-mcp](https://github.com/alilxxey/openobserve-community-mcp) [![alilxxey/openobserve-community-mcp MCP server](https://glama.ai/mcp/servers/alilxxey/openobserve-community-mcp/badges/score.svg)](https://glama.ai/mcp/servers/alilxxey/openobserve-community-mcp) 🐍 🏠 🍎 🪟 🐧 - Read-only MCP server for OpenObserve Community Edition via REST API. Search logs, traces, stream schemas, and dashboards without requiring the Enterprise license."
+        surrounding_text: >-
+          - [alilxxey/openobserve-community-mcp](https://github.com/alilxxey/openobserve-community-mcp)
+          [![alilxxey/openobserve-community-mcp MCP
+          server](https://glama.ai/mcp/servers/alilxxey/openobserve-community-mcp/badges/score.svg)](https://glama.ai/mcp/servers/alilxxey/openobserve-community-mcp)
+          🐍 🏠 🍎 🪟 🐧 - Read-only MCP server for OpenObserve Community Edition via REST API. Search logs, traces,
+          stream schemas, and dashboards without requiring the Enterprise license.
         confidence: high
 metadata:
   github:
@@ -30,18 +35,20 @@ metadata:
     archived: false
     full_name: alilxxey/openobserve-community-mcp
     html_url: https://github.com/alilxxey/openobserve-community-mcp
-    created_at: "2026-03-21T16:08:54Z"
-    pushed_at: "2026-03-24T07:57:24Z"
+    created_at: '2026-03-21T16:08:54Z'
+    pushed_at: '2026-03-24T07:57:24Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:41.232Z"
+    last_checked_at: '2026-09-17T04:13:41.232Z'
     readme:
-      fetched_at: "2026-09-17T04:13:41.232Z"
+      fetched_at: '2026-09-17T04:13:41.232Z'
       bytes: 6663
 insights:
   summary: An MCP server that exposes OpenObserve Community Edition's REST API as tools for MCP clients like Claude and Codex.
-  why_it_matters: Lets developers query OpenObserve logs, dashboards, and traces directly from their AI coding assistant without leaving the workflow.
+  why_it_matters: >-
+    Lets developers query OpenObserve logs, dashboards, and traces directly from their AI coding assistant without
+    leaving the workflow.
   mental_damage: Now your AI can blame the logs for your bugs instead of you.
   tags:
     - mcp-server
@@ -52,31 +59,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server whose primary identity is providing OpenObserve API access via MCP, fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is a dedicated MCP server whose primary identity is providing OpenObserve API access via MCP, fitting the MCP
+    Servers & Tooling category.
   evidence:
     - README explicitly describes it as a 'stdio MCP server for OpenObserve Community Edition'
     - Provides MCP tools like list_streams, search_logs, get_dashboard for MCP clients
     - Published as MCP server with glama.ai badge and Docker support
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.601Z"
+    updated_at: '2026-05-06T22:12:15.601Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:41.232Z"
+    updated_at: '2026-09-17T04:13:41.232Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:22:16.842Z"
+    updated_at: '2026-07-21T15:22:16.842Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +99,9 @@ processing:
       input_hash: sha256:f1220c5271a042ee8ff702275c3d091253d49f9e7fcc5c1da7be0a31a0a43f49
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a dedicated MCP server whose primary identity is providing OpenObserve API access via MCP, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is a dedicated MCP server whose primary identity is providing OpenObserve API access via MCP, fitting the
+        MCP Servers & Tooling category.
       decision_evidence:
         - README explicitly describes it as a 'stdio MCP server for OpenObserve Community Edition'
         - Provides MCP tools like list_streams, search_logs, get_dashboard for MCP clients
@@ -97,6 +109,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

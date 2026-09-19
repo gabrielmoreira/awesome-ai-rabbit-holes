@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__gptengineer__app__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - GPT Engineer
         anchor_text: GPT Engineer
         extracted_url: https://gptengineer.app
-        surrounding_text: "## [GPT Engineer](https://gptengineer.app/)"
+        surrounding_text: '## [GPT Engineer](https://gptengineer.app/)'
         confidence: high
 metadata:
   github:
@@ -37,7 +37,9 @@ metadata:
     readme: null
 insights:
   summary: Lovable's AI-powered platform for building apps, websites, and digital products from prompts.
-  why_it_matters: Enables rapid prototyping and deployment of functional apps without deep coding, accelerating idea-to-product cycles for non-specialists and developers alike.
+  why_it_matters: >-
+    Enables rapid prototyping and deployment of functional apps without deep coding, accelerating idea-to-product cycles
+    for non-specialists and developers alike.
   mental_damage: Finally, a way to turn your napkin sketches into a live URL before the caffeine wears off.
   tags:
     - prompt-to-app
@@ -47,21 +49,26 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core value is turning prompts into deployable apps/sites, fitting the app-builders category's prompt-to-app focus.
+  reason: >-
+    The product's core value is turning prompts into deployable apps/sites, fitting the app-builders category's
+    prompt-to-app focus.
   evidence:
     - Site title and description explicitly pitch 'AI App Builder' for creating apps/websites from prompts
-    - Primary page excerpt emphasizes 'Create apps and websites by chatting with AI' and 'deploy it to the world with one click'
+    - >-
+      Primary page excerpt emphasizes 'Create apps and websites by chatting with AI' and 'deploy it to the world with
+      one click'
     - Templates and examples (e.g., ecommerce store, habit tracker) demonstrate prompt-to-app workflow
 placement:
   primary_category: app-builders
-  section: Prompt-to-App Builders
+  secondary_categories: []
+  section: Full App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:27:21.811Z"
+    updated_at: '2026-07-21T15:27:21.811Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -83,14 +90,20 @@ processing:
       input_hash: sha256:d707b84f19a5c569267df76907305f8d036f407f87ed70699b89cd9d6a74282c
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The product's core value is turning prompts into deployable apps/sites, fitting the app-builders category's prompt-to-app focus.
+      decision_reason: >-
+        The product's core value is turning prompts into deployable apps/sites, fitting the app-builders category's
+        prompt-to-app focus.
       decision_evidence:
         - Site title and description explicitly pitch 'AI App Builder' for creating apps/websites from prompts
-        - Primary page excerpt emphasizes 'Create apps and websites by chatting with AI' and 'deploy it to the world with one click'
+        - >-
+          Primary page excerpt emphasizes 'Create apps and websites by chatting with AI' and 'deploy it to the world
+          with one click'
         - Templates and examples (e.g., ecommerce store, habit tracker) demonstrate prompt-to-app workflow
       category_candidates:
         - app-builders
         - ai-frameworks
-      contrastive_reason: Choose app-builders over ai-frameworks because the product is an operated platform for end-users to generate apps, not a code-first SDK for developers to embed.
+      contrastive_reason: >-
+        Choose app-builders over ai-frameworks because the product is an operated platform for end-users to generate
+        apps, not a code-first SDK for developers to embed.
       review_reason: null
       review_resume_lifecycle: null

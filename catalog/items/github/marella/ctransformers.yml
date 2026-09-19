@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__marella__ctransformers__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -19,7 +19,10 @@ provenance:
           - Inference Engine
         anchor_text: CTransformers
         extracted_url: https://github.com/marella/ctransformers
-        surrounding_text: "| [CTransformers](https://github.com/marella/ctransformers)       | - Python bindings for the Transformer models implemented in C/C++ using GGML library | GGML/GPTQ               | Both            | ❌  | C/C++       | Text-Gen      |"
+        surrounding_text: >-
+          | [CTransformers](https://github.com/marella/ctransformers)       | - Python bindings for the Transformer
+          models implemented in C/C++ using GGML library | GGML/GPTQ               | Both            | ❌  | C/C++      
+          | Text-Gen      |
         confidence: high
 metadata:
   github:
@@ -29,22 +32,24 @@ metadata:
     archived: false
     full_name: marella/ctransformers
     html_url: https://github.com/marella/ctransformers
-    created_at: "2023-05-14T22:06:24Z"
-    pushed_at: "2024-01-28T07:37:48Z"
+    created_at: '2023-05-14T22:06:24Z'
+    pushed_at: '2024-01-28T07:37:48Z'
     description: Python bindings for the Transformer models implemented in C/C++ using GGML library.
-    homepage: ""
+    homepage: ''
     topics:
       - ai
       - ctransformers
       - llm
       - transformers
-    last_checked_at: "2026-08-03T05:16:56.067Z"
+    last_checked_at: '2026-08-03T05:16:56.067Z'
     readme:
-      fetched_at: "2026-08-03T05:16:56.067Z"
+      fetched_at: '2026-08-03T05:16:56.067Z'
       bytes: 16227
 insights:
   summary: Python bindings for Transformer models implemented in C/C++ using the GGML library for efficient local inference.
-  why_it_matters: Lets developers run quantized LLMs locally with low overhead by providing a Python interface to GGML-accelerated models.
+  why_it_matters: >-
+    Lets developers run quantized LLMs locally with low overhead by providing a Python interface to GGML-accelerated
+    models.
   mental_damage: Another layer of abstraction to make you forget whether you're running code or just praying to the GGML gods.
   tags:
     - local-ai
@@ -54,31 +59,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a code-first SDK providing Python bindings and provider abstractions for local model inference, fitting the Frameworks & SDKs building blocks definition.
+  reason: >-
+    It is a code-first SDK providing Python bindings and provider abstractions for local model inference, fitting the
+    Frameworks & SDKs building blocks definition.
   evidence:
     - Repo description states it is 'Python bindings for the Transformer models implemented in C/C++ using GGML'.
-    - README demonstrates usage as an imported library (from ctransformers import AutoModelForCausalLM) and integration with LangChain.
+    - >-
+      README demonstrates usage as an imported library (from ctransformers import AutoModelForCausalLM) and integration
+      with LangChain.
     - Listed in awesome-local-ai under the 'Inference Engine' section, confirming its identity as a local model toolkit.
 placement:
-  primary_category: ai-frameworks
-  section: null
+  primary_category: local-ai
+  secondary_categories: []
+  section: Inference Engines
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'local-ai'"
+  reason: 'Categorization review required: placement disagreement: retained ''ai-frameworks'', proposed ''local-ai'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.628Z"
+    updated_at: '2026-05-06T22:12:15.628Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:56.067Z"
+    updated_at: '2026-08-03T05:16:56.067Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:18:20.756Z"
+    updated_at: '2026-07-21T16:18:20.756Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -91,14 +101,20 @@ processing:
       input_hash: sha256:079f86c11448be88370690417778dff1625cf5dbb6bc0ad78a95e953d03433ae
       proposed_primary_category: local-ai
       disagreement: true
-      decision_reason: CTransformers is a local inference runtime with Python bindings for GGML models, making it a core local AI tool rather than an extension or framework.
+      decision_reason: >-
+        CTransformers is a local inference runtime with Python bindings for GGML models, making it a core local AI tool
+        rather than an extension or framework.
       decision_evidence:
-        - "Repo description: Python bindings for Transformer models in C/C++ using GGML library"
-        - "README shows direct model loading and inference: AutoModelForCausalLM.from_pretrained('/path/to/ggml-model.bin')"
+        - 'Repo description: Python bindings for Transformer models in C/C++ using GGML library'
+        - >-
+          README shows direct model loading and inference:
+          AutoModelForCausalLM.from_pretrained('/path/to/ggml-model.bin')
         - Listed in awesome-local-ai under 'Inference Engine' section
       category_candidates:
         - local-ai
         - ai-frameworks
-      contrastive_reason: Choose local-ai over ai-frameworks because the product is primarily a local inference runtime for running models, not a general-purpose AI framework for building agent workflows.
-      review_reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'local-ai'"
+      contrastive_reason: >-
+        Choose local-ai over ai-frameworks because the product is primarily a local inference runtime for running
+        models, not a general-purpose AI framework for building agent workflows.
+      review_reason: 'Categorization review required: placement disagreement: retained ''ai-frameworks'', proposed ''local-ai'''
       review_resume_lifecycle: null

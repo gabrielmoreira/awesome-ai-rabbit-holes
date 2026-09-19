@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lucasduys__forge__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Orchestrators & autonomous loops
         anchor_text: Forge
         extracted_url: https://github.com/lucasduys/forge
-        surrounding_text: "- **[Forge](https://github.com/LucasDuys/forge)** `⭐ 25` — Autonomous spec-driven development loop for Claude Code; three-command pipeline (brainstorm specs, plan task DAGs, execute autonomously) with context survival, backpropagation that traces bugs to spec gaps, and Claude-on-Claude code review. MIT."
+        surrounding_text: >-
+          - **[Forge](https://github.com/LucasDuys/forge)** `⭐ 25` — Autonomous spec-driven development loop for Claude
+          Code; three-command pipeline (brainstorm specs, plan task DAGs, execute autonomously) with context survival,
+          backpropagation that traces bugs to spec gaps, and Claude-on-Claude code review. MIT.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: LucasDuys/forge
     html_url: https://github.com/LucasDuys/forge
-    created_at: "2026-03-21T15:11:27Z"
-    pushed_at: "2026-07-15T10:22:40Z"
-    description: Turn a one-line idea into a branch with tested, reviewed, committed code. The brainstorm-to-commit pipeline for Claude Code.
+    created_at: '2026-03-21T15:11:27Z'
+    pushed_at: '2026-07-15T10:22:40Z'
+    description: >-
+      Turn a one-line idea into a branch with tested, reviewed, committed code. The brainstorm-to-commit pipeline for
+      Claude Code.
     homepage: https://lucasduys.github.io/forge/
     topics:
       - agentic-ai
@@ -53,13 +58,17 @@ metadata:
       - mcp
       - model-context-protocol
       - workflow-automation
-    last_checked_at: "2026-07-30T05:06:08.832Z"
+    last_checked_at: '2026-07-30T05:06:08.832Z'
     readme:
-      fetched_at: "2026-07-30T05:06:08.832Z"
+      fetched_at: '2026-07-30T05:06:08.832Z'
       bytes: 15355
 insights:
-  summary: Forge is a Claude Code plugin that autonomously turns one-line ideas into tested, reviewed, and committed code via a five-phase loop using git worktrees and TDD.
-  why_it_matters: It reduces developer toil by replacing manual context management and iteration loops with an autonomous pipeline that recovers from crashes via disk-persisted state.
+  summary: >-
+    Forge is a Claude Code plugin that autonomously turns one-line ideas into tested, reviewed, and committed code via a
+    five-phase loop using git worktrees and TDD.
+  why_it_matters: >-
+    It reduces developer toil by replacing manual context management and iteration loops with an autonomous pipeline
+    that recovers from crashes via disk-persisted state.
   mental_damage: Finally, a tool that promises to free you from being the context window janitor for your AI pair programmer.
   tags:
     - claude-code
@@ -70,31 +79,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly a native Claude Code plugin that augments the assistant with autonomous workflow capabilities, making it an extension rather than the primary coding assistant.
+  reason: >-
+    The product is explicitly a native Claude Code plugin that augments the assistant with autonomous workflow
+    capabilities, making it an extension rather than the primary coding assistant.
   evidence:
-    - "README states: 'A native Claude Code plugin that turns one-line ideas into reviewed, tested, committed code'"
+    - 'README states: ''A native Claude Code plugin that turns one-line ideas into reviewed, tested, committed code'''
     - Topics include 'claude-code-plugin', confirming its identity as an extension of Claude Code
-    - Source list awesome-cli-coding-agents places it in 'Harnesses & orchestration > Orchestrators & autonomous loops', but primary product identity as a plugin overrides this
+    - >-
+      Source list awesome-cli-coding-agents places it in 'Harnesses & orchestration > Orchestrators & autonomous loops',
+      but primary product identity as a plugin overrides this
 placement:
-  primary_category: ai-dev-extensions
-  section: null
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: Claude Code & Agent Tools
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'coding-agents'"
+  reason: 'Categorization review required: placement disagreement: retained ''ai-dev-extensions'', proposed ''coding-agents'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: '2026-05-06T22:12:15.627Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:08.832Z"
+    updated_at: '2026-07-30T05:06:08.832Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:17:25.929Z"
+    updated_at: '2026-07-21T16:17:25.929Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -107,14 +121,23 @@ processing:
       input_hash: sha256:5c004378e3e5a4448a7515cc4dad661c28fda2ca6c5f7005289e9f09b3fa7851
       proposed_primary_category: coding-agents
       disagreement: true
-      decision_reason: Forge is a developer-facing coding assistant that directly plans, writes, tests, reviews, and commits code, making it a coding agent rather than an extension or orchestrator.
+      decision_reason: >-
+        Forge is a developer-facing coding assistant that directly plans, writes, tests, reviews, and commits code,
+        making it a coding agent rather than an extension or orchestrator.
       decision_evidence:
-        - "Repo description: 'Turn a one-line idea into a branch with tested, reviewed, committed code. The brainstorm-to-commit pipeline for Claude Code.'"
-        - "README: 'Forge replaces you as the glue... writes the spec, plans the tasks, runs them in parallel git worktrees with TDD, reviews the code, verifies it against the acceptance criteria, and commits atomically.'"
-        - "Stars: 55, pushed 2026-07-15, not archived — shows recent activity and early traction."
+        - >-
+          Repo description: 'Turn a one-line idea into a branch with tested, reviewed, committed code. The
+          brainstorm-to-commit pipeline for Claude Code.'
+        - >-
+          README: 'Forge replaces you as the glue... writes the spec, plans the tasks, runs them in parallel git
+          worktrees with TDD, reviews the code, verifies it against the acceptance criteria, and commits atomically.'
+        - 'Stars: 55, pushed 2026-07-15, not archived — shows recent activity and early traction.'
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because Forge acts as the primary coding assistant that plans and executes code changes, rather than mainly augmenting another assistant with host integrations like debugger or browser access.
-      review_reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'coding-agents'"
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because Forge acts as the primary coding assistant that plans and
+        executes code changes, rather than mainly augmenting another assistant with host integrations like debugger or
+        browser access.
+      review_reason: 'Categorization review required: placement disagreement: retained ''ai-dev-extensions'', proposed ''coding-agents'''
       review_resume_lifecycle: null

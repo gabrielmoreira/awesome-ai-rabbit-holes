@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__retio-ai__retio-pagemap__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: Retio-ai/pagemap
         extracted_url: https://github.com/retio-ai/retio-pagemap
-        surrounding_text: "- [Retio-ai/pagemap](https://github.com/Retio-ai/Retio-pagemap) 🐍 🏠 - Compresses ~100K-token HTML into 2-5K-token structured maps while preserving every actionable element. AI agents can read and interact with any web page at 97% fewer tokens."
+        surrounding_text: >-
+          - [Retio-ai/pagemap](https://github.com/Retio-ai/Retio-pagemap) 🐍 🏠 - Compresses ~100K-token HTML into
+          2-5K-token structured maps while preserving every actionable element. AI agents can read and interact with any
+          web page at 97% fewer tokens.
         confidence: high
 metadata:
   github:
@@ -30,19 +33,25 @@ metadata:
     archived: false
     full_name: Retio-ai/Retio-pagemap
     html_url: https://github.com/Retio-ai/Retio-pagemap
-    created_at: "2026-02-16T10:40:49Z"
-    pushed_at: "2026-05-21T08:23:20Z"
+    created_at: '2026-02-16T10:40:49Z'
+    pushed_at: '2026-05-21T08:23:20Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:45.739Z"
+    last_checked_at: '2026-07-20T16:42:45.739Z'
     readme:
-      fetched_at: "2026-07-20T16:42:45.739Z"
+      fetched_at: '2026-07-20T16:42:45.739Z'
       bytes: 14448
 insights:
-  summary: An MCP server that compresses web pages into structured, token-efficient maps so AI agents can read and interact with the browser at a fraction of typical context cost.
-  why_it_matters: It lets coding agents and MCP clients browse, click, and fill forms on real pages without blowing through context windows after two navigations.
-  mental_damage: We have finally invented a browser integration whose main job is to make sure the agent has enough tokens left to hallucinate the checkout flow.
+  summary: >-
+    An MCP server that compresses web pages into structured, token-efficient maps so AI agents can read and interact
+    with the browser at a fraction of typical context cost.
+  why_it_matters: >-
+    It lets coding agents and MCP clients browse, click, and fill forms on real pages without blowing through context
+    windows after two navigations.
+  mental_damage: >-
+    We have finally invented a browser integration whose main job is to make sure the agent has enough tokens left to
+    hallucinate the checkout flow.
   tags:
     - mcp
     - browser-automation
@@ -51,35 +60,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server that gives agents compressed, interactive page maps, and MCP is its explicit identity rather than a side feature.
+  reason: >-
+    The product is an MCP server that gives agents compressed, interactive page maps, and MCP is its explicit identity
+    rather than a side feature.
   evidence:
     - README states 'The browsing MCP server that fits in your context window' and lists 13 MCP tools.
     - Listed in awesome-mcp-servers under Browser Automation with MCP name io.github.Retio-ai/pagemap.
     - Config example shows adding pagemap as an mcpServer in Claude Code, Cursor, Windsurf, and Claude Desktop.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.645Z"
+    updated_at: '2026-05-06T22:12:15.645Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:45.739Z"
+    updated_at: '2026-07-20T16:42:45.739Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

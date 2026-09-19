@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__twitter-username-changes-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/twitter-username-changes-mcp
         extracted_url: https://github.com/kukapay/twitter-username-changes-mcp
-        surrounding_text: "- [kukapay/twitter-username-changes-mcp](https://github.com/kukapay/twitter-username-changes-mcp) 🐍 ☁️ - An MCP server that tracks the historical changes of Twitter usernames."
+        surrounding_text: >-
+          - [kukapay/twitter-username-changes-mcp](https://github.com/kukapay/twitter-username-changes-mcp) 🐍 ☁️ - An
+          MCP server that tracks the historical changes of Twitter usernames.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: kukapay/twitter-username-changes-mcp
     html_url: https://github.com/kukapay/twitter-username-changes-mcp
-    created_at: "2025-04-14T08:19:59Z"
-    pushed_at: "2025-04-14T08:23:37Z"
+    created_at: '2025-04-14T08:19:59Z'
+    pushed_at: '2025-04-14T08:23:37Z'
     description: An MCP server that tracks the historical changes of Twitter usernames.
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:06:01.149Z"
+    last_checked_at: '2026-07-30T05:06:01.149Z'
     readme:
-      fetched_at: "2026-07-30T05:06:01.149Z"
+      fetched_at: '2026-07-30T05:06:01.149Z'
       bytes: 3140
 insights:
   summary: An MCP server that tracks and queries historical changes of Twitter usernames.
-  why_it_matters: Developers can use this to detect potential scam risks by identifying frequent screen name changes in crypto or other projects.
+  why_it_matters: >-
+    Developers can use this to detect potential scam risks by identifying frequent screen name changes in crypto or
+    other projects.
   mental_damage: Now you can spend your evenings cross-referencing Twitter handle histories instead of writing tests.
   tags:
     - mcp-server
@@ -51,31 +55,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server with MCP as its primary identity, providing domain-specific functionality (Twitter username history tracking).
+  reason: >-
+    The product is explicitly an MCP server with MCP as its primary identity, providing domain-specific functionality
+    (Twitter username history tracking).
   evidence:
     - Repo description explicitly states it is 'An MCP server that tracks the historical changes of Twitter usernames'
     - README details MCP integration, server setup, and usage with Claude Desktop
     - Project is built around the MCP protocol as its core identity
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:01.149Z"
+    updated_at: '2026-07-30T05:06:01.149Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:14:21.892Z"
+    updated_at: '2026-07-21T16:14:21.892Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,14 +95,20 @@ processing:
       input_hash: sha256:695bb52cff579d5a55792a4df31e81769682dbe3b1c0bddeba81c37e054252d3
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server with MCP as its primary identity, providing domain-specific functionality (Twitter username history tracking).
+      decision_reason: >-
+        The product is explicitly an MCP server with MCP as its primary identity, providing domain-specific
+        functionality (Twitter username history tracking).
       decision_evidence:
-        - Repo description explicitly states it is 'An MCP server that tracks the historical changes of Twitter usernames'
+        - >-
+          Repo description explicitly states it is 'An MCP server that tracks the historical changes of Twitter
+          usernames'
         - README details MCP integration, server setup, and usage with Claude Desktop
         - Project is built around the MCP protocol as its core identity
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

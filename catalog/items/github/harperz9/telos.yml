@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__harperz9__telos__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,15 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: HarperZ9/telos
         extracted_url: https://github.com/harperz9/telos
-        surrounding_text: "- [HarperZ9/telos](https://github.com/HarperZ9/telos) [![HarperZ9/telos MCP server](https://glama.ai/mcp/servers/HarperZ9/telos/badges/score.svg)](https://glama.ai/mcp/servers/HarperZ9/telos) 🐍 📇 🏠 🍎 🪟 🐧 - Local-first Project Telos MCP tool line for inspectable AI work: source intake, workspace context, routing ledgers, action receipts, and MATCH / DRIFT / UNVERIFIABLE verification packets across 5 stdio servers."
+        surrounding_text: >-
+          - [HarperZ9/telos](https://github.com/HarperZ9/telos) [![HarperZ9/telos MCP
+          server](https://glama.ai/mcp/servers/HarperZ9/telos/badges/score.svg)](https://glama.ai/mcp/servers/HarperZ9/telos)
+          🐍 📇 🏠 🍎 🪟 🐧 - Local-first Project Telos MCP tool line for inspectable AI work: source intake, workspace
+          context, routing ledgers, action receipts, and MATCH / DRIFT / UNVERIFIABLE verification packets across 5
+          stdio servers.
         confidence: high
     - id: discovery__github__harperz9__telos__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-09-17T04:13:23.413Z"
+      discovered_at: '2026-09-17T04:13:23.413Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -36,7 +41,11 @@ provenance:
           - 💻 Developer Tools
         anchor_text: HarperZ9/telos
         extracted_url: https://github.com/harperz9/telos
-        surrounding_text: "-   **[HarperZ9/telos](https://github.com/HarperZ9/telos)** [![GitHub stars](https://img.shields.io/github/stars/HarperZ9/telos?style=social)](https://github.com/HarperZ9/telos): Local-first MCP/CLI workbench for inspectable AI-assisted development, with source provenance, workspace maps, routing ledgers, action receipts, context packs, and verification doctors."
+        surrounding_text: >-
+          -   **[HarperZ9/telos](https://github.com/HarperZ9/telos)** [![GitHub
+          stars](https://img.shields.io/github/stars/HarperZ9/telos?style=social)](https://github.com/HarperZ9/telos):
+          Local-first MCP/CLI workbench for inspectable AI-assisted development, with source provenance, workspace maps,
+          routing ledgers, action receipts, context packs, and verification doctors.
         confidence: high
 metadata:
   github:
@@ -46,8 +55,8 @@ metadata:
     archived: false
     full_name: HarperZ9/telos
     html_url: https://github.com/HarperZ9/telos
-    created_at: "2026-06-25T00:02:38Z"
-    pushed_at: "2026-08-03T03:19:11Z"
+    created_at: '2026-06-25T00:02:38Z'
+    pushed_at: '2026-08-03T03:19:11Z'
     description: Build shared AI workspaces for creation, simulation, verification, MCP tools, and replayable receipts.
     homepage: https://harperz9.github.io/studio.html
     topics:
@@ -61,14 +70,18 @@ metadata:
       - mcp-server
       - model-context-protocol
       - python
-    last_checked_at: "2026-08-03T05:16:50.707Z"
+    last_checked_at: '2026-08-03T05:16:50.707Z'
     readme:
-      fetched_at: "2026-08-03T05:16:50.707Z"
+      fetched_at: '2026-08-03T05:16:50.707Z'
       bytes: 12882
 insights:
   summary: A local workbench for creating, simulating, and replaying AI workflows through an MCP-based tool surface.
-  why_it_matters: It provides a structured environment for deterministic execution and verifiable 'proof packets' to validate AI agent actions.
-  mental_damage: It promises a 'erifiable' reality in an ecosystem where most agentic behavior is just hallucination with a higher confidence score.
+  why_it_matters: >-
+    It provides a structured environment for deterministic execution and verifiable 'proof packets' to validate AI agent
+    actions.
+  mental_damage: >-
+    It promises a 'erifiable' reality in an ecosystem where most agentic behavior is just hallucination with a higher
+    confidence score.
   tags:
     - mcp
     - agent-orchestration
@@ -84,27 +97,28 @@ curation:
     - Primary interface is via stdio MCP server
     - Provides ready-to-paste config for Claude and OpenAI Agents
 placement:
-  primary_category: mcp
-  section: Generic Servers & Middleware
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-17T04:13:23.415Z"
+    updated_at: '2026-09-17T04:13:23.415Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-03T05:16:58.708Z"
+    updated_at: '2026-09-03T05:16:58.708Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for harperz9/telos
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-16T05:17:19.320Z"
+    updated_at: '2026-07-16T05:17:19.320Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

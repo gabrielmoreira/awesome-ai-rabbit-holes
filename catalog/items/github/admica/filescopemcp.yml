@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__admica__filescopemcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: admica/FileScopeMCP
         extracted_url: https://github.com/admica/filescopemcp
-        surrounding_text: "- [admica/FileScopeMCP](https://github.com/admica/FileScopeMCP) 🐍 📇 🦀 - Analyzes your codebase identifying important files based on dependency relationships. Generates diagrams and importance scores, helping AI assistants understand the codebase."
+        surrounding_text: >-
+          - [admica/FileScopeMCP](https://github.com/admica/FileScopeMCP) 🐍 📇 🦀 - Analyzes your codebase identifying
+          important files based on dependency relationships. Generates diagrams and importance scores, helping AI
+          assistants understand the codebase.
         confidence: high
     - id: discovery__github__admica__filescopemcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +38,11 @@ provenance:
           - Community Servers
         anchor_text: FileScopeMCP
         extracted_url: https://github.com/admica/filescopemcp
-        surrounding_text: "- **[FileScopeMCP](https://github.com/admica/FileScopeMCP)** - Analyzes your codebase identifying important files based on dependency relationships. Generates diagrams and importance scores per file, helping AI assistants understand the codebase. Automatically parses popular programming languages, Python, Lua, C, C++, Rust, Zig."
+        surrounding_text: >-
+          - **[FileScopeMCP](https://github.com/admica/FileScopeMCP)** - Analyzes your codebase identifying important
+          files based on dependency relationships. Generates diagrams and importance scores per file, helping AI
+          assistants understand the codebase. Automatically parses popular programming languages, Python, Lua, C, C++,
+          Rust, Zig.
         confidence: high
 metadata:
   github:
@@ -45,19 +52,26 @@ metadata:
     archived: false
     full_name: admica/FileScopeMCP
     html_url: https://github.com/admica/FileScopeMCP
-    created_at: "2025-03-27T19:35:07Z"
-    pushed_at: "2026-05-10T23:41:16Z"
-    description: Analyzes your codebase identifying important files based on dependency relationships. Generates diagrams and importance scores per file, helping AI assistants understand the codebase. Automatically parses popular programming languages such as Python, C, C++, Rust, Zig, Lua.
+    created_at: '2025-03-27T19:35:07Z'
+    pushed_at: '2026-05-10T23:41:16Z'
+    description: >-
+      Analyzes your codebase identifying important files based on dependency relationships. Generates diagrams and
+      importance scores per file, helping AI assistants understand the codebase. Automatically parses popular
+      programming languages such as Python, C, C++, Rust, Zig, Lua.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:30.331Z"
+    last_checked_at: '2026-09-17T04:13:30.331Z'
     readme:
-      fetched_at: "2026-09-17T04:13:30.331Z"
+      fetched_at: '2026-09-17T04:13:30.331Z'
       bytes: 10617
 insights:
   summary: An MCP server that analyzes codebase dependencies and importance scores to provide context to AI assistants.
-  why_it_matters: It helps LLMs navigate complex repositories by ranking file importance and mapping symbol dependencies so the model doesn't waste context on irrelevant files.
-  mental_damage: Finally, a way to formalize the process of explaining your messy architecture to a chatbot that keeps hallucinating circular dependencies.
+  why_it_matters: >-
+    It helps LLMs navigate complex repositories by ranking file importance and mapping symbol dependencies so the model
+    doesn't waste context on irrelevant files.
+  mental_damage: >-
+    Finally, a way to formalize the process of explaining your messy architecture to a chatbot that keeps hallucinating
+    circular dependencies.
   tags:
     - mcp
     - context-engineering
@@ -66,31 +80,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server designed to provide specialized codebase intelligence to MCP-compliant hosts like Claude Code.
+  reason: >-
+    The project is explicitly an MCP server designed to provide specialized codebase intelligence to MCP-compliant hosts
+    like Claude Code.
   evidence:
     - Explicitly identifies as FileScopeMCP in the name and README
     - Provides MCP tools like `find_important_files` and `find_symbol` for use in MCP clients
     - Integrates with Claude Code and Hermes Agent via the Model Context Protocol
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (290) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.581Z"
+    updated_at: '2026-05-06T22:12:15.581Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:30.331Z"
+    updated_at: '2026-09-17T04:13:30.331Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:58:40.284Z"
+    updated_at: '2026-07-20T15:58:40.284Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -103,7 +120,9 @@ processing:
       input_hash: sha256:d87caa26c89b2db51705b95ca1f16d20896f17f4e2537b5e6d5ee81eecba4f04
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is explicitly an MCP server designed to provide specialized codebase intelligence to MCP-compliant hosts like Claude Code.
+      decision_reason: >-
+        The project is explicitly an MCP server designed to provide specialized codebase intelligence to MCP-compliant
+        hosts like Claude Code.
       decision_evidence:
         - Explicitly identifies as FileScopeMCP in the name and README
         - Provides MCP tools like `find_important_files` and `find_symbol` for use in MCP clients
@@ -111,6 +130,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product's primary identity and distribution method is as an MCP server for external agents.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the product's primary identity and distribution method is as an MCP
+        server for external agents.
       review_reason: null
       review_resume_lifecycle: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__discord__com__invite__35nf4y8wse__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,9 @@ provenance:
           - Check out E2B - Code Interpreting for AI apps
         anchor_text: on Discord
         extracted_url: https://discord.gg/35NF4Y8WSE
-        surrounding_text: "- Contact us at [hello@e2b.dev](mailto:hello@e2b.dev) or [on Discord](https://discord.gg/35NF4Y8WSE). Follow us on [X (Twitter)](https://twitter.com/e2b)"
+        surrounding_text: >-
+          - Contact us at [hello@e2b.dev](mailto:hello@e2b.dev) or [on Discord](https://discord.gg/35NF4Y8WSE). Follow
+          us on [X (Twitter)](https://twitter.com/e2b)
         confidence: high
 metadata:
   github:
@@ -38,7 +40,9 @@ metadata:
 insights:
   summary: The official Discord community for E2B, a runtime sandbox designed for executing code within AI applications.
   why_it_matters: It provides a direct line to the developer community building sandboxed execution environments for LLM agents.
-  mental_damage: Another community to join in the frantic race to figure out how to safely let an LLM run `rm -rf` on your infrastructure.
+  mental_damage: >-
+    Another community to join in the frantic race to figure out how to safely let an LLM run `rm -rf` on your
+    infrastructure.
   tags:
     - community
     - runtime
@@ -53,14 +57,14 @@ curation:
     - Source-list context places it as a community for E2B runtime sandbox
 placement:
   primary_category: awesome-awesomes
-  section: Directories & Maps
+  section: Awesome Lists & Directories
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.660Z"
+    updated_at: '2026-05-06T22:12:15.660Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +73,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:38:17.399Z"
+    updated_at: '2026-07-20T15:38:17.399Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -82,7 +86,9 @@ processing:
       input_hash: sha256:8d653898eb01712724d9b0d7545f4f5d5d38fa685cae9e1eea5155ae49bf585e
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: This is a community hub/discussion forum for a specific developer tool (E2B) rather than a standalone tool itself.
+      decision_reason: >-
+        This is a community hub/discussion forum for a specific developer tool (E2B) rather than a standalone tool
+        itself.
       decision_evidence:
         - Scraped site context identifies it as a Discord server
         - Source-list context places it as a community for E2B runtime sandbox

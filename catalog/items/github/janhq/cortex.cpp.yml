@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__janhq__cortex.cpp__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -19,7 +19,9 @@ provenance:
           - Inference Engine
         anchor_text: Cortex
         extracted_url: https://github.com/janhq/cortex.cpp
-        surrounding_text: "| [Cortex](https://github.com/janhq/cortex.cpp)                   | - Multi-engine engine embeddable in your apps. Uses llama.cpp and more                | Both                    | Both            | ❌  | Text-Gen    |"
+        surrounding_text: >-
+          | [Cortex](https://github.com/janhq/cortex.cpp)                   | - Multi-engine engine embeddable in your
+          apps. Uses llama.cpp and more                | Both                    | Both            | ❌  | Text-Gen    |
         confidence: high
 metadata:
   github:
@@ -29,8 +31,8 @@ metadata:
     archived: true
     full_name: janhq/cortex.cpp
     html_url: https://github.com/janhq/cortex.cpp
-    created_at: "2023-09-11T03:56:09Z"
-    pushed_at: "2025-07-04T07:38:05Z"
+    created_at: '2023-09-11T03:56:09Z'
+    pushed_at: '2025-07-04T07:38:05Z'
     description: Local AI API Platform
     homepage: https://cortex.so
     topics:
@@ -38,14 +40,18 @@ metadata:
       - llamacpp
       - onnx
       - onnxruntime
-    last_checked_at: "2026-07-30T05:05:47.781Z"
+    last_checked_at: '2026-07-30T05:05:47.781Z'
     readme:
-      fetched_at: "2026-07-30T05:05:47.781Z"
+      fetched_at: '2026-07-30T05:05:47.781Z'
       bytes: 6096
 insights:
   summary: cortex.cpp is a local AI API platform for running GGUF and ONNX models via a local inference server.
-  why_it_matters: It lets developers run open-weight models locally with minimal setup, reducing dependency on external APIs for AI prototyping.
-  mental_damage: Another local inference wrapper promising 'API compatibility' while quietly hoping you won't notice it's just llama.cpp with a prettier README.
+  why_it_matters: >-
+    It lets developers run open-weight models locally with minimal setup, reducing dependency on external APIs for AI
+    prototyping.
+  mental_damage: >-
+    Another local inference wrapper promising 'API compatibility' while quietly hoping you won't notice it's just
+    llama.cpp with a prettier README.
   tags:
     - local-ai
     - inference
@@ -53,31 +59,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: cortex.cpp is a local inference server focused on running models on-user hardware, making it a clear fit for the Local AI category despite being archived, as it still serves its core purpose as a runtime for local AI workloads.
+  reason: >-
+    cortex.cpp is a local inference server focused on running models on-user hardware, making it a clear fit for the
+    Local AI category despite being archived, as it still serves its core purpose as a runtime for local AI workloads.
   evidence:
-    - "Repo description: 'Local AI API Platform'"
+    - 'Repo description: ''Local AI API Platform'''
     - Topics include gguf and llamacpp, indicating local model execution focus
     - Listed in awesome-local-ai under 'Inference Engine' section
 placement:
   primary_category: local-ai
-  section: Local Serving / APIs
+  secondary_categories: []
+  section: Local API Servers
 lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:47.781Z"
+    updated_at: '2026-07-30T05:05:47.781Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:54:28.199Z"
+    updated_at: '2026-05-12T15:54:28.199Z'
     cause: null
     next_retry_at: null
     attempts: 2

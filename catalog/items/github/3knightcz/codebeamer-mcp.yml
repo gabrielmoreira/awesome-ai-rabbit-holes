@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__3knightcz__codebeamer-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: 3KniGHtcZ/codebeamer-mcp
         extracted_url: https://github.com/3knightcz/codebeamer-mcp
-        surrounding_text: "- [3KniGHtcZ/codebeamer-mcp](https://github.com/3KniGHtcZ/codebeamer-mcp) [![codebeamer-mcp MCP server](https://glama.ai/mcp/servers/3KniGHtcZ/codebeamer-mcp/badges/score.svg)](https://glama.ai/mcp/servers/3KniGHtcZ/codebeamer-mcp) 📇 ☁️ 🍎 🪟 🐧 - Codebeamer ALM integration for managing work items, trackers, and projects. Provides 17 tools for reading and writing items, associations, references, comments, and risk management data via Codebeamer REST API v3."
+        surrounding_text: >-
+          - [3KniGHtcZ/codebeamer-mcp](https://github.com/3KniGHtcZ/codebeamer-mcp) [![codebeamer-mcp MCP
+          server](https://glama.ai/mcp/servers/3KniGHtcZ/codebeamer-mcp/badges/score.svg)](https://glama.ai/mcp/servers/3KniGHtcZ/codebeamer-mcp)
+          📇 ☁️ 🍎 🪟 🐧 - Codebeamer ALM integration for managing work items, trackers, and projects. Provides 17 tools
+          for reading and writing items, associations, references, comments, and risk management data via Codebeamer
+          REST API v3.
         confidence: high
 metadata:
   github:
@@ -30,19 +35,23 @@ metadata:
     archived: false
     full_name: 3KniGHtcZ/codebeamer-mcp
     html_url: https://github.com/3KniGHtcZ/codebeamer-mcp
-    created_at: "2026-03-01T13:33:16Z"
-    pushed_at: "2026-06-15T06:11:06Z"
+    created_at: '2026-03-01T13:33:16Z'
+    pushed_at: '2026-06-15T06:11:06Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:26.290Z"
+    last_checked_at: '2026-09-17T04:13:26.290Z'
     readme:
-      fetched_at: "2026-09-17T04:13:26.290Z"
+      fetched_at: '2026-09-17T04:13:26.290Z'
       bytes: 6636
 insights:
   summary: An MCP server that enables AI assistants to read and write data within Codebeamer ALM via natural language.
-  why_it_matters: It allows developers to manage project requirements, trackers, and traceability directly through MCP-compatible AI clients like Claude or Cursor.
-  mental_damage: Another way to let an LLM perform bulk updates on your requirements traceability matrix based on a single misunderstood prompt.
+  why_it_matters: >-
+    It allows developers to manage project requirements, trackers, and traceability directly through MCP-compatible AI
+    clients like Claude or Cursor.
+  mental_damage: >-
+    Another way to let an LLM perform bulk updates on your requirements traceability matrix based on a single
+    misunderstood prompt.
   tags:
     - mcp
     - codebeamer
@@ -59,24 +68,25 @@ curation:
     - Supports integration with Claude, Cursor, and Windsurf via the Model Context Protocol
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.598Z"
+    updated_at: '2026-05-06T22:12:15.598Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:26.290Z"
+    updated_at: '2026-09-17T04:13:26.290Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:15:24.458Z"
+    updated_at: '2026-08-27T06:15:24.458Z'
     cause: null
     attempts: 4
     prompt_version: catalog-categorize-v5-single-template
@@ -97,6 +107,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because its core identity is a protocol-compliant server designed to bridge a specific domain to MCP clients rather than just a general host integration.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because its core identity is a protocol-compliant server designed to bridge a
+        specific domain to MCP clients rather than just a general host integration.
       review_reason: null
       review_resume_lifecycle: null

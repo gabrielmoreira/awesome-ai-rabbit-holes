@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__allyson__ai__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Official Servers
         anchor_text: Allyson
         extracted_url: https://allyson.ai
-        surrounding_text: "- **[Allyson](https://github.com/isaiahbjork/allyson-mcp)** - AI-powered SVG animation generator that transforms static files into animated SVG components using the [Allyson](https://allyson.ai) platform"
+        surrounding_text: >-
+          - **[Allyson](https://github.com/isaiahbjork/allyson-mcp)** - AI-powered SVG animation generator that
+          transforms static files into animated SVG components using the [Allyson](https://allyson.ai) platform
         confidence: high
 metadata:
   github:
@@ -46,20 +48,23 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly listed as an MCP server in the awesome-mcp-servers directory, making it core MCP infrastructure.
+  reason: >-
+    The project is explicitly listed as an MCP server in the awesome-mcp-servers directory, making it core MCP
+    infrastructure.
   evidence:
     - Listed in awesome-mcp-servers under Official Servers
     - URL identifies as allyson.ai MCP integration
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.658Z"
+    updated_at: '2026-05-06T22:12:15.658Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +73,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:21:12.356Z"
+    updated_at: '2026-07-20T15:21:12.356Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -81,13 +86,17 @@ processing:
       input_hash: sha256:5904690fa94984b9a5d89f31c44f740b07ee2064faf2ce66b3f148ecf8acf5f4
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is explicitly listed as an MCP server in the awesome-mcp-servers directory, making it core MCP infrastructure.
+      decision_reason: >-
+        The project is explicitly listed as an MCP server in the awesome-mcp-servers directory, making it core MCP
+        infrastructure.
       decision_evidence:
         - Listed in awesome-mcp-servers under Official Servers
         - URL identifies as allyson.ai MCP integration
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is being an MCP server rather than an extension for a specific IDE.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is being an MCP server rather than an
+        extension for a specific IDE.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__humansignal__label-studio-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🧮 <a name="data-science-tools"></a>Data Science Tools
         anchor_text: HumanSignal/label-studio-mcp-server
         extracted_url: https://github.com/humansignal/label-studio-mcp-server
-        surrounding_text: "- [HumanSignal/label-studio-mcp-server](https://github.com/HumanSignal/label-studio-mcp-server) 🎖️ 🐍 ☁️ 🪟 🐧 🍎 - Create, manage, and automate Label Studio projects, tasks, and predictions for data labeling workflows."
+        surrounding_text: >-
+          - [HumanSignal/label-studio-mcp-server](https://github.com/HumanSignal/label-studio-mcp-server) 🎖️ 🐍 ☁️ 🪟
+          🐧 🍎 - Create, manage, and automate Label Studio projects, tasks, and predictions for data labeling
+          workflows.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,20 @@ metadata:
     archived: false
     full_name: HumanSignal/label-studio-mcp-server
     html_url: https://github.com/HumanSignal/label-studio-mcp-server
-    created_at: "2025-04-25T15:19:31Z"
-    pushed_at: "2025-05-30T10:03:53Z"
+    created_at: '2025-04-25T15:19:31Z'
+    pushed_at: '2025-05-30T10:03:53Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:40.285Z"
+    last_checked_at: '2026-07-30T05:05:40.285Z'
     readme:
-      fetched_at: "2026-07-30T05:05:40.285Z"
+      fetched_at: '2026-07-30T05:05:40.285Z'
       bytes: 5493
 insights:
   summary: An MCP server that enables programmatic interaction with Label Studio for managing projects, tasks, and predictions.
-  why_it_matters: Developers can integrate Label Studio's data labeling workflows directly into MCP-compatible clients, enabling natural language or structured control over labeling projects.
+  why_it_matters: >-
+    Developers can integrate Label Studio's data labeling workflows directly into MCP-compatible clients, enabling
+    natural language or structured control over labeling projects.
   mental_damage: Now your AI assistant can argue with you about labeling guidelines while also managing the tasks.
   tags:
     - mcp
@@ -58,24 +63,24 @@ curation:
     - Exposes tools for project, task, and prediction management via MCP
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.619Z"
+    updated_at: '2026-05-06T22:12:15.619Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:40.285Z"
+    updated_at: '2026-07-30T05:05:40.285Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:06:54.952Z"
+    updated_at: '2026-07-21T16:06:54.952Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,6 +101,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

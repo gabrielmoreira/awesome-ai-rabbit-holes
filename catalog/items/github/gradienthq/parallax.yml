@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gradienthq__parallax__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 推理 Inference
         anchor_text: Parallax
         extracted_url: https://github.com/gradienthq/parallax
-        surrounding_text: "52. [Parallax](https://github.com/GradientHQ/parallax): a distributed model serving framework that lets you build your own AI cluster anywhere."
+        surrounding_text: >-
+          52. [Parallax](https://github.com/GradientHQ/parallax): a distributed model serving framework that lets you
+          build your own AI cluster anywhere.
         confidence: high
 metadata:
   github:
@@ -29,10 +31,10 @@ metadata:
     archived: false
     full_name: GradientHQ/parallax
     html_url: https://github.com/GradientHQ/parallax
-    created_at: "2025-09-22T07:00:51Z"
-    pushed_at: "2026-07-01T07:35:43Z"
+    created_at: '2025-09-22T07:00:51Z'
+    pushed_at: '2026-07-01T07:35:43Z'
     description: Parallax is a distributed model serving framework that lets you build your own AI cluster anywhere
-    homepage: ""
+    homepage: ''
     topics:
       - blackwell
       - chatbot
@@ -51,14 +53,18 @@ metadata:
       - pytorch
       - qwen
       - transformer
-    last_checked_at: "2026-09-03T05:16:53.664Z"
+    last_checked_at: '2026-09-03T05:16:53.664Z'
     readme:
-      fetched_at: "2026-09-03T05:16:53.664Z"
+      fetched_at: '2026-09-03T05:16:53.664Z'
       bytes: 6772
 insights:
   summary: Parallax is a distributed model serving framework for building AI clusters across heterogeneous nodes.
-  why_it_matters: It enables developers to host and serve LLMs on personal devices with cross-platform support and pipeline parallelism, reducing dependency on centralized inference APIs.
-  mental_damage: Finally, a way to turn your old MacBook, your friend’s gaming PC, and that one server you forgot about into a single, slightly chaotic AI supercomputer.
+  why_it_matters: >-
+    It enables developers to host and serve LLMs on personal devices with cross-platform support and pipeline
+    parallelism, reducing dependency on centralized inference APIs.
+  mental_damage: >-
+    Finally, a way to turn your old MacBook, your friend’s gaming PC, and that one server you forgot about into a
+    single, slightly chaotic AI supercomputer.
   tags:
     - distributed-inference
     - llm-serving
@@ -68,31 +74,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product is a code-first framework for distributed model serving, fitting the developer-tooling scope as infrastructure for building AI workflows.
+  reason: >-
+    The core product is a code-first framework for distributed model serving, fitting the developer-tooling scope as
+    infrastructure for building AI workflows.
   evidence:
     - Repo description explicitly calls it a 'distributed model serving framework'
     - README highlights pipeline parallelism, cross-platform support, and P2P communication as core features
     - Source-list context places it under 'Inference' in a curated LLM resources list
 placement:
-  primary_category: ai-frameworks
-  section: Provider / Model Abstractions
+  primary_category: local-ai
+  secondary_categories: []
+  section: Inference Engines
 lifecycle:
   status: promotion_candidate
   reason: Stars (1274) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.617Z"
+    updated_at: '2026-05-06T22:12:15.617Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:53.664Z"
+    updated_at: '2026-09-03T05:16:53.664Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:04:06.037Z"
+    updated_at: '2026-07-21T16:04:06.037Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -105,7 +114,9 @@ processing:
       input_hash: sha256:14061e4dda2a0945f60897e7f5bedcf120c991e54ba01f3b4eb1f380685310d4
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: The core product is a code-first framework for distributed model serving, fitting the developer-tooling scope as infrastructure for building AI workflows.
+      decision_reason: >-
+        The core product is a code-first framework for distributed model serving, fitting the developer-tooling scope as
+        infrastructure for building AI workflows.
       decision_evidence:
         - Repo description explicitly calls it a 'distributed model serving framework'
         - README highlights pipeline parallelism, cross-platform support, and P2P communication as core features
@@ -113,6 +124,8 @@ processing:
       category_candidates:
         - ai-frameworks
         - local-ai
-      contrastive_reason: Choose ai-frameworks over local-ai because the primary identity is a distributed serving framework (code-first) rather than a local runtime or desktop app.
+      contrastive_reason: >-
+        Choose ai-frameworks over local-ai because the primary identity is a distributed serving framework (code-first)
+        rather than a local runtime or desktop app.
       review_reason: null
       review_resume_lifecycle: null

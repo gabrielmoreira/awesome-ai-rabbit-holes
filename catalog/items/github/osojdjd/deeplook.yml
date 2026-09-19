@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__osojdjd__deeplook__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: OSOJDJD/deeplook
         extracted_url: https://github.com/osojdjd/deeplook
-        surrounding_text: "- [OSOJDJD/deeplook](https://github.com/OSOJDJD/deeplook) [![OSOJDJD/deeplook MCP server](https://glama.ai/mcp/servers/OSOJDJD/deeplook/badges/score.svg)](https://glama.ai/mcp/servers/OSOJDJD/deeplook) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Free company research agent — 10 data sources, structured reports with bull/bear verdict in ~10 seconds. Stocks, crypto, and private companies."
+        surrounding_text: >-
+          - [OSOJDJD/deeplook](https://github.com/OSOJDJD/deeplook) [![OSOJDJD/deeplook MCP
+          server](https://glama.ai/mcp/servers/OSOJDJD/deeplook/badges/score.svg)](https://glama.ai/mcp/servers/OSOJDJD/deeplook)
+          🐍 ☁️ 🏠 🍎 🪟 🐧 - Free company research agent — 10 data sources, structured reports with bull/bear verdict
+          in ~10 seconds. Stocks, crypto, and private companies.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: OSOJDJD/deeplook
     html_url: https://github.com/OSOJDJD/deeplook
-    created_at: "2026-03-15T03:14:31Z"
-    pushed_at: "2026-05-01T10:34:11Z"
+    created_at: '2026-03-15T03:14:31Z'
+    pushed_at: '2026-05-01T10:34:11Z'
     description: Company intelligence for AI agents — any company, one call
     homepage: https://mcp.deeplook.dev
     topics:
@@ -40,14 +44,20 @@ metadata:
       - mcp
       - mcp-server
       - open-source
-    last_checked_at: "2026-07-20T16:42:28.690Z"
+    last_checked_at: '2026-07-20T16:42:28.690Z'
     readme:
-      fetched_at: "2026-07-20T16:42:28.690Z"
+      fetched_at: '2026-07-20T16:42:28.690Z'
       bytes: 2454
 insights:
-  summary: An MCP server that provides AI agents with real-time financial and company data from 8 APIs to prevent hallucinations in financial research.
-  why_it_matters: Developers building financial agents can plug in one MCP endpoint to replace brittle, hallucinated market data with structured, up-to-date context.
-  mental_damage: Yet another micro-service to manage so your agent can tell you with confidence that a company's market cap is $3 trillion, while your own productivity metrics remain negative.
+  summary: >-
+    An MCP server that provides AI agents with real-time financial and company data from 8 APIs to prevent
+    hallucinations in financial research.
+  why_it_matters: >-
+    Developers building financial agents can plug in one MCP endpoint to replace brittle, hallucinated market data with
+    structured, up-to-date context.
+  mental_damage: >-
+    Yet another micro-service to manage so your agent can tell you with confidence that a company's market cap is $3
+    trillion, while your own productivity metrics remain negative.
   tags:
     - mcp-server
     - finance
@@ -57,35 +67,42 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server providing financial data to AI agents, confirmed by its MCP-first setup instructions and presence in the awesome-mcp-servers list.
+  reason: >-
+    The product's core identity is an MCP server providing financial data to AI agents, confirmed by its MCP-first setup
+    instructions and presence in the awesome-mcp-servers list.
   evidence:
-    - Repo description explicitly states 'Company intelligence for AI agents — any company, one call' and topics include 'mcp' and 'mcp-server'.
-    - Setup instructions are entirely MCP-focused, covering Claude.ai, Cursor, VS Code, Windsurf, and Claude Code MCP connections.
+    - >-
+      Repo description explicitly states 'Company intelligence for AI agents — any company, one call' and topics include
+      'mcp' and 'mcp-server'.
+    - >-
+      Setup instructions are entirely MCP-focused, covering Claude.ai, Cursor, VS Code, Windsurf, and Claude Code MCP
+      connections.
     - Listed in awesome-mcp-servers under 'Finance & Fintech' as a server implementation.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.641Z"
+    updated_at: '2026-05-06T22:12:15.641Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:28.690Z"
+    updated_at: '2026-07-20T16:42:28.690Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

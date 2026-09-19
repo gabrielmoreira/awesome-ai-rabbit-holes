@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alex-on-ai__webreaper__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: alex-on-ai/WebReaper
         extracted_url: https://github.com/alex-on-ai/webreaper
-        surrounding_text: "- [alex-on-ai/WebReaper](https://github.com/alex-on-ai/WebReaper) [![alex-on-ai/WebReaper MCP server](https://glama.ai/mcp/servers/alex-on-ai/WebReaper/badges/score.svg)](https://glama.ai/mcp/servers/alex-on-ai/WebReaper) #️⃣ 🏠 🍎 🪟 🐧 - AI-native web scraper MCP server. Single binary, returns clean markdown, MIT-licensed Firecrawl alternative."
+        surrounding_text: >-
+          - [alex-on-ai/WebReaper](https://github.com/alex-on-ai/WebReaper) [![alex-on-ai/WebReaper MCP
+          server](https://glama.ai/mcp/servers/alex-on-ai/WebReaper/badges/score.svg)](https://glama.ai/mcp/servers/alex-on-ai/WebReaper)
+          #️⃣ 🏠 🍎 🪟 🐧 - AI-native web scraper MCP server. Single binary, returns clean markdown, MIT-licensed
+          Firecrawl alternative.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: alex-on-ai/WebReaper
     html_url: https://github.com/alex-on-ai/WebReaper
-    created_at: "2022-04-12T21:59:25Z"
-    pushed_at: "2026-07-11T12:19:45Z"
+    created_at: '2022-04-12T21:59:25Z'
+    pushed_at: '2026-07-11T12:19:45Z'
     description: AI-native web scraper. Single binary with a bundled Claude Code skill. MIT-licensed alternative to Firecrawl.
     homepage: https://webreaper.ai
     topics:
@@ -52,14 +56,18 @@ metadata:
       - scraping-websites
       - webcrawler
       - webscraping
-    last_checked_at: "2026-09-17T04:13:39.143Z"
+    last_checked_at: '2026-09-17T04:13:39.143Z'
     readme:
-      fetched_at: "2026-09-17T04:13:39.143Z"
+      fetched_at: '2026-09-17T04:13:39.143Z'
       bytes: 31514
 insights:
   summary: An AI-native web scraper and crawler that provides markdown output and includes a bundled Claude Code skill.
-  why_it_matters: It enables developers to feed structured web content directly into coding agents or applications via a single binary or.NET library.
-  mental_damage: Another way to feed the LLM an infinite stream of web-scraped markdown while pretending the bot won't eventually find our search history.
+  why_it_matters: >-
+    It enables developers to feed structured web content directly into coding agents or applications via a single binary
+    or.NET library.
+  mental_damage: >-
+    Another way to feed the LLM an infinite stream of web-scraped markdown while pretending the bot won't eventually
+    find our search history.
   tags:
     - scraping
     - claude-code
@@ -69,31 +77,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's core value proposition is augmenting coding assistants like Claude Code with web-browsing capabilities via a 'kill'.
+  reason: >-
+    The tool's core value proposition is augmenting coding assistants like Claude Code with web-browsing capabilities
+    via a 'kill'.
   evidence:
     - README explicitly mentions a 'bundled Claude Code skill' and 'WebReaper Agent Skill'
     - Acts as an interface between web content and an LLM assistant
     - Provides both a CLI tool and a.NET library for integration
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: mcp
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.714Z"
+    updated_at: '2026-07-16T05:04:46.714Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:39.143Z"
+    updated_at: '2026-09-17T04:13:39.143Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-16T05:11:46.357Z"
+    updated_at: '2026-07-16T05:11:46.357Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

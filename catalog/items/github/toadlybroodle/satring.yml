@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__toadlybroodle__satring__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: toadlyBroodle/satring
         extracted_url: https://github.com/toadlybroodle/satring
-        surrounding_text: "- [toadlyBroodle/satring](https://github.com/toadlyBroodle/satring/tree/main/mcp) [![toadlyBroodle/satring MCP server](https://glama.ai/mcp/servers/toadlyBroodle/satring/badges/score.svg)](https://glama.ai/mcp/servers/toadlyBroodle/satring) 🐍 ☁️ 🍎 🪟 🐧 - Discover and compare L402 + x402 paid API services from satring.com, the best curated Lightning and USDC API directory."
+        surrounding_text: >-
+          - [toadlyBroodle/satring](https://github.com/toadlyBroodle/satring/tree/main/mcp) [![toadlyBroodle/satring MCP
+          server](https://glama.ai/mcp/servers/toadlyBroodle/satring/badges/score.svg)](https://glama.ai/mcp/servers/toadlyBroodle/satring)
+          🐍 ☁️ 🍎 🪟 🐧 - Discover and compare L402 + x402 paid API services from satring.com, the best curated
+          Lightning and USDC API directory.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: toadlyBroodle/satring
     html_url: https://github.com/toadlyBroodle/satring
-    created_at: "2026-02-13T13:47:40Z"
-    pushed_at: "2026-06-14T07:14:48Z"
+    created_at: '2026-02-13T13:47:40Z'
+    pushed_at: '2026-06-14T07:14:48Z'
     description: Discover, rate, and pay for APIs over Bitcoin Lightning. The L402 + x402 service directory for the agent economy.
     homepage: https://satring.com
     topics:
@@ -44,14 +48,20 @@ metadata:
       - mpp
       - search
       - x402
-    last_checked_at: "2026-07-21T15:20:51.625Z"
+    last_checked_at: '2026-07-21T15:20:51.625Z'
     readme:
-      fetched_at: "2026-07-21T15:20:51.625Z"
+      fetched_at: '2026-07-21T15:20:51.625Z'
       bytes: 13093
 insights:
-  summary: A curated, health-monitored web directory for discovering and rating paid APIs that accept Bitcoin Lightning (L402), USDC on Base (x402), or Stripe/Tempo (MPP) payments for the agent economy.
-  why_it_matters: It provides the missing discovery layer for developers building autonomous agents that need to find and pay for external API services programmatically.
-  mental_damage: We have successfully built a Yelp for APIs that require a Bitcoin Lightning wallet, ensuring that the agent economy will be the first economy to crash while running on testnet nostalgia.
+  summary: >-
+    A curated, health-monitored web directory for discovering and rating paid APIs that accept Bitcoin Lightning (L402),
+    USDC on Base (x402), or Stripe/Tempo (MPP) payments for the agent economy.
+  why_it_matters: >-
+    It provides the missing discovery layer for developers building autonomous agents that need to find and pay for
+    external API services programmatically.
+  mental_damage: >-
+    We have successfully built a Yelp for APIs that require a Bitcoin Lightning wallet, ensuring that the agent economy
+    will be the first economy to crash while running on testnet nostalgia.
   tags:
     - api-directory
     - agent-economy
@@ -61,35 +71,40 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The project is primarily a curated directory and discovery index for paid APIs supporting specific machine payment protocols, fitting the 'Lists & Directories' category.
+  reason: >-
+    The project is primarily a curated directory and discovery index for paid APIs supporting specific machine payment
+    protocols, fitting the 'Lists & Directories' category.
   evidence:
     - Repo description explicitly states 'The L402 + x402 service directory for the agent economy.'
     - README describes it as a 'curated paid API directory for AI agents' with browsing, search, and rating features.
-    - Despite appearing in 'awesome-mcp-servers', the product is a standalone web directory, not an MCP server implementation.
+    - >-
+      Despite appearing in 'awesome-mcp-servers', the product is a standalone web directory, not an MCP server
+      implementation.
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: mcp
+  secondary_categories: []
+  section: Registries & Discovery
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.652Z"
+    updated_at: '2026-05-06T22:12:15.652Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:51.625Z"
+    updated_at: '2026-07-21T15:20:51.625Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

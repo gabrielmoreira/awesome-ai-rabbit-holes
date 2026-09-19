@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__findadomain__dev__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,7 @@ provenance:
           - Official Servers
         anchor_text: Find-A-Domain
         extracted_url: https://findadomain.dev/mcp
-        surrounding_text: "- **[Find-A-Domain](https://findadomain.dev/mcp)** - Domain availability checking and WHOIS lookup tools."
+        surrounding_text: '- **[Find-A-Domain](https://findadomain.dev/mcp)** - Domain availability checking and WHOIS lookup tools.'
         confidence: high
 metadata:
   github:
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: An MCP server that enables AI assistants to check domain availability, TLD listings, and WHOIS data.
-  why_it_matters: It allows agents to perform real-time domain research and brand validation directly within an AI-driven development workflow.
-  mental_damage: Now your LLM can tell you your million-dollar startup idea is taken before you've even written a single line of code.
+  why_it_matters: >-
+    It allows agents to perform real-time domain research and brand validation directly within an AI-driven development
+    workflow.
+  mental_damage: >-
+    Now your LLM can tell you your million-dollar startup idea is taken before you've even written a single line of
+    code.
   tags:
     - mcp
     - domain-search
@@ -54,14 +58,14 @@ curation:
     - Provides specific tools (check_domain, list_tlds) for MCP clients
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +74,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:44:53.734Z"
+    updated_at: '2026-07-20T15:44:53.734Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -91,6 +95,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's identity is a specialized MCP server rather than a general workflow integration for a specific editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's identity is a specialized MCP server rather than a
+        general workflow integration for a specific editor.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aos-standard__mcp-agent-health__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-23T05:08:37.088Z"
+      discovered_at: '2026-07-23T05:08:37.088Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: aos-standard/mcp-agent-health
         extracted_url: https://github.com/aos-standard/mcp-agent-health
-        surrounding_text: "- [aos-standard/mcp-agent-health](https://github.com/aos-standard/mcp-agent-health) [![aos-standard/mcp-agent-health MCP server](https://glama.ai/mcp/servers/aos-standard/mcp-agent-health/badges/score.svg)](https://glama.ai/mcp/servers/aos-standard/mcp-agent-health) 🐍 🏠 - MCP Agent Health Reporter — advisory agent health scan under AOS discipline (manifest, services, immune loop, evidence). Stdio MCP: `mcp-agent-health`. Install: `pip install mcp-agent-health==0.3.1` · [PyPI](https://pypi.org/project/mcp-agent-health/0.3.1/)"
+        surrounding_text: >-
+          - [aos-standard/mcp-agent-health](https://github.com/aos-standard/mcp-agent-health)
+          [![aos-standard/mcp-agent-health MCP
+          server](https://glama.ai/mcp/servers/aos-standard/mcp-agent-health/badges/score.svg)](https://glama.ai/mcp/servers/aos-standard/mcp-agent-health)
+          🐍 🏠 - MCP Agent Health Reporter — advisory agent health scan under AOS discipline (manifest, services,
+          immune loop, evidence). Stdio MCP: `mcp-agent-health`. Install: `pip install mcp-agent-health==0.3.1` ·
+          [PyPI](https://pypi.org/project/mcp-agent-health/0.3.1/)
         confidence: high
 metadata:
   github:
@@ -30,14 +36,14 @@ metadata:
     archived: false
     full_name: aos-standard/mcp-agent-health
     html_url: https://github.com/aos-standard/mcp-agent-health
-    created_at: "2026-07-16T12:13:09Z"
-    pushed_at: "2026-07-19T04:32:02Z"
+    created_at: '2026-07-16T12:13:09Z'
+    pushed_at: '2026-07-19T04:32:02Z'
     description: MCP server for AOS-compliant agent health reporting (P2 · advisory)
     homepage: null
     topics: []
-    last_checked_at: "2026-09-10T04:12:55.436Z"
+    last_checked_at: '2026-09-10T04:12:55.436Z'
     readme:
-      fetched_at: "2026-09-10T04:12:55.436Z"
+      fetched_at: '2026-09-10T04:12:55.436Z'
       bytes: 456
 insights:
   summary: MCP server for AOS-compliant agent health reporting.
@@ -51,33 +57,36 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: It is an MCP server whose core identity is providing health reporting via the Model Context Protocol, making MCP the primary product rather than a compatibility layer.
+  reason: >-
+    It is an MCP server whose core identity is providing health reporting via the Model Context Protocol, making MCP the
+    primary product rather than a compatibility layer.
   evidence:
-    - "Repo description: 'MCP server for AOS-compliant agent health reporting'"
+    - 'Repo description: ''MCP server for AOS-compliant agent health reporting'''
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
     - Provides a pip-installable package with agent card and MCP client configuration
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-23T05:08:37.090Z"
+    updated_at: '2026-07-23T05:08:37.090Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-17T04:13:46.171Z"
+    updated_at: '2026-09-17T04:13:46.171Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for aos-standard/mcp-agent-health
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:25:07.233Z"
+    updated_at: '2026-08-27T06:25:07.233Z'
     cause: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
@@ -86,15 +95,19 @@ processing:
       input_hash: sha256:0f95824a848a94e76cea9f59602d91d448727c39fee12721ccbde11bf958abd2
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: It is an MCP server whose core identity is providing health reporting via the Model Context Protocol, making MCP the primary product rather than a compatibility layer.
+      decision_reason: >-
+        It is an MCP server whose core identity is providing health reporting via the Model Context Protocol, making MCP
+        the primary product rather than a compatibility layer.
       decision_evidence:
-        - "Repo description: 'MCP server for AOS-compliant agent health reporting'"
+        - 'Repo description: ''MCP server for AOS-compliant agent health reporting'''
         - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
         - Provides a pip-installable package with agent card and MCP client configuration
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool is an MCP server providing health reporting as its main function, not an extension augmenting another assistant with host integrations.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool is an MCP server providing health reporting as its main
+        function, not an extension augmenting another assistant with host integrations.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

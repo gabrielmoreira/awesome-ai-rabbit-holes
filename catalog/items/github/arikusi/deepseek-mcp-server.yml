@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__arikusi__deepseek-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: arikusi/deepseek-mcp-server
         extracted_url: https://github.com/arikusi/deepseek-mcp-server
-        surrounding_text: "- [arikusi/deepseek-mcp-server](https://github.com/arikusi/deepseek-mcp-server) [![deepseek-mcp-server MCP server](https://glama.ai/mcp/servers/arikusi/deepseek-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/arikusi/deepseek-mcp-server) 📇 ☁️ 🍎 🪟 🐧 - MCP server for DeepSeek AI with chat, reasoning, multi-turn sessions, function calling, thinking mode, and cost tracking."
+        surrounding_text: >-
+          - [arikusi/deepseek-mcp-server](https://github.com/arikusi/deepseek-mcp-server) [![deepseek-mcp-server MCP
+          server](https://glama.ai/mcp/servers/arikusi/deepseek-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/arikusi/deepseek-mcp-server)
+          📇 ☁️ 🍎 🪟 🐧 - MCP server for DeepSeek AI with chat, reasoning, multi-turn sessions, function calling,
+          thinking mode, and cost tracking.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: arikusi/deepseek-mcp-server
     html_url: https://github.com/arikusi/deepseek-mcp-server
-    created_at: "2026-01-13T20:45:13Z"
-    pushed_at: "2026-09-10T00:44:13Z"
-    description: "MCP server for DeepSeek V4 (v4-flash, v4-pro, 1M context): chat, reasoning, function calling, thinking mode, cost tracking. deepseek-chat/reasoner aliases supported."
+    created_at: '2026-01-13T20:45:13Z'
+    pushed_at: '2026-09-10T00:44:13Z'
+    description: >-
+      MCP server for DeepSeek V4 (v4-flash, v4-pro, 1M context): chat, reasoning, function calling, thinking mode, cost
+      tracking. deepseek-chat/reasoner aliases supported.
     homepage: null
     topics:
       - ai
@@ -44,14 +50,20 @@ metadata:
       - mcp
       - mcp-server
       - typescript
-    last_checked_at: "2026-09-10T04:12:58.516Z"
+    last_checked_at: '2026-09-10T04:12:58.516Z'
     readme:
-      fetched_at: "2026-09-10T04:12:58.515Z"
+      fetched_at: '2026-09-10T04:12:58.515Z'
       bytes: 32231
 insights:
-  summary: MCP server for DeepSeek V4 models enabling chat, reasoning, function calling, thinking mode, and cost tracking in MCP-compatible clients.
-  why_it_matters: Lets developers integrate DeepSeek's latest models into their existing MCP workflows (Claude Code, Cursor, etc.) with features like multi-turn sessions and tool use.
-  mental_damage: Now you can watch DeepSeek think through problems in your terminal while your MCP client tries to remember which API key you set where.
+  summary: >-
+    MCP server for DeepSeek V4 models enabling chat, reasoning, function calling, thinking mode, and cost tracking in
+    MCP-compatible clients.
+  why_it_matters: >-
+    Lets developers integrate DeepSeek's latest models into their existing MCP workflows (Claude Code, Cursor, etc.)
+    with features like multi-turn sessions and tool use.
+  mental_damage: >-
+    Now you can watch DeepSeek think through problems in your terminal while your MCP client tries to remember which API
+    key you set where.
   tags:
     - mcp
     - deepseek
@@ -61,31 +73,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server implementation whose primary identity is providing DeepSeek model access via MCP protocol.
+  reason: >-
+    This is a dedicated MCP server implementation whose primary identity is providing DeepSeek model access via MCP
+    protocol.
   evidence:
     - Repo description explicitly states it's an MCP server for DeepSeek V4
     - README confirms MCP compatibility with multiple clients and official MCP registry listing
     - Source-list context shows it's included in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.603Z"
+    updated_at: '2026-05-06T22:12:15.603Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:12:58.516Z"
+    updated_at: '2026-09-10T04:12:58.516Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:23:53.198Z"
+    updated_at: '2026-07-21T15:23:53.198Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -98,7 +113,9 @@ processing:
       input_hash: sha256:e724e1c1644bdee52983bd8ccddb598a21e03698c7f3ec0388eadfd1b9061cb5
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a dedicated MCP server implementation whose primary identity is providing DeepSeek model access via MCP protocol.
+      decision_reason: >-
+        This is a dedicated MCP server implementation whose primary identity is providing DeepSeek model access via MCP
+        protocol.
       decision_evidence:
         - Repo description explicitly states it's an MCP server for DeepSeek V4
         - README confirms MCP compatibility with multiple clients and official MCP registry listing
@@ -106,6 +123,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server implementation rather than an extension for another tool.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server implementation rather
+        than an extension for another tool.
       review_reason: null
       review_resume_lifecycle: null

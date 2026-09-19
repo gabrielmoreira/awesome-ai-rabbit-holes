@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__starrocks__mcp-server-starrocks__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: StarRocks
         extracted_url: https://github.com/starrocks/mcp-server-starrocks
-        surrounding_text: "- **[StarRocks](https://github.com/StarRocks/mcp-server-starrocks)** - Interact with [StarRocks](https://www.starrocks.io/)"
+        surrounding_text: >-
+          - **[StarRocks](https://github.com/StarRocks/mcp-server-starrocks)** - Interact with
+          [StarRocks](https://www.starrocks.io/)
         confidence: high
 metadata:
   github:
@@ -29,10 +31,10 @@ metadata:
     archived: false
     full_name: StarRocks/mcp-server-starrocks
     html_url: https://github.com/StarRocks/mcp-server-starrocks
-    created_at: "2025-03-05T10:48:25Z"
-    pushed_at: "2026-07-20T07:09:15Z"
+    created_at: '2025-03-05T10:48:25Z'
+    pushed_at: '2026-07-20T07:09:15Z'
     description: StarRocks MCP (Model Context Protocol) Server
-    homepage: ""
+    homepage: ''
     topics:
       - agent
       - ai
@@ -40,14 +42,20 @@ metadata:
       - mcp-server
       - model-context-protocol
       - starrocks
-    last_checked_at: "2026-07-20T16:43:03.338Z"
+    last_checked_at: '2026-07-20T16:43:03.338Z'
     readme:
-      fetched_at: "2026-07-20T16:43:03.338Z"
+      fetched_at: '2026-07-20T16:43:03.338Z'
       bytes: 23700
 insights:
-  summary: An official MCP server that bridges AI assistants with StarRocks databases to enable direct SQL execution, schema exploration, and data visualization.
-  why_it_matters: It allows developers to let their coding agents query live analytics databases and generate charts without writing custom database connectors.
-  mental_damage: We have successfully abstracted the ancient art of writing SQL into the modern art of debugging why your MCP server can't find the StarRocks port.
+  summary: >-
+    An official MCP server that bridges AI assistants with StarRocks databases to enable direct SQL execution, schema
+    exploration, and data visualization.
+  why_it_matters: >-
+    It allows developers to let their coding agents query live analytics databases and generate charts without writing
+    custom database connectors.
+  mental_damage: >-
+    We have successfully abstracted the ancient art of writing SQL into the modern art of debugging why your MCP server
+    can't find the StarRocks port.
   tags:
     - mcp
     - database
@@ -57,35 +65,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server for a specific database domain, fitting the MCP Servers & Tooling category's definition of protocol-native infrastructure.
+  reason: >-
+    The product is explicitly an MCP server for a specific database domain, fitting the MCP Servers & Tooling category's
+    definition of protocol-native infrastructure.
   evidence:
-    - "Repo description states: 'StarRocks MCP (Model Context Protocol) Server'."
+    - 'Repo description states: ''StarRocks MCP (Model Context Protocol) Server''.'
     - Listed in 'awesome-mcp-servers' under the 'Official Servers' section.
     - README details MCP transport modes (stdio, streamable-http) and tool definitions (read_query, table_overview).
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: promotion_candidate
   reason: Stars (170) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.649Z"
+    updated_at: '2026-05-06T22:12:15.649Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:43:03.338Z"
+    updated_at: '2026-07-20T16:43:03.338Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

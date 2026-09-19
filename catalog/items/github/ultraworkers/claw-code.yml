@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ultraworkers__claw-code__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Open Source
         anchor_text: Claw Code
         extracted_url: https://github.com/ultraworkers/claw-code
-        surrounding_text: "- **[Claw Code](https://github.com/ultraworkers/claw-code)** `⭐ 190k` — Clean-room Python/Rust rewrite of Claude Code architecture using oh-my-codex; fastest repo in GitHub history to 100K stars. Born from the March 2026 Claude Code source leak. MIT."
+        surrounding_text: >-
+          - **[Claw Code](https://github.com/ultraworkers/claw-code)** `⭐ 190k` — Clean-room Python/Rust rewrite of
+          Claude Code architecture using oh-my-codex; fastest repo in GitHub history to 100K stars. Born from the March
+          2026 Claude Code source leak. MIT.
         confidence: high
 metadata:
   github:
@@ -30,19 +33,25 @@ metadata:
     archived: false
     full_name: ultraworkers/claw-code
     html_url: https://github.com/ultraworkers/claw-code
-    created_at: "2026-03-31T08:58:08Z"
-    pushed_at: "2026-06-26T16:17:10Z"
-    description: An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.
-    homepage: ""
+    created_at: '2026-03-31T08:58:08Z'
+    pushed_at: '2026-06-26T16:17:10Z'
+    description: >-
+      An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no
+      human intervention.
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-21T15:20:58.616Z"
+    last_checked_at: '2026-07-21T15:20:58.616Z'
     readme:
-      fetched_at: "2026-07-21T15:20:58.615Z"
+      fetched_at: '2026-07-21T15:20:58.615Z'
       bytes: 14152
 insights:
-  summary: Claw Code is a Rust-based CLI coding agent that uses Anthropic's API to read, plan, edit, and test code in a repository.
+  summary: >-
+    Claw Code is a Rust-based CLI coding agent that uses Anthropic's API to read, plan, edit, and test code in a
+    repository.
   why_it_matters: It gives developers a terminal-native coding assistant that can autonomously execute coding tasks end-to-end.
-  mental_damage: Finally, a CLI agent that might outpace your ability to keep up with the constant churn of 'fastest repo in history' claims.
+  mental_damage: >-
+    Finally, a CLI agent that might outpace your ability to keep up with the constant churn of 'fastest repo in history'
+    claims.
   tags:
     - coding-agent
     - cli
@@ -51,13 +60,20 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Claw Code is a standalone CLI coding agent that directly performs coding tasks like reading, planning, editing, and testing code, making it a primary coding assistant rather than an extension or framework.
+  reason: >-
+    Claw Code is a standalone CLI coding agent that directly performs coding tasks like reading, planning, editing, and
+    testing code, making it a primary coding assistant rather than an extension or framework.
   evidence:
-    - README describes it as 'the public Rust implementation of the `claw` CLI agent harness' that runs prompts to perform coding work
-    - Usage shows it reads code, plans changes, edits files, runs commands, and repairs failures via the `claw prompt` command
+    - >-
+      README describes it as 'the public Rust implementation of the `claw` CLI agent harness' that runs prompts to
+      perform coding work
+    - >-
+      Usage shows it reads code, plans changes, edits files, runs commands, and repairs failures via the `claw prompt`
+      command
     - It is positioned as a terminal-native AI coding agent in the source-list context under 'awesome-cli-coding-agents'
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -65,17 +81,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.653Z"
+    updated_at: '2026-05-06T22:12:15.653Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:58.616Z"
+    updated_at: '2026-07-21T15:20:58.616Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:18:12.023Z"
+    updated_at: '2026-05-12T15:18:12.023Z'
     cause: null
     next_retry_at: null
     attempts: 1

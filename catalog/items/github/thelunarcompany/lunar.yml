@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__thelunarcompany__lunar__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: TheLunarCompany/lunar#mcpx
         extracted_url: https://github.com/thelunarcompany/lunar
-        surrounding_text: "- [TheLunarCompany/lunar#mcpx](https://github.com/TheLunarCompany/lunar/tree/main/mcpx) 📇 🏠  ☁️ 🍎 🪟 🐧 - MCPX is a production-ready, open-source gateway to manage MCP servers at scale—centralize tool discovery, access controls, call prioritization, and usage tracking to simplify agent workflows."
+        surrounding_text: >-
+          - [TheLunarCompany/lunar#mcpx](https://github.com/TheLunarCompany/lunar/tree/main/mcpx) 📇 🏠  ☁️ 🍎 🪟 🐧 -
+          MCPX is a production-ready, open-source gateway to manage MCP servers at scale—centralize tool discovery,
+          access controls, call prioritization, and usage tracking to simplify agent workflows.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,9 @@ metadata:
     archived: false
     full_name: TheLunarCompany/lunar
     html_url: https://github.com/TheLunarCompany/lunar
-    created_at: "2023-08-15T10:22:02Z"
-    pushed_at: "2026-07-21T14:56:01Z"
-    description: "lunar.dev: Agent native MCP Gateway for governance and security"
+    created_at: '2023-08-15T10:22:02Z'
+    pushed_at: '2026-07-21T14:56:01Z'
+    description: 'lunar.dev: Agent native MCP Gateway for governance and security'
     homepage: https://lunar.dev
     topics:
       - agent-skills
@@ -46,14 +49,20 @@ metadata:
       - rate-limit
       - throttling
       - visibility
-    last_checked_at: "2026-07-21T15:20:46.911Z"
+    last_checked_at: '2026-07-21T15:20:46.911Z'
     readme:
-      fetched_at: "2026-07-21T15:20:46.911Z"
+      fetched_at: '2026-07-21T15:20:46.911Z'
       bytes: 2863
 insights:
-  summary: Lunar.dev is an open-source API gateway and MCP aggregator that governs, monitors, and shapes outbound AI agent traffic, including rate limiting, cost tracking, and unified MCP server access.
-  why_it_matters: It gives teams a central mediation layer to enforce policies, throttle agent actions, and gain real-time visibility into latency, errors, and token costs across all outbound AI and API calls.
-  mental_damage: Another reassuring reminder that our agents are now sufficiently prolific and unruly enough to warrant their own dedicated traffic control and sobriety checkpoints.
+  summary: >-
+    Lunar.dev is an open-source API gateway and MCP aggregator that governs, monitors, and shapes outbound AI agent
+    traffic, including rate limiting, cost tracking, and unified MCP server access.
+  why_it_matters: >-
+    It gives teams a central mediation layer to enforce policies, throttle agent actions, and gain real-time visibility
+    into latency, errors, and token costs across all outbound AI and API calls.
+  mental_damage: >-
+    Another reassuring reminder that our agents are now sufficiently prolific and unruly enough to warrant their own
+    dedicated traffic control and sobriety checkpoints.
   tags:
     - mcp
     - api-gateway
@@ -63,35 +72,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is centered on MCP as a gateway and aggregator, acting as middleware to consolidate and govern MCP servers along with general AI API traffic.
+  reason: >-
+    The product identity is centered on MCP as a gateway and aggregator, acting as middleware to consolidate and govern
+    MCP servers along with general AI API traffic.
   evidence:
     - Repo description explicitly states 'Agent native MCP Gateway for governance and security'.
-    - README highlights 'Centralized MCP Aggregation' and includes Lunar MCPX as a zero-code aggregator for multiple MCP servers.
+    - >-
+      README highlights 'Centralized MCP Aggregation' and includes Lunar MCPX as a zero-code aggregator for multiple MCP
+      servers.
     - GitHub topics heavily emphasize MCP (mcp, mcp-client, mcp-gateway, mcp-security, mcp-server, mcpx).
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: promotion_candidate
   reason: Stars (424) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.651Z"
+    updated_at: '2026-05-06T22:12:15.651Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:46.911Z"
+    updated_at: '2026-07-21T15:20:46.911Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__furey__mongodb-lens__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: furey/mongodb-lens
         extracted_url: https://github.com/furey/mongodb-lens
-        surrounding_text: "- [furey/mongodb-lens](https://github.com/furey/mongodb-lens) 📇 🏠 - MongoDB Lens: Full Featured MCP Server for MongoDB Databases"
+        surrounding_text: >-
+          - [furey/mongodb-lens](https://github.com/furey/mongodb-lens) 📇 🏠 - MongoDB Lens: Full Featured MCP Server
+          for MongoDB Databases
         confidence: high
     - id: discovery__github__furey__mongodb-lens__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,10 +37,10 @@ provenance:
           - Community Servers
         anchor_text: MongoDB Lens
         extracted_url: https://github.com/furey/mongodb-lens
-        surrounding_text: "- **[MongoDB Lens](https://github.com/furey/mongodb-lens)** - Full Featured MCP Server for MongoDB Database."
+        surrounding_text: '- **[MongoDB Lens](https://github.com/furey/mongodb-lens)** - Full Featured MCP Server for MongoDB Database.'
         confidence: high
     - id: discovery__github__furey__mongodb-lens__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -50,7 +52,10 @@ provenance:
           - 🗄️ Databases
         anchor_text: furey/mongodb-lens
         extracted_url: https://github.com/furey/mongodb-lens
-        surrounding_text: "-   **[furey/mongodb-lens](https://github.com/furey/mongodb-lens)** [![GitHub stars](https://img.shields.io/github/stars/furey/mongodb-lens?style=social)](https://github.com/furey/mongodb-lens): Provides a fully-featured MCP server for MongoDB Databases."
+        surrounding_text: >-
+          -   **[furey/mongodb-lens](https://github.com/furey/mongodb-lens)** [![GitHub
+          stars](https://img.shields.io/github/stars/furey/mongodb-lens?style=social)](https://github.com/furey/mongodb-lens):
+          Provides a fully-featured MCP server for MongoDB Databases.
         confidence: high
 metadata:
   github:
@@ -60,9 +65,9 @@ metadata:
     archived: false
     full_name: furey/mongodb-lens
     html_url: https://github.com/furey/mongodb-lens
-    created_at: "2025-03-09T05:39:54Z"
-    pushed_at: "2025-04-23T00:44:12Z"
-    description: "🍃🔎 MongoDB Lens: Full Featured MCP Server for MongoDB Databases"
+    created_at: '2025-03-09T05:39:54Z'
+    pushed_at: '2025-04-23T00:44:12Z'
+    description: '🍃🔎 MongoDB Lens: Full Featured MCP Server for MongoDB Databases'
     homepage: https://www.npmjs.com/package/mongodb-lens
     topics:
       - ai
@@ -72,13 +77,15 @@ metadata:
       - mcp
       - model-context-protocol
       - mongodb
-    last_checked_at: "2026-09-03T05:16:44.703Z"
+    last_checked_at: '2026-09-03T05:16:44.703Z'
     readme:
-      fetched_at: "2026-09-03T05:16:44.703Z"
+      fetched_at: '2026-09-03T05:16:44.703Z'
       bytes: 67261
 insights:
   summary: A Model Context Protocol (MCP) server that provides natural language access to MongoDB databases.
-  why_it_matters: It enables LLMs to perform complex database operations like aggregations, schema analysis, and query optimization through a standardized protocol.
+  why_it_matters: >-
+    It enables LLMs to perform complex database operations like aggregations, schema analysis, and query optimization
+    through a standardized protocol.
   mental_damage: Now you can hallucinate much more efficient aggregation pipelines directly against your production clusters.
   tags:
     - mcp
@@ -95,24 +102,25 @@ curation:
     - Presence in 'awesome-mcp-list' under Databases
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: promotion_candidate
   reason: Stars (201) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.577Z"
+    updated_at: '2026-05-06T22:12:15.577Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:44.703Z"
+    updated_at: '2026-09-03T05:16:44.703Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:59:07.750Z"
+    updated_at: '2026-07-21T15:59:07.750Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -128,11 +136,15 @@ processing:
       decision_reason: The project's primary identity is a dedicated MCP server implementation for a specific database domain.
       decision_evidence:
         - Repo description explicitly identifies it as a 'Full Featured MCP Server for MongoDB'
-        - README defines its core functionality through a set of MCP tools (add-connection, aggregate-data, analyze-schema)
+        - >-
+          README defines its core functionality through a set of MCP tools (add-connection, aggregate-data,
+          analyze-schema)
         - Presence in 'awesome-mcp-list' under Databases
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is the MCP server implementation itself rather than a UI integration for a specific assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is the MCP server implementation itself
+        rather than a UI integration for a specific assistant.
       review_reason: null
       review_resume_lifecycle: null

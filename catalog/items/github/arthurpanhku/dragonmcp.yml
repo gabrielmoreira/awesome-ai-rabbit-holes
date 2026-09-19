@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__arthurpanhku__dragonmcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🔒 <a name="delivery"></a>Delivery
         anchor_text: arthurpanhku/DragonMCP
         extracted_url: https://github.com/arthurpanhku/dragonmcp
-        surrounding_text: "- [arthurpanhku/DragonMCP](https://github.com/arthurpanhku/DragonMCP) [![dragon-mcp MCP server](https://glama.ai/mcp/servers/arthurpanhku/dragon-mcp/badges/score.svg)](https://glama.ai/mcp/servers/arthurpanhku/dragon-mcp) 📇 🏠 ☁️ 🍎   - MCP server for Greater China local life services: Meituan/Ele.me food delivery, Didi/Meituan ride-hailing, WeChat Pay/Alipay, Amap/Baidu Maps, 12306 high-speed rail, Taobao/JD/Xianyu e-commerce, Hong Kong government e-services, and more."
+        surrounding_text: >-
+          - [arthurpanhku/DragonMCP](https://github.com/arthurpanhku/DragonMCP) [![dragon-mcp MCP
+          server](https://glama.ai/mcp/servers/arthurpanhku/dragon-mcp/badges/score.svg)](https://glama.ai/mcp/servers/arthurpanhku/dragon-mcp)
+          📇 🏠 ☁️ 🍎   - MCP server for Greater China local life services: Meituan/Ele.me food delivery, Didi/Meituan
+          ride-hailing, WeChat Pay/Alipay, Amap/Baidu Maps, 12306 high-speed rail, Taobao/JD/Xianyu e-commerce, Hong
+          Kong government e-services, and more.
         confidence: high
 metadata:
   github:
@@ -30,23 +35,30 @@ metadata:
     archived: false
     full_name: arthurpanhku/DragonMCP
     html_url: https://github.com/arthurpanhku/DragonMCP
-    created_at: "2026-03-08T07:37:43Z"
-    pushed_at: "2026-08-12T02:40:33Z"
-    description: DragonMCP is a Model Context Protocol (MCP) server designed for AI Agents to interact with local life services in Greater China (Mainland China, HKSAR) and Asia.  DragonMCP 是一个专为 AI Agent 设计的 Model Context Protocol (MCP) 服务器，旨在提供中国内地、中国香港及亚洲地区的本地生活服务接口。
-    homepage: ""
+    created_at: '2026-03-08T07:37:43Z'
+    pushed_at: '2026-08-12T02:40:33Z'
+    description: >-
+      DragonMCP is a Model Context Protocol (MCP) server designed for AI Agents to interact with local life services in
+      Greater China (Mainland China, HKSAR) and Asia.  DragonMCP 是一个专为 AI Agent 设计的 Model Context Protocol (MCP)
+      服务器，旨在提供中国内地、中国香港及亚洲地区的本地生活服务接口。
+    homepage: ''
     topics:
       - ai-agents
       - asia
       - greatchina
       - mcp
       - mcp-server
-    last_checked_at: "2026-09-10T04:12:59.521Z"
+    last_checked_at: '2026-09-10T04:12:59.521Z'
     readme:
-      fetched_at: "2026-09-10T04:12:59.521Z"
+      fetched_at: '2026-09-10T04:12:59.521Z'
       bytes: 7764
 insights:
-  summary: DragonMCP is an MCP server that enables AI agents to interact with local life services (e.g., transit, payments, food delivery) in Greater China and Asia.
-  why_it_matters: It bridges AI agents with real-world regional APIs, letting developers integrate local services like MTR schedules or Amap navigation into agent workflows.
+  summary: >-
+    DragonMCP is an MCP server that enables AI agents to interact with local life services (e.g., transit, payments,
+    food delivery) in Greater China and Asia.
+  why_it_matters: >-
+    It bridges AI agents with real-world regional APIs, letting developers integrate local services like MTR schedules
+    or Amap navigation into agent workflows.
   mental_damage: Now your AI can order takeout in Shanghai while you debug a segfault in San Francisco.
   tags:
     - mcp-server
@@ -57,31 +69,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the core product identity: a server providing domain-specific tools for AI agents to interact with regional services."
+  reason: >-
+    MCP is the core product identity: a server providing domain-specific tools for AI agents to interact with regional
+    services.
   evidence:
     - Repo description explicitly identifies it as an MCP server for AI agents
     - README details MCP protocol integration and domain-specific tools (e.g., MTR, Amap)
     - Source-list context (awesome-mcp-servers) places it under Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.603Z"
+    updated_at: '2026-05-06T22:12:15.603Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:12:59.521Z"
+    updated_at: '2026-09-10T04:12:59.521Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:24:05.669Z"
+    updated_at: '2026-07-21T15:24:05.669Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -94,7 +109,9 @@ processing:
       input_hash: sha256:c94cc55cea8e4c14f1bfee73ef2b607b826cacb0760c9e6e1f9f0b5fa35474f3
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the core product identity: a server providing domain-specific tools for AI agents to interact with regional services."
+      decision_reason: >-
+        MCP is the core product identity: a server providing domain-specific tools for AI agents to interact with
+        regional services.
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server for AI agents
         - README details MCP protocol integration and domain-specific tools (e.g., MTR, Amap)
@@ -102,6 +119,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary identity is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary identity is an MCP server, not an extension augmenting
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

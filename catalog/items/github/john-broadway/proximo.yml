@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__john-broadway__proximo__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-13T05:12:52.223Z"
+      discovered_at: '2026-07-13T05:12:52.223Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: john-broadway/proximo
         extracted_url: https://github.com/john-broadway/proximo
-        surrounding_text: "- [john-broadway/proximo](https://github.com/john-broadway/proximo) [![john-broadway/proximo MCP server](https://glama.ai/mcp/servers/john-broadway/proximo/badges/score.svg)](https://glama.ai/mcp/servers/john-broadway/proximo) 🐍 🏠 - All four Proxmox surfaces — VE, Backup Server, Mail Gateway, Datacenter Manager — plus in-container exec on one audited control plane. Every mutation dry-runs to a PLAN with its blast radius named, snapshots first where the platform can, and lands in a hash-chained tamper-evident audit ledger. 365 tools, read-only by default. `uvx proximo-proxmox`"
+        surrounding_text: >-
+          - [john-broadway/proximo](https://github.com/john-broadway/proximo) [![john-broadway/proximo MCP
+          server](https://glama.ai/mcp/servers/john-broadway/proximo/badges/score.svg)](https://glama.ai/mcp/servers/john-broadway/proximo)
+          🐍 🏠 - All four Proxmox surfaces — VE, Backup Server, Mail Gateway, Datacenter Manager — plus in-container
+          exec on one audited control plane. Every mutation dry-runs to a PLAN with its blast radius named, snapshots
+          first where the platform can, and lands in a hash-chained tamper-evident audit ledger. 365 tools, read-only by
+          default. `uvx proximo-proxmox`
         confidence: high
 metadata:
   github:
@@ -30,10 +36,10 @@ metadata:
     archived: false
     full_name: john-broadway/proximo
     html_url: https://github.com/john-broadway/proximo
-    created_at: "2026-06-11T02:35:11Z"
-    pushed_at: "2026-07-29T00:23:34Z"
-    description: "The Proxmox MCP you can hand the keys: VE/PBS/PMG/PDM. Plan, prove, undo, diagnose. MCP/A2A/API."
-    homepage: ""
+    created_at: '2026-06-11T02:35:11Z'
+    pushed_at: '2026-07-29T00:23:34Z'
+    description: 'The Proxmox MCP you can hand the keys: VE/PBS/PMG/PDM. Plan, prove, undo, diagnose. MCP/A2A/API.'
+    homepage: ''
     topics:
       - a2a
       - agents
@@ -55,13 +61,17 @@ metadata:
       - proxmox-ve
       - pve
       - self-hosted
-    last_checked_at: "2026-07-30T05:05:51.498Z"
+    last_checked_at: '2026-07-30T05:05:51.498Z'
     readme:
-      fetched_at: "2026-07-30T05:05:51.498Z"
+      fetched_at: '2026-07-30T05:05:51.498Z'
       bytes: 24403
 insights:
-  summary: An MCP server that provides an audited, plan-and-undo interface for managing Proxmox VE, Backup Server, and Mail Gateway.
-  why_it_matters: It allows AI agents to perform high-stakes infrastructure operations with safety guardrails like pre-action planning and automatic snapshotting.
+  summary: >-
+    An MCP server that provides an audited, plan-and-undo interface for managing Proxmox VE, Backup Server, and Mail
+    Gateway.
+  why_it_matters: >-
+    It allows AI agents to perform high-stakes infrastructure operations with safety guardrails like pre-action planning
+    and automatic snapshotting.
   mental_damage: Because handing a root token to an LLM is a permanent solution to a temporary problem.
   tags:
     - mcp
@@ -79,24 +89,25 @@ curation:
     - Included in awesome-mcp-servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-13T05:12:52.225Z"
+    updated_at: '2026-07-13T05:12:52.225Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:51.498Z"
+    updated_at: '2026-07-30T05:05:51.498Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-13T05:21:48.992Z"
+    updated_at: '2026-07-13T05:21:48.992Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

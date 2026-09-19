@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__buildepicshit__wick__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: buildepicshit/Wick
         extracted_url: https://github.com/buildepicshit/wick
-        surrounding_text: "- [buildepicshit/Wick](https://github.com/buildepicshit/Wick) [![buildepicshit/Wick MCP server](https://glama.ai/mcp/servers/buildepicshit/Wick/badges/score.svg)](https://glama.ai/mcp/servers/buildepicshit/Wick) #️⃣ 🏠 🍎 🪟 🐧 - Native C# MCP server for Godot Engine — 53 tools across 5 pillars: Roslyn-enriched exception telemetry, scene tree inspection, C# symbol navigation, MSBuild orchestration, and GDScript analysis. .NET 10, TCP JSON-RPC bridge, 219 tests."
+        surrounding_text: >-
+          - [buildepicshit/Wick](https://github.com/buildepicshit/Wick) [![buildepicshit/Wick MCP
+          server](https://glama.ai/mcp/servers/buildepicshit/Wick/badges/score.svg)](https://glama.ai/mcp/servers/buildepicshit/Wick)
+          #️⃣ 🏠 🍎 🪟 🐧 - Native C# MCP server for Godot Engine — 53 tools across 5 pillars: Roslyn-enriched exception
+          telemetry, scene tree inspection, C# symbol navigation, MSBuild orchestration, and GDScript analysis. .NET 10,
+          TCP JSON-RPC bridge, 219 tests.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: buildepicshit/Wick
     html_url: https://github.com/buildepicshit/Wick
-    created_at: "2026-04-13T16:13:13Z"
-    pushed_at: "2026-08-17T12:38:55Z"
+    created_at: '2026-04-13T16:13:13Z'
+    pushed_at: '2026-08-17T12:38:55Z'
     description: Roslyn-enriched C# exception telemetry for Godot Engine, exposed over MCP
     homepage: null
     topics:
@@ -49,14 +54,16 @@ metadata:
       - mcp-server
       - model-context-protocol
       - roslyn
-    last_checked_at: "2026-09-07T04:13:38.833Z"
+    last_checked_at: '2026-09-07T04:13:38.833Z'
     readme:
-      fetched_at: "2026-09-07T04:13:38.833Z"
+      fetched_at: '2026-09-07T04:13:38.833Z'
       bytes: 5924
 insights:
   summary: MCP server providing Roslyn-enriched C# exception telemetry for Godot Engine to AI assistants.
-  why_it_matters: Reduces debugging turns from 8+ to 1 by enriching raw stack traces with source context, caller chains, and scene state for AI diagnosis.
-  mental_damage: "Finally, an MCP server that speaks the one language Godot C# devs actually need: 'here’s the crash, now fix it'."
+  why_it_matters: >-
+    Reduces debugging turns from 8+ to 1 by enriching raw stack traces with source context, caller chains, and scene
+    state for AI diagnosis.
+  mental_damage: 'Finally, an MCP server that speaks the one language Godot C# devs actually need: ''here’s the crash, now fix it''.'
   tags:
     - mcp-server
     - godot
@@ -66,31 +73,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: a domain-specific server exposing Godot C# telemetry over MCP."
+  reason: 'MCP is the product identity: a domain-specific server exposing Godot C# telemetry over MCP.'
   evidence:
     - Repo description explicitly states 'Roslyn-enriched C# exception telemetry for Godot Engine, exposed over MCP'
     - README details MCP server setup, tool groups, and architecture centered on MCP protocol
     - Topics include 'mcp-server' and 'model-context-protocol'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.606Z"
+    updated_at: '2026-05-06T22:12:15.606Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:38.833Z"
+    updated_at: '2026-09-07T04:13:38.833Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:34:34.893Z"
+    updated_at: '2026-07-21T15:34:34.893Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -103,7 +111,7 @@ processing:
       input_hash: sha256:e4568b1060fff248d4ecbb582f9dfb450eb7677323475d3799fb68f84f472355
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: a domain-specific server exposing Godot C# telemetry over MCP."
+      decision_reason: 'MCP is the product identity: a domain-specific server exposing Godot C# telemetry over MCP.'
       decision_evidence:
         - Repo description explicitly states 'Roslyn-enriched C# exception telemetry for Godot Engine, exposed over MCP'
         - README details MCP server setup, tool groups, and architecture centered on MCP protocol
@@ -111,6 +119,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension to another assistant).
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension to another
+        assistant).
       review_reason: null
       review_resume_lifecycle: null

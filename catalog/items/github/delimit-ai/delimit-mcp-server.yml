@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__delimit-ai__delimit-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: delimit-ai/delimit
         extracted_url: https://github.com/delimit-ai/delimit
-        surrounding_text: "- [delimit-ai/delimit](https://github.com/delimit-ai/delimit) [![delimit-ai/delimit MCP server](https://glama.ai/mcp/servers/delimit-ai/delimit/badges/score.svg)](https://glama.ai/mcp/servers/delimit-ai/delimit) 🐍 🏠 🍎 🪟 🐧 - API governance server that detects breaking changes in OpenAPI specs. Diffs two spec versions, applies configurable policy rules (strict/default/relaxed), and returns structured pass/fail verdicts. 23 change types, 10 breaking. Supports OpenAPI 3.0, 3.1, and Swagger 2.0."
+        surrounding_text: >-
+          - [delimit-ai/delimit](https://github.com/delimit-ai/delimit) [![delimit-ai/delimit MCP
+          server](https://glama.ai/mcp/servers/delimit-ai/delimit/badges/score.svg)](https://glama.ai/mcp/servers/delimit-ai/delimit)
+          🐍 🏠 🍎 🪟 🐧 - API governance server that detects breaking changes in OpenAPI specs. Diffs two spec
+          versions, applies configurable policy rules (strict/default/relaxed), and returns structured pass/fail
+          verdicts. 23 change types, 10 breaking. Supports OpenAPI 3.0, 3.1, and Swagger 2.0.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: delimit-ai/delimit-mcp-server
     html_url: https://github.com/delimit-ai/delimit-mcp-server
-    created_at: "2026-03-09T03:53:35Z"
-    pushed_at: "2026-09-13T21:29:47Z"
-    description: The merge gate for AI-written code, with signed, replayable attestation. Works across Claude Code, Codex, Cursor, and Gemini CLI.
+    created_at: '2026-03-09T03:53:35Z'
+    pushed_at: '2026-09-13T21:29:47Z'
+    description: >-
+      The merge gate for AI-written code, with signed, replayable attestation. Works across Claude Code, Codex, Cursor,
+      and Gemini CLI.
     homepage: https://delimit.ai
     topics:
       - ai-governance
@@ -49,13 +56,17 @@ metadata:
       - mcp-server
       - model-context-protocol
       - openapi
-    last_checked_at: "2026-09-14T04:13:38.761Z"
+    last_checked_at: '2026-09-14T04:13:38.761Z'
     readme:
-      fetched_at: "2026-09-14T04:13:38.761Z"
+      fetched_at: '2026-09-14T04:13:38.761Z'
       bytes: 30112
 insights:
-  summary: A governance layer that wraps AI coding assistants (Claude Code, Cursor, etc.) to enforce gates, sign attestations, and provide replayable audit trails for AI-written code changes.
-  why_it_matters: It addresses the critical need for accountability and traceability in AI-assisted development by capturing, validating, and signing every AI-driven code change before merge.
+  summary: >-
+    A governance layer that wraps AI coding assistants (Claude Code, Cursor, etc.) to enforce gates, sign attestations,
+    and provide replayable audit trails for AI-written code changes.
+  why_it_matters: >-
+    It addresses the critical need for accountability and traceability in AI-assisted development by capturing,
+    validating, and signing every AI-driven code change before merge.
   mental_damage: Finally, a way to prove that the AI didn’t just hallucinate its way into production—again.
   tags:
     - ai-governance
@@ -66,31 +77,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly built and delivered as an MCP server with CLI and GitHub Action companions, governing AI coding tools via the Model Context Protocol.
+  reason: >-
+    The product is explicitly built and delivered as an MCP server with CLI and GitHub Action companions, governing AI
+    coding tools via the Model Context Protocol.
   evidence:
     - Repo description states it is 'delivered as MCP server, CLI, and GitHub Action'
-    - README highlights `delimit wrap` as a governance chain for Claude Code, Cursor, Codex, and Gemini CLI using MCP attestation methodology
+    - >-
+      README highlights `delimit wrap` as a governance chain for Claude Code, Cursor, Codex, and Gemini CLI using MCP
+      attestation methodology
     - Source list inclusion in awesome-mcp-servers under 'Developer Tools' aligns with its MCP server identity
 placement:
   primary_category: mcp
-  section: null
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-dev-extensions'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.610Z"
+    updated_at: '2026-05-06T22:12:15.610Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:38.761Z"
+    updated_at: '2026-09-14T04:13:38.761Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:50:35.948Z"
+    updated_at: '2026-07-21T15:50:35.948Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -103,14 +119,22 @@ processing:
       input_hash: sha256:9b3be98c5cc71e80cec502a486ca666c8c58cbd11b1b57891bd508db182bb625
       proposed_primary_category: ai-dev-extensions
       disagreement: true
-      decision_reason: The tool primarily augments existing coding assistants (Claude Code, Cursor, etc.) with governance, attestation, and replay capabilities rather than acting as a standalone coding agent.
+      decision_reason: >-
+        The tool primarily augments existing coding assistants (Claude Code, Cursor, etc.) with governance, attestation,
+        and replay capabilities rather than acting as a standalone coding agent.
       decision_evidence:
-        - Repo description explicitly states it is a 'merge gate for AI-written code' that works across multiple assistants (Claude Code, Cursor, etc.)
-        - README emphasizes wrapping existing AI tools with governance chains, signed attestations, and replayable receipts
+        - >-
+          Repo description explicitly states it is a 'merge gate for AI-written code' that works across multiple
+          assistants (Claude Code, Cursor, etc.)
+        - >-
+          README emphasizes wrapping existing AI tools with governance chains, signed attestations, and replayable
+          receipts
         - Source-list context places it under 'Server Implementations > Developer Tools' in awesome-mcp-servers
       category_candidates:
         - ai-dev-extensions
         - mcp
-      contrastive_reason: Choose ai-dev-extensions over mcp because while it implements MCP, its primary identity is as a governance layer for coding assistants rather than MCP infrastructure itself.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+      contrastive_reason: >-
+        Choose ai-dev-extensions over mcp because while it implements MCP, its primary identity is as a governance layer
+        for coding assistants rather than MCP infrastructure itself.
+      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-dev-extensions'''
       review_resume_lifecycle: null

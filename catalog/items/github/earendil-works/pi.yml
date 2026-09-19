@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__badlogic__pi-mono__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,12 @@ provenance:
           - Open Source
         anchor_text: Pi
         extracted_url: https://github.com/badlogic/pi-mono
-        surrounding_text: "- **[Pi](https://github.com/badlogic/pi-mono)** `⭐ 44.3k` — Minimal, adaptable terminal coding harness from the pi-mono toolkit; unified LLM API, TUI, skills, and MCP support."
+        surrounding_text: >-
+          - **[Pi](https://github.com/badlogic/pi-mono)** `⭐ 44.3k` — Minimal, adaptable terminal coding harness from
+          the pi-mono toolkit; unified LLM API, TUI, skills, and MCP support.
         confidence: high
     - id: discovery__github__earendil-works__pi__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-12T15:06:19.300Z"
+      discovered_at: '2026-05-12T15:06:19.300Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -36,10 +38,12 @@ provenance:
           - Open Source
         anchor_text: Pi
         extracted_url: https://github.com/badlogic/pi-mono
-        surrounding_text: "- **[Pi](https://github.com/badlogic/pi-mono)** `⭐ 47.9k` — Minimal, adaptable terminal coding harness from the pi-mono toolkit; unified LLM API, TUI, skills, and MCP support."
+        surrounding_text: >-
+          - **[Pi](https://github.com/badlogic/pi-mono)** `⭐ 47.9k` — Minimal, adaptable terminal coding harness from
+          the pi-mono toolkit; unified LLM API, TUI, skills, and MCP support.
         confidence: high
     - id: discovery__github__earendil-works__pi__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-08-17T04:19:08.737Z"
+      discovered_at: '2026-08-17T04:19:08.737Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -52,7 +56,9 @@ provenance:
           - Harness
         anchor_text: pi
         extracted_url: https://github.com/earendil-works/pi
-        surrounding_text: "1. [pi](https://github.com/earendil-works/pi): AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI."
+        surrounding_text: >-
+          1. [pi](https://github.com/earendil-works/pi): AI agent toolkit: unified LLM API, agent loop, TUI, coding
+          agent CLI.
         confidence: high
 metadata:
   github:
@@ -62,19 +68,25 @@ metadata:
     archived: false
     full_name: earendil-works/pi
     html_url: https://github.com/earendil-works/pi
-    created_at: "2025-08-09T14:03:50Z"
-    pushed_at: "2026-09-13T21:26:54Z"
-    description: "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI"
-    homepage: ""
+    created_at: '2025-08-09T14:03:50Z'
+    pushed_at: '2026-09-13T21:26:54Z'
+    description: 'AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI'
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-14T04:13:45.885Z"
+    last_checked_at: '2026-09-14T04:13:45.885Z'
     readme:
-      fetched_at: "2026-09-14T04:13:45.885Z"
+      fetched_at: '2026-09-14T04:13:45.885Z'
       bytes: 6789
 insights:
-  summary: Pi is an AI agent toolkit featuring a unified LLM API, agent runtime, and interactive coding agent CLI for terminal-based development.
-  why_it_matters: It provides developers with an open-source, self-hostable coding agent that can plan, edit, test, and debug code across repositories using multiple LLM providers.
-  mental_damage: Another terminal-based agent promising to replace your IDE, while you still spend half your time figuring out how to make it stop editing the wrong file.
+  summary: >-
+    Pi is an AI agent toolkit featuring a unified LLM API, agent runtime, and interactive coding agent CLI for
+    terminal-based development.
+  why_it_matters: >-
+    It provides developers with an open-source, self-hostable coding agent that can plan, edit, test, and debug code
+    across repositories using multiple LLM providers.
+  mental_damage: >-
+    Another terminal-based agent promising to replace your IDE, while you still spend half your time figuring out how to
+    make it stop editing the wrong file.
   tags:
     - coding-agent
     - cli
@@ -82,13 +94,16 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Pi is a standalone coding agent that directly reads, plans, edits, and tests code via CLI, making it a primary assistant rather than an extension or framework.
+  reason: >-
+    Pi is a standalone coding agent that directly reads, plans, edits, and tests code via CLI, making it a primary
+    assistant rather than an extension or framework.
   evidence:
-    - "Repo description: 'AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI'"
-    - "README: '@earendil-works/pi-coding-agent' is described as 'Interactive coding agent CLI'"
-    - "Source-list: listed in 'awesome-cli-coding-agents' under 'Terminal-native coding agents > Open Source'"
+    - 'Repo description: ''AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI'''
+    - 'README: ''@earendil-works/pi-coding-agent'' is described as ''Interactive coding agent CLI'''
+    - 'Source-list: listed in ''awesome-cli-coding-agents'' under ''Terminal-native coding agents > Open Source'''
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -96,7 +111,7 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-08-27T09:26:45.430Z"
+    updated_at: '2026-08-27T09:26:45.430Z'
     cause: null
     next_retry_at: null
     classification:
@@ -106,15 +121,19 @@ processing:
       input_hash: sha256:e8e99a2c2185a94444f62b8e0c8dd3a497f81a6ef14ca4aa471e0c6278f3d35a
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Pi is a standalone coding agent that directly reads, plans, edits, and tests code via CLI, making it a primary assistant rather than an extension or framework.
+      decision_reason: >-
+        Pi is a standalone coding agent that directly reads, plans, edits, and tests code via CLI, making it a primary
+        assistant rather than an extension or framework.
       decision_evidence:
-        - "Repo description: 'AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI'"
-        - "README: '@earendil-works/pi-coding-agent' is described as 'Interactive coding agent CLI'"
-        - "Source-list: listed in 'awesome-cli-coding-agents' under 'Terminal-native coding agents > Open Source'"
+        - 'Repo description: ''AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI'''
+        - 'README: ''@earendil-works/pi-coding-agent'' is described as ''Interactive coding agent CLI'''
+        - 'Source-list: listed in ''awesome-cli-coding-agents'' under ''Terminal-native coding agents > Open Source'''
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because Pi functions as a primary coding assistant that directly edits code, rather than mainly augmenting another editor or agent with integrations.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because Pi functions as a primary coding assistant that directly
+        edits code, rather than mainly augmenting another editor or agent with integrations.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1
@@ -122,11 +141,11 @@ processing:
     category_rules_version: 6cc474a86022
   discover:
     status: done
-    updated_at: "2026-08-17T04:19:08.741Z"
+    updated_at: '2026-08-17T04:19:08.741Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:45.885Z"
+    updated_at: '2026-09-14T04:13:45.885Z'
     cause: null
     next_retry_at: null

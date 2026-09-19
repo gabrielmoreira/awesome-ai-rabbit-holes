@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__adsmcp__tiktok-ads-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: AdsMCP/tiktok-ads-mcp-server
         extracted_url: https://github.com/adsmcp/tiktok-ads-mcp-server
-        surrounding_text: "- [AdsMCP/tiktok-ads-mcp-server](https://github.com/AdsMCP/tiktok-ads-mcp-server) 🐍 ☁️ - A Model Context Protocol server for TikTok Ads API integration, enabling AI assistants to manage campaigns, analyze performance metrics, handle audiences and creatives with OAuth authentication flow."
+        surrounding_text: >-
+          - [AdsMCP/tiktok-ads-mcp-server](https://github.com/AdsMCP/tiktok-ads-mcp-server) 🐍 ☁️ - A Model Context
+          Protocol server for TikTok Ads API integration, enabling AI assistants to manage campaigns, analyze
+          performance metrics, handle audiences and creatives with OAuth authentication flow.
         confidence: high
 metadata:
   github:
@@ -30,21 +33,27 @@ metadata:
     archived: false
     full_name: AdsMCP/tiktok-ads-mcp-server
     html_url: https://github.com/AdsMCP/tiktok-ads-mcp-server
-    created_at: "2025-09-16T14:35:44Z"
-    pushed_at: "2026-07-04T17:31:02Z"
+    created_at: '2025-09-16T14:35:44Z'
+    pushed_at: '2026-07-04T17:31:02Z'
     description: TikTok Ads MCP Server – Model Context Protocol Server for TikTok Ads Marketing API Integration
     homepage: https://adsmcp.com/
     topics:
       - marketing-api
       - mcp-server
-    last_checked_at: "2026-09-17T04:13:30.538Z"
+    last_checked_at: '2026-09-17T04:13:30.538Z'
     readme:
-      fetched_at: "2026-09-17T04:13:30.538Z"
+      fetched_at: '2026-09-17T04:13:30.538Z'
       bytes: 13642
 insights:
-  summary: A local Model Context Protocol (MCP) server that integrates the TikTok Ads Marketing API with MCP-compatible clients like Claude Desktop.
-  why_it_matters: It enables developers and marketers to interact with TikTok advertising data using natural language via LLMs, automating complex API queries for campaign and performance metrics.
-  mental_damage: Another layer of abstraction between you and your ad spend, ensuring you can now gaslight your LLM into explaining why your ROAS is tanking.
+  summary: >-
+    A local Model Context Protocol (MCP) server that integrates the TikTok Ads Marketing API with MCP-compatible clients
+    like Claude Desktop.
+  why_it_matters: >-
+    It enables developers and marketers to interact with TikTok advertising data using natural language via LLMs,
+    automating complex API queries for campaign and performance metrics.
+  mental_damage: >-
+    Another layer of abstraction between you and your ad spend, ensuring you can now gaslight your LLM into explaining
+    why your ROAS is tanking.
   tags:
     - mcp
     - tiktok-ads
@@ -61,24 +70,25 @@ curation:
     - Primary functionality is providing read-only tools via the Model Context Protocol
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.599Z"
+    updated_at: '2026-05-06T22:12:15.599Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:30.538Z"
+    updated_at: '2026-09-17T04:13:30.538Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:58:54.084Z"
+    updated_at: '2026-07-20T15:58:54.084Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -99,6 +109,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is defined by the protocol implementation itself rather than being a general workflow augmentation for a host editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is defined by the protocol implementation itself
+        rather than being a general workflow augmentation for a host editor.
       review_reason: null
       review_resume_lifecycle: null

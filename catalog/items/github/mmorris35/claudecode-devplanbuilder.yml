@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mmorris35__claudecode-devplanbuilder__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: ClaudeCode-DevPlanBuilder
         extracted_url: https://github.com/mmorris35/claudecode-devplanbuilder
-        surrounding_text: "- [mmorris35/devplan-mcp-server](https://github.com/mmorris35/devplan-mcp-server) 📇 ☁️ - Generate comprehensive, paint-by-numbers development plans using the [ClaudeCode-DevPlanBuilder](https://github.com/mmorris35/ClaudeCode-DevPlanBuilder) methodology. Creates PROJECT_BRIEF.md, DEVELOPMENT_PLAN.md, and CLAUDE.md."
+        surrounding_text: >-
+          - [mmorris35/devplan-mcp-server](https://github.com/mmorris35/devplan-mcp-server) 📇 ☁️ - Generate
+          comprehensive, paint-by-numbers development plans using the
+          [ClaudeCode-DevPlanBuilder](https://github.com/mmorris35/ClaudeCode-DevPlanBuilder) methodology. Creates
+          PROJECT_BRIEF.md, DEVELOPMENT_PLAN.md, and CLAUDE.md.
         confidence: high
 metadata:
   github:
@@ -30,19 +34,25 @@ metadata:
     archived: false
     full_name: mmorris35/ClaudeCode-DevPlanBuilder
     html_url: https://github.com/mmorris35/ClaudeCode-DevPlanBuilder
-    created_at: "2025-10-09T19:55:46Z"
-    pushed_at: "2026-03-25T05:30:52Z"
+    created_at: '2025-10-09T19:55:46Z'
+    pushed_at: '2026-03-25T05:30:52Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:17:05.467Z"
+    last_checked_at: '2026-08-03T05:17:05.467Z'
     readme:
-      fetched_at: "2026-08-03T05:17:05.467Z"
+      fetched_at: '2026-08-03T05:17:05.467Z'
       bytes: 29323
 insights:
-  summary: A reusable methodology and template pack for Claude Code that interviews users to generate structured project briefs, detailed development plans, and executor/verifier agent definitions.
-  why_it_matters: It gives Claude Code a repeatable spec-first workflow for turning product ideas into phased, testable development plans with built-in git discipline.
-  mental_damage: We have officially reached the point where your coding agent needs its own project manager, onboarding questionnaire, and middleware to avoid recursively inventing agile ceremonies.
+  summary: >-
+    A reusable methodology and template pack for Claude Code that interviews users to generate structured project
+    briefs, detailed development plans, and executor/verifier agent definitions.
+  why_it_matters: >-
+    It gives Claude Code a repeatable spec-first workflow for turning product ideas into phased, testable development
+    plans with built-in git discipline.
+  mental_damage: >-
+    We have officially reached the point where your coding agent needs its own project manager, onboarding
+    questionnaire, and middleware to avoid recursively inventing agile ceremonies.
   tags:
     - claude-code
     - spec-driven
@@ -51,35 +61,40 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The core artifact is a structured spec-and-plan loop (PROJECT_BRIEF → DEVELOPMENT_PLAN → executor/verifier agents) that drives implementation, fitting spec-driven development better than a generic coding-agent label.
+  reason: >-
+    The core artifact is a structured spec-and-plan loop (PROJECT_BRIEF → DEVELOPMENT_PLAN → executor/verifier agents)
+    that drives implementation, fitting spec-driven development better than a generic coding-agent label.
   evidence:
-    - "README centers on a spec-first loop: interview → PROJECT_BRIEF.md → DEVELOPMENT_PLAN.md with phases/tasks/subtasks."
+    - >-
+      README centers on a spec-first loop: interview → PROJECT_BRIEF.md → DEVELOPMENT_PLAN.md with
+      phases/tasks/subtasks.
     - Generates executor and verifier agents in .claude/agents/ to execute and validate the plan.
     - Repository is very new (2025-10-09) and low traction (3 stars), but the product identity is clear.
 placement:
-  primary_category: spec-driven-development
-  section: Planning / Task Decomposition
+  primary_category: skills
+  secondary_categories: []
+  section: Skill Packs & Libraries
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.631Z"
+    updated_at: '2026-05-06T22:12:15.631Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:05.467Z"
+    updated_at: '2026-08-03T05:17:05.467Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

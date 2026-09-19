@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__router__teamolab__com__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -18,7 +18,12 @@ provenance:
           - LLMOps
         anchor_text: TeamoRouter
         extracted_url: https://router.teamolab.com
-        surrounding_text: "| [TeamoRouter](https://router.teamolab.com)                         | LLM routing gateway for OpenClaw. One API key to access Claude, GPT-4o, Gemini, DeepSeek, Kimi, MiniMax. Smart routing modes (teamo-best, teamo-balanced, teamo-eco) auto-pick the optimal model. Up to 50% off official prices. 2-second install via skill.md.                                                                                                                                        |                                                                                                           |"
+        surrounding_text: >-
+          | [TeamoRouter](https://router.teamolab.com)                         | LLM routing gateway for OpenClaw. One
+          API key to access Claude, GPT-4o, Gemini, DeepSeek, Kimi, MiniMax. Smart routing modes (teamo-best,
+          teamo-balanced, teamo-eco) auto-pick the optimal model. Up to 50% off official prices. 2-second install via
+          skill.md.                                                                                                                                       
+          |                                                                                                           |
         confidence: high
 metadata:
   github:
@@ -36,9 +41,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A billing and routing layer that provides a single API key for multiple AI coding models with discounted rates and consolidated billing.
-  why_it_matters: Developers can reduce token costs and simplify provider setup by using one key for Claude Code, Codex, and other agents while paying only for actual usage.
-  mental_damage: Now you can spend less time managing API keys and more time explaining to your CFO why your token spend looks like a hockey stick.
+  summary: >-
+    A billing and routing layer that provides a single API key for multiple AI coding models with discounted rates and
+    consolidated billing.
+  why_it_matters: >-
+    Developers can reduce token costs and simplify provider setup by using one key for Claude Code, Codex, and other
+    agents while paying only for actual usage.
+  mental_damage: >-
+    Now you can spend less time managing API keys and more time explaining to your CFO why your token spend looks like a
+    hockey stick.
   tags:
     - api-routing
     - cost-optimization
@@ -47,21 +58,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a CLI product that directly runs official coding agents (Claude Code and Codex) for developers to delegate repo work, fitting the Terminal & CLI Agents section of coding-agents.
+  reason: >-
+    It is a CLI product that directly runs official coding agents (Claude Code and Codex) for developers to delegate
+    repo work, fitting the Terminal & CLI Agents section of coding-agents.
   evidence:
     - Scraped site states 'Teamo Code integrates the official Claude Code and Codex SDKs' as the core product.
     - UI shows direct invocation of Claude Code and Codex modes with shift+tab cycling inside one terminal.
     - Listed in Awesome-LLMOps under LLMOps as a tool combining two official coding engines.
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: ai-frameworks
+  secondary_categories: []
+  section: Provider & Model Abstractions
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-frameworks'"
+  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''ai-frameworks'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +84,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:13.677Z"
+    updated_at: '2026-07-21T15:31:13.677Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -83,7 +97,9 @@ processing:
       input_hash: sha256:18b8aea3729b786c3fba646148dabfd901dba99dede61140e07bf58350e4580c
       proposed_primary_category: ai-frameworks
       disagreement: true
-      decision_reason: The product is a provider abstraction layer that developers integrate with via API, acting as a code-first building block for accessing multiple models.
+      decision_reason: >-
+        The product is a provider abstraction layer that developers integrate with via API, acting as a code-first
+        building block for accessing multiple models.
       decision_evidence:
         - Described as a 'native LLM router' with OpenAI protocol compatibility
         - Offers a single API endpoint for multiple models with unified billing
@@ -91,6 +107,8 @@ processing:
       category_candidates:
         - ai-frameworks
         - agent-orchestration
-      contrastive_reason: Choose ai-frameworks over agent-orchestration because the core value is API abstraction and billing consolidation rather than multi-agent coordination.
-      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-frameworks'"
+      contrastive_reason: >-
+        Choose ai-frameworks over agent-orchestration because the core value is API abstraction and billing
+        consolidation rather than multi-agent coordination.
+      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''ai-frameworks'''
       review_resume_lifecycle: null

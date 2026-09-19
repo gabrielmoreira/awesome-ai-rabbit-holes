@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pattyboi101__indiestack__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -19,7 +19,10 @@ provenance:
           - 🔎 Search
         anchor_text: Pattyboi101/indiestack
         extracted_url: https://github.com/pattyboi101/indiestack
-        surrounding_text: "-   **[Pattyboi101/indiestack](https://github.com/Pattyboi101/indiestack)** [![GitHub stars](https://img.shields.io/github/stars/Pattyboi101/indiestack?style=social)](https://github.com/Pattyboi101/indiestack): Search 130+ indie SaaS tools from your AI coding assistant. Install via `pip install indiestack`."
+        surrounding_text: >-
+          -   **[Pattyboi101/indiestack](https://github.com/Pattyboi101/indiestack)** [![GitHub
+          stars](https://img.shields.io/github/stars/Pattyboi101/indiestack?style=social)](https://github.com/Pattyboi101/indiestack):
+          Search 130+ indie SaaS tools from your AI coding assistant. Install via `pip install indiestack`.
         confidence: high
 metadata:
   github:
@@ -29,19 +32,28 @@ metadata:
     archived: false
     full_name: Pattyboi101/indiestack
     html_url: https://github.com/Pattyboi101/indiestack
-    created_at: "2026-02-22T15:12:12Z"
-    pushed_at: "2026-06-02T09:14:23Z"
-    description: Dependency guardrail for AI coding agents — validates packages, catches hallucinations, 6,500+ developer tools. MCP server + CLI + web.
+    created_at: '2026-02-22T15:12:12Z'
+    pushed_at: '2026-06-02T09:14:23Z'
+    description: >-
+      Dependency guardrail for AI coding agents — validates packages, catches hallucinations, 6,500+ developer tools.
+      MCP server + CLI + web.
     homepage: https://indiestack.ai
     topics: []
-    last_checked_at: "2026-07-20T16:42:31.870Z"
+    last_checked_at: '2026-07-20T16:42:31.870Z'
     readme:
-      fetched_at: "2026-07-20T16:42:31.870Z"
+      fetched_at: '2026-07-20T16:42:31.870Z'
       bytes: 5452
 insights:
-  summary: A dependency guardrail and tool curation platform for AI coding agents that validates packages, catches hallucinations, and provides compatibility data across 6,500+ developer tools via an MCP server, CLI, and web interface.
-  why_it_matters: It prevents AI agents from confidently installing hallucinated or typosquatted packages by validating dependencies and mapping real-world compatibility before code is generated.
-  mental_damage: We now need a dedicated guardrail service to stop our autonomous agents from hallucinating npm packages, which is the exact kind of meticulously engineered chaos that makes you question if we are the ones being trained.
+  summary: >-
+    A dependency guardrail and tool curation platform for AI coding agents that validates packages, catches
+    hallucinations, and provides compatibility data across 6,500+ developer tools via an MCP server, CLI, and web
+    interface.
+  why_it_matters: >-
+    It prevents AI agents from confidently installing hallucinated or typosquatted packages by validating dependencies
+    and mapping real-world compatibility before code is generated.
+  mental_damage: >-
+    We now need a dedicated guardrail service to stop our autonomous agents from hallucinating npm packages, which is
+    the exact kind of meticulously engineered chaos that makes you question if we are the ones being trained.
   tags:
     - mcp
     - dependencies
@@ -51,35 +63,39 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: IndieStack's primary product identity is an MCP server (23 tools, 3 resources, 5 prompts) that acts as a domain-specific validation and lookup layer for AI agents, rather than being a standalone coding agent or generic extension.
+  reason: >-
+    IndieStack's primary product identity is an MCP server (23 tools, 3 resources, 5 prompts) that acts as a
+    domain-specific validation and lookup layer for AI agents, rather than being a standalone coding agent or generic
+    extension.
   evidence:
     - Repo description explicitly states 'MCP server + CLI + web' as the product offering.
     - README lists 23 MCP tools including validate_package, find_tools, and analyze_dependencies.
     - Provides integration snippets for Claude Code, Cursor, and Windsurf via MCP configuration.
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: Security & DevSecOps
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.641Z"
+    updated_at: '2026-05-06T22:12:15.641Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:31.870Z"
+    updated_at: '2026-07-20T16:42:31.870Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

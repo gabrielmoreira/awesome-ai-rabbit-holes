@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__equivault__equivault-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,14 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: equivault/equivault-mcp
         extracted_url: https://github.com/equivault/equivault-mcp
-        surrounding_text: "- [equivault/equivault-mcp](https://github.com/equivault/equivault-mcp) [![equivault/equivault-mcp MCP server](https://glama.ai/mcp/servers/equivault/equivault-mcp/badges/score.svg)](https://glama.ai/mcp/servers/equivault/equivault-mcp) 🎖️ 📇 ☁️ - Official [EquiVault](https://equivault.ai) MCP — AI-powered equity research for Claude. 38 tools covering company fundamentals, financial statements, ratios & metrics, stock quotes, screening, peer comparison, investment narrative, guidance tracking, segments, capital allocation, insider transactions, earnings quality, signals intelligence, alerts, briefs, portfolio analytics, and more. Tier-aware with graceful upgrade prompts. Install via `npx equivault-mcp`."
+        surrounding_text: >-
+          - [equivault/equivault-mcp](https://github.com/equivault/equivault-mcp) [![equivault/equivault-mcp MCP
+          server](https://glama.ai/mcp/servers/equivault/equivault-mcp/badges/score.svg)](https://glama.ai/mcp/servers/equivault/equivault-mcp)
+          🎖️ 📇 ☁️ - Official [EquiVault](https://equivault.ai) MCP — AI-powered equity research for Claude. 38 tools
+          covering company fundamentals, financial statements, ratios & metrics, stock quotes, screening, peer
+          comparison, investment narrative, guidance tracking, segments, capital allocation, insider transactions,
+          earnings quality, signals intelligence, alerts, briefs, portfolio analytics, and more. Tier-aware with
+          graceful upgrade prompts. Install via `npx equivault-mcp`.
         confidence: high
 metadata:
   github:
@@ -30,14 +37,14 @@ metadata:
     archived: false
     full_name: equivault/equivault-mcp
     html_url: https://github.com/equivault/equivault-mcp
-    created_at: "2026-04-17T15:58:37Z"
-    pushed_at: "2026-06-04T21:23:49Z"
+    created_at: '2026-04-17T15:58:37Z'
+    pushed_at: '2026-06-04T21:23:49Z'
     description: MCP server for EquiVault — AI-powered equity research tools for Claude
     homepage: null
     topics: []
-    last_checked_at: "2026-08-27T09:23:24.554Z"
+    last_checked_at: '2026-08-27T09:23:24.554Z'
     readme:
-      fetched_at: "2026-08-27T09:23:24.554Z"
+      fetched_at: '2026-08-27T09:23:24.554Z'
       bytes: 6124
 insights:
   summary: MCP server that exposes EquiVault's AI-powered equity research tools to Claude.
@@ -51,31 +58,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server exposing a domain-specific API (EquiVault) to Claude."
+  reason: 'MCP is the product identity: this is a dedicated MCP server exposing a domain-specific API (EquiVault) to Claude.'
   evidence:
     - Repo description explicitly states it is an MCP server for EquiVault
     - README details MCP server configuration and tool endpoints for Claude
     - Project is actively maintained (pushed_at 2026-06-04)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:24.554Z"
+    updated_at: '2026-08-27T09:23:24.554Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:52:38.745Z"
+    updated_at: '2026-07-21T15:52:38.745Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +96,9 @@ processing:
       input_hash: sha256:8a6783b2aaf0ae62e1b1d966facc02efb1f4c219839c98802e0ff16dc98dd8d4
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing a domain-specific API (EquiVault) to Claude."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server exposing a domain-specific API (EquiVault) to
+        Claude.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for EquiVault
         - README details MCP server configuration and tool endpoints for Claude
@@ -96,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is the MCP server itself, not merely an extension layer for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is the MCP server itself, not merely an extension
+        layer for another assistant.
       review_reason: null
       review_resume_lifecycle: null

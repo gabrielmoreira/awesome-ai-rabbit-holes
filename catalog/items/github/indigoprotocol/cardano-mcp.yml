@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__indigoprotocol__cardano-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: IndigoProtocol/cardano-mcp
         extracted_url: https://github.com/indigoprotocol/cardano-mcp
-        surrounding_text: "- [IndigoProtocol/cardano-mcp](https://github.com/IndigoProtocol/cardano-mcp) [![cardano-mcp MCP server](https://glama.ai/mcp/servers/IndigoProtocol/cardano-mcp/badges/score.svg)](https://glama.ai/mcp/servers/IndigoProtocol/cardano-mcp) 📇 ☁️ 🏠 - Cardano blockchain MCP server for wallet interactions — submit transactions, fetch addresses, read UTxOs, check balances, resolve ADAHandles, and check stake delegation"
+        surrounding_text: >-
+          - [IndigoProtocol/cardano-mcp](https://github.com/IndigoProtocol/cardano-mcp) [![cardano-mcp MCP
+          server](https://glama.ai/mcp/servers/IndigoProtocol/cardano-mcp/badges/score.svg)](https://glama.ai/mcp/servers/IndigoProtocol/cardano-mcp)
+          📇 ☁️ 🏠 - Cardano blockchain MCP server for wallet interactions — submit transactions, fetch addresses, read
+          UTxOs, check balances, resolve ADAHandles, and check stake delegation
         confidence: high
 metadata:
   github:
@@ -30,18 +34,20 @@ metadata:
     archived: false
     full_name: IndigoProtocol/cardano-mcp
     html_url: https://github.com/IndigoProtocol/cardano-mcp
-    created_at: "2026-03-03T16:09:21Z"
-    pushed_at: "2026-04-29T18:13:57Z"
+    created_at: '2026-03-03T16:09:21Z'
+    pushed_at: '2026-04-29T18:13:57Z'
     description: Cardano MCP server for handling wallet interactions
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:05:42.661Z"
+    last_checked_at: '2026-07-30T05:05:42.661Z'
     readme:
-      fetched_at: "2026-07-30T05:05:42.661Z"
+      fetched_at: '2026-07-30T05:05:42.661Z'
       bytes: 12162
 insights:
   summary: MCP server for interacting with the Cardano blockchain from AI agents and automation systems.
-  why_it_matters: Enables AI agents to submit transactions, retrieve wallet data, and interact with Cardano DeFi tools via the Model Context Protocol.
+  why_it_matters: >-
+    Enables AI agents to submit transactions, retrieve wallet data, and interact with Cardano DeFi tools via the Model
+    Context Protocol.
   mental_damage: Now your AI can lose its ADA just like the rest of us.
   tags:
     - mcp
@@ -59,24 +65,25 @@ curation:
     - Part of the Indigo AI Stack with explicit MCP integration
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.620Z"
+    updated_at: '2026-05-06T22:12:15.620Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:42.661Z"
+    updated_at: '2026-07-30T05:05:42.661Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:07:59.475Z"
+    updated_at: '2026-07-21T16:07:59.475Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -97,6 +104,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because MCP is the primary product identity, not just an integration layer for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because MCP is the primary product identity, not just an integration layer for
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

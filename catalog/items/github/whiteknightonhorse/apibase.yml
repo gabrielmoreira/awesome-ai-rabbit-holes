@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__whiteknightonhorse__apibase__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: whiteknightonhorse/APIbase
         extracted_url: https://github.com/whiteknightonhorse/apibase
-        surrounding_text: "- [whiteknightonhorse/APIbase](https://github.com/whiteknightonhorse/APIbase) [![APIbase MCP server](https://glama.ai/mcp/servers/whiteknightonhorse/APIbase/badges/score.svg)](https://glama.ai/mcp/servers/whiteknightonhorse/APIbase) 📇 ☁️ - Unified API hub for AI agents with 56+ tools across travel (Amadeus, Sabre), prediction markets (Polymarket), crypto, and weather. Pay-per-call via x402 micropayments in USDC."
+        surrounding_text: >-
+          - [whiteknightonhorse/APIbase](https://github.com/whiteknightonhorse/APIbase) [![APIbase MCP
+          server](https://glama.ai/mcp/servers/whiteknightonhorse/APIbase/badges/score.svg)](https://glama.ai/mcp/servers/whiteknightonhorse/APIbase)
+          📇 ☁️ - Unified API hub for AI agents with 56+ tools across travel (Amadeus, Sabre), prediction markets
+          (Polymarket), crypto, and weather. Pay-per-call via x402 micropayments in USDC.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: whiteknightonhorse/APIbase
     html_url: https://github.com/whiteknightonhorse/APIbase
-    created_at: "2026-03-09T06:35:47Z"
-    pushed_at: "2026-07-02T21:06:20Z"
-    description: Universal MCP gateway for AI agents — 1108 tools, 307 providers. One endpoint (https://apibase.pro/mcp), pay-per-call with x402 USDC on Base + MPP USDC on Tempo.
+    created_at: '2026-03-09T06:35:47Z'
+    pushed_at: '2026-07-02T21:06:20Z'
+    description: >-
+      Universal MCP gateway for AI agents — 1108 tools, 307 providers. One endpoint (https://apibase.pro/mcp),
+      pay-per-call with x402 USDC on Base + MPP USDC on Tempo.
     homepage: https://apibase.pro
     topics:
       - ai-agents
@@ -51,14 +57,20 @@ metadata:
       - typescript
       - usdc
       - x402
-    last_checked_at: "2026-07-21T15:21:13.008Z"
+    last_checked_at: '2026-07-21T15:21:13.008Z'
     readme:
-      fetched_at: "2026-07-21T15:21:13.008Z"
+      fetched_at: '2026-07-21T15:21:13.008Z'
       bytes: 28466
 insights:
-  summary: APIbase is a universal MCP gateway that provides AI agents access to 576 real-world API tools via a single endpoint with x402 USDC micropayments.
-  why_it_matters: It lets developers give AI agents instant, pay-per-call access to external data and services without managing individual API keys or integrations.
-  mental_damage: Another MCP server promising 'one endpoint to rule them all' while agents still hallucinate which tool to call for a stock quote.
+  summary: >-
+    APIbase is a universal MCP gateway that provides AI agents access to 576 real-world API tools via a single endpoint
+    with x402 USDC micropayments.
+  why_it_matters: >-
+    It lets developers give AI agents instant, pay-per-call access to external data and services without managing
+    individual API keys or integrations.
+  mental_damage: >-
+    Another MCP server promising 'one endpoint to rule them all' while agents still hallucinate which tool to call for a
+    stock quote.
   tags:
     - mcp
     - api-gateway
@@ -66,31 +78,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: APIbase is an MCP server that aggregates hundreds of third-party tools behind a standard MCP endpoint, making MCP its core product identity rather than an extension or framework.
+  reason: >-
+    APIbase is an MCP server that aggregates hundreds of third-party tools behind a standard MCP endpoint, making MCP
+    its core product identity rather than an extension or framework.
   evidence:
-    - "Repo description: 'Universal MCP gateway for AI agents — 576 tools, 177 providers'"
-    - "README: 'Production MCP server that gives AI agents access to 576 real-world API tools through a single endpoint'"
-    - "Source-list: Listed in awesome-mcp-servers under Server Implementations > Aggregators"
+    - 'Repo description: ''Universal MCP gateway for AI agents — 576 tools, 177 providers'''
+    - 'README: ''Production MCP server that gives AI agents access to 576 real-world API tools through a single endpoint'''
+    - 'Source-list: Listed in awesome-mcp-servers under Server Implementations > Aggregators'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.655Z"
+    updated_at: '2026-05-06T22:12:15.655Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:13.008Z"
+    updated_at: '2026-07-21T15:21:13.008Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-14T05:29:21.376Z"
+    updated_at: '2026-05-14T05:29:21.376Z'
     cause: null
     next_retry_at: null
     attempts: 2

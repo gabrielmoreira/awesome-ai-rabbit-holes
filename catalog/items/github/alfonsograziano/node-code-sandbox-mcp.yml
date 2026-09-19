@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alfonsograziano__node-code-sandbox-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 👨‍💻 <a name="code-execution"></a>Code Execution
         anchor_text: alfonsograziano/node-code-sandbox-mcp
         extracted_url: https://github.com/alfonsograziano/node-code-sandbox-mcp
-        surrounding_text: "- [alfonsograziano/node-code-sandbox-mcp](https://github.com/alfonsograziano/node-code-sandbox-mcp) 📇 🏠 – A Node.js MCP server that spins up isolated Docker-based sandboxes for executing JavaScript snippets with on-the-fly npm dependency installation and clean teardown"
+        surrounding_text: >-
+          - [alfonsograziano/node-code-sandbox-mcp](https://github.com/alfonsograziano/node-code-sandbox-mcp) 📇 🏠 – A
+          Node.js MCP server that spins up isolated Docker-based sandboxes for executing JavaScript snippets with
+          on-the-fly npm dependency installation and clean teardown
         confidence: high
 metadata:
   github:
@@ -30,18 +33,24 @@ metadata:
     archived: false
     full_name: alfonsograziano/node-code-sandbox-mcp
     html_url: https://github.com/alfonsograziano/node-code-sandbox-mcp
-    created_at: "2025-04-26T04:11:18Z"
-    pushed_at: "2025-11-24T20:00:40Z"
-    description: A Node.js–based Model Context Protocol server that spins up disposable Docker containers to execute arbitrary JavaScript.
+    created_at: '2025-04-26T04:11:18Z'
+    pushed_at: '2025-11-24T20:00:40Z'
+    description: >-
+      A Node.js–based Model Context Protocol server that spins up disposable Docker containers to execute arbitrary
+      JavaScript.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:40.224Z"
+    last_checked_at: '2026-09-17T04:13:40.224Z'
     readme:
-      fetched_at: "2026-09-17T04:13:40.224Z"
+      fetched_at: '2026-09-17T04:13:40.224Z'
       bytes: 11346
 insights:
-  summary: A Node.js-based Model Context Protocol (MCP) server that executes arbitrary JavaScript in disposable Docker containers with on-the-fly npm dependency installation.
-  why_it_matters: It enables developers to safely run and test JavaScript code in isolated environments directly from MCP-compatible clients like Claude Desktop or VS Code.
+  summary: >-
+    A Node.js-based Model Context Protocol (MCP) server that executes arbitrary JavaScript in disposable Docker
+    containers with on-the-fly npm dependency installation.
+  why_it_matters: >-
+    It enables developers to safely run and test JavaScript code in isolated environments directly from MCP-compatible
+    clients like Claude Desktop or VS Code.
   mental_damage: Now you can spin up Docker containers to run JavaScript just to avoid polluting your local node_modules—progress.
   tags:
     - mcp
@@ -52,31 +61,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose primary identity is executing JavaScript in isolated containers, fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is an MCP-first server whose primary identity is executing JavaScript in isolated containers, fitting the MCP
+    Servers & Tooling category.
   evidence:
     - Repo description explicitly identifies it as a Node.js-based MCP server
     - README details its role as a sandboxed code execution server for MCP clients
     - Listed in awesome-mcp-servers under Code Execution
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (152) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.601Z"
+    updated_at: '2026-05-06T22:12:15.601Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:40.224Z"
+    updated_at: '2026-09-17T04:13:40.224Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:22:08.205Z"
+    updated_at: '2026-07-21T15:22:08.205Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +101,9 @@ processing:
       input_hash: sha256:8ff509bdfa930cd79ed5e44f47db7a644c4976b11b0c56ff1cf5d89e68959114
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server whose primary identity is executing JavaScript in isolated containers, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is an MCP-first server whose primary identity is executing JavaScript in isolated containers, fitting the
+        MCP Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly identifies it as a Node.js-based MCP server
         - README details its role as a sandboxed code execution server for MCP clients
@@ -97,6 +111,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server (not merely an extension for another tool).
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server (not merely an
+        extension for another tool).
       review_reason: null
       review_resume_lifecycle: null

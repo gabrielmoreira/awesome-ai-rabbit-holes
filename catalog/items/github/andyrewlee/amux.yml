@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__andyrewlee__amux__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Session managers & parallel runners
         anchor_text: amux
         extracted_url: https://github.com/andyrewlee/amux
-        surrounding_text: "- **[amux](https://github.com/andyrewlee/amux)** `⭐ 103` — Terminal UI designed for running multiple coding agents in parallel."
+        surrounding_text: >-
+          - **[amux](https://github.com/andyrewlee/amux)** `⭐ 103` — Terminal UI designed for running multiple coding
+          agents in parallel.
         confidence: high
 metadata:
   github:
@@ -30,10 +32,10 @@ metadata:
     archived: false
     full_name: andyrewlee/amux
     html_url: https://github.com/andyrewlee/amux
-    created_at: "2025-12-31T01:57:28Z"
-    pushed_at: "2026-09-03T03:23:46Z"
+    created_at: '2025-12-31T01:57:28Z'
+    pushed_at: '2026-09-03T03:23:46Z'
     description: TUI for easily running parallel coding agents
-    homepage: ""
+    homepage: ''
     topics:
       - agent-coordination
       - agent-orchestration
@@ -47,13 +49,15 @@ metadata:
       - tui
       - worktree
       - worktrees
-    last_checked_at: "2026-09-17T04:13:44.224Z"
+    last_checked_at: '2026-09-17T04:13:44.224Z'
     readme:
-      fetched_at: "2026-09-17T04:13:44.224Z"
+      fetched_at: '2026-09-17T04:13:44.224Z'
       bytes: 9861
 insights:
   summary: A terminal UI for running multiple coding agents in parallel using a workspace-first model with git worktrees.
-  why_it_matters: It allows developers to run multiple specialized agents simultaneously in isolated environments without manual terminal management.
+  why_it_matters: >-
+    It allows developers to run multiple specialized agents simultaneously in isolated environments without manual
+    terminal management.
   mental_damage: Now you can watch three different AI agents break three different git worktrees at exactly the same time.
   tags:
     - tui
@@ -64,31 +68,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool acts as a terminal-based control plane/workbench for coordinating and running multiple independent agents in parallel.
+  reason: >-
+    The tool acts as a terminal-based control plane/workbench for coordinating and running multiple independent agents
+    in parallel.
   evidence:
     - README describes it as a TUI for running parallel coding agents
     - Uses git worktrees to provide isolation for multiple workspaces
     - Works with multiple existing assistants like Claude Code, Codex, and Gemini
 placement:
   primary_category: agent-orchestration
-  section: Workbenches & Collaboration Surfaces
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (151) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.602Z"
+    updated_at: '2026-05-06T22:12:15.602Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:44.224Z"
+    updated_at: '2026-09-17T04:13:44.224Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:23:06.172Z"
+    updated_at: '2026-07-21T15:23:06.172Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -101,7 +108,9 @@ processing:
       input_hash: sha256:1480167ca6848a3a387c70bc178e14a4008e18e18019a8fbc7368ab05f9d5167
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The tool acts as a terminal-based control plane/workbench for coordinating and running multiple independent agents in parallel.
+      decision_reason: >-
+        The tool acts as a terminal-based control plane/workbench for coordinating and running multiple independent
+        agents in parallel.
       decision_evidence:
         - README describes it as a TUI for running parallel coding agents
         - Uses git worktrees to provide isolation for multiple workspaces
@@ -109,6 +118,8 @@ processing:
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because its primary purpose is the coordination and management of multiple existing agents rather than being a single coding assistant itself.
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because its primary purpose is the coordination and management of
+        multiple existing agents rather than being a single coding assistant itself.
       review_reason: null
       review_resume_lifecycle: null

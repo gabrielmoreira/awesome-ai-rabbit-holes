@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wklee610__kafka-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: wklee610/kafka-mcp
         extracted_url: https://github.com/wklee610/kafka-mcp
-        surrounding_text: "- [wklee610/kafka-mcp](https://github.com/wklee610/kafka-mcp)[![kafka-mcp MCP server](https://glama.ai/mcp/servers/wklee610/kafka-mcp/badges/score.svg)](https://glama.ai/mcp/servers/wklee610/kafka-mcp) 🐍 🏠 ☁️ - MCP server for Apache Kafka that allows LLM agents to inspect topics, consumer groups, and safely manage offsets (reset, rewind)."
+        surrounding_text: >-
+          - [wklee610/kafka-mcp](https://github.com/wklee610/kafka-mcp)[![kafka-mcp MCP
+          server](https://glama.ai/mcp/servers/wklee610/kafka-mcp/badges/score.svg)](https://glama.ai/mcp/servers/wklee610/kafka-mcp)
+          🐍 🏠 ☁️ - MCP server for Apache Kafka that allows LLM agents to inspect topics, consumer groups, and safely
+          manage offsets (reset, rewind).
         confidence: high
 metadata:
   github:
@@ -30,10 +34,10 @@ metadata:
     archived: false
     full_name: wklee610/kafka-mcp
     html_url: https://github.com/wklee610/kafka-mcp
-    created_at: "2026-02-18T01:36:54Z"
-    pushed_at: "2026-03-08T09:28:24Z"
+    created_at: '2026-02-18T01:36:54Z'
+    pushed_at: '2026-03-08T09:28:24Z'
     description: MCP Server for Apache Kafka
-    homepage: ""
+    homepage: ''
     topics:
       - apache-kafka
       - apache-kafka-consumer
@@ -46,13 +50,17 @@ metadata:
       - mcp-server
       - mcp-servers
       - mcp-tools
-    last_checked_at: "2026-07-21T15:21:14.187Z"
+    last_checked_at: '2026-07-21T15:21:14.187Z'
     readme:
-      fetched_at: "2026-07-21T15:21:14.187Z"
+      fetched_at: '2026-07-21T15:21:14.187Z'
       bytes: 5024
 insights:
-  summary: An MCP server that provides LLMs with tools to manage Apache Kafka clusters, including topics, consumer groups, and messaging.
-  why_it_matters: It lets developers interact with Kafka infrastructure through natural language in AI assistants like Claude Desktop, reducing context-switching for cluster operations.
+  summary: >-
+    An MCP server that provides LLMs with tools to manage Apache Kafka clusters, including topics, consumer groups, and
+    messaging.
+  why_it_matters: >-
+    It lets developers interact with Kafka infrastructure through natural language in AI assistants like Claude Desktop,
+    reducing context-switching for cluster operations.
   mental_damage: Finally, a way to yell at your LLM to fix lagging consumer groups instead of learning kubectl.
   tags:
     - mcp
@@ -61,31 +69,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server implementation whose core identity is providing Model Context Protocol tooling for Kafka, making MCP the primary product rather than a compatibility layer.
+  reason: >-
+    The project is an MCP server implementation whose core identity is providing Model Context Protocol tooling for
+    Kafka, making MCP the primary product rather than a compatibility layer.
   evidence:
-    - "Repo description: 'MCP Server for Apache Kafka'"
-    - "README title and content: 'Kafka MCP Server' with detailed MCP tool definitions for cluster, topic, config, consumer, and message operations"
-    - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Databases"
+    - 'Repo description: ''MCP Server for Apache Kafka'''
+    - >-
+      README title and content: 'Kafka MCP Server' with detailed MCP tool definitions for cluster, topic, config,
+      consumer, and message operations
+    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Databases'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.655Z"
+    updated_at: '2026-05-06T22:12:15.655Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:14.187Z"
+    updated_at: '2026-07-21T15:21:14.187Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-14T05:29:31.482Z"
+    updated_at: '2026-05-14T05:29:31.482Z'
     cause: null
     next_retry_at: null
     attempts: 2

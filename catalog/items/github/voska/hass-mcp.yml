@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__voska__hass-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Home Assistant
         extracted_url: https://github.com/voska/hass-mcp
-        surrounding_text: "- **[Home Assistant](https://github.com/voska/hass-mcp)** - Interact with Home Assistant to control smart home devices, query states, manage automations, and troubleshoot your smart home setup."
+        surrounding_text: >-
+          - **[Home Assistant](https://github.com/voska/hass-mcp)** - Interact with Home Assistant to control smart home
+          devices, query states, manage automations, and troubleshoot your smart home setup.
         confidence: high
 metadata:
   github:
@@ -29,10 +31,10 @@ metadata:
     archived: false
     full_name: voska/hass-mcp
     html_url: https://github.com/voska/hass-mcp
-    created_at: "2025-03-16T18:27:30Z"
-    pushed_at: "2026-06-23T16:45:27Z"
+    created_at: '2025-03-16T18:27:30Z'
+    pushed_at: '2026-06-23T16:45:27Z'
     description: Control and query Home Assistant from Claude and other LLMs — a Model Context Protocol (MCP) server.
-    homepage: ""
+    homepage: ''
     topics:
       - ai
       - anthropic
@@ -46,13 +48,17 @@ metadata:
       - model-context-protocol
       - python
       - smart-home
-    last_checked_at: "2026-07-21T15:21:08.251Z"
+    last_checked_at: '2026-07-21T15:21:08.251Z'
     readme:
-      fetched_at: "2026-07-21T15:21:08.251Z"
+      fetched_at: '2026-07-21T15:21:08.251Z'
       bytes: 11824
 insights:
-  summary: Home Assistant MCP Server provides Model Context Protocol access to Home Assistant instances for AI assistants like Claude.
-  why_it_matters: It lets AI assistants read and control smart home devices, enabling natural language home automation without custom integrations.
+  summary: >-
+    Home Assistant MCP Server provides Model Context Protocol access to Home Assistant instances for AI assistants like
+    Claude.
+  why_it_matters: >-
+    It lets AI assistants read and control smart home devices, enabling natural language home automation without custom
+    integrations.
   mental_damage: Now your AI can dim the lights when it senses you're doomscrolling at 2 AM—convenience or creepy? You decide.
   tags:
     - mcp
@@ -61,31 +67,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server as its core identity, enabling MCP clients to interact with Home Assistant, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product is an MCP server as its core identity, enabling MCP clients to interact with Home Assistant, fitting the
+    MCP Servers & Tooling category.
   evidence:
-    - "Repo description: 'Home Assistant MCP Server'"
-    - "README: 'A Model Context Protocol (MCP) server for Home Assistant integration with Claude and other LLMs'"
-    - "Source-list context: Listed in awesome-mcp-servers under Community Servers"
+    - 'Repo description: ''Home Assistant MCP Server'''
+    - 'README: ''A Model Context Protocol (MCP) server for Home Assistant integration with Claude and other LLMs'''
+    - 'Source-list context: Listed in awesome-mcp-servers under Community Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: promotion_candidate
   reason: Stars (295) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.654Z"
+    updated_at: '2026-05-06T22:12:15.654Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:08.251Z"
+    updated_at: '2026-07-21T15:21:08.251Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-14T05:28:05.065Z"
+    updated_at: '2026-05-14T05:28:05.065Z'
     cause: null
     next_retry_at: null
     attempts: 2

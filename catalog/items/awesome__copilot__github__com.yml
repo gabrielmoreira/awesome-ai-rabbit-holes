@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__awesome__copilot__github__com__awesome-list__github__awesome-copilot
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: github/awesome-copilot
@@ -18,7 +18,9 @@ provenance:
           - README
         anchor_text: awesome-copilot.github.com
         extracted_url: https://awesome-copilot.github.com
-        surrounding_text: "> **Explore the full collection on the website →** [awesome-copilot.github.com](https://awesome-copilot.github.com)"
+        surrounding_text: >-
+          > **Explore the full collection on the website →**
+          [awesome-copilot.github.com](https://awesome-copilot.github.com)
         confidence: high
 metadata:
   github:
@@ -36,9 +38,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A community-curated repository of agents, instructions, skills, and plugins to enhance the GitHub Copilot experience.
-  why_it_matters: It provides a centralized repository of reusable prompts and specialized skills to make a standard coding assistant more effective for specific workflows.
-  mental_damage: Another layer of abstraction between you and your code, because clearly, you weren't getting enough 'agic' from your IDE already.
+  summary: >-
+    A community-curated repository of agents, instructions, skills, and plugins to enhance the GitHub Copilot
+    experience.
+  why_it_matters: >-
+    It provides a centralized repository of reusable prompts and specialized skills to make a standard coding assistant
+    more effective for specific workflows.
+  mental_damage: >-
+    Another layer of abstraction between you and your code, because clearly, you weren't getting enough 'agic' from your
+    IDE already.
   tags:
     - copilot
     - instructions
@@ -46,22 +54,21 @@ insights:
     - extensions
   confidence: high
 curation:
-  status: included
-  reason: This is a curated directory of resources (agents, instructions, skills) designed to help developers navigate and utilize GitHub Copilot more effectively.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - README describes it as a repository for community-contributed agents, instructions, and skills
-    - Site content organizes resources into Agents, Instructions, Skills, Plugins, and Canvas Extensions
-    - The project serves as a navigation aid for the Copilot ecosystem
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.659Z"
+    updated_at: '2026-05-06T22:12:15.659Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:24:48.210Z"
+    updated_at: '2026-07-20T15:24:48.210Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -83,7 +90,9 @@ processing:
       input_hash: sha256:57531bb883a847cd67f758ac80207a0f0f0da9ade39fbc1b88fb40187dd9e1eb
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: This is a curated directory of resources (agents, instructions, skills) designed to help developers navigate and utilize GitHub Copilot more effectively.
+      decision_reason: >-
+        This is a curated directory of resources (agents, instructions, skills) designed to help developers navigate and
+        utilize GitHub Copilot more effectively.
       decision_evidence:
         - README describes it as a repository for community-contributed agents, instructions, and skills
         - Site content organizes resources into Agents, Instructions, Skills, Plugins, and Canvas Extensions
@@ -91,6 +100,8 @@ processing:
       category_candidates:
         - awesome-awesomes
         - skills
-      contrastive_reason: Choose awesome-awesomes over skills because the project is a directory/collection of resources rather than a single reusable skill pack itself.
+      contrastive_reason: >-
+        Choose awesome-awesomes over skills because the project is a directory/collection of resources rather than a
+        single reusable skill pack itself.
       review_reason: null
       review_resume_lifecycle: null

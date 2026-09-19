@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hovsteder__powersun-tron-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: Hovsteder/powersun-tron-mcp
         extracted_url: https://github.com/hovsteder/powersun-tron-mcp
-        surrounding_text: "- [Hovsteder/powersun-tron-mcp](https://github.com/Hovsteder/powersun-tron-mcp) [![Hovsteder/powersun-tron-mcp MCP server](https://glama.ai/mcp/servers/Hovsteder/powersun-tron-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Hovsteder/powersun-tron-mcp) 📇 ☁️ - TRON Energy & Bandwidth marketplace and DEX swap aggregator for AI agents. 27 tools for buying energy, swapping TRC-20 tokens via SunSwap DEX, selling resources, and earning passive income. Remote Streamable HTTP with 3 payment methods (API Key, HTTP 402, x402 USDC)."
+        surrounding_text: >-
+          - [Hovsteder/powersun-tron-mcp](https://github.com/Hovsteder/powersun-tron-mcp) [![Hovsteder/powersun-tron-mcp
+          MCP
+          server](https://glama.ai/mcp/servers/Hovsteder/powersun-tron-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Hovsteder/powersun-tron-mcp)
+          📇 ☁️ - TRON Energy & Bandwidth marketplace and DEX swap aggregator for AI agents. 27 tools for buying energy,
+          swapping TRC-20 tokens via SunSwap DEX, selling resources, and earning passive income. Remote Streamable HTTP
+          with 3 payment methods (API Key, HTTP 402, x402 USDC).
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: Hovsteder/powersun-tron-mcp
     html_url: https://github.com/Hovsteder/powersun-tron-mcp
-    created_at: "2026-02-26T17:01:41Z"
-    pushed_at: "2026-04-02T08:59:39Z"
-    description: "TRON Energy & Bandwidth MCP Server + DEX Swap Aggregator for AI agents. 27 tools: self-service onboarding, buy/sell TRON resources, swap tokens on SunSwap DEX via MCP, REST API, or HTTP 402. Only 10% commission."
+    created_at: '2026-02-26T17:01:41Z'
+    pushed_at: '2026-04-02T08:59:39Z'
+    description: >-
+      TRON Energy & Bandwidth MCP Server + DEX Swap Aggregator for AI agents. 27 tools: self-service onboarding,
+      buy/sell TRON resources, swap tokens on SunSwap DEX via MCP, REST API, or HTTP 402. Only 10% commission.
     homepage: null
     topics:
       - ai-agent
@@ -51,13 +59,17 @@ metadata:
       - trx
       - usdt
       - x402
-    last_checked_at: "2026-07-30T05:05:38.797Z"
+    last_checked_at: '2026-07-30T05:05:38.797Z'
     readme:
-      fetched_at: "2026-07-30T05:05:38.797Z"
+      fetched_at: '2026-07-30T05:05:38.797Z'
       bytes: 17431
 insights:
-  summary: TRON Energy & Bandwidth MCP Server + DEX Swap Aggregator for AI agents with 27 tools for self-service onboarding, resource trading, and token swaps.
-  why_it_matters: Enables AI agents to autonomously interact with TRON's Energy marketplace and SunSwap DEX, reducing transaction costs by 20–50% via energy rental instead of burning TRX.
+  summary: >-
+    TRON Energy & Bandwidth MCP Server + DEX Swap Aggregator for AI agents with 27 tools for self-service onboarding,
+    resource trading, and token swaps.
+  why_it_matters: >-
+    Enables AI agents to autonomously interact with TRON's Energy marketplace and SunSwap DEX, reducing transaction
+    costs by 20–50% via energy rental instead of burning TRX.
   mental_damage: Now your AI agent can day-trade TRON Energy while you pretend to understand blockchain.
   tags:
     - mcp-server
@@ -68,31 +80,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: a hosted MCP server exposing TRON-specific tools for AI agents, with no stronger identity as an extension, framework, or assistant."
+  reason: >-
+    MCP is the product identity: a hosted MCP server exposing TRON-specific tools for AI agents, with no stronger
+    identity as an extension, framework, or assistant.
   evidence:
     - Repo description explicitly labels it as an MCP Server for AI agents
     - README emphasizes MCP as the primary interface (Streamable HTTP, 27 tools)
     - Core functionality is TRON Energy/DEX operations, not host integration or orchestration
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.619Z"
+    updated_at: '2026-05-06T22:12:15.619Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:38.797Z"
+    updated_at: '2026-07-30T05:05:38.797Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:06:19.606Z"
+    updated_at: '2026-07-21T16:06:19.606Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -105,7 +120,9 @@ processing:
       input_hash: sha256:e088b493a2b6320fd864551163166dbd8c429b31327a341575254334848866a5
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: a hosted MCP server exposing TRON-specific tools for AI agents, with no stronger identity as an extension, framework, or assistant."
+      decision_reason: >-
+        MCP is the product identity: a hosted MCP server exposing TRON-specific tools for AI agents, with no stronger
+        identity as an extension, framework, or assistant.
       decision_evidence:
         - Repo description explicitly labels it as an MCP Server for AI agents
         - README emphasizes MCP as the primary interface (Streamable HTTP, 27 tools)
@@ -113,6 +130,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is a domain-specific MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is a domain-specific MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

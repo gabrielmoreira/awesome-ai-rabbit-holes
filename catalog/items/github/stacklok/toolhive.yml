@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__stacklok__toolhive__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Frameworks
         anchor_text: ToolHive
         extracted_url: https://github.com/stacklok/toolhive
-        surrounding_text: "- **[ToolHive](https://github.com/Stacklok/toolhive)** - A lightweight utility designed to simplify the deployment and management of MCP servers, ensuring ease of use, consistency, and security through containerization"
+        surrounding_text: >-
+          - **[ToolHive](https://github.com/Stacklok/toolhive)** - A lightweight utility designed to simplify the
+          deployment and management of MCP servers, ensuring ease of use, consistency, and security through
+          containerization
         confidence: high
 metadata:
   github:
@@ -29,8 +32,8 @@ metadata:
     archived: false
     full_name: stacklok/toolhive
     html_url: https://github.com/stacklok/toolhive
-    created_at: "2025-03-12T14:49:15Z"
-    pushed_at: "2026-07-20T14:41:36Z"
+    created_at: '2025-03-12T14:49:15Z'
+    pushed_at: '2026-07-20T14:41:36Z'
     description: ToolHive is an enterprise-grade platform for running and managing Model Context Protocol (MCP) servers.
     homepage: https://stacklok.com/download/
     topics:
@@ -45,14 +48,20 @@ metadata:
       - mcp-tools
       - model-context-protocol
       - security
-    last_checked_at: "2026-07-20T16:43:02.733Z"
+    last_checked_at: '2026-07-20T16:43:02.733Z'
     readme:
-      fetched_at: "2026-07-20T16:43:02.733Z"
+      fetched_at: '2026-07-20T16:43:02.733Z'
       bytes: 11875
 insights:
-  summary: ToolHive is an open-source platform for running and managing Model Context Protocol (MCP) servers in isolated containers with identity enforcement and observability.
-  why_it_matters: It lets developers and platform teams self-host and secure MCP servers, integrating them with clients like Claude Code and Cursor while adding policy controls and token-saving semantic search.
-  mental_damage: "Finally, the Kafka of MCP: a dedicated platform to manage the growing sprawl of local servers that were supposed to simplify your AI workflow."
+  summary: >-
+    ToolHive is an open-source platform for running and managing Model Context Protocol (MCP) servers in isolated
+    containers with identity enforcement and observability.
+  why_it_matters: >-
+    It lets developers and platform teams self-host and secure MCP servers, integrating them with clients like Claude
+    Code and Cursor while adding policy controls and token-saving semantic search.
+  mental_damage: >-
+    Finally, the Kafka of MCP: a dedicated platform to manage the growing sprawl of local servers that were supposed to
+    simplify your AI workflow.
   tags:
     - mcp
     - security
@@ -62,35 +71,42 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is MCP infrastructure, acting as a platform and gateway for running, securing, and observing MCP servers across desktop and Kubernetes environments.
+  reason: >-
+    The product's core identity is MCP infrastructure, acting as a platform and gateway for running, securing, and
+    observing MCP servers across desktop and Kubernetes environments.
   evidence:
-    - Repo description explicitly states it is 'an enterprise-grade platform for running and managing Model Context Protocol (MCP) servers.'
-    - README highlights running 'any MCP server securely' and connecting clients like Claude Code and Cursor to these servers.
+    - >-
+      Repo description explicitly states it is 'an enterprise-grade platform for running and managing Model Context
+      Protocol (MCP) servers.'
+    - >-
+      README highlights running 'any MCP server securely' and connecting clients like Claude Code and Cursor to these
+      servers.
     - Topics include 'mcp', 'mcp-servers', 'mcp-tools', and 'mcp-security', confirming the MCP-first identity.
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: promotion_candidate
   reason: Stars (1773) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.649Z"
+    updated_at: '2026-05-06T22:12:15.649Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:43:02.733Z"
+    updated_at: '2026-07-20T16:43:02.733Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

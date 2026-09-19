@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__zacccck__claude-mcp-read-email-attachments__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: Zacccck/Claude-MCP-Read-Email-Attachments
         extracted_url: https://github.com/zacccck/claude-mcp-read-email-attachments
-        surrounding_text: "- [Zacccck/Claude-MCP-Read-Email-Attachments](https://github.com/Zacccck/Claude-MCP-Read-Email-Attachments) [![Zacccck/Claude-MCP-Read-Email-Attachments MCP server](https://glama.ai/mcp/servers/Zacccck/Claude-MCP-Read-Email-Attachments/badges/score.svg)](https://glama.ai/mcp/servers/Zacccck/Claude-MCP-Read-Email-Attachments) 📇 ☁️ 🏠 🪟 - Remote HTTP MCP server that reads Outlook email attachments via Microsoft Graph. Parses PDF, Word (with embedded image extraction for multimodal analysis), Excel, and text files in-memory and returns structured content directly to Claude."
+        surrounding_text: >-
+          - [Zacccck/Claude-MCP-Read-Email-Attachments](https://github.com/Zacccck/Claude-MCP-Read-Email-Attachments)
+          [![Zacccck/Claude-MCP-Read-Email-Attachments MCP
+          server](https://glama.ai/mcp/servers/Zacccck/Claude-MCP-Read-Email-Attachments/badges/score.svg)](https://glama.ai/mcp/servers/Zacccck/Claude-MCP-Read-Email-Attachments)
+          📇 ☁️ 🏠 🪟 - Remote HTTP MCP server that reads Outlook email attachments via Microsoft Graph. Parses PDF,
+          Word (with embedded image extraction for multimodal analysis), Excel, and text files in-memory and returns
+          structured content directly to Claude.
         confidence: high
 metadata:
   github:
@@ -30,22 +36,26 @@ metadata:
     archived: false
     full_name: Zacccck/Claude-MCP-Read-Email-Attachments
     html_url: https://github.com/Zacccck/Claude-MCP-Read-Email-Attachments
-    created_at: "2026-04-11T23:20:09Z"
-    pushed_at: "2026-06-16T17:12:15Z"
+    created_at: '2026-04-11T23:20:09Z'
+    pushed_at: '2026-06-16T17:12:15Z'
     description: Local MCP server for Claude Desktop to read Outlook emails/bodies/attachments and send local files as attachments.
-    homepage: ""
+    homepage: ''
     topics:
       - claude-mcp
       - claude-mcp-server
       - mcp-email-attachments
-    last_checked_at: "2026-07-21T15:21:23.995Z"
+    last_checked_at: '2026-07-21T15:21:23.995Z'
     readme:
-      fetched_at: "2026-07-21T15:21:23.995Z"
+      fetched_at: '2026-07-21T15:21:23.995Z'
       bytes: 17561
 insights:
   summary: A local MCP server that enables Claude Desktop to read and parse Outlook email attachments via Microsoft Graph API.
-  why_it_matters: It closes a gap in Claude’s native Microsoft 365 integration by allowing developers to extract and analyze attachment contents directly from email within their AI-assisted workflows.
-  mental_damage: Another hyper-specific MCP server that makes you wonder if the future of AI tooling is just a thousand tiny bridges between every SaaS app and Claude Desktop.
+  why_it_matters: >-
+    It closes a gap in Claude’s native Microsoft 365 integration by allowing developers to extract and analyze
+    attachment contents directly from email within their AI-assisted workflows.
+  mental_damage: >-
+    Another hyper-specific MCP server that makes you wonder if the future of AI tooling is just a thousand tiny bridges
+    between every SaaS app and Claude Desktop.
   tags:
     - mcp
     - email
@@ -55,31 +65,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server whose primary identity and value lie in providing MCP-compliant tooling for reading email attachments, making it a clear fit for the MCP Servers & Tooling category.
+  reason: >-
+    This is an MCP server whose primary identity and value lie in providing MCP-compliant tooling for reading email
+    attachments, making it a clear fit for the MCP Servers & Tooling category.
   evidence:
-    - "Repo description: 'Local MCP server for Claude — read and parse Outlook email attachments via Microsoft Graph API'"
-    - "README: Describes the project as a 'local stdio MCP server for Claude Desktop' that lists emails, downloads attachments, and returns parsed content via MCP tools"
+    - 'Repo description: ''Local MCP server for Claude — read and parse Outlook email attachments via Microsoft Graph API'''
+    - >-
+      README: Describes the project as a 'local stdio MCP server for Claude Desktop' that lists emails, downloads
+      attachments, and returns parsed content via MCP tools
     - Listed in awesome-mcp-servers under 'Server Implementations > Communication'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.657Z"
+    updated_at: '2026-05-06T22:12:15.657Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:23.995Z"
+    updated_at: '2026-07-21T15:21:23.995Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:48:34.163Z"
+    updated_at: '2026-05-12T15:48:34.163Z'
     cause: null
     next_retry_at: null
     attempts: 1

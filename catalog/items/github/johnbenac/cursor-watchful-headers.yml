@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__johnbenac__cursor-watchful-headers__awesome-list__patrickjs__awesome-cursorrules
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: PatrickJS/awesome-cursorrules
@@ -20,7 +20,11 @@ provenance:
           - Utilities
         anchor_text: Cursor Watchful Headers
         extracted_url: https://github.com/johnbenac/cursor-watchful-headers
-        surrounding_text: "- [Cursor Watchful Headers](https://github.com/johnbenac/cursor-watchful-headers) - A Python-based file watching system that automatically manages headers in text files and maintains a clean, focused project tree structure. Perfect for maintaining consistent file headers and documentation across your project, with special features to help LLMs maintain better project awareness."
+        surrounding_text: >-
+          - [Cursor Watchful Headers](https://github.com/johnbenac/cursor-watchful-headers) - A Python-based file
+          watching system that automatically manages headers in text files and maintains a clean, focused project tree
+          structure. Perfect for maintaining consistent file headers and documentation across your project, with special
+          features to help LLMs maintain better project awareness.
         confidence: high
 metadata:
   github:
@@ -30,19 +34,28 @@ metadata:
     archived: false
     full_name: johnbenac/cursor-watchful-headers
     html_url: https://github.com/johnbenac/cursor-watchful-headers
-    created_at: "2025-02-08T03:55:23Z"
-    pushed_at: "2025-06-09T21:56:11Z"
-    description: Automated file header management and project structure visualization in cursorrules. Maintains consistent headers across multiple file types while providing real-time project tree updates. Perfect for maintaining documentation context in large codebases.
+    created_at: '2025-02-08T03:55:23Z'
+    pushed_at: '2025-06-09T21:56:11Z'
+    description: >-
+      Automated file header management and project structure visualization in cursorrules. Maintains consistent headers
+      across multiple file types while providing real-time project tree updates. Perfect for maintaining documentation
+      context in large codebases.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:51.510Z"
+    last_checked_at: '2026-07-30T05:05:51.510Z'
     readme:
-      fetched_at: "2026-07-30T05:05:51.510Z"
+      fetched_at: '2026-07-30T05:05:51.510Z'
       bytes: 15163
 insights:
-  summary: A Python-based file watcher that manages file headers and maintains an automated project tree structure within.cursorrules.
-  why_it_matters: It helps prevent LLM context drift by pruning irrelevant files from the project tree and ensuring critical documentation headers remain consistent.
-  mental_damage: Because nothing says 'odern development' like writing a script to manage the context so your AI doesn't hallucinate your entire directory structure.
+  summary: >-
+    A Python-based file watcher that manages file headers and maintains an automated project tree structure
+    within.cursorrules.
+  why_it_matters: >-
+    It helps prevent LLM context drift by pruning irrelevant files from the project tree and ensuring critical
+    documentation headers remain consistent.
+  mental_damage: >-
+    Because nothing says 'odern development' like writing a script to manage the context so your AI doesn't hallucinate
+    your entire directory structure.
   tags:
     - cursor
     - context-management
@@ -51,31 +64,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's core novelty is shaping and pruning the project context provided to the LLM through automated.cursorrules updates.
+  reason: >-
+    The tool's core novelty is shaping and pruning the project context provided to the LLM through automated.cursorrules
+    updates.
   evidence:
     - README claims it provides 'clean, focused context for LLM coding agents'
     - Core functionality is managing '.donotwatchlist' to hide irrelevant directories from the LLM
     - Aims to optimize the 'Self-Optimizing Context' feedback loop
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: IDE & Editor Add-ons
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.623Z"
+    updated_at: '2026-05-06T22:12:15.623Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:51.510Z"
+    updated_at: '2026-07-30T05:05:51.510Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:11:25.176Z"
+    updated_at: '2026-07-21T16:11:25.176Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +104,9 @@ processing:
       input_hash: sha256:450bc7884146cc05047d011f867f69d6a0814bd280a1cd5548f3b8aff2880327
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: The tool's core novelty is shaping and pruning the project context provided to the LLM through automated.cursorrules updates.
+      decision_reason: >-
+        The tool's core novelty is shaping and pruning the project context provided to the LLM through
+        automated.cursorrules updates.
       decision_evidence:
         - README claims it provides 'clean, focused context for LLM coding agents'
         - Core functionality is managing '.donotwatchlist' to hide irrelevant directories from the LLM
@@ -96,6 +114,9 @@ processing:
       category_candidates:
         - context-engineering
         - ai-dev-extensions
-      contrastive_reason: Choose context-engineering over ai-dev-extensions because the primary value proposition is managing the information density and relevance of the context sent to the model, rather than acting as a simple workflow utility for the host.
+      contrastive_reason: >-
+        Choose context-engineering over ai-dev-extensions because the primary value proposition is managing the
+        information density and relevance of the context sent to the model, rather than acting as a simple workflow
+        utility for the host.
       review_reason: null
       review_resume_lifecycle: null

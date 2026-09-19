@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__n24q02m__mnemo-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: n24q02m/mnemo-mcp
         extracted_url: https://github.com/n24q02m/mnemo-mcp
-        surrounding_text: "- [n24q02m/mnemo-mcp](https://github.com/n24q02m/mnemo-mcp) [![mnemo-mcp MCP server](https://glama.ai/mcp/servers/@n24q02m/mnemo-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@n24q02m/mnemo-mcp) 🐍 🏠 🍎 🪟 🐧 - Persistent AI memory with SQLite hybrid search (FTS5 + semantic). Built-in Qwen3 embedding, rclone sync across machines. Zero config, no cloud, no limits."
+        surrounding_text: >-
+          - [n24q02m/mnemo-mcp](https://github.com/n24q02m/mnemo-mcp) [![mnemo-mcp MCP
+          server](https://glama.ai/mcp/servers/@n24q02m/mnemo-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@n24q02m/mnemo-mcp)
+          🐍 🏠 🍎 🪟 🐧 - Persistent AI memory with SQLite hybrid search (FTS5 + semantic). Built-in Qwen3 embedding,
+          rclone sync across machines. Zero config, no cloud, no limits.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: n24q02m/mnemo-mcp
     html_url: https://github.com/n24q02m/mnemo-mcp
-    created_at: "2026-02-12T08:01:04Z"
-    pushed_at: "2026-07-20T12:20:46Z"
+    created_at: '2026-02-12T08:01:04Z'
+    pushed_at: '2026-07-20T12:20:46Z'
     description: Persistent AI memory with hybrid search and embedded sync. Open, free, unlimited.
     homepage: https://mcp.n24q02m.com/servers/mnemo-mcp/
     topics:
@@ -49,14 +53,20 @@ metadata:
       - open-source
       - python
       - sqlite
-    last_checked_at: "2026-07-20T15:11:58.957Z"
+    last_checked_at: '2026-07-20T15:11:58.957Z'
     readme:
-      fetched_at: "2026-07-20T15:11:58.957Z"
+      fetched_at: '2026-07-20T15:11:58.957Z'
       bytes: 21387
 insights:
-  summary: An open-source MCP server providing persistent AI memory with hybrid search, knowledge graphs, and multi-machine sync for coding assistants like Claude Code and Cursor.
-  why_it_matters: It gives local-first coding agents a structured way to remember preferences, decisions, and facts across sessions without relying on cloud APIs or brittle context windows.
-  mental_damage: We have finally solved the problem of AI assistants forgetting who we are, only to create a dedicated SQLite database to remind them that we still haven't finished that one refactor from three months ago.
+  summary: >-
+    An open-source MCP server providing persistent AI memory with hybrid search, knowledge graphs, and multi-machine
+    sync for coding assistants like Claude Code and Cursor.
+  why_it_matters: >-
+    It gives local-first coding agents a structured way to remember preferences, decisions, and facts across sessions
+    without relying on cloud APIs or brittle context windows.
+  mental_damage: >-
+    We have finally solved the problem of AI assistants forgetting who we are, only to create a dedicated SQLite
+    database to remind them that we still haven't finished that one refactor from three months ago.
   tags:
     - mcp
     - memory
@@ -66,37 +76,42 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core novelty is the memory and retrieval system itself (hybrid search, knowledge graphs, importance scoring), fitting Prompt & Context Engineering rather than a generic extension or MCP server category.
+  reason: >-
+    The core novelty is the memory and retrieval system itself (hybrid search, knowledge graphs, importance scoring),
+    fitting Prompt & Context Engineering rather than a generic extension or MCP server category.
   evidence:
     - Repo description and README define it as 'Persistent AI memory with hybrid search and embedded sync'.
-    - Features include knowledge graphs, importance scoring, STM-to-LTM consolidation, and duplicate detection—classic context engineering primitives.
+    - >-
+      Features include knowledge graphs, importance scoring, STM-to-LTM consolidation, and duplicate detection—classic
+      context engineering primitives.
     - Source list places it under 'Knowledge & Memory' in awesome-mcp-servers, aligning with the memory system identity.
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.632Z"
+    updated_at: '2026-05-06T22:12:15.632Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-08-03T05:17:09.998Z"
+    updated_at: '2026-08-03T05:17:09.998Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for n24q02m/mnemo-mcp
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

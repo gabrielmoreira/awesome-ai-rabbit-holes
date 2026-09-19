@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sevalla-hosting__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: sevalla-hosting/mcp
         extracted_url: https://github.com/sevalla-hosting/mcp
-        surrounding_text: "- [sevalla-hosting/mcp](https://github.com/sevalla-hosting/mcp) [![sevalla-hosting/mcp MCP server](https://glama.ai/mcp/servers/sevalla-hosting/mcp/badges/score.svg)](https://glama.ai/mcp/servers/sevalla-hosting/mcp) 📇 ☁️ - Manage your entire Sevalla cloud infrastructure from AI agents. Hosted remote server with OAuth — connect in one click, no API keys to configure."
+        surrounding_text: >-
+          - [sevalla-hosting/mcp](https://github.com/sevalla-hosting/mcp) [![sevalla-hosting/mcp MCP
+          server](https://glama.ai/mcp/servers/sevalla-hosting/mcp/badges/score.svg)](https://glama.ai/mcp/servers/sevalla-hosting/mcp)
+          📇 ☁️ - Manage your entire Sevalla cloud infrastructure from AI agents. Hosted remote server with OAuth —
+          connect in one click, no API keys to configure.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: sevalla-hosting/mcp
     html_url: https://github.com/sevalla-hosting/mcp
-    created_at: "2026-02-27T15:28:15Z"
-    pushed_at: "2026-07-16T10:17:20Z"
+    created_at: '2026-02-27T15:28:15Z'
+    pushed_at: '2026-07-16T10:17:20Z'
     description: Official remote MCP server for the Sevalla public API.
     homepage: https://mcp.sevalla.com/mcp
     topics:
@@ -39,14 +43,20 @@ metadata:
       - mcp
       - mcp-server
       - paas
-    last_checked_at: "2026-07-20T16:42:54.454Z"
+    last_checked_at: '2026-07-20T16:42:54.454Z'
     readme:
-      fetched_at: "2026-07-20T16:42:54.454Z"
+      fetched_at: '2026-07-20T16:42:54.454Z'
       bytes: 7437
 insights:
-  summary: An official remote MCP server that exposes the Sevalla PaaS API through two tools, allowing AI agents to discover and execute API calls via a sandboxed V8 environment.
-  why_it_matters: Developers can manage Sevalla infrastructure conversationally across multiple MCP clients without importing a traditional SDK or inflating context windows with hundreds of endpoint definitions.
-  mental_damage: We have successfully reduced a 200-endpoint API to two tools, proving that the ultimate evolution of developer tooling is just giving the AI a sandbox and telling it to figure it out.
+  summary: >-
+    An official remote MCP server that exposes the Sevalla PaaS API through two tools, allowing AI agents to discover
+    and execute API calls via a sandboxed V8 environment.
+  why_it_matters: >-
+    Developers can manage Sevalla infrastructure conversationally across multiple MCP clients without importing a
+    traditional SDK or inflating context windows with hundreds of endpoint definitions.
+  mental_damage: >-
+    We have successfully reduced a 200-endpoint API to two tools, proving that the ultimate evolution of developer
+    tooling is just giving the AI a sandbox and telling it to figure it out.
   tags:
     - mcp
     - paas
@@ -56,35 +66,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is a remote MCP server for a specific cloud platform, fitting cleanly into the MCP Servers & Tooling category as a domain-specific server.
+  reason: >-
+    The product identity is a remote MCP server for a specific cloud platform, fitting cleanly into the MCP Servers &
+    Tooling category as a domain-specific server.
   evidence:
-    - "Repo description explicitly states: 'Official remote MCP server for the Sevalla public API.'"
+    - 'Repo description explicitly states: ''Official remote MCP server for the Sevalla public API.'''
     - README identifies this as a remote Model Context Protocol server implementing the 'Code Mode MCP' pattern.
     - Listed in the 'awesome-mcp-servers' directory under 'Cloud Platforms', confirming its identity as an MCP server.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.647Z"
+    updated_at: '2026-05-06T22:12:15.647Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:54.454Z"
+    updated_at: '2026-07-20T16:42:54.454Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

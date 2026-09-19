@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__davidf9999__gx-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: gx-mcp-server
         extracted_url: https://github.com/davidf9999/gx-mcp-server
-        surrounding_text: "- **[gx-mcp-server](https://github.com/davidf9999/gx-mcp-server)** - Expose Great Expectations data validation and"
+        surrounding_text: >-
+          - **[gx-mcp-server](https://github.com/davidf9999/gx-mcp-server)** - Expose Great Expectations data validation
+          and
         confidence: high
 metadata:
   github:
@@ -29,18 +31,22 @@ metadata:
     archived: false
     full_name: davidf9999/gx-mcp-server
     html_url: https://github.com/davidf9999/gx-mcp-server
-    created_at: "2025-07-09T08:31:41Z"
-    pushed_at: "2025-12-14T06:31:46Z"
-    description: A Python server that exposes Great Expectations data quality tools to LLM agents via the Model Context Protocol (MCP).
-    homepage: ""
+    created_at: '2025-07-09T08:31:41Z'
+    pushed_at: '2025-12-14T06:31:46Z'
+    description: >-
+      A Python server that exposes Great Expectations data quality tools to LLM agents via the Model Context Protocol
+      (MCP).
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-14T04:13:35.680Z"
+    last_checked_at: '2026-09-14T04:13:35.680Z'
     readme:
-      fetched_at: "2026-09-14T04:13:35.680Z"
+      fetched_at: '2026-09-14T04:13:35.680Z'
       bytes: 12764
 insights:
   summary: A Python MCP server that exposes Great Expectations data quality tools to LLM agents via the Model Context Protocol.
-  why_it_matters: It lets LLM agents programmatically validate data quality using Great Expectations, integrating robust data checks into automated workflows.
+  why_it_matters: >-
+    It lets LLM agents programmatically validate data quality using Great Expectations, integrating robust data checks
+    into automated workflows.
   mental_damage: Now your AI can also judge your data quality, because apparently your unit tests weren't judging you enough already.
   tags:
     - mcp
@@ -50,31 +56,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated server exposing Great Expectations functionality through MCP, not a compatibility footnote."
+  reason: >-
+    MCP is the product identity: this is a dedicated server exposing Great Expectations functionality through MCP, not a
+    compatibility footnote.
   evidence:
     - Repo description explicitly states it is an MCP server for Great Expectations
     - README details MCP transport modes (STDIO, HTTP, Inspector) and client configuration
     - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.610Z"
+    updated_at: '2026-05-06T22:12:15.610Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:35.680Z"
+    updated_at: '2026-09-14T04:13:35.680Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:50:03.108Z"
+    updated_at: '2026-07-21T15:50:03.108Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,7 +96,9 @@ processing:
       input_hash: sha256:a5daa0dc307328c95628615907d67f8d8c9db9515da09f9ac61f0e872a546d86
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated server exposing Great Expectations functionality through MCP, not a compatibility footnote."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated server exposing Great Expectations functionality through MCP,
+        not a compatibility footnote.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Great Expectations
         - README details MCP transport modes (STDIO, HTTP, Inspector) and client configuration
@@ -95,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific tools, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific tools, not
+        an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

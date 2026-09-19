@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__fujitsuresearch__onecompression__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-21T05:27:57.681Z"
+      discovered_at: '2026-05-21T05:27:57.681Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - Large Model Serving
         anchor_text: OneComp
         extracted_url: https://github.com/fujitsuresearch/onecompression
-        surrounding_text: "| [OneComp](https://github.com/FujitsuResearch/OneCompression)                               | Fujitsu Research's post-training quantization pipeline for LLMs (QEP, AutoBit, JointQ, rotation) with vLLM plugin (arXiv:2603.28845).                             | ![GitHub Badge](https://img.shields.io/github/stars/FujitsuResearch/OneCompression.svg?style=flat-square)        |"
+        surrounding_text: >-
+          | [OneComp](https://github.com/FujitsuResearch/OneCompression)                               | Fujitsu
+          Research's post-training quantization pipeline for LLMs (QEP, AutoBit, JointQ, rotation) with vLLM plugin
+          (arXiv:2603.28845).                             | ![GitHub
+          Badge](https://img.shields.io/github/stars/FujitsuResearch/OneCompression.svg?style=flat-square)        |
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: FujitsuResearch/OneCompression
     html_url: https://github.com/FujitsuResearch/OneCompression
-    created_at: "2026-03-30T10:30:14Z"
-    pushed_at: "2026-09-03T02:06:02Z"
+    created_at: '2026-03-30T10:30:14Z'
+    pushed_at: '2026-09-03T02:06:02Z'
     description: Python package for LLM compression
     homepage: https://fujitsuresearch.github.io/OneCompression/
     topics:
@@ -39,14 +43,18 @@ metadata:
       - qep
       - quantization
       - vllm
-    last_checked_at: "2026-09-03T05:16:44.431Z"
+    last_checked_at: '2026-09-03T05:16:44.431Z'
     readme:
-      fetched_at: "2026-09-03T05:16:44.431Z"
+      fetched_at: '2026-09-03T05:16:44.431Z'
       bytes: 22149
 insights:
   summary: A Python package for the automated compression and quantization of Large Language Models.
-  why_it_matters: It simplifies the complex process of shrinking LLMs to fit on available VRAM by automating bit-width selection and error correction.
-  mental_damage: We've reached the point where the primary developer workflow is just playing Tetris with VRAM to see if a model will actually boot.
+  why_it_matters: >-
+    It simplifies the complex process of shrinking LLMs to fit on available VRAM by automating bit-width selection and
+    error correction.
+  mental_damage: >-
+    We've reached the point where the primary developer workflow is just playing Tetris with VRAM to see if a model will
+    actually boot.
   tags:
     - quantization
     - llm-ops
@@ -55,31 +63,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core novelty of the tool is model compression and distillation to optimize how the model fits into memory, which fits the 'Compression/Distillation' section of context engineering.
+  reason: >-
+    The core novelty of the tool is model compression and distillation to optimize how the model fits into memory, which
+    fits the 'Compression/Distillation' section of context engineering.
   evidence:
-    - "Repo description: 'a one-line GitHub description' focuses on compression."
+    - 'Repo description: ''a one-line GitHub description'' focuses on compression.'
     - README lists 'Quantization Error Propagation' and 'AutoBit' for memory budget management.
     - Features focus on distillation and quantization (PTQ) to reduce model size.
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: ai-frameworks
+  secondary_categories: []
+  section: LLM & Agent SDKs
 lifecycle:
   status: promotion_candidate
   reason: Stars (381) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-21T05:27:57.683Z"
+    updated_at: '2026-05-21T05:27:57.683Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:44.431Z"
+    updated_at: '2026-09-03T05:16:44.431Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-08T05:40:57.040Z"
+    updated_at: '2026-06-08T05:40:57.040Z'
     cause: null
     next_retry_at: null
     attempts: 1

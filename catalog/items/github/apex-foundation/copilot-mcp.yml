@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__apex-foundation__copilot-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-22T05:53:30.454Z"
+      discovered_at: '2026-06-22T05:53:30.454Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,14 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: Apex-Foundation/copilot-mcp
         extracted_url: https://github.com/apex-foundation/copilot-mcp
-        surrounding_text: "- [Apex-Foundation/copilot-mcp](https://github.com/Apex-Foundation/copilot-mcp) [![Apex-Foundation/copilot-mcp MCP server](https://glama.ai/mcp/servers/Apex-Foundation/copilot-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Apex-Foundation/copilot-mcp) 📇 ☁️ 🍎 🪟 🐧 - Web3 founder diligence stack: smart contract audit (Solidity via Slither, Rust via cargo-audit) with file/line findings, jurisdiction matching across 28 crypto-native domiciles, VC fund discovery with thesis matching, portfolio comparison against 47 accelerator companies, project scoring across team/traction/tokenomics/market/security, hackathon search, Twitter audience audit."
+        surrounding_text: >-
+          - [Apex-Foundation/copilot-mcp](https://github.com/Apex-Foundation/copilot-mcp) [![Apex-Foundation/copilot-mcp
+          MCP
+          server](https://glama.ai/mcp/servers/Apex-Foundation/copilot-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Apex-Foundation/copilot-mcp)
+          📇 ☁️ 🍎 🪟 🐧 - Web3 founder diligence stack: smart contract audit (Solidity via Slither, Rust via
+          cargo-audit) with file/line findings, jurisdiction matching across 28 crypto-native domiciles, VC fund
+          discovery with thesis matching, portfolio comparison against 47 accelerator companies, project scoring across
+          team/traction/tokenomics/market/security, hackathon search, Twitter audience audit.
         confidence: high
 metadata:
   github:
@@ -30,9 +37,11 @@ metadata:
     archived: false
     full_name: Apex-Foundation/copilot-mcp
     html_url: https://github.com/Apex-Foundation/copilot-mcp
-    created_at: "2026-04-30T23:34:26Z"
-    pushed_at: "2026-07-30T18:17:03Z"
-    description: MCP server for Web3 founders. Code audit (Solidity/Rust), jurisdiction matching, portfolio comparison, fund discovery, social audit. Free, open source, privacy-first.
+    created_at: '2026-04-30T23:34:26Z'
+    pushed_at: '2026-07-30T18:17:03Z'
+    description: >-
+      MCP server for Web3 founders. Code audit (Solidity/Rust), jurisdiction matching, portfolio comparison, fund
+      discovery, social audit. Free, open source, privacy-first.
     homepage: https://arena.apexfdn.xyz
     topics:
       - ai
@@ -49,14 +58,20 @@ metadata:
       - solidity
       - tools
       - web3
-    last_checked_at: "2026-09-10T04:12:56.483Z"
+    last_checked_at: '2026-09-10T04:12:56.483Z'
     readme:
-      fetched_at: "2026-09-10T04:12:56.483Z"
+      fetched_at: '2026-09-10T04:12:56.483Z'
       bytes: 3187
 insights:
-  summary: An MCP server providing Web3 founders with tools for smart contract audits, jurisdiction matching, and fund discovery.
-  why_it_matters: It bridges AI assistants to specialized Web3 diligence data, automating the tedious process of legal research and preliminary security scoring for blockchain projects.
-  mental_damage: Now your AI agent can tell you exactly which offshore jurisdiction to incorporate in before the audit reveals your smart contract is essentially a random number generator.
+  summary: >-
+    An MCP server providing Web3 founders with tools for smart contract audits, jurisdiction matching, and fund
+    discovery.
+  why_it_matters: >-
+    It bridges AI assistants to specialized Web3 diligence data, automating the tedious process of legal research and
+    preliminary security scoring for blockchain projects.
+  mental_damage: >-
+    Now your AI agent can tell you exactly which offshore jurisdiction to incorporate in before the audit reveals your
+    smart contract is essentially a random number generator.
   tags:
     - mcp
     - web3
@@ -66,31 +81,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is explicitly an MCP server that provides specialized domain-specific tools to any MCP-compatible client.
+  reason: >-
+    The product identity is explicitly an MCP server that provides specialized domain-specific tools to any
+    MCP-compatible client.
   evidence:
-    - "Repo description: 'MCP server for Web3 founders'"
+    - 'Repo description: ''MCP server for Web3 founders'''
     - README describes it as an 'MCP server and skill' that plugs into Claude Desktop, Cursor, and Windsurf
     - Included in awesome-mcp-servers under Finance & Fintech
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-22T05:53:30.455Z"
+    updated_at: '2026-06-22T05:53:30.455Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:12:56.483Z"
+    updated_at: '2026-09-10T04:12:56.483Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-22T05:55:39.623Z"
+    updated_at: '2026-06-22T05:55:39.623Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

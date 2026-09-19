@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__superluminal__dev__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Superluminal
         anchor_text: Superluminal
         extracted_url: https://superluminal.dev
-        surrounding_text: "## [Superluminal](https://superluminal.dev)"
+        surrounding_text: '## [Superluminal](https://superluminal.dev)'
         confidence: high
 metadata:
   github:
@@ -37,7 +37,9 @@ metadata:
     readme: null
 insights:
   summary: Superluminal is a platform for autonomous AI agents.
-  why_it_matters: It provides a way to deploy and manage AI agents that can perform tasks independently, potentially streamlining developer workflows.
+  why_it_matters: >-
+    It provides a way to deploy and manage AI agents that can perform tasks independently, potentially streamlining
+    developer workflows.
   mental_damage: Because nothing says 'automation' like an agent that might automate itself out of a job.
   tags:
     - autonomous-agents
@@ -46,20 +48,23 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product is listed in awesome-ai-agents under 'Superluminal' as an autonomous agent platform, fitting the agent orchestration category for coordinating multiple agents.
+  reason: >-
+    The product is listed in awesome-ai-agents under 'Superluminal' as an autonomous agent platform, fitting the agent
+    orchestration category for coordinating multiple agents.
   evidence:
-    - "Seen in source lists: awesome-ai-agents | section: Superluminal"
-    - "Purpose: A list of AI autonomous agents"
+    - 'Seen in source lists: awesome-ai-agents | section: Superluminal'
+    - 'Purpose: A list of AI autonomous agents'
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Hosted Agent Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +73,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:37:26.765Z"
+    updated_at: '2026-07-21T15:37:26.765Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -81,13 +86,17 @@ processing:
       input_hash: sha256:3e6f0debd21a653e75100dc6d4f15899b1888f715380d35165cdbf43ed796954
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The product is listed in awesome-ai-agents under 'Superluminal' as an autonomous agent platform, fitting the agent orchestration category for coordinating multiple agents.
+      decision_reason: >-
+        The product is listed in awesome-ai-agents under 'Superluminal' as an autonomous agent platform, fitting the
+        agent orchestration category for coordinating multiple agents.
       decision_evidence:
-        - "Seen in source lists: awesome-ai-agents | section: Superluminal"
-        - "Purpose: A list of AI autonomous agents"
+        - 'Seen in source lists: awesome-ai-agents | section: Superluminal'
+        - 'Purpose: A list of AI autonomous agents'
       category_candidates:
         - agent-orchestration
         - app-builders
-      contrastive_reason: Choose agent-orchestration over app-builders because the core identity is coordinating autonomous agents rather than generating apps from prompts.
+      contrastive_reason: >-
+        Choose agent-orchestration over app-builders because the core identity is coordinating autonomous agents rather
+        than generating apps from prompts.
       review_reason: null
       review_resume_lifecycle: null

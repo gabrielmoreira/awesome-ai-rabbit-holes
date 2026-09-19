@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__octagonai__octagon-deep-research-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: DeepResearch
         extracted_url: https://github.com/octagonai/octagon-deep-research-mcp
-        surrounding_text: "- **[DeepResearch](https://github.com/OctagonAI/octagon-deep-research-mcp)** - Lightning-Fast, High-Accuracy Deep Research Agent 👉 8–10x faster 👉 Greater depth & accuracy 👉 Unlimited parallel runs"
+        surrounding_text: >-
+          - **[DeepResearch](https://github.com/OctagonAI/octagon-deep-research-mcp)** - Lightning-Fast, High-Accuracy
+          Deep Research Agent 👉 8–10x faster 👉 Greater depth & accuracy 👉 Unlimited parallel runs
         confidence: high
 metadata:
   github:
@@ -29,19 +31,28 @@ metadata:
     archived: false
     full_name: OctagonAI/octagon-deep-research-mcp
     html_url: https://github.com/OctagonAI/octagon-deep-research-mcp
-    created_at: "2025-06-03T00:29:01Z"
-    pushed_at: "2026-02-09T21:48:47Z"
-    description: "The Octagon Deep Research MCP server provides specialized AI-powered comprehensive research and analysis capabilities by integrating with advanced deep research agents. No rate limits, faster than ChatGPT Deep Research, more thorough than Grok DeepSearch or Perplexity Deep Research. "
+    created_at: '2025-06-03T00:29:01Z'
+    pushed_at: '2026-02-09T21:48:47Z'
+    description: >-
+      The Octagon Deep Research MCP server provides specialized AI-powered comprehensive research and analysis
+      capabilities by integrating with advanced deep research agents. No rate limits, faster than ChatGPT Deep Research,
+      more thorough than Grok DeepSearch or Perplexity Deep Research. 
     homepage: https://docs.octagonagents.com/guide/agents/deep-research-agent.html
     topics: []
-    last_checked_at: "2026-07-20T16:42:22.149Z"
+    last_checked_at: '2026-07-20T16:42:22.149Z'
     readme:
-      fetched_at: "2026-07-20T16:42:22.149Z"
+      fetched_at: '2026-07-20T16:42:22.149Z'
       bytes: 11581
 insights:
-  summary: An MCP server that connects Claude Desktop, Cursor, and other MCP clients to Octagon AI's enterprise deep research agents for unlimited, high-speed web research and report generation.
-  why_it_matters: Developers can embed comprehensive, cross-verified research capabilities directly into their AI coding workflows without hitting rate limits or leaving their editor.
-  mental_damage: We have successfully abstracted the act of reading the internet into a paid API call, so you can now procrastinate on architecture decisions with 8x the speed and 3x the sources.
+  summary: >-
+    An MCP server that connects Claude Desktop, Cursor, and other MCP clients to Octagon AI's enterprise deep research
+    agents for unlimited, high-speed web research and report generation.
+  why_it_matters: >-
+    Developers can embed comprehensive, cross-verified research capabilities directly into their AI coding workflows
+    without hitting rate limits or leaving their editor.
+  mental_damage: >-
+    We have successfully abstracted the act of reading the internet into a paid API call, so you can now procrastinate
+    on architecture decisions with 8x the speed and 3x the sources.
   tags:
     - mcp
     - deep-research
@@ -50,35 +61,42 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is specifically an MCP server designed to bridge clients like Cursor and Claude Desktop to a proprietary deep research API.
+  reason: >-
+    The product's identity is specifically an MCP server designed to bridge clients like Cursor and Claude Desktop to a
+    proprietary deep research API.
   evidence:
-    - "Repo description explicitly states: 'The Octagon Deep Research MCP server provides specialized AI-powered comprehensive research capabilities'."
-    - "README confirms: 'Universal MCP Integration - Add deep research functionality to any MCP client including Claude Desktop, Cursor'."
+    - >-
+      Repo description explicitly states: 'The Octagon Deep Research MCP server provides specialized AI-powered
+      comprehensive research capabilities'.
+    - >-
+      README confirms: 'Universal MCP Integration - Add deep research functionality to any MCP client including Claude
+      Desktop, Cursor'.
     - Source list context confirms inclusion in 'awesome-mcp-servers' under 'Official Servers'.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.633Z"
+    updated_at: '2026-05-06T22:12:15.633Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:22.149Z"
+    updated_at: '2026-07-20T16:42:22.149Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

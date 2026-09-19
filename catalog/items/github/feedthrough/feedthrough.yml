@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__feedthrough__feedthrough__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: feedthrough/feedthrough
         extracted_url: https://github.com/feedthrough/feedthrough
-        surrounding_text: "- [feedthrough/feedthrough](https://github.com/feedthrough/feedthrough) [![feedthrough/feedthrough MCP server](https://glama.ai/mcp/servers/feedthrough/feedthrough/badges/score.svg)](https://glama.ai/mcp/servers/feedthrough/feedthrough) 📇 🏠 🍎 🪟 🐧 - In-browser debug bridge that injects into your running web app, so an agent can read the DOM, console logs and network requests, and click/fill/inspect the page. Runs inside the page (not an external CDP driver), so it works in any browser and inside Cypress/Playwright runs."
+        surrounding_text: >-
+          - [feedthrough/feedthrough](https://github.com/feedthrough/feedthrough) [![feedthrough/feedthrough MCP
+          server](https://glama.ai/mcp/servers/feedthrough/feedthrough/badges/score.svg)](https://glama.ai/mcp/servers/feedthrough/feedthrough)
+          📇 🏠 🍎 🪟 🐧 - In-browser debug bridge that injects into your running web app, so an agent can read the DOM,
+          console logs and network requests, and click/fill/inspect the page. Runs inside the page (not an external CDP
+          driver), so it works in any browser and inside Cypress/Playwright runs.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: feedthrough/feedthrough
     html_url: https://github.com/feedthrough/feedthrough
-    created_at: "2026-05-26T19:03:52Z"
-    pushed_at: "2026-06-16T18:25:03Z"
+    created_at: '2026-05-26T19:03:52Z'
+    pushed_at: '2026-06-16T18:25:03Z'
     description: A debug bridge embedded inside your web app, exposing runtime internals to AI agents via MCP.
     homepage: https://feedthrough.dev
     topics:
@@ -50,14 +55,20 @@ metadata:
       - web-debugging
       - websocket-bridge
       - windsurf
-    last_checked_at: "2026-08-27T09:23:29.063Z"
+    last_checked_at: '2026-08-27T09:23:29.063Z'
     readme:
-      fetched_at: "2026-08-27T09:23:29.063Z"
+      fetched_at: '2026-08-27T09:23:29.063Z'
       bytes: 14106
 insights:
-  summary: A debug bridge that injects into web applications to expose runtime internals, DOM state, and network requests to AI agents via MCP.
-  why_it_matters: It allows AI agents to act as embedded debuggers with access to framework internals and real-time application state, rather than just observing from the outside via CDP or Puppeteer.
-  mental_damage: We've reached the era where we are building high-tech vacuum seals just so our AI agents can poke at our React component trees without breaking the page.
+  summary: >-
+    A debug bridge that injects into web applications to expose runtime internals, DOM state, and network requests to AI
+    agents via MCP.
+  why_it_matters: >-
+    It allows AI agents to act as embedded debuggers with access to framework internals and real-time application state,
+    rather than just observing from the outside via CDP or Puppeteer.
+  mental_damage: >-
+    We've reached the era where we are building high-tech vacuum seals just so our AI agents can poke at our React
+    component trees without breaking the page.
   tags:
     - mcp
     - web-debugging
@@ -66,31 +77,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's core identity is as an MCP server implementation that bridges browser internals to a client, fitting the MCP category's specific server identity.
+  reason: >-
+    The project's core identity is as an MCP server implementation that bridges browser internals to a client, fitting
+    the MCP category's specific server identity.
   evidence:
     - Repo description explicitly defines it as 'exposing runtime internals to AI agents via MCP'.
     - Provides a dedicated `@feedthrough/mcp` package as the primary bridge.
     - Listed in awesome-mcp-servers under Browser Automation.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Clients & Inspector Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-15T05:51:04.988Z"
+    updated_at: '2026-06-15T05:51:04.988Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:29.063Z"
+    updated_at: '2026-08-27T09:23:29.063Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-25T05:26:55.255Z"
+    updated_at: '2026-06-25T05:26:55.255Z'
     cause: null
     next_retry_at: null
     attempts: 1

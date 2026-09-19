@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__crypto-projects-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/crypto-projects-mcp
         extracted_url: https://github.com/kukapay/crypto-projects-mcp
-        surrounding_text: "- [kukapay/crypto-projects-mcp](https://github.com/kukapay/crypto-projects-mcp) 🐍 ☁️ - Providing cryptocurrency project data from Mobula.io to AI agents."
+        surrounding_text: >-
+          - [kukapay/crypto-projects-mcp](https://github.com/kukapay/crypto-projects-mcp) 🐍 ☁️ - Providing
+          cryptocurrency project data from Mobula.io to AI agents.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: kukapay/crypto-projects-mcp
     html_url: https://github.com/kukapay/crypto-projects-mcp
-    created_at: "2025-05-05T17:31:17Z"
-    pushed_at: "2025-05-11T12:57:52Z"
+    created_at: '2025-05-05T17:31:17Z'
+    pushed_at: '2025-05-11T12:57:52Z'
     description: An MCP server that provides cryptocurrency project data to AI agents
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:59.686Z"
+    last_checked_at: '2026-07-30T05:05:59.686Z'
     readme:
-      fetched_at: "2026-07-30T05:05:59.686Z"
+      fetched_at: '2026-07-30T05:05:59.686Z'
       bytes: 9539
 insights:
   summary: An MCP server that exposes cryptocurrency project data from Mobula.io to AI agents.
-  why_it_matters: Developers building crypto-aware agents can now fetch and format on-chain project data directly through the Model Context Protocol.
+  why_it_matters: >-
+    Developers building crypto-aware agents can now fetch and format on-chain project data directly through the Model
+    Context Protocol.
   mental_damage: Now your AI can finally explain why your token isn’t pumping, in Markdown.
   tags:
     - mcp
@@ -51,31 +55,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a domain-specific MCP server providing crypto project data to agents."
+  reason: 'MCP is the product identity: this is a domain-specific MCP server providing crypto project data to agents.'
   evidence:
     - Repo description explicitly states it is an MCP server
     - README details MCP server setup and usage with `mcp dev` and `mcp install`
     - Core functionality is exposing Mobula.io data via MCP tools and prompts
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:59.686Z"
+    updated_at: '2026-07-30T05:05:59.686Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:48.391Z"
+    updated_at: '2026-07-21T16:13:48.391Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +93,7 @@ processing:
       input_hash: sha256:2b040a0bf7d5799bd584bb8646b844a07816042336db705b7ef8c028a589d615
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a domain-specific MCP server providing crypto project data to agents."
+      decision_reason: 'MCP is the product identity: this is a domain-specific MCP server providing crypto project data to agents.'
       decision_evidence:
         - Repo description explicitly states it is an MCP server
         - README details MCP server setup and usage with `mcp dev` and `mcp install`
@@ -96,6 +101,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension
+        for another assistant.
       review_reason: null
       review_resume_lifecycle: null

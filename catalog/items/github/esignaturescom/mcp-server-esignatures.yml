@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__esignaturescom__mcp-server-esignatures__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: eSignatures
         extracted_url: https://github.com/esignaturescom/mcp-server-esignatures
-        surrounding_text: "- **[eSignatures](https://github.com/esignaturescom/mcp-server-esignatures)** - Contract and template management for drafting, reviewing, and sending binding contracts."
+        surrounding_text: >-
+          - **[eSignatures](https://github.com/esignaturescom/mcp-server-esignatures)** - Contract and template
+          management for drafting, reviewing, and sending binding contracts.
         confidence: high
 metadata:
   github:
@@ -29,18 +31,20 @@ metadata:
     archived: false
     full_name: esignaturescom/mcp-server-esignatures
     html_url: https://github.com/esignaturescom/mcp-server-esignatures
-    created_at: "2025-01-25T10:31:46Z"
-    pushed_at: "2026-07-14T13:13:51Z"
+    created_at: '2025-01-25T10:31:46Z'
+    pushed_at: '2026-07-14T13:13:51Z'
     description: MCP server for eSignatures (https://esignatures.com)
     homepage: null
     topics: []
-    last_checked_at: "2026-08-27T09:23:25.380Z"
+    last_checked_at: '2026-08-27T09:23:25.380Z'
     readme:
-      fetched_at: "2026-08-27T09:23:25.380Z"
+      fetched_at: '2026-08-27T09:23:25.380Z'
       bytes: 7835
 insights:
   summary: An MCP server that provides tool access to eSignatures.com services for managing contracts and templates.
-  why_it_matters: Enables AI assistants to perform legal document workflows like drafting, sending, and managing contract templates through a standardized protocol.
+  why_it_matters: >-
+    Enables AI assistants to perform legal document workflows like drafting, sending, and managing contract templates
+    through a standardized protocol.
   mental_damage: Because nothing says 'odern developer workflow' like having your LLM handle the legal paperwork for your contracts.
   tags:
     - mcp
@@ -57,24 +61,25 @@ curation:
     - Included in 'awesome-mcp-servers' under Official Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:25.380Z"
+    updated_at: '2026-08-27T09:23:25.380Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:52:58.528Z"
+    updated_at: '2026-07-21T15:52:58.528Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -95,6 +100,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's identity is a specialized MCP server rather than a general workflow augmentation for an IDE.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's identity is a specialized MCP server rather than a
+        general workflow augmentation for an IDE.
       review_reason: null
       review_resume_lifecycle: null

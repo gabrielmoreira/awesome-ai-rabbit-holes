@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__configcat__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: ConfigCat/mcp-server
         extracted_url: https://github.com/configcat/mcp-server
-        surrounding_text: "- [ConfigCat/mcp-server](https://github.com/configcat/mcp-server) 🎖️ 📇 ☁️ - MCP server for interacting with ConfigCat feature flag platform. Supports managing feature flags, configs, environments, products and organizations."
+        surrounding_text: >-
+          - [ConfigCat/mcp-server](https://github.com/configcat/mcp-server) 🎖️ 📇 ☁️ - MCP server for interacting with
+          ConfigCat feature flag platform. Supports managing feature flags, configs, environments, products and
+          organizations.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,9 @@ metadata:
     archived: false
     full_name: configcat/mcp-server
     html_url: https://github.com/configcat/mcp-server
-    created_at: "2025-08-14T09:41:35Z"
-    pushed_at: "2026-09-10T10:43:47Z"
-    description: "Official ConfigCat Model Context Protocol (MCP) Server "
+    created_at: '2025-08-14T09:41:35Z'
+    pushed_at: '2026-09-10T10:43:47Z'
+    description: 'Official ConfigCat Model Context Protocol (MCP) Server '
     homepage: https://configcat.com/docs/advanced/mcp-server/
     topics:
       - configcat
@@ -40,13 +43,17 @@ metadata:
       - feature-toggle
       - mcp-server
       - modelcontextprotocol
-    last_checked_at: "2026-09-14T04:13:28.526Z"
+    last_checked_at: '2026-09-14T04:13:28.526Z'
     readme:
-      fetched_at: "2026-09-14T04:13:28.526Z"
+      fetched_at: '2026-09-14T04:13:28.526Z'
       bytes: 9665
 insights:
-  summary: An official MCP server for ConfigCat that exposes feature flag and configuration management via the Model Context Protocol.
-  why_it_matters: Lets developers manage ConfigCat feature flags and configs directly from their MCP-enabled editor or assistant without leaving the workflow.
+  summary: >-
+    An official MCP server for ConfigCat that exposes feature flag and configuration management via the Model Context
+    Protocol.
+  why_it_matters: >-
+    Lets developers manage ConfigCat feature flags and configs directly from their MCP-enabled editor or assistant
+    without leaving the workflow.
   mental_damage: Now your editor can create feature flags while you’re still deciding if you believe in feature flags.
   tags:
     - mcp-server
@@ -56,31 +63,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server exposing ConfigCat’s management API as MCP tools."
+  reason: 'MCP is the product identity: this is a dedicated MCP server exposing ConfigCat’s management API as MCP tools.'
   evidence:
     - Repo description explicitly calls it an MCP server
     - README details MCP server setup for Cursor, VS Code, and Claude Desktop
     - Source-list context lists it under MCP servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:28.526Z"
+    updated_at: '2026-09-14T04:13:28.526Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:46:47.571Z"
+    updated_at: '2026-07-21T15:46:47.571Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -93,7 +101,7 @@ processing:
       input_hash: sha256:9e35d0340030accd92caaca2626035479246c5bdbebbf44511f26f673e87e8fd
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing ConfigCat’s management API as MCP tools."
+      decision_reason: 'MCP is the product identity: this is a dedicated MCP server exposing ConfigCat’s management API as MCP tools.'
       decision_evidence:
         - Repo description explicitly calls it an MCP server
         - README details MCP server setup for Cursor, VS Code, and Claude Desktop
@@ -101,6 +109,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension that augments another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension that augments
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

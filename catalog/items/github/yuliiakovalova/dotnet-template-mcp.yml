@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__yuliiakovalova__dotnet-template-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: YuliiaKovalova/dotnet-template-mcp
         extracted_url: https://github.com/yuliiakovalova/dotnet-template-mcp
-        surrounding_text: "- [YuliiaKovalova/dotnet-template-mcp](https://github.com/YuliiaKovalova/dotnet-template-mcp) [![dotnet-template-mcp MCP server](https://glama.ai/mcp/servers/@YuliiaKovalova/dotnet-template-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@YuliiaKovalova/dotnet-template-mcp) #️⃣ 🏠 🍎 🪟 🐧 - .NET Template Engine MCP server for AI-driven project scaffolding. Search, inspect, preview, and create `dotnet new` projects via natural language with parameter validation, smart defaults, NuGet auto-resolve, and interactive elicitation."
+        surrounding_text: >-
+          - [YuliiaKovalova/dotnet-template-mcp](https://github.com/YuliiaKovalova/dotnet-template-mcp)
+          [![dotnet-template-mcp MCP
+          server](https://glama.ai/mcp/servers/@YuliiaKovalova/dotnet-template-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@YuliiaKovalova/dotnet-template-mcp)
+          #️⃣ 🏠 🍎 🪟 🐧 - .NET Template Engine MCP server for AI-driven project scaffolding. Search, inspect, preview,
+          and create `dotnet new` projects via natural language with parameter validation, smart defaults, NuGet
+          auto-resolve, and interactive elicitation.
         confidence: high
 metadata:
   github:
@@ -30,8 +36,8 @@ metadata:
     archived: false
     full_name: YuliiaKovalova/dotnet-template-mcp
     html_url: https://github.com/YuliiaKovalova/dotnet-template-mcp
-    created_at: "2026-02-17T11:02:43Z"
-    pushed_at: "2026-07-17T16:15:28Z"
+    created_at: '2026-02-17T11:02:43Z'
+    pushed_at: '2026-07-17T16:15:28Z'
     description: MCP server wrapping the .NET Template Engine for AI-driven template discovery, inspection, and instantiation
     homepage: null
     topics:
@@ -43,14 +49,16 @@ metadata:
       - mcp
       - mcp-server
       - template-engine
-    last_checked_at: "2026-07-21T15:21:22.897Z"
+    last_checked_at: '2026-07-21T15:21:22.897Z'
     readme:
-      fetched_at: "2026-07-21T15:21:22.897Z"
+      fetched_at: '2026-07-21T15:21:22.897Z'
       bytes: 9690
 insights:
   summary: MCP server wrapping the .NET Template Engine for AI-driven template discovery, inspection, and instantiation.
   why_it_matters: Lets AI agents generate .NET projects from natural language prompts instead of memorizing `dotnet new` CLI flags.
-  mental_damage: Finally, an MCP server so you can yell at your AI to scaffold a WebApi and it actually knows what `--auth Individual` means.
+  mental_damage: >-
+    Finally, an MCP server so you can yell at your AI to scaffold a WebApi and it actually knows what `--auth
+    Individual` means.
   tags:
     - mcp
     - dotnet
@@ -60,31 +68,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core identity and value is providing .NET template engine capabilities via the Model Context Protocol, making MCP the primary product identity rather than a compatibility layer.
+  reason: >-
+    The product is an MCP server whose core identity and value is providing .NET template engine capabilities via the
+    Model Context Protocol, making MCP the primary product identity rather than a compatibility layer.
   evidence:
-    - "Repo description: 'MCP server wrapping the .NET Template Engine for AI-driven template discovery, inspection, and instantiation'"
-    - "README: Exposes MCP tools like template_search, template_instantiate, template_validate for AI agents to interact with dotnet new templates"
-    - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Developer Tools"
+    - >-
+      Repo description: 'MCP server wrapping the .NET Template Engine for AI-driven template discovery, inspection, and
+      instantiation'
+    - >-
+      README: Exposes MCP tools like template_search, template_instantiate, template_validate for AI agents to interact
+      with dotnet new templates
+    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Developer Tools'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.657Z"
+    updated_at: '2026-05-06T22:12:15.657Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:22.897Z"
+    updated_at: '2026-07-21T15:21:22.897Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-14T05:32:42.893Z"
+    updated_at: '2026-05-14T05:32:42.893Z'
     cause: null
     next_retry_at: null
     attempts: 2

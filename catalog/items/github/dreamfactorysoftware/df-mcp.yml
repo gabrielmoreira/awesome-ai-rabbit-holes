@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dreamfactorysoftware__df-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: DreamFactory
         extracted_url: https://github.com/dreamfactorysoftware/df-mcp
-        surrounding_text: "- **[DreamFactory](https://github.com/dreamfactorysoftware/df-mcp/)** - An MCP server for securely (via RBAC) talking to on-premise and cloud MS SQL Server, MySQL, PostgreSQL databases and other data sources."
+        surrounding_text: >-
+          - **[DreamFactory](https://github.com/dreamfactorysoftware/df-mcp/)** - An MCP server for securely (via RBAC)
+          talking to on-premise and cloud MS SQL Server, MySQL, PostgreSQL databases and other data sources.
         confidence: high
 metadata:
   github:
@@ -29,18 +31,24 @@ metadata:
     archived: false
     full_name: dreamfactorysoftware/df-mcp
     html_url: https://github.com/dreamfactorysoftware/df-mcp
-    created_at: "2025-04-11T18:21:52Z"
-    pushed_at: "2026-01-23T00:10:17Z"
-    description: DreamFactory is a self-hosted platform providing governed API access to any data source for enterprise apps and local LLMs.
-    homepage: ""
+    created_at: '2025-04-11T18:21:52Z'
+    pushed_at: '2026-01-23T00:10:17Z'
+    description: >-
+      DreamFactory is a self-hosted platform providing governed API access to any data source for enterprise apps and
+      local LLMs.
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-14T04:13:44.480Z"
+    last_checked_at: '2026-09-14T04:13:44.480Z'
     readme:
-      fetched_at: "2026-09-14T04:13:44.480Z"
+      fetched_at: '2026-09-14T04:13:44.480Z'
       bytes: 5925
 insights:
-  summary: An MCP server that integrates DreamFactory's governed API access platform with Claude for enterprise data connectivity.
-  why_it_matters: Lets developers expose enterprise data sources to Claude via DreamFactory's role-based API layer, enabling secure LLM access to internal systems.
+  summary: >-
+    An MCP server that integrates DreamFactory's governed API access platform with Claude for enterprise data
+    connectivity.
+  why_it_matters: >-
+    Lets developers expose enterprise data sources to Claude via DreamFactory's role-based API layer, enabling secure
+    LLM access to internal systems.
   mental_damage: Now your LLM can argue with your legacy database schema instead of just your code.
   tags:
     - mcp-server
@@ -50,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the primary product identity here - this is explicitly a Model Context Protocol server for DreamFactory integration with Claude.
+  reason: >-
+    MCP is the primary product identity here - this is explicitly a Model Context Protocol server for DreamFactory
+    integration with Claude.
   evidence:
     - Repo description identifies it as a DreamFactory MCP server for Claude integration
     - README explicitly describes it as an MCP server with detailed installation/configuration for Claude Desktop
     - Listed in awesome-mcp-servers under Official Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.612Z"
+    updated_at: '2026-05-06T22:12:15.612Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:44.480Z"
+    updated_at: '2026-09-14T04:13:44.480Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:42.086Z"
+    updated_at: '2026-07-21T15:51:42.086Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,7 +98,9 @@ processing:
       input_hash: sha256:3d9c9d7ba241a380a152ff6b8f62922d7abfc551c41a6966272c4d418f413630
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the primary product identity here - this is explicitly a Model Context Protocol server for DreamFactory integration with Claude.
+      decision_reason: >-
+        MCP is the primary product identity here - this is explicitly a Model Context Protocol server for DreamFactory
+        integration with Claude.
       decision_evidence:
         - Repo description identifies it as a DreamFactory MCP server for Claude integration
         - README explicitly describes it as an MCP server with detailed installation/configuration for Claude Desktop
@@ -95,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server rather than merely extending another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server rather than merely
+        extending another assistant.
       review_reason: null
       review_resume_lifecycle: null

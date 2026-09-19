@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__rohanmuppa__brightspace-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🎓 <a name="education"></a>Education
         anchor_text: RohanMuppa/brightspace-mcp-server
         extracted_url: https://github.com/rohanmuppa/brightspace-mcp-server
-        surrounding_text: "- [RohanMuppa/brightspace-mcp-server](https://github.com/RohanMuppa/brightspace-mcp-server) [![brightspace-mcp-server MCP server](https://glama.ai/mcp/servers/@RohanMuppa/brightspace-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/@RohanMuppa/brightspace-mcp-server) 📇 🏠 🍎 🪟 🐧 - MCP server for D2L Brightspace LMS. Check grades, due dates, assignments, announcements, syllabus, rosters, discussions, and course content. Works with any school that uses Brightspace. Install via `npx brightspace-mcp-server@latest`."
+        surrounding_text: >-
+          - [RohanMuppa/brightspace-mcp-server](https://github.com/RohanMuppa/brightspace-mcp-server)
+          [![brightspace-mcp-server MCP
+          server](https://glama.ai/mcp/servers/@RohanMuppa/brightspace-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/@RohanMuppa/brightspace-mcp-server)
+          📇 🏠 🍎 🪟 🐧 - MCP server for D2L Brightspace LMS. Check grades, due dates, assignments, announcements,
+          syllabus, rosters, discussions, and course content. Works with any school that uses Brightspace. Install via
+          `npx brightspace-mcp-server@latest`.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,12 @@ metadata:
     archived: false
     full_name: RohanMuppa/brightspace-mcp-server
     html_url: https://github.com/RohanMuppa/brightspace-mcp-server
-    created_at: "2026-02-06T17:12:11Z"
-    pushed_at: "2026-05-01T15:23:34Z"
-    description: "MCP server for Brightspace (D2L). Check grades, due dates, assignments, announcements, rosters, syllabus & course content via Claude, ChatGPT, Cursor, Windsurf, or any MCP client. Works with any school. npm: npx brightspace-mcp-server@latest"
+    created_at: '2026-02-06T17:12:11Z'
+    pushed_at: '2026-05-01T15:23:34Z'
+    description: >-
+      MCP server for Brightspace (D2L). Check grades, due dates, assignments, announcements, rosters, syllabus & course
+      content via Claude, ChatGPT, Cursor, Windsurf, or any MCP client. Works with any school. npm: npx
+      brightspace-mcp-server@latest
     homepage: https://www.npmjs.com/package/brightspace-mcp-server
     topics:
       - ai
@@ -55,14 +64,20 @@ metadata:
       - student
       - university
       - windsurf
-    last_checked_at: "2026-07-20T16:42:47.058Z"
+    last_checked_at: '2026-07-20T16:42:47.058Z'
     readme:
-      fetched_at: "2026-07-20T16:42:47.058Z"
+      fetched_at: '2026-07-20T16:42:47.058Z'
       bytes: 4703
 insights:
-  summary: An MCP server that connects AI clients like Claude and Cursor to D2L Brightspace, enabling students to query grades, assignments, announcements, and course content via natural language.
-  why_it_matters: Developers who are also students can automate academic admin by letting their coding assistants fetch grades, download lecture slides, and build study schedules directly from their LMS.
-  mental_damage: We have successfully reached the point where we need a protocol server to ask an AI agent to check if we are passing the classes we forgot we enrolled in.
+  summary: >-
+    An MCP server that connects AI clients like Claude and Cursor to D2L Brightspace, enabling students to query grades,
+    assignments, announcements, and course content via natural language.
+  why_it_matters: >-
+    Developers who are also students can automate academic admin by letting their coding assistants fetch grades,
+    download lecture slides, and build study schedules directly from their LMS.
+  mental_damage: >-
+    We have successfully reached the point where we need a protocol server to ask an AI agent to check if we are passing
+    the classes we forgot we enrolled in.
   tags:
     - mcp
     - education
@@ -72,35 +87,44 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server providing domain-specific access to the Brightspace LMS, fitting cleanly into the MCP Servers & Tooling category.
+  reason: >-
+    The project's primary identity is an MCP server providing domain-specific access to the Brightspace LMS, fitting
+    cleanly into the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'MCP server for Brightspace (D2L)' and lists compatibility with Claude, ChatGPT, Cursor, and Windsurf.
-    - Found in awesome-mcp-servers under the 'Education' section, confirming its identity as a community-recognized MCP implementation.
-    - README instructions center on running the server via 'npx brightspace-mcp-server' to expose Brightspace tools to MCP clients.
+    - >-
+      Repo description explicitly states 'MCP server for Brightspace (D2L)' and lists compatibility with Claude,
+      ChatGPT, Cursor, and Windsurf.
+    - >-
+      Found in awesome-mcp-servers under the 'Education' section, confirming its identity as a community-recognized MCP
+      implementation.
+    - >-
+      README instructions center on running the server via 'npx brightspace-mcp-server' to expose Brightspace tools to
+      MCP clients.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.645Z"
+    updated_at: '2026-05-06T22:12:15.645Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:47.058Z"
+    updated_at: '2026-07-20T16:42:47.058Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

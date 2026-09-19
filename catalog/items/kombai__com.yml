@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__kombai__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - UI Generators
         anchor_text: Kombai
         extracted_url: https://kombai.com
-        surrounding_text: "- **[Kombai](https://kombai.com/)** – Convert Figma designs into production-ready UI code."
+        surrounding_text: '- **[Kombai](https://kombai.com/)** – Convert Figma designs into production-ready UI code.'
         confidence: high
 metadata:
   github:
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Kombai is an AI design engineer that designs and builds production-ready frontend UIs from prompts, integrating design, code, and browser contexts.
-  why_it_matters: It bridges the gap between design and frontend development by generating both visual designs and corresponding code, reducing handoff friction for developers.
-  mental_damage: Finally, a tool that lets you argue with the AI about both the color palette and the CSS grid in the same conversation.
+  summary: >-
+    Kombai is an AI design engineer that designs and builds production-ready frontend UIs from prompts, integrating
+    design, code, and browser contexts.
+  why_it_matters: >-
+    It bridges the gap between design and frontend development by generating both visual designs and corresponding code,
+    reducing handoff friction for developers.
+  mental_damage: >-
+    Finally, a tool that lets you argue with the AI about both the color palette and the CSS grid in the same
+    conversation.
   tags:
     - frontend
     - design-to-code
@@ -47,21 +53,30 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Kombai is a standalone coding assistant that developers delegate frontend repo work to, fitting the primary assistant role within the coding-agents category.
+  reason: >-
+    Kombai is a standalone coding assistant that developers delegate frontend repo work to, fitting the primary
+    assistant role within the coding-agents category.
   evidence:
-    - Scraped site describes it as 'The AI Agent Built for Frontend' that builds, refactors, tests, and improves frontend code.
-    - Site claims it learns your stack and components to generate code that fits cleanly into your repo, not just a plugin for another tool.
-    - Listed in awesome-ai-coding-tools under 'UI Generators' as a tool that combines frontend skills, browser access, and repo understanding.
+    - >-
+      Scraped site describes it as 'The AI Agent Built for Frontend' that builds, refactors, tests, and improves
+      frontend code.
+    - >-
+      Site claims it learns your stack and components to generate code that fits cleanly into your repo, not just a
+      plugin for another tool.
+    - >-
+      Listed in awesome-ai-coding-tools under 'UI Generators' as a tool that combines frontend skills, browser access,
+      and repo understanding.
 placement:
-  primary_category: coding-agents
-  section: null
+  primary_category: app-builders
+  secondary_categories: []
+  section: Full App Builders
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'app-builders'"
+  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''app-builders'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +85,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:51.534Z"
+    updated_at: '2026-07-21T15:28:51.534Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -83,7 +98,9 @@ processing:
       input_hash: sha256:14191efa7ec68a9aedca4ad5b1b4148f814ef116a5f7b4b1bcd640df05261dcd
       proposed_primary_category: app-builders
       disagreement: true
-      decision_reason: Kombai's primary value is turning prompts into production-ready frontend UIs and sites, fitting the prompt-to-app/site builder category rather than a general coding assistant or extension.
+      decision_reason: >-
+        Kombai's primary value is turning prompts into production-ready frontend UIs and sites, fitting the
+        prompt-to-app/site builder category rather than a general coding assistant or extension.
       decision_evidence:
         - Source-list context describes it as a UI generator for designing and shipping production-ready frontend
         - Site context emphasizes design-to-code workflow with canvas, repo, and browser integration
@@ -91,6 +108,8 @@ processing:
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: Choose app-builders over coding-agents because Kombai's main surface is prompt-to-frontend generation rather than assisting with existing repo editing workflows.
-      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'app-builders'"
+      contrastive_reason: >-
+        Choose app-builders over coding-agents because Kombai's main surface is prompt-to-frontend generation rather
+        than assisting with existing repo editing workflows.
+      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''app-builders'''
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aresyn__codex-control-plane-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-22T05:53:30.454Z"
+      discovered_at: '2026-06-22T05:53:30.454Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: aresyn/codex-control-plane-mcp
         extracted_url: https://github.com/aresyn/codex-control-plane-mcp
-        surrounding_text: "- [aresyn/codex-control-plane-mcp](https://github.com/aresyn/codex-control-plane-mcp) [![aresyn/codex-control-plane-mcp MCP server](https://glama.ai/mcp/servers/aresyn/codex-control-plane-mcp/badges/score.svg)](https://glama.ai/mcp/servers/aresyn/codex-control-plane-mcp) 🐍 🏠 🪟 - Durable control plane for long-running Codex Desktop tasks. Submit tasks asynchronously, poll operation/workflow state, approve Plan Mode, recover retries, and use hook-backed SQLite history for search and diagnostics."
+        surrounding_text: >-
+          - [aresyn/codex-control-plane-mcp](https://github.com/aresyn/codex-control-plane-mcp)
+          [![aresyn/codex-control-plane-mcp MCP
+          server](https://glama.ai/mcp/servers/aresyn/codex-control-plane-mcp/badges/score.svg)](https://glama.ai/mcp/servers/aresyn/codex-control-plane-mcp)
+          🐍 🏠 🪟 - Durable control plane for long-running Codex Desktop tasks. Submit tasks asynchronously, poll
+          operation/workflow state, approve Plan Mode, recover retries, and use hook-backed SQLite history for search
+          and diagnostics.
         confidence: high
 metadata:
   github:
@@ -30,8 +36,8 @@ metadata:
     archived: false
     full_name: aresyn/codex-control-plane-mcp
     html_url: https://github.com/aresyn/codex-control-plane-mcp
-    created_at: "2026-06-17T10:02:02Z"
-    pushed_at: "2026-09-09T07:48:51Z"
+    created_at: '2026-06-17T10:02:02Z'
+    pushed_at: '2026-09-09T07:48:51Z'
     description: Durable MCP control plane for long-running Codex Desktop tasks
     homepage: https://pypi.org/project/codex-control-plane-mcp/
     topics:
@@ -52,14 +58,18 @@ metadata:
       - openclaw
       - orchestration
       - python
-    last_checked_at: "2026-09-10T04:12:57.990Z"
+    last_checked_at: '2026-09-10T04:12:57.990Z'
     readme:
-      fetched_at: "2026-09-10T04:12:57.990Z"
+      fetched_at: '2026-09-10T04:12:57.990Z'
       bytes: 29896
 insights:
   summary: A durable MCP control plane that enables MCP clients to drive long-running Codex Desktop tasks asynchronously.
-  why_it_matters: It prevents MCP timeouts and duplicate prompt errors by providing a persistent state layer for complex, multi-hour agentic workflows with polling and approval loops.
-  mental_damage: The realization that our AI agents now require their own dedicated control planes and database leases just to survive a long-running task without crashing.
+  why_it_matters: >-
+    It prevents MCP timeouts and duplicate prompt errors by providing a persistent state layer for complex, multi-hour
+    agentic workflows with polling and approval loops.
+  mental_damage: >-
+    The realization that our AI agents now require their own dedicated control planes and database leases just to
+    survive a long-running task without crashing.
   tags:
     - mcp
     - codex
@@ -69,31 +79,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is explicitly an MCP server designed to provide a middleware layer between an MCP client and the Codex app-server.
+  reason: >-
+    The product identity is explicitly an MCP server designed to provide a middleware layer between an MCP client and
+    the Codex app-server.
   evidence:
-    - "Repo description: 'Durable MCP control plane for long-running Codex Desktop tasks'"
-    - "README mentions: 'MCP client / orchestrator -> submit a task... poll status'"
+    - 'Repo description: ''Durable MCP control plane for long-running Codex Desktop tasks'''
+    - 'README mentions: ''MCP client / orchestrator -> submit a task... poll status'''
     - Explicitly implements the Model Context Protocol (MCP) as its core interface
 placement:
-  primary_category: mcp
-  section: Generic Servers & Middleware
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: Claude Code & Agent Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (221) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-06-22T05:53:30.455Z"
+    updated_at: '2026-06-22T05:53:30.455Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:12:57.990Z"
+    updated_at: '2026-09-10T04:12:57.990Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-22T05:55:58.326Z"
+    updated_at: '2026-06-22T05:55:58.326Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

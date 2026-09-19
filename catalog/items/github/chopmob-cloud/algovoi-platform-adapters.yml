@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__chopmob-cloud__algovoi-platform-adapters__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,15 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: chopmob-cloud/AlgoVoi-Platform-Adapters
         extracted_url: https://github.com/chopmob-cloud/algovoi-platform-adapters
-        surrounding_text: "- [chopmob-cloud/AlgoVoi-Platform-Adapters](https://github.com/chopmob-cloud/AlgoVoi-Platform-Adapters/tree/master/mcp-server) [![chopmob-cloud/AlgoVoi-Platform-Adapters MCP server](https://glama.ai/mcp/servers/chopmob-cloud/AlgoVoi-Platform-Adapters/badges/score.svg)](https://glama.ai/mcp/servers/chopmob-cloud/AlgoVoi-Platform-Adapters) 📇 🐍 🏠 🍎 🪟 🐧 - AlgoVoi crypto payment gateway MCP. Create hosted checkout links, verify on-chain payments, generate MPP/x402/AP2 agent-commerce challenges. Supports USDC + native tokens (ALGO/VOI/HBAR/XLM) on Algorand, VOI, Hedera, and Stellar — mainnet + testnet. Routes through AlgoVoi Cloud for managed payouts. Install: `npx @algovoi/mcp-server` or `uvx algovoi-mcp`."
+        surrounding_text: >-
+          -
+          [chopmob-cloud/AlgoVoi-Platform-Adapters](https://github.com/chopmob-cloud/AlgoVoi-Platform-Adapters/tree/master/mcp-server)
+          [![chopmob-cloud/AlgoVoi-Platform-Adapters MCP
+          server](https://glama.ai/mcp/servers/chopmob-cloud/AlgoVoi-Platform-Adapters/badges/score.svg)](https://glama.ai/mcp/servers/chopmob-cloud/AlgoVoi-Platform-Adapters)
+          📇 🐍 🏠 🍎 🪟 🐧 - AlgoVoi crypto payment gateway MCP. Create hosted checkout links, verify on-chain
+          payments, generate MPP/x402/AP2 agent-commerce challenges. Supports USDC + native tokens (ALGO/VOI/HBAR/XLM)
+          on Algorand, VOI, Hedera, and Stellar — mainnet + testnet. Routes through AlgoVoi Cloud for managed payouts.
+          Install: `npx @algovoi/mcp-server` or `uvx algovoi-mcp`.
         confidence: high
 metadata:
   github:
@@ -30,18 +38,24 @@ metadata:
     archived: false
     full_name: chopmob-cloud/AlgoVoi-Platform-Adapters
     html_url: https://github.com/chopmob-cloud/AlgoVoi-Platform-Adapters
-    created_at: "2026-06-07T17:42:24Z"
-    pushed_at: "2026-08-26T05:06:59Z"
-    description: AlgoVoi apps & adapters — ecommerce, marketplace, AI-agent, and no-code integrations for the AlgoVoi x402 multi-chain payment gateway. Apache-2.0.
+    created_at: '2026-06-07T17:42:24Z'
+    pushed_at: '2026-08-26T05:06:59Z'
+    description: >-
+      AlgoVoi apps & adapters — ecommerce, marketplace, AI-agent, and no-code integrations for the AlgoVoi x402
+      multi-chain payment gateway. Apache-2.0.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:44.718Z"
+    last_checked_at: '2026-09-07T04:13:44.718Z'
     readme:
-      fetched_at: "2026-09-07T04:13:44.718Z"
+      fetched_at: '2026-09-07T04:13:44.718Z'
       bytes: 87446
 insights:
-  summary: Production-ready payment adapters and integration plugins for connecting e-commerce platforms, AI agents, and no-code tools to the AlgoVoi multi-chain payment gateway.
-  why_it_matters: Developers can integrate stablecoin payments across seven blockchains into existing apps, AI agent workflows, or no-code automation without managing blockchain infrastructure directly.
+  summary: >-
+    Production-ready payment adapters and integration plugins for connecting e-commerce platforms, AI agents, and
+    no-code tools to the AlgoVoi multi-chain payment gateway.
+  why_it_matters: >-
+    Developers can integrate stablecoin payments across seven blockchains into existing apps, AI agent workflows, or
+    no-code automation without managing blockchain infrastructure directly.
   mental_damage: Now your AI agent can demand payment in USDC on Solana before it even starts debugging your code.
   tags:
     - payments
@@ -52,31 +66,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The project's core identity includes an MCP server exposing AlgoVoi payment tools to Claude Desktop, Cursor, and Windsurf, making MCP the primary adopted thing.
+  reason: >-
+    The project's core identity includes an MCP server exposing AlgoVoi payment tools to Claude Desktop, Cursor, and
+    Windsurf, making MCP the primary adopted thing.
   evidence:
     - README explicitly lists an MCP server (`@algovoi/mcp-server`) as a core component
     - Source-list context shows it in awesome-mcp-servers under Finance & Fintech
     - Repo description and README focus on adapters for AI agents and platforms, with MCP as a first-class integration
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.607Z"
+    updated_at: '2026-05-06T22:12:15.607Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:44.718Z"
+    updated_at: '2026-09-07T04:13:44.718Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:41:42.084Z"
+    updated_at: '2026-07-21T15:41:42.084Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,14 +106,20 @@ processing:
       input_hash: sha256:b84d3d62156198599370d0cb6fadf26467e38f3fff6367215189a0f12aa5a263
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's core identity includes an MCP server exposing AlgoVoi payment tools to Claude Desktop, Cursor, and Windsurf, making MCP the primary adopted thing.
+      decision_reason: >-
+        The project's core identity includes an MCP server exposing AlgoVoi payment tools to Claude Desktop, Cursor, and
+        Windsurf, making MCP the primary adopted thing.
       decision_evidence:
         - README explicitly lists an MCP server (`@algovoi/mcp-server`) as a core component
         - Source-list context shows it in awesome-mcp-servers under Finance & Fintech
-        - Repo description and README focus on adapters for AI agents and platforms, with MCP as a first-class integration
+        - >-
+          Repo description and README focus on adapters for AI agents and platforms, with MCP as a first-class
+          integration
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the MCP server is a primary artifact and the product identity is MCP-first tooling, not just a code-first SDK.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the MCP server is a primary artifact and the product identity is MCP-first
+        tooling, not just a code-first SDK.
       review_reason: null
       review_resume_lifecycle: null

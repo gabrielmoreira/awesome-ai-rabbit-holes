@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tt-wang__memem__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,14 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: TT-Wang/cortex-plugin
         extracted_url: https://github.com/tt-wang/cortex-plugin
-        surrounding_text: "- [TT-Wang/cortex-plugin](https://github.com/TT-Wang/cortex-plugin) [![cortex-plugin MCP server](https://glama.ai/mcp/servers/TT-Wang/cortex-plugin/badges/score.svg)](https://glama.ai/mcp/servers/TT-Wang/cortex-plugin) 🐍 🏠 🍎 🐧 - Persistent, self-evolving memory plugin for Claude Code. Background miner extracts durable lessons (decisions, conventions, bug fixes) from completed sessions via Claude Haiku, stores them as human-readable markdown in an Obsidian vault, and assembles query-tailored context briefings at session start. Local-first, no cloud, no API keys. Self-healing install via uv bootstrap shim, `/cortex-doctor` preflight, graceful FTS-only degraded mode when `claude` CLI missing. MIT."
+        surrounding_text: >-
+          - [TT-Wang/cortex-plugin](https://github.com/TT-Wang/cortex-plugin) [![cortex-plugin MCP
+          server](https://glama.ai/mcp/servers/TT-Wang/cortex-plugin/badges/score.svg)](https://glama.ai/mcp/servers/TT-Wang/cortex-plugin)
+          🐍 🏠 🍎 🐧 - Persistent, self-evolving memory plugin for Claude Code. Background miner extracts durable
+          lessons (decisions, conventions, bug fixes) from completed sessions via Claude Haiku, stores them as
+          human-readable markdown in an Obsidian vault, and assembles query-tailored context briefings at session start.
+          Local-first, no cloud, no API keys. Self-healing install via uv bootstrap shim, `/cortex-doctor` preflight,
+          graceful FTS-only degraded mode when `claude` CLI missing. MIT.
         confidence: high
 metadata:
   github:
@@ -30,10 +37,12 @@ metadata:
     archived: false
     full_name: TT-Wang/memem
     html_url: https://github.com/TT-Wang/memem
-    created_at: "2026-04-09T08:49:56Z"
-    pushed_at: "2026-07-03T12:06:20Z"
-    description: A Claude Code plugin that gives Claude persistent memory across sessions — stores lessons and decisions as markdown in your Obsidian vault, searches them with SQLite FTS5, and mines past transcripts automatically.
-    homepage: ""
+    created_at: '2026-04-09T08:49:56Z'
+    pushed_at: '2026-07-03T12:06:20Z'
+    description: >-
+      A Claude Code plugin that gives Claude persistent memory across sessions — stores lessons and decisions as
+      markdown in your Obsidian vault, searches them with SQLite FTS5, and mines past transcripts automatically.
+    homepage: ''
     topics:
       - anthropic
       - claude-code
@@ -45,14 +54,20 @@ metadata:
       - obsidian
       - persistent-memory
       - python
-    last_checked_at: "2026-07-21T15:20:56.784Z"
+    last_checked_at: '2026-07-21T15:20:56.784Z'
     readme:
-      fetched_at: "2026-07-21T15:20:56.784Z"
+      fetched_at: '2026-07-21T15:20:56.784Z'
       bytes: 43074
 insights:
-  summary: A Claude Code plugin that gives Claude persistent memory across sessions by mining lessons from completed transcripts, storing them as markdown in an Obsidian vault, and retrieving relevant context via SQLite FTS5.
-  why_it_matters: Saves developers from re-explaining project context every new Claude Code session by automatically building a queriable, self-evolving memory layer that lives entirely on their own machine.
-  mental_damage: Now your AI assistant needs a notes app to remember what you told it yesterday, and somehow that notes app is also a SQLite database inside another notes app.
+  summary: >-
+    A Claude Code plugin that gives Claude persistent memory across sessions by mining lessons from completed
+    transcripts, storing them as markdown in an Obsidian vault, and retrieving relevant context via SQLite FTS5.
+  why_it_matters: >-
+    Saves developers from re-explaining project context every new Claude Code session by automatically building a
+    queriable, self-evolving memory layer that lives entirely on their own machine.
+  mental_damage: >-
+    Now your AI assistant needs a notes app to remember what you told it yesterday, and somehow that notes app is also a
+    SQLite database inside another notes app.
   tags:
     - claude-code
     - memory
@@ -62,31 +77,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Core novelty is a persistent memory, retrieval, and context-slicing system for a coding assistant, which maps directly to Prompt & Context Engineering rather than a host integration or MCP infrastructure.
+  reason: >-
+    Core novelty is a persistent memory, retrieval, and context-slicing system for a coding assistant, which maps
+    directly to Prompt & Context Engineering rather than a host integration or MCP infrastructure.
   evidence:
-    - README describes a four-layer memory system (L0-L3) with slice-first context assembly and automatic transcript mining.
-    - Repo topics and description center on persistent memory and Obsidian vault storage, not MCP as the primary identity.
+    - >-
+      README describes a four-layer memory system (L0-L3) with slice-first context assembly and automatic transcript
+      mining.
+    - >-
+      Repo topics and description center on persistent memory and Obsidian vault storage, not MCP as the primary
+      identity.
     - Created April 2026 with active pushes through May 2026, indicating a new but maintained project.
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.653Z"
+    updated_at: '2026-05-06T22:12:15.653Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:56.784Z"
+    updated_at: '2026-07-21T15:20:56.784Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-14T05:22:41.580Z"
+    updated_at: '2026-05-14T05:22:41.580Z'
     cause: null
     next_retry_at: null
     attempts: 2

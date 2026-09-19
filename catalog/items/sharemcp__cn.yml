@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__sharemcp__cn__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -37,7 +37,9 @@ metadata:
     readme: null
 insights:
   summary: A Chinese-language directory and registry for MCP (Model Context Protocol) servers and resources.
-  why_it_matters: Provides a curated starting point for developers looking to discover and integrate MCP-compatible tools in their workflows.
+  why_it_matters: >-
+    Provides a curated starting point for developers looking to discover and integrate MCP-compatible tools in their
+    workflows.
   mental_damage: Because nothing says 'standardization' like a dozen regional registries for the same protocol.
   tags:
     - mcp
@@ -47,21 +49,26 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The site functions as a curated directory and map for MCP resources, fitting the 'Lists & Directories' category as a navigation aid for developers.
+  reason: >-
+    The site functions as a curated directory and map for MCP resources, fitting the 'Lists & Directories' category as a
+    navigation aid for developers.
   evidence:
     - URL is sharemcp.cn, implying a dedicated site for sharing MCP resources.
     - Listed in awesome-LLM-resources specifically under the '模型上下文协议 MCP' (Model Context Protocol MCP) section.
-    - No repo description, stars, or code artifacts provided; the identity is a resource/list site, not a code-first tool.
+    - >-
+      No repo description, stars, or code artifacts provided; the identity is a resource/list site, not a code-first
+      tool.
 placement:
-  primary_category: awesome-awesomes
-  section: null
+  primary_category: mcp
+  secondary_categories: []
+  section: Registries & Discovery
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
+  reason: 'Categorization review required: placement disagreement: retained ''awesome-awesomes'', proposed ''mcp'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: '2026-05-06T22:12:15.665Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:30.899Z"
+    updated_at: '2026-07-21T15:31:30.899Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -83,13 +90,17 @@ processing:
       input_hash: sha256:662662b80874ad61fc977c22ff9d70200e355692641211971255d1fda4ad4375
       proposed_primary_category: mcp
       disagreement: true
-      decision_reason: The product is explicitly a registry/directory for MCP resources, which fits the MCP Servers & Tooling category where MCP is the primary identity.
+      decision_reason: >-
+        The product is explicitly a registry/directory for MCP resources, which fits the MCP Servers & Tooling category
+        where MCP is the primary identity.
       decision_evidence:
         - Listed in awesome-LLM-resources under '模型上下文协议 MCP' (Model Context Protocol MCP)
         - URL and name (sharemcp.cn) strongly indicate MCP-focused registry/discovery purpose
       category_candidates:
         - mcp
         - awesome-awesomes
-      contrastive_reason: Choose mcp over awesome-awesomes because the product's core identity is MCP-specific infrastructure (registry) rather than a general AI tooling directory.
-      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
+      contrastive_reason: >-
+        Choose mcp over awesome-awesomes because the product's core identity is MCP-specific infrastructure (registry)
+        rather than a general AI tooling directory.
+      review_reason: 'Categorization review required: placement disagreement: retained ''awesome-awesomes'', proposed ''mcp'''
       review_resume_lifecycle: null

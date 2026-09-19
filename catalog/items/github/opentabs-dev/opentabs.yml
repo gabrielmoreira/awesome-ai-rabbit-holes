@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__opentabs-dev__opentabs__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: opentabs-dev/opentabs
         extracted_url: https://github.com/opentabs-dev/opentabs
-        surrounding_text: "- [opentabs-dev/opentabs](https://github.com/opentabs-dev/opentabs) [![opentabs-dev/opentabs MCP server](https://glama.ai/mcp/servers/opentabs-dev/opentabs/badges/score.svg)](https://glama.ai/mcp/servers/opentabs-dev/opentabs) 📇 🏠 🍎 🪟 🐧 - Plugin-based MCP server + Chrome extension that gives AI agents access to web applications through the user's authenticated browser session. 100+ plugins with a plugin SDK for building new ones."
+        surrounding_text: >-
+          - [opentabs-dev/opentabs](https://github.com/opentabs-dev/opentabs) [![opentabs-dev/opentabs MCP
+          server](https://glama.ai/mcp/servers/opentabs-dev/opentabs/badges/score.svg)](https://glama.ai/mcp/servers/opentabs-dev/opentabs)
+          📇 🏠 🍎 🪟 🐧 - Plugin-based MCP server + Chrome extension that gives AI agents access to web applications
+          through the user's authenticated browser session. 100+ plugins with a plugin SDK for building new ones.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: opentabs-dev/opentabs
     html_url: https://github.com/opentabs-dev/opentabs
-    created_at: "2026-02-09T06:17:27Z"
-    pushed_at: "2026-07-18T04:46:25Z"
+    created_at: '2026-02-09T06:17:27Z'
+    pushed_at: '2026-07-18T04:46:25Z'
     description: Browser automation clicks buttons. OpenTabs calls APIs.
     homepage: https://opentabs.dev
     topics:
@@ -46,14 +50,20 @@ metadata:
       - opencode
       - plugins
       - typescript
-    last_checked_at: "2026-07-20T16:42:27.705Z"
+    last_checked_at: '2026-07-20T16:42:27.705Z'
     readme:
-      fetched_at: "2026-07-20T16:42:27.705Z"
+      fetched_at: '2026-07-20T16:42:27.705Z'
       bytes: 4771
 insights:
-  summary: OpenTabs is a local CLI and Chrome extension that bridges authenticated browser sessions to MCP clients, allowing AI agents to call real web APIs without browser automation or OAuth setup.
-  why_it_matters: It lets developers give their coding agents real, authenticated access to services like Slack, GitHub, and Jira via your existing browser session instead of brittle DOM scraping or API key management.
-  mental_damage: Finally, a way for your AI to passively inherit your browser cookie jar so it can post to Discord and Star a repo while you sip coffee and wonder when you agreed to be the human middleware.
+  summary: >-
+    OpenTabs is a local CLI and Chrome extension that bridges authenticated browser sessions to MCP clients, allowing AI
+    agents to call real web APIs without browser automation or OAuth setup.
+  why_it_matters: >-
+    It lets developers give their coding agents real, authenticated access to services like Slack, GitHub, and Jira via
+    your existing browser session instead of brittle DOM scraping or API key management.
+  mental_damage: >-
+    Finally, a way for your AI to passively inherit your browser cookie jar so it can post to Discord and Star a repo
+    while you sip coffee and wonder when you agreed to be the human middleware.
   tags:
     - mcp
     - browser-automation
@@ -63,35 +73,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product identity is an MCP server and middleware layer that exposes browser-session APIs to any MCP client, making it MCP infrastructure rather than a standalone coding agent or generic extension.
+  reason: >-
+    The core product identity is an MCP server and middleware layer that exposes browser-session APIs to any MCP client,
+    making it MCP infrastructure rather than a standalone coding agent or generic extension.
   evidence:
     - Repo description explicitly states 'OpenTabs calls APIs' and topics include 'mcp-server'.
     - README states 'Works with any MCP client' and is listed in awesome-mcp-servers under 'Server Implementations'.
     - Active development with recent push date (2026-05-06) and MIT license.
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: promotion_candidate
   reason: Stars (470) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.640Z"
+    updated_at: '2026-05-06T22:12:15.640Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:27.705Z"
+    updated_at: '2026-07-20T16:42:27.705Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__arize-ai__phoenix__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -20,10 +20,10 @@ provenance:
           - Observability & Tracing
         anchor_text: Phoenix
         extracted_url: https://github.com/arize-ai/phoenix
-        surrounding_text: "| [Phoenix](https://github.com/Arize-ai/phoenix) | Open-source LLM tracing |"
+        surrounding_text: '| [Phoenix](https://github.com/Arize-ai/phoenix) | Open-source LLM tracing |'
         confidence: high
     - id: discovery__github__arize-ai__phoenix__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -35,10 +35,12 @@ provenance:
           - Developer tools
         anchor_text: Phoenix
         extracted_url: https://phoenix.arize.com
-        surrounding_text: "- [Phoenix](https://phoenix.arize.com/) - Open-source tool for ML observability that runs in your notebook environment, by Arize. Monitor and fine tune LLM, CV and tabular models."
+        surrounding_text: >-
+          - [Phoenix](https://phoenix.arize.com/) - Open-source tool for ML observability that runs in your notebook
+          environment, by Arize. Monitor and fine tune LLM, CV and tabular models.
         confidence: high
     - id: discovery__github__arize-ai__phoenix__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -50,7 +52,11 @@ provenance:
           - LLMOps
         anchor_text: Arize-Phoenix
         extracted_url: https://github.com/arize-ai/phoenix
-        surrounding_text: "| [Arize-Phoenix](https://github.com/Arize-ai/phoenix)               | ML observability for LLMs, vision, language, and tabular models.                                                                                                                                                                                                                                                                                                                                        | ![GitHub Badge](https://img.shields.io/github/stars/Arize-ai/phoenix.svg?style=flat-square)               |"
+        surrounding_text: >-
+          | [Arize-Phoenix](https://github.com/Arize-ai/phoenix)               | ML observability for LLMs, vision,
+          language, and tabular
+          models.                                                                                                                                                                                                                                                                                                                                       
+          | ![GitHub Badge](https://img.shields.io/github/stars/Arize-ai/phoenix.svg?style=flat-square)               |
         confidence: high
 metadata:
   github:
@@ -60,8 +66,8 @@ metadata:
     archived: false
     full_name: Arize-ai/phoenix
     html_url: https://github.com/Arize-ai/phoenix
-    created_at: "2022-11-09T23:44:35Z"
-    pushed_at: "2026-09-10T04:09:55Z"
+    created_at: '2022-11-09T23:44:35Z'
+    pushed_at: '2026-09-10T04:09:55Z'
     description: AI Observability & Evaluation
     homepage: https://arize.com/docs/phoenix
     topics:
@@ -81,9 +87,9 @@ metadata:
       - openai
       - prompt-engineering
       - smolagents
-    last_checked_at: "2026-09-10T04:12:58.605Z"
+    last_checked_at: '2026-09-10T04:12:58.605Z'
     readme:
-      fetched_at: "2026-09-10T04:12:58.605Z"
+      fetched_at: '2026-09-10T04:12:58.605Z'
       bytes: 55436
 insights:
   summary: Open-source AI observability and evaluation platform for tracing, experimenting, and optimizing AI applications.
@@ -98,31 +104,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Core product is evaluation and observability for AI systems, not a coding assistant, framework, or orchestration platform.
+  reason: >-
+    Core product is evaluation and observability for AI systems, not a coding assistant, framework, or orchestration
+    platform.
   evidence:
-    - "Repo description: 'AI Observability & Evaluation'"
-    - "README: 'open-source AI observability platform designed for experimentation, evaluation, and troubleshooting'"
-    - "Source-list context: listed under 'Observability & Tracing' in agent-orchestration lists"
+    - 'Repo description: ''AI Observability & Evaluation'''
+    - 'README: ''open-source AI observability platform designed for experimentation, evaluation, and troubleshooting'''
+    - 'Source-list context: listed under ''Observability & Tracing'' in agent-orchestration lists'
 placement:
   primary_category: evals
-  section: Observability / Tracing / EvalOps
+  secondary_categories: []
+  section: Observability & Tracing
 lifecycle:
   status: promotion_candidate
   reason: Stars (9549) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.576Z"
+    updated_at: '2026-05-06T22:12:15.576Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:12:58.605Z"
+    updated_at: '2026-09-10T04:12:58.605Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:24:03.954Z"
+    updated_at: '2026-07-21T15:24:03.954Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -135,14 +144,18 @@ processing:
       input_hash: sha256:270442a2780d911020a7f8e44dcc3bfb972d97cff10aed9cbff6f3f510b6942b
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: Core product is evaluation and observability for AI systems, not a coding assistant, framework, or orchestration platform.
+      decision_reason: >-
+        Core product is evaluation and observability for AI systems, not a coding assistant, framework, or orchestration
+        platform.
       decision_evidence:
-        - "Repo description: 'AI Observability & Evaluation'"
-        - "README: 'open-source AI observability platform designed for experimentation, evaluation, and troubleshooting'"
-        - "Source-list context: listed under 'Observability & Tracing' in agent-orchestration lists"
+        - 'Repo description: ''AI Observability & Evaluation'''
+        - 'README: ''open-source AI observability platform designed for experimentation, evaluation, and troubleshooting'''
+        - 'Source-list context: listed under ''Observability & Tracing'' in agent-orchestration lists'
       category_candidates:
         - evals
         - ai-frameworks
-      contrastive_reason: Choose evals over ai-frameworks because the primary job is tracing, evaluation, and observability rather than code-first building blocks.
+      contrastive_reason: >-
+        Choose evals over ai-frameworks because the primary job is tracing, evaluation, and observability rather than
+        code-first building blocks.
       review_reason: null
       review_resume_lifecycle: null

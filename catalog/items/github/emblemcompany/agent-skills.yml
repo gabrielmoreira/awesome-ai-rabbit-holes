@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__emblemcompany__agent-skills__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,14 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: EmblemCompany/Agent-skills
         extracted_url: https://github.com/emblemcompany/agent-skills
-        surrounding_text: "- [EmblemCompany/Agent-skills](https://github.com/EmblemCompany/Agent-skills) [![EmblemCompany/Agent-skills MCP server](https://glama.ai/mcp/servers/EmblemCompany/Agent-skills/badges/score.svg)](https://glama.ai/mcp/servers/EmblemCompany/Agent-skills) 🎖️ 📇 ☁️ - 200+ crypto tools for AI agents across 7 blockchains (Solana, Ethereum, Base, BSC, Polygon, Hedera, Bitcoin). Swaps, DeFi yield, conditional orders, NFTs, cross-chain bridges, and market intelligence. Hosted MCP at `https://emblemvault.ai/api/mcp` with OAuth 2.0 + PKCE for one-line install in Claude Code, Cursor, Windsurf, and any MCP-compatible client. API key and x402 per-tool-call micropayments also supported."
+        surrounding_text: >-
+          - [EmblemCompany/Agent-skills](https://github.com/EmblemCompany/Agent-skills) [![EmblemCompany/Agent-skills
+          MCP
+          server](https://glama.ai/mcp/servers/EmblemCompany/Agent-skills/badges/score.svg)](https://glama.ai/mcp/servers/EmblemCompany/Agent-skills)
+          🎖️ 📇 ☁️ - 200+ crypto tools for AI agents across 7 blockchains (Solana, Ethereum, Base, BSC, Polygon,
+          Hedera, Bitcoin). Swaps, DeFi yield, conditional orders, NFTs, cross-chain bridges, and market intelligence.
+          Hosted MCP at `https://emblemvault.ai/api/mcp` with OAuth 2.0 + PKCE for one-line install in Claude Code,
+          Cursor, Windsurf, and any MCP-compatible client. API key and x402 per-tool-call micropayments also supported.
         confidence: high
 metadata:
   github:
@@ -30,8 +37,8 @@ metadata:
     archived: false
     full_name: EmblemCompany/Agent-skills
     html_url: https://github.com/EmblemCompany/Agent-skills
-    created_at: "2026-03-03T17:29:40Z"
-    pushed_at: "2026-05-15T08:53:47Z"
+    created_at: '2026-03-03T17:29:40Z'
+    pushed_at: '2026-05-15T08:53:47Z'
     description: Official skill collection for EmblemAI agents — 200+ crypto tools across 7 blockchains
     homepage: https://emblemvault.ai
     topics:
@@ -48,14 +55,20 @@ metadata:
       - solana
       - wallet
       - web3
-    last_checked_at: "2026-08-27T09:23:23.593Z"
+    last_checked_at: '2026-08-27T09:23:23.593Z'
     readme:
-      fetched_at: "2026-08-27T09:23:23.593Z"
+      fetched_at: '2026-08-27T09:23:23.593Z'
       bytes: 10467
 insights:
-  summary: A collection of reusable crypto and blockchain skill packs designed to equip AI agents with web3 capabilities like swaps, DeFi management, and portfolio tracking.
-  why_it_matters: It provides a standardized way to give agents complex, multi-chain execution capabilities without developers having to write custom integration logic for every blockchain.
-  mental_damage: Because nothing says 'unpredictable agent behavior' quite like giving a LLM direct access to your cross-chain liquidity.
+  summary: >-
+    A collection of reusable crypto and blockchain skill packs designed to equip AI agents with web3 capabilities like
+    swaps, DeFi management, and portfolio tracking.
+  why_it_matters: >-
+    It provides a standardized way to give agents complex, multi-chain execution capabilities without developers having
+    to write custom integration logic for every blockchain.
+  mental_damage: >-
+    Because nothing says 'unpredictable agent behavior' quite like giving a LLM direct access to your cross-chain
+    liquidity.
   tags:
     - crypto
     - web3
@@ -65,33 +78,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The repository's primary identity is a curated collection of portable, domain-specific skill packs for AI agents rather than a standalone platform or orchestration tool.
+  reason: >-
+    The repository's primary identity is a curated collection of portable, domain-specific skill packs for AI agents
+    rather than a standalone platform or orchestration tool.
   evidence:
     - The README explicitly defines the project as an 'Official skill collection for AI agents'.
-    - The core value is the distribution of specific, installable capabilities like 'emblem-token-swap' and 'emblem-defi-yield'.
+    - >-
+      The core value is the distribution of specific, installable capabilities like 'emblem-token-swap' and
+      'emblem-defi-yield'.
     - It supports the Agent Skills specification and provides MCP compatibility as a distribution method.
 placement:
   primary_category: skills
-  section: Domain & Workflow Skill Packs
+  secondary_categories: []
+  section: Skill Packs & Libraries
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.819Z"
+    updated_at: '2026-05-28T05:28:09.819Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-14T04:13:48.997Z"
+    updated_at: '2026-09-14T04:13:48.997Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for emblemcompany/agent-skills
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-28T05:40:11.978Z"
+    updated_at: '2026-05-28T05:40:11.978Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

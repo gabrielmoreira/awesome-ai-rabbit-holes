@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__glaksmono__finbud-data-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: glaksmono/finbud-data-mcp
         extracted_url: https://github.com/glaksmono/finbud-data-mcp
-        surrounding_text: "- [glaksmono/finbud-data-mcp](https://github.com/glaksmono/finbud-data-mcp/tree/main/packages/mcp-server) 📇 ☁️ 🏠 - Access comprehensive, real-time financial data (stocks, options, crypto, forex) via developer-friendly, AI-native APIs offering unbeatable value."
+        surrounding_text: >-
+          - [glaksmono/finbud-data-mcp](https://github.com/glaksmono/finbud-data-mcp/tree/main/packages/mcp-server) 📇
+          ☁️ 🏠 - Access comprehensive, real-time financial data (stocks, options, crypto, forex) via
+          developer-friendly, AI-native APIs offering unbeatable value.
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: glaksmono/finbud-data-mcp
     html_url: https://github.com/glaksmono/finbud-data-mcp
-    created_at: "2025-04-25T06:44:24Z"
-    pushed_at: "2025-06-21T02:17:46Z"
+    created_at: '2025-04-25T06:44:24Z'
+    pushed_at: '2025-06-21T02:17:46Z'
     description: AI & Developer centric financial data API
     homepage: https://data.finbud.ai/docs
     topics:
@@ -39,14 +42,18 @@ metadata:
       - financial-markets
       - mcp
       - mcp-server
-    last_checked_at: "2026-09-03T05:16:50.804Z"
+    last_checked_at: '2026-09-03T05:16:50.804Z'
     readme:
-      fetched_at: "2026-09-03T05:16:50.804Z"
+      fetched_at: '2026-09-03T05:16:50.804Z'
       bytes: 11987
 insights:
   summary: A TypeScript library providing access to the Finbud Data REST API for financial market data.
-  why_it_matters: Developers can programmatically retrieve financial data (e.g., analyst estimates) for AI or developer-centric financial applications.
-  mental_damage: Because nothing says 'AI for developers' like another API wrapper that makes you wonder if you're building a fintech app or just collecting dependencies.
+  why_it_matters: >-
+    Developers can programmatically retrieve financial data (e.g., analyst estimates) for AI or developer-centric
+    financial applications.
+  mental_damage: >-
+    Because nothing says 'AI for developers' like another API wrapper that makes you wonder if you're building a fintech
+    app or just collecting dependencies.
   tags:
     - financial-data
     - typescript
@@ -55,31 +62,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server (per topics and repo description) providing financial data access, making MCP its primary identity.
+  reason: >-
+    The project is explicitly an MCP server (per topics and repo description) providing financial data access, making
+    MCP its primary identity.
   evidence:
     - Repo description explicitly states 'AI & Developer centric financial data API'
     - Topics include 'mcp' and 'mcp-server'
     - README describes a TypeScript API library for Finbud Data REST API, generated with Stainless
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.616Z"
+    updated_at: '2026-05-06T22:12:15.616Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:50.804Z"
+    updated_at: '2026-09-03T05:16:50.804Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:03:17.592Z"
+    updated_at: '2026-07-21T16:03:17.592Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -92,7 +102,9 @@ processing:
       input_hash: sha256:d76f58b70564a744e5bc7c02dd4e71146673bb309c95bcc9d85d4bad44e721df
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is explicitly an MCP server (per topics and repo description) providing financial data access, making MCP its primary identity.
+      decision_reason: >-
+        The project is explicitly an MCP server (per topics and repo description) providing financial data access,
+        making MCP its primary identity.
       decision_evidence:
         - Repo description explicitly states 'AI & Developer centric financial data API'
         - Topics include 'mcp' and 'mcp-server'
@@ -100,6 +112,8 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the project's core identity is as an MCP server (per topics and description), not a general-purpose SDK.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the project's core identity is as an MCP server (per topics and
+        description), not a general-purpose SDK.
       review_reason: null
       review_resume_lifecycle: null

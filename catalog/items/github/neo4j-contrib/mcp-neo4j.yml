@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__neo4j-contrib__mcp-neo4j__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: neo4j-contrib/mcp-neo4j
         extracted_url: https://github.com/neo4j-contrib/mcp-neo4j
-        surrounding_text: "- [neo4j-contrib/mcp-neo4j](https://github.com/neo4j-contrib/mcp-neo4j) 🐍 🏠 - Model Context Protocol with Neo4j (Run queries, Knowledge Graph Memory, Manaage Neo4j Aura Instances)"
+        surrounding_text: >-
+          - [neo4j-contrib/mcp-neo4j](https://github.com/neo4j-contrib/mcp-neo4j) 🐍 🏠 - Model Context Protocol with
+          Neo4j (Run queries, Knowledge Graph Memory, Manaage Neo4j Aura Instances)
         confidence: high
     - id: discovery__github__neo4j-contrib__mcp-neo4j__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,10 +37,12 @@ provenance:
           - Official Servers
         anchor_text: Neo4j
         extracted_url: https://github.com/neo4j-contrib/mcp-neo4j
-        surrounding_text: "- **[Neo4j](https://github.com/neo4j-contrib/mcp-neo4j/)** - Neo4j graph database server (schema + read/write-cypher) and separate graph database backed memory"
+        surrounding_text: >-
+          - **[Neo4j](https://github.com/neo4j-contrib/mcp-neo4j/)** - Neo4j graph database server (schema +
+          read/write-cypher) and separate graph database backed memory
         confidence: high
     - id: discovery__github__neo4j-contrib__mcp-neo4j__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -50,10 +54,13 @@ provenance:
           - 🗄️ Databases
         anchor_text: neo4j-contrib/mcp-neo4j
         extracted_url: https://github.com/neo4j-contrib/mcp-neo4j
-        surrounding_text: "-   **[neo4j-contrib/mcp-neo4j](https://github.com/neo4j-contrib/mcp-neo4j)** [![GitHub stars](https://img.shields.io/github/stars/neo4j-contrib/mcp-neo4j?style=social)](https://github.com/neo4j-contrib/mcp-neo4j): Enables Model Context Protocol interactions with Neo4j databases."
+        surrounding_text: >-
+          -   **[neo4j-contrib/mcp-neo4j](https://github.com/neo4j-contrib/mcp-neo4j)** [![GitHub
+          stars](https://img.shields.io/github/stars/neo4j-contrib/mcp-neo4j?style=social)](https://github.com/neo4j-contrib/mcp-neo4j):
+          Enables Model Context Protocol interactions with Neo4j databases.
         confidence: high
     - id: discovery__github__neo4j-contrib__mcp-neo4j__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -67,7 +74,9 @@ provenance:
           - Database & Vector Stores
         anchor_text: mcp-neo4j
         extracted_url: https://github.com/neo4j-contrib/mcp-neo4j
-        surrounding_text: "| [mcp-neo4j](https://github.com/neo4j-contrib/mcp-neo4j) | Neo4j graph database server | ![Stars](https://img.shields.io/github/stars/neo4j-contrib/mcp-neo4j) |"
+        surrounding_text: >-
+          | [mcp-neo4j](https://github.com/neo4j-contrib/mcp-neo4j) | Neo4j graph database server |
+          ![Stars](https://img.shields.io/github/stars/neo4j-contrib/mcp-neo4j) |
         confidence: high
 metadata:
   github:
@@ -77,8 +86,8 @@ metadata:
     archived: false
     full_name: neo4j-contrib/mcp-neo4j
     html_url: https://github.com/neo4j-contrib/mcp-neo4j
-    created_at: "2024-12-03T15:44:25Z"
-    pushed_at: "2026-04-10T18:53:37Z"
+    created_at: '2024-12-03T15:44:25Z'
+    pushed_at: '2026-04-10T18:53:37Z'
     description: Neo4j Labs Model Context Protocol servers
     homepage: https://neo4j.com/developer/genai-ecosystem/model-context-protocol-mcp/
     topics:
@@ -87,14 +96,21 @@ metadata:
       - mcp-server
       - neo4j
       - stdio
-    last_checked_at: "2026-07-20T15:12:01.728Z"
+    last_checked_at: '2026-07-20T15:12:01.728Z'
     readme:
-      fetched_at: "2026-07-20T15:12:01.728Z"
+      fetched_at: '2026-07-20T15:12:01.728Z'
       bytes: 4934
 insights:
-  summary: A collection of Model Context Protocol servers from Neo4j Labs that let MCP clients interact with Neo4j databases, Aura cloud instances, and knowledge graphs.
-  why_it_matters: Developers using Claude Desktop, Cursor, or other MCP clients can query graphs, manage cloud instances, and persist memory via natural language instead of custom glue code.
-  mental_damage: You now have a standardized protocol for teaching your coding assistant to remember things in a graph database, which is the exact kind of architectural overkill that makes you wonder if you’re building software or a digital diorama of your own productivity.
+  summary: >-
+    A collection of Model Context Protocol servers from Neo4j Labs that let MCP clients interact with Neo4j databases,
+    Aura cloud instances, and knowledge graphs.
+  why_it_matters: >-
+    Developers using Claude Desktop, Cursor, or other MCP clients can query graphs, manage cloud instances, and persist
+    memory via natural language instead of custom glue code.
+  mental_damage: >-
+    You now have a standardized protocol for teaching your coding assistant to remember things in a graph database,
+    which is the exact kind of architectural overkill that makes you wonder if you’re building software or a digital
+    diorama of your own productivity.
   tags:
     - mcp
     - neo4j
@@ -104,35 +120,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is explicitly a set of MCP servers providing Neo4j capabilities to MCP clients, which fits cleanly into MCP Servers & Tooling.
+  reason: >-
+    The product identity is explicitly a set of MCP servers providing Neo4j capabilities to MCP clients, which fits
+    cleanly into MCP Servers & Tooling.
   evidence:
-    - "Repo description states: 'Neo4j Labs Model Context Protocol servers'"
-    - README describes multiple MCP servers (mcp-neo4j-cypher, mcp-neo4j-memory, etc.) that integrate with Claude Desktop, VS Code, Cursor, and other MCP clients
+    - 'Repo description states: ''Neo4j Labs Model Context Protocol servers'''
+    - >-
+      README describes multiple MCP servers (mcp-neo4j-cypher, mcp-neo4j-memory, etc.) that integrate with Claude
+      Desktop, VS Code, Cursor, and other MCP clients
     - Project is actively maintained with a pushed_at date of 2026-04-10 and is not archived
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: promotion_candidate
   reason: Stars (944) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.575Z"
+    updated_at: '2026-05-06T22:12:15.575Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:12:01.728Z"
+    updated_at: '2026-07-20T15:12:01.728Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

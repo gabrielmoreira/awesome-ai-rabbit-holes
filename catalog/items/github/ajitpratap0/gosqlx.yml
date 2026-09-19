@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ajitpratap0__gosqlx__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: ajitpratap0/GoSQLX
         extracted_url: https://github.com/ajitpratap0/gosqlx
-        surrounding_text: "- [ajitpratap0/GoSQLX](https://github.com/ajitpratap0/GoSQLX) [![ajitpratap0/GoSQLX MCP server](https://glama.ai/mcp/servers/ajitpratap0/GoSQLX/badges/score.svg)](https://glama.ai/mcp/servers/ajitpratap0/GoSQLX) 🏎️ ☁️ 🏠 - 7 SQL tools (validate, format, parse, lint, security scan, metadata extraction, full analysis) over Streamable HTTP. Public remote server at mcp.gosqlx.dev - no install needed. 1.25M+ ops/sec, 6 SQL dialects."
+        surrounding_text: >-
+          - [ajitpratap0/GoSQLX](https://github.com/ajitpratap0/GoSQLX) [![ajitpratap0/GoSQLX MCP
+          server](https://glama.ai/mcp/servers/ajitpratap0/GoSQLX/badges/score.svg)](https://glama.ai/mcp/servers/ajitpratap0/GoSQLX)
+          🏎️ ☁️ 🏠 - 7 SQL tools (validate, format, parse, lint, security scan, metadata extraction, full analysis)
+          over Streamable HTTP. Public remote server at mcp.gosqlx.dev - no install needed. 1.25M+ ops/sec, 6 SQL
+          dialects.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: ajitpratap0/GoSQLX
     html_url: https://github.com/ajitpratap0/GoSQLX
-    created_at: "2025-02-17T06:47:21Z"
-    pushed_at: "2026-07-31T06:51:37Z"
-    description: High-performance SQL parser, formatter, linter & security scanner for Go - 1.5M+ ops/sec, multi-dialect, zero-copy, race-free
+    created_at: '2025-02-17T06:47:21Z'
+    pushed_at: '2026-07-31T06:51:37Z'
+    description: >-
+      High-performance SQL parser, formatter, linter & security scanner for Go - 1.5M+ ops/sec, multi-dialect,
+      zero-copy, race-free
     homepage: https://gosqlx.dev
     topics:
       - ast
@@ -55,14 +62,18 @@ metadata:
       - sqlite
       - wasm
       - zero-copy
-    last_checked_at: "2026-09-17T04:13:37.318Z"
+    last_checked_at: '2026-09-17T04:13:37.318Z'
     readme:
-      fetched_at: "2026-09-17T04:13:37.318Z"
+      fetched_at: '2026-09-17T04:13:37.318Z'
       bytes: 10023
 insights:
   summary: A high-performance SQL parser, formatter, linter, and security scanner written in Go.
-  why_it_matters: It provides ultra-fast, zero-copy SQL AST generation and validation that can be integrated into Go services or used via MCP to give AI agents structured access to SQL dialect logic.
-  mental_damage: Because nothing says 'I trust my LLM' quite like adding a sub-microsecond SQL parser to the stack to verify the chaos it just generated.
+  why_it_matters: >-
+    It provides ultra-fast, zero-copy SQL AST generation and validation that can be integrated into Go services or used
+    via MCP to give AI agents structured access to SQL dialect logic.
+  mental_damage: >-
+    Because nothing says 'I trust my LLM' quite like adding a sub-microsecond SQL parser to the stack to verify the
+    chaos it just generated.
   tags:
     - go
     - sql-parser
@@ -72,31 +83,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's growing identity centers on its MCP server that exposes SQL parsing, linting, and security analysis as tools for AI clients.
+  reason: >-
+    The product's growing identity centers on its MCP server that exposes SQL parsing, linting, and security analysis as
+    tools for AI clients.
   evidence:
     - README explicitly promotes '🤖 MCP Server (AI Integration)' with setup for Claude and Cursor.
     - Listed in awesome-mcp-servers under Developer Tools as a server implementation.
-    - Core product is a Go SQL parser and CLI, but MCP is a first-class distribution surface alongside VS Code and GitHub Actions.
+    - >-
+      Core product is a Go SQL parser and CLI, but MCP is a first-class distribution surface alongside VS Code and
+      GitHub Actions.
 placement:
   primary_category: mcp
-  section: null
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-frameworks'"
+  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-frameworks'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.600Z"
+    updated_at: '2026-05-06T22:12:15.600Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:37.318Z"
+    updated_at: '2026-09-17T04:13:37.318Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:11:38.349Z"
+    updated_at: '2026-07-20T16:11:38.349Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -117,6 +133,8 @@ processing:
       category_candidates:
         - ai-frameworks
         - mcp
-      contrastive_reason: Choose ai-frameworks over mcp because the core identity is a high-performance Go SDK/library, while the MCP capability is a secondary integration feature.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-frameworks'"
+      contrastive_reason: >-
+        Choose ai-frameworks over mcp because the core identity is a high-performance Go SDK/library, while the MCP
+        capability is a secondary integration feature.
+      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-frameworks'''
       review_resume_lifecycle: null

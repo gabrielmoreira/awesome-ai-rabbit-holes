@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kvcache-ai__ktransformers__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 推理 Inference
         anchor_text: ktransformers
         extracted_url: https://github.com/kvcache-ai/ktransformers
-        surrounding_text: "45. [ktransformers](https://github.com/kvcache-ai/ktransformers): A Flexible Framework for Experiencing Cutting-edge LLM Inference Optimizations."
+        surrounding_text: >-
+          45. [ktransformers](https://github.com/kvcache-ai/ktransformers): A Flexible Framework for Experiencing
+          Cutting-edge LLM Inference Optimizations.
         confidence: high
 metadata:
   github:
@@ -29,18 +31,20 @@ metadata:
     archived: false
     full_name: kvcache-ai/ktransformers
     html_url: https://github.com/kvcache-ai/ktransformers
-    created_at: "2024-07-26T07:18:28Z"
-    pushed_at: "2026-07-24T10:03:18Z"
+    created_at: '2024-07-26T07:18:28Z'
+    pushed_at: '2026-07-24T10:03:18Z'
     description: A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations
     homepage: https://kvcache-ai.github.io/ktransformers/
     topics: []
-    last_checked_at: "2026-07-30T05:06:01.718Z"
+    last_checked_at: '2026-07-30T05:06:01.718Z'
     readme:
-      fetched_at: "2026-07-30T05:06:01.718Z"
+      fetched_at: '2026-07-30T05:06:01.718Z'
       bytes: 10113
 insights:
   summary: A flexible framework for heterogeneous LLM inference and fine-tuning optimizations on CPU-GPU hardware.
-  why_it_matters: Enables developers to run and fine-tune large models efficiently on consumer or edge hardware with heterogeneous compute backends.
+  why_it_matters: >-
+    Enables developers to run and fine-tune large models efficiently on consumer or edge hardware with heterogeneous
+    compute backends.
   mental_damage: Finally, a way to pretend your laptop is a GPU cluster until it actually catches fire.
   tags:
     - inference
@@ -51,31 +55,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is a developer-facing toolkit designed to run LLMs locally on heterogeneous hardware (CPU-GPU), fitting the Local AI runtime profile.
+  reason: >-
+    The project is a developer-facing toolkit designed to run LLMs locally on heterogeneous hardware (CPU-GPU), fitting
+    the Local AI runtime profile.
   evidence:
-    - Repo description explicitly states it is a 'Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations'.
-    - README highlights specific features like decreasing VRAM requirements from 21G to 11G for DeepSeekV2 and running models on 24GB VRAM.
-    - Source list context categorizes the tool under '推理 Inference' (Inference), aligning with the local runtime identity.
+    - >-
+      Repo description explicitly states it is a 'Flexible Framework for Experiencing Heterogeneous LLM
+      Inference/Fine-tune Optimizations'.
+    - >-
+      README highlights specific features like decreasing VRAM requirements from 21G to 11G for DeepSeekV2 and running
+      models on 24GB VRAM.
+    - >-
+      Source list context categorizes the tool under '推理 Inference' (Inference), aligning with the local runtime
+      identity.
 placement:
   primary_category: local-ai
-  section: null
+  secondary_categories: []
+  section: Inference Engines
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'ai-frameworks'"
+  reason: 'Categorization review required: placement disagreement: retained ''local-ai'', proposed ''ai-frameworks'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:01.718Z"
+    updated_at: '2026-07-30T05:06:01.718Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:14:29.724Z"
+    updated_at: '2026-07-21T16:14:29.724Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,14 +101,18 @@ processing:
       input_hash: sha256:aead546a5a896bb44f1ec77bd1007b587bc4f8042f7541e8b751e70fcb79b528
       proposed_primary_category: ai-frameworks
       disagreement: true
-      decision_reason: The project is a code-first framework/SDK for inference and fine-tuning optimizations, not an end-user assistant, IDE, or orchestration platform.
+      decision_reason: >-
+        The project is a code-first framework/SDK for inference and fine-tuning optimizations, not an end-user
+        assistant, IDE, or orchestration platform.
       decision_evidence:
-        - "Repo description: 'A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations'"
-        - "README: Exposes inference and SFT capabilities as user-facing components from a kt-kernel source tree"
-        - "Source-list context: Listed under '推理 Inference' in a curated LLM resources directory"
+        - 'Repo description: ''A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations'''
+        - 'README: Exposes inference and SFT capabilities as user-facing components from a kt-kernel source tree'
+        - 'Source-list context: Listed under ''推理 Inference'' in a curated LLM resources directory'
       category_candidates:
         - ai-frameworks
         - local-ai
-      contrastive_reason: Choose ai-frameworks over local-ai because the core identity is a developer-facing framework for inference/fine-tuning rather than a local runtime or end-user app.
-      review_reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'ai-frameworks'"
+      contrastive_reason: >-
+        Choose ai-frameworks over local-ai because the core identity is a developer-facing framework for
+        inference/fine-tuning rather than a local runtime or end-user app.
+      review_reason: 'Categorization review required: placement disagreement: retained ''local-ai'', proposed ''ai-frameworks'''
       review_resume_lifecycle: null

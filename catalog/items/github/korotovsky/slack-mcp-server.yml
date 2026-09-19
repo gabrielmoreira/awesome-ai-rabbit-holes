@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__korotovsky__slack-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: korotovsky/slack-mcp-server
         extracted_url: https://github.com/korotovsky/slack-mcp-server
-        surrounding_text: "- [korotovsky/slack-mcp-server](https://github.com/korotovsky/slack-mcp-server) 📇 ☁️ - The most powerful MCP server for Slack Workspaces."
+        surrounding_text: >-
+          - [korotovsky/slack-mcp-server](https://github.com/korotovsky/slack-mcp-server) 📇 ☁️ - The most powerful MCP
+          server for Slack Workspaces.
         confidence: high
     - id: discovery__github__korotovsky__slack-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +37,10 @@ provenance:
           - Community Servers
         anchor_text: Slack
         extracted_url: https://github.com/korotovsky/slack-mcp-server
-        surrounding_text: "- **[Slack](https://github.com/korotovsky/slack-mcp-server)** - The most powerful MCP server for Slack Workspaces. This integration supports both Stdio and SSE transports, proxy settings and does not require any permissions or bots being created or approved by Workspace admins 😏."
+        surrounding_text: >-
+          - **[Slack](https://github.com/korotovsky/slack-mcp-server)** - The most powerful MCP server for Slack
+          Workspaces. This integration supports both Stdio and SSE transports, proxy settings and does not require any
+          permissions or bots being created or approved by Workspace admins 😏.
         confidence: high
 metadata:
   github:
@@ -45,10 +50,12 @@ metadata:
     archived: false
     full_name: korotovsky/slack-mcp-server
     html_url: https://github.com/korotovsky/slack-mcp-server
-    created_at: "2025-04-12T11:31:34Z"
-    pushed_at: "2026-07-16T17:14:22Z"
-    description: The most powerful MCP Slack Server with no permission requirements, Apps support, GovSlack, DMs, Group DMs and smart history fetch logic.
-    homepage: ""
+    created_at: '2025-04-12T11:31:34Z'
+    pushed_at: '2026-07-16T17:14:22Z'
+    description: >-
+      The most powerful MCP Slack Server with no permission requirements, Apps support, GovSlack, DMs, Group DMs and
+      smart history fetch logic.
+    homepage: ''
     topics:
       - assistants
       - govslack
@@ -57,13 +64,17 @@ metadata:
       - mcp-server
       - slack
       - slack-api
-    last_checked_at: "2026-07-30T05:05:57.848Z"
+    last_checked_at: '2026-07-30T05:05:57.848Z'
     readme:
-      fetched_at: "2026-07-30T05:05:57.848Z"
+      fetched_at: '2026-07-30T05:05:57.848Z'
       bytes: 31951
 insights:
-  summary: An MCP server that provides Slack workspace integration with features like DMs, group DMs, smart history fetching, and OAuth/stealth modes.
-  why_it_matters: Developers can connect AI assistants to Slack workspaces for message retrieval, search, and posting without requiring extensive permissions or bot installations.
+  summary: >-
+    An MCP server that provides Slack workspace integration with features like DMs, group DMs, smart history fetching,
+    and OAuth/stealth modes.
+  why_it_matters: >-
+    Developers can connect AI assistants to Slack workspaces for message retrieval, search, and posting without
+    requiring extensive permissions or bot installations.
   mental_damage: Now your AI can lurk in Slack DMs with the same enthusiasm as a junior dev on their first day.
   tags:
     - mcp
@@ -81,24 +92,25 @@ curation:
     - Listed in awesome-mcp-servers under Server Implementations > Communication
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: promotion_candidate
   reason: Stars (1580) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.589Z"
+    updated_at: '2026-05-06T22:12:15.589Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:57.848Z"
+    updated_at: '2026-07-30T05:05:57.848Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:05.150Z"
+    updated_at: '2026-07-21T16:13:05.150Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -119,6 +131,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because MCP is the core product identity, not just an integration layer for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because MCP is the core product identity, not just an integration layer for
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

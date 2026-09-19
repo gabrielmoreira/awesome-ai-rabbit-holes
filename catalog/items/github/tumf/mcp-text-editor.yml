@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tumf__mcp-text-editor__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: tumf/mcp-text-editor
         extracted_url: https://github.com/tumf/mcp-text-editor
-        surrounding_text: "- [tumf/mcp-text-editor](https://github.com/tumf/mcp-text-editor) 🐍 🏠 - A line-oriented text file editor. Optimized for LLM tools with efficient partial file access to minimize token usage."
+        surrounding_text: >-
+          - [tumf/mcp-text-editor](https://github.com/tumf/mcp-text-editor) 🐍 🏠 - A line-oriented text file editor.
+          Optimized for LLM tools with efficient partial file access to minimize token usage.
         confidence: high
     - id: discovery__github__tumf__mcp-text-editor__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - 💻 Developer Tools
         anchor_text: tumf/mcp-text-editor
         extracted_url: https://github.com/tumf/mcp-text-editor
-        surrounding_text: "-   **[tumf/mcp-text-editor](https://github.com/tumf/mcp-text-editor)** [![GitHub stars](https://img.shields.io/github/stars/tumf/mcp-text-editor?style=social)](https://github.com/tumf/mcp-text-editor): Provides a line-oriented text file editor, optimized for LLM interaction."
+        surrounding_text: >-
+          -   **[tumf/mcp-text-editor](https://github.com/tumf/mcp-text-editor)** [![GitHub
+          stars](https://img.shields.io/github/stars/tumf/mcp-text-editor?style=social)](https://github.com/tumf/mcp-text-editor):
+          Provides a line-oriented text file editor, optimized for LLM interaction.
         confidence: high
 metadata:
   github:
@@ -45,19 +50,23 @@ metadata:
     archived: false
     full_name: tumf/mcp-text-editor
     html_url: https://github.com/tumf/mcp-text-editor
-    created_at: "2024-12-11T10:12:28Z"
-    pushed_at: "2026-03-17T22:06:05Z"
+    created_at: '2024-12-11T10:12:28Z'
+    pushed_at: '2026-03-17T22:06:05Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:20:57.255Z"
+    last_checked_at: '2026-07-21T15:20:57.255Z'
     readme:
-      fetched_at: "2026-07-21T15:20:57.255Z"
+      fetched_at: '2026-07-21T15:20:57.255Z'
       bytes: 11934
 insights:
   summary: An MCP server providing line-oriented text file editing with partial file access for LLM tool integration.
-  why_it_matters: Enables efficient, token-conscious file editing for LLM-based developer tools by loading only relevant file portions.
-  mental_damage: Yet another MCP server that turns basic file I/O into a protocol negotiation, just so your LLM can pretend it’s a sysadmin.
+  why_it_matters: >-
+    Enables efficient, token-conscious file editing for LLM-based developer tools by loading only relevant file
+    portions.
+  mental_damage: >-
+    Yet another MCP server that turns basic file I/O into a protocol negotiation, just so your LLM can pretend it’s a
+    sysadmin.
   tags:
     - mcp
     - file-editing
@@ -65,31 +74,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP-first server providing standardized text editing capabilities, making MCP its core identity rather than a compatibility feature.
+  reason: >-
+    The project is an MCP-first server providing standardized text editing capabilities, making MCP its core identity
+    rather than a compatibility feature.
   evidence:
     - README explicitly states it is a 'Model Context Protocol (MCP) server' providing line-oriented text file editing
     - Designed for LLM tool integration with efficient partial file access to minimize token usage
     - Listed in MCP-specific directories like awesome-mcp-list and awesome-mcp-servers under Developer Tools
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (188) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.595Z"
+    updated_at: '2026-05-06T22:12:15.595Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:57.255Z"
+    updated_at: '2026-07-21T15:20:57.255Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:15:56.062Z"
+    updated_at: '2026-05-12T15:15:56.062Z'
     cause: null
     next_retry_at: null
     attempts: 1

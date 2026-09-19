@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gurupdf__gurupdf-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-22T05:53:30.454Z"
+      discovered_at: '2026-06-22T05:53:30.454Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📂 <a name="file-systems"></a>File Systems
         anchor_text: GuruPDF/gurupdf-mcp
         extracted_url: https://github.com/gurupdf/gurupdf-mcp
-        surrounding_text: "- [GuruPDF/gurupdf-mcp](https://github.com/GuruPDF/gurupdf-mcp) [![GuruPDF/gurupdf-mcp MCP server](https://glama.ai/mcp/servers/GuruPDF/gurupdf-mcp/badges/score.svg)](https://glama.ai/mcp/servers/GuruPDF/gurupdf-mcp) 📇 ☁️ - Convert, compress, merge, split, and OCR PDFs, plus convert between 100+ file formats (Word, Excel, PowerPoint, images, ebooks, video) from any AI agent. Backed by the GuruPDF API; free tier with daily credits, zero-config via `npx gurupdf-mcp`."
+        surrounding_text: >-
+          - [GuruPDF/gurupdf-mcp](https://github.com/GuruPDF/gurupdf-mcp) [![GuruPDF/gurupdf-mcp MCP
+          server](https://glama.ai/mcp/servers/GuruPDF/gurupdf-mcp/badges/score.svg)](https://glama.ai/mcp/servers/GuruPDF/gurupdf-mcp)
+          📇 ☁️ - Convert, compress, merge, split, and OCR PDFs, plus convert between 100+ file formats (Word, Excel,
+          PowerPoint, images, ebooks, video) from any AI agent. Backed by the GuruPDF API; free tier with daily credits,
+          zero-config via `npx gurupdf-mcp`.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: GuruPDF/gurupdf-mcp
     html_url: https://github.com/GuruPDF/gurupdf-mcp
-    created_at: "2026-06-15T23:31:20Z"
-    pushed_at: "2026-06-19T00:28:22Z"
-    description: Free MCP server to convert, compress & merge PDFs and 100+ file formats (Word, Excel, images, ebooks) from Claude, Cursor, VS Code & any AI agent. Powered by GuruPDF.
+    created_at: '2026-06-15T23:31:20Z'
+    pushed_at: '2026-06-19T00:28:22Z'
+    description: >-
+      Free MCP server to convert, compress & merge PDFs and 100+ file formats (Word, Excel, images, ebooks) from Claude,
+      Cursor, VS Code & any AI agent. Powered by GuruPDF.
     homepage: https://gurupdf.com
     topics:
       - ai-agent
@@ -53,14 +60,20 @@ metadata:
       - pdf-converter
       - pdf-to-word
       - typescript
-    last_checked_at: "2026-09-03T05:16:56.081Z"
+    last_checked_at: '2026-09-03T05:16:56.081Z'
     readme:
-      fetched_at: "2026-09-03T05:16:56.081Z"
+      fetched_at: '2026-09-03T05:16:56.081Z'
       bytes: 5440
 insights:
-  summary: A free MCP server that converts, compresses, merges, and edits PDFs and over 100 other file formats for Claude, Cursor, VS Code, and other AI agents.
-  why_it_matters: It lets developers delegate common document operations to an AI agent through a standard protocol, removing the need to switch contexts or upload files to separate converters.
-  mental_damage: It diligently converts your PDFs via a formal protocol, in case casually using an online converter felt too low-stakes for the agentic era.
+  summary: >-
+    A free MCP server that converts, compresses, merges, and edits PDFs and over 100 other file formats for Claude,
+    Cursor, VS Code, and other AI agents.
+  why_it_matters: >-
+    It lets developers delegate common document operations to an AI agent through a standard protocol, removing the need
+    to switch contexts or upload files to separate converters.
+  mental_damage: >-
+    It diligently converts your PDFs via a formal protocol, in case casually using an online converter felt too
+    low-stakes for the agentic era.
   tags:
     - mcp-server
     - pdf
@@ -70,31 +83,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product is an MCP server whose explicit identity is exposing document-conversion primitives to AI agents, fitting cleanly into MCP Servers & Tooling rather than a generic extension category.
+  reason: >-
+    The product is an MCP server whose explicit identity is exposing document-conversion primitives to AI agents,
+    fitting cleanly into MCP Servers & Tooling rather than a generic extension category.
   evidence:
     - Repo description and README brand it exclusively as a 'Model Context Protocol (MCP) server' for file conversion.
     - Listed in awesome-mcp-servers under File Systems, confirming its accepted role as MCP infrastructure.
-    - "Archived: no and recently pushed (2026-06-19), though it is very new with 0 stars."
+    - 'Archived: no and recently pushed (2026-06-19), though it is very new with 0 stars.'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-22T05:53:30.455Z"
+    updated_at: '2026-06-22T05:53:30.455Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:56.081Z"
+    updated_at: '2026-09-03T05:16:56.081Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-29T05:40:06.605Z"
+    updated_at: '2026-06-29T05:40:06.605Z'
     cause: null
     next_retry_at: null
     attempts: 1

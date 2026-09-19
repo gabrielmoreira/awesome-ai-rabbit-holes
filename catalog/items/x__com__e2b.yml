@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__x__com__e2b__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,9 @@ provenance:
           - Check out E2B - Code Interpreting for AI apps
         anchor_text: X (Twitter)
         extracted_url: https://twitter.com/e2b
-        surrounding_text: "- Contact us at [hello@e2b.dev](mailto:hello@e2b.dev) or [on Discord](https://discord.gg/35NF4Y8WSE). Follow us on [X (Twitter)](https://twitter.com/e2b)"
+        surrounding_text: >-
+          - Contact us at [hello@e2b.dev](mailto:hello@e2b.dev) or [on Discord](https://discord.gg/35NF4Y8WSE). Follow
+          us on [X (Twitter)](https://twitter.com/e2b)
         confidence: high
 metadata:
   github:
@@ -37,8 +39,12 @@ metadata:
     readme: null
 insights:
   summary: E2B provides cloud-based sandboxed compute environments for AI agents to execute code and tasks securely.
-  why_it_matters: Developers can offload agentic workloads to isolated, scalable sandboxes, enabling secure execution of untrusted code or multi-step workflows without local resource constraints.
-  mental_damage: Now your AI agent can spin up a billion sandboxes while you question whether any of them are actually doing useful work.
+  why_it_matters: >-
+    Developers can offload agentic workloads to isolated, scalable sandboxes, enabling secure execution of untrusted
+    code or multi-step workflows without local resource constraints.
+  mental_damage: >-
+    Now your AI agent can spin up a billion sandboxes while you question whether any of them are actually doing useful
+    work.
   tags:
     - sandboxing
     - agent-infrastructure
@@ -47,21 +53,26 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: E2B is primarily a code-first infrastructure provider for agent execution, fitting best as a framework/SDK-style abstraction for developers to integrate into their agent workflows.
+  reason: >-
+    E2B is primarily a code-first infrastructure provider for agent execution, fitting best as a framework/SDK-style
+    abstraction for developers to integrate into their agent workflows.
   evidence:
     - Source-list context describes it as 'Machines for AI agents' and 'Code Interpreting for AI apps'
-    - X profile and posts emphasize sandbox infrastructure for production AI agents (e.g., '1 billion sandboxes created on E2B')
+    - >-
+      X profile and posts emphasize sandbox infrastructure for production AI agents (e.g., '1 billion sandboxes created
+      on E2B')
     - Integrations with LangChain Open SWE and Stripe Projects position it as a backend service for agent tooling
 placement:
-  primary_category: ai-frameworks
-  section: Provider / Model Abstractions
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.670Z"
+    updated_at: '2026-05-06T22:12:15.670Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +81,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:39:35.973Z"
+    updated_at: '2026-07-21T15:39:35.973Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -83,14 +94,20 @@ processing:
       input_hash: sha256:01aba855e8d0c447bce22ac3e354e6fb4f0f49edc33f2daa101e29d7727605e0
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: E2B is primarily a code-first infrastructure provider for agent execution, fitting best as a framework/SDK-style abstraction for developers to integrate into their agent workflows.
+      decision_reason: >-
+        E2B is primarily a code-first infrastructure provider for agent execution, fitting best as a framework/SDK-style
+        abstraction for developers to integrate into their agent workflows.
       decision_evidence:
         - Source-list context describes it as 'Machines for AI agents' and 'Code Interpreting for AI apps'
-        - X profile and posts emphasize sandbox infrastructure for production AI agents (e.g., '1 billion sandboxes created on E2B')
+        - >-
+          X profile and posts emphasize sandbox infrastructure for production AI agents (e.g., '1 billion sandboxes
+          created on E2B')
         - Integrations with LangChain Open SWE and Stripe Projects position it as a backend service for agent tooling
       category_candidates:
         - ai-frameworks
         - agent-orchestration
-      contrastive_reason: Choose ai-frameworks over agent-orchestration because E2B is a provider abstraction (sandbox infrastructure) rather than a multi-agent coordination platform.
+      contrastive_reason: >-
+        Choose ai-frameworks over agent-orchestration because E2B is a provider abstraction (sandbox infrastructure)
+        rather than a multi-agent coordination platform.
       review_reason: null
       review_resume_lifecycle: null

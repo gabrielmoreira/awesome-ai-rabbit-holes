@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__eli64s__readme-ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,7 +19,9 @@ provenance:
           - Documentation
         anchor_text: README-AI
         extracted_url: https://github.com/eli64s/readme-ai
-        surrounding_text: "- **[README-AI](https://github.com/eli64s/readme-ai)** – AI tool for creating professional README files automatically."
+        surrounding_text: >-
+          - **[README-AI](https://github.com/eli64s/readme-ai)** – AI tool for creating professional README files
+          automatically.
         confidence: high
 metadata:
   github:
@@ -29,8 +31,8 @@ metadata:
     archived: false
     full_name: eli64s/readme-ai
     html_url: https://github.com/eli64s/readme-ai
-    created_at: "2023-01-16T19:47:17Z"
-    pushed_at: "2026-08-26T02:49:26Z"
+    created_at: '2023-01-16T19:47:17Z'
+    pushed_at: '2026-08-26T02:49:26Z'
     description: README file generator, powered by AI.
     homepage: https://eli64s.github.io/readme-ai/
     topics:
@@ -54,13 +56,15 @@ metadata:
       - readme-generator
       - readme-md-generator
       - readme-template
-    last_checked_at: "2026-08-27T09:23:22.834Z"
+    last_checked_at: '2026-08-27T09:23:22.834Z'
     readme:
-      fetched_at: "2026-08-27T09:23:22.834Z"
+      fetched_at: '2026-08-27T09:23:22.834Z'
       bytes: 40012
 insights:
   summary: A CLI tool that automatically generates README files for codebases using AI models.
-  why_it_matters: It automates the tedious task of writing and maintaining project documentation, saving developers time while enforcing consistency.
+  why_it_matters: >-
+    It automates the tedious task of writing and maintaining project documentation, saving developers time while
+    enforcing consistency.
   mental_damage: Now you can spend more time arguing about tabs vs. spaces in the generated README than actually writing it.
   tags:
     - documentation
@@ -71,33 +75,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a developer tool that augments the workflow around a codebase by automating documentation generation, fitting best as an extension-like workflow utility rather than a core coding agent.
+  reason: >-
+    This is a developer tool that augments the workflow around a codebase by automating documentation generation,
+    fitting best as an extension-like workflow utility rather than a core coding agent.
   evidence:
-    - "Repo description explicitly states: 'README file generator, powered by AI.'"
-    - "README states: 'generate README files using a robust repository processing engine and advanced language models.'"
+    - 'Repo description explicitly states: ''README file generator, powered by AI.'''
+    - 'README states: ''generate README files using a robust repository processing engine and advanced language models.'''
     - Source list context places it under 'Documentation' in awesome-ai-coding-tools.
 placement:
-  primary_category: ai-dev-extensions
-  section: null
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Terminal & CLI Agents
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'app-builders'"
+  reason: 'Categorization review required: placement disagreement: retained ''ai-dev-extensions'', proposed ''app-builders'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.612Z"
+    updated_at: '2026-05-06T22:12:15.612Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-14T04:13:47.851Z"
+    updated_at: '2026-09-14T04:13:47.851Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for eli64s/readme-ai
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:52:13.879Z"
+    updated_at: '2026-07-21T15:52:13.879Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -110,7 +117,9 @@ processing:
       input_hash: sha256:02c1b9fd4d06608835f4c36bb6ea84cb2eaecfd17366e0edc9bdfd76ccc042fe
       proposed_primary_category: app-builders
       disagreement: true
-      decision_reason: The tool's primary job is generating a new artifact (README) from prompts/context, fitting the prompt-to-scaffold pattern of App Builders rather than editing existing code.
+      decision_reason: >-
+        The tool's primary job is generating a new artifact (README) from prompts/context, fitting the
+        prompt-to-scaffold pattern of App Builders rather than editing existing code.
       decision_evidence:
         - Repo description explicitly states it is a 'README file generator, powered by AI'
         - README emphasizes 'automatically generates README files' as core functionality
@@ -118,6 +127,8 @@ processing:
       category_candidates:
         - app-builders
         - ai-frameworks
-      contrastive_reason: Choose app-builders over ai-frameworks because the product is a prompt-to-documentation generator rather than a code-first SDK or library.
-      review_reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'app-builders'"
+      contrastive_reason: >-
+        Choose app-builders over ai-frameworks because the product is a prompt-to-documentation generator rather than a
+        code-first SDK or library.
+      review_reason: 'Categorization review required: placement disagreement: retained ''ai-dev-extensions'', proposed ''app-builders'''
       review_resume_lifecycle: null

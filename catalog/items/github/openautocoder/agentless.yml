@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__openautocoder__agentless__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Open Source
         anchor_text: Agentless
         extracted_url: https://github.com/openautocoder/agentless
-        surrounding_text: "- **[Agentless](https://github.com/OpenAutoCoder/Agentless)** `⭐ 2k` — Lightweight approach to autonomous software engineering without persistent agent loops."
+        surrounding_text: >-
+          - **[Agentless](https://github.com/OpenAutoCoder/Agentless)** `⭐ 2k` — Lightweight approach to autonomous
+          software engineering without persistent agent loops.
         confidence: high
 metadata:
   github:
@@ -30,23 +32,29 @@ metadata:
     archived: false
     full_name: OpenAutoCoder/Agentless
     html_url: https://github.com/OpenAutoCoder/Agentless
-    created_at: "2024-06-30T23:37:17Z"
-    pushed_at: "2024-12-22T19:29:31Z"
-    description: "Agentless🐱:  an agentless approach to automatically solve software development problems"
-    homepage: ""
+    created_at: '2024-06-30T23:37:17Z'
+    pushed_at: '2024-12-22T19:29:31Z'
+    description: 'Agentless🐱:  an agentless approach to automatically solve software development problems'
+    homepage: ''
     topics:
       - agent
       - artificial-intelligence
       - llm
       - software-development
-    last_checked_at: "2026-07-20T16:42:25.537Z"
+    last_checked_at: '2026-07-20T16:42:25.537Z'
     readme:
-      fetched_at: "2026-07-20T16:42:25.537Z"
+      fetched_at: '2026-07-20T16:42:25.537Z'
       bytes: 4234
 insights:
-  summary: Agentless is a CLI-based system that automatically resolves software issues by localizing faults, generating candidate patches, and validating them against tests without using an agent loop.
-  why_it_matters: It demonstrates that a structured, agentless pipeline can solve SWE-bench issues at a lower cost than complex agent frameworks, challenging the assumption that multi-step agency is required for automated repair.
-  mental_damage: Just when you finished architecting your multi-agent swarm with three memory layers and a RAG pipeline, a simple three-step script shows up and fixes bugs for thirty-four cents a pop.
+  summary: >-
+    Agentless is a CLI-based system that automatically resolves software issues by localizing faults, generating
+    candidate patches, and validating them against tests without using an agent loop.
+  why_it_matters: >-
+    It demonstrates that a structured, agentless pipeline can solve SWE-bench issues at a lower cost than complex agent
+    frameworks, challenging the assumption that multi-step agency is required for automated repair.
+  mental_damage: >-
+    Just when you finished architecting your multi-agent swarm with three memory layers and a RAG pipeline, a simple
+    three-step script shows up and fixes bugs for thirty-four cents a pop.
   tags:
     - cli
     - automated-repair
@@ -55,35 +63,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a standalone CLI tool that autonomously plans, edits, tests, and repairs code across a repository, fitting the primary coding assistant definition for terminal agents.
+  reason: >-
+    It is a standalone CLI tool that autonomously plans, edits, tests, and repairs code across a repository, fitting the
+    primary coding assistant definition for terminal agents.
   evidence:
     - Repo description states it is 'an agentless approach to automatically solve software development problems'.
     - README details a three-phase process (localization, repair, patch validation) that edits files and runs tests.
     - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
 placement:
   primary_category: coding-agents
-  section: Terminal & CLI Agents
+  secondary_categories: []
+  section: Review, Testing & Repair
 lifecycle:
   status: promotion_candidate
   reason: Stars (2042) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.640Z"
+    updated_at: '2026-05-06T22:12:15.640Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:25.537Z"
+    updated_at: '2026-07-20T16:42:25.537Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

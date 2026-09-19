@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__openai__codex__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,12 @@ provenance:
           - Open Source
         anchor_text: Codex CLI
         extracted_url: https://github.com/openai/codex
-        surrounding_text: "- **[Codex CLI](https://github.com/openai/codex)** `⭐ 79.9k` `[OpenAI]` — OpenAI's local coding agent for reading/editing/running code, with an interactive TUI and tool execution. Apache-2.0."
+        surrounding_text: >-
+          - **[Codex CLI](https://github.com/openai/codex)** `⭐ 79.9k` `[OpenAI]` — OpenAI's local coding agent for
+          reading/editing/running code, with an interactive TUI and tool execution. Apache-2.0.
         confidence: high
     - id: discovery__github__openai__codex__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -45,19 +47,25 @@ metadata:
     archived: false
     full_name: openai/codex
     html_url: https://github.com/openai/codex
-    created_at: "2025-04-13T05:37:54Z"
-    pushed_at: "2026-07-20T16:30:01Z"
+    created_at: '2025-04-13T05:37:54Z'
+    pushed_at: '2026-07-20T16:30:01Z'
     description: Lightweight coding agent that runs in your terminal
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-20T16:42:25.226Z"
+    last_checked_at: '2026-07-20T16:42:25.226Z'
     readme:
-      fetched_at: "2026-07-20T16:42:25.226Z"
+      fetched_at: '2026-07-20T16:42:25.226Z'
       bytes: 2814
 insights:
-  summary: Codex is a lightweight, local coding agent from OpenAI that runs in your terminal and can also be integrated into IDEs like VS Code, Cursor, and Windsurf.
-  why_it_matters: It provides developers with a first-party, CLI-native agentic workflow directly from OpenAI that leverages ChatGPT subscriptions for code generation and editing.
-  mental_damage: Just when you had your terminal workflow perfectly configured with Claude Code, OpenAI drops a competing 80k-star CLI agent to ensure you never settle on a single prompt-to-code pipeline.
+  summary: >-
+    Codex is a lightweight, local coding agent from OpenAI that runs in your terminal and can also be integrated into
+    IDEs like VS Code, Cursor, and Windsurf.
+  why_it_matters: >-
+    It provides developers with a first-party, CLI-native agentic workflow directly from OpenAI that leverages ChatGPT
+    subscriptions for code generation and editing.
+  mental_damage: >-
+    Just when you had your terminal workflow perfectly configured with Claude Code, OpenAI drops a competing 80k-star
+    CLI agent to ensure you never settle on a single prompt-to-code pipeline.
   tags:
     - cli
     - coding-agent
@@ -67,13 +75,18 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The repository describes a developer-facing coding assistant designed to plan, write, and edit code directly in the terminal or IDE, fitting the primary identity of a coding agent.
+  reason: >-
+    The repository describes a developer-facing coding assistant designed to plan, write, and edit code directly in the
+    terminal or IDE, fitting the primary identity of a coding agent.
   evidence:
-    - "Repo description explicitly states: 'Lightweight coding agent that runs in your terminal'."
-    - README identifies it as 'a coding agent from OpenAI that runs locally on your computer' with IDE integration options.
+    - 'Repo description explicitly states: ''Lightweight coding agent that runs in your terminal''.'
+    - >-
+      README identifies it as 'a coding agent from OpenAI that runs locally on your computer' with IDE integration
+      options.
     - Included in the 'awesome-cli-coding-agents' list under the 'Terminal-native coding agents' section.
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -81,21 +94,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.591Z"
+    updated_at: '2026-05-06T22:12:15.591Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:25.226Z"
+    updated_at: '2026-07-20T16:42:25.226Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

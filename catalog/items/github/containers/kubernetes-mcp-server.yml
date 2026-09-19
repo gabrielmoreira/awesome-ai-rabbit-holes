@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__containers__kubernetes-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: manusa/Kubernetes MCP Server
         extracted_url: https://github.com/manusa/kubernetes-mcp-server
-        surrounding_text: "- [manusa/Kubernetes MCP Server](https://github.com/manusa/kubernetes-mcp-server) 🏎️ 🏠 A - powerful Kubernetes MCP server with additional support for OpenShift. Besides providing CRUD operations for **any** Kubernetes resource, this server provides specialized tools to interact with your cluster."
+        surrounding_text: >-
+          - [manusa/Kubernetes MCP Server](https://github.com/manusa/kubernetes-mcp-server) 🏎️ 🏠 A - powerful
+          Kubernetes MCP server with additional support for OpenShift. Besides providing CRUD operations for **any**
+          Kubernetes resource, this server provides specialized tools to interact with your cluster.
         confidence: high
     - id: discovery__github__containers__kubernetes-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,10 +38,13 @@ provenance:
           - ☁️ Cloud Platforms
         anchor_text: manusa/kubernetes-mcp-server
         extracted_url: https://github.com/manusa/kubernetes-mcp-server
-        surrounding_text: "-   **[manusa/kubernetes-mcp-server](https://github.com/manusa/kubernetes-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/manusa/kubernetes-mcp-server?style=social)](https://github.com/manusa/kubernetes-mcp-server): Manages Kubernetes and OpenShift with specialized cluster interaction tools (Java implementation)."
+        surrounding_text: >-
+          -   **[manusa/kubernetes-mcp-server](https://github.com/manusa/kubernetes-mcp-server)** [![GitHub
+          stars](https://img.shields.io/github/stars/manusa/kubernetes-mcp-server?style=social)](https://github.com/manusa/kubernetes-mcp-server):
+          Manages Kubernetes and OpenShift with specialized cluster interaction tools (Java implementation).
         confidence: high
     - id: discovery__github__containers__kubernetes-mcp-server__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -52,7 +58,9 @@ provenance:
           - Specialized Servers
         anchor_text: kubernetes-mcp-server
         extracted_url: https://github.com/containers/kubernetes-mcp-server
-        surrounding_text: "| [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | Kubernetes management | ![Stars](https://img.shields.io/github/stars/containers/kubernetes-mcp-server) |"
+        surrounding_text: >-
+          | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | Kubernetes management |
+          ![Stars](https://img.shields.io/github/stars/containers/kubernetes-mcp-server) |
         confidence: high
 metadata:
   github:
@@ -62,10 +70,10 @@ metadata:
     archived: false
     full_name: containers/kubernetes-mcp-server
     html_url: https://github.com/containers/kubernetes-mcp-server
-    created_at: "2025-02-11T02:57:36Z"
-    pushed_at: "2026-09-14T01:05:02Z"
+    created_at: '2025-02-11T02:57:36Z'
+    pushed_at: '2026-09-14T01:05:02Z'
     description: Model Context Protocol (MCP) server for Kubernetes and OpenShift
-    homepage: ""
+    homepage: ''
     topics:
       - containers
       - context
@@ -76,14 +84,20 @@ metadata:
       - modelcontextprotocol
       - openshift
       - protocol
-    last_checked_at: "2026-09-14T04:13:29.007Z"
+    last_checked_at: '2026-09-14T04:13:29.007Z'
     readme:
-      fetched_at: "2026-09-14T04:13:29.007Z"
+      fetched_at: '2026-09-14T04:13:29.007Z'
       bytes: 71360
 insights:
-  summary: An MCP server that exposes Kubernetes and OpenShift operations to AI assistants via native Go API calls instead of wrapping kubectl.
-  why_it_matters: It lets developers delegate pod logs, Helm charts, Tekton pipelines, and cluster CRUD to AI assistants without installing kubectl or other local dependencies.
-  mental_damage: Native Go performance means your coding assistant can delete namespaces with none of the comforting latency of wrapper scripts.
+  summary: >-
+    An MCP server that exposes Kubernetes and OpenShift operations to AI assistants via native Go API calls instead of
+    wrapping kubectl.
+  why_it_matters: >-
+    It lets developers delegate pod logs, Helm charts, Tekton pipelines, and cluster CRUD to AI assistants without
+    installing kubectl or other local dependencies.
+  mental_damage: >-
+    Native Go performance means your coding assistant can delete namespaces with none of the comforting latency of
+    wrapper scripts.
   tags:
     - mcp
     - kubernetes
@@ -93,31 +107,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product’s entire identity is a Model Context Protocol server implementation; it is built, distributed, and listed as domain-specific MCP infrastructure for Kubernetes.
+  reason: >-
+    The product’s entire identity is a Model Context Protocol server implementation; it is built, distributed, and
+    listed as domain-specific MCP infrastructure for Kubernetes.
   evidence:
     - Repo description explicitly identifies it as a 'Model Context Protocol (MCP) server for Kubernetes and OpenShift'.
-    - README states it is a 'Go-based native implementation' distributed as an MCP server via npm, PyPI, and native binaries.
+    - >-
+      README states it is a 'Go-based native implementation' distributed as an MCP server via npm, PyPI, and native
+      binaries.
     - Listed in awesome-mcp-servers and awesome-mcp-list under Cloud Platforms / Server Implementations.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (1532) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.577Z"
+    updated_at: '2026-05-06T22:12:15.577Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:29.007Z"
+    updated_at: '2026-09-14T04:13:29.007Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:48:08.184Z"
+    updated_at: '2026-07-21T15:48:08.184Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -130,14 +149,23 @@ processing:
       input_hash: sha256:6a1146b56c4f5c060fd266c432e811210c6276b8a7510c16824ab05456d294c6
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product’s entire identity is a Model Context Protocol server implementation; it is built, distributed, and listed as domain-specific MCP infrastructure for Kubernetes.
+      decision_reason: >-
+        The product’s entire identity is a Model Context Protocol server implementation; it is built, distributed, and
+        listed as domain-specific MCP infrastructure for Kubernetes.
       decision_evidence:
-        - Repo description explicitly identifies it as a 'Model Context Protocol (MCP) server for Kubernetes and OpenShift'.
-        - README states it is a 'Go-based native implementation' distributed as an MCP server via npm, PyPI, and native binaries.
+        - >-
+          Repo description explicitly identifies it as a 'Model Context Protocol (MCP) server for Kubernetes and
+          OpenShift'.
+        - >-
+          README states it is a 'Go-based native implementation' distributed as an MCP server via npm, PyPI, and native
+          binaries.
         - Listed in awesome-mcp-servers and awesome-mcp-list under Cloud Platforms / Server Implementations.
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the project is explicitly built as a first-party Model Context Protocol server implementation, making the protocol itself the product identity rather than a thin integration layer.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the project is explicitly built as a first-party Model Context
+        Protocol server implementation, making the protocol itself the product identity rather than a thin integration
+        layer.
       review_reason: null
       review_resume_lifecycle: null

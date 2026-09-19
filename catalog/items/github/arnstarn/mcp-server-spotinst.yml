@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__arnstarn__mcp-server-spotinst__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: arnstarn/mcp-server-spotinst
         extracted_url: https://github.com/arnstarn/mcp-server-spotinst
-        surrounding_text: "- [arnstarn/mcp-server-spotinst](https://github.com/arnstarn/mcp-server-spotinst) [![arnstarn/mcp-server-spotinst MCP server](https://glama.ai/mcp/servers/arnstarn/mcp-server-spotinst/badges/score.svg)](https://glama.ai/mcp/servers/arnstarn/mcp-server-spotinst) 🐍 ☁️ - MCP server for Spot.io (Spotinst) API with 23 tools for managing Ocean clusters, VNGs, Elastigroups, costs, right-sizing, and logs across AWS and Azure with multi-account support."
+        surrounding_text: >-
+          - [arnstarn/mcp-server-spotinst](https://github.com/arnstarn/mcp-server-spotinst)
+          [![arnstarn/mcp-server-spotinst MCP
+          server](https://glama.ai/mcp/servers/arnstarn/mcp-server-spotinst/badges/score.svg)](https://glama.ai/mcp/servers/arnstarn/mcp-server-spotinst)
+          🐍 ☁️ - MCP server for Spot.io (Spotinst) API with 23 tools for managing Ocean clusters, VNGs, Elastigroups,
+          costs, right-sizing, and logs across AWS and Azure with multi-account support.
         confidence: high
 metadata:
   github:
@@ -30,18 +35,24 @@ metadata:
     archived: false
     full_name: arnstarn/mcp-server-spotinst
     html_url: https://github.com/arnstarn/mcp-server-spotinst
-    created_at: "2026-03-21T00:33:02Z"
-    pushed_at: "2026-05-05T14:23:05Z"
-    description: MCP server for Spot.io (Spotinst) API - Ocean clusters, VNGs, Elastigroups, costs, right-sizing across AWS and Azure
+    created_at: '2026-03-21T00:33:02Z'
+    pushed_at: '2026-05-05T14:23:05Z'
+    description: >-
+      MCP server for Spot.io (Spotinst) API - Ocean clusters, VNGs, Elastigroups, costs, right-sizing across AWS and
+      Azure
     homepage: null
     topics: []
-    last_checked_at: "2026-09-10T04:12:59.202Z"
+    last_checked_at: '2026-09-10T04:12:59.202Z'
     readme:
-      fetched_at: "2026-09-10T04:12:59.202Z"
+      fetched_at: '2026-09-10T04:12:59.202Z'
       bytes: 6101
 insights:
-  summary: MCP server for the Spot.io (Spotinst) API, providing tools to manage Ocean clusters, VNGs, Elastigroups, costs, and right-sizing across AWS and Azure.
-  why_it_matters: Developers can integrate Spotinst infrastructure management directly into their MCP-enabled workflows, enabling programmatic control of cloud resources from their coding environment.
+  summary: >-
+    MCP server for the Spot.io (Spotinst) API, providing tools to manage Ocean clusters, VNGs, Elastigroups, costs, and
+    right-sizing across AWS and Azure.
+  why_it_matters: >-
+    Developers can integrate Spotinst infrastructure management directly into their MCP-enabled workflows, enabling
+    programmatic control of cloud resources from their coding environment.
   mental_damage: Now you can drain and replace Kubernetes nodes from the same prompt where you’re debugging your microservice.
   tags:
     - mcp
@@ -59,24 +70,25 @@ curation:
     - Listed in awesome-mcp-servers under Cloud Platforms
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.603Z"
+    updated_at: '2026-05-06T22:12:15.603Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:12:59.202Z"
+    updated_at: '2026-09-10T04:12:59.202Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:24:04.049Z"
+    updated_at: '2026-07-21T15:24:04.049Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -97,6 +109,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server, not an extension layer for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server, not an extension layer for another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

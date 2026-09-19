@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__one8943__ai-furniture-hub__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🛒 <a name="e-commerce"></a>E-Commerce
         anchor_text: ONE8943/ai-furniture-hub
         extracted_url: https://github.com/one8943/ai-furniture-hub
-        surrounding_text: "- [ONE8943/ai-furniture-hub](https://github.com/ONE8943/ai-furniture-hub) [![ONE8943/ai-furniture-hub MCP server](https://glama.ai/mcp/servers/ONE8943/ai-furniture-hub/badges/score.svg)](https://glama.ai/mcp/servers/ONE8943/ai-furniture-hub) 📇 ☁️ 🏠 🍎 🪟 🐧 - Japan-focused furniture & home product hub for AI agents. 15 tools for mm-precision search across 300+ products and 31 categories, curated sets (bundles, room presets, influencer picks), dimension-compatible replacement finder with fit_score, AI visibility diagnosis, Rakuten live API, and OpenAPI 3.1 schema. Install via `npx ai-furniture-hub`."
+        surrounding_text: >-
+          - [ONE8943/ai-furniture-hub](https://github.com/ONE8943/ai-furniture-hub) [![ONE8943/ai-furniture-hub MCP
+          server](https://glama.ai/mcp/servers/ONE8943/ai-furniture-hub/badges/score.svg)](https://glama.ai/mcp/servers/ONE8943/ai-furniture-hub)
+          📇 ☁️ 🏠 🍎 🪟 🐧 - Japan-focused furniture & home product hub for AI agents. 15 tools for mm-precision search
+          across 300+ products and 31 categories, curated sets (bundles, room presets, influencer picks),
+          dimension-compatible replacement finder with fit_score, AI visibility diagnosis, Rakuten live API, and OpenAPI
+          3.1 schema. Install via `npx ai-furniture-hub`.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,12 @@ metadata:
     archived: false
     full_name: ONE8943/ai-furniture-hub
     html_url: https://github.com/ONE8943/ai-furniture-hub
-    created_at: "2026-04-10T05:37:45Z"
-    pushed_at: "2026-04-16T15:36:06Z"
-    description: "MCP server for AI agents: 15 tools, 300+ products, 31 categories. mm-precision furniture search, curated sets, replacement finder with fit_score, AI visibility diagnosis, OpenAPI 3.1, Rakuten live API. Japan home & lifestyle hub."
+    created_at: '2026-04-10T05:37:45Z'
+    pushed_at: '2026-04-16T15:36:06Z'
+    description: >-
+      MCP server for AI agents: 15 tools, 300+ products, 31 categories. mm-precision furniture search, curated sets,
+      replacement finder with fit_score, AI visibility diagnosis, OpenAPI 3.1, Rakuten live API. Japan home & lifestyle
+      hub.
     homepage: https://ai-furniture-hub.onrender.com
     topics:
       - affiliate
@@ -52,14 +61,20 @@ metadata:
       - product-search
       - rakuten
       - smart-home
-    last_checked_at: "2026-07-20T16:42:24.289Z"
+    last_checked_at: '2026-07-20T16:42:24.289Z'
     readme:
-      fetched_at: "2026-07-20T16:42:24.289Z"
+      fetched_at: '2026-07-20T16:42:24.289Z'
       bytes: 11125
 insights:
-  summary: An MCP server providing 15 tools for millimeter-precise furniture and home product search, curation, and replacement finding via the Rakuten API for AI agents.
-  why_it_matters: It gives MCP-compatible coding agents and IDEs structured, machine-optimized product data and spatial reasoning tools without forcing developers to build e-commerce scrapers.
-  mental_damage: We have finally reached the singularity where your coding agent can debate millimeter tolerances for a shoe rack while your sprint board gathers dust.
+  summary: >-
+    An MCP server providing 15 tools for millimeter-precise furniture and home product search, curation, and replacement
+    finding via the Rakuten API for AI agents.
+  why_it_matters: >-
+    It gives MCP-compatible coding agents and IDEs structured, machine-optimized product data and spatial reasoning
+    tools without forcing developers to build e-commerce scrapers.
+  mental_damage: >-
+    We have finally reached the singularity where your coding agent can debate millimeter tolerances for a shoe rack
+    while your sprint board gathers dust.
   tags:
     - mcp
     - e-commerce
@@ -69,35 +84,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly built as an MCP server with 15 tools and a remote endpoint, making MCP its primary identity rather than an integration or framework.
+  reason: >-
+    The product is explicitly built as an MCP server with 15 tools and a remote endpoint, making MCP its primary
+    identity rather than an integration or framework.
   evidence:
-    - "Repo description states: 'MCP server for AI agents: 15 tools, 300+ products'"
-    - README confirms remote MCP endpoint at /mcp and lists 15 specific tools like search_products and diagnose_ai_visibility
+    - 'Repo description states: ''MCP server for AI agents: 15 tools, 300+ products'''
+    - >-
+      README confirms remote MCP endpoint at /mcp and lists 15 specific tools like search_products and
+      diagnose_ai_visibility
     - Found in awesome-mcp-servers under Server Implementations > E-Commerce
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.639Z"
+    updated_at: '2026-05-06T22:12:15.639Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:24.289Z"
+    updated_at: '2026-07-20T16:42:24.289Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pskill9__website-downloader__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: pskill9/website-downloader
         extracted_url: https://github.com/pskill9/website-downloader
-        surrounding_text: "- [pskill9/website-downloader](https://github.com/pskill9/website-downloader) 🗄️ 🚀 - This MCP server provides a tool to download entire websites using wget. It preserves the website structure and converts links to work locally."
+        surrounding_text: >-
+          - [pskill9/website-downloader](https://github.com/pskill9/website-downloader) 🗄️ 🚀 - This MCP server
+          provides a tool to download entire websites using wget. It preserves the website structure and converts links
+          to work locally.
         confidence: high
     - id: discovery__github__pskill9__website-downloader__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -33,9 +36,12 @@ provenance:
         mode: parsed
         section_path:
           - 🛠️ Utilities
-        anchor_text: "@pskill9/website-downloader"
+        anchor_text: '@pskill9/website-downloader'
         extracted_url: https://github.com/pskill9/website-downloader
-        surrounding_text: "-   **[@pskill9/website-downloader](https://github.com/pskill9/website-downloader)** [![GitHub stars](https://img.shields.io/github/stars/pskill9/website-downloader?style=social)](https://github.com/pskill9/website-downloader): Downloads entire websites using wget, preserving structure."
+        surrounding_text: >-
+          -   **[@pskill9/website-downloader](https://github.com/pskill9/website-downloader)** [![GitHub
+          stars](https://img.shields.io/github/stars/pskill9/website-downloader?style=social)](https://github.com/pskill9/website-downloader):
+          Downloads entire websites using wget, preserving structure.
         confidence: high
 metadata:
   github:
@@ -45,19 +51,25 @@ metadata:
     archived: false
     full_name: pskill9/website-downloader
     html_url: https://github.com/pskill9/website-downloader
-    created_at: "2024-12-23T23:41:16Z"
-    pushed_at: "2024-12-24T20:29:17Z"
+    created_at: '2024-12-23T23:41:16Z'
+    pushed_at: '2024-12-24T20:29:17Z'
     description: MCP server to download entire websites
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:38.275Z"
+    last_checked_at: '2026-07-20T16:42:38.275Z'
     readme:
-      fetched_at: "2026-07-20T16:42:38.275Z"
+      fetched_at: '2026-07-20T16:42:38.275Z'
       bytes: 2048
 insights:
-  summary: An MCP server that wraps wget to download and localize entire websites for use as a tool by MCP-compatible coding assistants.
-  why_it_matters: It gives agents a standardized way to snapshot web documentation and live examples locally, turning the unpredictable open web into a stable, offline context source.
-  mental_damage: We have successfully built infrastructure so your coding agent can recursively wget the internet, because apparently the solution to context engineering was always just downloading the whole site.
+  summary: >-
+    An MCP server that wraps wget to download and localize entire websites for use as a tool by MCP-compatible coding
+    assistants.
+  why_it_matters: >-
+    It gives agents a standardized way to snapshot web documentation and live examples locally, turning the
+    unpredictable open web into a stable, offline context source.
+  mental_damage: >-
+    We have successfully built infrastructure so your coding agent can recursively wget the internet, because apparently
+    the solution to context engineering was always just downloading the whole site.
   tags:
     - mcp
     - web-scraping
@@ -66,35 +78,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server that exposes website downloading as a tool, exactly matching the MCP Servers & Tooling category.
+  reason: >-
+    The product's identity is an MCP server that exposes website downloading as a tool, exactly matching the MCP Servers
+    & Tooling category.
   evidence:
-    - "Repo description explicitly states: 'MCP server to download entire websites'"
+    - 'Repo description explicitly states: ''MCP server to download entire websites'''
     - README confirms it is an MCP server providing a download_website tool using wget
     - Listed in awesome-mcp-list (Utilities) and awesome-mcp-servers (Developer Tools)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: promotion_candidate
   reason: Stars (154) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.592Z"
+    updated_at: '2026-05-06T22:12:15.592Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:38.275Z"
+    updated_at: '2026-07-20T16:42:38.275Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

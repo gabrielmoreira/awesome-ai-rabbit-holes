@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kalmuraee__openmagic__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,7 +19,10 @@ provenance:
           - Coding Agents
         anchor_text: OpenMagic
         extracted_url: https://github.com/kalmuraee/openmagic
-        surrounding_text: "- **[OpenMagic](https://github.com/Kalmuraee/OpenMagic)** – AI-powered coding toolbar for any web app. Injects a floating toolbar via reverse proxy, captures element context, previews diffs, and applies approved changes in real time."
+        surrounding_text: >-
+          - **[OpenMagic](https://github.com/Kalmuraee/OpenMagic)** – AI-powered coding toolbar for any web app. Injects
+          a floating toolbar via reverse proxy, captures element context, previews diffs, and applies approved changes
+          in real time.
         confidence: high
 metadata:
   github:
@@ -29,9 +32,12 @@ metadata:
     archived: false
     full_name: Kalmuraee/OpenMagic
     html_url: https://github.com/Kalmuraee/OpenMagic
-    created_at: "2026-03-26T09:46:53Z"
-    pushed_at: "2026-07-18T04:02:37Z"
-    description: AI coding toolbar for any web app — run npx openmagic, select any element, describe a change, review the diff, and it edits your real source code (verified & self-correcting). Visual element editor + AI UI/UX design review. 14 LLM providers (OpenAI, Claude, Gemini…), BYOK, MIT.
+    created_at: '2026-03-26T09:46:53Z'
+    pushed_at: '2026-07-18T04:02:37Z'
+    description: >-
+      AI coding toolbar for any web app — run npx openmagic, select any element, describe a change, review the diff, and
+      it edits your real source code (verified & self-correcting). Visual element editor + AI UI/UX design review. 14
+      LLM providers (OpenAI, Claude, Gemini…), BYOK, MIT.
     homepage: https://kalmuraee.github.io/OpenMagic/
     topics:
       - ai
@@ -54,13 +60,17 @@ metadata:
       - vibe-coding
       - vue
       - web-development
-    last_checked_at: "2026-07-30T05:05:54.359Z"
+    last_checked_at: '2026-07-30T05:05:54.359Z'
     readme:
-      fetched_at: "2026-07-30T05:05:54.359Z"
+      fetched_at: '2026-07-30T05:05:54.359Z'
       bytes: 14352
 insights:
-  summary: OpenMagic is an AI coding toolbar that injects into any web app via a reverse proxy, allowing developers to select elements, describe changes, review diffs, and edit source code directly.
-  why_it_matters: It enables in-context, visual editing of web apps without IDE plugins or framework-specific tooling, streamlining UI/UX tweaks and code modifications.
+  summary: >-
+    OpenMagic is an AI coding toolbar that injects into any web app via a reverse proxy, allowing developers to select
+    elements, describe changes, review diffs, and edit source code directly.
+  why_it_matters: >-
+    It enables in-context, visual editing of web apps without IDE plugins or framework-specific tooling, streamlining
+    UI/UX tweaks and code modifications.
   mental_damage: Finally, a way to edit your app while pretending you’re just browsing it.
   tags:
     - ai-coding
@@ -71,31 +81,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: OpenMagic acts as a primary coding assistant that directly reads, plans, and edits code in a developer's repo via a visual interface, fitting the core definition of a coding agent.
+  reason: >-
+    OpenMagic acts as a primary coding assistant that directly reads, plans, and edits code in a developer's repo via a
+    visual interface, fitting the core definition of a coding agent.
   evidence:
     - Repo description explicitly states it is an 'AI coding toolbar' for editing real source code
-    - "README details workflow: select element, describe change, review diff, approve edits"
+    - 'README details workflow: select element, describe change, review diff, approve edits'
     - Operates as a standalone assistant (not an extension for another tool) with its own reverse proxy and file I/O
 placement:
   primary_category: coding-agents
-  section: Browser/Desktop/Computer-Use Agents
+  secondary_categories: []
+  section: Browser & Computer-Use Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.623Z"
+    updated_at: '2026-05-06T22:12:15.623Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:54.359Z"
+    updated_at: '2026-07-30T05:05:54.359Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:11:49.424Z"
+    updated_at: '2026-07-21T16:11:49.424Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -108,14 +121,18 @@ processing:
       input_hash: sha256:e8dfd2d5133e304740e350c78ab3c1d6dc365df7a021f87a634bb8361109bd6c
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: OpenMagic acts as a primary coding assistant that directly reads, plans, and edits code in a developer's repo via a visual interface, fitting the core definition of a coding agent.
+      decision_reason: >-
+        OpenMagic acts as a primary coding assistant that directly reads, plans, and edits code in a developer's repo
+        via a visual interface, fitting the core definition of a coding agent.
       decision_evidence:
         - Repo description explicitly states it is an 'AI coding toolbar' for editing real source code
-        - "README details workflow: select element, describe change, review diff, approve edits"
+        - 'README details workflow: select element, describe change, review diff, approve edits'
         - Operates as a standalone assistant (not an extension for another tool) with its own reverse proxy and file I/O
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because OpenMagic is the primary assistant performing code edits, not merely augmenting another assistant or editor.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because OpenMagic is the primary assistant performing code edits,
+        not merely augmenting another assistant or editor.
       review_reason: null
       review_resume_lifecycle: null

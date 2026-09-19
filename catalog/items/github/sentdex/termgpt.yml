@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sentdex__termgpt__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -19,7 +19,9 @@ provenance:
           - Other LLM Frameworks
         anchor_text: TermGPT
         extracted_url: https://github.com/sentdex/termgpt
-        surrounding_text: "- [TermGPT](https://github.com/Sentdex/TermGPT): Giving LLMs like GPT-4 the ability to plan and execute terminal commands ![GitHub Repo stars](https://img.shields.io/github/stars/Sentdex/TermGPT?style=social)"
+        surrounding_text: >-
+          - [TermGPT](https://github.com/Sentdex/TermGPT): Giving LLMs like GPT-4 the ability to plan and execute
+          terminal commands ![GitHub Repo stars](https://img.shields.io/github/stars/Sentdex/TermGPT?style=social)
         confidence: high
 metadata:
   github:
@@ -29,19 +31,25 @@ metadata:
     archived: false
     full_name: Sentdex/TermGPT
     html_url: https://github.com/Sentdex/TermGPT
-    created_at: "2023-06-03T16:39:05Z"
-    pushed_at: "2023-07-20T07:07:48Z"
+    created_at: '2023-06-03T16:39:05Z'
+    pushed_at: '2023-07-20T07:07:48Z'
     description: Giving LLMs like GPT-4 the ability to plan and execute terminal commands
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:53.884Z"
+    last_checked_at: '2026-07-20T16:42:53.884Z'
     readme:
-      fetched_at: "2026-07-20T16:42:53.884Z"
+      fetched_at: '2026-07-20T16:42:53.884Z'
       bytes: 1359
 insights:
-  summary: A Python CLI tool that uses GPT-4 to plan and execute terminal commands to fulfill natural language programming requests.
-  why_it_matters: It lets developers describe a goal in plain English and delegates the research, file manipulation, and command execution to an LLM with a human approval step.
-  mental_damage: We have finally automated the part of the job where you type things into a black box and hope they don't `rm -rf` your project, provided you trust the bold red text.
+  summary: >-
+    A Python CLI tool that uses GPT-4 to plan and execute terminal commands to fulfill natural language programming
+    requests.
+  why_it_matters: >-
+    It lets developers describe a goal in plain English and delegates the research, file manipulation, and command
+    execution to an LLM with a human approval step.
+  mental_damage: >-
+    We have finally automated the part of the job where you type things into a black box and hope they don't `rm -rf`
+    your project, provided you trust the bold red text.
   tags:
     - cli
     - terminal
@@ -51,13 +59,18 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: This is a standalone CLI coding agent that plans and executes terminal commands to fulfill development tasks, fitting the definition of a primary coding assistant.
+  reason: >-
+    This is a standalone CLI coding agent that plans and executes terminal commands to fulfill development tasks,
+    fitting the definition of a primary coding assistant.
   evidence:
     - Repo description states it gives LLMs the ability to 'plan and execute terminal commands'.
-    - README explains the script queries GPT-4 for a series of terminal commands to achieve a programming objective, then asks user approval.
+    - >-
+      README explains the script queries GPT-4 for a series of terminal commands to achieve a programming objective,
+      then asks user approval.
     - Listed in awesome-langchain under 'Other LLM Frameworks', confirming its identity as a developer tool.
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -65,21 +78,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.647Z"
+    updated_at: '2026-05-06T22:12:15.647Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:53.884Z"
+    updated_at: '2026-07-20T16:42:53.884Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

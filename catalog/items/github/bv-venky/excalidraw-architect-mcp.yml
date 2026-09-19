@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bv-venky__excalidraw-architect-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 📐 <a name="architecture-and-design"></a>Architecture & Design
         anchor_text: BV-Venky/excalidraw-architect-mcp
         extracted_url: https://github.com/bv-venky/excalidraw-architect-mcp
-        surrounding_text: "- [BV-Venky/excalidraw-architect-mcp](https://github.com/BV-Venky/excalidraw-architect-mcp) [![excalidraw-architect-mcp MCP server](https://glama.ai/mcp/servers/@BV-Venky/excalidraw-architect-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@BV-Venky/excalidraw-architect-mcp) 🐍 🏠 🍎 🪟 🐧 - Generate beautiful Excalidraw architecture diagrams with auto-layout, architecture-aware component styling, and stateful editing. 50+ technology mappings including databases, message queues, caches, and more. No API keys required."
+        surrounding_text: >-
+          - [BV-Venky/excalidraw-architect-mcp](https://github.com/BV-Venky/excalidraw-architect-mcp)
+          [![excalidraw-architect-mcp MCP
+          server](https://glama.ai/mcp/servers/@BV-Venky/excalidraw-architect-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@BV-Venky/excalidraw-architect-mcp)
+          🐍 🏠 🍎 🪟 🐧 - Generate beautiful Excalidraw architecture diagrams with auto-layout, architecture-aware
+          component styling, and stateful editing. 50+ technology mappings including databases, message queues, caches,
+          and more. No API keys required.
         confidence: high
 metadata:
   github:
@@ -30,10 +36,12 @@ metadata:
     archived: false
     full_name: BV-Venky/excalidraw-architect-mcp
     html_url: https://github.com/BV-Venky/excalidraw-architect-mcp
-    created_at: "2026-03-05T17:40:40Z"
-    pushed_at: "2026-08-25T19:10:17Z"
-    description: Turn your architecture into a living, queryable knowledge graph - and render it as beautiful auto-laid-out Excalidraw diagrams. An MCP server for Cursor, Claude Code & Windsurf. Offline, no API keys.
-    homepage: ""
+    created_at: '2026-03-05T17:40:40Z'
+    pushed_at: '2026-08-25T19:10:17Z'
+    description: >-
+      Turn your architecture into a living, queryable knowledge graph - and render it as beautiful auto-laid-out
+      Excalidraw diagrams. An MCP server for Cursor, Claude Code & Windsurf. Offline, no API keys.
+    homepage: ''
     topics:
       - ai
       - antigravity
@@ -53,13 +61,17 @@ metadata:
       - productivity
       - skills
       - windsurf
-    last_checked_at: "2026-09-07T04:13:39.380Z"
+    last_checked_at: '2026-09-07T04:13:39.380Z'
     readme:
-      fetched_at: "2026-09-07T04:13:39.380Z"
+      fetched_at: '2026-09-07T04:13:39.380Z'
       bytes: 24665
 insights:
-  summary: An MCP server that turns architecture descriptions into auto-laid-out Excalidraw diagrams for Cursor, Claude Code, and Windsurf, running offline without API keys.
-  why_it_matters: Developers can generate, edit, and maintain architecture diagrams with natural language while the tool handles layout and styling, reducing manual diagram maintenance.
+  summary: >-
+    An MCP server that turns architecture descriptions into auto-laid-out Excalidraw diagrams for Cursor, Claude Code,
+    and Windsurf, running offline without API keys.
+  why_it_matters: >-
+    Developers can generate, edit, and maintain architecture diagrams with natural language while the tool handles
+    layout and styling, reducing manual diagram maintenance.
   mental_damage: Finally, a way to stop arguing about box placement in architecture diagrams and let the algorithm take the blame.
   tags:
     - mcp-server
@@ -70,31 +82,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is explicitly an MCP server for architecture visualization, not just an MCP-compatible tool."
+  reason: >-
+    MCP is the product identity: this is explicitly an MCP server for architecture visualization, not just an
+    MCP-compatible tool.
   evidence:
     - Repo description identifies it as 'An MCP server for Cursor, Claude Code & Windsurf'
     - README emphasizes MCP integration and offline operation
     - Listed in awesome-mcp-servers under Architecture & Design
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.606Z"
+    updated_at: '2026-05-06T22:12:15.606Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:39.380Z"
+    updated_at: '2026-09-07T04:13:39.380Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:34:38.806Z"
+    updated_at: '2026-07-21T15:34:38.806Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -107,7 +122,9 @@ processing:
       input_hash: sha256:e087a00f78bae96486f901b26c2d0c2e1be6efe3b16eca9a19684120ca549fcd
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is explicitly an MCP server for architecture visualization, not just an MCP-compatible tool."
+      decision_reason: >-
+        MCP is the product identity: this is explicitly an MCP server for architecture visualization, not just an
+        MCP-compatible tool.
       decision_evidence:
         - Repo description identifies it as 'An MCP server for Cursor, Claude Code & Windsurf'
         - README emphasizes MCP integration and offline operation
@@ -115,6 +132,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not just an extension for another assistant).
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server (not just an extension for another
+        assistant).
       review_reason: null
       review_resume_lifecycle: null

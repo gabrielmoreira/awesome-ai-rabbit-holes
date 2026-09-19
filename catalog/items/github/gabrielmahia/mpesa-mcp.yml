@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gabrielmahia__mpesa-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: gabrielmahia/mpesa-mcp
         extracted_url: https://github.com/gabrielmahia/mpesa-mcp
-        surrounding_text: "- [gabrielmahia/mpesa-mcp](https://github.com/gabrielmahia/mpesa-mcp) [![gabrielmahia/mpesa-mcp MCP server](https://glama.ai/mcp/servers/gabrielmahia/mpesa-mcp/badges/score.svg)](https://glama.ai/mcp/servers/gabrielmahia/mpesa-mcp) 🐍 ☁️ - First MCP server for M-PESA (Safaricom Daraja API) — STK push, B2C payments, balance queries, transaction status, SIM swap detection, Bill Manager, and 16 more tools for Kenya's 35M+ mobile money users. `pip install mpesa-mcp`."
+        surrounding_text: >-
+          - [gabrielmahia/mpesa-mcp](https://github.com/gabrielmahia/mpesa-mcp) [![gabrielmahia/mpesa-mcp MCP
+          server](https://glama.ai/mcp/servers/gabrielmahia/mpesa-mcp/badges/score.svg)](https://glama.ai/mcp/servers/gabrielmahia/mpesa-mcp)
+          🐍 ☁️ - First MCP server for M-PESA (Safaricom Daraja API) — STK push, B2C payments, balance queries,
+          transaction status, SIM swap detection, Bill Manager, and 16 more tools for Kenya's 35M+ mobile money users.
+          `pip install mpesa-mcp`.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: gabrielmahia/mpesa-mcp
     html_url: https://github.com/gabrielmahia/mpesa-mcp
-    created_at: "2026-03-10T10:39:16Z"
-    pushed_at: "2026-08-31T11:52:42Z"
+    created_at: '2026-03-10T10:39:16Z'
+    pushed_at: '2026-08-31T11:52:42Z'
     description: MCP server for M-PESA Daraja API — STK push, B2C, balance, status. 7 tools.
     homepage: https://pypi.org/project/mpesa-mcp/
     topics:
@@ -46,14 +51,20 @@ metadata:
       - open-source
       - python
       - swahili
-    last_checked_at: "2026-09-03T05:16:45.753Z"
+    last_checked_at: '2026-09-03T05:16:45.753Z'
     readme:
-      fetched_at: "2026-09-03T05:16:45.753Z"
+      fetched_at: '2026-09-03T05:16:45.753Z'
       bytes: 14487
 insights:
-  summary: An MCP server that enables AI agents to integrate with M-Pesa (Safaricom Daraja) and Africa's Talking for mobile payments and SMS.
-  why_it_matters: It allows developers to build agents that can trigger actual financial transactions and communicate via SMS/USSD in African markets without writing custom API boilerplate.
-  mental_damage: The realization that your LLM is now authorized to send real money and bulk SMS to 20+ countries based on a single prompt.
+  summary: >-
+    An MCP server that enables AI agents to integrate with M-Pesa (Safaricom Daraja) and Africa's Talking for mobile
+    payments and SMS.
+  why_it_matters: >-
+    It allows developers to build agents that can trigger actual financial transactions and communicate via SMS/USSD in
+    African markets without writing custom API boilerplate.
+  mental_damage: >-
+    The realization that your LLM is now authorized to send real money and bulk SMS to 20+ countries based on a single
+    prompt.
   tags:
     - mcp
     - fintech
@@ -63,31 +74,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's core identity is a Model Context Protocol server providing domain-specific tools for a specific set of APIs.
+  reason: >-
+    The project's core identity is a Model Context Protocol server providing domain-specific tools for a specific set of
+    APIs.
   evidence:
     - Repo description explicitly calls it an 'MCP server for M-Pesa'
     - README focuses entirely on MCP tool definitions like `mpesa_stk_push` and `sms_send`
     - Provides configuration instructions specifically for Claude Desktop and Claude Code MCP setups
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-15T05:51:04.989Z"
+    updated_at: '2026-06-15T05:51:04.989Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:45.753Z"
+    updated_at: '2026-09-03T05:16:45.753Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-25T05:28:08.769Z"
+    updated_at: '2026-06-25T05:28:08.769Z'
     cause: null
     next_retry_at: null
     attempts: 1

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hypersigilhq__hypersigil__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,10 @@ provenance:
           - LLMOps
         anchor_text: Hypersigil
         extracted_url: https://github.com/hypersigilhq/hypersigil
-        surrounding_text: "| [Hypersigil](https://github.com/hypersigilhq/hypersigil)           | Open-source prompt lifecycle management and gateway with a Web UI.                         | ![GitHub Badge](https://img.shields.io/github/stars/hypersigilhq/hypersigil.svg?style=flat-square)        |"
+        surrounding_text: >-
+          | [Hypersigil](https://github.com/hypersigilhq/hypersigil)           | Open-source prompt lifecycle management
+          and gateway with a Web UI.                         | ![GitHub
+          Badge](https://img.shields.io/github/stars/hypersigilhq/hypersigil.svg?style=flat-square)        |
         confidence: high
 metadata:
   github:
@@ -29,9 +32,11 @@ metadata:
     archived: false
     full_name: hypersigilhq/hypersigil
     html_url: https://github.com/hypersigilhq/hypersigil
-    created_at: "2025-07-24T10:28:04Z"
-    pushed_at: "2026-04-17T13:20:42Z"
-    description: Prompt management gateway with a UI for AI-powered applications. Enables non-technical users to test, refine, and deploy prompts seamlessly across multiple AI providers.
+    created_at: '2025-07-24T10:28:04Z'
+    pushed_at: '2026-04-17T13:20:42Z'
+    description: >-
+      Prompt management gateway with a UI for AI-powered applications. Enables non-technical users to test, refine, and
+      deploy prompts seamlessly across multiple AI providers.
     homepage: https://hypersigilhq.github.io/hypersigil/introduction/
     topics:
       - llm
@@ -40,13 +45,15 @@ metadata:
       - prompt-engineering
       - prompt-toolkit
       - prompt-tuning
-    last_checked_at: "2026-07-30T05:05:41.278Z"
+    last_checked_at: '2026-07-30T05:05:41.278Z'
     readme:
-      fetched_at: "2026-07-30T05:05:41.278Z"
+      fetched_at: '2026-07-30T05:05:41.278Z'
       bytes: 9828
 insights:
   summary: Prompt management gateway with a UI for centralizing, testing, and deploying prompts across multiple AI providers.
-  why_it_matters: Enables teams to iterate on AI workflows without code redeployments, bridging domain expertise and AI implementation.
+  why_it_matters: >-
+    Enables teams to iterate on AI workflows without code redeployments, bridging domain expertise and AI
+    implementation.
   mental_damage: Finally, a way to hot-swap prompts like you hot-swap your existential dread about prompt drift.
   tags:
     - prompt-management
@@ -60,28 +67,31 @@ curation:
   reason: Core product is a prompt management and optimization platform, fitting the prompt/context engineering category.
   evidence:
     - Repo description explicitly calls it a 'Prompt management gateway with a UI for AI-powered applications'
-    - README emphasizes centralized prompt management, hot-swapping, and cross-provider orchestration as primary features
+    - >-
+      README emphasizes centralized prompt management, hot-swapping, and cross-provider orchestration as primary
+      features
     - Topics include 'prompt-engineering', 'prompt-toolkit', and 'prompt-tuning'
 placement:
-  primary_category: context-engineering
-  section: PromptOps / Prompt Management
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Prompt Engineering & Management
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.619Z"
+    updated_at: '2026-05-06T22:12:15.619Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:41.278Z"
+    updated_at: '2026-07-30T05:05:41.278Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:07:27.288Z"
+    updated_at: '2026-07-21T16:07:27.288Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -97,11 +107,15 @@ processing:
       decision_reason: Core product is a prompt management and optimization platform, fitting the prompt/context engineering category.
       decision_evidence:
         - Repo description explicitly calls it a 'Prompt management gateway with a UI for AI-powered applications'
-        - README emphasizes centralized prompt management, hot-swapping, and cross-provider orchestration as primary features
+        - >-
+          README emphasizes centralized prompt management, hot-swapping, and cross-provider orchestration as primary
+          features
         - Topics include 'prompt-engineering', 'prompt-toolkit', and 'prompt-tuning'
       category_candidates:
         - context-engineering
         - agent-orchestration
-      contrastive_reason: Choose context-engineering over agent-orchestration because the core novelty is prompt management and optimization rather than multi-agent coordination.
+      contrastive_reason: >-
+        Choose context-engineering over agent-orchestration because the core novelty is prompt management and
+        optimization rather than multi-agent coordination.
       review_reason: null
       review_resume_lifecycle: null

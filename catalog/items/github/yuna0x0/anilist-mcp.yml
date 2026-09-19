@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__yuna0x0__anilist-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: yuna0x0/anilist-mcp
         extracted_url: https://github.com/yuna0x0/anilist-mcp
-        surrounding_text: "- [yuna0x0/anilist-mcp](https://github.com/yuna0x0/anilist-mcp) 📇 ☁️ - A MCP server integrating AniList API for anime and manga information"
+        surrounding_text: >-
+          - [yuna0x0/anilist-mcp](https://github.com/yuna0x0/anilist-mcp) 📇 ☁️ - A MCP server integrating AniList API
+          for anime and manga information
         confidence: high
     - id: discovery__github__yuna0x0__anilist-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,10 +37,10 @@ provenance:
           - Community Servers
         anchor_text: AniList
         extracted_url: https://github.com/yuna0x0/anilist-mcp
-        surrounding_text: "- **[AniList](https://github.com/yuna0x0/anilist-mcp)** - AniList MCP server for accessing AniList API data"
+        surrounding_text: '- **[AniList](https://github.com/yuna0x0/anilist-mcp)** - AniList MCP server for accessing AniList API data'
         confidence: high
     - id: discovery__github__yuna0x0__anilist-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -50,7 +52,10 @@ provenance:
           - 🎨 Art & Culture
         anchor_text: yuna0x0/anilist-mcp
         extracted_url: https://github.com/yuna0x0/anilist-mcp
-        surrounding_text: "-   **[yuna0x0/anilist-mcp](https://github.com/yuna0x0/anilist-mcp)** [![GitHub stars](https://img.shields.io/github/stars/yuna0x0/anilist-mcp?style=social)](https://github.com/yuna0x0/anilist-mcp): Provides information on anime and manga through integration with the AniList API."
+        surrounding_text: >-
+          -   **[yuna0x0/anilist-mcp](https://github.com/yuna0x0/anilist-mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/yuna0x0/anilist-mcp?style=social)](https://github.com/yuna0x0/anilist-mcp):
+          Provides information on anime and manga through integration with the AniList API.
         confidence: high
 metadata:
   github:
@@ -60,8 +65,8 @@ metadata:
     archived: false
     full_name: yuna0x0/anilist-mcp
     html_url: https://github.com/yuna0x0/anilist-mcp
-    created_at: "2025-03-20T16:00:06Z"
-    pushed_at: "2026-07-13T10:44:23Z"
+    created_at: '2025-03-20T16:00:06Z'
+    pushed_at: '2026-07-13T10:44:23Z'
     description: AniList MCP server for accessing anime and manga data
     homepage: https://www.npmjs.com/package/anilist-mcp
     topics:
@@ -73,14 +78,20 @@ metadata:
       - manga
       - mcp
       - model-context-protocol
-    last_checked_at: "2026-07-21T15:21:23.043Z"
+    last_checked_at: '2026-07-21T15:21:23.043Z'
     readme:
-      fetched_at: "2026-07-21T15:21:23.043Z"
+      fetched_at: '2026-07-21T15:21:23.043Z'
       bytes: 8790
 insights:
-  summary: AniList MCP server is a Node.js-based Model Context Protocol server that exposes anime and manga data from the AniList API to LLM clients via STDIO or HTTP transports.
-  why_it_matters: It lets developers integrate structured anime and manga data into AI workflows, enabling context-aware assistants to query media metadata, user lists, and character details through a standardized MCP interface.
-  mental_damage: Another niche MCP server that turns your Claude Desktop into an anime wiki, because apparently we needed yet another way to procrastinate while pretending to build AI tools.
+  summary: >-
+    AniList MCP server is a Node.js-based Model Context Protocol server that exposes anime and manga data from the
+    AniList API to LLM clients via STDIO or HTTP transports.
+  why_it_matters: >-
+    It lets developers integrate structured anime and manga data into AI workflows, enabling context-aware assistants to
+    query media metadata, user lists, and character details through a standardized MCP interface.
+  mental_damage: >-
+    Another niche MCP server that turns your Claude Desktop into an anime wiki, because apparently we needed yet another
+    way to procrastinate while pretending to build AI tools.
   tags:
     - mcp
     - anime
@@ -90,31 +101,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's core identity is an MCP server exposing domain-specific data via the Model Context Protocol, making it a clear fit for the MCP Servers & Tooling category.
+  reason: >-
+    The project's core identity is an MCP server exposing domain-specific data via the Model Context Protocol, making it
+    a clear fit for the MCP Servers & Tooling category.
   evidence:
-    - "Repo description: 'AniList MCP server for accessing anime and manga data'"
-    - "README: 'A Model Context Protocol (MCP) server that interfaces with the AniList API'"
+    - 'Repo description: ''AniList MCP server for accessing anime and manga data'''
+    - 'README: ''A Model Context Protocol (MCP) server that interfaces with the AniList API'''
     - Appears in multiple awesome-mcp-sources under Art & Culture and Community Servers sections
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.580Z"
+    updated_at: '2026-05-06T22:12:15.580Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:23.043Z"
+    updated_at: '2026-07-21T15:21:23.043Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:47:46.604Z"
+    updated_at: '2026-05-12T15:47:46.604Z'
     cause: null
     next_retry_at: null
     attempts: 1

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cq27-dev__rag-rat__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,16 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: cq27-dev/rag-rat
         extracted_url: https://github.com/cq27-dev/rag-rat
-        surrounding_text: "- [cq27-dev/rag-rat](https://github.com/cq27-dev/rag-rat) [![cq27-dev/rag-rat MCP server](https://glama.ai/mcp/servers/cq27-dev/rag-rat/badges/score.svg)](https://glama.ai/mcp/servers/cq27-dev/rag-rat) 🦀 🏠 🍎 🪟 🐧 - Local repo-intelligence index and MCP server for coding agents — \"what a repository knows about itself.\" Hybrid BM25 + vector semantic search, a tree-sitter code graph (callers/callees/imports across Rust, TS/TSX, Kotlin, C/C++, Python) with an optional compiler-grade SCIP oracle, queryable git/GitHub history, and typed, source-anchored repo memories (Invariant, Decision, Risk, …) that persist across sessions. Every result carries provenance — confidence labels and coverage warnings. Keeps source read-only; a background watcher keeps queries fresh. PreToolUse hooks augment `grep` and flag near-duplicate code as you write it. `cargo install rag-rat`"
+        surrounding_text: >-
+          - [cq27-dev/rag-rat](https://github.com/cq27-dev/rag-rat) [![cq27-dev/rag-rat MCP
+          server](https://glama.ai/mcp/servers/cq27-dev/rag-rat/badges/score.svg)](https://glama.ai/mcp/servers/cq27-dev/rag-rat)
+          🦀 🏠 🍎 🪟 🐧 - Local repo-intelligence index and MCP server for coding agents — "what a repository knows
+          about itself." Hybrid BM25 + vector semantic search, a tree-sitter code graph (callers/callees/imports across
+          Rust, TS/TSX, Kotlin, C/C++, Python) with an optional compiler-grade SCIP oracle, queryable git/GitHub
+          history, and typed, source-anchored repo memories (Invariant, Decision, Risk, …) that persist across sessions.
+          Every result carries provenance — confidence labels and coverage warnings. Keeps source read-only; a
+          background watcher keeps queries fresh. PreToolUse hooks augment `grep` and flag near-duplicate code as you
+          write it. `cargo install rag-rat`
         confidence: high
 metadata:
   github:
@@ -30,9 +39,11 @@ metadata:
     archived: false
     full_name: cq27-dev/rag-rat
     html_url: https://github.com/cq27-dev/rag-rat
-    created_at: "2026-06-06T19:35:47Z"
-    pushed_at: "2026-09-13T19:21:32Z"
-    description: "Local repo-intelligence index + MCP server: semantic search, symbol/graph navigation, impact-surface preflight, git + GitHub papertrail, and a source-anchored memory graph."
+    created_at: '2026-06-06T19:35:47Z'
+    pushed_at: '2026-09-13T19:21:32Z'
+    description: >-
+      Local repo-intelligence index + MCP server: semantic search, symbol/graph navigation, impact-surface preflight,
+      git + GitHub papertrail, and a source-anchored memory graph.
     homepage: https://rag-rat.cq27.dev
     topics:
       - call-graph
@@ -43,14 +54,20 @@ metadata:
       - repo-indexing
       - scip
       - semantic-search
-    last_checked_at: "2026-09-14T04:13:30.472Z"
+    last_checked_at: '2026-09-14T04:13:30.472Z'
     readme:
-      fetched_at: "2026-09-14T04:13:30.472Z"
+      fetched_at: '2026-09-14T04:13:30.472Z'
       bytes: 29120
 insights:
-  summary: A local repository intelligence index and MCP server that provides semantic search, graph navigation, and source-anchored memory for coding agents.
-  why_it_matters: It provides coding agents with high-fidelity context—including git history and codebase invariants—to prevent hallucinated implementations and duplicate code.
-  mental_damage: Because apparently, we can't trust our agents to know what they just wrote, so now we need a dedicated database to remind them.
+  summary: >-
+    A local repository intelligence index and MCP server that provides semantic search, graph navigation, and
+    source-anchored memory for coding agents.
+  why_it_matters: >-
+    It provides coding agents with high-fidelity context—including git history and codebase invariants—to prevent
+    hallucinated implementations and duplicate code.
+  mental_damage: >-
+    Because apparently, we can't trust our agents to know what they just wrote, so now we need a dedicated database to
+    remind them.
   tags:
     - mcp
     - rag
@@ -67,24 +84,25 @@ curation:
     - Included in awesome-mcp-servers
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.714Z"
+    updated_at: '2026-07-16T05:04:46.714Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:30.472Z"
+    updated_at: '2026-09-14T04:13:30.472Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-16T05:14:06.662Z"
+    updated_at: '2026-07-16T05:14:06.662Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

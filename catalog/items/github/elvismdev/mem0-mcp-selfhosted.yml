@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__elvismdev__mem0-mcp-selfhosted__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: elvismdev/mem0-mcp-selfhosted
         extracted_url: https://github.com/elvismdev/mem0-mcp-selfhosted
-        surrounding_text: "- [elvismdev/mem0-mcp-selfhosted](https://github.com/elvismdev/mem0-mcp-selfhosted) [![mem0-mcp-selfhosted MCP server](https://glama.ai/mcp/servers/elvismdev/mem0-mcp-selfhosted/badges/score.svg)](https://glama.ai/mcp/servers/elvismdev/mem0-mcp-selfhosted) 🐍 🏠 🍎 🪟 🐧 - Self-hosted mem0 MCP server for Claude Code with Qdrant vector search, Neo4j knowledge graph, and Ollama embeddings. Zero-config OAT auth, split-model graph routing, session hooks for automatic cross-session memory, and 11 tools. Supports both Anthropic and fully local Ollama setups."
+        surrounding_text: >-
+          - [elvismdev/mem0-mcp-selfhosted](https://github.com/elvismdev/mem0-mcp-selfhosted) [![mem0-mcp-selfhosted MCP
+          server](https://glama.ai/mcp/servers/elvismdev/mem0-mcp-selfhosted/badges/score.svg)](https://glama.ai/mcp/servers/elvismdev/mem0-mcp-selfhosted)
+          🐍 🏠 🍎 🪟 🐧 - Self-hosted mem0 MCP server for Claude Code with Qdrant vector search, Neo4j knowledge graph,
+          and Ollama embeddings. Zero-config OAT auth, split-model graph routing, session hooks for automatic
+          cross-session memory, and 11 tools. Supports both Anthropic and fully local Ollama setups.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: elvismdev/mem0-mcp-selfhosted
     html_url: https://github.com/elvismdev/mem0-mcp-selfhosted
-    created_at: "2026-02-16T08:55:39Z"
-    pushed_at: "2026-03-13T00:51:46Z"
-    description: Self-hosted mem0 MCP server for Claude Code. Run a complete memory server against self-hosted Qdrant + Neo4j + Ollama while using Claude as the main LLM.
+    created_at: '2026-02-16T08:55:39Z'
+    pushed_at: '2026-03-13T00:51:46Z'
+    description: >-
+      Self-hosted mem0 MCP server for Claude Code. Run a complete memory server against self-hosted Qdrant + Neo4j +
+      Ollama while using Claude as the main LLM.
     homepage: null
     topics:
       - ai-memory
@@ -47,14 +54,20 @@ metadata:
       - ollama
       - qdrant
       - self-hosted
-    last_checked_at: "2026-08-27T09:23:23.348Z"
+    last_checked_at: '2026-08-27T09:23:23.348Z'
     readme:
-      fetched_at: "2026-08-27T09:23:23.348Z"
+      fetched_at: '2026-08-27T09:23:23.348Z'
       bytes: 20656
 insights:
-  summary: Self-hosted MCP server for mem0 that integrates with Claude Code, providing persistent memory via Qdrant, Neo4j, and Ollama.
-  why_it_matters: Enables developers to give Claude Code long-term memory and knowledge graph capabilities without relying on cloud services.
-  mental_damage: Now your AI assistant remembers your TypeScript preferences forever, or at least until you forget to pay the Neo4j bill.
+  summary: >-
+    Self-hosted MCP server for mem0 that integrates with Claude Code, providing persistent memory via Qdrant, Neo4j, and
+    Ollama.
+  why_it_matters: >-
+    Enables developers to give Claude Code long-term memory and knowledge graph capabilities without relying on cloud
+    services.
+  mental_damage: >-
+    Now your AI assistant remembers your TypeScript preferences forever, or at least until you forget to pay the Neo4j
+    bill.
   tags:
     - mcp
     - memory
@@ -70,27 +83,28 @@ curation:
     - README details MCP tool integration and server setup for memory management
     - Topics include mcp, mcp-server, and mem0
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.612Z"
+    updated_at: '2026-05-06T22:12:15.612Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-14T04:13:48.633Z"
+    updated_at: '2026-09-14T04:13:48.633Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for elvismdev/mem0-mcp-selfhosted
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:52:14.269Z"
+    updated_at: '2026-07-21T15:52:14.269Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -103,7 +117,9 @@ processing:
       input_hash: sha256:69102612d1fb4347641ed9c35a2a77abbc7f8d32a986121d3f354ac64c646bf3
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP server whose primary identity is providing memory infrastructure for Claude Code via MCP protocol.
+      decision_reason: >-
+        This is an MCP server whose primary identity is providing memory infrastructure for Claude Code via MCP
+        protocol.
       decision_evidence:
         - Repo description explicitly states it's a self-hosted mem0 MCP server for Claude Code
         - README details MCP tool integration and server setup for memory management
@@ -111,6 +127,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product's core identity is as an MCP server, not just a memory system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the product's core identity is as an MCP server, not just a memory
+        system.
       review_reason: null
       review_resume_lifecycle: null

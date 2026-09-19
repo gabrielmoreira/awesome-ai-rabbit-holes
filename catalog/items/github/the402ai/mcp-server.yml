@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__the402ai__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🛒 <a name="e-commerce"></a>E-Commerce
         anchor_text: the402ai/mcp-server
         extracted_url: https://github.com/the402ai/mcp-server
-        surrounding_text: "- [the402ai/mcp-server](https://github.com/the402ai/mcp-server) [![the402ai/mcp-server MCP server](https://glama.ai/mcp/servers/the402ai/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/the402ai/mcp-server) 📇 ☁️ 🍎 🪟 🐧 - AI agent service marketplace with x402 micropayments (USDC on Base). 30 tools for browsing services, purchasing, managing conversation threads, listing services as a provider, handling subscriptions, and tracking earnings. Install via `npx -y @the402/mcp-server`."
+        surrounding_text: >-
+          - [the402ai/mcp-server](https://github.com/the402ai/mcp-server) [![the402ai/mcp-server MCP
+          server](https://glama.ai/mcp/servers/the402ai/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/the402ai/mcp-server)
+          📇 ☁️ 🍎 🪟 🐧 - AI agent service marketplace with x402 micropayments (USDC on Base). 30 tools for browsing
+          services, purchasing, managing conversation threads, listing services as a provider, handling subscriptions,
+          and tracking earnings. Install via `npx -y @the402/mcp-server`.
         confidence: high
 metadata:
   github:
@@ -30,19 +35,27 @@ metadata:
     archived: false
     full_name: the402ai/mcp-server
     html_url: https://github.com/the402ai/mcp-server
-    created_at: "2026-03-21T22:59:00Z"
-    pushed_at: "2026-03-23T16:23:38Z"
-    description: MCP server for the402.ai — AI agent service marketplace. Browse services, purchase via x402 micropayments, manage threads, list services as a provider.
+    created_at: '2026-03-21T22:59:00Z'
+    pushed_at: '2026-03-23T16:23:38Z'
+    description: >-
+      MCP server for the402.ai — AI agent service marketplace. Browse services, purchase via x402 micropayments, manage
+      threads, list services as a provider.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:20:46.271Z"
+    last_checked_at: '2026-07-21T15:20:46.271Z'
     readme:
-      fetched_at: "2026-07-21T15:20:46.270Z"
+      fetched_at: '2026-07-21T15:20:46.270Z'
       bytes: 5604
 insights:
-  summary: An MCP server that lets AI agents browse, buy, and sell services on the402.ai marketplace using x402 micropayments and manage service threads.
-  why_it_matters: It gives MCP-compatible assistants like Claude Desktop and Cursor a native interface to discover and transact services without leaving the chat.
-  mental_damage: Your coding agent can now independently discover, negotiate, and purchase third-party services, eliminating the only remaining barrier between you and an unexplainable AWS bill.
+  summary: >-
+    An MCP server that lets AI agents browse, buy, and sell services on the402.ai marketplace using x402 micropayments
+    and manage service threads.
+  why_it_matters: >-
+    It gives MCP-compatible assistants like Claude Desktop and Cursor a native interface to discover and transact
+    services without leaving the chat.
+  mental_damage: >-
+    Your coding agent can now independently discover, negotiate, and purchase third-party services, eliminating the only
+    remaining barrier between you and an unexplainable AWS bill.
   tags:
     - mcp
     - marketplace
@@ -51,35 +64,37 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product is an MCP server providing domain-specific marketplace tools for AI agents, fitting cleanly into MCP Servers & Tooling.
+  reason: >-
+    The product is an MCP server providing domain-specific marketplace tools for AI agents, fitting cleanly into MCP
+    Servers & Tooling.
   evidence:
     - Repo description explicitly states 'MCP server for the402.ai — AI agent service marketplace.'
     - README lists 30 MCP tools for catalog browsing, purchasing, and provider management.
     - Listed in awesome-mcp-servers under Server Implementations > E-Commerce.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.651Z"
+    updated_at: '2026-05-06T22:12:15.651Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:46.271Z"
+    updated_at: '2026-07-21T15:20:46.271Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

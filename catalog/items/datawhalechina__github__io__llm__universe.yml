@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__datawhalechina__github__io__llm__universe__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,9 +36,13 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated collection of LLM resources covering multi-modal generation, agents, programming assistance, and model training.
+  summary: >-
+    A curated collection of LLM resources covering multi-modal generation, agents, programming assistance, and model
+    training.
   why_it_matters: It serves as a centralized map for navigating the massive influx of new LLM papers, tools, and tutorials.
-  mental_damage: A perfect way to feel productive by reading about the tools you'll definitely use once you've finished reading about the tools you're currently reading about.
+  mental_damage: >-
+    A perfect way to feel productive by reading about the tools you'll definitely use once you've finished reading about
+    the tools you're currently reading about.
   tags:
     - llm
     - resources
@@ -46,21 +50,21 @@ insights:
     - agents
   confidence: high
 curation:
-  status: included
-  reason: It is a curated directory of resources meant to help developers navigate the expanding LLM ecosystem.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Source-list context identifies it as a 'Summary of the world's best LLM resources'
-    - Scraped title '动手学大模型应用开发' implies educational/tutorial content
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.660Z"
+    updated_at: '2026-05-06T22:12:15.660Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +73,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:36:34.484Z"
+    updated_at: '2026-07-20T15:36:34.484Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,6 +93,8 @@ processing:
       category_candidates:
         - awesome-awesomes
         - newsletters-and-feeds
-      contrastive_reason: Choose awesome-awesomes over newsletters-and-feeds because it is a structured directory of resources rather than a recurring commentary or publication.
+      contrastive_reason: >-
+        Choose awesome-awesomes over newsletters-and-feeds because it is a structured directory of resources rather than
+        a recurring commentary or publication.
       review_reason: null
       review_resume_lifecycle: null

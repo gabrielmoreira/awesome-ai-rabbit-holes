@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__astandrik__local-ydb-toolkit__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: astandrik/local-ydb-toolkit
         extracted_url: https://github.com/astandrik/local-ydb-toolkit
-        surrounding_text: "- [astandrik/local-ydb-toolkit](https://github.com/astandrik/local-ydb-toolkit) [![local-ydb-toolkit MCP server](https://glama.ai/mcp/servers/astandrik/local-ydb-toolkit/badges/score.svg)](https://glama.ai/mcp/servers/astandrik/local-ydb-toolkit) 📇 🏠 - Local YDB MCP is a TypeScript stdio MCP server for operating Docker-based local-ydb deployments via local or SSH-backed profiles. Supports bootstrap, diagnostics, auth hardening, storage workflows, dump/restore, upgrades, and plan-first mutating operations."
+        surrounding_text: >-
+          - [astandrik/local-ydb-toolkit](https://github.com/astandrik/local-ydb-toolkit) [![local-ydb-toolkit MCP
+          server](https://glama.ai/mcp/servers/astandrik/local-ydb-toolkit/badges/score.svg)](https://glama.ai/mcp/servers/astandrik/local-ydb-toolkit)
+          📇 🏠 - Local YDB MCP is a TypeScript stdio MCP server for operating Docker-based local-ydb deployments via
+          local or SSH-backed profiles. Supports bootstrap, diagnostics, auth hardening, storage workflows,
+          dump/restore, upgrades, and plan-first mutating operations.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: astandrik/local-ydb-toolkit
     html_url: https://github.com/astandrik/local-ydb-toolkit
-    created_at: "2026-04-25T11:16:36Z"
-    pushed_at: "2026-09-10T07:18:46Z"
+    created_at: '2026-04-25T11:16:36Z'
+    pushed_at: '2026-09-10T07:18:46Z'
     description: Codex skill and MCP server for operating Docker-based local YDB deployments, locally or over SSH.
     homepage: https://local-ydb-toolkit.ydb-qdrant.tech/
     topics:
@@ -44,13 +49,15 @@ metadata:
       - operations
       - skill
       - ydb
-    last_checked_at: "2026-09-14T04:13:23.797Z"
+    last_checked_at: '2026-09-14T04:13:23.797Z'
     readme:
-      fetched_at: "2026-09-14T04:13:23.797Z"
+      fetched_at: '2026-09-14T04:13:23.797Z'
       bytes: 61467
 insights:
   summary: A toolkit providing an MCP server and Codex skill for managing Docker-based local YDB deployments.
-  why_it_matters: It enables AI agents to perform complex operational tasks like DDL application, tenant bootstrapping, and lifecycle management on local YDB environments.
+  why_it_matters: >-
+    It enables AI agents to perform complex operational tasks like DDL application, tenant bootstrapping, and lifecycle
+    management on local YDB environments.
   mental_damage: Finally, an agent that can brick your local database environment with the same ease as it writes a unit test.
   tags:
     - mcp
@@ -61,31 +68,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The toolkit's core identity is providing an MCP server and Codex skill to grant agents operational control over local YDB deployments.
+  reason: >-
+    The toolkit's core identity is providing an MCP server and Codex skill to grant agents operational control over
+    local YDB deployments.
   evidence:
     - Repo description identifies it as an 'MCP server for operating Docker-based local-ydb deployments'
     - README specifies it includes an unofficial local stdio MCP server (@astandrik/local-ydb-mcp)
     - The toolkit provides specific mutating tools for DDL, bootstrapping, and lifecycle management
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.818Z"
+    updated_at: '2026-05-28T05:28:09.818Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:23.797Z"
+    updated_at: '2026-09-14T04:13:23.797Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-28T05:35:38.930Z"
+    updated_at: '2026-05-28T05:35:38.930Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

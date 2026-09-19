@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__a-25__ios-mcp-code-quality-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: a-25/ios-mcp-code-quality-server
         extracted_url: https://github.com/a-25/ios-mcp-code-quality-server
-        surrounding_text: "- [a-25/ios-mcp-code-quality-server](https://github.com/a-25/ios-mcp-code-quality-server) 📇 🏠 🍎 - iOS code quality analysis and test automation server. Provides comprehensive Xcode test execution, SwiftLint integration, and detailed failure analysis. Operates in both CLI and MCP server modes for direct developer usage and AI assistant integration."
+        surrounding_text: >-
+          - [a-25/ios-mcp-code-quality-server](https://github.com/a-25/ios-mcp-code-quality-server) 📇 🏠 🍎 - iOS code
+          quality analysis and test automation server. Provides comprehensive Xcode test execution, SwiftLint
+          integration, and detailed failure analysis. Operates in both CLI and MCP server modes for direct developer
+          usage and AI assistant integration.
         confidence: high
 metadata:
   github:
@@ -30,10 +34,12 @@ metadata:
     archived: false
     full_name: a-25/ios-mcp-code-quality-server
     html_url: https://github.com/a-25/ios-mcp-code-quality-server
-    created_at: "2025-07-27T08:20:03Z"
-    pushed_at: "2025-09-26T15:54:59Z"
-    description: This server enables AI assistants to run Xcode tests, perform linter analysis, and provide detailed feedback on iOS projects through structured, actionable reports.
-    homepage: ""
+    created_at: '2025-07-27T08:20:03Z'
+    pushed_at: '2025-09-26T15:54:59Z'
+    description: >-
+      This server enables AI assistants to run Xcode tests, perform linter analysis, and provide detailed feedback on
+      iOS projects through structured, actionable reports.
+    homepage: ''
     topics:
       - autotest
       - linter
@@ -41,14 +47,20 @@ metadata:
       - swift
       - swiftlint
       - xcode
-    last_checked_at: "2026-09-17T04:13:27.173Z"
+    last_checked_at: '2026-09-17T04:13:27.173Z'
     readme:
-      fetched_at: "2026-09-17T04:13:27.173Z"
+      fetched_at: '2026-09-17T04:13:27.173Z'
       bytes: 16009
 insights:
-  summary: An MCP server that enables AI assistants to run Xcode tests, perform SwiftLint linting, and provide structured feedback on iOS projects.
-  why_it_matters: It lets AI coding assistants directly validate iOS code quality through automated testing and linting, closing the loop between code generation and verification.
-  mental_damage: Now your AI pair programmer can nag you about trailing whitespace and failing unit tests in real time, making pair programming feel less like collaboration and more like continuous performance review.
+  summary: >-
+    An MCP server that enables AI assistants to run Xcode tests, perform SwiftLint linting, and provide structured
+    feedback on iOS projects.
+  why_it_matters: >-
+    It lets AI coding assistants directly validate iOS code quality through automated testing and linting, closing the
+    loop between code generation and verification.
+  mental_damage: >-
+    Now your AI pair programmer can nag you about trailing whitespace and failing unit tests in real time, making pair
+    programming feel less like collaboration and more like continuous performance review.
   tags:
     - mcp
     - ios
@@ -58,31 +70,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core identity is providing iOS-specific tooling (Xcode test execution, SwiftLint) through the Model Context Protocol, making MCP the primary product identity rather than a compatibility feature.
+  reason: >-
+    The product is an MCP server whose core identity is providing iOS-specific tooling (Xcode test execution, SwiftLint)
+    through the Model Context Protocol, making MCP the primary product identity rather than a compatibility feature.
   evidence:
-    - "Repo description: 'This server enables AI assistants to run Xcode tests, perform linter analysis, and provide detailed feedback on iOS projects through structured, actionable reports.'"
-    - "Topics include: model-context-protocol-server, swift, swiftlint, xcode, autotest, linter"
+    - >-
+      Repo description: 'This server enables AI assistants to run Xcode tests, perform linter analysis, and provide
+      detailed feedback on iOS projects through structured, actionable reports.'
+    - 'Topics include: model-context-protocol-server, swift, swiftlint, xcode, autotest, linter'
     - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.598Z"
+    updated_at: '2026-05-06T22:12:15.598Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:27.173Z"
+    updated_at: '2026-09-17T04:13:27.173Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:57:53.086Z"
+    updated_at: '2026-05-12T15:57:53.086Z'
     cause: null
     next_retry_at: null
     attempts: 3

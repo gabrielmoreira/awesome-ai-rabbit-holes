@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gpustack__gpustack__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,11 @@ provenance:
           - LLMOps
         anchor_text: GPUStack
         extracted_url: https://github.com/gpustack/gpustack
-        surrounding_text: "| [GPUStack](https://github.com/gpustack/gpustack)                   | An open-source GPU cluster manager for running and managing LLMs                                                                                                                                                                                                                                                                                                                                        | ![GitHub Badge](https://img.shields.io/github/stars/gpustack/gpustack.svg?style=flat-square)              |"
+        surrounding_text: >-
+          | [GPUStack](https://github.com/gpustack/gpustack)                   | An open-source GPU cluster manager for
+          running and managing
+          LLMs                                                                                                                                                                                                                                                                                                                                       
+          | ![GitHub Badge](https://img.shields.io/github/stars/gpustack/gpustack.svg?style=flat-square)              |
         confidence: high
 metadata:
   github:
@@ -29,9 +33,11 @@ metadata:
     archived: false
     full_name: gpustack/gpustack
     html_url: https://github.com/gpustack/gpustack
-    created_at: "2024-05-11T03:41:58Z"
-    pushed_at: "2026-09-02T15:14:57Z"
-    description: A GPU cluster manager for high-performance AI model serving (vLLM, SGLang) and on-demand SSH-accessible GPU instances.
+    created_at: '2024-05-11T03:41:58Z'
+    pushed_at: '2026-09-02T15:14:57Z'
+    description: >-
+      A GPU cluster manager for high-performance AI model serving (vLLM, SGLang) and on-demand SSH-accessible GPU
+      instances.
     homepage: https://gpustack.ai
     topics:
       - ascend
@@ -52,13 +58,17 @@ metadata:
       - rocm
       - sglang
       - vllm
-    last_checked_at: "2026-09-03T05:16:53.545Z"
+    last_checked_at: '2026-09-03T05:16:53.545Z'
     readme:
-      fetched_at: "2026-09-03T05:16:53.545Z"
+      fetched_at: '2026-09-03T05:16:53.545Z'
       bytes: 10352
 insights:
-  summary: gpustack is a GPU cluster manager that configures and orchestrates inference engines like vLLM and SGLang for high-performance AI model deployment.
-  why_it_matters: It simplifies scaling LLM serving across heterogeneous GPU hardware, reducing operational overhead for developers deploying production AI workloads.
+  summary: >-
+    gpustack is a GPU cluster manager that configures and orchestrates inference engines like vLLM and SGLang for
+    high-performance AI model deployment.
+  why_it_matters: >-
+    It simplifies scaling LLM serving across heterogeneous GPU hardware, reducing operational overhead for developers
+    deploying production AI workloads.
   mental_damage: Finally, a way to feel in control of your GPU farm while secretly hoping vLLM doesn't OOM during peak traffic.
   tags:
     - llm-serving
@@ -67,31 +77,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: gpustack is a self-hosted inference orchestration layer focused on local or private GPU cluster management for AI model serving, aligning with local AI serving infrastructure.
+  reason: >-
+    gpustack is a self-hosted inference orchestration layer focused on local or private GPU cluster management for AI
+    model serving, aligning with local AI serving infrastructure.
   evidence:
-    - "Repo description: 'A GPU cluster manager that configures and orchestrates inference engines like vLLM and SGLang for high-performance AI model deployment.'"
-    - "Source-list context: Included in Awesome-LLMOps under the LLMOps section, indicating relevance to developer-facing AI operations tooling."
-    - "Pushed at: 2026-05-06 shows recent activity, confirming ongoing maintenance and relevance."
+    - >-
+      Repo description: 'A GPU cluster manager that configures and orchestrates inference engines like vLLM and SGLang
+      for high-performance AI model deployment.'
+    - >-
+      Source-list context: Included in Awesome-LLMOps under the LLMOps section, indicating relevance to developer-facing
+      AI operations tooling.
+    - 'Pushed at: 2026-05-06 shows recent activity, confirming ongoing maintenance and relevance.'
 placement:
   primary_category: local-ai
-  section: Local Serving / APIs
+  secondary_categories: []
+  section: Inference Engines
 lifecycle:
   status: promotion_candidate
   reason: Stars (4967) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.617Z"
+    updated_at: '2026-05-06T22:12:15.617Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:53.545Z"
+    updated_at: '2026-09-03T05:16:53.545Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:54:04.070Z"
+    updated_at: '2026-05-12T15:54:04.070Z'
     cause: null
     next_retry_at: null
     attempts: 2

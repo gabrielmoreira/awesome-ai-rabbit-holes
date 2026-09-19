@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__qiniu__qiniu-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: qiniu/qiniu-mcp-server
         extracted_url: https://github.com/qiniu/qiniu-mcp-server
-        surrounding_text: "- [qiniu/qiniu-mcp-server](https://github.com/qiniu/qiniu-mcp-server) 🐍 ☁️ - A MCP built on Qiniu Cloud products, supporting access to Qiniu Cloud Storage, media processing services, etc."
+        surrounding_text: >-
+          - [qiniu/qiniu-mcp-server](https://github.com/qiniu/qiniu-mcp-server) 🐍 ☁️ - A MCP built on Qiniu Cloud
+          products, supporting access to Qiniu Cloud Storage, media processing services, etc.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,25 @@ metadata:
     archived: false
     full_name: qiniu/qiniu-mcp-server
     html_url: https://github.com/qiniu/qiniu-mcp-server
-    created_at: "2025-03-31T07:15:30Z"
-    pushed_at: "2025-11-27T02:08:57Z"
+    created_at: '2025-03-31T07:15:30Z'
+    pushed_at: '2025-11-27T02:08:57Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:40.472Z"
+    last_checked_at: '2026-07-20T16:42:40.472Z'
     readme:
-      fetched_at: "2026-07-20T16:42:40.472Z"
+      fetched_at: '2026-07-20T16:42:40.472Z'
       bytes: 6874
 insights:
-  summary: A Model Context Protocol server that exposes Qiniu Cloud storage, intelligent multimedia, CDN, and live streaming capabilities to MCP-compatible AI clients like Cline, Cursor, and Claude Desktop.
-  why_it_matters: Developers using AI coding assistants can now manage cloud buckets, transform images, manage CDN caches, and provision live streaming infrastructure directly through natural language conversations.
-  mental_damage: We have successfully abstracted cloud infrastructure management to the point where you can accidentally scale a live stream while arguing with an LLM about a missing semicolon.
+  summary: >-
+    A Model Context Protocol server that exposes Qiniu Cloud storage, intelligent multimedia, CDN, and live streaming
+    capabilities to MCP-compatible AI clients like Cline, Cursor, and Claude Desktop.
+  why_it_matters: >-
+    Developers using AI coding assistants can now manage cloud buckets, transform images, manage CDN caches, and
+    provision live streaming infrastructure directly through natural language conversations.
+  mental_damage: >-
+    We have successfully abstracted cloud infrastructure management to the point where you can accidentally scale a live
+    stream while arguing with an LLM about a missing semicolon.
   tags:
     - mcp
     - qiniu
@@ -52,35 +60,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is a Model Context Protocol server implementation for a specific cloud provider, fitting the MCP Servers & Tooling category as a domain-specific server.
+  reason: >-
+    The project's primary identity is a Model Context Protocol server implementation for a specific cloud provider,
+    fitting the MCP Servers & Tooling category as a domain-specific server.
   evidence:
-    - GitHub repo name is 'qiniu-mcp-server' and README describes it as '基于七牛云产品构建的 Model Context Protocol (MCP) Server'.
+    - >-
+      GitHub repo name is 'qiniu-mcp-server' and README describes it as '基于七牛云产品构建的 Model Context Protocol (MCP)
+      Server'.
     - Source list context confirms placement in 'awesome-mcp-servers' under 'Cloud Platforms'.
     - Setup instructions are provided specifically for Cline, Cursor, and Claude Desktop MCP configurations.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.644Z"
+    updated_at: '2026-05-06T22:12:15.644Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:40.472Z"
+    updated_at: '2026-07-20T16:42:40.472Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

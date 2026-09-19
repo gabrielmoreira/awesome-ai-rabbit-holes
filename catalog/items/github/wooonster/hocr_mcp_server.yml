@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wooonster__hocr_mcp_server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Wooonster/hocr_mcp_server
         extracted_url: https://github.com/wooonster/hocr_mcp_server
-        surrounding_text: "- [Wooonster/hocr_mcp_server](https://github.com/Wooonster/hocr_mcp_server) 🐍 🏠 – A fastAPI-based FastMCP server with a Vue frontend that sends uploaded images to VLM via the MCP to quickly extract handwritten mathematical formulas as clean LaTeX code."
+        surrounding_text: >-
+          - [Wooonster/hocr_mcp_server](https://github.com/Wooonster/hocr_mcp_server) 🐍 🏠 – A fastAPI-based FastMCP
+          server with a Vue frontend that sends uploaded images to VLM via the MCP to quickly extract handwritten
+          mathematical formulas as clean LaTeX code.
         confidence: high
 metadata:
   github:
@@ -30,19 +33,21 @@ metadata:
     archived: false
     full_name: Wooonster/hocr_mcp_server
     html_url: https://github.com/Wooonster/hocr_mcp_server
-    created_at: "2025-04-30T06:00:15Z"
-    pushed_at: "2025-08-17T09:08:50Z"
+    created_at: '2025-04-30T06:00:15Z'
+    pushed_at: '2025-08-17T09:08:50Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:21:15.216Z"
+    last_checked_at: '2026-07-21T15:21:15.216Z'
     readme:
-      fetched_at: "2026-07-21T15:21:15.216Z"
+      fetched_at: '2026-07-21T15:21:15.216Z'
       bytes: 458
 insights:
   summary: HOCR MCP Server is a minimal MCP server implementation that exposes OCR capabilities via the Model Context Protocol.
   why_it_matters: It lets developers integrate optical character recognition into AI workflows through a standardized MCP interface.
-  mental_damage: Another MCP server for a niche function that promises seamless integration while adding yet another moving part to your already fragile AI toolchain.
+  mental_damage: >-
+    Another MCP server for a niche function that promises seamless integration while adding yet another moving part to
+    your already fragile AI toolchain.
   tags:
     - mcp
     - ocr
@@ -50,31 +55,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The project is explicitly an MCP server offering OCR functionality, making MCP the core product identity rather than a compatibility feature.
+  reason: >-
+    The project is explicitly an MCP server offering OCR functionality, making MCP the core product identity rather than
+    a compatibility feature.
   evidence:
     - Repository name and README identify it as an MCP Server using Model Context Protocol
     - Provides a clear MCP server startup command via uvicorn
     - Listed in awesome-mcp-servers under Developer Tools section
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.656Z"
+    updated_at: '2026-05-06T22:12:15.656Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:15.216Z"
+    updated_at: '2026-07-21T15:21:15.216Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:37:07.301Z"
+    updated_at: '2026-05-12T15:37:07.301Z'
     cause: null
     next_retry_at: null
     attempts: 1

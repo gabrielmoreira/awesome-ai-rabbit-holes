@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gerard-kanters__mcp-linux-tools__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-30T05:05:26.992Z"
+      discovered_at: '2026-07-30T05:05:26.992Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,15 @@ provenance:
           - 🖥️ <a name="command-line"></a>Command Line
         anchor_text: gerard-kanters/mcp-linux-tools
         extracted_url: https://github.com/gerard-kanters/mcp-linux-tools
-        surrounding_text: "- [gerard-kanters/mcp-linux-tools](https://github.com/gerard-kanters/mcp-linux-tools) [![gerard-kanters/mcp-linux-tools MCP server](https://glama.ai/mcp/servers/gerard-kanters/mcp-linux-tools/badges/score.svg)](https://glama.ai/mcp/servers/gerard-kanters/mcp-linux-tools) 🐍 🏠 🐧 - Administer a Linux server from an MCP client such as Cursor or VS Code: read files and tail logs, check/reload/restart systemd services, manage cron jobs inside a dedicated crontab section, run read-only MySQL queries, drive WP-CLI on WordPress sites, run safe Git commands, and execute sandboxed Python. Directories, services and WordPress sites are allowlisted in `config.json`, and every tool returns a uniform `{success, data, error, meta}` response. Runs as a systemd service over HTTP."
+        surrounding_text: >-
+          - [gerard-kanters/mcp-linux-tools](https://github.com/gerard-kanters/mcp-linux-tools)
+          [![gerard-kanters/mcp-linux-tools MCP
+          server](https://glama.ai/mcp/servers/gerard-kanters/mcp-linux-tools/badges/score.svg)](https://glama.ai/mcp/servers/gerard-kanters/mcp-linux-tools)
+          🐍 🏠 🐧 - Administer a Linux server from an MCP client such as Cursor or VS Code: read files and tail logs,
+          check/reload/restart systemd services, manage cron jobs inside a dedicated crontab section, run read-only
+          MySQL queries, drive WP-CLI on WordPress sites, run safe Git commands, and execute sandboxed Python.
+          Directories, services and WordPress sites are allowlisted in `config.json`, and every tool returns a uniform
+          `{success, data, error, meta}` response. Runs as a systemd service over HTTP.
         confidence: high
 metadata:
   github:
@@ -30,8 +38,8 @@ metadata:
     archived: false
     full_name: gerard-kanters/mcp-linux-tools
     html_url: https://github.com/gerard-kanters/mcp-linux-tools
-    created_at: "2025-11-09T23:03:18Z"
-    pushed_at: "2026-07-29T21:53:28Z"
+    created_at: '2025-11-09T23:03:18Z'
+    pushed_at: '2026-07-29T21:53:28Z'
     description: A MCP server to manage linux, websites and database
     homepage: https://netcare.nl/en/programming-with-an-ai-agent/
     topics:
@@ -39,13 +47,17 @@ metadata:
       - ai
       - linux-app
       - mcp
-    last_checked_at: "2026-09-03T05:16:48.129Z"
+    last_checked_at: '2026-09-03T05:16:48.129Z'
     readme:
-      fetched_at: "2026-09-03T05:16:48.129Z"
+      fetched_at: '2026-09-03T05:16:48.129Z'
       bytes: 15274
 insights:
-  summary: An MCP server that provides AI assistants with a secure, whitelisted set of Linux system administration and management tools.
-  why_it_matters: It allows LLMs to move beyond code editing and perform actual system operations like managing services, cron jobs, and WordPress sites through a controlled interface.
+  summary: >-
+    An MCP server that provides AI assistants with a secure, whitelisted set of Linux system administration and
+    management tools.
+  why_it_matters: >-
+    It allows LLMs to move beyond code editing and perform actual system operations like managing services, cron jobs,
+    and WordPress sites through a controlled interface.
   mental_damage: There is no greater adrenaline rush than giving an LLM root-adjacent capabilities and a prayer.
   tags:
     - mcp
@@ -56,31 +68,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's core identity is a Model Context Protocol (MCP) server designed to provide specific domain tools to an assistant host.
+  reason: >-
+    The project's core identity is a Model Context Protocol (MCP) server designed to provide specific domain tools to an
+    assistant host.
   evidence:
     - Explicitly describes itself as an MCP server in the README and repo description
     - Provides domain-specific toolsets for Linux, WordPress, and MySQL
     - Includes security features like whitelisting and sandboxed Python execution
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-30T05:05:26.994Z"
+    updated_at: '2026-07-30T05:05:26.994Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:48.129Z"
+    updated_at: '2026-09-03T05:16:48.129Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-03T05:21:53.203Z"
+    updated_at: '2026-09-03T05:21:53.203Z'
     cause: null
     next_retry_at: null
     classification:
@@ -90,7 +105,9 @@ processing:
       input_hash: sha256:73cdd48d3286d3c1823b57d3b974d6aed1f4cefbf34059dce593c64b52a61277
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's core identity is a Model Context Protocol (MCP) server designed to provide specific domain tools to an assistant host.
+      decision_reason: >-
+        The project's core identity is a Model Context Protocol (MCP) server designed to provide specific domain tools
+        to an assistant host.
       decision_evidence:
         - Explicitly describes itself as an MCP server in the README and repo description
         - Provides domain-specific toolsets for Linux, WordPress, and MySQL
@@ -98,7 +115,9 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary product identity is a functional MCP server implementation rather than a generic host integration.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary product identity is a functional MCP server implementation
+        rather than a generic host integration.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

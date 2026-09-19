@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docuwriter__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - Documentation
         anchor_text: DocuWriter.ai
         extracted_url: https://docuwriter.ai
-        surrounding_text: "- **[DocuWriter.ai](https://www.docuwriter.ai/)** – AI documentation generator for codebases and APIs."
+        surrounding_text: '- **[DocuWriter.ai](https://www.docuwriter.ai/)** – AI documentation generator for codebases and APIs.'
         confidence: high
     - id: discovery__www__docuwriter__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - Documentation
         anchor_text: DocuWriter.ai
         extracted_url: https://www.docuwriter.ai
-        surrounding_text: "- **[DocuWriter.ai](https://www.docuwriter.ai/)** – AI documentation generator for codebases and APIs."
+        surrounding_text: '- **[DocuWriter.ai](https://www.docuwriter.ai/)** – AI documentation generator for codebases and APIs.'
         confidence: high
 metadata:
   github:
@@ -51,8 +51,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AI-powered tool that generates and maintains code documentation, API docs, and UML diagrams from connected repositories.
-  why_it_matters: Automates the creation and synchronization of technical documentation for codebases, reducing onboarding friction and combating documentation rot.
+  summary: >-
+    AI-powered tool that generates and maintains code documentation, API docs, and UML diagrams from connected
+    repositories.
+  why_it_matters: >-
+    Automates the creation and synchronization of technical documentation for codebases, reducing onboarding friction
+    and combating documentation rot.
   mental_damage: Finally, a way to make your 12-year-old monolith’s documentation less terrifying than the code itself.
   tags:
     - documentation
@@ -63,21 +67,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product primarily augments developer workflows by integrating with repositories and AI agents (via MCP) to generate and maintain documentation, rather than acting as a standalone coding assistant.
+  reason: >-
+    The product primarily augments developer workflows by integrating with repositories and AI agents (via MCP) to
+    generate and maintain documentation, rather than acting as a standalone coding assistant.
   evidence:
     - Generates code docs, API docs, and UML diagrams from connected repos (GitHub, GitLab, etc.)
     - Publishes as an MCP server for native access by Cursor, Claude, and other AI agents
     - Listed in awesome-ai-coding-tools under Documentation
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: mcp
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:33:42.513Z"
+    updated_at: '2026-07-21T15:33:42.513Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -90,7 +97,9 @@ processing:
       input_hash: sha256:2f3e5c9527dc98a114f2d94a9fdbcf9e8ba6b8ee8efa3705be8c76f9454d9245
       proposed_primary_category: ai-dev-extensions
       disagreement: false
-      decision_reason: The product primarily augments developer workflows by integrating with repositories and AI agents (via MCP) to generate and maintain documentation, rather than acting as a standalone coding assistant.
+      decision_reason: >-
+        The product primarily augments developer workflows by integrating with repositories and AI agents (via MCP) to
+        generate and maintain documentation, rather than acting as a standalone coding assistant.
       decision_evidence:
         - Generates code docs, API docs, and UML diagrams from connected repos (GitHub, GitLab, etc.)
         - Publishes as an MCP server for native access by Cursor, Claude, and other AI agents
@@ -98,12 +107,14 @@ processing:
       category_candidates:
         - ai-dev-extensions
         - context-engineering
-      contrastive_reason: Choose ai-dev-extensions over context-engineering because the core value is repository integration and documentation generation, not a standalone context or memory system.
+      contrastive_reason: >-
+        Choose ai-dev-extensions over context-engineering because the core value is repository integration and
+        documentation generation, not a standalone context or memory system.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.965Z"
+    updated_at: '2026-07-21T15:20:21.965Z'
     cause: null
     next_retry_at: null
   stars:

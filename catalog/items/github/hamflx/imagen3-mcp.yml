@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hamflx__imagen3-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: hamflx/imagen3-mcp
         extracted_url: https://github.com/hamflx/imagen3-mcp
-        surrounding_text: "- [hamflx/imagen3-mcp](https://github.com/hamflx/imagen3-mcp) 📇 🏠 🪟 🍎 🐧 - A powerful image generation tool using Google's Imagen 3.0 API through MCP. Generate high-quality images from text prompts with advanced photography, artistic, and photorealistic controls."
+        surrounding_text: >-
+          - [hamflx/imagen3-mcp](https://github.com/hamflx/imagen3-mcp) 📇 🏠 🪟 🍎 🐧 - A powerful image generation
+          tool using Google's Imagen 3.0 API through MCP. Generate high-quality images from text prompts with advanced
+          photography, artistic, and photorealistic controls.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,20 @@ metadata:
     archived: false
     full_name: hamflx/imagen3-mcp
     html_url: https://github.com/hamflx/imagen3-mcp
-    created_at: "2025-04-26T06:41:39Z"
-    pushed_at: "2025-05-03T15:02:35Z"
+    created_at: '2025-04-26T06:41:39Z'
+    pushed_at: '2025-05-03T15:02:35Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:57.141Z"
+    last_checked_at: '2026-09-03T05:16:57.141Z'
     readme:
-      fetched_at: "2026-09-03T05:16:57.141Z"
+      fetched_at: '2026-09-03T05:16:57.141Z'
       bytes: 4289
 insights:
   summary: An MCP server that provides image generation capabilities using Google's Imagen 3.0 via the Model Context Protocol.
-  why_it_matters: Developers can integrate Imagen 3.0's image generation into MCP-compatible workflows, enabling AI assistants to generate images programmatically.
+  why_it_matters: >-
+    Developers can integrate Imagen 3.0's image generation into MCP-compatible workflows, enabling AI assistants to
+    generate images programmatically.
   mental_damage: Now your coding agent can generate images of running dogs while you debug, because why not.
   tags:
     - mcp
@@ -51,31 +56,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation, with MCP as its primary identity, providing a domain-specific (image generation) capability.
+  reason: >-
+    The project is explicitly an MCP server implementation, with MCP as its primary identity, providing a
+    domain-specific (image generation) capability.
   evidence:
     - README explicitly describes it as an MCP-based image generation tool for Google Imagen 3.0
     - Source-list context includes it in 'awesome-mcp-servers' under Server Implementations
     - Installation instructions detail MCP server configuration for Cherry Studio and Cursor
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.617Z"
+    updated_at: '2026-05-06T22:12:15.617Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:57.141Z"
+    updated_at: '2026-09-03T05:16:57.141Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:04:46.502Z"
+    updated_at: '2026-07-21T16:04:46.502Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +96,9 @@ processing:
       input_hash: sha256:59a8f538572f1e679ab5aca0e1ee2e7d468356f5baa8e6deb360ef5e1cc36750
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is explicitly an MCP server implementation, with MCP as its primary identity, providing a domain-specific (image generation) capability.
+      decision_reason: >-
+        The project is explicitly an MCP server implementation, with MCP as its primary identity, providing a
+        domain-specific (image generation) capability.
       decision_evidence:
         - README explicitly describes it as an MCP-based image generation tool for Google Imagen 3.0
         - Source-list context includes it in 'awesome-mcp-servers' under Server Implementations
@@ -96,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

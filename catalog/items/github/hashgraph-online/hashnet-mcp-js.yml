@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hashgraph-online__hashnet-mcp-js__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: hashgraph-online/hashnet-mcp-js
         extracted_url: https://github.com/hashgraph-online/hashnet-mcp-js
-        surrounding_text: "- [hashgraph-online/hashnet-mcp-js](https://github.com/hashgraph-online/hashnet-mcp-js) 📇 ☁️ 🍎 🪟 🐧 - MCP server for the Registry Broker. Discover, register, and chat with AI agents on the Hashgraph network."
+        surrounding_text: >-
+          - [hashgraph-online/hashnet-mcp-js](https://github.com/hashgraph-online/hashnet-mcp-js) 📇 ☁️ 🍎 🪟 🐧 - MCP
+          server for the Registry Broker. Discover, register, and chat with AI agents on the Hashgraph network.
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: hashgraph-online/hashnet-mcp-js
     html_url: https://github.com/hashgraph-online/hashnet-mcp-js
-    created_at: "2025-11-11T23:30:00Z"
-    pushed_at: "2026-05-08T14:15:15Z"
+    created_at: '2025-11-11T23:30:00Z'
+    pushed_at: '2026-05-08T14:15:15Z'
     description: Universal MCP Server for finding + connecting to agents anywhere on the planet. https://hol.org/mcp
     homepage: https://hol.org/mcp
     topics:
@@ -49,14 +51,18 @@ metadata:
       - openrouter
       - registry-broker
       - virtuals
-    last_checked_at: "2026-07-30T05:05:35.602Z"
+    last_checked_at: '2026-07-30T05:05:35.602Z'
     readme:
-      fetched_at: "2026-07-30T05:05:35.602Z"
+      fetched_at: '2026-07-30T05:05:35.602Z'
       bytes: 5536
 insights:
   summary: Universal MCP server for discovering, connecting, and interacting with agents via the HOL Registry Broker ecosystem.
-  why_it_matters: Developers can use this to integrate agent discovery, chat, registration, and workflow automation into MCP-compatible clients.
-  mental_damage: Now you can find agents on the planet, but good luck explaining to your manager why your codebase depends on a Hedera-based registry.
+  why_it_matters: >-
+    Developers can use this to integrate agent discovery, chat, registration, and workflow automation into
+    MCP-compatible clients.
+  mental_damage: >-
+    Now you can find agents on the planet, but good luck explaining to your manager why your codebase depends on a
+    Hedera-based registry.
   tags:
     - mcp-server
     - agent-discovery
@@ -66,13 +72,18 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose primary identity is enabling agent discovery and interaction via the Model Context Protocol.
+  reason: >-
+    This is an MCP-first server whose primary identity is enabling agent discovery and interaction via the Model Context
+    Protocol.
   evidence:
     - Repo description explicitly calls it a 'Universal MCP Server for finding + connecting to agents'
-    - README details MCP transports (stdio, HTTP), tool surfaces (discovery, chat, registration), and HOL Registry Broker integration
+    - >-
+      README details MCP transports (stdio, HTTP), tool surfaces (discovery, chat, registration), and HOL Registry
+      Broker integration
     - Already listed in awesome-mcp-servers under 'Aggregators'
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Registries & Discovery
 lifecycle:
   status: incubating
@@ -80,19 +91,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.618Z"
+    updated_at: '2026-05-06T22:12:15.618Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-03T05:16:59.075Z"
+    updated_at: '2026-09-03T05:16:59.075Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for hashgraph-online/hashnet-mcp-js
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:05:08.109Z"
+    updated_at: '2026-07-21T16:05:08.109Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -105,14 +116,20 @@ processing:
       input_hash: sha256:2a3a3380fb403d109036e569e52c10e6220f4c6c15b0005411e161d3d3f76511
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server whose primary identity is enabling agent discovery and interaction via the Model Context Protocol.
+      decision_reason: >-
+        This is an MCP-first server whose primary identity is enabling agent discovery and interaction via the Model
+        Context Protocol.
       decision_evidence:
         - Repo description explicitly calls it a 'Universal MCP Server for finding + connecting to agents'
-        - README details MCP transports (stdio, HTTP), tool surfaces (discovery, chat, registration), and HOL Registry Broker integration
+        - >-
+          README details MCP transports (stdio, HTTP), tool surfaces (discovery, chat, registration), and HOL Registry
+          Broker integration
         - Already listed in awesome-mcp-servers under 'Aggregators'
       category_candidates:
         - mcp
         - agent-orchestration
-      contrastive_reason: Choose mcp over agent-orchestration because the product's core identity is as an MCP server for agent discovery, not a multi-agent coordination platform.
+      contrastive_reason: >-
+        Choose mcp over agent-orchestration because the product's core identity is as an MCP server for agent discovery,
+        not a multi-agent coordination platform.
       review_reason: null
       review_resume_lifecycle: null

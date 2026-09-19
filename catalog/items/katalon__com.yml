@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__katalon__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Testing and QA
         anchor_text: Katalon Studio
         extracted_url: https://katalon.com
-        surrounding_text: "- **[Katalon Studio](https://katalon.com/)** – Comprehensive test automation with AI features."
+        surrounding_text: '- **[Katalon Studio](https://katalon.com/)** – Comprehensive test automation with AI features.'
         confidence: high
 metadata:
   github:
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Katalon True Platform is an AI-powered software quality platform for planning, authoring, executing, and analyzing tests across web, mobile, API, and desktop applications.
-  why_it_matters: It automates and scales test creation, execution, and analysis for QA teams, reducing manual effort and accelerating release cycles.
-  mental_damage: Finally, a platform that lets you offload the soul-crushing monotony of test case generation to AI agents—until you realize you still have to review their work.
+  summary: >-
+    Katalon True Platform is an AI-powered software quality platform for planning, authoring, executing, and analyzing
+    tests across web, mobile, API, and desktop applications.
+  why_it_matters: >-
+    It automates and scales test creation, execution, and analysis for QA teams, reducing manual effort and accelerating
+    release cycles.
+  mental_damage: >-
+    Finally, a platform that lets you offload the soul-crushing monotony of test case generation to AI agents—until you
+    realize you still have to review their work.
   tags:
     - testing
     - qa
@@ -48,21 +54,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The platform's core identity is a suite of specialized AI agents (Requirement Analyzer, Test Generation Agent, Bug Reporter, Root Cause Analyzer) that autonomously handle the coding-adjacent workflow of testing and repair.
+  reason: >-
+    The platform's core identity is a suite of specialized AI agents (Requirement Analyzer, Test Generation Agent, Bug
+    Reporter, Root Cause Analyzer) that autonomously handle the coding-adjacent workflow of testing and repair.
   evidence:
     - Site describes 'a team of AI agents ready to work for you' including Test Generation and Root Cause Analyzer.
     - Listed in awesome-ai-coding-tools under 'Testing and QA' section.
     - Features an 'Autonomous Test Runner' that executes natural-language test cases without automation scripts.
 placement:
   primary_category: coding-agents
-  section: null
+  secondary_categories: []
+  section: Review, Testing & Repair
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-dev-extensions'"
+  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''ai-dev-extensions'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +80,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:53.023Z"
+    updated_at: '2026-07-21T15:28:53.023Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,14 +93,22 @@ processing:
       input_hash: sha256:eea34b53b0fcc1d8f4a1d8e08120518adb65e21ad449fd27ed9fbbd6e34bbfaf
       proposed_primary_category: ai-dev-extensions
       disagreement: true
-      decision_reason: The product is primarily a testing and QA platform that integrates AI agents into the workflow, augmenting rather than replacing the primary development assistant.
+      decision_reason: >-
+        The product is primarily a testing and QA platform that integrates AI agents into the workflow, augmenting
+        rather than replacing the primary development assistant.
       decision_evidence:
-        - Described as an AI platform for software quality, focusing on test planning, authoring, execution, and analysis
+        - >-
+          Described as an AI platform for software quality, focusing on test planning, authoring, execution, and
+          analysis
         - Source-list context places it under 'Testing and QA' in awesome-ai-coding-tools
-        - Core functionality revolves around AI agents for testing tasks (e.g., requirement analysis, test case generation, bug reporting)
+        - >-
+          Core functionality revolves around AI agents for testing tasks (e.g., requirement analysis, test case
+          generation, bug reporting)
       category_candidates:
         - ai-dev-extensions
         - app-builders
-      contrastive_reason: Choose ai-dev-extensions over app-builders because the product's primary identity is a testing/QA platform with AI agents, not a prompt-to-app builder.
-      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-dev-extensions'"
+      contrastive_reason: >-
+        Choose ai-dev-extensions over app-builders because the product's primary identity is a testing/QA platform with
+        AI agents, not a prompt-to-app builder.
+      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''ai-dev-extensions'''
       review_resume_lifecycle: null

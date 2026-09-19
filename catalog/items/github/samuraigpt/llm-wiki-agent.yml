@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__samuraigpt__llm-wiki-agent__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,7 +20,10 @@ provenance:
           - Agents
         anchor_text: Camel-AutoGPT
         extracted_url: https://github.com/samuraigpt/camel-autogpt
-        surrounding_text: "- [Camel-AutoGPT](https://github.com/SamurAIGPT/Camel-AutoGPT): role-playing approach for LLMs and auto-agents like BabyAGI & AutoGPT ![GitHub Repo stars](https://img.shields.io/github/stars/SamurAIGPT/Camel-AutoGPT?style=social)"
+        surrounding_text: >-
+          - [Camel-AutoGPT](https://github.com/SamurAIGPT/Camel-AutoGPT): role-playing approach for LLMs and auto-agents
+          like BabyAGI & AutoGPT ![GitHub Repo
+          stars](https://img.shields.io/github/stars/SamurAIGPT/Camel-AutoGPT?style=social)
         confidence: high
 metadata:
   github:
@@ -30,10 +33,13 @@ metadata:
     archived: false
     full_name: SamurAIGPT/llm-wiki-agent
     html_url: https://github.com/SamurAIGPT/llm-wiki-agent
-    created_at: "2023-04-21T08:31:00Z"
-    pushed_at: "2026-07-13T06:31:28Z"
-    description: A personal knowledge base that builds and maintains itself. Drop in sources — Claude (or Codex/Gemini) reads them, extracts knowledge, and maintains a persistent interlinked wiki. Works with Claude Code, Codex, OpenCode, Gemini CLI. No API key needed.
-    homepage: ""
+    created_at: '2023-04-21T08:31:00Z'
+    pushed_at: '2026-07-13T06:31:28Z'
+    description: >-
+      A personal knowledge base that builds and maintains itself. Drop in sources — Claude (or Codex/Gemini) reads them,
+      extracts knowledge, and maintains a persistent interlinked wiki. Works with Claude Code, Codex, OpenCode, Gemini
+      CLI. No API key needed.
+    homepage: ''
     topics:
       - ai-agent
       - ai-tools
@@ -55,14 +61,20 @@ metadata:
       - research
       - second-brain
       - wiki
-    last_checked_at: "2026-07-20T16:42:50.749Z"
+    last_checked_at: '2026-07-20T16:42:50.749Z'
     readme:
-      fetched_at: "2026-07-20T16:42:50.749Z"
+      fetched_at: '2026-07-20T16:42:50.749Z'
       bytes: 13094
 insights:
-  summary: A reusable skill pack that turns Claude Code, Codex, Gemini CLI, or OpenCode into a self-building personal wiki by ingesting documents and maintaining interlinked markdown pages with knowledge graphs.
-  why_it_matters: It packages a complete RAG-style knowledge management workflow as portable slash commands and agent configs, letting developers reuse a structured memory system across multiple coding agents without building it themselves.
-  mental_damage: We have reached the point where the agent needs its own agent to remember what the agent did with the documents you fed the agent so you do not have to write notes like a Victorian clerk.
+  summary: >-
+    A reusable skill pack that turns Claude Code, Codex, Gemini CLI, or OpenCode into a self-building personal wiki by
+    ingesting documents and maintaining interlinked markdown pages with knowledge graphs.
+  why_it_matters: >-
+    It packages a complete RAG-style knowledge management workflow as portable slash commands and agent configs, letting
+    developers reuse a structured memory system across multiple coding agents without building it themselves.
+  mental_damage: >-
+    We have reached the point where the agent needs its own agent to remember what the agent did with the documents you
+    fed the agent so you do not have to write notes like a Victorian clerk.
   tags:
     - knowledge-base
     - claude-code
@@ -72,13 +84,22 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is a reusable skill pack with agent configs and slash commands designed to be dropped into Claude Code, Codex, or Gemini CLI, which aligns with the Skills category's focus on portable skill content.
+  reason: >-
+    The primary artifact is a reusable skill pack with agent configs and slash commands designed to be dropped into
+    Claude Code, Codex, or Gemini CLI, which aligns with the Skills category's focus on portable skill content.
   evidence:
-    - README explicitly calls it 'A coding agent skill' and ships CLAUDE.md, AGENTS.md, GEMINI.md configs plus .claude/commands/ slash commands.
-    - Repo description states it 'Works with Claude Code, Codex, OpenCode, Gemini CLI' and requires one of these agents as the host.
-    - The product is a skill pack, not a standalone assistant, IDE, or platform, and is actively maintained (pushed 2026-05-06, not archived).
+    - >-
+      README explicitly calls it 'A coding agent skill' and ships CLAUDE.md, AGENTS.md, GEMINI.md configs plus
+      .claude/commands/ slash commands.
+    - >-
+      Repo description states it 'Works with Claude Code, Codex, OpenCode, Gemini CLI' and requires one of these agents
+      as the host.
+    - >-
+      The product is a skill pack, not a standalone assistant, IDE, or platform, and is actively maintained (pushed
+      2026-05-06, not archived).
 placement:
   primary_category: skills
+  secondary_categories: []
   section: Skill Packs & Libraries
 lifecycle:
   status: promotion_candidate
@@ -86,21 +107,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.646Z"
+    updated_at: '2026-05-06T22:12:15.646Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:50.749Z"
+    updated_at: '2026-07-20T16:42:50.749Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

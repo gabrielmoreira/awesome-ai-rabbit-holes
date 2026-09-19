@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__googlarz__signal-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: googlarz/signal-mcp
         extracted_url: https://github.com/googlarz/signal-mcp
-        surrounding_text: "- [googlarz/signal-mcp](https://github.com/googlarz/signal-mcp) [![googlarz/signal-mcp MCP server](https://glama.ai/mcp/servers/googlarz/signal-mcp/badges/score.svg)](https://glama.ai/mcp/servers/googlarz/signal-mcp) 🏠 - Full Signal messenger MCP server and CLI. Send/receive messages, manage groups and contacts, search history, handle attachments and reactions. Runs locally via signal-cli — no third-party servers."
+        surrounding_text: >-
+          - [googlarz/signal-mcp](https://github.com/googlarz/signal-mcp) [![googlarz/signal-mcp MCP
+          server](https://glama.ai/mcp/servers/googlarz/signal-mcp/badges/score.svg)](https://glama.ai/mcp/servers/googlarz/signal-mcp)
+          🏠 - Full Signal messenger MCP server and CLI. Send/receive messages, manage groups and contacts, search
+          history, handle attachments and reactions. Runs locally via signal-cli — no third-party servers.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: googlarz/signal-mcp
     html_url: https://github.com/googlarz/signal-mcp
-    created_at: "2026-05-03T15:00:44Z"
-    pushed_at: "2026-09-02T18:24:28Z"
-    description: Ask Claude about your Signal conversations. Persistent history, full-text search, and complete signal-cli coverage — 100% local.
+    created_at: '2026-05-03T15:00:44Z'
+    pushed_at: '2026-09-02T18:24:28Z'
+    description: >-
+      Ask Claude about your Signal conversations. Persistent history, full-text search, and complete signal-cli coverage
+      — 100% local.
     homepage: null
     topics:
       - claude
@@ -42,14 +48,20 @@ metadata:
       - model-context-protocol
       - privacy
       - signal
-    last_checked_at: "2026-09-03T05:16:51.857Z"
+    last_checked_at: '2026-09-03T05:16:51.857Z'
     readme:
-      fetched_at: "2026-09-03T05:16:51.857Z"
+      fetched_at: '2026-09-03T05:16:51.857Z'
       bytes: 21484
 insights:
-  summary: A local MCP server and CLI that adds persistent SQLite storage, full-text search, and contact resolution to signal-cli.
-  why_it_matters: It transforms an ephemeral CLI tool into a queryable local knowledge base, allowing AI assistants to summarize, search, and act on private Signal communications locally.
-  mental_damage: We have finally reached the stage where we need a database and an LLM just to remember what happened in the group chat from three weeks ago.
+  summary: >-
+    A local MCP server and CLI that adds persistent SQLite storage, full-text search, and contact resolution to
+    signal-cli.
+  why_it_matters: >-
+    It transforms an ephemeral CLI tool into a queryable local knowledge base, allowing AI assistants to summarize,
+    search, and act on private Signal communications locally.
+  mental_damage: >-
+    We have finally reached the stage where we need a database and an LLM just to remember what happened in the group
+    chat from three weeks ago.
   tags:
     - mcp
     - signal
@@ -59,31 +71,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is centered on providing an MCP interface to Signal, making it a classic domain-specific MCP server.
+  reason: >-
+    The product identity is centered on providing an MCP interface to Signal, making it a classic domain-specific MCP
+    server.
   evidence:
     - Repo description identifies it as 'signal-mcp'
     - README explicitly lists '72 MCP tools' and 'Claude via MCP' as the primary usage patterns
     - Included in 'awesome-signal-mcp' under 'Domain Servers' (via the provided source-list context logic)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.819Z"
+    updated_at: '2026-05-28T05:28:09.819Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:51.858Z"
+    updated_at: '2026-09-03T05:16:51.858Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-08T05:41:19.287Z"
+    updated_at: '2026-06-08T05:41:19.287Z'
     cause: null
     next_retry_at: null
     attempts: 1

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__zcaceres__markdownify-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🧮 <a name="data-science-tools"></a>Data Science Tools
         anchor_text: zcaceres/markdownify-mcp
         extracted_url: https://github.com/zcaceres/markdownify-mcp
-        surrounding_text: "- [zcaceres/markdownify-mcp](https://github.com/zcaceres/markdownify-mcp) 📇 🏠 - An MCP server to convert almost any file or web content into Markdown"
+        surrounding_text: >-
+          - [zcaceres/markdownify-mcp](https://github.com/zcaceres/markdownify-mcp) 📇 🏠 - An MCP server to convert
+          almost any file or web content into Markdown
         confidence: high
     - id: discovery__github__zcaceres__markdownify-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - 🛠️ Utilities
         anchor_text: zcaceres/markdownify-mcp
         extracted_url: https://github.com/zcaceres/markdownify-mcp
-        surrounding_text: "-   **[zcaceres/markdownify-mcp](https://github.com/zcaceres/markdownify-mcp)** [![GitHub stars](https://img.shields.io/github/stars/zcaceres/markdownify-mcp?style=social)](https://github.com/zcaceres/markdownify-mcp): Converts various file types and web content to Markdown."
+        surrounding_text: >-
+          -   **[zcaceres/markdownify-mcp](https://github.com/zcaceres/markdownify-mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/zcaceres/markdownify-mcp?style=social)](https://github.com/zcaceres/markdownify-mcp):
+          Converts various file types and web content to Markdown.
         confidence: high
 metadata:
   github:
@@ -45,10 +50,10 @@ metadata:
     archived: false
     full_name: zcaceres/markdownify-mcp
     html_url: https://github.com/zcaceres/markdownify-mcp
-    created_at: "2024-12-18T21:14:52Z"
-    pushed_at: "2026-07-09T05:23:59Z"
+    created_at: '2024-12-18T21:14:52Z'
+    pushed_at: '2026-07-09T05:23:59Z'
     description: A Model Context Protocol server for converting almost anything to Markdown
-    homepage: ""
+    homepage: ''
     topics:
       - ai
       - anthropic
@@ -59,14 +64,18 @@ metadata:
       - model-context-protocol
       - ocr
       - tools
-    last_checked_at: "2026-07-21T15:21:25.808Z"
+    last_checked_at: '2026-07-21T15:21:25.808Z'
     readme:
-      fetched_at: "2026-07-21T15:21:25.808Z"
+      fetched_at: '2026-07-21T15:21:25.808Z'
       bytes: 4399
 insights:
   summary: markdownify-mcp is an MCP server that converts files and web content to Markdown.
-  why_it_matters: It lets AI assistants access and process documents, images, and web content by transforming them into readable Markdown within MCP-enabled workflows.
-  mental_damage: Another MCP server promising to solve context overload by turning everything into Markdown, because apparently LLMs still can't read PDFs natively.
+  why_it_matters: >-
+    It lets AI assistants access and process documents, images, and web content by transforming them into readable
+    Markdown within MCP-enabled workflows.
+  mental_damage: >-
+    Another MCP server promising to solve context overload by turning everything into Markdown, because apparently LLMs
+    still can't read PDFs natively.
   tags:
     - mcp
     - markdown
@@ -74,31 +83,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool is an MCP server whose primary function is file and content conversion to Markdown, making MCP its core identity rather than a secondary feature.
+  reason: >-
+    The tool is an MCP server whose primary function is file and content conversion to Markdown, making MCP its core
+    identity rather than a secondary feature.
   evidence:
-    - "Repo description: 'A Model Context Protocol server for converting almost anything to Markdown'"
-    - "README states: 'Markdownify is a Model Context Protocol (MCP) server that converts various file types and web content to Markdown format'"
+    - 'Repo description: ''A Model Context Protocol server for converting almost anything to Markdown'''
+    - >-
+      README states: 'Markdownify is a Model Context Protocol (MCP) server that converts various file types and web
+      content to Markdown format'
     - Source-list context shows inclusion in awesome-mcp-servers under 'Server Implementations'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: promotion_candidate
   reason: Stars (2675) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.596Z"
+    updated_at: '2026-05-06T22:12:15.596Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:25.808Z"
+    updated_at: '2026-07-21T15:21:25.808Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:51:06.841Z"
+    updated_at: '2026-05-12T15:51:06.841Z'
     cause: null
     next_retry_at: null
     attempts: 1

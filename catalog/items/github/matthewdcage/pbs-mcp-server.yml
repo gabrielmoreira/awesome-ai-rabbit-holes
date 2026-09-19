@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__matthewdcage__pbs-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: PBS API
         extracted_url: https://github.com/matthewdcage/pbs-mcp-server
-        surrounding_text: "- **[PBS API](https://github.com/matthewdcage/pbs-mcp-server)** - 🐍 ☁️ Access Australian Pharmaceutical Benefits Scheme data for medicine information, pricing, and availability. Built with Python and FastAPI."
+        surrounding_text: >-
+          - **[PBS API](https://github.com/matthewdcage/pbs-mcp-server)** - 🐍 ☁️ Access Australian Pharmaceutical
+          Benefits Scheme data for medicine information, pricing, and availability. Built with Python and FastAPI.
         confidence: high
 metadata:
   github:
@@ -29,19 +31,25 @@ metadata:
     archived: false
     full_name: matthewdcage/pbs-mcp-server
     html_url: https://github.com/matthewdcage/pbs-mcp-server
-    created_at: "2025-03-12T01:44:27Z"
-    pushed_at: "2025-03-12T10:30:49Z"
+    created_at: '2025-03-12T01:44:27Z'
+    pushed_at: '2025-03-12T10:30:49Z'
     description: Australian Pharmaceutical Benefits Scheme PBS API Server using Anthropic MCP with natural language LLM integration
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:16:57.680Z"
+    last_checked_at: '2026-08-03T05:16:57.680Z'
     readme:
-      fetched_at: "2026-08-03T05:16:57.680Z"
+      fetched_at: '2026-08-03T05:16:57.680Z'
       bytes: 12560
 insights:
-  summary: A standalone MCP server that provides AI models with access to the Australian Pharmaceutical Benefits Scheme API for querying medicine data via natural language.
-  why_it_matters: Developers building healthcare-focused AI tools can now integrate real-time PBS medication data without building custom API wrappers.
-  mental_damage: Yet another niche MCP server promising seamless AI integration—because nothing says 'productive workflow' like asking Claude for insulin codes while pretending it's not just a thin HTTP client with extra steps.
+  summary: >-
+    A standalone MCP server that provides AI models with access to the Australian Pharmaceutical Benefits Scheme API for
+    querying medicine data via natural language.
+  why_it_matters: >-
+    Developers building healthcare-focused AI tools can now integrate real-time PBS medication data without building
+    custom API wrappers.
+  mental_damage: >-
+    Yet another niche MCP server promising seamless AI integration—because nothing says 'productive workflow' like
+    asking Claude for insulin codes while pretending it's not just a thin HTTP client with extra steps.
   tags:
     - mcp
     - healthcare
@@ -49,31 +57,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is fundamentally an MCP server whose primary purpose is exposing a specific domain API (PBS) through the Model Context Protocol, making MCP the core product identity rather than a compatibility feature.
+  reason: >-
+    The project is fundamentally an MCP server whose primary purpose is exposing a specific domain API (PBS) through the
+    Model Context Protocol, making MCP the core product identity rather than a compatibility feature.
   evidence:
-    - Repo description explicitly states it is an 'Australian Pharmaceutical Benefits Scheme PBS API Server using Anthropic MCP'
-    - README describes it as a 'standalone Model Context Protocol (MCP) server' with MCP-specific features like tools, transport layers, and LLM integration
+    - >-
+      Repo description explicitly states it is an 'Australian Pharmaceutical Benefits Scheme PBS API Server using
+      Anthropic MCP'
+    - >-
+      README describes it as a 'standalone Model Context Protocol (MCP) server' with MCP-specific features like tools,
+      transport layers, and LLM integration
     - Listed in 'awesome-mcp-servers' under Community Servers section, confirming its recognition as an MCP server
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.629Z"
+    updated_at: '2026-05-06T22:12:15.629Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:57.680Z"
+    updated_at: '2026-08-03T05:16:57.680Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:19:25.177Z"
+    updated_at: '2026-07-21T16:19:25.177Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -86,14 +101,22 @@ processing:
       input_hash: sha256:e9ee87f521c667109490675f323206b1ac1ce811e9e4df9b655ea574cfe0b135
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is fundamentally an MCP server whose primary purpose is exposing a specific domain API (PBS) through the Model Context Protocol, making MCP the core product identity rather than a compatibility feature.
+      decision_reason: >-
+        The project is fundamentally an MCP server whose primary purpose is exposing a specific domain API (PBS) through
+        the Model Context Protocol, making MCP the core product identity rather than a compatibility feature.
       decision_evidence:
-        - Repo description explicitly states it is an 'Australian Pharmaceutical Benefits Scheme PBS API Server using Anthropic MCP'
-        - README describes it as a 'standalone Model Context Protocol (MCP) server' with MCP-specific features like tools, transport layers, and LLM integration
+        - >-
+          Repo description explicitly states it is an 'Australian Pharmaceutical Benefits Scheme PBS API Server using
+          Anthropic MCP'
+        - >-
+          README describes it as a 'standalone Model Context Protocol (MCP) server' with MCP-specific features like
+          tools, transport layers, and LLM integration
         - Listed in 'awesome-mcp-servers' under Community Servers section, confirming its recognition as an MCP server
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server providing domain-specific API access, not an extension that augments another coding assistant with host capabilities like debugger or browser access.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server providing domain-specific API access, not
+        an extension that augments another coding assistant with host capabilities like debugger or browser access.
       review_reason: null
       review_resume_lifecycle: null

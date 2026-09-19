@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kaito-project__kaito__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,12 @@ provenance:
           - Frameworks/Servers for Serving
         anchor_text: Kaito
         extracted_url: https://github.com/kaito-project/kaito
-        surrounding_text: "| [Kaito](https://github.com/kaito-project/kaito)                            | A Kubernetes operator that simplifies serving and tuning large AI models (e.g. Falcon or phi-3) using container images and GPU auto-provisioning. Includes an OpenAI-compatible server for inference and preset configurations for popular runtimes such as vLLM and transformers.                                                                 | ![GitHub Badge](https://img.shields.io/github/stars/kaito-project/kaito.svg?style=flat-square)            |"
+        surrounding_text: >-
+          | [Kaito](https://github.com/kaito-project/kaito)                            | A Kubernetes operator that
+          simplifies serving and tuning large AI models (e.g. Falcon or phi-3) using container images and GPU
+          auto-provisioning. Includes an OpenAI-compatible server for inference and preset configurations for popular
+          runtimes such as vLLM and transformers.                                                                 |
+          ![GitHub Badge](https://img.shields.io/github/stars/kaito-project/kaito.svg?style=flat-square)            |
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: kaito-project/kaito
     html_url: https://github.com/kaito-project/kaito
-    created_at: "2023-09-09T01:53:38Z"
-    pushed_at: "2026-07-29T16:14:54Z"
+    created_at: '2023-09-09T01:53:38Z'
+    pushed_at: '2026-07-29T16:14:54Z'
     description: Kubernetes AI Toolchain Operator
     homepage: https://kaito-project.github.io/kaito/docs/
     topics:
@@ -39,14 +44,20 @@ metadata:
       - gpu
       - kubernetes
       - operator
-    last_checked_at: "2026-07-30T05:05:54.244Z"
+    last_checked_at: '2026-07-30T05:05:54.244Z'
     readme:
-      fetched_at: "2026-07-30T05:05:54.244Z"
+      fetched_at: '2026-07-30T05:05:54.244Z'
       bytes: 9771
 insights:
-  summary: Kubernetes AI Toolchain Operator that automates LLM model inference, fine-tuning, and RAG engine deployment in Kubernetes clusters.
-  why_it_matters: It simplifies deploying and scaling LLM workloads in Kubernetes by abstracting GPU provisioning, model storage, and inference engine configuration.
-  mental_damage: Finally, a way to make Kubernetes do the heavy lifting for your AI workloads, because manually tuning tensor parallelism was clearly the highlight of your week.
+  summary: >-
+    Kubernetes AI Toolchain Operator that automates LLM model inference, fine-tuning, and RAG engine deployment in
+    Kubernetes clusters.
+  why_it_matters: >-
+    It simplifies deploying and scaling LLM workloads in Kubernetes by abstracting GPU provisioning, model storage, and
+    inference engine configuration.
+  mental_damage: >-
+    Finally, a way to make Kubernetes do the heavy lifting for your AI workloads, because manually tuning tensor
+    parallelism was clearly the highlight of your week.
   tags:
     - kubernetes
     - llm-serving
@@ -56,31 +67,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: KAITO is a code-first operator suite for Kubernetes that developers integrate into their infrastructure to automate LLM inference and RAG deployments, fitting the Frameworks & SDKs category as a workflow engine.
+  reason: >-
+    KAITO is a code-first operator suite for Kubernetes that developers integrate into their infrastructure to automate
+    LLM inference and RAG deployments, fitting the Frameworks & SDKs category as a workflow engine.
   evidence:
-    - "Repo description: 'Kubernetes AI Toolchain Operator'"
-    - "README: automates LLM inference, fine-tuning, and RAG engine deployment in Kubernetes"
-    - "Source-list context: listed under 'Serving > Frameworks/Servers for Serving' in Awesome-LLMOps"
+    - 'Repo description: ''Kubernetes AI Toolchain Operator'''
+    - 'README: automates LLM inference, fine-tuning, and RAG engine deployment in Kubernetes'
+    - 'Source-list context: listed under ''Serving > Frameworks/Servers for Serving'' in Awesome-LLMOps'
 placement:
-  primary_category: ai-frameworks
-  section: Workflow / Graph Engines
+  primary_category: local-ai
+  secondary_categories: []
+  section: Inference Engines
 lifecycle:
   status: promotion_candidate
   reason: Stars (929) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.623Z"
+    updated_at: '2026-05-06T22:12:15.623Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:54.244Z"
+    updated_at: '2026-07-30T05:05:54.244Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:11:50.137Z"
+    updated_at: '2026-07-21T16:11:50.137Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -93,14 +107,18 @@ processing:
       input_hash: sha256:b1e585dc3f7a5efda3e76e3605aa4e72b80ea9899d97ed9e78812f8bda72cc9c
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: KAITO is a code-first operator suite for Kubernetes that developers integrate into their infrastructure to automate LLM inference and RAG deployments, fitting the Frameworks & SDKs category as a workflow engine.
+      decision_reason: >-
+        KAITO is a code-first operator suite for Kubernetes that developers integrate into their infrastructure to
+        automate LLM inference and RAG deployments, fitting the Frameworks & SDKs category as a workflow engine.
       decision_evidence:
-        - "Repo description: 'Kubernetes AI Toolchain Operator'"
-        - "README: automates LLM inference, fine-tuning, and RAG engine deployment in Kubernetes"
-        - "Source-list context: listed under 'Serving > Frameworks/Servers for Serving' in Awesome-LLMOps"
+        - 'Repo description: ''Kubernetes AI Toolchain Operator'''
+        - 'README: automates LLM inference, fine-tuning, and RAG engine deployment in Kubernetes'
+        - 'Source-list context: listed under ''Serving > Frameworks/Servers for Serving'' in Awesome-LLMOps'
       category_candidates:
         - ai-frameworks
         - agent-orchestration
-      contrastive_reason: Choose ai-frameworks over agent-orchestration because KAITO is a Kubernetes operator (code-first workflow engine) rather than a multi-agent coordination platform.
+      contrastive_reason: >-
+        Choose ai-frameworks over agent-orchestration because KAITO is a Kubernetes operator (code-first workflow
+        engine) rather than a multi-agent coordination platform.
       review_reason: null
       review_resume_lifecycle: null

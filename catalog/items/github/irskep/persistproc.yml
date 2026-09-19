@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__irskep__persistproc__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: irskep/persistproc
         extracted_url: https://github.com/irskep/persistproc
-        surrounding_text: "- [irskep/persistproc](https://github.com/irskep/persistproc) 🐍 🏠 - MCP server + command line tool that allows agents to see & control long-running processes like web servers. Start, stop, restart, read logs."
+        surrounding_text: >-
+          - [irskep/persistproc](https://github.com/irskep/persistproc) 🐍 🏠 - MCP server + command line tool that
+          allows agents to see & control long-running processes like web servers. Start, stop, restart, read logs.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: irskep/persistproc
     html_url: https://github.com/irskep/persistproc
-    created_at: "2025-07-01T06:11:12Z"
-    pushed_at: "2025-07-18T21:47:38Z"
+    created_at: '2025-07-01T06:11:12Z'
+    pushed_at: '2025-07-18T21:47:38Z'
     description: MCP server to allow LLMs to manage and inspect long-running processes
     homepage: https://steveasleep.com/persistproc/
     topics: []
-    last_checked_at: "2026-07-30T05:05:45.009Z"
+    last_checked_at: '2026-07-30T05:05:45.009Z'
     readme:
-      fetched_at: "2026-07-30T05:05:45.009Z"
+      fetched_at: '2026-07-30T05:05:45.009Z'
       bytes: 7183
 insights:
   summary: MCP server and CLI tool for managing and inspecting long-running processes for AI agents.
-  why_it_matters: Reduces manual copy-pasting of logs and errors between terminals and AI coding assistants by letting agents directly monitor and control processes.
+  why_it_matters: >-
+    Reduces manual copy-pasting of logs and errors between terminals and AI coding assistants by letting agents directly
+    monitor and control processes.
   mental_damage: Finally, a way to stop playing telephone between your terminal and your AI pair programmer.
   tags:
     - mcp
@@ -51,31 +55,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is as an MCP server providing process management capabilities, not as an extension or coding agent.
+  reason: >-
+    The product's core identity is as an MCP server providing process management capabilities, not as an extension or
+    coding agent.
   evidence:
     - Repo description explicitly states it is an MCP server for process management
     - README emphasizes MCP server functionality and multi-agent workflow use cases
     - Source-list context shows it in an MCP servers collection
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.621Z"
+    updated_at: '2026-05-06T22:12:15.621Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:45.009Z"
+    updated_at: '2026-07-30T05:05:45.009Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:08:39.184Z"
+    updated_at: '2026-07-21T16:08:39.184Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +95,9 @@ processing:
       input_hash: sha256:4f909e856487f264363c833a37cd72655a4aa4eb847a19c6a92a0485ba4e9ffb
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is as an MCP server providing process management capabilities, not as an extension or coding agent.
+      decision_reason: >-
+        The product's core identity is as an MCP server providing process management capabilities, not as an extension
+        or coding agent.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for process management
         - README emphasizes MCP server functionality and multi-agent workflow use cases
@@ -96,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary product identity is an MCP server, not an extension layer for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary product identity is an MCP server, not an extension layer
+        for another assistant.
       review_reason: null
       review_resume_lifecycle: null

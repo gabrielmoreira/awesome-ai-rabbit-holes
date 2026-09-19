@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__j4c0bs__mcp-server-sql-analyzer__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: j4c0bs/mcp-server-sql-analyzer
         extracted_url: https://github.com/j4c0bs/mcp-server-sql-analyzer
-        surrounding_text: "- [j4c0bs/mcp-server-sql-analyzer](https://github.com/j4c0bs/mcp-server-sql-analyzer) 🐍 - MCP server that provides SQL analysis, linting, and dialect conversion using [SQLGlot](https://github.com/tobymao/sqlglot)"
+        surrounding_text: >-
+          - [j4c0bs/mcp-server-sql-analyzer](https://github.com/j4c0bs/mcp-server-sql-analyzer) 🐍 - MCP server that
+          provides SQL analysis, linting, and dialect conversion using [SQLGlot](https://github.com/tobymao/sqlglot)
         confidence: high
     - id: discovery__github__j4c0bs__mcp-server-sql-analyzer__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -33,9 +35,12 @@ provenance:
         mode: parsed
         section_path:
           - 🛠️ Utilities
-        anchor_text: "@j4c0bs/mcp-server-sql-analyzer"
+        anchor_text: '@j4c0bs/mcp-server-sql-analyzer'
         extracted_url: https://github.com/j4c0bs/mcp-server-sql-analyzer
-        surrounding_text: "-   **[@j4c0bs/mcp-server-sql-analyzer](https://github.com/j4c0bs/mcp-server-sql-analyzer)** [![GitHub stars](https://img.shields.io/github/stars/j4c0bs/mcp-server-sql-analyzer?style=social)](https://github.com/j4c0bs/mcp-server-sql-analyzer): Provides SQL analysis, linting, and dialect conversion using SQLGlot."
+        surrounding_text: >-
+          -   **[@j4c0bs/mcp-server-sql-analyzer](https://github.com/j4c0bs/mcp-server-sql-analyzer)** [![GitHub
+          stars](https://img.shields.io/github/stars/j4c0bs/mcp-server-sql-analyzer?style=social)](https://github.com/j4c0bs/mcp-server-sql-analyzer):
+          Provides SQL analysis, linting, and dialect conversion using SQLGlot.
         confidence: high
 metadata:
   github:
@@ -45,18 +50,20 @@ metadata:
     archived: false
     full_name: j4c0bs/mcp-server-sql-analyzer
     html_url: https://github.com/j4c0bs/mcp-server-sql-analyzer
-    created_at: "2025-01-23T16:33:06Z"
-    pushed_at: "2025-07-01T14:37:41Z"
+    created_at: '2025-01-23T16:33:06Z'
+    pushed_at: '2025-07-01T14:37:41Z'
     description: MCP server for SQL static analysis.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:46.396Z"
+    last_checked_at: '2026-07-30T05:05:46.396Z'
     readme:
-      fetched_at: "2026-07-30T05:05:46.396Z"
+      fetched_at: '2026-07-30T05:05:46.396Z'
       bytes: 4596
 insights:
   summary: An MCP server that provides SQL static analysis, linting, and dialect conversion using SQLGlot.
-  why_it_matters: It lets AI assistants validate, transpile, and analyze SQL queries across dialects, reducing syntax errors and improving database-specific guidance.
+  why_it_matters: >-
+    It lets AI assistants validate, transpile, and analyze SQL queries across dialects, reducing syntax errors and
+    improving database-specific guidance.
   mental_damage: Now your AI can argue with you about SQL dialects instead of just guessing them.
   tags:
     - mcp
@@ -66,31 +73,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server with SQL analysis as its core identity, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product is explicitly an MCP server with SQL analysis as its core identity, fitting the MCP Servers & Tooling
+    category.
   evidence:
     - Repo description states it is an MCP server for SQL static analysis
     - README details tools like lint_sql, transpile_sql, and reference extraction
     - Listed in awesome-mcp-list and awesome-mcp-servers under MCP server sections
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.588Z"
+    updated_at: '2026-05-06T22:12:15.588Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:46.396Z"
+    updated_at: '2026-07-30T05:05:46.396Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:09:20.423Z"
+    updated_at: '2026-07-21T16:09:20.423Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -103,7 +113,9 @@ processing:
       input_hash: sha256:a39b93120725f8a1fd9d5c3ed2df988a80a4c27b80e7d3da55a8390b7fca80fe
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server with SQL analysis as its core identity, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product is explicitly an MCP server with SQL analysis as its core identity, fitting the MCP Servers &
+        Tooling category.
       decision_evidence:
         - Repo description states it is an MCP server for SQL static analysis
         - README details tools like lint_sql, transpile_sql, and reference extraction
@@ -111,6 +123,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary identity is an MCP server, not an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary identity is an MCP server, not an extension for another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

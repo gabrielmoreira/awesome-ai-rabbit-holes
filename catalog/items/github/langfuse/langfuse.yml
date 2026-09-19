@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__langfuse__langfuse__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: https://langfuse.com/
         extracted_url: https://langfuse.com/docs/prompts/get-started
-        surrounding_text: "- [langfuse/mcp-server-langfuse](https://github.com/langfuse/mcp-server-langfuse) 🐍 🏠 - MCP server to access and manage LLM application prompts created with [Langfuse]([https://langfuse.com/](https://langfuse.com/docs/prompts/get-started)) Prompt Management."
+        surrounding_text: >-
+          - [langfuse/mcp-server-langfuse](https://github.com/langfuse/mcp-server-langfuse) 🐍 🏠 - MCP server to access
+          and manage LLM application prompts created with
+          [Langfuse]([https://langfuse.com/](https://langfuse.com/docs/prompts/get-started)) Prompt Management.
         confidence: high
     - id: discovery__github__langfuse__langfuse__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -36,10 +39,10 @@ provenance:
           - Observability & Tracing
         anchor_text: Langfuse
         extracted_url: https://github.com/langfuse/langfuse
-        surrounding_text: "| [Langfuse](https://github.com/langfuse/langfuse) | Open-source LLM engineering platform |"
+        surrounding_text: '| [Langfuse](https://github.com/langfuse/langfuse) | Open-source LLM engineering platform |'
         confidence: high
     - id: discovery__github__langfuse__langfuse__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -51,10 +54,12 @@ provenance:
           - Developer tools
         anchor_text: Langfuse
         extracted_url: https://langfuse.com
-        surrounding_text: "- [Langfuse](https://langfuse.com/) - Open-source LLM monitoring platform that helps teams collaboratively debug, analyze, and iterate on their LLM applications. [#opensource](https://github.com/langfuse/langfuse)"
+        surrounding_text: >-
+          - [Langfuse](https://langfuse.com/) - Open-source LLM monitoring platform that helps teams collaboratively
+          debug, analyze, and iterate on their LLM applications. [#opensource](https://github.com/langfuse/langfuse)
         confidence: high
     - id: discovery__github__langfuse__langfuse__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -67,7 +72,10 @@ provenance:
           - Observability
         anchor_text: Langfuse 🪢
         extracted_url: https://langfuse.com
-        surrounding_text: "| [Langfuse 🪢](https://langfuse.com) | Open-source LLM observability platform that helps teams collaboratively debug, analyze, and iterate on their LLM applications. | ![GitHub Badge](https://img.shields.io/github/stars/langfuse/langfuse.svg?style=flat-square)              |"
+        surrounding_text: >-
+          | [Langfuse 🪢](https://langfuse.com) | Open-source LLM observability platform that helps teams
+          collaboratively debug, analyze, and iterate on their LLM applications. | ![GitHub
+          Badge](https://img.shields.io/github/stars/langfuse/langfuse.svg?style=flat-square)              |
         confidence: high
 metadata:
   github:
@@ -77,9 +85,11 @@ metadata:
     archived: false
     full_name: langfuse/langfuse
     html_url: https://github.com/langfuse/langfuse
-    created_at: "2023-05-18T17:47:09Z"
-    pushed_at: "2026-07-29T22:55:23Z"
-    description: "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more. 🍊YC W23 "
+    created_at: '2023-05-18T17:47:09Z'
+    pushed_at: '2026-07-29T22:55:23Z'
+    description: >-
+      🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground,
+      datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more. 🍊YC W23 
     homepage: https://langfuse.com
     topics:
       - analytics
@@ -101,13 +111,17 @@ metadata:
       - prompt-management
       - self-hosted
       - ycombinator
-    last_checked_at: "2026-07-30T05:06:03.227Z"
+    last_checked_at: '2026-07-30T05:06:03.227Z'
     readme:
-      fetched_at: "2026-07-30T05:06:03.227Z"
+      fetched_at: '2026-07-30T05:06:03.227Z'
       bytes: 52651
 insights:
-  summary: Langfuse is an open source LLM engineering platform for observability, evaluation, prompt management, and debugging of AI applications.
-  why_it_matters: It gives developers a unified way to monitor, evaluate, and improve LLM-powered applications in production using real usage data.
+  summary: >-
+    Langfuse is an open source LLM engineering platform for observability, evaluation, prompt management, and debugging
+    of AI applications.
+  why_it_matters: >-
+    It gives developers a unified way to monitor, evaluate, and improve LLM-powered applications in production using
+    real usage data.
   mental_damage: Now you can obsess over token-level latency in production while pretending it’s engineering rigor.
   tags:
     - observability
@@ -117,31 +131,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Langfuse’s core identity is LLM observability and evaluation, making it a fit for the evals category despite also offering prompt management and tracing.
+  reason: >-
+    Langfuse’s core identity is LLM observability and evaluation, making it a fit for the evals category despite also
+    offering prompt management and tracing.
   evidence:
-    - "Repo description: 'Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets'"
-    - "README: 'Langfuse is an open source LLM engineering platform. It helps teams collaboratively develop, monitor, evaluate, and debug AI applications'"
-    - "Source-list context: Included in Awesome-LLMOps under Observability and in awesome-agent-orchestration under Observability & Tracing"
+    - >-
+      Repo description: 'Open source AI engineering platform: LLM evals, observability, metrics, prompt management,
+      playground, datasets'
+    - >-
+      README: 'Langfuse is an open source LLM engineering platform. It helps teams collaboratively develop, monitor,
+      evaluate, and debug AI applications'
+    - >-
+      Source-list context: Included in Awesome-LLMOps under Observability and in awesome-agent-orchestration under
+      Observability & Tracing
 placement:
   primary_category: evals
-  section: Observability / Tracing / EvalOps
+  secondary_categories: []
+  section: Observability & Tracing
 lifecycle:
   status: promotion_candidate
   reason: Stars (26677) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.574Z"
+    updated_at: '2026-05-06T22:12:15.574Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:03.227Z"
+    updated_at: '2026-07-30T05:06:03.227Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:15:00.909Z"
+    updated_at: '2026-07-21T16:15:00.909Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -154,14 +177,24 @@ processing:
       input_hash: sha256:29e387e80dbd0799a1e3b885c6da29c3f9a0cebd186ba92be13cc5ff46697a1e
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: Langfuse’s core identity is LLM observability and evaluation, making it a fit for the evals category despite also offering prompt management and tracing.
+      decision_reason: >-
+        Langfuse’s core identity is LLM observability and evaluation, making it a fit for the evals category despite
+        also offering prompt management and tracing.
       decision_evidence:
-        - "Repo description: 'Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets'"
-        - "README: 'Langfuse is an open source LLM engineering platform. It helps teams collaboratively develop, monitor, evaluate, and debug AI applications'"
-        - "Source-list context: Included in Awesome-LLMOps under Observability and in awesome-agent-orchestration under Observability & Tracing"
+        - >-
+          Repo description: 'Open source AI engineering platform: LLM evals, observability, metrics, prompt management,
+          playground, datasets'
+        - >-
+          README: 'Langfuse is an open source LLM engineering platform. It helps teams collaboratively develop, monitor,
+          evaluate, and debug AI applications'
+        - >-
+          Source-list context: Included in Awesome-LLMOps under Observability and in awesome-agent-orchestration under
+          Observability & Tracing
       category_candidates:
         - evals
         - context-engineering
-      contrastive_reason: Choose evals over context-engineering because Langfuse’s primary value is measuring, scoring, tracing, and comparing model/prompt/agent behavior rather than improving context or prompt assets.
+      contrastive_reason: >-
+        Choose evals over context-engineering because Langfuse’s primary value is measuring, scoring, tracing, and
+        comparing model/prompt/agent behavior rather than improving context or prompt assets.
       review_reason: null
       review_resume_lifecycle: null

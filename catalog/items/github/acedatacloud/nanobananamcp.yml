@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__acedatacloud__nanobananamcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: AceDataCloud/MCPNanoBanana
         extracted_url: https://github.com/acedatacloud/mcpnanobanana
-        surrounding_text: "- [AceDataCloud/MCPNanoBanana](https://github.com/AceDataCloud/MCPNanoBanana) [![AceDataCloud/MCPNanoBanana MCP server](https://glama.ai/mcp/servers/AceDataCloud/MCPNanoBanana/badges/score.svg)](https://glama.ai/mcp/servers/AceDataCloud/MCPNanoBanana) 🐍 ☁️ - NanoBanana AI image generation and editing with virtual try-on and product placement in realistic scenes."
+        surrounding_text: >-
+          - [AceDataCloud/MCPNanoBanana](https://github.com/AceDataCloud/MCPNanoBanana) [![AceDataCloud/MCPNanoBanana
+          MCP
+          server](https://glama.ai/mcp/servers/AceDataCloud/MCPNanoBanana/badges/score.svg)](https://glama.ai/mcp/servers/AceDataCloud/MCPNanoBanana)
+          🐍 ☁️ - NanoBanana AI image generation and editing with virtual try-on and product placement in realistic
+          scenes.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: AceDataCloud/NanoBananaMCP
     html_url: https://github.com/AceDataCloud/NanoBananaMCP
-    created_at: "2026-01-22T09:28:19Z"
-    pushed_at: "2026-09-05T12:23:32Z"
+    created_at: '2026-01-22T09:28:19Z'
+    pushed_at: '2026-09-05T12:23:32Z'
     description: MCP server for Nano Banana AI image generation and editing via Ace Data Cloud.
     homepage: https://platform.acedata.cloud
     topics:
@@ -41,13 +46,17 @@ metadata:
       - image-generation
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-09-17T04:13:29.232Z"
+    last_checked_at: '2026-09-17T04:13:29.232Z'
     readme:
-      fetched_at: "2026-09-17T04:13:29.232Z"
+      fetched_at: '2026-09-17T04:13:29.232Z'
       bytes: 13995
 insights:
-  summary: An MCP server that enables AI models to generate and edit images using Google's Nano Banana model via the AceDataCloud API.
-  why_it_matters: It allows developers to integrate advanced image generation and editing capabilities directly into their existing AI-powered IDEs and chat interfaces like Claude Desktop or Cursor.
+  summary: >-
+    An MCP server that enables AI models to generate and edit images using Google's Nano Banana model via the
+    AceDataCloud API.
+  why_it_matters: >-
+    It allows developers to integrate advanced image generation and editing capabilities directly into their existing
+    AI-powered IDEs and chat interfaces like Claude Desktop or Cursor.
   mental_damage: Now your coding assistant can finally hallucinate high-resolution textures alongside its buggy logic.
   tags:
     - mcp-server
@@ -57,31 +66,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's primary identity is an MCP server providing specific domain capabilities (image generation/editing) to host clients.
+  reason: >-
+    The tool's primary identity is an MCP server providing specific domain capabilities (image generation/editing) to
+    host clients.
   evidence:
     - Repo description explicitly states it is an 'MCP server'
     - README details implementation for Claude Desktop, Cursor, and VS Code via MCP
     - Functionality is centered around providing tools to an MCP-compatible client
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.599Z"
+    updated_at: '2026-05-06T22:12:15.599Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:29.232Z"
+    updated_at: '2026-09-17T04:13:29.232Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:57:08.507Z"
+    updated_at: '2026-07-20T15:57:08.507Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -94,7 +106,9 @@ processing:
       input_hash: sha256:1bd9ffc45dd0cb5eab092ccfe103d812a1b796b5e4447cd774901a90b3fd209c
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The tool's primary identity is an MCP server providing specific domain capabilities (image generation/editing) to host clients.
+      decision_reason: >-
+        The tool's primary identity is an MCP server providing specific domain capabilities (image generation/editing)
+        to host clients.
       decision_evidence:
         - Repo description explicitly states it is an 'MCP server'
         - README details implementation for Claude Desktop, Cursor, and VS Code via MCP
@@ -102,6 +116,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is the protocol implementation itself rather than a traditional IDE plugin.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is the protocol implementation itself rather than
+        a traditional IDE plugin.
       review_reason: null
       review_resume_lifecycle: null

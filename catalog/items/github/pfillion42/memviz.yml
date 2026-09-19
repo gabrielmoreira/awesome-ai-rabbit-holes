@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pfillion42__memviz__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: pfillion42/memviz
         extracted_url: https://github.com/pfillion42/memviz
-        surrounding_text: "- [pfillion42/memviz](https://github.com/pfillion42/memviz) 📇 🏠 🍎 🪟 🐧 - Visual explorer for [MCP Memory Service](https://github.com/doobidoo/mcp-memory-service) SQLite-vec databases. Browse, search, filter, edit memories with dashboard, timeline, UMAP projection, semantic clustering, duplicate detection, and association graph."
+        surrounding_text: >-
+          - [pfillion42/memviz](https://github.com/pfillion42/memviz) 📇 🏠 🍎 🪟 🐧 - Visual explorer for [MCP Memory
+          Service](https://github.com/doobidoo/mcp-memory-service) SQLite-vec databases. Browse, search, filter, edit
+          memories with dashboard, timeline, UMAP projection, semantic clustering, duplicate detection, and association
+          graph.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: pfillion42/memviz
     html_url: https://github.com/pfillion42/memviz
-    created_at: "2026-02-14T22:33:00Z"
-    pushed_at: "2026-02-24T19:15:58Z"
-    description: A local vector memory explorer with a modern UI. Browse, search, visualize and manage SQLite-vec databases from MCP Memory Service.
+    created_at: '2026-02-14T22:33:00Z'
+    pushed_at: '2026-02-24T19:15:58Z'
+    description: >-
+      A local vector memory explorer with a modern UI. Browse, search, visualize and manage SQLite-vec databases from
+      MCP Memory Service.
     homepage: https://github.com/pfillion42/memviz
     topics:
       - claude-code
@@ -44,14 +50,20 @@ metadata:
       - typescript
       - umap
       - vector-database
-    last_checked_at: "2026-07-20T16:42:32.964Z"
+    last_checked_at: '2026-07-20T16:42:32.964Z'
     readme:
-      fetched_at: "2026-07-20T16:42:32.964Z"
+      fetched_at: '2026-07-20T16:42:32.964Z'
       bytes: 8697
 insights:
-  summary: A local web UI for browsing, searching, visualizing, and managing the SQLite-vec memory databases created by the MCP Memory Service.
-  why_it_matters: It gives developers a visual interface to inspect, clean, and understand the vector memories that Claude Code and other MCP clients accumulate over time.
-  mental_damage: You now have an interactive dashboard to micromanage the memories of an AI that you originally asked to just write a function for you.
+  summary: >-
+    A local web UI for browsing, searching, visualizing, and managing the SQLite-vec memory databases created by the MCP
+    Memory Service.
+  why_it_matters: >-
+    It gives developers a visual interface to inspect, clean, and understand the vector memories that Claude Code and
+    other MCP clients accumulate over time.
+  mental_damage: >-
+    You now have an interactive dashboard to micromanage the memories of an AI that you originally asked to just write a
+    function for you.
   tags:
     - memory
     - mcp
@@ -61,35 +73,44 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The core novelty is a visualization and management layer for local vector memory systems used by coding assistants, fitting context engineering over a generic extension label.
+  reason: >-
+    The core novelty is a visualization and management layer for local vector memory systems used by coding assistants,
+    fitting context engineering over a generic extension label.
   evidence:
-    - Repo description states it is 'A local vector memory explorer with a modern UI' for SQLite-vec databases from MCP Memory Service.
-    - README explicitly targets users of 'Claude Code or Claude Desktop with the memory MCP server' to manage their local memory DB.
-    - Built as a React + Express UI surface focused on memory visualization, semantic clustering, and duplicate detection rather than coding assistance.
+    - >-
+      Repo description states it is 'A local vector memory explorer with a modern UI' for SQLite-vec databases from MCP
+      Memory Service.
+    - >-
+      README explicitly targets users of 'Claude Code or Claude Desktop with the memory MCP server' to manage their
+      local memory DB.
+    - >-
+      Built as a React + Express UI surface focused on memory visualization, semantic clustering, and duplicate
+      detection rather than coding assistance.
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: mcp
+  secondary_categories: []
+  section: Clients & Inspector Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.642Z"
+    updated_at: '2026-05-06T22:12:15.642Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:32.964Z"
+    updated_at: '2026-07-20T16:42:32.964Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

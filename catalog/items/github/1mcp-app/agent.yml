@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__1mcp-app__agent__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: 1mcp/agent
         extracted_url: https://github.com/1mcp-app/agent
-        surrounding_text: "- [1mcp/agent](https://github.com/1mcp-app/agent) 📇 ☁️ 🏠 🍎 🪟 🐧 - A unified Model Context Protocol server implementation that aggregates multiple MCP servers into one."
+        surrounding_text: >-
+          - [1mcp/agent](https://github.com/1mcp-app/agent) 📇 ☁️ 🏠 🍎 🪟 🐧 - A unified Model Context Protocol server
+          implementation that aggregates multiple MCP servers into one.
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: 1mcp-app/agent
     html_url: https://github.com/1mcp-app/agent
-    created_at: "2025-03-16T14:05:08Z"
-    pushed_at: "2026-09-15T15:47:34Z"
+    created_at: '2025-03-16T14:05:08Z'
+    pushed_at: '2026-09-15T15:47:34Z'
     description: A unified Model Context Protocol server implementation that aggregates multiple MCP servers into one.
     homepage: https://docs.1mcp.app
     topics:
@@ -41,14 +43,20 @@ metadata:
       - mcp-proxy
       - mcp-server
       - unified-mcp-server
-    last_checked_at: "2026-09-17T04:13:25.451Z"
+    last_checked_at: '2026-09-17T04:13:25.451Z'
     readme:
-      fetched_at: "2026-09-17T04:13:25.451Z"
+      fetched_at: '2026-09-17T04:13:25.451Z'
       bytes: 8655
 insights:
-  summary: A unified Model Context Protocol (MCP) server implementation that aggregates multiple MCP servers into a single runtime.
-  why_it_matters: It solves MCP configuration sprawl and prevents agent context exhaustion by allowing agents to progressively discover tools through a single gateway.
-  mental_damage: Because managing a hundred individual JSON configurations for every single agent session is a special kind of developer hell.
+  summary: >-
+    A unified Model Context Protocol (MCP) server implementation that aggregates multiple MCP servers into a single
+    runtime.
+  why_it_matters: >-
+    It solves MCP configuration sprawl and prevents agent context exhaustion by allowing agents to progressively
+    discover tools through a single gateway.
+  mental_damage: >-
+    Because managing a hundred individual JSON configurations for every single agent session is a special kind of
+    developer hell.
   tags:
     - mcp
     - mcp-server
@@ -65,24 +73,25 @@ curation:
     - Provides a CLI mode specifically for managing tool discovery (inspect/run) for agents
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: promotion_candidate
   reason: Stars (429) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.598Z"
+    updated_at: '2026-05-06T22:12:15.598Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:25.451Z"
+    updated_at: '2026-09-17T04:13:25.451Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:48:31.504Z"
+    updated_at: '2026-07-20T15:48:31.504Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -103,6 +112,8 @@ processing:
       category_candidates:
         - mcp
         - agent-orchestration
-      contrastive_reason: Choose mcp over agent-orchestration because the product's primary identity is a protocol middleware/gateway rather than a multi-agent coordination platform.
+      contrastive_reason: >-
+        Choose mcp over agent-orchestration because the product's primary identity is a protocol middleware/gateway
+        rather than a multi-agent coordination platform.
       review_reason: null
       review_resume_lifecycle: null

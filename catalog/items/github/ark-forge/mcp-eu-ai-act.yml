@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ark-forge__mcp-eu-ai-act__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - ⚖️ <a name="legal"></a>Legal
         anchor_text: ark-forge/mcp-eu-ai-act
         extracted_url: https://github.com/ark-forge/mcp-eu-ai-act
-        surrounding_text: "- [ark-forge/mcp-eu-ai-act](https://github.com/ark-forge/mcp-eu-ai-act) [![mcp-eu-ai-act MCP server](https://glama.ai/mcp/servers/@ark-forge/mcp-eu-ai-act/badges/score.svg)](https://glama.ai/mcp/servers/@ark-forge/mcp-eu-ai-act) 📇 ☁️ - EU AI Act compliance scanner that detects regulatory violations in AI codebases with risk classification and remediation guidance."
+        surrounding_text: >-
+          - [ark-forge/mcp-eu-ai-act](https://github.com/ark-forge/mcp-eu-ai-act) [![mcp-eu-ai-act MCP
+          server](https://glama.ai/mcp/servers/@ark-forge/mcp-eu-ai-act/badges/score.svg)](https://glama.ai/mcp/servers/@ark-forge/mcp-eu-ai-act)
+          📇 ☁️ - EU AI Act compliance scanner that detects regulatory violations in AI codebases with risk
+          classification and remediation guidance.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: ark-forge/mcp-eu-ai-act
     html_url: https://github.com/ark-forge/mcp-eu-ai-act
-    created_at: "2026-02-16T20:28:23Z"
-    pushed_at: "2026-09-01T13:40:24Z"
+    created_at: '2026-02-16T20:28:23Z'
+    pushed_at: '2026-09-01T13:40:24Z'
     description: MCP EU AI Act Compliance Scanner - Open source tool to detect EU AI Act violations in codebases
     homepage: https://arkforge.fr/mcp-eu-ai-act.html
     topics:
@@ -49,9 +53,9 @@ metadata:
       - model-context-protocol
       - python
       - regulation
-    last_checked_at: "2026-09-10T04:12:58.907Z"
+    last_checked_at: '2026-09-10T04:12:58.907Z'
     readme:
-      fetched_at: "2026-09-10T04:12:58.907Z"
+      fetched_at: '2026-09-10T04:12:58.907Z'
       bytes: 17997
 insights:
   summary: MCP server and CLI tool that scans codebases for EU AI Act and GDPR compliance violations.
@@ -66,31 +70,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: it is explicitly an MCP server for compliance scanning, not just an adapter."
+  reason: 'MCP is the product identity here: it is explicitly an MCP server for compliance scanning, not just an adapter.'
   evidence:
     - Repo description explicitly calls it an MCP server
     - README shows MCP integration as primary interface (Claude Code, Cursor, HTTP mode)
     - Core functionality is compliance scanning via MCP protocol
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.603Z"
+    updated_at: '2026-05-06T22:12:15.603Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:12:58.907Z"
+    updated_at: '2026-09-10T04:12:58.907Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:23:56.040Z"
+    updated_at: '2026-07-21T15:23:56.040Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -103,7 +108,7 @@ processing:
       input_hash: sha256:5b491bfa267a5da640927c47bf4d6debe907d34d22a3956bfa3145ab43fd431e
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: it is explicitly an MCP server for compliance scanning, not just an adapter."
+      decision_reason: 'MCP is the product identity here: it is explicitly an MCP server for compliance scanning, not just an adapter.'
       decision_evidence:
         - Repo description explicitly calls it an MCP server
         - README shows MCP integration as primary interface (Claude Code, Cursor, HTTP mode)
@@ -111,6 +116,8 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product's primary identity is as an MCP server for compliance scanning, not a general SDK or framework.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product's primary identity is as an MCP server for compliance
+        scanning, not a general SDK or framework.
       review_reason: null
       review_resume_lifecycle: null

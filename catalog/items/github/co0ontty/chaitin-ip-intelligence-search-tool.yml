@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__co0ontty__chaitin-ip-intelligence-search-tool__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Chaitin IP Intelligence
         extracted_url: https://github.com/co0ontty/chaitin-ip-intelligence-search-tool
-        surrounding_text: "- **[Chaitin IP Intelligence](https://github.com/co0ontty/chaitin-ip-intelligence-search-tool)** - Search for IP addresses using Chaitin's IP Intelligence API."
+        surrounding_text: >-
+          - **[Chaitin IP Intelligence](https://github.com/co0ontty/chaitin-ip-intelligence-search-tool)** - Search for
+          IP addresses using Chaitin's IP Intelligence API.
         confidence: high
 metadata:
   github:
@@ -29,18 +31,20 @@ metadata:
     archived: false
     full_name: co0ontty/chaitin-ip-intelligence-search-tool
     html_url: https://github.com/co0ontty/chaitin-ip-intelligence-search-tool
-    created_at: "2025-04-02T08:37:50Z"
-    pushed_at: "2025-04-03T06:06:40Z"
-    description: "chaitin ip intelligence search tool for mcp "
+    created_at: '2025-04-02T08:37:50Z'
+    pushed_at: '2025-04-03T06:06:40Z'
+    description: 'chaitin ip intelligence search tool for mcp '
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:47.711Z"
+    last_checked_at: '2026-09-07T04:13:47.711Z'
     readme:
-      fetched_at: "2026-09-07T04:13:47.711Z"
+      fetched_at: '2026-09-07T04:13:47.711Z'
       bytes: 2311
 insights:
   summary: An MCP server providing IP reputation and threat intelligence queries via Chaitin's global honeypot network.
-  why_it_matters: Developers can integrate real-time IP threat intelligence into their workflows or agents without leaving their MCP-enabled environment.
+  why_it_matters: >-
+    Developers can integrate real-time IP threat intelligence into their workflows or agents without leaving their
+    MCP-enabled environment.
   mental_damage: Now your coding agent can also judge your users' IPs—because why should security be a separate context switch.
   tags:
     - mcp-server
@@ -57,24 +61,24 @@ curation:
     - Listed in awesome-mcp-servers under 'Community Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:47.711Z"
+    updated_at: '2026-09-07T04:13:47.711Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:43:29.826Z"
+    updated_at: '2026-07-21T15:43:29.826Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -95,6 +99,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

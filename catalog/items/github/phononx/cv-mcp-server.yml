@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__phononx__cv-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,14 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: PhononX/cv-mcp-server
         extracted_url: https://github.com/phononx/cv-mcp-server
-        surrounding_text: "- [PhononX/cv-mcp-server](https://github.com/PhononX/cv-mcp-server) 🎖️ 📇 🏠 ☁️ 🍎 🪟 🐧 - MCP Server that connects AI Agents to [Carbon Voice](https://getcarbon.app). Create, manage, and interact with voice messages, conversations, direct messages, folders, voice memos, AI actions and more in [Carbon Voice](https://getcarbon.app)."
+        surrounding_text: >-
+          - [PhononX/cv-mcp-server](https://github.com/PhononX/cv-mcp-server) 🎖️ 📇 🏠 ☁️ 🍎 🪟 🐧 - MCP Server that
+          connects AI Agents to [Carbon Voice](https://getcarbon.app). Create, manage, and interact with voice messages,
+          conversations, direct messages, folders, voice memos, AI actions and more in [Carbon
+          Voice](https://getcarbon.app).
         confidence: high
     - id: discovery__github__phononx__cv-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +39,11 @@ provenance:
           - Official Servers
         anchor_text: Carbon Voice
         extracted_url: https://github.com/phononx/cv-mcp-server
-        surrounding_text: "- **[Carbon Voice](https://github.com/PhononX/cv-mcp-server)** - <img height=\"20\" width=\"20\" src=\"https://carbonvoice.app/favicon.ico\" align=\"center\"/> MCP Server that connects AI Agents to [Carbon Voice](https://getcarbon.app). Create, manage, and interact with voice messages, conversations, direct messages, folders, voice memos, AI actions and more in [Carbon Voice](https://getcarbon.app)."
+        surrounding_text: >-
+          - **[Carbon Voice](https://github.com/PhononX/cv-mcp-server)** - <img height="20" width="20"
+          src="https://carbonvoice.app/favicon.ico" align="center"/> MCP Server that connects AI Agents to [Carbon
+          Voice](https://getcarbon.app). Create, manage, and interact with voice messages, conversations, direct
+          messages, folders, voice memos, AI actions and more in [Carbon Voice](https://getcarbon.app).
         confidence: high
 metadata:
   github:
@@ -45,19 +53,25 @@ metadata:
     archived: false
     full_name: PhononX/cv-mcp-server
     html_url: https://github.com/PhononX/cv-mcp-server
-    created_at: "2025-06-19T13:29:15Z"
-    pushed_at: "2026-07-06T14:31:04Z"
+    created_at: '2025-06-19T13:29:15Z'
+    pushed_at: '2026-07-06T14:31:04Z'
     description: Carbon Voice MCP Server
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:33.503Z"
+    last_checked_at: '2026-07-20T16:42:33.503Z'
     readme:
-      fetched_at: "2026-07-20T16:42:33.503Z"
+      fetched_at: '2026-07-20T16:42:33.503Z'
       bytes: 14478
 insights:
-  summary: An MCP server that gives AI assistants access to Carbon Voice's API for voice messaging, conversations, and workspace management.
-  why_it_matters: Developers using Cursor or Claude Desktop can let their coding agent read and send voice messages or manage workspaces without leaving the chat.
-  mental_damage: Your AI assistant can now leave angry voice notes in your workspace, ensuring even your asynchronous communication carries the full weight of hallucinated context.
+  summary: >-
+    An MCP server that gives AI assistants access to Carbon Voice's API for voice messaging, conversations, and
+    workspace management.
+  why_it_matters: >-
+    Developers using Cursor or Claude Desktop can let their coding agent read and send voice messages or manage
+    workspaces without leaving the chat.
+  mental_damage: >-
+    Your AI assistant can now leave angry voice notes in your workspace, ensuring even your asynchronous communication
+    carries the full weight of hallucinated context.
   tags:
     - mcp
     - voice
@@ -66,35 +80,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a domain-specific MCP server exposing Carbon Voice API capabilities, which fits clearly as MCP infrastructure rather than a standalone assistant or extension.
+  reason: >-
+    This is a domain-specific MCP server exposing Carbon Voice API capabilities, which fits clearly as MCP
+    infrastructure rather than a standalone assistant or extension.
   evidence:
     - Repo description explicitly states 'Carbon Voice MCP Server'
     - README documents MCP server implementation with tools for voice messaging, conversations, and workspace management
     - Listed in awesome-mcp-servers under Server Implementations and Official Servers sections
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.592Z"
+    updated_at: '2026-05-06T22:12:15.592Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:33.503Z"
+    updated_at: '2026-07-20T16:42:33.503Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

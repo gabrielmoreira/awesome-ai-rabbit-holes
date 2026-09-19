@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__haiku-trading__haiku-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: Haiku-Trading/haiku-mcp-server
         extracted_url: https://github.com/haiku-trading/haiku-mcp-server
-        surrounding_text: "- [Haiku-Trading/haiku-mcp-server](https://github.com/Haiku-Trading/haiku-mcp-server) [![Haiku-Trading/haiku-mcp-server MCP server](https://glama.ai/mcp/servers/Haiku-Trading/haiku-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/Haiku-Trading/haiku-mcp-server) 📇 ☁️ - DeFi execution MCP server — swap, provide liquidity, lend, bridge, and run yield strategies across 22 chains. 7 tools for token discovery, portfolio analysis, quoting, and execution. `npx haiku-mcp-server`"
+        surrounding_text: >-
+          - [Haiku-Trading/haiku-mcp-server](https://github.com/Haiku-Trading/haiku-mcp-server)
+          [![Haiku-Trading/haiku-mcp-server MCP
+          server](https://glama.ai/mcp/servers/Haiku-Trading/haiku-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/Haiku-Trading/haiku-mcp-server)
+          📇 ☁️ - DeFi execution MCP server — swap, provide liquidity, lend, bridge, and run yield strategies across 22
+          chains. 7 tools for token discovery, portfolio analysis, quoting, and execution. `npx haiku-mcp-server`
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: Haiku-Trading/haiku-mcp-server
     html_url: https://github.com/Haiku-Trading/haiku-mcp-server
-    created_at: "2026-02-05T11:55:21Z"
-    pushed_at: "2026-05-09T04:36:19Z"
-    description: MCP server for DeFi execution — lets AI agents swap, provide liquidity, lend, bridge, and run yield strategies across 22 chains
+    created_at: '2026-02-05T11:55:21Z'
+    pushed_at: '2026-05-09T04:36:19Z'
+    description: >-
+      MCP server for DeFi execution — lets AI agents swap, provide liquidity, lend, bridge, and run yield strategies
+      across 22 chains
     homepage: https://docs.haiku.trade
     topics:
       - ai-agent
@@ -52,13 +59,15 @@ metadata:
       - swap
       - web3
       - yield
-    last_checked_at: "2026-09-03T05:16:56.948Z"
+    last_checked_at: '2026-09-03T05:16:56.948Z'
     readme:
-      fetched_at: "2026-09-03T05:16:56.948Z"
+      fetched_at: '2026-09-03T05:16:56.948Z'
       bytes: 15812
 insights:
   summary: An MCP server that enables AI agents to execute DeFi transactions across 22 blockchain networks via the Haiku API.
-  why_it_matters: It lets developers integrate blockchain operations like swaps, liquidity provision, and yield strategies directly into AI agent workflows.
+  why_it_matters: >-
+    It lets developers integrate blockchain operations like swaps, liquidity provision, and yield strategies directly
+    into AI agent workflows.
   mental_damage: Now your AI agent can lose money in DeFi just like you can.
   tags:
     - mcp-server
@@ -76,24 +85,25 @@ curation:
     - Configuration examples show Claude Desktop MCP server integration
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.617Z"
+    updated_at: '2026-05-06T22:12:15.617Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:56.948Z"
+    updated_at: '2026-09-03T05:16:56.948Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:04:43.936Z"
+    updated_at: '2026-07-21T16:04:43.936Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -114,6 +124,8 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product's core identity is as an MCP server, not a general-purpose SDK or framework.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product's core identity is as an MCP server, not a general-purpose SDK
+        or framework.
       review_reason: null
       review_resume_lifecycle: null

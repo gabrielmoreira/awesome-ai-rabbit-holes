@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ekailabs__contexto__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-21T05:27:57.681Z"
+      discovered_at: '2026-05-21T05:27:57.681Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,11 @@ provenance:
           - LLMOps
         anchor_text: Contexto
         extracted_url: https://github.com/ekailabs/contexto
-        surrounding_text: "| [Contexto](https://github.com/ekailabs/contexto) | Self-hosted context engine for AI agents with persistent conversation memory and recall. Works as a drop-in OpenAI-compatible proxy, OpenClaw plugin, or memory SDK — no code changes required. | ![GitHub Badge](https://img.shields.io/github/stars/ekailabs/contexto.svg?style=flat-square) |"
+        surrounding_text: >-
+          | [Contexto](https://github.com/ekailabs/contexto) | Self-hosted context engine for AI agents with persistent
+          conversation memory and recall. Works as a drop-in OpenAI-compatible proxy, OpenClaw plugin, or memory SDK —
+          no code changes required. | ![GitHub
+          Badge](https://img.shields.io/github/stars/ekailabs/contexto.svg?style=flat-square) |
         confidence: high
 metadata:
   github:
@@ -29,19 +33,25 @@ metadata:
     archived: false
     full_name: ekailabs/contexto
     html_url: https://github.com/ekailabs/contexto
-    created_at: "2025-08-26T06:58:12Z"
-    pushed_at: "2026-06-10T00:43:06Z"
+    created_at: '2025-08-26T06:58:12Z'
+    pushed_at: '2026-06-10T00:43:06Z'
     description: Context Engine for your long-running AI agents
     homepage: https://www.getcontexto.com
     topics: []
-    last_checked_at: "2026-09-14T04:13:47.444Z"
+    last_checked_at: '2026-09-14T04:13:47.444Z'
     readme:
-      fetched_at: "2026-09-14T04:13:47.444Z"
+      fetched_at: '2026-09-14T04:13:47.444Z'
       bytes: 7655
 insights:
-  summary: A context engine that stores full episodic memory for long-running AI agents and retrieves forgotten constraints instead of letting them be compacted away.
-  why_it_matters: It lets developers keep agents reliable across long sessions without prompt hacks, by recovering original instructions and decisions that default context-window compaction would otherwise summarize into oblivion.
-  mental_damage: It is oddly dystopian that we now pay for external episodic memory so our agents can remember not to delete emails after thirty turns.
+  summary: >-
+    A context engine that stores full episodic memory for long-running AI agents and retrieves forgotten constraints
+    instead of letting them be compacted away.
+  why_it_matters: >-
+    It lets developers keep agents reliable across long sessions without prompt hacks, by recovering original
+    instructions and decisions that default context-window compaction would otherwise summarize into oblivion.
+  mental_damage: >-
+    It is oddly dystopian that we now pay for external episodic memory so our agents can remember not to delete emails
+    after thirty turns.
   tags:
     - context-engine
     - memory
@@ -51,31 +61,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's entire identity is memory and retrieval infrastructure for long-running agents, which squarely fits Prompt & Context Engineering rather than being the agent itself or a thin host integration.
+  reason: >-
+    The product's entire identity is memory and retrieval infrastructure for long-running agents, which squarely fits
+    Prompt & Context Engineering rather than being the agent itself or a thin host integration.
   evidence:
-    - README describes itself as a 'context engine' that 'stores full episodes and retrieves old constraints instead of losing them to summaries.'
-    - Core mechanism is hierarchical clustering, beam-search retrieval, and episodic storage—classic context-shaping infrastructure.
-    - Marketed as a drop-in OpenClaw plugin for constraint recovery, not as a coding agent, orchestration platform, or IDE extension layer.
+    - >-
+      README describes itself as a 'context engine' that 'stores full episodes and retrieves old constraints instead of
+      losing them to summaries.'
+    - >-
+      Core mechanism is hierarchical clustering, beam-search retrieval, and episodic storage—classic context-shaping
+      infrastructure.
+    - >-
+      Marketed as a drop-in OpenClaw plugin for constraint recovery, not as a coding agent, orchestration platform, or
+      IDE extension layer.
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: promotion_candidate
   reason: Stars (627) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-21T05:27:57.683Z"
+    updated_at: '2026-05-21T05:27:57.683Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:47.444Z"
+    updated_at: '2026-09-14T04:13:47.444Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-28T05:29:08.986Z"
+    updated_at: '2026-05-28T05:29:08.986Z'
     cause: null
     next_retry_at: null
     attempts: 1

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lwtlong__ai-dev-analytics__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,14 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: LWTlong/ai-dev-analytics
         extracted_url: https://github.com/lwtlong/ai-dev-analytics
-        surrounding_text: "- [LWTlong/ai-dev-analytics](https://github.com/LWTlong/ai-dev-analytics) [![glama.ai](https://glama.ai/mcp/servers/LWTlong/ai-dev-analytics/badges/score.svg)](https://glama.ai/mcp/servers/LWTlong/ai-dev-analytics) 📇 🏠 - An open-source observability layer for AI coding. Silently tracks dev tokens/time and auto-codifies AI deviations into persistent project rules."
+        surrounding_text: >-
+          - [LWTlong/ai-dev-analytics](https://github.com/LWTlong/ai-dev-analytics)
+          [![glama.ai](https://glama.ai/mcp/servers/LWTlong/ai-dev-analytics/badges/score.svg)](https://glama.ai/mcp/servers/LWTlong/ai-dev-analytics)
+          📇 🏠 - An open-source observability layer for AI coding. Silently tracks dev tokens/time and auto-codifies AI
+          deviations into persistent project rules.
         confidence: high
     - id: discovery__github__lwtlong__aida__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-20T15:10:47.684Z"
+      discovered_at: '2026-07-20T15:10:47.684Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -36,7 +40,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: LWTlong/ai-dev-analytics
         extracted_url: https://github.com/lwtlong/ai-dev-analytics
-        surrounding_text: "- [LWTlong/ai-dev-analytics](https://github.com/LWTlong/ai-dev-analytics) [![glama.ai](https://glama.ai/mcp/servers/LWTlong/ai-dev-analytics/badges/score.svg)](https://glama.ai/mcp/servers/LWTlong/ai-dev-analytics) 📇 🏠 - An open-source observability layer for AI coding. Silently tracks dev tokens/time and auto-codifies AI deviations into persistent project rules."
+        surrounding_text: >-
+          - [LWTlong/ai-dev-analytics](https://github.com/LWTlong/ai-dev-analytics)
+          [![glama.ai](https://glama.ai/mcp/servers/LWTlong/ai-dev-analytics/badges/score.svg)](https://glama.ai/mcp/servers/LWTlong/ai-dev-analytics)
+          📇 🏠 - An open-source observability layer for AI coding. Silently tracks dev tokens/time and auto-codifies AI
+          deviations into persistent project rules.
         confidence: high
 metadata:
   github:
@@ -46,18 +54,24 @@ metadata:
     archived: false
     full_name: LWTlong/aida
     html_url: https://github.com/LWTlong/aida
-    created_at: "2026-03-11T13:02:11Z"
-    pushed_at: "2026-07-20T10:16:40Z"
-    description: An open-source AI coding observability layer. Silently tracks vibe coding sessions via MCP and codifies AI deviations into project rules. 100% local.
-    homepage: ""
+    created_at: '2026-03-11T13:02:11Z'
+    pushed_at: '2026-07-20T10:16:40Z'
+    description: >-
+      An open-source AI coding observability layer. Silently tracks vibe coding sessions via MCP and codifies AI
+      deviations into project rules. 100% local.
+    homepage: ''
     topics: []
-    last_checked_at: "2026-08-03T05:16:53.521Z"
+    last_checked_at: '2026-08-03T05:16:53.521Z'
     readme:
-      fetched_at: "2026-08-03T05:16:53.521Z"
+      fetched_at: '2026-08-03T05:16:53.521Z'
       bytes: 4376
 insights:
-  summary: ai-dev-analytics is an open-source MCP-based observability layer that silently tracks AI coding sessions and turns deviations into project rules.
-  why_it_matters: It gives developers visibility into AI coding behavior, enabling data-driven improvements to code quality and reducing repeated mistakes.
+  summary: >-
+    ai-dev-analytics is an open-source MCP-based observability layer that silently tracks AI coding sessions and turns
+    deviations into project rules.
+  why_it_matters: >-
+    It gives developers visibility into AI coding behavior, enabling data-driven improvements to code quality and
+    reducing repeated mistakes.
   mental_damage: Finally, a way to quantify the guilt of letting AI write your code while pretending you’re in control.
   tags:
     - ai-coding
@@ -67,21 +81,30 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product identity is an MCP server that integrates with editors and agents to observe coding sessions and manage project rules, fitting MCP infrastructure over a generic extension or framework label.
+  reason: >-
+    The product identity is an MCP server that integrates with editors and agents to observe coding sessions and manage
+    project rules, fitting MCP infrastructure over a generic extension or framework label.
   evidence:
-    - "Repo description: 'An open-source AI coding observability layer. Silently tracks vibe coding sessions via MCP and codifies AI deviations into project rules. 100% local.'"
-    - README shows MCP configuration examples for Cursor, VS Code Copilot, Windsurf, and Lingma, confirming MCP server identity.
-    - Source list placement in awesome-mcp-servers under 'Server Implementations > Developer Tools' aligns with its MCP infrastructure role.
+    - >-
+      Repo description: 'An open-source AI coding observability layer. Silently tracks vibe coding sessions via MCP and
+      codifies AI deviations into project rules. 100% local.'
+    - >-
+      README shows MCP configuration examples for Cursor, VS Code Copilot, Windsurf, and Lingma, confirming MCP server
+      identity.
+    - >-
+      Source list placement in awesome-mcp-servers under 'Server Implementations > Developer Tools' aligns with its MCP
+      infrastructure role.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: evals
+  secondary_categories: []
+  section: Observability & Tracing
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-dev-extensions'''
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T16:17:38.864Z"
+    updated_at: '2026-07-21T16:17:38.864Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -94,24 +117,35 @@ processing:
       input_hash: sha256:654a3c6eee3c4d9ee772177e067c04bc5b186d9622072d0462724cf2064fde6a
       proposed_primary_category: ai-dev-extensions
       disagreement: true
-      decision_reason: The tool is an MCP server that augments existing coding assistants (like Claude Code, Cursor) with observability and rule-learning capabilities, making it an extension rather than a standalone coding assistant.
+      decision_reason: >-
+        The tool is an MCP server that augments existing coding assistants (like Claude Code, Cursor) with observability
+        and rule-learning capabilities, making it an extension rather than a standalone coding assistant.
       decision_evidence:
-        - "Repo description: 'An open-source AI coding observability layer. Silently tracks vibe coding sessions via MCP and codifies AI deviations into project rules. 100% local.'"
-        - "README: Describes integration via .mcp.json for tools like Cursor, VS Code Copilot, Windsurf, and Lingma, positioning itself as a silent data collector during AI-assisted coding."
-        - "Core function: Collects structured data from AI coding sessions (tasks, deviations, bugs, file changes) and feeds insights back as project rules — enhancing, not replacing, the host assistant."
+        - >-
+          Repo description: 'An open-source AI coding observability layer. Silently tracks vibe coding sessions via MCP
+          and codifies AI deviations into project rules. 100% local.'
+        - >-
+          README: Describes integration via .mcp.json for tools like Cursor, VS Code Copilot, Windsurf, and Lingma,
+          positioning itself as a silent data collector during AI-assisted coding.
+        - >-
+          Core function: Collects structured data from AI coding sessions (tasks, deviations, bugs, file changes) and
+          feeds insights back as project rules — enhancing, not replacing, the host assistant.
       category_candidates:
         - ai-dev-extensions
         - context-engineering
-      contrastive_reason: Choose ai-dev-extensions over context-engineering because the tool’s main value lies in integrating with and augmenting existing coding assistants via MCP to add observability and workflow feedback, not in pioneering memory, retrieval, or prompt-shaping infrastructure as its core novelty.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+      contrastive_reason: >-
+        Choose ai-dev-extensions over context-engineering because the tool’s main value lies in integrating with and
+        augmenting existing coding assistants via MCP to add observability and workflow feedback, not in pioneering
+        memory, retrieval, or prompt-shaping infrastructure as its core novelty.
+      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-dev-extensions'''
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T15:10:47.688Z"
+    updated_at: '2026-07-20T15:10:47.688Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:53.521Z"
+    updated_at: '2026-08-03T05:16:53.521Z'
     cause: null
     next_retry_at: null

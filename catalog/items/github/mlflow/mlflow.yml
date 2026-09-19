@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mlflow__mlflow__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,7 +19,11 @@ provenance:
           - LLMOps
         anchor_text: MLflow
         extracted_url: https://github.com/mlflow/mlflow
-        surrounding_text: "| [MLflow](https://github.com/mlflow/mlflow/tree/master)             | An open-source framework for the end-to-end machine learning lifecycle, helping developers track experiments, evaluate models/prompts, deploy models, and add observability with tracing. | ![GitHub Badge](https://img.shields.io/github/stars/mlflow/mlflow.svg?style=flat-square)  |"
+        surrounding_text: >-
+          | [MLflow](https://github.com/mlflow/mlflow/tree/master)             | An open-source framework for the
+          end-to-end machine learning lifecycle, helping developers track experiments, evaluate models/prompts, deploy
+          models, and add observability with tracing. | ![GitHub
+          Badge](https://img.shields.io/github/stars/mlflow/mlflow.svg?style=flat-square)  |
         confidence: high
 metadata:
   github:
@@ -29,9 +33,12 @@ metadata:
     archived: false
     full_name: mlflow/mlflow
     html_url: https://github.com/mlflow/mlflow
-    created_at: "2018-06-05T16:05:58Z"
-    pushed_at: "2026-08-03T00:34:20Z"
-    description: The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data.
+    created_at: '2018-06-05T16:05:58Z'
+    pushed_at: '2026-08-03T00:34:20Z'
+    description: >-
+      The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to
+      debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing
+      access to models and data.
     homepage: https://mlflow.org
     topics:
       - agentops
@@ -52,14 +59,20 @@ metadata:
       - open-source
       - openai
       - prompt-engineering
-    last_checked_at: "2026-08-03T05:17:05.158Z"
+    last_checked_at: '2026-08-03T05:17:05.158Z'
     readme:
-      fetched_at: "2026-08-03T05:17:05.158Z"
+      fetched_at: '2026-08-03T05:17:05.158Z'
       bytes: 32660
 insights:
-  summary: MLflow is an open-source AI engineering platform for managing the lifecycle of agents, LLMs, and ML models, providing tools for tracing, evaluation, prompt management, and monitoring.
-  why_it_matters: It provides a unified platform for developers to debug, evaluate, and monitor AI applications in production while managing model access and controlling costs.
-  mental_damage: Yet another platform promising to wrangle your LLM chaos into a dashboard, ensuring you can now generate 60 million monthly reports on why your prompts are still hallucinating.
+  summary: >-
+    MLflow is an open-source AI engineering platform for managing the lifecycle of agents, LLMs, and ML models,
+    providing tools for tracing, evaluation, prompt management, and monitoring.
+  why_it_matters: >-
+    It provides a unified platform for developers to debug, evaluate, and monitor AI applications in production while
+    managing model access and controlling costs.
+  mental_damage: >-
+    Yet another platform promising to wrangle your LLM chaos into a dashboard, ensuring you can now generate 60 million
+    monthly reports on why your prompts are still hallucinating.
   tags:
     - llmops
     - observability
@@ -69,35 +82,42 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core value proposition is measuring, tracing, and optimizing AI application behavior (observability, evaluation, prompt optimization) rather than acting as a coding assistant or a pure code-first framework.
+  reason: >-
+    The core value proposition is measuring, tracing, and optimizing AI application behavior (observability, evaluation,
+    prompt optimization) rather than acting as a coding assistant or a pure code-first framework.
   evidence:
-    - Repo description explicitly calls it an 'AI engineering platform' for debugging, evaluating, monitoring, and optimizing AI applications.
-    - README highlights 'observability', 'evaluation', 'prompt management', and 'prompt optimization' as the comprehensive feature set for LLMs and agents.
+    - >-
+      Repo description explicitly calls it an 'AI engineering platform' for debugging, evaluating, monitoring, and
+      optimizing AI applications.
+    - >-
+      README highlights 'observability', 'evaluation', 'prompt management', and 'prompt optimization' as the
+      comprehensive feature set for LLMs and agents.
     - Classified under 'LLMOps' in Awesome-LLMOps, aligning with the evaluation and monitoring scope.
 placement:
   primary_category: evals
-  section: Observability / Tracing / EvalOps
+  secondary_categories: []
+  section: Observability & Tracing
 lifecycle:
   status: promotion_candidate
   reason: Stars (25772) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.630Z"
+    updated_at: '2026-05-06T22:12:15.630Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:05.158Z"
+    updated_at: '2026-08-03T05:17:05.158Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

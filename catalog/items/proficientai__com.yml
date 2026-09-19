@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__proficientai__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Proficient AI
         anchor_text: Proficient AI
         extracted_url: https://proficientai.com
-        surrounding_text: "## [Proficient AI](https://proficientai.com)"
+        surrounding_text: '## [Proficient AI](https://proficientai.com)'
         confidence: high
 metadata:
   github:
@@ -38,7 +38,9 @@ metadata:
 insights:
   summary: Proficient AI is a platform for autonomous AI agents.
   why_it_matters: It offers developers a way to deploy and manage AI agents for automated workflows.
-  mental_damage: Because nothing says 'proficient' like another platform promising to automate all the things you already half-automated.
+  mental_damage: >-
+    Because nothing says 'proficient' like another platform promising to automate all the things you already
+    half-automated.
   tags:
     - autonomous-agents
     - workflow-automation
@@ -46,20 +48,23 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product is listed in awesome-ai-agents as a platform for autonomous agents, aligning with agent orchestration rather than a single coding assistant or extension.
+  reason: >-
+    The product is listed in awesome-ai-agents as a platform for autonomous agents, aligning with agent orchestration
+    rather than a single coding assistant or extension.
   evidence:
     - Seen in awesome-ai-agents under 'Proficient AI'
     - Described as a platform for AI autonomous agents
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Hosted Agent Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +73,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:44.051Z"
+    updated_at: '2026-07-21T15:30:44.051Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -81,13 +86,17 @@ processing:
       input_hash: sha256:49e14d56d580a5b3b64588da4afe1bd29cb2aa50d544895a023c612d2cd0e43b
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The product is listed in awesome-ai-agents as a platform for autonomous agents, aligning with agent orchestration rather than a single coding assistant or extension.
+      decision_reason: >-
+        The product is listed in awesome-ai-agents as a platform for autonomous agents, aligning with agent
+        orchestration rather than a single coding assistant or extension.
       decision_evidence:
         - Seen in awesome-ai-agents under 'Proficient AI'
         - Described as a platform for AI autonomous agents
       category_candidates:
         - agent-orchestration
         - app-builders
-      contrastive_reason: Choose agent-orchestration over app-builders because the core identity is coordinating agents rather than turning prompts into deployed apps.
+      contrastive_reason: >-
+        Choose agent-orchestration over app-builders because the core identity is coordinating agents rather than
+        turning prompts into deployed apps.
       review_reason: null
       review_resume_lifecycle: null

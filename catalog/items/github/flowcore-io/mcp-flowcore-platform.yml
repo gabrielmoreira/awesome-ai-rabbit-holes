@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__flowcore-io__mcp-flowcore-platform__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 📊 <a name="data-platforms"></a>Data Platforms
         anchor_text: flowcore/mcp-flowcore-platform
         extracted_url: https://github.com/flowcore-io/mcp-flowcore-platform
-        surrounding_text: "- [flowcore/mcp-flowcore-platform](https://github.com/flowcore-io/mcp-flowcore-platform) 🎖️ 📇 ☁️ 🏠 - Interact with Flowcore to perform actions, ingest data, and analyse, cross reference and utilise any data in your data cores, or in public data cores; all with human language."
+        surrounding_text: >-
+          - [flowcore/mcp-flowcore-platform](https://github.com/flowcore-io/mcp-flowcore-platform) 🎖️ 📇 ☁️ 🏠 -
+          Interact with Flowcore to perform actions, ingest data, and analyse, cross reference and utilise any data in
+          your data cores, or in public data cores; all with human language.
         confidence: high
 metadata:
   github:
@@ -30,21 +33,23 @@ metadata:
     archived: false
     full_name: flowcore-io/mcp-flowcore-platform
     html_url: https://github.com/flowcore-io/mcp-flowcore-platform
-    created_at: "2025-03-12T12:01:11Z"
-    pushed_at: "2025-05-12T10:50:57Z"
+    created_at: '2025-03-12T12:01:11Z'
+    pushed_at: '2025-05-12T10:50:57Z'
     description: MCP server for managing and interacting with Flowcore Platform
     homepage: https://flowcore.io
     topics:
       - flowcore
       - mcp
       - mcp-server
-    last_checked_at: "2026-09-03T05:16:41.530Z"
+    last_checked_at: '2026-09-03T05:16:41.530Z'
     readme:
-      fetched_at: "2026-09-03T05:16:41.530Z"
+      fetched_at: '2026-09-03T05:16:41.530Z'
       bytes: 2189
 insights:
   summary: An MCP server that enables AI assistants to manage and interact with the Flowcore Platform.
-  why_it_matters: It provides a standardized interface for LLMs to programmatically query and manage Flowcore resources via the Model Context Protocol.
+  why_it_matters: >-
+    It provides a standardized interface for LLMs to programmatically query and manage Flowcore resources via the Model
+    Context Protocol.
   mental_damage: Another protocol to learn, because apparently your coding assistant's context window wasn't hungry enough already.
   tags:
     - mcp
@@ -61,24 +66,25 @@ curation:
     - Primary function is providing a standardized interface for an external platform
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.614Z"
+    updated_at: '2026-05-06T22:12:15.614Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:41.530Z"
+    updated_at: '2026-09-03T05:16:41.530Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:57:20.452Z"
+    updated_at: '2026-07-21T15:57:20.452Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -99,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's identity is defined by the protocol itself rather than a general host integration.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's identity is defined by the protocol itself rather than a
+        general host integration.
       review_reason: null
       review_resume_lifecycle: null

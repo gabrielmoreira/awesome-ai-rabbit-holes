@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cachly__dev__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,13 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: Website
         extracted_url: https://cachly.dev
-        surrounding_text: "- [cachly-dev/cachly-mcp](https://github.com/cachly-dev/cachly-mcp) [![cachly-dev/cachly-mcp MCP server](https://glama.ai/mcp/servers/cachly-dev/cachly-mcp/badges/score.svg)](https://glama.ai/mcp/servers/cachly-dev/cachly-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Persistent AI memory brain for Claude Code, Cursor, Copilot, Windsurf, Cline & Zed. `session_start()` briefs your AI on last session, lessons, and open tasks in one call. 84 tools — Team Brain, semantic BM25+ search, Team Telepathy, Ambient Git Learning, Memory Crystals, Analytics, and managed Valkey/Redis. `npx @cachly-dev/init` — free tier, no credit card. [Website](https://cachly.dev)"
+        surrounding_text: >-
+          - [cachly-dev/cachly-mcp](https://github.com/cachly-dev/cachly-mcp) [![cachly-dev/cachly-mcp MCP
+          server](https://glama.ai/mcp/servers/cachly-dev/cachly-mcp/badges/score.svg)](https://glama.ai/mcp/servers/cachly-dev/cachly-mcp)
+          📇 ☁️ 🏠 🍎 🪟 🐧 - Persistent AI memory brain for Claude Code, Cursor, Copilot, Windsurf, Cline & Zed.
+          `session_start()` briefs your AI on last session, lessons, and open tasks in one call. 84 tools — Team Brain,
+          semantic BM25+ search, Team Telepathy, Ambient Git Learning, Memory Crystals, Analytics, and managed
+          Valkey/Redis. `npx @cachly-dev/init` — free tier, no credit card. [Website](https://cachly.dev)
         confidence: high
 metadata:
   github:
@@ -35,9 +41,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A memory layer for AI coding assistants that bootstraps a knowledge base from git history to provide context on past fixes and architectural decisions.
-  why_it_matters: It eliminates the need to manually re-explain codebase architecture and past bugs to AI assistants by automatically indexing git history into a causal knowledge graph.
-  mental_damage: The dream of never explaining your stack again is only possible if you trust a tool to tell your AI exactly why you made that regrettable architectural choice three months ago.
+  summary: >-
+    A memory layer for AI coding assistants that bootstraps a knowledge base from git history to provide context on past
+    fixes and architectural decisions.
+  why_it_matters: >-
+    It eliminates the need to manually re-explain codebase architecture and past bugs to AI assistants by automatically
+    indexing git history into a causal knowledge graph.
+  mental_damage: >-
+    The dream of never explaining your stack again is only possible if you trust a tool to tell your AI exactly why you
+    made that regrettable architectural choice three months ago.
   tags:
     - mcp
     - memory
@@ -47,21 +59,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product identity is a memory and retrieval system (the 'Brain') designed to shape the context provided to other assistants, which fits the definition of context engineering.
+  reason: >-
+    The core product identity is a memory and retrieval system (the 'Brain') designed to shape the context provided to
+    other assistants, which fits the definition of context engineering.
   evidence:
     - Claims to provide a 'permanent brain' that 'bootstraps from git history'
     - Features 'causal_trace' and 'brain_recall' for semantic memory retrieval
     - Explicitly compares itself to other memory tools like mem0 and MemGPT
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.820Z"
+    updated_at: '2026-05-28T05:28:09.820Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +85,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-06-01T05:41:38.912Z"
+    updated_at: '2026-06-01T05:41:38.912Z'
     cause: null
     next_retry_at: null
     attempts: 2

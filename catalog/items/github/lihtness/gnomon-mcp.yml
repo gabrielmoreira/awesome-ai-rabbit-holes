@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lihtness__gnomon-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🧮 <a name="data-science-tools"></a>Data Science Tools
         anchor_text: lihtness/gnomon-mcp
         extracted_url: https://github.com/lihtness/gnomon-mcp
-        surrounding_text: "- [lihtness/gnomon-mcp](https://github.com/lihtness/gnomon-mcp) [![lihtness/gnomon-mcp MCP server](https://glama.ai/mcp/servers/lihtness/gnomon-mcp/badges/score.svg)](https://glama.ai/mcp/servers/lihtness/gnomon-mcp) 🐍 🏠 🍎 🪟 🐧 - Deterministic batch tools so LLM agents stop next-token-guessing dates and math. Rich `now()` snapshot (18 fields), `calendar(ops)` batch dispatcher (diff/until/since/add/weekday/business_days, natural-language parsing), `calc(expressions)` Python eval with math+stats pre-loaded, and Pint-based unit conversion. One wiring for dates + math + units. Listed in the official MCP Server Registry. `uvx gnomon-mcp`."
+        surrounding_text: >-
+          - [lihtness/gnomon-mcp](https://github.com/lihtness/gnomon-mcp) [![lihtness/gnomon-mcp MCP
+          server](https://glama.ai/mcp/servers/lihtness/gnomon-mcp/badges/score.svg)](https://glama.ai/mcp/servers/lihtness/gnomon-mcp)
+          🐍 🏠 🍎 🪟 🐧 - Deterministic batch tools so LLM agents stop next-token-guessing dates and math. Rich `now()`
+          snapshot (18 fields), `calendar(ops)` batch dispatcher (diff/until/since/add/weekday/business_days,
+          natural-language parsing), `calc(expressions)` Python eval with math+stats pre-loaded, and Pint-based unit
+          conversion. One wiring for dates + math + units. Listed in the official MCP Server Registry. `uvx gnomon-mcp`.
         confidence: high
 metadata:
   github:
@@ -30,10 +36,10 @@ metadata:
     archived: false
     full_name: lihtness/gnomon-mcp
     html_url: https://github.com/lihtness/gnomon-mcp
-    created_at: "2026-05-25T12:26:28Z"
-    pushed_at: "2026-05-26T12:21:04Z"
+    created_at: '2026-05-25T12:26:28Z'
+    pushed_at: '2026-05-26T12:21:04Z'
     description: null
-    homepage: ""
+    homepage: ''
     topics:
       - agents
       - agents-ai-agents-claude
@@ -49,14 +55,20 @@ metadata:
       - mcp-server
       - model-context-protocol
       - python
-    last_checked_at: "2026-07-30T05:06:05.860Z"
+    last_checked_at: '2026-07-30T05:06:05.860Z'
     readme:
-      fetched_at: "2026-07-30T05:06:05.860Z"
+      fetched_at: '2026-07-30T05:06:05.860Z'
       bytes: 11874
 insights:
-  summary: gnomon-mcp is an MCP server providing deterministic date, calendar, arithmetic, and unit conversion tools for AI agents via batch-enabled Python functions.
-  why_it_matters: It eliminates LLM hallucinations in math and date reasoning by offloading computation to reliable, callable tools instead of prompting guesswork.
-  mental_damage: Now your agent can finally stop confidently claiming February 30th is a real date, though you’ll still wonder why it needed an MCP server to learn that.
+  summary: >-
+    gnomon-mcp is an MCP server providing deterministic date, calendar, arithmetic, and unit conversion tools for AI
+    agents via batch-enabled Python functions.
+  why_it_matters: >-
+    It eliminates LLM hallucinations in math and date reasoning by offloading computation to reliable, callable tools
+    instead of prompting guesswork.
+  mental_damage: >-
+    Now your agent can finally stop confidently claiming February 30th is a real date, though you’ll still wonder why it
+    needed an MCP server to learn that.
   tags:
     - mcp
     - utilities
@@ -66,31 +78,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server whose core identity and value lie in exposing deterministic math and date utilities through the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
+  reason: >-
+    The project is an MCP server whose core identity and value lie in exposing deterministic math and date utilities
+    through the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
   evidence:
-    - "README explicitly describes gnomon-mcp as 'a small MCP server for the boring-but-essential utilities every model needs: dates, calendars, arithmetic, unit conversion'"
-    - It provides MCP-exposed tools like `calc`, `calendar`, and `calc_convert` with batch support and natural-language date parsing
-    - Listed in 'awesome-mcp-servers' under 'Data Science Tools', confirming its identity as an MCP server implementation
+    - >-
+      README explicitly describes gnomon-mcp as 'a small MCP server for the boring-but-essential utilities every model
+      needs: dates, calendars, arithmetic, unit conversion'
+    - >-
+      It provides MCP-exposed tools like `calc`, `calendar`, and `calc_convert` with batch support and natural-language
+      date parsing
+    - >-
+      Listed in 'awesome-mcp-servers' under 'Data Science Tools', confirming its identity as an MCP server
+      implementation
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.819Z"
+    updated_at: '2026-05-28T05:28:09.819Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:05.860Z"
+    updated_at: '2026-07-30T05:06:05.860Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-02T05:31:26.168Z"
+    updated_at: '2026-07-02T05:31:26.168Z'
     cause: null
     next_retry_at: null
     attempts: 1

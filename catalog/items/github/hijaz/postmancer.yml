@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hijaz__postmancer__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: hijaz/postmancer
         extracted_url: https://github.com/hijaz/postmancer
-        surrounding_text: "- [hijaz/postmancer](https://github.com/hijaz/postmancer) 📇 🏠 - A MCP server for replacing Rest Clients like Postman/Insomnia, by allowing your LLM to maintain and use api collections."
+        surrounding_text: >-
+          - [hijaz/postmancer](https://github.com/hijaz/postmancer) 📇 🏠 - A MCP server for replacing Rest Clients like
+          Postman/Insomnia, by allowing your LLM to maintain and use api collections.
         confidence: high
 metadata:
   github:
@@ -30,22 +32,26 @@ metadata:
     archived: false
     full_name: hijaz/postmancer
     html_url: https://github.com/hijaz/postmancer
-    created_at: "2025-03-30T04:50:05Z"
-    pushed_at: "2025-08-19T00:45:47Z"
+    created_at: '2025-03-30T04:50:05Z'
+    pushed_at: '2025-08-19T00:45:47Z'
     description: An experimental MCP server Rest Client intended to be a replacement of tools postman & insomnia
-    homepage: ""
+    homepage: ''
     topics:
       - insomnia
       - mcp
       - postman
       - rest-client
-    last_checked_at: "2026-07-30T05:05:37.393Z"
+    last_checked_at: '2026-07-30T05:05:37.393Z'
     readme:
-      fetched_at: "2026-07-30T05:05:37.393Z"
+      fetched_at: '2026-07-30T05:05:37.393Z'
       bytes: 2770
 insights:
-  summary: An MCP server that enables AI assistants to interact with RESTful APIs, offering Postman/Insomnia-like functionality for API testing and management.
-  why_it_matters: Developers can delegate REST API testing and management to AI assistants, streamlining workflows that previously required manual tooling like Postman or Insomnia.
+  summary: >-
+    An MCP server that enables AI assistants to interact with RESTful APIs, offering Postman/Insomnia-like functionality
+    for API testing and management.
+  why_it_matters: >-
+    Developers can delegate REST API testing and management to AI assistants, streamlining workflows that previously
+    required manual tooling like Postman or Insomnia.
   mental_damage: Now your AI can argue with your API docs instead of you.
   tags:
     - mcp-server
@@ -55,31 +61,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the product identity, and the tool is explicitly an MCP server for REST API interaction, fitting the MCP Servers & Tooling category.
+  reason: >-
+    MCP is the product identity, and the tool is explicitly an MCP server for REST API interaction, fitting the MCP
+    Servers & Tooling category.
   evidence:
     - Repo description explicitly states it is an 'MCP server Rest Client'
     - README describes it as an MCP server enabling AI assistants to interact with RESTful APIs
     - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.618Z"
+    updated_at: '2026-05-06T22:12:15.618Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:37.393Z"
+    updated_at: '2026-07-30T05:05:37.393Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:05:38.922Z"
+    updated_at: '2026-07-21T16:05:38.922Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -92,7 +101,9 @@ processing:
       input_hash: sha256:d23eac3c5606c561c1f66327b5f307f9b87fb81566813dbb3d7cc745da3c8780
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the product identity, and the tool is explicitly an MCP server for REST API interaction, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        MCP is the product identity, and the tool is explicitly an MCP server for REST API interaction, fitting the MCP
+        Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an 'MCP server Rest Client'
         - README describes it as an MCP server enabling AI assistants to interact with RESTful APIs
@@ -100,6 +111,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server, not merely an extension for
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

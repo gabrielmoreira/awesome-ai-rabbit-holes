@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__theralabs__legion-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: TheRaLabs/legion-mcp
         extracted_url: https://github.com/theralabs/legion-mcp
-        surrounding_text: "- [TheRaLabs/legion-mcp](https://github.com/TheRaLabs/legion-mcp) 🐍 🏠 Universal database MCP server supporting multiple database types including PostgreSQL, Redshift, CockroachDB, MySQL, RDS MySQL, Microsoft SQL Server, BigQuery, Oracle DB, and SQLite."
+        surrounding_text: >-
+          - [TheRaLabs/legion-mcp](https://github.com/TheRaLabs/legion-mcp) 🐍 🏠 Universal database MCP server
+          supporting multiple database types including PostgreSQL, Redshift, CockroachDB, MySQL, RDS MySQL, Microsoft
+          SQL Server, BigQuery, Oracle DB, and SQLite.
         confidence: high
     - id: discovery__github__theralabs__legion-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +38,10 @@ provenance:
           - Community Servers
         anchor_text: Database
         extracted_url: https://github.com/theralabs/legion-mcp
-        surrounding_text: "- **[Database](https://github.com/TheRaLabs/legion-mcp)** (by Legion AI) - Universal database MCP server supporting multiple database types including PostgreSQL, Redshift, CockroachDB, MySQL, RDS MySQL, Microsoft SQL Server, BigQuery, Oracle DB, and SQLite"
+        surrounding_text: >-
+          - **[Database](https://github.com/TheRaLabs/legion-mcp)** (by Legion AI) - Universal database MCP server
+          supporting multiple database types including PostgreSQL, Redshift, CockroachDB, MySQL, RDS MySQL, Microsoft
+          SQL Server, BigQuery, Oracle DB, and SQLite
         confidence: high
 metadata:
   github:
@@ -45,9 +51,11 @@ metadata:
     archived: false
     full_name: TheRaLabs/legion-mcp
     html_url: https://github.com/TheRaLabs/legion-mcp
-    created_at: "2025-03-24T02:06:22Z"
-    pushed_at: "2025-05-11T02:46:12Z"
-    description: A server that helps people access and query data in databases using the Legion Query Runner with Model Context Protocol (MCP) in Python.
+    created_at: '2025-03-24T02:06:22Z'
+    pushed_at: '2025-05-11T02:46:12Z'
+    description: >-
+      A server that helps people access and query data in databases using the Legion Query Runner with Model Context
+      Protocol (MCP) in Python.
     homepage: https://thelegionai.com/
     topics:
       - database
@@ -55,14 +63,20 @@ metadata:
       - mcp
       - mcp-server
       - query-builder
-    last_checked_at: "2026-07-21T15:20:47.625Z"
+    last_checked_at: '2026-07-21T15:20:47.625Z'
     readme:
-      fetched_at: "2026-07-21T15:20:47.625Z"
+      fetched_at: '2026-07-21T15:20:47.625Z'
       bytes: 11744
 insights:
-  summary: A Python MCP server that provides a unified interface for AI assistants to query multiple databases, including PostgreSQL, MySQL, and SQL Server, via the Legion Query Runner.
-  why_it_matters: It allows developers to give coding agents and LLM apps secure, zero-config access to various database schemas and query execution without writing custom database connectors.
-  mental_damage: Finally, your AI can ignore your carefully normalized schema and hallucinate SQL joins across PostgreSQL and MySQL simultaneously, just as nature intended.
+  summary: >-
+    A Python MCP server that provides a unified interface for AI assistants to query multiple databases, including
+    PostgreSQL, MySQL, and SQL Server, via the Legion Query Runner.
+  why_it_matters: >-
+    It allows developers to give coding agents and LLM apps secure, zero-config access to various database schemas and
+    query execution without writing custom database connectors.
+  mental_damage: >-
+    Finally, your AI can ignore your carefully normalized schema and hallucinate SQL joins across PostgreSQL and MySQL
+    simultaneously, just as nature intended.
   tags:
     - mcp
     - database
@@ -72,35 +86,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server implementation for database access, fitting the 'MCP Servers & Tooling' category.
+  reason: >-
+    The product's primary identity is an MCP server implementation for database access, fitting the 'MCP Servers &
+    Tooling' category.
   evidence:
     - Repo description explicitly states it is a server using Model Context Protocol (MCP) to query databases.
     - Found in 'awesome-mcp-servers' under 'Databases' and 'Community Servers' sections.
     - README highlights exposing database operations as MCP resources, tools, and prompts using the MCP Python SDK.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.594Z"
+    updated_at: '2026-05-06T22:12:15.594Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:47.625Z"
+    updated_at: '2026-07-21T15:20:47.625Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

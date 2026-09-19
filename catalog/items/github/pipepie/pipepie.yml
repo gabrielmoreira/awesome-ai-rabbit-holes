@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pipepie__pipepie__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: pipepie/pipepie
         extracted_url: https://github.com/pipepie/pipepie
-        surrounding_text: "- [pipepie/pipepie](https://github.com/pipepie/pipepie) [![pipepie/pipepie MCP server](https://glama.ai/mcp/servers/pipepie/pipepie/badges/score.svg)](https://glama.ai/mcp/servers/pipepie/pipepie) 🏎️ 🏠 - Self-hosted webhook relay and tunnel with Noise NK encryption. 13 MCP tools to inspect requests, replay webhooks, trace AI pipelines, connect/disconnect tunnels, and manage subdomains. No tokens or passwords — the cryptographic handshake is the auth."
+        surrounding_text: >-
+          - [pipepie/pipepie](https://github.com/pipepie/pipepie) [![pipepie/pipepie MCP
+          server](https://glama.ai/mcp/servers/pipepie/pipepie/badges/score.svg)](https://glama.ai/mcp/servers/pipepie/pipepie)
+          🏎️ 🏠 - Self-hosted webhook relay and tunnel with Noise NK encryption. 13 MCP tools to inspect requests,
+          replay webhooks, trace AI pipelines, connect/disconnect tunnels, and manage subdomains. No tokens or passwords
+          — the cryptographic handshake is the auth.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: pipepie/pipepie
     html_url: https://github.com/pipepie/pipepie
-    created_at: "2026-03-30T18:56:13Z"
-    pushed_at: "2026-04-02T14:12:32Z"
-    description: Self-hosted encrypted tunnel for webhooks, AI pipelines, and local development. End-to-end Noise encryption, pipeline tracing, web dashboard, MCP server for AI tools.
+    created_at: '2026-03-30T18:56:13Z'
+    pushed_at: '2026-04-02T14:12:32Z'
+    description: >-
+      Self-hosted encrypted tunnel for webhooks, AI pipelines, and local development. End-to-end Noise encryption,
+      pipeline tracing, web dashboard, MCP server for AI tools.
     homepage: null
     topics:
       - ai-pipeline
@@ -48,14 +55,20 @@ metadata:
       - self-hosted
       - tunnel
       - webhook
-    last_checked_at: "2026-07-20T16:42:34.803Z"
+    last_checked_at: '2026-07-20T16:42:34.803Z'
     readme:
-      fetched_at: "2026-07-20T16:42:34.803Z"
+      fetched_at: '2026-07-20T16:42:34.803Z'
       bytes: 9062
 insights:
-  summary: A self-hosted, encrypted tunnel tool for webhooks and local development that includes built-in pipeline tracing and an MCP server for AI tooling integration.
-  why_it_matters: It gives developers a private, observable tunnel for debugging AI webhooks and lets AI assistants directly manage tunnels and inspect traces via MCP.
-  mental_damage: Yet another self-hosted ngrok alternative that promises to solve the 'my webhook payload is a black box' anxiety, now with 577 req/s of encrypted peace of mind.
+  summary: >-
+    A self-hosted, encrypted tunnel tool for webhooks and local development that includes built-in pipeline tracing and
+    an MCP server for AI tooling integration.
+  why_it_matters: >-
+    It gives developers a private, observable tunnel for debugging AI webhooks and lets AI assistants directly manage
+    tunnels and inspect traces via MCP.
+  mental_damage: >-
+    Yet another self-hosted ngrok alternative that promises to solve the 'my webhook payload is a black box' anxiety,
+    now with 577 req/s of encrypted peace of mind.
   tags:
     - self-hosted
     - tunnel
@@ -64,36 +77,35 @@ insights:
     - pipeline-tracing
   confidence: medium
 curation:
-  status: included
-  reason: The product includes a built-in MCP server as a core feature, and its identity as a tunnel/middleware with AI-specific tracing aligns with MCP infrastructure tooling.
+  status: pending
+  reason: 'Manual audit: Primary identity is a tunneling tool; MCP is incidental.'
   evidence:
-    - Repo description states it is a 'Self-hosted encrypted tunnel... with MCP server for AI tools.'
-    - README explicitly lists 'MCP server built-in — pie mcp gives Claude, Cursor, and AI tools direct access to tunnels.'
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+    - Manual review of Jev Middleware & Generic audit, 2026-09-19
 placement:
-  primary_category: mcp
-  section: Generic Servers & Middleware
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.642Z"
+    updated_at: '2026-05-06T22:12:15.642Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:34.803Z"
+    updated_at: '2026-07-20T16:42:34.803Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

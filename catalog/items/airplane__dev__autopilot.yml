@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__airplane__dev__autopilot__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-20T16:42:15.363Z"
+      discovered_at: '2026-07-20T16:42:15.363Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Airplane Autopilot
         anchor_text: Airplane Autopilot
         extracted_url: https://airplane.dev/autopilot
-        surrounding_text: "## [Airplane Autopilot](https://www.airplane.dev/autopilot/?utm_source=awesome-ai-agents/)"
+        surrounding_text: '## [Airplane Autopilot](https://www.airplane.dev/autopilot/?utm_source=awesome-ai-agents/)'
         confidence: high
     - id: discovery__www__airplane__dev__autopilot__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Airplane Autopilot
         anchor_text: Airplane Autopilot
         extracted_url: https://www.airplane.dev/autopilot
-        surrounding_text: "## [Airplane Autopilot](https://www.airplane.dev/autopilot/?utm_source=awesome-ai-agents/)"
+        surrounding_text: '## [Airplane Autopilot](https://www.airplane.dev/autopilot/?utm_source=awesome-ai-agents/)'
         confidence: high
 metadata:
   github:
@@ -52,7 +52,9 @@ metadata:
     readme: null
 insights:
   summary: Airplane Autopilot is an AI agent platform for automating workflows and tasks.
-  why_it_matters: It enables developers to delegate repetitive or complex workflows to autonomous agents, reducing manual intervention in operational tasks.
+  why_it_matters: >-
+    It enables developers to delegate repetitive or complex workflows to autonomous agents, reducing manual intervention
+    in operational tasks.
   mental_damage: Now you can spend more time debugging the agent that was supposed to save you time.
   tags:
     - agent-orchestration
@@ -61,20 +63,23 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product is a platform for coordinating autonomous agents to perform workflows, fitting the agent orchestration category.
+  reason: >-
+    The product is a platform for coordinating autonomous agents to perform workflows, fitting the agent orchestration
+    category.
   evidence:
     - Listed in awesome-ai-agents under 'Airplane Autopilot'
     - Product identity aligns with multi-agent coordination and workflow automation
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Hosted Agent Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:32:18.537Z"
+    updated_at: '2026-07-21T15:32:18.537Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -87,19 +92,23 @@ processing:
       input_hash: sha256:4a9ea079aee02f4dc1a0452c826a6939b864d207834b18ef99ae34de093ab424
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The product is a platform for coordinating autonomous agents to perform workflows, fitting the agent orchestration category.
+      decision_reason: >-
+        The product is a platform for coordinating autonomous agents to perform workflows, fitting the agent
+        orchestration category.
       decision_evidence:
         - Listed in awesome-ai-agents under 'Airplane Autopilot'
         - Product identity aligns with multi-agent coordination and workflow automation
       category_candidates:
         - agent-orchestration
         - app-builders
-      contrastive_reason: Choose agent-orchestration over app-builders because the core value is coordinating agents for workflows rather than generating apps from prompts.
+      contrastive_reason: >-
+        Choose agent-orchestration over app-builders because the core value is coordinating agents for workflows rather
+        than generating apps from prompts.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T16:42:15.364Z"
+    updated_at: '2026-07-20T16:42:15.364Z'
     cause: null
     next_retry_at: null
   stars:

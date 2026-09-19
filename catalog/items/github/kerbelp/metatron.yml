@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kerbelp__metatron__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-08T05:39:05.247Z"
+      discovered_at: '2026-06-08T05:39:05.247Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: kerbelp/metatron
         extracted_url: https://github.com/kerbelp/metatron
-        surrounding_text: "- [kerbelp/metatron](https://github.com/kerbelp/metatron) [![kerbelp/metatron MCP server](https://glama.ai/mcp/servers/kerbelp/metatron/badges/score.svg)](https://glama.ai/mcp/servers/kerbelp/metatron) 🐍 🏠 🍎 🪟 🐧 - Self-hosted codebase priors and conventions server. Captures codebase design patterns, conventions, and implementation decisions from git history and developer feedback, serving them to coding agents to ensure local project standards are followed."
+        surrounding_text: >-
+          - [kerbelp/metatron](https://github.com/kerbelp/metatron) [![kerbelp/metatron MCP
+          server](https://glama.ai/mcp/servers/kerbelp/metatron/badges/score.svg)](https://glama.ai/mcp/servers/kerbelp/metatron)
+          🐍 🏠 🍎 🪟 🐧 - Self-hosted codebase priors and conventions server. Captures codebase design patterns,
+          conventions, and implementation decisions from git history and developer feedback, serving them to coding
+          agents to ensure local project standards are followed.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,12 @@ metadata:
     archived: false
     full_name: kerbelp/metatron
     html_url: https://github.com/kerbelp/metatron
-    created_at: "2026-06-03T10:48:12Z"
-    pushed_at: "2026-07-29T03:55:19Z"
-    description: Git-native context layer for AI coding agents. Your team's real engineering decisions — patterns, pitfalls, conventions — live as reviewed markdown files in your repo; agents consult them before writing code and record what they learn. Files-first, no server required; MCP as an optional serving layer.
+    created_at: '2026-06-03T10:48:12Z'
+    pushed_at: '2026-07-29T03:55:19Z'
+    description: >-
+      Git-native context layer for AI coding agents. Your team's real engineering decisions — patterns, pitfalls,
+      conventions — live as reviewed markdown files in your repo; agents consult them before writing code and record
+      what they learn. Files-first, no server required; MCP as an optional serving layer.
     homepage: https://getmetatron.com/
     topics:
       - agentic-ai
@@ -49,14 +57,20 @@ metadata:
       - mcp-tools
       - model-context-protocol
       - tree-sitter
-    last_checked_at: "2026-07-30T05:05:55.865Z"
+    last_checked_at: '2026-07-30T05:05:55.865Z'
     readme:
-      fetched_at: "2026-07-30T05:05:55.865Z"
+      fetched_at: '2026-07-30T05:05:55.865Z'
       bytes: 39192
 insights:
-  summary: A self-hosted system that captures codebase implementation decisions and serves them to coding agents via the Model Context Protocol.
-  why_it_matters: It allows coding agents to respect specific team conventions and avoid previously rejected approaches by providing structured codebase memory.
-  mental_damage: Your agent will finally possess the 'senior engineer' persona, meaning it can now use your own past architectural mistakes to argue against your current PRs.
+  summary: >-
+    A self-hosted system that captures codebase implementation decisions and serves them to coding agents via the Model
+    Context Protocol.
+  why_it_matters: >-
+    It allows coding agents to respect specific team conventions and avoid previously rejected approaches by providing
+    structured codebase memory.
+  mental_damage: >-
+    Your agent will finally possess the 'senior engineer' persona, meaning it can now use your own past architectural
+    mistakes to argue against your current PRs.
   tags:
     - mcp
     - context-engineering
@@ -65,31 +79,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's core novelty is the structured capture and retrieval of codebase memory to shape agent context, fitting the primary definition of context engineering.
+  reason: >-
+    The tool's core novelty is the structured capture and retrieval of codebase memory to shape agent context, fitting
+    the primary definition of context engineering.
   evidence:
     - Captures implementation decisions like patterns and rationale as structured records
     - Serves these decisions to agents over MCP to improve context
     - Uses a feedback loop to refine and distill codebase conventions
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-08T05:39:05.248Z"
+    updated_at: '2026-06-08T05:39:05.248Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:55.865Z"
+    updated_at: '2026-07-30T05:05:55.865Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-02T05:28:54.063Z"
+    updated_at: '2026-07-02T05:28:54.063Z'
     cause: null
     next_retry_at: null
     attempts: 1

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__unitedideas__nothumansearch__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,11 @@ provenance:
           - Agent infrastructure
         anchor_text: Not Human Search
         extracted_url: https://github.com/unitedideas/nothumansearch
-        surrounding_text: "- **[Not Human Search](https://github.com/unitedideas/nothumansearch)** `⭐ 0` — Search engine for AI agents that ranks sites by agentic readiness (llms.txt, OpenAPI, MCP, ai-plugin); 8,000+ indexed sites exposed via MCP server, REST API, and full-text search. Lets agents discover and verify external services before wiring them into a repo. MIT."
+        surrounding_text: >-
+          - **[Not Human Search](https://github.com/unitedideas/nothumansearch)** `⭐ 0` — Search engine for AI agents
+          that ranks sites by agentic readiness (llms.txt, OpenAPI, MCP, ai-plugin); 8,000+ indexed sites exposed via
+          MCP server, REST API, and full-text search. Lets agents discover and verify external services before wiring
+          them into a repo. MIT.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: unitedideas/nothumansearch
     html_url: https://github.com/unitedideas/nothumansearch
-    created_at: "2026-04-14T00:01:12Z"
-    pushed_at: "2026-07-21T15:09:39Z"
-    description: Search engine for AI agents — ranks sites by agentic readiness (llms.txt, OpenAPI, MCP, ai-plugin). MCP server, REST API, full-text search. 8,000+ indexed sites.
+    created_at: '2026-04-14T00:01:12Z'
+    pushed_at: '2026-07-21T15:09:39Z'
+    description: >-
+      Search engine for AI agents — ranks sites by agentic readiness (llms.txt, OpenAPI, MCP, ai-plugin). MCP server,
+      REST API, full-text search. 8,000+ indexed sites.
     homepage: https://nothumansearch.ai
     topics:
       - agent-discovery
@@ -51,14 +57,20 @@ metadata:
       - openapi
       - postgres
       - search-engine
-    last_checked_at: "2026-07-21T15:20:58.979Z"
+    last_checked_at: '2026-07-21T15:20:58.979Z'
     readme:
-      fetched_at: "2026-07-21T15:20:58.979Z"
+      fetched_at: '2026-07-21T15:20:58.979Z'
       bytes: 2815
 insights:
-  summary: Not Human Search is a search engine and MCP server that indexes and ranks websites by agentic readiness signals like llms.txt, OpenAPI, and MCP server presence.
-  why_it_matters: It gives AI agents and developers a way to discover machine-readable, agent-friendly sites without relying on human-centric SEO or manual vetting.
-  mental_damage: Another tool to optimize for the algorithm — except now the algorithm is an LLM trying to figure out if your site speaks JSON-RPC.
+  summary: >-
+    Not Human Search is a search engine and MCP server that indexes and ranks websites by agentic readiness signals like
+    llms.txt, OpenAPI, and MCP server presence.
+  why_it_matters: >-
+    It gives AI agents and developers a way to discover machine-readable, agent-friendly sites without relying on
+    human-centric SEO or manual vetting.
+  mental_damage: >-
+    Another tool to optimize for the algorithm — except now the algorithm is an LLM trying to figure out if your site
+    speaks JSON-RPC.
   tags:
     - search
     - mcp
@@ -66,31 +78,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Not Human Search is primarily an MCP server that provides agent discovery tools, making MCP its core identity rather than a mere compatibility feature.
+  reason: >-
+    Not Human Search is primarily an MCP server that provides agent discovery tools, making MCP its core identity rather
+    than a mere compatibility feature.
   evidence:
-    - "Repo description: 'MCP server, REST API, full-text search' and topics include mcp, mcp-server, model-context-protocol"
-    - "README: Provides MCP endpoint at https://nothumansearch.ai/mcp with tools like search_agents, find_mcp_servers, verify_mcp"
+    - >-
+      Repo description: 'MCP server, REST API, full-text search' and topics include mcp, mcp-server,
+      model-context-protocol
+    - >-
+      README: Provides MCP endpoint at https://nothumansearch.ai/mcp with tools like search_agents, find_mcp_servers,
+      verify_mcp
     - Homepage and usage examples center on MCP integration via 'claude mcp add' and agent-first search workflows
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Registries & Discovery
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.653Z"
+    updated_at: '2026-05-06T22:12:15.653Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:58.979Z"
+    updated_at: '2026-07-21T15:20:58.979Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-14T05:25:51.848Z"
+    updated_at: '2026-05-14T05:25:51.848Z'
     cause: null
     next_retry_at: null
     attempts: 2

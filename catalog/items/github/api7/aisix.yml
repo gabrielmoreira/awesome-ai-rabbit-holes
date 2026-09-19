@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__api7__aisix__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-09-10T04:12:32.934Z"
+      discovered_at: '2026-09-10T04:12:32.934Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: api7/aisix
         extracted_url: https://github.com/api7/aisix
-        surrounding_text: "- [api7/aisix](https://github.com/api7/aisix) [![api7/aisix MCP server](https://glama.ai/mcp/servers/api7/aisix/badges/score.svg)](https://glama.ai/mcp/servers/api7/aisix) 🦀 🏠 - MCP gateway that registers upstream MCP servers and fronts them behind one governed Streamable HTTP endpoint (`/mcp`): per-tool access control by caller API key, guardrails over tool arguments and results, rate limits, and usage logs. The same self-hosted gateway also proxies LLM and A2A agent traffic."
+        surrounding_text: >-
+          - [api7/aisix](https://github.com/api7/aisix) [![api7/aisix MCP
+          server](https://glama.ai/mcp/servers/api7/aisix/badges/score.svg)](https://glama.ai/mcp/servers/api7/aisix) 🦀
+          🏠 - MCP gateway that registers upstream MCP servers and fronts them behind one governed Streamable HTTP
+          endpoint (`/mcp`): per-tool access control by caller API key, guardrails over tool arguments and results, rate
+          limits, and usage logs. The same self-hosted gateway also proxies LLM and A2A agent traffic.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: api7/aisix
     html_url: https://github.com/api7/aisix
-    created_at: "2026-04-17T03:44:47Z"
-    pushed_at: "2026-09-10T01:39:46Z"
-    description: Open-source AI gateway for LLMs & AI agents, built in Rust. One OpenAI-compatible API for OpenAI, Anthropic, Gemini, Bedrock & more — routing, guardrails, caching, rate limits, observability.
+    created_at: '2026-04-17T03:44:47Z'
+    pushed_at: '2026-09-10T01:39:46Z'
+    description: >-
+      Open-source AI gateway for LLMs & AI agents, built in Rust. One OpenAI-compatible API for OpenAI, Anthropic,
+      Gemini, Bedrock & more — routing, guardrails, caching, rate limits, observability.
     homepage: https://api7.ai/ai-gateway
     topics:
       - ai-agents
@@ -55,14 +62,18 @@ metadata:
       - openai-compatible
       - rust
       - self-hosted
-    last_checked_at: "2026-09-10T04:12:56.451Z"
+    last_checked_at: '2026-09-10T04:12:56.451Z'
     readme:
-      fetched_at: "2026-09-10T04:12:56.451Z"
+      fetched_at: '2026-09-10T04:12:56.451Z'
       bytes: 19872
 insights:
   summary: An open-source, Rust-native AI gateway that unifies multiple LLM providers under a single OpenAI-compatible API.
-  why_it_matters: It provides a single control point for managing routing, guardrails, caching, and observability across various model providers.
-  mental_damage: Because your architecture isn't truly production-ready until you've added a high-performance Rust proxy between your code and your LLM.
+  why_it_matters: >-
+    It provides a single control point for managing routing, guardrails, caching, and observability across various model
+    providers.
+  mental_damage: >-
+    Because your architecture isn't truly production-ready until you've added a high-performance Rust proxy between your
+    code and your LLM.
   tags:
     - rust
     - ai-gateway
@@ -72,31 +83,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It functions as a model abstraction layer, providing a unified interface for multiple providers through a single API.
+  reason: >-
+    It functions as a model abstraction layer, providing a unified interface for multiple providers through a single
+    API.
   evidence:
     - Provides one OpenAI-compatible API for OpenAI, Anthropic, Gemini, Bedrock, and more
     - Built in Rust for low per-request overhead and single static binary deployment
     - Offers routing, guardrails, caching, and observability features
 placement:
   primary_category: ai-frameworks
-  section: Provider / Model Abstractions
+  secondary_categories: []
+  section: Provider & Model Abstractions
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-10T04:12:32.936Z"
+    updated_at: '2026-09-10T04:12:32.936Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:12:56.451Z"
+    updated_at: '2026-09-10T04:12:56.451Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-10T04:16:38.735Z"
+    updated_at: '2026-09-10T04:16:38.735Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -105,7 +119,9 @@ processing:
       input_hash: sha256:0a734c85005c8d3ac5cdb2973d473c2b8bad355b95899505f305d60c21e69389
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: It functions as a model abstraction layer, providing a unified interface for multiple providers through a single API.
+      decision_reason: >-
+        It functions as a model abstraction layer, providing a unified interface for multiple providers through a single
+        API.
       decision_evidence:
         - Provides one OpenAI-compatible API for OpenAI, Anthropic, Gemini, Bedrock, and more
         - Built in Rust for low per-request overhead and single static binary deployment
@@ -113,7 +129,9 @@ processing:
       category_candidates:
         - ai-frameworks
         - agent-orchestration
-      contrastive_reason: Choose ai-frameworks over agent-orchestration because the tool acts as a model abstraction proxy rather than a workbench for managing multi-agent workflows.
+      contrastive_reason: >-
+        Choose ai-frameworks over agent-orchestration because the tool acts as a model abstraction proxy rather than a
+        workbench for managing multi-agent workflows.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

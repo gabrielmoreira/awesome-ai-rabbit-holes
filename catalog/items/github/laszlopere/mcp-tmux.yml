@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__laszlopere__mcp-tmux__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-18T05:40:04.065Z"
+      discovered_at: '2026-06-18T05:40:04.065Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🖥️ <a name="command-line"></a>Command Line
         anchor_text: laszlopere/mcp-tmux
         extracted_url: https://github.com/laszlopere/mcp-tmux
-        surrounding_text: "- [laszlopere/mcp-tmux](https://github.com/laszlopere/mcp-tmux) [![laszlopere/mcp-tmux MCP server](https://glama.ai/mcp/servers/laszlopere/mcp-tmux/badges/score.svg)](https://glama.ai/mcp/servers/laszlopere/mcp-tmux) 🐍 🏠 🐧 🍎 - Universal tmux driver: sessions, windows, panes, keystrokes, and pane capture — local or remote over SSH. Curated tools plus a raw `tmux_command` passthrough; works against tmux 1.8+. Shared, visible sessions for pair-programming with the agent. `uvx mcp-tmux`."
+        surrounding_text: >-
+          - [laszlopere/mcp-tmux](https://github.com/laszlopere/mcp-tmux) [![laszlopere/mcp-tmux MCP
+          server](https://glama.ai/mcp/servers/laszlopere/mcp-tmux/badges/score.svg)](https://glama.ai/mcp/servers/laszlopere/mcp-tmux)
+          🐍 🏠 🐧 🍎 - Universal tmux driver: sessions, windows, panes, keystrokes, and pane capture — local or remote
+          over SSH. Curated tools plus a raw `tmux_command` passthrough; works against tmux 1.8+. Shared, visible
+          sessions for pair-programming with the agent. `uvx mcp-tmux`.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: laszlopere/mcp-tmux
     html_url: https://github.com/laszlopere/mcp-tmux
-    created_at: "2026-06-08T14:29:26Z"
-    pushed_at: "2026-06-19T04:00:04Z"
+    created_at: '2026-06-08T14:29:26Z'
+    pushed_at: '2026-06-19T04:00:04Z'
     description: A comprehensive, universal MCP server for driving tmux (local and over SSH).
     homepage: null
     topics:
@@ -47,14 +52,20 @@ metadata:
       - terminal
       - terminal-multiplexer
       - tmux
-    last_checked_at: "2026-07-30T05:06:03.810Z"
+    last_checked_at: '2026-07-30T05:06:03.810Z'
     readme:
-      fetched_at: "2026-07-30T05:06:03.810Z"
+      fetched_at: '2026-07-30T05:06:03.810Z'
       bytes: 12079
 insights:
-  summary: An MCP server that allows AI agents to control tmux sessions, including managing windows, panes, and sending keystrokes.
-  why_it_matters: It enables a shared terminal environment where humans and AI can pair program in the same live tmux session, rather than working in isolated sandboxes.
-  mental_damage: Finally, an AI that can mess up your terminal multiplexer settings in real-time while you watch helplessly from the same session.
+  summary: >-
+    An MCP server that allows AI agents to control tmux sessions, including managing windows, panes, and sending
+    keystrokes.
+  why_it_matters: >-
+    It enables a shared terminal environment where humans and AI can pair program in the same live tmux session, rather
+    than working in isolated sandboxes.
+  mental_damage: >-
+    Finally, an AI that can mess up your terminal multiplexer settings in real-time while you watch helplessly from the
+    same session.
   tags:
     - mcp
     - tmux
@@ -64,31 +75,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server designed to bridge the Model Context Protocol with tmux functionality.
+  reason: >-
+    The project's primary identity is an MCP server designed to bridge the Model Context Protocol with tmux
+    functionality.
   evidence:
     - Repo description identifies it as a 'universal MCP server for driving tmux'
     - README focuses entirely on MCP integration and registration for clients like Claude Code
     - Provides core infrastructure for session, window, and pane management via MCP
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-18T05:40:04.066Z"
+    updated_at: '2026-06-18T05:40:04.066Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:03.810Z"
+    updated_at: '2026-07-30T05:06:03.810Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-13T05:16:29.998Z"
+    updated_at: '2026-07-13T05:16:29.998Z'
     cause: null
     next_retry_at: null
     attempts: 3

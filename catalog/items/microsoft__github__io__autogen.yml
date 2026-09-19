@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__microsoft__github__io__autogen__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -19,7 +19,7 @@ provenance:
           - Documentation
         anchor_text: AutoGen Documentation
         extracted_url: https://microsoft.github.io/autogen
-        surrounding_text: "- [AutoGen Documentation](https://microsoft.github.io/autogen/) - Microsoft AutoGen docs"
+        surrounding_text: '- [AutoGen Documentation](https://microsoft.github.io/autogen/) - Microsoft AutoGen docs'
         confidence: high
 metadata:
   github:
@@ -38,8 +38,12 @@ metadata:
     readme: null
 insights:
   summary: An open-source framework for developing and orchestrating multi-agent systems using conversational patterns.
-  why_it_matters: It enables developers to build complex, autonomous workflows by coordinating multiple specialized AI agents that can talk to each other.
-  mental_damage: You'll spend more time debugging agent conversational loops than actually writing the logic they are supposed to implement.
+  why_it_matters: >-
+    It enables developers to build complex, autonomous workflows by coordinating multiple specialized AI agents that can
+    talk to each other.
+  mental_damage: >-
+    You'll spend more time debugging agent conversational loops than actually writing the logic they are supposed to
+    implement.
   tags:
     - multi-agent
     - orchestration
@@ -47,21 +51,21 @@ insights:
     - automation
   confidence: high
 curation:
-  status: included
-  reason: AutoGen is a code-first library/SDK that developers import to build agentic workflows, making it a framework rather than a standalone orchestration platform.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Included in awesome-agent-orchestration as an AI Agent framework
-    - Primary identity is a developer tool for building multi-agent systems via code
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: ai-frameworks
-  section: Agent Frameworks
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +74,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:05.760Z"
+    updated_at: '2026-07-21T15:30:05.760Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -83,13 +87,17 @@ processing:
       input_hash: sha256:28c9f32d2840e86fcfd6076e275659020f1de9994f09ac946d1dbb5de7a60377
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: AutoGen is a code-first library/SDK that developers import to build agentic workflows, making it a framework rather than a standalone orchestration platform.
+      decision_reason: >-
+        AutoGen is a code-first library/SDK that developers import to build agentic workflows, making it a framework
+        rather than a standalone orchestration platform.
       decision_evidence:
         - Included in awesome-agent-orchestration as an AI Agent framework
         - Primary identity is a developer tool for building multi-agent systems via code
       category_candidates:
         - ai-frameworks
         - agent-orchestration
-      contrastive_reason: Choose ai-frameworks over agent-orchestration because the product is primarily used as a code-first SDK/library for developers to build within, rather than an operated workbench or control plane.
+      contrastive_reason: >-
+        Choose ai-frameworks over agent-orchestration because the product is primarily used as a code-first SDK/library
+        for developers to build within, rather than an operated workbench or control plane.
       review_reason: null
       review_resume_lifecycle: null

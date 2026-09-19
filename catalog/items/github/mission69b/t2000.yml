@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mission69b__t2000__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: mission69b/t2000
         extracted_url: https://github.com/mission69b/t2000
-        surrounding_text: "- [mission69b/t2000](https://github.com/mission69b/t2000) [![mission69b/t2000 MCP server](https://glama.ai/mcp/servers/mission69b/t2000/badges/score.svg)](https://glama.ai/mcp/servers/mission69b/t2000) 📇 ☁️ - Non-custodial DeFi banking for AI agents on Sui. 35 tools, 20 prompts for save, borrow, invest, exchange, send, pay — with auto yield optimization across NAVI, Suilend, and Cetus."
+        surrounding_text: >-
+          - [mission69b/t2000](https://github.com/mission69b/t2000) [![mission69b/t2000 MCP
+          server](https://glama.ai/mcp/servers/mission69b/t2000/badges/score.svg)](https://glama.ai/mcp/servers/mission69b/t2000)
+          📇 ☁️ - Non-custodial DeFi banking for AI agents on Sui. 35 tools, 20 prompts for save, borrow, invest,
+          exchange, send, pay — with auto yield optimization across NAVI, Suilend, and Cetus.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: mission69b/t2000
     html_url: https://github.com/mission69b/t2000
-    created_at: "2026-02-18T19:51:08Z"
-    pushed_at: "2026-08-03T05:15:03Z"
+    created_at: '2026-02-18T19:51:08Z'
+    pushed_at: '2026-08-03T05:15:03Z'
     description: Agentic finance infrastructure.
     homepage: https://t2000.ai
     topics:
@@ -47,14 +51,20 @@ metadata:
       - sui
       - typescript
       - x402
-    last_checked_at: "2026-08-03T05:17:04.753Z"
+    last_checked_at: '2026-08-03T05:17:04.753Z'
     readme:
-      fetched_at: "2026-08-03T05:17:04.753Z"
+      fetched_at: '2026-08-03T05:17:04.753Z'
       bytes: 5953
 insights:
-  summary: t2000 is a TypeScript SDK, CLI, and MCP server providing agentic infrastructure for building conversational finance applications on the Sui blockchain.
-  why_it_matters: It gives developers a programmable way to embed DeFi operations—like lending, swapping, and payments—directly into AI agents or LLM workflows via a standardized SDK and MCP interface.
-  mental_damage: Finally, your AI agent can independently manage a high-yield savings portfolio on a blockchain you don't understand, just in case you were running low on sources of existential financial anxiety.
+  summary: >-
+    t2000 is a TypeScript SDK, CLI, and MCP server providing agentic infrastructure for building conversational finance
+    applications on the Sui blockchain.
+  why_it_matters: >-
+    It gives developers a programmable way to embed DeFi operations—like lending, swapping, and payments—directly into
+    AI agents or LLM workflows via a standardized SDK and MCP interface.
+  mental_damage: >-
+    Finally, your AI agent can independently manage a high-yield savings portfolio on a blockchain you don't understand,
+    just in case you were running low on sources of existential financial anxiety.
   tags:
     - defi
     - sui
@@ -64,35 +74,44 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The primary artifact is a code-first SDK, CLI, and engine that developers import and script against to build financial agents, fitting the Frameworks & SDKs definition.
+  reason: >-
+    The primary artifact is a code-first SDK, CLI, and engine that developers import and script against to build
+    financial agents, fitting the Frameworks & SDKs definition.
   evidence:
-    - "README explicitly lists packages: @t2000/sdk (core library), @t2000/engine, and @t2000/cli for developers to build upon."
-    - Provides code examples showing developers scripting agent actions like agent.send() and agent.swap() programmatically.
-    - Brand architecture identifies t2000.ai specifically as 'Infrastructure (CLI, SDK, MCP, engine, gateway)' for the Audric consumer product.
+    - >-
+      README explicitly lists packages: @t2000/sdk (core library), @t2000/engine, and @t2000/cli for developers to build
+      upon.
+    - >-
+      Provides code examples showing developers scripting agent actions like agent.send() and agent.swap()
+      programmatically.
+    - >-
+      Brand architecture identifies t2000.ai specifically as 'Infrastructure (CLI, SDK, MCP, engine, gateway)' for the
+      Audric consumer product.
 placement:
-  primary_category: ai-frameworks
-  section: Agent Frameworks
+  primary_category: mcp
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.630Z"
+    updated_at: '2026-05-06T22:12:15.630Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:04.753Z"
+    updated_at: '2026-08-03T05:17:04.753Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__w3gpt__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Web3 GPT
         anchor_text: Web3 GPT
         extracted_url: https://w3gpt.ai
-        surrounding_text: "## [Web3 GPT](https://w3gpt.ai/)"
+        surrounding_text: '## [Web3 GPT](https://w3gpt.ai/)'
         confidence: high
 metadata:
   github:
@@ -37,7 +37,9 @@ metadata:
     readme: null
 insights:
   summary: A web-based platform for deploying smart contracts and creating AI agents for onchain tasks.
-  why_it_matters: It lets developers generate, test, and deploy smart contracts directly from a chat interface, streamlining Web3 development workflows.
+  why_it_matters: >-
+    It lets developers generate, test, and deploy smart contracts directly from a chat interface, streamlining Web3
+    development workflows.
   mental_damage: Because nothing says 'production-ready' like deploying a smart contract from a chat window.
   tags:
     - web3
@@ -47,21 +49,23 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The core product turns prompts into deployable smart contracts and onchain agents, fitting the prompt-to-app builder pattern.
+  reason: >-
+    The core product turns prompts into deployable smart contracts and onchain agents, fitting the prompt-to-app builder
+    pattern.
   evidence:
-    - "Site description: 'Deploy smart contracts, create AI Agents, do more onchain with AI'"
-    - "Primary page excerpt: 'Generate... Deploy Directly from chat'"
-    - "Source-list context: listed under 'Web3 GPT' in awesome-ai-agents"
+    - 'Site description: ''Deploy smart contracts, create AI Agents, do more onchain with AI'''
+    - 'Primary page excerpt: ''Generate... Deploy Directly from chat'''
+    - 'Source-list context: listed under ''Web3 GPT'' in awesome-ai-agents'
 placement:
   primary_category: app-builders
-  section: Prompt-to-App Builders
+  section: Full App Builders
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.666Z"
+    updated_at: '2026-05-06T22:12:15.666Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +74,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:38:57.280Z"
+    updated_at: '2026-07-21T15:38:57.280Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -83,14 +87,18 @@ processing:
       input_hash: sha256:e2ce3482bc1d1e35fd4811291b243c948bf0f629556dbd1ca026868f7eb614bc
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The core product turns prompts into deployable smart contracts and onchain agents, fitting the prompt-to-app builder pattern.
+      decision_reason: >-
+        The core product turns prompts into deployable smart contracts and onchain agents, fitting the prompt-to-app
+        builder pattern.
       decision_evidence:
-        - "Site description: 'Deploy smart contracts, create AI Agents, do more onchain with AI'"
-        - "Primary page excerpt: 'Generate... Deploy Directly from chat'"
-        - "Source-list context: listed under 'Web3 GPT' in awesome-ai-agents"
+        - 'Site description: ''Deploy smart contracts, create AI Agents, do more onchain with AI'''
+        - 'Primary page excerpt: ''Generate... Deploy Directly from chat'''
+        - 'Source-list context: listed under ''Web3 GPT'' in awesome-ai-agents'
       category_candidates:
         - app-builders
         - agent-orchestration
-      contrastive_reason: Choose app-builders over agent-orchestration because the main surface is prompt-to-deployment rather than multi-agent coordination.
+      contrastive_reason: >-
+        Choose app-builders over agent-orchestration because the main surface is prompt-to-deployment rather than
+        multi-agent coordination.
       review_reason: null
       review_resume_lifecycle: null

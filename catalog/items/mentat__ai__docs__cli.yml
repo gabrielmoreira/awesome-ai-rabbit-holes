@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mentat__ai__docs__cli__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -19,7 +19,9 @@ provenance:
           - Closed Source
         anchor_text: Mentat CLI
         extracted_url: https://mentat.ai/docs/cli
-        surrounding_text: "- **[Mentat CLI](https://mentat.ai/docs/cli)** `[Mentat]` — Cloud-native coding agent CLI for managing remote Mentat agents from your terminal; auto-detects repo/branch context."
+        surrounding_text: >-
+          - **[Mentat CLI](https://mentat.ai/docs/cli)** `[Mentat]` — Cloud-native coding agent CLI for managing remote
+          Mentat agents from your terminal; auto-detects repo/branch context.
         confidence: high
 metadata:
   github:
@@ -38,8 +40,12 @@ metadata:
     readme: null
 insights:
   summary: A CLI tool from Mentat that provides terminal-native AI coding assistance.
-  why_it_matters: Developers can delegate repo work directly from the terminal, streamlining coding workflows without switching contexts.
-  mental_damage: Another CLI agent to add to your already crowded terminal tabs, because typing `git commit -m` was clearly the bottleneck.
+  why_it_matters: >-
+    Developers can delegate repo work directly from the terminal, streamlining coding workflows without switching
+    contexts.
+  mental_damage: >-
+    Another CLI agent to add to your already crowded terminal tabs, because typing `git commit -m` was clearly the
+    bottleneck.
   tags:
     - cli
     - coding-agent
@@ -48,12 +54,15 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a terminal-native coding assistant that developers delegate repo work to, fitting the core definition of Coding Agents.
+  reason: >-
+    The product is a terminal-native coding assistant that developers delegate repo work to, fitting the core definition
+    of Coding Agents.
   evidence:
     - Seen in awesome-cli-coding-agents under 'Terminal-native coding agents > Closed Source'
     - URL path (mentat.ai/docs/cli) indicates a CLI-focused product
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: incubating
@@ -61,7 +70,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +79,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:29:50.431Z"
+    updated_at: '2026-07-21T15:29:50.431Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -83,13 +92,17 @@ processing:
       input_hash: sha256:c06afbc54888dfb6d9fd95b4d1461770007407849c0b6448c39306083b1c5f73
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: The product is a terminal-native coding assistant that developers delegate repo work to, fitting the core definition of Coding Agents.
+      decision_reason: >-
+        The product is a terminal-native coding assistant that developers delegate repo work to, fitting the core
+        definition of Coding Agents.
       decision_evidence:
         - Seen in awesome-cli-coding-agents under 'Terminal-native coding agents > Closed Source'
         - URL path (mentat.ai/docs/cli) indicates a CLI-focused product
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because the product is a standalone terminal agent rather than an extension for another assistant.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because the product is a standalone terminal agent rather than an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

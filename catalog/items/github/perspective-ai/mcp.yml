@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__perspective-ai__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🗣️ <a name="conversational-ai"></a>Conversational AI
         anchor_text: Perspective-AI/mcp
         extracted_url: https://github.com/perspective-ai/mcp
-        surrounding_text: "- [Perspective-AI/mcp](https://github.com/Perspective-AI/mcp) [![Perspective-AI/mcp MCP server](https://glama.ai/mcp/servers/Perspective-AI/mcp/badges/score.svg)](https://glama.ai/mcp/servers/Perspective-AI/mcp) 🎖️ 📇 ☁️ - Official MCP server for [Perspective AI](https://getperspective.ai). An AI Concierge replaces static forms with adaptive AI conversations for lead qualification, customer research, onboarding feedback, and advocacy. Design conversation agents (Concierge, Interviewer, Evaluator, Advocate), analyze conversations, deploy embeds, and automate follow-ups (webhook, email, Slack, HubSpot)."
+        surrounding_text: >-
+          - [Perspective-AI/mcp](https://github.com/Perspective-AI/mcp) [![Perspective-AI/mcp MCP
+          server](https://glama.ai/mcp/servers/Perspective-AI/mcp/badges/score.svg)](https://glama.ai/mcp/servers/Perspective-AI/mcp)
+          🎖️ 📇 ☁️ - Official MCP server for [Perspective AI](https://getperspective.ai). An AI Concierge replaces
+          static forms with adaptive AI conversations for lead qualification, customer research, onboarding feedback,
+          and advocacy. Design conversation agents (Concierge, Interviewer, Evaluator, Advocate), analyze conversations,
+          deploy embeds, and automate follow-ups (webhook, email, Slack, HubSpot).
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: Perspective-AI/mcp
     html_url: https://github.com/Perspective-AI/mcp
-    created_at: "2025-12-11T15:25:11Z"
-    pushed_at: "2026-04-28T11:14:26Z"
-    description: MCP server for Perspective AI. An AI Concierge replaces static forms with adaptive AI conversations that understand real situations, structure key information automatically, and trigger the right next step.
+    created_at: '2025-12-11T15:25:11Z'
+    pushed_at: '2026-04-28T11:14:26Z'
+    description: >-
+      MCP server for Perspective AI. An AI Concierge replaces static forms with adaptive AI conversations that
+      understand real situations, structure key information automatically, and trigger the right next step.
     homepage: https://getperspective.ai/docs/build/mcp
     topics:
       - advocate
@@ -46,14 +54,20 @@ metadata:
       - mcp-server
       - researcher
       - survey
-    last_checked_at: "2026-07-20T16:42:32.836Z"
+    last_checked_at: '2026-07-20T16:42:32.836Z'
     readme:
-      fetched_at: "2026-07-20T16:42:32.836Z"
+      fetched_at: '2026-07-20T16:42:32.836Z'
       bytes: 10115
 insights:
-  summary: An MCP server that connects AI assistants like Claude and Cursor to Perspective AI's conversational form-replacement platform for designing, analyzing, and automating AI concierges.
-  why_it_matters: It lets developers manage conversational data capture, lead qualification, and follow-up automation directly from their coding environment instead of a separate SaaS dashboard.
-  mental_damage: Your coding agent can now ping Slack about trust scores while you're still debugging why your form fields keep turning into adaptive hallucinations.
+  summary: >-
+    An MCP server that connects AI assistants like Claude and Cursor to Perspective AI's conversational form-replacement
+    platform for designing, analyzing, and automating AI concierges.
+  why_it_matters: >-
+    It lets developers manage conversational data capture, lead qualification, and follow-up automation directly from
+    their coding environment instead of a separate SaaS dashboard.
+  mental_damage: >-
+    Your coding agent can now ping Slack about trust scores while you're still debugging why your form fields keep
+    turning into adaptive hallucinations.
   tags:
     - mcp
     - conversational-ai
@@ -62,35 +76,37 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a first-party MCP server built to give MCP-compatible clients access to Perspective AI's conversational concierge platform.
+  reason: >-
+    The product is a first-party MCP server built to give MCP-compatible clients access to Perspective AI's
+    conversational concierge platform.
   evidence:
     - Repo description explicitly states 'MCP server for Perspective AI' with MCP server topics.
     - README says 'MCP server for Perspective AI' and documents Claude Code, Cursor, Claude.ai, and stdio client setup.
     - Included in awesome-mcp-servers under Conversational AI, reinforcing MCP infrastructure identity.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.642Z"
+    updated_at: '2026-05-06T22:12:15.642Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:32.836Z"
+    updated_at: '2026-07-20T16:42:32.836Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

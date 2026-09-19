@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ferdousbhai__wsb-analyst-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: ferdousbhai/wsb-analyst-mcp
         extracted_url: https://github.com/ferdousbhai/wsb-analyst-mcp
-        surrounding_text: "- [ferdousbhai/wsb-analyst-mcp](https://github.com/ferdousbhai/wsb-analyst-mcp) 🐍 ☁️ - Reddit integration to analyze content on WallStreetBets community"
+        surrounding_text: >-
+          - [ferdousbhai/wsb-analyst-mcp](https://github.com/ferdousbhai/wsb-analyst-mcp) 🐍 ☁️ - Reddit integration to
+          analyze content on WallStreetBets community
         confidence: high
 metadata:
   github:
@@ -30,19 +32,23 @@ metadata:
     archived: false
     full_name: ferdousbhai/wsb-analyst-mcp
     html_url: https://github.com/ferdousbhai/wsb-analyst-mcp
-    created_at: "2025-04-26T05:42:06Z"
-    pushed_at: "2025-09-21T03:12:45Z"
+    created_at: '2025-04-26T05:42:06Z'
+    pushed_at: '2025-09-21T03:12:45Z'
     description: MCP server for analyzing WallStreetBets
     homepage: null
     topics: []
-    last_checked_at: "2026-08-27T09:23:29.545Z"
+    last_checked_at: '2026-08-27T09:23:29.545Z'
     readme:
-      fetched_at: "2026-08-27T09:23:29.545Z"
+      fetched_at: '2026-08-27T09:23:29.545Z'
       bytes: 5818
 insights:
-  summary: An MCP server that provides real-time WallStreetBets Reddit data for analysis within LLM clients like Claude Desktop.
+  summary: >-
+    An MCP server that provides real-time WallStreetBets Reddit data for analysis within LLM clients like Claude
+    Desktop.
   why_it_matters: It enables LLMs to ingest niche, high-velocity social sentiment data to perform real-time market trend analysis.
-  mental_damage: Nothing says 'odern developer workflow' like letting an LLM interpret subreddit chaos to predict the next market mover.
+  mental_damage: >-
+    Nothing says 'odern developer workflow' like letting an LLM interpret subreddit chaos to predict the next market
+    mover.
   tags:
     - mcp
     - reddit
@@ -57,24 +63,25 @@ curation:
     - README details specific MCP tools like `find_top_posts` and `get_trending_tickers` for Claude Desktop integration
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.614Z"
+    updated_at: '2026-05-06T22:12:15.614Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:29.545Z"
+    updated_at: '2026-08-27T09:23:29.545Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:56:23.460Z"
+    updated_at: '2026-07-21T15:56:23.460Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -90,10 +97,14 @@ processing:
       decision_reason: The project is explicitly an MCP server designed to provide specific domain data to a host assistant.
       decision_evidence:
         - Repo description identifies it as an 'MCP server for analyzing WallStreetBets'
-        - README details specific MCP tools like `find_top_posts` and `get_trending_tickers` for Claude Desktop integration
+        - >-
+          README details specific MCP tools like `find_top_posts` and `get_trending_tickers` for Claude Desktop
+          integration
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is a protocol-based server that provides domain-specific data via the Model Context Protocol.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is a protocol-based server that provides
+        domain-specific data via the Model Context Protocol.
       review_reason: null
       review_resume_lifecycle: null

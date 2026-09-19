@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wenb1n-dev__mysql_mcp_server_pro__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: wenb1n-dev/mysql_mcp_server_pro
         extracted_url: https://github.com/wenb1n-dev/mysql_mcp_server_pro
-        surrounding_text: "- [wenb1n-dev/mysql_mcp_server_pro](https://github.com/wenb1n-dev/mysql_mcp_server_pro)  🐍 🏠 - Supports SSE, STDIO; not only limited to MySQL's CRUD functionality; also includes database exception analysis capabilities; controls database permissions based on roles; and makes it easy for developers to extend tools with customization"
+        surrounding_text: >-
+          - [wenb1n-dev/mysql_mcp_server_pro](https://github.com/wenb1n-dev/mysql_mcp_server_pro)  🐍 🏠 - Supports SSE,
+          STDIO; not only limited to MySQL's CRUD functionality; also includes database exception analysis capabilities;
+          controls database permissions based on roles; and makes it easy for developers to extend tools with
+          customization
         confidence: high
 metadata:
   github:
@@ -30,23 +34,29 @@ metadata:
     archived: false
     full_name: wenb1n-dev/mysql_mcp_server_pro
     html_url: https://github.com/wenb1n-dev/mysql_mcp_server_pro
-    created_at: "2025-04-04T07:22:49Z"
-    pushed_at: "2025-08-28T13:50:15Z"
-    description: "Model Context Protocol (MCP) server that supports secure interaction with MySQL databases and has anomaly analysis capabilities.更加牛逼！更加好用！不仅止于mysql的增删改查功能； 还包含了数据库异常分析能力；且便于开发者们进行个性化的工具扩展 "
-    homepage: ""
+    created_at: '2025-04-04T07:22:49Z'
+    pushed_at: '2025-08-28T13:50:15Z'
+    description: >-
+      Model Context Protocol (MCP) server that supports secure interaction with MySQL databases and has anomaly analysis
+      capabilities.更加牛逼！更加好用！不仅止于mysql的增删改查功能； 还包含了数据库异常分析能力；且便于开发者们进行个性化的工具扩展 
+    homepage: ''
     topics:
       - ai
       - mcp-server
       - model-context-protocol
       - mysql
       - oauth2
-    last_checked_at: "2026-07-21T15:21:12.029Z"
+    last_checked_at: '2026-07-21T15:21:12.029Z'
     readme:
-      fetched_at: "2026-07-21T15:21:12.029Z"
+      fetched_at: '2026-07-21T15:21:12.029Z'
       bytes: 12224
 insights:
-  summary: An MCP server for MySQL that enables secure database interactions, anomaly analysis, and custom tool extensions via the Model Context Protocol.
-  why_it_matters: Lets developers securely query, analyze, and extend MySQL databases through standardized MCP tooling, reducing integration friction for AI-assisted database workflows.
+  summary: >-
+    An MCP server for MySQL that enables secure database interactions, anomaly analysis, and custom tool extensions via
+    the Model Context Protocol.
+  why_it_matters: >-
+    Lets developers securely query, analyze, and extend MySQL databases through standardized MCP tooling, reducing
+    integration friction for AI-assisted database workflows.
   mental_damage: Another MCP server promising 'anomaly analysis' while developers just want to run SELECT * without OAuth2 setup.
   tags:
     - mysql
@@ -56,31 +66,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: It is an MCP server that extends AI assistants with MySQL capabilities rather than acting as a standalone coding assistant or framework.
+  reason: >-
+    It is an MCP server that extends AI assistants with MySQL capabilities rather than acting as a standalone coding
+    assistant or framework.
   evidence:
     - Repo description and README emphasize MCP server functionality for MySQL interaction and analysis
     - Appears in awesome-mcp-servers under 'Server Implementations > Databases'
     - Provides tools like execute_sql, get_db_health_running, and prompt template invocation for AI agent use
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: mcp
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: promotion_candidate
   reason: Stars (244) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.655Z"
+    updated_at: '2026-05-06T22:12:15.655Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:12.029Z"
+    updated_at: '2026-07-21T15:21:12.029Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-14T05:28:57.710Z"
+    updated_at: '2026-05-14T05:28:57.710Z'
     cause: null
     next_retry_at: null
     attempts: 2

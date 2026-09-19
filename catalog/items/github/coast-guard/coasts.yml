@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__coast-guard__coasts__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Agent infrastructure
         anchor_text: Coasts
         extracted_url: https://github.com/coast-guard/coasts
-        surrounding_text: "- **[Coasts](https://github.com/coast-guard/coasts)** `⭐ 380` — Containerized host orchestration for git worktrees; isolates ports, networks, and services per environment using DinD/Sysbox/Podman. MIT."
+        surrounding_text: >-
+          - **[Coasts](https://github.com/coast-guard/coasts)** `⭐ 380` — Containerized host orchestration for git
+          worktrees; isolates ports, networks, and services per environment using DinD/Sysbox/Podman. MIT.
         confidence: high
 metadata:
   github:
@@ -30,21 +32,26 @@ metadata:
     archived: false
     full_name: coast-guard/coasts
     html_url: https://github.com/coast-guard/coasts
-    created_at: "2026-02-28T13:59:30Z"
-    pushed_at: "2026-04-28T05:28:33Z"
+    created_at: '2026-02-28T13:59:30Z'
+    pushed_at: '2026-04-28T05:28:33Z'
     description: Localhost service isolation and orchestration for git worktrees.
     homepage: https://coasts.dev
     topics:
       - infrastructure
       - localhost
       - parallel-programming
-    last_checked_at: "2026-09-07T04:13:47.785Z"
+    last_checked_at: '2026-09-07T04:13:47.785Z'
     readme:
-      fetched_at: "2026-09-07T04:13:47.784Z"
+      fetched_at: '2026-09-07T04:13:47.784Z'
       bytes: 9558
 insights:
-  summary: Localhost service isolation and orchestration for git worktrees, enabling multiple isolated development environments on a single machine.
-  why_it_matters: It lets developers run parallel instances of their full dev stack (Docker Compose or otherwise) with isolated networking/volumes, then bind canonical ports to the host one at a time—useful for testing changes across multiple branches or worktrees without manual teardown.
+  summary: >-
+    Localhost service isolation and orchestration for git worktrees, enabling multiple isolated development environments
+    on a single machine.
+  why_it_matters: >-
+    It lets developers run parallel instances of their full dev stack (Docker Compose or otherwise) with isolated
+    networking/volumes, then bind canonical ports to the host one at a time—useful for testing changes across multiple
+    branches or worktrees without manual teardown.
   mental_damage: Finally, a way to spin up 17 identical copies of your microservice hellscape so you can debug them all at once.
   tags:
     - dev-environments
@@ -54,32 +61,31 @@ insights:
     - local-orchestration
   confidence: high
 curation:
-  status: included
-  reason: Coasts is primarily a runtime platform for orchestrating isolated dev environments, which aligns with agent orchestration's focus on coordinating workflows and runtimes rather than being a coding agent itself.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - "Repo description: 'Localhost service isolation and orchestration for git worktrees'"
-    - "README: 'CLI tool with a local observability UI for running multiple isolated instances of a full development environment'"
-    - "Source-list context: Listed under 'Harnesses & orchestration > Agent infrastructure' in awesome-cli-coding-agents"
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: agent-orchestration
-  section: Multi-Agent Runtime Platforms
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (383) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:47.785Z"
+    updated_at: '2026-09-07T04:13:47.785Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:43:27.803Z"
+    updated_at: '2026-07-21T15:43:27.803Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -92,14 +98,22 @@ processing:
       input_hash: sha256:038ca1f3f32d736730d2400b2039cc344f28344dd69b3c1f6bb74f28e0a2bab1
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: Coasts is primarily a runtime platform for orchestrating isolated dev environments, which aligns with agent orchestration's focus on coordinating workflows and runtimes rather than being a coding agent itself.
+      decision_reason: >-
+        Coasts is primarily a runtime platform for orchestrating isolated dev environments, which aligns with agent
+        orchestration's focus on coordinating workflows and runtimes rather than being a coding agent itself.
       decision_evidence:
-        - "Repo description: 'Localhost service isolation and orchestration for git worktrees'"
-        - "README: 'CLI tool with a local observability UI for running multiple isolated instances of a full development environment'"
-        - "Source-list context: Listed under 'Harnesses & orchestration > Agent infrastructure' in awesome-cli-coding-agents"
+        - 'Repo description: ''Localhost service isolation and orchestration for git worktrees'''
+        - >-
+          README: 'CLI tool with a local observability UI for running multiple isolated instances of a full development
+          environment'
+        - >-
+          Source-list context: Listed under 'Harnesses & orchestration > Agent infrastructure' in
+          awesome-cli-coding-agents
       category_candidates:
         - agent-orchestration
         - ai-dev-extensions
-      contrastive_reason: Choose agent-orchestration over ai-dev-extensions because the core value is runtime orchestration of isolated environments, not augmenting another assistant/editor with host integrations.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-dev-extensions because the core value is runtime orchestration of isolated
+        environments, not augmenting another assistant/editor with host integrations.
       review_reason: null
       review_resume_lifecycle: null

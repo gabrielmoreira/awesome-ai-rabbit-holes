@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jamesanz__us-legal-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - ⚖️ <a name="legal"></a>Legal
         anchor_text: JamesANZ/us-legal-mcp
         extracted_url: https://github.com/jamesanz/us-legal-mcp
-        surrounding_text: "- [JamesANZ/us-legal-mcp](https://github.com/JamesANZ/us-legal-mcp) 📇 ☁️ - An MCP server that provides comprehensive US legislation."
+        surrounding_text: >-
+          - [JamesANZ/us-legal-mcp](https://github.com/JamesANZ/us-legal-mcp) 📇 ☁️ - An MCP server that provides
+          comprehensive US legislation.
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: JamesANZ/us-legal-mcp
     html_url: https://github.com/JamesANZ/us-legal-mcp
-    created_at: "2025-08-11T11:17:53Z"
-    pushed_at: "2026-04-20T03:40:34Z"
+    created_at: '2025-08-11T11:17:53Z'
+    pushed_at: '2026-04-20T03:40:34Z'
     description: An MCP server that provides comprehensive US legislation.
     homepage: https://glama.ai/mcp/servers/@JamesANZ/us-legal-mcp
     topics:
@@ -40,13 +42,15 @@ metadata:
       - legislation
       - llm
       - usa
-    last_checked_at: "2026-07-30T05:05:47.450Z"
+    last_checked_at: '2026-07-30T05:05:47.450Z'
     readme:
-      fetched_at: "2026-07-30T05:05:47.450Z"
+      fetched_at: '2026-07-30T05:05:47.450Z'
       bytes: 9167
 insights:
   summary: An MCP server that provides comprehensive US legislation data for integration into AI workflows.
-  why_it_matters: Developers can directly query US legal data (bills, regulations, court opinions) from their AI coding environments without API keys.
+  why_it_matters: >-
+    Developers can directly query US legal data (bills, regulations, court opinions) from their AI coding environments
+    without API keys.
   mental_damage: Now your AI can argue about the GENIUS Act while you're trying to debug a segfault.
   tags:
     - mcp
@@ -56,31 +60,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose primary identity is providing US legal data via the Model Context Protocol.
+  reason: >-
+    The product is explicitly an MCP server whose primary identity is providing US legal data via the Model Context
+    Protocol.
   evidence:
-    - "Repo description: 'An MCP server that provides comprehensive US legislation'"
-    - "README: 'An MCP server that brings authoritative US legal information into AI coding environments'"
+    - 'Repo description: ''An MCP server that provides comprehensive US legislation'''
+    - 'README: ''An MCP server that brings authoritative US legal information into AI coding environments'''
     - Homepage URL confirms MCP server identity
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.621Z"
+    updated_at: '2026-05-06T22:12:15.621Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:47.450Z"
+    updated_at: '2026-07-30T05:05:47.450Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:09:44.944Z"
+    updated_at: '2026-07-21T16:09:44.944Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -93,14 +100,18 @@ processing:
       input_hash: sha256:c16508a7a22e1cfffd425cc4e55956a3130f5518c18fd56a3bad99c6fda03932
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server whose primary identity is providing US legal data via the Model Context Protocol.
+      decision_reason: >-
+        The product is explicitly an MCP server whose primary identity is providing US legal data via the Model Context
+        Protocol.
       decision_evidence:
-        - "Repo description: 'An MCP server that provides comprehensive US legislation'"
-        - "README: 'An MCP server that brings authoritative US legal information into AI coding environments'"
+        - 'Repo description: ''An MCP server that provides comprehensive US legislation'''
+        - 'README: ''An MCP server that brings authoritative US legal information into AI coding environments'''
         - Homepage URL confirms MCP server identity
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (domain-specific data provider) rather than an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server (domain-specific data provider)
+        rather than an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

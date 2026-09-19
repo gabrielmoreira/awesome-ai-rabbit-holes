@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alibaizhanov__mengram__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,15 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: alibaizhanov/mengram
         extracted_url: https://github.com/alibaizhanov/mengram
-        surrounding_text: "- [alibaizhanov/mengram](https://github.com/alibaizhanov/mengram) [![mengram MCP server](https://glama.ai/mcp/servers/@alibaizhanov/mengram/badges/score.svg)](https://glama.ai/mcp/servers/@alibaizhanov/mengram) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Human-like memory layer for AI agents with semantic, episodic, and procedural memory. Claude Code hooks (auto-save, auto-recall, cognitive profile). 29 MCP tools, knowledge graph, smart triggers, multi-user isolation. Python & JS SDKs."
+        surrounding_text: >-
+          - [alibaizhanov/mengram](https://github.com/alibaizhanov/mengram) [![mengram MCP
+          server](https://glama.ai/mcp/servers/@alibaizhanov/mengram/badges/score.svg)](https://glama.ai/mcp/servers/@alibaizhanov/mengram)
+          🐍 ☁️ 🏠 🍎 🪟 🐧 - Human-like memory layer for AI agents with semantic, episodic, and procedural memory.
+          Claude Code hooks (auto-save, auto-recall, cognitive profile). 29 MCP tools, knowledge graph, smart triggers,
+          multi-user isolation. Python & JS SDKs.
         confidence: high
     - id: discovery__github__alibaizhanov__mengram__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-21T05:27:57.681Z"
+      discovered_at: '2026-05-21T05:27:57.681Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -35,7 +40,12 @@ provenance:
           - LLMOps
         anchor_text: Mengram
         extracted_url: https://github.com/alibaizhanov/mengram
-        surrounding_text: "| [Mengram](https://github.com/alibaizhanov/mengram)                 | Open-source memory infrastructure for AI agents. Provides semantic (entities/facts), episodic (conversations), and procedural (learned behaviors) memory with auto-reflection. Python SDK, JS SDK, MCP server, and REST API.                                                                                                                                                                            | ![GitHub Badge](https://img.shields.io/github/stars/alibaizhanov/mengram.svg?style=flat-square)           |"
+        surrounding_text: >-
+          | [Mengram](https://github.com/alibaizhanov/mengram)                 | Open-source memory infrastructure for
+          AI agents. Provides semantic (entities/facts), episodic (conversations), and procedural (learned behaviors)
+          memory with auto-reflection. Python SDK, JS SDK, MCP server, and REST
+          API.                                                                                                                                                                           
+          | ![GitHub Badge](https://img.shields.io/github/stars/alibaizhanov/mengram.svg?style=flat-square)           |
         confidence: high
 metadata:
   github:
@@ -45,9 +55,11 @@ metadata:
     archived: false
     full_name: alibaizhanov/mengram
     html_url: https://github.com/alibaizhanov/mengram
-    created_at: "2026-02-10T19:20:33Z"
-    pushed_at: "2026-09-16T14:24:46Z"
-    description: Human-like memory for AI agents — semantic, episodic & procedural. Experience-driven procedures that learn from failures. Free API, Python & JS SDKs, LangChain, CrewAI & OpenClaw integrations.
+    created_at: '2026-02-10T19:20:33Z'
+    pushed_at: '2026-09-16T14:24:46Z'
+    description: >-
+      Human-like memory for AI agents — semantic, episodic & procedural. Experience-driven procedures that learn from
+      failures. Free API, Python & JS SDKs, LangChain, CrewAI & OpenClaw integrations.
     homepage: https://mengram.io
     topics:
       - agent-memory
@@ -70,13 +82,17 @@ metadata:
       - python
       - rag
       - semantic-search
-    last_checked_at: "2026-09-17T04:13:40.918Z"
+    last_checked_at: '2026-09-17T04:13:40.918Z'
     readme:
-      fetched_at: "2026-09-17T04:13:40.918Z"
+      fetched_at: '2026-09-17T04:13:40.918Z'
       bytes: 25803
 insights:
-  summary: A memory system for AI agents offering semantic, episodic, and procedural memory with Python/JS SDKs and integrations for LangChain, CrewAI, and MCP.
-  why_it_matters: Developers can give their agents persistent, evolving memory (including workflows that learn from failures) without building retrieval or context systems from scratch.
+  summary: >-
+    A memory system for AI agents offering semantic, episodic, and procedural memory with Python/JS SDKs and
+    integrations for LangChain, CrewAI, and MCP.
+  why_it_matters: >-
+    Developers can give their agents persistent, evolving memory (including workflows that learn from failures) without
+    building retrieval or context systems from scratch.
   mental_damage: Finally, an AI that remembers your tech stack but still forgets why you chose it.
   tags:
     - agent-memory
@@ -87,31 +103,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Core novelty is memory infrastructure (semantic/episodic/procedural) and context management, not host integration or primary coding assistance.
+  reason: >-
+    Core novelty is memory infrastructure (semantic/episodic/procedural) and context management, not host integration or
+    primary coding assistance.
   evidence:
     - Repo description explicitly frames it as 'Human-like memory for AI agents' with semantic/episodic/procedural types
-    - README highlights memory as primary value (cognitive profiles, auto-save/recall, failure-driven procedure evolution)
+    - >-
+      README highlights memory as primary value (cognitive profiles, auto-save/recall, failure-driven procedure
+      evolution)
     - Integrations (LangChain, CrewAI, MCP) are secondary to the memory system itself
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: promotion_candidate
   reason: Stars (165) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-21T05:27:57.682Z"
+    updated_at: '2026-05-21T05:27:57.682Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:40.918Z"
+    updated_at: '2026-09-17T04:13:40.918Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:22:12.012Z"
+    updated_at: '2026-07-21T15:22:12.012Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -124,14 +145,22 @@ processing:
       input_hash: sha256:eedacb676ead5445afcac4c32284c016e090d4ea7a22820abc4aef99e83dce4f
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: Core novelty is memory infrastructure (semantic/episodic/procedural) and context management, not host integration or primary coding assistance.
+      decision_reason: >-
+        Core novelty is memory infrastructure (semantic/episodic/procedural) and context management, not host
+        integration or primary coding assistance.
       decision_evidence:
-        - Repo description explicitly frames it as 'Human-like memory for AI agents' with semantic/episodic/procedural types
-        - README highlights memory as primary value (cognitive profiles, auto-save/recall, failure-driven procedure evolution)
+        - >-
+          Repo description explicitly frames it as 'Human-like memory for AI agents' with semantic/episodic/procedural
+          types
+        - >-
+          README highlights memory as primary value (cognitive profiles, auto-save/recall, failure-driven procedure
+          evolution)
         - Integrations (LangChain, CrewAI, MCP) are secondary to the memory system itself
       category_candidates:
         - context-engineering
         - ai-dev-extensions
-      contrastive_reason: Choose context-engineering over ai-dev-extensions because the core product is the memory system itself, not an integration layer for another assistant.
+      contrastive_reason: >-
+        Choose context-engineering over ai-dev-extensions because the core product is the memory system itself, not an
+        integration layer for another assistant.
       review_reason: null
       review_resume_lifecycle: null

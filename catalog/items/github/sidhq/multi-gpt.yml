@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sidhq__multi-gpt__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,7 @@ provenance:
           - Multi GPT
         anchor_text: Multi GPT
         extracted_url: https://github.com/rumpfmax/multi-gpt
-        surrounding_text: "## [Multi GPT](https://github.com/rumpfmax/Multi-GPT)"
+        surrounding_text: '## [Multi GPT](https://github.com/rumpfmax/Multi-GPT)'
         confidence: high
 metadata:
   github:
@@ -29,19 +29,25 @@ metadata:
     archived: false
     full_name: sidhq/Multi-GPT
     html_url: https://github.com/sidhq/Multi-GPT
-    created_at: "2023-04-15T15:14:23Z"
-    pushed_at: "2023-10-10T20:38:15Z"
+    created_at: '2023-04-15T15:14:23Z'
+    pushed_at: '2023-10-10T20:38:15Z'
     description: An experimental open-source attempt to make GPT-4 fully autonomous.
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-20T16:42:57.020Z"
+    last_checked_at: '2026-07-20T16:42:57.020Z'
     readme:
-      fetched_at: "2026-07-20T16:42:57.020Z"
+      fetched_at: '2026-07-20T16:42:57.020Z'
       bytes: 21544
 insights:
-  summary: An experimental multi-agent system that spins up multiple collaborating GPT-4 'expertGPTs' with individual short and long-term memory to complete tasks, built as a Python CLI project in 2023.
-  why_it_matters: It offers an early reference implementation for developers curious about memory-backed multi-agent collaboration patterns using GPT-4 and vector stores like Pinecone or Milvus.
-  mental_damage: Watching multiple expertGPTs politely defer to each other while burning through an API quota is the kind of autonomous teamwork demo that makes you grateful humans still write the PRs.
+  summary: >-
+    An experimental multi-agent system that spins up multiple collaborating GPT-4 'expertGPTs' with individual short and
+    long-term memory to complete tasks, built as a Python CLI project in 2023.
+  why_it_matters: >-
+    It offers an early reference implementation for developers curious about memory-backed multi-agent collaboration
+    patterns using GPT-4 and vector stores like Pinecone or Milvus.
+  mental_damage: >-
+    Watching multiple expertGPTs politely defer to each other while burning through an API quota is the kind of
+    autonomous teamwork demo that makes you grateful humans still write the PRs.
   tags:
     - multi-agent
     - autonomous-agents
@@ -51,35 +57,44 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The project's core value is coordinating multiple autonomous GPT-4 agents with memory and task delegation, which aligns with agent orchestration runtimes rather than single coding assistants.
+  reason: >-
+    The project's core value is coordinating multiple autonomous GPT-4 agents with memory and task delegation, which
+    aligns with agent orchestration runtimes rather than single coding assistants.
   evidence:
-    - Repo description states it is 'an experimental open-source attempt to make GPT-4 fully autonomous' via multiple collaborating expertGPTs.
-    - README explicitly describes it as 'an experimental multi-agent system' where experts collaborate, communicate, and manage short/long-term memory.
-    - Seen in awesome-ai-agents under 'Multi GPT' as a multi-agent system, created April 2023 with last push October 2023.
+    - >-
+      Repo description states it is 'an experimental open-source attempt to make GPT-4 fully autonomous' via multiple
+      collaborating expertGPTs.
+    - >-
+      README explicitly describes it as 'an experimental multi-agent system' where experts collaborate, communicate, and
+      manage short/long-term memory.
+    - >-
+      Seen in awesome-ai-agents under 'Multi GPT' as a multi-agent system, created April 2023 with last push October
+      2023.
 placement:
-  primary_category: agent-orchestration
-  section: Multi-Agent Runtime Platforms
+  primary_category: ai-frameworks
+  secondary_categories: []
+  section: Multi-Agent Systems
 lifecycle:
   status: promotion_candidate
   reason: Stars (563) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.648Z"
+    updated_at: '2026-05-06T22:12:15.648Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:57.020Z"
+    updated_at: '2026-07-20T16:42:57.020Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

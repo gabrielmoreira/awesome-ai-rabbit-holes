@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__imatza-rh__mcp-zuul__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: imatza-rh/mcp-zuul
         extracted_url: https://github.com/imatza-rh/mcp-zuul
-        surrounding_text: "- [imatza-rh/mcp-zuul](https://github.com/imatza-rh/mcp-zuul) [![mcp-zuul MCP server](https://glama.ai/mcp/servers/imatza-rh/mcp-zuul/badges/score.svg)](https://glama.ai/mcp/servers/imatza-rh/mcp-zuul) 🐍 ☁️ - Zuul CI integration with 14 tools for build failure analysis, log search, pipeline status, and job configuration."
+        surrounding_text: >-
+          - [imatza-rh/mcp-zuul](https://github.com/imatza-rh/mcp-zuul) [![mcp-zuul MCP
+          server](https://glama.ai/mcp/servers/imatza-rh/mcp-zuul/badges/score.svg)](https://glama.ai/mcp/servers/imatza-rh/mcp-zuul)
+          🐍 ☁️ - Zuul CI integration with 14 tools for build failure analysis, log search, pipeline status, and job
+          configuration.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: imatza-rh/mcp-zuul
     html_url: https://github.com/imatza-rh/mcp-zuul
-    created_at: "2026-03-04T21:32:34Z"
-    pushed_at: "2026-07-28T20:41:21Z"
-    description: MCP server for Zuul CI — debug build failures, search logs, manage pipelines, and monitor jobs from Claude, Cursor, or any MCP client
+    created_at: '2026-03-04T21:32:34Z'
+    pushed_at: '2026-07-28T20:41:21Z'
+    description: >-
+      MCP server for Zuul CI — debug build failures, search logs, manage pipelines, and monitor jobs from Claude,
+      Cursor, or any MCP client
     homepage: https://pypi.org/project/mcp-zuul/
     topics:
       - ansible
@@ -43,14 +49,20 @@ metadata:
       - model-context-protocol
       - zuul
       - zuul-ci
-    last_checked_at: "2026-07-30T05:05:42.395Z"
+    last_checked_at: '2026-07-30T05:05:42.395Z'
     readme:
-      fetched_at: "2026-07-30T05:05:42.395Z"
+      fetched_at: '2026-07-30T05:05:42.395Z'
       bytes: 25168
 insights:
-  summary: An MCP server for Zuul CI that enables debugging build failures, searching logs, managing pipelines, and monitoring jobs from MCP-compatible clients like Claude or Cursor.
-  why_it_matters: Developers can query Zuul CI build statuses, logs, and failures directly from their AI assistant without navigating web UIs.
-  mental_damage: Finally, a way to ask your AI assistant why the CI failed instead of scrolling through 20,000 lines of Ansible output.
+  summary: >-
+    An MCP server for Zuul CI that enables debugging build failures, searching logs, managing pipelines, and monitoring
+    jobs from MCP-compatible clients like Claude or Cursor.
+  why_it_matters: >-
+    Developers can query Zuul CI build statuses, logs, and failures directly from their AI assistant without navigating
+    web UIs.
+  mental_damage: >-
+    Finally, a way to ask your AI assistant why the CI failed instead of scrolling through 20,000 lines of Ansible
+    output.
   tags:
     - mcp-server
     - zuul-ci
@@ -60,31 +72,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the product identity here—a server providing Zuul CI integration as its core function, not a compatibility footnote.
+  reason: >-
+    MCP is the product identity here—a server providing Zuul CI integration as its core function, not a compatibility
+    footnote.
   evidence:
     - Repo description explicitly states it is an MCP server for Zuul CI
     - README details 37 tools for Zuul CI integration via MCP
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.620Z"
+    updated_at: '2026-05-06T22:12:15.620Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:42.395Z"
+    updated_at: '2026-07-30T05:05:42.395Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:07:51.658Z"
+    updated_at: '2026-07-21T16:07:51.658Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -97,7 +112,9 @@ processing:
       input_hash: sha256:518726455f2199c43d90f07eca25bf8aba8d24938f8e065c5788dfc66af4198c
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the product identity here—a server providing Zuul CI integration as its core function, not a compatibility footnote.
+      decision_reason: >-
+        MCP is the product identity here—a server providing Zuul CI integration as its core function, not a
+        compatibility footnote.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Zuul CI
         - README details 37 tools for Zuul CI integration via MCP
@@ -105,6 +122,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

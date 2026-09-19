@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__fw-ai__fireconnect__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-08-20T04:18:00.401Z"
+      discovered_at: '2026-08-20T04:18:00.401Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,11 @@ provenance:
           - Agent infrastructure
         anchor_text: FireConnect
         extracted_url: https://github.com/fw-ai/fireconnect
-        surrounding_text: "- **[FireConnect](https://github.com/fw-ai/fireconnect)** `⭐ 42` `[Fireworks AI]` — CLI that points existing coding agents at Fireworks models by rewriting each harness's own config; `on`/`off` per harness with byte-for-byte restore, per-slot model mapping, and a FireRouter option. Supports Claude Code, Codex, OpenCode, Pi, Cursor, VS Code Chat, and Deep Agents. Apache-2.0."
+        surrounding_text: >-
+          - **[FireConnect](https://github.com/fw-ai/fireconnect)** `⭐ 42` `[Fireworks AI]` — CLI that points existing
+          coding agents at Fireworks models by rewriting each harness's own config; `on`/`off` per harness with
+          byte-for-byte restore, per-slot model mapping, and a FireRouter option. Supports Claude Code, Codex, OpenCode,
+          Pi, Cursor, VS Code Chat, and Deep Agents. Apache-2.0.
         confidence: high
 metadata:
   github:
@@ -30,18 +34,20 @@ metadata:
     archived: false
     full_name: fw-ai/fireconnect
     html_url: https://github.com/fw-ai/fireconnect
-    created_at: "2026-06-12T20:06:50Z"
-    pushed_at: "2026-09-01T07:37:44Z"
+    created_at: '2026-06-12T20:06:50Z'
+    pushed_at: '2026-09-01T07:37:44Z'
     description: CLI to use Fireworks AI models in Claude Code, Codex, OpenCode, Pi, and other coding agents.
     homepage: https://docs.fireworks.ai/ecosystem/fireconnect/overview
     topics: []
-    last_checked_at: "2026-09-03T05:16:45.267Z"
+    last_checked_at: '2026-09-03T05:16:45.267Z'
     readme:
-      fetched_at: "2026-09-03T05:16:45.267Z"
+      fetched_at: '2026-09-03T05:16:45.267Z'
       bytes: 39277
 insights:
   summary: A CLI tool for reconfiguring existing AI coding assistants to use Fireworks AI models.
-  why_it_matters: It allows developers to seamlessly switch the underlying model provider for tools like Claude Code and Cursor without manual configuration changes.
+  why_it_matters: >-
+    It allows developers to seamlessly switch the underlying model provider for tools like Claude Code and Cursor
+    without manual configuration changes.
   mental_damage: Because managing your model provider's configuration is now a CLI-driven workflow rather than a simple JSON edit.
   tags:
     - cli
@@ -51,31 +57,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool functions as an integration layer that augments existing coding assistants by redirecting their model traffic through a different provider.
+  reason: >-
+    The tool functions as an integration layer that augments existing coding assistants by redirecting their model
+    traffic through a different provider.
   evidence:
     - README states it 'points your existing AI coding tools at Fireworks'
     - Explicitly supports 'harnesses' like Claude Code, Cursor, and VS Code
     - Operates by rewriting host configuration files via 'on' and 'off' commands
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: Claude Code & Agent Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-08-20T04:18:00.404Z"
+    updated_at: '2026-08-20T04:18:00.404Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:45.267Z"
+    updated_at: '2026-09-03T05:16:45.267Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-03T05:20:50.924Z"
+    updated_at: '2026-09-03T05:20:50.924Z'
     cause: null
     next_retry_at: null
     classification:
@@ -85,7 +94,9 @@ processing:
       input_hash: sha256:ea91e65575549a806a5830afa8aa8cd192499bf4fa4c1af82b8ddffbb8803b00
       proposed_primary_category: ai-dev-extensions
       disagreement: false
-      decision_reason: The tool functions as an integration layer that augments existing coding assistants by redirecting their model traffic through a different provider.
+      decision_reason: >-
+        The tool functions as an integration layer that augments existing coding assistants by redirecting their model
+        traffic through a different provider.
       decision_evidence:
         - README states it 'points your existing AI coding tools at Fireworks'
         - Explicitly supports 'harnesses' like Claude Code, Cursor, and VS Code
@@ -93,7 +104,9 @@ processing:
       category_candidates:
         - ai-dev-extensions
         - ai-frameworks
-      contrastive_reason: Choose ai-dev-extensions over ai-frameworks because its primary identity is a host integration that augments existing coding assistants rather than a developer-facing SDK for building new AI applications.
+      contrastive_reason: >-
+        Choose ai-dev-extensions over ai-frameworks because its primary identity is a host integration that augments
+        existing coding assistants rather than a developer-facing SDK for building new AI applications.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

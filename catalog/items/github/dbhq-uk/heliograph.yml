@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dbhq-uk__heliograph__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-09-14T04:13:20.171Z"
+      discovered_at: '2026-09-14T04:13:20.171Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,14 @@ provenance:
           - 🖥️ <a name="command-line"></a>Command Line
         anchor_text: dbhq-uk/heliograph
         extracted_url: https://github.com/dbhq-uk/heliograph
-        surrounding_text: "- [dbhq-uk/heliograph](https://github.com/dbhq-uk/heliograph) [![dbhq-uk/heliograph MCP server](https://glama.ai/mcp/servers/dbhq-uk/heliograph/badges/score.svg)](https://glama.ai/mcp/servers/dbhq-uk/heliograph) 🏎️ 🏠 🍎 🪟 🐧 - Run commands on a machine you cannot SSH into. Publishes a step to a transport the far side already reaches (git, file share, S3-compatible storage, relay or a carried file); the whole run comes back as a log with every line timestamped in UTC, whether it passed or failed. For air-gapped, bastion-only and change-controlled estates: no tunnel, no proxy, nothing held open. The gates live on the far side, so a tool call can ask but cannot authorise. `heliograph mcp`."
+        surrounding_text: >-
+          - [dbhq-uk/heliograph](https://github.com/dbhq-uk/heliograph) [![dbhq-uk/heliograph MCP
+          server](https://glama.ai/mcp/servers/dbhq-uk/heliograph/badges/score.svg)](https://glama.ai/mcp/servers/dbhq-uk/heliograph)
+          🏎️ 🏠 🍎 🪟 🐧 - Run commands on a machine you cannot SSH into. Publishes a step to a transport the far side
+          already reaches (git, file share, S3-compatible storage, relay or a carried file); the whole run comes back as
+          a log with every line timestamped in UTC, whether it passed or failed. For air-gapped, bastion-only and
+          change-controlled estates: no tunnel, no proxy, nothing held open. The gates live on the far side, so a tool
+          call can ask but cannot authorise. `heliograph mcp`.
         confidence: high
 metadata:
   github:
@@ -30,9 +37,11 @@ metadata:
     archived: false
     full_name: dbhq-uk/heliograph
     html_url: https://github.com/dbhq-uk/heliograph
-    created_at: "2026-09-06T17:09:55Z"
-    pushed_at: "2026-09-13T19:22:15Z"
-    description: Remote, captured, auditable execution on a machine you cannot log into. Control CLI, relay and transports around the heliograph method.
+    created_at: '2026-09-06T17:09:55Z'
+    pushed_at: '2026-09-13T19:22:15Z'
+    description: >-
+      Remote, captured, auditable execution on a machine you cannot log into. Control CLI, relay and transports around
+      the heliograph method.
     homepage: https://heliograph.dbhq.uk
     topics:
       - ai-agents
@@ -47,13 +56,17 @@ metadata:
       - model-context-protocol
       - remote-execution
       - sysadmin
-    last_checked_at: "2026-09-14T04:13:36.381Z"
+    last_checked_at: '2026-09-14T04:13:36.381Z'
     readme:
-      fetched_at: "2026-09-14T04:13:36.381Z"
+      fetched_at: '2026-09-14T04:13:36.381Z'
       bytes: 13314
 insights:
-  summary: A tool for executing auditable, remote commands on machines without direct SSH access via specialized transport protocols.
-  why_it_matters: It enables AI agents and developers to perform investigations and tasks in air-gapped or highly restricted environments where traditional login access is prohibited.
+  summary: >-
+    A tool for executing auditable, remote commands on machines without direct SSH access via specialized transport
+    protocols.
+  why_it_matters: >-
+    It enables AI agents and developers to perform investigations and tasks in air-gapped or highly restricted
+    environments where traditional login access is prohibited.
   mental_damage: Because even your AI agent shouldn't be blocked by the same security policies that keep you out of production.
   tags:
     - remote-execution
@@ -64,31 +77,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It acts as a capability extension that augments existing AI agents with the ability to interact with remote, restricted machines.
+  reason: >-
+    It acts as a capability extension that augments existing AI agents with the ability to interact with remote,
+    restricted machines.
   evidence:
     - README identifies it as a way to run code on machines you cannot log into
     - Explicitly provides 'agent skills' for Claude Code, Codex, and Cursor
     - Uses MCP to allow agents to bridge the gap to remote environments
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: mcp
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-14T04:13:20.173Z"
+    updated_at: '2026-09-14T04:13:20.173Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:36.381Z"
+    updated_at: '2026-09-14T04:13:36.381Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-17T04:14:37.031Z"
+    updated_at: '2026-09-17T04:14:37.031Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -99,7 +115,9 @@ processing:
       input_hash: sha256:7dc76dcca1a9a83160d84af35342a4aa3d94fe235c15bf2a078107147b2fc714
       proposed_primary_category: ai-dev-extensions
       disagreement: false
-      decision_reason: It acts as a capability extension that augments existing AI agents with the ability to interact with remote, restricted machines.
+      decision_reason: >-
+        It acts as a capability extension that augments existing AI agents with the ability to interact with remote,
+        restricted machines.
       decision_evidence:
         - README identifies it as a way to run code on machines you cannot log into
         - Explicitly provides 'agent skills' for Claude Code, Codex, and Cursor
@@ -107,7 +125,9 @@ processing:
       category_candidates:
         - ai-dev-extensions
         - mcp
-      contrastive_reason: Choose ai-dev-extensions over mcp because the core product identity is the remote execution method (Beacon, Flare, Beam), while MCP is the mechanism used to integrate those capabilities into agents.
+      contrastive_reason: >-
+        Choose ai-dev-extensions over mcp because the core product identity is the remote execution method (Beacon,
+        Flare, Beam), while MCP is the mechanism used to integrate those capabilities into agents.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__davidan90__time-node-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: davidan90/time-node-mcp
         extracted_url: https://github.com/davidan90/time-node-mcp
-        surrounding_text: "- [davidan90/time-node-mcp](https://github.com/davidan90/time-node-mcp) 📇 🏠 - Timezone-aware date and time operations with support for IANA timezones, timezone conversion, and Daylight Saving Time handling."
+        surrounding_text: >-
+          - [davidan90/time-node-mcp](https://github.com/davidan90/time-node-mcp) 📇 🏠 - Timezone-aware date and time
+          operations with support for IANA timezones, timezone conversion, and Daylight Saving Time handling.
         confidence: high
 metadata:
   github:
@@ -30,14 +32,14 @@ metadata:
     archived: false
     full_name: davidan90/time-node-mcp
     html_url: https://github.com/davidan90/time-node-mcp
-    created_at: "2025-08-11T09:41:49Z"
-    pushed_at: "2025-08-11T09:43:43Z"
+    created_at: '2025-08-11T09:41:49Z'
+    pushed_at: '2025-08-11T09:43:43Z'
     description: MCP server for timezone-aware date and time operations
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:35.409Z"
+    last_checked_at: '2026-09-14T04:13:35.409Z'
     readme:
-      fetched_at: "2026-09-14T04:13:35.409Z"
+      fetched_at: '2026-09-14T04:13:35.409Z'
       bytes: 5011
 insights:
   summary: An MCP server that provides timezone-aware date and time operations for AI assistants.
@@ -52,31 +54,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server whose primary identity is providing timezone-aware date/time operations via the Model Context Protocol.
+  reason: >-
+    This is a dedicated MCP server whose primary identity is providing timezone-aware date/time operations via the Model
+    Context Protocol.
   evidence:
     - Repo description explicitly states it is an MCP server for timezone-aware date/time operations
     - README details its role as a server addressing AI assistant timezone confusion
     - Already listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.610Z"
+    updated_at: '2026-05-06T22:12:15.610Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:35.409Z"
+    updated_at: '2026-09-14T04:13:35.409Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:50:08.663Z"
+    updated_at: '2026-07-21T15:50:08.663Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +94,9 @@ processing:
       input_hash: sha256:5f0156908f2b05a8cdec148cf9e707f071d728bc023295623e9f30e9ee6ad3c1
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a dedicated MCP server whose primary identity is providing timezone-aware date/time operations via the Model Context Protocol.
+      decision_reason: >-
+        This is a dedicated MCP server whose primary identity is providing timezone-aware date/time operations via the
+        Model Context Protocol.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for timezone-aware date/time operations
         - README details its role as a server addressing AI assistant timezone confusion
@@ -97,6 +104,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

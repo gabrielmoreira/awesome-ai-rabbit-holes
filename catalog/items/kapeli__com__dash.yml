@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__kapeli__com__dash__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +19,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Dash
         extracted_url: https://kapeli.com/dash
-        surrounding_text: "- [Kapeli/dash-mcp-server](https://github.com/Kapeli/dash-mcp-server) [![Kapeli/dash-mcp-server MCP server](https://glama.ai/mcp/servers/@Kapeli/dash-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/@Kapeli/dash-mcp-server) 🐍 🏠 🍎 - MCP server for [Dash](https://kapeli.com/dash), the macOS API documentation browser. Instant search over 200+ documentation sets."
+        surrounding_text: >-
+          - [Kapeli/dash-mcp-server](https://github.com/Kapeli/dash-mcp-server) [![Kapeli/dash-mcp-server MCP
+          server](https://glama.ai/mcp/servers/@Kapeli/dash-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/@Kapeli/dash-mcp-server)
+          🐍 🏠 🍎 - MCP server for [Dash](https://kapeli.com/dash), the macOS API documentation browser. Instant search
+          over 200+ documentation sets.
         confidence: high
 metadata:
   github:
@@ -37,9 +41,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Dash is a macOS API documentation browser and code snippet manager with offline access to 200+ documentation sets and MCP support for AI assistant integration.
-  why_it_matters: It gives developers instant, offline access to extensive API documentation and integrates with AI assistants via MCP to provide up-to-date context.
-  mental_damage: Finally, a way to make your AI assistant stop hallucinating API parameters—by giving it the docs you already downloaded but forgot about.
+  summary: >-
+    Dash is a macOS API documentation browser and code snippet manager with offline access to 200+ documentation sets
+    and MCP support for AI assistant integration.
+  why_it_matters: >-
+    It gives developers instant, offline access to extensive API documentation and integrates with AI assistants via MCP
+    to provide up-to-date context.
+  mental_damage: >-
+    Finally, a way to make your AI assistant stop hallucinating API parameters—by giving it the docs you already
+    downloaded but forgot about.
   tags:
     - documentation
     - mcp
@@ -49,20 +59,23 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is a core feature of Dash, enabling AI assistants to access its documentation sets, making it a domain-specific MCP server.
+  reason: >-
+    MCP is a core feature of Dash, enabling AI assistants to access its documentation sets, making it a domain-specific
+    MCP server.
   evidence:
     - Dash provides offline access to 200+ API documentation sets and explicitly features MCP support for AI integration
     - Listed in awesome-mcp-servers under Developer Tools as a server implementation
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Retrieval & Fresh Docs
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.663Z"
+    updated_at: '2026-05-06T22:12:15.663Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +84,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:28:48.167Z"
+    updated_at: '2026-07-21T15:28:48.167Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,13 +97,19 @@ processing:
       input_hash: sha256:c857d2c1e5169363acfa994463e52b577df2907520a6e4cdeb7b2ed29e81dd92
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is a core feature of Dash, enabling AI assistants to access its documentation sets, making it a domain-specific MCP server.
+      decision_reason: >-
+        MCP is a core feature of Dash, enabling AI assistants to access its documentation sets, making it a
+        domain-specific MCP server.
       decision_evidence:
-        - Dash provides offline access to 200+ API documentation sets and explicitly features MCP support for AI integration
+        - >-
+          Dash provides offline access to 200+ API documentation sets and explicitly features MCP support for AI
+          integration
         - Listed in awesome-mcp-servers under Developer Tools as a server implementation
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because Dash's primary identity is a documentation tool that exposes its capabilities via MCP, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because Dash's primary identity is a documentation tool that exposes its
+        capabilities via MCP, not an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

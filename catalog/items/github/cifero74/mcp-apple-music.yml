@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cifero74__mcp-apple-music__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,17 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: Cifero74/mcp-apple-music
         extracted_url: https://github.com/cifero74/mcp-apple-music
-        surrounding_text: "- [Cifero74/mcp-apple-music](https://github.com/Cifero74/mcp-apple-music) [![mcp-apple-music MCP server](https://glama.ai/mcp/servers/@Cifero74/mcp-apple-music/badges/score.svg)](https://glama.ai/mcp/servers/@Cifero74/mcp-apple-music) 🐍 🏠 🍎 - Full Apple Music integration: search catalog, browse personal library, manage playlists, and get personalised recommendations.- [codex-curator/studiomcphub](https://github.com/codex-curator/studiomcphub) [![studio-mcp-hub MCP server](https://glama.ai/mcp/servers/@codex-curator/studio-mcp-hub/badges/score.svg)](https://glama.ai/mcp/servers/@codex-curator/studio-mcp-hub) 🐍 ☁️ - 32 creative AI tools (18 free) for autonomous agents: image generation (SD 3.5), ESRGAN upscaling, background removal, product mockups, CMYK conversion, print-ready PDF, SVG vectorization, invisible watermarking, AI metadata enrichment, provenance, Arweave storage, NFT minting, and 53K+ museum artworks. Pay per call via x402/Stripe/GCX."
+        surrounding_text: >-
+          - [Cifero74/mcp-apple-music](https://github.com/Cifero74/mcp-apple-music) [![mcp-apple-music MCP
+          server](https://glama.ai/mcp/servers/@Cifero74/mcp-apple-music/badges/score.svg)](https://glama.ai/mcp/servers/@Cifero74/mcp-apple-music)
+          🐍 🏠 🍎 - Full Apple Music integration: search catalog, browse personal library, manage playlists, and get
+          personalised recommendations.- [codex-curator/studiomcphub](https://github.com/codex-curator/studiomcphub)
+          [![studio-mcp-hub MCP
+          server](https://glama.ai/mcp/servers/@codex-curator/studio-mcp-hub/badges/score.svg)](https://glama.ai/mcp/servers/@codex-curator/studio-mcp-hub)
+          🐍 ☁️ - 32 creative AI tools (18 free) for autonomous agents: image generation (SD 3.5), ESRGAN upscaling,
+          background removal, product mockups, CMYK conversion, print-ready PDF, SVG vectorization, invisible
+          watermarking, AI metadata enrichment, provenance, Arweave storage, NFT minting, and 53K+ museum artworks. Pay
+          per call via x402/Stripe/GCX.
         confidence: high
 metadata:
   github:
@@ -30,8 +40,8 @@ metadata:
     archived: false
     full_name: Cifero74/mcp-apple-music
     html_url: https://github.com/Cifero74/mcp-apple-music
-    created_at: "2026-02-27T14:38:42Z"
-    pushed_at: "2026-05-24T06:46:14Z"
+    created_at: '2026-02-27T14:38:42Z'
+    pushed_at: '2026-05-24T06:46:14Z'
     description: Full Apple Music integration for Claude via MCP — search catalog, manage library & playlists
     homepage: https://github.com/Cifero74/mcp-apple-music
     topics:
@@ -42,13 +52,17 @@ metadata:
       - mcp
       - musickit
       - python
-    last_checked_at: "2026-09-07T04:13:45.237Z"
+    last_checked_at: '2026-09-07T04:13:45.237Z'
     readme:
-      fetched_at: "2026-09-07T04:13:45.237Z"
+      fetched_at: '2026-09-07T04:13:45.237Z'
       bytes: 6327
 insights:
-  summary: An MCP server that integrates Apple Music with Claude, enabling catalog search, library management, and playlist operations.
-  why_it_matters: Lets developers delegate music-related tasks (e.g., playlist curation, library analysis) to Claude via structured tools rather than manual API calls.
+  summary: >-
+    An MCP server that integrates Apple Music with Claude, enabling catalog search, library management, and playlist
+    operations.
+  why_it_matters: >-
+    Lets developers delegate music-related tasks (e.g., playlist curation, library analysis) to Claude via structured
+    tools rather than manual API calls.
   mental_damage: Now your AI can judge your taste in music while also judging your code.
   tags:
     - mcp
@@ -59,31 +73,33 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server providing Apple Music integration, not a secondary adapter or compatibility feature."
+  reason: >-
+    MCP is the product identity: this is a dedicated MCP server providing Apple Music integration, not a secondary
+    adapter or compatibility feature.
   evidence:
     - Repo description explicitly states 'Full Apple Music integration for Claude via MCP'
     - README details 11 MCP tools for Apple Music operations
     - Already listed in awesome-mcp-servers under 'Server Implementations > Art & Culture'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.607Z"
+    updated_at: '2026-05-06T22:12:15.607Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:45.237Z"
+    updated_at: '2026-09-07T04:13:45.237Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:41:46.107Z"
+    updated_at: '2026-07-21T15:41:46.107Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,7 +112,9 @@ processing:
       input_hash: sha256:794e644956692c48b1b5d85ae166572c9db3bbf2eb6675600cd66cd9ee3b4219
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server providing Apple Music integration, not a secondary adapter or compatibility feature."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server providing Apple Music integration, not a secondary
+        adapter or compatibility feature.
       decision_evidence:
         - Repo description explicitly states 'Full Apple Music integration for Claude via MCP'
         - README details 11 MCP tools for Apple Music operations
@@ -104,6 +122,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server (not just an extension for another assistant).
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server (not just an extension for another
+        assistant).
       review_reason: null
       review_resume_lifecycle: null

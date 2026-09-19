@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__handsomejustin__mijia-control__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-28T05:28:09.816Z"
+      discovered_at: '2026-05-28T05:28:09.816Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🏠 <a name="home-automation"></a>Home Automation
         anchor_text: handsomejustin/mijia-control
         extracted_url: https://github.com/handsomejustin/mijia-control
-        surrounding_text: "- [handsomejustin/mijia-control](https://github.com/handsomejustin/mijia-control) [![handsomejustin/mijia-control MCP server](https://glama.ai/mcp/servers/handsomejustin/mijia-control/badges/score.svg)](https://glama.ai/mcp/servers/handsomejustin/mijia-control) 🐍 ☁️ - Control Xiaomi/Mijia smart home devices (lights, AC, heaters, robots, cameras) through MCP. Includes web dashboard, REST API, CLI, SocketIO, energy monitoring, and automation rules."
+        surrounding_text: >-
+          - [handsomejustin/mijia-control](https://github.com/handsomejustin/mijia-control)
+          [![handsomejustin/mijia-control MCP
+          server](https://glama.ai/mcp/servers/handsomejustin/mijia-control/badges/score.svg)](https://glama.ai/mcp/servers/handsomejustin/mijia-control)
+          🐍 ☁️ - Control Xiaomi/Mijia smart home devices (lights, AC, heaters, robots, cameras) through MCP. Includes
+          web dashboard, REST API, CLI, SocketIO, energy monitoring, and automation rules.
         confidence: high
 metadata:
   github:
@@ -30,10 +35,10 @@ metadata:
     archived: false
     full_name: handsomejustin/mijia-control
     html_url: https://github.com/handsomejustin/mijia-control
-    created_at: "2026-05-01T14:30:16Z"
-    pushed_at: "2026-05-23T18:28:13Z"
+    created_at: '2026-05-01T14:30:16Z'
+    pushed_at: '2026-05-23T18:28:13Z'
     description: MijiaPilot - 小米-米家生态 × MCP × CLI x AI Agent × HomeKit 全桥接家庭智能家居平台。
-    homepage: ""
+    homepage: ''
     topics:
       - hermes-agent
       - mcp
@@ -44,14 +49,20 @@ metadata:
       - xiaomi
       - xiaomi-smart
       - xiaomi-smart-home
-    last_checked_at: "2026-09-03T05:16:57.494Z"
+    last_checked_at: '2026-09-03T05:16:57.494Z'
     readme:
-      fetched_at: "2026-09-03T05:16:57.494Z"
+      fetched_at: '2026-09-03T05:16:57.494Z'
       bytes: 17013
 insights:
-  summary: A smart home bridge and control platform that integrates the Xiaomi/Mijia ecosystem with an MCP server, REST API, and HomeKit.
-  why_it_matters: It allows developers to expose their physical home infrastructure as tools for AI agents via MCP, enabling LLMs to actually control hardware like lights, AC, and sensors.
-  mental_damage: "The ultimate developer fantasy: finally being able to prompt a coding agent to fix a bug in a repo and then have it turn off the living room lights when the tests pass."
+  summary: >-
+    A smart home bridge and control platform that integrates the Xiaomi/Mijia ecosystem with an MCP server, REST API,
+    and HomeKit.
+  why_it_matters: >-
+    It allows developers to expose their physical home infrastructure as tools for AI agents via MCP, enabling LLMs to
+    actually control hardware like lights, AC, and sensors.
+  mental_damage: >-
+    The ultimate developer fantasy: finally being able to prompt a coding agent to fix a bug in a repo and then have it
+    turn off the living room lights when the tests pass.
   tags:
     - mcp
     - home-automation
@@ -60,32 +71,31 @@ insights:
     - python
   confidence: high
 curation:
-  status: included
-  reason: The product's identity is a domain-specific MCP server that enables AI agents to interact with a specific hardware ecosystem.
+  status: pending
+  reason: 'Manual audit: Smart home bridge (IoT), out of catalog scope.'
   evidence:
-    - Includes a dedicated `mcp_server/` directory and supports the MCP Python SDK
-    - Explicitly enables Claude Code and Hermes Agent to call hardware functions
-    - Listed in awesome-mcp-servers under Home Automation
+    - Manual review of Jev Middleware & Generic audit, 2026-09-19
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-28T05:28:09.819Z"
+    updated_at: '2026-05-28T05:28:09.819Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:57.494Z"
+    updated_at: '2026-09-03T05:16:57.494Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-08T05:41:24.959Z"
+    updated_at: '2026-06-08T05:41:24.959Z'
     cause: null
     next_retry_at: null
     attempts: 1

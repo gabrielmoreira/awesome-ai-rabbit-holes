@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__glenngillen__mcpmcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: glenngillen/mcpmcp-server
         extracted_url: https://github.com/glenngillen/mcpmcp-server
-        surrounding_text: "- [glenngillen/mcpmcp-server](https://github.com/glenngillen/mcpmcp-server) ☁️ 📇 🍎 🪟 🐧 - A list of MCP servers so you can ask your client which servers you can use to improve your daily workflow."
+        surrounding_text: >-
+          - [glenngillen/mcpmcp-server](https://github.com/glenngillen/mcpmcp-server) ☁️ 📇 🍎 🪟 🐧 - A list of MCP
+          servers so you can ask your client which servers you can use to improve your daily workflow.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,25 @@ metadata:
     archived: false
     full_name: glenngillen/mcpmcp-server
     html_url: https://github.com/glenngillen/mcpmcp-server
-    created_at: "2025-04-24T04:49:10Z"
-    pushed_at: "2025-04-24T04:51:41Z"
-    description: Discover, setup, and integrate MCP servers with your favorite clients. Unlock the full potential of AI in your daily workflow.
+    created_at: '2025-04-24T04:49:10Z'
+    pushed_at: '2025-04-24T04:51:41Z'
+    description: >-
+      Discover, setup, and integrate MCP servers with your favorite clients. Unlock the full potential of AI in your
+      daily workflow.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:50.930Z"
+    last_checked_at: '2026-09-03T05:16:50.930Z'
     readme:
-      fetched_at: "2026-09-03T05:16:50.930Z"
+      fetched_at: '2026-09-03T05:16:50.930Z'
       bytes: 554
 insights:
   summary: A tool for discovering, setting up, and integrating MCP servers with AI clients.
-  why_it_matters: It simplifies the process of connecting MCP servers to clients like Claude Desktop, enabling developers to unlock additional AI capabilities in their workflows.
-  mental_damage: Because nothing says 'productivity' like configuring yet another protocol to make your AI assistant slightly more useful.
+  why_it_matters: >-
+    It simplifies the process of connecting MCP servers to clients like Claude Desktop, enabling developers to unlock
+    additional AI capabilities in their workflows.
+  mental_damage: >-
+    Because nothing says 'productivity' like configuring yet another protocol to make your AI assistant slightly more
+    useful.
   tags:
     - mcp
     - integration
@@ -58,6 +66,7 @@ curation:
     - README provides MCP client configuration instructions
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Registries & Discovery
 lifecycle:
   status: incubating
@@ -65,17 +74,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.616Z"
+    updated_at: '2026-05-06T22:12:15.616Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:50.930Z"
+    updated_at: '2026-09-03T05:16:50.930Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:03:19.443Z"
+    updated_at: '2026-07-21T16:03:19.443Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary value is MCP server discovery/integration rather than augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary value is MCP server discovery/integration rather than
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

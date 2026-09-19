@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__n8daniels__rulesetmcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: n8daniels/RulesetMCP
         extracted_url: https://github.com/n8daniels/rulesetmcp
-        surrounding_text: "- [n8daniels/RulesetMCP](https://github.com/n8daniels/RulesetMCP) 📇 🏠 - Weight-On-Wheels for AI - keeps agents grounded in your project's rules. Query coding standards, validate snippets, and get task-specific guidance from version-controlled rule files."
+        surrounding_text: >-
+          - [n8daniels/RulesetMCP](https://github.com/n8daniels/RulesetMCP) 📇 🏠 - Weight-On-Wheels for AI - keeps
+          agents grounded in your project's rules. Query coding standards, validate snippets, and get task-specific
+          guidance from version-controlled rule files.
         confidence: high
 metadata:
   github:
@@ -30,19 +33,25 @@ metadata:
     archived: false
     full_name: n8daniels/RulesetMCP
     html_url: https://github.com/n8daniels/RulesetMCP
-    created_at: "2025-12-06T00:01:56Z"
-    pushed_at: "2025-12-06T13:08:24Z"
-    description: "Weight-On-Wheels for AI: MCP server that keeps every agent grounded in your project's rules"
+    created_at: '2025-12-06T00:01:56Z'
+    pushed_at: '2025-12-06T13:08:24Z'
+    description: 'Weight-On-Wheels for AI: MCP server that keeps every agent grounded in your project''s rules'
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T15:11:59.216Z"
+    last_checked_at: '2026-07-20T15:11:59.216Z'
     readme:
-      fetched_at: "2026-07-20T15:11:59.216Z"
+      fetched_at: '2026-07-20T15:11:59.216Z'
       bytes: 6892
 insights:
-  summary: An MCP server that exposes version-controlled project rules, coding standards, and guidelines to AI agents via tools for listing, querying, and validating code against defined conventions.
-  why_it_matters: It lets teams define coding standards and architectural rules once in code, then makes them queryable and enforceable across any MCP-compatible AI session instead of re-explaining them every time.
-  mental_damage: We have successfully abstracted away the need to manually paste our own rules into the chat, freeing up valuable tokens to argue with the AI about why it is still ignoring them.
+  summary: >-
+    An MCP server that exposes version-controlled project rules, coding standards, and guidelines to AI agents via tools
+    for listing, querying, and validating code against defined conventions.
+  why_it_matters: >-
+    It lets teams define coding standards and architectural rules once in code, then makes them queryable and
+    enforceable across any MCP-compatible AI session instead of re-explaining them every time.
+  mental_damage: >-
+    We have successfully abstracted away the need to manually paste our own rules into the chat, freeing up valuable
+    tokens to argue with the AI about why it is still ignoring them.
   tags:
     - mcp
     - rules
@@ -51,37 +60,40 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: This is an MCP server whose core identity is exposing project rules and validation over the Model Context Protocol, making it a clean fit for MCP Servers & Tooling.
+  reason: >-
+    This is an MCP server whose core identity is exposing project rules and validation over the Model Context Protocol,
+    making it a clean fit for MCP Servers & Tooling.
   evidence:
     - Repo description calls it an 'MCP server that keeps every agent grounded in your project's rules'
     - README states it 'gives AI agents a project-aware rulebook' via MCP tools like get_rules and validate_snippet
     - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.632Z"
+    updated_at: '2026-05-06T22:12:15.632Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-08-03T05:17:10.255Z"
+    updated_at: '2026-08-03T05:17:10.255Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for n8daniels/rulesetmcp
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

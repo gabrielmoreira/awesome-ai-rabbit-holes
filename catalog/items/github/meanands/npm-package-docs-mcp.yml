@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__meanands__npm-package-docs-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: meanands/npm-package-docs-mcp
         extracted_url: https://github.com/meanands/npm-package-docs-mcp
-        surrounding_text: "- [meanands/npm-package-docs-mcp](https://github.com/meanands/npm-package-docs-mcp) ☁️ - MCP Server that provides up-to-date documentation for npm packages by fetching the latest README doc from the package's GitHub repository or the README."
+        surrounding_text: >-
+          - [meanands/npm-package-docs-mcp](https://github.com/meanands/npm-package-docs-mcp) ☁️ - MCP Server that
+          provides up-to-date documentation for npm packages by fetching the latest README doc from the package's GitHub
+          repository or the README.
         confidence: high
 metadata:
   github:
@@ -30,19 +33,24 @@ metadata:
     archived: false
     full_name: meanands/npm-package-docs-mcp
     html_url: https://github.com/meanands/npm-package-docs-mcp
-    created_at: "2025-08-15T14:02:04Z"
-    pushed_at: "2025-08-16T02:49:45Z"
-    description: A Model Context Protocol (MCP) tool that provides up-to-date documentation for npm packages directly in your IDE. This tool fetches the latest README documentation from either the package's GitHub repository or the README bundled with the npm package itself.
+    created_at: '2025-08-15T14:02:04Z'
+    pushed_at: '2025-08-16T02:49:45Z'
+    description: >-
+      A Model Context Protocol (MCP) tool that provides up-to-date documentation for npm packages directly in your IDE.
+      This tool fetches the latest README documentation from either the package's GitHub repository or the README
+      bundled with the npm package itself.
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:16:59.042Z"
+    last_checked_at: '2026-08-03T05:16:59.042Z'
     readme:
-      fetched_at: "2026-08-03T05:16:59.042Z"
+      fetched_at: '2026-08-03T05:16:59.042Z'
       bytes: 4295
 insights:
-  summary: An MCP server that fetches and returns the latest npm package documentation from GitHub or the npm tarball for use in IDEs.
+  summary: >-
+    An MCP server that fetches and returns the latest npm package documentation from GitHub or the npm tarball for use
+    in IDEs.
   why_it_matters: It eliminates outdated IDE package docs by providing real-time README content directly in the developer's workflow.
-  mental_damage: "Finally, a tool to fix the one thing worse than no docs: confidently wrong docs from your IDE's cache."
+  mental_damage: 'Finally, a tool to fix the one thing worse than no docs: confidently wrong docs from your IDE''s cache.'
   tags:
     - mcp
     - documentation
@@ -50,31 +58,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is an MCP server whose core identity and value lie in providing documentation via the Model Context Protocol, making MCP the primary product identity rather than a compatibility layer.
+  reason: >-
+    It is an MCP server whose core identity and value lie in providing documentation via the Model Context Protocol,
+    making MCP the primary product identity rather than a compatibility layer.
   evidence:
-    - "Repo description: 'A Model Context Protocol (MCP) tool that provides up-to-date documentation for npm packages directly in your IDE'"
-    - "README: Describes itself as an MCP tool with MCP server installation instructions for Cursor"
-    - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Developer Tools"
+    - >-
+      Repo description: 'A Model Context Protocol (MCP) tool that provides up-to-date documentation for npm packages
+      directly in your IDE'
+    - 'README: Describes itself as an MCP tool with MCP server installation instructions for Cursor'
+    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Developer Tools'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.629Z"
+    updated_at: '2026-05-06T22:12:15.629Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:59.042Z"
+    updated_at: '2026-08-03T05:16:59.042Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:19:37.853Z"
+    updated_at: '2026-07-21T16:19:37.853Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,14 +100,20 @@ processing:
       input_hash: sha256:cb831e0a9ec34aa1e5162211d21ebb8d2db2718ab30ed4311b933b1fe698bd43
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: It is an MCP server whose core identity and value lie in providing documentation via the Model Context Protocol, making MCP the primary product identity rather than a compatibility layer.
+      decision_reason: >-
+        It is an MCP server whose core identity and value lie in providing documentation via the Model Context Protocol,
+        making MCP the primary product identity rather than a compatibility layer.
       decision_evidence:
-        - "Repo description: 'A Model Context Protocol (MCP) tool that provides up-to-date documentation for npm packages directly in your IDE'"
-        - "README: Describes itself as an MCP tool with MCP server installation instructions for Cursor"
-        - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Developer Tools"
+        - >-
+          Repo description: 'A Model Context Protocol (MCP) tool that provides up-to-date documentation for npm packages
+          directly in your IDE'
+        - 'README: Describes itself as an MCP tool with MCP server installation instructions for Cursor'
+        - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Developer Tools'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool is an MCP server whose main value is MCP-based documentation delivery, not general IDE augmentation beyond the MCP protocol.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool is an MCP server whose main value is MCP-based documentation
+        delivery, not general IDE augmentation beyond the MCP protocol.
       review_reason: null
       review_resume_lifecycle: null

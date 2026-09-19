@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__edge-claw__mood-booster-agent__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: edge-claw/mood-booster-agent
         extracted_url: https://github.com/edge-claw/mood-booster-agent
-        surrounding_text: "- [edge-claw/mood-booster-agent](https://github.com/edge-claw/mood-booster-agent) [![mood-booster-agent MCP server](https://glama.ai/mcp/servers/@edge-claw/mood-booster-agent/badges/score.svg)](https://glama.ai/mcp/servers/@edge-claw/mood-booster-agent) 📇 ☁️ - ERC-8004 registered AI Agent that delivers uplifting messages via MCP (SSE transport) with on-chain USDC tipping, ERC-8004 reputation feedback, and discovery across 6 chains."
+        surrounding_text: >-
+          - [edge-claw/mood-booster-agent](https://github.com/edge-claw/mood-booster-agent) [![mood-booster-agent MCP
+          server](https://glama.ai/mcp/servers/@edge-claw/mood-booster-agent/badges/score.svg)](https://glama.ai/mcp/servers/@edge-claw/mood-booster-agent)
+          📇 ☁️ - ERC-8004 registered AI Agent that delivers uplifting messages via MCP (SSE transport) with on-chain
+          USDC tipping, ERC-8004 reputation feedback, and discovery across 6 chains.
         confidence: high
 metadata:
   github:
@@ -30,18 +34,22 @@ metadata:
     archived: false
     full_name: edge-claw/mood-booster-agent
     html_url: https://github.com/edge-claw/mood-booster-agent
-    created_at: "2026-03-04T22:15:10Z"
-    pushed_at: "2026-03-24T12:39:48Z"
+    created_at: '2026-03-04T22:15:10Z'
+    pushed_at: '2026-03-24T12:39:48Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:46.619Z"
+    last_checked_at: '2026-09-14T04:13:46.619Z'
     readme:
-      fetched_at: "2026-09-14T04:13:46.619Z"
+      fetched_at: '2026-09-14T04:13:46.619Z'
       bytes: 7454
 insights:
-  summary: An ERC-8004 registered AI agent that delivers uplifting messages via the MCP protocol, with on-chain discovery, tipping, and reputation feedback.
-  why_it_matters: It demonstrates a complete reference implementation of the ERC-8004 agent interaction loop, showing how AI agents can integrate with blockchain for discovery, payments, and reputation.
+  summary: >-
+    An ERC-8004 registered AI agent that delivers uplifting messages via the MCP protocol, with on-chain discovery,
+    tipping, and reputation feedback.
+  why_it_matters: >-
+    It demonstrates a complete reference implementation of the ERC-8004 agent interaction loop, showing how AI agents
+    can integrate with blockchain for discovery, payments, and reputation.
   mental_damage: Now your AI agent can demand microtransactions for telling you to 'keep coding'.
   tags:
     - mcp
@@ -50,32 +58,31 @@ insights:
     - erc-8004
   confidence: high
 curation:
-  status: included
-  reason: MCP is the product identity here, with the agent serving as a domain-specific MCP server for uplifting messages, and the core novelty is the MCP-first integration with ERC-8004.
+  status: pending
+  reason: 'Manual audit: Novelty blockchain agent demo, not developer tooling.'
   evidence:
-    - The README explicitly describes it as an MCP server with tools like cheer_me_up and confirm_tip
-    - It provides a complete MCP SSE endpoint and REST API for interaction
-    - The project's main value is the MCP-based agent interaction loop with on-chain features
+    - Manual review of Jev Middleware & Generic audit, 2026-09-19
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.612Z"
+    updated_at: '2026-05-06T22:12:15.612Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:46.619Z"
+    updated_at: '2026-09-14T04:13:46.619Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:59.433Z"
+    updated_at: '2026-07-21T15:51:59.433Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +95,9 @@ processing:
       input_hash: sha256:9cccdaaeaab59e1d7125ca958d33104a6060f042d73ad77987313724565ebb39
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the product identity here, with the agent serving as a domain-specific MCP server for uplifting messages, and the core novelty is the MCP-first integration with ERC-8004.
+      decision_reason: >-
+        MCP is the product identity here, with the agent serving as a domain-specific MCP server for uplifting messages,
+        and the core novelty is the MCP-first integration with ERC-8004.
       decision_evidence:
         - The README explicitly describes it as an MCP server with tools like cheer_me_up and confirm_tip
         - It provides a complete MCP SSE endpoint and REST API for interaction
@@ -96,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - agent-orchestration
-      contrastive_reason: Choose mcp over agent-orchestration because the product's primary identity is as an MCP server implementing a specific domain (uplifting messages) rather than a platform for coordinating multiple agents.
+      contrastive_reason: >-
+        Choose mcp over agent-orchestration because the product's primary identity is as an MCP server implementing a
+        specific domain (uplifting messages) rather than a platform for coordinating multiple agents.
       review_reason: null
       review_resume_lifecycle: null

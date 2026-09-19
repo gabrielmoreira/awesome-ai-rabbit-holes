@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gptutor__gptutor-extension__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,7 +19,9 @@ provenance:
           - Documentation
         anchor_text: GPTutor
         extracted_url: https://gptutor.tools
-        surrounding_text: "- **[GPTutor](https://gptutor.tools/)** – VS Code extension for LLM-powered code explanations across 120+ languages."
+        surrounding_text: >-
+          - **[GPTutor](https://gptutor.tools/)** – VS Code extension for LLM-powered code explanations across 120+
+          languages.
         confidence: high
 metadata:
   github:
@@ -29,18 +31,22 @@ metadata:
     archived: false
     full_name: GPTutor/gptutor-extension
     html_url: https://github.com/GPTutor/gptutor-extension
-    created_at: "2023-04-14T13:19:29Z"
-    pushed_at: "2023-12-14T15:30:22Z"
+    created_at: '2023-04-14T13:19:29Z'
+    pushed_at: '2023-12-14T15:30:22Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:53.414Z"
+    last_checked_at: '2026-09-03T05:16:53.414Z'
     readme:
-      fetched_at: "2026-09-03T05:16:53.414Z"
+      fetched_at: '2026-09-03T05:16:53.414Z'
       bytes: 5330
 insights:
-  summary: A VS Code extension that uses OpenAI's GPT models to provide code explanations, reviews, and comments for the Move programming language.
-  why_it_matters: It helps developers understand and improve their Move code through AI-powered explanations and reviews directly in their editor.
+  summary: >-
+    A VS Code extension that uses OpenAI's GPT models to provide code explanations, reviews, and comments for the Move
+    programming language.
+  why_it_matters: >-
+    It helps developers understand and improve their Move code through AI-powered explanations and reviews directly in
+    their editor.
   mental_damage: Now you can hover over code to get explanations, because reading documentation is apparently too retro.
   tags:
     - vs-code-extension
@@ -50,31 +56,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool is a VS Code extension that augments the editor with AI-powered code explanations and reviews, rather than being a standalone coding assistant.
+  reason: >-
+    The tool is a VS Code extension that augments the editor with AI-powered code explanations and reviews, rather than
+    being a standalone coding assistant.
   evidence:
     - README describes it as a VS Code extension for code explanations and reviews
-    - Source-list context places it in 'Documentation' section of a coding tools list, but the product is clearly an extension
+    - >-
+      Source-list context places it in 'Documentation' section of a coding tools list, but the product is clearly an
+      extension
     - Core functionality is host-integration (VS Code) with AI capabilities
 placement:
-  primary_category: ai-dev-extensions
-  section: IDE / UI / Workflow Add-ons
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: IDE & Editor Add-ons
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.617Z"
+    updated_at: '2026-05-06T22:12:15.617Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:53.414Z"
+    updated_at: '2026-09-03T05:16:53.414Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:03:57.742Z"
+    updated_at: '2026-07-21T16:03:57.742Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,14 +98,20 @@ processing:
       input_hash: sha256:121531eb8a9f2b1c164bcc43960fb1725e2bcd266c83d3541644ba6566a225c6
       proposed_primary_category: ai-dev-extensions
       disagreement: false
-      decision_reason: The tool is a VS Code extension that augments the editor with AI-powered code explanations and reviews, rather than being a standalone coding assistant.
+      decision_reason: >-
+        The tool is a VS Code extension that augments the editor with AI-powered code explanations and reviews, rather
+        than being a standalone coding assistant.
       decision_evidence:
         - README describes it as a VS Code extension for code explanations and reviews
-        - Source-list context places it in 'Documentation' section of a coding tools list, but the product is clearly an extension
+        - >-
+          Source-list context places it in 'Documentation' section of a coding tools list, but the product is clearly an
+          extension
         - Core functionality is host-integration (VS Code) with AI capabilities
       category_candidates:
         - ai-dev-extensions
         - coding-agents
-      contrastive_reason: Choose ai-dev-extensions over coding-agents because the primary identity is a VS Code extension that augments the editor rather than acting as a standalone coding assistant.
+      contrastive_reason: >-
+        Choose ai-dev-extensions over coding-agents because the primary identity is a VS Code extension that augments
+        the editor rather than acting as a standalone coding assistant.
       review_reason: null
       review_resume_lifecycle: null

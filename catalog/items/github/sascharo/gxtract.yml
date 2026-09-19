@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sascharo__gxtract__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,12 @@ provenance:
           - Community Servers
         anchor_text: GXtract
         extracted_url: https://github.com/sascharo/gxtract
-        surrounding_text: "- **[GXtract](https://github.com/sascharo/gxtract)** - GXtract is a MCP server designed to integrate with VS Code and other compatible editors (documentation: [sascharo.github.io/gxtract](https://sascharo.github.io/gxtract)). It provides a suite of tools for interacting with the GroundX platform, enabling you to leverage its powerful document understanding capabilities directly within your development environment."
+        surrounding_text: >-
+          - **[GXtract](https://github.com/sascharo/gxtract)** - GXtract is a MCP server designed to integrate with VS
+          Code and other compatible editors (documentation:
+          [sascharo.github.io/gxtract](https://sascharo.github.io/gxtract)). It provides a suite of tools for
+          interacting with the GroundX platform, enabling you to leverage its powerful document understanding
+          capabilities directly within your development environment.
         confidence: high
 metadata:
   github:
@@ -29,22 +34,26 @@ metadata:
     archived: false
     full_name: sascharo/gxtract
     html_url: https://github.com/sascharo/gxtract
-    created_at: "2025-05-17T09:37:06Z"
-    pushed_at: "2025-05-20T04:18:05Z"
+    created_at: '2025-05-17T09:37:06Z'
+    pushed_at: '2025-05-20T04:18:05Z'
     description: GXtract MCP Server for VS Code, forks and other editors; provides tools for interacting with GroundX
     homepage: https://sascharo.github.io/gxtract/
     topics:
       - groundx
       - mcp
       - mcp-server
-    last_checked_at: "2026-07-20T16:42:51.273Z"
+    last_checked_at: '2026-07-20T16:42:51.273Z'
     readme:
-      fetched_at: "2026-07-20T16:42:51.273Z"
+      fetched_at: '2026-07-20T16:42:51.273Z'
       bytes: 18853
 insights:
   summary: GXtract is an MCP server that provides tools for interacting with GroundX within VS Code and other editors.
-  why_it_matters: It enables developers to access GroundX's data extraction capabilities directly from their editor via the Model Context Protocol, reducing context-switching.
-  mental_damage: Another MCP server promising seamless GroundX integration—because what we really needed was yet another way to connect our IDEs to niche data platforms.
+  why_it_matters: >-
+    It enables developers to access GroundX's data extraction capabilities directly from their editor via the Model
+    Context Protocol, reducing context-switching.
+  mental_damage: >-
+    Another MCP server promising seamless GroundX integration—because what we really needed was yet another way to
+    connect our IDEs to niche data platforms.
   tags:
     - mcp
     - groundx
@@ -52,31 +61,35 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: GXtract is an MCP server focused on GroundX integration, making MCP its core identity rather than a mere extension or coding agent.
+  reason: >-
+    GXtract is an MCP server focused on GroundX integration, making MCP its core identity rather than a mere extension
+    or coding agent.
   evidence:
-    - "Repo description: 'GXtract MCP Server for VS Code, forks and other editors; provides tools for interacting with GroundX'"
-    - "Topics include: groundx, mcp, mcp-server"
+    - >-
+      Repo description: 'GXtract MCP Server for VS Code, forks and other editors; provides tools for interacting with
+      GroundX'
+    - 'Topics include: groundx, mcp, mcp-server'
     - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.646Z"
+    updated_at: '2026-05-06T22:12:15.646Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:51.273Z"
+    updated_at: '2026-07-20T16:42:51.273Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:57:24.095Z"
+    updated_at: '2026-05-12T15:57:24.095Z'
     cause: null
     next_retry_at: null
     attempts: 2

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jina-ai__dev-gpt__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,7 @@ provenance:
           - DevGPT
         anchor_text: DevGPT
         extracted_url: https://github.com/jina-ai/dev-gpt
-        surrounding_text: "## [DevGPT](https://github.com/jina-ai/dev-gpt)"
+        surrounding_text: '## [DevGPT](https://github.com/jina-ai/dev-gpt)'
         confidence: high
 metadata:
   github:
@@ -29,18 +29,22 @@ metadata:
     archived: false
     full_name: jina-ai/dev-gpt
     html_url: https://github.com/jina-ai/dev-gpt
-    created_at: "2023-03-17T09:42:56Z"
-    pushed_at: "2023-08-01T09:42:54Z"
+    created_at: '2023-03-17T09:42:56Z'
+    pushed_at: '2023-08-01T09:42:54Z'
     description: Your Virtual Development Team
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:05:50.242Z"
+    last_checked_at: '2026-07-30T05:05:50.242Z'
     readme:
-      fetched_at: "2026-07-30T05:05:50.242Z"
+      fetched_at: '2026-07-30T05:05:50.242Z'
       bytes: 20820
 insights:
-  summary: A CLI tool that uses a virtual team of AI agents (Product Manager, Developer, DevOps) to generate, test, and deploy microservices from natural language descriptions.
-  why_it_matters: It automates the end-to-end process of turning a microservice idea into a deployed application, handling planning, coding, and deployment via AI agents.
+  summary: >-
+    A CLI tool that uses a virtual team of AI agents (Product Manager, Developer, DevOps) to generate, test, and deploy
+    microservices from natural language descriptions.
+  why_it_matters: >-
+    It automates the end-to-end process of turning a microservice idea into a deployed application, handling planning,
+    coding, and deployment via AI agents.
   mental_damage: Finally, a way to outsource your entire team to OpenAI API calls and hope the budget holds out.
   tags:
     - cli
@@ -51,31 +55,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The primary value is generating and deploying microservices from prompts, which aligns with prompt-to-app builders rather than a general coding assistant or extension.
+  reason: >-
+    The primary value is generating and deploying microservices from prompts, which aligns with prompt-to-app builders
+    rather than a general coding assistant or extension.
   evidence:
-    - "Repo description: 'Your Virtual Development Team'"
-    - "README: 'Tell your AI team what microservice you want to build, and they will do it for you'"
-    - "CLI workflow: generate, run, deploy microservices from descriptions"
+    - 'Repo description: ''Your Virtual Development Team'''
+    - 'README: ''Tell your AI team what microservice you want to build, and they will do it for you'''
+    - 'CLI workflow: generate, run, deploy microservices from descriptions'
 placement:
-  primary_category: app-builders
-  section: Prompt-to-App Builders
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Autonomous & Multi-Agent Coding
 lifecycle:
   status: promotion_candidate
   reason: Stars (1865) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:50.242Z"
+    updated_at: '2026-07-30T05:05:50.242Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:34.116Z"
+    updated_at: '2026-07-21T16:10:34.116Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,14 +95,18 @@ processing:
       input_hash: sha256:d88d85b581c102c6de733c251fcbdf9b1ac28792bf550e100c88f3fe16e735b3
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The primary value is generating and deploying microservices from prompts, which aligns with prompt-to-app builders rather than a general coding assistant or extension.
+      decision_reason: >-
+        The primary value is generating and deploying microservices from prompts, which aligns with prompt-to-app
+        builders rather than a general coding assistant or extension.
       decision_evidence:
-        - "Repo description: 'Your Virtual Development Team'"
-        - "README: 'Tell your AI team what microservice you want to build, and they will do it for you'"
-        - "CLI workflow: generate, run, deploy microservices from descriptions"
+        - 'Repo description: ''Your Virtual Development Team'''
+        - 'README: ''Tell your AI team what microservice you want to build, and they will do it for you'''
+        - 'CLI workflow: generate, run, deploy microservices from descriptions'
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: Choose app-builders over coding-agents because the tool's core workflow is creating new microservices from prompts rather than assisting with editing existing codebases.
+      contrastive_reason: >-
+        Choose app-builders over coding-agents because the tool's core workflow is creating new microservices from
+        prompts rather than assisting with editing existing codebases.
       review_reason: null
       review_resume_lifecycle: null

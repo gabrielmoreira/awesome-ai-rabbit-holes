@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__vince-lam__awesome-local-llms__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -19,7 +19,9 @@ provenance:
           - Lists
         anchor_text: awesome-local-llms
         extracted_url: https://github.com/vince-lam/awesome-local-llms
-        surrounding_text: "- [awesome-local-llms](https://github.com/vince-lam/awesome-local-llms) - Table of open-source local LLM inference projects with their GitHub metrics."
+        surrounding_text: >-
+          - [awesome-local-llms](https://github.com/vince-lam/awesome-local-llms) - Table of open-source local LLM
+          inference projects with their GitHub metrics.
         confidence: high
 metadata:
   github:
@@ -29,19 +31,25 @@ metadata:
     archived: false
     full_name: vince-lam/awesome-local-llms
     html_url: https://github.com/vince-lam/awesome-local-llms
-    created_at: "2024-02-29T04:57:43Z"
-    pushed_at: "2026-07-20T10:52:02Z"
+    created_at: '2024-02-29T04:57:43Z'
+    pushed_at: '2026-07-20T10:52:02Z'
     description: Compare compatible open-source local LLM projects by their metrics to assess popularity and activeness.
     homepage: https://vinlam.com/posts/local-llm-options/
     topics: []
-    last_checked_at: "2026-07-21T15:21:05.656Z"
+    last_checked_at: '2026-07-21T15:21:05.656Z'
     readme:
-      fetched_at: "2026-07-21T15:21:05.656Z"
+      fetched_at: '2026-07-21T15:21:05.656Z'
       bytes: 36104
 insights:
-  summary: awesome-local-llms is a curated comparison table of open-source local LLM inference projects ranked by GitHub metrics like stars and recent activity.
-  why_it_matters: Helps developers quickly identify actively maintained, popular local LLM tools for inference without manual discovery.
-  mental_damage: Yet another awesome list that pretends star count equals engineering quality while you still have to test each tool yourself.
+  summary: >-
+    awesome-local-llms is a curated comparison table of open-source local LLM inference projects ranked by GitHub
+    metrics like stars and recent activity.
+  why_it_matters: >-
+    Helps developers quickly identify actively maintained, popular local LLM tools for inference without manual
+    discovery.
+  mental_damage: >-
+    Yet another awesome list that pretends star count equals engineering quality while you still have to test each tool
+    yourself.
   tags:
     - awesome-list
     - local-llm
@@ -49,31 +57,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a curated directory focused on local LLM inference tools, matching the awesome-awesomes category's purpose of ecosystem navigation rather than delivering a standalone product.
+  reason: >-
+    It is a curated directory focused on local LLM inference tools, matching the awesome-awesomes category's purpose of
+    ecosystem navigation rather than delivering a standalone product.
   evidence:
-    - "Repo description: 'Compare open-source local LLM inference projects by their metrics to assess popularity and activeness.'"
+    - >-
+      Repo description: 'Compare open-source local LLM inference projects by their metrics to assess popularity and
+      activeness.'
     - Seen in source list 'awesome-local-ai' under section 'Lists'.
     - README presents a filtered table of repos with stars, commits, contributors, etc., updated regularly.
 placement:
   primary_category: awesome-awesomes
-  section: Directories & Maps
+  secondary_categories: []
+  section: Awesome Lists & Directories
 lifecycle:
   status: promotion_candidate
   reason: Stars (751) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.654Z"
+    updated_at: '2026-05-06T22:12:15.654Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:05.656Z"
+    updated_at: '2026-07-21T15:21:05.656Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:26:33.884Z"
+    updated_at: '2026-05-12T15:26:33.884Z'
     cause: null
     next_retry_at: null
     attempts: 1

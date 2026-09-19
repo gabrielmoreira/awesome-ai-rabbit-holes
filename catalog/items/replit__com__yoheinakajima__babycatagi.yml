@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__replit__com__yoheinakajima__babycatagi__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - BabyCatAGI
         anchor_text: BabyCatAGI
         extracted_url: https://replit.com/@YoheiNakajima/BabyCatAGI
-        surrounding_text: "## [BabyCatAGI](https://replit.com/@YoheiNakajima/BabyCatAGI)"
+        surrounding_text: '## [BabyCatAGI](https://replit.com/@YoheiNakajima/BabyCatAGI)'
         confidence: high
 metadata:
   github:
@@ -36,8 +36,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: BabyCatAGI is a lightweight, 300-line Replit-hosted iteration of BabyAGI with task creation, execution loops, and integrated search/scraping tools.
-  why_it_matters: It offers developers a minimal, self-contained agent loop for autonomous task execution with web search and text completion capabilities.
+  summary: >-
+    BabyCatAGI is a lightweight, 300-line Replit-hosted iteration of BabyAGI with task creation, execution loops, and
+    integrated search/scraping tools.
+  why_it_matters: >-
+    It offers developers a minimal, self-contained agent loop for autonomous task execution with web search and text
+    completion capabilities.
   mental_damage: Another BabyAGI fork, because the world needed 300 more lines of code to argue about task dependencies.
   tags:
     - autonomous-agents
@@ -47,21 +51,23 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Fits as a lightweight multi-agent runtime platform (task creation + execution agents) rather than a coding assistant or extension.
+  reason: >-
+    Fits as a lightweight multi-agent runtime platform (task creation + execution agents) rather than a coding assistant
+    or extension.
   evidence:
     - Described as a mod of BabyBeeAGI/BabyAGI with task creation and execution agents
     - Hosted on Replit as a runnable template with API key integration
     - Core functionality centers on agent loops and tool coordination (search, scrape, chunking)
 placement:
   primary_category: agent-orchestration
-  section: Multi-Agent Runtime Platforms
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +76,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:31:00.619Z"
+    updated_at: '2026-07-21T15:31:00.619Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -83,7 +89,9 @@ processing:
       input_hash: sha256:2f0fdb1e32e7d1ee8e81b1dd1ddfa5fafdc38886be6bd4a74a596b44ea7f50ba
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: Fits as a lightweight multi-agent runtime platform (task creation + execution agents) rather than a coding assistant or extension.
+      decision_reason: >-
+        Fits as a lightweight multi-agent runtime platform (task creation + execution agents) rather than a coding
+        assistant or extension.
       decision_evidence:
         - Described as a mod of BabyBeeAGI/BabyAGI with task creation and execution agents
         - Hosted on Replit as a runnable template with API key integration
@@ -91,6 +99,8 @@ processing:
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated agent loop rather than a code-first library.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because the product is an operated agent loop rather than a
+        code-first library.
       review_reason: null
       review_resume_lifecycle: null

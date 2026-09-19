@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__docker__hub-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: docker/hub-mcp
         extracted_url: https://github.com/docker/hub-mcp
-        surrounding_text: "- [docker/hub-mcp](https://github.com/docker/hub-mcp) 🎖️ 📇 ☁️ 🏠 - Official MCP server to interact with Docker Hub, providing access to repositories, hub search and Docker Hardened Images"
+        surrounding_text: >-
+          - [docker/hub-mcp](https://github.com/docker/hub-mcp) 🎖️ 📇 ☁️ 🏠 - Official MCP server to interact with
+          Docker Hub, providing access to repositories, hub search and Docker Hardened Images
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: docker/hub-mcp
     html_url: https://github.com/docker/hub-mcp
-    created_at: "2025-06-12T16:12:12Z"
-    pushed_at: "2026-08-27T10:05:32Z"
+    created_at: '2025-06-12T16:12:12Z'
+    pushed_at: '2026-08-27T10:05:32Z'
     description: Docker Hub MCP Server
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:42.046Z"
+    last_checked_at: '2026-09-14T04:13:42.046Z'
     readme:
-      fetched_at: "2026-09-14T04:13:42.046Z"
+      fetched_at: '2026-09-14T04:13:42.046Z'
       bytes: 15454
 insights:
   summary: An MCP server that exposes Docker Hub APIs to LLMs for container image discovery and repository management.
-  why_it_matters: Lets AI assistants query Docker Hub in real time to recommend images, find content, and manage repositories via natural language.
+  why_it_matters: >-
+    Lets AI assistants query Docker Hub in real time to recommend images, find content, and manage repositories via
+    natural language.
   mental_damage: Now your LLM can argue with you about which Alpine version is actually the right one.
   tags:
     - mcp
@@ -51,31 +55,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server for Docker Hub, not a compatibility footnote."
+  reason: 'MCP is the product identity: this is a dedicated MCP server for Docker Hub, not a compatibility footnote.'
   evidence:
     - Repo description explicitly states 'Docker Hub MCP Server'
     - README positions it as an MCP server interfacing with Docker Hub APIs
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: promotion_candidate
   reason: Stars (151) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.611Z"
+    updated_at: '2026-05-06T22:12:15.611Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:42.046Z"
+    updated_at: '2026-09-14T04:13:42.046Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:25.741Z"
+    updated_at: '2026-07-21T15:51:25.741Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +93,7 @@ processing:
       input_hash: sha256:2ed9c8b35d6e38b50c21cc573b22abcc22b359fa06ad2b5e56968e1b519dcd1d
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server for Docker Hub, not a compatibility footnote."
+      decision_reason: 'MCP is the product identity: this is a dedicated MCP server for Docker Hub, not a compatibility footnote.'
       decision_evidence:
         - Repo description explicitly states 'Docker Hub MCP Server'
         - README positions it as an MCP server interfacing with Docker Hub APIs
@@ -96,6 +101,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

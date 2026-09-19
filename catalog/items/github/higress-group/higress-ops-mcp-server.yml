@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__higress-group__higress-ops-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: higress-group/higress-ops-mcp-server
         extracted_url: https://github.com/higress-group/higress-ops-mcp-server
-        surrounding_text: "- [higress-group/higress-ops-mcp-server](https://github.com/higress-group/higress-ops-mcp-server) 🐍 🏠 - MCP server that provides comprehensive tools for managing [Higress](https://github.com/alibaba/higress) gateway configurations and operations."
+        surrounding_text: >-
+          - [higress-group/higress-ops-mcp-server](https://github.com/higress-group/higress-ops-mcp-server) 🐍 🏠 - MCP
+          server that provides comprehensive tools for managing [Higress](https://github.com/alibaba/higress) gateway
+          configurations and operations.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,24 @@ metadata:
     archived: false
     full_name: higress-group/higress-ops-mcp-server
     html_url: https://github.com/higress-group/higress-ops-mcp-server
-    created_at: "2025-03-29T03:03:37Z"
-    pushed_at: "2025-03-29T03:04:45Z"
-    description: A Model Context Protocol (MCP) server implementation that enables comprehensive configuration and management of Higress.
-    homepage: ""
+    created_at: '2025-03-29T03:03:37Z'
+    pushed_at: '2025-03-29T03:04:45Z'
+    description: >-
+      A Model Context Protocol (MCP) server implementation that enables comprehensive configuration and management of
+      Higress.
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:05:37.385Z"
+    last_checked_at: '2026-07-30T05:05:37.385Z'
     readme:
-      fetched_at: "2026-07-30T05:05:37.385Z"
+      fetched_at: '2026-07-30T05:05:37.385Z'
       bytes: 3445
 insights:
-  summary: An MCP server implementation for comprehensive configuration and management of Higress, including a LangGraph-based MCP client.
-  why_it_matters: It enables developers to interact with Higress (an API gateway) through the Model Context Protocol, integrating gateway management into AI agent workflows.
+  summary: >-
+    An MCP server implementation for comprehensive configuration and management of Higress, including a LangGraph-based
+    MCP client.
+  why_it_matters: >-
+    It enables developers to interact with Higress (an API gateway) through the Model Context Protocol, integrating
+    gateway management into AI agent workflows.
   mental_damage: Now your AI agents can argue with your API gateway configuration at 3 AM.
   tags:
     - mcp
@@ -52,31 +61,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the primary product identity here, with the server explicitly built for Higress management and integrated with MCP client tooling.
+  reason: >-
+    MCP is the primary product identity here, with the server explicitly built for Higress management and integrated
+    with MCP client tooling.
   evidence:
     - Repo description explicitly states it is an MCP server implementation for Higress
     - README confirms MCP server/client architecture with LangGraph integration
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.618Z"
+    updated_at: '2026-05-06T22:12:15.618Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:37.385Z"
+    updated_at: '2026-07-30T05:05:37.385Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:05:42.603Z"
+    updated_at: '2026-07-21T16:05:42.603Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +101,9 @@ processing:
       input_hash: sha256:efcea43b16aaea5888b71fdb685c51b1cc3b6eb2d9aec11f5594542b2149e294
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the primary product identity here, with the server explicitly built for Higress management and integrated with MCP client tooling.
+      decision_reason: >-
+        MCP is the primary product identity here, with the server explicitly built for Higress management and integrated
+        with MCP client tooling.
       decision_evidence:
         - Repo description explicitly states it is an MCP server implementation for Higress
         - README confirms MCP server/client architecture with LangGraph integration
@@ -97,6 +111,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is the MCP server for Higress, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is the MCP server for Higress, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

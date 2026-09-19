@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__destrayon__connapse__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: Destrayon/Connapse
         extracted_url: https://github.com/destrayon/connapse
-        surrounding_text: "- [Destrayon/Connapse](https://github.com/Destrayon/Connapse) [![Destrayon/Connapse MCP server](https://glama.ai/mcp/servers/Destrayon/Connapse/badges/score.svg)](https://glama.ai/mcp/servers/Destrayon/Connapse) #️⃣ 🏠 🍎 🪟 🐧 - Self-hosted knowledge backend for AI agents with hybrid vector + keyword search, container-isolated indexes, and 11 MCP tools. .NET, Docker-ready."
+        surrounding_text: >-
+          - [Destrayon/Connapse](https://github.com/Destrayon/Connapse) [![Destrayon/Connapse MCP
+          server](https://glama.ai/mcp/servers/Destrayon/Connapse/badges/score.svg)](https://glama.ai/mcp/servers/Destrayon/Connapse)
+          #️⃣ 🏠 🍎 🪟 🐧 - Self-hosted knowledge backend for AI agents with hybrid vector + keyword search,
+          container-isolated indexes, and 11 MCP tools. .NET, Docker-ready.
         confidence: high
 metadata:
   github:
@@ -30,10 +34,12 @@ metadata:
     archived: false
     full_name: Destrayon/Connapse
     html_url: https://github.com/Destrayon/Connapse
-    created_at: "2026-02-04T18:13:56Z"
-    pushed_at: "2026-09-09T21:44:37Z"
-    description: Open-source, self-hosted knowledge backend for AI agents — hybrid search (vector + keyword), MCP server, 5 connectors, Docker-ready
-    homepage: ""
+    created_at: '2026-02-04T18:13:56Z'
+    pushed_at: '2026-09-09T21:44:37Z'
+    description: >-
+      Open-source, self-hosted knowledge backend for AI agents — hybrid search (vector + keyword), MCP server, 5
+      connectors, Docker-ready
+    homepage: ''
     topics:
       - ai
       - ai-agents
@@ -55,13 +61,15 @@ metadata:
       - self-hosted
       - semantic-search
       - vector-search
-    last_checked_at: "2026-09-14T04:13:39.528Z"
+    last_checked_at: '2026-09-14T04:13:39.528Z'
     readme:
-      fetched_at: "2026-09-14T04:13:39.528Z"
+      fetched_at: '2026-09-14T04:13:39.528Z'
       bytes: 23341
 insights:
   summary: Open-source, self-hosted knowledge backend for AI agents with hybrid search, MCP server, and multiple connectors.
-  why_it_matters: Gives AI agents persistent, searchable memory across sessions by indexing documents and enabling retrieval via MCP, REST, or CLI.
+  why_it_matters: >-
+    Gives AI agents persistent, searchable memory across sessions by indexing documents and enabling retrieval via MCP,
+    REST, or CLI.
   mental_damage: Finally, a way to stop your AI from forgetting everything the moment you close the chat window.
   tags:
     - knowledge-management
@@ -72,31 +80,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server providing knowledge and memory capabilities for AI agents, aligning with the MCP Servers & Tooling category.
+  reason: >-
+    The product's primary identity is an MCP server providing knowledge and memory capabilities for AI agents, aligning
+    with the MCP Servers & Tooling category.
   evidence:
     - Repo description explicitly states 'MCP server' and lists mcp-server as a topic.
     - README demonstrates integration via '11 MCP tools' and shows Claude querying knowledge via the MCP server.
     - Listed in awesome-mcp-servers under 'Knowledge & Memory' section.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
+  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''context-engineering'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.611Z"
+    updated_at: '2026-05-06T22:12:15.611Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:39.528Z"
+    updated_at: '2026-09-14T04:13:39.528Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:50:39.756Z"
+    updated_at: '2026-07-21T15:50:39.756Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -111,12 +122,16 @@ processing:
       disagreement: true
       decision_reason: Core product is a retrieval and memory system for AI agents, not an extension or assistant.
       decision_evidence:
-        - "Repo description: 'Open-source, self-hosted knowledge backend for AI agents — hybrid search (vector + keyword), MCP server, 5 connectors, Docker-ready'"
-        - "README: 'Connapse is an open-source knowledge backend that gives agents persistent, searchable memory'"
+        - >-
+          Repo description: 'Open-source, self-hosted knowledge backend for AI agents — hybrid search (vector +
+          keyword), MCP server, 5 connectors, Docker-ready'
+        - 'README: ''Connapse is an open-source knowledge backend that gives agents persistent, searchable memory'''
         - MCP server is a feature, not the primary identity
       category_candidates:
         - context-engineering
         - mcp
-      contrastive_reason: Choose context-engineering over mcp because the primary identity is a knowledge backend with retrieval capabilities, not MCP infrastructure.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
+      contrastive_reason: >-
+        Choose context-engineering over mcp because the primary identity is a knowledge backend with retrieval
+        capabilities, not MCP infrastructure.
+      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''context-engineering'''
       review_resume_lifecycle: null

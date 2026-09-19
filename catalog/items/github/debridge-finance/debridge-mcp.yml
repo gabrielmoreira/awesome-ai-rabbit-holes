@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__debridge-finance__debridge-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: debridge-finance/debridge-mcp
         extracted_url: https://github.com/debridge-finance/debridge-mcp
-        surrounding_text: "- [debridge-finance/debridge-mcp](https://github.com/debridge-finance/debridge-mcp) [![de-bridge MCP server](https://glama.ai/mcp/servers/@debridge-finance/de-bridge/badges/score.svg)](https://glama.ai/mcp/servers/@debridge-finance/de-bridge) 📇 🏠 ☁️ - Cross-chain swaps and bridging across EVM and Solana blockchains via the deBridge protocol. Enables AI agents to discover optimal routes, evaluate fees, and initiate non-custodial trades."
+        surrounding_text: >-
+          - [debridge-finance/debridge-mcp](https://github.com/debridge-finance/debridge-mcp) [![de-bridge MCP
+          server](https://glama.ai/mcp/servers/@debridge-finance/de-bridge/badges/score.svg)](https://glama.ai/mcp/servers/@debridge-finance/de-bridge)
+          📇 🏠 ☁️ - Cross-chain swaps and bridging across EVM and Solana blockchains via the deBridge protocol. Enables
+          AI agents to discover optimal routes, evaluate fees, and initiate non-custodial trades.
         confidence: high
 metadata:
   github:
@@ -30,18 +34,22 @@ metadata:
     archived: false
     full_name: debridge-finance/debridge-mcp
     html_url: https://github.com/debridge-finance/debridge-mcp
-    created_at: "2026-02-08T22:13:33Z"
-    pushed_at: "2026-09-09T22:54:46Z"
-    description: MCP server that gives AI agents the ability to execute cross-chain cryptocurrency swaps and transfers via the deBridge protocol
+    created_at: '2026-02-08T22:13:33Z'
+    pushed_at: '2026-09-09T22:54:46Z'
+    description: >-
+      MCP server that gives AI agents the ability to execute cross-chain cryptocurrency swaps and transfers via the
+      deBridge protocol
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:37.226Z"
+    last_checked_at: '2026-09-14T04:13:37.226Z'
     readme:
-      fetched_at: "2026-09-14T04:13:37.226Z"
+      fetched_at: '2026-09-14T04:13:37.226Z'
       bytes: 11208
 insights:
   summary: MCP server enabling AI agents to execute cross-chain cryptocurrency swaps and transfers via the deBridge protocol.
-  why_it_matters: Developers building blockchain-integrated agents can now programmatically access deBridge's cross-chain functionality through a standardized MCP interface.
+  why_it_matters: >-
+    Developers building blockchain-integrated agents can now programmatically access deBridge's cross-chain
+    functionality through a standardized MCP interface.
   mental_damage: Because nothing says 'practical developer tooling' like teaching your coding agent to also be a DeFi trader.
   tags:
     - mcp
@@ -52,31 +60,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose primary identity is providing blockchain capabilities via the Model Context Protocol.
+  reason: >-
+    This is an MCP-first server whose primary identity is providing blockchain capabilities via the Model Context
+    Protocol.
   evidence:
     - Repo description explicitly states it is an MCP server for cross-chain crypto operations
     - README details Streamable HTTP MCP endpoint and integration with multiple AI agents
     - Listed in awesome-mcp-servers under Finance & Fintech
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.610Z"
+    updated_at: '2026-05-06T22:12:15.610Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:37.226Z"
+    updated_at: '2026-09-14T04:13:37.226Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:50:12.628Z"
+    updated_at: '2026-07-21T15:50:12.628Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +100,9 @@ processing:
       input_hash: sha256:e96225755e86eefc086dacb5147be7f43810680d6c3b685d41164f7e124b36c9
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server whose primary identity is providing blockchain capabilities via the Model Context Protocol.
+      decision_reason: >-
+        This is an MCP-first server whose primary identity is providing blockchain capabilities via the Model Context
+        Protocol.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for cross-chain crypto operations
         - README details Streamable HTTP MCP endpoint and integration with multiple AI agents
@@ -97,6 +110,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension for another assistant).
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension for another
+        assistant).
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mbentham__sqlaugur__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: mbentham/SqlAugur
         extracted_url: https://github.com/mbentham/sqlaugur
-        surrounding_text: "- [mbentham/SqlAugur](https://github.com/mbentham/SqlAugur) #️⃣ 🏠 🪟 🐧 - SQL Server MCP server with AST-based query validation, read-only safety, schema exploration, ER diagram generation, and DBA toolkit integration (First Responder Kit, DarlingData, sp_WhoIsActive)."
+        surrounding_text: >-
+          - [mbentham/SqlAugur](https://github.com/mbentham/SqlAugur) #️⃣ 🏠 🪟 🐧 - SQL Server MCP server with
+          AST-based query validation, read-only safety, schema exploration, ER diagram generation, and DBA toolkit
+          integration (First Responder Kit, DarlingData, sp_WhoIsActive).
         confidence: high
 metadata:
   github:
@@ -30,10 +33,12 @@ metadata:
     archived: false
     full_name: mbentham/SqlAugur
     html_url: https://github.com/mbentham/SqlAugur
-    created_at: "2026-02-06T16:58:35Z"
-    pushed_at: "2026-07-07T10:55:42Z"
-    description: MCP server providing AI assistants with safe, read-only access to SQL Server databases. AST-based query validation, rate limiting, and DBA      diagnostic tooling.
-    homepage: ""
+    created_at: '2026-02-06T16:58:35Z'
+    pushed_at: '2026-07-07T10:55:42Z'
+    description: >-
+      MCP server providing AI assistants with safe, read-only access to SQL Server databases. AST-based query
+      validation, rate limiting, and DBA      diagnostic tooling.
+    homepage: ''
     topics:
       - ai
       - csharp
@@ -44,14 +49,20 @@ metadata:
       - mcp-server
       - model-context-protocol
       - sql-server
-    last_checked_at: "2026-08-03T05:16:58.309Z"
+    last_checked_at: '2026-08-03T05:16:58.309Z'
     readme:
-      fetched_at: "2026-08-03T05:16:58.309Z"
+      fetched_at: '2026-08-03T05:16:58.309Z'
       bytes: 23788
 insights:
-  summary: SqlAugur is an MCP server that provides AI assistants with safe, read-only access to SQL Server databases using AST-based query validation and DBA diagnostic tooling.
-  why_it_matters: It lets developers securely expose SQL Server data to AI assistants without risking write operations or performance degradation from unchecked queries.
-  mental_damage: Finally, a way to let your AI 'help' with databases without accidentally dropping the production table during a lunch break.
+  summary: >-
+    SqlAugur is an MCP server that provides AI assistants with safe, read-only access to SQL Server databases using
+    AST-based query validation and DBA diagnostic tooling.
+  why_it_matters: >-
+    It lets developers securely expose SQL Server data to AI assistants without risking write operations or performance
+    degradation from unchecked queries.
+  mental_damage: >-
+    Finally, a way to let your AI 'help' with databases without accidentally dropping the production table during a
+    lunch break.
   tags:
     - mcp
     - sql-server
@@ -60,32 +71,37 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: SqlAugur is an MCP server whose core identity is providing MCP-compliant database access, making it a domain-specific MCP server rather than a coding agent or extension.
+  reason: >-
+    SqlAugur is an MCP server whose core identity is providing MCP-compliant database access, making it a
+    domain-specific MCP server rather than a coding agent or extension.
   evidence:
-    - "Repo description: 'MCP server providing AI assistants with safe, read-only access to SQL Server databases'"
-    - "README emphasizes MCP server functionality: 'An MCP server that gives AI assistants safe, read-only access to SQL Server databases'"
+    - 'Repo description: ''MCP server providing AI assistants with safe, read-only access to SQL Server databases'''
+    - >-
+      README emphasizes MCP server functionality: 'An MCP server that gives AI assistants safe, read-only access to SQL
+      Server databases'
     - Listed in awesome-mcp-servers under Server Implementations > Databases
     - Provides MCP-compliant tools via stdio transport for AI clients like Claude Desktop and Claude Code
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.629Z"
+    updated_at: '2026-05-06T22:12:15.629Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:58.309Z"
+    updated_at: '2026-08-03T05:16:58.309Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:19:28.185Z"
+    updated_at: '2026-07-21T16:19:28.185Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -98,15 +114,21 @@ processing:
       input_hash: sha256:9682d8d8dad9ccb7946fac3922ea26bcaa47ba5dcdad276016be00f086c38371
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: SqlAugur is an MCP server whose core identity is providing MCP-compliant database access, making it a domain-specific MCP server rather than a coding agent or extension.
+      decision_reason: >-
+        SqlAugur is an MCP server whose core identity is providing MCP-compliant database access, making it a
+        domain-specific MCP server rather than a coding agent or extension.
       decision_evidence:
-        - "Repo description: 'MCP server providing AI assistants with safe, read-only access to SQL Server databases'"
-        - "README emphasizes MCP server functionality: 'An MCP server that gives AI assistants safe, read-only access to SQL Server databases'"
+        - 'Repo description: ''MCP server providing AI assistants with safe, read-only access to SQL Server databases'''
+        - >-
+          README emphasizes MCP server functionality: 'An MCP server that gives AI assistants safe, read-only access to
+          SQL Server databases'
         - Listed in awesome-mcp-servers under Server Implementations > Databases
         - Provides MCP-compliant tools via stdio transport for AI clients like Claude Desktop and Claude Code
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because SqlAugur's primary identity is as an MCP server infrastructure component, not as an extension that augments another assistant's capabilities.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because SqlAugur's primary identity is as an MCP server infrastructure
+        component, not as an extension that augments another assistant's capabilities.
       review_reason: null
       review_resume_lifecycle: null

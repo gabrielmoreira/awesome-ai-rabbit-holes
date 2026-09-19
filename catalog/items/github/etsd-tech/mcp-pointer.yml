@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__etsd-tech__mcp-pointer__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: etsd-tech/mcp-pointer
         extracted_url: https://github.com/etsd-tech/mcp-pointer
-        surrounding_text: "- [etsd-tech/mcp-pointer](https://github.com/etsd-tech/mcp-pointer) 📇 🏠 🍎 🪟 🐧 - Visual DOM element selector for agentic coding tools. Chrome extension + MCP server bridge for Claude Code, Cursor, Windsurf etc. Option+Click to capture elements."
+        surrounding_text: >-
+          - [etsd-tech/mcp-pointer](https://github.com/etsd-tech/mcp-pointer) 📇 🏠 🍎 🪟 🐧 - Visual DOM element
+          selector for agentic coding tools. Chrome extension + MCP server bridge for Claude Code, Cursor, Windsurf etc.
+          Option+Click to capture elements.
         confidence: high
 metadata:
   github:
@@ -30,10 +33,10 @@ metadata:
     archived: false
     full_name: etsd-tech/mcp-pointer
     html_url: https://github.com/etsd-tech/mcp-pointer
-    created_at: "2025-09-01T21:59:15Z"
-    pushed_at: "2025-11-12T15:12:43Z"
-    description: "MCP tool: let you point at DOM elements for your favorite agentic coding tool. Let AI see what you see."
-    homepage: ""
+    created_at: '2025-09-01T21:59:15Z'
+    pushed_at: '2025-11-12T15:12:43Z'
+    description: 'MCP tool: let you point at DOM elements for your favorite agentic coding tool. Let AI see what you see.'
+    homepage: ''
     topics:
       - agentic-coding
       - browser
@@ -45,13 +48,17 @@ metadata:
       - mcp-server
       - pointing
       - stdio
-    last_checked_at: "2026-08-27T09:23:25.861Z"
+    last_checked_at: '2026-08-27T09:23:25.861Z'
     readme:
-      fetched_at: "2026-08-27T09:23:25.861Z"
+      fetched_at: '2026-08-27T09:23:25.861Z'
       bytes: 8568
 insights:
-  summary: An MCP server and Chrome extension that allows users to select DOM elements in a browser and pass them as rich textual context to agentic coding tools.
-  why_it_matters: It bridges the gap between what a developer sees in the browser and what an AI agent can interpret, providing deep CSS and HTML context via the Model Context Protocol.
+  summary: >-
+    An MCP server and Chrome extension that allows users to select DOM elements in a browser and pass them as rich
+    textual context to agentic coding tools.
+  why_it_matters: >-
+    It bridges the gap between what a developer sees in the browser and what an AI agent can interpret, providing deep
+    CSS and HTML context via the Model Context Protocol.
   mental_damage: Finally, a way to make sure your AI agent knows exactly which nested div is causing that layout shift.
   tags:
     - mcp
@@ -69,24 +76,25 @@ curation:
     - Has 587 stars and active recent commits
 placement:
   primary_category: mcp
-  section: Clients / Inspectors / Dev Tools
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: promotion_candidate
   reason: Stars (574) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:25.861Z"
+    updated_at: '2026-08-27T09:23:25.861Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:53:51.638Z"
+    updated_at: '2026-07-21T15:53:51.638Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -107,6 +115,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is providing a standardized MCP interface for browser data rather than just being a generic IDE extension.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is providing a standardized MCP
+        interface for browser data rather than just being a generic IDE extension.
       review_reason: null
       review_resume_lifecycle: null

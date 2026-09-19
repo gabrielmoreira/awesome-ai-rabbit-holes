@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__iflytek__astron-agent__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,9 @@ provenance:
           - 智能体 Agents
         anchor_text: Astron Agent
         extracted_url: https://github.com/iflytek/astron-agent
-        surrounding_text: "46. [Astron Agent](https://github.com/iflytek/astron-agent): Enterprise-grade, commercial-friendly agentic workflow platform for building next-generation SuperAgents."
+        surrounding_text: >-
+          46. [Astron Agent](https://github.com/iflytek/astron-agent): Enterprise-grade, commercial-friendly agentic
+          workflow platform for building next-generation SuperAgents.
         confidence: high
 metadata:
   github:
@@ -29,8 +31,8 @@ metadata:
     archived: false
     full_name: iflytek/astron-agent
     html_url: https://github.com/iflytek/astron-agent
-    created_at: "2025-09-19T08:46:01Z"
-    pushed_at: "2026-07-29T11:55:43Z"
+    created_at: '2025-09-19T08:46:01Z'
+    pushed_at: '2026-07-29T11:55:43Z'
     description: Enterprise-grade, commercial-friendly agentic workflow platform for building next-generation SuperAgents.
     homepage: http://astron.ai/
     topics:
@@ -53,13 +55,15 @@ metadata:
       - superagent
       - workflow
       - workflow-engine
-    last_checked_at: "2026-07-30T05:05:41.826Z"
+    last_checked_at: '2026-07-30T05:05:41.826Z'
     readme:
-      fetched_at: "2026-07-30T05:05:41.826Z"
+      fetched_at: '2026-07-30T05:05:41.826Z'
       bytes: 11300
 insights:
   summary: Enterprise-grade, commercial-friendly agentic workflow platform for building next-generation SuperAgents.
-  why_it_matters: It provides a low-code, multi-agent orchestration platform for enterprise automation, enabling developers to build and coordinate AI agents at scale.
+  why_it_matters: >-
+    It provides a low-code, multi-agent orchestration platform for enterprise automation, enabling developers to build
+    and coordinate AI agents at scale.
   mental_damage: Because nothing says 'enterprise automation' like a platform that promises to automate your automation.
   tags:
     - agent-orchestration
@@ -70,31 +74,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is a multi-agent orchestration platform for enterprise workflows, fitting the Agent Orchestration category as a control plane for coordinating agents.
+  reason: >-
+    The product is a multi-agent orchestration platform for enterprise workflows, fitting the Agent Orchestration
+    category as a control plane for coordinating agents.
   evidence:
     - Repo description explicitly calls it an 'agentic workflow platform for building SuperAgents'
     - Topics include 'multi-agent', 'orchestration', 'workflow-engine', and 'enterprise-automation'
     - Source-list context places it under 'Agents' in a curated LLM resources list
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Visual Builders & Workbenches
 lifecycle:
   status: promotion_candidate
   reason: Stars (8311) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.620Z"
+    updated_at: '2026-05-06T22:12:15.620Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:41.826Z"
+    updated_at: '2026-07-30T05:05:41.826Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:07:32.748Z"
+    updated_at: '2026-07-21T16:07:32.748Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -107,7 +114,9 @@ processing:
       input_hash: sha256:12a9e447e1c88c0fa75e495b8faf8fb49220fa44e000a92ff0a91a96757105ef
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The product is a multi-agent orchestration platform for enterprise workflows, fitting the Agent Orchestration category as a control plane for coordinating agents.
+      decision_reason: >-
+        The product is a multi-agent orchestration platform for enterprise workflows, fitting the Agent Orchestration
+        category as a control plane for coordinating agents.
       decision_evidence:
         - Repo description explicitly calls it an 'agentic workflow platform for building SuperAgents'
         - Topics include 'multi-agent', 'orchestration', 'workflow-engine', and 'enterprise-automation'
@@ -115,6 +124,8 @@ processing:
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated platform for coordinating agents, not a code-first SDK or library.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because the product is an operated platform for coordinating
+        agents, not a code-first SDK or library.
       review_reason: null
       review_resume_lifecycle: null

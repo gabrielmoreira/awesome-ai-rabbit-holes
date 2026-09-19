@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__noblabs__lit-forge-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: noblabs/lit-forge-mcp
         extracted_url: https://github.com/noblabs/lit-forge-mcp
-        surrounding_text: "- [noblabs/lit-forge-mcp](https://github.com/noblabs/lit-forge-mcp) [![noblabs/lit-forge-mcp MCP server](https://glama.ai/mcp/servers/noblabs/lit-forge-mcp/badges/score.svg)](https://glama.ai/mcp/servers/noblabs/lit-forge-mcp) 📇 🏠 🍎 🪟 🐧 - Personal asset planning for Japan's つみたて NISA / iDeCo: 4 zero-auth tools — `simulate_nisa` (monthly compound), `plan_retirement` (3-scenario retirement gap analysis with Japanese pension defaults), `calculate_required_monthly` (back-calc to a target), and `calculate_compound_interest` (lump + monthly). Companion to https://lit-forge.com/nisa-simulator. npm: `lit-forge-mcp`. MIT, no telemetry."
+        surrounding_text: >-
+          - [noblabs/lit-forge-mcp](https://github.com/noblabs/lit-forge-mcp) [![noblabs/lit-forge-mcp MCP
+          server](https://glama.ai/mcp/servers/noblabs/lit-forge-mcp/badges/score.svg)](https://glama.ai/mcp/servers/noblabs/lit-forge-mcp)
+          📇 🏠 🍎 🪟 🐧 - Personal asset planning for Japan's つみたて NISA / iDeCo: 4 zero-auth tools — `simulate_nisa`
+          (monthly compound), `plan_retirement` (3-scenario retirement gap analysis with Japanese pension defaults),
+          `calculate_required_monthly` (back-calc to a target), and `calculate_compound_interest` (lump + monthly).
+          Companion to https://lit-forge.com/nisa-simulator. npm: `lit-forge-mcp`. MIT, no telemetry.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,12 @@ metadata:
     archived: false
     full_name: noblabs/lit-forge-mcp
     html_url: https://github.com/noblabs/lit-forge-mcp
-    created_at: "2026-04-25T01:36:14Z"
-    pushed_at: "2026-06-01T22:42:34Z"
-    description: "MCP server (18 tools): NISA/iDeCo/retirement simulation, 28-indicator market snapshot, individual stock fundamentals (dividend/analyst), economic release calendars from 6 official sources (BEA/NY Fed/FRB/BLS/Cabinet Office/BOJ), latest BLS macro values (7 series), and geopolitical calendar + pulse."
+    created_at: '2026-04-25T01:36:14Z'
+    pushed_at: '2026-06-01T22:42:34Z'
+    description: >-
+      MCP server (18 tools): NISA/iDeCo/retirement simulation, 28-indicator market snapshot, individual stock
+      fundamentals (dividend/analyst), economic release calendars from 6 official sources (BEA/NY Fed/FRB/BLS/Cabinet
+      Office/BOJ), latest BLS macro values (7 series), and geopolitical calendar + pulse.
     homepage: https://www.npmjs.com/package/lit-forge-mcp
     topics:
       - analyst
@@ -55,14 +64,20 @@ metadata:
       - retirement
       - retirement-planning
       - stock-quote
-    last_checked_at: "2026-07-20T15:12:05.555Z"
+    last_checked_at: '2026-07-20T15:12:05.555Z'
     readme:
-      fetched_at: "2026-07-20T15:12:05.555Z"
+      fetched_at: '2026-07-20T15:12:05.555Z'
       bytes: 16477
 insights:
-  summary: An MCP server that exposes personal finance and market data tools—including NISA/iDeCo simulation, daily market snapshots, and economic event calendars—to AI clients like Claude and Cursor.
-  why_it_matters: Developers building or using AI-assisted financial workflows can plug retirement planning and market analysis directly into their coding assistants via a standardized protocol.
-  mental_damage: "We have finally achieved the pinnacle of developer productivity: asking a coding assistant to simulate a 30-year retirement portfolio while debugging a React component."
+  summary: >-
+    An MCP server that exposes personal finance and market data tools—including NISA/iDeCo simulation, daily market
+    snapshots, and economic event calendars—to AI clients like Claude and Cursor.
+  why_it_matters: >-
+    Developers building or using AI-assisted financial workflows can plug retirement planning and market analysis
+    directly into their coding assistants via a standardized protocol.
+  mental_damage: >-
+    We have finally achieved the pinnacle of developer productivity: asking a coding assistant to simulate a 30-year
+    retirement portfolio while debugging a React component.
   tags:
     - mcp
     - finance
@@ -72,35 +87,42 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server providing finance and market tools, making it a clear fit for the MCP Domain Servers section.
+  reason: >-
+    The product's core identity is an MCP server providing finance and market tools, making it a clear fit for the MCP
+    Domain Servers section.
   evidence:
-    - "Repo description explicitly states 'MCP server: NISA/iDeCo simulation, retirement planning, daily market snapshot, economic events'"
-    - README confirms it is a stdio server for Model Context Protocol with 12 tools for Claude Desktop, Claude Code, and Cursor
+    - >-
+      Repo description explicitly states 'MCP server: NISA/iDeCo simulation, retirement planning, daily market snapshot,
+      economic events'
+    - >-
+      README confirms it is a stdio server for Model Context Protocol with 12 tools for Claude Desktop, Claude Code, and
+      Cursor
     - Listed in awesome-mcp-servers under the Finance & Fintech section, reinforcing its protocol-first identity
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.633Z"
+    updated_at: '2026-05-06T22:12:15.633Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:12:05.555Z"
+    updated_at: '2026-07-20T15:12:05.555Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

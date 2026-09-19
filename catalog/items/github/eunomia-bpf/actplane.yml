@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__eunomia-bpf__actplane__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-06-18T05:40:04.065Z"
+      discovered_at: '2026-06-18T05:40:04.065Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Agent infrastructure
         anchor_text: ActPlane
         extracted_url: https://github.com/eunomia-bpf/actplane
-        surrounding_text: "- **[ActPlane](https://github.com/eunomia-bpf/ActPlane)** `⭐ 44` — OS-level agent harness that compiles a policy DSL to an eBPF engine for labeled information-flow control at the syscall boundary, with corrective feedback. MIT."
+        surrounding_text: >-
+          - **[ActPlane](https://github.com/eunomia-bpf/ActPlane)** `⭐ 44` — OS-level agent harness that compiles a
+          policy DSL to an eBPF engine for labeled information-flow control at the syscall boundary, with corrective
+          feedback. MIT.
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: eunomia-bpf/ActPlane
     html_url: https://github.com/eunomia-bpf/ActPlane
-    created_at: "2026-05-22T23:19:43Z"
-    pushed_at: "2026-08-21T09:15:29Z"
+    created_at: '2026-05-22T23:19:43Z'
+    pushed_at: '2026-08-21T09:15:29Z'
     description: eBPF Information Flow Enforcement for AI Agent safety, security and effectiveness
     homepage: https://eunomia.dev/actplane/
     topics:
@@ -39,14 +42,20 @@ metadata:
       - harness
       - ifc
       - policy-engine
-    last_checked_at: "2026-08-27T09:23:26.147Z"
+    last_checked_at: '2026-08-27T09:23:26.147Z'
     readme:
-      fetched_at: "2026-08-27T09:23:26.147Z"
+      fetched_at: '2026-08-27T09:23:26.147Z'
       bytes: 13002
 insights:
-  summary: An eBPF-based information flow enforcement engine that provides deterministic safety and security policies for AI agent harnesses.
-  why_it_matters: It replaces probabilistic prompt-based guardrails with kernel-level enforcement, preventing agents from bypassing restrictions via subprocesses, shell scripts, or SDK calls.
-  mental_damage: The comforting realization that our only hope for agent safety is moving the guardrails from the prompt window to the Linux kernel.
+  summary: >-
+    An eBPF-based information flow enforcement engine that provides deterministic safety and security policies for AI
+    agent harnesses.
+  why_it_matters: >-
+    It replaces probabilistic prompt-based guardrails with kernel-level enforcement, preventing agents from bypassing
+    restrictions via subprocesses, shell scripts, or SDK calls.
+  mental_damage: >-
+    The comforting realization that our only hope for agent safety is moving the guardrails from the prompt window to
+    the Linux kernel.
   tags:
     - ebpf
     - agent-security
@@ -56,31 +65,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool does not act as an assistant itself, but rather augments existing agents (like Claude Code or Codex) by providing a security and workflow harness.
+  reason: >-
+    The tool does not act as an assistant itself, but rather augments existing agents (like Claude Code or Codex) by
+    providing a security and workflow harness.
   evidence:
     - README states it is a 'Runtime enforcement and observability for AI agent harnesses'
     - Explicitly differentiates itself from sandboxes by providing 'corrective feedback' to the agent
     - Designed to run existing agents under its harness (e.g., 'actplane run claude')
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-18T05:40:04.066Z"
+    updated_at: '2026-06-18T05:40:04.066Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:26.147Z"
+    updated_at: '2026-08-27T09:23:26.147Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-25T05:26:46.934Z"
+    updated_at: '2026-06-25T05:26:46.934Z'
     cause: null
     next_retry_at: null
     attempts: 1

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tomatio13__mcp-server-tavily__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -19,7 +19,10 @@ provenance:
           - 🔎 Search
         anchor_text: Tomatio13/mcp-server-tavily
         extracted_url: https://github.com/tomatio13/mcp-server-tavily
-        surrounding_text: "-   **[Tomatio13/mcp-server-tavily](https://github.com/Tomatio13/mcp-server-tavily)** [![GitHub stars](https://img.shields.io/github/stars/Tomatio13/mcp-server-tavily?style=social)](https://github.com/Tomatio13/mcp-server-tavily): Integrates with Tavily AI search API."
+        surrounding_text: >-
+          -   **[Tomatio13/mcp-server-tavily](https://github.com/Tomatio13/mcp-server-tavily)** [![GitHub
+          stars](https://img.shields.io/github/stars/Tomatio13/mcp-server-tavily?style=social)](https://github.com/Tomatio13/mcp-server-tavily):
+          Integrates with Tavily AI search API.
         confidence: high
 metadata:
   github:
@@ -29,19 +32,23 @@ metadata:
     archived: false
     full_name: Tomatio13/mcp-server-tavily
     html_url: https://github.com/Tomatio13/mcp-server-tavily
-    created_at: "2024-11-30T15:39:40Z"
-    pushed_at: "2025-08-19T14:04:48Z"
+    created_at: '2024-11-30T15:39:40Z'
+    pushed_at: '2025-08-19T14:04:48Z'
     description: Taivily APIを利用するMCP Serverです。Officialが提供される前に開発しました
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-21T15:20:52.156Z"
+    last_checked_at: '2026-07-21T15:20:52.156Z'
     readme:
-      fetched_at: "2026-07-21T15:20:52.156Z"
+      fetched_at: '2026-07-21T15:20:52.156Z'
       bytes: 6223
 insights:
   summary: An MCP server that exposes the Tavily search API as a tool for AI assistants like Claude Desktop and Cursor.
-  why_it_matters: It allows coding agents to perform real-time web searches for current events and documentation without leaving the chat interface.
-  mental_damage: We have successfully abstracted the revolutionary act of opening a new browser tab into a specialized JSON-RPC protocol.
+  why_it_matters: >-
+    It allows coding agents to perform real-time web searches for current events and documentation without leaving the
+    chat interface.
+  mental_damage: >-
+    We have successfully abstracted the revolutionary act of opening a new browser tab into a specialized JSON-RPC
+    protocol.
   tags:
     - mcp
     - search
@@ -50,35 +57,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's identity is explicitly an MCP server built to give assistants access to the Tavily API, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The project's identity is explicitly an MCP server built to give assistants access to the Tavily API, fitting the
+    MCP Servers & Tooling category.
   evidence:
     - Repo description states it is an 'MCP Server' for the Tavily API.
     - README details integration instructions for Claude Desktop and Cursor via MCP configuration.
     - Listed in the 'awesome-mcp-list' under the Search section.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.652Z"
+    updated_at: '2026-05-06T22:12:15.652Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:52.157Z"
+    updated_at: '2026-07-21T15:20:52.157Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

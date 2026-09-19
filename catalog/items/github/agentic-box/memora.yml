@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agentic-box__memora__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: agentic-mcp-tools/memora
         extracted_url: https://github.com/agentic-mcp-tools/memora
-        surrounding_text: "- [agentic-mcp-tools/memora](https://github.com/agentic-mcp-tools/memora) 🐍 🏠 ☁️ - Persistent memory with knowledge graph visualization, semantic/hybrid search, cloud sync (S3/R2), and cross-session context management."
+        surrounding_text: >-
+          - [agentic-mcp-tools/memora](https://github.com/agentic-mcp-tools/memora) 🐍 🏠 ☁️ - Persistent memory with
+          knowledge graph visualization, semantic/hybrid search, cloud sync (S3/R2), and cross-session context
+          management.
         confidence: high
 metadata:
   github:
@@ -30,10 +33,12 @@ metadata:
     archived: false
     full_name: agentic-box/memora
     html_url: https://github.com/agentic-box/memora
-    created_at: "2025-09-19T09:44:12Z"
-    pushed_at: "2026-09-16T20:12:10Z"
-    description: Give your AI agents persistent, collective memory — with deduplicating absorb, supersession lineage, semantic search, and a graph UI. Speaks MCP.
-    homepage: ""
+    created_at: '2025-09-19T09:44:12Z'
+    pushed_at: '2026-09-16T20:12:10Z'
+    description: >-
+      Give your AI agents persistent, collective memory — with deduplicating absorb, supersession lineage, semantic
+      search, and a graph UI. Speaks MCP.
+    homepage: ''
     topics:
       - agent-memory
       - ai-agent
@@ -51,14 +56,20 @@ metadata:
       - semantic-search
       - semantic-search-algorithm
       - sqlite
-    last_checked_at: "2026-09-17T04:13:32.350Z"
+    last_checked_at: '2026-09-17T04:13:32.350Z'
     readme:
-      fetched_at: "2026-09-17T04:13:32.350Z"
+      fetched_at: '2026-09-17T04:13:32.350Z'
       bytes: 46426
 insights:
-  summary: An MCP-based memory layer for AI agents providing structured storage, semantic retrieval, and knowledge graph capabilities.
-  why_it_matters: It enables AI agents to maintain long-term, cross-session context and relationships rather than resetting to zero after every interaction.
-  mental_damage: Now your agents can remember the exact mistake you made in a previous session, making their critiques even more personal.
+  summary: >-
+    An MCP-based memory layer for AI agents providing structured storage, semantic retrieval, and knowledge graph
+    capabilities.
+  why_it_matters: >-
+    It enables AI agents to maintain long-term, cross-session context and relationships rather than resetting to zero
+    after every interaction.
+  mental_damage: >-
+    Now your agents can remember the exact mistake you made in a previous session, making their critiques even more
+    personal.
   tags:
     - mcp
     - agent-memory
@@ -68,31 +79,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is built and distributed as an MCP server for persistent memory, making MCP its core identity rather than a side feature.
+  reason: >-
+    The product is built and distributed as an MCP server for persistent memory, making MCP its core identity rather
+    than a side feature.
   evidence:
-    - "Repo description: 'Give your AI agents persistent memory.'"
-    - "README: 'A lightweight MCP server for semantic memory storage, knowledge graphs, conversational recall, and cross-session context.'"
+    - 'Repo description: ''Give your AI agents persistent memory.'''
+    - >-
+      README: 'A lightweight MCP server for semantic memory storage, knowledge graphs, conversational recall, and
+      cross-session context.'
     - Listed in awesome-mcp-servers under Knowledge & Memory, with topics including mcp and mcp-server.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
+  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''context-engineering'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.599Z"
+    updated_at: '2026-05-06T22:12:15.599Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:32.350Z"
+    updated_at: '2026-09-17T04:13:32.350Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:01:36.712Z"
+    updated_at: '2026-07-20T16:01:36.712Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -113,6 +129,8 @@ processing:
       category_candidates:
         - context-engineering
         - mcp
-      contrastive_reason: Choose context-engineering over mcp because the product's identity is the memory/retrieval logic itself, while MCP is simply the transport protocol used to deliver it.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
+      contrastive_reason: >-
+        Choose context-engineering over mcp because the product's identity is the memory/retrieval logic itself, while
+        MCP is simply the transport protocol used to deliver it.
+      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''context-engineering'''
       review_resume_lifecycle: null

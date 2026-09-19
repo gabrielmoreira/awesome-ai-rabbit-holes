@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nicepkg__gpt-runner__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,7 @@ provenance:
           - GPT Runner
         anchor_text: GPT Runner
         extracted_url: https://github.com/nicepkg/gpt-runner
-        surrounding_text: "## [GPT Runner](https://github.com/nicepkg/gpt-runner)"
+        surrounding_text: '## [GPT Runner](https://github.com/nicepkg/gpt-runner)'
         confidence: high
 metadata:
   github:
@@ -29,8 +29,8 @@ metadata:
     archived: false
     full_name: nicepkg/gpt-runner
     html_url: https://github.com/nicepkg/gpt-runner
-    created_at: "2023-05-14T08:06:03Z"
-    pushed_at: "2023-09-11T13:14:48Z"
+    created_at: '2023-05-14T08:06:03Z'
+    pushed_at: '2023-09-11T13:14:48Z'
     description: Conversations with your files! Manage and run your AI presets!
     homepage: https://github.com/nicepkg/gpt-runner
     topics:
@@ -42,14 +42,20 @@ metadata:
       - openai
       - prompt
       - promptengineering
-    last_checked_at: "2026-07-20T15:12:03.564Z"
+    last_checked_at: '2026-07-20T15:12:03.564Z'
     readme:
-      fetched_at: "2026-07-20T15:12:03.564Z"
+      fetched_at: '2026-07-20T15:12:03.564Z'
       bytes: 8003
 insights:
-  summary: A local CLI, web UI, and VSCode extension for managing AI presets and chatting with selected code files using OpenAI or Anthropic models.
-  why_it_matters: It lets teams version-control reusable AI prompt presets as .gpt.md files and avoids the manual copy-paste workflow when discussing code with LLMs.
-  mental_damage: We have finally solved the ancient engineering problem of copying code into a browser tab and pasting it back, provided you also maintain yet another config file format.
+  summary: >-
+    A local CLI, web UI, and VSCode extension for managing AI presets and chatting with selected code files using OpenAI
+    or Anthropic models.
+  why_it_matters: >-
+    It lets teams version-control reusable AI prompt presets as .gpt.md files and avoids the manual copy-paste workflow
+    when discussing code with LLMs.
+  mental_damage: >-
+    We have finally solved the ancient engineering problem of copying code into a browser tab and pasting it back,
+    provided you also maintain yet another config file format.
   tags:
     - prompt-presets
     - vscode-extension
@@ -58,35 +64,42 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The core novelty is prompt preset management via .gpt.md files and file-aware conversations, making it a prompt and context engineering tool rather than a primary coding agent.
+  reason: >-
+    The core novelty is prompt preset management via .gpt.md files and file-aware conversations, making it a prompt and
+    context engineering tool rather than a primary coding agent.
   evidence:
-    - "Repo description: 'Conversations with your files! Manage and run your AI presets!'"
-    - "README: 'Each xxx.gpt.md file represents an AI role preset... easy to read, modify, and can be version-controlled.'"
-    - "README: 'Select your project files from the file tree. The AI will provide responses based on the most recent contents of those files.'"
+    - 'Repo description: ''Conversations with your files! Manage and run your AI presets!'''
+    - >-
+      README: 'Each xxx.gpt.md file represents an AI role preset... easy to read, modify, and can be
+      version-controlled.'
+    - >-
+      README: 'Select your project files from the file tree. The AI will provide responses based on the most recent
+      contents of those files.'
 placement:
-  primary_category: context-engineering
-  section: Prompt Assets & Templating
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Prompt Engineering & Management
 lifecycle:
   status: promotion_candidate
   reason: Stars (381) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.632Z"
+    updated_at: '2026-05-06T22:12:15.632Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:12:03.564Z"
+    updated_at: '2026-07-20T15:12:03.564Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

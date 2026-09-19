@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__prereason__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: PreReason/mcp
         extracted_url: https://github.com/prereason/mcp
-        surrounding_text: "- [PreReason/mcp](https://github.com/PreReason/mcp) [![prereason-mcp MCP server](https://glama.ai/mcp/servers/PreReason/mcp/badges/score.svg)](https://glama.ai/mcp/servers/PreReason/mcp) 📇 ☁️ - Pre-reasoned Bitcoin and macro market briefings with trend signals, confidence scores, and regime classification. 17 briefings covering BTC, Fed balance sheet, M2, Treasury yields, and cross-asset correlations."
+        surrounding_text: >-
+          - [PreReason/mcp](https://github.com/PreReason/mcp) [![prereason-mcp MCP
+          server](https://glama.ai/mcp/servers/PreReason/mcp/badges/score.svg)](https://glama.ai/mcp/servers/PreReason/mcp)
+          📇 ☁️ - Pre-reasoned Bitcoin and macro market briefings with trend signals, confidence scores, and regime
+          classification. 17 briefings covering BTC, Fed balance sheet, M2, Treasury yields, and cross-asset
+          correlations.
         confidence: high
 metadata:
   github:
@@ -30,19 +35,27 @@ metadata:
     archived: false
     full_name: PreReason/mcp
     html_url: https://github.com/PreReason/mcp
-    created_at: "2026-02-25T21:47:51Z"
-    pushed_at: "2026-04-12T06:13:06Z"
-    description: MCP server for PreReason, the Context API for financial agents. 17 pre-reasoned market briefings with trend signals, regime classification, confidence scores, and cross-asset correlations.
+    created_at: '2026-02-25T21:47:51Z'
+    pushed_at: '2026-04-12T06:13:06Z'
+    description: >-
+      MCP server for PreReason, the Context API for financial agents. 17 pre-reasoned market briefings with trend
+      signals, regime classification, confidence scores, and cross-asset correlations.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:37.298Z"
+    last_checked_at: '2026-07-20T16:42:37.298Z'
     readme:
-      fetched_at: "2026-07-20T16:42:37.298Z"
+      fetched_at: '2026-07-20T16:42:37.298Z'
       bytes: 7371
 insights:
-  summary: An MCP server that exposes 17 pre-reasoned financial market briefings—including trend signals, regime classifications, and cross-asset correlations—to AI agents via the Model Context Protocol.
-  why_it_matters: It gives coding agents and MCP-compatible IDEs structured, high-signal financial context without forcing developers to wire up raw price feeds or build their own macro analysis pipelines.
-  mental_damage: Your agent can now explain Bitcoin’s regime classification with confidence scores, while your actual portfolio remains a testament to prompt-driven overconfidence.
+  summary: >-
+    An MCP server that exposes 17 pre-reasoned financial market briefings—including trend signals, regime
+    classifications, and cross-asset correlations—to AI agents via the Model Context Protocol.
+  why_it_matters: >-
+    It gives coding agents and MCP-compatible IDEs structured, high-signal financial context without forcing developers
+    to wire up raw price feeds or build their own macro analysis pipelines.
+  mental_damage: >-
+    Your agent can now explain Bitcoin’s regime classification with confidence scores, while your actual portfolio
+    remains a testament to prompt-driven overconfidence.
   tags:
     - mcp
     - finance
@@ -51,35 +64,42 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product is an MCP server that exposes financial market briefings to agents, which is a clear fit for the MCP Servers & Tooling category under Domain Servers.
+  reason: >-
+    The product is an MCP server that exposes financial market briefings to agents, which is a clear fit for the MCP
+    Servers & Tooling category under Domain Servers.
   evidence:
-    - "Repo description explicitly states: 'MCP server for PreReason, the Context API for financial agents.'"
-    - README documents 5 MCP tools (list_briefings, get_context, get_metric, etc.) and multiple connection methods for Claude, Cursor, and other MCP clients.
-    - Listed in awesome-mcp-servers under Server Implementations > Finance & Fintech, reinforcing its MCP server identity.
+    - 'Repo description explicitly states: ''MCP server for PreReason, the Context API for financial agents.'''
+    - >-
+      README documents 5 MCP tools (list_briefings, get_context, get_metric, etc.) and multiple connection methods for
+      Claude, Cursor, and other MCP clients.
+    - >-
+      Listed in awesome-mcp-servers under Server Implementations > Finance & Fintech, reinforcing its MCP server
+      identity.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.643Z"
+    updated_at: '2026-05-06T22:12:15.643Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:37.298Z"
+    updated_at: '2026-07-20T16:42:37.298Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

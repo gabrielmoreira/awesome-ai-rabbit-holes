@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__joshuarileydev__simulator-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: joshuarileydev/simulator-mcp-server
         extracted_url: https://github.com/joshuarileydev/simulator-mcp-server
-        surrounding_text: "- [joshuarileydev/simulator-mcp-server](https://github.com/JoshuaRileyDev/simulator-mcp-server) 📇 🏠 - An MCP server to control iOS Simulators"
+        surrounding_text: >-
+          - [joshuarileydev/simulator-mcp-server](https://github.com/JoshuaRileyDev/simulator-mcp-server) 📇 🏠 - An MCP
+          server to control iOS Simulators
         confidence: high
     - id: discovery__github__joshuarileydev__simulator-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -33,9 +35,13 @@ provenance:
         mode: parsed
         section_path:
           - 💻 Developer Tools
-        anchor_text: "@joshuarileydev/simulator-mcp-server"
+        anchor_text: '@joshuarileydev/simulator-mcp-server'
         extracted_url: https://github.com/joshuarileydev/simulator-mcp-server
-        surrounding_text: "-   **[@joshuarileydev/simulator-mcp-server](https://github.com/JoshuaRileyDev/simulator-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/JoshuaRileyDev/simulator-mcp-server?style=social)](https://github.com/JoshuaRileyDev/simulator-mcp-server): Controls iOS Simulators."
+        surrounding_text: >-
+          -   **[@joshuarileydev/simulator-mcp-server](https://github.com/JoshuaRileyDev/simulator-mcp-server)**
+          [![GitHub
+          stars](https://img.shields.io/github/stars/JoshuaRileyDev/simulator-mcp-server?style=social)](https://github.com/JoshuaRileyDev/simulator-mcp-server):
+          Controls iOS Simulators.
         confidence: high
 metadata:
   github:
@@ -45,18 +51,20 @@ metadata:
     archived: false
     full_name: JoshuaRileyDev/simulator-mcp-server
     html_url: https://github.com/JoshuaRileyDev/simulator-mcp-server
-    created_at: "2024-12-13T18:24:18Z"
-    pushed_at: "2024-12-13T18:24:21Z"
+    created_at: '2024-12-13T18:24:18Z'
+    pushed_at: '2024-12-13T18:24:21Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:52.268Z"
+    last_checked_at: '2026-07-30T05:05:52.268Z'
     readme:
-      fetched_at: "2026-07-30T05:05:52.268Z"
+      fetched_at: '2026-07-30T05:05:52.268Z'
       bytes: 619
 insights:
   summary: An MCP server that provides programmatic control over iOS simulators via the Model Context Protocol.
-  why_it_matters: Developers can integrate iOS simulator operations (boot, shutdown, app installation) directly into their AI workflows or assistants.
+  why_it_matters: >-
+    Developers can integrate iOS simulator operations (boot, shutdown, app installation) directly into their AI
+    workflows or assistants.
   mental_damage: Now your AI can spin up iOS simulators while you question your life choices.
   tags:
     - mcp
@@ -66,31 +74,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose primary identity is exposing iOS simulator functionality through the MCP specification.
+  reason: >-
+    This is an MCP-first server whose primary identity is exposing iOS simulator functionality through the MCP
+    specification.
   evidence:
     - README explicitly describes it as an MCP server for iOS simulators
     - Source lists categorize it under MCP servers (awesome-mcp-list, awesome-mcp-servers)
     - Installation instructions show MCP server configuration for Claude
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.588Z"
+    updated_at: '2026-05-06T22:12:15.588Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:52.268Z"
+    updated_at: '2026-07-30T05:05:52.268Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:11:10.300Z"
+    updated_at: '2026-07-21T16:11:10.300Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -103,7 +114,9 @@ processing:
       input_hash: sha256:7b07e26525c9346f09619359f10bd0294047b5f2e5950ed2dd9188bd0fd81741
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server whose primary identity is exposing iOS simulator functionality through the MCP specification.
+      decision_reason: >-
+        This is an MCP-first server whose primary identity is exposing iOS simulator functionality through the MCP
+        specification.
       decision_evidence:
         - README explicitly describes it as an MCP server for iOS simulators
         - Source lists categorize it under MCP servers (awesome-mcp-list, awesome-mcp-servers)
@@ -111,6 +124,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an
+        extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

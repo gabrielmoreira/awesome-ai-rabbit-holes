@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__g1itchbot8888-del__agent-memory__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: g1itchbot8888-del/agent-memory
         extracted_url: https://github.com/g1itchbot8888-del/agent-memory
-        surrounding_text: "- [g1itchbot8888-del/agent-memory](https://github.com/g1itchbot8888-del/agent-memory) 🐍 🏠 - Three-layer memory system for agents (identity/active/archive) with semantic search, graph relationships, conflict detection, and LearningMachine. Built by an agent, for agents. No API keys required."
+        surrounding_text: >-
+          - [g1itchbot8888-del/agent-memory](https://github.com/g1itchbot8888-del/agent-memory) 🐍 🏠 - Three-layer
+          memory system for agents (identity/active/archive) with semantic search, graph relationships, conflict
+          detection, and LearningMachine. Built by an agent, for agents. No API keys required.
         confidence: high
 metadata:
   github:
@@ -30,19 +33,23 @@ metadata:
     archived: false
     full_name: g1itchbot8888-del/agent-memory
     html_url: https://github.com/g1itchbot8888-del/agent-memory
-    created_at: "2026-02-01T19:37:23Z"
-    pushed_at: "2026-02-27T07:57:20Z"
+    created_at: '2026-02-01T19:37:23Z'
+    pushed_at: '2026-02-27T07:57:20Z'
     description: Memory system for autonomous agents - built by an agent, for agents
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:45.564Z"
+    last_checked_at: '2026-09-03T05:16:45.564Z'
     readme:
-      fetched_at: "2026-09-03T05:16:45.564Z"
+      fetched_at: '2026-09-03T05:16:45.564Z'
       bytes: 11847
 insights:
   summary: A local-first memory system for autonomous agents using SQLite and local embeddings.
-  why_it_matters: It provides a lightweight, private way for agents to maintain continuity across sessions via a three-layer memory architecture (identity, active, and archive).
-  mental_damage: Finally, a way to ensure your agent remembers exactly which hallucination it decided to stick with during the last session.
+  why_it_matters: >-
+    It provides a lightweight, private way for agents to maintain continuity across sessions via a three-layer memory
+    architecture (identity, active, and archive).
+  mental_damage: >-
+    Finally, a way to ensure your agent remembers exactly which hallucination it decided to stick with during the last
+    session.
   tags:
     - local-ai
     - agent-memory
@@ -52,31 +59,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core novelty and utility of the project is its three-layer memory architecture for context management rather than acting as a coding assistant itself.
+  reason: >-
+    The core novelty and utility of the project is its three-layer memory architecture for context management rather
+    than acting as a coding assistant itself.
   evidence:
     - README describes a 'three-layer architecture' (identity, active, archive) to manage token burn.
     - Uses SQLite and local embeddings for semantic retrieval.
     - Focuses on 'learning from errors' and context-shaping for agents.
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: '2026-05-06T22:12:15.615Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:45.564Z"
+    updated_at: '2026-09-03T05:16:45.564Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:00:33.507Z"
+    updated_at: '2026-07-21T16:00:33.507Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +99,9 @@ processing:
       input_hash: sha256:fb8da1bf671bf3790049c2d3f26a1f80ac62bd99bc4fecafbe57c658ee0129ea
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: The core novelty and utility of the project is its three-layer memory architecture for context management rather than acting as a coding assistant itself.
+      decision_reason: >-
+        The core novelty and utility of the project is its three-layer memory architecture for context management rather
+        than acting as a coding assistant itself.
       decision_evidence:
         - README describes a 'three-layer architecture' (identity, active, archive) to manage token burn.
         - Uses SQLite and local embeddings for semantic retrieval.
@@ -97,6 +109,8 @@ processing:
       category_candidates:
         - context-engineering
         - ai-dev-extensions
-      contrastive_reason: Choose context-engineering over ai-dev-extensions because the core innovation is the memory retrieval and context management logic rather than just being a host integration.
+      contrastive_reason: >-
+        Choose context-engineering over ai-dev-extensions because the core innovation is the memory retrieval and
+        context management logic rather than just being a host integration.
       review_reason: null
       review_resume_lifecycle: null

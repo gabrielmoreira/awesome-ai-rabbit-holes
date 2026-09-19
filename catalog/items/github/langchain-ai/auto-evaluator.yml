@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__langchain-ai__auto-evaluator__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,7 +20,9 @@ provenance:
           - Services
         anchor_text: Auto Evaluator
         extracted_url: https://github.com/langchain-ai/auto-evaluator
-        surrounding_text: "- [Auto Evaluator](https://github.com/langchain-ai/auto-evaluator): Langchain auto evaluator ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/auto-evaluator?style=social)"
+        surrounding_text: >-
+          - [Auto Evaluator](https://github.com/langchain-ai/auto-evaluator): Langchain auto evaluator ![GitHub Repo
+          stars](https://img.shields.io/github/stars/langchain-ai/auto-evaluator?style=social)
         confidence: high
 metadata:
   github:
@@ -30,19 +32,25 @@ metadata:
     archived: true
     full_name: langchain-ai/auto-evaluator
     html_url: https://github.com/langchain-ai/auto-evaluator
-    created_at: "2023-04-05T03:14:17Z"
-    pushed_at: "2025-06-26T03:58:55Z"
+    created_at: '2023-04-05T03:14:17Z'
+    pushed_at: '2025-06-26T03:58:55Z'
     description: null
     homepage: https://autoevaluator.langchain.com/
     topics: []
-    last_checked_at: "2026-07-30T05:06:02.772Z"
+    last_checked_at: '2026-07-30T05:06:02.772Z'
     readme:
-      fetched_at: "2026-07-30T05:06:02.772Z"
+      fetched_at: '2026-07-30T05:06:02.772Z'
       bytes: 8395
 insights:
-  summary: Auto-evaluator is a LangChain-based app that auto-generates QA test sets and performs model-graded evaluation of retrieval-augmented question answering chains.
-  why_it_matters: It helps developers systematically evaluate and improve QA system quality by replacing manual answer checking with automated, model-driven assessment of retrieval relevance and answer correctness.
-  mental_damage: Another tool that promises to fix hallucinations with more LLMs, because clearly the problem was insufficient model-to-model grading.
+  summary: >-
+    Auto-evaluator is a LangChain-based app that auto-generates QA test sets and performs model-graded evaluation of
+    retrieval-augmented question answering chains.
+  why_it_matters: >-
+    It helps developers systematically evaluate and improve QA system quality by replacing manual answer checking with
+    automated, model-driven assessment of retrieval relevance and answer correctness.
+  mental_damage: >-
+    Another tool that promises to fix hallucinations with more LLMs, because clearly the problem was insufficient
+    model-to-model grading.
   tags:
     - evals
     - rag
@@ -50,31 +58,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The tool's core function is automated evaluation of QA chains via model-graded metrics, making it an evals product rather than a coding agent or extension.
+  reason: >-
+    The tool's core function is automated evaluation of QA chains via model-graded metrics, making it an evals product
+    rather than a coding agent or extension.
   evidence:
-    - "Archived: yes"
+    - 'Archived: yes'
     - README emphasizes auto-generating test sets and model-graded evaluation of retrieval and answer quality
     - Source-lists it under awesome-langchain in Tools > Services as an evaluation utility
 placement:
   primary_category: evals
-  section: Agent Benchmarks
+  secondary_categories: []
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.626Z"
+    updated_at: '2026-05-06T22:12:15.626Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:02.772Z"
+    updated_at: '2026-07-30T05:06:02.772Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:14:45.925Z"
+    updated_at: '2026-07-21T16:14:45.925Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,14 +98,18 @@ processing:
       input_hash: sha256:53e7bb3e3c5783480d9d30c868f33f2d7d9f6b0a9787156fbeea63d86c566e3b
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: The tool's core function is automated evaluation of QA chains via model-graded metrics, making it an evals product rather than a coding agent or extension.
+      decision_reason: >-
+        The tool's core function is automated evaluation of QA chains via model-graded metrics, making it an evals
+        product rather than a coding agent or extension.
       decision_evidence:
-        - "Archived: yes"
+        - 'Archived: yes'
         - README emphasizes auto-generating test sets and model-graded evaluation of retrieval and answer quality
         - Source-lists it under awesome-langchain in Tools > Services as an evaluation utility
       category_candidates:
         - evals
         - context-engineering
-      contrastive_reason: Choose evals over context-engineering because the primary value is measuring QA system behavior via automated scoring, not improving retrieval or prompt context itself.
+      contrastive_reason: >-
+        Choose evals over context-engineering because the primary value is measuring QA system behavior via automated
+        scoring, not improving retrieval or prompt context itself.
       review_reason: null
       review_resume_lifecycle: null

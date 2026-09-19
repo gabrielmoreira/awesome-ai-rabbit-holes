@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__grovs-io__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: grovs-io/mcp
         extracted_url: https://github.com/grovs-io/mcp
-        surrounding_text: "- [grovs-io/mcp](https://github.com/grovs-io/mcp) [![grovs-io/mcp MCP server](https://glama.ai/mcp/servers/grovs-io/mcp/badges/score.svg)](https://glama.ai/mcp/servers/grovs-io/mcp) 📇 ☁️ - Deep linking, attribution, analytics, and campaign management for mobile apps with [Grovs](https://grovs.io) — an open-source, privacy-first alternative to Branch and AppsFlyer. 16 tools for creating links, tracking installs and revenue, and configuring app settings."
+        surrounding_text: >-
+          - [grovs-io/mcp](https://github.com/grovs-io/mcp) [![grovs-io/mcp MCP
+          server](https://glama.ai/mcp/servers/grovs-io/mcp/badges/score.svg)](https://glama.ai/mcp/servers/grovs-io/mcp)
+          📇 ☁️ - Deep linking, attribution, analytics, and campaign management for mobile apps with
+          [Grovs](https://grovs.io) — an open-source, privacy-first alternative to Branch and AppsFlyer. 16 tools for
+          creating links, tracking installs and revenue, and configuring app settings.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: grovs-io/mcp
     html_url: https://github.com/grovs-io/mcp
-    created_at: "2026-04-07T10:39:15Z"
-    pushed_at: "2026-05-13T10:36:57Z"
-    description: "MCP server for Grovs: manage deep links, attribution analytics, and campaigns from Claude Code, Cursor, Windsurf, and any MCP-compatible AI assistant. Open-source TypeScript, OAuth-based, no API keys required."
+    created_at: '2026-04-07T10:39:15Z'
+    pushed_at: '2026-05-13T10:36:57Z'
+    description: >-
+      MCP server for Grovs: manage deep links, attribution analytics, and campaigns from Claude Code, Cursor, Windsurf,
+      and any MCP-compatible AI assistant. Open-source TypeScript, OAuth-based, no API keys required.
     homepage: https://grovs.io
     topics:
       - ai-tools
@@ -49,14 +56,20 @@ metadata:
       - model-context-protocol
       - typescript
       - windsurf
-    last_checked_at: "2026-09-03T05:16:55.424Z"
+    last_checked_at: '2026-09-03T05:16:55.424Z'
     readme:
-      fetched_at: "2026-09-03T05:16:55.424Z"
+      fetched_at: '2026-09-03T05:16:55.424Z'
       bytes: 7223
 insights:
-  summary: An MCP server that lets AI assistants like Claude Code, Cursor, and Windsurf manage Grovs' deep linking, attribution analytics, and campaign features via natural language.
-  why_it_matters: Developers can now control mobile growth infrastructure (deep links, campaigns, analytics) directly from their AI coding environment without switching contexts.
-  mental_damage: Because nothing says 'developer productivity' like debugging OAuth flows between your editor and a mobile attribution platform.
+  summary: >-
+    An MCP server that lets AI assistants like Claude Code, Cursor, and Windsurf manage Grovs' deep linking, attribution
+    analytics, and campaign features via natural language.
+  why_it_matters: >-
+    Developers can now control mobile growth infrastructure (deep links, campaigns, analytics) directly from their AI
+    coding environment without switching contexts.
+  mental_damage: >-
+    Because nothing says 'developer productivity' like debugging OAuth flows between your editor and a mobile
+    attribution platform.
   tags:
     - mcp-server
     - mobile-attribution
@@ -66,31 +79,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the product identity here—a server that exposes Grovs' functionality via the Model Context Protocol, not just a compatibility adapter.
+  reason: >-
+    MCP is the product identity here—a server that exposes Grovs' functionality via the Model Context Protocol, not just
+    a compatibility adapter.
   evidence:
     - Repo description explicitly identifies it as an MCP server for Grovs
     - README details MCP protocol implementation and client integrations (Claude Code, Cursor, Windsurf)
     - Core functionality is exposing Grovs' API through MCP tools (20+ listed)
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: extensions-and-addons
+  secondary_categories: []
+  section: API & Service Integrations
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.617Z"
+    updated_at: '2026-05-06T22:12:15.617Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:55.424Z"
+    updated_at: '2026-09-03T05:16:55.424Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:04:39.687Z"
+    updated_at: '2026-07-21T16:04:39.687Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -103,7 +119,9 @@ processing:
       input_hash: sha256:28ba33032c858a47450f45a455b3bd2402d1247df760323fea4972f1397ec033
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the product identity here—a server that exposes Grovs' functionality via the Model Context Protocol, not just a compatibility adapter.
+      decision_reason: >-
+        MCP is the product identity here—a server that exposes Grovs' functionality via the Model Context Protocol, not
+        just a compatibility adapter.
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server for Grovs
         - README details MCP protocol implementation and client integrations (Claude Code, Cursor, Windsurf)
@@ -111,6 +129,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server exposing domain-specific functionality, not merely an extension layer for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server exposing
+        domain-specific functionality, not merely an extension layer for another assistant.
       review_reason: null
       review_resume_lifecycle: null

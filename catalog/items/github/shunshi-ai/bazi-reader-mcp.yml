@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__shunshi-ai__bazi-reader-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: shunshi-ai/bazi-reader-mcp
         extracted_url: https://github.com/shunshi-ai/bazi-reader-mcp
-        surrounding_text: "- [shunshi-ai/bazi-reader-mcp](https://github.com/shunshi-ai/bazi-reader-mcp) [![shunshi-ai/bazi-reader-mcp MCP server](https://glama.ai/mcp/servers/shunshi-ai/bazi-reader-mcp/badges/score.svg)](https://glama.ai/mcp/servers/shunshi-ai/bazi-reader-mcp) 📇 🏠 🍎 🪟 🐧 - Bazi (Four Pillars / 四柱推命 / 사주팔자) charting MCP server with true solar time correction and multilingual output (中文/EN/日本語/한국어). `npx shunshi-bazi-mcp`"
+        surrounding_text: >-
+          - [shunshi-ai/bazi-reader-mcp](https://github.com/shunshi-ai/bazi-reader-mcp) [![shunshi-ai/bazi-reader-mcp
+          MCP
+          server](https://glama.ai/mcp/servers/shunshi-ai/bazi-reader-mcp/badges/score.svg)](https://glama.ai/mcp/servers/shunshi-ai/bazi-reader-mcp)
+          📇 🏠 🍎 🪟 🐧 - Bazi (Four Pillars / 四柱推命 / 사주팔자) charting MCP server with true solar time correction and
+          multilingual output (中文/EN/日本語/한국어). `npx shunshi-bazi-mcp`
         confidence: high
 metadata:
   github:
@@ -30,19 +35,25 @@ metadata:
     archived: false
     full_name: shunshi-ai/bazi-reader-mcp
     html_url: https://github.com/shunshi-ai/bazi-reader-mcp
-    created_at: "2026-04-08T02:55:22Z"
-    pushed_at: "2026-05-31T12:23:26Z"
+    created_at: '2026-04-08T02:55:22Z'
+    pushed_at: '2026-05-31T12:23:26Z'
     description: Give your AI agent the ability to read Chinese Bazi (八字) charts — an open-source MCP server 🔮
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:56.765Z"
+    last_checked_at: '2026-07-20T16:42:56.765Z'
     readme:
-      fetched_at: "2026-07-20T16:42:56.765Z"
+      fetched_at: '2026-07-20T16:42:56.765Z'
       bytes: 8537
 insights:
-  summary: An open-source MCP server and TypeScript library that calculates Chinese Bazi (Four Pillars of Destiny) charts with true solar time correction, designed to be called by AI agents like Claude and Cursor.
-  why_it_matters: It gives developers building culturally-aware AI agents a parity-tested, multilingual calculation engine that handles complex solar time corrections and regional charting conventions out of the box.
-  mental_damage: Your CI pipeline is now green, your agents can refactor React, and thanks to the MCP ecosystem, they can also tell you why your birth chart suggests you should have been a farmer.
+  summary: >-
+    An open-source MCP server and TypeScript library that calculates Chinese Bazi (Four Pillars of Destiny) charts with
+    true solar time correction, designed to be called by AI agents like Claude and Cursor.
+  why_it_matters: >-
+    It gives developers building culturally-aware AI agents a parity-tested, multilingual calculation engine that
+    handles complex solar time corrections and regional charting conventions out of the box.
+  mental_damage: >-
+    Your CI pipeline is now green, your agents can refactor React, and thanks to the MCP ecosystem, they can also tell
+    you why your birth chart suggests you should have been a farmer.
   tags:
     - mcp
     - bazi
@@ -52,35 +63,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server providing domain-specific tooling (Bazi calculation) for AI agents, fitting cleanly into the Domain Servers section of MCP Servers & Tooling.
+  reason: >-
+    The product identity is an MCP server providing domain-specific tooling (Bazi calculation) for AI agents, fitting
+    cleanly into the Domain Servers section of MCP Servers & Tooling.
   evidence:
     - Repo description explicitly states 'open-source MCP server' for giving AI agents Bazi chart reading abilities.
-    - "README details two npm packages: 'shunshi-bazi-core' (library) and 'shunshi-bazi-mcp' (thin MCP server wrapper)."
+    - 'README details two npm packages: ''shunshi-bazi-core'' (library) and ''shunshi-bazi-mcp'' (thin MCP server wrapper).'
     - Source list context confirms inclusion in 'awesome-mcp-servers' under 'Art & Culture' server implementations.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.648Z"
+    updated_at: '2026-05-06T22:12:15.648Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:56.765Z"
+    updated_at: '2026-07-20T16:42:56.765Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

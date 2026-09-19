@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__decidefyi__decide__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: decidefyi/decide
         extracted_url: https://github.com/decidefyi/decide
-        surrounding_text: "- [decidefyi/decide](https://github.com/decidefyi/decide) 📇 ☁️ - Deterministic refund eligibility notary MCP server. Returns ALLOWED / DENIED / UNKNOWN for subscription refunds (Adobe, Spotify, etc.) via a stateless rules engine."
+        surrounding_text: >-
+          - [decidefyi/decide](https://github.com/decidefyi/decide) 📇 ☁️ - Deterministic refund eligibility notary MCP
+          server. Returns ALLOWED / DENIED / UNKNOWN for subscription refunds (Adobe, Spotify, etc.) via a stateless
+          rules engine.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: decidefyi/decide
     html_url: https://github.com/decidefyi/decide
-    created_at: "2026-01-08T12:09:45Z"
-    pushed_at: "2026-09-14T04:07:10Z"
-    description: Source-backed, fail-closed policy checks for refunds, cancellations, returns, and trials. Four read-only MCP tools plus the deterministic Decision API engine.
+    created_at: '2026-01-08T12:09:45Z'
+    pushed_at: '2026-09-14T04:07:10Z'
+    description: >-
+      Source-backed, fail-closed policy checks for refunds, cancellations, returns, and trials. Four read-only MCP tools
+      plus the deterministic Decision API engine.
     homepage: https://www.decide.fyi/resources/docs
     topics:
       - ai-agents
@@ -42,13 +47,17 @@ metadata:
       - policy-automation
       - refunds
       - returns
-    last_checked_at: "2026-09-14T04:13:37.356Z"
+    last_checked_at: '2026-09-14T04:13:37.356Z'
     readme:
-      fetched_at: "2026-09-14T04:13:37.355Z"
+      fetched_at: '2026-09-14T04:13:37.355Z'
       bytes: 31585
 insights:
-  summary: Source-backed, fail-closed policy checks for refunds, cancellations, returns, and trials via four read-only MCP tools and a deterministic Decision API engine.
-  why_it_matters: Developers can integrate deterministic policy checks into agent workflows or customer support systems without writing vendor-specific logic.
+  summary: >-
+    Source-backed, fail-closed policy checks for refunds, cancellations, returns, and trials via four read-only MCP
+    tools and a deterministic Decision API engine.
+  why_it_matters: >-
+    Developers can integrate deterministic policy checks into agent workflows or customer support systems without
+    writing vendor-specific logic.
   mental_damage: Finally, a way to offload the 'is this refund allowed?' rabbit hole to an MCP server instead of your own soul.
   tags:
     - mcp
@@ -58,31 +67,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "The product's core identity is MCP-first: it provides four MCP servers for policy checks, with MCP as the primary integration surface."
+  reason: >-
+    The product's core identity is MCP-first: it provides four MCP servers for policy checks, with MCP as the primary
+    integration surface.
   evidence:
     - Repo description explicitly states 'Four read-only MCP tools plus the deterministic Decision API engine'
     - README highlights MCP server installation as the primary integration method
     - Already listed in awesome-mcp-servers under 'Finance & Fintech' section
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.610Z"
+    updated_at: '2026-05-06T22:12:15.610Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:37.356Z"
+    updated_at: '2026-09-14T04:13:37.356Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:50:25.179Z"
+    updated_at: '2026-07-21T15:50:25.179Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -95,7 +107,9 @@ processing:
       input_hash: sha256:21704eece6c897be4f1991575b5411f368313d549f09b6e40bc8e23893d52add
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "The product's core identity is MCP-first: it provides four MCP servers for policy checks, with MCP as the primary integration surface."
+      decision_reason: >-
+        The product's core identity is MCP-first: it provides four MCP servers for policy checks, with MCP as the
+        primary integration surface.
       decision_evidence:
         - Repo description explicitly states 'Four read-only MCP tools plus the deterministic Decision API engine'
         - README highlights MCP server installation as the primary integration method
@@ -103,6 +117,8 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product's primary identity is MCP servers, not a code-first SDK or framework.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product's primary identity is MCP servers, not a code-first SDK or
+        framework.
       review_reason: null
       review_resume_lifecycle: null

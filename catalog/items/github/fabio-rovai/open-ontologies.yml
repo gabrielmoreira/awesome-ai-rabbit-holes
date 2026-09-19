@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__fabio-rovai__open-ontologies__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: fabio-rovai/open-ontologies
         extracted_url: https://github.com/fabio-rovai/open-ontologies
-        surrounding_text: "- [fabio-rovai/open-ontologies](https://github.com/fabio-rovai/open-ontologies) [![open-ontologies MCP server](https://glama.ai/mcp/servers/fabio-rovai/open-ontologies/badges/score.svg)](https://glama.ai/mcp/servers/fabio-rovai/open-ontologies) 🦀 🏠 - AI-native ontology engineering with 39 tools and 5 prompts for OWL/RDF/SPARQL. Validate, query, diff, lint, version, and govern knowledge graphs via Oxigraph triple store."
+        surrounding_text: >-
+          - [fabio-rovai/open-ontologies](https://github.com/fabio-rovai/open-ontologies) [![open-ontologies MCP
+          server](https://glama.ai/mcp/servers/fabio-rovai/open-ontologies/badges/score.svg)](https://glama.ai/mcp/servers/fabio-rovai/open-ontologies)
+          🦀 🏠 - AI-native ontology engineering with 39 tools and 5 prompts for OWL/RDF/SPARQL. Validate, query, diff,
+          lint, version, and govern knowledge graphs via Oxigraph triple store.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,12 @@ metadata:
     archived: false
     full_name: fabio-rovai/open-ontologies
     html_url: https://github.com/fabio-rovai/open-ontologies
-    created_at: "2026-03-09T09:08:58Z"
-    pushed_at: "2026-08-26T22:19:14Z"
-    description: "AI-native ontology engine: a Rust MCP server with tools for building, validating, querying, and reasoning over RDF/OWL ontologies. In-memory Oxigraph triple store, native OWL2-DL tableaux reasoner, SHACL validation, SPARQL, versioning. Single binary, no JVM."
+    created_at: '2026-03-09T09:08:58Z'
+    pushed_at: '2026-08-26T22:19:14Z'
+    description: >-
+      AI-native ontology engine: a Rust MCP server with tools for building, validating, querying, and reasoning over
+      RDF/OWL ontologies. In-memory Oxigraph triple store, native OWL2-DL tableaux reasoner, SHACL validation, SPARQL,
+      versioning. Single binary, no JVM.
     homepage: https://gov.tesseract.academy/research
     topics:
       - ai-native
@@ -51,14 +58,20 @@ metadata:
       - shacl
       - sparql
       - triplestore
-    last_checked_at: "2026-08-27T09:23:27.493Z"
+    last_checked_at: '2026-08-27T09:23:27.493Z'
     readme:
-      fetched_at: "2026-08-27T09:23:27.493Z"
+      fetched_at: '2026-08-27T09:23:27.493Z'
       bytes: 61278
 insights:
-  summary: A Rust-based MCP server and desktop Studio for building, validating, and reasoning over RDF/OWL ontologies using an in-memory triple store.
-  why_it_matters: It provides LLMs with structured, verifiable reasoning capabilities over complex knowledge graphs without requiring a heavy JVM setup.
-  mental_damage: Because nothing says 'odern dev workflow' quite like debugging semantic reasoning errors in a terminal-integrated ontology engine.
+  summary: >-
+    A Rust-based MCP server and desktop Studio for building, validating, and reasoning over RDF/OWL ontologies using an
+    in-memory triple store.
+  why_it_matters: >-
+    It provides LLMs with structured, verifiable reasoning capabilities over complex knowledge graphs without requiring
+    a heavy JVM setup.
+  mental_damage: >-
+    Because nothing says 'odern dev workflow' quite like debugging semantic reasoning errors in a terminal-integrated
+    ontology engine.
   tags:
     - mcp
     - rust
@@ -75,24 +88,24 @@ curation:
     - Core value is providing ontology reasoning (OWL2-DL, SPARQL) as an MCP capability
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  section: Middleware & Generic
 lifecycle:
   status: promotion_candidate
   reason: Stars (163) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:27.493Z"
+    updated_at: '2026-08-27T09:23:27.493Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:54:47.096Z"
+    updated_at: '2026-07-21T15:54:47.096Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -105,7 +118,9 @@ processing:
       input_hash: sha256:97bbf3841b58a51493377f1151d429b02ded83b98f7204b191c8c3f80a88d57a
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's primary identity is a specialized MCP server designed to provide semantic reasoning tools to AI hosts.
+      decision_reason: >-
+        The project's primary identity is a specialized MCP server designed to provide semantic reasoning tools to AI
+        hosts.
       decision_evidence:
         - Repo description explicitly identifies as a 'Rust MCP server'
         - README highlights 43 tools exposed via MCP for Claude, Cursor, and Windsurf
@@ -113,6 +128,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is fundamentally an MCP server implementation rather than a UI/workflow wrapper for an existing editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is fundamentally an MCP server implementation rather than
+        a UI/workflow wrapper for an existing editor.
       review_reason: null
       review_resume_lifecycle: null

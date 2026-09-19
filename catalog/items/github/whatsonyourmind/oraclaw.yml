@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__whatsonyourmind__oraclaw__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🧮 <a name="data-science-tools"></a>Data Science Tools
         anchor_text: Whatsonyourmind/oraclaw
         extracted_url: https://github.com/whatsonyourmind/oraclaw
-        surrounding_text: "- [Whatsonyourmind/oraclaw](https://github.com/Whatsonyourmind/oraclaw) [![Whatsonyourmind/oraclaw MCP server](https://glama.ai/mcp/servers/Whatsonyourmind/oraclaw/badges/score.svg)](https://glama.ai/mcp/servers/Whatsonyourmind/oraclaw) 📇 ☁️ 🏠 🍎 🪟 🐧 - Decision intelligence MCP server with 19 algorithms (bandits, Monte Carlo, constraint optimization, forecasting, anomaly detection, risk analysis, graph algorithms), 12 MCP tools. Install via `npx -y @oraclaw/mcp-server`."
+        surrounding_text: >-
+          - [Whatsonyourmind/oraclaw](https://github.com/Whatsonyourmind/oraclaw) [![Whatsonyourmind/oraclaw MCP
+          server](https://glama.ai/mcp/servers/Whatsonyourmind/oraclaw/badges/score.svg)](https://glama.ai/mcp/servers/Whatsonyourmind/oraclaw)
+          📇 ☁️ 🏠 🍎 🪟 🐧 - Decision intelligence MCP server with 19 algorithms (bandits, Monte Carlo, constraint
+          optimization, forecasting, anomaly detection, risk analysis, graph algorithms), 12 MCP tools. Install via `npx
+          -y @oraclaw/mcp-server`.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: Whatsonyourmind/oraclaw
     html_url: https://github.com/Whatsonyourmind/oraclaw
-    created_at: "2026-03-25T01:02:22Z"
-    pushed_at: "2026-06-24T07:51:19Z"
-    description: Deterministic decision-intelligence MCP server for AI agents — 17 tools (bandits/LinUCB, HiGHS LP/MIP, PageRank, Monte Carlo, CMA-ES, conformal). Sub-25ms. Zero LLM cost. 11 free, no key. Listed on the MCP Registry & Glama.
+    created_at: '2026-03-25T01:02:22Z'
+    pushed_at: '2026-06-24T07:51:19Z'
+    description: >-
+      Deterministic decision-intelligence MCP server for AI agents — 17 tools (bandits/LinUCB, HiGHS LP/MIP, PageRank,
+      Monte Carlo, CMA-ES, conformal). Sub-25ms. Zero LLM cost. 11 free, no key. Listed on the MCP Registry & Glama.
     homepage: https://web-olive-one-89.vercel.app
     topics:
       - agent-tools
@@ -55,14 +62,20 @@ metadata:
       - optimization
       - pagerank
       - typescript
-    last_checked_at: "2026-07-21T15:21:12.506Z"
+    last_checked_at: '2026-07-21T15:21:12.506Z'
     readme:
-      fetched_at: "2026-07-21T15:21:12.506Z"
+      fetched_at: '2026-07-21T15:21:12.506Z'
       bytes: 11837
 insights:
-  summary: Deterministic decision-intelligence MCP server providing 17 tools and 21 algorithms (bandits, LP/MIP, Monte Carlo, etc.) with sub-25ms latency and zero LLM cost for AI agents.
-  why_it_matters: Gives AI agents access to mathematically correct optimization and simulation without token cost or hallucination, enabling reliable decision-making in agent workflows.
-  mental_damage: Finally, an agent that can do math without lying—now we just have to trust it not to over-optimize our lives into a local minimum.
+  summary: >-
+    Deterministic decision-intelligence MCP server providing 17 tools and 21 algorithms (bandits, LP/MIP, Monte Carlo,
+    etc.) with sub-25ms latency and zero LLM cost for AI agents.
+  why_it_matters: >-
+    Gives AI agents access to mathematically correct optimization and simulation without token cost or hallucination,
+    enabling reliable decision-making in agent workflows.
+  mental_damage: >-
+    Finally, an agent that can do math without lying—now we just have to trust it not to over-optimize our lives into a
+    local minimum.
   tags:
     - mcp
     - optimization
@@ -72,31 +85,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: OraClaw is an MCP server first and foremost, exposing deterministic algorithms as MCP tools; its identity is protocol infrastructure, not a coding agent, extension, or SDK.
+  reason: >-
+    OraClaw is an MCP server first and foremost, exposing deterministic algorithms as MCP tools; its identity is
+    protocol infrastructure, not a coding agent, extension, or SDK.
   evidence:
-    - "Repo description: 'Deterministic decision-intelligence MCP server for AI agents — 17 tools, 21 algorithms'"
-    - "README: 'MCP Optimization Tools for AI Agents' and shows MCP server setup in claude_desktop_config.json"
-    - "Source-list: listed in awesome-mcp-servers under Data Science Tools"
+    - 'Repo description: ''Deterministic decision-intelligence MCP server for AI agents — 17 tools, 21 algorithms'''
+    - 'README: ''MCP Optimization Tools for AI Agents'' and shows MCP server setup in claude_desktop_config.json'
+    - 'Source-list: listed in awesome-mcp-servers under Data Science Tools'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.655Z"
+    updated_at: '2026-05-06T22:12:15.655Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:12.506Z"
+    updated_at: '2026-07-21T15:21:12.506Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:33:50.299Z"
+    updated_at: '2026-05-12T15:33:50.299Z'
     cause: null
     next_retry_at: null
     attempts: 1

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__floomai__floom__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -19,7 +19,9 @@ provenance:
           - Frameworks
         anchor_text: Floom
         extracted_url: https://github.com/floomai/floom
-        surrounding_text: "- Vendor-agnostic architecture- [Floom](https://github.com/FloomAI/Floom) - AI gateway and agent/pipeline marketplace"
+        surrounding_text: >-
+          - Vendor-agnostic architecture- [Floom](https://github.com/FloomAI/Floom) - AI gateway and agent/pipeline
+          marketplace
         confidence: high
 metadata:
   github:
@@ -29,9 +31,11 @@ metadata:
     archived: false
     full_name: FloomAI/Floom
     html_url: https://github.com/FloomAI/Floom
-    created_at: "2024-01-09T08:46:35Z"
-    pushed_at: "2024-11-17T14:52:35Z"
-    description: 🌊 Floom, "The K8s for AI", orchestrates & executes Generative AI pipelines, Empowering Developers and DevOps to focus on what matters.
+    created_at: '2024-01-09T08:46:35Z'
+    pushed_at: '2024-11-17T14:52:35Z'
+    description: >-
+      🌊 Floom, "The K8s for AI", orchestrates & executes Generative AI pipelines, Empowering Developers and DevOps to
+      focus on what matters.
     homepage: https://floom.ai
     topics:
       - ai
@@ -39,13 +43,15 @@ metadata:
       - genai
       - generative-ai
       - llm
-    last_checked_at: "2026-09-03T05:16:41.570Z"
+    last_checked_at: '2026-09-03T05:16:41.570Z'
     readme:
-      fetched_at: "2026-09-03T05:16:41.570Z"
+      fetched_at: '2026-09-03T05:16:41.570Z'
       bytes: 1854
 insights:
   summary: An orchestration platform designed to execute and manage generative AI pipelines.
-  why_it_matters: It provides a structured way to build complex AI workflows with built-in caching, cost management, and safety guardrails.
+  why_it_matters: >-
+    It provides a structured way to build complex AI workflows with built-in caching, cost management, and safety
+    guardrails.
   mental_damage: Nothing says 'table production environment' quite like calling an AI pipeline the 'K8s for AI'.
   tags:
     - orchestration
@@ -55,31 +61,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It functions as a control plane/runtime for coordinating complex AI workflows and pipelines rather than a code-first library.
+  reason: >-
+    It functions as a control plane/runtime for coordinating complex AI workflows and pipelines rather than a code-first
+    library.
   evidence:
     - README describes it as an orchestration and execution engine for GenAI pipelines
     - Offers managed features like caching, failover, and security guardrails
     - Provides SDKs across multiple languages for integration into broader systems
 placement:
-  primary_category: agent-orchestration
-  section: Multi-Agent Runtime Platforms
+  primary_category: ai-frameworks
+  secondary_categories: []
+  section: Workflow & Graph Engines
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.614Z"
+    updated_at: '2026-05-06T22:12:15.614Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:41.570Z"
+    updated_at: '2026-09-03T05:16:41.570Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:57:07.053Z"
+    updated_at: '2026-07-21T15:57:07.053Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -92,7 +101,9 @@ processing:
       input_hash: sha256:04e1c759a96bdbd55c1d21a610d5faa77541af3920c78cf6d49892355c4e8d1c
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: It functions as a control plane/runtime for coordinating complex AI workflows and pipelines rather than a code-first library.
+      decision_reason: >-
+        It functions as a control plane/runtime for coordinating complex AI workflows and pipelines rather than a
+        code-first library.
       decision_evidence:
         - README describes it as an orchestration and execution engine for GenAI pipelines
         - Offers managed features like caching, failover, and security guardrails
@@ -100,6 +111,8 @@ processing:
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product identity is centered on the execution and orchestration of pipelines/workflows rather than being just a code-first SDK for developers to import.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because the product identity is centered on the execution and
+        orchestration of pipelines/workflows rather than being just a code-first SDK for developers to import.
       review_reason: null
       review_resume_lifecycle: null

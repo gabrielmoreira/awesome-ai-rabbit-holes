@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__antoniotf5__soul-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: AntonioTF5/soul-mcp-server
         extracted_url: https://github.com/antoniotf5/soul-mcp-server
-        surrounding_text: "- [AntonioTF5/soul-mcp-server](https://github.com/AntonioTF5/soul-mcp-server) [![soul-mcp-server MCP server](https://glama.ai/mcp/servers/AntonioTF5/soul-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/AntonioTF5/soul-mcp-server) 📇 🏠 🍎 🪟 🐧 - Validate and generate SOUL.md agent identity files from Claude Desktop. SOUL.md is the open format for persistent AI agent identity — personality, voice, values, and behavioral constraints in a machine-readable YAML file."
+        surrounding_text: >-
+          - [AntonioTF5/soul-mcp-server](https://github.com/AntonioTF5/soul-mcp-server) [![soul-mcp-server MCP
+          server](https://glama.ai/mcp/servers/AntonioTF5/soul-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/AntonioTF5/soul-mcp-server)
+          📇 🏠 🍎 🪟 🐧 - Validate and generate SOUL.md agent identity files from Claude Desktop. SOUL.md is the open
+          format for persistent AI agent identity — personality, voice, values, and behavioral constraints in a
+          machine-readable YAML file.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: AntonioTF5/soul-mcp-server
     html_url: https://github.com/AntonioTF5/soul-mcp-server
-    created_at: "2026-04-14T14:09:48Z"
-    pushed_at: "2026-04-18T10:20:16Z"
+    created_at: '2026-04-14T14:09:48Z'
+    pushed_at: '2026-04-18T10:20:16Z'
     description: MCP server for SOUL.md — validate and generate soul files from Claude Desktop.
     homepage: null
     topics:
@@ -39,13 +44,17 @@ metadata:
       - mcp
       - model-context-protocol
       - soul-md
-    last_checked_at: "2026-09-10T04:12:54.839Z"
+    last_checked_at: '2026-09-10T04:12:54.839Z'
     readme:
-      fetched_at: "2026-09-10T04:12:54.838Z"
+      fetched_at: '2026-09-10T04:12:54.838Z'
       bytes: 2223
 insights:
-  summary: MCP server for validating, generating, and scoring SOUL.md agent specification files from Claude Desktop or any MCP-compatible client.
-  why_it_matters: It enables developers to manage SOUL.md agent definitions directly within their existing MCP workflows, ensuring consistency and validation without leaving their coding environment.
+  summary: >-
+    MCP server for validating, generating, and scoring SOUL.md agent specification files from Claude Desktop or any
+    MCP-compatible client.
+  why_it_matters: >-
+    It enables developers to manage SOUL.md agent definitions directly within their existing MCP workflows, ensuring
+    consistency and validation without leaving their coding environment.
   mental_damage: Now you can validate your agent's soul without selling yours to the tooling ecosystem.
   tags:
     - mcp
@@ -56,33 +65,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-first server whose primary identity is providing SOUL.md validation/generation tools via MCP, fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is an MCP-first server whose primary identity is providing SOUL.md validation/generation tools via MCP, fitting
+    the MCP Servers & Tooling category.
   evidence:
     - Repo description explicitly identifies it as an MCP server for SOUL.md
     - README details MCP server setup and tools for SOUL.md validation/generation/scoring
     - Topics include 'mcp' and 'model-context-protocol'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.602Z"
+    updated_at: '2026-05-06T22:12:15.602Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-17T04:13:45.344Z"
+    updated_at: '2026-09-17T04:13:45.344Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for antoniotf5/soul-mcp-server
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:23:21.933Z"
+    updated_at: '2026-07-21T15:23:21.933Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -95,7 +107,9 @@ processing:
       input_hash: sha256:61617cad57d6380a792b4f99ecae5491790953c132d510173705a35f03cfbfbe
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is an MCP-first server whose primary identity is providing SOUL.md validation/generation tools via MCP, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is an MCP-first server whose primary identity is providing SOUL.md validation/generation tools via MCP,
+        fitting the MCP Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server for SOUL.md
         - README details MCP server setup and tools for SOUL.md validation/generation/scoring
@@ -103,6 +117,8 @@ processing:
       category_candidates:
         - mcp
         - spec-driven-development
-      contrastive_reason: Choose mcp over spec-driven-development because the product's core identity is as an MCP server rather than a spec-first development environment.
+      contrastive_reason: >-
+        Choose mcp over spec-driven-development because the product's core identity is as an MCP server rather than a
+        spec-first development environment.
       review_reason: null
       review_resume_lifecycle: null

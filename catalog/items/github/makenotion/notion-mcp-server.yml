@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__makenotion__notion-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,7 @@ provenance:
           - Official Servers
         anchor_text: Notion
         extracted_url: https://github.com/makenotion/notion-mcp-server
-        surrounding_text: "- **[Notion](https://github.com/makenotion/notion-mcp-server)** - Notion official MCP server"
+        surrounding_text: '- **[Notion](https://github.com/makenotion/notion-mcp-server)** - Notion official MCP server'
         confidence: high
 metadata:
   github:
@@ -29,19 +29,23 @@ metadata:
     archived: false
     full_name: makenotion/notion-mcp-server
     html_url: https://github.com/makenotion/notion-mcp-server
-    created_at: "2025-03-10T18:09:08Z"
-    pushed_at: "2026-07-25T16:20:03Z"
+    created_at: '2025-03-10T18:09:08Z'
+    pushed_at: '2026-07-25T16:20:03Z'
     description: Official Notion MCP Server
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-08-03T05:16:54.942Z"
+    last_checked_at: '2026-08-03T05:16:54.942Z'
     readme:
-      fetched_at: "2026-08-03T05:16:54.942Z"
+      fetched_at: '2026-08-03T05:16:54.942Z'
       bytes: 16267
 insights:
   summary: Official Notion MCP Server implementing the Model Context Protocol for the Notion API.
-  why_it_matters: It lets AI agents read and edit Notion pages and databases through standardized MCP tooling, reducing friction for developers who-parse Notion data.
-  mental_damage: Finally, a way to make your AI assistant moderately good at pretending it understands your Notion wiki, while you pretend you don’t need to read it yourself.
+  why_it_matters: >-
+    It lets AI agents read and edit Notion pages and databases through standardized MCP tooling, reducing friction for
+    developers who-parse Notion data.
+  mental_damage: >-
+    Finally, a way to make your AI assistant moderately good at pretending it understands your Notion wiki, while you
+    pretend you don’t need to read it yourself.
   tags:
     - notion
     - mcp
@@ -50,31 +54,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core identity is providing Model Context Protocol access to Notion, making it MCP infrastructure rather than a coding assistant or extension.
+  reason: >-
+    The product is an MCP server whose core identity is providing Model Context Protocol access to Notion, making it MCP
+    infrastructure rather than a coding assistant or extension.
   evidence:
-    - "Repo description: 'Official Notion MCP Server'"
-    - "README: 'This project implements an MCP server for the Notion API'"
-    - "Source-list context: Listed in awesome-mcp-servers under Official Servers"
+    - 'Repo description: ''Official Notion MCP Server'''
+    - 'README: ''This project implements an MCP server for the Notion API'''
+    - 'Source-list context: Listed in awesome-mcp-servers under Official Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: promotion_candidate
   reason: Stars (4302) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.628Z"
+    updated_at: '2026-05-06T22:12:15.628Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:54.942Z"
+    updated_at: '2026-08-03T05:16:54.942Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:18:08.706Z"
+    updated_at: '2026-07-21T16:18:08.706Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,14 +94,18 @@ processing:
       input_hash: sha256:a179e71f3180b7ede2a9819d7440199152c5f5c2f3e47b1199a080f512c40089
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server whose core identity is providing Model Context Protocol access to Notion, making it MCP infrastructure rather than a coding assistant or extension.
+      decision_reason: >-
+        The product is an MCP server whose core identity is providing Model Context Protocol access to Notion, making it
+        MCP infrastructure rather than a coding assistant or extension.
       decision_evidence:
-        - "Repo description: 'Official Notion MCP Server'"
-        - "README: 'This project implements an MCP server for the Notion API'"
-        - "Source-list context: Listed in awesome-mcp-servers under Official Servers"
+        - 'Repo description: ''Official Notion MCP Server'''
+        - 'README: ''This project implements an MCP server for the Notion API'''
+        - 'Source-list context: Listed in awesome-mcp-servers under Official Servers'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an extension that augments another assistant with Notion access.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an extension that augments
+        another assistant with Notion access.
       review_reason: null
       review_resume_lifecycle: null

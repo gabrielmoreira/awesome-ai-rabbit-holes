@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__deep-diver__llm-as-chatbot__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -19,10 +19,10 @@ provenance:
           - Inference UI
         anchor_text: LLM as a Chatbot Service
         extracted_url: https://github.com/deep-diver/llm-as-chatbot
-        surrounding_text: "- [LLM as a Chatbot Service](https://github.com/deep-diver/LLM-As-Chatbot) - LLM as a Chatbot Service."
+        surrounding_text: '- [LLM as a Chatbot Service](https://github.com/deep-diver/LLM-As-Chatbot) - LLM as a Chatbot Service.'
         confidence: high
     - id: discovery__github__deep-diver__llm-as-chatbot__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -35,7 +35,10 @@ provenance:
           - Large Model Serving
         anchor_text: Alpaca-LoRA-Serve
         extracted_url: https://github.com/deep-diver/alpaca-lora-serve
-        surrounding_text: "| [Alpaca-LoRA-Serve](https://github.com/deep-diver/Alpaca-LoRA-Serve)                  | Alpaca-LoRA as Chatbot service                                                                                  | ![GitHub Badge](https://img.shields.io/github/stars/deep-diver/Alpaca-LoRA-Serve.svg?style=flat-square)          |"
+        surrounding_text: >-
+          | [Alpaca-LoRA-Serve](https://github.com/deep-diver/Alpaca-LoRA-Serve)                  | Alpaca-LoRA as
+          Chatbot service                                                                                  | ![GitHub
+          Badge](https://img.shields.io/github/stars/deep-diver/Alpaca-LoRA-Serve.svg?style=flat-square)          |
         confidence: high
 metadata:
   github:
@@ -45,18 +48,20 @@ metadata:
     archived: false
     full_name: deep-diver/LLM-As-Chatbot
     html_url: https://github.com/deep-diver/LLM-As-Chatbot
-    created_at: "2023-02-27T15:32:16Z"
-    pushed_at: "2023-11-20T14:33:58Z"
+    created_at: '2023-02-27T15:32:16Z'
+    pushed_at: '2023-11-20T14:33:58Z'
     description: LLM as a Chatbot Service
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-09-14T04:13:37.890Z"
+    last_checked_at: '2026-09-14T04:13:37.890Z'
     readme:
-      fetched_at: "2026-09-14T04:13:37.890Z"
+      fetched_at: '2026-09-14T04:13:37.890Z'
       bytes: 17103
 insights:
   summary: A service framework for running open-source instruction-following LLMs as chatbots via Gradio or Discord.
-  why_it_matters: Lets developers quickly spin up interactive chatbot UIs for any supported open-source LLM without building the serving layer from scratch.
+  why_it_matters: >-
+    Lets developers quickly spin up interactive chatbot UIs for any supported open-source LLM without building the
+    serving layer from scratch.
   mental_damage: Because nothing says 'production-ready' like a Gradio app with a Serper API key taped to the side.
   tags:
     - llm-serving
@@ -66,31 +71,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Core identity is a local serving layer for LLMs with UI/interface options, fitting Local AI's scope of self-hosted execution and developer tooling.
+  reason: >-
+    Core identity is a local serving layer for LLMs with UI/interface options, fitting Local AI's scope of self-hosted
+    execution and developer tooling.
   evidence:
-    - "Repo description: 'LLM as a Chatbot Service'"
+    - 'Repo description: ''LLM as a Chatbot Service'''
     - README emphasizes running open-source LLMs as chatbots via Gradio/Discord
     - Listed in awesome-local-ai under 'Inference UI' and Awesome-LLMOps under 'Serving > Large Model Serving'
 placement:
   primary_category: local-ai
-  section: Local Serving / APIs
+  secondary_categories: []
+  section: Desktop Chat & UIs
 lifecycle:
   status: promotion_candidate
   reason: Stars (3325) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.584Z"
+    updated_at: '2026-05-06T22:12:15.584Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:37.890Z"
+    updated_at: '2026-09-14T04:13:37.890Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:50:19.616Z"
+    updated_at: '2026-07-21T15:50:19.616Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -103,14 +111,18 @@ processing:
       input_hash: sha256:b8ffe18071cd0647e5766b1f6369d7ebbb04f5dc36f14e32b75f893c8d04d039
       proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: Core identity is a local serving layer for LLMs with UI/interface options, fitting Local AI's scope of self-hosted execution and developer tooling.
+      decision_reason: >-
+        Core identity is a local serving layer for LLMs with UI/interface options, fitting Local AI's scope of
+        self-hosted execution and developer tooling.
       decision_evidence:
-        - "Repo description: 'LLM as a Chatbot Service'"
+        - 'Repo description: ''LLM as a Chatbot Service'''
         - README emphasizes running open-source LLMs as chatbots via Gradio/Discord
         - Listed in awesome-local-ai under 'Inference UI' and Awesome-LLMOps under 'Serving > Large Model Serving'
       category_candidates:
         - local-ai
         - ai-frameworks
-      contrastive_reason: Choose local-ai over ai-frameworks because the primary value is the self-hosted serving layer and UI, not a code-first SDK for embedding models.
+      contrastive_reason: >-
+        Choose local-ai over ai-frameworks because the primary value is the self-hosted serving layer and UI, not a
+        code-first SDK for embedding models.
       review_reason: null
       review_resume_lifecycle: null

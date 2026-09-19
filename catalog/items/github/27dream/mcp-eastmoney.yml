@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__27dream__mcp-eastmoney__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-22T05:53:30.454Z"
+      discovered_at: '2026-06-22T05:53:30.454Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: 27dream/mcp-eastmoney
         extracted_url: https://github.com/27dream/mcp-eastmoney
-        surrounding_text: "- [27dream/mcp-eastmoney](https://github.com/27dream/mcp-eastmoney) [![27dream/mcp-eastmoney MCP server](https://glama.ai/mcp/servers/27dream/mcp-eastmoney/badges/score.svg)](https://glama.ai/mcp/servers/27dream/mcp-eastmoney) 🐍 ☁️ 🏠 🍎 🪟 🐧 - China A-share stock market MCP server — real-time quotes, main capital flow ranking, sector fund flow, and historical K-lines via Eastmoney's free APIs. Zero config, no API keys required. 5 tools: `get_stock_quote`, `search_stock`, `main_fund_rank`, `sector_fund_flow`, `get_kline`. Install: `uvx mcp-eastmoney` or `pip install mcp-eastmoney`."
+        surrounding_text: >-
+          - [27dream/mcp-eastmoney](https://github.com/27dream/mcp-eastmoney) [![27dream/mcp-eastmoney MCP
+          server](https://glama.ai/mcp/servers/27dream/mcp-eastmoney/badges/score.svg)](https://glama.ai/mcp/servers/27dream/mcp-eastmoney)
+          🐍 ☁️ 🏠 🍎 🪟 🐧 - China A-share stock market MCP server — real-time quotes, main capital flow ranking,
+          sector fund flow, and historical K-lines via Eastmoney's free APIs. Zero config, no API keys required. 5
+          tools: `get_stock_quote`, `search_stock`, `main_fund_rank`, `sector_fund_flow`, `get_kline`. Install: `uvx
+          mcp-eastmoney` or `pip install mcp-eastmoney`.
         confidence: high
 metadata:
   github:
@@ -30,8 +36,8 @@ metadata:
     archived: false
     full_name: 27dream/mcp-eastmoney
     html_url: https://github.com/27dream/mcp-eastmoney
-    created_at: "2026-06-13T09:54:17Z"
-    pushed_at: "2026-06-19T07:56:27Z"
+    created_at: '2026-06-13T09:54:17Z'
+    pushed_at: '2026-06-19T07:56:27Z'
     description: 📈 东方财富MCP服务器 | A股实时行情+主力资金+板块数据+K线 | Claude Code/Cursor通用
     homepage: https://github.com/27dream/mcp-eastmoney
     topics:
@@ -43,13 +49,15 @@ metadata:
       - finance
       - mcp
       - model-context-protocol
-    last_checked_at: "2026-09-17T04:13:25.888Z"
+    last_checked_at: '2026-09-17T04:13:25.888Z'
     readme:
-      fetched_at: "2026-09-17T04:13:25.888Z"
+      fetched_at: '2026-09-17T04:13:25.888Z'
       bytes: 5951
 insights:
   summary: An MCP server that provides Claude and Cursor with real-time A-share stock market data from Eastmoney.
-  why_it_matters: It allows developers to integrate financial data into their AI coding assistants without needing to manage API keys or write custom scrapers for the A-share market.
+  why_it_matters: >-
+    It allows developers to integrate financial data into their AI coding assistants without needing to manage API keys
+    or write custom scrapers for the A-share market.
   mental_damage: Now your AI agent can hallucinate your portfolio's losses in real-time with 15-minute delayed accuracy.
   tags:
     - mcp
@@ -59,31 +67,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is explicitly defined as an MCP server providing a specific domain of data (finance) to compatible AI clients.
+  reason: >-
+    The product identity is explicitly defined as an MCP server providing a specific domain of data (finance) to
+    compatible AI clients.
   evidence:
     - Repo description explicitly states 'MCP server' for stock market data
     - README lists compatibility with Claude Desktop and Cursor via standard MCP config
     - Core functionality is providing 5 specific MCP tools for stock quotes, search, and capital flow
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-22T05:53:30.455Z"
+    updated_at: '2026-06-22T05:53:30.455Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:25.888Z"
+    updated_at: '2026-09-17T04:13:25.888Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-22T05:56:09.123Z"
+    updated_at: '2026-06-22T05:56:09.123Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

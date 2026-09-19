@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mailgun__mailgun-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,7 @@ provenance:
           - Official Servers
         anchor_text: Mailgun
         extracted_url: https://github.com/mailgun/mailgun-mcp-server
-        surrounding_text: "- **[Mailgun](https://github.com/mailgun/mailgun-mcp-server)** - Interact with Mailgun API."
+        surrounding_text: '- **[Mailgun](https://github.com/mailgun/mailgun-mcp-server)** - Interact with Mailgun API.'
         confidence: high
 metadata:
   github:
@@ -29,19 +29,23 @@ metadata:
     archived: false
     full_name: mailgun/mailgun-mcp-server
     html_url: https://github.com/mailgun/mailgun-mcp-server
-    created_at: "2025-03-17T19:36:31Z"
-    pushed_at: "2026-07-24T16:31:37Z"
+    created_at: '2025-03-17T19:36:31Z'
+    pushed_at: '2026-07-24T16:31:37Z'
     description: Implementation of Model Context Protocol server for Mailgun APIs
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:16:54.691Z"
+    last_checked_at: '2026-08-03T05:16:54.691Z'
     readme:
-      fetched_at: "2026-08-03T05:16:54.691Z"
+      fetched_at: '2026-08-03T05:16:54.691Z'
       bytes: 15698
 insights:
   summary: An MCP server that exposes Mailgun email API capabilities to AI agents via the Model Context Protocol.
-  why_it_matters: Lets AI agents send emails, check deliverability, and manage Mailgun resources through natural language prompts in MCP-compatible clients.
-  mental_damage: Yet another MCP server adding to the growing pile of protocol-specific adapters developers must install and configure to get AI to do basic email tasks.
+  why_it_matters: >-
+    Lets AI agents send emails, check deliverability, and manage Mailgun resources through natural language prompts in
+    MCP-compatible clients.
+  mental_damage: >-
+    Yet another MCP server adding to the growing pile of protocol-specific adapters developers must install and
+    configure to get AI to do basic email tasks.
   tags:
     - mcp
     - email
@@ -50,31 +54,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server providing domain-specific tooling for Mailgun APIs, making MCP the core identity rather than a compatibility layer.
+  reason: >-
+    The product is an MCP server providing domain-specific tooling for Mailgun APIs, making MCP the core identity rather
+    than a compatibility layer.
   evidence:
-    - "Repo description: 'Implementation of Model Context Protocol server for Mailgun APIs'"
-    - "README: Explicitly positions itself as an MCP server with capabilities like sending email, managing domains, and querying analytics via MCP tools"
-    - "Source-list context: Listed in 'awesome-mcp-servers' under 'Official Servers' section"
+    - 'Repo description: ''Implementation of Model Context Protocol server for Mailgun APIs'''
+    - >-
+      README: Explicitly positions itself as an MCP server with capabilities like sending email, managing domains, and
+      querying analytics via MCP tools
+    - 'Source-list context: Listed in ''awesome-mcp-servers'' under ''Official Servers'' section'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.628Z"
+    updated_at: '2026-05-06T22:12:15.628Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:54.691Z"
+    updated_at: '2026-08-03T05:16:54.691Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:18:08.402Z"
+    updated_at: '2026-07-21T16:18:08.402Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,14 +96,20 @@ processing:
       input_hash: sha256:9ea66814a19b59d600020d5e243e79f512188f7fb13e37eb15ab3245b691ad54
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server providing domain-specific tooling for Mailgun APIs, making MCP the core identity rather than a compatibility layer.
+      decision_reason: >-
+        The product is an MCP server providing domain-specific tooling for Mailgun APIs, making MCP the core identity
+        rather than a compatibility layer.
       decision_evidence:
-        - "Repo description: 'Implementation of Model Context Protocol server for Mailgun APIs'"
-        - "README: Explicitly positions itself as an MCP server with capabilities like sending email, managing domains, and querying analytics via MCP tools"
-        - "Source-list context: Listed in 'awesome-mcp-servers' under 'Official Servers' section"
+        - 'Repo description: ''Implementation of Model Context Protocol server for Mailgun APIs'''
+        - >-
+          README: Explicitly positions itself as an MCP server with capabilities like sending email, managing domains,
+          and querying analytics via MCP tools
+        - 'Source-list context: Listed in ''awesome-mcp-servers'' under ''Official Servers'' section'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server infrastructure piece, not an extension that augments another assistant with host capabilities.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server infrastructure piece, not an extension
+        that augments another assistant with host capabilities.
       review_reason: null
       review_resume_lifecycle: null

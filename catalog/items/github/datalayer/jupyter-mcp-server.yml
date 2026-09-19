@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__datalayer__jupyter-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🧮 <a name="data-science-tools"></a>Data Science Tools
         anchor_text: datalayer/jupyter-mcp-server
         extracted_url: https://github.com/datalayer/jupyter-mcp-server
-        surrounding_text: "- [datalayer/jupyter-mcp-server](https://github.com/datalayer/jupyter-mcp-server) 🐍 🏠 - Model Context Protocol (MCP) Server for Jupyter."
+        surrounding_text: >-
+          - [datalayer/jupyter-mcp-server](https://github.com/datalayer/jupyter-mcp-server) 🐍 🏠 - Model Context
+          Protocol (MCP) Server for Jupyter.
         confidence: high
     - id: discovery__github__datalayer__jupyter-mcp-server__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -37,7 +39,9 @@ provenance:
           - Development & Tools
         anchor_text: jupyter-mcp-server
         extracted_url: https://github.com/datalayer/jupyter-mcp-server
-        surrounding_text: "| [jupyter-mcp-server](https://github.com/datalayer/jupyter-mcp-server) | Jupyter notebook integration | ![Stars](https://img.shields.io/github/stars/datalayer/jupyter-mcp-server) |"
+        surrounding_text: >-
+          | [jupyter-mcp-server](https://github.com/datalayer/jupyter-mcp-server) | Jupyter notebook integration |
+          ![Stars](https://img.shields.io/github/stars/datalayer/jupyter-mcp-server) |
         confidence: high
 metadata:
   github:
@@ -47,8 +51,8 @@ metadata:
     archived: false
     full_name: datalayer/jupyter-mcp-server
     html_url: https://github.com/datalayer/jupyter-mcp-server
-    created_at: "2025-02-12T06:41:35Z"
-    pushed_at: "2026-09-12T14:52:52Z"
+    created_at: '2025-02-12T06:41:35Z'
+    pushed_at: '2026-09-12T14:52:52Z'
     description: 🪐 🔧 Model Context Protocol (MCP) Server for Jupyter.
     homepage: https://jupyter-mcp-server.datalayer.tech
     topics:
@@ -57,13 +61,15 @@ metadata:
       - mcp
       - mcp-server
       - tools
-    last_checked_at: "2026-09-14T04:13:34.916Z"
+    last_checked_at: '2026-09-14T04:13:34.916Z'
     readme:
-      fetched_at: "2026-09-14T04:13:34.916Z"
+      fetched_at: '2026-09-14T04:13:34.916Z'
       bytes: 22635
 insights:
   summary: An MCP server that enables AI clients to connect and manage Jupyter Notebooks in real-time.
-  why_it_matters: Developers can integrate Jupyter notebooks directly into MCP-compatible AI workflows, enabling real-time notebook control, execution, and context-aware interactions.
+  why_it_matters: >-
+    Developers can integrate Jupyter notebooks directly into MCP-compatible AI workflows, enabling real-time notebook
+    control, execution, and context-aware interactions.
   mental_damage: Now your AI can spin up a notebook, run cells, and stare at the same kernel errors you do—progress.
   tags:
     - mcp
@@ -76,29 +82,30 @@ curation:
   status: included
   reason: The product is explicitly an MCP server for Jupyter, making MCP its primary identity and purpose.
   evidence:
-    - "Repo description: 'Model Context Protocol (MCP) Server for Jupyter'"
-    - "README: 'An MCP server developed for AI to connect and manage Jupyter Notebooks in real-time'"
+    - 'Repo description: ''Model Context Protocol (MCP) Server for Jupyter'''
+    - 'README: ''An MCP server developed for AI to connect and manage Jupyter Notebooks in real-time'''
     - Listed in awesome-mcp-servers under 'Data Science Tools'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (1072) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.584Z"
+    updated_at: '2026-05-06T22:12:15.584Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:34.916Z"
+    updated_at: '2026-09-14T04:13:34.916Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:49:53.379Z"
+    updated_at: '2026-07-21T15:49:53.379Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -113,12 +120,14 @@ processing:
       disagreement: false
       decision_reason: The product is explicitly an MCP server for Jupyter, making MCP its primary identity and purpose.
       decision_evidence:
-        - "Repo description: 'Model Context Protocol (MCP) Server for Jupyter'"
-        - "README: 'An MCP server developed for AI to connect and manage Jupyter Notebooks in real-time'"
+        - 'Repo description: ''Model Context Protocol (MCP) Server for Jupyter'''
+        - 'README: ''An MCP server developed for AI to connect and manage Jupyter Notebooks in real-time'''
         - Listed in awesome-mcp-servers under 'Data Science Tools'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

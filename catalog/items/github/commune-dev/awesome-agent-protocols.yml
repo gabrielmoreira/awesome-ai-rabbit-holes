@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__commune-dev__awesome-agent-protocols__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -19,7 +19,9 @@ provenance:
           - Related Awesome Lists
         anchor_text: awesome-agent-protocols
         extracted_url: https://github.com/shanjai-raj/awesome-agent-protocols
-        surrounding_text: "- [awesome-agent-protocols](https://github.com/shanjai-raj/awesome-agent-protocols) - Agent communication protocols"
+        surrounding_text: >-
+          - [awesome-agent-protocols](https://github.com/shanjai-raj/awesome-agent-protocols) - Agent communication
+          protocols
         confidence: high
 metadata:
   github:
@@ -29,9 +31,11 @@ metadata:
     archived: false
     full_name: commune-dev/awesome-agent-protocols
     html_url: https://github.com/commune-dev/awesome-agent-protocols
-    created_at: "2026-02-28T10:48:25Z"
-    pushed_at: "2026-06-26T09:33:16Z"
-    description: Curated list of protocols for AI agent communication — email, SMS, MCP, webhooks, inter-agent messaging, message queues, notification routing.
+    created_at: '2026-02-28T10:48:25Z'
+    pushed_at: '2026-06-26T09:33:16Z'
+    description: >-
+      Curated list of protocols for AI agent communication — email, SMS, MCP, webhooks, inter-agent messaging, message
+      queues, notification routing.
     homepage: null
     topics:
       - agent-tools
@@ -54,13 +58,17 @@ metadata:
       - protocols
       - sms
       - webhooks
-    last_checked_at: "2026-09-14T04:13:27.785Z"
+    last_checked_at: '2026-09-14T04:13:27.785Z'
     readme:
-      fetched_at: "2026-09-14T04:13:27.785Z"
+      fetched_at: '2026-09-14T04:13:27.785Z'
       bytes: 14976
 insights:
-  summary: Curated list of protocols for AI agent communication, including email, SMS, MCP, webhooks, inter-agent messaging, message queues, and notification routing.
-  why_it_matters: Developers building multi-agent systems can use this as a starting map for choosing communication standards and tooling.
+  summary: >-
+    Curated list of protocols for AI agent communication, including email, SMS, MCP, webhooks, inter-agent messaging,
+    message queues, and notification routing.
+  why_it_matters: >-
+    Developers building multi-agent systems can use this as a starting map for choosing communication standards and
+    tooling.
   mental_damage: Because nothing says 'production-ready' like a list that includes both SMTP and the A2A Protocol in the same breath.
   tags:
     - awesome-list
@@ -70,32 +78,31 @@ insights:
     - developer-tools
   confidence: high
 curation:
-  status: included
-  reason: This is a curated directory of protocols and tools for agent communication, which fits the scope of navigation aids for developers.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Repo description explicitly states it is a curated list of protocols for AI agent communication
-    - README confirms it is a curated collection with sections for email, MCP, webhooks, etc.
-    - Source-list context shows it is already included in awesome-agent-orchestration under 'Related Awesome Lists'
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:27.785Z"
+    updated_at: '2026-09-14T04:13:27.785Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:45:36.776Z"
+    updated_at: '2026-07-21T15:45:36.776Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -108,7 +115,9 @@ processing:
       input_hash: sha256:c450b65b129d33ce2b1a372544fa73986e74e326405ce0a9c2d1606ad33ce7a7
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: This is a curated directory of protocols and tools for agent communication, which fits the scope of navigation aids for developers.
+      decision_reason: >-
+        This is a curated directory of protocols and tools for agent communication, which fits the scope of navigation
+        aids for developers.
       decision_evidence:
         - Repo description explicitly states it is a curated list of protocols for AI agent communication
         - README confirms it is a curated collection with sections for email, MCP, webhooks, etc.
@@ -116,6 +125,8 @@ processing:
       category_candidates:
         - awesome-awesomes
         - agent-orchestration
-      contrastive_reason: Choose awesome-awesomes over agent-orchestration because the primary value is discovery and navigation of protocols rather than operating as a coordination platform.
+      contrastive_reason: >-
+        Choose awesome-awesomes over agent-orchestration because the primary value is discovery and navigation of
+        protocols rather than operating as a coordination platform.
       review_reason: null
       review_resume_lifecycle: null

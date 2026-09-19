@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aaif-goose__goose__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,12 @@ provenance:
           - Open Source
         anchor_text: Goose
         extracted_url: https://github.com/block/goose
-        surrounding_text: "- **[Goose](https://github.com/block/goose)** `⭐ 43.7k` — Local, extensible agent that can execute, edit, and test; designed to run on-device and integrate with MCP."
+        surrounding_text: >-
+          - **[Goose](https://github.com/block/goose)** `⭐ 43.7k` — Local, extensible agent that can execute, edit, and
+          test; designed to run on-device and integrate with MCP.
         confidence: high
     - id: discovery__github__aaif-goose__goose__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -35,7 +37,9 @@ provenance:
           - Coding Agents
         anchor_text: Codename Goose
         extracted_url: https://github.com/block/goose
-        surrounding_text: "- **[Codename Goose](https://github.com/block/goose)** – Desktop and CLI agent by Block for automating tasks using LLMs and extensions."
+        surrounding_text: >-
+          - **[Codename Goose](https://github.com/block/goose)** – Desktop and CLI agent by Block for automating tasks
+          using LLMs and extensions.
         confidence: high
 metadata:
   github:
@@ -45,23 +49,31 @@ metadata:
     archived: false
     full_name: aaif-goose/goose
     html_url: https://github.com/aaif-goose/goose
-    created_at: "2024-08-23T19:03:36Z"
-    pushed_at: "2026-09-17T03:35:13Z"
-    description: an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
+    created_at: '2024-08-23T19:03:36Z'
+    pushed_at: '2026-09-17T03:35:13Z'
+    description: >-
+      an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any
+      LLM
     homepage: https://goose-docs.ai/
     topics:
       - acp
       - ai
       - ai-agents
       - mcp
-    last_checked_at: "2026-09-17T04:13:27.516Z"
+    last_checked_at: '2026-09-17T04:13:27.516Z'
     readme:
-      fetched_at: "2026-09-17T04:13:27.516Z"
+      fetched_at: '2026-09-17T04:13:27.516Z'
       bytes: 3449
 insights:
-  summary: An open-source, extensible AI agent available as a desktop app, CLI, and API for automating workflows, code editing, and testing.
-  why_it_matters: It provides a multi-modal interface (desktop/CLI/API) that connects various LLM providers to system-level capabilities via MCP.
-  mental_damage: Now you can delegate your entire terminal session to a Rust-powered agent and wonder if you actually still know how to write a bash script.
+  summary: >-
+    An open-source, extensible AI agent available as a desktop app, CLI, and API for automating workflows, code editing,
+    and testing.
+  why_it_matters: >-
+    It provides a multi-modal interface (desktop/CLI/API) that connects various LLM providers to system-level
+    capabilities via MCP.
+  mental_damage: >-
+    Now you can delegate your entire terminal session to a Rust-powered agent and wonder if you actually still know how
+    to write a bash script.
   tags:
     - ai-agent
     - cli
@@ -71,13 +83,16 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Goose acts as a standalone, primary agent that plans, edits, and executes commands rather than just augmenting an existing editor.
+  reason: >-
+    Goose acts as a standalone, primary agent that plans, edits, and executes commands rather than just augmenting an
+    existing editor.
   evidence:
     - README describes it as a 'native open source AI agent' with a full CLI and desktop app
     - Supports 15+ providers and 70+ MCP extensions for workflow automation
     - High ecosystem traction with 51,306 stars
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -85,17 +100,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.581Z"
+    updated_at: '2026-05-06T22:12:15.581Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:27.516Z"
+    updated_at: '2026-09-17T04:13:27.516Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:52:32.822Z"
+    updated_at: '2026-07-20T15:52:32.822Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -108,7 +123,9 @@ processing:
       input_hash: sha256:7d9d7525f56de1ce36f44e1a4910d472637481a3948132c9db2259cd170e692d
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Goose acts as a standalone, primary agent that plans, edits, and executes commands rather than just augmenting an existing editor.
+      decision_reason: >-
+        Goose acts as a standalone, primary agent that plans, edits, and executes commands rather than just augmenting
+        an existing editor.
       decision_evidence:
         - README describes it as a 'native open source AI agent' with a full CLI and desktop app
         - Supports 15+ providers and 70+ MCP extensions for workflow automation
@@ -116,6 +133,8 @@ processing:
       category_candidates:
         - coding-agents
         - local-ai
-      contrastive_reason: Choose coding-agents over local-ai because its primary value proposition is autonomous task execution and code manipulation rather than just being a local inference runtime.
+      contrastive_reason: >-
+        Choose coding-agents over local-ai because its primary value proposition is autonomous task execution and code
+        manipulation rather than just being a local inference runtime.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gabrielmaialva33__winx-code-agent__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: gabrielmaialva33/winx-code-agent
         extracted_url: https://github.com/gabrielmaialva33/winx-code-agent
-        surrounding_text: "- [gabrielmaialva33/winx-code-agent](https://github.com/gabrielmaialva33/winx-code-agent) 🦀 🏠 - A high-performance Rust reimplementation of WCGW for code agents, providing shell execution and advanced file management capabilities for LLMs via MCP."
+        surrounding_text: >-
+          - [gabrielmaialva33/winx-code-agent](https://github.com/gabrielmaialva33/winx-code-agent) 🦀 🏠 - A
+          high-performance Rust reimplementation of WCGW for code agents, providing shell execution and advanced file
+          management capabilities for LLMs via MCP.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: gabrielmaialva33/winx-code-agent
     html_url: https://github.com/gabrielmaialva33/winx-code-agent
-    created_at: "2025-04-17T04:07:28Z"
-    pushed_at: "2026-08-31T19:30:22Z"
-    description: "🦀 A high-performance code agent written in Rust, combining the best features of WCGW for maximum efficiency and semantic capabilities. "
+    created_at: '2025-04-17T04:07:28Z'
+    pushed_at: '2026-08-31T19:30:22Z'
+    description: >-
+      🦀 A high-performance code agent written in Rust, combining the best features of WCGW for maximum efficiency and
+      semantic capabilities. 
     homepage: https://crates.io/crates/winx-code-agent
     topics:
       - autonomous
@@ -55,14 +60,18 @@ metadata:
       - vibe-coding
       - vibecoding
       - wcgw
-    last_checked_at: "2026-09-03T05:16:45.766Z"
+    last_checked_at: '2026-09-03T05:16:45.766Z'
     readme:
-      fetched_at: "2026-09-03T05:16:45.766Z"
+      fetched_at: '2026-09-03T05:16:45.766Z'
       bytes: 63488
 insights:
   summary: A high-performance Rust implementation of the WCGW code agent tools, delivered as an MCP server.
-  why_it_matters: It provides low-latency shell execution, file manipulation, and context management for LLM agents via the Model Context Protocol.
-  mental_damage: Because apparently, being 40x faster at running shell commands is the only way to keep up with your own terminal-based hallucinations.
+  why_it_matters: >-
+    It provides low-latency shell execution, file manipulation, and context management for LLM agents via the Model
+    Context Protocol.
+  mental_damage: >-
+    Because apparently, being 40x faster at running shell commands is the only way to keep up with your own
+    terminal-based hallucinations.
   tags:
     - rust
     - mcp
@@ -72,31 +81,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server designed to provide tools to other agents, rather than being a standalone coding assistant.
+  reason: >-
+    The project's primary identity is an MCP server designed to provide tools to other agents, rather than being a
+    standalone coding assistant.
   evidence:
     - README explicitly describes it as a 'pecialized Model Context Protocol (MCP) server'
     - Provides tools like BashCommand and FileWriteOrEdit for host agents
     - Core value proposition is performance optimization for MCP-based toolsets
 placement:
-  primary_category: mcp
-  section: Generic Servers & Middleware
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: '2026-05-06T22:12:15.615Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:45.766Z"
+    updated_at: '2026-09-03T05:16:45.766Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:00:33.066Z"
+    updated_at: '2026-07-21T16:00:33.066Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -109,7 +121,9 @@ processing:
       input_hash: sha256:48c9ceb61c1a5f2e6de62001b36d003c33a1df312ffab7e114f24d524246a8c3
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's primary identity is an MCP server designed to provide tools to other agents, rather than being a standalone coding assistant.
+      decision_reason: >-
+        The project's primary identity is an MCP server designed to provide tools to other agents, rather than being a
+        standalone coding assistant.
       decision_evidence:
         - README explicitly describes it as a 'pecialized Model Context Protocol (MCP) server'
         - Provides tools like BashCommand and FileWriteOrEdit for host agents
@@ -117,6 +131,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is explicitly built as a Model Context Protocol server meant to be integrated via MCP, rather than a host-side extension or wrapper.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is explicitly built as a Model Context Protocol server
+        meant to be integrated via MCP, rather than a host-side extension or wrapper.
       review_reason: null
       review_resume_lifecycle: null

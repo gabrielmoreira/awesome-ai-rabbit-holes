@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jamesanz__memory-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: JamesANZ/memory-mcp
         extracted_url: https://github.com/jamesanz/memory-mcp
-        surrounding_text: "- [JamesANZ/memory-mcp](https://github.com/JamesANZ/memory-mcp) 📇 🏠 - An MCP server that stores and retrieves memories from multiple LLMs using MongoDB. Provides tools for saving, retrieving, adding, and clearing conversation memories with timestamps and LLM identification."
+        surrounding_text: >-
+          - [JamesANZ/memory-mcp](https://github.com/JamesANZ/memory-mcp) 📇 🏠 - An MCP server that stores and
+          retrieves memories from multiple LLMs using MongoDB. Provides tools for saving, retrieving, adding, and
+          clearing conversation memories with timestamps and LLM identification.
         confidence: high
 metadata:
   github:
@@ -30,22 +33,26 @@ metadata:
     archived: false
     full_name: JamesANZ/memory-mcp
     html_url: https://github.com/JamesANZ/memory-mcp
-    created_at: "2025-07-10T03:32:59Z"
-    pushed_at: "2025-12-10T04:24:04Z"
+    created_at: '2025-07-10T03:32:59Z'
+    pushed_at: '2025-12-10T04:24:04Z'
     description: A simple MCP server that stores and retrieves memories from multiple LLMs.
     homepage: https://glama.ai/mcp/servers/@JamesANZ/memory-mcp
     topics:
       - llm-memory
       - llms
       - mcp-server
-    last_checked_at: "2026-07-30T05:05:47.314Z"
+    last_checked_at: '2026-07-30T05:05:47.314Z'
     readme:
-      fetched_at: "2026-07-30T05:05:47.314Z"
+      fetched_at: '2026-07-30T05:05:47.314Z'
       bytes: 5905
 insights:
   summary: An MCP server that provides persistent memory and context window caching for LLM conversations, backed by MongoDB.
-  why_it_matters: It solves the problem of losing conversation context and important memories across sessions in AI coding environments like Cursor and Claude Desktop.
-  mental_damage: Now you can finally remember what you told your AI assistant last week, assuming you also remember to set up MongoDB.
+  why_it_matters: >-
+    It solves the problem of losing conversation context and important memories across sessions in AI coding
+    environments like Cursor and Claude Desktop.
+  mental_damage: >-
+    Now you can finally remember what you told your AI assistant last week, assuming you also remember to set up
+    MongoDB.
   tags:
     - mcp-server
     - memory
@@ -55,31 +62,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the product identity here, as it is explicitly an MCP server providing memory and context management capabilities.
+  reason: >-
+    MCP is the product identity here, as it is explicitly an MCP server providing memory and context management
+    capabilities.
   evidence:
     - Repo description explicitly states it is an MCP server for memory management
     - README emphasizes MCP integration with Cursor and Claude Desktop
     - Project is built using the MCP SDK and presents itself as an MCP server
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.621Z"
+    updated_at: '2026-05-06T22:12:15.621Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:47.314Z"
+    updated_at: '2026-07-30T05:05:47.314Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:09:41.603Z"
+    updated_at: '2026-07-21T16:09:41.603Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -92,7 +102,9 @@ processing:
       input_hash: sha256:2b4c830872557e5981e8208841f43cd9fccec0b7ef986924b402048e50882232
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the product identity here, as it is explicitly an MCP server providing memory and context management capabilities.
+      decision_reason: >-
+        MCP is the product identity here, as it is explicitly an MCP server providing memory and context management
+        capabilities.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for memory management
         - README emphasizes MCP integration with Cursor and Claude Desktop
@@ -100,6 +112,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product's primary identity is as an MCP server, not just a memory/context system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the product's primary identity is as an MCP server, not just a
+        memory/context system.
       review_reason: null
       review_resume_lifecycle: null

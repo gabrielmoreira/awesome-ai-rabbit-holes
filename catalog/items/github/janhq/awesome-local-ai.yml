@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__janhq__awesome-local-ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -29,18 +29,20 @@ metadata:
     archived: false
     full_name: janhq/awesome-local-ai
     html_url: https://github.com/janhq/awesome-local-ai
-    created_at: "2023-09-06T03:27:33Z"
-    pushed_at: "2024-11-13T01:06:16Z"
+    created_at: '2023-09-06T03:27:33Z'
+    pushed_at: '2024-11-13T01:06:16Z'
     description: An awesome repository of local AI tools
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:47.639Z"
+    last_checked_at: '2026-07-30T05:05:47.639Z'
     readme:
-      fetched_at: "2026-07-30T05:05:47.639Z"
+      fetched_at: '2026-07-30T05:05:47.639Z'
       bytes: 17640
 insights:
   summary: A curated collection of open-source local AI tools and solutions.
-  why_it_matters: Developers can discover and compare local inference engines, runtimes, and desktop interfaces for running LLMs on their own hardware.
+  why_it_matters: >-
+    Developers can discover and compare local inference engines, runtimes, and desktop interfaces for running LLMs on
+    their own hardware.
   mental_damage: Because nothing says 'productivity' like spending a weekend benchmarking 20 different ways to run a model locally.
   tags:
     - local-ai
@@ -50,31 +52,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a curated directory of local AI tools, fitting the 'Awesome Awesomes' category as a navigation aid for developers.
+  reason: >-
+    This is a curated directory of local AI tools, fitting the 'Awesome Awesomes' category as a navigation aid for
+    developers.
   evidence:
-    - "Repo description: 'An awesome repository of local AI tools'"
+    - 'Repo description: ''An awesome repository of local AI tools'''
     - README explicitly positions it as a 'collection of open source and/or local AI tools and solutions'
-    - "Direct awesome list source: yes"
+    - 'Direct awesome list source: yes'
 placement:
   primary_category: awesome-awesomes
-  section: Directories & Maps
+  secondary_categories: []
+  section: Awesome Lists & Directories
 lifecycle:
   status: promotion_candidate
   reason: Stars (1945) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.573Z"
+    updated_at: '2026-05-06T22:12:15.573Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:47.639Z"
+    updated_at: '2026-07-30T05:05:47.639Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:09:54.607Z"
+    updated_at: '2026-07-21T16:09:54.607Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,14 +92,18 @@ processing:
       input_hash: sha256:c53fe316f776648781e95c57ca6da5dee5658fa57b96bc50123c382fc5436287
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: This is a curated directory of local AI tools, fitting the 'Awesome Awesomes' category as a navigation aid for developers.
+      decision_reason: >-
+        This is a curated directory of local AI tools, fitting the 'Awesome Awesomes' category as a navigation aid for
+        developers.
       decision_evidence:
-        - "Repo description: 'An awesome repository of local AI tools'"
+        - 'Repo description: ''An awesome repository of local AI tools'''
         - README explicitly positions it as a 'collection of open source and/or local AI tools and solutions'
-        - "Direct awesome list source: yes"
+        - 'Direct awesome list source: yes'
       category_candidates:
         - awesome-awesomes
         - local-ai
-      contrastive_reason: Choose awesome-awesomes over local-ai because the primary value is discovery and navigation rather than being a standalone local runtime or tool.
+      contrastive_reason: >-
+        Choose awesome-awesomes over local-ai because the primary value is discovery and navigation rather than being a
+        standalone local runtime or tool.
       review_reason: null
       review_resume_lifecycle: null

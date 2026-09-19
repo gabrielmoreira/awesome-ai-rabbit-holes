@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hieuttmmo__entraid-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Community Servers
         anchor_text: Microsoft Entra ID MCP Server
         extracted_url: https://github.com/hieuttmmo/entraid-mcp-server
-        surrounding_text: "- **[Microsoft Entra ID MCP Server](https://github.com/hieuttmmo/entraid-mcp-server)** - A Python MCP server for Microsoft Entra ID (Azure AD) directory, user, group, device, sign-in, and security operations via Microsoft Graph."
+        surrounding_text: >-
+          - **[Microsoft Entra ID MCP Server](https://github.com/hieuttmmo/entraid-mcp-server)** - A Python MCP server
+          for Microsoft Entra ID (Azure AD) directory, user, group, device, sign-in, and security operations via
+          Microsoft Graph.
         confidence: high
 metadata:
   github:
@@ -29,19 +32,23 @@ metadata:
     archived: false
     full_name: hieuttmmo/entraid-mcp-server
     html_url: https://github.com/hieuttmmo/entraid-mcp-server
-    created_at: "2025-04-25T11:00:19Z"
-    pushed_at: "2025-05-02T08:59:23Z"
+    created_at: '2025-04-25T11:00:19Z'
+    pushed_at: '2025-05-02T08:59:23Z'
     description: MCP server for interacting with EntraID through Microsoft Graph API.
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:05:37.179Z"
+    last_checked_at: '2026-07-30T05:05:37.179Z'
     readme:
-      fetched_at: "2026-07-30T05:05:37.179Z"
+      fetched_at: '2026-07-30T05:05:37.179Z'
       bytes: 12858
 insights:
   summary: An MCP server that enables interaction with Microsoft EntraID (Azure AD) via the Microsoft Graph API.
-  why_it_matters: Developers can integrate EntraID user, group, MFA, and sign-in log management directly into MCP-compatible workflows or assistants.
-  mental_damage: Now your AI assistant can reset passwords and audit sign-ins, because why should humans have all the fun of being paged at 3 AM.
+  why_it_matters: >-
+    Developers can integrate EntraID user, group, MFA, and sign-in log management directly into MCP-compatible workflows
+    or assistants.
+  mental_damage: >-
+    Now your AI assistant can reset passwords and audit sign-ins, because why should humans have all the fun of being
+    paged at 3 AM.
   tags:
     - mcp
     - entra-id
@@ -51,31 +58,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server whose primary identity is providing EntraID/Graph API capabilities via MCP, fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is a dedicated MCP server whose primary identity is providing EntraID/Graph API capabilities via MCP, fitting
+    the MCP Servers & Tooling category.
   evidence:
     - Repo description explicitly states it is an MCP server for EntraID via Microsoft Graph API
     - README details a modular FastMCP server with tools for users, groups, MFA, sign-in logs, etc.
     - Already listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.618Z"
+    updated_at: '2026-05-06T22:12:15.618Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:37.179Z"
+    updated_at: '2026-07-30T05:05:37.179Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:05:34.067Z"
+    updated_at: '2026-07-21T16:05:34.067Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +98,9 @@ processing:
       input_hash: sha256:b058b7c25813ad39698ea8c0f344e3ee5b2a99138af997de1f5d537a1bc2ed44
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a dedicated MCP server whose primary identity is providing EntraID/Graph API capabilities via MCP, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        This is a dedicated MCP server whose primary identity is providing EntraID/Graph API capabilities via MCP,
+        fitting the MCP Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for EntraID via Microsoft Graph API
         - README details a modular FastMCP server with tools for users, groups, MFA, sign-in logs, etc.
@@ -96,6 +108,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server (not an extension to another assistant).
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server (not an extension to
+        another assistant).
       review_reason: null
       review_resume_lifecycle: null

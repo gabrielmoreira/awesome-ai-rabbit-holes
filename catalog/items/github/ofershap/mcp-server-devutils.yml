@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ofershap__mcp-server-devutils__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: ofershap/mcp-server-devutils
         extracted_url: https://github.com/ofershap/mcp-server-devutils
-        surrounding_text: "- [ofershap/mcp-server-devutils](https://github.com/ofershap/mcp-server-devutils) [![mcp-server-devutils MCP server](https://glama.ai/mcp/servers/ofershap/mcp-server-devutils/badges/score.svg)](https://glama.ai/mcp/servers/ofershap/mcp-server-devutils) 📇 🏠 - Zero-auth developer utilities: base64, UUID, hash, JWT decode, cron parse, timestamps, JSON, and regex."
+        surrounding_text: >-
+          - [ofershap/mcp-server-devutils](https://github.com/ofershap/mcp-server-devutils) [![mcp-server-devutils MCP
+          server](https://glama.ai/mcp/servers/ofershap/mcp-server-devutils/badges/score.svg)](https://glama.ai/mcp/servers/ofershap/mcp-server-devutils)
+          📇 🏠 - Zero-auth developer utilities: base64, UUID, hash, JWT decode, cron parse, timestamps, JSON, and
+          regex.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: ofershap/mcp-server-devutils
     html_url: https://github.com/ofershap/mcp-server-devutils
-    created_at: "2026-02-13T07:48:45Z"
-    pushed_at: "2026-03-10T09:22:48Z"
-    description: "Zero-auth MCP server with everyday developer utilities: base64, UUID, hash, JWT decode, cron, timestamps, JSON, regex"
+    created_at: '2026-02-13T07:48:45Z'
+    pushed_at: '2026-03-10T09:22:48Z'
+    description: >-
+      Zero-auth MCP server with everyday developer utilities: base64, UUID, hash, JWT decode, cron, timestamps, JSON,
+      regex
     homepage: null
     topics:
       - base64
@@ -43,14 +49,20 @@ metadata:
       - model-context-protocol
       - typescript
       - uuid
-    last_checked_at: "2026-07-20T16:42:22.792Z"
+    last_checked_at: '2026-07-20T16:42:22.792Z'
     readme:
-      fetched_at: "2026-07-20T16:42:22.792Z"
+      fetched_at: '2026-07-20T16:42:22.792Z'
       bytes: 4060
 insights:
-  summary: A zero-auth MCP server that exposes 17 common developer utilities—such as base64, UUID, JWT decode, cron, timestamps, JSON, and regex—to AI assistants like Claude, Cursor, and VS Code Copilot.
-  why_it_matters: It lets AI assistants perform deterministic, non-hallucinatable utility tasks locally without API keys, improving reliability for common encoding and formatting operations.
-  mental_damage: We have successfully abstracted running base64 on the command line into a protocol negotiation so your AI can do what `echo` has been doing since 1971.
+  summary: >-
+    A zero-auth MCP server that exposes 17 common developer utilities—such as base64, UUID, JWT decode, cron,
+    timestamps, JSON, and regex—to AI assistants like Claude, Cursor, and VS Code Copilot.
+  why_it_matters: >-
+    It lets AI assistants perform deterministic, non-hallucinatable utility tasks locally without API keys, improving
+    reliability for common encoding and formatting operations.
+  mental_damage: >-
+    We have successfully abstracted running base64 on the command line into a protocol negotiation so your AI can do
+    what `echo` has been doing since 1971.
   tags:
     - mcp
     - developer-tools
@@ -59,35 +71,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose entire identity is exposing developer utilities over the Model Context Protocol, fitting cleanly into MCP Servers & Tooling.
+  reason: >-
+    The product is an MCP server whose entire identity is exposing developer utilities over the Model Context Protocol,
+    fitting cleanly into MCP Servers & Tooling.
   evidence:
-    - "Repo description: 'Zero-auth MCP server with everyday developer utilities'"
-    - "README: 'An MCP server that gives your AI assistant 17 developer utilities' with explicit Claude/Cursor/Copilot configs"
+    - 'Repo description: ''Zero-auth MCP server with everyday developer utilities'''
+    - >-
+      README: 'An MCP server that gives your AI assistant 17 developer utilities' with explicit Claude/Cursor/Copilot
+      configs
     - Listed in awesome-mcp-servers under 'Developer Tools' section
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.633Z"
+    updated_at: '2026-05-06T22:12:15.633Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:22.792Z"
+    updated_at: '2026-07-20T16:42:22.792Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

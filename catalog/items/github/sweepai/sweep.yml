@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sweepai__sweep__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,7 +19,7 @@ provenance:
           - Code Review and Refactoring
         anchor_text: Sweep
         extracted_url: https://github.com/sweepai/sweep
-        surrounding_text: "- **[Sweep](https://github.com/sweepai/sweep)** – AI agent for automating PR reviews and fixes."
+        surrounding_text: '- **[Sweep](https://github.com/sweepai/sweep)** – AI agent for automating PR reviews and fixes.'
         confidence: high
 metadata:
   github:
@@ -29,9 +29,9 @@ metadata:
     archived: false
     full_name: sweepai/sweep
     html_url: https://github.com/sweepai/sweep
-    created_at: "2023-06-14T10:08:07Z"
-    pushed_at: "2025-09-18T06:10:59Z"
-    description: "Sweep: AI coding assistant for JetBrains"
+    created_at: '2023-06-14T10:08:07Z'
+    pushed_at: '2025-09-18T06:10:59Z'
+    description: 'Sweep: AI coding assistant for JetBrains'
     homepage: https://sweep.dev
     topics:
       - ai
@@ -43,14 +43,18 @@ metadata:
       - developer-tools
       - github-app
       - gpt-4
-    last_checked_at: "2026-07-21T15:20:37.959Z"
+    last_checked_at: '2026-07-21T15:20:37.959Z'
     readme:
-      fetched_at: "2026-07-21T15:20:37.959Z"
+      fetched_at: '2026-07-21T15:20:37.959Z'
       bytes: 245
 insights:
   summary: Sweep is an AI coding assistant plugin designed specifically for the JetBrains IDE ecosystem.
-  why_it_matters: It integrates AI-assisted coding directly into the JetBrains workflow, allowing developers to delegate repo tasks without switching editors.
-  mental_damage: Because nothing says 'streamlined workflow' like installing a specialized AI plugin to fix the fact that your 800-dollar IDE didn't already come with one built in.
+  why_it_matters: >-
+    It integrates AI-assisted coding directly into the JetBrains workflow, allowing developers to delegate repo tasks
+    without switching editors.
+  mental_damage: >-
+    Because nothing says 'streamlined workflow' like installing a specialized AI plugin to fix the fact that your
+    800-dollar IDE didn't already come with one built in.
   tags:
     - jetbrains
     - plugin
@@ -59,35 +63,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool is explicitly described as a plugin for JetBrains, making it an extension of an existing editor rather than a standalone coding agent or IDE.
+  reason: >-
+    The tool is explicitly described as a plugin for JetBrains, making it an extension of an existing editor rather than
+    a standalone coding agent or IDE.
   evidence:
-    - "Repo description states: 'Sweep: AI coding assistant for JetBrains'."
+    - 'Repo description states: ''Sweep: AI coding assistant for JetBrains''.'
     - README directs users to the JetBrains plugin marketplace page.
     - Source list awesome-ai-coding-tools classifies it under 'Code Review and Refactoring'.
 placement:
-  primary_category: ai-dev-extensions
-  section: IDE / UI / Workflow Add-ons
+  primary_category: coding-agents
+  secondary_categories: []
+  section: IDE-Native & Editor Agents
 lifecycle:
   status: promotion_candidate
   reason: Stars (7712) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.650Z"
+    updated_at: '2026-05-06T22:12:15.650Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:37.959Z"
+    updated_at: '2026-07-21T15:20:37.959Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

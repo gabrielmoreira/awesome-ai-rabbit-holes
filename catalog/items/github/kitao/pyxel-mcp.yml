@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kitao__pyxel-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: kitao/pyxel-mcp
         extracted_url: https://github.com/kitao/pyxel-mcp
-        surrounding_text: "- [kitao/pyxel-mcp](https://github.com/kitao/pyxel-mcp) [![pyxel-mcp MCP server](https://glama.ai/mcp/servers/@kitao/pyxel-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@kitao/pyxel-mcp) 🐍 🏠 - MCP server for [Pyxel](https://github.com/kitao/pyxel) retro game engine, enabling AI to run, capture screenshots, inspect sprites, and analyze audio of Pyxel games."
+        surrounding_text: >-
+          - [kitao/pyxel-mcp](https://github.com/kitao/pyxel-mcp) [![pyxel-mcp MCP
+          server](https://glama.ai/mcp/servers/@kitao/pyxel-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@kitao/pyxel-mcp)
+          🐍 🏠 - MCP server for [Pyxel](https://github.com/kitao/pyxel) retro game engine, enabling AI to run, capture
+          screenshots, inspect sprites, and analyze audio of Pyxel games.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: kitao/pyxel-mcp
     html_url: https://github.com/kitao/pyxel-mcp
-    created_at: "2026-03-01T01:50:25Z"
-    pushed_at: "2026-07-15T10:05:51Z"
+    created_at: '2026-03-01T01:50:25Z'
+    pushed_at: '2026-07-15T10:05:51Z'
     description: MCP server for AI-assisted retro game development with Pyxel
     homepage: https://github.com/kitao/pyxel
     topics:
@@ -43,13 +47,17 @@ metadata:
       - pixel-art
       - pyxel
       - retro-game
-    last_checked_at: "2026-07-30T05:05:57.218Z"
+    last_checked_at: '2026-07-30T05:05:57.218Z'
     readme:
-      fetched_at: "2026-07-30T05:05:57.218Z"
+      fetched_at: '2026-07-30T05:05:57.218Z'
       bytes: 3828
 insights:
-  summary: MCP server for AI-assisted retro game development with Pyxel, enabling autonomous execution, verification, and iteration of Pyxel game programs.
-  why_it_matters: Lets AI agents directly run, debug, and analyze Pyxel games—capturing screenshots, inspecting state, and validating scripts—without manual intervention.
+  summary: >-
+    MCP server for AI-assisted retro game development with Pyxel, enabling autonomous execution, verification, and
+    iteration of Pyxel game programs.
+  why_it_matters: >-
+    Lets AI agents directly run, debug, and analyze Pyxel games—capturing screenshots, inspecting state, and validating
+    scripts—without manual intervention.
   mental_damage: Now your AI can debug your pixel-art game loop while you question your life choices in 16 colors.
   tags:
     - mcp
@@ -60,31 +68,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server exposing Pyxel-specific tools and resources for AI agents."
+  reason: >-
+    MCP is the product identity: this is a dedicated MCP server exposing Pyxel-specific tools and resources for AI
+    agents.
   evidence:
     - Repo description explicitly states it is an MCP server for Pyxel
     - README details MCP-specific tools (run_and_capture, inspect_state, etc.) and resources (pyxel://api-reference)
     - Listed in MCP Registry (io.github.kitao/pyxel-mcp)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.624Z"
+    updated_at: '2026-05-06T22:12:15.624Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:57.218Z"
+    updated_at: '2026-07-30T05:05:57.218Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:12:41.864Z"
+    updated_at: '2026-07-21T16:12:41.864Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -97,7 +108,9 @@ processing:
       input_hash: sha256:c9563aa6992287f3c3f4fdeecfda7809fb1526fec0966e61dc4281004c2b3bf1
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing Pyxel-specific tools and resources for AI agents."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server exposing Pyxel-specific tools and resources for AI
+        agents.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Pyxel
         - README details MCP-specific tools (run_and_capture, inspect_state, etc.) and resources (pyxel://api-reference)
@@ -105,6 +118,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific capabilities, not merely an extension layer for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific
+        capabilities, not merely an extension layer for another assistant.
       review_reason: null
       review_resume_lifecycle: null

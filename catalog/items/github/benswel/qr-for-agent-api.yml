@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__benswel__qr-agent-core__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,14 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: benswel/qr-agent-core
         extracted_url: https://github.com/benswel/qr-agent-core
-        surrounding_text: "- [benswel/qr-agent-core](https://github.com/benswel/qr-agent-core) [![benswel/qr-agent-core MCP server](https://glama.ai/mcp/servers/benswel/qr-agent-core/badges/score.svg)](https://glama.ai/mcp/servers/benswel/qr-agent-core) 📇 ☁️ - Dynamic QR code service for AI agents. Create, update, track, and retarget QR codes without regenerating images. 37 tools covering 11 QR types, one-command install via `npx qr-for-agent`."
+        surrounding_text: >-
+          - [benswel/qr-agent-core](https://github.com/benswel/qr-agent-core) [![benswel/qr-agent-core MCP
+          server](https://glama.ai/mcp/servers/benswel/qr-agent-core/badges/score.svg)](https://glama.ai/mcp/servers/benswel/qr-agent-core)
+          📇 ☁️ - Dynamic QR code service for AI agents. Create, update, track, and retarget QR codes without
+          regenerating images. 37 tools covering 11 QR types, one-command install via `npx qr-for-agent`.
         confidence: high
     - id: discovery__github__benswel__qr-for-agent-api__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-11T05:37:56.129Z"
+      discovered_at: '2026-06-11T05:37:56.129Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -36,7 +40,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: benswel/qr-agent-core
         extracted_url: https://github.com/benswel/qr-agent-core
-        surrounding_text: "- [benswel/qr-agent-core](https://github.com/benswel/qr-agent-core) [![benswel/qr-agent-core MCP server](https://glama.ai/mcp/servers/benswel/qr-agent-core/badges/score.svg)](https://glama.ai/mcp/servers/benswel/qr-agent-core) 📇 ☁️ - Dynamic QR code service for AI agents. Create, update, track, and retarget QR codes without regenerating images. 37 tools covering 11 QR types, one-command install via `npx qr-for-agent`."
+        surrounding_text: >-
+          - [benswel/qr-agent-core](https://github.com/benswel/qr-agent-core) [![benswel/qr-agent-core MCP
+          server](https://glama.ai/mcp/servers/benswel/qr-agent-core/badges/score.svg)](https://glama.ai/mcp/servers/benswel/qr-agent-core)
+          📇 ☁️ - Dynamic QR code service for AI agents. Create, update, track, and retarget QR codes without
+          regenerating images. 37 tools covering 11 QR types, one-command install via `npx qr-for-agent`.
         confidence: high
 metadata:
   github:
@@ -46,19 +54,27 @@ metadata:
     archived: false
     full_name: benswel/qr-for-agent-api
     html_url: https://github.com/benswel/qr-for-agent-api
-    created_at: "2026-02-23T15:09:23Z"
-    pushed_at: "2026-06-09T08:25:41Z"
-    description: QR-as-a-Service API for AI agents — 34 MCP tools, 11 QR types, dynamic links, scan analytics, webhooks, custom domains. REST API + MCP server.
+    created_at: '2026-02-23T15:09:23Z'
+    pushed_at: '2026-06-09T08:25:41Z'
+    description: >-
+      QR-as-a-Service API for AI agents — 34 MCP tools, 11 QR types, dynamic links, scan analytics, webhooks, custom
+      domains. REST API + MCP server.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:32.600Z"
+    last_checked_at: '2026-09-07T04:13:32.600Z'
     readme:
-      fetched_at: "2026-09-07T04:13:32.600Z"
+      fetched_at: '2026-09-07T04:13:32.600Z'
       bytes: 11913
 insights:
-  summary: A QR-as-a-Service API and MCP server that allows AI agents to programmatically create, update, and track dynamic QR codes.
-  why_it_matters: It enables agents to bridge the gap between digital workflows and physical touchpoints by generating retargetable QR codes with built-in analytics and webhooks.
-  mental_damage: We have officially reached the era where we are building specialized APIs so our agents can generate the QR codes that we will then scan to interact with our agents.
+  summary: >-
+    A QR-as-a-Service API and MCP server that allows AI agents to programmatically create, update, and track dynamic QR
+    codes.
+  why_it_matters: >-
+    It enables agents to bridge the gap between digital workflows and physical touchpoints by generating retargetable QR
+    codes with built-in analytics and webhooks.
+  mental_damage: >-
+    We have officially reached the era where we are building specialized APIs so our agents can generate the QR codes
+    that we will then scan to interact with our agents.
   tags:
     - analytics
     - api
@@ -71,7 +87,9 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: a dedicated MCP server with 37 tools for QR code operations, not just a compatibility feature."
+  reason: >-
+    MCP is the product identity here: a dedicated MCP server with 37 tools for QR code operations, not just a
+    compatibility feature.
   evidence:
     - Repo description explicitly calls it a QR-as-a-Service API for AI agents with MCP server
     - README highlights MCP server with 37 tools as a core offering
@@ -81,14 +99,15 @@ curation:
     - Included in the awesome-mcp-servers list under Developer Tools.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:25:45.122Z"
+    updated_at: '2026-07-21T15:25:45.122Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -101,7 +120,9 @@ processing:
       input_hash: sha256:1c522310d79bc5e9a4f0b94a029bf9bf31f6702c4bf2d6efe6328bb39be5f45a
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: a dedicated MCP server with 37 tools for QR code operations, not just a compatibility feature."
+      decision_reason: >-
+        MCP is the product identity here: a dedicated MCP server with 37 tools for QR code operations, not just a
+        compatibility feature.
       decision_evidence:
         - Repo description explicitly calls it a QR-as-a-Service API for AI agents with MCP server
         - README highlights MCP server with 37 tools as a core offering
@@ -109,16 +130,18 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product's primary identity is an MCP server with domain-specific tools, not a general-purpose SDK.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product's primary identity is an MCP server with domain-specific
+        tools, not a general-purpose SDK.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-06-11T05:37:56.130Z"
+    updated_at: '2026-06-11T05:37:56.130Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:32.600Z"
+    updated_at: '2026-09-07T04:13:32.600Z'
     cause: null
     next_retry_at: null

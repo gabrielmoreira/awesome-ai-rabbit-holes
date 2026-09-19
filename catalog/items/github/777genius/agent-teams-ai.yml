@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__777genius__agent-teams-ai__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-07-30T05:05:26.992Z"
+      discovered_at: '2026-07-30T05:05:26.992Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,14 @@ provenance:
           - Session managers & parallel runners
         anchor_text: Agent Teams AI
         extracted_url: https://github.com/777genius/agent-teams-ai
-        surrounding_text: "- **[Agent Teams AI](https://github.com/777genius/agent-teams-ai)** `⭐ 1.8k` — Cross-platform desktop control plane with integrated terminals and a Kanban board for autonomous coding-agent teams; agents coordinate, message each other, and review work across Codex, Claude Code, OpenCode, Cursor, Grok, GitHub Copilot, Kiro, Z.AI, MiniMax, Kimi, and 75+ model providers. AGPL-3.0."
+        surrounding_text: >-
+          - **[Agent Teams AI](https://github.com/777genius/agent-teams-ai)** `⭐ 1.8k` — Cross-platform desktop control
+          plane with integrated terminals and a Kanban board for autonomous coding-agent teams; agents coordinate,
+          message each other, and review work across Codex, Claude Code, OpenCode, Cursor, Grok, GitHub Copilot, Kiro,
+          Z.AI, MiniMax, Kimi, and 75+ model providers. AGPL-3.0.
         confidence: high
     - id: discovery__github__777genius__agent-teams-ai__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-08-17T04:19:08.737Z"
+      discovered_at: '2026-08-17T04:19:08.737Z'
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -35,7 +39,9 @@ provenance:
           - CLI Agent Harnesses
         anchor_text: Agent Teams
         extracted_url: https://github.com/777genius/agent-teams-ai
-        surrounding_text: "| [Agent Teams](https://github.com/777genius/agent-teams-ai) | 1,935 | TypeScript | AGPL-3.0 | 2026-08 | Desktop app running coding-agent teams across CLIs |"
+        surrounding_text: >-
+          | [Agent Teams](https://github.com/777genius/agent-teams-ai) | 1,935 | TypeScript | AGPL-3.0 | 2026-08 |
+          Desktop app running coding-agent teams across CLIs |
         confidence: high
 metadata:
   github:
@@ -45,9 +51,13 @@ metadata:
     archived: false
     full_name: 777genius/agent-teams-ai
     html_url: https://github.com/777genius/agent-teams-ai
-    created_at: "2026-02-21T08:14:44Z"
-    pushed_at: "2026-09-16T17:45:10Z"
-    description: You're the boss, agents are your team. They handle tasks on their own, message each other, and review each other's work. You just watch the kanban board and give high-level commands. Codex/Claude/OpenCode/Cursor/Grok/GitHub Copilot/Kiro/Z.AI/MiniMax/Kimi(200+ models, 75+ LLM providers, free models no auth). Build your AI company with multiple teams
+    created_at: '2026-02-21T08:14:44Z'
+    pushed_at: '2026-09-16T17:45:10Z'
+    description: >-
+      You're the boss, agents are your team. They handle tasks on their own, message each other, and review each other's
+      work. You just watch the kanban board and give high-level commands. Codex/Claude/OpenCode/Cursor/Grok/GitHub
+      Copilot/Kiro/Z.AI/MiniMax/Kimi(200+ models, 75+ LLM providers, free models no auth). Build your AI company with
+      multiple teams
     homepage: https://agentteams.live
     topics:
       - agent-orchestration
@@ -70,14 +80,20 @@ metadata:
       - openai
       - opencode
       - typescript
-    last_checked_at: "2026-09-17T04:13:26.678Z"
+    last_checked_at: '2026-09-17T04:13:26.678Z'
     readme:
-      fetched_at: "2026-09-17T04:13:26.678Z"
+      fetched_at: '2026-09-17T04:13:26.678Z'
       bytes: 40687
 insights:
-  summary: A desktop application for managing multi-agent teams through a visual Kanban-based control plane that coordinates various LLM providers and coding assistants.
-  why_it_matters: It allows developers to move from managing single-prompt interactions to overseeing complex, multi-agent workflows with built-in task delegation and peer review.
-  mental_damage: It effectively transitions the developer role from 'individual contributor' to 'middle manager of digital interns' with zero HR oversight.
+  summary: >-
+    A desktop application for managing multi-agent teams through a visual Kanban-based control plane that coordinates
+    various LLM providers and coding assistants.
+  why_it_matters: >-
+    It allows developers to move from managing single-prompt interactions to overseeing complex, multi-agent workflows
+    with built-in task delegation and peer review.
+  mental_damage: >-
+    It effectively transitions the developer role from 'individual contributor' to 'middle manager of digital interns'
+    with zero HR oversight.
   tags:
     - multi-agent
     - orchestration
@@ -87,31 +103,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool acts as an operated workbench and control plane to coordinate multiple agents and tasks through a visual interface.
+  reason: >-
+    The tool acts as an operated workbench and control plane to coordinate multiple agents and tasks through a visual
+    interface.
   evidence:
     - README describes a Kanban board and organization hierarchy for managing agent teams
     - Supports connecting existing assistants like Claude Code, Cursor, and GitHub Copilot to work as a coordinated team
     - Provides a desktop-based UI for task oversight, execution logs, and role-based team management
 placement:
   primary_category: agent-orchestration
-  section: Workbenches & Collaboration Surfaces
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
   reason: Stars (1786) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-08-17T04:19:08.740Z"
+    updated_at: '2026-08-17T04:19:08.740Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:26.678Z"
+    updated_at: '2026-09-17T04:13:26.678Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:22:42.622Z"
+    updated_at: '2026-08-27T06:22:42.622Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -120,15 +139,21 @@ processing:
       input_hash: sha256:c48442d3804657ecc175117dad060ea3caae1a7330593e0ce0a92aab16c02d6f
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The tool acts as an operated workbench and control plane to coordinate multiple agents and tasks through a visual interface.
+      decision_reason: >-
+        The tool acts as an operated workbench and control plane to coordinate multiple agents and tasks through a
+        visual interface.
       decision_evidence:
         - README describes a Kanban board and organization hierarchy for managing agent teams
-        - Supports connecting existing assistants like Claude Code, Cursor, and GitHub Copilot to work as a coordinated team
+        - >-
+          Supports connecting existing assistants like Claude Code, Cursor, and GitHub Copilot to work as a coordinated
+          team
         - Provides a desktop-based UI for task oversight, execution logs, and role-based team management
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: Choose agent-orchestration over coding-agents because the tool's primary identity is the coordination and management of multiple agents rather than being the engine that performs the code editing itself.
+      contrastive_reason: >-
+        Choose agent-orchestration over coding-agents because the tool's primary identity is the coordination and
+        management of multiple agents rather than being the engine that performs the code editing itself.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

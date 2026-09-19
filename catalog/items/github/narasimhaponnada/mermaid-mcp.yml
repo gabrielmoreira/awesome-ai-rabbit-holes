@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__narasimhaponnada__mermaid-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📐 <a name="architecture-and-design"></a>Architecture & Design
         anchor_text: Narasimhaponnada/mermaid-mcp
         extracted_url: https://github.com/narasimhaponnada/mermaid-mcp
-        surrounding_text: "- [Narasimhaponnada/mermaid-mcp](https://github.com/Narasimhaponnada/mermaid-mcp) 📇 ☁️ 🍎 🪟 🐧 - AI-powered Mermaid diagram generation with 22+ diagram types including flowcharts, sequence diagrams, class diagrams, ER diagrams, architecture diagrams, state machines, and more. Features 50+ pre-built templates, advanced layout engines, SVG/PNG/PDF exports, and seamless integration with GitHub Copilot, Claude, and any MCP-compatible client. Install via NPM: `npm install -g @narasimhaponnada/mermaid-mcp-server`"
+        surrounding_text: >-
+          - [Narasimhaponnada/mermaid-mcp](https://github.com/Narasimhaponnada/mermaid-mcp) 📇 ☁️ 🍎 🪟 🐧 - AI-powered
+          Mermaid diagram generation with 22+ diagram types including flowcharts, sequence diagrams, class diagrams, ER
+          diagrams, architecture diagrams, state machines, and more. Features 50+ pre-built templates, advanced layout
+          engines, SVG/PNG/PDF exports, and seamless integration with GitHub Copilot, Claude, and any MCP-compatible
+          client. Install via NPM: `npm install -g @narasimhaponnada/mermaid-mcp-server`
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: Narasimhaponnada/mermaid-mcp
     html_url: https://github.com/Narasimhaponnada/mermaid-mcp
-    created_at: "2025-10-30T10:45:01Z"
-    pushed_at: "2025-11-05T07:46:51Z"
+    created_at: '2025-10-30T10:45:01Z'
+    pushed_at: '2025-11-05T07:46:51Z'
     description: null
     homepage: null
     topics:
@@ -55,14 +60,20 @@ metadata:
       - sequence-diagram
       - svg
       - typescript
-    last_checked_at: "2026-07-20T15:11:59.831Z"
+    last_checked_at: '2026-07-20T15:11:59.831Z'
     readme:
-      fetched_at: "2026-07-20T15:11:59.831Z"
+      fetched_at: '2026-07-20T15:11:59.831Z'
       bytes: 7787
 insights:
-  summary: An MCP server that lets AI assistants like Copilot and Claude generate Mermaid diagrams from natural language and output production-ready SVGs.
-  why_it_matters: It allows developers to delegate architecture diagrams, flowcharts, and sequence diagrams to their coding assistant instead of manually writing Mermaid syntax.
-  mental_damage: We have successfully reached the point where your AI assistant needs its own plugin so it can draw pictures of the architecture it failed to build correctly.
+  summary: >-
+    An MCP server that lets AI assistants like Copilot and Claude generate Mermaid diagrams from natural language and
+    output production-ready SVGs.
+  why_it_matters: >-
+    It allows developers to delegate architecture diagrams, flowcharts, and sequence diagrams to their coding assistant
+    instead of manually writing Mermaid syntax.
+  mental_damage: >-
+    We have successfully reached the point where your AI assistant needs its own plugin so it can draw pictures of the
+    architecture it failed to build correctly.
   tags:
     - mcp
     - diagrams
@@ -72,35 +83,42 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server built specifically to give AI assistants diagram-generation capabilities via the Model Context Protocol.
+  reason: >-
+    The product is an MCP server built specifically to give AI assistants diagram-generation capabilities via the Model
+    Context Protocol.
   evidence:
-    - Repo name is 'mermaid-mcp' and the README explicitly describes it as 'Mermaid MCP Server' providing a Model Context Protocol interface.
+    - >-
+      Repo name is 'mermaid-mcp' and the README explicitly describes it as 'Mermaid MCP Server' providing a Model
+      Context Protocol interface.
     - Topics include 'mcp', 'mcp-server', and 'model-context-protocol', confirming MCP is the core identity.
-    - Listed in awesome-mcp-servers under 'Architecture & Design' server implementations, reinforcing the MCP server classification.
+    - >-
+      Listed in awesome-mcp-servers under 'Architecture & Design' server implementations, reinforcing the MCP server
+      classification.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.632Z"
+    updated_at: '2026-05-06T22:12:15.632Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:11:59.831Z"
+    updated_at: '2026-07-20T15:11:59.831Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

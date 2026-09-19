@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tomohiro-owada__devrag__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: tomohiro-owada/devrag
         extracted_url: https://github.com/tomohiro-owada/devrag
-        surrounding_text: "- [tomohiro-owada/devrag](https://github.com/tomohiro-owada/devrag) 🏎️ 🏠 🍎 🪟 🐧 - Lightweight local RAG MCP server for semantic vector search over markdown documents. Reduces token consumption by 40x with sqlite-vec and multilingual-e5-small embeddings. Supports filtered search by directory and filename patterns."
+        surrounding_text: >-
+          - [tomohiro-owada/devrag](https://github.com/tomohiro-owada/devrag) 🏎️ 🏠 🍎 🪟 🐧 - Lightweight local RAG
+          MCP server for semantic vector search over markdown documents. Reduces token consumption by 40x with
+          sqlite-vec and multilingual-e5-small embeddings. Supports filtered search by directory and filename patterns.
         confidence: high
 metadata:
   github:
@@ -30,10 +33,12 @@ metadata:
     archived: false
     full_name: tomohiro-owada/devrag
     html_url: https://github.com/tomohiro-owada/devrag
-    created_at: "2025-10-24T09:10:57Z"
-    pushed_at: "2026-04-15T22:43:14Z"
-    description: Markdown vector search MCP server for Claude Code. Natural language search for markdown files using multilingual-e5-small embeddings.
-    homepage: ""
+    created_at: '2025-10-24T09:10:57Z'
+    pushed_at: '2026-04-15T22:43:14Z'
+    description: >-
+      Markdown vector search MCP server for Claude Code. Natural language search for markdown files using
+      multilingual-e5-small embeddings.
+    homepage: ''
     topics:
       - claude-code
       - developer-tools
@@ -48,14 +53,20 @@ metadata:
       - semantic-search
       - sqlite
       - vector-search
-    last_checked_at: "2026-07-21T15:20:52.454Z"
+    last_checked_at: '2026-07-21T15:20:52.454Z'
     readme:
-      fetched_at: "2026-07-21T15:20:52.454Z"
+      fetched_at: '2026-07-21T15:20:52.454Z'
       bytes: 26296
 insights:
-  summary: A local MCP server that indexes markdown files into a vector database using multilingual-e5-small embeddings to provide semantic search capabilities for Claude Code.
-  why_it_matters: It reduces token consumption by ~40x and speeds up documentation lookups by retrieving only relevant chunks instead of forcing Claude Code to read entire files.
-  mental_damage: We have officially reached the point where we need a RAG system to manage the documentation required to use our AI coding assistant efficiently.
+  summary: >-
+    A local MCP server that indexes markdown files into a vector database using multilingual-e5-small embeddings to
+    provide semantic search capabilities for Claude Code.
+  why_it_matters: >-
+    It reduces token consumption by ~40x and speeds up documentation lookups by retrieving only relevant chunks instead
+    of forcing Claude Code to read entire files.
+  mental_damage: >-
+    We have officially reached the point where we need a RAG system to manage the documentation required to use our AI
+    coding assistant efficiently.
   tags:
     - mcp
     - rag
@@ -65,35 +76,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server for Claude Code that provides markdown vector search, fitting the MCP Servers & Tooling category as a domain-specific server.
+  reason: >-
+    The product is explicitly an MCP server for Claude Code that provides markdown vector search, fitting the MCP
+    Servers & Tooling category as a domain-specific server.
   evidence:
-    - "Repo description states: 'Markdown vector search MCP server for Claude Code.'"
+    - 'Repo description states: ''Markdown vector search MCP server for Claude Code.'''
     - README confirms it is configured as an MCP server in Claude Code via the mcpServers json config.
     - Listed in awesome-mcp-servers under 'Knowledge & Memory' section.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.652Z"
+    updated_at: '2026-05-06T22:12:15.652Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:52.454Z"
+    updated_at: '2026-07-21T15:20:52.454Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

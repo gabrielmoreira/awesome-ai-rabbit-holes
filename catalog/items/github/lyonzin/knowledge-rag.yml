@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lyonzin__knowledge-rag__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: lyonzin/knowledge-rag
         extracted_url: https://github.com/lyonzin/knowledge-rag
-        surrounding_text: "- [lyonzin/knowledge-rag](https://github.com/lyonzin/knowledge-rag) [![lyonzin/knowledge-rag MCP server](https://glama.ai/mcp/servers/lyonzin/knowledge-rag/badges/score.svg)](https://glama.ai/mcp/servers/lyonzin/knowledge-rag) 🐍 🏠 🍎 🪟 🐧 - Local RAG system for Claude Code with hybrid search (BM25 + semantic), cross-encoder reranking, markdown-aware chunking, query expansion, and 12 MCP tools. Runs entirely offline with zero external servers."
+        surrounding_text: >-
+          - [lyonzin/knowledge-rag](https://github.com/lyonzin/knowledge-rag) [![lyonzin/knowledge-rag MCP
+          server](https://glama.ai/mcp/servers/lyonzin/knowledge-rag/badges/score.svg)](https://glama.ai/mcp/servers/lyonzin/knowledge-rag)
+          🐍 🏠 🍎 🪟 🐧 - Local RAG system for Claude Code with hybrid search (BM25 + semantic), cross-encoder
+          reranking, markdown-aware chunking, query expansion, and 12 MCP tools. Runs entirely offline with zero
+          external servers.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: lyonzin/knowledge-rag
     html_url: https://github.com/lyonzin/knowledge-rag
-    created_at: "2026-02-05T14:23:33Z"
-    pushed_at: "2026-08-02T08:19:53Z"
-    description: Local RAG MCP server for Claude Code — hybrid search (semantic + BM25), cross-encoder reranking, 13 MCP tools, 20 format parsers. Zero external servers, zero API keys.
+    created_at: '2026-02-05T14:23:33Z'
+    pushed_at: '2026-08-02T08:19:53Z'
+    description: >-
+      Local RAG MCP server for Claude Code — hybrid search (semantic + BM25), cross-encoder reranking, 13 MCP tools, 20
+      format parsers. Zero external servers, zero API keys.
     homepage: https://pypi.org/project/knowledge-rag/
     topics:
       - antigravity
@@ -55,14 +62,20 @@ metadata:
       - retrieval-augmented-generation
       - semantic-search
       - vector-database
-    last_checked_at: "2026-08-03T05:16:53.756Z"
+    last_checked_at: '2026-08-03T05:16:53.756Z'
     readme:
-      fetched_at: "2026-08-03T05:16:53.756Z"
+      fetched_at: '2026-08-03T05:16:53.756Z'
       bytes: 92336
 insights:
-  summary: Local RAG MCP server for Claude Code that provides hybrid search (semantic + BM25), cross-encoder reranking, and 12 MCP tools for searching local documents and code.
-  why_it_matters: Enables developers to search their local codebase and documentation using Claude Code without external APIs or cloud dependencies.
-  mental_damage: Another MCP server promising zero-config local search while you manually index 39K chunks and hope the cross-encoder doesn’t lag your laptop.
+  summary: >-
+    Local RAG MCP server for Claude Code that provides hybrid search (semantic + BM25), cross-encoder reranking, and 12
+    MCP tools for searching local documents and code.
+  why_it_matters: >-
+    Enables developers to search their local codebase and documentation using Claude Code without external APIs or cloud
+    dependencies.
+  mental_damage: >-
+    Another MCP server promising zero-config local search while you manually index 39K chunks and hope the cross-encoder
+    doesn’t lag your laptop.
   tags:
     - mcp
     - rag
@@ -72,31 +85,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server whose core identity is providing MCP tools for local RAG search, making MCP the primary product identity rather than a coding agent or extension.
+  reason: >-
+    The project is an MCP server whose core identity is providing MCP tools for local RAG search, making MCP the primary
+    product identity rather than a coding agent or extension.
   evidence:
-    - "Repo description: 'Local RAG MCP server for Claude Code — hybrid search (semantic + BM25), cross-encoder reranking, 13 MCP tools'"
-    - "README: 'Drop your PDFs, markdown, code, notebooks... Everything runs locally via ONNX. No Docker, no Ollama, no API keys, no data leaves your machine.'"
-    - "Stars: 228, pushed 2026-07-15, not archived, MIT license"
+    - >-
+      Repo description: 'Local RAG MCP server for Claude Code — hybrid search (semantic + BM25), cross-encoder
+      reranking, 13 MCP tools'
+    - >-
+      README: 'Drop your PDFs, markdown, code, notebooks... Everything runs locally via ONNX. No Docker, no Ollama, no
+      API keys, no data leaves your machine.'
+    - 'Stars: 228, pushed 2026-07-15, not archived, MIT license'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: promotion_candidate
   reason: Stars (219) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.628Z"
+    updated_at: '2026-05-06T22:12:15.628Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:53.756Z"
+    updated_at: '2026-08-03T05:16:53.756Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:17:43.190Z"
+    updated_at: '2026-07-21T16:17:43.190Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -109,14 +129,22 @@ processing:
       input_hash: sha256:cdfb30ac39d425f6099efe263bb25c56b918a2c15c1c3a95e76d354e9107b7d1
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is an MCP server whose core identity is providing MCP tools for local RAG search, making MCP the primary product identity rather than a coding agent or extension.
+      decision_reason: >-
+        The project is an MCP server whose core identity is providing MCP tools for local RAG search, making MCP the
+        primary product identity rather than a coding agent or extension.
       decision_evidence:
-        - "Repo description: 'Local RAG MCP server for Claude Code — hybrid search (semantic + BM25), cross-encoder reranking, 13 MCP tools'"
-        - "README: 'Drop your PDFs, markdown, code, notebooks... Everything runs locally via ONNX. No Docker, no Ollama, no API keys, no data leaves your machine.'"
-        - "Stars: 228, pushed 2026-07-15, not archived, MIT license"
+        - >-
+          Repo description: 'Local RAG MCP server for Claude Code — hybrid search (semantic + BM25), cross-encoder
+          reranking, 13 MCP tools'
+        - >-
+          README: 'Drop your PDFs, markdown, code, notebooks... Everything runs locally via ONNX. No Docker, no Ollama,
+          no API keys, no data leaves your machine.'
+        - 'Stars: 228, pushed 2026-07-15, not archived, MIT license'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server providing MCP-native tools for local search, not an extension that augments another assistant with host capabilities like debugger or browser access.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server providing MCP-native tools for local
+        search, not an extension that augments another assistant with host capabilities like debugger or browser access.
       review_reason: null
       review_resume_lifecycle: null

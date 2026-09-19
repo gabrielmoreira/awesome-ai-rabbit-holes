@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__unslothai__unsloth__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,7 @@ provenance:
           - 微调 Fine-Tuning
         anchor_text: unsloth (`🔥`)
         extracted_url: https://github.com/unslothai/unsloth
-        surrounding_text: "4. [unsloth (`🔥`)](https://github.com/unslothai/unsloth): 2-5X faster 80% less memory LLM finetuning."
+        surrounding_text: '4. [unsloth (`🔥`)](https://github.com/unslothai/unsloth): 2-5X faster 80% less memory LLM finetuning.'
         confidence: high
 metadata:
   github:
@@ -29,8 +29,8 @@ metadata:
     archived: false
     full_name: unslothai/unsloth
     html_url: https://github.com/unslothai/unsloth
-    created_at: "2023-11-29T16:50:09Z"
-    pushed_at: "2026-07-21T14:49:30Z"
+    created_at: '2023-11-29T16:50:09Z'
+    pushed_at: '2026-07-21T14:49:30Z'
     description: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models.
     homepage: https://unsloth.ai/docs
     topics:
@@ -53,13 +53,17 @@ metadata:
       - tts
       - ui
       - unsloth
-    last_checked_at: "2026-07-21T15:20:59.344Z"
+    last_checked_at: '2026-07-21T15:20:59.344Z'
     readme:
-      fetched_at: "2026-07-21T15:20:59.344Z"
+      fetched_at: '2026-07-21T15:20:59.344Z'
       bytes: 27331
 insights:
-  summary: Unsloth Studio is a self-hosted web UI for running and fine-tuning open LLMs locally with optimized training performance.
-  why_it_matters: It lets developers train and deploy models on their own hardware with significantly reduced VRAM usage and faster iteration cycles.
+  summary: >-
+    Unsloth Studio is a self-hosted web UI for running and fine-tuning open LLMs locally with optimized training
+    performance.
+  why_it_matters: >-
+    It lets developers train and deploy models on their own hardware with significantly reduced VRAM usage and faster
+    iteration cycles.
   mental_damage: Another local AI UI promising to make model training feel less like begging for GPU time on a shared cluster.
   tags:
     - local-ai
@@ -69,31 +73,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Unsloth Studio is a desktop-focused web UI for local model inference and training, making local execution its core identity rather than a coding assistant or framework.
+  reason: >-
+    Unsloth Studio is a desktop-focused web UI for local model inference and training, making local execution its core
+    identity rather than a coding assistant or framework.
   evidence:
-    - "Repo description: 'Unsloth Studio is a web UI for training and running open models like Gemma 4, Qwen3.6, DeepSeek, gpt-oss locally.'"
-    - "README: 'Unsloth Studio lets you run and train models locally.' and features emphasize local execution, multi-GPU training, and self-hosted deployment."
-    - "Stars: 64077, pushed 2026-05-12, not archived — shows strong traction and ongoing activity in the local AI space."
+    - >-
+      Repo description: 'Unsloth Studio is a web UI for training and running open models like Gemma 4, Qwen3.6,
+      DeepSeek, gpt-oss locally.'
+    - >-
+      README: 'Unsloth Studio lets you run and train models locally.' and features emphasize local execution, multi-GPU
+      training, and self-hosted deployment.
+    - 'Stars: 64077, pushed 2026-05-12, not archived — shows strong traction and ongoing activity in the local AI space.'
 placement:
   primary_category: local-ai
-  section: Local Runtimes
+  secondary_categories: []
+  section: Fine-tuning & Training
 lifecycle:
   status: promotion_candidate
   reason: Stars (64077) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.653Z"
+    updated_at: '2026-05-06T22:12:15.653Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:59.344Z"
+    updated_at: '2026-07-21T15:20:59.344Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:18:48.990Z"
+    updated_at: '2026-05-12T15:18:48.990Z'
     cause: null
     next_retry_at: null
     attempts: 1

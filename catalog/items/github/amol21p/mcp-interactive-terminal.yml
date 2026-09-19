@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__amol21p__mcp-interactive-terminal__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -19,7 +19,11 @@ provenance:
           - 🖥️ Command Line
         anchor_text: amol21p/mcp-interactive-terminal
         extracted_url: https://github.com/amol21p/mcp-interactive-terminal
-        surrounding_text: "-   **[amol21p/mcp-interactive-terminal](https://github.com/amol21p/mcp-interactive-terminal)** [![GitHub stars](https://img.shields.io/github/stars/amol21p/mcp-interactive-terminal?style=social)](https://github.com/amol21p/mcp-interactive-terminal): Real interactive terminal sessions for REPLs, SSH, database clients, and any interactive CLI — with clean text output, smart completion detection, and multi-layer security."
+        surrounding_text: >-
+          -   **[amol21p/mcp-interactive-terminal](https://github.com/amol21p/mcp-interactive-terminal)** [![GitHub
+          stars](https://img.shields.io/github/stars/amol21p/mcp-interactive-terminal?style=social)](https://github.com/amol21p/mcp-interactive-terminal):
+          Real interactive terminal sessions for REPLs, SSH, database clients, and any interactive CLI — with clean text
+          output, smart completion detection, and multi-layer security.
         confidence: high
 metadata:
   github:
@@ -29,9 +33,11 @@ metadata:
     archived: false
     full_name: amol21p/mcp-interactive-terminal
     html_url: https://github.com/amol21p/mcp-interactive-terminal
-    created_at: "2026-02-15T00:03:32Z"
-    pushed_at: "2026-02-16T16:30:41Z"
-    description: MCP server that gives AI agents (Claude Code, Cursor, Windsurf) real interactive terminal sessions — REPLs, SSH, databases, Docker, and any interactive CLI with clean output and smart completion detection
+    created_at: '2026-02-15T00:03:32Z'
+    pushed_at: '2026-02-16T16:30:41Z'
+    description: >-
+      MCP server that gives AI agents (Claude Code, Cursor, Windsurf) real interactive terminal sessions — REPLs, SSH,
+      databases, Docker, and any interactive CLI with clean output and smart completion detection
     homepage: null
     topics:
       - ai-agent
@@ -54,13 +60,17 @@ metadata:
       - terminal
       - windsurf
       - xterm
-    last_checked_at: "2026-09-17T04:13:43.297Z"
+    last_checked_at: '2026-09-17T04:13:43.297Z'
     readme:
-      fetched_at: "2026-09-17T04:13:43.297Z"
+      fetched_at: '2026-09-17T04:13:43.297Z'
       bytes: 13926
 insights:
-  summary: MCP server that enables AI agents (Claude Code, Cursor, Windsurf) to run interactive terminal sessions like REPLs, SSH, databases, and Docker with clean output and smart completion detection.
-  why_it_matters: It solves the limitation of AI coding agents being unable to handle interactive commands, allowing them to execute and interact with REPLs, SSH sessions, and other interactive CLIs.
+  summary: >-
+    MCP server that enables AI agents (Claude Code, Cursor, Windsurf) to run interactive terminal sessions like REPLs,
+    SSH, databases, and Docker with clean output and smart completion detection.
+  why_it_matters: >-
+    It solves the limitation of AI coding agents being unable to handle interactive commands, allowing them to execute
+    and interact with REPLs, SSH sessions, and other interactive CLIs.
   mental_damage: Now your AI can finally SSH into production and pretend it knows what it's doing.
   tags:
     - mcp-server
@@ -70,31 +80,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the product identity here, as it is explicitly an MCP server providing terminal capabilities to AI agents, fitting the MCP Servers & Tooling category.
+  reason: >-
+    MCP is the product identity here, as it is explicitly an MCP server providing terminal capabilities to AI agents,
+    fitting the MCP Servers & Tooling category.
   evidence:
     - Repo description explicitly states it is an MCP server for interactive terminal sessions
     - README details its role as an MCP server for Claude Code, Cursor, Windsurf, etc.
     - Source-list context includes it in an MCP servers list under Command Line
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.602Z"
+    updated_at: '2026-05-06T22:12:15.602Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:43.297Z"
+    updated_at: '2026-09-17T04:13:43.297Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:22:38.052Z"
+    updated_at: '2026-07-21T15:22:38.052Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -107,7 +120,9 @@ processing:
       input_hash: sha256:b986fb4b9caa8b65252712e20231f5c93c66f5bc5a9258c682a21d17383ba142
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the product identity here, as it is explicitly an MCP server providing terminal capabilities to AI agents, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        MCP is the product identity here, as it is explicitly an MCP server providing terminal capabilities to AI
+        agents, fitting the MCP Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for interactive terminal sessions
         - README details its role as an MCP server for Claude Code, Cursor, Windsurf, etc.
@@ -115,6 +130,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server, not merely an extension for
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

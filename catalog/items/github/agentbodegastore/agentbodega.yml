@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agentbodegastore__agentbodega__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: agentbodegastore/agentbodega
         extracted_url: https://github.com/agentbodegastore/agentbodega
-        surrounding_text: "- [agentbodegastore/agentbodega](https://github.com/agentbodegastore/agentbodega) [![agentbodega MCP server](https://glama.ai/mcp/servers/agentbodegastore/agentbodega/badges/score.svg)](https://glama.ai/mcp/servers/agentbodegastore/agentbodega) 📇 ☁️ - AgentBodega MCP gives agents a live catalog of 65 x402-payable HTTP tools across search, public data, social media, status checks, media conversion, and agent-readiness checks. No API keys; install with `npx -y @agentbodega/mcp`."
+        surrounding_text: >-
+          - [agentbodegastore/agentbodega](https://github.com/agentbodegastore/agentbodega) [![agentbodega MCP
+          server](https://glama.ai/mcp/servers/agentbodegastore/agentbodega/badges/score.svg)](https://glama.ai/mcp/servers/agentbodegastore/agentbodega)
+          📇 ☁️ - AgentBodega MCP gives agents a live catalog of 65 x402-payable HTTP tools across search, public data,
+          social media, status checks, media conversion, and agent-readiness checks. No API keys; install with `npx -y
+          @agentbodega/mcp`.
         confidence: high
 metadata:
   github:
@@ -30,19 +35,25 @@ metadata:
     archived: false
     full_name: agentbodegastore/agentbodega
     html_url: https://github.com/agentbodegastore/agentbodega
-    created_at: "2026-07-05T12:23:32Z"
-    pushed_at: "2026-07-09T02:56:02Z"
+    created_at: '2026-07-05T12:23:32Z'
+    pushed_at: '2026-07-09T02:56:02Z'
     description: AgentBodega MCP discovery package and public registry metadata
     homepage: https://agentbodega.store
     topics: []
-    last_checked_at: "2026-09-17T04:13:32.069Z"
+    last_checked_at: '2026-09-17T04:13:32.069Z'
     readme:
-      fetched_at: "2026-09-17T04:13:32.069Z"
+      fetched_at: '2026-09-17T04:13:32.069Z'
       bytes: 3898
 insights:
-  summary: An MCP server that exposes the AgentBodega marketplace, letting agents discover, compare prices, and plan routes for paid external tools.
-  why_it_matters: It gives developers a standardized MCP interface to browse paid agent capabilities, inspect schemas, and generate ready-to-run requests without scraping documentation.
-  mental_damage: Your agent now has a shopping mall inside its context window, complete with price comparison and a payment concierge.
+  summary: >-
+    An MCP server that exposes the AgentBodega marketplace, letting agents discover, compare prices, and plan routes for
+    paid external tools.
+  why_it_matters: >-
+    It gives developers a standardized MCP interface to browse paid agent capabilities, inspect schemas, and generate
+    ready-to-run requests without scraping documentation.
+  mental_damage: >-
+    Your agent now has a shopping mall inside its context window, complete with price comparison and a payment
+    concierge.
   tags:
     - mcp
     - marketplace
@@ -52,31 +63,36 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: This is a concrete MCP server implementation whose entire product identity is delivering a specific domain of external tools through the Model Context Protocol, fitting cleanly in MCP Servers & Tooling.
+  reason: >-
+    This is a concrete MCP server implementation whose entire product identity is delivering a specific domain of
+    external tools through the Model Context Protocol, fitting cleanly in MCP Servers & Tooling.
   evidence:
     - Repo description labels it as 'AgentBodega MCP discovery package and public registry metadata'.
-    - README implements standard MCP tools/resources (agentbodega_search_catalog, agentbodega_plan_task, agentbodega://catalog, etc.).
+    - >-
+      README implements standard MCP tools/resources (agentbodega_search_catalog, agentbodega_plan_task,
+      agentbodega://catalog, etc.).
     - Listed in awesome-mcp-servers under Server Implementations, confirming community treatment as MCP infrastructure.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Registries & Discovery
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.714Z"
+    updated_at: '2026-07-16T05:04:46.714Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:32.069Z"
+    updated_at: '2026-09-17T04:13:32.069Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-16T05:08:48.026Z"
+    updated_at: '2026-07-16T05:08:48.026Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jinjieni__mixeval__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,7 @@ provenance:
           - 评估 Evaluation
         anchor_text: MixEval
         extracted_url: https://github.com/psycoy/mixeval
-        surrounding_text: "6. [MixEval](https://github.com/Psycoy/MixEval/): Deriving Wisdom of the Crowd from LLM Benchmark Mixtures."
+        surrounding_text: '6. [MixEval](https://github.com/Psycoy/MixEval/): Deriving Wisdom of the Crowd from LLM Benchmark Mixtures.'
         confidence: high
 metadata:
   github:
@@ -29,8 +29,8 @@ metadata:
     archived: false
     full_name: JinjieNi/MixEval
     html_url: https://github.com/JinjieNi/MixEval
-    created_at: "2024-06-01T10:50:50Z"
-    pushed_at: "2024-11-10T02:23:50Z"
+    created_at: '2024-06-01T10:50:50Z'
+    pushed_at: '2024-11-10T02:23:50Z'
     description: The official evaluation suite and dynamic data release for MixEval.
     homepage: https://mixeval.github.io/
     topics:
@@ -48,13 +48,17 @@ metadata:
       - llm-evaluation-framework
       - llm-inference
       - mixeval
-    last_checked_at: "2026-07-30T05:05:50.532Z"
+    last_checked_at: '2026-07-30T05:05:50.532Z'
     readme:
-      fetched_at: "2026-07-30T05:05:50.532Z"
+      fetched_at: '2026-07-30T05:05:50.532Z'
       bytes: 14970
 insights:
-  summary: An evaluation suite and dynamic benchmark for measuring LLM performance with high correlation to Chatbot Arena at low cost.
-  why_it_matters: Developers can cheaply and locally validate model quality against a frequently updated benchmark that avoids contamination.
+  summary: >-
+    An evaluation suite and dynamic benchmark for measuring LLM performance with high correlation to Chatbot Arena at
+    low cost.
+  why_it_matters: >-
+    Developers can cheaply and locally validate model quality against a frequently updated benchmark that avoids
+    contamination.
   mental_damage: Now you can spend less time arguing about model quality and more time arguing about benchmark design.
   tags:
     - llm-evaluation
@@ -71,24 +75,25 @@ curation:
     - Source-list context places it under '评估 Evaluation'
 placement:
   primary_category: evals
-  section: Agent Benchmarks
+  secondary_categories: []
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: promotion_candidate
   reason: Stars (256) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:50.532Z"
+    updated_at: '2026-07-30T05:05:50.532Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:38.634Z"
+    updated_at: '2026-07-21T16:10:38.634Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -109,6 +114,8 @@ processing:
       category_candidates:
         - evals
         - ai-frameworks
-      contrastive_reason: Choose evals over ai-frameworks because the primary job is measuring model behavior rather than providing code-first building blocks.
+      contrastive_reason: >-
+        Choose evals over ai-frameworks because the primary job is measuring model behavior rather than providing
+        code-first building blocks.
       review_reason: null
       review_resume_lifecycle: null

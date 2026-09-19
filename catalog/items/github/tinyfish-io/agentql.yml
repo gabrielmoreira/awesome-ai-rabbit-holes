@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tinyfish-io__agentql__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: AgentQL
         extracted_url: https://www.agentql.com
-        surrounding_text: "- **[AgentQL](https://github.com/tinyfish-io/agentql-mcp)** - Enable AI agents to get structured data from unstructured web with [AgentQL](https://www.agentql.com/)."
+        surrounding_text: >-
+          - **[AgentQL](https://github.com/tinyfish-io/agentql-mcp)** - Enable AI agents to get structured data from
+          unstructured web with [AgentQL](https://www.agentql.com/).
         confidence: high
 metadata:
   github:
@@ -29,9 +31,12 @@ metadata:
     archived: false
     full_name: tinyfish-io/agentql
     html_url: https://github.com/tinyfish-io/agentql
-    created_at: "2024-02-20T19:56:33Z"
-    pushed_at: "2026-07-20T03:21:49Z"
-    description: AgentQL is a suite of tools for connecting your AI to the web. Featuring a query language and Playwright integrations for interacting with elements and extracting data quickly, precisely, and at scale. Includes REST API, Python and JavaScript SDKs, browser debugger.
+    created_at: '2024-02-20T19:56:33Z'
+    pushed_at: '2026-07-20T03:21:49Z'
+    description: >-
+      AgentQL is a suite of tools for connecting your AI to the web. Featuring a query language and Playwright
+      integrations for interacting with elements and extracting data quickly, precisely, and at scale. Includes REST
+      API, Python and JavaScript SDKs, browser debugger.
     homepage: https://agentql.com
     topics:
       - agent
@@ -50,14 +55,21 @@ metadata:
       - web-scraping-python
       - web-scrapping
       - webagent
-    last_checked_at: "2026-07-21T15:20:50.860Z"
+    last_checked_at: '2026-07-21T15:20:50.860Z'
     readme:
-      fetched_at: "2026-07-21T15:20:50.860Z"
+      fetched_at: '2026-07-21T15:20:50.860Z'
       bytes: 15444
 insights:
-  summary: AgentQL is a suite of tools for connecting AI agents and LLMs to the web, featuring a natural language query language, Python and JavaScript SDKs, Playwright integrations, a REST API, and a browser debugger for extracting data and automating workflows on live sites.
-  why_it_matters: It allows developers to build resilient, self-healing web automation and scraping scripts that work across dynamic and authenticated sites using natural language selectors instead of brittle CSS or XPath.
-  mental_damage: Yet another framework promising to finally teach your agent how to click the 'Accept Cookies' button, provided you can perfectly phrase the query in their proprietary dialect.
+  summary: >-
+    AgentQL is a suite of tools for connecting AI agents and LLMs to the web, featuring a natural language query
+    language, Python and JavaScript SDKs, Playwright integrations, a REST API, and a browser debugger for extracting
+    data and automating workflows on live sites.
+  why_it_matters: >-
+    It allows developers to build resilient, self-healing web automation and scraping scripts that work across dynamic
+    and authenticated sites using natural language selectors instead of brittle CSS or XPath.
+  mental_damage: >-
+    Yet another framework promising to finally teach your agent how to click the 'Accept Cookies' button, provided you
+    can perfectly phrase the query in their proprietary dialect.
   tags:
     - web-automation
     - scraping
@@ -67,35 +79,44 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is primarily a code-first toolkit (SDKs, API, query language) for developers to script web interactions and data extraction for their own agents or automation workflows.
+  reason: >-
+    The product is primarily a code-first toolkit (SDKs, API, query language) for developers to script web interactions
+    and data extraction for their own agents or automation workflows.
   evidence:
-    - Repo description explicitly calls it a 'suite of tools' with 'Python and JavaScript SDKs, browser debugger, and REST API'.
-    - README details SDKs for Python and JS, a REST API, and integrations with Langchain and Playwright, positioning it as a developer building block.
-    - Although listed in awesome-mcp-servers, the core product identity is the query language and SDKs, with MCP being just one of many integrations.
+    - >-
+      Repo description explicitly calls it a 'suite of tools' with 'Python and JavaScript SDKs, browser debugger, and
+      REST API'.
+    - >-
+      README details SDKs for Python and JS, a REST API, and integrations with Langchain and Playwright, positioning it
+      as a developer building block.
+    - >-
+      Although listed in awesome-mcp-servers, the core product identity is the query language and SDKs, with MCP being
+      just one of many integrations.
 placement:
-  primary_category: ai-frameworks
-  section: Agent Frameworks
+  primary_category: mcp
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: promotion_candidate
   reason: Stars (1343) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.652Z"
+    updated_at: '2026-05-06T22:12:15.652Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:50.860Z"
+    updated_at: '2026-07-21T15:20:50.860Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

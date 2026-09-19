@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__vercel__chatbot__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,7 +20,9 @@ provenance:
           - Other / Chatbots
         anchor_text: AI Chatbot
         extracted_url: https://github.com/vercel-labs/ai-chatbot
-        surrounding_text: "- [AI Chatbot](https://github.com/vercel-labs/ai-chatbot): A full-featured, hackable Next.js AI chatbot built by Vercel Labs ![GitHub Repo stars](https://img.shields.io/github/stars/vercel-labs/ai-chatbot?style=social)"
+        surrounding_text: >-
+          - [AI Chatbot](https://github.com/vercel-labs/ai-chatbot): A full-featured, hackable Next.js AI chatbot built
+          by Vercel Labs ![GitHub Repo stars](https://img.shields.io/github/stars/vercel-labs/ai-chatbot?style=social)
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: vercel/chatbot
     html_url: https://github.com/vercel/chatbot
-    created_at: "2023-05-19T16:36:23Z"
-    pushed_at: "2026-07-08T21:55:02Z"
+    created_at: '2023-05-19T16:36:23Z'
+    pushed_at: '2026-07-08T21:55:02Z'
     description: A full-featured, hackable Next.js AI chatbot built by Vercel
     homepage: https://chatbot.ai-sdk.dev
     topics:
@@ -42,13 +44,15 @@ metadata:
       - redis
       - shadcn-ui
       - vercel
-    last_checked_at: "2026-07-21T15:21:03.119Z"
+    last_checked_at: '2026-07-21T15:21:03.119Z'
     readme:
-      fetched_at: "2026-07-21T15:21:03.119Z"
+      fetched_at: '2026-07-21T15:21:03.119Z'
       bytes: 3575
 insights:
   summary: A full-featured, hackable Next.js AI chatbot template built with Vercel's AI SDK for creating chat applications.
-  why_it_matters: Provides developers with a production-ready foundation for building AI-powered chat applications with authentication, persistence, and multi-provider support.
+  why_it_matters: >-
+    Provides developers with a production-ready foundation for building AI-powered chat applications with
+    authentication, persistence, and multi-provider support.
   mental_damage: Another reminder that 'hackable' often means 'you'll spend more time customizing than actually chatting'.
   tags:
     - chatbot
@@ -59,31 +63,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a template that turns prompts into deployed chat applications rather than assisting with editing existing codebases, fitting the app-builder pattern.
+  reason: >-
+    It is a template that turns prompts into deployed chat applications rather than assisting with editing existing
+    codebases, fitting the app-builder pattern.
   evidence:
-    - "Repo description: 'A full-featured, hackable Next.js AI chatbot built by Vercel'"
-    - "README: 'helps you quickly build powerful chatbot applications' and 'Deploy Your Own' with one-click Vercel deployment"
-    - "Features focus on app scaffolding: Next.js App Router, AI SDK, shadcn/ui, data persistence, and Auth.js for new chatbot creation"
+    - 'Repo description: ''A full-featured, hackable Next.js AI chatbot built by Vercel'''
+    - >-
+      README: 'helps you quickly build powerful chatbot applications' and 'Deploy Your Own' with one-click Vercel
+      deployment
+    - >-
+      Features focus on app scaffolding: Next.js App Router, AI SDK, shadcn/ui, data persistence, and Auth.js for new
+      chatbot creation
 placement:
   primary_category: app-builders
-  section: Prompt-to-App Builders
+  secondary_categories: []
+  section: Scaffolding & Boilerplate
 lifecycle:
   status: promotion_candidate
   reason: Stars (20287) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.654Z"
+    updated_at: '2026-05-06T22:12:15.654Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:03.119Z"
+    updated_at: '2026-07-21T15:21:03.119Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:23:39.231Z"
+    updated_at: '2026-05-12T15:23:39.231Z'
     cause: null
     next_retry_at: null
     attempts: 1

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pearch-ai__mcp_pearch__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: Pearch
         extracted_url: https://github.com/pearch-ai/mcp_pearch
-        surrounding_text: "- **[Pearch](https://github.com/Pearch-ai/mcp_pearch)** - Best people search engine that reduces the time spent on talent discovery."
+        surrounding_text: >-
+          - **[Pearch](https://github.com/Pearch-ai/mcp_pearch)** - Best people search engine that reduces the time
+          spent on talent discovery.
         confidence: high
 metadata:
   github:
@@ -29,23 +31,31 @@ metadata:
     archived: false
     full_name: Pearch-ai/mcp_pearch
     html_url: https://github.com/Pearch-ai/mcp_pearch
-    created_at: "2025-06-17T08:16:19Z"
-    pushed_at: "2026-05-18T06:26:32Z"
-    description: The most accurate people search API/MCP. Natural language in, high-quality candidates out. Built for ATSs and AI Agents.
+    created_at: '2025-06-17T08:16:19Z'
+    pushed_at: '2026-05-18T06:26:32Z'
+    description: >-
+      The most accurate people search API/MCP. Natural language in, high-quality candidates out. Built for ATSs and AI
+      Agents.
     homepage: https://pearch.ai
     topics:
       - ai
       - api
       - human-resources
       - mcp
-    last_checked_at: "2026-07-20T16:42:32.338Z"
+    last_checked_at: '2026-07-20T16:42:32.338Z'
     readme:
-      fetched_at: "2026-07-20T16:42:32.338Z"
+      fetched_at: '2026-07-20T16:42:32.338Z'
       bytes: 5268
 insights:
-  summary: An MCP server that exposes Pearch.ai's natural-language people and company search API to compatible clients like Cursor, Claude Desktop, and VS Code.
-  why_it_matters: Developers building recruiting workflows or AI agents can wire high-quality candidate search directly into their editor or assistant without writing API glue code.
-  mental_damage: We have officially reached the point where your coding agent can shortlist candidates for you, so now you can automate everything except the awkward rejection email.
+  summary: >-
+    An MCP server that exposes Pearch.ai's natural-language people and company search API to compatible clients like
+    Cursor, Claude Desktop, and VS Code.
+  why_it_matters: >-
+    Developers building recruiting workflows or AI agents can wire high-quality candidate search directly into their
+    editor or assistant without writing API glue code.
+  mental_damage: >-
+    We have officially reached the point where your coding agent can shortlist candidates for you, so now you can
+    automate everything except the awkward rejection email.
   tags:
     - mcp
     - recruiting
@@ -55,35 +65,41 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product's primary identity is an MCP server exposing a specific domain API, which fits cleanly as a domain server in the MCP category.
+  reason: >-
+    The product's primary identity is an MCP server exposing a specific domain API, which fits cleanly as a domain
+    server in the MCP category.
   evidence:
-    - Repo description explicitly states 'The most accurate people search API/MCP' and notes it is 'Built for ATSs and AI Agents.'
-    - README positions the project as 'MCP server for Pearch.AI' with setup instructions for Claude Desktop, Cursor, and VS Code.
+    - >-
+      Repo description explicitly states 'The most accurate people search API/MCP' and notes it is 'Built for ATSs and
+      AI Agents.'
+    - >-
+      README positions the project as 'MCP server for Pearch.AI' with setup instructions for Claude Desktop, Cursor, and
+      VS Code.
     - Listed in awesome-mcp-servers under 'Official Servers', reinforcing its MCP infrastructure identity.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.642Z"
+    updated_at: '2026-05-06T22:12:15.642Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:32.338Z"
+    updated_at: '2026-07-20T16:42:32.338Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

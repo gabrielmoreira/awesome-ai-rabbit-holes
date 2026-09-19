@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jjlabsio__korea-stock-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: jjlabsio/korea-stock-mcp
         extracted_url: https://github.com/jjlabsio/korea-stock-mcp
-        surrounding_text: "- [jjlabsio/korea-stock-mcp](https://github.com/jjlabsio/korea-stock-mcp) 📇 ☁️ - An MCP Server for Korean stock analysis using OPEN DART API and KRX API"
+        surrounding_text: >-
+          - [jjlabsio/korea-stock-mcp](https://github.com/jjlabsio/korea-stock-mcp) 📇 ☁️ - An MCP Server for Korean
+          stock analysis using OPEN DART API and KRX API
         confidence: high
 metadata:
   github:
@@ -30,19 +32,23 @@ metadata:
     archived: false
     full_name: jjlabsio/korea-stock-mcp
     html_url: https://github.com/jjlabsio/korea-stock-mcp
-    created_at: "2025-09-06T06:00:27Z"
-    pushed_at: "2026-07-29T21:52:41Z"
-    description: "MCP Server for Korean stock analysis. 한국 주식 분석을 위한 MCP 서버입니다.  "
-    homepage: ""
+    created_at: '2025-09-06T06:00:27Z'
+    pushed_at: '2026-07-29T21:52:41Z'
+    description: 'MCP Server for Korean stock analysis. 한국 주식 분석을 위한 MCP 서버입니다.  '
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:05:50.701Z"
+    last_checked_at: '2026-07-30T05:05:50.701Z'
     readme:
-      fetched_at: "2026-07-30T05:05:50.701Z"
+      fetched_at: '2026-07-30T05:05:50.701Z'
       bytes: 17653
 insights:
   summary: An MCP server that provides Korean stock analysis capabilities by integrating with DART and KRX official APIs.
-  why_it_matters: Enables developers to query Korean stock market data, financial statements, and disclosures directly through an MCP-compatible interface for AI-driven analysis.
-  mental_damage: Now your AI can finally explain why your Korean stock portfolio is a rollercoaster, if only it could also predict the next dip.
+  why_it_matters: >-
+    Enables developers to query Korean stock market data, financial statements, and disclosures directly through an
+    MCP-compatible interface for AI-driven analysis.
+  mental_damage: >-
+    Now your AI can finally explain why your Korean stock portfolio is a rollercoaster, if only it could also predict
+    the next dip.
   tags:
     - mcp-server
     - financial-data
@@ -51,31 +57,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server with Korean stock analysis as its primary identity, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The project is explicitly an MCP server with Korean stock analysis as its primary identity, fitting the MCP Servers
+    & Tooling category.
   evidence:
     - Repo description explicitly states it is an MCP server for Korean stock analysis
     - README details MCP server setup and usage with Claude Desktop
     - Provides domain-specific tools (DART/KRX APIs) as MCP capabilities
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: promotion_candidate
   reason: Stars (157) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:50.701Z"
+    updated_at: '2026-07-30T05:05:50.701Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:40.964Z"
+    updated_at: '2026-07-21T16:10:40.964Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +97,9 @@ processing:
       input_hash: sha256:66ba8d27104f078263ef48158b5e4c70b68195520584147b3fff27baa883611c
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project is explicitly an MCP server with Korean stock analysis as its primary identity, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The project is explicitly an MCP server with Korean stock analysis as its primary identity, fitting the MCP
+        Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Korean stock analysis
         - README details MCP server setup and usage with Claude Desktop
@@ -96,6 +107,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is an MCP server providing domain-specific tools, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product identity is an MCP server providing domain-specific
+        tools, not an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

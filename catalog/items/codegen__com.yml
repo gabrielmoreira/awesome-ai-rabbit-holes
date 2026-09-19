@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__codegen__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-06-04T05:40:27.160Z"
+      discovered_at: '2026-06-04T05:40:27.160Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Codegen
         anchor_text: Codegen
         extracted_url: https://www.codegen.com
-        surrounding_text: "## [Codegen](https://www.codegen.com/)"
+        surrounding_text: '## [Codegen](https://www.codegen.com/)'
         confidence: high
 metadata:
   github:
@@ -35,8 +35,12 @@ metadata:
     readme: null
 insights:
   summary: An AI-powered coding platform that automates the development workflow from ticket creation to pull request.
-  why_it_matters: It aims to bridge the gap between project management (like Linear) and actual implementation by turning tickets directly into code.
-  mental_damage: The dream of 'tickets becoming code' means we can now generate technical debt at the speed of thought without the inconvenient middle step of thinking.
+  why_it_matters: >-
+    It aims to bridge the gap between project management (like Linear) and actual implementation by turning tickets
+    directly into code.
+  mental_damage: >-
+    The dream of 'tickets becoming code' means we can now generate technical debt at the speed of thought without the
+    inconvenient middle step of thinking.
   tags:
     - ai-agents
     - workflow-automation
@@ -51,14 +55,15 @@ curation:
     - Includes specific integration where 'Tickets Become Code' (Linear integration)
 placement:
   primary_category: coding-agents
-  section: Review, Testing & Repair Agents
+  secondary_categories: []
+  section: Spec-First & Plan-Execute
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-04T05:40:27.161Z"
+    updated_at: '2026-06-04T05:40:27.161Z'
     cause: null
     next_retry_at: null
   stars:
@@ -67,7 +72,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-06-04T05:42:24.483Z"
+    updated_at: '2026-06-04T05:42:24.483Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

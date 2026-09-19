@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mithun4elp__briefkit-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-08T05:39:05.247Z"
+      discovered_at: '2026-06-08T05:39:05.247Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: mithun4elp/briefkit-mcp-server
         extracted_url: https://github.com/mithun4elp/briefkit-mcp-server
-        surrounding_text: "- [mithun4elp/briefkit-mcp-server](https://github.com/mithun4elp/briefkit-mcp-server) [![mithun4elp/briefkit-mcp-server MCP server](https://glama.ai/mcp/servers/mithun4elp/briefkit-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/mithun4elp/briefkit-mcp-server) 📇 🏠 - Generate engineer-grade SaaS specifications — design systems, database schemas, and RLS policies for AI build tools like Lovable, Cursor, and Claude Code."
+        surrounding_text: >-
+          - [mithun4elp/briefkit-mcp-server](https://github.com/mithun4elp/briefkit-mcp-server)
+          [![mithun4elp/briefkit-mcp-server MCP
+          server](https://glama.ai/mcp/servers/mithun4elp/briefkit-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/mithun4elp/briefkit-mcp-server)
+          📇 🏠 - Generate engineer-grade SaaS specifications — design systems, database schemas, and RLS policies for
+          AI build tools like Lovable, Cursor, and Claude Code.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: mithun4elp/briefkit-mcp-server
     html_url: https://github.com/mithun4elp/briefkit-mcp-server
-    created_at: "2026-05-16T05:56:08Z"
-    pushed_at: "2026-05-16T12:42:59Z"
+    created_at: '2026-05-16T05:56:08Z'
+    pushed_at: '2026-05-16T12:42:59Z'
     description: BriefKit — Engineer-grade specs for AI-built SaaS. 14 files. $9. briefkit.online
     homepage: https://briefkit.online
     topics:
@@ -44,14 +49,20 @@ metadata:
       - mcp-server
       - saas
       - supabase
-    last_checked_at: "2026-08-03T05:17:04.967Z"
+    last_checked_at: '2026-08-03T05:17:04.967Z'
     readme:
-      fetched_at: "2026-08-03T05:17:04.967Z"
+      fetched_at: '2026-08-03T05:17:04.967Z'
       bytes: 3334
 insights:
-  summary: An MCP server that generates structured SaaS specifications like database schemas and design systems to guide AI coding assistants.
-  why_it_matters: It improves implementation reliability and slashes token costs by providing engineer-grade specs instead of letting AI reason through architecture from scratch.
-  mental_damage: It allows you to optimize your token usage right up until the moment you realize your entire SaaS architecture is locked into a single, unchangeable Markdown file.
+  summary: >-
+    An MCP server that generates structured SaaS specifications like database schemas and design systems to guide AI
+    coding assistants.
+  why_it_matters: >-
+    It improves implementation reliability and slashes token costs by providing engineer-grade specs instead of letting
+    AI reason through architecture from scratch.
+  mental_damage: >-
+    It allows you to optimize your token usage right up until the moment you realize your entire SaaS architecture is
+    locked into a single, unchangeable Markdown file.
   tags:
     - mcp
     - saas-specs
@@ -60,31 +71,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's core value is providing structured specification artifacts (schemas, design systems, RLS policies) that serve as the primary driver for AI coding workflows.
+  reason: >-
+    The tool's core value is providing structured specification artifacts (schemas, design systems, RLS policies) that
+    serve as the primary driver for AI coding workflows.
   evidence:
-    - README claims it reduces token consumption by 70-85% by providing structured specs instead of prompting for reasoning from scratch
+    - >-
+      README claims it reduces token consumption by 70-85% by providing structured specs instead of prompting for
+      reasoning from scratch
     - Provides specific tools for generating production-ready artifacts like DESIGN.md and PostgreSQL/Supabase schemas
     - Designed specifically for integration into agentic workflows via MCP for tools like Claude Code and Cursor
 placement:
-  primary_category: spec-driven-development
-  section: Planning / Task Decomposition
+  primary_category: mcp
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-08T05:39:05.248Z"
+    updated_at: '2026-06-08T05:39:05.248Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:04.967Z"
+    updated_at: '2026-08-03T05:17:04.967Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-06T05:45:27.747Z"
+    updated_at: '2026-07-06T05:45:27.747Z'
     cause: null
     next_retry_at: null
     attempts: 1

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__meshledger__meshledger__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: MeshLedger/MeshLedger
         extracted_url: https://github.com/meshledger/meshledger
-        surrounding_text: "- [MeshLedger/MeshLedger](https://github.com/MeshLedger/MeshLedger) [![MeshLedger/MeshLedger MCP server](https://glama.ai/mcp/servers/MeshLedger/MeshLedger/badges/score.svg)](https://glama.ai/mcp/servers/MeshLedger/MeshLedger) 📇 ☁️ - AI-to-AI marketplace with on-chain escrow"
+        surrounding_text: >-
+          - [MeshLedger/MeshLedger](https://github.com/MeshLedger/MeshLedger) [![MeshLedger/MeshLedger MCP
+          server](https://glama.ai/mcp/servers/MeshLedger/MeshLedger/badges/score.svg)](https://glama.ai/mcp/servers/MeshLedger/MeshLedger)
+          📇 ☁️ - AI-to-AI marketplace with on-chain escrow
         confidence: high
 metadata:
   github:
@@ -30,18 +33,22 @@ metadata:
     archived: false
     full_name: MeshLedger/MeshLedger
     html_url: https://github.com/MeshLedger/MeshLedger
-    created_at: "2026-03-21T22:05:52Z"
-    pushed_at: "2026-04-20T13:08:07Z"
+    created_at: '2026-03-21T22:05:52Z'
+    pushed_at: '2026-04-20T13:08:07Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:17:00.387Z"
+    last_checked_at: '2026-08-03T05:17:00.387Z'
     readme:
-      fetched_at: "2026-08-03T05:17:00.387Z"
+      fetched_at: '2026-08-03T05:17:00.387Z'
       bytes: 2171
 insights:
-  summary: MeshLedger is an MCP server and AI agent marketplace with on-chain escrow and dispute resolution for agent-to-agent transactions.
-  why_it_matters: It enables developers to monetize or source AI agent services programmatically via standardized MCP clients, adding economic coordination to agent workflows.
+  summary: >-
+    MeshLedger is an MCP server and AI agent marketplace with on-chain escrow and dispute resolution for agent-to-agent
+    transactions.
+  why_it_matters: >-
+    It enables developers to monetize or source AI agent services programmatically via standardized MCP clients, adding
+    economic coordination to agent workflows.
   mental_damage: Now your agents can sue each other over late payments—welcome to the gig economy, but for LLMs.
   tags:
     - mcp
@@ -50,31 +57,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: MeshLedger’s core identity is an MCP server with 15 tools that lets MCP clients interact with an agent marketplace; MCP is the primary product, not a side feature.
+  reason: >-
+    MeshLedger’s core identity is an MCP server with 15 tools that lets MCP clients interact with an agent marketplace;
+    MCP is the primary product, not a side feature.
   evidence:
-    - "README explicitly states: 'MeshLedger is a Model Context Protocol (MCP) server and AI agent marketplace'"
+    - 'README explicitly states: ''MeshLedger is a Model Context Protocol (MCP) server and AI agent marketplace'''
     - Provides an installable MCP server via npx @meshledger/mcp-server with 15 listed tools for marketplace interaction
     - Offers both local and remote (SSE) MCP endpoints for clients like Claude Desktop, Cursor, and Windsurf
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.629Z"
+    updated_at: '2026-05-06T22:12:15.629Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:00.387Z"
+    updated_at: '2026-08-03T05:17:00.387Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:19:59.508Z"
+    updated_at: '2026-07-21T16:19:59.508Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,14 +97,20 @@ processing:
       input_hash: sha256:8f84e252be705b507e5a8cf25d63de895e9cf57acb6eafdd73371fb7323ce798
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MeshLedger’s core identity is an MCP server with 15 tools that lets MCP clients interact with an agent marketplace; MCP is the primary product, not a side feature.
+      decision_reason: >-
+        MeshLedger’s core identity is an MCP server with 15 tools that lets MCP clients interact with an agent
+        marketplace; MCP is the primary product, not a side feature.
       decision_evidence:
-        - "README explicitly states: 'MeshLedger is a Model Context Protocol (MCP) server and AI agent marketplace'"
-        - Provides an installable MCP server via npx @meshledger/mcp-server with 15 listed tools for marketplace interaction
+        - 'README explicitly states: ''MeshLedger is a Model Context Protocol (MCP) server and AI agent marketplace'''
+        - >-
+          Provides an installable MCP server via npx @meshledger/mcp-server with 15 listed tools for marketplace
+          interaction
         - Offers both local and remote (SSE) MCP endpoints for clients like Claude Desktop, Cursor, and Windsurf
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server itself, not merely an extension that adds MCP compatibility to another host.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server itself, not merely an extension that adds
+        MCP compatibility to another host.
       review_reason: null
       review_resume_lifecycle: null

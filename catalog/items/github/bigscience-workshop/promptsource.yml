@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bigscience-workshop__promptsource__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -19,7 +19,10 @@ provenance:
           - Other LLM Frameworks
         anchor_text: PromptSource
         extracted_url: https://github.com/bigscience-workshop/promptsource
-        surrounding_text: "- [PromptSource](https://github.com/bigscience-workshop/promptsource): About Toolkit for creating, sharing and using natural language prompts. ![GitHub Repo stars](https://img.shields.io/github/stars/bigscience-workshop/promptsource?style=social)"
+        surrounding_text: >-
+          - [PromptSource](https://github.com/bigscience-workshop/promptsource): About Toolkit for creating, sharing and
+          using natural language prompts. ![GitHub Repo
+          stars](https://img.shields.io/github/stars/bigscience-workshop/promptsource?style=social)
         confidence: high
 metadata:
   github:
@@ -29,21 +32,25 @@ metadata:
     archived: false
     full_name: bigscience-workshop/promptsource
     html_url: https://github.com/bigscience-workshop/promptsource
-    created_at: "2021-05-19T15:26:25Z"
-    pushed_at: "2023-10-23T17:59:41Z"
+    created_at: '2021-05-19T15:26:25Z'
+    pushed_at: '2023-10-23T17:59:41Z'
     description: Toolkit for creating, sharing and using natural language prompts.
-    homepage: ""
+    homepage: ''
     topics:
       - machine-learning
       - natural-language-processing
       - nlp
-    last_checked_at: "2026-09-07T04:13:33.977Z"
+    last_checked_at: '2026-09-07T04:13:33.977Z'
     readme:
-      fetched_at: "2026-09-07T04:13:33.977Z"
+      fetched_at: '2026-09-07T04:13:33.977Z'
       bytes: 9587
 insights:
-  summary: Toolkit for creating, sharing and using natural language prompts with a public pool of 2000+ prompts for 170+ datasets.
-  why_it_matters: Developers can programmatically apply and manage prompts for NLP datasets, enabling consistent zero-shot and few-shot experimentation.
+  summary: >-
+    Toolkit for creating, sharing and using natural language prompts with a public pool of 2000+ prompts for 170+
+    datasets.
+  why_it_matters: >-
+    Developers can programmatically apply and manage prompts for NLP datasets, enabling consistent zero-shot and
+    few-shot experimentation.
   mental_damage: Finally, a way to turn your dataset into a prompt zoo where every example gets its own Jinja2 circus act.
   tags:
     - prompt-engineering
@@ -54,31 +61,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Core novelty is prompt creation, sharing, and templating (Jinja2) for NLP datasets, fitting Prompt & Context Engineering.
+  reason: >-
+    Core novelty is prompt creation, sharing, and templating (Jinja2) for NLP datasets, fitting Prompt & Context
+    Engineering.
   evidence:
-    - "Repo description: 'Toolkit for creating, sharing and using natural language prompts'"
-    - "README: 'PromptSource is a toolkit for creating, sharing and using natural language prompts' with P3 public pool of prompts"
-    - "Source-list context: listed under 'Other LLM Frameworks' in awesome-langchain"
+    - 'Repo description: ''Toolkit for creating, sharing and using natural language prompts'''
+    - >-
+      README: 'PromptSource is a toolkit for creating, sharing and using natural language prompts' with P3 public pool
+      of prompts
+    - 'Source-list context: listed under ''Other LLM Frameworks'' in awesome-langchain'
 placement:
-  primary_category: context-engineering
-  section: Prompt Assets & Templating
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Prompt Engineering & Management
 lifecycle:
   status: promotion_candidate
   reason: Stars (3010) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.605Z"
+    updated_at: '2026-05-06T22:12:15.605Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:33.977Z"
+    updated_at: '2026-09-07T04:13:33.977Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:26:03.209Z"
+    updated_at: '2026-07-21T15:26:03.209Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -91,14 +103,20 @@ processing:
       input_hash: sha256:5b2df9a06dfa86a0db7e4884ccc94d35a9aeff7537d7c99f4427441f166478e7
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: Core novelty is prompt creation, sharing, and templating (Jinja2) for NLP datasets, fitting Prompt & Context Engineering.
+      decision_reason: >-
+        Core novelty is prompt creation, sharing, and templating (Jinja2) for NLP datasets, fitting Prompt & Context
+        Engineering.
       decision_evidence:
-        - "Repo description: 'Toolkit for creating, sharing and using natural language prompts'"
-        - "README: 'PromptSource is a toolkit for creating, sharing and using natural language prompts' with P3 public pool of prompts"
-        - "Source-list context: listed under 'Other LLM Frameworks' in awesome-langchain"
+        - 'Repo description: ''Toolkit for creating, sharing and using natural language prompts'''
+        - >-
+          README: 'PromptSource is a toolkit for creating, sharing and using natural language prompts' with P3 public
+          pool of prompts
+        - 'Source-list context: listed under ''Other LLM Frameworks'' in awesome-langchain'
       category_candidates:
         - context-engineering
         - ai-frameworks
-      contrastive_reason: Choose context-engineering over ai-frameworks because the primary value is prompt assets and templating rather than a code-first framework for building agents or workflows.
+      contrastive_reason: >-
+        Choose context-engineering over ai-frameworks because the primary value is prompt assets and templating rather
+        than a code-first framework for building agents or workflows.
       review_reason: null
       review_resume_lifecycle: null

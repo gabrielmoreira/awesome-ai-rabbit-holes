@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__0rkz__byte-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-18T05:40:04.065Z"
+      discovered_at: '2026-06-18T05:40:04.065Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: 0rkz/byte-mcp-server
         extracted_url: https://github.com/0rkz/byte-mcp-server
-        surrounding_text: "- [0rkz/byte-mcp-server](https://github.com/0rkz/byte-mcp-server) [![0rkz/byte-mcp-server MCP server](https://glama.ai/mcp/servers/0rkz/byte-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/0rkz/byte-mcp-server) 📇 ☁️ 🏠 🍎 🪟 🐧 - PayPerByte — per-byte data marketplace for AI agents on Arbitrum. Discover publishers, evaluate on-chain Proof-of-Quality Score (PQS), subscribe + pay per request in USDC via x402 gateway. 15 tools, zero API keys."
+        surrounding_text: >-
+          - [0rkz/byte-mcp-server](https://github.com/0rkz/byte-mcp-server) [![0rkz/byte-mcp-server MCP
+          server](https://glama.ai/mcp/servers/0rkz/byte-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/0rkz/byte-mcp-server)
+          📇 ☁️ 🏠 🍎 🪟 🐧 - PayPerByte — per-byte data marketplace for AI agents on Arbitrum. Discover publishers,
+          evaluate on-chain Proof-of-Quality Score (PQS), subscribe + pay per request in USDC via x402 gateway. 15
+          tools, zero API keys.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: 0rkz/byte-mcp-server
     html_url: https://github.com/0rkz/byte-mcp-server
-    created_at: "2026-04-20T22:00:10Z"
-    pushed_at: "2026-09-13T06:02:25Z"
-    description: MCP server for PayPerByte — pay-per-call USDC data feeds for AI agents (x402 on Base; EIP-712 attestations). No API keys, no token.
+    created_at: '2026-04-20T22:00:10Z'
+    pushed_at: '2026-09-13T06:02:25Z'
+    description: >-
+      MCP server for PayPerByte — pay-per-call USDC data feeds for AI agents (x402 on Base; EIP-712 attestations). No
+      API keys, no token.
     homepage: https://www.payperbyte.io
     topics:
       - agent-commerce
@@ -47,14 +54,20 @@ metadata:
       - model-context-protocol
       - web3
       - x402
-    last_checked_at: "2026-09-17T04:13:24.832Z"
+    last_checked_at: '2026-09-17T04:13:24.832Z'
     readme:
-      fetched_at: "2026-09-17T04:13:24.832Z"
+      fetched_at: '2026-09-17T04:13:24.832Z'
       bytes: 13258
 insights:
-  summary: An MCP server that provides AI agents with per-byte USDC data feeds and verified provenance-first data via the PayPerByte library.
-  why_it_matters: It allows agents to autonomously purchase and verify trusted data feeds using a pay-per-call model without needing traditional API keys or off-chain accounts.
-  mental_damage: We have finally reached the era where your LLM can accidentally spend your real-world USDC on a weather report while you're asleep.
+  summary: >-
+    An MCP server that provides AI agents with per-byte USDC data feeds and verified provenance-first data via the
+    PayPerByte library.
+  why_it_matters: >-
+    It allows agents to autonomously purchase and verify trusted data feeds using a pay-per-call model without needing
+    traditional API keys or off-chain accounts.
+  mental_damage: >-
+    We have finally reached the era where your LLM can accidentally spend your real-world USDC on a weather report while
+    you're asleep.
   tags:
     - mcp
     - web3
@@ -64,31 +77,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's core identity is an MCP server providing specific domain-based tools for agent commerce and data retrieval.
+  reason: >-
+    The project's core identity is an MCP server providing specific domain-based tools for agent commerce and data
+    retrieval.
   evidence:
     - Repo description explicitly calls it an 'MCP server for BYTE Library'
     - README describes a set of 15 tools (discovery, subscribe, buy) meant for use in an MCP client
     - Includes specific MCP-native functionality like 'byte_buy_data' and 'byte_verify_payload'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-18T05:40:04.065Z"
+    updated_at: '2026-06-18T05:40:04.065Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:24.832Z"
+    updated_at: '2026-09-17T04:13:24.832Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-18T05:41:52.626Z"
+    updated_at: '2026-06-18T05:41:52.626Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alexei-led__k8s-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: alexei-led/k8s-mcp-server
         extracted_url: https://github.com/alexei-led/k8s-mcp-server
-        surrounding_text: "- [alexei-led/k8s-mcp-server](https://github.com/alexei-led/k8s-mcp-server) 🐍 - A lightweight yet robust server that empowers AI assistants to securely execute Kubernetes CLI commands (`kubectl`, `helm`, `istioctl`, and `argocd`) using Unix pipes in a safe Docker environment with multi-architecture support."
+        surrounding_text: >-
+          - [alexei-led/k8s-mcp-server](https://github.com/alexei-led/k8s-mcp-server) 🐍 - A lightweight yet robust
+          server that empowers AI assistants to securely execute Kubernetes CLI commands (`kubectl`, `helm`, `istioctl`,
+          and `argocd`) using Unix pipes in a safe Docker environment with multi-architecture support.
         confidence: high
 metadata:
   github:
@@ -30,10 +33,14 @@ metadata:
     archived: true
     full_name: alexei-led/k8s-mcp-server
     html_url: https://github.com/alexei-led/k8s-mcp-server
-    created_at: "2025-03-27T16:14:32Z"
-    pushed_at: "2026-02-27T15:41:55Z"
-    description: K8s-mcp-server is a Model Context Protocol (MCP) server that enables AI assistants like Claude to securely execute Kubernetes commands. It provides a bridge between language models and essential Kubernetes CLI tools including kubectl, helm, istioctl, and argocd, allowing AI systems to assist with cluster management, troubleshooting, and deployments
-    homepage: ""
+    created_at: '2025-03-27T16:14:32Z'
+    pushed_at: '2026-02-27T15:41:55Z'
+    description: >-
+      K8s-mcp-server is a Model Context Protocol (MCP) server that enables AI assistants like Claude to securely execute
+      Kubernetes commands. It provides a bridge between language models and essential Kubernetes CLI tools including
+      kubectl, helm, istioctl, and argocd, allowing AI systems to assist with cluster management, troubleshooting, and
+      deployments
+    homepage: ''
     topics:
       - ai-assistant
       - argocd
@@ -48,13 +55,17 @@ metadata:
       - mcp
       - mcp-server
       - modelcontextprotocol
-    last_checked_at: "2026-09-17T04:13:39.592Z"
+    last_checked_at: '2026-09-17T04:13:39.592Z'
     readme:
-      fetched_at: "2026-09-17T04:13:39.592Z"
+      fetched_at: '2026-09-17T04:13:39.592Z'
       bytes: 10381
 insights:
-  summary: An MCP server that enables AI assistants like Claude to securely execute Kubernetes commands (kubectl, helm, istioctl, argocd) via a containerized bridge.
-  why_it_matters: Developers can delegate cluster management, troubleshooting, and deployments to their AI assistant without leaving the chat interface.
+  summary: >-
+    An MCP server that enables AI assistants like Claude to securely execute Kubernetes commands (kubectl, helm,
+    istioctl, argocd) via a containerized bridge.
+  why_it_matters: >-
+    Developers can delegate cluster management, troubleshooting, and deployments to their AI assistant without leaving
+    the chat interface.
   mental_damage: Now your AI can `kubectl delete --all --all-namespaces` with the same confidence it explains recursion.
   tags:
     - mcp
@@ -65,31 +76,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: a server that exposes Kubernetes tools via the Model Context Protocol."
+  reason: 'MCP is the product identity: a server that exposes Kubernetes tools via the Model Context Protocol.'
   evidence:
     - Repo description explicitly states it is an MCP server for Kubernetes CLI tools
     - README demonstrates integration with Claude Desktop via MCP configuration
     - Listed in awesome-mcp-servers under Server Implementations > Cloud Platforms
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.601Z"
+    updated_at: '2026-05-06T22:12:15.601Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:39.592Z"
+    updated_at: '2026-09-17T04:13:39.592Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:21:56.704Z"
+    updated_at: '2026-07-21T15:21:56.704Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -102,7 +114,7 @@ processing:
       input_hash: sha256:7a3283bbc12f98b6294ae7274559e5e89c546832ef88bea89ef23edb7cefa3fb
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: a server that exposes Kubernetes tools via the Model Context Protocol."
+      decision_reason: 'MCP is the product identity: a server that exposes Kubernetes tools via the Model Context Protocol.'
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Kubernetes CLI tools
         - README demonstrates integration with Claude Desktop via MCP configuration
@@ -110,6 +122,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing Kubernetes tools, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server exposing Kubernetes tools, not an
+        extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

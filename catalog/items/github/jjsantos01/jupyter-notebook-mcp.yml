@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jjsantos01__jupyter-notebook-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🧮 <a name="data-science-tools"></a>Data Science Tools
         anchor_text: jjsantos01/jupyter-notebook-mcp
         extracted_url: https://github.com/jjsantos01/jupyter-notebook-mcp
-        surrounding_text: "- [jjsantos01/jupyter-notebook-mcp](https://github.com/jjsantos01/jupyter-notebook-mcp) 🐍 🏠 - connects Jupyter Notebook to Claude AI, allowing Claude to directly interact with and control Jupyter Notebooks."
+        surrounding_text: >-
+          - [jjsantos01/jupyter-notebook-mcp](https://github.com/jjsantos01/jupyter-notebook-mcp) 🐍 🏠 - connects
+          Jupyter Notebook to Claude AI, allowing Claude to directly interact with and control Jupyter Notebooks.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,25 @@ metadata:
     archived: false
     full_name: jjsantos01/jupyter-notebook-mcp
     html_url: https://github.com/jjsantos01/jupyter-notebook-mcp
-    created_at: "2025-03-26T19:55:58Z"
-    pushed_at: "2025-04-02T04:37:21Z"
+    created_at: '2025-03-26T19:55:58Z'
+    pushed_at: '2025-04-02T04:37:21Z'
     description: A Model Context Protocol (MCP) for Jupyter Notebook
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:05:50.788Z"
+    last_checked_at: '2026-07-30T05:05:50.788Z'
     readme:
-      fetched_at: "2026-07-30T05:05:50.788Z"
+      fetched_at: '2026-07-30T05:05:50.788Z'
       bytes: 11542
 insights:
-  summary: An MCP server that enables Claude AI to interact with and control Jupyter Notebook (v6.x) via WebSocket-based integration.
-  why_it_matters: Developers can now delegate notebook cell manipulation, execution, and output retrieval to Claude AI, turning Jupyter into an AI-assisted data analysis environment.
-  mental_damage: Finally, a way to make Jupyter Notebook feel like it was designed for AI collaboration instead of just being a glorified Python scratchpad.
+  summary: >-
+    An MCP server that enables Claude AI to interact with and control Jupyter Notebook (v6.x) via WebSocket-based
+    integration.
+  why_it_matters: >-
+    Developers can now delegate notebook cell manipulation, execution, and output retrieval to Claude AI, turning
+    Jupyter into an AI-assisted data analysis environment.
+  mental_damage: >-
+    Finally, a way to make Jupyter Notebook feel like it was designed for AI collaboration instead of just being a
+    glorified Python scratchpad.
   tags:
     - mcp
     - jupyter
@@ -51,31 +59,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server for Jupyter Notebook, fitting the MCP Servers & Tooling category where MCP is the primary adopted thing.
+  reason: >-
+    The product's core identity is an MCP server for Jupyter Notebook, fitting the MCP Servers & Tooling category where
+    MCP is the primary adopted thing.
   evidence:
     - Repo description explicitly states it is an MCP for Jupyter Notebook
     - README details a WebSocket-based MCP server implementation for Claude AI integration
     - Already listed in awesome-mcp-servers under Data Science Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: '2026-05-06T22:12:15.622Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:50.788Z"
+    updated_at: '2026-07-30T05:05:50.788Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:49.180Z"
+    updated_at: '2026-07-21T16:10:49.180Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +99,9 @@ processing:
       input_hash: sha256:b9536f193e93773aac15a541e8b0015f2fe13b9d033bbe82f277696c05062059
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP server for Jupyter Notebook, fitting the MCP Servers & Tooling category where MCP is the primary adopted thing.
+      decision_reason: >-
+        The product's core identity is an MCP server for Jupyter Notebook, fitting the MCP Servers & Tooling category
+        where MCP is the primary adopted thing.
       decision_evidence:
         - Repo description explicitly states it is an MCP for Jupyter Notebook
         - README details a WebSocket-based MCP server implementation for Claude AI integration
@@ -96,6 +109,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the primary product identity is an MCP server, not merely an extension layer for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the primary product identity is an MCP server, not merely an extension
+        layer for another assistant.
       review_reason: null
       review_resume_lifecycle: null

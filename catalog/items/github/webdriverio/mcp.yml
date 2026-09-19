@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__webdriverio__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: webdriverio/mcp
         extracted_url: https://github.com/webdriverio/mcp
-        surrounding_text: "- [webdriverio/mcp](https://github.com/webdriverio/mcp) [![mcp MCP server](https://glama.ai/mcp/servers/webdriverio/mcp/badges/score.svg)](https://glama.ai/mcp/servers/webdriverio/mcp) 📇 🏠 - Browser and mobile app automation using WebdriverIO, enabling AI agents to control browsers, interact with web elements, and automate native Android and iOS apps via the WebDriver and Appium protocols."
+        surrounding_text: >-
+          - [webdriverio/mcp](https://github.com/webdriverio/mcp) [![mcp MCP
+          server](https://glama.ai/mcp/servers/webdriverio/mcp/badges/score.svg)](https://glama.ai/mcp/servers/webdriverio/mcp)
+          📇 🏠 - Browser and mobile app automation using WebdriverIO, enabling AI agents to control browsers, interact
+          with web elements, and automate native Android and iOS apps via the WebDriver and Appium protocols.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,12 @@ metadata:
     archived: false
     full_name: webdriverio/mcp
     html_url: https://github.com/webdriverio/mcp
-    created_at: "2025-12-24T09:35:16Z"
-    pushed_at: "2026-07-21T13:00:51Z"
-    description: A Model Context Protocol (MCP) server that enables AI assistants to interact with web browsers and mobile applications using WebDriverIO. Automate Chrome browsers, iOS apps, and Android apps—all through a unified interface.
+    created_at: '2025-12-24T09:35:16Z'
+    pushed_at: '2026-07-21T13:00:51Z'
+    description: >-
+      A Model Context Protocol (MCP) server that enables AI assistants to interact with web browsers and mobile
+      applications using WebDriverIO. Automate Chrome browsers, iOS apps, and Android apps—all through a unified
+      interface.
     homepage: https://www.npmjs.com/package/@wdio/mcp
     topics:
       - android
@@ -43,13 +50,17 @@ metadata:
       - mobile
       - testing
       - webdriverio
-    last_checked_at: "2026-07-21T15:21:11.065Z"
+    last_checked_at: '2026-07-21T15:21:11.065Z'
     readme:
-      fetched_at: "2026-07-21T15:21:11.065Z"
+      fetched_at: '2026-07-21T15:21:11.065Z'
       bytes: 48116
 insights:
-  summary: A Model Context Protocol (MCP) server that enables AI assistants to automate web browsers and mobile applications using WebDriverIO.
-  why_it_matters: Lets developers give AI assistants direct, unified control over browser and mobile test automation through a standardized MCP interface.
+  summary: >-
+    A Model Context Protocol (MCP) server that enables AI assistants to automate web browsers and mobile applications
+    using WebDriverIO.
+  why_it_matters: >-
+    Lets developers give AI assistants direct, unified control over browser and mobile test automation through a
+    standardized MCP interface.
   mental_damage: Finally, your AI assistant can flake on end-to-end tests just like you do.
   tags:
     - mcp
@@ -58,31 +69,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server as its core identity, providing browser and mobile automation via MCP, matching the MCP Servers & Tooling category.
+  reason: >-
+    The product is an MCP server as its core identity, providing browser and mobile automation via MCP, matching the MCP
+    Servers & Tooling category.
   evidence:
-    - "Repo description: 'A Model Context Protocol (MCP) server that enables AI assistants to interact with web browsers and mobile applications using WebDriverIO.'"
+    - >-
+      Repo description: 'A Model Context Protocol (MCP) server that enables AI assistants to interact with web browsers
+      and mobile applications using WebDriverIO.'
     - README emphasizes MCP server installation and configuration for AI assistants like Claude, Cursor, and VS Code.
     - Listed in awesome-mcp-servers under Server Implementations > Browser Automation.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.655Z"
+    updated_at: '2026-05-06T22:12:15.655Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:11.065Z"
+    updated_at: '2026-07-21T15:21:11.065Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:32:03.476Z"
+    updated_at: '2026-05-12T15:32:03.476Z'
     cause: null
     next_retry_at: null
     attempts: 1

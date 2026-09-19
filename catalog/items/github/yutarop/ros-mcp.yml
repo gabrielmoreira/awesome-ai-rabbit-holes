@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__yutarop__ros-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Yutarop/ros-mcp
         extracted_url: https://github.com/yutarop/ros-mcp
-        surrounding_text: "- [Yutarop/ros-mcp](https://github.com/Yutarop/ros-mcp) 🐍 🏠 🐧 - MCP server that supports ROS2 topics, services, and actions communication, and controls robots using natural language."
+        surrounding_text: >-
+          - [Yutarop/ros-mcp](https://github.com/Yutarop/ros-mcp) 🐍 🏠 🐧 - MCP server that supports ROS2 topics,
+          services, and actions communication, and controls robots using natural language.
         confidence: high
 metadata:
   github:
@@ -30,21 +32,23 @@ metadata:
     archived: false
     full_name: Yutarop/ros-mcp
     html_url: https://github.com/Yutarop/ros-mcp
-    created_at: "2025-06-16T00:30:48Z"
-    pushed_at: "2025-08-19T05:34:16Z"
+    created_at: '2025-06-16T00:30:48Z'
+    pushed_at: '2025-08-19T05:34:16Z'
     description: MCP server for ROS to control robots via topics, services, and actions.
-    homepage: ""
+    homepage: ''
     topics:
       - mcp
       - mcp-server
       - ros2
-    last_checked_at: "2026-07-21T15:21:23.529Z"
+    last_checked_at: '2026-07-21T15:21:23.529Z'
     readme:
-      fetched_at: "2026-07-21T15:21:23.529Z"
+      fetched_at: '2026-07-21T15:21:23.529Z'
       bytes: 4748
 insights:
   summary: MCP server for ROS to control robots via topics, services, and actions.
-  why_it_matters: Lets developers interact with ROS2 using natural language through Claude Desktop, lowering the barrier to robotics prototyping.
+  why_it_matters: >-
+    Lets developers interact with ROS2 using natural language through Claude Desktop, lowering the barrier to robotics
+    prototyping.
   mental_damage: Finally, a way to yell at your robot in English instead of wrestling with rostopic echo at 2 a.m.
   tags:
     - mcp
@@ -54,31 +58,36 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: It functions as a terminal-based coding agent that translates natural language prompts into ROS2 commands, enabling developers to control robots via Claude Desktop without writing boilerplate code.
+  reason: >-
+    It functions as a terminal-based coding agent that translates natural language prompts into ROS2 commands, enabling
+    developers to control robots via Claude Desktop without writing boilerplate code.
   evidence:
-    - "Repo description: 'MCP server for ROS to control robots via topics, services, and actions.'"
-    - "README: Processes natural language input, maps it to ROS commands, and communicates with ROS2 topics/services/actions."
-    - "Usage: Integrated with Claude Desktop via MCP to execute robot control prompts like 'move TurtleBot3 forward'."
+    - 'Repo description: ''MCP server for ROS to control robots via topics, services, and actions.'''
+    - >-
+      README: Processes natural language input, maps it to ROS commands, and communicates with ROS2
+      topics/services/actions.
+    - 'Usage: Integrated with Claude Desktop via MCP to execute robot control prompts like ''move TurtleBot3 forward''.'
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: mcp
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.657Z"
+    updated_at: '2026-05-06T22:12:15.657Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:23.529Z"
+    updated_at: '2026-07-21T15:21:23.529Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-18T05:37:56.043Z"
+    updated_at: '2026-05-18T05:37:56.043Z'
     cause: null
     next_retry_at: null
     attempts: 3

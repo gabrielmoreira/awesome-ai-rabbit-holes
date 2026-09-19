@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__firecrawl__dev__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,9 @@ provenance:
           - Official Servers
         anchor_text: Firecrawl
         extracted_url: https://firecrawl.dev
-        surrounding_text: "- **[Firecrawl](https://github.com/mendableai/firecrawl-mcp-server)** - Extract web data with [Firecrawl](https://firecrawl.dev)"
+        surrounding_text: >-
+          - **[Firecrawl](https://github.com/mendableai/firecrawl-mcp-server)** - Extract web data with
+          [Firecrawl](https://firecrawl.dev)
         confidence: high
 metadata:
   github:
@@ -36,9 +38,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Firecrawl is a web scraping and crawler engine designed to turn entire websites into clean, LLM-ready markdown or structured data.
-  why_it_matters: It solves the tedious problem of preprocessing messy HTML into high-quality context for RAG pipelines and agentic workflows.
-  mental_damage: Another layer of abstraction between you and the chaos of the open web, ensuring your LLM sees the world in perfectly formatted markdown.
+  summary: >-
+    Firecrawl is a web scraping and crawler engine designed to turn entire websites into clean, LLM-ready markdown or
+    structured data.
+  why_it_matters: >-
+    It solves the tedious problem of preprocessing messy HTML into high-quality context for RAG pipelines and agentic
+    workflows.
+  mental_damage: >-
+    Another layer of abstraction between you and the chaos of the open web, ensuring your LLM sees the world in
+    perfectly formatted markdown.
   tags:
     - web-scraping
     - llm-context
@@ -48,21 +56,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core utility of Firecrawl is converting raw web content into structured, optimized context for LLMs, which is a classic context engineering problem.
+  reason: >-
+    The core utility of Firecrawl is converting raw web content into structured, optimized context for LLMs, which is a
+    classic context engineering problem.
   evidence:
     - Product focus is converting websites to LLM-ready markdown
     - Included in awesome-mcp-servers as an official server
     - Provides specialized infrastructure for data retrieval for AI models
 placement:
-  primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  primary_category: mcp
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +82,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:45:14.960Z"
+    updated_at: '2026-07-20T15:45:14.960Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,7 +95,9 @@ processing:
       input_hash: sha256:b34bcd40a654c19eb2f16a651c7938d74ccb50df8dc2e55a1750aae450afdba9
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: The core utility of Firecrawl is converting raw web content into structured, optimized context for LLMs, which is a classic context engineering problem.
+      decision_reason: >-
+        The core utility of Firecrawl is converting raw web content into structured, optimized context for LLMs, which
+        is a classic context engineering problem.
       decision_evidence:
         - Product focus is converting websites to LLM-ready markdown
         - Included in awesome-mcp-servers as an official server
@@ -92,6 +105,8 @@ processing:
       category_candidates:
         - context-engineering
         - ai-frameworks
-      contrastive_reason: Choose context-engineering over ai-frameworks because its primary value is the transformation of unstructured web data into high-quality context rather than providing a general-purpose coding library.
+      contrastive_reason: >-
+        Choose context-engineering over ai-frameworks because its primary value is the transformation of unstructured
+        web data into high-quality context rather than providing a general-purpose coding library.
       review_reason: null
       review_resume_lifecycle: null

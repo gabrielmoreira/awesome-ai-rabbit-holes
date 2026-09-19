@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__babelcloud__gbox__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Gru Sandbox
         extracted_url: https://github.com/babelcloud/gru-sandbox
-        surrounding_text: "- **[Gru Sandbox](https://github.com/babelcloud/gru-sandbox)** - Gru-sandbox(gbox) is an open source project that provides a self-hostable sandbox for MCP integration or other AI agent usecases."
+        surrounding_text: >-
+          - **[Gru Sandbox](https://github.com/babelcloud/gru-sandbox)** - Gru-sandbox(gbox) is an open source project
+          that provides a self-hostable sandbox for MCP integration or other AI agent usecases.
         confidence: high
 metadata:
   github:
@@ -29,8 +31,8 @@ metadata:
     archived: false
     full_name: babelcloud/gbox
     html_url: https://github.com/babelcloud/gbox
-    created_at: "2025-03-19T04:07:56Z"
-    pushed_at: "2026-07-16T01:55:05Z"
+    created_at: '2025-03-19T04:07:56Z'
+    pushed_at: '2026-07-16T01:55:05Z'
     description: Cli and MCP for gbox. Enable AI agents to operate Android/Browser/Desktop like human.
     homepage: https://gbox.ai
     topics:
@@ -41,13 +43,15 @@ metadata:
       - linux
       - mcp
       - sandbox
-    last_checked_at: "2026-09-07T04:13:30.780Z"
+    last_checked_at: '2026-09-07T04:13:30.780Z'
     readme:
-      fetched_at: "2026-09-07T04:13:30.780Z"
+      fetched_at: '2026-09-07T04:13:30.780Z'
       bytes: 6716
 insights:
   summary: CLI and MCP server enabling AI agents to operate Android, browser, and desktop environments like a human.
-  why_it_matters: Developers can delegate mobile and desktop automation tasks (e.g., app testing, e-commerce price comparisons) to AI agents via a standardized MCP interface.
+  why_it_matters: >-
+    Developers can delegate mobile and desktop automation tasks (e.g., app testing, e-commerce price comparisons) to AI
+    agents via a standardized MCP interface.
   mental_damage: Now your AI can swipe through Android apps while you question your life choices.
   tags:
     - mcp
@@ -58,31 +62,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: a server providing device/environment control capabilities to agents, with explicit MCP integration as the primary distribution mechanism."
+  reason: >-
+    MCP is the product identity here: a server providing device/environment control capabilities to agents, with
+    explicit MCP integration as the primary distribution mechanism.
   evidence:
     - Repo description explicitly states 'Cli and MCP for gbox'
     - README emphasizes MCP server functionality for Claude Code/Cursor integration
     - Listed in awesome-mcp-servers under 'Community Servers'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: promotion_candidate
   reason: Stars (174) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.604Z"
+    updated_at: '2026-05-06T22:12:15.604Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:30.780Z"
+    updated_at: '2026-09-07T04:13:30.780Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:25:23.587Z"
+    updated_at: '2026-07-21T15:25:23.587Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -95,7 +102,9 @@ processing:
       input_hash: sha256:736ecac3cfc919a7a6d271b2894ba566d9f5babffd5c01e09e04bec13f979d7c
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: a server providing device/environment control capabilities to agents, with explicit MCP integration as the primary distribution mechanism."
+      decision_reason: >-
+        MCP is the product identity here: a server providing device/environment control capabilities to agents, with
+        explicit MCP integration as the primary distribution mechanism.
       decision_evidence:
         - Repo description explicitly states 'Cli and MCP for gbox'
         - README emphasizes MCP server functionality for Claude Code/Cursor integration
@@ -103,6 +112,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server providing device control capabilities, not merely an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server providing device control
+        capabilities, not merely an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

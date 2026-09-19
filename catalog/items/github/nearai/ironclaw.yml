@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nearai__ironclaw__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - OpenClaw ecosystem
         anchor_text: IronClaw
         extracted_url: https://github.com/nearai/ironclaw
-        surrounding_text: "- **[IronClaw](https://github.com/nearai/ironclaw)** `⭐ 12.1k` — OpenClaw rewritten in Rust by NEAR AI; WASM sandbox isolation, capability-based permissions, and prompt injection defense."
+        surrounding_text: >-
+          - **[IronClaw](https://github.com/nearai/ironclaw)** `⭐ 12.1k` — OpenClaw rewritten in Rust by NEAR AI; WASM
+          sandbox isolation, capability-based permissions, and prompt injection defense.
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: nearai/ironclaw
     html_url: https://github.com/nearai/ironclaw
-    created_at: "2026-02-03T06:57:10Z"
-    pushed_at: "2026-07-20T15:10:14Z"
+    created_at: '2026-02-03T06:57:10Z'
+    pushed_at: '2026-07-20T15:10:14Z'
     description: IronClaw is an Agent OS focused on privacy, security and extensibility
     homepage: https://www.ironclaw.com
     topics:
@@ -40,14 +42,20 @@ metadata:
       - rlm
       - rust
       - wasm
-    last_checked_at: "2026-07-20T15:12:01.125Z"
+    last_checked_at: '2026-07-20T15:12:01.125Z'
     readme:
-      fetched_at: "2026-07-20T15:12:01.125Z"
+      fetched_at: '2026-07-20T15:12:01.125Z'
       bytes: 14603
 insights:
-  summary: IronClaw is an open-source, Rust-based personal AI agent OS that runs locally with WASM sandboxing, persistent memory, and multi-channel interfaces for secure task automation.
-  why_it_matters: It offers developers a self-hosted alternative to cloud-bound assistants with strong security guarantees, dynamic tool building, and local data control.
-  mental_damage: Yet another local AI agent promising you the moon, so you can happily spend your weekend tweaking PostgreSQL pgvector indexes instead of actually shipping code.
+  summary: >-
+    IronClaw is an open-source, Rust-based personal AI agent OS that runs locally with WASM sandboxing, persistent
+    memory, and multi-channel interfaces for secure task automation.
+  why_it_matters: >-
+    It offers developers a self-hosted alternative to cloud-bound assistants with strong security guarantees, dynamic
+    tool building, and local data control.
+  mental_damage: >-
+    Yet another local AI agent promising you the moon, so you can happily spend your weekend tweaking PostgreSQL
+    pgvector indexes instead of actually shipping code.
   tags:
     - local-ai
     - agent-os
@@ -57,13 +65,18 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: IronClaw is a standalone personal AI assistant that can plan, execute tasks, build tools, and automate workflows across a repo and local environment, fitting the coding agent definition.
+  reason: >-
+    IronClaw is a standalone personal AI assistant that can plan, execute tasks, build tools, and automate workflows
+    across a repo and local environment, fitting the coding agent definition.
   evidence:
     - Repo description explicitly states it's an 'Agent OS' with 12,152 stars and recent push activity in 2026.
-    - README describes dynamic tool building, routine automation, Docker sandboxing, and multi-channel REPL/HTTP interfaces.
+    - >-
+      README describes dynamic tool building, routine automation, Docker sandboxing, and multi-channel REPL/HTTP
+      interfaces.
     - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > OpenClaw ecosystem'.
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -71,21 +84,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.632Z"
+    updated_at: '2026-05-06T22:12:15.632Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:12:01.125Z"
+    updated_at: '2026-07-20T15:12:01.125Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

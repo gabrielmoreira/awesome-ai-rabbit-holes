@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__memorilabs__memori__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -20,7 +20,7 @@ provenance:
           - Memory & Knowledge
         anchor_text: Memori
         extracted_url: https://github.com/memorilabs/memori
-        surrounding_text: "| [Memori](https://github.com/MemoriLabs/Memori) | SQL Native Memory Layer for LLMs & Agents |"
+        surrounding_text: '| [Memori](https://github.com/MemoriLabs/Memori) | SQL Native Memory Layer for LLMs & Agents |'
         confidence: high
 metadata:
   github:
@@ -30,9 +30,13 @@ metadata:
     archived: false
     full_name: MemoriLabs/Memori
     html_url: https://github.com/MemoriLabs/Memori
-    created_at: "2025-07-24T07:07:51Z"
-    pushed_at: "2026-07-31T15:24:45Z"
-    description: Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems. Built for enterprise, Memori works with the data infrastructure you already run, no rip-and-replace, and deploys across managed cloud, single-tenant cloud, VPC, and on-premises.
+    created_at: '2025-07-24T07:07:51Z'
+    pushed_at: '2026-07-31T15:24:45Z'
+    description: >-
+      Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution and conversation
+      into structured, persistent state for production systems. Built for enterprise, Memori works with the data
+      infrastructure you already run, no rip-and-replace, and deploys across managed cloud, single-tenant cloud, VPC,
+      and on-premises.
     homepage: https://memorilabs.ai
     topics:
       - agent
@@ -53,14 +57,20 @@ metadata:
       - state-management
       - stateful
       - typescript
-    last_checked_at: "2026-08-03T05:16:59.798Z"
+    last_checked_at: '2026-08-03T05:16:59.798Z'
     readme:
-      fetched_at: "2026-08-03T05:16:59.798Z"
+      fetched_at: '2026-08-03T05:16:59.798Z'
       bytes: 12542
 insights:
-  summary: Memori is agent-native memory infrastructure that turns agent execution and conversation into structured, persistent state for production systems.
-  why_it_matters: It gives developers a way to retain long-term context across agent interactions without bloating prompts, reducing token usage while preserving reasoning quality.
-  mental_damage: Another layer of infrastructure to bolt onto your agent stack, promising memory that 'just works' while you debug why it forgot your user's name again.
+  summary: >-
+    Memori is agent-native memory infrastructure that turns agent execution and conversation into structured, persistent
+    state for production systems.
+  why_it_matters: >-
+    It gives developers a way to retain long-term context across agent interactions without bloating prompts, reducing
+    token usage while preserving reasoning quality.
+  mental_damage: >-
+    Another layer of infrastructure to bolt onto your agent stack, promising memory that 'just works' while you debug
+    why it forgot your user's name again.
   tags:
     - memory
     - agent-infrastructure
@@ -68,31 +78,41 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Memori's core is a memory and context-shaping layer that improves what goes into the model via structured persistence and retrieval, making it a fit for Prompt & Context Engineering rather than a coding agent or orchestration platform.
+  reason: >-
+    Memori's core is a memory and context-shaping layer that improves what goes into the model via structured
+    persistence and retrieval, making it a fit for Prompt & Context Engineering rather than a coding agent or
+    orchestration platform.
   evidence:
-    - "Repo description: 'Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems.'"
-    - "README: 'Memory from what agents do, not just what they say.' and 'Memori recalls that your favorite color is blue.' showing automatic persistence and recall."
-    - Benchmarks show 81.95% accuracy on LoCoMo with 67% prompt size reduction vs. Zep, proving its context compression and retrieval value.
+    - >-
+      Repo description: 'Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution
+      and conversation into structured, persistent state for production systems.'
+    - >-
+      README: 'Memory from what agents do, not just what they say.' and 'Memori recalls that your favorite color is
+      blue.' showing automatic persistence and recall.
+    - >-
+      Benchmarks show 81.95% accuracy on LoCoMo with 67% prompt size reduction vs. Zep, proving its context compression
+      and retrieval value.
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: promotion_candidate
   reason: Stars (14077) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.629Z"
+    updated_at: '2026-05-06T22:12:15.629Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:59.798Z"
+    updated_at: '2026-08-03T05:16:59.798Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:19:48.235Z"
+    updated_at: '2026-07-21T16:19:48.235Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -105,14 +125,25 @@ processing:
       input_hash: sha256:872fe1ea1b290654092f81ab0ded3ced938a64b278edcb349378fe5fa5c577d7
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: Memori's core is a memory and context-shaping layer that improves what goes into the model via structured persistence and retrieval, making it a fit for Prompt & Context Engineering rather than a coding agent or orchestration platform.
+      decision_reason: >-
+        Memori's core is a memory and context-shaping layer that improves what goes into the model via structured
+        persistence and retrieval, making it a fit for Prompt & Context Engineering rather than a coding agent or
+        orchestration platform.
       decision_evidence:
-        - "Repo description: 'Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems.'"
-        - "README: 'Memory from what agents do, not just what they say.' and 'Memori recalls that your favorite color is blue.' showing automatic persistence and recall."
-        - Benchmarks show 81.95% accuracy on LoCoMo with 67% prompt size reduction vs. Zep, proving its context compression and retrieval value.
+        - >-
+          Repo description: 'Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent
+          execution and conversation into structured, persistent state for production systems.'
+        - >-
+          README: 'Memory from what agents do, not just what they say.' and 'Memori recalls that your favorite color is
+          blue.' showing automatic persistence and recall.
+        - >-
+          Benchmarks show 81.95% accuracy on LoCoMo with 67% prompt size reduction vs. Zep, proving its context
+          compression and retrieval value.
       category_candidates:
         - context-engineering
         - ai-frameworks
-      contrastive_reason: Choose context-engineering over ai-frameworks because Memori's primary value is its memory and context retrieval system, not as a code-first SDK or framework for building agents.
+      contrastive_reason: >-
+        Choose context-engineering over ai-frameworks because Memori's primary value is its memory and context retrieval
+        system, not as a code-first SDK or framework for building agents.
       review_reason: null
       review_resume_lifecycle: null

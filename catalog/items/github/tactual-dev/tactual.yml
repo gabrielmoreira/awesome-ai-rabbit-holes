@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tactual-dev__tactual__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: tactual-dev/tactual
         extracted_url: https://github.com/tactual-dev/tactual
-        surrounding_text: "- [tactual-dev/tactual](https://github.com/tactual-dev/tactual) [![tactual-dev/tactual MCP server](https://glama.ai/mcp/servers/tactual-dev/tactual/badges/score.svg)](https://glama.ai/mcp/servers/tactual-dev/tactual) 📇 🏠 🍎 🪟 🐧 - Screen-reader navigation cost analyzer. Models real AT user effort with per-profile scoring, graph-based pathfinding, and step-by-step navigation traces."
+        surrounding_text: >-
+          - [tactual-dev/tactual](https://github.com/tactual-dev/tactual) [![tactual-dev/tactual MCP
+          server](https://glama.ai/mcp/servers/tactual-dev/tactual/badges/score.svg)](https://glama.ai/mcp/servers/tactual-dev/tactual)
+          📇 🏠 🍎 🪟 🐧 - Screen-reader navigation cost analyzer. Models real AT user effort with per-profile scoring,
+          graph-based pathfinding, and step-by-step navigation traces.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: tactual-dev/tactual
     html_url: https://github.com/tactual-dev/tactual
-    created_at: "2026-04-05T07:51:17Z"
-    pushed_at: "2026-06-28T17:53:23Z"
-    description: Screen-reader navigation cost analyzer — models the real effort to discover, reach, and operate interactive web content
+    created_at: '2026-04-05T07:51:17Z'
+    pushed_at: '2026-06-28T17:53:23Z'
+    description: >-
+      Screen-reader navigation cost analyzer — models the real effort to discover, reach, and operate interactive web
+      content
     homepage: https://tactual.sh
     topics:
       - a11y
@@ -45,14 +51,20 @@ metadata:
       - sarif
       - screen-reader
       - wcag
-    last_checked_at: "2026-07-21T15:20:39.112Z"
+    last_checked_at: '2026-07-21T15:20:39.112Z'
     readme:
-      fetched_at: "2026-07-21T15:20:39.112Z"
+      fetched_at: '2026-07-21T15:20:39.112Z'
       bytes: 57857
 insights:
-  summary: A screen-reader navigation cost analyzer that models the real effort required to discover, reach, and operate interactive web content via Playwright and optional MCP server integration.
-  why_it_matters: It shifts accessibility testing from static conformance checks to measuring actual user effort, outputting actionable findings with selectors and remediation candidates for CI and local workflows.
-  mental_damage: We have finally built an AI tool to measure how many keystrokes it takes a blind user to reach the checkout button, which is a very specific kind of progress to celebrate while your own CLIs remain undocumented.
+  summary: >-
+    A screen-reader navigation cost analyzer that models the real effort required to discover, reach, and operate
+    interactive web content via Playwright and optional MCP server integration.
+  why_it_matters: >-
+    It shifts accessibility testing from static conformance checks to measuring actual user effort, outputting
+    actionable findings with selectors and remediation candidates for CI and local workflows.
+  mental_damage: >-
+    We have finally built an AI tool to measure how many keystrokes it takes a blind user to reach the checkout button,
+    which is a very specific kind of progress to celebrate while your own CLIs remain undocumented.
   tags:
     - accessibility
     - mcp
@@ -61,36 +73,35 @@ insights:
     - playwright
   confidence: high
 curation:
-  status: included
-  reason: MCP is a core product identity shipped as a runtime dependency for editor workflows, while the underlying tool is a developer-facing accessibility analyzer that fits the MCP Servers & Tooling scope.
+  status: pending
+  reason: 'Manual audit: Primary identity is a screen-reader accessibility analyzer, not a developer-facing AI tool.'
   evidence:
-    - Repo description explicitly calls it a 'screen-reader navigation cost analyzer' with MCP listed as a topic.
-    - README states it can be run 'via the MCP server in your editor' and ships the MCP SDK as a runtime dependency.
-    - Included in awesome-mcp-servers under Developer Tools, reinforcing its MCP server identity.
+    - Manual review of Jev Middleware & Generic audit, 2026-09-19
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.650Z"
+    updated_at: '2026-05-06T22:12:15.650Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:39.112Z"
+    updated_at: '2026-07-21T15:20:39.112Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

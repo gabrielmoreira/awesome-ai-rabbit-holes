@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ukkit__memcord__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: ukkit/memcord
         extracted_url: https://github.com/ukkit/memcord
-        surrounding_text: "- [ukkit/memcord](https://github.com/ukkit/memcord) 🐍 🏠 🐧 🍎 - A MCP server that keeps your chat history organized and searchable—with AI-powered summaries, secure memory, and full control."
+        surrounding_text: >-
+          - [ukkit/memcord](https://github.com/ukkit/memcord) 🐍 🏠 🐧 🍎 - A MCP server that keeps your chat history
+          organized and searchable—with AI-powered summaries, secure memory, and full control.
         confidence: high
 metadata:
   github:
@@ -30,9 +32,11 @@ metadata:
     archived: false
     full_name: ukkit/memcord
     html_url: https://github.com/ukkit/memcord
-    created_at: "2025-06-27T04:59:50Z"
-    pushed_at: "2026-07-14T12:57:10Z"
-    description: 🧠 Self-hosted, privacy-first MCP server for long-term AI memory — save, search & summarize Claude/ChatGPT chat history locally. No cloud, no database.
+    created_at: '2025-06-27T04:59:50Z'
+    pushed_at: '2026-07-14T12:57:10Z'
+    description: >-
+      🧠 Self-hosted, privacy-first MCP server for long-term AI memory — save, search & summarize Claude/ChatGPT chat
+      history locally. No cloud, no database.
     homepage: https://github.com/ukkit/memcord/releases
     topics:
       - ai-assistant
@@ -54,14 +58,20 @@ metadata:
       - privacy-first
       - privacy-focused
       - python
-    last_checked_at: "2026-07-21T15:20:58.573Z"
+    last_checked_at: '2026-07-21T15:20:58.573Z'
     readme:
-      fetched_at: "2026-07-21T15:20:58.573Z"
+      fetched_at: '2026-07-21T15:20:58.573Z'
       bytes: 10106
 insights:
-  summary: Privacy-first, self-hosted MCP server that persists AI chat history into searchable, summarized memory slots for Claude and other MCP-compatible assistants.
-  why_it_matters: Lets developers maintain long-term context across AI conversations without shipping chat history to cloud providers, using local storage and intelligent summarization.
-  mental_damage: Because we now need a separate SQLite database with 28 RESTful tools just to remember what we told the agent three prompts ago.
+  summary: >-
+    Privacy-first, self-hosted MCP server that persists AI chat history into searchable, summarized memory slots for
+    Claude and other MCP-compatible assistants.
+  why_it_matters: >-
+    Lets developers maintain long-term context across AI conversations without shipping chat history to cloud providers,
+    using local storage and intelligent summarization.
+  mental_damage: >-
+    Because we now need a separate SQLite database with 28 RESTful tools just to remember what we told the agent three
+    prompts ago.
   tags:
     - memory
     - mcp
@@ -71,32 +81,35 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Core novelty is memory infrastructure and context retrieval for AI assistants, fitting the Prompt & Context Engineering category despite being distributed as an MCP server.
+  reason: >-
+    Core novelty is memory infrastructure and context retrieval for AI assistants, fitting the Prompt & Context
+    Engineering category despite being distributed as an MCP server.
   evidence:
-    - "Repo description: 'Privacy-first MCP server for AI memory management'"
+    - 'Repo description: ''Privacy-first MCP server for AI memory management'''
     - README emphasizes 'Infinite Memory' and 'searchable knowledge base' with local storage as primary value
     - Features center on summarization, memory slots, and timeline navigation—classic context-engineering primitives
     - Very new repo (67 stars) but active and fits a clear gap in developer tooling
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: mcp
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.653Z"
+    updated_at: '2026-05-06T22:12:15.653Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:58.573Z"
+    updated_at: '2026-07-21T15:20:58.573Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-18T05:29:09.651Z"
+    updated_at: '2026-05-18T05:29:09.651Z'
     cause: null
     next_retry_at: null
     attempts: 3

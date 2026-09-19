@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__j0hanz__filesystem-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 📂 <a name="file-systems"></a>File Systems
         anchor_text: j0hanz/filesystem-context-mcp-server
         extracted_url: https://github.com/j0hanz/filesystem-context-mcp-server
-        surrounding_text: "- [j0hanz/filesystem-context-mcp-server](https://github.com/j0hanz/filesystem-context-mcp-server) 📇 🏠 - Read-only MCP server for secure filesystem exploration, searching, and analysis with symlink protection."
+        surrounding_text: >-
+          - [j0hanz/filesystem-context-mcp-server](https://github.com/j0hanz/filesystem-context-mcp-server) 📇 🏠 -
+          Read-only MCP server for secure filesystem exploration, searching, and analysis with symlink protection.
         confidence: high
 metadata:
   github:
@@ -30,9 +32,11 @@ metadata:
     archived: false
     full_name: j0hanz/filesystem-mcp
     html_url: https://github.com/j0hanz/filesystem-mcp
-    created_at: "2025-12-12T09:26:27Z"
-    pushed_at: "2026-07-05T21:53:46Z"
-    description: A local filesystem MCP server that lets LLMs and AI agents read, write, search, diff, patch, and manage files safely and efficiently. Built for reliable, structured, and controlled filesystem interaction.
+    created_at: '2025-12-12T09:26:27Z'
+    pushed_at: '2026-07-05T21:53:46Z'
+    description: >-
+      A local filesystem MCP server that lets LLMs and AI agents read, write, search, diff, patch, and manage files
+      safely and efficiently. Built for reliable, structured, and controlled filesystem interaction.
     homepage: https://github.com/j0hanz/filesystem-mcp#readme
     topics:
       - analysis
@@ -53,13 +57,17 @@ metadata:
       - searching
       - typescript
       - write
-    last_checked_at: "2026-07-30T05:05:46.335Z"
+    last_checked_at: '2026-07-30T05:05:46.335Z'
     readme:
-      fetched_at: "2026-07-30T05:05:46.335Z"
+      fetched_at: '2026-07-30T05:05:46.335Z'
       bytes: 45289
 insights:
-  summary: A local filesystem MCP server that enables LLMs and AI agents to read, write, search, diff, patch, and manage files with security controls.
-  why_it_matters: It provides a secure, structured way for AI assistants to interact with local filesystems, addressing the common need for controlled file operations in development workflows.
+  summary: >-
+    A local filesystem MCP server that enables LLMs and AI agents to read, write, search, diff, patch, and manage files
+    with security controls.
+  why_it_matters: >-
+    It provides a secure, structured way for AI assistants to interact with local filesystems, addressing the common
+    need for controlled file operations in development workflows.
   mental_damage: Finally, a way to let your AI touch your files without it immediately deleting your node_modules.
   tags:
     - mcp
@@ -70,31 +78,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose primary identity is providing filesystem access via the Model Context Protocol.
+  reason: >-
+    The product is explicitly an MCP server whose primary identity is providing filesystem access via the Model Context
+    Protocol.
   evidence:
     - Repo description identifies it as a filesystem MCP server
     - README emphasizes MCP as the core protocol and filesystem operations as the main capability
     - Already listed in awesome-mcp-servers under File Systems
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.621Z"
+    updated_at: '2026-05-06T22:12:15.621Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:46.335Z"
+    updated_at: '2026-07-30T05:05:46.335Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:09:23.524Z"
+    updated_at: '2026-07-21T16:09:23.524Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -107,7 +118,9 @@ processing:
       input_hash: sha256:ac3f36f6d3cea0100f8bb31ac52b93e0071dd5c012909b3ef41828857524ed89
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is explicitly an MCP server whose primary identity is providing filesystem access via the Model Context Protocol.
+      decision_reason: >-
+        The product is explicitly an MCP server whose primary identity is providing filesystem access via the Model
+        Context Protocol.
       decision_evidence:
         - Repo description identifies it as a filesystem MCP server
         - README emphasizes MCP as the core protocol and filesystem operations as the main capability
@@ -115,6 +128,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

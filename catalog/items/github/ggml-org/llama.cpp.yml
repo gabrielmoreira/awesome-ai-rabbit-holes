@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ggml-org__llama.cpp__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -19,10 +19,13 @@ provenance:
           - Inference Engine
         anchor_text: llama.cpp
         extracted_url: https://github.com/ggerganov/llama.cpp
-        surrounding_text: "| [llama.cpp](https://github.com/ggerganov/llama.cpp)             | - Inference of LLaMA model in pure C/C++                                             | GGML/GGUF               | Both            | ❌  | C/C++       | Text-Gen      |"
+        surrounding_text: >-
+          | [llama.cpp](https://github.com/ggerganov/llama.cpp)             | - Inference of LLaMA model in pure
+          C/C++                                             | GGML/GGUF               | Both            | ❌  |
+          C/C++       | Text-Gen      |
         confidence: high
     - id: discovery__github__ggml-org__llama.cpp__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -35,7 +38,10 @@ provenance:
           - Large Model Serving
         anchor_text: llama.cpp
         extracted_url: https://github.com/ggerganov/llama.cpp
-        surrounding_text: "| [llama.cpp](https://github.com/ggerganov/llama.cpp)                                   | Port of Facebook's LLaMA model in C/C++                                                                         | ![GitHub Badge](https://img.shields.io/github/stars/ggerganov/llama.cpp.svg?style=flat-square)                   |"
+        surrounding_text: >-
+          | [llama.cpp](https://github.com/ggerganov/llama.cpp)                                   | Port of Facebook's
+          LLaMA model in C/C++                                                                         | ![GitHub
+          Badge](https://img.shields.io/github/stars/ggerganov/llama.cpp.svg?style=flat-square)                   |
         confidence: high
 metadata:
   github:
@@ -45,19 +51,21 @@ metadata:
     archived: false
     full_name: ggml-org/llama.cpp
     html_url: https://github.com/ggml-org/llama.cpp
-    created_at: "2023-03-10T18:58:00Z"
-    pushed_at: "2026-09-03T02:16:37Z"
+    created_at: '2023-03-10T18:58:00Z'
+    pushed_at: '2026-09-03T02:16:37Z'
     description: LLM inference in C/C++
     homepage: https://llama.app
     topics:
       - ggml
-    last_checked_at: "2026-09-03T05:16:49.476Z"
+    last_checked_at: '2026-09-03T05:16:49.476Z'
     readme:
-      fetched_at: "2026-09-03T05:16:49.476Z"
+      fetched_at: '2026-09-03T05:16:49.476Z'
       bytes: 7295
 insights:
   summary: High-performance LLM inference engine written in C/C++ designed for local execution.
-  why_it_matters: It enables developers to run large language models on consumer-grade hardware with high efficiency through quantization.
+  why_it_matters: >-
+    It enables developers to run large language models on consumer-grade hardware with high efficiency through
+    quantization.
   mental_damage: Now you can suffer through massive model downloads on your own GPU instead of paying OpenAI for every token.
   tags:
     - inference
@@ -68,31 +76,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is the industry standard for running quantized models on local hardware, making it a foundational local AI runtime.
+  reason: >-
+    It is the industry standard for running quantized models on local hardware, making it a foundational local AI
+    runtime.
   evidence:
-    - "Repo description: LLM inference in C/C++"
+    - 'Repo description: LLM inference in C/C++'
     - README confirms support for local execution via llama-cli and llama-server
     - High traction with 120k+ stars
 placement:
   primary_category: local-ai
-  section: Local Runtimes
+  secondary_categories: []
+  section: Inference Engines
 lifecycle:
   status: promotion_candidate
   reason: Stars (108669) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.586Z"
+    updated_at: '2026-05-06T22:12:15.586Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:49.476Z"
+    updated_at: '2026-09-03T05:16:49.476Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:02:22.502Z"
+    updated_at: '2026-07-21T16:02:22.502Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -105,14 +116,18 @@ processing:
       input_hash: sha256:382d63b3f6022941b75b6a14e0058163fe4b2198fc8667552fff539347811ef7
       proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: It is the industry standard for running quantized models on local hardware, making it a foundational local AI runtime.
+      decision_reason: >-
+        It is the industry standard for running quantized models on local hardware, making it a foundational local AI
+        runtime.
       decision_evidence:
-        - "Repo description: LLM inference in C/C++"
+        - 'Repo description: LLM inference in C/C++'
         - README confirms support for local execution via llama-cli and llama-server
         - High traction with 120k+ stars
       category_candidates:
         - local-ai
         - ai-frameworks
-      contrastive_reason: Choose local-ai over ai-frameworks because its primary identity is the local runtime and serving layer for models on private hardware.
+      contrastive_reason: >-
+        Choose local-ai over ai-frameworks because its primary identity is the local runtime and serving layer for
+        models on private hardware.
       review_reason: null
       review_resume_lifecycle: null

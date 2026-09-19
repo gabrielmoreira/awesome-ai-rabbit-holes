@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__loglux__whatsapp-mcp-stream__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: loglux/whatsapp-mcp-stream
         extracted_url: https://github.com/loglux/whatsapp-mcp-stream
-        surrounding_text: "- [loglux/whatsapp-mcp-stream](https://github.com/loglux/whatsapp-mcp-stream) [![whatsapp-mcp-stream MCP server](https://glama.ai/mcp/servers/@loglux/whatsapp-mcp-stream/badges/score.svg)](https://glama.ai/mcp/servers/@loglux/whatsapp-mcp-stream) 📇 🏠 🍎 🪟 🐧 - WhatsApp MCP server over Streamable HTTP with web admin UI (QR/status/settings), bidirectional media upload/download, and SQLite persistence."
+        surrounding_text: >-
+          - [loglux/whatsapp-mcp-stream](https://github.com/loglux/whatsapp-mcp-stream) [![whatsapp-mcp-stream MCP
+          server](https://glama.ai/mcp/servers/@loglux/whatsapp-mcp-stream/badges/score.svg)](https://glama.ai/mcp/servers/@loglux/whatsapp-mcp-stream)
+          📇 🏠 🍎 🪟 🐧 - WhatsApp MCP server over Streamable HTTP with web admin UI (QR/status/settings),
+          bidirectional media upload/download, and SQLite persistence.
         confidence: high
 metadata:
   github:
@@ -30,24 +34,30 @@ metadata:
     archived: false
     full_name: loglux/whatsapp-mcp-stream
     html_url: https://github.com/loglux/whatsapp-mcp-stream
-    created_at: "2026-02-18T00:17:12Z"
-    pushed_at: "2026-07-03T12:25:07Z"
-    description: A WhatsApp MCP server built around Streamable HTTP transport, using Baileys for WhatsApp connectivity, with a web admin UI and bidirectional media flow (upload + download).
-    homepage: ""
+    created_at: '2026-02-18T00:17:12Z'
+    pushed_at: '2026-07-03T12:25:07Z'
+    description: >-
+      A WhatsApp MCP server built around Streamable HTTP transport, using Baileys for WhatsApp connectivity, with a web
+      admin UI and bidirectional media flow (upload + download).
+    homepage: ''
     topics:
       - beileys
       - mcp
       - mcp-server
       - whatsapp
       - whatsapp-automation
-    last_checked_at: "2026-07-30T05:06:07.887Z"
+    last_checked_at: '2026-07-30T05:06:07.887Z'
     readme:
-      fetched_at: "2026-07-30T05:06:07.887Z"
+      fetched_at: '2026-07-30T05:06:07.887Z'
       bytes: 11383
 insights:
-  summary: A WhatsApp MCP server that exposes WhatsApp functionality via Streamable HTTP transport using Baileys, with a web admin UI and media handling.
+  summary: >-
+    A WhatsApp MCP server that exposes WhatsApp functionality via Streamable HTTP transport using Baileys, with a web
+    admin UI and media handling.
   why_it_matters: Lets developers integrate WhatsApp into agent workflows as MCP tools for messaging, media, and contact operations.
-  mental_damage: Yet another MCP server promising seamless WhatsApp integration while you quietly maintain Baileys sessions and pray the QR doesn't expire mid-demo.
+  mental_damage: >-
+    Yet another MCP server promising seamless WhatsApp integration while you quietly maintain Baileys sessions and pray
+    the QR doesn't expire mid-demo.
   tags:
     - whatsapp
     - mcp
@@ -57,31 +67,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is a WhatsApp-focused MCP server, making MCP the primary adopted thing rather than a compatibility feature.
+  reason: >-
+    The product's core identity is a WhatsApp-focused MCP server, making MCP the primary adopted thing rather than a
+    compatibility feature.
   evidence:
-    - "Repo description: 'A WhatsApp MCP server built around Streamable HTTP transport'"
-    - "README: Explicitly defines MCP tools for WhatsApp operations like send_message, download_media, get_qr_code"
-    - "Source-list context: Listed in awesome-mcp-servers under Communication section"
+    - 'Repo description: ''A WhatsApp MCP server built around Streamable HTTP transport'''
+    - 'README: Explicitly defines MCP tools for WhatsApp operations like send_message, download_media, get_qr_code'
+    - 'Source-list context: Listed in awesome-mcp-servers under Communication section'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: '2026-05-06T22:12:15.627Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:07.887Z"
+    updated_at: '2026-07-30T05:06:07.887Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:17:12.672Z"
+    updated_at: '2026-07-21T16:17:12.672Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -94,14 +107,18 @@ processing:
       input_hash: sha256:715d0045525e296a993da35d3e0d579cb6ea3456dfdf723eecddd8fad6bdead8
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is a WhatsApp-focused MCP server, making MCP the primary adopted thing rather than a compatibility feature.
+      decision_reason: >-
+        The product's core identity is a WhatsApp-focused MCP server, making MCP the primary adopted thing rather than a
+        compatibility feature.
       decision_evidence:
-        - "Repo description: 'A WhatsApp MCP server built around Streamable HTTP transport'"
-        - "README: Explicitly defines MCP tools for WhatsApp operations like send_message, download_media, get_qr_code"
-        - "Source-list context: Listed in awesome-mcp-servers under Communication section"
+        - 'Repo description: ''A WhatsApp MCP server built around Streamable HTTP transport'''
+        - 'README: Explicitly defines MCP tools for WhatsApp operations like send_message, download_media, get_qr_code'
+        - 'Source-list context: Listed in awesome-mcp-servers under Communication section'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server providing domain-specific tools, not an extension augmenting another assistant's capabilities.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is an MCP server providing domain-specific tools, not an
+        extension augmenting another assistant's capabilities.
       review_reason: null
       review_resume_lifecycle: null

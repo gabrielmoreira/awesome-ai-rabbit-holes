@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mikusnuz__npm-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: mikusnuz/npm-mcp
         extracted_url: https://github.com/mikusnuz/npm-mcp
-        surrounding_text: "- [mikusnuz/npm-mcp](https://github.com/mikusnuz/npm-mcp) [![mikusnuz/npm-mcp MCP server](https://glama.ai/mcp/servers/mikusnuz/npm-mcp/badges/score.svg)](https://glama.ai/mcp/servers/mikusnuz/npm-mcp) 📇 🏠 - MCP server for npm package management — 36 tools for publish, version, search, audit, install, and more from your AI assistant."
+        surrounding_text: >-
+          - [mikusnuz/npm-mcp](https://github.com/mikusnuz/npm-mcp) [![mikusnuz/npm-mcp MCP
+          server](https://glama.ai/mcp/servers/mikusnuz/npm-mcp/badges/score.svg)](https://glama.ai/mcp/servers/mikusnuz/npm-mcp)
+          📇 🏠 - MCP server for npm package management — 36 tools for publish, version, search, audit, install, and
+          more from your AI assistant.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: mikusnuz/npm-mcp
     html_url: https://github.com/mikusnuz/npm-mcp
-    created_at: "2026-02-11T09:30:43Z"
-    pushed_at: "2026-03-20T07:06:25Z"
+    created_at: '2026-02-11T09:30:43Z'
+    pushed_at: '2026-03-20T07:06:25Z'
     description: MCP server for npm package management — 32 tools for publish, install, audit, search, security & more
     homepage: null
     topics:
@@ -43,9 +47,9 @@ metadata:
       - npm
       - package-manager
       - registry
-    last_checked_at: "2026-08-03T05:17:03.275Z"
+    last_checked_at: '2026-08-03T05:17:03.275Z'
     readme:
-      fetched_at: "2026-08-03T05:17:03.275Z"
+      fetched_at: '2026-08-03T05:17:03.275Z'
       bytes: 5968
 insights:
   summary: MCP server for npm package management exposing 32 npm CLI tools via the Model Context Protocol.
@@ -59,31 +63,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server that exposes npm functionality, making MCP the core identity rather than an extension or agent.
+  reason: >-
+    The product is an MCP server that exposes npm functionality, making MCP the core identity rather than an extension
+    or agent.
   evidence:
-    - "Repo description: 'MCP server for npm package management — 32 tools for publish, install, audit, search, security & more'"
+    - >-
+      Repo description: 'MCP server for npm package management — 32 tools for publish, install, audit, search, security
+      & more'
     - README positions it as an MCP server for AI assistants like Claude Code to manage npm packages
-    - "Source-list context: listed in awesome-mcp-servers under Server Implementations > Developer Tools"
+    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations > Developer Tools'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.630Z"
+    updated_at: '2026-05-06T22:12:15.630Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:03.275Z"
+    updated_at: '2026-08-03T05:17:03.275Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:21:02.392Z"
+    updated_at: '2026-07-21T16:21:02.392Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,14 +105,20 @@ processing:
       input_hash: sha256:5178a0f04b157112c801f337766ee70f1fc41633797b5b780f8e958860542b6a
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server that exposes npm functionality, making MCP the core identity rather than an extension or agent.
+      decision_reason: >-
+        The product is an MCP server that exposes npm functionality, making MCP the core identity rather than an
+        extension or agent.
       decision_evidence:
-        - "Repo description: 'MCP server for npm package management — 32 tools for publish, install, audit, search, security & more'"
+        - >-
+          Repo description: 'MCP server for npm package management — 32 tools for publish, install, audit, search,
+          security & more'
         - README positions it as an MCP server for AI assistants like Claude Code to manage npm packages
-        - "Source-list context: listed in awesome-mcp-servers under Server Implementations > Developer Tools"
+        - 'Source-list context: listed in awesome-mcp-servers under Server Implementations > Developer Tools'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool is an MCP server itself, not an integration that augments another assistant with npm capabilities.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool is an MCP server itself, not an integration that augments
+        another assistant with npm capabilities.
       review_reason: null
       review_resume_lifecycle: null

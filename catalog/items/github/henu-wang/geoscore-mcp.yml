@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__henu-wang__geoscore-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -19,7 +19,11 @@ provenance:
           - 🎯 Marketing
         anchor_text: henu-wang/geoscore-mcp
         extracted_url: https://github.com/henu-wang/geoscore-mcp
-        surrounding_text: "-   **[henu-wang/geoscore-mcp](https://github.com/henu-wang/geoscore-mcp)** [![GitHub stars](https://img.shields.io/github/stars/henu-wang/geoscore-mcp?style=social)](https://github.com/henu-wang/geoscore-mcp): AI search optimization (GEO). Scans websites for AI search readiness, generates llms.txt, Schema.org fixes, and meta tag optimizations."
+        surrounding_text: >-
+          -   **[henu-wang/geoscore-mcp](https://github.com/henu-wang/geoscore-mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/henu-wang/geoscore-mcp?style=social)](https://github.com/henu-wang/geoscore-mcp):
+          AI search optimization (GEO). Scans websites for AI search readiness, generates llms.txt, Schema.org fixes,
+          and meta tag optimizations.
         confidence: high
 metadata:
   github:
@@ -29,9 +33,11 @@ metadata:
     archived: false
     full_name: henu-wang/geoscore-mcp
     html_url: https://github.com/henu-wang/geoscore-mcp
-    created_at: "2026-03-04T23:35:36Z"
-    pushed_at: "2026-03-05T00:16:03Z"
-    description: MCP server for AI search optimization (GEO). Scan websites, generate llms.txt, Schema.org fixes, meta tags. Works with Claude, Cursor, Windsurf.
+    created_at: '2026-03-04T23:35:36Z'
+    pushed_at: '2026-03-05T00:16:03Z'
+    description: >-
+      MCP server for AI search optimization (GEO). Scan websites, generate llms.txt, Schema.org fixes, meta tags. Works
+      with Claude, Cursor, Windsurf.
     homepage: https://geoscoreai.com
     topics:
       - ai-search
@@ -44,13 +50,17 @@ metadata:
       - mcp-server
       - schema-org
       - seo
-    last_checked_at: "2026-07-30T05:05:36.778Z"
+    last_checked_at: '2026-07-30T05:05:36.778Z'
     readme:
-      fetched_at: "2026-07-30T05:05:36.778Z"
+      fetched_at: '2026-07-30T05:05:36.778Z'
       bytes: 3563
 insights:
-  summary: MCP server for AI search optimization (GEO) that scans websites, generates llms.txt, and fixes Schema.org/meta tags for AI engine visibility.
-  why_it_matters: Developers can integrate GEO checks and fixes directly into their AI assistant workflows to ensure websites are discoverable by AI search engines.
+  summary: >-
+    MCP server for AI search optimization (GEO) that scans websites, generates llms.txt, and fixes Schema.org/meta tags
+    for AI engine visibility.
+  why_it_matters: >-
+    Developers can integrate GEO checks and fixes directly into their AI assistant workflows to ensure websites are
+    discoverable by AI search engines.
   mental_damage: Now your AI assistant can nag you about SEO for machines that don’t even have eyes.
   tags:
     - mcp-server
@@ -61,31 +71,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific tools for GEO optimization."
+  reason: 'MCP is the product identity: this is a dedicated MCP server providing domain-specific tools for GEO optimization.'
   evidence:
     - Repo description explicitly states it is an MCP server for AI search optimization
     - README details MCP tools/resources/prompts and installation for Claude/Cursor/Windsurf
     - Source-list context places it in an MCP server list under Marketing
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.618Z"
+    updated_at: '2026-05-06T22:12:15.618Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:36.778Z"
+    updated_at: '2026-07-30T05:05:36.778Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:05:24.829Z"
+    updated_at: '2026-07-21T16:05:24.829Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -98,7 +109,9 @@ processing:
       input_hash: sha256:3289a99db0a540e429e7efd0a1c15804e392d54b98a63f1646cc573825f959db
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific tools for GEO optimization."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server providing domain-specific tools for GEO
+        optimization.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for AI search optimization
         - README details MCP tools/resources/prompts and installation for Claude/Cursor/Windsurf
@@ -106,6 +119,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not just an extension for another assistant).
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server (not just an extension for another
+        assistant).
       review_reason: null
       review_resume_lifecycle: null

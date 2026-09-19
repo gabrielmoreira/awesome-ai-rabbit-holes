@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__vdaas__vald__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,10 @@ provenance:
           - Vector search
         anchor_text: Vald
         extracted_url: https://github.com/vdaas/vald
-        surrounding_text: "| [Vald](https://github.com/vdaas/vald)                     | A Highly Scalable Distributed Vector Search Engine                                                                                                                                                                                                                                            | ![GitHub Badge](https://img.shields.io/github/stars/vdaas/vald.svg?style=flat-square)                 |"
+        surrounding_text: >-
+          | [Vald](https://github.com/vdaas/vald)                     | A Highly Scalable Distributed Vector Search
+          Engine                                                                                                                                                                                                                                           
+          | ![GitHub Badge](https://img.shields.io/github/stars/vdaas/vald.svg?style=flat-square)                 |
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: vdaas/vald
     html_url: https://github.com/vdaas/vald
-    created_at: "2019-07-07T06:42:22Z"
-    pushed_at: "2026-07-21T06:15:46Z"
+    created_at: '2019-07-07T06:42:22Z'
+    pushed_at: '2026-07-21T06:15:46Z'
     description: Vald.  A Highly Scalable Distributed Vector Search Engine
     homepage: https://vald.vdaas.org
     topics:
@@ -54,14 +57,20 @@ metadata:
       - vald
       - vector
       - vector-search-engine
-    last_checked_at: "2026-07-21T15:21:01.482Z"
+    last_checked_at: '2026-07-21T15:21:01.482Z'
     readme:
-      fetched_at: "2026-07-21T15:21:01.482Z"
+      fetched_at: '2026-07-21T15:21:01.482Z'
       bytes: 24600
 insights:
-  summary: A highly scalable distributed vector search engine for approximate nearest neighbor (ANN) search on high-dimensional dense vectors.
-  why_it_matters: Provides the retrieval backbone for RAG systems and similarity search at billion-scale, deployed as cloud-native Kubernetes infrastructure.
-  mental_damage: Because nothing says 'AI-ready' like deploying a bespoke distributed vector database just to find the three most relevant chunks of documentation.
+  summary: >-
+    A highly scalable distributed vector search engine for approximate nearest neighbor (ANN) search on high-dimensional
+    dense vectors.
+  why_it_matters: >-
+    Provides the retrieval backbone for RAG systems and similarity search at billion-scale, deployed as cloud-native
+    Kubernetes infrastructure.
+  mental_damage: >-
+    Because nothing says 'AI-ready' like deploying a bespoke distributed vector database just to find the three most
+    relevant chunks of documentation.
   tags:
     - vector-search
     - retrieval
@@ -71,31 +80,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Vald's core identity is retrieval infrastructure for AI—indexing and searching billions of vectors—fitting the category's focus on systems that shape what context reaches the model.
+  reason: >-
+    Vald's core identity is retrieval infrastructure for AI—indexing and searching billions of vectors—fitting the
+    category's focus on systems that shape what context reaches the model.
   evidence:
-    - Repo description identifies it as a 'Highly Scalable Distributed Vector Search Engine' specifically for approximate nearest neighbor search.
-    - README emphasizes cloud-native Kubernetes deployment for 'searching from billions of feature vector data', positioning it as infrastructure for AI retrieval workflows.
-    - Source list Awesome-LLMOps categorizes it under Vector search, confirming its essential role in LLM retrieval stacks.
+    - >-
+      Repo description identifies it as a 'Highly Scalable Distributed Vector Search Engine' specifically for
+      approximate nearest neighbor search.
+    - >-
+      README emphasizes cloud-native Kubernetes deployment for 'searching from billions of feature vector data',
+      positioning it as infrastructure for AI retrieval workflows.
+    - >-
+      Source list Awesome-LLMOps categorizes it under Vector search, confirming its essential role in LLM retrieval
+      stacks.
 placement:
-  primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  primary_category: ai-frameworks
+  secondary_categories: []
+  section: Memory & Retrieval Infrastructure
 lifecycle:
   status: promotion_candidate
   reason: Stars (1703) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.654Z"
+    updated_at: '2026-05-06T22:12:15.654Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:01.482Z"
+    updated_at: '2026-07-21T15:21:01.482Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-18T05:29:58.094Z"
+    updated_at: '2026-05-18T05:29:58.094Z'
     cause: null
     next_retry_at: null
     attempts: 3

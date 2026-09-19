@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__amkrs3__keycae-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-08T05:39:05.247Z"
+      discovered_at: '2026-06-08T05:39:05.247Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: AMKRS3/keycae-mcp
         extracted_url: https://github.com/amkrs3/keycae-mcp
-        surrounding_text: "- [AMKRS3/keycae-mcp](https://github.com/AMKRS3/keycae-mcp) [![AMKRS3/keycae-mcp MCP server](https://glama.ai/mcp/servers/AMKRS3/keycae-mcp/badges/score.svg)](https://glama.ai/mcp/servers/AMKRS3/keycae-mcp) 📇 ☁️ - Argentine electronic invoicing (facturación electrónica) for ARCA/AFIP. Emit invoices, manage credentials, check delegations, and look up taxpayers. 10 tools. Install via `npx keycae-mcp`."
+        surrounding_text: >-
+          - [AMKRS3/keycae-mcp](https://github.com/AMKRS3/keycae-mcp) [![AMKRS3/keycae-mcp MCP
+          server](https://glama.ai/mcp/servers/AMKRS3/keycae-mcp/badges/score.svg)](https://glama.ai/mcp/servers/AMKRS3/keycae-mcp)
+          📇 ☁️ - Argentine electronic invoicing (facturación electrónica) for ARCA/AFIP. Emit invoices, manage
+          credentials, check delegations, and look up taxpayers. 10 tools. Install via `npx keycae-mcp`.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: true
     full_name: null
     html_url: null
-    created_at: "2026-06-01T15:09:30Z"
-    pushed_at: "2026-06-08T12:19:40Z"
+    created_at: '2026-06-01T15:09:30Z'
+    pushed_at: '2026-06-08T12:19:40Z'
     description: MCP Server for Argentine electronic invoicing (factura electrónica) with ARCA/AFIP. 12 tools for AI agents.
     homepage: null
     topics:
@@ -42,14 +46,18 @@ metadata:
       - invoice
       - mcp
       - model-context-protocol
-    last_checked_at: "2026-06-15T05:51:23.235Z"
+    last_checked_at: '2026-06-15T05:51:23.235Z'
     readme:
-      fetched_at: "2026-06-15T05:51:23.235Z"
+      fetched_at: '2026-06-15T05:51:23.235Z'
       bytes: 5477
 insights:
   summary: An MCP server for managing Argentine electronic invoicing via KeyCAE and ARCA/AFIP.
-  why_it_matters: It allows AI agents to autonomously handle tax compliance, emit invoices, and manage digital certificates for Argentine developers and businesses.
-  mental_damage: The dream of autonomous billing is now just one 'delegation' step away from an AI agent accidentally issuing a thousand incorrect tax invoices to the Argentine government.
+  why_it_matters: >-
+    It allows AI agents to autonomously handle tax compliance, emit invoices, and manage digital certificates for
+    Argentine developers and businesses.
+  mental_damage: >-
+    The dream of autonomous billing is now just one 'delegation' step away from an AI agent accidentally issuing a
+    thousand incorrect tax invoices to the Argentine government.
   tags:
     - mcp
     - fintech
@@ -66,26 +74,27 @@ curation:
     - Listed in awesome-mcp-servers under 'Finance & Fintech'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
   discover:
     status: done
-    updated_at: "2026-06-08T05:39:05.247Z"
+    updated_at: '2026-06-08T05:39:05.247Z'
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: "2026-09-17T04:13:43.172Z"
+    updated_at: '2026-09-17T04:13:43.172Z'
     cause:
       type: github_repo_missing
-      message: "GitHub repository not found: amkrs3/keycae-mcp"
+      message: 'GitHub repository not found: amkrs3/keycae-mcp'
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-08T05:41:45.275Z"
+    updated_at: '2026-06-08T05:41:45.275Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__trycourier__courier-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: trycourier/courier-mcp
         extracted_url: https://github.com/trycourier/courier-mcp
-        surrounding_text: "- [trycourier/courier-mcp](https://github.com/trycourier/courier-mcp) 🎖️ 💬 ☁️ 🛠️ 📇 🤖 - Build multi-channel notifications into your product, send messages, update lists, invoke automations, all without leaving your AI coding space."
+        surrounding_text: >-
+          - [trycourier/courier-mcp](https://github.com/trycourier/courier-mcp) 🎖️ 💬 ☁️ 🛠️ 📇 🤖 - Build
+          multi-channel notifications into your product, send messages, update lists, invoke automations, all without
+          leaving your AI coding space.
         confidence: high
 metadata:
   github:
@@ -30,19 +33,23 @@ metadata:
     archived: true
     full_name: trycourier/courier-mcp
     html_url: https://github.com/trycourier/courier-mcp
-    created_at: "2025-07-24T16:34:13Z"
-    pushed_at: "2026-07-10T22:11:27Z"
+    created_at: '2025-07-24T16:34:13Z'
+    pushed_at: '2026-07-10T22:11:27Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:20:55.806Z"
+    last_checked_at: '2026-07-21T15:20:55.806Z'
     readme:
-      fetched_at: "2026-07-21T15:20:55.806Z"
+      fetched_at: '2026-07-21T15:20:55.806Z'
       bytes: 8800
 insights:
   summary: An MCP server that provides AI agents with 60 tools to interact with the Courier notification API.
-  why_it_matters: It allows developers to delegate complex notification workflows—like managing user profiles, debugging deliveries, and configuring lists—directly to their coding assistants.
-  mental_damage: Because nothing says 'seamless workflow' like an LLM accidentally unsubscribing your entire user base from your transactional emails during a debugging session.
+  why_it_matters: >-
+    It allows developers to delegate complex notification workflows—like managing user profiles, debugging deliveries,
+    and configuring lists—directly to their coding assistants.
+  mental_damage: >-
+    Because nothing says 'seamless workflow' like an LLM accidentally unsubscribing your entire user base from your
+    transactional emails during a debugging session.
   tags:
     - mcp
     - notifications
@@ -51,31 +58,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server designed to expose a specific domain API (notifications) to AI agents.
+  reason: >-
+    The project's primary identity is an MCP server designed to expose a specific domain API (notifications) to AI
+    agents.
   evidence:
-    - README explicitly identifies it as the 'official Model Context Protocol (MCP) server for the Courier notification API'
+    - >-
+      README explicitly identifies it as the 'official Model Context Protocol (MCP) server for the Courier notification
+      API'
     - Provides 60 specific tools for API resources like messages, profiles, and audiences
     - Included in the 'awesome-mcp-servers' directory
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.653Z"
+    updated_at: '2026-05-06T22:12:15.653Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:55.806Z"
+    updated_at: '2026-07-21T15:20:55.806Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:12:58.930Z"
+    updated_at: '2026-05-12T15:12:58.930Z'
     cause: null
     next_retry_at: null
     attempts: 1

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pear__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Code Editors and Assistants
         anchor_text: PearAI
         extracted_url: https://pear.ai
-        surrounding_text: "- **[PearAI](https://pear.ai/)** – Open-source AI-powered code editor."
+        surrounding_text: '- **[PearAI](https://pear.ai/)** – Open-source AI-powered code editor.'
         confidence: high
 metadata:
   github:
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: PearAI is an AI-native code editor and development environment.
-  why_it_matters: It provides developers with an integrated AI assistant directly within the editor surface, streamlining coding workflows.
-  mental_damage: Another editor that promises to write your code for you, but you’ll still spend an hour arguing with it about tabs vs. spaces.
+  why_it_matters: >-
+    It provides developers with an integrated AI assistant directly within the editor surface, streamlining coding
+    workflows.
+  mental_damage: >-
+    Another editor that promises to write your code for you, but you’ll still spend an hour arguing with it about tabs
+    vs. spaces.
   tags:
     - ai-ide
     - code-editor
@@ -47,20 +51,23 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: PearAI is explicitly listed as a canonical positive in the IDEs & Editors category, and its primary product identity is an AI-native editor surface rather than a plugin, terminal agent, or framework.
+  reason: >-
+    PearAI is explicitly listed as a canonical positive in the IDEs & Editors category, and its primary product identity
+    is an AI-native editor surface rather than a plugin, terminal agent, or framework.
   evidence:
     - Seen in awesome-ai-coding-tools under 'Code Editors and Assistants'
     - Canonical positive example for ai-ides-editors category
 placement:
-  primary_category: ai-ides-editors
-  section: Full IDEs & Editors
+  primary_category: coding-agents
+  secondary_categories: []
+  section: IDE-Native & Editor Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: '2026-05-06T22:12:15.664Z'
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +76,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:28.506Z"
+    updated_at: '2026-07-21T15:30:28.506Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -82,13 +89,17 @@ processing:
       input_hash: sha256:8e8b1f42ea19f0d22202539af40008fc7f745b7ce2c6f8153d4e156031021ef1
       proposed_primary_category: ai-ides-editors
       disagreement: false
-      decision_reason: PearAI is explicitly listed as a canonical positive in the IDEs & Editors category, and its primary product identity is an AI-native editor surface rather than a plugin, terminal agent, or framework.
+      decision_reason: >-
+        PearAI is explicitly listed as a canonical positive in the IDEs & Editors category, and its primary product
+        identity is an AI-native editor surface rather than a plugin, terminal agent, or framework.
       decision_evidence:
         - Seen in awesome-ai-coding-tools under 'Code Editors and Assistants'
         - Canonical positive example for ai-ides-editors category
       category_candidates:
         - ai-ides-editors
         - coding-agents
-      contrastive_reason: Choose ai-ides-editors over coding-agents because the primary product surface is the AI-native editor itself rather than a standalone coding assistant.
+      contrastive_reason: >-
+        Choose ai-ides-editors over coding-agents because the primary product surface is the AI-native editor itself
+        rather than a standalone coding assistant.
       review_reason: null
       review_resume_lifecycle: null

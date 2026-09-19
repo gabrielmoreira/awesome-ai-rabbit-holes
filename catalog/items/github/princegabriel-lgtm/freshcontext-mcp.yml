@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__princegabriel-lgtm__freshcontext-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: PrinceGabriel-lgtm/freshcontext-mcp
         extracted_url: https://github.com/princegabriel-lgtm/freshcontext-mcp
-        surrounding_text: "- [PrinceGabriel-lgtm/freshcontext-mcp](https://github.com/PrinceGabriel-lgtm/freshcontext-mcp) [![freshcontext-mcp MCP server](https://glama.ai/mcp/servers/@PrinceGabriel-lgtm/freshcontext-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@PrinceGabriel-lgtm/freshcontext-mcp) ☁️ 🏠 - Real-time web intelligence with freshness timestamps. GitHub, HN, Scholar, arXiv, YC, jobs, finance, package trends — every result stamped with how old it is."
+        surrounding_text: >-
+          - [PrinceGabriel-lgtm/freshcontext-mcp](https://github.com/PrinceGabriel-lgtm/freshcontext-mcp)
+          [![freshcontext-mcp MCP
+          server](https://glama.ai/mcp/servers/@PrinceGabriel-lgtm/freshcontext-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@PrinceGabriel-lgtm/freshcontext-mcp)
+          ☁️ 🏠 - Real-time web intelligence with freshness timestamps. GitHub, HN, Scholar, arXiv, YC, jobs, finance,
+          package trends — every result stamped with how old it is.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: PrinceGabriel-lgtm/freshcontext-mcp
     html_url: https://github.com/PrinceGabriel-lgtm/freshcontext-mcp
-    created_at: "2026-03-01T23:37:33Z"
-    pushed_at: "2026-07-18T15:09:23Z"
+    created_at: '2026-03-01T23:37:33Z'
+    pushed_at: '2026-07-18T15:09:23Z'
     description: Timestamped web intelligence for AI agents. MCP server with guaranteed freshness envelopes.
     homepage: https://www.npmjs.com/package/freshcontext-mcp
     topics:
@@ -43,13 +48,17 @@ metadata:
       - mcp-server
       - typescript
       - webscraping
-    last_checked_at: "2026-07-20T16:42:37.450Z"
+    last_checked_at: '2026-07-20T16:42:37.450Z'
     readme:
-      fetched_at: "2026-07-20T16:42:37.450Z"
+      fetched_at: '2026-07-20T16:42:37.450Z'
       bytes: 19614
 insights:
-  summary: An MCP server that wraps web-retrieved data in timestamped freshness envelopes to help AI agents distinguish current information from stale results.
-  why_it_matters: It gives coding agents access to market, repo, and news data with embedded age and confidence signals, reducing the risk of acting on outdated information.
+  summary: >-
+    An MCP server that wraps web-retrieved data in timestamped freshness envelopes to help AI agents distinguish current
+    information from stale results.
+  why_it_matters: >-
+    It gives coding agents access to market, repo, and news data with embedded age and confidence signals, reducing the
+    risk of acting on outdated information.
   mental_damage: We are now versioning reality itself so the agent stops confidently applying to jobs that closed two years ago.
   tags:
     - mcp
@@ -60,35 +69,44 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product is an MCP server that provides timestamped web intelligence to agents, making MCP its core identity rather than a secondary compatibility feature.
+  reason: >-
+    The product is an MCP server that provides timestamped web intelligence to agents, making MCP its core identity
+    rather than a secondary compatibility feature.
   evidence:
-    - "Repo description states: 'Timestamped web intelligence for AI agents. MCP server with guaranteed freshness envelopes.'"
-    - README defines it as 'a data freshness layer for AI agents' implemented as an MCP server with 20 tools like extract_github and extract_finance.
-    - Listed in awesome-mcp-servers under Server Implementations > Browser Automation, aligning with its MCP-first identity.
+    - >-
+      Repo description states: 'Timestamped web intelligence for AI agents. MCP server with guaranteed freshness
+      envelopes.'
+    - >-
+      README defines it as 'a data freshness layer for AI agents' implemented as an MCP server with 20 tools like
+      extract_github and extract_finance.
+    - >-
+      Listed in awesome-mcp-servers under Server Implementations > Browser Automation, aligning with its MCP-first
+      identity.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.643Z"
+    updated_at: '2026-05-06T22:12:15.643Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:37.450Z"
+    updated_at: '2026-07-20T16:42:37.450Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

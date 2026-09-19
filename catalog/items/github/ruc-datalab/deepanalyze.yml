@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ruc-datalab__deepanalyze__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -19,10 +19,10 @@ provenance:
           - Frameworks
         anchor_text: DeepAnalyze
         extracted_url: https://github.com/ruc-datalab/deepanalyze
-        surrounding_text: "- [DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze) - Agentic LLM for autonomous"
+        surrounding_text: '- [DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze) - Agentic LLM for autonomous'
         confidence: high
     - id: discovery__github__ruc-datalab__deepanalyze__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -34,7 +34,10 @@ provenance:
           - 智能体 Agents
         anchor_text: DeepAnalyze
         extracted_url: https://github.com/ruc-datalab/deepanalyze
-        surrounding_text: "45. [DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze): First agentic LLM for autonomous data science, supporting specific data tasks (data preparation, analysis, modeling, visualization, and insight) and data-oriented deep research (produce analyst-grade research reports)."
+        surrounding_text: >-
+          45. [DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze): First agentic LLM for autonomous data science,
+          supporting specific data tasks (data preparation, analysis, modeling, visualization, and insight) and
+          data-oriented deep research (produce analyst-grade research reports).
         confidence: high
 metadata:
   github:
@@ -44,8 +47,8 @@ metadata:
     archived: false
     full_name: ruc-datalab/DeepAnalyze
     html_url: https://github.com/ruc-datalab/DeepAnalyze
-    created_at: "2025-10-11T11:19:21Z"
-    pushed_at: "2026-07-01T03:12:26Z"
+    created_at: '2025-10-11T11:19:21Z'
+    pushed_at: '2026-07-01T03:12:26Z'
     description: DeepAnalyze is the first agentic LLM for autonomous data science. 🎈你的AI数据分析师，自动分析大量数据，一键生成专业分析报告！
     homepage: https://ruc-deepanalyze.github.io
     topics:
@@ -69,14 +72,20 @@ metadata:
       - python-programming
       - qwen
       - science
-    last_checked_at: "2026-07-20T16:42:48.434Z"
+    last_checked_at: '2026-07-20T16:42:48.434Z'
     readme:
-      fetched_at: "2026-07-20T16:42:48.434Z"
+      fetched_at: '2026-07-20T16:42:48.434Z'
       bytes: 23222
 insights:
-  summary: DeepAnalyze is an open-source, fine-tuned LLM and toolset designed to autonomously complete full data science pipelines, including data prep, modeling, visualization, and report generation.
-  why_it_matters: It provides developers and analysts with a self-contained agent that can parse various data formats and execute multi-step analysis tasks without manual intervention.
-  mental_damage: Now your data analysis is agentic, meaning the anxiety of a broken pipeline is replaced by the existential dread of an autonomous model deciding what your data means.
+  summary: >-
+    DeepAnalyze is an open-source, fine-tuned LLM and toolset designed to autonomously complete full data science
+    pipelines, including data prep, modeling, visualization, and report generation.
+  why_it_matters: >-
+    It provides developers and analysts with a self-contained agent that can parse various data formats and execute
+    multi-step analysis tasks without manual intervention.
+  mental_damage: >-
+    Now your data analysis is agentic, meaning the anxiety of a broken pipeline is replaced by the existential dread of
+    an autonomous model deciding what your data means.
   tags:
     - data-science
     - autonomous-agents
@@ -86,35 +95,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a primary autonomous agent designed to execute complex, multi-step coding and analysis tasks (data science) via CLI and WebUI, fitting the 'agent' definition better than a framework or extension.
+  reason: >-
+    It is a primary autonomous agent designed to execute complex, multi-step coding and analysis tasks (data science)
+    via CLI and WebUI, fitting the 'agent' definition better than a framework or extension.
   evidence:
     - Repo description explicitly calls it 'the first agentic LLM for autonomous data science'.
-    - "README details autonomous execution of the entire data science pipeline: prep, modeling, visualization, and report generation."
+    - >-
+      README details autonomous execution of the entire data science pipeline: prep, modeling, visualization, and report
+      generation.
     - Features a CLI Terminal UI and WebUI (v2) for interacting with the agent, alongside a fine-tuned 8B model.
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: ai-frameworks
+  secondary_categories: []
+  section: LLM & Agent SDKs
 lifecycle:
   status: promotion_candidate
   reason: Stars (4113) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.593Z"
+    updated_at: '2026-05-06T22:12:15.593Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:48.434Z"
+    updated_at: '2026-07-20T16:42:48.434Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

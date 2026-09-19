@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__arrismo__kaggle-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🧮 <a name="data-science-tools"></a>Data Science Tools
         anchor_text: arrismo/kaggle-mcp
         extracted_url: https://github.com/arrismo/kaggle-mcp
-        surrounding_text: "- [arrismo/kaggle-mcp](https://github.com/arrismo/kaggle-mcp) 🐍 ☁️ - Connects to Kaggle, ability to download and analyze datasets."
+        surrounding_text: >-
+          - [arrismo/kaggle-mcp](https://github.com/arrismo/kaggle-mcp) 🐍 ☁️ - Connects to Kaggle, ability to download
+          and analyze datasets.
         confidence: high
 metadata:
   github:
@@ -30,20 +32,22 @@ metadata:
     archived: false
     full_name: arrismo/kaggle-mcp
     html_url: https://github.com/arrismo/kaggle-mcp
-    created_at: "2025-04-11T03:01:18Z"
-    pushed_at: "2026-05-21T00:31:30Z"
+    created_at: '2025-04-11T03:01:18Z'
+    pushed_at: '2026-05-21T00:31:30Z'
     description: MCP server for Kaggle
-    homepage: ""
+    homepage: ''
     topics:
       - kaggle
       - mcp-server
-    last_checked_at: "2026-09-10T04:12:59.396Z"
+    last_checked_at: '2026-09-10T04:12:59.396Z'
     readme:
-      fetched_at: "2026-09-10T04:12:59.396Z"
+      fetched_at: '2026-09-10T04:12:59.396Z'
       bytes: 4576
 insights:
   summary: MCP server that provides tools for searching, downloading, and generating EDA notebook prompts for Kaggle datasets.
-  why_it_matters: Lets AI agents or MCP clients directly interact with Kaggle's dataset ecosystem for data discovery and exploratory analysis workflows.
+  why_it_matters: >-
+    Lets AI agents or MCP clients directly interact with Kaggle's dataset ecosystem for data discovery and exploratory
+    analysis workflows.
   mental_damage: Now your AI can spin up EDA notebooks for datasets you’ll never actually clean.
   tags:
     - mcp-server
@@ -54,31 +58,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server for Kaggle, not a compatibility footnote or adapter."
+  reason: 'MCP is the product identity: this is a dedicated MCP server for Kaggle, not a compatibility footnote or adapter.'
   evidence:
     - Repo description explicitly states 'MCP server for Kaggle'
     - README details MCP server implementation with tools for Kaggle dataset search/download and EDA prompt generation
     - Already listed in awesome-mcp-servers under 'Data Science Tools'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.603Z"
+    updated_at: '2026-05-06T22:12:15.603Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:12:59.396Z"
+    updated_at: '2026-09-10T04:12:59.396Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:24:01.205Z"
+    updated_at: '2026-07-21T15:24:01.205Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -91,14 +96,18 @@ processing:
       input_hash: sha256:10cc41299b3ebe50f82a02fc4783d0c5596071159a9a47e033eed38f28bcec15
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server for Kaggle, not a compatibility footnote or adapter."
+      decision_reason: 'MCP is the product identity: this is a dedicated MCP server for Kaggle, not a compatibility footnote or adapter.'
       decision_evidence:
         - Repo description explicitly states 'MCP server for Kaggle'
-        - README details MCP server implementation with tools for Kaggle dataset search/download and EDA prompt generation
+        - >-
+          README details MCP server implementation with tools for Kaggle dataset search/download and EDA prompt
+          generation
         - Already listed in awesome-mcp-servers under 'Data Science Tools'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension augmenting another assistant).
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension augmenting another
+        assistant).
       review_reason: null
       review_resume_lifecycle: null

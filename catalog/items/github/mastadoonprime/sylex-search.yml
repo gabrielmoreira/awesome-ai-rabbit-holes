@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mastadoonprime__sylex-search__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: MastadoonPrime/sylex-search
         extracted_url: https://github.com/mastadoonprime/sylex-search
-        surrounding_text: "- [MastadoonPrime/sylex-search](https://github.com/MastadoonPrime/sylex-search) [![MastadoonPrime/sylex-search MCP server](https://glama.ai/mcp/servers/MastadoonPrime/sylex-search/badges/score.svg)](https://glama.ai/mcp/servers/MastadoonPrime/sylex-search) 🐍 📇 ☁️ 🍎 🪟 🐧 - Universal search engine for AI agents. Discover products, services, and businesses across every category. 10 MCP tools, zero LLM calls, millisecond responses. `npx sylex-search`"
+        surrounding_text: >-
+          - [MastadoonPrime/sylex-search](https://github.com/MastadoonPrime/sylex-search) [![MastadoonPrime/sylex-search
+          MCP
+          server](https://glama.ai/mcp/servers/MastadoonPrime/sylex-search/badges/score.svg)](https://glama.ai/mcp/servers/MastadoonPrime/sylex-search)
+          🐍 📇 ☁️ 🍎 🪟 🐧 - Universal search engine for AI agents. Discover products, services, and businesses across
+          every category. 10 MCP tools, zero LLM calls, millisecond responses. `npx sylex-search`
         confidence: high
 metadata:
   github:
@@ -30,18 +35,22 @@ metadata:
     archived: false
     full_name: MastadoonPrime/sylex-search
     html_url: https://github.com/MastadoonPrime/sylex-search
-    created_at: "2026-04-24T02:18:40Z"
-    pushed_at: "2026-04-24T21:29:05Z"
+    created_at: '2026-04-24T02:18:40Z'
+    pushed_at: '2026-04-24T21:29:05Z'
     description: Universal search engine for AI agents. Discover products, services, and businesses across every category via MCP.
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:16:57.282Z"
+    last_checked_at: '2026-08-03T05:16:57.282Z'
     readme:
-      fetched_at: "2026-08-03T05:16:57.282Z"
+      fetched_at: '2026-08-03T05:16:57.282Z'
       bytes: 5485
 insights:
-  summary: Sylex Search is an MCP server that provides AI agents with structured discovery of products, services, and businesses via natural language search.
-  why_it_matters: It enables AI agents to perform real-world discovery tasks like vendor sourcing or tool comparison without relying on scraping or LLMs.
+  summary: >-
+    Sylex Search is an MCP server that provides AI agents with structured discovery of products, services, and
+    businesses via natural language search.
+  why_it_matters: >-
+    It enables AI agents to perform real-world discovery tasks like vendor sourcing or tool comparison without relying
+    on scraping or LLMs.
   mental_damage: Finally, a search engine that treats AI agents like restless interns who need to compare SaaS pricing at 2 a.m.
   tags:
     - mcp
@@ -50,13 +59,20 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Sylex Search is an MCP-native server whose core identity is providing discovery capabilities to agents via the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
+  reason: >-
+    Sylex Search is an MCP-native server whose core identity is providing discovery capabilities to agents via the Model
+    Context Protocol, making it a clear fit for MCP Servers & Tooling.
   evidence:
-    - "Repo description: 'Universal search engine for AI agents. Discover products, services, and businesses across every category via MCP.'"
-    - "README: 'Sylex Search is an MCP server that lets AI agents discover, evaluate, and compare products, services, and businesses across every category.'"
-    - "Source-list context: Listed in awesome-mcp-servers under 'Server Implementations > Aggregators'."
+    - >-
+      Repo description: 'Universal search engine for AI agents. Discover products, services, and businesses across every
+      category via MCP.'
+    - >-
+      README: 'Sylex Search is an MCP server that lets AI agents discover, evaluate, and compare products, services, and
+      businesses across every category.'
+    - 'Source-list context: Listed in awesome-mcp-servers under ''Server Implementations > Aggregators''.'
 placement:
   primary_category: mcp
+  secondary_categories: []
   section: Registries & Discovery
 lifecycle:
   status: incubating
@@ -64,17 +80,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.628Z"
+    updated_at: '2026-05-06T22:12:15.628Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:57.282Z"
+    updated_at: '2026-08-03T05:16:57.282Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:18:51.562Z"
+    updated_at: '2026-07-21T16:18:51.562Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,14 +103,22 @@ processing:
       input_hash: sha256:07a7af0748f6a12c9ab5d48ef12c5aadcfdf136184de685eea2ac6828ce2c924
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: Sylex Search is an MCP-native server whose core identity is providing discovery capabilities to agents via the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
+      decision_reason: >-
+        Sylex Search is an MCP-native server whose core identity is providing discovery capabilities to agents via the
+        Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
       decision_evidence:
-        - "Repo description: 'Universal search engine for AI agents. Discover products, services, and businesses across every category via MCP.'"
-        - "README: 'Sylex Search is an MCP server that lets AI agents discover, evaluate, and compare products, services, and businesses across every category.'"
-        - "Source-list context: Listed in awesome-mcp-servers under 'Server Implementations > Aggregators'."
+        - >-
+          Repo description: 'Universal search engine for AI agents. Discover products, services, and businesses across
+          every category via MCP.'
+        - >-
+          README: 'Sylex Search is an MCP server that lets AI agents discover, evaluate, and compare products, services,
+          and businesses across every category.'
+        - 'Source-list context: Listed in awesome-mcp-servers under ''Server Implementations > Aggregators''.'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because Sylex Search is an MCP server acting as a discovery layer, not an extension that augments another coding assistant with host integrations.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because Sylex Search is an MCP server acting as a discovery layer, not an
+        extension that augments another coding assistant with host integrations.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__whenlabs-org__when__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🖥️ <a name="command-line"></a>Command Line
         anchor_text: WhenLabs-org/when
         extracted_url: https://github.com/whenlabs-org/when
-        surrounding_text: "- [WhenLabs-org/when](https://github.com/WhenLabs-org/when) [![WhenLabs-org/when MCP server](https://glama.ai/mcp/servers/WhenLabs-org/when/badges/score.svg)](https://glama.ai/mcp/servers/WhenLabs-org/when) 📇 🏠 🍎 🪟 🐧 - Developer toolkit: auto-detect stack for AI context files, catch port conflicts, validate .env schemas, spot docs drift, audit dependency licenses, and time coding tasks — 7 MCP tools, one install."
+        surrounding_text: >-
+          - [WhenLabs-org/when](https://github.com/WhenLabs-org/when) [![WhenLabs-org/when MCP
+          server](https://glama.ai/mcp/servers/WhenLabs-org/when/badges/score.svg)](https://glama.ai/mcp/servers/WhenLabs-org/when)
+          📇 🏠 🍎 🪟 🐧 - Developer toolkit: auto-detect stack for AI context files, catch port conflicts, validate
+          .env schemas, spot docs drift, audit dependency licenses, and time coding tasks — 7 MCP tools, one install.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: WhenLabs-org/when
     html_url: https://github.com/WhenLabs-org/when
-    created_at: "2026-04-15T06:00:17Z"
-    pushed_at: "2026-07-20T16:24:09Z"
+    created_at: '2026-04-15T06:00:17Z'
+    pushed_at: '2026-07-20T16:24:09Z'
     description: Six tools. One install. The WhenLabs developer toolkit.
     homepage: null
     topics:
@@ -43,13 +47,15 @@ metadata:
       - mcp
       - npm-package
       - typescript
-    last_checked_at: "2026-07-21T15:21:12.587Z"
+    last_checked_at: '2026-07-21T15:21:12.587Z'
     readme:
-      fetched_at: "2026-07-21T15:21:12.587Z"
+      fetched_at: '2026-07-21T15:21:12.587Z'
       bytes: 2763
 insights:
   summary: A toolkit that installs six WhenLabs developer tools as a single MCP server for Claude Code.
-  why_it_matters: It simplifies setup by bundling six specialized dev tools behind one MCP server, reducing configuration overhead in Claude Code workflows.
+  why_it_matters: >-
+    It simplifies setup by bundling six specialized dev tools behind one MCP server, reducing configuration overhead in
+    Claude Code workflows.
   mental_damage: Yet another MCP server promising to unify your dev tools while adding yet another layer to manage.
   tags:
     - mcp
@@ -60,31 +66,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server that exposes six developer tools, making MCP the primary product rather than an extension or agent.
+  reason: >-
+    The product's core identity is an MCP server that exposes six developer tools, making MCP the primary product rather
+    than an extension or agent.
   evidence:
     - Registers a single MCP server (`whenlabs`) in Claude Code configuration
     - All eight tools are served by the single `whenlabs` MCP server
     - MCP is the mechanism through which the tools are exposed to Claude Code
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.655Z"
+    updated_at: '2026-05-06T22:12:15.655Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:12.587Z"
+    updated_at: '2026-07-21T15:21:12.587Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-14T05:29:13.206Z"
+    updated_at: '2026-05-14T05:29:13.206Z'
     cause: null
     next_retry_at: null
     attempts: 2

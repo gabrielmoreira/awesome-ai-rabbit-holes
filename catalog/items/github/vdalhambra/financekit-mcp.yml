@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__vdalhambra__financekit-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: vdalhambra/financekit-mcp
         extracted_url: https://github.com/vdalhambra/financekit-mcp
-        surrounding_text: "- [vdalhambra/financekit-mcp](https://github.com/vdalhambra/financekit-mcp) [![vdalhambra/financekit-mcp MCP server](https://glama.ai/mcp/servers/vdalhambra/financekit-mcp/badges/score.svg)](https://glama.ai/mcp/servers/vdalhambra/financekit-mcp) 🐍 ☁️ 🏠 - Financial market intelligence with 17 tools — stock quotes, technical analysis (RSI, MACD, Bollinger Bands, ADX, Stochastic), crypto prices via CoinGecko, risk metrics (VaR, Sharpe, Sortino, Beta), correlation matrix, options chains, earnings calendar, sector rotation, and portfolio analysis."
+        surrounding_text: >-
+          - [vdalhambra/financekit-mcp](https://github.com/vdalhambra/financekit-mcp) [![vdalhambra/financekit-mcp MCP
+          server](https://glama.ai/mcp/servers/vdalhambra/financekit-mcp/badges/score.svg)](https://glama.ai/mcp/servers/vdalhambra/financekit-mcp)
+          🐍 ☁️ 🏠 - Financial market intelligence with 17 tools — stock quotes, technical analysis (RSI, MACD,
+          Bollinger Bands, ADX, Stochastic), crypto prices via CoinGecko, risk metrics (VaR, Sharpe, Sortino, Beta),
+          correlation matrix, options chains, earnings calendar, sector rotation, and portfolio analysis.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: vdalhambra/financekit-mcp
     html_url: https://github.com/vdalhambra/financekit-mcp
-    created_at: "2026-04-13T00:37:43Z"
-    pushed_at: "2026-04-17T14:12:05Z"
-    description: Financial Market Intelligence MCP Server — stock quotes, technical analysis, crypto data, and portfolio insights for AI agents
+    created_at: '2026-04-13T00:37:43Z'
+    pushed_at: '2026-04-17T14:12:05Z'
+    description: >-
+      Financial Market Intelligence MCP Server — stock quotes, technical analysis, crypto data, and portfolio insights
+      for AI agents
     homepage: null
     topics:
       - ai-tools
@@ -45,14 +52,20 @@ metadata:
       - python
       - stock-market
       - technical-analysis
-    last_checked_at: "2026-07-21T15:21:01.598Z"
+    last_checked_at: '2026-07-21T15:21:01.598Z'
     readme:
-      fetched_at: "2026-07-21T15:21:01.597Z"
+      fetched_at: '2026-07-21T15:21:01.597Z'
       bytes: 8543
 insights:
-  summary: Financial Market Intelligence MCP Server providing stock quotes, technical analysis, crypto data, and portfolio insights via the Model Context Protocol.
-  why_it_matters: Gives AI agents direct access to financial data and analysis tools without requiring API keys, enabling developers to build finance-aware agents faster.
-  mental_damage: Finally, a way to make your AI agent sound like it knows what a death cross is without having to explain it yourself.
+  summary: >-
+    Financial Market Intelligence MCP Server providing stock quotes, technical analysis, crypto data, and portfolio
+    insights via the Model Context Protocol.
+  why_it_matters: >-
+    Gives AI agents direct access to financial data and analysis tools without requiring API keys, enabling developers
+    to build finance-aware agents faster.
+  mental_damage: >-
+    Finally, a way to make your AI agent sound like it knows what a death cross is without having to explain it
+    yourself.
   tags:
     - mcp
     - finance
@@ -60,31 +73,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server delivering financial data tools, making MCP the core product identity rather than a compatibility layer.
+  reason: >-
+    This is an MCP server delivering financial data tools, making MCP the core product identity rather than a
+    compatibility layer.
   evidence:
-    - "Repo description: 'Financial Market Intelligence MCP Server — stock quotes, technical analysis, crypto data, and portfolio insights for AI agents'"
-    - "README states: 'FinanceKit is an MCP server that gives Claude Code, Cursor, Windsurf, and any AI agent instant access to financial market data'"
+    - >-
+      Repo description: 'Financial Market Intelligence MCP Server — stock quotes, technical analysis, crypto data, and
+      portfolio insights for AI agents'
+    - >-
+      README states: 'FinanceKit is an MCP server that gives Claude Code, Cursor, Windsurf, and any AI agent instant
+      access to financial market data'
     - Listed in awesome-mcp-servers under 'Finance & Fintech' as an MCP server implementation
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.654Z"
+    updated_at: '2026-05-06T22:12:15.654Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:01.598Z"
+    updated_at: '2026-07-21T15:21:01.598Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-14T05:26:11.900Z"
+    updated_at: '2026-05-14T05:26:11.900Z'
     cause: null
     next_retry_at: null
     attempts: 2

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__minhoyoo-iotrust__waiaas__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: minhoyoo-iotrust/WAIaaS
         extracted_url: https://github.com/minhoyoo-iotrust/waiaas
-        surrounding_text: "- [minhoyoo-iotrust/WAIaaS](https://github.com/minhoyoo-iotrust/WAIaaS) [![minhoyoo-iotrust/WAIaaS MCP server](https://glama.ai/mcp/servers/minhoyoo-iotrust/WAIaaS/badges/score.svg)](https://glama.ai/mcp/servers/minhoyoo-iotrust/WAIaaS) 📇 🏠 🍎 🪟 🐧 - Self-hosted wallet-as-a-service for AI agents. 60 tools for multi-chain crypto: transfers, DeFi (swap, lend, stake, bridge, perp, yield), NFTs, smart contracts, transaction signing, and x402 payments. Solana + EVM with session auth and spending policies."
+        surrounding_text: >-
+          - [minhoyoo-iotrust/WAIaaS](https://github.com/minhoyoo-iotrust/WAIaaS) [![minhoyoo-iotrust/WAIaaS MCP
+          server](https://glama.ai/mcp/servers/minhoyoo-iotrust/WAIaaS/badges/score.svg)](https://glama.ai/mcp/servers/minhoyoo-iotrust/WAIaaS)
+          📇 🏠 🍎 🪟 🐧 - Self-hosted wallet-as-a-service for AI agents. 60 tools for multi-chain crypto: transfers,
+          DeFi (swap, lend, stake, bridge, perp, yield), NFTs, smart contracts, transaction signing, and x402 payments.
+          Solana + EVM with session auth and spending policies.
         confidence: high
 metadata:
   github:
@@ -30,18 +35,22 @@ metadata:
     archived: false
     full_name: minhoyoo-iotrust/WAIaaS
     html_url: https://github.com/minhoyoo-iotrust/WAIaaS
-    created_at: "2026-07-16T10:02:55Z"
-    pushed_at: "2026-04-25T03:11:55Z"
+    created_at: '2026-07-16T10:02:55Z'
+    pushed_at: '2026-04-25T03:11:55Z'
     description: Wallet-as-a-Service for all AI agents in the world
     homepage: https://waiaas.ai/
     topics: []
-    last_checked_at: "2026-08-03T05:17:04.134Z"
+    last_checked_at: '2026-08-03T05:17:04.134Z'
     readme:
-      fetched_at: "2026-08-03T05:17:04.134Z"
+      fetched_at: '2026-08-03T05:17:04.134Z'
       bytes: 10070
 insights:
-  summary: WAIaaS is a self-hosted wallet daemon that enables AI agents to perform on-chain transactions with role-based authentication and policy controls.
-  why_it_matters: It lets developers give AI agents secure, controlled access to blockchain funds without exposing private keys or relying on custodians.
+  summary: >-
+    WAIaaS is a self-hosted wallet daemon that enables AI agents to perform on-chain transactions with role-based
+    authentication and policy controls.
+  why_it_matters: >-
+    It lets developers give AI agents secure, controlled access to blockchain funds without exposing private keys or
+    relying on custodians.
   mental_damage: Finally, a way to worry about your AI agent draining your wallet *and* your daemon crashing at 3 AM.
   tags:
     - blockchain
@@ -52,31 +61,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The product's primary identity is a wallet daemon that exposes an MCP server for AI agents, fitting squarely as a domain-specific MCP server rather than a framework or extension.
+  reason: >-
+    The product's primary identity is a wallet daemon that exposes an MCP server for AI agents, fitting squarely as a
+    domain-specific MCP server rather than a framework or extension.
   evidence:
     - Repo description explicitly states 'Wallet-as-a-Service for all AI agents' with mcp-server topic tags.
     - README highlights @waiaas/mcp as a core package and outputs Claude Desktop MCP config snippets directly.
     - Listed in awesome-mcp-servers under 'Finance & Fintech' as a server implementation.
 placement:
   primary_category: mcp
-  section: null
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-dev-extensions'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.630Z"
+    updated_at: '2026-05-06T22:12:15.630Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:04.134Z"
+    updated_at: '2026-08-03T05:17:04.134Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:21:20.061Z"
+    updated_at: '2026-07-21T16:21:20.061Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +101,9 @@ processing:
       input_hash: sha256:61a9fe562598c0be77cdd58cf5575f30e07cd0a7f176c6d726a6450c3c555caa
       proposed_primary_category: ai-dev-extensions
       disagreement: true
-      decision_reason: WAIaaS acts as an integration layer that gives AI agents access to blockchain capabilities via MCP, SDK, and CLI, making it an extension rather than a standalone coding assistant.
+      decision_reason: >-
+        WAIaaS acts as an integration layer that gives AI agents access to blockchain capabilities via MCP, SDK, and
+        CLI, making it an extension rather than a standalone coding assistant.
       decision_evidence:
         - README states it is a 'self-hosted wallet daemon that lets AI agents perform on-chain transactions securely'
         - Provides MCP server, TypeScript SDK, CLI, and admin UI as interfaces for AI agents to interact with wallets
@@ -98,6 +112,8 @@ processing:
       category_candidates:
         - ai-dev-extensions
         - mcp
-      contrastive_reason: Choose ai-dev-extensions over mcp because while WAIaaS includes an MCP server, its core identity is a blockchain wallet daemon for AI agents, not MCP infrastructure itself.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+      contrastive_reason: >-
+        Choose ai-dev-extensions over mcp because while WAIaaS includes an MCP server, its core identity is a blockchain
+        wallet daemon for AI agents, not MCP infrastructure itself.
+      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-dev-extensions'''
       review_resume_lifecycle: null

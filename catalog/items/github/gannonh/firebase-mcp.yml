@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gannonh__firebase-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: gannonh/firebase-mcp
         extracted_url: https://github.com/gannonh/firebase-mcp
-        surrounding_text: "- [gannonh/firebase-mcp](https://github.com/gannonh/firebase-mcp) 🔥 ⛅️ - Firebase services including Auth, Firestore and Storage."
+        surrounding_text: >-
+          - [gannonh/firebase-mcp](https://github.com/gannonh/firebase-mcp) 🔥 ⛅️ - Firebase services including Auth,
+          Firestore and Storage.
         confidence: high
     - id: discovery__github__gannonh__firebase-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -33,9 +35,12 @@ provenance:
         mode: parsed
         section_path:
           - 🗄️ Databases
-        anchor_text: "@gannonh/firebase-mcp"
+        anchor_text: '@gannonh/firebase-mcp'
         extracted_url: https://github.com/gannonh/firebase-mcp
-        surrounding_text: "-   **[@gannonh/firebase-mcp](https://github.com/gannonh/firebase-mcp)** [![GitHub stars](https://img.shields.io/github/stars/gannonh/firebase-mcp?style=social)](https://github.com/gannonh/firebase-mcp): Provides access to Firebase services like Auth, Firestore, and Storage."
+        surrounding_text: >-
+          -   **[@gannonh/firebase-mcp](https://github.com/gannonh/firebase-mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/gannonh/firebase-mcp?style=social)](https://github.com/gannonh/firebase-mcp):
+          Provides access to Firebase services like Auth, Firestore, and Storage.
         confidence: high
 metadata:
   github:
@@ -45,20 +50,24 @@ metadata:
     archived: false
     full_name: gannonh/firebase-mcp
     html_url: https://github.com/gannonh/firebase-mcp
-    created_at: "2025-03-08T21:00:09Z"
-    pushed_at: "2025-10-27T11:00:06Z"
+    created_at: '2025-03-08T21:00:09Z'
+    pushed_at: '2025-10-27T11:00:06Z'
     description: 🔥 Model Context Protocol (MCP) server for Firebase.
-    homepage: ""
+    homepage: ''
     topics:
       - firebase
       - modelcontextprotocol
-    last_checked_at: "2026-09-03T05:16:45.877Z"
+    last_checked_at: '2026-09-03T05:16:45.877Z'
     readme:
-      fetched_at: "2026-09-03T05:16:45.877Z"
+      fetched_at: '2026-09-03T05:16:45.877Z'
       bytes: 11193
 insights:
-  summary: An MCP server that enables AI assistants to interact directly with Firebase services like Firestore, Storage, and Authentication.
-  why_it_matters: It allows developers to use AI agents to manage database documents, upload files, and verify users without leaving their chat interface or IDE.
+  summary: >-
+    An MCP server that enables AI assistants to interact directly with Firebase services like Firestore, Storage, and
+    Authentication.
+  why_it_matters: >-
+    It allows developers to use AI agents to manage database documents, upload files, and verify users without leaving
+    their chat interface or IDE.
   mental_damage: Because why write manual CRUD scripts when you can let an agent hallucinate a database schema change instead?
   tags:
     - firebase
@@ -75,24 +84,25 @@ curation:
     - Designed for integration with MCP clients like Claude Desktop and Cursor
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: promotion_candidate
   reason: Stars (243) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.586Z"
+    updated_at: '2026-05-06T22:12:15.586Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:45.877Z"
+    updated_at: '2026-09-03T05:16:45.877Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:00:21.698Z"
+    updated_at: '2026-07-21T16:00:21.698Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -105,7 +115,9 @@ processing:
       input_hash: sha256:d4ebcf613b2d7dc1ed52de41500cad8452f1f136c364287b5f01c24e3356946d
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's core identity is a Model Context Protocol (MCP) server providing domain-specific tools for Firebase.
+      decision_reason: >-
+        The project's core identity is a Model Context Protocol (MCP) server providing domain-specific tools for
+        Firebase.
       decision_evidence:
         - Repo description explicitly identifies it as a 'Model Context Protocol (MCP) server for Firebase'
         - README details specific tools for Firestore, Storage, and Authentication
@@ -113,6 +125,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is a protocol server rather than a generic workflow integration for an existing editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product identity is a protocol server rather than a generic
+        workflow integration for an existing editor.
       review_reason: null
       review_resume_lifecycle: null

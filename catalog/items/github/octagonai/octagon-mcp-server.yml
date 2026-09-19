@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__octagonai__octagon-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: OctagonAI/octagon-mcp-server
         extracted_url: https://github.com/octagonai/octagon-mcp-server
-        surrounding_text: "- [OctagonAI/octagon-mcp-server](https://github.com/OctagonAI/octagon-mcp-server) 🐍 ☁️ - Octagon AI Agents to integrate private and public market data"
+        surrounding_text: >-
+          - [OctagonAI/octagon-mcp-server](https://github.com/OctagonAI/octagon-mcp-server) 🐍 ☁️ - Octagon AI Agents to
+          integrate private and public market data
         confidence: high
     - id: discovery__github__octagonai__octagon-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +37,9 @@ provenance:
           - Official Servers
         anchor_text: Octagon
         extracted_url: https://github.com/octagonai/octagon-mcp-server
-        surrounding_text: "- **[Octagon](https://github.com/OctagonAI/octagon-mcp-server)** - Deliver real-time investment research with extensive private and public market data."
+        surrounding_text: >-
+          - **[Octagon](https://github.com/OctagonAI/octagon-mcp-server)** - Deliver real-time investment research with
+          extensive private and public market data.
         confidence: high
 metadata:
   github:
@@ -45,9 +49,13 @@ metadata:
     archived: false
     full_name: OctagonAI/octagon-mcp-server
     html_url: https://github.com/OctagonAI/octagon-mcp-server
-    created_at: "2025-03-12T22:40:51Z"
-    pushed_at: "2026-07-09T19:52:51Z"
-    description: An MCP server for public & prediction markets research. Ask natural-language questions and get structured, source-backed answers across SEC filings, earnings transcripts, company financials, stock & crypto market data, and prediction markets news & research. Built for investors, analysts, and researchers who need fast, cited intelligence.
+    created_at: '2025-03-12T22:40:51Z'
+    pushed_at: '2026-07-09T19:52:51Z'
+    description: >-
+      An MCP server for public & prediction markets research. Ask natural-language questions and get structured,
+      source-backed answers across SEC filings, earnings transcripts, company financials, stock & crypto market data,
+      and prediction markets news & research. Built for investors, analysts, and researchers who need fast, cited
+      intelligence.
     homepage: https://octagonai.co
     topics:
       - ai-agents
@@ -66,14 +74,21 @@ metadata:
       - sector-analysis
       - stock-data
       - trading-bot
-    last_checked_at: "2026-07-20T16:42:22.236Z"
+    last_checked_at: '2026-07-20T16:42:22.236Z'
     readme:
-      fetched_at: "2026-07-20T16:42:22.236Z"
+      fetched_at: '2026-07-20T16:42:22.236Z'
       bytes: 14424
 insights:
-  summary: An MCP server that provides AI-powered financial research and analysis by integrating with the Octagon Market Intelligence API to analyze SEC filings, earnings calls, and market data inside Claude Desktop and other MCP clients.
-  why_it_matters: Developers building financial tools or conducting market research can directly query live filings and private market data through their existing MCP-compatible assistant instead of writing custom scrapers.
-  mental_damage: You can now outsource your due diligence to a Claude plugin that turns 10-K filings into chat responses, while your actual job title remains 'Senior Financial Research Engineer.'
+  summary: >-
+    An MCP server that provides AI-powered financial research and analysis by integrating with the Octagon Market
+    Intelligence API to analyze SEC filings, earnings calls, and market data inside Claude Desktop and other MCP
+    clients.
+  why_it_matters: >-
+    Developers building financial tools or conducting market research can directly query live filings and private market
+    data through their existing MCP-compatible assistant instead of writing custom scrapers.
+  mental_damage: >-
+    You can now outsource your due diligence to a Claude plugin that turns 10-K filings into chat responses, while your
+    actual job title remains 'Senior Financial Research Engineer.'
   tags:
     - mcp
     - finance
@@ -82,35 +97,42 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server delivering domain-specific market intelligence tools to MCP clients, making it a canonical fit for MCP Servers & Tooling.
+  reason: >-
+    The product is explicitly an MCP server delivering domain-specific market intelligence tools to MCP clients, making
+    it a canonical fit for MCP Servers & Tooling.
   evidence:
-    - Repo description states it is 'A free MCP server to analyze and extract insights from public filings, earnings transcripts, financial metrics'
-    - README confirms it 'provides specialized AI-powered financial research... within Claude Desktop and other popular MCP clients'
+    - >-
+      Repo description states it is 'A free MCP server to analyze and extract insights from public filings, earnings
+      transcripts, financial metrics'
+    - >-
+      README confirms it 'provides specialized AI-powered financial research... within Claude Desktop and other popular
+      MCP clients'
     - Appears in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.591Z"
+    updated_at: '2026-05-06T22:12:15.591Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:22.236Z"
+    updated_at: '2026-07-20T16:42:22.236Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__quantoracledev__quantoracle__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: QuantOracledev/quantoracle
         extracted_url: https://github.com/quantoracledev/quantoracle
-        surrounding_text: "- [QuantOracledev/quantoracle](https://github.com/QuantOracledev/quantoracle) [![QuantOracledev/quantoracle MCP server](https://glama.ai/mcp/servers/QuantOracledev/quantoracle/badges/score.svg)](https://glama.ai/mcp/servers/QuantOracledev/quantoracle) 📇 ☁️ - 63 deterministic quant finance tools for AI agents — options pricing, risk metrics, portfolio optimization, Monte Carlo, technical indicators, crypto/DeFi, and FX/macro. 1,000 free calls/day, no API key."
+        surrounding_text: >-
+          - [QuantOracledev/quantoracle](https://github.com/QuantOracledev/quantoracle) [![QuantOracledev/quantoracle
+          MCP
+          server](https://glama.ai/mcp/servers/QuantOracledev/quantoracle/badges/score.svg)](https://glama.ai/mcp/servers/QuantOracledev/quantoracle)
+          📇 ☁️ - 63 deterministic quant finance tools for AI agents — options pricing, risk metrics, portfolio
+          optimization, Monte Carlo, technical indicators, crypto/DeFi, and FX/macro. 1,000 free calls/day, no API key.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: QuantOracledev/quantoracle
     html_url: https://github.com/QuantOracledev/quantoracle
-    created_at: "2026-04-04T03:54:58Z"
-    pushed_at: "2026-07-11T00:56:46Z"
-    description: 63 deterministic quant computation tools for autonomous financial agents. Options, derivatives, risk, portfolio, statistics, crypto/DeFi, macro/FX, TVM. 1,000 free calls/day — no signup.
+    created_at: '2026-04-04T03:54:58Z'
+    pushed_at: '2026-07-11T00:56:46Z'
+    description: >-
+      63 deterministic quant computation tools for autonomous financial agents. Options, derivatives, risk, portfolio,
+      statistics, crypto/DeFi, macro/FX, TVM. 1,000 free calls/day — no signup.
     homepage: https://quantoracle.dev
     topics:
       - agentkit
@@ -55,14 +62,20 @@ metadata:
       - risk-management
       - usdc
       - x402
-    last_checked_at: "2026-07-20T16:42:41.100Z"
+    last_checked_at: '2026-07-20T16:42:41.100Z'
     readme:
-      fetched_at: "2026-07-20T16:42:41.100Z"
+      fetched_at: '2026-07-20T16:42:41.100Z'
       bytes: 37348
 insights:
-  summary: A quantitative finance API and MCP server providing 63 deterministic calculators for options, derivatives, risk, and crypto math, designed to be called by autonomous financial agents.
-  why_it_matters: It gives AI agents a reliable way to perform complex financial math with exact analytical formulas instead of relying on probabilistic LLM calculations.
-  mental_damage: We've reached the point where we don't trust the all-knowing neural network to correctly calculate Black-Scholes, so we've built a deterministic API just to keep the hallucination-prone agent from bankrupting the simulated portfolio.
+  summary: >-
+    A quantitative finance API and MCP server providing 63 deterministic calculators for options, derivatives, risk, and
+    crypto math, designed to be called by autonomous financial agents.
+  why_it_matters: >-
+    It gives AI agents a reliable way to perform complex financial math with exact analytical formulas instead of
+    relying on probabilistic LLM calculations.
+  mental_damage: >-
+    We've reached the point where we don't trust the all-knowing neural network to correctly calculate Black-Scholes, so
+    we've built a deterministic API just to keep the hallucination-prone agent from bankrupting the simulated portfolio.
   tags:
     - mcp-server
     - finance
@@ -72,35 +85,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server exposing financial computation tools for agents, as evidenced by its npm package, topic tags, and placement in awesome-mcp-servers.
+  reason: >-
+    The product's primary identity is an MCP server exposing financial computation tools for agents, as evidenced by its
+    npm package, topic tags, and placement in awesome-mcp-servers.
   evidence:
     - Repo topics include 'mcp' and 'mcp-server', and README highlights the 'quantoracle-mcp' npm package.
     - Listed in awesome-mcp-servers under 'Finance & Fintech' as a server implementation.
-    - README explicitly positions it as 'the quantitative computation API for autonomous financial agents' with an MCP integration.
+    - >-
+      README explicitly positions it as 'the quantitative computation API for autonomous financial agents' with an MCP
+      integration.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.644Z"
+    updated_at: '2026-05-06T22:12:15.644Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:41.100Z"
+    updated_at: '2026-07-20T16:42:41.100Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

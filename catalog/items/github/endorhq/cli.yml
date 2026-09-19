@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__endorhq__cli__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: endorhq/cli
         extracted_url: https://github.com/endorhq/cli
-        surrounding_text: "- [endorhq/cli](https://github.com/endorhq/cli) 📇 ☁️ 🏠 🪟 🐧 🍎 - Endor lets your AI agents run services like MariaDB, Postgres, Redis, Memcached, Alpine, or Valkey in isolated sandboxes. Get pre-configured applications that boot in less than 5 seconds."
+        surrounding_text: >-
+          - [endorhq/cli](https://github.com/endorhq/cli) 📇 ☁️ 🏠 🪟 🐧 🍎 - Endor lets your AI agents run services
+          like MariaDB, Postgres, Redis, Memcached, Alpine, or Valkey in isolated sandboxes. Get pre-configured
+          applications that boot in less than 5 seconds.
         confidence: high
 metadata:
   github:
@@ -30,18 +33,25 @@ metadata:
     archived: false
     full_name: endorhq/cli
     html_url: https://github.com/endorhq/cli
-    created_at: "2025-06-30T17:26:59Z"
-    pushed_at: "2025-07-01T16:10:06Z"
-    description: Endor provides instant, private, sandboxed environments for your favorite services anywhere Node is available. Run MariaDB, PostgreSQL and many more servers securely and in just a few seconds. Perfect for AI agents and humans in a hurry.
+    created_at: '2025-06-30T17:26:59Z'
+    pushed_at: '2025-07-01T16:10:06Z'
+    description: >-
+      Endor provides instant, private, sandboxed environments for your favorite services anywhere Node is available. Run
+      MariaDB, PostgreSQL and many more servers securely and in just a few seconds. Perfect for AI agents and humans in
+      a hurry.
     homepage: https://docs.endor.dev/cli/overview/
     topics: []
-    last_checked_at: "2026-08-27T09:23:23.841Z"
+    last_checked_at: '2026-08-27T09:23:23.841Z'
     readme:
-      fetched_at: "2026-08-27T09:23:23.841Z"
+      fetched_at: '2026-08-27T09:23:23.841Z'
       bytes: 2013
 insights:
-  summary: A CLI tool that provides instant, private, sandboxed environments for services like MariaDB and PostgreSQL, with MCP support for AI agent integration.
-  why_it_matters: Developers and AI agents can spin up isolated database or service instances locally in seconds, without installation overhead or system residue.
+  summary: >-
+    A CLI tool that provides instant, private, sandboxed environments for services like MariaDB and PostgreSQL, with MCP
+    support for AI agent integration.
+  why_it_matters: >-
+    Developers and AI agents can spin up isolated database or service instances locally in seconds, without installation
+    overhead or system residue.
   mental_damage: Finally, a way to give your AI agent a database without it immediately trying to `DROP TABLE users`.
   tags:
     - sandboxed-environments
@@ -52,33 +62,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the primary integration layer and product identity, enabling AI agents to launch and manage sandboxed services via the Model Context Protocol.
+  reason: >-
+    MCP is the primary integration layer and product identity, enabling AI agents to launch and manage sandboxed
+    services via the Model Context Protocol.
   evidence:
     - README explicitly positions MCP mode as a core feature for AI agent integration
     - Repo description highlights MCP compatibility for agents and IDEs
     - Source-list context includes it under MCP Servers > Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.612Z"
+    updated_at: '2026-05-06T22:12:15.612Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-14T04:13:49.306Z"
+    updated_at: '2026-09-14T04:13:49.306Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for endorhq/cli
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:52:22.641Z"
+    updated_at: '2026-07-21T15:52:22.641Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -91,7 +104,9 @@ processing:
       input_hash: sha256:c241f4caa203daf57707b99bc568f1ed7e09062386b5aff795fd29efc1214d7f
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the primary integration layer and product identity, enabling AI agents to launch and manage sandboxed services via the Model Context Protocol.
+      decision_reason: >-
+        MCP is the primary integration layer and product identity, enabling AI agents to launch and manage sandboxed
+        services via the Model Context Protocol.
       decision_evidence:
         - README explicitly positions MCP mode as a core feature for AI agent integration
         - Repo description highlights MCP compatibility for agents and IDEs
@@ -99,6 +114,8 @@ processing:
       category_candidates:
         - mcp
         - local-ai
-      contrastive_reason: Choose mcp over local-ai because the product's core identity is MCP-first tooling for AI agent integration, not just local runtime provisioning.
+      contrastive_reason: >-
+        Choose mcp over local-ai because the product's core identity is MCP-first tooling for AI agent integration, not
+        just local runtime provisioning.
       review_reason: null
       review_resume_lifecycle: null

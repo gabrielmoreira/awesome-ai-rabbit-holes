@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pixee__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - Code Review and Refactoring
         anchor_text: Pixee
         extracted_url: https://pixee.ai
-        surrounding_text: "- **[Pixee](https://pixee.ai)** – AI bot for security-focused PR reviews and automatic fixes."
+        surrounding_text: '- **[Pixee](https://pixee.ai)** – AI bot for security-focused PR reviews and automatic fixes.'
         confidence: high
     - id: discovery__www__pixee__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - Code Review and Refactoring
         anchor_text: Pixee
         extracted_url: https://pixee.ai
-        surrounding_text: "- **[Pixee](https://pixee.ai)** – AI bot for security-focused PR reviews and automatic fixes."
+        surrounding_text: '- **[Pixee](https://pixee.ai)** – AI bot for security-focused PR reviews and automatic fixes.'
         confidence: high
 metadata:
   github:
@@ -51,8 +51,13 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Agentic AppSec platform that uses AI to triage, prioritize, and auto-fix vulnerabilities in codebases with high developer merge rates.
-  why_it_matters: It automates the tedious, high-friction parts of security remediation—filtering false positives, generating context-aware fixes, and integrating with existing workflows—so developers can merge security patches without context-switching.
+  summary: >-
+    Agentic AppSec platform that uses AI to triage, prioritize, and auto-fix vulnerabilities in codebases with high
+    developer merge rates.
+  why_it_matters: >-
+    It automates the tedious, high-friction parts of security remediation—filtering false positives, generating
+    context-aware fixes, and integrating with existing workflows—so developers can merge security patches without
+    context-switching.
   mental_damage: Finally, a tool that turns your security backlog into a PR queue your team might actually merge instead of ignore.
   tags:
     - appsec
@@ -62,21 +67,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Its core job is acting as an autonomous agent that reads code, identifies vulnerabilities, and generates fixes developers can merge, fitting the Review, Testing & Repair Agents section.
+  reason: >-
+    Its core job is acting as an autonomous agent that reads code, identifies vulnerabilities, and generates fixes
+    developers can merge, fitting the Review, Testing & Repair Agents section.
   evidence:
     - Described as an 'Agentic AppSec platform that eliminates false positives and auto-fixes real vulnerabilities'
     - Claims 98% noise reduction and 76% merge rate for generated fixes
     - Source-list context places it under 'Code Review and Refactoring'
 placement:
   primary_category: coding-agents
-  section: Review, Testing & Repair Agents
+  secondary_categories: []
+  section: Review, Testing & Repair
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:36:30.396Z"
+    updated_at: '2026-07-21T15:36:30.396Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +97,9 @@ processing:
       input_hash: sha256:5cf86c69ceac5fdbf16c0e53edda5a68f7a215edaad3f64b982b29fc81c32c77
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Its core job is acting as an autonomous agent that reads code, identifies vulnerabilities, and generates fixes developers can merge, fitting the Review, Testing & Repair Agents section.
+      decision_reason: >-
+        Its core job is acting as an autonomous agent that reads code, identifies vulnerabilities, and generates fixes
+        developers can merge, fitting the Review, Testing & Repair Agents section.
       decision_evidence:
         - Described as an 'Agentic AppSec platform that eliminates false positives and auto-fixes real vulnerabilities'
         - Claims 98% noise reduction and 76% merge rate for generated fixes
@@ -97,12 +107,14 @@ processing:
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because the primary product identity is an autonomous agent performing security review and remediation, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because the primary product identity is an autonomous agent
+        performing security review and remediation, not an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.968Z"
+    updated_at: '2026-07-21T15:20:21.968Z'
     cause: null
     next_retry_at: null
   stars:

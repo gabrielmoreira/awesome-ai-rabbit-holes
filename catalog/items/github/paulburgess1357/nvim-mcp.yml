@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__paulburgess1357__nvim-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: paulburgess1357/nvim-mcp
         extracted_url: https://github.com/paulburgess1357/nvim-mcp
-        surrounding_text: "- [paulburgess1357/nvim-mcp](https://github.com/paulburgess1357/nvim-mcp) [![paulburgess1357/nvim-mcp MCP server](https://glama.ai/mcp/servers/paulburgess1357/nvim-mcp/badges/score.svg)](https://glama.ai/mcp/servers/paulburgess1357/nvim-mcp) 🐍 🏠 🐧 - MCP server providing AI assistants with full control of Neovim instances via msgpack-RPC. Read/edit buffers, run commands, send keys, query LSP diagnostics, and annotate code with highlights. No plugin required."
+        surrounding_text: >-
+          - [paulburgess1357/nvim-mcp](https://github.com/paulburgess1357/nvim-mcp) [![paulburgess1357/nvim-mcp MCP
+          server](https://glama.ai/mcp/servers/paulburgess1357/nvim-mcp/badges/score.svg)](https://glama.ai/mcp/servers/paulburgess1357/nvim-mcp)
+          🐍 🏠 🐧 - MCP server providing AI assistants with full control of Neovim instances via msgpack-RPC. Read/edit
+          buffers, run commands, send keys, query LSP diagnostics, and annotate code with highlights. No plugin
+          required.
         confidence: high
 metadata:
   github:
@@ -30,10 +35,10 @@ metadata:
     archived: false
     full_name: paulburgess1357/nvim-mcp
     html_url: https://github.com/paulburgess1357/nvim-mcp
-    created_at: "2026-04-05T01:56:42Z"
-    pushed_at: "2026-05-19T01:12:12Z"
+    created_at: '2026-04-05T01:56:42Z'
+    pushed_at: '2026-05-19T01:12:12Z'
     description: MCP server that connects AI agents to your running Neovim instance via msgpack-RPC — no plugins required.
-    homepage: ""
+    homepage: ''
     topics:
       - ai
       - artificial-intelligence
@@ -53,14 +58,20 @@ metadata:
       - openai
       - text-editor
       - vim
-    last_checked_at: "2026-07-20T16:42:31.888Z"
+    last_checked_at: '2026-07-20T16:42:31.888Z'
     readme:
-      fetched_at: "2026-07-20T16:42:31.888Z"
+      fetched_at: '2026-07-20T16:42:31.888Z'
       bytes: 5561
 insights:
-  summary: An MCP server that lets AI agents like Claude Code and Cursor control and observe a running Neovim instance via its native msgpack-RPC socket.
-  why_it_matters: It bridges the gap between terminal-based coding agents and the editor context, allowing agents to see diagnostics, edit buffers in memory, and navigate the UI without file-system intermediaries.
-  mental_damage: "We have finally achieved the platonic ideal of the modern developer workflow: an AI agent inside your editor, editing the editor, while you watch two terminals argue about a docstring."
+  summary: >-
+    An MCP server that lets AI agents like Claude Code and Cursor control and observe a running Neovim instance via its
+    native msgpack-RPC socket.
+  why_it_matters: >-
+    It bridges the gap between terminal-based coding agents and the editor context, allowing agents to see diagnostics,
+    edit buffers in memory, and navigate the UI without file-system intermediaries.
+  mental_damage: >-
+    We have finally achieved the platonic ideal of the modern developer workflow: an AI agent inside your editor,
+    editing the editor, while you watch two terminals argue about a docstring.
   tags:
     - mcp
     - neovim
@@ -69,35 +80,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the primary product identity—it is explicitly an MCP server designed to give agents access to Neovim, fitting the Domain Servers section.
+  reason: >-
+    MCP is the primary product identity—it is explicitly an MCP server designed to give agents access to Neovim, fitting
+    the Domain Servers section.
   evidence:
-    - "Repo description states: 'MCP server that connects AI agents to your running Neovim instance via msgpack-RPC'."
-    - README confirms it 'gives AI agents first-class access to your running Neovim session' and works with Cursor, Claude Code, and other MCP-compatible clients.
+    - 'Repo description states: ''MCP server that connects AI agents to your running Neovim instance via msgpack-RPC''.'
+    - >-
+      README confirms it 'gives AI agents first-class access to your running Neovim session' and works with Cursor,
+      Claude Code, and other MCP-compatible clients.
     - Listed in awesome-mcp-servers under 'Developer Tools', reinforcing its identity as an MCP server.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.641Z"
+    updated_at: '2026-05-06T22:12:15.641Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:31.888Z"
+    updated_at: '2026-07-20T16:42:31.888Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -1,7 +1,7 @@
 <!-- This file is generated. Do not edit it directly. Submit tools through config/sources.yml. -->
 # Evals & Benchmarks
 
-Frameworks and tooling for measuring model, prompt, or agent behavior.
+Frameworks, platforms, and tooling for measuring, tracing, comparing, and improving model, prompt, and agent behavior.
 
 ## Tools & Resources
 
@@ -122,6 +122,15 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evals` `benchmarking` `llm` `testing` `cli`
   </details>
 
+- **[SuperAgent](https://github.com/superagent-ai/superagent)** `⭐ 6.7k` `updated ≤180d` An open-source SDK and CLI for securing AI applications by detecting prompt injections, redacting PII, and scanning repositories for agent-targeted attacks. <details><summary>More about</summary>
+
+  It provides developers with the runnable guardrails and scanning tooling needed to ship AI agents without leaking secrets or silently executing malicious instructions.
+
+  _Just what every developer wanted: another layer of YAML-adjacent anxiety to configure before we can trust the thing we built to write its own YAML._
+
+  `security` `guardrails` `sdk` `red-teaming` `agent-safety`
+  </details>
+
 - **[Aim](https://github.com/aimhubio/aim)** `⭐ 6.3k` `updated ≤30d` An open-source experiment tracker for logging training runs and AI metadata with a visual UI and programmatic API. <details><summary>More about</summary>
 
   It provides a structured way to observe, compare, and query machine learning experiments and metadata to improve model development workflows.
@@ -147,24 +156,6 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   _Nothing humbles a developer quite like realizing their carefully crafted agentic loop is one prompt injection away from a security disaster._
 
   `llm-evaluation` `agent-testing` `red-teaming` `rag-eval` `llmops`
-  </details>
-
-- **[Kiln](https://github.com/kiln-ai/kiln)** `⭐ 5k` `updated ≤90d` Kiln is a desktop app and open-source library for building, evaluating, and optimizing AI systems with features like evals, RAG, agents, fine-tuning, synthetic data generation, and MCP support. <details><summary>More about</summary>
-
-  It provides an end-to-end workflow for developers to iterate on AI systems with measurable improvements, from prompt optimization to fine-tuning and evaluation.
-
-  _Finally, a tool that lets you fine-tune your fine-tuning process—because nothing says 'productivity' like optimizing your optimization loop._
-
-  `evals` `fine-tuning` `rag` `ai-agents` `mcp`
-  </details>
-
-- **[AutoRAG](https://github.com/marker-inc-korea/autorag)** `⭐ 5k` `updated ≤90d` An open-source RAG AutoML framework that automatically evaluates, benchmarks, and optimizes retrieval-augmented generation pipelines for your specific datasets. <details><summary>More about</summary>
-
-  Developers building RAG applications can stop manually guessing which combination of parsers, chunkers, embeddings, and retrievers works best by letting AutoRAG run systematic experiments against their own data.
-
-  _Another glorious framework promising to automate your RAG decisions so you can spend the time you saved fine-tuning the YAML file that configures the automation._
-
-  `rag` `eval` `benchmarking` `automl` `pipeline-optimization`
   </details>
 
 - **[Logfire](https://github.com/pydantic/logfire)** `⭐ 4.4k` `updated ≤90d` An observability platform and SDK built on OpenTelemetry for tracing, logging, and measuring production LLM and agent systems. <details><summary>More about</summary>
@@ -194,6 +185,15 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `ml-validation` `model-testing` `data-drift` `mlops` `ci-cd`
   </details>
 
+- **[FlashRAG](https://github.com/ruc-nlpir/flashrag)** `⭐ 3.5k` `updated ≤90d` FlashRAG is a Python toolkit providing pre-processed benchmark datasets, state-of-the-art RAG algorithms, and modular components for researchers to reproduce and develop Retrieval Augmented Generation systems. <details><summary>More about</summary>
+
+  It standardizes the chaotic RAG research landscape by giving developers a single framework with 36 datasets and 23 algorithms to benchmark retrieval and generation pipelines without rewriting boilerplate.
+
+  _Finally, a toolkit to help you discover that your bespoke RAG implementation is still outperformed by a simple heuristic from 2022._
+
+  `rag` `research` `benchmark` `python` `retrieval`
+  </details>
+
 - **[LangWatch](https://github.com/langwatch/langwatch)** `⭐ 3.4k` `updated ≤90d` LangWatch is a platform for LLM evaluations, AI agent testing, and observability with simulation, tracing, prompt optimization, and an AI gateway for governance. <details><summary>More about</summary>
 
   It gives developers end-to-end visibility and control over agent behavior, enabling regression testing and production monitoring without custom tooling.
@@ -201,6 +201,15 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   _Another observability platform promising to eliminate tool sprawl while adding yet another layer to your AI stack._
 
   `evals` `observability` `llmops`
+  </details>
+
+- **[Pezzo 🕹️](https://github.com/pezzolabs/pezzo)** `⭐ 3.3k` `updated ≤180d` Pezzo is an open-source LLMOps platform for managing prompts, monitoring AI operations, and tracking costs across Node.js, Python, and LangChain clients. <details><summary>More about</summary>
+
+  It gives developers a centralized control plane to version prompts, observe LLM calls, and cut costs without wiring custom instrumentation into every app.
+
+  _Yet another platform promising to solve the chaos of your prompt strings, as if the real problem was version control and not the fact that your carefully tuned system message breaks on the next model update._
+
+  `llmops` `prompt-management` `observability` `open-source` `platform`
   </details>
 
 - **[EvalScope (`🔥`)](https://github.com/modelscope/evalscope)** `⭐ 3.2k` `updated ≤90d` EvalScope is a framework for evaluating and benchmarking large models (LLMs, VLMs, AIGC) with built-in benchmarks, multi-backend support, and performance stress testing. <details><summary>More about</summary>
@@ -248,6 +257,15 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-observability` `opentelemetry` `evals` `prompt-management` `gpu-monitoring`
   </details>
 
+- **[Git AI](https://github.com/git-ai-project/git-ai)** `⭐ 2.5k` `updated ≤30d` An open-source Git extension that tracks and attributes AI-generated code to specific agents, models, and sessions. <details><summary>More about</summary>
+
+  It provides a way to audit AI contributions by linking specific lines of code back to the original model and the session transcript that produced them.
+
+  _Finally, you can pinpoint exactly which LLM hallucinated that critical logic error in your pull request._
+
+  `git-extension` `ai-attribution` `auditability` `developer-productivity`
+  </details>
+
 - **[Lighteval](https://github.com/huggingface/lighteval)** `⭐ 2.5k` `updated ≤90d` Lighteval is an all-in-one toolkit for evaluating LLMs across multiple backends, supporting 1000+ tasks and custom metrics. <details><summary>More about</summary>
 
   Developers can rigorously benchmark and debug model performance with detailed, sample-by-sample results across diverse domains and languages.
@@ -255,15 +273,6 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   _Finally, a way to prove your model is bad at math without having to argue with it._
 
   `evaluation` `benchmarking` `llm` `huggingface` `metrics`
-  </details>
-
-- **[Evaluation guidebook](https://github.com/huggingface/evaluation-guidebook)** `⭐ 2.1k` `updated ≤1y` A guidebook sharing practical insights and theoretical knowledge about LLM evaluation, including benchmarks, human evaluation, and LLM-as-a-judge methodologies. <details><summary>More about</summary>
-
-  It provides developers with structured guidance on designing, troubleshooting, and improving LLM evaluations for their specific tasks.
-
-  _Finally, a guide to evaluating LLMs that doesn’t just say 'it depends' and leave you there._
-
-  `evaluation` `llm` `guidebook` `benchmarks` `huggingface`
   </details>
 
 - **[alpaca_eval](https://github.com/tatsu-lab/alpaca_eval)** `⭐ 2k` `updated >1y` An automatic evaluator for instruction-following language models that uses a powerful LLM to score outputs against a reference model, validated against 20K human annotations. <details><summary>More about</summary>
@@ -282,6 +291,24 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   _The realization that your 'autonomous' agent is just a fragile series of hallucinations that requires a Go-based gateway and a full observability stack to keep from crashing._
 
   `llm-evals` `observability` `agent-ops` `tracing` `open-source`
+  </details>
+
+- **[Zetane Viewer](https://github.com/zetane/viewer)** `⭐ 1.8k` `updated >1y` Zetane Viewer is a 3D visualizer for ML models and internal tensors, supporting ONNX and ZTN formats. <details><summary>More about</summary>
+
+  It helps developers debug and understand model behavior by visualizing architecture, weights, and activations in an interactive 3D interface.
+
+  _Another tool to convince yourself you understand your black box while the real issue is still your learning rate._
+
+  `ml-visualization` `model-inspection` `debugging`
+  </details>
+
+- **[MLRun](https://github.com/mlrun/mlrun)** `⭐ 1.7k` `updated ≤90d` MLRun is an open-source MLOps platform for building, deploying, and managing continuous (gen) AI and ML applications across their lifecycle, integrating with development and CI/CD environments. <details><summary>More about</summary>
+
+  It provides developers with a unified workflow to handle data management, RAG development, LLM evaluation, fine-tuning, and serverless deployment within a single framework.
+
+  _Just when you thought your stack couldn't get any deeper, you now have a platform to orchestrate the platforms that orchestrate your prompts._
+
+  `mlops` `genai` `pipelines` `llm-serving` `kubernetes`
   </details>
 
 - **[GuideLLM](https://github.com/vllm-project/guidellm)** `⭐ 1.4k` `updated ≤90d` GuideLLM is a benchmarking platform that evaluates LLM inference performance under real-world workloads using OpenAI-compatible and vLLM-native servers. <details><summary>More about</summary>
@@ -318,24 +345,6 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   _Because nothing says confidence in your retrieval stack like outsourcing the grading of your AI’s answers to another AI and calling it a dashboard._
 
   `evals` `langchain` `qa` `streamlit`
-  </details>
-
-- **[Skills](https://github.com/nvidia-nemo/skills)** `⭐ 1k` `updated ≤90d` Nemo Skills is a pipeline toolkit for improving LLM capabilities via synthetic data generation, model training, and large-scale benchmark evaluation. <details><summary>More about</summary>
-
-  It gives developers a unified, scalable path from local workstation experiments to Slurm clusters for fine-tuning and evaluating models on benchmarks like SWE-bench and AIME.
-
-  _Nothing says 'improving LLM skills' quite like needing a ten-thousand-GPU cluster to prove your model can still fail at high-school math._
-
-  `llm-training` `evaluation` `synthetic-data` `nvidia` `benchmarks`
-  </details>
-
-- **[Agentic Radar](https://github.com/splx-ai/agentic-radar)** `⭐ 1k` `updated ≤1y` A CLI security scanner that analyzes agentic workflows to visualize their structure, identify tools and MCP servers, and map components to known LLM vulnerabilities like the OWASP Top 10. <details><summary>More about</summary>
-
-  It helps developers and security professionals audit AI agent systems for operational risks and security gaps before they reach production.
-
-  _We've reached the point where we need specialized vulnerability scanners just to understand what chaos our autonomous agents are orchestrating._
-
-  `security` `cli` `mcp` `devsecops` `agentic-workflows`
   </details>
 
 - **[LangKit](https://github.com/whylabs/langkit)** `⭐ 993` `updated >1y` LangKit is an open-source toolkit for monitoring LLMs by extracting signals from prompts and responses to assess quality, security, and sentiment. <details><summary>More about</summary>
@@ -410,15 +419,6 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `ollama` `benchmarking` `local-llm` `performance` `cli`
   </details>
 
-- **[AgentMark](https://github.com/agentmark-ai/agentmark)** `⭐ 352` `updated ≤90d` AgentMark is an open-source platform for managing, running, and evaluating AI agent prompts defined in Markdown files, with OpenTelemetry tracing and SDK adapters. <details><summary>More about</summary>
-
-  It gives developers a version-controlled, type-safe workflow to iterate on prompts, run experiments against datasets, and trace LLM calls across local and cloud environments.
-
-  _You now have a Markdown dialect, a custom CLI, and a telemetry pipeline just to ask a model how long shipping takes._
-
-  `prompt-management` `evals` `observability` `mdx` `agents`
-  </details>
-
 - **[LLM Decontaminator](https://github.com/lm-sys/llm-decontaminator)** `⭐ 325` `updated >1y` A research toolkit for detecting and removing rephrased benchmark samples from LLM training datasets to prevent data contamination. <details><summary>More about</summary>
 
   It gives LLM developers and researchers a concrete way to measure and scrub benchmark contamination, helping keep model eval results honest.
@@ -435,15 +435,6 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   _Finally, a way to quantify whether your RAG pipeline is just hallucinating with confidence._
 
   `rag` `benchmarking` `evaluation` `llm` `retrieval`
-  </details>
-
-- **[datasetloom](https://github.com/599yongyang/datasetloom)** `⭐ 297` `updated ≤1y` An intelligent platform for constructing and evaluating multimodal training datasets, supporting SFT, DPO, and RAG-enhanced data generation. <details><summary>More about</summary>
-
-  It automates the complex pipeline of transforming unstructured documents and images into high-quality, structured datasets for fine-tuning multimodal models.
-
-  _Nothing says 'caling your LLM' like spending your afternoon debugging a RAG-driven data pipeline just to get a semi-decent DPO dataset._
-
-  `multimodal` `dataset-generation` `sft` `dpo` `rag`
   </details>
 
 - **[MathArena](https://github.com/eth-sri/matharena)** `⭐ 278` `updated ≤90d` An evaluation platform for testing LLM performance on recent mathematical competitions and olympiads. <details><summary>More about</summary>
@@ -491,6 +482,15 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `observability` `tracing` `opentelemetry` `llmops` `agents`
   </details>
 
+- **[Comet-ML/Opik-MCP](https://github.com/comet-ml/opik-mcp)** `⭐ 217` `updated ≤30d` Model Context Protocol (MCP) server implementation for Opik, enabling IDE integration and unified access to prompts, projects, traces, and metrics. <details><summary>More about</summary>
+
+  Developers can integrate Opik's prompt lifecycle, workspace exploration, and metrics capabilities directly into MCP-compatible clients like Cursor or VS Code.
+
+  _Now your IDE can juggle prompts, traces, and metrics like a circus performer with too many hats._
+
+  `mcp-server` `opik` `ide-integration` `typescript` `developer-tools`
+  </details>
+
 - **[fiddler-auditor](https://github.com/fiddler-labs/fiddler-auditor)** `⭐ 196` `updated >1y` Fiddler Auditor is a tool designed to evaluate and audit the performance and safety of large language models. <details><summary>More about</summary>
 
   It helps developers identify hallucinations, adversarial vulnerabilities, and private data leaks before deploying models into production.
@@ -529,6 +529,24 @@ _These are new or low-traffic entries being watched._
   _The peace of mind knowing your LLM passed 72 local metrics right before it manages to hallucinate a new way to delete your production database._
 
   `ai-observability` `benchmarking` `evals` `guardrails` `llm-evaluation` `llmops` `rag` `sdks` `testing`
+  </details>
+
+- **[agenttrace](https://github.com/luoyuctl/agenttrace)** `⭐ 111` `updated ≤90d` AgentTrace is a local-first terminal TUI and report generator that analyzes session logs from AI coding agents to track cost, tokens, time, tool failures, and performance. <details><summary>More about</summary>
+
+  It gives developers visibility into AI agent spend and latency so they can optimize usage and diagnose slow or expensive runs without relying on external observability.
+
+  _Finally, a tool to quantify the guilt of letting your AI coding agent loop on a typo for 47 minutes while burning through your token budget._
+
+  `observability` `tui` `ai-agents` `cost-tracking` `local-first`
+  </details>
+
+- **[avivsinai/langfuse-mcp](https://github.com/avivsinai/langfuse-mcp)** `⭐ 105` `updated ≤30d` An MCP server for Langfuse that enables AI agents to query trace data, debug errors, and analyze sessions for observability. <details><summary>More about</summary>
+
+  Developers can integrate Langfuse's observability features directly into their AI agent workflows via MCP, enabling richer debugging and trace analysis.
+
+  _Now your AI agents can debug their own debugging tools, because why stop at one layer of meta._
+
+  `mcp` `observability` `debugging` `langfuse` `tracing`
   </details>
 
 - **[skill-optimizer](https://github.com/fastxyz/skill-optimizer)** `⭐ 77` `updated ≤180d` skill-optimizer is a Docker-based CLI and agent skill for running deterministic evaluations of agent skills against LLM models via OpenRouter. <details><summary>More about</summary>
@@ -603,6 +621,15 @@ _These are new or low-traffic entries being watched._
   `rag` `observability` `vector-db` `embeddings` `llmops`
   </details>
 
+- **[scorable-mcp](https://github.com/root-signals/scorable-mcp)** `⭐ 12` `updated ≤180d` An MCP server that exposes Scorable evaluators, judges, and coding policy adherence checks as tools for AI assistants and agents. <details><summary>More about</summary>
+
+  It lets coding agents natively measure and score their own outputs against structured evaluation criteria without leaving the MCP client.
+
+  _Now your agent can pass the test, grade the test, and then argue with the judge it just instantiated._
+
+  `mcp` `evals` `llm-as-a-judge` `agent-quality`
+  </details>
+
 - **[AgentBench](https://github.com/agentbench/agentbench)** `⭐ 10` `updated ≤1y` A benchmarking framework designed to evaluate AI agent configurations across 40 real-world tasks and 7 domains using rule-based scoring. <details><summary>More about</summary>
 
   It shifts the focus from evaluating raw model intelligence to measuring the effectiveness of specific agentic setups, prompts, and tool configurations.
@@ -610,6 +637,15 @@ _These are new or low-traffic entries being watched._
   _Nothing induces existential dread quite like discovering your expensive agent configuration is scoring 30 points lower than your colleague's simply because of a slight difference in prompt engineering._
 
   `benchmarking` `agent-evaluation` `instrumentation` `ai-agents`
+  </details>
+
+- **[osop-agent-rules](https://github.com/archie0125/osop-agent-rules)** `⭐ 5` `updated ≤180d` Drop-in OSOP session logging rules for 18 AI coding agents, enabling structured execution records across platforms like Cursor, Codex, Windsurf, and Copilot. <details><summary>More about</summary>
+
+  Developers can standardize session logging across disparate coding agents, making workflows auditable and portable without per-tool integration work.
+
+  _Finally, a way to make your AI agents document their own chaos before you forget what they did._
+
+  `session-logging` `multi-agent` `osop` `workflow-audit` `coding-agents`
   </details>
 
 - **[swarms-evals](https://github.com/the-swarm-corporation/swarms-evals)** `⭐ 4` `updated ≤1y` A Python package providing evaluation harnesses for comparing multi-agent collaboration performance against individual agents across benchmarks like HumanEval, MMLU, and SWE-BENCH. <details><summary>More about</summary>
@@ -630,31 +666,31 @@ _These are new or low-traffic entries being watched._
   `cli` `debugging` `agent-observability` `terminal` `logs`
   </details>
 
-- **[slopcodemonitor.ai](https://github.com/marcoramilli/slopcodemonitor.ai)** `⭐ 1` `updated ≤90d` A daily-updated dashboard that scans trending GitHub repositories using the SynthScan fingerprint engine to detect and score AI-generated 'slop' code patterns. <details><summary>More about</summary>
+- **[alog-mcp](https://github.com/asicojp/alog-mcp)** `⭐ 1` `updated ≤180d` An MCP server that enables AI agents to log real-time thinking processes and publish articles to the Alog blogging platform. <details><summary>More about</summary>
 
-  It gives maintainers and code reviewers a quantitative signal to distinguish human-authored logic from repetitive, AI-generated boilerplate in popular open-source projects.
+  It provides a standardized way for agents to turn their internal reasoning logs and task successes into human-readable, shareable content.
 
-  _We now need automated tools to tell us which code was written by the same hallucinating autocomplete we just finished installing._
+  _Because nothing says 'senior engineer' like turning your agent's mid-debug failures into a monetized thought-leadership blog post._
 
-  `code-review` `ai-detection` `quality-analysis` `dashboard`
+  `mcp` `logging` `blogging` `agentic-workflows`
   </details>
 
-- **[SynthScan](https://github.com/marcoramilli/synthscan)** `⭐ 1` `updated ≤90d` A GitHub Action and CLI tool that scans repositories for over 120 patterns indicative of AI-generated code and reports a normalized 'Synthetic Code Score' per 1,000 lines of code. <details><summary>More about</summary>
+- **[thoughtproof/thoughtproof-mcp](https://github.com/thoughtproof/thoughtproof-mcp)** `⭐ 1` `updated ≤180d` An MCP server that provides adversarial multi-model reasoning verification for AI agents by challenging claims across Claude, Grok, DeepSeek, and Gemini with signed attestations. <details><summary>More about</summary>
 
-  It provides engineering teams with a quantitative metric to assess the presence of low-quality or 'slop' AI code in their codebase and enforce thresholds via CI.
+  It lets developers add a verification layer to agent workflows so that high-stakes claims can be challenged and attested before the agent acts.
 
-  _We have finally reached the point where we need automated tools to tell us if our automated tools are doing a bad job._
+  _We have successfully reached the point where AI agents now need their own panel of peer reviewers, complete with cryptographic signatures and micropayments._
 
-  `code-quality` `ai-detection` `github-actions` `static-analysis`
+  `mcp` `verification` `multi-model` `agent-safety`
   </details>
 
-- **[Atla API](https://docs.atla-ai.com)** Atla is an observability platform designed to trace, monitor, and debug the behavior of AI agents. <details><summary>More about</summary>
+- **[hernaninverso/eleata-verify-mcp](https://github.com/hernaninverso/eleata-verify-mcp)** `⭐ 0` `updated ≤90d` An MCP server that provides grounding and hallucination guardrails by verifying claims against provided evidence. <details><summary>More about</summary>
 
-  It provides the visibility needed to debug agentic failure modes and iterate on performance through automated error detection and tracing.
+  It provides a standardized way for AI agents to perform natural language inference to check if their generated claims are actually supported by source documents.
 
-  _Because watching your agent hallucinate in real-time is much better when you have a beautiful dashboard to document the exact moment it lost the plot._
+  _Another layer of validation to remind you that your RAG pipeline is likely making things up._
 
-  `observability` `tracing` `agent-monitoring` `debugging` `instrumentation`
+  `mcp` `hallucination-guardrails` `grounding` `nli` `agent-tools`
   </details>
 
 - **[chat.lmsys.org](https://chat.lmsys.org)** A benchmarking platform for evaluating large language models through human-side comparisons. <details><summary>More about</summary>
@@ -673,15 +709,6 @@ _These are new or low-traffic entries being watched._
   _Because nothing says 'production-ready' like pitting your agents against each other in a chat cage match._
 
   `agent-evaluation` `benchmarking` `ai-agents`
-  </details>
-
-- **[ContextQA](https://contextqa.com)** An AI-native testing platform that automates end-to-end QA for enterprise applications and AI agents through self-healing tests and MCP integration. <details><summary>More about</summary>
-
-  It helps developers validate non-deterministic AI agents and complex enterprise workflows by automatically catching hallucinations and selector drift.
-
-  _Finally, a way to watch your AI agent hallucinate in a controlled, automated environment before it does it to your customers._
-
-  `ai-testing` `qa-automation` `mcp` `enterprise-software` `agent-validation`
   </details>
 
 - **[Fiddler AI](https://fiddler.ai/llmops)** Fiddler AI is an enterprise LLM observability and security platform for monitoring, analyzing, and safeguarding LLM applications in production. <details><summary>More about</summary>
@@ -756,13 +783,13 @@ _These are new or low-traffic entries being watched._
   `llm-evals` `observability` `prompt-engineering` `experiment-tracking` `human-annotation`
   </details>
 
-- **[PromptLayer 🍰](https://promptlayer.com)** PromptLayer is a developer platform for versioning, testing, and monitoring prompts and AI agents through robust evals, tracing, and regression sets. <details><summary>More about</summary>
+- **[Predibase](https://predibase.com)** Enterprise control layer for monitoring, governing, and remediating AI agent behavior across deployments. <details><summary>More about</summary>
 
-  It gives developers a structured way to track prompt changes, run regression tests, and collaborate with domain experts via a visual editor.
+  Provides real-time observability, policy enforcement, and rollback capabilities for multi-agent AI systems in production environments.
 
-  _Yet another platform to manage the layers of abstraction we keep adding so we can pretend our prompts are now enterprise-grade software._
+  _Finally, a way to undo that time your agent decided to recursively delete your prod database._
 
-  `evals` `evaluations` `llmops` `observability` `prompt-management` `tracing`
+  `agent-ops` `enterprise-ai` `governance` `observability` `security`
   </details>
 
 - **[Root Signals](https://scorable.ai)** Scorable is a production-grade evaluation platform for measuring, scoring, and improving AI-powered applications using custom AI judges and real-time monitoring. <details><summary>More about</summary>
@@ -792,11 +819,11 @@ _These are new or low-traffic entries being watched._
   `benchmarking` `domain-specific` `evaluation` `finance` `legal`
   </details>
 
-- **[Weights & Biases (Prompts)](https://docs.wandb.ai/guides/prompts)** Documentation for Weights & Biases Prompts, a tool for visualizing and evaluating LLM prompt performance. <details><summary>More about</summary>
+- **[Weco Observe](https://weco.ai)** An autonomous agentic platform that iteratively optimizes code and machine learning pipelines by testing candidate solutions against specific performance metrics. <details><summary>More about</summary>
 
-  It provides developers with the tracing and observability needed to debug why a prompt is behaving inconsistently in production.
+  It automates the tedious, manual trial-and-error loop of hyperparameter tuning, prompt engineering, and code performance optimization.
 
-  _Nothing says 'I've lost control of my application logic' like needing a dedicated observability platform to figure out why a prompt just hallucinated a whole new backend._
+  _It’s a way to let an agent spend three days and a few cents chasing a 0.01% metric improvement while you contemplate your career choices._
 
-  `llmops` `observability` `tracing` `evaluation`
+  `automation` `coding-agents` `mlops` `optimization`
   </details>

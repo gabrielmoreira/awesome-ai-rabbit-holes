@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aparajithn__agent-deploy-dashboard-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: aparajithn/agent-deploy-dashboard-mcp
         extracted_url: https://github.com/aparajithn/agent-deploy-dashboard-mcp
-        surrounding_text: "- [aparajithn/agent-deploy-dashboard-mcp](https://github.com/aparajithn/agent-deploy-dashboard-mcp) [![agent-deploy-dashbaord MCP server](https://glama.ai/mcp/servers/@aparajithn/agent-deploy-dashbaord/badges/score.svg)](https://glama.ai/mcp/servers/@aparajithn/agent-deploy-dashbaord) 🐍 ☁️ - Unified deployment dashboard MCP server across Vercel, Render, Railway, and Fly.io. 9 tools for deploy status, logs, environment variables, rollback, and health checks across all platforms. Free tier with x402 micropayments."
+        surrounding_text: >-
+          - [aparajithn/agent-deploy-dashboard-mcp](https://github.com/aparajithn/agent-deploy-dashboard-mcp)
+          [![agent-deploy-dashbaord MCP
+          server](https://glama.ai/mcp/servers/@aparajithn/agent-deploy-dashbaord/badges/score.svg)](https://glama.ai/mcp/servers/@aparajithn/agent-deploy-dashbaord)
+          🐍 ☁️ - Unified deployment dashboard MCP server across Vercel, Render, Railway, and Fly.io. 9 tools for deploy
+          status, logs, environment variables, rollback, and health checks across all platforms. Free tier with x402
+          micropayments.
         confidence: high
 metadata:
   github:
@@ -30,19 +36,25 @@ metadata:
     archived: false
     full_name: aparajithn/agent-deploy-dashboard-mcp
     html_url: https://github.com/aparajithn/agent-deploy-dashboard-mcp
-    created_at: "2026-03-07T13:11:56Z"
-    pushed_at: "2026-03-07T13:20:39Z"
+    created_at: '2026-03-07T13:11:56Z'
+    pushed_at: '2026-03-07T13:20:39Z'
     description: Unified deployment management MCP server for Vercel, Render, Railway, and Fly.io
     homepage: null
     topics: []
-    last_checked_at: "2026-09-10T04:12:56.190Z"
+    last_checked_at: '2026-09-10T04:12:56.190Z'
     readme:
-      fetched_at: "2026-09-10T04:12:56.190Z"
+      fetched_at: '2026-09-10T04:12:56.190Z'
       bytes: 12526
 insights:
-  summary: An MCP server that provides unified deployment management for Vercel, Render, Railway, and Fly.io via a single MCP + REST API.
-  why_it_matters: Developers can manage deployments, logs, environment variables, and redeploys across multiple platforms without switching contexts or tools.
-  mental_damage: Finally, a way to juggle four different deployment dashboards from one place—because nothing says 'productivity' like abstracting away the chaos you created.
+  summary: >-
+    An MCP server that provides unified deployment management for Vercel, Render, Railway, and Fly.io via a single MCP +
+    REST API.
+  why_it_matters: >-
+    Developers can manage deployments, logs, environment variables, and redeploys across multiple platforms without
+    switching contexts or tools.
+  mental_damage: >-
+    Finally, a way to juggle four different deployment dashboards from one place—because nothing says 'productivity'
+    like abstracting away the chaos you created.
   tags:
     - mcp
     - deployment
@@ -52,33 +64,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server providing domain-specific (deployment management) capabilities, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product's core identity is an MCP server providing domain-specific (deployment management) capabilities, fitting
+    the MCP Servers & Tooling category.
   evidence:
     - Repo description explicitly states it is a 'Unified deployment management MCP server'
     - README details MCP configuration and REST API endpoints for deployment operations
     - Already listed in awesome-mcp-servers under 'Server Implementations > Cloud Platforms'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.602Z"
+    updated_at: '2026-05-06T22:12:15.602Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-17T04:13:47.253Z"
+    updated_at: '2026-09-17T04:13:47.253Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for aparajithn/agent-deploy-dashboard-mcp
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:23:30.840Z"
+    updated_at: '2026-07-21T15:23:30.840Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -91,7 +106,9 @@ processing:
       input_hash: sha256:16e65342be1d9684077f38cf7ffd11001c1eec77b6f84ac74162a12d0da6e628
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP server providing domain-specific (deployment management) capabilities, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product's core identity is an MCP server providing domain-specific (deployment management) capabilities,
+        fitting the MCP Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is a 'Unified deployment management MCP server'
         - README details MCP configuration and REST API endpoints for deployment operations
@@ -99,6 +116,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not merely an extension or integration layer for another tool.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not merely an
+        extension or integration layer for another tool.
       review_reason: null
       review_resume_lifecycle: null

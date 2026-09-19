@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__centralmind__gateway__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: centralmind/gateway
         extracted_url: https://github.com/centralmind/gateway
-        surrounding_text: "- [centralmind/gateway](https://github.com/centralmind/gateway) 🏎️ 🏠 🍎 🪟 - MCP and MCP SSE Server that automatically generate API based on database schema and data. Supports PostgreSQL, Clickhouse, MySQL, Snowflake, BigQuery, Supabase"
+        surrounding_text: >-
+          - [centralmind/gateway](https://github.com/centralmind/gateway) 🏎️ 🏠 🍎 🪟 - MCP and MCP SSE Server that
+          automatically generate API based on database schema and data. Supports PostgreSQL, Clickhouse, MySQL,
+          Snowflake, BigQuery, Supabase
         confidence: high
     - id: discovery__github__centralmind__gateway__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +38,9 @@ provenance:
           - Frameworks
         anchor_text: centralmind/gateway
         extracted_url: https://github.com/centralmind/gateway
-        surrounding_text: "- **[centralmind/gateway](https://github.com/centralmind/gateway)** - CLI that generates MCP tools based on your Database schema and data using AI and host as REST, MCP or MCP-SSE server"
+        surrounding_text: >-
+          - **[centralmind/gateway](https://github.com/centralmind/gateway)** - CLI that generates MCP tools based on
+          your Database schema and data using AI and host as REST, MCP or MCP-SSE server
         confidence: high
 metadata:
   github:
@@ -45,8 +50,8 @@ metadata:
     archived: false
     full_name: centralmind/gateway
     html_url: https://github.com/centralmind/gateway
-    created_at: "2025-02-10T19:34:14Z"
-    pushed_at: "2025-07-18T16:15:36Z"
+    created_at: '2025-02-10T19:34:14Z'
+    pushed_at: '2025-07-18T16:15:36Z'
     description: Universal MCP-Server for your Databases optimized for LLMs and AI-Agents.
     homepage: https://centralmind.ai
     topics:
@@ -68,14 +73,20 @@ metadata:
       - rest-api
       - snowflake
       - supabase
-    last_checked_at: "2026-09-07T04:13:42.671Z"
+    last_checked_at: '2026-09-07T04:13:42.671Z'
     readme:
-      fetched_at: "2026-09-07T04:13:42.671Z"
+      fetched_at: '2026-09-07T04:13:42.671Z'
       bytes: 12283
 insights:
-  summary: Universal MCP server that exposes databases to AI agents via MCP or OpenAPI protocols with automatic API generation and security features.
-  why_it_matters: Developers can securely connect AI agents to databases without manual API development, enabling direct data interaction for agents.
-  mental_damage: Now your AI agent can query your database directly, because nothing says 'production-ready' like letting an LLM write its own SQL.
+  summary: >-
+    Universal MCP server that exposes databases to AI agents via MCP or OpenAPI protocols with automatic API generation
+    and security features.
+  why_it_matters: >-
+    Developers can securely connect AI agents to databases without manual API development, enabling direct data
+    interaction for agents.
+  mental_damage: >-
+    Now your AI agent can query your database directly, because nothing says 'production-ready' like letting an LLM
+    write its own SQL.
   tags:
     - mcp
     - database
@@ -85,31 +96,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is as an MCP server for databases, fitting the MCP Servers & Tooling category where MCP is the primary adopted protocol.
+  reason: >-
+    The product's core identity is as an MCP server for databases, fitting the MCP Servers & Tooling category where MCP
+    is the primary adopted protocol.
   evidence:
     - Repo description explicitly states it is a 'Universal MCP-Server for your Databases'
     - README highlights MCP as a primary protocol alongside OpenAPI
     - Already listed in awesome-mcp-servers under 'Server Implementations > Databases'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: promotion_candidate
   reason: Stars (528) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.583Z"
+    updated_at: '2026-05-06T22:12:15.583Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:42.671Z"
+    updated_at: '2026-09-07T04:13:42.671Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:41:09.434Z"
+    updated_at: '2026-07-21T15:41:09.434Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -122,7 +136,9 @@ processing:
       input_hash: sha256:04fbbde9043b946e97661eed413e2ce7f215aed1bf5b47069c8d9696053384c0
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is as an MCP server for databases, fitting the MCP Servers & Tooling category where MCP is the primary adopted protocol.
+      decision_reason: >-
+        The product's core identity is as an MCP server for databases, fitting the MCP Servers & Tooling category where
+        MCP is the primary adopted protocol.
       decision_evidence:
         - Repo description explicitly states it is a 'Universal MCP-Server for your Databases'
         - README highlights MCP as a primary protocol alongside OpenAPI
@@ -130,6 +146,8 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product's primary identity is as an MCP server rather than a code-first framework or SDK.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product's primary identity is as an MCP server rather than a
+        code-first framework or SDK.
       review_reason: null
       review_resume_lifecycle: null

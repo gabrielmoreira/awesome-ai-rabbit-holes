@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__codeautopilot__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Code Autopilot
         anchor_text: Code Autopilot
         extracted_url: https://codeautopilot.com
-        surrounding_text: "## [Code Autopilot](https://www.codeautopilot.com/)"
+        surrounding_text: '## [Code Autopilot](https://www.codeautopilot.com/)'
         confidence: high
     - id: discovery__www__codeautopilot__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Code Autopilot
         anchor_text: Code Autopilot
         extracted_url: https://www.codeautopilot.com
-        surrounding_text: "## [Code Autopilot](https://www.codeautopilot.com/)"
+        surrounding_text: '## [Code Autopilot](https://www.codeautopilot.com/)'
         confidence: high
 metadata:
   github:
@@ -51,7 +51,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A GitHub-integrated AI coding assistant that automates bug fixes, feature implementation, and PR reviews within existing workflows.
+  summary: >-
+    A GitHub-integrated AI coding assistant that automates bug fixes, feature implementation, and PR reviews within
+    existing workflows.
   why_it_matters: It embeds AI assistance directly into GitHub issues and PRs, reducing context-switching for developers.
   mental_damage: Now your GitHub issues can argue with you in real-time, just like a human teammate.
   tags:
@@ -62,21 +64,26 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a primary coding assistant that directly reads code, plans changes, and assists with repo workflows via GitHub integration.
+  reason: >-
+    It is a primary coding assistant that directly reads code, plans changes, and assists with repo workflows via GitHub
+    integration.
   evidence:
-    - Described as 'ChatGPT inside your GitHub account' with features like bug solving, PR summaries, and implementation planning
+    - >-
+      Described as 'ChatGPT inside your GitHub account' with features like bug solving, PR summaries, and implementation
+      planning
     - Source-list context places it in 'AI autonomous agents' for code-related tasks
     - Core functionality includes codebase-wide analysis, issue-driven task resolution, and PR reviews
 placement:
   primary_category: coding-agents
-  section: Review, Testing & Repair Agents
+  secondary_categories: []
+  section: Review, Testing & Repair
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:33:10.507Z"
+    updated_at: '2026-07-21T15:33:10.507Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,20 +96,26 @@ processing:
       input_hash: sha256:506d017b53a3f096ee550e90eee61c2a0db4da3a4c7c07aecb56d3c44a476ff6
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: It is a primary coding assistant that directly reads code, plans changes, and assists with repo workflows via GitHub integration.
+      decision_reason: >-
+        It is a primary coding assistant that directly reads code, plans changes, and assists with repo workflows via
+        GitHub integration.
       decision_evidence:
-        - Described as 'ChatGPT inside your GitHub account' with features like bug solving, PR summaries, and implementation planning
+        - >-
+          Described as 'ChatGPT inside your GitHub account' with features like bug solving, PR summaries, and
+          implementation planning
         - Source-list context places it in 'AI autonomous agents' for code-related tasks
         - Core functionality includes codebase-wide analysis, issue-driven task resolution, and PR reviews
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because the product is a standalone assistant (not merely augmenting another tool) with direct repo workflow capabilities.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because the product is a standalone assistant (not merely augmenting
+        another tool) with direct repo workflow capabilities.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.964Z"
+    updated_at: '2026-07-21T15:20:21.964Z'
     cause: null
     next_retry_at: null
   stars:

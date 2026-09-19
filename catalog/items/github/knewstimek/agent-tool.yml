@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__knewstimek__agent-tool__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: knewstimek/agent-tool
         extracted_url: https://github.com/knewstimek/agent-tool
-        surrounding_text: "- [knewstimek/agent-tool](https://github.com/knewstimek/agent-tool) [![agent-tool MCP server](https://glama.ai/mcp/servers/knewstimek/agent-tool/badges/score.svg)](https://glama.ai/mcp/servers/knewstimek/agent-tool) 🏎️ 🏠 🍎 🪟 🐧 - Encoding-aware, indentation-smart file tools for AI coding agents. 20+ tools including read/edit with automatic encoding detection, smart indentation conversion, SSH, SFTP, process management, and system utilities. Preserves file encoding (UTF-8, EUC-KR, Shift_JIS, etc.) and respects .editorconfig settings."
+        surrounding_text: >-
+          - [knewstimek/agent-tool](https://github.com/knewstimek/agent-tool) [![agent-tool MCP
+          server](https://glama.ai/mcp/servers/knewstimek/agent-tool/badges/score.svg)](https://glama.ai/mcp/servers/knewstimek/agent-tool)
+          🏎️ 🏠 🍎 🪟 🐧 - Encoding-aware, indentation-smart file tools for AI coding agents. 20+ tools including
+          read/edit with automatic encoding detection, smart indentation conversion, SSH, SFTP, process management, and
+          system utilities. Preserves file encoding (UTF-8, EUC-KR, Shift_JIS, etc.) and respects .editorconfig
+          settings.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: knewstimek/agent-tool
     html_url: https://github.com/knewstimek/agent-tool
-    created_at: "2026-03-13T19:45:38Z"
-    pushed_at: "2026-07-01T15:02:55Z"
-    description: MCP tool server for AI coding agents -- encoding-aware file tools, binary analysis, DAP debugger, SSH/SFTP, process memory, and more
+    created_at: '2026-03-13T19:45:38Z'
+    pushed_at: '2026-07-01T15:02:55Z'
+    description: >-
+      MCP tool server for AI coding agents -- encoding-aware file tools, binary analysis, DAP debugger, SSH/SFTP,
+      process memory, and more
     homepage: null
     topics:
       - ai-coding
@@ -54,13 +62,17 @@ metadata:
       - sftp
       - ssh
       - tls
-    last_checked_at: "2026-07-30T05:05:57.511Z"
+    last_checked_at: '2026-07-30T05:05:57.511Z'
     readme:
-      fetched_at: "2026-07-30T05:05:57.511Z"
+      fetched_at: '2026-07-30T05:05:57.511Z'
       bytes: 21070
 insights:
-  summary: MCP tool server for AI coding agents offering encoding-aware file tools, binary analysis, DAP debugger, SSH/SFTP, process memory, and more.
-  why_it_matters: It solves practical gaps in built-in agent tools (e.g., encoding corruption, indentation mismatches) and bundles 50+ capabilities into a single binary for seamless integration with MCP-compatible agents.
+  summary: >-
+    MCP tool server for AI coding agents offering encoding-aware file tools, binary analysis, DAP debugger, SSH/SFTP,
+    process memory, and more.
+  why_it_matters: >-
+    It solves practical gaps in built-in agent tools (e.g., encoding corruption, indentation mismatches) and bundles 50+
+    capabilities into a single binary for seamless integration with MCP-compatible agents.
   mental_damage: Finally, an MCP server that lets your agent debug binaries while respecting your tabs-and-EUC-KR legacy project.
   tags:
     - mcp-server
@@ -71,31 +83,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a server providing domain-specific tools for AI coding agents via the Model Context Protocol."
+  reason: >-
+    MCP is the product identity: this is a server providing domain-specific tools for AI coding agents via the Model
+    Context Protocol.
   evidence:
     - Repo description explicitly states it is an MCP tool server for AI coding agents
     - README details 50+ MCP-compatible tools (Edit, Read, SSH, SFTP, etc.)
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.624Z"
+    updated_at: '2026-05-06T22:12:15.624Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:57.511Z"
+    updated_at: '2026-07-30T05:05:57.511Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:12:52.672Z"
+    updated_at: '2026-07-21T16:12:52.672Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -108,7 +123,9 @@ processing:
       input_hash: sha256:5a8e182328b89c22801b45531d164746db46480aa259c4411d39cf90300f54ec
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a server providing domain-specific tools for AI coding agents via the Model Context Protocol."
+      decision_reason: >-
+        MCP is the product identity: this is a server providing domain-specific tools for AI coding agents via the Model
+        Context Protocol.
       decision_evidence:
         - Repo description explicitly states it is an MCP tool server for AI coding agents
         - README details 50+ MCP-compatible tools (Edit, Read, SSH, SFTP, etc.)
@@ -116,6 +133,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server providing domain tools, not merely extending another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server providing domain tools, not merely
+        extending another assistant.
       review_reason: null
       review_resume_lifecycle: null

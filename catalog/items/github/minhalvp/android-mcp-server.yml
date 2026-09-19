@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__minhalvp__android-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,10 @@ provenance:
           - Community Servers
         anchor_text: Android MCP
         extracted_url: https://github.com/minhalvp/android-mcp-server
-        surrounding_text: "- **[Android MCP](https://github.com/minhalvp/android-mcp-server)** - 📲 An MCP server that provides control over Android devices through ADB. Offers device screenshot capture, UI layout analysis, package management, and ADB command execution capabilities."
+        surrounding_text: >-
+          - **[Android MCP](https://github.com/minhalvp/android-mcp-server)** - 📲 An MCP server that provides control
+          over Android devices through ADB. Offers device screenshot capture, UI layout analysis, package management,
+          and ADB command execution capabilities.
         confidence: high
 metadata:
   github:
@@ -29,19 +32,23 @@ metadata:
     archived: false
     full_name: minhalvp/android-mcp-server
     html_url: https://github.com/minhalvp/android-mcp-server
-    created_at: "2025-02-28T12:20:34Z"
-    pushed_at: "2025-05-28T17:13:55Z"
+    created_at: '2025-02-28T12:20:34Z'
+    pushed_at: '2025-05-28T17:13:55Z'
     description: An MCP server that provides control over Android devices via adb
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:17:03.872Z"
+    last_checked_at: '2026-08-03T05:17:03.872Z'
     readme:
-      fetched_at: "2026-08-03T05:17:03.872Z"
+      fetched_at: '2026-08-03T05:17:03.872Z'
       bytes: 5556
 insights:
   summary: An MCP server that provides programmatic control over Android devices via ADB for use with MCP clients.
-  why_it_matters: Enables developers to automate Android device interactions—like screenshots, package inspection, and UI analysis—through natural language via MCP-compatible assistants.
-  mental_damage: Another MCP server promising to let Claude control your emulator, adding yet another layer to the stack before you can actually test your app.
+  why_it_matters: >-
+    Enables developers to automate Android device interactions—like screenshots, package inspection, and UI
+    analysis—through natural language via MCP-compatible assistants.
+  mental_damage: >-
+    Another MCP server promising to let Claude control your emulator, adding yet another layer to the stack before you
+    can actually test your app.
   tags:
     - android
     - mcp
@@ -50,31 +57,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's core identity is an MCP server exposing Android device control via ADB, making MCP the primary product rather than a coding agent or extension.
+  reason: >-
+    The project's core identity is an MCP server exposing Android device control via ADB, making MCP the primary product
+    rather than a coding agent or extension.
   evidence:
-    - "Repo description: 'An MCP server that provides control over Android devices via adb'"
+    - 'Repo description: ''An MCP server that provides control over Android devices via adb'''
     - README emphasizes MCP server functionality and configuration for use with clients like Claude Desktop and Cursor
     - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: promotion_candidate
   reason: Stars (744) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.630Z"
+    updated_at: '2026-05-06T22:12:15.630Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:03.872Z"
+    updated_at: '2026-08-03T05:17:03.872Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:21:17.722Z"
+    updated_at: '2026-07-21T16:21:17.722Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,14 +97,20 @@ processing:
       input_hash: sha256:319e3e1d26e44b65a2d8dd14661222ba2d629cab9063b42157b13e9d476aafaf
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's core identity is an MCP server exposing Android device control via ADB, making MCP the primary product rather than a coding agent or extension.
+      decision_reason: >-
+        The project's core identity is an MCP server exposing Android device control via ADB, making MCP the primary
+        product rather than a coding agent or extension.
       decision_evidence:
-        - "Repo description: 'An MCP server that provides control over Android devices via adb'"
-        - README emphasizes MCP server functionality and configuration for use with clients like Claude Desktop and Cursor
+        - 'Repo description: ''An MCP server that provides control over Android devices via adb'''
+        - >-
+          README emphasizes MCP server functionality and configuration for use with clients like Claude Desktop and
+          Cursor
         - Listed in awesome-mcp-servers under Community Servers
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the project is an MCP server itself, not an extension that augments another coding assistant with Android capabilities.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the project is an MCP server itself, not an extension that augments
+        another coding assistant with Android capabilities.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ofershap__mcp-server-docker__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: ofershap/mcp-server-docker
         extracted_url: https://github.com/ofershap/mcp-server-docker
-        surrounding_text: "- [ofershap/mcp-server-docker](https://github.com/ofershap/mcp-server-docker) [![mcp-server-docker MCP server](https://glama.ai/mcp/servers/ofershap/mcp-server-docker/badges/score.svg)](https://glama.ai/mcp/servers/ofershap/mcp-server-docker) 📇 🏠 - Docker operations — manage containers, images, volumes, networks, and compose services."
+        surrounding_text: >-
+          - [ofershap/mcp-server-docker](https://github.com/ofershap/mcp-server-docker) [![mcp-server-docker MCP
+          server](https://glama.ai/mcp/servers/ofershap/mcp-server-docker/badges/score.svg)](https://glama.ai/mcp/servers/ofershap/mcp-server-docker)
+          📇 🏠 - Docker operations — manage containers, images, volumes, networks, and compose services.
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: ofershap/mcp-server-docker
     html_url: https://github.com/ofershap/mcp-server-docker
-    created_at: "2026-02-19T23:28:40Z"
-    pushed_at: "2026-03-10T09:22:30Z"
+    created_at: '2026-02-19T23:28:40Z'
+    pushed_at: '2026-03-10T09:22:30Z'
     description: MCP server for Docker — manage containers, images, volumes from your IDE
     homepage: null
     topics:
@@ -46,14 +49,20 @@ metadata:
       - mcp-server
       - model-context-protocol
       - typescript
-    last_checked_at: "2026-07-20T16:42:22.988Z"
+    last_checked_at: '2026-07-20T16:42:22.988Z'
     readme:
-      fetched_at: "2026-07-20T16:42:22.988Z"
+      fetched_at: '2026-07-20T16:42:22.988Z'
       bytes: 4728
 insights:
-  summary: An MCP server that lets AI coding assistants manage Docker containers, images, and volumes directly through the local Docker socket.
-  why_it_matters: It lets developers delegate routine Docker operations—like checking logs, restarting services, and monitoring stats—to their AI assistant without leaving the IDE.
-  mental_damage: "We have finally achieved the pinnacle of engineering efficiency: asking a large language model to type `docker ps` for us so we can preserve our focus for more important Slack messages."
+  summary: >-
+    An MCP server that lets AI coding assistants manage Docker containers, images, and volumes directly through the
+    local Docker socket.
+  why_it_matters: >-
+    It lets developers delegate routine Docker operations—like checking logs, restarting services, and monitoring
+    stats—to their AI assistant without leaving the IDE.
+  mental_damage: >-
+    We have finally achieved the pinnacle of engineering efficiency: asking a large language model to type `docker ps`
+    for us so we can preserve our focus for more important Slack messages.
   tags:
     - mcp
     - docker
@@ -62,35 +71,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a canonical MCP server that exposes Docker capabilities to MCP-compatible clients, fitting cleanly into the MCP Servers & Tooling category.
+  reason: >-
+    This is a canonical MCP server that exposes Docker capabilities to MCP-compatible clients, fitting cleanly into the
+    MCP Servers & Tooling category.
   evidence:
     - Repo description explicitly states 'MCP server for Docker — manage containers, images, volumes from your IDE'
-    - README confirms it is an MCP server compatible with Claude Desktop, Cursor, and VS Code Copilot, connecting to the local Docker socket
+    - >-
+      README confirms it is an MCP server compatible with Claude Desktop, Cursor, and VS Code Copilot, connecting to the
+      local Docker socket
     - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools', reinforcing its MCP identity
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.633Z"
+    updated_at: '2026-05-06T22:12:15.633Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:22.988Z"
+    updated_at: '2026-07-20T16:42:22.988Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

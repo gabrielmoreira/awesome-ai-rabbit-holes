@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__defilantech__llmkube__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-21T05:27:57.681Z"
+      discovered_at: '2026-05-21T05:27:57.681Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,7 +20,11 @@ provenance:
           - Large Model Serving
         anchor_text: LLMKube
         extracted_url: https://github.com/defilantech/llmkube
-        surrounding_text: "| [LLMKube](https://github.com/defilantech/LLMKube)                                     | Kubernetes operator for LLM inference with pluggable runtimes (llama.cpp, PersonaPlex/Moshi, generic), multi-GPU sharding, NVIDIA CUDA and Apple Silicon Metal support, and GGUF/MLX/SafeTensors model formats. | ![GitHub Badge](https://img.shields.io/github/stars/defilantech/LLMKube.svg?style=flat-square)                   |"
+        surrounding_text: >-
+          | [LLMKube](https://github.com/defilantech/LLMKube)                                     | Kubernetes operator
+          for LLM inference with pluggable runtimes (llama.cpp, PersonaPlex/Moshi, generic), multi-GPU sharding, NVIDIA
+          CUDA and Apple Silicon Metal support, and GGUF/MLX/SafeTensors model formats. | ![GitHub
+          Badge](https://img.shields.io/github/stars/defilantech/LLMKube.svg?style=flat-square)                   |
         confidence: high
 metadata:
   github:
@@ -30,9 +34,12 @@ metadata:
     archived: false
     full_name: defilantech/LLMKube
     html_url: https://github.com/defilantech/LLMKube
-    created_at: "2025-11-12T22:53:23Z"
-    pushed_at: "2026-09-14T03:20:03Z"
-    description: "Kubernetes operator for self-hosted LLM inference across a heterogeneous GPU fleet: NVIDIA CUDA, AMD Vulkan, and Apple Silicon Metal. Runtimes: llama.cpp, vLLM, TGI, mlx-server. Multi-GPU sharding, model caching, OpenAI-compatible endpoints. Apache-2.0, run across homelab and on-prem fleets, actively developed."
+    created_at: '2025-11-12T22:53:23Z'
+    pushed_at: '2026-09-14T03:20:03Z'
+    description: >-
+      Kubernetes operator for self-hosted LLM inference across a heterogeneous GPU fleet: NVIDIA CUDA, AMD Vulkan, and
+      Apple Silicon Metal. Runtimes: llama.cpp, vLLM, TGI, mlx-server. Multi-GPU sharding, model caching,
+      OpenAI-compatible endpoints. Apache-2.0, run across homelab and on-prem fleets, actively developed.
     homepage: https://llmkube.com
     topics:
       - ai
@@ -55,14 +62,22 @@ metadata:
       - self-hosted
       - tgi
       - vllm
-    last_checked_at: "2026-09-14T04:13:38.545Z"
+    last_checked_at: '2026-09-14T04:13:38.545Z'
     readme:
-      fetched_at: "2026-09-14T04:13:38.545Z"
+      fetched_at: '2026-09-14T04:13:38.545Z'
       bytes: 26242
 insights:
-  summary: Kubernetes operator for self-hosted LLM inference that manages llama.cpp, vLLM, TGI, and mlx-server runtimes across NVIDIA and Apple Silicon hardware with autoscaling and an OpenAI-compatible API.
-  why_it_matters: It lets developers run private, air-gapped inference on existing Kubernetes clusters without building a custom model-serving platform, using standard YAML to handle GPU scheduling, caching, and routing to external providers when needed.
-  mental_damage: Because what started as 'I don't want to send data to OpenAI' inevitably becomes 'I now operate a mini OpenAI-compatible platform on Kubernetes with circuit breakers for PII and a metal-agent binary running on my MacBook.'
+  summary: >-
+    Kubernetes operator for self-hosted LLM inference that manages llama.cpp, vLLM, TGI, and mlx-server runtimes across
+    NVIDIA and Apple Silicon hardware with autoscaling and an OpenAI-compatible API.
+  why_it_matters: >-
+    It lets developers run private, air-gapped inference on existing Kubernetes clusters without building a custom
+    model-serving platform, using standard YAML to handle GPU scheduling, caching, and routing to external providers
+    when needed.
+  mental_damage: >-
+    Because what started as 'I don't want to send data to OpenAI' inevitably becomes 'I now operate a mini
+    OpenAI-compatible platform on Kubernetes with circuit breakers for PII and a metal-agent binary running on my
+    MacBook.'
   tags:
     - kubernetes
     - local-inference
@@ -72,31 +87,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a Kubernetes operator purpose-built for self-hosted LLM inference, fitting the Local AI catalog because it turns private GPU and Metal hardware into an OpenAI-compatible serving layer managed with YAML.
+  reason: >-
+    It is a Kubernetes operator purpose-built for self-hosted LLM inference, fitting the Local AI catalog because it
+    turns private GPU and Metal hardware into an OpenAI-compatible serving layer managed with YAML.
   evidence:
-    - Repo description and README identify the product as a Kubernetes operator for local LLM inference with llama.cpp, vLLM, TGI, and mlx-server.
-    - README explicitly targets self-hosted, air-gapped, multi-GPU deployment with autoscaling and an OpenAI-compatible API endpoint.
-    - Appears in Awesome-LLMOps under Large Model Serving, confirming its role as inference infrastructure rather than a coding agent or framework.
+    - >-
+      Repo description and README identify the product as a Kubernetes operator for local LLM inference with llama.cpp,
+      vLLM, TGI, and mlx-server.
+    - >-
+      README explicitly targets self-hosted, air-gapped, multi-GPU deployment with autoscaling and an OpenAI-compatible
+      API endpoint.
+    - >-
+      Appears in Awesome-LLMOps under Large Model Serving, confirming its role as inference infrastructure rather than a
+      coding agent or framework.
 placement:
   primary_category: local-ai
-  section: Local Serving / APIs
+  secondary_categories: []
+  section: Local API Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (156) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-21T05:27:57.683Z"
+    updated_at: '2026-05-21T05:27:57.683Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:38.545Z"
+    updated_at: '2026-09-14T04:13:38.545Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-25T05:36:59.969Z"
+    updated_at: '2026-05-25T05:36:59.969Z'
     cause: null
     next_retry_at: null
     attempts: 1

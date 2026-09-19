@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jetbrains__junie__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,12 @@ provenance:
           - Closed Source
         anchor_text: Junie CLI
         extracted_url: https://junie.jetbrains.com
-        surrounding_text: "- **[Junie CLI](https://junie.jetbrains.com)** `[JetBrains]` — JetBrains' LLM-agnostic CLI coding agent (EAP); supports GPT-5, Claude, Gemini, Grok with plan mode and CI/CD headless usage."
+        surrounding_text: >-
+          - **[Junie CLI](https://junie.jetbrains.com)** `[JetBrains]` — JetBrains' LLM-agnostic CLI coding agent (EAP);
+          supports GPT-5, Claude, Gemini, Grok with plan mode and CI/CD headless usage.
         confidence: high
     - id: discovery__github__jetbrains__junie__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-09-10T04:12:32.934Z"
+      discovered_at: '2026-09-10T04:12:32.934Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -35,7 +37,9 @@ provenance:
           - Coding Agents
         anchor_text: JunieAI (JetBrains)
         extracted_url: https://jetbrains.com/junieai
-        surrounding_text: "- **[JunieAI (JetBrains)](https://www.jetbrains.com/junieai/)** – AI coding agent that plans, writes, tests, and refactors within JetBrains IDEs."
+        surrounding_text: >-
+          - **[JunieAI (JetBrains)](https://www.jetbrains.com/junieai/)** – AI coding agent that plans, writes, tests,
+          and refactors within JetBrains IDEs.
         confidence: high
 metadata:
   github:
@@ -45,18 +49,24 @@ metadata:
     archived: false
     full_name: JetBrains/junie
     html_url: https://github.com/JetBrains/junie
-    created_at: "2025-04-07T16:40:43Z"
-    pushed_at: "2026-07-29T21:41:15Z"
-    description: An AI coding agent by JetBrains that ships code from your terminal, IDE, or CI/CD pipeline - powered by any LLM you choose
+    created_at: '2025-04-07T16:40:43Z'
+    pushed_at: '2026-07-29T21:41:15Z'
+    description: >-
+      An AI coding agent by JetBrains that ships code from your terminal, IDE, or CI/CD pipeline - powered by any LLM
+      you choose
     homepage: https://junie.jetbrains.com
     topics: []
-    last_checked_at: "2026-07-30T05:05:49.576Z"
+    last_checked_at: '2026-07-30T05:05:49.576Z'
     readme:
-      fetched_at: "2026-07-30T05:05:49.576Z"
+      fetched_at: '2026-07-30T05:05:49.576Z'
       bytes: 3784
 insights:
-  summary: An LLM-agnostic AI coding agent by JetBrains that operates in the terminal, IDE, or CI/CD pipelines to plan, write, and ship code.
-  why_it_matters: Developers can delegate repo tasks (bug fixes, feature implementation, PR reviews) to Junie across multiple environments, using their preferred LLM provider.
+  summary: >-
+    An LLM-agnostic AI coding agent by JetBrains that operates in the terminal, IDE, or CI/CD pipelines to plan, write,
+    and ship code.
+  why_it_matters: >-
+    Developers can delegate repo tasks (bug fixes, feature implementation, PR reviews) to Junie across multiple
+    environments, using their preferred LLM provider.
   mental_damage: Now you can argue with an AI about your code in the terminal, the IDE, *and* CI/CD—because consistency is overrated.
   tags:
     - coding-agent
@@ -67,13 +77,18 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Junie is a primary coding assistant that directly plans, writes, and ships code across terminal, IDE, and CI/CD workflows, fitting the core definition of a coding agent.
+  reason: >-
+    Junie is a primary coding assistant that directly plans, writes, and ships code across terminal, IDE, and CI/CD
+    workflows, fitting the core definition of a coding agent.
   evidence:
-    - "Repo description: 'An AI coding agent by JetBrains that ships code from your terminal, IDE, or CI/CD pipeline'"
-    - "README: 'Junie is an AI coding agent that lives in your terminal, integrates with your IDE and CI/CD pipelines, and helps you ship code faster'"
-    - "Source-list context: Listed under 'Terminal-native coding agents' in awesome-cli-coding-agents"
+    - 'Repo description: ''An AI coding agent by JetBrains that ships code from your terminal, IDE, or CI/CD pipeline'''
+    - >-
+      README: 'Junie is an AI coding agent that lives in your terminal, integrates with your IDE and CI/CD pipelines,
+      and helps you ship code faster'
+    - 'Source-list context: Listed under ''Terminal-native coding agents'' in awesome-cli-coding-agents'
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -81,17 +96,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-10T04:12:32.935Z"
+    updated_at: '2026-09-10T04:12:32.935Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:49.576Z"
+    updated_at: '2026-07-30T05:05:49.576Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:10:21.536Z"
+    updated_at: '2026-07-21T16:10:21.536Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,14 +119,20 @@ processing:
       input_hash: sha256:dd4cd080487a754095d53beeabbe9ed2e44f10eb6135ef45c2593a82738b82ec
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Junie is a primary coding assistant that directly plans, writes, and ships code across terminal, IDE, and CI/CD workflows, fitting the core definition of a coding agent.
+      decision_reason: >-
+        Junie is a primary coding assistant that directly plans, writes, and ships code across terminal, IDE, and CI/CD
+        workflows, fitting the core definition of a coding agent.
       decision_evidence:
-        - "Repo description: 'An AI coding agent by JetBrains that ships code from your terminal, IDE, or CI/CD pipeline'"
-        - "README: 'Junie is an AI coding agent that lives in your terminal, integrates with your IDE and CI/CD pipelines, and helps you ship code faster'"
-        - "Source-list context: Listed under 'Terminal-native coding agents' in awesome-cli-coding-agents"
+        - 'Repo description: ''An AI coding agent by JetBrains that ships code from your terminal, IDE, or CI/CD pipeline'''
+        - >-
+          README: 'Junie is an AI coding agent that lives in your terminal, integrates with your IDE and CI/CD
+          pipelines, and helps you ship code faster'
+        - 'Source-list context: Listed under ''Terminal-native coding agents'' in awesome-cli-coding-agents'
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because Junie is a standalone primary assistant, not an extension augmenting another tool.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because Junie is a standalone primary assistant, not an extension
+        augmenting another tool.
       review_reason: null
       review_resume_lifecycle: null

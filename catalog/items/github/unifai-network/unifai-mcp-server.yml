@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__unifai-network__unifai-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: UnifAI
         extracted_url: https://github.com/unifai-network/unifai-mcp-server
-        surrounding_text: "- **[UnifAI](https://github.com/unifai-network/unifai-mcp-server)** - Dynamically search and call tools using [UnifAI Network](https://unifai.network)"
+        surrounding_text: >-
+          - **[UnifAI](https://github.com/unifai-network/unifai-mcp-server)** - Dynamically search and call tools using
+          [UnifAI Network](https://unifai.network)
         confidence: high
 metadata:
   github:
@@ -29,19 +31,23 @@ metadata:
     archived: false
     full_name: unifai-network/unifai-mcp-server
     html_url: https://github.com/unifai-network/unifai-mcp-server
-    created_at: "2025-03-11T15:02:20Z"
-    pushed_at: "2025-06-13T08:54:39Z"
+    created_at: '2025-03-11T15:02:20Z'
+    pushed_at: '2025-06-13T08:54:39Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:20:58.761Z"
+    last_checked_at: '2026-07-21T15:20:58.761Z'
     readme:
-      fetched_at: "2026-07-21T15:20:58.761Z"
+      fetched_at: '2026-07-21T15:20:58.761Z'
       bytes: 468
 insights:
   summary: UnifAI MCP Server is a Model Context Protocol server exposing UnifAI SDK tools to MCP clients.
-  why_it_matters: It lets developers integrate UnifAI's AI capabilities into any MCP-compatible assistant or workflow via a standardized interface.
-  mental_damage: Another MCP server to add to the growing list of protocol adapters that promise interoperability while fragmenting the very integration they aim to unify.
+  why_it_matters: >-
+    It lets developers integrate UnifAI's AI capabilities into any MCP-compatible assistant or workflow via a
+    standardized interface.
+  mental_damage: >-
+    Another MCP server to add to the growing list of protocol adapters that promise interoperability while fragmenting
+    the very integration they aim to unify.
   tags:
     - mcp
     - server
@@ -49,30 +55,33 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The project is an MCP server as its core identity, fitting the MCP Servers & Tooling category, and its inclusion in awesome-mcp-servers under Official Servers supports this fit.
+  reason: >-
+    The project is an MCP server as its core identity, fitting the MCP Servers & Tooling category, and its inclusion in
+    awesome-mcp-servers under Official Servers supports this fit.
   evidence:
     - Repo name and README describe it as an 'UnifAI MCP server'
     - Listed in awesome-mcp-servers under Official Servers
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.653Z"
+    updated_at: '2026-05-06T22:12:15.653Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:58.761Z"
+    updated_at: '2026-07-21T15:20:58.761Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:18:29.137Z"
+    updated_at: '2026-05-12T15:18:29.137Z'
     cause: null
     next_retry_at: null
     attempts: 1

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pratyay__mac-monitor-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Pratyay/mac-monitor-mcp
         extracted_url: https://github.com/pratyay/mac-monitor-mcp
-        surrounding_text: "- [Pratyay/mac-monitor-mcp](https://github.com/Pratyay/mac-monitor-mcp) 🐍 🏠 🍎 - Identifies resource-intensive processes on macOS and provides performance improvement suggestions."
+        surrounding_text: >-
+          - [Pratyay/mac-monitor-mcp](https://github.com/Pratyay/mac-monitor-mcp) 🐍 🏠 🍎 - Identifies
+          resource-intensive processes on macOS and provides performance improvement suggestions.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,25 @@ metadata:
     archived: false
     full_name: Pratyay/mac-monitor-mcp
     html_url: https://github.com/Pratyay/mac-monitor-mcp
-    created_at: "2025-05-07T06:50:25Z"
-    pushed_at: "2026-03-30T03:57:25Z"
+    created_at: '2025-05-07T06:50:25Z'
+    pushed_at: '2026-03-30T03:57:25Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T16:42:36.998Z"
+    last_checked_at: '2026-07-20T16:42:36.998Z'
     readme:
-      fetched_at: "2026-07-20T16:42:36.997Z"
+      fetched_at: '2026-07-20T16:42:36.997Z'
       bytes: 7935
 insights:
-  summary: A Model Context Protocol server that exposes macOS system resource metrics—CPU, memory, and network usage—as structured tools for LLM clients.
-  why_it_matters: Developers can give coding agents and local AI workflows the ability to inspect and react to system performance without leaving the prompt or writing custom monitoring glue code.
-  mental_damage: We have finally reached the point where your AI assistant needs to know that Firefox is eating 45% of your CPU before it can even suggest a refactor.
+  summary: >-
+    A Model Context Protocol server that exposes macOS system resource metrics—CPU, memory, and network usage—as
+    structured tools for LLM clients.
+  why_it_matters: >-
+    Developers can give coding agents and local AI workflows the ability to inspect and react to system performance
+    without leaving the prompt or writing custom monitoring glue code.
+  mental_damage: >-
+    We have finally reached the point where your AI assistant needs to know that Firefox is eating 45% of your CPU
+    before it can even suggest a refactor.
   tags:
     - mcp
     - macos
@@ -52,35 +60,42 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server that exposes macOS system monitoring capabilities as structured tools, making MCP the clear product identity rather than a compatibility footnote.
+  reason: >-
+    This is an MCP server that exposes macOS system monitoring capabilities as structured tools, making MCP the clear
+    product identity rather than a compatibility footnote.
   evidence:
-    - README title and overview explicitly define it as 'A Model Context Protocol (MCP) server' for macOS resource monitoring.
+    - >-
+      README title and overview explicitly define it as 'A Model Context Protocol (MCP) server' for macOS resource
+      monitoring.
     - Source list context places it in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
-    - Exposes three MCP tools (get_resource_intensive_processes, get_processes_by_category, get_system_overview) returning structured JSON for LLM clients.
+    - >-
+      Exposes three MCP tools (get_resource_intensive_processes, get_processes_by_category, get_system_overview)
+      returning structured JSON for LLM clients.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.643Z"
+    updated_at: '2026-05-06T22:12:15.643Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:36.998Z"
+    updated_at: '2026-07-20T16:42:36.998Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

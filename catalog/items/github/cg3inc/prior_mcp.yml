@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cg3inc__prior_mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: cg3-llc/prior_mcp
         extracted_url: https://github.com/cg3-llc/prior_mcp
-        surrounding_text: "- [cg3-llc/prior_mcp](https://github.com/cg3-llc/prior_mcp) [![cg3-llc/prior_mcp MCP server](https://glama.ai/mcp/servers/cg3-llc/prior_mcp/badges/score.svg)](https://glama.ai/mcp/servers/cg3-llc/prior_mcp) 📇 ☁️ - Shared knowledge base where AI agents exchange proven solutions — including failed approaches, so your agent skips the dead ends. Smaller models get instant access to frontier-model discoveries. Free to search indefinitely when feedback is provided on results. [Website](https://prior.cg3.io)"
+        surrounding_text: >-
+          - [cg3-llc/prior_mcp](https://github.com/cg3-llc/prior_mcp) [![cg3-llc/prior_mcp MCP
+          server](https://glama.ai/mcp/servers/cg3-llc/prior_mcp/badges/score.svg)](https://glama.ai/mcp/servers/cg3-llc/prior_mcp)
+          📇 ☁️ - Shared knowledge base where AI agents exchange proven solutions — including failed approaches, so your
+          agent skips the dead ends. Smaller models get instant access to frontier-model discoveries. Free to search
+          indefinitely when feedback is provided on results. [Website](https://prior.cg3.io)
         confidence: high
 metadata:
   github:
@@ -30,18 +35,22 @@ metadata:
     archived: false
     full_name: cg3inc/prior_mcp
     html_url: https://github.com/cg3inc/prior_mcp
-    created_at: "2026-02-17T19:52:26Z"
-    pushed_at: "2026-05-17T21:09:20Z"
-    description: MCP server for Prior — give any AI agent instant access to a shared knowledge base of proven solutions. Works with Claude Desktop, Cursor, Windsurf, and VS Code.
+    created_at: '2026-02-17T19:52:26Z'
+    pushed_at: '2026-05-17T21:09:20Z'
+    description: >-
+      MCP server for Prior — give any AI agent instant access to a shared knowledge base of proven solutions. Works with
+      Claude Desktop, Cursor, Windsurf, and VS Code.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:43.113Z"
+    last_checked_at: '2026-09-07T04:13:43.113Z'
     readme:
-      fetched_at: "2026-09-07T04:13:43.113Z"
+      fetched_at: '2026-09-07T04:13:43.113Z'
       bytes: 5416
 insights:
   summary: MCP server for Prior that gives AI agents access to a shared knowledge base of proven solutions.
-  why_it_matters: Developers can save tokens and time by letting agents reuse solutions discovered by others rather than rediscovering them.
+  why_it_matters: >-
+    Developers can save tokens and time by letting agents reuse solutions discovered by others rather than rediscovering
+    them.
   mental_damage: Now your agent can plagiarize from other agents with full institutional approval.
   tags:
     - mcp
@@ -51,31 +60,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: this is a dedicated MCP server exposing Prior's knowledge base to agents."
+  reason: 'MCP is the product identity here: this is a dedicated MCP server exposing Prior''s knowledge base to agents.'
   evidence:
     - Repo description explicitly states it is an MCP server for Prior
     - README details MCP server setup, tools, and resources
     - Product identity centers on MCP protocol integration
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.607Z"
+    updated_at: '2026-05-06T22:12:15.607Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:43.113Z"
+    updated_at: '2026-09-07T04:13:43.113Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:41:15.781Z"
+    updated_at: '2026-07-21T15:41:15.781Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +98,7 @@ processing:
       input_hash: sha256:61ee44cc0d844d4ed46da43d85fd452edc9b24ef000611f42d77d104000d4044
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: this is a dedicated MCP server exposing Prior's knowledge base to agents."
+      decision_reason: 'MCP is the product identity here: this is a dedicated MCP server exposing Prior''s knowledge base to agents.'
       decision_evidence:
         - Repo description explicitly states it is an MCP server for Prior
         - README details MCP server setup, tools, and resources
@@ -96,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the core product is an MCP server, not a standalone memory/retrieval system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the core product is an MCP server, not a standalone memory/retrieval
+        system.
       review_reason: null
       review_resume_lifecycle: null

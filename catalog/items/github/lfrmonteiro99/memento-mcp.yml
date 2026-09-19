@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lfrmonteiro99__memento-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: lfrmonteiro99/memento-mcp
         extracted_url: https://github.com/lfrmonteiro99/memento-mcp
-        surrounding_text: "- [lfrmonteiro99/memento-mcp](https://github.com/lfrmonteiro99/memento-mcp) [![lfrmonteiro99/memento-mcp MCP server](https://glama.ai/mcp/servers/lfrmonteiro99/memento-mcp/badges/score.svg)](https://glama.ai/mcp/servers/lfrmonteiro99/memento-mcp) 📇 🏠 🍎 🪟 🐧 - Local-first persistent memory for AI coding agents. Captures facts, decisions, patterns, and architecture notes in SQLite (with optional cloud embeddings) to reduce repeated context across sessions."
+        surrounding_text: >-
+          - [lfrmonteiro99/memento-mcp](https://github.com/lfrmonteiro99/memento-mcp) [![lfrmonteiro99/memento-mcp MCP
+          server](https://glama.ai/mcp/servers/lfrmonteiro99/memento-mcp/badges/score.svg)](https://glama.ai/mcp/servers/lfrmonteiro99/memento-mcp)
+          📇 🏠 🍎 🪟 🐧 - Local-first persistent memory for AI coding agents. Captures facts, decisions, patterns, and
+          architecture notes in SQLite (with optional cloud embeddings) to reduce repeated context across sessions.
         confidence: high
 metadata:
   github:
@@ -30,19 +34,25 @@ metadata:
     archived: false
     full_name: lfrmonteiro99/memento-mcp
     html_url: https://github.com/lfrmonteiro99/memento-mcp
-    created_at: "2026-04-16T14:00:16Z"
-    pushed_at: "2026-07-25T10:39:12Z"
+    created_at: '2026-04-16T14:00:16Z'
+    pushed_at: '2026-07-25T10:39:12Z'
     description: Persistent memory MCP server with typed memories, decay scoring, and token-aware context injection
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:06:05.195Z"
+    last_checked_at: '2026-07-30T05:06:05.195Z'
     readme:
-      fetched_at: "2026-07-30T05:06:05.195Z"
+      fetched_at: '2026-07-30T05:06:05.195Z'
       bytes: 18917
 insights:
-  summary: Memento-mcp is a persistent memory MCP server for AI coding agents that stores structured memories in SQLite and injects relevant context to reduce token usage.
-  why_it_matters: It gives AI coding tools durable project memory so developers don’t waste tokens re-explaining project context in every session.
-  mental_damage: Finally, a way to make your AI agent remember your project’s quirks without manually pasting the same notes into every new chat like a tired intern.
+  summary: >-
+    Memento-mcp is a persistent memory MCP server for AI coding agents that stores structured memories in SQLite and
+    injects relevant context to reduce token usage.
+  why_it_matters: >-
+    It gives AI coding tools durable project memory so developers don’t waste tokens re-explaining project context in
+    every session.
+  mental_damage: >-
+    Finally, a way to make your AI agent remember your project’s quirks without manually pasting the same notes into
+    every new chat like a tired intern.
   tags:
     - mcp
     - memory
@@ -51,31 +61,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is explicitly an MCP server providing memory infrastructure, fitting the MCP Servers & Tooling category over a generic extension label.
+  reason: >-
+    The product's identity is explicitly an MCP server providing memory infrastructure, fitting the MCP Servers &
+    Tooling category over a generic extension label.
   evidence:
     - Repo description identifies it as a 'Persistent memory MCP server'.
-    - README states it is 'A local-first MCP server that gives Claude Code, Codex, Cursor, and any stdio-MCP client durable project memory'.
+    - >-
+      README states it is 'A local-first MCP server that gives Claude Code, Codex, Cursor, and any stdio-MCP client
+      durable project memory'.
     - Listed in awesome-mcp-servers under 'Knowledge & Memory'.
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
+  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''context-engineering'''
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.626Z"
+    updated_at: '2026-05-06T22:12:15.626Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:05.195Z"
+    updated_at: '2026-07-30T05:06:05.195Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:15:47.790Z"
+    updated_at: '2026-07-21T16:15:47.790Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,14 +103,24 @@ processing:
       input_hash: sha256:bac3fa6453dd3e70504947c610f5d25ac523e1151a5d5a4c152f831d05a3eb72
       proposed_primary_category: context-engineering
       disagreement: true
-      decision_reason: Memento-mcp’s core value is its memory and context-shaping system—structured memories, token-aware retrieval, and decay scoring—making it a prompt/context engineering tool, not just an MCP server or extension.
+      decision_reason: >-
+        Memento-mcp’s core value is its memory and context-shaping system—structured memories, token-aware retrieval,
+        and decay scoring—making it a prompt/context engineering tool, not just an MCP server or extension.
       decision_evidence:
-        - "Repo description: 'Persistent memory MCP server with typed memories, decay scoring, and token-aware context injection'"
-        - "README: 'stores structured memories locally in SQLite, retrieves the right context when your agent needs it, and can sync selected team memories through git'"
-        - Core features include token-aware search, end-of-session summaries, and per-project policy—hallmarks of context engineering
+        - >-
+          Repo description: 'Persistent memory MCP server with typed memories, decay scoring, and token-aware context
+          injection'
+        - >-
+          README: 'stores structured memories locally in SQLite, retrieves the right context when your agent needs it,
+          and can sync selected team memories through git'
+        - >-
+          Core features include token-aware search, end-of-session summaries, and per-project policy—hallmarks of
+          context engineering
       category_candidates:
         - context-engineering
         - mcp
-      contrastive_reason: Choose context-engineering over mcp because the product’s identity is its memory and context-shaping system, not MCP infrastructure itself—MCP is merely the transport mechanism for a context engine.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
+      contrastive_reason: >-
+        Choose context-engineering over mcp because the product’s identity is its memory and context-shaping system, not
+        MCP infrastructure itself—MCP is merely the transport mechanism for a context engine.
+      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''context-engineering'''
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__future-agi__traceai__awesome-list__tensorchord__awesome-llmops
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,10 +20,14 @@ provenance:
           - Observability
         anchor_text: traceAI
         extracted_url: https://github.com/future-agi/traceai
-        surrounding_text: "| [traceAI](https://github.com/future-agi/traceAI)                                | Open-source AI tracing framework built on OpenTelemetry for deep observability across agentic and LLM workflows.                                                                   | ![GitHub Badge](https://img.shields.io/github/stars/future-agi/traceAI?style=flat-square)                         |"
+        surrounding_text: >-
+          | [traceAI](https://github.com/future-agi/traceAI)                                | Open-source AI tracing
+          framework built on OpenTelemetry for deep observability across agentic and LLM
+          workflows.                                                                   | ![GitHub
+          Badge](https://img.shields.io/github/stars/future-agi/traceAI?style=flat-square)                         |
         confidence: high
     - id: discovery__github__future-agi__traceai__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -36,7 +40,10 @@ provenance:
           - Platforms
         anchor_text: traceAI
         extracted_url: https://github.com/future-agi/traceai
-        surrounding_text: "- [traceAI](https://github.com/future-agi/traceAI): Open-source OpenTelemetry-native tracing framework for LLM applications, with native LangChain instrumentation and support for 20+ frameworks. [![GitHub Repo stars](https://img.shields.io/github/stars/future-agi/traceAI?style=social)](https://github.com/future-agi/traceAI)"
+        surrounding_text: >-
+          - [traceAI](https://github.com/future-agi/traceAI): Open-source OpenTelemetry-native tracing framework for LLM
+          applications, with native LangChain instrumentation and support for 20+ frameworks. [![GitHub Repo
+          stars](https://img.shields.io/github/stars/future-agi/traceAI?style=social)](https://github.com/future-agi/traceAI)
         confidence: high
 metadata:
   github:
@@ -46,8 +53,8 @@ metadata:
     archived: false
     full_name: future-agi/traceAI
     html_url: https://github.com/future-agi/traceAI
-    created_at: "2025-04-15T04:57:02Z"
-    pushed_at: "2026-08-27T11:55:50Z"
+    created_at: '2025-04-15T04:57:02Z'
+    pushed_at: '2026-08-27T11:55:50Z'
     description: Open Source AI Tracing Framework built on Opentelemetry for AI Applications and Frameworks
     homepage: https://app.futureagi.com
     topics:
@@ -59,14 +66,18 @@ metadata:
       - openai
       - opentelemetry
       - tracing
-    last_checked_at: "2026-09-03T05:16:44.986Z"
+    last_checked_at: '2026-09-03T05:16:44.986Z'
     readme:
-      fetched_at: "2026-09-03T05:16:44.986Z"
+      fetched_at: '2026-09-03T05:16:44.986Z'
       bytes: 35540
 insights:
   summary: An open-source observability framework built on OpenTelemetry for tracing LLM calls, prompts, and agentic workflows.
-  why_it_matters: It allows developers to debug complex AI failures by tracing every step of an agent's decision-making process across any OTel-compatible backend.
-  mental_damage: Because knowing exactly which retrieval step failed just makes the inevitable 'hallucination debugging' loop feel much more clinical.
+  why_it_matters: >-
+    It allows developers to debug complex AI failures by tracing every step of an agent's decision-making process across
+    any OTel-compatible backend.
+  mental_damage: >-
+    Because knowing exactly which retrieval step failed just makes the inevitable 'hallucination debugging' loop feel
+    much more clinical.
   tags:
     - observability
     - tracing
@@ -83,24 +94,25 @@ curation:
     - Directly supports observability for AI applications
 placement:
   primary_category: evals
-  section: Observability / Tracing / EvalOps
+  secondary_categories: []
+  section: Observability & Tracing
 lifecycle:
   status: promotion_candidate
   reason: Stars (175) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.586Z"
+    updated_at: '2026-05-06T22:12:15.586Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:44.986Z"
+    updated_at: '2026-09-03T05:16:44.986Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:59:44.989Z"
+    updated_at: '2026-07-21T15:59:44.989Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -121,6 +133,8 @@ processing:
       category_candidates:
         - evals
         - ai-frameworks
-      contrastive_reason: Choose evals over ai-frameworks because the primary job is measuring and tracing behavior rather than providing the underlying execution engine.
+      contrastive_reason: >-
+        Choose evals over ai-frameworks because the primary job is measuring and tracing behavior rather than providing
+        the underlying execution engine.
       review_reason: null
       review_resume_lifecycle: null

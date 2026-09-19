@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__athenaintelligence__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Athena Intelligence
         anchor_text: Athena Intelligence
         extracted_url: https://athenaintelligence.ai
-        surrounding_text: "## [Athena Intelligence](https://www.athenaintelligence.ai/)"
+        surrounding_text: '## [Athena Intelligence](https://www.athenaintelligence.ai/)'
         confidence: high
 metadata:
   github:
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: An enterprise platform for building, deploying, and governing AI agents for regulated knowledge work.
-  why_it_matters: It provides the identity, governance, and secure deployment infrastructure (VPC/air-gapped) required to move agents from simple chatbots to reliable enterprise coworkers.
-  mental_damage: Because the next step in your onboarding checklist is 'assigning identity credentials and permission attenuation to your artificial employees'.
+  why_it_matters: >-
+    It provides the identity, governance, and secure deployment infrastructure (VPC/air-gapped) required to move agents
+    from simple chatbots to reliable enterprise coworkers.
+  mental_damage: >-
+    Because the next step in your onboarding checklist is 'assigning identity credentials and permission attenuation to
+    your artificial employees'.
   tags:
     - agent-orchestration
     - enterprise-ai
@@ -47,21 +51,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is an operated control plane (Olympus) designed for the orchestration, identity management, and governance of multiple agents in enterprise environments.
+  reason: >-
+    It is an operated control plane (Olympus) designed for the orchestration, identity management, and governance of
+    multiple agents in enterprise environments.
   evidence:
     - Platform (Olympus) provides identity, governance, permissions, and review infrastructure
     - Supports deployment in VPC, on-prem, and air-gapped environments
     - Focuses on automating complex, regulated workflows in finance, legal, and audit
 placement:
   primary_category: agent-orchestration
-  section: Vertical Orchestration Platforms
+  secondary_categories: []
+  section: Domain & Enterprise Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.962Z"
+    updated_at: '2026-07-21T15:20:21.962Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:17:25.899Z"
+    updated_at: '2026-08-27T06:17:25.899Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -81,7 +88,9 @@ processing:
       input_hash: sha256:0fe2c72f663f934719e3d1cca4d9df67ba9544c8a528551a13872d53fc813ce0
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: It is an operated control plane (Olympus) designed for the orchestration, identity management, and governance of multiple agents in enterprise environments.
+      decision_reason: >-
+        It is an operated control plane (Olympus) designed for the orchestration, identity management, and governance of
+        multiple agents in enterprise environments.
       decision_evidence:
         - Platform (Olympus) provides identity, governance, permissions, and review infrastructure
         - Supports deployment in VPC, on-prem, and air-gapped environments
@@ -89,7 +98,9 @@ processing:
       category_candidates:
         - agent-orchestration
         - app-builders
-      contrastive_reason: Choose agent-orchestration over app-builders because the core product identity is the governance and management of an agentic workforce rather than just a tool for generating standalone applications.
+      contrastive_reason: >-
+        Choose agent-orchestration over app-builders because the core product identity is the governance and management
+        of an agentic workforce rather than just a tool for generating standalone applications.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

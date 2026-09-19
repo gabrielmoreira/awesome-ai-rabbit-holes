@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__chunkydotdev__bldbl-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Chunkydotdev/bldbl-mcp
         extracted_url: https://github.com/chunkydotdev/bldbl-mcp
-        surrounding_text: "- [Chunkydotdev/bldbl-mcp](https://github.com/chunkydotdev/bldbl-mcp) 📇 ☁️ 🍎 🪟 🐧 - Official MCP server for Buildable AI-powered development platform [bldbl.dev](https://bldbl.dev). Enables AI assistants to manage tasks, track progress, get project context, and collaborate with humans on software projects."
+        surrounding_text: >-
+          - [Chunkydotdev/bldbl-mcp](https://github.com/chunkydotdev/bldbl-mcp) 📇 ☁️ 🍎 🪟 🐧 - Official MCP server for
+          Buildable AI-powered development platform [bldbl.dev](https://bldbl.dev). Enables AI assistants to manage
+          tasks, track progress, get project context, and collaborate with humans on software projects.
         confidence: high
     - id: discovery__github__chunkydotdev__bldbl-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +38,10 @@ provenance:
           - Official Servers
         anchor_text: Buildable
         extracted_url: https://github.com/chunkydotdev/bldbl-mcp
-        surrounding_text: "- **[Buildable](https://github.com/chunkydotdev/bldbl-mcp)** - Official MCP server for Buildable AI-powered development platform. Enables AI assistants to manage tasks, track progress, get project context, and collaborate with humans on software projects."
+        surrounding_text: >-
+          - **[Buildable](https://github.com/chunkydotdev/bldbl-mcp)** - Official MCP server for Buildable AI-powered
+          development platform. Enables AI assistants to manage tasks, track progress, get project context, and
+          collaborate with humans on software projects.
         confidence: high
 metadata:
   github:
@@ -45,19 +51,25 @@ metadata:
     archived: false
     full_name: chunkydotdev/bldbl-mcp
     html_url: https://github.com/chunkydotdev/bldbl-mcp
-    created_at: "2025-06-16T19:18:32Z"
-    pushed_at: "2025-07-03T20:16:22Z"
+    created_at: '2025-06-16T19:18:32Z'
+    pushed_at: '2025-07-03T20:16:22Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-07T04:13:45.295Z"
+    last_checked_at: '2026-09-07T04:13:45.295Z'
     readme:
-      fetched_at: "2026-09-07T04:13:45.295Z"
+      fetched_at: '2026-09-07T04:13:45.295Z'
       bytes: 12391
 insights:
-  summary: An MCP server that enables AI assistants to interact with Buildable, an AI-powered development platform for project planning and task management.
-  why_it_matters: Developers can delegate project context retrieval, task management, and progress tracking to their AI assistants within Buildable projects.
-  mental_damage: Now your AI can start tasks, update progress, and ask you questions—because apparently, project management wasn’t already a full-time job.
+  summary: >-
+    An MCP server that enables AI assistants to interact with Buildable, an AI-powered development platform for project
+    planning and task management.
+  why_it_matters: >-
+    Developers can delegate project context retrieval, task management, and progress tracking to their AI assistants
+    within Buildable projects.
+  mental_damage: >-
+    Now your AI can start tasks, update progress, and ask you questions—because apparently, project management wasn’t
+    already a full-time job.
   tags:
     - mcp-server
     - project-management
@@ -67,31 +79,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: this is a dedicated MCP server for Buildable, not just an adapter or compatibility feature."
+  reason: >-
+    MCP is the product identity here: this is a dedicated MCP server for Buildable, not just an adapter or compatibility
+    feature.
   evidence:
     - README explicitly describes it as an MCP client/server for Buildable
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
     - Provides MCP-specific tools (get_project_context, get_next_task, etc.) for AI assistants
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.584Z"
+    updated_at: '2026-05-06T22:12:15.584Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:45.295Z"
+    updated_at: '2026-09-07T04:13:45.295Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:41:54.404Z"
+    updated_at: '2026-07-21T15:41:54.404Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -104,7 +119,9 @@ processing:
       input_hash: sha256:5523f89e5717f0b3986011718faf67c70ae9e56dd1d4b641063efbe182ee7c2f
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: this is a dedicated MCP server for Buildable, not just an adapter or compatibility feature."
+      decision_reason: >-
+        MCP is the product identity here: this is a dedicated MCP server for Buildable, not just an adapter or
+        compatibility feature.
       decision_evidence:
         - README explicitly describes it as an MCP client/server for Buildable
         - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
@@ -112,6 +129,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product is a dedicated MCP server for Buildable, not merely an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product is a dedicated MCP server for Buildable, not merely an
+        extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

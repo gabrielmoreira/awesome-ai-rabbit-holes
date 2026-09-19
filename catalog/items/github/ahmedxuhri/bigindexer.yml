@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ahmedxuhri__bigindexer__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-08T05:39:05.247Z"
+      discovered_at: '2026-06-08T05:39:05.247Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: ahmedxuhri/bigindexer
         extracted_url: https://github.com/ahmedxuhri/bigindexer
-        surrounding_text: "- [ahmedxuhri/bigindexer](https://github.com/ahmedxuhri/bigindexer) [![ahmedxuhri/bigindexer MCP server](https://glama.ai/mcp/servers/ahmedxuhri/bigindexer/badges/score.svg)](https://glama.ai/mcp/servers/ahmedxuhri/bigindexer) 🐍 🏠 🍎 🪟 🐧 - Hierarchical code intelligence for AI coding agents. Scans local source code, clusters files by behavioral roles, maps coupling seams, and provides in-repo twins/context for complex implementation tasks."
+        surrounding_text: >-
+          - [ahmedxuhri/bigindexer](https://github.com/ahmedxuhri/bigindexer) [![ahmedxuhri/bigindexer MCP
+          server](https://glama.ai/mcp/servers/ahmedxuhri/bigindexer/badges/score.svg)](https://glama.ai/mcp/servers/ahmedxuhri/bigindexer)
+          🐍 🏠 🍎 🪟 🐧 - Hierarchical code intelligence for AI coding agents. Scans local source code, clusters files
+          by behavioral roles, maps coupling seams, and provides in-repo twins/context for complex implementation tasks.
         confidence: high
 metadata:
   github:
@@ -30,22 +34,26 @@ metadata:
     archived: false
     full_name: ahmedxuhri/bigindexer
     html_url: https://github.com/ahmedxuhri/bigindexer
-    created_at: "2026-05-05T12:39:45Z"
-    pushed_at: "2026-08-21T11:02:07Z"
+    created_at: '2026-05-05T12:39:45Z'
+    pushed_at: '2026-08-21T11:02:07Z'
     description: BGI tries to group code based on what the code actually does (its behavior), not just which file imports what.
     homepage: https://bigindexer.com/demo
     topics:
       - mcp
       - software-architecture
       - static-analysis
-    last_checked_at: "2026-09-17T04:13:34.610Z"
+    last_checked_at: '2026-09-17T04:13:34.610Z'
     readme:
-      fetched_at: "2026-09-17T04:13:34.610Z"
+      fetched_at: '2026-09-17T04:13:34.610Z'
       bytes: 11669
 insights:
   summary: A static architecture analysis tool that groups code based on behavioral roles rather than just import graphs.
-  why_it_matters: It provides AI agents and developers with behavioral boundaries and coupling data to make refactors and prompt-based changes less random.
-  mental_damage: Finally, a tool that mathematically proves our codebase is a tangled web of behavioral accidents just before we ask an LLM to 'fix the architecture'.
+  why_it_matters: >-
+    It provides AI agents and developers with behavioral boundaries and coupling data to make refactors and prompt-based
+    changes less random.
+  mental_damage: >-
+    Finally, a tool that mathematically proves our codebase is a tangled web of behavioral accidents just before we ask
+    an LLM to 'fix the architecture'.
   tags:
     - static-analysis
     - mcp
@@ -54,31 +62,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: While it provides an MCP server, its core novelty is the behavioral indexing and clustering logic used to shape the context provided to AI models.
+  reason: >-
+    While it provides an MCP server, its core novelty is the behavioral indexing and clustering logic used to shape the
+    context provided to AI models.
   evidence:
     - README highlights the problem of noisy edges in architecture graphs and proposes 'behavioral role' grouping.
     - Claims to ground prompts in 'in-repo behavior patterns' via tools like task_fingerprint and twin_context.
     - Provides machine-readable artifacts (bgi-graph.json) to drive architecture decisions.
 placement:
-  primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  primary_category: mcp
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-08T05:39:05.247Z"
+    updated_at: '2026-06-08T05:39:05.247Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:34.610Z"
+    updated_at: '2026-09-17T04:13:34.610Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-08T05:41:39.603Z"
+    updated_at: '2026-06-08T05:41:39.603Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

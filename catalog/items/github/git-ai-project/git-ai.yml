@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__git-ai-project__git-ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,7 +19,9 @@ provenance:
           - Developer Productivity Tools
         anchor_text: Git AI
         extracted_url: https://github.com/acunniffe/git-ai
-        surrounding_text: "- **[Git AI](https://github.com/acunniffe/git-ai)** – Git extension that tracks AI-generated code and the prompts behind each line."
+        surrounding_text: >-
+          - **[Git AI](https://github.com/acunniffe/git-ai)** – Git extension that tracks AI-generated code and the
+          prompts behind each line.
         confidence: high
 metadata:
   github:
@@ -29,21 +31,23 @@ metadata:
     archived: false
     full_name: git-ai-project/git-ai
     html_url: https://github.com/git-ai-project/git-ai
-    created_at: "2025-07-02T16:09:26Z"
-    pushed_at: "2026-09-03T03:51:31Z"
+    created_at: '2025-07-02T16:09:26Z'
+    pushed_at: '2026-09-03T03:51:31Z'
     description: A Git extension for tracking the AI-generated code in your repos
     homepage: https://usegitai.com
     topics:
       - ai
       - ai-blame
       - coding-agents
-    last_checked_at: "2026-09-03T05:16:49.888Z"
+    last_checked_at: '2026-09-03T05:16:49.888Z'
     readme:
-      fetched_at: "2026-09-03T05:16:49.888Z"
+      fetched_at: '2026-09-03T05:16:49.888Z'
       bytes: 19829
 insights:
   summary: An open-source Git extension that tracks and attributes AI-generated code to specific agents, models, and sessions.
-  why_it_matters: It provides a way to audit AI contributions by linking specific lines of code back to the original model and the session transcript that produced them.
+  why_it_matters: >-
+    It provides a way to audit AI contributions by linking specific lines of code back to the original model and the
+    session transcript that produced them.
   mental_damage: Finally, you can pinpoint exactly which LLM hallucinated that critical logic error in your pull request.
   tags:
     - git-extension
@@ -53,31 +57,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool functions as an augmentation to the existing Git workflow and editor experience rather than serving as a primary coding assistant.
+  reason: >-
+    The tool functions as an augmentation to the existing Git workflow and editor experience rather than serving as a
+    primary coding assistant.
   evidence:
     - Describes itself as a 'Git extension'
     - Provides 'AI Blame' to augment standard git-blame functionality
     - Augments existing assistants like Cursor, Copilot, and Claude Code
 placement:
-  primary_category: ai-dev-extensions
-  section: IDE / UI / Workflow Add-ons
+  primary_category: evals
+  secondary_categories: []
+  section: Observability & Tracing
 lifecycle:
   status: promotion_candidate
   reason: Stars (1783) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.616Z"
+    updated_at: '2026-05-06T22:12:15.616Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:49.888Z"
+    updated_at: '2026-09-03T05:16:49.888Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:03:24.684Z"
+    updated_at: '2026-07-21T16:03:24.684Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -90,7 +97,9 @@ processing:
       input_hash: sha256:190654194c99a3a409e28f2f64cc37323f9692c9573f392afbc567ebbc723f1f
       proposed_primary_category: ai-dev-extensions
       disagreement: false
-      decision_reason: The tool functions as an augmentation to the existing Git workflow and editor experience rather than serving as a primary coding assistant.
+      decision_reason: >-
+        The tool functions as an augmentation to the existing Git workflow and editor experience rather than serving as
+        a primary coding assistant.
       decision_evidence:
         - Describes itself as a 'Git extension'
         - Provides 'AI Blame' to augment standard git-blame functionality
@@ -98,6 +107,8 @@ processing:
       category_candidates:
         - ai-dev-extensions
         - coding-agents
-      contrastive_reason: Choose ai-dev-extensions over coding-agents because the tool does not write code itself, but instead adds git-based attribution and auditability to the code written by other assistants.
+      contrastive_reason: >-
+        Choose ai-dev-extensions over coding-agents because the tool does not write code itself, but instead adds
+        git-based attribution and auditability to the code written by other assistants.
       review_reason: null
       review_resume_lifecycle: null

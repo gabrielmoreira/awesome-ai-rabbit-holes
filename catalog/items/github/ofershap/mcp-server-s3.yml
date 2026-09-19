@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ofershap__mcp-server-s3__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: ofershap/mcp-server-s3
         extracted_url: https://github.com/ofershap/mcp-server-s3
-        surrounding_text: "- [ofershap/mcp-server-s3](https://github.com/ofershap/mcp-server-s3) [![mcp-server-s3 MCP server](https://glama.ai/mcp/servers/ofershap/mcp-server-s3/badges/score.svg)](https://glama.ai/mcp/servers/ofershap/mcp-server-s3) 📇 ☁️ - AWS S3 operations — list buckets, browse objects, upload/download files, and generate presigned URLs."
+        surrounding_text: >-
+          - [ofershap/mcp-server-s3](https://github.com/ofershap/mcp-server-s3) [![mcp-server-s3 MCP
+          server](https://glama.ai/mcp/servers/ofershap/mcp-server-s3/badges/score.svg)](https://glama.ai/mcp/servers/ofershap/mcp-server-s3)
+          📇 ☁️ - AWS S3 operations — list buckets, browse objects, upload/download files, and generate presigned URLs.
         confidence: high
 metadata:
   github:
@@ -30,8 +33,8 @@ metadata:
     archived: false
     full_name: ofershap/mcp-server-s3
     html_url: https://github.com/ofershap/mcp-server-s3
-    created_at: "2026-02-19T23:29:08Z"
-    pushed_at: "2026-03-10T09:22:25Z"
+    created_at: '2026-02-19T23:29:08Z'
+    pushed_at: '2026-03-10T09:22:25Z'
     description: MCP server for AWS S3 — list buckets, browse objects, upload/download, presigned URLs
     homepage: null
     topics:
@@ -47,14 +50,20 @@ metadata:
       - s3
       - storage
       - typescript
-    last_checked_at: "2026-07-20T16:42:23.264Z"
+    last_checked_at: '2026-07-20T16:42:23.264Z'
     readme:
-      fetched_at: "2026-07-20T16:42:23.264Z"
+      fetched_at: '2026-07-20T16:42:23.264Z'
       bytes: 4701
 insights:
-  summary: An MCP server that lets AI assistants manage AWS S3 buckets and objects, supporting listing, upload/download, and presigned URL generation.
-  why_it_matters: It gives Claude, Cursor, and other MCP clients direct access to cloud storage, removing the friction of manually running AWS CLI commands during AI-assisted workflows.
-  mental_damage: We have successfully abstracted cloud storage access so deeply that your AI assistant now needs its own IAM permissions and a presigned URL to help you forget how `aws s3 cp` works.
+  summary: >-
+    An MCP server that lets AI assistants manage AWS S3 buckets and objects, supporting listing, upload/download, and
+    presigned URL generation.
+  why_it_matters: >-
+    It gives Claude, Cursor, and other MCP clients direct access to cloud storage, removing the friction of manually
+    running AWS CLI commands during AI-assisted workflows.
+  mental_damage: >-
+    We have successfully abstracted cloud storage access so deeply that your AI assistant now needs its own IAM
+    permissions and a presigned URL to help you forget how `aws s3 cp` works.
   tags:
     - mcp
     - aws
@@ -64,35 +73,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server for AWS S3, fitting cleanly into the MCP Servers & Tooling category as a domain-specific server.
+  reason: >-
+    The product's identity is an MCP server for AWS S3, fitting cleanly into the MCP Servers & Tooling category as a
+    domain-specific server.
   evidence:
     - Repo description explicitly states 'MCP server for AWS S3' with bucket and object management features.
-    - README confirms it is 'an MCP server' that works with Claude Desktop, Cursor, and VS Code Copilot using the standard MCP protocol.
+    - >-
+      README confirms it is 'an MCP server' that works with Claude Desktop, Cursor, and VS Code Copilot using the
+      standard MCP protocol.
     - Listed in awesome-mcp-servers under 'Cloud Platforms', aligning with the Domain Servers section.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.633Z"
+    updated_at: '2026-05-06T22:12:15.633Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:23.264Z"
+    updated_at: '2026-07-20T16:42:23.264Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

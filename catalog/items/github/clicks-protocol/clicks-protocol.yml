@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__clicks-protocol__clicks-protocol__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: clicks-protocol/mcp-server
         extracted_url: https://github.com/clicks-protocol/clicks-protocol
-        surrounding_text: "- [clicks-protocol/mcp-server](https://github.com/clicks-protocol/clicks-protocol/tree/main/mcp-server) [![clicks-protocol/clicks-protocol MCP server](https://glama.ai/mcp/servers/clicks-protocol/clicks-protocol/badges/score.svg)](https://glama.ai/mcp/servers/clicks-protocol/clicks-protocol) 📇 ☁️ - Autonomous USDC yield for AI agents on Base. 9 tools: register agents, split payments 80/20 (liquid/yield), withdraw anytime, simulate splits, check APY, and track on-chain referrals. Non-custodial, no lockup, MIT licensed. `npx @clicks-protocol/mcp-server`"
+        surrounding_text: >-
+          - [clicks-protocol/mcp-server](https://github.com/clicks-protocol/clicks-protocol/tree/main/mcp-server)
+          [![clicks-protocol/clicks-protocol MCP
+          server](https://glama.ai/mcp/servers/clicks-protocol/clicks-protocol/badges/score.svg)](https://glama.ai/mcp/servers/clicks-protocol/clicks-protocol)
+          📇 ☁️ - Autonomous USDC yield for AI agents on Base. 9 tools: register agents, split payments 80/20
+          (liquid/yield), withdraw anytime, simulate splits, check APY, and track on-chain referrals. Non-custodial, no
+          lockup, MIT licensed. `npx @clicks-protocol/mcp-server`
         confidence: high
 metadata:
   github:
@@ -30,8 +36,8 @@ metadata:
     archived: false
     full_name: clicks-protocol/clicks-protocol
     html_url: https://github.com/clicks-protocol/clicks-protocol
-    created_at: "2026-03-25T21:15:52Z"
-    pushed_at: "2026-07-21T22:08:29Z"
+    created_at: '2026-03-25T21:15:52Z'
+    pushed_at: '2026-07-21T22:08:29Z'
     description: Agent commerce settlement router for AI agents on Base. Split USDC into liquid working capital and routed yield.
     homepage: https://clicksprotocol.xyz
     topics:
@@ -51,13 +57,17 @@ metadata:
       - working-capital
       - x402
       - yield
-    last_checked_at: "2026-09-07T04:13:47.139Z"
+    last_checked_at: '2026-09-07T04:13:47.139Z'
     readme:
-      fetched_at: "2026-09-07T04:13:47.139Z"
+      fetched_at: '2026-09-07T04:13:47.139Z'
       bytes: 11217
 insights:
-  summary: A settlement router for AI agents on Base that auto-splits USDC payments into liquid working capital and routed DeFi yield.
-  why_it_matters: Lets autonomous agents earn yield on idle USDC without manual intervention, keeping 80% liquid for immediate payments while the rest auto-routes to Aave or Morpho.
+  summary: >-
+    A settlement router for AI agents on Base that auto-splits USDC payments into liquid working capital and routed DeFi
+    yield.
+  why_it_matters: >-
+    Lets autonomous agents earn yield on idle USDC without manual intervention, keeping 80% liquid for immediate
+    payments while the rest auto-routes to Aave or Morpho.
   mental_damage: Now your agent can be a DeFi yield farmer while pretending to be a software developer.
   tags:
     - agent-commerce
@@ -68,31 +78,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the primary product identity here: it is explicitly an MCP server with 10 tools for agent commerce, published in the MCP registry."
+  reason: >-
+    MCP is the primary product identity here: it is explicitly an MCP server with 10 tools for agent commerce, published
+    in the MCP registry.
   evidence:
     - README explicitly lists MCP server with 10 tools and installation via `@clicks-protocol/mcp-server`
     - Published in MCP registry (badge in README)
-    - "Source-list context: included in awesome-mcp-servers under Finance & Fintech"
+    - 'Source-list context: included in awesome-mcp-servers under Finance & Fintech'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:47.139Z"
+    updated_at: '2026-09-07T04:13:47.139Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:43:17.341Z"
+    updated_at: '2026-07-21T15:43:17.341Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -105,14 +118,18 @@ processing:
       input_hash: sha256:3d4271c45066aaa569b12e2d48c5d5f3366b9560082b9214c2b458a2aaced3bc
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the primary product identity here: it is explicitly an MCP server with 10 tools for agent commerce, published in the MCP registry."
+      decision_reason: >-
+        MCP is the primary product identity here: it is explicitly an MCP server with 10 tools for agent commerce,
+        published in the MCP registry.
       decision_evidence:
         - README explicitly lists MCP server with 10 tools and installation via `@clicks-protocol/mcp-server`
         - Published in MCP registry (badge in README)
-        - "Source-list context: included in awesome-mcp-servers under Finance & Fintech"
+        - 'Source-list context: included in awesome-mcp-servers under Finance & Fintech'
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product's core identity is an MCP server (with SDK as secondary artifact), not a general-purpose framework.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product's core identity is an MCP server (with SDK as secondary
+        artifact), not a general-purpose framework.
       review_reason: null
       review_resume_lifecycle: null

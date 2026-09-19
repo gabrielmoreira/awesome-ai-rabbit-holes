@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sourcery-ai__sourcery__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,7 +19,7 @@ provenance:
           - Code Review and Refactoring
         anchor_text: Sourcery
         extracted_url: https://sourcery.ai
-        surrounding_text: "- **[Sourcery](https://sourcery.ai/)** – AI code reviewer supporting 30+ languages."
+        surrounding_text: '- **[Sourcery](https://sourcery.ai/)** – AI code reviewer supporting 30+ languages.'
         confidence: high
 metadata:
   github:
@@ -29,8 +29,8 @@ metadata:
     archived: false
     full_name: sourcery-ai/sourcery
     html_url: https://github.com/sourcery-ai/sourcery
-    created_at: "2019-07-15T12:25:13Z"
-    pushed_at: "2026-07-16T04:25:19Z"
+    created_at: '2019-07-15T12:25:13Z'
+    pushed_at: '2026-07-16T04:25:19Z'
     description: Instant AI code reviews
     homepage: https://sourcery.ai
     topics:
@@ -41,14 +41,20 @@ metadata:
       - python
       - refactoring
       - software-development
-    last_checked_at: "2026-07-20T16:43:01.000Z"
+    last_checked_at: '2026-07-20T16:43:01.000Z'
     readme:
-      fetched_at: "2026-07-20T16:43:01.000Z"
+      fetched_at: '2026-07-20T16:43:01.000Z'
       bytes: 3013
 insights:
-  summary: An automated AI code reviewer that provides instant feedback, summaries, and line-by-line suggestions on pull requests, with IDE integrations for pair programming assistance.
-  why_it_matters: It accelerates development velocity by automating the tedious parts of code reviews and helping developers improve code quality directly in their IDE or PR workflow.
-  mental_damage: Yet another product promising to automate the one human task that forces us to actually read the diffs we shipped at 4 PM on a Friday.
+  summary: >-
+    An automated AI code reviewer that provides instant feedback, summaries, and line-by-line suggestions on pull
+    requests, with IDE integrations for pair programming assistance.
+  why_it_matters: >-
+    It accelerates development velocity by automating the tedious parts of code reviews and helping developers improve
+    code quality directly in their IDE or PR workflow.
+  mental_damage: >-
+    Yet another product promising to automate the one human task that forces us to actually read the diffs we shipped at
+    4 PM on a Friday.
   tags:
     - code-review
     - ide-integration
@@ -58,35 +64,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Sourcery acts as a primary coding assistant that directly reviews diffs, suggests edits, and helps refactor code, fitting the Review, Testing & Repair Agents profile.
+  reason: >-
+    Sourcery acts as a primary coding assistant that directly reviews diffs, suggests edits, and helps refactor code,
+    fitting the Review, Testing & Repair Agents profile.
   evidence:
-    - "Repo description explicitly states: 'Instant AI code reviews'."
+    - 'Repo description explicitly states: ''Instant AI code reviews''.'
     - README states it reviews PRs with 'line by line suggestions' and acts as an 'automated pair programmer'.
     - Appears in awesome-ai-coding-tools under 'Code Review and Refactoring'.
 placement:
   primary_category: coding-agents
-  section: Review, Testing & Repair Agents
+  secondary_categories: []
+  section: Review, Testing & Repair
 lifecycle:
   status: promotion_candidate
   reason: Stars (1808) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.649Z"
+    updated_at: '2026-05-06T22:12:15.649Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:43:01.000Z"
+    updated_at: '2026-07-20T16:43:01.000Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

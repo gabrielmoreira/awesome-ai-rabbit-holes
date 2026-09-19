@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hostinger__api-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: Hostinger
         extracted_url: https://github.com/hostinger/api-mcp-server
-        surrounding_text: "- **[Hostinger](https://github.com/hostinger/api-mcp-server)** - Official [Hostinger API](https://developers.hostinger.com/) MCP server for services managment."
+        surrounding_text: >-
+          - **[Hostinger](https://github.com/hostinger/api-mcp-server)** - Official [Hostinger
+          API](https://developers.hostinger.com/) MCP server for services managment.
         confidence: high
 metadata:
   github:
@@ -29,8 +31,8 @@ metadata:
     archived: false
     full_name: hostinger/api-mcp-server
     html_url: https://github.com/hostinger/api-mcp-server
-    created_at: "2025-04-11T10:40:50Z"
-    pushed_at: "2026-07-28T11:15:01Z"
+    created_at: '2025-04-11T10:40:50Z'
+    pushed_at: '2026-07-28T11:15:01Z'
     description: null
     homepage: https://developers.hostinger.com
     topics:
@@ -41,13 +43,17 @@ metadata:
       - gemini-cli-extension
       - hostinger
       - mcp
-    last_checked_at: "2026-07-30T05:05:38.692Z"
+    last_checked_at: '2026-07-30T05:05:38.692Z'
     readme:
-      fetched_at: "2026-07-30T05:05:38.692Z"
+      fetched_at: '2026-07-30T05:05:38.692Z'
       bytes: 108652
 insights:
-  summary: An MCP server that exposes Hostinger's API (billing, DNS, domains, hosting, VPS, reach) as tools for MCP-compatible clients like Claude, Cursor, or gemini-cli.
-  why_it_matters: Lets developers manage Hostinger infrastructure directly from their AI coding assistant without leaving the terminal or editor.
+  summary: >-
+    An MCP server that exposes Hostinger's API (billing, DNS, domains, hosting, VPS, reach) as tools for MCP-compatible
+    clients like Claude, Cursor, or gemini-cli.
+  why_it_matters: >-
+    Lets developers manage Hostinger infrastructure directly from their AI coding assistant without leaving the terminal
+    or editor.
   mental_damage: Now your AI can spin up a VPS and argue with your DNS records in the same conversation.
   tags:
     - mcp
@@ -58,31 +64,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: it is a dedicated MCP server exposing Hostinger API tools, not a compatibility footnote."
+  reason: >-
+    MCP is the product identity: it is a dedicated MCP server exposing Hostinger API tools, not a compatibility
+    footnote.
   evidence:
     - README explicitly describes it as a Model Context Protocol (MCP) server for Hostinger API
     - Provides multiple MCP server binaries (hostinger-api-mcp, hostinger-vps-mcp, etc.) with stdio/HTTP transport
     - Listed in awesome-mcp-servers under Official Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.619Z"
+    updated_at: '2026-05-06T22:12:15.619Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:38.692Z"
+    updated_at: '2026-07-30T05:05:38.692Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:06:14.783Z"
+    updated_at: '2026-07-21T16:06:14.783Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -95,7 +104,9 @@ processing:
       input_hash: sha256:e24c1a632bb39d38004d0022269372cf5e35add5ec3c1ef0f2f1d967eab3fd10
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: it is a dedicated MCP server exposing Hostinger API tools, not a compatibility footnote."
+      decision_reason: >-
+        MCP is the product identity: it is a dedicated MCP server exposing Hostinger API tools, not a compatibility
+        footnote.
       decision_evidence:
         - README explicitly describes it as a Model Context Protocol (MCP) server for Hostinger API
         - Provides multiple MCP server binaries (hostinger-api-mcp, hostinger-vps-mcp, etc.) with stdio/HTTP transport
@@ -103,6 +114,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific tools, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific tools, not
+        an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tigranbs__mcgravity__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: tigranbs/mcgravity
         extracted_url: https://github.com/tigranbs/mcgravity
-        surrounding_text: "- [tigranbs/mcgravity](https://github.com/tigranbs/mcgravity) 📇 🏠 - A proxy tool for composing multiple MCP servers into one unified endpoint. Scale your AI tools by load balancing requests across multiple MCP servers, similar to how Nginx works for web servers."
+        surrounding_text: >-
+          - [tigranbs/mcgravity](https://github.com/tigranbs/mcgravity) 📇 🏠 - A proxy tool for composing multiple MCP
+          servers into one unified endpoint. Scale your AI tools by load balancing requests across multiple MCP servers,
+          similar to how Nginx works for web servers.
         confidence: high
 metadata:
   github:
@@ -30,24 +33,32 @@ metadata:
     archived: false
     full_name: tigranbs/mcgravity
     html_url: https://github.com/tigranbs/mcgravity
-    created_at: "2025-04-13T00:02:41Z"
-    pushed_at: "2026-02-15T00:17:45Z"
-    description: Fast TUI that orchestrates AI coding tools (Claude Code, Codex, Gemini) in a plan→execute→review loop. Breaks work into atomic tasks for easier verification and course-correction.
-    homepage: ""
+    created_at: '2025-04-13T00:02:41Z'
+    pushed_at: '2026-02-15T00:17:45Z'
+    description: >-
+      Fast TUI that orchestrates AI coding tools (Claude Code, Codex, Gemini) in a plan→execute→review loop. Breaks work
+      into atomic tasks for easier verification and course-correction.
+    homepage: ''
     topics:
       - claude
       - claude-code
       - codex
       - gemini
       - vibe-coding
-    last_checked_at: "2026-07-21T15:20:49.706Z"
+    last_checked_at: '2026-07-21T15:20:49.706Z'
     readme:
-      fetched_at: "2026-07-21T15:20:49.706Z"
+      fetched_at: '2026-07-21T15:20:49.706Z'
       bytes: 10337
 insights:
-  summary: A fast terminal UI that orchestrates external AI coding tools (Claude Code, Codex, Gemini) in a structured plan→execute→review loop to break large tasks into atomic, verifiable units.
-  why_it_matters: It layers structured task decomposition and iteration on top of existing CLI coding agents, giving developers a tighter feedback loop without switching models.
-  mental_damage: You now have a terminal UI to manage the agents that manage your code, because apparently your workflow needed one more recursive layer of delegation.
+  summary: >-
+    A fast terminal UI that orchestrates external AI coding tools (Claude Code, Codex, Gemini) in a structured
+    plan→execute→review loop to break large tasks into atomic, verifiable units.
+  why_it_matters: >-
+    It layers structured task decomposition and iteration on top of existing CLI coding agents, giving developers a
+    tighter feedback loop without switching models.
+  mental_damage: >-
+    You now have a terminal UI to manage the agents that manage your code, because apparently your workflow needed one
+    more recursive layer of delegation.
   tags:
     - tui
     - cli
@@ -57,35 +68,42 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: McGravity is a terminal-based coding assistant surface that orchestrates repo-level plan→execute→review workflows using external AI CLIs, fitting the primary assistant role in a TUI rather than acting as a thin extension.
+  reason: >-
+    McGravity is a terminal-based coding assistant surface that orchestrates repo-level plan→execute→review workflows
+    using external AI CLIs, fitting the primary assistant role in a TUI rather than acting as a thin extension.
   evidence:
-    - "Repo description: 'Fast TUI that orchestrates AI coding tools (Claude Code, Codex, Gemini) in a plan→execute→review loop.'"
-    - "README: 'McGravity runs a continuous improvement loop: plan small tasks → execute one at a time → review → replan.'"
-    - "Active project: created 2025-04-13, pushed 2026-02-15, not archived."
+    - >-
+      Repo description: 'Fast TUI that orchestrates AI coding tools (Claude Code, Codex, Gemini) in a
+      plan→execute→review loop.'
+    - >-
+      README: 'McGravity runs a continuous improvement loop: plan small tasks → execute one at a time → review →
+      replan.'
+    - 'Active project: created 2025-04-13, pushed 2026-02-15, not archived.'
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.652Z"
+    updated_at: '2026-05-06T22:12:15.652Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:49.706Z"
+    updated_at: '2026-07-21T15:20:49.706Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

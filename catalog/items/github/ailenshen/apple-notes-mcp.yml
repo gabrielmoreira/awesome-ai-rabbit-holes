@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ailenshen__apple-notes-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: ailenshen/apple-notes-mcp
         extracted_url: https://github.com/ailenshen/apple-notes-mcp
-        surrounding_text: "- [ailenshen/apple-notes-mcp](https://github.com/ailenshen/apple-notes-mcp) [![apple-notes-mcp MCP server](https://glama.ai/mcp/servers/ailenshen/apple-notes-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ailenshen/apple-notes-mcp) 📇 🏠 🍎 - Read and write Apple Notes with bidirectional Markdown conversion. Fast SQLite queries for listing/searching, AppleScript + native import for full CRUD. Supports stdio and Streamable HTTP transports."
+        surrounding_text: >-
+          - [ailenshen/apple-notes-mcp](https://github.com/ailenshen/apple-notes-mcp) [![apple-notes-mcp MCP
+          server](https://glama.ai/mcp/servers/ailenshen/apple-notes-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ailenshen/apple-notes-mcp)
+          📇 🏠 🍎 - Read and write Apple Notes with bidirectional Markdown conversion. Fast SQLite queries for
+          listing/searching, AppleScript + native import for full CRUD. Supports stdio and Streamable HTTP transports.
         confidence: high
 metadata:
   github:
@@ -30,10 +34,10 @@ metadata:
     archived: false
     full_name: ailenshen/apple-notes-mcp
     html_url: https://github.com/ailenshen/apple-notes-mcp
-    created_at: "2026-03-22T09:28:41Z"
-    pushed_at: "2026-04-29T14:55:51Z"
+    created_at: '2026-03-22T09:28:41Z'
+    pushed_at: '2026-04-29T14:55:51Z'
     description: Read and write Apple Notes, with Apple Notes native formatting support
-    homepage: ""
+    homepage: ''
     topics:
       - ai
       - apple
@@ -44,14 +48,18 @@ metadata:
       - markdown
       - mcp
       - mcp-server
-    last_checked_at: "2026-09-17T04:13:36.249Z"
+    last_checked_at: '2026-09-17T04:13:36.249Z'
     readme:
-      fetched_at: "2026-09-17T04:13:36.249Z"
+      fetched_at: '2026-09-17T04:13:36.249Z'
       bytes: 5735
 insights:
   summary: An MCP server that enables AI clients to read and write Apple Notes with native formatting support.
-  why_it_matters: It bridges the gap between LLMs and the walled-garden Apple Notes app, allowing AI to create structured, natively formatted notes rather than just plain text.
-  mental_damage: Nothing says 'odern developer workflow' quite like granting Full Disk Access to a Node.js process just so Claude can organize your grocery list.
+  why_it_matters: >-
+    It bridges the gap between LLMs and the walled-garden Apple Notes app, allowing AI to create structured, natively
+    formatted notes rather than just plain text.
+  mental_damage: >-
+    Nothing says 'odern developer workflow' quite like granting Full Disk Access to a Node.js process just so Claude can
+    organize your grocery list.
   tags:
     - mcp
     - macos
@@ -68,24 +76,25 @@ curation:
     - Core identity is the MCP protocol interface for Notes.app
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.600Z"
+    updated_at: '2026-05-06T22:12:15.600Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:36.249Z"
+    updated_at: '2026-09-17T04:13:36.249Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:10:21.191Z"
+    updated_at: '2026-07-20T16:10:21.191Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -106,6 +115,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity and delivery mechanism is a Model Context Protocol server.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity and delivery mechanism is a Model
+        Context Protocol server.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__l-aime__awesome-agents__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -19,7 +19,7 @@ provenance:
           - Related Awesome Lists
         anchor_text: awesome-agents
         extracted_url: https://github.com/l-aime/awesome-agents
-        surrounding_text: "- [awesome-agents](https://github.com/l-aime/awesome-agents) - Cutting-edge AI agent projects"
+        surrounding_text: '- [awesome-agents](https://github.com/l-aime/awesome-agents) - Cutting-edge AI agent projects'
         confidence: high
 metadata:
   github:
@@ -29,21 +29,26 @@ metadata:
     archived: false
     full_name: l-aime/awesome-agents
     html_url: https://github.com/l-aime/awesome-agents
-    created_at: "2025-08-12T14:13:13Z"
-    pushed_at: "2025-08-15T01:39:58Z"
-    description: A curated collection of cutting-edge AI agent projects, frameworks, and research papers. This repository aims to catalog innovative implementations, architectural patterns, and emerging best practices in agent-based systems—from autonomous LLM-powered agents to multi-agent collaboration frameworks.
-    homepage: ""
+    created_at: '2025-08-12T14:13:13Z'
+    pushed_at: '2025-08-15T01:39:58Z'
+    description: >-
+      A curated collection of cutting-edge AI agent projects, frameworks, and research papers. This repository aims to
+      catalog innovative implementations, architectural patterns, and emerging best practices in agent-based
+      systems—from autonomous LLM-powered agents to multi-agent collaboration frameworks.
+    homepage: ''
     topics:
       - agent
       - ai
       - python
-    last_checked_at: "2026-07-30T05:06:02.217Z"
+    last_checked_at: '2026-07-30T05:06:02.217Z'
     readme:
-      fetched_at: "2026-07-30T05:06:02.217Z"
+      fetched_at: '2026-07-30T05:06:02.217Z'
       bytes: 22090
 insights:
   summary: A curated collection of AI agent projects, frameworks, and research papers focusing on agent-based systems.
-  why_it_matters: It helps developers discover and navigate the rapidly evolving landscape of agent frameworks, implementations, and best practices.
+  why_it_matters: >-
+    It helps developers discover and navigate the rapidly evolving landscape of agent frameworks, implementations, and
+    best practices.
   mental_damage: Because nothing says 'cutting-edge' like a list that already needs a list to keep track of it.
   tags:
     - directory
@@ -52,32 +57,31 @@ insights:
     - awesome-list
   confidence: high
 curation:
-  status: included
-  reason: This is a curated directory of agent projects and frameworks, fitting the scope of navigation aids for developers.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Repo description explicitly states it is a curated collection of AI agent projects and frameworks
-    - README confirms it catalogs agent-based systems, architectural patterns, and best practices
-    - Source-list context shows it is included in awesome-agent-orchestration under 'Related Awesome Lists'
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.626Z"
+    updated_at: '2026-05-06T22:12:15.626Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:02.217Z"
+    updated_at: '2026-07-30T05:06:02.217Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:14:34.780Z"
+    updated_at: '2026-07-21T16:14:34.780Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -90,7 +94,9 @@ processing:
       input_hash: sha256:a6a352277877374666985ae3e7c4817c699b030ec468a1d6149062c6ef8cea42
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: This is a curated directory of agent projects and frameworks, fitting the scope of navigation aids for developers.
+      decision_reason: >-
+        This is a curated directory of agent projects and frameworks, fitting the scope of navigation aids for
+        developers.
       decision_evidence:
         - Repo description explicitly states it is a curated collection of AI agent projects and frameworks
         - README confirms it catalogs agent-based systems, architectural patterns, and best practices
@@ -98,6 +104,8 @@ processing:
       category_candidates:
         - awesome-awesomes
         - ai-frameworks
-      contrastive_reason: Choose awesome-awesomes over ai-frameworks because the primary value is discovery and navigation rather than code-first building blocks.
+      contrastive_reason: >-
+        Choose awesome-awesomes over ai-frameworks because the primary value is discovery and navigation rather than
+        code-first building blocks.
       review_reason: null
       review_resume_lifecycle: null

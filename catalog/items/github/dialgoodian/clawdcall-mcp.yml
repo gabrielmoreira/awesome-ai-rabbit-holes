@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dialgoodian__clawdcall-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-09-14T04:13:20.171Z"
+      discovered_at: '2026-09-14T04:13:20.171Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: dialgoodian/clawdcall-mcp
         extracted_url: https://github.com/dialgoodian/clawdcall-mcp
-        surrounding_text: "- [dialgoodian/clawdcall-mcp](https://github.com/dialgoodian/clawdcall-mcp) [![dialgoodian/clawdcall-mcp MCP server](https://glama.ai/mcp/servers/dialgoodian/clawdcall-mcp/badges/score.svg)](https://glama.ai/mcp/servers/dialgoodian/clawdcall-mcp) 🎖️ 📇 ☁️ - Let AI agents place consent-based outbound phone calls and retrieve transcripts, summaries, and outcomes. Use the hosted Streamable HTTP server or install with `npx -y clawdcall-mcp`."
+        surrounding_text: >-
+          - [dialgoodian/clawdcall-mcp](https://github.com/dialgoodian/clawdcall-mcp) [![dialgoodian/clawdcall-mcp MCP
+          server](https://glama.ai/mcp/servers/dialgoodian/clawdcall-mcp/badges/score.svg)](https://glama.ai/mcp/servers/dialgoodian/clawdcall-mcp)
+          🎖️ 📇 ☁️ - Let AI agents place consent-based outbound phone calls and retrieve transcripts, summaries, and
+          outcomes. Use the hosted Streamable HTTP server or install with `npx -y clawdcall-mcp`.
         confidence: high
 metadata:
   github:
@@ -30,19 +34,25 @@ metadata:
     archived: false
     full_name: dialgoodian/clawdcall-mcp
     html_url: https://github.com/dialgoodian/clawdcall-mcp
-    created_at: "2026-05-16T10:55:17Z"
-    pushed_at: "2026-09-12T07:53:11Z"
+    created_at: '2026-05-16T10:55:17Z'
+    pushed_at: '2026-09-12T07:53:11Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:40.137Z"
+    last_checked_at: '2026-09-14T04:13:40.137Z'
     readme:
-      fetched_at: "2026-09-14T04:13:40.137Z"
+      fetched_at: '2026-09-14T04:13:40.137Z'
       bytes: 4325
 insights:
-  summary: An MCP server that exposes ClawdCall's telephony API, enabling AI agents to perform tasks like sending OTPs and making outbound calls.
-  why_it_matters: It provides a standardized protocol for AI agents to bridge the gap between digital reasoning and real-world voice communication.
-  mental_damage: Because nothing says 'production-ready' like having to explain to a human recipient that your LLM is intentionally calling them for a bounded task.
+  summary: >-
+    An MCP server that exposes ClawdCall's telephony API, enabling AI agents to perform tasks like sending OTPs and
+    making outbound calls.
+  why_it_matters: >-
+    It provides a standardized protocol for AI agents to bridge the gap between digital reasoning and real-world voice
+    communication.
+  mental_damage: >-
+    Because nothing says 'production-ready' like having to explain to a human recipient that your LLM is intentionally
+    calling them for a bounded task.
   tags:
     - mcp
     - telephony
@@ -51,31 +61,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server designed to expose specific telephony domain tools to compatible agents.
+  reason: >-
+    The project's primary identity is an MCP server designed to expose specific telephony domain tools to compatible
+    agents.
   evidence:
     - README explicitly identifies the project as the 'ClawdCall MCP Server'
     - Exposes specific tools (send_signup_otp, place_outbound_call, etc.) via the Model Context Protocol
     - Provides both a local npm package and a hosted remote HTTP endpoint for MCP clients
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-09-14T04:13:20.173Z"
+    updated_at: '2026-09-14T04:13:20.173Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:40.137Z"
+    updated_at: '2026-09-14T04:13:40.137Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-14T04:20:14.693Z"
+    updated_at: '2026-09-14T04:20:14.693Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -84,7 +97,9 @@ processing:
       input_hash: sha256:7faadddbcaa6c282fa3adfbc6a6fd3bcd377a77d128e260f83b5a3d99fc9c3b6
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's primary identity is an MCP server designed to expose specific telephony domain tools to compatible agents.
+      decision_reason: >-
+        The project's primary identity is an MCP server designed to expose specific telephony domain tools to compatible
+        agents.
       decision_evidence:
         - README explicitly identifies the project as the 'ClawdCall MCP Server'
         - Exposes specific tools (send_signup_otp, place_outbound_call, etc.) via the Model Context Protocol
@@ -92,7 +107,9 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool is specifically an MCP server implementation rather than a general-purpose host integration.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool is specifically an MCP server implementation rather than a
+        general-purpose host integration.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

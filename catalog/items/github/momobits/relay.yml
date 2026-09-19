@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__momobits__relay__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,7 +19,9 @@ provenance:
           - Code Review and Refactoring
         anchor_text: Relay
         extracted_url: https://github.com/momobits/relay
-        surrounding_text: "- **[Relay](https://github.com/momobits/Relay/)** – Persistent memory for AI coding workflows. Give AI coding agents memory of what was built, what broke, and what's next."
+        surrounding_text: >-
+          - **[Relay](https://github.com/momobits/Relay/)** – Persistent memory for AI coding workflows. Give AI coding
+          agents memory of what was built, what broke, and what's next.
         confidence: high
 metadata:
   github:
@@ -29,19 +31,25 @@ metadata:
     archived: false
     full_name: momobits/Relay
     html_url: https://github.com/momobits/Relay
-    created_at: "2026-03-17T13:38:47Z"
-    pushed_at: "2026-05-20T14:01:02Z"
+    created_at: '2026-03-17T13:38:47Z'
+    pushed_at: '2026-05-20T14:01:02Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:17:06.949Z"
+    last_checked_at: '2026-08-03T05:17:06.949Z'
     readme:
-      fetched_at: "2026-08-03T05:17:06.949Z"
+      fetched_at: '2026-08-03T05:17:06.949Z'
       bytes: 32274
 insights:
-  summary: Relay is a structured workflow system that adds persistent memory, issue tracking, and phased planning as reusable skills for Claude Code, OpenAI Codex CLI, and Google Gemini CLI.
-  why_it_matters: It captures decisions, context, and progress in a `.relay/` directory so multi-session AI-assisted development doesn't reset every time you switch models or open a new terminal.
-  mental_damage: Another layer of structured markdown to manage the chaos of AI coding sessions, letting you proudly accumulate technical debt with a full audit trail.
+  summary: >-
+    Relay is a structured workflow system that adds persistent memory, issue tracking, and phased planning as reusable
+    skills for Claude Code, OpenAI Codex CLI, and Google Gemini CLI.
+  why_it_matters: >-
+    It captures decisions, context, and progress in a `.relay/` directory so multi-session AI-assisted development
+    doesn't reset every time you switch models or open a new terminal.
+  mental_damage: >-
+    Another layer of structured markdown to manage the chaos of AI coding sessions, letting you proudly accumulate
+    technical debt with a full audit trail.
   tags:
     - memory
     - cli
@@ -51,35 +59,40 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The primary artifact is a pack of 20 workflow skills that run inside Claude Code, Codex CLI, and Gemini CLI to provide persistent project memory and structured task management.
+  reason: >-
+    The primary artifact is a pack of 20 workflow skills that run inside Claude Code, Codex CLI, and Gemini CLI to
+    provide persistent project memory and structured task management.
   evidence:
-    - README states it provides '20 workflow skills' covering the full lifecycle for Claude Code, Codex CLI, and Gemini CLI.
+    - >-
+      README states it provides '20 workflow skills' covering the full lifecycle for Claude Code, Codex CLI, and Gemini
+      CLI.
     - Creates a persistent `.relay/` directory with structured markdown as shared memory across sessions and models.
     - Badged as 'Claude Code Skills', 'Codex CLI Skills', and 'Gemini CLI Skills' in the README header.
 placement:
-  primary_category: skills
-  section: Skill Packs & Libraries
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.631Z"
+    updated_at: '2026-05-06T22:12:15.631Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:06.949Z"
+    updated_at: '2026-08-03T05:17:06.949Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

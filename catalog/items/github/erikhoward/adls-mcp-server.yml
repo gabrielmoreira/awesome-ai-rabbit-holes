@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__erikhoward__adls-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: erikhoward/adls-mcp-server
         extracted_url: https://github.com/erikhoward/adls-mcp-server
-        surrounding_text: "- [erikhoward/adls-mcp-server](https://github.com/erikhoward/adls-mcp-server) 🐍 ☁️/🏠 - MCP Server for Azure Data Lake Storage. It can perform manage containers, read/write/upload/download operations on container files and manage file metadata."
+        surrounding_text: >-
+          - [erikhoward/adls-mcp-server](https://github.com/erikhoward/adls-mcp-server) 🐍 ☁️/🏠 - MCP Server for Azure
+          Data Lake Storage. It can perform manage containers, read/write/upload/download operations on container files
+          and manage file metadata.
         confidence: high
 metadata:
   github:
@@ -30,22 +33,24 @@ metadata:
     archived: false
     full_name: erikhoward/adls-mcp-server
     html_url: https://github.com/erikhoward/adls-mcp-server
-    created_at: "2025-04-03T19:55:31Z"
-    pushed_at: "2025-05-31T01:46:12Z"
+    created_at: '2025-04-03T19:55:31Z'
+    pushed_at: '2025-05-31T01:46:12Z'
     description: Microsoft Azure Data Lake Storage MCP Server
-    homepage: ""
+    homepage: ''
     topics:
       - adls
       - azure
       - mcp
       - mcp-server
-    last_checked_at: "2026-08-27T09:23:24.934Z"
+    last_checked_at: '2026-08-27T09:23:24.934Z'
     readme:
-      fetched_at: "2026-08-27T09:23:24.934Z"
+      fetched_at: '2026-08-27T09:23:24.934Z'
       bytes: 5720
 insights:
   summary: An MCP server that provides a standardized interface for interacting with Azure Data Lake Storage Gen2.
-  why_it_matters: It enables developers to integrate Azure Data Lake Storage operations directly into MCP-compatible workflows, expanding the context and tooling available to AI assistants.
+  why_it_matters: >-
+    It enables developers to integrate Azure Data Lake Storage operations directly into MCP-compatible workflows,
+    expanding the context and tooling available to AI assistants.
   mental_damage: Now your AI assistant can manage your cloud storage, because apparently writing code wasn't enough to keep it busy.
   tags:
     - mcp
@@ -63,24 +68,25 @@ curation:
     - Listed in awesome-mcp-servers under 'Server Implementations > Cloud Platforms'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:24.934Z"
+    updated_at: '2026-08-27T09:23:24.934Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:52:42.655Z"
+    updated_at: '2026-07-21T15:52:42.655Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -101,6 +107,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

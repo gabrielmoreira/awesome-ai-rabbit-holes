@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__yli769227-jpg__ashare-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: yli769227-jpg/ashare-mcp
         extracted_url: https://github.com/yli769227-jpg/ashare-mcp
-        surrounding_text: "- [yli769227-jpg/ashare-mcp](https://github.com/yli769227-jpg/ashare-mcp) [![yli769227-jpg/ashare-mcp MCP server](https://glama.ai/mcp/servers/yli769227-jpg/ashare-mcp/badges/score.svg)](https://glama.ai/mcp/servers/yli769227-jpg/ashare-mcp) 🐍 🏠 - MCP server for Chinese A-share financial statements: pull annual reports, run 4 industry-aware accounting cross-checks, peer-compare with auto avg-equity ROE."
+        surrounding_text: >-
+          - [yli769227-jpg/ashare-mcp](https://github.com/yli769227-jpg/ashare-mcp) [![yli769227-jpg/ashare-mcp MCP
+          server](https://glama.ai/mcp/servers/yli769227-jpg/ashare-mcp/badges/score.svg)](https://glama.ai/mcp/servers/yli769227-jpg/ashare-mcp)
+          🐍 🏠 - MCP server for Chinese A-share financial statements: pull annual reports, run 4 industry-aware
+          accounting cross-checks, peer-compare with auto avg-equity ROE.
         confidence: high
 metadata:
   github:
@@ -30,8 +34,8 @@ metadata:
     archived: false
     full_name: yli769227-jpg/ashare-mcp
     html_url: https://github.com/yli769227-jpg/ashare-mcp
-    created_at: "2026-04-27T08:40:26Z"
-    pushed_at: "2026-06-10T09:21:50Z"
+    created_at: '2026-04-27T08:40:26Z'
+    pushed_at: '2026-06-10T09:21:50Z'
     description: MCP server for Chinese A-share financial statements. 把 A 股财报变成 LLM 可调的工具。
     homepage: null
     topics:
@@ -45,14 +49,16 @@ metadata:
       - mcp
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-07-21T15:21:21.307Z"
+    last_checked_at: '2026-07-21T15:21:21.307Z'
     readme:
-      fetched_at: "2026-07-21T15:21:21.307Z"
+      fetched_at: '2026-07-21T15:21:21.307Z'
       bytes: 11879
 insights:
   summary: MCP server that exposes Chinese A-share financial statements as callable tools via akshare and FastMCP.
   why_it_matters: Lets LLMs retrieve structured Chinese financial data without custom scraping, simplifying finance-agent workflows.
-  mental_damage: Another niche MCP server promising to finally make LLMs useful for stock homework, while you still have to verify the numbers yourself.
+  mental_damage: >-
+    Another niche MCP server promising to finally make LLMs useful for stock homework, while you still have to verify
+    the numbers yourself.
   tags:
     - mcp
     - finance
@@ -62,31 +68,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server whose core identity is providing financial data tools to LLM clients, matching the MCP Servers & Tooling category.
+  reason: >-
+    The project is an MCP server whose core identity is providing financial data tools to LLM clients, matching the MCP
+    Servers & Tooling category.
   evidence:
-    - "Repo description: 'MCP server for Chinese A-share financial statements'"
-    - "README: 'An MCP server that turns Chinese A-share financial statements into tools your LLM can call'"
-    - "Source-list: listed in awesome-mcp-servers under Finance & Fintech > Server Implementations"
+    - 'Repo description: ''MCP server for Chinese A-share financial statements'''
+    - 'README: ''An MCP server that turns Chinese A-share financial statements into tools your LLM can call'''
+    - 'Source-list: listed in awesome-mcp-servers under Finance & Fintech > Server Implementations'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.656Z"
+    updated_at: '2026-05-06T22:12:15.656Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:21.307Z"
+    updated_at: '2026-07-21T15:21:21.307Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:45:31.833Z"
+    updated_at: '2026-05-12T15:45:31.833Z'
     cause: null
     next_retry_at: null
     attempts: 1

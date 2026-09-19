@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agentfm-ai__agent-fm__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-18T05:26:15.344Z"
+      discovered_at: '2026-05-18T05:26:15.344Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Agent infrastructure
         anchor_text: Agent FM
         extracted_url: https://github.com/agentfm-ai/agent-fm
-        surrounding_text: "- **[Agent FM](https://github.com/agentfm-ai/agent-fm)** `⭐ 19` — Local macOS menubar app that narrates Claude Code and Codex sessions with a Global Mix, blocker alerts, and BYOK voice; built with Electron. Apache-2.0."
+        surrounding_text: >-
+          - **[Agent FM](https://github.com/agentfm-ai/agent-fm)** `⭐ 19` — Local macOS menubar app that narrates Claude
+          Code and Codex sessions with a Global Mix, blocker alerts, and BYOK voice; built with Electron. Apache-2.0.
         confidence: high
 metadata:
   github:
@@ -30,8 +32,8 @@ metadata:
     archived: false
     full_name: null
     html_url: null
-    created_at: "2026-05-11T05:13:06Z"
-    pushed_at: "2026-06-15T15:11:09Z"
+    created_at: '2026-05-11T05:13:06Z'
+    pushed_at: '2026-06-15T15:11:09Z'
     description: Agent FM - Tune in and stay in the loop with your agents 🎧
     homepage: https://agentfm.ai
     topics:
@@ -49,14 +51,20 @@ metadata:
       - vibe-coding
       - voice-ai
       - voice-assistant
-    last_checked_at: "2026-06-18T05:40:05.267Z"
+    last_checked_at: '2026-06-18T05:40:05.267Z'
     readme:
-      fetched_at: "2026-06-18T05:40:05.267Z"
+      fetched_at: '2026-06-18T05:40:05.267Z'
       bytes: 4198
 insights:
-  summary: macOS Electron app that turns Claude Code and Codex sessions into ambient audio radio stations, surfacing progress, blockers, and attention requests in real time.
-  why_it_matters: It lets developers monitor multiple active terminal agents via audio narration and a dashboard instead of jumping between transcript windows.
-  mental_damage: We have built an ambient audio layer to monitor the tools we built to automate the work we no longer want to read about.
+  summary: >-
+    macOS Electron app that turns Claude Code and Codex sessions into ambient audio radio stations, surfacing progress,
+    blockers, and attention requests in real time.
+  why_it_matters: >-
+    It lets developers monitor multiple active terminal agents via audio narration and a dashboard instead of jumping
+    between transcript windows.
+  mental_damage: >-
+    We have built an ambient audio layer to monitor the tools we built to automate the work we no longer want to read
+    about.
   tags:
     - ambient-monitoring
     - claude-code
@@ -66,33 +74,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: It is an add-on that augments Claude Code and Codex with a monitoring UI and audio narration layer, not a standalone coding agent.
+  reason: >-
+    It is an add-on that augments Claude Code and Codex with a monitoring UI and audio narration layer, not a standalone
+    coding agent.
   evidence:
-    - README states the app listens to Claude Code and Codex sessions and surfaces them as stations; it does not read, plan, or edit code itself.
+    - >-
+      README states the app listens to Claude Code and Codex sessions and surfaces them as stations; it does not read,
+      plan, or edit code itself.
     - Repo topics include agent-monitoring, audio, and voice-assistant, not code generation or repo editing.
     - Primary value proposition is augmenting existing terminal agents with ambient awareness and blocker alerts.
 placement:
-  primary_category: ai-dev-extensions
-  section: IDE / UI / Workflow Add-ons
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-18T05:26:15.345Z"
+    updated_at: '2026-05-18T05:26:15.345Z'
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: "2026-09-17T04:13:32.183Z"
+    updated_at: '2026-09-17T04:13:32.183Z'
     cause:
       type: github_repo_missing
-      message: "GitHub repository not found: agentfm-ai/agent-fm"
+      message: 'GitHub repository not found: agentfm-ai/agent-fm'
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-21T05:30:04.720Z"
+    updated_at: '2026-05-21T05:30:04.720Z'
     cause: null
     next_retry_at: null
     attempts: 2

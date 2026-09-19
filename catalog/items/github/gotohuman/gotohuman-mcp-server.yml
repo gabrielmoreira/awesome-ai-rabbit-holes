@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gotohuman__gotohuman-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: gotoHuman
         extracted_url: https://github.com/gotohuman/gotohuman-mcp-server
-        surrounding_text: "- **[gotoHuman](https://github.com/gotohuman/gotohuman-mcp-server)** - Human-in-the-loop platform - Allow AI agents and automations to send requests for approval to your [gotoHuman](https://www.gotohuman.com) inbox."
+        surrounding_text: >-
+          - **[gotoHuman](https://github.com/gotohuman/gotohuman-mcp-server)** - Human-in-the-loop platform - Allow AI
+          agents and automations to send requests for approval to your [gotoHuman](https://www.gotohuman.com) inbox.
         confidence: high
 metadata:
   github:
@@ -29,17 +31,19 @@ metadata:
     archived: false
     full_name: gotohuman/gotohuman-mcp-server
     html_url: https://github.com/gotohuman/gotohuman-mcp-server
-    created_at: "2025-03-21T15:15:37Z"
-    pushed_at: "2026-06-01T23:44:53Z"
+    created_at: '2025-03-21T15:15:37Z'
+    pushed_at: '2026-06-01T23:44:53Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-03T05:16:52.717Z"
+    last_checked_at: '2026-09-03T05:16:52.717Z'
     readme:
-      fetched_at: "2026-09-03T05:16:52.717Z"
+      fetched_at: '2026-09-03T05:16:52.717Z'
       bytes: 3813
 insights:
-  summary: An MCP server that enables AI agents to request human approvals via a managed workflow with customizable UI, auth, and webhooks.
+  summary: >-
+    An MCP server that enables AI agents to request human approvals via a managed workflow with customizable UI, auth,
+    and webhooks.
   why_it_matters: It lets developers add human-in-the-loop approval steps to agentic workflows directly from their IDE or MCP client.
   mental_damage: Because nothing says 'automation' like a human manually approving every AI decision.
   tags:
@@ -51,31 +55,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: it is a dedicated MCP server for human approval workflows, not just an adapter or compatibility feature."
+  reason: >-
+    MCP is the product identity here: it is a dedicated MCP server for human approval workflows, not just an adapter or
+    compatibility feature.
   evidence:
     - README explicitly describes it as an MCP server for human approvals in AI workflows
     - Installation and usage instructions are MCP-first (npx @gotohuman/mcp-server)
     - Listed in awesome-mcp-servers under Official Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.616Z"
+    updated_at: '2026-05-06T22:12:15.616Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-03T05:16:52.717Z"
+    updated_at: '2026-09-03T05:16:52.717Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:03:52.412Z"
+    updated_at: '2026-07-21T16:03:52.412Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -88,7 +95,9 @@ processing:
       input_hash: sha256:317ed2ad4bcfb2ce546ce8f79a0993f117900c5c7dfe0a1069e07a137099bfc0
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: it is a dedicated MCP server for human approval workflows, not just an adapter or compatibility feature."
+      decision_reason: >-
+        MCP is the product identity here: it is a dedicated MCP server for human approval workflows, not just an adapter
+        or compatibility feature.
       decision_evidence:
         - README explicitly describes it as an MCP server for human approvals in AI workflows
         - Installation and usage instructions are MCP-first (npx @gotohuman/mcp-server)
@@ -96,6 +105,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not merely an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not merely an extension augmenting
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

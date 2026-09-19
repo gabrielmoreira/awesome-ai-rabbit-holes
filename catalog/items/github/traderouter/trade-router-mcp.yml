@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__traderouter__trade-router-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: TradeRouter/trade-router-mcp
         extracted_url: https://github.com/traderouter/trade-router-mcp
-        surrounding_text: "- [TradeRouter/trade-router-mcp](https://github.com/TradeRouter/trade-router-mcp) [![TradeRouter/trade-router-mcp MCP server](https://glama.ai/mcp/servers/TradeRouter/trade-router-mcp/badges/score.svg)](https://glama.ai/mcp/servers/TradeRouter/trade-router-mcp) 📇 ☁️ 🏠 - Non-custodial Solana swap & limit order engine for AI agents. 21 tools (swap, limit, trailing, TWAP, DCA, combo orders) across Raydium, PumpSwap, Orca, Meteora. Jito MEV-protected execution, Ed25519 server verification, private key never leaves the process. MIT. `npx -y @traderouter/trade-router-mcp`."
+        surrounding_text: >-
+          - [TradeRouter/trade-router-mcp](https://github.com/TradeRouter/trade-router-mcp)
+          [![TradeRouter/trade-router-mcp MCP
+          server](https://glama.ai/mcp/servers/TradeRouter/trade-router-mcp/badges/score.svg)](https://glama.ai/mcp/servers/TradeRouter/trade-router-mcp)
+          📇 ☁️ 🏠 - Non-custodial Solana swap & limit order engine for AI agents. 21 tools (swap, limit, trailing,
+          TWAP, DCA, combo orders) across Raydium, PumpSwap, Orca, Meteora. Jito MEV-protected execution, Ed25519 server
+          verification, private key never leaves the process. MIT. `npx -y @traderouter/trade-router-mcp`.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,12 @@ metadata:
     archived: false
     full_name: TradeRouter/trade-router-mcp
     html_url: https://github.com/TradeRouter/trade-router-mcp
-    created_at: "2026-02-21T03:57:34Z"
-    pushed_at: "2026-04-28T10:20:35Z"
-    description: Non-custodial Solana swap & limit-order MCP server for AI agents. 21 tools (swap, limit, trailing, TWAP, DCA, combo orders) across Raydium, PumpSwap, Orca, Meteora. Jito MEV-protected. Ed25519 server-message verification. `npx -y @traderouter/trade-router-mcp`
+    created_at: '2026-02-21T03:57:34Z'
+    pushed_at: '2026-04-28T10:20:35Z'
+    description: >-
+      Non-custodial Solana swap & limit-order MCP server for AI agents. 21 tools (swap, limit, trailing, TWAP, DCA,
+      combo orders) across Raydium, PumpSwap, Orca, Meteora. Jito MEV-protected. Ed25519 server-message verification.
+      `npx -y @traderouter/trade-router-mcp`
     homepage: https://traderouter.ai
     topics:
       - ai-agents
@@ -51,14 +60,20 @@ metadata:
       - trading
       - trailing-stop
       - twap
-    last_checked_at: "2026-07-21T15:20:54.484Z"
+    last_checked_at: '2026-07-21T15:20:54.484Z'
     readme:
-      fetched_at: "2026-07-21T15:20:54.484Z"
+      fetched_at: '2026-07-21T15:20:54.484Z'
       bytes: 8142
 insights:
-  summary: A non-custodial MCP server that exposes 21 Solana trading tools—including swaps, limit orders, TWAP, and DCA—to AI agents via Raydium, Orca, Meteora, and PumpSwap with Jito MEV protection.
-  why_it_matters: It lets developers wire sophisticated, locally-signed Solana trading workflows directly into MCP-compatible assistants like Claude Desktop and Cursor without custodial risk.
-  mental_damage: Your AI agent can now execute a trailing-stop TWAP combo order on a Sunday morning while you are trying to convince yourself you are still in control of the wallet.
+  summary: >-
+    A non-custodial MCP server that exposes 21 Solana trading tools—including swaps, limit orders, TWAP, and DCA—to AI
+    agents via Raydium, Orca, Meteora, and PumpSwap with Jito MEV protection.
+  why_it_matters: >-
+    It lets developers wire sophisticated, locally-signed Solana trading workflows directly into MCP-compatible
+    assistants like Claude Desktop and Cursor without custodial risk.
+  mental_damage: >-
+    Your AI agent can now execute a trailing-stop TWAP combo order on a Sunday morning while you are trying to convince
+    yourself you are still in control of the wallet.
   tags:
     - mcp
     - solana
@@ -75,28 +90,29 @@ curation:
     - Listed in awesome-mcp-servers under Finance & Fintech, confirming MCP server identity
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.653Z"
+    updated_at: '2026-05-06T22:12:15.653Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:54.484Z"
+    updated_at: '2026-07-21T15:20:54.484Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__vectorize__io__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,10 @@ provenance:
           - Official Servers
         anchor_text: Vectorize
         extracted_url: https://vectorize.io
-        surrounding_text: "- **[Vectorize](https://github.com/vectorize-io/vectorize-mcp-server/)** - [Vectorize](https://vectorize.io) MCP server for advanced retrieval, Private Deep Research, Anything-to-Markdown file extraction and text chunking."
+        surrounding_text: >-
+          - **[Vectorize](https://github.com/vectorize-io/vectorize-mcp-server/)** - [Vectorize](https://vectorize.io)
+          MCP server for advanced retrieval, Private Deep Research, Anything-to-Markdown file extraction and text
+          chunking.
         confidence: high
 metadata:
   github:
@@ -37,7 +40,9 @@ metadata:
     readme: null
 insights:
   summary: Open source agent memory system that enables persistent, per-user context and learning for AI agents.
-  why_it_matters: Developers can give their agents persistent memory that improves over time, reducing repetitive mistakes and enabling cross-session continuity.
+  why_it_matters: >-
+    Developers can give their agents persistent memory that improves over time, reducing repetitive mistakes and
+    enabling cross-session continuity.
   mental_damage: Finally, your agent will remember that you prefer tabs over spaces—until it forgets again next major version.
   tags:
     - agent-memory
@@ -48,21 +53,26 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product is a memory system for agents, focusing on retrieval, persistence, and learning—squarely in prompt/context engineering territory.
+  reason: >-
+    The core product is a memory system for agents, focusing on retrieval, persistence, and learning—squarely in
+    prompt/context engineering territory.
   evidence:
-    - Site describes it as 'Open source agent memory. Your agents learn from experience, recall what matters, and get better over time.'
+    - >-
+      Site describes it as 'Open source agent memory. Your agents learn from experience, recall what matters, and get
+      better over time.'
     - Primary page excerpt highlights per-user memory, cross-session persistence, and fast recall as core features.
     - Benchmark results (LongMemEval) position it as a memory system, not a coding assistant or orchestration platform.
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.666Z"
+    updated_at: '2026-05-06T22:12:15.666Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +81,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:38:45.352Z"
+    updated_at: '2026-07-21T15:38:45.352Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,14 +94,22 @@ processing:
       input_hash: sha256:44b3ed92a52fe76097af8deaef3a18b219958132a4524c49e770d152bb37529f
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: The core product is a memory system for agents, focusing on retrieval, persistence, and learning—squarely in prompt/context engineering territory.
+      decision_reason: >-
+        The core product is a memory system for agents, focusing on retrieval, persistence, and learning—squarely in
+        prompt/context engineering territory.
       decision_evidence:
-        - Site describes it as 'Open source agent memory. Your agents learn from experience, recall what matters, and get better over time.'
+        - >-
+          Site describes it as 'Open source agent memory. Your agents learn from experience, recall what matters, and
+          get better over time.'
         - Primary page excerpt highlights per-user memory, cross-session persistence, and fast recall as core features.
-        - Benchmark results (LongMemEval) position it as a memory system, not a coding assistant or orchestration platform.
+        - >-
+          Benchmark results (LongMemEval) position it as a memory system, not a coding assistant or orchestration
+          platform.
       category_candidates:
         - context-engineering
         - mcp
-      contrastive_reason: Choose context-engineering over mcp because the product identity is the memory system itself, not the MCP protocol or server infrastructure.
+      contrastive_reason: >-
+        Choose context-engineering over mcp because the product identity is the memory system itself, not the MCP
+        protocol or server infrastructure.
       review_reason: null
       review_resume_lifecycle: null

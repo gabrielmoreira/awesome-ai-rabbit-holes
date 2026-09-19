@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__robocular__frostbyte-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -19,7 +19,12 @@ provenance:
           - 💻 Developer Tools
         anchor_text: OzorOwn/frostbyte-mcp
         extracted_url: https://github.com/ozorown/frostbyte-mcp
-        surrounding_text: "-   **[OzorOwn/frostbyte-mcp](https://github.com/OzorOwn/frostbyte-mcp)** [![GitHub stars](https://img.shields.io/github/stars/OzorOwn/frostbyte-mcp?style=social)](https://github.com/OzorOwn/frostbyte-mcp): MCP server providing AI agents access to 40+ developer APIs with 13 tools for geolocation, crypto, screenshots, scraping, DNS, code execution, PDF generation, search, and more. Works with Claude Desktop, Cursor, and Windsurf."
+        surrounding_text: >-
+          -   **[OzorOwn/frostbyte-mcp](https://github.com/OzorOwn/frostbyte-mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/OzorOwn/frostbyte-mcp?style=social)](https://github.com/OzorOwn/frostbyte-mcp):
+          MCP server providing AI agents access to 40+ developer APIs with 13 tools for geolocation, crypto,
+          screenshots, scraping, DNS, code execution, PDF generation, search, and more. Works with Claude Desktop,
+          Cursor, and Windsurf.
         confidence: high
 metadata:
   github:
@@ -29,9 +34,11 @@ metadata:
     archived: false
     full_name: null
     html_url: null
-    created_at: "2026-03-04T23:04:11Z"
-    pushed_at: "2026-03-05T18:28:07Z"
-    description: MCP server giving AI agents access to 40+ developer APIs — geolocation, crypto, screenshots, scraping, DNS, code execution, and more
+    created_at: '2026-03-04T23:04:11Z'
+    pushed_at: '2026-03-05T18:28:07Z'
+    description: >-
+      MCP server giving AI agents access to 40+ developer APIs — geolocation, crypto, screenshots, scraping, DNS, code
+      execution, and more
     homepage: https://ozorown.github.io
     topics:
       - ai-agent
@@ -48,14 +55,20 @@ metadata:
       - screenshot
       - web-scraping
       - windsurf
-    last_checked_at: "2026-05-06T22:46:11.036Z"
+    last_checked_at: '2026-05-06T22:46:11.036Z'
     readme:
-      fetched_at: "2026-05-06T22:46:11.036Z"
+      fetched_at: '2026-05-06T22:46:11.036Z'
       bytes: 4802
 insights:
-  summary: An MCP server that exposes 40+ developer APIs, including geolocation, crypto prices, DNS, web scraping, and code execution, to MCP-compatible AI agents and editors.
-  why_it_matters: It lets developers instantly give their AI agents capabilities like live crypto prices, DNS lookups, and remote code execution without writing custom integrations.
-  mental_damage: Another MCP server joins the ecosystem, promising to shave seconds off your workflow while adding yet another moving part to debug when the agent inevitably calls `run_code` on a Saturday.
+  summary: >-
+    An MCP server that exposes 40+ developer APIs, including geolocation, crypto prices, DNS, web scraping, and code
+    execution, to MCP-compatible AI agents and editors.
+  why_it_matters: >-
+    It lets developers instantly give their AI agents capabilities like live crypto prices, DNS lookups, and remote code
+    execution without writing custom integrations.
+  mental_damage: >-
+    Another MCP server joins the ecosystem, promising to shave seconds off your workflow while adding yet another moving
+    part to debug when the agent inevitably calls `run_code` on a Saturday.
   tags:
     - mcp
     - api-gateway
@@ -64,37 +77,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server that proxies a broad API gateway to give agents access to developer tools, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product is an MCP server that proxies a broad API gateway to give agents access to developer tools, fitting the
+    MCP Servers & Tooling category.
   evidence:
     - Repo description explicitly states 'MCP server giving AI agents access to 40+ developer APIs'.
     - README details integration with Claude Desktop, Cursor, Windsurf, and VS Code via SSE and HTTP MCP endpoints.
     - Topics include 'mcp' and 'model-context-protocol', confirming MCP as the primary product identity.
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.645Z"
+    updated_at: '2026-05-06T22:12:15.645Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-07-23T05:09:46.615Z"
+    updated_at: '2026-07-23T05:09:46.615Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for robocular/frostbyte-mcp
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__memvid__memvid__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: memvid
         extracted_url: https://github.com/olow304/memvid
-        surrounding_text: "- [ferrants/memvid-mcp-server](https://github.com/ferrants/memvid-mcp-server) 🐍 🏠 - Python Streamable HTTP Server you can run locally to interact with [memvid](https://github.com/Olow304/memvid) storage and semantic search."
+        surrounding_text: >-
+          - [ferrants/memvid-mcp-server](https://github.com/ferrants/memvid-mcp-server) 🐍 🏠 - Python Streamable HTTP
+          Server you can run locally to interact with [memvid](https://github.com/Olow304/memvid) storage and semantic
+          search.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: memvid/memvid
     html_url: https://github.com/memvid/memvid
-    created_at: "2025-05-27T16:01:08Z"
-    pushed_at: "2026-07-14T14:39:07Z"
-    description: Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.
+    created_at: '2025-05-27T16:01:08Z'
+    pushed_at: '2026-07-14T14:39:07Z'
+    description: >-
+      Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your
+      agents instant retrieval and long-term memory.
     homepage: https://www.memvid.com
     topics:
       - ai
@@ -55,13 +60,17 @@ metadata:
       - semantic-search
       - vector-database
       - video-processing
-    last_checked_at: "2026-08-03T05:16:59.898Z"
+    last_checked_at: '2026-08-03T05:16:59.898Z'
     readme:
-      fetched_at: "2026-08-03T05:16:59.898Z"
+      fetched_at: '2026-08-03T05:16:59.898Z'
       bytes: 16847
 insights:
-  summary: Memvid is a portable, single-file memory layer for AI agents that stores embeddings and metadata in an append-only, video-inspired format for fast retrieval.
-  why_it_matters: It gives developers a simple, serverless way to equip AI agents with long-term memory and instant recall without managing RAG pipelines.
+  summary: >-
+    Memvid is a portable, single-file memory layer for AI agents that stores embeddings and metadata in an append-only,
+    video-inspired format for fast retrieval.
+  why_it_matters: >-
+    It gives developers a simple, serverless way to equip AI agents with long-term memory and instant recall without
+    managing RAG pipelines.
   mental_damage: Another RAG infrastructure.
   tags:
     - memory
@@ -70,31 +79,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Memvid is primarily a memory and retrieval system designed to improve what goes into AI models, fitting the Prompt & Context Engineering category.
+  reason: >-
+    Memvid is primarily a memory and retrieval system designed to improve what goes into AI models, fitting the Prompt &
+    Context Engineering category.
   evidence:
-    - "Repo description: 'Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer.'"
-    - "README: 'Memvid is a portable AI memory system that packages your data, embeddings, search structure, and metadata into a single file.'"
-    - Core concepts include 'Living Memory Engine', 'Smart Recall', and 'Codec Intelligence' focused on memory, retrieval, and compression.
+    - >-
+      Repo description: 'Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory
+      layer.'
+    - >-
+      README: 'Memvid is a portable AI memory system that packages your data, embeddings, search structure, and metadata
+      into a single file.'
+    - >-
+      Core concepts include 'Living Memory Engine', 'Smart Recall', and 'Codec Intelligence' focused on memory,
+      retrieval, and compression.
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: promotion_candidate
   reason: Stars (15356) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.629Z"
+    updated_at: '2026-05-06T22:12:15.629Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:59.898Z"
+    updated_at: '2026-08-03T05:16:59.898Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:20:00.132Z"
+    updated_at: '2026-07-21T16:20:00.132Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -107,14 +125,24 @@ processing:
       input_hash: sha256:3e6e40dd656c2a49d83a589ad3a1d04e5f9e8a60773c321a344e4f7b55d01656
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: Memvid is primarily a memory and retrieval system designed to improve what goes into AI models, fitting the Prompt & Context Engineering category.
+      decision_reason: >-
+        Memvid is primarily a memory and retrieval system designed to improve what goes into AI models, fitting the
+        Prompt & Context Engineering category.
       decision_evidence:
-        - "Repo description: 'Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer.'"
-        - "README: 'Memvid is a portable AI memory system that packages your data, embeddings, search structure, and metadata into a single file.'"
-        - Core concepts include 'Living Memory Engine', 'Smart Recall', and 'Codec Intelligence' focused on memory, retrieval, and compression.
+        - >-
+          Repo description: 'Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file
+          memory layer.'
+        - >-
+          README: 'Memvid is a portable AI memory system that packages your data, embeddings, search structure, and
+          metadata into a single file.'
+        - >-
+          Core concepts include 'Living Memory Engine', 'Smart Recall', and 'Codec Intelligence' focused on memory,
+          retrieval, and compression.
       category_candidates:
         - context-engineering
         - ai-dev-extensions
-      contrastive_reason: Choose context-engineering over ai-dev-extensions because the core novelty is memory, retrieval, and compression infrastructure rather than host integration capabilities.
+      contrastive_reason: >-
+        Choose context-engineering over ai-dev-extensions because the core novelty is memory, retrieval, and compression
+        infrastructure rather than host integration capabilities.
       review_reason: null
       review_resume_lifecycle: null

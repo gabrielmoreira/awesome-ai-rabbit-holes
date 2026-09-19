@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__logly__mureo__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: logly/mureo
         extracted_url: https://github.com/logly/mureo
-        surrounding_text: "- [logly/mureo](https://github.com/logly/mureo) [![logly/mureo MCP server](https://glama.ai/mcp/servers/logly/mureo/badges/score.svg)](https://glama.ai/mcp/servers/logly/mureo) 🐍 ☁️ 🏠 - Framework for AI agents (Claude Code, Cursor, Codex, Gemini) to operate Google Ads, Meta Ads, and Search Console. Grounded in a local STRATEGY.md — not metric-chasing. Defense-in-depth security, local-first. Apache 2.0."
+        surrounding_text: >-
+          - [logly/mureo](https://github.com/logly/mureo) [![logly/mureo MCP
+          server](https://glama.ai/mcp/servers/logly/mureo/badges/score.svg)](https://glama.ai/mcp/servers/logly/mureo)
+          🐍 ☁️ 🏠 - Framework for AI agents (Claude Code, Cursor, Codex, Gemini) to operate Google Ads, Meta Ads, and
+          Search Console. Grounded in a local STRATEGY.md — not metric-chasing. Defense-in-depth security, local-first.
+          Apache 2.0.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: logly/mureo
     html_url: https://github.com/logly/mureo
-    created_at: "2026-03-30T22:25:22Z"
-    pushed_at: "2026-07-30T04:50:36Z"
+    created_at: '2026-03-30T22:25:22Z'
+    pushed_at: '2026-07-30T04:50:36Z'
     description: Your local-first AI ad ops crew. Works with Claude Code, Cursor, Codex & Gemini.
     homepage: https://mureo.io
     topics:
@@ -52,14 +57,21 @@ metadata:
       - model-context-protocol
       - python
       - search-console
-    last_checked_at: "2026-07-30T05:06:07.914Z"
+    last_checked_at: '2026-07-30T05:06:07.914Z'
     readme:
-      fetched_at: "2026-07-30T05:06:07.914Z"
+      fetched_at: '2026-07-30T05:06:07.914Z'
       bytes: 26684
 insights:
-  summary: A local-first CLI control plane that lets AI coding agents like Claude Code and Cursor safely manage ad accounts across Google Ads, Meta Ads, Search Console, and GA4 using strategy files and audit logs.
-  why_it_matters: Developers running ad ops can delegate cross-platform account management to their existing coding agents without giving up local control, strategy grounding, or an append-only audit trail.
-  mental_damage: You now have a local control plane for your AI agents to optimize ROAS, which means your weekend project is simultaneously fighting brand cannibalization and questioning why your ad stack needs more orchestration than your production microservices.
+  summary: >-
+    A local-first CLI control plane that lets AI coding agents like Claude Code and Cursor safely manage ad accounts
+    across Google Ads, Meta Ads, Search Console, and GA4 using strategy files and audit logs.
+  why_it_matters: >-
+    Developers running ad ops can delegate cross-platform account management to their existing coding agents without
+    giving up local control, strategy grounding, or an append-only audit trail.
+  mental_damage: >-
+    You now have a local control plane for your AI agents to optimize ROAS, which means your weekend project is
+    simultaneously fighting brand cannibalization and questioning why your ad stack needs more orchestration than your
+    production microservices.
   tags:
     - ad-ops
     - mcp
@@ -69,35 +81,44 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: mureo is fundamentally an integration layer that gives existing coding agents (Claude Code, Cursor, Codex, Gemini) safe, strategy-grounded access to ad platforms, making it a host integration rather than a primary coding assistant.
+  reason: >-
+    mureo is fundamentally an integration layer that gives existing coding agents (Claude Code, Cursor, Codex, Gemini)
+    safe, strategy-grounded access to ad platforms, making it a host integration rather than a primary coding assistant.
   evidence:
-    - Repo description explicitly states it 'Works with Claude Code, Cursor, Codex & Gemini' rather than being a standalone assistant.
-    - README defines mureo as a 'local-first control plane for AI ad ops' that lets 'AI agents operate... through mureo' with strategy, safety, and audit features.
-    - Source list places it in awesome-mcp-servers under Marketing, reinforcing its identity as an MCP-based integration rather than a core coding agent.
+    - >-
+      Repo description explicitly states it 'Works with Claude Code, Cursor, Codex & Gemini' rather than being a
+      standalone assistant.
+    - >-
+      README defines mureo as a 'local-first control plane for AI ad ops' that lets 'AI agents operate... through mureo'
+      with strategy, safety, and audit features.
+    - >-
+      Source list places it in awesome-mcp-servers under Marketing, reinforcing its identity as an MCP-based integration
+      rather than a core coding agent.
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: mcp
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: '2026-05-06T22:12:15.627Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:07.914Z"
+    updated_at: '2026-07-30T05:06:07.914Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ckalima__pipedrive-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-15T05:51:04.987Z"
+      discovered_at: '2026-06-15T05:51:04.987Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
         anchor_text: ckalima/pipedrive-mcp-server
         extracted_url: https://github.com/ckalima/pipedrive-mcp-server
-        surrounding_text: "- [ckalima/pipedrive-mcp-server](https://github.com/ckalima/pipedrive-mcp-server) [![ckalima/pipedrive-mcp-server MCP server](https://glama.ai/mcp/servers/ckalima/pipedrive-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/ckalima/pipedrive-mcp-server) 📇 ☁️ - MCP server for [Pipedrive CRM](https://www.pipedrive.com). 155 tools covering deals, persons, organizations, activities, products, projects, tasks, leads, notes, mail, and fields. stdio transport, API-key auth, delete tools gated behind an env flag. Published on npm as `@ckalima/pipedrive-mcp-server`. MIT."
+        surrounding_text: >-
+          - [ckalima/pipedrive-mcp-server](https://github.com/ckalima/pipedrive-mcp-server)
+          [![ckalima/pipedrive-mcp-server MCP
+          server](https://glama.ai/mcp/servers/ckalima/pipedrive-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/ckalima/pipedrive-mcp-server)
+          📇 ☁️ - MCP server for [Pipedrive CRM](https://www.pipedrive.com). 155 tools covering deals, persons,
+          organizations, activities, products, projects, tasks, leads, notes, mail, and fields. stdio transport, API-key
+          auth, delete tools gated behind an env flag. Published on npm as `@ckalima/pipedrive-mcp-server`. MIT.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: ckalima/pipedrive-mcp-server
     html_url: https://github.com/ckalima/pipedrive-mcp-server
-    created_at: "2026-01-30T00:07:15Z"
-    pushed_at: "2026-09-05T00:53:28Z"
-    description: MCP server for Pipedrive CRM. 155 contract-tested tools, v2-first API, gated destructive ops. Works with Claude Desktop, Claude Code, and any MCP client.
+    created_at: '2026-01-30T00:07:15Z'
+    pushed_at: '2026-09-05T00:53:28Z'
+    description: >-
+      MCP server for Pipedrive CRM. 155 contract-tested tools, v2-first API, gated destructive ops. Works with Claude
+      Desktop, Claude Code, and any MCP client.
     homepage: null
     topics:
       - ai-agents
@@ -42,14 +50,18 @@ metadata:
       - model-context-protocol
       - pipedrive
       - typescript
-    last_checked_at: "2026-09-07T04:13:46.036Z"
+    last_checked_at: '2026-09-07T04:13:46.036Z'
     readme:
-      fetched_at: "2026-09-07T04:13:46.036Z"
+      fetched_at: '2026-09-07T04:13:46.036Z'
       bytes: 38521
 insights:
   summary: An MCP server that integrates Pipedrive CRM capabilities into AI assistants via the Model Context Protocol.
-  why_it_matters: Allows developers and sales engineers to query, create, and manage CRM data (deals, persons, activities) directly from their AI agent's interface without switching contexts.
-  mental_damage: The dream of 'just asking Claude' to manage your pipeline is finally here, provided you're comfortable with a LLM having the theoretical ability to delete your entire sales funnel.
+  why_it_matters: >-
+    Allows developers and sales engineers to query, create, and manage CRM data (deals, persons, activities) directly
+    from their AI agent's interface without switching contexts.
+  mental_damage: >-
+    The dream of 'just asking Claude' to manage your pipeline is finally here, provided you're comfortable with a LLM
+    having the theoretical ability to delete your entire sales funnel.
   tags:
     - mcp
     - pipedrive
@@ -59,31 +71,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product identity is explicitly an MCP server designed to provide a specific domain (Pipedrive CRM) to MCP-compatible clients.
+  reason: >-
+    The product identity is explicitly an MCP server designed to provide a specific domain (Pipedrive CRM) to
+    MCP-compatible clients.
   evidence:
     - Repo description explicitly states 'MCP server for Pipedrive'
     - README provides configuration for .mcp.json for Claude Code
     - Included in awesome-mcp-servers list
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-15T05:51:04.988Z"
+    updated_at: '2026-06-15T05:51:04.988Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:46.036Z"
+    updated_at: '2026-09-07T04:13:46.036Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-15T05:53:41.684Z"
+    updated_at: '2026-06-15T05:53:41.684Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

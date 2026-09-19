@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__dex-pools-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/dex-pools-mcp
         extracted_url: https://github.com/kukapay/dex-pools-mcp
-        surrounding_text: "- [kukapay/dex-pools-mcp](https://github.com/kukapay/dex-pools-mcp) 🐍 ☁️ - An MCP server that provides AI agents with real-time access to DEX liquidity pool data."
+        surrounding_text: >-
+          - [kukapay/dex-pools-mcp](https://github.com/kukapay/dex-pools-mcp) 🐍 ☁️ - An MCP server that provides AI
+          agents with real-time access to DEX liquidity pool data.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: kukapay/dex-pools-mcp
     html_url: https://github.com/kukapay/dex-pools-mcp
-    created_at: "2025-10-01T08:53:47Z"
-    pushed_at: "2025-10-01T08:54:04Z"
+    created_at: '2025-10-01T08:53:47Z'
+    pushed_at: '2025-10-01T08:54:04Z'
     description: An MCP server that provides AI agents with real-time access to DEX liquidity pool data.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:06:00.113Z"
+    last_checked_at: '2026-07-30T05:06:00.113Z'
     readme:
-      fetched_at: "2026-07-30T05:06:00.113Z"
+      fetched_at: '2026-07-30T05:06:00.113Z'
       bytes: 12963
 insights:
   summary: An MCP server that exposes real-time DEX liquidity pool data to AI agents.
-  why_it_matters: Developers building trading bots or analytics agents can now query live DEX pool metrics directly from their AI workflows.
+  why_it_matters: >-
+    Developers building trading bots or analytics agents can now query live DEX pool metrics directly from their AI
+    workflows.
   mental_damage: Because nothing says 'production-ready' like gluing a trading strategy to a beta MCP server and a free-tier API key.
   tags:
     - mcp
@@ -52,31 +56,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific data access."
+  reason: 'MCP is the product identity: this is a dedicated MCP server providing domain-specific data access.'
   evidence:
     - Repo description explicitly states it is an MCP server
     - README details MCP-specific installation and tooling (e.g., `mcp install`, Claude Desktop integration)
     - Core functionality is exposing DEX data via MCP tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:00.113Z"
+    updated_at: '2026-07-30T05:06:00.113Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:58.926Z"
+    updated_at: '2026-07-21T16:13:58.926Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +94,7 @@ processing:
       input_hash: sha256:f77468443a700f40c39cfb1e5978f75fd54fb007bc6fdaf2948fb4fdd73bec69
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific data access."
+      decision_reason: 'MCP is the product identity: this is a dedicated MCP server providing domain-specific data access.'
       decision_evidence:
         - Repo description explicitly states it is an MCP server
         - README details MCP-specific installation and tooling (e.g., `mcp install`, Claude Desktop integration)
@@ -97,6 +102,8 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product is an MCP server (not a general SDK) and its primary identity is MCP infrastructure.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product is an MCP server (not a general SDK) and its primary identity
+        is MCP infrastructure.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kryptosai__mcp-observatory__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: KryptosAI/mcp-observatory
         extracted_url: https://github.com/kryptosai/mcp-observatory
-        surrounding_text: "- [KryptosAI/mcp-observatory](https://github.com/KryptosAI/mcp-observatory) [![mcp-observatory MCP server](https://glama.ai/mcp/servers/KryptosAI/mcp-observatory/badges/score.svg)](https://glama.ai/mcp/servers/KryptosAI/mcp-observatory) 📇 🏠 🍎 🪟 🐧 - Regression testing for MCP servers. Auto-discovers servers from Claude configs, checks capabilities, invokes tools, detects schema drift between versions, and recommends new servers based on your environment. Works as both a CLI and an MCP server."
+        surrounding_text: >-
+          - [KryptosAI/mcp-observatory](https://github.com/KryptosAI/mcp-observatory) [![mcp-observatory MCP
+          server](https://glama.ai/mcp/servers/KryptosAI/mcp-observatory/badges/score.svg)](https://glama.ai/mcp/servers/KryptosAI/mcp-observatory)
+          📇 🏠 🍎 🪟 🐧 - Regression testing for MCP servers. Auto-discovers servers from Claude configs, checks
+          capabilities, invokes tools, detects schema drift between versions, and recommends new servers based on your
+          environment. Works as both a CLI and an MCP server.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: KryptosAI/mcp-observatory
     html_url: https://github.com/KryptosAI/mcp-observatory
-    created_at: "2026-03-19T00:28:30Z"
-    pushed_at: "2026-07-30T03:47:02Z"
-    description: CI-native security testing for MCP servers. Attack simulation, schema drift detection, and health scoring before agents depend on them.
+    created_at: '2026-03-19T00:28:30Z'
+    pushed_at: '2026-07-30T03:47:02Z'
+    description: >-
+      CI-native security testing for MCP servers. Attack simulation, schema drift detection, and health scoring before
+      agents depend on them.
     homepage: https://github.com/KryptosAI/mcp-observatory#readme
     topics:
       - agent-security
@@ -55,13 +62,17 @@ metadata:
       - schema-drift
       - security
       - supply-chain-security
-    last_checked_at: "2026-07-30T05:05:58.227Z"
+    last_checked_at: '2026-07-30T05:05:58.227Z'
     readme:
-      fetched_at: "2026-07-30T05:05:58.227Z"
+      fetched_at: '2026-07-30T05:05:58.227Z'
       bytes: 28875
 insights:
-  summary: CI-native security testing tool for MCP servers that performs attack simulation, schema drift detection, and health scoring.
-  why_it_matters: Developers can autonomously verify MCP server reliability, security, and schema stability before integrating them into agent workflows.
+  summary: >-
+    CI-native security testing tool for MCP servers that performs attack simulation, schema drift detection, and health
+    scoring.
+  why_it_matters: >-
+    Developers can autonomously verify MCP server reliability, security, and schema stability before integrating them
+    into agent workflows.
   mental_damage: Now your agents can test their own tools before the tools test your agents.
   tags:
     - mcp
@@ -72,31 +83,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: it is a dedicated MCP-first toolkit for testing and validating MCP servers, not just an adapter or compatibility feature."
+  reason: >-
+    MCP is the product identity: it is a dedicated MCP-first toolkit for testing and validating MCP servers, not just an
+    adapter or compatibility feature.
   evidence:
     - Repo description explicitly states 'CI-native security testing for MCP servers'
     - README emphasizes it is 'the first testing tool that is itself an MCP server'
     - Source-list context places it in MCP server collections
 placement:
   primary_category: mcp
-  section: Clients / Inspectors / Dev Tools
+  secondary_categories: []
+  section: Clients & Inspector Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (237) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.624Z"
+    updated_at: '2026-05-06T22:12:15.624Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:58.227Z"
+    updated_at: '2026-07-30T05:05:58.227Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:20.116Z"
+    updated_at: '2026-07-21T16:13:20.116Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -109,7 +123,9 @@ processing:
       input_hash: sha256:e232ed969bbc3442736a3a386d9d9f2b6b98ae8d6532a370a5f308b4008cbc86
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: it is a dedicated MCP-first toolkit for testing and validating MCP servers, not just an adapter or compatibility feature."
+      decision_reason: >-
+        MCP is the product identity: it is a dedicated MCP-first toolkit for testing and validating MCP servers, not
+        just an adapter or compatibility feature.
       decision_evidence:
         - Repo description explicitly states 'CI-native security testing for MCP servers'
         - README emphasizes it is 'the first testing tool that is itself an MCP server'
@@ -117,6 +133,8 @@ processing:
       category_candidates:
         - mcp
         - evals
-      contrastive_reason: Choose mcp over evals because the core identity is MCP infrastructure (testing MCP servers) rather than general model/prompt evaluation.
+      contrastive_reason: >-
+        Choose mcp over evals because the core identity is MCP infrastructure (testing MCP servers) rather than general
+        model/prompt evaluation.
       review_reason: null
       review_resume_lifecycle: null

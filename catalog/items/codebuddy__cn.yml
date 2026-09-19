@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__codebuddy__cn__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-07-21T15:20:21.961Z"
+      discovered_at: '2026-07-21T15:20:21.961Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -21,7 +21,7 @@ provenance:
         surrounding_text: 20. [CodeBuddy](https://copilot.tencent.com/)
         confidence: high
     - id: discovery__www__codebuddy__cn__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -51,8 +51,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Tencent Cloud's CodeBuddy is an AI coding assistant based on the Hunyuan code model, offering technical dialogue, code completion, code diagnosis, and optimization.
-  why_it_matters: It helps developers generate high-quality code, solve technical problems, and improve coding efficiency through AI-powered assistance.
+  summary: >-
+    Tencent Cloud's CodeBuddy is an AI coding assistant based on the Hunyuan code model, offering technical dialogue,
+    code completion, code diagnosis, and optimization.
+  why_it_matters: >-
+    It helps developers generate high-quality code, solve technical problems, and improve coding efficiency through
+    AI-powered assistance.
   mental_damage: Another day, another cloud giant offering to finish your code while you wonder if it’ll also finish your career.
   tags:
     - coding-assistant
@@ -63,21 +67,24 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: CodeBuddy is a standalone AI coding assistant that directly provides code generation, completion, and optimization, fitting the primary identity of a coding agent.
+  reason: >-
+    CodeBuddy is a standalone AI coding assistant that directly provides code generation, completion, and optimization,
+    fitting the primary identity of a coding agent.
   evidence:
     - Described as a '辅助编码工具' (coding assistant tool) with code completion, diagnosis, and optimization capabilities
     - Based on Tencent's Hunyuan code model, positioned as a primary assistant for developers
     - Listed in a curated LLM resources directory under the '代码 Coding' section
 placement:
   primary_category: coding-agents
-  section: IDE-Native Assistants
+  secondary_categories: []
+  section: IDE-Native & Editor Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-21T15:33:13.052Z"
+    updated_at: '2026-07-21T15:33:13.052Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -90,7 +97,9 @@ processing:
       input_hash: sha256:1f366e70d2cfaedd87a4f674d3b170cbde757904c66bb5edb35b289bbd2911d1
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: CodeBuddy is a standalone AI coding assistant that directly provides code generation, completion, and optimization, fitting the primary identity of a coding agent.
+      decision_reason: >-
+        CodeBuddy is a standalone AI coding assistant that directly provides code generation, completion, and
+        optimization, fitting the primary identity of a coding agent.
       decision_evidence:
         - Described as a '辅助编码工具' (coding assistant tool) with code completion, diagnosis, and optimization capabilities
         - Based on Tencent's Hunyuan code model, positioned as a primary assistant for developers
@@ -98,12 +107,14 @@ processing:
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because CodeBuddy is presented as a primary coding assistant rather than an extension augmenting another tool.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because CodeBuddy is presented as a primary coding assistant rather
+        than an extension augmenting another tool.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-21T15:20:21.964Z"
+    updated_at: '2026-07-21T15:20:21.964Z'
     cause: null
     next_retry_at: null
   stars:

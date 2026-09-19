@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__8randonpickart5__alderpost-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: 8randonpickart5/alderpost-mcp
         extracted_url: https://github.com/8randonpickart5/alderpost-mcp
-        surrounding_text: "- [8randonpickart5/alderpost-mcp](https://github.com/8randonpickart5/alderpost-mcp) [![alderpost-mcp MCP server](https://glama.ai/mcp/servers/8randonpickart5/alderpost-mcp/badges/score.svg)](https://glama.ai/mcp/servers/8randonpickart5/alderpost-mcp) 📇 ☁️ - 8 bundled intelligence endpoints (security, company, threat, compliance, sales, sports, property, health) via x402 micropayments on Base."
+        surrounding_text: >-
+          - [8randonpickart5/alderpost-mcp](https://github.com/8randonpickart5/alderpost-mcp) [![alderpost-mcp MCP
+          server](https://glama.ai/mcp/servers/8randonpickart5/alderpost-mcp/badges/score.svg)](https://glama.ai/mcp/servers/8randonpickart5/alderpost-mcp)
+          📇 ☁️ - 8 bundled intelligence endpoints (security, company, threat, compliance, sales, sports, property,
+          health) via x402 micropayments on Base.
         confidence: high
 metadata:
   github:
@@ -30,19 +34,23 @@ metadata:
     archived: false
     full_name: 8randonpickart5/alderpost-mcp
     html_url: https://github.com/8randonpickart5/alderpost-mcp
-    created_at: "2026-04-08T14:38:41Z"
-    pushed_at: "2026-04-21T20:23:36Z"
+    created_at: '2026-04-08T14:38:41Z'
+    pushed_at: '2026-04-21T20:23:36Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:27.029Z"
+    last_checked_at: '2026-09-17T04:13:27.029Z'
     readme:
-      fetched_at: "2026-09-17T04:13:27.029Z"
+      fetched_at: '2026-09-17T04:13:27.029Z'
       bytes: 2124
 insights:
   summary: An MCP server providing access to Alderpost Intelligence API endpoints for domain, company, and threat intelligence.
-  why_it_matters: It enables LLM assistants to perform complex data lookups (like security scans and company profiling) through a single, pay-per-call interface.
-  mental_damage: Your coding assistant can now research a company's revenue and malware status while you're still trying to figure out why your local environment is broken.
+  why_it_matters: >-
+    It enables LLM assistants to perform complex data lookups (like security scans and company profiling) through a
+    single, pay-per-call interface.
+  mental_damage: >-
+    Your coding assistant can now research a company's revenue and malware status while you're still trying to figure
+    out why your local environment is broken.
   tags:
     - mcp
     - intelligence-api
@@ -58,24 +66,25 @@ curation:
     - Compatible with Claude Desktop and Cursor via MCP config
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.598Z"
+    updated_at: '2026-05-06T22:12:15.598Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:27.029Z"
+    updated_at: '2026-09-17T04:13:27.029Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:51:55.465Z"
+    updated_at: '2026-07-20T15:51:55.465Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -88,7 +97,9 @@ processing:
       input_hash: sha256:6f06c1971f1efb11147ed32a610c907dfbba2088adb6c42ecf78e65017cadc72
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The tool is explicitly an MCP server designed to provide specific domain-driven intelligence tools to an MCP host.
+      decision_reason: >-
+        The tool is explicitly an MCP server designed to provide specific domain-driven intelligence tools to an MCP
+        host.
       decision_evidence:
         - README identifies it as 'MCP server for Alderpost Intelligence API'
         - Provides specific intelligence endpoints like domain_shield and company_xray
@@ -96,6 +107,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's identity is an MCP server implementation rather than a generic integration for another editor.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's identity is an MCP server implementation rather than a
+        generic integration for another editor.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bakks__butterfish__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,7 +19,7 @@ provenance:
           - CLI Tools
         anchor_text: Butterfish
         extracted_url: https://butterfi.sh
-        surrounding_text: "- **[Butterfish](https://butterfi.sh)** – AI tool for enhancing shell productivity with natural language."
+        surrounding_text: '- **[Butterfish](https://butterfi.sh)** – AI tool for enhancing shell productivity with natural language.'
         confidence: high
 metadata:
   github:
@@ -29,18 +29,20 @@ metadata:
     archived: false
     full_name: bakks/butterfish
     html_url: https://github.com/bakks/butterfish
-    created_at: "2023-01-10T05:27:13Z"
-    pushed_at: "2026-06-03T10:25:59Z"
+    created_at: '2023-01-10T05:27:13Z'
+    pushed_at: '2026-06-03T10:25:59Z'
     description: A shell with AI superpowers
     homepage: https://butterfi.sh
     topics: []
-    last_checked_at: "2026-09-07T04:13:30.907Z"
+    last_checked_at: '2026-09-07T04:13:30.907Z'
     readme:
-      fetched_at: "2026-09-07T04:13:30.907Z"
+      fetched_at: '2026-09-07T04:13:30.907Z'
       bytes: 23404
 insights:
   summary: A shell with AI superpowers that integrates OpenAI to provide contextual command-line assistance.
-  why_it_matters: It brings AI-driven command suggestions, debugging, and contextual help directly into the terminal workflow for developers.
+  why_it_matters: >-
+    It brings AI-driven command suggestions, debugging, and contextual help directly into the terminal workflow for
+    developers.
   mental_damage: Now you can ask your shell why your last command failed, because apparently typing `man` is too 2023.
   tags:
     - cli
@@ -51,13 +53,18 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a primary coding assistant that operates in the terminal, directly helping developers with shell commands, debugging, and contextual queries.
+  reason: >-
+    It is a primary coding assistant that operates in the terminal, directly helping developers with shell commands,
+    debugging, and contextual queries.
   evidence:
-    - "Repo description: 'A shell with AI superpowers'"
-    - "README: 'Butterfish is for people who work from the command line, it adds AI prompting to your shell (bash, zsh) with OpenAI. Think Github Copilot for shell.'"
-    - "Source-list context: Listed in awesome-ai-coding-tools under CLI Tools"
+    - 'Repo description: ''A shell with AI superpowers'''
+    - >-
+      README: 'Butterfish is for people who work from the command line, it adds AI prompting to your shell (bash, zsh)
+      with OpenAI. Think Github Copilot for shell.'
+    - 'Source-list context: Listed in awesome-ai-coding-tools under CLI Tools'
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -65,17 +72,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.604Z"
+    updated_at: '2026-05-06T22:12:15.604Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:30.907Z"
+    updated_at: '2026-09-07T04:13:30.907Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:25:20.395Z"
+    updated_at: '2026-07-21T15:25:20.395Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -88,14 +95,20 @@ processing:
       input_hash: sha256:bedd4a9c4383f429efea60fa2c0c76584e1f73ccd89c42e36c269a19fcb32a1c
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: It is a primary coding assistant that operates in the terminal, directly helping developers with shell commands, debugging, and contextual queries.
+      decision_reason: >-
+        It is a primary coding assistant that operates in the terminal, directly helping developers with shell commands,
+        debugging, and contextual queries.
       decision_evidence:
-        - "Repo description: 'A shell with AI superpowers'"
-        - "README: 'Butterfish is for people who work from the command line, it adds AI prompting to your shell (bash, zsh) with OpenAI. Think Github Copilot for shell.'"
-        - "Source-list context: Listed in awesome-ai-coding-tools under CLI Tools"
+        - 'Repo description: ''A shell with AI superpowers'''
+        - >-
+          README: 'Butterfish is for people who work from the command line, it adds AI prompting to your shell (bash,
+          zsh) with OpenAI. Think Github Copilot for shell.'
+        - 'Source-list context: Listed in awesome-ai-coding-tools under CLI Tools'
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because Butterfish is a standalone terminal agent, not an extension augmenting another assistant or editor.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because Butterfish is a standalone terminal agent, not an extension
+        augmenting another assistant or editor.
       review_reason: null
       review_resume_lifecycle: null

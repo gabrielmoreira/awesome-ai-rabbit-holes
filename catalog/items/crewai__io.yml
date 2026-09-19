@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__crewai__io__awesome-list__janhq__awesome-local-ai
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,7 +18,7 @@ provenance:
           - Agents
         anchor_text: CrewAI
         extracted_url: https://crewai.io
-        surrounding_text: "- [CrewAI](https://crewai.io) - Cutting-edge framework for orchestrating role-playing, autonomous AI agents."
+        surrounding_text: '- [CrewAI](https://crewai.io) - Cutting-edge framework for orchestrating role-playing, autonomous AI agents.'
         confidence: high
 metadata:
   github:
@@ -37,8 +37,12 @@ metadata:
     readme: null
 insights:
   summary: An open-source multi-agent orchestration framework for building collaborative AI workflows.
-  why_it_matters: It enables developers to move beyond single-prompt interactions by coordinating multiple specialized agents to handle complex, multi-step tasks.
-  mental_damage: Now you can replace one unmanageable LLM prompt with a chaotic committee of specialized agents that might still hallucinate in unison.
+  why_it_matters: >-
+    It enables developers to move beyond single-prompt interactions by coordinating multiple specialized agents to
+    handle complex, multi-step tasks.
+  mental_damage: >-
+    Now you can replace one unmanageable LLM prompt with a chaotic committee of specialized agents that might still
+    hallucinate in unison.
   tags:
     - multi-agent
     - orchestration
@@ -48,20 +52,23 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: CrewAI is a code-first framework used to script and program multi-agent workflows, rather than an operated control plane.
+  reason: >-
+    CrewAI is a code-first framework used to script and program multi-agent workflows, rather than an operated control
+    plane.
   evidence:
     - Included in awesome-local-ai for Agents
     - Brand identity centers on multi-agent orchestration through programming
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  secondary_categories: []
+  section: Multi-Agent Systems
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.660Z"
+    updated_at: '2026-05-06T22:12:15.660Z'
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:34:37.045Z"
+    updated_at: '2026-07-20T15:34:37.045Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -83,13 +90,17 @@ processing:
       input_hash: sha256:4b1685efb216c4acbdca227f573f4e42e36f50bf06192cea118dd119f449f5f6
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: CrewAI is a code-first framework used to script and program multi-agent workflows, rather than an operated control plane.
+      decision_reason: >-
+        CrewAI is a code-first framework used to script and program multi-agent workflows, rather than an operated
+        control plane.
       decision_evidence:
         - Included in awesome-local-ai for Agents
         - Brand identity centers on multi-agent orchestration through programming
       category_candidates:
         - ai-frameworks
         - agent-orchestration
-      contrastive_reason: Choose ai-frameworks over agent-orchestration because developers primarily import and script against it as a library/SDK to build their own systems.
+      contrastive_reason: >-
+        Choose ai-frameworks over agent-orchestration because developers primarily import and script against it as a
+        library/SDK to build their own systems.
       review_reason: null
       review_resume_lifecycle: null

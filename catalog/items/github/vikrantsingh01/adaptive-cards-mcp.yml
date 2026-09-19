@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__vikrantsingh01__adaptive-cards-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: VikrantSingh01/adaptive-cards-mcp
         extracted_url: https://github.com/vikrantsingh01/adaptive-cards-mcp
-        surrounding_text: "- [VikrantSingh01/adaptive-cards-mcp](https://github.com/VikrantSingh01/adaptive-cards-mcp) [![adaptive-cards-mcp MCP server](https://glama.ai/mcp/servers/VikrantSingh01/adaptive-cards-mcp/badges/score.svg)](https://glama.ai/mcp/servers/VikrantSingh01/adaptive-cards-mcp) 📇 🏠 ☁️ 🍎 🪟 🐧 - AI-powered Adaptive Card generation for Teams, Outlook, Copilot, and ChatGPT. 9 MCP tools for generating, validating, optimizing, templating, and transforming cards with accessibility scoring and host compatibility checks."
+        surrounding_text: >-
+          - [VikrantSingh01/adaptive-cards-mcp](https://github.com/VikrantSingh01/adaptive-cards-mcp)
+          [![adaptive-cards-mcp MCP
+          server](https://glama.ai/mcp/servers/VikrantSingh01/adaptive-cards-mcp/badges/score.svg)](https://glama.ai/mcp/servers/VikrantSingh01/adaptive-cards-mcp)
+          📇 🏠 ☁️ 🍎 🪟 🐧 - AI-powered Adaptive Card generation for Teams, Outlook, Copilot, and ChatGPT. 9 MCP tools
+          for generating, validating, optimizing, templating, and transforming cards with accessibility scoring and host
+          compatibility checks.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: VikrantSingh01/adaptive-cards-mcp
     html_url: https://github.com/VikrantSingh01/adaptive-cards-mcp
-    created_at: "2026-03-15T05:35:27Z"
-    pushed_at: "2026-06-20T05:08:35Z"
-    description: "AI-powered Adaptive Card MCP server — 9 tools for generating, validating, optimizing cards for Teams, Outlook, Copilot, ChatGPT. npm: adaptive-cards-mcp"
+    created_at: '2026-03-15T05:35:27Z'
+    pushed_at: '2026-06-20T05:08:35Z'
+    description: >-
+      AI-powered Adaptive Card MCP server — 9 tools for generating, validating, optimizing cards for Teams, Outlook,
+      Copilot, ChatGPT. npm: adaptive-cards-mcp
     homepage: https://www.npmjs.com/package/adaptive-cards-mcp
     topics:
       - adaptive-card
@@ -55,14 +63,20 @@ metadata:
       - typescript
       - vscode
       - windsurf
-    last_checked_at: "2026-07-21T15:21:05.568Z"
+    last_checked_at: '2026-07-21T15:21:05.568Z'
     readme:
-      fetched_at: "2026-07-21T15:21:05.568Z"
+      fetched_at: '2026-07-21T15:21:05.568Z'
       bytes: 19211
 insights:
-  summary: An MCP server exposing nine tools for generating, validating, and optimizing Microsoft Adaptive Cards for Teams, Outlook, Copilot, and ChatGPT.
-  why_it_matters: Eliminates manual JSON templating for Microsoft 365 bot interfaces by letting developers generate validated, accessible Adaptive Cards through natural language prompts in their existing coding assistants.
-  mental_damage: Brings 924 tests and zero competitors to the previously unsolved problem of making AI generate Microsoft Teams cards that won't render as blank rectangles in Outlook.
+  summary: >-
+    An MCP server exposing nine tools for generating, validating, and optimizing Microsoft Adaptive Cards for Teams,
+    Outlook, Copilot, and ChatGPT.
+  why_it_matters: >-
+    Eliminates manual JSON templating for Microsoft 365 bot interfaces by letting developers generate validated,
+    accessible Adaptive Cards through natural language prompts in their existing coding assistants.
+  mental_damage: >-
+    Brings 924 tests and zero competitors to the previously unsolved problem of making AI generate Microsoft Teams cards
+    that won't render as blank rectangles in Outlook.
   tags:
     - mcp-server
     - adaptive-cards
@@ -72,31 +86,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: This is fundamentally an MCP server implementation whose entire product identity is providing domain-specific tools (Adaptive Card generation) via the Model Context Protocol, fitting cleanly into Domain Servers.
+  reason: >-
+    This is fundamentally an MCP server implementation whose entire product identity is providing domain-specific tools
+    (Adaptive Card generation) via the Model Context Protocol, fitting cleanly into Domain Servers.
   evidence:
     - Repo description explicitly identifies as 'AI-powered Adaptive Card MCP server' with MCP as the core protocol
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools, confirming community categorization as MCP infrastructure
-    - README provides MCP configuration snippets for Claude Code, Copilot, Cursor, Windsurf, and Copilot Studio, demonstrating it is infrastructure for those hosts rather than a standalone assistant
+    - >-
+      Listed in awesome-mcp-servers under Server Implementations > Developer Tools, confirming community categorization
+      as MCP infrastructure
+    - >-
+      README provides MCP configuration snippets for Claude Code, Copilot, Cursor, Windsurf, and Copilot Studio,
+      demonstrating it is infrastructure for those hosts rather than a standalone assistant
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.654Z"
+    updated_at: '2026-05-06T22:12:15.654Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:05.568Z"
+    updated_at: '2026-07-21T15:21:05.568Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-18T05:32:16.277Z"
+    updated_at: '2026-05-18T05:32:16.277Z'
     cause: null
     next_retry_at: null
     attempts: 3

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agencyswarm__claii__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - Open Source
         anchor_text: CLAII
         extracted_url: https://github.com/agencyswarm/claii
-        surrounding_text: "- **[CLAII](https://github.com/agencyswarm/CLAII)** `⭐ 2` — CLI-first AI coding agent with multi-agent orchestration, MCP toolchains, and memory-persistent refactors."
+        surrounding_text: >-
+          - **[CLAII](https://github.com/agencyswarm/CLAII)** `⭐ 2` — CLI-first AI coding agent with multi-agent
+          orchestration, MCP toolchains, and memory-persistent refactors.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,27 @@ metadata:
     archived: false
     full_name: agencyswarm/CLAII
     html_url: https://github.com/agencyswarm/CLAII
-    created_at: "2025-11-15T09:47:51Z"
-    pushed_at: "2025-11-17T06:09:53Z"
-    description: CLAII = CLI AI Agent for coding. CLAII is a terminal-native AI pair-programmer with multi-agent orchestration, MCP toolchains, and context-aware, memory-persistent refactors across your codebase.
+    created_at: '2025-11-15T09:47:51Z'
+    pushed_at: '2025-11-17T06:09:53Z'
+    description: >-
+      CLAII = CLI AI Agent for coding. CLAII is a terminal-native AI pair-programmer with multi-agent orchestration, MCP
+      toolchains, and context-aware, memory-persistent refactors across your codebase.
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:31.285Z"
+    last_checked_at: '2026-09-17T04:13:31.285Z'
     readme:
-      fetched_at: "2026-09-17T04:13:31.285Z"
+      fetched_at: '2026-09-17T04:13:31.285Z'
       bytes: 13425
 insights:
-  summary: A terminal-native AI coding agent that uses an agentic loop to inspect, edit, and execute code within a sandboxed directory.
-  why_it_matters: It provides a lightweight, command-line driven alternative to heavy IDE integrations, focusing on autonomous task completion through file system and Python execution tools.
-  mental_damage: Another terminal loop to watch while you question if you're actually writing code or just supervising a highly caffeinated script.
+  summary: >-
+    A terminal-native AI coding agent that uses an agentic loop to inspect, edit, and execute code within a sandboxed
+    directory.
+  why_it_matters: >-
+    It provides a lightweight, command-line driven alternative to heavy IDE integrations, focusing on autonomous task
+    completion through file system and Python execution tools.
+  mental_damage: >-
+    Another terminal loop to watch while you question if you're actually writing code or just supervising a highly
+    caffeinated script.
   tags:
     - cli
     - coding-agent
@@ -52,13 +62,16 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a standalone, primary coding assistant operating via a CLI/terminal interface rather than an extension for another editor.
+  reason: >-
+    It is a standalone, primary coding assistant operating via a CLI/terminal interface rather than an extension for
+    another editor.
   evidence:
     - Repo description identifies it as a 'CLI AI Agent for coding'
     - README defines capabilities like reading/writing files and running Python code in a loop
     - Positioned as a standalone agent with its own entrypoint and core loop
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: incubating
@@ -66,17 +79,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.599Z"
+    updated_at: '2026-05-06T22:12:15.599Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:31.285Z"
+    updated_at: '2026-09-17T04:13:31.285Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:59:32.753Z"
+    updated_at: '2026-07-20T15:59:32.753Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -89,7 +102,9 @@ processing:
       input_hash: sha256:fa10433f7fe781ae569e7dc657a1bb625284de61eee77371c5120c7037e749c2
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: It is a standalone, primary coding assistant operating via a CLI/terminal interface rather than an extension for another editor.
+      decision_reason: >-
+        It is a standalone, primary coding assistant operating via a CLI/terminal interface rather than an extension for
+        another editor.
       decision_evidence:
         - Repo description identifies it as a 'CLI AI Agent for coding'
         - README defines capabilities like reading/writing files and running Python code in a loop
@@ -97,6 +112,8 @@ processing:
       category_candidates:
         - coding-agents
         - agent-orchestration
-      contrastive_reason: Choose coding-agents over agent-orchestration because the tool is presented as a direct coding assistant for editing a repo rather than a multi-agent control plane.
+      contrastive_reason: >-
+        Choose coding-agents over agent-orchestration because the tool is presented as a direct coding assistant for
+        editing a repo rather than a multi-agent control plane.
       review_reason: null
       review_resume_lifecycle: null

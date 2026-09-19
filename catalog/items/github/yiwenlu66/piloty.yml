@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__yiwenlu66__piloty__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: yiwenlu66/PiloTY
         extracted_url: https://github.com/yiwenlu66/piloty
-        surrounding_text: "- [yiwenlu66/PiloTY](https://github.com/yiwenlu66/PiloTY) 🐍 🏠 - AI pilot for PTY operations enabling agents to control interactive terminals with stateful sessions, SSH connections, and background process management"
+        surrounding_text: >-
+          - [yiwenlu66/PiloTY](https://github.com/yiwenlu66/PiloTY) 🐍 🏠 - AI pilot for PTY operations enabling agents
+          to control interactive terminals with stateful sessions, SSH connections, and background process management
         confidence: high
     - id: discovery__github__yiwenlu66__piloty__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +37,9 @@ provenance:
           - Community Servers
         anchor_text: PiloTY
         extracted_url: https://github.com/yiwenlu66/piloty
-        surrounding_text: "- **[PiloTY](https://github.com/yiwenlu66/PiloTY)** - AI pilot for PTY operations that enables agents to control interactive terminals with stateful sessions, SSH connections, and background process management"
+        surrounding_text: >-
+          - **[PiloTY](https://github.com/yiwenlu66/PiloTY)** - AI pilot for PTY operations that enables agents to
+          control interactive terminals with stateful sessions, SSH connections, and background process management
         confidence: high
 metadata:
   github:
@@ -45,9 +49,9 @@ metadata:
     archived: false
     full_name: yiwenlu66/PiloTY
     html_url: https://github.com/yiwenlu66/PiloTY
-    created_at: "2025-06-28T09:24:45Z"
-    pushed_at: "2026-04-23T11:58:58Z"
-    description: "PiloTY: AI pilot for PTY operations via MCP - enables AI agents to control interactive terminals like a human"
+    created_at: '2025-06-28T09:24:45Z'
+    pushed_at: '2026-04-23T11:58:58Z'
+    description: 'PiloTY: AI pilot for PTY operations via MCP - enables AI agents to control interactive terminals like a human'
     homepage: null
     topics:
       - ai-agent
@@ -60,13 +64,15 @@ metadata:
       - shell
       - ssh
       - terminal
-    last_checked_at: "2026-07-21T15:21:21.052Z"
+    last_checked_at: '2026-07-21T15:21:21.052Z'
     readme:
-      fetched_at: "2026-07-21T15:21:21.052Z"
+      fetched_at: '2026-07-21T15:21:21.052Z'
       bytes: 6392
 insights:
   summary: PiloTY is an MCP server that provides AI agents with persistent, interactive terminal sessions via PTY.
-  why_it_matters: It lets agents maintain state across tool calls—like environment variables, SSH logins, or running processes—enabling reliable automation of interactive terminal workflows.
+  why_it_matters: >-
+    It lets agents maintain state across tool calls—like environment variables, SSH logins, or running
+    processes—enabling reliable automation of interactive terminal workflows.
   mental_damage: Finally, an AI that won’t forget it’s mid-ssh-session when you step away to grab coffee.
   tags:
     - mcp
@@ -77,31 +83,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: PiloTY is an MCP server whose core identity is providing PTY-based terminal access as an MCP service, making MCP the primary product identity rather than a mere integration feature.
+  reason: >-
+    PiloTY is an MCP server whose core identity is providing PTY-based terminal access as an MCP service, making MCP the
+    primary product identity rather than a mere integration feature.
   evidence:
-    - "Repo description: 'PiloTY: AI pilot for PTY operations via MCP - enables AI agents to control interactive terminals like a human'"
-    - "README: 'PiloTY (PTY for your AI Copilot) is an MCP server that gives an agent a persistent, interactive terminal'"
+    - >-
+      Repo description: 'PiloTY: AI pilot for PTY operations via MCP - enables AI agents to control interactive
+      terminals like a human'
+    - 'README: ''PiloTY (PTY for your AI Copilot) is an MCP server that gives an agent a persistent, interactive terminal'''
     - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools' and 'Community Servers'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.596Z"
+    updated_at: '2026-05-06T22:12:15.596Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:21.052Z"
+    updated_at: '2026-07-21T15:21:21.052Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:45:06.753Z"
+    updated_at: '2026-05-12T15:45:06.753Z'
     cause: null
     next_retry_at: null
     attempts: 1

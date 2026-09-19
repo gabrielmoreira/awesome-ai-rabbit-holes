@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dinosaur24__mockhero__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: mockherodev/mcp-server
         extracted_url: https://github.com/dinosaur24/mockhero
-        surrounding_text: "- [mockherodev/mcp-server](https://github.com/dinosaur24/mockhero/tree/main/packages/mcp-server) [![mockhero MCP server](https://glama.ai/mcp/servers/dinosaur24/mockhero/badges/score.svg)](https://glama.ai/mcp/servers/dinosaur24/mockhero) 🏠 - Generate realistic synthetic test data via MCP. 156 field types, 22 locales, relational data, sub-50ms responses. Free tier: 1,000 records/day."
+        surrounding_text: >-
+          - [mockherodev/mcp-server](https://github.com/dinosaur24/mockhero/tree/main/packages/mcp-server) [![mockhero
+          MCP
+          server](https://glama.ai/mcp/servers/dinosaur24/mockhero/badges/score.svg)](https://glama.ai/mcp/servers/dinosaur24/mockhero)
+          🏠 - Generate realistic synthetic test data via MCP. 156 field types, 22 locales, relational data, sub-50ms
+          responses. Free tier: 1,000 records/day.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: dinosaur24/mockhero
     html_url: https://github.com/dinosaur24/mockhero
-    created_at: "2026-03-21T18:22:45Z"
-    pushed_at: "2026-07-09T17:14:04Z"
+    created_at: '2026-03-21T18:22:45Z'
+    pushed_at: '2026-07-09T17:14:04Z'
     description: null
     homepage: https://mockhero.dev
     topics:
@@ -47,13 +52,15 @@ metadata:
       - test-data
       - testing
       - typescript
-    last_checked_at: "2026-09-14T04:13:40.932Z"
+    last_checked_at: '2026-09-14T04:13:40.932Z'
     readme:
-      fetched_at: "2026-09-14T04:13:40.932Z"
+      fetched_at: '2026-09-14T04:13:40.932Z'
       bytes: 3311
 insights:
   summary: Synthetic test data API that generates realistic, relational data for any database schema, with MCP server support.
-  why_it_matters: Developers can seed databases with production-like test data via schema, prompts, or templates, reducing manual fixture work.
+  why_it_matters: >-
+    Developers can seed databases with production-like test data via schema, prompts, or templates, reducing manual
+    fixture work.
   mental_damage: Finally, a way to generate fake users who will never complain about your app.
   tags:
     - test-data
@@ -64,31 +71,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: it is explicitly positioned as an MCP server for AI agents, with the core functionality being a synthetic data API."
+  reason: >-
+    MCP is the product identity here: it is explicitly positioned as an MCP server for AI agents, with the core
+    functionality being a synthetic data API.
   evidence:
     - README explicitly lists MCP server as a core feature and provides setup instructions
     - Repo topics include 'mcp-server' and 'developer-tools'
     - Seen in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.611Z"
+    updated_at: '2026-05-06T22:12:15.611Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:40.932Z"
+    updated_at: '2026-09-14T04:13:40.932Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:04.695Z"
+    updated_at: '2026-07-21T15:51:04.695Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -101,7 +111,9 @@ processing:
       input_hash: sha256:c6b5eec78af52f05a2bb8a8ac517fbe6ef9cb6c3d633d460c056b54447523415
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: it is explicitly positioned as an MCP server for AI agents, with the core functionality being a synthetic data API."
+      decision_reason: >-
+        MCP is the product identity here: it is explicitly positioned as an MCP server for AI agents, with the core
+        functionality being a synthetic data API.
       decision_evidence:
         - README explicitly lists MCP server as a core feature and provides setup instructions
         - Repo topics include 'mcp-server' and 'developer-tools'
@@ -109,6 +121,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server for synthetic data generation, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server for synthetic data
+        generation, not merely an extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

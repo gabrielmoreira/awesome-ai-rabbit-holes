@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__rkocosmergon__cosmergon-agent__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: rkocosmergon/cosmergon-agent
         extracted_url: https://github.com/rkocosmergon/cosmergon-agent
-        surrounding_text: "- [rkocosmergon/cosmergon-agent](https://github.com/rkocosmergon/cosmergon-agent) [![rkocosmergon/cosmergon-agent MCP server](https://glama.ai/mcp/servers/rkocosmergon/cosmergon-agent/badges/score.svg)](https://glama.ai/mcp/servers/rkocosmergon/cosmergon-agent) 🐍 ☁️ - Living economy for AI agents — Conway's Game of Life physics, energy currency, marketplace. 4 tools: observe state, execute actions, benchmark reports, game rules. Auto-registers, no API key needed."
+        surrounding_text: >-
+          - [rkocosmergon/cosmergon-agent](https://github.com/rkocosmergon/cosmergon-agent)
+          [![rkocosmergon/cosmergon-agent MCP
+          server](https://glama.ai/mcp/servers/rkocosmergon/cosmergon-agent/badges/score.svg)](https://glama.ai/mcp/servers/rkocosmergon/cosmergon-agent)
+          🐍 ☁️ - Living economy for AI agents — Conway's Game of Life physics, energy currency, marketplace. 4 tools:
+          observe state, execute actions, benchmark reports, game rules. Auto-registers, no API key needed.
         confidence: high
 metadata:
   github:
@@ -30,19 +35,27 @@ metadata:
     archived: false
     full_name: rkocosmergon/cosmergon-agent
     html_url: https://github.com/rkocosmergon/cosmergon-agent
-    created_at: "2026-03-28T14:47:01Z"
-    pushed_at: "2026-07-13T17:44:25Z"
-    description: Python SDK + MCP server for Cosmergon — the toughest playground for AI agents. Conway physics, energy economy, marketplace, tournaments.
+    created_at: '2026-03-28T14:47:01Z'
+    pushed_at: '2026-07-13T17:44:25Z'
+    description: >-
+      Python SDK + MCP server for Cosmergon — the toughest playground for AI agents. Conway physics, energy economy,
+      marketplace, tournaments.
     homepage: https://cosmergon.com
     topics: []
-    last_checked_at: "2026-07-20T16:42:46.483Z"
+    last_checked_at: '2026-07-20T16:42:46.483Z'
     readme:
-      fetched_at: "2026-07-20T16:42:46.483Z"
+      fetched_at: '2026-07-20T16:42:46.483Z'
       bytes: 14256
 insights:
-  summary: A Python SDK and MCP server for deploying and managing autonomous AI agents that participate in a tick-based Conway's Game of Life economy with energy currency and marketplace trading.
-  why_it_matters: Developers can script agents using an SDK, run them as NPCs in a persistent multiplayer economy, and connect them to coding assistants via MCP tools for observation and benchmarking.
-  mental_damage: We have finally reached the point where AI agents can earn passive income through referral codes in a simulated Conway's Game of Life economy while you manually debug a null pointer at 2am.
+  summary: >-
+    A Python SDK and MCP server for deploying and managing autonomous AI agents that participate in a tick-based
+    Conway's Game of Life economy with energy currency and marketplace trading.
+  why_it_matters: >-
+    Developers can script agents using an SDK, run them as NPCs in a persistent multiplayer economy, and connect them to
+    coding assistants via MCP tools for observation and benchmarking.
+  mental_damage: >-
+    We have finally reached the point where AI agents can earn passive income through referral codes in a simulated
+    Conway's Game of Life economy while you manually debug a null pointer at 2am.
   tags:
     - agents
     - mcp
@@ -52,35 +65,39 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: This is primarily a code-first Python SDK for building and scripting agents in a game economy, with MCP as a secondary integration feature.
+  reason: >-
+    This is primarily a code-first Python SDK for building and scripting agents in a game economy, with MCP as a
+    secondary integration feature.
   evidence:
     - README identifies it as 'the Python SDK' with programmatic @agent.on_tick hooks and SDK install via pip.
     - MCP server is presented as a secondary feature to use Cosmergon as tools from Claude Code, Cursor, or Windsurf.
-    - Developer-facing features include full type hints, test utilities (fake_state, FakeTransport), and credential management for multi-agent setups.
+    - >-
+      Developer-facing features include full type hints, test utilities (fake_state, FakeTransport), and credential
+      management for multi-agent setups.
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  section: LLM & Agent SDKs
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.645Z"
+    updated_at: '2026-05-06T22:12:15.645Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:46.483Z"
+    updated_at: '2026-07-20T16:42:46.483Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: '2026-09-17T04:13:49.720Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

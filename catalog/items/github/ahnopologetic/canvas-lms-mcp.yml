@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ahnopologetic__canvas-lms-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Community Servers
         anchor_text: Canvas LMS
         extracted_url: https://github.com/ahnopologetic/canvas-lms-mcp
-        surrounding_text: "- **[Canvas LMS](https://github.com/ahnopologetic/canvas-lms-mcp)** - MCP server for easy access to education data through your Canvas LMS instance."
+        surrounding_text: >-
+          - **[Canvas LMS](https://github.com/ahnopologetic/canvas-lms-mcp)** - MCP server for easy access to education
+          data through your Canvas LMS instance.
         confidence: high
 metadata:
   github:
@@ -29,18 +31,20 @@ metadata:
     archived: false
     full_name: ahnopologetic/canvas-lms-mcp
     html_url: https://github.com/ahnopologetic/canvas-lms-mcp
-    created_at: "2025-04-12T15:45:04Z"
-    pushed_at: "2026-02-21T14:49:11Z"
+    created_at: '2025-04-12T15:45:04Z'
+    pushed_at: '2026-02-21T14:49:11Z'
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-17T04:13:34.886Z"
+    last_checked_at: '2026-09-17T04:13:34.886Z'
     readme:
-      fetched_at: "2026-09-17T04:13:34.886Z"
+      fetched_at: '2026-09-17T04:13:34.886Z'
       bytes: 10489
 insights:
   summary: An MCP server that provides AI assistants access to Canvas LMS data like courses, assignments, and grades.
-  why_it_matters: It allows developers or educators to use AI models to query educational data, track assignments, and manage course information via standard protocols.
+  why_it_matters: >-
+    It allows developers or educators to use AI models to query educational data, track assignments, and manage course
+    information via standard protocols.
   mental_damage: Now your LLM can haunt your academic performance by summarizing exactly how many assignments you've missed.
   tags:
     - mcp
@@ -57,24 +61,24 @@ curation:
     - Provides specific data access for courses, assignments, and grades via MCP
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.600Z"
+    updated_at: '2026-05-06T22:12:15.600Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:34.886Z"
+    updated_at: '2026-09-17T04:13:34.886Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:06:46.477Z"
+    updated_at: '2026-07-20T16:06:46.477Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -87,13 +91,17 @@ processing:
       input_hash: sha256:e0e03cd818c9a7fe050d1f7160f651d28ea0912e6821b226046a63efb4f110fa
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The project's identity is explicitly an MCP server designed to bridge a specific domain (Canvas LMS) to AI clients.
+      decision_reason: >-
+        The project's identity is explicitly an MCP server designed to bridge a specific domain (Canvas LMS) to AI
+        clients.
       decision_evidence:
         - README explicitly defines it as a 'Canvas LMS MCP Server'
         - Provides specific data access for courses, assignments, and grades via MCP
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is a specialized MCP server rather than a generic IDE integration.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is a specialized MCP server rather than a
+        generic IDE integration.
       review_reason: null
       review_resume_lifecycle: null

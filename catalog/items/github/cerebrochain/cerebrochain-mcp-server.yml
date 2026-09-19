@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cerebrochain__cerebrochain-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🛒 <a name="e-commerce"></a>E-Commerce
         anchor_text: OFODevelopment/cerebrochain-mcp-server
         extracted_url: https://github.com/ofodevelopment/cerebrochain-mcp-server
-        surrounding_text: "- [OFODevelopment/cerebrochain-mcp-server](https://github.com/OFODevelopment/cerebrochain-mcp-server) [![OFODevelopment/cerebrochain-mcp-server MCP server](https://glama.ai/mcp/servers/OFODevelopment/cerebrochain-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/OFODevelopment/cerebrochain-mcp-server) 📇 ☁️ - Supply chain & logistics intelligence — rate shopping across 85+ carriers, inventory management, order tracking, fleet logistics, and AI-powered demand forecasting. 20 tools and 3 resources for warehouse and supply chain operations."
+        surrounding_text: >-
+          - [OFODevelopment/cerebrochain-mcp-server](https://github.com/OFODevelopment/cerebrochain-mcp-server)
+          [![OFODevelopment/cerebrochain-mcp-server MCP
+          server](https://glama.ai/mcp/servers/OFODevelopment/cerebrochain-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/OFODevelopment/cerebrochain-mcp-server)
+          📇 ☁️ - Supply chain & logistics intelligence — rate shopping across 85+ carriers, inventory management, order
+          tracking, fleet logistics, and AI-powered demand forecasting. 20 tools and 3 resources for warehouse and
+          supply chain operations.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: CerebroChain/cerebrochain-mcp-server
     html_url: https://github.com/CerebroChain/cerebrochain-mcp-server
-    created_at: "2026-04-03T01:18:59Z"
-    pushed_at: "2026-04-24T04:39:09Z"
-    description: The first logistics/WMS MCP server for AI agents. Live carrier rate shopping, inventory, orders, fleet tracking, AI forecasting. Remote OAuth 2.1 connector + npm stdio; free tier + prepaid credits.
+    created_at: '2026-04-03T01:18:59Z'
+    pushed_at: '2026-04-24T04:39:09Z'
+    description: >-
+      The first logistics/WMS MCP server for AI agents. Live carrier rate shopping, inventory, orders, fleet tracking,
+      AI forecasting. Remote OAuth 2.1 connector + npm stdio; free tier + prepaid credits.
     homepage: https://cerebrochain.com
     topics:
       - ai-agent
@@ -45,14 +53,20 @@ metadata:
       - warehouse-management
       - wms
       - x402
-    last_checked_at: "2026-09-07T04:13:42.800Z"
+    last_checked_at: '2026-09-07T04:13:42.800Z'
     readme:
-      fetched_at: "2026-09-07T04:13:42.800Z"
+      fetched_at: '2026-09-07T04:13:42.800Z'
       bytes: 3684
 insights:
-  summary: An MCP server providing logistics and warehouse management tools for AI agents, including shipping rate comparison, inventory tracking, and AI-powered forecasting.
-  why_it_matters: Developers can integrate supply chain and logistics capabilities into their AI agents via MCP, enabling workflows like real-time shipping rate comparisons or inventory management.
-  mental_damage: Now your AI agent can optimize delivery routes while you’re still trying to figure out how to optimize your own life.
+  summary: >-
+    An MCP server providing logistics and warehouse management tools for AI agents, including shipping rate comparison,
+    inventory tracking, and AI-powered forecasting.
+  why_it_matters: >-
+    Developers can integrate supply chain and logistics capabilities into their AI agents via MCP, enabling workflows
+    like real-time shipping rate comparisons or inventory management.
+  mental_damage: >-
+    Now your AI agent can optimize delivery routes while you’re still trying to figure out how to optimize your own
+    life.
   tags:
     - mcp
     - logistics
@@ -62,31 +76,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: MCP is the product identity here—a domain-specific server exposing logistics/WMS tools to AI agents via the Model Context Protocol.
+  reason: >-
+    MCP is the product identity here—a domain-specific server exposing logistics/WMS tools to AI agents via the Model
+    Context Protocol.
   evidence:
     - Repo description explicitly calls it an MCP server for AI agents
     - README details MCP server setup for Claude/Cursor and lists MCP tools/resources
     - Source-list context (awesome-mcp-servers) categorizes it under MCP server implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.607Z"
+    updated_at: '2026-05-06T22:12:15.607Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:42.800Z"
+    updated_at: '2026-09-07T04:13:42.800Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:41:15.415Z"
+    updated_at: '2026-07-21T15:41:15.415Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -99,7 +116,9 @@ processing:
       input_hash: sha256:ba739311559c7f2c4146a1530264f1edf2c186f9131bfba5fbd4390df1424712
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: MCP is the product identity here—a domain-specific server exposing logistics/WMS tools to AI agents via the Model Context Protocol.
+      decision_reason: >-
+        MCP is the product identity here—a domain-specific server exposing logistics/WMS tools to AI agents via the
+        Model Context Protocol.
       decision_evidence:
         - Repo description explicitly calls it an MCP server for AI agents
         - README details MCP server setup for Claude/Cursor and lists MCP tools/resources
@@ -107,6 +126,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain tools, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain tools, not an
+        extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

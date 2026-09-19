@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nex-crm__nex-as-a-skill__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Agent infrastructure
         anchor_text: Nex
         extracted_url: https://github.com/nex-crm/nex-as-a-skill
-        surrounding_text: "- **[Nex](https://github.com/nex-crm/nex-as-a-skill)** `⭐ 40` — Organizational context and memory for AI agents; connects email, Slack, CRM, and 100+ tools into one knowledge graph with a 60-tool MCP server (`npx @nex-ai/nex`) and persistent memory across agent sessions. MIT."
+        surrounding_text: >-
+          - **[Nex](https://github.com/nex-crm/nex-as-a-skill)** `⭐ 40` — Organizational context and memory for AI
+          agents; connects email, Slack, CRM, and 100+ tools into one knowledge graph with a 60-tool MCP server (`npx
+          @nex-ai/nex`) and persistent memory across agent sessions. MIT.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,12 @@ metadata:
     archived: false
     full_name: null
     html_url: null
-    created_at: "2026-02-04T13:42:10Z"
-    pushed_at: "2026-05-02T03:30:30Z"
-    description: Turn every AI agent session  into company intelligence. Nex silently unifies every AI agent conversation with your email, Slack, CRM, and 100+ tools into one knowledge graph. The more your team works, the smarter every agent gets.
+    created_at: '2026-02-04T13:42:10Z'
+    pushed_at: '2026-05-02T03:30:30Z'
+    description: >-
+      Turn every AI agent session  into company intelligence. Nex silently unifies every AI agent conversation with your
+      email, Slack, CRM, and 100+ tools into one knowledge graph. The more your team works, the smarter every agent
+      gets.
     homepage: https://nex.ai
     topics:
       - ai
@@ -47,14 +53,20 @@ metadata:
       - memory
       - nodejs
       - typescript
-    last_checked_at: "2026-05-06T22:45:31.816Z"
+    last_checked_at: '2026-05-06T22:45:31.816Z'
     readme:
-      fetched_at: "2026-05-06T22:45:31.816Z"
+      fetched_at: '2026-05-06T22:45:31.816Z'
       bytes: 10418
 insights:
-  summary: Nex is a knowledge graph and memory layer that unifies AI agent conversations across tools like Claude Code, Cursor, and Slack, distributed as a CLI and a set of slash commands, rules, and plugins for supported platforms.
-  why_it_matters: It lets teams persist and recall context across different AI coding assistants and workplace tools so agents get smarter the more the team works.
-  mental_damage: We have officially reached the point where your AI agents need their own CRM to remember who Maria Rodriguez is and why she has a Q3 budget.
+  summary: >-
+    Nex is a knowledge graph and memory layer that unifies AI agent conversations across tools like Claude Code, Cursor,
+    and Slack, distributed as a CLI and a set of slash commands, rules, and plugins for supported platforms.
+  why_it_matters: >-
+    It lets teams persist and recall context across different AI coding assistants and workplace tools so agents get
+    smarter the more the team works.
+  mental_damage: >-
+    We have officially reached the point where your AI agents need their own CRM to remember who Maria Rodriguez is and
+    why she has a Q3 budget.
   tags:
     - memory
     - context
@@ -64,37 +76,43 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The primary artifact is a reusable pack of skills, slash commands, and platform rules that teach agents how to use the Nex memory layer, which fits Agent Skills best; the underlying Nex platform is not the distributed artifact here.
+  reason: >-
+    The primary artifact is a reusable pack of skills, slash commands, and platform rules that teach agents how to use
+    the Nex memory layer, which fits Agent Skills best; the underlying Nex platform is not the distributed artifact
+    here.
   evidence:
     - Repo description and README position Nex as a knowledge graph and memory layer for AI agents.
-    - README shows the core content is slash commands in plugin-commands/, platform rules in platform-rules/, and plugins in platform-plugins/.
+    - >-
+      README shows the core content is slash commands in plugin-commands/, platform rules in platform-rules/, and
+      plugins in platform-plugins/.
     - Topics include context-engineering, mcp, memory, and developer-tools, aligning with skill/context distribution.
 placement:
-  primary_category: skills
-  section: Skill Packs & Libraries
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.632Z"
+    updated_at: '2026-05-06T22:12:15.632Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-07-23T05:09:44.998Z"
+    updated_at: '2026-07-23T05:09:44.998Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for nex-crm/nex-as-a-skill
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

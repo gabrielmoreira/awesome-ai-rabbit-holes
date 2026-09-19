@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__edobusy__agenthold__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: edobusy/agenthold
         extracted_url: https://github.com/edobusy/agenthold
-        surrounding_text: "- [edobusy/agenthold](https://github.com/edobusy/agenthold) [![agenthold MCP server](https://glama.ai/mcp/servers/edobusy/agenthold/badges/score.svg)](https://glama.ai/mcp/servers/edobusy/agenthold) 🐍 🏠 🍎 🪟 🐧 - Shared versioned state store with optimistic concurrency control for coordinating concurrent AI agents. SQLite-backed claim/release locks and append-only audit log."
+        surrounding_text: >-
+          - [edobusy/agenthold](https://github.com/edobusy/agenthold) [![agenthold MCP
+          server](https://glama.ai/mcp/servers/edobusy/agenthold/badges/score.svg)](https://glama.ai/mcp/servers/edobusy/agenthold)
+          🐍 🏠 🍎 🪟 🐧 - Shared versioned state store with optimistic concurrency control for coordinating concurrent
+          AI agents. SQLite-backed claim/release locks and append-only audit log.
         confidence: high
 metadata:
   github:
@@ -30,10 +34,10 @@ metadata:
     archived: false
     full_name: edobusy/agenthold
     html_url: https://github.com/edobusy/agenthold
-    created_at: "2026-03-14T07:45:14Z"
-    pushed_at: "2026-07-07T12:12:59Z"
+    created_at: '2026-03-14T07:45:14Z'
+    pushed_at: '2026-07-07T12:12:59Z'
     description: Shared versioned state for multi-agent AI workflows. An MCP server.
-    homepage: ""
+    homepage: ''
     topics:
       - ai
       - ai-agents
@@ -55,13 +59,15 @@ metadata:
       - python
       - sqlite
       - state-management
-    last_checked_at: "2026-09-14T04:13:46.692Z"
+    last_checked_at: '2026-09-14T04:13:46.692Z'
     readme:
-      fetched_at: "2026-09-14T04:13:46.692Z"
+      fetched_at: '2026-09-14T04:13:46.692Z'
       bytes: 25543
 insights:
   summary: An MCP server providing shared, versioned state with conflict detection for multi-agent AI workflows.
-  why_it_matters: Prevents silent data corruption when multiple agents concurrently modify shared state by implementing optimistic concurrency control.
+  why_it_matters: >-
+    Prevents silent data corruption when multiple agents concurrently modify shared state by implementing optimistic
+    concurrency control.
   mental_damage: Finally, a way to stop your agents from playing Jenga with your budget allocations.
   tags:
     - mcp
@@ -72,31 +78,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: agenthold is explicitly an MCP server providing shared state infrastructure for multi-agent workflows."
+  reason: >-
+    MCP is the product identity here: agenthold is explicitly an MCP server providing shared state infrastructure for
+    multi-agent workflows.
   evidence:
     - Repo description explicitly states it is 'an MCP server'
     - README positions it as shared infrastructure for multi-agent workflows via MCP
     - Topics include 'mcp-server' and 'model-context-protocol'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.612Z"
+    updated_at: '2026-05-06T22:12:15.612Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:46.692Z"
+    updated_at: '2026-09-14T04:13:46.692Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:58.703Z"
+    updated_at: '2026-07-21T15:51:58.703Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -109,7 +118,9 @@ processing:
       input_hash: sha256:bd28422f3d6f9fd03f464e2a27315b73e54e397a408e0d26f588e0510de31212
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: agenthold is explicitly an MCP server providing shared state infrastructure for multi-agent workflows."
+      decision_reason: >-
+        MCP is the product identity here: agenthold is explicitly an MCP server providing shared state infrastructure
+        for multi-agent workflows.
       decision_evidence:
         - Repo description explicitly states it is 'an MCP server'
         - README positions it as shared infrastructure for multi-agent workflows via MCP
@@ -117,6 +128,8 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: Choose mcp over ai-frameworks because the product's primary identity is as an MCP server, not a general-purpose framework or SDK.
+      contrastive_reason: >-
+        Choose mcp over ai-frameworks because the product's primary identity is as an MCP server, not a general-purpose
+        framework or SDK.
       review_reason: null
       review_resume_lifecycle: null

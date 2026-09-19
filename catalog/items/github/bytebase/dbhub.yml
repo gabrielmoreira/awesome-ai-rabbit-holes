@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bytebase__dbhub__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,10 +19,12 @@ provenance:
           - Community Servers
         anchor_text: bytebase/dbhub
         extracted_url: https://github.com/bytebase/dbhub
-        surrounding_text: "- **[bytebase/dbhub](https://github.com/bytebase/dbhub)** – 📇 Universal database MCP server supporting mainstream databases.\\"
+        surrounding_text: >-
+          - **[bytebase/dbhub](https://github.com/bytebase/dbhub)** – 📇 Universal database MCP server supporting
+          mainstream databases.\
         confidence: high
     - id: discovery__github__bytebase__dbhub__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -34,7 +36,10 @@ provenance:
           - 🗄️ Databases
         anchor_text: bytebase/dbhub
         extracted_url: https://github.com/bytebase/dbhub
-        surrounding_text: "-   **[bytebase/dbhub](https://github.com/bytebase/dbhub)** [![GitHub stars](https://img.shields.io/github/stars/bytebase/dbhub?style=social)](https://github.com/bytebase/dbhub): Provides a universal database MCP server with support for mainstream databases."
+        surrounding_text: >-
+          -   **[bytebase/dbhub](https://github.com/bytebase/dbhub)** [![GitHub
+          stars](https://img.shields.io/github/stars/bytebase/dbhub?style=social)](https://github.com/bytebase/dbhub):
+          Provides a universal database MCP server with support for mainstream databases.
         confidence: high
 metadata:
   github:
@@ -44,8 +49,8 @@ metadata:
     archived: false
     full_name: bytebase/dbhub
     html_url: https://github.com/bytebase/dbhub
-    created_at: "2025-03-09T16:36:38Z"
-    pushed_at: "2026-09-02T03:06:30Z"
+    created_at: '2025-03-09T16:36:38Z'
+    pushed_at: '2026-09-02T03:06:30Z'
     description: Token conscious database MCP server for Postgres, MySQL, SQL Server, MariaDB, SQLite.
     homepage: https://dbhub.ai
     topics:
@@ -69,14 +74,20 @@ metadata:
       - sql
       - sqlite
       - sqlserver
-    last_checked_at: "2026-09-07T04:13:39.512Z"
+    last_checked_at: '2026-09-07T04:13:39.512Z'
     readme:
-      fetched_at: "2026-09-07T04:13:39.512Z"
+      fetched_at: '2026-09-07T04:13:39.512Z'
       bytes: 7016
 insights:
-  summary: Zero-dependency, token-efficient MCP server for connecting AI assistants to Postgres, MySQL, SQL Server, MariaDB, and SQLite databases.
-  why_it_matters: It lets developers expose database access to MCP-compatible clients (like Claude Code, Cursor, or VS Code) with safety controls and multi-database support, turning any AI assistant into a database-aware tool.
-  mental_damage: Now your AI can finally explain why your JOIN is slow, but only after it rewrites your schema in a way you’ll spend the next three days debugging.
+  summary: >-
+    Zero-dependency, token-efficient MCP server for connecting AI assistants to Postgres, MySQL, SQL Server, MariaDB,
+    and SQLite databases.
+  why_it_matters: >-
+    It lets developers expose database access to MCP-compatible clients (like Claude Code, Cursor, or VS Code) with
+    safety controls and multi-database support, turning any AI assistant into a database-aware tool.
+  mental_damage: >-
+    Now your AI can finally explain why your JOIN is slow, but only after it rewrites your schema in a way you’ll spend
+    the next three days debugging.
   tags:
     - mcp-server
     - database
@@ -86,31 +97,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the core product identity: it is a dedicated MCP server for databases, not a compatibility footnote or extension layer."
+  reason: >-
+    MCP is the core product identity: it is a dedicated MCP server for databases, not a compatibility footnote or
+    extension layer.
   evidence:
     - Repo description explicitly states it is a 'database MCP server'
     - README emphasizes MCP server interface and tools (execute_sql, search_objects)
     - Listed in multiple MCP-focused directories (awesome-mcp-list, awesome-mcp-servers)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: promotion_candidate
   reason: Stars (2697) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.583Z"
+    updated_at: '2026-05-06T22:12:15.583Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:39.512Z"
+    updated_at: '2026-09-07T04:13:39.512Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:34:40.515Z"
+    updated_at: '2026-07-21T15:34:40.515Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -123,7 +137,9 @@ processing:
       input_hash: sha256:cbf4777ce7d2807816da2a0ae903c46fe6a89aa16679ae3cb06002f2e70da5f5
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the core product identity: it is a dedicated MCP server for databases, not a compatibility footnote or extension layer."
+      decision_reason: >-
+        MCP is the core product identity: it is a dedicated MCP server for databases, not a compatibility footnote or
+        extension layer.
       decision_evidence:
         - Repo description explicitly states it is a 'database MCP server'
         - README emphasizes MCP server interface and tools (execute_sql, search_objects)
@@ -131,6 +147,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product’s primary identity is as an MCP server for databases, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product’s primary identity is as an MCP server for databases, not
+        an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

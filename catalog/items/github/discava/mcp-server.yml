@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__discava__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🗺️ <a name="location-services"></a>Location Services
         anchor_text: discava/mcp-server
         extracted_url: https://github.com/discava/mcp-server
-        surrounding_text: "- [discava/mcp-server](https://github.com/discava/mcp-server) 📇 ☁️ - Search Millions of local businesses worldwide (Europe, Northamerica, Southamerica, Asia, Oceania), confidence scores, and agent trust rankings. No API key required. [![discava/mcp-server](https://glama.ai/mcp/servers/discava/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/discava/mcp-server)"
+        surrounding_text: >-
+          - [discava/mcp-server](https://github.com/discava/mcp-server) 📇 ☁️ - Search Millions of local businesses
+          worldwide (Europe, Northamerica, Southamerica, Asia, Oceania), confidence scores, and agent trust rankings. No
+          API key required.
+          [![discava/mcp-server](https://glama.ai/mcp/servers/discava/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/discava/mcp-server)
         confidence: high
 metadata:
   github:
@@ -30,18 +34,20 @@ metadata:
     archived: false
     full_name: discava/mcp-server
     html_url: https://github.com/discava/mcp-server
-    created_at: "2026-03-22T12:11:35Z"
-    pushed_at: "2026-03-23T22:38:42Z"
+    created_at: '2026-03-22T12:11:35Z'
+    pushed_at: '2026-03-23T22:38:42Z'
     description: discava - The Business Directory for AI - mcp server
     homepage: null
     topics: []
-    last_checked_at: "2026-09-14T04:13:40.999Z"
+    last_checked_at: '2026-09-14T04:13:40.999Z'
     readme:
-      fetched_at: "2026-09-14T04:13:40.999Z"
+      fetched_at: '2026-09-14T04:13:40.999Z'
       bytes: 1126
 insights:
   summary: An MCP server that enables AI agents to search local businesses worldwide via the Discava API.
-  why_it_matters: Developers can integrate business directory search capabilities into their AI agents or workflows through a standardized MCP interface.
+  why_it_matters: >-
+    Developers can integrate business directory search capabilities into their AI agents or workflows through a
+    standardized MCP interface.
   mental_damage: Now your AI agent can argue with you about which coffee shop to work from next.
   tags:
     - mcp
@@ -50,31 +56,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is as an MCP server providing business directory search functionality, fitting the MCP Servers & Tooling category.
+  reason: >-
+    The product's primary identity is as an MCP server providing business directory search functionality, fitting the
+    MCP Servers & Tooling category.
   evidence:
     - Repo description explicitly identifies it as an MCP server for Discava API
     - README details MCP server setup and tools for business search
     - Project is actively maintained (pushed recently, not archived)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.611Z"
+    updated_at: '2026-05-06T22:12:15.611Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:40.999Z"
+    updated_at: '2026-09-14T04:13:40.999Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:05.803Z"
+    updated_at: '2026-07-21T15:51:05.803Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -87,7 +96,9 @@ processing:
       input_hash: sha256:896fe0219cc1a006fc3d19ff4f241e33b1dd02a1a89d710fbdbecd5b3e926701
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's primary identity is as an MCP server providing business directory search functionality, fitting the MCP Servers & Tooling category.
+      decision_reason: >-
+        The product's primary identity is as an MCP server providing business directory search functionality, fitting
+        the MCP Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly identifies it as an MCP server for Discava API
         - README details MCP server setup and tools for business search
@@ -95,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server providing domain-specific functionality rather than an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server providing domain-specific
+        functionality rather than an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lintbase__lintbase__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: lintbase/lintbase-mcp
         extracted_url: https://github.com/lintbase/lintbase
-        surrounding_text: "- [lintbase/lintbase-mcp](https://github.com/lintbase/lintbase) [![lintbase/lintbase-mcp MCP server](https://glama.ai/mcp/servers/lintbase/lintbase/badges/score.svg)](https://glama.ai/mcp/servers/lintbase/lintbase) 📇 🏠 - Ground-truth Firestore schema context for AI coding agents. Stops Cursor, Claude, and Windsurf from hallucinating field names and queries. Scans live collections, returns real field names, types, and presence rates."
+        surrounding_text: >-
+          - [lintbase/lintbase-mcp](https://github.com/lintbase/lintbase) [![lintbase/lintbase-mcp MCP
+          server](https://glama.ai/mcp/servers/lintbase/lintbase/badges/score.svg)](https://glama.ai/mcp/servers/lintbase/lintbase)
+          📇 🏠 - Ground-truth Firestore schema context for AI coding agents. Stops Cursor, Claude, and Windsurf from
+          hallucinating field names and queries. Scans live collections, returns real field names, types, and presence
+          rates.
         confidence: high
 metadata:
   github:
@@ -30,8 +35,8 @@ metadata:
     archived: false
     full_name: lintbase/lintbase
     html_url: https://github.com/lintbase/lintbase
-    created_at: "2026-02-26T16:10:11Z"
-    pushed_at: "2026-07-20T16:37:06Z"
+    created_at: '2026-02-26T16:10:11Z'
+    pushed_at: '2026-07-20T16:37:06Z'
     description: ESLint for your database — CLI + SaaS dashboard
     homepage: https://lintbase.vercel.app
     topics:
@@ -45,14 +50,20 @@ metadata:
       - schema
       - security
       - typescript
-    last_checked_at: "2026-08-03T05:16:53.107Z"
+    last_checked_at: '2026-08-03T05:16:53.107Z'
     readme:
-      fetched_at: "2026-08-03T05:16:53.107Z"
+      fetched_at: '2026-08-03T05:16:53.107Z'
       bytes: 9273
 insights:
-  summary: CLI and SaaS dashboard that scans live NoSQL databases to extract schema, security rules, and architecture into structured context files for AI coding agents.
-  why_it_matters: Prevents AI agents from hallucinating database schemas and writing unsafe or expensive queries by feeding them ground-truth live context instead of stale docs.
-  mental_damage: Because your AI agent now needs a dedicated CLI to generate a folder of markdown flashcards about your database schema, and apparently 'reading the docs' was too much to ask of a trillion-parameter model.
+  summary: >-
+    CLI and SaaS dashboard that scans live NoSQL databases to extract schema, security rules, and architecture into
+    structured context files for AI coding agents.
+  why_it_matters: >-
+    Prevents AI agents from hallucinating database schemas and writing unsafe or expensive queries by feeding them
+    ground-truth live context instead of stale docs.
+  mental_damage: >-
+    Because your AI agent now needs a dedicated CLI to generate a folder of markdown flashcards about your database
+    schema, and apparently 'reading the docs' was too much to ask of a trillion-parameter model.
   tags:
     - database-context
     - schema-retrieval
@@ -62,31 +73,40 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The core product is a retrieval and context-shaping layer for live database schemas; the MCP server and editor drops are secondary delivery mechanisms, not the primary identity.
+  reason: >-
+    The core product is a retrieval and context-shaping layer for live database schemas; the MCP server and editor drops
+    are secondary delivery mechanisms, not the primary identity.
   evidence:
-    - README positions the tool as 'Ground Truth for AI Coding Agents' and centers on exporting a /lintbase-context/ folder with structured markdown (database-schema.md, security-rules.md, etc.) for AI context windows.
-    - Repo description and CLI commands focus on scanning live Firestore/MongoDB instances and generating snapshots/drift checks, not on acting as an IDE extension or MCP-first product.
-    - Appears in awesome-mcp-servers only for its adapter package (lintbase-mcp), but the main repo identity is a standalone CLI/SaaS context exporter.
+    - >-
+      README positions the tool as 'Ground Truth for AI Coding Agents' and centers on exporting a /lintbase-context/
+      folder with structured markdown (database-schema.md, security-rules.md, etc.) for AI context windows.
+    - >-
+      Repo description and CLI commands focus on scanning live Firestore/MongoDB instances and generating
+      snapshots/drift checks, not on acting as an IDE extension or MCP-first product.
+    - >-
+      Appears in awesome-mcp-servers only for its adapter package (lintbase-mcp), but the main repo identity is a
+      standalone CLI/SaaS context exporter.
 placement:
-  primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  primary_category: mcp
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.715Z"
+    updated_at: '2026-07-16T05:04:46.715Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:53.107Z"
+    updated_at: '2026-08-03T05:16:53.107Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T05:20:41.413Z"
+    updated_at: '2026-07-20T05:20:41.413Z'
     cause: null
     next_retry_at: null
     attempts: 2

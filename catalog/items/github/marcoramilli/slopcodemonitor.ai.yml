@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__marcoramilli__slopcodemonitor.ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,7 +19,9 @@ provenance:
           - Code Review and Refactoring
         anchor_text: AICodeSlopMonitor
         extracted_url: https://slopcodemonitor.ai
-        surrounding_text: "- **[AICodeSlopMonitor](https://slopcodemonitor.ai/)** – Detects low-quality and AI-generated code patterns to help developers review and improve codebases."
+        surrounding_text: >-
+          - **[AICodeSlopMonitor](https://slopcodemonitor.ai/)** – Detects low-quality and AI-generated code patterns to
+          help developers review and improve codebases.
         confidence: high
 metadata:
   github:
@@ -29,8 +31,8 @@ metadata:
     archived: false
     full_name: marcoramilli/slopcodemonitor.ai
     html_url: https://github.com/marcoramilli/slopcodemonitor.ai
-    created_at: "2026-04-17T22:18:44Z"
-    pushed_at: "2026-08-02T20:44:03Z"
+    created_at: '2026-04-17T22:18:44Z'
+    pushed_at: '2026-08-02T20:44:03Z'
     description: Monitors Slop Codes in Public famous repositories
     homepage: https://slopcodemonitor.ai
     topics:
@@ -41,14 +43,20 @@ metadata:
       - code-analysis-tool
       - code-analyzer
       - code-review
-    last_checked_at: "2026-08-03T05:16:55.880Z"
+    last_checked_at: '2026-08-03T05:16:55.880Z'
     readme:
-      fetched_at: "2026-08-03T05:16:55.880Z"
+      fetched_at: '2026-08-03T05:16:55.880Z'
       bytes: 6052
 insights:
-  summary: A daily-updated dashboard that scans trending GitHub repositories using the SynthScan fingerprint engine to detect and score AI-generated 'slop' code patterns.
-  why_it_matters: It gives maintainers and code reviewers a quantitative signal to distinguish human-authored logic from repetitive, AI-generated boilerplate in popular open-source projects.
-  mental_damage: We now need automated tools to tell us which code was written by the same hallucinating autocomplete we just finished installing.
+  summary: >-
+    A daily-updated dashboard that scans trending GitHub repositories using the SynthScan fingerprint engine to detect
+    and score AI-generated 'slop' code patterns.
+  why_it_matters: >-
+    It gives maintainers and code reviewers a quantitative signal to distinguish human-authored logic from repetitive,
+    AI-generated boilerplate in popular open-source projects.
+  mental_damage: >-
+    We now need automated tools to tell us which code was written by the same hallucinating autocomplete we just
+    finished installing.
   tags:
     - code-review
     - ai-detection
@@ -57,35 +65,40 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The core job is measuring and scoring codebases for AI-generation patterns via a Synth Score, fitting the evals category's focus on measuring and scoring model/prompt/agent output behavior.
+  reason: >-
+    The core job is measuring and scoring codebases for AI-generation patterns via a Synth Score, fitting the evals
+    category's focus on measuring and scoring model/prompt/agent output behavior.
   evidence:
-    - README states it 'automatically scans... looking for telltale signs of AI-generated code' and computes a 'Synth Score (0–10)'.
+    - >-
+      README states it 'automatically scans... looking for telltale signs of AI-generated code' and computes a 'Synth
+      Score (0–10)'.
     - Listed in awesome-ai-coding-tools under 'Code Review and Refactoring' as 'AI Code Slop Monitor'.
     - It is a daily-updated dashboard and report generator rather than an interactive coding assistant.
 placement:
-  primary_category: evals
-  section: Observability / Tracing / EvalOps
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Review, Testing & Repair
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.628Z"
+    updated_at: '2026-05-06T22:12:15.628Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:55.880Z"
+    updated_at: '2026-08-03T05:16:55.880Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

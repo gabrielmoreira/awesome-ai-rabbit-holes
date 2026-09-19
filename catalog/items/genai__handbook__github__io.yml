@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__genai__handbook__github__io__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,9 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - 书籍 Book
-        anchor_text: "《Generative AI Handbook: A Roadmap for Learning Resources》"
+        anchor_text: '《Generative AI Handbook: A Roadmap for Learning Resources》'
         extracted_url: https://genai-handbook.github.io
-        surrounding_text: "7. [《Generative AI Handbook: A Roadmap for Learning Resources》](https://genai-handbook.github.io/)"
+        surrounding_text: '7. [《Generative AI Handbook: A Roadmap for Learning Resources》](https://genai-handbook.github.io/)'
         confidence: high
 metadata:
   github:
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated learning roadmap and resource guide for understanding the fundamentals of generative AI and large language models.
-  why_it_matters: It provides a structured path through the chaotic landscape of AI research and tutorials to help developers build a solid theoretical foundation.
-  mental_damage: Just enough reading material to ensure you feel sufficiently unprepared for the next paradigm shift happening next Tuesday.
+  summary: >-
+    A curated learning roadmap and resource guide for understanding the fundamentals of generative AI and large language
+    models.
+  why_it_matters: >-
+    It provides a structured path through the chaotic landscape of AI research and tutorials to help developers build a
+    solid theoretical foundation.
+  mental_damage: >-
+    Just enough reading material to ensure you feel sufficiently unprepared for the next paradigm shift happening next
+    Tuesday.
   tags:
     - learning-resources
     - llm-fundamentals
@@ -46,25 +52,26 @@ insights:
     - ai-education
   confidence: high
 curation:
-  status: included
-  reason: The project is a curated roadmap of resources rather than a standalone software tool, making it an excellent navigation aid for the ecosystem.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - README describes it as a 'handbook for learning the key concepts underlying modern artificial intelligence systems'
-    - Organizes diverse content (blogs, YouTube, textbooks) into a 'textbook-style presentation'
-    - Aims to serve as a navigation guide for the rapidly changing AI landscape
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause:
       type: ambiguous_canonicalization
-      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+      message: >-
+        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
+        could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -72,7 +79,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:46:15.442Z"
+    updated_at: '2026-07-20T15:46:15.442Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -85,14 +92,20 @@ processing:
       input_hash: sha256:85b7cab95fcb8c6efc497524a5e195462fcf23c63b9ca7ccc8c19b6a41baf8ec
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: The project is a curated roadmap of resources rather than a standalone software tool, making it an excellent navigation aid for the ecosystem.
+      decision_reason: >-
+        The project is a curated roadmap of resources rather than a standalone software tool, making it an excellent
+        navigation aid for the ecosystem.
       decision_evidence:
-        - README describes it as a 'handbook for learning the key concepts underlying modern artificial intelligence systems'
+        - >-
+          README describes it as a 'handbook for learning the key concepts underlying modern artificial intelligence
+          systems'
         - Organizes diverse content (blogs, YouTube, textbooks) into a 'textbook-style presentation'
         - Aims to serve as a navigation guide for the rapidly changing AI landscape
       category_candidates:
         - awesome-awesomes
         - newsletters-and-feeds
-      contrastive_reason: Choose awesome-awesomes over newsletters-and-feeds because it functions as a static/semi-static map of existing resources rather than a recurring commentary or digest.
+      contrastive_reason: >-
+        Choose awesome-awesomes over newsletters-and-feeds because it functions as a static/semi-static map of existing
+        resources rather than a recurring commentary or digest.
       review_reason: null
       review_resume_lifecycle: null

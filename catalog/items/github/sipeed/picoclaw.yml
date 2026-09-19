@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sipeed__picoclaw__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,9 @@ provenance:
           - OpenClaw ecosystem
         anchor_text: PicoClaw
         extracted_url: https://github.com/sipeed/picoclaw
-        surrounding_text: "- **[PicoClaw](https://github.com/sipeed/picoclaw)** `⭐ 28.7k` — Ultra-lightweight personal AI assistant in Go inspired by OpenClaw; runs on $10 hardware with less than 10MB RAM."
+        surrounding_text: >-
+          - **[PicoClaw](https://github.com/sipeed/picoclaw)** `⭐ 28.7k` — Ultra-lightweight personal AI assistant in Go
+          inspired by OpenClaw; runs on $10 hardware with less than 10MB RAM.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,25 @@ metadata:
     archived: false
     full_name: sipeed/picoclaw
     html_url: https://github.com/sipeed/picoclaw
-    created_at: "2026-02-04T12:32:35Z"
-    pushed_at: "2026-07-18T18:20:29Z"
+    created_at: '2026-02-04T12:32:35Z'
+    pushed_at: '2026-07-18T18:20:29Z'
     description: Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity
     homepage: https://picoclaw.io
     topics: []
-    last_checked_at: "2026-07-20T16:42:58.249Z"
+    last_checked_at: '2026-07-20T16:42:58.249Z'
     readme:
-      fetched_at: "2026-07-20T16:42:58.249Z"
+      fetched_at: '2026-07-20T16:42:58.249Z'
       bytes: 31802
 insights:
-  summary: PicoClaw is an ultra-lightweight, self-bootstrapping AI assistant written in Go that runs on $10 hardware with less than 10MB of RAM.
-  why_it_matters: It enables developers to run a self-hosted, multi-provider AI agent on edge devices or low-spec servers, supporting CLI, Android, and multiple messaging channels.
-  mental_damage: Just when you thought your MacBook Pro was the minimum viable hardware for an AI agent, a 10MB Go binary arrives to make your cooling fans feel personally insulted.
+  summary: >-
+    PicoClaw is an ultra-lightweight, self-bootstrapping AI assistant written in Go that runs on $10 hardware with less
+    than 10MB of RAM.
+  why_it_matters: >-
+    It enables developers to run a self-hosted, multi-provider AI agent on edge devices or low-spec servers, supporting
+    CLI, Android, and multiple messaging channels.
+  mental_damage: >-
+    Just when you thought your MacBook Pro was the minimum viable hardware for an AI agent, a 10MB Go binary arrives to
+    make your cooling fans feel personally insulted.
   tags:
     - go
     - edge-ai
@@ -52,13 +60,20 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: PicoClaw is a standalone, terminal-native AI agent that plans and executes tasks across repos and hardware, fitting the primary coding assistant definition.
+  reason: >-
+    PicoClaw is a standalone, terminal-native AI agent that plans and executes tasks across repos and hardware, fitting
+    the primary coding assistant definition.
   evidence:
-    - "Repo description positions it as an automation assistant: 'Tiny, Fast, and Deployable anywhere — automate the mundane'."
+    - >-
+      Repo description positions it as an automation assistant: 'Tiny, Fast, and Deployable anywhere — automate the
+      mundane'.
     - README identifies it as an 'ultra-lightweight personal AI assistant' built in Go with sub-10MB RAM usage.
-    - Source list 'awesome-cli-coding-agents' explicitly categorizes it under 'Terminal-native coding agents > OpenClaw ecosystem'.
+    - >-
+      Source list 'awesome-cli-coding-agents' explicitly categorizes it under 'Terminal-native coding agents > OpenClaw
+      ecosystem'.
 placement:
   primary_category: coding-agents
+  secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
@@ -66,21 +81,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.648Z"
+    updated_at: '2026-05-06T22:12:15.648Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:58.249Z"
+    updated_at: '2026-07-20T16:42:58.249Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

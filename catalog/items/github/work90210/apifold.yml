@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__work90210__apifold__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: Work90210/APIFold
         extracted_url: https://github.com/work90210/apifold
-        surrounding_text: "- [Work90210/APIFold](https://github.com/Work90210/APIFold) [![Work90210/APIFold MCP server](https://glama.ai/mcp/servers/Work90210/APIFold/badges/score.svg)](https://glama.ai/mcp/servers/Work90210/APIFold) 📇 ☁️ - Turn any REST API into a hosted MCP server. 18 free public servers (GitHub, Stripe, Slack, OpenAI, Notion, and more) — no setup required, bring your own API key."
+        surrounding_text: >-
+          - [Work90210/APIFold](https://github.com/Work90210/APIFold) [![Work90210/APIFold MCP
+          server](https://glama.ai/mcp/servers/Work90210/APIFold/badges/score.svg)](https://glama.ai/mcp/servers/Work90210/APIFold)
+          📇 ☁️ - Turn any REST API into a hosted MCP server. 18 free public servers (GitHub, Stripe, Slack, OpenAI,
+          Notion, and more) — no setup required, bring your own API key.
         confidence: high
 metadata:
   github:
@@ -30,18 +34,20 @@ metadata:
     archived: false
     full_name: Work90210/APIFold
     html_url: https://github.com/Work90210/APIFold
-    created_at: "2026-03-18T15:08:24Z"
-    pushed_at: "2026-06-29T10:28:54Z"
+    created_at: '2026-03-18T15:08:24Z'
+    pushed_at: '2026-06-29T10:28:54Z'
     description: Turn any REST API into an MCP server. No code required.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:21:15.550Z"
+    last_checked_at: '2026-07-21T15:21:15.550Z'
     readme:
-      fetched_at: "2026-07-21T15:21:15.550Z"
+      fetched_at: '2026-07-21T15:21:15.550Z'
       bytes: 6904
 insights:
   summary: Turn any REST API into an MCP server using an OpenAPI spec with no code required.
-  why_it_matters: Lets developers instantly expose real APIs as MCP tools for AI agents like Claude or Cursor without writing glue code.
+  why_it_matters: >-
+    Lets developers instantly expose real APIs as MCP tools for AI agents like Claude or Cursor without writing glue
+    code.
   mental_damage: Finally, a way to make your AI agent actually call Stripe instead of hallucinating payment flows.
   tags:
     - mcp
@@ -50,31 +56,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: APIFold is an MCP server generator that turns OpenAPI specs into live MCP endpoints, making MCP the core product identity rather than an extension or compatibility layer.
+  reason: >-
+    APIFold is an MCP server generator that turns OpenAPI specs into live MCP endpoints, making MCP the core product
+    identity rather than an extension or compatibility layer.
   evidence:
-    - "Repo description: 'Turn any REST API into an MCP server. No code required.'"
-    - "README: 'APIFold reads an OpenAPI 3.x or Swagger 2.x specification and generates a live, production-ready MCP server endpoint.'"
-    - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Aggregators"
+    - 'Repo description: ''Turn any REST API into an MCP server. No code required.'''
+    - >-
+      README: 'APIFold reads an OpenAPI 3.x or Swagger 2.x specification and generates a live, production-ready MCP
+      server endpoint.'
+    - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Aggregators'
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.656Z"
+    updated_at: '2026-05-06T22:12:15.656Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:15.550Z"
+    updated_at: '2026-07-21T15:21:15.550Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:38:08.399Z"
+    updated_at: '2026-05-12T15:38:08.399Z'
     cause: null
     next_retry_at: null
     attempts: 1

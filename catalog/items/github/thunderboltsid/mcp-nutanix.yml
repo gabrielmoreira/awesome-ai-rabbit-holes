@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__thunderboltsid__mcp-nutanix__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: thunderboltsid/mcp-nutanix
         extracted_url: https://github.com/thunderboltsid/mcp-nutanix
-        surrounding_text: "- [thunderboltsid/mcp-nutanix](https://github.com/thunderboltsid/mcp-nutanix) 🏎️ 🏠/☁️ - Go-based MCP Server for interfacing with Nutanix Prism Central resources."
+        surrounding_text: >-
+          - [thunderboltsid/mcp-nutanix](https://github.com/thunderboltsid/mcp-nutanix) 🏎️ 🏠/☁️ - Go-based MCP Server
+          for interfacing with Nutanix Prism Central resources.
         confidence: high
 metadata:
   github:
@@ -30,19 +32,25 @@ metadata:
     archived: false
     full_name: thunderboltsid/mcp-nutanix
     html_url: https://github.com/thunderboltsid/mcp-nutanix
-    created_at: "2025-03-27T18:51:17Z"
-    pushed_at: "2026-01-29T09:57:21Z"
+    created_at: '2025-03-27T18:51:17Z'
+    pushed_at: '2026-01-29T09:57:21Z'
     description: MCP Server for Nutanix
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:20:49.463Z"
+    last_checked_at: '2026-07-21T15:20:49.463Z'
     readme:
-      fetched_at: "2026-07-21T15:20:49.463Z"
+      fetched_at: '2026-07-21T15:20:49.463Z'
       bytes: 5086
 insights:
-  summary: An experimental MCP server that lets LLMs like Claude and Cursor list and inspect Nutanix Prism Central resources such as VMs, clusters, and hosts via the Model Context Protocol.
-  why_it_matters: It enables developers and operators to query and analyze infrastructure state through natural language conversations in their existing MCP-compatible coding assistants.
-  mental_damage: You can now ask an LLM to audit your hypervisor inventory, but only if you promise not to touch the delete button since this server is strictly read-only and experimental.
+  summary: >-
+    An experimental MCP server that lets LLMs like Claude and Cursor list and inspect Nutanix Prism Central resources
+    such as VMs, clusters, and hosts via the Model Context Protocol.
+  why_it_matters: >-
+    It enables developers and operators to query and analyze infrastructure state through natural language conversations
+    in their existing MCP-compatible coding assistants.
+  mental_damage: >-
+    You can now ask an LLM to audit your hypervisor inventory, but only if you promise not to touch the delete button
+    since this server is strictly read-only and experimental.
   tags:
     - mcp
     - nutanix
@@ -51,35 +59,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is explicitly an MCP server implementation for a specific cloud platform, making it a textbook fit for the Domain Servers section of MCP Servers & Tooling.
+  reason: >-
+    This is explicitly an MCP server implementation for a specific cloud platform, making it a textbook fit for the
+    Domain Servers section of MCP Servers & Tooling.
   evidence:
     - Repo description is 'MCP Server for Nutanix', clearly stating the product identity.
-    - README states it 'allows LLMs to interact with Nutanix Prism Central' and provides configuration examples for Claude and Cursor.
+    - >-
+      README states it 'allows LLMs to interact with Nutanix Prism Central' and provides configuration examples for
+      Claude and Cursor.
     - Listed in awesome-mcp-servers under 'Cloud Platforms', aligning with the Domain Servers section.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.652Z"
+    updated_at: '2026-05-06T22:12:15.652Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:49.463Z"
+    updated_at: '2026-07-21T15:20:49.463Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

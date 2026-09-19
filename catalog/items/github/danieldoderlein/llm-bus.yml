@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__danieldoderlein__llm-bus__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-06T05:29:57.556Z"
+      discovered_at: '2026-07-06T05:29:57.556Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: danieldoderlein/llm-bus
         extracted_url: https://github.com/danieldoderlein/llm-bus
-        surrounding_text: "- [danieldoderlein/llm-bus](https://github.com/danieldoderlein/llm-bus) [![danieldoderlein/llm-bus MCP server](https://glama.ai/mcp/servers/danieldoderlein/llm-bus/badges/score.svg)](https://glama.ai/mcp/servers/danieldoderlein/llm-bus) 📇 ☁️ 🏠 - Multi-agent coordination bus over MCP: atomic gap-free claims, advisory file leases, a shared event ledger, presence, prose handoffs, and a task graph, so multiple coding agents (Claude Code, Cursor, Codex) stop colliding and re-deriving each other's work. Remote Streamable HTTP; self-hostable (AGPL-3.0) or hosted at llm-bus.com."
+        surrounding_text: >-
+          - [danieldoderlein/llm-bus](https://github.com/danieldoderlein/llm-bus) [![danieldoderlein/llm-bus MCP
+          server](https://glama.ai/mcp/servers/danieldoderlein/llm-bus/badges/score.svg)](https://glama.ai/mcp/servers/danieldoderlein/llm-bus)
+          📇 ☁️ 🏠 - Multi-agent coordination bus over MCP: atomic gap-free claims, advisory file leases, a shared event
+          ledger, presence, prose handoffs, and a task graph, so multiple coding agents (Claude Code, Cursor, Codex)
+          stop colliding and re-deriving each other's work. Remote Streamable HTTP; self-hostable (AGPL-3.0) or hosted
+          at llm-bus.com.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: danieldoderlein/llm-bus
     html_url: https://github.com/danieldoderlein/llm-bus
-    created_at: "2026-06-18T17:59:47Z"
-    pushed_at: "2026-09-03T17:11:49Z"
-    description: Open-source coordination engine for AI agents, over MCP. Atomic claims, shared ledger, leases, presence, handoffs, tasks. Self-host it or use the hosted service at llm-bus.com.
+    created_at: '2026-06-18T17:59:47Z'
+    pushed_at: '2026-09-03T17:11:49Z'
+    description: >-
+      Open-source coordination engine for AI agents, over MCP. Atomic claims, shared ledger, leases, presence, handoffs,
+      tasks. Self-host it or use the hosted service at llm-bus.com.
     homepage: null
     topics:
       - agent-coordination
@@ -45,14 +53,20 @@ metadata:
       - mcp-server
       - model-context-protocol
       - multi-agent
-    last_checked_at: "2026-09-14T04:13:33.777Z"
+    last_checked_at: '2026-09-14T04:13:33.777Z'
     readme:
-      fetched_at: "2026-09-14T04:13:33.777Z"
+      fetched_at: '2026-09-14T04:13:33.777Z'
       bytes: 8846
 insights:
-  summary: Open-source coordination engine for AI agents using MCP to manage handoffs, shared ledgers, claims, leases, and presence without requiring git.
-  why_it_matters: Reduces manual context-copying between agents by providing a shared, attributable backplane for multi-agent workflows.
-  mental_damage: Finally, a tool that acknowledges you’ve become the overworked intern shuttling sticky notes between your AI interns.
+  summary: >-
+    Open-source coordination engine for AI agents using MCP to manage handoffs, shared ledgers, claims, leases, and
+    presence without requiring git.
+  why_it_matters: >-
+    Reduces manual context-copying between agents by providing a shared, attributable backplane for multi-agent
+    workflows.
+  mental_damage: >-
+    Finally, a tool that acknowledges you’ve become the overworked intern shuttling sticky notes between your AI
+    interns.
   tags:
     - mcp
     - agent-coordination
@@ -60,31 +74,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: llm-bus is a coordination layer for multiple agents with shared state, handoffs, and resource allocation, making it a control plane for agent workflows rather than a coding assistant or extension.
+  reason: >-
+    llm-bus is a coordination layer for multiple agents with shared state, handoffs, and resource allocation, making it
+    a control plane for agent workflows rather than a coding assistant or extension.
   evidence:
-    - "Repo description: 'Open-source coordination engine for AI agents, over MCP. Atomic claims, shared ledger, leases, presence, handoffs, tasks.'"
-    - "README: 'Stop being the bridge between your agents... LLM Bus is the shared backplane over MCP that does the relaying.'"
+    - >-
+      Repo description: 'Open-source coordination engine for AI agents, over MCP. Atomic claims, shared ledger, leases,
+      presence, handoffs, tasks.'
+    - >-
+      README: 'Stop being the bridge between your agents... LLM Bus is the shared backplane over MCP that does the
+      relaying.'
     - MCP tools include handoffs, claims, leases, tasks, presence—core orchestration primitives.
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-06T05:29:57.558Z"
+    updated_at: '2026-07-06T05:29:57.558Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:33.777Z"
+    updated_at: '2026-09-14T04:13:33.777Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-06T05:59:43.902Z"
+    updated_at: '2026-07-06T05:59:43.902Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

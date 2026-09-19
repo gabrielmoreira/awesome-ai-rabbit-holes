@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lightseekorg__tokenspeed__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: "2026-06-25T05:24:49.456Z"
+      discovered_at: '2026-06-25T05:24:49.456Z'
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,10 @@ provenance:
           - 推理 Inference
         anchor_text: TokenSpeed
         extracted_url: https://github.com/lightseekorg/tokenspeed
-        surrounding_text: "54. [TokenSpeed](https://github.com/lightseekorg/tokenspeed): a speed-of-light LLM inference engine designed for agentic workloads, with TensorRT-LLM-level performance and vLLM-level usability. Our goal is to be the most performant inference engine for production agentic workloads."
+        surrounding_text: >-
+          54. [TokenSpeed](https://github.com/lightseekorg/tokenspeed): a speed-of-light LLM inference engine designed
+          for agentic workloads, with TensorRT-LLM-level performance and vLLM-level usability. Our goal is to be the
+          most performant inference engine for production agentic workloads.
         confidence: high
 metadata:
   github:
@@ -29,8 +32,8 @@ metadata:
     archived: false
     full_name: lightseekorg/tokenspeed
     html_url: https://github.com/lightseekorg/tokenspeed
-    created_at: "2026-05-06T13:13:21Z"
-    pushed_at: "2026-07-30T04:42:05Z"
+    created_at: '2026-05-06T13:13:21Z'
+    pushed_at: '2026-07-30T04:42:05Z'
     description: TokenSpeed is a speed-of-light LLM inference engine.
     homepage: https://lightseek.org/blog/lightseek-tokenspeed.html
     topics:
@@ -47,14 +50,20 @@ metadata:
       - speed-of-light
       - tokenspeed
       - vlm
-    last_checked_at: "2026-07-30T05:06:05.746Z"
+    last_checked_at: '2026-07-30T05:06:05.746Z'
     readme:
-      fetched_at: "2026-07-30T05:06:05.746Z"
+      fetched_at: '2026-07-30T05:06:05.746Z'
       bytes: 3260
 insights:
-  summary: TokenSpeed is a TensorRT-LLM-level performance LLM inference engine with vLLM-like usability, targeting agentic workloads via a local-SPMD design and static compiler.
-  why_it_matters: It offers high-throughput inference optimized for agentic workloads, reducing latency and cost for developers running LLM agents in production.
-  mental_damage: Another 'speed-of-light' inference engine promising to finally make your agents not feel like they're wading through molasses.
+  summary: >-
+    TokenSpeed is a TensorRT-LLM-level performance LLM inference engine with vLLM-like usability, targeting agentic
+    workloads via a local-SPMD design and static compiler.
+  why_it_matters: >-
+    It offers high-throughput inference optimized for agentic workloads, reducing latency and cost for developers
+    running LLM agents in production.
+  mental_damage: >-
+    Another 'speed-of-light' inference engine promising to finally make your agents not feel like they're wading through
+    molasses.
   tags:
     - llm-inference
     - agentic-workloads
@@ -62,31 +71,36 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: TokenSpeed is a local inference engine serving as a runtime for deploying LLMs on self-hosted hardware, matching the local AI category's focus on private, self-hosted execution as the core product identity.
+  reason: >-
+    TokenSpeed is a local inference engine serving as a runtime for deploying LLMs on self-hosted hardware, matching the
+    local AI category's focus on private, self-hosted execution as the core product identity.
   evidence:
-    - "Repo description: 'TokenSpeed is a speed-of-light LLM inference engine'"
-    - "README: 'Our goal is to be the most performant inference engine for production agentic workloads' with guides for launching a server and model recipes"
-    - "Archived: no, pushed at 2026-07-02 indicating active maintenance"
+    - 'Repo description: ''TokenSpeed is a speed-of-light LLM inference engine'''
+    - >-
+      README: 'Our goal is to be the most performant inference engine for production agentic workloads' with guides for
+      launching a server and model recipes
+    - 'Archived: no, pushed at 2026-07-02 indicating active maintenance'
 placement:
   primary_category: local-ai
-  section: Local Serving / APIs
+  secondary_categories: []
+  section: Inference Engines
 lifecycle:
   status: promotion_candidate
   reason: Stars (1538) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-06-25T05:24:49.457Z"
+    updated_at: '2026-06-25T05:24:49.457Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:05.746Z"
+    updated_at: '2026-07-30T05:06:05.746Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-02T05:31:18.109Z"
+    updated_at: '2026-07-02T05:31:18.109Z'
     cause: null
     next_retry_at: null
     attempts: 1

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__vasayxtx__mcp-prompt-engine__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: vasayxtx/mcp-prompt-engine
         extracted_url: https://github.com/vasayxtx/mcp-prompt-engine
-        surrounding_text: "- [vasayxtx/mcp-prompt-engine](https://github.com/vasayxtx/mcp-prompt-engine) 🏎️ 🏠 🪟️ 🐧 🍎 - MCP server for managing and serving dynamic prompt templates using elegant and powerful text template engine."
+        surrounding_text: >-
+          - [vasayxtx/mcp-prompt-engine](https://github.com/vasayxtx/mcp-prompt-engine) 🏎️ 🏠 🪟️ 🐧 🍎 - MCP server
+          for managing and serving dynamic prompt templates using elegant and powerful text template engine.
         confidence: high
 metadata:
   github:
@@ -30,10 +32,10 @@ metadata:
     archived: false
     full_name: vasayxtx/mcp-prompt-engine
     html_url: https://github.com/vasayxtx/mcp-prompt-engine
-    created_at: "2025-05-20T10:18:40Z"
-    pushed_at: "2026-03-30T07:54:38Z"
+    created_at: '2025-05-20T10:18:40Z'
+    pushed_at: '2026-03-30T07:54:38Z'
     description: MCP Prompt Engine
-    homepage: ""
+    homepage: ''
     topics:
       - go
       - go-template
@@ -41,13 +43,15 @@ metadata:
       - mcp
       - mcp-prompt
       - mcp-server
-    last_checked_at: "2026-07-21T15:21:01.152Z"
+    last_checked_at: '2026-07-21T15:21:01.152Z'
     readme:
-      fetched_at: "2026-07-21T15:21:01.152Z"
+      fetched_at: '2026-07-21T15:21:01.152Z'
       bytes: 9903
 insights:
   summary: MCP Prompt Engine is a Go-based MCP server that serves dynamic prompt templates using Go text/template syntax.
-  why_it_matters: It lets developers manage and version prompt templates as code, making prompt reuse and dynamic argument injection reliable across MCP clients.
+  why_it_matters: >-
+    It lets developers manage and version prompt templates as code, making prompt reuse and dynamic argument injection
+    reliable across MCP clients.
   mental_damage: Another layer of YAML-adjacent templating to maintain while waiting for the next protocol that makes this obsolete.
   tags:
     - mcp
@@ -56,31 +60,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core identity is serving prompts via the Model Context Protocol, making MCP Servers & Tooling the best fit.
+  reason: >-
+    The product is an MCP server whose core identity is serving prompts via the Model Context Protocol, making MCP
+    Servers & Tooling the best fit.
   evidence:
-    - "Repo description: 'MCP Prompt Engine'"
-    - "README: 'A Model Control Protocol (MCP) server for managing and serving dynamic prompt templates'"
-    - "Source-list context: listed in awesome-mcp-servers under Server Implementations > Developer Tools"
+    - 'Repo description: ''MCP Prompt Engine'''
+    - 'README: ''A Model Control Protocol (MCP) server for managing and serving dynamic prompt templates'''
+    - 'Source-list context: listed in awesome-mcp-servers under Server Implementations > Developer Tools'
 placement:
-  primary_category: mcp
-  section: Generic Servers & Middleware
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Prompt Engineering & Management
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.654Z"
+    updated_at: '2026-05-06T22:12:15.654Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:01.152Z"
+    updated_at: '2026-07-21T15:21:01.152Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:21:54.072Z"
+    updated_at: '2026-05-12T15:21:54.072Z'
     cause: null
     next_retry_at: null
     attempts: 1

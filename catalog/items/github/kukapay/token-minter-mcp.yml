@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__token-minter-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,12 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/token-minter-mcp
         extracted_url: https://github.com/kukapay/token-minter-mcp
-        surrounding_text: "- [kukapay/token-minter-mcp](https://github.com/kukapay/token-minter-mcp) 🐍 ☁️ -  An MCP server providing tools for AI agents to mint ERC-20 tokens across multiple blockchains."
+        surrounding_text: >-
+          - [kukapay/token-minter-mcp](https://github.com/kukapay/token-minter-mcp) 🐍 ☁️ -  An MCP server providing
+          tools for AI agents to mint ERC-20 tokens across multiple blockchains.
         confidence: high
     - id: discovery__github__kukapay__token-minter-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +37,10 @@ provenance:
           - 💰 Finance & Fintech
         anchor_text: kukapay/token-minter-mcp
         extracted_url: https://github.com/kukapay/token-minter-mcp
-        surrounding_text: "-   **[kukapay/token-minter-mcp](https://github.com/kukapay/token-minter-mcp)** [![GitHub stars](https://img.shields.io/github/stars/kukapay/token-minter-mcp?style=social)](https://github.com/kukapay/token-minter-mcp): Allows AI agents to mint ERC-20 tokens."
+        surrounding_text: >-
+          -   **[kukapay/token-minter-mcp](https://github.com/kukapay/token-minter-mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/kukapay/token-minter-mcp?style=social)](https://github.com/kukapay/token-minter-mcp):
+          Allows AI agents to mint ERC-20 tokens.
         confidence: high
 metadata:
   github:
@@ -45,18 +50,20 @@ metadata:
     archived: false
     full_name: kukapay/token-minter-mcp
     html_url: https://github.com/kukapay/token-minter-mcp
-    created_at: "2025-03-19T14:18:31Z"
-    pushed_at: "2025-04-28T12:09:32Z"
+    created_at: '2025-03-19T14:18:31Z'
+    pushed_at: '2025-04-28T12:09:32Z'
     description: An MCP server providing tools for AI agents to mint ERC-20 tokens across multiple blockchains.
-    homepage: ""
+    homepage: ''
     topics: []
-    last_checked_at: "2026-07-30T05:06:01.090Z"
+    last_checked_at: '2026-07-30T05:06:01.090Z'
     readme:
-      fetched_at: "2026-07-30T05:06:01.090Z"
+      fetched_at: '2026-07-30T05:06:01.090Z'
       bytes: 6218
 insights:
   summary: An MCP server that enables AI agents to mint ERC-20 tokens across 21 blockchains.
-  why_it_matters: Developers can integrate token deployment and blockchain interactions directly into AI agent workflows without leaving their MCP-enabled environment.
+  why_it_matters: >-
+    Developers can integrate token deployment and blockchain interactions directly into AI agent workflows without
+    leaving their MCP-enabled environment.
   mental_damage: Now your AI agent can spin up tokens faster than you can explain why this is a good idea.
   tags:
     - mcp
@@ -74,24 +81,25 @@ curation:
     - Listed in awesome-mcp-list under Finance & Fintech
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.589Z"
+    updated_at: '2026-05-06T22:12:15.589Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:01.090Z"
+    updated_at: '2026-07-30T05:06:01.090Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:14:10.896Z"
+    updated_at: '2026-07-21T16:14:10.896Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -112,6 +120,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another
+        assistant.
       review_reason: null
       review_resume_lifecycle: null

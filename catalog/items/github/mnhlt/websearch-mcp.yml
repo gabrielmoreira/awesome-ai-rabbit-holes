@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mnhlt__websearch-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,7 @@ provenance:
           - Community Servers
         anchor_text: WebSearch-MCP
         extracted_url: https://github.com/mnhlt/websearch-mcp
-        surrounding_text: "- **[WebSearch-MCP](https://github.com/mnhlt/WebSearch-MCP)** - Self-hosted Websearch API"
+        surrounding_text: '- **[WebSearch-MCP](https://github.com/mnhlt/WebSearch-MCP)** - Self-hosted Websearch API'
         confidence: high
 metadata:
   github:
@@ -29,21 +29,29 @@ metadata:
     archived: false
     full_name: mnhlt/WebSearch-MCP
     html_url: https://github.com/mnhlt/WebSearch-MCP
-    created_at: "2025-03-24T21:44:03Z"
-    pushed_at: "2025-04-30T18:04:26Z"
-    description: "[Self-hosted] A Model Context Protocol (MCP) server implementation that provides a web search capability over stdio transport. This server integrates with a WebSearch Crawler API to retrieve search results."
-    homepage: ""
+    created_at: '2025-03-24T21:44:03Z'
+    pushed_at: '2025-04-30T18:04:26Z'
+    description: >-
+      [Self-hosted] A Model Context Protocol (MCP) server implementation that provides a web search capability over
+      stdio transport. This server integrates with a WebSearch Crawler API to retrieve search results.
+    homepage: ''
     topics:
       - internet-access-llm
       - websearch
-    last_checked_at: "2026-08-03T05:17:05.669Z"
+    last_checked_at: '2026-08-03T05:17:05.669Z'
     readme:
-      fetched_at: "2026-08-03T05:17:05.669Z"
+      fetched_at: '2026-08-03T05:17:05.669Z'
       bytes: 11365
 insights:
-  summary: A self-hosted Model Context Protocol (MCP) server that provides web search capabilities to AI assistants like Claude by integrating with a local WebSearch Crawler API via stdio transport.
-  why_it_matters: It allows developers to give their local MCP-compatible coding agents real-time web access without relying on black-box cloud APIs.
-  mental_damage: Because nothing says 'local-first development' like spinning up a Docker container, a FlareSolverr bypass, and a custom crawler just to ask your assistant what the weather is.
+  summary: >-
+    A self-hosted Model Context Protocol (MCP) server that provides web search capabilities to AI assistants like Claude
+    by integrating with a local WebSearch Crawler API via stdio transport.
+  why_it_matters: >-
+    It allows developers to give their local MCP-compatible coding agents real-time web access without relying on
+    black-box cloud APIs.
+  mental_damage: >-
+    Because nothing says 'local-first development' like spinning up a Docker container, a FlareSolverr bypass, and a
+    custom crawler just to ask your assistant what the weather is.
   tags:
     - mcp
     - web-search
@@ -53,35 +61,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a purpose-built MCP server providing a specific domain capability (web search), fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is a purpose-built MCP server providing a specific domain capability (web search), fitting the MCP Servers &
+    Tooling category.
   evidence:
-    - Repo description explicitly states 'A Model Context Protocol (MCP) server implementation that provides a web search capability.'
+    - >-
+      Repo description explicitly states 'A Model Context Protocol (MCP) server implementation that provides a web
+      search capability.'
     - README details integration with Claude Desktop, Cursor IDE, and Cline as an MCP server.
     - Listed in the 'awesome-mcp-servers' directory under the 'Community Servers' section.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.631Z"
+    updated_at: '2026-05-06T22:12:15.631Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:17:05.669Z"
+    updated_at: '2026-08-03T05:17:05.669Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

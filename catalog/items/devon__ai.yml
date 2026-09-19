@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__devon__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Coding Agents
         anchor_text: Devon
         extracted_url: https://devon.ai
-        surrounding_text: "- **[Devon](https://devon.ai/)** – AI software engineer for autonomous coding."
+        surrounding_text: '- **[Devon](https://devon.ai/)** – AI software engineer for autonomous coding.'
         confidence: high
 metadata:
   github:
@@ -36,9 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Devon is an AI-powered software engineer designed to automate complex development tasks and manage full software lifecycles.
-  why_it_matters: It aims to move beyond simple autocomplete by acting as a high-level agent capable of planning and executing entire engineering workflows.
-  mental_damage: One more autonomous agent to convince you that your job is safe, right before it hallucinates a critical bug in production.
+  summary: >-
+    Devon is an AI-powered software engineer designed to automate complex development tasks and manage full software
+    lifecycles.
+  why_it_matters: >-
+    It aims to move beyond simple autocomplete by acting as a high-level agent capable of planning and executing entire
+    engineering workflows.
+  mental_damage: >-
+    One more autonomous agent to convince you that your job is safe, right before it hallucinates a critical bug in
+    production.
   tags:
     - coding-agent
     - software-engineering
@@ -46,20 +52,23 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The tool is positioned as a standalone AI software engineer that plans and executes work, rather than just an extension for an existing editor.
+  reason: >-
+    The tool is positioned as a standalone AI software engineer that plans and executes work, rather than just an
+    extension for an existing editor.
   evidence:
     - Included in 'awesome-ai-coding-tools' under Coding Agents
     - Marketed as an AI engineer rather than a simple plugin
 placement:
   primary_category: coding-agents
-  section: Terminal & CLI Agents
+  secondary_categories: []
+  section: Autonomous & Multi-Agent Coding
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.660Z"
+    updated_at: '2026-05-06T22:12:15.660Z'
     cause: null
     next_retry_at: null
   stars:
@@ -68,7 +77,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:37:49.281Z"
+    updated_at: '2026-07-20T15:37:49.281Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -81,13 +90,17 @@ processing:
       input_hash: sha256:f0f241e781028e28d836a11327c8e737dbfbf6535b6d5b283e777a5e80fd1071
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: The tool is positioned as a standalone AI software engineer that plans and executes work, rather than just an extension for an existing editor.
+      decision_reason: >-
+        The tool is positioned as a standalone AI software engineer that plans and executes work, rather than just an
+        extension for an existing editor.
       decision_evidence:
         - Included in 'awesome-ai-coding-tools' under Coding Agents
         - Marketed as an AI engineer rather than a simple plugin
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because it presents itself as a primary engineering agent rather than a tool meant to augment a specific IDE.
+      contrastive_reason: >-
+        Choose coding-agents over ai-dev-extensions because it presents itself as a primary engineering agent rather
+        than a tool meant to augment a specific IDE.
       review_reason: null
       review_resume_lifecycle: null

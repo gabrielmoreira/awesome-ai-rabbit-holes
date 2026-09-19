@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__coderamp-labs__gitingest__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: gitingest
         extracted_url: https://github.com/cyclotruc/gitingest
-        surrounding_text: "- [narumiruna/gitingest-mcp](https://github.com/narumiruna/gitingest-mcp) 🐍 🏠 - A MCP server that uses [gitingest](https://github.com/cyclotruc/gitingest) to convert any Git repository into a simple text digest of its codebase."
+        surrounding_text: >-
+          - [narumiruna/gitingest-mcp](https://github.com/narumiruna/gitingest-mcp) 🐍 🏠 - A MCP server that uses
+          [gitingest](https://github.com/cyclotruc/gitingest) to convert any Git repository into a simple text digest of
+          its codebase.
         confidence: high
 metadata:
   github:
@@ -30,22 +33,24 @@ metadata:
     archived: false
     full_name: coderamp-labs/gitingest
     html_url: https://github.com/coderamp-labs/gitingest
-    created_at: "2024-11-29T08:27:18Z"
-    pushed_at: "2026-09-02T07:45:31Z"
-    description: "Replace 'hub' with 'ingest' in any GitHub URL to get a prompt-friendly extract of a codebase "
+    created_at: '2024-11-29T08:27:18Z'
+    pushed_at: '2026-09-02T07:45:31Z'
+    description: 'Replace ''hub'' with ''ingest'' in any GitHub URL to get a prompt-friendly extract of a codebase '
     homepage: https://gitingest.com
     topics:
       - ai
       - code
       - developer-tool
       - ingestion
-    last_checked_at: "2026-09-07T04:13:49.057Z"
+    last_checked_at: '2026-09-07T04:13:49.057Z'
     readme:
-      fetched_at: "2026-09-07T04:13:49.057Z"
+      fetched_at: '2026-09-07T04:13:49.057Z'
       bytes: 14527
 insights:
   summary: A tool that converts GitHub repository URLs into prompt-friendly text digests for LLM consumption.
-  why_it_matters: Developers can quickly feed entire codebases into LLMs without manual context curation, improving prompt relevance and reducing token waste.
+  why_it_matters: >-
+    Developers can quickly feed entire codebases into LLMs without manual context curation, improving prompt relevance
+    and reducing token waste.
   mental_damage: Now you can finally stop pretending you read the entire repo before asking the LLM to fix it.
   tags:
     - context-engineering
@@ -55,31 +60,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Core novelty is transforming raw codebases into optimized LLM context, which is prompt/context engineering territory.
+  reason: >-
+    Core novelty is transforming raw codebases into optimized LLM context, which is prompt/context engineering
+    territory.
   evidence:
     - Repo description explicitly states it turns Git repos into 'prompt-friendly extract'
     - README highlights 'Easy code context' and 'Smart Formatting' for LLM prompts
     - Canonical positives for context-engineering include gitingest
 placement:
-  primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Retrieval & Fresh Docs
 lifecycle:
   status: promotion_candidate
   reason: Stars (14569) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:49.057Z"
+    updated_at: '2026-09-07T04:13:49.057Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:45:36.441Z"
+    updated_at: '2026-07-21T15:45:36.441Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -92,7 +100,9 @@ processing:
       input_hash: sha256:4a71baef232cd4b2a97f1967b8d535b1a36fe70a0f7e1297d4bf0ad332c8113b
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: Core novelty is transforming raw codebases into optimized LLM context, which is prompt/context engineering territory.
+      decision_reason: >-
+        Core novelty is transforming raw codebases into optimized LLM context, which is prompt/context engineering
+        territory.
       decision_evidence:
         - Repo description explicitly states it turns Git repos into 'prompt-friendly extract'
         - README highlights 'Easy code context' and 'Smart Formatting' for LLM prompts
@@ -100,6 +110,8 @@ processing:
       category_candidates:
         - context-engineering
         - ai-dev-extensions
-      contrastive_reason: Choose context-engineering over ai-dev-extensions because the main value is prompt-optimized codebase extraction rather than augmenting another assistant.
+      contrastive_reason: >-
+        Choose context-engineering over ai-dev-extensions because the main value is prompt-optimized codebase extraction
+        rather than augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

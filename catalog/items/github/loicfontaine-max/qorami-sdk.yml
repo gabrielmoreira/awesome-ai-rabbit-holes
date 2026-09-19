@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__loicfontaine-max__qorami-sdk__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-08T05:39:05.247Z"
+      discovered_at: '2026-06-08T05:39:05.247Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: loicfontaine-max/qorami-sdk
         extracted_url: https://github.com/loicfontaine-max/qorami-sdk
-        surrounding_text: "- [loicfontaine-max/qorami-sdk](https://github.com/loicfontaine-max/qorami-sdk/tree/main/mcp) [![qorami-sdk MCP server](https://glama.ai/mcp/servers/loicfontaine-max/qorami-sdk/badges/score.svg)](https://glama.ai/mcp/servers/loicfontaine-max/qorami-sdk) 📇 ☁️ - Check an email before an AI agent sends it: returns send / ask-a-human / block, with machine reason codes and prompt-injection detection."
+        surrounding_text: >-
+          - [loicfontaine-max/qorami-sdk](https://github.com/loicfontaine-max/qorami-sdk/tree/main/mcp) [![qorami-sdk
+          MCP
+          server](https://glama.ai/mcp/servers/loicfontaine-max/qorami-sdk/badges/score.svg)](https://glama.ai/mcp/servers/loicfontaine-max/qorami-sdk)
+          📇 ☁️ - Check an email before an AI agent sends it: returns send / ask-a-human / block, with machine reason
+          codes and prompt-injection detection.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: loicfontaine-max/qorami-sdk
     html_url: https://github.com/loicfontaine-max/qorami-sdk
-    created_at: "2026-05-31T21:20:24Z"
-    pushed_at: "2026-07-03T09:40:52Z"
-    description: Official Qorami SDK — JS/Python clients, tool schemas and an MCP server so AI agents check email before sending. https://qorami.fr
+    created_at: '2026-05-31T21:20:24Z'
+    pushed_at: '2026-07-03T09:40:52Z'
+    description: >-
+      Official Qorami SDK — JS/Python clients, tool schemas and an MCP server so AI agents check email before sending.
+      https://qorami.fr
     homepage: https://qorami.fr
     topics:
       - agent-tools
@@ -45,13 +52,15 @@ metadata:
       - mcp
       - model-context-protocol
       - openai
-    last_checked_at: "2026-07-30T05:06:07.969Z"
+    last_checked_at: '2026-07-30T05:06:07.969Z'
     readme:
-      fetched_at: "2026-07-30T05:06:07.969Z"
+      fetched_at: '2026-07-30T05:06:07.969Z'
       bytes: 4544
 insights:
   summary: An SDK and MCP server that provides a safety and governance layer for AI agents to control email communications.
-  why_it_matters: It enables developers to implement human-in-the-loop patterns and automated policy enforcement for agentic email workflows.
+  why_it_matters: >-
+    It enables developers to implement human-in-the-loop patterns and automated policy enforcement for agentic email
+    workflows.
   mental_damage: Because nothing says 'AI autonomy' quite like requiring a human to approve every message your LLM tries to send.
   tags:
     - mcp
@@ -62,31 +71,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool provides an MCP server as a core interface for agents to interact with email safely, making it a specialized tool for the MCP ecosystem.
+  reason: >-
+    The tool provides an MCP server as a core interface for agents to interact with email safely, making it a
+    specialized tool for the MCP ecosystem.
   evidence:
     - Provides an MCP server for Claude Desktop and Cursor
     - Offers SDKs for JS and Python to integrate guardrails into agent workflows
     - Implements a human-in-the-loop pattern (request_human_confirmation)
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-08T05:39:05.248Z"
+    updated_at: '2026-06-08T05:39:05.248Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:07.969Z"
+    updated_at: '2026-07-30T05:06:07.969Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-06T05:57:18.083Z"
+    updated_at: '2026-07-06T05:57:18.083Z'
     cause: null
     next_retry_at: null
     attempts: 2

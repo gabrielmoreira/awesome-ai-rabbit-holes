@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__itzenata__iris-tui__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-07-16T05:04:46.712Z"
+      discovered_at: '2026-07-16T05:04:46.712Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Session managers & parallel runners
         anchor_text: iris
         extracted_url: https://github.com/itzenata/iris-tui
-        surrounding_text: "- **[iris](https://github.com/itzenata/iris-tui)** `⭐ 5` — Live TUI supervisor for every active Claude Code session: status, tokens, estimated cost, and one-pane approval of pending tool calls via a PreToolUse hook. Rust, MIT."
+        surrounding_text: >-
+          - **[iris](https://github.com/itzenata/iris-tui)** `⭐ 5` — Live TUI supervisor for every active Claude Code
+          session: status, tokens, estimated cost, and one-pane approval of pending tool calls via a PreToolUse hook.
+          Rust, MIT.
         confidence: high
 metadata:
   github:
@@ -30,19 +33,23 @@ metadata:
     archived: false
     full_name: itzenata/iris-tui
     html_url: https://github.com/itzenata/iris-tui
-    created_at: "2026-06-18T12:07:46Z"
-    pushed_at: "2026-07-08T10:17:03Z"
+    created_at: '2026-06-18T12:07:46Z'
+    pushed_at: '2026-07-08T10:17:03Z'
     description: null
     homepage: https://itzenata.github.io/iris-tui/
     topics: []
-    last_checked_at: "2026-08-03T05:16:51.640Z"
+    last_checked_at: '2026-08-03T05:16:51.640Z'
     readme:
-      fetched_at: "2026-08-03T05:16:51.640Z"
+      fetched_at: '2026-08-03T05:16:51.640Z'
       bytes: 9554
 insights:
   summary: A terminal-based dashboard for monitoring and managing multiple active Claude Code sessions.
-  why_it_matters: It provides a single pane of glass to track model usage, costs, and active tasks across multiple concurrent autonomous agent sessions.
-  mental_damage: Nothing prepares you for the existential dread of watching your aggregate USD spend climb in real-time across a beautiful TUI.
+  why_it_matters: >-
+    It provides a single pane of glass to track model usage, costs, and active tasks across multiple concurrent
+    autonomous agent sessions.
+  mental_damage: >-
+    Nothing prepares you for the existential dread of watching your aggregate USD spend climb in real-time across a
+    beautiful TUI.
   tags:
     - terminal
     - tui
@@ -58,25 +65,26 @@ curation:
     - Provides UI for approving/denying tool calls and viewing aggregate cost
     - Does not act as the primary coding assistant, but as a management layer for an existing one
 placement:
-  primary_category: ai-dev-extensions
-  section: IDE / UI / Workflow Add-ons
+  primary_category: agent-orchestration
+  secondary_categories: []
+  section: Agent Runtimes & Harnesses
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.715Z"
+    updated_at: '2026-07-16T05:04:46.715Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:51.640Z"
+    updated_at: '2026-08-03T05:16:51.640Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-16T05:17:39.468Z"
+    updated_at: '2026-07-16T05:17:39.468Z'
     cause: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ironclad__rivet__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -19,7 +19,10 @@ provenance:
           - Other LLM Frameworks
         anchor_text: Rivet
         extracted_url: https://github.com/ironclad/rivet
-        surrounding_text: "- [Rivet](https://github.com/Ironclad/rivet): An IDE for creating complex AI agents and prompt chaining, and embedding it in your application. ![GitHub Repo stars](https://img.shields.io/github/stars/Ironclad/rivet?style=social)"
+        surrounding_text: >-
+          - [Rivet](https://github.com/Ironclad/rivet): An IDE for creating complex AI agents and prompt chaining, and
+          embedding it in your application. ![GitHub Repo
+          stars](https://img.shields.io/github/stars/Ironclad/rivet?style=social)
         confidence: high
 metadata:
   github:
@@ -29,8 +32,8 @@ metadata:
     archived: false
     full_name: Ironclad/rivet
     html_url: https://github.com/Ironclad/rivet
-    created_at: "2023-04-22T06:41:01Z"
-    pushed_at: "2026-07-15T23:58:52Z"
+    created_at: '2023-04-22T06:41:01Z'
+    pushed_at: '2026-07-15T23:58:52Z'
     description: The open-source visual AI programming environment and TypeScript library
     homepage: https://rivet.ironcladapp.com
     topics:
@@ -38,13 +41,17 @@ metadata:
       - llm
       - openai
       - typescript
-    last_checked_at: "2026-07-30T05:05:44.969Z"
+    last_checked_at: '2026-07-30T05:05:44.969Z'
     readme:
-      fetched_at: "2026-07-30T05:05:44.969Z"
+      fetched_at: '2026-07-30T05:05:44.969Z'
       bytes: 25299
 insights:
-  summary: An open-source visual AI programming environment and TypeScript library for creating complex AI agents and prompt chaining.
-  why_it_matters: It lets developers design, test, and embed AI workflows visually or programmatically, bridging the gap between no-code agent builders and code-first frameworks.
+  summary: >-
+    An open-source visual AI programming environment and TypeScript library for creating complex AI agents and prompt
+    chaining.
+  why_it_matters: >-
+    It lets developers design, test, and embed AI workflows visually or programmatically, bridging the gap between
+    no-code agent builders and code-first frameworks.
   mental_damage: Now you can spend hours perfecting a visual graph of prompts only to realize you still need to debug TypeScript.
   tags:
     - visual-ai-builder
@@ -55,31 +62,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Rivet is primarily a workbench for designing and coordinating AI agents and prompt chains, fitting the agent orchestration category better than frameworks or extensions.
+  reason: >-
+    Rivet is primarily a workbench for designing and coordinating AI agents and prompt chains, fitting the agent
+    orchestration category better than frameworks or extensions.
   evidence:
-    - "Repo description: 'The open-source visual AI programming environment and TypeScript library'"
-    - "README: 'Rivet is a desktop application for creating complex AI agents and prompt chaining, and embedding it in your application'"
-    - "Source-list context: Listed under 'Other LLM Frameworks' in awesome-langchain, but its core identity is a visual workbench"
+    - 'Repo description: ''The open-source visual AI programming environment and TypeScript library'''
+    - >-
+      README: 'Rivet is a desktop application for creating complex AI agents and prompt chaining, and embedding it in
+      your application'
+    - >-
+      Source-list context: Listed under 'Other LLM Frameworks' in awesome-langchain, but its core identity is a visual
+      workbench
 placement:
   primary_category: agent-orchestration
-  section: Workbenches & Collaboration Surfaces
+  secondary_categories: []
+  section: Visual Builders & Workbenches
 lifecycle:
   status: promotion_candidate
   reason: Stars (4567) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.621Z"
+    updated_at: '2026-05-06T22:12:15.621Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:44.969Z"
+    updated_at: '2026-07-30T05:05:44.969Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:08:41.333Z"
+    updated_at: '2026-07-21T16:08:41.333Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -92,14 +106,22 @@ processing:
       input_hash: sha256:6b07bf97afb5c594136171213f1ca4dd84811876c707bc44131a0c31bf71c1b4
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: Rivet is primarily a workbench for designing and coordinating AI agents and prompt chains, fitting the agent orchestration category better than frameworks or extensions.
+      decision_reason: >-
+        Rivet is primarily a workbench for designing and coordinating AI agents and prompt chains, fitting the agent
+        orchestration category better than frameworks or extensions.
       decision_evidence:
-        - "Repo description: 'The open-source visual AI programming environment and TypeScript library'"
-        - "README: 'Rivet is a desktop application for creating complex AI agents and prompt chaining, and embedding it in your application'"
-        - "Source-list context: Listed under 'Other LLM Frameworks' in awesome-langchain, but its core identity is a visual workbench"
+        - 'Repo description: ''The open-source visual AI programming environment and TypeScript library'''
+        - >-
+          README: 'Rivet is a desktop application for creating complex AI agents and prompt chaining, and embedding it
+          in your application'
+        - >-
+          Source-list context: Listed under 'Other LLM Frameworks' in awesome-langchain, but its core identity is a
+          visual workbench
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because Rivet's primary value is its visual workbench for coordinating agents, not its TypeScript library identity.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because Rivet's primary value is its visual workbench for
+        coordinating agents, not its TypeScript library identity.
       review_reason: null
       review_resume_lifecycle: null

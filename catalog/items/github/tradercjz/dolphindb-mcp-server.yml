@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tradercjz__dolphindb-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: tradercjz/dolphindb-mcp-server
         extracted_url: https://github.com/tradercjz/dolphindb-mcp-server
-        surrounding_text: "- [tradercjz/dolphindb-mcp-server](https://github.com/tradercjz/dolphindb-mcp-server) 🐍 ☁️ - TDolphinDB database integration with schema inspection and query capabilities"
+        surrounding_text: >-
+          - [tradercjz/dolphindb-mcp-server](https://github.com/tradercjz/dolphindb-mcp-server) 🐍 ☁️ - TDolphinDB
+          database integration with schema inspection and query capabilities
         confidence: high
 metadata:
   github:
@@ -30,18 +32,22 @@ metadata:
     archived: false
     full_name: tradercjz/dolphindb-mcp-server
     html_url: https://github.com/tradercjz/dolphindb-mcp-server
-    created_at: "2025-03-24T08:32:00Z"
-    pushed_at: "2026-03-20T05:18:28Z"
+    created_at: '2025-03-24T08:32:00Z'
+    pushed_at: '2026-03-20T05:18:28Z'
     description: dolphindb-mcp-server
     homepage: null
     topics: []
-    last_checked_at: "2026-07-21T15:20:54.354Z"
+    last_checked_at: '2026-07-21T15:20:54.354Z'
     readme:
-      fetched_at: "2026-07-21T15:20:54.354Z"
+      fetched_at: '2026-07-21T15:20:54.354Z'
       bytes: 2096
 insights:
-  summary: An MCP server that lets AI agents query and inspect DolphinDB databases using exposed functions like list_dbs and query_dolphindb.
-  why_it_matters: Developers using DolphinDB can now let MCP-compatible assistants directly inspect database structures and run scripts without manual context bridging.
+  summary: >-
+    An MCP server that lets AI agents query and inspect DolphinDB databases using exposed functions like list_dbs and
+    query_dolphindb.
+  why_it_matters: >-
+    Developers using DolphinDB can now let MCP-compatible assistants directly inspect database structures and run
+    scripts without manual context bridging.
   mental_damage: Your time-series database is now accessible to an LLM that thinks a vector is just a direction with attitude.
   tags:
     - mcp
@@ -51,35 +57,38 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: The repository is explicitly an MCP server implementation for DolphinDB, making it a textbook fit for the MCP Servers & Tooling category.
+  reason: >-
+    The repository is explicitly an MCP server implementation for DolphinDB, making it a textbook fit for the MCP
+    Servers & Tooling category.
   evidence:
     - Repo name and description are both 'dolphindb-mcp-server', confirming the MCP identity.
     - README details installation via uvx/pip and exposes functions like list_dbs and query_dolphindb.
     - Listed in awesome-mcp-servers under the Databases section.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.653Z"
+    updated_at: '2026-05-06T22:12:15.653Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:20:54.354Z"
+    updated_at: '2026-07-21T15:20:54.354Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: '2026-09-17T04:13:49.721Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

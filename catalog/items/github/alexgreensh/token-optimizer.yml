@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alexgreensh__token-optimizer__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: "2026-08-20T04:18:00.401Z"
+      discovered_at: '2026-08-20T04:18:00.401Z'
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,7 +20,10 @@ provenance:
           - Agent infrastructure
         anchor_text: token-optimizer
         extracted_url: https://github.com/alexgreensh/token-optimizer
-        surrounding_text: "- **[token-optimizer](https://github.com/alexgreensh/token-optimizer)** `⭐ 1.9k` — Context and token-cost optimizer for coding agents: finds \"ghost tokens,\" survives compaction, and fights context-quality decay. Native plugins for Claude Code, Codex, OpenCode, and OpenClaw. Source-available (PolyForm Noncommercial)."
+        surrounding_text: >-
+          - **[token-optimizer](https://github.com/alexgreensh/token-optimizer)** `⭐ 1.9k` — Context and token-cost
+          optimizer for coding agents: finds "ghost tokens," survives compaction, and fights context-quality decay.
+          Native plugins for Claude Code, Codex, OpenCode, and OpenClaw. Source-available (PolyForm Noncommercial).
         confidence: high
 metadata:
   github:
@@ -30,9 +33,9 @@ metadata:
     archived: false
     full_name: alexgreensh/token-optimizer
     html_url: https://github.com/alexgreensh/token-optimizer
-    created_at: "2026-02-26T17:29:10Z"
-    pushed_at: "2026-09-16T11:47:03Z"
-    description: "Find the ghost tokens. Fix them. Survive compaction. Avoid context quality decay. "
+    created_at: '2026-02-26T17:29:10Z'
+    pushed_at: '2026-09-16T11:47:03Z'
+    description: 'Find the ghost tokens. Fix them. Survive compaction. Avoid context quality decay. '
     homepage: https://token-optimizer.dev
     topics:
       - agentskills
@@ -52,14 +55,20 @@ metadata:
       - token-usage
       - tokenomics
       - tokenoptimization
-    last_checked_at: "2026-09-17T04:13:39.871Z"
+    last_checked_at: '2026-09-17T04:13:39.871Z'
     readme:
-      fetched_at: "2026-09-17T04:13:39.871Z"
+      fetched_at: '2026-09-17T04:13:39.871Z'
       bytes: 51849
 insights:
-  summary: A utility for identifying 'ghost tokens' and managing context compaction to prevent quality decay in AI coding assistants.
-  why_it_matters: It helps developers reduce token costs and maintain high-quality model reasoning by optimizing how context is packed into long-running agent sessions.
-  mental_damage: Because managing the entropic decay of a context window is now a legitimate part of the software development lifecycle.
+  summary: >-
+    A utility for identifying 'ghost tokens' and managing context compaction to prevent quality decay in AI coding
+    assistants.
+  why_it_matters: >-
+    It helps developers reduce token costs and maintain high-quality model reasoning by optimizing how context is packed
+    into long-running agent sessions.
+  mental_damage: >-
+    Because managing the entropic decay of a context window is now a legitimate part of the software development
+    lifecycle.
   tags:
     - token-optimization
     - context-engineering
@@ -69,31 +78,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's primary identity is context management, specifically addressing compression and token efficiency, which maps directly to the core novelty of prompt and context engineering.
+  reason: >-
+    The tool's primary identity is context management, specifically addressing compression and token efficiency, which
+    maps directly to the core novelty of prompt and context engineering.
   evidence:
     - README specifically claims to 'cut context waste' and help users 'survive compaction'.
     - Topics explicitly list 'context-engineering' and 'token-optimization'.
     - The tool targets context quality decay, a core concern of the context engineering category.
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Compression & Token Optimization
 lifecycle:
   status: promotion_candidate
   reason: Stars (1930) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-08-20T04:18:00.403Z"
+    updated_at: '2026-08-20T04:18:00.403Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:39.871Z"
+    updated_at: '2026-09-17T04:13:39.871Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:24:37.228Z"
+    updated_at: '2026-08-27T06:24:37.228Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -102,7 +114,9 @@ processing:
       input_hash: sha256:2f3bb59bc4afcd7a6ed2f09424c633fb4b203bc47fdc6ae448dc7fb24685d4c3
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: The tool's primary identity is context management, specifically addressing compression and token efficiency, which maps directly to the core novelty of prompt and context engineering.
+      decision_reason: >-
+        The tool's primary identity is context management, specifically addressing compression and token efficiency,
+        which maps directly to the core novelty of prompt and context engineering.
       decision_evidence:
         - README specifically claims to 'cut context waste' and help users 'survive compaction'.
         - Topics explicitly list 'context-engineering' and 'token-optimization'.
@@ -110,7 +124,9 @@ processing:
       category_candidates:
         - context-engineering
         - ai-dev-extensions
-      contrastive_reason: Choose context-engineering over ai-dev-extensions because the core novelty is context-shaping and compression rather than just providing host integration capabilities.
+      contrastive_reason: >-
+        Choose context-engineering over ai-dev-extensions because the core novelty is context-shaping and compression
+        rather than just providing host integration capabilities.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

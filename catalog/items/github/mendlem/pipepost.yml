@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mendlem__pipepost__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: MendleM/Pipepost
         extracted_url: https://github.com/mendlem/pipepost
-        surrounding_text: "- [MendleM/Pipepost](https://github.com/MendleM/Pipepost) [![MendleM/Pipepost MCP server](https://glama.ai/mcp/servers/MendleM/pipepost/badges/score.svg)](https://glama.ai/mcp/servers/MendleM/pipepost) 📇 🏠 - Publish from your terminal. Drafts SEO-scored articles, cross-publishes to Dev.to, Ghost, Hashnode, WordPress, and Medium with auto-wired canonical URLs, generates social posts for Twitter/LinkedIn/Reddit/Bluesky/HN, fetches Unsplash cover images, and submits URLs to IndexNow — all as local stdio, no cloud relay."
+        surrounding_text: >-
+          - [MendleM/Pipepost](https://github.com/MendleM/Pipepost) [![MendleM/Pipepost MCP
+          server](https://glama.ai/mcp/servers/MendleM/pipepost/badges/score.svg)](https://glama.ai/mcp/servers/MendleM/pipepost)
+          📇 🏠 - Publish from your terminal. Drafts SEO-scored articles, cross-publishes to Dev.to, Ghost, Hashnode,
+          WordPress, and Medium with auto-wired canonical URLs, generates social posts for
+          Twitter/LinkedIn/Reddit/Bluesky/HN, fetches Unsplash cover images, and submits URLs to IndexNow — all as local
+          stdio, no cloud relay.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: MendleM/Pipepost
     html_url: https://github.com/MendleM/Pipepost
-    created_at: "2026-04-13T20:27:04Z"
-    pushed_at: "2026-04-16T21:00:18Z"
-    description: MCP server to publish to Dev.to, Ghost, Hashnode, WordPress, Medium, LinkedIn, X, Bluesky, Mastodon from Claude Code. SEO scoring, canonical-URL wiring, social-post generation, Unsplash covers, IndexNow.
+    created_at: '2026-04-13T20:27:04Z'
+    pushed_at: '2026-04-16T21:00:18Z'
+    description: >-
+      MCP server to publish to Dev.to, Ghost, Hashnode, WordPress, Medium, LinkedIn, X, Bluesky, Mastodon from Claude
+      Code. SEO scoring, canonical-URL wiring, social-post generation, Unsplash covers, IndexNow.
     homepage: https://pipepost.dev
     topics:
       - bluesky
@@ -49,14 +57,20 @@ metadata:
       - seo
       - typescript
       - wordpress
-    last_checked_at: "2026-08-03T05:16:59.920Z"
+    last_checked_at: '2026-08-03T05:16:59.920Z'
     readme:
-      fetched_at: "2026-08-03T05:16:59.920Z"
+      fetched_at: '2026-08-03T05:16:59.920Z'
       bytes: 10878
 insights:
-  summary: An MCP server that turns Claude Code into a content publishing pipeline with SEO scoring, multi-platform CMS publishing, social media posting, and analytics.
-  why_it_matters: It lets developers handle the entire content lifecycle—from SEO audits to cross-posting across Dev.to, Ghost, and LinkedIn—directly from their terminal without leaving Claude Code.
-  mental_damage: We have successfully automated the distraction of writing about coding so we can spend even less time actually coding.
+  summary: >-
+    An MCP server that turns Claude Code into a content publishing pipeline with SEO scoring, multi-platform CMS
+    publishing, social media posting, and analytics.
+  why_it_matters: >-
+    It lets developers handle the entire content lifecycle—from SEO audits to cross-posting across Dev.to, Ghost, and
+    LinkedIn—directly from their terminal without leaving Claude Code.
+  mental_damage: >-
+    We have successfully automated the distraction of writing about coding so we can spend even less time actually
+    coding.
   tags:
     - mcp
     - content-publishing
@@ -66,35 +80,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server providing domain-specific publishing capabilities to Claude Code, fitting squarely into MCP Servers & Tooling.
+  reason: >-
+    The product's core identity is an MCP server providing domain-specific publishing capabilities to Claude Code,
+    fitting squarely into MCP Servers & Tooling.
   evidence:
     - Repo description explicitly states 'MCP server to publish to Dev.to, Ghost, Hashnode... from Claude Code'
     - README demonstrates MCP tool definitions for publishing, SEO, and social broadcasting
     - Listed in awesome-mcp-servers under 'Marketing' section, confirming its protocol-first identity
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.629Z"
+    updated_at: '2026-05-06T22:12:15.629Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-03T05:16:59.920Z"
+    updated_at: '2026-08-03T05:16:59.920Z'
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: '2026-09-17T04:13:49.719Z'
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: '77e831995030'

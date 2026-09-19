@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__doctorm333__promptpilot-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: doctorm333/promptpilot-mcp-server
         extracted_url: https://github.com/doctorm333/promptpilot-mcp-server
-        surrounding_text: "- [doctorm333/promptpilot-mcp-server](https://github.com/doctorm333/promptpilot-mcp-server) [![doctorm333/promptpilot-mcp-server MCP server](https://glama.ai/mcp/servers/doctorm333/promptpilot-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/doctorm333/promptpilot-mcp-server) 📇 ☁️ - Generate images, video, and audio via 20+ AI models (Flux, GPT-Image-1, Imagen 4, Grok, Seedance, ElevenLabs). Prompt builder with styles, lighting, camera, mood presets. Batch generation support."
+        surrounding_text: >-
+          - [doctorm333/promptpilot-mcp-server](https://github.com/doctorm333/promptpilot-mcp-server)
+          [![doctorm333/promptpilot-mcp-server MCP
+          server](https://glama.ai/mcp/servers/doctorm333/promptpilot-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/doctorm333/promptpilot-mcp-server)
+          📇 ☁️ - Generate images, video, and audio via 20+ AI models (Flux, GPT-Image-1, Imagen 4, Grok, Seedance,
+          ElevenLabs). Prompt builder with styles, lighting, camera, mood presets. Batch generation support.
         confidence: high
 metadata:
   github:
@@ -30,18 +35,22 @@ metadata:
     archived: false
     full_name: doctorm333/promptpilot-mcp-server
     html_url: https://github.com/doctorm333/promptpilot-mcp-server
-    created_at: "2026-03-05T10:52:48Z"
-    pushed_at: "2026-09-12T10:02:37Z"
+    created_at: '2026-03-05T10:52:48Z'
+    pushed_at: '2026-09-12T10:02:37Z'
     description: MCP server for PromptPilot.club — generate images, video, and audio via Pollinations API
     homepage: https://promptpilot.club
     topics: []
-    last_checked_at: "2026-09-14T04:13:42.436Z"
+    last_checked_at: '2026-09-14T04:13:42.436Z'
     readme:
-      fetched_at: "2026-09-14T04:13:42.436Z"
+      fetched_at: '2026-09-14T04:13:42.436Z'
       bytes: 3388
 insights:
-  summary: MCP server for PromptPilot.club that enables image, video, and audio generation via Pollinations API in MCP-compatible AI agents.
-  why_it_matters: Lets developers generate media directly from their coding assistants (Claude Code, Cursor, Windsurf) without leaving their workflow.
+  summary: >-
+    MCP server for PromptPilot.club that enables image, video, and audio generation via Pollinations API in
+    MCP-compatible AI agents.
+  why_it_matters: >-
+    Lets developers generate media directly from their coding assistants (Claude Code, Cursor, Windsurf) without leaving
+    their workflow.
   mental_damage: Now your coding agent can also moonlight as a meme factory.
   tags:
     - mcp-server
@@ -58,24 +67,25 @@ curation:
     - Listed in awesome-mcp-servers under Server Implementations > Art & Culture
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: AI & Model Services
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.611Z"
+    updated_at: '2026-05-06T22:12:15.611Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:42.436Z"
+    updated_at: '2026-09-14T04:13:42.436Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:51:26.106Z"
+    updated_at: '2026-07-21T15:51:26.106Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -96,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is an MCP server, not merely an extension for
+        another assistant.
       review_reason: null
       review_resume_lifecycle: null

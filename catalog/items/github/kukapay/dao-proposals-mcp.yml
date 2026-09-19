@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kukapay__dao-proposals-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: kukapay/dao-proposals-mcp
         extracted_url: https://github.com/kukapay/dao-proposals-mcp
-        surrounding_text: "- [kukapay/dao-proposals-mcp](https://github.com/kukapay/dao-proposals-mcp) 🐍 ☁️ - An MCP server that aggregates live governance proposals from major DAOs."
+        surrounding_text: >-
+          - [kukapay/dao-proposals-mcp](https://github.com/kukapay/dao-proposals-mcp) 🐍 ☁️ - An MCP server that
+          aggregates live governance proposals from major DAOs.
         confidence: high
 metadata:
   github:
@@ -30,18 +32,20 @@ metadata:
     archived: false
     full_name: kukapay/dao-proposals-mcp
     html_url: https://github.com/kukapay/dao-proposals-mcp
-    created_at: "2025-08-02T09:59:54Z"
-    pushed_at: "2025-08-02T10:00:13Z"
+    created_at: '2025-08-02T09:59:54Z'
+    pushed_at: '2025-08-02T10:00:13Z'
     description: An MCP server that aggregates live governance proposals from major DAOs.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:59.933Z"
+    last_checked_at: '2026-07-30T05:05:59.933Z'
     readme:
-      fetched_at: "2026-07-30T05:05:59.933Z"
+      fetched_at: '2026-07-30T05:05:59.933Z'
       bytes: 3633
 insights:
   summary: An MCP server that aggregates live governance proposals from major DAOs via Snapshot for AI agent consumption.
-  why_it_matters: Enables AI agents to track, analyze, and act on decentralized governance decisions in real time, bridging blockchain governance data with AI workflows.
+  why_it_matters: >-
+    Enables AI agents to track, analyze, and act on decentralized governance decisions in real time, bridging blockchain
+    governance data with AI workflows.
   mental_damage: Now your AI can vote in DAOs while you’re still trying to understand what a DAO is.
   tags:
     - mcp
@@ -52,31 +56,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a domain-specific MCP server whose primary identity is providing DAO governance data via the Model Context Protocol.
+  reason: >-
+    This is a domain-specific MCP server whose primary identity is providing DAO governance data via the Model Context
+    Protocol.
   evidence:
     - Repo description explicitly states it is an MCP server for DAO proposals
     - README details MCP tools (`list_spaces`, `list_proposals`, etc.) and Snapshot integration
     - Installation instructions target MCP/Claude Desktop usage
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.625Z"
+    updated_at: '2026-05-06T22:12:15.625Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:59.933Z"
+    updated_at: '2026-07-30T05:05:59.933Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:13:52.685Z"
+    updated_at: '2026-07-21T16:13:52.685Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +96,9 @@ processing:
       input_hash: sha256:dc0fb19fc30ff3dc793b042c7c196bd64dbdf8c59b7301275b933b378fe399fc
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: This is a domain-specific MCP server whose primary identity is providing DAO governance data via the Model Context Protocol.
+      decision_reason: >-
+        This is a domain-specific MCP server whose primary identity is providing DAO governance data via the Model
+        Context Protocol.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for DAO proposals
         - README details MCP tools (`list_spaces`, `list_proposals`, etc.) and Snapshot integration
@@ -97,6 +106,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product’s core identity is an MCP server, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product’s core identity is an MCP server, not an extension
+        augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__varun29ankus__shodh-memory__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: varun29ankuS/shodh-memory
         extracted_url: https://github.com/varun29ankus/shodh-memory
-        surrounding_text: "- [varun29ankuS/shodh-memory](https://github.com/varun29ankuS/shodh-memory) 🦀 🏠 - Cognitive memory for AI agents with Hebbian learning, 3-tier architecture, and knowledge graphs. Single ~15MB binary, runs offline on edge devices."
+        surrounding_text: >-
+          - [varun29ankuS/shodh-memory](https://github.com/varun29ankuS/shodh-memory) 🦀 🏠 - Cognitive memory for AI
+          agents with Hebbian learning, 3-tier architecture, and knowledge graphs. Single ~15MB binary, runs offline on
+          edge devices.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: varun29ankuS/shodh-memory
     html_url: https://github.com/varun29ankuS/shodh-memory
-    created_at: "2025-12-03T13:39:53Z"
-    pushed_at: "2026-07-15T14:12:59Z"
-    description: Local, LLM-free memory for AI agents. A single offline Rust binary — deterministic and auditable — that learns from use, forgets the irrelevant, and strengthens what matters. No cloud, no API keys.
+    created_at: '2025-12-03T13:39:53Z'
+    pushed_at: '2026-07-15T14:12:59Z'
+    description: >-
+      Local, LLM-free memory for AI agents. A single offline Rust binary — deterministic and auditable — that learns
+      from use, forgets the irrelevant, and strengthens what matters. No cloud, no API keys.
     homepage: https://www.shodh-memory.com
     topics:
       - agent-memory
@@ -55,14 +60,20 @@ metadata:
       - vector-database
       - vector-search
       - zenoh
-    last_checked_at: "2026-07-21T15:21:01.135Z"
+    last_checked_at: '2026-07-21T15:21:01.135Z'
     readme:
-      fetched_at: "2026-07-21T15:21:01.135Z"
+      fetched_at: '2026-07-21T15:21:01.135Z'
       bytes: 17616
 insights:
-  summary: Shodh-Memory is a persistent cognitive memory system for AI agents that learns from usage and forgets irrelevant data via algorithmic intelligence, running fully offline as a single binary.
-  why_it_matters: It gives developers a lightweight, private memory layer for AI agents that improves with use without API calls or external dependencies.
-  mental_damage: Finally, a memory system that doesn’t require you to trade latency, cost, or offline access for the illusion of intelligence.
+  summary: >-
+    Shodh-Memory is a persistent cognitive memory system for AI agents that learns from usage and forgets irrelevant
+    data via algorithmic intelligence, running fully offline as a single binary.
+  why_it_matters: >-
+    It gives developers a lightweight, private memory layer for AI agents that improves with use without API calls or
+    external dependencies.
+  mental_damage: >-
+    Finally, a memory system that doesn’t require you to trade latency, cost, or offline access for the illusion of
+    intelligence.
   tags:
     - memory
     - mcp
@@ -72,31 +83,40 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Shodh-Memory’s core innovation is its algorithmic memory system—local embeddings, Hebbian learning, and mathematical decay—which improves context for models rather than acting as a coding assistant or host integration.
+  reason: >-
+    Shodh-Memory’s core innovation is its algorithmic memory system—local embeddings, Hebbian learning, and mathematical
+    decay—which improves context for models rather than acting as a coding assistant or host integration.
   evidence:
-    - "README: 'Shodh uses algorithmic intelligence: local embeddings, mathematical decay, learned associations. No LLM in the loop.'"
-    - "Repo description: 'Cognitive memory for AI agents — learns from use, forgets what's irrelevant, strengthens what matters.'"
-    - "Source-list context: listed in awesome-mcp-servers under Knowledge & Memory, indicating its role as a memory infrastructure component."
+    - >-
+      README: 'Shodh uses algorithmic intelligence: local embeddings, mathematical decay, learned associations. No LLM
+      in the loop.'
+    - >-
+      Repo description: 'Cognitive memory for AI agents — learns from use, forgets what's irrelevant, strengthens what
+      matters.'
+    - >-
+      Source-list context: listed in awesome-mcp-servers under Knowledge & Memory, indicating its role as a memory
+      infrastructure component.
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: promotion_candidate
   reason: Stars (210) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.654Z"
+    updated_at: '2026-05-06T22:12:15.654Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:01.135Z"
+    updated_at: '2026-07-21T15:21:01.135Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:21:56.550Z"
+    updated_at: '2026-05-12T15:21:56.550Z'
     cause: null
     next_retry_at: null
     attempts: 1

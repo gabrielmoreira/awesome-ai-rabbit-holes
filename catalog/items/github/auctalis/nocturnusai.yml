@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__auctalis__nocturnusai__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: Auctalis/nocturnusai
         extracted_url: https://github.com/auctalis/nocturnusai
-        surrounding_text: "- [Auctalis/nocturnusai](https://github.com/Auctalis/nocturnusai) [![Auctalis/nocturnusai MCP server](https://glama.ai/mcp/servers/Auctalis/nocturnusai/badges/score.svg)](https://glama.ai/mcp/servers/Auctalis/nocturnusai) 🐍 🏠 - Deterministic reasoning engine for AI agent context compression. Extracts structured facts with logical inference, proof chains, and truth maintenance. REST API, Python/TypeScript SDKs, and MCP server integration."
+        surrounding_text: >-
+          - [Auctalis/nocturnusai](https://github.com/Auctalis/nocturnusai) [![Auctalis/nocturnusai MCP
+          server](https://glama.ai/mcp/servers/Auctalis/nocturnusai/badges/score.svg)](https://glama.ai/mcp/servers/Auctalis/nocturnusai)
+          🐍 🏠 - Deterministic reasoning engine for AI agent context compression. Extracts structured facts with
+          logical inference, proof chains, and truth maintenance. REST API, Python/TypeScript SDKs, and MCP server
+          integration.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,11 @@ metadata:
     archived: false
     full_name: Auctalis/nocturnusai
     html_url: https://github.com/Auctalis/nocturnusai
-    created_at: "2026-02-19T17:41:50Z"
-    pushed_at: "2026-08-14T13:32:02Z"
-    description: Verified knowledge for AI agents.  Compress context, extract and store facts, define rules, and ask questions — get deterministic answers with proof, not LLM guesses. Connect agents via MCP, Python SDK, TypeSc
+    created_at: '2026-02-19T17:41:50Z'
+    pushed_at: '2026-08-14T13:32:02Z'
+    description: >-
+      Verified knowledge for AI agents.  Compress context, extract and store facts, define rules, and ask questions —
+      get deterministic answers with proof, not LLM guesses. Connect agents via MCP, Python SDK, TypeSc
     homepage: https://nocturnus.ai/
     topics:
       - agentic-ai
@@ -49,13 +56,17 @@ metadata:
       - mcp
       - reasoning
       - truth-maintenance
-    last_checked_at: "2026-09-14T04:13:24.395Z"
+    last_checked_at: '2026-09-14T04:13:24.395Z'
     readme:
-      fetched_at: "2026-09-14T04:13:24.395Z"
+      fetched_at: '2026-09-14T04:13:24.395Z'
       bytes: 12710
 insights:
-  summary: A context engineering engine for AI agents that compresses context, extracts facts, and provides deterministic answers with proof via logical inference.
-  why_it_matters: It reduces token usage and cost by up to 10x while preserving truth and determinism in agent workflows, addressing the pain of replaying entire conversation histories.
+  summary: >-
+    A context engineering engine for AI agents that compresses context, extracts facts, and provides deterministic
+    answers with proof via logical inference.
+  why_it_matters: >-
+    It reduces token usage and cost by up to 10x while preserving truth and determinism in agent workflows, addressing
+    the pain of replaying entire conversation histories.
   mental_damage: Finally, a way to stop your AI from re-reading the entire conversation like a goldfish who forgot where it parked.
   tags:
     - context-engineering
@@ -66,31 +77,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The core product is a context engineering system focused on compression, deterministic inference, and truth maintenance for AI agents, not a primary assistant, extension, or framework.
+  reason: >-
+    The core product is a context engineering system focused on compression, deterministic inference, and truth
+    maintenance for AI agents, not a primary assistant, extension, or framework.
   evidence:
     - Repo description explicitly calls it a 'context engineering engine for AI agents'
     - README emphasizes deterministic inference, token reduction, and truth maintenance as primary features
     - Integrates with multiple frameworks (LangChain, CrewAI, MCP) but is not itself an assistant or extension
 placement:
-  primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  primary_category: memory-and-context
+  secondary_categories: []
+  section: Compression & Token Optimization
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.603Z"
+    updated_at: '2026-05-06T22:12:15.603Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:24.395Z"
+    updated_at: '2026-09-14T04:13:24.395Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:24:25.973Z"
+    updated_at: '2026-07-21T15:24:25.973Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -103,7 +117,9 @@ processing:
       input_hash: sha256:2b50ab74f451035753d08d3d18a2377ad5eecd3748caca79795ae713b72ee8e6
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: The core product is a context engineering system focused on compression, deterministic inference, and truth maintenance for AI agents, not a primary assistant, extension, or framework.
+      decision_reason: >-
+        The core product is a context engineering system focused on compression, deterministic inference, and truth
+        maintenance for AI agents, not a primary assistant, extension, or framework.
       decision_evidence:
         - Repo description explicitly calls it a 'context engineering engine for AI agents'
         - README emphasizes deterministic inference, token reduction, and truth maintenance as primary features
@@ -111,6 +127,8 @@ processing:
       category_candidates:
         - context-engineering
         - ai-frameworks
-      contrastive_reason: Choose context-engineering over ai-frameworks because the primary value is the context compression and inference engine, not a general-purpose SDK or framework for building agents.
+      contrastive_reason: >-
+        Choose context-engineering over ai-frameworks because the primary value is the context compression and inference
+        engine, not a general-purpose SDK or framework for building agents.
       review_reason: null
       review_resume_lifecycle: null

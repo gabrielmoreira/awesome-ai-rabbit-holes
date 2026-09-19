@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aiops-tools__postgres-aiops__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-30T05:05:26.992Z"
+      discovered_at: '2026-07-30T05:05:26.992Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,13 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: AIops-tools/Postgres-AIops
         extracted_url: https://github.com/aiops-tools/postgres-aiops
-        surrounding_text: "- [AIops-tools/Postgres-AIops](https://github.com/AIops-tools/Postgres-AIops) [![AIops-tools/Postgres-AIops MCP server](https://glama.ai/mcp/servers/AIops-tools/Postgres-AIops/badges/score.svg)](https://glama.ai/mcp/servers/AIops-tools/Postgres-AIops) 🐍 🏠 - Governed PostgreSQL DBA operations — slow-query, bloat, and blocking-lock RCA, index management, vacuum/analyze, and replication lag (35 tools) with unbypassable audit logging (MCP + CLI), budget/runaway guards, dry-run, and undo/rollback."
+        surrounding_text: >-
+          - [AIops-tools/Postgres-AIops](https://github.com/AIops-tools/Postgres-AIops) [![AIops-tools/Postgres-AIops
+          MCP
+          server](https://glama.ai/mcp/servers/AIops-tools/Postgres-AIops/badges/score.svg)](https://glama.ai/mcp/servers/AIops-tools/Postgres-AIops)
+          🐍 🏠 - Governed PostgreSQL DBA operations — slow-query, bloat, and blocking-lock RCA, index management,
+          vacuum/analyze, and replication lag (35 tools) with unbypassable audit logging (MCP + CLI), budget/runaway
+          guards, dry-run, and undo/rollback.
         confidence: high
 metadata:
   github:
@@ -30,9 +36,11 @@ metadata:
     archived: false
     full_name: AIops-tools/Postgres-AIops
     html_url: https://github.com/AIops-tools/Postgres-AIops
-    created_at: "2026-07-13T06:23:46Z"
-    pushed_at: "2026-09-16T12:53:57Z"
-    description: Governed AI-ops for PostgreSQL — slow-query/bloat/lock RCA, indexes, vacuum, replication, with audit/budget/undo/risk-tiers (preview)
+    created_at: '2026-07-13T06:23:46Z'
+    pushed_at: '2026-09-16T12:53:57Z'
+    description: >-
+      Governed AI-ops for PostgreSQL — slow-query/bloat/lock RCA, indexes, vacuum, replication, with
+      audit/budget/undo/risk-tiers (preview)
     homepage: null
     topics:
       - agent-skills
@@ -41,13 +49,17 @@ metadata:
       - dba
       - mcp
       - postgresql
-    last_checked_at: "2026-09-17T04:13:36.600Z"
+    last_checked_at: '2026-09-17T04:13:36.600Z'
     readme:
-      fetched_at: "2026-09-17T04:13:36.600Z"
+      fetched_at: '2026-09-17T04:13:36.600Z'
       bytes: 9585
 insights:
-  summary: A governed DBA toolset for PostgreSQL that provides slow-query RCA, bloat analysis, and lock-chain diagnostics via CLI and MCP.
-  why_it_matters: It enables AI agents to perform sensitive database maintenance tasks safely through audit logs, risk-tier labeling, and reversible writes.
+  summary: >-
+    A governed DBA toolset for PostgreSQL that provides slow-query RCA, bloat analysis, and lock-chain diagnostics via
+    CLI and MCP.
+  why_it_matters: >-
+    It enables AI agents to perform sensitive database maintenance tasks safely through audit logs, risk-tier labeling,
+    and reversible writes.
   mental_damage: Finally, you can let an LLM wreck your production indexes, provided it leaves a tidy audit trail of its mistakes.
   tags:
     - postgresql
@@ -58,31 +70,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: It is a domain-specific DBA tool that provides an MCP server to expose PostgreSQL maintenance capabilities to AI agents.
+  reason: >-
+    It is a domain-specific DBA tool that provides an MCP server to expose PostgreSQL maintenance capabilities to AI
+    agents.
   evidence:
     - Provides 35 MCP tools for PostgreSQL analysis and remediation
     - Includes a built-in governance harness with audit logs and reversible writes
     - Explicitly offers both a CLI and an MCP server implementation
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-30T05:05:26.994Z"
+    updated_at: '2026-07-30T05:05:26.994Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-17T04:13:36.600Z"
+    updated_at: '2026-09-17T04:13:36.600Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:23:48.194Z"
+    updated_at: '2026-08-27T06:23:48.194Z'
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -91,7 +106,9 @@ processing:
       input_hash: sha256:3a7892e783055cfe51d688d700056d2d070640e0e8d9ba71eef9228f06f23db8
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: It is a domain-specific DBA tool that provides an MCP server to expose PostgreSQL maintenance capabilities to AI agents.
+      decision_reason: >-
+        It is a domain-specific DBA tool that provides an MCP server to expose PostgreSQL maintenance capabilities to AI
+        agents.
       decision_evidence:
         - Provides 35 MCP tools for PostgreSQL analysis and remediation
         - Includes a built-in governance harness with audit logs and reversible writes
@@ -99,7 +116,9 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the tool is explicitly architected as an MCP domain server to provide specific database capabilities to agents.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the tool is explicitly architected as an MCP domain server to provide
+        specific database capabilities to agents.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

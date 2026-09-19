@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aradar46__reuse-before-generate__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-07-23T05:08:37.088Z"
+      discovered_at: '2026-07-23T05:08:37.088Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,14 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: aradar46/reuse-before-generate
         extracted_url: https://github.com/aradar46/reuse-before-generate
-        surrounding_text: "- [aradar46/reuse-before-generate](https://github.com/aradar46/reuse-before-generate) [![aradar46/reuse-before-generate MCP server](https://glama.ai/mcp/servers/aradar46/reuse-before-generate/badges/score.svg)](https://glama.ai/mcp/servers/aradar46/reuse-before-generate) 📇 🏠 🍎 🪟 🐧 - Checks whether a project idea already exists before your agent scaffolds it. Searches GitHub, npm and Python repos, drops archived/inactive results, and returns at most 3 maintained alternatives with a concrete \"extend this instead\" suggestion for each. The calling agent does the relevance judgement itself, so no extra API key is needed. `npx -y reuse-before-generate`"
+        surrounding_text: >-
+          - [aradar46/reuse-before-generate](https://github.com/aradar46/reuse-before-generate)
+          [![aradar46/reuse-before-generate MCP
+          server](https://glama.ai/mcp/servers/aradar46/reuse-before-generate/badges/score.svg)](https://glama.ai/mcp/servers/aradar46/reuse-before-generate)
+          📇 🏠 🍎 🪟 🐧 - Checks whether a project idea already exists before your agent scaffolds it. Searches GitHub,
+          npm and Python repos, drops archived/inactive results, and returns at most 3 maintained alternatives with a
+          concrete "extend this instead" suggestion for each. The calling agent does the relevance judgement itself, so
+          no extra API key is needed. `npx -y reuse-before-generate`
         confidence: high
 metadata:
   github:
@@ -30,9 +37,11 @@ metadata:
     archived: false
     full_name: aradar46/reuse-before-generate
     html_url: https://github.com/aradar46/reuse-before-generate
-    created_at: "2026-07-22T12:18:22Z"
-    pushed_at: "2026-07-24T13:14:50Z"
-    description: Stop your AI agent from rebuilding what already exists. An opinionated MCP server that checks GitHub, npm and Python repos for maintained alternatives before you scaffold.
+    created_at: '2026-07-22T12:18:22Z'
+    pushed_at: '2026-07-24T13:14:50Z'
+    description: >-
+      Stop your AI agent from rebuilding what already exists. An opinionated MCP server that checks GitHub, npm and
+      Python repos for maintained alternatives before you scaffold.
     homepage: https://github.com/aradar46/reuse-before-generate
     topics:
       - ai-agents
@@ -43,14 +52,20 @@ metadata:
       - mcp
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-09-10T04:12:57.446Z"
+    last_checked_at: '2026-09-10T04:12:57.446Z'
     readme:
-      fetched_at: "2026-09-10T04:12:57.446Z"
+      fetched_at: '2026-09-10T04:12:57.446Z'
       bytes: 6255
 insights:
-  summary: An MCP server that searches GitHub, npm, and PyPI to identify existing codebases and products before an AI agent scaffolds new ones.
-  why_it_matters: It prevents wasted development effort and token expenditure by surfacing maintained alternatives to an AI's 'original' ideas.
-  mental_damage: The existential dread of discovering your 'innovative' project is actually just a duplicate of a defunct GitHub repo from 2019.
+  summary: >-
+    An MCP server that searches GitHub, npm, and PyPI to identify existing codebases and products before an AI agent
+    scaffolds new ones.
+  why_it_matters: >-
+    It prevents wasted development effort and token expenditure by surfacing maintained alternatives to an AI's
+    'original' ideas.
+  mental_damage: >-
+    The existential dread of discovering your 'innovative' project is actually just a duplicate of a defunct GitHub repo
+    from 2019.
   tags:
     - mcp
     - developer-tools
@@ -60,31 +75,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool's primary identity and delivery mechanism is as a functional MCP server that provides a specific domain capability (codebase discovery).
+  reason: >-
+    The tool's primary identity and delivery mechanism is as a functional MCP server that provides a specific domain
+    capability (codebase discovery).
   evidence:
     - Explicitly describes itself as 'An opinionated MCP server' in the repo description.
     - Provides specific tools for searching multiple registries like GitHub, npm, and PyPI.
     - Designed to be integrated directly into Claude Code, Cursor, and Claude Desktop via MCP configuration.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-07-23T05:08:37.090Z"
+    updated_at: '2026-07-23T05:08:37.090Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:12:57.446Z"
+    updated_at: '2026-09-10T04:12:57.446Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-01T14:33:12.104Z"
+    updated_at: '2026-09-01T14:33:12.104Z'
     cause: null
     next_retry_at: null
     attempts: 3
@@ -95,7 +113,9 @@ processing:
       input_hash: sha256:7a96a1a5106224fccd249897f464c4e5a8d147466fc0efc67123934d218324ed
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The tool's primary identity and delivery mechanism is as a functional MCP server that provides a specific domain capability (codebase discovery).
+      decision_reason: >-
+        The tool's primary identity and delivery mechanism is as a functional MCP server that provides a specific domain
+        capability (codebase discovery).
       decision_evidence:
         - Explicitly describes itself as 'An opinionated MCP server' in the repo description.
         - Provides specific tools for searching multiple registries like GitHub, npm, and PyPI.
@@ -103,7 +123,9 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is a server implementation of the Model Context Protocol rather than a general IDE integration.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's core identity is a server implementation of the Model
+        Context Protocol rather than a general IDE integration.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template

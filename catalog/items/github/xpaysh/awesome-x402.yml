@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__xpaysh__awesome-x402__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,13 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: xpaysh/awesome-x402
         extracted_url: https://github.com/xpaysh/awesome-x402
-        surrounding_text: "- [xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402) ☁️ - Curated directory of x402 payment protocol resources, MCP servers, and tools for HTTP 402-based USDC payments on Base, Arbitrum, and other EVM chains."
+        surrounding_text: >-
+          - [xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402) ☁️ - Curated directory of x402 payment
+          protocol resources, MCP servers, and tools for HTTP 402-based USDC payments on Base, Arbitrum, and other EVM
+          chains.
         confidence: high
     - id: discovery__github__xpaysh__awesome-x402__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,7 +38,11 @@ provenance:
           - 💰 Finance & Fintech
         anchor_text: xpaysh/awesome-x402
         extracted_url: https://github.com/xpaysh/awesome-x402
-        surrounding_text: "-   **[xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)** [![GitHub stars](https://img.shields.io/github/stars/xpaysh/awesome-x402?style=social)](https://github.com/xpaysh/awesome-x402): A curated directory of x402 payment protocol MCP servers and tools for HTTP-native USDC payments on EVM chains."
+        surrounding_text: >-
+          -   **[xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)** [![GitHub
+          stars](https://img.shields.io/github/stars/xpaysh/awesome-x402?style=social)](https://github.com/xpaysh/awesome-x402):
+          A curated directory of x402 payment protocol MCP servers and tools for HTTP-native USDC payments on EVM
+          chains.
         confidence: high
 metadata:
   github:
@@ -45,9 +52,13 @@ metadata:
     archived: false
     full_name: xpaysh/awesome-x402
     html_url: https://github.com/xpaysh/awesome-x402
-    created_at: "2025-11-02T09:55:55Z"
-    pushed_at: "2026-07-17T09:56:32Z"
-    description: "🚀 Curated list of x402 resources: HTTP 402 Payment Required protocol for blockchain payments, crypto micropayments, AI agents, API monetization. Includes SDKs (TypeScript, Python, Rust), examples, facilitators (Coinbase, Cloudflare), MCP integration, tutorials. Accept USDC payments with one line of code. Perfect for AI agent economy."
+    created_at: '2025-11-02T09:55:55Z'
+    pushed_at: '2026-07-17T09:56:32Z'
+    description: >-
+      🚀 Curated list of x402 resources: HTTP 402 Payment Required protocol for blockchain payments, crypto
+      micropayments, AI agents, API monetization. Includes SDKs (TypeScript, Python, Rust), examples, facilitators
+      (Coinbase, Cloudflare), MCP integration, tutorials. Accept USDC payments with one line of code. Perfect for AI
+      agent economy.
     homepage: https://www.x402.org/
     topics:
       - agentic-economy
@@ -61,14 +72,20 @@ metadata:
       - stablecoin-payments
       - usdc
       - x402
-    last_checked_at: "2026-07-21T15:21:18.603Z"
+    last_checked_at: '2026-07-21T15:21:18.603Z'
     readme:
-      fetched_at: "2026-07-21T15:21:18.603Z"
+      fetched_at: '2026-07-21T15:21:18.603Z'
       bytes: 258852
 insights:
-  summary: A curated list of resources for the HTTP 402 Payment Required protocol, focused on crypto micropayments and AI agent integration.
-  why_it_matters: Helps developers implement blockchain-based micropayments for AI agents and APIs with minimal code using USDC on Base.
-  mental_damage: Another 'AI agent economy' list that makes you wonder if your toaster will soon need a crypto wallet to pay for bread.
+  summary: >-
+    A curated list of resources for the HTTP 402 Payment Required protocol, focused on crypto micropayments and AI agent
+    integration.
+  why_it_matters: >-
+    Helps developers implement blockchain-based micropayments for AI agents and APIs with minimal code using USDC on
+    Base.
+  mental_damage: >-
+    Another 'AI agent economy' list that makes you wonder if your toaster will soon need a crypto wallet to pay for
+    bread.
   tags:
     - x402
     - micropayments
@@ -77,32 +94,31 @@ insights:
     - awesome-list
   confidence: medium
 curation:
-  status: included
-  reason: This is an awesome list that serves as a discovery resource for the x402 ecosystem, fitting the catalog's scope for curated developer tooling directories.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - "Repo description: '🚀 Curated list of x402 resources: HTTP 402 Payment Required protocol for blockchain payments, crypto micropayments, AI agents, API monetization'"
-    - "README: Explicitly titled 'Awesome X402' with an Awesome badge and structured as a resource hub with sections like SDKs, examples, tutorials, and use cases"
-    - "Source-list context: Appears in awesome-mcp-list and awesome-mcp-servers under Finance & Fintech sections"
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (208) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.595Z"
+    updated_at: '2026-05-06T22:12:15.595Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:18.603Z"
+    updated_at: '2026-07-21T15:21:18.603Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:41:54.060Z"
+    updated_at: '2026-05-12T15:41:54.060Z'
     cause: null
     next_retry_at: null
     attempts: 1

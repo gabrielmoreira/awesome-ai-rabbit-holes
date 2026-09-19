@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hechtcarmel__jetbrains-index-mcp-plugin__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: hechtcarmel/jetbrains-index-mcp-plugin
         extracted_url: https://github.com/hechtcarmel/jetbrains-index-mcp-plugin
-        surrounding_text: "- [hechtcarmel/jetbrains-index-mcp-plugin](https://github.com/hechtcarmel/jetbrains-index-mcp-plugin) ☕ 🏠 - A JetBrains IDE plugin that exposes an MCP server, enabling AI coding assistants to leverage the IDE's indexing and refactoring capabilities (rename, safe delete, find references, call hierarchy, type hierarchy, diagnostics and more)."
+        surrounding_text: >-
+          - [hechtcarmel/jetbrains-index-mcp-plugin](https://github.com/hechtcarmel/jetbrains-index-mcp-plugin) ☕ 🏠 - A
+          JetBrains IDE plugin that exposes an MCP server, enabling AI coding assistants to leverage the IDE's indexing
+          and refactoring capabilities (rename, safe delete, find references, call hierarchy, type hierarchy,
+          diagnostics and more).
         confidence: high
 metadata:
   github:
@@ -30,19 +34,27 @@ metadata:
     archived: false
     full_name: hechtcarmel/jetbrains-index-mcp-plugin
     html_url: https://github.com/hechtcarmel/jetbrains-index-mcp-plugin
-    created_at: "2025-11-25T07:43:21Z"
-    pushed_at: "2026-07-29T11:53:04Z"
-    description: A Jetbrains IDE IntelliJ plugin aimed to provide coding agents the ability to leverage intelliJ's indexing of the codebase
+    created_at: '2025-11-25T07:43:21Z'
+    pushed_at: '2026-07-29T11:53:04Z'
+    description: >-
+      A Jetbrains IDE IntelliJ plugin aimed to provide coding agents the ability to leverage intelliJ's indexing of the
+      codebase
     homepage: null
     topics: []
-    last_checked_at: "2026-07-30T05:05:36.207Z"
+    last_checked_at: '2026-07-30T05:05:36.207Z'
     readme:
-      fetched_at: "2026-07-30T05:05:36.207Z"
+      fetched_at: '2026-07-30T05:05:36.207Z'
       bytes: 33339
 insights:
-  summary: A JetBrains IDE plugin that exposes an MCP server to give AI coding assistants access to IntelliJ's code indexing and refactoring tools.
-  why_it_matters: It lets AI assistants like Claude or Cursor leverage the IDE's semantic understanding, cross-project references, and safe refactoring operations instead of relying on text-only analysis.
-  mental_damage: Now your AI assistant can rename a Java method across 200 files while you watch, helplessly aware that you could have broken it all with a single keystroke.
+  summary: >-
+    A JetBrains IDE plugin that exposes an MCP server to give AI coding assistants access to IntelliJ's code indexing
+    and refactoring tools.
+  why_it_matters: >-
+    It lets AI assistants like Claude or Cursor leverage the IDE's semantic understanding, cross-project references, and
+    safe refactoring operations instead of relying on text-only analysis.
+  mental_damage: >-
+    Now your AI assistant can rename a Java method across 200 files while you watch, helplessly aware that you could
+    have broken it all with a single keystroke.
   tags:
     - jetbrains
     - mcp
@@ -52,31 +64,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is an MCP server that exposes IDE capabilities as tools, not just a compatibility adapter."
+  reason: >-
+    MCP is the product identity: this is an MCP server that exposes IDE capabilities as tools, not just a compatibility
+    adapter.
   evidence:
     - Repo description explicitly states it is an MCP server for JetBrains IDEs
     - README details MCP tools for code navigation, refactoring, and diagnostics
     - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (192) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.618Z"
+    updated_at: '2026-05-06T22:12:15.618Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:36.207Z"
+    updated_at: '2026-07-30T05:05:36.207Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:05:12.510Z"
+    updated_at: '2026-07-21T16:05:12.510Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +104,9 @@ processing:
       input_hash: sha256:2710c2947b5301ca2e622c0a1b4bdbbb77abf081a014033b9d97360b9b16078b
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is an MCP server that exposes IDE capabilities as tools, not just a compatibility adapter."
+      decision_reason: >-
+        MCP is the product identity: this is an MCP server that exposes IDE capabilities as tools, not just a
+        compatibility adapter.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for JetBrains IDEs
         - README details MCP tools for code navigation, refactoring, and diagnostics
@@ -97,6 +114,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing IDE tools, not merely an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server exposing IDE tools, not merely an
+        extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

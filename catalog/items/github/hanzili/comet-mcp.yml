@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hanzili__comet-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: hanzili/comet-mcp
         extracted_url: https://github.com/hanzili/comet-mcp
-        surrounding_text: "- [hanzili/comet-mcp](https://github.com/hanzili/comet-mcp) 📇 🏠 🍎 - Connect to Perplexity Comet browser for agentic web browsing, deep research, and real-time task monitoring."
+        surrounding_text: >-
+          - [hanzili/comet-mcp](https://github.com/hanzili/comet-mcp) 📇 🏠 🍎 - Connect to Perplexity Comet browser for
+          agentic web browsing, deep research, and real-time task monitoring.
         confidence: high
 metadata:
   github:
@@ -30,23 +32,27 @@ metadata:
     archived: false
     full_name: hanzili/comet-mcp
     html_url: https://github.com/hanzili/comet-mcp
-    created_at: "2026-01-03T05:05:45Z"
-    pushed_at: "2026-01-13T05:34:37Z"
+    created_at: '2026-01-03T05:05:45Z'
+    pushed_at: '2026-01-13T05:34:37Z'
     description: MCP Server connecting to Perplexity Comet browser
-    homepage: ""
+    homepage: ''
     topics:
       - agentic-ai
       - agentic-browser
       - automation
       - mcp-server
-    last_checked_at: "2026-07-30T05:05:35.036Z"
+    last_checked_at: '2026-07-30T05:05:35.036Z'
     readme:
-      fetched_at: "2026-07-30T05:05:35.036Z"
+      fetched_at: '2026-07-30T05:05:35.036Z'
       bytes: 4741
 insights:
   summary: An MCP server that connects Claude Code to Perplexity Comet for agentic web browsing and research.
-  why_it_matters: It delegates web browsing tasks from Claude Code to Perplexity Comet, allowing developers to offload complex navigation, login flows, and dynamic content interaction while keeping their coding assistant focused.
-  mental_damage: Now your coding assistant can outsource its web browsing to another AI, because apparently one agent isn’t enough to handle a GitHub issue thread.
+  why_it_matters: >-
+    It delegates web browsing tasks from Claude Code to Perplexity Comet, allowing developers to offload complex
+    navigation, login flows, and dynamic content interaction while keeping their coding assistant focused.
+  mental_damage: >-
+    Now your coding assistant can outsource its web browsing to another AI, because apparently one agent isn’t enough to
+    handle a GitHub issue thread.
   tags:
     - mcp-server
     - browser-automation
@@ -56,33 +62,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity here: it is a server implementation that bridges Claude Code and Perplexity Comet, fitting the MCP Servers & Tooling category."
+  reason: >-
+    MCP is the product identity here: it is a server implementation that bridges Claude Code and Perplexity Comet,
+    fitting the MCP Servers & Tooling category.
   evidence:
     - Repo description explicitly states it is an MCP server
     - README describes it as an MCP server connecting Claude Code to Perplexity Comet
     - Listed in awesome-mcp-servers under Browser Automation
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: promotion_candidate
   reason: Stars (153) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.618Z"
+    updated_at: '2026-05-06T22:12:15.618Z'
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-09-03T05:16:57.993Z"
+    updated_at: '2026-09-03T05:16:57.993Z'
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for hanzili/comet-mcp
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:05:04.745Z"
+    updated_at: '2026-07-21T16:05:04.745Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -95,7 +104,9 @@ processing:
       input_hash: sha256:fd1df710993fd85740900470efed64a35d803e22159df570d2946a2b14bfc437
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity here: it is a server implementation that bridges Claude Code and Perplexity Comet, fitting the MCP Servers & Tooling category."
+      decision_reason: >-
+        MCP is the product identity here: it is a server implementation that bridges Claude Code and Perplexity Comet,
+        fitting the MCP Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is an MCP server
         - README describes it as an MCP server connecting Claude Code to Perplexity Comet
@@ -103,6 +114,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is the MCP server itself, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core identity is the MCP server itself, not merely an extension
+        for another assistant.
       review_reason: null
       review_resume_lifecycle: null

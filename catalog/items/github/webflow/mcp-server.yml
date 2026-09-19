@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__webflow__mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,9 @@ provenance:
           - Official Servers
         anchor_text: Webflow
         extracted_url: https://github.com/webflow/mcp-server
-        surrounding_text: "- **[Webflow](https://github.com/webflow/mcp-server)** - Interact with Webflow APIs to list and edit your site and CMS data."
+        surrounding_text: >-
+          - **[Webflow](https://github.com/webflow/mcp-server)** - Interact with Webflow APIs to list and edit your site
+          and CMS data.
         confidence: high
 metadata:
   github:
@@ -29,24 +31,28 @@ metadata:
     archived: false
     full_name: webflow/mcp-server
     html_url: https://github.com/webflow/mcp-server
-    created_at: "2025-03-17T22:47:14Z"
-    pushed_at: "2026-06-09T05:00:48Z"
+    created_at: '2025-03-17T22:47:14Z'
+    pushed_at: '2026-06-09T05:00:48Z'
     description: Model Context Protocol (MCP) server for the Webflow Data API.
-    homepage: ""
+    homepage: ''
     topics:
       - built-with-fern
       - business-critical-yes
       - generated-from-openapi
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-07-21T15:21:11.115Z"
+    last_checked_at: '2026-07-21T15:21:11.115Z'
     readme:
-      fetched_at: "2026-07-21T15:21:11.115Z"
+      fetched_at: '2026-07-21T15:21:11.115Z'
       bytes: 9484
 insights:
   summary: Model Context Protocol (MCP) server for the Webflow Data API.
-  why_it_matters: Enables AI agents to interact with Webflow sites via standardized MCP tooling, letting developers prompt-design edits and content changes.
-  mental_damage: Yet another MCP server promising seamless AI-to-SaaS integration, as if the real bottleneck was not having enough JSON-over-HTTP adapters.
+  why_it_matters: >-
+    Enables AI agents to interact with Webflow sites via standardized MCP tooling, letting developers prompt-design
+    edits and content changes.
+  mental_damage: >-
+    Yet another MCP server promising seamless AI-to-SaaS integration, as if the real bottleneck was not having enough
+    JSON-over-HTTP adapters.
   tags:
     - mcp
     - webflow
@@ -54,31 +60,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server whose core identity is providing Model Context Protocol access to a specific SaaS API, fitting the MCP Servers & Tooling category.
+  reason: >-
+    This is an MCP server whose core identity is providing Model Context Protocol access to a specific SaaS API, fitting
+    the MCP Servers & Tooling category.
   evidence:
-    - "Repo description: 'Model Context Protocol (MCP) server for the Webflow Data API.'"
-    - README focuses on installing and configuring the MCP server for use with Cursor and Claude Desktop via MCP stdio/SSE transports.
+    - 'Repo description: ''Model Context Protocol (MCP) server for the Webflow Data API.'''
+    - >-
+      README focuses on installing and configuring the MCP server for use with Cursor and Claude Desktop via MCP
+      stdio/SSE transports.
     - Listed in awesome-mcp-servers under 'Official Servers' section.
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  secondary_categories: []
+  section: Cloud & API Integration
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.655Z"
+    updated_at: '2026-05-06T22:12:15.655Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-21T15:21:11.115Z"
+    updated_at: '2026-07-21T15:21:11.115Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:31:44.452Z"
+    updated_at: '2026-05-12T15:31:44.452Z'
     cause: null
     next_retry_at: null
     attempts: 1

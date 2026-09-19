@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jtalk22__slack-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,10 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: jtalk22/slack-mcp-server
         extracted_url: https://github.com/jtalk22/slack-mcp-server
-        surrounding_text: "- [jtalk22/slack-mcp-server](https://github.com/jtalk22/slack-mcp-server) 📇 ☁️ 🏠 🍎 🪟 🐧 - Your complete Slack context for Claude—DMs, channels, threads, search. No OAuth apps, no admin approval. `--setup` and done, 11 tools, auto-refresh."
+        surrounding_text: >-
+          - [jtalk22/slack-mcp-server](https://github.com/jtalk22/slack-mcp-server) 📇 ☁️ 🏠 🍎 🪟 🐧 - Your complete
+          Slack context for Claude—DMs, channels, threads, search. No OAuth apps, no admin approval. `--setup` and done,
+          11 tools, auto-refresh.
         confidence: high
 metadata:
   github:
@@ -30,9 +33,11 @@ metadata:
     archived: false
     full_name: jtalk22/slack-mcp-server
     html_url: https://github.com/jtalk22/slack-mcp-server
-    created_at: "2026-01-03T19:19:56Z"
-    pushed_at: "2026-07-28T16:47:42Z"
-    description: Slack for your AI agent — session tokens, not OAuth. No app to register, no admin approval. Works with any MCP client. 21 tools.
+    created_at: '2026-01-03T19:19:56Z'
+    pushed_at: '2026-07-28T16:47:42Z'
+    description: >-
+      Slack for your AI agent — session tokens, not OAuth. No app to register, no admin approval. Works with any MCP
+      client. 21 tools.
     homepage: https://mcp.revasserlabs.com
     topics:
       - agents
@@ -55,14 +60,20 @@ metadata:
       - slack-api
       - slack-integration
       - windsurf
-    last_checked_at: "2026-07-30T05:05:52.779Z"
+    last_checked_at: '2026-07-30T05:05:52.779Z'
     readme:
-      fetched_at: "2026-07-30T05:05:52.779Z"
+      fetched_at: '2026-07-30T05:05:52.779Z'
       bytes: 23926
 insights:
-  summary: An MCP server that provides session-based Slack access for AI agents and MCP clients without requiring OAuth or admin approval.
-  why_it_matters: Developers can delegate Slack workflows (catch-ups, thread searches, replies) to their AI assistants directly from their editor or CLI, bypassing Slack's official MCP server limitations.
-  mental_damage: Finally, a way to let your AI read Slack without your workspace admin knowing you’ve outsourced your social life to a model.
+  summary: >-
+    An MCP server that provides session-based Slack access for AI agents and MCP clients without requiring OAuth or
+    admin approval.
+  why_it_matters: >-
+    Developers can delegate Slack workflows (catch-ups, thread searches, replies) to their AI assistants directly from
+    their editor or CLI, bypassing Slack's official MCP server limitations.
+  mental_damage: >-
+    Finally, a way to let your AI read Slack without your workspace admin knowing you’ve outsourced your social life to
+    a model.
   tags:
     - mcp
     - slack-integration
@@ -72,31 +83,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated Slack MCP server with structured tools and workflow primitives, listed in the MCP registry and awesome-mcp-servers."
+  reason: >-
+    MCP is the product identity: this is a dedicated Slack MCP server with structured tools and workflow primitives,
+    listed in the MCP registry and awesome-mcp-servers.
   evidence:
     - Repo description explicitly identifies it as a Slack MCP server for Claude and MCP clients
     - Listed in awesome-mcp-servers under Communication > Server Implementations
     - Provides 21 Slack tools and workflow profiles for MCP clients
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.623Z"
+    updated_at: '2026-05-06T22:12:15.623Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:52.779Z"
+    updated_at: '2026-07-30T05:05:52.779Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:11:23.919Z"
+    updated_at: '2026-07-21T16:11:23.919Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -109,7 +123,9 @@ processing:
       input_hash: sha256:5b2e094b47062a789b72d86e5342993d3aa3625d6d8be7362f952a37cde850c6
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated Slack MCP server with structured tools and workflow primitives, listed in the MCP registry and awesome-mcp-servers."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated Slack MCP server with structured tools and workflow primitives,
+        listed in the MCP registry and awesome-mcp-servers.
       decision_evidence:
         - Repo description explicitly identifies it as a Slack MCP server for Claude and MCP clients
         - Listed in awesome-mcp-servers under Communication > Server Implementations
@@ -117,6 +133,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not merely an extension for another assistant), with MCP as its primary identity and distribution channel.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server (not merely an extension for another
+        assistant), with MCP as its primary identity and distribution channel.
       review_reason: null
       review_resume_lifecycle: null

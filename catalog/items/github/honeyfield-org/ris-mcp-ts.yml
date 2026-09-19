@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__honeyfield-org__ris-mcp-ts__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - ⚖️ <a name="legal"></a>Legal
         anchor_text: philrox/ris-mcp-ts
         extracted_url: https://github.com/philrox/ris-mcp-ts
-        surrounding_text: "- [philrox/ris-mcp-ts](https://github.com/philrox/ris-mcp-ts) [![philrox/ris-mcp-ts MCP server](https://glama.ai/mcp/servers/philrox/ris-mcp-ts/badges/score.svg)](https://glama.ai/mcp/servers/philrox/ris-mcp-ts) 📇 ☁️ - Access Austrian federal laws, state laws, court decisions, and legal documents via the RIS (Rechtsinformationssystem) API with 12 specialized tools."
+        surrounding_text: >-
+          - [philrox/ris-mcp-ts](https://github.com/philrox/ris-mcp-ts) [![philrox/ris-mcp-ts MCP
+          server](https://glama.ai/mcp/servers/philrox/ris-mcp-ts/badges/score.svg)](https://glama.ai/mcp/servers/philrox/ris-mcp-ts)
+          📇 ☁️ - Access Austrian federal laws, state laws, court decisions, and legal documents via the RIS
+          (Rechtsinformationssystem) API with 12 specialized tools.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: Honeyfield-Org/ris-mcp-ts
     html_url: https://github.com/Honeyfield-Org/ris-mcp-ts
-    created_at: "2026-02-03T20:31:04Z"
-    pushed_at: "2026-07-06T12:08:52Z"
-    description: MCP Server for the Austrian Legal Information System (RIS) - Access Austrian federal laws, state laws, court decisions and more
+    created_at: '2026-02-03T20:31:04Z'
+    pushed_at: '2026-07-06T12:08:52Z'
+    description: >-
+      MCP Server for the Austrian Legal Information System (RIS) - Access Austrian federal laws, state laws, court
+      decisions and more
     homepage: null
     topics:
       - austria
@@ -43,13 +49,17 @@ metadata:
       - model-context-protocol
       - ris
       - typescript
-    last_checked_at: "2026-07-30T05:05:38.372Z"
+    last_checked_at: '2026-07-30T05:05:38.372Z'
     readme:
-      fetched_at: "2026-07-30T05:05:38.372Z"
+      fetched_at: '2026-07-30T05:05:38.372Z'
       bytes: 20106
 insights:
-  summary: An MCP server that provides AI assistants access to Austria's official legal database (RIS) for retrieving laws, court decisions, and government documents.
-  why_it_matters: Developers can integrate Austrian legal data into AI workflows without API keys, enabling legal research or compliance checks directly from coding environments.
+  summary: >-
+    An MCP server that provides AI assistants access to Austria's official legal database (RIS) for retrieving laws,
+    court decisions, and government documents.
+  why_it_matters: >-
+    Developers can integrate Austrian legal data into AI workflows without API keys, enabling legal research or
+    compliance checks directly from coding environments.
   mental_damage: Now your AI can argue Austrian tenancy law with you at 3 AM while you debug.
   tags:
     - mcp
@@ -60,31 +70,32 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a domain-specific MCP server for legal data, not a compatibility footnote."
+  reason: 'MCP is the product identity: this is a domain-specific MCP server for legal data, not a compatibility footnote.'
   evidence:
     - Repo description explicitly identifies it as an MCP Server for RIS
     - README details 12 specialized tools for Austrian legal data access via MCP
     - Listed in MCP Registry (io.github.philrox/ris)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.619Z"
+    updated_at: '2026-05-06T22:12:15.619Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:38.372Z"
+    updated_at: '2026-07-30T05:05:38.372Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:05:55.515Z"
+    updated_at: '2026-07-21T16:05:55.515Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -97,7 +108,7 @@ processing:
       input_hash: sha256:d0ca81daef3f09135a9a241a8d4c62dd5a3f847d9ba2e68bff1e841fb36f48a0
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a domain-specific MCP server for legal data, not a compatibility footnote."
+      decision_reason: 'MCP is the product identity: this is a domain-specific MCP server for legal data, not a compatibility footnote.'
       decision_evidence:
         - Repo description explicitly identifies it as an MCP Server for RIS
         - README details 12 specialized tools for Austrian legal data access via MCP
@@ -105,6 +116,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server providing domain-specific legal data access, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server providing domain-specific legal data
+        access, not an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

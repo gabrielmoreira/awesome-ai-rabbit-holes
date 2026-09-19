@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__erishforg__git-parsec__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,7 +19,10 @@ provenance:
           - Developer Productivity Tools
         anchor_text: git-parsec
         extracted_url: https://github.com/erishforg/git-parsec
-        surrounding_text: "- **[git-parsec](https://github.com/erishforG/git-parsec)** – Git worktree lifecycle manager that gives each AI agent an isolated workspace tied to issue tickets (Jira, GitHub Issues, GitLab), avoiding index.lock conflicts in parallel workflows."
+        surrounding_text: >-
+          - **[git-parsec](https://github.com/erishforG/git-parsec)** – Git worktree lifecycle manager that gives each
+          AI agent an isolated workspace tied to issue tickets (Jira, GitHub Issues, GitLab), avoiding index.lock
+          conflicts in parallel workflows.
         confidence: high
 metadata:
   github:
@@ -29,9 +32,11 @@ metadata:
     archived: false
     full_name: erishforG/git-parsec
     html_url: https://github.com/erishforG/git-parsec
-    created_at: "2026-04-14T02:18:35Z"
-    pushed_at: "2026-08-27T00:53:53Z"
-    description: Git worktree lifecycle manager — ticket to PR in one command. Jira, GitHub Issues & GitLab integration. Parallel AI agent workflows, CI monitoring, stacked PRs, conflict detection.
+    created_at: '2026-04-14T02:18:35Z'
+    pushed_at: '2026-08-27T00:53:53Z'
+    description: >-
+      Git worktree lifecycle manager — ticket to PR in one command. Jira, GitHub Issues & GitLab integration. Parallel
+      AI agent workflows, CI monitoring, stacked PRs, conflict detection.
     homepage: https://erishforg.github.io/git-parsec/
     topics:
       - ai-agents
@@ -53,14 +58,20 @@ metadata:
       - ticket-management
       - worktree
       - worktree-manager
-    last_checked_at: "2026-08-27T09:23:25.055Z"
+    last_checked_at: '2026-08-27T09:23:25.055Z'
     readme:
-      fetched_at: "2026-08-27T09:23:25.055Z"
+      fetched_at: '2026-08-27T09:23:25.055Z'
       bytes: 11735
 insights:
-  summary: Git worktree lifecycle manager that automates ticket-to-PR workflows with Jira, GitHub, and GitLab integration, including stacked PRs and AI agent support.
-  why_it_matters: It eliminates manual Git worktree management and PR creation by automating the full development loop from ticket to merged PR, with features tailored for parallel development and AI agent workflows.
-  mental_damage: Finally, a tool that lets you pretend Git worktrees are just tickets you can ship without remembering which branch is on fire.
+  summary: >-
+    Git worktree lifecycle manager that automates ticket-to-PR workflows with Jira, GitHub, and GitLab integration,
+    including stacked PRs and AI agent support.
+  why_it_matters: >-
+    It eliminates manual Git worktree management and PR creation by automating the full development loop from ticket to
+    merged PR, with features tailored for parallel development and AI agent workflows.
+  mental_damage: >-
+    Finally, a tool that lets you pretend Git worktrees are just tickets you can ship without remembering which branch
+    is on fire.
   tags:
     - git-worktree
     - ticket-to-pr
@@ -70,31 +81,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The tool primarily augments Git workflows with AI-friendly integrations (JSON output, structured errors) and multi-forge/tracker support, rather than acting as a standalone coding assistant.
+  reason: >-
+    The tool primarily augments Git workflows with AI-friendly integrations (JSON output, structured errors) and
+    multi-forge/tracker support, rather than acting as a standalone coding assistant.
   evidence:
-    - "Repo description: 'Git worktree lifecycle manager — ticket to PR in one command. Jira, GitHub Issues & GitLab integration. Parallel AI agent workflows'"
+    - >-
+      Repo description: 'Git worktree lifecycle manager — ticket to PR in one command. Jira, GitHub Issues & GitLab
+      integration. Parallel AI agent workflows'
     - README emphasizes agent-friendly features like `--json` output and JSONL logs
     - Core value is workflow automation (worktrees, PRs, CI) rather than direct code editing
 placement:
-  primary_category: ai-dev-extensions
-  section: IDE / UI / Workflow Add-ons
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.613Z"
+    updated_at: '2026-05-06T22:12:15.613Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:25.055Z"
+    updated_at: '2026-08-27T09:23:25.055Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:52:46.518Z"
+    updated_at: '2026-07-21T15:52:46.518Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -107,14 +123,20 @@ processing:
       input_hash: sha256:813250191c01f7469a4b2ace2919044222b25b5bc2bf96efa21a3eb3d20473a5
       proposed_primary_category: ai-dev-extensions
       disagreement: false
-      decision_reason: The tool primarily augments Git workflows with AI-friendly integrations (JSON output, structured errors) and multi-forge/tracker support, rather than acting as a standalone coding assistant.
+      decision_reason: >-
+        The tool primarily augments Git workflows with AI-friendly integrations (JSON output, structured errors) and
+        multi-forge/tracker support, rather than acting as a standalone coding assistant.
       decision_evidence:
-        - "Repo description: 'Git worktree lifecycle manager — ticket to PR in one command. Jira, GitHub Issues & GitLab integration. Parallel AI agent workflows'"
+        - >-
+          Repo description: 'Git worktree lifecycle manager — ticket to PR in one command. Jira, GitHub Issues & GitLab
+          integration. Parallel AI agent workflows'
         - README emphasizes agent-friendly features like `--json` output and JSONL logs
         - Core value is workflow automation (worktrees, PRs, CI) rather than direct code editing
       category_candidates:
         - ai-dev-extensions
         - coding-agents
-      contrastive_reason: Choose ai-dev-extensions over coding-agents because the tool's primary identity is Git workflow augmentation (worktrees, PRs, CI) with AI-friendly features, not direct code planning/editing.
+      contrastive_reason: >-
+        Choose ai-dev-extensions over coding-agents because the tool's primary identity is Git workflow augmentation
+        (worktrees, PRs, CI) with AI-friendly features, not direct code planning/editing.
       review_reason: null
       review_resume_lifecycle: null

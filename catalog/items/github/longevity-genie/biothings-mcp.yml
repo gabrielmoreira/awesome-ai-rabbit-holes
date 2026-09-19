@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__longevity-genie__biothings-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,9 @@ provenance:
           - <a name="bio"></a>Biology, Medicine and Bioinformatics
         anchor_text: longevity-genie/biothings-mcp
         extracted_url: https://github.com/longevity-genie/biothings-mcp
-        surrounding_text: "- [longevity-genie/biothings-mcp](https://github.com/longevity-genie/biothings-mcp) 🐍 🏠 ☁️ - MCP server to interact with the BioThings API, including genes, genetic variants, drugs, and taxonomic information."
+        surrounding_text: >-
+          - [longevity-genie/biothings-mcp](https://github.com/longevity-genie/biothings-mcp) 🐍 🏠 ☁️ - MCP server to
+          interact with the BioThings API, including genes, genetic variants, drugs, and taxonomic information.
         confidence: high
 metadata:
   github:
@@ -30,24 +32,28 @@ metadata:
     archived: false
     full_name: longevity-genie/biothings-mcp
     html_url: https://github.com/longevity-genie/biothings-mcp
-    created_at: "2025-05-03T18:38:29Z"
-    pushed_at: "2025-11-03T20:05:06Z"
+    created_at: '2025-05-03T18:38:29Z'
+    pushed_at: '2025-11-03T20:05:06Z'
     description: MCP (Model Context Protocol) server for biothings
-    homepage: ""
+    homepage: ''
     topics:
       - bioinformatics
       - biothings
       - genetic-variants
       - genetics
       - mcp-server
-    last_checked_at: "2026-07-30T05:06:08.122Z"
+    last_checked_at: '2026-07-30T05:06:08.122Z'
     readme:
-      fetched_at: "2026-07-30T05:06:08.122Z"
+      fetched_at: '2026-07-30T05:06:08.122Z'
       bytes: 9946
 insights:
   summary: MCP server providing structured access to BioThings biomedical data sources like mygene.info and myvariant.info.
-  why_it_matters: Enables AI assistants to query authoritative biomedical data through a standardized MCP interface, reducing context-switching for developers working on health or genomics tools.
-  mental_damage: Yet another niche MCP server promising to finally let your LLM stop hallucinating gene names—because that’s the blocker we all faced.
+  why_it_matters: >-
+    Enables AI assistants to query authoritative biomedical data through a standardized MCP interface, reducing
+    context-switching for developers working on health or genomics tools.
+  mental_damage: >-
+    Yet another niche MCP server promising to finally let your LLM stop hallucinating gene names—because that’s the
+    blocker we all faced.
   tags:
     - mcp
     - bioinformatics
@@ -55,31 +61,36 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server as its core identity, providing domain-specific access to biomedical data via the Model Context Protocol, with no evidence of being a thin adapter or compatibility layer.
+  reason: >-
+    The product is an MCP server as its core identity, providing domain-specific access to biomedical data via the Model
+    Context Protocol, with no evidence of being a thin adapter or compatibility layer.
   evidence:
-    - "Repo description: 'MCP (Model Context Protocol) server for biothings'"
-    - README states it 'implements the Model Context Protocol (MCP) for BioThings' and provides dedicated API interfaces for gene, variant, chemical, and taxon data
+    - 'Repo description: ''MCP (Model Context Protocol) server for biothings'''
+    - >-
+      README states it 'implements the Model Context Protocol (MCP) for BioThings' and provides dedicated API interfaces
+      for gene, variant, chemical, and taxon data
     - Listed in awesome-mcp-servers under Biology, Medicine and Bioinformatics as a server implementation
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: '2026-05-06T22:12:15.627Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:08.122Z"
+    updated_at: '2026-07-30T05:06:08.122Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T16:17:13.584Z"
+    updated_at: '2026-07-21T16:17:13.584Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -92,14 +103,20 @@ processing:
       input_hash: sha256:24de82017c663576875952ed8504325086740e1dfa8646fcc54b17589327031f
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server as its core identity, providing domain-specific access to biomedical data via the Model Context Protocol, with no evidence of being a thin adapter or compatibility layer.
+      decision_reason: >-
+        The product is an MCP server as its core identity, providing domain-specific access to biomedical data via the
+        Model Context Protocol, with no evidence of being a thin adapter or compatibility layer.
       decision_evidence:
-        - "Repo description: 'MCP (Model Context Protocol) server for biothings'"
-        - README states it 'implements the Model Context Protocol (MCP) for BioThings' and provides dedicated API interfaces for gene, variant, chemical, and taxon data
+        - 'Repo description: ''MCP (Model Context Protocol) server for biothings'''
+        - >-
+          README states it 'implements the Model Context Protocol (MCP) for BioThings' and provides dedicated API
+          interfaces for gene, variant, chemical, and taxon data
         - Listed in awesome-mcp-servers under Biology, Medicine and Bioinformatics as a server implementation
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product’s primary identity is an MCP server infrastructure, not an extension that augments another coding assistant with host integrations like debugger or browser access.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product’s primary identity is an MCP server infrastructure, not an
+        extension that augments another coding assistant with host integrations like debugger or browser access.
       review_reason: null
       review_resume_lifecycle: null

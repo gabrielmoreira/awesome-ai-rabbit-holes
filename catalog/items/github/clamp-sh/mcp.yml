@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__clamp-sh__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 📊 <a name="monitoring"></a>Monitoring
         anchor_text: clamp-sh/mcp
         extracted_url: https://github.com/clamp-sh/mcp
-        surrounding_text: "- [clamp-sh/mcp](https://github.com/clamp-sh/mcp) [![clamp-sh/mcp MCP server](https://glama.ai/mcp/servers/clamp-sh/mcp/badges/score.svg)](https://glama.ai/mcp/servers/clamp-sh/mcp) 📇 ☁️ 🍎 🪟 🐧 - AI-native web analytics. Query pageviews, top pages, referrers, countries, devices, and custom events. Create conversion funnels and alerts."
+        surrounding_text: >-
+          - [clamp-sh/mcp](https://github.com/clamp-sh/mcp) [![clamp-sh/mcp MCP
+          server](https://glama.ai/mcp/servers/clamp-sh/mcp/badges/score.svg)](https://glama.ai/mcp/servers/clamp-sh/mcp)
+          📇 ☁️ 🍎 🪟 🐧 - AI-native web analytics. Query pageviews, top pages, referrers, countries, devices, and
+          custom events. Create conversion funnels and alerts.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: clamp-sh/mcp
     html_url: https://github.com/clamp-sh/mcp
-    created_at: "2026-04-15T08:55:16Z"
-    pushed_at: "2026-07-07T18:51:41Z"
-    description: Analytics MCP server for Clamp Analytics. Gives Claude, Cursor, VS Code, Windsurf, and Cline tools for traffic, pages, events, revenue, errors, funnels, cohorts, and alerts. Stdio + hosted Remote MCP.
+    created_at: '2026-04-15T08:55:16Z'
+    pushed_at: '2026-07-07T18:51:41Z'
+    description: >-
+      Analytics MCP server for Clamp Analytics. Gives Claude, Cursor, VS Code, Windsurf, and Cline tools for traffic,
+      pages, events, revenue, errors, funnels, cohorts, and alerts. Stdio + hosted Remote MCP.
     homepage: https://clamp.sh/docs/mcp
     topics:
       - ai-agents
@@ -55,13 +61,15 @@ metadata:
       - vscode
       - web-analytics
       - windsurf
-    last_checked_at: "2026-09-07T04:13:46.345Z"
+    last_checked_at: '2026-09-07T04:13:46.345Z'
     readme:
-      fetched_at: "2026-09-07T04:13:46.345Z"
+      fetched_at: '2026-09-07T04:13:46.345Z'
       bytes: 14036
 insights:
   summary: An MCP server that exposes Clamp Analytics tools to AI assistants like Claude, Cursor, VS Code, Windsurf, and Cline.
-  why_it_matters: Lets developers query analytics (traffic, funnels, revenue, alerts) directly from their coding environment without switching contexts.
+  why_it_matters: >-
+    Lets developers query analytics (traffic, funnels, revenue, alerts) directly from their coding environment without
+    switching contexts.
   mental_damage: Now your AI assistant can tell you your funnel conversion dropped while you’re mid-debug.
   tags:
     - mcp-server
@@ -72,31 +80,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific (analytics) tools to MCP-compatible clients."
+  reason: >-
+    MCP is the product identity: this is a dedicated MCP server providing domain-specific (analytics) tools to
+    MCP-compatible clients.
   evidence:
     - Repo description explicitly identifies it as an 'Analytics MCP server for Clamp Analytics'
     - README details stdio MCP server setup for multiple MCP clients (Claude, Cursor, VS Code, etc.)
     - Product is listed in glama.ai MCP server registry
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Data & Databases
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
+    updated_at: '2026-05-06T22:12:15.608Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:46.345Z"
+    updated_at: '2026-09-07T04:13:46.345Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:43:02.973Z"
+    updated_at: '2026-07-21T15:43:02.973Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -109,7 +120,9 @@ processing:
       input_hash: sha256:bb755a5a687b49b99b4c10992e784c10562c055131261186e5b6a50b6789e473
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific (analytics) tools to MCP-compatible clients."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server providing domain-specific (analytics) tools to
+        MCP-compatible clients.
       decision_evidence:
         - Repo description explicitly identifies it as an 'Analytics MCP server for Clamp Analytics'
         - README details stdio MCP server setup for multiple MCP clients (Claude, Cursor, VS Code, etc.)
@@ -117,6 +130,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not just an extension layer for another assistant).
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server (not just an extension layer for
+        another assistant).
       review_reason: null
       review_resume_lifecycle: null

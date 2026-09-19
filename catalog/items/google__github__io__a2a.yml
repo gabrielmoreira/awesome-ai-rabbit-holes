@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__google__github__io__a2a__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -19,7 +19,7 @@ provenance:
           - Popular Protocols
         anchor_text: A2A Protocol
         extracted_url: https://google.github.io/A2A
-        surrounding_text: "- [A2A Protocol](https://google.github.io/A2A/) - Agent-to-Agent communication"
+        surrounding_text: '- [A2A Protocol](https://google.github.io/A2A/) - Agent-to-Agent communication'
         confidence: high
 metadata:
   github:
@@ -38,7 +38,9 @@ metadata:
     readme: null
 insights:
   summary: A2A is Google's Agent-to-Agent (A2A) protocol for enabling communication and coordination between AI agents.
-  why_it_matters: It provides a standardized way for developers to build multi-agent systems where agents can delegate tasks, share information, and collaborate.
+  why_it_matters: >-
+    It provides a standardized way for developers to build multi-agent systems where agents can delegate tasks, share
+    information, and collaborate.
   mental_damage: Now your agents can argue with each other in a standardized format.
   tags:
     - multi-agent
@@ -48,21 +50,21 @@ insights:
     - agent-communication
   confidence: high
 curation:
-  status: included
-  reason: A2A is a protocol specifically designed for agent-to-agent communication, fitting squarely in the agent orchestration space as infrastructure for multi-agent systems.
+  status: pending
+  reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
-    - Source-list context explicitly lists it under 'Popular Protocols' in an agent orchestration directory
-    - The project is Google's A2A protocol, focused on agent communication
+    - Jev classification confidence below inclusion threshold
 placement:
-  primary_category: agent-orchestration
-  section: Multi-Agent Runtime Platforms
+  primary_category: null
+  secondary_categories: []
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.661Z"
+    updated_at: '2026-05-06T22:12:15.661Z'
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +73,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:27:22.658Z"
+    updated_at: '2026-07-21T15:27:22.658Z'
     cause: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -84,13 +86,17 @@ processing:
       input_hash: sha256:98785aeac38ae37befb6477f09d5c0617b039e8e97d898422cede1f7ccf9ac9a
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: A2A is a protocol specifically designed for agent-to-agent communication, fitting squarely in the agent orchestration space as infrastructure for multi-agent systems.
+      decision_reason: >-
+        A2A is a protocol specifically designed for agent-to-agent communication, fitting squarely in the agent
+        orchestration space as infrastructure for multi-agent systems.
       decision_evidence:
         - Source-list context explicitly lists it under 'Popular Protocols' in an agent orchestration directory
         - The project is Google's A2A protocol, focused on agent communication
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because A2A is a protocol for agent coordination rather than a code-first library or SDK.
+      contrastive_reason: >-
+        Choose agent-orchestration over ai-frameworks because A2A is a protocol for agent coordination rather than a
+        code-first library or SDK.
       review_reason: null
       review_resume_lifecycle: null

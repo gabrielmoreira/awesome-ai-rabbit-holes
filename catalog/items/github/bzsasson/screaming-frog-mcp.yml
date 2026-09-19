@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bzsasson__screaming-frog-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -19,7 +19,11 @@ provenance:
           - 🎯 Marketing
         anchor_text: bzsasson/screaming-frog-mcp
         extracted_url: https://github.com/bzsasson/screaming-frog-mcp
-        surrounding_text: "-   **[bzsasson/screaming-frog-mcp](https://github.com/bzsasson/screaming-frog-mcp)** [![GitHub stars](https://img.shields.io/github/stars/bzsasson/screaming-frog-mcp?style=social)](https://github.com/bzsasson/screaming-frog-mcp): MCP server for Screaming Frog SEO Spider — list saved crawls, export SEO audit data, read and filter results, and manage crawl storage through natural language."
+        surrounding_text: >-
+          -   **[bzsasson/screaming-frog-mcp](https://github.com/bzsasson/screaming-frog-mcp)** [![GitHub
+          stars](https://img.shields.io/github/stars/bzsasson/screaming-frog-mcp?style=social)](https://github.com/bzsasson/screaming-frog-mcp):
+          MCP server for Screaming Frog SEO Spider — list saved crawls, export SEO audit data, read and filter results,
+          and manage crawl storage through natural language.
         confidence: high
 metadata:
   github:
@@ -29,9 +33,11 @@ metadata:
     archived: false
     full_name: bzsasson/screaming-frog-mcp
     html_url: https://github.com/bzsasson/screaming-frog-mcp
-    created_at: "2026-02-28T21:55:30Z"
-    pushed_at: "2026-08-31T08:48:05Z"
-    description: Headless MCP server for Screaming Frog SEO Spider – run crawls, export and analyze crawl data via the CLI. Small locked-down tool surface for scheduled audits, CI, and unattended AI agents.
+    created_at: '2026-02-28T21:55:30Z'
+    pushed_at: '2026-08-31T08:48:05Z'
+    description: >-
+      Headless MCP server for Screaming Frog SEO Spider – run crawls, export and analyze crawl data via the CLI. Small
+      locked-down tool surface for scheduled audits, CI, and unattended AI agents.
     homepage: https://github.com/bzsasson/screaming-frog-mcp#readme
     topics:
       - automation
@@ -45,13 +51,17 @@ metadata:
       - seo
       - seo-tools
       - technical-seo
-    last_checked_at: "2026-09-07T04:13:39.894Z"
+    last_checked_at: '2026-09-07T04:13:39.894Z'
     readme:
-      fetched_at: "2026-09-07T04:13:39.894Z"
+      fetched_at: '2026-09-07T04:13:39.894Z'
       bytes: 14040
 insights:
-  summary: Headless MCP server for Screaming Frog SEO Spider that enables programmatic website crawls, data export, and analysis via CLI or AI assistants.
-  why_it_matters: Lets developers integrate SEO auditing workflows into automated pipelines, CI, or AI agent tasks without manual GUI interaction.
+  summary: >-
+    Headless MCP server for Screaming Frog SEO Spider that enables programmatic website crawls, data export, and
+    analysis via CLI or AI assistants.
+  why_it_matters: >-
+    Lets developers integrate SEO auditing workflows into automated pipelines, CI, or AI agent tasks without manual GUI
+    interaction.
   mental_damage: Now your AI agent can yell at you about missing meta descriptions at 3 AM.
   tags:
     - mcp-server
@@ -62,31 +72,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is a dedicated MCP server exposing Screaming Frog SEO Spider capabilities as tools for AI clients."
+  reason: >-
+    MCP is the product identity: this is a dedicated MCP server exposing Screaming Frog SEO Spider capabilities as tools
+    for AI clients.
   evidence:
     - Repo description explicitly identifies it as a 'Headless MCP server for Screaming Frog SEO Spider'
     - README details MCP tool integration with Claude and other MCP-compatible clients
     - Source-list context places it in an MCP servers list under 'Marketing'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Browser & Web Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.606Z"
+    updated_at: '2026-05-06T22:12:15.606Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:39.894Z"
+    updated_at: '2026-09-07T04:13:39.894Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:40:16.109Z"
+    updated_at: '2026-07-21T15:40:16.109Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -99,7 +112,9 @@ processing:
       input_hash: sha256:126e744eba3d622ee68dcc6098702341f3a02db1d0d1eacb7f0d18e16fcfc3e4
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing Screaming Frog SEO Spider capabilities as tools for AI clients."
+      decision_reason: >-
+        MCP is the product identity: this is a dedicated MCP server exposing Screaming Frog SEO Spider capabilities as
+        tools for AI clients.
       decision_evidence:
         - Repo description explicitly identifies it as a 'Headless MCP server for Screaming Frog SEO Spider'
         - README details MCP tool integration with Claude and other MCP-compatible clients
@@ -107,6 +122,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific tools, not an extension augmenting another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific tools, not
+        an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

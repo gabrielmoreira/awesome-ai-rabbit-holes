@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__epicsagas__alcove__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,12 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: epicsagas/alcove
         extracted_url: https://github.com/epicsagas/alcove
-        surrounding_text: "- [epicsagas/alcove](https://github.com/epicsagas/alcove)[![alcove MCP server](https://glama.ai/mcp/servers/epicsagas/alcove/badges/score.svg)](https://glama.ai/mcp/servers/epicsagas/alcove) 🦀 🏠 🍎 🪟 🐧 - MCP server that gives AI coding agents on-demand access to private project docs via BM25 ranked search. One setup for Claude Code, Cursor, Codex, Gemini CLI, and more. Docs stay private, never in public repos."
+        surrounding_text: >-
+          - [epicsagas/alcove](https://github.com/epicsagas/alcove)[![alcove MCP
+          server](https://glama.ai/mcp/servers/epicsagas/alcove/badges/score.svg)](https://glama.ai/mcp/servers/epicsagas/alcove)
+          🦀 🏠 🍎 🪟 🐧 - MCP server that gives AI coding agents on-demand access to private project docs via BM25
+          ranked search. One setup for Claude Code, Cursor, Codex, Gemini CLI, and more. Docs stay private, never in
+          public repos.
         confidence: high
 metadata:
   github:
@@ -30,9 +35,12 @@ metadata:
     archived: false
     full_name: epicsagas/alcove
     html_url: https://github.com/epicsagas/alcove
-    created_at: "2026-03-06T11:51:31Z"
-    pushed_at: "2026-08-19T03:49:02Z"
-    description: Alcove is an MCP server that gives AI coding agents on-demand access to your private project docs — BM25 + vector hybrid search for precision retrieval, tree-sitter code indexing so agents understand your codebase structure, and policy enforcement for doc consistency.
+    created_at: '2026-03-06T11:51:31Z'
+    pushed_at: '2026-08-19T03:49:02Z'
+    description: >-
+      Alcove is an MCP server that gives AI coding agents on-demand access to your private project docs — BM25 + vector
+      hybrid search for precision retrieval, tree-sitter code indexing so agents understand your codebase structure, and
+      policy enforcement for doc consistency.
     homepage: https://crates.io/crates/alcove
     topics:
       - ai-agent
@@ -43,14 +51,20 @@ metadata:
       - mcp-server
       - privacy
       - rust
-    last_checked_at: "2026-08-27T09:23:24.350Z"
+    last_checked_at: '2026-08-27T09:23:24.350Z'
     readme:
-      fetched_at: "2026-08-27T09:23:24.350Z"
+      fetched_at: '2026-08-27T09:23:24.350Z'
       bytes: 38331
 insights:
-  summary: Alcove is an MCP server that provides AI coding agents with on-demand access to private project documentation via hybrid search and code indexing.
-  why_it_matters: It solves the context bloat problem by letting agents pull only the relevant docs they need, when they need them, rather than dumping everything into the context window.
-  mental_damage: Finally, a way to stop your AI from re-reading your entire architecture doc every time it needs to remember how auth works.
+  summary: >-
+    Alcove is an MCP server that provides AI coding agents with on-demand access to private project documentation via
+    hybrid search and code indexing.
+  why_it_matters: >-
+    It solves the context bloat problem by letting agents pull only the relevant docs they need, when they need them,
+    rather than dumping everything into the context window.
+  mental_damage: >-
+    Finally, a way to stop your AI from re-reading your entire architecture doc every time it needs to remember how auth
+    works.
   tags:
     - mcp-server
     - documentation
@@ -60,31 +74,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: Alcove is explicitly an MCP server providing domain-specific retrieval and indexing capabilities for coding agents."
+  reason: >-
+    MCP is the product identity: Alcove is explicitly an MCP server providing domain-specific retrieval and indexing
+    capabilities for coding agents.
   evidence:
     - Repo description explicitly states it is an MCP server
     - README emphasizes MCP integration and server functionality
     - Topics include 'mcp' and 'mcp-server'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Middleware & Generic
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.612Z"
+    updated_at: '2026-05-06T22:12:15.612Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-27T09:23:24.350Z"
+    updated_at: '2026-08-27T09:23:24.350Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:52:38.862Z"
+    updated_at: '2026-07-21T15:52:38.862Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -97,7 +114,9 @@ processing:
       input_hash: sha256:2face4762bd43a4f2d6f01a5e33b4837d0982ae68ebe6dcd3e2df37c202c0f17
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: "MCP is the product identity: Alcove is explicitly an MCP server providing domain-specific retrieval and indexing capabilities for coding agents."
+      decision_reason: >-
+        MCP is the product identity: Alcove is explicitly an MCP server providing domain-specific retrieval and indexing
+        capabilities for coding agents.
       decision_evidence:
         - Repo description explicitly states it is an MCP server
         - README emphasizes MCP integration and server functionality
@@ -105,6 +124,8 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the core product identity is an MCP server, not just a retrieval system.
+      contrastive_reason: >-
+        Choose mcp over context-engineering because the core product identity is an MCP server, not just a retrieval
+        system.
       review_reason: null
       review_resume_lifecycle: null

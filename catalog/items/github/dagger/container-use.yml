@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dagger__container-use__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-05-06T22:12:15.572Z"
+      discovered_at: '2026-05-06T22:12:15.572Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 👨‍💻 <a name="code-execution"></a>Code Execution
         anchor_text: dagger/container-use
         extracted_url: https://github.com/dagger/container-use
-        surrounding_text: "- [dagger/container-use](https://github.com/dagger/container-use) 🏎️ 🏠 🐧 🍎 🪟 - Containerized environments for coding agents. Multiple agents can work independently, isolated in fresh containers and git branches. No conflicts, many experiments. Full execution history, terminal access to agent environments, git workflow. Any agent/model/infra stack."
+        surrounding_text: >-
+          - [dagger/container-use](https://github.com/dagger/container-use) 🏎️ 🏠 🐧 🍎 🪟 - Containerized environments
+          for coding agents. Multiple agents can work independently, isolated in fresh containers and git branches. No
+          conflicts, many experiments. Full execution history, terminal access to agent environments, git workflow. Any
+          agent/model/infra stack.
         confidence: high
 metadata:
   github:
@@ -30,18 +34,24 @@ metadata:
     archived: false
     full_name: dagger/container-use
     html_url: https://github.com/dagger/container-use
-    created_at: "2025-05-23T23:18:43Z"
-    pushed_at: "2026-09-07T14:04:50Z"
-    description: Development environments for coding agents. Enable multiple agents to work safely and independently with your preferred stack.
+    created_at: '2025-05-23T23:18:43Z'
+    pushed_at: '2026-09-07T14:04:50Z'
+    description: >-
+      Development environments for coding agents. Enable multiple agents to work safely and independently with your
+      preferred stack.
     homepage: https://container-use.com
     topics: []
-    last_checked_at: "2026-09-14T04:13:32.989Z"
+    last_checked_at: '2026-09-14T04:13:32.989Z'
     readme:
-      fetched_at: "2026-09-14T04:13:32.989Z"
+      fetched_at: '2026-09-14T04:13:32.989Z'
       bytes: 3512
 insights:
-  summary: An open-source MCP server that provides isolated containerized development environments for coding agents to work safely and independently.
-  why_it_matters: Enables multiple coding agents to operate in parallel without conflicts, each in their own containerized git branch, with real-time visibility and direct intervention capabilities.
+  summary: >-
+    An open-source MCP server that provides isolated containerized development environments for coding agents to work
+    safely and independently.
+  why_it_matters: >-
+    Enables multiple coding agents to operate in parallel without conflicts, each in their own containerized git branch,
+    with real-time visibility and direct intervention capabilities.
   mental_damage: Finally, a way to let your agents fight each other in isolated containers instead of your main branch.
   tags:
     - mcp
@@ -52,31 +62,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is as an MCP server providing containerized environments, with MCP as the primary adopted protocol rather than a compatibility footnote.
+  reason: >-
+    The product's core identity is as an MCP server providing containerized environments, with MCP as the primary
+    adopted protocol rather than a compatibility footnote.
   evidence:
     - Repo description explicitly states it is 'Development environments for coding agents'
     - README identifies it as 'an open-source MCP server'
     - Source-list context shows it is included in awesome-mcp-servers under 'Code Execution'
 placement:
   primary_category: mcp
-  section: Domain Servers
+  secondary_categories: []
+  section: Dev & Code Tools
 lifecycle:
   status: promotion_candidate
   reason: Stars (3767) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.609Z"
+    updated_at: '2026-05-06T22:12:15.609Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:32.989Z"
+    updated_at: '2026-09-14T04:13:32.989Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:49:27.341Z"
+    updated_at: '2026-07-21T15:49:27.341Z'
     cause: null
     next_retry_at: null
     attempts: 2
@@ -89,7 +102,9 @@ processing:
       input_hash: sha256:6ba00b7dc545343174bd6979b1c9ad3a3ed7b47f495afadeecd3c4319807bd02
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is as an MCP server providing containerized environments, with MCP as the primary adopted protocol rather than a compatibility footnote.
+      decision_reason: >-
+        The product's core identity is as an MCP server providing containerized environments, with MCP as the primary
+        adopted protocol rather than a compatibility footnote.
       decision_evidence:
         - Repo description explicitly states it is 'Development environments for coding agents'
         - README identifies it as 'an open-source MCP server'
@@ -97,6 +112,8 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server providing containerized environments, not merely an extension for another assistant.
+      contrastive_reason: >-
+        Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server providing
+        containerized environments, not merely an extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

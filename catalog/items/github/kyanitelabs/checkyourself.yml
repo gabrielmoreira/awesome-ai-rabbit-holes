@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kyanitelabs__checkyourself__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: "2026-06-08T05:39:05.247Z"
+      discovered_at: '2026-06-08T05:39:05.247Z'
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,7 +20,11 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: KyaniteLabs/checkyourself
         extracted_url: https://github.com/kyanitelabs/checkyourself
-        surrounding_text: "- [KyaniteLabs/checkyourself](https://github.com/KyaniteLabs/checkyourself) [![KyaniteLabs/checkyourself MCP server](https://glama.ai/mcp/servers/KyaniteLabs/checkyourself/badges/score.svg)](https://glama.ai/mcp/servers/KyaniteLabs/checkyourself) 🐍 🏠 - Local-first production-readiness audit for AI-built apps: read-only checks, an evidence-based 0-100 score, and guided fixes before launch."
+        surrounding_text: >-
+          - [KyaniteLabs/checkyourself](https://github.com/KyaniteLabs/checkyourself) [![KyaniteLabs/checkyourself MCP
+          server](https://glama.ai/mcp/servers/KyaniteLabs/checkyourself/badges/score.svg)](https://glama.ai/mcp/servers/KyaniteLabs/checkyourself)
+          🐍 🏠 - Local-first production-readiness audit for AI-built apps: read-only checks, an evidence-based 0-100
+          score, and guided fixes before launch.
         confidence: high
 metadata:
   github:
@@ -30,9 +34,11 @@ metadata:
     archived: false
     full_name: KyaniteLabs/checkyourself
     html_url: https://github.com/KyaniteLabs/checkyourself
-    created_at: "2026-05-29T07:46:55Z"
-    pushed_at: "2026-07-29T00:28:32Z"
-    description: "Local-first production-readiness system for AI-built apps: read-only audit, evidence-based 0-100 score, guided fixes, learning plan, dashboard, CLI, and MCP."
+    created_at: '2026-05-29T07:46:55Z'
+    pushed_at: '2026-07-29T00:28:32Z'
+    description: >-
+      Local-first production-readiness system for AI-built apps: read-only audit, evidence-based 0-100 score, guided
+      fixes, learning plan, dashboard, CLI, and MCP.
     homepage: https://kyanitelabs.tech
     topics:
       - ai
@@ -55,13 +61,17 @@ metadata:
       - production-readiness
       - security-audit
       - vibe-coding
-    last_checked_at: "2026-07-30T05:06:01.870Z"
+    last_checked_at: '2026-07-30T05:06:01.870Z'
     readme:
-      fetched_at: "2026-07-30T05:06:01.870Z"
+      fetched_at: '2026-07-30T05:06:01.870Z'
       bytes: 883
 insights:
-  summary: CheckYourself is a local-first Python CLI and MCP server that audits AI-built apps with a deterministic 0-100 production readiness score and guided fixes.
-  why_it_matters: It gives developers a repeatable, evidence-based way to find real production risks in AI-generated code before launch.
+  summary: >-
+    CheckYourself is a local-first Python CLI and MCP server that audits AI-built apps with a deterministic 0-100
+    production readiness score and guided fixes.
+  why_it_matters: >-
+    It gives developers a repeatable, evidence-based way to find real production risks in AI-generated code before
+    launch.
   mental_damage: Finally, a tool that scores your vibe-coded app like a stressed-out senior engineer who just saw your PR.
   tags:
     - code-audit
@@ -71,31 +81,38 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: CheckYourself functions as an extension that augments AI coding assistants with audit, scoring, and workflow capabilities rather than acting as a primary coding assistant itself.
+  reason: >-
+    CheckYourself functions as an extension that augments AI coding assistants with audit, scoring, and workflow
+    capabilities rather than acting as a primary coding assistant itself.
   evidence:
     - Repo description positions it as a 'Local-first production-readiness system for AI-built apps' with MCP and CLI
-    - README states it 'turns your AI assistant into a pre-launch production reviewer' and requires pointing the AI at CONTEXT.md
-    - It provides read-only audits, scoring, fix suggestions, and learning plans — augmenting, not replacing, the AI assistant's core coding role
+    - >-
+      README states it 'turns your AI assistant into a pre-launch production reviewer' and requires pointing the AI at
+      CONTEXT.md
+    - >-
+      It provides read-only audits, scoring, fix suggestions, and learning plans — augmenting, not replacing, the AI
+      assistant's core coding role
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: coding-agents
+  secondary_categories: []
+  section: Review, Testing & Repair
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: "2026-06-08T05:39:05.248Z"
+    updated_at: '2026-06-08T05:39:05.248Z'
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:06:01.870Z"
+    updated_at: '2026-07-30T05:06:01.870Z'
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-02T05:31:05.406Z"
+    updated_at: '2026-07-02T05:31:05.406Z'
     cause: null
     next_retry_at: null
     attempts: 1
