@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__govcraft__rust-docs-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Govcraft/rust-docs-mcp-server
         extracted_url: https://github.com/govcraft/rust-docs-mcp-server
-        surrounding_text: >-
-          - [Govcraft/rust-docs-mcp-server](https://github.com/Govcraft/rust-docs-mcp-server) 🦀 🏠 - Provides
-          up-to-date documentation context for a specific Rust crate to LLMs via an MCP tool, using semantic search
-          (embeddings) and LLM summarization.
+        surrounding_text: "- [Govcraft/rust-docs-mcp-server](https://github.com/Govcraft/rust-docs-mcp-server) 🦀 🏠 - Provides up-to-date documentation context for a specific Rust crate to LLMs via an MCP tool, using semantic search (embeddings) and LLM summarization."
         confidence: high
 metadata:
   github:
@@ -33,12 +30,10 @@ metadata:
     archived: false
     full_name: Govcraft/rust-docs-mcp-server
     html_url: https://github.com/Govcraft/rust-docs-mcp-server
-    created_at: '2025-03-26T00:15:21Z'
-    pushed_at: '2025-11-24T19:44:06Z'
-    description: >-
-      🦀 Prevents outdated Rust code suggestions from AI assistants. This MCP server fetches current crate docs, uses
-      embeddings/LLMs, and provides accurate context via a tool call.
-    homepage: ''
+    created_at: "2025-03-26T00:15:21Z"
+    pushed_at: "2025-11-24T19:44:06Z"
+    description: 🦀 Prevents outdated Rust code suggestions from AI assistants. This MCP server fetches current crate docs, uses embeddings/LLMs, and provides accurate context via a tool call.
+    homepage: ""
     topics:
       - ai
       - ai-safety
@@ -60,17 +55,13 @@ metadata:
       - rustdoc
       - rustlang
       - semantic-search
-    last_checked_at: '2026-09-03T05:16:52.929Z'
+    last_checked_at: "2026-09-03T05:16:52.929Z"
     readme:
-      fetched_at: '2026-09-03T05:16:52.929Z'
+      fetched_at: "2026-09-03T05:16:52.929Z"
       bytes: 14065
 insights:
-  summary: >-
-    An MCP server that fetches current Rust crate documentation and provides accurate context to AI assistants via
-    embeddings and LLM summarization.
-  why_it_matters: >-
-    It solves the problem of outdated Rust API suggestions from AI assistants by giving them real-time access to
-    up-to-date crate documentation.
+  summary: An MCP server that fetches current Rust crate documentation and provides accurate context to AI assistants via embeddings and LLM summarization.
+  why_it_matters: It solves the problem of outdated Rust API suggestions from AI assistants by giving them real-time access to up-to-date crate documentation.
   mental_damage: Finally, a way to stop your AI from confidently suggesting deprecated `serde` methods from 2021.
   tags:
     - mcp-server
@@ -96,18 +87,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.616Z'
+    updated_at: "2026-05-06T22:12:15.616Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-03T05:16:52.929Z'
+    updated_at: "2026-09-03T05:16:52.929Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-07-21T16:03:59.314Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-09-21T04:14:01.562Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -127,8 +120,6 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: >-
-        Choose mcp over context-engineering because the core product is an MCP server exposing Rust docs as tools, not a
-        general context/retrieval system.
+      contrastive_reason: Choose mcp over context-engineering because the core product is an MCP server exposing Rust docs as tools, not a general context/retrieval system.
       review_reason: null
       review_resume_lifecycle: null

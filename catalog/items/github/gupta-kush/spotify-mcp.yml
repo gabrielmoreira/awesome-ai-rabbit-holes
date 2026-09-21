@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gupta-kush__spotify-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,7 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: gupta-kush/spotify-mcp
         extracted_url: https://github.com/gupta-kush/spotify-mcp
-        surrounding_text: >-
-          - [gupta-kush/spotify-mcp](https://github.com/gupta-kush/spotify-mcp) 🐍 ☁️ 🍎 🪟 🐧 - 93-tool Spotify server
-          with smart shuffle, natural language song search, vibe analysis, artist network mapping, taste evolution, and
-          playlist power tools. Works after Spotify's Feb 2026 API changes.
+        surrounding_text: "- [gupta-kush/spotify-mcp](https://github.com/gupta-kush/spotify-mcp) 🐍 ☁️ 🍎 🪟 🐧 - 93-tool Spotify server with smart shuffle, natural language song search, vibe analysis, artist network mapping, taste evolution, and playlist power tools. Works after Spotify's Feb 2026 API changes."
         confidence: high
 metadata:
   github:
@@ -33,11 +30,9 @@ metadata:
     archived: false
     full_name: gupta-kush/spotify-mcp
     html_url: https://github.com/gupta-kush/spotify-mcp
-    created_at: '2026-03-06T21:57:57Z'
-    pushed_at: '2026-03-31T02:00:01Z'
-    description: >-
-      Control Spotify from Claude, Cursor, or any MCP client. 100+ tools for playback, playlists, discovery, and
-      curation.
+    created_at: "2026-03-06T21:57:57Z"
+    pushed_at: "2026-03-31T02:00:01Z"
+    description: Control Spotify from Claude, Cursor, or any MCP client. 100+ tools for playback, playlists, discovery, and curation.
     homepage: https://pypi.org/project/spotify-mcp/
     topics:
       - ai
@@ -50,17 +45,13 @@ metadata:
       - python
       - spotify
       - spotify-api
-    last_checked_at: '2026-09-03T05:16:56.001Z'
+    last_checked_at: "2026-09-03T05:16:56.001Z"
     readme:
-      fetched_at: '2026-09-03T05:16:56.001Z'
+      fetched_at: "2026-09-03T05:16:56.001Z"
       bytes: 17443
 insights:
-  summary: >-
-    An MCP server that exposes 100+ Spotify tools (playback, playlists, discovery, curation) to Claude, Cursor, or any
-    MCP client.
-  why_it_matters: >-
-    Lets developers control Spotify directly from their AI coding environment, enabling music-related workflows without
-    leaving the IDE or terminal.
+  summary: An MCP server that exposes 100+ Spotify tools (playback, playlists, discovery, curation) to Claude, Cursor, or any MCP client.
+  why_it_matters: Lets developers control Spotify directly from their AI coding environment, enabling music-related workflows without leaving the IDE or terminal.
   mental_damage: Now your AI pair programmer can also DJ your focus playlist while it refactors your code.
   tags:
     - mcp-server
@@ -71,7 +62,7 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: 'MCP is the product identity: this is a dedicated MCP server providing domain-specific tools for Spotify integration.'
+  reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific tools for Spotify integration."
   evidence:
     - Repo description explicitly states it's an MCP server for Spotify control
     - README details 100+ tools and MCP-specific installation/configuration
@@ -86,18 +77,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.617Z'
+    updated_at: "2026-05-06T22:12:15.617Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-03T05:16:56.001Z'
+    updated_at: "2026-09-03T05:16:56.001Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-07-21T16:04:46.323Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-09-21T04:14:01.562Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -109,9 +102,7 @@ processing:
       input_hash: sha256:0cc752f2d81c4df1118e681781317caf97549fb958d2775af35a23c507c1b4cf
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        MCP is the product identity: this is a dedicated MCP server providing domain-specific tools for Spotify
-        integration.
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific tools for Spotify integration."
       decision_evidence:
         - Repo description explicitly states it's an MCP server for Spotify control
         - README details 100+ tools and MCP-specific installation/configuration
@@ -119,8 +110,6 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: >-
-        Choose mcp over ai-dev-extensions because the core product is an MCP server (domain-specific tooling) rather
-        than an extension augmenting another assistant.
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (domain-specific tooling) rather than an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

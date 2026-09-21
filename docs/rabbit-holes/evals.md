@@ -77,7 +77,7 @@ Frameworks, platforms, and tooling for measuring, tracing, comparing, and improv
   `function-calling` `benchmarks` `llm-eval` `api-integration` `research`
   </details>
 
-- **[Phoenix](https://github.com/arize-ai/phoenix)** `⭐ 11.4k` `updated ≤30d` Open-source AI observability and evaluation platform for tracing, experimenting, and optimizing AI applications. <details><summary>More about</summary>
+- **[Phoenix](https://github.com/arize-ai/phoenix)** `⭐ 11.6k` `updated ≤30d` Open-source AI observability and evaluation platform for tracing, experimenting, and optimizing AI applications. <details><summary>More about</summary>
 
   Developers can instrument, debug, and compare LLM behavior in production or staging without vendor lock-in.
 
@@ -540,7 +540,7 @@ _These are new or low-traffic entries being watched._
   `observability` `tui` `ai-agents` `cost-tracking` `local-first`
   </details>
 
-- **[avivsinai/langfuse-mcp](https://github.com/avivsinai/langfuse-mcp)** `⭐ 105` `updated ≤30d` An MCP server for Langfuse that enables AI agents to query trace data, debug errors, and analyze sessions for observability. <details><summary>More about</summary>
+- **[avivsinai/langfuse-mcp](https://github.com/avivsinai/langfuse-mcp)** `⭐ 106` `updated ≤30d` An MCP server for Langfuse that enables AI agents to query trace data, debug errors, and analyze sessions for observability. <details><summary>More about</summary>
 
   Developers can integrate Langfuse's observability features directly into their AI agent workflows via MCP, enabling richer debugging and trace analysis.
 
@@ -693,6 +693,15 @@ _These are new or low-traffic entries being watched._
   `mcp` `hallucination-guardrails` `grounding` `nli` `agent-tools`
   </details>
 
+- **[Atla API](https://docs.atla-ai.com/overview)** Atla is an observability platform designed to monitor, trace, and debug the behavior of AI agents. <details><summary>More about</summary>
+
+  It provides the necessary telemetry and error detection to help developers debug non-deterministic agent failures and iterate on performance.
+
+  _Because debugging a non-deterministic agent is a special kind of hell that now requires its own dedicated monitoring stack._
+
+  `observability` `tracing` `llmops` `agent-monitoring`
+  </details>
+
 - **[chat.lmsys.org](https://chat.lmsys.org)** A benchmarking platform for evaluating large language models through human-side comparisons. <details><summary>More about</summary>
 
   It provides a standardized way for developers to see how different models perform on specific prompts via side-by-side voting.
@@ -720,13 +729,13 @@ _These are new or low-traffic entries being watched._
   `llmops` `observability` `guardrails` `enterprise-ai` `evals`
   </details>
 
-- **[Keywords AI](https://respan.ai)** Respan is an LLM engineering platform that unifies observability, evaluations, prompt optimization, and model gateway capabilities for teams building AI agents. <details><summary>More about</summary>
+- **[Keywords AI](https://respan.ai)** An LLM engineering platform that unifies observability, evaluations, and model gateway routing. <details><summary>More about</summary>
 
-  It gives developers a single control plane to trace agent behavior, run structured evaluations, and ship prompt or model changes with versioning and rollout controls.
+  It centralizes model routing, cost tracking, and quality assessments into a single integration point for developers.
 
-  _Yet another platform promising to solve AI flakiness, just in case the six observability tools you already stitched together weren't quite enough to explain why your agent suddenly forgot how to reply._
+  _The perfect dashboard for watching your token spend climb in real-time while you debug why your agent just hallucinated a refund._
 
-  `agent-monitoring` `evals` `llm-gateway` `llmops` `monitoring` `observability` `prompt-ops` `prompt-optimization`
+  `llmops` `gateway` `observability` `evals` `tracing`
   </details>
 
 - **[Literal AI](https://literalai.com)** Literal AI is a platform for building, debugging, and monitoring AI applications with a focus on observability and evaluation. <details><summary>More about</summary>

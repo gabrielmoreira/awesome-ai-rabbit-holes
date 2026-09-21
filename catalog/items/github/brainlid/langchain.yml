@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__brainlid__langchain__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -19,9 +19,7 @@ provenance:
           - Ports to other languages
         anchor_text: Langchain
         extracted_url: https://github.com/brainlid/langchain
-        surrounding_text: >-
-          - [Langchain](https://github.com/brainlid/langchain): Elixir implementation of a LangChain ![GitHub Repo
-          stars](https://img.shields.io/github/stars/brainlid/langchain?style=social)
+        surrounding_text: "- [Langchain](https://github.com/brainlid/langchain): Elixir implementation of a LangChain ![GitHub Repo stars](https://img.shields.io/github/stars/brainlid/langchain?style=social)"
         confidence: high
 metadata:
   github:
@@ -31,8 +29,8 @@ metadata:
     archived: false
     full_name: brainlid/langchain
     html_url: https://github.com/brainlid/langchain
-    created_at: '2023-07-12T17:27:16Z'
-    pushed_at: '2026-08-26T20:29:34Z'
+    created_at: "2023-07-12T17:27:16Z"
+    pushed_at: "2026-08-26T20:29:34Z"
     description: Elixir implementation of a LangChain style framework that lets Elixir projects integrate with and leverage LLMs.
     homepage: https://hexdocs.pm/langchain/
     topics:
@@ -44,15 +42,13 @@ metadata:
       - elixir
       - langchain
       - llm
-    last_checked_at: '2026-09-07T04:13:37.378Z'
+    last_checked_at: "2026-09-07T04:13:37.378Z"
     readme:
-      fetched_at: '2026-09-07T04:13:37.378Z'
+      fetched_at: "2026-09-07T04:13:37.378Z"
       bytes: 22522
 insights:
   summary: Elixir implementation of a LangChain-style framework for integrating LLMs into Elixir applications.
-  why_it_matters: >-
-    Enables Elixir developers to build data-aware and agentic applications by chaining LLM workflows with modular
-    components.
+  why_it_matters: Enables Elixir developers to build data-aware and agentic applications by chaining LLM workflows with modular components.
   mental_damage: Now Elixir developers can also chain their existential dread to language models.
   tags:
     - elixir
@@ -63,9 +59,7 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a code-first framework/SDK for embedding LLM workflows into Elixir applications, matching the 'Frameworks &
-    SDKs' category.
+  reason: This is a code-first framework/SDK for embedding LLM workflows into Elixir applications, matching the 'Frameworks & SDKs' category.
   evidence:
     - Repo description explicitly states it is an Elixir implementation of a LangChain-style framework
     - README emphasizes it as a library for integrating AI services and models into Elixir apps
@@ -80,18 +74,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.606Z'
+    updated_at: "2026-05-06T22:12:15.606Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-07T04:13:37.378Z'
+    updated_at: "2026-09-07T04:13:37.378Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-07-21T15:26:50.677Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-09-21T04:14:01.561Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -103,9 +99,7 @@ processing:
       input_hash: sha256:c2a202662bc1499c7578ead7f4fcc5cad7a1ca577c30de40503412b1240a7cc5
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: >-
-        This is a code-first framework/SDK for embedding LLM workflows into Elixir applications, matching the
-        'Frameworks & SDKs' category.
+      decision_reason: This is a code-first framework/SDK for embedding LLM workflows into Elixir applications, matching the 'Frameworks & SDKs' category.
       decision_evidence:
         - Repo description explicitly states it is an Elixir implementation of a LangChain-style framework
         - README emphasizes it as a library for integrating AI services and models into Elixir apps
@@ -113,8 +107,6 @@ processing:
       category_candidates:
         - ai-frameworks
         - agent-orchestration
-      contrastive_reason: >-
-        Choose ai-frameworks over agent-orchestration because the product is a code-first library/SDK rather than an
-        operated workbench or runtime platform.
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the product is a code-first library/SDK rather than an operated workbench or runtime platform.
       review_reason: null
       review_resume_lifecycle: null

@@ -32,7 +32,7 @@ Awesome lists, curated directories, ecosystem maps, newsletters, and publication
   `cursor` `cursorrules` `config` `awesome-list` `ide`
   </details>
 
-- **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** `⭐ 30k` `updated ≤30d` A curated list of AI autonomous agents, both open-source and closed-source, with a web UI for filtering by categories and use-cases. <details><summary>More about</summary>
+- **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** `⭐ 30k` `updated ≤90d` A curated list of AI autonomous agents, both open-source and closed-source, with a web UI for filtering by categories and use-cases. <details><summary>More about</summary>
 
   It provides developers with a structured, discoverable map of the AI agent ecosystem, saving time in finding relevant tools for building or integrating agents.
 
@@ -133,6 +133,15 @@ _These are new or low-traffic entries being watched._
   _Because choosing between 100 different 'top' tools is a much more efficient way to procrastinate than actually writing code._
 
   `directory` `curation` `discovery`
+  </details>
+
+- **[awesomelangchain.substack.com](https://awesomelangchain.substack.com)** A Substack newsletter providing curated updates and insights regarding the LangChain ecosystem. <details><summary>More about</summary>
+
+  It helps developers filter the noise of the rapidly evolving LangChain framework through periodic curation.
+
+  _Another specialized feed to help you achieve the illusion of being 'up to date' in an ecosystem that changes every Tuesday._
+
+  `langchain` `newsletter` `curation` `ai-ecosystem`
   </details>
 
 - **[CodeCosts](https://codecosts.pages.dev)** A comparison and cost calculation platform for AI coding assistants and IDEs. <details><summary>More about</summary>

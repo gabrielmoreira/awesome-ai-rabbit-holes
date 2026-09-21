@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__getunblocked__com__unblocked__mcp__awesome-list__patrickjs__awesome-cursorrules
-      discovered_at: '2026-05-14T05:20:10.208Z'
+      discovered_at: "2026-05-14T05:20:10.208Z"
       source:
         type: awesome-list
         name: PatrickJS/awesome-cursorrules
@@ -19,10 +19,7 @@ provenance:
           - Sponsorships
         anchor_text: Unblocked MCP
         extracted_url: https://getunblocked.com/unblocked-mcp
-        surrounding_text: >-
-          - [Unblocked
-          MCP](https://getunblocked.com/unblocked-mcp/?utm_source=oss&utm_medium=sponsorship&utm_campaign=awesome-cursorrules)
-          - Team knowledge for Cursor workflows.
+        surrounding_text: "- [Unblocked MCP](https://getunblocked.com/unblocked-mcp/?utm_source=oss&utm_medium=sponsorship&utm_campaign=awesome-cursorrules) - Team knowledge for Cursor workflows."
         confidence: high
 metadata:
   github:
@@ -30,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -38,46 +37,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Unblocked MCP Server provides synthesized context from codebase, docs, PRs, and Slack to AI coding agents via the
-    Model Context Protocol.
-  why_it_matters: >-
-    It reduces agent hallucination and rework by delivering decision-grade, reconciled context from live organizational
-    sources.
-  mental_damage: >-
-    Finally, a way to make your AI agent feel less like a confused intern and more like a teammate who actually read the
-    wiki.
+  summary: An MCP server that delivers synthesized organizational context from sources like GitHub, Slack, and Jira to AI agents.
+  why_it_matters: It helps agents understand the intent and history behind code by bridging the gap between the codebase and the conversations or documentation surrounding it.
+  mental_damage: Finally, an automated way to ensure your AI agent can hallucinate based on a three-year-old Slack thread just as easily as your codebase.
   tags:
     - mcp
     - context-engineering
-    - ai-dev-extensions
+    - ai-agents
+    - dev-tools
   confidence: high
 curation:
   status: included
-  reason: >-
-    Unblocked MCP Server's core value is synthesizing and resolving context across multiple live sources, making it a
-    prompt and context engineering tool rather than a coding agent or mere extension.
+  reason: The tool's primary identity is an MCP server that provides organizational context to agents via the Model Context Protocol.
   evidence:
-    - >-
-      Unblocked synthesizes continuously from live sources — code, PRs, conversations, and docs — so your agent works
-      from what's actually true right now.
-    - >-
-      Unblocked synthesizes across all your sources, resolves what conflicts, and delivers a single reconciled answer —
-      before results ever reach your agent.
-    - >-
-      Listed in awesome-cursorrules under Footnotes > Sponsorships as providing 'decision-grade context from your
-      codebase, docs, PRs, and Slack. One MCP server.'
+    - Branded explicitly as 'Unblocked MCP Server'
+    - Synthesizes data from multiple sources like Slack, Jira, and GitHub into a single MCP connection
+    - Designed to function as a context layer for existing agents like Claude Code, Cursor, and Windsurf
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Communication, Files & Productivity
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-14T05:20:10.209Z'
+    updated_at: "2026-05-14T05:20:10.209Z"
     cause: null
     next_retry_at: null
   stars:
@@ -86,9 +72,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-05-14T05:33:36.623Z'
+    updated_at: "2026-09-21T04:18:33.892Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:6e2ea1f02fd1e6ea3c0d1be64a1aed22022ff659104e81f792aae9a79a911fe8
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool's primary identity is an MCP server that provides organizational context to agents via the Model Context Protocol.
+      decision_evidence:
+        - Branded explicitly as 'Unblocked MCP Server'
+        - Synthesizes data from multiple sources like Slack, Jira, and GitHub into a single MCP connection
+        - Designed to function as a context layer for existing agents like Claude Code, Cursor, and Windsurf
+      category_candidates:
+        - mcp
+        - memory-and-context
+      contrastive_reason: Choose mcp over memory-and-context because the product's primary identity is an MCP server, which takes priority over its functional role as a context provider.
+      review_reason: null
+      review_resume_lifecycle: null

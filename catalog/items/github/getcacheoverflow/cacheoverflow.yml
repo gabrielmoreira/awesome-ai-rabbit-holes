@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__getcacheoverflow__cacheoverflow__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,7 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: GetCacheOverflow/CacheOverflow
         extracted_url: https://github.com/getcacheoverflow/cacheoverflow
-        surrounding_text: >-
-          - [GetCacheOverflow/CacheOverflow](https://github.com/GetCacheOverflow/CacheOverflow) 📇 ☁️ - AI agent
-          knowledge marketplace where agents share solutions and earn tokens. Search, publish, and unlock previously
-          solved problems to reduce token usage and computational costs.
+        surrounding_text: "- [GetCacheOverflow/CacheOverflow](https://github.com/GetCacheOverflow/CacheOverflow) 📇 ☁️ - AI agent knowledge marketplace where agents share solutions and earn tokens. Search, publish, and unlock previously solved problems to reduce token usage and computational costs."
         confidence: high
 metadata:
   github:
@@ -33,20 +30,18 @@ metadata:
     archived: false
     full_name: GetCacheOverflow/CacheOverflow
     html_url: https://github.com/GetCacheOverflow/CacheOverflow
-    created_at: '2026-01-30T10:36:37Z'
-    pushed_at: '2026-02-26T10:23:03Z'
+    created_at: "2026-01-30T10:36:37Z"
+    pushed_at: "2026-02-26T10:23:03Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: '2026-09-03T05:16:48.630Z'
+    last_checked_at: "2026-09-03T05:16:48.630Z"
     readme:
-      fetched_at: '2026-09-03T05:16:48.630Z'
+      fetched_at: "2026-09-03T05:16:48.630Z"
       bytes: 2904
 insights:
   summary: A distributed knowledge base for AI agents to share, discover, and publish verified technical solutions.
-  why_it_matters: >-
-    It aims to reduce redundant debugging by allowing agents to retrieve proven solutions from a shared, human-verified
-    repository.
+  why_it_matters: It aims to reduce redundant debugging by allowing agents to retrieve proven solutions from a shared, human-verified repository.
   mental_damage: Finally, a way for our agents to crowdsource the answers to the bugs we're too tired to fix ourselves.
   tags:
     - mcp-server
@@ -71,18 +66,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.615Z'
+    updated_at: "2026-05-06T22:12:15.615Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-03T05:16:48.630Z'
+    updated_at: "2026-09-03T05:16:48.630Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-07-21T16:01:55.307Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-09-21T04:14:01.562Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -94,9 +91,7 @@ processing:
       input_hash: sha256:9a50349df655e25b98cee65a3946ad76402efe7c45a0a7cd088adf430746fb29
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The product identity is an MCP-enabled tool that provides a shared knowledge base via the Model Context
-        Protocol.
+      decision_reason: The product identity is an MCP-enabled tool that provides a shared knowledge base via the Model Context Protocol.
       decision_evidence:
         - README explicitly states it works everywhere via Claude Desktop or Cursor as an MCP-enabled agent
         - Core functionality is providing 'find_solution' and 'publish_solution' tools via MCP
@@ -104,8 +99,6 @@ processing:
       category_candidates:
         - mcp
         - context-engineering
-      contrastive_reason: >-
-        Choose mcp over context-engineering because the product's primary identity and delivery method is an MCP server
-        providing specific tools, rather than a generic retrieval or memory infrastructure.
+      contrastive_reason: Choose mcp over context-engineering because the product's primary identity and delivery method is an MCP server providing specific tools, rather than a generic retrieval or memory infrastructure.
       review_reason: null
       review_resume_lifecycle: null

@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: TPOT (Tree-based Pipeline Optimization Tool) is an AutoML tool that uses genetic programming to automatically design and optimize machine learning pipelines.
-  why_it_matters: It automates the tedious process of selecting the best ML models and hyperparameters, effectively acting as an automated data scientist for pipeline construction.
-  mental_damage: The dream of an automated ML pipeline is only matched by the anxiety of watching a genetic algorithm spend 48 hours deciding that a Random Forest was the answer all along.
+  summary: TPOT is an open-source AutoML tool that automates the construction of machine learning pipelines using genetic programming and scikit-learn.
+  why_it_matters: It helps data scientists and ML practitioners automate repetitive model selection and pipeline tuning tasks, reducing manual experimentation time.
+  mental_damage: Another tool promising to replace your ML intuition with a black-box genetic algorithm you can’t debug or explain to stakeholders.
   tags:
     - automl
-    - pipeline-optimization
-    - scikit-learn
-    - genetic-programming
+    - machine-learning
+    - python
   confidence: high
 curation:
   status: excluded
-  reason: TPOT is a general ML/AutoML tool for model selection and pipeline optimization, which falls under general ML research/tooling rather than the specific scope of AI developer tools for building software, agents, or coding workflows.
+  reason: TPOT is a general-purpose AutoML library for data science, not a developer-facing AI tool focused on coding, agent workflows, or software development tasks.
   evidence:
-    - Source-list placement in 'AutoML' section of Awesome-LLMOps
-    - Core functionality is automated pipeline design for ML models, not software development/coding assistance
+    - TPOT automates ML pipeline optimization using genetic programming and scikit-learn, targeting data science workflows
+    - The tool is positioned as an open-source software package for the data science community, not for coding agents or developer tooling
+    - No evidence suggests it assists with code writing, editing, agent orchestration, or app building — core to the catalog’s scope
 placement:
   primary_category: null
   section: null
@@ -67,9 +69,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-06-04T05:42:13.828Z"
+    updated_at: "2026-09-21T04:33:28.156Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:a73872a1f212e9b5162fa0d3128896e8e23cd5521790c5365c81f70bf6cadfc3
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: TPOT is a general-purpose AutoML library for data science, not a developer-facing AI tool focused on coding, agent workflows, or software development tasks.
+      decision_evidence:
+        - TPOT automates ML pipeline optimization using genetic programming and scikit-learn, targeting data science workflows
+        - The tool is positioned as an open-source software package for the data science community, not for coding agents or developer tooling
+        - No evidence suggests it assists with code writing, editing, agent orchestration, or app building — core to the catalog’s scope
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

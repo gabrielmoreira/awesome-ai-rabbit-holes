@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ayhammouda__python-docs-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-28T05:28:09.816Z'
+      discovered_at: "2026-05-28T05:28:09.816Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,26 +20,19 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: ayhammouda/python-docs-mcp-server
         extracted_url: https://github.com/ayhammouda/python-docs-mcp-server
-        surrounding_text: >-
-          - [ayhammouda/python-docs-mcp-server](https://github.com/ayhammouda/python-docs-mcp-server)
-          [![python-docs-mcp-server MCP
-          server](https://glama.ai/mcp/servers/ayhammouda/python-docs-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/ayhammouda/python-docs-mcp-server)
-          🐍 🏠 🍎 🪟 🐧 - Local, read-only retrieval over official Python standard library docs with exact symbol
-          lookup, section-level results, and version-aware context.
+        surrounding_text: "- [ayhammouda/python-docs-mcp-server](https://github.com/ayhammouda/python-docs-mcp-server) [![python-docs-mcp-server MCP server](https://glama.ai/mcp/servers/ayhammouda/python-docs-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/ayhammouda/python-docs-mcp-server) 🐍 🏠 🍎 🪟 🐧 - Local, read-only retrieval over official Python standard library docs with exact symbol lookup, section-level results, and version-aware context."
         confidence: high
 metadata:
   github:
-    stars: 7
+    stars: 8
     forks: 3
     license: MIT
     archived: false
     full_name: ayhammouda/python-docs-mcp-server
     html_url: https://github.com/ayhammouda/python-docs-mcp-server
-    created_at: '2026-04-15T18:27:50Z'
-    pushed_at: '2026-08-31T06:13:11Z'
-    description: >-
-      Read-only MCP server for official Python docs: local index, no API keys, exact symbol lookup, version-aware
-      retrieval.
+    created_at: "2026-04-15T18:27:50Z"
+    pushed_at: "2026-09-14T06:36:16Z"
+    description: "Read-only MCP server for official Python docs: local index, no API keys, exact symbol lookup, version-aware retrieval."
     homepage: null
     topics:
       - claude
@@ -53,34 +46,27 @@ metadata:
       - python
       - python-docs
       - sqlite
-    last_checked_at: '2026-09-07T04:13:30.101Z'
+    last_checked_at: "2026-09-21T04:13:53.230Z"
     readme:
-      fetched_at: '2026-09-07T04:13:30.101Z'
+      fetched_at: "2026-09-21T04:13:53.230Z"
       bytes: 13632
 insights:
-  summary: A read-only MCP server that provides local, version-aware lookup of official Python documentation.
-  why_it_matters: >-
-    It allows AI coding agents to access precise Python standard library symbols and documentation sections, preventing
-    hallucinations and reducing token usage compared to web scraping.
-  mental_damage: >-
-    Because we have reached the point where our LLMs need a dedicated SQLite index just to remember how the standard
-    library works.
+  summary: A read-only MCP server providing a local, version-aware index of official Python documentation for AI coding agents.
+  why_it_matters: It provides agents with high-signal, version-specific documentation symbols to prevent hallucinations and reduce token waste caused by full-page web scrapes.
+  mental_damage: Because we've reached the point where we need a dedicated local SQLite index just to make sure our agents don't hallucinate asyncio signatures.
   tags:
     - mcp
     - python
-    - docs
-    - retrieval
-    - stdlib
+    - documentation
+    - coding-agents
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's primary identity is a specialized MCP server designed to serve a specific domain (Python
-    documentation) to AI assistants.
+  reason: The project's primary identity is an MCP server providing documentation, and per the catalog rules, the MCP protocol identity takes precedence over the retrieval capability.
   evidence:
-    - Repo description explicitly identifies it as a read-only MCP server
-    - Provides exact symbol lookup and version-aware retrieval via local SQLite index
-    - Designed for integration with MCP clients like Claude Desktop and Cursor
+    - Repo description explicitly defines it as a 'Read-only MCP server'
+    - README details a local SQLite + FTS5 index for version-aware symbol lookup
+    - The tool's purpose is to expose Python documentation tools over the Model Context Protocol
 placement:
   primary_category: mcp
   secondary_categories: []
@@ -91,19 +77,37 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-28T05:28:09.818Z'
+    updated_at: "2026-05-28T05:28:09.818Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-07T04:13:30.101Z'
+    updated_at: "2026-09-21T04:13:53.230Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: '2026-05-28T05:36:14.097Z'
+    updated_at: "2026-09-21T04:28:49.187Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:41f8d1c12aeeacd82375217f1221d0e5d87f86610e249a22fa3f9f00b6c645af
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's primary identity is an MCP server providing documentation, and per the catalog rules, the MCP protocol identity takes precedence over the retrieval capability.
+      decision_evidence:
+        - Repo description explicitly defines it as a 'Read-only MCP server'
+        - README details a local SQLite + FTS5 index for version-aware symbol lookup
+        - The tool's purpose is to expose Python documentation tools over the Model Context Protocol
+      category_candidates:
+        - mcp
+        - memory-and-context
+      contrastive_reason: Choose mcp over memory-and-context because the MCP protocol identity wins over the retrieval capability for an MCP server.
+      review_reason: null
+      review_resume_lifecycle: null

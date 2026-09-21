@@ -53,22 +53,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: iletimerkezi.com is a Turkish SMS platform offering bulk messaging, API, OTP, and developer integrations for business communication.
-  why_it_matters: Developers can integrate SMS capabilities into applications via documented APIs and SDKs for notifications, authentication, and user engagement.
-  mental_damage: Yet another API wrapper that makes you feel like you're building something important while just sending 'Your OTP is 123456' for the thousandth time.
+  summary: A communication platform providing SMS, OTP, and messaging APIs for programmatic integration.
+  why_it_matters: Provides the necessary infrastructure for developers to add real-world messaging and two-factor authentication to their applications.
+  mental_damage: The realization that even in the age of autonomous agents, someone still has to manually manage SMS gateway credentials and regulatory compliance.
   tags:
-    - api
-    - communications
-    - developer-tools
-    - sms
+    - sms-api
+    - communication
+    - otp
   confidence: high
 curation:
   status: excluded
-  reason: The product is a general-purpose SMS service platform with developer integrations, but its core identity is business communication infrastructure, not AI tooling or developer-facing AI workflows.
+  reason: While it offers APIs that an agent might use, the product's primary identity is a traditional communication service, not an AI tool or agent.
   evidence:
-    - Scraped site context shows the platform focuses on bulk SMS, OTP, email-to-SMS, and business solutions across sectors like finance, health, and e-commerce.
-    - Source-list context appears in awesome-mcp-servers under 'Communication' but the linked page and content describe standard SMS API offerings, not MCP infrastructure.
-    - README/excerpt emphasizes SMS API integration for developers but frames it as a communication utility, not an AI agent, framework, or tooling relevant to AI development workflows.
+    - Scraped content defines the product as a commercial SMS and OTP provider
+    - AI-related content is limited to marketing blog posts about using LLMs to write campaign copy
 placement:
   primary_category: null
   section: null
@@ -78,12 +76,27 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-28T05:43:04.456Z"
+    updated_at: "2026-09-21T04:31:27.559Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:91d342d9417df9b432c8a38449be76fbe5af6fe8fc27c9d93d898191c8399f01
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: While it offers APIs that an agent might use, the product's primary identity is a traditional communication service, not an AI tool or agent.
+      decision_evidence:
+        - Scraped content defines the product as a commercial SMS and OTP provider
+        - AI-related content is limited to marketing blog posts about using LLMs to write campaign copy
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-07-21T15:20:21.966Z"

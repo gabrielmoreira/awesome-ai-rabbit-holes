@@ -51,23 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: "Multimodal RAG: Chat with Videos is a DeepLearning.AI short course teaching how to build interactive systems for querying video content using multimodal AI."
-  why_it_matters: It gives developers a structured, hands-on introduction to multimodal retrieval-augmented generation for video, a growing area in AI-assisted content understanding.
-  mental_damage: Another 1-hour course promising to elevate your resume while the field moves on to the next video-understanding paper before you finish the quiz.
+  summary: An educational course from DeepLearning.AI focused on implementing multimodal RAG for video content.
+  why_it_matters: It provides guided instruction on how to integrate video data into retrieval-augmented generation workflows.
+  mental_damage: Just one more course to add to the growing mountain of educational debt you'll never actually pay off.
   tags:
-    - course
-    - deep-learning-ai
-    - multimodal
+    - education
     - rag
+    - multimodal
     - video
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational course, not a standalone developer tool, framework, or agent, so it does not belong in a catalog of practical AI developer tooling.
+  reason: This is an educational course rather than a functional AI tool, agent, or piece of developer infrastructure.
   evidence:
-    - Scraped site context shows it is a DeepLearning.AI short course with video lessons, code examples, and a graded assignment.
-    - Source-list context lists it under '课程 Course' in awesome-LLM-resources, confirming its identity as a learning resource.
-    - No repo, stars, or pushed_at data indicates it is not a software project but hosted educational content.
+    - The URL is for a DeepLearning.AI course
+    - The title and context indicate an educational resource rather than a standalone software product
 placement:
   primary_category: null
   section: null
@@ -77,12 +75,27 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-05-12T16:01:14.134Z"
+    updated_at: "2026-09-21T04:16:43.529Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:1b5b4231bbd1056f1657a54fa45057dc17c9abb327fad441196755ba2479a8f7
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an educational course rather than a functional AI tool, agent, or piece of developer infrastructure.
+      decision_evidence:
+        - The URL is for a DeepLearning.AI course
+        - The title and context indicate an educational resource rather than a standalone software product
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-07-21T15:20:21.964Z"

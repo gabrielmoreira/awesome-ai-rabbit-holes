@@ -38,6 +38,21 @@ provenance:
         extracted_url: https://github.com/vostride/agent-qa
         surrounding_text: "-   **[vostride/agent-qa](https://github.com/vostride/agent-qa)** [![GitHub stars](https://img.shields.io/github/stars/vostride/agent-qa?style=social)](https://github.com/vostride/agent-qa): Provides a local MCP server for authoring, running, and triaging natural-language web and mobile QA tests with execution memory."
         confidence: high
+    - id: discovery__github__vostride__agent-qa__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-09-21T04:13:39.852Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Testing and QA
+        anchor_text: agent-qa
+        extracted_url: https://github.com/vostride/agent-qa
+        surrounding_text: "- **[agent-qa](https://github.com/vostride/agent-qa)** – Self-improving QA agent for web and mobile apps with natural-language tests, run memory, UI-change adaptation, and regression detection."
+        confidence: high
 metadata:
   github:
     stars: 162
@@ -94,7 +109,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-17T04:13:23.416Z"
+    updated_at: "2026-09-21T04:13:39.854Z"
     cause: null
     next_retry_at: null
   stars:
@@ -104,7 +119,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.721Z"
+    updated_at: "2026-09-21T04:14:01.566Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,24 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: TeamoRouter is an LLM routing service that enables Openclaw to access top LLM providers through a single gateway with optimized performance and pricing.
-  why_it_matters: It simplifies multi-model access for Openclaw users by abstracting provider complexity and optimizing for cost, latency, and reliability.
-  mental_damage: Another layer to manage in the LLM abstraction stack, promising to save you from model fatigue while adding yet another vendor dependency.
+  summary: An LLM routing gateway providing a unified, OpenAI-compatible API to access multiple models like Claude, GPT, and Gemini with automated cost reduction.
+  why_it_matters: It allows developers to simplify multi-model workflows and reduce token expenses across various coding agents and tools via a single endpoint.
+  mental_damage: Because nothing says 'production-ready' like adding a third-party proxy to your critical path to save three cents on a token request.
   tags:
     - llm-router
-    - openclaw
-    - mcp
+    - api-gateway
+    - cost-optimization
+    - model-abstraction
+    - infrastructure
   confidence: high
 curation:
-  status: excluded
-  reason: TeamoRouter is a hosted SaaS routing layer for LLM access, not a developer-facing tool for coding, agents, or workflows; it serves end-users of Openclaw rather than developers building with AI.
+  status: included
+  reason: It acts as an LLM abstraction layer and provider-compatible gateway, which is a core component of the Frameworks & SDKs category.
   evidence:
-    - Scraped site describes TeamoRouter as 'The native AI LLM Router built for Openclaw' focused on routing to top LLMs via a managed gateway
-    - Primary use case is enabling Openclaw (an end-user agent) to access LLMs with one key, not assisting developers in coding or workflow automation
-    - No evidence of developer tooling, SDKs, CLI, or integration into development environments; positioned as a billing and routing layer for Openclaw ecosystem
+    - Unified API access to Claude, GPT, Gemini and more
+    - OpenAI-compatible endpoint for existing tools
+    - The LLM router built for Claude Code & Codex
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Provider & Model Abstractions
 lifecycle:
   status: incubating
   reason: null
@@ -67,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-18T05:39:42.085Z"
+    updated_at: "2026-09-21T04:21:14.849Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:6cb551b042b6b463b9de9da29127c1298197e8f50e8fb443d089284a9bb30d8f
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: It acts as an LLM abstraction layer and provider-compatible gateway, which is a core component of the Frameworks & SDKs category.
+      decision_evidence:
+        - Unified API access to Claude, GPT, Gemini and more
+        - OpenAI-compatible endpoint for existing tools
+        - The LLM router built for Claude Code & Codex
+      category_candidates:
+        - ai-frameworks
+        - extensions-and-addons
+      contrastive_reason: Choose ai-frameworks over extensions-and-addons because its primary identity is a unified API and routing abstraction rather than a plugin designed to add specific functional capabilities to a host editor.
+      review_reason: null
+      review_resume_lifecycle: null

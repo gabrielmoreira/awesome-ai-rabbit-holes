@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__fetchai__fetchcoder-releases__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,9 +20,7 @@ provenance:
           - Closed Source
         anchor_text: FetchCoder
         extracted_url: https://github.com/fetchai/fetchcoder-releases
-        surrounding_text: >-
-          - **[FetchCoder](https://github.com/fetchai/fetchcoder-releases)** `⭐ 2` `[Fetch.ai]` — Terminal coding agent
-          powered by ASI1, with interactive TUI, CLI, and API server modes plus MCP integration.
+        surrounding_text: "- **[FetchCoder](https://github.com/fetchai/fetchcoder-releases)** `⭐ 2` `[Fetch.ai]` — Terminal coding agent powered by ASI1, with interactive TUI, CLI, and API server modes plus MCP integration."
         confidence: high
 metadata:
   github:
@@ -32,14 +30,14 @@ metadata:
     archived: false
     full_name: fetchai/fetchcoder-releases
     html_url: https://github.com/fetchai/fetchcoder-releases
-    created_at: '2025-10-03T18:10:04Z'
-    pushed_at: '2025-12-29T12:36:50Z'
+    created_at: "2025-10-03T18:10:04Z"
+    pushed_at: "2025-12-29T12:36:50Z"
     description: Binary releases for FetchCoder - AI Coding Agent for the Terminal
     homepage: null
     topics: []
-    last_checked_at: '2026-08-27T09:23:29.915Z'
+    last_checked_at: "2026-08-27T09:23:29.915Z"
     readme:
-      fetched_at: '2026-08-27T09:23:29.915Z'
+      fetched_at: "2026-08-27T09:23:29.915Z"
       bytes: 252
 insights:
   summary: A repository containing binary releases for FetchCoder, a terminal-based AI coding agent.
@@ -53,9 +51,7 @@ insights:
   confidence: low
 curation:
   status: included
-  reason: >-
-    The repository provides the release assets for FetchCoder, which is explicitly described as a terminal-native AI
-    coding agent.
+  reason: The repository provides the release assets for FetchCoder, which is explicitly described as a terminal-native AI coding agent.
   evidence:
     - Repo description identifies it as binary releases for FetchCoder - AI Coding Agent for the Terminal
     - README provides installation instructions via npm for the main agent package
@@ -66,22 +62,24 @@ placement:
   section: Terminal & CLI Agents
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: low confidence'
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.614Z'
+    updated_at: "2026-05-06T22:12:15.614Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-08-27T09:23:29.915Z'
+    updated_at: "2026-08-27T09:23:29.915Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-07-21T15:56:17.014Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-09-21T04:14:01.562Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
@@ -93,9 +91,7 @@ processing:
       input_hash: sha256:a479cfb4b34e7f946bb4c4596cd3476c90897cb0be8879f89013268386a36f61
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: >-
-        The repository provides the release assets for FetchCoder, which is explicitly described as a terminal-native AI
-        coding agent.
+      decision_reason: The repository provides the release assets for FetchCoder, which is explicitly described as a terminal-native AI coding agent.
       decision_evidence:
         - Repo description identifies it as binary releases for FetchCoder - AI Coding Agent for the Terminal
         - README provides installation instructions via npm for the main agent package
@@ -103,8 +99,6 @@ processing:
       category_candidates:
         - coding-agents
         - ai-frameworks
-      contrastive_reason: >-
-        Choose coding-agents over ai-frameworks because the product is described as a standalone terminal agent rather
-        than a developer-facing SDK or library.
-      review_reason: 'Categorization review required: low confidence'
+      contrastive_reason: Choose coding-agents over ai-frameworks because the product is described as a standalone terminal agent rather than a developer-facing SDK or library.
+      review_reason: "Categorization review required: low confidence"
       review_resume_lifecycle: null

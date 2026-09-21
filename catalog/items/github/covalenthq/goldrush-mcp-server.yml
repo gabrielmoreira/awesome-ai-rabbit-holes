@@ -79,9 +79,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-09-03T05:17:08.293Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-09-21T04:14:01.561Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     classification:
       answering_model: mistral/mistral-medium-2604

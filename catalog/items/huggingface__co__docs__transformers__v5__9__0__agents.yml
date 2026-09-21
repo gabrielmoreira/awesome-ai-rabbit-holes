@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A versioned documentation page for the Hugging Face Transformers agents feature; the specific v5.9.0 URL does not exist and redirects to the main documentation.
-  why_it_matters: It is not a standalone developer product, but rather a documentation reference for a code-first agent capability inside the broader Hugging Face Transformers library.
-  mental_damage: Nothing says 'production-ready agent stack' like a versioned documentation link that immediately admits it doesn't exist and redirects to main.
+  summary: Documentation for agent functionality within the Hugging Face Transformers library.
+  why_it_matters: Guides developers on how to implement agentic patterns using the Transformers framework.
+  mental_damage: There is a special kind of hell reserved for version-specific documentation that only exists on the main branch.
   tags:
-    - documentation
-    - hugging-face
+    - huggingface
     - transformers
-    - agents
+    - documentation
   confidence: high
 curation:
   status: excluded
-  reason: This is an auxiliary documentation page for a library feature, not a standalone product, tool, or repository.
+  reason: The input is a piece of documentation rather than a standalone product or tool.
   evidence:
-    - URL points to a Hugging Face Transformers docs path for v5.9.0 that does not contain the requested page
-    - Scraped excerpt explicitly states the page is a documentation redirect to the main version
-    - No repository, product surface, or standalone tooling identity is present
+    - Scraped site context identifies the target as a documentation page.
+    - The content explicitly states the documentation page does not exist for the requested version (v5.9.0).
 placement:
   primary_category: null
   section: null
@@ -68,9 +68,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-25T05:38:10.855Z"
+    updated_at: "2026-09-21T04:23:59.092Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:47f057003dbac742999d27b995210b390decaf90420b736a548df3c19d85c62e
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The input is a piece of documentation rather than a standalone product or tool.
+      decision_evidence:
+        - Scraped site context identifies the target as a documentation page.
+        - The content explicitly states the documentation page does not exist for the requested version (v5.9.0).
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

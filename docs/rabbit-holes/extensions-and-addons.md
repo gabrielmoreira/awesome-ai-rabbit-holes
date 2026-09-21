@@ -122,7 +122,7 @@ Plugins, integrations, and tools that extend a coding agent, editor, or developm
   `figma` `mcp` `design-to-code` `ai-dev-extensions`
   </details>
 
-- **[awdr74100/figwright](https://github.com/awdr74100/figwright)** `⭐ 689` `updated ≤30d` Figwright is a bidirectional MCP server and Figma plugin that enables AI agents to read and write Figma designs while generating framework-aware code. <details><summary>More about</summary>
+- **[awdr74100/figwright](https://github.com/awdr74100/figwright)** `⭐ 829` `updated ≤30d` Figwright is a bidirectional MCP server and Figma plugin that enables AI agents to read and write Figma designs while generating framework-aware code. <details><summary>More about</summary>
 
   It lets developers use Claude Code, Cursor, or any MCP client to directly implement and edit designs in Figma without requiring a paid Dev Mode seat.
 
@@ -194,7 +194,7 @@ Plugins, integrations, and tools that extend a coding agent, editor, or developm
   `security` `ai-agents` `mcp` `audit` `devops`
   </details>
 
-- **[aresyn/codex-control-plane-mcp](https://github.com/aresyn/codex-control-plane-mcp)** `⭐ 122` `updated ≤30d` A durable MCP control plane that enables MCP clients to drive long-running Codex Desktop tasks asynchronously. <details><summary>More about</summary>
+- **[aresyn/codex-control-plane-mcp](https://github.com/aresyn/codex-control-plane-mcp)** `⭐ 123` `updated ≤30d` A durable MCP control plane that enables MCP clients to drive long-running Codex Desktop tasks asynchronously. <details><summary>More about</summary>
 
   It prevents MCP timeouts and duplicate prompt errors by providing a persistent state layer for complex, multi-hour agentic workflows with polling and approval loops.
 
@@ -270,7 +270,7 @@ _These are new or low-traffic entries being watched._
   `cursor` `context-management` `workflow-automation` `ide-extension`
   </details>
 
-- **[Agon](https://github.com/autoresearch-factory/agon)** `⭐ 48` `updated ≤30d` Agon is a Claude Code plugin that orchestrates autonomous AI research loops to turn a topic into runnable experiments without human-written experimental code. <details><summary>More about</summary>
+- **[Agon](https://github.com/autoresearch-factory/agon)** `⭐ 49` `updated ≤30d` Agon is a Claude Code plugin that orchestrates autonomous AI research loops to turn a topic into runnable experiments without human-written experimental code. <details><summary>More about</summary>
 
   It removes the manual effort of prototyping research ideas by automating hypothesis generation, proposal review, and experiment execution within Claude Code.
 

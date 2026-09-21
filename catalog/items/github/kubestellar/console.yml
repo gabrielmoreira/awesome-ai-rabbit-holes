@@ -54,6 +54,21 @@ provenance:
         extracted_url: https://github.com/kubestellar/console
         surrounding_text: "-   **[kubestellar/console](https://github.com/kubestellar/console)** [![GitHub stars](https://img.shields.io/github/stars/kubestellar/console?style=social)](https://github.com/kubestellar/console): Multi-cluster Kubernetes MCP server (kc-agent) for AI-assisted operations across edge and cloud clusters. 50+ tools for workload placement, policy enforcement, and observability."
         confidence: high
+    - id: discovery__github__kubestellar__console__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-09-21T04:13:39.852Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - DevOps and Infrastructure
+        anchor_text: KubeStellar Console
+        extracted_url: https://github.com/kubestellar/console
+        surrounding_text: "- **[KubeStellar Console](https://github.com/kubestellar/console)** – Open-source multi-cluster Kubernetes dashboard with an MCP server (kc-agent) enabling AI coding agents to query and manage clusters via natural language."
+        confidence: high
 metadata:
   github:
     stars: 125
@@ -98,7 +113,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-17T04:13:23.414Z"
+    updated_at: "2026-09-21T04:13:39.854Z"
     cause: null
     next_retry_at: null
   stars:
@@ -107,9 +122,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-07-02T05:30:54.752Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-09-21T04:14:01.563Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

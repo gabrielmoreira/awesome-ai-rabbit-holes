@@ -122,7 +122,7 @@ Systems that improve what goes into the model: persistent agent memory, retrieva
   `prompt-engineering` `nlp` `datasets` `jinja2` `huggingface`
   </details>
 
-- **[cocoindex-io/cocoindex-code](https://github.com/cocoindex-io/cocoindex-code)** `⭐ 2.7k` `updated ≤30d` A lightweight AST-based semantic code search CLI that optimizes context for coding agents by reducing token usage. <details><summary>More about</summary>
+- **[CocoIndex Code](https://github.com/cocoindex-io/cocoindex-code)** `⭐ 2.7k` `updated ≤30d` A lightweight AST-based semantic code search CLI that optimizes context for coding agents by reducing token usage. <details><summary>More about</summary>
 
   It helps developers and coding agents work faster by providing precise, token-efficient code search and retrieval for large codebases.
 
@@ -495,7 +495,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `local-ai` `memory` `coding-assistants` `sqlite`
   </details>
 
-- **[Battam1111/Myco](https://github.com/battam1111/myco)** `⭐ 63` `updated ≤90d` A living cognitive substrate for AI agents that ingests, digests, and evolves knowledge as a filesystem-based graph of markdown and YAML. <details><summary>More about</summary>
+- **[Battam1111/Myco](https://github.com/battam1111/myco)** `⭐ 64` `updated ≤90d` A living cognitive substrate for AI agents that ingests, digests, and evolves knowledge as a filesystem-based graph of markdown and YAML. <details><summary>More about</summary>
 
   It solves the problem of AI agents forgetting context, decisions, and evolving knowledge by providing a self-maintaining, agent-driven memory and retrieval system.
 
@@ -556,15 +556,6 @@ _These are new or low-traffic entries being watched._
   _Because apparently a multi-billion-parameter language model still needs a separate SQLite database and a 'sleep cycle' to remember where you put your utility functions._
 
   `memory` `knowledge-graph` `mcp` `consolidation` `sqlite`
-  </details>
-
-- **[Abhigyan-Shekhar/Waggle-mcp](https://github.com/abhigyan-shekhar/waggle-mcp)** `⭐ 42` `updated ≤30d` Local-first MCP server that adds persistent graph-backed memory to coding agents, storing decisions, contradictions, and reasoning chains across sessions. <details><summary>More about</summary>
-
-  Eliminates context-window amnesia by retaining not just facts but the relationships between them (decisions, reasons, contradictions) in a queryable knowledge graph that survives session restarts.
-
-  _Now you can have the awkward 'but you said three weeks ago' argument with your AI assistant, complete with timestamped receipts and contradiction graphs._
-
-  `mcp-server` `memory` `knowledge-graph` `local-first` `context-retrieval`
   </details>
 
 - **[nex-as-a-skill](https://github.com/nex-crm/nex-as-a-skill)** `⭐ 41` `updated ≤180d` Nex is a knowledge graph and memory layer that unifies AI agent conversations across tools like Claude Code, Cursor, and Slack, distributed as a CLI and a set of slash commands, rules, and plugins for supported platforms. <details><summary>More about</summary>
@@ -792,7 +783,7 @@ _These are new or low-traffic entries being watched._
   `mcp-server` `persistent-memory` `claude-code` `context-management` `session-mining`
   </details>
 
-- **[besslframework-stack/project-tessera](https://github.com/besslframework-stack/project-tessera)** `⭐ 16` `updated ≤180d` Tessera is a local-first, encrypted memory layer for AI assistants with 58 MCP tools and 54 REST endpoints. <details><summary>More about</summary>
+- **[besslframework-stack/project-tessera](https://github.com/besslframework-stack/project-tessera)** `⭐ 16` `updated ≤1y` Tessera is a local-first, encrypted memory layer for AI assistants with 58 MCP tools and 54 REST endpoints. <details><summary>More about</summary>
 
   It gives developers persistent, searchable, and self-maintaining memory for AI workflows without external dependencies or infrastructure.
 
@@ -808,15 +799,6 @@ _These are new or low-traffic entries being watched._
   _You can now watch a glowing orb absorb your contradicted PostgreSQL decisions in real time, just in case the amnesia wasn't metaphysical enough already._
 
   `mcp` `memory` `visualization` `claude-code` `desktop`
-  </details>
-
-- **[AliceLJY/recallnest](https://github.com/aliceljy/recallnest)** `⭐ 15` `updated ≤30d` Local-first shared memory layer for Claude Code, Codex, and Gemini CLI that uses hybrid retrieval (vector + BM25 + knowledge graph) and session continuity to preserve context across terminals. <details><summary>More about</summary>
-
-  It ends the context amnesia of switching between terminal agents by giving Claude Code, Codex, and Gemini CLI a single, self-hosted LanceDB memory store with automatic recall, decay, and cross-session continuity.
-
-  _It is somewhat sobering that we now need a LanceDB knowledge graph with configurable decay algorithms just so three different terminal agents can both remember that the user prefers dark mode._
-
-  `memory-layer` `hybrid-retrieval` `claude-code` `local-first` `knowledge-graph`
   </details>
 
 - **[graphpilot-oss/graphpilot](https://github.com/graphpilot-oss/graphpilot)** `⭐ 15` `updated ≤90d` A local CLI and MCP server that indexes TypeScript/JavaScript repositories into a structural graph for coding agents to query symbols, callers, and call-edges. <details><summary>More about</summary>
@@ -891,15 +873,6 @@ _These are new or low-traffic entries being watched._
   `mcp` `memory` `hybrid-search` `local-first` `context`
   </details>
 
-- **[adrianczuczka/mason](https://github.com/adrianczuczka/mason)** `⭐ 7` `updated ≤30d` A context-building tool that creates persistent codebase concept maps and provides change impact analysis for LLMs. <details><summary>More about</summary>
-
-  It reduces token consumption and improves model accuracy by providing a persistent architectural map that prevents LLMs from re-exploring the same codebase every session.
-
-  _Because why just read a file when you can spend hundreds of tokens building a map of why that file exists in the first place?_
-
-  `context-engineering` `mcp` `cli` `codebase-mapping` `token-optimization`
-  </details>
-
 - **[g1itchbot8888-del/agent-memory](https://github.com/g1itchbot8888-del/agent-memory)** `⭐ 7` `updated ≤1y` A local-first memory system for autonomous agents using SQLite and local embeddings. <details><summary>More about</summary>
 
   It provides a lightweight, private way for agents to maintain continuity across sessions via a three-layer memory architecture (identity, active, and archive).
@@ -925,6 +898,15 @@ _These are new or low-traffic entries being watched._
   _We have successfully reached the point where we need dedicated infrastructure to explain our own code to the AI, because apparently 79K tokens of context window wasn't quite enough to figure out which files are dangerous to touch._
 
   `mcp` `context-engineering` `codebase-analysis` `rag` `agent-context`
+  </details>
+
+- **[abnegate/magents](https://github.com/abnegate/magents)** `⭐ 6` `updated ≤30d` A shared session bus and MCP server that enables context and session handoffs between different coding assistants. <details><summary>More about</summary>
+
+  It allows developers to move tasks between agents like Claude Code and Cursor without the need for manual context re-entry or repetitive explanations.
+
+  _Because why manually copy-paste context when you can let a middleware layer handle your multi-agent identity crisis?_
+
+  `mcp` `context-management` `session-handoff` `coding-agents`
   </details>
 
 - **[conversation-handoff-mcp](https://github.com/trust-delta/conversation-handoff-mcp)** `⭐ 6` `updated ≤90d` MCP server that saves, tags, and transfers conversation context between AI chats and projects. <details><summary>More about</summary>
@@ -1017,15 +999,6 @@ _These are new or low-traffic entries being watched._
   `memory` `mcp` `local-first` `cli` `context`
   </details>
 
-- **[abnegate/magents](https://github.com/abnegate/magents)** `⭐ 3` `updated ≤30d` A shared session bus and MCP server that enables context and session handoffs between different coding assistants. <details><summary>More about</summary>
-
-  It allows developers to move tasks between agents like Claude Code and Cursor without the need for manual context re-entry or repetitive explanations.
-
-  _Because why manually copy-paste context when you can let a middleware layer handle your multi-agent identity crisis?_
-
-  `mcp` `context-management` `session-handoff` `coding-agents`
-  </details>
-
 - **[AlekseiMarchenko/central-intelligence](https://github.com/alekseimarchenko/central-intelligence)** `⭐ 3` `updated ≤180d` Persistent memory system for AI agents that integrates with MCP-compatible tools like Claude Code and Cursor. <details><summary>More about</summary>
 
   Eliminates the need to re-teach agents about your codebase, preferences, or architecture across sessions by providing long-term, searchable memory.
@@ -1051,15 +1024,6 @@ _These are new or low-traffic entries being watched._
   _Now when your AI forgets why it abandoned that architectural pattern in March, you can blame the memory governance score instead of the model._
 
   `memory` `context` `mcp` `local-first` `governance`
-  </details>
-
-- **[a2cr/a2cr](https://github.com/a2cr/a2cr)** `⭐ 2` `updated ≤30d` An MCP server that manages encrypted AI agent handoff states and session checkpoints to enable continuity across different coding assistants. <details><summary>More about</summary>
-
-  It allows developers to resume long coding tasks in fresh context windows by passing compact, actionable state instead of messy, noisy chat transcripts.
-
-  _Because the next logical step in the AI revolution is clearly perfectly documenting the exact moment your agent loses the plot._
-
-  `mcp` `context-management` `agent-handoff` `memory`
   </details>
 
 - **[Alepha188838884/context-firewall](https://github.com/alepha188838884/context-firewall)** `⭐ 2` `updated ≤30d` An MCP proxy that reduces token usage by collapsing tool schemas and compressing large tool outputs. <details><summary>More about</summary>
@@ -1179,24 +1143,6 @@ _These are new or low-traffic entries being watched._
   `mcp` `npm` `documentation` `context-retrieval` `typescript`
   </details>
 
-- **[cachly.dev](https://cachly.dev)** A memory layer for AI coding assistants that bootstraps a knowledge base from git history to provide context on past fixes and architectural decisions. <details><summary>More about</summary>
-
-  It eliminates the need to manually re-explain codebase architecture and past bugs to AI assistants by automatically indexing git history into a causal knowledge graph.
-
-  _The dream of never explaining your stack again is only possible if you trust a tool to tell your AI exactly why you made that regrettable architectural choice three months ago._
-
-  `mcp` `memory` `git` `context-engineering` `knowledge-graph`
-  </details>
-
-- **[Chat Templates](https://huggingface.co/blog/chat-templates)** Chat templates are Jinja-based formatting specifications for converting chat message histories into model-ready token strings in Hugging Face tokenizers. <details><summary>More about</summary>
-
-  They prevent silent performance degradation by ensuring input formatting matches what chat models were trained with, eliminating a common source of hard-to-debug errors.
-
-  _Realizing your model's poor performance wasn't due to prompt engineering but because you forgot to specify whether to wrap roles in [USER] or 'User : ' is a special kind of silent despair._
-
-  `prompt-formatting` `tokenizers` `hugging-face` `chat-models`
-  </details>
-
 - **[Context by Fulcra](https://fulcradynamics.com)** A unified, user-owned context backend that provides a persistent 'context lake' for AI agents to share data, memory, and knowledge. <details><summary>More about</summary>
 
   It solves the fragmentation problem where different AI agents or models have no shared awareness of a user's history, files, or previous agent interactions.
@@ -1258,15 +1204,6 @@ _These are new or low-traffic entries being watched._
   _Finally, a way to version control the chaotic string literals that are currently holding your production application together._
 
   `prompt-management` `prompt-ops` `collaboration` `version-control` `testing`
-  </details>
-
-- **[leanctx.com](https://leanctx.com)** LeanCTX is an open-source Rust binary that sits between AI coding tools and codebases to visualize, compress, and control what context reaches the model. <details><summary>More about</summary>
-
-  It cuts token costs and context bloat by stripping noise—like comments and whitespace—while preserving structure, and adds session memory and cross-agent context control across 29+ editors and assistants.
-
-  _You now get a live dashboard to watch your AI context window fill up with garbage, because apparently 'please ignore the comments' was too ambiguous for a trillion-parameter model._
-
-  `context-compression` `context-window` `token-optimization` `memory` `ai-tooling`
   </details>
 
 - **[MemClaw](https://memclaw.me/en/claw)** MemClaw is a persistent project memory system for OpenClaw that provides isolated workspaces, visible memory, and team collaboration. <details><summary>More about</summary>

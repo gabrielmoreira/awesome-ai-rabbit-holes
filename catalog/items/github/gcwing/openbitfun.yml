@@ -37,6 +37,21 @@ provenance:
         extracted_url: https://github.com/gcwing/bitfun
         surrounding_text: "53. [BitFun](https://github.com/GCWing/BitFun): Open-source agentic development environment with a Rust/Tauri desktop app and CLI for coding, research, office work, browser and desktop automation, extensible through MCP, Skills, and custom agents."
         confidence: high
+    - id: discovery__github__gcwing__openbitfun__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-09-21T04:13:39.852Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: BitFun
+        extracted_url: https://github.com/gcwing/bitfun
+        surrounding_text: "- **[BitFun](https://github.com/GCWing/BitFun)** – Cross-platform desktop coding agent built on a Rust runtime, with Git-aware workflows, Deep Review, MCP/Skills/Hooks, remote workspaces, and state-bound Mini Apps."
+        confidence: high
 metadata:
   github:
     stars: null
@@ -71,7 +86,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-10T04:12:32.935Z"
+    updated_at: "2026-09-21T04:13:39.854Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,7 +95,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: "2026-09-21T04:14:01.562Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

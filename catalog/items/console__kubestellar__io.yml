@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,23 +37,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Multi-cluster Kubernetes management dashboard for monitoring clusters, deploying workloads, managing GPU resources, and troubleshooting via AI-powered missions.
-  why_it_matters: Aims to reduce multi-cluster Kubernetes operational toil by surfacing GPU scheduling and workload telemetry in one place with AI-assisted troubleshooting.
-  mental_damage: Because what your fleet of GPU nodes really needed was another single-pane-of-glass dashboard that turns pod logs and metrics into 'AI missions.'
+  summary: An open-source dashboard for managing multi-cluster Kubernetes environments featuring AI-powered troubleshooting missions.
+  why_it_matters: It attempts to lower the cognitive load of multi-cluster management by integrating AI-driven tasks into the DevOps workflow.
+  mental_damage: Because troubleshooting Kubernetes with an AI mission is just a more expensive way to realize your YAML is broken.
   tags:
     - kubernetes
-    - gpu-management
-    - multi-cluster
+    - devops
+    - mlops
     - dashboard
-    - llmops
-  confidence: medium
+    - cloud-native
+  confidence: high
 curation:
   status: excluded
-  reason: The product's primary identity is a Kubernetes operations dashboard; the AI component appears to be a peripheral troubleshooting feature rather than a core developer-facing AI tool, so it sits outside this catalog's scope.
+  reason: The product's primary identity is a Kubernetes management dashboard, with AI capabilities serving as a feature rather than the core product identity defined in our categories.
   evidence:
-    - Source-list and scraped context describe it as an 'open-source multi-cluster Kubernetes management dashboard' centered on monitoring, workload deployment, and GPU resource management.
-    - The only AI mention is a vague 'AI-powered missions' claim for troubleshooting, indicating AI is a bolt-on feature, not the product's purpose.
-    - The live page is effectively a loading spinner with no repo metadata or developer-tooling substance available for review.
+    - The scraped title and description explicitly define it as a 'Multi-Cluster Kubernetes Dashboard & Management' tool.
+    - The AI functionality is described as a capability for 'troubleshooting with AI-powered missions' within a broader management context.
 placement:
   primary_category: null
   section: null
@@ -70,9 +71,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-21T05:30:25.529Z"
+    updated_at: "2026-09-21T04:22:00.750Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:eb36c964328a25f53b8b2059001d7f23c213c4f1c19c7364f1d8ae4de0b96d15
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product's primary identity is a Kubernetes management dashboard, with AI capabilities serving as a feature rather than the core product identity defined in our categories.
+      decision_evidence:
+        - The scraped title and description explicitly define it as a 'Multi-Cluster Kubernetes Dashboard & Management' tool.
+        - The AI functionality is described as a capability for 'troubleshooting with AI-powered missions' within a broader management context.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

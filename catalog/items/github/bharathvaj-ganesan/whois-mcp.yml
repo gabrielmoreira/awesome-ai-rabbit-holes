@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bharathvaj-ganesan__whois-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,9 +19,7 @@ provenance:
           - Community Servers
         anchor_text: Whois MCP
         extracted_url: https://github.com/bharathvaj-ganesan/whois-mcp
-        surrounding_text: >-
-          - **[Whois MCP](https://github.com/bharathvaj-ganesan/whois-mcp)** - MCP server that performs whois lookup
-          against domain, IP, ASN and TLD.
+        surrounding_text: "- **[Whois MCP](https://github.com/bharathvaj-ganesan/whois-mcp)** - MCP server that performs whois lookup against domain, IP, ASN and TLD."
         confidence: high
 metadata:
   github:
@@ -31,8 +29,8 @@ metadata:
     archived: false
     full_name: bharathvaj-ganesan/whois-mcp
     html_url: https://github.com/bharathvaj-ganesan/whois-mcp
-    created_at: '2025-03-05T18:20:19Z'
-    pushed_at: '2025-03-15T10:21:52Z'
+    created_at: "2025-03-05T18:20:19Z"
+    pushed_at: "2025-03-15T10:21:52Z"
     description: MCP Server for whois lookups.
     homepage: https://www.npmjs.com/package/@bharathvaj/whois-mcp
     topics:
@@ -41,15 +39,13 @@ metadata:
       - mcp
       - mcp-server
       - whois-lookup
-    last_checked_at: '2026-09-07T04:13:33.301Z'
+    last_checked_at: "2026-09-07T04:13:33.301Z"
     readme:
-      fetched_at: '2026-09-07T04:13:33.301Z'
+      fetched_at: "2026-09-07T04:13:33.301Z"
       bytes: 4018
 insights:
   summary: MCP server that enables AI agents to perform WHOIS lookups for domain, TLD, IP, and ASN details.
-  why_it_matters: >-
-    Lets developers query domain registration and ownership details directly from their AI coding assistant without
-    leaving the IDE or terminal.
+  why_it_matters: Lets developers query domain registration and ownership details directly from their AI coding assistant without leaving the IDE or terminal.
   mental_damage: Now your AI can tell you who owns that domain you just typo-squatted during a late-night coding session.
   tags:
     - mcp-server
@@ -59,9 +55,7 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    This is a dedicated MCP server whose primary identity is providing WHOIS lookup capabilities via the Model Context
-    Protocol.
+  reason: This is a dedicated MCP server whose primary identity is providing WHOIS lookup capabilities via the Model Context Protocol.
   evidence:
     - Repo description explicitly states 'MCP Server for whois lookups'
     - README confirms it's a Model Context Protocol server for WHOIS functionality
@@ -76,18 +70,22 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.605Z'
+    updated_at: "2026-05-06T22:12:15.605Z"
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: '2026-09-07T04:13:33.301Z'
-    cause: null
+    status: deferred
+    updated_at: "2026-09-21T04:13:57.703Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for bharathvaj-ganesan/whois-mcp
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-07-21T15:25:53.191Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-09-21T04:14:01.561Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -99,9 +97,7 @@ processing:
       input_hash: sha256:6cd57a5be92d17c9244d141a80ec9b769e40406e9ebfa030c065949438a9f283
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        This is a dedicated MCP server whose primary identity is providing WHOIS lookup capabilities via the Model
-        Context Protocol.
+      decision_reason: This is a dedicated MCP server whose primary identity is providing WHOIS lookup capabilities via the Model Context Protocol.
       decision_evidence:
         - Repo description explicitly states 'MCP Server for whois lookups'
         - README confirms it's a Model Context Protocol server for WHOIS functionality
@@ -109,8 +105,6 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: >-
-        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an
-        extension for another assistant.
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -455,7 +455,7 @@ Agents that directly act on code: planning, writing, editing, reviewing, testing
   `zig` `autonomous-agents` `edge-ai` `low-level` `cli`
   </details>
 
-- **[Sweep](https://github.com/sweepai/sweep)** `⭐ 7.7k` `updated ≤1y` Sweep is an AI coding assistant plugin designed specifically for the JetBrains IDE ecosystem. <details><summary>More about</summary>
+- **[Sweep](https://github.com/sweepai/sweep)** `⭐ 7.7k` `updated >1y` Sweep is an AI coding assistant plugin designed specifically for the JetBrains IDE ecosystem. <details><summary>More about</summary>
 
   It integrates AI-assisted coding directly into the JetBrains workflow, allowing developers to delegate repo tasks without switching editors.
 
@@ -527,7 +527,7 @@ Agents that directly act on code: planning, writing, editing, reviewing, testing
   `terminal-agent` `coding-assistant` `local-ai` `provider-agnostic` `autonomous`
   </details>
 
-- **[Kiro](https://github.com/kirodotdev/kiro)** `⭐ 4.1k` `updated ≤90d` Kiro is an agentic IDE with desktop and CLI interfaces that uses spec-driven development, agent hooks, and natural language coding assistance. <details><summary>More about</summary>
+- **[Kiro](https://github.com/kirodotdev/kiro)** `⭐ 4.1k` `updated ≤180d` Kiro is an agentic IDE with desktop and CLI interfaces that uses spec-driven development, agent hooks, and natural language coding assistance. <details><summary>More about</summary>
 
   It helps developers plan, build, and automate features using structured specs, hooks, and context-aware AI assistance across the entire codebase.
 
@@ -707,7 +707,7 @@ Agents that directly act on code: planning, writing, editing, reviewing, testing
   `cli` `automation` `pr-review` `self-hosted` `patchflows`
   </details>
 
-- **[Neovate Code](https://github.com/neovateai/neovate-code)** `⭐ 1.6k` `updated ≤180d` Neovate Code is an MIT-licensed CLI coding agent that generates code, fixes bugs, reviews code, and adds tests in both interactive and headless modes. <details><summary>More about</summary>
+- **[Neovate Code](https://github.com/neovateai/neovate-code)** `⭐ 1.6k` `updated ≤1y` Neovate Code is an MIT-licensed CLI coding agent that generates code, fixes bugs, reviews code, and adds tests in both interactive and headless modes. <details><summary>More about</summary>
 
   Developers can run it directly in the terminal to delegate repo work across multiple providers without being locked into a specific IDE or platform.
 
@@ -824,7 +824,7 @@ Agents that directly act on code: planning, writing, editing, reviewing, testing
   `cli` `ai-shell` `terminal-agent` `openai` `bash`
   </details>
 
-- **[claw-code-agent](https://github.com/harnesslab/claw-code-agent)** `⭐ 535` `updated ≤90d` A Python reimplementation of the Claude Code agent architecture with local model support, zero dependencies, and extensive plugin/runtime capabilities. <details><summary>More about</summary>
+- **[claw-code-agent](https://github.com/harnesslab/claw-code-agent)** `⭐ 535` `updated ≤180d` A Python reimplementation of the Claude Code agent architecture with local model support, zero dependencies, and extensive plugin/runtime capabilities. <details><summary>More about</summary>
 
   Developers can run a Claude Code-like agent locally with full control over models, plugins, and workflows without relying on external dependencies or proprietary platforms.
 
@@ -950,7 +950,7 @@ Agents that directly act on code: planning, writing, editing, reviewing, testing
   `ai-integration` `cli` `mcp` `project-management` `sdd` `spec-driven-development` `workflow`
   </details>
 
-- **[Auggie](https://github.com/augmentcode/auggie)** `⭐ 277` `updated ≤30d` Auggie is a terminal-based AI coding agent that analyzes code, makes edits, and automates tasks via natural language. <details><summary>More about</summary>
+- **[Auggie](https://github.com/augmentcode/auggie)** `⭐ 281` `updated ≤30d` Auggie is a terminal-based AI coding agent that analyzes code, makes edits, and automates tasks via natural language. <details><summary>More about</summary>
 
   It lets developers delegate coding work to an agent directly in the terminal, reducing context-switching and automating routine edits.
 
@@ -977,7 +977,7 @@ Agents that directly act on code: planning, writing, editing, reviewing, testing
   `cli` `coding-agent` `ide-integration` `headless` `mcp`
   </details>
 
-- **[spec-kit-command-cursor](https://github.com/madebyaris/spec-kit-command-cursor)** `⭐ 192` `updated ≤90d` Spec-Driven Development command toolkit for Cursor IDE that provides /specify, /plan, and /tasks commands to turn ideas into structured specifications, plans, and actionable tasks. <details><summary>More about</summary>
+- **[spec-kit-command-cursor](https://github.com/madebyaris/spec-kit-command-cursor)** `⭐ 192` `updated ≤180d` Spec-Driven Development command toolkit for Cursor IDE that provides /specify, /plan, and /tasks commands to turn ideas into structured specifications, plans, and actionable tasks. <details><summary>More about</summary>
 
   It enforces a spec-first workflow in Cursor, reducing misalignment between planning and implementation by making specs the controlling artifact for code generation and execution.
 
@@ -1035,6 +1035,15 @@ _These are new or low-traffic entries being watched._
   `cli` `autonomous-agents` `backlog` `pr-automation`
   </details>
 
+- **[DvalinCode](https://github.com/arthurpanhku/dvalincode)** `⭐ 117` `updated ≤30d` A local-first, provider-neutral coding agent available as a terminal interface or a hosted web GUI. <details><summary>More about</summary>
+
+  It offers a high-trust execution environment with sandboxed shell calls, tamper-evident audit logs, and the ability to swap LLM providers without changing code.
+
+  _The promise of a 'small enough to audit' codebase provides a comforting illusion of control while an autonomous agent rewrites your production config in a sandbox you hope is actually locked._
+
+  `local-ai` `cli` `coding-agent` `audit-trail` `provider-agnostic`
+  </details>
+
 - **[Shell-Pilot](https://github.com/reid41/shell-pilot)** `⭐ 116` `updated >1y` A pure shell script that lets developers interact with OpenAI, Ollama, Mistral, Anthropic, and other LLMs directly from the terminal to generate and run commands, manage system tasks, and maintain chat context without external dependencies. <details><summary>More about</summary>
 
   It gives developers a zero-dependency, local-first CLI bridge to multiple LLM providers for on-terminal command generation, system management, and interactive coding chat.
@@ -1042,15 +1051,6 @@ _These are new or low-traffic entries being watched._
   _Another proud monument to the modern developer condition: writing a 200-line shell script with jq just to avoid leaving the terminal to ask an AI what the grep flags do._
 
   `cli` `local-ai` `shell` `llm` `terminal`
-  </details>
-
-- **[DvalinCode](https://github.com/arthurpanhku/dvalincode)** `⭐ 114` `updated ≤30d` A local-first, provider-neutral coding agent available as a terminal interface or a hosted web GUI. <details><summary>More about</summary>
-
-  It offers a high-trust execution environment with sandboxed shell calls, tamper-evident audit logs, and the ability to swap LLM providers without changing code.
-
-  _The promise of a 'small enough to audit' codebase provides a comforting illusion of control while an autonomous agent rewrites your production config in a sandbox you hope is actually locked._
-
-  `local-ai` `cli` `coding-agent` `audit-trail` `provider-agnostic`
   </details>
 
 - **[Waveloom](https://github.com/menfre01/waveloom)** `⭐ 105` `updated ≤90d` A terminal-based coding agent built in Go that uses prefix caching to minimize DeepSeek token costs. <details><summary>More about</summary>
@@ -1278,7 +1278,7 @@ _These are new or low-traffic entries being watched._
   `git-worktree` `ticket-to-pr` `ai-agent-friendly` `stacked-prs` `cli`
   </details>
 
-- **[Wiggum CLI](https://github.com/federiconeri/wiggum-cli)** `⭐ 13` `updated ≤90d` An AI agent CLI that automates feature development by generating technical specifications and running autonomous implement-test-fix loops using Claude Code or Codex. <details><summary>More about</summary>
+- **[Wiggum CLI](https://github.com/federiconeri/wiggum-cli)** `⭐ 13` `updated ≤180d` An AI agent CLI that automates feature development by generating technical specifications and running autonomous implement-test-fix loops using Claude Code or Codex. <details><summary>More about</summary>
 
   It streamlines the transition from a vague backlog item to a completed PR by bridging the gap between high-level requirements and low-level execution via spec-driven loops.
 
@@ -1501,15 +1501,6 @@ _These are new or low-traffic entries being watched._
   _Because apparently, supporting twenty different languages isn't enough to satisfy the existential dread of manual boilerplate writing._
 
   `code-completion` `ai-assistant` `multilingual` `productivity`
-  </details>
-
-- **[Codegen](https://codegen.com)** An AI-powered coding platform that automates the development workflow from ticket creation to pull request. <details><summary>More about</summary>
-
-  It aims to bridge the gap between project management (like Linear) and actual implementation by turning tickets directly into code.
-
-  _The dream of 'tickets becoming code' means we can now generate technical debt at the speed of thought without the inconvenient middle step of thinking._
-
-  `ai-agents` `workflow-automation` `autonomous-coding`
   </details>
 
 - **[Codegen](https://codegen.com/home)** An AI-powered development platform that automates workflows from ticket creation to pull request completion. <details><summary>More about</summary>
@@ -1899,13 +1890,13 @@ _These are new or low-traffic entries being watched._
   `ide` `ai-agent` `multi-agent` `autonomous-coding` `vscode-fork`
   </details>
 
-- **[Roo Code](https://roomote.dev)** Roomote is an AI coding agent that operates in Slack to perform repo-wide development tasks using a team's existing tools and environments. <details><summary>More about</summary>
+- **[Roo Code](https://roomote.dev)** An operational engineering agent that automates interrupt-driven work like bug reports, support escalations, and repo questions. <details><summary>More about</summary>
 
-  It lets non-engineers and engineers alike offload coding work through Slack without changing workflows, extending AI leverage across the team.
+  It offloads the 'interrupt queue' from senior engineers, allowing them to stay focused on roadmap development instead of firefighting.
 
-  _Finally, an AI that promises to handle your backlog while you pretend to be busy in meetings._
+  _You'll finally stop being interrupted by Slack, only to spend your entire day reviewing PRs from a Slack bot._
 
-  `ai-agent` `slack-integration` `team-workflow`
+  `coding-agent` `bug-triage` `operational-engineering` `slack-integration`
   </details>
 
 - **[Rovo Dev (Atlassian)](https://atlassian.com/blog/development/rovo-dev-command-line-interface)** Rovo Dev CLI is an enterprise-focused command-line AI agent from Atlassian that assists with code understanding, development, and Atlassian ecosystem integration. <details><summary>More about</summary>
@@ -1942,15 +1933,6 @@ _These are new or low-traffic entries being watched._
   _Another layer of abstraction between your hands and your shell, ensuring you never have to actually leave your terminal to feel productive._
 
   `cli` `terminal` `coding-assistant` `code-review` `code-search`
-  </details>
-
-- **[TaskBounty](https://task-bounty.com)** TaskBounty Autopilot is a subscription service that uses AI agents to fix labeled bugs in connected repositories and delivers verified pull requests via a sandbox-verified workflow. <details><summary>More about</summary>
-
-  It automates bug fixing with end-to-end verification, reducing manual effort on triage and patch validation for development teams.
-
-  _Waking up to AI-generated PRs feels like outsourcing your backlog to a very eager intern who never sleeps but still needs your morning approval._
-
-  `ai-agent` `bug-fixing` `github-integration` `sandbox-verification`
   </details>
 
 - **[Taskeract](https://taskeract.com)** Desktop AI coding tool where agents run in real terminals, enabling code generation, PR reviews, and merges with built-in git workflows. <details><summary>More about</summary>

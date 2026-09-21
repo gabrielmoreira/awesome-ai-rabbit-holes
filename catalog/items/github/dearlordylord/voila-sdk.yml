@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dearlordylord__voila-sdk__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-07-13T05:12:52.223Z'
+      discovered_at: "2026-07-13T05:12:52.223Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 🛒 <a name="e-commerce"></a>E-Commerce
         anchor_text: dearlordylord/voila-sdk
         extracted_url: https://github.com/dearlordylord/voila-sdk
-        surrounding_text: >-
-          - [dearlordylord/voila-sdk](https://github.com/dearlordylord/voila-sdk) [![dearlordylord/voila-sdk MCP
-          server](https://glama.ai/mcp/servers/dearlordylord/voila-sdk/badges/score.svg)](https://glama.ai/mcp/servers/dearlordylord/voila-sdk)
-          📇 ☁️ 🏠 🍎 🪟 🐧 - Personal Voila grocery automation via MCP. Search products, inspect discounts, list
-          delivery slots, read cart and order history, and update cart quantities.
+        surrounding_text: "- [dearlordylord/voila-sdk](https://github.com/dearlordylord/voila-sdk) [![dearlordylord/voila-sdk MCP server](https://glama.ai/mcp/servers/dearlordylord/voila-sdk/badges/score.svg)](https://glama.ai/mcp/servers/dearlordylord/voila-sdk) 📇 ☁️ 🏠 🍎 🪟 🐧 - Personal Voila grocery automation via MCP. Search products, inspect discounts, list delivery slots, read cart and order history, and update cart quantities."
         confidence: high
 metadata:
   github:
@@ -34,20 +30,18 @@ metadata:
     archived: false
     full_name: dearlordylord/voila-sdk
     html_url: https://github.com/dearlordylord/voila-sdk
-    created_at: '2026-06-29T12:00:39Z'
-    pushed_at: '2026-08-24T17:42:11Z'
+    created_at: "2026-06-29T12:00:39Z"
+    pushed_at: "2026-08-24T17:42:11Z"
     description: Voila.ca shopping sdk and mcp to make shopping accessible to coding agents
     homepage: null
     topics: []
-    last_checked_at: '2026-09-14T04:13:37.049Z'
+    last_checked_at: "2026-09-14T04:13:37.049Z"
     readme:
-      fetched_at: '2026-09-14T04:13:37.049Z'
+      fetched_at: "2026-09-14T04:13:37.049Z"
       bytes: 5461
 insights:
   summary: An MCP server and TypeScript SDK for interacting with the Voila grocery platform's internal endpoints.
-  why_it_matters: >-
-    It allows coding agents to perform shopping tasks like product searching, cart management, and order history
-    retrieval via the Model Context Protocol.
+  why_it_matters: It allows coding agents to perform shopping tasks like product searching, cart management, and order history retrieval via the Model Context Protocol.
   mental_damage: Your agent can now add milk to your cart, but it still can't solve the existential dread of checking out.
   tags:
     - mcp
@@ -58,9 +52,7 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The project's primary identity is a Model Context Protocol server providing domain-specific tools for a grocery
-    service.
+  reason: The project's primary identity is a Model Context Protocol server providing domain-specific tools for a grocery service.
   evidence:
     - README describes it as a 'Model Context Protocol server for safe personal Voila grocery automation'
     - Exposes specific tools like 'voila_search_products' and 'voila_get_cart' via MCP
@@ -75,18 +67,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-07-13T05:12:52.225Z'
+    updated_at: "2026-07-13T05:12:52.225Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-14T04:13:37.049Z'
+    updated_at: "2026-09-14T04:13:37.049Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-07-13T05:20:51.254Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-09-21T04:14:01.561Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

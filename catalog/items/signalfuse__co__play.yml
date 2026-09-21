@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,21 +37,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A browser-based playground for trying SignalFuse API endpoints with 25 free daily calls and no wallet required.
-  why_it_matters: Lets developers test financial, macro, and code execution APIs instantly without setup or authentication friction.
-  mental_damage: Another demo trap that hooks you with free credits before revealing the real cost of building anything serious.
+  summary: A web-based playground for testing SignalFuse API endpoints, including web search, sentiment analysis, and sandboxed code execution.
+  why_it_matters: It allows developers to prototype and validate specialized agent capabilities via API before committing to integration or wallet setup.
+  mental_damage: "Just what your agentic stack needs: another specialized set of API endpoints to manage and monitor."
   tags:
-    - api-playground
-    - signalfuse
-    - x402
+    - api
+    - agent-tools
+    - playground
   confidence: high
 curation:
   status: excluded
-  reason: It is a hosted API demo page, not a developer tool or product that aids coding, agent workflows, or local development.
+  reason: The product is an API service provider offering agent capabilities, which does not fit the specific definitions for coding agents, frameworks, or extensions.
   evidence:
-    - "Scraped site context: 'Try every paid SignalFuse endpoint from your browser. 25 free calls, no wallet required.'"
-    - "Source-list context: Listed under awesome-mcp-servers in Finance & Fintech as a demo endpoint tryout, not an MCP server itself."
-    - No evidence of coding assistance, agent behavior, local execution, or developer workflow integration.
+    - The playground is for testing 'every paid SignalFuse endpoint' such as web search and sandboxed code execution.
+    - The product identity is a service provider meant to be 'wired into your agent' rather than a library, a host extension, or an autonomous agent.
 placement:
   primary_category: null
   section: null
@@ -68,9 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-28T05:42:48.326Z"
+    updated_at: "2026-09-21T04:30:59.304Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:e15b1e5e1a47dac4c1ca094d15e09f5b983e81b1b740c1531b791b03cc7a9e68
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is an API service provider offering agent capabilities, which does not fit the specific definitions for coding agents, frameworks, or extensions.
+      decision_evidence:
+        - The playground is for testing 'every paid SignalFuse endpoint' such as web search and sandboxed code execution.
+        - The product identity is a service provider meant to be 'wired into your agent' rather than a library, a host extension, or an autonomous agent.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -38,6 +38,21 @@ provenance:
         extracted_url: https://github.com/samvallad33/vestige
         surrounding_text: "-   **[samvallad33/vestige](https://github.com/samvallad33/vestige)** [![GitHub stars](https://img.shields.io/github/stars/samvallad33/vestige?style=social)](https://github.com/samvallad33/vestige): Local-first cognitive memory for AI coding agents. Rust binary with SQLite storage, FSRS-6 retention, prediction-error gating, active forgetting, spreading activation, and hybrid retrieval. Includes provenance and correction tools plus a 3D dashboard. Works with Claude Code, Cursor, VS Code, Codex, Windsurf, and JetBrains. `npx vestige-mcp-server`"
         confidence: high
+    - id: discovery__github__samvallad33__vestige__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-09-21T04:13:39.852Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: Vestige
+        extracted_url: https://github.com/samvallad33/vestige
+        surrounding_text: "- **[Vestige](https://github.com/samvallad33/vestige)** – Local-first MCP memory server for AI coding agents, with SQLite storage, retention-aware retrieval, provenance/correction tools, and a 3D dashboard."
+        confidence: high
 metadata:
   github:
     stars: 587
@@ -94,7 +109,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-17T04:13:23.415Z"
+    updated_at: "2026-09-21T04:13:39.854Z"
     cause: null
     next_retry_at: null
   stars:
@@ -104,7 +119,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.720Z"
+    updated_at: "2026-09-21T04:14:01.565Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

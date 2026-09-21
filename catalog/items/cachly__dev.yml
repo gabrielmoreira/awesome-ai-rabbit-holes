@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cachly__dev__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-28T05:28:09.816Z'
+      discovered_at: "2026-05-28T05:28:09.816Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,13 +19,7 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: Website
         extracted_url: https://cachly.dev
-        surrounding_text: >-
-          - [cachly-dev/cachly-mcp](https://github.com/cachly-dev/cachly-mcp) [![cachly-dev/cachly-mcp MCP
-          server](https://glama.ai/mcp/servers/cachly-dev/cachly-mcp/badges/score.svg)](https://glama.ai/mcp/servers/cachly-dev/cachly-mcp)
-          📇 ☁️ 🏠 🍎 🪟 🐧 - Persistent AI memory brain for Claude Code, Cursor, Copilot, Windsurf, Cline & Zed.
-          `session_start()` briefs your AI on last session, lessons, and open tasks in one call. 84 tools — Team Brain,
-          semantic BM25+ search, Team Telepathy, Ambient Git Learning, Memory Crystals, Analytics, and managed
-          Valkey/Redis. `npx @cachly-dev/init` — free tier, no credit card. [Website](https://cachly.dev)
+        surrounding_text: "- [cachly-dev/cachly-mcp](https://github.com/cachly-dev/cachly-mcp) [![cachly-dev/cachly-mcp MCP server](https://glama.ai/mcp/servers/cachly-dev/cachly-mcp/badges/score.svg)](https://glama.ai/mcp/servers/cachly-dev/cachly-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Persistent AI memory brain for Claude Code, Cursor, Copilot, Windsurf, Cline & Zed. `session_start()` briefs your AI on last session, lessons, and open tasks in one call. 84 tools — Team Brain, semantic BM25+ search, Team Telepathy, Ambient Git Learning, Memory Crystals, Analytics, and managed Valkey/Redis. `npx @cachly-dev/init` — free tier, no credit card. [Website](https://cachly.dev)"
         confidence: high
 metadata:
   github:
@@ -33,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -41,27 +37,19 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A memory layer for AI coding assistants that bootstraps a knowledge base from git history to provide context on past
-    fixes and architectural decisions.
-  why_it_matters: >-
-    It eliminates the need to manually re-explain codebase architecture and past bugs to AI assistants by automatically
-    indexing git history into a causal knowledge graph.
-  mental_damage: >-
-    The dream of never explaining your stack again is only possible if you trust a tool to tell your AI exactly why you
-    made that regrettable architectural choice three months ago.
+  summary: A persistent memory layer for AI coding assistants that provides codebase context and causal reasoning via the Model Context Protocol.
+  why_it_matters: It automates context injection by learning from Git history, preventing the need to re-explain your stack to agents in every new session.
+  mental_damage: It's the perfect tool for when you want your AI to remember exactly why your legacy code is so broken.
   tags:
     - mcp
     - memory
+    - context
     - git
-    - context-engineering
-    - knowledge-graph
+    - coding-assistants
   confidence: high
 curation:
   status: included
-  reason: >-
-    The core product identity is a memory and retrieval system (the 'Brain') designed to shape the context provided to
-    other assistants, which fits the definition of context engineering.
+  reason: The core product identity is a memory and retrieval system (the 'Brain') designed to shape the context provided to other assistants, which fits the definition of context engineering.
   evidence:
     - Claims to provide a 'permanent brain' that 'bootstraps from git history'
     - Features 'causal_trace' and 'brain_recall' for semantic memory retrieval
@@ -69,14 +57,14 @@ curation:
 placement:
   primary_category: memory-and-context
   secondary_categories: []
-  section: Persistent Memory & Knowledge
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'memory-and-context', proposed 'mcp'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-28T05:28:09.820Z'
+    updated_at: "2026-05-28T05:28:09.820Z"
     cause: null
     next_retry_at: null
   stars:
@@ -85,9 +73,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-06-01T05:41:38.912Z'
+    updated_at: "2026-09-21T04:32:40.576Z"
     cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:2fffae613b8409023c12476db6667276055f42752c879ba7ab3a6bf18c5f41d9
+      proposed_primary_category: mcp
+      disagreement: true
+      decision_reason: The product is an MCP server that provides memory and retrieval capabilities, which according to the catalog's priority rules, places it in the MCP category.
+      decision_evidence:
+        - Identity as an MCP server (@cachly-dev/mcp-server)
+        - Provides memory and causal reasoning via MCP
+        - Bootstraps knowledge from Git history
+      category_candidates:
+        - mcp
+        - memory-and-context
+      contrastive_reason: Choose mcp over memory-and-context because the product's primary identity is an MCP server providing memory capabilities.
+      review_reason: "Categorization review required: placement disagreement: retained 'memory-and-context', proposed 'mcp'"
+      review_resume_lifecycle: null

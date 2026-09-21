@@ -401,7 +401,7 @@ Code-first libraries, SDKs, and engines that developers import and program again
   `sandbox` `code-execution` `ai-safety` `sdk` `cloud`
   </details>
 
-- **[TVM](https://github.com/apache/tvm)** `⭐ 13.7k` `updated ≤30d` Open Machine Learning Compiler Framework for optimizing and deploying ML models across hardware backends. <details><summary>More about</summary>
+- **[TVM](https://github.com/apache/tvm)** `⭐ 13.8k` `updated ≤30d` Open Machine Learning Compiler Framework for optimizing and deploying ML models across hardware backends. <details><summary>More about</summary>
 
   Enables developers to compile and optimize machine learning models for diverse hardware targets, from GPUs to mobile devices, with Python-first customization.
 
@@ -815,7 +815,7 @@ Code-first libraries, SDKs, and engines that developers import and program again
   `nlp` `pydantic` `llm-framework` `structured-output` `evaluation`
   </details>
 
-- **[Youtu-Agent](https://github.com/tencentcloudadp/youtu-agent)** `⭐ 4.6k` `updated ≤180d` A Python agent framework built on openai-agents that supports automated agent generation, experience-based learning, and end-to-end reinforcement learning using open-source models like DeepSeek-V3. <details><summary>More about</summary>
+- **[Youtu-Agent](https://github.com/tencentcloudadp/youtu-agent)** `⭐ 4.6k` `updated ≤1y` A Python agent framework built on openai-agents that supports automated agent generation, experience-based learning, and end-to-end reinforcement learning using open-source models like DeepSeek-V3. <details><summary>More about</summary>
 
   It offers developers a structured way to build and optimize autonomous agents with hybrid policy optimization and benchmark-leading performance without relying on closed models.
 
@@ -1193,7 +1193,7 @@ Code-first libraries, SDKs, and engines that developers import and program again
   `vector-search` `retrieval` `kubernetes` `ann` `infrastructure`
   </details>
 
-- **[uAgents](https://github.com/fetchai/uagents)** `⭐ 1.6k` `updated ≤30d` A Python framework for building and managing autonomous, decentralized AI agents. <details><summary>More about</summary>
+- **[uAgents](https://github.com/fetchai/uagents)** `⭐ 1.6k` `updated ≤90d` A Python framework for building and managing autonomous, decentralized AI agents. <details><summary>More about</summary>
 
   It provides a structured way to implement agent logic, secure identity via cryptography, and enable communication within a blockchain-backed network.
 
@@ -1481,7 +1481,7 @@ Code-first libraries, SDKs, and engines that developers import and program again
   `multi-agent` `orchestration` `framework` `distributed` `llm`
   </details>
 
-- **[microagents](https://github.com/aymenfurter/microagents)** `⭐ 824` `updated >1y` An experimental Python framework for dynamically creating self-improving agents that can self-edit their prompts and code. <details><summary>More about</summary>
+- **[microagents](https://github.com/aymenfurter/microagents)** `⭐ 825` `updated >1y` An experimental Python framework for dynamically creating self-improving agents that can self-edit their prompts and code. <details><summary>More about</summary>
 
   Enables developers to build agents that adapt and reuse learned task-solving methods across sessions, reducing repetitive prompt engineering.
 
@@ -1634,7 +1634,7 @@ Code-first libraries, SDKs, and engines that developers import and program again
   `ai-agents` `frontend` `analytics` `auth` `sdk`
   </details>
 
-- **[RAI](https://github.com/robotecai/rai)** `⭐ 552` `updated ≤90d` RAI is a vendor-agnostic agentic framework for Physical AI and robotics that integrates LLMs and multimodal models with ROS 2 to perform complex actions, scenarios, and human-robot interactions. <details><summary>More about</summary>
+- **[RAI](https://github.com/robotecai/rai)** `⭐ 552` `updated ≤180d` RAI is a vendor-agnostic agentic framework for Physical AI and robotics that integrates LLMs and multimodal models with ROS 2 to perform complex actions, scenarios, and human-robot interactions. <details><summary>More about</summary>
 
   It provides robotics developers with a structured SDK to build multi-agent systems that combine speech interaction, perception, and navigation without locking into a single AI provider.
 
@@ -1796,7 +1796,7 @@ Code-first libraries, SDKs, and engines that developers import and program again
   `rust` `agents` `workflows` `graph` `orchestration`
   </details>
 
-- **[Octochains](https://github.com/ahmadvh/octochains)** `⭐ 373` `updated ≤30d` A lightweight Python framework for parallel, isolated, and collaborative multi-agent reasoning and consensus. <details><summary>More about</summary>
+- **[Octochains](https://github.com/ahmadvh/octochains)** `⭐ 373` `updated ≤90d` A lightweight Python framework for parallel, isolated, and collaborative multi-agent reasoning and consensus. <details><summary>More about</summary>
 
   It provides an architectural pattern to prevent 'groupthink' in multi-agent systems by running specialist agents in isolated threads before synthesizing a final verdict.
 
@@ -1958,6 +1958,15 @@ Code-first libraries, SDKs, and engines that developers import and program again
   `llm-gateway` `llmops` `provider-abstraction` `cloud-native` `go`
   </details>
 
+- **[api7/aisix](https://github.com/api7/aisix)** `⭐ 158` `updated ≤30d` An open-source, Rust-native AI gateway that unifies multiple LLM providers under a single OpenAI-compatible API. <details><summary>More about</summary>
+
+  It provides a single control point for managing routing, guardrails, caching, and observability across various model providers.
+
+  _Because your architecture isn't truly production-ready until you've added a high-performance Rust proxy between your code and your LLM._
+
+  `rust` `ai-gateway` `llmops` `proxy` `observability`
+  </details>
+
 - **[L2MAC](https://github.com/samholt/l2mac)** `⭐ 158` `updated >1y` L2MAC is a framework that uses a multi-agent, von Neumann-style architecture to take a single prompt and generate extensive codebases or text outputs that exceed standard LLM context windows. <details><summary>More about</summary>
 
   It allows developers to offload the generation of large, multi-file project scaffolds to a coordinated system of agents rather than fighting context limits manually.
@@ -1980,15 +1989,6 @@ _These are new or low-traffic entries being watched._
   `multi-agent` `orchestration` `nodejs` `openai` `swarm`
   </details>
 
-- **[api7/aisix](https://github.com/api7/aisix)** `⭐ 145` `updated ≤30d` An open-source, Rust-native AI gateway that unifies multiple LLM providers under a single OpenAI-compatible API. <details><summary>More about</summary>
-
-  It provides a single control point for managing routing, guardrails, caching, and observability across various model providers.
-
-  _Because your architecture isn't truly production-ready until you've added a high-performance Rust proxy between your code and your LLM._
-
-  `rust` `ai-gateway` `llmops` `proxy` `observability`
-  </details>
-
 - **[GenoMAS](https://github.com/liu-hy/genomas)** `⭐ 135` `updated ≤180d` A minimalist multi-agent framework for robust automation of scientific analysis workflows, such as gene expression analysis. <details><summary>More about</summary>
 
   Provides a generic, notebook-style communication protocol and customizable agents that developers can adapt to automate domain-specific scientific pipelines beyond genomics.
@@ -2007,7 +2007,7 @@ _These are new or low-traffic entries being watched._
   `multi-agent` `framework` `orchestration` `swarm-intelligence`
   </details>
 
-- **[IBM wxflows](https://github.com/ibm/wxflows)** `⭐ 118` `updated ≤1y` Examples and tutorials for building AI applications with IBM's watsonx.ai Flows Engine, a tool for creating and deploying agent tools. <details><summary>More about</summary>
+- **[IBM wxflows](https://github.com/ibm/wxflows)** `⭐ 118` `updated >1y` Examples and tutorials for building AI applications with IBM's watsonx.ai Flows Engine, a tool for creating and deploying agent tools. <details><summary>More about</summary>
 
   Developers can use it to build, run, and deploy custom tools for AI agents that integrate with frameworks like LangChain, LangGraph, and OpenAI.
 
@@ -2268,7 +2268,7 @@ _These are new or low-traffic entries being watched._
   `elixir` `agent-orchestration` `workflows` `llm` `automation`
   </details>
 
-- **[titan-orchestrator](https://github.com/ramn51/titan-orchestrator)** `⭐ 34` `updated ≤90d` Titan is a zero-dependency distributed runtime and orchestrator for running static DevOps pipelines, long-running services, and dynamic LLM-generated agentic workflows via a Python SDK and CLI. <details><summary>More about</summary>
+- **[titan-orchestrator](https://github.com/ramn51/titan-orchestrator)** `⭐ 34` `updated ≤180d` Titan is a zero-dependency distributed runtime and orchestrator for running static DevOps pipelines, long-running services, and dynamic LLM-generated agentic workflows via a Python SDK and CLI. <details><summary>More about</summary>
 
   It offers developers a unified substrate to bridge deterministic DAG orchestration with autonomous, runtime-defined agent graphs and hardware-aware auto-scaling.
 
@@ -2565,15 +2565,6 @@ _These are new or low-traffic entries being watched._
   `multimodal` `agentic-workflows` `long-context` `frontier-models`
   </details>
 
-- **[GPTSwarm](https://gptswarm.org)** GPTSwarm is a framework for building and orchestrating swarms of LLM-powered agents for autonomous task completion. <details><summary>More about</summary>
-
-  It enables developers to design multi-agent systems where agents collaborate via communication and role assignment to solve complex problems.
-
-  _Another framework promising emergent intelligence from agent chatter, just add more agents and hope they don’t deadlock._
-
-  `agent-orchestration` `multi-agent` `llm-agents`
-  </details>
-
 - **[LangChain](https://langchain.com)** LangChain provides open-source frameworks and a platform for developers to build, test, and deploy reliable AI agents. <details><summary>More about</summary>
 
   It gives developers code-first building blocks and a hosted platform to create, observe, and scale agent workflows across the full development lifecycle.
@@ -2635,6 +2626,15 @@ _These are new or low-traffic entries being watched._
   _Finally, a way to stop pretending your Supabase bill is just a rounding error._
 
   `postgresql` `vector-search` `pgvector` `managed-database` `ai-infrastructure`
+  </details>
+
+- **[TeamoRouter](https://teamorouter.com)** An LLM routing gateway providing a unified, OpenAI-compatible API to access multiple models like Claude, GPT, and Gemini with automated cost reduction. <details><summary>More about</summary>
+
+  It allows developers to simplify multi-model workflows and reduce token expenses across various coding agents and tools via a single endpoint.
+
+  _Because nothing says 'production-ready' like adding a third-party proxy to your critical path to save three cents on a token request._
+
+  `llm-router` `api-gateway` `cost-optimization` `model-abstraction` `infrastructure`
   </details>
 
 - **[Vercel AI SDK](https://ai-sdk.dev)** A unified TypeScript SDK from Vercel for building AI-powered applications with support for streaming, fallbacks, and multiple model providers. <details><summary>More about</summary>

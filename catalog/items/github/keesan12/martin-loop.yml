@@ -38,6 +38,21 @@ provenance:
         extracted_url: https://github.com/keesan12/martin-loop
         surrounding_text: "- [Keesan12/martin-loop](https://github.com/Keesan12/martin-loop) [![Keesan12/martin-loop MCP server](https://glama.ai/mcp/servers/Keesan12/martin-loop/badges/score.svg)](https://glama.ai/mcp/servers/Keesan12/martin-loop) 📇 🏠 - Governed MCP runtime for AI coding agents with budget caps, verifier gates, runaway-loop prevention, rollback evidence, and inspectable run receipts. Install: `npx -y @martinloop/mcp`."
         confidence: high
+    - id: discovery__github__keesan12__martin-loop__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-09-21T04:13:39.852Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: MartinLoop
+        extracted_url: https://github.com/keesan12/martin-loop
+        surrounding_text: "- **[MartinLoop](https://github.com/Keesan12/martin-loop)** – Open-source control layer for AI coding agents. Adds hard budget caps, verifier gates, explicit stop reasons, and run receipts around Claude Code, Codex, and Ralph-style autonomous coding workflows."
+        confidence: high
 metadata:
   github:
     stars: null
@@ -72,7 +87,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-10T04:12:32.935Z"
+    updated_at: "2026-09-21T04:13:39.854Z"
     cause: null
     next_retry_at: null
   stars:
@@ -81,7 +96,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-09-17T04:13:49.719Z"
+    updated_at: "2026-09-21T04:14:01.563Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

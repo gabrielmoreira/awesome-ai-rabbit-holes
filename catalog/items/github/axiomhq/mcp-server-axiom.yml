@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__axiomhq__mcp-server-axiom__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,9 +19,7 @@ provenance:
           - Official Servers
         anchor_text: Axiom
         extracted_url: https://github.com/axiomhq/mcp-server-axiom
-        surrounding_text: >-
-          - **[Axiom](https://github.com/axiomhq/mcp-server-axiom)** - Query and analyze your Axiom logs, traces, and
-          all other event data in natural language
+        surrounding_text: "- **[Axiom](https://github.com/axiomhq/mcp-server-axiom)** - Query and analyze your Axiom logs, traces, and all other event data in natural language"
         confidence: high
 metadata:
   github:
@@ -31,56 +29,69 @@ metadata:
     archived: true
     full_name: axiomhq/mcp-server-axiom
     html_url: https://github.com/axiomhq/mcp-server-axiom
-    created_at: '2024-12-05T13:06:26Z'
-    pushed_at: '2025-11-20T02:27:07Z'
+    created_at: "2024-12-05T13:06:26Z"
+    pushed_at: "2025-11-20T02:27:07Z"
     description: Axiom Model Context Protocol Server
     homepage: null
     topics: []
-    last_checked_at: '2026-09-07T04:13:29.800Z'
+    last_checked_at: "2026-09-21T04:13:52.943Z"
     readme:
-      fetched_at: '2026-09-07T04:13:29.800Z'
+      fetched_at: "2026-09-21T04:13:52.943Z"
       bytes: 2724
 insights:
-  summary: A GitHub-hosted Model Context Protocol (MCP) server for Axiom observability platform.
-  why_it_matters: Enables MCP-compatible AI assistants to query Axiom logs and traces via standardized tooling.
-  mental_damage: Just another MCP server adding to the pile of niche protocol adapters no one asked for but everyone must support.
+  summary: An MCP server designed to let AI agents query Axiom datasets via Axiom Processing Language (APL).
+  why_it_matters: It would allow AI agents to perform direct observability queries and monitor data for automated debugging and analysis.
+  mental_damage: It is just one more ghost in the machine of the rapidly expanding Model Context Protocol ecosystem.
   tags:
     - mcp
-    - observability
     - axiom
-  confidence: medium
+    - observability
+    - deprecated
+  confidence: high
 curation:
-  status: included
-  reason: >-
-    The project is an MCP server, making MCP its core identity rather than a compatibility layer, and fits the MCP
-    Servers & Tooling category despite being archived.
+  status: excluded
+  reason: The repository is both archived and explicitly deprecated in the README in favor of a newer official implementation.
   evidence:
-    - 'Repo description: ''Axiom Model Context Protocol Server'''
-    - 'Archived: yes'
-    - Listed in awesome-mcp-servers under Official Servers
+    - Repository is marked as archived
+    - README contains a prominent deprecation notice directing users to a new URL
 placement:
-  primary_category: mcp
+  primary_category: null
   secondary_categories: []
-  section: Data & Databases
+  section: null
 lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.604Z'
+    updated_at: "2026-05-06T22:12:15.604Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-07T04:13:29.800Z'
+    updated_at: "2026-09-21T04:13:52.943Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: '2026-05-12T15:58:06.577Z'
+    updated_at: "2026-09-21T04:14:59.411Z"
     cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:461659db41841a3d4633392bbb90d33606fca72cc85ae63424318c1860b4eaae
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The repository is both archived and explicitly deprecated in the README in favor of a newer official implementation.
+      decision_evidence:
+        - Repository is marked as archived
+        - README contains a prominent deprecation notice directing users to a new URL
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

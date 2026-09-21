@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,25 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A collaborative AI workspace that allows teams to build and orchestrate agents integrated with company context, projects, and connected apps.
-  why_it_matters: It attempts to bridge the gap between structured project management and agent orchestration by grounding AI actions in existing team documentation and meeting notes.
-  mental_damage: The dream of a single 'AI workspace' usually just means your documentation is now a graveyard where agents hallucinate based on a meeting note from three months ago.
+  summary: Notion is a collaborative AI workspace where teams can build and orchestrate agents alongside their projects, meetings, and connected apps.
+  why_it_matters: It lets developers integrate AI agents into their existing Notion workflows to automate tasks like summarizing meetings or drafting documents using team context.
+  mental_damage: Another workspace trying to be the center of your AI universe while you still have 17 other tabs open.
   tags:
-    - collaboration
-    - orchestration
-    - knowledge-base
-    - agents
-  confidence: high
+    - ai-workspace
+    - agent-orchestration
+    - team-collaboration
+  confidence: medium
 curation:
-  status: excluded
-  reason: Notion is a broad SaaS productivity platform; while it has agent orchestration features, it is not a specialized developer tool, IDE, or AI-native building block for software development.
+  status: included
+  reason: Notion's primary value is providing a hosted platform where users can build, manage, and orchestrate AI agents alongside team workflows, making it a control plane for agent teams rather than a coding agent or extension.
   evidence:
-    - Product identity is a 'collaborative AI workspace' for teams
-    - Focuses on 'projects, meetings, and connected apps' rather than codebases, repos, or development workflows
-    - Lack of developer-specific signals like stars, repo, or technical SDKs
+    - "Scraped site description: 'Build and orchestrate agents right alongside your team's projects, meetings, and connected apps.'"
+    - "Scraped site title: 'Notion | Where teams and agents work together'"
+    - No evidence of being a coding agent, IDE extension, or standalone framework — focuses on agent orchestration in a collaborative workspace
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Hosted Agent Platforms
 lifecycle:
   status: incubating
   reason: null
@@ -68,9 +69,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-06-04T05:42:10.767Z"
+    updated_at: "2026-09-21T04:33:33.413Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:93471fa866e0386ee6d2a4e8192fb57760bf374c8da43443bd4fa55169e2187a
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: Notion's primary value is providing a hosted platform where users can build, manage, and orchestrate AI agents alongside team workflows, making it a control plane for agent teams rather than a coding agent or extension.
+      decision_evidence:
+        - "Scraped site description: 'Build and orchestrate agents right alongside your team's projects, meetings, and connected apps.'"
+        - "Scraped site title: 'Notion | Where teams and agents work together'"
+        - No evidence of being a coding agent, IDE extension, or standalone framework — focuses on agent orchestration in a collaborative workspace
+      category_candidates:
+        - agent-orchestration
+        - app-builders
+      contrastive_reason: Choose agent-orchestration over app-builders because Notion's core function is managing and coordinating agents within an existing workspace, not generating deployable apps from prompts.
+      review_reason: null
+      review_resume_lifecycle: null

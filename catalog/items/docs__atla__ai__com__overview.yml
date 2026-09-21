@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,24 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Atla is an observability and tracing platform for improving agent performance through automatic error detection and performance insights.
-  why_it_matters: It helps developers iterate faster on AI agents by providing tight feedback loops between deployment and improvement.
-  mental_damage: Yet another observability layer that promises to fix your agent’s ‘messiness’ while you spend more time configuring dashboards than writing prompts.
+  summary: Atla is an observability platform designed to monitor, trace, and debug the behavior of AI agents.
+  why_it_matters: It provides the necessary telemetry and error detection to help developers debug non-deterministic agent failures and iterate on performance.
+  mental_damage: Because debugging a non-deterministic agent is a special kind of hell that now requires its own dedicated monitoring stack.
   tags:
     - observability
     - tracing
-    - agent-performance
+    - llmops
+    - agent-monitoring
   confidence: high
 curation:
-  status: excluded
-  reason: Atla is an agent observability and tracing tool, not a developer-facing coding assistant, framework, or builder, and does not fit any catalog category’s core purpose.
+  status: included
+  reason: Atla is primarily an observability and tracing platform focused on measuring and improving agent behavior.
   evidence:
-    - "README states: 'Atla is designed to clarify the messiness of agent behaviour. Automatically detect errors and get insights to continually improve agent performance.'"
-    - Scraped site context shows it is a platform for tracing, logging, and monitoring agent behavior, with features like tracing, sampling, and multimodal support.
-    - Listed in awesome-mcp-servers under 'Official Servers' but MCP is not its primary identity; it is an observability layer that may use MCP as an adapter.
+    - Documentation explicitly highlights tracing, instrumentation, and error detection as core features
+    - Provides Python and TypeScript SDKs for integrating observability into agent workflows
+    - Product mission is to clarify 'the messiness of agent behaviour' through insights and metrics
 placement:
-  primary_category: null
-  section: null
+  primary_category: evals
+  section: Observability & Tracing
 lifecycle:
   status: incubating
   reason: null
@@ -69,9 +72,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-12T15:58:17.909Z"
+    updated_at: "2026-09-21T04:15:33.998Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:ca7fba9451a181eb4435394cbca60b988f989278938baacc56ea1e85a88f4926
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: Atla is primarily an observability and tracing platform focused on measuring and improving agent behavior.
+      decision_evidence:
+        - Documentation explicitly highlights tracing, instrumentation, and error detection as core features
+        - Provides Python and TypeScript SDKs for integrating observability into agent workflows
+        - Product mission is to clarify 'the messiness of agent behaviour' through insights and metrics
+      category_candidates:
+        - evals
+        - extensions-and-addons
+      contrastive_reason: Choose evals over extensions-and-addons because the core novelty is the observability and tracing infrastructure rather than an integration that adds a specific tool capability to a host editor.
+      review_reason: null
+      review_resume_lifecycle: null

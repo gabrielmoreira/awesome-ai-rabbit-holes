@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,22 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: SmolVLA is a 450-million-parameter open-source vision-language-action model for robotics from Hugging Face, designed to run on consumer GPUs and affordable robot arms using flow-matching action prediction.
-  why_it_matters: It gives robotics researchers and hobbyists a compact, reproducible VLA baseline without proprietary hardware or datasets, but it is not a tool for software engineering workflows.
-  mental_damage: Now your robot arm can asynchronously judge your desk clutter with a 450M-parameter side-eye, because asynchronous pull request reviews weren’t making you anxious enough.
+  summary: A compact, open-source Vision-Language-Action (VLA) model designed for efficient robotics control on consumer hardware.
+  why_it_matters: It enables developers to deploy capable, real-time robotic agents using affordable, off-the-shelf hardware and community datasets.
+  mental_damage: Finally, a way to make sure our code breaks things in the physical world as efficiently as it does in production.
   tags:
     - robotics
-    - vla-model
-    - consumer-hardware
+    - vla
     - open-source
+    - embodied-ai
   confidence: high
 curation:
   status: excluded
-  reason: This is a robotics foundation model and research artifact announcement, not a developer-facing AI tool for coding, agents, app building, or software infrastructure.
+  reason: The project is primarily a model release and training method rather than a standalone developer-facing tool, framework, or runtime.
   evidence:
-    - Scraped site context describes SmolVLA as a vision-language-action model for physical robot manipulation (pick-place, stacking, sorting), not a software development tool.
-    - Source-list placement in Awesome-LLMOps categorizes it under 'Model > Robotics Foundation Model', confirming its identity as a model checkpoint rather than developer tooling.
-    - The linked page is a Hugging Face blog post announcing model weights, training recipes, and evaluation on robot hardware (SO-100/SO-101), with no claims about assisting software developers.
+    - The core offering is a set of model weights (SmolVLA-450M) and training recipes.
+    - The actual development framework used to implement it is LeRobot, making SmolVLA a model component rather than a standalone SDK.
 placement:
   primary_category: null
   section: null
@@ -71,9 +72,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-21T05:31:59.417Z"
+    updated_at: "2026-09-21T04:23:20.446Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:80a844aa864215046ecb1bb2dfe8cdb125dc38f5cd551574dc1845eb745369d6
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is primarily a model release and training method rather than a standalone developer-facing tool, framework, or runtime.
+      decision_evidence:
+        - The core offering is a set of model weights (SmolVLA-450M) and training recipes.
+        - The actual development framework used to implement it is LeRobot, making SmolVLA a model component rather than a standalone SDK.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

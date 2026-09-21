@@ -203,7 +203,7 @@ Runtimes, serving stacks, desktop apps, and tooling for running AI models on you
   `fine-tuning` `peft` `lora` `pytorch` `huggingface`
   </details>
 
-- **[qwen3-coder](https://github.com/qwenlm/qwen3-coder)** `⭐ 16.7k` `updated ≤180d` Qwen3-Coder is an open-weight language model series from Alibaba's Qwen team, specifically fine-tuned for coding tasks and agentic workflows with support for long contexts up to 1M tokens. <details><summary>More about</summary>
+- **[qwen3-coder](https://github.com/qwenlm/qwen3-coder)** `⭐ 16.7k` `updated ≤1y` Qwen3-Coder is an open-weight language model series from Alibaba's Qwen team, specifically fine-tuned for coding tasks and agentic workflows with support for long contexts up to 1M tokens. <details><summary>More about</summary>
 
   It offers a powerful, locally-runnable alternative to closed-source models like Claude Sonnet for developers building coding agents or running agentic workflows on their own hardware.
 
@@ -248,7 +248,7 @@ Runtimes, serving stacks, desktop apps, and tooling for running AI models on you
   `llm-serving` `openai-compatible` `self-hosting` `bentoml` `inference`
   </details>
 
-- **[axolotl](https://github.com/axolotl-ai-cloud/axolotl)** `⭐ 12.4k` `updated ≤30d` An open-source framework designed for fine-tuning large language models. <details><summary>More about</summary>
+- **[axolotl](https://github.com/axolotl-ai-cloud/axolotl)** `⭐ 12.5k` `updated ≤30d` An open-source framework designed for fine-tuning large language models. <details><summary>More about</summary>
 
   It provides a standardized, highly configurable way for developers to train custom model weights using various optimization techniques like LoRA and DPO.
 
@@ -482,7 +482,7 @@ Runtimes, serving stacks, desktop apps, and tooling for running AI models on you
   `local-ai` `inference` `cuda` `quantization`
   </details>
 
-- **[Infinity](https://github.com/michaelfeil/infinity)** `⭐ 2.9k` `updated ≤180d` Infinity is a high-throughput, low-latency REST API for serving text-embeddings, reranking, and multimodal models from HuggingFace. <details><summary>More about</summary>
+- **[Infinity](https://github.com/michaelfeil/infinity)** `⭐ 2.9k` `updated ≤1y` Infinity is a high-throughput, low-latency REST API for serving text-embeddings, reranking, and multimodal models from HuggingFace. <details><summary>More about</summary>
 
   It lets developers deploy embedding and reranking models with minimal setup, enabling fast semantic search and retrieval in AI applications.
 
@@ -680,7 +680,7 @@ Runtimes, serving stacks, desktop apps, and tooling for running AI models on you
   `multimodal` `training-engine` `pytorch` `machine-learning` `lmm`
   </details>
 
-- **[akshayaggarwal99/jarvis-ai-assistant](https://github.com/akshayaggarwal99/jarvis-ai-assistant)** `⭐ 634` `updated ≤30d` A voice-powered macOS assistant that enables local-first dictation and text manipulation using Whisper and Ollama. <details><summary>More about</summary>
+- **[akshayaggarwal99/jarvis-ai-assistant](https://github.com/akshayaggarwal99/jarvis-ai-assistant)** `⭐ 634` `updated ≤90d` A voice-powered macOS assistant that enables local-first dictation and text manipulation using Whisper and Ollama. <details><summary>More about</summary>
 
   It provides a privacy-focused, subscription-free alternative to commercial dictation tools by allowing developers to run transcription and LLM processing entirely on their own hardware.
 
@@ -846,11 +846,11 @@ _These are new or low-traffic entries being watched._
   `local-ai` `open-source` `desktop-app` `llm-interface`
   </details>
 
-- **[LibreChat](https://www.librechat.ai)** LibreChat is a customizable open-source chat UI supporting multiple AI providers and features like file upload, image generation, and agent support. <details><summary>More about</summary>
+- **[LibreChat](https://www.librechat.ai)** An open-source, self-hostable platform that provides a unified interface for multiple AI models, agents, and tools. <details><summary>More about</summary>
 
-  It gives developers a self-hostable, extensible interface to experiment with and compare various LLMs and AI workflows in a unified chat environment.
+  It allows developers to centralize access to various LLM providers and agentic capabilities through a single, customizable, and private interface.
 
-  _Another chat UI to self-host, because apparently one Open WebUI wasn't enough to satisfy our need for prompt fatigue in triplicate._
+  _One more unified dashboard to keep in sync with your increasingly fragmented collection of API keys and model versions._
 
-  `chat-ui` `local-ai` `self-hosted`
+  `self-hosted` `chat-ui` `multi-model` `open-source` `agents`
   </details>

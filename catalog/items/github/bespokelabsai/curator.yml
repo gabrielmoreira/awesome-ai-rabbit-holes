@@ -80,14 +80,18 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-09-07T04:13:32.805Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-09-21T04:13:56.978Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for bespokelabsai/curator
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-07-21T15:25:43.669Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-09-21T04:14:01.561Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

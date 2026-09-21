@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,22 +37,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Capsule CRM is a customer relationship management platform for tracking contacts, sales pipelines, projects, and marketing campaigns.
-  why_it_matters: It is not aimed at software developers; it is a general business CRM whose primary users are sales and operations teams.
-  mental_damage: Soon every SaaS tool will have an MCP server and you'll spend more time wiring up adapters than writing code.
+  summary: A CRM platform for managing contacts, sales pipelines, and business workflows.
+  why_it_matters: It offers an MCP integration to allow AI agents to interact with customer and sales data.
+  mental_damage: Because your AI agent definitely needs to know your client's dog's birthday to close that enterprise deal.
   tags:
     - crm
-    - business-saas
-    - sales-tool
-    - mcp-adapter
+    - mcp
+    - business-tools
   confidence: high
 curation:
   status: excluded
-  reason: A general-purpose CRM for business operations falls outside the catalog's scope of developer-facing AI tooling, and its MCP presence is an adapter rather than a primary product identity.
+  reason: The primary product is a business-facing CRM, and its MCP support is an incidental feature rather than a developer-focused MCP tool.
   evidence:
-    - Scraped site context positions the product as a CRM for sales, projects, and customer service with no developer-tooling angle.
-    - awesome-mcp-servers lists it under Data Platforms as a server implementation, confirming MCP is an integration adapter, not the core identity.
-    - Target use cases are contact management, sales forecasting, and social campaigns rather than coding, agents, or infrastructure.
+    - Scraped text identifies the product as a CRM for managing contacts and sales.
+    - The site notes 'Get early access to Capsule MCP' as a feature of the existing platform.
 placement:
   primary_category: null
   section: null
@@ -69,9 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-28T05:30:06.108Z"
+    updated_at: "2026-09-21T04:24:34.984Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:72f476418a61cbcb07c4bb96b6dcc09a5a2475ec152e6bd5c4749487b9e0d0ea
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The primary product is a business-facing CRM, and its MCP support is an incidental feature rather than a developer-focused MCP tool.
+      decision_evidence:
+        - Scraped text identifies the product as a CRM for managing contacts and sales.
+        - The site notes 'Get early access to Capsule MCP' as a feature of the existing platform.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

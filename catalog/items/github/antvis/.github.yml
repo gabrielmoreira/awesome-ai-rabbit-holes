@@ -50,26 +50,25 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-09-10T04:12:54.966Z"
+    last_checked_at: "2026-09-21T04:13:42.528Z"
     readme:
-      fetched_at: "2026-09-10T04:12:54.966Z"
+      fetched_at: "2026-09-21T04:13:42.528Z"
       bytes: 9
 insights:
-  summary: An organizational .github repository for the AntV open-source data-visualization team, containing no product README or standalone tooling.
-  why_it_matters: It offers no usable developer tool on its own; any source-list reference appears to point toward the organization profile rather than a shipped product.
-  mental_damage: The modern AI tooling landscape is so hungry for new entries that even a four-star org README with zero content gets slotted under 'Official Servers.'
+  summary: A repository containing GitHub configuration files and templates for the antvis organization.
+  why_it_matters: It serves as organizational infrastructure for GitHub workflows, but contains no AI-specific functionality or developer tooling.
+  mental_damage: A repository so empty it actually provides a brief, silent respite from the AI hype cycle.
   tags:
-    - org-meta
-    - placeholder
-    - not-a-product
+    - github-configs
+    - infrastructure
   confidence: high
 curation:
   status: excluded
-  reason: This is an empty organizational meta-repository with no README substance, no description, and no standalone product identity; source-list references link to the AntV team profile rather than to an actual MCP server or developer tool.
+  reason: The repository is a collection of standard GitHub configuration files rather than an AI-powered developer tool or product.
   evidence:
-    - README contains only '# .github' with no project claims, feature list, or usage instructions.
-    - Repo has no GitHub description, no topics, no license, and only 4 stars, all signals of an auxiliary org page.
-    - Source-list context describes the AntV AI Visualization Team profile ('Visualize Data with Vitality by AI') rather than a specific server or tool implementation.
+    - README contains no substantive project information
+    - No repository description provided
+    - The repository lacks any features or purpose related to the AI developer ecosystem
 placement:
   primary_category: null
   section: null
@@ -83,17 +82,31 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-09-17T04:13:45.369Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for antvis/.github
+    status: done
+    updated_at: "2026-09-21T04:13:42.528Z"
+    cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-21T05:31:31.685Z"
+    updated_at: "2026-09-21T04:22:21.016Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:6903220f81dbd5456c46ef71f7eb036fd14d031a11f5ba6e1df426b5ef8b633c
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The repository is a collection of standard GitHub configuration files rather than an AI-powered developer tool or product.
+      decision_evidence:
+        - README contains no substantive project information
+        - No repository description provided
+        - The repository lacks any features or purpose related to the AI developer ecosystem
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,19 +37,19 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A dataset hosted on Hugging Face.
-  why_it_matters: Datasets provide the raw material necessary for training, fine-tuning, and evaluating AI models and agent behaviors.
-  mental_damage: Spending more time cleaning and versioning CSVs than actually writing code.
+  summary: A dataset hosted on HuggingFace titled 'preflight-dataset-v0_1'.
+  why_it_matters: Datasets can be used to benchmark or fine-tune models, but this is raw data rather than a functional tool.
+  mental_damage: The tooling sprawl is reaching a point where we are starting to treat raw data distributions as standalone software products.
   tags:
     - dataset
     - huggingface
   confidence: high
 curation:
   status: excluded
-  reason: This is a data artifact (a dataset) rather than a functional developer tool, framework, or agent.
+  reason: The project is a static dataset hosted on HuggingFace, not a functional developer tool, agent, framework, or MCP implementation.
   evidence:
-    - URL indicates the project is a Hugging Face dataset repository
-    - No README or description provided to suggest a tool-based identity or developer-facing product
+    - URL points to a HuggingFace dataset repository
+    - Project lacks a functional runtime, SDK, or agent identity
 placement:
   primary_category: null
   section: null
@@ -66,9 +68,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-28T05:41:11.669Z"
+    updated_at: "2026-09-21T04:29:30.262Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:d14ce96083bb1e00b4be0db07ea1d3c4012b395d0fb92ddb07568a30c37b37af
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a static dataset hosted on HuggingFace, not a functional developer tool, agent, framework, or MCP implementation.
+      decision_evidence:
+        - URL points to a HuggingFace dataset repository
+        - Project lacks a functional runtime, SDK, or agent identity
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

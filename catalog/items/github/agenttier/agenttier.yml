@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agenttier__agenttier__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-05-18T05:26:15.344Z'
+      discovered_at: "2026-05-18T05:26:15.344Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,11 +20,22 @@ provenance:
           - Agent infrastructure
         anchor_text: AgentTier
         extracted_url: https://github.com/agenttier/agenttier
-        surrounding_text: >-
-          - **[AgentTier](https://github.com/agenttier/agenttier)** `⭐ 18` — Kubernetes-native sandbox runtime for AI
-          coding agents. A `Sandbox` CRD provisions a Pod + PVC + NetworkPolicy with optional gVisor isolation; the
-          `agenttier` Go CLI runs agent invocations that stream stdout/stderr/exit as SSE. Ships reference templates for
-          Claude Code + Bedrock and LangGraph. Apache-2.0.
+        surrounding_text: "- **[AgentTier](https://github.com/agenttier/agenttier)** `⭐ 18` — Kubernetes-native sandbox runtime for AI coding agents. A `Sandbox` CRD provisions a Pod + PVC + NetworkPolicy with optional gVisor isolation; the `agenttier` Go CLI runs agent invocations that stream stdout/stderr/exit as SSE. Ships reference templates for Claude Code + Bedrock and LangGraph. Apache-2.0."
+        confidence: high
+    - id: discovery__github__agenttier__agenttier__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-09-21T04:13:39.852Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: AgentTier
+        extracted_url: https://github.com/agenttier/agenttier
+        surrounding_text: "- **[AgentTier](https://github.com/agenttier/agenttier)** – Self-hosted Kubernetes-native sandbox runtime for AI coding agents (Claude Code, OpenHands, LangGraph). Same Sandbox CRD provisions a Pod + PVC + default-deny NetworkPolicy with optional gVisor isolation, hierarchical governance, and a streaming SSE invoke API."
         confidence: high
 metadata:
   github:
@@ -34,46 +45,35 @@ metadata:
     archived: false
     full_name: agenttier/agenttier
     html_url: https://github.com/agenttier/agenttier
-    created_at: '2026-05-09T04:33:25Z'
-    pushed_at: '2026-09-14T03:15:58Z'
+    created_at: "2026-05-09T04:33:25Z"
+    pushed_at: "2026-09-14T03:15:58Z"
     description: Kubernetes-native sandbox platform to run AI agents, coding assistants and harnesses.
-    homepage: ''
+    homepage: ""
     topics:
       - ai-agents
       - coding-agent
       - harness
-    last_checked_at: '2026-09-17T04:13:33.894Z'
+    last_checked_at: "2026-09-17T04:13:33.894Z"
     readme:
-      fetched_at: '2026-09-17T04:13:33.894Z'
+      fetched_at: "2026-09-17T04:13:33.894Z"
       bytes: 32355
 insights:
-  summary: >-
-    AgentTier is a Kubernetes-native platform providing isolated, persistent sandbox environments for running AI agents
-    with warm pools, OIDC auth, and Web UI.
-  why_it_matters: >-
-    It lets developers run AI coding agents like Claude Code in secure, reproducible environments with instant startup
-    and persistent state, reducing environment drift and security risks.
-  mental_damage: >-
-    Finally, a way to sandbox your AI agents so they can't rm -rf your cluster — because apparently we needed gVisor
-    just to trust LLMs with a shell.
+  summary: A Kubernetes-native platform for providing isolated, persistent sandbox environments for AI agents and developers.
+  why_it_matters: It allows developers to safely run autonomous coding agents and untrusted AI-generated code within secure, kernel-level isolated environments.
+  mental_damage: Because nothing says 'streamlined AI workflow' like managing a Kubernetes cluster just to give Claude Code a place to run a unit test.
   tags:
     - kubernetes
+    - sandboxing
     - ai-agents
-    - sandbox
-    - devops
-    - security
-  confidence: medium
+    - infrastructure
+  confidence: high
 curation:
   status: included
-  reason: >-
-    AgentTier is a control plane for managing the lifecycle of AI agent sandboxes, making it an orchestration platform
-    rather than a coding agent itself.
+  reason: It acts as a runtime harness and platform for managing the execution environment and lifecycle of AI agents.
   evidence:
-    - 'Repo description: ''Kubernetes-native platform for managing isolated, persistent sandboxes for AI agents'''
-    - >-
-      README: 'Orchestrate multi-agent workflows with inter-sandbox communication' and 'Agent mode' for on-demand agent
-      invocation
-    - 'Seen in source list: awesome-cli-coding-agents under ''Harnesses & orchestration > Agent infrastructure'''
+    - Kubernetes-native platform providing isolated sandboxes for AI agents
+    - Uses gVisor for kernel-level isolation of untrusted AI-generated code
+    - Supports orchestration of multi-agent workflows via inter-sandbox communication
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
@@ -84,19 +84,37 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-18T05:26:15.345Z'
+    updated_at: "2026-09-21T04:13:39.855Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:33.894Z'
+    updated_at: "2026-09-17T04:13:33.894Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: '2026-05-18T05:39:04.791Z'
+    updated_at: "2026-09-21T04:19:48.118Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:bb2b8a366c89f7a79482e78bf6c11fd7f6324f1dba4cbaffeacb36c0857cb041
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: It acts as a runtime harness and platform for managing the execution environment and lifecycle of AI agents.
+      decision_evidence:
+        - Kubernetes-native platform providing isolated sandboxes for AI agents
+        - Uses gVisor for kernel-level isolation of untrusted AI-generated code
+        - Supports orchestration of multi-agent workflows via inter-sandbox communication
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because its primary identity is an operated runtime platform and sandbox harness rather than a library developers import into their source code.
+      review_reason: null
+      review_resume_lifecycle: null

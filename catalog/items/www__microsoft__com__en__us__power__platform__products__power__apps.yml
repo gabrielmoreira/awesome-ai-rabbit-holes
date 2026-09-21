@@ -5,9 +5,8 @@ canonical_url: https://www.microsoft.com/en-us/power-platform/products/power-app
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__www__microsoft__com__en__us__power__platform__products__power__apps__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-12T15:06:19.300Z'
+    - id: discovery__www__microsoft__com__en__us__power__platform__products__power__apps__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-12T15:06:19.300Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,9 +18,7 @@ provenance:
           - App Builders
         anchor_text: Microsoft Power Apps
         extracted_url: https://powerapps.microsoft.com
-        surrounding_text: >-
-          - **[Microsoft Power Apps](https://powerapps.microsoft.com/)** – Enterprise low-code platform with AI-powered
-          app generation.
+        surrounding_text: "- **[Microsoft Power Apps](https://powerapps.microsoft.com/)** – Enterprise low-code platform with AI-powered app generation."
         confidence: high
 metadata:
   github:
@@ -29,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -37,49 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Microsoft Power Apps is a low-code app builder with AI assistance for creating business applications.
-  why_it_matters: >-
-    It enables developers and non-developers to rapidly build, test, and deploy full-stack applications using natural
-    language and AI assistance, reducing development time.
-  mental_damage: >-
-    The promise of 'just describe it in natural language' hides the inevitable enterprise governance, licensing, and
-    vendor lock-in that follows the initial joy of dragging a button onto a canvas.
+  summary: Microsoft's enterprise low-code platform for building business applications with integrated AI assistance.
+  why_it_matters: It enables the rapid creation of governed, full-stack business applications through natural language and low-code components.
+  mental_damage: It offers the speed of generative AI, but only within the safe, highly-governed confines of the Microsoft ecosystem.
   tags:
     - low-code
-    - ai-assisted
     - enterprise
-    - app-builder
     - microsoft
+    - business-apps
   confidence: high
 curation:
-  status: included
-  reason: >-
-    Power Apps is primarily a prompt-to-app and low-code platform focused on generating business applications from
-    natural language descriptions and AI assistance, making it a clear fit for app builders rather than coding agents or
-    extensions.
+  status: excluded
+  reason: It is a broad enterprise low-code platform where AI is a major integrated feature rather than a developer-centric prompt-to-app tool.
   evidence:
-    - >-
-      Source-list context: included in awesome-ai-coding-tools under App Builders section as 'Microsoft Power Apps is a
-      low-code app builder that lets you create custom business apps to streamline processes and boost productivity over
-      your organization.'
-    - >-
-      Scraped site context: describes Power Apps as enabling users to 'Use natural language to outline goals, roles, and
-      workflows. AI instantly translates your intent into structured solution blueprints.' and 'Build apps your way—drag
-      and drop, generative AI, or custom code.'
-    - >-
-      README excerpt and product features emphasize turning prompts into apps via AI-assisted natural language
-      instructions, templates, and reusable components, not editing existing codebases.
+    - Gartner and Forrester categorize it as an Enterprise Low-Code platform
+    - AI capabilities like Copilot are integrated features of a much larger, pre-existing product suite
 placement:
-  primary_category: app-builders
+  primary_category: null
   secondary_categories: []
-  section: Full App Builders
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-12T15:06:19.301Z'
+    updated_at: "2026-05-12T15:06:19.301Z"
     cause: null
     next_retry_at: null
   stars:
@@ -88,9 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-05-12T16:01:26.059Z'
+    updated_at: "2026-09-21T04:17:30.764Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:c78bdee726868d1be3c64e8589de757017ea20ab22c5bfb9753a9bbb15917762
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: It is a broad enterprise low-code platform where AI is a major integrated feature rather than a developer-centric prompt-to-app tool.
+      decision_evidence:
+        - Gartner and Forrester categorize it as an Enterprise Low-Code platform
+        - AI capabilities like Copilot are integrated features of a much larger, pre-existing product suite
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

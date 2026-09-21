@@ -342,15 +342,6 @@ _These are new or low-traffic entries being watched._
   `low-code` `enterprise` `ai-assisted` `app-builder`
   </details>
 
-- **[Microsoft Power Apps](https://www.microsoft.com/en-us/power-platform/products/power-apps)** Microsoft Power Apps is a low-code app builder with AI assistance for creating business applications. <details><summary>More about</summary>
-
-  It enables developers and non-developers to rapidly build, test, and deploy full-stack applications using natural language and AI assistance, reducing development time.
-
-  _The promise of 'just describe it in natural language' hides the inevitable enterprise governance, licensing, and vendor lock-in that follows the initial joy of dragging a button onto a canvas._
-
-  `low-code` `ai-assisted` `enterprise` `app-builder` `microsoft`
-  </details>
-
 - **[Pythagora](https://www.pythagora.ai)** Pazi is an AI-powered platform for building and deploying applications from natural language descriptions. <details><summary>More about</summary>
 
   It enables developers to create functional apps or tools by describing what they want in plain language, reducing the need for manual coding.
