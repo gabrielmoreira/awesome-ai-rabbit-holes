@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agentsmesh__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,11 +18,7 @@ provenance:
           - Coding Agents
         anchor_text: AgentsMesh
         extracted_url: https://agentsmesh.ai
-        surrounding_text: >-
-          - **[AgentsMesh](https://agentsmesh.ai)** – Self-hostable AI Agent Workforce Platform. Orchestrates Claude
-          Code, Codex CLI, Gemini CLI, Aider, OpenCode across remote AI workstations (AgentPods) with PTY sandbox + git
-          worktree isolation, channels-based multi-agent collaboration, built-in Kanban, and per-pod MCP server.
-          Multi-Git (GitHub/GitLab/Gitee), multi-tenant, SSO/RBAC, BYOK.
+        surrounding_text: "- **[AgentsMesh](https://agentsmesh.ai)** – Self-hostable AI Agent Workforce Platform. Orchestrates Claude Code, Codex CLI, Gemini CLI, Aider, OpenCode across remote AI workstations (AgentPods) with PTY sandbox + git worktree isolation, channels-based multi-agent collaboration, built-in Kanban, and per-pod MCP server. Multi-Git (GitHub/GitLab/Gitee), multi-tenant, SSO/RBAC, BYOK."
         confidence: high
 metadata:
   github:
@@ -40,47 +36,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    AgentsMesh is an AI agent workforce platform that gives software teams coordinated squads of autonomous agents to
-    assign tasks, track progress, and collaborate.
-  why_it_matters: >-
-    It attempts to change team velocity by letting developers delegate work to specialized multi-agent squads rather
-    than relying on a single coding assistant.
-  mental_damage: >-
-    Your five-person startup can now enjoy the managerial overhead of a fifty-person division by assigning Jira tickets
-    and standup updates to autonomous agents that never take PTO.
+  summary: An AI agent workforce platform designed to deploy and manage autonomous agent squads.
+  why_it_matters: It aims to scale developer productivity by coordinating multiple specialized agents to handle complex, multi-step tasks collaboratively.
+  mental_damage: Managing a team of autonomous agents is just one step away from needing a middle manager for your LLMs.
   tags:
     - agent-orchestration
-    - workforce-platform
     - multi-agent
-    - team-productivity
-  confidence: medium
+    - workforce-platform
+  confidence: high
 curation:
   status: included
-  reason: >-
-    AgentsMesh is a control plane for deploying and coordinating multiple AI agents across a team, which fits Agent
-    Orchestration rather than a single coding assistant.
+  reason: The product's primary identity is a platform for coordinating multiple agents (squads) and managing their tasks and collaboration, which is the core definition of agent orchestration.
   evidence:
-    - >-
-      Scraped site title is 'The AI Agent Workforce Platform' and the pitch centers on giving 'every team member an AI
-      agent squad' that collaborates autonomously.
-    - >-
-      Source-list placement under 'Coding Agents' contradicts its primary product identity as a multi-agent coordination
-      surface.
-    - >-
-      No repository metadata is available, but the product description clearly targets software teams with a
-      control-plane value proposition.
+    - Scraped site context describes it as an 'AI Agent Workforce Platform'
+    - Pitch focuses on assigning tasks to 'agent squads' and tracking autonomous collaboration
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: Hosted Agent Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.658Z'
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
@@ -89,38 +69,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-20T15:17:38.737Z'
+    updated_at: "2026-09-24T04:32:13.357Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d2a3aff0103eda95f3c31f582f3420678907251d39f6a169429a57ea64af4313
+      category_rules_version: c367d6101132
+      input_hash: sha256:20f7651a0b0f13f7ee5a81dff2fc701e97bcf6d45691ea66a37133cbd218c199
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: >-
-        AgentsMesh is a control plane for deploying and coordinating multiple AI agents across a team, which fits Agent
-        Orchestration rather than a single coding assistant.
+      decision_reason: The product's primary identity is a platform for coordinating multiple agents (squads) and managing their tasks and collaboration, which is the core definition of agent orchestration.
       decision_evidence:
-        - >-
-          Scraped site title is 'The AI Agent Workforce Platform' and the pitch centers on giving 'every team member an
-          AI agent squad' that collaborates autonomously.
-        - >-
-          Source-list placement under 'Coding Agents' contradicts its primary product identity as a multi-agent
-          coordination surface.
-        - >-
-          No repository metadata is available, but the product description clearly targets software teams with a
-          control-plane value proposition.
+        - Scraped site context describes it as an 'AI Agent Workforce Platform'
+        - Pitch focuses on assigning tasks to 'agent squads' and tracking autonomous collaboration
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: >-
-        Choose agent-orchestration over coding-agents because the product is a team-level control plane for deploying
-        and coordinating squads of agents rather than a single assistant that directly plans, writes, or debugs code in
-        a repo.
+      contrastive_reason: Choose agent-orchestration over coding-agents because the product functions as a control plane for managing multiple agent squads rather than acting as a single standalone coding assistant.
       review_reason: null
       review_resume_lifecycle: null

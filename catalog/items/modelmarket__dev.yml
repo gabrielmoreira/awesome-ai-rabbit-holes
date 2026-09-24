@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,22 +37,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A live terminal and marketplace for AI-to-AI commerce featuring micropayments, federation graphs, and gated capability invocation.
-  why_it_matters: It provides a protocol and infrastructure for agents to discover and pay for specialized capabilities from other agents in real-time.
-  mental_damage: We have officially reached the era where your agent needs its own credit card to negotiate with another agent's agent.
+  summary: A discovery and marketplace platform for AI agents to find and invoke capabilities via the Model Context Protocol (MCP).
+  why_it_matters: It provides a standardized way for autonomous agents to discover, trade, and pay for specialized tools in real time using a protocol-based economy.
+  mental_damage: We are one step away from agents hyper-inflating the price of weather-reading capabilities on a live terminal.
   tags:
     - mcp
-    - agents
+    - agent-economy
+    - discovery
     - micropayments
-    - interoperability
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The project's identity is an MCP-based aggregator and marketplace for agent capabilities, making it a registry and discovery layer for the protocol.
+  reason: The product's primary identity is an aggregator and discovery service that exposes agentic capabilities via an MCP endpoint.
   evidence:
-    - Listed in awesome-mcp-servers under 'Aggregators'
-    - Site describes itself as a 'live terminal for AI-to-AI commerce' with 'Discovery' and 'Federated Hubs'
-    - Specifically mentions 'AIMarket Protocol v2' and 'HTTP 402' (Payment Required) flows for agent invocations
+    - Explicitly identifies as an 'MCP endpoint'
+    - Functions as a registry for discovering federated capabilities like 'gaia.weather.read'
+    - Acts as an aggregator for distributed tool hubs as noted in the source list context
 placement:
   primary_category: mcp
   section: Registries & Discovery
@@ -69,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-06-15T05:54:15.072Z"
+    updated_at: "2026-09-24T04:14:03.632Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:bdbc0a1c9814c788c4a807759db3404287c882755d7edd191f44dda8405c4a3a
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's primary identity is an aggregator and discovery service that exposes agentic capabilities via an MCP endpoint.
+      decision_evidence:
+        - Explicitly identifies as an 'MCP endpoint'
+        - Functions as a registry for discovering federated capabilities like 'gaia.weather.read'
+        - Acts as an aggregator for distributed tool hubs as noted in the source list context
+      category_candidates:
+        - mcp
+        - agent-orchestration
+      contrastive_reason: Choose mcp over agent-orchestration because the product acts as a protocol-driven registry and service layer for tools rather than a runtime or control plane for managing multi-agent task workflows.
+      review_reason: null
+      review_resume_lifecycle: null

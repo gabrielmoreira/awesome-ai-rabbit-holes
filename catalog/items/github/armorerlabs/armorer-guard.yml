@@ -49,15 +49,15 @@ metadata:
       fetched_at: "2026-09-21T04:13:47.419Z"
       bytes: 5315
 insights:
-  summary: Armorer Guard is a Rust-based local scanner that inspects MCP tool calls for prompt injection, credential leaks, and risky actions before execution.
-  why_it_matters: It gives developers a zero-latency, network-free way to enforce safety policies on AI agent tool usage in local MCP workflows.
-  mental_damage: Another security layer to add to the growing stack of agent guardrails that hope to stop the model from doing exactly what you told it not to.
+  summary: Public Python and TypeScript SDKs for integrating Armorer Guard security guardrails into AI agent workflows.
+  why_it_matters: It enables developers to enforce security boundaries and authorize agentic tool calls through a dedicated runtime instead of relying on prompt engineering alone.
+  mental_damage: Because trusting a system prompt to prevent your agent from nuking your production database was always a high-stakes gamble.
   tags:
-    - security
-    - mcp
-    - scanner
-    - rust
-    - local-first
+    - agent-security
+    - guardrails
+    - sdk
+    - langgraph
+    - python
   confidence: high
 curation:
   status: included
@@ -69,10 +69,10 @@ curation:
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Clients & Inspector Tools
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-frameworks'"
 processing:
   discover:
     status: done
@@ -86,9 +86,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-02T05:32:23.846Z"
+    updated_at: "2026-09-24T04:20:52.704Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:b3ca346662d6d6b9ad7422cb1755faa35c5ccd3febf30a80b35efa78e694d69e
+      proposed_primary_category: ai-frameworks
+      disagreement: true
+      decision_reason: It is a code-first SDK that developers import and use within their own application logic to build secure agentic systems.
+      decision_evidence:
+        - Provides dependency-light Python and Node/TypeScript client libraries
+        - Includes framework middleware to wrap model traffic and tool calls
+        - Designed as a customer-side integration surface for a separate Guard runtime
+      category_candidates:
+        - ai-frameworks
+        - extensions-and-addons
+      contrastive_reason: Choose ai-frameworks over extensions-and-addons because it is a library meant to be imported into a developer's own agentic application rather than a plugin designed to augment a specific host tool like Cursor or Claude Code.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-frameworks'"
+      review_resume_lifecycle: null

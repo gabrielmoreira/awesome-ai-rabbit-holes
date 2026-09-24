@@ -86,6 +86,15 @@ Code-first libraries, SDKs, and engines that developers import and program again
   `agent-framework` `multi-agent` `orchestration` `llm` `python`
   </details>
 
+- **[LiteLLM 🚅](https://github.com/berriai/litellm)** `⭐ 59.5k` `updated ≤30d` Open source AI gateway that provides a unified interface to call 100+ LLM providers using the OpenAI format, with cost tracking, guardrails, load balancing, and logging. <details><summary>More about</summary>
+
+  Developers can standardize LLM calls across providers without rewriting code, reducing fragmentation and operational overhead.
+
+  _Finally, a way to stop juggling 12 different SDKs just to switch from OpenAI to Anthropic and back again._
+
+  `ai-gateway` `llm-proxy` `provider-abstraction` `openai-compatible` `llmops`
+  </details>
+
 - **[CrewAI](https://github.com/crewaiinc/crewai)** `⭐ 58.5k` `updated ≤30d` Python framework for orchestrating role-playing, autonomous AI agents with collaborative intelligence. <details><summary>More about</summary>
 
   Enables developers to build and deploy multi-agent systems with granular control, event-driven workflows, and enterprise-grade observability.
@@ -93,15 +102,6 @@ Code-first libraries, SDKs, and engines that developers import and program again
   _Finally, a way to turn your internal monologue of self-doubt into a full-blown committee meeting._
 
   `multi-agent` `orchestration` `python-framework` `enterprise-ai` `autonomous-agents`
-  </details>
-
-- **[LiteLLM 🚅](https://github.com/berriai/litellm)** `⭐ 58.2k` `updated ≤30d` Open source AI gateway that provides a unified interface to call 100+ LLM providers using the OpenAI format, with cost tracking, guardrails, load balancing, and logging. <details><summary>More about</summary>
-
-  Developers can standardize LLM calls across providers without rewriting code, reducing fragmentation and operational overhead.
-
-  _Finally, a way to stop juggling 12 different SDKs just to switch from OpenAI to Anthropic and back again._
-
-  `ai-gateway` `llm-proxy` `provider-abstraction` `openai-compatible` `llmops`
   </details>
 
 - **[LlamaIndex](https://github.com/run-llama/llama_index)** `⭐ 51k` `updated ≤90d` LlamaIndex is an open-source Python framework for building agentic applications with data connectors, retrieval pipelines, and integrations for LLMs, embeddings, and vector stores. <details><summary>More about</summary>
@@ -599,7 +599,7 @@ Code-first libraries, SDKs, and engines that developers import and program again
   `rag` `knowledge-graph` `reasoning` `llm-framework`
   </details>
 
-- **[BentoML](https://github.com/bentoml/bentoml)** `⭐ 8.8k` `updated ≤30d` BentoML is a Python framework for building and serving AI model inference APIs, job queues, and multi-model pipelines. <details><summary>More about</summary>
+- **[BentoML](https://github.com/bentoml/bentoml)** `⭐ 8.9k` `updated ≤30d` BentoML is a Python framework for building and serving AI model inference APIs, job queues, and multi-model pipelines. <details><summary>More about</summary>
 
   It simplifies turning ML models into production-ready APIs with Docker packaging, performance optimizations, and cloud deployment.
 
@@ -698,7 +698,7 @@ Code-first libraries, SDKs, and engines that developers import and program again
   `frameworks` `sdk` `llm-orchestration` `rag` `typescript`
   </details>
 
-- **[Atomic Agents](https://github.com/eigenwise/atomic-agents)** `⭐ 6.2k` `updated ≤30d` Atomic Agents is a lightweight, modular Python framework for building AI agent pipelines and applications with reusable, composable components. <details><summary>More about</summary>
+- **[Atomic Agents](https://github.com/eigenwise/atomic-agents)** `⭐ 6.2k` `updated ≤90d` Atomic Agents is a lightweight, modular Python framework for building AI agent pipelines and applications with reusable, composable components. <details><summary>More about</summary>
 
   It lets developers apply familiar software engineering principles to AI workflows, making agent systems more maintainable and predictable.
 
@@ -806,7 +806,7 @@ Code-first libraries, SDKs, and engines that developers import and program again
   `vector-database` `hybrid-search` `rag` `ai-native` `embeddings`
   </details>
 
-- **[Promptify](https://github.com/promptslab/promptify)** `⭐ 4.6k` `updated ≤180d` A Python NLP framework that provides task-based LLM prompts with Pydantic structured outputs, built-in evaluation, and multi-provider support via LiteLLM. <details><summary>More about</summary>
+- **[Promptify](https://github.com/promptslab/promptify)** `⭐ 4.6k` `updated ≤1y` A Python NLP framework that provides task-based LLM prompts with Pydantic structured outputs, built-in evaluation, and multi-provider support via LiteLLM. <details><summary>More about</summary>
 
   It lets developers integrate structured NLP tasks like NER and classification into code with just a few lines, abstracting away prompt engineering and provider differences.
 
@@ -1175,7 +1175,7 @@ Code-first libraries, SDKs, and engines that developers import and program again
   `llm-extraction` `document-intelligence` `framework` `python` `structured-output`
   </details>
 
-- **[VectorChord](https://github.com/supervc-stack/vectorchord)** `⭐ 1.7k` `updated ≤90d` VectorChord is a PostgreSQL extension for scalable, high-performance, and disk-efficient vector search, designed as the successor to pgvecto.rs. <details><summary>More about</summary>
+- **[VectorChord](https://github.com/supervc-stack/vectorchord)** `⭐ 1.7k` `updated ≤180d` VectorChord is a PostgreSQL extension for scalable, high-performance, and disk-efficient vector search, designed as the successor to pgvecto.rs. <details><summary>More about</summary>
 
   It allows developers to host billion-scale vector datasets directly in Postgres with significantly lower infrastructure costs, simplifying the AI stack by removing the need for separate vector databases.
 
@@ -1859,7 +1859,7 @@ Code-first libraries, SDKs, and engines that developers import and program again
   `agents` `tree-search` `mcts` `framework` `reasoning`
   </details>
 
-- **[openai-agents-go](https://github.com/nlpodyssey/openai-agents-go)** `⭐ 265` `updated ≤180d` A Go port of the OpenAI Agents Python SDK for building multi-agent workflows with handoffs, guardrails, and tool-calling support. <details><summary>More about</summary>
+- **[openai-agents-go](https://github.com/nlpodyssey/openai-agents-go)** `⭐ 265` `updated ≤1y` A Go port of the OpenAI Agents Python SDK for building multi-agent workflows with handoffs, guardrails, and tool-calling support. <details><summary>More about</summary>
 
   Developers in the Go ecosystem can now build structured multi-agent systems using familiar SDK patterns instead of wiring LLM calls by hand.
 
@@ -2187,6 +2187,15 @@ _These are new or low-traffic entries being watched._
   `pydantic-ai` `multi-agent` `python` `subagents` `agent-framework`
   </details>
 
+- **[FastAPI Agents](https://github.com/blairhudson/fastapi-agents)** `⭐ 53` `updated >1y` A FastAPI extension for integrating and serving AI agent frameworks like PydanticAI, LlamaIndex, Smolagents, and CrewAI. <details><summary>More about</summary>
+
+  It lets developers expose multiple agent frameworks as secure, documented API endpoints with minimal boilerplate.
+
+  _Now you can turn your FastAPI app into an agent zoo, because why choose one framework when you can have them all fighting in production._
+
+  `fastapi` `agent-frameworks` `api-integration` `python` `microservices`
+  </details>
+
 - **[Yourgoal](https://github.com/pj4533/yourgoal)** `⭐ 53` `updated >1y` A Swift port of BabyAGI that implements an AI-powered task management loop using OpenAI and Pinecone to create, prioritize, and execute tasks. <details><summary>More about</summary>
 
   It offers developers a natively compiled, language-specific reference implementation of autonomous task-driven agents that can run outside Python-centric environments.
@@ -2194,15 +2203,6 @@ _These are new or low-traffic entries being watched._
   _Now you can spiral into recursive task-loops in Swift, proving that no matter the language, we remain equally powerless against our own TODO lists._
 
   `swift` `babyagi` `autonomous-agents` `task-management` `local-cli`
-  </details>
-
-- **[FastAPI Agents](https://github.com/blairhudson/fastapi-agents)** `⭐ 52` `updated >1y` A FastAPI extension for integrating and serving AI agent frameworks like PydanticAI, LlamaIndex, Smolagents, and CrewAI. <details><summary>More about</summary>
-
-  It lets developers expose multiple agent frameworks as secure, documented API endpoints with minimal boilerplate.
-
-  _Now you can turn your FastAPI app into an agent zoo, because why choose one framework when you can have them all fighting in production._
-
-  `fastapi` `agent-frameworks` `api-integration` `python` `microservices`
   </details>
 
 - **[Langchain-hs](https://github.com/tusharad/langchain-hs)** `⭐ 52` `updated ≤90d` Haskell implementation of the LangChain framework for building LLM-powered applications. <details><summary>More about</summary>
@@ -2520,6 +2520,15 @@ _These are new or low-traffic entries being watched._
   `rust` `mcp` `idempotency` `agents` `concurrency`
   </details>
 
+- **[Axolotl](http://docs.axolotl.ai)** Axolotl is a free and open-source framework for post-training and fine-tuning large language models. <details><summary>More about</summary>
+
+  It enables developers to customize and optimize LLMs for specific tasks using flexible configuration and advanced training methods.
+
+  _The promise of fine-tuning state-of-the-art models in minutes clashes with the reality of GPU requirements, complex YAML configs, and the constant churn of new model support._
+
+  `llm` `fine-tuning` `open-source`
+  </details>
+
 - **[BabyElfAGI](https://x.com/yoheinakajima/status/1678443482866933760)** BabyElfAGI is an updated version of the BabyAGI autonomous agent framework featuring a skills class and dynamic task lists. <details><summary>More about</summary>
 
   It provides a modular architecture for building autonomous agents that can learn new skills and manage complex task lists via vector search.
@@ -2554,15 +2563,6 @@ _These are new or low-traffic entries being watched._
   _The exhausting cycle of benchmarking inference providers to shave a few milliseconds off every token response._
 
   `inference` `llm` `api-provider` `generative-ai`
-  </details>
-
-- **[Gemini (Google)](https://deepmind.google/models/gemini)** Google's multimodal frontier intelligence family of models, including Gemini 3.5 Flash and Pro. <details><summary>More about</summary>
-
-  These models power high-performance agentic workflows, long-context reasoning, and multimodal task execution across various developer tools.
-
-  _It's another massive model family to benchmark before the next one drops in six months._
-
-  `multimodal` `agentic-workflows` `long-context` `frontier-models`
   </details>
 
 - **[LangChain](https://langchain.com)** LangChain provides open-source frameworks and a platform for developers to build, test, and deploy reliable AI agents. <details><summary>More about</summary>

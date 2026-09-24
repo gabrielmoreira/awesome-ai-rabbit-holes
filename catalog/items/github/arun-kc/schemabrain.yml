@@ -59,23 +59,23 @@ metadata:
       fetched_at: "2026-09-21T04:13:48.333Z"
       bytes: 40154
 insights:
-  summary: A read-only trust and intelligence layer between AI agents and databases that provides a semantic knowledge graph, PII protection, and a cryptographic audit log.
-  why_it_matters: It removes the risk of giving agents raw database connection strings by ensuring the agent never writes SQL and cannot access sensitive PII.
-  mental_damage: Finally, a way to stop having a recurring nightmare about your coding agent accidentally dropping your production tables while trying to 'optimize' a join.
+  summary: A read-only MCP server that acts as a semantic and security layer between AI agents and databases.
+  why_it_matters: It enables developers to safely grant AI agents access to databases by enforcing read-only constraints, preventing PII leaks, and maintaining tamper-evident audit logs.
+  mental_damage: Because the only thing scarier than an agent hallucinating a join is an agent hallucinating a 'DROP TABLE' command.
   tags:
     - mcp
     - database-security
-    - knowledge-graph
-    - pii-protection
-    - audit-log
+    - semantic-layer
+    - ai-agents
+    - postgresql
   confidence: high
 curation:
   status: included
-  reason: The product is fundamentally an MCP server that acts as a governed bridge to databases, making MCP its primary product identity.
+  reason: The tool is built as an MCP-native server that exposes database capabilities to agents, fitting the core definition of an MCP server.
   evidence:
-    - Repo description explicitly states 'MCP-native'.
-    - README lists tools for Claude Desktop, Claude Code, Cursor, and Windsurf via MCP.
-    - Appears in awesome-mcp-servers under 'Server Implementations > Databases'.
+    - Description explicitly identifies as 'MCP-native'
+    - Works with Claude Desktop, Cursor, and other MCP hosts
+    - Provides tools for database interaction via the Model Context Protocol
 placement:
   primary_category: mcp
   secondary_categories: []
@@ -96,9 +96,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-18T05:42:41.162Z"
+    updated_at: "2026-09-24T04:17:23.680Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:6e97e29fccfdc2434dea6f0f4cca7af7af1ba223309b4c27623af1afc469e47c
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool is built as an MCP-native server that exposes database capabilities to agents, fitting the core definition of an MCP server.
+      decision_evidence:
+        - Description explicitly identifies as 'MCP-native'
+        - Works with Claude Desktop, Cursor, and other MCP hosts
+        - Provides tools for database interaction via the Model Context Protocol
+      category_candidates:
+        - mcp
+        - memory-and-context
+      contrastive_reason: Choose mcp over memory-and-context because the product's primary identity is an MCP server providing database tools, and the instructions state that MCP identity wins over the capability domain.
+      review_reason: null
+      review_resume_lifecycle: null

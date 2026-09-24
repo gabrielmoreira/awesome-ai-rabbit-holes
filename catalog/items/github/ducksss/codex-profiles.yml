@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://github.com/ducksss/codex-profiles
         surrounding_text: "- **[codex-profiles](https://github.com/Ducksss/codex-profiles)** `⭐ 26` — Bash CLI helper for switching OpenAI Codex CLI/Desktop accounts via isolated `CODEX_HOME` profiles; Homebrew install with `brew install Ducksss/tap/codex-profile`. MIT, no token copying."
         confidence: high
+    - id: discovery__github__ducksss__codex-profiles__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-09-24T04:12:55.276Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: codex-profiles
+        extracted_url: https://github.com/ducksss/codex-profiles
+        surrounding_text: "- **[codex-profiles](https://github.com/Ducksss/codex-profiles)** – Open-source helper for switching OpenAI Codex CLI and Desktop accounts with isolated `CODEX_HOME` profiles instead of copying auth files."
+        confidence: high
 metadata:
   github:
     stars: 146
@@ -87,7 +102,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-06-18T05:40:04.066Z"
+    updated_at: "2026-09-24T04:12:55.277Z"
     cause: null
     next_retry_at: null
   stars:
@@ -97,7 +112,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-21T04:14:01.562Z"
+    updated_at: "2026-09-24T04:13:12.444Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

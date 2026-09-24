@@ -36,22 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated blog and resource hub covering AIGC developments, agent implementation, and prompt engineering applications.
-  why_it_matters: Provides qualitative insights and deep dives into agentic workflows and practical prompt applications that abstract high-level concepts into actionable knowledge.
-  mental_damage: A constant reminder that you're likely three tutorials behind on the latest LLM paradigm shift.
+  summary: GbyAI is a Chinese-language AIGC content hub featuring articles, series, and guides about agent implementation, prompt engineering, and AI news.
+  why_it_matters: It provides developers with curated, practical knowledge on building and applying AI agents and prompts, filling a gap in accessible, real-world AIGC tutorials.
+  mental_damage: Another content site promising 'deep agent implementation' while the real work is buried under 10,000 half-finished GPTs.
   tags:
-    - ai-tutorials
-    - agent-insights
+    - aigc-tutorials
+    - agent-implementation
     - prompt-engineering
-    - aigc-resources
+    - ai-news
+    - chinese-content
   confidence: high
 curation:
   status: excluded
-  reason: The project is a personal blog/media site focused on tutorials and commentary rather than a standalone developer tool or utility.
+  reason: The project is primarily a content publication platform, not a developer-facing tool that changes how code is written or executed.
   evidence:
-    - Website structure consists of articles, series, and tutorials (e.g., 'AIPM skills tree', 'LLM paper reading')
-    - Content focuses on learning/understanding rather than providing a functional tool/SDK/extension
-    - Scraped site context identifies it as a collection of articles and guides
+    - Homepage excerpt shows it is a content hub with sections for articles, series, and product-hunt listings, not a coding tool.
+    - Scraped context describes it as 'exploring AIGC' and 'understanding deep agent implementation' — educational content, not a product.
+    - Source-list context places it in 'awesome-LLM-resources' under 'Tutorial' section, confirming its role as a learning resource rather than a tool.
 placement:
   primary_category: null
   section: null
@@ -70,24 +71,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:46:22.491Z"
+    updated_at: "2026-09-24T04:40:09.830Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:34a6763af92b6223b74641949569bf7a3ee462e2c54749a603df817cdb9a7f28
+      category_rules_version: c367d6101132
+      input_hash: sha256:841e68a6ef77523bacd778a04e9fa17617f33547a0f698aea2f54e3bdfa345b0
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is a personal blog/media site focused on tutorials and commentary rather than a standalone developer tool or utility.
+      decision_reason: The project is primarily a content publication platform, not a developer-facing tool that changes how code is written or executed.
       decision_evidence:
-        - Website structure consists of articles, series, and tutorials (e.g., 'AIPM skills tree', 'LLM paper reading')
-        - Content focuses on learning/understanding rather than providing a functional tool/SDK/extension
-        - Scraped site context identifies it as a collection of articles and guides
+        - Homepage excerpt shows it is a content hub with sections for articles, series, and product-hunt listings, not a coding tool.
+        - Scraped context describes it as 'exploring AIGC' and 'understanding deep agent implementation' — educational content, not a product.
+        - Source-list context places it in 'awesome-LLM-resources' under 'Tutorial' section, confirming its role as a learning resource rather than a tool.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

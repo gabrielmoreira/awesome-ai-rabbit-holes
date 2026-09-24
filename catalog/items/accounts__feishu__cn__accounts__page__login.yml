@@ -36,22 +36,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Login page for Feishu (Lark) enterprise accounts.
-  why_it_matters: It does not matter for AI developer tooling; this is a generic corporate authentication surface with no scoped coding, agent, or infrastructure functionality.
-  mental_damage: We are now officially evaluating enterprise SSO portals as potential coding agents, which is either a bold new category or a sign that the list has gotten away from us.
-  tags:
-    - feishu
-    - login-page
-    - sso
-    - not-a-tool
+  summary: A login page for the Feishu productivity platform.
+  why_it_matters: It provides no developer utility or AI-related functionality.
+  mental_damage: The ecosystem has finally reached the point where we are reviewing authentication endpoints.
+  tags: []
   confidence: high
 curation:
   status: excluded
-  reason: This is a generic enterprise login page, not a developer-facing AI tool, framework, extension, directory, or publication.
+  reason: The provided URL is a standard login page for Feishu and is not a developer tool, library, or AI resource.
   evidence:
-    - URL is https://accounts.feishu.cn/accounts/page/login, a Feishu/Lark authentication page with no repo, README, or product description
-    - Source-list context places it under 'Course' in an LLM resources list, but the link itself is just an authentication gateway with no course or AI tooling content
-    - No stars, topics, license, or activity signals suggest any relevance to coding agents, IDEs, frameworks, or adjacent developer infrastructure
+    - The URL points to an account login page (feishu.cn)
+    - No repo description, README, or technical context is provided
 placement:
   primary_category: null
   section: null
@@ -70,24 +65,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:12:50.188Z"
+    updated_at: "2026-09-24T04:29:52.390Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:e21c05bc31ca22284ad1a428f37b214a2a8ab2447b96fdd5f4e8cceeb62a5aef
+      category_rules_version: c367d6101132
+      input_hash: sha256:009e18bfbcd68e1886aeab443d1e98b66de42b173cf6b7843a9cccc8eb4bd83c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a generic enterprise login page, not a developer-facing AI tool, framework, extension, directory, or publication.
+      decision_reason: The provided URL is a standard login page for Feishu and is not a developer tool, library, or AI resource.
       decision_evidence:
-        - URL is https://accounts.feishu.cn/accounts/page/login, a Feishu/Lark authentication page with no repo, README, or product description
-        - Source-list context places it under 'Course' in an LLM resources list, but the link itself is just an authentication gateway with no course or AI tooling content
-        - No stars, topics, license, or activity signals suggest any relevance to coding agents, IDEs, frameworks, or adjacent developer infrastructure
+        - The URL points to an account login page (feishu.cn)
+        - No repo description, README, or technical context is provided
       category_candidates: []
       contrastive_reason: null
       review_reason: null

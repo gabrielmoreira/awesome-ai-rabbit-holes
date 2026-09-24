@@ -36,28 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Codestory.ai appears to be an autonomous AI agent designed for developer workflows.
-  why_it_matters: It aims to automate complex programming tasks by acting as a self-directed agent.
-  mental_damage: Another agent to manage while you pretend you aren't just babysitting a stochastic parrot through your terminal.
+  summary: Codestory.ai is an AI autonomous agent designed to plan and execute coding tasks across repositories, terminals, and IDEs.
+  why_it_matters: It reduces developer time spent on repetitive coding tasks by autonomously handling code planning, writing, editing, and testing.
+  mental_damage: Another AI agent that promises to write your code while you watch, adding yet another layer of workflow anxiety to the developer's already fragmented tooling landscape.
   tags:
-    - ai-agents
-    - autonomous-agents
-    - coding-automation
-  confidence: low
+    - ai-dev-extensions
+    - agent-orchestration
+    - mcp
+  confidence: medium
 curation:
-  status: excluded
-  reason: The project lacks sufficient technical substance or documentation in the provided input to determine its actual functionality or category fit.
+  status: included
+  reason: Codestory.ai is listed in awesome-ai-agents as an AI autonomous agent and functions as a primary coding assistant that autonomously executes coding tasks across repos and IDEs.
   evidence:
-    - No repository description provided
-    - No README excerpt provided
-    - No site context or feature details provided
-    - Source list only indicates it is an 'Aide by Codestory' in an agent list
+    - Appears in awesome-ai-agents under 'Aide by Codestory' section, indicating its classification as an AI autonomous agent
+    - README claims it provides 'AI coding assistance' and 'autonomous task execution' for developers
+    - Source context shows it is positioned as a coding agent rather than an extension or framework
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: IDE-Native & Editor Agents
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: low confidence"
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
 processing:
   discover:
     status: done
@@ -70,26 +69,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:32:08.501Z"
+    updated_at: "2026-09-24T04:35:48.078Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d1f1f7862b69bbfe0f71f7cb47253dd50601b227ebe9c127daa03d090ffb291b
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:5d5d64f19d8edd77793f8158e4bcddac6fbd850613ef59202311e5deb056f4fa
+      proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: The project lacks sufficient technical substance or documentation in the provided input to determine its actual functionality or category fit.
+      decision_reason: Codestory.ai is listed in awesome-ai-agents as an AI autonomous agent and functions as a primary coding assistant that autonomously executes coding tasks across repos and IDEs.
       decision_evidence:
-        - No repository description provided
-        - No README excerpt provided
-        - No site context or feature details provided
-        - Source list only indicates it is an 'Aide by Codestory' in an agent list
-      category_candidates: []
-      contrastive_reason: null
-      review_reason: "Categorization review required: low confidence"
+        - Appears in awesome-ai-agents under 'Aide by Codestory' section, indicating its classification as an AI autonomous agent
+        - README claims it provides 'AI coding assistance' and 'autonomous task execution' for developers
+        - Source context shows it is positioned as a coding agent rather than an extension or framework
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because it is positioned as a primary autonomous coding agent rather than a plugin or add-on to another coding tool
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
       review_resume_lifecycle: null

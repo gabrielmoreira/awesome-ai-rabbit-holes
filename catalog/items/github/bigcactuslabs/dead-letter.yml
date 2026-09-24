@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 7
+    stars: 8
     forks: 0
     license: NOASSERTION
     archived: false
     full_name: BigCactusLabs/dead-letter
     html_url: https://github.com/BigCactusLabs/dead-letter
     created_at: "2026-03-26T02:02:11Z"
-    pushed_at: "2026-08-31T17:37:44Z"
+    pushed_at: "2026-09-24T04:10:16Z"
     description: Convert .eml email exports to Markdown with YAML front matter
     homepage: https://pypi.org/project/dead-letter/
     topics:
@@ -52,10 +52,10 @@ metadata:
       - python
       - rag
       - yaml-frontmatter
-    last_checked_at: "2026-09-07T04:13:33.699Z"
+    last_checked_at: "2026-09-24T04:12:58.993Z"
     readme:
-      fetched_at: "2026-09-07T04:13:33.699Z"
-      bytes: 13235
+      fetched_at: "2026-09-24T04:12:58.993Z"
+      bytes: 21827
 insights:
   summary: A CLI tool and MCP server that converts.eml email exports into Markdown with YAML front matter.
   why_it_matters: It cleanses noisy, multipart MIME email data into structured Markdown, reducing token overhead and simplifying ingestion into RAG pipelines or LLM contexts.
@@ -88,11 +88,9 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-09-21T04:13:58.484Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for bigcactuslabs/dead-letter
+    status: done
+    updated_at: "2026-09-24T04:12:58.993Z"
+    cause: null
     next_retry_at: null
   categorize:
     status: skipped

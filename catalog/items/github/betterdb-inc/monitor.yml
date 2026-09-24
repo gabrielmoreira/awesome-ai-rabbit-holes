@@ -24,27 +24,31 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1299
-    forks: 83
+    stars: 1301
+    forks: 81
     license: NOASSERTION
     archived: false
     full_name: BetterDB-inc/monitor
     html_url: https://github.com/BetterDB-inc/monitor
     created_at: "2025-12-29T16:47:38Z"
-    pushed_at: "2026-09-05T15:27:31Z"
+    pushed_at: "2026-09-23T15:06:55Z"
     description: Real-time monitoring, slowlog analysis, and audit trails for Valkey and Redis
     homepage: https://betterdb.com
     topics:
+      - dragonfly
+      - mcp
+      - mcp-server
       - metrics
       - monitoring
-      - obsevability
+      - observability
+      - opentelemetry
       - prometheus
       - redis
       - valkey
-    last_checked_at: "2026-09-07T04:13:33.058Z"
+    last_checked_at: "2026-09-24T04:12:58.236Z"
     readme:
-      fetched_at: "2026-09-07T04:13:33.058Z"
-      bytes: 22117
+      fetched_at: "2026-09-24T04:12:58.236Z"
+      bytes: 22924
 insights:
   summary: Real-time monitoring, slowlog analysis, and audit trails for Valkey and Redis databases.
   why_it_matters: Developers can observe and debug Valkey/Redis performance and usage patterns in real-time.
@@ -76,11 +80,9 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-09-21T04:13:57.239Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for betterdb-inc/monitor
+    status: done
+    updated_at: "2026-09-24T04:12:58.236Z"
+    cause: null
     next_retry_at: null
   categorize:
     status: skipped

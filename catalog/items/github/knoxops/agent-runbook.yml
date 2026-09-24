@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://github.com/knoxops/agent-runbook
         surrounding_text: "- **[agent-runbook](https://github.com/KnoxOps/agent-runbook)** `⭐ 24` — Python CLI that compiles contract-based YAML runbooks into SKILL.md files for Claude Code and Codex agents. Define multi-step workflows with loops, branching, parallelism, checkpoints, and file-based state passing between steps. `pip install git+https://github.com/KnoxOps/agent-runbook.git`"
         confidence: high
+    - id: discovery__github__knoxops__agent-runbook__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-09-24T04:12:55.276Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: agent-runbook
+        extracted_url: https://github.com/knoxops/agent-runbook
+        surrounding_text: "- **[agent-runbook](https://github.com/KnoxOps/agent-runbook)** – Python CLI that compiles contract-based YAML runbooks into SKILL.md files for Claude Code and Codex agents. Define multi-step agent workflows with loops, branching, parallelism, and file-based state passing — write the runbook once, generate executable SKILL.md with one command. `pip install git+https://github.com/KnoxOps/agent-runbook.git`"
+        confidence: high
 metadata:
   github:
     stars: 17
@@ -73,7 +88,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-07-02T05:22:20.471Z"
+    updated_at: "2026-09-24T04:12:55.277Z"
     cause: null
     next_retry_at: null
   stars:
@@ -83,7 +98,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-21T04:14:01.563Z"
+    updated_at: "2026-09-24T04:13:12.445Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

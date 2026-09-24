@@ -188,12 +188,3 @@ _These are new or low-traffic entries being watched._
 
   `ai-community` `agent-ecosystem` `directory` `open-source` `model-hub`
   </details>
-
-- **[X4JWnZnxPb](https://discord.com/invite/X4JWnZnxPb)** The community Discord server for CrewAI, a framework designed for orchestrating role-playing, autonomous AI agents. <details><summary>More about</summary>
-
-  It provides a space for developers to discuss implementation details and community support while building multi-agent orchestration workflows.
-
-  _Another community to join while you wait for your multi-agent swarm to figure out how to write a simple Python script._
-
-  `community` `crewai` `multi-agent` `orchestration` `discord`
-  </details>

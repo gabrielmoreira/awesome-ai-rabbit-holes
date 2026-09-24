@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://github.com/knaisoma/data-olympus
         surrounding_text: "- **[Data Olympus](https://github.com/knaisoma/data-olympus)** `⭐ 13` — Governance-grade project knowledge MCP server and CLI for coding agents; accepted rules, proposals, validity windows, and supersession-aware retrieval keep durable context reviewable. Apache-2.0."
         confidence: high
+    - id: discovery__github__knaisoma__data-olympus__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-09-24T04:12:55.276Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: Data Olympus
+        extracted_url: https://github.com/knaisoma/data-olympus
+        surrounding_text: "- **[Data Olympus](https://github.com/knaisoma/data-olympus)** – Governed project knowledge for AI coding agents via MCP. Agents can propose learnings, humans promote accepted guidance, and retrieval filters out expired or superseded rules before they enter future coding sessions."
+        confidence: high
 metadata:
   github:
     stars: 18
@@ -73,7 +88,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.715Z"
+    updated_at: "2026-09-24T04:12:55.277Z"
     cause: null
     next_retry_at: null
   stars:
@@ -83,7 +98,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-21T04:14:01.563Z"
+    updated_at: "2026-09-24T04:13:12.445Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

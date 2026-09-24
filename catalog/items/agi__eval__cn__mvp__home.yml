@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agi__eval__cn__mvp__home__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,36 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A resource directory providing curated collections of LLM materials, including multi-modal generation, agents, and
-    evaluation frameworks.
-  why_it_matters: It serves as a centralized starting point for navigating the massive influx of LLM-related research and tooling.
-  mental_damage: >-
-    Because why spend ten minutes searching GitHub when you can spend three hours browsing an endless list of links that
-    also lead to GitHub?
+  summary: A benchmarking platform for measuring AI and AGI model performance.
+  why_it_matters: It provides developers with a structured way to quantify model capabilities and track performance against specific intelligence metrics.
+  mental_damage: Another leaderboard to obsess over while waiting for the next model to render current benchmarks obsolete.
   tags:
-    - llm-resources
-    - curated-list
-    - ai-research
-    - agent-resources
-    - evaluations
+    - evals
+    - benchmarking
+    - agi
+    - llm
   confidence: medium
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: The project is explicitly focused on the evaluation and benchmarking of AI models.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - Project name is AGI-Eval
+    - Listed in the 'Evaluation' section of the awesome-LLM-resources directory
 placement:
-  primary_category: null
+  primary_category: evals
   secondary_categories: []
-  section: null
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.658Z'
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,28 +70,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-20T15:18:05.138Z'
+    updated_at: "2026-09-24T04:32:54.317Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:071fba2d367209c93c60c6f00f49fc1b0dc4401f112fbb1d137b4512c9150ae4
-      proposed_primary_category: awesome-awesomes
+      category_rules_version: c367d6101132
+      input_hash: sha256:ec8cca2b0d8021730fd2585c8ba8b948857ac3305aa0481e0bf212c3758dc7c5
+      proposed_primary_category: evals
       disagreement: false
-      decision_reason: The project is a curated directory of LLM resources rather than a functional development tool.
+      decision_reason: The project is explicitly focused on the evaluation and benchmarking of AI models.
       decision_evidence:
-        - Source-list context identifies it as a 'Summary of the world's best LLM resources'
-        - Scraped site context refers to the project as 'AGI-Eval'
+        - Project name is AGI-Eval
+        - Listed in the 'Evaluation' section of the awesome-LLM-resources directory
       category_candidates:
-        - awesome-awesomes
         - evals
-      contrastive_reason: >-
-        Choose awesome-awesomes over evals because the tool is a directory of resources rather than an active
-        benchmarking framework.
+        - ai-frameworks
+      contrastive_reason: Choose evals over ai-frameworks because its core identity is measuring model behavior rather than being a library used to construct applications.
       review_reason: null
       review_resume_lifecycle: null

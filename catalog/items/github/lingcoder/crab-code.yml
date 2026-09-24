@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://github.com/lingcoder/crab-code
         surrounding_text: "- **[Crab Code](https://github.com/lingcoder/crab-code)** `⭐ 55` — Rust-native agentic coding CLI aligned with Claude Code's toolset and permission model; works with any LLM provider (Anthropic/OpenAI/DeepSeek/Bedrock/Vertex). 27 crates, 4,700+ tests, layered config system. Apache-2.0."
         confidence: high
+    - id: discovery__github__lingcoder__crab-code__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-09-24T04:12:55.276Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - CLI Tools
+        anchor_text: Crab Code
+        extracted_url: https://github.com/crabforge/crab-code
+        surrounding_text: "- **[Crab Code](https://github.com/crabforge/crab-code)** – Rust-native agentic coding CLI supporting any LLM provider with multi-entry-point architecture (CLI/IDE/Web/Desktop). Apache-2.0."
+        confidence: high
 metadata:
   github:
     stars: 74
@@ -87,7 +102,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.627Z"
+    updated_at: "2026-09-24T04:12:55.278Z"
     cause: null
     next_retry_at: null
   stars:
@@ -97,7 +112,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-21T04:14:01.563Z"
+    updated_at: "2026-09-24T04:13:12.446Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

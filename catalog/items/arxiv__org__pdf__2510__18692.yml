@@ -68,10 +68,12 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: done
-    updated_at: "2026-07-20T15:23:07.765Z"
-    cause: null
-    attempts: 2
+    status: deferred
+    updated_at: "2026-09-24T04:34:24.968Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for arxiv__org__pdf__2510__18692: Invalid AI response structure: Included responses must rank primary_category first in category_candidates"
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
     next_retry_at: null

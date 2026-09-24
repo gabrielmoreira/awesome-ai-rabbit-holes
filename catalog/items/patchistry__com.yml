@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,21 +37,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A customizable apparel brand selling hats with interchangeable patches.
-  why_it_matters: It does not matter to software developers; it is a physical consumer product for customized headwear.
-  mental_damage: The anxiety of seeing a fashion brand accidentally land in a technical directory because someone saw the word 'concierge' or 'MCP' in a footer.
+  summary: A consumer e-commerce brand selling customizable snapback hats with interchangeable hook-and-loop patches.
+  why_it_matters: This product offers physical apparel rather than software development utilities or AI infrastructure.
+  mental_damage: Finally, a way to achieve the same level of modularity in your wardrobe as you have in your containerized microservices.
   tags:
     - fashion
-    - apparel
-    - custom-hats
+    - retail
+    - e-commerce
   confidence: high
 curation:
   status: excluded
-  reason: The product is a physical apparel store selling hats, not a software development tool or AI infrastructure.
+  reason: The product is a retail brand for physical headwear and is entirely outside the scope of software development tooling.
   evidence:
-    - Scraped site context describes 'interchangeable patches' and 'customized headwear'.
-    - Site sells physical products with shipping policies and 'gifts under $100'.
-    - The mention of 'Patchistry concierge' is a customer service bot for a clothing store, not a developer tool.
+    - Scraped site context describes 'interchangeable patches' and 'expressionwear'
+    - Product description focuses on physical snapback hats and 'Patchistry Fiber'
 placement:
   primary_category: null
   section: null
@@ -68,9 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-06-22T05:56:30.476Z"
+    updated_at: "2026-09-24T04:19:08.875Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:c2c2e8be5b055c824a3e3a65f475f5a746558732405194dc75a148a9b6ed12c4
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a retail brand for physical headwear and is entirely outside the scope of software development tooling.
+      decision_evidence:
+        - Scraped site context describes 'interchangeable patches' and 'expressionwear'
+        - Product description focuses on physical snapback hats and 'Patchistry Fiber'
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

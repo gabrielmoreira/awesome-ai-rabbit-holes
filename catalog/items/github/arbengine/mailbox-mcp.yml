@@ -47,23 +47,22 @@ metadata:
       fetched_at: "2026-09-21T04:13:45.548Z"
       bytes: 4273
 insights:
-  summary: Official MCP server for mailbox.bot, a physical postal mail API that allows AI agents to send and receive physical letters and packages.
-  why_it_matters: It provides a standardized protocol for agents to interact with the physical world via USPS, FedEx, and UPS, turning physical mail into agentic context.
-  mental_damage: We have finally reached the peak of the cycle where your AI agent can send a certified letter to your landlord to explain why the rent is late.
+  summary: An MCP server that enables AI agents to send physical postal mail and ingest inbound document scans via the mailbox.bot API.
+  why_it_matters: It provides a bridge for autonomous agents to interact with the physical world through services like certified mail and document retrieval.
+  mental_damage: We have officially reached the point where your LLM needs to handle its own certified mail and physical tax notices.
   tags:
     - mcp
-    - physical-api
+    - ai-agents
     - automation
-    - usps
-    - agents
+    - physical-world
+    - api
   confidence: high
 curation:
   status: included
-  reason: The product is a dedicated MCP server implementation providing a specific domain of capabilities (postal mail) to AI clients.
+  reason: The repository is a dedicated MCP server designed to expose specific domain capabilities (physical mail) via the Model Context Protocol.
   evidence:
-    - Repo description explicitly identifies it as an 'Official MCP server'
-    - README details the MCP manifest and hosted streamable HTTP transport
-    - Included in awesome-mcp-servers under 'Communication' section
+    - Repo description identifies it as the 'Official MCP server for mailbox.bot'
+    - README specifies it provides tools for sending letters, certified mail, and retrieving inbound document context via MCP
 placement:
   primary_category: mcp
   secondary_categories: []
@@ -84,9 +83,26 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-22T05:55:49.805Z"
+    updated_at: "2026-09-24T04:18:19.531Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:56a5fe01e2ee0657f8bb10d9cb33f63daad0dcf0e321d3daff4be5afc2524ef5
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The repository is a dedicated MCP server designed to expose specific domain capabilities (physical mail) via the Model Context Protocol.
+      decision_evidence:
+        - Repo description identifies it as the 'Official MCP server for mailbox.bot'
+        - README specifies it provides tools for sending letters, certified mail, and retrieving inbound document context via MCP
+      category_candidates:
+        - mcp
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because the product's primary identity is the MCP server implementation itself, rather than a plugin for a specific coding assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://github.com/harnessworks/harness-starter-kit
         surrounding_text: "- **[Harness Starter Kit](https://github.com/harnessworks/harness-starter-kit)** `⭐ 82` — Prompt-first harness engineering starter kit for adding durable agent instructions, drift checks, failure memory, and evaluation loops to repositories. MIT."
         confidence: high
+    - id: discovery__github__harnessworks__harness-starter-kit__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-09-24T04:12:55.276Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: harness-starter-kit
+        extracted_url: https://github.com/baskduf/harness-starter-kit
+        surrounding_text: "- **[harness-starter-kit](https://github.com/baskduf/harness-starter-kit)** – Prompt-first starter kit for turning repeated coding-agent instructions into durable repo rules, knowledge stores, feedback loops, and drift checks."
+        confidence: high
 metadata:
   github:
     stars: 106
@@ -73,7 +88,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-06-18T05:40:04.066Z"
+    updated_at: "2026-09-24T04:12:55.277Z"
     cause: null
     next_retry_at: null
   stars:
@@ -85,7 +100,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-21T04:14:01.562Z"
+    updated_at: "2026-09-24T04:13:12.445Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

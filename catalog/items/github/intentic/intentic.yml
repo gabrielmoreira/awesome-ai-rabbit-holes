@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://github.com/intentic/intentic
         surrounding_text: "- **[intentic](https://github.com/intentic/intentic)** `⭐ 26` — Self-hosted workspace that gives each coding agent a persistent sandbox on hardware you own: agents work in real checkouts in their own git worktrees behind PTY terminals, and you approve the riskier calls and read every diff before it lands. A Rust host agent pairs the machine over an outbound-only Cloudflare tunnel, so there are no inbound ports to open; the workspace opens in any browser or the desktop app. Runs Claude Code, Codex, Grok, Kimi Code, and Gemini on your own subscriptions. TypeScript, MIT."
         confidence: high
+    - id: discovery__github__intentic__intentic__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-09-24T04:12:55.276Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: intentic
+        extracted_url: https://github.com/intentic/intentic
+        surrounding_text: "- **[intentic](https://github.com/intentic/intentic)** – Self-hosted workspace that runs Claude Code, Codex, OpenCode, and Gemini CLI agents in parallel, each in its own Docker container and git worktree on hardware you own. Browser and mobile UI, terminals that survive disconnects, an editable sandbox Dockerfile, and per-file, per-hunk diff review before changes land. MIT, TypeScript."
+        confidence: high
 metadata:
   github:
     stars: null
@@ -56,7 +71,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-08-27T06:08:24.607Z"
+    updated_at: "2026-09-24T04:12:55.277Z"
     cause: null
     next_retry_at: null
   stars:
@@ -65,7 +80,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-09-21T04:14:01.563Z"
+    updated_at: "2026-09-24T04:13:12.445Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

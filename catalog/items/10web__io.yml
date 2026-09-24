@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__10web__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - App Builders
         anchor_text: 10Web
         extracted_url: https://10web.io
-        surrounding_text: '- **[10Web](https://10web.io/)** – AI-powered WordPress builder with automated design and optimization.'
+        surrounding_text: "- **[10Web](https://10web.io/)** – AI-powered WordPress builder with automated design and optimization."
         confidence: high
 metadata:
   github:
@@ -36,35 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    10Web is an AI agentic website builder that generates, edits, and deploys production-ready WordPress sites from
-    prompts and Figma imports, including ecommerce and managed hosting.
-  why_it_matters: >-
-    It gives developers and agencies a prompt-to-production scaffold for client sites and storefronts on managed
-    WordPress infrastructure, cutting frontend boilerplate.
-  mental_damage: >-
-    You vibe-code a gorgeous frontend in chat, then realize you're still managing PHP containers and a WooCommerce
-    plugin stack.
+  summary: An AI-powered website and WordPress builder that generates, optimizes, and hosts sites from prompts or Figma designs.
+  why_it_matters: It enables rapid scaffolding and deployment of production-ready WordPress and ecommerce sites through natural language and design-to-code workflows.
+  mental_damage: The 'vibe coding' promise suggests we're just one prompt away from never having to write a single CSS rule ever again.
   tags:
     - website-builder
     - wordpress
-    - prompt-to-site
     - ai-agents
     - ecommerce
+    - no-code
   confidence: high
 curation:
   status: included
-  reason: >-
-    It is a prompt-first site builder that uses specialized AI agents to scaffold and deploy full WordPress sites, which
-    matches the App Builders category and the Prompt-to-Site Builders section.
+  reason: It is a prompt-to-site product that generates deployable WordPress and ecommerce artifacts rather than acting as a coding assistant for existing repositories.
   evidence:
-    - >-
-      Scraped site touts an 'Agentic Website Builder' with AI agents that plan, execute, and refine to take a site from
-      prompt to production-ready.
-    - >-
-      Features include AI Website Builder Agent, AI Editor Agent, Ecommerce Agent, and managed WordPress hosting with
-      staging and SSL.
-    - Already curated in awesome-ai-coding-tools under the App Builders section.
+    - Generates production-ready WordPress sites and online stores from prompts.
+    - Offers Figma-to-webpage conversion and 'vibe coding' frontend generation.
+    - Features an agentic workflow for planning, executing, and refining site builds.
 placement:
   primary_category: app-builders
   secondary_categories: []
@@ -75,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.658Z'
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
@@ -84,35 +72,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-20T15:13:50.620Z'
+    updated_at: "2026-09-24T04:30:21.162Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:a155130950173ed3391d55f0db957c40a090e44b9631f27cf1e501b4e3e0afe6
+      category_rules_version: c367d6101132
+      input_hash: sha256:8e4efb50593dd73cd145b734fabaddd9257db37b4ee62b7c98dd4b9d516fdd0b
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: >-
-        It is a prompt-first site builder that uses specialized AI agents to scaffold and deploy full WordPress sites,
-        which matches the App Builders category and the Prompt-to-Site Builders section.
+      decision_reason: It is a prompt-to-site product that generates deployable WordPress and ecommerce artifacts rather than acting as a coding assistant for existing repositories.
       decision_evidence:
-        - >-
-          Scraped site touts an 'Agentic Website Builder' with AI agents that plan, execute, and refine to take a site
-          from prompt to production-ready.
-        - >-
-          Features include AI Website Builder Agent, AI Editor Agent, Ecommerce Agent, and managed WordPress hosting
-          with staging and SSL.
-        - Already curated in awesome-ai-coding-tools under the App Builders section.
+        - Generates production-ready WordPress sites and online stores from prompts.
+        - Offers Figma-to-webpage conversion and 'vibe coding' frontend generation.
+        - Features an agentic workflow for planning, executing, and refining site builds.
       category_candidates:
         - app-builders
-        - agent-orchestration
-      contrastive_reason: >-
-        Choose app-builders over agent-orchestration because the product is an end-user site-generation platform rather
-        than a multi-agent control plane or runtime workbench.
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because the primary output is a deployable, hosted website rather than edits to a developer's existing codebase.
       review_reason: null
       review_resume_lifecycle: null

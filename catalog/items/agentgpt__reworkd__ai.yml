@@ -51,22 +51,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A browser-based platform for assembling and deploying autonomous AI agents to complete general tasks such as research reports, travel planning, and study schedules.
-  why_it_matters: One of the early web interfaces for goal-based autonomous agents, but it targets end-user automation rather than software engineering workflows.
-  mental_damage: You get five free runs and your agent immediately spends them planning a Hawaiian vacation while your production backlog quietly festers.
-  tags:
-    - autonomous-agents
-    - browser-based
-    - task-automation
-    - reworkd
+  summary: A web-based platform for creating and deploying autonomous AI agents for general-purpose tasks.
+  why_it_matters: It serves as a consumer-facing agent deployment platform rather than a developer tool for building or managing AI workflows.
+  mental_damage: Watching an agent spend your API budget planning a trip to Hawaii while your production server is on fire.
+  tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The product is a consumer-facing autonomous agent web interface (travel, research, study planning) with no demonstrated developer-tooling identity or code-centric workflow, so it falls outside this catalog's scope.
+  reason: The product is a general-purpose agent platform aimed at end-user tasks like research and travel planning, lacking a primary identity as a developer-facing tool for coding, infrastructure, or agent orchestration.
   evidence:
-    - Scraped site showcases TravelGPT, ResearchGPT, and StudyGPT—general consumer tasks with no coding or repo interaction.
-    - Description frames the product as 'autonomous AI in your browser' for assembling agents, not as a coding assistant, orchestration platform, or developer framework.
-    - No repository metadata or code-first surface is provided to suggest a developer toolkit or SDK.
+    - Scraped site context shows consumer-focused examples like TravelGPT and StudyGPT
+    - The tool lacks a developer-centric interface such as an SDK, IDE extension, or CLI for building software
 placement:
   primary_category: null
   section: null
@@ -85,24 +80,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:17:40.648Z"
+    updated_at: "2026-09-24T04:32:49.233Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:214883f7cb4336d47687c085821fc23ea6577ad5d14c8c1b4def9d80cd9d96d5
+      category_rules_version: c367d6101132
+      input_hash: sha256:990c62ff1bcfbcb25d6bca2b54a109f49252899ddc02fdf5637f6206a75b81cc
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a consumer-facing autonomous agent web interface (travel, research, study planning) with no demonstrated developer-tooling identity or code-centric workflow, so it falls outside this catalog's scope.
+      decision_reason: The product is a general-purpose agent platform aimed at end-user tasks like research and travel planning, lacking a primary identity as a developer-facing tool for coding, infrastructure, or agent orchestration.
       decision_evidence:
-        - Scraped site showcases TravelGPT, ResearchGPT, and StudyGPT—general consumer tasks with no coding or repo interaction.
-        - Description frames the product as 'autonomous AI in your browser' for assembling agents, not as a coding assistant, orchestration platform, or developer framework.
-        - No repository metadata or code-first surface is provided to suggest a developer toolkit or SDK.
+        - Scraped site context shows consumer-focused examples like TravelGPT and StudyGPT
+        - The tool lacks a developer-centric interface such as an SDK, IDE extension, or CLI for building software
       category_candidates: []
       contrastive_reason: null
       review_reason: null

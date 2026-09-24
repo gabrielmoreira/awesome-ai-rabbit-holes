@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__memebo__at__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-07-16T05:04:46.712Z'
+      discovered_at: "2026-07-16T05:04:46.712Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,12 +19,7 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: memebo.at
         extracted_url: https://memebo.at
-        surrounding_text: >-
-          - [memebo-at/memeboat-mcp](https://github.com/memebo-at/memeboat-mcp) [![memebo-at/memeboat-mcp MCP
-          server](https://glama.ai/mcp/servers/memebo-at/memeboat-mcp/badges/score.svg)](https://glama.ai/mcp/servers/memebo-at/memeboat-mcp)
-          🎖️ 📇 ☁️ 🏠 🍎 🪟 🐧 - Create real, shareable memes from 25,000+ templates on [memebo.at](https://memebo.at).
-          Search the catalog, caption a template, get a live meme URL back. Free, anonymous, no API key. Remote server
-          at `https://memebo.at/mcp` or `npx -y memeboat-mcp`.
+        surrounding_text: "- [memebo-at/memeboat-mcp](https://github.com/memebo-at/memeboat-mcp) [![memebo-at/memeboat-mcp MCP server](https://glama.ai/mcp/servers/memebo-at/memeboat-mcp/badges/score.svg)](https://glama.ai/mcp/servers/memebo-at/memeboat-mcp) 🎖️ 📇 ☁️ 🏠 🍎 🪟 🐧 - Create real, shareable memes from 25,000+ templates on [memebo.at](https://memebo.at). Search the catalog, caption a template, get a live meme URL back. Free, anonymous, no API key. Remote server at `https://memebo.at/mcp` or `npx -y memeboat-mcp`."
         confidence: high
 metadata:
   github:
@@ -32,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -40,34 +37,29 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A collection of Model Context Protocol (MCP) server implementations.
-  why_it_matters: >-
-    Provides a directory of pre-built tools that allow AI assistants to interact with external APIs and data sources via
-    the Model Context Protocol.
-  mental_damage: Another layer of abstraction to manage in your inevitable descent into agentic spaghetti.
+  summary: Memeboat is a free online meme generator offering 25,000+ templates for creating and downloading memes without registration or AI features.
+  why_it_matters: It does not matter to developers as an AI-assisted development tool because it lacks any AI functionality, code-related features, or developer workflow integration.
+  mental_damage: Another non-AI tool mistakenly appearing in an MCP server list, adding to the noise of verifying whether awesome list entries are actually relevant to AI development.
   tags:
-    - mcp
-    - tools
-    - integrations
-    - protocols
-  confidence: medium
+    - meme-generator
+  confidence: high
 curation:
-  status: included
-  reason: The project is specifically a collection of MCP servers, making MCP the core product identity.
+  status: excluded
+  reason: Excluded because it is a consumer-focused meme generator with no AI, developer tooling, or MCP server functionality, despite its listing in awesome-mcp-servers lacking evidentiary support.
   evidence:
-    - Appears in awesome-mcp-servers
-    - Purpose is a collection of MCP servers
+    - Scraped site context describes it as a 'Free Online Meme Generator' with 25,000+ templates, no sign-up, and zero mention of AI, MCP, or developer features.
+    - Source-list context shows it in awesome-mcp-servers under Art & Culture, but the site itself provides no evidence of being an MCP server or having AI capabilities.
 placement:
-  primary_category: mcp
+  primary_category: null
   secondary_categories: []
-  section: Registries & Discovery
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-07-16T05:04:46.716Z'
+    updated_at: "2026-07-16T05:04:46.716Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,9 +68,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-16T05:20:20.599Z'
+    updated_at: "2026-09-24T04:28:29.953Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/nvidia/nemotron-3-120b-a12b
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:bb14b9efb289685e4aa36a6c201bf6790da8a58e85ca40bb9879b3d279231c68
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Excluded because it is a consumer-focused meme generator with no AI, developer tooling, or MCP server functionality, despite its listing in awesome-mcp-servers lacking evidentiary support.
+      decision_evidence:
+        - Scraped site context describes it as a 'Free Online Meme Generator' with 25,000+ templates, no sign-up, and zero mention of AI, MCP, or developer features.
+        - Source-list context shows it in awesome-mcp-servers under Art & Culture, but the site itself provides no evidence of being an MCP server or having AI capabilities.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

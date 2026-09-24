@@ -66,15 +66,15 @@ metadata:
       fetched_at: "2026-09-21T04:13:48.140Z"
       bytes: 71986
 insights:
-  summary: A local-first, provider-neutral coding agent available as a terminal interface or a hosted web GUI.
-  why_it_matters: It offers a high-trust execution environment with sandboxed shell calls, tamper-evident audit logs, and the ability to swap LLM providers without changing code.
-  mental_damage: The promise of a 'small enough to audit' codebase provides a comforting illusion of control while an autonomous agent rewrites your production config in a sandbox you hope is actually locked.
+  summary: A CLI security runtime that scans, repairs, and verifies code changes by generating independent, offline-verifiable fix records.
+  why_it_matters: It provides an objective verification loop to ensure AI-generated security patches actually resolve vulnerabilities without relying on the model's own self-assessment.
+  mental_damage: Because we have officially reached the stage of the AI revolution where we need automated systems to police other automated systems just to feel safe again.
   tags:
-    - local-ai
+    - security
+    - verification
     - cli
-    - coding-agent
-    - audit-trail
-    - provider-agnostic
+    - devsecops
+    - ai-agents
   confidence: high
 curation:
   status: included
@@ -86,10 +86,10 @@ curation:
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Terminal & CLI Agents
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'extensions-and-addons'"
 processing:
   discover:
     status: done
@@ -103,9 +103,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-18T05:42:20.220Z"
+    updated_at: "2026-09-24T04:17:09.012Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:291dc35e3b7d43088d983a046cd5fe241bf58de73774a7537560afc4073a007d
+      proposed_primary_category: extensions-and-addons
+      disagreement: true
+      decision_reason: It functions as a specialized security verification layer that plugs into the agentic coding workflow to validate remediation.
+      decision_evidence:
+        - README describes it as an 'independent security runtime between code generation and merge'
+        - Explicitly states it is not an attempt to compete with general-purpose coding agents
+        - Uses independent scanning and testing to produce 'Verified Fix Records'
+      category_candidates:
+        - extensions-and-addons
+        - coding-agents
+      contrastive_reason: Choose extensions-and-addons over coding-agents because it is a specialized security capability designed to augment the agentic workflow rather than serving as a primary, general-purpose coding assistant.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'extensions-and-addons'"
+      review_resume_lifecycle: null

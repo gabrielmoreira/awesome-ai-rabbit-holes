@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Google Form used by FoundryLabs, Inc. to collect submissions for an AI agent directory.
-  why_it_matters: It serves as an intake mechanism for curators to discover and organize new AI agents and frameworks.
-  mental_damage: One more form to fill out in the endless cycle of ecosystem discovery.
+  summary: A Google Form for submitting AI products to the awesome-ai-agents list.
+  why_it_matters: It helps developers discover and contribute to a curated directory of AI agents and related tools.
+  mental_damage: Yet another form to fill out just to get your AI agent listed somewhere, adding to the infinite scroll of submission fatigue.
   tags:
     - directory
-    - intake-form
-    - agent-discovery
+    - submission
+    - awesome-list
   confidence: high
 curation:
   status: excluded
-  reason: The input is a submission form for a directory rather than a standalone developer tool or resource.
+  reason: The input is a documentation or submission page (Google Form) for contributing to a list, not a standalone AI developer tool or product itself.
   evidence:
-    - URL is a Google Form
-    - Content is a request for product name, tagline, and category
-    - The item is an auxiliary resource page/form for a directory
+    - The URL is a Google Form for submitting new products to the awesome-ai-agents list
+    - "The page title and description indicate it is a contribution form: 'Thanks for taking the time to contribute with new products'"
+    - The form collects product metadata (name, tagline, category, links, etc.) for inclusion in a directory
 placement:
   primary_category: null
   section: null
@@ -69,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:40:25.287Z"
+    updated_at: "2026-09-24T04:38:25.684Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:ceaed0ac849773bc32203e9dbc5e903ec5881056fd25fda5826bd27e9de1973e
+      category_rules_version: c367d6101132
+      input_hash: sha256:fbada8f55be5c08c025ccfdbbcac2f652133c83fa2c75a2190a8b8bee1e988d6
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is a submission form for a directory rather than a standalone developer tool or resource.
+      decision_reason: The input is a documentation or submission page (Google Form) for contributing to a list, not a standalone AI developer tool or product itself.
       decision_evidence:
-        - URL is a Google Form
-        - Content is a request for product name, tagline, and category
-        - The item is an auxiliary resource page/form for a directory
+        - The URL is a Google Form for submitting new products to the awesome-ai-agents list
+        - "The page title and description indicate it is a contribution form: 'Thanks for taking the time to contribute with new products'"
+        - The form collects product metadata (name, tagline, category, links, etc.) for inclusion in a directory
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,21 +37,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A tool listed as a 'Client Challenge' on a Nature IDP domain, appearing in an AI agents list under a 'data-to-paper' context.
-  why_it_matters: Potentially automates the transition from data analysis to academic paper drafting using AI agents.
-  mental_damage: "The peak of academic productivity: an AI that turns your data into a paper, so you can spend more time worrying about whether the reviewers will just use an AI to read it."
-  tags:
-    - research
-    - academic-ai
-    - data-to-paper
+  summary: ""
+  why_it_matters: ""
+  mental_damage: ""
+  tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The provided context is insufficient to determine if this is a developer tool; the primary page failed to load, and the source list suggests it is a domain-specific research tool (data-to-paper) rather than general software development infrastructure.
+  reason: The link points to a specific 'Client Challenge' landing page on a scientific publishing platform rather than a standalone developer tool, repository, or curated resource.
   evidence:
-    - Scraped site context shows a browser error/failed load
-    - Source-list section is 'data-to-paper', suggesting a research-centric rather than developer-centric utility
-    - No repo description or README provided to confirm developer-facing features
+    - The URL is a non-repo landing page on nature.com
+    - Source context indicates it is a specific research-themed 'Client Challenge' rather than a general developer utility
+    - The scraped site content is inaccessible/empty, providing no evidence of a functional tool
 placement:
   primary_category: null
   section: null
@@ -68,9 +67,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-06-25T05:28:37.613Z"
+    updated_at: "2026-09-24T04:19:28.570Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:96a436713c3d6d6def109c75f1556def789ef1c8ea13ef973056f100def42c19
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The link points to a specific 'Client Challenge' landing page on a scientific publishing platform rather than a standalone developer tool, repository, or curated resource.
+      decision_evidence:
+        - The URL is a non-repo landing page on nature.com
+        - Source context indicates it is a specific research-themed 'Client Challenge' rather than a general developer utility
+        - The scraped site content is inaccessible/empty, providing no evidence of a functional tool
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

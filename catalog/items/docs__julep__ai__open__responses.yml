@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__julep__ai__open__responses__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,10 +19,7 @@ provenance:
           - Frameworks/Servers for Serving
         anchor_text: Open Responses
         extracted_url: https://docs.julep.ai/open-responses
-        surrounding_text: >-
-          | [Open Responses](https://docs.julep.ai/open-responses) | Serverless open-source platform for building
-          long-running LLM agents with tool use. | ![GitHub
-          Badge](https://img.shields.io/github/stars/julep-ai/julep.svg?style=flat-square) |
+        surrounding_text: "| [Open Responses](https://docs.julep.ai/open-responses) | Serverless open-source platform for building long-running LLM agents with tool use. | ![GitHub Badge](https://img.shields.io/github/stars/julep-ai/julep.svg?style=flat-square) |"
         confidence: high
 metadata:
   github:
@@ -40,21 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Open-responses is a serving framework for managing and scaling AI agent responses.
-  why_it_matters: >-
-    It provides the infrastructure needed to move from simple chat prompts to managed, scalable agent-based application
-    responses.
-  mental_damage: Just one more layer of abstraction to manage before you can finally ship that unreliable agentic workflow.
+  summary: open-responses is a Julep.ai documentation page describing a feature for handling streaming or asynchronous responses in AI agent workflows.
+  why_it_matters: It helps developers manage real-time or deferred AI responses in agent systems, improving UX in interactive applications.
+  mental_damage: Another doc page promising seamless async UX while you debug why your agent keeps hanging on the third turn.
   tags:
-    - agent-serving
-    - llmops
-    - agent-infrastructure
-  confidence: medium
+    - ai-agents
+    - workflow
+    - documentation
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: The input is a documentation page, not a standalone product, tool, or developer-facing runtime; it lacks the identity of a functional tool to be cataloged.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - URL points to docs.julep.ai/open-responses, a documentation subsection
+    - No repo, stars, or product signals provided; only a doc page is referenced
+    - Source-list context shows inclusion in Awesome-LLMOps under Serving > Frameworks/Servers, but this refers to the parent project, not this doc page
 placement:
   primary_category: null
   secondary_categories: []
@@ -65,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.660Z'
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,30 +71,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-20T15:40:45.801Z'
+    updated_at: "2026-09-24T04:38:31.259Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:7fc99abbe72b30b75e68f5a9f166787399097bcac25830066f50c45ad6949c1e
-      proposed_primary_category: ai-frameworks
+      category_rules_version: c367d6101132
+      input_hash: sha256:a9123d6d3ac983e474db8a5e402d8c4b5e7a5062bb638b97e941e9356a3934ca
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        It is a code-first serving framework used by developers to implement agent responses within their own
-        applications.
+      decision_reason: The input is a documentation page, not a standalone product, tool, or developer-facing runtime; it lacks the identity of a functional tool to be cataloged.
       decision_evidence:
-        - Listed in Awesome-LLMOps under Serving > Frameworks/Servers for Serving
-        - Documentation focuses on the serving and scaling of agentic responses
-      category_candidates:
-        - ai-frameworks
-        - agent-orchestration
-      contrastive_reason: >-
-        Choose ai-frameworks over agent-orchestration because the tool is presented as a developer-facing serving
-        framework rather than an operated control plane or workbench.
+        - URL points to docs.julep.ai/open-responses, a documentation subsection
+        - No repo, stars, or product signals provided; only a doc page is referenced
+        - Source-list context shows inclusion in Awesome-LLMOps under Serving > Frameworks/Servers, but this refers to the parent project, not this doc page
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

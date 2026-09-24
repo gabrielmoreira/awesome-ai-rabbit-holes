@@ -36,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Adfin is a business payments platform that automates payment collection, reconciliation, and credit control for finance teams, accountants, and small-to-large businesses.
-  why_it_matters: It uses agentic AI to chase invoices, but the product is squarely aimed at finance operations rather than software developers.
-  mental_damage: Your accountant now has an AI agent to chase late payments, while you're still writing regex by hand.
+  summary: An agentic finance platform designed to automate payment collection and credit control for businesses.
+  why_it_matters: It uses AI agents to automate the manual tasks of chasing invoices and managing cash flow.
+  mental_damage: Because even your accounts receivable process deserves a swarm of autonomous agents to handle the administrative dread.
   tags:
+    - finance
     - payments
-    - credit-control
-    - business-saas
-    - agentic-ai
-    - mcp-server
+    - agentic
+    - mcp
   confidence: high
 curation:
   status: excluded
-  reason: The product is a business payments and credit-control platform aimed at finance teams; it is not a developer-facing AI tool, coding assistant, or infrastructure product.
+  reason: The tool is a business finance SaaS rather than a tool for the software development lifecycle, despite its MCP server integration.
   evidence:
-    - Site title and description frame the product as 'Just Get Paid' and 'automate payment collection end-to-end', targeting accountants, bookkeepers, and MSPs.
-    - The mention of 'agentic AI' appears only in the credit-control section for automating payment reminders and follow-ups, not for code generation, debugging, or developer orchestration.
-    - No repository description, stars, or developer-focused README is provided; the only source-list placement is under awesome-mcp-servers as an Official Server, indicating an integration adapter rather than a developer tool.
+    - Primary identity is an agentic finance platform for payments and credit control
+    - MCP support is an integration feature for building internal tools, not the core product identity
 placement:
   primary_category: null
   section: null
@@ -71,24 +69,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:14:54.039Z"
+    updated_at: "2026-09-24T04:30:52.281Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:6e3bba2c116290f8226daeae269aeb28aa5df8607758399029b32c8bfccc2345
+      category_rules_version: c367d6101132
+      input_hash: sha256:ce0e43f40b2993e434d1e9616e2ff7550e42d70da1e82582b4ba0a919742e1e9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a business payments and credit-control platform aimed at finance teams; it is not a developer-facing AI tool, coding assistant, or infrastructure product.
+      decision_reason: The tool is a business finance SaaS rather than a tool for the software development lifecycle, despite its MCP server integration.
       decision_evidence:
-        - Site title and description frame the product as 'Just Get Paid' and 'automate payment collection end-to-end', targeting accountants, bookkeepers, and MSPs.
-        - The mention of 'agentic AI' appears only in the credit-control section for automating payment reminders and follow-ups, not for code generation, debugging, or developer orchestration.
-        - No repository description, stars, or developer-focused README is provided; the only source-list placement is under awesome-mcp-servers as an Official Server, indicating an integration adapter rather than a developer tool.
+        - Primary identity is an agentic finance platform for payments and credit control
+        - MCP support is an integration feature for building internal tools, not the core product identity
       category_candidates: []
       contrastive_reason: null
       review_reason: null

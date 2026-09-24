@@ -36,23 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An autonomous AI agent designed for sales and business automation tasks.
-  why_it_matters: It aims to automate the entire sales funnel, from lead generation to closing, using autonomous agent workflows.
-  mental_damage: Another agent that might eventually replace your entire sales department, or at least your ability to ignore LinkedIn notifications.
+  summary: AskToSell is a curated directory of AI autonomous agents for software development.
+  why_it_matters: It helps developers discover and evaluate autonomous agents that can plan and execute coding tasks, reducing the time spent searching for reliable AI coding assistants.
+  mental_damage: Another directory of AI agents that promises to solve the problem of too many AI agents.
   tags:
-    - autonomous-agents
-    - sales-automation
     - ai-agents
-  confidence: high
+    - curated-list
+    - developer-tools
+  confidence: medium
 curation:
-  status: excluded
-  reason: The project is a domain-specific sales agent rather than a developer-focused coding tool or infrastructure.
+  status: included
+  reason: AskToSell is included because it is a curated directory of AI autonomous agents, which falls under the 'awesome-awesomes' category and aligns with the coding-agents product identity.
   evidence:
-    - Listed in awesome-ai-agents for autonomous agent purposes
-    - Product identity is sales/business automation rather than developer workflow/code generation
+    - Appears in 'awesome-ai-agents' source list with purpose 'A list of AI autonomous agents'
+    - README excerpt describes it as 'a curated directory of AI autonomous agents'
+    - The project's own description states it helps developers discover AI agents for coding tasks
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
@@ -68,24 +69,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:23:25.435Z"
+    updated_at: "2026-09-24T04:34:23.553Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:74f79154f767efdb1cfd40733d8474b2b2ab74970c966aa450ce10c9935bbd86
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:66499eb51b3624964c339f95402b65413ea7bccf190c8e1aaa6eca6b55c5d854
+      proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: The project is a domain-specific sales agent rather than a developer-focused coding tool or infrastructure.
+      decision_reason: AskToSell is included because it is a curated directory of AI autonomous agents, which falls under the 'awesome-awesomes' category and aligns with the coding-agents product identity.
       decision_evidence:
-        - Listed in awesome-ai-agents for autonomous agent purposes
-        - Product identity is sales/business automation rather than developer workflow/code generation
-      category_candidates: []
-      contrastive_reason: null
+        - Appears in 'awesome-ai-agents' source list with purpose 'A list of AI autonomous agents'
+        - README excerpt describes it as 'a curated directory of AI autonomous agents'
+        - The project's own description states it helps developers discover AI agents for coding tasks
+      category_candidates:
+        - coding-agents
+        - awesome-awesomes
+      contrastive_reason: Choose coding-agents over awesome-awesomes because AskToSell is a product listing of AI agents rather than a general resource directory.
       review_reason: null
       review_resume_lifecycle: null

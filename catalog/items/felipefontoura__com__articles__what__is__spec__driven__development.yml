@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A written guide explaining spec-driven development, a method where structured specifications are written and approved before AI agents generate code.
-  why_it_matters: Introduces developers to a workflow that reduces AI agent errors by making specifications the source of truth instead of relying on prompts alone.
-  mental_damage: Realizing your AI pair programmer needs a written contract to stop rewriting your logic every session feels like hiring a savant with anterograde amnesia.
+  summary: An article outlining the Spec-Driven Development (SDD) methodology for managing AI agent context through structured specifications.
+  why_it_matters: It provides a disciplined workflow to ensure AI agents adhere to architectural requirements and maintain consistency across multiple sessions.
+  mental_damage: Adding the overhead of formal requirements engineering just to stop your LLM from accidentally reinventing your database schema every ten minutes.
   tags:
     - spec-driven-development
-    - methodology
     - ai-agents
+    - workflow
+    - software-engineering
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because it is an educational article, not a tool, framework, or developer-facing product that enables spec-driven development workflows.
+  reason: This is a one-off educational article rather than a standalone software tool or a sustained publication.
   evidence:
-    - The URL points to a personal blog article titled 'What Is Spec-Driven Development? The Practitioner's Guide' on felipefontoura.com
-    - The content is a long-form explanation of SDD principles, not a downloadable tool, CLI, editor extension, or runtime
-    - No evidence of a spec-first execution loop, validation system, or governance mechanism being provided as a usable artifact
+    - The URL points to a single blog post on a personal website.
+    - The content is a methodology guide describing a process rather than a functional tool, SDK, or framework.
 placement:
   primary_category: null
   section: null
@@ -67,9 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-09T05:33:44.386Z"
+    updated_at: "2026-09-24T04:22:36.191Z"
     cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:89f93538b4b54bc49119033e21c98bffbedb426f133d7bb7105ab445c1e03945
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a one-off educational article rather than a standalone software tool or a sustained publication.
+      decision_evidence:
+        - The URL points to a single blog post on a personal website.
+        - The content is a methodology guide describing a process rather than a functional tool, SDK, or framework.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://github.com/kolega-ai/kolega-code
         surrounding_text: "- **[Kolega Code](https://github.com/kolega-ai/kolega-code)** `⭐ 15` — Python terminal coding agent where the model writes its own multi-agent workflows (Gigacode): the runtime enforces concurrency caps and token budgets, journals every completed agent call to disk, and replays unchanged calls for free on resume. 15+ providers, MCP over stdio/SSE/streamable HTTP, ACP, sandboxed shell and filesystem tools, git worktrees, and a browser agent. Source-available (BUSL-1.1)."
         confidence: high
+    - id: discovery__github__kolega-ai__kolega-code__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-09-24T04:12:55.276Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: Kolega Code
+        extracted_url: https://github.com/kolega-ai/kolega-code
+        surrounding_text: "- **[Kolega Code](https://github.com/kolega-ai/kolega-code)** – Open-source terminal coding agent where the model writes its own multi-agent workflows (Gigacode), with 15+ providers and MCP support."
+        confidence: high
 metadata:
   github:
     stars: null
@@ -56,7 +71,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-08-27T06:08:24.607Z"
+    updated_at: "2026-09-24T04:12:55.278Z"
     cause: null
     next_retry_at: null
   stars:
@@ -65,7 +80,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-09-21T04:14:01.563Z"
+    updated_at: "2026-09-24T04:13:12.445Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

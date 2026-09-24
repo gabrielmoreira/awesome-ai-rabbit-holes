@@ -383,7 +383,7 @@ Frameworks, platforms, and tooling for measuring, tracing, comparing, and improv
   `data-quality` `llm-as-judge` `hallucination-detection` `rag-evaluation` `model-validation`
   </details>
 
-- **[AgentSight](https://github.com/eunomia-bpf/agentsight)** `⭐ 606` `updated ≤30d` A system-level profiling and tracing tool for AI agents using eBPF to monitor system calls and network traffic. <details><summary>More about</summary>
+- **[AgentSight](https://github.com/eunomia-bpf/agentsight)** `⭐ 606` `updated ≤90d` A system-level profiling and tracing tool for AI agents using eBPF to monitor system calls and network traffic. <details><summary>More about</summary>
 
   It allows developers to observe exactly what a closed-source or autonomous agent is doing to their local machine without needing an SDK or proxy integration.
 
@@ -437,7 +437,7 @@ Frameworks, platforms, and tooling for measuring, tracing, comparing, and improv
   `rag` `benchmarking` `evaluation` `llm` `retrieval`
   </details>
 
-- **[MathArena](https://github.com/eth-sri/matharena)** `⭐ 278` `updated ≤90d` An evaluation platform for testing LLM performance on recent mathematical competitions and olympiads. <details><summary>More about</summary>
+- **[MathArena](https://github.com/eth-sri/matharena)** `⭐ 278` `updated ≤180d` An evaluation platform for testing LLM performance on recent mathematical competitions and olympiads. <details><summary>More about</summary>
 
   It provides standardized benchmarks and reasoning traces to measure how well models handle complex, multi-step mathematical reasoning.
 
@@ -603,7 +603,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `evals` `prompt-engineering` `tooling`
   </details>
 
-- **[RagTune](https://github.com/metawake/ragtune)** `⭐ 13` `updated ≤180d` RagTune is a CLI tool for debugging, benchmarking, and evaluating RAG retrieval layers across vector stores. <details><summary>More about</summary>
+- **[RagTune](https://github.com/metawake/ragtune)** `⭐ 13` `updated ≤1y` RagTune is a CLI tool for debugging, benchmarking, and evaluating RAG retrieval layers across vector stores. <details><summary>More about</summary>
 
   It helps developers diagnose and improve retrieval quality in RAG systems by exposing recall, latency, and needle-level coverage metrics.
 
@@ -666,6 +666,15 @@ _These are new or low-traffic entries being watched._
   `cli` `debugging` `agent-observability` `terminal` `logs`
   </details>
 
+- **[ahmedak/defluff](https://github.com/ahmedak/defluff)** `⭐ 1` `updated ≤90d` A deterministic CLI and MCP server for detecting filler phrases and 'slop' in AI-generated text without requiring an LLM or API key. <details><summary>More about</summary>
+
+  It allows developers to implement CI gates and agent self-correction loops to prevent low-quality, cliché-ridden AI prose from entering production environments.
+
+  _Because we have officially reached the point in the AI cycle where we need specialized linting tools to ensure our agents don't sound like they're stuck in a 2023 LinkedIn thought-leadership post._
+
+  `slop-detection` `cli` `mcp` `linting` `ai-quality`
+  </details>
+
 - **[alog-mcp](https://github.com/asicojp/alog-mcp)** `⭐ 1` `updated ≤180d` An MCP server that enables AI agents to log real-time thinking processes and publish articles to the Alog blogging platform. <details><summary>More about</summary>
 
   It provides a standardized way for agents to turn their internal reasoning logs and task successes into human-readable, shareable content.
@@ -693,6 +702,15 @@ _These are new or low-traffic entries being watched._
   `mcp` `hallucination-guardrails` `grounding` `nli` `agent-tools`
   </details>
 
+- **[AGI-Eval](https://agi-eval.cn/mvp/home)** A benchmarking platform for measuring AI and AGI model performance. <details><summary>More about</summary>
+
+  It provides developers with a structured way to quantify model capabilities and track performance against specific intelligence metrics.
+
+  _Another leaderboard to obsess over while waiting for the next model to render current benchmarks obsolete._
+
+  `evals` `benchmarking` `agi` `llm`
+  </details>
+
 - **[Atla API](https://docs.atla-ai.com/overview)** Atla is an observability platform designed to monitor, trace, and debug the behavior of AI agents. <details><summary>More about</summary>
 
   It provides the necessary telemetry and error detection to help developers debug non-deterministic agent failures and iterate on performance.
@@ -700,15 +718,6 @@ _These are new or low-traffic entries being watched._
   _Because debugging a non-deterministic agent is a special kind of hell that now requires its own dedicated monitoring stack._
 
   `observability` `tracing` `llmops` `agent-monitoring`
-  </details>
-
-- **[chat.lmsys.org](https://chat.lmsys.org)** A benchmarking platform for evaluating large language models through human-side comparisons. <details><summary>More about</summary>
-
-  It provides a standardized way for developers to see how different models perform on specific prompts via side-by-side voting.
-
-  _Nothing quite prepares you for the existential dread of seeing a $0.00 model beat a $15.00 model in a blind taste test._
-
-  `benchmarking` `llm-leaderboard` `model-evaluation` `comparative-testing`
   </details>
 
 - **[ChatArena](https://chatarena.org)** ChatArena is a platform for evaluating and comparing AI agents through conversational benchmarks. <details><summary>More about</summary>
@@ -819,13 +828,13 @@ _These are new or low-traffic entries being watched._
   `benchmark` `swe-agent` `evaluation` `software-engineering`
   </details>
 
-- **[Vals AI](https://vals.ai)** A domain-specific benchmarking platform for evaluating AI models across legal, tax, finance, and software engineering tasks. <details><summary>More about</summary>
+- **[Vals AI](https://vals.ai)** A benchmarking platform providing independent evaluations of AI models across specialized domains such as finance, law, and software engineering. <details><summary>More about</summary>
 
-  It provides industry-specific benchmarks like the Excel Modeling Benchmark to help developers assess model performance in highly specialized professional workflows.
+  It allows developers to move beyond generic benchmarks and select models based on their actual competence in high-stakes, domain-specific workflows.
 
-  _Because knowing your model is #2 in legal research isn't much comfort when it still can't pass a simple unit test._
+  _Just one more leaderboard to add to the pile of reasons to feel like you are always one day behind the state-of-the-art._
 
-  `benchmarking` `domain-specific` `evaluation` `finance` `legal`
+  `benchmarks` `evals` `llm-evaluation` `domain-specific`
   </details>
 
 - **[Weco Observe](https://weco.ai)** An autonomous agentic platform that iteratively optimizes code and machine learning pipelines by testing candidate solutions against specific performance metrics. <details><summary>More about</summary>

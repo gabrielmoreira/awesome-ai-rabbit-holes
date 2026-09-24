@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__codegeex__cn__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Code Completion
         anchor_text: CodeGeeX
         extracted_url: https://codegeex.cn
-        surrounding_text: '- **[CodeGeeX](https://codegeex.cn/)** – Open-source multilingual code generation model.'
+        surrounding_text: "- **[CodeGeeX](https://codegeex.cn/)** – Open-source multilingual code generation model."
         confidence: high
 metadata:
   github:
@@ -36,38 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    CodeGeeX is an AI-powered coding assistant that provides code completion, translation, and comment generation across
-    more than 20 programming languages.
-  why_it_matters: >-
-    It offers a multilingual, large-scale model-driven alternative for automated code generation and documentation
-    within development workflows.
-  mental_damage: >-
-    Because apparently, supporting twenty different languages isn't enough to satisfy the existential dread of manual
-    boilerplate writing.
+  summary: CodeGeeX is an AI-based coding assistant that suggests code in the current or following lines using a 13B-parameter multilingual code generation model.
+  why_it_matters: It helps developers write and translate code faster by providing AI-powered code suggestions across 20+ programming languages.
+  mental_damage: Another AI coding assistant that promises to write code for you, adding yet another layer of probabilistic magic to your terminal workflow.
   tags:
+    - ai-coding-assistant
     - code-completion
-    - ai-assistant
     - multilingual
-    - productivity
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: It is a standalone coding assistant providing direct code generation and translation capabilities.
+  reason: CodeGeeX is a developer-facing agent whose primary identity is performing coding tasks autonomously via code suggestions, fitting the coding-agents category.
   evidence:
-    - Source-list describes it as an AI-based coding assistant for code suggestion.
-    - README excerpt claims support for 20+ programming languages and features like auto-commenting.
+    - README states CodeGeeX is an AI-based coding assistant that suggests code in current or following lines
+    - Description confirms it is powered by a large-scale multilingual code generation model with 13 billion parameters
+    - Source-list context places it in 'awesome-ai-coding-tools' under 'Code Completion' section
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: IDE-Native & Editor Agents
+  section: Terminal & CLI Agents
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.659Z'
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,28 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-20T15:31:30.138Z'
+    updated_at: "2026-09-24T04:35:39.896Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:472742d4fb5f053d73d2f0cecd95e10f8bf0aa82acac11143731f282d392ef91
+      category_rules_version: c367d6101132
+      input_hash: sha256:4215f930b4d76138c1ea0ac3e0934dfd31eef0e8ba24873d3bd257a09f4e03ff
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: It is a standalone coding assistant providing direct code generation and translation capabilities.
+      decision_reason: CodeGeeX is a developer-facing agent whose primary identity is performing coding tasks autonomously via code suggestions, fitting the coding-agents category.
       decision_evidence:
-        - Source-list describes it as an AI-based coding assistant for code suggestion.
-        - README excerpt claims support for 20+ programming languages and features like auto-commenting.
+        - README states CodeGeeX is an AI-based coding assistant that suggests code in current or following lines
+        - Description confirms it is powered by a large-scale multilingual code generation model with 13 billion parameters
+        - Source-list context places it in 'awesome-ai-coding-tools' under 'Code Completion' section
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: >-
-        Choose coding-agents over ai-dev-extensions because its primary identity is as an assistant providing core
-        generation and translation logic rather than just a thin integration layer for another editor.
-      review_reason: null
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because CodeGeeX is a primary coding agent that suggests code autonomously rather than extending another assistant's capabilities.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
       review_resume_lifecycle: null

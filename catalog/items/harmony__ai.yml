@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,21 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: harmony.ai is a commercial AI phone call agent platform for lead qualification, meeting scheduling, and outbound/inbound call automation across phone, SMS, and WhatsApp.
-  why_it_matters: It matters to developers seeking to integrate AI-powered voice and messaging workflows into sales or customer engagement systems via its API and CRM integrations.
-  mental_damage: Another ‘AI workforce’ promising to replace humans while quietly just automating the most soul-crushing parts of cold outreach.
-  tags:
-    - ai-agents
-    - sales-automation
-    - voice-api
+  summary: A voice AI platform designed for sales and revenue teams to automate lead qualification, outbound calls, and customer engagement.
+  why_it_matters: While it represents a sophisticated use of agentic workflows, it is a business-facing application rather than a tool for the developer's technical workflow.
+  mental_damage: The agentic revolution is finally moving from the terminal to the telephone, and the sales floor is officially first in line.
+  tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The product is a hosted SaaS platform for AI-driven phone and messaging campaigns, not a developer-facing coding tool, agent, or infrastructure relevant to software development workflows.
+  reason: It is a vertical SaaS product for business revenue teams rather than a developer-facing tool, framework, or infrastructure.
   evidence:
-    - Scraped site context describes automating phone calls with AI agents to qualify leads, book meetings, and drive revenue across phone, SMS, and WhatsApp.
-    - Source-list context from awesome-local-ai lists it under 'Developer tools' but positions it as a lead qualification and meeting scheduling tool for sales teams, not coding assistants or developer tooling.
-    - No evidence of code-first usage, SDKs, CLI, repo editing, agent orchestration, or any developer tooling identity — core product is a commercial AI calling platform.
+    - The product is marketed as a 'system for running revenue calls' for business use cases like lead qualification and appointment setting.
+    - The site explicitly distinguishes itself from developer toolkits like Vapi or Retell.
+    - It does not provide coding assistance, IDE integration, or developer-centric agent orchestration.
 placement:
   primary_category: null
   section: null
@@ -67,9 +66,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-02T05:33:24.309Z"
+    updated_at: "2026-09-24T04:20:49.442Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:1be03ec824d1c93860242aad3fc3fd6381de098edfe11984ce463d60027628af
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: It is a vertical SaaS product for business revenue teams rather than a developer-facing tool, framework, or infrastructure.
+      decision_evidence:
+        - The product is marketed as a 'system for running revenue calls' for business use cases like lead qualification and appointment setting.
+        - The site explicitly distinguishes itself from developer toolkits like Vapi or Retell.
+        - It does not provide coding assistance, IDE integration, or developer-centric agent orchestration.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,21 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Documentation page for Hugging Face Transformers agents API.
-  why_it_matters: Provides guidance on using Hugging Face's agent abstractions for tool-use and reasoning with LLMs.
-  mental_damage: Another documentation redirect that makes you wonder if the version you're reading is already obsolete.
+  summary: Documentation for the agents feature within the Hugging Face Transformers library.
+  why_it_matters: It provides technical guidance for implementing agentic workflows using the Transformers library.
+  mental_damage: Chasing the right version of documentation is the most authentic way to experience the current state of AI development.
   tags:
     - documentation
     - huggingface
-    - llm-agents
+    - transformers
   confidence: high
 curation:
   status: excluded
-  reason: This is a documentation page, not a standalone product, tool, or framework suitable for the developer tooling catalog.
+  reason: The input is a documentation page for a specific library feature rather than a standalone product, tool, or curated resource.
   evidence:
-    - URL points to a Hugging Face documentation page for agents API
-    - Primary page excerpt indicates the documentation page doesn't exist in v5.13.0 and redirects to main version
-    - No repo description, stars, or activity signals indicating a distributable product
+    - The URL is a documentation link
+    - The scraped content is a version-specific redirect notice
 placement:
   primary_category: null
   section: null
@@ -67,9 +68,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-06T06:00:17.325Z"
+    updated_at: "2026-09-24T04:21:29.280Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:76d8547676d806a85df9199b4235d7f76b4273c822c1d36feacba2253b7392fa
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The input is a documentation page for a specific library feature rather than a standalone product, tool, or curated resource.
+      decision_evidence:
+        - The URL is a documentation link
+        - The scraped content is a version-specific redirect notice
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

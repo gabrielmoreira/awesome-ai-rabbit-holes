@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agentfetch__dev__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,13 +19,7 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: agentfetch.dev
         extracted_url: https://www.agentfetch.dev
-        surrounding_text: >-
-          - [bch1212/agentfetch-mcp](https://github.com/bch1212/agentfetch-mcp) [![bch1212/agentfetch-mcp MCP
-          server](https://glama.ai/mcp/servers/bch1212/agentfetch-mcp/badges/score.svg)](https://glama.ai/mcp/servers/bch1212/agentfetch-mcp)
-          🐍 ☁️ 🏠 🍎 🪟 🐧 - Token-budgeted web fetch for AI agents. Auto-routes between Trafilatura, Jina Reader,
-          FireCrawl, and pypdf based on URL pattern. `estimate_tokens` before `fetch_url`, 6h Redis cache, server-side
-          `max_tokens` truncation. Open source MCP server (MIT) plus hosted REST API at
-          [agentfetch.dev](https://www.agentfetch.dev) — 500 free fetches/mo, no card.
+        surrounding_text: "- [bch1212/agentfetch-mcp](https://github.com/bch1212/agentfetch-mcp) [![bch1212/agentfetch-mcp MCP server](https://glama.ai/mcp/servers/bch1212/agentfetch-mcp/badges/score.svg)](https://glama.ai/mcp/servers/bch1212/agentfetch-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Token-budgeted web fetch for AI agents. Auto-routes between Trafilatura, Jina Reader, FireCrawl, and pypdf based on URL pattern. `estimate_tokens` before `fetch_url`, 6h Redis cache, server-side `max_tokens` truncation. Open source MCP server (MIT) plus hosted REST API at [agentfetch.dev](https://www.agentfetch.dev) — 500 free fetches/mo, no card."
         confidence: high
 metadata:
   github:
@@ -43,37 +37,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    MCP-native web fetch server that returns clean, token-budgeted Markdown from any URL, with caching and intelligent
-    routing for JavaScript-heavy pages and PDFs.
-  why_it_matters: >-
-    It gives agents deterministic, cheap, context-window-aware access to the live web without burning tokens on
-    boilerplate or unbounded page sizes.
-  mental_damage: >-
-    Your agent now needs a metered SaaS intermediary just to read a web page, because apparently raw `curl` and common
-    sense were too high-context for 2025.
+  summary: A web scraping and intelligence API that converts URLs into clean, token-optimized Markdown for AI agents.
+  why_it_matters: It allows developers to give agents real-time web access without blowing context windows on HTML boilerplate or managing complex scraping logic.
+  mental_damage: Because apparently, the only way to survive the token-hungry era is to have a dedicated service to prune the internet into something an LLM can digest.
   tags:
+    - web-scraping
     - mcp
-    - web-fetch
-    - token-budgeting
-    - agent-tool
-    - browser-automation
-  confidence: medium
+    - context-optimization
+    - agent-tools
+  confidence: high
 curation:
   status: included
-  reason: >-
-    The product is explicitly built and marketed as an MCP-native server for web fetching, and its primary
-    developer-facing interface is an MCP tool configuration rather than a generic integration layer.
+  reason: The product identity is centered on being an MCP-native service that provides specialized tools to agents, which triggers the priority rule to prefer the MCP category.
   evidence:
-    - >-
-      Scraped site describes it as 'MCP-native web fetch' and prominently shows MCP server setup for Claude Desktop /
-      Claude Code.
-    - >-
-      Listed in awesome-mcp-servers under Browser Automation, confirming it is categorized as MCP infrastructure by
-      ecosystem curators.
-    - >-
-      Core value props are token estimation, smart caching, and auto-routing — all framed as an MCP tool for agent
-      consumption.
+    - Explicitly describes itself as 'MCP-native web scraping & fetch API for AI agents'
+    - Provides a dedicated MCP server implementation via the `agentfetch-mcp` package
+    - Offers specialized MCP tools like `fetch_url`, `estimate_tokens`, and `search_and_fetch`
 placement:
   primary_category: mcp
   secondary_categories: []
@@ -84,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.658Z'
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
@@ -93,37 +72,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-20T15:16:06.881Z'
+    updated_at: "2026-09-24T04:31:23.326Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:69efcae044ec0e1e69af5775d96b5a2b23757b3a59b860487dbfba3f68ed2493
+      category_rules_version: c367d6101132
+      input_hash: sha256:626526958615c9cffd61f7b6bdc8db0a5975ba35cd3825beb6efc56d4718e77d
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The product is explicitly built and marketed as an MCP-native server for web fetching, and its primary
-        developer-facing interface is an MCP tool configuration rather than a generic integration layer.
+      decision_reason: The product identity is centered on being an MCP-native service that provides specialized tools to agents, which triggers the priority rule to prefer the MCP category.
       decision_evidence:
-        - >-
-          Scraped site describes it as 'MCP-native web fetch' and prominently shows MCP server setup for Claude Desktop
-          / Claude Code.
-        - >-
-          Listed in awesome-mcp-servers under Browser Automation, confirming it is categorized as MCP infrastructure by
-          ecosystem curators.
-        - >-
-          Core value props are token estimation, smart caching, and auto-routing — all framed as an MCP tool for agent
-          consumption.
+        - Explicitly describes itself as 'MCP-native web scraping & fetch API for AI agents'
+        - Provides a dedicated MCP server implementation via the `agentfetch-mcp` package
+        - Offers specialized MCP tools like `fetch_url`, `estimate_tokens`, and `search_and_fetch`
       category_candidates:
         - mcp
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose mcp over ai-dev-extensions because the product is built, documented, and ecosystem-listed as an
-        MCP-native server first, not merely a generic browser-integration add-on.
+        - memory-and-context
+      contrastive_reason: Choose mcp over memory-and-context because the product identity is centered on being an MCP-native server for agent tool-use rather than a standalone retrieval or context management system.
       review_reason: null
       review_resume_lifecycle: null

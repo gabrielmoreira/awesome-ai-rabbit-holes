@@ -21,6 +21,21 @@ provenance:
         extracted_url: https://github.com/juyterman1000/entroly
         surrounding_text: "| [Entroly](https://github.com/juyterman1000/entroly)                               | Information-theoretic context optimization proxy. Cuts LLM token costs by 70–95% with zero accuracy loss using greedy submodular knapsack maximization. | ![GitHub Badge](https://img.shields.io/github/stars/juyterman1000/entroly.svg?style=flat-square) |"
         confidence: high
+    - id: discovery__github__juyterman1000__entroly__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-09-24T04:12:55.276Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - MCP Servers and Directories
+        anchor_text: Entroly
+        extracted_url: https://github.com/juyterman1000/entroly
+        surrounding_text: "- **[Entroly](https://github.com/juyterman1000/entroly)** – Local-first MCP server for explicit-budget context selection, content-addressed exact recovery, and auditable Context Receipts. Apache-2.0."
+        confidence: high
 metadata:
   github:
     stars: 431
@@ -86,7 +101,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-21T05:27:57.683Z"
+    updated_at: "2026-09-24T04:12:55.277Z"
     cause: null
     next_retry_at: null
   stars:
@@ -96,7 +111,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-21T04:14:01.563Z"
+    updated_at: "2026-09-24T04:13:12.445Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

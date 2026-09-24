@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,21 +37,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Pipedrive is a sales CRM platform for managing lead pipelines and customer relationship data.
-  why_it_matters: It provides API access and integrations for automating sales workflows and lead management, though it is primarily an end-user business tool rather than a developer-centric AI product.
-  mental_damage: The thrill of seeing 'AI-powered' in a CRM usually just means your lead scoring is now a black box that tells you the same thing you already knew.
+  summary: A sales CRM and pipeline management platform designed to automate sales processes and lead management.
+  why_it_matters: While it offers an MCP server for data access, the core product is a business-facing CRM rather than a developer-facing tool.
+  mental_damage: Because even your autonomous coding agent needs to know exactly which sales leads are currently in the pipeline.
   tags:
     - crm
     - sales-automation
-    - api
+    - cdp
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-purpose SaaS CRM for business users; while it has an API and AI features, its core identity is not a tool for building software or a developer's AI workflow.
+  reason: The primary product identity is a sales CRM for business users, and its MCP capability is an integration feature of a broader SaaS platform.
   evidence:
-    - Scraped site context describes it as a 'Sales CRM' and 'CRM software sales teams will love'
-    - Primary value proposition is managing sales pipelines and closing deals, not software development
-    - Source-list placement in 'awesome-mcp-servers' refers to it as a data source, not a developer tool in its own right
+    - Scraped site context explicitly defines it as 'Sales CRM & Pipeline Management Software'
+    - Source-list context categorizes it as a 'Customer Data Platform' within an MCP list, indicating its MCP server is an adapter for its core service
 placement:
   primary_category: null
   section: null
@@ -68,9 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-06-15T05:54:35.048Z"
+    updated_at: "2026-09-24T04:14:44.668Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:7b8c976e5b5bd75541b54cc272ea6e1481fecd8daa89f8a66c5479a0408ac9e5
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The primary product identity is a sales CRM for business users, and its MCP capability is an integration feature of a broader SaaS platform.
+      decision_evidence:
+        - Scraped site context explicitly defines it as 'Sales CRM & Pipeline Management Software'
+        - Source-list context categorizes it as a 'Customer Data Platform' within an MCP list, indicating its MCP server is an adapter for its core service
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

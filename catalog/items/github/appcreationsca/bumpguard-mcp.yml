@@ -50,22 +50,23 @@ metadata:
       fetched_at: "2026-09-21T04:13:45.090Z"
       bytes: 12305
 insights:
-  summary: An MCP server that uses static analysis to tell AI agents exactly which lines of code will break during a dependency upgrade.
-  why_it_matters: It replaces an LLM's hallucinated version of a library's API with ground-truth analysis of the actual installed package, preventing the "almost right" code that leads to endless debug loops.
-  mental_damage: The realization that you've spent the last three hours fighting a hallucinated API that doesn't exist in the version you actually installed.
+  summary: An MCP server that uses static analysis to identify breaking dependency changes and verify AI-generated code against actually installed APIs.
+  why_it_matters: It prevents AI agents from hallucinating outdated API calls or introducing breaking changes during dependency upgrades.
+  mental_damage: Because nothing builds trust like an AI agent that finally stops trying to call functions that haven't existed since 2021.
   tags:
     - mcp
-    - static-analysis
     - dependency-management
+    - static-analysis
+    - ai-agents
     - python
   confidence: high
 curation:
   status: included
-  reason: The product identity is fundamentally an MCP server providing a specific set of tools for API verification and dependency auditing.
+  reason: It is an MCP server designed to expose domain-specific developer tools (dependency auditing and API verification) to an agent.
   evidence:
-    - Explicitly identifies as an 'MCP server' in the description and README
-    - Provides specific MCP tools like `check_upgrade` and `verify_snippet`
-    - Designed to be configured in `claude_desktop_config.json` as an MCP server
+    - Provides MCP tools like `check_upgrade` and `verify_snippet` for agent use
+    - Uses static analysis to identify breaking changes in installed packages
+    - Identified as an MCP server in the repo description and name
 placement:
   primary_category: mcp
   secondary_categories: []
@@ -86,9 +87,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-18T05:42:21.125Z"
+    updated_at: "2026-09-24T04:17:05.507Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:475f547bb65a20ef2a9008ae4d4cfa542c29d796b25dce19c6aa6ab90d497da9
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: It is an MCP server designed to expose domain-specific developer tools (dependency auditing and API verification) to an agent.
+      decision_evidence:
+        - Provides MCP tools like `check_upgrade` and `verify_snippet` for agent use
+        - Uses static analysis to identify breaking changes in installed packages
+        - Identified as an MCP server in the repo description and name
+      category_candidates:
+        - mcp
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because the product's primary identity is an MCP server providing domain capabilities, and the protocol identity takes precedence for such servers.
+      review_reason: null
+      review_resume_lifecycle: null

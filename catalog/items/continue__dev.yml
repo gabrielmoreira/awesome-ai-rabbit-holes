@@ -41,6 +41,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -49,26 +51,28 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An open-source coding agent that has been acquired by Cursor.
-  why_it_matters: It provided a flexible, open-source alternative for integrating AI assistance into existing IDEs before its consolidation into a proprietary editor.
-  mental_damage: "The inevitable arc of every promising open-source developer tool: birth, hype, and acquisition by the one product that actually solved the UX problem."
+  summary: An open-source coding agent that integrates AI assistance directly into VS Code and JetBrains IDEs.
+  why_it_matters: It allows developers to leverage custom LLMs and deep codebase context within their existing, preferred editor environments.
+  mental_damage: Watching your favorite open-source agent get acquired by its most successful proprietary competitor is the inevitable end-game of the AI tooling arms race.
   tags:
     - open-source
-    - coding-assistant
-    - acquired
+    - coding-agent
+    - vscode
+    - jetbrains
+    - ide-extension
   confidence: high
 curation:
-  status: excluded
-  reason: The product has been acquired and the landing page is now a redirection/announcement for Cursor, effectively ending its life as a standalone tool.
+  status: included
+  reason: Continue functions as a primary AI coding assistant within the IDE rather than a tool that augments an existing assistant.
   evidence:
-    - "Scraped site context: 'Continue has been acquired by Cursor.'"
-    - "Primary page excerpt: 'We have some big news... Continue has been acquired by Cursor.'"
+    - Scraped site text confirms it is an open-source coding agent.
+    - The project provides the primary interface for AI-driven code editing and context within an IDE.
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: IDE-Native & Editor Agents
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
 processing:
   discover:
     status: done
@@ -81,9 +85,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-06-18T05:41:44.188Z"
+    updated_at: "2026-09-24T04:15:12.637Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:81a4f3e52f46a64ff30c49d3f61bccd5d362293a9cbbb68358f8e04748b94255
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: Continue functions as a primary AI coding assistant within the IDE rather than a tool that augments an existing assistant.
+      decision_evidence:
+        - Scraped site text confirms it is an open-source coding agent.
+        - The project provides the primary interface for AI-driven code editing and context within an IDE.
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because it acts as the primary assistant/agent within the IDE rather than a secondary capability plugin for another assistant.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+      review_resume_lifecycle: null

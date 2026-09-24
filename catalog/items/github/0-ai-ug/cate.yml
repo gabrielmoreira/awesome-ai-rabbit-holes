@@ -55,22 +55,23 @@ metadata:
       fetched_at: "2026-09-17T04:13:24.593Z"
       bytes: 3960
 insights:
-  summary: An infinite zoomable canvas IDE that spatially organizes editors, terminals, browsers, and AI agents in a single workspace.
-  why_it_matters: It replaces traditional tab-and-window management with a freeform spatial layout, allowing developers to map out complex multi-tool workflows visually.
-  mental_damage: Now we can finally experience the anxiety of losing our actual code in the vast, empty void of an infinite 2D coordinate system.
+  summary: A spatial IDE that uses an infinite canvas to manage and visualize multiple concurrent coding agent sessions.
+  why_it_matters: It allows developers to coordinate several agents working on different git branches or tasks simultaneously within a single, agent-aware workspace.
+  mental_damage: Provides the spatial complexity needed to match the overwhelming number of AI agents you'll eventually try to run at once.
   tags:
     - spatial-ide
-    - canvas-ui
-    - ai-native
-    - productivity
+    - multi-agent
+    - agent-orchestration
+    - canvas
+    - worktrees
   confidence: high
 curation:
   status: included
-  reason: The product is a standalone desktop IDE where the core value is the spatial environment itself, with AI agents integrated as one of many available panels.
+  reason: It functions as an orchestration platform because its core purpose is managing the execution, visibility, and lifecycle of multiple concurrent agent processes.
   evidence:
-    - "Repo description: 'An infinite zoomable canvas for coding. Editor, terminal, and browser panels in a spatial workspace.'"
-    - "README: 'Cate is a desktop IDE built on an infinite canvas.'"
-    - Includes integrated Monaco editors, xterm.js terminals, and git-aware file trees.
+    - README explicitly describes it as an 'infinite canvas IDE for parallel coding agents'
+    - Features agent-aware terminals that monitor turn status and permission prompts for multiple CLIs
+    - Supports managing multiple worktrees to keep parallel agent workstreams visually and logically separate
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
@@ -91,9 +92,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-18T05:41:44.271Z"
+    updated_at: "2026-09-24T04:15:27.351Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:cf300c654b5be5a4e1b8f3de71282ce1b043f85aef259cab4a427008120d67b1
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: It functions as an orchestration platform because its core purpose is managing the execution, visibility, and lifecycle of multiple concurrent agent processes.
+      decision_evidence:
+        - README explicitly describes it as an 'infinite canvas IDE for parallel coding agents'
+        - Features agent-aware terminals that monitor turn status and permission prompts for multiple CLIs
+        - Supports managing multiple worktrees to keep parallel agent workstreams visually and logically separate
+      category_candidates:
+        - agent-orchestration
+        - extensions-and-addons
+      contrastive_reason: Choose agent-orchestration over extensions-and-addons because its primary identity is the management of multiple concurrent agent sessions and worktrees rather than just adding a single capability to an existing editor.
+      review_reason: null
+      review_resume_lifecycle: null

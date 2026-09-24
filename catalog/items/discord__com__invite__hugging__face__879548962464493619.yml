@@ -36,27 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The official Discord server for Hugging Face, a community platform for machine learning practitioners.
-  why_it_matters: It provides direct access to the massive community and developer support surrounding the world's leading open-source machine learning hub.
-  mental_damage: Another high-traffic channel where the boundary between 'groundbreaking research breakthrough' and 'help, my GPU is melting' is perpetually blurred.
+  summary: A Discord community for linking Hugging Face Hub and Discord accounts to democratize machine learning access.
+  why_it_matters: Provides a community hub for developers to connect their ML resources across platforms, lowering entry barriers for collaborative AI work.
+  mental_damage: Another Discord invite that promises to 'democratize' something while requiring you to verify your Hub account first — the real bottleneck is remembering which Discord server you joined last Tuesday.
   tags:
     - community
-    - machine-learning
-    - open-source
-  confidence: high
+    - discord
+    - huggingface
+  confidence: low
 curation:
   status: excluded
-  reason: This is a community discussion platform (Discord) rather than a standalone developer tool, framework, or directory.
+  reason: This is a community platform, not a developer tooling product, and does not provide code execution, agent functionality, or SDK integration required for inclusion.
   evidence:
-    - Scraped site context identifies it as a Discord invite
-    - Source-list context indicates it is a community hub for local AI
-    - No developer-facing tooling or product functionality is described
+    - Repo description is empty with no functional tooling claims
+    - Scraped context shows it's a Discord community with 239,040 members focused on linking accounts
+    - Source-list context identifies it as a community section in an awesome list, not a tooling product
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -69,25 +69,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:38:45.248Z"
+    updated_at: "2026-09-24T04:37:50.863Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:514608785fe9f947111e1d986ea030eb1a98cb5e6c4ef9a577001cdf154ca272
+      category_rules_version: c367d6101132
+      input_hash: sha256:d6645f4ab727815af92c9865ae6f9cd293994ba13cc66f09ff1c56a36501a19b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a community discussion platform (Discord) rather than a standalone developer tool, framework, or directory.
+      decision_reason: This is a community platform, not a developer tooling product, and does not provide code execution, agent functionality, or SDK integration required for inclusion.
       decision_evidence:
-        - Scraped site context identifies it as a Discord invite
-        - Source-list context indicates it is a community hub for local AI
-        - No developer-facing tooling or product functionality is described
+        - Repo description is empty with no functional tooling claims
+        - Scraped context shows it's a Discord community with 239,040 members focused on linking accounts
+        - Source-list context identifies it as a community section in an awesome list, not a tooling product
       category_candidates: []
       contrastive_reason: null
-      review_reason: null
+      review_reason: "Categorization review required: low confidence"
       review_resume_lifecycle: null

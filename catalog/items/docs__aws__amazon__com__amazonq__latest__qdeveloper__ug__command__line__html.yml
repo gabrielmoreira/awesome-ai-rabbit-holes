@@ -70,10 +70,12 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: done
-    updated_at: "2026-07-20T15:39:14.543Z"
-    cause: null
-    attempts: 2
+    status: deferred
+    updated_at: "2026-09-24T04:37:57.545Z"
+    cause:
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for docs__aws__amazon__com__amazonq__latest__qdeveloper__ug__command__line__html: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
     next_retry_at: null

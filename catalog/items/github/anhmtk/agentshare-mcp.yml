@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__anhmtk__agentshare-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-07-16T05:04:46.712Z'
+      discovered_at: "2026-07-16T05:04:46.712Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 🛒 <a name="e-commerce"></a>E-Commerce
         anchor_text: anhmtk/agentshare-mcp
         extracted_url: https://github.com/anhmtk/agentshare-mcp
-        surrounding_text: >-
-          - [anhmtk/agentshare-mcp](https://github.com/anhmtk/agentshare-mcp) [![anhmtk/agentshare-mcp MCP
-          server](https://glama.ai/mcp/servers/anhmtk/agentshare-mcp/badges/score.svg)](https://glama.ai/mcp/servers/anhmtk/agentshare-mcp)
-          📇 ☁️ - Solana DeFi intelligence MCP (Meteora DLMM `meteora_brief` + `meteora_pool_detail`, Solana DEX +
-          DefiLlama scout). Commerce tools are secondary. Hosted at https://agentshare.dev/mcp
+        surrounding_text: "- [anhmtk/agentshare-mcp](https://github.com/anhmtk/agentshare-mcp) [![anhmtk/agentshare-mcp MCP server](https://glama.ai/mcp/servers/anhmtk/agentshare-mcp/badges/score.svg)](https://glama.ai/mcp/servers/anhmtk/agentshare-mcp) 📇 ☁️ - Solana DeFi intelligence MCP (Meteora DLMM `meteora_brief` + `meteora_pool_detail`, Solana DEX + DefiLlama scout). Commerce tools are secondary. Hosted at https://agentshare.dev/mcp"
         confidence: high
 metadata:
   github:
@@ -34,11 +30,9 @@ metadata:
     archived: false
     full_name: anhmtk/agentshare-mcp
     html_url: https://github.com/anhmtk/agentshare-mcp
-    created_at: '2026-04-13T05:56:31Z'
-    pushed_at: '2026-09-16T12:49:42Z'
-    description: >-
-      Agent-paid API for AI agents — dual-auth (API key or x402), MCP Streamable HTTP, free discovery. Commerce +
-      Solana/Meteora demos secondary. https://agentshare.dev
+    created_at: "2026-04-13T05:56:31Z"
+    pushed_at: "2026-09-16T12:49:42Z"
+    description: Agent-paid API for AI agents — dual-auth (API key or x402), MCP Streamable HTTP, free discovery. Commerce + Solana/Meteora demos secondary. https://agentshare.dev
     homepage: https://agentshare.dev
     topics:
       - agent-discovery
@@ -61,63 +55,69 @@ metadata:
       - solana
       - x402
       - x402protocol
-    last_checked_at: '2026-09-17T04:13:44.475Z'
+    last_checked_at: "2026-09-17T04:13:44.475Z"
     readme:
-      fetched_at: '2026-09-17T04:13:44.475Z'
+      fetched_at: "2026-09-17T04:13:44.475Z"
       bytes: 14680
 insights:
-  summary: >-
-    MCP server exposing DeFi and e-commerce intelligence tools for AI agents, including Meteora DLMM briefs, DEX
-    scouting, and product price comparison via Streamable HTTP.
-  why_it_matters: >-
-    It gives AI agents structured access to live Solana DeFi data and commerce APIs without custom integrations,
-    plugging directly into Cursor, Claude Desktop, and other MCP clients.
-  mental_damage: >-
-    Now your IDE assistant can analyze crypto liquidity pools and hunt for the cheapest online shopping deal in the same
-    session, because the 'full-stack' title clearly needed more verticals.
+  summary: An MCP-based infrastructure for providing agent-paid API access and discovery through dual-auth protocols.
+  why_it_matters: It provides a standardized way for autonomous agents to discover and pay for specialized API tools using MCP and x402 rails.
+  mental_damage: We are officially building the economic infrastructure for a workforce that doesn't have a bank account yet.
   tags:
     - mcp
-    - defi
+    - agent-economy
+    - api-commerce
+    - dual-auth
     - solana
-    - cursor
-    - agent-tools
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: >-
-    This is a purpose-built MCP server whose entire identity is exposing DeFi and commerce tools over the Model Context
-    Protocol; it belongs in MCP Servers & Tooling as a domain-specific server.
+  reason: The product's primary identity is providing MCP-native discovery and access rails for agent-based commerce.
   evidence:
-    - >-
-      Repo description explicitly labels it an 'MCP server' with '11 tools via Streamable HTTP' for 'Cursor, Claude
-      Desktop, MCP clients'.
-    - >-
-      README catalogs 11 MCP tools including solana_dex_brief, meteora_brief, and search_products, centered on the MCP
-      endpoint at /mcp.
-    - Listed in awesome-mcp-servers under Server Implementations, confirming its identity as MCP infrastructure.
+    - README identifies primary focus as agent-paid rails via MCP
+    - Provides an MCP endpoint and a curated MCP registry for tool discovery
+    - Supports dual-auth (API key or x402) specifically for autonomous agent API procurement
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Finance, Crypto & DeFi
+  section: Registries & Discovery
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-07-16T05:04:46.714Z'
+    updated_at: "2026-07-16T05:04:46.714Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:44.475Z'
+    updated_at: "2026-09-17T04:13:44.475Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: '2026-07-20T05:18:16.265Z'
+    updated_at: "2026-09-24T04:29:18.812Z"
     cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:c67c5f0632fae5b171df24666a14c88edee3d132e7a6b67c8301075ea6f57f98
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's primary identity is providing MCP-native discovery and access rails for agent-based commerce.
+      decision_evidence:
+        - README identifies primary focus as agent-paid rails via MCP
+        - Provides an MCP endpoint and a curated MCP registry for tool discovery
+        - Supports dual-auth (API key or x402) specifically for autonomous agent API procurement
+      category_candidates:
+        - mcp
+        - agent-orchestration
+      contrastive_reason: Choose mcp over agent-orchestration because the product's core novelty is the protocol-based delivery of tools and discovery via MCP, rather than the management of multi-agent workflows.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -36,25 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: agent.nexus is an enterprise no-code platform that lets business teams build autonomous AI agents on top of existing business systems and models.
-  why_it_matters: Relevant to enterprise business operations and IT procurement rather than software engineering workflows or repo-level developer tooling.
-  mental_damage: Positioned as 'not another AI tool' that sits above the patchwork, which is exactly where enterprise procurement budgets go to forget they already bought five other layers.
+  summary: An enterprise AI infrastructure platform designed to connect business systems and models to autonomous agents.
+  why_it_matters: It provides a centralized control plane to manage permissions, models, and system integrations, preventing fragmented 'shadow AI' across an organization.
+  mental_damage: Another essential layer to manage the inevitable sprawl of disconnected enterprise AI agents.
   tags:
     - enterprise
-    - no-code
-    - business-automation
-    - ai-platform
+    - orchestration
+    - infrastructure
+    - workflow
   confidence: high
 curation:
-  status: excluded
-  reason: Primarily an enterprise business-automation platform for non-technical teams; it lacks a software-developer tooling angle and targets business users instead of developers.
+  status: included
+  reason: It functions as an operated enterprise control plane and orchestration layer rather than a code-first library.
   evidence:
-    - Site copy repeatedly targets 'business teams' and 'non-engineer' users rather than developers
-    - Case studies focus on sales onboarding, consulting lifecycle efficiency, and telecom revenue ops, not software engineering
-    - Product compares itself to Workato and Dust as an enterprise orchestration layer, not a coding assistant, IDE, extension, or developer framework
+    - Claims to be 'the AI infrastructure for the enterprise'
+    - Positions itself as a layer that connects every system to every agent built
+    - Provides a platform for managing models, permissions, and reusable building blocks
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Domain & Enterprise Platforms
 lifecycle:
   status: incubating
   reason: null
@@ -70,25 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:15:13.740Z"
+    updated_at: "2026-09-24T04:30:57.679Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:cea0c9c7d5764590805b68dd3d9bb99954cf0818016546b2181b51b864fb6c75
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:3c9cc104c68d206aca0cc21972fde3fdd592488d11757d4178bd030ebfa6e0ff
+      proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: Primarily an enterprise business-automation platform for non-technical teams; it lacks a software-developer tooling angle and targets business users instead of developers.
+      decision_reason: It functions as an operated enterprise control plane and orchestration layer rather than a code-first library.
       decision_evidence:
-        - Site copy repeatedly targets 'business teams' and 'non-engineer' users rather than developers
-        - Case studies focus on sales onboarding, consulting lifecycle efficiency, and telecom revenue ops, not software engineering
-        - Product compares itself to Workato and Dust as an enterprise orchestration layer, not a coding assistant, IDE, extension, or developer framework
-      category_candidates: []
-      contrastive_reason: null
+        - Claims to be 'the AI infrastructure for the enterprise'
+        - Positions itself as a layer that connects every system to every agent built
+        - Provides a platform for managing models, permissions, and reusable building blocks
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because it is an operated platform and control plane for deploying agents rather than a code-first SDK used to build them.
       review_reason: null
       review_resume_lifecycle: null

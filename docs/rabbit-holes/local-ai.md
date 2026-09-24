@@ -275,7 +275,7 @@ Runtimes, serving stacks, desktop apps, and tooling for running AI models on you
   `local-llm` `python` `inference` `llama-cpp` `quantization`
   </details>
 
-- **[petals](https://github.com/bigscience-workshop/petals)** `⭐ 10.5k` `updated >1y` A distributed system for running large language models locally via a BitTorrent-style network, enabling inference and fine-tuning on consumer hardware. <details><summary>More about</summary>
+- **[petals](https://github.com/bigscience-workshop/petals)** `⭐ 10.6k` `updated >1y` A distributed system for running large language models locally via a BitTorrent-style network, enabling inference and fine-tuning on consumer hardware. <details><summary>More about</summary>
 
   Developers can run and fine-tune state-of-the-art models like Llama 3.1 (405B) or Mixtral (8x22B) on their own machines by sharing compute across a decentralized network.
 
@@ -725,15 +725,6 @@ Runtimes, serving stacks, desktop apps, and tooling for running AI models on you
   `rag` `local-llm` `repo-chat` `streamlit` `langchain`
   </details>
 
-- **[datasetloom](https://github.com/599yongyang/datasetloom)** `⭐ 297` `updated ≤1y` An intelligent platform for constructing and evaluating multimodal training datasets, supporting SFT, DPO, and RAG-enhanced data generation. <details><summary>More about</summary>
-
-  It automates the complex pipeline of transforming unstructured documents and images into high-quality, structured datasets for fine-tuning multimodal models.
-
-  _Nothing says 'caling your LLM' like spending your afternoon debugging a RAG-driven data pipeline just to get a semi-decent DPO dataset._
-
-  `multimodal` `dataset-generation` `sft` `dpo` `rag`
-  </details>
-
 - **[Modelz-LLM](https://github.com/tensorchord/modelz-llm)** `⭐ 276` `updated >1y` An OpenAI-compatible API server for running self-hosted open-source LLMs like LLaMA and ChatGLM locally or in the cloud. <details><summary>More about</summary>
 
   It lets developers swap OpenAI's hosted API for a local or self-managed inference endpoint without changing their existing SDK or LangChain code.
@@ -817,6 +808,15 @@ _These are new or low-traffic entries being watched._
   _Because nothing says 'productivity' like spending an afternoon configuring yet another LLM runtime._
 
   `llm-management` `cli` `rest-api` `local-inference`
+  </details>
+
+- **[FireworksAI](https://fireworks.ai)** Fireworks.ai provides fast inference for generative AI models, including open-source LLMs and image models, with optional fine-tuning and deployment capabilities. <details><summary>More about</summary>
+
+  It enables developers to run high-speed, cost-effective AI inference locally or via API, reducing latency and operational overhead for AI-powered applications.
+
+  _The promise of 'blazing fast' inference feels like shouting into a void when your actual bottleneck is just waiting for the API to respond._
+
+  `inference` `llm` `local-ai`
   </details>
 
 - **[GPT4All](https://nomic.ai/gpt4all)** A desktop application for running open-source AI models locally on Windows, macOS, and Linux with full customization and document chat capabilities. <details><summary>More about</summary>

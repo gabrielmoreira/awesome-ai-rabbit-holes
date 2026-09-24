@@ -59,27 +59,27 @@ metadata:
       fetched_at: "2026-09-21T04:13:48.828Z"
       bytes: 56850
 insights:
-  summary: A multi-agent autonomous SDLC framework that transforms PRDs, GitHub issues, or OpenAPI specs into deployed applications using a verified completion loop.
-  why_it_matters: It replaces the 'hope-and-pray' prompt loop with deterministic quality gates and a 'Reason-Act-Reflect-Verify' cycle that refuses to claim a task is finished until tests pass and diffs exist.
-  mental_damage: The dream of 'hand it a spec and walk away' is finally here, though we'll still spend three hours arguing with a 'blind council' of AI reviewers about a naming convention.
+  summary: A multi-agent autonomous SDLC framework that transforms specifications into deployed applications through a verified, spec-driven execution loop.
+  why_it_matters: It automates the end-to-end development lifecycle—from PRDs to deployment—by enforcing quality gates and testing rather than just generating raw code.
+  mental_damage: It won't accept 'done' until the tests pass, so you can't even pretend the AI isn't the one responsible for the production outage.
   tags:
-    - autonomous-agents
+    - multi-agent
     - sdlc
     - spec-driven
-    - ci-cd
-    - multi-agent
+    - cli
+    - autonomous
   confidence: high
 curation:
   status: included
-  reason: The tool's core identity is built around the 'spec-driven' loop, where the spec is the controlling artifact for planning, verification, and drift detection.
+  reason: It is a spec-driven autonomous agent that manages the full software development lifecycle (SDLC) rather than just being a simple generator or a broad orchestration platform.
   evidence:
-    - README explicitly calls it 'The spec-driven autonomous builder with verified completion'
-    - Features like `loki spec` for drift detection and `loki grill` for spec interrogation center the workflow on the specification
-    - Implements a RARV-C closure loop (Reason-Act-Reflect-Verify-Close) as the primary mechanism for delivery
+    - Repo description identifies it as a 'Multi-agent autonomous SDLC framework'
+    - README highlights a 'spec-driven autonomous builder' that uses '8 quality gates' to ensure verified completion
+    - Provides a terminal-native CLI experience and functions as a plugin for Claude Code
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Autonomous & Multi-Agent Coding
+  section: Spec-First & Plan-Execute
 lifecycle:
   status: promotion_candidate
   reason: Stars (980) exceeded threshold (150)
@@ -96,9 +96,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-06-18T05:42:43.558Z"
+    updated_at: "2026-09-24T04:17:43.667Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:eacc5399728741e04b424b93b0c43a62a7d474976ac015f002f3bff8fd0b3669
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: It is a spec-driven autonomous agent that manages the full software development lifecycle (SDLC) rather than just being a simple generator or a broad orchestration platform.
+      decision_evidence:
+        - Repo description identifies it as a 'Multi-agent autonomous SDLC framework'
+        - README highlights a 'spec-driven autonomous builder' that uses '8 quality gates' to ensure verified completion
+        - Provides a terminal-native CLI experience and functions as a plugin for Claude Code
+      category_candidates:
+        - coding-agents
+        - app-builders
+      contrastive_reason: Choose coding-agents over app-builders because its core identity is an autonomous SDLC agent that executes complex developer workflows from specs, rather than just a prompt-to-app generation surface.
+      review_reason: null
+      review_resume_lifecycle: null

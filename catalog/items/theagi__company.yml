@@ -51,42 +51,54 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AGI, Inc. is developing AGI-0, an on-device mobile-use agent that performs everyday tasks like booking taxis and ordering food without cloud dependency.
-  why_it_matters: It demonstrates a shift toward private, agentic AI running locally on consumer hardware, reducing reliance on cloud APIs for personal automation.
-  mental_damage: Another 'revolutionary' agent that promises to replace your apps while quietly harvesting your behavioral data in the name of on-device privacy.
+  summary: A developer platform and SDK for building autonomous agents that interact with mobile and desktop applications via screen recognition and action.
+  why_it_matters: It allows developers to build agents that can use any existing software without the need for custom API integrations for every individual service.
+  mental_damage: We have successfully pivoted from 'AI will help me write code' to 'AI will handle my groceries,' which is a much more direct threat to our autonomy.
   tags:
-    - agentic-commerce
-    - agi
-    - mobile-agent
-    - on-device
-    - on-device-ai
-    - task-automation
+    - action-agents
+    - mobile-ai
+    - agent-platform
+    - computer-use
+    - sdk
   confidence: high
 curation:
-  status: excluded
-  reason: The project is a consumer-facing mobile agent for everyday personal tasks, not a developer tool for coding, workflow automation, or AI-assisted software development.
+  status: included
+  reason: It is a developer-facing platform and runtime designed to host and power autonomous agents capable of cross-app interactions via screen understanding.
   evidence:
-    - AGI-0 performs consumer actions like booking taxis, ordering food, replying to messages, and finding flights using your phone
-    - Positioned as a superintelligent personal assistant for daily life, not a coding assistant or developer-facing infrastructure
-    - No mention of code editing, repo interaction, IDE integration, API access, or developer workflows in the provided context
-    - The website describes AGI-0 as a 'personalized, proactive AI co-worker that gets things done on your smartphone' for tasks like Taxi, Travel, and Shopping.
-    - The mission is 'everyday AGI' and 'AI-native devices', lacking any mention of APIs, SDKs, or developer workflows.
-    - Appears in awesome-ai-agents under 'MultiOn', but as a consumer agent rather than a developer tool.
+    - Claims to allow developers to 'build on our platform' and 'ship a working action agent in less than a day'
+    - Focuses on providing agentic control across mobile and desktop apps via screen reasoning and action
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Hosted Agent Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-07-09T05:33:39.134Z"
+    updated_at: "2026-09-24T04:22:19.096Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:b83073b9ece2006569118fe528fa15d752d56b929033caba632bc9bdba662efa
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: It is a developer-facing platform and runtime designed to host and power autonomous agents capable of cross-app interactions via screen understanding.
+      decision_evidence:
+        - Claims to allow developers to 'build on our platform' and 'ship a working action agent in less than a day'
+        - Focuses on providing agentic control across mobile and desktop apps via screen reasoning and action
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is positioned as an operated platform and runtime for deploying agents rather than just a code-first library.
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-06-29T05:38:18.520Z"

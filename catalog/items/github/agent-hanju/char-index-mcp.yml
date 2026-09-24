@@ -40,23 +40,21 @@ metadata:
       fetched_at: "2026-09-17T04:13:31.508Z"
       bytes: 7440
 insights:
-  summary: An archived Model Context Protocol (MCP) server for character-level index-based string manipulation.
-  why_it_matters: It provides LLMs with the precise string indexing capabilities they naturally lack, which is crucial for generating accurate test code and validating character positions.
-  mental_damage: Finally, a tool to help your LLM count characters correctly, so you can spend less time fixing off-by-one errors and more time debugging the errors it missed.
+  summary: An archived Model Context Protocol server for character-level index-based string manipulation.
+  why_it_matters: It provides precise character-position tools for test code generation and string validation, addressing LLM limitations with exact counting.
+  mental_damage: Another archived MCP server promising character-level precision, because nothing says 'future-proof' like a protocol that dies before anyone builds on it.
   tags:
     - mcp
     - string-manipulation
-    - llm-tooling
-    - testing-utilities
-    - python
-  confidence: high
+    - archived
+  confidence: low
 curation:
   status: excluded
-  reason: The repository is explicitly archived and the README states the project has moved to a new repository.
+  reason: This project is excluded because it is archived and primarily an MCP infrastructure component rather than a developer-facing product with ongoing utility.
   evidence:
-    - "Archived: yes"
-    - "README contains a prominent warning: 'This repository is archived.'"
-    - "README states: 'This project has moved to char-index-skill' for continued support."
+    - "Archived flag: 'This repository is archived.'"
+    - Future updates stated to be published from the new repository 'char-index-skill'.
+    - "Stars: 3 (low ecosystem traction)."
 placement:
   primary_category: null
   section: null
@@ -76,25 +74,25 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-20T16:00:04.379Z"
+    updated_at: "2026-09-24T04:43:16.479Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d02edb27b9af53c6a2fc8bd3fbe46b422744c621c04b4579534dbd06000859aa
+      category_rules_version: c367d6101132
+      input_hash: sha256:0b792d2e761abf1bcd54bbc4a2cc1743c19ced2a961d651f79010fd8fc4acc40
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The repository is explicitly archived and the README states the project has moved to a new repository.
+      decision_reason: This project is excluded because it is archived and primarily an MCP infrastructure component rather than a developer-facing product with ongoing utility.
       decision_evidence:
-        - "Archived: yes"
-        - "README contains a prominent warning: 'This repository is archived.'"
-        - "README states: 'This project has moved to char-index-skill' for continued support."
+        - "Archived flag: 'This repository is archived.'"
+        - Future updates stated to be published from the new repository 'char-index-skill'.
+        - "Stars: 3 (low ecosystem traction)."
       category_candidates: []
       contrastive_reason: null
-      review_reason: null
+      review_reason: "Categorization review required: low confidence"
       review_resume_lifecycle: null

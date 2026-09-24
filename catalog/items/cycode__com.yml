@@ -69,10 +69,12 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: done
-    updated_at: "2026-07-20T15:36:08.956Z"
-    cause: null
-    attempts: 2
+    status: deferred
+    updated_at: "2026-09-24T04:37:04.207Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for cycode__com: Invalid AI response structure: Missing required field: mental_damage"
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
     next_retry_at: null

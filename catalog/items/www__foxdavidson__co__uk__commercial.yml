@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,21 +37,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A UK-based commercial mortgage brokerage service providing finance for business premises and investment properties.
-  why_it_matters: It does not provide software tools, frameworks, or AI infrastructure for software developers.
-  mental_damage: "The ultimate rabbit hole: transitioning from a coding agent to a commercial property owner via a highly specific mortgage broker."
-  tags:
-    - mortgages
-    - real-estate
-    - finance
+  summary: A commercial services page for Fox Davidson.
+  why_it_matters: N/A
+  mental_damage: N/A
+  tags: []
   confidence: high
 curation:
   status: excluded
-  reason: This is a professional financial services website for commercial mortgages, not a developer tool or AI project, despite being erroneously listed in an MCP directory.
+  reason: The input refers to a commercial service website rather than an AI development tool, framework, or curated resource.
   evidence:
-    - Scraped site context shows a mortgage broker offering loans from £250k to £250m
-    - No mention of software, AI, or Model Context Protocol in the actual site content
-    - The inclusion in 'awesome-mcp-servers' appears to be a false positive or an error in that list's curation
+    - No repository description or README provided
+    - URL points to a business service page, not a software product or AI tool
 placement:
   primary_category: null
   section: null
@@ -68,9 +66,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-06-15T05:54:28.078Z"
+    updated_at: "2026-09-24T04:14:25.342Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:ea133bab17c1d5f34bfef73f6dd68fe2e029b4e3157d5626047409691e0fc347
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The input refers to a commercial service website rather than an AI development tool, framework, or curated resource.
+      decision_evidence:
+        - No repository description or README provided
+        - URL points to a business service page, not a software product or AI tool
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

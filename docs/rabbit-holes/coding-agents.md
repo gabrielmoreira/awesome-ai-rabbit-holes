@@ -131,7 +131,7 @@ Agents that directly act on code: planning, writing, editing, reviewing, testing
   `ai-agent` `cli` `mcp` `open-source` `automation`
   </details>
 
-- **[BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)** `⭐ 52.7k` `updated ≤30d` An open-source AI-driven agile development framework with structured workflows, specialized agents, and scale-adaptive planning for software projects. <details><summary>More about</summary>
+- **[BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)** `⭐ 53.4k` `updated ≤30d` An open-source AI-driven agile development framework with structured workflows, specialized agents, and scale-adaptive planning for software projects. <details><summary>More about</summary>
 
   It provides developers with guided, expert-collaborator workflows for end-to-end project development, from brainstorming to deployment, rather than just generating code.
 
@@ -158,6 +158,15 @@ Agents that directly act on code: planning, writing, editing, reviewing, testing
   `ai-agent` `terminal-native` `claude-code-alternative` `mcp-support` `open-source`
   </details>
 
+- **[ui-tars-desktop](https://github.com/bytedance/ui-tars-desktop)** `⭐ 39.1k` `updated ≤30d` An open-source multimodal AI agent stack providing GUI and vision-based agents for terminal, computer, browser, and product integration via CLI, Web UI, and desktop applications. <details><summary>More about</summary>
+
+  It enables developers to automate complex GUI and computer-use workflows with multimodal LLMs, bridging the gap between AI agents and real-world desktop/browser environments.
+
+  _Finally, an AI that can click buttons for you—because manually filling out forms was clearly the last frontier of human dignity._
+
+  `multimodal-agents` `gui-automation` `mcp` `computer-use` `browser-automation`
+  </details>
+
 - **[agent-browser](https://github.com/vercel-labs/agent-browser)** `⭐ 38.9k` `updated ≤90d` Browser automation CLI for AI agents. <details><summary>More about</summary>
 
   Enables AI agents to programmatically control browsers using native Rust performance without Node.js or Playwright dependencies.
@@ -165,15 +174,6 @@ Agents that directly act on code: planning, writing, editing, reviewing, testing
   _Finally, a way to make your AI agent feel less like a confused intern and more like a browser-automating intern with Rust speed._
 
   `browser-automation` `cli` `ai-agents`
-  </details>
-
-- **[ui-tars-desktop](https://github.com/bytedance/ui-tars-desktop)** `⭐ 38.9k` `updated ≤90d` An open-source multimodal AI agent stack providing GUI and vision-based agents for terminal, computer, browser, and product integration via CLI, Web UI, and desktop applications. <details><summary>More about</summary>
-
-  It enables developers to automate complex GUI and computer-use workflows with multimodal LLMs, bridging the gap between AI agents and real-world desktop/browser environments.
-
-  _Finally, an AI that can click buttons for you—because manually filling out forms was clearly the last frontier of human dignity._
-
-  `multimodal-agents` `gui-automation` `mcp` `computer-use` `browser-automation`
   </details>
 
 - **[Continue](https://github.com/continuedev/continue)** `⭐ 35.9k` `updated ≤30d` Open-source coding agent that runs AI checks as GitHub status checks on pull requests. <details><summary>More about</summary>
@@ -212,6 +212,15 @@ Agents that directly act on code: planning, writing, editing, reviewing, testing
   `cli` `vscode` `codegen` `pair-programmer` `langchain`
   </details>
 
+- **[OH-MY-PI](https://github.com/can1357/oh-my-pi)** `⭐ 33k` `updated ≤30d` Terminal-native AI coding agent with hash-anchored edits, LSP, Python, browser, subagents, and multi-provider support. <details><summary>More about</summary>
+
+  Developers get a CLI-first coding assistant that integrates deeply with terminal workflows, offering features like session management, context compaction, and autonomous memory for repo-scale tasks.
+
+  _Finally, a coding agent that remembers your bash history better than you do._
+
+  `terminal-ai` `coding-agent` `multi-provider` `lsp` `cli`
+  </details>
+
 - **[OpenCodeReview](https://github.com/alibaba/open-code-review)** `⭐ 32.4k` `updated ≤30d` An AI-powered CLI tool that performs code reviews using a hybrid architecture of deterministic pipelines and LLM agents. <details><summary>More about</summary>
 
   It provides high-precision, line-level feedback and security vulnerability detection with significantly lower token consumption than general-purpose coding agents.
@@ -228,15 +237,6 @@ Agents that directly act on code: planning, writing, editing, reviewing, testing
   _Finally, an AI assistant that runs in Docker so you can blame the container when it messages your boss instead of you._
 
   `ai-agent` `claude-code` `cli` `containerized` `containers` `messaging` `messaging-bridge` `personal-automation` `self-hosted`
-  </details>
-
-- **[OH-MY-PI](https://github.com/can1357/oh-my-pi)** `⭐ 29.9k` `updated ≤30d` Terminal-native AI coding agent with hash-anchored edits, LSP, Python, browser, subagents, and multi-provider support. <details><summary>More about</summary>
-
-  Developers get a CLI-first coding assistant that integrates deeply with terminal workflows, offering features like session management, context compaction, and autonomous memory for repo-scale tasks.
-
-  _Finally, a coding agent that remembers your bash history better than you do._
-
-  `terminal-ai` `coding-agent` `multi-provider` `lsp` `cli`
   </details>
 
 - **[PicoClaw](https://github.com/sipeed/picoclaw)** `⭐ 29.7k` `updated ≤90d` PicoClaw is an ultra-lightweight, self-bootstrapping AI assistant written in Go that runs on $10 hardware with less than 10MB of RAM. <details><summary>More about</summary>
@@ -509,7 +509,7 @@ Agents that directly act on code: planning, writing, editing, reviewing, testing
   `cli` `coding-agent` `mistral` `terminal` `open-source`
   </details>
 
-- **[agent-device](https://github.com/callstack/agent-device)** `⭐ 4.4k` `updated ≤30d` A CLI that allows AI agents to inspect and interact with mobile and desktop applications through snapshots, accessibility trees, and command execution. <details><summary>More about</summary>
+- **[agent-device](https://github.com/callstack/agent-device)** `⭐ 4.8k` `updated ≤30d` A CLI that allows AI agents to inspect and interact with mobile and desktop applications through snapshots, accessibility trees, and command execution. <details><summary>More about</summary>
 
   It closes the loop for coding agents by giving them a way to verify their changes on real devices or emulators rather than just guessing based on the codebase.
 
@@ -644,7 +644,7 @@ Agents that directly act on code: planning, writing, editing, reviewing, testing
   `cli` `automated-repair` `swe-bench` `patches`
   </details>
 
-- **[Amazon Q Developer CLI](https://github.com/aws/amazon-q-developer-cli)** `⭐ 2k` `updated ≤30d` An agentic terminal interface for building applications using natural language. <details><summary>More about</summary>
+- **[Amazon Q Developer CLI](https://github.com/aws/amazon-q-developer-cli)** `⭐ 2k` `updated ≤90d` An agentic terminal interface for building applications using natural language. <details><summary>More about</summary>
 
   It brings AI-driven task execution and code generation directly into the developer's command line workflow.
 
@@ -653,13 +653,13 @@ Agents that directly act on code: planning, writing, editing, reviewing, testing
   `cli` `terminal` `coding-agent` `aws` `rust`
   </details>
 
-- **[Ante](https://github.com/antigmalabs/ante)** `⭐ 2k` `updated ≤30d` Ante is a self-contained terminal-native coding agent written in Rust that operates like Claude Code or Codex without vendor dependencies or model constraints, shipping as a single ~15MB binary. <details><summary>More about</summary>
+- **[Ante](https://github.com/antigmalabs/ante)** `⭐ 2k` `updated ≤30d` A terminal-native, self-contained coding agent harness written in Rust that supports both cloud models and local offline inference. <details><summary>More about</summary>
 
-  It gives developers a lightweight, offline-capable terminal agent with low resource overhead and zero vendor lock-in, benchmarked publicly against closed-source alternatives.
+  It provides a high-performance, low-footprint alternative to heavyweight agents, allowing developers to run autonomous coding loops entirely offline.
 
-  _It is pitched as substrate for 'self-organizing intelligence' that you can run by the thousands locally, implying the solution to bloated AI agents is simply outnumbering them in your terminal._
+  _Another terminal-based agent to add to the growing pile of tools you'll use to automate the very tasks you're currently procrastinating on._
 
-  `cli` `multi-agent` `offline` `rust` `terminal-agent`
+  `rust` `terminal` `coding-agent` `local-ai` `cli`
   </details>
 
 - **[TmuxAI](https://github.com/alvinunreal/tmuxai)** `⭐ 1.9k` `updated ≤30d` An AI-powered terminal assistant that operates within tmux sessions, observing and interacting with pane content. <details><summary>More about</summary>
@@ -761,13 +761,13 @@ Agents that directly act on code: planning, writing, editing, reviewing, testing
   `browser-automation` `gpt-4` `chrome-extension`
   </details>
 
-- **[Loki Mode](https://github.com/asklokesh/loki-mode)** `⭐ 1.1k` `updated ≤30d` A multi-agent autonomous SDLC framework that transforms PRDs, GitHub issues, or OpenAPI specs into deployed applications using a verified completion loop. <details><summary>More about</summary>
+- **[Loki Mode](https://github.com/asklokesh/loki-mode)** `⭐ 1.1k` `updated ≤30d` A multi-agent autonomous SDLC framework that transforms specifications into deployed applications through a verified, spec-driven execution loop. <details><summary>More about</summary>
 
-  It replaces the 'hope-and-pray' prompt loop with deterministic quality gates and a 'Reason-Act-Reflect-Verify' cycle that refuses to claim a task is finished until tests pass and diffs exist.
+  It automates the end-to-end development lifecycle—from PRDs to deployment—by enforcing quality gates and testing rather than just generating raw code.
 
-  _The dream of 'hand it a spec and walk away' is finally here, though we'll still spend three hours arguing with a 'blind council' of AI reviewers about a naming convention._
+  _It won't accept 'done' until the tests pass, so you can't even pretend the AI isn't the one responsible for the production outage._
 
-  `autonomous-agents` `sdlc` `spec-driven` `ci-cd` `multi-agent`
+  `multi-agent` `sdlc` `spec-driven` `cli` `autonomous`
   </details>
 
 - **[Groq Code CLI](https://github.com/build-with-groq/groq-code-cli)** `⭐ 741` `updated ≤1y` A highly customizable, lightweight, open-source coding CLI powered by Groq for instant iteration. <details><summary>More about</summary>
@@ -1035,15 +1035,6 @@ _These are new or low-traffic entries being watched._
   `cli` `autonomous-agents` `backlog` `pr-automation`
   </details>
 
-- **[DvalinCode](https://github.com/arthurpanhku/dvalincode)** `⭐ 117` `updated ≤30d` A local-first, provider-neutral coding agent available as a terminal interface or a hosted web GUI. <details><summary>More about</summary>
-
-  It offers a high-trust execution environment with sandboxed shell calls, tamper-evident audit logs, and the ability to swap LLM providers without changing code.
-
-  _The promise of a 'small enough to audit' codebase provides a comforting illusion of control while an autonomous agent rewrites your production config in a sandbox you hope is actually locked._
-
-  `local-ai` `cli` `coding-agent` `audit-trail` `provider-agnostic`
-  </details>
-
 - **[Shell-Pilot](https://github.com/reid41/shell-pilot)** `⭐ 116` `updated >1y` A pure shell script that lets developers interact with OpenAI, Ollama, Mistral, Anthropic, and other LLMs directly from the terminal to generate and run commands, manage system tasks, and maintain chat context without external dependencies. <details><summary>More about</summary>
 
   It gives developers a zero-dependency, local-first CLI bridge to multiple LLM providers for on-terminal command generation, system management, and interactive coding chat.
@@ -1080,6 +1071,15 @@ _These are new or low-traffic entries being watched._
   `coding-agent` `autonomous` `cli` `openai-codex`
   </details>
 
+- **[capocasa/3code](https://github.com/capocasa/3code)** `⭐ 84` `updated ≤30d` A terminal-native coding agent designed to minimize token consumption through context compaction and aggressive caching. <details><summary>More about</summary>
+
+  It enables developers to run autonomous coding workflows using low-cost or free-tier models without rapidly exhausting their token budgets.
+
+  _Finally, an agent that respects your bank account as much as your codebase._
+
+  `coding-agent` `cli` `token-optimization` `terminal-native` `nim`
+  </details>
+
 - **[fspec](https://github.com/sengac/fspec)** `⭐ 79` `updated ≤90d` fspec is a CLI and interactive kanban system that enforces spec-driven development, Gherkin scenarios, and TDD guardrails for AI coding agents. <details><summary>More about</summary>
 
   It shifts AI coding from reactive babysitting to a structured loop where specifications, tests, and checkpoints control the implementation lifecycle.
@@ -1096,15 +1096,6 @@ _These are new or low-traffic entries being watched._
   _We have reached the point where building a 149k-line Rust clone of a proprietary CLI is considered the efficient path to coding autonomy._
 
   `cli` `rust` `coding-agent` `open-source` `llm-agnostic`
-  </details>
-
-- **[capocasa/3code](https://github.com/capocasa/3code)** `⭐ 70` `updated ≤30d` A terminal-native coding agent designed to minimize token consumption through context compaction and aggressive caching. <details><summary>More about</summary>
-
-  It enables developers to run autonomous coding workflows using low-cost or free-tier models without rapidly exhausting their token budgets.
-
-  _Finally, an agent that respects your bank account as much as your codebase._
-
-  `coding-agent` `cli` `token-optimization` `terminal-native` `nim`
   </details>
 
 - **[cody](https://github.com/ajhous44/cody)** `⭐ 66` `updated >1y` Cody is an AI coding assistant that uses vector embeddings and real-time file monitoring to answer natural language queries about your codebase. <details><summary>More about</summary>
@@ -1260,7 +1251,7 @@ _These are new or low-traffic entries being watched._
   `ui` `coding-agents` `workflow` `prototyping` `cli`
   </details>
 
-- **[OthmaneBlial/term_mcp_deepseek](https://github.com/othmaneblial/term_mcp_deepseek)** `⭐ 16` `updated ≤1y` A proof-of-concept MCP-like server that connects the DeepSeek API to a persistent terminal session via Flask, allowing an AI chat to execute shell commands. <details><summary>More about</summary>
+- **[OthmaneBlial/term_mcp_deepseek](https://github.com/othmaneblial/term_mcp_deepseek)** `⭐ 16` `updated >1y` A proof-of-concept MCP-like server that connects the DeepSeek API to a persistent terminal session via Flask, allowing an AI chat to execute shell commands. <details><summary>More about</summary>
 
   It offers developers a self-hosted, DeepSeek-powered way to replicate the core 'AI controls terminal' loop popularized by tools like Claude Code, without relying on Anthropic's specific stack.
 
@@ -1386,7 +1377,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `ai-security` `coding-agents` `local-first` `verification`
   </details>
 
-- **[LS-SIEM-LLP/qa-probe](https://github.com/ls-siem-llp/qa-probe)** `⭐ 2` `updated ≤90d` qa-probe is a Node.js CLI tool that maps frontend API calls to backend endpoints, probes them live with auth, and reports root causes for missing or broken data. <details><summary>More about</summary>
+- **[LS-SIEM-LLP/qa-probe](https://github.com/ls-siem-llp/qa-probe)** `⭐ 2` `updated ≤180d` qa-probe is a Node.js CLI tool that maps frontend API calls to backend endpoints, probes them live with auth, and reports root causes for missing or broken data. <details><summary>More about</summary>
 
   It saves developers time diagnosing blank UI states by turning vague 'it shows nothing' complaints into actionable root causes like missing DB seeds or disabled feature flags.
 
@@ -1449,6 +1440,15 @@ _These are new or low-traffic entries being watched._
   `visual-testing` `qa-automation` `visual-ai` `regression-testing`
   </details>
 
+- **[AskToSell](https://asktosell.com)** AskToSell is a curated directory of AI autonomous agents for software development. <details><summary>More about</summary>
+
+  It helps developers discover and evaluate autonomous agents that can plan and execute coding tasks, reducing the time spent searching for reliable AI coding assistants.
+
+  _Another directory of AI agents that promises to solve the problem of too many AI agents._
+
+  `ai-agents` `curated-list` `developer-tools`
+  </details>
+
 - **[Autify](https://autify.com)** An AI-native quality engineering platform designed for autonomous software testing across web, mobile, and desktop applications. <details><summary>More about</summary>
 
   It uses AI agents and natural language to automate end-to-end test creation and execution, reducing manual scripting and maintenance overhead.
@@ -1456,6 +1456,15 @@ _These are new or low-traffic entries being watched._
   _Because nothing says 'peace of mind' quite like trusting an agent to autonomously decide if your new deployment actually works._
 
   `ai-testing` `qa-automation` `e2e-testing` `no-code-testing` `autonomous-agents`
+  </details>
+
+- **[AutoGen AIStudio](https://autogen-studio.com)** A curated list of AI tools, agents, and workflows for software developers. <details><summary>More about</summary>
+
+  This catalog helps developers discover practical AI tools that integrate into their workflows, reducing manual effort and improving productivity.
+
+  _Another AI tool list, because the last 17 this week already promised to 'revolutionize' your workflow while quietly eating your time._
+
+  `ai-dev-extensions` `curated-lists`
   </details>
 
 - **[Blackbox AI](https://blackbox.ai)** Blackbox AI is a multi-agent coding platform offering an AI-native IDE, VS Code extension, CLI, and unified inference API for building and shipping software faster. <details><summary>More about</summary>
@@ -1494,15 +1503,6 @@ _These are new or low-traffic entries being watched._
   `coding-assistant` `tencent` `hunyuan` `code-completion` `code-optimization`
   </details>
 
-- **[CodeGeeX](https://codegeex.cn)** CodeGeeX is an AI-powered coding assistant that provides code completion, translation, and comment generation across more than 20 programming languages. <details><summary>More about</summary>
-
-  It offers a multilingual, large-scale model-driven alternative for automated code generation and documentation within development workflows.
-
-  _Because apparently, supporting twenty different languages isn't enough to satisfy the existential dread of manual boilerplate writing._
-
-  `code-completion` `ai-assistant` `multilingual` `productivity`
-  </details>
-
 - **[Codegen](https://codegen.com/home)** An AI-powered development platform that automates workflows from ticket creation to pull request completion. <details><summary>More about</summary>
 
   It aims to bridge the gap between project management and code execution by treating the development lifecycle as an automated pipeline.
@@ -1510,15 +1510,6 @@ _These are new or low-traffic entries being watched._
   _The sound of your Linear backlog turning itself into pull requests is exactly how I imagined the end of the junior developer._
 
   `ai-coding` `workflow-automation` `agentic-workflows` `devops`
-  </details>
-
-- **[CodeRabbit](https://coderabbit.ai)** An AI-powered pull request reviewer that provides context-aware feedback, line-by-line suggestions, and automated summaries of code changes. <details><summary>More about</summary>
-
-  It automates the tedious parts of code review by spotting edge cases, security flaws, and style violations before human reviewers even open the PR.
-
-  _Now you can finally spend your entire workday arguing with a bot in a PR comment thread instead of just with your senior engineer._
-
-  `code-review` `ai-agent` `pull-request` `automation` `quality-assurance`
   </details>
 
 - **[Codex Infinity](https://codex-infinity.com)** An autonomous coding agent platform that provides advanced reasoning, AI art generation, and cloud orchestration. <details><summary>More about</summary>
@@ -1602,13 +1593,13 @@ _These are new or low-traffic entries being watched._
   `autonomous-agents` `ai-engineer` `software-engineering` `devin` `cognition-ai`
   </details>
 
-- **[Devin](https://cognition.com/blog/introducing-devin)** An autonomous AI software engineer capable of planning and executing complex engineering tasks in a sandboxed compute environment. <details><summary>More about</summary>
+- **[Devin](https://cognition.com/blog/introducing-devin)** An autonomous AI software engineer that plans and executes complex engineering tasks using a terminal, code editor, and browser within a sandboxed environment. <details><summary>More about</summary>
 
-  It aims to move beyond simple code completion by independently managing the full development lifecycle, including browsing docs, running shells, and deploying apps.
+  It attempts to move beyond simple autocomplete to a complete autonomous loop capable of resolving real-world GitHub issues and managing end-to-end engineering workflows.
 
-  _The existential dread of a 'tireless teammate' who can solve GitHub issues independently while you're still trying to figure out why the Docker container won't start._
+  _The specific brand of existential dread that comes from watching an agent resolve a complex GitHub issue faster than you can finish reading the documentation._
 
-  `autonomous-agents` `swe-bench` `sandboxed-runtime` `autonomous-coding`
+  `autonomous-agent` `ai-engineer` `swe-bench` `coding-agent`
   </details>
 
 - **[Devin](https://devin.ai)** An autonomous AI software engineer capable of planning, executing, and managing complex engineering tasks including code migrations and bug fixing. <details><summary>More about</summary>
@@ -1618,15 +1609,6 @@ _These are new or low-traffic entries being watched._
   _Now you can watch a cloud-hosted agent confidently refactor your entire monolith while you sip coffee and pray it doesn't trigger a production outage._
 
   `coding-agent` `autonomous-agent` `software-engineering` `cloud-agent` `refactoring`
-  </details>
-
-- **[Devon](https://devon.ai)** Devon is an AI-powered software engineer designed to automate complex development tasks and manage full software lifecycles. <details><summary>More about</summary>
-
-  It aims to move beyond simple autocomplete by acting as a high-level agent capable of planning and executing entire engineering workflows.
-
-  _One more autonomous agent to convince you that your job is safe, right before it hallucinates a critical bug in production._
-
-  `coding-agent` `software-engineering` `automation`
   </details>
 
 - **[DiffBlue Cover](https://diffblue.com)** Diffblue Testing Agent is an autonomous AI tool that generates, verifies, and fixes unit tests at enterprise scale. <details><summary>More about</summary>
@@ -1656,15 +1638,6 @@ _These are new or low-traffic entries being watched._
   `security` `code-review` `ai-agents` `pull-requests`
   </details>
 
-- **[Factory](https://factory.ai)** An AI-native platform that automates software development life cycle (SDLC) tasks including coding, testing, and deployment. <details><summary>More about</summary>
-
-  It targets the full development loop—from code generation to deployment—aiming to automate entire engineering workflows rather than just writing lines of code.
-
-  _Finally, an automated system to replace the human stress of manual deployment and testing with the optimized stress of managing autonomous droids._
-
-  `coding-agents` `sdlc-automation` `enterprise-ai` `ai-engineering`
-  </details>
-
 - **[GitHub Copilot X](https://github.com/features/preview/copilot-x)** GitHub's suite of agentic features for Copilot, integrating chat, CLI, and automated pull request workflows. <details><summary>More about</summary>
 
   It shifts the developer experience from simple code completion to proactive assistance capable of planning, debugging, and managing repo-wide tasks.
@@ -1690,15 +1663,6 @@ _These are new or low-traffic entries being watched._
   _Finally, a tool that can nag about your code quality without the existential dread of a human reviewer._
 
   `code-review` `ai-agents` `pr-automation` `static-analysis` `enterprise`
-  </details>
-
-- **[Grit](https://docs.grit.io)** Grit is a declarative query language (GritQL) and CLI for searching and transforming source code across large repositories. <details><summary>More about</summary>
-
-  It enables large-scale, programmatic code migrations and automated refactoring that goes beyond simple text search by using a structured query language.
-
-  _Finally, a way to automate the migrations you've been dreading for the last three years._
-
-  `refactoring` `codemod` `cli` `query-language` `automation`
   </details>
 
 - **[HackerOne Code](https://hackerone.com/product/code)** HackerOne Code is a security-focused AI coding assistant for identifying and fixing vulnerabilities in code. <details><summary>More about</summary>
@@ -1753,15 +1717,6 @@ _These are new or low-traffic entries being watched._
   _Another CLI agent to add to your already crowded terminal tabs, because typing `git commit -m` was clearly the bottleneck._
 
   `cli` `coding-agent` `terminal-native` `mentat`
-  </details>
-
-- **[MultiOn](https://theagi.framer.website)** AGI, Inc. provides an on-device agentic intelligence platform designed to act across mobile and desktop applications. <details><summary>More about</summary>
-
-  It offers a pathway for developers to build proactive agents that interact with existing app ecosystems via screen reasoning rather than brittle APIs.
-
-  _The promise of a proactive collaborator that 'lives on the device' means you'll never have to experience the peace of manually clicking a button again._
-
-  `on-device-ai` `mobile-agents` `action-ai` `agentic-workflows`
   </details>
 
 - **[OctoMind](https://octomind.dev)** Octomind is an AI-powered QA platform that creates, runs, and auto-fixes end-to-end tests for web apps. <details><summary>More about</summary>
@@ -1834,15 +1789,6 @@ _These are new or low-traffic entries being watched._
   _Finally, a way to outsource your code review guilt to both a machine and a human at the same time._
 
   `code-review` `security` `ai-human-hybrid` `saas` `vulnerability-detection`
-  </details>
-
-- **[Pythagora](https://pazi.ai)** An AI coding agent designed for automating software development tasks. <details><summary>More about</summary>
-
-  It aims to streamline the development lifecycle by providing an autonomous agent capable of handling complex coding tasks.
-
-  _Another agent to manage, because the only thing missing from my workflow was another black box that might accidentally rewrite my entire auth layer._
-
-  `coding-agent` `automation` `autonomous`
   </details>
 
 - **[Qoder](https://qoder.com)** Qoder is an AI coding platform offering intelligent code completion, conversational programming, and automatic code generation with IDE integrations. <details><summary>More about</summary>
@@ -2023,4 +1969,13 @@ _These are new or low-traffic entries being watched._
   _Another editor to argue about in Slack while your PRs rot._
 
   `editor` `ai-native` `collaboration` `performance`
+  </details>
+
+- **[滑铁卢大学 CS 886: Recent Advances on Foundation Models](https://cs.uwaterloo.ca/~wenhuche/teaching/cs886)** CS 886 is a University of Waterloo course focused on recent advances in foundation models, covering topics from RNNs and transformers to multimodal models and agent systems. <details><summary>More about</summary>
+
+  It gives developers a structured, academic pathway to study cutting-edge AI research and build hands-on experience with foundation model architectures and applications.
+
+  _Students juggle 8-page reports, 12-minute presentations, and weekly readings while trying to stay current with the fast-moving AI frontier._
+
+  `course` `foundation-models` `ai-education`
   </details>

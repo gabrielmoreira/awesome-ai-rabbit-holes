@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__grit__io__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Grit
         anchor_text: Grit
         extracted_url: https://www.grit.io
-        surrounding_text: '## [Grit](https://www.grit.io/)'
+        surrounding_text: "## [Grit](https://www.grit.io/)"
         confidence: high
 metadata:
   github:
@@ -36,20 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Grit is a declarative query language (GritQL) and CLI for searching and transforming source code across large
-    repositories.
-  why_it_matters: >-
-    It enables large-scale, programmatic code migrations and automated refactoring that goes beyond simple text search
-    by using a structured query language.
-  mental_damage: Finally, a way to automate the migrations you've been dreading for the last three years.
+  summary: Grit is a declarative query language and CLI tool for searching and modifying source code across multiple languages using pattern-based rules.
+  why_it_matters: It enables developers to automate large-scale code migrations, linting, and refactoring with scalable, reusable patterns.
+  mental_damage: Finally, a way to feel productive while avoiding the existential dread of manually fixing 10,000 `console.log` calls.
   tags:
-    - refactoring
+    - code-search
     - codemod
     - cli
-    - query-language
-    - automation
-  confidence: high
+    - pattern-matching
+  confidence: medium
 curation:
   status: included
   reason: It acts as a specialized agentic tool for code repair and transformation via its declarative language and CLI.
@@ -59,14 +54,14 @@ curation:
     - Includes auto-fix capabilities for remediation
 placement:
   primary_category: coding-agents
-  section: Review, Testing & Repair
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'app-builders'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.660Z'
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,29 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-20T15:40:36.451Z'
+    updated_at: "2026-09-24T04:38:30.217Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:285a4e950c461884c4f896e546d558081b109e398b8d11ae949ffddb7f0587b9
-      proposed_primary_category: coding-agents
-      disagreement: false
-      decision_reason: It acts as a specialized agentic tool for code repair and transformation via its declarative language and CLI.
+      category_rules_version: c367d6101132
+      input_hash: sha256:6fc4a333469794d253c7352adeb7658f704960c5bd58d8a8c698971e36af859a
+      proposed_primary_category: app-builders
+      disagreement: true
+      decision_reason: Grit is included as an app builder because its core function is transforming codebases via declarative patterns to produce modified, improved code artifacts — effectively scaffolding refactored versions of existing projects.
       decision_evidence:
-        - Claims ability to scale to millions of lines using Rust
-        - Provides GritQL for searching and modifying source code
-        - Includes auto-fix capabilities for remediation
+        - Primary page excerpt describes GritQL as a 'declarative query language for searching and modifying source code' with auto-fix and pattern reuse
+        - Use cases include large-scale migrations, custom linting, and dependency upgrades — all involving code transformation at scale
+        - Source-list context shows it appears in 'awesome-ai-agents' under the section 'Grit - Declarative Code Search and Transformation', indicating recognition as a developer tool
       category_candidates:
+        - app-builders
         - coding-agents
-        - ai-frameworks
-      contrastive_reason: >-
-        Choose coding-agents over ai-frameworks because the product is presented as a functional tool for automating
-        code transformations and repairs rather than just a library to build with.
-      review_reason: null
+      contrastive_reason: Choose app-builders over coding-agents because Grit’s main value is generating transformed codebases from patterns (prompt-to-code transformation), not acting as an autonomous coding assistant that writes or edits code interactively.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'app-builders'"
       review_resume_lifecycle: null

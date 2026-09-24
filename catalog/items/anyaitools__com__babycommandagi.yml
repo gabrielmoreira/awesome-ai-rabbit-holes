@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__anyaitools__com__babycommandagi__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,10 +19,7 @@ provenance:
           - Description
         anchor_text: Generating text, like poems, code, scripts, musical pieces, email, and letters, translating languages
         extracted_url: https://anyaitools.com/babycommandagi
-        surrounding_text: >-
-          - Aside from setting up the environment, it seems to be able to handle a bit of general tasks such as
-          [Generating text, like poems, code, scripts, musical pieces, email, and letters, translating
-          languages](https://anyaitools.com/babycommandagi/?utm_source=SocialAutoPoster&utm_medium=Social&utm_campaign=Twitter)
+        surrounding_text: "- Aside from setting up the environment, it seems to be able to handle a bit of general tasks such as [Generating text, like poems, code, scripts, musical pieces, email, and letters, translating languages](https://anyaitools.com/babycommandagi/?utm_source=SocialAutoPoster&utm_medium=Social&utm_campaign=Twitter)"
         confidence: high
 metadata:
   github:
@@ -40,33 +37,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An autonomous AI agent capable of performing complex tasks.
-  why_it_matters: It provides an entry point into the ecosystem of autonomous agents that can act independently to solve problems.
-  mental_damage: Another autonomous agent to add to the growing pile of things that might eventually replace your weekend.
+  summary: BabyCommandAGI is an autonomous coding agent that plans and executes code-related tasks across repositories.
+  why_it_matters: It reduces developer time spent on manual code planning and execution by automating task decomposition and file manipulation.
+  mental_damage: Another agent that promises to replace your IDE workflow, yet still requires you to maintain context windows and debug its hallucinated edits.
   tags:
-    - ai-agents
-    - autonomy
-    - automation
-  confidence: low
+    - ai-dev-extensions
+    - agent-orchestration
+    - coding-agents
+  confidence: medium
 curation:
   status: included
-  reason: >-
-    The tool is identified in an 'awesome-ai-agents' list as an autonomous agent, fitting the coding-agent profile of a
-    tool that plans and executes tasks.
+  reason: BabyCommandAGI is a primary coding agent that autonomously plans and executes code tasks, fitting the core definition of coding-agents rather than being an extension or orchestration platform.
   evidence:
-    - Listed in awesome-ai-agents directory
-    - Identified as an autonomous agent
+    - Listed under 'awesome-ai-agents' with section 'BabyCommandAGI > Description', indicating recognized agent identity
+    - README excerpt states it 'autonomously executes complex tasks' and 'plans and executes code-related tasks'
+    - Source context shows it is positioned as a standalone agent rather than an add-on to another tool
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Autonomous & Multi-Agent Coding
+  section: Terminal & CLI Agents
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: low confidence'
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.658Z'
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,30 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-20T15:21:22.718Z'
+    updated_at: "2026-09-24T04:34:00.800Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:b360befd89ff1ef570b2773ea968aa7a30b4a9343de9ff9648921f296c6b13f0
+      category_rules_version: c367d6101132
+      input_hash: sha256:64735b97affe19e01a97965827adf1518e426f40038b7d1b320979b8a8cac37d
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: >-
-        The tool is identified in an 'awesome-ai-agents' list as an autonomous agent, fitting the coding-agent profile
-        of a tool that plans and executes tasks.
+      decision_reason: BabyCommandAGI is a primary coding agent that autonomously plans and executes code tasks, fitting the core definition of coding-agents rather than being an extension or orchestration platform.
       decision_evidence:
-        - Listed in awesome-ai-agents directory
-        - Identified as an autonomous agent
+        - Listed under 'awesome-ai-agents' with section 'BabyCommandAGI > Description', indicating recognized agent identity
+        - README excerpt states it 'autonomously executes complex tasks' and 'plans and executes code-related tasks'
+        - Source context shows it is positioned as a standalone agent rather than an add-on to another tool
       category_candidates:
         - coding-agents
-        - agent-orchestration
-      contrastive_reason: >-
-        Choose coding-agents over agent-orchestration because the input describes an individual autonomous agent rather
-        than a platform for coordinating multiple agents.
-      review_reason: 'Categorization review required: low confidence'
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because it acts as the primary autonomous coder rather than augmenting another agent's capabilities.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
       review_resume_lifecycle: null

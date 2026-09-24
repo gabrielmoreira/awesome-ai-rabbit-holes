@@ -6,6 +6,22 @@ identity:
   github_repo: capsulerun/runtime
 provenance:
   discoveries:
+    - id: discovery__github__capsulerun__capsule__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 👨‍💻 <a name="code-execution"></a>Code Execution
+        anchor_text: mavdol/capsule/mcp-server
+        extracted_url: https://github.com/mavdol/capsule
+        surrounding_text: "- [mavdol/capsule/mcp-server](https://github.com/mavdol/capsule/tree/main/integrations/mcp-server) [![capsule-mcp-server MCP server](https://glama.ai/mcp/servers/mavdol/capsule-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/mavdol/capsule-mcp-server) 🦀 🏠 🍎 🪟 🐧 - Run untrusted Python/JavaScript code in WebAssembly sandboxes."
+        confidence: high
     - id: discovery__github__capsulerun__runtime__awesome-list__punkpeye__awesome-mcp-servers
       discovered_at: "2026-09-14T04:13:20.171Z"
       source:
@@ -24,8 +40,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 294
-    forks: 21
+    stars: 296
+    forks: 23
     license: Apache-2.0
     archived: false
     full_name: capsulerun/runtime
@@ -48,36 +64,69 @@ metadata:
       - typescript
       - wasm
       - webassembly
-    last_checked_at: "2026-09-14T04:13:27.203Z"
+    last_checked_at: "2026-09-24T04:13:07.529Z"
     readme:
-      fetched_at: "2026-09-14T04:13:27.203Z"
+      fetched_at: "2026-09-24T04:13:07.529Z"
       bytes: 16386
 insights:
-  summary: A WebAssembly-based secure runtime and SDK for executing untrusted code from AI agents in isolated sandboxes.
-  why_it_matters: It enables developers to safely integrate agentic code-execution capabilities by providing strict resource limits and isolation via Wasm.
-  mental_damage: Because nothing says 'I trust this LLM' like giving it a tiny, walled-off sandbox to play in while you watch the CPU meters.
+  summary: Secure runtime to sandbox AI agent tasks in isolated WebAssembly environments.
+  why_it_matters: Lets developers run untrusted code from AI agents with configurable resource limits and isolation, reducing risk in agentic workflows.
+  mental_damage: Finally, a way to let your AI agents run `eval` without immediately regretting it.
   tags:
-    - wasm
-    - sandbox
     - agent-runtime
+    - ai-agents
+    - code-execution
     - python
+    - sandbox
+    - security
     - typescript
+    - wasm
   confidence: high
 curation:
   status: included
-  reason: It is a code-first SDK and runtime designed to be imported into agentic workflows to provide safe execution environments.
+  reason: Core product is a code-first SDK/runtime for executing untrusted code in isolated environments, fitting the developer-tooling scope as a framework for agent workflows.
   evidence:
+    - "Repo description: 'Secure runtime to sandbox AI agent tasks. Run untrusted code in isolated WebAssembly environments.'"
+    - README shows SDK usage (Python/TypeScript decorators) and CLI for running tasks in Wasm sandboxes
+    - Topics include 'agentic-workflow', 'code-execution', 'sandbox', 'webassembly'
     - Provides Python and TypeScript SDKs for wrapping functions as sandboxed tasks
     - Uses WebAssembly for isolated, resource-constrained execution
     - Primary interaction is via library import and CLI rather than an operated control plane
 placement:
   primary_category: agent-orchestration
-  secondary_categories: []
   section: Agent Runtimes & Harnesses
 lifecycle:
   status: promotion_candidate
-  reason: Stars (294) exceeded threshold (150)
+  reason: Stars (281) exceeded threshold (150)
 processing:
+  categorize:
+    status: skipped
+    updated_at: "2026-09-21T04:14:01.561Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7920aabeb7b5619804764b4ea814fc752dc076cabd9a6c2cf4751bb7e8c2340c
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: Core product is a code-first SDK/runtime for executing untrusted code in isolated environments, fitting the developer-tooling scope as a framework for agent workflows.
+      decision_evidence:
+        - "Repo description: 'Secure runtime to sandbox AI agent tasks. Run untrusted code in isolated WebAssembly environments.'"
+        - README shows SDK usage (Python/TypeScript decorators) and CLI for running tasks in Wasm sandboxes
+        - Topics include 'agentic-workflow', 'code-execution', 'sandbox', 'webassembly'
+      category_candidates:
+        - ai-frameworks
+        - local-ai
+      contrastive_reason: Choose ai-frameworks over local-ai because the primary identity is a code-first SDK/runtime for agent tasks, not a local inference stack.
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-09-14T04:13:20.172Z"
@@ -85,34 +134,6 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-14T04:13:27.203Z"
+    updated_at: "2026-09-24T04:13:07.529Z"
     cause: null
-    next_retry_at: null
-  categorize:
-    status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
-      prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:12092135437d9f7662ebb45b64b3d5c264b85b02e5ae3853ad4500cc577bdfba
-      proposed_primary_category: ai-frameworks
-      disagreement: false
-      decision_reason: It is a code-first SDK and runtime designed to be imported into agentic workflows to provide safe execution environments.
-      decision_evidence:
-        - Provides Python and TypeScript SDKs for wrapping functions as sandboxed tasks
-        - Uses WebAssembly for isolated, resource-constrained execution
-        - Primary interaction is via library import and CLI rather than an operated control plane
-      category_candidates:
-        - ai-frameworks
-        - agent-orchestration
-      contrastive_reason: Choose ai-frameworks over agent-orchestration because the product is primarily consumed as a code-first SDK and runtime for developers to build with, rather than an operated workbench or multi-agent control plane.
-      review_reason: null
-      review_resume_lifecycle: null
-    attempts: 1
-    prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
     next_retry_at: null

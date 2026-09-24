@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__lobbyvoices__com__developers__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-07-13T05:12:52.223Z'
+      discovered_at: "2026-07-13T05:12:52.223Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,14 +19,7 @@ provenance:
           - 🗣️ <a name="conversational-ai"></a>Conversational AI
         anchor_text: Lobby
         extracted_url: https://lobbyvoices.com/developers
-        surrounding_text: >-
-          - [bodyegypt/lobbyvoices-mcp](https://github.com/bodyegypt/lobbyvoices-mcp) [![bodyegypt/lobbyvoices-mcp MCP
-          server](https://glama.ai/mcp/servers/bodyegypt/lobbyvoices-mcp/badges/score.svg)](https://glama.ai/mcp/servers/bodyegypt/lobbyvoices-mcp)
-          🎖️ ☁️ - Official remote MCP server for [Lobby](https://lobbyvoices.com/developers), an AI receptionist for
-          small businesses. Seven free no-auth tools: write business phone scripts and IVR menus (English + Mexican
-          Spanish), generate ElevenLabs agent system prompts, calculate missed-call cost, get a hire-a-receptionist
-          verdict, role-play a call against the live receptionist engine, and get a real demo number to call. Typed
-          structured outputs.
+        surrounding_text: "- [bodyegypt/lobbyvoices-mcp](https://github.com/bodyegypt/lobbyvoices-mcp) [![bodyegypt/lobbyvoices-mcp MCP server](https://glama.ai/mcp/servers/bodyegypt/lobbyvoices-mcp/badges/score.svg)](https://glama.ai/mcp/servers/bodyegypt/lobbyvoices-mcp) 🎖️ ☁️ - Official remote MCP server for [Lobby](https://lobbyvoices.com/developers), an AI receptionist for small businesses. Seven free no-auth tools: write business phone scripts and IVR menus (English + Mexican Spanish), generate ElevenLabs agent system prompts, calculate missed-call cost, get a hire-a-receptionist verdict, role-play a call against the live receptionist engine, and get a real demo number to call. Typed structured outputs."
         confidence: high
 metadata:
   github:
@@ -34,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -42,29 +37,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A free API and MCP server providing AI phone scripts, agent prompts, and missed-call cost calculations.
-  why_it_matters: >-
-    It provides pre-built domain-specific logic and telephony context that agents can use via MCP to handle real-world
-    business communication tasks.
-  mental_damage: >-
-    Now your LLM can realize exactly how much revenue it's costing your business by failing to handle a phone call
-    correctly.
+  summary: An API and MCP server providing tools for generating phone scripts, voice agent prompts, and telephony-related business logic.
+  why_it_matters: It allows developers to easily equip AI agents with specialized conversational telephony capabilities via the Model Context Protocol.
+  mental_damage: Because apparently the final boss of agentic workflows is letting your CLI optimize your business's missed-call recovery math.
   tags:
     - mcp
+    - conversational-ai
+    - voice-agents
     - api
     - telephony
-    - agent-tools
-    - automation
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is centered around an MCP server that provides specific tools (scripts, prompts, math) to
-    external agents.
+  reason: The tool's primary identity is an MCP server that exposes domain-specific conversational AI tools to existing agents.
   evidence:
-    - Explicitly offers an MCP server for Claude Code, Cursor, and Claude Desktop
-    - Provides specific tools like 'generate_elevenlabs_agent_prompt' and 'calculate_missed_call_cost' via MCP
-    - Core utility is providing these domain-specific tools to existing AI assistants
+    - Explicitly offers an MCP server to provide agents with tools like 'write_phone_script' and 'generate_voice_agent_prompt'
+    - Provides a no-key API for telephony logic, including missed-call cost calculations
 placement:
   primary_category: mcp
   secondary_categories: []
@@ -75,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-07-13T05:12:52.225Z'
+    updated_at: "2026-07-13T05:12:52.225Z"
     cause: null
     next_retry_at: null
   stars:
@@ -84,9 +72,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-13T05:23:41.601Z'
+    updated_at: "2026-09-24T04:24:45.660Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:b094ab2eec6ebcdc5705dc852fef5c4ed61f8da655a772974160dbabf72189f9
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool's primary identity is an MCP server that exposes domain-specific conversational AI tools to existing agents.
+      decision_evidence:
+        - Explicitly offers an MCP server to provide agents with tools like 'write_phone_script' and 'generate_voice_agent_prompt'
+        - Provides a no-key API for telephony logic, including missed-call cost calculations
+      category_candidates:
+        - mcp
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because the product identity is an MCP server providing domain-specific tools rather than a plugin designed for a specific IDE or editor.
+      review_reason: null
+      review_resume_lifecycle: null

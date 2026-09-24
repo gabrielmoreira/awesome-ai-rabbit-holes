@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,22 +37,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A browser-based, privacy-focused tool for generating and downloading professional PDF invoices without requiring an account.
-  why_it_matters: Allows freelancers to handle the administrative burden of billing locally in the browser without sending sensitive financial data to a remote server.
-  mental_damage: The pinnacle of 'developer-as-a-service' is building a local-first tool just to avoid the existential dread of yet another SaaS account for a PDF generator.
-  tags:
-    - invoicing
-    - local-first
-    - privacy
-    - pdf-generator
+  summary: A browser-based utility for generating and downloading PDF invoices using local IndexedDB storage.
+  why_it_matters: While useful for freelance administrative tasks, it contains no AI-driven features or developer-centric tooling.
+  mental_damage: Managing your own billing remains one of the few manual tasks that hasn't been successfully automated by a coding agent.
+  tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The tool is a general-purpose business utility for invoicing and does not provide AI tooling, developer infrastructure, or coding assistance, regardless of its presence on an MCP list.
+  reason: The product is a general-purpose business utility for invoicing and lacks any connection to AI, LLMs, or the software development lifecycle.
   evidence:
-    - Scraped site context describes it as a 'free blank invoice template built for freelancers'
-    - Core functionality is client-side PDF generation and IndexedDB storage, not AI/LLM implementation
-    - No evidence of AI-driven features in the product description
+    - Scraped site context describes a tool for freelancers and small businesses to create PDFs
+    - No mention of AI, agents, or developer-facing infrastructure in the product description
 placement:
   primary_category: null
   section: null
@@ -69,9 +66,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-06-25T05:28:44.197Z"
+    updated_at: "2026-09-24T04:19:53.675Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:b1f8efdf6441c1334d5d5270ecb8f544960a6626e1adc18fda02c8629b60a640
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a general-purpose business utility for invoicing and lacks any connection to AI, LLMs, or the software development lifecycle.
+      decision_evidence:
+        - Scraped site context describes a tool for freelancers and small businesses to create PDFs
+        - No mention of AI, agents, or developer-facing infrastructure in the product description
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

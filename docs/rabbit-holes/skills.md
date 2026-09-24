@@ -23,13 +23,13 @@ Reusable skill packs, rules bundles, slash-command sets, and directories that in
   `agent-skills` `claude` `reusable-skills` `workflow-automation`
   </details>
 
-- **[agent-skills](https://github.com/addyosmani/agent-skills)** `⭐ 95.6k` `updated ≤30d` Production-grade engineering skills and workflows for AI coding agents, delivered as reusable rule packs and slash commands. <details><summary>More about</summary>
+- **[agent-skills](https://github.com/addyosmani/agent-skills)** `⭐ 95.6k` `updated ≤30d` A collection of production-grade engineering workflows and slash commands designed to be installed into AI coding agents. <details><summary>More about</summary>
 
-  It provides a standardized set of professional engineering guardrails (spec-first, test-driven, incremental builds) that prevent AI agents from hallucinating their way through a codebase without a plan.
+  It provides structured, senior-engineer-level development lifecycles—like spec-driven development and TDD—to ensure AI agents follow consistent quality gates.
 
-  _The realization that our 'senior engineer' intuition is now just a collection of Markdown files that we're piping into a LLM to keep it from deleting the production database._
+  _Just what every developer needs: a way to outsource the anxiety of code reviews to a set of pre-packaged slash commands._
 
-  `agent-skills` `workflow-automation` `prompt-engineering` `cursor-rules` `claude-code`
+  `agent-skills` `claude-code` `cursor` `workflows` `slash-commands`
   </details>
 
 - **[awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills)** `⭐ 75k` `updated ≤90d` A curated list of 1000+ production-ready Claude Skills and plugins for enhancing AI agent workflows across coding assistants like Claude Code, Cursor, and others. <details><summary>More about</summary>
@@ -198,7 +198,7 @@ _These are new or low-traffic entries being watched._
   `skills` `devops` `kubernetes` `agent-skills` `qovery`
   </details>
 
-- **[ClaudeCode-DevPlanBuilder](https://github.com/mmorris35/claudecode-devplanbuilder)** `⭐ 5` `updated ≤180d` A reusable methodology and template pack for Claude Code that interviews users to generate structured project briefs, detailed development plans, and executor/verifier agent definitions. <details><summary>More about</summary>
+- **[ClaudeCode-DevPlanBuilder](https://github.com/mmorris35/claudecode-devplanbuilder)** `⭐ 5` `updated ≤1y` A reusable methodology and template pack for Claude Code that interviews users to generate structured project briefs, detailed development plans, and executor/verifier agent definitions. <details><summary>More about</summary>
 
   It gives Claude Code a repeatable spec-first workflow for turning product ideas into phased, testable development plans with built-in git discipline.
 
@@ -225,22 +225,22 @@ _These are new or low-traffic entries being watched._
   `agent-skills` `google-docs` `memyard`
   </details>
 
-- **[Agent Skill](https://agentskill.sh)** An AI agent skills directory and marketplace for installing pre-configured capabilities into tools like Claude Code, Cursor, and Windsurf. <details><summary>More about</summary>
+- **[Agent Skill](https://agentskill.sh)** A marketplace and directory for discovering and installing reusable AI agent skills, rule sets, and instruction packs for tools like Claude Code and Cursor. <details><summary>More about</summary>
 
-  It provides a centralized marketplace of ready-to-use agentic behaviors, reducing the time spent on manual prompt engineering and tool configuration.
+  It provides a centralized way for developers to instantly augment their coding assistants with specialized domain knowledge or complex workflow rules via a single command.
 
-  _Because why write your own logic when you can install a 288,000-skill bundle and hope the registry is up to date?_
+  _Because why write your own system prompts when you can subscribe to a marketplace of someone else's._
 
-  `agent-skills` `marketplace` `productivity` `agentic-workflows`
+  `marketplace` `agent-skills` `cursor` `claude-code` `directory`
   </details>
 
-- **[cocoloop hub](https://hub.cocoloop.cn)** hub.cocoloop.cn is a Chinese-language skills marketplace offering downloadable AI agent skills packs for automation workflows. <details><summary>More about</summary>
+- **[cocoloop hub](https://hub.cocoloop.cn)** A marketplace and registry for discovering and downloading reusable skills and capabilities for AI agents. <details><summary>More about</summary>
 
-  It provides a centralized, safety-checked repository of reusable agent skills that developers can integrate into their AI workflows without building from scratch.
+  It provides a centralized hub to find and extend agent functionality with specialized tools like image generation, web search, and automation across multiple platforms.
 
-  _Another skills store promising 'safe' AI agent components, while developers spend more time vetting skills than writing actual code._
+  _It turns your AI agent into a character in an RPG, where utility is measured by how many skill packs you've successfully micro-managed into its prompt._
 
-  `ai-agent-skills` `skills-marketplace` `workflow-automation`
+  `agent-skills` `marketplace` `registry` `mcp` `automation`
   </details>
 
 - **[CursorDirectory](https://cursor.directory)** A curated directory of custom rules and configuration files for the Cursor AI editor. <details><summary>More about</summary>

@@ -50,26 +50,26 @@ metadata:
       fetched_at: "2026-09-17T04:13:34.595Z"
       bytes: 17617
 insights:
-  summary: Deterministic slop detector for AI-generated prose that flags filler phrases via a rule-based CLI and optional MCP server.
-  why_it_matters: Developers who gate AI-drafted docs and changelogs in CI get a repeatable, model-free score and exit code instead of vague 'this sounds AI' feedback.
-  mental_damage: Finally, a linter for the vague corporate adverbs your AI insists on sprinkling through every pull request description.
+  summary: A deterministic CLI and MCP server for detecting filler phrases and 'slop' in AI-generated text without requiring an LLM or API key.
+  why_it_matters: It allows developers to implement CI gates and agent self-correction loops to prevent low-quality, cliché-ridden AI prose from entering production environments.
+  mental_damage: Because we have officially reached the point in the AI cycle where we need specialized linting tools to ensure our agents don't sound like they're stuck in a 2023 LinkedIn thought-leadership post.
   tags:
-    - slop-detector
-    - prose-linter
+    - slop-detection
     - cli
-    - mcp-compatible
-    - ci-gating
+    - mcp
+    - linting
+    - ai-quality
   confidence: high
 curation:
-  status: excluded
-  reason: The product is a standalone prose linter for AI-generated text; none of the catalog's developer-centric categories for coding agents, extensions, evals, or MCP infrastructure fit cleanly, so it falls outside the current scope.
+  status: included
+  reason: The tool's primary identity is a quality-measurement utility that scores and detects specific patterns (slop) in AI outputs, making it a specialized evaluation tool.
   evidence:
-    - README frames the tool as a deterministic prose linter for changelogs and docs, not as a coding assistant, IDE, or eval framework.
-    - The MCP server is an integration feature for agents to self-check drafts; category rules require MCP to be the primary product identity, which it is not.
-    - Appears in awesome-mcp-servers as a server implementation, but source-list placement does not override standalone product identity.
+    - Provides a deterministic score and exit codes for CI/CD integration
+    - Functions as an MCP server to allow agents to self-evaluate their own prose
+    - Specifically designed to measure and identify 'slop' in AI-generated text
 placement:
-  primary_category: null
-  section: null
+  primary_category: evals
+  section: Prompt Regression & Testing
 lifecycle:
   status: incubating
   reason: null
@@ -86,9 +86,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-16T05:09:28.237Z"
+    updated_at: "2026-09-24T04:26:50.520Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:67dfbc171ab15235c06c2aeca2233356cd0e2504e79231336871239ff98e62c1
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The tool's primary identity is a quality-measurement utility that scores and detects specific patterns (slop) in AI outputs, making it a specialized evaluation tool.
+      decision_evidence:
+        - Provides a deterministic score and exit codes for CI/CD integration
+        - Functions as an MCP server to allow agents to self-evaluate their own prose
+        - Specifically designed to measure and identify 'slop' in AI-generated text
+      category_candidates:
+        - evals
+        - extensions-and-addons
+      contrastive_reason: Choose evals over extensions-and-addons because its core identity is the measurement and scoring of AI output quality rather than being a general-purpose integration layer for an editor.
+      review_reason: null
+      review_resume_lifecycle: null

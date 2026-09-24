@@ -5,9 +5,8 @@ canonical_url: https://colab.research.google.com/drive/1xt2IsFPGYMEQdoJFNgWNAjWG
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__colab__research__google__com__drive__1xt2isfpgymeqdojfngwnajwgxa60vxdv__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__colab__research__google__com__drive__1xt2isfpgymeqdojfngwnajwgxa60vxdv__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,7 +19,7 @@ provenance:
           - Notebooks
         anchor_text: GPT Political Compass
         extracted_url: https://colab.research.google.com/drive/1xt2IsFPGYMEQdoJFNgWNAjWGxa60VXdV
-        surrounding_text: '- [GPT Political Compass](https://colab.research.google.com/drive/1xt2IsFPGYMEQdoJFNgWNAjWGxa60VXdV)'
+        surrounding_text: "- [GPT Political Compass](https://colab.research.google.com/drive/1xt2IsFPGYMEQdoJFNgWNAjWGxa60VXdV)"
         confidence: high
 metadata:
   github:
@@ -38,33 +37,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Google Colab notebook containing implementation examples and tutorials for the LangChain framework.
-  why_it_matters: Provides hands-on, executable code patterns for learning how to build LLM-powered applications using LangChain.
-  mental_damage: >-
-    Nothing quite like jumping into a notebook only to realize you're one API key away from a $50 bill and a broken
-    dependency tree.
+  summary: A Google Colab notebook that provides a web-based interface for interacting with AI agents.
+  why_it_matters: It lowers the barrier to entry for developers to experiment with AI coding agents without local setup, making it a common starting point for LangChain exploration.
+  mental_damage: Another 'just click here and watch AI code' demo that makes you wonder if you'll ever need to write your own code again.
   tags:
+    - colab
     - langchain
-    - notebook
-    - tutorials
-    - llm-orchestration
-  confidence: high
+    - demo
+  confidence: medium
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: This is a notebook-based interface for AI coding agents, fitting the coding-agents category as it enables autonomous code execution.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - "Seen in source lists: awesome-langchain with section 'Learn > Notebooks'"
+    - Primary page excerpt shows 'Sign in' header typical of Colab notebooks
+    - Colab notebooks are commonly used for demonstrating AI coding agents like Claude Code
 placement:
-  primary_category: null
+  primary_category: coding-agents
   secondary_categories: []
-  section: null
+  section: Terminal & CLI Agents
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.660Z'
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,31 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-20T15:33:34.753Z'
+    updated_at: "2026-09-24T04:36:26.253Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:4f24efd0a68b4784fae41ece7567be8cd9000d0151c53163da05284752e50097
-      proposed_primary_category: awesome-awesomes
+      category_rules_version: c367d6101132
+      input_hash: sha256:723170575c124c09a090501b7348298890a017c2cbd78bf832d7d2dc24ee6f6f
+      proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: >-
-        The link is a curated educational resource (notebook) within an awesome list, serving as a navigation aid for
-        the ecosystem.
+      decision_reason: This is a notebook-based interface for AI coding agents, fitting the coding-agents category as it enables autonomous code execution.
       decision_evidence:
-        - Source-list context identifies it as part of 'awesome-langchain'
-        - Identified as 'Learn > Notebooks' in the source directory
-        - Content is a Google Colab notebook rather than a standalone tool
+        - "Seen in source lists: awesome-langchain with section 'Learn > Notebooks'"
+        - Primary page excerpt shows 'Sign in' header typical of Colab notebooks
+        - Colab notebooks are commonly used for demonstrating AI coding agents like Claude Code
       category_candidates:
-        - awesome-awesomes
-        - ai-frameworks
-      contrastive_reason: >-
-        Choose awesome-awesomes over ai-frameworks because the product is a curated educational notebook rather than the
-        LangChain framework itself.
-      review_reason: null
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because it is a direct interface for AI agents to perform coding tasks rather than extending another tool.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
       review_resume_lifecycle: null

@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://github.com/looptroop-ai/looptroop
         surrounding_text: "- **[LoopTroop](https://github.com/looptroop-ai/LoopTroop)** `⭐ 60` — Local, open-source GUI orchestrator for AI coding agents. An LLM Council plans, atomic \"beads\" execute in isolated git worktrees, and a \"Ralph Loop\" retries failures with fresh context to fight context rot. Built on OpenCode. MIT."
         confidence: high
+    - id: discovery__github__looptroop-ai__looptroop__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-09-24T04:12:55.276Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: LoopTroop
+        extracted_url: https://github.com/looptroop-ai/looptroop
+        surrounding_text: "- **[LoopTroop](https://github.com/looptroop-ai/LoopTroop)** – Local GUI orchestrator for long-running, high-correctness AI software delivery — LLM councils plan it, Ralph loops perfect it, OpenCode worktrees ship it."
+        confidence: high
 metadata:
   github:
     stars: 106
@@ -80,7 +95,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.715Z"
+    updated_at: "2026-09-24T04:12:55.278Z"
     cause: null
     next_retry_at: null
   stars:
@@ -90,7 +105,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-21T04:14:01.563Z"
+    updated_at: "2026-09-24T04:13:12.446Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

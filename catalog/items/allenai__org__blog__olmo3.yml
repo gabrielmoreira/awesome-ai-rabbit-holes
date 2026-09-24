@@ -36,28 +36,28 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A family of open-source large language models developed by the Allen Institute for AI (AI2).
-  why_it_matters: It provides developers with high-performance, transparently trained alternative models for local deployment and research.
-  mental_damage: Just one more model checkpoint to download and benchmark against your existing weights.
+  summary: Olmo3 is a multimodal large language model developed by AllenAI that supports text, image, and code generation with a focus on reasoning and agent capabilities.
+  why_it_matters: It provides developers with a powerful, open model for building AI applications that require visual understanding and complex reasoning beyond text-only generation.
+  mental_damage: Another model release that promises 'the world's best' without clear differentiation from existing offerings, adding to the already overwhelming choice of LLMs.
   tags:
+    - multimodal
     - llm
-    - open-source
-    - foundation-models
-    - ai2
-  confidence: high
+    - reasoning
+    - agent
+    - allenai
+  confidence: medium
 curation:
-  status: excluded
-  reason: This is a fundamental research model release rather than a developer-facing tool, framework, or workflow product.
+  status: included
+  reason: Olmo3 is positioned as a coding agent with multimodal reasoning capabilities, fitting the primary identity of performing autonomous coding tasks across environments.
   evidence:
-    - URL refers to a research blog post about model releases
-    - Source list context places it in a 'Paper' section
-    - Identified as a model family rather than a tool/SDK/agent
+    - The blog post title and context indicate Olmo3 is a multimodal LLM with agent-focused capabilities
+    - It is included in the 'awesome-LLM-resources' list under 'Agent' and 'coding' related categories
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
 processing:
   discover:
     status: done
@@ -70,25 +70,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:20:53.363Z"
+    updated_at: "2026-09-24T04:33:40.395Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:73658c7a039bf4b7ffc68bb358b9cde19b352c509db809864ad5a11bbd55309b
-      proposed_primary_category: null
+      category_rules_version: c367d6101132
+      input_hash: sha256:b31b250b77e854cbe4b9c0de39b18578e05f17e616dbb6d9e4c7cc4ddea8523a
+      proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: This is a fundamental research model release rather than a developer-facing tool, framework, or workflow product.
+      decision_reason: Olmo3 is positioned as a coding agent with multimodal reasoning capabilities, fitting the primary identity of performing autonomous coding tasks across environments.
       decision_evidence:
-        - URL refers to a research blog post about model releases
-        - Source list context places it in a 'Paper' section
-        - Identified as a model family rather than a tool/SDK/agent
-      category_candidates: []
-      contrastive_reason: null
-      review_reason: null
+        - The blog post title and context indicate Olmo3 is a multimodal LLM with agent-focused capabilities
+        - It is included in the 'awesome-LLM-resources' list under 'Agent' and 'coding' related categories
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because Olmo3 is primarily an autonomous model for coding tasks rather than an extension to another host tool.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
       review_resume_lifecycle: null

@@ -36,26 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An advertising platform for reaching developers through newsletter sponsorships and website placements.
-  why_it_matters: It provides a channel for DevTool and AI tool creators to reach an audience of 50,000+ developers and 11,000+ newsletter subscribers.
-  mental_damage: Another layer of the AI hype cycle optimized for reaching the people currently building it.
+  summary: advertise is a service for promoting DevTools, AI tools, or courses to a developer-first audience of 50k+ AI developers.
+  why_it_matters: It helps developers discover tools by connecting creators with an engaged audience actively seeking AI development resources.
+  mental_damage: Another entity asking for money to be seen by developers who are already drowning in AI tool ads.
   tags:
     - advertising
     - developer-outreach
-    - newsletter
-  confidence: high
+  confidence: low
 curation:
   status: excluded
-  reason: The project is a media/advertising service rather than a developer-facing tool, framework, or resource.
+  reason: advertise is a marketing service, not a developer-facing AI tool, agent, framework, or infrastructure product.
   evidence:
-    - Scraped site content describes advertising services like newsletter features and spot placements
-    - Primary function is targeted exposure for DevTools and AI tools
+    - Homepage states it is 'Reach a developer-first audience actively looking for AI tools, coding workflows, and technical recommendations.'
+    - Primary excerpt says 'Promote your DevTools, AI tools, or courses' and 'Just send an email to get started.'
+    - Seen in source lists as part of 'awesome-ai-coding-tools' for audience reach, not as a tool itself.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -68,24 +68,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:20:06.522Z"
+    updated_at: "2026-09-24T04:33:24.106Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:7f297f2225f0ad8d6192f179d8f11630c5842561e22e768255827cbc8c1f24de
+      category_rules_version: c367d6101132
+      input_hash: sha256:14cd024d4c0cfcc316b121e4a10054dc944dade5146ff577d6f2388d62c502bf
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is a media/advertising service rather than a developer-facing tool, framework, or resource.
+      decision_reason: advertise is a marketing service, not a developer-facing AI tool, agent, framework, or infrastructure product.
       decision_evidence:
-        - Scraped site content describes advertising services like newsletter features and spot placements
-        - Primary function is targeted exposure for DevTools and AI tools
+        - Homepage states it is 'Reach a developer-first audience actively looking for AI tools, coding workflows, and technical recommendations.'
+        - Primary excerpt says 'Promote your DevTools, AI tools, or courses' and 'Just send an email to get started.'
+        - Seen in source lists as part of 'awesome-ai-coding-tools' for audience reach, not as a tool itself.
       category_candidates: []
       contrastive_reason: null
-      review_reason: null
+      review_reason: "Categorization review required: low confidence"
       review_resume_lifecycle: null

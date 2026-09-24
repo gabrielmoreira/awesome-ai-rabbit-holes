@@ -60,26 +60,26 @@ metadata:
       fetched_at: "2026-09-21T04:13:43.082Z"
       bytes: 19618
 insights:
-  summary: A community-driven pronunciation dictionary for developer jargon, shipping as a Bash CLI, VS Code extension, web app, and MCP server with 1,848 entries.
-  why_it_matters: Settles debates on how to say terms like kubectl, GIF, and nginx with IPA transcriptions, audio, and cited sources.
-  mental_damage: The stack is now so deep we need an MCP server to correctly pronounce the names of the tools in the stack.
+  summary: Pronounce is a developer pronunciation dictionary with a CLI, VS Code extension, GitHub Action, MCP server, and agent skill for hearing how to say tech terms like kubectl and nginx.
+  why_it_matters: It saves developers from embarrassing mispronunciations in standups by providing authoritative, sourced audio pronunciations of 1,900+ developer terms.
+  mental_damage: Now you have to worry not just about writing correct code, but also saying its name right in front of your peers.
   tags:
-    - developer-experience
-    - dictionary
-    - cli
-    - mcp-server
     - pronunciation
-  confidence: high
+    - developer-tools
+    - cli
+    - mcp
+    - agent-skill
+  confidence: medium
 curation:
-  status: excluded
-  reason: Core identity is a general developer reference dictionary, not an AI coding tool, agent, or infrastructure product; the MCP server and Claude Code skill are secondary access channels rather than the product's substance.
+  status: included
+  reason: Pronounce is primarily an extension that adds pronunciation capabilities to developer tools like VS Code, Claude Code, and GitHub Actions, rather than being a standalone coding agent or app builder.
   evidence:
-    - README headline focuses on pronouncing jargon aloud for humans, not on AI-assisted development workflows.
-    - Product surfaces include browser UI, CLI, and VS Code extension, with MCP listed as one adapter among many.
-    - Source-list placement in awesome-mcp-servers under Education signals peripheral adapter status rather than core AI tooling identity.
+    - README highlights VS Code extension, GitHub Action, and MCP server as key distribution methods
+    - Repo description frames it as a 'sourced dictionary + CLI + VS Code + GitHub Action + MCP + Agent Skill'
+    - Core utility is augmenting existing workflows (terminal, editor, CI) with pronunciation lookup, not autonomous coding
 placement:
-  primary_category: null
-  section: null
+  primary_category: extensions-and-addons
+  section: IDE & Editor Add-ons
 lifecycle:
   status: incubating
   reason: null
@@ -96,9 +96,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-16T05:12:12.903Z"
+    updated_at: "2026-09-24T04:28:06.356Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:3260d7a40d091fed1869531c20c3e85a99569ae826918f2a337b8b9239eb57d0
+      proposed_primary_category: extensions-and-addons
+      disagreement: false
+      decision_reason: Pronounce is primarily an extension that adds pronunciation capabilities to developer tools like VS Code, Claude Code, and GitHub Actions, rather than being a standalone coding agent or app builder.
+      decision_evidence:
+        - README highlights VS Code extension, GitHub Action, and MCP server as key distribution methods
+        - Repo description frames it as a 'sourced dictionary + CLI + VS Code + GitHub Action + MCP + Agent Skill'
+        - Core utility is augmenting existing workflows (terminal, editor, CI) with pronunciation lookup, not autonomous coding
+      category_candidates:
+        - extensions-and-addons
+        - skills
+      contrastive_reason: Choose extensions-and-addons over skills because Pronounce delivers executable integrations (CLI, VS Code extension, MCP server) that augment host tools, not just installable rule/content packs for agents.
+      review_reason: null
+      review_resume_lifecycle: null

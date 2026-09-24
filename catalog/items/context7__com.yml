@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__context7__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: Context7
         extracted_url: https://context7.com
-        surrounding_text: >-
-          - **[Context7](https://context7.com/)** – MCP server providing up-to-date library documentation to LLMs and AI
-          editors.
+        surrounding_text: "- **[Context7](https://context7.com/)** – MCP server providing up-to-date library documentation to LLMs and AI editors."
         confidence: high
 metadata:
   github:
@@ -38,42 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A service that provides up-to-date, version-specific library documentation and code examples to AI coding tools like
-    Cursor and Claude Code.
-  why_it_matters: >-
-    It solves the hallucination problem in AI coding by injecting fresh, version-correct documentation directly into the
-    LLM's context window.
-  mental_damage: >-
-    Another layer of abstraction to manage just to ensure your AI doesn't hallucinate a method that was deprecated
-    eighteen months ago.
+  summary: Context7 provides up-to-date, version-specific documentation and code examples for AI libraries that can be inserted directly into Cursor, Claude Code, Codex, Devin Desktop, Antigravity, and other AI coding tools.
+  why_it_matters: It solves the constant context-switching and outdated documentation problem developers face when using AI coding assistants with rapidly changing libraries.
+  mental_damage: You'll spend less time Googling stale API docs and more time watching your AI assistant hallucinate import errors because it's working with yesterday's library version.
   tags:
-    - context-retrieval
     - documentation
-    - ai-productivity
-    - cursor-extension
-    - llm-context
+    - ai-coding-tools
+    - developer-productivity
   confidence: high
 curation:
   status: included
-  reason: >-
-    The tool's core value is retrieving and shaping fresh documentation context for LLMs rather than being a standalone
-    assistant or a simple UI extension.
+  reason: The tool's core value is retrieving and shaping fresh documentation context for LLMs rather than being a standalone assistant or a simple UI extension.
   evidence:
-    - 'Scraped site title: ''Up-to-date documentation for LLMs and AI code editors'''
+    - "Scraped site title: 'Up-to-date documentation for LLMs and AI code editors'"
     - Primary function is injecting version-specific documentation into AI tools
     - Claims to provide documentation directly into Cursor and Claude Code
 placement:
   primary_category: memory-and-context
   secondary_categories: []
-  section: Retrieval & Fresh Docs
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement: retained 'memory-and-context', proposed 'coding-agents'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.660Z'
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,31 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-20T15:34:10.453Z'
+    updated_at: "2026-09-24T04:36:23.412Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:05a3533ab8dc09f74edbdd433703519b84b2a50f2e3fc3f2a7f84d9adc8f2b5d
-      proposed_primary_category: context-engineering
-      disagreement: false
-      decision_reason: >-
-        The tool's core value is retrieving and shaping fresh documentation context for LLMs rather than being a
-        standalone assistant or a simple UI extension.
+      category_rules_version: c367d6101132
+      input_hash: sha256:43296e87fcba7f85f5119f2b76d808bdbbaa9734271220c628afa8527a6e5e66
+      proposed_primary_category: coding-agents
+      disagreement: true
+      decision_reason: Context7 is a coding agent because it provides autonomous, interactive assistance by supplying up-to-date documentation and code examples directly into AI coding agents during active development workflows.
       decision_evidence:
-        - 'Scraped site title: ''Up-to-date documentation for LLMs and AI code editors'''
-        - Primary function is injecting version-specific documentation into AI tools
-        - Claims to provide documentation directly into Cursor and Claude Code
+        - README states it pulls documentation 'directly into Cursor, Claude Code, Codex, Devin Desktop, Antigravity and other AI coding tools'
+        - Description explicitly frames the product as 'Up-to-date documentation for LLMs and AI code editors'
+        - Scraped site excerpt confirms the core function is providing version-specific docs to AI coding tools
       category_candidates:
-        - context-engineering
+        - coding-agents
         - ai-dev-extensions
-      contrastive_reason: >-
-        Choose context-engineering over ai-dev-extensions because the core novelty is the retrieval and freshness of the
-        documentation context provided to the host, not the integration layer itself.
-      review_reason: null
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because it provides autonomous documentation assistance as its primary identity rather than merely augmenting a host tool with a side feature.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement: retained 'memory-and-context', proposed 'coding-agents'"
       review_resume_lifecycle: null

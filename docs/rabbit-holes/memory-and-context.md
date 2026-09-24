@@ -239,7 +239,7 @@ Systems that improve what goes into the model: persistent agent memory, retrieva
   `langchain` `rag` `pdf` `cli` `huggingface`
   </details>
 
-- **[Caura](https://github.com/caura-ai/caura)** `⭐ 487` `updated ≤30d` Caura is a governed shared memory layer for AI agent fleets that enables multi-agent knowledge sharing, retrieval, and self-improving recall under trust tiers and audit trails. <details><summary>More about</summary>
+- **[Caura](https://github.com/caura-ai/caura)** `⭐ 534` `updated ≤30d` Caura is a governed shared memory layer for AI agent fleets that enables multi-agent knowledge sharing, retrieval, and self-improving recall under trust tiers and audit trails. <details><summary>More about</summary>
 
   It solves the fragmentation of agent learning by turning individual interactions into compounding fleet intelligence, reducing redundant mistakes and token waste.
 
@@ -522,7 +522,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `context-engineering` `local-first` `semantic-search` `codebase-mapping`
   </details>
 
-- **[agent-toolkit](https://github.com/video-db/agent-toolkit)** `⭐ 47` `updated ≤180d` An open-source agent toolkit that auto-syncs SDK versions, docs, and examples for LLMs and AI agents, with MCP and llms.txt integration for VideoDB. <details><summary>More about</summary>
+- **[agent-toolkit](https://github.com/video-db/agent-toolkit)** `⭐ 47` `updated ≤1y` An open-source agent toolkit that auto-syncs SDK versions, docs, and examples for LLMs and AI agents, with MCP and llms.txt integration for VideoDB. <details><summary>More about</summary>
 
   It reduces context drift in AI coding workflows by keeping LLM-facing documentation and SDK examples up to date automatically.
 
@@ -666,6 +666,15 @@ _These are new or low-traffic entries being watched._
   `mcp` `context-engineering` `self-hosted` `agentic-workflow`
   </details>
 
+- **[bshea-1/Routed](https://github.com/bshea-1/routed)** `⭐ 22` `updated ≤30d` A local hybrid search engine that routes coding prompts to specific agent skills to minimize context pollution and token costs. <details><summary>More about</summary>
+
+  It enables developers to use large, specialized skill sets in their AI assistants without overwhelming the model's context window or increasing latency.
+
+  _Another layer of middleware to debug when your agent suddenly forgets how to write Python because of a BM25 weighting error._
+
+  `mcp` `prompt-routing` `local-ai` `context-management` `agent-skills`
+  </details>
+
 - **[promptext](https://github.com/1broseidon/promptext)** `⭐ 22` `updated ≤180d` A CLI tool that extracts and optimizes codebase context into token-efficient formats for LLMs. <details><summary>More about</summary>
 
   It solves the tedious process of manually selecting relevant files and managing token budgets when feeding large repositories into AI assistants.
@@ -720,15 +729,6 @@ _These are new or low-traffic entries being watched._
   `local-first` `memory` `multi-agent` `context` `mcp`
   </details>
 
-- **[bshea-1/Routed](https://github.com/bshea-1/routed)** `⭐ 20` `updated ≤30d` A local hybrid search engine that routes coding prompts to specific agent skills to minimize context pollution and token costs. <details><summary>More about</summary>
-
-  It enables developers to use large, specialized skill sets in their AI assistants without overwhelming the model's context window or increasing latency.
-
-  _Another layer of middleware to debug when your agent suddenly forgets how to write Python because of a BM25 weighting error._
-
-  `mcp` `prompt-routing` `local-ai` `context-management` `agent-skills`
-  </details>
-
 - **[GetCacheOverflow/CacheOverflow](https://github.com/getcacheoverflow/cacheoverflow)** `⭐ 19` `updated ≤1y` A distributed knowledge base for AI agents to share, discover, and publish verified technical solutions. <details><summary>More about</summary>
 
   It aims to reduce redundant debugging by allowing agents to retrieve proven solutions from a shared, human-verified repository.
@@ -765,6 +765,15 @@ _These are new or low-traffic entries being watched._
   `mcp` `prompt-templates` `go`
   </details>
 
+- **[besslframework-stack/project-tessera](https://github.com/besslframework-stack/project-tessera)** `⭐ 17` `updated ≤1y` Tessera is a local-first, encrypted memory layer for AI assistants with 58 MCP tools and 54 REST endpoints. <details><summary>More about</summary>
+
+  It gives developers persistent, searchable, and self-maintaining memory for AI workflows without external dependencies or infrastructure.
+
+  _Finally, a way to remember what your AI forgot five minutes ago—now with 58 ways to lose the encryption key._
+
+  `memory` `mcp` `local-first` `encryption` `context-engineering`
+  </details>
+
 - **[masondelan/selvedge](https://github.com/masondelan/selvedge)** `⭐ 17` `updated ≤90d` A local MCP server that captures an AI agent's reasoning live as code changes are made, storing structured change events with justifications in a local SQLite database for later audit. <details><summary>More about</summary>
 
   It solves the 'why did the AI add this' mystery by creating a persistent audit trail of agent reasoning that survives long after the coding session and context window vanish.
@@ -772,24 +781,6 @@ _These are new or low-traffic entries being watched._
   _We have successfully built git blame for hallucinations, so you can now scientifically document exactly when your agent decided to migrate the database at 2 AM for reasons it already forgot._
 
   `mcp` `memory` `codebase-audit` `agent-trace` `sqlite`
-  </details>
-
-- **[20alexl/claude-engram](https://github.com/20alexl/claude-engram)** `⭐ 16` `updated ≤30d` A persistent memory and session intelligence layer that tracks decisions, mistakes, and context via hooks for AI coding assistants like Claude Code. <details><summary>More about</summary>
-
-  It solves the 'context amnesia' problem by automatically mining session histories to prevent repetitive mistakes and inject relevant past decisions into current coding tasks.
-
-  _Finally, a tool to help you realize that 40% of your coding session was just you arguing with the LLM about the same typo._
-
-  `mcp-server` `persistent-memory` `claude-code` `context-management` `session-mining`
-  </details>
-
-- **[besslframework-stack/project-tessera](https://github.com/besslframework-stack/project-tessera)** `⭐ 16` `updated ≤1y` Tessera is a local-first, encrypted memory layer for AI assistants with 58 MCP tools and 54 REST endpoints. <details><summary>More about</summary>
-
-  It gives developers persistent, searchable, and self-maintaining memory for AI workflows without external dependencies or infrastructure.
-
-  _Finally, a way to remember what your AI forgot five minutes ago—now with 58 ways to lose the encryption key._
-
-  `memory` `mcp` `local-first` `encryption` `context-engineering`
   </details>
 
 - **[jarvis-orb](https://github.com/thestack-ai/jarvis-orb)** `⭐ 16` `updated ≤180d` A Rust + Tauri desktop app and MCP server that gives Claude Code and other assistants persistent multi-tier memory plus a real-time 3D orb visualization of AI reasoning. <details><summary>More about</summary>
@@ -963,7 +954,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `context-compression` `token-optimization` `ast` `local-ai`
   </details>
 
-- **[LuizEduPP/rememb](https://github.com/luizedupp/rememb)** `⭐ 4` `updated ≤90d` rememb is a local, zero-config persistent memory system for AI agents that stores project context in a .rememb/ directory and works via MCP with Cursor, Windsurf, and Claude. <details><summary>More about</summary>
+- **[LuizEduPP/rememb](https://github.com/luizedupp/rememb)** `⭐ 4` `updated ≤180d` rememb is a local, zero-config persistent memory system for AI agents that stores project context in a .rememb/ directory and works via MCP with Cursor, Windsurf, and Claude. <details><summary>More about</summary>
 
   It solves the repetitive context reloading problem in AI-assisted development by giving agents project-scoped memory that survives sessions without requiring cloud services or API keys.
 
@@ -1089,7 +1080,7 @@ _These are new or low-traffic entries being watched._
   `memory` `cli` `workflow` `multi-model` `skills`
   </details>
 
-- **[ShipItAndPray/mcp-compress](https://github.com/shipitandpray/mcp-compress)** `⭐ 2` `updated ≤180d` An MCP server that provides 7 tools for compressing, decompressing, analyzing, and storing text, JSON, CSV, and log data using algorithms like brotli, gzip, and deflate, designed to reduce context window usage for AI agents. <details><summary>More about</summary>
+- **[ShipItAndPray/mcp-compress](https://github.com/shipitandpray/mcp-compress)** `⭐ 2` `updated ≤1y` An MCP server that provides 7 tools for compressing, decompressing, analyzing, and storing text, JSON, CSV, and log data using algorithms like brotli, gzip, and deflate, designed to reduce context window usage for AI agents. <details><summary>More about</summary>
 
   It lets agents shrink large API responses, logs, and docs before they hit the context window, potentially lowering token costs and fitting more data into limited space.
 
@@ -1150,15 +1141,6 @@ _These are new or low-traffic entries being watched._
   _Because now your agents can finally build a coherent, shared personality based on the digital wreckage of your life._
 
   `context` `memory` `mcp` `sdk` `agent-infrastructure`
-  </details>
-
-- **[Context7](https://context7.com)** A service that provides up-to-date, version-specific library documentation and code examples to AI coding tools like Cursor and Claude Code. <details><summary>More about</summary>
-
-  It solves the hallucination problem in AI coding by injecting fresh, version-correct documentation directly into the LLM's context window.
-
-  _Another layer of abstraction to manage just to ensure your AI doesn't hallucinate a method that was deprecated eighteen months ago._
-
-  `context-retrieval` `documentation` `ai-productivity` `cursor-extension` `llm-context`
   </details>
 
 - **[Dash](https://kapeli.com/dash)** Dash is a macOS API documentation browser and code snippet manager with offline access to 200+ documentation sets and MCP support for AI assistant integration. <details><summary>More about</summary>
@@ -1242,13 +1224,13 @@ _These are new or low-traffic entries being watched._
   `prompt-management` `prompt-engineering` `versioning` `testing` `collaboration`
   </details>
 
-- **[PromptLayer 🍰](https://promptlayer.com)** PromptLayer is a developer platform for versioning, testing, and monitoring prompts and AI agents through robust evals, tracing, and regression sets. <details><summary>More about</summary>
+- **[PromptLayer 🍰](https://promptlayer.com)** A platform for managing prompt versions, running LLM evaluations, and monitoring agent observability in production. <details><summary>More about</summary>
 
-  It gives developers a structured way to track prompt changes, run regression tests, and collaborate with domain experts via a visual editor.
+  It decouples prompt iteration from application deployment, allowing domain experts to update model behavior without engineer intervention.
 
-  _Yet another platform to manage the layers of abstraction we keep adding so we can pretend our prompts are now enterprise-grade software._
+  _It turns your mission-critical logic into a visual CMS, making 'it worked in staging' a much more complicated question._
 
-  `evals` `evaluations` `llmops` `observability` `prompt-management` `tracing`
+  `prompt-management` `llmops` `observability` `evals` `tracing`
   </details>
 
 - **[Tavily](https://tavily.com)** A real-time search and content extraction API designed to provide fresh web context for AI agents and RAG workflows. <details><summary>More about</summary>

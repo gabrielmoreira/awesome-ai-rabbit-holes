@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__deepmind__google__models__gemini__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Code Models
         anchor_text: Gemini (Google)
         extracted_url: https://deepmind.google/technologies/gemini
-        surrounding_text: >-
-          - **[Gemini (Google)](https://deepmind.google/technologies/gemini/)** – Powers Google Code Assist, Gemini CLI,
-          and Antigravity with 1M token context.
+        surrounding_text: "- **[Gemini (Google)](https://deepmind.google/technologies/gemini/)** – Powers Google Code Assist, Gemini CLI, and Antigravity with 1M token context."
         confidence: high
 metadata:
   github:
@@ -38,35 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Google's multimodal frontier intelligence family of models, including Gemini 3.5 Flash and Pro.
-  why_it_matters: >-
-    These models power high-performance agentic workflows, long-context reasoning, and multimodal task execution across
-    various developer tools.
-  mental_damage: It's another massive model family to benchmark before the next one drops in six months.
+  summary: Gemini is DeepMind's flagship family of multimodal AI models designed for building intelligent agents and applications.
+  why_it_matters: It provides developers with state-of-the-art reasoning and multimodal capabilities to build complex, autonomous workflows and applications.
+  mental_damage: Another frontier model with 15+ variants and constantly shifting pricing, promising 'intelligent agents' while you spend weeks debugging which Flash-Lite version actually works for your task.
   tags:
     - multimodal
-    - agentic-workflows
-    - long-context
-    - frontier-models
+    - agentic-coding
+    - foundation-models
   confidence: high
 curation:
-  status: included
-  reason: Gemini is a foundational model family used as the underlying engine for developers building agents and applications.
+  status: excluded
+  reason: Gemini is a model family and provider API, not a developer-facing coding agent, app builder, or tool that fits the catalog's product identity requirements.
   evidence:
-    - Scraped context describes it as 'Frontier intelligence with action'
-    - README excerpt emphasizes building 'intelligent agents' and 'agentic workflows'
-    - Includes specialized models like Gemini 3.5 Flash for agentic coding and reasoning
+    - Repo description is missing and homepage contains no product identity beyond being a model family.
+    - Scraped site context shows Gemini is a collection of models (Flash, Pro, Robotics, etc.) with no standalone developer tool identity.
+    - Source-list context places it in 'Frontier intelligence with action' under Code Models, indicating it's a foundational model, not a coding agent.
+    - The product is primarily an API and platform (Google AI Studio, Gemini API) for accessing models, not a self-contained tool for coding tasks.
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   secondary_categories: []
-  section: Provider & Model Abstractions
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.660Z'
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,31 +71,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-20T15:36:43.331Z'
+    updated_at: "2026-09-24T04:37:16.657Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:3901e67a3ecc19827a501e5a7a6f8d4b72dd6a9dbe8f3d748331ab0653058820
-      proposed_primary_category: ai-frameworks
+      category_rules_version: c367d6101132
+      input_hash: sha256:b0a48b1f76776f90763e64ab7655074f1a78e728c26d755d0b732a75cb78c22e
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Gemini is a foundational model family used as the underlying engine for developers building agents and
-        applications.
+      decision_reason: Gemini is a model family and provider API, not a developer-facing coding agent, app builder, or tool that fits the catalog's product identity requirements.
       decision_evidence:
-        - Scraped context describes it as 'Frontier intelligence with action'
-        - README excerpt emphasizes building 'intelligent agents' and 'agentic workflows'
-        - Includes specialized models like Gemini 3.5 Flash for agentic coding and reasoning
-      category_candidates:
-        - ai-frameworks
-        - coding-agents
-      contrastive_reason: >-
-        Choose ai-frameworks over coding-agents because Gemini is a provider of model capabilities used by other tools
-        rather than being a standalone coding assistant itself.
+        - Repo description is missing and homepage contains no product identity beyond being a model family.
+        - Scraped site context shows Gemini is a collection of models (Flash, Pro, Robotics, etc.) with no standalone developer tool identity.
+        - Source-list context places it in 'Frontier intelligence with action' under Code Models, indicating it's a foundational model, not a coding agent.
+        - The product is primarily an API and platform (Google AI Studio, Gemini API) for accessing models, not a self-contained tool for coding tasks.
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

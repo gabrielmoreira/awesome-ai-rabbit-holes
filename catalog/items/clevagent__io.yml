@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__clevagent__io__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,12 +19,7 @@ provenance:
           - Observability
         anchor_text: ClevAgent
         extracted_url: https://clevagent.io
-        surrounding_text: >-
-          | [ClevAgent](https://clevagent.io)                                              | Runtime monitoring for AI
-          agents — heartbeat watchdog, loop detection, cost tracking, auto-restart. Python SDK or HTTP
-          API.                                                                                                   
-          |                                                                                                                 
-          |
+        surrounding_text: "| [ClevAgent](https://clevagent.io)                                              | Runtime monitoring for AI agents — heartbeat watchdog, loop detection, cost tracking, auto-restart. Python SDK or HTTP API.                                                                                                    |                                                                                                                  |"
         confidence: high
 metadata:
   github:
@@ -42,42 +37,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A supervised terminal workspace that intercepts AI agent commands to prevent security risks and wasted token spend.
-  why_it_matters: It adds a necessary safety and cost-control layer between autonomous agents and your local system/terminal.
-  mental_damage: >-
-    Now you can finally watch your agent's budget and security profile in real-time while it accidentally tries to
-    delete your home directory.
+  summary: ClevAgent is a supervised terminal layer that adds guidance and safety checks for AI agents running in developer environments.
+  why_it_matters: It reduces wasted effort and security risks when running AI agents by enforcing guardrails and auditing actions.
+  mental_damage: Another layer of AI supervision that makes you wait for approvals while the agent sits idle, echoing the anxiety of the last year’s AI tooling chaos.
   tags:
-    - agent-safety
-    - terminal-automation
-    - observability
-    - ai-security
-    - cost-optimization
-  confidence: high
+    - ai-dev-extensions
+    - mcp
+  confidence: medium
 curation:
   status: included
-  reason: >-
-    The core novelty is a context-shaping system that detects memory bloat, duplicate reads, and pathological loops,
-    then injects guidance to trim context and improve workspace hygiene.
+  reason: The core novelty is a context-shaping system that detects memory bloat, duplicate reads, and pathological loops, then injects guidance to trim context and improve workspace hygiene.
   evidence:
-    - >-
-      Product description states it 'sits between the agent and its work, adding guidance when the session needs a
-      better next move'.
+    - Product description states it 'sits between the agent and its work, adding guidance when the session needs a better next move'.
     - Features explicitly include 'Keep Memory Lean' and 'Reduce Wasteful Calls' through context and memory management.
-    - >-
-      Listed in Awesome-LLMOps under 'Security > Observability' as a tool for supervising agent execution and
-      visibility.
+    - Listed in Awesome-LLMOps under 'Security > Observability' as a tool for supervising agent execution and visibility.
 placement:
   primary_category: extensions-and-addons
   secondary_categories: []
-  section: Security & DevSecOps
+  section: null
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''context-engineering'', proposed ''ai-dev-extensions'''
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement: retained 'extensions-and-addons', proposed 'coding-agents'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.659Z'
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
@@ -86,33 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-07-20T15:30:04.879Z'
+    updated_at: "2026-09-24T04:35:21.203Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:8a52615da47d5d3c9d312c0de309333c0ff9be11a369fb2bc2358eb60e250485
-      proposed_primary_category: ai-dev-extensions
+      category_rules_version: c367d6101132
+      input_hash: sha256:0e1bfbabd51109e749c9751325098520a07cfdd594d6281e2b3e302be0839e82
+      proposed_primary_category: coding-agents
       disagreement: true
-      decision_reason: >-
-        It acts as a supervisor/middleware that augments existing agents with safety and optimization capabilities
-        rather than being a primary coding assistant itself.
+      decision_reason: ClevAgent is a primary coding agent that autonomously runs and modifies code in a terminal, making it a core coding agent rather than just an extension.
       decision_evidence:
-        - README describes it as 'The Middle Layer for AI Agent Work'
-        - Claims to intercept wasteful work and security risks in live terminal sessions
-        - Provides a visual workspace to guide and protect agent execution
+        - "Scraped site context states: 'Run AI agents inside a supervised terminal' and describes real-time intervention and workspace orchestration for agent actions."
+        - Source-list context places it in 'Awesome-LLMOps' under 'Security > Observability' as a tool that 'catches wasted work and surfacing safety risks' for AI agents.
+        - The 'System Intercept' and 'Real-time Intervention' features show it acts as a primary agent runtime with safety checks, not a secondary plugin.
       category_candidates:
-        - ai-dev-extensions
         - coding-agents
-      contrastive_reason: >-
-        Choose ai-dev-extensions over coding-agents because the tool functions as a supervisory layer that intercepts
-        and augments agent behavior rather than being the primary engine that writes the code.
-      review_reason: >-
-        Categorization review required: placement disagreement: retained 'context-engineering', proposed
-        'ai-dev-extensions'
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because ClevAgent is the primary runtime for AI agents executing coding tasks, not a plugin extending another host.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement: retained 'extensions-and-addons', proposed 'coding-agents'"
       review_resume_lifecycle: null

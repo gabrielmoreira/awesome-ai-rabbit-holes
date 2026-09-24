@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__capacity__so__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - App Builders
         anchor_text: Capacity
         extracted_url: https://capacity.so
-        surrounding_text: >-
-          - **[Capacity](https://capacity.so/)** – Agentic platform using Claude Code to turn ideas into full-stack web
-          apps.
+        surrounding_text: "- **[Capacity](https://capacity.so/)** – Agentic platform using Claude Code to turn ideas into full-stack web apps."
         confidence: high
 metadata:
   github:
@@ -39,12 +37,8 @@ metadata:
     readme: null
 insights:
   summary: An AI-powered platform that generates full-stack web and mobile applications from natural language descriptions.
-  why_it_matters: >-
-    It streamlines the path from idea to deployment by automating the generation of React, TypeScript, and backend
-    infrastructure.
-  mental_damage: >-
-    It brings us one step closer to the era where 'building an app' is just a fancy way of saying 'typing a very long
-    paragraph'.
+  why_it_matters: It streamlines the path from idea to deployment by automating the generation of React, TypeScript, and backend infrastructure.
+  mental_damage: It brings us one step closer to the era where 'building an app' is just a fancy way of saying 'typing a very long paragraph'.
   tags:
     - prompt-to-app
     - full-stack
@@ -54,9 +48,7 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is generating complete, deployable applications from prompts rather than assisting a
-    developer with existing code.
+  reason: The product's core identity is generating complete, deployable applications from prompts rather than assisting a developer with existing code.
   evidence:
     - Claims to generate 'production-ready React applications with Tailwind CSS, TypeScript, and tRPC/REST APIs
     - Features a 'Spec Mode' to transform ideas into detailed implementation plans
@@ -71,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.659Z'
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
@@ -79,10 +71,12 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: done
-    updated_at: '2026-07-20T15:29:14.269Z'
-    cause: null
-    attempts: 2
+    status: deferred
+    updated_at: "2026-09-24T04:35:13.819Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for capacity__so: Invalid AI response structure: Invalid confidence value: undefined"
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
     next_retry_at: null
@@ -93,9 +87,7 @@ processing:
       input_hash: sha256:7ce67b8cf917e3d4c49fdafc5f6240ec0930ad0dc816cd1eee4b797a884247f9
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: >-
-        The product's core identity is generating complete, deployable applications from prompts rather than assisting a
-        developer with existing code.
+      decision_reason: The product's core identity is generating complete, deployable applications from prompts rather than assisting a developer with existing code.
       decision_evidence:
         - Claims to generate 'production-ready React applications with Tailwind CSS, TypeScript, and tRPC/REST APIs
         - Features a 'Spec Mode' to transform ideas into detailed implementation plans
@@ -103,8 +95,6 @@ processing:
       category_candidates:
         - app-builders
         - spec-driven-development
-      contrastive_reason: >-
-        Choose app-builders over spec-driven-development because the final output is a complete, deployed application
-        rather than just a structured specification or plan.
+      contrastive_reason: Choose app-builders over spec-driven-development because the final output is a complete, deployed application rather than just a structured specification or plan.
       review_reason: null
       review_resume_lifecycle: null

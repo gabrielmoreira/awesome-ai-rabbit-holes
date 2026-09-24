@@ -122,15 +122,6 @@ Plugins, integrations, and tools that extend a coding agent, editor, or developm
   `figma` `mcp` `design-to-code` `ai-dev-extensions`
   </details>
 
-- **[awdr74100/figwright](https://github.com/awdr74100/figwright)** `⭐ 829` `updated ≤30d` Figwright is a bidirectional MCP server and Figma plugin that enables AI agents to read and write Figma designs while generating framework-aware code. <details><summary>More about</summary>
-
-  It lets developers use Claude Code, Cursor, or any MCP client to directly implement and edit designs in Figma without requiring a paid Dev Mode seat.
-
-  _Finally, a way to make your AI assistant feel useful while it redraws your button for the twelfth time because it still doesn’t understand your design system._
-
-  `mcp` `figma` `design-to-code` `bidirectional` `codegen`
-  </details>
-
 - **[dannote/figma-use](https://github.com/dannote/figma-use)** `⭐ 600` `updated ≤90d` A CLI tool that provides full read/write access to Figma for AI agents, enabling programmatic creation and manipulation of design elements via commands or JSX. <details><summary>More about</summary>
 
   It lets developers and AI agents automate Figma workflows directly from the terminal, bridging the gap between code and design tooling.
@@ -192,15 +183,6 @@ Plugins, integrations, and tools that extend a coding agent, editor, or developm
   _It adds a necessary, highly uncomfortable layer of paranoia to the 'install and forget' agent workflow._
 
   `security` `ai-agents` `mcp` `audit` `devops`
-  </details>
-
-- **[aresyn/codex-control-plane-mcp](https://github.com/aresyn/codex-control-plane-mcp)** `⭐ 123` `updated ≤30d` A durable MCP control plane that enables MCP clients to drive long-running Codex Desktop tasks asynchronously. <details><summary>More about</summary>
-
-  It prevents MCP timeouts and duplicate prompt errors by providing a persistent state layer for complex, multi-hour agentic workflows with polling and approval loops.
-
-  _The realization that our AI agents now require their own dedicated control planes and database leases just to survive a long-running task without crashing._
-
-  `mcp` `codex` `orchestration` `async-workflows` `developer-tools`
   </details>
 
 ## Incubating
@@ -306,6 +288,15 @@ _These are new or low-traffic entries being watched._
   `vs-code-extension` `code-explanation` `move-language` `gpt-integration`
   </details>
 
+- **[anzy-renlab-ai/pronounce](https://github.com/anzy-renlab-ai/pronounce)** `⭐ 39` `updated ≤30d` Pronounce is a developer pronunciation dictionary with a CLI, VS Code extension, GitHub Action, MCP server, and agent skill for hearing how to say tech terms like kubectl and nginx. <details><summary>More about</summary>
+
+  It saves developers from embarrassing mispronunciations in standups by providing authoritative, sourced audio pronunciations of 1,900+ developer terms.
+
+  _Now you have to worry not just about writing correct code, but also saying its name right in front of your peers._
+
+  `pronunciation` `developer-tools` `cli` `mcp` `agent-skill`
+  </details>
+
 - **[themesberg/flowbite-mcp](https://github.com/themesberg/flowbite-mcp)** `⭐ 38` `updated ≤1y` An official MCP server that gives AI assistants access to Flowbite's Tailwind CSS component library and converts Figma designs into code. <details><summary>More about</summary>
 
   Developers using MCP-compatible editors can pull production-ready UI components and translate Figma designs directly into their codebase without leaving the assistant.
@@ -378,13 +369,13 @@ _These are new or low-traffic entries being watched._
   `governance` `ai-agents` `audit-trails` `task-management` `claude-code`
   </details>
 
-- **[cowork-to-code-bridge](https://github.com/abhinaykrupa/cowork-to-code-bridge)** `⭐ 13` `updated ≤30d` A bridge that connects Claude Cowork (cloud-based) to Claude Code (local terminal) to allow web-based chats to execute commands on a local machine. <details><summary>More about</summary>
+- **[cowork-to-code-bridge](https://github.com/abhinaykrupa/cowork-to-code-bridge)** `⭐ 13` `updated ≤30d` A bridge that connects the Claude Cowork web interface to a local Claude Code installation, enabling cloud-based chats to execute commands on a local machine. <details><summary>More about</summary>
 
-  It allows developers to leverage the planning capabilities of web-based Claude chats while granting them the ability to actually execute code and manage files in a local environment.
+  It breaks the cloud sandbox limitation, allowing developers to trigger local development workflows like scaffolding, running tests, and managing repos directly from their browser chat.
 
-  _Nothing says 'odern developer workflow' like installing a bridge just so your browser can safely execute shell commands on your laptop._
+  _Just one more seamless bridge to manage before you can finally feel like the AI is actually doing your job._
 
-  `claude-code` `bridge` `automation` `cli` `remote-execution`
+  `claude-code` `claude-cowork` `bridge` `automation` `cli`
   </details>
 
 - **[spyrae/claude-concilium](https://github.com/spyrae/claude-concilium)** `⭐ 13` `updated ≤1y` A multi-agent MCP framework that enables Claude Code to run parallel code consultations with OpenAI, Gemini, Qwen, and DeepSeek for cross-model review and consensus. <details><summary>More about</summary>
@@ -522,7 +513,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `dependencies` `ai-safety` `cli` `guardrails`
   </details>
 
-- **[CNSLabs/agreements-api-sdk](https://github.com/cnslabs/agreements-api-sdk)** `⭐ 2` `updated ≤30d` A TypeScript SDK and MCP server for interacting with the Shodai Agreements API to manage machine-readable coordination workflows. <details><summary>More about</summary>
+- **[CNSLabs/agreements-api-sdk](https://github.com/cnslabs/agreements-api-sdk)** `⭐ 2` `updated ≤90d` A TypeScript SDK and MCP server for interacting with the Shodai Agreements API to manage machine-readable coordination workflows. <details><summary>More about</summary>
 
   It enables developers to integrate verifiable, stateful, and deterministic agreement workflows into agentic systems and applications.
 
@@ -621,13 +612,13 @@ _These are new or low-traffic entries being watched._
   `motion-design` `mcp` `qa-automation` `ui-testing` `claude-code`
   </details>
 
-- **[ClevAgent](https://clevagent.io)** A supervised terminal workspace that intercepts AI agent commands to prevent security risks and wasted token spend. <details><summary>More about</summary>
+- **[ClevAgent](https://clevagent.io)** ClevAgent is a supervised terminal layer that adds guidance and safety checks for AI agents running in developer environments. <details><summary>More about</summary>
 
-  It adds a necessary safety and cost-control layer between autonomous agents and your local system/terminal.
+  It reduces wasted effort and security risks when running AI agents by enforcing guardrails and auditing actions.
 
-  _Now you can finally watch your agent's budget and security profile in real-time while it accidentally tries to delete your home directory._
+  _Another layer of AI supervision that makes you wait for approvals while the agent sits idle, echoing the anxiety of the last year’s AI tooling chaos._
 
-  `agent-safety` `terminal-automation` `observability` `ai-security` `cost-optimization`
+  `ai-dev-extensions` `mcp`
   </details>
 
 - **[Codacy](https://codacy.com)** Codacy is a code quality and security platform that enforces coding standards, including AI-specific policies, across development workflows. <details><summary>More about</summary>

@@ -40,27 +40,27 @@ metadata:
       fetched_at: "2026-09-21T04:13:43.146Z"
       bytes: 5676
 insights:
-  summary: A static analysis tool and CI gate designed to audit MCP servers for unauthorized file system, network, or subprocess access.
-  why_it_matters: It allows developers to verify that third-party MCP servers adhere to their declared permission manifests before they are integrated into an agent's workflow.
-  mental_damage: Because trusting an agent to run untrusted code is fun, until you realize it's also scanning your entire home directory.
+  summary: A static analysis tool and CI gate that extracts the capability surface of MCP servers and verifies them against declared manifests.
+  why_it_matters: It enables developers to prevent MCP servers from silently gaining unauthorized access to files, network, or subprocesses through manifest divergence.
+  mental_damage: Because trusting a third-party MCP server with your local filesystem is a leap of faith we'd all prefer to automate away.
   tags:
     - mcp
     - security
     - static-analysis
-    - ci-cd
+    - ci-gate
     - audit
   confidence: high
 curation:
   status: included
-  reason: The tool's identity is centered entirely on providing governance and inspection specifically for the Model Context Protocol (MCP).
+  reason: The tool's primary identity is a specialized piece of developer tooling for building, testing, and securing the MCP ecosystem.
   evidence:
-    - Description explicitly identifies it as an 'MCP Blast-Radius Auditor'
-    - Functionality includes static extraction of MCP tool attribution
-    - Provides a CLI gate to block merges if MCP manifests diverge from actual code behavior
+    - Repo description defines it as an MCP Blast-Radius Auditor and CI divergence gate.
+    - README describes capabilities like static extraction of network, subprocess, and filesystem access.
+    - The tool provides a CLI for CI gates and an MCP server for auditing.
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Clients & Inspector Tools
+  section: Dev & Code Tools
 lifecycle:
   status: incubating
   reason: null
@@ -77,9 +77,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-13T05:20:28.845Z"
+    updated_at: "2026-09-24T04:24:22.820Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:17f0f1c2d89c6983d728eeef741eca984426d67cb670700e07dc39a56861b62f
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool's primary identity is a specialized piece of developer tooling for building, testing, and securing the MCP ecosystem.
+      decision_evidence:
+        - Repo description defines it as an MCP Blast-Radius Auditor and CI divergence gate.
+        - README describes capabilities like static extraction of network, subprocess, and filesystem access.
+        - The tool provides a CLI for CI gates and an MCP server for auditing.
+      category_candidates:
+        - mcp
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because its core identity is a specialized developer tool for the MCP protocol's security and compliance rather than a generic plugin for a coding assistant.
+      review_reason: null
+      review_resume_lifecycle: null

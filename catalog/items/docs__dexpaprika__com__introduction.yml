@@ -52,23 +52,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: DexPaprika is a developer API providing real-time on-chain cryptocurrency data, including liquidity, swaps, and token metrics across 36+ blockchain networks.
-  why_it_matters: It provides the structured, real-time data streams needed to build finance-aware agents and automated trading analytics.
-  mental_damage: Another API to integrate means another set of rate limits and documentation tabs to manage while you're debugging your agent's logic.
+  summary: DexPaprika API provides on-chain liquidity pool, swap, OHLCV, and token price data across 36 blockchains via REST and SSE streams.
+  why_it_matters: Developers building DeFi, analytics, or trading tools can access real-time and historical crypto market data without API keys or signup.
+  mental_damage: Another free crypto API that promises no-key access while quietly nudging you toward a paid plan for real-time streams.
   tags:
-    - crypto-api
-    - on-chain-data
-    - real-time-streaming
-    - fintech
-    - dex-data
+    - crypto
+    - defi
+    - api
+    - market-data
+    - blockchain
   confidence: high
 curation:
   status: excluded
-  reason: The product is a data provider/SaaS API, not a developer-facing AI tool, agent, or development framework.
+  reason: DexPaprika is a general-purpose market data API for blockchain analytics, not a developer-facing AI tool, agent, framework, or infrastructure with a clear AI-tooling purpose.
   evidence:
-    - Core offering is a REST and SSE streaming API for DEX and on-chain data
-    - Product identity is a data service for developers, not a tool for building AI workflows
-    - Presence in MCP lists is as a server implementation for a specific data domain, not as a general-purpose AI tool
+    - "Scraped site context: API for liquidity pools, swap transactions, OHLCV and token prices across 36 chains over REST and SSE."
+    - "Source-list context: Listed in awesome-mcp-servers as an official MCP server, but MCP is only an adapter feature, not the product identity."
+    - "README/excerpt: Focuses on market data access, tutorials, SDKs, and use cases like price tracking and DEX aggregation—no mention of AI agents, coding assistance, or developer workflows beyond generic API consumption."
 placement:
   primary_category: null
   section: null
@@ -87,24 +87,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:40:28.122Z"
+    updated_at: "2026-09-24T04:38:27.970Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:6afd6d46336cd7294671d826fcfc93f2757b1aeac04df3f7f4c3f478eabbbfde
+      category_rules_version: c367d6101132
+      input_hash: sha256:2a01f37465758348a3e00e360500ab2280bb24abde61192a2e5cad417c3de832
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a data provider/SaaS API, not a developer-facing AI tool, agent, or development framework.
+      decision_reason: DexPaprika is a general-purpose market data API for blockchain analytics, not a developer-facing AI tool, agent, framework, or infrastructure with a clear AI-tooling purpose.
       decision_evidence:
-        - Core offering is a REST and SSE streaming API for DEX and on-chain data
-        - Product identity is a data service for developers, not a tool for building AI workflows
-        - Presence in MCP lists is as a server implementation for a specific data domain, not as a general-purpose AI tool
+        - "Scraped site context: API for liquidity pools, swap transactions, OHLCV and token prices across 36 chains over REST and SSE."
+        - "Source-list context: Listed in awesome-mcp-servers as an official MCP server, but MCP is only an adapter feature, not the product identity."
+        - "README/excerpt: Focuses on market data access, tutorials, SDKs, and use cases like price tracking and DEX aggregation—no mention of AI agents, coding assistance, or developer workflows beyond generic API consumption."
       category_candidates: []
       contrastive_reason: null
       review_reason: null

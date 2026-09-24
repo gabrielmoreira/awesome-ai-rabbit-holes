@@ -36,21 +36,19 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: GitLab's corporate solutions landing page for its platform-wide AI features, not a discrete standalone tool.
-  why_it_matters: It does not represent a specific developer-facing AI product; it is a marketing overview of multiple GitLab AI capabilities rather than a concrete utility developers can adopt on its own.
-  mental_damage: A URL ending in /solutions/artificial-intelligence is the closest the industry has come to just admitting the entire category is a solution in search of a problem.
+  summary: GitLab's landing page for its suite of AI-powered DevOps solutions.
+  why_it_matters: It outlines how AI is being integrated into the broader CI/CD and repository management lifecycle.
+  mental_damage: The creeping realization that your entire DevOps lifecycle is being absorbed into a single, monolithic, AI-enabled SaaS.
   tags:
-    - platform-page
     - gitlab
-    - ai-solutions
+    - devops
   confidence: high
 curation:
   status: excluded
-  reason: This is a broad corporate marketing page rather than a standalone, practical AI developer tool with a discrete identity and specific function.
+  reason: This is a high-level marketing landing page for an enterprise platform rather than a specific, standalone AI tool, agent, or framework.
   evidence:
-    - URL is a corporate solutions page (about.gitlab.com/solutions/artificial-intelligence) with no repo, README, or standalone product descriptor
-    - No concrete tool claims or developer workflow claims provided beyond the platform-level topic
-    - Functions as an auxiliary resource page summarizing multiple GitLab AI features rather than a single tool
+    - URL points to a product solution page rather than a codebase or tool
+    - Lacks a specific repo, SDK, or standalone agent identity
 placement:
   primary_category: null
   section: null
@@ -69,24 +67,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:13:17.483Z"
+    updated_at: "2026-09-24T04:30:08.647Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:786d169725a6ba249d61cccd9db43c074ae8452e5acee8ef2d30b9a8b699a49e
+      category_rules_version: c367d6101132
+      input_hash: sha256:ec10ab569101424d30d054f65d24da1cc5e100db5fe9ce049590cb23b7237525
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a broad corporate marketing page rather than a standalone, practical AI developer tool with a discrete identity and specific function.
+      decision_reason: This is a high-level marketing landing page for an enterprise platform rather than a specific, standalone AI tool, agent, or framework.
       decision_evidence:
-        - URL is a corporate solutions page (about.gitlab.com/solutions/artificial-intelligence) with no repo, README, or standalone product descriptor
-        - No concrete tool claims or developer workflow claims provided beyond the platform-level topic
-        - Functions as an auxiliary resource page summarizing multiple GitLab AI features rather than a single tool
+        - URL points to a product solution page rather than a codebase or tool
+        - Lacks a specific repo, SDK, or standalone agent identity
       category_candidates: []
       contrastive_reason: null
       review_reason: null

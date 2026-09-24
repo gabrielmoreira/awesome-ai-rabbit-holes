@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__vals__ai__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -21,7 +21,7 @@ provenance:
         surrounding_text: 3. [Vals AI](https://www.vals.ai/home) `evaluation`
         confidence: high
     - id: discovery__www__vals__ai__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-07-13T05:12:52.223Z'
+      discovered_at: "2026-07-13T05:12:52.223Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -51,29 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A domain-specific benchmarking platform for evaluating AI models across legal, tax, finance, and software
-    engineering tasks.
-  why_it_matters: >-
-    It provides industry-specific benchmarks like the Excel Modeling Benchmark to help developers assess model
-    performance in highly specialized professional workflows.
-  mental_damage: 'Because knowing your model is #2 in legal research isn''t much comfort when it still can''t pass a simple unit test.'
+  summary: A benchmarking platform providing independent evaluations of AI models across specialized domains such as finance, law, and software engineering.
+  why_it_matters: It allows developers to move beyond generic benchmarks and select models based on their actual competence in high-stakes, domain-specific workflows.
+  mental_damage: Just one more leaderboard to add to the pile of reasons to feel like you are always one day behind the state-of-the-art.
   tags:
-    - benchmarking
+    - benchmarks
+    - evals
+    - llm-evaluation
     - domain-specific
-    - evaluation
-    - finance
-    - legal
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product's core identity is measuring and comparing model performance on complex, specialized tasks rather than
-    acting as an assistant or framework.
+  reason: The tool's primary identity is measuring and comparing model performance through domain-specific benchmarks, which fits the 'evals' category definition perfectly.
   evidence:
-    - Claims to run proprietary benchmarks in finance, law, and software
-    - Provides a comparative 'Vals Index' for various models
-    - Features specific industry benchmarks like Excel Modeling Benchmark
+    - The site explicitly describes itself as providing 'independent, unbiased benchmarks' for testing AI on real-world tasks.
+    - It hosts multiple specialized evaluation suites including the Vals Index, CorpFin v2, and Legal Research Bench.
 placement:
   primary_category: evals
   secondary_categories: []
@@ -84,15 +76,32 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-07-13T05:23:55.061Z'
+    updated_at: "2026-09-24T04:25:11.716Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:c926bea74ef5f6ff7702fab63dccfb097ed9912490539feaf0c3106db257cd40
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The tool's primary identity is measuring and comparing model performance through domain-specific benchmarks, which fits the 'evals' category definition perfectly.
+      decision_evidence:
+        - The site explicitly describes itself as providing 'independent, unbiased benchmarks' for testing AI on real-world tasks.
+        - It hosts multiple specialized evaluation suites including the Vals Index, CorpFin v2, and Legal Research Bench.
+      category_candidates:
+        - evals
+        - ai-frameworks
+      contrastive_reason: Choose evals over ai-frameworks because the product's core value is the measurement and scoring of model behavior rather than being a library used to build applications.
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.971Z'
+    updated_at: "2026-07-21T15:20:21.971Z"
     cause: null
     next_retry_at: null
   stars:

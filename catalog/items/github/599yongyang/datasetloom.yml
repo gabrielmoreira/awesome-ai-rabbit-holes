@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__599yongyang__datasetloom__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,7 @@ provenance:
           - 数据 Data
         anchor_text: DatasetLoom (`multimodal`)
         extracted_url: https://github.com/599yongyang/datasetloom
-        surrounding_text: '40. [DatasetLoom (`multimodal`)](https://github.com/599yongyang/DatasetLoom): 一个面向多模态大模型训练的智能数据集构建与评估平台.'
+        surrounding_text: "40. [DatasetLoom (`multimodal`)](https://github.com/599yongyang/DatasetLoom): 一个面向多模态大模型训练的智能数据集构建与评估平台."
         confidence: high
 metadata:
   github:
@@ -29,10 +29,10 @@ metadata:
     archived: false
     full_name: 599yongyang/DatasetLoom
     html_url: https://github.com/599yongyang/DatasetLoom
-    created_at: '2025-05-10T10:17:00Z'
-    pushed_at: '2025-12-13T04:58:45Z'
+    created_at: "2025-05-10T10:17:00Z"
+    pushed_at: "2025-12-13T04:58:45Z"
     description: 一个面向多模态大模型训练的智能数据集构建与评估平台
-    homepage: ''
+    homepage: ""
     topics:
       - ai
       - dataset
@@ -42,32 +42,24 @@ metadata:
       - shadcn-ui
       - typescript
       - vlm
-    last_checked_at: '2026-09-17T04:13:26.515Z'
+    last_checked_at: "2026-09-17T04:13:26.515Z"
     readme:
-      fetched_at: '2026-09-17T04:13:26.515Z'
+      fetched_at: "2026-09-17T04:13:26.515Z"
       bytes: 8501
 insights:
-  summary: >-
-    An intelligent platform for constructing and evaluating multimodal training datasets, supporting SFT, DPO, and
-    RAG-enhanced data generation.
-  why_it_matters: >-
-    It automates the complex pipeline of transforming unstructured documents and images into high-quality, structured
-    datasets for fine-tuning multimodal models.
-  mental_damage: >-
-    Nothing says 'caling your LLM' like spending your afternoon debugging a RAG-driven data pipeline just to get a
-    semi-decent DPO dataset.
+  summary: DatasetLoom is a TypeScript-based monorepo platform for building and evaluating multimodal training datasets for large language models.
+  why_it_matters: It provides a complete workflow for AI engineers to generate high-quality SFT/DPO datasets from documents and images, improving training data quality and reproducibility.
+  mental_damage: Another data tool that promises to solve the 'garbage in, garbage out' problem while adding yet another layer to the AI development stack.
   tags:
+    - ai
+    - dataset
+    - llm
     - multimodal
-    - dataset-generation
-    - sft
-    - dpo
-    - rag
-  confidence: high
+    - typescript
+  confidence: medium
 curation:
   status: included
-  reason: >-
-    The core utility focuses on the automated creation, scoring, and evaluation of model outputs and datasets, fitting
-    the evaluation and data quality profile.
+  reason: The core utility focuses on the automated creation, scoring, and evaluation of model outputs and datasets, fitting the evaluation and data quality profile.
   evidence:
     - Claims ability to perform 'AI automatic scoring' and model output comparison
     - Supports SFT and DPO dataset construction pipelines
@@ -75,48 +67,44 @@ curation:
 placement:
   primary_category: local-ai
   secondary_categories: []
-  section: Fine-tuning & Training
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (285) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; invalid primary 'ai-dev-extensions' promoted runner-up 'coding-agents'; placement disagreement: retained 'local-ai', proposed 'coding-agents'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.598Z'
+    updated_at: "2026-05-06T22:12:15.598Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:26.516Z'
+    updated_at: "2026-09-17T04:13:26.516Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: '2026-07-20T15:50:34.257Z'
+    updated_at: "2026-09-24T04:41:11.135Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d02e970bf6cfd35ecacfae519866a288821b7e4f77f3a83a9cb837553cda9517
-      proposed_primary_category: evals
-      disagreement: false
-      decision_reason: >-
-        The core utility focuses on the automated creation, scoring, and evaluation of model outputs and datasets,
-        fitting the evaluation and data quality profile.
+      category_rules_version: c367d6101132
+      input_hash: sha256:4e89df67abb0a645913a298967379632ca8174679b209c5fcdb9874935a616d6
+      proposed_primary_category: coding-agents
+      disagreement: true
+      decision_reason: DatasetLoom is a memory and context infrastructure tool for AI agents rather than a coding agent itself.
       decision_evidence:
-        - Claims ability to perform 'AI automatic scoring' and model output comparison
-        - Supports SFT and DPO dataset construction pipelines
-        - Integrates RAG to generate verifiable, professional dialogue datasets
+        - The README explicitly states it supports 'RAG capability' and 'driving models based on real knowledge' for generating training data
+        - It includes 'context7' style persistent memory and retrieval features through Qdrant vector database integration
+        - The project focuses on 'intelligent dataset construction' rather than autonomous code generation or editing
       category_candidates:
-        - evals
-        - ai-frameworks
-      contrastive_reason: >-
-        Choose evals over ai-frameworks because the primary value proposition is the evaluation of output quality and
-        the automated construction of training benchmarks rather than a code-first SDK.
-      review_reason: null
+        - ai-dev-extensions
+        - coding-agents
+      contrastive_reason: Choose ai-dev-extensions over coding-agents because it provides memory and retrieval infrastructure for agents rather than acting as the primary coding assistant.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; invalid primary 'ai-dev-extensions' promoted runner-up 'coding-agents'; placement disagreement: retained 'local-ai', proposed 'coding-agents'"
       review_resume_lifecycle: null

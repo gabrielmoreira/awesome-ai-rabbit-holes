@@ -36,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Agent Mindshare is a hosted SaaS platform that monitors how brands appear across consumer AI agents and search services such as ChatGPT, Claude, Gemini, and Perplexity, offering sentiment analysis, competitor tracking, and periodic reporting.
-  why_it_matters: It matters to marketers tracking 'AI mindshare,' but it is not developer tooling and does not change software development workflows.
-  mental_damage: The product ships a remote MCP server so Claude Code can perform 'vibe SEO/geo' research, ensuring brand managers can now panic about LLM summarization in the same terminal where developers are trying to ship code.
+  summary: A brand monitoring platform that tracks how LLMs and AI agents perceive a company's brand and sentiment.
+  why_it_matters: It allows brands to measure their 'mindshare' and sentiment across different AI models and search services.
+  mental_damage: Because now we need SEO specialists to optimize for an LLM's vibe check.
   tags:
     - brand-monitoring
-    - ai-search
-    - sentiment-analysis
-    - saas
-    - mcp-integration
+    - mcp
+    - marketing
+    - seo
   confidence: high
 curation:
   status: excluded
-  reason: It is a brand-monitoring and marketing-analytics SaaS for agencies and brand managers, not a developer-facing AI tool, framework, or infrastructure product; MCP support is an accessory feature, not the product identity.
+  reason: The tool is primarily a marketing platform for brand visibility and sentiment analysis, rather than a developer-facing tool for building or managing AI software.
   evidence:
-    - Scraped site positions the product as an 'AI Agent Visibility Platform' for tracking brand perception across ChatGPT, Claude, Gemini, and Perplexity.
-    - Core offering is marketing analytics with agency workflows, location targeting, and credit-based pricing rather than code generation, agent orchestration, or dev workflows.
-    - MCP integration is listed as an 'Advanced' add-on for 'your favorite AI marketing agents,' not as MCP-first developer tooling.
+    - Primary product identity is an AI visibility platform for brands and agencies
+    - MCP support is an auxiliary feature to enable research via agents rather than the product's core identity
 placement:
   primary_category: null
   section: null
@@ -71,24 +69,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:16:48.791Z"
+    updated_at: "2026-09-24T04:31:53.873Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:1ca3fbb3a500c66dba1edee38a1878ad88a9fc764cae136abf392ecd42cc3e7f
+      category_rules_version: c367d6101132
+      input_hash: sha256:f308fcadd2d66de9fd45179a031a122b63baeffd93190dcf49f060f55dfdfa98
       proposed_primary_category: null
       disagreement: false
-      decision_reason: It is a brand-monitoring and marketing-analytics SaaS for agencies and brand managers, not a developer-facing AI tool, framework, or infrastructure product; MCP support is an accessory feature, not the product identity.
+      decision_reason: The tool is primarily a marketing platform for brand visibility and sentiment analysis, rather than a developer-facing tool for building or managing AI software.
       decision_evidence:
-        - Scraped site positions the product as an 'AI Agent Visibility Platform' for tracking brand perception across ChatGPT, Claude, Gemini, and Perplexity.
-        - Core offering is marketing analytics with agency workflows, location targeting, and credit-based pricing rather than code generation, agent orchestration, or dev workflows.
-        - MCP integration is listed as an 'Advanced' add-on for 'your favorite AI marketing agents,' not as MCP-first developer tooling.
+        - Primary product identity is an AI visibility platform for brands and agencies
+        - MCP support is an auxiliary feature to enable research via agents rather than the product's core identity
       category_candidates: []
       contrastive_reason: null
       review_reason: null

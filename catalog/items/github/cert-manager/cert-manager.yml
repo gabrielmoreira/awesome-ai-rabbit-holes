@@ -76,13 +76,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-09-07T04:13:42.900Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-09-24T04:13:09.293Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for cert-manager/cert-manager
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-21T04:14:01.561Z"
+    updated_at: "2026-09-24T04:13:12.444Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

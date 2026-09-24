@@ -52,23 +52,23 @@ metadata:
       fetched_at: "2026-09-21T04:13:47.242Z"
       bytes: 19837
 insights:
-  summary: clu is a local-first SQLite issue tracker CLI for coordinating AI coding agents with atomic claims, dependency graphs, and audit logging.
-  why_it_matters: It lets developers run multiple AI agents on the same codebase without conflicts by providing durable, local coordination of work, checkpoints, and inter-agent communication.
-  mental_damage: Finally, a way to make your AI agents can't-blame-the-tools when your fleet of AI interns overwrites each other's PRs.
+  summary: A local-first, SQLite-backed issue tracker and coordination layer designed to manage multiple AI coding agents on a single machine.
+  why_it_matters: It provides a durable, shared state and dependency management system that allows multiple autonomous agents to collaborate on a codebase without conflicting or duplicating work.
+  mental_damage: Nothing says 'modern developer experience' like needing an issue tracker and dependency graph just to manage your autonomous agent fleet.
   tags:
-    - agent-coordination
-    - local-first
-    - cli
     - sqlite
-    - issue-tracker
+    - multi-agent
+    - orchestration
+    - cli
+    - local-first
   confidence: high
 curation:
   status: included
-  reason: clu is included as an agent orchestration tool because its core purpose is coordinating multiple AI agents via shared state, dependency graphs, and workflow management—not acting as a coding assistant itself.
+  reason: It acts as a coordination layer that manages shared state, task dependencies, and agent concurrency rather than being a single coding agent itself.
   evidence:
-    - "Repo description: 'Local-first SQLite issue tracker for coordinating AI coding agents — atomic claim, dependency graphs, workflows & checkpoints, audit log. No daemon, no network.'"
-    - "README highlights: Atomic claim, capability routing, bulk graph instantiation, cascading cancel, milestones & phases, agent launcher, workflow templates, named locks + mailbox, and web UI for Kanban/graph views."
-    - "Source-list context: Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure'."
+    - README defines it as an 'agent-coordination issue tracker'
+    - Features include atomic claims, dependency graphs, and capability routing for multiple agents
+    - Provides a CLI and local Web UI to manage agent workstreams via a SQLite database
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
@@ -89,9 +89,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-07-02T05:32:17.454Z"
+    updated_at: "2026-09-24T04:20:27.529Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:252b20e004aee2ba660149f9dab4a6e7bb82f953dd8cf66f874ad3c8cf7a5ca5
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: It acts as a coordination layer that manages shared state, task dependencies, and agent concurrency rather than being a single coding agent itself.
+      decision_evidence:
+        - README defines it as an 'agent-coordination issue tracker'
+        - Features include atomic claims, dependency graphs, and capability routing for multiple agents
+        - Provides a CLI and local Web UI to manage agent workstreams via a SQLite database
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because clu's primary purpose is managing the relationships, tasks, and state between multiple agents rather than performing the actual code editing.
+      review_reason: null
+      review_resume_lifecycle: null

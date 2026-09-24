@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__2s-io__sdk__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-06-18T05:40:04.065Z'
+      discovered_at: "2026-06-18T05:40:04.065Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,15 +20,7 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: 2s-io/sdk
         extracted_url: https://github.com/2s-io/sdk
-        surrounding_text: >-
-          - [2s-io/sdk](https://github.com/2s-io/sdk) [![2s-io/sdk MCP
-          server](https://glama.ai/mcp/servers/2s-io/sdk/badges/score.svg)](https://glama.ai/mcp/servers/2s-io/sdk) 📇
-          ☁️ 🍎 🪟 🐧 - Unified API for AI agents — 180+ tools across geocoding, weather (NWS), climate stations (NOAA),
-          earthquakes (USGS), tides (NOAA), points of interest (OpenStreetMap), patents (USPTO ODP), US case law
-          (CourtListener / Free Law Project), Federal Register, Wikipedia, scientific papers (arXiv / PubMed / Semantic
-          Scholar), AI summarize / translate / extract / screenshot / image-describe, image compression, DNS / WHOIS,
-          crypto address-validate + EVM gas oracle, OFAC sanctions screening, US Census ACS demographics, airport / ZIP
-          lookup. Sub-cent to a few cents per call in USDC on Base via x402 — no API keys, no signup. `npx -y @2sio/mcp`
+        surrounding_text: "- [2s-io/sdk](https://github.com/2s-io/sdk) [![2s-io/sdk MCP server](https://glama.ai/mcp/servers/2s-io/sdk/badges/score.svg)](https://glama.ai/mcp/servers/2s-io/sdk) 📇 ☁️ 🍎 🪟 🐧 - Unified API for AI agents — 180+ tools across geocoding, weather (NWS), climate stations (NOAA), earthquakes (USGS), tides (NOAA), points of interest (OpenStreetMap), patents (USPTO ODP), US case law (CourtListener / Free Law Project), Federal Register, Wikipedia, scientific papers (arXiv / PubMed / Semantic Scholar), AI summarize / translate / extract / screenshot / image-describe, image compression, DNS / WHOIS, crypto address-validate + EVM gas oracle, OFAC sanctions screening, US Census ACS demographics, airport / ZIP lookup. Sub-cent to a few cents per call in USDC on Base via x402 — no API keys, no signup. `npx -y @2sio/mcp`"
         confidence: high
 metadata:
   github:
@@ -38,37 +30,29 @@ metadata:
     archived: false
     full_name: 2s-io/sdk
     html_url: https://github.com/2s-io/sdk
-    created_at: '2026-05-28T19:34:51Z'
-    pushed_at: '2026-08-21T13:33:27Z'
+    created_at: "2026-05-28T19:34:51Z"
+    pushed_at: "2026-08-21T13:33:27Z"
     description: Client API wrapper for 2s.io.
-    homepage: ''
+    homepage: ""
     topics: []
-    last_checked_at: '2026-09-17T04:13:26.023Z'
+    last_checked_at: "2026-09-17T04:13:26.023Z"
     readme:
-      fetched_at: '2026-09-17T04:13:26.023Z'
+      fetched_at: "2026-09-17T04:13:26.023Z"
       bytes: 9869
 insights:
-  summary: >-
-    A client API wrapper and MCP server for 2s.io, providing AI agents with ground-truth data across hundreds of
-    endpoints via pay-per-call USDC payments.
-  why_it_matters: >-
-    It enables agents to access verified real-world data (patents, CVEs, IBANs) without the overhead of managing dozens
-    of individual API keys or monthly subscriptions.
-  mental_damage: >-
-    We've finally reached the era where my AI agent has its own crypto wallet to micromanage $0.001 payments for an IBAN
-    validation.
+  summary: A multi-language client SDK and MCP server for accessing ground-truth data via the 2s.io API.
+  why_it_matters: It allows developers to equip agents with real-world data (like patents, finance, and law) using a keyless, pay-per-call billing model via USDC.
+  mental_damage: "It is the logical conclusion of the 'pay-per-token' era: now you're paying per real-world fact in crypto."
   tags:
+    - sdk
     - mcp
-    - api-aggregator
-    - web3
+    - api
     - agent-tools
-    - pay-per-call
+    - crypto
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product identity is centered on providing a standardized MCP server that gives agents access to a wide range of
-    external data tools.
+  reason: The product identity is centered on providing a standardized MCP server that gives agents access to a wide range of external data tools.
   evidence:
     - Ships an MCP server for MCP-aware hosts
     - Specifically listed in awesome-mcp-servers as an aggregator
@@ -76,26 +60,44 @@ curation:
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-frameworks'"
 processing:
   discover:
     status: done
-    updated_at: '2026-06-18T05:40:04.065Z'
+    updated_at: "2026-06-18T05:40:04.065Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:26.023Z'
+    updated_at: "2026-09-17T04:13:26.023Z"
     cause: null
     next_retry_at: null
   categorize:
     status: done
-    updated_at: '2026-06-18T05:41:52.690Z'
+    updated_at: "2026-09-24T04:16:04.889Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:c073ba6e4ec2bd57ce5eeab41a9fcd16cfe9f8d58007d29dcc711f0a2372ad96
+      proposed_primary_category: ai-frameworks
+      disagreement: true
+      decision_reason: The core product identity is a multi-language provider SDK used to build applications, with the MCP server serving as a compatibility layer.
+      decision_evidence:
+        - Repo description explicitly calls it a 'Client API wrapper'.
+        - README provides direct installation instructions for TypeScript, Python, Go, and Rust SDKs.
+        - MCP server is offered as one of several ways to interface with the underlying 2s.io API.
+      category_candidates:
+        - ai-frameworks
+        - mcp
+      contrastive_reason: Choose ai-frameworks over mcp because the primary utility is the multi-language SDK for developers to program against, rather than being an MCP-first infrastructure product.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-frameworks'"
+      review_resume_lifecycle: null

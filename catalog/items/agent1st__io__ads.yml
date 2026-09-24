@@ -37,21 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An autonomous AI agent that creates, monitors, and optimizes paid advertising campaigns on Meta and TikTok, offered as a tiered SaaS subscription.
-  why_it_matters: It automates media-buying workflows for businesses, though it sits outside software-development tooling.
-  mental_damage: Your coding agent ships the app, your ad agent buys the traffic, and your finance agent files for bankruptcy—all without human intervention.
+  summary: An autonomous agent for creating, monitoring, and optimizing paid advertising campaigns on Meta and TikTok.
+  why_it_matters: It aims to automate the media buying and ad optimization process to drive conversions without a human media buyer.
+  mental_damage: Because once the agents are running our ad spend, we'll finally have more time to stare at the debugging logs of the agents running our code.
   tags:
-    - advertising-agent
-    - marketing-automation
+    - marketing
+    - ad-ops
     - mcp
+    - autonomous-agents
   confidence: high
 curation:
   status: excluded
-  reason: The product is a vertical SaaS agent for business advertising operations on Meta and TikTok, not a developer-facing tool for building, editing, or orchestrating software.
+  reason: The tool is a marketing automation product for ad operations, which falls outside the scope of developer-facing AI tooling.
   evidence:
-    - Site title and excerpt frame the product as an autonomous agent for paid Meta and TikTok advertising campaigns.
-    - Pricing and feature set (campaign creation, ROAS tracking, audience targeting) target media buyers and businesses, not software developers.
-    - MCP is mentioned only as a protocol plug-in to an existing AI agent stack, not as the product's core identity.
+    - The primary function is managing Meta and TikTok advertising campaigns
+    - The product is targeted at business growth and ad optimization rather than the software development lifecycle
 placement:
   primary_category: null
   section: null
@@ -70,24 +70,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:16:23.200Z"
+    updated_at: "2026-09-24T04:31:46.974Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:78e48cd8d7fa7c648d02e6553d12b0148e2770cef28af5b721a37184aa1d1e56
+      category_rules_version: c367d6101132
+      input_hash: sha256:f7743aeba5bd1bb70287fb1ffc9a6a40b9fd4854a9974c17fb59c5c22ecc15e3
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a vertical SaaS agent for business advertising operations on Meta and TikTok, not a developer-facing tool for building, editing, or orchestrating software.
+      decision_reason: The tool is a marketing automation product for ad operations, which falls outside the scope of developer-facing AI tooling.
       decision_evidence:
-        - Site title and excerpt frame the product as an autonomous agent for paid Meta and TikTok advertising campaigns.
-        - Pricing and feature set (campaign creation, ROAS tracking, audience targeting) target media buyers and businesses, not software developers.
-        - MCP is mentioned only as a protocol plug-in to an existing AI agent stack, not as the product's core identity.
+        - The primary function is managing Meta and TikTok advertising campaigns
+        - The product is targeted at business growth and ad optimization rather than the software development lifecycle
       category_candidates: []
       contrastive_reason: null
       review_reason: null

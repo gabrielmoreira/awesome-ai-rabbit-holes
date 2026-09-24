@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aaronrussell__shifts__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -20,9 +20,7 @@ provenance:
           - Swift, Ruby & Elixir Frameworks
         anchor_text: shifts
         extracted_url: https://github.com/aaronrussell/shifts
-        surrounding_text: >-
-          | [shifts](https://github.com/aaronrussell/shifts) | Elixir framework for composing autonomous AI agent
-          workflows | ![Stars](https://img.shields.io/github/stars/aaronrussell/shifts) |
+        surrounding_text: "| [shifts](https://github.com/aaronrussell/shifts) | Elixir framework for composing autonomous AI agent workflows | ![Stars](https://img.shields.io/github/stars/aaronrussell/shifts) |"
         confidence: high
 metadata:
   github:
@@ -32,10 +30,10 @@ metadata:
     archived: false
     full_name: aaronrussell/shifts
     html_url: https://github.com/aaronrussell/shifts
-    created_at: '2024-04-06T15:37:01Z'
-    pushed_at: '2024-06-21T15:31:15Z'
+    created_at: "2024-04-06T15:37:01Z"
+    pushed_at: "2024-06-21T15:31:15Z"
     description: Elixir framework for composing autonomous AI agent workflows.
-    homepage: ''
+    homepage: ""
     topics:
       - agentic
       - anthropic
@@ -44,16 +42,14 @@ metadata:
       - llms
       - ollama
       - openai
-    last_checked_at: '2026-09-17T04:13:27.859Z'
+    last_checked_at: "2026-09-17T04:13:27.859Z"
     readme:
-      fetched_at: '2026-09-17T04:13:27.859Z'
+      fetched_at: "2026-09-17T04:13:27.859Z"
       bytes: 2000
 insights:
   summary: An Elixir framework for composing autonomous AI agent workflows using various LLM backends.
-  why_it_matters: >-
-    It allows Elixir developers to build complex, multi-model agentic workflows using familiar piping and functional
-    patterns.
-  mental_damage: 'Just what your Elixir codebase needed: another layer of non-deterministic concurrency to debug.'
+  why_it_matters: It allows Elixir developers to build complex, multi-model agentic workflows using familiar piping and functional patterns.
+  mental_damage: "Just what your Elixir codebase needed: another layer of non-deterministic concurrency to debug."
   tags:
     - elixir
     - agent-orchestration
@@ -78,19 +74,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.598Z'
+    updated_at: "2026-05-06T22:12:15.598Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:27.859Z'
+    updated_at: "2026-09-17T04:13:27.859Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-07-20T15:53:28.823Z'
-    cause: null
-    attempts: 2
+    status: deferred
+    updated_at: "2026-09-24T04:41:31.372Z"
+    cause:
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__aaronrussell__shifts: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)"
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
     next_retry_at: null
@@ -109,9 +107,6 @@ processing:
       category_candidates:
         - ai-frameworks
         - agent-orchestration
-      contrastive_reason: >-
-        Choose ai-frameworks over agent-orchestration because the developer primarily interacts with the tool by
-        importing it as an SDK/library into an existing Elixir project rather than operating it as a standalone control
-        plane.
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the developer primarily interacts with the tool by importing it as an SDK/library into an existing Elixir project rather than operating it as a standalone control plane.
       review_reason: null
       review_resume_lifecycle: null

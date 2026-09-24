@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pazi__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-06-18T05:40:04.065Z'
+      discovered_at: "2026-06-18T05:40:04.065Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Coding Agents
         anchor_text: Pythagora
         extracted_url: https://pythagora.ai
-        surrounding_text: '- **[Pythagora](https://pythagora.ai/)** – AI agent that builds apps through conversational interaction.'
+        surrounding_text: "- **[Pythagora](https://pythagora.ai/)** – AI agent that builds apps through conversational interaction."
         confidence: high
 metadata:
   github:
@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,17 +36,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI coding agent designed for automating software development tasks.
-  why_it_matters: >-
-    It aims to streamline the development lifecycle by providing an autonomous agent capable of handling complex coding
-    tasks.
-  mental_damage: >-
-    Another agent to manage, because the only thing missing from my workflow was another black box that might
-    accidentally rewrite my entire auth layer.
+  summary: An agent orchestration platform that coordinates specialized AI teams to execute business workflows and strategic planning.
+  why_it_matters: It allows founders and developers to shift from manual task execution to high-level oversight of an autonomous multi-agent workforce.
+  mental_damage: One more dashboard to monitor to ensure your 'autonomous' AI team hasn't reached a consensus to pivot your startup into a lemonade stand.
   tags:
-    - coding-agent
-    - automation
-    - autonomous
+    - agent-orchestration
+    - multi-agent
+    - business-automation
+    - saas-builder
   confidence: medium
 curation:
   status: included
@@ -52,20 +51,18 @@ curation:
   evidence:
     - Included in awesome-ai-agents under 'Coding Agents'
     - Marketed as an AI agent for software development automation
-    - >-
-      Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct code
-      collaboration.
+    - Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct code collaboration.
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Autonomous & Multi-Agent Coding
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
 processing:
   discover:
     status: done
-    updated_at: '2026-06-18T05:40:04.066Z'
+    updated_at: "2026-06-18T05:40:04.066Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-06-18T05:43:07.057Z'
+    updated_at: "2026-09-24T04:17:55.793Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: c367d6101132
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: c367d6101132
+      input_hash: sha256:9fc23163b38ef088e267b903969d6b70dd8f44bbdd7274b955f07a2c5c8b1bfb
+      proposed_primary_category: agent-orchestration
+      disagreement: true
+      decision_reason: Pazi functions as a hosted control plane for managing specialized agent teams rather than a single coding assistant or a simple prompt-to-app generator.
+      decision_evidence:
+        - Claims to build an 'AI team' of specialized agents that coordinate within a workflow
+        - Provides a centralized 'Business Pulse' dashboard to manage agent tasks and opportunities
+        - Focuses on long-running business operations and task management rather than just code generation
+      category_candidates:
+        - agent-orchestration
+        - app-builders
+      contrastive_reason: Choose agent-orchestration over app-builders because the core identity is the ongoing coordination and management of a multi-agent workforce rather than the one-shot generation of a deployable code artifact.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+      review_resume_lifecycle: null
